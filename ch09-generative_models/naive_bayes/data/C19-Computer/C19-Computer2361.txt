@@ -1,0 +1,141 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第8期 Vol.36 No.8 1999
+
+
+
+GLCA算法的收敛性分析
+李晶皎　张　俐　姚天顺
+摘　要　模糊聚类分析算法能够通过目标函数准确地用公式表述聚类准则，从而较好地解决分类问题.GLCA算法与具有代表性的模糊聚类分析算法FCM相比较其特点是：不需要选择权指数，并把概率密度扩充到模糊测度.本文对GLCA算法进行了收敛性分析，证明了GLCA算法的不收敛性，同时给出了GLCA算法不收敛的例子.
+关键词　GLCA算法， 收敛性， 目标函数
+中图法分类号　TP391
+CONVERGENCE ANALYSIS OF THE Gλ CLUSTERING ALGORITHM
+LI Jing-Jiao, ZHANG Li, and YAO Tian-Shun
+(School of Information Science and Engineering, Northeastern University, Shenyang 110006)
+Abstract　The clustering methods can exactly describe clustering criterion with formulations by the objective function. The classification problem can be better solved. In comparison with the representative fuzzy C-means (FCM) algorithm, the advantage of the gλ clustering algorithm (GLCA) is that the selection of weighting exponent is not required and it extends the probability density to the fuzzy measure. In the paper here the convergence analysis of the gλ clustering algorithm is conducted, the divergence of the gλ clustering algorithm is proved, and the non-convergent example is presented.
+Key words　GLCA algorithm, convergence, objective function
+　　在各种聚类分析方法中,目标函数方法能够较准确地用公式表述聚类准则,而应用模糊理论可以使一些聚类问题得到较合理的解决.因此，许多学者从事模糊聚类分析算法的研究［1,2］,其中具有代表性的算法是Bezdek的FCM［3］聚类分析算法.由于模糊聚类分析算法能够较好地解决分类问题，因而在图像识别、矢量量化和语音识别［4］等方面得到应用.
+　　由波兰学者 Leszczynski［5］ 发表在“Fuzzy Sets and Systems”的GLCA算法(the gλ clustering algorithm(简称GLCA)) 使用Sugeno的gλ测度的性质进行聚类分析，将该算法与Bezdek提出的FCM算法相比较，GLCA算法的优点是：不需要选择权指数，并把概率密度扩充到模糊测度.
+　　我们在使用GLCA算法对一些样本集进行聚类分析时发现GLCA算法有不收敛的问题.因此本文从理论上证明GLCA算法的不收敛性，并给出了不收敛的例子.首先简单地介绍一下GLCA算法.
+1　GLCA算法
+　　Leszczynski利用Sugeno的gλ测度的性质完成模糊聚类分析.
+　　定义1. GLCA算法的目标函数.
+
+其中G={gij}是模糊密度矩阵，n是样本数，k是聚类中心个数，dij是从样本xj至第i类中心的距离，gij是xj对第i类中心的隶属程度，它满足下列条件：
+
+　　为了求解J(G，V)的最小值，我们引入了Lagrangian乘子集合{αj}, 则Lagrangian函数为
+
+由式(3)和，我们得到
+
+
+其中
+由式(2)和式(5)，可以得到λj的约束条件是
+
+　　GLCA算法如下：
+　　① 给定每个样本xj的初始值，设置G=｛gij｝的初始值，迭代次数收敛阈值e;
+　　② 用式(4)计算vi；
+　　③ 根据式(6)调节λj；
+　　④ 用式(5)计算G；
+　　⑤ 如果那么结束；否则L=L+1并转向②；如果xj满足,则xj属于第i类.
+2　GLCA算法的收敛性分析
+　　为了证明GLCA算法不满足收敛性条件，我们用类似于Bezdek证明FCM算法［6］收敛的方法(zangwill定理［7］)来证明GLCA算法不满足收敛性条件.
+　　如果GLCA算法是收敛的，那么GLCA算法应满足zangwill定理的3个条件，其中zangwill定理第一个条件是J(G，V)是下降函数；若J(G，V)是下降函数，则下面的命题应该成立.
+　　命题：如果GLCA算法收敛，那么对于给定的V，L(G)=J(G,V),当且仅当用式(5)计算是L的严格局部极小点.
+　　如果GLCA算法不收敛，那么命题将不成立，且不能满足收敛条件.
+　　证明. 为了去掉不等式约束0≤gij≤1，令
+　　　因此gij≥0且有gij≤1
+　　我们可以重写Lagrangian函数：
+
+　　如果是L的极小点，0那么有
+也就是
+　　(1) 
+　　(2)　由(1)和(2)可得
+　　(3) 
+同乘并用式(3)，可得
+　　(4) 
+消去变量l并再使用式(3)，可得
+　　(5) 
+由(4)可得
+　　(6)
+将(5)代入(6)，得到
+因此G满足式(5)的必要条件.
+　　为了证明充分性，我们需要考虑在处L的的Hessian矩阵，也就是
+
+其中
+因此，则L在处的Hessian矩阵是实对称矩阵.
+
+H()的主子式是：
+
+也就是
+因此矩阵H()在G处不是正定矩阵，不是L的严格局部极小点，故命题不成立.
+　　由于GLCA算法不满足收敛定理的条件，所以GLCA算法不收敛.
+3　实例分析
+
+
+图1　数据样本集和FCM算法的聚类结果
+　　我们给出一个GLCA算法不收敛的实例，人为给定的样本集如图1所示，对这组数据分别用FCM算法和GLCA算法进行聚类分析（FCM算法的权指数m=2，阈值e=0.0005；GLCA算法的阈值e=0.0005).
+　　在两种算法中，给定的初始值V（0）均是相同的.当k=3时结果如表1所示，此时两种算法的结果基本相同，目标函数均是下降的.当k=8时结果如表2所示，对于FCM算法目标函数是下降的，聚类分析结果如图1所示；对于GLCA算法，由于它的不收敛，使得初始值对结果影响很大，当给定的初始值V（0）比较接近于最终结果V时，GLCA算法能够得出聚类分析结果，但目标函数不是递减的；当任意给定的初始值V（0）时，不但目标函数不是递减的，而且也无法得到正确的结果.
+表1　目标函数J和聚类中心V
+
+FCM算法GLCA算法
+迭代次数目标函数J误差e目标函数J误差e
+01505.34***1998.38***
+1762.5190.97417606.2042.29654
+2661.2040.15323598.0402.74E-02
+3657.9174.99E-03598.6796.11E-04
+4657.7931.88E-04589.8863.50E-04
+
+
+
+初始 V(0)FCM算法GLCA算法
+V1iV2iV1iV2iV1iV2i
+833.4054.7463.3494.232
+18426.4863.64625.5553.306
+141216.91416.55815.90616.243
+
+　
+表2　目标函数J和聚类中心V
+
+FCM算法GLCA算法
+迭代次数目标函数J误差e目标函数J误差e
+0240.44***4.823***
+1151.7170.584824.8110.806
+296.4760.572615.2390.628
+391.6845.23E-03183.8690.917
+491.3683.46E-03567.3320.676
+591.3393.12E-042026.720.720
+6******507.0972.997
+7　　1560.110.675
+8　　620.2351.515
+9　　1590.9970.6102
+
+
+
+初始 V(0)FCM算法GLCA算法
+V1iV2iV1iV2iV1iV2i
+241.4430.9853.8292.984
+261.0347.98123.1422.062
+446.5525.46523.6031.898
+21221.0842.34521.9382.281
+24227.1031.15921.7422.299
+20428.9917.24923.2831.887
+141611.57917.7824.1151.884
+161620.06716.0922.2622.235
+
+　
+　　此外，通过运用GLCA算法对一些样本集进行聚类分析，我们发现当k取值较小时，如k=2,3，能够得到正确的结果；而当k值较大时，如k=6,7,8,…，一般不能得到收敛结果.
+　　从表2的结果我们看到GLCA算法不能得到正确结果，目标函数也不收敛，通过这个不收敛的例子，也说明GLCA算法是不收敛的. 
+基金项目:本课题得到国家自然科学基金(项目编号69683004，69675019)资助
+作者简介:李晶皎，女，1964年3月生，副教授，博士，研究方向为语音识别、人工智能、智能人机接口.张俐，女，1961年5月生，副教授，博士研究生，研究方向为语音识别、计算语言学.姚天顺，男，1934年5月生，教授，博士生导师，研究方向为人工智能、计算语言学、智能人机接口.
+作者单位：李晶皎　张　俐　姚天顺　东北大学信息科学与工程学院　沈阳　110006
+参考文献
+1　Hathaway J R et al. Relation duals of the c-means clustering algorithms. Pattern Recognition, 1989, 22(2):205～212
+2　Bezdek J C et al. Numerical comparison of the RFCM and AP algorithms for clustering relational data. Pattern Recognition, 1991, 24(8):783～791
+3　Bezdek J C. FCM: The fuzzy c-means clustering algorithm. Computers & Geosciences, 1984, 10(2):191～203
+4　马小辉等.基于分段模糊C-均值的连续密度HMM语音识别模型参数估计. 声学学报，1997, 22(6): 550～554
+(Ma Xiaohui et al. The segmental fuzzy c-means algorithm for estimating parameters of continuous density hidden Markov models. ACTA Acustica (in Chinese), 1997, 22(6): 550～554)
+5　Leszczynski K. Sugeno's fuzzy measure and clustering. Fuzzy Sets and Systems, 1985,15(1):147～158
+6　Bezdek J C. A convergence theorem for the fuzzy ISODATA clustering algorithm. IEEE Trans on PAMI, 1980,2(1): 1～8
+7　Zangwill W. Nonlinear Programming, A Unified Approach. Englewood Cliffs, NJ: Prentice-Hall,1969
+收到日期：1997-11-19
+修改日期：1998-03-23

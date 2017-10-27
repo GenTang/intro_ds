@@ -1,0 +1,100 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+湿式空气氧化过程中氧气、二氧化碳和水蒸气分压的理论
+杨 琦　王 慧　王志强　施汉昌　钱 易
+摘要：介绍了亨利常数随温度、压力变化的经验公式,并采用湿式空气氧化(WAO)工艺处理城市污水厂活性污泥,验证了湿式氧化过程中亨利常数经验估算公式,以期为湿式氧化工艺设计和运行实践提供依据.结果表明,在180℃时,氧气的初始分压为0.98MPa,氧气和二氧化碳的亨利常数分别为2.5778×109、5.9894×109 N/m2.
+关键词：活性污泥；湿式空气氧化；亨利常数
+中图分类号：X131.1 文献标识码：A 文章编号：1000- 6923(1999)04- 0342- 04
+On the theory of partial pressure of oxygen,carbon dioxide and water vapor in wet air oxidation(WAO). 
+YANG Qi, WANG Hui,WANG Zhi-qiang,SHI Han-chang,QIAN Yi (State Key Joint Laboratory of Environmental Stimulation and Pollution Control,Department of Environmental Science and Engineering, Tsinghua University,Beijing,100084 China). China Environmental Science. 1999,19(4)：342~ 344
+Abstract：In this paper,the empirical formula of Herrey’s constant of pressure of oxygen , carbon dioxide and water vapor with temperature and pressure is dealed with;and the treatment of waste activated sludge from municipal sewage plant by using WAO(wet air oxidation) is studied. It is useful for the design and operation of this WAO process. The influences of oxygen , carbon dioxide and water vapor on the system were also investigated. The results show that the Henry's constant of oxygen and carbon dioxide at 180℃and 0.98MPa initial pressure is 2.5778×109N/m2 and 5.9894×109 N/m2 respectively.
+Key words：activated sludge；wet air oxidation(WAO)；Henry’s constant
+　　湿式空气氧化(WAO)工艺是1958年由Zimmerman[1]首次将其应用于污水处理中.在此之后,日本、美国和欧共体等国[2]陆续将该技术运用于造纸废水、化工废水、城市污水处理厂活性污泥等含高浓度难降解生物处理高浓度、有毒、有害废物和有机物废水处理中,在湿式氧化过程中主要涉及3个重要步骤:氧从气相向液相传递;液相中氧和有机物发生化学反应;反应产物向主体液相扩散或气体反应物从液相中逸出.从目前国内外应用情况看,对湿式氧化过程中氧气、二氧化碳和水蒸气分压理论探讨较少,这样对湿式氧化反应器设计缺少理论依据.
+1 气液平衡
+气体和液体的平衡近似服从亨利定律:
+
+式中:KH为亨利常数;t2为逸度; x2为液相中溶质的摩尔分数.
+　　一定压力下,在给定溶剂的溶质中,亨利常数是温度的函数.Harvey[3]指出,在溶剂临界点附近时,由化学热力学可推出下列关系:
+Tln(KH /f1s)=A+B(ρ1s-ρc1) 
+(1)
+式中: ρ1s为饱和溶液密度;ρc1为溶剂临界点密度;T、f分别为溶剂临界温度、压力; A、B是热力学常数.
+　　Harvey 等人[3]求得ρc1=322kg/m3,并在方程(1)基础上建议用下列半经验公式:
+
+(2)
+式中:Pw为水蒸气压;ρw为溶剂的密度;C为热力学常数.
+　　Wolfgang[4]等人根据Kestin半经验公式进行实验数据回归,建议用下列经验公式求氧气和二氧化碳的亨利常数: - - - 
+
+
+(4)
+水蒸气压由Antoine方程可得[3]: (3)
+lnPw=65.1544- 6842.91/T+2.78351×10- 3T
+- 6.1363lnT+3.31168×10- 8T6 (5)
+2 氧气和二氧化碳质量平衡
+　　氧气和二氧化碳平衡取决于湿式氧化过程中反应进行程度,反应过程中生成大量小分子物质,例如乙酸等.Li[2]等人提出湿式氧化反应动力学,并认为乙酸氧化反应是反应动力学控制步骤:
+Dn + (n- 2)O2→HAc + (n- 2)CO2+ (n- 2)H2O
+(6)
+有机物Dn在湿式氧化过程中所需氧气量由反应(6)可以得出下列校正因子h.
+h=ThOD/COD0 
+(7)
+在反应任一时刻氧气摩尔数为: 
+
+(8)
+式中:ThOD为理论需氧量;为液体体积(m3);CODo为消耗化学需氧量;为氧气分子量;为任一时刻氧气摩尔数(mol). n n
+　　由方程(7)可知,消耗氧气摩尔数即为生成二氧化碳摩尔数,所以任一时刻二氧化碳摩尔数为: 
+
+(9)
+任意时刻氧气摩尔数为气相和液相中氧气摩尔数之和.在任一时刻氧气和二氧化碳在气相中摩尔数为: 
+
+(10)
+
+(11)
+式中:为水的摩尔数;R为气体常数;为反应器中气体所占体积;为气相中二氧化碳的摩尔数;为气相中氧气的摩尔数;HCO2、HO2分别为CO2、O2的亨利常数.
+3 湿式空气氧化过程中氧气和二氧化碳的分压和总压
+根据理想气体状态方程
+
+(12)
+
+(13)
+
+(14)
+式中:、、Pw、分别为反应釜中氧气、二氧化碳和水蒸气分压及总压.
+　　由于反应过程中还有少量挥发性有机物存在,分析和计算较复杂且占份额较少,一般可忽略.
+4 湿式空气氧化处理城市污水厂活性污泥过程中氧气、二氧化碳和水蒸气的理论研究
+　　反应装置采用ZY-ZA型高压反应釜,有效容积为2L,如图1所示.
+　　在高压反应釜中加入200mL浓缩后的活性污泥,升至预定温度时取样,开动搅拌器在常温下充入氧气至1.0MPa 纯氧(纯度98％),反应开始时由理想气体状态方程可算出氧气摩尔数n = 0.76mol,污泥浓度C＝10.7g/L,反应器液体的体积= 0.2L,气体的体积=1.8L,反应的温度T＝180℃.假定城市污水活性污泥细菌细胞有机物组成为C5H7NO2.
+C5H7NO2+6CO2→2CH3COOH+6O2+2NH3 
+(15)
+
+(16)
+式中:C为活性污泥细菌细胞中有机物浓度(mg/L).
+
+图1 湿式空气氧化过程试验装置示意
+Fig.1 Flow scheme of wet air oxidation process
+1.调压器 2.电热套 3.高压釜 4.电热偶 5.进样阀
+6.出样阀 7.磁搅拌器 8.压力表
+由公式(3)、(4)、(5)、(8)、(9)、(12)、(13)和(14)估算得到结束时反应釜中氧气、二氧化碳的含量和分压如下:
+Pw=9.9669×105 Pa
+HO2=2.5778×109 N/m2
+HCO2=5.9894×108 N/m2
+=0.685(反应15minCOD去除率66%)
+
+=1.42×106 Pa
+=1.53×105Pa
+Pt=2.57×106 Pa 0.07499mol
+　　通过上述计算得反应釜内总压强计算值为2.57×106 Pa.反应结束时对观测到总压为2.9×106 Pa,氧气的分压为1.38×106Pa,二氧化碳分压为1.47×105Pa,水蒸气的分压为1.37×106 Pa.以上计算值基本同实际值相符.
+5 结论
+　　通过上述理论分析和试验验证,表明用上述经验公式估算氧气和二氧化碳的亨利常数是正确的,能够较好地反映高温、高压湿式氧化过程中总压和分压的变化状况,为湿式空气氧化设计放大提供了理论依据.
+基金项目：国家自然科学基金资助项目(59878025)
+作者简介：杨 琦(1966-),男,山东济南人,清华大学环境科学与工程系助研、博士生,主要从事水处理理论的教学和研究工作.参与国家教委和科委“八五”攻关项目“催化湿式氧化处理高浓度难降解有毒有害的有机废水”,“九五”攻关项目“膜生物反应器处理难降解有机物”的研究工作.发表论文20余篇.
+作者单位：清华大学环境科学与工程系,环境模拟与污染控制国家重点联合实验室, 北京 100084
+参考文献:
+[1]Vedprakash S M,Jyeshtharaj B J,Vijaykumar VM. Wet air oxidation [J].Ind. Eng. Chem. Res.,1995,34(2):2- 40.
+[2]Li L.Generalized kinetic kodel for wet oxidation of organic compounds [J]. AIchEJ, 1991, 37(11):1687- 1697.
+[3]Harvey A JH,Sengers J MHL. Correlation of agueous henry抯 constants from 0℃ to the critical points [J]. AIchEJ,1990,36(4): 536- 539.
+[4]Wolfgang A H. Analysis of nonisothermal,wet oxidation reactor data [J]. Environ. Progress,1996,15(1):48- 55.
+
+收稿日期：1998-11-13

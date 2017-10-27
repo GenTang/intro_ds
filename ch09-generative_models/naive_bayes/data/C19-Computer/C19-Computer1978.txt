@@ -1,0 +1,102 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第2期 Vol.18 No.2 1999
+
+
+
+利用WinInet类进行TCP/IP通信
+祝蔚莹　石冰心
+　　摘　要：Winsock是Windows应用程序间TCP/IP通信的标准。以此为基础的Visual C++4.2以上版本提供的API—WinInet，使Internet程序开发变得快捷而方便。本文研究探讨了如何利用WinInet类实现TCP/IP通信。
+　　关键词：Internet编程　Winsock类　TCP/IP　FTP　HTTP　Gopher
+1　基于Windows操作系统的Internet编程
+　　Internet早期的站点是UNIX机器，他们实现TCP/IP通信的标准是Berkeley sockets协定。
+　　随着Windows操作系统的形成与发展，借鉴Berkeley sockets的思想，创建了在Windows应用程序之间实现TCP/IP通信的标准——Windows Sockets(Winsock)标准。
+　　在此基础之上，又开发了一些便于程序员按照客户/服务者(Client/Server)模式进行Internet编程的API。因此，程序员可根据不同需要采用不同的方法实现TCP/IP通信：直接使用Winsock；使用消息API(Message API)；使用Internet服务者API(ISAPI)；利用Visual C++4.2以上版本提供的Internet类及函数——WinInet。其中，Winsock环境(WINSOCK.DLL、WSOCK32等)的接口，它保证了在不同的Windows环境(如Windows95或Windows NT)下，不论动态库的名称与实现socket功能的机制如何，socket接口是相同的。Winsock不仅可实现TCP/IP通信，还可支持其它协议，如IPX/SPX。MAPI服务提供利用用户已安装的客户端服务软件发送传真、声音邮件、电子邮件等信息的接口(API)。ISPAI用于增强、扩展HTTP服务器功能，它的开发者制造extensions与filters:extensions是可由用户从Web页面上调用的动态库，它类似于CGI应用程序；filters是由服务器启动的动态库，用于监视或改变出、入服务器的数据。WinInet提供了HTTP、FTP、Gopher等应用层协议的客户端接口。
+　　WinInet使Internet程序开发变得快捷而方便。本文将对WinInet以及如何利用WinInet开发Internet通信程序进行介绍和探讨。
+2　WinInet
+2.1　什么是WinInet
+　　WinInet是指由Microsoft Win32提供的Internet函数，在WININET.DLL动态库中所包含的这些函数使得程序员能方便地使用HTTP、FTP和gopher访问Internet，再稍加变通后还能进行Finger查询和Whois查询。VC 4.2以上版本的MFC则提供了WinInet类，这些类屏蔽了WinSock和TCP/IP协议，程序员只须调用这些类的方法，而不用了解协议的具体内容就能编制客户端程序访问HTTP、FTP、gopher等站点。
+2.2　WinInet类及其功能
+　　MFC共提供了13个WinInet类，它们实现了一系列Internet访问功能。
+　　(1)CInternetSession：创建1个或多个Internet通道。
+　　(2)CInternetConnection:与子类(ChttpConnection、CftpConnection、CGopherConnection)管理应用程序与Internet服务器(Http服务器、FTP服务器、gopher服务器)建立的连接。
+　　(3)CInternetFile：与子类(CHttpFile、CGopherFile)提供了访问远程服务器(Http服务器、gopher服务器)文件系统的方法。
+　　(4)CFileFind:与子类(CftpFileFind、CgopherFileFind)完成在本地及远程Internet站点(FTP服务器、 gopher服务器)查找文件的功能。
+　　(5)CGopherLocator:从gopher站点获取gopher位标(locator)，并提供给CgopherFileFind用来定位。
+　　(6)CInternetException:描述与Internet操作有关的例外情况。
+3　用WinInet编制Internet客户端程序
+　　Internet客户端应用程序指基于Internet协议(如gopher、FTP、HTTP等)从网络数据资源(服务器)获取信息的程序。程序员可以直接调用Win32函数或采用MFC的WinInet类编写WinInet客户端应用程序。
+　　作者在编制Internet客户端程序的过程中，用WinInet类完成了HTTP查询、FTP查询、gopher查询、Finger查询、Whois查询等功能模块的实现。查询的主要功能是设法与服务器建立连接，然后从服务器直接接受回应信息或获取对服务器相关文件系统的控制句柄。下面分别阐述不同协议查询方法的实现。
+　　WinInet类的声明在头文件"afxinet.h"中，在使用到WinInet类的应用程序中要有语句：
+　　#include<afxinet.h>
+3.1　访问WWW服务器
+　　做一个HTTP连接，最简单的方法是创建CInternetSession对象，以某一有效HTTP站点URL为参数调用函数OpenURL()，它返回CInternetFile文件句柄，其内容为由此URL定位的web页面信息，可以像处理本地文件一样对其进行读、写、搜索等操作，获取必要的信息。有关程序代码如下：
+　　CInternetSession session;
+　　CInternetFile*file=NULL;
+　　try {
+　　　file=(CInternetFile*)session.OpenURL(URL); }
+　　catch(CInternetException*pEx){
+　　　file=NULL;
+　　　pEx->Delete(); }
+　　if(file){
+　　　　//根据需要对文件读、写、搜索……；}
+　　其中try－catch语句捕捉非法URL连接而引发的CInternetException类错误，正常处理代码放入try{…}中，异常处理代码放在catch(){…}中。
+　　访问WWW站点，还可以使用ChttpConnection类。具体方法是，以http服务器域名及其执行http协议端口的端口号(缺省80)为参数，调用CinternetSession::GetHttpConnection()函数建立与某站点的连接，再用CHttpConnection::SendRequest函数向HTTP服务器发送服务请求，返回值为包含应答信息的CHttpFile类型的文件句柄。
+3.2　访问FTP站点
+　　首先调用函数CInternetSession::GetFtpConnetion()建立FTP连接，所需要的参数依次为：FTP站点域名、用户名、用户口令、ftp服务端口号(缺省值为21)、访问模式(被动或主动)，其中用户名若为空，则表明是请求匿名FTP服务，用户口令为用户的email地址。通过此连接用CftpConnection类的方法操作远程FTP服务器的文件系统，如用SetCurrentDirectory(GetCurrentDirectory)设置(获取)此连接的当前FTP目录，用RemoveDirectory(CreateDirectory)删除(创建)目录，用Rename、Remove、PutFile、GetFile及OpenFile等对文件进行更名、删除、移入、取出及打开等操作，最后必须用Close方法关闭与FTP服务器的连接。因此，可用MFC来编制提供图形界面的FTP客户端应用程序：(1)用MFC提供的各种控制器(如static text、edit box、Button、List Box、List control、Tree control等)编辑对话框界面，提供良好的命令输入及信息输出用户界面；(2)用MFC ClassWizard向相关类中加入响应用户命令操作的消息映射宏及处理函数；(3)建立FTP连接，并在相应的消息映射函数中加入程序代码，实现对FTP站点文件系统的操作，并将结果信息显示给用户。
+　　建立FTP连接及远程文件操作的关键代码：
+　　CInternetSession session(“My FTP Session”);
+　　CFtpConnection* pConn=NULL;
+　　pConn=session.GetFtpConnection(lpSN,lpUN,lpPW,nP);
+　　//例：lpSN=“ftp.whnet.edu.cn”,lpUN=lpPW=“”,np=21,
+　　//对该站点匿名ftp访问；
+　　……
+　　pConn->GetFile(pRF,pLF);
+　　//pRF——从FTP站点取回的文件名，
+　　//pLF——本地系统创建的文件名
+　　pConn->GetCurrentDirectory(strCD);
+　　//strCD 为Cstring对象的指针
+　　……
+　　pConn->Close();　　session.Close();
+3.3　访问Gopher站点
+　　首先用CInternetSession::GetGopherConnection()函数与某合法Gopher站点建立连接，参数依次为Gopher服务器名、用户名、用户口令、gopher协议端口号(确省值为70)，返回值为控制此连接的CGopherConnection对象的指针。
+　　CGopherConnection类的成员函数CreateLocator()用于创建CGopherLocator对象，它的3个参数依次为目录或文件名、查找关键字、类型标志位，返回值是gopher服务器某一文件或目录的定位器(locator)，应用程序将此定位器看作不透明的记号，用于从gopher服务器检索信息。每个gopher定位器都有特定的属性来确定已查找到的文件或服务器的类型，CGopherLocator类的成员函数GetLocatorType()可获取定位器的属性。
+　　应用程序一般用gopher定位器，为参数调用CGopherFileFind类的成员函数FindFile()来查找一gopher文件。文件名可作为函数的第2个参数，返回一CGopherFile文件句柄，利用此句柄可读、写文件，获取所需信息；接下来还可调用CGopherFileFind类的另一成员函数FindNextFile()，继续查找同名文件。其中CGopherFileFind对象的创建要以此gopher连接作参数。
+　　查找gopher文件，还可直接使用CGopherConnection类的成员函数OpenFile()，它也需要gopher定位器作参数，返回CGopherFile文件句柄。
+　　建立gopher连接及查找相关文件的关键代码如下：
+　　CInternetSession session;　CGopherConnection* con=NULL;
+　　CGopherFile* pgF=NULL;
+　　con=session.GetGopherConnection(host);
+　　//host是gopher服务器域名
+　　CGopherFileFind* pF=new CGopherFileFind(con);
+　　CGopherLocator lc=con->CreateLocator(NULL,NULL,
+GOPHERTYPEDIRECTORY);
+　　pgF=pF->FindFile(lc,pFN);//pFN为文件名字符串
+　　……
+3.4　用Gopher传送Finger查询
+　　Finger是一种查询某一站点的所有在线用户或某一指定用户状况的古老Internet协议。在MFC类及API函数名中均不含有finger这一单词，但可以通过指定协议端口的方式，用与gopher查询相关的WinIntet类或API函数实现finger查询。
+　　Internet信息交互均有特定主机和端口与之对应，域名(或IP地址)确定主机，端口(port)确定进程。著名的协议采用标准端口号。例如，当应用程序用远程主机域名、端口号70、gopher类型(0)、文件名字符串等4个参数创建gopher定位器(locator)时，gopher客户端将此字符串发送给用该远程主机的端口70，远程主机上gopher服务器监听端口70，在收到查询字符串后按gopher协议规定回应信息。Finger协议的标准端口是79，远程主机上的Finger服务器，监听此端口并发送Finger应答来响应由客户端发来的字符串。Finger协议规定：若字符串是“＼r＼n”，回应信息是主机上所有在线用户的相关信息列表；若字符串是“用户名+＼r＼n”，回应信息是该用户的相关信息。
+　　因此，进行Finger查询，可以调用成员函数CinternetSession::GetGopherConnection()，以运行Finger服务器程序的远程主机名及端口79作参数，建立Finger连接。在调用CGopherConnection的成员函数CreateLocator()创建定位器时，以客户端发送的Finger查询字符串作为参数II(查找关键字)，即可向Finger站点发出查询信息，Finger站点的应答信息则置于CGopherFile文件中带回。
+　　建立Finger连接并进行Finger查询的关键代码如下：
+　　CInternetSession session；　CGopherConnection*con=NULL;
+　　con=session.GetGopherConnection(hostName,NULL,NULL,79);
+　　CGopherLocator lc=con->CreateLocator(NULL,qstr,GOPHERTYPETEXTFILE);
+　　//qstr是“＼r＼n"或“用户名+＼r＼n"
+　　CGopherFile* file=con->OpenFile(lc);
+　　…　　//读文件
+3.5　用Gopher传送Whois查询
+　　Whois协议也不被WinInet类直接支持。类似于Finger,Whois对发到其端口的字符串作出响应，Whois的标准端口是43。Whois服务通常由Internet上的DNS服务系统提供。在创建定位器时，以待查找的主机名作为查找关键字，即可由返回的CGopherFile文件带回查询结果。
+　　在下面的Whois查询范例中，“rs.internic.net"是提供Whois服务的主机的域名，“www.microsoft.com"是被查询主机的域名。
+　　CInternetSession se;　CGopherConnection* con=NULL;
+　　con=se.GetGopherConnection(“rs.internic.net",NULL,
+NULL,43);
+　　CGopherLocator lc=con->CreateLocator(NULL,
+“www.microsoft.com",0);
+　　CGopherFile* file=con->OpenFile(lc);
+　　…//读文件；
+　　上述利用WinInet类编制Internet客户端程序的方法，可以方便地访问HTTP、FTP、Gopher、Finger、Whois等站点。 
+作者单位：武汉华中理工大学电子与信息工程系(430074)
+参考文献
+1　Jamsa K，Cope K.INTERNET编程.北京：电子工业出版社，1996
+2　Kruglinski D J.Visual C++技术内幕.北京：清华大学出版社，1994
+(收稿日期：1998-09-17)

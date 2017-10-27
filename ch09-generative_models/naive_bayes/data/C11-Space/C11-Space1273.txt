@@ -1,0 +1,124 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+TiAl基合金离心铸造过程中的
+层流临界值分析
+盛文斌　郭景杰　苏彦庆　丁宏升　贾　均
+
+摘要： 分析了金属型离心铸造TiAl基合金排气阀的充型过程，得出了离心铸造过程中充型速度V与充型长度之间的关系，以及转台的最大转动角速度ω0 max(r/min)的选择依据。结果表明，离心铸造过程中，合金液的充型速度是充型长度的函数，随充型长度的增长而增大；熔体的层流长度随转台最大允许旋转角速度的增大而减小。
+关键词： 金属型； TiAl基合金； 充型过程； 离心铸造
+中图分类号： TG27　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0001-07
+Analysis of laminar flow critical value for TiAl
+based alloy during centrifugal casting process
+SHENG Wen-bin　　GUO Jing-jie　　SU Yan-qing　　DING Hong-sheng　　JIA Jun
+(Harbin Institute of Technology, Harbin 150001， China)
+Abstract： In this paper,the filling process for TiAl based alloy melt poured in permanent mould during the process of centrifugal casting has been analyzed.The relation between the filling speed V and the filling length,as well as the choosing rule of maximum allowing angular velocity ω0 max(r/min) has been obtained.Results show that the filling speed is the function of the filling length during the process of centrifugal casting,and increases with the increase of the filling length.The laminar flow length decreases with the increase of maximum allowing angular velocity.
+Key words: permanent mold; TiAl based alloy; filling process; centrifugal casting
+
+　　TiAl基合金具有高的比强度和比模量，以及良好的抗蠕变、抗氧化和抗氢脆能力［1～5］，是一种最具潜力的轻型高温结构材料，受到了人们的普遍关注。
+　　F.H.Froes［6］等人就TiAl合金性能、应用和成形方面进行了系统的阐述，总结了目前应用于TiAl基合金的各种成形方法。P.E.Jones［7］等人在金属型中铸造了Ti-47Al-2Cr-2Nb(at%)合金汽车排气阀，并对静态铸造、压铸、喷射和离心铸造进行了实验比较。他们认为，综合来看，金属型离心铸造最有可能成为将来批量生产TiAl基合金铸件的成形方法。在国内，中南工业大学在粉末冶金方面做了大量工作［8，9］。哈尔滨工业大学在金属型铸造方面也进行了研究［10，11］。
+　　通过对实际铸造得到排气阀的分析可以知道，阀体出现因铸型导热快而浇注不足的情况并不多，主要问题是铸件内部出现的气孔。根据气孔的形成方式，可将铸件内气孔分为三类：反应性气孔、析出性气孔和卷入性气孔［5］。TiAl合金凝固区间较窄(仅为10℃左右)，金属型的导热能力较强，使得合金的凝固速度非常快。这样，若在充型过程中卷入气体，将无法及时从排气孔或浇口内排出，最终在铸件内形成分散性气孔或体积较大的汇聚型气孔。TiAl合金/金属型界面处熔体的凝固是非常迅速的，仅存在一个2μm厚的反应区，P.E.Jones［7］等人对这个问题做了阐述。因此，在界面处反应生成气体并侵入到铸件内形成皮下气孔的可能性极小。对于感应凝壳熔炼(ISM)熔炼过程，炉料中所吸附的气体大部分在熔化之前就已被真空泵抽出；熔炼过程中，真空室内压力可达10－5mbar(约0.01Pa)，使得熔体内的N，H和O的含量很低，最终无法在铸件内形成气孔，或所形成的析出性气孔很少。根据对实际铸件的观察，我们认为，铸件内气孔为卷入性气孔的可能性最大。本文针对金属型离心铸造充型过程中的流速分布进行了分析，以判断形成卷入性气孔的可能性。
+1　过程分析
+　　本文采用感应凝壳熔炼(ISM)方法，在金属型中离心铸造了Ti-48Al-2Cr-2Nb(at%)合金排气阀，浇注时真空度为10－3mbar。将排气阀型腔理想化为长度和半径分别是L和R的圆管，铸型的旋转角速度为ω(rad/s)。对熔体做如下假设：
+　　(1)熔体的充型过程是连续的；
+　　(2)动力粘度系数μTiAl为常数；
+　　(3)熔体是不可压缩的；
+　　(4)不计沿程损失。
+　　离心铸造过程中，转台沿中心轴以角速度ω(rad/s)进行旋转。合金熔化均匀后，从可旋转坩埚中倒出，经过导向板进入铸型内。铸件采用侧注方式(图1)。
+
+图1　浇注系统示意图
+Fig.1　Schematic diagram of gating system
+
+　　铸造过程中，由于坩埚在倾转时的旋转角速度ω′而使合金液具有一定的初速度v′。旋转角度大约为90°，即坩埚由竖直方向转变为水平，因此，可将v′看作竖直方向，且v′=ω′.R，其中R为坩埚旋转半径。合金液从高为H的地方落下，由于重力作用具有速度v″，可根据能量守恒求得。进入型腔之前，合金液就具有竖直方向的速度v，v=v′+v″。当熔体进入型腔后，速度将由原来的竖直方向转变为水平速度v0，此时应具有一定的动量损失。合金液下落时由于导向板的阻碍作用，也会减小合金的下落速度，二者的综合作用应满足关系式v0=ξ.v(ξ＜1)，合金液即以水平初速度v0填充型腔。
+　　铸件内卷入性气孔的形成原因可归结为如下几个方面：1)熔体从坩埚中流下进入铸型后，由于浇口窝的缓冲和分流作用，使熔体产生涡流，卷入环境中的气体，最终在铸件内形成气孔；2)由于熔体相邻质点之间存在速度差，而且距中心轴越远，速度差越大。若型腔足够长，充型过程中可能在熔体内形成负压，造成气体的卷入；3)熔体在离心力作用下无法平稳充型，形成强烈的紊流，近而卷入气体。本文主要讨论在非稳态充型条件下，浇注参数对铸件内卷入性气孔形成的影响。
+　　若将型腔的中轴线选作坐标系的轴线方向，即坐标轴相对型腔是静止的，对于理想流体，在不计沿程损失的前提下，任意时刻位置x处的加速度可表示为:
+　　　　
+　　对上式进行积分，并根据初值条件x=0时，和t=0时，x=0，得到任意时刻充型长度x和速度vi与充型时间t之间的关系：
+　　　　　　　　　　　　　　　　　　(1)
+　　　　　　　　　　　　　　　　　(2)
+　　实际熔体是具有粘度的，会使靠近型腔内表面的速度有所下降。vi可看作是粘性流体在圆管任意截面处流动速度的最大值vm，即vi=vm。沿其主流动方向(型腔中轴线方向)在熔体内部选取微流管，其端面面积分别为ds0和dsi，由于充型过程是连续的，根据质量守恒定律，单位时间内通过截面ds0流入的流体量应等于通过dsi流出的流体量，即ρ00ds0=ρiidsi，0和i分别为入口处截面和t时刻截面处的平均流速，根据层流速度分布规律，。对其进行积分，因为熔体是不可压缩的，ρ0=ρx=const，则0s0=isi。
+　　将(2)式代入，任意截面面积si为：
+　　　　　　　　　　　　　　　　　　　(3)
+　　由(2)式可知vi随着充型时间t的增大而增大，就是说填充过程中熔体的断面面积si是随t的增大而减小的。由于重力作用，熔体上部将与型腔内壁发生分离。忽略熔体自由表面的张力作用，截面近似地认为是弓形，则t处的截面面积Ai为：
+　　　　　　　　　　　　　　(4)
+　　式中，，定义为相对高度，且-1≤hw≤1。hi为弓形截面的高度，随充型时间t的改变而改变。比较(3)式和(4)式，应有si=Ai，即
+　　　　　　　　　　　　　　　　　　(5)
+　　当熔体的流动为层流时，型腔是处于未充满状态的，可按明渠流处理(临界雷诺数Rec=800)。由雷诺数的定义可知t时刻截面处的雷诺数Rei为：
+　　　　　　　　　　　　　　　　　　　　　　　(6)
+式中Rwi为熔体t时刻截面的水力半径，。Pi为湿周长，表达式为：
+　　　　Pi=2R(π-arccos hw)　　　　　　　　　　　　　　　　　(7)
+则
+　　　　　　　　　　　　　　(8)
+　　若熔体在充型过程中保持层流状态，应满足Rei≤Rec。将(2)和(8)式代入到(6)式中，则可得到离心条件下圆管中层流判据：
+　　　　　　　　　　　　　(9)
+　　当熔体tc时刻截面处的雷诺数Rei恰好为层流状态的最大值时，相对高度hw=hc，层流、紊流交界处雷诺数Rc为：
+　　　　　　　　　　(10)
+2　结果与讨论
+　　对于Ti-48Al-2Cr-2Nb(at%)合金排气阀，国外研究者也做了一些工作，但是未详细提及铸造过程中易出现的缺陷及其解决方法。铸件易产生的缺陷与合金的特性是紧密相关的。TiAl合金的充型能力可以通过加大熔化功率来提高，从而避免了浇注不足的现象。但随着浇注功率的提高，合金的粘度有所下降，易在充型过程中形成紊流，导致气体的卷入，近而形成气孔。根据实验结果，发现气孔是TiAl铸件内的主要缺陷之一。
+
+图2　v0=0.1m/s时充型速度与充型长度的关系
+Fig.2　Relation between the filling velocity and the filling
+length when v0=0.1m/s
+　　当铸型型腔尺寸确定时，合金液前端在填充过程中任一时刻的速度值V为充型长度x的函数，而与型腔半径无关。同时，转台的旋转角速度不同，充型速度也是不同的。图2所示为v0=0.1m/s，型腔长度为20cm时，三种不同转台旋转角速度情况下，合金液末端速度V与充型长度x之间的关系曲线。从图2可以看出，合金液末端的速度值随填充长度x的增加，从初速度开始逐渐增大，且不符合线性规律。速度的增加量随型腔长度的增大而增大。充型长度相同时，随着转台旋转角速度的提高，速度值也增大。由计算结果可知，对于长度为20cm的型腔，转台的旋转角速度为300r/min时，合金充满时的速度大约可达6.3m/s。
+　　由于离心力的作用，熔体的前端速度要大于其后面的质点，在满足连续充型的前提下，熔体的断面面积是随距旋转轴距离的增大而减小的。图3为忽略入口效应影响时，不同转速条件下(100，200，300r/min)层流状态熔体断面高度的变化情况。熔体进入型腔后，其断面高度发生骤变，导致断面面积急剧减小，这主要是离心力作用下，熔体充型速度的提高造成的。随着转速的提高，这种变化更加明显。充型速度的提高将增大熔体充型过程中的紊流倾向性，而充型速度是由旋转速度决定的，转速的提高将减小充型过程中的层流长度。转速为100，200，300r/min时，其层流长度分别为52.5，26，17.5cm，层流长度与转速之间的关系如图4。可以看出，随着转台转速的提高，层流长度是逐渐减小的。
+
+图3　断面高度与充型长度的关系
+Fig.3　Relation between cross-section and filling length
+
+
+图4　层流长度与转速的关系
+Fig.4　Relation between laminar flow length and angular
+　　表1记录了不同浇注功率和转台转速条件下，排气阀剖面上可观察到气孔的发生情况。静态铸造条件下，排气阀内部出现了少量的气孔，这主要是由于浇口窝使熔体内部产生涡流造成的。离心铸造与静态铸造相比，随着浇注功率和转台转速的提高，阀内气孔平均直径均呈增大趋势，因为浇注功率的提高降低了熔体的粘度，转台转速的增大提高了熔体的填充速度，二者均增强了填充过程中熔体的紊流倾向性，这与上述分析结果是一致的。此外，随着真空度的降低，气孔的发生有所改善。
+表1　排气阀内部气孔统计结果
+Table 1　Statistic results of gaseous pores existing in the valves
+
+Pouring
+power/kWRotating speed
+/r.min-1Vacumm pressure
+/mbarNumber of
+poresDiameter/mm
+MaximumMinimumEverage
+240010-342.50.51.1
+18020010-3530.51.5
+24020010-353.50.51.8
+30028010-353.70.52.3
+24028010-543.40.51.4
+
+
+　　根据上述分析可以知道，如果在熔体未到达型腔末端之前就出现了紊流，会造成气体的卷入，若这部分气体在凝固过程中不能及时排除，将在铸件内形成气孔。因此，应根据紊流的产生条件来正确地选择转台转速，以保证熔体以层流状态充型。
+3　结　论
+　　(1)TiAl基合金离心铸造过程中，充型速度随充型长度的增大而增大；填充长度相同时，熔体末端速度随转台转速的增大而增大。
+　　(2)为防止在充型过程中出现紊流，转台的旋转角速度与型腔尺寸、合金粘度、密度、断面高度及初速度之间应满足如下关系式：
+　　　　
+　　(3)熔体的层流长度随转台的最大允许角速度的增大而减小。
+注释：基金项目： 国家教委优秀青年教师基金项目(97031-084)
+作者简介： 盛文斌(1973-)， 男， 博士研究生
+作者单位:哈尔滨工业大学铸造教研室434＃， 哈尔滨　150001
+参考文献：
+［1］　DIMIDUK D M，MIRACLE D B，WARD C H. Development of intermetallic materials 
+　　　　for aerospace systems.Materials Science and Technology,1992,8(3):367～375
+［2］　FROES F H.Structure intermetallics.JOM,1989,41(9):6～7
+［3］　LIU C T,INOUYH H.Control of ordered structure and ductility of (Fe,Co,Ni)3V 
+　　　　alloys.Metal Trans A,1979,10A(10):1515～1525
+［4］　KIM Y W.Intermetallic alloys based on gamma titanium aluminides.JOM,1989,41
+　　　　(7):24～30
+［5］　PARAMESWARAN V R.High-temperature aluminides and intermetallics.JOM,1992,44
+　　　　(6):41～43
+［6］　FROES F H，SURYANARAYANA C，ELIEZER D.Synthesis,properties and applications 
+　　　　of titanium aluminides.Journal of Materials Science,1992,27:5113～5140
+［7］　JONES P E,PORTER W J,EYLON D,et al.Development of a low cost permanent mold 
+　　　　casting process for TiAl automotive valves.Gamma Titanium Aluminides.1995.53
+　　　　～62
+［8］　贺跃辉，黄伯云，曲选辉等.Sb对改善TiAl基合金高温抗氧化性的影响.材料科学与工艺，
+　　　　1995，3(1)：10～13
+［9］　曲选辉，黄伯云，吕海波等.TiAl有序合金研究综述.稀有金属材料与工程，1991，20
+　　　　(4)：3～14
+［10］　盛文斌，郭景杰，苏彦庆等.浇注时功率(ISM)对TiAl基合金铸件表面质量的影响.特种铸
+　　　　造及有色合金，1998(6)：4～7
+［11］　GOU Jing-jie, SHENG Wen-bin, SU Yan-qing,et al.Analysis of overflow critical 
+　　　　value for TiAl based alloy during the process of centrifugal casting.Trans 
+　　　　Nonferrous Met Soc China,1999,9(2):207～212
+收稿日期： 1999-05-17； 修订日期： 1999-07-23

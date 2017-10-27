@@ -1,0 +1,96 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+阳极溶出法测定游离态金属过程中金属配合物解离动力学的计算机模拟*
+陶　澍　胡海瑛
+摘要　用计算机模拟了阳极溶出伏安法预电解过程中滞膜层中游离金属离子、游离配位体和配合物的转化及迁移过程.模拟结果证实，发生在滞膜层中的络和物解离过程是造成金属富集通量偏高的根本原因.测定偏差的大小与配合物解离常数、配位体浓度、物质迁移速率常数以及预电解时间等参数有关.利用EDTA-铜体系进行测定的结果验证了上述结论.
+关键词　阳极溶出；游离金属；形态测定；计算机模拟.]
+Computer simulation of metal complex dissociation during free metal determination using anodic stripping voltammetry
+TAO Shu HU Haiying (Department of Urban and Environmental Sciences,Peking University,Beijing 100871)
+Abstract　The processes of transformation and mass transfer occurring in stagnant film during deposition period of ASV measurement for free metals were simulated using computer.The results revealed that the dissociation of metal-complex in the stagnant film is the primary reason causing the overestimation of free metal concentration using ASV technique.The influences of a number of parameters on the magnitude of the overestimation error were investigated.The computer-simulated results were supported by experimental data.
+Keywords　ASV,free metal,computer simulation,stagnant film.
+　　微量金属在水相中的形态决定着它们的活性、生物有效性和毒性.自然水体中游离态金属离子的浓度虽然通常很低，但极为重要［1］.许多情况下，金属的络合态的毒性远低于游离金属离子［2］.文献中所报道的游离金属含量测定方法很多［3］，其中应用最为广泛的是阳极溶出伏安法(ASV)［4］.该方法的最大问题是游离金属测量值偏高［5］.研究者曾利用ASV法测定了EDTA-铜体系中的游离铜含量，证实实测结果明显低于理论计算值［6］.Morrison和Florence对多年来文献中报道的络合容量数据进行比较发现，ASV法的测量结果一般较其他方法低一个量级［7］.为解释这一现象，有人提出了所谓电化学“非稳态金属配合的”的概念.虽然这一假设已被广泛接受，但就ASV测定过程而言，这种解释未免牵强.事实上，在仅有单一配位体(如EDTA)的体系中，不同形态金属的理论分布可以准确计算出来.不能设想部分配合物的电化学特性与其余部分不同.但对这样的体系进行络合滴定同样能观察到游离态金属测定结果偏高的现象［6］.Varney认为，ASV测定过程中在电极附近的扩散层中可能发生金属配合物的解离［8］.有关EDTA-铜体系的络合滴定研究结果表明，测定的游离金属浓度与富集时间之间存在着非线性的正相关关系，且测定误差随富集时间增长而增加，从而从另一侧面证实了富集过程中可能发生金属配合物的解离作用［6］.
+　　本研究目的在于从理论上探讨ASV测定过程中发生在电极表面附近的金属配合物解离作用，采用计算机模拟手段探讨这一过程的动力学，在此基础上探讨金属配合物解离是导致ASV法测定游离态金属结果偏高的根本原因.
+1　概念模型
+　　作为典型的非消耗性电解过程，ASV电解池中游离态金属浓度在整个预富集过程中维持恒定.从理论上说，体系中的络合平衡不应当发生移动.唯一可能发生解离的地方是电极表面的滞膜层中.当流体以湍流方式经过电极表面时，在接近表面的微区内形成滞流层.物质从主体溶液通过滞膜层向电极的迁移速度受控于它们通过滞膜层的分子扩散速度.阳极溶出预富集过程中，主体溶液中游离金属浓度维持不变，而在电极表面附近，由于主体溶液的金属不能及时补充因游离金属向电极表面迁移而造成的损失，游离态金属含量形成浓度梯度，从而导致滞膜层中络合平衡移动和配合物解离.图1即为这样的概念模型.如图1所示，预电解过程中，游离态金属浓度(M+)在主体溶液中维持不变，在滞膜层中形成浓度梯度.如果体系中有配位体存在，金属与其配合物的平衡在滞膜层中遭到破坏，导致配合物(ML)解离并与游离金属离子一起沿浓度梯度递降方向向电极表面迁移.与此同时，解离释放出来的游离配位体(L-)向主体溶液方向移动.若体系中不存在配位体，到达电极表面的金属通量仅仅由游离金属离子的迁移构成.有配位体存在时，到达电极表面的金属通量则是游离态金属和金属配合物两者质量迁移的加和.这就是导致阳极溶出法测定游离态金属结果偏高的根本原因.
+
+
+图1　预富集过程中电极表面滞膜层中金属配合物的解离
+Fig.1 Dissociation of metal complex within the stagnant film during the deposition
+
+
+图2　片段内配合物解离和片段间物质迁移过程的计算机模拟方案
+Fig.2 Transform within the segments and the transfer between the segments
+2　ASV预电解过程的计算机模拟
+　　本研究采用计算机模拟方法对物质的质量迁移和配合物解离过程进行同步模拟，以证实关于预富集过程中滞膜层中可能发生配合物解离的假设.为此，将滞膜层分割成n个片段(图2)，假定片段足够薄，片段内部任意时刻的浓度差异可以忽略不计.
+　　预电解刚开始时(t=0)，每一片段中的游离态金属、游离态配位体和配合物之间处于平衡状态.其后(t>0)，第1片段中的游离态金属在电场作用下向电极表面迁移，游离金属浓度的下降导致平衡移动，片段中的配合物开始解离，并在第1片段与第2片段之间形成浓度差.随后，第2片段中的游离金属和配合物开始向浓度较低的第1片段迁移，而第1片段中的游离配位体则向第2片段逆向移动.这些过程在第3、第4、…、第n片段内和片段之间顺次发生.最终形成游离金属、游离配位体和配合物的浓度梯度.发生某一片段中的化学解离以及发生在相邻片段之间的物质迁移可用下式表示：
+MLi→M+i+L-i　(第i片段中的配合物解离)　　　　　　　　　　　(1)
+　(游离态金属从第i片段向前一片段的质量迁移)　　　　　　(2)
+　(配合物从第i片段向前一片段的质量迁移)　　　　　　(3)
+　(游离配位体从下一片段向第i片段的质量迁移)　　　　　　　(4)
+　　当片段数增至无穷，图2所示模型成为连续模型.在片段数足够大的条件下，可将其近似视为连续模型.第i片段内游离金属、游离配位体和配合物的质量变化可以表达为片段内配合物解离和片段间质量迁移两种作用的加和.配合物解离导致的变化包括：
+　　　　　　　　　(5)
+　　　　　　　　　(6)
+　　　　　　　　　(7)
+而物质迁移造成的变化则为：
+　　　　　　　　　(8)
+　　　　　　　　　　(9)
+　　　　　　　　(10)
+式中，kd和kc分别为配合物解离和络合的反应速率常数，kt1,kt2和kt3则代表游离金属、游离配位体和配合物的迁移速率常数.配合物解离和物质迁移过程计算机模拟的每一个循环按以下步骤进行：1) 从第1片段向电极表面的物质迁移；2) 第1片段内发生的配合物解离；3) 发生在第1和第2片段间的物质迁移；4) 第2片段内发生的配合物解离；5) 发生在第2和第3片段间的物质迁移；6) 第3片段内发生的配合物解离；……2n)第n片段内发生的配合物解离；2n+1) 发生在第n片段和主体溶液间的物质迁移.为简化模拟过程，假定新平衡可以迅速达到.这时，平衡计算可以仅根据配合物解离常数而无须考虑解离的动力学参数.预备性研究结果表明，在本研究涉及的多数条件下，3×106—3×107次模拟循环后可达到近似稳态.
+　　对片段数(2—240)、配位体浓度(0—1000)、配合物解离常数(0.00001—50000)、游离金属和游离配位体的迁移速率常数(0.00001—2.5)，配合物迁移速率常数(0.00001—1)以及预富集时间(0—500)等参数进行不同条件的组合模拟.括号内为各参数取值范围.本研究仅仅就过程的特征进行研究，模拟参数和结果中不包含任何单位.
+3　ASV预富集过程计算机模拟结果
+　　图3为两例模拟结果.上、下两部分分别代表不存在和存在配位体的体系.两种情况下主体溶液中的游离态金属浓度相同.从左向右分别代表预富集开始时(t＝0)、富集过程中非稳态条件下(t=t)和达稳态条件后(t→∞)滞膜层中各种物质的浓度梯度.
+
+
+图3　存在和不存在配位体条件下滞膜层中游离金属(M＋)、游离配位体(L)和配合物(ML)模拟浓度剖面(E：电极；S：滞膜；B：主体溶液)
+Fig.3 Simulate concentration profiles of free metal ion (M+),free ligand (L) and complex (ML) within the stagnant film,with (on the top) or without (at the bottom) ligand.(E:electrode;S:stagnant film;B:bulk solution)
+　　仅有游离金属时(图3上部)，富集开始后电极表面金属浓度立即降至0.滞膜层中金属的浓度剖面符合菲克第一定律(t→∞、稳态、直线)或菲克第二定律(t=t、非稳态、曲线).任意时刻金属在电极表面的富集通量与浓度剖面在电极表面切线的斜率成正比.有配位体存在时(图3下部)，预富集过程中M＋、L-和ML之间仅在主体溶液中维持平衡.滞膜层中配合物发生解离，游离态金属和配合物向电极迁移，解离生成的游离配位体则逆向迁移进入主体溶液.富集在电极表面的金属通量与游离态金属和配合物浓度梯度在电极表面切线的斜率之和成正比.该值明显高于只有游离态金属存在的情况.
+4　不同参数对测定偏差的影响
+　　对片段数、配位体浓度、配合物解离常数、各种物质的迁移速率常数以及富集时间等参数进行条件组合模拟.其中金属富集通量(F)随片段数(n)增加的趋势如图4所示.在片段数增加的起始阶段，金属迁移通量迅速下降，随后趋于平缓，变化趋势可用双曲线拟合.
+
+
+图4　片段数(n)对金属集通量(F)的影响
+Fig.4 Influence of number of steps on the metal flux
+　　配位体浓度(Lf)和络合稳定常数(kd)对金属富集通量的影响十分相似.两种关系均可用直线方程很好地描述.事实上，这两个变量的商恰恰等于体系中游离金属浓度与配合物浓度之比.图5反映了游离态金属质量迁移速率常数对富集通量的影响.当游离金属迁移速率常数开始上升时，富集通量迅速下降并在金属迁移常数达0.008时降至最低点.其后随着速率常数继续上升开始反弹.游离金属迁移速率常数增加可能导致方向相反的两种效应.它既可能直接造成向电极迁移的游离金属数量增加，也会在某种程度上抑制配合物的解离.富集通量的变化取决于上述两种作用的平衡.在游离金属迁移速率常数为0.008时，两者的作用达平衡点.两种作用的结果也可用双曲线方程描述.
+　　稳态条件下，游离配位体和配合物的迁移速率常数对金属富集通量的影响十分相似，但与游离金属本身迁移速率常数的影响不尽相同.以游离配位体为例，虽然变化趋势也可用双曲线方程拟合，但在同样的变化量级范围内(0.0001—2.5)，金属富集通量仅从0.3114变化到0.3118.显然，游离配位体迁移速率常数的变化对金属富集通量没有显著影响.配合物迁移速率常数的影响亦然.
+　　有关研究证实，阳极溶出法测量游离态金属含量的偏差随富集时间增长而增加.这一现象正是配合物动力学解离的重要证据［6］.本研究模拟了游离态金属含量相同条件下有配位体和没有配位体存在体系中到达电极表面的金属通量.两者之差即为有配位体存在条件下游离态金属含量的测定误差.图6为该误差随预富集时间的变化趋势.
+
+
+图5　游离金属迁移速率常数(km)对富集通量(F)的影响
+Fig.5 Influence of transfer rate constant of free metal on metal flux
+
+
+图6　富集时间对阳极溶出法测定偏差的影响
+Fig.6 Overstimation error as a function of deposition time(t)
+　　用幂函数对图6中数据进行最小二乘意义下的拟合，结果证明：随着富集时间增加，测定误差不断增长，而曲线的增长率(切线斜率)逐渐下降.前者证实了测定偏差随富集时间增加而积累的事实，后者表明在非稳态条件下，误差的增长率较高，随着迁移和解离过程趋向稳态，误差增长趋于恒定.
+5　计算机模拟与实验结果比较
+　　研究中对部分模拟结果进行了实验验证.分别在不同EDTA浓度体系中(0、5.3、10.6、15.9、21.2、26.5和31.8μmol/L)用阳极溶出法(PAR-384及303悬汞电极)测定游离铜含量(总铜浓度28.35μmol/L).测定条件为：NaAc(0.2mol/L)-HAc(0.2mol/L)缓冲体系(pH=4.5)，扫描范围-0.3V—1.0V，预电解时间2、5、10和20s.实验结果证实了预电解时间和配合物总量对测定误差的影响.在4种不同富集时间条件下，游离铜含量测定结果与理论值的偏差如图7所示(EDTA浓度5.30μmol/L,总铜浓度28.35μmol/L).
+
+
+图7　游离铜实际测定偏差随富集时间的变化，铜(28.35μmol/L)-EDTA(5.30μmol/L)体系
+Fig.7 Influence of deposition time on the overstimation detected by ASV determination for free Cu with EDTA presence (total Cu 28.35μmol/L,EDTA 5.30μmol/L)
+
+
+图8　EDTA含量对游离铜实际测定结果偏差的影响
+Fig.8 Influence of EDTA on the overestimation detected by ASV for free Cu
+　　图7所示实测结果随富集时间变化趋势与图6完全一致，也可以用幂函数进行描述.拟合方程和曲线如图中所示.由于模拟未考虑变量单位，两者数值不具有直接可比性.单就实验结果而言，幂函数方程的截距相当于将函数外推至富集时间为零时的测定偏差.该结果(-0.61μmol/L)与理论值(0μmol/L)十分接近，证实了有关文献提出的“零富集时间外推法”测定游离态金属的可能性［6］.
+　　为证实配位体含量对测定偏差影响的计算机模拟结果.分别对总铜浓度相同(28.35μmol/L),EDTA含量分别为0、5.3、10.6、15.9、21.2、26.5和31.8μmol/L的体系进行测定.不同富集时间条件下测得的结果十分相似.图8中给出了在不同富集时间(2、5、10、20s)、相同总铜含量(28.35μmol/L)条件下，游离态铜实测结果与理论含量偏差(纵坐标)与配位体(EDTA)含量的关系.
+　　从图可见，没有配位体存在时测定偏差为0.加入配位体后测定偏差随配位体含量增加而增加.除最后一个点外，测定结果基本落在一条直线上.在不考虑单位的情况下，配位体对测定偏差影响的直线关系与计算机模拟结果一致.图8中最后一点偏离直线的原因是EDTA过量.
+6　结论
+　　游离铜金属含量的阳极溶出法测定结果受到发生在电极附近滞膜层中配合物解离的影响.计算机对金属、配位体及配合物三者转化和迁移过程的模拟证实了这一假设.模拟结果还证实：由于滞膜层中配合物解离造成的测定偏差与配位体浓度及配合物稳定常数成线性正相关关系，还受到物质迁移速率常数的复杂影响.预富集时间增加会增加测定误差.
+* 国家杰出青年基金项目［49525102］
+作者单位：北京大学城市与环境学系，北京　100871
+参考文献
+1　Larsen J,Zalis S,Pospisil L.Labile species of Pb,Zn and Cd determined by Anodic Stripping Staircase Voltammetry and their toxicity to tetrahymena.Talanta,1991,38:981—988
+2 Tao S,Liang T.Long-term monitoring of bioavailable copper in aquatic environment using a resin-filled dialysis membrane.B Environ Cont Toxicol,1997,58:712—719
+3 Jardim W F,Allen H E.In:Kramer C J M;Duinker J C (eds).Measurment of copper complexation by naturally occurring ligands.Complexation of Trace Metals in Natural Waters.Martinus Nijhoff/Dr W Junk Publ,The Hague,1984
+4　Florence T M. Trace element speciation by anodic stripping voltammetry.Analyst,1992,117:551—553
+5　Buffle J,Tessier A.In:Kramer C J M,Duinker J C,Haerdi W(eds).Interpretation of trace metal complexation by aquatic organic matter.Complexation of Trace Metals in Natural Waters.Martinus Nijhoff/Dr W Junk Publishers,The Hague,1984:201—316
+6　Tao S,Chen J S,Tang F.Zero-deposition time extrapolation DPASV for determination of the complexation capacity.Environ Technol Lett,1987,8:433—440
+7　Morrison G M P,Florence T M.Comparison of physicochemcial speciation procedures with metal toxicity to Chlorella pyrenoidosa copper complexation capacity.Electroanalysis,1989,1:107—112
+8　Varney M S,Turner D R,Whitfield M et al.In:Kramer C J M,Duinker J C (eds).The use of electrochemical techniques to monitor complexation capacity titrations in natural waters.Complexatron of Trace Metals in Natural Waters.Martinus Nijhoff/Dr.W.Junk Publ,The Hague,1984:17—32
+1998-04-20收到原稿
+1998-07-16收到修改稿

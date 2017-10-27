@@ -1,0 +1,105 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.6　P.712-716
+
+
+
+基于多码本矢量量化的非限定文本的
+联机话者辨认方法
+马继涌　高文　姚鸿勋
+摘　要：传统的利用话者的一个时期的语音作为训练语音，进行话者码本训练的方法，识别系统往往不够稳定.为了适应话者自身语音的时变性，文中提出了利用话者不同时期的语音进行训练话者的模型，每个话者具有多个码本.这些码本是采用逐渐减小误识率的优化过程得到的.为了补偿不同信道对系统识别性能的影响，文中给出了一种信道补偿方法.同时提出以一帧高能的浊音语音特征代替一个浊音音素的特征，实现了在线浊音特征提取, 利用两级矢量量化及码本索引策略减少了44%的识别计算量.这些方法大大增加了系统的识别速度和鲁棒性.文中比较了用PLP分析和LPC倒谱分析进行话者辨认的识别结果.
+关键词：联机话者辨认，多码本矢量量化，信道补偿
+分类号：TP391
+AN APPROACH BASED ON MULTIPLE VECTOR QUANTIZATION
+FOR ON-LINE TEXT-INDEPENDENT SPEAKER IDENTIFICATION
+MA Ji-Yong，GAO Wen，YAO Hong-Xun
+(Department of Computer Science, Harbin Institute of Technology, Harbin 150001)
+Abstract：The traditional approach for training speaker codebooks only uses one session training speech samples, but the recognition system based on this approach is usually not robust. To adapt to the intraspeaker variations, the paper here introduces an approach for training speaker codebooks using multiple session training speech samples,with every speaker having multiple codebooks. These codebooks are trained based on the minimum recognition error rate.To compensate for the variations arising from transmission conditions, an approach to compensation of the variation presented. To speed up recognition speed, an on-line feature extraction method for voiced sounds and two level vector quantization and codebook index strategy are used. These techniques increase the robustness of the speech feature and speed up the training and identification procedure greatly. Finally, the identification results of comparison using the perceptually based linear predictive(PLP) analysis and the LPC cepstrum analysis are given.
+Key words：on-line text-independent speaker identification, multiple codebooks quantization, transmission compensation▲
+1　引　　言
+　　人通过媒体记录的语音信息进行话者识别，可以说是从本世纪初留声机及电话的出现就开始出现了.人们将电话录音与熟悉的人的语音相比较，从而确定话者的身份.该方法的缺点是，识别范围狭小，对不熟悉的人识别不准，但该方法的明显的优点是对很熟悉的人有很好的鲁棒性.计算机话者识别是，预先用计算机从话者的语音中提取出语音特征，然后对被测试者进行身份识别，完成话者的识别.有关话者识别研究的进展在文献［1］、［2］中报道了.文献［3］中提出了提取话者语音特征的自适应分量加权倒谱系数方法，目的是提高语音特征的鲁棒性.为了提取语音的动态特征，文献［4］、［5］中给出了矢量自回归模型，但文献［5］中对文献［6］中得到的矢量自回归模型可以提取话者语音的动态特征的结论表示怀疑.文献［6］中提出了利用二阶统计量进行话者识别的方法.文献［7］、［8］中讨论了话者识别的鲁棒性问题.文献［9］中给出了话者识别的高斯混合模型.文献［1］中指出高斯混合模型和矢量量化方法［10］及全互联的隐马尔柯夫模型的识别结果相当.文献［12］中给出了神经网络的话者识别方法.矢量量化方法的优点是训练和识别的速度快.话者识别包括话者辨认和话者确认两个方面，目前，国外只对联机话者确认的研究有报到［13］，而对联机话者辨认的研究笔者尚未见到报道.联机话者辨认作为国家“八六三”多功能感知机研究项目的子项, 在人机智能接口中有着重要的应用价值.目前，话者辨认主要存在如下需要解决的主要问题：
+　　(1） 话者未必合作及发音伪装问题.当话者辨认对被测试者不利时，如辑拿罪犯、法庭鉴别，这样在进行训练和测试时话者可能不与工作人员认真合作，使系统不能辨认出话者真正身份.
+　　(2） 信道特性可能不良或不同, 信噪比太低, 使得系统的正识率大大下降, 因为对不明身份的语音鉴别时,可能该段语音的信道特性和训练时的语音的信道特性不同.
+　　(3） 系统响应时间和系统正识率之间的矛盾.当话者集中的话者数目 n 很大时，测试语音的特征参数要和n个已知话者的码字进行比较，占用了很多的机时.对不要求实时性的应用场合，如辑拿罪犯、法庭鉴别，这一问题并不重要，而对人机智能接口应用，这一问题变得非常重要了.
+　　针对上述3个方面的问题，本文给出一个非限定文本的在线话者辨认系统的设计方法.
+2　语音特征提取
+　　通常，电话语音的频率范围大约在300～3400Hz之间，根据采样定理采样频率为8000Hz时，可以避免频谱混迭问题.本系统中量化精度为8位，采用mu-law压缩，然后对语音文件由mu-law压缩，变为16位的PCM编码.
+　　语音信号可近似地视为一个短时平稳随机过程，而语音中的话者的个体信息是隐含在语音信号中的，这使得从语音信号中分离出话者的个体语音特征相当复杂，话者的个体语音特征主要集中在语音信号的低频高能区，一般认为集中在40～1000Hz的范围内,另一方面，从等响度曲线知，人耳对像2000～5000Hz的声音特别敏感，这说明话者的个体信息主要覆盖在40～5000Hz频率范围内.
+　　声音的三要素包括：声音的强弱，音调的高低，音色的好坏.音调主要取决于声音的频率，频率越高，音调越高，但它还和声压级和组成成分有关；音色是反映复合声的一种特性，它主要是由复合声成分中各种纯音的频率决定的，虽然不同话者的基音可能相同，但由于每个话者的语音性质不同，其泛音成分也各不相同，人们是根据不同泛音的频率成分及其强弱来区分各种不同的音色，从而区分不同话者的语音.由于浊音是通过话者的声带振动发出的，具有较强的准周期性，不易受噪音的影响，有较好的鲁棒性，因而成为话者识别的主要语音信号.相反，清音受环境噪音的影响大，提取的语音参数鲁棒性差.目前提取语音的方法有：滤波器组的频谱、LPC功率谱、 LPC系数、LPC反射系数和LPC自相关系数、LPC倒谱系数、Mel Frequency Cepstrum 系数( MFCC )、感知线性预测( the perceptually based linear predictive ) PLP 倒谱系数［4］等.
+　　话者的语音训练过程为，语音信号经采样量化和预加重之后(提取PLP系数语音信号不用预加重),经过端点检测确定浊音帧后,提取语音特征.本系统采用了 LPC倒谱系数及PLP倒谱系数提取语音特征，帧长为32mm, 帧移为16mm，LPC倒谱系数的阶取为16，PLP倒谱系数的阶取为12，其中采用了拟频加权测度.
+
+式中，CiR，CiT分别是全极点模型的参考倒谱系数和测试的倒谱系数，p是阶数，s是频谱峰值增强系数，取为0.6 .这种测度反映了两个全极模型频谱峰值的差别.实验表明，拟谱加权测度对话者识别具有较高的灵敏度.但另一方面，这种测度对信道的噪声同时也很敏感.
+3　多码本矢量量化
+　　矢量量化技术用于话者识别，是将话者的语音信号的非平稳随机过程分割成若干个平稳随机过程，其每一个平稳过程对应于一个浊音音素的平稳段.汉语中韵母有38个，声母22个，而大多数声母都是浊音.所以码本的大小至少应大于浊音的数目.本系统中码本大小取为64.当语音信号幅度超过量化器的动态范围时，会出现过载噪声，当语音信号的幅度值较小时，量化的噪声相对较大.这两种情况应在训练和识别时尽量避免，因为话者离话筒太近可能发生过载噪声现象，而离话筒太远时，由于信噪比降低，将发生量化的噪声相对较大的情况.另外，当话者离话筒较近讲话时语音波形可视为球面波，这时声波传播时其幅值逐渐减小，声波幅值的衰减与话者离话筒距离成反比.由于碳素麦克风响应的非线性，不同的语调和不同的语音韵律的影响，使得语音信号表现出一种非平稳性.为了适应语音的时变性，利用话者不同时期的语音进行训练话者的模型，每个话者具有多个码本.这些码本是采用逐渐减小误识率的优化过程得到的.训练每一个码本的语音长度为30秒左右，每一个话者的码本数目为5个左右，码本大小为64.
+4　信道补偿和识别方法
+　　设测试语音的倒谱特征序列为Y={y1,y2,…,yT},T是整个帧数, 假定由于训练和测试时的信道不同，造成的语音特征偏离，有下述关系
+　　(1)
+式中，X={x1,x2,…,xT}是折算成训练信道下的语音特征序列，Δh是识别时的信道和训练时的信道的差别.假定话者集由n个话者组成，假定第n个话者的第k个码本的概率密度为pnk(x)～N(μnk,σ2nk)，k=1,2,…,M.M是码本的大小.估计Δh的似然函数为
+　　(2)
+式中S是语音特征序列X={x1,x2,…,xT}在话者模型中的状态集合S={1,2,…,M}, θ是模型的参数.
+　　(3)
+对式(3)关于Δh取偏导数并使它为零，可得
+　　(4)
+式中，yjk,Δhnk分别是yj,Δhn的第k个分量.
+　　由上述方程可解得
+　　(5)
+由于snj是和Δhn有关的, 因此利用上述关系需要迭代方法才能求解.步骤如下：利用初始值Δn=0，可计算出X={x1,x2,…,xT}在模型中的状态S，利用上式计算Δn的修正量，进一步利用式(1)计算出X={x1,x2,…,xT}的校正量，然后计算出它们在模型中经历的状态，利用上式反复进行迭代计算，最终可得Δn.识别时，计算X={x1,x2,…,xT}在每个话者模型中的似然概率，选择对应最大似然概率的模型为被识别出的话者对应的模型，关系如下
+
+5　在线话者辨认
+　　在线话者辨认系统不仅要求辨认速度快,而且要求系统有较高的正识率.为了满足这两方面的要求，本系统利用了在线提取浊音.以一帧高能的浊音特征代替一个浊音音素的特征.因为，语音信号具有短时的平稳特征，这样一个浊音音素的相邻帧的语音特征变化缓慢，并具有很强的相关性.虽然，提取浊音音素很快，但如果提取太多的特征向量，那么话者辨认的匹配时间也要增加.测试结果表明,这种方法与一般方法的识别率基本相同.在线浊音提取方法能满足实时要求，并且这种方法使识别速度加快了3000多倍左右.
+
+
+图1　两级矢量量化
+　　为加速识别速度，量化分为两级，如图1所示.第1级的码本大小为16 ，索引码本大小为20，用第1级的码本量化码本大小为64的码本，得码本大小为20的索引码本，识别时语音特征矢量先经第1级量化，找到相应的码字，然后根据索引码本索引进行第2级量化.这样识别时的计算量减少了44%.
+　　在线话者辨认分为两种情况，一种是从已有的话者的测试语音文件进行，另一种是直接从话筒采集的语音进行话者识别.从语音文件进行在线识别时，每间隔几秒(一般为3～5秒)系统将报告出这一段的识别结果.为实现这一功能，系统中申请了一块缓冲区存储语音波形及语音特征.每间隔一定时间更新其内容.为实现直接从话筒进行识别，系统中利用了同步信号跟踪功能，系统周期性的每间隔一定时间输出识别结果.系统中申请的一块缓冲区存储语音波形及语音特征.每间隔一定时间更新其内容，其原理图如图 2 所示.读语音和提取语音特征的时间片共有8片，每一个时间片执行完后，检测累积有效语音段的时间长度是否大于给定时间，若大于，则进行识别，不然继续执行下一个时间片，当执行到第8个时间片后，如果累积有效语音段的时间长度是不大于给定时间，则认为是无效语音，不进行识别.
+
+
+图2　在线识别的执行过程
+6　测试结果
+6.1　实验背景
+　　基于上述原理，我们在SUN Sparc II 工作站上开发了一个与文本无关的话者识别系统(TISI)，系统结构如图 3所示，话者集由65人组成，每个话者的训练语音长度 150 秒，测试语音的长度分别取为 5秒、3秒 和1秒，实验环境的噪声一般，实验和测试间隔时间为6个多月.
+6.2　测试语音长度对正识率的影响
+　　当测试语音的长度小于1秒时，系统的正识率很低，对测试语音长度分别为 5、3、1秒的实验结果列于表1 中, 这里用于测试和训练的语音的环境噪声及信道特性基本相同,即,在相同的环境下,话者离话筒的距离相同并且话者语音的幅值的波动范围基本相同.
+
+
+图3　基于矢量量化的话者识别系统结构
+表1 误识率
+
+测试时间(s)从文件在线(%)从话筒在线(%)
+511
+356
+14041
+
+6.3　信道特性及环境噪声对正识率的影响
+　　当测试时的信道特性及环境噪声和训练时的信道特性及环境噪声明显不同时,系统的正识率87%,通过多码本训练可以改善识别系统的识别特性.
+7　结　　论
+　　本文提出了多码本矢量量化技术的非限定文本的联机话者辨认方法，通过研究得到以下主要结论：
+　　(1）用PLP分析和LPC倒谱分析得到的语音特征是话者识别的良好的语音特征，但PLP分析的时间复杂性较低，更适合于在线话者识别.
+　　(2）用一个浊音帧代替一个浊音的识别方法极大地减少了识别时间，实验表明该方法的识别率没有明显下降.
+　　(3）信道补偿和多码本矢量量化技术大大地增加了该系统的鲁棒性.
+　　(4）通过两级矢量量化及码本索引策略,识别时的计算量减少了44%,而对正识率无显著影响.
+　　(5）对65人组成的话者集,当用于测试和训练的语音的环境噪声及信道特性基本相同时,系统的正识率可达99%.
+　　由上述结论可见,目前影响话者辨认正识率的主要因素是信道特性.因此，寻求稳健的话者个体特征及新的信道归一化方法将是话者识别研究的主要课题.■
+基金项目：本课题得到国家“八六三”计划(项目编号863-306-03-03)和国家自然科学基金项　　　　　　目的资助.
+作者简介：马继涌，男，1963年6月生，博士，主要研究领域为语音识别和图像识别.
+　　　　　高文，男，1956年4月生，教授，博士生导师，现任中国科学院计算技术研究所所　　　　　　长，国家“八六三”计划智能计算机主题专家组组长(首席专家)，联想中央研究院　　　　　　院长，主要研究领域为人工智能和多媒体技术，侧重于计算机视觉、模式识别与图　　　　　　像处理、多媒体数据压缩等.
+　　　　　姚鸿勋，男，1965年11月生，讲师，主要研究方向为多功能感知技术.
+作者单位：马继涌（哈尔滨工业大学计算机科学系　哈尔滨　150001)
+　　　　　高文（哈尔滨工业大学计算机科学系　哈尔滨　150001)
+　　　　　姚鸿勋（哈尔滨工业大学计算机科学系　哈尔滨　150001)
+参考文献：
+［1］Rosenberg A E. Soong F K. Recent research in automatic speaker recognition. In: Furui S， Sondhi M M eds. Advances in Speech Signal Processing. New York: Marcel Dekker, 1992. 701～738
+［2］Furui S. Recent advances in speaker recognition. In: Bigun J, Chollet G eds. The First Int'l Conf on Audio- and Video-Based Biometric Person Authentication. Switzerland: Springer, 1997. 237～252
+［3］Khaled T A. Robust cepstral features for speaker identification. In: Lever K ed. Proc of 1994 IEEE Int'l Conf on Acoustics, Speech, and Signal Processing. South Australia, Adelaide, 1994. 129～132
+［4］Floch J L, Montacie C, Caraty M J. Speaker recognition experiments on NTIMIT database. In: Proc of 4th European Conf on Speech Communication and Technology, Vol 1. Madrid, 1995. 379～382
+［5］Magrin-Chagnolleau I, Wilke J, Bimbot F. A further investigation on AR-vector models for text-independent speaker identification. In: Vijay K M ed. Proc of 1996 IEEE Int'l Conf on Acoustics, Speech, and Signal Processing, Atalanta, USA, 1996. 300～304
+［6］Bimbot F, Margrin-Chagnolleau I, Mathan L. Second-order statistical measures for text-independent speaker identification. Speech Communication, 1995, 17(1-2): 90～99
+［7］Openshaw J P, Sun Z P, Mason J S. A comparison of composite features under degraded speech in speaker recognition. In: Sullivan B J ed. Proc of 1993 IEEE Int'l Conf on Acoustics, Speech, and Signal Processing. Minnesota, USA, 1993. 371～374
+［8］Kao Yu-Huang, Baras J S, Rajasekarn P K. Robustness study of free-text speaker identification and verification. In: Barry J S ed. Proc of 1993 IEEE Int'l Conf on Acoustics, Speech and Signal Processing. Minnesota, USA. 1993. 379～382
+［9］Reynolds D A. Speaker identification and verification using Gaussian mixture speaker models. Speech Communication, 1995, 17(1): 91～108
+［10］Soong F K. A vector quantization approach to speaker recognition. AT & T Technical Journal, 1987, 66(1): 14～26
+［11］Savic M, Gupta S K.Variable parameter speaker verification system based on hidden Markov modeling. In: Lonnie L ed. Proc of 1990 IEEE Int'l Conf on Acoustics, Speech, and Signal Processing. Albuquerque, New Mexico, USA, 1990. 281～284
+［12］Rudasi L, Zahorian S A.Text-independent talker identification with neural networks. In: Proc of 1991 IEEE Int'l Conf on Acoustics, Speech, and Signal Processing. Toronto, Canada, 1991. 409～408
+［13］Attili J B.On the development of a real-time text-independent speaker verification system［Ph D dissertation］. Rensseler Polytechnic Institite, Rensseler，1987
+收稿日期：1997-09-11
+修稿日期：1998-05-08

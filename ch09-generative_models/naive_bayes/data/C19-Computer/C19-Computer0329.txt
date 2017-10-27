@@ -1,0 +1,164 @@
+计算机应用
+Computer Applications
+1999年 第19卷　第8期 Vol.19　No.8 1999
+
+
+
+ASP数据库查询多页显示技术的实现
+朱世平
+　　摘　要　本文简要介绍了ASP的基本概念，以及在设计检索结果多页显示时的具体方法，从而进一步说明ASP在构架Internet/Intranet应用时，具有简明、高效等技术优势。
+　　关键词　ASP，Web应用，检索技术，多页显示
+IMPLEMENTATION OF DATABASE RETRIEVE
+PAGES DISPLAY TECHNOLOGY ON ASP
+Zhu Shiping
+China University of Mining & Technology, Jiangsu.Xuzhou 221008
+　　Abstract　This paper briefly describes the basic concepts of ASP technology. It also describes specific method, in the course of access result pages design. It explains technical advantage of ASP on application of Internet/Intranet.
+　　Keywords　ASP, Application of web, Retrieve technology, Pages display
+1　引言
+　　ASP（Active Server pages）是Microsoft公司于1996年11月推出的Web应用程序开发技术。是提供一个可以集成脚本语言（Vbscript或Jscript等）到HTML网页并作用于服务器端的脚本环境。ASP将HTML，ODBC数据库访问和其它许多新颖技术集于一身，从而使Web应用系统的设计更加简明而直观。因而日益受到广大开发人员的关注。下面就ASP数据库查询多页显示技术的具体实现进行论述。
+2　数据库的连接与基本查询技术
+　　我们知道ASP与数据库的连接是通过其内置的ADODB组件来实现这一功能的。即首先通过服务器上“控制面板”的ODBC设置DSN，通过DSN指向ODBC数据库。
+　　然后就要使用“Server.CreateObject”建立连接对象，并用“Open”打开待检索的数据库，命令格式为：
+　　Set Conn=Server.CreateObject("ADODB.Connection")
+Conn.open"数据库名称"
+　　这里的数据库名称即为在ODBC设定的“数据来源名称”。而Server. CreateObject需要进行以下说明。ASP为使其在开发Web应用方面有更高一级的功能，特提供了五个内建对象：
+　　Request对象： 用于从使用者那里获取信息。
+　　Response对象： 将信息传送给使用者。
+　　Server对象： 提供存取Web服务器的方法和属性。
+　　Session对象： 在一个用户的多个主页之间保留和使用某些共同的信息。
+　　Application对象：在一个ASP应用内让不同使用者共享信息。
+　　Server对象的一个重要方法就是CreateObject。
+　　至于命令中的ADODB，它实际上是ASP提供的五个服务器控件当中的一个，通常称为数据库访问控件。一个服务器控件就相当于一个对象，它提供方法和属性来使用服务器资源。
+　　要想调用服务器控件，就必须首先利用Server对象的CreateObject方法产生服务器控件实例，比如上面命令：
+　　Set Conn=Server.CreateObject("ADODB.Connection")
+　　除了ADODB服务器控件以外，其余四个服务器控件是：
+　　文件访问控件：通过FileSystemObject对象和TextStream对象，提供读写服务器文件的功能。
+　　广告轮播器控件：让广告图片信息轮流显示于主页上。
+　　浏览器信息控件：提供用户所用浏览器的功能信息给Web服务器。
+　　内容链接控件：让你很方便地使用一个文本文件来管理超级链接、上一页、下一页等链接功能。
+　　一但与数据库建立了连接，就可以设定SQL命令，并使用“Execute"开始执行数据库的检索，并将检索结果存储到RecordSets对象RS。命令格式如下：
+　　Set RS=Conn.Execute(SQL命令)
+　　其中SQL命令中的检索条件可以由HTML的Form表单中，用户所填数据确定。当定义了RS结果集对象，就能够使用Recordsets对象命令，对查询结果进行控制。主要包括：
+　　RS.Fields.count: 　Recordsets的字段数。
+RS(i).Name:第i个字段名称。i由0算起到RS.Fields.count-1。
+RS(i):第i个字段的数据。i由0算起到RS.Fields.count-1。
+RS("字段名称"):读取指定字段的数据。
+RS.EOF:是（True）否（False）已指到数据库文件的最后一个记录。
+RS.MoveNext:将指针移到下一个记录。
+RS.MovePrev:将指针移到前一个记录。
+RS.MoveFirst:将指针移到第一个记录。
+RS.MoveLast:将指针移到最后一个记录。
+RS.GetRows:将查询结果放到数组中。
+RS.Close:关闭检索结果集。
+Conn.Close:关闭连接的数据库。
+　　以上就是ASP查询当中的一些基本技术。
+3　多页显示技术的实现
+　　当检索结果集中的数据很多时，我们希望通过命令按键的形式对查询结果进行翻阅，这也是我们以往在Windows应用程序中通常使用的方式。那么ASP又是如何实现这一技术的呢？我们知道ASP的Recordset对象是主要的数据界面，采用如下代码就能够产生一个可前后滚动、只读的Recordset对象
+　　Set Conn=Server.CreateObject("ADODB.Connection")
+Set RS=Server.CreateObject("ADODB. Recordset")
+Conn.Open"ZHUDB"，"SA"，""
+RS.Open "Select * from authors"Conn,
+adOpenKeyset,adLockReadOnly
+　　Recordset对象的打开，可以使用以下四种不同的光标模式
+　　动态光标模式　允许查看其他用户所做的增加、修改和删除操作，允许经过该Recordset对象所有类型的移动，不需依赖书签，并允许提供者支持书签功能。
+　　键盘光标模式　操作像一个动态光标，相异之处为它不允许查看其他用户所做的增加操作，不允许存取其他用户在你的Recordset所删除的记录。
+　　静态光标模式　提供静态地拷贝一套记录的操作，以查询数据或者产生报告之用。其他用户所做的增加、修改和删除是不可见的。
+　　前滚光标模式　操作像一个静态光标，相异之处是它只允许向前滚动记录。当只需要使用一次Recordset时，将提高运行的效率。
+　　假如不具体指定光标模式，ASP/ADO就预设为前滚光标模式。前滚的Recordset对象仅支持MoveNext方法。在实际应用中光标模式与锁定类型的设定值如表1所示：
+表1
+
+常数常数值描述
+AdOpenForwardOnly0前滚光标模式
+AdOpenKeyset1键盘光标模式
+AdOpenDynamic2动态光标模式
+AdOpenStatic3静态光标模式
+AdLockReadOnly1只读
+AdLockPressimistic2悲观的锁定
+AdLockOptimistic3乐观的锁定
+AdLockBatchOptimistic4乐观的批量更新
+
+　　根据所定的光标模式以及Recordset的其它属性与方法，如PageSize,AbsolutePage,NextRcordset等，同时结合相应的脚本代码，就能够实现我们预期的效果。下面给出一个具体实例代码：
+** Zhu.asp文件
+<HTML>
+<Body>
+<%
+Const a dOpenKeySet=1
+Const a dLockReadOnly=1
+Set Conn=Server.CreateObject("ADODB.Connection")
+Set RS=Server.CreateObject("ADODB.RecordSet")
+Conn.Open "SQLWEB1","SA",""
+RS.OPEN "Select*From CBOOK Where Title =′高等数学′",
+Conn a dOpenKeySet, a dLockReadOnly
+RS.PageSize=4
+
+SCRO=REQUEST("SCRO")
+IF SCRO <> "" THEN
+PAGENO=MID(SCRO,5)
+IF PAGENO <1 THEN
+PAGENO=1
+END IF
+ELSE
+PAGENO=1
+END IF
+RS.ABSOLUTEPAGE=PAGENO
+%> 
+<P>
+<Form Method=POST ACTION="ZHU.asp">
+<% Do While Not(RS is Nothing) %>
+　　检索结果显示
+<TABLE Colspan=8 Cellpadding=5 Border=1>
+<TR>
+<TH> 书名</TH><TH>著者</TH><TH>出版年</TH><TH>出版社</TH>
+</TR>
+<%
+RowCount=RS.PageSize
+Do While Not RS.EOF and RowCount>0
+%>
+<TR>
+<TD BGCOLOR="8fffde" VALIGN=TOP><FONT 
+COLOR="#0000"><%=RS("title") %></TD>
+<TD BGCOLOR="8fffde" VALIGN=TOP><FONT 
+COLOR="#0000">　<%=RS("author") %>　</TD>
+<TD BGCOLOR="8fffde" VALIGN=TOP><FONT 
+COLOR="#0000">　<%=RS("pubdate") %>　</TD>
+<TD BGCOLOR="8fffde" VALIGN=TOP><FONT 
+COLOR="#0000">　<　%=　RS("publisher")%>　</TD>
+</TR>
+<%
+RowCount=RowCount-1
+RS.MoveNext
+Loop
+%>
+</TABLE>
+<p>
+<%
+SET RS=RS.NextRecordSet
+Loop
+Conn.Close
+Set RS=Nothing
+Set Conn=Nothing
+%>
+<p><p>
+<% IF PAGENO>1 THEN %>
+
+<INPUT TYPE="SUBMIT" NAME="SCRO" VALUE="<%="Page" & PAGENO-1 %>">
+<% END IF %>
+<% IF ROWCOUNT=0 THEN %>
+<INPUT TYPE="SUBMIT" NAME="SCRO" VALUE="<%="Page" & PAGENO+1 %>">
+<% END IF %>
+</Form>
+
+</BODY>
+</HTML>
+　　该程序用于查询图书馆书目中有多少种书名叫“高等数学”的图书。并且确定每页最多显示四条记录，显示的内容包括书名，著者，出版年，出版社。运行结果如图1所示：
+
+
+图1　运行结果
+4　结束语
+　　随着互连网络的不断发展，数据库应用构架在Internet/Intranet上肯定是发展的必然趋势。而ASP在这方面确实给我们带来了引人入胜的新技术。这里虽然只具体讨论了ASP数据库查询多页显示技术等问题，但ASP配合ActiveX构件技术的运用，将会使我们创建更多充满活力的Web应用系统。
+作者简介：朱世平　副研究员。主要研究领域：计算机网络与数据库应用。
+作者单位：朱世平　中国矿业大学　江苏.徐州（221008）
+参考文献
+　［1］　都艺兵.信息系统中如何实现数据库系统与Web的集成.计算机系统应用，1998;（9）:33-35
+　［2］　张建章.浅谈ASP开发Web数据库应用技术.计算机系统应用,1998;（9）:36-39
+　　收稿日期:1999-04-23(修改稿)

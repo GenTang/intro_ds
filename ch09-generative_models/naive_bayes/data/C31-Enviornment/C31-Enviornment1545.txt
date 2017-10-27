@@ -1,0 +1,49 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第5期 No.5 Vol.18 1998
+科技期刊
+
+应用四膜虫刺泡发射试验方法评价金属离子的毒性*
+王永兴1　吴庆龙2　王晓蓉1　王连生1　(1.污染控制与资源化研究国家重点实验室，南京大学环境科学与工程系，南京210093；2.中国科学院南京地理与湖泊研究所，南京 210008)
+文　摘　应用致突变阴性、阳性对照(Cu2+, Cr2O2-４, Cd2+, 丝裂霉素MMC, 环磷酰胺CP，秋水仙素Colchicine)评价四膜虫刺泡发射实验方法的可行性，并应用该方法检测稀土金属离子La3+,Ce3+, Sm3+, Y3+, Gd3+对四膜虫刺泡发射的影响效应。结果表明，由于细胞毒性引起阳性对照最高浓度组刺泡发射率比低浓度组低外，其它处理浓度与刺泡发射率呈现良好的相关性。四膜虫刺泡发射试验不需加活性酶，是一种值得推荐的快速、简便、可靠的水生生物短期测试方法。稀土金属离子La3+，Ce3+，Sm3+，Y3+，Gd3+处理四膜虫的刺泡发射率同样具有随浓度升高而增加的趋势，但在低浓度处理组各检测时间内四膜虫刺泡发射率低于对照组，该结果与稀土低浓度时的刺激效应和抗突变性不无相关。
+关键词　四膜虫　金属离子　刺泡发射试验　毒性
+Toxicity of metal ions evaluated with tricocyst test of Tetrahymena pyriformis.Wang Yongxing1,Wu Qinglong2，Wang Xiaorong1, Wang Liansheng1(State Key Laboratory of Pollution Control and Resource Reuse, Department of Environmental Science and Engineering, Nanjing University, Nanjing 210093；2.Nanjing Institute of Geography and Limnology,Chinese Academy of Science,Nanjing 210008). China Environmental Science. 1998,18(5):446～449
+Abstract—Feasibility of tricocyst test with Tetrahymena pyriformis were evaluated by serial chemicals (Cu2+, Cr2O2-４,Cd2+,MMC, CP, Colchicine). There is no significant difference between control and treated groups with negative chemical (Cu2+). Except at the highest concentration the frequency of tricocyst decrease for the cytotoxicity, it shows good relations to the concentrations of positive chemicals (Cr2O2-, Cd2+, MMC, CP). The results show that tricocyst test of Tetrahymena pyriformis is a recommendable, handy, and reliable method for biomonitoring with freshwater species. After treated with the REE ions La3+, Ce3+, Sm3+, Y3+, Gd3+, the frequency of tricocyst also become higher as the cocentrations higher. But at low concentrations, the lower frequency than control are observed.It is considered that this effect concerned with the stimulation growth response at low REE concentrations.
+Key words:Tetrahymena pyriformis　metal ions　tricocyst test　toxicity
+　　梨形四膜虫(Tetrahymena pyriformis)是原生动物的代表种之一，广泛分布于世界各地的淡水中，在无菌条件下可以形成无性生殖克隆(clone)，易于建立全微生物化培养，保证试验工作的连续性，是水环境污染监测一种较理想的试验生物。刺泡附着在四膜虫细胞质表面，由基粒分化而来，垂直胞质排列。当外界环境条件触发膜外排(exocytosis)作用时，可以引起刺泡发射，形成光学显微镜下可见的分泌泡(tricocyst)。人为的刺激方式如化学物质、电刺激、机械作用等均可诱发刺泡发射。Pollack〔1〕确认由基因控制，6个基因作用在9个遗传位点上，因此作为一种快速、简便的试验方法，将四膜虫刺泡发射试验应用于化学品的毒性或致突变性的筛检和评价，具有良好前景。本文用致突变阳性和阴性物(Cu2+, Cr2O2-４,Cd2+,丝裂霉素MMC, 环磷酰胺CP，秋水仙素Colchicine)检测四膜虫刺泡发射试验方法的可行性，同时评价La3+，Ce3+，Sm3+，Y3+，Gd3+等稀土金属离子对四膜虫刺泡发射的影响效应。
+1　材料与方法
+1.1　试验材料
+　　试验用四膜虫：纯培养的S1上海梨形四膜虫(Tetrahymena pyriformis shanghaiensis s1)无性生殖克隆，由无锡淡水渔业研究中心提供。培养液：胰蛋白胨(Tryptone，OXOID 英国产)20g，葡萄糖(A.R)5g，蒸馏水加至1000 mL后，5%NaHCO3溶液调pH=7.2，经2.28kg 15min高压蒸汽灭菌后，置冰箱4℃备用。
+1.2　试验方法
+1.2.1　受试化合物培养液的配制　分别称取A.R级CuSO4，K2Cr2O4，CdCl2，La(NO3)3，CeCl3，SmCl3，Y2O3，Gd2O3，以及环磷酰胺(CP)，丝裂霉素(MMC)，秋水仙素(Colchicine)配成一定浓度的母液，Y2O3，Gd2O3先用浓硝酸溶解后再用去离子水稀释。将受试化合物母液稀释至所需染毒浓度，并用1mol/L NaOH溶液调节pH=7，按上述配方配制培养液，将8.9 mL培养液分装至25mL比色管中，加入1mL稀释好的不同浓度受试化合物，5%NaHCO3溶液调pH=7.2，每个浓度设3个平行比色管，高压蒸汽除菌15min，冰箱储存备用。
+1.2.2　刺泡发射试验　受试化合物培养液配成
+5个浓度系列，每个化合物同时作1个去离子水空白对照，每个处理浓度设3个平行比色管。将预培养处于对数生长期(18h)的四膜虫0.1mL接种已加入9.9mL含受试化合物培养液的比色管中，维持起始细胞为10个/mL，置27℃恒温箱内无菌培养。每隔一定时间24，48，72，96h，每个比色管中计数2次，每次移取0.1 mL于0.1mL浮游生物计数框上，滴加Lugol's液固定细胞并染色，在显微镜下计数出现刺泡发射的细胞数，得到不同时刻的刺泡发射频率。刺泡经Lugol's液染色呈现桔红色，附着于细胞膜上，很容易与染成浅黄色的四膜虫细胞区分开，试验中发现有的细胞能够发射2个或更多的刺泡，只计一个出现刺泡发射的细胞。
+2　结果与讨论
+2.1　刺泡自发射频率
+　　为检测四膜虫刺泡的自发射频率，进行20次测定，每次计数1000个细胞，结果表明自发射频率为2.55 ± 0.23%，95%置信限为2.06～3.03。由此可见在标准培养条件下(温度，pH值，培养基组成等)，梨形四膜虫的刺泡自发射频率是比较低的。
+2.2　对照组刺泡发射结果
+　　阴性对照Cu2+，阳性对照Cr2O2-４，Cd2+，MMC，CP以及细胞分裂阻断剂秋水仙素(Colchicine)，稀土金属离子La3+，Ce3+，Sm3+，Y3+，Gd3+致四膜虫刺泡发射的结果见图1。将处理组与对照组刺泡发射频率进行统计分析(Dunnet's t-test)可以发现：
+2.2.1　阴性对照Cu2+各浓度处理组与对照组差异不显著(P>0.05)。
+2.2.2　阳性对照Cr2O2-４ 0.1, 1, 10, 100mg/L处理组的刺泡发射率在各检测时间与对照组差异显著(P<0.05,P<0.01)，而且随作用浓度的增加四膜虫细胞的刺泡发射率随浓度的增加而升高，将刺泡发射率与对数浓度进行回归分析，发现相关性良好，相关方程分别为24h Y=4.08+0.71(X+0.5) (r=0.998, n=4)，48h Y=8.70+1.16(X+0.5) (r=0.999, n=4)，72h Y=11.08+2.55(X+0.5) (r=0.998, n=4)，96h Y=5.93+1.05(X+0.5) (r=0.980, n=4)，而150mg/L组的刺泡发射率明显低于以上各处理组。Cd2+在0.01, 0.1, 1mg/L组与对应具显著差异(P<0.05,P<0.01)，其相关方程分别为24h Y=2.17+0.81(X+1.0) (r=0.952, n=3)，48h Y=9.80+2.80(X+1.0) (r=0.983, n=3)，72h Y=1.90+0.50(X+1.0) (r=0.988, n=3)，96h Y=1.27+0.60(X+1.0) (r=0.961, n=3)，在10mg/L组刺泡发射率显著降低，50mg/L组Cd2+的毒性导致细胞死亡，无法得到有关刺泡发射率数据。MMC在各处理组均与对照差异显著(P<0.05,P<0.01)，相关方程为24h Y=0.62+0.19(X+2.5) (r=0.930, n=5)，48h Y=2.34+1.08(X+2.0) (r=0.989, n=5)，72h Y=4.8+1.18(X+2.0) (r=0.989,n=5)，96h Y=3.92+0.39(X+2.0) (r=0.961, n=5)。CP在25, 50，100mg/L和48，72h与对照组差异显著(P<0.05,P<0.01)，在各浓度组96h均无影响效应，值得注意的是在1, 10, 25mg/L处理组各检测时间有的四膜虫刺泡发射率甚至低于对照组。但是在24, 48, 72h同样表现出剂量—效应关系，相关方程分别为24h Y=2.05+1.30(X+0.5) (r=0.840, n=4)，48h Y=3.68+0.83(X+0.5) (r=0.999, n=4)，72h Y=1.91+0.34(X+0.5) (r=0.998, n=4)。
+2.2.3　细胞分裂阻断剂秋水仙素(Colchicine)在24, 48, 72h各处理组均与对照组差异显著(P<0.05,P<0.01)，96h无明显影响效应，相关方程为24h Y=2.70+1.16(X+0.06) (r=0.841, n=5)，48h Y=5.86+1.70(X+0.06) (r=0.937, n=5)，72h Y=1.56+0.28(X+0.06) (r=0.840, n=5)。上述各阳性对照物均为常见的致突变物，表明刺泡发射试验方法与致突变试验方法具共同之处。修瑞琴等人〔2〕的研究也表明该方法与Ames试验、微核试验等短测方法具良好一致性。Cohen认为外源物质导致与质膜生理功能相关的基因产生突变，进而影响到刺泡的发射〔3〕，因此该方法是致突变筛检系统一个很有价值的补充。上述结果在处理浓度与刺泡发射率之间呈现良好相关性，表明方法的可行性。最高浓度时四膜虫细胞刺泡发射率显著降低现象，认为是由于阳性物在高浓度处理时表现出的毒性效应，进而降低了刺泡的发射频率，这与Cohen应用EMS检测时的结果一致〔4〕。
+
+图1　不同浓度Cu2+,Cr2O2-４，Cd2+MMC，CP，Colchicine,La3+，Ce3+，Sm3+，Y3+，Gd3+对四膜虫刺泡发射百分率的影响 
+Fig.1　Effect on percent of tricocyst by Cu2+,Cr2O2-４，Cd2+ Colchicine,La3+，Ce3+，Sm3+，Y3+，Gd3+ in Tetrahymena pyriformis
+2.3　稀土金属离子处理组刺泡发射结果
+　　稀土金属离子La3+，Ce3+，Sm3+，Y3+，Gd3+处理四膜虫后刺泡发射率同样具有随浓度升高而增加的趋势，在最高浓度组均较前一浓度降低。稀土金属离子表现出与CP相似的结果，在较低浓度处理组各检测时间四膜虫刺泡发射率甚至低于对照组。在进行四膜虫生长试验时发现，低浓度处理时稀土表现出刺激四膜虫生长的效应，也有文献证实稀土具抗突变作用〔5〕，显然刺泡发射率的降低与刺激效应和抗突变性相关，这也从另一角度说明刺泡发射率作为检测毒性影响的生物指标具有实用价值。
+2.4　讨论
+　　在以上应用阳性对照及稀土金属离子的试验中，24～96h之间同一物质引起的刺泡发射率不同。有的在48h最大，有的在72h最大。其原因可能是：(1)细胞数目的增加与刺泡发射细胞增加不同步；(2)在诱发过程中基因突变得到修复。在稀土处理组，一般重稀土的最大刺泡发射率出现在48h，而轻稀土的最大刺泡发射率出现在72h，这与重稀土(Y3+，Gd3+)对四膜虫的毒性大于轻稀土(La3+，Ce3+，Sm3+)的结果一致。很有必要进行试验探讨。
+3　结论
+3.1　使用阴性和阳性对照物进行四膜虫刺泡发射试验的可靠性测定，阳性对照呈阳性反应，阴性对照呈阴性反应。由于四膜虫体内具有与动物细胞近似的酶系统，试验不需加活化酶，是一个快速、简便、可靠的短期测试法。
+3.2　应用四膜虫刺泡发射试验检测稀土金属离子的毒性，稀土在低浓度由于刺激效应而表现为刺泡发射率降低，随浓度的增高而呈阳性反应，重稀土(Y3+，Gd3+)对刺泡发射的影响大于轻稀土(La3+，Ce3+，Sm3+)。
+参考文献
+1　Pollack S.Mutations affecting the tricocysts in Paramecium tetraurelia ( morphology and description of the mutants. J. Protozool，1974, 21(2): 352～363
+2　修瑞琴, 高世荣, 李连元.原生动物致突变试验方法研究. 卫生研究, 1984, 13(4): 20～23
+3　Cohen J,Beisson J. Genetic analysis of the relationships between the cell surface and the nuclei in Paramecium tetraurelia. Genetics, 1980, 95: 797～818
+4　Cohen J. Cytotoxic versus mutagenic effect of ethyl methanesulfonate on Paramecium tetraurelia. Mut. Res., 1980, 70: 251～254
+5　崔明珍,肖　白,蔡　丽等.有机稀土化合物抗诱变性研究初探. 稀土, 1992, 13(3): 51～54
+
+作者简介
+王永兴　男，1971年9月生。南京大学环境化学专业博士生。研究方向为环境毒理学。主要从事国家自然科学基金项目“稀土及其配合物对水生生态系统的毒性及生态效应”研究工作。发表论文5篇。
+收稿日期：1997-12-23
+* 国家自然科学基金资助项目(29677006)

@@ -1,0 +1,90 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第12期 vol.25 No.12 1999
+
+
+
+VB中调用Windows API加强多媒体控制
+王非
+　　VB是一种全方位的编程语言，可用它编出各种类型的应用程序，但是，有些问题也必须注意，VB有一些尚未直接支持的领域，应用者迟早会接触到这些领域。例如声音支持、I/0端口地址以及许多位图运算都不是VB软件包的一个集成部分。其实VB中的许多功能是故意省去的，因为它们很容易从Windows API中得到。许多VB程序员从来不涉及Windows API，这是很遗憾的。API是程序员的财宝。本文展示如何利用API处理多媒体程序设计中的颜色，并给出一个调色板动画设计。
+1 研究VB中的颜色
+　　如果不需要创造有趣的视觉效果，可以不了解如何使用颜色，让Windows和VB自己进行处理。VB做了大量工作来隐藏调色板操作的细节，如果只想在图片框中显示位图，可让VB和Windows调色板管理器来处理调色板。当VB装入一个包含自己的调色板的位图时，将自动装入和获得调色板。如果装入另一个位图，调色板再次改变，所有这一切都是在后台进行的。然而不要把VB想得无所不能，用户在准备图象数据时，必须记住调色板和调色板管理器所加的限制。例如，不要指望VB能用不同的调色板同时准确地显示两个或更多的图象。所以，若要编制图象处理程序、执行动画或其他特殊效果使在视觉上有趣味，必须了解Windows和计算机是如何管理颜色的，应直接与调色板管理器打交道。
+　　另外，VB提供了一个名为RGB( )的函数，用来建立和选择背景、文本和前景颜色。RGB( )就像条变色龙，因为它在不同环境下将变化其格式。对于缺省情况，RGB( )以抖动的颜色来显示颜色，即它交替改变20种纯静态颜色，使之近似于由红、绿、兰颜色值参数指定的颜色（如果不站在距显示器一定距离的地方，抖动的颜色一般类似颜色鲜艳的方格花纹，看起来并不真实，对图形不是特别好。如果要显示一个颜色渐变的区域，会看到一条一条的颜色而不是平稳过渡的颜色）。而在装入其它调色板时可处理更纯的颜色。因此，为了获得比抖动的颜色更好的显示，必须操作调色板。VB没有提供从调色板中选择指定颜色的方法，但可使用Windows API。
+2 利用API处理颜色
+　　Windows API( 特别是GDI)包括很多帮助Windows管理颜色使用的函数，VB程序员能够使用其中一些。
+　　当从API绘图函数中引用一种颜色，此时不仅用到颜色值3个字节，而且还包含一个标记值的第4个字节。这个4字节的颜色引用值称为COLORREF，其中最低位字节包含红元素的值，最高位字节包含一个标志，表示引用值是否为一种抖动的颜色、一种调色板匹配的颜色或一个明确的调色板索引。高字节的值确定了如何使用3个低字节来选择颜色，如表1所示。
+表1 选择颜色
+高字节结果
+&H00在给制对象时,Windows抖动20种保留的颜色,这称作RGB颜色引用值
+&H01最低位字节指定了调色板项目的索引值,这称作调色板索引引用值
+&H02Windows寻找最接近匹配的调色板值,该匹配颜色由在3个低字节中脂定有红、绿、兰3种元素决定，这称作调色板RGB引用值
+
+　　以下用于调色板动画设计中的API函数有：AnimatePalette、 CreatePalette、CreateSolidBrush、DeleteObject、Rectangle、GetStockObject、RealizePalette、SelectObject、 SelectPalette。
+3 调色板动画制作
+　　利用对系统调色板的直接访问，可实现某些类型的动画制作，即调色板动画。它是一种使部分显示的颜色按受控方式转换的技术，这种技术常称为颜色周期性变化。通过设计，它能产生运动的假象。有了这种技术即使没有使用更多的内部资源和多帧动画制作方法，也能模拟流水、天气现象、光线变化，甚至运动的物体。
+　　以下使用前面所提到的那些Windows API模拟管中液体的流动。在这里由于篇幅的限制，只将程序的主要部分加以说明，其制作步骤如下：
+　　(1) 建立一个文件名为WaterFlow.Frm的窗体，窗体中没有可见的控制。
+　　(2) 插入全局说明
+　　WaterFlow.BAS中的全局说明
+　　Type PALETTEENTRY
+　　　　peRed　　　As　　　Byte
+　　　　peGreen　　As　　　Byte
+　　　　peBlue　　 As　　　Byte
+　　　　peFLAGS　　As　　　Byte
+　　End Type
+　　Type LOGPALETTE
+　　　　palversion　　　　As　　Integer
+　　　　palNumEntries 　　As　　Integer
+　　　　palPalEntry(4) 　 As　　PALETTEENTRY
+　　End Type
+　　Global Const BLACK_BRUSH = 4
+　　Global Const PC_PESERVED = &H1
+　　(3)插入窗体级说明
+　　对前面所列出的API进行声明（省略）
+　　变量定义 Dim hSystemPalette As Long
+　　　　　　 Dim hCurrentPalette As Long 
+　　　　　　 Dim PaletteEnties (4) As PALETTENTRY 
+　　　　　　 Dim hPaintBrush(3) As Long 
+　　　　　　 Dim LogicalPalette As LOGPALETTE
+　　(4) 加入4个窗体事件过程：Form-Load、 Form-Paint、 Form-Resize(省略)、Form-QueryUnload(省略) 
+　　在Form-Load中构造了一个4色逻辑调色板，4色为不同深浅的蓝色： 
+　　For Colorlndex = 0 To 3 
+　　Logicalpalette.palPalEntry(Colorlndex).peRed=0 
+　　Logicalpalette.palPalEntry(Colorlndex).peGreen=0 
+　　Logicalpalette.palPalEntry(Colorlndex).peBlue= 
+　　　　　127+ Colorlndex*128/3
+　　Next Colorlndex
+　　hCurrentPalette=CreatePalette (Logicalpalette)
+　　Form-Paint事件过程中，首先建立4色刷子，然后从Form的左边至右边画出一长串的矩形
+　　hSystemPalette= SelectPalette (WaterFlowForm.hDC,hCurrentPalette,False)
+　　Dummy=RealizePalette (WaterFlowForm.hDC)
+　　For Colorlndex=0 To 3 
+　　　　hPaintBrush(ColorIndex)=CreateSolidBrush(& 
+　　　　　　　　　　H1000000 or ColorIndex)
+　　Next ColorIndex
+　　BoxWidth=WaterFlowForm.ScaleWidth/20
+　　BoxHeight=WaterFlowForm.ScaleHeight/20
+　　WaterFlowForm.CurrentX=BoxWidth*1.5
+　　TopPos=ScaleHeight/2
+　　Do While CurrentX<(ScaleWidth-Boxwidth*2) 
+　　　Dummy=SelectObject(WaterFlowForm.hDC, hPaintBrush(Co-lorIndex)) 
+　　　Dummy=Rectangle(WaterFlowForm.hDC,CurrentX,
+TopPos，CurrentX+Boxwidth,TopPos+BoxHeight) 
+　　　ColorIndex=ColorIndex+1 
+　　　ColorIndex=ColorIndex Mod 4Loop
+　　(5) 加入定时器事件
+　　在定时器事件中，For循环语句和其后的设置语句将4色元素调色板数组中的颜色向右移动一个位置，以此来模拟流体的向右移动。当然也可修改语句将其向左移动。
+　　For ColorIdex=4 To 1 Step -1 
+　　　　LogicalPalette.palPalEntry(ColorIndex)= 
+　　　　　LogicalPalette.palPalEntry(ColorIndex-1)
+　　Next ColorIndex
+　　LogicalPalette.palPalEntry(0)=LogicalPalette. pal
+　　　　　PalEntry(4)
+　　AnimatePalette hCurrentPalette,0,4,LogicalPalette. 
+　　　　　palPalEntry(0)
+  调色板动画是通过AnimatePalette API产生的，AnimatePalette不仅改变逻辑调色板中的颜色，还直接修改系统调色板，使这些改变几乎瞬间就出现在屏幕上。调整Timer的Interval值可以改变动画速度。
+作者单位：陕西师范大学计算机系，西安710062
+参考文献
+1 (美)Jerke N. Visual Basic 4 API程序设计. 北京；机械工业出版 社，1997
+2 (美)Appleman D. Visual Basic 5.0 Win32API 开发人员指南. 北 京：机械工业出版社,1998
+3 (美)Ben Ezzell. Windows32位编程指南. 北京；清华大学出版 社，1998

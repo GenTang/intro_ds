@@ -1,0 +1,113 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1999年 第25卷 第6期 Vol.25 No.6 1999
+
+
+
+一种基于扩张原理的模糊模型
+及其辨识方法1)
+陈怡欣　萧德云
+摘　要　提出一种新的基于LR型模糊数及其运算的模糊模型结构——扩展的TSK模型(ETSK模型).借助于LR型模糊数隶属函数图形的面积和重心横坐标这两个“数字特征”，导出了ETSK模型的输入输出解析表达式，并证明了ETSK模型与变权TSK模型的等价关系，同时给出一种对ETSK模型规则后件的参数辨识方法.仿真辨识实验结果表明，ETSK模型的辨识效果和预报精度更优.
+关键词　模糊辨识，LM模型，TSK模型，ETSK模型.
+AN EXTENSION-PRINCIPLE-BASED FUZZY MODEL
+AND ITS IDENTIFICATION ALGORITHM
+CHEN Yixin　XIAO Deyun
+(Department of Automation,Tsinghua University,Beijing　100084)
+Abstract　An extended TSK model——ETSK model,based on LR type fuzzy numbers and their extended operations,is proposed in this paper.The input-output analytic expression is proved and a parameter identification algorithm is also constructed to identify the areas and gravity centers of the membership functions of LR type fuzzy numbers.A kind of variable weight TSK model which is equivalent to the ETSK model is also deduced.Simulation shows that the ETSK model can give out more accurate long-range predictions than an LM model and a TSK model.
+Key words　Fuzzy identification,LM models,TSK models,ETSK models.
+1　引言
+　　模糊模型是模糊集与模糊逻辑在系统建模中的一种应用［1］，它为一些复杂、不确定性的系统提供了一种有效的建模方法.从模型结构上说，模糊模型可分成两类：基于规则描述的模糊模型和不基于规则描述的模糊模型.前者主要有语言模型(Linguistic Models,LM)［2］和Takagi-Sugeno-Kang模型(TSK模型)［2］；后者包括模糊回归模型(Fuzzy Regression Models)［3］和模糊神经网络模型(Fuzzy Neuor-Network Models)［4］.
+　　LM模型是用一组由模糊谓词构成的IF-THEN规则来描述一个系统的，规则的后件与前件都是模糊集，对不确定性的描述能力比较强；TSK模型也称作局部回归模型(Local Regressive Model),其规则的后件一般为某种函数表达式，是输入变量的确定函数.TSK模型较LM模型精度更高.
+　　本文基于LR型模糊数［5］及其扩张运算的扩展，构造一种新的模糊模型结构，它既具有LM模型对不稳定性的描述能力，又具有TSK模型的精度，称这种模型为ETSK模糊模型(Extended TSK model),它是LM模型和TSK模型的扩充和综合.
+2　扩展的TSK模型——ETSK模型
+2.1　ETSK模型的基本框架
+　　称规则描述如下的模糊模型
+　　(1a)
+　　(1b)
+为扩展的TSK模型，简称ETSK模型.其中xj∈R1为ETSK模型的输入变量，Y为ETSK模型的模糊输出，Aij为输入论域上的模糊集，aij为LR型模糊数(i=1,…，m;j=1,…,n),分别表示基于扩张原理的模糊数的数量积和加法运算.
+　　从形式上看，ETSK模型是TSK模型的直接扩充，它把规则后件线性函数中的系数扩展成了模糊数，从而使每条规则的后件成为模糊线性函数.这一扩充带来了实质性的变化，使ETSK模型可以兼蓄LM模型和TSK模型的优点.
+　　如果模型(1)的规则后件采用模糊ARMA描述，则可得到如下的ETSK模型，它可用于描述一个动态系统.
+　　(2a)
+　　(2b)
+上式中y(k-1),…,y(k-p),u(k),…,u(k-q)∈R1为ETSK模型的输入变量；Y为模糊集，是ETSK模型的模糊输出；Aij和Bit为输入论域上的模糊集；aij和bit为LR型模糊数(i=1,…,m;j=1,…,p,t=0,…,q);分别为模糊数的数量积和加法运算.
+2.2　ETSK模型的解析描述
+　　对于式(1)所描述的ETSK模型，可以证明如下定理及推论.
+　　定理1.给定一个模糊系统F：Rp+q+1→R1，其规则描述如式(2).若规则后件中的模糊数aij和bit(i=1,…，m;j=1,…,p;t=0,…,q)均为LR型模糊数，采用重心法清晰化，则其输入输出解析式为
+　　(3)
+上式中y(k)为k时刻输出值，它是总模糊输出Y的重心；h=［y(k-1),…,y(k-p),u(k),u(k-1),…,u(k-q)］T为输入向量；｜h｜=［｜y(k-1)｜,…,｜y(k-p)｜,｜u(k)｜,…，｜u(k-q)｜］T，且定义
+
+上式中为对应模糊数的隶属函数曲线与横坐标轴所围图形的面积(简称面积)；,为对应图形的重心的横坐标(简称重心).
+　　推论1.若saij=sbit=const＞0(i=1,…,m;j=1,…,p;t=0,…,q),
+则
+　　(4)
+此时ETSK模型等价于TSK模型，即TSK模型是ETSK模型的一种特例.
+2.3　变权TSK模型
+　　从形式上看，由于ETSK模型引入了LR型模糊数及其扩张运算，所以扩展了TSK模型.通过定理2将可看出，这种扩展本质上相当于对TSK模型的规则进行加权处理，即ETSK模型等价于一种变权TSK模型，其模型描述如下：
+　　(5a)
+　　(5b)
+上式中y(k)为模型输出变量；Aij和Bit为输入论域上的模糊集；ωi(h)∈R1为第i条规则的权值，h输入向量；y(k-j),u(k-t),gaij,gbit∈R1,i=1,…,m,j=1,…,p,t=0,…,q.
+　　定理2.一个模糊系统F：Rp+q+1→R1,其规则描述如式(5).若
+
+则它与式(2)所描述的ETSK模型具有相同的输入输出表达式，即
+　　(6)
+其中αi,h,｜h｜,si和gi的定义与定理1相同.
+　　由定理2可以看出，ETSK模型对TSK模型的扩展，相当于对TSK模型的规则进行加权处理.权值由输入向量h和面积参数si确定，而规则后件只由输入向量h和重心参数gi决定.定理2将ETSK模型中的模糊数及其扩展运算转化为普通实数的运算.
+2.4　ETSK模型特点
+　　1)从推论1可以看出ETSK是TSK模型的扩充，因此它保持了TSK模型的优点.当后件中LR型模糊数的面积均相同时，面积参数可以消去，重心参数即是TSK模型中的线性系数，此时TESK模型就是TSK模型.当规则后件的模糊线性函数蜕化为模糊常数或普通实数时，ETSK模型就成为LM模型或常用的单点集输出模型.
+　　2)把语言规则的后件表示成LR型模糊数及其运算的模糊线性函数，使得ETSK模型推理结果为模糊输出，因而它保持了LM模型的特点，削弱了TSK模型对输出结果的限制.
+　　3)在规则后件中引入LR型模糊数及其扩张运算，似乎增加了计算量.不过抓住模糊数的面积和重心这两个参数，不考虑隶属函数的具体形状，计算量的增加会十分有限.
+　　4)定理2避免了ETSK模型的模糊数扩展运算，并指明ETSK模型对TSK模型扩展的本质——LR型模糊数及其扩张运算的引入相当于对TSK模型规则进行动态加权.权值由输入向量h和面积参数si确定，规则后件则由输入向量h和重心参数gi决定.
+3　ETSK模型的辨识方法
+　　ETSK模型的辨识分为结构辨识和参数辨识，其中结构辨识是指对输入论域进行模糊划分，参数辨识是对规则后件的LR模糊数(模糊数的面积参数si和重心参数gi)进行辨识.结构辨识可通过模糊聚类分析等方法实现.本节只讨论在输入论域划分确定的前提下，规则后件的参数辨识问题.
+3.1　重心参数gi的辨识
+　　由于输入论域的划分已经确定，所以对于输入向量h，根据定理1中αi的定义可以求出αi.保持si不变，则式(3)可写成
+　　(7)
+其中.式(7)为最小二乘格式，其中y(k)和H为可测变量，利用最小二乘类辨识算法可对参数向量G进行辨识.
+3.2　面积参数si的辨识
+　　对于输入向量h,保持gi不变，则式(3)可写成
+　　(8)
+其中H1=［d1｜h｜T,d2｜h｜T,…,dm｜h｜T］T,di=αihTg1,H2=［α1｜h｜T,α2｜h｜T,…,αm｜h｜T］T,S=［sT1,sT2,…sTm］T.式(8)中y(k),H1和H2为可测变量，利用梯度校正法可对参数向量S进行辨识.
+　　综上所述，ETSK模型的参数辨识算法框图如图1所示.
+
+
+图1　ETSK模型参数辨识算法框图
+4　仿真研究
+　　考虑如下非线性系统模型
+y(k)=0.3y(k-1)u(k-2)-0.7y(k-2)+0.4u(k-1)cos(0.7y(k-1))+
+0.3u3(k-1)+0.3y3(k-1),
+输入u(k)为［-1，1］均匀分布的随机信号，初始值y(0)=y(-1)=u(0)=u(-1)=0.用前300组数据进行模型辨识，用后300组数据进行模型检验.y(k-1),y(k-2),u(k-1)和u(k-2)对应的论域划分如图2所示.
+
+
+图2　y(k-1),y(k-2),u(k-1)和u(k-2)的论域划分
+经参数辨识，得到的LM模型由36条规则(规则后件为单点集)描述：
+　　IF y(k-1) is 负 AND y(k-2) is 负AND u(k-1) is负AND u(k-2) is负THEN y(k)=0.5109，
+　　IF y(k-1) is 负 AND y(k-2) is 负AND u(k-1) is负AND u(k-2) is正THEN y(k)=-0.8717，
+　　ALSO …… ALSO，
+　　IF y(k-1) is 正 AND y(k-2) is 正AND u(k-1) is正AND u(k-2) is正THEN y(k)=0.1102.
+　　得到的TSK模型由3条规则描述：
+　　IF y(k-1) is负THEN y(k)=0.2413y(k-1)-0.6724y(k-2)+0.5107u(k-1)-0.2376u(k-2) ALSO,
+　　IF y(k-1) is零THEN y(k)=-0.1279y(k-1)-0.7159y(k-2)+0.6112u(k-1)-0.0294 u(k-2) ALSO,
+　　IF y(k-1) is正THEN y(k)=0.3263y(k-1)-0.6679y(k-2)+0.4439u(k-1)+0.3145u(k-2).
+　　利用第3节的辨识方法，经300步辨识，得到由3条规则描述的ETSK模型：
+
+
+
+其中(*,*)为模糊数的简化记法，前者表示模糊数的面积，后者表示模糊数的重心.图3给出LM模型、TSK模型和ETSK模型的辨识结果比较.
+
+
+图3　LM模型、TSK模型和ETSK模型的辨识结果比较
+由图3可见，ETSK模型的辨识结果最好，其输出预报误差的均值E｛e(k)｝和方差Var｛e(k)｝均为最小.仿真还证实，不同步数的预报结果也是ETSK模型最好.
+5　结论
+　　ETSK模糊模型是LM模型和TSK模型的扩充和发展.当规则后件中LR型模糊数的面积均相同时，面积参数消去，重心参数即成为TSK模型中的线性系数.这时ETSK模糊模型就是TSK模糊模型.当规则后件的模糊线性函数蜕化为模糊常数或普通实数时，TESK模糊模型是LM模型或常用的单点集输出模型.ETSK模型的规则后件是LR型模糊数及其运算的模糊线性函数，这在一定程度上综合了LM模型和TSK模型的优点，提高了模糊模型对不确定性系统的描述能力.ETSK模糊模型推理结果为模糊输出，它保持有LM模型的特点，削弱了TSK模型对输出结果的限制.ETSK模型的输出与LR型模糊数的面积和重心两组参数有关，这表明它比TSK模型有更强的表现力.由于抓住了模糊数的面积和重心这两个参数，无须考虑隶属函数的具体形状，使ETSK模型的计算量增加不大.ETSK模型的辨识算法也易于实现.
+1)国家自然科学基金(No.6947012)、中国工程物理研究院科学技术基金(No.960643)和高等学校博士学科点专项科研基金(No.97000339)资助项目.
+作者简介：陈怡欣　1995年毕业于北京工业大学自动化系，1998年在清华大学自动化系获硕士学位，现在美国攻读博士学位.主要研究模糊模型结构及模糊模型的辨识和控制方法.
+　　　　　萧德云　1970年毕业于清华大学，现为清华大学自动化系教授、博士生导师. 主要研究计算机过程控制系统、模糊辨识建模、生产过程故障诊断、大型连续工业CIMS等.
+作者单位：清华大学自动化系　北京　100084
+参考文献
+1　Pedrycz W.Fuzzy Modelling:Paradigms and Practice.USA Boston: Kluwer Academic Publishers,1996.3～20
+2　Sugeno M,Yasukawa T.A fuzzy-logic-based approach to qualitative modeling.IEEE Transactions on Fuzzy Systems,1993,1(1):7～31
+3　Tanaka H,Uejima S,Asai K.Linear regression analysis with fuzzy model.IEEE Transactions on Systems,Man and Cybernetics,1982,12(6):903～907
+4　Pedrycz W.Fuzzy Sets Engineering.Boca Raton:CRC Press,1995,29～70
+5　Dubois D,Prade H.Fuzzy Sets and Systems:Theory and Applications.New York:Academic Press,Inc.,1980,36～66
+6　Mizumoto M.Min-max-gravity method versus product-sum-gravity method for fuzzy controls.In:Proceedings fourth IFSA Congress,Brussels,1991,127～130
+收稿日期　1997-07-14　收修改稿日期　1998-09-28

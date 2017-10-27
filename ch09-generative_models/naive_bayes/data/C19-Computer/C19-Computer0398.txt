@@ -1,0 +1,174 @@
+信息与控制
+Information and Control
+1999年　第28卷　第4期　Vol.28　No.4　1999
+
+
+
+模糊控制研究的现状与新发展
+刘向杰　周孝信　柴天佑
+
+　　摘　要: 本文结合近年来模糊控制的最新研究成果,着重考察了模糊控制器的非线性特性及 自适应功能,特别讨论了模糊控制器的自适应功能的改善、模糊控制器的解析结构分析及模 糊控制系统的稳定性分析等问题,最后对于非线性自适应模糊控制新的研究方向进行了展望 . 
+　　关键词： 模糊自适应控制, 自学习模糊控制, 模糊神经网络, 结构分 析, 模糊稳定性
+　　中图分类号：TP13　　　　　　文献标识码：A
+
+STATUS AND DEVELOPMENT OF FUZZY CONTROL
+LIU Xiangjie1　ZHOU Xiaoxin1　CHAI Tianyou2
+(1. Electric Power Research Institute,Electric Power Administry,B eijing 100085;
+2. The Research Center of Automation, Northeastern University)
+Abstract: This paper overviews the recent development of fuzzy control methods . It emphasizes some new approaches and new development presented in recent year s,including the improvement of adaptive function of fuzzy controller, structua l analysis of fuzzy controller and the stability of fuzzy controller. Further research tendencies on fuzzy nonlinear adaptive control methods are discussed.
+Key words: self-adaptive fuzzy controller, self-learning fuzz y controller, fuzzy neural net-work, structural analysis, stability of fuzzy co ntrol systems
+
+1　引言
+　　自从1965年美国加利福尼亚大学的Zadeh教授创建模糊集理论和1974年英国的E. H. Mamdani成功地将模糊控制应用于锅炉和蒸汽机控制\以来，模糊控制得以广 泛发展并在现实中得以成功应用,其根源在于模糊逻辑本身提供了由专家构造语言信息并将 其转化为控制策略的一种系统的推理方法,因而能够解决许多复杂而无法建立精确的数学模 型系统的控制问题，是处理推理系统和控制系统中不精确和不确定性的一种有效方法．从广义上讲,模糊控制是基于模糊推理,模仿人的思维方式,对难以建立精确数学模型的对象实施的一种控制．它是模糊数学同控制理论相结合的产物,同时也构成了智能控制的重要组成部分．模糊控制的突出特点在于:
+　　(1)控制系统的设计不要求知道被控对象的精确数学模型,只需要提供现场操作人员的经验知识及操作数据．
+　　(2)控制系统的鲁棒性强,适应于解决常规控制难以解决的非线性、时变及滞后系统． 
+　　(3)以语言变量代替常规的数学变量,易于构造形成专家的“知识”．
+　　(4)控制推理采用"不精确推理“(approximate reasoning)． 推理过程模仿人的思维过程, 由于介入了人类的经验,因而能够处理复杂甚至"病态”系统． 
+　　模糊控制在理论上突飞猛进的同时,已越来越多地成功地应用于现实世界中． 然而相比于传统的控制方法,应用于实时控制中的模糊控制到底有什么优势? 许多学者在研究证明采用启发式规则的模糊控制器性能优于常规控制器性能时,是否进行了平等的比较,也即是否用性能较好的模糊控制器与性能较差的PI控制器进行着比较,K.J.Astrom在文[3]中表达了上述观点．
+　　可以说每一种新的技术与方法在体现其优越性能的同时,也必定存在其局限性． 应当承认, 在对客观对象进行观察和认识时,模糊控制必竟不如人的认识全面深刻,因而若要达到真正仿人智能的效果,仍然需要其自身在工程应用中不断地朝着自适应、自组织、自学习方向发展．本文深入分析模糊控制研究体系内容，力求全面揭示模糊控制发展现状，从中展示模糊控制本身强大的生命力．
+　　模糊控制发展到现阶段,其理论体系明显呈现以下几个分枝: 模糊控制器的自适应功能研究 ; 模糊控制器的解析结构研究; 模糊控制的稳定性分析．
+2　自适应模糊控制器
+　　在复杂系统的控制过程中,模糊控制器的自适应功能,一直是控制系统设计者们所追求的目 标．这是因为基本模糊控制器源于操作人员的基本知识，不具有适应对象持续变化的能力． 模糊自适应控制器的设计也同样遵循着以下两个目标功能(图1):
+
+图1模糊自适应控制
+
+　　(1)根据被控过程的运行状态给出合适的控制规则,即控制功能．
+　　(2)根据给出的控制规则的控制效果,对控制器的控制决策进一步改善,以获得更好的控制效果,即学习能力．
+　　具有自适应功能模糊控制器的杰出代表为自组织模糊控制器(SOC)[4～8],SOC在基本的模糊控制器基础上增加了调整控制机构,将控制器分为面向对象的控制级和面向控制器的规则调整级,规则调整级通过计算系统的性能指标来校正控制规则的关系矩阵,建立、修改规则库,从而大大提高了系统性能．文[9]系统地分析并全面介绍了近年来自校正模糊控制器 的发展状况,并给出了一种启发式自校正模糊控制算法,控制级和规则调整级采用同样的模糊 推理策略,大大增加了自适应模糊控制器的鲁棒性,也使得控制器更加易于实现．文[10,11]对模糊自适应控制器的结构做了一些改进,采用类似细胞的知识结构来表征以时间与量值 作为自变量的系统输入输出关系．细胞图模糊控制大大提高了由细胞状态空间概念产生的 控制表的准确性．
+　　量化因子和比例因子的自调整是自适应模糊控制应用于实时控制中最有效的手段．控制器在 线识别控制效果,依据上升时间、超调量、稳态误差和振荡发散程度等对量化参数进行自整定． 其改变规则的有效性可由图2说明． 在图2中,上图为误差的正常操作隶属函数． 下图为误差的量化因子调整后的隶属函数． 设误差变化率为PB,则对于上图,模糊控制规则为:
+　　IF“"error” is NB and “rate” is PB,THEN U is ZO
+
+图2　模糊控制器的量化因子调整
+
+　　对于下图,模糊控制规则为:　IF “error” is NS and “rate” is PB,THEN Uis PS这意味着量化因子的调整对于控制器的规则输出产生了影响． 量化因子的自调整不仅在方法上有了许多进展,同时也在实践中取得了成功的应用[13～16]．
+　　自学习模糊控制器是源于自适应模糊控制器又高于自适应模糊控制器的智能型控制器．自学习模糊控制器运用模糊推理的手段,在其运行过程中可逐步获得受控对象及环境的非预知信息,积累控制经验,并在一定的评价标准下进行估值、分类和决策,从而不断改善系统的品质．相比于依赖于对象的辨识的自适应模糊控制器,自学习模糊控制器并无本质的区别, 它体现了模糊控制器由低级向高级、由常规向智能化发展的必然趋势,其优势体现在以下两 点:
+　　(1)对系统先验知识要求更少,对系统的非线性、不确定性及时滞等,具有更强的适应能力 ．
+　　(2)具有实时搜索、特征辨识、特征记忆、直觉推理和多模态控制等仿人智能的特征．
+　　文[17]给出一种多变量模糊自学习控制方法． 该方法引入参考模型和重复学习控制机构 ．系统通过搜索、识别、记忆以及推理学习,寻求合理的控制行为,建立对于各控制环节的独立、解耦的规则库． 该学习方法类似于人的学习过程,有效地克服了多变量间的强耦合和过程的时间滞后．它包括4个功能块:参考模型、学习算法、规则库的建立机构以及被控过程．文中对该系统的收敛性进行了分析．文[18]给出该方法的仿真结果．
+　　自学习模糊控制的另一类为模糊模型参考学习控制(FMRLC)[19，20],其结构类似于常规的模型参考自适应控制(MRAC),如图3,由模糊语言信息及模糊推理过程表达的参考模型 协助产生学习信号,参考模型的特性由理想的性能指标决定． 学习机构在误差信号的驱使下,不断修正模糊控制器的知识库,使得闭环系统特性与参考模型特性一致．相比于MRAC, 采用FMRLC方法不仅设计方法简单,无需建立系统数学模型,而且控制系统收敛速度快,抗干扰能力强．文[21]中给出了模糊模型参考自学习控制的稳定性分析．
+
+图3 模糊模型参考学习控制系统
+　　基于神经网络的模糊控制器(FNN)近年来已逐渐成为研究的热点,原因在于二者之间的互补、 关联性[22，23]．模糊控制和神经网络二者各自的优势在于: 模糊控制易于获得由语言表达的专家知识,能有效地控制难以建立精确模型而凭经验可控制的系统,而神经网络则 由于其仿生特性更能有效利用系统本身的信息,并能映射任意函数关系,具有并行处理和自学 习能力,容错能力也很强．在集成大系统中,神经网络可用于处理低层感知数据,模糊逻辑可 用于描述高层的逻辑框架．神经网络和模糊系统均属无模型控制器和非线性动力学系统,但 神经网络适合于处理非结构化信息,而模糊系统对处理结构化的知识更有效[24]． 二者的结合有效地推动了自学习模糊控制的发展．
+　　模糊神经网络的控制大致可分为三类．第一类是直接利用神经网络的学习功能及映射能力, 去等效模糊系统中的各个模糊功能块[24，28，29],第二类是在神经网络模型中引入模糊逻辑推理方法,使其具有直接处理模糊信息的能力[25，26],第三类是把模糊系统和神经网络集成在一个系统中,以发挥各自的优势[27]．
+　　用神经网络实现模糊控制的具体方法有很多．文[28]给出了一类基于神经网络建立模糊规则的自适应模糊控制系统．文中用Pi代表各个前提变量的真实度,代表各个规则的使用权值,通过神经网络的训练样本可学习、修改各个pi,wi、的系数,从而达到在控 制过程中调整隶属度函数和控制规则的目的,使原模糊控制系统的自学习功能得到了加强． 文[29]提出用模型联想记忆系统(FAMOVS)实现自组织模糊控制的方法． 该系统采用LVQ网 络及其关联的学习算法产生模糊控制器前提条件部分隶属函数,在特定的限制条件及稳定性 约束下,单独训练每个控制律以产生结论部分的最优模糊控制规则．直升飞行控制器仿真研 究表明,神经网络大大增强了自组织模糊控制器的学习能力．文[30]通过采用动态系统的增列式学习方法,提出GARIC控制器结构,模糊控制器的学习和整定是采用模糊推理和一个前向网络的结合实现的,并采用梯度下降法自动修正规则基．该系统包含三个不同的神经元:作 用选择神经元(ASN),作用评价神经元(AEN)和随机作用神经元(SAM)．ASN起普通模糊控制器的作用,AEN对系统进行评价,SAM随机综合ASN和AEN的作用,然后产生控制信号．文[26]利用两层前向网络结构构造了反馈控制器,而保留与自组织模糊控制相似的自组织机制,根据性 能判决表,通过误差以及误差变化率得到神经网络的训练样本,从而实现自组织神经网络控制 ．这种结构改善了原有常规模糊控制器自调整时间长和计算量大的缺陷．
+　　通常的模糊神经网络系统可看作分层前馈神经网,然后用B-P网来实现[31，32]．J unbong Nie等[34]在结构上做了一些改进: 通过引入局部网络结构和前馈推理算法 ,用整个RBF(Radial Basis Function)网来表达竞争组织机构和重复学习控制算法,使得基于 FRBF网的模糊控制器能够实现“无师”学习．
+　　文[25]给出的模糊神经网络就属于模糊神经网络控制的第二类,即在神经网络中增加了一 些模糊逻辑运算(如与、或运算等),使神经网络直接具有模糊推理功能,由于网络含有模糊信息的特殊性,该网络的自学习既继承了常规神经网络的学习算法,又含有一些独有的算法．神经网络的训练可产生模糊逻辑规则和最优的输入输出隶属函数,学习速度收敛得比原BP学习快．该神经网络模型同时也为正常的前馈多层神经网络提供了“人的理解方式”．该网络还节省了通常模糊逻辑系统的参考机器匹配时间．文[33]将其应用于电机调速控制中． 
+　　与模糊神经网络控制的前两类研究相比,对第三类的研究则比较少些,主要目标集中在用模糊 逻辑提高神经网络的学习速度．通过对网络的学习性能进行分析得到一些启发的知识,用这些知识动态地调整学习过程,以提高学习速度,避免陷入局部极小值点．因此在神经网络中加入了模糊逻辑[35，36]．
+　　模糊神经网络近年来的研究报道层出不穷[37],人们期待着它能够为整个控制学科 作出突破性的贡献．但在实际中存在的问题是神经网络较复杂,学习计算时间长．如何简化 模糊控制器的量化过程,将其转换成易于学习的算法;如何确定学习指标,构成有效的模糊控 制学习系统；如何将模糊控制器的调整转化为等价的神经网络学习,利用等价的模糊逻辑来 初使化神经元网络；模糊神经网络的稳定性、收敛性等,都是有待进一步研究的问题．
+3　模糊控制的解析结构分析
+　　虽然模糊控制以其自身的优势在实践中取得了巨大的发展,然而,不同于其它领域,模糊控制 理论的发展似乎落后于模糊控制应用的发展［38］,缺乏常规控制理论指导是阻碍模糊控制理论发展的一个重要因素．模糊控制理论的发展需要建立一个结构框架,即通过分析模糊控制算法的推理过程,揭示模糊控制器工作的实质和机理,从而建立模糊控制同常规控制策略之间的内在联系．这种研究也可促使人们将传统的成熟的控制理论应用于模糊控制理论中,去解决模糊控制理论发展过程中的难题,从而推动模糊控制理论的发展．
+　　结构分析的方法近年来成为模糊控制领域研究的一个热点,原因在于通过对模糊控制器结构 探索,考察其控制输出特征,将人的思维推理过程表达成控制算法形式,由此可以揭示其优于常规控制策略的本质．该种研究也使得模糊控制不仅仅停留在初期的对实践取得满意的结果上,而将模糊控制研究推向了更深的层次．近年来模糊集理论和模糊逻辑的迅速发展也为这种结构分析提供了强有力的工具．模糊控制的解析结构分析大致采用如下步骤：
+　　(1)在模糊化过程中,定义一种典型的隶属函数． 通常采用的有三角型、梯型或正态分布型 等．
+　　(2)建立一套推理控制规则．如下规则:
+IF “error” is Ei and “rate” is Rj THEN “output” is U-f(i,j)
+其中,Ei表示误差变量属于第i个隶属函数,Rj表示误差变化率变量属于第j个隶属函数,U-f(i,j)表示控制输出变量属于第-f(i,j)个隶属函数． 如果f为i,j的线性函数,以上的规则称为线性规则．
+　　(3)采用一种推理方式． 在不同的推理方式下得出的结论有很大差别． 文[39]给出了12 种模糊推理方式及其数学表达式．
+　　(4)采用一种模糊判决方法计算出模糊控制器在以上条件下的输出表达式及其渐近结果．一 般来说在各种精确化方法中,最大隶属度法会得到较好的瞬态性能,而加权平均判决法具有较好的静态性能,且均方差也较小．
+　　(5)将模糊控制器的输出表达式同传统的控制器表达式进行比较．建立等同于常规控制策略 的模糊控制结构．
+　　模糊控制算法结构研究的许多新的成果不断涌现．这其中,H.Ying给出了最为深刻的理论分析． 文[40]证明了具有最简单线性控制规则的二维模糊控制器其输出可等同于一个非线性PI控制器,在线性对象和非线性对象上的仿真结果表明了模糊控制器同PI控制器的内在联系和区别．文[41，42]将此方法推广到具有通常线性控制规则的二维模糊控制器,证明了其输出可等同于一个全局多层次线性关系式和一个局域非线性PI控制器．文[43]将结构分析方法推广到具有线性规则的三维模糊控制器上,得出了三维模糊控制器的一般解析输出表达式,证明了具有一般线性推理规则的三维模糊控制器可等同于一个全局多层次关系式和一个局部非线性PID控制器． 文[44，45]基于正态分布隶属函数,分别导出了一维模糊控制器和二维模糊控制器的解析表达式,并证明了其渐近结果， 因而从另一个角度揭示了模糊控制器的实质．文[46]推导出多维模糊控制器的输出可表示为其多维输入的线性参数函数,由此建立了模糊控制同常规PID控制策略间的内在等价性．文[46]的结论认为常规PID控制是一种特殊结构的模糊控制．
+　　结构分析的方法不断深入,文[48]对具有非线性规则的模糊控制器进行了结构分析,文[48]成功地建立了两输入两输出模糊控制系统的结构分析． 文[47]给出的极限结构定理对近年来的模糊控制器结构分析方法具有一定的概括性．
+　　模糊控制器的结构分析方法多样,在其一步步由浅入深、由局部到全面的发展过程中,人们对 模糊控制器实质的认识也越来越深刻．今后的发展应该在已经建立的模糊控制同常规控制联系的基础上,运用常规的成熟的控制理论去解决模糊控制发展中的难题,如稳定性、算法收敛性等问题． 
+4　模糊控制系统的稳定性问题
+　　稳定性是非线性模糊控制系统的重要指标之一,因为只有对模糊控制系统建立有效的稳定性 标准,才能从理论角度设计基于模型的模糊控制器,才能建立合理的具有优良性能指标的模糊控制规则． 然而,鉴于模糊控制系统结构的复杂性,控制环境的不确定性及对系统功能结构和动态行为描述的特殊方式,其稳定性分析方法也远非传统的基于精确数学模型的稳定性分析方法那样简单和成熟,模糊控制系统的稳定性分析的困难在于:
+　　(1)模糊逻辑本身难于表达传统意义下的稳定性．
+　　(2)非线性系统的分析和设计要远比线性系统复杂得多．
+　　(3)现时还没有建立一套完整的模糊控制理论,模糊控制所具有的巨大潜力还远远没有发挥出 来． 
+　　Gupta最早研究了模糊控制系统的稳定性和能控性问题[50，51],给出了稳定性 指标．现时多是讨论在李亚普诺夫意义下的稳定性,因而控制系统的稳定性分析至少需要模 糊模型,著名T-S模型[52],不仅开创了模糊模型辨识的一整套方法,同时也为 模糊控制系统的稳定性分析提供了模型基础．
+　　基于语言模糊模型的稳定性测试有许多种方法,这其中,文[53]给出了一种有效的稳定性判定方法． 该方法采用模糊块图进行系统设计和稳定分析,导出了基于李亚普诺夫直接方法保证模糊系统稳定的充分条件,即:对于规则集中所有的规则,若其李亚普诺夫方程存在一个公共的矩阵解,则系统是稳定的． 模糊块连接增加了模糊关系数量,该文未能给出寻找李亚普诺夫函数的系统的方法,需要相当大的计算量,有些稳定的系统可能被确定为不稳定．同样基于模糊模型和李亚普诺夫意义下的稳定性的充分条件,文[54]给出了连续系统在稳定条件下能够消除稳态误差的FUZZY-PID控制器设计的系统方案．
+　　Tanaka随后又将模糊系统稳定分析向前推进一步． 文[55]讨论了李亚普诺夫意义下的模糊系统的鲁棒稳定问题,将设计问题分为两类: 非鲁棒控制器设计和鲁棒控制器设计,即考虑系统不确定性时为鲁棒稳定,不考虑系统不确定性时为非鲁棒稳定,如图4中ΔW代表着系统的不确定性．文中将Tanaka和 Sugeno给出的稳定性判定条件发展为四类条件: 非鲁棒条件、弱非鲁棒条件、鲁棒条件和弱鲁棒条件．鲁棒稳定分析的重要意义在于它解决了模糊系统在受到不确定性影响情况下的稳定性问题．文中给出了用于卡车制动轨迹控制的稳定的模糊控制器设计．
+
+图4　鲁棒稳定性问题
+　　Won Chul Kim[56]基于T-S模型分析了语言模糊状态空间模型在李亚普诺夫意义下的稳定性问题,结果表明即使一些规则含有不稳定矩阵,系统模型仍能稳定,采用 基于梯度的方法,可系统地判定模糊控制系统的稳定性． 该方法从一定程度上解决了模糊控 制系统稳定性判定的随意性,使得模糊稳定性判定由定性向定量发展．文[57，58]为保证模 糊控制器的稳定性,用李亚普诺夫方法设计一个监控控制器,当系统状态达到限定边界时,监 控控制器迫使状态返回限定边界以内． 
+　　与通常的基于李亚普诺夫方法判定系统稳定性不同,文[59，60]给出了利用模糊关系矩阵分析模糊控制系统稳定性的新方法． 该方法基于被控过程关系矩阵和控制器关系矩阵导出了模糊系统闭环稳定的充分必要条件． 文[61]从能量的观点来考察模糊控制系统的稳定性,文中提出了模糊逻辑系统能量的量度方法,在此基础上,根据能量讨论系统的稳定性．
+　　模糊控制系统的稳定性分析和设计近年来受到人们的重视[62],然而,模糊稳定性判定仍然是当今模糊控制界研究的一个难点,如何更有效地将传统控制系统稳定分析方法运用到模糊系统稳定判别中,稳定判据所依赖的条件、适用范围以及稳定性算法的简化,都是值得进一步研究的问题． 
+　　以上三个方向以其巨大的理论和工程应用价值形成了模糊控制研究的主流,并吸引着众多的模糊控制学者去研究和发展行工作的,除此之外,模糊控制与其它方法相结合也是其发展的一种有效手段．采用模糊推理,对控制器PID参数进行自整定［62～65］,是克服系统不确定性,提高控制器性能,增强系统鲁棒性的重要手段． 将寻优的思想应用于模糊控制［66～69］,可解决模糊规则的优化问题． 将模糊控制应用于非线性滑动模态控制中,利用模 糊控制器本身所具有的 “语言变量” 性能,采用"不精确推理"方式,替代滑动模态控制中的 非连续部分． 模糊滑动模态控制律不仅可以大大减小状态轨线的振荡,同时增加了控制系统 的鲁棒性[70，71]． 模糊滑动模态控制在双倒立摆和二铰接杆的机器人手臂实验 取得了良好的控制效果[72]．基于模糊规则的变结构设计方法[73],不但可以大大简化设计过程,而且获得的控制器具有较强的鲁棒性和优良的跟踪性能,有效地消除了高频颤动．
+5　当前需研究的课题
+　　非线性模糊自适应控制近年来有了很大的发展． 巨大的进展一方面解决了一个又一个 理论和实际问题,同时也提出越来越多的待解决的问题． 可以说鉴于其本身的复杂性,建 立类似线性控制理论一样完善的模糊控制理论几乎是不可能的,一如非线性系统学科的完善 程度达不到线性理论一样． 但在建立的模糊控制理论中,可以尽可能地阐述系统的基本性 质,提供可行的分析方法,尤其是发展起一些实用的综合方法．
+　　模糊控制的发展基本上可分为两个阶段: 初期的模糊控制器是按一定的语言控制规则进行工作的，而这些控制规则是建立在总结操作者对过程进行控制的经验基础上,或设计者对某个过程认识的模糊信息的归纳基础上,因而它适用于控制不易获得精确数学模型和数学模型不确定或多变一类对象． 后期的模糊控制器则是基于控制规则难以描述,即过程控制还总结不出什么成熟的经验,或者过程有较大的非线性以及时滞等特征,试图吸取人脑对复杂对象进行随机识别和判决的特点,用模糊集理论设计自适应、自组织、自学习的模糊控制器 ．模糊控制从诞生到现在仅仅经历了二、三十年的时间,就已在经济、医学、军事尤其是工业应用方面取得了巨大的发展[74]． 然而,当今的模糊控制研究已经进入了新的 阶段．总的来说,模糊控制理论落后于应用的发展,纵观最近的国内外文献表明,现在的模糊 控制研究的注意力也主要集中在如何给它在理论上注入新鲜血液．模糊控制应加强以下几个方面的研究: 
+　　(1)研究模糊控制器非线性本质的框架结构及其同常规控制策略的联系,揭示模糊控制器工作的实质和机理．它可提供系统的分析和设计方法,解决一些先前被认为是困难但却是非常重要的问题,如稳定性、鲁棒性等．
+　　(2)在模糊控制已取得良好实践效果的同时,从理论分析和数学推导角度揭示和证明模糊控制系统的鲁棒性优于常规控制策略．
+　　(3)研究模糊控制器的优化设计问题尤其是在线优化问题． 模糊控制器源于采用启发式直觉推理,其本身的推理方式难于保证控制效果的最优．解决模糊控制器的优化问题也是 进一步将其推向工业应用的有效手段．
+　　(4)在理论研究中规则本身非线性问题及实际应用中模糊控制器的规则自学习和自 动获取问题． 前者之所以成为难点,是因为具有线性规则的模糊控制器本身已属非线性控 制,非线性规则则更使问题的系统化研究方法困难; 后者则构成智能控制中专家系统的核心 问题．
+　　(5)将模糊控制同其它领域的理论研究方法相结合,利用模糊控制的优势解决该领域中 过去用常规方法难以解决的问题．
+　　模糊控制发展的前景是乐观的,随着相关学科的日新月异的发展,其自身也在不断完善 ,潜在的能力也不断发挥出来,尤其在工业中的应用将会日益广泛和成熟．
+注释：基金项目:国家自然科学基金(69804003)、中国博士后基金资助
+作者简介：刘向杰，32岁，博士后．研究领域为模糊控制及其在工业控制中的应用,近年来 在国际、国内发表学术论文二十余篇．
+　　　　　周孝信，58岁，电力科学院总工程师，中国科学院院士．研究领域为电力系统自动化．
+作者单位：刘向杰、周孝信：电力部电力科学研究院　北京　100085; 
+　　　　　柴天佑：东北大学自动化中心　沈 阳　110006)
+参考文献
+1　 L A Zadeh. Fuzzy Sets in Information and Control, 1965,8:338～353
+2　 E H Mamdani. Applications of Fuzzy Algorithms for Control of Simple Dynami c Plant, Proc. IEE, 1974,121:1585～1588
+3　 K J Astrom, Thomas J. McAvoy Intelligent Control. J.Proc.Cont.1992,(3):115 ～127
+4　 Procyk T J, Mamdani E H. A Linguistic Self-organizing Process Controller,A utomatica,1979,15(1):15～30
+5　 Scharf E M, Mandic N J. The Application of a Fuzzy Controller to the Control of a Multi-degree Freedom Robot Arm. Industrial Application for Fuzzy Control M Sugeno(ed),North-Holland,1985
+6　 Shao S. Fuzzy Self-organizing Controller and its Application for Dynamic Pr ocesses. Fuzzy Sets and Systems,1988,26:151～164
+7　 Dalay S,K F Gill. A Design Study of a Self-organizing Fuzzy Logic Controlle r. Proc InstMech Engrs,1986,200(c1):59～69
+8　 Z Q Wu et al. A Rule Self-regulating Fuzzy Controller. Fuzzy Sets and S ystems ,1992,47:13～21
+9　 Chih-Hsun Chou, Hung-Ching Lu. A Heuristic Self-tuning Fuzzy Controller. Fuzzy Sets and Systems,1994,61:249～264
+10　Rhee F V D, Vander Rhee F, Van Na Alemke H R et al. Knowledge Based Fuzz y Control of Systems. IEEE Trans Automatic Control,1990,35(2):148～1 55
+11　Chen, T C Tsao. A Description of the Dynamical Behavior of Fuzzy Systems , IEEE,Trans. on Systems,Man,and Cybernetics,1989,19(4):745～755
+12　鲍新福,都志杰,王芳君. 自调整比例因子控制器. 自动化学报,1987,13(2 ):129～133
+13　毛宗源,狄净． 自调整比例因子控制器控制锅炉燃烧过程． 自动化学报,1991,1 7(5): 611～614
+14　Xiangjie Liu ,Xiaoxin Zhou. Identification of Boiler Models and Its Fuzzy Logic Strategy. The 14th IFAC World Congress. Beijing China. 1999
+15　Chul-Hwan Jung et al. A Real-time Self-tuning Fuzzy Controller Through Scaling Factor Adjustment for the Steam Generator of NPP. Fuzzy Sets and System s,1995,74:53～60
+16　刘向杰, 柴天佑, 刘红波． 动力锅炉燃烧系统的模糊控制策略. 自动化学报,1998,26(4):534～538
+17　A Linkens,J Nie. Construction Rule-bases for Multivariable Fuzzy Control By Self-learning, PartⅠ : System Structure and Learning Algorithms . Int J Syste ms Sci,1993,24(1):111～127
+18　Khee F V D, D A Linkens J Nie. Constructing Rule-bases for Multivariable Fu zzy Control by Self-learning ,PartⅡ: Rule-base Formation and Blood Pressure C ontrol Application. Int j Systems. Sci,1993,24(1):129～157
+19　R Layne et al. Fuzzy Model Reference Learning Control for Cargo Ship Ste ering. IEEE Contr Syst, 1993,13(5):23～24
+20　Chen, P C Chen. A Fuzzy Model-following Control System Design Procedure , Proc. of the Int. Fuzzy Engineering Symposium' 91,1991:718～729
+21　H Kang, G J Vachtsevanos. Model Reference Fuzzy Control, Proc. of the 28th Conf. on Decision and Control, Tampa, Florida,1989:751～756
+22　Kosko B. Neural Networks And Fuzzy Systems, Pretice-Hall, Englewood Clif fs, 1992
+23　Werbos P J. Neural Control and Fuzzy Logic: Connection and Design, Proc . of IJCNN,1991, 2
+24　B Kosko, S G Kong. Adaptive Fuzzy Systems for Backing up a Track-and-trail er. IEEE Trans Neural Networks,1992,3(2):211～233
+25　Chin-Teng Lin, Neural-network-based Fuzzy Logic Control and Decision Syst em. IEEE Trans. Computers,1991,40(12)
+26　C L Chen, W C Chen. Self-organizing Neural Control System Design for Dynami c Processes. Int J System Sci,1993,24(8):1487～1507
+27　K J Hunt. Neural Networks for Control Systems —A Survey. Automatica,199228(6):1083～1112
+28　E cox. Adaptive Fuzzy System. IEEE Spectrum,1993,30(2):27～31
+29　T Yamaguchi. Self-organizing Control using Fuzzy Neural Networks. Int J Con trol,1992,52(2):415～439
+30　H R Bernji, P Khedkar. Learning and Tuning Fuzzy Logic Controllers Through R einforcements. IEEE Trans on Neural Network,1992,3(5):724～740
+31　应行仁,曾南. 采用B-P神经网络记忆模糊规则的控制. 自动化学报,1991,17(1):63～67
+32　J R Jang. Self-learning Controller Based on Temp Back Propagation. IEEE Tra ns Neural Network,1992,3(5):714～723
+33　Xiangjie Liu, Tianyou Chai. A Class of Neural-Fuzzy Controller and Its Ap plication in AC Speed Adjustment with Varying Frequency. The 36th IEEE Conferen ce on Decision and Control . San Diego,California USA. December ,1997:2742 ～2747
+34　Jnubong Nie,D A Linkens. Learning Control using Fuzzified Self-organizing R adial Basis Function Network. IEEE Trans Fuzzy Syst,1993,1(4):281～28 7
+35　Arabashahi Payrran. Fuzzy Control of Back Propagation. IEEE'92 Fuzzy,1992, 967～972
+36　Choi Jai et al. Fuzzy Parameter Adaptation in Neural systems. IJC-NN'92, Baltimoro,1992. 232～238
+37　Keller J M, Yager R R et al. Neural Network Implementation of Fuzzy Lo gic ,Fuzzy Sets and Systems,1992,45:1～12
+38　H Ying, Analytical Structure of a Two-input Two-output Fuzzy Controller An d its Relation to PI and Multilevel Relay Controllers. Fuzzy Sets and Systems,1 994,63:21～33
+39　Masaharu Mizumoto,Fuzzy Control Various Fuzzy Reasoning Methods. Informatio n Sciences,1988,45:129～151
+40　H Ying, W Siler, J J Buckley. Fuzzy Control Theory : A Nonlinear Case . Automatica,1990,26:513～520
+41　A EI Hajjaji, A Rachid. Analytic Formulation of Linguistic Rules for Fuzz y Controller. Fuzzy Sets and Systems,1995,73:219～225
+42　H Ying. A Nonlinear Fuzzy Controller with Linear Control Rules is the Sum of a Global Two-dimensional Multilevel Relay and a Local Nonlinear Proportional -integral Controller. Automatica,1993,29:499～503
+43　刘向杰,张焕水，柴天佑．三维模糊控制器的结构研究.自动化学报,1998,24(2):230～235
+44　刘向杰,夏靖波，柴天佑．一类基于正态分布隶属函数的模糊控制策略研究.控制与 决策, 1998,14(4):365～368
+45　Xiang-Jie Liu, Xiaoxin Zhou. Structure Analysis of Fuzzy Controller with G aussian Membership Function. The 14th IFAC World Congress. Beijing China. 1999
+46　Ching-Chang Wong et al. Studies on the Output of Fuzzy Controller with Multiple Inputs. Fuzzy Sets and Systems,1995,71:113～129
+47　M Mizumoto. Realization of PID Controls by Fuzzy Control Methods. Fuzzy Set s and Systems,1995,70:171～182
+48　H Ying. A Nonlinear Fuzzy Controller with Nonlinear Control Rules is the Su m of a Global Nonlinear Controller and a Local Nonlinear PI-like Controller, Pr oceeding of 1992 NASA International Joint Technology Workship on Fuzzy Logic and Neural Network, Houston, Texas, USA,1992,40～47
+49　H Ying. General Analytical Structure of Typical Fuzzy Controller and Their Limiting Structure Theorems. Automatica,1993,29:1139～1143
+50　Gupta M M, Trojan G M, Kiszka J B. Conrtrollability of Fuzzy Control Systems . IEEE Trans. Syst. Man and Cybern, 1986,16(4):576～582
+51　Kiszka J B, Gupta M M, NIkiforeuk P N. Energetistic Stability of Fuzzy Dynamic Systems. IEEE Trans. Syst. Man and Cybern, 1985,15(5):583～792
+52　T Takagi, M Sugeno. Fuzzy Identification of Systems and its Applications to Modeling and Control. IEEE Trans. Syst.,Man,and Cyber.,1985,15: 116～132
+53　Kazuo Tanaka, Michio Sugeno. Stability Analysis and Design of Fuzzy Cont rol Systems. Fuzzy Sets and Systems,1992,45:135～156
+54　Chieh-Li Chen, Pey-Chung Chen and Cha'o-Kuang Chen. Analysis and Design o f Fuzzy Control System. Fuzzy Sets and Systems,1993,57:125～140
+55　Kazuo Tanaka, Manabu Sano. A Robust Stabilization Problem of Fuzzy Contr ol Systems and Its Application to Backing up Control of a Truck-Trailer. IEEE Tr an. Fuzzy Systems,1994,2(2):119～133
+56　Won Chul Kim, Sang Chul Ahn, Wook Hyun Kwon. Stability Analysis and Stabiliz ation of Fuzzy State Space Models. Fuzzy Sets and Systems,1995，71,131～142
+57　Wang L-X, Mendel J M. Fuzzy Control of Nonlinear Systems,IEEE Tran. Fuzzy Systems,1993,1(2):146～155
+58　Wang L-X. A Supervisory Controller for Fuzzy Control Systems that Guarant ees Stability,,IEEE Tran. Automatic Control,1994,39(9):1845～1847
+59　陈建勤,吕剑虹,陈来九. 模糊控制系统的闭环模型及稳定性分析. 自动化学报,1994 ,20(1):1～10
+60　陈建勤,吕剑虹,陈来九. 利用关系矩阵分析模糊控制系统的稳定性. 控制理论与应用 ,1995,12(5):635～639
+61　Hu Y, Ramamoorthy P A. Design of Stable Recrrrent Fuzzy-Logic-Control lers Proc. of IEEE Intl. Conf. on Fuzzy Systems. 1994,918～923
+62　S Kawamoto et al. An Approach to Stability Analysis of Second Order Fuzz y Systems, IEEE Internat. Conf. On Fuzzy Systems. 1992,1427～1434
+63　A Ollero, A J Garcia-Cerezo. Direct Digital Control, Auto-tuning and Super vision using Fuzzy Logic, Fuzzy Sets and Systems. 1989,30:35～153
+64　Tseng V Hwang, S L Lui. Fuzzy Servo Controller: The Hierarchical Approa ch, Proc. of the 1st IEEE. Int. Conf. on Fuzzy Systems. 1992,623～631
+65　Tzafestas, N P Papanikolopoulos. Incremental Fuzzy Expert PID Control, IE EE Transactions on Industrial Electronics.1990,37(5):365～371
+66　D Filev, P Angelov. Fuzzy Optimal Control, Fuzzy Sets and Systems. 1992 ,47:151～156
+67　Jang D S H. Wang, C K Liau. On-line/off-line Optimization of Complex Pr ocesses using a Linguistic Self-organized Optimizing Control Scheme, Fuzzy Set s and Systems. 1995,69:22～23
+68　Sastri R N, Wiwari, K S Sastri. Solution of Optimal Control Problems with Lumped Parameters Having Single or Multiple Goal Objectives in Fuzzy Enviro nment, Fuzzy Sets and Systems 1992,48:173～183
+69　R Shoureshi, K Rahmani. Derivation and Application of an Expert Fuzzy Optima l Control System, Fuzzy Sets and Systems 1992,49:93～101
+70　R Palm. Sliding Mode Fuzzy Control, Proc. Internat. IEEE Conf. on Fuzzy Sys tems,San Diego. 1992,519～526
+71　Dimitar P Filev, Ronald R Y. On the Analysis of Fuzzy Logic Controllers , Fuzzy Sets and Systems. 1994,68:39～66
+72　Zong-Mu Yeh. A Performance Approach to Fuzzy Control Designed for Nonline ar Systems.1994,64:339～352
+73　金耀初, 蒋静坪. 一类非线性系统的模糊变结构控制及应用. 控制与决策,1992，7(1)
+74　刘向杰，周孝信．模糊控制在电厂锅炉控制中的应用现状及前景．电网技术．1998， (12)
+收稿日期：1998-07-02

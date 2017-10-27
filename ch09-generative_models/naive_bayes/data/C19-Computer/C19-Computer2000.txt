@@ -1,0 +1,28 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+1999年3月 第18卷 第3期 vol.18 No.3
+
+
+
+Cookie的安全性及拒绝方法讨论
+张林
+　　摘　要：简要介绍了Cookie的基本概念、安全性问题，以及拒绝的方法。
+　　关键词：Cookie　浏览器　安全性
+1　Cookie简介
+　　Cookie是由Netscape开发并将其作为持续保存状态信息和其它信息的一种方式，目前绝大多数的浏览器支持Cookie协议。如果能够链入Web网或其它网络的话，就可以使用Cookie来传递某些具有特定功能的小信息块。Cookie是一个储存于浏览器目录中的文本文件，约由255个字符组成，仅占4KB硬盘空间。当用户正在浏览某站点时，它储存于用户机的RAM中；退出浏览器后，它储存于用户的硬盘中。储存在Cookie中的大部分信息是普通的，如：当你浏览一个站点时，此文件记录了每一次的击键信息和被访站点的URL等。但是许多Web站点使用Cookies来储存针对私人的数据，如：注册口令、用户名、信用卡编号等。MSN(微软提供的网络在线服务)、Netscape都完全采用了使用Cookies储存信息的个性化处理。假如你想查看储存在Cookie文件中的信息，可以从你的浏览器目录中查找名为Cookie.txt或MagicCookie(Mac机)的文件，然后利用文本编辑器和字处理软件打开查看即可。
+2　Cookie的安全性
+　　HTTP Cookie不会给机器带来任何伤害，比如从硬盘中获取数据、取得E-mail地址、或窃取某些私人的敏感信息等。实际上，Java与JavaScript早期的运行版本存在这方面的缺陷，但这些安全方面漏洞的绝大部分已经被堵塞了。可执行属性是储存于一个文件中的程序代码执行其功能的必要条件，而Cookies是以标准文本文件形式储存的，因此不会传递任何病毒，所以从普通用户意义上讲，Cookie本身是安全可靠的。
+　　但是，随着互联网的迅速发展，网上服务功能的进一步开发和完善，利用网络传递的资料信息愈来愈重要，有时涉及到个人的隐私。因此关于Cookies的一个值得关心的问题并不是Cookies对你的机器能做些什么，而是它能存储些什么信息或传递什么信息到链接的服务器。HTTP Cookies可以被用来跟踪网上冲浪者访问过的特定站点，尽管站点的跟踪不用Cookies也容易实现，不过利用Cookies使跟踪到的数据更加坚固可靠些。由于一个Cookie是Web服务器放置在你的机器上的、并可以重新获取你的档案的唯一的标识符，因此Web站点管理员可以利用Cookies建立关于用户及其浏览特征的详细档案资料。当用户登录到一个Web站点后，在任一设置了Cookies的网页上的点击操作信息都会被加到该档案中。档案中的这些信息暂时主要用于站点的设计维护，但除站点管理员外并不否认被别人窃取的可能，假如这些Cookies持有者们把一个用户身份链接到他们的Cookie ID，利用这些档案资料就可以确认用户的名字及地址。此外某些高级的Web站点(如许多的网上商业部门)实际上采用了HTTP Cookies的注册鉴定方式。当用户在站点注册或请求信息时，经常输入确认他们身份的登记口令、E-mail地址或邮政地址到Web页面的窗体中，窗体从Web页面收集用户信息并提交给站点服务器，服务器利用Cookies持久地保存信息，并将其放置在用户机上，等待以后的访问。这些Cookies内嵌于HTML信息中，并在用户机与站点服务器间来回传递，如果用户的注册信息未曾加密，将是危险的。因此许多人认为Cookie的存在对个人隐私是一种潜在的威胁。
+3　拒绝Cookie的方法
+　　如果感到不安全的话，可以拒绝Web服务器设置的Cookie信息或当服务器在你的浏览器上设置Cookie时显示警告窗口，它将告知你设置的Cookies的值及其删除所花费的时间。在Windows下拒绝接受Cookie，可以删除Cookie文件内容，或把文件属性设置为只读和隐含。在浏览器下拒绝的具体方法：
+　　1.在IE中禁止。IE3.0及以上版本不是把所有的Cookies存储在单个文件中，而是把每个Cookie作为独立的文件储存在“Windows＼cookies”目录下，因此禁止Cookies较困难。如果想禁止个别的Cookies，如：记录双击键操作的Cookies，可以通过删除相应文件内容来破坏这些Cookies，然后把文件属性改为只读、隐藏、系统属性，并且存储文件，当登录到一个设置了这种Cookies的站点时，它既不能从你的Cookies读取任何信息，也不会传递新的给你。或者在接受某Cookie之前，设置浏览器提示警告信息，如：在中文IE4.0的“查看｜ Inte rnet选项‖高级”列表中选择“接受Cookies时总是显示警告窗”的对应项。如果想完全禁止Cookies，可删除注册表中的如下条目：
+　　[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\InternetSettings\Cache\Special Paths\Cookies]
+然后重启动机器,并删除“Windows、cookoes”目录。
+　　2.在NETSCAPE中禁止。在Netscape的目录下有一个cookies.txt文件(在Mac机上称为Magiccookie),可以利用文本编辑器大胆地删除文件的内容,并把文件重新存为具有只读、隐藏、系统属性的文件，然后运行Windows的注册表编辑器，打开[HKEY_CURRENT_USER\Software\Netscape\Netscape Navigator\Cookies]主键,将键值名“Cookie File”设置为“Cookie File”=“NUL”，此时硬盘上就不会再有持续保存的信息了。上述方法仅是禁止了长期设在硬盘上的Cookies，当浏览器正在运行时，设在内存中的Cookies仍然未被禁止，但关闭浏览器后因其无法将Cookies写入硬盘会清除掉这些Cookies。它的优点是在浏览器运行过程中，仍可以交换某些信息。同样也可以设置Cookies时显示警告窗口。
+　　3．如果使用了其他支持Cookies的浏览器,那么一种较好的方法是使用某些可以拒绝Cookies的工具软件,如:Internet Junkbrster 2.0(可免费下载)是一个非常好的选择,它几乎能用于所有的浏览器,作为一个代理存在与浏览器和Internet网之间,可以拒绝大约99%的Cookies。除了访问你允许设置Cookies的站点外，在你使用浏览器时它可以禁止所有Cookies写入你的硬盘。
+作者单位:湖南长沙国防科技大学电子工程学院(410073)
+参考文献
+　1　http：//www.cookiecentral.com/
+　2　http：//webreference.com/javascript/
+　3　http://www.epic.org/privacy/internet/cookies/
+(收稿日期:1998-10-16)

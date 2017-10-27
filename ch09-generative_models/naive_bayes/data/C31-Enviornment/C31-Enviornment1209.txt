@@ -1,0 +1,73 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+利用透射电镜研究PACS的形态及絮凝机理
+(高宝玉*)
+((清华大学环境工程系，北京　100084))　　
+(岳钦艳　于　慧　王　艳)
+((山东大学环境工程系，济南　250100))
+
+摘要　借助于透射电镜技术观察了稀释作用及pH值对PACS聚合形态的影响，研究了搅拌作用及PACS投量对PACS絮凝高岭土悬浊液效果的影响，探讨了PACS的絮凝机理.结果表明，稀释作用会导致PACS聚合大分子产生聚合度较小的组分，溶液的pH值能改变PACS的形态，在较低pH值情况下，PACS聚合物呈枝化结构，在较高pH值下，PACS水解生成Al(OH)3胶体物质.PACS是通过吸附电中和及吸附架桥作用使高岭土颗粒脱稳及凝聚的.
+关键词　PACS混凝剂；聚合形态；絮凝机理.
+A STUDY ON MORPHOLOGY AND COAGULATION MECHANISM OF PACS USING TRANSMISSION ELECTRON MICROSCOPE (TEM)
+
+Gao Baoyu
+(Dept. of Enivron. Eng., Tsinghua University, Beijing 100084, China)
+Yue Qinyan, Yu Hui, Wang Yan
+(Dept of Environ. Eng., Shandong University, Jinan 250100,China)
+
+ABSTRACT　Effects of diultion and pH value on the morphology of Polyaluminum chloride with sulfate ion (PACS) was observed by using TEM. The influences of stirring and the dosage of PACS on the coagulation for Kaolin suspension were studied. The coagulation mechanism of PACS for Kaolin suspension was also investigated. The experimental results showed that diluted PACS in water can cause PACS polymer to decompose into smaller polymeric species. The morphology of PACS varies with the pH of water. The charge-neutralization and the bridging action are the coagulation mechanism of PACS for Kaolin suspension.
+Keywords　coagulant PACS, morphology, coagulation mechanism.
+
+　　铝的水解聚合形态的研究，在水处理凝聚作用研究中占有重要的地位［1］.铝水解聚合反应较为复杂，其形态产物组成及变化涉及水解溶液的组成，如浓度、pH值、羟铝比、熟化时间等多种因素.虽然水解聚合物形态研究已有许多报道，但绝大部分研究成果还处于定性鉴定和推测阶段.近年来，我们开展了利用透射电镜观察PACS(含有硫酸根的聚合氯化铝)的形态研究工作，研究了碱化度、Al3+与SO42-摩尔比、熟化时间对PACS形态结构的影响［2］.本文利用透射电镜进一步研究了溶液pH值、稀释作用对PACS形态结构的影响，研究了PACS絮凝高岭土悬浊液的情况，解释了PACS的絮凝机理，获得了比较有意义的直观信息.
+
+1　实验部分
+1.1　主要仪器及药品
+　　JEM-100CXⅡ透射电镜，J6-1A搅拌机，pHS-2型酸度计.
+　　AlCl3*6H2O(A R),Al2(SO4)3*18H2O(A R),Na2CO3(A R)，NaHCO3(A R),NaOH(A R),HCl(A R),试剂高岭土(C P).
+1.2　PACS的制备
+　　制备ηAl3+/ηSO42-=16、碱化度(B)=65%、［Al3+］=0.2mol/L的PACS液体样品，制备方法见文献［2］，样品制备好后熟化3d进行测试.
+1.3　透射电镜观察方法
+　　将液体样品滴到有支持膜的铜网上.用滤纸吸去多余的液体，晾干后(晾干时间约数分钟)放入电镜内观察、照相.
+1.4　絮凝实验方法
+　　用蒸馏水和高岭土配制模拟水样，高岭土浓度为800mg/L，向模拟水样中加入适量的NaHCO3调水样pH=7.80.进行絮凝实验时，在快速搅拌(120—140r/min)下，向水样中加入一定浓度PACS，继续搅拌一定时间，然后慢速(40—60r/min)搅拌一定时间，取样进行电镜观察、照相.
+
+2　结果与讨论
+2.1　稀释作用对PACS形态的影响
+　　对PACS进行稀释得不同浓度的样品，电镜观察其形态(见图1).图1表明，当PACS中［Al3+］=2.0×10-2mol/L时，PACS聚合物大小为9.0μm左右，当［Al3+］=2.0×10-3mol/L时，PACS聚合物大小为7.2μm左右；当［Al3+］=2.0×10-4mol/L时，PACS聚合物大小为2.8μm左右.且PACS的浓度越小，电镜观察到的PACS聚合物的数目就越小，当［Al3+］=2.0×10-5mol/L时，几乎观察不到任何PACS聚合物存在，这说明了随着PACS浓度的降低，PACS聚合物大分子离解变成了小分子，这与采用27Al NMR研究水中稀释对PAC形态分布影响的结论是一致的［3］.
+
+
+
+图1　稀释作用对PACS形态结构的影响
+Fig.1 Effect of dilution on the morphology of PACS
+
+
+图2　pH值对PACS形态的影响
+Fig.2 Effect of pH on the morphology of PACS
+2.2　pH值对PACS形态的影响
+
+　　以［Al3+］=0.02mol/L的PACS样品进行实验观察，结果见图2.结果表明，在低pH值下，PACS聚合物呈枝化结构，随pH值升高，枝化度增大，相互间连在一起，当pH值高到6.5时，已看不到枝状物结构，而是片状物相互连接成一片，随着pH值进一步升高，片状物增大，堆积在一起.这说明了PACS在水溶液中，随着溶液pH值的升高，PACS逐步发生水解形成Al(OH)3胶体颗粒，这些胶体颗粒进一步聚集在一起形成大的颗粒.
+2.3　PACS絮凝高岭土悬浊液2.3.1　水样中高岭土颗粒透射电镜观察　对高岭土悬浊液进行超声波处理使其分散，然后进行透射电镜观察，结果见图3.图3表明，高岭土颗粒呈棒状及六边形片状物，且大小不均匀.尽管对高岭土悬浊液进行了超声波处理，但某些颗粒仍相互聚集在一起.
+
+
+图3　高岭土的透射电镜图象
+Fig.3 TEM of Kaolin
+2.3.2　搅拌对PACS絮凝作用的影响　PACS的投量为0.6mg/L(以Al2O3计，下同).实验结果见图4，图4-1表明，PACS加到高岭土悬浊液中快速搅拌5s，只有部分PACS水解产物被吸附到高岭土颗粒表面上，仍有较大部分PACS水解产物没有和高岭土颗粒发生作用(见图4-1中灰色的膜状物)，高岭土颗粒基本上仍呈分散状态.随着快速搅拌时间的增长及随后一定时间的慢速搅拌，可观察到架桥絮凝过程的部分结果(见图4-2,4-3,4-4).据图4可解释PACS絮凝高岭土颗粒的机理为：PACS加到水样中迅速发生水解，水解产物在pH＜8.7情况下带正电荷［4］，带正电荷的水解产物被吸附到表面带负电荷的高岭土颗粒表面上，使高岭土颗粒脱稳，脱稳的颗粒借助于吸附的PACS水解产物架桥粘结成大颗粒(即絮体)，大颗粒迅速下沉使水澄清.
+
+
+图4　搅拌时间对PACS絮凝作用的影响
+Fig.4 Effect of stripping on the coagulationg of PACS
+2.3.3　PACS投量对絮凝作用的影响　向高岭土水样中投加一定量的PACS絮凝剂后，快搅1min，然后慢搅3min，取样进行透射电镜观察，结果见图5.图5表明，PACS低投量情况下，绝大多数高岭土颗粒被絮凝而相互粘结在一起，但仍有少部分高岭土颗粒没被絮凝或虽被絮凝但絮体比较小，难以下沉；PACS投量适当时，可使绝大多数高岭土颗粒被絮凝形成大絮体而易于下沉；当PACS投量过多时，高岭土颗粒被大量的PACS水解产物所包裹，在静电排斥作用下，高岭土颗粒间不易连结成大颗粒絮体，絮凝效果变差.
+
+
+图5　PACS投量对絮凝作用的影响
+Fig.5 Effect of dosage of PACS on the coagulation
+
+3　结语
+　　借助透射电镜技术研究絮凝剂的形态及絮凝机理，可得到一些直观信息，并可揭示出絮凝剂本身的形态及絮凝机理的某些重要特性.在过去的絮凝研究中，大都是把絮凝体系当作一个“黑箱”，絮凝机理是根据实验现象推测出来的.利用了电镜技术，可得到高放大倍数的絮体的照片，对照片通过综合分析，可直观地对絮凝过程中的某些结果进行观察，进而可提出其确切的絮凝机理.确信，电镜技术的利用必将极大地推动絮凝形态学及絮凝机理的发展.若以后能做到利用电镜对絮凝剂的形态及絮凝过程进行在线观测，势必可提供更多更确切的信息.
+现工作单位为山东大学环境工程系，济南250100
+参考文献
+　1　Bottero J Y et al. Studies of hydrolyzed aluminum chloride solutions. 1, nature of aluminum species and composition of aqueous solutions. J Phys Chem, 1980,84:2933
+　2　高宝玉，艾子萍等.PACS的形态及电导特性研究.环境科学学报，1994，14(3)：301
+　3 姚重华，孙尧俊.水中稀释对聚合氯化铝形态分布的影响.环境化学，1991，10(2)：1
+　4 高宝玉，岳钦艳.PACS的除浊特性研究.山东大学学报(自然科学版)，1994，29(2)：235

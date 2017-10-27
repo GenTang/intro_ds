@@ -1,0 +1,31 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.1-3
+
+
+
+
+2000年北京沙尘暴源地解析
+李令军　 高庆生　 
+摘　要：2000年我国北方春季干旱少雨，气温回升快，低涡频繁侵入，4月3～9日连续3次冷空气活动，造成了北京地区严重的沙尘暴天气。笔者利用卫星云图和中尺度数值模式MM5，分析了该次沙尘暴源地及沙尘输送机制。结果证明，北京沙尘暴初始源地为蒙古高原及冷涡移动路径上的沙漠戈壁地区；北京周边地区裸露地的沙尘在气旋尾部上升气流的扰动下，亦形成了边界层的近距离输送。
+关键词：沙尘暴；　冷锋； 东北低涡； 云图
+分类号：X16　文献标识码：A
+文章编号：1001-6929(2001)02-0001-03
+Source Analysis of Beijing Sand-Dust in 2000
+LI Ling-jun（Resource and Environment Science Department of Beijing Normal University, Beijing 100875, China）　
+GAO Qing-xian（Chinese Research Academy of Environmental Sciences,Beijing 100012, China）　
+
+Abstract：North China was drought with little rainfall, and became warm earlier in the spring in 2000. Eddy often arrived. From 3 to 9 April three cold eddies continuously brought a great deal of sand-dust to Beijing. In this paper with cloud map data from satellite and results from Model MM5, the source of this sand-dust storm and the mechanism of sand transportation are analyzed. As a result, it is found that air current from upper reaches brought sand-dust through free atmospheric layer. Moreover, sand-dust from the peripheral bare soil was raised from the end of eddy and brought to Beijing.
+Keywords：sand-dust storm; cold front; northeast eddy; cloud map
+基金项目：中国西部干旱区生态环境演变与调控研究项目(G1999043505)
+作者简介：李令军(1976-)，男，山东莒县人，硕士研究生. 
+作者单位：李令军（北京师范大学 资源与环境科学系，北京　100875）　
+　　　　　高庆生（中国环境科学研究院，北京　100012）　
+
+参考文献：
+［1］　名古屋大学水圈科学研究所(日本).黄沙［M].全浩主译.北京：中国建筑工业出版社，1995.
+［2］　夏训诚，杨根生.中国西北地区沙尘暴灾害及防治[M].北京：中国环境科学出版社，1996.
+［3］　方宗义，朱福康，江吉喜，等.中国沙尘暴研究[M].北京：气象出版社，1997.
+
+收稿日期：2000年10月7日
+出版日期：2001年3月30日

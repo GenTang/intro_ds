@@ -1,0 +1,187 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+1999年3月 第18卷 第3期 vol.18 No.3
+
+
+
+用JAVA语言开发Proxy费用查询系统
+董莉敏　李志兰
+　　摘　要：一个允许用户随时查询上网费用的费用查询系统，该系统包括1个客户机程序和1个服务器程序。客户机程序是1个JAVA Applet，服务器程序是1个JAVA应用程序。
+　　关键词：Proxy费用查询系统　客户机　服务器　Java语言
+　　Proxy的日志记录了网络用户访问Internet资源的情况，有IP地址、URL、数据流量等信息，网管中心根据日志计算用户的上网费用并按月通知用户。用户不能主动查询，只能被动等待。
+　　本文介绍的查询系统允许用户随时查询上网费用，根据日志提供的数据，服务器程序随时更新费用信息，保证提供给用户的是当月的最新信息。
+　　根据系统要求，查询协议由以下4步组成：
+　　(1)用户下载客户机程序。(2)用户输入IP地址并和服务器程序建立通信。(3)服务器程序响应用户请求，根据用户的IP地址查询并向用户反馈最新的费用信息。(4)通信完毕，双方中止连接。
+1　客户机程序设计
+　　客户机程序是1个JAVA Applet，由用户下载并在浏览器中作为1个线程生成。只有当用户输入IP地址后，线程才开始启动。线程的主体中打开1个连到服务器的套接字(Socket)，与服务器建立连接，然后创建2个与服务器通信的输入流和输出流，用输出流将IP地址传到服务器，用输入流接收服务器的反馈信息，包括用户的上网费用及费用的最近更新日期，并将其显示在相应的框中。通信结束后，中止和服务器的连接，包括关闭Socket、输入流和输出流等。该Applet的代码如下：
+import java.awt.*;
+import java.applet.*;
+import java.io.*;
+import java.net.*;
+public class PCClient extends Applet implements Runnable{
+private static final int SERVERPORT=1666;　//端口号
+private Thread newThread=null;
+private String response=null,IP=null;
+private TextField credit,time;
+public void init(){　//Applet初始化，创建输入/输出窗口
+　　setLayout(new FlowLayout());
+　　setFont(new Font(“TimesRoman”,Font.BOLD,10));
+　　add(new Label(“PLEASE ENTER YOUR IP ADDRESS”));
+　　add(TextField(30));　//IP地址输入域
+　　add(new Label(“BY THE FOLLOWING TIME”));
+　　time=new TextField(30);　//时间显示域
+　　add(time);
+　　add(new Label(“YOUR PROXY CREDIT THIS MONTH”));
+　　credit=new TextField(30);　//费用显示域
+　　add(credit);
+　　show();}
+public void paint(Graphics g){　//画矩形框口
+　　int width=size().width;
+　　int height=size().height;
+　　g.drawRect(1,1,width-10,height-10);}
+public void run(){
+　　Socket clientsocket=null;
+　　DataInputStream clientReceive=null;
+　　PrintStream clientSend=null;
+　　try{　　　//和服务器建立连接
+　　　clientsocket=new Socket(“hunter”,SERVERPORT);
+　　　clientSend=new PrintStream(clientsocket.getOutputStream());
+　　　clientReceive=new DataInputStream(clientsocket.getInputStream());
+　　　clientSend.println(IP);　//传用户的IP地址到服务器
+　　　response=clientReceive.readLine();　//监听服务器传来
+//的时间信息
+　　　time.setText(response);　//显示时间信息
+　　　response=clientReceive.readLine();　//监听服务器传来
+//的费用信息
+　　　credit.setText(response);　//显示费用信息
+　　}catch(IOException except){
+　　　System.out.println(“I/O Failed:”+except);
+　　　System.exit(1);
+　　}finally{
+　　　　try{　　//中止连接
+　　　　if(clientReceive!=null)clientReceive=null
+　　　　if(clientSend!=null)clientSend=null;
+　　　　if(clientsocket!=null)clientsocket.close();
+　　　　}catch(IOException except){
+　　　　　System.out.println(“I/O Failed:”+except);
+　　　　　System.exit(1);}}}
+public Insets insets(){return new Insets(20,20,20,20);}
+public boolean action(Event evt,Object obj){
+　　if(evt.target instanceOf TextField){
+　　　　IP=((TextField)evt.target).getText(); //读取用户输
+　　　　　　　　　　　　　　　　　　　　　　　//入的IP地址
+　　　　newThread=new Thread(this); //创建并启动监听线程
+　　　　newThread.start();
+　　　　return true;}
+　　　　return super.handleEvent(evt);}
+public void stop(){newThread.stop();}}
+2　服务器程序设计
+　　服务器程序由2个类PCServer和PCHandler组成，PCServer负责随时更新费用信息并等待客户端的连接，当客户端连接上后，它创建PCHandler的实例，负责与客户端的通信。服务器程序是并发的，可同时接收多个客户机程序的请求。
+　　日志由多条记录组成，每条记录包含若干数据项。实例化PCServer时，打开日志文件，按行读取记录，对每一行进行令牌化处理，分离出其中的数据项。对分离出的数据项进行句法分析，句法分析包括跟踪已经遇到过的IP地址和进行流量统计。跟踪主要依赖于java.util包中的Hashtable类提供的功能，Hashtable类实现了字典数据结构，字典包含1对入口，第1部分称为关键字key(这里是IP地址)，第2部分称为值value(这里是流量)，由于该类不支持基本数据类型，所以把计数器放在Integer对象中进行流量统计。值的存取利用put(key,value)和get(key)方法。PCHandler利用get(key)进行查询。
+　　下面是服务器程序代码，为了节省篇幅，部分方法的实现作了省略。
+import java.io.*;
+import java.util.*;
+import java.net.*;
+public class PCServer{
+　private static final int SERVERPORT=1666;　//服务器的监
+//听端口
+　private static File PROXYFILE=new File(“＼homel＼access”);　//打开日志文件
+　private ServerSocket listenSocket=null;
+　private Hashtable PCInfo;
+　private String currentMonth=“Jun”;
+　private boolean keepRunning=true;
+　private long proxyFileMod;
+　private Date proxyInfoTime;
+　public static void main(String args［］){
+　 PCServer server=new PCServer();
+　 server.serveClients();}
+　public PCServer(){
+　 if(!loadCredit()){　//装载费用信息
+　　System.out.println(“Unable to load Proxy”);
+　　System..exit(1);}
+　 try{
+　　listenSocket=new ServerSocket(SERVERPORT);
+　 }catch(IOException except){
+　　System.out.println(“Unable to listen on port”+SERVERPORT+except);
+　　System.exit(1);}}
+　public void serveClients(){
+　 Socket clientSocket=null;
+　 PCHandler newHandler;
+　 try{
+　　while(keepRunning){
+　　 clientSocket=listenSocket.accept();　//等待客户端的连接
+　　 if(currentMonth!=getCurrentMonth())currentMonth=getCurrentMonth();
+　　 //如果日志文件被Proxy服务器修改，更新费用信息
+　　 if(proxyFileMod!=PROXYFILE.lastModified())loadCredit
+();
+　　 newHandler=new PCHandler(clientSocket,PCInfo,proxyInfo Time);
+　　 Thread newThread=new Thread(newHandler);
+　　 newThread.start();}
+　　listenSocket.close();
+　 }cath(IOException except){
+　　　System.out.println(“I/O Failed”+except);
+　　　System.exit(1);}}
+　protected void
+　 if(keepRunning)keepRunning=false;}
+　public String getCurrentMonth(){　//获取当前月份
+　 String［］month={“Jan”,“Feb”,“Mar”,“Apr”,“May”,“Jun”,“Jul”,“Aug”,“Sep”,“Oct”,“Nov”，“Dec”};
+　 return month［(new Date()).getMonth()］';}
+　public boolean loadCredit(){
+　 DataInputStream file;
+　 String Tokenizer tokenize;
+　 String string,token,Ipaddr=null,bytes=null;
+　 String delim=“＼t＼n＼r”;
+　 PCInfo=new Hashtable();
+　 try{
+　　file=new DataInputStream(new FileInputSream(PROXYFILE));
+　　file.readLine();
+　　while((string=file.readLine())!=null){日志句法分析}
+　　proxyFileMod=PROXY-FILE.lastModified();　//保存文件
+//修改日期
+　　proxyInfoTime=new Date();　//保存当前时间
+　　return true;}}
+//……
+class PCHandler implements Runnable{
+　private Socket me=null;
+　private PrintStream clientSend=null;
+　private DataInputStream clientReceive=null;
+　private Hashtable PCInfo;
+　private Date date;
+　public PCHandler(Socket me,Hashtable PCInfo,Date date){
+　　this.me=me;
+　　this.PCInfo=PCInfo;
+　　this.date=date;}
+　public void
+　　String clientAddress;
+　　Float credit;
+　　try{
+　　　clientSend=new PrintStream(me.getOutputStream());
+　　　clientReceive=new DataInputStream(me.getInputStream());
+　　　clientAddress=clientReceive.readLine();
+　　　clientSend.println(date.toString());
+　　　credit=new Float(getCredit(clientAddress)*0.02);
+　　　clientSend.println(credit.toString()+“yuan”);
+　　}catch(IOException except){
+　　　　System.out.println(“I/O Failed”+except);
+　　　　System.exit(1);
+　　}finally{
+　　　　try{
+　　　　　if(clientSend!=null)clientSend.close();
+　　　　　if(clientReceive!=null)clientReceive.close();
+　　　　　if(me!=null)me.close();
+　　　　}catch(IOException except){
+　　　　　　System.out.println(“I/O Failed”+except);
+　　　　　　System.exit(1);}}}
+　public int getCredit(String clientAddress){
+　　Integer bytes;
+　　bytes=(Integer)PCInfo.get(clientAddress);
+　　if(bytes==null)return 0;
+　　return bytes.intValue();}}
+3　小结
+　　本系统已在南京师范大学校园网上运行，给校园网用户提供了极大的方便，提高了网管中心的工作效率。本系统的设计思想非常简捷且易于实现，不仅适用于Proxy费用查询，还适用于其它需要网上查询的场合，如email费用查询、股票查询等。系统开发工具采用Symantec Cafe 1.5。 
+作者单位：董莉敏　南京师范大学计算机科学与教育系(210024)　
+李志兰　南京师范大学网络中心(210024)　
+参考文献
+　1　Marketos J著，杨武杰译.JAVA编程技术与技巧.北京：电子工业出版社，1997
+　2　Vanhelsuwe L著，邱仲潘译.JAVA从入门到精通.北京：电子工业出版社，1997
+(收稿日期：1998-09-03)

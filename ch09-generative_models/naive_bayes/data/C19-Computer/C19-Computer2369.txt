@@ -1,0 +1,133 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+基于网络状态预测的提前控制
+卢锡城　朱培栋
+摘　要　高速网络的大带宽延迟乘积使基于传统反馈机制的ABR难以对高可变VBR快速响应，造成速率的不匹配.为了提高反馈控制方法的有效性，充分利用高优先级VBR业务剩余的可用带宽，文中提出基于预测的提前控制模式，根据ABR信源的不同反馈延迟对未来时间段VBR占用带宽进行预测，并利用未来ABR可用带宽估算值为相应的ABR进行速率分配，从而实现速率的精确匹配.高速网络VBR业务的强相关性使相对精确的时间序列预测成为可能，并可使用通用的线性预测方法完成VBR业务的在线实时预测；业务预测误差和RTT估计误差，可以根据当前负载因子(LF)适当调整ER反馈值加以补偿.提前控制模式的有效性和公平性通过示例可以得到直观的认识，算法特性的一般性描述及其简单证明也在文中给出.
+关键词　业务突发性，速率匹配，业务预测，提前控制，业务相关性，线性预测，误差补偿，公平性
+中图法分类号　TP393.2
+PROACTIVE CONTROL BASED ON NETWORK STATE PREDICTION
+LU Xi－Cheng and ZHU Pei-Dong
+(Department of Computer Science, National University of Defense Technology, Changsha 410073)
+Abstract　The large bandwidth－delay product of high speed networks(HSNs) makes the conventional feedback－based mechanisms unsuitable for ABR to fast respond to high bursty VBR traffic, and results in a significant rate mismatch . In order to increase the efficiency of feedback－based control and acquire full access to left－over bandwidth by high priority traffic, a prediction－based proactive control scheme is proposed, which predicts future VBR bandwidth occupancy respectively for different feedback delays of ABRs, and assigns the corresponding ABR sources a rate on the basis of the estimate of total ABR capacity. Strong dependency of VBR traffic in HSNs makes possible the relatively exact prediction of time series, and we can take advantage of the existing general－purpose linear prediction methods to get real－time results on－line. The current value of load factor(LF) can be used to adjust ER feedback , thus compensating the forecasting variance and RTT estimate error. The efficiency (i.e., exact rate match achieved) and fairness of the proactive scheme can be seen intuitively from an example, while their general description and simple proof are also presented.
+Key words　traffic burstiness, rate match, traffic prediction, proactive control, traffic dependence, linear prediction, error compensation, fairness
+1　引言
+1.1　ABR速率控制框架
+　　ABR(available bit rate)是ATM一种重要的服务类型，要求能够充分利用高优先级CBR(constant bit rate)或VBR(variable bit rate)服务的剩余带宽并保持较小的信元丢失率，这就要求ABR信源对网络状态的变化快速响应.
+　　ATM TM4.0［1］定义了基于速率的ABR反馈控制框架，明确规定源端系统(SES)和宿端系统(DES)的具体行为，给出网关的显式速率(ER)反馈框架，ER的计算方法与各个厂家的实现相关.SES每隔Nrm个信元发送一个 RM控制信元(前向RM: FRM)，携带当前信元速率(CCR)和请求速率(ER初值)，网关将分配的速率写入ER并通过后向RM(BRM)送回SES，SES根据新的ER调整自己的允许信元速率(ACR).
+　　影响反馈有效性的时间部件包括：①RTT:信源到信宿的往返延迟，包括发送、传播和排队延迟；②FD(feedback delay):网关给出反馈到调整后的负载到达网关的延迟，最短FD(SFD)是信源和网关之间传播和发送延迟的两倍.③IRCT(inter－RM cell time):控制环的反馈周期Nrm×(1/ACR)，具有较小IRCT的信源反馈得快;④AI(averaging interval)：又称测量周期(measurement period)或网关的控制周期(control cycle)，网关计算ER前进行相关参数测量的时间间隔，AI越小ER变化越频繁，SES ABR速率变化次数越多；AI长时反馈稳定;⑤ VBR变化频率等.
+1.2　ER反馈的有效性问题
+　　大带宽延迟乘积的高速网络反馈延迟很大，使ABR在响应VBR的快速变化时存在严重的带宽不匹配现象，造成过载(overload)，引起丢弃或欠载(underload)，降低链路利用率.
+　　为了便于分析，采用图1所示的基本网络结构，首先考虑一个ABR和一个VBR的情况.图中有ABR信源和VBR信源，共享瓶颈网关Switch的输出带宽C，ABR和网关相距很远，传播延迟为d.DES和网关相距较近，忽略其间网络延迟，设RTT=FD；暂不考虑发送与排队延迟，设FD =2d.ABR和VBR使用不同的输出队列.
+
+图1　ABR网络控制分析模型
+　　设ABR为无限信源，始终有数据发送；ABR SES设置允许的信元速率acr(t)为网关反馈的ER(暂不考虑复杂的信源策略).控制目标是链路利用率100％，信元丢失率(CLR)极小.理想情况下，t时刻网关可见的ABR速率sw-acr(t)与所见VBR速率sw-vbr(t)满足sw－acr(t)=C-sw－vbr(t)，即ABR速率和可用带宽完全匹配.这就要求SES ABR发送速率acr(t-d)=C－sw-vbr(t).
+　　但是网关在时间t时才能测量得到sw-vbr(t)，发出控制信息，控制信息在t+d时到达发方，SES已经有一个BDP(带宽延迟积，其值为acr(t)×d) 的数据发出；发方t+d时调整速率acr(t+d)=C－sw－vbr(t)，在t+2d时经过速率调整的数据才到达网关，满足sw－acr(t+2d)＝C－sw－vbr(t)，经过2d之后速率才和sw－vbr(t)匹配，这样就有2个BDP的发方数据没能接受控制，网关在t时期望的行为发方在t+2d时才表现出来，如图2所示.
+　　与传统网络不同的是高速网络BDP非常大，设可用带宽10Mbps，RTT=40ms，Nrm=32，则IRCT=1.4ms，SES连续发送约30个RM信元之后才能得到需要的网关状态，网关只有在等待大约30个RM信元经过之后经过控制调整的ABR业务才到来，控制的有效性非常低.以上计算假设VBR速率改变时正好BRM到达，同时进行ER计算，并发出反馈；如果考虑这些时延因素，反馈控制的有效性进一步降低.
+　　另外，网关的VBR速率sw-vbr(t+2d)可能已发生很大变化，经过反馈调整的ABR速率sw－acr(t+2d) 和sw－vbr(t+2d)仍然不匹配.图3所示就是这种VBR的变化周期小于2d的情况.从统计结果看，2d越大，图2、图3所示的速率不匹配越严重，造成的报文丢失越多，带宽利用率也越低.
+
+图2　闭环控制的速率不匹配(反馈延迟)
+
+图3　闭环控制的速率不匹配(VBR快速变化)
+2　现有ER算法的努力
+　　典型的ABR算法有EPRCA［2］, ERICA［3］和ERICA+［4］, CAPC2［5］，Phantom［6］, NIST ER［7］等.现有ER算法的设计更多的是追求良好的稳态性能，对ABR可用带宽的高可变情况缺乏考虑.即使行为表现良好的算法，达到最终的速率分配所用时间也需要数倍乃至数十倍RTT的时间.ERICA+［4］以100％的链路利用率为目标，为适应可变VBR采取了一些措施，但是没有容纳固有的反馈延迟，图2和图3所示的ABR算法的低效便无法根除.
+　　SP-EPRCA［8］使用Smith预测器将反馈延迟从控制环路中删除，但是需要信源根据专用的公式计算ER，与ABR速率控制的标准框架不符.文献［9］对VBR变化的时间进行预测，在变化前2d通知信源，不是通过周期性RM信元机制进行拥塞状态或ER反馈，不符合ABR速率控制标准框架；预测VBR变化使用假定分布(二项分布)的均值，提前控制的效果不明显，也不实用；没有考虑多个ABR或多个VBR的情况.(注：本文图2与文献［9］中图1相似.)
+3　基于预测的提前控制
+　　ABR控制框架是端-端闭环控制，使用传统的速率反馈模式，无法避免大BDP带来带宽严重不匹配的问题，ABR对VBR的变化难以快速响应.网关算法是控制环的关键部件，并可灵活设计，为此，在符合ABR速率控制标准框架的前提下，我们提出基于预测的提前控制模式，网关采用线性预测技术，通过预测未来VBR输入速率，估算未来ABR可用速率，提前发反馈给ABR，从而确保ABR和VBR速率的完全匹配.
+3.1　一个ABR情况下的ER提前计算与提前控制
+　　若使在t时经过网关的ABR速率和可用带宽完全匹配，即sw－acr(t)=C-sw－vbr(t)，就要求SES的ABR发送速率acr(t-d)=C-sw－vbr(t).由于ER是由网关计算的，然后经过时间d传送给SES，所以网关必须及时计算出ABR的可用速率.为了发现用于ABR的剩余带宽，需要精确估计VBR实际使用的带宽.预测sw－vbr(t)，再由sw－acr(t)=C-sw－vbr(t)，计算sw－acr(t).记sw－vbr(t)的预测值sw－vbr′(t)，由其计算得到的ABR可用带宽为sw－acr′(t).
+　　由于以RM信元传送ER信息，SES对ABR速率的调节周期为IRCT，ABR在t-d时收到BRM后进行新的速率设置，新速率的有效期在SES为［(t-d),(t-d)+IRCT］，在网关新速率的有效期为［t,t+IRCT］.设网关的控制周期(AI)也是IRCT，网关在t-2d时进行预测，预测的是［t,t+IRCT］内网关可见的VBR速率.由于网关无法获知经过的VBR业务的精确模型，所以通过预测［t,t+IRCT］内VBR信元总数进行控制，这样做也比业务模式的预测容易.
+3.2　预测窗口和预测距离的确定
+　　实际的网络中可能有多个ABR经过网关，网关获知总的ABR可用带宽之后需要统一对各个ABR进行速率分配.设存在N个ABR，记为ABRi,i∈［1,N］.ABRi的反馈延迟FDi，RM信元间隔为IRCTi.考察大BDP高速网络，可设IRCTi<AI ，FDiAI.
+　　将网关算法明确划分为两个阶段：预测阶段和反馈阶段.预测阶段：在每个AI开始时进行VBR预测、未来ABR能力估算以及各个ABR公平分享(fair share)计算；反馈阶段：本AI内到达BRM时进行ER反馈的计算.设预测阶段可用足够短的时间完成，然后在同一AI的剩余时间内，所有ABR都有BRM经过网关，将估算的最新ER开始向SES传递.
+　　FD，IRCT完全一致的各个ABR称为同构信源.如果经过网关的所有ABR同构，为了精确的速率匹配，网关应该在t时对时间段内的VBR聚集业务进行预测.预测时间段更一般的表示是［(t+D),(t+D)+PW］.这里D称为预测距离，即预测进行的时刻与预测区间开始时刻之间的距离；PW是预测区间的长度，称为预测窗口，对结构化应用可以选取一个完整的时间结构，例如视频的每帧播放时间(frame time).
+　　(1) 预测窗口的确定
+　　如果令PW＝AI，那么SES的这次速率设置应该保持到下一个AI开始.这是自然做到的，因为即使在一般ER算法中，一个AI内对同一个信源的反馈也可不变，即同一ABR的多个BRM携带相同ER值.
+　　(2) 预测距离的确定
+　　① 各个ABR的反馈延迟相同，即i,j∈［1,N］,FDi=FDj=FD,则令D=FD;
+　　② 各个ABR的反馈延迟相差小于AI，即i,j∈［1,N］,｜FDi-FDj｜＜AI.由于IRCTi<AI，所以在一个AI内所有ABR都有BRM经过网关，可使用反馈延迟的均值，即D=FDt/N.
+　　③ 令,i∈［1,N］.设ki有M个不同值，记为Kl, l∈［1,M］.在一个AI内，网关需要针对M个预测距离分别预测，Dt=Kl×AI，预测值VBR Capacity′t＝［(t+Dl)(t+Dl)+PW］，l∈［1,M］，如果过去AI内已经预测，本AI内可以使用存储的预测值，或用较小的预测步重新进行预测.对于各个ABR，若ki=kj=Kl，则ABRi和ABRj使用相同的预测值.显然，前面两种情况都可统一采用这种方法.
+3.3　基于预测的提前控制算法
+　　每个AI开始时预测，预测时刻为t;ABRi的BRM到达时，计算ER′i反馈.VBR Capacity′为VBR占用带宽的预测值，Total ABR Capacity′为预测的所有ABR可用带宽.PW＝AI，设活跃连接数目保持不变. 
+　　算法1.提前控制模式网关基本算法
+　　(1) 根据反馈延迟，将活跃的ABR连接划分为M个子集Al,l∈［1,M］;ABRi,ABRj∈Al iff
+　　(2) 预测阶段：循环： l=1 to M
+① 预测［(t+Dl),(t+Dl)+PW］时间段内VBR占用带宽VBR Capacity′l;
+② Total ABR Capacity′l←Link Capacity-VBR Capacity′l;
+③ FairShare′l
+　　(3) 反馈阶段：若ABRi∈Al，则ER′i＝FairShare′l.
+3.4 算法示例
+　　网关的AI=4ms，共有N＝12个ABR活跃连接，根据反馈延迟划分为M=3个子集A1，A2和A3.现在时刻为t0，M个预测区间如表1所示.链路容量C=100Mbps，设预测完全准确.表2列出预测的VBR占用带宽和ABR可用带宽随时间t的变化序列，各个ABR的ER反馈值以及带宽损失，基于预测的提前控制方法与传统反馈方法的比较.
+表1　各个ABR对应的预测区间
+
+序号lAl中各个ABR的FD(ms)KlDl(ms)预测区间(ms)
+121,22,23,24624［t0+24, t0+28］
+2 25,26,27,28728［t0+28,t0+32］
+329,30,31,32832［t0+32,t0+36］
+
+　　表2中，时间区间a-b表示［t0+a, t0+b］，Total ABR Capacity′为相应时间区间I内ABR可用带宽预测值，ERl 表示在区间I内计算的Al中ABR的反馈速率.带宽损失(LB)定义为ABR总的可用带宽减去ABR到达网关的实际速率.传统方法的值在表2的虚线框中列出.
+表2　预测控制算法与传统反馈控制方法的时间序列比较 
+时间区间I0～44～88～1212～1616～2020～2424～
+2828～
+3232～
+3636～
+40…
+VBR Capacity　　　　　　　　　　　
+VBR Capacity′　　　　　　　　　　　
+Total ABR Capacity′　　　　　　24366012　
+〈ER1, ER2, ER3〉〈2,3,5〉〈3,5,1〉〈5,1,X〉〈1,X,X〉　　　　　　　
+到达网关的ABR速率　　　　　　〈2,X,X〉〈3,3,X〉〈5,5,5〉〈1,1,1〉　
+带宽损失(LB)YYYYYYYY000
+Total ABR Capacity12482460　　　　　　　
+〈ER1, ER2, ER3〉〈1,1,1〉〈4,4,4〉〈2,2,2〉〈5,5,5〉　　　　　　　
+到达网关的ABR速率　　　　　　〈1,X,X〉〈4,1,X〉〈2,4,1〉〈5,2,4〉　
+带宽损失(LB)ZZZZZZZZ32-32　
+　　说明：①有些域未填充是为了集中考察对算法特征有较大影响的其他域；②表中的X表示根据例子中给出的这些数据无法计算得到的值，Y，Z的含义下文说明；③速率或带宽单位Mbps. 
+　　由表2可见，使用基于预测的提前控制，区间［t0+32,t0+36］以后的时间段内，可实现精确的速率匹配.而传统的反馈方法，当经过反馈调整的ABR到达网关时，VBR剩余的可用带宽又发生了变化，区间［t0+32, t0+36］内LB为正值，表明ABR的带宽利用率低，仅为28/60=46.7%；区间［t0+36, t0+40］内LB为负值，表明链路过载，会有32Mbps×4ms=128Kbit数据累积在网关的ABR队列，甚至造成丢失.这种带宽不匹配与图3描述的情况相似.
+　　各个ABR中FD最大值FDmax为32ms，表2中Y，Z标注的是这段时间内的带宽损失.如果t0是算法的第一次执行时刻(t0=0)，预测控制的ABR业务还没有完全到达网关，Y的值不确定是否为0.但是如果预测算法已经启动(t0>0)，接近［t0+32, t0+36］的时间段内Y值就会为0，若t0>FDmax，Y全为0.这时〈2,X,X〉=〈2,2,2〉,〈3,3,X〉=〈3,3,3〉.传统反馈控制，在FDmax内Z的值都不能确定是否为0，与网关控制算法的启动时间和进行状态无关. 这里的带宽不匹配情况与图2描述的情况相似.
+4　VBR业务的预测
+　　提前控制框架中速率匹配精确性的决定因素是预测的准确性，它又和VBR业务固有的可预测性以及预测算法相关.
+　　只要预测出未来某个时间间隔(PW)内的信元数目VBR Cells′，利用VBR Capacity′=VBR Cells′/PW计算VBR占用带宽，无需得到完整的系统模型.由于有多个VBR通过网关，所以预测的是VBR聚集业务(aggregate traffic). 各个VBR信源在ON和OFF状态之间切换，VBR聚集业务在各个时间尺度(time scale)上都表现出非常强的突发性，高速网络的自相似业务具有非常强的相关性［10］，利于未来业务的预测. 
+　　相继时间间隔网关VBR聚集业务构成时间序列.为了减小计算代价，我们使用线性回归方法利用历史数据的线性组合进行预测.LMS(least mean square)是自适应方法，不需要事先了解时间序列的自相关结构，简单有效，用于网络业务的在线实时预测可取得比较满意的结果［11，12］.LMS预测模式的递推算法［11］：
+　　(1) x′n=W\+TnXn-1
+(2) εn=xn-x′n
+(3) Wn+1=Wn+2μεnXn
+其中，x′n为预测值，X\+Tn-1=［xn-1,…,xn-P］是过去实际测量的输入业务.Wn为第n个周期的自适应滤波器系数，εn为预测误差，μ为自适应增益常量，控制自适应算法的速度和稳定性.LMS具有时变预测系数，用来反馈预测误差，调整滤波器系数，从而减小均方差.
+5　算法评价与讨论
+5.1　新模式特性
+　　考察表2，通过两种类型算法的比较，可以对预测控制算法的本质特性有一个直观的认识.预测控制方法在ER计算时基于FD之后的ABR可用带宽进行速率分配，不同FD的ABR分配的速率不同，但是当具有FDmax的ABR业务到达网关时所有ABR的速率相同.不但实现带宽的完全匹配，还实现了带宽的公平分享，这里的公平性指ABR可用带宽的平均分享(equal share). 
+　　传统反馈方法情况完全相反，ER计算基于当前可用带宽，所有ABR分配相同的速率值，但是调整后的业务到达网关的时间不同.在网关看来，到达的ABR不但无法公平分享可用带宽，总的带宽占用和VBR剩余带宽也不匹配.如果希望在FDmax之后实现带宽匹配，就要求在FDmax期间和FDmax之后VBR占用的带宽不变.VBR每发生一次变化，都必须满足这一要求，才能重新实现带宽匹配.
+　　若N个连接同时进行数据传输，基于预测的控制算法启动FDmax之后便可以实现并保持带宽的完全匹配，所以网关对缓冲区的要求很小，队列长度和排队延迟小，信元丢失减少.
+5.2　新模式特性的一般性描述与证明
+　　ABR算法的有效性与公平性可作如下一般性描述： 
+　　若算法启动时间t＞FDmax，对任意ABRi,i∈［1,N］,有sw－acri(t)=Total ABR capacity(t)/N.其中sw－acri(t)为t时ABRi到达网关的业务速率，Total ABR capacity(t)为t时ABR总的可用带宽.
+　　下面给出简单的证明.由于t＞FDmax，sw－acri(t)是在t-FDi时网关进行ER反馈的速率，所以根据算法1有sw－acri(t)=Total ABR Capacity′l/N.设预测完全准确，那么预测的ABR可用带宽为Total ABR Capacity′l=Total ABR capacity((t-FDi)+FDi)=Total ABR Capacity(t).
+证毕.
+5.3 算法误差补偿
+　　VBR业务的预测和FD估计都存在误差，速率匹配程度受到影响.为了防止缓冲队列累积(buildup)，可以根据当前负载因子(LF)适当调整ER反馈值.VBR Capacity和ABR Input Rate都是上一个AI内的测量值.算法1的反馈阶段改为
+①Total ABR Capacity←Link Capacity-VBR Capacity;
+②
+③若ABRi∈Al，则
+6 结束语
+　　利用高速网络VBR业务的强相关性与可预测性，根据ABR信源的不同反馈延迟对未来时间段VBR占用带宽进行预测，并据此为相应的ABR进行速率分配.不但可以对高可变VBR快速响应，实现速率的精确匹配，还实现带宽分配的公平性.业务预测算法具有一定的复杂性，采用专用硬件实现才能满足性能需求，算法也需要较多的空间以存储状态信息.
+注：本课题得到国家“八六三”高技术计划基金(项目编号306－ZD07－02－2)资助.
+作者简介：卢锡城，男，1946年11月生，教授，博士生导师，主要研究领域为高性能计算机、先进网络技术、并行与分布处理.
+朱培栋，男，1971年5月生，博士研究生，主要研究领域为高性能协议.
+作者单位：国防科学技术大学计算机科学系　长沙　410073
+参考文献
+1　　Traffic Management Technical Working Group. Traffic management 4.0. ATM Forum,Tech Rep:af－tm－0056.000,1996
+2　　Roberts L. Enhanced proportional rate control algorithm. ATM Forum,Tech Rep:94－0735R1, 1994 
+3　　Jain R, Kalyanaraman S, Viswanathan R. The OSU scheme for congestion avoidance in ATM networks:lessons learnt and extensions. Performance Evaluation, 1997,31(1-2): 67～88 
+4　　Jain R, Kalyanaraman S et al. ERICA+: Extensions to the ERICA switch algorithm.ATM Forum, Tech Rep: 95-1346,1995
+5　　Barnhar A W. An example switch algorithm for section 5.4 of TM spec. ATM Forum, Tech Rep: 95－0195, 1995
+6　　Afek Y,Mansour Y, Ostfeld Z. Phantom: a simple and efficient flow control scheme. ACM Computer Communications Review,1996,26(4):169～182
+7　　Golmie N, Chang Y, Su D. NIST ER switch mechanism(an example). ATM Forum, Tech Rep: 95－0695, 1995
+8　　Mascolo S, Cavendish D, Gerla M. ATM rate based congestion control using a smith predictor: An EPRCA implementation.In: Proc of IEEE INFOCOM '96, San Fransisco, CA, 1996. 569～576
+9　　Dag T, Stavrakakis I. A proactive feedback based flow control scheme for ABR services. In: 3rd Asia－Pacific Conference on Communications (APCC'97) , Australia, 1997. 116～122
+10 Feldmann A, Gilbert A C, Willinger W, Kurtz T G. The changing nature of network traffic: Scaling phenomena. ACM Computer Communications Review, 1998, 28(2): 5～29
+11 Chiruvolu G, Sankar R, Ranganathan N. Adaptive VBR traffic management for higher utilization of ATM networks. ACM Comupter Communications Review, 1998, 28(3): 27～40
+12 Adas A. Using adaptive linear prediction to support real－time VBR video under RCBR network service model. IEEE Transactions on Networking, 1998, 6(5): 635～644
+原稿收到日期：1998-11-26；修改稿收到日期：1999-04-07.

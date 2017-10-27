@@ -1,0 +1,125 @@
+微型电脑应用
+MICROCOMPUTER APPLICATIONS
+2000　Vol.16　No.1　P.28-30
+
+
+
+Intranet信息查询系统的电子邮件
+自动发送系统的设计和实现
+方忠　徐智　韩正之 
+摘　要：在企业Intranet上原有的信息查询系统中增加一个电子邮件自动发送系统，该系统可以定时地给企业员工在Intranet上的电子信箱发送查询系统数据库中的最新信息的摘要内容，并提供一个超链接使员工可以很方便地连结到查询系统。在分析了用于电子邮件传输的SMTP协议的基础上，给出了该系统的Delphi实现过程。
+关键词：Intranet　电子邮件　SMTP
+Abstract：This paper introduces an email- autosending subs ystem, which sends the latest abstract information in the query database to rele vant employees by email at the specified time as well as providing hyperlinks to the query database. It is incorporated into the Intranet-based Information Quer y System. This paper also presents its implementation using Delphi based on the analysis of SMTP protocol.
+Keywords：Intranet　E-mail　SMTP▲
+一、前言
+　　企业Intranet已建立一个信息查询系统，为了让员工更加及时地了解查询系统的新增内容，使员工对信息系统的使用更具有目的性、针对性，节省浏览的时间，为该系统增加一个电子邮件自动发送系统。该系统可以定期地将查询系统中的最新信息摘要发送到与该信息有关的员工的电子邮箱中。员工就可以通过电子邮件及时方便地了解新增内容，并可以通过单击感兴趣内容的超链接连结到信息查询系统中的相关页面。
+　　本文在分析了电子邮件在Internet/Intranet上传输的原理与相关协议的基础上，对原有查询系统数据库作了必要的增改，并采用在数据库和Internet/Intranet应用程序开发方面具有强大功能的Delphi4.0C/S版本作为开发平台，实现了电子邮件自动发送系统。
+二、电子邮件发送原理及企业Intranet构成
+　　1.电子邮件发送原理简介
+　　电子邮件服务是Internet的传统服务之一。随着基于TCP/IP的Intranet的兴起，电子邮件服务也成为Intranet上的主要服务之一。在TCP/IP模型的应用层定义了若干协议，其中包括用于电子邮件传输的协议——SMTP(简单邮件传输协议)。此协议用假脱机或排队的方式将客户端的邮件发送到支持SMTP协议的邮件服务器(称为SMTP服务器)上以及在SMTP服务器间转发。一个典型的从发送方到接收方的电子邮件传输过程如图1所示。
+
+图1 电子邮件的典型传输过程
+　　SMTP协议是一种基于TCP/IP的协议，在客户端发送邮件时，必须首先与SMTP服务器建立一个TCP连接，然后，客户程序就可以向服务器发送SMTP命令，如HELO、MAIL、FROM、RCPT TO、DATA、QUIT等等命令。对于每个SMTP命令请求，服务器向客户端返回一个响应状态码来表明请求是否被成功执行。本文用Delphi4.0中的SMTP控件来实现与服务器的连接和电子邮件的发送。
+　　2.企业Intranet构成及对原有查询系统数据库的增改
+　　服务器由网络操作系统Microsoft Windows NT Server 4.0中文版(包含IIS3.0)、数据库系统Microsoft SQL Server 6.5、邮件服务器软件Microsoft Exchange Server5.5等构成，有SQL Server中有一关于信息查询系统的数据库，其中有员工表、信息表等与本系统开发有关的数据库表。本文介绍的电子邮件自动发送系统的主要功能是从信息数据库表中查出最新信息的摘要，将其发送到与该信息有关的员工的电子邮箱中。
+　　为了更好地利用已有的系统资源，必须对原有数据表进行一定的修改。在原有员工表中已有电子邮件地址字段，信息表中有信息摘要、添加时间、信息具体内容、信息在Web服务器上的虚拟路径等字段。为了使某条信息只发给与该信息有关的员工，在上述两个表中分别添加一个属性字段，用来区分员工与信息的属性分类。在信息表中再添加一个逻辑型字段来标记该条信息是否已成功发送给相关员工。在信息刚加入数据库时该字段缺省为“未发送”，这样在该表中就可以查找出最新增加的信息，根据其属性字段的值发送给对应的员工。若发送成功、该字段的值就被改为“已发送”，否则仍为“未发送”，可以在下次发送时再次列入最新信息之列。
+三、用Delph4.0实现电子邮件自动发送系统
+　　本系统设计成定时自动运行，如在午夜或凌晨服务器比较空闲时，该系统自动启动，将查询系统数据库中的最新信息
+一一发送至相应员工的电子邮箱中。只需一个表 单，用于一些系统选项的设置，如邮件服务器名称、TCP端口号、数据库服务器与数据库名称，以及系统的启动时间等辅助选项。
+　　在Delphi4.0中新建一Application，在表单窗口上放置一个INMSMTP控件，两个TQuery部件，一个TTimer部件，并放置其余用于系统设置的TLabel、TEdit、TMaskEdit等控件以及三个分别用于退出、保存设置和手工发送的TButton类按钮。
+　　在interface变量声明部分声明四个用于保存缺省值的公有变量，
+　　var TimeStr:string=`00:00';
+　　　Server:string=`192.168.0.1';
+　　　Port:integer=25;
+　　　DBName:string=`InfoSystem';
+再声明两个自定义过程：
+private
+　　procedure SaveSettings;//用于将有关本系统的设置保存至系统注册表
+　　Procedure ActoSend；//用于发送信息
+　　为节约篇幅，本文下面只给出实现电子邮件发送的AutoSend过程的源代码。
+procedure TForml.AutoSend;
+var
+　　info.groupin:array of String://定义两个动态数组，保存从信息数据库表中读出的摘要信息和信息的归类
+　　dim,i:integer;
+begin
+　　try
+　　if radiogroupl.itemindex=0 then
+　　　nmsmtpl.Encode Type:=uuMine
+　　else
+　　nmsmtp1.EnccdeType:=uuCode;
+　　nmsmtp1.hort:=server;
+　　nmsmtp1.port:=port;
+　　nmsmtp1.Connect;
+　　except
+　　on Exception do exit;
+　　end;
+dim:=0;
+query1.DatabaseName:=DBName;
+　　query1.RequestLive:=Ture;//因为query1将用来查询信息数据库，发送后必须修改是否已发送的标志字段
+query2.databasename:=DBName;
+if query1.state<>dsInactive then queryl.close;
+queryl.SQL.clear;
+//从信息数据库表中查出所有未发送的信息的添加日期、虚拟路径、摘要、归类等信息
+queryl.SQL.add(`select appenddate,virtualpath.title,groupIn from info where sent=0 order by GroupIn');
+queryl.open;
+//下面将从属于同类的信息合并以备发送
+while not queryl.eof do begin
+//将动态数组的长度加1，使其与信息的归类数目保持相同
+dim:=dim+1;
+setlength(info.dim);
+setlength(groupin,dim);
+groupin［dim-1］:=query1.Fields［3］.asstring;
+while not query1.eof and(groupin［dim-1］=query1.fields［3］.asstring)do begin
+　　info［dim-1］:=info［dim-1］+query1.fields［0］.asstring+#32#32+`http://192.168.0.1'+query1.Fields［1］.asstring+#10+query1.Fields［2］.asstring+#10#10;
+　　query1.next;
+　end
+end；
+//将每条合并后的信息发送给相应的员工
+for i:=0 to high(groupin)do
+　begin
+　if query2.state<>dsInactive then query2.close;
+　query2.sql.clea.
+　　//从员工数据库表中查出与当前信息归类相同的员工的Email地址
+query2.sql.add(`select email from employee where groupin='+#34+groupin［i］+#34);
+query2.open;
+//下面将信息发送给相应的员工，员工email地址从query2中依次得到
+while not quer2.eof do begin
+　　nmsmtp1.ClearParameters;
+　　with NMSMTP1.PostMessage do begin
+　　Body.Clear;
+　　ToAddress.Add(query2.Fields［0］.asstring);
+　　FromAddress:=`postmaster@192.168.0.1';
+　　FromName:='PostMaster';
+　　Body.Add(info［i］)；
+　　Subject:='最新信息';
+　end
+　query2.next;
+try
+　NMSMTP1.SendMail；
+except
+　continue,
+end
+end
+try
+if query1.state<>DsInactive then query1.Close;
+queryl.SQL.clear;
+queryl.sql.Add('update info set sent=1 where groupin='+#34+groupin［i］+#34);
+queryl.ExecSQL;//将已发送信息的sent字段置为1，表示已发送
+except
+　on Exception do exit;
+end;
+end;
+query1.Close;
+query2.Close;
+NMSMTP1.Disconnect;//发送完毕断开与邮件服务器的连接
+end
+四、结论
+　　本文根据企业Intranet信息查询系统的需要，设计和实现了一个电子邮件自动发送系统，能将查询系统数据库的最新信息的摘要自动定时地发送给企业员工，使其能够更加方便、及时、准确地了解查询系统中的最新信息，并可以方便地通过超链接迅速访问查询系统中的详细信息。该系统目前运行情况良好，并收到一定的预期效果。■
+作者单位：方忠(上海交通大学自动系 上海 200030)
+　　　　　韩正之(上海交通大学自动化系 教授 博士生导师 上海 200030)
+参考文献：
+［1］石岩，计费邮件服务器研究与实现，计算机工程与应用　1998.12
+［2］Tom swan, Foundations of Delphi Development For Windows95.电子工业出版社　1997
+［3］Delip C.Naik,Internet标准与协议，清华大学出版社　1999
+［4］PFC821：Simple Mail Transfer Protocol
+收稿日期：1999-07-01

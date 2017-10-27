@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.36-40
+
+
+
+
+附载型复合光催化剂TiO2.Al2O3/beads降解有机磷农药
+张新荣　 杨平　 赵梦月　 
+摘　要：研究以四异丙醇钛［Ti(iso-OC3H7)4］、异丙醇铝为原料，以空心玻璃微球为载体，用溶胶-凝胶法制备可漂浮附载型复合光催化剂TiO2.Al2O3/beads的过程。用该光催化剂降解有机磷农药，并与光催化剂DegussaP-25TiO2光活性进行比较。结果表明，附载型复合光催化剂活性显著提高，最高光活性为同样降解条件下，同样含量DegussaP-25TiO2光活性的1.4倍，且TiO2.Al2O3组分摩尔比存在最佳值。同时还研究了TiO2.Al2O3/beads对有机磷农药的吸附性，并用XRD和TEM对附载型复合光催化剂进行表征。
+关键词：复合型光催化剂；　TiO2.Al2O3；　玻璃微珠；　农药
+分类号：X786　文献标识码：A
+文章编号：1001-6929(2001)02-0036-05
+Photocatalytic Degradation of Organophosphorous Pesticides Using Composite Photocatalyst TiO2.Al2O3 Attached to the Hollow Glass Microbeads
+ZHANG Xin-rong（Department of Applied Chemistry,　Harbin Institute of Technology,　Harbin　150001,　 China）　
+YANG Ping（College of Chemical Engineering,　 Zhengzhou University of Technology, 　Zhengzhou　450002,　 China）　
+ZHAO Meng-yue（College of Chemical Engineering,　 Zhengzhou University of Technology, 　Zhengzhou　450002,　 China）　
+
+Abstract：This paper studies the preparation of TiO2.Al2O3 composite photocatalyst attached to the hollow glass microbeads surface by Sol-gel technique using titanium tetraisopropoxide ［Ti(iso-OC3H7)4］ and triisopropyl organophosphorous as material. The photocatalytic degradation of organophosphorous pesticide is studied, while comparing the photoactivity of TiO2.Al2O3/beads with the photoactivity of Degussa P-25 TiO2. The results show that the best composite photocatalyst produces 1.4 times of photoactivity of P-25 TiO2, and the mole ratios of TiO2.Al2O3 have the best value. Moreover, the adsorption of TiO2.Al2O3/ beads is studied, and the composite photocatalysts are characterized by XRD and TEM.
+Keywords：composite photocatalyst;　 TiO2.Al2O3;　hollow glass microbeads;　pesticide
+基金项目：国家科委重点科技攻关项目(920-05-02)
+作者简介：张新荣(1971-)，女，河南太康县人，博士研究生. 
+作者单位：张新荣（哈尔滨工业大学 应用化学系，黑龙江 哈尔滨　150001）　
+　　　　　杨平（郑州工业大学 化工学院，河南 郑州　450002）　
+　　　　　赵梦月（郑州工业大学 化工学院，河南 郑州　450002）　
+
+参考文献：
+［1］　Hoffmann M R,Martin S T,Bahnemann D W.Environmetal application of sermiconductor phototcatalysis[J].Chen Rev,1995,95:69～96.
+［2］　Ollis D F,Pelizzetti E,Serpone N.Destruction of water contaminants[J].Environ Sci Technol，1991,9:1529～1532.
+［3］　Muneer M,philip R,Das S.Photocatalytic degradation of wastewater pollutants titanium dioxide-mediated oxidation of a textile acid blue 40#[J].Res Chem Intermed,1997,23(3):233～246.
+［4］　张彭义，余刚，蒋展鹏.半导体光催化剂及其改性技术进展[J].环境科学进展，1997，5(3)：1～10.
+［5］　Chen S F,Zhao M Y.Photocatalytic degradation of organophosphorous pesticides using TiO2 supported on fiber glass [J].Microchem,1996,54(2):54～58.
+［6］　Zhao M Y,Chen S F.Photocatalytic degradation of organophosphorous pesticides using TiO2 thin film [J].Chem Technol Biotechnol,1995,64:339～344.
+［7］　Carl A,Allen J B.Improved photocatalytic activity and characterization of mixed TiO2/Al2O3 materials[J].Phy Chem，1997,101,2611～2616.
+［8］　Jochson N B,Wang C M.Attachment of TiO2 powders to microbeads activity of the TiO2-coat beads in the photoassisted oxidation of ethanol to acetaldehyde[J].Electro-Chem Soc,1991,138(12):3660～3664.
+
+收稿日期：2000年6月27日
+出版日期：2001年3月30日

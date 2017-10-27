@@ -1,0 +1,168 @@
+环境科学研究
+RSEARCH OF ENUIRONMENTAL SCIENCES
+1999年 第12卷 第1期  Vol 12 No.1 1999
+
+
+
+固定化微生物技术在难降解
+有机污染物治理中的研究进展
+王建龙　施汉昌　钱　易
+摘　要　综述了90年代以来固定化微生物技术用于难降解有机污染物治理中的最新研究进展，这些难降解有机污染物包括：酚类(苯酚、氯代酚、甲酚、硝基酚等)，芳香烃类(单环芳烃、多环芳烃、杂环芳烃)及其他化合物(酰胺类、氰、农药、杀虫剂、合成洗涤剂等)。并对固定化技术的应用前景及存在的问题进行了评述。
+关键词　固定化技术　难降解有机污染物　酚　芳香烃
+The Advances in Biodegradation of Refractory Organic Pollutants 
+By Immobilized Microbial Cells
+WANG Jianlong SHI Hanchang Qian Yi
+(State Key joint Laboratory of Environment Simulation and Pollution Control,Department of
+Environmental Engineering,Tsinghua University,Beijing 100084)
+Abstract　The recent advances in biodegradation of refractory organic compounds by immobilized microbial cells were reviewed.The organic pollutants include phenols (phenol,chlorinated phenol,cresol,nitrophenol,etc.),aromatic compounds (mono－,poly－ & hetero－cyclic aromatic compounds) and other refractory organics (aliphatic amides,cyanides,pesticides,herbicides,surfactants,etc.).The application prospects and existing problems were evaluated.
+Keywords　Immobilization technique; Refractory organic pollutants; Phenols; Aromatic compounds
+
+　　固定化微生物技术用于废水处理，具有一系列优点，如可在反应器内保持高生物浓度，反应启动快、处理效率高，操作稳定，产污泥量少，固液分离简单等［1］。固定化技术用于难降解有机污染物的治理，除上述优点外，还具有其独特的性能，即固定化细胞对有毒物质的承受能力和降解能力都有明显增强。因此，该技术在难降解有机污染物治理中越来越受到关注，文中就近几年来国内外在这一研究领域中的进展进行综述，并对该技术存在的问题及应用前景作一评述。
+1　固定化技术在难降解有机污染物治理中的应用
+1.1　酚类化合物的降解
+1.1.1　苯酚的降解
+　　周定等［2］对固定化细胞处理含酚废水进行过深入研究，他们从活性污泥中分离得到热带假丝酵母(Candida tropicalis)，经海藻酸钙凝胶包埋固定后，在自制的三相流化床反应器内进行含酚废水的连续处理。进水酚浓度为300 mg/L，出水酚浓度小于0.5 mg/L，与悬浮生物法相比，酚的容积负荷可提高1倍以上，污泥发生量减少90%。
+　　Pai等［3］进行了固定化微生物填充床反应器在高负荷运行下降解苯酚的试验研究。他们采用颗粒活性炭吸附和海藻酸钙凝胶包埋法制备固定化微生物。海藻酸钙凝胶颗粒中含1%颗粒活性炭，4%海藻酸钙，1%湿菌体。为提高固定化颗粒的机械强度，将该颗粒在聚乙烯亚胺溶液中浸泡。结果表明：与颗粒活性炭相比，海藻酸钙颗粒具有更高的苯酚去除速率。
+　　Anselmo等［4］研究了用琼脂，海藻酸钙、卡拉胶和聚丙烯酰胺等载体包埋固定化微生物降解苯酚。随后，他们又以聚氨酯泡沫为载体固定镰刀菌Fusarium sp.菌丝体，在完全混合反应器中降解酚。结果表明：与游离细胞相比，固定化细胞降解苯酚的速率要大得多，且固定化细胞生物产量低。
+　　Menke等［5］利用固定化和游离的产碱杆菌Alcaligens sp.细胞生物降解苯酚和3种一氯酚(2－,3－和4－CP)的混合物。
+　　Durham等［6］开发了一种新型固定化载体，称为Z－型生物载体，用于固定化微生物降解苯酚。试验结果表明：该载体优于塑料块和硅藻土。
+　　Livingston等［7］研究了一种新型膜生物反应器，用于处理含芳香族化合物的废水，处理含酚浓度为1 000mg/L的合成废水，结果表明：当HRT为1.9和6h时，酚的去除率为65%和98.5%。
+　　Amanda等［8］以PVA－H3BO3包埋法固定化假单孢菌Pseudomonas在流化床反应器中连续降解苯酚。固定化细胞在三相流化床中连续运行2周，进水酚浓度从250mg/L逐渐提高到1300mg/L，出水酚浓度均为0，且固定化细胞具有良好的机械强度。
+1.1.2　氯酚的降解
+　　Puhakka等［9］利用固定化细胞三相流化床反应器处理多氯酚，实验用纯氧供气，HRT为3～5h，负荷为400～430g/(m3。d)时，氯释放和氯酚去除率达99%。
+　　Hu等［10］以聚氨酯泡沫为载体固定化黄杆菌Flavobacterium细胞降解五氯酚。实验发现，固定化载体对五氯酚的吸附减轻了其对微生物的毒性。外加碳源可促进细胞生长，提高五氯酚的去除速率，采用底物抑制模型能满意地预测五氯酚的降解过程。
+　　Shieh等［11］研究了固定化微生物降解4－氯酚(4－CP)和2，4－二氯酚(2，4－DCP)。
+　　Siddique等［12］利用不同载体固定化辣根过氧化氢酶(horseradish peroxidase)并用于除去水中的4－氯酚，去除率达80%以上。
+　　Lin等［13］将微生物细胞(和/或酶)与吸附剂联合包埋固定在水凝胶基质中，用于生物降解有毒有机污染物。他们利用海藻酸钙凝胶联合包埋固定Phanerochaete chrysosporium和吸附剂(粉未活性炭)，用于降解五氯酚(PCP)，并与非固定化体系和单独固定化体系进行了比较。结果表明：联合固定化体系能更加有效地降解PCP。该联合固定化体系包括3个组分：生物催化剂(细胞和/或酶)、吸附剂(粉末活性炭)和固态底物，其中，吸附剂主要用于富集有毒污染物，提供给微生物进一步生物降解，并能减轻其对生物催化剂的抑制作用；固态底物用于支持生物降解并减少其他微生物的干扰。
+　　Sofer等［14］利用海藻酸钙固定化活性污泥降解2－氯酚，优化了固定化细胞系统中影响海藻酸钙的稳定性和细胞活性的参数，他们还用聚氨酯泡沫固定化黄杆菌细胞降解五氯酚。
+　　O’Reilly等［15］用聚氨酯泡沫固定化黄杆菌细胞降解五氯酚。Commarota等人用聚氨酯固定化白腐真菌Phanerochaete sp.细胞，用于处理纸浆废液，当HRT为5.8d时，脱色率达70%，总酚去除率达64%，COD去除率为50%。
+1.1.3　其他酚类化合物
+　　O’Reilly等［16］用海藻酸钙和聚氨酯泡沫为载体固定化假单胞菌Pseudomonas sp.降解甲酚，并进行了降解过程动力学分析。
+　　Crecchi等［17］利用明胶包埋固定化2种多酚氧化酶－漆酶(laccase)和酪氨酸酶(tyrosinase)，用于降解芳香族化合物。他们优化了固定化条件及固定化酶和游离酶的最适温度和pH值。结果表明：固定化漆酶和酪氨酸酶对1－萘酚、邻苯二酚、2，4－二氯苯酚(2，4－DCP)和2，6－二甲氧基苯酚(2，4－DMP)的最大去除率分别为98%，70%，35%，95%，和40%，92%，42%，50%。
+2.2　芳香族类化合物的降解
+2.2.1　单环芳烃的降解
+　　Shreve等［18］利用固定化假单胞菌降解甲苯，研究了固定化细胞生长和底物降解过程动力学，并与游离细胞进行了比较，结果表明，固定化细胞体系的半饱和常数(Ks)增加了30倍，细胞的最大比生长速率μm降低了2倍。
+　　Livingston等［19］开发了一种新型膜生物反应器，用于处理含3－氯硝基苯的工业废水，当HRT为1.7h时，硝基苯和3－氯硝基苯的去除率均达99%，他们还提出了描述固定化细胞内质量转移－反应过程的数学模型。
+　　Voice等［20］利用颗粒活性炭为载体固定化微生物在三相流化床反应器中降解苯、甲苯和二甲苯的混合物。
+　　Sahasrabudhe等［21］研究了利用固定化假单孢菌对混合氯代芳烃进行脱氯。
+　　Ferschl等［22］以海藻酸钙为载体包埋固定化食酸假单孢菌Pseudomon as acidovorus，用于连续降解3－氯苯胺。
+　　笔者［23］利用聚乙烯醇(PVA)固定化微生物降解邻苯二甲酸二丁酯(DBP)，实验发现：与游离微生物相比，固定化微生物的降解速率明显提高。
+　　Crecchio等［17］利用固定化酶降解4－氯苯胺，香草酸(4－羟基3－甲氧基苯甲酸)丁香酸(4－羟基－3，5－二甲氧基苯甲酸)。
+2.2.2　多环芳烃的降解
+　　Wiesel等［24］利用固定化混合菌群降解多环芳烃。试验结果表明：固定化细胞能利用这些物质进行生长并使之完全降解。固定化细胞分别在培养1，2和15 d后，酚、萘、菲均能被彻底降解。与游离细胞相比，固定化细胞表现出生长稳定，且具有较强的降解能力。
+　　Wagner等［25］利用固定化假单胞菌Pseudomonas在外循环三相流化床反应器中降解萘－2－磺酸，并研究了生物膜扩散限制对反应动力学的影响。他们采用的载体是平均直径为212 μm的砂粒，反应器中载体浓度为20～30 g/L，生物膜厚度为(75±10)μm，COD容积负荷达58kg/(m3。d)。
+　　Bokhamy等［26］利用固定化混合微生物体系降解蒽醌－2－磺酸钠(SAS)，并与游离微生物体系进行了比较。结果表明：当稀释率为0.05 h-1时，固定化细胞体系与游离细胞体系SAS的最大降解速率分别为89和59 mg/(L。h)。
+2.2.3　杂环芳烃的降解
+　　Lee等［27］用海藻酸钙凝胶包埋固定化Pimelobacter sp.细胞进行了降解吡啶的研究。结果表明：与游离细胞相比，固定化细胞的比降解速率和对吡啶毒性的承受能力并没有提高，这与大多研究者的结论相反。但由于固定化细胞具有较高的生物浓度，所以其体积降解速率较高，鉴于固定化细胞具有较高的生物浓度和可以重复利用，他们认为利用固定化细胞降解吡啶是可行的。
+　　Rothenburger等［28］利用固定化细胞生物反应器。在水相和非水相中进行了含氮杂环芳香烃类化合物的生物降解实验。结果表明：固定化喹啉降解菌Pseudomonas sp.细胞，开始时不能降解6－甲基喹啉，但固定化细胞在含喹啉和6－甲基喹啉的混合液中长期培养后，能够降解6－甲基喹啉。
+　　Ulonska等［29］研究了固定化Comamonas acidovorans细胞在三相生物流化床反应器中降解喹啉，他们认为固定化细胞三相流化床反应器非常适用于有毒有机污染物的降解。
+　　黄霞等［30］以PVA－无纺布混合载体包埋固定化优势菌种，用于降解喹啉、异喹啉和吡啶，结果表明：3种难降解有机物经固定化细胞处理8 h后，降解率均在90%以上。
+2.3　其他难降解化合物
+　　Uchiyama等［31］用海藻酸钙包埋固定化Methylocystis sp.细胞在玻璃柱反应器中以半连续和连续操作方式降解三氯乙烯，固定化细胞的比降解速率分别为0.46和0.04μg/（mg。细胞。h）。
+　　Uchiyama等［32］研究了以不同载体固定化微生物，并用于降解三氯乙烯。他们采用的固定化载体有：海藻酸钙，k－卡拉胶、琼脂糖、聚氨酯、聚电解质复合物以及光交联树脂等。实验结果表明：与游离细胞相比，用海藻酸钙、k－卡拉胶和琼脂糖包埋固定化细胞具有更高的降解活性。而用聚氨酯、光交联树脂的聚电解质复合物固定化微生物的降解活性低于游离细胞。在利用固定化细胞重复分批降解三氯乙烯的过程中，只有琼脂糖固定化细胞显示出良好的机械稳定性。他们还研究了琼脂糖固定化细胞降解三氯乙烯的一些基本特性。
+　　Nawaz等［33］以海藻酸钙为载体包埋固定化假单孢菌Psedonomas，用于降解脂肪族酰胺混合物(含丙烯酰胺、甲酰胺、丙酰胺和丁酰胺)，并与游离细胞进行了比较。结果表明：固定化细胞在2h内分别以2 750，3 050，3 500和2 800 μmol/h的速率将丁酰胺、丙酰胺、丙烯酰胺和甲酰胺混合物降解为各自相应的羧酸和氨，且固定化细胞的降解速率高于游离细胞。
+　　Basheer等［34］利用固定化酶膜反应器处理含氰废水。
+　　Nazly等用海藻酸钙凝胶固定化镰刀菌Fusarium sp.处理含氰废水，酶活力回收达89.7%，固定化细胞用于连续处理含氰废水，当流速为30mL/h，进水浓度为1000mg/L，连续运行90h，出水中氰浓度均低于10mg/L，他们还研究了利用固定化Pseudomonas sp.和Achromobacter sp.处理含氰尿酸废水。
+　　Portier等研究了固定化微生物处理含氯乙酸盐的杀虫剂生产废水。进水氯乙酸钠浓度为6000mg/L，HRT为为10.9～16.2h时，出水中氯乙酸钠小于10mg/L，去除率达99%，TOC的去除率也达89%。
+　　Vekova等［35］利用固定化土壤杆菌Agrobacterium radiobacter细胞降解除草剂，并与游离细胞进行了比较，他们选用了3种固定比载体，海藻酸钙、果胶酸钙和k－卡拉胶。结果表明：海藻酸钙凝胶固定化细胞的降解速率最快。
+　　Aitkhozhina等研究了固定化假单孢菌用于除去残留在土壤中的杀虫剂。　　陈敏等［36，37］利用PVA包埋活性炭与微生物，并对有机磷农药水胺硫磷的降解进行了试验研究。结果表明：固定化细胞对温度、pH值和水胺硫磷浓度的适用范围扩大。3个月连续试验，进水COD为1300～2500mg/L，HRT为24h，去除率为55%～72%。
+　　黄霞等［38］进行了固定化细胞处理难降解有机废水的研究，他们对琼脂、明胶、海藻酸钙、PVA、聚丙烯酰胺等载体固定化细胞性能进行了比较，结果表明：PVA是适宜载体。利用PVA固定化微生物进行了洗涤剂LAS和四环素废水的降解试验。
+　　王蕾等［34］以PVA为载体，固定化活性污泥，采用厌氧－好氧工艺处理四环素结晶母液。
+　　综上所述，固定化技术在难降解有机污染物治理方面的应用研究总结于表1所示。
+表1　固定化技术在难降解有机污染物治理中的应用
+
+难降解有机物微生物/酶固定化载体/方法
+酚类：　　
+苯酚Candida tropicalis海藻酸钙包埋［2］
+Rhodococcus sp.海藻酸钙包埋［3］
+Rhodococcus sp.颗粒活性吸附［3］
+Fusarium sp.聚氨酯包埋［4］
+Alcaligens sp.海藻酸钙包埋［5］
+驯化活性污泥乙型载体吸附［6］
+Pseudomonas sp.PVA包埋［8］
+一氯酚Phanerochaete sp.海藻酸钙包埋［12～14］
+二氯酚Laccase/tryosinase明胶包埋［11，17］
+邻苯二酚Laccase/tryosinase明胶包埋［17］
+五氯酚Flavobacterium sp.聚氨酯包埋［10，15］
+甲酚Pseudomonas sp.海藻酸钙包埋等［16］
+芳烃类：　　
+①单环芳烃　　
+甲苯Pseudomonas sp.树脂吸附法［10］
+苯、甲苯、混合菌活性炭的吸附［20］
+二甲苯　　
+3－氯硝基苯混合器生物膜［19］
+3－氯苯胺Pseudomonas sp.海藻酸钙包埋［22］
+邻苯二甲酸酯未鉴定PVA包埋［23］
+②多环芳烃　　
+萘、菲混合菌海藻酸钙包埋［24］
+萘－2－磺酸Pseudomonas sp.砂粒吸附［25］
+蒽醌－2－磺酸纳混合菌吸附固定化［26］
+③杂环芳烃　　
+吡啶Pimelobacter sp.海藻酸钙包埋［27］
+优势菌PVA－无纺布包埋［30］
+喹啉Pseudomonas sp.海藻酸织包埋［28］
+comamonas sp.多孔玻璃吸附［29］
+优势菌PVA－无纺布吸附［30］
+其他化合物：　　
+三氯乙烯Methylocystis sp.海藻酸钙包埋等［31，32］
+脂肪酰胺Pseudomonas sp.海藻酸钙包埋［33］
+氯Fusarium sp.海藻酸钙包埋［34］
+除草剂Agrobacterium sp.海藻酸钙包埋等［35］
+水胺硫磷农药驯化活性污泥PVA包埋［36，37］
+四环素废水驯化活性污泥PVA包埋［38，39］
+洗涤剂LAS驯化活性污泥PVA包埋［38］
+
+3　固定化细胞用于难降解有机物治理中的优点及展望
+　　综上可以看出，固定化细胞技术在难降解有机污染物治理中的应用研究十分广泛，微生物经固定化后，对有毒物质的承受能力及难降解能力都有明显提高。这可能是因为：
+　　a. 固定化载体对细胞起一种保护作用，固定化载体对有机污染物的扩散会产生阻碍作用，使得细胞表面的实际污染物浓度降低，毒性减小；
+　　b. 细胞经固定化后，在载体与细胞之间建立了某种物理或化学联系，增加了细胞膜的稳定性；
+　　c. 固定化细胞所处的微环境与游离细胞不同，这种微环境的变化可能会引起细胞的形态结构、生理特性及代谢活性的改变。
+　　上述固定化技术用于难降解有机物治理的研究大多是针对单一物质，且在实验室规模上进行的，要实用化，还有许多问题需要解决：
+　　a. 实际废水是一个十分复杂的混合体系，用单一菌种处理，一般很难达到要求，因此，对于复杂的废水体系，是采用混合菌，还是单一高效菌分级处理，有待进一步探索。
+　　b. 包埋载体对基质(特别是氧气)和产物存在扩散阻力，因此，需要高效曝气和混合设备才能使固定化细胞处于良好的微环境中，发挥其高效作用。
+　　c. 固定化载体的成本及使用寿命是决定其经济可行性的关键，开发适合于固定化微生物的高效生化反应器也是一个亟待解决的问题。
+　　固定化技术为充分发挥高效菌种或遗传工程菌在难降解有机物治理中的降解潜力，防止其泄露而引起生态问题提供了一个十分重要的手段。可以预计，随着固定化技术的不断研究和发展，该技术在水污染控制中的应用将首先在难降解污染物的治理方面迈出实用化步伐。
+第一作者：男，1964年生，副教授
+*国家自然科学基金资助项目(29637010)
+作者单位:清华大学环境工程系环境模拟与污染控制国家重点联合实验室，北京　100084
+参考文献
+1　周定，等.固定化细胞在废水处理中的应用及前景.环境科学，1993，14(5)：15～54.
+2　周定，等.固定化微生物处理含酚废水研究，环境科学，1990，11(1)：1～6.
+3　Pai S L,et al.Continuous degradation of phenol by R.hodoccus sp.immobilized on granular activeated carbon and in caccium alginate,Bioresource Technol,1995，51：37～42.
+4　Anselmo A M,et al.Degradation of phenol by immobilized mycelium of Fusarium flocciferum in continuous culture.Wat Sci Tech.1992,25(1):161～168.
+5　Menke B,et al.Degradation of mixtures of monochlorophenols and phenol as substrates for free and immobilized cells of Acaligenes sp,A7－2.Appl Microbiol Biotechnol,1992,37:655.
+6　Durham D R,et al.Characterization of inorganic bioreaction that moderate system upsets during fixed-film biotreatment processes.Appl Environ Microbiol,1994,60:3329.
+7 Livingston A G,et al.A novel membrane bioreactor for detoxifying industrial wastewater:I.Biodegradation of phenol in synthetically concocted waste water.Biotechnol Bioeng,1993,41:915.
+8　Amanda K Y,et al.Cell immobilization using PVA crosslinked with boric acid. Biotechnol Bioeng,1992,39:447～449.
+9 Puhakka J A,et al.Aerobic fluidized－bed treatment of polychlorinated phenolic wood preservative constitutents. Wat Res,1992,26:765.
+10 Hu Z,et al.Adsorption and Biodegradation of pentachlorophenol by polyurethane－immobilized Flavobacterium. Environ Sci Technol,1994,28:L491.
+11 Shieh W K,et al.Immobilized－cell degradation of chlorophenols.J Environ Eng,1990,116(4):683.
+12 Siddique M H,et al.Immobilized enzyme catalyzed removal of 4－chlorophenol from aqueous solution. Wat Res,1993,27(5):883.
+13 Lin J R,et al.Use of co－immobilized biological system to degrade toxic organic compounds. Biotechnol Bioeng,1991,38:273～279.
+14 Sofer S S,et al.Degradation of 2－chlorophenol by immobilized cell. J Wat Pollu Control Fed,1990,62(1):73～80.
+15 O'Reilly K T,et al.Degradation of pentachlorophenol by polyurethane－immobilized Flavobacterium cells.Appl Environ Microbiol,1989.55:2113～2118.
+16 O'Reilly K T,et al.Kinetics of p-cresol degradation by an immobilized Pseudomonas sp.Appl Environ Microbiol,1989.55(4):866～870.
+17 Crecchio C,et al.Polyphenoloxidases immobilized in organic gels:properties and applications in the detoxification of aromatic compounds.Biotechnol Bioeng,1995,48:585～591.
+18 Shreve G S,et al.Comparison of substrate Utilization and growth kinetics between immobilized and suspended Pseudomonas cells.Biotechnol Bioeng,1993,41:370.
+19 Livingston A G,et al.A novel membrane bioreactor for detoxifying indrstrial wastewater:Ⅱ Biodegradation of 3－chloronitrobenzene in an industrially produced wastewater.Biotechnol Bioeng,1993,41:927.
+20 Voice T C,et al.Biological activated carbon in fluidized bed reactors for the treatment of groundwater contaminated with volatile aromatic hydrocarbons.Wat Res,1992,26:1389.
+21 Sahasrabudhe A,et al.Dehalogenation of a mixture of chloroaromatics by immobilized Pseudomonas sp.US1 cells.Appl Microbiol Biotechnol,1991,35:830～832.
+22 Ferschl A,et al.Continuous degradation of 3－chloroaniline by calcium alginate－entrapped cells of Pseudomonas acidovorus CA 28:influnence of additional sustrates.Apll Microbiol Biotechnol,1991,35:544～550.
+23 Wang Jianlong， et al.Microbial degradation of di－butyl－phthalate.Chemosphere,1995,31(9):4051～4056.
+24 Wiesel I,et al.Degradation of polycyclic aromatic hydrocarbons by an immobilized mixed bacterial culture.Appl Microbiol.Biotechnol,1993,39:110～116.
+25 Wagner K,et al.Biodegradation by immobilized bacteria in an airlift－loop reactor－lnfluence of biofilm diffusion limitation.biotechnl Bioeng,1988,31:559～566.
+26　Bokhamy M,et al.Degradation of sodium anthraquinone sulphonate by free and immobilized bacterial cultures.Appl Microbiol Biotechnol,1994,41:110～116.
+27 Lee S T,et al.Biodegradation of pyridine by freely and suspended immobilized Pimelobacter sp.Appl Microbiol Biotechnol,1994,41:652～657.
+28 Rothenburger S,et al.Hydroxylation and biodegradation of 6－methylquinoline by Pseudomonas in aqueous and nonaqueous immobilized cell bioreactors.Appl Environ Microbiol,1993,59:2139.
+29 Ulonoska A,et al.Degradation of quinoline by immobilized Comamonas acidovorans in a three-phase airlift reactor.Biotechnol Bioeng,1995,46:80～87.
+30　黄霞，等.固定化优势菌种处理焦化废水中几种难降解有机物的试验研究.中国环境科学，1995，15(1)：1～4.
+31　Uchiyama H,et al.Degradation of Trichloroethylene－degrading bacterium,Methylocystis sp.strain M in different matrices.J Ferment Bioeng,1994,77:173.
+32 Uchiyama H,et al.Trichloroethylene degradation by immobilized resting－cells of Methylocystis sp.M in a gas－solid bioreactor.Biotechnol Lett,1992,14:619.
+33 Nawaz M S,et al.Degradation of aliphatic amide mixture by immobilized and nomimmobilized cells of Pesudomonas sp.Environ Sci Technol,1994.28:1106～1109.
+34 Basheer S,et al.Development of an enzyme membrane reactor for treatment of cyanide－containing wastewater for the food industry,Biotechnol Bioeng,1993,41:465.
+35 Vekova J,et al.Degradation of bromoxynil by resting and immobilized cells of Agraobacterium radiobacter 8/4 strain.Biotechnol Lett,1995,17(4):449～452.
+36 陈敏，等.聚乙烯醇包埋活性炭与微生物的固定化技术及其对水胺硫磷降解的研究.环境科学，1994，15(3)：11～14.
+37　张小荷，等.固定化微生物对水胺硫磷降解活性指标的评价。环境科学，1994，15(4)：53～55.
+38　黄霞，等.固定化细胞处理难降解有机废水，城市环境与城市生态，1993，6(3)：1～5.
+39　王蕾，等.固定化细胞厌氧－好氧工艺处理四环素结晶母液的实验研究，环境科学，1995，16(1)：29～31.
+收稿日期：1997－05－29　修回日期：1998－02－20

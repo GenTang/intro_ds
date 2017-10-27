@@ -1,0 +1,109 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+低层大气中固体粒子运动及其物理模拟*
+宣　捷
+(北京大学环境科学中心，北京　100871)
+
+摘要　对于大气边界层中的固体粒子的风致运动——较大粒子的蠕动跃动和较小粒子的悬浮——的主要特征作了介绍.着重介绍了在悬浮粒子运动的物理模拟研究方面的一些成果：复杂地形和低层大气湍流会显著地提高起尘速率并改变降尘量的分布；有一定顺风向厚度的风障除了屏蔽效应——即背风侧平均风速的减小——外，还有减小最终进入空气的灰尘数量的“宏观吸附效应”；总结了模拟悬浮粒子运动的风洞实验所应遵循的相似性准则，并提出了模拟防尘风障的实验中的一个新的相似参数——孔径雷诺数，并初步测定了它的临界数值.
+关键词　大气边界层；空气尘污染；起尘速率；风障；风洞实验.
+MOVEMENTS OF SOLID PARTICLES IN LOWER ATMOSPHERE AND ITS PHYSICAL MODELING
+
+Xuan Jie
+(Environment Science Center, Peking University, Beijing 100871)
+
+ABSTRACT　Movements of solid particles including creeping, salting for larger particles and suspending for smaller ones were studied. It was demonstrated that a). complex terrain and turbulence of lower atmosphere seriously increased the dust emission rate; b). windbreaks of some windward width has a “macro-absorption effect” that can reduce the ultimate dust quantity into the air as well as the usual sheltering effect, i.e., the decaying of mean wind speed in the lee side of windbreaks; c). two new similarity requests, i.e., making model dust emitting surfaces with real dust (coal, soil etc.) powders and aperture Reynolds number of windbreaks higher than a critical value, should be ensured in modeling experiments of fugitive dust movements.
+Keywords　air pollution, modeling, atmospheric boundary layer, dust emission, windbreak, wind tunnel.
+
+1　引言
+　　在广阔的欧亚大陆的中心，包括中国的西北部在内，远离海洋，降水稀少，且日照强烈.在气候与地质条件几百万年的联合作用下，这里变成了干旱的沙漠戈壁.该地区冬春季多大风，强风卷起了沙尘，较大的砂砾首先在下风向近处降落下来，造成沙漠的迁移.细尘(悬浮颗粒)升至高空，被中纬度气流携带向东至更远的距离，在东经102—114度之间的位置上沉降下来，形成了今天著名的黄土高原.有时这些浮尘可以一直飘到朝鲜半岛和日本列岛，并在那里沉降下来.所以，固体粒子的风致迁移构成了上述自然过程.这个过程已经持续了几百万年，今后还将继续下去.对上述自然过程施加有益的影响，以改善人类的生存环境是极其重要的.方法之一是在上述干旱地区大规模植树.其它与固体粒子在大气中的运动有直接关系的工程应用的例子有：农田的风蚀及防护林的防护效应，空气的尘污染，公路和铁路的防沙防雪(沙障、雪障)，以及寒带建筑物的防积雪等.风洞模拟实验(物理模拟)对了解固体粒子风致运动的机理以及工程科学应用方面的规律作出重要的贡献.近年来，计算机数值模拟与物理模拟相结合或与现场观测相结合，得到了许多有益的结果.本文在介绍大气边界层中固体粒子风致运动的一般特征以及对悬浮微粒(飘尘)运动规律的研究时，均着重在物理模拟(环境风洞实验)的方法(实验原理)和结果的讨论方面.
+　　
+2　低层大气中固体粒子运动的一般特征
+　　首先应当指出，尽管较大粒子的蠕动跃动和较小粒子的悬浮运动是同时发生的，二者的运动机理和规律以及实际的应用都很不同.前者的例子如沙粒与雪粒的运动，前人已经作了较多的理论和实验研究.空气的尘污染则是由直径小于100μm的极微小的悬浮颗粒造成的，其动力学规律的研究，例如最重要的起尘速率的研究迄今很少.
+2.1　粒子在贴近地面气流中所垂直分布及其对气流的影响
+　　测量表明，气流中的携带的雪粒的垂直分布大致可分为两层，其分界约在8－15cm的高度(依边界条件而定).下层是跃动层，上层是悬浮层.对上层，雪浓度的对数 lnC(z)(C的单位是g/m3)与高度的对数lnz成线性关系；在下层，对数传输通量lnQ(z)(Q的单位是g/(m*min))与高度z成线性关系［1］.由于沙粒的比重大于雪粒的比重，沙粒的情况又有些差别.在下层，传输通量的对数是与高度的平方根成正比［2］.对于传输速率Q，跃动粒子的贡献一般要占到80%以上.
+　　另一方面，在被风携带的同时，近地层气流中的雪、沙、土等固体颗粒对流动的特征亦有影响.风洞模拟实验的结果表明，这种影响主要表现在：流场中某点的湍流度随该点粒子浓度的增大而减少.与此同时，实验结果表明，边界层中平均速度的分布——无论下层界壁律还是上层尾流律——均不受粒子存在的影响，且Von Karman常数κ的数值并未象预料的那样，由于粒子浓度而有相应的改变［2］.
+2.2　阈值(起动)风速及粒子质量迁移的速率
+　　只有当风速足够高，作用在固体粒子上的风力超过重力和粘附力时，粒子才能运动.这表明存在一个速度的阈值，即起动风速Vt.上述风力可认为正比于ρu′2d2，重力则正比于ρ′gd3
+　　假定粘附力的作用比重力小得多，则可得出阈值摩擦速度的表达式：
+
+(1)
+上式中ρ和ρ′分别代表空气的密度和固体粒子的密度，u′和u′0分别代表摩擦速度和阈值摩擦速度，d为粒子的直径，g为重力加速度，A是一个须由实验确定的系数［3］.经典的风洞实验测量结果如图1，它表明，对直径大于0.20mm的粒子来说，上述平方根正比关系是肯定的.更小粒子(它们主要作悬浮运动)的起动机制要更复杂，并且粘附力的作用变得更重要，故此图中直径小于0.20mm的粒子的阈值摩擦速度不再符合式(1).
+
+
+图1　阈值摩擦速度与粒子直径的关系
+Fig.1 Threshold friction velocity relative to particle diameter
+由于实际地表面中固体颗粒的直径范围极广，故其阈值(起动)风速必须通过实验测定之.此外，地表面的湿度，压实的程度，有否砾石覆盖，有否植物覆盖等等因素，都对实际地面起动风速及粒子的迁移速率有重要影响［4］.
+　　粒子迁移速率是另一个主要的参数，对其应分两种情况考虑：当研究雪、沙等较大颗粒的水平迁移运动时，讨论的是水平质量通量(单位时间通过横风向单位长度的粒子质量)Q，前已述及，该通量主要是跃动粒子的贡献；而当研究地表面向空气排放细微(悬浮)固体颗粒的过程时，讨论的是粒子排放速率(起尘速率，即单位时间从单位表面积排入空气的细微固体粒子质量)Qe(这里所谓细微固体粒子，经常指的是总悬浮颗粒TSP，即直径小于100?μm的粒子，或直径小于10μm的尘埃(PM10) ).两种情况下粒子的运动机理相差较大，又，较大粒子的存在和运动(蠕动和跃动)对悬浮粒子的飞起有重大影响.
+2.3　沙雪粒运动(蠕动和跃动)的物理模拟与佛洛德数相似困难
+　　当在风洞中模拟沙雪粒子的运动和堆积过程时，应满足的相似性原则主要为：(1)大气边界层流动，包括平均风速廓线和湍流度廓线，以及绕障碍物的流动特征的相似.障碍物(例如建筑物)改变了速度的分布，所造成的空气动力学畸变，如流动的分离、尾流的湍流涡漩、加速区与减速区等等，对雪粒沙粒的运动及其在建筑物附近的堆积过程有严重的影响.(2)模拟实验中可使用沙子也可使用其它颗粒物质(如碳酸氢钠)作为模型粒子.实验中应保证：模型粒子在空气中的重力沉降末速度与阈值摩擦速度之比uf/u′0以及对空气的相对密度ρ′／ρ分别等于其原型(大气现场中的)数值；又，在模型实验中的摩擦速度与其阈值摩擦速度(起动摩擦风速)之比u′/u′0与其原型数值相等.详细的讨论见文献［5］.
+　　前已述及，沙雪的运动及堆积取决于沙雪粒子的跃动，其轨迹取决于风力和重力的联合作用.显然，代表二者之比值的佛洛德(Froude)数Fr＝U2/Lg，是必须保证的基本相似参数.然而，佛洛德数在风洞中却不能模拟.其结果是，跃动粒子的运动轨迹并不按和空气的流动一样的几何比例缩小.这在模拟实验理论上是一个根本性的障碍［6］.
+　　然而，在建筑物附近，由于流动的畸变及强烈的湍流化，作为低阶近似，可认为跃动粒子的运动轨迹主要取决于流场的尺度，而受跃动尺度本身的影响是次要的.具体说来，对于沙粒和雪粒这样大小比较均匀的固体颗粒，运动始于蠕动和跃动； 随着风速的增大，较小的跃动粒子变成了悬浮的颗粒.粒子运动这种对风速的依赖性决定了雪在建筑物周围的堆积过程：跃动粒子堆在迎风面，而堆积在背风面的是悬浮粒子，而且绝大多数的跃动粒子在背风面的尾流涡漩中都要变成悬浮状态.模拟实验结果表明，雪在建筑物顶的沉积及在建筑物附近的堆积，和沙在建筑物附近的堆积基本上与大气现场的观测结果是一致的［7］，这表明，粒子运动的相似性在该种条件下可认为基本得到保证，佛洛德数相似要求不满足在这种情况下是可以接受的.
+　　
+3　尘埃(悬浮颗粒)运动的物理模拟
+表1　不同湿度和湍流度下的阈值风速
+Table 1 Threshold wind speed vs. humidity and turbulence intensity
+
+湿度，　　%3.96.63.96.6
+湍流度，　%663636
+阈值风速，m/s4.35.12.62.6
+
+
+3.1　湍流和复杂地形的作用及其模拟 
+　　在模拟直径很小的悬浮粒子(尘埃)的飞起、传输及沉降时，不存在佛洛德(Froude)数相似困难，因为这些悬浮粒子的运动基本上是被空气所携带，较大粒子的跃动不是模拟的主要对象，虽然后者对前者有影响.但在另一方面，实验中测定单位时间从单位表面积飞起的尘埃数量(即其起尘速率)Qe时，应注意将跃动粒子排除.
+　　事实上，起尘表面的压实(成块) 、湿度、有否砾石覆盖及植被覆盖等因素强烈地影响到悬浮粒子的飞起过程［4］.较大粒子的存在及运动(蠕动、跃动)也对其飞起有严重影响.因此，在模拟实验中应使用真实煤粉、沙土、灰土等制作模型起尘表面，而不能象模拟跃动粒子时那样，用直径均一的模型粒子来代替真实的雪粒和沙粒［8］.
+　　风洞实验中必须模拟大气边界层湍流，因其对悬浮粒子的飞起及其后续的传输及沉降运动有严重的影响［9］.由表1实验结果看出，高湍流度气流中的煤堆的阈值风速为2.6m/s，远小于在低湍流度气流中的数值(4.3和5.1m/s)，且对煤粉湿度不再敏感.
+　　而由表2所列数据之比较，我们可以看出，在平均风速及湿度条件不变的情况下，高湍流度气流(I=36%)中的起尘速率竟为低湍流度气流(I=6%)情况下的3.9倍.
+表2　各种条件下的起尘速率
+Table 2 Dust emission rate in various tests
+
+实验编号平均风速，m/s湿度，%湍流度，%起尘速率，mg/(cm2*min)
+LDS-55.13.960.89
+LDS-88.33.941.94
+LDS-1212.03.9515.2
+LDT-55.03.9363.51
+LWS-55.16.660.24
+
+
+图2　降尘量随下风距离的衰减
+Fig.2 Decrease in dust depositionwith downwind distance
+　　图2是作者测定的地面降尘量随下风距离的衰减；上面的那条拟合线是大湍流度气流实验(LDT-5)的结果，下面一条则是小湍流度气流(LDS-5)情况.低层大气湍流的影响是显然的.
+　　另一方面，复杂地形——地形的起伏以及建筑物等——造成了气流的扰动，增大了其垂直速度分量和湍流强度.这些因素都将促使表面起尘速率增大，故必须加以模拟［10］.图3为某煤厂平面设计略图.其中三角形区域IJK为一组高大建筑物，沿主导风向正对煤堆的中心.风洞实验中测定煤堆表面起尘速率为0.60mg/(cm2*min).其它条件不变，实验中仅将三角形IJK向西平移至围墙边，使之正对着煤堆侧边(沿主导风向)，结果起尘速率减少了37%.这个例子非常直观地显示了地形起伏(建筑物)造成的气流扰动的增大起尘量的作用.
+3.2　风障的防护作用及其模拟
+
+
+图3　煤厂平面图
+Fig.3 Diagram of the coal plant
+风障，如木栅、金属网、树篱等，均为多孔(疏透)介质.由于贴近地面的气流只有一部分能穿透过去，故其背风侧将有一个平均风速的减弱区.此即风障的屏蔽效应.由于屏蔽区内贴近地面风速的减弱，固体粒子的运动受到抑制.故在公路、铁路边建立沙障和雪障可避免沙和雪在道路上的堆积.防风林网则可保护干旱地区的农田减少风蚀之害.
+　　风障的防护效果取决于它的流动特征.风洞模拟实验非常适合用于此项研究，并已得到许多有益的成果.一般性的结论是，有效屏蔽距离约为10至15倍的风障高度H；疏透率(即孔面积与总面积的比)Φ是屏蔽效应(背风侧平均风速的衰减)的唯一主定参数，且其优化范围一般认为是在40%至50%之间［11］.
+　　风障也可用于减少向大气中排放的细微悬浮颗粒.例如可将煤堆、灰堆等围之以金属网和一定厚度的林带；夹道树也有减小道路交通起尘的作用.应当指出，除了建立在起尘表面上风向的风障的屏蔽作用以外，建立在起尘表面下风向的树行可将已飞起的粒子“滤掉”一部分，使最终进入空气的悬浮粒子的总量大大减少.例如上海市道路起尘观测结果表明，道路两旁夹道树在夏天枝叶繁茂时，可将最终进入大气的悬浮颗粒总量减少一半［12］.作者本人在风洞模拟实验中发现，建立在煤堆下风向且有一定厚度的林带处，有相当多的煤尘降落到地面上.这显然是由于空气在枝叶间被迫作加速、减速、急转等运动，从而使其中携带的煤尘粒子析出并沉降到地面上(少部分粘附在枝叶上)，从而使最终的有效起尘量减少约10%［10］.作者把这种建立在起尘表面下风向且有一定厚度的疏透介质减少最终进入空气的悬浮颗粒数量的作用称为“宏观吸附效应”.片状疏透介质如金属网或木栅就没有这种作用［13］.
+　　在风洞中模拟风障流动特征时，应保证的相似性准则主要包括：(1)大气边界层流动，包括平均风速廓线和湍流度廓线，以及绕障碍物的流动特征.(2)模型风障的疏透率(孔率) Φ等于其原型数值.作者的研究对于该体系又添加了两条重要的内容［8，11，14］:
+　　(1)用真实煤粉(土灰)制作模型煤堆(模型起尘表面).
+　　(2)模型风障的孔径雷诺数Re′=Ud′/ν大于其临界数值；这里U是风障上边缘，即x=0,z=H高度处的平均风速，ν是空气的运动学粘滞系数.
+　　本文作者在风洞实验中发现，风障疏透率不变而其孔径d′逐渐减小 (孔径雷诺数Re′逐渐减小)时，紧贴风障背风侧的湍流度会受到越来越大的抑制(图4，其中纵座标是网后(x=H,z＜0.7H)平均湍流度与网前(x=-2H,z＜0.7H)平均湍流度的差Di)，且置于此地的模型煤堆的起尘速率也会随着减小(图5，其中曲线Ⅰ和Ⅱ分别是低湍流度气流和高湍流度气流中的实验结果).为避免这种“不真实”的现象的出现，作者建议，模拟实验中风障孔径雷诺数Re′应大于临界值.由上两图实验曲线可初步确定，该临界值大约在1000至1200的范围.应当指出，图5所示起尘速率数据在Re′＞1200后出现实然下降，这可能是Re′＞1200的一组网的孔加工得比较光滑所致.依照文献［15］，若网孔较光滑，则会使起尘速率有所下降.这个问题有待于进一步的实验研究.
+
+
+图4　风障背风侧(近处)湍流受到的抑制与孔径雷诺数
+Fig.4 Turbulence depressed behind windbreak 
+depending on aperture Reynolds number
+
+
+图5　风障背风侧(近处)模型煤堆的起尘速率
+Fig.5 Dust emission rate from coal pile behind windbreak
+国家自然科学基金资助项目（编号49775277）
+参考文献
+　1　Isyumov N.Modeling of snow drifting and deposition in the aerodynamic influence of building and structures. Proc ASCE Workshop on the Modeling of Wind-Blown Snow and Sand. 1994:12
+　2　Janin L. Sediment-laden velocity profiles developed in a large boundary-layer wind tunnel(Ph.D). Thesis of Colorado State University, Fort Collins, US, 1986
+　3　Bagnold R A. The physics of blown sand and desert dunes. London: Chapman and Hall, 1941
+　4　Gillette D.A wind tunnel simulation of the erosion of soil:effect of soil texture, sandblasting,wind speed, and soil consolidation on dust production. Atmospheric Environment, 1978, 12:1735
+　5　Kind R J.Mechanics of aerolian transport of snow and sand. J Wind Engineering and Industrial Aerodynamics, 1990, 36:855
+　6　Yutaka Anno. Froude number paradoxes in modeling of snowdrifting. J Wind Engineering and Industrial Aerodynamics, 1990, 36:889
+　7　Smedley D J, Kwok K C S, Kim D H. Snowdrifting simulation around davis station workshop, antarctica. J Wind Engineering and Industrial Aerodynamics, 1993, 50:153
+　8　Xuan J, Robins A. The effects of turbulence and complex terrain on dust emissions and depositions from coal stockpiles. Atmospheric Environment, 1994, 28:1951
+　9　宣　捷，安维朴，王新英.大气边界层湍流以及复杂地形对煤堆起尘量及降尘量分布的影响.中国环境科学，1992，12：261
+10　宣　捷，林官明，丁润田.在湍流和复杂地形条件下减少煤堆尘排放的几种防护措施的效率.中国环境科学，1993，13：350
+11　宣　捷，俞学曾.风障减少尘埃飞起的风洞模拟研究.环境科学研究，1997，10(2)：14
+12　Ji X, Jiang D, Feii S et al. Road dust emission inventory for the metropolitan area of Shanghai City. Atmospheric Environment, 1993, 27A:1735
+13　Xuan J. The effectiveness of windbreaks on preventing fugitive dust emissions under conditions of turbulence and complex terrain. Proc 1st Intemational Joint Seminar on the Regional Deposition Processes in the Atmosphere, Seoul, Korea, 1995-11-20—24
+14　Xuan J, Zhao R, Lin G et al. Porosity similarity and aperture reynolds number similarity for windbreak flows. Proc 2nd Seminar on the Regional Deposition Processes in the Atmosphere(Oct. 14-17,1996,Beijing, China),Beijing,China, 1996-10-14—17
+15　McNaughton K G. Ⅰ.Effects of windbreaks on turbulent transport and microclimate. Agriculture Ecosystem and Environment, 1988,22/23:17

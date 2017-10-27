@@ -1,0 +1,80 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+三沟式氧化沟污水处理工艺的性能分析
+周　律　钱　易　(清华大学环境科学与工程系，环境模拟与
+水污染控制国家联合重点实验室，北京 100084)
+文　摘　以生产性10万m3/d规模的三沟式氧化沟作为研究对象。研究结果表明，该工艺运行稳定，满足BOD5和悬浮物浓度小于30mg/L出现的频率分别为92%和96%；剩余污泥得到一定程度的稳定；污水处理的比能耗为1.20 kW*h/去除kg　BOD5；另外还观察到反硝化运行和硝化运行的时间比tDN/tN对调节三沟式氧化沟脱氮效果起着重要的作用；并就三沟式氧化沟改扩建提出了建议。
+关键词　三沟式氧化沟　工艺性能　城市污水
+Analysis of process performance for triple oxidation ditch system treating municipal wastewater. Zhou Lu , Qian Yi（State Key Joint Laboratory on Environmental Simulation and Water Pollution Control，Department of Environmental Science and Engineering,Tsinghua University, Beijing 100084）.China Environmental Science.1998,18(3):210～212
+Abstract— A full-scale triple oxidation ditch(T-ditch) ，100，000m3/d　treating municipal wastewater in Handan City, Hebei province in China was studied in this paper.The T-ditch process combined with biological denitrification can achieve a high quality effluent in BOD5 and SS,and is reliable in operation based on statistical analysis.It is shown by the statistical analysis of data that the frequences of the appearance in BOD5 and SS below 30 mg/L are 92% and 96% respectively.The excess sludge from T-ditch is stabilized to some extent. The energy consumed in removing 1.0 kg BOD5 is 1.20kW.It was found that the ratio of denitrification phase time and nitrification one,tDN/tN, is an important parameter to improve nitrogen removal. Finally，suggestions to reconstruct T-ditch system are provided.
+Key words:triple oxidation ditch　process performance　municipal wastewater
+
+　　氧化沟污水处理工艺作为一种流程简单、管理方便的工艺，在我国污水处理中日益受到重视〔1〕。三沟式氧化沟是新一代氧化沟工艺的典型代表，这种氧化沟工艺结合了许多新的污水处理操作方式，如A/O法，SBR法等。但对此工艺的系统研究还比较少，影响了该工艺应用的针对性和科学性。本文以邯郸市东污水处理厂三沟交替式氧化沟为研究对象，对该工艺的特点进行了初步的探讨和研究。
+1　进出水水质的统计
+　　邯郸市东污水处理厂三沟式氧化沟从1990年11月建成投产至今，采用过两种不同的运行模式，即硝化模式和硝化-反硝化模式，具体操作过程见文献〔1〕。前期采用硝化模式运行，1994年2月至今采用硝化-反硝化模式运行。这两种模式处理水的目标略有不同，硝化模式主要是氧化稳定废水中的有机物，并将水中的含氮物质氧化成NO-３-N，减少排入水体中的耗氧物质量，但系统进出水的总氮浓度变化不大。而硝化-反硝化模式除了去除水中的有机物外还能将进水中的含氮物质大部分从系统中去除，最终减少系统排出的总氮量。 从本质上讲，前者类似于延时曝气工艺，而后者是将A/O法的过程结合在一起，同一池内交替地出现好氧、缺氧过程。比较这两个过程对实际应用具有较为重要的意义。通过收集运行记录并进行整理，两种模式在设计水量及其它相同操作条件下，处理有机物、悬浮物和总氮的效果见表1。
+　　表1是出现频率为50%的进出水水质数据。从表1可看出，以硝化-反硝化模式运行，工艺的稳定性高，满足BOD5和悬浮物浓度小于30mg/L（国家对城市二级污水处理厂出水水质的要求）出现的频率分别为92%和96%。这比在普通活性污泥法中出现的频率要小于75%〔2〕。以硝化-反硝化模式运行，出水BOD5（以小于20mg/L计）、悬浮物（以小于25mg/L计）、总氮浓度（以小于12mg/L计）满足设计值出现的频率分别为88%、94%和47%。
+表1　两种运行模式50%的出现频率进出水数据（mg/L）
+Table 1　The data of two operation patterns with 50% 
+appearance frequence in influent and effluent
+
+水质指标进水出水
+硝化模式 硝化-反硝化模式
+BOD5102　 4.05.0
+CODCr210　 15　18　
+SS903.53.5
+TN2518　11　
+TKN23 5.08.0
+NH+4-N172.05.5
+
+　注：所统计的数据个数为：进水278个；硝化模式121个；硝化-反硝化模式157个
+2　污水处理能耗分配
+　　邯郸污水处理厂工艺组成可分成4部分，即进水提升、出水提升、生物处理(包括曝气沉砂池)和污泥处置(包括剩余污泥泵站、浓缩池、均质池、污泥脱水、干污泥输送)。综合这4部分的处理能耗约为 0.22kW*h/m3。
+　　生物处理采用表面曝气机(全厂三组氧化沟共设置42只Mammoth 9m转刷），在工艺运行中能耗比重较大。转刷的能耗约占污水处理厂总能耗的51.3%。 表2是邯郸厂的能耗与典型的二级污水处理厂的能耗比较〔3〕。
+表2　邯郸厂的能耗与其它二级污水处理厂的能耗比较
+Table 2　The comparison of energy consumed between
+Handan WWTP and other secondary treatment plants
+
+处理方法一般应用范围比能耗*
+传统活性污泥法　　　深度处理(各种规模)1.26～3.56
+高纯氧活性污泥法　　深度处理(大型厂)　1.30～1.72
+传统氧化沟　　　　　深度处理(小型厂)　2.20～4.86
+邯郸污水处理厂氧化沟部分脱氮　　　　　1.20
+
+　注：* 能耗单位为kW*h/去除kgBOD5；均未考虑污水的提升
+　　从表2中的比较可以看出，三沟式氧化沟能耗是较低的，这体现了该工艺的优点。
+3　氧化沟的剩余污泥的稳定程度
+　　用VSS / SS作为污泥稳定性的判断指标可能比较直观，如中温厌氧消化，典型进入消化池污泥的VSS / SS为60%～70%，经过30～60d的消化，平均VSS约降低50%～60%，VSS / SS为50%左右。氧化沟中污泥VSS / SS一般为50%～60%，对照厌氧消化数据，可认为氧化沟的剩余污泥已得到相当程度的稳定。
+　　为使氧化沟的剩余污泥达到较好的稳定，在满足污水处理工艺要求的泥龄的基础上可再加上一定的污泥在沟中的停留时间，并建议参考好氧污泥消化池的设计的污泥停留时间作为氧化沟设计污泥停留时间，相当于污泥泥龄为15～20d。邯郸污水处理厂三沟式氧化沟整个系统的实际好氧泥龄为11d。对照建议的15～20d好氧消化污泥泥龄，邯郸污水厂的泥龄略低。所以为达到更好的污泥稳定程度，可适当提高目前的泥龄。
+　　我国“城市污水处理厂污水污泥排放标准CJ3025-93”对剩余污泥卫生学虽无明确规定，但应看到卫生学方面的问题会直接影响到污泥的最终出路，处置不好可能会造成二次污染。据美国EPA在这方面的研究〔4〕 ,对三种病原菌属(大肠菌属、沙门氏菌属、葡萄球菌属)进行分析，结果表明，氧化沟或延时曝气工艺排放的剩余污泥可满足EPA推荐的B级污泥病原菌排放标准。
+4　tDN / tN对脱氮效果的影响
+　　根据硝化、反硝化的运行时间的不同，试验中共安排了5种工艺组合，对应的运行周期中反硝化运行和硝化运行的时间比tDN / tN（tDN、tN分别为反硝化、硝化的操作时间在一个运行周期的总和，tDN / tN相当于时间体积的加权平均值。）分别为0.27、0.40、0.47、0.75、1.0。
+　　从试验结果可以看出，在不同的tDN / tN比时，脱氮效果有明显差异，图1表示了tDN / tN为0.27、0.40、0.47（邯郸厂现有的运行情况下的比值）、0.75、1.0等5种组合的平均脱氮效果。结果表明，tDN / tN比值过高或过低，脱氮效率都会降低，当tDN / tN=0.40时有最佳的脱氮效果。
+
+图1　tDN / tN比与脱氮效果的关系
+Fig.1　The relation of tDN / tN and nitrogen removal
+　　所以，针对特定的水质保持合适的tDN / tN比是提高脱氮效率的重要操作因素。从几种组合出水中NO-3-N、NH+４-N浓度变化可进一步看出tDN / tN比在运行中的作用。由图2可看出，在运行周期不变时，减小tDN / tN比，处理系统的硝化能力也得到提高。出水中的NH+４-N浓度随tDN / tN的减小而下降，呈明显的线性关系。出水中的NO-３-N浓度与NH+４-N浓度的变化呈相反的趋势。
+
+图2　不同tDN / tN比的情况下出水中的NO-3-N、
+NH+4-N浓度变化
+Fig.2　The concentration change of NO-3-N and 
+NH+4-N under different tDN / tN ratio
+5　三沟式氧化沟的改扩建
+　　改扩建时，可以将三沟式氧化沟改成按两沟式氧化沟运行，其后单独设置沉淀池，这样处理水量可提高1/3以上。改扩建后的三沟式氧化沟建议运行模式见图3，共4个阶段(对应图中A、B、C、D，图中虚线为回流污泥管)，每一阶段的运行时间应根据水质情况和处理要求确定。
+
+图3　改扩建后的三沟式氧化沟建议运行模式
+Fig.3　The suggested operation parttern after reconstruction
+
+6　结语
+　　通过对生产性三沟式氧化沟的调查研究表明，这种工艺处理效果十分稳定，满足BOD5和悬浮物浓度小于30mg/L的频率分别为92%和96%。工艺能耗低，运行管理方便，是适合我国中小型城市使用的简便、高效的污水处理技术。研究中观察到反硝化运行和硝化运行的时间比tDN/tN对调节三沟式氧化沟脱氮效果起着重要的作用，是一个关键的运行参数，针对不同的污水水质，调节tDN/tN可达到比较好的氮去除效果。另外，三沟式氧化沟的改扩建业简便易行，通过建议的改扩建方法可大大提高处理水量。
+参考文献
+1　杨肇健. 三沟式氧化沟在处理城市污水中的应用.给水排水， 1992， 18(3):18～21
+2　Metcalf and Eddy,Inc.Wastewater engineering treatment:treatment,disposal and reuse(third edition). New York:McGraw-Hill Publish Co.,1991.163
+3　Owen W F.秦裕珩译. 废水处理节能. 北京：化学工业出版社，1993.118
+4　Surampalli R Y.Microbiological stability of wastewater sludge from activated sludges system.Bioresource Technology.1994,49(4):203～210
+作者简介
+周　律　男，1963年9月生。现为清华大学环境科学与工程系讲师。主要从事水污染控制的教学和科研工作。承担过“石化厂工业废水的厌氧处理”、“难降解有机物的厌氧降解研究”等项目。发表论文10余篇。
+致谢　论文中的一些数据采集得到邯郸污水处理厂的帮助在此表示感谢
+收稿日期：1997-07-16

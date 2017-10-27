@@ -1,0 +1,68 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+菲律宾蛤仔对锌、铅的积累特征
+蔡立哲　洪华生　洪丽玉　
+摘要　菲律宾蛤仔(Ruditapes philippinarum Adams et Reeve(Biva lvia:Veneridae))分别在不同系列Zn和Pb浓度下培养20 d，每间隔5 d测定菲律宾蛤仔体 内 Zn、Pb含量.结果表明，菲律宾蛤仔在水体Zn浓度100 μg/L以下Zn积累量低，在水体Zn浓 度为200 μg/L时Zn积累量高.菲律宾蛤仔在水体Pb浓度为32 μg/L以下暴露5 d Pb积累量低，但在水体Pb浓度为32 μg/L中暴露15 d，菲律宾蛤仔体内Pb含量可达对照组的5倍.可见，菲律宾蛤仔对Zn、Pb的积累量不仅与水体中Zn、Pb浓度有关，而且与暴露时间有关. 
+关键词　菲律宾蛤仔；锌；铅；积累.
+Accumulation of zinc and lead in Ruditapes philippinarum and its tolerance
+CAI Lizhe,HONG Huasheng,HONG Liyu 
+Environmental Science Research Center,Xiamen University,Xiamen 361005
+Abstract　Ruditapes philippinarum Adams et Reeve(Bivalvia:Veneridae)was exposed to a r ange of dissolved concentrations of Zn and Pb for 20 days.During the exposure,the co ntents of Zn and Pb in the body of R.philippinarum were measured every five days. The amount of Zn accumulated in R.philippinarum was low when Zn level in exp osed water was under 100 μg/L,but the amount of Zn accumulated by R.philippinaru m was high when Zn level in the water was at 200 μg/L.These results showed that R.philippinarum had different accumulating rates at different Zn levels.The amou nt of Pb accumulated in R.philippinarum was small when Pb level in the water was under 32 μg/L at the first five days,but could have reach five times compared with controlled group after exposed 15 days.The present study confirms the ability of R.philippinarum to accumulate dissolved Zn and Pb in proportion to external levels and exposure days.
+Keywords　accumulation,tolerance,zinc,lead,Ruditapes philippin arum.
+　　所有的海洋生物都在某种程度上积累重金属，积累量视金属类型和生物种类而异［1,2］.有关双壳类软体动物室内实验积累重金属的研究，崔可铎等［3］、Amiard-T riquel［4］和Chan［5］曾分别对毛蚶(Scapharca subcrenata)、紫贻贝(Mytilus edulis)和翡翠贻贝(Perna viridis)作过积累和耐受力研究.刘琼玉等［6］对菲律宾蛤仔Zn、Pb的急性毒性进行了实验.菲律宾蛤仔隶属于软体动物双壳纲帘蛤科，是我国沿海广泛养殖的经济贝类之一，也是自然海区底栖生物群落常见优势种［7,8］.在自然海区，菲律宾蛤仔对Zn、Pb有明显的积累作用［9］.在市场上，经常可以看到暂养的菲律宾蛤仔.研究菲律宾蛤仔在一系列重金属浓度水体中的积累行为，有利于揭示菲律宾蛤仔对重金属的积累特征，为水产品清洁管理及利用贝类评价环境质量提供科学依据.
+1　材料与方法
+1.1　实验材料
+　　实验用水：取自厦门大学工学馆对虾育苗场，经砂滤、沉淀的育苗用水.盐度20±2，pH8.0左右.
+　　菲律宾蛤仔：取自厦门钟宅海滩养殖的菲律宾蛤仔(Ruditapes philippinarum Adams et Reeve〔Bivalvia:Veneridae〕)，壳长3 cm左右、体重6-10 g的健壮个体.暂养5 d 后加入Zn、Pb离子溶液，配成所需浓度.
+　　充气机：国产海龙电磁式空气压缩机(93 W，80 L/min).
+1.2　实验方法
+　　7个Zn浓度组是：对照组、6.25、12.5、25、50、100、200 μg/L;7个Pb浓度组是：对照组、1、2、4、8、16、32 μg/L.上述浓度主要是根据厦门海水中的Zn、Pb浓度(分别为0.084 μg/L和0.014 μg/L)而设计的.每组实验水体4 L.选择实验室暂养5 d后健壮的菲律宾蛤仔，每组40只，放入上述实验水体中.实验期间充气，不投饵，每隔2 d换一次含系列浓度Zn、Pb的海水，每天观察菲律宾蛤仔的活力及死亡情况.每隔5 d，每个浓度组随机捞出10只菲律宾蛤仔，用去离子水冲洗外壳，包装冷冻2 d，退冰，用洁净的塑料镊子解剖，分离软体部，软体部烘干，碾碎，用HNO3：HClO4(2∶1)混酸于四氟乙烯消化罐(6 mL/g(湿生物样))在烘箱130℃消化7 h，消化完全后转移至四氟乙烯坩埚于电热板上赶酸至2  mL左右，再稀释定溶成待测溶液，用PE-3030型火焰原子吸收光度仪测Zn、Pb含量.
+2　结果
+2.1　菲律宾蛤仔对Zn的积累
+　　当菲律宾蛤仔在一系列Zn浓度水体中暴露5 d时，可以看出菲律宾蛤仔的积累速率有两种情况.在水体中Zn浓度为100 μg/L以下，菲律宾蛤仔体内的Zn积累量很低，最多仅比对照组体内的Zn含量多30 μg/g(图1)，甚至略低(Zn浓度为12.5 μg/L组)；而在水体中Zn浓度为200 μg/L时，菲律宾蛤仔体内Zn含量可达502.66 μg/g，是对照组菲律宾蛤仔体内Zn含量的5.5倍.可见，当外界Zn浓度与菲律宾蛤仔体内Zn含量接近或更低时，菲律宾蛤仔有缓慢的积累速率，其累积量不超过对照组体内Zn含量的37.5%；当外界Zn浓度超过菲律宾蛤仔体内Zn含量1倍时，菲律宾蛤仔有较快的积累速率，积累量为对照组体内Zn含量的5倍左右.暴露10 d和15 d的实验结果也证实了上述现象.
+
+
+图1　菲律宾蛤仔体内Zn含量和水体Zn浓度的关系(C：对照组)
+Fig.1 The relationship between Zn content of Ruditapes philippinarum and Zn level in the experimental water (C:Controlled group)
+2.2　菲律宾蛤仔对Pb的积累
+　　菲律宾蛤仔在一系列Pb浓度水体中暴露5d时，其体内Pb含量与水体中Pb浓度呈正相关关系，但其斜率很低，仅0.63，如在Pb浓度为32 μg/L的水体中暴露5 d，菲律宾蛤仔体内新积累的Pb比对照组体内的Pb多近1倍，即17.67 μg/g.可见，菲律宾蛤仔培养在Pb浓度为32 μg/L以下，其对Pb的积累速率缓慢.培养10 d时，菲律宾蛤仔在水体Pb浓度为2 μg/L以下积累不明显，但在4 μg/L以上则积累2-3倍.培养15 d时，菲律宾蛤仔在水体Pb浓度为2μg/L(含2 μg/L)以下积累量仍不超过对照组含量的40%，但在4μg/L以上，积累量为对照组的2-5倍(图2).
+
+
+图2　菲律宾蛤仔体内Pb含量和水体Pb浓度的关系(C：对照组)
+Fig.2 The relationship between Pb content of Ruditapes philippinarum and Pb level in the experimental water (C:Controlled group)
+2.3　菲律宾蛤仔体内Zn、Pb含量与暴露时间的关系
+　　菲律宾蛤仔在水体Zn浓度为50 μg/L以下，体内Zn含量随时间的推移增加缓慢，在15 d内最多仅比对照组增加61%(图3).在水体Zn浓度为100 μg/L时，对Zn的积累主要在第10至第15 d，其体内Zn含量从112.60 μg/g增至205.60 μg/g.在水体Zn浓度为200 μg/L时 ，对Zn的积累主要在头5 d，其体内Zn含量从本底值94.71 μg/g增至502.66 μg/g，增加了5倍多.而从第5 d至第15 d，积累量仅增加了26.5%.由此可见，在不同外界Zn浓度中，菲律宾蛤仔的积累高峰期不一样.
+　　在水体Pb浓度为2 μg/L时，菲律宾蛤仔对Pb的积累速率低，至第15 d时，其体内Pb含量最 多仅比对照组体内Pb含量增加33.2%；当水体Pb浓度在4 μg/L和8 μg/L时，积累速率提高，至第15 d时，其体内Pb含量比对照组体内Pb含量增加141.1%；当水体Pb浓度在16 μg/L和32 μg/L，积累速率更高，至第15 d时，其体内Pb含量已比对照组体内Pb含量高5.5倍(图4).由此可见，菲律宾蛤仔对Pb的积累随时间的推移而增加.
+
+
+图3　在水体不同Zn浓度中菲律宾蛤仔体内Zn含量与暴露天数的关系
+Fig.3 The relationship between Zn content of Ruditapes philippinarum a nd exposed days in different Zn level in the water
+
+
+图4　在水体不同Pb浓度中菲律宾蛤仔体内Pb含量与暴露天数的关系
+Fig.4 The relationship between Pb content of Ruditapes philippinarum and exposed days in different Pb level in the water
+3　讨论
+　　在自然海区，菲律宾蛤仔对Zn、Pb的富集系数可达1000以上.刘明星等［9］测得渤海菲律宾蛤仔对Zn、Pb的富集系数均为1900.我们计算得出厦门海域的菲律宾蛤仔对Zn、Pb的富集系数分别为1128和1290.在实验室的许多实验也表明，双壳类积累重金属的量随水体中重金属浓度的增加而增加.如Tan［10］和Chan［5］报道翡翠贻贝体内Pb含量与外界水体Pb浓度呈正线性关系；Amiard-Triquel等［4］描述紫贻贝体内Cd含量与污染浓度呈正比例；崔可铎等［3］在积累和排出实验中得出毛蚶对Cu、Pb、Ni、Cr 和Cd 5种重金属都有一定的积累能力，积累量随时间的延长而增加.我们的实验也表明菲律宾蛤仔体内Zn、Pb含量随时间延长而增加.可见，双壳类软体动物积累重金属有着共同的特性.
+　　菲律宾蛤仔积累重金属有明显的季节变化.吴玉霖［2］和刘明星等［9］测得胶州湾菲律宾蛤仔体内Hg含量秋季较高，夏冬季次之，春季较低.吴玉霖等［2］认为，海洋生物秋季重金属含量高的现象可能是秋季的水温比春季高，海洋生物的新陈代谢较旺盛.关于温度对生物金属积累的影响，Cunningham［11］作过报道.我们测得厦门钟宅潮间带春季(4月份)菲律宾蛤仔体内Zn、Pb含量分别为61.1 μg/g和0.283 μg/g；秋季(10月份)分别为94.71 μg/g和18.06 μg/g，秋季比春季含量高，这与菲律宾蛤仔的产卵期有关，齐秋贞［12］描述福建沿海菲律宾蛤仔的产卵期是10月至11月中旬.产卵前为贮藏能量，摄食力大，因而重金属积累高.
+　　Rainbow［1］认为排出已进入体内的重金属不是海洋生物重金属生物学的常见现象，许多海洋生物通过解毒、贮藏或积累金属.吴坚［13］和Roesijadi［14］描述，软体动物解毒机制在于体内金属硫蛋白的作用，重金属能诱导金属硫蛋白的合成，其作用是调节金属在体内的平衡.如果进入菲律宾蛤仔体内细胞的Zn、Pb离子较高，且Zn、Pb使(Zn-Cu)巯基组氨酸三甲基内盐生理学积累达到饱和，Zn、Pb离子的超量能激发新的巯基组氨酸三甲基内盐的mRNA的转译.这样，虽然Zn、Pb在细胞中富集可能是异常地高，但大部分Zn、Pb是以一种无毒形式结合于新合成的巯基组氨酸三甲基内盐上.由此可见，当外界水体中Zn浓度为200 μg/L时，超量的Zn离子激发新的巯基组氨酸三甲基内盐合成，而外界水体中Pb浓度为32 μg/L时，尚未能激发新的巯基组氨酸三甲基内盐的合成.也就是说，市场上暂养菲律宾蛤仔的海水，如果Zn浓度在100 μg/L以下，Pb浓度在32 μg/L以下，短期内均不能引起菲律宾蛤仔体内Zn、Pb的迅速积累.
+作者单位：厦门大学环境科学研究中心海洋生态环境国家教委开放研究实验室，厦门　361005
+参考文献
+[1]　Rainbow P S.海洋生物对重金属的积累及意义.海洋环境科学，1992，11(1)：4 4-52
+[2]　吴玉霖，崔可铎，赵鸿儒等.渤海无脊椎动物体内痕量金属含量的研究.海洋与湖沼，198 6，17(6)：539-547
+[3] 崔可铎，吴玉霖，赵鸿儒等.镉、铜、铅、镍、铬在毛蚶体内积累、分布和排出实验研究 .海洋科学集刊，1987，28：97-107
+[4] Amiard-Triquet C,Berthet B,Metayer C et al．Contribution to the ecotoxic olo gical study of cadium,copper and zinc in the mussel Mytilus edulis.Ⅱ.Experiment al Study Mar Biol,1986,92:7-13
+[5] Chan H M.Accumulation and lolerance to cadmium,copper,lead and zinc by the gr een mussel perna viridis.Marine Ecology Progress Series,1988,48:295-303
+[6] 刘琼玉,洪华生,蔡立哲.重金属锌、铅对菲律宾蛤仔的急性毒性试验.台湾海峡，1997 ，16(1)：50-54
+[7] 庄启谦,崔可铎.胶州湾沧口潮间带生态学研究.海洋科学集刊，1984，22:79-94
+[8] 蔡立哲,洪华生,黄玉山.香港维多利亚港大型底栖 生物群落的时空变化.海洋学报，1997，19(2)：65-70
+[9]　刘明星,李国基,顾宏堪.渤海鱼类、甲壳动物、软体动物的痕量金属含量.环境科学 学报，1983，3(2)：149-155
+[10]　Tan W H,Lim L H.The tolerance to and uptake oflead in the green muss el,perna viridis (L.).Aquaculture,1984,42:317-332
+[11]　Cunningham P A.In:W B Vernberg et al (eds).The use of bivalve molluscs in heavy metal pollution research .Marine Pollution:Funtional Responses.New York:Acade mic Press,1979.183-221
+[12]　齐秋贞.菲律宾蛤仔的生活史.水产学报，1987，11(2)：112-119
+[13]　吴 坚.微量金属对海洋生物的生物化学效应.海洋环境科学，1991，10(2)：58-64 
+[14]　Roesijadi G.Behavior of metallothionein-bound metals in a natural populatio n of an esturarine mollusca.Mar Environ Res,1994,38(4):147-168
+1997-10-07收到原稿　1998-04-12收到修改稿

@@ -1,0 +1,109 @@
+环境与开发
+ENVIRONMENT AND EXPLOITATION
+1999年　第14卷　第2期　vol.14　No.2　1999
+
+
+
+固相微萃取法在环境监测中应用
+周宁孙
+摘　要：对固相微萃取法(SPME)在环境监测中应用予以综述，列表比较了一些有机化合物的研究情况，并指出了SPME法的发展趋势.
+关键词：固相微萃取；环境监测；有机化合物
+中图分类号：X830.2　　　文献标识码：A　　　文章编号：1006—5776(1999)02—0041—03
+The Application of Solid-phase Microextraction in Environmental Monitoring.
+Abstract:A review is presented about the application of solid-phase microextraction(SPME)in environmental monitoring.The research situation of some organic compounds is tabulated and compared.The developing trends of SPMe are dscribed.
+Key words:Solid-phase microextraction；Environmental monitoring；Organic compounds.
+　　目前分析样品前处理技术落后于分析测定技术，而固相微萃取法(SPME)就是为改变这一现状而发展起来的崭新的萃取分离技术.固相微萃取法由加拿大Waterloo大学Pawliszyn［1］于1990年首创.1994年商品化的SPME装置曾被美国权威杂志《Research&Development》评为最优秀的100项新产品之一.
+　　固相微萃取法［2］是指在注射器的针头部位涂一层相当于GC固定液的物质或键合一层固定相，直接将其浸入液体样品或样品的顶空，萃取、浓缩有机化合物后，随即将注射器直接插入GC等进样口加热，脱去有机物质，使被测物进入分析器.SPME全然不使用溶剂，并具有操作时间短、样品用量小、重现性好［3］、精度高、检出限低等优点［4］，已成为目前分析方法研究的一个方向.
+　　我国正式发表的有关固相微萃取法的研究论文很少，国内环境监测工作者应尽快认识到SPME法的巨大潜力.因SPME法分析水中有机化合物的研究报道最多，本文重点对近年SPME法在环境监测中水质分析方面的进展作一叙述.
+1　SPME法的原理
+　　SPME法如图1所示.
+
+图1　SPME法示意图
+　　根据Ai，J［5］的研究，凝聚相/气相和气相/SPME聚合相的质量迁移符合Fick第一扩散定理.在萃取条件恒定的情况下，所萃取分析物的数量正比于最初凝聚相的分析物浓度，SPME完全具有质量保证.
+2　SPME法萃取条件改进
+　　2.1　萃取头
+　　萃取头是在弹性石英纤维表面涂覆一层液相或键合一层多孔固相组成.
+　　液相有以下几种：［4］(1)聚二甲基氧烷类(PDMS)，100μmPKMS适用于分析低沸点、低极性物质，如苯类、有机农药等，7μmPDMS适用于分析中等沸点及高沸点的物质，如多环芳烃等.(2)聚丙烯酸酯类(PA)，适用分析强极性物质，如酚等.(3)聚二乙醇/二乙烯基苯(CW/DVB)，适用于分析极性大分子，如芳香胺、除草剂等.(4)PDMS/DVB适用于分析极性物质.另外还有XAD、Carboxen、CW/DVB等等.在文献报道中，PDMS、PA使用最多.纤维双液相涂层可以克服单一液相涂层萃取有机化合物范围狭窄的缺点，萃取范围更广，这是目前研究和发展的趋势和方向.
+　　多孔固相是在高温条件下在石英纤维表面键合一层C1、C8、C18或苯基［6］.其中多孔固相C8适用于分析挥发性有机化合物，C18则具有较好的选择性.它们萃取选择性受键合的官能团、烷基链长和相的类型等诸多因素影响.
+　　对于脂肪酸、农药等难挥发有机物，萃取头在使用前需进行老化处理，老化温度250～300℃，时间0.5～5h，以降低空白值.
+　　由于SPME的萃取装置轻巧易拿、携带方便，非常适于现场采样.此类采样器可循环使用50～100次.采样后萃取头上的分析物1d之内不会损失.如果采样后冷藏，样品可保存3d［7］.
+2.2　萃取方式
+　　固相微萃取法有两种萃取富集方式：(1)顶空式，即萃取头在水样上的气相进行萃取.萃取空气中有机化合物的SPME法就与此方法相似［8］.易挥发性有机化合物在水相/气相达到平衡时，气相浓度大于水相浓度，此时适用顶空式，这样可使分析具有更好的精确度［9］，而且可以降低检出限［10］.(2)浸入式，即萃取头浸入水相中.大部分有机化合物的萃取多用浸入式，因为此时萃取头与水样中有机物直接接触，所以萃取时间短，富集速度快.
+　　对于泥土和固体废弃物，在用水处理后可选用以上两种萃取方式［6，11］.
+2.3　萃取时间和温度
+　　萃取时间［3］主要指达到平衡时所需要的时间.而平衡时间往往由众多因素决定，如分配系数、物质的扩散速度、样品基质、样品的体积、萃取头性质等.SPME实际萃取时间可由萃取时间和萃取量的吸附平衡曲线来决定.萃取过程一开始，吸附量迅速增加，而接近平衡时，速度变得非常缓慢.一般选择有较大萃取量且萃取时间不太长作为实际萃取时间.顶空式SPME所需萃取时间比浸入式要少，通常只需几分钟即可使萃取量与原始浓度的比值达到最大.而浸入式SPME萃取时间多为30min，特别是极性分子，它们与水分子作用力较强，在水中扩散较慢，萃取时间相对较长，萃取通常要30min以上，如脂肪酸、农药等.
+　　对于浸入式SPME，适当升高水温可使分子运动加速，有机物分子扩散速度更快，从而萃取相/水相之间平衡时间可以缩短.对于顶空式SPME，适当升高水温可提高液上气体浓度，从而提高分析灵敏度.但是，萃取吸附是一个放热过程，升温反而使检验的灵敏度下降［12］，所以萃取通常在室温下进行.
+2.4　搅拌
+　　对水样进行搅拌上可使有机物分子分布均一化，更快达到分配平衡，缩短萃取时间.SPME水样用量通常是1～10mL，可用一个微小的磁力棒进行搅拌.
+2.5　无机盐
+　　水样中无机盐的加入可增加溶液离子强度，降低有机物的溶解度，从而提高萃取效率.在文献报道中，用NaCl来增加溶液离子强度最常见，并且浓度多为0.3g/mL［11，12，13，14，23］.
+2.6　pH值的调节
+　　样品的pH值的调节可提高酸性或碱性组分的亲脂性，从而提高萃取效率.如脂肪酸的萃取，为减少其在水中的酸性电离，可把溶液调到pH=1.5［14］.
+3　解析条件及与分析仪器的联用情况
+　　SPME的萃取头一般插入GC等的进样口解析.解析的难易程度主要由被萃取物质与萃取头作用力大小来决定.最佳解析条件可由解析量和解析温度及解析时间的解析曲线来决定.解析温度通常是150～250℃，对于难解析的分子，解析温度需要更高，如农药约300℃.对于含有高温易分解化合物样品，可在进样口采用程序升温方式进行.例如对于水中卤化消毒后的副产物，因为温度大于150℃时CHI3会分解，所以采用升温速度为5℃/min的方式从120→200℃或150→200℃(25℃/min).这样既可保证CHI3不热解，又不至于使许多极性分析物在较低温度无法解析［15］.解析时间通常为2～5min.
+　　SPME法与GC联用最常用，此外还可与HPLC［16］、紫外［17］、红外［18］等联用.其检出限为ppt、ppb级.
+4　SPME法在分析水中有机物的应用
+　　本文以列表的形式对SPME法在分析水中有机物的应用予以归纳.
+5　结语
+　　固相微萃取法在环境监测中(特别是水质分析中)的应用正在完善.因为SPME法测定结果的稳定性受萃取头类型、萃取方式、萃取时间、萃取温度、水样体积、顶空部分的体积、搅拌
+分析物质萃取及解析条件的选择①参考文献
+挥发性有机物100μmPDMS，浸入或顶空式，萃取(30min，20℃)②，解析(5min，20℃)③［9］
+95μmPDMS，85μmPA，解析(200℃，2min)浸入方式，萃取(30min，25℃和60℃)
+95μmPDMS，85μmPA，解析(200℃，2min)顶空式，萃取(10min，25℃和60℃)［19］
+甲醇、乙醇、丙酮、异丙醇等溶剂小分子75μmCarboxen/PDMS，浸入式，萃取(10min，室温)，解析(3min，260℃)［20］
+极性小分子Carboxen/DVB,顶空式，萃取(1.5min，50℃)，解析(3min，250℃)［21］
+苯、甲苯、乙苯二甲苯50μmPDMS传感纤维，紫外分光光度法［17］
+7μmPDMS和100μmPDMS，浸入式，萃取(10min，室温)解析(2min，150℃)［10］
+30μmPDMS，萃取(12s，室温)，解析(2.5min，250℃)，NaCl浓度0.35mg/L［11］
+多环芳烃7μmPA和100μmPDMS，萃取条件变化较大［22］
+固态键合相［6］
+芳香胺65μmCW/DVB，浸入式，萃取(30min，室温)解析(5min，260℃)，加入NaCl，pH=7.6)［23］
+氯仿100μm活性碳纤维，顶空式，萃取(100min，40℃)解析(3min，210℃)，萃取头老化超过0.5h［24］
+CHI及水中消毒副产物PA，解析时120℃→200℃(5℃/min)［15］
+脂肪酸PDMS、PA、Carboxen，浸入式，萃取前萃取头在270℃左右老化5h左右.加入NaCl且pH=1.5测短链酸时，萃取头使用前用5mg/mL的1-芘-重氮甲烷溶液浸泡1h［14］
+除草剂PDMS、PA、PDWS/DVB、CW/DVB，浸入式，萃取时间30min，解析温度280℃，NaCl浓度4M［25］
+65μmCW/DVB，萃取时间大于30min，解析(5min，240℃)，Nacl浓度0.3g/mL［13］
+杀虫剂85μmPA，萃取时间30min，解析(2min，250℃)［26］
+60μmPDMS，萃取40min，HPLC［16］
+85μmPA，浸入式，萃取(45min，55℃)，解析(2-5min，250℃)，萃取头使用前在300℃老化3h［27］
+有机磷农药15μmXAD，85μmPA，30μmPDMS，萃取时间5～180min不等［28］
+有机氯农药20种有机氯农药的测定在20min内完成［29］
+聚氯联萃100μmPDMS，萃取后溶于甲苯溶液中，再浓缩至300μL后进GC分析.［30］
+
+注：①未注明者分析仪器皆是GC
+②萃取(30min，20℃)表示萃取时间是30min，萃取温度是20℃
+③解析(5min，220℃)表示解析时间为5min，解析温度是220℃、pH值、无机盐的浓度和解析条件等诸多因素的影响，所以用该方法分析样品时，必须和校正曲线在完全相同的条件下进行.鉴于此，SPME自动进样器的开发和SPME法分析过程的标准化将是该方法成熟的标志. 
+作者简介：周宁孙(1970-)，男，硕士，工程师，现致力于GCQ、GC/MS的开发和应用工作，已发表论文5篇.
+作者单位：三明市环境监测站，福建 三明　365000
+参考文献：
+　[1]Arhtur C,Pawliszy.J.Anal.Chem.,1990,62,2145.
+　[2]魏复盛等.水和废水监测分析方法指南(下册)［M］.北京：中国环境科学出版社，1997，14～15.
+　[3]Chromatography products,supelco,1994.
+　[4]刘俊亭.新一代萃取分离技术——固相微萃取［J］.色谱，1997，15(2)，118～119.
+　[5]Ai,J.Headspace solid-phase microextraction.Dynamics and quantitative analysis before reaching a partition equilibrium［J］.Anal.Chem.,15 Aug 1997,69(16),3260-3266.
+　[6]Liu,Y.et al.Solid-phase microextraction of PAH from aqueous samples using fibres coated with HPLC chemically bonded silica stationarg phases［J］.Anal.Chem.15 Dec 1997,69124,5001～5005.
+　[7]Anon.supelco Rep.New portable field sampler opens new applications for solid-phase microextraction.1997,16(3),12.
+　[8]Gorlo,D.et al.Calibration procedure for solid-phase microextraction gas-chromatographic analysis of organic vapours in air［J］.Talanta,Sep 1997,44(9),1543～1550.
+　[9]Nilsson T.et al.Inter-laboratory studies for the validation of solid-phase microextraction for quantitative analysis of volatile organic compounds in aqueous samples［J］.Anal.chim Acta,19 Dec 1997,356(2～3),113～123.
+　[10]Valor,Z.et al.Direct solid-phase microextraction for determination of BTEX in water.J.High Resolut［J］.Chromatogr.Aug 1996,19(8),472～474.
+　[11]Schumocher,T.L.Fast screening of water and soil samples using solid-phase microextraction(SPME)［J］.Supelco Rep.,1997,16(1),8.
+　[12]Nilsson,T.et al An evaluation of sloid-phase microextraction for analysis of volatile organic comprounds in drinking water.J.High Resolut［J］.Chromatogr.,Oct 1995,18(10),617～624.
+　[13]Ferrari,r.et al.Inter-laboratory validation of solid-phase microextractionfor the determination of triazine herbicides and their degradation products at the nanogram-per-litre level in water samples［J］.J.Chromatogr.,A,6 Feb 1998,795(2),371～376.
+　[14]Pan,L.et al Determination of fatty acids using solid-phase microextraction.1 Dec 1995,67(23).
+　[15]Frazey,P.A.et al.Solid-phase microextraction with temperature-programmed desorption for the analysis of iodination disfection byproducts［J］. Anal.Chem.,1 Feb 1998,70(3),638～644.
+　[16]Gora-Maslak,G.et al.Solid-phase microextration for HPLC analysis of pesticides［J］.Supelco Rep.,1997,16(37),5.
+　[17]Merschman,s.A.et al Fibre-optic sensor for aromatic compound in water based on sloid-phase microextraction and ultraviolet evanescent wave absorption spectroscopy［J］.Appl.sperctrosc.,Jan 1998,52(1),106～111.
+　[18]Heglund,D.L.Determination of volatile organic compounds in water by sloid-phase microextraction and infra-red spectroscopy.Environ［J］.Scr.Technol.,Apr 1996,30(4),1212～1219.
+　[19]Jame,K.J.et al.Rapid determination of volatile organic compounds in environmentally hazardous waste using sloid-phase microextraction［J］.Fresenius'J.Anal.Chem.,Aug 1997,358(7～8),833～837.
+　[20]Shirey,r.Sloid-phase microextraction-capillayr GC analysis of solvents from water at low ppb levels［J］.Supelco Rep.,1997,16(2),6.
+　[21]Shirey,R.et al.solid-phase microextraction of alcohols and small polar analytes for capillary G C［J］.Supelco Rep.,1995,14(5),4～5.
+　[22]Langenfeld,J.J.et al.Quantitative analysis of fuel-related hyrocarbons in surface water and waste samples by solid-phase microextraction［J］.Anal.Chem.,1 Jan 1996,68(1),144～155.
+　[23]Mueller,L.et al.Determination of aromatic amines by solid-phase microextraction and gas chromatography-mass spectrometry in water samples.J.Chromatography-mass spectrometry in water samples［J］.J.Chromatogr.,A,12 Dec.1997,791(1～2),221～230.
+　[24]贾金平等.顶空固相微萃取法测定饮用水中的氯仿［J］.环境科学，1998，19(4)，79～81.
+　[25]Dugay,J.et al.Effect of the various parameters governing solid phase miorerxtraction for trace determination of pesticides in water［J］.J.chromatogr.,A,30 Jan 1998,795(1),27～42.
+　[26]Eisert,R.,et al.Determination of pesticides in aqueous samples by solid-phase microextraction［J］.J.Am.Soc.Mass spectrom.,Nov 1995,6(11),1119～1130.
+　[27]Aguilar,C.et al.Solid-phase microextraction and gas chromatography with mass spectrometric detection for the determination of pesticides in aqueous samples［J］.J.Chromatogr.A.30Jan 1998,795(1),105～115.
+　[28]Lopez-Avila,V.et al.Online determination of organophosphorus pesticides inwater by solid-phase microextraction and gaschromatography with thermionic-selective detection［J］.J.High Reslout.Chromatogr.Sep 1997,20(9),487～492.
+　[29]shirey,R.Fast screening for chlorinated pesticides using solid-phase microextraction and capillayr GC［J］.supelco Rep.,1994,14(4),4～5.
+　[30]Yang,Y.et al.solid-phase microextraction of polychlorinated biphenyls［J］.J.chromatogr.,A,27 Mar 1998,800(2),257～266.
+收稿日期：1998-12-10

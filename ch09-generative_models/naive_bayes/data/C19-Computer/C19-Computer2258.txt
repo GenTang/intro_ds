@@ -1,0 +1,142 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.5　P.15-17
+
+
+
+一种并发系统的规约方法
+刘剑　李彤
+摘 要　提出了并发系统的一种规约方法。这一方法可用于对并发系统进行建模和对模型的验证。将形式化工具融入到一种二维的规约方法中，这样就能使形式化工具更易于应用到并发软件的开发过程中。此外，还提出了一种并发系统的形式化抽象模型。
+关键词　并发系统　形式化规约　面向对象模式　Unity逻辑　软件开发方法
+1 引言
+　　对形式化方法而言，许多计算机科学家都认为它在软件开发过程中具有重要意义。但在实际的软件开发过程中该类方法过于琐碎而不能有效地处理大规模、复杂系统的开发。文献[7]就如何更有效地使用形式化方法提出了如下建议。
+　　．强调形式化模型和面向特定应用域的形式化方法；
+　　．应将形式化方法作为计算机辅助软件进化的基础；
+　　．应注意使用大粒度的软件复合技术，而要避免使用细粒度的、面向语句的方法。 在本文中，我们采用一种二维方法来规约并发系统。该二维方法采用一种图形化表示工具来表达一个实际系统的结构和行为，同时采用一种形式化的时序逻辑来表达和验证系统的功能和性质。将两种表示方法融合在一起具有如下优点。
+　　．可使用不同的表示方法来表达一个并发系统的不同侧面；
+　　．在开发过程中可针对不同抽象层次来建立系统的模型；
+　　．将该方法建立在一个良好的理论基础上(即形式化的时序逻辑)，这样将有利于继承使用已有的工具。
+1.1 面向对象模式
+　　为了形式化地描述规约方法，我们采用文献[2]中面向对象模式的概念来表达该方法。一个面向对象模式(Object-oriented pattern)是一系列具有相互关系的对象的集合，各个对象具有特定的功能和接口。对象可用来描述某一方法中的各个部件(这里指规约工具)、部件间的关系及约束。这样多个对象将形成一个完整的、严格的系统。
+1.2 一种基于逐步求精的开发过程
+　　一个并发系统包含一系列相互作用的模块，这些模块间具有特定的同步、互斥关系。各模块在同一地址空间中交互作用从而完成系统功能。就某一模块而言，它本身可能就是一并发系统，即它可能就是一系列相互作用的子模块的集合；或者它是一个不可中断的原子程序，在这样的原子程序中可包含顺序、条件和循环控制结构。
+　　基于以上的计算模型，并发系统的开发过程可具体地分为两个步骤：性质求精阶段和程序求精阶段。在性质求精阶段，是将一性质集S求精为一更强的性质集T，T比S更具体、更易于实现。在这样的求精过程中要将系统分解为低一级的并发模块，这些模块交互在一起要实现的S性质，而对每一模块仅需实现分配给自己的T的一部分性质。在分解的过程中应定义好各模块的界面和行为限制，分解得到的低一级的系统要保证满足高一级的系统所具有的良好性质。性质求精过程一直进行，直到得到一模块规模适中的系统模型。接着对得到的抽象的系统模型进行程序求精，程序求精的目的是用某种编程语言在具体的计算机体系上实现该抽象模型。程序求精必须保证所得到的各程序模块完全实现相对应的抽象模块的性质规约。在性质求精过程中我们关心的是语义(或逻辑)的正确性保证；而在程序求精阶段我们则要保证将语义用正确的语法(或编程语言)实现。在本文中我们只讨论对性质的求精。
+2 Unity逻辑
+　　Unity是一种用来规约和验证并发程序的理论系统。该理论包括三个主要部分：一种简单的编程语言用来书写程序；一种逻辑表示法用来表达程序所满足的性质；一个验证系统用来验证程序满足特定的性质。通常地，一个Unity程序由三个部分构成：Declare部分用来声明该程序所用到的变量；Initially部分用来给变量赋初值；Assign部分是一非空赋值语句集。
+　　但是用传统的Unity逻辑来规约并发系统有两个不适应的方面。一是该逻辑缺少控制流，Unity程序是一多重赋值语句组成的集合，在程序内部各语句间仅存在并发关系而没有通常顺序程序所具有的顺序、条件和循环控制结构。其次Unity逻辑是面向语句的即它所描述的是一种细粒度的并发系统，这一特点使得用该逻辑来规约、验证过于琐碎而不能有效地处理大型复杂系统。因此本文中，我们将新的特征引入Unity，从而得到一种并发系统的形式化抽象模型以用来规约并发系统。我们的工作如下。
+　　．将Unity程序的粒度扩大为面向模块级；
+　　．在模块内引入控制结构。
+2.1 并发系统的形式化抽象模型
+　　定义1：并发系统的抽象模型是四元组sys=(Vp,Vs, Is, S)，其中Vp表示由有限个私有变元集所组成的类，称私有变元类，其元素和固定的并发模块相关，仅供该模块作读写访问；
+　　Vs表示由有限个共享变元所组成的集，称共享变元集，其元素允许多于一个模块作读写访问；
+　　Is称变量初始化例程，它对系统中部分共享变元给定初值，Is在系统运行前仅执行一次；
+　　S表示由有限个并发模块组成的集合，称并发模块集，它是并发系统的核心部分。
+　　定义2：并发模块的形式化规约是四元组 mod=(Vmod, Imod, ENB, FB)，其中
+　　Vmod是模块的私有变元集，Vmod可以是空集；
+　　Imod是该模块的初始化例程，它对Vmod中的变元给定每次运行时的初值。
+　　ENB是Vs上的逻辑谓词，称该模块的触发条件，它表达要触发该并发模块应满足的系统状态。
+　　FB是VsVmod上的逻辑谓词，称该模块一次执行完成时的后断言，它表示模块一次执行完成时系统所处的状态。
+　　注意，并发模块必须是在有限时间内可执行完成的原子模块，即它不能在执行过程中被中断。一个并发系统模型sys运行结束(或到达不动点)当且仅当sys运行到达这样的状态：在该状态下sys.S中的任一模块mod的ENB为假。
+2.2 时序操作算符
+　　对一个并发系统模型而言，我们通常考虑两种重要的性质：安全性，这类性质要求在系统的整个运行过程中都保持为真；进展性，这类性质要求在系统运行结束(或到达不动点)时为真。Unity中有三个主要的逻辑运算符：unless，ensures和leads-to。前面一个是用来表达安全性的，后两个是用来表达进展性的。对以上三个时序运算符，我们都针对前面的系统模型给出相应的定义。
+2.2.1 unless'
+　　对一个给定的系统模型sys, p unless' q指的是一旦谓词p为真，则p一直为真直到谓词q为真。即：
+
+2.2.2  ensures'
+　　对一个给定的系统模型sys，p ensures' q指的是p unless' q对该系统成立，同时若谓词p在一个模块执行前为真则在该模块执行结束时q为真。即：
+
+2.2.3  leads-to'
+　　对一个给定的系统模型，p leads-to' q指的是谓词p为真，则能导致谓词q为真。但leads-to'和ensures'不同，即在q为真前谓词p可能为真也可能为假。
+
+3  并发系统的二维规约方法
+　　二维的系统规约方法包括一种图形规约工具，用来表达系统的行为和结构，一种形式化规约工具，用来具体地描述系统的功能和性质。如图1所示，该方法包括七个对象。
+　　．图形表示工具：用来描述规约系统行为、结构的图形规约工具。在我们的规约方法中，我们用状态图作为图形工具来规约系统的行为和结构。状态图(State Chart)是一种常用的图形化的系统表示方法，之所以选择它是因为状态图有助于软件开发人员从图形化到形式化、从抽象到具体的过渡。
+　　．逻辑表示工具：用来描述规约系统模型、性质的形式化规约工具。这里，形式化的规约工具就使用以上所述的系统模型及验证方法。
+　　．系统状态图示：包括用图形规约工具表示的某一并发应用系统的行为、结构图示。
+　　．系统抽象模型：是用形式化规约工具表示的某一并发应用系统的形式化抽象模型。
+　　．系统性质：包括用形式化规约工具表示的某一并发应用系统应该满足的逻辑谓词。系统性质包括：命题、带变量的谓词和时序逻辑谓词。
+　　．映射关系：描述某一具体并发系统的状态图示和形式化的系统模型之间的对应关系。
+　　．性质证明器:用来证明某一具体并发系统的抽象模型满足所要求的性质。若所用的逻辑系统有现成的机器证明系统，否则指人工证明。
+
+图1一种并发系统的规约方法
+　　图1中最上的两个框表示图形表示工具和逻辑表示工具，它们是在方法一级上对所用的规约工具进行描述；中间的三个框表示系统的状态图示、抽象模型和性质，它们是针对某一具体的应用系统使用两类工具分别表示其行为图示、模型和性质；最下的两个框表示某一具体的应用系统的行为图示、模型和性质之间的关系。
+4  规约方法的形式化表示
+　　下面通过面向对象模式来描述以上的规约方法。在模式的描述中采用了文献[2]Gamma等的表示方法。
+4.1  模式1：DiagramSpec(图形规约)
+　　图形表示类：  
+class: DiagramNotation  
+　　attributes:
+　　atomic-elements: P Token
+　　compound-elements: P Token
+　　start-element: Token
+　　structural-rules:
+P(compound-elements→P(atomic-elementscompound -element))
+operations:
+restrictions: 'the start-element must be a compound element'.
+　　状态图：
+object: StateChart instance-of Diagram- Notation
+attributes:
+atomic-elements: { initial-state, trigger, effect };
+compound-elements:{system,actiondiagram,　　class, entity }
+start-element: system
+　　structure-rules: {system?actiondiagram
+　　actiondiagram→P class ( P entity
+　　entity→initial-state ( P action,
+　　action→trigger( effect;...}
+　　说明： 
+system：被规约的整个系统；
+actiondiagram：系统的状态图示，包括各个实体行为及其之间的关系；
+class：系统中某类实体的抽象表示;
+entity：系统中具体实体的描述，它类的实例化;
+initial-state: 系统中各个实体的初始状态描述；
+action：实体的一个行为描述;
+trigger：用来表示action的触发条件;
+effect：用来表达action的行为结果。
+4.2  Pattern 2: LogicSpec (逻辑规约)
+　　逻辑表示类：
+class：LogicNotation
+attributers:
+atomic-elements: P Token
+compound-elements: P Token  
+structural-rules:
+P (compound-elements→P (atomic-elements(compound-elements))
+operators: P Token
+theorems: P rewriting-rule
+operations:
+restrictions:
+　　系统抽象模型：
+object: Abstractmodel instance of LogicNotation
+attributes:
+atomic-elements: {truth-value, variable, constant}
+compound-elements: {system-model, module, ENB, FP, predicate, 
+  quantified-predicate,  proposition, relation-expression}structural-rules: {system-model→P module, model→ENB(FP, ENB→P predicate, FP→P predicate, predicate→propositionquantified-predicate, proposition→relation-expression, relation-expression→(variable(constant)(operators((variable(constant),..}
+operators:{+,(,relation-operators(<,≤,>,≥,=), logical-connectives quantifiers (, ), temporal-operator (unless', stable', invariant', ensures' andleads-to') }
+　　Theorems: {自反性, 反自反性, 弱后件推导, 合取定理, 析取定理, PSP定理, etc...}
+说明：
+system-model：整个系统的抽象模型；
+module：通过ENB和FP来描述系统中各个模块的行为约束；
+predicate：系统中模块行为功能限制的逻辑表示；
+quantified predicate ：带全称量词或存在量词的谓词；
+proposition(命题)：对一个事实的逻辑陈述；
+relation-expression(关系表达式):：用来表达变量、常量之间的关系；
+true value(真值)：true或false；
+operators：包括关系操作符(relation-operators)、谓词逻辑操作符
+　(logic-connectives)和时序逻辑操作符(temporal-operators)；
+5  结束语 
+　　本文提出了一种二元的并发系统规约方法，它将图形化工具和形式化工具紧密的结合在一起，使该方法能更好地应用到实际的开发过程中。
+本项目获得云南省自然科学基金资助(98F005G)
+获云南省中青年科技带头人培养基金资助(1998-37)
+刘剑(云南大学计算机科学系 昆明 650091)
+李彤(云南大学计算机科学系 昆明 650091)
+参考文献
+1，Mary Shaw, David Garlan. Software Architecture: Perspectives of an Emerging Discipline. Prentice-Hall, 1996
+2，Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. Design Patterns: Elements of Reusable Object-oriented Software. Addison-Wesley, 1995
+3，R. Wirfs-Brock. Object-oriented Frameworks. American Programmer 4 (10) (1988)
+4，K. M. Chandy and J. Misra. Parallel Program Design: A Foundation. Reading, MA: Addison-Wesley, 1998
+5，Ying Liu, Ambuj K. Singh, and Rajive L. Bagrodia. A Decompositional Approach to the Design of Parallel Programs. IEEE Transitions on Software Engineering, Vol. 20, No. 12, 1994
+6，Boutheina Chetali. Formal Verification of Concurrent Programs Using the Larch Prover. IEEE Transaction on Software Engineering, Vol. 24, No. 1, 1998
+7，Lu Qi, Joseph Goguen. Formal Methods: Promises and Problems. IEEE Software 1997
+8，Colin Fidge, Peter Kearney, Mark Utting. A Formal Method for Building Concurrent Real-Time Software. IEEE Software 1997
+9，Bo Sanden. Modeling Concurrent Software. IEEE Software 1997
+10，李玉茜， 杨宗源. 并行程序设计. 上海：上海科技文献出版社, 1994
+收稿日期：1999-10-3

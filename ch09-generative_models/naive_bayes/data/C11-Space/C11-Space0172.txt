@@ -1,0 +1,76 @@
+宇 航 学 报
+JOURNAL OF ASTRONAUTICS
+1998年  第3期   No.3 May   1998
+科技期刊
+航天器柔性伸展附件非线性
+振动稳定性研究*
+
+李俊峰　王照林
+(清华大学工程力学系*北京*100084)
+　　摘　要　研究由中心刚体和柔性伸展附件组成的非线性刚柔耦合系统,假设附件为有限变形梁,但本构方程是线性的。利用能量积分构造Lyapunov函数,根据部分变量稳定性定理,证明了当中心刚体无控制力矩,附件驱动力为零时,梁在等速伸展或收缩时的横向非线性振动是稳定的。
+　　主题词　伸展柔性梁　刚柔耦合系统　部分变量稳定性
+STUDY ON THE STABILITY OF NONLINEAR 
+VIBRATIONS OF A DEPLOYING FLEXIBLE 
+APPENDAGE OF A SPACECRAFT
+
+Li Junfeng　Wang Zhaolin
+(Department of Engineering Mechanics,Tsinghua University*Beijing*100084)
+　　Abstract　Consider a rigid-flexible coupled system which consists of a central rigid body deploying a flexible appendage.The appendage is modeled as a finite deflection beam having linear constitutive equations.By taking the energy integral as Lyapunov function,it is proved that nonlinear transverse vibrations of the beam undergoing uniform extension or retrieval are stable when there are not controlling moment in the central rigid body and driving force on the beam,according to the partial stable theorem.
+　　Key words　Deploying flexible beam　Rigid-fiexible coupled system　Partial stability
+1　引　言
+　　近年来,航天器的柔性附件(梁、板等)在伸展过程中的振动得到了广泛的关注［1-4］。目前的研究都假设附件的柔性变形是小变形,将梁的横向位移按照梁的振型展开成无究级数并进行模态截断,然后利用数值积分方法或者渐近方法求解线性化的时变常微分方程组。文献［1］的渐近公式表明,在等速伸展时所有模态振动发散。文献［2］的计算结果表明,在等速伸展时有一些模态振动发散而另一些模态振动稳定。这两个结论有差异的原因在于对系统模型的简化程度不同。文［1］假设航天器中心刚体的运动与附件的伸展和振动不耦合,所得渐进分析解适用于中心刚体固定不动的情况。文［2］考虑了刚体运动和附件运动的耦合,但是基于小变形假设对系统运动方程进行了线性化处理,所以耦合仅限于线性耦合。
+　　由于现代航天器的附件具有尺寸大、重量轻、柔性大等特点,小变形假设已经不再适用。本文假设附件是本构方程为线性的有限变形梁,考虑中心刚体运动与附件运动的非线性耦合,利用Lyapunov直接法严格证明了等速伸展或收缩的梁的横向振动是稳定的。
+2　系统建模
+
+
+图1　系统示意图
+考虑图1所示作平面运动的力学系统。CX0Y0是惯性坐标系,而OXY是描述梁伸展运动和变形运动的固联于中心刚体O点的动坐标系。设OX轴相对惯性坐标系的转角为α(t)。梁未变形状态的自然位置沿OX轴方向,长度为L(t)。设Q为梁上任意点,在梁未变形状态Q点在动坐标系中的坐标为(x,0),在梁变形状态Q点在动坐标系中的坐标为(X(x,t),Y(x,t)),梁的中轴线在Q点的切线与OX轴夹角为θ(x,t)。记OX轴和OY轴的单位矢量分别为i→和j→。
+则Q点向径为
+
+Q点的绝对速度为
+
+Q点的绝对加速度为
+
+梁对固定点C的动量矩为
+
+其中ρ为梁的密度,A为横截面面积。
+设梁为不可伸长的,等截面的转动惯量为I,则系统的运动方程为［5］
+
+
+式中E为弹性模量,Ic和Mc(t)分别为中心刚体的转动惯量和控制力矩。M(x,t),P(x,t),S(x,t)分别是梁的弯矩、轴向力和剪力,连界条件为
+
+式中F(t)为梁的伸展驱动力。
+容易验证,当Mc(t)=0,F(t)=0时系统运动方程有如下特解:
+
+该特解表示的运动是中心刚体不转动,梁无横向变形地等速伸展或收缩。
+3　稳定性分析
+　　为研究特解的稳定性,取如下扰动变量:
+
+代入系统运动方程(1)-(7)得扰动方程
+
+系统的动能为
+
+系统的势能为
+
+当Mc(t)=0,F(t)=0时,系统有能量积分
+H=T+V=const
+(10)
+将扰动表达式代入得
+
+(11)
+显然,H≥0,从H的表达式(11)可知,只有
+
+(12)
+时,H才可能取零值。利用边界条件(8),由(12)可得
+ω=0,　θ=0,　y==0
+所以H是关于部分变量ω,θ,y,的正定函数,根据部分变量稳定性定理［6］,特解(9)关于部分变量ω,θ,y,是稳定的。
+4　结　论
+　　可定轴转动的中心刚体和安装在其上柔性附件组成一个刚柔耦合系统。假设附件为有限变形梁,则系统的运动微分程是非线性的。如果中心刚体的控制力矩、附件的驱动力和中心刚体初始角速度均为零,那么当梁等速伸展或收缩时,其横向非线性振动是稳定的。
+参考文献
+1　Kalaycioglu S,Misra A K.Approximate Solutons for Vibrations of Deploying Appendages.Journal of Guidance,Control and Dynamics,1991,14(2):287-293
+2　Ibrahim A E,Misra A K.Attitude Dynamics of a Satellite During Deployment of Large Plate-Type Structures.Journal of Guidance,Control and Dynamics,1982,5(5):442-447
+3　Modi V J,Ibrahim A E.A General Formulation for Librational Dynamics of Spaccraft with Deploying Appendages.Journal of Guidance,Control and Dynamics,1984,7(5):563-569
+4　Li Junfeng,Wang Zhaolin.Approximate Solutions for Attitude Dynamics of a Spacecraft with Deploying Flexible Appendages.IFAC,IACA,1995,Beijing,pp.378-382
+5　肖世富,陈滨.一类刚-柔耦合系统的建模与稳定性研究.力学学报,1997,29(4):439～447
+6　Румянцев　В　В，Озиранер　А　С．Устойчивостъ　и　стабидизация　
+движения по　отношению　к　части　переменных．М:《НАУКА》,1987

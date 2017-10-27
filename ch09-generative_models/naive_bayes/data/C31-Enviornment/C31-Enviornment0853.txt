@@ -1,0 +1,129 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+厌氧颗粒污泥反应器修复模拟受PCP污染地表水的性能研究*
+徐向阳　俞秀娥　华　剑　郑　平　冯孝善　
+摘要　研究了用于修复模拟受PCP污染地表水的厌氧颗粒污泥反应器降解PCP活性的维持条件和修复性能.结果表明，降解PCP活性可通过连续提供电子供体和选择压力来维持，操作条件为COD进水/PCP进水>30，此时反应器具有稳定的PCP去除和产甲烷性能；颗粒污泥反应器修复受PCP污染地表水的性能与过程稳定性受电子供体类型、数量的影响.当COD/PCP>150-200，HRT为0.5d时，含PCP 12.91.mg/L的模拟受污地表水经厌氧反应器修复后，其PCP浓度可低于1.PPb，生物毒性明显降低.
+关键词　厌氧颗粒污泥反应器；PCP；受污染地表水；生物修复.
+The performance of anaerobic granular sludge reactor for remediating simulated P CP-contaminated surface water
+XU Xiangyang， YU Xiu'e, HUA Jian, ZHENG Ping, FENG Xiaoshan
+Department of Environmental Science,Zhejiang University ,Hangzhou 310029
+Abstract　The operative conditions for maintaining PCP-degrading activity of anaerobic ra nular sludge reactor and its performance for remediating PCP-contaminated surface water were investigated.The results showed that the PCP-degrading activity could be maintained by supplying electron donor (organic wastewater) and select ive pressure (PCP).The ratio of CODinf/PCPinf should be above 30 for stabilizing PCP removal and methanogensis in anaerobic reactor.The performances a nd process stability of anaerobic granular sludge reactor for remediating simula ted PCP-contaminated surface water were influence by the kinds and mass of elec tron donor.When the PCP-contaminated surface water used as influent with PCP co ncentration of 12.91.mg/L,1.ppb of PCP in remediated water was obtained unde r CODinf/PCPinf>150-200 and HRT 0.5d,the biotoxicity of remediate d water was disappeared.
+Keywords　anaerobic granular sludge reactor,PCP, contaminated s urface water,bioremediation.
+　　　五氯酚(PCP)广泛用作除草剂、木材防腐剂及粘结材料添加剂，自生产和使用以来，对受纳环境的污染相当严重.美国LTU木材防腐厂受污土壤中PCP含量可达到2-9000mg/kg,新西兰某农业化工厂固体废物沥滤液中PCP浓度达到50mg/L，芬兰某木材加工厂周围地下水PCP浓度达到0.15mg/L,国内已在许多河流中检测有PCP-Na的存在［1-4］.有鉴于PCP的生物毒性，如何处理受污土壤、水体(包括地下水)，消除其生态风险，恢复环境功能，已成为当今环境工程领域的一个研究热点.就污染环境修复技术而言，生物修复(Bioremediation)技术的可行性已被国外研究者认同，并在降解性菌株分离、菌群(cosortium)培养及生物修复工艺等方面作了广泛的研究［1，5，6，7］，但国内这方面的研究尚处于起步阶段.
+　　本研究基于厌氧微生物对PCP等氯代芳香族化合物具有依赖电子供体还原脱氯特性，在实验室规模上应用工业有机废水作为共基质(Co-substrate)培养获得可降解PCP的颗粒污泥，以此颗粒污泥为材料，研究颗粒污泥反应器降解PCP活性的维持条件，修复模拟受污染地表水的性能，以期为受PCP污染环境的修复提供高活性微生物资源与工艺技术参数.
+1　试验材料与方法
+1.1　厌氧生物反应器
+　　本实验启用3套装置，其中一套用于颗粒污泥活性维持的研究，其有效体积1.9L，反应器内颗粒污泥浓度33.3g(VS)/L，另二套用于生物修复试验，反应器有效体积0.97L，颗粒污泥浓度36.2g(VS)/L.三套反应器的工艺流程相类似，如图1所示.
+
+
+　图1　厌氧颗粒污泥生物反应器装置与工艺流程
+1.进水贮瓶　2.进水蠕动泵　3.回流蠕动泵　4.生物反应器　5.污泥取样口　6.气液固三相分离器　7.出水贮瓶　8.气体流量计
+　Fig.1 The set-up and flowchart of anaerobic granular reactor
+1.2　颗粒污泥活性维持试验
+　　试验所用的颗粒污泥取自以柠檬酸生产废水作为共基质，处理含PCP废水的厌氧反应器.维持试验在1.9L厌氧反应器上进行，反应器进水PCP浓度基本恒定，HRT为1.0d，进水中有机废水COD浓度由6000mg/L逐渐降至500mg/L左右，在此条件下考察进水COD浓度(COD负荷)对反应器去除PCP、COD等性能的影响，从反应器稳定性出发，确定维持PCP降解活性的操作条件
+1.3　受PCP污染地表水的修复试验
+　　为考察具有降解PCP活性厌氧颗粒污泥应用于修复因受突发性泄漏事故引起的污染水体的可行性，试验设计利用颗粒污泥生物反应器修复模拟的受PCP污染地表水.PCP浓度控制在其溶解度以下(20℃，PCP在水中溶解度为14.0mg/L)，HRT为0.5d.同时根据PCP厌氧还原脱氯过程对电子供体的依赖性，一只反应器直接以模拟受污染地表水作为进水，以颗粒污泥作为内源性电子体.另一只进水中添加一定浓度的易降解有机废水，作为还原脱氯的电子供体.每隔一定时间取样测定反应器进出水中PCP、COD浓度，评价生物反应器修复污染地表水的性能.
+1.4　分析方法
+　　PCP分析在Waters HPLC上进行，进水样1.0mL，加0.5mL乙腈混匀离心(104r/min) 10min，取上清液作为HPLC待测样品，测定条件为：Waters 510泵，Novapak C18层析柱，490可编程多波长检测器，检测波长300nm,流动相2%HAC/甲醇(15∶85)，流速1mL /min；模拟受PCP污染地表水修复前后的生物毒性分析，采用水质急性毒性发光细菌法(GB/T 15441-1995)；CODCr、NH4+-N、NO3--N、PO43--P等常规指标按照水和废水监测分析方法(1989)测定.
+2　结果与分析
+2.1　颗粒污泥性状
+　　本实验颗粒污泥取自以柠檬酸废水作为共基质的处理PCP废水厌氧反应器.颗粒污泥的形成历时6个月，其外形大多呈球形，直径为0.5-4.5mm，大部分在0.5-1.5mm之间(图2).污泥表层呈黑色.荧光显微镜、扫描及透射电镜观察表明，其表层分布有大量杆状丝菌和少量杆菌.有关性状见表1.
+
+
+图2　厌氧颗粒污泥粒径分布
+Fig.2 The diameter distributioj of anaerobic granular sludge
+表1　以柠檬酸废水作为共基质培养形成降解PCP颗粒污泥的性状
+Table 1 The characteristics of PCP-degrading anaerobic granular taken fr om anaerobic reactor with 
+the critric acid producing wastewater as cosubstrate
+
+指标粒径,
+mm湿密度，
+g/cm3VS/TSUmaxCH4，
+mL/(g(VSS).d)F420，
+mmol/g(VSS)
+指标值0.5-1.51.0540.6960.25.64×10-5
+
+2.2　颗粒污泥降解PCP活性的维持
+　　本试验根据前期的研究结果，以期供给低电子供体水平(COD浓度)，获得维持颗粒污泥降解PCP活性的低费用、低生态风险的操作条件.从结果(表2)来看，在高COD浓度进水条件下，反应器出水中PCP浓度低于检测限(1ppb),这一结果提示反应器中PCP经还原脱氯作用后，可被生物完全转化或降解.随着进水COD浓度递减，出水中PCP浓度缓慢增加，但PCP去除率受COD浓度影响不明显，故说明在受试的COD浓度条件下，有机物(COD)降解所产生的电子供体基本上能满足PCP还原脱氯的需要；且在相对恒定的PCP负荷下，对COD去除无明显的抑制作用.特别在平均进水COD浓度为650.5mg/L(554.5-723.3mg/L)，为期21天的运行过程中，颗粒污泥仍然保持相对稳定降解PCP活性，平均PCP去除率达到99.4%.但该条件下容积产气率和物料产气率两指标有明显降低，其原因很可能是电子供体量受到限制，流向产甲烷过程的电子供体量减少，即产甲烷过程受基质竞争性抑制.根据如上结果，综合考虑反应器稳定性，为产甲烷过程和PCP还原脱氯过程的稳定行，COD进/PCP进应大于30，此时颗粒污泥降解活性可得以维持，且相对稳定. 
+表2　颗粒污泥反应器降解PCP活性维持的运行结果*
+Table 2 The operating results of anaerobic granular sludge bioreacto r for maintaining PCP-degrading activity
+
+COD浓度，mg/LCOD负荷，
+g/(L.d)PCP浓度，mg/LPCP负荷，
+mg/(L.d)容积产气率，
+L/(L.d)物料产气率，
+L/g(COD)
+进水出水去除率，%进水出水去除率，%
+6091.2272.195.56.0419.23ND10019.22.660.44
+4212.0165.296.04.2118.21ND10018.31.750.42
+2146.087.696.02.1520.670.1099.520.70.940.44
+1527.858.396.21.5316.390.1199.416.40.570.37
+650.336.894.40.6522.300.1599.422.30.230.35
+
+表中数据系每组稳态条件下3-7d的平均值，其中第5组数据为运行时间21d的平均值，ND为未检出
+2.3　颗粒污泥修复受PCP污染地表水的性能
+　　以本校华家池作为模拟受PCP污染的水体，有关理化特性指标如表3.
+表3　华家池水的理化特性
+Table 3 The physical chemistry characters of surface wate r fromHua family pool
+
+pHCOD,mg/LNH4+-N,mg/LNO3--N,mg/LPO43--P,mg/L,PCP去除率，%
+8.413.71.0445.9110.034未检出
+
+　　表4、表5为厌氧颗粒污泥反应器修复模拟受PCP污染地表水的性能.结果表明在进水PCP 12.6-13.6mg/L,HRT0.5d，无外源性电子供体的条件下，颗粒污泥反应器降解PCP性能有一个活性适应-活性最高-活性衰退的过程.原因是：用于修复试验的颗粒污泥取自以易降解有机废水作为外源电子供体的反应器，一旦切断颗粒污泥还原脱氯降解所需电子供体，污泥内各类群微生物业已建立的稳定的食物链网被扰乱，脱氯微生物不能及时利用“卤呼吸”作用(halorespiration)进行有效的能量代谢，从而制约PCP的脱氯降解；但随运行时间的推进，颗粒污泥中起脱氯作用的微生物得到适应，并利用有限的内源性电子供体对PCP进行脱氯降解，使PCP去除性能得到改善.随内源性电子供体耗竭，反应器PCP去除率又逐渐下降，出水中PCP浓度急剧上升，在反应器运行17d后，出水PCP浓度>0.50mg/L，修复性能恶化.
+表4　无外加电子供体时颗粒污泥反应器修复受污地表水的性能
+Table 4 The bioremediation performance of PCP-contaminated surface water by anaerobic granular sludge reactor with supplemental electron donor
+
+运行时间,dPCP浓度,mg/LPCP去除率,%
+进水出水
+413.650.7794.3
+713.650.1798.8
+1013.650.0899.4
+1412.920.2897.8
+1712.920.7294.4
+2112.723.3673.6
+
+表5　有外源电子供体时颗粒污泥反应器修复受污地表水 的性能
+Table 5 The bioremediation performances of PCP-contaminated surface water by anaerobic granular sludge reactor with supplemental electron donor
+
+运行时间,dCOD浓度,mg/LCOD
+去除率，%COD负荷，
+g/(L.H)PCP浓度，mg/LPCP
+去除率，%PCP负荷，
+mg/(L.H)
+进水出水进水出水
+42071.2116.594.44.1412.910.0399.825. 82
+72199.4123.794.44.3912.910.1698.825.82
+102196.9121.294.54.3912.91ND100.025.82
+141019.668.693.32.0312.620.0299.925.24
+171043.591.891.22.0912.620.2198.325.24
+21523.852.490.01.0512.960.7294.525.92
+
+　　在有外源电子供体的运行条件下，电子供体--COD浓度直接影响反应器去除PCP的效能(表5).当外加有机物COD>2000mg/L，即COD负荷为4g／（L.d)左右，可使地表水中的PCP浓度由12.91mg/L降至检出限水平.当外加COD<1000mg/L时，PCP和COD去除效能呈下降趋势，但运行性能仍优于对照(表4).比较表4结果，外源电子供体可起到如下的作用：维持了颗粒污泥降解PCP活性；提供了PCP还原脱氯降解所需的质子.故在本实验条件下，当外加有机物(COD)浓度大于2000mg/L,即COD外源/PCP地表水为150-200，可使修复后地表水中仅有微量PCP或不会检出PCP.
+　为考察受污染地表水修复前后的生物毒性，试验在反应器运行10d时采样作了生物毒性分析，结果如表6所示.根据Bulich生物毒性评价标准：EC50<25%剧毒，25%<EC50<75%甚毒，75%<EC50<100%微毒，EC50≥100%无毒.可见修复后的模拟受PCP污染地表水生物毒性明显降低，达到无毒水平.
+表6　受污染地表水修复前后生物毒性变化
+Table 6 The biotoxicity of PCP-contaminated surface-water and remediated water
+
+反应器运行条件相对发光强度，%EC50，%
+修复前水样修复后水样修复前修复后
+无外加电子供体19.589.341.5≥100
+外加电子供体18.295.140.5≥100
+
+3　结论
+　　1.以工业有机废水作为共基质形成的降解PCP厌氧颗粒污泥，其降解活性可通过连续提供一定电子供体和选择压力来维持.
+　　2.厌氧颗粒污泥反应器能高效修复受PCP污染的地表水，以污泥内源电子供体参与时，颗粒污泥降解PCP的活性可维持一定时间，而在提供外源电子供体时，其PCP降解活性可得到强化和稳定，污染地表水PCP浓度可降至1ppb以下.
+　　3.模拟受PCP污染地表水修复后不存在生物毒性.
+* 清华大学环境模拟与污染控制国家重点开放实验室资助项目
+作者单位：　浙江大学环保系，杭州 310029
+参考文献
+[1]　Geoffrey C et al.In:Salyer G S (Eds).Full-scale bioremediation of contaminated soil and water.Environmental Biotechnology for Waste Treatment.(NY )Plenum Press.1991
+[2] Valo R et al.Bioremediation of chlorophenol containing simulated groundwa ter by immobilized bacteria.Wat Res,1990,24(2):253
+[3] Mueller J G et al.Bench-scale evalution of alternative biological treatm ent process for remediation of PCP and creosote contaminated materials:Solid-ph ase bioremediation.Environ Sci Tchnol,1991,25(6):1045
+[4] 徐向阳等.厌氧颗粒污泥降解五氯酚活性的研究.应用与环境生物学报，1996，2(4)：399 
+[5]　Suflita J M et al.Ecology and evolution of microbial populations for bior emediation.Trends in Biotechnol,1993,118:344
+[6] Wu W M et al.Performances of anaerobic granules for degrdation of PCP.App l Environ Microbiol,1993,59(3):389
+[7] Mueller J G et al.Bench-scale evalution of alternative biological treat ment process for remediation of PCP and creosote contaminated materials:Slurry- phase bioremediation.Environ Sci Technol,1991,25(6):1055
+1997-08-11收到原稿　1998-04-20收到修改稿

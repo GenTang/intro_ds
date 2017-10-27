@@ -1,0 +1,38 @@
+北京农业科学
+BEIJING AGRICULTURAL SCIENCES
+1999年　第17卷　第6期　Vol.17　No.6　1999
+
+
+
+小麦族中普通小麦与其近缘种属间染色体自然易位产生的原因
+樊路　李军辉
+　　在小麦族中普通小麦与其近缘种属间染色体易位(spontaneous translocation)是经常发生的［1，2］，它在获得有价值的育种材料方面有特殊的意义。例如，人们共知的普通小麦——黑麦1B-1R易位系就是自然产生的［3，4］。它已把黑麦中的抗条锈基因Yr9，抗叶锈基因Lr26，抗秆锈基因Sr3，抗白粉病基因Pm8和抗蚜虫基因(Gb)转移到了普通小麦中获得了优良的育种材料，在欧洲以致世界范围内的小麦育种中得到广泛应用，培育出了许多优良品种，在全世界小麦增产上起了不可估量的作用。此外，还有许多自然发生的染色体易位，在一些国家，一些地区的小麦育种中也起了很大作用［5，6］。所以，探明普通小麦与其近缘种属间染色体自然易位的原因，对于发现寻找自然易位系，获得有用的育种材料具有特殊的意义。本文即是对有关染色体自然易位的原因加以综述。
+1　自然射线引起
+　　在自然界中有许多射线，例如宇宙射线、太阳射线等，由于它们的照射可使普通小麦染色体及其近缘种属的染色体均发生断裂，并且发生相互间拼接，形成普通小麦与其近缘种属间的染色体易位。它们可能是部分同源染色体，也可能是非同源染色体间的易位。
+2　互锁二价体(interloked bivalent)的分离［7］
+　　在普通小麦与其近缘种属的杂种中，减数分裂期间当受到热冲击等理化因素作用时，会产生二价体的互锁现象。当两个互锁的二价体(一个为普通小麦的二价体，另一个为其近缘种属的二价体)分离时，会发生普通小麦染色体与其近缘种属间染色体间的易位。
+3　互相配对的部分同源染色体发生交换(crossing-over)
+　　在普通小麦与其近缘种属的杂种中，由于普通小麦5B染色体的失去或者普通小麦控制染色体配对的主要基因Ph1受到抑制［8～10］，普通小麦与其近缘种属的部分同源染色体间便可以相互配对，同时发生交换，形成普通小麦与其近缘种属间部分同源染色体易位。由于它们是部分同源染色体，具有相互补偿作用，所以易位后对于普通小麦影响很小，这样的易位，其利用价值更大。
+4　同源染色体片段(segment)的作用
+　　在普通小麦与其近源种属非同源(non-homologous)染色体间，由于存在共同的染色体片段(common segment)，在减数分裂时会引起相互配对，并发生交换，而形成普通小麦与其近缘种属间的染色体易位。研究表明，在小麦族的染色体中，具有共同片段的现象并不罕见，这主要是由于在小麦进化过程中形成的［7］。
+5　由单价体错分裂(misdivision)形成
+　　在普通小麦与其近缘种属杂种F1中，由于Ph1基因存在，减数分裂中普通小麦染色体和其近缘种属染色体大多以单价体形式存在，而单价体大多具有错分裂的倾向，形成端着丝点染色体［11～13］。新形成的普通小麦端着丝点染色体和近缘种属的端着丝点染色体可以在着丝点处结合而形成易位染色体［14］。
+6　由杀配子基因(gametocidal gene)引起
+　　当杀配子基因引入普通小麦——近缘野生种染色体代换系、附加系以及异重组系以后，杀配子基因可以引起普通小麦及其近缘种属的染色体断裂，随后断裂的普通小麦染色体和断裂的近缘种属染色体可以重新拼接，而形成易位染色体。现已发现在Aegilops属就存在有这种杀配子基因［15］。
+作者单位：中国农业科学院作物育种栽培研究所　100081
+参考文献
+1　Kawahara T. Spontaneous translocation in the wild diploid wheat Triticum boeoticum. Jap J Gentet, 1990, 65:221～223
+2　Miller T E, Reader S M and Singh D. Spontenous non-Robertsonian translocation between wheat chromosome and a alien chromosome. Proc 7th Int Wheat Genet Symp, 1988, 387～390
+3　Mettin D, Bluthner W D and Schlegel G. Additional evidence on spontaneous 1B/1R wheat-rye sustitution and translocation. Proc 4th Int Wheat Genet Symp, 1973, 174～184
+4　Zeller F J. 1B/1R wheat-rye chromosome substitution and transl-ocation. Proc 4th Int Wheat Genet Symp, 1973, 209～221
+5　Smith E L, Schlehuber A M., Young and H C. L H Edwards. Registration of Agent wheat. Crop Sci 1968,(8): 511～512
+6　Whelan E D P and Hart G E. A spontaneous translocation that transfers wheat curl mite resistance from decaploid Agropyron elongatum to common wheat. Genome,1988,30:289～292
+7　Gupta P K and Gupta S N. Cytogenetics of chromosome interchanges in plants. In Chromosome Engineering in Plants ed by P K Gupta and T Tsuchiya Ilsevier. 1991, 87～112
+8　Sears E R. Genetic control of chromosome pairing in wheat. Annu Rev Genet,1976, 10:31～51
+9　Okamoto M. Asynaptic effect of chromosome V. Wheat Int Serv, 1957, 5:6
+10　樊路，韩敬花. 小麦(T.aestivum)中的抑制部分同源配对的主要基因—Ph1(Ph). 北京农业科学, 1992,(1):26～29
+11　樊路，韩敬花. 普通小麦减数分裂中单价体的错分裂. 细胞生物学, 1987,(2):60～62
+12　樊路. 九个中国北部普通小麦品种(T.aestivum)同源转化群5单体单价体在减数分裂后期I时的错分裂. 作物学报, 1986,(1):21～29
+13　Lima-de-Faria A. The role of the kinetochore in chromosome organization. Hereditas, 1956,42:85～95
+14　Sears E R. chromosome engineering in wheat. Stadler Symposia, 1972, 23～38
+15　Endo T R. Chromosome mutaiton induced by gametocidal chromosomes in common wheat. Proc 7th Int Wheat Genet Symp, 1988, 259～265

@@ -1,0 +1,143 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+煤中部分潜在毒害微量元素在表生条件下的化学活动性
+冯新斌　洪　冰　倪建宇　洪业汤　
+摘要　利用连续化学浸取实验方法，对采自贵州省二叠纪龙潭组的32个煤样中的10种潜在毒害微量元素的化学活动性进行了研究.结果表明：煤中Hg、As、Se、Cd、Cu、Pb等元素具有极强的化学活动性，其中平均83.8%的Hg、93.5%的As、80.3%的Se、63.3%的Cd、71.1%的Cu和86.8%的Pb可以被带出煤中而进入表生环境；煤中Zn的化学活动性次之，只有平均46.6%的Zn可能迁移进入环境中；Tl、Cr、Ni的化学活动性最差，平均可浸取比例分别是22.9%、19.7%和25.7%.煤中潜在毒害微量元素的化学活动性取决于其在煤中的赋存状态.存在于硫酸盐、碳酸盐、硫化物和部分有机相中的元素在风化过程中很容易被带出，而存在于硅酸盐矿物相中的元素在表生条件下是非常稳定的.
+关键词　煤；潜在毒害微量元素；赋存状态；化学活动性；表生环境.
+Chemical mobility of potentially toxic trace elements in coal at surface conditions
+FENG Xinbin, HONG Bing, NI Janyu, HONG Yetang 
+(State Key Laboratory of Environmental Geochemicstry, Institute of Geochemistry, Chinese Academy of Sciences, Guiyang 550002)
+Abstract　The mobility of 10 potentially toxic trace elements (PTTE) (As,Cd,Cr,Cu,Hg,Ni,Pb,Se,Tl and Zn) from 32 coal samples of Longtan Group formed in Permian Period in Guizhou Province, China was investigated using sequential extraction procedures. The results demonstrate taht Hg, As, Se, Cd, Cu and pb have the highest mobility at surface conditions, and the average extractable fractions of them are 83.8%,93.5%,80.3%,63.3% 71.1% and 86.8% of the total, respectively. The elements in cloal with the lowest leachability include Tl, Cr, and Ni, and the average extractable fractions of them are 22.9%,19.7% and 25.7%, respectively. Zinc has an intermediate behavior, and the average leachable fraction is 46.6%. The results demonstrated that mobility of PTTE in coal depends on the mode of occurrence of these elements. The elements associated with sulfates, carbonates, sulfides and some organic matter in coal show the highest extraction rates during weathering process, while elements with silicate affinities are inert at surface conditions.
+Keywords　coal, trace elements, modes of occurrence, chemical mobility, surface environment.
+　　
+　　由于泥炭化和煤化过程所处的特殊地球化学条件，使煤中富集了多种微量元素，尤其是潜在毒害微量元素(PTTE)，煤中有机质和成岩期形成的矿物充当了这些微量元素的捕集器［1］.当煤炭被开采堆放到地表后，由于所处的物理化学条件改变，煤中那些在还原环境下形成的硫化物(如黄铁矿)遇到地表水或暴露于空气中后开始发生分解，同时产生大量酸性废水(AMD).这种酸性水具有很强的浸取能力，可以将煤中相当部分的微量元素，特别是潜在毒害微量元素带入表生生态环境中，造成严重的环境污染.这种环境污染问题不仅在煤层露头处发生，而且还在煤炭堆放场、煤矸石山和洗煤废渣堆处出现.尤其是酸雨严重的西南地区(如贵州省)，这种污染问题相当普遍，应予以足够的重视.
+　　连续化学浸取实验已被运用于研究土壤、工业废弃物和其它固体样品中微量元素的化学活动性及化学形态分布［2—5］.本研究利用这种方法对贵州省二叠纪龙潭组煤中潜在毒害微量元素As、Cd、Cr、Cu、Hg、Pb、Ni、Se、Tl、Zn等元素的化学活动性进行了研究.通过这一研究，弄清了在煤炭被开采到地表后煤中这些潜在毒害微量元素可以被酸性废水带出的比例，为评价这类环境污染的程度以及制定防治措施提供了理论依据.
+
+1　实验
+1.1　样品的采集
+　　晚二叠纪龙潭组地层为贵州省境内最重要的含煤地层.在贵州省六枝、水城、盘江和贵阳等四大煤田的19个煤矿，对目前正在开采的主要煤层进行了系统采样，共采原煤样32个.采样方法为井下剖面刻槽取样.
+1.2　分析方法
+　　煤样的连续化学浸取方案是在Querol等［6］对煤样和Fernandez-Turiel等［7］对飞灰样中微量重金属的赋存状态研究方法的基础上改进的(见表1).
+　　上述浸取液中的As、Se、Pb、Cd、Tl等元素用石墨炉无火焰原子吸收光谱法测定；Cr、Cu、Zn、Ni等元素用火焰原子吸收光谱法测定；Hg用两次金汞齐冷原子吸收光谱法测定［8］.
+　　煤中各元素总量的测定步骤为：取0.1g煤样于内筒为聚四氟乙烯，外套为不锈钢的密闭溶样器中，加入HF和HNO3进行溶样，定容后，各元素的测定方法同上.
+　　表1还列出了每一浸取步骤浸取出元素的赋存状态.由于既使是硝酸浸出的那部分元素，在表生条件下也是容易被风化而带出煤中的，而残留在硝酸浸取后的残渣中的那部分元素主要赋存于硅酸盐矿物晶格中，它们在自然条件下是稳定的［6］，因此，上述四步浸取出的元素含量之和代表了每一元素在自然条件下可能被带入表生环境中的总量，该总量占煤中各元素含量的百分比的大小反映了煤中这一元素在表生环境下的化学活动性.
+表1　煤中潜在毒害微量元素的化学连续浸取方案
+Table 1 Scheme of sequential extraction of potentially toxic trace elements in coal
+
+步　骤浸取方法形　　态
+14g煤样于聚乙烯离心管中，加入20ml蒸馏去离子水，室温下振荡15h，离心，滤液加浓NHO3 2.5mL，用蒸馏去离子水定容至50mL，残渣在40℃条件下烘干.水溶态
+2上述残渣中加入20mL 1mol/L NH\-4Ac (pH=7),以下程序同步骤1.交换态
+3上述残渣中加入20mol 1mol/L NH\-4Ac (pH=5),以下程序同步骤1.碳酸盐结合态
+4上述残渣移入衬里为聚四氟乙烯，外套为不锈钢的高压密闭溶样器中，加入优级纯浓HNO3 2.5mL，在95℃条件下消化15h，离心分离，滤液用蒸馏去离子水定容至50mL.有机质及硫化物
+结合态
+
+　　注：NH4Ac的pH值用25% HAc溶液和25% NH4OH溶液调配
+　　利用X射线粉晶衍射法确定每一步浸取实验后残渣中主要矿物组成的变化情况.根据每一步浸取残渣的X射线衍射图，计算出每一矿物相净选择反射强度(XRD)(与样品中矿物相的含量成正比).由于石英在整个浸取实验过程中是稳定的，因此各矿物相的XRD强度与石英的之比成为一种可靠的内标，其它矿物XRD强度与石英的比值变化，可以准确地反映出浸取实验过程中矿物组成的变化.利用背景XRD强度与石英的XRD强度之比可以反映浸取前后残渣中无定形有机质含量的变化情况［6］(2θ角为25°时的背景XRD强度，代表煤中无定形的有机质).
+
+2　结果与讨论
+2.1　连续化学浸取实验过程中煤样矿物组成变化规律
+　　选取LD-40、LM-06、SL-12、SD-14、PH-34和LDA-37等6个样品，对其煤样和连续浸取实验残渣的矿物组成进行了研究，结果列于表2.对煤样的X射线粉晶衍射研究表明，不同煤样中的矿物组成是有差异的，但煤中主要矿物有硅酸盐矿物石英、高岭石、伊利石、斜长石等、碳酸盐矿物方解石、白云石、硫化物矿物黄铁矿、白铁矿、硫酸盐矿物石膏等，还存在少量未检出的其它副矿物.从表2中可以看出，在连续化学浸取实验过程中，矿物转化过程主要有以下几种：在蒸馏去离子水浸取过程中，石膏溶解；在pH值为7和5的醋酸铵溶液浸取过程中方解石、白云石溶解；在硝酸浸取过程中黄铁矿、白铁矿和部分样品的少量有机相溶解.
+表2　6个煤样各浸取步骤的残渣矿物分布情况(单位为每秒计数)
+Table 2 The mineral distribution in original coal samples and residues of sequential extraction of six coal samples (the unit is counts s-1)
+
+样号　QPMCDGKFIBGP/QM/QC/QBG/QD/QG/Q
+LD04O22362312461833　　＜dl3402836030.10.10.80.3
+W23411642511454　　＜dl226＜dl6110.10.10.60.3
+Ac720871592231102　　＜dl234＜dl5830.10.10.50.3
+Ac53014193382＜dl　　＜dl3001958860.10.100.3
+NA2730＜dl＜dl＜dl　　2613002807330000.3
+LM0O967318459352　　605286　4940.30.50.40.5
+W1156312368238　　673318　5400.30.30.20.5
+Ac7990370403＜dl　　556287　5400.40.400.5
+Ac5876482720＜dl　　696370　3470.60.800.4
+NA1284＜dl＜dl＜dl　　727310　5500000.4
+SL12O2456220　1364326　1219　　5560.1　0.60.20.1
+W2103224　1111258　1124　　4310.1　0.50.20.1
+Ac72900178　998355　1128　　5670.1　0.30.20.1
+Ac53425237　＜dl＜dl　1071　　7050.1　00.20
+NA3333＜dl　＜dl＜dl　890　　7270　00.20
+SD14O1199189261699　462576　　3740.20.20.60.3　0.4
+W1663145399846　＜dl577　　4660.10.20.50.3　0
+Ac71054157246235　＜dl494　　4000.20.20.20.4　0
+Ac5987258500＜dl　＜dl609　　3690.30.500.4　0
+NA1601＜dl＜dl＜dl　＜dl512　　6770000.4　0
+PH34O2971185　608　2041430　　4330.1　0.20.15　0.1
+W3086237　825　＜dl1601　　5000.1　0.30.16　0
+Ac73111218　840　＜dl1531　　4500.1　0.30.14　0
+Ac54126261　＜dl　＜dl1576　　5830.1　00.14　0
+NA4329＜dl　＜dl　＜dl1324　　5100　00.12　0
+LDA
+37O1847401667443　166375326　3520.20.40.20.2　0.1
+W1933392481538　＜dl415361　4320.20.30.30.2　0
+Ac72248454613343　＜dl446380　4580.20.30.20.2　0
+Ac51902655704＜dl　＜dl334403　3070.30.400.2　0
+NA2891＜dl＜dl＜dl　＜dl287300　3830000.1　0
+
+　　注：O表示原始煤样；W表示蒸馏去离子浸取残渣；Ac7指pH值为7的醋酸铵溶液浸取残渣；Ac5指pH值为5的醋酸铵溶液浸取残渣；NA指硝酸浸取残渣；C代表方解石；D代表白云石；F为斜长石；G为石膏；I为伊利石；K为高岭石；M为白铁矿；P为黄铁矿；Q为石英；BG代表X射线背景衍射强度；＜dl指低于检出限
+
+2.2　煤中潜在毒害微量元素的化学活动性
+　　研究表明，由硝酸浸取的那部分微量元素在自然条件下经过长时间的作用，很容易被风化分解后带入环境中［6］.因此，本研究中四步连续浸取态微量元素含量之和代表了在自然条件下长期作用后可能带入环境中的总量.
+表3　煤中Ag、As、Se、Cd、Tl、Cr、Ni、Pb、Cu、Zn等潜在毒害微量元素连续化学浸取实验结果统计表(n=32)
+Table 3 The concentrations of Hg、Se、Cd、Tl、Cr、Ni、PbCu、Zn in leachate from sequential extraction ofcoal samples (n=32)
+
+　WAc7Ac5NA浸取态之和总量
+含量，
+μg/g
+含量,
+μg/g所占百
+分率，%含量,
+μg/g所占百
+分率，%含量，
+μg/g所占百
+分率，%含量，
+μg/g所占百
+分率，%含量，
+μg/g所占百
+分率，%
+Hg均值0.00120.230.00090.160.00050.090.46083.30.46283.80.552
+　SD0.0023　0.0009　0.0017　0.53　0.53　0.565
+AS均值0.0110.140.0030.0420.0060.077.3793.27.3993.57.91
+　SD0.033　0.013　0.013　5.35　5.54　5.26
+Se均值0.0813.380.0321.350.0512.121.7673.41.9280.32.40
+　SD0.13　0.017　0.031　0.85　0.91　1.05
+Cd均值0.0010.700.01910.400.04122.260.05630.00.11763.30.185
+　SD0.002　0.039　0.053　0.047　0.098　0.176
+Tl均值0.0030.910.03610.420.0236.710.0174.90.0822.90.349
+　SD0.008　0.051　0.038　0.041　0.087　0.198
+Cr均值0.0390.0820.1180.250.0300.0639.2419.39.42719.747.95
+　SD0.165　0.23　0.094　8.68　8.70　36.07
+Ni均值0.140.440.411.291.0863.406.5720.68.2025.731.91
+　SD0.28　0.56　0.96　6.30　6.71　28.15
+Pb均值0.151.200.0010.0991.5312.199.2173.410.8986.812.55
+　SD0.12　0.01　2.11　5.33　6.87　4.68
+Cu均值0.370.810.751.653.587.827.5360.732.2271.145.35
+　SD1.75　1.37　4.04　18.29　21.95　25.54
+Zn均值0.531.191.503.403.638.2014.9533.820.6146.644.23
+　SD1.51　1.94　3.01　12.16　12.57　14.05
+
+　　注：W表示蒸馏去离子浸取态；Ac7指pH值为7的醋酸铵溶液浸取态；Ac5指pH值为5的醋酸铵溶液浸取态；NA指硝酸浸取态.SD指标准偏差.
+　　表3列出了32个煤样连续化学浸取液中潜在毒害微量元素含量的统计结果，从表3中可以看出，煤中HgAsSeCdCuPb等元素在表生环境下具有极强的化学活动性，其中平均83.8%的Hg93.5%的As80.3%的Se63.3%的Cd71.1%的Cu和86.8%的Pb可以被带出煤中而进入表生环境中；煤中Zn的化学活动性次之，只有平均46.6%的Zn可能迁移进入环境中；TlCrNi的化学活动性最差，平均可浸取比例分别是22.9%、19.7%和25.7%.从表3和图1可以看出，HgAsSeCuPb等元素由HNO\-3浸取的量占煤样总量的大部分(Hg平均占83.3%，As平均占93.2%，Se平均占73.4%，Cu平均占60.7%，Pb平均占73.4%).从前文的讨论中可以得出，在硝酸浸取过程中，硫化物完全溶解，同时部分样中一小部分有机质也发生溶解，从元素地球化学性质来看，这些元素都属亲硫元素，因此，HgAsSeCuPb应主要以硫化物的形式赋存于煤中，当然不能排除有少部分是与煤中有机质相结合的可能性.煤中由硝酸浸取的Cd的量平均占煤中总量的30%，由pH为5的醋酸铵溶液浸取的Cd占22.26%，另外还有36.7%的Cd赋存于硝酸浸取的残渣中，由此可见，煤中Cd可能主要赋存于硅酸盐矿物、硫化物和碳酸盐矿物相中.煤中平均53.4%的Zn存留于硝酸浸取的残渣中，主要赋存于硅酸盐矿物晶格内，另外，还有平均33.8%的Zn被硝酸浸取出来，因此煤中Zn主要赋存于硫化物和硅酸盐矿物相中.煤中77.1%的Tl80.3%的Cr和74.3%的Ni主要赋存于硅酸盐相中.
+
+
+图1　煤中HgAsSeCdTlCrNiPbCuZn等元素各浸取态占煤中各元素总量的百分比
+Fig.1 The ratios of AsCdCrCuHgPbNiSeTl and Zn conclntrations in each leachate with respect to those in bulk coal samples
+　　从以上的讨论可以看出，煤中潜在毒害微量元素在表生环境中的化学活动性取决于其在煤中的赋存状态.存在于硫酸盐、碳酸盐、硫化物和部分有机相中的元素在风化过程中很容易被带出，而存在于硅酸盐矿物相中的元素在表生条件下是非常稳定的.正是由于潜在毒害微量元素在不同地区、同一地区不同煤层中赋存状态的不同，导致了其在表生环境中的化学活动性的差异.
+* 中国科学院“九五”重点基金(KZ952S1407)和贵州省自然科学基金资助课题
+作者单位:（中国科学院地球化学研究所环境地球化学国家重点实验室，贵550002阳）
+参考文献
+　1　Swaine D J. Trace Elements in Coal. London: Butterworths. 1990.8
+　2　Tessier A, Campbell P G C, Bisso M. Sequential extraction procedure for the speciation of particulate trace metals. Anal Chem, 1979,51:844
+　3 Tessier A, Campbell P G C, Bisson M. Particulate trace metal speciation i stream sediments and relationships with grain size: implications for geochemical exploration. J Geochem Explor, 1982, 16:77
+　4 Wadge A, Hutton M. The leachability and chemical speciation of selected trace elements in fly ash from coal combustion and refuse incineration. Environment Pllution, 1987,48:85
+　5 冯新斌，陈业材，朱卫国.土壤中汞的存在形式的研究.矿物学报，1996，16(2)：218
+　6 Querol X, Juan R, LopezSoler A et al. Mobility of trace elements from coal and combustion wastes. Fuel, 1996,(7):821
+　7 FernandezTuriel J L Carvalho W de, Cabanas M et al. Mobility of heavy metals from coal fly ash. Environmental Geology, 1994,23:264
+　8 冯新斌，倪建宇，洪业汤等.贵州省煤中挥发性和半挥发性微量元素分布规律的初步研究.环境化学，1998，17(2)：148
+1997-10-21收到原稿
+1998-04-01收到修改稿
+
+

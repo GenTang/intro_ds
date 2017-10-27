@@ -1,0 +1,87 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+工频电磁场生理危害的研究进展
+高小榕　陈奎孚　罗致诚
+摘要：许多流行病学调查和实验室研究揭示了工频电磁场(PFEMF)暴露与白血病、肿瘤、胚胎异常等发病率上升存在相关性,但同时也有相当的实验未观察到PFEMF的效应.在理论上分析了微弱电磁场作用机制的争议,并根据非线性分叉理论分析,肯定了PFEMF的潜在危害,进一步指出这种危害是一种随机现象.回顾了近年来提出的PFEMF危害机制和模型,认为研究应结合各种非线性理论.
+关键词：电磁场；生物效应；工频；癌症；非线性
+中图分类号：X123 文献标识码：A 文章编号：1000- 6923(1999)05- 0472- 05
+A review on the study on power frequency electromagnetic field hazards to organisms.
+GAO Xiao-rong1, CHEN Kui-fu2, LUO Zhi-cheng2 
+(1.Department of Electronic,Tsinghua University, Beijing 100084,China；2.School Basic Medical Sciences, Peking Union Medical College, Beijing 100005,China). China Environmental Science. 1999,19(5)：472～476
+Abstract：On the power frequency electromagnetic field (PFEMF) bioeffects on organisms, there have been much epidemiological survey and laboratory study which confirm the relation of leukemia, tumor and embryo abnormality with PFEMF exposure;but at same time, there are also a few reports on the opposite side. After the controversy of weak electromagnetic field bioeffect mechanism was analyzed in ideology based on the nonlinear divergence theory, and the models and mechanisms of hazards proposed in recent year were reviewed, the potential hazards of PFEMF to organisms were affirmed; moreever, the hazards were random events and should be studied with various nonlinear theories. 
+Key word：electromagnetic field；bioeffect；power frequency；tumor；nonlinearity
+　　多数国家的工频是50Hz,部分国家的工频为60Hz.1979年Wertheimer等人报告在电力线附近居住的儿童癌症发病率超过一般儿童1～2倍之后,工频电磁场(Power Frequency Electromagnetic Field PFEMF)危害就成为生物电磁学的一个热点[1].这是因为电能不仅是现代工业、现代科学和现代医疗的基础,而且也是在日常生活和娱乐的重要工具.特别是工频电磁波波长很长(50Hz的波长为6000km),没有方向性,几乎可以穿透任何非金属,无法将它限制在某个空间,也无法把人群屏蔽隔离.本文将回顾危害存在的争议和有关研究实验结果,并根据非线性分叉理论指出潜在危害是随机事件.
+1 争议
+　　PFEMF危害研究所涉及的磁场强度很弱,一般在几m T～几十m T(地磁场的场强约50m T),它比细胞内源磁场的热噪声低几个数量级.虽然磁场强度很弱,但许多流行病学研究报告了辐射与白血病、胸癌发病率增高有关[2],而且许多离体和在体的暴露实验也揭示弱磁场确实对有机体存在影响.同时,也有不少研究小组持相反的观点.潜在危害机制的不清楚和重复性极差,一直是这个领域的争论焦点[3]. 
+　　持无危害观点比较典型的是Valberg-PA等人.他们[4]认为PFEMF暴露和发病率上升是否具有因果性,一定程度上依赖于活细胞在自身复杂电压、电流和力环境中能否检测到外部PFEMF诱发的电、化学和机械“信号”.他们认为电磁场产生生物效应有如下几种物理机制:(1)离子和带电蛋白质在PFEMF作用下加速获得能量,从而改变细胞膜和受体蛋白质,但事实上,获得的能量远低于细胞内生物分子的典型量级;(2)体内感应电场对电荷和电矩施加作用力, 但这种作用力比典型的生物力小得多;(3)铁磁体微粒的磁矩和自由基分子与磁场相互作用,但尚未发现对磁矩敏感细胞,电磁场改变自由基复合率的说法也有很大问题;(4)电磁场谐振诱发离子-生物分子复合体内振动传递或轨道转移,但这些机制与可接受的物理学相矛盾,许多实验测试没有得到预期的效果;(5)时间平均或空间求和能改进任何信噪比,这种机制需要生物结构和神经系统有电磁场检测和时间平均能力,但是在人体内均未发现.总之,他们认为PFEMF(<2m T)对人体的影响难以置信.
+　　如果无害观点成立,那么至少要证实Valberg-PA所提的5种机制在微弱的PFEMF暴露下均无法发生.
+　　关于第(5)点,曾有人提议空间多个细胞的集团行动以检测微弱的PFEMF存在,这种理论在骨组织对小应变的检测中也曾提及[5]. Litovitz-TA等人[6]认为外PFEMF与内源噪声的重要区别在于后者空间和时间分布是随机的,而前者在空间和时间有连续性,同一细胞膜上的大量受体可协同触发,从而对细胞生化功能产生明显的影响.根据物理规律,他们认为时域随机噪声会破坏空间连续的协同效应.实验表明原本对鸡胚胎发育会造成异常的极低频电磁场(ELFEMF),当它和强度与其相当(但大约只有热噪声强度的1/1000)的随机干扰电磁场共同作用下,异常效应消失.文献[7]关于鼠细胞鸟氨酸脱羧酶(Ornithine decarboxylase:ODC)活性影响实验也证实了这一点.Lin-H等人[8]的实验结果也与此一致.但是空间连续场本来应该产生的效应,如何被时间随机场抑制的定量模型值得推敲.
+　　关于第(3)点,自由基机制也取得了一定进展.强度很低的静磁场可使三线对化学键破裂成单线对化学键,而一个交变场会使自由基间三线和单线化学键的比例反复振荡.因此,弱磁场通过自由基能对化学反应产生巨大影响.进一步来讲Valberg-PA的5条意见,基本上未超出热平衡和热交换的能量观点,其核心是只有能量足够高,强度足够大,才能发生作用.但是生命现象是远离平衡态非线性系统.对这种系统,当外界提供能量经过一段时间累积,系统达到分叉临界点后,系统向何处发展取决于随机涨落,系统选择将来会稳定涨落.选择谁,由当时小环境的概率所确定,只要某种选择的概率稍大于另一种,这种选择就保留下来成为稳定现象.这种事件是一种概率现象,并非一种必然过程,因此不是所有电磁暴露都有问题,在临界点时,这种现象才有可能以某种概率发生,这与流行病学观察结果一致.
+　　细胞膜由两层磷脂分子构成,厚度约为40?.在大多数细胞中,这个双层膜存在约0.1V电势, 电势梯度(100kV/m)非常大,构成物质和电的屏障.但生物电磁学表明,这个电势梯度是由10-5~ 10-8V/m环境极低频电磁场诱导出来.这一方面说明生命过程中许多现象并非热平衡理论所能解释(根据热平衡理论,随时间推移差值应逐渐减小,不会自动累积增大,除非又有外界强制),另一方面也说明弱电磁场确实对生命过程有干扰.
+2 PFEMF效应实验
+　　很多实验报告了PFEMF存在生物效应. Farrell-JM等人[9] 进行了为期5年的鸡胚胎暴露于弱磁场(60Hz,约1m T)研究,有的个体暴露长达数月,发现胚胎异常率增加约3倍.
+　　Youbicier-Simo-BJ等人[10]将胚胎和雏鸡连续暴露在显示器辐射的电磁场中.同时还用猪甲状腺球蛋白对幼鸡免疫3次,每次免疫后, 检测血清皮质类固醇、血清褪黑激素的水平.结果发现,胚胎死亡率比对照组明显增加;对照组在第2次免疫后,皮质类固醇和褪黑激素上升,但暴露组这两项指标明显下降.
+　　Uscebrka-G等人[11]观察了PFEMF(50Hz) 长期暴露对雌鼠肾上腺功能的影响.发现暴露组体重增加,肾上腺绝对质量增加,相对质量减少,暴露组肾上腺皮质相对体积变小,髓质相对体积增加;肾上腺髓质、皮质可见明显充血,髓质细胞间的血管变粗.
+　　Zecca-L等人[12]比较了雄鼠在假暴露、5m T～1kV/m和100m T～5kV/m共3种电磁场(60Hz)暴露状态的实验结果.暴露是每周5天,每天8h.发现暴露到较高场强的老鼠松果腺的去甲肾上腺素水平上升.
+　　已经知道L929鼠细胞暴露到60Hz,10m T (rms)磁场后,ODC活性增强两倍.为了验证细胞膜表面受体协同作用理论,Litovitz-TA等人[7]将频带为30～90Hz的随机干扰磁场叠加原电磁场,发现若干扰的RMS幅值与60Hz场相当,则活性增强与假暴露组相同;如果叠加的干扰强度减小,则连续磁场的活性增强效应逐渐增加;若干扰强度小于原磁场的1/10,它对后者效应无影响.
+　　人工培养细胞暴露到60 Hz正弦磁场引起原致癌基因c-myc 稳态转录水平上升.Lin-H等人[8]使用窄带干扰(30～90 Hz,6.7 m T rms)和连续60Hz磁场(6.7m T rms)进行实验.结果显示暴露在60Hz磁场下,c-myc稳态转录水平上升40%.对60Hz磁场叠加干扰的暴露组,c-myc稳态转录水平与假暴露组的差别无统计意义.但也有相当实验未观察到效应存在.
+　　Miyakoshi-J[13]利用自己研制的系统,发现0.4T长达120h的PFEMF(50Hz)暴露不影响白血病患者的HL60RG和CCRF-CEM细胞的增长.正常人和毛细血管扩张不协调病人的GM0637和TAT2SF 细胞在X线辐射后再用上述磁场暴露2h,也不改变对辐射敏感性.
+　　文献[14]研究了PFEMF(50Hz)对离体红血球是否有生物效应.与对照组相比,暴露到电、磁或二者叠加的场, 葡萄糖溶解酶、葡萄糖消耗、乳酸盐产生、能量负荷、2,3-二磷酸甘油和谷胱肝肽等重要物质的浓度没有显著差异.
+　　Owen-RD[15]为考查电磁场诱导HL60细胞MYC表达增强效应的准确性和可重复性,将HL 60细胞暴露到6m T 60Hz磁场.检测方法和暴露条件尽可能与以前报道这种效应的研究接近.商业或原始研究者所提供的细胞,均未发现明显的证据支持电磁暴露能够诱导MYC表达式.
+　　Cridland-NA[16]将健康人纤维细胞置于血清中一夜后暴露到特制的50Hz电磁场.对照组所在的CO2培养箱的背景噪声小于0.2m T.50Hz的磁场暴露30h以上,场强从20m T～20mT,DNA合成均无可检测的影响.
+3 模型与机制
+　　只有根据大量的实验数据和流行病学数据建立暴露与响应的定量模型,找到电磁与有机体作用的基本机制,建立科学的生物电磁学,才能定出合理的暴露规范.但是任何人试图整理不同研究小组电磁场的生物效应的结果,都会感到相当棘手.暴露特征常常不完全,研究者留心的暴露细节,在另外的研究中可能就没有记录,因为各自对实验中的细节重视不同.比较研究结果,设计重复性实验,合理评价所提出建议的关键是建立真正电磁场暴露实验的标准[17].
+　　Markov-MS在文献[18]中提出了估计电磁影响的一种生物物理方法,并讨论了数据收集、剂量、作用的可能机制和一些众所周知的问题.
+　　文献[19]讨论了外部电磁场与有机体的相互作用,探讨了所涉及的可能机制,特别是电磁耦合如何控制开放系统和耗散结构.
+　　文献[20]根据有关报告提供的早产调查数据,研究了50Hz磁场暴露和响应的关系,发现门槛型场强依赖关系显得比线性关系更合理.
+　　Marino-AA[21]指出电磁场实验条件相似但生物效应不一致的原因可能源于理论体系.他用0.5 kV /m-60 Hz电磁场辐射老鼠,从妊娠一直到个体成熟,发现体重增减不一,但方差一致增大.因而他认为这与混沌中概念相似,即体重的影响对初始条件十分敏感,方差随之增大,故建立模型应考虑非线性的因素.同时这个结果也表明选择合适的评价指标很重要.
+　　文献[22]在研究了大量文献后,指出钙离子可触发细胞的各种重要功能,如激活和分裂;实验结果表明钙离子对电磁暴露具有两重性,即增强和抑制均存在;因为钙离子改变是细胞水平的反应,它与人体宏观不良效应间并不确定.
+　　电磁场引起褪黑激素下降假说已受到关注[23].根据这个假说,松果体激素水平下降影响各种激素过程,例如雌激素动态平衡(胸癌发生率).
+　　Shao-T[24]认为铁蛋白是电磁场和癌症联系的通道,铁是铁蛋白质合成的主要调控因素,铁蛋白质基因表达由激素和cAMP等信号诱导;初步生理研究证实电磁场能诱导细胞层次的效应,包括激素浓度变化、细胞膜改变、细胞内cAMP变异,甚至改变蛋白质合成.因此,将电磁场的生理效应与基因表达和铁蛋白合成(主要由铁、激素和cAMP控制)相联系是合理的,并最终有电磁场与癌症相关联.
+　　尽管精细的机制目前尚不清楚,Hendee-WR等人[25]认为电磁场可能是癌症的促发因素,不可能是癌症的启动因子.文献[26]认为应收集更多数据以确定低强度(0.1m T量级)ELFMF是否确实具有促发癌症的可能性.
+　　从宏观上看,有机体异常(患病)大多可归结于细胞的生长偏离正常的状态.在系统发展的临界点,外界和系统内部存在向各种方向发展的微小涨落,系统只选择能趋于形成稳定结构的涨落,因为不稳定结构即使形成也会立即瓦解,从最终现象看,这就是适者生存即跨过临界点之后具有稳定的结构.系统达到临界点的前提是与环境交换能量和物质,并经过一段时间的累积.
+　　生命在自然地磁环境中进化,有机体在进化中保留了与地磁相适应的结构和功能,即在发育关键点选择了人类认为正常的结构.但一个多世纪以来, 这个环境被人工电磁场严重地改变.细胞在生长的某些临界点,受到PFEMF长期破坏的地磁环境是否会优先选择某些将来会导致人类认为是畸变结构的涨落,则需要深入研究.
+　　微观机制争议很大,已提出了回旋加速理论、自由基理论、核磁共振、参量共振、场力效应、半导体效应、压电效应、超导效应等多种理论.
+4 讨论与建议
+　　很多流行病学调查报告长期接触PFEMF人群的肿瘤和白血病发病率较非接触群高.分析PFEMF危害实验报告的分歧,除了暴露时间、强度、方式等因素随各研究小组有差异外,实验结果不一致的关键是所选择的暴露对象、检测指标和暴露时间的不同.
+　　PFEMF与人体相互作用的能量很小,若有危害,其机制不可能是热效应.但PFEMF的存在有可能改变系统在发展临界点的涨落选择,从而使系统向人类认为异常方向发展.鸡胚胎发育和肝组织再生相当于这个临界点,这时容易观察到PFEMF的生物效应,而对成熟细胞影响就很难检测出来.
+　　正常有机体是一种自组织系统,能够清除部分异常细胞.PFEMF的影响是个随机过程,对于发育成熟的个体,其细胞分裂临界点的测度较低,即使少部分细胞异常,机体有可能将其消灭,整体不表现异常.但对婴幼儿和孕妇,其细胞分裂临界点的测度很大,PFEMF所诱发的细胞异常可能很多,发病的概率较高.
+　　由于争议很大,到目前为止,任何安全界限的国际标准尚未确定.从目前流行病学调查、初步的实验结果和中国的国情看,可以不考虑PFEMF对职工的危害,但是从审慎的角度,婴幼儿和孕妇还是最好远离电磁暴露.
+　　企图通过能量或强度来阐述PFEMF危害模型无法解释已有的相互矛盾的实验结果.应引入自组织、自适应、耗散理论和分叉理论等非线性科学建立宏观模型.微观的机制很不成熟,无论是钙离子波动理论还是激素理论,都需要进行大量深入实验.同时这种实验也是揭露生命本质的一种途径.
+　　暴露系统的设计和制造技术目前较为成熟.但是在实验中应注意实验条件的规范化,以便能够互相交流和借鉴.
+　　实际场强究竟多大及场强的分布应深入研究.究竟效应是磁场起作用还是电场起作用,或共同作用的结果,应进行大量实验.同时实验的场强范围应加大,对于有机体这样复杂的非线性系统,不同条件产生的现象可能有本质的区别.
+作者简介：高小榕(1963-),男,浙江桐乡人,副教授,博士,主要从事生物医学信号处理和生物医学仪器研究和开发.发表论文20余篇.
+作者单位：高小榕　清华大学电机系,北京 100084
+　　　　　陈奎孚　罗致诚　北京协和医科大学基础医学院,北京 100005
+参考文献：
+　[1]Wertheimer-N,Leeper-E. Electrical wiring configurations and childhood cancer [J]. Am-J-Epidermiol., 1979,109:273- 384.
+　[2]Knave-B. Electric and magnetic fields and health outcomes-an overview [J]. Scand-J-Work-Environ-Health., 1994,20: 78- 89. 
+　[3]Markov-MS. Biophysical estimation of the environmental importance of electromagnetic fields [J]. Rev-Environ-Health, 1994,10(2): 75- 83.
+　[4]Valberg-PA,Kavet-R,Rafferty-C-N. Can low-level 50/60 Hz electric and magnetic fields cause biological effects [J]. Radiation Research. 1997 ,148(1): 2- 21.
+　[5]刘忠厚.骨质疏松学[M].北京:科学出版社.1998.300- 316.
+　[6]Litovitz-TA,Montrose-CJ,Doinov-P, et al. Superimposing spatially coherent electromagnetic noise inhibits field-induced abnormalities in developing chick embryos [J]. Bioelectromagnetics, 1994,15(2): 105- 113.
+　[7]Litovitz-TA, Krause-D, Montrose-C-J. Temporally incoherent magnetic fields mitigate the response of biological systems to temporally coherent magnetic fields [J]. Bioelectrotics, 1994, 15(5):399- 409.
+　[8]Lin-H,Goodman-R. Electric and magnetic noise blocks the 60 Hz magnetic field enhancement of steady state c-myc transcript levels in human leukemia cells [J]. Bioelectrochemistry and Bioenergetics, 1995, 36(1): 33- 37.
+　[9]Farrell-JM,Litovitz-TL,Penafiel-M,et al. The effect of pulsed and sinusoidal magnetic fields on the morphology of developing chick embryos [J]. Bioelectromagnetics, 1997,18(6): 431- 438.
+　[10]Youbicier-Simo-BJ, Boudard-F, Cabaner-C,et al. Biological effects of continuous exposure of embryos and young chickens to electromagnetic fields emitted by video display units [J]. Bioelectromagnetics, 1997,18(7): 514- 523.
+　[11]Uscebrka-G,Zikic-D,Matavulj-M ,et al. Stereological analysis of the adrenal gland of female rats after exposure to an electromagnetic field [J]. Acta. Veterinaria (Belgrade),1996,46(5-6): 277- 284.
+　[12]Zecca-L,Mantegazza-C,Margonato-V,et al. Biological effects of prolonged exposure to ELF electromagnetic fields in rats: III. 50 Hz electromagnetic fields [J]. Bioelectromagnetics, 1998,19(1): 57- 66.
+　[13]Miyakoshi-J,Ohtsu-S,Tatsumi-Miyajima-J,et al. A newly designed experimental system for exposure of mammalian cells to extremely low frequency magnetic fields [J]. J-Radiat-Res-Tokyo, 1994,35(1): 26- 34.
+　[14]Dacha-M,Accorsi-A,Pierotti-C,et al. Studies on the possible biological effects of 50Hz electric and/or magnetic fields: evaluation of some glycolytic enzymes, glycolytic flux, energy and oxido-reductive potentials in human erythrocytes exposed in vitro to power frequency fields [J]. Bioelectromagnetics, 1993,14(4): 383- 391. 
+　[15]Owen-RD. MYC mRNA abundance is unchanged in subcultures of HL60 cells exposed to power-line frequency magnetic fields [J]. Radiat-Res., 1998,150(1): 23- 30.
+　[16]Cridland-NA,Cragg-TA,Haylock-RG. Effects of 50Hz magnetic field exposure on the rate of DNA synthesis by normal human fibroblasts [J]. Int-J-Radiat-Biol., 1996,69(4): 503- 511.
+　[17]Valberg-PA. Designing EMF experiments: what is required to characterize "exposure"? [J]. Bioelectromagnetics, 1995,16(6): 396- 406.
+　[18]Markov-MS Biophysical estimation of the environmental importance of electromagnetic fields [J]. Rev-Environ-Health, 1994,10(2): 75- 78.
+　[19]Fedorowski-A,Steciwko-A. Electrosmog as a health risk factor: sources of artificial electromagnetic fields, evaluation of health risk, prevention methods [J]. Med-Pr, 1997,48(5): 507- 519.
+　[20]Juutilainen-J,Hatfield-T,Laara-E. Evaluating alternative exposure indices in epidemiologic studies on extremely low-frequency magnetic fields [J]. Bioelectromagnetics, 1996,17(2): 138- 143.
+　[21]Marino-AA. Different outcomes in biological experiments involving weak EMFs: is chaos a possible explanation? [J]. Am-J-Physiol, 1995,268(4 Pt 2): R1013- 1018. 
+　[22]Nishimura-I. Review on the biological effects of magnetic field exposures: II. Intracellular calcium [J]. Denryoku Chuo Kenkyusho Hokoku, 1996,0 (U95031): 1- 41.
+　[23]Baldwin-WS,Barrett-JC. Melatonin: receptor-mediated events that may affect breast and other steroid hormone-dependent cancers [J]. Mol-Carcinog, 1998,21(3): 149- 155.
+　[24]Shao-T. EMF-cancer link: the ferritin hypothesis [J]. Med-Hypotheses, 1993,41(1): 28- 30.
+　[25]Hendee-WR,Boteler-JC.The question of health effects from exposure to electromagnetic fields [J]. Health-Phys., 1994, 66(2):127- 136.
+　[26]Nakagawa-M.Bioeffects of electromagnetic fields-safety limits of each frequency band, especially less than radio one [J]. Sangyo-Eiseigaku-Zasshi, 1996, 38(1): 1- 10.
+收稿日期：1999-01-25

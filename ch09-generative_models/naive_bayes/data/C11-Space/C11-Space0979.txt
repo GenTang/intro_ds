@@ -1,0 +1,168 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第2期　Vol.19　No.2　1999
+
+
+
+复合材料砂蚀研究综述
+沈　真　杨胜春　克莱瑞珂
+摘要： 介绍了冲蚀的基本概念、试验设备，综述了聚合物基复合材料砂蚀的研究概况和冲蚀机理，并讨论了各种冲蚀因素和抗冲蚀涂层对冲蚀性能的影响。
+关键词： 冲蚀；砂蚀；复合材料；冲蚀速率
+中图分类号： TB323　　　文献标识码：A　　　文章编号：1005-5053(1999)02-0054-09
+Review on sand erosion of composites
+SHEN Zhen　　YANG Sheng-chun　　Margherita Clerico
+(1.Aircraft Strength Research Institute,Xi′an710065，China； 2.Politecnico di Torino,Italy)
+Abstract： Some basic principles on erosion and erosion test devices are introduced. Survey on sand erosion and erosion mechanisms of composites is summarized. Factors influencing erosion rate and protective coating effects are discussed.
+Key wirds: erosion；sand erosion；composites；erosion rate
+
+　　在实际使用过程中，很多物体表面会遭受到流体(气体或液体)裹挟固体粒子的侵袭，这种磨蚀称为冲蚀，气体裹挟固体粒子的冲蚀通常称为砂蚀。对很多工程应用(包括飞机结构)，砂蚀是个严重的问题。人们从40年代起就已开始对冲蚀进行研究［1］，发表了大量关于金属冲蚀的研究成果。过去20年里，陶瓷的冲蚀受到了极大的关注，也有大量文献可供查阅。从1970年以来，越来越多的先进聚合物基复合材料被用于航宇结构，特别是飞机结构，聚合物基复合材料的冲蚀损伤作为一个特殊的问题已开始被提了出来［2］。1984年4月发射的长期曝露装置(LDEF)卫星于1990年1月回收，在该装置的复合材料结构表面发现了氧原子和空间碎片引起的冲蚀［3］。当前复合材料已开始用于直升机旋翼桨叶、雷达罩、机翼前缘、进气道和发动机外涵道等航空结构，设计者面临着这些结构在近地面和沙漠地区使用时是否会遇到冲蚀的问题。本文试图介绍一些冲蚀的基本概念和聚合物基复合材料冲蚀的研究概况，以供设计人员参考。
+1　冲蚀的基本概念［4］
+1.1　冲蚀(erosion)
+由于固体表面和流体、多种成分的流体、冲击的液体或固体粒子之间的机械作用，引起表面材料的不断损失，这种磨蚀称为冲蚀。
+1.2　研磨冲蚀(abrasive erosion)
+　　粒子的运动方向几乎与固体表面平行的冲蚀称为研磨冲蚀。
+1.3　冲击冲蚀(impingement erosion, impact erosion)
+　　粒子的运动方向基本上与固体表面垂直的冲蚀称为冲击冲蚀。
+1.4　冲蚀速率(erosion rate)
+　　冲蚀速率是冲击到靶体表面的单位质量磨料(或冲蚀粒子)所磨蚀掉的靶体(或被冲蚀物)材料的质量(单位为g/g或mg/g)。通常这个量在稳态冲蚀阶段测得。
+1.5　体积冲蚀速率(volumetric erosion rate)
+　　为了比较不同密度材料的冲蚀阻抗，通常采用体积冲蚀速率这一物理量，它可用靶体材料的密度去除冲蚀速率来得到(单位为cm3/kg)。
+2　冲蚀试验装置
+　　根据冲蚀定义和影响冲蚀(或质量损失)的主要因素，已经设计和制造出了几种冲蚀试验装置。Finnie［5］于1956年研制了第一台砂蚀试验机，它可以控制粒子的速度(小于76m/s)和冲击角。稍后，Tilly［6,7］又设计和研制出了两种砂蚀试验装置。其中一种是空气发射砂蚀装置，它可控制粒子冲蚀时间、冲击角、温度和拉伸应力。在美国市场上，由FalexAir公司生产的Air Jet Erosion Tester即属于这一类。它被指定用于评定材料的冲蚀阻抗和在规定的试验条件下对材料的冲蚀阻抗进行排序，并按照美国标准ASTM D76-83 "Standard Particle for Conducting Erosion Tests by Solid Particle Impingement Using Gas Jets"来进行设计和制造的。这种装置通过一个振动漏斗将磨料（冲蚀粒子）在窒温下输送到空气流中，由振动频率和漏斗的倾斜程序来决定粒子输送速度。并通过调节喷嘴进口压力来控制气流速度，而气流速度则决定了粒子的速度。粒子流通过喷嘴时，由气流对它加速，然后打到试样上，通过旋转试样来给出所需的冲击角度［8］。由Tilly, G. P. 设计的另一种砂蚀试验机是旋转臂式冲蚀装置。这种装置的箱体真空度小于10-3乇，它带有旋转臂。试样则安装在它的端部。一定量的粒子(或尘埃、砂粒、磨料)以精确控制的粒子束的方式射出，使它们都能落在旋转试样的路径上。由于在气流中对粒子进行加速的试验技术很难用于速度较高及粒子直径变化很大的情况(例如美国军用标准MIL-E-5007C中粒子直径变化范围为0～1000με)，因此这种装置可以更真实地模拟冲蚀环境。
+　　1975年Grant G. 等人［10］建造了风洞型的砂蚀试验装置，它能在各种流动和温度(从室温到交温)条件下进行冲蚀试验。由Giros-ITE 公司生产的Sand and Dust Chamber就属于这一类。它是根据美国军用标准MIL-STD-810E Method 510.3 Sand ＆ Dust来进行设计和制造的，这种装置可用于模拟在未铺砌地面上飞行的飞机环境，试验箱内的温度变化范围为10℃～70℃。
+3　聚合物基复合材料砂蚀研究
+3.1　概述
+　　可以用几种方法来研究砂蚀损伤：测量质量损失、用扫描电镜观察冲蚀表面和使用表面粗糙度测量仪。通过测量质量损失，可比较不同材料抗砂蚀的能力，并发现影响砂蚀的因素；扫描电镜照片和表面粗糙度测量的结果则给出了损伤形状和性质。基于所有这些结果，就有可能提出控制砂蚀的机理和估算准则。表1给出了不同材料冲蚀阻抗的比较，可以看出聚合物基复合材料的抗砂蚀性能最差，陶瓷的冲蚀阻抗与金属基本相当，但变化范围很大。由于复合材料体系的选取取决于设计要求，不可能通过改换材料体系来提高砂蚀特性。为了解决这个问题，通常要使用带高冲蚀阻抗涂层的复合材料。
+
+表1　不同材料冲蚀阻抗的比较
+Table 1　comparison of erosion resistance for different materials
+
+MaterialsTest conditionsTest rigImpact angle α
+for (dE/de)maxRef.
+AlErodent:Al2O3(74～130μm)
+Air speed：40m/s
+Sand speed：14.3m/sAir blast～40°～60［10］
+Stainless steelErodent:Al2O3(74～130μm)
+Air speed：40m/s
+Sand speed：14.3m/sAir blast～45°～40［10］
+TiErodent:Al2O3(74～130μm)
+Air speed：40m/s
+Sand speed：14.3m/sAir blast～60°～25［10］
+CeramicErodent:Al2O3(74μm)
+Air speed：30m/sAir blast90°5～110［11］
+Carbon/polymerErodent:Al2O3(74～130μm)
+Air speed：40m/s
+Sand speed：14.3m/sAir blastBased on
+composite system50～1000［10］
+
+　
+
+3.2　冲蚀机理
+　　文献［8,16］用扫描电镜观察了聚合物基复合材料的受冲蚀表面形貌。看来聚合物基复合材料的冲蚀和材料磨蚀过程有几个阶段，这几个阶段的特征分别为：
+　　(a) 受冲击面有少量树脂材料被冲蚀，使得纤维曝露于冲蚀砂尘环境；
+　　(b) 固体砂粒冲击纤维，由于围绕并支持纤维的树脂被冲蚀掉，而发生纤维弯曲，并引起横穿纤维的裂纹，纤维因此而被打断。
+　　(c) 由于砂粒继续冲击，使纤维和树脂基体间的界面受损，这种损伤可用断裂纤维与树脂基体的分离和脱开来表征。
+　　用扫描电镜观察到的冲蚀表面图象表明，复合材料的冲蚀损伤包括：树脂区域基体材料的冲刷、断纤维的进一步破碎及离开原位和纤维－树脂界面区材料的冲刷。纤维含量、形式、种类和性能，树脂材料的种类和性能以及它与纤维的粘接性能等，是造成不同种类聚合物基复合材料冲蚀特性的差别的原因。
+3.3　影响冲蚀速率的因素
+　　复合材料的冲蚀特性比其他材料要复杂得多，在不同的冲蚀试验条件下，同一种复合材料可显示不同的冲蚀行为，可能是韧性冲蚀，也可能是脆性冲蚀。
+3.3.1　靶体材料性能　聚合物基复合材料由纤维和基体组成，所以它的冲蚀性能取决于纤维含量、种类和加强方式、基体性能以及纤维和基体的界面性能等。文献［10,12,13］对这些因素的影响进行了系统的研究，这里给出其中的一些结论。
+　　(1) 树脂［17,19～21］： 图1-3给出了各种聚合物和聚合物基复合材料的冲蚀速率，可以看出热塑性树脂(尼龙、PEEK、PPS、TPI-一种新的热塑性聚酰亚胺)的冲蚀阻抗要高于热固性树脂(环氧树脂、BMI、聚酰亚胺、聚酯)。复合材料中所用的树脂，按它们的冲蚀阻抗依次(从高到低)为：尼龙、PEEK、PPS、环氧、BMI(双马)、PI(聚酰亚胺)。由于冲蚀粒子的冲击首先冲刷树脂基体，因此树脂材料的冲蚀特性是影响聚合物基复合材料冲蚀阻抗的主要因素。通常热塑性树脂显示半韧性冲蚀特性，而热固性树脂则显示脆性冲蚀特性。
+　　　　　　
+图1　不同树脂的冲蚀速率　　　　　　图2　基体对单向带复合材料冲蚀速率的影响
+　Fig.1　Erosion rate for different　　　Fig.2　Effect of matrix on erosion rate
+　　　　　resins　　　　　　　　　　　　　　　　for tape composites
+
+　　(2) 纤维： 在广泛使用的纤维增强体中，石墨纤维和玻璃纤维是脆性的，断裂时的冲蚀阻抗很小；而Kevlar纤维被冲蚀成碎段时要吸收大量的能量(见图4)。
+　　(3) 纤维含量： 复合材料的冲蚀阻抗随纤维含量的增加而增加，如图5所示。但脆性纤维使得复合材料比纯树脂还要脆，从而其复合材料的冲蚀速率要高于树脂，最大的冲蚀速率出现在较大的冲击角时。
+　　(4) 增强方式： 织物复合材料的冲蚀阻抗比单向带复合材料要小得多。对短纤维增强复合材料，沿冲击方向的纤维提供了很高的韧性，与单向铺叠方式相比，随机排列方式能使下层的纤维提供更强的支持。图6所示为具有不同增强方式的石墨纤维/PPS复合材料冲蚀速率的比较。
+　　　　　
+图3　基体对机织复合材料冲蚀速率的影响　　　图4　纤维类型对复合材料冲蚀速率的影响
+　Fig.3　Effect of matrix on erosion rate　　Fig.4　Effect of fiber type on erosion 
+　　　　　for woven composites　　　　　　　　　　　rate
+
+　　　　
+图5　纤维含量对冲蚀速率的影响
+Fig.5　Effect of fiber contents on erosion rate
+
+图6　纤维增强方式对冲蚀速率的影响
+Fig.6　Effect of fiber reinforcement type on erosion rate
+3.3.2　冲蚀粒子性能
+　　(1) 材料： 氧化铝、二氧化硅、金刚砂和石英砂是固体粒子冲蚀试验中常用的冲蚀粒子，其中氧化铝的危害最大。有些模拟外场环境的冲蚀试验需要使用天然砂石。由于不同地方天然砂石中石英砂的含量差别很大，因此有时必须根据试验要求从不同的地区来采集天然砂石。
+　　(2) 速度： 聚合物基复合材料的冲蚀速率与冲蚀粒子速度的关系类似于陶瓷，呈指数关系［14］
+　　dE/de∝vn
+陶瓷的指数值范围通常是2～3.5，但聚合物基复合材料则约为3.5～6.0。
+　　(3) 颗粒大小： 聚合物基复合材料的冲蚀速率随冲蚀粒子尺寸增加而增加，如图7所示，且与颗粒直径呈指数关系［16］
+　　dE/de∝Dn
+　　(4) 冲蚀粒子与纤维方向间夹角(β)： 图8给出了冲蚀速率与冲蚀粒子与纤维方向间夹角(β)的关系。对单向带，当纤维方向与冲蚀方向平行时，冲蚀引起的磨蚀要比与冲蚀方向垂直时严重得多。
+3.3.3　纤维与基体界面的性能　由于纤维与基体界面粘接质量较好，纤维表面处理过的聚合物基复合材料，其冲蚀速率往往比较低(见图9)。
+　　　
+图7　纤维与基体界面对冲蚀速率的影响
+Fig.7　Effect of interface between fiber and matrix on erosion rate 
+
+图8　冲蚀粒子直径对冲蚀速率的影响
+Fig.8　Effect of diameter of erodents on erosion rate
+
+图9　粒子冲击与纤维方向间夹角,β对冲蚀速率的影响
+Fig.9　Effect of angle β between orientations of impact and fiber on erosion rate
+
+3.4　对抗冲蚀防护涂层的研究
+　　文献［18］研究了三种抗冲蚀防护涂层的作用，它们分别是：硬聚氨酯(MIL-C-83286)、弹性聚氨酯(MIL-C-83231)和弹胶物(AF-C-VBW-15-15)。图10所示为带有不同涂层复合材料在不同砂蚀冲击条件下的质量损失。这三种涂层均表现为韧性冲蚀特性，并具有良好的冲蚀阻抗。图11所示为带与不带涂层E-玻璃纤维/环氧树脂及石英/聚酰亚胺的质量损失，可以看出不带涂层复合材料的质量损失要大一个量级。研究表明，只要涂层保持完整，其冲击冲蚀阻抗相当好；在研磨冲蚀时，涂层的冲蚀阻抗提高不明显，但此时复合材料的冲蚀阻抗比较高，冲蚀并不是严重的问题。
+
+
+图10　带不同涂层玻璃/环氧树脂的质量损失随冲击角的变化
+Fig.10　Change of mass loss for glass/epoxy with different coatings vs impact angles
+
+4　对今后研究的某些建议
+　　(1) 聚合物基复合材料在空间结构中已得到广泛应用，但它的冲击阻抗比其他材料差得很远，迄今为止，这一问题的研究还未得到开展，因此有必要进一步研究以发现这种材料的冲蚀机理和预估模型，并且应重视对耐冲蚀的涂层材料和涂层工艺的研究。
+　　(2) 迄今为止所有的冲蚀试验都采用常规的喷砂装置和加速喷嘴，冲蚀的面积局限于喷嘴附近的很小范围，粒子的速度是喷嘴几何尺寸及喷射距离的函数。由于单个粒子的速度以球形轨迹面的形式分布，所以这种喷射冲蚀提供的信息只能用于评估材料。而对于结构评估，通常要求打在试件表面上的气流和粒子速度的分布是均匀的。对此,只有由Grant,G.等人［9］设计的风洞型冲蚀试验装置和多普勒激光测速仪才能满足这一要求，并能模拟使用中的飞行条件，从而应推广用这种装置进行的冲蚀试验。
+
+作者简介：沈真(1943-)，男，研究员，从事复合材料损伤和复合材料结构耐久性/损伤容限研究
+作者单位：沈真、杨胜春：飞机强度研究所，西安　710065；
+　　　　　克莱瑞珂：意大利都灵工业大学
+参考文献：
+［1］　SIEBEL E, BROCKSTEDT H C. Verschleissminderung. Maschinenbau,1941，20：457
+［2］　TSIANG T H. Survey of sand and rain erosion of composite materials. Journal 
+　　　　of Composite Technology & Research, 1986,8(4)：54～58
+［3］　TENNYSON R C, HANSEN J S, MABSON G E. MORISON W D, KLEIMAN J. Composite 
+　　　　materials in space: results from the LDEF satellite, Proceedings of the 
+　　　　Sixth CASI Conference on Astronautics, 1990
+［4］　Standard practice for conducting erosion tests by solid particle impingement 
+　　　　using gas jets, ASTM G：76～83
+［5］　FINNIE I. An experimental study of erosion. Soc Exptl Stress Analysis, 
+　　　　1959,17: 65～70
+［6］　TILLY G P. Sand erosion of metals and plastics: a brief review. Wear, 1969,
+　　　　14: 241～248
+［7］　TILLY G P, SAGE W. The interaction of particle and material behaviour in 
+　　　　erosion processes. Wear 1970,16: 447～465
+［8］　POOL K V, DHARAN C K H, FINNIE I. Erosion wear of composite materials. Wear, 
+　　　　1986,107: 1～12
+［9］　GRANT G， TABAKOFF W. Erosion prediction in turbomachinery resulting from 
+　　　　environmental solid Particles. Journal of Aircraft, 1975,12(5):471～478
+［10］　TSIANG T H, Sand erosion of fiber composites: testing and evaluation, Test 
+　　　　methods for design allowables for fibrous composites: 2nd Volume. ASTM STP 
+　　　　1003, 1989, 55～74
+［11］　CLERICO M, GIROLETTI L, CUPPINI D, CATALDO G. NDT observation and analysis 
+　　　　of crater-shaped damage. Proceedings of 14th World Conference on 
+　　　　Non-Destructive Testing, New Delhi, India, December 8～13,1996
+［12］　MIYAZAKI N, HAMAO T, Effect of interfacial strength on erosion behavior of 
+　　　　FRPs. Journal of Composite Materials,1996,30(1)：35～50
+［13］　MIYAZAKI　N, TAKEDA N. Solid particle erosion of fiber reinforced plastics. 
+　　　　Journal of Composite Materials,1993，27(1)： 21～31
+［14］　ROY M, VISHWANATHAN B, SUNDARARAJAN G． The solid particle erosion of 
+　　　　polymer matrix composites. Wear, 1994,171: 149～161
+［15］　MATHIAS P J, WU W, et al. Solid particle erosion of a graphite-fiber-　
+　　　　reinforced bismaleiimide polymer composite. Wear, 1989,135: 161～169
+［16］　ZAHAVI J, SCHMITT G F. Solid particle erosion of reinforced composite 
+　　　　materials. Wear, 1981,71:179～190
+［17］　KARASEK K R, GORETTA K C, et al. Erosion in bismaleimide polymers and 
+　　　　bismaleimide-polymer composites. Journal of Materials Science Letters, 
+　　　　1992,11: 1143～1144
+［18］　ZAHAVI J, SCHMITT G F. Solid particle erosion of polymeric coatings. Wear, 
+　　　　1981,17:191～210
+［19］　PEARL L S. LU G X. Erosion of impacted notched holes in GFRP composites. 
+　　　　Wear, 1994,176: 81～88
+［20］　BRANDSTADTER A, GORETTA K C, et al. Solid-particle erosion of bismaleimide 
+　　　　polymers. Wear, 1991,147:155～164
+［21］　ZAHAVI P.WU J,GORETTA K C, et al. Solid particle erosion of a graphite-　
+　　　　fiber-reinforced bismaleimide polymer composite. Wear, 1989,135: 161～169
+收稿日期： 1999-04-16；修订日期：1999-05-10

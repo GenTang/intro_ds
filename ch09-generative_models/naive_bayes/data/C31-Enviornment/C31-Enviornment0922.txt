@@ -1,0 +1,103 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+应用VOF方法对水流中拦油栅拦油失效进行数值模拟尝试
+张　政　程石勇　李　晗　安长发
+摘要　通过自编程序用流体体积分数（VOF）法模拟计算了两种拦油失效的情形：低粘度的油类在水流速度超过某一临界值时发生了油滴夹带失效；粘度很大的油类在水流速度超过临界值时发生了临界累积失效.模拟结果在定性上与已有的实验结果相一致.但计算出的临界水流速度还存在偏差，这将在以后的工作中通过加入湍流作进一步的探讨.
+关键词　拦油失效；数值模拟；多相流；VOF方法.
+Preliminary numerical simulation of boom failure with VOF model
+ZHANG Zheng,CHENG Shiyong,LI Han (College of Chemical Engineering,Beijing University of Chemical Technology,Beijing 100029)
+An C.F. (Imperial Oil Inc.,Calgary, Canada)
+Abstract　Floating booms have been commonly used to contain spilled oil on water surface,while failure often occurs in currents with high velocity.In order to study boom failure mechanisms,Computational Fluid Dynamics methods have been used by now.As a preliminary application of volume of fluid (VOF) model in self-compiled SIMPLE program,two cases of oil failure were simulated:when critical current velocity is exceeded,droplet entrainment occurs for low-viscosity oil while critical accumulation occurs for high-viscosity oil.In the computation,fluid flow is simplified to be laminar.The simulation results are qualitatively identical with experiment and the simulation results obtained by Dr.C.-F An with Commercial software,Fluent.Quantitatively,however,our computed critical current velocities are a little higher.Turbulence model should be employed in further computation in order to get more acceptable results.
+Keywords　boom failure,numerical simulation,multiphase flow,VOF model.
+1　概述
+　　由于石油泄漏造成海洋、河流的污染已成为世界各国关注的环境问题.目前，处理此类污染最常用的方法是用水面拦油栅［1］拦集，然后用撇油器回收或直接焚烧.拦油栅即漂浮在水面上用以收集或存放油类的障碍物（或称挡板）.拦油栅拦集石油的示意如图1所示.实践表明，广阔海面上用拦油栅拦油时，由于各种原因常会发生油从栅板下被水流带走而造成拦油失效.有关拦油失效的实验研究表明主要存在3种失效形式［2—4］：油滴夹带失效、油层流失和临界累积失效.拦油动力学机理的早期研究建立在简化模型的基础上［5，6］，水流被视为一维均匀流，对象是运动粘度ν<3.5×10-3m2/s的油类，但这些研究结果均无法说明拦油失效的机理.
+
+
+图1　拦油栅后油层的典型形状
+Fig.1 Oil slick contained by oil boom
+　　近年来，随着计算机技术的发展，应用数值模拟的方法研究拦油失效成为一种有效的手段.E.J.Clavelle和R.D.Rowe［7］采用了SOLA-VOF程序对运动粘度ν=2.3×10-3m2/s的重油拦油的累积失效问题进行了数值模拟.结果表明，水流速度v=0.14m/s时，即发生油层完全从栅板下流走的所谓临界失效，这与Delvigine[3]的实验结果相吻.
+　　最近，加拿大帝国石油公司的安长发（C.-F.An ）博士等人［8—10］用商用软件FLUENT成功地模拟了二维情况下拦油失效的3种形式.计算采用了VOF方法，并应用k-ε模型计算水流的湍流粘度.根据模拟结果：对于一定体积的低粘度轻油，水流速度低于临界值时，油层最终会达到稳态，拦油能成功；而当水流速度超过临界值时，发生油滴夹带失效.其模拟计算得到的前区油层厚度和临界水流速度分别与Wilkinson［5,6］ 的理论值和Delvigine［2］的实验结果相吻合.对于高粘度的重油，当水流速度小于临界值时，油层也能达到稳定，在挡板前形成短而厚的“油堆”；而水流速度超过临界值时，发生临界累积失效，油层从挡板下“爬走”，并最终全部绕过挡板流失掉.算得的临界值与Delvigine的实验相符合［3］.
+　　本文意在An博士等人工作的基础上，探讨用VOF方法开发研究拦油失效的应用程序，为进一步深入研究拦油失效打下基础.
+2　计算方法
+　　即便排除风浪影响，拦油栅拦油仍是三维的多相流问题.考虑到空气的粘度远小于液体（油和水）的值，因而可忽略气相的影响，研究的问题可以简化为上界面为无摩擦力的油-水两相流动问题.再则，水面上拦油时，展开的拦油栅呈弧形，中心处水流速度最高.由于水流速度是拦油失效的重要推动力，本计算模拟将对称的拦油栅的中轴面作为研究的对象.因而，可以把问题进一步简化为二维，本文实际研究的是二维条件下油-水两相非定常流动.
+　　因为油水两相不互溶，存在明显的相界面，数值模拟的关键部分是跟踪两相界面.解决这一问题的一种有效方法是流体体积分数法［11，12］（VOF方法），它采用体积分数函数跟踪两相界面，通过求解同一控制方程计算两相的流场分布.VOF方法定义了表征特定流体体积分数的函数F(i,j,t).这里把充满水的网格定义为F=1.0；而把充满油的网格定义为F=0；F为0—1之间值时，该网格为两相界面.
+2.1　基本控制方程
+　　不可压缩流体的二维Navier-Stokes方程：
+　　　　　　　　　(1)
+流体满足连续性方程：
+Δ．u=0　　　　　　　　　　　　　　　　(2)
+为了区分油水两相，引入体积分数函数F(i,j,t)，F函数满足：
+　　　　　　　　　　　　　(3)
+2.2　VOF方法求解要点
+2.2.1　方程（1）和（2）的离散化　先对方程（1）按显式格式离散，可得n+1时刻的估算速度u*与pn和un间的关系式，再对（1）式用“半隐式”格式离散.其中，压力为隐式pn+1,扩散项和对流项中的速度为显式un，从而得到了n+1时刻速度un+1关于压力pn+1和n时刻速度un的关系式.两离散化方程相减，得到：
+　　　　　　　　　　　　　　　(4)
+其中，压力增量δp=pn+1-pn.把（4）式代入连续性方程（2）中，得到压力修正方程：
+　　　　　　　　　　　　　　　(5)
+2.2.2 求解离散方程 在设定的压力pn下，由方程（1）的显式格式离散方程算得u*；对压力增量方程（5）用牛顿迭代法求解，给出压力增量δp. 将δp代入式（4），验算新的速度场是否满足连续性方程，若不满足则代入方程（5）进一步迭代，直到Δ.u*=0.从而得到n+1时刻的速度场.将此速度场代入方程（3）中，计算体积分数函数F.
+2.2.3 F函数的求解 为了保证求解方程（3）时能得到具有阶跃特性的F函数,采用了给体-受体方法（DA方法）［12］，它根据上游和下游迭代F信息确定界面的形状,然后根据该形状计算网格面上F通量.
+2.2.4　边界条件的处理　流体的上边界是与空气接触的自由表面，已如前述，将被考虑成无摩擦的平板，边界上y方向速度为零；底部边界视为固定无滑脱表面，此边界上速度为零；流体从左边界流入，给定入口速度ui;右边界为连续性边界，即u/x=0.y方向重力加速度g=-9.81N.含有油、水两相的网格中，密度和粘度取算术平均值.
+3 计算试例与结果比较
+　　本文分别针对两种不同粘度的油类进行了模拟计算，以与Delvigine等人的实验结果及C.-F.An模拟计算的结果进行比较.计算中采用不均匀网格划分，在挡板附近和计算域上部加密网格，以保证油-水界面和挡板附近的计算精度.
+3.1 低粘度油的计算模拟
+　　低粘度油类的模拟计算基于Delvigine的实验［2］.计算域为一矩形通道，长（x方向） 4.0m,深（y方向）0.30m.挡板置于距入口 2.0m处，其深度为0.07m（y 方向)，厚（x方向)0.01m.网格数目142×31，最小网格尺寸取Δx=0.02m,Δy=0.005m.油的密度ρo1=888kg/m3，其运动粘度νo1=7×10-5m2/s；水的密度ρw=998.2kg/m3，其运动粘度νw=1.004×10-6m2/s.
+　　未加入油之前，水从左边界以u=0.09m/s的速度给入计算域，经30.0s后得一稳态流场.以此为初始条件，油从左边界最上方网格给入，当单位宽度上的油量达到Q=0.01m\+3/m时停止给油.分别计算水流速度为0.09m/s，0.15m/s，0.20m/s，0.24m/s及0.28m/s时油层在挡板附近的动力学行为，其结果见于图2中.
+　　在水流速u=0.09m/s条件下，t=0s时刻，油开始从流场左边界给入，22.2s后停止进油，图2a给出了此时挡板前的油层侧形和流场速度分布：这时，油层的前锋已到达挡板并在挡板前集聚，其主体仍在向挡板流动；继续进水，油层不断变短，t=40.2s时（图2b ），油层内出现了负向速度，此后油层又被“反射”回去，变长变薄，直到t=85.0s时.之后，油层又有所收缩并达到稳态.此结果与实验现象相符，Johnston称之谓“波动”.
+
+
+
+
+
+
+
+图2　不同水流速下低粘度油动力学行为
+Fig.2 Dynamic evolution of low viscosity oil at different water velocities
+　　增大入口水流速度至u＝0.15m/s，油层进一步向挡板方向收缩，t=110s时（如图2c）达到稳态，油层上游部分有离开主体的油滴存在.此时无油流失于挡板之后，拦油成功.
+
+
+
+
+
+
+
+图3　不同水流速下高粘度油动力学行为
+Fig.3 Dynamic evolution of high viscosity oil at different water velocities
+　　继续增大入口水流速度至u=0.20m/s（如图2d），油层变得更短更厚，其上游油-水相对速度较大，油从主体被“剪切”下来形成油滴，挡板附近油层较稳定，说明油滴又重返油层主体，没有发生失效.
+　　水流速度增大至u＝0.24m/s,油层变得更短，上游处更不稳定，但并没有出现油的流失（如图2e）.进一步加大入口水流速度达u＝0.28m/s,2.5s后，油层的下缘已接近挡板底部，油滴已开始流失到下游；t＝143s时，更多的油流失于挡板之后（图2f）.流失的油呈分散状，体积较小；而油层的主体被拦在挡板之前，因此判断发生了油滴夹带失效.
+3.2 高粘度油的计算模拟
+对高粘度油类的计算模拟基于Johnston等人［4］的实验.计算域长（x方向)4.3m,深（y方向）0.23m.挡板距入口 2.0m，深0.07m（y方向 )，厚（x方向)0.01m.网格数目220×27，最小网格尺寸取Δx＝0.01m,Δy=0.005m.油的密度ρO2=915kg/m3，其运动粘度ν=3.6×10-3m2/s，水的密度取ρW=999.1kg/m3，运动粘度ν=1.138×10-6m2/s.
+　　以入口水流速度为u=0.1m/s的水相稳态流场为初始条件，油从左边界最上方网格给入.当油量达到Q＝0.005m3/m时停止进油，计算不同水流速度时油层在挡板附近的动力学行为，其结果见图3.
+　　t=0s时，油开始从流场左边界给入，10.0s后停止进油，水继续以u=0.10m/s的速度进入流场.t＝20.0s时刻（如图3a），油层前锋已到达挡板并在此集聚，油层内速度为正.随着时间的增加，油层不断变厚.图3b和3c分别给出了t＝65.0s 和t＝70.0s时刻挡板前的油层形状和流场分布：油层变得较厚并且出现了负的速度,即油层内出现了循环流.比较两图，5s内油层形状和流场分布几乎没有变化，油层到达了稳态，没有发生失效.与低粘度油类不同，由于油水间摩擦力较大，过程中没有出现油层的“反射”现象.
+　　在t=70.0s时刻，增大入口水流速度至u＝0.15m/s.11s后（t=81s），油层在挡板前重新到达平衡.由图3d可以看到：t=81.0s时，油层继续变短变厚，堆积在挡板前.尽管此时，油-水界面呈波形，且其上游油层较不稳定，有较大的油团与油层主体分离，但随后又返回油层.此时刻没有明显的油层流失，拦油仍可认为是成功的.
+　　继续增大入口水流速度至u＝0.20m/s.根据图3e，t＝83.5s时，油层变得既短且厚并超过了挡板，油层开始绕过挡板并开始流失于挡板之后.但经过2.5s后发现油层的流失速度减慢，并趋于稳定，故还不能认为是临界累积失效.在t＝86.0s时增大水流入口速度至u＝0.25m/s.图3f给出了t＝89.0s时刻的油层侧形和流场分布：油一团团地流失于挡板之后，挡板前只有薄薄的一层油并继续流向挡板下游.由于挡板前已没有达到平衡状态而存在的主体油层，故在此水流速度下发生的是临界累积失效.
+3.3　结果比较
+　　根据Delvigine和Johnston的实验结果：对于低粘度油类，发生油滴夹带失效的临界水流速度为u＝0.24m/s左右；而高粘度的油类，在u>0.20m/s时会发生临界累积失效.An博士利用FLUENT软件计算出的两种失效的临界值分别为0.24m/s和0.20m/s.而根据本模拟计算的结果，油滴夹带失效发生于水速为0.28m/s时，而高粘度油在水速为0.25m/s发生了临界累积失效， 略高于实验值和An博士的计算结果.图4（a）和（b）分别给出了低粘度油和高粘度油在水流速度为0.15m/s时，An博士用FLUENT软件计算所得的油层侧形比较.该图表明，与An博士的计算结果相比，在相同的入口水流速度下，本文所算得的油层累积程度较低，相对较薄，较长.
+　　根据入口处的水流速度、流道几何尺寸计算得出雷诺数Re>20000,属于湍流流动，而计算中未加入湍流模型.因此就定量而言，这可能是本模拟出现小量偏差的原因.
+
+
+图4　模拟计算出的油层侧形比较
+——This paper Dr.An's
+Fig.4 Oil slick profile comparison (numerical results)
+4　结论
+　　模拟计算的结果表明：较低水流速度下，拦油栅拦油是成功的.在较高水流速度下（u=0.28m/s），低粘度油类发生了油滴夹带失效，油层的主体被拦在挡板之前，但少量的油以油滴的形式流失于挡板之后；对于高粘度的油类，随着水速的增加，油层在挡板前累积并变得很短很厚，当水流速度超过临界值（u=0.25m/s）时，整个油层都流失到挡板之后，发生了临界累积失效.
+　　与Delvigine等人的实验结果相比，模拟计算的结果定性上与之相符得很好，既模拟出了油滴夹带失效和临界累积失效两种失效现象，也算得了在低粘度油类发生的“反射”现象；但在定量上，模拟计算得出的水流速度临界值略高于实验值.与An博士的计算结果相比，相同水流速度下，油层累积程度较低.这可能是由于计算中未加入湍流模型所致，有必要在今后的工作中引入湍流模型，作更深一步的研究.
+作者单位：张　政　程石勇　李　晗:北京化工大学化学工程学院，北京　100029
+安长发:加拿大帝国石油公司
+参考文献
+1 Hoult David P. Containment and collection devices for oil slicks.Oil in Water,1965,65—79
+2 Delvigine G A L. Laboratory experiments on oil spill protection of a water intake. Monograph: Oil in Freshwater,1985,446—458
+3 Delvigine G A L. Barrier failure by critical accumulation of viscous oil. Proceedings of Oil Spill Conference, San Antonio,TX,USA.1989.143—148
+4　Johnston A J. Fitzmaurice M R，Watt R G M, Oil spill containment: viscous oils. Proceedings of 1993 International Oil Spill Conference. Tampa,FL,USA.1993.89—94
+5　Wilkinson D.Dynamics of contained oil slicks. Journal of the Hydraulics Division. ASCE,1972,98:1014—1030
+6　Wikinson D.Limitations to the length of contained oil slicks. Journal of the Hydraulics Division. ASCE,1973,99:701—712
+7　Clavelle E J，Rowe R D. A numerical study of oil boom failure by critical accumulation. Proceedings of 9th Conference on Numerical Methods in Laminar and Turbulent Flow. Atlanta, USA.1995
+8　An C-F, Clavelle E J, Brown H M, Barron R M. CFD simulation of oil boom failure. Proceedings of 4th Annual Conference of the CFD Society of Canada,Ottawa,ON,Canada.1996.401—408
+9　Brown H M, Goodman R H, An C-F,Bittner J.Boom failure mechanisms: comparison of channel experiments with computer modeling results. Proceedings of 20th Arctic & Marine Oilspill Program (AMOP) Technical Seminar, Vancouver,BC,Canada.1997,1:457—467
+10　An C-F, Brown　 H　 M, Goodman　 R　G et al.In:Zhou L X,Li X F (eds).Numerical modeling of the dynamics of an oil slick spill on flowing water.Multiphase Fluid, Nonnewtonian Fluid and Physico-Chemical Fluid Flows, Beijing:Int Academic Publishers,1997.3.45—3.52
+11　Hirt C W，Niichols B D. Volume of fluid (VOF) method for the dynamics of free boundaries. Journal of Computational Physics, 1981,39:201—225 
+12　范维澄，万跃硼.流动及燃烧的模型与计算.合肥：中国科学技术大学出版社.1992.341—349
+1998-01-09收到原稿
+1999-06-14收到修改稿

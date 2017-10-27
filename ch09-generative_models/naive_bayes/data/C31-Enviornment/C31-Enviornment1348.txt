@@ -1,0 +1,119 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+含裂隙介质污染物输运及生物降解不同时间尺度过程的计算方法*
+李家伦　洪钟祥　孙菽芬
+摘要　讨论了含裂隙介质地下水污染物输运与生物降解非线性方程组数值求解方法.用三次迎风插值方法计算裂隙介质中常见的场变量陡变化问题.用劈裂算子法，解决了方程中对流扩散过程与生化过程非线性耦合，并对快速生化反应项，利用对流项与该反应项的特征时间量级估算，给出了求生化过程作用子步的时间步长估算办法.用上述方法所得到的模拟结果与解析解和实验结果对比，吻合很好.
+关键词　数值方法；生物降解；地下含水层.
+Numerical simulation of biodegradation of contaminants in the fractured media
+LI Jialun1,HONG Zhongxiang1,SUN Shufen2 (1LAPC,2LASG,Institute of Atmosphere Physics,Chinese Academy of Sciences,Beijing 100029)
+Abstract　A numerical method for simulation of transport and biodegradation of contaminants in the fractured media is discussed.The cubic spline method was used to solve the advection flow dominated problem which often occurs in the fracture media.The Splitting-Operator was used to decouple the advection and diffusion terms with biochemical term in the equations.Smaller time step for solving fast biochemical terms was introduced through comparing the order of characteristic time of biochemical term with that of advection (diffusion) term.Final numerical simulation results showed good agreement with analytical solution as well as experimental results.
+Keywords　numerical method,biodegradation,subsurface acquifer.
+　　定量描述细菌微生物和污染物在地下含水层中的变化规律，对于地下水污染治理十分重要［1］.描述地下水中微生物运动的方程是高度非线性的［2—6］.只有靠数值法求解.对于均匀孔隙介质生物降解计算方法问题，已有报道［4，5］.关于裂隙孔隙介质污染物迁移转化问题的报道，主要侧 重于裂隙中对流输送作用不占优势［7，8］、及化学反应周期较长的(几年到十几年)情况［9］，对于这两种情况，计算方法比较好解决.在裂隙中，对流引起的污染物输运常常大于扩散项的作用，并可能出现场变量陡变化(大梯度).同时，在生物降解过程中，细菌生长死亡周期在几天到几十天［6，10］，吸附、解吸更快，常为几天到几小时甚至更短［6，10］，这些情况给计算方法带来很大困难，本文的数值方法则是根据这两个问题设计的.
+1　生物降解数学模型的特点
+　　在裂隙介质二重孔隙模型中［2，3，6］，好氧菌(一维)运动方程为：
+(1)
+(2)
+(1)、(2)两式中，脚标“1”代表裂隙中的要素，脚标“2”代表孔隙中的要素；O,S分别代表氧和污染物的浓度，都有性质类似的控制方程；C为液相中细菌浓度；其它符号说明见文献［2］，［3］．方程(2)通过裂隙与孔隙界面条件与方程(1)发生耦合.
+　　为了讨论计算方法，一般设法给出上述方程组线性化后的相应标准形式：
+　　　　　　(3)
+　　　　　　　　　　　(4)
+　　其中，
+
+　　在式(3)、(4)中，主要有对流项、扩散项、生化项(最后一项)和裂隙孔隙界面的通量交换项.当对流项占优势，即：Pe>1.0和A=(uC/x1)/fC>1.0时，会出现污染物浓度较陡的锋面会维持较长的时间，这已被观测事实和有关理论所证实.此时要求对流项的计算方法有足够的精度.若A<1.0时，生化项的贡献快于对流项的贡献，则要求对生化项的计算方法有较高的精度.最后，如果裂隙孔隙界面上交换较大，而裂隙又较细，其相应时间步长的选取也需作考虑.
+2　计算方法
+　　本节在假设u2=0下，首先讨论无生化反应时含裂隙含水层污染物输运的计算方法，然后讨论有生化反应项时，污染物输运及转化的计算方法.此时，综合Tang等［11］和Sundicky等［12］的结果，在一定的定解条件下，可以求得解析解(限于篇幅，不给出具体形式)，对应的解析解可与后面相应的数值解相对比.当u2≠0时，与裂隙中的处理方法相似.
+2.1　对流扩散项(f=0)的计算方法及时间步长的确定
+　　首先，用劈裂算子方法将式(3)在f=0时劈裂为：
+　　　　　　　　　　　　(5)
+　　　　　　(6)
+式(5)、(6)中C*1、D*1表示中间步的要素，用三次样条插值方法求式(5)的浓度贡献，再求扩散项等其他各项的贡献.
+　　式(5)的求解方法如下［9］：
+　　令Ni=(C*1/x1)i根据三次样条插值方法有：
+　　　(7)
+式(7)中，Δxi=xi-xi-1,Δxi+1=xi+1-xi，当u>0时，式(5)中k+1时步的浓度C*k+1i为：
+(8)
+这样，式(7)、(8)及相应的初边条件求式(5)中的C*1后，再将扩散项用中心差格式，利用(3)、(4)两式迭代即可求得CK+11、CK+12.
+　　孔隙裂隙界面交换导数都采用下列二阶精度格式：
+(9)
+式(9)中，C2(1)为孔隙裂隙较界面上的值，等于裂隙介质当地值.并且
+
+　　由于方程的任何一种离散形式都有相应的舍入误差，若要求计算精度高，又要节省时间.则需要调节时间步长.
+　　当裂隙很细时，其时间步长的选取光满足Courant数小于1是不够的.对于长为Δx的裂隙，其背景浓度为C，Δt，要求：
+
+　　上面不等式中，flux2,flux1分别为流入流出裂隙通量，均为对流扩散的综合作用，其量级为，其中D为裂隙中的物质扩散系数，右边最后一项为在L长度内物质从裂隙进入孔隙的通量.其量级为.这里利用了界面上裂隙孔隙浓度相等的关系，则时间步长应满足：
+　　　　　　　　　(10)
+　　为了比较上述方法的优点，本文分别用单步后退的有限元方法［13］计算对流扩散过程.图1为纯对流(Pe=∞)时：第90天两种数值方法计算结果与对应解析解的比较.其有关参数为u=0.1m/d，b=10×10-4m,D*=1.3824×10-6m2/d,φ1=1.0,φ2=0.01，R1=R2=1.0，D1=0.
+
+
+图1　纯对流时，第90天数值解与解析解的对比
+Fig.1 The comparison of numerical result(S,E) and analytical result(A) at 90 days in absolute advective case
+
+
+图2　f=1.54时，第30天数值解与解析解的对比
+Fig.2 The comparison of numerical result(B,C) and analytical result(A) at 30 days in different sub-step
+2.2　有生化反应项(f≠0)时的计算方法及生化过程时间子步长的确定
+　　在方程(3)、(4)中，可以假设f1=f2=f，以可有解析解与数值解对比，这并不影响以后结论用于f1≠f2的计算方法.
+　　　　　　　　　(11)
+式中，Δt=nΔt0,ΛT表示对流扩散算符，ΛK表示生化反应项的算符.有：
+　　　　　(12)
+　　　　　　　　　　　　(13)
+其具体计算步骤为：已知CK，积分式(12)及相应孔隙中污染物扩散方程半个时间步长，并以这个浓度值为初值，积分式(13)及相应孔隙中生化过程方程一个时间步长，再以积分生化过程后的浓度值为初值，积分式(12)及孔隙扩散方程半个时间长步，即为下一个时刻式(3)、(4)的解.
+　　由于Zysset并没有给出如何选取生化时间步长.本文在求解生化过程时，Δt时间步长内的生化时间子步长Δt0按照如下方法选取.
+　　通过Splitting-Operator分裂后，生化项已为常微分方程：
+　　　　　　　　　　　　(14)
+　　f(C)是连续函数，并认为其三阶导数是小量.将式(14)式右端在Cm(1≤m≤n)处展开，并要求一个生化时间子步长内，Cm和Cm+1满足如下关系：
+　　　　　　　　　　　　　(15)
+　　ε为已选定的常数，通过对它的控制以达到求解生化过程的精度.有
+　　(16)
+　　式(16)中：
+
+　　Δt仍按前面的方法选取，按式(16)选取生化项的时间步长即可.
+　　图2为f=1.54d-1时，用上述方法确定生化时间子步长和生化时间子步长与对流扩散时间步长相同情况下，第30天时，计算结果与对应解析解的比较，从图中可以看出，本文所采用方法(曲线C)较好地模拟了生化反应时间尺度小于对流扩散时间尺度的情况(生化项与对流扩散项之比小于1).曲线B为式(11)中n=1时的计算结果.
+3　数值解与实测值的对比
+　　为了验证本工作给出的上述结论，将本文所推荐的方法用于模拟实验观测.由于目前未见裂隙孔隙介质下生物降解的实验报道，这里采用一个裂隙孔隙介质下的输运转化实验和一个孔隙介质下的生物降解实验结果.
+3.1　裂隙孔隙介质下污染物输运与转化实验模拟
+　　根据Sudicky等［12］和Star等［14］的报道，在饱和稳定流的裂隙孔隙土柱中，在入侧一端的沙土层中，分别注入NaCl［12］和85Sr［14］，在另一端进行测试，具体方法步骤和有关参数见文献［12］和文献［14］.图3为NaCl实测值与本文计算值的对比，可见，计算值与实测值符合得很好.图4为注入85Sr,u分别为1.0、0.5m/d时的计算值与观测值的对比.虚线为调整滞止系数R前(Rd实测值)的计算结果，实线为按照文献［14］调整R后的计算结果.可见，其结果仍是令人满意的.在图的右端计算值比实测值略偏高的现象，在近期的工作中，也有类似的报道［15］，文献［15］也认为象弯曲系数、滞止系数、孔隙扩散系数、孔隙度等参数的实测结果的精确性是值得注意的.
+
+
+图3　无化学反应时数值结果与观测值的对比(u=0.5m/d)
+Fig.3 The comparison of numerical result(N) and measured result(M) in nonreactive case
+
+
+图4　有化学反应时，数值结果与观测值(M)的对比
+Fig.4 The comparison of measured result(M) and numerical result(NA,NB) in reactive case
+
+
+图5　生物降解下模拟结果与实验结果的对比
+Fig.5 The comparison of measured results and numerical results in biodegradation
+3.2　孔隙介质下生物降解实验模拟
+　　本文模拟孔隙介质中硝酸盐还原菌降解乳酸的土柱实验［4］结果.有关实验方法及参数在文献［4］中有详细说明.在模拟此过程时除(1)、(2)两式外，需要再引入一个硝酸盐输运转化方程，其形式在本文第2部分已说明过.同时需要将双重孔隙介质下的污染物及细菌相互作用模型退化为均匀孔隙介质下生物降解模型.图5即为实验值与模拟值的对比.可见，本文采用的方法较好地模拟了生物降解过程.
+4　结论与讨论
+　　以上结果说明，应用三次样条方法处理对流项，较好地解决了裂隙介质中物质输运的场变量陡变化问题.
+　　推广应用Splitting-Operator方法于含裂隙含水层有生化过程的输运及转化问题，所得的计算结果与对应的解析解很一致.通过对生化项与对流项的比较分析，给出了当生化过程占优势时，生化项时间步长的选取方法.
+　　利用本计算方法对实验资料进行了对比模拟，其结果也比较一致.
+* 国家自然科学基金资助项目(批准号：59279402)
+作者单位:中国科学院大气物理研究所，
+李家伦　洪钟祥:大气边界层物理与大气化学国家重点实验室；
+孙菽芬:大气科学与地球流体力学数值模拟国家重点实验室，北京　100029
+参考文献
+1　Tuesman J F,Cork D J.Subsurface contaminant bioremedition engineering.Critical Review in Environmental Control,1992,22(1/2):1—26
+2　孙菽芬.非均匀含水层中污染物的输送与生物降解的流动研究.力学进展，1995，25(3)：357—367
+3　孙菽芬，廖文根.生物降解处理地下有机污染物的模型研究.水利学报，1994，8：1—10
+4　Zysset A et al.Modeling of chemically reactive groundwater transport.Water Resour Res,1994,30:2217—2228
+5　Wood B D et al.Modeling contaminant transport and biodegradation in a layered porous media system.Water Resour Res,1994,30(6):1833—1845
+6　Corapcioglu M Y,A Haridas.Microbial transport in soils and groundwater,a numerical model.Adv Water Res,1985,8:188—200
+7　Bibby.Mass transport of solutes in dual-porosity media.Water Reesour Res,1981,17:1075—1081
+8　Noorishad J et al.An upstream finite element method for solution of transient transport equation in fractured porous media.Water Resour Res,1982,18:588—596
+9　何光渝.放射性核素在多孔岩层裂缝中传输的数值模拟.环境科学学报，1987，7(3)：253—259
+10　Harvey R W.In:Hurst C J (ed).Parameters involved in modeling movement of bacteria in groundwater,in Modeling the Environmental Fate of Microorganisms.Washington D C:American Society for Microbiology,1991.Chapter 5:89—114
+11 Tang D H et al.Contaminant transport in fractured porous media:analytical solution for a single fracture.Water Resour Res,1981,17(3):555—564
+12 Sudicky E A et al.Experimental investigation of solute transport in stratified porous media,1 the nonreactive case.Water Resour Res,1985,21(7):1035—1050
+13 Neuman S P.Adaptive Eulerian-Lagrangian finite element method for advective-dispersion.International J for Numerical Method in Engineering,1984,20:321—337
+14 Starr A et al.Experimental investigation of solute transport in stratified porous media,2 the reactive case.Water Resour Res,1985,21(7):1043—1050
+15 Novakowski K S　et al.Field measurement of radial solute transport in fractured rock.Water Resour Res,1994,30:37—44
+1998-02-11收到原稿
+1999-01-28收到修改稿

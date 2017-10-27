@@ -1,0 +1,138 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+钴肥对大豆根瘤固氮及产量影响的初报
+戴建军　赵久明　姜伯文
+摘要　试验用硫酸钴拌种，经测定，在盛花期和结荚期大豆株高、干物重及根瘤固氮酶活性和固氮强度与对照相比均有不同幅度增加，收获后大豆籽粒产量与对照差异达显著水平。
+关　键　词　钴肥，大豆，固氮酶活性，固氮强度，产量
+中图分类号　S565.1，S144.5　　文献标识码A
+THE EFFECT OF COBALT ON SYMBIOTIC NITROGEN 
+FIXATION OF SOYBEAN
+Dai Jianjun, Zhao Jiuming，Jiang Baiwen
+(Northeast Agricultural University,Harbin 150030,PRC)
+ABSTRACT
+　　Soybean seed was coated with sulfate coblat before planting in this experiment.The dry matter weight and plant height and the activity of symbiotic nitrogen fixation enzyme all increased and the seed yield was postively significant difference from that of the control.
+　　KEY WORDS：cobalt,soybean,dry matter weight,activity of N fixation enzyme
+0　前　言
+　　钴虽不是所有植物的必需营养元素，但它却是豆科植物和兰藻类生物固氮所必需的元素。有人试验，在不加钴的培养液中，豆科植物的生长受到严重阻碍，出现与缺氮一样的失绿症状，甚至死亡。接种根瘤菌和加钴显著增加紫花菌蓿的产量，只加钴而不接种根瘤菌则没有效果。俄罗斯农业化学家施钴已在多种作物上获得增产，因此钴在农业中，特别在豆科作物上有很重要意义。本试验设置了大豆施钴处理，以期探索钴对大豆固氮及产量的影响效果。
+1　材料与方法
+　　本试验于1996年在东北农业大学校内试验田进行小区试验，小区长5 m，宽4.2 m，小区面积21 m2。供试作物为大豆，品种为东农42，播种量为75 kg.hm-2。试验设两个处理，3次重复。处理1为对照(ck)，处理2为钴肥试验(Co)。各处理均施底肥磷酸二铵130 kg.hm-2。Co处理是在播种前以100 mg Co/kg种子，用硫酸钴溶液拌种，晾干后播种。小区土壤为黑土，其基础肥力见表1。
+表1　供试土壤基础肥力
+Table　1　Soil Fertility
+有机质
+Organic matter
+%全N
+Total N
+%碱解N
+Available N
+mg.kg-1速效P
+Available P
+mg.kg-1速效K
+Available K
+mg.kg-1PH
+2.980.150113.613.7162.47.01
+
+　　分析项目：分别在大豆盛花期、结荚期取样，摘根瘤，用乙炔还原-气相色谱法测根瘤固氮酶活性。气相色谱仪为上分100型，色谱柱为1m不锈钢柱，柱内载体为GDX-502，柱温50℃，载气为N2，氢火焰离子化检测器，检测温度110℃。
+2　结果与分析
+2.1　钴对大豆不同生育时期固氮酶活性和固氮强度的影响
+　　大豆不仅从土壤和肥料中吸收无机态氮，还可通过根瘤固定空气中的N2。Co是大豆根瘤固氮所必需的元素，施后将影响大豆固氮酶活性。表2中列出了大豆盛花期和结荚期固氮酶活性及固氮强度。
+表2　大豆不同生育时期的固氮酶活性和固氮强度
+Table2　The altivty of N fixation en Iyme and intensity of N fixation
+处理
+Treatments盛花期
+Full bloom stage结荚期
+Podding stage
+固氮酶活性
+Activity of N
+fixation enzyme
+μ mol/g.h固氮强度
+Intensity of N
+fixation
+mg/g.d固氮酶活性
+Activity of N
+fixation enzyme
+μ mol/g.h固氮强度
+Intensity of N
+fixation
+mg/g.d
+CK1.290.2891.830.409
+Co1.430.3203.530.791
+△%10.810.893.293.2
+　　由表2可见，Co处理的大豆在盛花期和结荚期的固氮酶活性和固氮强度均高于对照，其顺盛花期比对照高10.80%，在结荚期竟比对照高93.20%。由此可见，Co对大豆固氮酶活性的提高和固氮强度的增加都有很强的促进作用。这就为增产打下了物质基础。
+2.2　钴对大豆干物质积累的影响
+　　株高和干物重可反映大豆生长发育状况，也将影响大豆籽粒产量形成。钴虽不是大豆必需营养元素，但由于它影响大豆的根瘤固氮酶活性，从而影响了大豆的干物质积累。由小区试验得出的大豆不同时期的株高、干物质可见表3。
+表3　大豆不同生育时期的株高及干物质
+Table3　The plant height and dry mauer weight at differnt stagesof soybear
+处理
+Treatemtns盛花期
+Full bollm stage结荚期
+Podding stage收获期
+Harvest stage
+株高
+Plant
+height
+(cm)干物重
+Dry matter
+weight
+(g/株)株高
+Plant
+height
+(cm)干物重
+Dry matter
+weight
+(g/株)株高
+Plant
+height
+(cm)干物重
+Dry matter
+weight
+(g/株)
+CK45.4010.4276.0021.4697.7026.45
+Co46.7012.5678.4023.33105.9027.87
+△%2.6020.503.208.708.405.40
+　　由表3中可以看出，在盛花期、结荚期和收获期Co处理的株高和干物重都比CK有不同程度增加，其中在盛花期干物重增加最多，比CK增加20.50%，在结荚期和收获期干物重分别增加8.70%和5.40%。在收获期Co处理的株高比CK增高达8.40%，盛花期和鼓粒期也分别增加2.60%和3.20%，这说明Co肥对大豆生长及干物质积累都有明显的促进作用。
+2.3　钴对大豆籽粒产量的影响
+　　大豆栽培的最终目的是为获得更高的产量。各处理小区试验产量列于表4。平均增产13.1%。
+　　进行方差分析见表5。
+表4　各处理大豆籽粒产量(kg.hm-2)
+Table4　The yield of Soybean Seed
+处理
+Treatments重复
+Replication平均
+Average
+123
+CK1743169818971779
+Co20202182.519352013
+△%　　　13.10
+
+表5　产量方差分析
+Table5　The Variable analysis of soybean yeild
+变异因果
+Factor平方和
+Freedom方差
+SSF值
+MSF值
+F-valueF0.05F0.01
+处理间
+Treatments1815508155023.45*18.5198.49
+重复间
+Replication2752893764510.83
+误差
+Errer26953.9034770
+总计
+Total516379.30
+
+　　从表5方差分析可见，Co处理产量与对照产量差异达显著水平，这说明Co肥对大豆有显著增产作用。
+3　结　论
+　　本试验通过大豆施用钴肥证明：Co可以提高大豆固氮酶活性和固氮强度，有利于干物质积累，从而提高大豆籽实产量，经方差分析达显著水平。
+作者简介：戴建军，男，30岁，东北农业大学学院资环系土化专业讲师，硕士学位。
+作者单位：(东北农业大学农学院　哈尔滨　150030)
+参考文献
+〔1〕　土壤和植物中的微量元素的分析方法.中科院南京土壤研究所编.科学出版社，上海：1979，1～12
+〔2〕　H.奥贝尔，M.潘塔.土壤中的微量元素.科学出版社，上海：1982，65～74
+〔3〕　孙羲主编.土壤养分、植物营养与合理施肥.农业出版社，北京：1983
+〔4〕　A.L.Page Methods of Soil Analysis.Part 1982(2):485～487
+收稿日期：1998-06-09

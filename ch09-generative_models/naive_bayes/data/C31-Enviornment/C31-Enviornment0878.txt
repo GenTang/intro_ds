@@ -1,0 +1,131 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+活性炭对二硫化碳和水的共吸附动力学行为的热重研究
+金国杰　樊惠玲 上官 炬　郭汉贤　李永爱
+摘要　用热重法研究了5种国产活性炭对水蒸汽和二硫化碳的吸附动力学行为.发现其动力学行为均遵循Bangham方程和Elovich方程所描述的规律，但Bangham方程更为优越.水蒸汽在活性炭上的平衡吸附量受温度影响非常严重，二硫化碳和水蒸汽在活性炭上的总平衡吸附量与单独吸附二硫化碳的量相比，因活性碳的种类不同而各异，这主要跟活性炭的孔结构及表面化学性质有关.
+关键词　活性炭；水蒸汽；二硫化碳；吸附动力学.
+Study on kinetic behavior of adsorbing CS2 and CS2+H2O by activated carbon using thermogravimetric technique
+JIN Guojie,FAN Huiling,SHANG Guanju,GUO Hanxian,LI Yongai 
+(Institute for Chemical Engineering of Coal,Taiyuan University of Technology,Taiyuan 030024)
+Abstract　The kinetic behavior of adsorbing CS2 and CS2+H2O by five kinds of domestic activated carbon were studied by thermogravimetric technique.It was found that both Bangham and Elovich equations can be used to describe the adsorption kinetic behavior,but Bangham equation is more favorable.Temperature gave a remarkable effect on equilibrium adsorption of H2O.Because of the different pore structures and chemical properties on the surface of activated carbon,the total-equilibrium adsorption of CS2+H2O varied from one activated carbon to another comparing to that of CS2.
+Keywords　Activation carbon,water vapor,carbon disulfide,adsorption kinetics.
+　　
+　　粘胶纤维工厂放出的含有大量CS2的废气对环境所造成的污染，给操作人员和附近居民的身体健康造成严重危害.工业原料气中微量CS2的存在还会使化工生产中的各种催化剂中毒失活，严重影响使用寿命和产品质量.故对CS2脱除的研究就显得尤为迫切.活性炭常低温下作为吸附剂对脱除CS2有较好性能.作者在文献［1］中已报道了各种脱硫活性炭在干燥气氛下对CS2的吸附行为.但考虑到实际气体中水蒸汽的存在是在所难免的，而且不可避免地影响到CS2的吸附行为.有鉴于此，本文进一步研究了活性炭对水蒸汽和CS2的共吸附行为.
+
+1　实验方法
+　　本文采用热重法考察活性炭对CS2和水的吸附动力学行为，主要仪器为TG-1型电子自平衡微量热天平，感量0.01mg.实验所用原料气系用CS2气与纯氮气配制而成，CS2的浓度用WKL-3型微库仑分析仪测定.
+　　实验条件为：气体总流量420mL/min(已排除外扩散的影响)，CS2进口浓度2.95g/m3，水蒸汽含量保持35.8g/m3(30℃下的饱和水蒸汽)，所用活性炭为国产柱状产品，其物性参数见表1.
+表1　活性炭的物性参数
+Table 1 Physical parameters of activated carbon
+
+　ABCDE
+比表面积A,m2/g219.394.3822.4922.0557.2
+微孔容积V,mL/g0.1080.0280.2660.3170.225
+总孔容积Vt,mL/g0.1980.2000.7280.5380.419
+堆密度ρ,g/mL0.540.420.430.470.63
+样品粒度，目60—80(实验用)
+
+　　　注：C、D、E样为大表面积，高微孔活性炭；A、B样为小表面积，低微孔活性炭
+表2　不同温度下活性炭的平衡吸水量
+Table 2 Adsorbing capacity of H2O at different temparature
+
+T,℃平衡吸附质量分数，%
+ABCDE
+302.505.324.434.6215.54
+400.392.160.351.174.91
+5001.10002.39
+
+
+图1　活性炭对CS2、H2O及CS2+H2O的吸附动力学曲线(T=30℃)
+(因C、D炭较为类似，故只附一图)
+Fig.1 Adsoirption curves for CS2,H2O and CS2+H2O
+2　结果与讨论
+2.1　活性炭对水蒸汽的吸附行为
+　　考察了30℃、40℃、50℃ 3个温度水平下5种活性炭对水蒸汽的吸附动力学行为，给出活性炭结果见表2.
+　　由实验结果可以明显看出：(1)温度对活性炭的平衡吸水量有负效应且影响相当严重，在本实验条件下活性炭对水的平衡吸附质量分数为0—15.54%.除B、E两样品外，A、C、D活性炭在50℃时，不再吸附水蒸汽，吸水量为零.(2)50℃时水蒸汽在各活性炭上只需几分钟即达平衡.随温度下降，平衡时间将延长至17—75?min.
+2.2　CS2与水蒸汽在活性炭上单独吸附时的吸附行为比较
+　　各活性炭在30℃下单独吸附CS2和水蒸汽的动力学结果见图1.
+　　由图1可见，活性炭吸附水蒸汽的初始速率均比吸附CS2为快，两者的吸附速度相差约1.5—2.5倍.除E样外，其余活性炭吸附水蒸汽达到平衡所需时间一般均比吸附CS2为短，故在达到吸附平衡前，动力学曲线有可能出现了交叉.
+2.3　CS2和水蒸汽在活性炭上共同吸附行为
+　　在原料气中配入含量为35.8g/m３的水蒸汽(30℃的饱和水)，于30℃下进行CS2和水蒸汽在活性炭上的共吸附实验，实验结果见图1.由图1可以看出，在水蒸汽和CS2共存条件下，活性炭对二者的共吸附初速度均比单独吸附CS2为快.CS2+H2O总吸附量与CS2单独吸附量的结果见图1.显然，在双组份吸附体系中，H2O与CS2存在竞争吸附.
+2.4　吸附动力学模型的建立
+2.4.1　吸附模型　本文仅就30℃时，活性炭对水蒸汽的吸附及对CS2与水蒸气的共吸附动力学行为进行考察.选用Bangharm方程和Elovich方程［2］作为备选模型.
+　　Bangham方程的微分形式为：dq/dt＝q/mt，积分形式为：q=kt1/m
+式中，q为平衡吸附量，t为吸附时间，m为Bangham方程中的物性参数，k为Bangham方程中的速率常数.若吸附动力学行为符合该方程所描述的规律，则以lgq对lgt作图可得一直线.
+　　Elovich方程的微分形式为：dq/dt=ae-bq，积分形式为：q=(2.3/b)lg(t+t0)-(2.3/b)lgt0
+式中，t0＝2.3/ab,a为吸附初速度，b为Elovich方程中的参数.
+　　表3　活性炭吸附水蒸汽时两种直线拟合关系的相关系数
+　　Table 3 Correlation coefficient for linear regression using two methods
+
+方程r
+ABCDE
+Bangham0.9540.9720.9980.9990.998
+Elovich0.9620.9860.9980.9970.993
+
+　　若体系的吸附动力学行为符合该方程所描述的规律，那么选择合适的t0值，以q对lg(t+t0)作图便得一直线，经优选，本文取t0＝0.5.
+2.4.2　水蒸汽在活性炭上的吸附动力学模型
+　　对实验数据用上述两模型进行一元线性回归，发现拟合程度均较好(图2，图3)，各直线关系的相关系数见表3.残差对Bangham方程一般均小于4%，对Elovich方程小于14%.
+
+
+图2　活性炭吸附水蒸汽的lgq-lgt直线关系
+Fig.2 Relationship between lgq and lgt
+
+
+图3　活性炭吸附水蒸汽的q-lg(t+t0)直线关系
+Fig.3 Relationship between q and lg(t+t0)
+　　所以Bangham方程和Elovich方程均可用来描述水蒸汽在各活性炭上的吸附动力学行为.但Elovich方程各实验点残差较大，相比之下，Bangham方程更为优越.
+2.4.3　CS2和水蒸汽在活性炭上共同吸附的动力学模型　H2O、CS2二者的吸附行为遵循同一规律，通过对实验数据进行一元线性回归，发现拟合程度均较好，直线关系见图4、图5，各直线关系的相关系数见表4.残差对Bangham方程一般均小于3%，对Elovich方程小于7%.
+
+
+图4　活性炭吸附CS2+H\2O的lgq-lgt直线关系
+Fig.4 Relationship between lgq and lgt
+
+
+图5　活性炭吸附CS2+H2O的q-lg(t+t0)直线关系
+Fig.5 Relationship between q and lg(t+t0)
+　表4　活性炭吸附CS2和水蒸汽时两种直线拟合关系的相关系数
+　Table 4 Correlation coefficient for linear regression using two methods
+
+方程r
+ABCDE
+Bangham0.9710.9720.9900.9820.995
+Elovich0.9790.9880.9990.9960.999
+
+　　所以Bangham方程和Elovich方程也可用来描述CS2与水蒸汽在各活性炭上共同吸附的动力学行为，但Bangham方程相对更为优越.
+2.5　Bangham方程和Elovich方程中物性参数的求取
+　　Bangham方程中参数k\,m和Elovich方程中参数a\,b能间接反映吸附质在吸附剂表面吸附速度的快慢，对了解体系的吸附特性具有重要意义.各参数可分别由lgq-lgt及q-lg(t+t0)直线的斜率和截距求得.5种活性炭在30℃饱和水蒸汽条件下单独吸附水蒸汽和共同吸附CS2及水蒸汽的各参数值见表5，为便于比较，亦把相同条件下活性炭单独吸附CS2时的参数列于表5中.
+表5　动力学方程中各参数值
+Table 5 Parameters in kinetic equation
+
+模型参数吸附水蒸汽吸附CS2CS2+H2O共吸附
+ABCDEABCDEABCDE
+Banghamk10.4013.6011.598.1211.422.933.757.958.863.8411.8323.6817.5716.4124.74
+　m3.152.092.211.641.311.841.572.082.241.662.812.252.011.941.74
+Elovicha12.6534.6127.7938.6789.253.6044.2754.3039.3141.5916.1152.5749.7348.4588.91
+　b0.360.130.170.120.050.340.100.080.120.110.290.090.090.090.05
+
+2.6　讨论
+2.6.1　CS2与H2O的竞争吸附　实验表明，CS2+H2O的共吸附量并不等于二者单一吸附量之和.甚至对C、D炭，因H2O的存在，总吸附量比CS2单一吸附量明显减少.在E炭上，因CS2的存在，总吸附量比单一H2O吸附量明显减少.
+　　活性炭表面的亲水、憎水性对二者的吸附也有明显影响.一般炭样呈憎水性，但E样经测定，系碱改性活性炭，所以亲水性强，表现出差异.
+2.6.2　动力学模型优选　由上可知，Bangham方程与Elovich方程均可用于描述H2O、CS2、CS2+H2O在活性炭上的吸附动力学行为，但以Bangham方程更为优越.这里还需指出两点：
+　　Bangham方程尽管是以经验式提出，但可认为是与Freundlich等温吸附方程对应的动力学方程，这可从理论上导出(见另文报导).而Freundlich方程适用于描述活性炭吸附CS2的平衡体系已得到公认.
+　　二动力学方程中的参数k及a分别对应于吸附速率常数和吸附初速度.对各活性炭都存在以下结果：k(CS2)<k(H2O)<k(CS2+H2O)，即对CS2+H2O的吸附速率最大，而对CS2的吸附速率最小，这与图1中的动力学曲线是一致的.但若从吸附初速度a值考虑，对A、B、D活性炭，a(H2O)<a(CS2)<a(CS2+H2O),对C样，a(H2O)≈a(CS2)<a(CS2+H2O),对E样，则有a(H2O)>a(CS2+H2O)>a(CS2).这与图1中的结果存在较大差别，不如k值存在普遍适用性.
+
+3　结论
+　　1.活性炭对CS2与水蒸汽的吸附具有明显的选择性.活性炭A、B、C、D优先吸附CS2，而活性炭E则优先吸附水蒸汽.
+　　2.活性炭对单独吸附水蒸汽及共同吸附CS2和水蒸汽混合物的动力学行为遵循Bangham方程和Elovich方程所描述的规律，但Bangham方程更为优越.
+　　3.活性炭对水蒸汽的吸附与CS2相比，受温度影响更为严重.
+　　4.当CS2和水蒸汽在活性炭上共同吸附时，其总的平衡吸附量与单独吸附CS2量的大小关系，因活性炭种类不同而各异.A、B、E 3种活性炭的总吸附量大于单独吸附CS2的量，而C、D两种活性炭则相反.
+* 国家自然科学基金资助项目(29576254)　** 联系人
+作者单位：(太原理工大学煤化工研究所，太原　030024)
+参考文献
+　1　金国杰，郭汉贤，李永爱等.活性炭吸附CS2的共性行为研究.天然气化工，1996(增刊)：16
+　2　北川浩，铃木谦一郎.吸附的基础与设计.北京：化学工业出版社.1983.48—49
+1997-10-16收到原稿
+1998-06-01收到修改稿
+
+

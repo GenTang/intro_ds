@@ -1,0 +1,37 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.51-53
+
+
+
+
+电解凝絮法处理高盐度有机废水的实验研究
+王宏　 郑一新　 钱彪　 宁平　 
+摘　要：应用电解凝絮法处理紫胶合成树脂生产过程中排放出的高盐度有机废水实验结果表明，该方法能够有效地去除废水中的有机污染物，提高透明度，CODCr去除率达94%，BOD5去除率达90%以上，并且设备简单、耐冲击性好、操作方便、不需要投加化学药剂，易实现现代化管理。
+关键词：高盐度有机废水； 电化学反应； 凝絮； 浮选
+分类号：X783　文献标识码：A
+文章编号：1001-6929(2001)02-0051-03
+The Treatment of High-Salinity Organic Wastewater by Electrocoagulation
+WANG Hong（Kunming Environmental Science Institute, Kunming　650032, China）　
+ZHENG Yi-xin（Kunming Environmental Science Institute, Kunming　650032, China）　
+QIAN Biao（Kunming Environmental Science Institute, Kunming　650032, China）　
+NING Ping（Kunming University of Science and Technology, Kunming　650093, China）　
+
+Abstract：The electro-coagulation and floatation method was applied for the treatment of high-salinity organic wastewater of producing synthetic resin by the lac . It was found that CODCr and BOD5 removal rates were 94% and 90% respectively. In addition to its obvious effectiveness of treatment for organic compounds, the electro-coagulation and floatation method requires only simple facilities, with high resistance to impact and simple operations, without additional chemical agents and easy to realize management modernization.
+Keywords：high-salinity organic wastewater; electrochemistry; coagulation; floatation
+基金项目：昆明市首届中青年学术和技术带头人培养基金项目
+作者简介：王宏(1962-)，男，云南大理人，高级工程师. 
+作者单位：王宏（昆明市环境科学研究所， 云南 昆明　650032）　
+　　　　　郑一新（昆明市环境科学研究所， 云南 昆明　650032）　
+　　　　　钱彪（昆明市环境科学研究所， 云南 昆明　650032）　
+　　　　　宁平（昆明理工大学， 云南 昆明　650093）　
+
+参考文献：
+［1］　郑远仰.污水的电化学处理[J].化工进展，1990，18(2)：34～42.
+［2］　Sheng H Lin.Saline wastewater treatment by electrochemical method\.Water Res，1998，32(4):1059～1066.
+［3］　陈立波.高浓度含盐废水COD的测定[J].中国给水排水，1996，24(6)：32～33.
+［4］　傅献彩.物理化学(下册)[M].北京：人民教育出版社，1980.1～60.
+［5］　王蓉沙.电絮凝法处理油田污水[J].环境科学研究，1999，12(4)：30～32.
+
+收稿日期：2000年5月22日
+出版日期：2001年3月30日

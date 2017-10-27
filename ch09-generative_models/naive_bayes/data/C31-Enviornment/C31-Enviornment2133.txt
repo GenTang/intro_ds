@@ -1,0 +1,28 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.45-48
+
+
+
+
+河流水质预测的因素状态网络模型研究
+郭宗楼　 马帆　 
+摘　要：建立了一种河流水质预测的因素状态人工神经网络模型，其算例的计算结果表明，这一种方法有着极大的研究意义和广阔的应用前景。
+关键词：水质预测；　因素状态；　人工神经网络
+分类号：X32　文献标识码：A
+文章编号：1001-6929(2001)01-0045-04
+Study on Factor-State Artificial Neural Network Model for Prediction of Water Quality in a River
+GUO Zong-lou（Department of Agriculture Engineering,Zhejiang University,Hangzhou　310029，China）　
+MA Fan（Department of Agriculture Engineering,Zhejiang University,Hangzhou　310029，China）　
+Abstract：A factor-state artificial neutral network model for prediction of water quality in a river has been constructed.The results of a case study show that the model is an excellent one and very important to study,and this has very good future on its application.
+Keywords：water quality prediction,　factor-state;　artificial neutral network
+基金项目：国家教育部博士点基金(1999049306)资助项目
+作者简介：郭宗楼(1956- )，男，湖南人，副教授，博士. 
+作者单位：郭宗楼（浙江大学 农业工程系，浙江 杭州　310029）　
+　　　　　马帆（浙江大学 农业工程系，浙江 杭州　310029）　
+参考文献：
+［1］刘增良，刘有才.因素神经网络理论及其应用［M］.贵阳：贵州科技出版社，1994.244.
+［2］黄崇福，王家鼎.模糊信息优化处理技术及其应用［M］.北京：北京航空航天大学出版社，1995.241.
+［3］郭宗楼，刘肇祎.人工神经网络在环境质量评价中的应用［J］.武汉水利电力大学学报，1997，30(2)：75～78.
+收稿日期：1999年11月29日
+出版日期：2001年1月30日

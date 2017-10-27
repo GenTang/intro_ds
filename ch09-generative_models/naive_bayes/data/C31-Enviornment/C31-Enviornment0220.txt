@@ -1,0 +1,121 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第2期 No.2 Vol.18 1998
+科技期刊
+
+化纤废水中污染物对大型溞（Daphnia magna）繁殖的影响
+袁有宪　（中国水产科学研究院黄海水产研究所, 青岛 266071）
+王会平　（仪征化纤股份有限公司环境监测站, 江苏仪征 211900）
+文　摘　为研究化纤工业对水域生态的长期效应, 首次在实验室研究了化纤工业废水中主要污染物乙醛、对苯二甲酸、乙二醇对大型（Daphnia magna）生殖周期和繁殖数量的影响。实验结果表明, 乙醛浓度低于6 mg/L 时, 对大型溞首次和第二次生殖周期无影响。7～10 mg/L时, 使首次生殖周期推迟1～2d, 使第二次生殖周期提前1～2d。对苯二甲酸浓度32 mg/L以下时, 对首次和第二次生殖周期基本无影响; 64～256 mg/L时, 使首次生殖周期均推迟1～2d, 第二次生殖周期均缩短1～2d。乙二醇浓度在1000 mg/L以下时, 对首次生殖周期无影响; 2000～4000 mg/L时, 推迟首次生殖周期1d; 浓度低于4000 mg/L时, 对第二次生殖周期无影响。乙醛浓度在5 mg/L以下时, 对首次和第二次繁殖数量无显著影响, 浓度在6～10 mg/L时, 显著降低其繁殖数量, 分别降低38.3%～74.1%和12.8%～65.3%。对苯二甲酸浓度低于32 mg/L时, 对首次繁殖数量无显著影响, 浓度在64 ～256 mg/L时, 降低首次繁殖数量62.9%～75.3%; 浓度低于16 mg/L时, 对第二次繁殖数量无显著影响, 浓度在32～256 mg/L时, 使第二次繁殖数量降低37.8%～78.1%。乙二醇浓度在500 mg/L以下时, 对首次和第二次繁殖数量均无显著影响, 浓度在1000 ～4000 mg/L时, 显著降低首次和第二次繁殖数量, 分别降低32.3%～77.8%和42.2%～60.9%。
+关键词　乙醛　对苯二甲酸　乙二醇　大型　繁殖
+Effects of pollutants in chemical fibre wastewater on reproduction of Daphnia magna.Yuan Youxian（Yellow Sea Fisheries Research Institute, Chinese Academy of Fisheries Sciences, Qingdao 266071）;Wang Huiping（Environmental Monitoring Station,Yizheng Chemical Fibre Corporation Limited，Yizheng 211900）.China Environmental Science.1998,18(2):117～120
+Abstract—In this paper, the effects of main pollutants acetaldehyde, p-phthalic acid and ethylene glycol in fibre wastewater on reproduction of Daphnia magna were first investigated. Experimental results show that acetaldehyde at concentration lower than 6 mg/L has no influence on first and second reproduction periods of Daphnia magna;and at concentration of 7～10 mg/L delays first reproduction period of Daphnia magna by 1～2 days and shortens second reproduction periods by 1～2 days. p-phthalic acid at concentration lower than 32 mg/L has no influence on first and second reproduction periods, and at concentration of 64 ～ 256 mg/L delays first reproduction period by 1～2 days and second reproduction period shortens by 1～2 days. Ethylene glycol at concentration lower than 1000 mg/L has no poor influence on first reproduction period;and at concentration of 2000～4000 mg/L delays first reproduction period by 1 day;and at concentration lower than 4000 mg/L has no influence on second reproduction period. Acetaldehyde at concentration lower than 5 mg/L has no influence on first and second reproduction numbers of Daphnia magna;and at concentration of 6～10 mg/L decreases first and second reproduction numbers by 38.3%～ 74.1% and 12.8% ～65.3%, respectively. p-phthalic acid at concentration lower than 32 mg/L has no influence on first reproduction number;and at concentration of 64～256 mg/L,decreases first reproduction number by 62.9% ～75.3%,while at concentration lower than 16 mg/L has no influence on second reproduction number,and at concentration of 32～256 mg/L,decreases second reproduction number by 37.8%～78.1%. Ethylene glycol at concentration lower than 500 mg/L has no influence on first and second reproduction numbers, and at concentration of 1000～4000 mg/L, decreases first and second reproduction numbers by 32.3%～77.8% and 42.2%～60.9% respectively.
+Key words:acetaldehyde　p-phthalic acid　ethylene glycol　Daphnia magna　reproduction 
+　　 80年代以来, 我国化纤工业得到了长足发展, 先后建起了多座大型或超大型化纤企业。然而, 化纤工业的发展是否给生态环境带来变化是人们关注的问题, 特别是化纤废水会对周围水域生态环境造成的危害也是十分值得研究的课题。
+　　根据化纤工业的原料和合成工艺特点断定, 化纤废水中主要含有乙醛、对苯二甲酸和乙二醇。这些物质对水生生物的毒性影响, 迄今尚未见报道。为此,开展了化纤废水中主要污染物对水生生物毒性影响的研究。大型溞（Daphnia magna）是一种分布地域广的淡水大型浮游动物〔1〕, 由于其繁殖周期短、易于培养等优点, 广泛应用于生物监测和生态环境影响的模拟实验中〔2～5〕, 并被指定为国际标准实验生物。本文就乙醛、对苯二甲酸和乙二醇对大型浮游动物大型溞繁殖的影响做了研究, 为评价化纤工业对水域生态环境提供基础数据。
+1　实验材料和方法
+1.1　实验材料
+　　大型溞（Daphnia magna）种引自中国预防医学科学院环境研究所, 经本实验室驯养繁殖多代。用四链藻喂养。乙醛和乙二醇为分析纯, 对苯二甲酸为工业级（99%）。乙醛浓度用蒸馏-容量法标定, 并用蒸馏水配制成约500 mg/L（置冰箱中保存）; 对苯二甲酸直接用固体滴加氢氧化钠溶解, 用蒸馏水稀释至5000 mg/L; 乙二醇直接用蒸馏水稀释至50000 mg/L。实验用水为普通自来水, 在10 L玻璃圆缸中放置5d以上, 以驱除余氯。
+1.2　实验方法
+　　在250 mL烧杯中, 加水200 mL, 加四链藻10～30万cell/mL, 加一定浓度的待测污染物。选取个体大, 临近生产的大型溞放入500 mL 烧杯中, 投喂足够量的四链藻。生产后, 取当日产幼体1只放入提前准备好的250 mL实验烧杯中。在室温下（实验时值6月份, 室温20±1℃）培养使其繁殖, 首次生产后, 立即记录产幼天数和数量并将幼体取出。继续培养使其第二次产幼, 并记录第二次产幼天数和数量。每日换去1/5水, 并补充待测污染物和四链藻浓度。每浓度组平行3个样, 用平均生殖周期和繁殖数量评价污染物的作用。用t检验繁殖数量差异的显著性。
+2　结果与讨论
+2.1　乙醛对大型繁殖周期和繁殖数量的影响
+　　表1为乙醛对大型生殖周期影响的实验结果。可以看出, 乙醛浓度在5～6 mg/L 时,与对照组比较, 对大型溞首次生殖周期基本无影响; 7～10 mg/L时, 使首次生殖周期推迟1～2d。 乙醛浓度在5～6 mg/L 时, 对第二次生殖周期亦基本无影响; 浓度高于7 mg/L时, 第二次生殖周期提前1～2d。
+表1　乙醛对大型溞生殖周期的影响
+Table 1　Effects of acetaldehyde on reproduction period
+of Daphnia magna
+
+乙醛浓度
+（mg/L）首次生殖时间
+（d）第二次生殖时间
+（d）
+05.3±0.64.0±1.0
+56.3±1.54.3±0.6
+65.7±1.24.3±1.2
+77.7±0.62.3±0.6
+87.3±0.62.7±0.6
+107.0±1.03.7±0.6
+
+　　 表2 为乙醛对大型繁殖数量影响的实验结果。结果表明, 乙醛浓度在5 mg/L以下时, 与对照组比较, 对大型首次和第二次繁殖数量均无显著（P >0.05）影响; 高于6 mg/L时, 显著（P < 0.05）降低其繁殖数量, 分别降低38.3%～74.1%和12.8%～65.3%。呈浓度越高影响程度越重的趋势。
+　　从表1，表2的结果还可以看出, 乙醛对首次和第二次生殖周期和繁殖数量均基本无影响的浓度为5 mg/L以下。
+表2　乙醛对大型溞繁殖数量的影响
+Table 2　Effects of acetaldehyde on reproduction numbers of Daphnia magna
+
+乙醛浓度首次产幼数量差异显著性第二次产幼数量差异显著性
+（mg/L）(个)　(个)
+024.3±3.2-　　54.7±1.5-
+524.3±5.0P > 0.05　　49.0±9.5P > 0.05
+615.0±2.6P < 0.05　　47.7±1.5P < 0.05
+76.3±1.5P < 0.05　　38.7±4.5P < 0.05
+810.3±0.6P < 0.05　　19.0±2.6P < 0.05
+1010.7±2.5P < 0.05　　20.0± 0.6P < 0.05
+
+2.2　对苯二甲酸对大型溞生殖周期和繁殖数量的影响
+　　表3为对苯二甲酸对大型溞生殖周期影响的实验结果。结果表明, 对苯二甲酸浓度在16 ～ 32 mg/L时, 对首次和第二次生殖周期均基本无影响; 64～256 mg/L时, 使首次生殖周期均推迟1～2d, 但使第二次生殖周期提前0.5～1.5d。这种对生殖周期推迟和提前的现象, 在有影响的浓度范围内差别不大。
+表3　对苯二甲酸对大型溞生殖周期的影响
+Table 3　Effects of p-phthalic acid on reproduction period 
+of Daphnia magna
+
+对苯二甲酸浓度首次生殖时间第二次生殖时间
+（ mg/L ）(d)(d)
+0　5.3 ± 0.64.0 ± 1.0
+16　6.3 ± 1.23.7 ± 1.2
+32　6.3 ± 0.63.7 ± 0.6
+64　7.3 ± 0.62.3 ± 0.6
+128　7.3 ± 0.62.7 ± 0.6
+256　6.7 ± 1.03.3 ± 0.6
+
+　　表4为对苯二甲酸对大型溞繁殖数量影响的实验结果。可以看出, 对苯二甲酸浓度低于32 mg/L的各组, 与对照组比较, 首次繁殖数量无显著（P >0.05）差别; 浓度高于64 mg/L时, 试验组的首次繁殖数量显著（P < 0.05）低于对照组, 降低62.9%～75.3%, 降低程度随浓度升高而增大。对苯二甲酸浓度低于16 mg/L时, 与对照组比较, 第二次繁殖数量未受到显著（P > 0.05）影响; 浓度高于32 mg/L的各组, 第二次繁殖数量受到显著（P < 0.05）影响, 降低为37.8% ～78.1%, 受影响程度亦随浓度升高而加剧。
+　　从表3，表4的结果还可以看出, 对苯二甲酸对首次和第二次生殖周期和繁殖数量均基本无影响的浓度为16 mg/L以下。
+2.3　乙二醇对大型溞繁殖周期和繁殖数量的影响
+　　表5为乙二醇对大型溞生殖周期影响的实验结果。结果表明, 乙二醇浓度在1000 mg/L以下时, 对首次生殖周期无影响; 浓度高于2000 mg/L时, 使首次生殖周期均推迟1d; 浓度为0 ～4000 mg/L时, 乙二醇对第二次生殖周期未产生影响。
+表4　对苯二甲酸对大型溞繁殖数量的影响
+Table 4　Effects of p-phthalic acid on reproducibility of Daphnia magna
+
+对苯二甲酸浓度首次产幼数量差异显著性　　第二次产幼数量　　差异显著性
+（ mg/L ）(个)　(个)　
+0　24.3 ± 3.2-54.7 ±1.5-　　
+16　19.0 ± 4.4P > 0.0537.3 ±11.1P > 0.05
+32　12.3 ± 6.8P > 0.0534.0 ±2.0P < 0.05
+64　9.0 ± 1.0P < 0.0526.3 ±2.1P < 0.05
+128　6.0 ± 0.6P < 0.0512.0 ±12.1P < 0.05
+256　6.7 ± 5.5P < 0.0513.3 ±10.0P < 0.05
+
+表5　乙二醇对大型繁殖周期的影响
+Table 5　Effects of ethylene glycol on reproduction period
+of Daphnia magna
+
+乙二醇浓度首次生殖时间第二次生殖时间
+（mg/L）（d）（d）
+0　6.0 ± 0.02.0 ± 0.0
+250　6.0 ± 0.02.0 ± 0.0
+500　6.0 ± 0.02.0 ± 0.0
+1000　6.0 ± 0.02.0 ± 0.0
+2000　7.0 ± 0.62.0 ± 0.0
+4000　6.7 ± 1.02.0 ± 0.0
+
+　　 表6为乙二醇对大型繁殖数量影响的实验结果。结果分析表明, 乙二醇浓度在500 mg/L以下时, 对大型首次和第二次繁殖数量均无显著（P > 0.05）影响; 浓度在1000～4000 mg/L范围内, 乙二醇对首次和第二次繁殖数量均产生显著（P < 0.05）影响, 使首次繁殖数量降低32.3%～77.8%, 使第二次繁殖数量降低42.2%～60.9%。受影响程度亦随浓度升高而加剧。
+　　从表5，表6的结果还可以看出, 乙二醇对首次和第二次生殖周期和繁殖数量均基本无影响的浓度为500 mg/L以下。
+表6　乙二醇对大型溞繁殖数量的影响
+Table 6　Effects of ethylene glycol on reproducibility of Daphnia magna
+
+乙二醇浓度首次产幼数量差异显著性第二次产幼数量差异显著性
+（mg/L）(个)　(个)
+0　16.7 ± 1.7　-23.0 ± 2.0-
+250　17.0 ± 1.0　P > 0.0525.0 ± 1.0P > 0.05
+500　11.7 ± 0.6　P > 0.0517.7 ± 2.1P > 0.05
+1000　11.3 ± 2.1　P < 0.0513.3 ± 1.5P < 0.05
+2000　6.7 ± 1.1　P < 0.0512.3 ± 1.5P < 0.05
+4000　3.7 ± 1.5　P < 0.059.0 ± 1.0P < 0.05
+
+3　结论
+　　通过对化纤工业废水中主要污染物乙醛、对苯二甲酸、乙二醇对大型溞（Daphnia magna）生殖周期和繁殖数量影响的研究, 可以得出以下结论。乙醛、对苯二甲酸、乙二醇对大型溞（Daphnia magna）生殖周期和繁殖数量基本无影响的浓度分别为5、16 和500 mg/L以下。浓度高于5 mg/L的乙醛会延长大型溞的首次生殖周期, 高于6 mg/L时, 会缩短第二次生殖周期; 浓度高于5 mg/L的乙醛会降低大型溞繁殖数量。浓度高于64 mg/L的对苯二甲酸, 会推迟首次生殖周期, 浓度高于64 mg/L时, 会使第二次生殖周期提前; 对苯二甲酸浓度高于64 mg/L时, 会降低首次繁殖数量, 浓度高于32 mg/L时, 会降低第二次繁殖数量。乙二醇浓度高于2000 mg/L时, 会延长首次生殖周期, 浓度低于4000 mg/L时, 不影响第二次生殖周期; 乙二醇浓度高于1000 mg/L 时, 降低首次和第二次繁殖数量。因此, 可以认为水域环境中乙醛、对苯二甲酸、乙二醇浓度分别高于5、16 和500 mg/L时, 会对生态造成影响。
+参考文献
+1　蒋燮治, 堵南山.中国动物志（节枝动物门甲壳纲, 淡水枝角类）.北京: 科学出版社, 1979. 103
+2　Joseph E， et al.Environ. Contam. Toxicology, 1983, 12（6）: 679
+3　Stephenson R R，et al. Environ. Pollution, 1984 36: 95
+4　APHA/AWWA/WPCF, Standard Methods for the Examination of Water and Wastewater, 15th edition, New York, 1980
+5　刘征涛, 周风帆, 于红霞等.环境化学, 1994, 13（3）: 263～265
+作者简介
+袁有宪　男,1954年8月生。研究员, 国家“百千万人才工程”人选, 农业部有突出贡献的中青年专家。 现任中国水产科学研究院黄海水产研究所环境保护研究室主任。主要从事水域生态环境保护研究。曾主持国家自然科学基金项目、国家攻关项目专题、省部重点项目近20项。以第一完成人获部级科技进步二等奖2项, 三等奖2项。发表论文80余篇。
+收稿日期：1997-03-31

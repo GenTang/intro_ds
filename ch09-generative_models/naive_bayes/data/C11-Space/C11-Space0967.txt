@@ -1,0 +1,90 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+Ru对铸造Ti-47Al合金显微组织的影响
+郑运荣　于熙泓　马书伟　汪小平
+摘要： 研究了铸造Ti-47Al-XRu(at%)(X=0.5,1,3)合金的显微组织。结果表明，Ru与Cr相似，是很强的β稳定元素，促进β2相形成。β2相是含Ru量高达10at%的富Ru相。含1at%Ru的合金在1160～1200℃温度范围热处理时不断析出粒状次生β2相，破坏了γ+α2片状组织，同时形成了新的γ晶粒。经1200℃，48h处理后可得到平均晶粒尺寸小于60μm的γ晶，因此，Ti-47Al-1Ru合金是可热处理细化晶粒的铸造合金。当Ru量增加至3at%时，合金难于热处理细化晶粒，而且合金明显脆化。
+关键词： TiAl基合金； 显微组织； Ru的作用 
+中图分类号： TG146.23　　文献标识码： A　　文章编号： 1005-5053(1999)01-0017-05
+Effect of Ru on microstructure of cast Ti-47Al alloy
+ZHENG Yun-rong　　YU Xi-hong　　MA Shu-wei　　WANG Xiao-ping
+(Institute of Aeronautical Materials， Beijing 100095， China)
+Abstract： Microstructure of cast Ti-47Al-XRu(at%) alloy with X=0.5,1 or 3 has been investigated.The results showed that elements Ru and Cr have similar behavior:they are strong β phase stabilizer and promote the formation of β2 phase.This phase is a Ru-riched phase and content of Ru in β2 phase is more than 10at%.In the alloy containing 1at% Ru the grained secondary β2 phase continuously precipitated during heat treatment of 1160～1200℃ temperature range,therefore the γ+α2 lamellar structure was interrupted and the new γ grains formed.The γ grains with average grain size less than 60μm obtained after treatment of 1200℃ for 48h.That means Ti-47Al-1Ru alloy is a finable grain cast alloy by heat treatment.As the content of Ru in alloys increases to 3at%,it is difficult to refine the grains of cast alloy by heat treatment,moreover alloy obviously becomes brittle.
+Key words: Ti-Al base alloys； microstructure； effect of Ru
+
+　　TiAl基合金是航空、汽车和发电领域最重要的新型结构材料［1］，特别由于这类合金密度低，比强度高，很适合制作涡轮转动件［2］。铸造TiAl合金可以用普通的壳模铸造技术生产出无余量或少余量的铸件，简化了工艺流程，降低了成本。通常认为，铸造合金的低塑性是使用这类合金的制约因素，但后来的研究工作证明，Ti-48Al-2Cr-2Nb合金中等厚度的铸件其塑性并不比锻件低［3］，而且TiAl合金铸件的蠕变抗力和断裂韧性更高［4］。这大大鼓舞了发动机的设计者，最终导致了美国GE公司于1993年用铸造TiAl合金制造低压涡轮叶片，并在CF6-80C2发动机上通过1000个模拟飞行周期的试车［5］。这一成功经历为铸造TiAl合金的应用奠定了基础。在发展铸造合金的过程中，通过添加Cr和热处理可有效地细化晶粒［6］，但后来发现这类合金的抗氧化性不及高温合金［7］，特别当温度高于800℃时氧化速率更快［8］。为了提高抗氧化性，加进了Mo,Nb,Si,Hf,Zr和W等对抗氧化性有益的元素［7］。加入Cr使抗氧化性降低，必须同时加Nb来抵消Cr对抗氧化性带来的不利影响［9］。我们试图寻找1个元素，既能细化TiAl合金的晶粒，又能提高合金的抗氧化性能，经初步研究分析，Ru可能具备这种双重功能。
+1　试验方法
+　　试验材料为Ti-47Al-(0.5,1,3)Ru(at%)3炉合金。所有合金均用非自耗电极电弧熔炼，为保证合金成分均匀，铸锭经5次反复重熔。用线切割从铸锭上切取试样，真空封焊至石英管中，然后在1160～1200℃温度范围加热24～100h，空冷。铸态和热处理后的试样用电子探针背射图像进行形貌观察，并对各相进行成分分析，利用X射线衍射进行相鉴定。
+2　结果与讨论
+2.1　铸态显微组织
+　　铸态的Ti-47Al(at%)合金的显微组织由TiAl+Ti3Al的片状组织组成，加进0.5%Ru对显微组织无明显影响。加进1.0%Ru时，用电子探针测得枝晶间区有富Ru区，反映在图1a的背射电子图像上的白亮区，少数区域还形成富Ru相(图1a箭头所指)。由于铸锭凝固时冷却速度快，γ+α2片层组织析出不明显。当合金含3%Ru时，不仅枝晶间区析出大量富Ru相，枝晶干区也析出粒状的富Ru相(图1b)。在3Ru合金中α2相呈颗粒状。
+
+图1　含Ru合金的铸态组织
+(a)Ti-47Al-1Ru合金；(b)Ti-47Al-3Ru合金
+Fig.1　As-cast microstructure of Ru-bearing alloys
+(a)Ti-47Al-1Ru alloy;(b)Ti-47Al-3Ru alloy
+
+　　用X射线衍射技术对Ti-47Al-3Ru合金进行了结构分析，结果示于图2，除了有γ和α2相的衍射谱外，还有体心立方β2相的衍射谱线。
+　　用电子探针对Ti-47Al-1Ru合金的γ，α2和β2相的成分做了分析，结果示于表1中。可以看出，在合金的3个组成相中，β2相的含Ru量最高，达10.6at%，α2次之，γ相中Ru的溶解度最低。应该指出的是，在铸态组织中，由于α2片极薄，很难用电子探针准确测定其成分。表中列出的α2相的成分实际上把它周围部分γ相的成分包括进去了。因此α2相Al含量偏高而Ru量偏低。
+2.2　热处理显微组织
+　　Ti-47Al-1Ru合金在1160～1200℃温度范围热处理时的最显著变化是析出次生β2相。用电子探针背射图像对1200℃，24h热处理试样观察时，可看到在枝晶干区析出的富Ru的β2相呈白色的小颗粒，破坏了灰色的α2片的连续性。β2的析出与长大靠消耗α2相来完成。在β2相析出较多的区域，α2量减少而γ量增加。在枝晶干区，还没有形成新生的γ晶，所以视场的背景是均匀的黑色γ相(图3a)。在枝晶间区，除了在铸态时由于Al偏析在枝晶间区析出初生γ晶外，在热处理时有新生的γ晶不断成核和长大，消耗了α2+γ片状组织，结果在该区形成了许多细晶，在细晶γ的周围析出块状β2和α2相，在有的γ晶内还析出比原来γ+α2片间距更大的α2片(图3b)。上述显微组织变化与Ti-44.3Al-3Cr(at%)合金相同［6］。
+
+图2　Ti-47Al-3Ru合金中各相的X射线衍射图
+Fig.2　X-ray diffrac-tion pattern of phases in Ti-47Al-3Ru alloy
+表1　Ti-47Al-1Ru合金各相的成分， at%
+Table 1　Composition of different phases in Ti-47Al-1Ru alloy, at%
+
+PhaseTiAlRu
+γ53.245.80.9
+α253.944.31.8
+β249.539.910.6
+
+　
+
+　　1200℃保温48h的Ti-47Al-1Ru合金的显微组织如图4所示。这时γ+α2片状区已全部变成了平均晶粒小于60μm的γ晶粒，在γ晶内可以看到由于深腐蚀显示出来的孪晶，在γ晶界上的块状β2相和少量α2相被腐蚀成很深的轮廓。这种显微组织和Ti-48Al-3Cr合金经1200℃，168h热处理后形成的孪晶γ晶粒很相似(图5)。
+
+图3　Ti-47Al-1Ru合金经1200℃，24h热处理后的显微组织(背射电子图像)
+(a)枝晶干区；(b)枝晶间区
+Fig.3　Microstructure of Ti-47Al-1Ru alloy after 1200℃，24h heat treatment(BSEI)
+(a)dendrite;(b)interdendrite
+　　　　　　　　　　
+图4　Ti-47Al-1Ru合金经1200℃，　　　　　　　　　图5　Ti-48Al-3Cr合金经1200℃，
+48h处理后的显微组织　　　　　　　　　　　　　　　168h处理后的显微组织
+Fig.4　Microstructure of Ti-47Al-1Ru　　　　　Fig.5　Microstructure of Ti-48Al-3Cr
+　　　 alloy after 1200℃，48h treatment　　　　　 alloy after 1200℃，168h treatment
+
+　　上述结果证明，和含Cr的TiAl基合金一样，含Ru的TiAl基合金可以通过热处理方法在铸态的γ+α2组织中形成新生γ晶，从而起着细化晶粒的作用，而且Ru的作用比Cr更强，加1at%Ru就能起到3at%Cr的作用。
+　　Ti-47Al-3Ru合金在1200℃热处理时显微组织和铸态时差不多，并没有形成新生的细γ晶。除了保留铸态组织中大量初生β2相外，还析出大量次生β2相。过多地析出β2相使合金变脆，在切割试样时很容易开裂。显然在TiAl基合金中加3at%Ru是过量添加，对细化晶粒组织和改善力学性能不利。
+3　结　论
+　　(1)Ru对Ti-47Al合金显微组织的作用与Cr相似，它是β稳定元素，促进β2相形成。
+　　(2)Ru是正偏析元素，在Ti-47Al-1Ru合金中会形成少量初生β2相，Ru在该相的含量高达10at%。
+　　(3)含1Ru的合金在1160～1200℃温度范围热处理时不断析出次生β2相，破坏了γ+α2片层组织，同时形成新的γ细晶粒。
+　　(4)3Ru的合金很难通过热处理方法细化晶粒，而且由于大量β2相析出使合金变脆。
+注释：基金项目： 航空科学基金资助项目(编号 97G21001)
+作者简介：郑运荣(1941-)， 男， 研究员
+作者单位：北京航空材料研究院， 北京　100095
+参考文献：
+［1］London B,Larsen D E,Wheeler D A,et al.Investment cast gamma titanium aluminide
+　　　alloys:processing,properties and promise.Structural Intermetallics.Darolia R,
+　　　et al,ed.TMS,1993,151
+［2］Austin C M,Kelly T J.Progress in implantation of cast gamma titanium 
+　　　aluminide.Gamma Titanium Aluminides.Kim Y-W,et al,ed. TMS,1995,21
+［3］Huang S C.Titanium aluminum alloys modified by chromium and niobium and method 
+　　　of preparation.U.S.Patent,4,879,092.1989
+［4］Austin C M,Kelly T J.Development and implementation status of cast gamma 
+　　　titanium aluminide.Structural Intermetallics,Darolia R,et al,ed.TMS,1993,143
+［5］Austin C M,Kelly T J.Gas turbine engine implementation of gamma titanium 
+　　　aluminide.Superalloys 1996.Kissinger R D,et al,ed.TMS,1996,539
+［6］郑运荣，赵林若，Tangri K.Cr对Ti3Al+TiAl合金显微组织的影响.金属学报，1994，30
+　　　(3)：A97
+［7］Kawaura H,Nishino K,Saito T.New surface treatment using a fluidized bed furnace
+　　　for improving oxidation resistance of TiAl-base alloys.Structural 
+　　　Intermetallics 1997.Nathal M V,et al,ed TMS,1997,377
+［8］Tomasi A,Gialanella S,Orsini P G,et al.Oxidation behaviour of intermetallic 
+　　　compounds based on Ti-Al system.Mat.Res.Soc.Symp.Proc.1995,364:999
+［9］Mckee D W,Huang S C.Oxidation behavior of gamma titanium aluminide alloys under
+　　　thermal cycling conditions.Corrosion Science,1992,33:1899
+收稿日期： 1999-02-24

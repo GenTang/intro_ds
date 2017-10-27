@@ -1,0 +1,107 @@
+计算机应用
+Computer Applications
+1999年 第19卷 第7期  Vol.19 No.7 1999
+
+
+
+Internet/Intranet上电子商店的一个实现方法
+曹　勇　刘　洁
+　　摘　要　本文的主要目的是以IBM e-business解决方案中的Net.Commerce为例，介绍如何在Internet上建立并实现电子商店。
+　　关键词　电子商务,电子商店,Internet/Intranet
+　　
+AN IMPLEMENTATION METHOD 
+OF ELECTRONIC STORE ON INTERNET/INTRANET
+
+Cao Yong
+Department of Computer and System Science, Nankai University, Tianjin 300071
+Liu Jie
+The Institute of Elemento-Organic Chemistry, Nankai University, Tianjin 300071
+
+　　Abstract　The purpose of this paper is to present an implementation of electronic store on Internet/Intranet using IBM Net.Commerce, which is one product of IBM e-business family.
+　　Keywords　Electronic store, Electronic commerce, Internet/Intranet
+
+　　为了从技术上更好地了解电子商务的实现，我们以IBM Net.Commerce为例，介绍如何在Internet上建立虚拟商店的实现技术。
+　　Net.Commerce是IBM实现Internet网络商店的产品, 它为用户提供了许多方便、灵活的工具，用以在网络上建立和维护一个虚拟商店。Net.Commerce的体系结构和实现技术，为我们进行广泛的电子商务应用做出了有益的尝试。　　
+1　三个阶段
+　　在WWW上的商业应用中，一般都要经过三个阶段，即存在、集成和商业活动。
+　　* 存在阶段，不论哪一种商业活动，发展其商业潜力的前提是该商业活动在Internet上，可以被广大用户找到。虽然现在的网络速度还不是都很快，典型的网络操作模式还是令人厌烦的“等待-浏览-等待”，但谁也不能忽视WWW上4千万网民（这个数字每天还在增加）。所以，如果想要在网络上发展商业，第一件事就是要让这些网民们知道你的存在和你能为他们做什么。
+　　* 集成阶段，商家们在Internet上建立系统，并对这些系统作内部和外部的集成。外部集成，使所有连接上来的用户使用相同的客户端接口——Web浏览器进行操作；内部集成，将不同的服务器系统连接在一起协同操作。
+　　* 商业活动阶段，也是最终的目标阶段，利用建立的虚拟网络商业服务系统为用户服务，同时获取利润。
+　　IBM Net.Commerce就是这么一种产品，帮助商家在WWW上实现上述三个阶段。它提供从店铺建立、编写商店主页到安全交易管理等多种功能，集成了Internet应用的最新思想与技术实现。
+2　Net.Commerce概述
+　　Net.Commerce与关系数据库，如IBM DB2，和安全Web服务器共同工作，组成一个简单却是安全的工作环境。
+　　Net.Commerce的系统结构如图1。
+　　Net.Commerce作为服务器由两部分组成：Net.Commerce Server和Net.Commerce Administrator。
+　　Net.Commerce Server由Net.Commerce Server Daemon和Net.Commerce Server Director组成。前者是在服务器上运行的通信进程，负责与数据库进行信息交流，辅助数据库服务器完成对购买过程的控制和从数据库中收取用户所需的数据。它支持SSL协议保证数据的安全。后者通过TCP/IP协议，管理Internet Connection Secure Server （ICSS）和Net.Commerce Server daemon之间的快速数据访问，它是用通用网关接口（CGI）程序实现的。　　
+
+
+图1　Net.Commerce的整体结构
+　　Net.Commerce Administrator通过Net.Commerce Site Manager、Net.Commerce Store Manager以及Net.Commerce Template Designer（模板编辑器）等工具，建立和维护商家的商店。具体说明如下：
+　　* Net.Commerce Site Manager
+　　它帮助商家在一个商场内建立和管理一个或多个在线店铺。主要功能有：
+　　指定商场主页位置;
+　　存取控制和店铺权限管理;
+　　购物者信息管理。
+　　它的主操作界面如图2。　　
+
+
+图2　Net.Commerce Site Manager的主操作界面
+　　* Net.Commerce Store Manager
+　　该工具帮助创建和维护在线商店的商品目录。可输入或更新商品信息和目录、创建新的商品目录、指派消费者组和察看商品购买者的其他信息等。图3是Net.Commerce Store Manager的主操作界面。　　
+
+
+图3　Net.Commerce Store Manager主操作界面
+　　* Net.Commerce Template Designer
+　　这是一个重要的工具，通过图形化的HTML编辑器，辅助使用者完成模板的设计和修改工作。该工具使用Java applet实现。通过模板编辑器，可以创建店铺、商场、产品、项目以及商品目录等的主页。模板编辑器使用“所见即所得”（WYSIWYG）技术实现HTML的设计过程。同时，该工具还提供定制SQL宏的功能，使HTML具有动态读取数据库的能力。图4是一个典型的模板编辑器界面。　　
+
+
+图4　典型的Net.Commerce Template Designer界面
+　　* 相关的系统组件
+　　如前所述DB2和ICSS与Net.Commerce系统的性能密切相关，如图5所示。
+　　数据库
+　　DB2数据库系统管理并保存使用者输入的有关店铺与商品的信息。DB2中的数据表与Net.Commerce Administrator中的表单相关联，每次用户在浏览器上填写、保存表单后，数据将自动地存储或更新到数据库中。
+　　Web服务器
+　　Internet Connection Secure Server（ICSS）是Net.Commerce系统中的重要组成部分，它利用SSL协议控制安全的交易过程，使交易在合法的情况下进行。Net.Commerce在用户付款管理上，使用其它的安全系统，如SET协议。　　
+
+
+图5　与Net.Commerce system相关系统
+3　电子付款
+　　鉴于安全性在整个系统的重要地位，而且电子付款将是系统的关键环节，下面我们将对SET协议进行简单介绍。
+
+
+图6　安全电子交易（SET）协议
+　　整个电子付款交易过程包括：浏览、购买、付款合法性验证以及获取付款等过程。具体定义如下：
+　　信用卡持卡人访问某电子商店，浏览商品并准备购买；
+　　持卡人得到订单信息，包括产品和服务的详细描述，以及总价格（包括运输和保管费用等）；
+　　购买者必须确认此订单，并提交付款信息；
+　　销售商利用获得的付款信息向“付款网关”提出确认请求，并附带订货单；
+　　“付款网关”向相应的金融机构提交付款信息，并且请求确认；
+　　如果该信用卡合法，金融机构将向“付款网关”发出认可应答；
+　　销售商得到付款合法应答后，组织装运、交付商品或者提供相应服务的工作；
+　　销售商使用订货单，要求“付款网关”付款。
+　　SET协议设计用来为厂商提供安全、可靠、一致的付款环境。其功能如图6所示。
+　　Net.Commerce SET体系结构主要由Net.Commerce服务器和Net.Commerce SET扩展两部分组成。
+　　* Net.Commerce服务器
+　　Net.Commerce服务器是整个Net.Commerce系统的核心，它在IBM Internet安全连接服务器和数据库（DB2）之间起着桥梁的作用。该部分主要完成顾客交易和店主管理等任务。
+　　Net.Commerce服务器主要包括：Net.Commerce服务器守护进程（mserverd）和Net.Commerce服务器定向（nph-msrvr）。
+　　Net.Commerce服务器守护进程(mserverd)从数据库中检索顾客或者店主想要的信息，并将它们组织成HTML页形式。为了提高效率，Net.Commerce服务器进程与数据库之间被设计成连续的数据库连接，同时用户还可以设置多个运行实例，使Net.Commerce可为多个顾客/店主请求服务。顾客/店主是通过Net.Commerce服务器定向与mserverd进行通信的。Net.Commerce服务器定向(nph-msrvr)与Net.Commerce服务器守护进程之间通过IP进行信息交换，mserverd在IP端口8178监听由nph-msrvr来的请求信息。
+　　Net.Commerce服务器定向实际上是一个CGI程序，连接Browser和mserverd。当顾客提出数据库存取请求（显示产品信息、提交订货单等）或者店主要对其商品数据进行维护时，该nph-msrvr程序被激活。
+　　* Net.Commerce SET扩展
+　　该部分主要包括Net.Commerce SET扩展定向器（Extension Director）和Net.Commerce SET扩展守护进程（Extension Daemon）。
+　　Net.Commerce SET扩展定向器实际上就是图6中的nph-pay，它是一个运行于Browser和SET守护进程之间的CGI Script接口，当电子商店的顾客通过浏览器向店主发出SET消息时被激活。
+　　Net.Commerce SET扩展守护进程（ncsetd）是SET扩展的核心，它将完成：
+　　处理信用卡持卡人的交易；
+　　与特定的银行通信；
+　　将必要信息存储到数据库中。
+　　nph-pay和ncsetd之间通过基于IP的专门协议进行通信，它们之间默认采用8002端口。Net.Commerce SET扩展守护进程（ncsetd）与相应的金融机构通过“付款网关（Acquirer Gateway）”进行交互。“付款网关”与Net.Commerce SET在Internet上通过HTTP相互通信。另外，ncsetd还在数据库上维护着一些特定的表，用以存储诸如授权和请求等信息。　　
+4　小结
+　　以上我们以IBM Net.Commerce为例介绍了电子商店的实现方法。基于Internet的电子商务应用还刚刚开始，从观念到法规、从技术到产品都还远没有完成。电子商务领域对于商业企业和计算机专业人员来说都还是一块刚开发的新天地，充满了迷人的诱惑同时又蕴藏着巨大的挑战。不过我们相信，随着计算机网络应用的普及与深入，电子商务的大发展时代已经到来，我们应义无反顾地担负起信息时代赋予我们的责任和义务。
+　　曹　勇　硕士。主要研究方向：计算机网络与信息系统。
+　　刘　洁　博士。主要研究方向：计算机辅助分子设计、计算化学、农药学。
+　　作者单位：曹　勇（南开大学计算机与系统科学系）
+　　　　　　　刘　洁（南开大学元素有机化学研究所）
+参考文献
+［1］　http://www.developer.ibm.com/welcome/ebusiness/index.html
+［2］　Eamon Murphy，Martin W. Murhammer，et al. Integrating Net.Commerce with Legacy Applications. IBM RISC System/6000 Redbooks Collection，October 1997
+［3］　Rob Macgregor，Catherine Ezvan，et al. Secure Electronic Transactions: WWW Credit Card Payment. IBM RISC System/6000 Redbooks Collection，October 1997
+收稿日期:1999-04-13(修改稿)

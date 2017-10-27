@@ -1,0 +1,74 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+氯苯降解性质粒pL1限制性酶消化和物理图谱*
+罗如新　张素琴　李顺鹏
+摘要　大量提取L1菌质粒并用低熔点琼脂糖回收.用5种限制性核酸内切酶消化，所得片段数分别是：HindⅢ 4，BanHⅠ 16,XbaⅠ 4,PstⅠ 15,SmaⅠ 12.从各片段的累加测出该质粒的平均大小约为92.5kb,分子量为60.09×106dalton.在单酶消化的基础上，用HindⅢ/XbaⅠ、HindⅢ/BamHⅠ、XBaⅠ/BamHⅠ双酶消化，以及BamHⅠ部分消化，由此组建了HindⅢ/XbaⅠ/BamHⅠ3个酶的物理图谱.
+关键词　质粒；限制性内切酶；物理图谱.
+Restriction endonuclease digestion and physical map of chlorobenzene degradation plasmid pL1
+LUO Ruxin (Dept.of Environmental Science and Engineering,Fudan University,Shanghai 200433)
+ZHANG Suqin (Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan 430071)
+LI Shunpeng (Department of Microbiology, Nanjing Agricultural University Nanjing 210095)
+Abstract　Plasmid from strain L1 was prepared on a large and reclaimed by agarose, low melting point. When pL1 DNA was digested by 5 restriction endonucleases, 4 fragments were obtained by Hind Ⅲ, 4 fragments by XbaⅠ, 16 fragments by BamHⅠ,15 fragments by Pst Ⅰ,13 fragments by Sma I.The genome average size was estimated to be 92.5 kb and molecular weight was 60.09×106 Dalton. On the basis of single digestion, pL1 DNA was digested with Hind Ⅲ/XbaⅠ,Hind Ⅲ/BamH Ⅰ and XbaⅠ/BamH I,and partially digested with BamH I. The physical map for pL1 was constructed from these data.
+Keywords　Restriction endonucleases, physical map, degradation plasmid.
+　　氯代苯类是一类重要的有机化工原料，广泛用于农药、医药和材料合成等行业，具有高的持久性和强的毒性，进入环境造成危害也特别严重.这类化合物的微生物氧化已有很多报道，对于微生物氧化的遗传基础也有很多研究.大多数卤代烃类的生物降解是由质粒控制的.pL1质粒是作者分离鉴定的氯苯降解性质粒［1］，为能进一步作基因定位和构建该质粒的基因图谱，本文应用部分消化法和双酶消化法，并结合“三三规则”［2］，组建了pL1质粒的物理图谱.
+1　材料与方法
+1.1　材料和试剂
+　　细菌和质粒：L1菌为氯苯降解菌；pL1是存在于L1菌株的氯苯降解性质粒.试剂：Solution Ⅰ,Ⅱ,Ⅲ,STE buffer,TE buffer均参照文献［3］配制.培养基：高浓度肉汤培养基参照文献［3］配制.
+1.2　方法
+　　L1菌质粒的大量提取，参照文献［3］进行.低溶点琼脂糖(LMP)回收质粒DNA，参照文献［4］进行.双酶消化(1)两个酶对反应温度有不同要求时，则必须分别进行消化，要求低温的酶作第一个酶.(2)如果两个酶对缓冲液有同样的要求，可以同时进行混合酶切.如果对缓冲液的要求不一样，那么要求低盐缓冲液的酶作第一个酶，在消化之后，补加1mol/L NaCl 1.5μL调节盐浓度，然后加入要求高盐缓冲液的第二个酶，继续消化.部分消化同上设置反应体系，37℃反应10min,65℃灭活10min.电泳用0.7%和1%琼脂糖凝胶水平电泳，3V/cm,EB染色，紫外灯下观察并拍照.
+2　结果
+2.1　pL1质粒的单酶消化和双酶消化
+　　pL1质粒经Hind Ⅲ、Xba Ⅰ、BamH Ⅰ、Pst Ⅰ、Sma Ⅰ等酶消化后，所得片段数见表1.其中用Hind Ⅲ、Xba Ⅰ消化后从电泳图谱上可见浓浓的一条带(见图1)，根据亮度和分子量大小判断应是四条重叠带.根据Hind Ⅲ消化λDNA所作工作曲线，查出各片段大小(见表1).从表1可以看出Hind Ⅲ,Xba Ⅰ的4个片段的总和为92kb，BamH Ⅰ的16个片段的总和为94.14kb，Pst Ⅰ的15个片段的总和为94.25kb，Sma Ⅰ的12个片段的总和为91.8kb.由此，求出pL1质粒的平均大小为92.5kb,分子量为60.09×106dalton.
+表1　单酶和双酶消化质粒片段及其分子量大小
+Table 1 Fragments and teir size of plasmid DNA digested by single and double endonucleases 单位：kb
+片段HindⅢHindⅢ/Xba ⅠXbaⅠBamHⅠ HindⅢ/BamHⅠXbaⅠ/BamHⅠPstⅠSmaⅠBamHⅠ部分消化
+A23.016.623.019.910.4716.8720.6019.5122.31
+B23.016.623.013.189.5512.2816.0012.6018.30
+C23.016.623.09.508.719.5613.0011.0317.18
+D23.016.623.08.717.707.249.509.1112.59
+E　6.4　7.247.246.528.707.649.12
+F6.45.015.885.017.606.788.53
+G6.44.685.324.684.306.015.40
+H6.44.475.014.503.715.504.51
+I　3.984.683.982.344.803.89
+J3.634.213.632.103.803.63
+K3.393.983.241.802.803.39
+L3.243.633.151.302.4　
+M2.403.502.901.2　
+N2.143.392.401.10
+O1.413.242.141.00
+P1.262.401.41　
+Q　2.141.3
+R1.411.26
+S1.26　
+T1.0
+总计92929294.1494.7292.0693.0591.98
+　　根据组建物理图谱的原理［2,3］,双酶消化环状DNA的片段长是：E1N+E2N，即双酶消化的片段数应是两个酶单独消化所得片段数之和.所以Hind Ⅲ/Xba Ⅰ消化得8个片段，Hind Ⅲ/BamH Ⅰ、XBa Ⅰ/BamH Ⅰ消化产生20个片段.双酶消化可能保留单酶消化的某些片段，另一些片段可能消失而出现新的片段，说明一个酶的切点可能正好在消失的片段之间，那么新出现的2个或3个片段的分子量之和必然等于那个消失的片段，根据片段的大小可找出消失片段与新生片段的关系，通过它们的交错重叠现象，可确定各片段的相邻位置.
+2.2　pL1质粒的物理图谱
+　　根据单酶切和双酶切分析，BamH Ⅰ切割所得的片段(D，F，I)、(E，L，P)、(G，J，M，N)之间的相互排列关系仍未能确定，故进一步做BamH Ⅰ部分消化来确定它们之间的邻近关系，结果见表1.通过分析计算定出BamH Ⅰ完全消化的16个片段的顺序的A—D—C—F—O—I—B—L—P—E—K—H—G—J—N—M.
+
+
+图1　pL1单酶消化
+a:λDNA Hind Ⅲ分子量标记　b.Hind Ⅲ单消化　c:Xba Ⅰ单消化　d:Pst Ⅰ单消化　e:BamH Ⅰ单消化
+Fig.1 Electrophoresis pattern of pL1 DNA for single digestion
+
+
+图2　质粒pL1的限制酶切图谱
+Fig.2 Physical map of pL1 for the restriction endonuclease Hind Ⅲ/Xba Ⅰ/BamH Ⅰ
+　　5种限制性内切酶对pL1质粒进行单酶切、双酶切以及部分酶切的结果汇总于表1，并绘出Hind Ⅲ/Xba Ⅰ/BamH Ⅰ三种酶的限制图谱(见图2).
+3　讨论
+　　用5种限制性内切酶消化，根据各酶消化片段累计而得的质粒大小为92.5?kb，分子量大小为60.09×106dalton.组建如此大小质粒的物理图谱，存在一定的困难，误差也在所难免.然而，物理图谱的组建都不是非常严密和精确的，正如Maniatis等［3］指出，即使方法先进，条件严格，也会有100bp左右的误差.为了不遗漏琼脂糖凝胶上的小片段(1kb以下的片段在0.7%的琼脂糖上难以观察)，最好能同时用聚丙烯酰胺进行电泳，即使如此，精确度也总是有限的.特别是对于降解质粒一般都是低拷贝的，需要大量制备质粒DNA，再回收利用，工作量也很大的.
+* 国家自然科学基金(39370145)资助项目
+作者单位:罗如新:复旦大学环境科学与工程系，上海　200433　张素琴:中科院武汉病毒研究所，武汉　430071
+李顺鹏:南京农业大学微生物系，南京　210095)
+参考文献
+1　罗如新等.一氯化苯的微生物厌气降解及其降解性质粒的研究.南京农业大学学报，1997，20(2)：63—66
+2　齐义鹏，黄永秀，梁明山编著.基因工程原理和方法.重庆：四川大学出版社，1988
+3　Sambrook J et al. Molecular Cloning. A Laboratory Mannual. 2nd ed. New York: CSH Lab Press,1989
+4 侯云德编著.病毒基因工程的原理与方法.北京：人民卫生出版社，1985
+1998-03-02收到原稿
+1998-09-28收到修改稿

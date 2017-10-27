@@ -1,0 +1,118 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+青岛地区边界层特征及酸雨成因
+刘宝章　李金龙　王敬云　李　海
+(北京大学环境科学中心，大气污染控制模拟实验室　100871)
+
+摘要　青岛地区边界层风场与温度场垂直分布很特殊，在1500m高度以下风场，近地面层风速较小，300—400m高度风速较大，500m以上风速减小，1000m以上又逐渐增大.温度层结早晚稳定，午后200m以下不稳定，混合层不高，一般在400m左右，有时可达700m，低空经常出现多层逆温.冬季盛行偏北风，夏季盛行偏南风，并经常受江淮气旋和黄淮气旋影响，气旋经过青岛地区时，流场经常出现上、下辐合气流.引入平直和上、下切变两种气流，应用平流扩散方程，对青岛地区连续点源所排放的污染物作模式计算，结果表明，在单一平直气流时，污染物传输较远，但浓度轴线也在一定距离上与地面相交.尤其是在雨天，污染物只在局地散布，浓度较大.当风向出现上、下层切变时，污染物传输范围受限制，这些污染物质在雨天经过化学变化即在近距离形成酸雨.
+关键词　风场；温度场；气旋；污染物；酸雨；模式.
+CHARACTER OF THE BOUNDARY LAYER AND CAUSE OF ACID RAIN IN THE TSINGDAO AREA
+
+Liu Baozhang， Li Jinlong， Wang Jingyun， Li Hai
+(Center for Environmental Sciences,Peking University, Beijing 100871)
+
+ABSTRACT　Vertical distribution of the wind field and temperature field at the boundary layer in Tsingdao Area was found to be unique.Under the height of 1500m,the wind field appears one-front-two-valleys type.For wind speed from ground up,it is relatively low for ground layer,reachs a maximum value between 300m to 400m,reduces over 500m, and increases again gradually above 1000m.As for temperature stratification,it appears stable in the morning and in the evening,and unstable under 200m after noon.As far as mixed layer is concerned,it appears aroung 400m and sometimes can attain 700m.Multiple-layer inversiion often emerges in lower altitude.Wind to north is prevailing in winter,so is wind to sourth in summer.And they are often affected by Jianghuai and Haunghuai cyclones.Convergence air current between lower levers and higher levers emerges when the cyclone pass Tsingdao area.Specific point source can be calculated by introducing straight and shear air currents in conjunction with advection-diffusion equation.The result indicates that pollutant will be transferred farther under one straight air current,while the concentration axis inclines downward and then meet the ground in some distance.Especially in rainy days,pollutants scatter only in the local area and the concentration is high.When wind direction appears shear between higher and lower levers,the pollutant transferring limits are more limited.And then acid rain will form by chemical changes of these pollutants at a short distance in rainy days.
+Keywords　wind field,temperature field, air cyclone,pollutants,acid rain,model,transport and transformation.
+
+　　
+1　引言
+　　青岛地区是我国东部沿海酸雨比较严重的地方，从1991年开始对青岛地区酸沉降特征和防治进行了研究，1993年1月和7月在该地区做了大规模野外实验和调查，调查范围包括现青岛市所辖整个地区.实验和调查内容分两个部分：即边界层物理和污染现状.边界层物理部分设4个测点，有北部的平度市、莱西市，南部的铺集镇和薛家岛(图1).
+　　
+
+
+图1　青岛地区测点示意图
+Fig.1 Observation stations in Tsingdao area
+观测内容有低空温度探测、小球测风、湍流强度、扩散参数等.每期半个月，每天观测6～7次，测量高度在2500m之内，全部资料在IBM计算机上处理.污染现状观测设青岛市气象局、青岛市环保局、崂山中、崂山顶、崂山水库、胶州市、胶南市、薛家岛、平度市、莱西市等10个站，监测项目有SO2、NOx、TSP、CO、IP.在TSP中分析SO2-4、NO-3、F-、NH+4、Cl-、Ca2+、Na+、Mg2+、K+等9种离子成分.每次降水必测酸度、电导率以及与TSP分析相同的9种离子成分.
+　　在每个季度边界层物理观测后，逐次对风向、风速、温度进行计算，然后按时次再作统计，本文所作的为统计平均结果，具有季节代表性.
+　　模式采用平流扩散方程，同时用参数化方法计算了化学转化，睛天计算干沉降，雨天计算湿沉降.把污染源设定为连续排放点源，应用模式计算考察污染物在不同时间内传输范围和浓度分布.计算中设定6种不同方案，即同一风向无雨与有雨，上、下两层风向相反无雨与有雨，有混合层有雨与无雨等，每一种方案计算时间为1，5，10，24，48，96h.
+
+2　边界层风场与温度场特征
+　　本文统计了薛家岛、铺集镇和平度市3个测点的低空风速随高度分布和温度随高度分布，薛家岛测站设在黄岛区近海边，地面开阔，测站海拔高度20m,代表沿海平坦下垫面.铺集镇在青岛市的西南面，该地周围有起伏小山丘，下垫面比较粗糙.平度市测站设在市内，周围是平原，无明显起伏的高大建筑，所测资料可以代表青岛市北部广大平原特征.表1、表2是薛家岛、铺集镇、平度市冬、夏两季的低空风和温度分布.从表1可以看出，不论是冬季还是夏季，接近沿海的薛家岛和铺集镇，近地层各时次风速较小，约2m/s秒左右，甚至小于2m/s，在400m高度达到峰值，最小为4m/s，最大可达到12m/s.再往上至800m又出现一谷，风速又降为4m/s左右.但北部平原地区平度市与沿海不同，近地面风速均很小，夏季略比冬季为大.夏季从地面至200m高度，风速逐渐增大，200m以上，风速随高度变化不大.冬季从地面至100m高度风速逐渐增大，100m以上，风速随高度基本不变，唯有14时，风速随高度是逐渐增大的.
+表1　青岛市夏、冬两季风速随高度分布
+Table 1 Vertical distribution of wind speed in summer and winter seasons in Tsingdao City
+
+风速，m/s
+　　　　冬季　夏季
+地点地面高
+度,m05：0008：0010：0014：0018：0022：0005：0007：0010：0014：0017：0020：0023:00
+
+薛
+家
+岛地面3.03.53.03.12.12.92.01.52.02.11.71.51.3
+1006.06.06.05.06.07.05.34.55.05.75.35.34.0
+2006.17.56.55.55.57.55.04.54.76.05.05.54.4
+3008.510.07.59.07.09.56.35.77.37.34.57.75.7
+50013.012.012.09.711.712.08.07.710.58.79.510.510.5
+8007.07.57.07.04.57.54.04.05.54.04.05.04.7
+10005.05.76.05.05.06.54.04.56.04.13.74.54.5
+
+铺
+集
+镇地面1.82.12.52.91.71.71.01.51.72.02.01.81.0
+1005.95.53.54.04.54.54.05.03.74.74.05.15.0
+2006.06.55.05.05.35.05.05.73.94.84.06.05.7
+3008.98.57.05.57.07.07.06.74.55.04.77.77.0
+50012.011.09.07.011.310.110.58.55.27.77.010.09.7
+8007.08.07.06.55.56.56.36.04.35.85.75.76.3
+10007.310.06.05.54.56.55.24.54.04.14.34.74.5
+
+平
+度
+市地面1.21.21.92.01.51.42.62.02.72.52.73.71.8
+1004.33.34.54.04.03.94.23.64.17.04.44.13.3
+2004.34.75.35.44.64.35.03.94.74.54.85.85.5
+3004.05.05.45.05.24.35.04.74.14.44.16.35.9
+5004.34.65.15.85.34.93.96.23.94.74.74.66.6
+8005.35.34.78.04.74.85.25.45.34.33.94.35.6
+10005.76.35.78.85.64.45.26.05.45.64.95.05.7
+
+表2　青岛市冬、夏两季平均温度随高度分布
+Table 2 Vertical distribution of average temperature in summer and winter seasons in Tsingdao City
+
+
+
+表2为以上3地的温度随高度分布，由表可见，青岛地区平均混合层很低.一般混合层在上午10时前后出现，下午18时前后结束，夏天最高达400m,最低为几十米，沿海薛家岛冬季比夏季为高，冬季午后可达400m,有时可达600m,而夏天却只有100m左右.北部平原地区夏天比南部高，冬季比沿海低，由平均温度随高度分布可看出，青岛市大气层结比较稳定，在没有特殊天气过程(如峰面、大型气旋、台风等)情况下，污染物不易扩散。虽然风速廓线在400m高度有一大风层，但温度层结很稳定，低层污染物不易向上扩散，上层虽有大风，污染物也很难水平传输.
+
+3　数值模拟
+　　根据边界层风速和温度随高度分布的具体情况，选用如下模式进行污染物浓度模拟计算。
+
+(1)
+为了简化，把顺风向取为X方向，只考虑XZ垂直平面的浓度分布，风速随高度分布按上述实际观测资料拟合成下述公式：
+
+垂直扩散参数服从下述规律：［1］
+
+，为地形追随座标，zg(x)为下风向X处地形高度，h(x,t)为模式计算顶层高度.
+　　源强S为连续排放，每年为1100t，源高145m,Rt为化学转化率,取1.0%/h，沉降速度分干、湿沉降两种.干沉降取0.95cm/s［2］，湿沉降与雨强和含水量有关，把湿沉降处理成线性过程：
+
+ct=c0e-kwt
+kw=aRb(h-1)
+R为降水强度(mm/h),a、b为经验常数，a=0.061，b=0.45.
+　　
+
+
+图2　单一风向无雨和有雨天气SO2浓度(mg/m3)分布图
+Fig.2 SO2 concentration distribution in rain and no-rain days 
+under unique wind direction
+
+
+图3　上下两层风向相反无雨和有雨天气SO2浓度(mg/m3)分布图
+Fig.3 SO2 concentration distribution in rain and no-rain days
+when wind direction shears between lower and higher levels
+
+
+
+图4　有混合层上下两层风向相反无雨和有雨天气SO2浓度(mg/m3)分布图
+Fig.4 SO2 concentration distribution in rain and no-rain days when mixed layer appears and when wind shears between lower and higher le-vels
+
+计算按前述规定时间进行，积分时间步长取10s，水平网格距为500m,分无雨和有雨天气两种情况，有雨天气云厚为500m，雨强为5mm/h,风向在300m高度上转向.SO2浓度计算结果，见图2—4.
+　　由图可见，在晴天，当一个点源连续排放，流场和扩散条件都不变时，经过5h后，在研究范围内SO2浓度分布基本达到平衡，浓度最大点在污染源施放处，1000m以上基本趋于零，大部分污染物在400m以下，下风距离可达25km以远.约有30%污染物沉降到地面.在雨天，若云厚为500m,雨强为5mm/h,云底在100m时，不考虑云层中的辐合、辐散和上升、下沉气流的简单情况，风速的扩散条件仍与前面相同，计算结果指出，经过1h后，浓度分布基本达到平衡.污染物水平扩散距离只在4km范围之内，高度只在400m以下，浓度值也比较低，大部分受冲刷而沉降到地面.有雨天气，大气中致酸物质在降雨前期被雨水冲刷至地面，由气流携带来的外地致酸物质亦被雨水冲刷至地面，形成青岛地区的酸雨，由本地不断排放的致酸物质，由于雨水作用，只能影响本地，不可能向外扩散.至于睛天，青岛地区所排放的致酸物质可以向下风方向传输.但浓度轴线向下倾斜，到一定距离与地面相交［1］，经过5h，研究区域内浓度分布达到平衡，连续排放的污染物不断向外扩散，在1h之内排放的污染物有78%在区域内，2h后只有60%在区域内，5h后所排放污染物只有30%在区域内.随着时间增加，区域内污染物所占比例越来越小，说明随着时间推移，大部分污染物都向外扩散.但由于浓度轴线向地面倾斜，传输距离不会太远，再加上青岛地区温度层结绝大部分时间都比较稳定，混合层高度平均只有400m,而400m以下风速又较小，所以污染物向远距离传输更受到限制.
+　　设定300m高度风向切变，即上、下层风向相反，底层污染物向一个方向传输，上层污染物向另一方向传输，则在计算范围内浓度加大，扩散高度升高，10h后，整个区域都有污染物，随着时间增加，所排放的污染物逐步扩散到计算范围之外，若风向多变，则本区域污染物质积聚越来越多，风向单一，则污染物主要向下风向传输，上述计算未引入混合层，向上扩散未受到限制，一旦出现混合层，则污染物的向上扩散就被限制，本地污染就加重.
+　　有雨天气，不考虑气流中的辐合、辐散和上升、下沉的简单情况，不论风向是否上、下层有切变，污染物限制在很小的范围内，没有扩散出去.
+　　当有混合层时，设混合层高度为400m,经模式计算，在无雨天气，经过5h，污染物在混合层以下弥散.有雨时，与前面情况相似，见图4.
+
+4　结论
+　　近年来，青岛地区酸雨有加重趋势，一方面是因为所排放的污染物增加，另方面与当地边界层气象条件特殊性密切有关.根据风向有变化的模式计算结果，有理由推断，青岛市污染物排放主要加害于本地，特别是在有雨天气，风速较小，层结稳定，风向多变，沉降加速，于是局地污染更为明显.又根据文献［1］的结论，高架污染源其浓度轴线是向下倾斜的，并在一定距离上与地面相交，则更说明青岛地区酸雨成因是以本地源为主，外地源为辅，而青岛的污染源对外影响范围因多种原因也是有限的.
+参考文献
+1　桑建国，温市耕编著.大气扩散的数值计算(第一版).北京：气象出版社，1992：112—116
+2　Miller E K， Friedland A J.Atmoshperic deposition to forests along an elevational gradient at whiteface mountain.Atmospheric environment,1993,27A(14):2121—2136

@@ -1,0 +1,97 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第9期 Vol.19 No.9 1999
+
+
+
+利用ASP构建新型信息系统的方法与实现
+王红霞　姚家亮
+　　摘　要　构建基于浏览器/服务器结构的新型信息系统是当前应用的一个热点。本文介绍了一种新的Web开发技术ASP的工作原理及特点，并以图书信息系统为例介绍了如何利用ASP建立新型信息系统的方法。
+　　关键词　ASP, Intranet, Web
+1　引言
+　　信息系统的核心就是要对数据库中的数据进行加工、处理，从而获取有用的管理信息。将信息系统纳入到Internet/Intranet的框架之后，首先面临的就是如何通过网页来访问后台数据库信息。目前，Web页面同数据库的连接有多种方法来实现，例如CGI(Common Gateway Interface)、ISAPI/NSAPI、JDBC及各种数据库系统提供的功能接口等。ASP(Active Server Pages)是微软为IIS 3.0以及MS Personal Web Server等Web服务器开发的动态站点设计技术，它具有动态、高效和易于交互的特点。成为Internet技术发展中的一个里程碑。
+　　本文介绍ASP工作的原理并针对一个具体的应用实例介绍其使用方法。
+2　ASP的原理
+　　从本质上讲，ASP是一个在服务器端执行的脚本，但ASP不能简单地理解为一般的脚本语言，它是将脚本语言（VBscript和JScript）集成到HTML页并作用于服务器端的脚本环境。一个*.ASP源文件可以包括以下四种成分：
+　　. 文本，用于显示信息和页面标题等，可以出现在任意单元中。
+　　. HTML标记，用于实现页面风格，可单独使用，也可以嵌入到ASP脚本单元之间，用′<′ 和′>′作为定界符。
+　　. VBScript脚本，用于控制各种Activex控件，可单独使用，也可以嵌入到ASP脚本单元之间，用<Script>和</Script>作为定界符。
+　　. ASP脚本命令，负责应用程序流程的控制及功能的实现。可单独使用，也可以包含在<html>和</html>内，用′<%′ 和′%>′作为定界符。
+　　当发生页请求时，Web服务器响应HTTP请求，调动ASP引擎，解释被申请的文件。当遇到任何与Activex Scripting兼容的脚本如(VBScript和Jscript)时，ASP 引擎会调用相应的脚本引擎进行处理，并将结果传送到调用的浏览器。实际上，ASP与服务器端运行的VBscript区别不大，但由于ASP与组件和对象模型（COM）结合起来，可以通过编程访问Activex对象与组件，使得它成为建立新型信息系统的有效工具。ASP对象是始终能在VBScript中应用的Activex元素，它支持应用程序、会话、请求、响应和服务器对象。ASP组件是存在于ASP结构之外的DLL，它支持数据库访问、文件访问、浏览器能力、AD转换和内容连接等，可以由任何语言创建组件。例如，数据库访问组件ADO是ASP组件中非常有用的一种，可以使用这个组件来完成对数据库的访问。
+　　由于ASP脚本是在服务器运行的，所以用户浏览器只能看到ASP脚本运行所生成的标准HTML代码，所以它可以被各种浏览器访问，并且用户永远看不到ASP脚本的代码，增加了系统的安全性。ASP更显著的一个优点还在于它简单易学，易于扩充。
+3　ASP访问数据库的技术
+　　ASP采用ADO技术访问数据库。ADO（Activex Data Objects） 即Activex数据对象，它建立在微软新的数据库API即OLE DB之上。ADO是一组优化的访问数据库专用对象集，为ASP提供了完整的站点数据库访问方案。ADO使用内置的RecordSets对象作为数据的主要接口，使用VBScript或JScript语言来控制对数据库的访问及查询结果的输出显示。
+　　若脚本指令中含有访问数据库的请求，就通过ODBC与后台数据库相连，由数据库访问组件执行访库操作。
+　　使用ADO访问数据库的设计要领是掌握ASP的几个典型语句，它们是：
+　　定义数据库组件
+set objconnection = server.createobject
+("adodb.connection")
+objconnection为数据库连接对象
+　　打开待访问的数据库
+　　objconnection.open "数据源名称" "用户ID" "口令"
+　　执行访问数据库的动作
+set objrecordset= objconnection.execute("SQL语句")
+objrecordset为结果集对象
+　　显示查询结果
+　　如下所示建立查询结果的数据列表
+<select size=8> 
+<%do while not objrecordset.eof %> 
+<option><% =objrecordset ("字段名")%> </option>
+<% objrecordset.movenext loop %>
+</select>
+4　实际应用
+　　下面以一个图书信息系统为例，介绍如何采用ASP技术进行开发。
+4.1　系统环境
+　　服务器采用的系统平台为Windows NT，Web服务器为支持ASP的IIS 3.0，后台数据库服务器为SQL Server 6.5。客户端采用Win95或Win98平台，浏览器为IE 4.0 即可。开发工具采用Visual InterDev和FrontPage 98，当然为了页面更美观，图像处理工具或其他一些多媒体工具也是必不可少的。
+4.2　系统分析与设计
+　　本图书信息系统主要是为了便于图书馆对图书进行日常管理，帮助读者用户进行图书信息查询，所以要求能够实现查阅图书、新书登记、统计图书信息等。系统功能包括图书信息的查询、统计、维护、打印等，对于不同用户，系统赋予其不同的使用权限。读者用户可以在客户端通过浏览器登录进入到该系统中，对图书信息进行各种查询、浏览，而图书管理员可进行一些系统维护工作，即对图书信息进行增加、修改、删除等。
+　　图书的基本信息主要包括书名、类别、书号、单价、出版社、作者、主审、出版年月、封面图片、内容简介等，为了便于系统管理和维护，系统建立的图书数据库中包括图书信息表、图书类别表、出版社代码表等数据表。
+4.3　实现
+　　下面以系统中的组合条件查询功能为例介绍其实现方法。
+　　. 查询条件录入的实现：
+　　查询条件录入页面如下图所示：
+
+　　该页面主要用FrontPage 98制作，页面主要包含一个表单。该表单中有多个MS forms 2.0 的ActiveX控件。通过编制的VBScript和ASP脚本控制各控件显示的内容和有效性。例如选择了出版社字段后，运算符下拉列表显示等于和不等于，相应的值下拉列表显示出各个出版社的名字。输入完一个查询条件后，连接运算符有效。生成的查询条件以用户易理解的方式显示在文本框中，而实际提交SQL语句的查询条件则存放在一个隐藏的文本框(tsql)中。另外还有三个按钮帮助用户对查询条件进行处理。
+　　用户单击开始查询按钮将生成的查询条件提交给cx.asp文件，由它完成对图书信息的查询和显示。
+　　. 获得并显示查询结果
+　　用InterDev 新建一个ASP页面，命名为cx.asp文件。在此文件中的BODY区加入下面的代码：
+<%@ Language=VBScript %>
+<% dim objconnection
+dim objrecordset，strsql
+set objconnection=server.createobject
+("adodb.connection")
+objconnection.open "TSXX","sa"
+strsql="select no,title,author,
+publications from books,pub, "
+strsql=strsql+"where books.pubid=pub.pubid and"
++request.form("tsql")"
+set objrecordset=objconnection.Execute(strsql) %>
+<%if objrecordset.bof and objrecordset.eof then
+<h2><center> 抱歉！没有符合条件的书，请重新输入。
+</center></h2>
+<%else 
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><th>书名</th>
+<th>作者</th>
+<th>出版社</th></tr>
+<% do while not objrecordset.EOF %>
+<tr><td>
+<a href=　"detail.asp?title=　<　%=(objrecordset("title"))%　>"　%=objrecordset ("title")%> </a> </td>
+<td ><p align="left"><%=objrecordset("authors")%></td>
+<td ><p align="left"><%=objrecordset("publication")%> </td>
+</tr>
+<% objrecordset.movenext loop %> </table>
+<%end if%>
+　　这样cx.asp执行后查询结果以表格的形式显示出了符合条件的所有图书名称、作者、出版社。此时如果用户对某一本书想进一步了解其详细资料，可以点击相应的书名，这将激活另一个ASP页面即detail.asp，执行detail.asp后用户可以看到该书的封面、内容简介等详细资料。
+5　结语
+　　基于Intranet的浏览器/服务器结构的新型信息系统与传统信息系统相比，更加开放、高效、安全和表现形式丰富，还能增加许多新的网络服务类型。它能充分利用原有设备，投资少和开发周期短，完全能够满足企业信息管理的需要。另外，这种浏览器/服务器结构的新型信息系统的用户界面具备友好性和一致性，使用户更加乐于接受。
+作者简介：王红霞　硕士，讲师。主要研究方向：信息工程理论与应用、分布式信息处理。
+姚家亮　硕士，副教授。主要研究方向：计算机网络及应用、计算机图形学。
+作者单位：军械工程学院　河北.石家庄（050003)
+参考文献
+［1］　(美)S.希利尔, D.齐梅克,著.Active Server Pages编程指南. 董启雄,等译. 宇航出版社，1998
+［2］　(美)Scott Jarol Marisa Pena，著. Web设计与开发指南.曲亚东,等译. 北京：机械工业出版社，1998制，是网络信息安全的一种保障。
+　　会话层的SOCKS Proxy：通过会话层的SOCKS Proxy，使客户端和代理服务器端建立通信连接。只有代理服务器端验证通过的客户才能和校园网外的服务器建立通信连接，并通过缓存实现cache功能。
+　　网络监控：它包括校园网内部各子网连网机器的状态监控和目前正通过代理服务器的各源、目地IP地址监控两方面。
+　　网络计费系统：代理服务器的网络计费系统主要由用户访问日志、计费标准设置、用户费用动态查询、用户费用统计构成。
+收稿日期:1999-06-15(修改稿)

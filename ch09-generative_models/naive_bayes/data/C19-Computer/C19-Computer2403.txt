@@ -1,0 +1,136 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第10期　Vol.36　No.10　1999
+
+
+
+特征编辑技术的研究
+唐良红　孙立镌　张礼勇
+　　摘　要　特征编辑已成为特征造型系统中提高造型能力和造型效率的关键，为此文中提出重用CSG和FDT的特征线性修改算法, 且与模型构造的历程顺序无关.同时在特征编辑中满足面特征、体特征设计的前提假设条件下，提出特征非线性修改算法，最大限度地减少了模型重构过程所需布尔运算的操作步骤，因而解决了随着模型复杂程度提高，修改所花费的时间越多的问题.并给出了特征线性修改与非线性修改有机结合的算法，大大提高特征编辑的效率和可靠性.
+　　关键词　特征编辑，特征线性修改，特征非线性修改
+　　中图法分类号　TP391.72
+RESEARCH ON FEATURE EDITING TECHNOLOGY
+TANG Liang-Hong, SUN Li-Quan, ZHANG Li-Yong
+(Research Institute of Computer Applied Techniques,Harbin University of Science and Technology, Harbin 150001)
+　　Abstract　Feature editing has become a key approach for improving ability and efficiency of modeling in feature-based solid modeling. So, based on reusable CSG and FDT technologies, a feature linear modifying algorithm is presented, which is independent of the sequential history of modeling steps. Meanwhile, a nonlinear modifying algorithm that satisfies the assumptions of face-based and volume-based feature design is proposed in feature editing, which can re-evaluate a modified part with minimum Boolean operations， thus solving the problem that a part modification's time will cost more with a more complicated structure. An algorithm of combining features linear modifying with nonlinear modifying is given to improve the stability and efficiency of feature editing.
+　　Key words　feature editing, feature linear modifying, feature nonlinear modifying
+1　引言
+　　产品设计是不断修正和优化的设计过程，重复产品的概念设计、结构设计和参数设计3个阶段，在特征造型系统中表现为特征设计与特征编辑，涉及到两个根本问题［1］：
+　　（1）产品模型边界表示（B-rep）的信息修改；
+　　（2）产品模型特征表（历程树和特征描述树）的信息修改.
+　　特征设计只反映产品模型的特征数目增加，在几何模型级上只反映为做一次布尔运算操作(并、交或差)，其产品模型的边界和特征表也随同更新；特征编辑则修改产品模型中已存在的特征，需利用其设计历程树来修改产品模型的边界和特征表.而产品模型的可修改性和易修改性已成为提高造型能力和造型效率的关键，为此，许多学者对特征编辑的两个方面进行了研究：① 特征编辑的正确性，提出了对拓扑元素（面、边和顶点）的拓扑命名法，刻画出拓扑元素的唯一性，实现拓扑元素标识号在新旧模型中的正确传递，解决尺寸约束、特征定位等一系列涉及到拓扑元素的操作问题［2～5］.它是特征编辑的基础；② 特征编辑的效率，即其实现的途径及效率［1，6，7］是产品模型特征可编辑性的反映.Suh和Ahluwalia［6］提出在特征设计过程中，当新特征增加时，试图自动重定义和修改已存在的特征，但没有讨论模型边界重构，而仅考虑两个特征作布尔运算时怎样定义和修改已存在特征的各种方法. Su和Mayer［7］在基于ECTOF（extend CSG tree of features）描述模型的基础上，提出在特征修改的每一步中，首先进行特征边界的干涉检查，去掉冗余的特征，重构ECTOF树，接着根据其ECTOF树的生成顺序重构新模型，但没有进一步讨论提高重构新模型的效率.Perng和Chang［1］在基于ACIS模型上，提出通过特征边界的干涉检查，记录特征边界的包含、相交和分离3种情况，在修改过程中，只更新与其边界有相交的所有特征，而其他特征边界不重构，减少重构新模型的时间，满足交互式需要，但只适合于差运算，即负特征，并没有给出模型重构的具体实现算法及考虑特征的约束关系.文中在基于B-rep，CSG和FDT（特征描述树）的混合模型描述实体的基础上，进行特征编辑的效率研究，提出重用CSG与FDT技术的特征线性和非线性修改的算法，涉及以下4个方面：① CSG与FDT的关系及父子特征约束关系；② 去掉冗余的特征；③ 根据其CSG树生成顺序重构新模型的特征线性修改算法；④ 提出基于面特征和体特征的特征非线性修改算法，最大限度地减少模型重构过程所需布尔运算的操作步骤.
+2　实体模型及其约束关系的描述
+　　在基于特征的参数化造型系统中，如何更全面有效地表示模型，使特征作为一种有效的信息载体，能够满足产品从设计、分析到制造各阶段对信息描述的需求，是国内外学者研究的热点［8，9］，文中提出用边界表示B-rep，CSG树和特征描述树FDT的混合模型来表示实体，其中B-rep 记录实体模型的几何和拓扑信息；CSG树记录实体模型设计过程的顺序，是一棵二叉树，它还记录围成其裁剪特征体素的面指针信息FaceList和与其相交的其它特征体的CSG结点集InterCsgList；CSG树上的每一个结点都有其对应的特征描述树FDT，FDT是一棵多叉树，记录其对应的CSG树结点的特征与其他特征之间的约束关系，允许有多个父特征和多个子特征，通过特征的重定义和修改可以改变特征的约束关系，即允许使用历程树中稍后创建的特征来确定历程树中早先创建的特征，使实体模型在可编辑性方面与模型构造的历程顺序无关.特征之间的约束除父子特征约束关系外，还有几何和拓扑约束关系（基准面、基准边和基准顶点及约束尺寸）.如图1所示，F2(fdt)(特征F2的FDT结点)记录其父特征为F1(fdt), 子特征为空，基准面为f1；F3(fdt)记录其父特征为F1(fdt), 子特征为空，基准面也为f1；F1(fdt)记录其父特征为空, 子特征为F2(fdt)，F3（fdt），F4(fdt)和F5(fdt).基于特征设计的实体模型又可以用特征表和特征表达式来表示，如图1所示.
+
+
+图1　部件的特征表、特征表达式及CSG树
+3　特征的线性修改
+　　特征编辑包括特征参数值（特征体的参数尺寸和约束尺寸）修改和结构修改两部分，其中特征参数值修改可能引起结构修改，如在图2(a)中，当T型槽增大后，原来的孔在新模型中将不复存在，如图2(b)所示.通过特征编辑重构新模型过程涉及到参数约束关系求解、CSG树和FDT树的调整及模型边界的更新，当今大多数CAD软件如I-Deas Master，其特征编辑功能实现是根据模型的CSG树生成顺序重构新模型，也就是重演其过去的特征设计历史过程.因此文中在重用CSG树与FDT技术的基础上，也提出一种重构新模型的特征线性修改算法，其主要思想是：若为参数值修改，采用数值法求解非线性多项式方程组，计算参数精确解，更新CSG树上的叶结点特征参数表和约束表中所有参数值；若为结构修改，调整CSG树和FDT；最后根据修改后的CSG树和FDT重构新模型.本算法将讨论CSG树和FDT的调整及基于CSG树与FDT重构新模型.
+
+
+图　2
+3.1　调整模型的CSG树和FDT
+　　当进行特征删除操作时，需要调整模型的CSG树和FDT，设被删除的特征为CF，算法如下：
+　　(1) 判断CF（fdt）的子特征链为空否；若不为空，则通过各种方式引用此特征的子特征应将被删除，依此从子特征链中取出特征Fi，置Fi对应的CSG结点中删除标志，即DeleteFlag为TRUE，用递归法对Fi与CF做相同处理，直到引用CF的所有子特征都处理为止；
+　　(2) 置CF对应的CSG结点中DeleteFlag为TRUE；
+　　(3) 从CSG树根结点出发，用中序遍历算法遍历CSG树中所有结点；
+　　(4) 若存在结点csg_nodei 的DeleteFlag为TRUE，分两种情形讨论：
+① 若其父结点parent为空，则结点为根结点，结束；
+② 否则，若其兄弟结点的DeleteFlag为FALSE，则把父结点的FDT的children链中其对应csg_　node的DeleteFlag为FALSE的所有子特征FDT结点插入到csg_　nodei兄弟结点的FDT的children链中并置父结点的FDT的children链为空.
+3.2　基于CSG树重构新模型
+　　当特征参数值重新计算或模型的CSG树和FDT调整后，CSG树仍记录原模型的生成历程顺序，但此时可能存在DeleteFlag为TRUE的结点，而且原模型的B-rep信息并没有修改，因此需重构模型新的拓扑和几何信息、CSG树和FDT.基于原CSG树和FDT重构新模型算法如下：
+　　(1) 用中序遍历算法遍历原模型的CSG树，遍历的顺序与模型的生成历程顺序相同；
+　　(2) 当遍历到某一结点csg_nodei时，若其DeleteFlag为TRUE ，表明此结点不应构成新模型的一部分，应不以处理，遍历下一个结点；
+　　(3) 否则，判断csg_nodei是否为叶结点，若为叶结点，根据其所指的特征类型和参数表生成一个新的特征体素；若为中间结点，把它的左右子树生成的两个实体按csg_nodei所指定的操作做布尔运算.
+　　(4) 直到遍历完原模型的CSG树为止，这样新模型的拓扑和几何信息、CSG树和FDT也就生成结束；
+　　(5) 用中序遍历算法遍历新模型的CSG树，检测CSG树中每个叶结点的FaceList是否为空，若为空，删除此叶结点，即去掉冗余的特征；
+　　(6) 释放原模型的拓扑和几何信息、CSG树和FDT所占用的内存空间.
+4　特征的非线性修改
+　　由于特征修改既依赖于特征的父子关系又依赖于特征生成的先后次序，使特征修改呈双线性，即父特征的修改会引起其所有子特征和创建于此特征以后的所有特征的关联修改.文中所述特征的线性修改算法是特征线性修改的一种实现，相当于重演模型构造的顺序历程，由于此方法简单可靠已被许多CAD软件所采用，但随着模型复杂程度提高，修改所花费的时间也就越多.由于特征之间互相依赖使特征随模型的修改而关联修改，使某些子特征不必要重新生成而带来的时间上的花费，降低了特征编辑的效率，如图1中，若增大Hole1孔的半径，需重构基特征Block及特征Uslot，Hole1，Hole2，Hole3.为此Perng和Chang［1］提出了基于体特征的非线性修改，作了开创性工作，尽管其算法适用面有限.文中在Perng的研究基础上，将通过特征重定义和修改，运用面特征和体特征的方法，给出特征非线性修改的算法，最大限度地减少模型重构过程所需布尔运算的操作步骤.为了叙述方便，定义如下术语：
+　　SF(P) ：部件模型所含的特征集，即SF(P)={F1,F2,…，Fn}；
+　　U(S)：在特征集S中所有特征的并，如U(SF(P)) = {F1∪F2∪…∪Fn}；
+　　CP：被修改的部件模型；
+　　CF：被修改的特征；
+　　MP：修改后的部件模型；
+　　MF：修改后的特征；
+　　PF：被修改特征CF的父特征；
+　　BF：被修改特征CF的基特征；
+　　SI(Fi)：表示在CP中与Fi相交的所有特征集，即SI(Fi)={Fj|Fj∈SF(CP)，Fj ≠Fi, Fj∩CF=,j=1,…，n}；
+　　SI(Fi|BF)：表示Fi与SF(BF) 相交的所有特征集；
+　　Sop(BF)：表示在BF上操作所有特征；
+　　SC(MF)：表示在CP中除CF外的特征包含在MF，SC(MF)={Fj|Fj∈SF(P)，Fj≠CF，FjMF，j=1,…，n}.
+4.1　基于面特征的非线性修改
+　　面特征是曲面造型的主要设计手段，体特征是实体造型主要设计手段.虽然面特征设计比较方便、灵活，但由于实体表示复杂，体特征都受一组参数约束，因此面特征仍没能作为实体造型设计手段.文中则将把面特征引入到实体造型的特征编辑中，提高特征修改的效率.如图1中，当用户删除Hole1时，不必根据历程树重构新模型，而通过面特征的局部欧拉操作修改完成，只需删除特征面f1和f2上的各自内环L1和L2及Hole1的面f3完成了模型Brep信息修改，接着修改CSG树和FDT.
+　　由于实体拓扑关系复杂，基于面特征的非线性修改是基于以下两条假设：
+　　(1) 若被修改的特征CF为凹特征(depressive feature)，与CP的布尔操作为“差运算”，且SI(CF)=PF，PF与CF相交的边界线L(PF,CF)为BF的特征面的内环；
+　　(2) 若被修改的特征CF为凸特征(protrusive feature)，与CP的布尔操作为“并运算”，且SI(CF)=PF，PF与CF相交的边界L(PF,CF)为BF的特征面的内环；
+　　基于上述两条假设的特征操作在机械产品设计大量使用，具有广泛的实际意义，如电工、仪表、变速箱壳体的设计等，如图3中，对孔Hole9，Hole10，Hole11，Hole12，Hole13的编辑符合面特征修改的假设条件1，即可用面特征进行非线性修改.特征编辑操作有Move，Shrink，Stretch，Delete，算法如下：
+
+
+图　3
+　　　(1) 若EditCommand=Move，或Shrink，或Stretch
+　　　　Stage 1：修改边界B-rep
+　　　　　　　　Step 1. 在PF的特征面上删除PF与CF相交的边界线L(PF,CF)；
+　　　　　　　　Step 2. 根据CF的csg_node结点获取CF的边界面B(CF)，接着删除B(CF)中　　　　　　　　　　　　　所有面.
+　　　　　　　　Step 3. 根据CF的csg_node结点特征参数信息，重构新的CF1，接着根据　　　　　　　　　　　　　CF与CP的布尔操作符做CP与CF1的布尔运算；
+　　　　Stage 2：修改CSG树和FDT
+　　　　　　　　若CF(fdt)的Children链非空，用户可以通过特征重定义，对Children链中　　　　　　　　　每个子特征割裂父子关系；或者对Children链中每个子特征根据其约束关　　　　　　　　　系是否重复Stage 1和Stage 2；接着用CF1的csg_node结点替换CF的　　　　　　　　　csg_node　结点.
+　　　(2) 若EditCommand=Delete
+　　　　Stage 1：修改边界B-rep
+　　　　　　　　Step 1. 在PF的特征面上删除PF与CF相交的边界线L(PF,CF)；
+　　　　　　　　Step 2. 根据CF的csg_node结点获取CF的边界面B(CF)，接着删除B(CF)中　　　　　　　　　　　　　所有面.
+　　　　　　　　Stage 2：修改CSG树和FDT
+　　　　　　　　　　　　根据CF的csg_node结点获取其fdt，若fdt的Parent非空，那么在　　　　　　　　　　　　　Parent的Children链中移去fdt；若fdt的Children链非空，用户　　　　　　　　　　　　　可以通过特征重定义，对Children链中每个子特征割裂父子关　　　　　　　　　　　　　系；或者对Children链中每个子特征根据其约束关系是否重复　　　　　　　　　　　　　Stage1和Stage 2；接着在CSG树中删除CF的csg_node结点.
+4.2　基于体特征的非线性修改
+　　体特征是实体造型主要设计手段，Perng和Chang［1］提出基于体特征的非线性修改算法是基于以下3条假设：
+　　(1) 设基特征为BF，其他特征都在BF上操作；
+　　(2) 除基特征外其他特征都为depressive feature，即与CP的布尔操作为“差运算”；
+　　(3) 若被修改的特征CF不被其他特征所包含.
+　　为了适应产品多样性设计需要，尤其局部简单但整体复杂的机械、电工产品等及其装配件的设计，文中对Perng的算法进行了改进，并提出适用范围更广的基于体特征非线性修改算法，它基于以下2条假设：
+　　(1) 基特征BF为CP中任一特征；
+　　(2) Sop(BF)都为depressive feature，即与CP的布尔操作为“差运算”；
+　　Perng算法的第3条假设已在布尔操作中进行了改进，故不需要考虑.算法如下：
+　　① 若EditCommand = Move，或Shrink，或Stretch
+　　　Stage 1：修改边界B-rep
+　　　　　　　Step 1. 若CF被MF所包含，即CFMF，则根据CF的csg_node结点特征参数信　　　　　　　　　　　　息，重构新的CF1，接着CP与CF1做“差运算”，即MP=CP-MF；
+　　　　　　　Step 2. 否则，若SI(CF|BF)=且SI(CF)=，则根据CF的csg_node结点记　　　　　　　　　　　　录的特征原参数信息，重构新的CF1，接着CP与CF1做“并运算”，　　　　　　　　　　　　再根据CF的csg_node结点记录的特征修改后参数信息，重构新的　　　　　　　　　　　　CF2，CP与CF2做“差运算”，即MP=(CP+CF)-MF.否则若SI(CF|BF)≠　　　　　　　　　　　且SI(CF)=SI(CF|BF)，MP=(CP+CF)-U(SI(CF))-MF；如图3中若对孔　　　　　　　　　　　　Hole1修改，则SI(Hole1)={Hole2, Hole3, Hole4}，U(SI(Hole1)) = 　　　　　　　　　　　　{Hole2∪Hole3∪Hole4},只需5次布尔运算既可完成图3零件的边界重　　　　　　　　　　　　构.
+　　　Stage 2：修改CSG树和FDT
+　　　　　　　Step 1. 若CFMF或CFMF，SI(CF|BF)=且SI(CF)=，首先用MF的　　　　　　　　　　　　csg_node结点替换CF的csg_node 结点；接着检测SC(MF)，若　　　　　　　　　　　　SC(MF)≠，在CSG树中删除SC(MF)所含的特征对应的csg_node结点；
+　　　　　　　Step 2. 否则，若CFMF，SI(CF|BF)≠且SI(CF)=SI(CF|BF)，则MF和　　　　　　　　　　　　SI(CF|BF) 重构的新特征对应的csg_node结点分别替换CF和　　　　　　　　　　　　SI(CF|BF)对应的csg_node 结点；接着检测SC(MF)，若SC(MF)≠　　　　　　　　　　　，在CSG树中删除SC(MF)所含的特征对应的csg_node结点；图3中对　　　　　　　　　　　　孔Hole1修改时，需进行Hole1，Hole2，Hole3，Hole4的新旧　　　　　　　　　　　　csg_node结点替换.
+　　② 若EditCommand = Delete
+　　　Stage 1：修改边界B-rep
+　　　　　　　Step 1. 若SI(CF|BF)=且SI(CF)=，则根据CF的csg_node结点记录的特　　　　　　　　　　　　征原参数信息，重构新的CF1，接着CP与CF1做“并运算”，即　　　　　　　　　　　　MP=CP+CF；
+　　　　　　　Step 2. 否则若SI(CF|BF)≠且SI(CF)=SI(CF|BF)，MP=CP+CF-U(SI(CF)).
+　　　Stage 2：修改CSG树和FDT
+　　　　　　　Step 1. 删除CF1和CF对应的csg_node结点；
+　　　　　　　Step 2. 若SI(CF|BF)≠且SI(CF)= SI(CF|BF)，则SI(CF|BF)重构的新特征
+　　　　　　　　　　　对应的csg_node结点分别替换SI(CF|BF)对应的csg_node 结点.
+4.3　特征的非线性修改
+　　基于面特征和体特征的非线性修改都在假设条件下提出的，其适用范围受到限制，但用户对复杂模型进行特征编辑很难把握假设条件.为此给出了特征的线性修改和基于面特征、体特征的非线性修改有机结合的特征编辑算法，使它适用于任何产品模型的特征修改，用户不必考虑非线性修改的假设条件，提高模型的特征编辑效率，并保证其可靠性.其算法如下：
+　　（1） 判断修改的特征是否满足基于面特征非线性修改的假设条件，若是，用面特征进行修改；
+　　（2） 否则判断修改的特征是否满足基于体特征非线性修改的假设条件，若是，用体特征进行修改；
+　　（3）否则进行特征的线性修改.
+5　结论
+　　本文所述的3种实体特征编辑算法各有其局限性，但3者有机结合既提高了特征编辑效率，又保证了其可靠性.对符合面特征和体特征修改条件的复杂物体来说，其修改时间与物体的复杂程度不成线性比例，与特征的线性修改相比其效率大大提高.算法已在自主开发的计算机辅助工业造型设计系统（CAID）中实现，使特征编辑的效率得到了极大的提高，其主要有如下特点：
+　　(1) 重用CSG树的特征线性修改算法，解决通过复杂约束关系求解的特征编辑；
+　　(2) 把面特征和体特征引入到特征编辑中，提出特征非线性修改算法，最大限度地减少模型重构过程所需布尔运算的操作步骤；
+　　(3) CSG树中结点的特征面表FaceList，为识别冗余的特征提供了手段；
+　　(4) 特征参数引用与特征生成的先后顺序无关.
+　　下一步工作集中研究拓宽基于面特征、体特征的非线性修改算法的假设条件.
+本课题得到国家“九五”攻关项目(项目编号96A01010101)和机械工业技术发展基金项目(项目编号96JA0709)资助.
+作者简介:唐良红，男，1968年6月生，博士研究生，主要研究方向为计算机辅助几何造型、计算机图形学与CAD.
+　　　　　孙立镌，1944年生，教授，主要研究方向为计算机图形学与CAD.
+　　　　　张礼勇，男，1939年生，教授，博士生导师，主要研究方向为仪器仪表CAD.
+作者单位:哈尔滨理工大学计算机应用技术研究所　哈尔滨　150001
+参考文献
+　1　　Perng D B, Chang C F. Resolving feature interactions in 3D part editing. Computer-Aided Design, 1997, 29(10): 687～699
+　2　　Kripac J. A mechanism for persistently naming topological entities in history-based parametric solid models. Computer-Aided Design, 1997, 29(2): 113～122
+　3　　Capoyleas V, Chen X, Hoffmann C M. Generic naming in generative constraint-based design. Computer-Aided Design, 1996, 28(1): 17～26
+　4　　Chen X, Hoffmann C M. On editability of feature-based design. Computer-Aided Design, 1995, 27(12): 905～914
+　5　　Wu J. Topological naming mechanism in feature-based modelling. CADDM,1997, 7(2): 71～78
+　6　　Suh H, Ahluwalia R S. Feature modification in incremental feature generation. Computer-Aided Design, 1995, 27(8): 627～635
+　7　　Su C J, Mayer R J. Three-phase method for feature interaction resolution. Journal of Design and Manufacturing, 1994, 4(2): 153～166
+　8　　Anderl R, Mendgen R. Modeling with constraints: Theoretical foundation and application. Computer-Aided Design, 1996, 28(3): 155～168
+　9　　Tsai P, Fu C, Chieng W. Analysis and synthesis of geometric models using tree-structured relations. Computer-Aided Design, 1997, 29(9): 607～615 
+原稿收到日期：1999-01-13；
+修改稿收到日期：1999-05-25.

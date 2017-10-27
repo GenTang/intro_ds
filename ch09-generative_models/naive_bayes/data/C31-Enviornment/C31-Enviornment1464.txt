@@ -1,0 +1,73 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+NO-CO-CO2-N2体系中若干金属氧化物对NO
+去除反应的催化作用
+徐春保　吴胜利　苍大强　(北京科技大学冶金学院，北京 100083)
+葛西荣辉　(东北大学素材研究所，仙台 980，日本)
+文　摘　 采用固定床流动反应装置，考察Cu2O、CuO、Cr2O3、Fe2O3、MnO2、Ni2O3、V2O5等金属氧化物对NO-CO-CO2-N2体系中NO去除反应的催化作用，同时，分析了NO-CO-CO2-N2体系中金属氧化物对NO去除的作用。研究结果表明，各金属氧化物对NO去除反应均有不同程度的催化活性，其中Fe2O3、Ni2O3、CuO等对NO的去除显示出较强的催化作用。金属氧化物存在条件下NO-CO-CO2-N2体系中，NO去除反应较为复杂，NO/CO气相直接反应、低价氧化物对NO的还原作用、金属氧化物对NO分解反应的催化作用及金属氧化物对NO/CO反应的催化作用等都可能存在。大部分金属氧化物以对NO/CO反应的催化作用为主，而Ni2O3的预还原试样对NO的直接分解反应表现了极强的催化活性。
+关键词　金属氧化物　催化活性　NO的去除　NO/CO反应　NO的直接分解
+
+Catalytical performance of several metallic oxides on elimination of NO in NO-CO-CO2-N2 system.Xu Chunbao, Wu Shengli, Cang Daqiang (School of Metallurgy , University of Science and Technology Beijing, Beijing 100083); Eiki Kasai ( Institute for Advanced Materials Processing ,Tohoku University, Sendai 980 , Japan).China Environmental Science.1998,18(3):236～239
+Abstract—Catalytic performance of several oxides, i.e. Cu2O, CuO, Cr2O3, Fe2O3, MnO2, Ni2O3 and V2O5 on elimination of NO in NO-CO-CO2-N2 system has been examined in a fixed bed reactor. At the same time, the roles of metallic oxides in the reaction system of NO-CO-CO2-N2 has been discussed. The experimental results show that each metallic oxide gives catalytic activity on the elimination of NO with different extent , and especially Fe2O3, Ni2O3, CuO, etc. give high catalytic activities. NO elimination reactions are much complicated in the system of NO-CO-CO2-N2 with the existence of metallic oxides. Homogeneous reaction between NO and CO, reduction of NO by the lower valued metallic oxides, direct decomposition of NO as a catalytic reaction and catalytic reaction of NO/CO may all contribute in NO elimination. The results of further experiments show that most of the metallic oxides give a catalytic effect on NO/CO reaction, while pre-reduced Ni2O3 sample shows remarkable catalytic activity to the direct decomposition of NO.
+Key words:metallic oxide　catalytic activity　elimination of NO　NO/CO reaction　decomposition of NO
+　　炼铁工业是主要的NOx污染源之一，仅次于火力发电工业和交通运输业。其中，烧结工艺排放的NOx占整个炼铁工业NOx总排放量的近50％。由于烧结过程废气排放量大，排烟脱硝法投资巨大，因此，在工艺过程中抑制或去除NOx的过程脱硝法被认为是十分有效和有广阔前景的〔1～3〕。作者〔4～5〕曾研究了烧结床层中焦炭粒子的不同赋存状态、焦炭粒子的不同附着粉成分对于NO的生成和抑制的影响。研究结果表明，不仅低价态的铁氧化物如Fe3O4、FeO 等对NO的生成具有抑制作用，而且高价态的铁氧化物（Fe2O3、CaO*Fe2O3）也能抑制NO的生成。在该过程中，NO/CO反应被认为是抑制NO生成的主要原因。本文将在上述研究〔3～5〕的基础上，考察Cu2O、CuO、Cr2O3、Fe2O3、MnO2、Ni2O3、V2O5等单元金属氧化物对NO去除反应的催化作用。同时对NO-CO-CO2-N2体系中的催化机理进行探讨。
+1　实验
+1.1　试样
+　　实验所用的金属氧化物 (Cu2O、CuO、Cr2O3、Fe2O3、MnO2、Ni2O3、V2O5 ) 系化学分析用的高纯度氧化物粉剂(不纯物含量<1.0%)。这些氧化物粉剂经称量，加适量蒸馏水调匀后制成直径3～4mm的球形颗粒。制成的颗粒预先在100℃温度下烘干1h，在空气气氛中再升温至800℃，并在此温度下保持3h。制成的试样经X射线衍射物相分析后作实验用试样。试样的制粒过程中未加任何添加剂，试样成型粒的强度靠氧化物在高温焙烧过程的再结晶和固相反应。
+1.2　实验装置和方法
+
+图1　实验装置示意
+Fig.1　Schematic diagram of experimental apparatus 
+1.纯N2　2.纯CO　3.纯CO2　4.NO
+　　采用图1所示的固定床反应装置。反应管为高铝质高温试管，内径30mm。为了均匀反应气流及预热反应气体，反应管下部填充30mm厚Al2O3球（球径2～3mm）。反应管上部为试样层（层厚15mm），反应管置于竖式电炉内，紧靠试样层处置Pt/Pt-Rh热电偶测量试样层温度。高纯标准气经干燥后按一定配比混合，混合气由进气管导入反应管(反应气流量1.4mL/min，反应空速SV＝8000h-1）。用KNOS-600型气体分析仪（日本高立理化株式会社）连续测定排气中的NO浓度。
+2　结果与讨论
+2.1　NO-CO-CO2-N2 体系中金属氧化物对NO去除反应的催化作用
+
+图2　500℃下各氧化物试样对NO去除反应的催化作用
+Fig.2 Catalytic effect of metallic oxides preheated 
+at 500℃ on elimination of NO
+　　图2为500℃下，反应混合气800mL/m3 NO-0.2%CO-2%CO2-N2流经各氧化物试样层时反应管出口NO浓度随时间的变化曲线。各氧化物试样所对应的NO浓度变化曲线均呈相同的趋势,初始阶段出口NO浓度不断降低，直至达到稳定的最低值。NO的还原率 (RR) 由下式计算：
+
+式中：(NO)入口和(NO)出口分别为反应管入口与出口气体中NO的浓度。
+　　将出口NO浓度达到稳定值时对应的NO还原率定义为NO的稳定还原率(SRR) ，并用SRR表征各氧化物试样对NO去除反应的催化活性。根据图2，各氧化物试样对应的SRR值计算为: Al2O3 2.5%、Cu2O 12.5%、MnO2 11.3%、Cr2O3 83.1%、V2O5 37.0%、Fe2O3 100.0%、CuO 97.5%和Ni2O3 98.1%。由此可看出，各金属氧化物试样对NO的去除均有不同程度的催化作用。其中CuO、Cr2O3、Fe2O3、Ni2O3等的催化作用非常显著。按NO的稳定转化率，500℃下各氧化物对NO的去除反应的催化活性由高而低的顺序：Fe2O3 > Ni2O3 > CuO >Cr2O3 > V2O5 >Cu2O > MnO2。
+　　部分金属氧化物试样在800℃下的试验结果如图3所示，各氧化物的SRR值分别为： Al2O3 3.0%、Cu2O 93.8%、Cr2O3 99.6%、Fe2O3 96.3%、CuO 95.0%和Ni2O3 99.9%。与500℃(图2)相比可见，温度对氧化物催化活性影响较大，Cu2O、Cr2O3、Ni2O3的活性增加，而CuO、Fe2O3的活性则有所降低。通常温度的增高，表面反应速度常数增大，反应速度加快，然而当吸附成为反应的限制环节时，温度的增加反应物气体分子在氧化物表面吸附变得困难，反应速度则要降低。
+
+图3　800℃下各氧化物试样对NO去除反应的催化作用
+Fig.3　Catalytic effect of metallic oxides preheated
+at 800℃ on elimination of NO
+2.2　讨论
+　　金属氧化物存在条件下，NO-CO-CO2-N2体系中的反应非常复杂，对此作者综合各个可能的环节，反应体系中金属氧化物对NO去除反应的可能作用有：NO/CO单相反应、低价氧化物对NO的还原作用、氧化物表面上NO的催化分解及氧化物表面上NO/CO的催化反应等。
+　　反应管内不加入任何金属氧化物试样，反应混合气800mL/m3NO-0.2%CO-2%CO2-N2流经加热至不同温度的Al2O3球层时进行气相直接反应。不同温度下，反应管出口排气中NO浓度的稳定值如图4所示。由图4可见，Al2O3床层中各温度下CO直接还原NO的能力非常小，最大的NO还原率(计算式见公式1)仅有3.0%，这与此前的研究结果〔2,5〕相吻合，这表明体系中NO/CO气相直接反应虽然存在，但并不重要。
+
+图4　NO/CO气相直接反应对NO去除的能力
+Fig.4　Capacity of homogeneous reaction of NO/CO 
+for NO elimination
+　　由于体系中CO的存在，使高温下金属氧化物可以被CO还原为低价氧化物，从热力学上分析，低价金属氧化物还原NO也是可能的〔5〕。
+
+图5　800℃下预还原氧化物试样对NO的还原作用
+Fig.5　Effect of pre-reduced metallic oxides on reduction of NO 
+　　为了考察低价氧化物对NO还原作用的大小，本研究将部分金属氧化物试样（CuO、Cu2O、Cr2O3、Fe2O3、和Ni2O3）在0.2%CO-2%CO2-N2气氛中预先还原20min，然后切换为800mL/m3NO-N2混合气，考察还原产物对NO的还原作用。800℃下的结果如图5所示。各氧化物的还原产物对NO均有一定的去除作用。其中CuO、Cu2O、Cr2O3、Fe2O3试样的还原产物对应的出口NO浓度曲线具有相似的特点，即随着时间增加出口浓度不断增大。可以解释为随着表面低价氧化物被NO逐渐氧化为高价氧化物，它们对NO的还原作用逐渐减弱。值得注意的是Ni2O3试样的还原产物对应的NO浓度曲线与上述其它氧化物试样有截然不同的特点，随着时间的增加，出口NO浓度非但未增大，反而呈逐渐降低的趋势，50s后降至一个稳定的最低值 ( SRR高达95％ )，这一结果难以用低价氧化物对NO的还原作用来解释，可以认为Ni2O3的预还原试样不仅对NO具有还原作用，而且对NO的直接分解还起着极强的催化作用。
+
+图6　500℃下部分氧化物试样对NO分解反应的催化作用
+Fig.6　Catalytic effect of several metallic oxides
+at 500℃ on decomposion of NO
+　　 近来的研究〔7〕表明一些金属氧化物对NO的直接分解具有一定的催化作用。作者选择了Fe2O3、Ni2O3和Cr2O3氧化物试样研究对NO直接分解反应的催化作用。图6为500℃下800mL/m3NO-N2混合气流经各氧化物试样层，NO的还原率（RR）随时间的变化曲线。由图6可见，各氧化物对NO直接分解均有一定的催化作用，只是Fe2O3和Cr2O3试样对NO分解的催化活性随时间的增加而降低，而Ni2O3试样对NO分解的催化活性在实验时间内一直呈持续升高的趋势。由上述分析可见，NO-CO-CO2-N2体系中金属氧化物以对NO/CO反应的催化作用为主。
+3　结论
+3.1　所有金属氧化物试样对NO的去除反应均具不同程度的催化作用。按NO的稳定还原率大小，500℃下各氧化物的催化活性由高至低的顺序为：Fe2O3 > Ni2O3 > CuO > Cr2O3 > V2O5 > Cu2O > MnO2。
+3.2　温度对氧化物试样的催化活性影响较大，与500℃相比，800℃下Ni2O3、Cr2O3、Cu2O的催化活性增加，而CuO、Fe2O3的催化活性降低。 
+3.3　镍的氧化物对NO的直接分解反应具有独特的催化作用。
+参考文献
+1　佐佐木晃，齐藤健志，町岛良一等.烧结过程のNOxの生成と燃料中室素浓度烧结条件の影响.川崎制铁技报，1978，10(4)：298～307
+2　肥田行博，佐佐木捻，伊藤薰.コ—ケスの燃烧におけるCO,NOガス生成要因の检讨.铁と钢, 1981， 67 (16)：2625～2634
+3　葛西荣辉，吴胜利，杉山健等.充填层内におけるコ—ケス拟似粒子の燃烧速度および发生举动.铁と钢，1992，78(7)： 1005～1012
+4　Eiki Kasai，Wu Shengli，et al. Emission of nitric monoxide during combustion of coke granules in packed beds.3rd world conference on experimental heat transfer , fluid mechanics and thermodynamics.Honolulu.USA，1993：83～ 91
+5　吴胜利，杉山健，森冈耕一等.コ—ケスの燃烧により发生するNOガスの铁矿石烧结ベツド内除去反应.铁と钢，1994，80(4)： 276～ 281
+6　森田义郎，高安正躬.NOxの接触还原.燃料协会志，1973，52 ：762～767
+7　Ogata A，Cbuchi K M，Ohi A，et al. Active sites and redox properties of supported palladium catalysts for nitric oxide direct decomposition.J Catal. ，1993，144 ：452 ～ 459
+作者简介
+徐春保　男，1971年9月出生。北京科技大学博士研究生。主要从事低NOx燃烧、燃烧尾气NOx净化用催化剂及燃煤过程中同时抑制污染物NOx及SO2生成新技术研究。发表论文10篇。
+致谢　感谢北京科技大学炼铁实验室高级实验师许满兴先生对本实验研究的帮助。硕士研究生寿秋爽、李敏和邓勇参加了部分实验工作，在此一并致谢
+收稿日期：1997-07-06

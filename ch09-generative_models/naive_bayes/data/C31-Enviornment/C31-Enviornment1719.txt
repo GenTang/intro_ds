@@ -1,0 +1,39 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.31-33,40
+
+
+
+
+煤灰预处理-好氧生物技术处理有机废水的研究
+李武　 董有　 夏文林　 
+摘　要：介绍了煤灰预处理-好氧生物技术对有机废水的处理研究。结果表明，当有机废水中CODCr为1162mg/L，SS为382mg/L时，该技术对有机废水CODCr的去除率达96.9%，悬浮物的去除率达91.5%，处理废水的运行费用为0.22元/t。
+关键词：煤灰；　好氧生物处理；　生物流化床；　有机废水
+分类号：X703　文献标识码：A
+文章编号：1001-6929(2001)01-0031-03
+The study of the Organic Wastewater Treatment Using Coal Ash Pre-Treatment and Aerobic Biological Technology
+LI Wu（Wuhan Environmental Protection Research Academy,Ministry of Metallurgical Industry and State Environmental Protection Administration,　Wuhan 430081,China）　
+DONG You（Wuhan Environmental Protection Research Academy,Ministry of Metallurgical Industry and State Environmental Protection Administration,　Wuhan 430081,China）　
+XIA Wen-lin（Wuhan Environmental Protection Research Academy,Ministry of Metallurgical Industry and State Environmental Protection Administration,　Wuhan 430081,China）　
+Abstract：This paper introduces the study of the organic wastewater treatment using coal ash pretreatment and aerobic biological technology.The results show that using the technology,the removal ratio of CODCr of organic wastewater is 96.9%,the removal ratio of SS is 91.5%，and the running fee is 0.22 yuan per ton wastewater,when the draining organic wastewater CODCr and SS concentration is 1162 mg/L and 382 mg/L respectively.
+Keywords：coal ash;　aerobic biological treatment;　biological fluidized bed;　organic wastewater
+作者简介：李武(1965-)，男，湖北武汉市人，高级工程师. 
+作者单位：李武（冶金工业部　国家环保总局　武汉环境保护研究院，湖北 武汉　430081）　
+　　　　　董有（冶金工业部　国家环保总局　武汉环境保护研究院，湖北 武汉　430081）　
+　　　　　夏文林（冶金工业部　国家环保总局　武汉环境保护研究院，湖北 武汉　430081）　
+参考文献：
+［1］董保澍.固体废物的处理与利用［M］.北京：冶金工业出版社，1988.42～43.
+［2］高荫阁.给水排水新技术［M］.天津：中国华北市政设计院，1988.28～31.
+［3］Weber W J.Biological fluidized bed for BOD and nitrogen removal［J］.Journal WPCF,1978,50(4):718～728.
+［4］Theodore C Stathis.Fluidized bed biological wastewater treatment［J］.Journal of Energy Engineering,1980,106(EEI):227～241.
+［5］David K.Dynamic model of nitrification in fluidized bed［J］.Environ Eng,1989,115(5):910～929.
+［6］辛亮明.用三相生物流化床处理炼油废水［J］.化工环保，1986，6(4)：194～199.
+［7］沈永明.生物粒子流化床处理工艺及其研究进展［J］.环境科学丛刊，1980，10：22～35.
+［8］汪群慧.污水生物处理技术进展［J］.工业水处理，1990，10(3)：3～6.
+［9］邵林.流化床处理抗生素制药废水［J］.上海环境科学，1987，6(9)：61～64.
+［10］周平，钱易.内循环三相生物流化床反应器的相含率及氧传递特性研究［J］.环境科学学报，1996，16(2)：211～215.
+［11］Heijnen J J.Development and scale-up an aerobic biofilm air-lift suspension reactor［J］.Water Sci Technol,1993,27:253～261.
+［12］Etzensperger M.Phenol degradation in a three-pHase biofilm fluidized Sand bed reactor［J］.Bioprocess Engineering,1989,4(4):175～181.
+［13］顾夏声，李献文.水处理微生物学基础［M］.北京：中国建筑工业出版社，1979.35～36.
+收稿日期：1999年5月15日
+出版日期：2001年1月30日

@@ -1,0 +1,51 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.62-64
+
+
+
+
+常见农药降解微生物研究进展及展望
+郑金来　 李君文　 晁福寰　 
+摘　要：农药是一类重要的环境污染物，已经造成了严重的全球性环境污染，笔者综述了降解常见农药的微生物及其机理，并指出分子生物学技术将是治理农药污染的一个有效手段。
+关键词：农药；　微生物；　高效降解
+分类号：X172　文献标识码：A
+文章编号：1001-6929(2001)02-0062-03
+Advance and Prospect of Microorganism Degrading Common Pesticide
+ZHENG Jin-lai（Institute of Hygiene and Environmental Medicine, Academy of Military Medical Science, Tianjin　300050, China）　
+LI Jun-wen（Institute of Hygiene and Environmental Medicine, Academy of Military Medical Science, Tianjin　300050, China）　
+CHAO Fu-huan（Institute of Hygiene and Environmental Medicine, Academy of Military Medical Science, Tianjin　300050, China）　
+
+Abstract：Pesticide is a kind of important environmental pollutants and has led to serious global environmental pollution. This paper reviewed the microorganisms capable of degrading common pesticides and their mechanisms. Molecular biotechnology is suggested to be an important means to treat pesticide pollution.
+Keywords：pesticide;　microorganism;　highly effective degradation
+作者简介：郑金来(1973-)，男，山东泰安市人，助理研究员，博士. 
+作者单位：郑金来（军事医学科学院 卫生学环境医学研究所，　天津　300050）　
+　　　　　李君文（军事医学科学院 卫生学环境医学研究所，　天津　300050）　
+　　　　　晁福寰（军事医学科学院 卫生学环境医学研究所，　天津　300050）　
+
+参考文献：
+［1］　李叔彬，周仁超，刘玉焕，等.曲霉M-2降解有机磷农药(甲胺磷)的研究[J].微生物学通报，1999，26(1)：27～30.
+［2］　Wenk M,Baumgartner T,Dobovsek J,et al.Rapid atrazine mineralisation in soil slurry and moist soil by inoculation of an atrazine-degrading Pseudomonas sp.Strain[J].Appl Microbiol Biotechnol,1998,49:5,624～630.
+［3］　Gebendinger N,Radosevich M.Inhibition of atrazine degradation by cyanazine and exogenous nitrogen in bacterial isolate M91-3[J].Appl Microbiol Biotechnol,1999,51(3):375～381.
+［4］　虞云龙，陈鹤鑫，樊德方，等.一硫代磷酸酯杀虫剂的酶促降解[J].环境科学，1998，19(2)：58～69.
+［5］　Erstfeld K　M.Environmental fate of synthetic pyrethroids during spray drift and field runoff treatments in aquatic microcosms[J].Chemosphere,1999,39(10):1737～1769.
+［6］　Michel F C,Reddy C A,Forney LJ.Microbial degradation an d humification of the lawn care pesticide 2,4-dichlorophenoxyacetic acid during the composting of yard trimmings[J].Appl Environ Microbiol,1995,61(7):2566～2571.
+［7］　Gisi D,Stucki G,Hanselmann K　W.Biodegradation of the pesticide 4,6-dinitro-ortho-cresol by microorganisms in batch cultures and in fixed-bed column reactors[J].Appl Microbiol Biotechnol,1997,48(4):441～448.
+［8］　Kale S　P,Murthy NB,Raghu K,et al.Studies on degradation of 14C-DDT in the marine environment[J].Chemosphere,1999,39(6):959～968.
+［9］　Shah M　M,Barr D　P,Chung N,et al.Use of white rot fungi in the degradation of environmental chemicals[J].Toxicol Lett,1992,64-65:493～501.
+［10］　Syvanen M,Zhou Z,Wharton J,et al.Heterogeneity of the glutathione transferase genes encoding enzymes responsible for insecticide degradation in the housefly[J].J Mol Evol,1996,43(3):236～240.
+［11］　Attaway H,Nelson J　O,Baya AM,et al.Bacterial detoxification of diisopropyl fluorophosphate[J].Appl Environ Microbiol,1987,53(7):1685～1689.
+［12］　Kaneva,I,Mulchandani A,Chen W,Factors influencing parathion degradation by recombinant Escherichia coli with suface-expressed organophosphorus hydrolase[J].Biotechnol Prog,1998,14(2):275～278.
+［13］　Monserrate E,Hgblom M　M.Dehalogenation and biodegradation of brominated phenols and benzoic acids under iron-reducing,sulfidogenic,and methanogenic conditions[J].Appl Environ Microbiol,1997，63(10):3911～3915.
+［14］　Or M　I,Marco E.Disappearance of trichlorfon from cultures with different cvanobacteria[J].Bull Environ Contam Toxicol,1991,47(3):392～397.
+［15］　Moriya F,Hashimoto Y,Kuo T　L.Pitfalls when determining tissue distributions of organophosphorus chemicals:sodium fluoride accelerates chemical degradation[J].J Anal Toxicol,1999,23(3):210～215.
+［16］　Carter F　L,Stringer C　A.Residues and degradation products of technical heptachlor in various soil types[J].J Econ Entomol,1970,63(2):625～628.
+［17］　Fischer K,Norman S,Freitag D.Studies of the behaviour and fate of the polymer-additives octadecyl-3-(3，5-di-t-butyl-4-hydroxyphenyl)propionate and tri-(2，4-di-t-butylphenyl)phosphite in the environment[J].Chemosphere,1999,39(4):611～625.
+［18］　Beit I　O,Wheelock J　V,Cotton D　E.Factors affecting soil residues of dieldrim,endosulfan,gamma-HCH,dimethoate,and pyrolan[J].Ecotoxicol Environ Saf,1981,5(2):125～160.
+［19］　Kennedy D　W,Aust S　D,Bumpus J　A.Comparative biodegradation of alkyl halide insecticides by the white rot fungus,Phanerochaete chrysosporium (BKM-F-1767)[J].Appl Environ Microbiol,1990,56(8):2347～2353.
+［20］　程国锋，李顺鹏，沈标，等.微 生物降解蔬菜残留农药研究[J].应用与环境生物学报，1998，4(1)：81～84.
+［21］　王保军，刘志培，杨惠芳.单甲脒农药的微生物降解代谢研究[J].环境科学学报，1998，18(3)：296～302.
+［22］　Stemmer W P.Rapid evolution of a protein in vitro by DNA shuffling[J].Nature,1994,370(4):389～391.
+
+收稿日期：2000年5月9日
+出版日期：2001年3月30日

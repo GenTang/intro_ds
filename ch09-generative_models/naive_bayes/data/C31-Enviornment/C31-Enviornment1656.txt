@@ -1,0 +1,92 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+不同菌源的微生物对邻苯二甲酸二异丁酯(DIBP)生物降解性的比较
+曾 锋　傅家谟　盛国英　杨惠芳
+摘要：为有效地解决邻苯二甲酸酯类化合物的环境污染问题.从处理石化厂废水的活性污泥中分离出1株邻苯二甲酸酯降解菌FS1和处理焦化厂废水的活性污泥中分离出2株邻苯二甲酸酯降解菌FS2、FS3.研究了邻苯二甲酸酯降解菌FS1、FS2、FS3对邻苯二甲酸二异丁酯的最适降解条件,并比较其降解特性.邻苯二甲酸酯降解菌FS1、FS2、FS3最适酸度分别为pH 6.5～ 8.0、7.0～ 8.0和7.0～ 8.0;温度为20～ 35℃、15～ 35℃和15～ 35℃.邻苯二甲酸酯降解菌FS1、FS2、FS3对邻苯二甲酸二异丁酯的降解反应符合一级动力学特征,其半寿期：FS1 < FS2 < FS3.邻苯二甲酸酯降解菌FS1是一株高效的邻苯二甲酸二异丁酯降解菌.
+关键词：邻苯二甲酸二异丁酯；微生物；生物降解；降解动力学
+中图分类号：X172 文献标识码：A 文章编号：1000- 6923(1999)04- 0322- 04
+The comparative study of biodegradability of diisobutyl phthalate (DIBP) by microorganisms from different bacteria sources. 
+ZENG Feng1,FU Jia-mo1,SHENG Guo-ying1,YANG Hui-fang2 (1.State Key Laboratory of Organic Geochemistry,Guangdong Key Laboratory of Environmental Protection and Resources Utilization,Guangzhou Institute of Geochemistry,Chinese Academy Sciences,Guangzhou 510640,China；2.Institute of Microbiology, Chinese Academy Sciences,Beijing 100080,China). China Environmental Science.1999,19(4)：322～ 324
+Abstract：The microbial degradation characteristics of diisobutyl phthalate (DIBP) were investigated by strains FS1,FS2 and FS3 isolated from the activated sludge at a petrochemical factory and pyrochemical factory. The optimum pH values of the strains FS1,FS2,FS3 for degrading DIBP are 6.5～ 8.0,7.0～ 8.0 and 7.0～ 8.0 ;the temperatures are 20～ 35℃,15～ 35℃and 15～ 35℃ respectively.The degradation of DIBP by the strains FS1,FS2,FS3 can be described by the first–order reaction model . Primary biodegradation half-lives of DIBP are FS1 < FS2 < FS3 .The experimental results demonstrate that the strain FS1 has strong ability of degrading DIBP . 
+Key words：DIBP ；microorganismiodegradation；degradation kinetics
+　　邻苯二甲酸酯是一类普遍使用的化学工业品[1].由于其大量生产和广泛应用,邻苯二甲酸酯类化合物已成为日益严重的环境问题,而引起世界各国的特别关注[2].邻苯二甲酸酯类有机污染物在土壤、沉积物、废水中的生物降解性研究已有报道[3-7].为有效地处理邻苯二甲酸酯类化合物的环境污染问题,提高邻苯二甲酸酯类有机污染物的生物降解效率.本试验从处理石化厂废水的活性污泥中分离出1株邻苯二甲酸酯降解菌FS1及处理焦化厂废水的活性污泥中分离出2株邻苯二甲酸酯降解菌FS2、FS3.研究了邻苯二甲酸酯降解菌FS1、FS2、FS3对DIBP的最适降解条件,并比较了其降解特性.
+1 材料与方法
+1.1 培养基
+　　K2HPO4。3H2O 1g/L,NaCl 1g/L,NH4NO3 0.5 g/L,MgSO4H20  147H2O 0.4g/L,CaCl2H20 215 142H2O 0.1g/L,FeCl3 0.01g/L,pH 7 , 121℃湿热灭菌30min.DIBP.
+1.2 菌种
+　　分别取处理石化厂废水的活性污泥、焦化厂废水的活性污泥于含60 mg/L邻苯二甲酸酯(邻苯二甲酸二甲酯、邻苯二甲酸二乙酯、邻苯二甲酸二丁酯、邻苯二甲酸二异丁酯、邻苯二甲酸二正辛酯、邻苯二甲酸二(乙基己基)酯各为10 mg/L)的无机盐培养液中,30℃下振荡培养7天,逐步转接至120、240、360symbol 126 s 10.51200 mg/L邻苯二甲酸酯的无机盐培养液后,平板划线纯化,从处理石化厂废水的活性污泥中获得1株邻苯二甲酸酯降解菌FS1和处理焦化厂废水的活性污泥中获得2株邻苯二甲酸酯降解菌FS2、FS3.
+1.3 生物降解试验
+　　取菌株一环于100mL活化富集培养基中(3g/L牛肉膏、5g/L蛋白胨、NaCl 5g/L、pH 7,121℃湿热灭菌30 min)振荡培养12～24h,离心分离(10000r/min)5 min,收集菌体,用pH 7、0.02 mol/L的Na2HPO4-NaH2PO4 缓冲液洗涤3 次,再用0.02mol/L Na2HPO4-NaH2PO4缓冲液将菌体配成pH值为7 的菌悬液.
+　　吸取1mL 20%的菌悬液于含100mg/L DIBP的50mL无机盐培养液中,30℃振荡培养,并用不加菌体的培养液进行对照试验.
+1.4 分析方法
+1.4.1 样品处理 于试样瓶中加入20mL二氯甲烷,振荡萃取10min,收集有机相.水相再用20mL二氯甲烷萃取3 次,合并有机相,无水Na2SO4 干燥,浓缩至5mL.用HP6890型气相色谱仪测定DIBP的含量.
+1.4.2 HP6890型气相色谱仪条件 HP5柱(30m×320symbol 109  10.5m×0.25symbol 109   10.5m),柱温从60℃(以35℃ /min的速率)升到230℃;FID检测器,温度300℃;进样口温度260℃,进样量1symbol 109  10.5L .
+2 结果与讨论
+2.1 菌株FS1、FS2、FS3对DIBP的最适降解条件
+　　测定在不同pH值、温度、菌种量、振荡速率等条件下,菌株FS1、FS2、FS3对DIBP降解的影响.菌株FS1、FS2、FS3对DIBP的最适降解条件见表1.
+表1 菌株FS1、FS2、FS3对DIBP的最适降解条件
+Table 1 The optimum conditions of DIBP biodegradation by the strains FS1,FS2,FS3
+菌株pH值温度
+(℃)菌种量
+(%)振荡速率
+(r/min)
+FS16.5～8.020～350.02～4.560～135
+FS27.0～8.015～350.02～4.560～135
+FS37.0～8.015～350.02～4.560～135
+
+2.2 菌株FS1、FS2、FS3对DIBP降解反应的动力学分析
+　　试验在pH值 7.5,菌种量为0.4%(w/v)和100r/min速率条件下,考察菌株FS1、FS2、FS3对初始浓度为25、50、100、150、200、300mg/L的DIBP降解率,结果见图1.
+
+图1 菌株FS1、FS2、FS3对不同浓度DIBP的降解率(30℃)
+Fig.1 DIBP biodegradation of different concentrations by the strain FS1,FS2,FS3 (30℃)
+　　假设菌株FS1、FS2、FS3对DIBP的生物降解遵循一级反应动力学方程, 即:
+lnC = － k t + A 
+(1)
+式中:k为DIBP降解速率的动力学常数;C为DIBP的浓度;t为DIBP的生物降解时间, A为常数.
+根据图1结果可得表2的动力学方程. 
+表2 菌株FS1、FS2、FS3对DIBP的生物降解反应
+动力学方程
+Table 2 Kinetic equations of DIBP biodegradation by the strains FS1,FS2,FS3
+菌株DIBP浓度
+(mg/L)动力学方程半寿期t1/2(h)相关系数r
+FS125lnC=－0462t + 3.2215.000.9452
+50lnC=－0460t + 3.91 15.060.9374
+100lnC=－0459t + 4.6115.100.9337
+150lnC=－0436t + 5.0115.890.9416
+200lnC=－0368t + 5.3018.830.9268
+300lnC=－0298t + 5.7023.250.9365
+FS225lnC=－0260t + 3.2226.650.9522
+50lnC=-0.0260t + 3.9126.650.9617
+100lnC=－0256t + 4.6127.070.9738
+150lnC=－0254t + 5.0127.280.9455
+200lnC=－0232t + 5.3029.900.9672
+300lnC=－0206t + 5.7033.640.9463
+FS325lnC=－0206t + 3.2233.640.9814
+50lnC=－0204t + 3.9133.970.9627
+100lnC=－0202t + 4.6134.310.9426
+150lnC=－0203t + 5.0134.130.9611
+200lnC=－0192t + 5.3036.090.9573
+300lnC=－0180t + 5.7038.500.9518
+
+　　由表2可知,菌株FS1、FS2、FS3对DIBP的生物降解反应符合一级动力学特征,其半寿期t1/2:FS1 < FS2 < FS3.菌株FS1对DIBP具有高效的降解作用,是一株高效的DIBP降解菌[1].对于菌株FS1、FS2,当DIBP的初始浓度大于150 mg/L时,降解速率常数k 值随初始的DIBP浓度增加而降低,说明高浓度DIBP对其降解有抑制作用,且随DIBP初始浓度增加而增加.而菌株FS3对DIBP生物降解浓度具有较大的适宜范围.
+3 结论
+3.1 从处理石化厂废水的活性污泥中分离的邻苯二甲酸酯降解菌FS1和处理焦化厂废水的活性污泥中分离的邻苯二甲酸酯降解菌FS2、FS3均能以DIBP作为唯一碳源和能源生长.菌株FS1降解最适酸度pH值为6.5～8.0,温度为20～35℃;菌株FS2、FS3降解最适酸度为pH值7.0～8.0,温度为15～35℃ .菌种量、振荡速率对DIBP的降解有一定的影响.
+3.2 菌株FS1、FS2、FS3对DIBP的生物降解反应符合一级动力学特征,其半寿期t1/2:FS1 < FS2 < FS3.菌株FS1是一株高效的DIBP降解菌.对于菌株FS1和FS2,当DIBP的初始浓度大于150 mg/L时,降解速率常数k值随初始的DIBP浓度增加而降低.菌株FS3对DIBP的生物降解浓度具有较大的适宜范围.
+基金项目：国家自然科学重点基金资助项目(49632060);广东省自然科学重点基金资助项目(963043)
+作者简介：曾 锋(1964-),男,广东河源人,讲师,中国科学院广州地球化学研究所有机地球化学国家重点实验室和广东省环境资源利用与保护重点实验室博士研究生,主要从事环境分析化学、环境微生物学的研究.主持完成江西省青年科学基金项目的研究工作.发表论文28篇.
+作者单位：曾 锋　傅家谟　盛国英　中国科学院广州地球化学研究所有机地球化学国家重点实验室和广东省环境资源利用与保护重点实验室 ,广东 广州 510640；
+杨惠芳　中国科学院微生物研究所,北京 100080)
+参考文献
+[1]Charles A S,Peterson D R, Parkerton T F, et al.The environmental fate of phthalate esters:a literature review [J].Chemosphere, 1997, 35(4): 667symbol 45  7.5749.
+[2]叶常明. 环境中的邻苯二甲酸酯 [J]. 环境科学进展,1993,1(2): 36symbol 45  7.547.
+[3]陈英旭,沈东升,胡志强等. 酞酸酯类有机毒物在土壤中降解规律的研究 [J] . 环境科学学报,1997,17(3):340symbol 45  7.5345.
+[4]Scheunert I D,Vocjel D,Schmitzer J, et al. Biomineralization rates of 14C-labelled organic chemicals in aerobic and anaerobic suspended soil [J] . Chemosphere,1987,16(5):1031symbol 45  7.51041.
+[5]O'Grady D P,Howard P H,Werner A F. Activated sludge biodegradation of 12 commercial phthalate esters [J]. Appl.Environ.Microbiol., 1985,49(2):443symbol 45  7.5445.
+[6]Yan H,Ye C G,Ye C Q. Kinetics of phthalate ester biodegradation by Chlorella pyrenoidsa [J].Environ.Toxicol.Chem.,1995,14(6):931symbol 45  7.5938.
+[7]Chauret C, Inniss W E,Mayfield C I. Biotransformation at 10℃ of di-n-butyl phthalate in subsurface microcosms [J]. Ground Water, 1996, 34(5):791symbol 45  7.5794.
+
+收稿日期：1998-12-21

@@ -1,0 +1,43 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.29-32
+
+
+
+
+偶氮染料生产废水的处理工艺技术研究
+李庄　 曾光明　 高兴斋　 
+摘　要：偶氮染料废水具有高CODCr、高色度、有机物成分复杂等特点。根据清污分流的原则，确定处理工艺方案为：首先对高浓度偶氮染料工艺废水采用中和—电解—臭氧氧化进行预处理后，再与低浓度废水按比例混合混凝处理。经大量工艺实验确定全流程工艺条件为：废水pH中性、电解电压10V、电流密度0.018A/cm2、电解时间2h,O3氧化时间为2h，混凝剂环保1#和3#浓度各为250mg/L。CODCr、色度的去除率分别可以达到99.6%，99.9%。可以达标排放。
+关键词：偶氮染料；废水处理；电解；O3氧化；混凝
+分类号：X788　文献标识码：A
+文章编号：1001-6929(2001)03-0029-04
+Study on the Treatment Process Technique of Wastewater from Azo Dye Production
+LI Zhuang（Department of Environment Engineering and Sciences of Hunan University, Changsha 410082, China）　
+ZENG Guang-ming（Department of Environment Engineering and Sciences of Hunan University, Changsha 410082, China）　
+GAO Xing-zhai（Institute of Environment Protection Science of Hunan Province, Changsha 410004, China）　
+
+Abstract：he wastewater of azo dye is characterized with high CODCr,high colority and complication of organic components. According to the characteristic of the wastewater, the high concentration wastewater of azo dye was firstly pre-treated by neutralization-electrolysis-ozonization process,then was compounded with low concentration wastewater in proportion,and treated by coagulating process.The whole process optimum conditions were determined as follows:pH of neutrality,10 V of electrolysis voltage,0.018 A/cm2 of electrical current density,2 h of ozonization, 250 mg/L of environment-protecting coagulant 1#,3#.The removal rates of CODCr and colority are 99.6% and 99.9% respectively. The effluent quality can reach requirements of wastewater discharge standards.
+Keywords：azo dye; wastewater treatment; electrolysis; ozonization; coagulant
+基金项目：湖南省科委科技项目
+作者简介：李庄(1968-)，女，新疆人，助理研究员，硕士研究生. 
+作者单位：李庄（湖南大学环境科学与工程系，湖南长沙 410082）　
+　　　　　曾光明（湖南大学环境科学与工程系，湖南长沙 410082）　
+　　　　　高兴斋（湖南省环境保护科学研究所，湖南长沙 410004）　
+
+参考文献：
+［1］刘华丽.印染废水的生物处理技术[J].环境科学与技术,1996,72(1)：42.
+［2］候毓汾,朱正华,王任之.染料化学[M].北京：化学工业出版社,1994.40.
+［3］李家珍.染料、染色工业废水处理[M].北京：化学工业出版社,1997.6.
+［4］戴树桂,宋文华,李彤,等.偶氮染料结构与其生物降解性关系研究进展[J].环境科学进展,1996,4(6)：1～9.
+［5］安虎仁,钱易,顾夏声,等.厌氧条件下染料的生物降解性能与染料废水处理的研究[J].化工环保,1994,14(4)：200～204.
+［6］陈延禧.电解工程[M].天津：科学出版社,1993.302,117,11.
+［7］西部庆一.反应性染料水溶液の电解法による脱色[J].电气化学,1980,48(4)：267～270.
+［8］中岛保夫.金属酸化物型电极による着色染料废液の电解脱色法の检讨[J].电气化学,1994,62(1)：1086～1088.
+［9］McClung S M,Lemley Ann T.Electrochemical treatment and HPLC analysis of wastewater containing acid dyes [J].Textile Chemist and Colorist,1994,26(8):17～22.
+［10］钱中坻,范秉宪,刘红雷,等.极谱法对酸性染料还原性的研究[J].染料工业,1993,30(5)：5～10.
+［11］冀滨弘.染料工业废水处理的现状与进展[J].污染防治技术,1998,11(4)：250～253.
+［12］胡文容,钱梦,高廷耀,等.超声强化臭氧氧化偶氮染料的脱色效能[J].中国给排水,1999,15(11)：1～4.
+［13］国家环保局.水和废水监测分析方法.北京：中国环境科学出版社,1989.
+
+收稿日期：2000年9月4日
+出版日期：2001年5月30日

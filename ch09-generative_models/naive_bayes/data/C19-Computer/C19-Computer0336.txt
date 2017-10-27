@@ -1,0 +1,102 @@
+计算机应用
+Computer Applications
+1999年 第19卷　第8期 Vol.19　No.8 1999
+
+
+
+VB实现所见即所得的报表打印一例
+高欣婷　潘书军
+　　摘　要　通过对利用VB实现报表打印的几种方法的概要分析，本文提供了一种VB环境下完全意义上的所见即所得打印功能的实现方法。
+　　关键词　Visual Basic,报表打印
+　　Visual Basic是一个可视性极强的面向事件及对象的编程工具，因其简单高效，易学易用而具有极其广泛的用户基础。利用VB实现所见即所得的功能，根据用户要求亦有多种实现方法。
+　　由于VB中的窗体及图像框皆可做为其他对象的容器，并且可将自身直接输出至打印机，所以一方面我们可以在窗体上加上一个图像框，利用图像框的Print 、Circle等方法，在图像框上实现用户报表的输出，然后再利用图像框的Paintpicture方法实现报表的打印；另一方面，我们可以将一个窗体设置为无边框无控制象标的样式，然后再利用其Print、Circle等方法在其上输出文字和简单的几何图形，亦可放上Label、Image等控件，引入文字或图像，还可利用VB的网格控件实现用户要求的报表，然后利用窗体的Printform方法实现所编辑报表至打印机的输出。
+　　但是由于图像框的显示及窗体的打印仅仅局限于屏幕显示范围内的内容，不能实现真正意义上的所见及所得的功能。对于图像框，我们必须结合水平和垂直滚动条，实现有限视区的超屏幕内容的浏览，其缺点是无法打印放置于其上的Label、Grid等对象；对于待打印窗体，我们必须设置一缩放因子，将窗体及其上的内容按照打印比例进行缩小后在屏幕上显示出来，其缺点是无法对待打印报表进行100%的全真预览。
+　　笔者在工作实践中，摸索出了一种方法，集中了以上所介绍的两种方法的优点，实现了完全意义上的所见及所得的功能，现介绍给广大读者，希望能对大家有所裨益。
+1　方法概述
+　　为了在屏幕上模拟打印效果，我们仍然利用VB的一个窗体模拟打印纸。但为了能让此窗体显示为打印纸的实际大小，我们还得在项目中加入一个父窗体，以之作为被打印窗体的容器。将被打印窗体设为子窗体，其大小设为打印纸大小，这样即可利用父窗体的水平和垂直滚动条实现待打印对象的100%的预览。具体步骤为：
+　　新建一项目，在其中插入一父窗体;
+　　将子窗体设为无边框无控制象标的形式，从Windows打印管理器中取得打印纸的大小，并将此尺寸设为子窗体的尺寸；
+　　在模拟纸张上，使用print 、circle、 line等方法输出文字和图形，亦可利用图形框、图像框、网格控制及统计图表等，生成符合用户要求的报表；
+　　利用printform方法将生成的报表输出至打印机。
+2　程序实现
+　　下面以实现以下报表为例，讲述程序的具体编制。
+雇员情况一览表　1998.12.21
+
+员工编号姓名性别出生年月职称工龄
+
+制表人：　
+　　新建一项目并在项目中插入一父窗体Mdiform1，在Form1上加入一个网格及三个标签，按照下表设置各对象的属性。
+
+对　象NameCaption
+Mdiform1mdifrm报表打印
+Form1frmprint　
+Grddispgrddisp　
+Label1lblheading雇员情况一览表
+Label2lbldata　
+Label3lblsigne制表人：
+
+　　此外，将frmprint的Borderstyle设为None、Controlbox 设为False、caption设为空、 Mdichild设为True；将mdifrm的Windowstate设为Maximized。附源程序如下：
+Private Sub MDIForm—Load()
+frmprint.Show
+End Sub
+
+Private Sub Form—DblClick()
+frmprint.PrintForm
+Unload frmprint
+End Sub
+
+Private Sub Form—Load()
+
+Rem变量high、leftsize、jiange用以定位
+Dim high, leftsize, jiange,i As Integer,j As Integer
+Dim grdhigh As Integer, grdwide As Integer
+′分别表示网格的高、宽
+jiange = 100：high = 0： grdhigh = 0： grdwide = 0
+
+Rem 确定网格的大小
+Grddisp.Cols = 6： Grddisp.Rows = 7
+
+Rem设置窗体大小为打印纸宽度
+frmprint.Width = Printer.Width：
+frmprint.Height = Printer.Height
+frmprint.Left = 0：frmprint.Top = 0
+
+lblheading.FontSize = 16： lblheading.FontBold = -1
+lblheading.Top = 500
+lblheading.Left = (frmprint.ScaleWidth
+- TextWidth(lblheading.Caption))/2
+high = lblheading.Top + TextHeight(lblheading.Caption)
+
+lbldata.Top = high + jiange
+lbldata.Caption = Format(Now, "yyyy.mm.dd")
+high = lbldata.Top + TextHeight(lbldata.Caption)
+
+…
+′在此进行行高、列宽以及对齐方式等项的设置
+For i = 0 To Grddisp.Cols - 1
+grdwide = grdwide + Grddisp.ColWidth(i)
++ Screen.TwipsPerPixelX
+Next i
+For i = 0 To Grddisp.Rows - 1
+grdhigh = grdhigh + Grddisp.RowHeight(i)
++ Screen.TwipsPerPixelY
+Next i
+grdwide = grdwide + Screen.TwipsPerPixelX
+grdhigh = grdhigh + Screen.TwipsPerPixelY
+Grddisp.Width = grdwide：Grddisp.Height = grdhigh
+Grddisp.Top = high + jiange * 3
+Grddisp.Left=(frmprint.ScaleWidth-Grddisp.Width)/2
+lbldata.Left=frmprint.ScaleWidth/2+Grddisp.Width/2
+-TextWidth(lbldata.Caption) - 450
+high = high + Grddisp.Height + jiange
+
+…
+′在此进行字体、字号设置及网格内容的填充
+lblsign.top=high+jiange
+lblsign.Left = frmprint.ScaleWidth / 2 + Grddisp.Width / 2 - TextWidth(lblsign.Caption) - 450
+
+End Sub
+　　本文程序在简体中文Windows 3.2、Windows 9x下调试通过。所用VB版本为：Visual Basic 4.0-32专业版。　　　
+作者简介：高欣婷　助理工程师。从事数字存储示波器等的计量检定工作。　潘书军　助理工程 　　　　　　从事热电偶的计量检定及开发工作。
+作者单位：高欣婷　潘书军　长城计量测试技术研究所　北京(100095）
+收稿日期:1999-02-04

@@ -1,0 +1,70 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年 第2期　No.2 1999
+
+
+
+带空间机械臂的充液航天器姿态动力学研究
+李俊峰　王照林
+　　摘　要　本文研究空间机械臂运动对充液航天器姿态的影响,讨论了利用机械臂调整充液航天器姿态问题、以及机械臂操作与航天器姿态稳定的协调问题。研究表明:影响充液航天器姿态的因素除了机械臂运动的路径,还有机械臂运动的时间、机械臂转角的变化规律、液体的粘性、质量和惯性张量等。其中机械臂运动时间的影响比较明显,而且机械臂运动得越慢对航天器姿态的影响越大。合理地选择机械臂操作时间和机械臂转角变化规律,可以实现机械臂操作与航天器姿态稳定的协调。利用机械臂调整多刚体航天器姿态的算法,在必要的修正后可以用于充液航天器调姿。
+　　主题词　充液航天器　姿态动力学　空间机械臂
+STUDY ON ATTITUDE DYNAMICS OF A LIQUID-FILLED 
+SPACECRAFT WITH MANIPULATORS
+Li Junfeng Wang Zhaolin
+(Department of Engineering Mechanics,Tsinghua University.Beijing.100084)
+　　Abstract　In this paper the influence of motion of manipulators on attitude dynamics of a liquid-filled spacecraft is studied.The vehicle's attitude regulation and coordination of manipulator's motion with vehicle's attitude stability are discussed.Variations on which attitude of spacecraft dependents are time,law of motion of manipulators,liquid mass,liquid inertial tensor and damping coefficient besides paths of motion of manipulators.The control time of manipulators significantly influences on the attitude.When manipulators move slowly,its influence on attitude is more significant.Coordination of motion of manipulators with attitude stability can be realized by the right choice of control time and control law of manipulators.Revised algorithms of attitude regulation of rigid spacecraft using manipulator moving can be used for liquid-filled spacecraft.
+　　Key words　Liquid-filled spacecraft Attitude dynamics Space manipulator
+1　引　言
+　　在空间环境下,自由漂浮航天器的姿态不仅会由于各种外部扰动而改变,也会由于航天器的附件(如天线、太阳能帆板、机械臂等)相对航天器的运动而发生变化。航天器的姿态偏差可以用喷气或反作用飞轮来校正。
+　　近年来国内外一些文献［1-8］研究了利用空间机械臂调姿的方案,有些还讨论了无扰路径规划或最小扰动路径规划的方法［4,5,7,8］。这些研究忽略了航天器的柔性和充液,采用的是多刚体模型。本文研究由充液刚体和机械臂组成的航天器系统,讨论机械臂操作对充液航天器姿态的影响。研究表明,充液航天器的姿态不仅与机械臂运动的路径有关,还与机械臂操作的时间、机械臂转角的运动规律、液体的粘性、质量和惯性张量等有关。在影响充液航天器姿态的诸因素中,机械臂操作时间的影响比较明显。
+2　系统运动方程
+　　设航天器由充液中心刚体和机械臂构成。充液腔的形状假设为球形,腔内充满粘性液体,中心刚体的质心与液体质心重合。液体的运动由Navier-Stokes方程给出。根据［9,10］,设中心刚体对于质心C0的惯性张量为Θ,液体的均匀涡旋为Ω,液体等效刚体惯性张量为Θ*,固化液体的惯性张量为Θ′,等效线性组尼系数为μ(与液体粘性、刚体角速度及充液腔形状等有关,需要实验测量),令J0=Θ+Θ*,Jf=Θ′-Θ*,液体运动方程近似写成:
+　　　　　　Jf+ω0×JfΩ+μJfΩ=0　　　　　　　　　　　　　(1)
+设系统不受外力和外力矩,系统对质心的动量矩守恒。如果系统初始时刻动量矩为零,则
+　　　　　　　　　(2)
+式中m0为充液中心刚体的质量,ω0,r0为中心刚体的绝对角速度和质心向径,mi,ri,ωi和Ji(i=1,…,n)分别为第i个机械臂质量、质心向径、绝对角速度和对质心Ci的惯性张量。
+3　影响航天器姿态的因素
+　　考虑平面问题。设中心刚体和液体相对质心坐标系的转角为φ0和Φ,第一个机械臂相对中心刚体的转角为φ1,第i+1个机械臂相对第i个机械臂的转角为φi+1(i=1,…,n),则有。由方程(1)积分得到Ω=Ω(0)e-μt。由方程(2)得
+　　　　　　　　(3)
+其中Ii(i=1,…,n)为第i个机械臂绕质心Ci的转动惯量,I0和If为中心刚体和液体绕质心C0的转动惯量。容易证明,转动惯量Ii+mir2i(i=0,1,…,n)只是φ1,…,φn的函数,与Φ,φ0无关。
+将方程(3)写成积分形式
+　　　　　　φ0(t)-φ0(0)=Δ+Δf　　　　　　　　　　　　(4)
+式中　
+　　　
+对于非充液航天器,Δf=0;对于充液航天器,Δf≠0。研究［1-7］表明Δ的值依赖于积分路径的选择。如果机械臂在相对转角空间沿着封闭曲线运动一圈,Δ不等于零。根据这个性质,可以利用机械臂调整航天器的姿态。Δf与液体的质量、惯性张量、初始角速度和等效阻尼系统数有关,还依赖于机械臂操作时间和机械臂转角变化规律。需要特别指出,Δ只与积分路径有关,但与沿着这条路径运动的时间,以及φ1,…,φn沿着该路径的运动规律无关;而Δf既与积分路径有关,又与走过该路径的时间及方式有关。这是多刚体航天器和充液航天器的重要差别。总之,影响充液航天器姿态的主要因素有:1)机械臂转角φ1,…,φn的初始值和终点值,2)机械臂转角φ1,…φn从初始值到终点的路径,3)机械臂转角φ1,…φn从初始值到终点值所用的时间,4)机械臂转角φ1,…φn随着时间变化的规律,5)液体的质量,6)液体的惯性张量,7)等效线性阻尼系数,8)液体的初始角速度。其中3)-8)是充液航天器特有的。
+　　在航天器姿态动力学研究中,通常需要考虑充液和附件(如机械臂等)的柔性的影响,在某些条件下充液或柔性影响可以忽略。文献［1］指出,机械臂运动非常缓慢时,柔性可以忽略不计。那么在什么条件下充液的影响可以忽略?由Δf=-可以看出,在下面几种情况下可以忽略充液的影响:Ⅰ)当充液量足够小时,If/I0是高阶小量;Ⅱ)当Ω(0)足够小时;Ⅲ)当等效阻尼系数μ足够大时,Δf表达式中的积分值为高阶小量;Ⅳ)当机械臂操作时间足够短(运动非常快)时,Δf表达式中的积分值为高阶小量。一般来说,航天器的充液量和等效阻尼系数μ都是不能轻易改变的,Ω(0)和机械臂操作时间是可以控制的。机械臂操作时间将影响航天器力学模型的选择。如果机械臂操作时间很长,则不能忽略充液问题;如果机械臂操作时间很短,则不能忽略柔性问题。
+4　机械臂操作与充液航天器姿态稳定的协调
+　　合理选择机械臂操作时间,可以实现机械臂操作与充液航天器姿态稳定的协调。在方程(3)中令
+　　　　　　　　　　　　　　　　(5)
+式中。假设机械臂的操作需要从φ10,…,φn0到φ11,…,φn1,并且选择了某路径,则(5)式左端的积分值可以求出,从而可以得到所需的操作时间t1。再按照这个t1设计φ1,…,φn沿着给定路径运动的规律。这样,机械臂操作后,航天器的姿态不会有偏差。
+5　利用机械臂调整充液航天器姿态问题
+　　对刚体航天器,用机械臂调姿的算法已有一些,这些算法经过修改可以用于充液航天器,应将机械臂操作时间也作为控制量考虑。设机械臂在铰空间沿着封闭曲线,以给定转角规律运动,运动一周的时间为T,根据(4)式,充液航天器姿态改变为δφ0=Δ+Δf,其中,Δf=-设调姿要求为Δφ0=φ01-φ00,记|Δφ0|/|δφ0|的整数部分为N,则机械臂运动圈数为k=N+1(当Δφ0-N.δφ0＞Δ时),或者k=N(当Δφ0-N.δφ0＜Δ时)。如果圈数为k=N+1,则前N圈让机械臂操作时间T较长,最后一圈操作时间T′根据Δφ0-N.δφ0计算。若k=N,前N-1圈的操作时间为T,最后一圈操作时间T″根据Δφ0-N.δφ0计算。
+6　算　例
+　　考虑由充液中心刚体和上、下机械臂构成的系统(如图1)。设m0=200kg,m1=m2=12kg,I0=100kg.m2,I1=I2=16kg.m2,l1=l2=4m,R=1m。转角φ1,φ2的路径如图2所示。转角φ1,φ2变化规律采用:线性规律、平方规律、指数规律、对数规律和正弦规律。以φ1为例,线性规律如图3所示。令X=0.05t,Y=2×103μ,Z=Δf/［IfΩ(0)Δ］,图4给出了转角按线性规律运动时,Z随X和Y的变化规律。从图中看出,机械臂运动一周的时间越多,液体引起的航天器姿态变化越大;等效阻尼系数μ越大,液体引起的航天器姿态变化越小。图4给出了20s≤t≤400s,5×10-4≤μ≤10-2范围内,液体引起姿态变化情况。图5-图8分别给出了机械臂转角按平方规律、指数规律、对数规律、正弦规律运动时,与按线性规律运动时的差别。容易发现,在路径、时间、等效阻尼系数相同情况下,由于机械臂转角变化规律不同引起的偏差是非常小的,在精度要求不高的情况下可以忽略。
+　　　　
+图1　系统示意图　　　　图2　机械臂转角运动路径
+　　　　
+　　图3　φ1的线性规律　　　　　　　图4　转角按线性规律运动时,
+　　　　　　　　　　　　　　　　　　　Z随X和Y的变化规律
+　　　
+图5　平方规律与线性规律的差别　　　图6　指数规律与线性规律的差别
+　　　　　
+图7　对数规律与线性规律的差别　　　　图8　正弦规律与线性规律的差别
+　　机械臂的转角φ1,φ2沿着如图2所示的路径运动,如果希望运动一圈后航天器的姿态没有改变,设μ=10-2,IfΩ(0)=1kg.m2/s,则机械臂操作时间t=54.4347s。
+　　假设要求将航天器的姿态从φ0=45°调到φ0=5°,选择的机械臂转角φ1,φ2的路径如图2所示,每圈机械臂操作时间T=40s。设μ=10-4,IfΩ(0)=0.1kg.m2/s,计算得Δ=1.664830,Δf=0.685580,δφ0=2.350410,N=17,Δφ0-N.δφ0=0.004303＜Δ。根据上节讨论知,调姿圈数为k=N=17,前16圈每圈的操作时间为T=40s,最后一圈的操作时间为T″=42.52s。
+7　结　论
+　　充液航天器姿态变化依赖充液无关因素和充液相关因素。在充液无关因素中包括附件(机械臂)相对于航天器的运动路径,及初始、终结位形。在充液相关因素中包括液体的质量、惯量、角速度、等效阻尼系数,及附件运动时间和变化规律。分析计算表明,影响充液航天器姿态变化的充液相关因素中,机械臂运动时间的影响比较明显,机械臂运动得越慢,对航天器姿态的影响越大。研究带机械臂的充液航天器的姿态动力学时,若机械臂运动较慢,可以忽略柔性效应,但是必须考虑充液的影响;若机械臂运动较快,可以忽略充液的影响,而必须考虑柔性效应。
+　　作者单位：清华大学工程力学系.北京.100084
+参考文献
+　1　Vafa Z,Dubowsky S.On the dynamics of space manipulators using the virtual manipulator,with application to path planning.The Journal of the Astronautical Sciences,1990,38(4):441-472
+　2　Lingberg R E,Longman R W,Zedd M F.Kinematics and dynamics properties of an elbow manipulator mounted on a statellite.The Journal of the Astronautical Sciences,1990,38(4):397-421
+　3　Mukherjee R,Zurowski M.Reorientation of a structure in space using a three-link rigid manipulator.Journal of Guidance,Control and Dynamics,1994,17(4):840-847
+　4　Papadopoulos E,Dubowsky S.Dynamic singularities in the control of free-floating space manipulators.ASME Journal of Dynamic System,Measurement and Control,1993,15(1):44-52
+　5　Nakamura Y,Mukherjee R.Nonholonomic path planning of space robots via a bi-directional approach.IEEE Transactions on robotics and automation,1991,7(4)500-514
+　6　顾晓勤,刘延柱.机械臂调整载体姿态的优化解析解.上海交通大学学报,1996,增刊,63-67
+　7　刘延柱.空间机械臂逆动力学问题的解析研究.上海交通大学学报,1995,29(4):1-6
+　8　顾晓勤,刘延柱.载体姿态无扰动的空间机械臂路径规划.空间科学学报,1996,16(4):322-325
+　9　王照林,匡金炉.充液飞行器大角度操纵变结构控制.宇航学报,1993,14(3):76-82
+　10　匡金炉.充液复杂结构航天器姿态动力学与控制.清华大学博士学位论文,1992
+　　本文为国家自然科学基金项目(19702011)和航天工业总公司五院资助
+收稿日期:1997年4月28日,修回日期:1998年7月9日

@@ -1,0 +1,85 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+农药微生物降解性与农药疏水性参数间的相关性
+虞云龙
+(中国科学院广州地球化学研究所有机地球化学国家重点实验室，广州 510640)
+陈鹤鑫　樊德方
+(浙江农业大学植保系，杭州310029)
+
+摘要　在纯培养条件下，产碱菌属(Alcaligenes sp.)广谱性降解菌YF11对对硫磷、甲基对硫磷、杀螟松、氰戊菊酯、溴氰菊酯、甲氰菊酯、氯氰菊酯、三氟氯氰菊酯、氯菊酯的降解速率的差异主要是由各杀虫剂的疏水性参数的不同引起的，两者之间存在较好的相关性：logK=2.21-0.26logKow,r=0.9739.
+关键词　农药微生物降解；疏水性参数；产碱菌；构效关系.
+RELATION BETWEEN DEGRADABILITY OF PESTICIDES BY 
+MICROORGANISM AND THEIR PARTITION COEFFICIENTS IN n-OCTANOL-WATER
+
+Yu Yunlong
+( State Key Lab of Organic Chemistry & Guangdong Key Lab of Environ. Protection & Resources Utilization, Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, Guangzhou 510640)
+Chen Hexin, Fan Defang
+(Dept. of Plant Protection, Zhejiang Agricultural University, Hangzhou 310029)
+
+ABSTRACT　In pure-culture system, the differences among degradative rates of parathion-methyl, parathion, fenitrothion, fenpropathrin, deltamethrin, fenvalerate, permethrin, cyhalothrion, and cyperthrin by the broad-spectrum bacterial strain Alcaligenes sp. YF11 are mainly caused by the n-octanol water partition coefficient (logKow). A linear relation between the rates (K) and n-octanol-water coefficients(logKow) has been obtained as follow:
+logK=2.21-0.26logKow，　　r=0.9739
+Keywords　biodegradation of pesticide, partition coefficient, Alcaligenes sp., QSAR.
+　　大量研究已经证明环境中有机污染物的分子反应能力与其结构及物理化学性质有关、环境中化合物对生物或生物目标分子间的作用服从化学反应基本定律、化合物在生物体内的分布与传递过程可近似地用Henry定律加以描述［1］.定量构效关系(QSAR)应用于农药及有机化合物环境行为的研究已获得许多定性定量规律［2—5］，在农药及有机化合物的微生物降解性方面却未取得多少进展，其主要原因在于能同时降解多种农药或有机化合物的降解菌很少.我们在前期工作中分离到能同时降解多种农药的产碱菌属(Alcaligenes　sp.)广谱性降解菌YF11［6］，本文利用降解菌YF11进行农药微生物降解性试验，探讨农药微生物降解性与农药疏水性参数的关系.
+
+1　材料与方法
+1.1　菌种
+　　产碱菌属(Alcaligenes sp.)广谱性降解菌YF11［6］.
+1.2　农药降解试验
+　　将产碱菌属(Alcaligenes sp.)广谱性降解菌YF11接种于含氰戊菊酯(100mg/L)的普通液体培养基(蛋白胨，10g;牛肉膏，5g;NaCl，5g；蒸馏水，1L；pH,7.2)中，30℃培养过夜，离心收集菌体，菌体用2×10mL的0.02mol/L Na2HPO4-NaH2PO4缓冲液(A)洗涤，再用同一缓冲液制成菌体悬浊液并测定其OD415nm值.定量接种于含已知农药浓度的培养液(B)(MgSO4*7H2O，0.04g;FeSO4*7H2O，0.002g;K2HPO4,0.2g;(NH4)2SO4,0.2g；CaSO4,0.08g;蒸馏水，1L；pH,7.0)中，总体积为3mL，30℃黑暗培养.定时取出一份，拟除虫菊酯用石油醚(60—90℃)提取、有机磷用CH2Cl2提取浓缩后转入丙酮，用气相色谱测定农药含量.每一试验重复3次，另设不加菌液的对照试验.
+　　气相色谱测定条件：拟除虫菊酯杀虫剂，GC-9A，ECD；3mm×1m的3%OV-101/chromosorb WAW-DMCS(80—100目)柱；进样口，280℃；柱温，230℃；检测器，280℃；载气(N2)，60mL/min.有机磷杀虫剂， sigma 2000—GC,NPD;2mm×1m的5%OV-17/chromosorb WDMCS(60—80目)柱；进样口，230℃；柱温，220℃；检测器，250℃；载气(N2)，3psi;空气，15.2psi;氢气，20.0psi.
+
+
+图1　降解菌YF11对各农药的降解
+温度30℃；生物量(OD415nm)：0.20；农药浓度：A—对硫磷，100mg/L;B—杀螟松，100mg/L;C—氯氰菊酯，50mg/L；D—氯菊酯，50mg/L;E—三氟氯氰菊酯，50mg/L；F—氰戊菊酯，50mg/L；G—甲基对硫磷，100mg/L；H—甲氰菊酯，50mg/L;I—溴氰菊酯，50mg/L
+Fig.1　Biodegradation of pesticides by
+Alcaligenes sp. YF11
+2　结果与讨论
+　　农药浓度为30—100mg/L时，降解菌YF11对农药的降解速率与农药浓度无关，农药浓度随时间的变化可用下列方程描述［6］：
+=K 其中K=k*［M］
+式中，［S］为农药浓度；［M］为生物量；k为降解速率常数.
+　　在降解菌YF11生物量(OD415nm)为0.20时，YF11对100mg/L的对硫磷、甲基对硫磷、杀螟松和50mg/L的氰戊菊酯、溴氰菊酯、甲氰菊酯、氯氰菊酯、三氟氯氰菊酯、氯菊酯的降解曲线见图1.表1为各农药相应的降解动力学参数.
+　　各农药的降解速率的对数值logK对各农药疏水性参数logKow(表1)作图可得一直线(图2)：
+logK=2.21-0.26logKow，　r=0.9739
+表明降解菌YF11对对硫磷、甲基对硫磷、杀螟松、氰戊菊酯、溴氰菊酯、氯氰菊酯、三氟氯氰菊酯、氯菊酯的降解速率随着其疏水性参数logKow的减小而增大，也就是说降解菌YF11对各农药的降解性的差异主要是由各农药的疏水性参数决定的.
+表1　降解菌YF11降解各农药的动力学参数和各农药疏水性参数
+Table 1 Kinetic data of degradation of pesticides by Alcaligenes sp. 
+YF11 and their partition coefficient in n-octanol-water
+
+农　药初始浓度，
+mg/L初始菌量
+(OD415nm)C=K*t+blogK*ow
+K，
+μ mol/(L*h)b
+μ mol/(L*h)r
+甲基对硫磷1000.2028.55379.60.99533.00
+对硫磷1000.2016.15354.60.97973.83
+杀螟松1000.2020.86357.70.99193.40
+氰戊菊酯500.205.00120.00.99596.41
+溴氰菊酯500.209.24135.30.99514.6
+三氟氯氰菊酯500.203.04108.00.98967.0
+甲氰菊酯500.208.01113.80.98915.1
+氯氰菊酯500.202.47110.10.98806.6
+氯菊酯500.203.84123.10.99906.1
+
+　　　农药疏水性参数由德国生物研究中心柏林生态研究所所长 Prof. Pestemer测定提供
+
+
+图2　降解菌YF11对农药的降解性与农药疏水性间的相关性
+A—甲基对硫磷，B—杀螟松，C—对硫磷，D—溴氰菊酯，E—甲氰菊酯，F—氯菊酯，G—氰戊菊酯，H—氯氰菊酯，I—三氟氯氰菊酯
+Fig.2　Alcaligenes sp. YF11 and 
+their partition coefficients 
+　　在自然环境中农药的微生物降解受多种因素(pH、温度、湿度、有机质含量、农药理化性质等)的影响.为此，本研究采用纯培养系统控制条件下测定降解菌YF11对各农药的降解性，考察降解菌YF11对各农药的的降解性与农药疏水性参数间的相关性.当微生物对有机化合物的降解作用是由其胞内酶引起时，微生物降解的整个过程可以分为3个步骤［7］：化合物在微生物细胞膜表面的吸附，这是一种动态平衡；吸附在细胞膜表面的化合物进入膜内，在生物量一定时，化合物对细胞膜的穿透率决定了化合物穿透细胞膜的量；化合物进入微生物细胞膜内与降解酶结合发生酶促降解，这是一个快速过程，一般认为该过程不会成为限速步骤.研究已经表明，当细胞中存在足够的降解酶时，微生物对不同有机化合物的降解速率取决于化合物对细菌细胞膜的穿透率，而化合物的这种穿透率与其疏水性参数密切相关［7—9］.我们的实验已经证实降解菌YF11对农药的降解作用是其胞内酶引起的，且其胞内酶对两类不同结构的农药均具有较强的降解能力［6］.因此，测试农药的降解速率主要取决于其疏水性参数，随着三氟氯氰菊酯、氯氰菊酯、氰戊菊酯、氯菊酯、甲氰菊酯、溴氰菊酯、对硫磷、杀螟松、甲基对硫磷的疏水性参数logKow的变化引起降解菌YF11对其降解的速率的规律性变化.Banerjee等在酚、氯代酚、苯甲醚、氯代苯甲醚、间苯二酚、氯代间苯二酚、苯甲酸、对甲苯酚的微生物降解中证实了类似的变化规律［9］.但是，并非疏水性参数logKow越小降解速率越大，有机化合物对细胞膜的穿透要求合适的疏水性，氯代酚等化合物的微生物降解速率先随着疏水性的降低而增大，疏水性进一步降低降解速率又减小，在logKow为2左右降解速率最大［9］.可以预计，降解菌YF11对农药的降解速率随着农药疏水性的降低也会出现最大值而后呈下降趋势.
+
+3　结语
+　　产碱菌属(Alcaligenes sp.) 广谱性降解菌YF11对拟除虫菊酯和一硫代磷酸酯杀虫剂的降解速率的差异主要是由各化合物的疏水性参数引起的，即降解菌YF11对可降解杀虫剂的降解速率主要决定于该杀虫剂的疏水性参数
+参考文献
+　1　白迺彬.定量构效关系(QSAR)在环境化学中的进展与方法.环境科学，1990，11(2)：62—67
+　2　白迺彬.定量构效关系在环境化学中应用.环境科学，1990，11(5)：66—70
+　3　莫汉宏，杨克武，安凤春等.农药和其它有机化合物环境参数的相关性及其预测.环境化学，1994，13(5)：401—408
+　4　Bintein S, Devillers J. QSAR for organic chemical sorption in soil and sediments. Chemosphere, 1994,28:1171—1188
+　5　Brusseau M L. Using QSAR to evaluate phenomenological models for sorption of organic compounds by soil. Environ Toxicol Chem， 1993,42:1835—1846
+　6　虞云龙.农药的微生物降解性及酶促降解［博士学位论文］.浙江农业大学，1995
+　7　Yonezawa Y, Urushigawa Y. Chemico-biological interactions in biological purification system. Chemospere, 1979,8:139—142
+　8　解天民.结构活性关系(SARs)在环境化学中的运用——有机化学品环境危害性预测.环境化学，1986，5(2)：1—9
+　9　Banerjee S, Howrd P H, Rosengerg A M et al. Development of a general kinetic model for biodegradation and its applicaton to chlorophenols and related compounds. Environ Sci Technol， 1984, 18:416—422

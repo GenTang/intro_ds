@@ -1,0 +1,111 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.3 P.19-20
+
+
+
+32位Windows应用程序的实例检测技术
+高升　邱湘茹　唐世伟　贾文举
+　　摘　要：对32位Windows中的实例检测技术进行了研究,并对各种检测技术进行了对比。
+　　关键词：应用程序实例 实例检测 API函数
+　　多任务操作系统Windows允许用户同时运行多个程序,甚至对1个应用程序,也可以创建它在内存中的多个副本,将每个应用程序的1个内存副本称为实例。在一些实际系统中,经常要对实例进行控制,例如控制只启动应用程序的1个实例时,在进程中要检测是否已有1个实例启动。在16位Windows应用程序中,通过检测操作系统传送给WinMain函数的第2个参数hPrevInstance,来检测其它实例的存在。WinMain函数在建立窗口函数和进入消息循环之前,检测hPrevInstance的值,若此参数的值为真则说明应用程序的实例已经存在。然而在32位Windows中,hPrevInstance的值永远为假,它不能再作为判断应用程序实例是否存在的标志。本文以Delphi为工具,对32位Windows中应用程序实例的各种检测技术进行了论述。
+1 窗口查找法
+　　如果应用程序已经有1个实例在运行,那么通过调用FindWindow这个API函数可以检测到该实例的窗口句柄。FindWindow有2个参数:窗口类名称和窗口标题,前1个参数就是用API函数RegisterWindow注册窗口时使用的WNDCLASS窗口类的名称,在Delphi中,该参数就是应用程序主窗口的类名称。经过分析用Windows SDK编制的程序,发现第1个实例负责向Windows注册窗口类,其它实例在创建窗口之前,总是要检测窗口类是否已经注册,若没有注册,则说明本次启动是应用程序的第1个实例。因此可以在Delphi的DPR文件中对程序启动做如下控制:
+　　//Test1.DPR
+　　var hWnd:Thandle;
+　　begin
+　　　　　//检测并获取主窗口句柄
+　　　　　HWnd:=FindWindow（
+　　　　　′TMyMainForm′,　//主窗口类名称
+　　　　　′Test App Instance′//标题（可为空）
+　　　　　）;
+　　　　if hWnd=0 then begin
+　　　Application.CreateForm（
+　　　　　　TmyMainForm,
+　　　　　　MyMainForm
+　　　　）;
+　　　Application.Run;
+　　　end;
+　　end.
+　　这个方法在非Delphi IDE环境中可以正常检测到前1个实例（若存在）,并保证只有应用程序的1个实例运行。然而,在Delphi的IDE环境中该程序永远不能启动!因为在工程文件打开的情况下,内存中始终存在1个应用程序设计时刻的主窗口。
+2 枚举窗口法
+　　窗口查找法无法区分应用程序的前窗口实例与IDE环境中的设计时的窗口实例,Windows API函数EnumWindows对这个方法进行了改进。窗口枚举函数EnumWindows需要2个参数,第1个参数指向1个实际将要查找的目标窗口与当前所有正在运行的窗口进行匹配操作的回调函数MatchProc的内存地址,第2个参数则用于返回找到的目标窗口的句柄。操作系统顺序地将当前正在运行的每个窗口传递给回调函数MatchProc,直到接收到的返回值为真;这个函数将接收到的窗口与目标窗口进行比较,若成功匹配,则返回假,以通知操作系统继续传递下1个窗口;否则返回真,以通知操作系统停止传递。
+　　//Test2.DPR
+　　var hWnd:Thandle;
+　　begin
+　　　　　hWnd:=0;
+　　　　　EnumWindProc（
+　　　　　　　@MatchProc,
+　　　　　　　LONGINT（@hWnd）
+　　　　　）;
+　　　　　if hWnd=0 then begin
+　　　　　Application.CreateForm（
+　　　　　TMyMainForm,
+　　　　　MyMainForm
+　　　　）;
+　　　　Application.Run;
+　　End.
+　　//进行匹配的回调函数
+　　function MatchProc（
+　　　　　　hWndFromOS:THandle;
+　　　　　　hMatchedWnd:^HWND）;
+　　　　　　bool;
+　　　　　　stdcall;
+　　var str1,str2:string100;
+　　begin
+　　　　Result:=True;
+　　　　//获得窗口类名称
+　　　　GetClassName（
+　　　　　　hWndFromOS,
+　　　　　　PChar（str）,
+　　　　　　100
+　　　）;
+　　　str1:=PChar（str）;
+　　　if str1=′TmyMainForm′ then begin
+　　　　　　//若窗口类名称匹配,则继续比较可执行文件名
+　　　　　　GetModuleFileName（
+　　　　　　　hInstance,
+　　　　　　　PChar（str1）,
+　　　　　　　100
+　　　）;
+　　　str1:=PChar（str1）;
+　　　GetModuleFileName（
+　　　　　GetWindowLong（
+　　　　　　　HWndFromOS,
+　　　　　　　GWL_HINSTANCE
+　　　　　）,
+　　　　　PChar（str2）,
+　　　　　100
+　　　）;
+　　　str2:=PChar（str2）;
+　　　if str1=str2 then begin
+　　　　　hMatchedWnd^:=hWndFromOS;
+　　　　　Result:=False;
+　　　　end;
+　　　end;
+　　end;
+　　上述匹配过程,除了像窗口查找法那样进行窗口类名称比较外,还比较应用程序可执行文件的名称,因而克服了窗口查找法的不足。即使在设计时刻的Delphi IDE环境内,也可以正常工作。
+3 互斥信号量方法
+　　在32位的Windows操作系统中,Microsoft引入了互斥信号量技术,该技术主要应用于进程间共享资源及进程同步,因此互斥信号量可以用于表示1个实例已经存在。当应用程序启动时,首先调用API函数CreateMutex,以某一名称（本文中为FirstInstance）创建1个互斥信号量,然后发出WaitForSingleObject API调用,如果互斥信号量没有被其它进程占用,则WaitForSingleObject立即返回;反之,如果互斥信号量已被其它进程占用,WaintForSingleObject会等待,直至互斥信号量被释放。
+　　//Test3.DPR
+　　var hMutex:THandle;
+　　begin
+　　　　hMutex:=CreateMutex（
+　　　　　　　　　nil,
+　　　　　　　　　False,
+　　　　　　　　′FirstInstance′
+　　　　）;
+　　　　if WaitForSingleObject（hMutex,0）<>
+　　　　　wait_timeout then begin
+　　　　　　　　　Application.CreateForm（
+　　　　　　　　　　′TMyMainForm′,
+　　　　　　　　　　MyMainForm）;
+　　　　　　　　　Application.Run;
+　　　　end;
+　　end.
+　　本文给出的若干种实例检测方法虽然是以Delphi给出的,但对其它平台开发的32位Windows程序也可借鉴。
+高升（大庆石油学院计算机科学系151400）
+邱湘茹（大庆石油学院计算机科学系151400）
+唐世伟（大庆石油学院计算机科学系151400）
+贾文举（大庆石油学院计算机科学系151400）
+收稿日期：1999-09-10

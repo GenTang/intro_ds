@@ -1,0 +1,86 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第8期 Vol.36 No.8 1999
+
+
+
+用结构性质分开复杂类
+吕义忠
+摘　要　NP(或Co-NP)是否包含在P/poly中的问题迄今仍为开问题. 80年代初证明了如果NPP/poly，则PH=Σ2.最近，又有了如果NPP/poly，则PH=ZPP的证明.文中将借助于广义一阶逻辑及其上的模型论以证明存在NP(或Co-NP)中的语言，它们没有多项式大小的线路.
+关键词　结构复杂性，广义一阶逻辑，图论
+中图法分类号　TP301.5
+SEPARATING COMPLEXITY CLASSES BY THEIR STRUCTURAL PROPERTIES
+L Yi-Zhong
+(Department of Computer Science, Nanjing University of Aeronautics and Astronautics, Nanjing 210016)
+(State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210093)
+Abstract　Whether NP (or Co-NP)P/poly is still an open problem. In the early 1980's, it has been proved that if NPP/poly then PH=Σ2. Recently, it has been proved that if NPP/poly then PH=ZPP. In the paper here, it is proved by means of the extended first-order logic  and model theory on it that there are some languages in NP(or Co-NP) which do not have polynomial circuits.
+Key words　structural complexity, extended first-order logic, graph theory
+1　引　言
+　　非一致计算模型能否判定NP完全语言的问题迄今尚未得到解决［1～4］.1980年Karp和Lipton［2］以及Pippenger［5］等人引进了基于多项式长度有界函数的非一致复杂类P/poly并且证明它恰与多项式大小线路的复杂类相同.与此同时，Karp,Lipton和Sipser等人证明，如果NPP/poly，则PH=Σ2［2，6］.当前，Kbler和Watanabe证明，如果一个自可归约集有多项式大小线路，则它属于ZPP(从而NP)，因而，PH=Σ1［3］.本文基于上述结果，引进了简单可数无穷图逼近接受等新概念以进一步探讨NP(或Co-NP)与P/poly之间的关系，并且借助于广义一阶逻辑及其上的模型论，证明了在NP(或Co-NP)中存在无多项式大小线路的语言.
+2　定　义
+　　设字母表Σ={0,1}，又设为包括空字(记为“λ”)在内的Σ上的一切有穷串的集合，再设N＋为全体正整数的集合，则存在双射，使得任何串当且仅当正整数.因此，中的串可按N＋排序并且特记其为.
+　　我们定义简单可数无穷图G=〈V,e〉，其中，顶点集V固定为可数无穷集，边关系e为V上的一个对称的二元关系［7，8］.设，则可定义G的点诱导子图并且简记其为.我们称为Gn的编码(这里视e(i,j)为二进值“0”或“1”并且约定g(1)=λ)，又称g为G的编码函数.显然，同一个图的e和g应满足确定的关系，它可用广义一阶语言表述如下：设G=〈V,e〉，则g为G的编码函数当且仅当(该事实记为(*))，这里，逻辑函数BIT(x,y)=y的第x位二进值［9，10］.
+　　我们须使用非一致复杂类P/poly,其定义为，其中，poly为多项式长度有界函数集，即，存在多项式p,使得对任何自然数n,|f(n)|≤p(n)［1，4］.
+3　布尔线路和逼近接受
+　　设G为简单可数无穷图(以后简称其为无穷图)，又设g为G的编码函数，再设{Cm}m≥1为多项式大小的线路簇［1，4］，则有以下定义：
+　　定义1. 若存在k∈N＋使得对任何n∈N＋均有{Cm}m≥1接受〈k,g(n)〉，则说G被{Cm}m≥1逼近接受.
+　　定义2. 设C为无穷图的集合.若对任何无穷图G均有，G∈C当且仅当G被{Cm}m≥1逼近接受，则说集合C被{Cm}m≥1逼近接受.
+　　引理1. 对任何集合AΣ*，A有多项式大小线路当且仅当A∈P/poly［1，2，4，5］.
+　　引理2. 设C为无穷图G的集合，又设g为G的编码函数，则C被多项式大小的线路逼近接受当且仅当存在多项式时间谓词h和多项式有界函数f使得对任何无穷图G均有：G∈C当且仅当
+　　证明. (必要性)设C被多项式大小的线路簇{Cm}m≥1逼近接受，又设{Cm}m≥1接受的集合为A，则由引理1，A∈P/poly，故按定义，存在多项式时间谓词h(P中集合B的特征函数)和多项式有界函数f，使得对任何无穷图G均有
+
+　　(充分性)由假设条件中的h和f便能决定一个P/poly中的集合A′并且由引理1便得，A′必被某个多项式大小的线路簇{C′m}m≥1所接受.因此，又由假设条件即得：逼近接受.故依定义2，C被{C′m}m≥1逼近接受.
+证毕.
+4　用结构性质分开复杂类
+　　Watanabe用“多一归约下封闭”这一结构性质分开了复杂类NP与DEXT.本文则用“不含k阶完全子图”这一结构性质来讨论NP(或Co-NP)与P/poly的分开问题.
+　　定理1. 设S={G|G为无穷图且存在正整数r使得G不含完全子图Kr}，则S不被任何多项式大小的线路逼近接受.
+　　证明. (反证法)反设S被多项式大小的线路{Cm}m≥1逼近接受，则由引理2，存在多项式谓词h和多项式有界函数f，使得对任何无穷图G均有
+
+　　显然，在反证法的假设下，h和f是固定不变的，同样，配对函数〈x,y〉和求长度函数|x|也是固定不变的.Immerman在讨论有穷模型时，将固定不变的谓词和函数都归入广义一阶语言中(如BIT，s,≤,o,max等)，使它们变成中的逻辑谓词和逻辑函数［9］.现在我们讨论可数模型，故同样可将固定不变的h,f,〈x,y〉和|x|归入广义中.于是可简化式(1)为
+
+其中，A为广义一阶语言中的一阶公式.
+　　同样地，如果将固定不变的BIT，D(x)(即x-1)，H(x)(即x/2)和加法“+”放入中，则前述(*)可简化为
+g为G的编码函数　
+其中，B为上的一阶公式.
+　　最后，显然有
+
+现在，分别记式(2)、(3)和(4)右边的一阶句子为，则它们所含的中的非逻辑符号仅为e和g，即型τ={e,g}［9，10］.
+　　今设上的句子的无穷集为
+
+不失一般性，可设Γ的任一有穷子集为
+
+则只要令图G′为由完全图Km和可数无穷多个孤立点组成的无穷图，那末，由G′确定的e′和g′将满足ψ,χ,φ1，φ2，…，φm.换言之，Γ是有穷可满足的.因此，由紧致性定理即得Γ有可数模型u(注意：Γ是可数的)［7］.显然，仍可将u的论域视为Σ＋.现在可得以下3个结论：
+　　(1) u中的关系e和函数g应当满足χ，故g为对应于e的无穷图的编码函数.
+　　(2) u应满足ψ，故存在正整数r，使得e对应的无穷图中不含r阶完全子图Kr.
+　　(3) u应满足φ1，φ2，…，φm，…，即由e对应的无穷图中应含.显然，(2)和(3)矛盾，这便证明了我们的定理.
+证毕.
+　　定理2. 设T={〈r,g〉|r为正整数且g为不含子图Kr的无穷图的编码函数}，则.
+　　证明. (反证法)反设T∈P/poly，则存在多项式谓词h和多项式有界函数f使得，
+
+　　现在，对于定理1中的S，我们有
+
+现在，由引理2即得S被多项式大小的线路逼近接受，这便与定理1矛盾，得证.
+证毕.
+　　定理3. 并非Co-NP中的集合皆有多项式大小的线路.
+　　证明. 已知定理2中的T∈Co-NP［1，4，6］.如果T有多项式大小的线路，则由引理1即得T∈P/poly，这便与定理2矛盾，得证.
+证毕.
+　　定理4. 并非NP中的集合皆有多项式大小的线路.
+　　证明. 因为对补运算封闭，故，即NP中集合无多项式大小的线路.
+证毕.
+基金项目：本课题得到国家自然科学基金(项目编号6983003)项目资助
+作者简介：吕义忠，男，1937年生，教授，主要从事数理逻辑与计算复杂性方面的研究工作
+作者单位：吕义忠　南京航空航天大学计算机科学与工程系　南京　210016
+　　　　　　　　　南京大学计算机软件新技术国家重点实验室　南京　210093)
+参考文献
+1　　Balcazar J L, Diaz J, Gabarro J. Structural Complexity. Heidelberg: Springer-Verlag, 1988(I), 1990(II)
+2　　Karp R, Lipton R. Some connections between non-uniform and uniform complexity classes. In: Proc of 12th ACM Symp on Theory of Computing. Heidelberg: Springer-Verlag, 1980. 302～309
+3　　Kbler J, Watanabe O. New collapse consequences of NP having small circuits. Lecture Notes in Computer Science #944. New York: Springer-Verlag, 1995, 196～207
+4　　Lü Yizhong, Sun Huicheng. The Principle of Structural Complexity. Nanjing: Nanjing University Press, 1995
+5　　Pippenger N. On simultaneous resource bounds. In: Proc 20th IEEE Symp Foundations of Computer Science. Heidelberg: Springer-Verlag, 1979. 307～311
+6　　Sipser M. A complexity theoretic approach to randomness. In: Proc 15th Ann ACM Symp on Theory of Computing. Heidelberg: Springer-Verlag, 1983. 330～335
+7　　Bondy J A, Murty U S R. Graph Theory with Applications. Amsterdam: North-Holland, 1976
+8　　Wilson R J. Introduction to Graph Theory, Third Edition, New York: Longman Inc, 1985
+9　　Immerman N, Descriptive and computational complexity. In: Hartmanis J ed. Computational Complexity Theory, Proc of Symposia in Applied Mathematics, Vol 38. Georgia: American Mathematical Society, 1989. 75～91
+10　　Malitz J. Introduction to Mathematical Logic. Heidelberg: Springer-Verlag, 1979
+收到日期：1997-11-21
+改稿日期：1998-09-07

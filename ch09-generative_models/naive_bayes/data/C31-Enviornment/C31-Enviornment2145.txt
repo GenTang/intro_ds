@@ -1,0 +1,32 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.22-25
+
+
+
+
+流域地表生态信息的卫星遥感图像处理技术
+林桂兰　 
+摘　要：以福建省九龙江流域为例，利用计算机技术和遥感-GIS工具软件，探讨利用多源卫星遥感影像获取流域地表环境信息的图像处理与分析技术，列举卫星遥感可获取的流域地表生态环境专题信息。重点分析利用遥感-GIS界定流域范围的方法、流域地表覆盖状况和植被覆盖密度的卫星遥感影像处理方法。
+关键词：遥感图像处理；?GIS分析；?流域地表生态信息
+分类号：X87　文献标识码：A
+文章编号：1001-6929(2001)02-0022-04
+Remote Sensing Image Processing Technique on Ground Surface Eco-Environment Information in the River Valley
+LIN Gui-lan（Xiamen Environmental Information Center,Xiamen 361004,China）　
+
+Abstract：With the Jiulong River valley as an example, using computer techniques and remote sensing (RS) and geographical information system (GIS) tools, the image process and analysis techniques were explored on river-valley surface eco-environmental information obtained from multi-source satellite RS images. The river-valley surface eco-environment themes available from satellite RS were listed. The focuses were on the methods to determine river valley scopes, surface coverage situations and vegetation coverage density, by integrated RS and GIS.
+Keywords：RS image processing;　GIS analysis;　ground surface eco-environment information in river valley
+作者简介：林桂兰(1965-)，女，福建永春县人，工程师. 
+作者单位：林桂兰（厦门市环境信息中心，福建 厦门　361004）　
+
+参考文献：
+［1］　周成虎，万庆，黄绚，等.遥感与GIS在洪水灾害监测与评估中的应用研究[A].徐冠华，李德仁，刘先林.遥感在中国[C]，北京：测绘出版社，1996.171～178.
+［2］ 刘亚岚，王世新，魏成阶，等.利用星载SAR快速监测评估我国的洪涝灾害[J].遥感信息，2000，57：32～35．
+［3］　高吉喜.区域可持续发展的生态承载力研究[D]．北京：中科院地理研究所，1999.106～179.
+［4］ Yuan D,Elividge C.Comparison of relative radiometric normalization techniques.ISPRS Journal of Photogrammetry & Remote Sensing,1996,51:117～126.
+［5］ Elvidge C D,Yuan D,Weerackoon R D,et al.Reiative radiaometric normalization of landsat multispectral scanner (MSS) data using an automatic scattergram-controlled regression.Photogrammetric Engineering & Remote Sensing,1995,61:1255～1260.
+［6］ 周成虎，骆剑承，杨晓梅，等.遥感影像地学理解与分析[M]．北京：科学出版社，1999.199～203.
+［7］ 林桂兰，孙飒梅，陈志浩.沿海丘陵地区土地覆盖及其动态变化的多源遥感研究[J]．遥感信息，1999，56：33～36.
+
+收稿日期：2000年8月29日
+出版日期：2001年3月30日

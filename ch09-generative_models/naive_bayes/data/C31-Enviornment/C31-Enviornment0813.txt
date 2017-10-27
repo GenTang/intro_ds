@@ -1,0 +1,123 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+活性污泥糖类物质含量与其除磷能力的关系
+刘延华　
+摘要　分别以葡萄糖和醋酸为主要进水有机物，通过2只序批式反应器的连续运行，探索了污水生物除磷工艺中活性污泥糖类物质含量的变化与其摄磷能力的关系，发现将活性污泥糖类物质含量控制在较低水平是实现高效生物除磷的一个重要条件.
+关键词　活性污泥；生物除磷；糖类物质；葡萄糖；醋酸
+Influence of sludge carbohydrate content on enhanced biological phosphate removal
+LIU Yanhua 
+Tianjin Municipal Engineering Design and Research Institute,Tianjin 300051
+Abstract　The relation between sludge carbohydrate (CH) content and phosphate (P) removal performance was studied in two sequencing batch reactors (SBRs) exhibiting enhanced biological phosphate removal (EBPR).Glucose and acetate were used as the main organic substrates for the two SBRs,respectively.The P removal performance was excellent when the sludge CH content ranged from 8% to 10% (CH/MLSS),but it declined concomitantly as sludge CH content increased beyond this range.Sludge CH content was found to be a reliable parameter representing the sludge capacity of P removal.The study,as a whole,suggests that the control of sludge CH content to low levels is a prerequisite for achieving enhanced P removla in EBPR process.
+Keywords　activated sludge,phosphate removal,sludge carbohydrate.　　
+　　在过去二十多年里，污水生物除磷的机理已得到广泛研究，并研制出了许多工艺流程以去除污水中的磷和氮.这种途径同样适用于一些除磷脱氮工艺如A2／O工艺，它除了有一个厌氧段在进水端和一个好氧段在出水端之外，还在二者之间增加了一个缺氧(只有NOx没有O2的反应状态)段.污水中的氮化物在好氧段被消化为NOx之后又通过混合液回流被送到缺氧段进行反硝化脱氮.这类流程已在国内外得到一定范围的应用，但其除磷效率和可靠性比较差［1］；即使在实验室条件下，以除磷菌偏爱的挥发性有机酸(VFA)为主要进水有机物，除磷效果也会时有时无［2—5］.这主要是因为对除磷机理的认识还不够深入和完善.
+　　过去有不少研究试图用活性污泥中除磷菌的含量或者发酵菌的含量来解释除磷效果的变化.认为除磷菌含量高、污泥的除磷能力就高；而发酵菌含量高意味着混合液中VFA含量的增加从而可提高除磷菌的数量.Cech和Hartman［5］最近发现了一种名为“G细胞”的微生物，它能够在厌氧下吸收葡萄糖而不释放磷.当这种细菌在活性污泥中占主导地位时，污泥不再具有过剩摄磷的能力.这种细菌的大量繁殖是由于进水中葡萄糖含量的增高.它厌氧吸收葡萄糖所需能量被认为来源于所含糖类物质(Carbohydrates简写为CH)的降解.事实上，对“G”细菌的认识还有待深入，比如，同样用葡萄糖做主要进水有机物，Carucci［6］也在活性污泥中发现了大量与“G”细菌十分相似的细菌群，但他却同时得到了极好的除磷效果.尽管他们的结论各异，其试验都再次揭示了厌氧段污泥CH含量的下降.因此污泥CH代谢可能是除磷工艺中活性污泥的一个普遍而重要的生命活动［7—12］.从理论上讲污泥含糖的厌氧降解过程是产生能量的，因此必然对污泥的厌氧代谢途径产生影响，从而影响除磷过程.本研究仅将活性污泥磷和CH的含量视为两个污泥特性参数，探讨二者之间的关系；对污泥的微生物形态仅做一些电镜观察.
+
+
+                       图1　试验装置示意图
+Fig.1 The schematic of the reactor
+1　材料与方法
+1.1　试验装置及运行.　　
+试验在两只序批式反应器中进行(图1).每只反应器的工作容积约为4 L.每个运行循环包括进水、反应、沉淀、排水和间歇等5个阶段.污泥的泥龄是通过调节排水排泥口的高度实现的.在每个运行循环开始时，将3.3 L进水(成分见表1)在0.5 h内连续泵入反应器；在随后的厌氧和缺氧反应阶段，用搅拌器对混合液进行温和搅拌，厌氧段混合液的氧化还原电位介于-300至-380 mV之间；在厌氧反应结束时，向混合液中泵入一定剂量硝酸钾溶液以实现混合液的缺氧反应状态.在好氧反应段对混合液进行曝气.在试验的第一个月，曝气强度较大，混合液溶解氧(DO)浓度很快升至5 mg/L左右；在此之后的试验阶段对好氧段曝气强度进行控制，使白天的DO浓度控制在1.5至2.8 mg/L.然而由于中央供气系统供气量的变化，夜间的DO浓度比白天低，以至于有时不能满足混合液充分搅拌要求，因此需要将搅拌器开至好氧反应结束.沉淀时间通常是45 min.沉淀之后用泵将上清液和部分污泥共3.3 L排出反应器.间歇阶段一般设定为0.5 h—1.0 h，其目的主要是为了避免由于计时器的误差造成进水泵和排水泵的重叠运行.反应器的日常运行由一组时间控制器自动控制.其运行模式见表2.整个试验是在一个空调实验室完成的，其
+表1　模拟废水成分(mg/L)
+　
+Table 1 Composition of the synthetic wastewater for the laboratory scale reactors (mg/L)
+
+不同成分相同成分
+进水A葡萄糖300[COD计]Ca[CaCl2.2H2O]
+K[kCl]
+Mg[MgSO4.7H2O]
+Cu[cuCl2.2H2O
+Zn[Zn(Ac)2.H2O
+Co[CoCl2.6H2O]
+Fe[FeCl3.6H2O]
+Mn[MnSO4.H2O5
+蛋白胨50
+20
+NaHCO3260
+10
+P[K2HPO410
+0.1
+N[NH4Cl]18
+0.1
+进水BNaAc300[COD计]
+0.1
+蛋白胨200-50
+0.1
+P[K2HPO4]16
+0.1
+N[NH4Cl22
+
+表2　运行模式
+Table 2 Operational modes
+
+
+模式一二三四
+厌氧，h2.02.51.04.5
+缺氧，h--3.5-
+好氧，h3.254.05.55.5
+循环次数/d3222
+
+室内温度为23—27℃.在每个循环中，这两只以葡萄糖和醋酸盐为主要进水有机物的反应器中混合液的pH值在厌氧条件下略有下降，在好氧段明显上升，其变化范围分别是6.9—7.3和6.7—7.5.
+1.2　进水配制
+　　为防止葡萄糖发酵，先将进水(A)配成高浓度冰冻贮存，每隔日取出融化稀释后放入冰柜使用，并对其贮存容器和进水管隔日进行消毒杀菌。
+1.3　分析方法
+　　葡萄糖和污泥CH含量的测定用Anthrone方法［13］；COD用密闭回流法［14］；硝酸盐氮的测定用离子色谱法(Shimadzu和一支Shim-Pack A3柱)；其它项目的测定用标准方法［14］．
+2　试验结果
+2.1　葡萄糖反应器运行结果
+　　反应器(A)以葡萄糖为主要进水有机物，所用种泥取自一城市污水处理厂.图2是该反应器的运行结果.
+
+
+图2　反应器A的运行结果
+　Fig.2 The P removal performance and sludge characteristics of reactor A
+在开始的第一个月，反应器按模式一运行.种泥在初始时表现了极好的除磷能力.然而在以后的一个月内，虽然运行条件没有变化，除磷效率却逐日下降，污泥CH含量同步上升.在每个循环中，进水中的COD在厌氧段基本被去除，好氧段开始时混合液液相的COD浓度在10 mg/L左右，而污泥CH含量则在好氧段明显增长，这显然是导致污泥CH逐日积累的原因.因此从第31天起对好氧段曝气强度施行控制；每天的循环次数也由3次减少到2次，厌氧和好氧反应时间都有适当增加(模式二)以避免过长的间歇时间会引起污泥性质的变化，同时将反应器的排水排泥口的位置提高以增大反应器沉淀污泥区的容积，从而使稳定运行时的泥龄延长至30天.在其后的一周内，除磷效率得到显著提高.污泥含磷量增至6%(以P/MLSS计)，而污泥CH含量则同步降至9%(以CH/MLSS计).笔者认为这主要和曝气强度的控制及控制初始时夜间好氧段搅拌不足有关.然而好的除磷效果仅维持了3周，此后污泥CH含量开始上升，除磷效果也开始下降，到第92天，污泥CH含量上升至15%，除磷效果则降至3%.
+　　为了探索污泥CH的代谢规律，我们用容积为300 mL的小瓶考察了好氧段结束时的污泥在厌氧条件下吸收COD的情况及在此之后污泥对外加硝酸盐进行反硝化的情况.污泥能在厌氧条件下迅速吸收所倾入进水中的COD，使混合液液相COD浓度降到10 mg/L左右.在此之后污泥能够对投加的硝酸盐进行相当快速的反硝化(图3).从图3可以看出这个快速反硝化在进行一段时间以后降低了速度.而在整个快速阶段去除的氮又与厌氧开始时所加葡萄糖(以COD计)的量有密切关系(图4).按照脱氮理论计算，快速反硝化所消耗的COD相当于进水COD的一半左右.而在此过程中污泥CH含量却基本保持不变.反硝化过程虽然消耗了相当一部分进水COD却未增加污泥CH含量，因此如果在厌氧和好氧反应段之间加入一个缺氧段必然会对污泥CH的合成和积累带来一定影响.
+　　
+
+
+图3　污泥利用厌氧反应产物进行的反硝化
+Fig.3 Denitrification utilizing anaerobic reaction products as electron donors
+
+
+图4　快速反硝化与污泥厌氧吸收COD(葡萄糖)之间的定量关系
+Fig.4 Quantitative relation between the denitrification and the anaerobic COD uptake
+
+
+　　图5　污泥CH含量与其除磷能力之间的关系
+Fig.5 Relation between sludge CH content and sludge phosphorus content
+　　在从第93至第100天的假期期间，由于进水管被意外挤压，进水显著减少，导致反应器中污泥浓度显著下降.一部分积存于出水桶中的污泥被加到反应器中作为补充.为了进一步考察不同的反应模式下污泥CH含量与其除磷能力的关系，从第100天起，反应模式有所改变.在厌氧反应段之后向混合液中投加一定量的KNO3溶液从而使混合液的NO3-N浓度上升到一个即定起始值，造成并维持一个缺氧状态直到混合液NO3-N浓度降到很低时才开始曝气使之进入好氧反应状态(模式三).该好氧段的DO水平仍然是受控的.另一方面将反应器沉淀污泥区的体积进一步增大，使稳定运行状态下污泥龄达到60天左右.从第100天到第120天，由于缺氧段硝酸盐氮起始浓度的变化，除磷效果不稳定.当混合液硝酸盐氮起始浓度稳定在22 mg/L之后，除磷效率显著提高.除了在第200天到第210天之间，由于缺氧段硝酸盐氮起始浓度的偶然下降导致了除磷效率的下降外，除磷效率连续3个月维持在70%以上.
+2.2　污泥CH含量与污泥含磷量之间的关系
+　　反应器(A)的运行表明，即使以葡萄糖为主要进水有机物，当污泥CH含量较低时，仍可实现较高的除磷效率.在该反应器的运行当中，污泥CH含量与污泥磷含量之间表现出密切的关系(图5).当污泥CH含量处在9%—10%范围时，污泥表现出较高的除磷能力.随着污泥CH含量的上升，污泥磷含量同步下降.因此，将污泥CH含量控制在较低水平是实现高效生物除磷的一个重要条件.
+2.3　醋酸盐反应器的运行结果
+　　反应器(B)以醋酸盐为主要进水有机物.在整个试验过程中，该反应器的运行一直按厌氧-好氧的反应模式进行.图6是该反应器的运行结果.　　
+
+
+图6　反应器B的连续运行结果
+Fig.6 The P removal performance and sludge characte-
+ristics of reactor B
+当反应器按模式一运行时，污泥沉淀性能很差，导致了严重的污泥流失.污泥CH含量由起始的9%降到4%，污泥含磷量为4%左右.COD的去除效率很好，出水COD在10?mg/L左右，然而只有一部分COD(20%左右)是在厌氧段被去除的，其余大部分在好氧段被去除.在好氧段没有硝化作用发生.虽然在第31天将运行方式改为模式二，上述状况并未因此而改变.这种状况一直持续到第140天.在此期间污泥CH含量的下降很可能与好氧反应时间不足有关：反应器B中的污泥CH好氧合成速率比反应器A的情况慢.这可能与进水有机物成份有关.从Soymia的小瓶试验中可以看到与此类似的有机物特性对污泥CH合成速率的影响［8］．
+　　从第140天起，运行方式改为模式4.同样，很可能是由于好氧时间的明显延长，污泥CH含量开始上升.这一结果与Matsuo的研究结果十分相似，在他的研究中，当好氧与厌氧时间之比大于1时，污泥CH含量开始上升.在本试验中随着污泥CH含量的上升，污泥沉淀性能迅速改善，尽管反应器的沉淀污泥容积保持不变，反应器中活性污泥浓度逐步上升.除磷效率也同时上升.从第155天到第185天，除磷效率最高，出水中几乎没有磷出现，污泥含磷量由4%增至10%，而污泥CH含量则由7%增至10%.然而，随着污泥CH含量继续上升，出水中的磷开始出现并且其浓度开始逐步升高.到试验结束时，污泥CH含量增至15%，出水磷浓度增至2.8 mg/L.这一结果与反应器(A)的运行结果非常相似.这说明，无论进水有机物特性如何，过高的污泥CH含量都会导致污泥除磷能力的下降.在从第160天到第240天的稳定运行期间，污泥泥龄为41天左右.
+3　讨论和结论
+　　在污水生物除磷工艺中，通常认为微生物CH的作用在于为厌氧条件下醋酸的吸收和聚-β-羟丁酸的合成提供还原能力［7］．最近一些假说指出，微生物所贮存的CH可能是另一种独立的内部能源.那些能贮存CH的微生物可能能够以此为能源在厌氧段吸收有机物而不释放磷.然而，对这种微生物的认识还不深入.在本试验中当反应器A的除磷效果很差时，虽然污泥CH含量很高，却没有在污泥样品中发现“G”细菌.电镜下观察到的主导菌群的细菌细胞尺寸大多比“G”细胞小，其形状也不同于“G”菌.因此在本研究中对污泥CH含量与污泥除磷能力之关系的研究更具有实践意义.从我们的研究中，可以得出这样的结论：
+　　1.在生物除磷工艺中，污泥CH含量是变化的.过高的污泥CH含量导致了污泥除磷能力的下降.尽管进水有机物不同，运行条件各异，本试验所用两只反应器中污泥在其CH含量为8%—10%时表现出最大的摄磷能力.将污泥CH含量控制在较低水平是实现高效生物除磷的一个重要条件.
+　　2.进水有机物特征是影响污泥CH含量的一个重要因素.在基本相同的运行条件下，葡萄糖更易于使污泥CH含量上升；而以醋酸盐为主要进水有机物时，污泥CH的积累则需要较长的好氧时间.因此醋酸盐通常被认为有利于提高污泥的除磷能力，而葡萄糖则易于导致除磷效率的下降.
+作者单位：刘延华 天津市政工程设计研究院，天津300051
+参考文献
+　［1］　Paepcke B H.Performance and operational aspects of biological phosphorus removal in South Africa.Water Sci Technol,1983,15(3/4):219—232
+　［2］ Fukase T,Shibata M,Miyaji Y.The role of anaerobic stage on biological phosphorus removal.Water Sci Tech,1985,17:69
+　［3］ Matsuo Y.Effect of the anaerobic SRT on enhanced biological phosphorus removal.Water Sci Tech,1994,30(6):193
+　［4］ Satoh H,Mino T,Matsuo T.Deterioration of biological phosphorus removal by the domination of microorganisms without poly-P accumulation.Water Sci Tech,1994,30(6):203
+　［5］ Cech J S,Hartman P.Competition between polyphosphate and polysaccharide accumulating bacteria in biological phosphorus removal systems.Water Res,1993,27:1219
+　［6］Carucci A,Lindrea K,Majone M et al.Dynamics of the anaerobic utilization of organic substrates in anaerobic/aerobic sequence batch reactor.Water Sci Technol,1995,31:35
+　［7］ Mino T,Arun V,Tsuzuki Y et al.Rone R Ramadori (ed).Effect of phosphorus accumulation on acetate metabolism in the biological phosphorus removal process.Biological Phosphorus Removal from Wasterwater.Pergamon Press,U.K.1987
+　[8]Somiya I,Tsuno H,Matsumoto M.Phosphorus release-storage reaction and organic substrate behavior in biological phosphorus removal.Water Res,1988,22(1):49—58
+　[9] Satoh H,Mino T,Matsuo T.Uptake of organic substrates and accumulation of polyhydroxyalkanoates linked with glycolysis of intracellular carbohydrates under anaerobic condition in the biological excess phosphate removal process.Water Sci Tech,1992,26(5/6):933
+　[10] Smolders G J F,van der Meij J,van Loosdrecht M C M et al.Stoichiometric model of the acrobic metabolism of the biological phosphorus removal process.Biotechnol and Bioeng,1994,44:837
+　[11]Liu Y H,Low sludge carbohydrate content:a prerequite for enhanced biological phosphorus removal.Water Environ Res,1997,69(7):1290—1295
+　[12] Liu Y H,Relation between sludge carbohydrate content and biological phosphate removal,Water Res,1998,32(5):1635—1641
+　[13] Jenkins D et al.Manual on the cause and control of activated sludge bulking and forming, 2nd edition.Boca Roton,Ann Arbor,London,Tokyo,1993
+　[14] APHA,AWWA and WAPCF.standard Methods for the Examination of Water and Wastewater,17th edition.Washington D C,1989
+1997-04-04收到原稿　1997-09-04收到修改稿

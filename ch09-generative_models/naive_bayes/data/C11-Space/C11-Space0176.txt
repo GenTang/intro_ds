@@ -1,0 +1,187 @@
+宇航学报 
+JOURNAL OF ASTRONAUTICS
+1998年 第19卷 第1期 No1 Vol.9 1998科技期刊
+
+　　压电桁架结构动力学建模与振动控制*
+聂润兔　邵成勋
+(哈尔滨工业大学*哈尔滨*150001)
+邹振祝
+(石家庄铁道学院*石家庄*050043)
+　　摘　要　考虑叠层压电陶瓷主动杆件的机电耦合效应,建立了压电桁架结构机电耦合有限元动力学模型。给出结构系统检测方程,并分析其动态特性,除位移模态外,得到了系统电势模态。采用独立模态空间控制方法对结构振动进行控制,并进行压电主动杆件的多目标最优配置,除控制能量最小化外,对非控模态的控制溢出和观测溢出最小化是另外两个优化配置目标函数。算例表明分析方法的有效性和可行性。
+　　主题词　桁架　压电元件　建模　振动控制　优化优置
+DYNAMIC MODELING AND VIBRATION CONTROL
+OF PIEZOELECTRIC TRUSS STRUCTURES
+Nie Runtu　Shao Chengxun
+(Department of Astronautics Mechanics,Harbin Institute of Technology*Harbin*150001)
+Zou Zhenzhu
+(Department of Transportation,Shijiazhuang Railway Institute*Shijiazhuang*050043)
+　　Abstract　Considering the mech-electric coupling properties of the stack-shaped piezoelectric ceramic actuators/sensors,the finite element formulas are presented for modeling the dynamic response of piezoelectric truss structures with integrated piezoceramic actuators/sensors subjected to both mechanical and electrical loadings.The dynamic characteristics of the structure systems are analyzed.In addition to the sensing equations,the displacement and electric potential modes of the structure systems are derived as well.Optimal placement strategies developed in conjunctiion with the independent modal space control of vibration are used to find the optimal placements of piezoceramic actuators/sensors.In addition to minimization of control effort,the minimization of control and observation spillover energy into uncontrolled modes are two additional obiectives which can be taken into account by optimization procedure.A simple numerical example is given to show the validation of the analysis methods.
+　　Key words　Truss　Piezoelectric actuators/sensors　Dynamic modeling　Vibration controlOptimal placement
+1　引　言
+　　压电桁架结构以多层压电陶瓷薄片叠合精制而成的主动杆件为其重要组成部分,起到承载、检测变形和控制结构静/动态特性等多重作用,可满足未来航天工程对结构系统的高性能要求［1-4］。
+　　准确建模是压电桁架结构静/动态分析和控制的基础。目前,大多数文献如［5～7］均把桁架主动杆伸缩长度作为控制量来进行结构形状、振动控制以及主动杆件和被动阻尼杆件的最优配置研究,而没有考虑主动杆压电元件的机电耦合性质。Lammering［8］考虑了这种耦合性质并进行了压电作动元件的最优配置研究,但把元件视为两端敷有电极的压电材料均质杆,没有考虑到元件的实际叠合情况,这样由于电场边缘效应会使电势线性分布假设失真,必然影响到分析结果。
+　　因此,本文视压电陶瓷元件为多层叠合体,考虑其机电耦合性质,建立压电桁架结构的机电耦合动力学模型,并进行振动控制中结构压电主动杆件的多目标最优配置研究。
+2　结构系统机电耦合动力学建模
+
+
+
+图1　压电元件及其薄片单元简图
+轴向伸缩压电元件及其薄片单元如图1所示,各单元极化沿轴向厚度方向,在准静态电场条件下,其等效线性压电本构方程可写为:
+D3=e33S3+ε33E3
+(1)
+T3=c33S3-e33E3
+(2)
+　　方程(1)、(2)分别描述材料正、逆压电效应,其中D3、E3分别为电位移(C/m2)和电场强度(N/C或V/m)轴向分量;S3、T3分别为轴向应变和应力(N/m2)分量;e33、ε33及c33分别为材料等效压电系数(C/m2)、介电系数(C/m*V)和弹性刚度系数(N/m2)。
+　　压电元件在机械和电载荷作用下,其机电耦合动力学方程可用Hamilton原理表述为:
+
+(3)
+
+
+
+图2　元件位移、电势分布示意图
+其中Ki、Ui和δ′Wi分别为薄片单元i的动能、势能及对应载荷所作虚功。
+　　整个元件均匀变形,位移线性分布。元件各薄片单元内具有相同的匀强电场,电势线性分布并设单元下表面电势为零,如图2所示。通过引入位移和电势的线性分布模式,由方程(3)可以得到压电元件机电耦合动力学方程:
+(4)
+［kwφ］T{w}-kφφφb=q　　　　　　　(5)
+其中{w}、{p}为元件端部的位移和外力列阵;φb为薄片单元上表面电势;q为元件总自由电荷量;各系数阵:
+
+分别为元件质量阵、机械刚度阵、耦合刚度阵及介电刚度系数,式中m为元件质量,A为元件横截面积,N为薄片单元数,l为元件总长,lt为薄片单元厚度。
+　　当外载q为零时,电势与元件相对变形成正比,从而可用来检测元件变形。
+　　压电桁架由含有压电元件的主动杆件和普通杆件铰接而成,考查其整体平衡,得到结构系统机电耦合动力学方程:
+
+(6)
+［KWφ］T{W}-［Kφφ］{φ}={Q}
+(7)
+其中{W}、{P}为结构结点位移和结点力列阵;{φ}、{Q}为所有压电元件电势坐标和电载荷列阵,且{Q}可作为控制量;［MWW］、［KWW］为质量和机械刚度阵;［KWφ］为耦合刚度阵;［Kφφ］为介电刚度阵。
+　　当电载荷为零时,由方程(7)可得结构系统变形检测方程:
+{φ}=［Kφφ］-1［KWφ］T{W}
+(8)
+　　由方程(6)、(7)可得电势坐标缩减后的结构系统动力学方程:
+
+(9)
+其中［K*Wφ］=［KWW］+［KWφ］［Kφφ］-1［KWφ］T可以理解为考虑耦合效应时的广义刚度矩阵。
+3　结构振动的独立模态空间控制
+　　从方程(9)可得结构振动广义特征值问题为:
+［K*Wφ］{u}=ω2［MWW］{u}
+(10)
+其中{u}为对应固有频率ω的位移模态向量。
+　　由于建模时考虑机电耦合效应,广义刚度阵［K*Wφ］较不考虑耦合效应时刚度阵［KWW］附加了至少为对称半正定的矩阵［KWφ］［Kφφ］-1［KWφ］T,根据特征值扰动理论可知:考虑机电耦合效应时结构各阶固有频率均较不考虑耦合效应时对应阶固有频率高。
+　　对检测方程(8)作模态坐标变换可得:
+{φ}=［Kφφ］-1［KWφ］T［U］{y}
+(11)
+其中［U］为正则模态阵;{y}为模态坐标。
+　　方程(11)中系数阵［Kφφ］-1［KWφ］T［U］的各列可理解为对应各阶固有频率的电势模态,其秩等于矩阵［KWφ］的秩。
+　　结构待控和剩余模态运动方程可统一写作:
+
+(12)
+{fi}=［Ui］T［KWφ］［Kφφ］-1{Q}
+(13)
+其中下标i取c、r分别对应待控和剩余模态方程;第k个待控模态方程可写作:
+
+(14)
+其中Sc表示待控模态标号集合。
+　　采用LQR方法［9］对第k阶模态振动进行最优控制得相应的模态控制力:
+
+(15)
+其中r*k=1/rk,而rk为二次型性能指标中关于模态控制力的正值加权因子。
+　　将式(15)代入方程(14)得第k阶闭环模态方程
+
+(16)
+　　由式(15)及方程(16)可知,待控模态各阶模态控制力与结构机械激励和初始条件有关。又由式(13)可知,由模态控制力对结构振动的物理控制量的求取随主动杆的配置有多种不同的结果,这样就产生了基于某些指标函数的主动杆件最优配置问题。
+4　结构压电主动杆件多目标最优配置
+　　不妨假设结构所有m个可行位置均配置有压电元件,然后根据u个待控模态选取v个元件为控制元件,这样不仅可以得出最优配置的一些定性结论,而且免去了因主动杆的不同配置而进行的有限元重复建模和分析。
+　　引入m×v维控制元件位置的选择矩阵［Sa］,由式(13)可以得:
+{fc}=［Uc］T［KWφ］［Kφφ］-1［Sa］{Qc}
+(17)
+其中{Qc}为结构v×1维控制电荷矢量,可写为
+{Qc}=(［Uc］T［KWφ］［Kφφ］-1［Sa］)-1{fc}
+(18)
+其中矩阵求逆当v≠u时可视为广义逆。
+　　为使结构控制能量最小,可选指标函数:
+C1=‖(［Uc］T［KWφ］［Kφφ］-1［Sa］)-1‖F→min
+(19)
+其中‖*‖F表示相应矩阵的Frobenius范数。
+　　由(13)、(18)式可得控制对剩余非控模态的溢出模态力为
+{fr}=(［Ur］T［KWφ］［Kφφ］-1［Sa］)(［Uc］T［KWφ］［Kφφ］-1［Sa］)-1{fc}
+(20)
+　　为使控制溢出能量最小,可选指标函数:
+C2=‖(［Ur］T［KWφ］［Kφφ］-1［Sa］)(［Uc］T［KWφ］［Kφφ］-1［Sa］)-1‖F→min
+(21)
+　　如压电陶瓷元件同时具有作动和检测功能,则元件检测信号据(11)可写作:
+{φc}=［Sa］T｛φ｝=［Sa］T［Kφφ］-1［KWφ］T［Uc］{yc}+［Sa］T［Kφφ］-1［KWφ］T［Ur］{yr}
+(22)
+　　为提高对待控模态坐标的检测精度,尽量减少观测溢出,应使检测信号中含有尽可能丰富的待控模态成份。为此,由方程(22)并注意到‖［A］‖F=‖［A］T‖F,可写出指标函数:
+C3=‖［Ur］T［KWφ］［Kφφ］-1［Sa］‖F/‖［Uc］T［KWφ］［Kφφ］-1［Sa］‖F→min
+(23)
+　　考虑到如上三方面的因素,结构主动杆件多目标最优配置问题可描述为:
+Vector-min［Sa］∈S{C1,C2,C3}
+(24)
+　　该多目标优化问题的设计变量［Sa］是离散的可能配置状态,即要从所有可能配置状态集S中选取一个最优状态,使各指标函数在综合意义下均接近最小。主动杆配置状态集S是有穷集,其元素个数为Cvm,当该数较小时,可按某种方式来搜索最优配置状态;一般情况下这个数很大,对所有可能配置状态的完全搜索工作量相当大,解决该组合优化问题的有效方法是利用确定或随机的启发式寻优方法,如随机搜索的模拟退火算法和遗传算法［10］。
+　　特别地,当利用一个主动杆件(v=1)来控制结构第k阶模态振动时,各目标函数可写作:
+C1=1/｜［Sa］T［Kφφ］-1［KWφ］T{uk}｜
+(25)
+C2=C3=‖［Sa］T［Kφφ］-1［KWφ］T［Ur］‖F/｜［Sa］T［Kφφ］-1［KWφ］T{uk}｜
+(26)
+　　观察(25)、(26)两式分母可知,［Kφφ］-1［KWφ］T{uk}为第k阶电势模态向量,它可以描述结构作第k阶模态振动时各杆件的相对变形大小。因此,要使各目标值最小,可选第k阶模态振动中相对变形较大的杆件作为主动杆,此时,对应阶电势模态向量中绝对值最大的数所在位置
+
+
+
+图3　平面桁架结构
+直接决定了单个主动杆件的最优配置。
+5　算例分析
+　　如图3所示简单平面桁架,为避免结构主动杆配置寻优过程中的有限元重复建模和分析,设横(或竖)杆及斜杆分别由100和141片厚度为1cm,横截面积为3cm2的压电陶瓷PZT-4圆形薄片叠合而成,其结构参数如表1所示。
+表1　结构参数列表
+
+参数ρ(kg/m3)A(m2)C33(N/m2)e33(C/m2)ε33(C/V*m)
+参数值76003.0×10-48.807×101018.625.92×10-9
+
+　　对考虑结构机电耦合效应与否两种情况进行动态分析,结构前三阶固有频率比较见表2,可知由于考虑了机电耦合效应,结构固有频率均有所增高,这样的模型更完整准确。
+表2　结构固有频率比较(rad/s)
+
+固有频率属　性耦　合非耦合
+第一阶横向弯曲367.9284.9
+第二阶横向弯曲1124.8870.9
+第三阶纵向伸缩1564.41212.1
+
+　　结构前三阶欧几里德范数归一的电势模态向量如表3所示,该电势模态向量可以描述结构各阶模态振动时各杆件的相对变形,直接用于单个主动杆件控制某一阶模态振动时的最优配置。
+表3　结构电势模态列表
+
+{φ}φ1φ2φ3φ4φ5φ6φ7φ8φ9φ10φ11φ12
+第一阶0.624-0.375-0.3380.2420.351-0.309-0.1160.1630.119-0.150-0.0030.039
+第二阶-0.1240.549-0.463-0.2110.2790.007-0.4010.1130.262-0.306-0.0610.083
+第三阶0.3820.2540.572-0.1450.4550.0990.342-0.0140.290-0.0660.1330.019
+
+　　分别控制结构前一、二、三阶模态振动时,设主动杆数与待控模态数相等。利用理想点法［11］,通过对所有可能配置状态的完全搜索,可得结构主动杆多目标最优配置结果如表4所示,可知由于考虑对特定阶模态的溢出效应,最优配置结果只能是综合意义下的非劣解。
+表4　结构振动控制主动杆件最优配置
+
+待控模态不考虑溢出考虑对特定阶的溢出
+1st16(2nd)6(2nd,3rd)1(2nd-12th)
+1st,2nd1,36,10(3rd)2,5(3rd,4th)2,3(3rd-12th)
+1st-3rd1,2,31,3,4(4th)2,3,5(4th,5th)1,2,3(4th-12th)
+
+　　注:(*)表示考虑对特定阶模态*的溢出
+　　　　分别利用如上选定的1＃和6＃杆控制结构第一阶模态振动。设初始条件为结点A的y方向作用200N的力后无初速地释放,机械外载等于零。要求控制达到阻尼比0.01,1＃和6＃杆控制电压分别在区间［-69,69］、［-99,99］(V)以内,但6＃杆控制对第二阶模态的响应溢出比1＃杆控制对同阶模态的响应溢出低一个数量级,因而综合考虑选择6＃杆作为主动杆是合适的,其控制电压和考虑响应溢出时结点A的y方向位移响应时间历程曲线分别如图4和图5所示,二者相位正好相反。
+
+
+
+图4　6＃杆控制电压时间历程曲线
+
+
+图5　结点A、y方向位移响应历程曲线
+由图5可见,控制使振动很快衰减,由于响应溢出很小,同待控模态响应迭加后其影响也非常小,只是在振动控制末期才可从衰减曲线上看出溢出效应的存在和影响。
+6　结束语
+　　本文建立了压电桁架结构机电耦合动力学模型,并结合振动的独立模态空间控制进行压电主动杆件的多目标最优配置,其建模和分析方法可推广到更为复杂的空间结构的分析与控制问题中。
+参考文献
+1　Crawley E F.Intelligent Structures for Aerospace:A Technology Overview and Assessment.AIAA Journal,1994,32(8):1689-1699
+2　董聪,夏人伟.智能结构设计与控制中的若干核心技术问题.力学进展,1996,26(2):166-178
+3　Wada B K.Adaptive Structures:An Overview.Journal Spacecraft Rockets,1990,27(3):330-337
+4　Anderson E H,Moore D M,Fanson J L.Development of An Active Member Using Piezoelectric and Electrostrictive Actuation for Control of Precision Structures.AIAA paper 90-1085-CP
+5　Chen G S,Bruno R J,Salama M.Optimal Placement of Active/Passive Members in Truss Structures Using Simulated Annealing.AIAA Journal,1991,29(8):1327-1334
+6　Sun C T,Wang T.Damping Augmentation by Delayed Actuation in Adaptive Structures.AIAA paper 93-1692-CP
+7　Lu L Y,Utku S,Wada B K.Vibration Suppression for Large Scale Adaptive Truss Structures Using Direct Output Feedback Control.Journal of Intelligent Material Systems Structures,1993,4(3):385-397
+8　Lammering R,Jia J H,Rogers C A.Optimal Placement of Piezoelectric Actuators in Adaptive Ttruss Structures.Joumal of Sound and Vibration,1994,171(1):67-85
+9　王子才,赵长安.应用最优控制.哈尔滨:哈尔滨工业大学出版社,1989:152-212
+10　Anderson E H,Hagood N W.A Comparison of Algorithms for Placement of Passive and Active Dampers.AIAA paper 94-1656-CP
+11　胡毓达.实用多目标最优化.上海科学出版社,1990:40-64
+*国家教委博士点基金(批准号9521305)和国家自然科学基金(批准号19632001)资助项目
+本文于1996年7月11日收到

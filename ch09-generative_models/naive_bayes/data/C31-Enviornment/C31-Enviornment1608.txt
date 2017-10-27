@@ -1,0 +1,122 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第2期 No.2 1999
+
+
+
+催化氧化处理糠醛废水
+吴林友　曹中秋　韩光喜　程殿柱　蒋湘顺
+　　摘要：用H2SO4作催化剂,过氧化氢氧化好氧法,再经过活性炭吸附和离子交换树脂处理,使好氧法处理过的糠醛废水CODCr值从2320mg/L降至156mg/L,CODCr去除率达到93.3%,为糠醛废水处理提供了科学依据.
+　　关键词：糠醛废水；催化氧化；硫酸；过氧化氢；活性炭
+　　中图分类号：X703　　文献标识码：A　　文章编号：1000-6923(1999)02-0183-02
+Treatment of a furfural-byproduct wastewater by catalytic oxidation using perhydrol.
+WU Lin-you　CAO Zhong-qiu　HANGuang-xi　CHENG Dian-zhu　JIANG Xiang-shun
+(College of Chemical Science and Engineering, Liaoning University, Shenyang 110036,China). China Environmental Science.1999,19(2)：183～184
+Abstract：The laboratory-scale treatment of a furfural-byproduct wastewater by catalytic oxidation using sulfuric acid with perhydrol was investigated. A new process of catalytic oxidation-actived carbon adsorption-ion exchange resin technique for treatment of furfural-byproduct wastewater was studied. With CODCr removal efficiencies of ＞93%, CODCr was reduced from 2320 mg/L to 156 mg/L.
+Key words：furfural-byproduct wastewater；catalytic oxidation；sulfuric acid；perhydrol；actived carbon
+　　以玉米芯为原料、年产2500t的糠醛厂排放废水约7.5万t.辽宁省内这样的工厂约35家,每年往辽河排放废水约有263万t, 严重污染辽河水质,因此急待处理糠醛废水.文献报道了处理糠醛废水的几种方法[1,2],其中,用厌氧方法[3]处理糠醛废水,CODCr去除率约 达90%.而沈阳某工厂用好氧方法处理糠醛废水,CODCr去除率仅为87%左右,CODCr值约2320mg/L,达不到废水排放标准.本文所述的催化氧化法,经过活性炭吸附和离子交换树脂处理糠醛废水后,CODCr的去除率达93.3%,CODCr值可从2320mg/L降至156mg/L,pH值约为7,达到国家有关规定的废水排放标准.该项处理技术在文献中尚未见报道.
+1 实验方法
+1.1 试验水样 
+　　某厂用好氧方法处理过的糠醛废水, CODCr值约为2320mg/L,pH值约为6.5,总酸度0.00025N.
+1.2 实验步骤 
+　　取50mL水样,加一定量的H2SO4和33%的H2O2,加热回流,冷却后加固体Ca(OH)2调节pH值为6.7～7.0,经砂滤除去固体物,滤液经活性炭吸附后,作条件实验,水样按常规方法测定CODCr值[4],用吸量管准确取5 mL经活性炭吸附后的滤液,通过混合离子交换树脂柱(1cm×20cm玻璃柱),再用去离子水冲洗离子交换树脂柱,用250mL容量瓶截取约240mL流出液,定容250mL.然后准确取出50mL溶液,测定CODCr.
+2 结果和讨论
+2.1 实验条件
+　　2.1.1 酸度对CODCr值的影响 在加热温度为100℃, H2O21.00mL条件下,H2SO4含量对CODCr值的影响见表1.由表1可知,当加入0.40mL H2SO4时,CODCr值最小,去除率最大.酸含量低时,酸度不够,酸含量高时,可能会有部分有机化合物发生磺化反应,不利于活性炭吸附,所以CODCr值增大,去除率降低.当酸含量为0.4mL时,在酸催化下,糠醛更容易被H2O2氧化生成有色聚合物,更易被活性炭吸附,所以CODCr值最小,去除率最大.
+表1 不同H2SO4含量对CODCr值的影响
+Table 1 Influence of various sulfuric acid contenton CODCr value
+
+浓H2SO4
+(mL)CODCr
+(mg/L)CODCr去除率
+(%)
+0.1
+0.2
+0.4
+0.6672
+594
+468
+55870
+74
+80
+76
+
+
+2.1.2 H2O2加入量对CODCr值的影响 在H2SO4含量为0.4mL,加热温度为100℃时, H2O2加入量对CODCr值的影响见表2.由表2可以看出,加入0.50mL时,CODCr值最小,CODCr去除率最大.再增加H2O2, CODCr值几乎不变.
+表2 H2O2加入量对CODCr值的影响
+Table 2 Influence of various perhydrol content on CODCr value
+
+H2O2
+(mL)CODCr
+(mg/L)CODCr
+(%)
+0.10
+0.15
+0.25
+0.50
+1.001024
+867
+726
+468
+47056
+63
+69
+80
+80
+
+
+2.1.3 加热温度对CODCr值的影响 在加入0.40mL H2SO4,0.50mL H2O2条件下,加热温度对CODCr值的影响见表3.由表3可知,加热温度为100℃,CODCr值最小,CODCr去除率最大.
+表3 加热温度对CODCr值的影响
+Table 3 Influence of heating temperature on CODCr value
+
+加热温度
+(℃)CODCr
+(mg/L)CODCr去除率
+(%)
+40
+60
+80
+1002208
+1873
+868
+4685
+19
+62
+80
+
+
+2.1.4 加热时间对CODCr值的影响 在加入0.40mL H2SO4,0.50mL H2O2,加热温度100℃条件下,加热时间对CODCr值的影响见表4.由表4可知,加热时间为5min时,CODCr值最小, CODCr去除率最大.加热时间为7min时,CODCr值几乎不变化,实际上加热5min时, H2O2几乎全部分解,再延长加热时间已无意义.
+表4 加热时间对CODCr值的影响
+Table 4 Influence of heating time on CODCr value
+
+加热时间
+(min)CODCr
+(mg/L)CODCr去除率
+(%)
+1
+3
+5
+72210
+1200
+468
+4745
+46
+80
+80
+
+　　
+　　由上述实验结果看出,最佳条件为加入0.40mL H2SO4,0.50mL H2O2,加热温度100℃,加热时间5min.
+2.2 水样通过混合离子交换树脂柱试验
+　　在上述最佳试验条件下处理的水样,通过离子交换树脂柱后,糠醛废水的CODCr值从2320mg/L降至156mg/L,CODCr的去除率为93.3%,已达国家有关规定的标准.
+3 结论
+　　采用催化氧化联合活性炭吸附和混合离子交换树脂法处理好氧方法处理过的糠醛废水,CODCr为156mg/L,CODCr去除率为93.3%,pH值约为7.0,出水清澈可回用.
+致谢：参加工作的还有本院于保强,王雅琴同志,在此表示感谢.
+作者单位：吴林友　曹中秋　韩光喜　程殿柱　蒋湘顺（辽宁大学化学科学与工程学院,辽宁 沈阳 110036）
+* 辽宁大学化学科学与工程学院九八届毕业生
+作者简介：吴林友(1945-),男,辽宁营口人,现任辽宁大学化学科学与工程学院环境科学与工程系副教授,主要从事有机催化研究和教学工作.参加国家自然科学基金项目.主持参加7项辽宁省教委资助项目.获辽宁省教委科技进步三等奖2项,通过辽宁省级专家鉴定项目1项.发表论文40篇.
+收稿日期：1998-06-29
+参考文献：
+　[1] 陈玉莲,周广浚.膜分离技术在糠醛废水处理中的应用[J].石油化工, 1987, 16(9): 645-694.
+　[2] 单逢源.农产物有机化工 [M].济南:山东出版社,1979.121.
+　[3] Wirtz,Randall A,Dague,et al.Anaerobic treatment of furfural-tioduction waste manage [J].Wastewater,1993, 13(4):309-315.
+　[4] 蒋展鹏,祝万鹏.环境工程监测[M].北京:清华大学出版社, 1990. 299-301.

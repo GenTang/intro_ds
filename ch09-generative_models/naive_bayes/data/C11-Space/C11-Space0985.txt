@@ -1,0 +1,77 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+DZ22/NiCrAlY 涂层抗氧化性能研究
+纪艳玲
+摘要： 为了提高DZ22合金的高温抗氧化性能，利用磁控溅射技术沉积了NiCrAlY涂层。周期氧化试验表明，涂覆NiCrAlY涂层后DZ22/ NiCrAlY系统周期氧化总寿命高于2000h, 较未施加涂层的DZ22提高10倍以上。涂层中微量元素Y和RE的适当增加，可进一步改善涂层的抗高温氧化性能。
+关键词： 高温合金； 涂层； 抗氧化性能
+中图分类号： V261.93　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0033-04
+
+An investigation on oxidation resistance
+of DZ22/NiCrAlY coating
+JI Yan-ling
+(Institute of Aeronautical Materials， Beijing 100095， China)
+Abstract： NiCrAlY coatings on DZ22 superalloy are prepared by magnetic sputtering deposition to improve the high temperature oxidation resistance of DZ22 superalloy. The results of cyclic oxidation test shown that the cyclic oxidation life of DZ22/NiCrAlY system is about 2000h, which is 10 times as the cyclic oxidation life of DZ22. The high temperature oxidation resistance can be improved by increasing the Y and RE in coating.
+Key words: superalloy； coating； oxidation resistance
+
+　　DZ22合金是我国目前性能较高的定向凝固铸造高温合金，具有较好的高温持久性能和优异的抗热疲劳性能，主要用于制作1000℃以下工作的燃气涡轮转子叶片和1050℃以下工作的导向叶片。由于DZ22合金中Cr和Al含量较低（Cr为9wt％，Al为5wt％）, 且含有较高的W元素, 因此DZ22合金的抗高温氧化和耐高温腐蚀性能较差。解决这一问题的主要技术措施是在合金表面涂覆抗高温氧化和耐高温腐蚀的涂层［1］。
+　　NiCrAlY 涂层是一种以镍为基的合金包覆涂层，具有抗高温氧化和耐高温腐蚀性能好，涂层基体稳定性好等优点，是一种比较适合于DZ22合金的抗氧化抗高温腐蚀涂层［2］。本文主要介绍在DZ22合金上利用磁控溅射技术沉积的NiCrAlY涂层的高温抗氧化性能。
+1　实验过程
+　　DZ22合金的成分(wt%)为：C0.12～0.16,Cr8.0～10.0,Ni Bal.,Co9.0～11.0,W11.5～12.5,Al 4.75～5.25,Ti1.75～2.25,Fe≤0.35,Nb0.75～1.25,Hf1.0～2.0,B0.01～0.02,Zr≤0.1。NiCrAlY 涂层采用磁控溅射技术在专用设备上根据研究确定的工艺进行［3］。涂层的制备过程如下：首先将清洗干净的试样装入真空室，再经离子轰击清洗后，预热至900℃保温10min后开始溅射沉积涂层。沉积过程中试样以1rpm的速度旋转并施加负偏压，溅射沉积好涂层的试样最后在真空炉中进行扩散处理。涂层的化学成分如表1所示。
+　　涂层的抗氧化性能采用周期氧化试验方法测定。试样尺寸为30mm×10mm×1.5mm。周期氧化试验过程如下：将试样置于瓷舟中，在空气炉中加热到1000℃后保温60min，室温冷却15min作为一周期。如此反复进行。在试验过程中定时称量，称量时氧化皮任其自然脱落，根据重量变化（ΔG）与时间（t）的关系曲线来比较评定涂层的抗氧化性能。周期氧化试验方法基本模拟了航空发动机冷热交变的工作状态，其结果比静态氧化更加接近实际。
+表1　NiCrAlY 涂层化学成分
+Table 1　Composition of NiCrAlY coating
+
+CoatingThickness of coating
+/μmComposition/wt%
+NiCrAlYRE
+JY1F2472.017.710.00.240.17
+JY1E2769.517.012.80.310.22
+
+
+
+
+图1　DZ22合金1000℃下的周期氧化试验结果
+Fig.1　Cyclic oxidation behaviour of DZ22 superalloy at 1000℃
+2　结果和讨论
+　　图1是DZ22合金在1000℃时的周期氧化试验结果。在100h 以前，DZ22合金的氧化比较缓慢，氧化增重与时间的关系符合对数关系。100h后氧化皮脱落明显增加，氧化增重减小，200h后氧化皮严重脱落。金相观察表明，周期氧化300h后DZ22合金表面有元素贫化带，表层氧化深度达30μm，有内氧化迹象出现。
+　　涂覆NiCrAlY涂层后的DZ22合金的周期氧化结果如图2。从图中可以看到，DZ22/JY1F周期氧化过程中重量随时间的变化可分为2个阶段，第一阶段中氧化速度比较慢，重量增加基本符合对数关系；从周期氧化700h后为第二阶段，此时氧化加剧，并开始有微量粉末脱落,重量增加速度为负值。但在周期氧化时间达1367h后，重量变化仍为正值。金相观察表明，此时涂层氧化已经发展到相当的深度，但还没有达到基体，涂层仍有保护作用。而DZ22/JY1E在周期氧化1367h时, 重量增加速度始终为正值,氧化比较慢。
+
+
+图2　DZ22/JY1 1000℃时周期氧化试验结果
+Fig.2　Cyclic oxidation behaviour of DZ22/JY1 at 1000℃
+　　DZ22和DZ22/JY1F在周期氧化过程中ΔG是氧化增重和氧化物脱落的综合结果，在曲线100～700h之间的微小波动则是这一综合结果更进一步的具体反映。当ΔG随时间的增加而按对数关系缓慢增长时，说明此时材料/涂层系统在氧化条件下有自愈能力。当ΔG随时间的增加开始下降时，说明此时开始出现氧化剥落，以牺牲涂层本身而继续保护基体。在ΔG-t曲线上，ΔG出现连续下降之前的时间为自愈寿命，此后通过涂层本身的消耗获得的保护作用时间称为保护寿命。未施加涂层的DZ22合金在1000℃时自愈寿命仅为200h；施加JY1E 和JY1F涂层后其自愈寿命分别大于1367h和700h。JY1F在经过1367h周期氧化后，其涂层的氧化深度为12μm。假定在周期氧化过程中保护寿命期内涂层的消耗是相同的,那么JY1F涂层的保护寿命为1300h。涂覆涂层后基体/涂层系统在周期氧化中的总寿命为自愈寿命和保护寿命之和，DZ22/JY1F涂层系统的总寿命应在2000h以上。与DZ22相比，抗周期氧化能力提高约10倍。表2为DZ22和DZ22/JY1涂层经1000℃周期氧化的自愈寿命和保护寿命。
+　　JY1E涂层和JY1F涂层相比主要差别是前者Y和RE的含量较高，而JY1E涂层的自愈寿命明显高于JY1F涂层的自愈寿命，因此在涂层中适当提高Y和RE的含量，将有利于改善涂层的抗周期氧化性能。
+
+表2　DZ22和DZ22/JY1周期氧化寿命
+Table 2　Cyclic oxidation life of DZ22 and DZ22/JY1
+
+CoatingThickness
+of coating
+/μmTesting
+timeSelf-recover
+lifeMean protection
+life
+/h.μm-1Total life
+/h
+/h
+DZ22　300200　200
+DZ22/JY1E241367>136785>2000
+DZ22/JY1F271367700＞50.62000
+
+　
+
+3　结束语
+　　DZ22/JY1涂层系统具有较好的抗周期氧化性能，施加涂层后的DZ22周期氧化总寿命高于2000h, 较未施加涂层的DZ22提高10倍以上。涂层中适当增加Y和RE的含量，可进一步改善涂层的抗高温氧化性能。
+作者简介： 纪艳玲(1957-)， 女， 高级工程师
+作者单位：北京航空材料研究院， 北京　100095
+参考文献：
+［1］　邓新建.DZ22合金和VPS MCrAlY涂层材料高温腐蚀试验研究.中国腐蚀与防护学报，1997，
+　　　　17：441
+［2］　纪艳玲.DZ22合金NiCrAlY保护涂层初步研究.见：铸造高温合金论文集.中国科学技术出版
+　　　　社，1993.260
+［3］　范瑞麟.磁控溅射沉积MCrAlY涂层技术研究.真空科学与技术，1994，14(1)：21
+收稿日期： 1999-04-09

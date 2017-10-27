@@ -1,0 +1,138 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+双马来酰亚胺/E-玻璃布
+复合材料的研制
+陈立新 　孙曼灵 　周希真 　郑水蓉
+摘要： 研究了用于雷达罩的改性双马来酰亚胺(BMI)/E-玻璃布复合材料板的介电性能、温度对材料力学性能的影响以及耐热性能，并采用波导法测定了改性BMI/E-玻璃布复合材料雷达罩的透波率。结果表明，这种材料能够满足雷达罩的介电性和耐热性要求。
+关键词： 雷达罩； 介电性； 耐热性； 透波率
+中图分类号： TV254.2　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0057-06
+
+Study on BMI/E-glass cloth composite
+CHEN Li-xin　　SUN Man-ling　　ZHOU Xi-zhen　　ZHENG Shui-rong
+(Northwestern Polytechnical University, Xi′an 710072， China)
+Abstract： With the development of high load and flying speed tactical missile radar,the materials for radome are required to satisfy the demands,such as electric property,thermal property and dynamic property,etc.Therefore,this paper studied the dielectric property,the effect of temperature on dynamic property and the resistance to heat of modified BMI/E-glass cloth composite.Wave penetrating ratio of the radome material was tested by wave guide method.The result shows that the composite can meet the demands of radome because it has enough mechanical strength,good resistance to heat and good dielectric property.
+Key words: radome; dielectric property; resistance to heat; wave penetrating ratio
+
+　　高载荷、高飞行速度战术导弹的发展，使毫米波导弹雷达系统越来越受到重视。飞机外悬式导弹雷达要遇到激烈变化的天气条件，即在高速飞行时，由于气动加热在雷达上产生的表面温度很高。在飞行环境中，还会受到雨滴的冲击等，这些都会影响雷达的正常工作。因此，必须在雷达系统的外面加保护的整流罩［1］。
+　　用作导弹雷达罩的材料通常分为2类，一类为无机材料，如氧化铝、二氧化硅、玻璃陶瓷、氮化硅、氮化硼等；另一类为耐热树脂基纤维复合材料，所用的耐热树脂有有机硅、酚醛、聚酰亚胺、聚苯硫醚、聚醚砜、聚苯并咪唑等。所用的纤维主要有E-玻璃、S-玻璃、D-玻璃、高硅氧玻璃、石英玻璃纤维等。上述材料，无论是无机还是有机材料，国外在制备雷达罩时都有应用(有的正处于研制阶段)。国产地面及机载雷达罩都采用E-玻璃纤维复合材料，还有用微晶玻璃及Al2O3陶瓷的。无机材料在厘米波范围内能满足雷达罩电气性能的要求，使用性能良好。但对毫米波段，则显示较大的缺点(如强度低、壁较厚等)。在毫米波范围内，多选用耐热树脂基复合材料。
+　　雷达罩要求的材料强度、刚度如表1所示。
+
+表1　室温下的动态力学性能， MPa
+Table 1　Static dynamic properties at room temperature， MPa
+
+Tensile strengthCompressive strengthBending strength
+300280300
+
+　
+　　在考察了用于毫米波雷达罩各种材料的综合性能后，我们选用了改性BMI/E-玻璃布复合材料作为雷达罩材料，对复合材料板的介电性能、力学性能、耐热性能进行了研究，并测试了雷达罩的透波率。本文介绍了改性BMI/E-玻璃布复合材料在高频透波范围的应用，对毫米波雷达罩的选材具有一定的参考价值。
+1　实　验
+1.1　原材料
+　　改性BMI树脂，西北工业大学研制。
+　　EW160-90，斜纹玻璃布，厚0.174mm，KH-550处理，南京玻纤院生产。
+　　EW60，平纹玻璃布，厚0.060mm，KH-550处理，陕西玻纤院生产。
+1.2　复合材料的制备及固化工艺
+　　
+　　100℃/0.5h→130℃/0.5h→150℃/2h→180℃/2h。
+　　压力：0.07MPa。
+　　后处理：220～230℃/6h。
+1.3　测试方法［2］
+1.3.1　介电性能
+　　复合材料板的介电常数及介电损耗角正切，雷达罩的透波率均采用波导法进行测试，试件尺寸为7.11mm×3.55mm×(4±0.05)mm，中国计量科学研究院测定。
+1.3.2　室温力学性能
+　　拉伸强度：GB 1446-83。
+　　弯曲强度：GB 1449-83。
+　　层剪强度：GB 3357-82。
+1.3.3　耐热性
+　　热变形温度：参照GB 1634-76。
+2　结果与讨论
+2.1　改性BMI/E-玻璃布复合材料的介电性能
+　　复合材料的电性能是由基体材料和增强材料的电性能决定的。并受到树脂含量、溶剂挥发、固化程度及孔隙等因素的影响。表2给出了改性BMI/E-玻璃布复合材料的电性能参数。
+
+表2　改性BMI/E-玻璃布复合材料的电性能， f=35.0GHz
+Table 2　Electric property of modified BMI/E-glass cloth composite, f=35.0GHz
+
+Sample＼PropertyWm%Vf%Vv%εctgδ×10-2
+129.854.11.04.321.40
+235.747.43.24.041.44
+338.644.34.93.881.46
+
+　
+
+　　从表2的结果看出，介电常数随树脂含量的增大而降低，介电损耗随树脂含量的增大而升高。这是因为E-玻璃的介电常数比树脂的高(分别为6.13和2.81)，而介电损耗比树脂的低(分别为0.0039和0.0104)。
+　　一般说来，复合材料的介电常数与基体和增强材料的介电常数的关系遵循经验式：
+　　　　lnεc=Vflnεf+Vmlnεm+Vvlnεv
+假定εv=1.0，可以算出理论εc。如果考虑到其他因素，εv可能不为1.0，用经验式计算可得到测量的εv，计算结果如表3。
+
+表3　由经验式计算得到的改性BMI/E-玻璃布复合材料的电性能，　f=35.0GHz
+Table 3　Calculating electric property of modified BMI/E-glass cloth composite, f=35.0GHz
+
+Wm%＼PropertyMeasuring εcCalculating εcCalculating εc/
+measuring εcCalculating εv
+29.84.324.3099.5%1.43
+35.74.043.9998.7%1.52
+38.63.883.8298.4%1.37
+
+　
+　　从表3中看到，假定孔隙εv=1.0，计算出的复合材料介电常数εc与实测值相差不大。这说明复合材料的介电常数是遵循经验式所反映的规律。同样，根据经验式也可以算出孔隙的介电常数εv。从表3中可以看到，εv并不为1.0，而是比1.0大。这主要因为孔隙中含有丙酮等挥发份，以及铺层时卷入了微尘杂质。这些都会影响实际测得的εc，使得按经验式算出的εv不为1.0。同时，微尘杂质会大大增加材料的介电损耗。
+2.2　改性BMI/E-玻璃布复合材料的力学性能
+　　改性BMI/E-玻璃布复合材料的力学性能示于表4。对比表1和表4可以看出，该复合材料的力学性能基本上符合雷达对天线罩材料的力学性能要求。
+
+表4　改性BMI/E-玻璃布复合材料的力学性能
+Table 4　Dynamic property of modified BMI/E-glass cloth composite
+
+Property/MPaRoom temperature230℃250℃
+Tensile strength334
+Compressive strength332
+Bending strength502348332
+Shearing strength42.231.019.4
+
+
+
+图1　改性BMI/E-玻璃布复合材料弯曲挠度与温度的关系
+Fig.1　The relation of modified BMI/E-glass cloth
+composite bending deflection to temperature
+
+2.3　改性BMI/E-玻璃布复合材料的耐热性
+　　图1为改性BMI/E-玻璃布复合材料的温度-形变曲线。从图1看到，在156℃以前，弯曲挠度很小，仅为0.01mm。这说明在156℃以前刚度变化很小，长期使用过程中性能变化不大。当温度超过160℃以后，弯曲挠度增大；180℃时的弯曲挠度为0.019mm；296℃时，弯曲挠度为0.123mm。即使如此，与GB 1634-76中规定热变形温度时的挠度值0.21mm仍有很大余量。说明改性BMI/E-玻璃布复合材料的热变形温度很高，适合作为耐高温材料。
+2.4　8mm波雷达天线罩的铺层设计和工艺控制
+　　天线罩为尖锥双曲面形。高约500mm，底部直径约200mm，尖锥角为30°，是典型的流线型天线罩。入射角对其介电性能影响很大。经计算，当天线转角在0°～±46°范围内变动时，电磁波在罩壁各点入射角的变化为30～77°(图2)［3］。
+　　图2中横坐标是雷达罩轴向位置坐标，纵坐标是入射角。曲线1为天线罩的外形轮廓线。曲线2和3分别为按天线边缘处射线确定的X坐标处罩壁上各点的最大和最小入射角。曲线4是按天线中心位置处射线确定的X坐标处罩壁上各点的入射角。其变化范围为45～65°。天线中心位置处射线方向是天线功率最大的方向。曲线5是天线转角α=0°时确定的罩壁相应各点的入射角，此时在沿X=0～220mm范围内的入射角变化范围是65～77°。根据材料介电常数和介电损耗角正切，按透波率｜T｜2=0.80(为了从严要求，把｜T｜2从要求的0.75提高到0.80)进行天线罩电气设计，雷达罩的最佳厚度采用修正半波长的整数倍，按下列公式计算：
+　　　　　　
+厚度公差按下列公式计算：
+　　　　　　
+铺层按下列公式计算：
+　　　　　　
+　　计算结果要求壁厚自顶部至底部由2.45mm至2.20mm递减，壁厚允许公差为±0.03mm。雷达罩采用在凸模上湿法手糊成型，在铺层过程中严格控制树脂含量、溶剂挥发等问题，并采用了逐渐过渡和接缝错开、对接的铺层方法。在固化成型后，对表面进行打磨，涂保护层，以保证最佳壁厚。
+
+图2　电磁波在罩壁上的入射角
+Fig.2　Incident angle of electromagnetic wave on radome　　
+2.5　天线罩的性能
+　　在35GHz条件下测试天线罩的透波率时采用了最苛刻的条件，即天线转角α=0°时的情况。考虑到复合材料的多分散性，测试时将天线罩围绕X轴旋转0°，，π及四个位置，分别测量透波率(表5)。从表5中可以看到，在入射角范围很宽(30～77°)的情况下，天线罩具有较好的透波率，大于0.75的规定指标。
+表5　天线罩的透波率， f=35.0GHz， α=0°
+Table 5　Wave penetrating ratio of radome, f=35.0GHz, α=0°
+
+Position＼Number1＃　Radome2＃　Radome
+0°0.880.890.820.82
+π0.820.840.830.85
+π0.790.790.870.87
+0.860.850.900.90
+Average0.840.86
+
+　
+3　结　论
+　　(1)改性BMI/E-玻璃布复合材料能满足毫米波雷达罩对介电性能、耐热性能和力学性能的要求。
+　　(2)采用湿法铺层、真空成型、烘箱加热方法制造的改性BMI/E-玻璃布复合材料雷达天线罩，平均功率传输系数｜T｜2＞80%(f=35.0GHz)，达到了设计指标。
+作者简介： 陈立新(1966-)， 女， 硕士
+作者单位：西北工业大学化工系， 西安　710072
+参考文献：
+［1］　盛磊.用于微米波雷达罩的材料选择。运载火箭与返回技术，1986，7(1)：31～39
+［2］　欧阳国思，欧国荣.复合材料试验技术.武汉：武汉工业大学出版社，1993，107～117
+［3］　唐邦铭.毫米波复合材料天线罩的研究：［硕士论文］.西安：西北工业大学，1990
+［4］　SCHLIEBEN ERNEST W.Radomes and aircraft design.Aeroautical Engineering 
+　　　　Review,1952,11(5):961～981
+［5］　伍必兴，栗成金.聚合物基复合材料.北京：航空工业部教材编审室，1986，262～267
+收稿日期： 1998-12-05； 修订日期： 1999-03-15

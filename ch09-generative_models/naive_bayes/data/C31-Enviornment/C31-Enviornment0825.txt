@@ -1,0 +1,76 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+我国动力用煤煤灰自身固硫特性的统计分析
+盛昌栋　
+摘要　对186种我国典型动力用煤在实验室制灰条件下煤灰自身固硫特性的统计分析表明，含硫量越高的煤，其Ca/S以及Mg/S、2Na/S和2K/S摩尔比一般越低，因而其煤灰固硫率也越低；钙对煤灰自身固硫起主要作用，固硫率随Ca/S比的增加呈指数增加；而煤中其它碱性成分对固硫也起一定的作用.
+关键词　煤；硫；煤灰.
+Characteristics of sulphur retention in ashes of chinese coals used for power generation
+SHENG Changdong 
+Department of Power Engineering,Southeast University,Nanjing 210096
+Abstract　The characteristics of sulphur retention in laboratory-prepared ash was statistically analyzed based on regular analytical data from a set of 186 coal samples.It is shown that the higher sulphur content of coal is,the lower molar ratio of Ca/S and molar ratios of Mg/S,2Na/S,2K/S are,thus the lower percentage of sulphur retention in ash is.Calcium plays a primary role in sulphur retention,and the percentage of sulphur retained in ash increases as an exponential function with the increment of Ca/S molar ration of coal.The active parts of the rest basic elements(Mg,Na,K,etc.) can also contribute to sulphur retention.It is implied from the results of this investigation that the sulphur retention behavior of laboratory-prepared ash can be applied to fluidized bed combustion and can be used as reference in pulverized coal combustion.
+Keywords　coal,sulphur,ash.
+　　在煤燃烧过程中，煤灰自身有一定的固硫作用［1—5］.确定煤灰自身的固硫率对锅炉实际SO2排放量的计算、煤粉炉及流化床脱硫装置容量的设计和脱硫剂用量的确定等均具有重要的指导意义.而实际过程中煤灰固硫率取决于燃烧方式、燃烧工况和煤质等［2—5］，确定起来比较困难.本文根据186种我国典型动力用煤的常规分析结果，通过对实验室制灰条件下煤灰自身固硫特性进行统计分析，探索煤质与固硫率之间关系的内在规律，为实际过程中煤灰固硫率的计算提供理论参考依据..
+
+
+　
+图1　煤中含硫量与含钙量之间的关系
+Fig.1 Correlation between sulphur content and calcium in coal
+1　煤质特性
+　　选取我国动力用煤数据库*中的186种煤.它们包括从无烟煤到褐煤的各类煤种.含硫量范围极广，其中低硫煤(St,d<1%)中硫煤(1%<St,d<3%)和高硫煤(St,d>3%)分别占57.0%、35.5%和7.5%.煤种及含硫量分布与我国电厂用煤的相应分布［6］极为接近，因而统计分析的结果具有广泛的代表性.
+　　煤灰固硫能力取决于煤中的含硫量和碱性成分含量，因此首先统计煤中含硫量和含碱量之间的关系.图1所示为煤中含硫量与含钙量、Ca/S摩尔比(以下称Ca/S比，其它碱性成分也相对应)之间的关系.图1(a)表明，煤中含钙量与含硫量之间显然缺乏相关性，但可以看出，相当数量的低硫煤含钙量较高(32.8%的煤含钙量>0.5%；12.4%的煤含钙量>1%)；中高硫煤含钙量普遍较高，约51.2%含钙量大于0.5%，但与含硫量相比，其相对含量并不高，表现为煤中Ca/S比很低(图1(b)).煤中Ca/S比对固硫而言更有意义，由图1(b)中的趋势可见，含硫量越高的煤，其Ca/S比一般越小.统计表明，97.4%的中、高硫煤Ca/S比<1；51.8%的低硫煤Ca/S比>1，而Ca/S比>1的煤中94.9%属于低硫煤.
+　　其它3种碱性成分(Mg\,Na\,K)含量与含硫量之间也有类似的关系，即含硫量越高的煤，其Mg/S\,2Na/S和2K/S比也都越低.这里采用2Na/S和2K/S是因为固硫时一般是1?mol的硫与2?mol的碱金属起反应.
+
+
+图2　固硫率随煤中含硫量的变化
+Fig.2 Plot of sulphur retention percentage against sulphur content of coal
+2　煤灰自身固硫特性
+　　大量测量实际燃烧过程中的煤灰固硫率是困难的，这里统计的是实验室制灰条件(GB212-77)下煤灰的固硫率.虽然实验室制灰时煤的燃烧与实际过程不同，但其固硫的基本机理与煤粉、流化床等燃烧过程是相同的［3，4］，因而其固硫特性对实际过程也具有参考价值.
+2.1　煤灰固硫率与含硫量的关系
+　　这里，煤灰固硫率R按下式定义：
+
+式中，Sash,ad为灰中含硫量，Sad为煤中含硫量，A为煤中灰分的含量.　　
+
+
+图3　固硫率与煤中Ca/S比、(Mg+2Na+2K)/S比之间的关系
+Fig.3 Sulphur retention percentage related to molar ratios of Ca/S(Mg+2Na+2K)/S in coal
+　　R与煤中含硫量之间的关系如图2所示，由图2可以看出，随着含硫量的增加，煤灰固硫率呈较明显的下降趋势.统计表明，91%的中高硫煤固硫率小于20%；而62%的低硫煤固硫率大于20%.这是由于含硫多的煤，其可用于固硫的碱性成分相对较少造成的，这意味着高硫煤需要相对更多的脱硫剂才能达到较高的脱硫效率.
+2.2　煤灰固硫率与碱性成分含量的关系
+　　煤灰固硫率与碱性成分含量的关系如图3所示.可以看出，固硫率随Ca/S比的增加呈指数关系的趋势增加，即Ca/S比越大的煤，其固硫率也越高，而只有Ca/S比大于4的煤才可能达到接近100%的固硫率，这与Gray［3］的结果较一致.与Ca/S比相比，Mg/S比、2Na/S比，2K/S比与固硫率之间的相关性差得多，并以Mg/S比与Ca/S比较接近，2Na/S比较差，2K/S比最差.图3(b)中(Mg+2Na+2K)/S比与固硫率的关系在一定程度上体现了这一结果.
+2.3　碱性成分固硫特性的分析
+　　碱性成分的固硫能力除与其含量有关外，还取决于其在煤中的存在方式及反应特性.
+　　煤中的钙主要以方解石(CaCO3)和白云石(CaCO3.MgCO3)形式存在，少量以蒙脱石等硅酸盐矿物形式出现.此外，钙还会以有机形式存在于低级煤中.燃烧时，在较低温度(600—700℃)下方解石和白云石将分解：
+　　
+
+因此，除硅酸盐中的钙之外，其它形式的钙均可参与固硫.此外，与其它碱性成分相比，煤中钙含量一般较高，因而在煤灰固硫中起主要作用.图3(a)中Ca/S比与固硫率间的良好相关性可说明这一点.
+　　图3(a)中实线表示的是Ca/S比与固硫率之间的拟合指数关系，其关系式为：
+
+其中，a=0.4426，标准偏差为10.6.该关系式是参照Basak等人［7］所得的循环流化床中脱硫率与脱硫剂钙相对于煤中硫的Ca/S比之间的关系拟合出来的.Basak等人的关系式(a=0.7462)以虚线也绘在图3(a)中，它可代表纯CaO的作用.由上述二者都服从相近的指数关系也可说明煤中钙在煤灰固硫中起主要作用.
+　　但由图3(a)也可看到，同一Ca/S比对应的固硫率较分散，这可能是以下原因造成的：(1)其它碱性成分也有作用；(2)不同煤中不同形式钙的相对含量不同，以及CaO还会与硅酸盐反应；(3)CaO颗粒表面生成硬石膏会阻碍进一步固硫；(4)不同煤中各形态硫的比例不同.这些也共同导致了只有在很高Ca/S比时才能达到很高的固硫率.
+　　煤中的镁除以白云石形式存在外，主要以黑云母等硅酸盐矿物形式出现.硅酸盐中的镁是没有活性的，起不了固硫作用，而白云石分解出的MgO会发生固硫反应［5］：
+
+虽然煤中镁含量较多，但活性部分较少；而烟气中SO3含量不多，且更易与Na\,K等反应；此外MgO还会与硅酸盐反应，因而镁对固硫的贡献并不大，这造成了Mg/S比与固硫率之间缺乏相关性.流化床中采用白云石脱硫的经验也可证明这一点.
+　　煤中碱金属(Na和K)含量一般比Ca\,Mg少得多，其存在形式有两类：一类是活性碱，如氯化物、硫酸盐、碳酸盐和有机含碱等；另一类是非活性的，存在于云母、长石等硅酸盐矿物中.在我国煤中，钾含量一般比钠高，而钾主要存在于硅酸盐矿物中，活性部分极少，这决定了可参与固硫的钾不多，作用极有限.至于钠，在实验室制灰条件下，只有有机形式的钠(主要存在于低级煤中)和含量极少的碳酸盐能导致固硫反应.因而除含钠较多的低级煤(如一些云南褐煤)，钠的固硫作用也有限.
+　　综上表明，活性的Mg,Na和K是可参与固硫反应的.在图3(a)中，虚线表示的纯CaO的固硫特性，但可以看出，一些煤种的固硫率较虚线值还要高，而分析表明，这些煤种几乎都是褐煤，除Ca含量较高外，Mg\,Na等的含量也较多，因此表明Na\,Mg等也起了相当大的固硫作用.此外，图3(a)中同一Ca/S比下固硫率较分散也可能包含了其它活性碱性成分的作用.
+　　图3(b)中有一些煤种(Mg+2Na+2K)/S比很低而固硫率却很高，一些煤种(Mg+2Na+2K)/S比较高而固硫率却很低.分析显示前者的Ca/S比较高而后者的Ca/S比很低，这更说明了钙对煤灰固硫起主要作用.
+　　实验室制灰温度与流化床燃烧温度较接近，而二者的Ca/S比与固硫率关系的趋势也很相似，因而本文的结果可适用于流化床中煤灰的固硫特性.对煤粉燃烧，由于火焰温度高得多，Ca的固硫作用会因高温时CaSO4的分解、CaO参与玻璃化反应等而大大削弱.而尽管高温导致更多活性碱分挥发而参与固硫，但因其含量较少，固硫率的增加极有限.这决定了煤粉燃烧时煤灰固硫率［1，2］一般不如实验室制灰时高.
+3　结论
+　　本文的研究可得出如下主要结论：
+　　(1)煤灰自身都具有一定的固硫能力，其固硫率取决于含硫量、碱性成分(Ca\,Mg\,Na\,K等)含量及其在煤中的存在方式.
+　　(2)含硫量越高的煤，其Ca/S\,Mg/S\,2Na/S\,2K/S等摩尔比一般都越低，因而其煤灰固硫率也越低.
+　　(3)碱性成分中，钙对煤灰固硫起主要作用，固硫率随煤中Ca/S比的增加呈指数趋势增加.其它碱性成分的活性部分也起一定的作用.
+　　(4)本文的研究结果适用于流化床中的煤灰固硫，对煤粉燃烧也有一定参考价值.
+* 哈尔滨电站设备成套设计研究所.我国典型动力用煤基础性数据库.1990
+作者单位：东南大学动力系，南京　210096
+参考文献
+　［1］　徐正中.燃煤硫排放系数的研究及脱硫要求的确定.热力发电，1994，3：3—9
+　［2］　徐通模，惠世恩，刘仲年等.燃煤中自身CaO含量的脱硫效果研究.动力工程，1994，14(4)：33—38
+　［3］　Gray V R.Retention of sulphur by laboratory－prepared ash from low rank coal.Fuel,1986,65(11):1618—1619
+　［4］　Ibarra J V et al.Analysis of coal and char ashes and their ability for sulphur retention.Fuel,1989,68(8):861—867
+　［5］　Raask E.Sulphate capture in ash boiler deposits in relation to SO2 emission.Prog Energy Combust Sci,1982,8:261—276
+　［6］　冯俊凯.根据燃煤性质论电站锅炉燃烧方法的发展.动力工程，1995，15(3)：34—39
+　［7］　Basak A E et al.Proc of 1991 Inter Conf on Fluidised Bed Combustion.Montreal,Canada,April 1991,ASME Vol 1:217
+1997-03-28收到原稿　1997-09-19收到修改稿

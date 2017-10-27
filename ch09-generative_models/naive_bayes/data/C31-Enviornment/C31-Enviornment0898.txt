@@ -1,0 +1,148 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+炉内喷钙脱硫的模拟*
+范浩杰　章明川　胡国新　王峻晔　姚　强　曹欣玉　岑可法
+摘要　煤粉炉内喷钙脱硫是应用较为广泛的脱硫技术，运用逾渗理论建立氧化钙脱硫模型，用来模拟煤粉炉喷钙脱硫过程，并对脱硫影响因素：SO2浓度、温度、Ca/S比等进行了研究，模拟计算显示了这些因素对脱硫效果的影响，其结果与试验数据相一致.通过该模型计算可以优化脱硫过程，对煤粉炉内喷钙脱硫有重要的指导意义.
+关键词　煤粉炉；喷钙；脱硫；模型.
+FSI(furnace sorbent injection) desulfurization modeling
+FAN Haojie,ZHANG Mingchuan,HU Guoxin,WANG Junye (Department of Energy Engineering,Shanghai Jiao Tong University,Shanghai 200240)
+YAO Qiang,CAO Xinyu,CEN Kefa (Department of Energy Engineering,Zhejiang University)
+Abstract　Furnace sorbent injection (FSI) is one of the widely-used desulfurization technologies.Based on percolation theory,CAO's desulfurization model was modified to simulate desulfurization process of furnace sorbent injection (FSI).Factors of desulfurization including SO2 concentration,temperature,Ca/S mole ratio were studied.Results of the model showed the effects of these factors on the SO2 removal.The SO2 removal efficiency varied with combustion temperature,SO2 concentration,and Ca/S mole ratio.They were in accordance with experimental data.Based on the model,desulfurization process can be optimized.
+Keywords　pulverized-coal furnace,sorbent injection,desulfurization,model.
+1　引言
+　　随着环境问题的日益严重，脱硫技术越来越受到重视，煤粉炉内的喷钙脱硫是目前应用较为广泛的脱硫技术之一.为了更好地指导脱硫实践，必须对煤粉炉脱硫过程进行数值模拟.
+　　喷钙脱硫主要包括两个过程：碳酸钙的快速分解和CaO相对缓慢的硫盐化.另外还涉及CaO高温烧结.在脱硫过程中，考虑到碳酸钙分解所占时间极短，所以脱硫模型一般只考虑CaO硫盐化过程，在硫盐化过程中，随反应的进行，CaO的孔隙不断变化，扩散系数和比表面积也随之改变，因此模型中一个很重要的方面是如何确定扩散系数和比表面积，即：如何建立孔隙模型来描述孔隙结构和扩散系数、比表面积之间的联系.
+　　最早的脱硫模型没考虑孔隙结构，仅用含糊的有效扩散系数来简单表示孔隙扩散的特点.随着脱硫研究的深入，产生了晶粒［1，2］、随机孔［3、4］、孔隙树［5］等模型.但这些模型都有一些致命的缺陷.另外对于气固多孔反应有一发生反应的临界孔隙率［6］,以上模型都不能预测.
+　　为了克服这些缺陷，我们采用逾渗模型模拟煤粉炉喷钙脱硫过程，对脱硫进行预测，并与试验结果相比较.
+2　喷钙脱硫模型
+2.1　逾渗(Percolation)概念及孔的描述
+　　逾渗(Percolation)概念的提出可追溯到1957年Broadbent和Hammersley的工作［7］，他们用统计的方法研究不规则多孔介质时，提出这一理论.在八十年代，Reyes和Jenson［8］对此理论作了推广和应用，把它应用于煤的气化.根据逾渗理论，孔隙按作用的不同，把内孔分为三类：一类是能参加反应又能参与气体输运的孔(孔隙率ΦB)；一类是能参加反应但不能参与气体输运的孔(孔隙率ΦD)；最后一类是既不反应又不参与气体输运的孤立孔(孔隙率ΦI).总的孔隙率可表示成三种孔的孔隙率之和，即：
+Φ=ΦI＋ΦD＋ΦB　　(1)
+　　其中，ΦD和ΦB内孔的表面积是反应面积，孤立孔表面积对反应不起作用.而孔隙中只有ΦB对气体传输起作用，在反应中不断变化，导致有效扩散系数的改变.逾渗模型还认为存在某一临界孔隙率Φc，当Φ<Φc时，颗粒内的孔连接发生中断，孔隙都成为孤立孔，气体扩散停止，反应终止.逾渗的另一特点是考虑了初始孔径分布.逾渗模型常用Bethe网络或多面体来模拟颗粒的孔隙结构.李绚天(1992)［9］曾采用Voronoi多面体模拟氧化钙内孔，根据逾渗的理论和他的研究，煅烧后石灰石的孔径认为服从正态分布，即：
+　　(2)
+式中，f(r)为孔径分布函数；ra为平均孔径，与煅烧温度有关；σ为正态分布的均方差.
+另外，根据逾渗的理论，反应的有效扩散系数可表示成［9］：
+　　(3)
+可用表面积为：
+　　(4)
+2.2 CaO烧结影响
+　　由于煤粉炉内的温度都在1000℃以上，高温对脱硫的最大的不利因素在于影响CaO的烧结.烧结现象导致CaO比表面积的减少和孔隙率的降低，影响SO2的扩散，因此煤粉炉内脱硫过程必须考虑烧结现象.German［10］和Silcox［11］曾对此进行研究.
+　　考虑到烟气中CO2和H2O对CaO烧结的加速作用，Silcox得到反映烧结过程的实验关联式为：
+　　(5)
+式中，A为比表面积(m2/kg);PH2O为H2O的分压(kPa);PCO2为CO2分压(kPa).
+　　烧结过程除了影响比表面积，也会导致CaO的孔隙率的降低，但孔隙率变化与比表面积有所不同，据一些研究表明［12］，孔隙率的降低存在一较长的感应期(950℃时，为3min)，远远大于喷钙脱硫的反应时间，因此可忽略其影响［13］.在本文脱硫模型计算中，采用式(7)考虑烧结的影响.
+2.3　CaO硫盐化微分方程
+
+
+图1　反应界面的变化
+Fig.1 Movement of reaction boundary
+　　假设CaCO3煅烧后得到的CaO仍为一球形颗粒，球半径为r0.CaO硫盐化考虑4个主要过程：SO2向CaO表面的扩散；SO2通过CaO颗粒孔隙的扩散；SO2通过颗粒产物层CaSO4的扩散及化学反应.由于CaSO4的摩尔体积大于CaO，硫盐化过程将导致孔隙空间的缩小，图1是硫盐化过程中反应界面的变化.在反应初始t＝0，孔径为r0，反应在r0处进行；反应进行t时间后，孔径缩小到r，反应界面在r2处.
+　　关于硫盐化导致孔隙阻塞现象(图1)，有：
+r3=βr30+(1-β)r32(体积平衡)　　(6)
+式中，β为体积膨胀比，β=3.09.
+　　令t时刻反应界面后退距离为δ(t)=r2-r0，则在t时刻由于反应而阻塞的最大原始孔径为：
+r0,max=δ(t)/[β/(1-β)1/3-1]　　(7)
+　　未阻塞的剩余孔隙为：
+　　(8)
+根据以上各过程，建立微分方程如下：
+　　a. SO2质量守恒方程
+　　(9)
+边界条件：
+　　(10)
+　　(11)
+式中，De为孔隙的有效扩散系数；Cb为烟气中SO2浓度；K为化学反应速度常数；C1为颗粒径向某位置上孔隙内的SO2浓度；C2为反应界面上的SO2浓度；a为可用比表面积；Km为气膜扩散传质系数.
+　　b. 产物层内的SO2扩散方程
+　　(12)
+式中，Y为垂直反应表面方向的产物层厚度；C2(Y,R,t)为产物层中SO2浓度；Dep为产物层SO2离子扩散系数，Dep=Dp0exp(-E/RT).
+边界条件：
+　　(13)
+另，产物层扩散的SO2量等于反应消耗的SO2量，有：
+　　(14)
+　　c. 固体反应质量守恒：
+　　(15)
+初始条件：
+t=0,φr(R,0)=1-Φ0　　(16)
+式中：φr为CaO在颗粒中占的体积份额；Φ0为初始孔隙率；Mc/ρ为CaO摩尔体积.
+　　吸收剂的转化率定义为：
+　　(17)
+整个颗粒的转化率：
+　　(18)
+反应速率：
+　　(19)
+脱硫率：
+　　(20)
+式中，nCa/S为Ca/S比(mol/mol).
+对于某一粒度分布的CaO，其平均反应速率：
+　　(21)
+式中，f(Rp)为CaO的粒度分布，在计算中以正态分布表示.
+某一时刻的平均转化率：
+　　(22)
+平均脱硫率：
+　　(24)
+2.4　模型的假定和计算步骤
+　　模型的假定为：(1) 忽略碳酸钙分解过程；(2) 脱硫过程受扩散和化学反应控制；(3) 氧化钙烧结只影响脱硫剂的反应表面积，对孔隙率无影响.
+　　程序计算的基本步骤为：
+　　在确定碳酸钙颗粒的粒度分布基础上，采用拉格朗日方法，跟踪不同粒径的颗粒反应过程.先根据煤的含硫量计算烟气中SO2浓度和CaO的孔隙分布，再采用耦合的硫盐化模型和烧结模型计算脱硫率(详见图2程序框图).反应终止条件是：最外层孔隙率低于临界孔隙率或反应时间大于停留时间.跟踪一定数量的不同粒径的颗粒，最终得到平均脱硫率(由颗粒粒径的质量分布加权平均).模型计算中煤种为长广煤，含硫量为4.63%.
+
+
+图2　程序框图
+Fig.2 Flow chart of program
+
+
+图3　不同浓度下CaO反应过程
+Fig.3 CaO reaction processes on different SO2 concentration
+3　脱硫模型计算结果
+3.1　SO2浓度的影响
+　　对一个在一定SO2浓度下反应的碳酸钙颗粒，进行脱硫过程的模拟.图3是一粒径为10μm的CaCO3在不同浓度下(1500ppm、3000ppm和4500ppm)的CaO转化率曲线.从图可见，CaO硫盐化速度随反应物之一的SO2浓度的增加而加快.为了更好了解脱硫机理，对4500ppm SO2浓度下的CaO颗粒反应过程进行了仔细分析.图4和图5分别为该颗粒各层孔隙率和CaO转化率(钙利用率)随反应时间的变化情况.在反应过程中，由于SO2由外及里扩散，CaO各层孔隙率和转化率变化有所不同，外层孔隙率降低最快，内层最慢.CaO转化率也随半径增大而变大.当最外层孔隙率降低到一临界孔隙率(0.1453)，SO2扩散停止，反应也随之终止，这时候，脱硫剂内层还有较高的孔隙率(最内层孔隙率为0.30以上，CaO转化率只有10%左右)，这是整个颗粒钙基利用率不高的原因.
+
+
+图4　孔隙率的变化过程
+Fig.4 Change of CaO porosity
+
+
+图5　CaO转化率(利用率)的变化情况
+Fig.5 Change of CaO conversion
+3.2　温度对脱硫的影响
+　　图6是温度对脱硫率的影响，从图中看到1200℃温度是一较佳温度，其脱硫率最高(40%).从试验和计算结果发现二者吻合得较好.温度对脱硫的影响主要表现在：影响反应速度和CaO的烧结.从反应动力学而言，温度越高，反应初期的速率越大(从图7也可看到这点)，在较短时间内完成反应，这是对喷钙脱硫有利的方面；但反应速率大，其最终脱硫率未必高，因为反应速率越大，最外层孔隙阻塞越快，使反应更早终止.另外温度越高，其烧结也越严重.因此存在一较佳温度(1200℃).
+3.3　Ca/S的影响
+　　图8是Ca/S比与脱硫率和钙利用率的关系，根据模型计算所得，不同Ca/S比的脱硫率分别为：21%(Ca/S=1)、40%(Ca/S=2)和58%(Ca/S=3).CaCO3量的增加，使SO2与脱硫剂接触的几率提高，脱硫率增加.但由于SO2总量不变，对于钙基而言，钙基利用率却下降了(Ca/S=1到Ca/S=4，钙利用率从21%降至18%)，因此在实际脱硫过程中，考虑到脱硫的经济性，CaCO3并非越多越好.
+
+
+图6　温度对脱硫率的影响(Ca/S=2)
+Fig.6 Effect of temperature on SO2 removal efficiency (Ca/S=2)
+
+
+图7　温度对脱硫过程的影响(Ca/S=2)
+Fig.7 Effect of temperature on SO2 removal process (Ca/S=2)
+
+
+图8　Ca/S与脱硫率的计算(T=1200℃)
+Fig.8 Effect of Ca/S ratio on SO2 removal
+4　结论
+　　(1) 逾渗模型模拟氧化钙脱硫过程，具有许多优
+点，与脱硫过程实际较为吻合，能用于指导脱硫的实践.
+　　(2) 脱硫反应包括SO2孔隙扩散、产物层离子扩散和界面化学反应.CaO硫盐化程度高低最终取决于颗粒最外层孔隙阻塞的快慢.在反应中，温度、Ca/S比、停留时间和SO2浓度是影响脱硫效果的主要因素.模型计算表明，1200℃是喷钙脱硫的较佳温度.
+　　(3) 氧化钙高温烧结是喷钙脱硫中一个很不利的因素，它主要导致氧化钙表面急剧下降，使反应速度和脱硫率降低.
+* 上海交通大学校基金资助
+作者单位:范浩杰　章明川　胡国新　王峻晔:上海交通大学能源系，上海　200240
+姚　强　曹欣玉　岑可法:浙江大学能源系，杭州　310027
+参考文献
+1　Szekely J,Evans J W.A structural model for gas-solid reactions with moving boundary.Chem Eng Sci,1970,25:1091—1098
+2　Hartman M,Coughlin R L.Reaction of sulfur dioxide with limestone and grain model-AIChE,1976,22(2):490—496
+3　Bhatia Perlmutter D D.A randon pore model for fluid-solid reactions:Ⅰ.isothermal kinetic control.AIChE,1980,26:379—386
+4　Bhatia S K.Perlmutter D D.A randon pore model for fluid-solid reactions:Ⅱ.diffusion and transport effects.AIChE,1981,27:247—255
+5　范浩杰.煤粉/水煤浆燃烧脱硫的研究［博士论文］.杭州：浙江大学.1997.121—130
+6　Sahimi M,Gavalas G R,Tsotsis T T.Statisical and continuous models of fluid-solid reaction in porous media.Chem Eng Sci,1990,46(6):1443—1450
+7　Broadbent S R,Hammersley J M.Percolation process.Ⅰ.crystal and mazes.Proc Camb Phil Soc,1957,53:629—635
+8　Reyes S,Jenson K F.Percolation concepts in modeling of solid-gas reactions:application to sulphation of calcined limestone.Chem Eng Sci,1987,42(2):565—570
+9　李绚天.循环流化床脱硫脱硝及灰渣冷却余热利用的研究.［博士论文］.杭州：浙江大学.1992.10—30
+10　German R M,Munir Z A.Surface area reaction during isothermal sintering.J Am Ceram Soc,1976,59:379—383
+11　Silcox D,Kramlish J C.A mathematical models for the flash calcination of dispersed CaCO3 and Ca(OH)2 particles.Ind Eng Chem Res,1989,28:155—161
+12　Borgwardt R H.Sintering of nascent calcium oxide.Chem Eng Sci,1989,44(1):53—61
+13　Newton G H,Chen S L.Role of porosity loss in limiting SO2 capture by calcium based sorbents.AIChEJ,1989,35:988—996
+1998-03-16收到原稿
+1998-10-12收到修改稿

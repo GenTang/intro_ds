@@ -1,0 +1,89 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+深圳地区海岸复杂地形下大气输送与扩散模拟
+王卫国　蒋维楣
+(南京大学大气科学系，南京　210093)
+余　兴
+(陕西省气象局，西安　210015)
+
+摘要　利用边界层预报模式提供的非定常的风场和湍流场，采用实用的考虑风切变的烟团模式模拟了海岸复杂地形下(深圳地区)高架点源(电厂)排放SO2的地面浓度变化特征.联接模式细致地考虑了地面反射、混合层穿透和反射.结果反映了风场湍流场的非均匀非定常对浓度分布有较大影响.在海陆风转换期内，地面浓度分布型式较乱，只有在海风盛行时，浓度分布与简单的高斯模型结果接近.浓度变化呈现明显的周期性，最大浓度出现在陆风向海风转换期内，日均最大浓度分布在陆上.这些特征在常用的高斯模式中是无法反映的.
+关键词　海岸复杂地形；联接模式；烟团模式；空气污染；深圳地区.
+NUMERICAL SIMULATION OF ATMOSPHEERIC TRANSPORT AND DIFFUSION OVER COSTAL COMPLEX TERRAIN IN SHENZHEN REGIONS
+
+Wang Weiguo Jiang Weimei
+(Department of Atmospheric Sciences,Nanjing University,Nanjing 210093)
+Yu Xing
+(Shaanxi Wenther Burean,Xi′an 710015)
+
+ABSTRACT　The puff trajectory model was used to simulate the transport and dispersion of SO2 released from elevated point source.Time-dependent three-dimensional distributions of mean and turbulence variables needed in the puff diffusion model were provided by nonhydrostatic PBL model with energy closure scheme.The reflection on both of the ground and the top of mixlayer,penetration on the top of mix-layer were considered in detail.The results indicated that time-variation and nonuniformity of airflow and turbulence obviously affected the concentration distributions.Especially during the period of sea-land breeze transition,the distribution pattern of ground level concentration is irregular.It is close to that obtained from Gauss model only when sea-breeze fully developed.In a day,the periodic variation of ground-level concentration was found,its maximum value appeared when land-breeze turn to sea-breeze.The daily mean of concentration was found on land.The analysis revealed that the above-mentioned characteristics of concentration distribution over coastal complex terrain could not be obtained from simple Gauss model.
+Keywords　coastal complex terrain,linked model,puff model,air pollution,Shenzhen regions.
+
+
+1　引言
+　　用边界层预报模式和扩散模式联接对沿海地区复杂地形条件下特殊气流系统中的空气质量进行模拟预测，是近一二十年来才进行的工作［1—3］.这些成功的工作说明了中尺度大气扩散模拟系统在研究空气质量问题中的潜力.对复杂地形地区的空气质量模拟需要考虑两方面，一是要有较好地反映复杂地形特征的非均匀、非定场的风场和湍流场，另一是适合于在复杂气流中使用的扩散模式.本文针对深圳地区特殊的地形，以及污染源(电厂)附近还有大城市(香港、深圳)和大亚湾核电站、建立了一个精细的中尺度大气模拟系统来模拟该地区特殊气流系统(海陆风)下SO2浓度分布特征.三维非静力能量闭合的边界层预报模式［4］提供具有时、空变化的风场和湍流场，扩散部分采用考虑风切变的7层烟团轨迹模式［5，6］，该模式主要考虑了风切变和湍流场的不均匀性.本文简单介绍了模式结构，对深圳地区进行了模拟，并对模拟结果进行了讨论.
+
+2　模式介绍
+2.1　三维边界层非静力模式
+　　采用三维非静力的边界层数值模式，闭合方案用工程上实用的能量(E-ε)闭合，模式方程组由运动预报方程(u,v,w)，位温预报方程(θ)，连续方程以及湍流动能预报方程和湍能耗散率预报等组成.初始条件由模拟域内的实测点资料输入内插模式输出而得.此模式能较好地模拟海岸复杂地形下的流场和湍流场［4］.图1是本文大气扩散模拟系统的框图.
+2.2　烟团轨迹模式
+　　实际处理中将烟团看成一个椭球体，水平半轴长3σy，垂直半轴长1.5σz，每个烟团在垂直方向上以7个点作为7个子烟团的中心，各点垂直方向间距为0.5σz，则子烟团中心点位置为z0+0.5(i-4)σz,(i为子烟团代号，i=1，2，…，7，z0为大烟团中心点位置，7个子烟团由椭球积分得到质量分别为：Q1=Q7=0.02QT，Q2=Q6=0.136QT，Q3=Q5=0.220QT,Q4=0.248QT，QT为烟团总物质量.各子烟团具有的性状，包括移速、扩散率等由它中心点处具有的量值决定.烟团扩散参数由它经历的行程和大气湍流扩散能力决定，轨迹由中心所在网格上的风场确定.假设某个烟团被分成7个子烟团，以i表示(i=1,2，…，7)，设t时刻第i个子烟团中心点坐标(xi,yi,zi,t)，该点处气流速度分量为u(xi,yi,zi,t),v(xi,yi,zi,t),w(xi,yi,zi,t),则在t+Δt时刻该子烟团位置为：
+xi(t+Δt)=xi(t)+u(xi,yi,zi,t)Δt
+yi(t+Δt)=yi(t)+v(xi,yi,zi,t)Δt
+zi(t+Δt)=z4(t)+w(x4,y4,z4,t)Δt+wp(x4,y4,z4,t)Δt
++0.5(i-4)σz+β*w(xi,yi,zi,t)Δt
+式中wp为烟气抬升引起的烟团垂直运动速率［7］，一般在烟团运动10—15倍的源高后为零(即到达终极抬升).β为系数，当i=4时，β=0，否则为1
+
+
+图1　大气扩散模拟系统流程框图
+Fig.1 The flow chart of the system for atmospheric dispersion
+任一时刻t的水平和垂直扩散参数σy(t),σz(t)由Taylor的扩散统计理论求得［8］，取指数形式的自相关系数，拉格朗日时间尺度TLV,TLw参照Hanna［9］给出的，水平和垂直方向上的速度脉动方差σ2V(=+),σ2W( )，由边界层预报模式输出量提供脉动速度方差.考虑到烟气抬升对扩散参数的贡献，扩散参数表达式加上(wp Δ t/3.5)2.于洪彬等［10］对水陆交界地区的湍流特征进行了观测研究，得到了三维风速脉动方差在不同稳定度下的比值，本文在这些观测和边界层理论推求得到的湍流脉动速度之间的关系的基础上，作为尝试将湍流动能按下列比例分解(H为混合层高度)：
+　　
+　　每个子烟团对模拟域内格点造成的浓度贡献按高斯模型处理，计算中将地面作全反射处理，考虑到烟团具有一定的大小和质量，反射参考点不是取在烟团中心，而取距中心0.5σz(t0)处烟团与地面的接触点.在混合层顶，烟团从混合层顶面从上向下运动或扩散接触到顶面时，可以穿透混合层顶面继续向下运动或扩散，而烟团从下往上接触到混合层顶面时，则作全反射处理，若混合层高度的变化(如日变化)导致在混合层附近(包括上或下面)的烟团出现在混合层之上，则作穿透处理，在其下则计算其浓度贡献.根据质量守恒考虑污染物在运动过程中发生干沉积，化学转化［6］.烟团释放基本时步为10min，同时又要满足相邻两个烟团距离Δs＜σy，使得模拟的烟流具有连续性，若不满足，则对时间步长进行分割.将模拟域内所有子烟团对受点的贡献求和，就可得到浓度分布.
+
+3　模式应用
+　　
+　　*深圳东部电厂一期工程(4×600MW)大气环境影响报告，电力部苏州热工研究所，1994　　深圳东部电厂一期工程(4×600MW)规划厂址在西冲点(图2)，用上述联接模式对处在典型的海岸复杂地形下的电厂高架源排放在周围地区的浓度分布进行了计算.一期工程设计用煤SO2排放量7.5t/h，烟囱240m(两根)*.联接模式从1993-09-03-08:00开始运行，到次日19：00.开始施放烟团5h，从3日13：00始计算网格点上的浓度.
+
+
+图2　模拟域示意图(等值线单位：m)
+Fig.2 The schematic of the simulated domain
+图3给出了海风阶段(15：00)、海风向陆风转换阶段(01：00)、陆风阶段(04：00)、陆风向海风转换阶段(11：00)的地面SO2浓度模拟预测结果.图3a是白天海风盛行期形成的浓度分布(15：00)的状况，此阶段气流由海上吹向陆地，SO2散布在陆地上，地面浓度极大值为72μg/m3，出现在源北陆上10km,由于海风风速较大，一部分烟团移出模拟域，日间对流混合剧烈，地面浓度出现大于25μg/m3的范围较大(远)，地面浓度极值不大，且出现距离较远.在离源下风向约30km的陆上，还出现次大值37μg/m3，这可能是下沉气流和烟团从TIBL以上进入内陆混合层造成的.图3b是海风向陆风转换期间造成的地面浓度(01：00)分布，此阶段气流走向复杂，且风速较小.从图上看到，浓度等值线分布比较乱，高值分布已由白天的陆上移到海上，最大值出现在离源6km的海面上，为231μg/m3，极值比海风阶段大，出现距离也近，这是因为此阶段风速小和层结较稳定造成的.陆上还有一些残留的烟团影响，但受气流的影响，也逐渐向海上移动，陆上极值仅为9.7μg/m3.图3c是夜间陆风阶段造成的浓度(04：00)分布.此阶段气流从陆上吹向海面，风速比过渡阶段要大些，且层结稳定，与过渡期间比，浓度极值减少，为162μg/m3，出现的距离增大，为源下风向10km的海面上，这时陆上烟团已基本移到海面上，陆上浓度很小.图3d是白天早上陆风向海风过渡阶段(或海风初始发展阶段)造成的地面浓度(11：00)分布.气流已经开始转为由海上向陆上吹，但此时速度还不大，陆上层结基本上处于中性或弱不稳定.SO2浓度大值等值线已逐渐移到陆上，海面上还有由于夜间陆风输送的烟团的影响，海面上浓度还有较大的分布，不过这些烟团已开始向陆上移动，随后的时间里，海面上的SO2分布范围减小，而陆上增大.此过渡阶段极大值为635μg/m3，出现在离源6km的陆上.属于高污染期.
+　　图4是日平均浓度分布的等值线.最大为59.8μg/m3，出现在源西北向约8km的陆上，海面上浓度比陆上要小.高值浓度分布在大鹏半岛的源附近.从深圳东部电厂排放造成的地面SO2浓度极值的日变化看，一日中极大值的最大值出现在晨间陆风向海风转换期内，且极值出现在离源约5—6km的陆上.这是由早上的气流状况和稳定度变化造成的.从不同时间的模拟结果看，海岸附近的固定接受点的浓度呈现明显的日变化周期性.
+
+
+图3　不同时间地面SO2浓度等值线(μg/m3)
+(●为极中心位置　+为源位置)
+Fig.3 The contours of the SO2 ground level concentration at the different times
+
+
+图4　地面日平均浓度等值线(μg/m3)
+(●为极中心位置，+为源位置，虚线表示海岸线)
+Fig.4 The contours of daily average ground level 
+concentration (μg*m-3)
+
+
+4　模式结果讨论
+　　由于缺乏实测资料，本文对结果作一些讨论.湍流状况、混合层厚度(逆温层厚度)以及气流方向、速度大小被认为是决定浓度分布状况的重要因素，但本文模拟结果表明这些特征量的变化过程(即非定常性)对浓度的影响也是很大的.如，在海陆风转换期，地面出现浓度极值较大，这除了此期间风速较小，对网格点上有影响的烟团数目增多外，层结和湍流状况的非定常变化也是很重要的原因.在由海风转向陆风期间，层结向稳定方向转变，虽然扩散能力降低，但逆温层顶高度较低，一些烟团在逆温层顶之上运行，只能向下作部分穿透，所以此阶段浓度比白天海风时略大.在由陆风向海风转换期间，地面附近逆温层逐渐消失，白天混合层顶高度升高，使得原在逆温层顶上运行的烟团变成在混合层内输送扩散，对浓度值影响较大，从而造成地面高污染.图5是各时间有效源高(即烟团释放高度)和逆温层厚度(混合层)的典型变化比较.
+
+
+图5　有效源高和逆温层厚度日变化比较
+Fig.5 Comparison between the daily cycles of the depth of
+the boundary layer and the effective release height
+直线烟流高斯模型一般不可能模拟出复杂气流系统中浓度分布的变化过程和非定常、非均匀的影响.不过，在海风盛行期，采用高斯模式估算结果与联接模式结果相差不大，如15：00，前者估算地面浓度(扩散参数为σy=0.32x0.83；σz=0.39x0.80，引自前面脚注)极大值90μg/m3，出现距离为下风向8km,与后者接近，且联接模式浓度等值线与高斯模式分布类似.这是因为海风盛行期，陆上气流基本一致，近似符合高斯模式的条件.但在气流复杂、物理量随时间变化较大时，高斯模式就不适用了.一些清除过程如云、干湿沉降等在本文中没有能够仔细考虑，所以模拟所得的浓度是保守的(偏大)，边界层参数特别是湍流量对浓度结果影响较大，根据本文的结果分析看，与一般的实测结果的量级相比，估计误差在两倍以内.
+
+5　结语
+　　本文所建大气扩散模拟系统成功地模拟预测了海风气流系统中污染物浓度分布的演变过程.结果分析表明，一日中固定接受点浓度分布呈现明显的周期变化.气流方向一日中顺时针向变化，使得地面浓度等值线分布随时间也顺时针偏转.一日中最大浓度出现在由稳定层结向不稳定层结的过渡阶段，一般是在海风初始发展阶段.白天、海风使得污染物散布在陆地上，但海风风速大，湍流扩散剧烈，地面浓度并不高.浓度极值出现距离在离源10km以内，除了在海风发展初始阶段，其余时段内，地面浓度极值均不超过国家二级标准.日平均极大值出现在陆上，也不超标.在海陆风的转换期内，地面浓度分布型式较乱；只有在海风发展盛期，浓度分布与简单的高斯模型结果接近.结果分析还表明，风场和湍流场的非均匀、非定常性对地面浓度的分布有较大影响，高污染出现在层结变化的过渡期内，这是在定常的高斯模式中体现不出来的.
+参考文献
+1　Bornstein R,Klotz S et al.Application of linked three-dimensional PBL and dispersion models to New York city.NATO proc 15th meeting on air pollution modeling and its application,1986:543
+2　Segal M et al.Application of a mescoscale atmospheric dispersion modeling system to the estimation of SO2 concentrations from major elevated sources in southern florida.Atmospheric Environment,1988,22(7):1319
+3　Jiang Weimei,Wu Xiaoming.A linked three-dimensional PBL and dispersion model in coastal regions.Bound Layer Meteorol,1990,53:43
+4　王卫国，蒋维楣.青岛地区边界层结构的数值模拟.大气科学，1996，20(2)：229
+5　Jiang Weimei.A puff trajectory model with wind shear and its application study in coastal regions.Recent Advance in Wind Engineering,1989,2:937
+6　蒋维楣，吴小鸣.海岸气象过程与大气扩散研究.南京：南京大学出版社，1991：170
+7　Briggs G A.Lectureson air pollution and environmental impact analysis,workshop peoceedings.Boston,American Meterorological Society,1975:59
+8　Hanna S R.Applications in air pollution modeling,atmospheric turbulence and air pollution modeling.D.Reidel Publishing Comp,1982:275
+9　蒋维楣，曹文俊，蒋瑞宾.空气污染气象学教程.北京：气象出版社，1993：49
+10　于洪彬，蒋维楣.湖岸地区近地层湍流特征研究.南京大学学报专刊，1994，1：369
+1996-04-29收到原稿
+1997-02-28收到修改稿

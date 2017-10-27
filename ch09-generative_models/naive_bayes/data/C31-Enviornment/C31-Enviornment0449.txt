@@ -1,0 +1,105 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+微絮凝直接纤维过滤去除低浊水中的腐殖质
+曲久辉　雷鹏举　杨日光
+摘要：通过批量和连续动态试验研究了微絮凝直接纤维过滤去除低浊饮用水中微量腐殖质的效能与条件.结果表明,富里酸(FA)的去除率与纤维滤料的堆密度、絮凝剂的投加量、过滤速度、原水浊度等有关.对10NTU以下的模拟低浊水,适宜的纤维堆密度为74.4g/L,滤床高为1.2m.在此条件下,当过滤速度为30m/h、原水浊度约9NTU、聚合氯化铝(PAC)投加量1.75mg/L时,对水中2mg/L的FA平均去除率约75%,工作周期(浊度小于0.3NTU、水头损失小于1.8m)在24h以上.
+关键词：微絮凝；纤维过滤；低浊水；腐殖质
+中图分类号：X703.1 文献标识码：A 文章编号：1000- 6923(1999)04- 0293- 04
+Removal of humus in low turbidity water using micro-flocculation joint direct fiber filtration process.
+QU Jiu-hui1,LEI Peng-ju1,YANG Ri-guang2 (1.State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085,China；2.Scientific Research Department, Northeast Institute of Electric Power,Jilin 132012,China). China Environmental Science. 1999,19(4)：293~ 296
+Abstract：This paper studies the humus removal in low turbidity water by fiber filter in batch test and sequence test systems. The results proved that the humus removal efficiency depends on several factors such as the density of fiber in the filter, flocculant dosage, filtering velocity, turbidity of raw water, etc. If the turbidity is below 10NTU, the suitable density of fiber is 74.4g/L and the height of fiber bed is 1.2m. In these conditions, 2mg/L Fulvic Acid (FA) can be removed about 75% when the filtering velocity is 30m/h, raw water turbidity is 9NTU and PAC dosage is 1.75mg/L with more than 24h filtering period (the turbidity < 0.3NTU, water head loss < 1.8m).
+Key words：micro-flocculation；fiber filtration；low turbidity water；humus　
+　　微絮凝是指在含有悬浮颗粒物的浑浊水中,通过加入絮凝剂形成微小的聚集体的絮凝过程.将微絮凝与直接过滤工艺相结合[1],使凝聚与过滤过程协同进行,具有强化接触凝聚效果、简化反应沉淀过程、提高过滤截污能力、节省设备与运行费用等突出优点.可大大提高对水中污染物,特别是天然有机大分子物质的去除效能[2].研究证明[3],采用微絮凝直接深床过滤工艺处理低温低浊水,在同样的出水控制指标下,可显著地节约絮凝剂,延长过滤的水质周期[4].
+　　纤维过滤技术是利用经过处理的化学纤维作为滤料,具有截污效率高、处理水量大、运行周期长、滤料耐用等突出优点,对过滤除去水中细微悬浮物特别有效[5],在我国已经有很多应用,在处理饮用水、电厂用水和某些特殊水方面取得了较好的效果.但由于使用气囊控制过滤和反洗过程,给实际运行带来了操作和维护上的问题,影响了此技术的推广和应用.
+　　本研究以具有较高Al13含量的聚合氯化铝为絮凝剂,并对现行的纤维过滤器结构进行改造,根据微絮凝与纤维过滤的特点,将二者联合运用于去除低浊水中的腐殖质.
+1 微絮凝纤维过滤模拟试验系统和试验条件
+1.1 静态试验装置和方法
+　　静态试验装置由6根直径3cm、长1.8m的滤柱组成,滤柱内装直径约2.1cm、长1.6m的丙纶纤维束,通水压实后床高约1.2m.每根柱上和柱底分别配有正洗和反洗进水口.
+　　静态试验在6个2L烧杯中分别加入模拟含富里酸(FA)的浑浊水,置于六联搅拌器下,在快速搅拌(300r/min)下加入同样浓度的聚合氯化铝絮凝剂,混合10s,然后根据所设定的反应时间慢速搅拌(30r/min).反应结束后立即将水样全部倒入滤柱,水在滤柱中的流速为25m/h.静态试验的目的主要是考察絮凝剂投加量、反应时间对微絮凝直接纤维过滤去除水中腐殖质的影响.
+1.2 连续动态试验系统和方法
+　　动态试验系统如图1所示.滤柱为有机玻璃柱,柱高3.5m,内径15cm,内装1.6m长丙纶纤维束,水力压实后滤床固定高1.2m,过滤水量为230~ 460L/h.
+
+图1 微絮凝直接纤维过滤动态试验系统流程示意
+Fig.1 Continues test installation for micro-flocculation joint direct fiber filtration
+　　动态试验的浓浊水、FA溶液与自来水按计量在容积为1m3的水槽中配制成模拟含腐殖质的浑浊水,由提升泵定量送入高位混合槽中,由电子计量泵准确加入絮凝剂.药剂和水以数字式机械搅拌器在300r/min的搅拌速度下混合,混合时间为10s.混合后水自流入滤柱,水进入滤柱前在管中停留时间为1min.滤速通过调节出水阀门开启度控制,出水浊度由在线浊度仪连续检测.采取气水反冲洗,反冲洗条件如表1所示.
+表1 微絮凝直接纤维过滤柱反冲洗条件
+Table 1 Backwashing condition for micro-flocculation joint fiber filtration
+反冲洗程序反冲洗强度
+(l/s。 m2)反冲洗历时
+(min)
+水＋空气12＋307
+空气353
+水125
+
+1.3 主要仪器和药剂
+　　仪器:数字式机械搅拌器(Caframo BDC 1850),在线浊度仪(Great Lake Model 8220);记录仪(日立公司Model 056-3002);台式浊度仪Lamotte Model 2008);四管蠕动计量泵(LMI Model A142-155);电子计量投药泵(Cole-Parmer Model 7519-20);空气压缩机(Fini Model E.C TIGER 245).
+　　药剂:聚合氯化铝(PAC),固体产品,东昌公司生产,Al2O3含量为29.6%,碱化度35.9%,Al13占总Al量46％,配制成0.5%使用液;高岭土,北京旭东化工厂出品,配成10000mg/L使用液;富里酸(FA),配制成5mg/L使用液.
+2 结果与讨论
+2.1 滤床结构的影响
+　　纤维的堆密度对出水水质和水头损失都有较大影响.表2是在两种堆密度情况下的批量试验结果.试验原水浊度10NTU,含FA 2mg/L,投药混合后反应时间为8min,然后直接过滤,滤速为25m/h.可见,滤床过高时由于堆密度较小,致使滤床的截留能力相对较低,对腐殖质和悬浮物的去除效果不能满足处理要求.但是,如果堆密度过大将导致截留分布不均,水头损失严重,过滤周期下降.
+表2 不同过滤纤维堆密度下的过滤净水效果
+Table 2 The filtering effect for removing FA and turbidity in different density of fiber bed
+PAC投加量
+(mg/L)水中残余浊度
+(NTU)水中残余FA
+(mg/L)
+1.03.921 (7.54)20.871 (1.48)2
+1.51.761 (6.88)20.421 (1.22)2
+2.00.931 (6.04)20.211 (1.10)2
+2.50.271 (5.36)20.041 (0.95)2
+
+注:1为堆密度74.4g/L、滤床高1.2m的浊度 2为堆密度63.8g/L、滤床高1.4m的浊度
+　　表3是原水浊度8.8NTU、FA含量2mg/L、PAC投加量1.75mg/L、滤速30m/h和不同堆密度条件下,不同过滤时间水头损失的动态试验结果.在上述试验条件下,表3所示的两种滤床堆密度对水中的浊度和腐殖质均有较好的去除效果,如过滤进行10h,滤床1(堆密度为74.4g/L,纤维滤床高1.2m)和滤床2(堆密度为89.3g/L,纤维滤床高1.0m)两种情况下的出水浊度分别为0.31和0.30NTU,FA浓度为0.43和0.41mg/L.因此,从水质和水力周期两方面考虑,选择纤维滤床高为1.2m,即堆密度为74.4g/L为宜.
+表3 纤维堆密度对水头损失的影响
+Table 3 Effect of density of fiber bed on water head loss
+过滤时间
+(h)水头损失1
+(cm)水头损失2
+(cm)过滤时间
+(h)水头损失1
+(cm)水头损失2
+(cm)
+1293364176
+2323874586
+3344684796
+43754950106
+559641056121
+
+注:1为滤床1 2为滤床2
+　　试验还发现,采用圆盘式孔板固定上端滤料具有较大的过滤阻力,而试验中采用十字孔板则能克服这一问题.
+2.2 絮凝剂投加量对水中FA去除效果的影响
+　　微絮凝纤维直接过滤去除水中的FA,主要是通过絮凝剂、悬浮物与FA的相互作用,在纤维滤料表面反应并逐渐进行接触凝聚,同时被过滤截留.因此,在过滤参数确定和水的浊度不变的情况下,絮凝剂的效能与投加量是决定其处理效果的关键因素.
+　　图2所示为PAC投加量对FA去除的试验结果,原水浊度9NTU,FA含量为2mg/L,试验方法同上,滤速为30m/h.可见,随PAC投加量的增加,水中FA去除率也提高,而且静态和动态试验表现出了基本一致的规律性.但是,如果絮凝剂投加量过大,在提高FA和浊度去除率的同时,将致使滤料截留分布不均和过滤的水质周期下降.
+　　图3是投药量分别为1.5,1.75和2.0mg/L条件下,滤速30m/h时,水头损失随时间的变化.在同一时间里,由于投药量较高水头损失相对较大,这将影响过滤效率.但如果絮凝剂的投加量适宜,则既可保证出水水质也可以减少水头损失.如选择PAC投加量为1.75mg/L,其水头损失的变化与投加量为1.5mg/L时接近,同时也能有效去除水中FA和悬浮物,工作周期可达到24h,对FA去除率在75%以上,滤后水浊度在0.3NTU以下.
+
+图2 絮凝剂投加量与FA去除效果的关系(过滤1h)
+Fig.2 FA removal efficiency vs PAC dosage 
+(filting time:1h)
+
+图3 絮凝剂投加量与水头损失的关系
+Fig.3 PAC dosage vs water head loss
+2.3 滤速对FA去除效果的影响
+　　图4是浊度为9NTU,含FA 2mg/L的原水投加PAC 1.75mg/L时进行微絮凝直接纤维过滤去除水中FA的动态试验结果.可见,滤速对纤维直接过滤去除FA的影响主要是由于水在滤床中的停留时间不同,低滤速停留时间相对较长,有较为充分的接触凝聚过程,因而去除率也相对较高.同时,对较低滤速和较高滤速两种情况,在以浊度控制(本研究控制的出水浊度为0.3NTU)的水质周期到达之前,对FA的去除率较为稳定,一般在75%以上,但在临近水质周期时,FA的去除效果随之迅速下降.如图4所示,滤速为30m/h的过滤试验首先穿透,水中FA浓度迅速增高.但从处理量、除浊和除腐殖质几个方面综合考虑,采取30m/h的滤速较为可行.
+
+图4 滤速对FA去除效率的影响
+Fig.4 Effect of filtering rate on FA removal
+2.4 原水浊度与FA去除率的关系
+　　原水浊度对FA去除效果的影响主要取决于两个方面:一是水的浊度不同,达到设定出水水质所需要的絮凝剂投加量不同;二是在不同浊度条件下,水中悬浮物或絮凝体对水中FA的吸附作用不同,因而对其去除的效果也不同.试验证明,在原水浊度3NTU和10NTU两种情况下,如果PAC投加量均为1.8mg/L,则对水中2mg/L的FA,前者可去除至0.34mg/L,而后者可去除至0.28mg/L.但如果以处理浊度为3NTU时PAC所需投加量为0.9mg/L进行同样的微絮凝直接纤维过滤,则可去除FA至0.97mg/L.可见,虽然浊度的高低对FA去除效果有一定的影响,但起决定作用的是絮凝剂的投加量.因此,必须投加足量的絮凝剂才能对水中的FA凝聚絮凝并与悬浮物一起过滤去除.
+3 结论
+　　采取微絮凝直接纤维过滤可在有效除浊的同时,去除低浊水中75%以上的FA,可将水中2mg/L的富里酸降至0.4mg/L以下.FA的去除率与纤维滤料的堆密度、絮凝剂的投加量、过滤速度、原水浊度等有关.试验证明,选择堆密度为74.4g/L,过滤速度为30m/h、原水浊度约9NTU时,适宜的絮凝剂投加量1.75mg/L,此时,运行周期可达到24h,出水浊度小于0.3NTU,FA平均去除率为75%,水质周期(浊度小于0.3NTU)和压力周期(水头损失小于1.8m)基本同时到达.
+基金项目：环境水化学国家重点实验室开放基金资助项目(97060803)
+作者简介：曲久辉(1957-),男,吉林农安人,工学博士,中国科学院生态环境研究中心研究员,博士生导师,主要从事水质净化理论与技术研究.负责完成或正在进行的主要研究项目有:国家自然科学基金项目“电解法制备聚合絮凝剂的工艺技术原理与净水机制”,“多功能高铁系净水剂的电化学生成形态与作用功能”,国家自然科学基金重点项目“人类聚居区水环境保护与水资源综合利用”之II、IV专题;负责 “九五”国家科技攻关专题“水厂高效絮凝技术集成系统”等.曾作为主要参加人获部级科技进步一等奖3项,3等奖1项.发表论文50余篇.
+作者单位：曲久辉　雷鹏举　中国科学院生态环境研究中心,环境水化学国家重点实验室,北京100085；
+　　　　　杨日光　东北电力学院科研处,吉林 吉林132012
+参考文献：
+[1]Klute R. Destabilization and aggregation in turbulent pipe flow [A]. Hahn H H, R Eds. In proceedings of the 4th gothenburg symposium [C]. New York: Springer-Verlag, 1990. 33- 39.
+[2]Edzwald J K. Coagulation in drinking water treatment: particles, organics and coagulants [J].Water Sci. Tech.,1993, 27(11):21- 27.
+[3]Tate C H, Trussell R R. Recent development in directfiltration [J]. J AWWA,1980,72(3): 162- 168.
+[4]李 科,栾兆坤. 微絮凝直接过滤中应用聚合氯化铝处理低温低浊水的研究 [J].中国给水排水, 1998, 14(16):1- 4.
+[5]王武权,栾兆坤,雷鹏举. 高效絮凝反应器处理生活污水试验研究 [J].环境化学,1997,16(6):584- 587.
+
+收稿日期：1998-11-25

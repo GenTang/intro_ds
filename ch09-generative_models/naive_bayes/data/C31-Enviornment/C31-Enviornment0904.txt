@@ -1,0 +1,75 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+高铁酸盐氧化絮凝去除水中腐殖质的研究*
+曲久辉　林　谡　田宝珍　王立立
+摘要　研究了高铁酸盐对饮用水中富里酸(FA)的去除效能与作用条件，考察了高铁酸盐单独氧化、氧化絮凝和与聚合氯化铝联合应用的除FA效果.结果表明，当高铁酸钾与FA的质量比为12时，高铁酸盐氧化可以去除水中90%以上的FA，在浑浊水中高铁酸盐具有氧化和絮凝的双重作用效能，同样高铁酸盐投加量下，可将95%以上的FA去除.采取高铁酸盐与聚合铝联用可显著提高对FA的去除效果.
+关键词　高铁酸盐；氧化；絮凝；FA.
+Removal of fulvic acid from drinking water using ferrate
+QU Jiuhui,LIN Su,TIAN Baozhen,WANG Lili (Research Center for Eco-Environmental Sciences,Chinese Academy of Science,Beijing 100085)
+Abstract　Removal efficiency of fulvic acid(FA) in drinking water using ferrate and the optimum conditions were investigated.The removal effects of FA by using oxidation and oxidation-coagulation of ferrate alone and combining application of ferrate and polyaluminium chloride(PAC) were also compared.Jar test was employed in the studies and the results of FA removal was analyzed spectrophotometrically.Ferrate exihibited good oxidation capacity on FA.The results have showed that about 90% of FA can be oxidized and removed from the water when weight ratio of ferrate to FA is 12∶1.Adsorption of Fe(OH)\-3 precipitation produced by ferrate decomposition can also give FA an extra removal.In the presence of turbidity ferrate can conduct oxidation and coagulation simultaneously and over 95% of FA was eliminated with the same weight ratio of 12∶1.Combining application of ferrate and PAC was more efficient for FA removal.2 mg/L FA could be entirely removed from synthetic drinking water by joint treatment of 8 mg/L ferrate and 0.8 mg/L PAC (by weight).
+Keywords　ferrate,oxidation,coagulation,fulvic acid.
+　　高铁酸盐是一种六价铁的化合物，在酸性和碱性溶液中都表现强氧化性，这种能力使它作为消毒剂对微生物具有极强的抑制作用［1］.它还可以降解水中一系列有机污染物［2］，并且在pH7以下很快分解，产生具有优良絮凝功能的三价铁离子和吸附作用的Fe(OH)3.因此高铁化合物被认为是一种集消毒、氧化、混凝、吸附为一体的多功能水处理药剂.国内外有关高铁化合物水处理效能方面的研究主要集中在：FeO42-的氧化除污染作用［3］、絮凝作用［4］和杀菌消毒效能［5］.
+　　从利用高铁酸盐取代氯进行饮用水的预氧化处理目的出发，本文对高铁酸盐氧化去除水中腐殖质的效能与影响因素进行了研究.
+1　实验部分
+1.1　高铁酸盐制备
+　　实验用高铁酸盐为固体粉末状的K2FeO4，其纯度在99%以上.制备的主要原料是NaOH，Fe(NO3)2和NaClO.制备方法是：在含饱和NaClO的浓碱液中逐渐加入固体KNO3，氧化约40min后，过滤去掉溶液中残渣.然后在滤后液中加入KOH至饱和，使其中的高铁酸盐由溶解状态使高铁酸钾沉淀下来，过滤、晒干，最后分析纯度.在本实验中，采用的高铁酸盐纯度均为99%以上.
+1.2　实验方法
+　　氧化实验是在100mL的烧杯中进行的.每个烧杯中加入蒸馏水配制的富里酸(FA)溶液，然后加入高铁酸盐，磁力搅拌均匀，静止反应预定的时间后，加入Na2SO3中止反应.为了测试氢氧化铁吸附作用的影响，本实验采用0.45μm的滤膜过滤除去氢氧化铁沉淀.在使用分光光度计检测之前，所有的样品均先用1mL硫酸、磷酸混合溶液(V∶V,1∶1)酸化，这样，三价铁的沉淀被重新溶解，Fe3+的黄色将会被掩蔽成无色，从而不能干扰FA的测定.本实验采用7550UV-VIS分光光度计测定FA的浓度，在所有的氧化实验中，使用硼酸缓冲溶液来稳定pH值.在不考虑pH值影响的情况下，pH值都选择在7左右.温度稳定在20℃左右.
+　　高铁酸盐去除水中FA的氧化絮凝实验采用烧杯混凝实验方法，模拟浑浊水(浊度根据实验配制)采用高岭土配制.絮凝处理的混合(快速搅拌280r/min)、反应(慢速搅拌40r/min)和沉淀时间分别为0.5min、15min和15min，采用HACH DREL/2010手提数据分析分光光度计(Portable Dataloging spectrophotometer)测量剩余浊度.上清液通过0.45μm的滤膜过滤，排除悬浮颗粒物干扰.在所有混凝实验中，温度都稳定在20℃左右.
+2　结果与讨论
+2.1　高铁酸盐对水中FA的氧化去除效能
+　　实验证明，FeO42-对水中腐殖质具有明显的氧化去除作用.在水的pH一定的条件下，高铁酸盐对FA的去除效果与高铁的投加浓度、作用时间、FeO42-对水中FA的质量比等有关.
+　　在固定pH、反应时间和FA浓度的条件下，高铁酸盐的投加量是影响FA去除效果的决定因素.如图1所示，当原水中含有2mg/L的FA时，分别投加5、10、25mg/L的K2FeO4，氧化反应30min后，对FA分别去除了30%、45%和87%.因此，适当增加高铁酸盐的投加浓度对提高水中FA去除效果将是有效的.从反应时间的影响可以看出，高铁酸盐对FA的氧化去除作用是一个从快到慢的过程.大部分的FA在反应的最初阶段即被去除，这与高铁酸盐的初始投加量有关.高铁酸盐的投加量越高，整个氧化反应可持续的时间越长，对FA的去除效果也就越好.对5mg/L和10mg/L的K2FeO4投加量，作用时间在10min以前去除速率较快，而在20min以后反应即告结束.而当K2FeO4投加25mg/L时，不仅对FA的初始去除速率较快，而且直到30min时对FA的去除尚未结束.所以，应根据高铁酸盐的实际投加量来确定适宜的反应时间，这不仅可以提高高铁酸盐的有效利用率、FA的去除率，而且可以保证处理后水中最少的铁残留.
+　　实际上，高铁酸盐的投加量应主要取决于水中FA的浓度.根据化学反应的计量关系，可以根据K2FeO2/FA(高铁酸盐与FA的质量比)所对应的去除效果来确定高铁酸盐的投加量.实验证明，当pH和反应时间固定时，在一定的范围内，K2FeO4/FA值越高，则对水中FA的去除效率也越高，但是二者并不存在线性比例关系.如在图2所示的条件下，当K2FeO4/FA值大于15时，水中FA的残余量基本不再因高铁的投加量增加而有明显降低.对同样K2FeO4/FA值，在同样的作用时间内，原水中高铁酸盐的浓度越高，则FA的去除率也越高，这可能主要是由于高的初始浓度具有较高的反应速率.
+
+
+图1　不同作用时间下高铁酸盐对水中FA的氧化去除效果
+Fig.1 Removal effect of FA by ferrate oxidation in different periods
+
+
+图2　K2FeO4/FA(质量比)与FA去除效果的关系
+Fig.2 K2FeO4/FA(weight ratio) vs the removal efficiency of FA
+　　在K2FeO4/FA值不变的情况下，随着pH在一定范围内增加，高铁酸盐对FA的氧化去除作用明显增强，见图3.高铁酸盐对FA的最佳的氧化去除的pH范围是在8—9.这可能受两个因素影响，一方面pH增加有利于FA分子的离子化，使其更易于氧化；另一方面，pH的升高将导致FeO42-的氧化电位降低.因此，最佳作用的pH条件应该是两个方面综合作用的结果.
+
+
+图3　pH值对K2FeO4氧化去除FA的影响
+Fig.3 pH vs the removal efficiency of FA by ferrate oxidation
+2.2　吸附过程对FA去除效果的影响
+　　高铁酸盐分解后最终产物为三价铁的氢氧化物.由于Fe(OH)3沉降物呈絮状，具有较大的表面积和独特的表面化学特性，所以有着优良的吸附效能.同时，Fe(OH)3是在水处理过程中生成，具有对水中污染物的卷扫和共沉淀作用.由图2可以看出，吸附和共沉淀过程明显地提高了对水中FA的去除效果.另外在相同FeO42-对FA的摩尔比情况下，高铁酸盐起始浓度高时能够获得更好的吸附去除效率.这种现象与氧化实验中出现的现象相似.
+2.3　高铁酸盐氧化絮凝去除FA的效果研究
+2.3.1　高铁酸盐自身氧化絮凝作用对FA的去除效果　投加到水中的高铁酸盐是否能在发挥其氧化作用的同时产生比较好的絮凝效果，将对FA的去除产生重要影响.对此，采用两种不同的投加方式进行实验对比：方法1是直接把高铁酸盐投入中性(pH=7)快速搅拌的浑浊水中，在混凝过程中逐渐产生Fe(OH)3；方法2是在微酸性水中(pH=4)首先使高铁酸盐迅速还原分解，然后调回中性开始絮凝.由图4、图5结果可以看出，采用方法1对水中悬浮物的去除效率较低，而且高铁酸盐投入量增加不能明显降低被处理水的剩余浊度.由于絮凝过程没能有效强化对水中FA的去除效率，所以与在清水中高铁酸盐仅通过氧化实现对FA去除相比，效果并无明显改善.而采用方法2，投加高铁酸盐以后，水中的浑浊度和FA同时得到有效地去除，而且随高铁酸盐浓度的增加水中浑浊度和FA的去除率也相应增加.就对浊度的去除效果而言，水的原始浑浊度越高，其去除率也越高.如在投加高铁酸盐13mg/L时，对悬浮物浓度为400和50mg/L原水处理后的残余浑浊度几乎相等，这表明了高铁酸盐的絮凝剂特性.而对于FA的去除，水中悬浮颗粒物浓度的影响十分明显.在同样高铁酸盐投加量和水的FA含量下，较高的原水悬浮物浓度对FA的去除将产生促进作用.
+　　两种实验方法代表了高铁酸盐在水中不同形态的作用情况，对浑浊水而言，创造某种有利于使高铁离子在氧化还原过程中转化为具有更好絮凝能力的三价铁离子的水处理条件，将是保证氧化与絮凝协同作用的重要途径.
+
+
+图4　高铁酸盐的絮凝效果
+Fig.4 Flocculation effect of ferrate
+
+
+图5　高铁酸盐氧化絮凝去除水中FA的效果
+Fig.5 Effect of FA removal by ferrate oxidation and flocculation
+2.3.2　高铁酸盐和聚合铝联用去除FA效果研究　采用两种不同的投加方式来研究高铁酸盐与聚合铝联用问题.方法1：高铁酸盐和聚合铝同时被投加，如图6所示，其剩余浊度与单独使用聚合铝相比升高了许多，这可能是由于高铁酸盐负离子在对FA进行氧化之前，首先与絮凝剂阳离子发生了电中和作用的缘故.另一方面，高铁酸盐的氧化能力似乎只发挥了一部分，FA去除效果高浓度与低浓度基本相同，这可能是由于部分高铁酸盐在没来得及分解的情况下就与絮凝体共沉淀.方法2：高铁酸盐被允许在搅拌条件下首先预氧化20min，之后再投加聚合氯化铝絮凝.如图7所示，其剩余浊度与单独使用聚合铝相比明显降低，这说明，高铁酸盐预氧化过程具有明显的助凝功效.与此同时，在不同浊度下对FA的去除效果也有了明显的提高.比如，采用8mg/L高铁酸盐预氧化20min，并以0.8mg/L聚合铝(以铝计)絮凝后，2mg/L的FA被全部去除.因此，采取高铁酸盐预氧化与聚合氯化铝絮凝联用的处理方法，比单独使用高铁酸盐或聚合铝具有更好的对FA去除效果.
+
+
+图6　高铁酸盐与聚合铝联用的絮凝效果
+Fig.6 Flocculation effect of the joint use of ferrate and PAC
+
+
+图7　高铁酸盐与聚合铝联用对FA的去除效果
+Fig.7 Effect of FA removal by the joint use of ferrate and PAC
+3　结论
+　　高铁酸盐对FA具有良好的氧化去除效能，质量比为12倍的高铁酸盐能够去除90%的FA.不考虑pH因素，去除效率主要取决于高铁酸盐与FA的质量比和高铁酸盐的初始浓度，同时高铁酸盐分解产生的Fe(OH)3沉降物对FA也有一定的吸附去除功能.最佳氧化的pH值为8—9.
+　　在含有FA的浑浊水条件下，高铁酸盐具有氧化和絮凝功能.而采用高铁酸盐预氧化与聚合铝絮凝联用的方法，对水中FA的去除更为有效.
+* 国家自然科学基金资助项目(批准号：29677028)
+作者单位：中国科学院生态环境研究中心国家重点环境水化学实验室，北京　100085
+参考文献
+1　Audette R J,Quail J W,Smith P J.Ferrate(Ⅵ) ion,a novel oxidizing agent.Tetrahedron Letters,1971,3:279
+2　Sergio J DeLuca,Allen C Chao,Asce M et al.Ames test of ferrate treated water.Journal of Environmental Engineering,1983,109(5):1159
+3　Waite T D,Gilbert M.Oxidative destruction of phenol and other organic water residuals by iron (VI) ferrate.Journal Water Pollution Control Federation,1983,50(3):543
+4　Luca D S J,Cantelli M,Luca D M A.Ferrate vs traditional coagulants in the treatment of combined industrial wastes.Wat Sci Tech,1992,26(9-11):2077
+5　Murmamann R K,Robinson P R.Experiments utilizing FeO42- for purifying water.Water Research,1974,8:543
+1998-03-27收到原稿
+1998-11-23收到修改稿

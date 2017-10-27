@@ -1,0 +1,83 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+膜与臭氧化生物活性炭组合系统的运行效能
+王　琳　王宝贞　聂梅生　曾祥荣　马文铁　李 冰
+摘要：将膜与臭氧化-生物活性炭工艺组合,在臭氧化-生物活性炭O3+BAC工艺前,先经MF过滤,去除能被O3氧化的固体颗粒状有机物,减轻BAC的有机负荷,再对BAC出水进行UF过滤,能有效地防止由BAC表面脱落的微生物进入水中,有效地去除水中的有机污染物,去除率为60%～85%,CODMn值全部在1.2～1.7mg/L之间,平均为1.3mg/L.能确保出水水质.
+关键词：膜；饮用水；深度净化；臭氧化；生物活性炭
+中图分类号：X143 文献标识码：A
+Operational performance of combination system of membranes and O3+BAC processes.
+WANG Lin　ZENG Xiang-rong
+(Harbin University of Technology, Environmental Engineering,Helongjiang 150006, China；)
+WANG Bao-zhen　NIE Mei-sheng
+(Harbin University of Architecture & Civil Engineering, Environmental Engineering, Helongjiang 150008, China；)
+MA Wentie　LI Bing
+(Daqing Design and Research Institute of Oilfield Construction, 16000, China). China Environmental Science. 1999,19(6)：566～568
+Abstract：O3+BAC process is most popularly employed in advanced water treatment system. In recent years, with the development of membrane separation especially micro-filtration (MF) and ultra-filtration (UF), the MF membrane is used in O3+BAC processes as pretreatment to remove the particles that can be ozonated by ozonation, by which the organic load is decreased and lifetime of BAC is prolonged. The effluent from BAC is further treated by UF to remove the fallen Biofilm from BAC, and hence remove organic pollutants in suspension as well, with CODMn removal of 60%～ 85%. The final effluent CODMn of 1.2～ 1.7mg/L.
+Key words：membrane；drinking water；advanced purification；ozonation；BAC
+　　臭氧化-生物活性炭(O3+BAC)工艺在饮用水深度净化方面应用最广泛[1,2].但如果水源中含有颗粒状物质或大分子难降解的有机物时,需进行臭氧化,臭氧能将难生物降解的有机物部分转化为可生物降解的有机物,还能将颗粒状有机物转化为可生物降解的有机物,这样会使臭氧的投量增加,而且也将增加溶解性有机碳(DOC)的量,并使其中部分DOC转化为可生物降解的有机碳(BDOC)[3],这样就增加了后续处理设备—生物活性炭(BAC)滤池的负荷.因此在臭氧化之前先进行膜过滤,不仅去除了颗粒状有机碳和部分难降解的大分子有机物的DOC,而且大大减少了BAC的有机负荷,延长了BAC的使用寿命.经MF膜和臭氧化处理后,进水ADOC(可吸附但不能生物降解的组份)的去除率分别为20%和37%[4].在O3+BAC工艺中,活性炭表面形成了生物膜,少量老化的生物膜脱落后,大部分下沉不会随水流出,少量细菌则会随水流出[5].为了保证良好的出水水质,在O3+BAC后再加设超滤膜,这样能进一步提高出水水质.孔径为0.03m m的超滤膜,可有效地去除个体最小的E-coli大肠杆菌噬菌体以及与其结构和尺寸相近的肠道病毒,尤其是过滤形成堆积层后,更能有效地去除噬菌体和病毒[6].
+1　生产工艺流程
+　　水处理工艺流程为:臭氧氧化→ 微滤→生物活性炭→ 超滤? O3消毒→供水管网
+　　饮用水深度净化工艺流程如图1所示.
+
+图1　饮用水深度处理工艺流程
+Fig.1 Schematic diagram of advance drinking water treatment system
+2　主要设备及工艺参数
+2.1 微滤器
+　　过滤面积22m2;渗透水通量 250L/(m2.h); (水温25℃),130L/(m2.h)(水温8℃);反洗时间30～ 60min;反洗失水率4%;微滤进水量1.48m3/h;微滤器数目MF1(2套);膜的材质为PE管式烧结膜;孔隙率 48%;孔径 0.1～ 1.0mm;失水率<4%.
+2.2 生物活性炭滤罐
+　　罐体尺寸直径fφ800m×高3800mm;填料 BAC炭层高2.0m;石英砂高0.4m;滤速5m/h;停留时间30min.
+2.3 超滤器
+　　膜类型为中空纤维管式膜;材质为醋酸纤维,孔径0.01mm;截留分子量5000Dalton;失水率5%,设计温度8℃;设计温度下的透水通量108L/(m2.h);运行压差0.5bar;微滤膜过滤通量为250L/(m2.h)(水温25℃),该值随水温下降而下降,并按指数形式衰减,水温8℃时的透过率为130L/(m2. h),设计时按最差条件,过滤通量不超过130L/(m2.h).
+2.4 臭氧接触反应塔
+　　进水量/套为1.48m3/h;罐体尺寸φ600m×5100mm;有效水深 4.8m;接触时间 14min.
+2.5 管道外输
+　　采用双管路系统,外输管为不锈钢管,由于是小区供水,为了防止二次污染,采用恒压变频调速供水方式供水,K值为3.2.供水水压为6～7kg/cm2,外输泵采用2台,1用1备,外输泵型号CR8-80,流量扬程80～50m. 
+3 运行结果
+　　该处理厂于1997年7月投产,设备运行效果良好,能有效地去除水源中的有机污染物的浊度、色度.由于加设了膜系统,使出水中的有机物、细菌、病毒均能达到国家饮用水标准.采用投加臭氧消毒,避免了形成氯仿等三致物质,有效地杀灭病原菌和病毒.对水中有代表性的结果进行分析,结果见表1.
+表1　水质分析结果
+Table 1 Analytic results of water quality
+项目国家标准WHO标准常规出水BAC出水UF出水后O3出水
+色度 TCU1515105～ 63<2
+浊度 NTU356.51.140.60.4
+嗅味NDNDNDNDNDND
+肉眼可见物NDNDNDNDNDND
+pH值6.5～ 8.56.5～ 8.57.657.57.617.6
+总硬度* 450500375.3335.26301.52300.20
+Ca2+* 　　102.288.1786.1286.00
+Mg2+*　　29.18427.96825.3624.96
+总碱度*　　692.57649.86631.21622.06
+亚硝酸盐*　　0.0250.002<0.0010
+硝酸盐*20100.450.550.360.37
+挥发酚*0.002　0.002NDNDND
+氰化物*0.050.1NDNDNDND
+ABS*0.02　NDNDNDND
+CODMn*(2.5)**　4.932.141.51.2
+总铁0.30.30.070.020.020.02
+
+注:* 表示单位为mg/L ** 为日本标准
+　　由于该工艺采用O3+BAC及膜技术,当臭氧化和生物活性炭去除了大部分有机物时,剩余的有机物主要是较难降解的大分子有机物和生物活性炭表面细菌分泌的酶等大分子有机物,而选用的超滤膜主要是去除分子量大于500Dalton的大分子有机物.故能有效地去除水中有机污染物,去除率达到60%～85%,CODMn值为1.7～1.2mg/L,平均为1.3mg/L.图2,图3为工艺中不同处理单元去除UV吸光率和CODMn的情况.
+
+图2　紫外透光率
+Fig.2 UV254 transparency
+
+图3　COD变化曲线
+Fig.3 Variation of COD
+4　结论
+　　在O3+BAC工艺之前进行过滤,不仅能去除POC(颗粒状有机物)、部分难降解大分子有机物的DOC,而且能防止在臭氧化过程中POC的溶解或难降解的大分子有机物,从而大大减少了BAC的有机负荷,延长了BAC的使用寿命.然后过滤选择截留分子量大于500Dalton的超滤膜,即膜的孔径为0.01m m,能有效地截留由活性炭表面脱落的生物膜、难以被活性炭吸附降解的大分子有机物以及生物活性炭表面分泌的酶等大分子有机物,还能去除体积最小的病毒(如直径为28nm脊髓灰质病毒),使出水COD去除率达60%～ 85%,符合《供水行业2000年技术进步发展规划》中规定的一类水质的88项标准[7].
+作者简介：王 琳(1966-),女,黑龙江哈尔滨人,哈尔滨建筑大学博士,副教授,现在哈尔滨工业大学读博士后,主要从事饮用水深度净化方面的研究.发表论文20余篇.
+作者单位：王　琳　曾祥荣　哈尔滨工业大学环境工程系,黑龙江 哈尔滨 150006
+　　　　　王宝贞　聂梅生　哈尔滨建筑大学环境工程系,黑龙江 哈尔滨 150008
+　　　　　马文铁　李　冰　大庆油田设计研究院,黑龙江 大庆 160000
+参考文献
+　[1]　王 琳,王宝贞,马　放等. 臭氧化-生物活性炭净化水厂的运行效能 [J]. 中国环境科学,1998,18(6):552- 556.
+　[2]　Malley J P Jr, Eighmy T T, Collins M R, et al. The Performance and Microbiology of ozone-enhance biological filtration [J]. Journal AWWA, 1993, 85:47- 57.
+　[3]　Adham S S, Jacangdo J G, Laine J M. Characteristics and cost of MF and UF plants [J]. Journal AWWA, 1996, 88:22- 31.
+　[4]　Wataru Nishijima,Mitsumasa Okada. Particle separation as a pretreatment of an advanced drinking water treatment process by ozonation and biological activated carbon [J]. Wat. Sci. Tech., 1998, 37(1):117- 124.
+　[5]　王宝贞,田金质,尹 军等.臭氧活性炭处理污染原水的研究 [J]. 给水排水,1982,5:8- 13.
+　[6]　Cilver D O. Enterovirus detection by membrane chromatography in Berg. G.(Ed.) transmission of viruses by the water route [M]. New York: Inter Science Publisher,1976. 139- 141.
+　[7]　王光涛. 城市供水行业2000年技术进步发展规划 [M]. 北京:中国环境科学出版社,1993.
+收稿日期：1999-03-29

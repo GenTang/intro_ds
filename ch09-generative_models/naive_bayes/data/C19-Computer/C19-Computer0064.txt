@@ -1,0 +1,97 @@
+计算机应用
+Computer Applications
+1999年 第19卷　第8期 Vol.19　No.8 1999
+
+
+
+Web查询的关系数据库模型
+李绍华
+　　摘　要　本文提出了一种对Web查询计算的新模型，基于这一模型，可以设计出类似数据库SQL语言的Web查询语言，从而可针对Web的结构和内容加以查询。文中同时比较了Web数据查询与标准数据库系统查询的区别。
+　　关键词　万维网，关系数据库，查询，URL
+THE RATIONAL DATABASE MODEL
+FOR WEB QUERIES
+Li Shaohua
+Computer Center of Guangdong Business College, Guangdong．Guangzhou 510320
+　　Abstract　This paper proposed a new model for Web query and computation. Web SQL-like query language can be designed based on this model. The differences between Web query and standard database query are also discussed.
+　　Keywords　World wide web, Rational database, Query, URL
+1　Web查询的问题
+　　万维网（WWW）是一个巨大的、分布式异构文档信息库，这些文档通过超文本链接（hypertext link）建立起联系。从万维网中快速检索信息的工具与技术发展甚快，但绝大多数均将万维网看作一个传统的数据库，以便采用诸如SQL、Datalog之类的查询语言，目的是方便用户的查询。然而，Web并不是一个数据库，对它的查询与标准的数据库本质上是极其不同的。Web与标准数据库之间的区别主要表现在以下几个方面［1］：
+　　缺乏并发控制；
+　　数据存取能力有限；
+　　高度自治；
+　　异构性；
+　　缺乏结构性。
+　　Web处理并发控制的能力非常弱。当设计者要对某一文档进行修改操作时，修改期间应能对文档加锁以防止他人来访问，而这几乎无法实现；同时，Web也没有事务处理机制，这就在原理上使得很多的查询不能在一有限的时间内进行计算。例如，当我们通过链接查询到某一文档，而此时某人正在该文档末尾处添加新的内容，若其添加速度比读取速度快，则这一计算便无法结束了。要使Web具有并发控制机制取决于隔离对动态修改的网页的查询并提供一个概念上的静态视图。
+　　目前，对Web文档的查询基本上还是导航式的。方法之一是浏览（Navigation），即从一初始URL出发，一级一级地进行浏览；方法之二是关键词查询（Query），即通过诸如Yahoo、Altavista这一类的索引服务器进行搜索。这类索引服务器并没有保证对每一个文档建立起索引，也没有保证这一索引的通用性，基本上只是提供对预先计算过的数据进行寻址。这一限制对查询的易操作性影响很大。如要查询“是否存在文档d”这样一个问题，便是不可计算的，因为索引服务器无法检查所有文档，而且还要保证没有丢失发生。此外，这两种广为采用的方法均无法探索出Web文档网络的内在结构和拓扑关系。如果我们想查找具有以下关键词的文档：“IBM”、“personal computer”、“price”，从效率上来说，我们应当先进行Navigation操作至IBM主页（www.ibm.com），然后从该服务器出发根据以上关键词再进行Query操作，然而，目前的工具还不能将这两种操作统一起来，原因在于Navigation操作是用于构建索引的，而Query操作是对已构建好的索引进行搜索。
+　　George A. Mihaila（University of Toronto, Canada）等设计了一种基于万维网的类SQL语言：WebSQL。WebSQL着眼于文档的拓扑结构，将Navigation和Query两种操作溶于一体，具对于静态文档和动态文档都是可计算的。
+　　本文探讨Web的关系数据模型。利用诸如Java语言对这一模型加以实现，便可以在万维网上进行类似标准数据库的SQL查询。
+2　Web的关系模型
+　　从全局的角度看，Web的模型化包括对Web本身的模型化、Web站点结构的模型化、Web页的内部结构模型化，甚至对Web站点内容的粒度划分也是一个很技术性的问题。
+2.1　超文本结构
+　　Web文档之间通过超文本链进行联接，巨大的万维网信息库可以抽象为一个虚图［3］：图结点（node）是Web对象，该对象具有统一资源识别符URL、HTML文档标题（title）及内容（content）、文档长度（length）、类型（type）、最新修改日期（modif）等属性。因此，我们可以将一个Web对象看作是“文档关系表”的一个元组：
+　　N［id,title,content,type,length,modif,…］
+　　其中，id代表URL，因此可以定义为主码PK，而其它属性可以是Null值，URL的数据格式如下：
+　　<URL>:=<Protocol>://<Host>/<Path>/<Filename>［#location>］
+　　HTML文档之间通过锚标志（Anchor tag）建立链接关系，其格式如下：
+　　<A HREF="DestURL">AnchorText</A>
+　　我们可以将每个链定义为“锚关系”中的一个元组：
+　　L［source,destination,label,…］
+　　其中，source和destination是后文所定义的Oid类型。
+　　索引服务器往往提供一个表（Form）格式的用户接口，用户在Form中填入必要的参数，索引服务器依据参数之间所构成的条件进行搜索。因此，索引服务器也可以模型化为具有“参数化链”的结点。参数化链同样可以定义为一个关系元组，其结构与L相似，不过要附加一个参数集（param—set）属性：
+　　P［param—set,param—name,param—val］
+2.2　关系
+　　下面先定义两种基本的数据类型。
+　　简单类型　令D代表无限数据值集，T为简单类型的有限集，其域是D的子集。一个元组类型记作［a1:t1,…,an:tn］，其中ai是属性，定义在简单类型ti上，i=1,…,n。类型t的域记作dom(t)D。
+　　对象类型　令A代表属性名有限集，简单类型Oid∈T为对象识别符。一个对象类型Obj是一个元组：Obj=［a1:t1,…,an:tn］，ai∈A(i=1,…n)代表对象类型的属性。
+　　对象类型的域可以从其属性域中导出：
+　　dom(Obj)={［a1:v1,…,an:vn］|vi∈dom(ti),i=1,…n}
+　　其中vi代表该元组ai属性的值。
+　　下面我们可以定义两种对象类型Node和Link:
+　　Node=［id:Oid,…, ai:ti…］
+Link=［from:Oid,to:Oid,…,bj:tj,…］
+　　其中id，from，to以及ai，bj均为A的元素，而ti，tj是T的元素。
+　　Document关系和Anchor关系　在前文所述的Web模型中，文档映射为Node对象，超文本链接映射为Link对象。其中，对象识别符Oid便是统一资源识别符URL，所有Node对象构成一个文档关系数据库表Document，所有Link对象构成一个锚关系数据库表Anchor，如表1所示：
+表1Document
+
+urlTitleTextlengthTypemodif
+http://www…Title 1Text 11234Text1-1-96
+http://www…Title 2Text 22345Text2-3-96
+http://www…Title 3Text 33456Text3-4-96
+………………
+
+Anchor
+
+SourceLabeldestination
+http://www…Label 1http://www…
+http://www…Label 2http://www…
+http://www…Label 3http://www…
+………
+
+　　Base关系　当我们通过浏览器进行Web浏览时，还会充分利用一些附加的数据，如bookmarks、本地文件等，这类数据常用来初始化Web查询的出发点。为此，我们定义一个Base关系将这些相关信息包含进去。Base关系与前述其它关系的区别在于：Base关系是一定可以到达的。
+2.3　Web数据库
+　　综上所述，可以将Web数据库定义为：Web数据库由有限个Base关系DB={R1,…,Rn}及两个附加关系N和L所组成，其中N为node对象，L为link对象，并且：
+　　id是关系N中的PK；
+　　L中的source属性和N中的id属性具有引用完整性约束要求。
+3　Web查询的具体化
+　　基于以上的Web数据库模型，假设Document和Anchor是实际存在的关系，我们便可以用SQL语言来表达我们的查询要求。例如，若我们要查找出Web文档中具有相同的title的那些URL，则可写出如下的查询语句：
+　　SELECT d1.url,d2.url
+FROM Document d1,Document d2
+WHERE d1.title=d2.title
+AND NOT(d1.url=d2.url)
+　　但是，由于Document和Anchor关系是虚构的，故以上查询无法计算，也无法逐个文档地加以判断。要完成以上查询要求，必须将关系具体化。我们将查询语句改为：
+　　SELECT d1.url,d2.url
+FROM Document d1 SUCH THAT d1 MENTIONS "Something Interesting",
+Document d2 SUCH THAT d2 MENTIONS "Something Interesting"
+WHERE d1.title=d2.title
+AND NOT(d1.url=d2.url)
+　　通过SUCH THAT…MENTION…具体化查询内容，便是可计算的了。
+4　结束语
+　　对Web数据模型的研究，其基本出发点是在网络带宽有限等前提下提供一种高效、灵活、安全的Web查询方法。为此，相关的问题如事务处理、柔性查询应答系统、索引技术等的研究，是同样至关重要的。
+作者简介：李绍华　硕士，讲师。主要研究方向：计算机图形学、数据库技术。
+作者单位：李绍华　广东商学院计算机中心　广东．广州（510320）
+参考文献
+　［1］　Alberto Mendelzon and Tova Milo,Formal Models of the Web,in Proceedings of the Sixteenth ACM Symposium on Principles of Databasse System,May 1997
+　［2］　Alberto Mendelzon,George Mihaila,Tova Milo,Querying the World Wide Web,Journal of Digital Libraries1(1),1997：68-88
+　［3］　Daniela Florescu,Alon Levy and Alberto Mendelzon, Database Techniques for the World Wide Web:A Survey,ACM SIGMOD Record 27:3,1998，9：59-74
+　［4］　Alberto Mendelzon,The Web is not a database,slides from a presentation at the Workshop on internet Data Management,Washington,1998，11
+　　收稿日期:1999-02-11(修改稿)

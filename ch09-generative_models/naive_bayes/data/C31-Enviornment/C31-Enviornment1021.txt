@@ -1,0 +1,40 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.14-17
+
+
+
+
+胶州湾污染物COD的三维扩散与输运研究
+闫菊　 鲍献文　 王海　 石磊　 
+摘　要：笔者较系统地对环胶州湾工业污染源、生活污染源和海水养殖污染源进行收集和分析，给出影响胶州湾海域环境的主要污染源强的大小及分布；在三维潮流模拟的基础上，建立了一个三维保守污染物COD输运的对流扩散数值模型；模拟所得的COD污染物分布结果与胶州湾的实际监测资料符合良好。
+关键词：COD；　三维水质模拟；　胶州湾
+分类号：X55　文献标识码：A
+文章编号：1001-6929(2001)02-0014-04
+Three Dimensional Simulation on Transportation and Diffusion of Pollutant COD in Jiaozhou Bay
+YAN Ju（Ocean University of Qingdao,　Qingdao 266003,　China）　
+BAO Xian-wen（Ocean University of Qingdao,　Qingdao 266003,　China）　
+WANG Hai（Ocean University of Qingdao,　Qingdao 266003,　China）　
+SHI Lei（Environmental Protection Bureau of Qingdao,　Qingdao 266001,　China）　
+
+Abstract：Collection and analysis of industrial residential and maricultural pollution sources were systematically carried out for Jiaozhou Bay. The intensity and distribution of major pollution sources for the marine environment were given. On the basis of three-dimensional (3-D) simulation of tidal current, a 3-D model of transportation and diffusion of conservative pollutants was built and applied. The model was verified by observations of COD distribution.
+Keywords：COD;　3-D water quality model;　Jiaozhou Bay
+基金项目：山东省基金重点项目(Z99E01)；教育部重点资助项目(00080)
+作者简介：闫菊(1962-)，女，辽宁锦州市人，副教授 
+作者单位：闫菊（青岛海洋大学，山东 青岛　266003）　
+　　　　　鲍献文（青岛海洋大学，山东 青岛　266003）　
+　　　　　王海（青岛海洋大学，山东 青岛　266003）　
+　　　　　石磊（青岛市南区环保局，山东 青岛　266001）　
+
+参考文献：
+［1］　胶州湾及邻近海岸带功能区划[M].北京：海洋出版社，1996.216.
+［2］　胶洲湾海域区域环境评价研究[R].青岛：青岛市环境保护科学研究所，1998.68.
+［3］　胶州湾陆源污染物入海总量控制研究[R].青岛：国家海洋局北海监测中心，1998，110.
+［4］　陈时俊，孙文心.胶州湾环流和污染物扩散的数值模拟[J].山东海洋大学报，1982，12(4)：1～12.
+［5］　孙英兰，孙长青，王丽霞,等.胶州湾海域水质预测[J].青岛海洋大学学报，1994，24：142～152.
+［6］　孙英兰.胶州湾环流和污染扩散数值模拟Ⅳ[J].山东海洋学院学报，1987，17(1)：10～25.
+［7］　闫菊，王海，鲍献文.胶州湾三维潮流及污染物运输数值模拟[Ph-D].青岛：青岛海洋大学，2000.56.
+［8］　渔业生产对海洋环境影响调查报告[R].1998，北京：中国水产科学研究院.1998.146.
+
+收稿日期：2000年4月3日
+出版日期：2001年3月30日

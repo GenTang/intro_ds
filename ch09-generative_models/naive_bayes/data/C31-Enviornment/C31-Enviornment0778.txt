@@ -1,0 +1,112 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+血红蛋白-环氧苯乙烯加合物的分析*
+金祖亮
+(国家自然科学基金委员会，　北京　100083)
+刘淑芬
+(中国科学院生态环境研究中心，　北京　100085)
+Rappaport S. M.
+(UNC AT CHAPEL HILL, USA)
+摘要　采用环氧苯乙烯(SO)和血红蛋白中羧酸基和巯基位的加合物同时测定的方法，对大鼠(SD)血红蛋白-SO加合物进行了体外实验及腹腔注射环氧苯乙烯和苯乙烯的体内实验.结果表明在血红蛋白中所分析的3种加合物(SG，1-PE，2-PE)均随着SO剂量而增加，半胱氨酸加合物和羧酸加合物之比率随着各不同组的实验而不同，而2-PE对1-PE比率较为恒定，说明SO和半胱氨酸反应α位优于β位，最低检测浓度是：SG为8 pmol/g(蛋白)，1-PE为5pmol/g(蛋白)，2-PE为0.6 pmol/g(蛋白).
+关键词　蛋白质加合物；血红蛋白；苯乙烯；环氧苯乙烯.
+ANALYSIS OF STYRENE OXIDE-HEMOGLOBIN ADDUCT
+
+Jin Zuliang
+(National Natural Science Foundation of China, Beijing 100083)
+Liu Shufen
+(Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085)
+Rappaport S. M.
+(UNC at Chapel Hill, Chapel Hill, NC 27599-7400,USA)
+
+ABSTRACT　An assay is described for measures of adducts of styrene oxide (SO) with hemoglobin(Hb) wich have been modified at residues containing either carboxylic acid or sulfhydryl groups. In the first, SO-carboxylic acid adducts are hydrolyzed in basic medium to liberate styrene glycol(SG). Then, the remaining residues are reacted with a reductive catalyst (Raney nickel) to liberate the two positional isomers of SO-cysteine adducts, i.e., α-phenylethanol(2-PE) and β-phenylethanol(1-PE). The products are derivatized with pentafluorobenzoyl chloride and measured by GC-NICI-MS.
+The assay was evaluated with SO adducts of Hb which had been produced in the blood of S-D rats following (a) in vitro modification or (b) i.p. administration of either SO or styrene. Levels of the three analytes (SG,1-PE and 2-PE) increased with dose in hemoglobin. Binding of SO to cysteine residues of blood proteins is greatly preferred at the α-position rather than the β-position both in vitro and in vivo. The lowest detectable adduct concentrations are 8 pmol/g protein for SG, 5 pmol/g protein for 1-PE, and 0.6 pmol/g protein for 2-PE.
+Keywords　styrene oxide-hemoglobin, adduct.
+　　苯乙烯是塑料和橡胶工业中重要的单体之一［1］，同时也广泛存在于环境中，在香烟烟雾、汽车尾气、饮用水和食品包装物中都有发现.苯乙烯的职业接触主要通过呼吸吸入和皮肤吸收，一般人群的低浓度接触主要是塑料包装物的食品进入体内.苯乙烯的主要代谢物是环氧苯乙烯(SO)［2］，动物实验指出，环氧苯乙烯有致突、致畸和致癌作用［3］.经研究发现环氧苯乙烯与生物体的DNA和蛋白质的亲核部分能形成共价相联的DNA-加合物［4］和蛋白质加合物［5］.
+　　理论上任何亲核的氨基酸末端都能与SO产生加合物，但是受分析方法的限制，目前分析仍集中于下述几种氨基酸上：血红蛋白(Hb)的N-末端缬氨酸［4］、半胱氨酸［6］、及羧酸末端［7］，原因是这些蛋白质加合物相对容易分离.本文研究能在同一个Hb的样品中同时测定SO-羧酸加合物和SO-半胱氨酸加合物(3种加合物)的方法，分析方法相对简单，灵敏度高，用样量少，广泛用于蛋白质加合物作为生物标志物的研究.
+1　材料与仪器
+1.1　化学品
+　　苯乙烯(99%)，环氧苯乙烯(99%)，Raney镍，N—溴丁二酰亚胺(NBS)，4-甲基苯乙烯，2-PE，4-甲基苯乙醇(4-m—2-PE)，吡啶(无水)，五氟苯酰氯(PFB-酰氯)等购于Aldrich公司；SO(97%)购自Fluka Chim公司；辅酶Ⅺ　Ⅴ，Sephadex G-25 (20—80μm)购自Sigma公司；乙醚购自Mallinkrodt公司；无水硫酸钠购自J.T. Baker公司；正己烷(农药级)购自Fishev公司；水由Millin-Q系统纯化.
+1.2　部分化学品及标样的合成与纯化
+　　4-甲基苯乙二醇(4m—SG)的合成和纯化方法的过程如下：用0.45mol 4m-SO在室温下与100mL0.1mol HCl搅拌10min，水层用20mL的乙醚萃取两次，将乙醚用N2驱除后，留下的白色固体为4m-SG，真空干燥后，产物用电子轰击质谱(EI-MS)鉴定，详细过程参考文献［6］.同样的方法合成和鉴定4m-SO-Hb.
+1.3　仪器
+　　负离子化学源的色质谱联用GC/MS-(NICI)(HP-5989A)，高速离心机，紫外-可见分光光度仪，真空干燥箱，恒温水浴等.
+2　实验方法
+2.1　样品的制备
+　　(a)体外反应样品的制备：0.5mL的SO的生理盐水溶液(0—7.5mmol/L)加入到1.2mL新鲜的大鼠全血中，使其最终的溶液SO的浓度为：0、10、30、100、300μmol/L样品置于水浴中，37℃培育2h，并间断性的摇动.(b)动物实验样品的制备：溶于玉米油的苯乙烯和SO注射到SD大鼠腹腔内，剂量分别为：苯乙烯是0、0.5、1.0、3.0mmol/kg(体重)，SO为0、0.1、0.3、1.0mmol/kg(体重)；注射24h后，用甲氧基芴麻醉，用肝素处理过的注射器从大鼠的心脏取血.(c)血红蛋白分离与纯化：全血样品在100×g的离心机中离心20min，分离出血清和红血球(血清冷冻备它用)，用生理盐水淋洗红血球，然后用等量的去离子水破坏红血球，在5℃下以21000×g高速离心40min，除去红细胞的细胞壁，再将溶液通过Sephadex G-25柱子透析，除去小分子量的蛋白质，Hb溶液被滴入冷的酸性丙酮中，离心分离出球蛋白固体，经洗涤，最后在40℃真空干燥到恒重.
+2.2　蛋白样品的水解
+　　20mg球蛋白样品(Gb)和10μg4-m-SO-蛋白质标样溶于4mL的水中，加蛋白质样品溶液质量7％的辅酶Ⅺ　Ⅴ，37℃酶解4h，并不断的搅拌，然后加入1mL NaOH(1mol/L)到酶解后的样品中煮沸5min，冷却后用2×5mL醋酸乙酯萃取.
+2.3　Raneyn镍催化还原
+　　余下含蛋白质的水溶液用0.2mol/L HCl调到pH=7，在每个样品中加6倍Gb质量的Raney镍和1ng的自由标样3-PP，在4℃下振摇40min，然后用5mL乙醚萃取.
+2.4　样品的衍生
+　　上述醋酸乙酯和乙醚萃取液在氮气下浓缩到3mL，用350mg的无水Na2SO4干燥萃取物，然后将样品转移到更小的试剂瓶中，进一步浓缩到干固，再用1mL正己烷溶解，并加入3μL砒啶，1.5μL PFB-酰氯，在50℃下反应20min.反应物冷却后用0.5mL的85%甲醇水溶液洗涤，分离后的正己烷层用于GC/MS分析.
+2.5　GC/MS分析
+　　衍生后的样品用负离子化学源的GC/MS仪器分析，采用石英毛细管柱，(长30m，内径0.242mm)，1mm厚度的DB-5融熔管柱，柱箱的程序温度控制对于SG-PFB和4- m-SG-PFB为：75℃保持1min，以50℃/min速度升到250℃，保持20min，对于1-PE-PFB，2-PE-PFB，4-m-2-PE-PFB和3PP-PFB为：75℃保持1min，以50℃/min的速度升到200℃,保持8min，再以50℃/min的速度升到250℃，保持11min；离子化源的温度是150℃，非分流进样，进样温度250℃，NICI的反应气体为甲烷(2×133.3Pa)，载气为He(Psi)在M/Z 316(SG-PFB，1-PE-PFB，2-PE-PFB)和M/Z 333(4m-SG-PFB，4m-2-PE-FB，3-PP-PFB)进行选择性的离子监测，依据峰面积定量，分析物的保留时间为：SG-PFB=12.7min，4m-SG-PFB=14.7min，1-PE-PFB=9.5min，2-PE-PFB=10.9min，4M-2-PE-PFB=12.9min，3-PP-PFB=13.5min.某些样品用HP5971A的质量选择监测器进行分析(MSD)，采用相同的毛细管柱(DB-5)和上述的温度程序，MSD的介面温度是280℃，在70eV离子源下，50—650u质量范围连续扫描获得了EI质谱.
+3　结果
+　　图1、图2是300μmol SO与大鼠血体外反应，按上述过程分析，蛋白质样品进行酶解和催化还原，衍生化后，用M/Z在50-550范围扫描所得GC/MS的总离子流色谱图、标样和样品中有相同保留时间的色谱峰的EI质谱图.从图1可看出蛋白质水解为苯乙二醇是由它的五氟苯酰氯的衍生物(SG-PFB)来定性，从图2看出由Raney镍催化裂解为1-PE和2-PE是由它们的五氟苯酰氯衍生物(1-PE-PFB，2-PE-FB)来定性，这结果表明在同一样品中，用不同的过程可以测3种不同的加合物.
+表1　方法检测限(LOD)和样品的最低检测浓度(LDSC)*
+Table 1 The limit of determination (LOD) andthe lowest detectable concentration(LDSC)
+
+样品进样量，pgLOD,fmolLDSC,pmol/g
+SG100.658.13
+4M-SG101.39—
+1-PE10.405.30
+2-PE10.050.61
+4M-PE10.10—
+3-PP10.13—
+
+　　* 蛋白质10mg，样品最终体积是0.1mL，进样量1μL
+
+
+图1　SO体外反应加合物的质谱图(水解后)
+A:总离子流 B：15.45min的扫描质谱 C:标样的质谱
+Fig.1 GC/MS/EI analysis of SO-protein adduct in vitro 
+
+
+图2　SO体外反应加合物的质谱图(催化反应)
+A:总离子流 B：12min的质谱 C，E:标样质谱 D：14.44min的质谱
+Fig.2 GC/MS/EI analysis of SO-protein adduct(Rainy neckel)in vitro
+　　为了提高方法的灵敏度，我们应用了负电子化学源的GC/MS选择性的多离子监测来定量分析样品，测出SG-PFB，1-PE-PFB，2-PE-FB以及标样4m-SG-PFB，4m-PE-PFB和3-PP-PFB的检测限列入表1，若蛋白质用量是10mg，样品最终的溶液量是0.1mL，其最终可检测加合物的浓度为：SG为8pmol/g(蛋白质)，1-PE为5pmol/g(蛋白质)，2-PE为0.6pmol/g(蛋白质).对方法的精密度实验是采用0.5mg内标物4m-SO-Gb，进行30次分析(样品是商品的Hb)，其变异系数为12%.对蛋白质加合物的稳定性的贮存实验，结果在-80℃下样品中的蛋白质加合物的浓度在一年内没有明显的变化.
+　　用大鼠全血和SO体外反应样品，图3显示了所测蛋白质加合物与SO剂量的关系，SO-Y代表蛋白质加合物浓度，Y代表Hb中的半胱氨酸或羧酸，SO-Y的单位为μmol/L.由图3可以清楚地看到SO与大鼠血的体外反应形成的加合物与剂量有较好的线性相关性.
+　　图4、图5表示了用苯乙烯和SO分别注入大白鼠的腹腔内反应后，血中形成蛋白质加合物与剂量的响应关系.由图4、5明显的可以看出用本方法测得大鼠血中的3种不同SO-蛋白质加合物与剂量都有较好的相关性.
+
+
+图3　SO与大鼠血体外反应加合物与剂量的关系
+A:Hb-SG B:Hb-1-PE and 2-PE
+Fig.3 Modification of rat blood by SO in vitro
+
+
+
+图4　SO在大鼠体内反应加合物与剂量的关系
+A:Hb-SG B:Hb-1-PE and 2-PEFig.4 Modification of rat blood by SO in vivo
+
+
+图5　苯乙烯在大鼠体内反应加合物与剂量的关系
+A:Hb-SG B:Hb-1-PE and 2-PEFig.5 Modification of rat blood by styrene in vivo
+表2列出SO与大鼠血体内体外反应形成加合物异构体的比率，由表2可以看出无论是体外还是体内反应，半胱氨酸的加合能力优于羧酸，SO中的α位总是优于β位.
+表2　SO不同异构体加合物的形成比率
+Table 2 The ratio of protein adducts in different binding sitesaction
+
+加合物SO(体外)SO(体内) 苯乙烯(体内)
+SO-半光氨酸/SO-羧酸651544
+αSO半光氨酸/βSO半光氨酸6.65.36.2
+
+
+4　讨论
+　　在同一样品中同时测定不同加合点的致癌物与蛋白质加合物作为接触致癌物的生物检测方法尚无报导，如果加合物的水平相当，用这种方法测得的不同加合点加合物浓度相加，会提高方法的灵敏度，同时还可以比较不同加合点的加合物浓度.一般而言，不同的加合物有不同的生物效应，从而可以选择更合适的加合物作为常规的生物检测或生物标志物.用水解的方法测致癌物与羧酸加合物是由Gan提出研究的［8］.Day［9］和Sepai［10］将方法用于测SO-蛋白质加合物，最低检测样品浓度是15pmol/g(蛋白质).而在我们的研究中增加了酶解后碱性加热煮沸使样品得以完全水解，其最低检测浓度为8pmol/g(蛋白质).
+　　由表2可以看出SO与不同的氨基酸末端形成加合物的能力不同，SO与半胱氨酸形成加合物的能力大于SO与羧酸的加合能力.SO也可以与血红蛋白中天冬氨酸、谷氨酸等羧酸末端形成SO-羧酸加合物，可能是加合物浓度低，也可能是在蛋白质纯化和沉定的过程中水解了,不易测定.所以根据本实验的结果，对比各加合物形成能力和样品的最低检测浓度，一般条件下倾向于选择SO-半胱氨酸加合物作为接触SO的生物检测标志物.
+　　Pachecka 报导SO与谷胱甘肽反应形成加合物的比率是α位/β位=60/40［11］，Yagen 报导SO与N-乙酸半胱氨酸反应两种加合物的比率是α位/β位=65/35［12］，Hemmiki报导SO与半胱氨酸反应异构体的比率是α位/β位=2/1［5］(与本实验方法不同)，而本实验是α位/β位=6.6、5.4、6.2,很接近(不同的反应)，说明利用不同的氨基酸末端反应可以测出不同的加合物异构体比率，这种现象的原因有待进一步的深入研究，根据本实验结果，一般条件下选择α位加合物作为研究接触SO的生物检测更具代表性.
+国家自然科学基金(编号：59543006，29577289)和美国职业与健康基金资助
+参考文献
+　1　Bond J A. Review of the toxicology of styvene. Crit Rev Toxicol, 1989, 19:227—249
+　2　Leibman K C, Ortiz E. Oxidation of styrene in liver microsomes. Biochem Pharmacol, 1969,18:552—554
+　3　Ponomarkov V, Cabral JR P, Wahrendorf J et al. A carcinogenicity study of styrene-7,8 oxide in rats. Cancer Lett, 1984, 24:95—101
+　4　Nordqvist B M,Lof A, Osterman-Golkar S et al. Covalent binding of styrene and styrene 7,8-oxide to plasma proteins, hemoglobin and DNA in the mouse. Chem Biol Interact, 1985,55:63—73
+　5　Hemminki K. Binding of styrene oxide to amino acids, human serum proteins and hemoglobin. Arch Toxicol. Suppl, 1986,9:286—290
+　6　Rappaport S M, Ting D,Jin Z et al. Application of Raney nickel to measure adducts of styrene oxide with hemoglobin and albumin. Chem Res Toxicol, 1993,6:238—244
+　7　Day B W, Naylor S Gan, Sahali L S et al. Molecular dosimetry of polycyclic aromatic hydrocarbon epoxides and diol epoxides via hemoglobin adducts. Cancer Res, 1990,50:4611—4618
+　8　Gan L S,Wishnok J S, Fox J G. Quantitation of methylated hemoglobin via hydrolysis of methyl esters to yield methanol. Anal Biochem, 1989,179:326—331
+　9　Day B W,Naylor S Gan, Sahali L S et al. Gas chromatographic-mass spectrometric analysis of diols and tetrols from reactions of polycyclic aromatic hydrocarbon epoxides with hemoglobin. J Chromatogr, 1991,562:563—571
+10　Sepai O, Anderson D, Street B et al. Monitoring of exposure to styrene oxide by GC/MS analysis of phenylhydroxyethyl esters in hemoglobin. Arch Toxicol, 1993,67:28—33
+11　Pachecka J, Gariboldi P,Cantoni et al. Isolation and structure determination of enzymatically formed styrene oxide glutathione conjugates. Chem Biol Interact, 1979,27:313—321
+12　Yagen B,Hermandez O,Bend J R et al. Synthesis and relative stereochemistry of the four mercapturic acids derived from styrene oxide and N-acetylcysteine. Chem Biol Interact, 1981, 34:57—67

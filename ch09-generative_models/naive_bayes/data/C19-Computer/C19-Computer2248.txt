@@ -1,0 +1,173 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000 Vol.17 No.3 P.98-100
+
+
+
+
+Windows下的视频应用程序开发
+郑东　陈淑珍
+摘　要：介绍了视频应用程序开发的基本原理，详细地说明了视频显示、捕获及视频数据的获取及处理。结合实际应用讲解了对视频帧图象的DIB操作及通过回调函数对视频原始数据的实时获取、处理。
+关键词：VFW DIB 回调函数
+1　前言
+　　VFW (Microsoft Video for Window)是微软公司为开发基于Windows的视频捕捉、视频编辑和视频播放等视频应用程序提供的软件开发工具。该开发工具包含了开发视频应用程序所需要的接口函数(APIs)，以求简化程序员开发基于Windows的视频应用程序的工作。
+2　VFW的体系结构
+　　VFW包括AVICAP、MCIAVI、DRAWDIB、AVIFILE、ICM等多个组件，通过这些组件间的协调工作，来完成视频图象的捕获、播放、编辑、文件管理等各种功能。图1描述了VFW中各组件的相互关系。
+
+图1
+　　(1)在视频捕获程序中，VFW利用AVICAP子集生成AVICap窗口类来完成视频捕获。
+　　(2)VFW利用DRAWDIB子集来完成视频的编辑。DRAWDIB提供了高性能的DIB图象的绘画能力。DRAWDIB可利用ICM将AVI文件转化为DIB位图，利用ICM来支持压缩的DIB位图。
+　　(3)AVICAP、DRAWDIB都可以通过ICM(可选的压缩管理器)来访问AVIFILE子集。在VFW中，ICM用来压缩和解压缩视频数据；给显示翻译器提供压缩的数据；程序能够定制专用的压缩管理器来压缩、解压缩、绘制视频图象。
+　　(4)VFW利用AVIFILE为视频的捕获、播放、编辑等提供文件的管理功能。
+　　视频图象的捕获：VFW是利用AVICAP子集来开发视频捕捉应用程序的。AVICAP子集包括一个AVICAP窗口类、与视频捕捉相关的回调函数、向AVICAP窗口发送消息命令的消息宏函数集。
+　　AVICAP窗口类是VFW定义的Windows窗口类，该子窗口的客户区用来显示采集卡传入计算机的实时视频图象。客户区里的图象可以有两种显示模式：一种是覆盖(OverLay)模式；另一种是预览(PreView)模式。覆盖模式的显示速度比预览模式要快，但是如果应用程序要对捕获的图象进行加工，就只能在预览模式，先把图象送到系统内存，在内存里对图象进行加工后，然后再把图象显示出来。
+　　1)创建AVICAP窗口
+　　Windows的MDI应用程序可以在一个框架窗口中显示多个文档子窗口。MFC中，每个文档子窗口包括一个视类，一个文档类，视类只用作与用户交互的接口界面。这样可以将AVICAP类窗口定义为视类的子窗口，在窗口客户区中显示采集的视频图象，同时接收用户的命令。
+　　窗口的创建过程如下(在视类的OnCreate( )中)：
+capCreateCaptureWindow( )；　　　　　　创建AVICAP窗口
+If(capDriverConnect( ))　　　　　　　　AVICAP窗口与驱动程序连接
+　　capDriverGetCaps( )；
+capSetCallbackOnXXX( )；　　　　　　　设置回调函数
+capCreateCaptureWindow( )　　　　　　　是AVICAP窗口创建函数
+　　capDriverConnect( )将AVICAP窗口与采集卡的驱动程序连接起来，如果连接成功该函数返回真值。然后调用capDriverGetCaps( )检查视频采集卡所支持的功能，返回值保存在CAPDRIVERCAPS{...}结构中。该结构里的变量表明采集卡能否支持覆盖显示模式、能否改变视频图象的采集硬件、能否改变采集的图象格式等。
+　　capSetCallbackOnXXX( )将程序员定义的回调函数通知底层驱动程序，供采集硬件发出中断消息时调用。AVICAP中定义了多个回调函数的形式来响应不同的中断消息，它们通过相似的消息宏函数设置。设置函数的参数中包含待定义的回调函数的函数指针、应用程序的句柄等。
+　　以上是一个视频处理程序的最基本部分，当与视频输入设备连接成功后即可对采集的视频流进行处理。
+　　2)静态帧图象的捕获及显示
+　　对于AVICAP窗口的动态视频图象，有时需将当前显示的一帧图象捕获并显示出来，达到画面凝结的效果。
+　　先通过capGrabFrame( )消息函数捕获视频图象的某一帧图象，然后把它转变为静态图象保存在帧图象缓冲区里。保存在缓冲区里的图象可以通过capEditCopy( )宏函数拷贝到剪贴板上。然后通过DIB(device-independent bitmap)操作显示出来。
+DWORD dwSize=capGetVideoFormatSize(hWnd)；
+capGetVideoFormat(hWnd, &BitMapInfo, dwSize)；
+BitMapInfo.bmiHeader.biWidth=capwidth；
+BitMapInfo.bmiHeader.biHeight=capheight；
+　　//先获得视频图象的格式，确定其width和height。
+HANDLE hData；
+::GlobalFree((HGLOBAL)hData)；
+hData=(HANDLE)CopyHandle(::GetClipboardData(CF_DIB))；
+　　//获得通过capEditCopy( )宏函数拷贝到剪贴板中图象数据的
+　　//HANDLE，通过CF_DIB参数指定数据类型为DIB。图象数
+　　//据的宽和高即capwidth和capheight。
+CPalette*m_palDIB=new CPalette；
+::CreateDIBPalette((HDIB)hData, m_palDIB)；
+CClientDC dc(this)；　　//获得客户区的DC。
+CRect dcrect(LONG left, LONG top, LONG right, LONG bottom)；
+　　　　　　　　　　　　//实际显示图象的dcrect
+CRect dibrect(0, 0, capwidth capheight)；
+　　　　　　　　　　　　//要显示在dcrect中的图象实际大小。
+PaintDIB(dc.m_hDC, &dcrect,(HDIB)hData[m_array], 
+　　&dibrect, m_palDIB)；
+　　一般来说，dcrect与dibrect不会大小一样，PaintDIB可自行调整放大或缩小图象至dcrect大小。在将图象显示出来后，可调整视频显示的窗口的大小，避免图象窗口与视频窗口重叠。
+::SetWindowPos(hWnd, NULL, Xposition, Yposition, width, height, NULL)；
+　　在一个监视安全系统中，通过相应的视频切换硬件，在计算机上可分别显示多路视频信号以达到监视的目的。但由于计算机上视频输入设备的限制，每次只能显示一路活动视频图象；若想同时显示多路视频信号只能通过专用的硬件如多画面处理器，先将多路视频信号合成为一路信号再在计算机上显示。而通过上述静态帧图象的捕获及显示的方法也可再实现多画面的效果，即建立一个循环显示机制，依次捕获各路视频信号的帧图象并显示，然后依次进行刷新，实际测试可得到每秒2帧的效果。虽不如专用硬件的效果，但在要求不严格的场合，此方法已可满足实际的需要。
+　　也可以通过capFileSaveDIB( )把缓冲区的图象转化为DIB位图保存在磁盘上。
+　　3)得到捕获图象的数据
+　　作为视频处理程序，很重要的一部分即是对捕获图象的原始数据进行处理，AVICAP通过回调函数机制来支持这些特定的应用。AVICAP的回调函数中包含视频流回调函数，应用程序在视频的流捕获中利用该函数访问捕获的原始数据；图象帧回调函数，应用程序在预览的模式下可以利用该函数访问待显示的图象数据。
+　　无论在视频流回调函数或者帧回调函数的参数中，都包含一个指向视频头(VIDEOHDR)结构的指针。该结构如下：
+STRUCT VIDEOHDR
+{...
+　LPSTR lpData；　　　　　　//指向视频数据缓冲区的指针
+　DWORD dwBuffer Length；　 //视频数据缓冲区的长度
+　DWORD dwBytesUsed；　　　　//缓冲中实际的数据长度
+　DWORD dwTimeCaptured；　　//距离第一帧捕获图象的时间
+...}
+　　从该结构的成员变量可以看到，利用该结构可以访问保存在视频数据缓冲区里的被捕获图象的数据。图象数据的排列顺序是根据视频图象的显示模式按照象素的顺序排列的。
+　　AVICAP利用capSetCallbackOnVideoStream( )消息宏函数设置流回调函数，利用capSetCallbackOnFrame( )宏函数设置帧回调函数。回调函数设置后，流回调函数在视频流捕获的每帧图象存盘之前被Windows调用，帧回调函数在预览的图象显示之前被调用。回调函数是由Windows系统来调用的消息响应函数，AVICAP子集中的回调函数是在采集卡的驱动程序向Windows发出中断的消息时由Windows来响应的。回调函数及时地反映了诸如帧图象的捕获完成、采集卡的状态改变、捕获后台线程让出CPU控制权等重要信息，在应用程序中有着重要的应用。
+　　在视频窗口建立后，与视频输入设备建立连接及初始化完成后，设置回调函数。
+int CView::OnCreate(LPCREATESTRUCT lpCreateStruct)
+{......
+　CapSetCallbackOnVideoStream(hwndC,
+　　(LPVOID)MakeProcInstance((FARPROC)capVideoStreamC
+allback, AfxGetInstanceHandle( )))；
+......
+}
+LRESULT CALLBACK EXPORT capVideoStreamCallback(HWND
+hWnd, LPVIDEOHDR lpVHdr) //捕获数据流的回调函数
+{
+　　//通过VIDEOHDR结构的指针lpVHdr即可获得视频数据并
+　　//进行处理。
+}
+　　帧回调函数capSetCallbackOnFrame在预览的图象显示之前被调用，工作于预览(Preview)模式。先把图象送到系统内存，在内存里对图象进行加工后，再把图象显示出来。逐帧捕获图象数据的回调函数，速度较慢，但是可以将处理后的活动视频图象显示出来。例如要在视频图象上显示一个方框以标记某一特定区域就可使用帧回调函数。CapSetCallbackOnFrame的设置相同于capSetCallbackOnVideoStream函数。
+LRESULT CALLBACK EXPORT capVideoStreamCallback(HWND
+　hWnd, LPVIDEOHDR lpVHdr) //捕获数据流的回调函数
+{
+......
+BYTE *data；　　　　　　　//当前的图象数据
+k=capheight *capwidth；　//k为捕获图象的实际大小
+for (i=0; i<k；i++)
+{
+　data[i]=lpvdhr->lpData[i]；　//捕获的图象数据读入data {
+}
+......
+　//对应于方框上的每一点，通过其在图象上的实际坐标找到data
+　//中表示该点的数据，将其变为黑色。
+......
+return(LRESULT)TRUE；
+}
+　　4)将视频数据保存为AVI格式的文件也是常用的处理方式
+　　AVI文件格式保存。捕获过程如下：
+{...
+capFileSetCaptureFile( )；　　　　//设置保存文件的文件名
+capFileAlloc( )；　　　　　　　　　//分配捕获文件的磁盘空间(可选)
+capCaptureSequence( )；　　　　　　//开始进行视频图象的捕获
+capCaptureAbort( )；　　　　　　　//结束视频捕获
+...}
+　　capFileAlloc( )预先分配捕获文件所占磁盘的空间大小，可以避免在磁盘中产生碎片，提高视频数据流的保存速度。CapCaptureSequence( )启动图象的捕获，捕获的时间可以在CAPTUREPARMS结构里设置，也可以由capCaptureAbort( )中途退出捕获过程。
+　　capCaptureSetSetup( )配置图象捕获过程中的工作参数。该函数的参数表包含一个指向捕获参数(CAPTUREPARMS)结构的指针。CAPTUREPARMS结构中主要成员变量和它们的功能如下：
+STRUCT CAPTUREPARMS
+{...
+DWORD dwRequestMicroSecPerFrame；
+　　　　　　　　　//每帧图象的捕获时间，以毫秒为单位
+UINT wPercentDropForError；
+　　　　　　　　　//捕获过程中，系统忙时允许的掉帧数目
+UINT wTimeLimit；　//捕获的时间
+}
+　　5)AVI文件是一种适合存储/播放视频信息的文件格式
+　　AVI是参考交换文件格式RIFF(Reference Interchange File Format) 数据结构型文件。其结构如下：
+RIFF('AVI'
+LIST('hdrl'
+　Avih(<MainAVIHeader>)
+　　LIST('strl'
+　　　Strh(<Stream header>)
+　　　Strf(<Stream format>)
+　　　)........additional header data
+　　)
+LIST('movi'
+　　　{LIST 'rec'
+　　　　subchunk......
+　　　　subchunk}......
+　　)
+　　[<AVIIndex>]
+　　)
+　　MainAVIHeader是文件头结构，规定文件中帧数和文件大小等信息，Stream header是关于流信息的数据流结构。Stream format则根据流的类型(fccType)而定，如是视频流，一般是一个BITMAPINFO结构。视频数据块(chunk)可分为3类，db为未压缩的RGB DIB结构，dc为压缩的DIB数据，pc为调色板改变了的数据。压缩的DIB数据在播放时必须调用指定的解压缩程序。
+　　处理和编辑AVI需要获得原始数据流。
+AVIFileOpen( )；　　//打开一个AVI文件并获得文件的句柄
+AVIFileInfo( )；　　//获得AVI文件的相关信息如图象的Height，
+　　　//Width和AVI文件中数据流(Data stream)的数目等信息
+AVIFileGetStream( )；　//建立一个指向需要访问的数据流的指针
+AVIStreamInfo( )；　//读取存储数据流信息的AVISTREAMINFO结构
+AVIStreamRead( )；
+　　　　　//读取数据流中的原始数据，视频数据流中的原始数据
+　　　　　//是构成图象的数据位。对于压缩图象，只有对其解压
+　　　　　//缩后才能使用。
+AVIStreamRelease( )；
+AVIFileRelease( )；
+　　当Video Stream中的数据是经压缩的，可用AVIStreamGetFrameOpen，AVIStreamGetFrame及AVIStreamGetFrameClose来读取。PGETFRAME AVIStreamGetFrameOpen(pavi, lpbiWanted)；
+　//pavi是指向视频数据流的指针，返回一个GetFrame对象供
+　//AVIStreamGetFrame使用来读取数据，如果系统不能找到能
+　//将压缩的视频数据流解压缩的解压缩程序，返回NULL。
+LPVOID AVIStreamGetFrame(PGETFRAME pgf, LONG lPos)；
+　//lPos指定视频数据流中所需的帧的位置。AVIStreamGetFrame
+　//函数读取视频数据流的格式及数据位，根据需要它还对压
+　//缩的视频数据流进行解压缩。返回指向
+　//BITMAPINFOHEADER结构的指针，通过
+　//BITMAPINFOHEADER结构应用程序可以读取解压缩后的
+　//帧图象的DIB数据。
+LONG AVIStreamGetFrameClose(PGETFRAME pget)；
+　//释放系统资源
+3　结束语
+　　本文对视频程序的开发作了较为详细的描述，介绍了视频应用程序常见的编程方法，对实际开发应用中的问题提出了相应的解决方法。
+郑东(武汉大学电信学院 武汉 430072)
+陈淑珍(武汉大学电信学院 武汉 430072)
+参考文献
+1 Microsoft Corporation. Video for Window Development Kit
+2 Kate Gregory. Visual C++ 5开发使用手册. 北京：机械工业出版社, 1998.5
+收稿日期：1999年9月20日

@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.21-23,28
+
+
+
+
+北京地区大气颗粒物中有机物的分析
+李瑞琴　 张增全　 施钧慧　 刘咸德　 虞统　 
+摘　要：报告了一年四个季节组合样品中的有机成分分析结果。GC/MS定性分析表明，颗粒物有机物可抽提部分中，可分析识别的主要种类有正构烷烃、脂肪酸、多环芳烃等。其中正构烷烃有明显的奇数碳优先，而脂肪酸有明显的偶数碳优先。GC定量分析正构烷烃的结果和HPLC定量分析多环芳烃的结果均显示，天坛站点的有机物污染浓度大于十三陵站点。污染水平秋冬季高，春夏季低，这种季节变化趋势与有机碳总量相同。
+关键词：大气颗粒物；　色质联机；　气相色谱；　液相色谱；　正构烷烃；　多环芳烃
+分类号：X132　文献标识码：A
+文章编号：1001-6929(2001)03-0021-03
+The Analysis of Organic Compounds of Atmospheric Aerosols in Beijing
+LI Rui-qin（Sino-Japan Friendship Center for Environmental Protection,Beijing 100029, China）　
+ZHANG Zeng-quan（Sino-Japan Friendship Center for Environmental Protection,Beijing 100029, China）　
+SHI Jun-hui（Sino-Japan Friendship Center for Environmental Protection,Beijing 100029, China）　
+LIU Xian-de（Sino-Japan Friendship Center for Environmental Protection,Beijing 100029, China）　
+YU Tong（Beijing Environmental Monitoring Centre, Beijing 100044, China）　
+
+Abstract：Organic analyses were carried out for seasonal collective samples. It was revealed by GC/MS measurements that alkanes, fatty acids and polycyclic aromatic hydrocarbons (PAHs) are of the major classes of organic pollutants as extractable and identifiable compounds. It was observed that alkanes are with preference of odd number carbon species, while fatty acids are with preference of even number carbon species. Both quantitative GC data of alkanes and HPLC data of PAHs indicated that organic pollution level was higher in Temple of Heaven site than that in Ming Tomb site. It was more severe in autumn and winter than in spring and summer. The seasonal variation pattern of alkanes and PAHs were similar to that of total amount of OC.
+Keywords：atmospheric aerosols; GC/MS; GC; HPLC; alkanes; PAHs
+
+基金项目：国家自然科学基金项目(29777029)；国家环保总局科技发展计划项目(97510)
+作者简介：李瑞琴(1945-)，女，河南开封人，研究员. 
+作者单位：李瑞琴（中日友好环境保护中心，北京 100029）　
+　　　　　张增全（中日友好环境保护中心，北京 100029）　
+　　　　　施钧慧（中日友好环境保护中心，北京 100029）　
+　　　　　刘咸德（中日友好环境保护中心，北京 100029）　
+　　　　　虞统（北京市环境监测中心，北京 100044）　
+
+参考文献：
+［1］Zheng M,Wan T S M,Fang M,et al.Characterization of the non-volatile organic compounds in the aerosols of HONG KONG-identification,abundance and origin[J].Atmos Environ,1997,31(2):227～237.
+［2］Harrison R M,Smith D J T,Lvhana L.Source apportionment of atmospheric polycyclic aromatic hydrocarbons collected from and Urban location in Birmingham, U K[J].Environ Sci Technol,1996,30:825～832.
+［3］Brown G,Maher W.The occurrence distribution and source of polycylic aromatic hydrocarbons in the sediments of the Georges River estuary [J].Oyg Geochen,1992,18(5):657～668.
+
+收稿日期：2000年12月6日
+出版日期：2001年5月30日

@@ -1,0 +1,96 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+1999年 第 12卷 第3期 vol.12 No.3 1999
+
+
+
+黄孢原毛平革菌对6种染料的脱色降解
+李慧蓉　李华兵　李文琼　赵　飞　耿　磊
+摘　要　在黄孢原毛平革菌与6种染料的液体静培养体系中，不同浓度的染料均发生脱色降解。共培育30 d时，刚果红、直接冻黄G和活性翠蓝KN－G达到92%～99％的脱色率。10，50，100 mg/L活性翠蓝KN－G，50，100 mg/L金莲橙O与天青蓝A，100 mg/L活性艳蓝KN－R的降解率达70%以上；18个样品中60%的降解率超过50%。生物吸附和生物降解是2个重要过程。研究表明，黄孢原毛平革菌对各种染料类群具有广谱有效的脱色降解能力。
+关键词　黄孢原毛平革菌　染料　吸附脱色　生物降解
+Decolorization and Biodegradation of Six Kinds of Dyes 
+by the White Rot Fungus Phanerochaete chrysosporium
+LI Huirong LI Huabing LI Wenqing ZHAO Fei GENG Lei
+(Department of Energy Engineering, Jiangsu Institute of Petrochemical Technology, Changzhou　213016)
+Abstract　Decolorization and biodegradation occurred in the shallow static liquid culture system of Phanerochaete chrysosporium with 6 kinds of dyes. After incubation of 30 days, the decolorization of Congo Red, Chrysosphenine and Remazol Turquoise Blue G was in range of 92%～99％. The biodegradation efficiency of 10,50,100 mg/L Remazol Turquoise Blue G, 50, 100 mg/L Tropaeolin O and Azure A, and 100 mg/L Remazol Brilliant Blue R is over 70%.60% of 18 samples had the efficiency of biodegradation over 50%. Bioadsorption and biodegradation were both important processes in removal of dyes from the incubation media of Phanerochaete chrysosporium. The investigation showed that this fungus species had broad spectrum and effective ability to decolorize and degrade for vrious groups of dyes.
+Keywords　Phanerochaete chrysosporium; Dye; Adsorptive decolorization; Biodegradation
+　　人工合成染料，结构复杂，种类繁多；且因其在环境中的化学稳定性高，水溶性低，色度大，多数还是致癌有毒和难以降解的，而成为重要的环境污染物。染料的脱色及降解，是世界性的难点和热点。
+　　真菌技术是最近发展起来的一项创新的环境生物技术，主要是利用以黄孢原毛平革菌(Phanerochaete chrysosporium Burdsall)为代表的白腐真菌，利用它们对各种有毒害的、难降解的、在环境中宿存的异生物质具有广谱、高效、低耗、适用性强的生物降解能力，而成为多种污染物的克星。真菌技术的诞生和成熟，为环境工程的开发提供了一种全新的对应策略和有效的治理工具［1］。
+　　笔者选择6种在结构、类别和性能上具有一定代表性的染料为底物，研究其与黄孢原毛平革菌共培养中脱色降解的过程，以求分析这一生物体系对各种染料的普遍敏感性及适用性。
+1　材料和方法
+1.1　菌种
+　　黄孢原毛平革菌品系OGC 101,由美国俄勒冈科学技术研究生院Michael H.Gold 教授赠送。
+1.2　培养基
+1.2.1　固体生长培养基
+　　每升固体生长培养基含有:200 g土豆的浸出液，20 g葡萄糖，20 g琼脂，3 g KH2PO4，1.5 g MgSO4。
+1.2.2　液体营养限制培养基
+　　基本组成：0.2 g/L KH2PO4,0.05 g/L MgSO4.7H2O，0.01 g/L CaCl2，10 g/L葡萄糖，0.5 mL有机物溶液，1mL无机物溶液，1.2 mmol酒石酸铵，20 mmol琥珀酸钠缓冲液。
+1.3　建立降解体系
+　　用100 mL锥形瓶，加入20 mL液体营养限制培养基和0.5 mmol藜芦醇(VA)；按每10 mL培养液中加入1 mL浓度为2.5×106×5孢子/mL的孢子悬浮液的量接种［2］。在39 ℃恒温培养箱静置培养。
+　　接种后6 d［3］，加入一定量的刚果红，金莲橙O,直接冻黄G，天青A，活性翠蓝KN－G,活性艳蓝KN－R母液，使终浓度为10，50，100 mg/L。每3 d充纯O2 5～10 min。30 d为1个共培育周期。
+1.4　脱色率的测定及计算
+　　利用测量培养液最大吸收波长处吸光度的减少来确定各种染料脱色率的变化［4］。用分光光度法测定并计算某一培养时间内培养液中剩余染料浓度a1(a为原染料浓度)。则染料脱色率=100%。
+1.5　降解率的测定及计算
+　　测定共培养30 d后样品的菌体细胞外培养液中的剩余染料浓度a1。采用甲醇抽提法［4，5］，将仍被菌体吸附的染料洗脱下来，计算浓度为a2，原染料浓度为a。则染料降解率=100%。
+2　结果与分析
+2.1　宏观现象的观察
+　　宏观形态的观察表明：
+　　a. 浅层静培养，在孢子悬浮液接入后的1～6 d内，形成遍及液面的白色膜状菌垫。
+　　b. 不同染料分子基本上都因被菌体吸附导致培养液脱色，但速度与能力有较大差异，如：刚果红反应最迅速有效，24 h内几乎所有的染料分子从培养液转移到菌体表面；其次是活性翠蓝KN－G;金莲橙O与活性艳蓝KN－R较差。
+　　c. 培养液颜色的转化及吸附染料带色菌体的淡化，均表明存在生物降解。如金莲橙O培养液及菌体由原来的暗橙黄变为鲜淡黄；100 mg/L活性艳蓝KN－R菌体由前期的蓝色基本褪为无色。
+2.2　不同染料吸附脱色率的比较
+　　从图1所反映的不同浓度的各种染料共培养期间脱色率动态变化的比较中可以看出：
+　　a. 刚果红脱色最迅速有效，24 h内吸附脱色率均达到90%以上，30 d接近全部脱色；其次是活性翠蓝KN－G，直接冻黄G，5 d内吸附脱色率均超过80%，30 d分别达95%及92%以上；最后是天青A、金莲橙O与活性艳蓝KN－R。
+　　b. 染料浓度对吸附脱色率的影响较复杂。从趋势上看，基本表现为：适当增加染料的浓度有助于脱色效果的提高。
+　　c. 大部分染料共培养15 d时吸附脱色接近饱和；天青A和活性艳蓝KN－R 15 d后还在进行较为显著的脱色。66%以上的样品在共培养1～5 d内完成50%以上的脱色率，故该期间为关键时期。
+
+
+
+图1　各种染料不同浓度下脱色率随培养时间的变化
+2.3　不同染料降解率的比较
+　　表1列出了共培养30 d后，各样品的降解率。将它们与30 d脱色率相比较，全部样品的降解率均不同程度地低于脱色率。脱色率与降解率相差在20%以内的样品有：各种浓度的金莲橙O，天青A和活性翠蓝KN－G,以及100 mg/L活性艳蓝KN－R。其他样品两者的差值接近30%～65％。
+　　　　　　　　　表1　不同浓度各种染料共培养30d的降解率　　　　　　　%
+
+染料名称浓度(mg/L)染料名称浓度(mg/L)
+10501001050100
+刚果红23.043.868.5天青A25.297.081.9
+金莲橙O34.091.077.4活性翠蓝KN－G72.984.787.0
+直接冻黄G36.559.566.5活性艳蓝KN－R26.722.885.5
+
+
+　　从总体上看，50，100 mg/L的金莲橙O和天青A；10，50，100 mg/L的活性翠蓝KN－G；100 mg/L的活性艳蓝KN－R的降解率达70%以上。为较理想的效果。
+　　OGC 101菌种对60%的所试样品的降解率均超过50%，表现出良好的生物降解性能。
+2.4　最大吸收波长和培养液颜色的变化
+　　大部分样品在共培养期间，还测得培养液最大吸收波长由原标准染料溶液最大吸收波长向短波方向的移动，以及培养液颜色的明显改变情况。降解率较高的样品，培养液最大吸收波长λmax均显著移动。主要包括：①表现出明显的迁移，如各种浓度的活性翠蓝KN－G由原λmax为680 nm移至λmax为640 nm左右；100 mg/L活性艳蓝KN－R由原λmax为602 nm移至λmax为350 nm。②没有确定的最大吸收波长，只在某一波长范围内，吸光度产生不规则的波动，如50，100 mg/L的金莲橙O共培养15，30 d 时λmax为396～402 nm，虽然相对于原λmax的484 nm有较大移动，但没有确定的λmax值。③出现2个λmax，如50 mg/L活性艳蓝KN－R，30 d时λmax分别为350和598 nm，而原来染料的λmax为602 nm，培养液颜色也相应转为与对应最大吸收波长相关的颜色。
+　　从图2可以看到，共培养30 d后 100 mg/L活性艳蓝KN－R培养液吸收曲线相对于作为对照的10 mg/L标准染料吸收曲线，其特征发生了改变。表现为最大吸收波长移动、吸收峰值下降和曲线走势变化。这充分说明了原艳蓝色染料分子的消失以及生成了少量绿褐色有色中间物。故证明了生物降解的发生是真实可信的。
+
+
+图2　100 mg/L活性艳蓝KN－R共培养30 d培养液吸收曲线和10 mg/L对照的吸收曲线
+3　讨论
+　　试验所用的6种染料涉及到包括单、双偶氮磺酸染料、杂环染料、酞菁染料及蒽醌染料等多种化学结构的染料；色泽上有红、黄、橙、青和蓝等。选择上一是试验黄孢原毛平革菌对染料脱色降解的普遍适用性；二是从几种国外实验室视为模式的染料着手，以此为底物检验并探索相关的条件参数。
+　　a.从研究结果上看，黄孢原毛平革菌对染料的去除作用实际上是生物吸附与生物降解2个重要事件的有机结合［5］。Barclay等［6］则明确提出将该菌体作为生物吸附剂的积极设想。在6种染料中，各浓度的脱色率均达到92%～99％的染料有刚果红、直接冻黄G和活性翠蓝KN－G，占染料品种的一半；从样品数量看，61%的样品脱色率超过90%，77%的样品脱色率超过80%，89%的样品脱色率超过60%；染料浓度为100 mg/L时，有100%的样品的脱色率超过80%，而浓度为50 mg/L时只占样品的83%，浓度为10 mg/L时只占样品的50%。由此可以看出，黄孢原毛平革菌作为一种生物吸附脱色剂具有很大的潜力。虽然它的降解率低于脱色率，但仍有61%的样品降解率在60%左右。因此这一重要的生物资源在染料污染的治理中，应充分利用并有机结合其吸附特性与降解功能，在策略上认真考虑并高度重视。
+　　b. 试验所用的染料已有相关报导的占5种。即：①研究较多的是刚果红。早期有人曾经认为刚果红抵御黄孢原毛平革菌降解［5］。1998年的最新报道［7］则认为刚果红是该菌的良好底物，并提出pH值对降解体系起重要作用的观点。虽然pH为4.5是该菌生长和木质素过氧化物酶(LiP)合成的最佳值，但在培养液中适当降低pH值可以大幅度提高降解率，原因是LiP对刚果红的氧化以及作为重要调节者的VA的大量合成均需要更低的pH值。本研究中的降解率不十分理想，可能是pH偏高的缘故。②对金莲橙O的报道仅见1篇［5］，Cripps等采用菌体与20 mg/L金莲橙O共培养，12 d内完全降解，表现出良好的脱色降解效果。本研究表明高浓度更为理想，完全脱色至少需15 d。③直接冻黄G有LiP酶作用体系及菌体作用体系［8，9］，前者200 mg/L 10 d内降解86%，后者500 mg/L 14 d降解达45%。证明了尽管菌体对这种染料有十分良好的吸附脱色效果，但降解率只在60%左右。④天青类染料与LiP的快速简便检测有关［10］，从而颇受关注。LiP对天青A、天青B和天青C均能氧化催化。本研究以天青A为底物，证明它确实是黄孢原毛平革菌作用的理想对象，并以此作为杂环染料的代表。⑤Ulmer等用200 mg/L活性艳蓝KN－R与该菌体共培养，揭示了这种染料虽不易被吸附，却能较快地扩散而进入菌体，可作为一种理想的LiP检测剂［11］。本研究的数据表明，100 mg/L浓度下它具有86.7%的脱色率与85.5%的降解率，即其降解在脱色中起的作用远远大于吸附。并存在显著的λmax移动并出现有色中间物，说明有效降解确实发生。这与Ulmer等的观点相一致。一般认为蒽醌类染料难以生物降解，从这点上看活性艳蓝KN－R的降解给我们以新的估计，但至今未见有关活性翠蓝KN－G的报道。
+　　c. 染料结构对生物可降解性的影响是一热点［12］。黄孢原毛平革菌是依靠一种广谱的、非特异性的降解机制［1］作用于底物的，所以它能对多种结构的染料产生敏感性与分解效应。结构上的差异一定程度上影响染料被该菌的吸附降解。试验的3种偶氮染料，金莲橙O分子量最小，有2个羟基，仅有1个磺酸基，所以其降解率高于 另外2种分子量较大含2个磺酸基的刚果红和直接冻黄G。天青A的高降解率主要归于真菌系统的N—去甲基作用。活性艳蓝KN－R在100 mg/L时有较高的降解发生，可能与高浓度时扩散更为理想从而与菌体酶系有更充分的接触有关。应该指出，由于该真菌系统的降解体系是细胞外的，所以它的作用机制完全区别于细菌系统［4，5］，而已有的一些关于染料结构与生物降解性相关的讨论大多是以细菌系统为背景的［12］。在白腐真菌范围内，染料结构与生物降解性关系的解释一定要注意这一生物系统本身的生理特性与机理因素，应综合底物、环境与菌系等多种参数，需具体分析才能得出规律性的结论。已有不少实验室对化学取代基如何影响该菌生物降解性这一论题付出了不懈努力［13］，这种工作非常有意义，却也是十分艰难的。
+4　结论
+　　a. 黄孢原毛平革菌对如偶氮染料、噻嗪染料、酞菁染料和蒽醌染料等不同结构的染料大类均有广谱且有效的进攻作用能力。
+　　b. 该菌依赖生物吸附和生物降解完成对各种染料的脱色与转化。
+　　c. 吸附过程主要发生在共培养前期约1～5 d内，其作用效果与染料分子结构有关，适当提高染料浓度有助于增大脱色率。
+　　d.生物降解表现出对染料分子结构的依赖性，并且根据培养液最大吸收波长和颜色的变化可证明转化真实存在。
+*江苏省环保局资助科研项目(9709)
+作者简介：女，1947年生，副教授
+作者单位:江苏石油化工学院机械系，常州　213016
+5　参考文献
+1　Bumpus J A. Perspectives on the use of white rot fungus in bioremediation technologies. In: Irvine R L ed. Bioremediation:Principles and practices (Volume II). Technomic Publishing Co. Inc., 1998. 67～109.
+2　Kirk T K, Scultz E, Connors W J, et al. Influnce of culture parameters on lignin metabolism by Phanerochaete chrysosporium. Arch Microbiol, 1978, 117:227～285.
+3 Fenn P, Kirk T K. Ligninolytic system of Phanerochaete chrysosporium: inhibition by o－phthalate. Arch Microbiol, 1979, 123:307～309.
+4 Bumpus J A, Brock B J. Biodegradation of crystal violet by the white rot funfus Phanerochaete chrysosporium. Appl Eviron Microbiol, 1988, 54(5):1143～1150.
+5　Cripps C,Bumpus J A, Aust S D. Biodegradation of azo and heterocyclic dyes by Phanerochaete chrysosporium. Appl Environ Microbiol, 1990, 56(4):1114～1118.
+6 Barclay J S, Farquhar G F, Legge R L. Biodegradation and sorption of polyaromatic hydrocarbons by Phanerochaete chrysosporium. Appl Microbiol Biotechnol, 1995, 42:958～963.
+7 Tatarko M, Bumpus J A. Biodegradation of congo red by Phanerochaete chrysosporium. Wat Res, 1998, 1～5.
+8　Paszczynski A, Crawford R L. Degradation of azo compounds by ligninase from Phanerochaete chrysosporium: involvement of veratryl alcohol. Biochem Biophy Resear Communi, 1991, 178(3):1056～1063.
+9 Knapp J S, Newby P S, Reece L P. Decolorization of dyes by wood－rotting basidiomycete fungi. Enzyme Microb Technol, 1995, 17:664～668.
+10 Magalhaes D B, Carvalho M E A, Bon Elba, et al. Colorimetric assay for lignin peroxidase activity determination using methylene blue as substrate. Biotechnol Techniq, 1996,10(4):273～276.
+11　Ulmer D C, Leisola M S A, Fiechter A. Possible induction of the ligninolytic system of Phanerochaete chrysosporium. Journ Biotechnol, 1984, 1:13～24.
+12 戴树桂，宋文华，李彤，等.偶氮染料结构与其生物降解性关系研究进展.环境科学进展，1996，4(6)：1～9.
+13　Pasti－Grigsby M B, Paszczynski A, Goszcynski S, et al. Influence of aromatic substitution patterns on azo dye degradability by Streptomyces spp. and Phanerochaete chrysosporium. Appl Environ Microbiol, 1992, 58(11):3605～3613. 
+收稿日期：1998－09－14

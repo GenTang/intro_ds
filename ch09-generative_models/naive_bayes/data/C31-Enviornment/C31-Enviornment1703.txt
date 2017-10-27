@@ -1,0 +1,111 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+UV/H2O2/草酸铁络合物光降解水中氯仿的研究
+李太友　刘琼玉
+摘要：以400W高压汞灯为紫外光源,H2O2-草酸铁络合物为光氧化剂, 对氯仿水溶液进行了光降解反应实验研究.结果表明,UV/H2O2/草酸铁络合物体系能有效地使水溶液中氯仿迅速光解脱氯;在等摩尔系列溶液中,Fe3＋/草酸根的摩尔比为1:3时,氯仿光解效果最好；溶液pH值对氯仿光解有显著影响,pH值在3～ 4时光解速率最快;随着H2O2浓度的增加,氯仿光解速率提高,但H2O2浓度较大时,H2O2的有效利用率降低;温度对氯仿光解反应有一定影响,反应的表观活化能为7.6 kJ/mol.
+关键词：光降解；草酸铁络合物；过氧化氢；氯仿
+中图分类号：X131.2 文献标识码：A
+Study on photodegradation of chloroform in water by UV/H2O2/ferrioxalate complexes.
+LI Tai-you,LIU Qiong-yu
+(Department of Urban Construction and Environment Protection, JiangHan University, Wuhan 430019, China). China Environmental Science. 1999,19(6)：526～529
+Abstract：The photodegradation of chloroform in aqueous solution by H2O2-ferrioxalate complexes as a photo-oxidant under irradiation of high pressure mereury lamp as UV light source was studied. The results indicate that the degradation of chloroform in UV/H2O2/ferrioxalate complexes is very effective and rapid. A series of iso-mole solutions were investigated and verified that the significant photodegradation of chloroform was achieved with the mole ratio of Fe() to oxalate being 1:3, pH having significant effect on dechlorination and the rate of degradation being fast at pH 3～ 4. The rate of destruction of chloroform increased with increasing concentration of H2O2, but the effect decreased at high level of H2O2. The temperature had a little effect on reaction. The apparent activation energy of the photochemical reaction was 7.6 kJ/mol.
+Key words：photodegradation；ferrioxalate complexes；H2O2；chloroform
+　　含氯有机物是天然水和生活饮用水中常见的有毒有机污染物,它们种类繁多,污染来源广,化学性质稳定,难于生物降解,易在环境及生物体内蓄积,危害较大.氯仿是饮用水投氯消毒过程中产生主要的有机污染物.1976年,美国癌症研究所报道了氯仿对试验鼠有致癌作用,引起人们对氯仿环境污染及其防治问题的注意[1].由于有毒有机物对微生物活性有抑制作用,因此难于采用活性污泥法和其它生物方法进行处理.目前多采用活性炭吸附、溶剂萃取等相转移法,这类方法不仅工艺复杂,能源消耗大,而且还存在二次污染的问题.近10年来,国内外通过光化学方法降解水中有毒有机污染物的研究已引起人们的关注,用TiO2作催化剂对水中有机物进行光催化氧化的研究已有大量报道[2-6],但该方法存在光量子效率低、有机污染物降解速率慢、光能消耗大的缺点.作者采用草酸铁络合物-过氧化氢光氧化降解氯仿水溶液,结果表明,这种均相光降解反应速率要比TiO2非均相光催化快得多.本文还探讨了pH值、温度、H2O2浓度等因素对氯仿光降解的影响.
+1　实验部分
+1.1 试剂和仪器
+　　试剂:CH4Cl3(氯仿)为C.P.级,其余试剂均为A.R.级;H2O2使用前用KMnO4法测定其浓度.仪器:Cl-2型氯离子选择性电极(长沙半导体材料厂);217型双液接甘汞电极(上海电光器件厂);pHG-3C数字式精密酸度计(武汉市仪表研究所);400W反射型高压汞灯,主波长365 nm (上海照明电器公司).
+1.2 实验方法
+1.2.1 氯仿水溶液的配制 将氯仿试剂用10倍体积的去离子水萃取8次,在室温下将萃取过的氯仿加入去离子水中,制得氯仿的饱和溶液(62 mmol/L).光解实验所需的氯仿稀溶液通过稀释氯仿的饱和溶液得到.
+1.2.2 光解实验方法 在250mL烧杯中加入一定量的氯仿、草酸、硫酸铁和H2O2溶液,迅速混合均匀,置于紫外高压汞灯下照射并电磁搅拌,灯表面到烧杯底的距离约20cm.光照一定时间后,用氯离子选择性电极测定反应试液中氯离子浓度的变化.
+　　试样中草酸和硫酸铁溶液混合后,可形成稳定的草酸铁络合物Fe(C2O4)+、Fe(C2O4)2-、Fe(C2O4)33-,它们的累积稳定常数的对数值(lgb )分别为9.4、16.2、20.8 [7].
+2　结果与讨论
+2.1 草酸铁络合物/ H2O2对水中氯仿的光降解比较了UV/H2O2/草酸铁络合物、UV/H2O2/ TiO2及H2O2 /草酸铁络合物3个系统对氯仿脱氯的作用,测定反应过程中氯离子浓度随时间的变化,反应条件为草酸30mg/L,硫酸铁(以Fe3+计)6mg/L,H2O250 mg/L,氯仿50 mg/L,TiO2 2g/L, pH值3.高压汞灯作光源.结果见图1.
+
+图1 反应液中氯离子浓度随时间的变化
+Fig.1 The relationship between Cl- concentration in the reaction solution and time
+1.UV/H2O2/草酸铁络合物 2.UV/H2O2/TiO2 3.H2O2/草酸铁络合物
+　　由图1可知,在草酸铁络合物/ H2O2溶液中,若不光照,氯仿难以降解,用紫外光照射,氯仿则迅速被氧化分解.草酸铁络合物是光化学活性很高的物质,在光化学研究中常被用作化学光量计来测定250～ 450nm波长范围的光强.在紫外光和可见光的照射下,草酸铁络合物极易发生光解反应:
+
+光还原生成的Fe2+与H2O2发生fenton反应,产生?OH [8]:
+Fe2++H2O2→Fe3+ +.OH+OH-
+.OH是强氧化剂,其氧化能力仅次于F2,能迅速氧化分解溶液中各种有机物,在光化学过程中起主导作用.氯仿在UV/H2O2/TiO2体系中的降解速率明显低于其在UV/H2O2/草酸铁络合物体系中的降解速率,这是由于草酸铁对光的吸收波长范围比TiO2宽,与H2O2生成?OH的量子产率高[7,8].因此,其对有机物的氧化分解效果更好.
+2.2 Fe3+/草酸根摩尔比对光解的影响
+　　在保持Fe3+和草酸根总浓度不变的条件下,配制一系列不同Fe3+/草酸根摩尔比的反应液对氯仿进行光解,光照30min后测定Cl- 浓度,其它实验条件同前,见表1.从表1可看出,在等摩尔系列溶液中,氯仿的光解脱氯效果与Fe3+/草酸根摩尔比有关,Fe3+/草酸根摩尔比为1:3时效果最佳.本文前面已提到草酸铁在水溶液中能有几种稳定的络合物形式,Fe(C2O4)+、Fe(C2O4)2- 、Fe(C2O4)33- ,根据表1的实验结果可推断它们都具有光化学活性,其中以Fe(C2O4)33- 的光解活性最强.
+表1 Fe3+/草酸根摩尔比对光解的影响
+Table 1 Effect of the mole ratio of F3+ to oxalate on the photolysis
+硫酸铁(以Fe3+计)
+(mmol/L)草酸
+(mmol/L)Fe3+/草酸根
+摩尔比光解生成Cl-
+(mmol/L)
+0.080.321:40.52
+0.100.301:30.65
+0.130.261:20.42
+0.200.201:10.25
+0.260.132:10.21
+
+2.3 pH值与光解速率的关系
+  固定其它条件,测定不同pH值时氯仿光降解生成氯离子的初始速率,如图2所示.
+
+图2 pH值对氯仿光解初始速率
+Fig.2 Effect of pHinitial rates of chloroform photolysis
+　　由图2可知,溶液pH值对氯仿光降解有很大影响,光解过程只适于在酸性条件下进行,pH值在3～ 4时,光解速率最快,当pH值升高至5～ 6时,光解速率明显降低.
+　　同时测定了草酸铁络合物光还原生成Fe2+浓度与pH值的关系([Fe3+]=0.1mmol/L, [C2O42-]=0.3 mmol/L,光照30min)见图3.结果表明,pH值对氯仿光降解与对草酸铁络合物本身光解的影响一致,草酸铁络合物光还原生成Fe2+浓度和氯仿光降解的初始速率都是在pH值为3～ 4时最大.这是因为当Fe3+和草酸根浓度一定时,草酸铁络合物的浓度随pH值变化,pH值为3～ 4时浓度为最大,因而光解反应速率最快. pH>4时草酸铁络合物转化形成Fe2O3.nH2O无定形沉淀,导致体系的光化学活性下降或消失[7].
+2.4 温度对光解速率的影响
+　　采用恒温槽控制反应体系的温度,测定不同温度下氯仿的光降解速率,见表2.
+表2 氯仿光降解生成氯离子初始速率与温度的关系
+Table 2 The relationship between initial rates of gener-ated Cl- by photodegradation of chloroform and temperature
+温度
+T(K)初始速率v
+(mol/L/min)lnvlnv～ 1/T直线拟合
+结果
+3032.17×10-5- 10.74lnv =-910/T- 7.11
+3132.53×10-5- 10.58斜率 = -E/R = -910
+3232.65×10-5- 10.54表观活E=7.6kJ/mol
+3332.89×10-5- 10.45　
+
+　　由表2可知,氯仿光降解速率随温度的增加而增大.由lnv～1/T直线拟合求得氯仿光降解的表观活化能E=7.6kJ/mol.,可见,它和许多光化学反应一样,具有较小的活化能,与一般的化学反应相比,温度对氯仿光解反应影响较小.
+2.5 H2O2浓度对光解效率的影响
+　　固定其它反应条件,测定不同 H2O2浓度对氯仿光解效率的影响,结果见表3.由表3可看出,在只有草酸铁而不加入H2O2的体系中,氯仿也能光解脱氯,但效果较差,加入极少量H2O2(5mg/L)后,光解明显增强.随着H2O2浓度的增加,光解速率提高.但H2O2浓度较大时,反应生成Cl- 浓度随H2O2浓度的增大而明显下降.这是由于H2O2本身能清除.OH[8]:
+.OH+H2O2 →.O2H+H2O
+表3 H2O2浓度对光解效率的影响
+Table 3 Effect of H2O2 concentration on the photolysis efficiencies
+H2O2(mg/L)光解生成Cl- (mmol/L)
+15
+(min)30
+(min)45
+(min)
+00.060.190.24
+50.160.360.44
+100.210.440.56
+200.240.520.61
+400.290.600.76
+500.310.660.80
+
+生成的.O2H自由基对有机物的反应活性远不如.OH自由基,H2O2浓度越大,这种清除作用越强,因而导致H2O2的有效利用率降低.
+
+图3 pH值与草酸铁络合物光还原生成Fe2+浓度的关系
+Fig.3 The relationship pH generated Fe2+ concentration by photoreduction of ferrioxalate complexes
+3　结论
+3.1 水中氯仿在紫外光、H2O2和草酸铁络合物的联合作用下能迅速光解脱氯,其光解速率比在UV/H2O2/TiO2体系中快得多.
+3.2 在等摩尔系列溶液中,氯仿的光解脱氯效果与Fe3+/草酸根摩尔比有关,Fe3+/草酸根摩尔比为1:3时效果最佳,这意味着在3种形态的草酸铁络合物中,Fe(C2O4)33-的光化学活性最高.
+3.3 溶液pH值对氯仿光降解有显著影响,该光解过程只适于在酸性条件下进行,pH值在3～ 4时,光解速率最快,当pH值升至5～ 6时,光解速率明显降低.
+3.4 温度对氯仿光解反应有一定影响,本实验条件下反应的表观活化能为7.6 kJ/mol.
+3.5 随着H2O2浓度的增加,氯仿光解速率提高, 但H2O2浓度较大时,H2O2的有效利用率会降低.
+基金项目：湖北省教委科学研究计划项目(97C046)
+作者简介：李太友(1942-),男,江汉大学城建环保系副教授,主要从事环境化学的教学与科研工作,主要研究方向是有毒有机污染物的光化学降解.发表论文12篇. 
+作者单位：江汉大学城建环保系,湖北 武汉430019
+参考文献
+　[1]　Cotruvo J A. THMs in drinking water [J]. Enviro. Sci. Technol., 1981, 15.268- 274. 
+　[2]　Ollis D F. Contaminant degradation in water [J]. Environ. Sci. Technol., 1985, 19:480- 484.
+　[3]　Kondo M M,Jardim W F. Photodegradation of chloroform and urea [J]. Water Res., 1991, 25(7):823- 827.
+　[4]　Hsiaso C Y,Lee C L,Ollis D F. Heterogeneous photocatalysis degradation of dilute solutions of dichlomethane , chloroform and carbon tetrachlorine with illuminated TiO2 photocatalysts [J]. J. catal., 1983, (82):418- 423.
+　[5]　李太友,程沧沧,李华禄. 载银TiO2光催化降解2,4-二氯苯酚水溶液的研究 [J]. 环境科学研究,1998,11(6):27- 29.
+　[6]　李太友,李华禄,童言秀. 二氧化钛非均相光催化降解氯仿反应动力学研究 [J]. 湖北化工,1994,(3):23- 27.
+　[7]　Zou Y,Hoigne J. Formation of hydrogen peroxide and depletion of oxatic acid in atmospheric water by photolysis of iron-oxalate complexes [J]. Environ. Sci. Technol.,1992, 26(5):1014- 1022.
+　[8]　Sun Y, Pignatello J J. Photochemical reactions involved in the total mineralization of 2, 4-D by Fe3+/ H2O2/UV [J]. Environ. Sci. Technol.,1993, 27(2):304- 310.
+收稿日期：1999-03-15

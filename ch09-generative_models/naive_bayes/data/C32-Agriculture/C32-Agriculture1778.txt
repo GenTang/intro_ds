@@ -1,0 +1,150 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+斯氏线虫与常用杀虫剂混用时对东北大黑鳃金龟的毒杀效果*
+张丽坤　李国勋　王　娟　王　宁　李青春
+摘要　昆虫病原线虫Steinernama carpocapsae种的A24品系对4种常用杀虫剂的抗药性测定表明，该线虫对氧化乐果、灭杀毙、辛硫磷均有较强的抗性，而甲基异柳磷对该线虫有较大的毒性。室内试验表明，该线虫分别与氧化乐果及灭杀毙混用对蛴螬(Holotrichia diomphalia Btes)的毒杀均有明显的增效作用，它与氧化乐果混用的共毒系数略高于与灭杀毙混用。
+关　键　词　昆虫病原线虫，杀虫剂，东北大黑鳃金龟，共毒系数
+中图分类号　S433.5，S433，S482.3　　文献标识码A
+EFFECT OF STEINERNAMA CARPOCAPSAE MIXED WITH
+INSECTICIDES ON GRUB HOLOTRICHIA DIOMPHALIA 
+BATES (COLEOPTERA MELOLONTHIDAE)
+Zhang Likun,Li Guoxun,Wang Juan,Wang Ning,Li Qingchun
+(Northeast Agricultural University,Harbin 150030,PRC)
+ABSTRACT
+　　A study on the effect of S.carpocapsae mixed with some insecticides on grub H.diomphalia was carried out under laboratory experiment.The result showed that Stainernema carpocapsae strain A24 was resistant to omethoate,phoxim,mieshabi and both of CTC(co-toxicity coefficient) from the nematode mixed with omethoate and mieshabi were higher than 100.
+　　KEY WORDS：S.carpocapsae,H.diomphalia,insecticide,CTC
+0　前　言
+　　如何协调昆虫病原线虫与化学杀虫剂之间的关系是害虫综合治理中急需解决的问题之一。为此，前人进行了一些研究，Dutky(1971)和Welch(1971)认为，许多有机氯和有机磷化学药剂对斯氏线虫Steinernema feltiae的侵染期幼虫没有或很少产生不良作用；而Hara和Kaya(1983),Kamionck(1979)的研究表明，有些有机磷和氨基甲酸酯类药剂对斯氏线虫具有致死作用，或对线虫的发育和繁殖产生不良影响；秦久刚(1984)测定了新线虫(DD-136)对六类15种化学药剂的敏感性，结果线虫对其中13种药剂有较强的抵抗能力，而对来苏尔和石碳酸比较敏感；刘南欣等(1990)利用格氏线虫(Steinerhema glaseri)中国品系防治竹象虫与农药混用的研究认为该线虫糊剂中加少量化学农药(50%乐果2 000～3 000(倍)可以提高杀虫和保笋效果；魏洪义等(1991)就防治黄条跳甲的常用杀虫剂对斯氏线虫(Steinernema feltiae)的生存力和感染力的影响进行了测定。
+　　东北大黑鳃金龟是黑龙江省地下害虫的优势种，为了探索防治该害虫的有效方法，本文就昆虫病原线虫Steinernema carpocapsae种的A24品系对黑龙江省常用杀虫剂的抗药性进行了测定，并测定了常用杀虫剂与该线虫混用对蛴螬的毒杀效果。
+1　材料与方法
+1.1　供试材料
+1.1.1　供试昆虫　本研究所用的试虫为东北大黑鳃金龟Holotrichia diomphalia Bates，田间采集成虫，室内饲养并收集虫卵，孵化后人工饲养，二龄初期幼虫供全部试验用。
+1.1.2　供试线虫　线虫Steinernema carpocapsae种的A24品系由广东昆虫研究所提供，经本实验室采用人工培养基增殖。
+1.1.3　供试杀虫剂　4种杀虫剂分别为40%辛硫磷乳剂(山东鲁南农药股份有限公司)，40%甲基异柳磷乳剂(青岛第二农药厂)，40%氧化乐果乳剂(哈尔滨万宝公司分装)，21%灭杀毙乳剂(哈尔滨化工六厂)。
+1.2　研究方法
+1.2.1　线虫对4种杀虫剂的抗药性测定
+　　将40%氧化乐果稀释500，1 000，2 000，4 000倍4个浓度，其他三种杀虫剂按有效成分的含量与氧化乐果稀释相同浓度，用清水作对照。分别取稀液5 mL装入培养皿中(药液高不超过1cm)，每皿加入相同数量斯氏线虫，12，24，48，72h后分别从各培养皿中取样，显微境下观察，测定线虫的死亡率。
+1.2.2　线虫、杀虫剂及其混用对蛴螬的毒杀效果　将含丰富有机质的土壤烘干，每瓶装入250 g，插入适量小麦种子，喷入清水使土壤含水量为15%。每瓶接入二龄初期蛴螬5头，放置2 d，使蛴螬进入正常生活状态。
+1.2.3　氧化乐果、灭杀毙对蛴螬的毒杀效果　从上述配制好的氧化乐果、灭杀毙不同浓度的稀释液中各取5 mL均匀地喷洒于土壤表面，喷洒等量清水作对照。3，5，7，10 d分别调查蛴螬死亡数。
+1.2.4　线虫对蛴螬的毒杀效果　将供试线虫配制成悬浮液，按试验所需剂量每罐头瓶中5 mL均匀地喷洒于土壤表面。其他同1.2.2.1。
+1.2.5　线虫与杀虫剂混用对蛴螬的毒杀效果　从上述配制的氧化乐果，灭杀毙的4 000倍稀释液中分别取5mL，与1.2.4中各浓度线虫液各5ml混合喷洒于土壤表面，其他同1.2.5。
+2　结果与分析
+2.1　斯氏线虫对4种杀虫剂抗性
+　　4种杀虫剂对斯氏线虫均有一定的毒性。见表1，2，3，4。随着杀虫剂浓度的增高，线虫死亡率增加，随着处理时间的延长，线虫死亡率增加。甲基异柳磷对该线虫的毒性最大，严重影响线虫的存活。该线虫对氧化乐果、辛硫磷、灭杀毙均表现不敏感，有较强的抗性。40%辛硫磷、40%氧化乐果4 000倍稀释液，21%灭杀毙2 000倍稀释液处理24h线虫的校正死亡率分别为15.58%，10.89%，7.11%。说明这三种杀虫剂低浓度有与该线虫混用的可能性。
+表1　氧化乐果不同稀释倍数下线虫死亡率
+Table　1　Mortalities of S.carpocapsae caused by omethoate
+处理时间
+(Time)
+小时
+(Hour)校正死亡率(%)
+Correct mortalities
+40%氧化乐果稀释倍数
+dilution of 40% omethoate (time)
+　500100020004000CK
+1219.5315.7513.206.130.93
+2426.8623.6118.1610.895.30
+4831.0010.844.891.6515.75
+7285.8974.5151.3941.4817.59
+
+表2　灭杀毙不同稀释倍数下线虫死亡率
+Table2　Mortalities of S.carpocapsae caused by mieshabi
+处理时间
+(Time)
+小时
+(Hour)校正死亡率(%)
+Correct mortalities
+21%灭杀毙稀释倍数
+dilution of 21% mieshabi (time)
+　2505001 0002 000
+1226.7822.6920.354.60
+2428.1721.4317.037.11
+4861.3653.7735.614.76
+7210010089.6741.90
+
+表3　辛硫磷不同稀释倍数下线虫死亡率
+Table3　Mortalities of S.carpocapsae caused by phoxim
+处理时间
+(Time)
+小时
+(Hour)校正死亡率(%)
+Correct mortalities
+40%辛硫磷稀释倍数
+dilution of 40% phoxim (time)
+　5001 0002 0004 000
+1218.7017.8615.208.31
+2425.8622.0415.5815.58
+4810082.5722.737.28
+7210010081.7161.92
+
+表4　甲基异柳磷不同稀释倍数下线虫死亡率
+Table4　Mortalities of S.carpocapsae caused by isofenphos-methyl
+处理时间
+(Time)
+小时
+(Hour)校正死亡率(%)
+Correct mortalities(time)
+40%甲基异柳磷稀释倍数
+dilution of 40% isofenphos-methyl
+　5001 0002 0004 000
+1210.7510.398.316.13
+2425.4515.369.844.82
+4874.6664.0643.8020.06
+7210010010093.82
+
+2.2　线虫、杀虫剂及其混用对蛴螬的毒杀效果
+　　通过氧化乐果、灭杀毙、斯氏线虫分别单独用于蛴螬的试验可以分别计算出其致死中浓度。7d时氧化乐果的Lc50为22387倍，灭杀毙的Lc50是39810倍，线虫的Lc50为570条/cm2。见表5，6，7。
+表5　氧化乐果不同稀释倍数下蛴螬的死亡率
+Table5　Mortalities of H.diomphalia caused by omethoate
+处理时间
+(Time)
+天
+(d)校正死亡率(%)
+Correct mortalities
+40%氧化乐果稀释倍数
+dilution of 40% omethoate (time)
+　5001 0002 0004 000CK
+39.577.932.622.624.16
+539.0532.788.578.5712.50
+791.9985.8875.9965.9916.67
+1010089.8778.1676.2020.83
+
+表6　灭杀毙不同稀释倍数下蛴螬的死亡率
+Table6　Mortalities of H.diomphalia caused by mieshabi
+处理时间
+(Time)
+天
+(d)校正死亡率(%)
+Correct mortalities
+21%灭杀毙稀释倍数
+dilution of 21% mieshabi (time)
+　2505001 0002 000
+330.4423.4916.532.62
+539.0523.8116.198.57
+710091.9984.0075.99
+1010094.1087.1679.87
+
+表7　斯氏线虫不同剂量下蛴螬的死亡率
+Table7　Mortalities of H.diomphalia caused by S.carpocapsae
+处理时间
+(Time)
+天
+(d)校正死亡率(%)
+Correct mortalities
+线虫剂量(条/cm2土壤表面)
+dosage of S.carpocapsae (1J/cm2)
+　220340460580
+3003.4617.24
+5014.2821.4335.71
+711.1125.3240.7460.97
+1028.0046.6760.0067.99
+
+　　试验表明，线虫与低浓度氧化乐果、灭杀毙混用对蛴螬均有较好的毒杀效果。见表8，9。处理7d时，线虫与氧化乐果混用Lc50为400条/cm2，线虫与灭杀毙混用的Lc50为430条/cm2。根据共毒系数(CTC)=(A的Lc50×B的Lc50×100)/(M的Lc50×(PA×B的Lc50+PB×A的Lc50))可计算出氧化乐果与斯氏线虫混用的共毒系数是278，灭杀毙与斯氏线虫混用的共毒系数为248。说明这两种杀虫剂与该线虫混用对蛴螬均有增效作用。氧化乐果与线虫混用的增效作用略高于灭杀毙与线虫混用。这与前面线虫对杀虫剂的抗药性试验结果相吻合。
+表8　斯氏线虫不同剂量与4000倍40%氧化乐果稀释液混用蛴螬的死亡率
+Table8　Mortalities of H.diomphalia caused by S.carpocapsae mined with omethoate
+处理时间
+(Time)
+天

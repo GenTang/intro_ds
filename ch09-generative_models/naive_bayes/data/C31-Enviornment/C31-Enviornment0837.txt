@@ -1,0 +1,96 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+平板构型太阳光催化反应系统中甲基橙降解脱色研究*
+王怡中　符　雁　汤鸿霄
+摘要　利用太阳光作为光源，采用自制的非聚焦开放式平板构型光催化反应装置和二氧化钛悬浆体系，以甲基橙溶液光催化脱色为依据，考虑了不同催化剂投加量、溶液初始浓度、UV辐射强度及体系流量等因素条件下，反应系统的运行情况.实验结果表明，自制的平板式太阳光反应系统能够很好的利用太阳光，在较广泛的运行条件下均能达到较高的去污效果.本实验的最佳运行条件为：平均UV光照强度26.93 W/m2的晴天，TiO2催化剂投加量1 g/L，系统循环流量1600 L/h,初始浓度为20 mg/L的甲基橙溶液15L，光照1h色度去除率达83.6%以上，光照2 h达97.9%.
+关键词　光催化降解；太阳光催化反应器；甲基橙脱色；二氧化钛.
+Solar photocatalytic degradation of methyl orange with a non concentrating flat-plate photoreactor
+WANG Yizhong, FU Yan, TANG Hongxiao 
+(State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085)
+Abstract　The photocatalytic decolorization of methyl orange in TiO2 suspension with a self-made flat-plate solar photoreactor was studied. The effects of catalyst amount, initial concentration of solution, solar UV irradiation intensity, flow rate of system and storage tank with or without bubbling O2. on the operation situation of flat-plate photoreactor were investigated. It has been demonstrated that the photocatalytic decolorization of methyl orange with the solar photoreactor is successful when iterating under either sunny or cloudy atmospheric conditions. The best performance was: a sunny day with solar UV irradiation average intensity of 26.93W/m2, catalyst amount of 1g/L, initial concentration of methyl orange of 20mg/L, flow rate of 16001/h. After 1h irradiation color removal was 83.6% and after 2h color removal achieved 97.9%.
+Keywords　photocatalytic decolourization, solar photoreactor, methyl orange, TiO2.
+1　前言
+　　自从1976年Carey报道了TiO2光催化氧化法应用于水中PCB化合物脱氯去毒的成功结果之后［1］，光催化氧化和其他高级化学氧化技术(Advanced Oxidation Processes)在当今水处理领域引起广泛重视，被认为是很有前途的更新技术.目前许多研究工作集中在多相光催化与太阳能技术的结合，以实现有毒污染物的降解［2—5］.太阳光是广泛而清洁的能源，在地球表面，太阳光辐射的起始波长为300 nm，因此太阳光中300—387 nm部分的光可被用于由TiO2激发而引起的光催化氧化，这部分光来自于直射和散射的太阳光，占太阳光谱总能量的3%—5%［6］.利用太阳光为光源能大幅度降低水处理运转费用，加快该技术推广应用的步伐.我们以染料工业废水治理为应用背景，进一步研究太阳光催化降解的工艺条件.根据太阳光浅池构型反应系统中对甲基橙降解脱色的研究结果［7］，证明了反应器光照面积越大，液膜厚度越薄，越有利于污染物的光催化降解.在此基础上我们设计研制了流动式太阳光平板构型反应系统，并仍以甲基橙为模型化合物，考虑反应系统的处理效果及工艺条件，为实际放大和反应系统的设计加工提供依据和必要的参数.
+2　实验内容
+2.1　实验装置
+
+
+图1　太阳光平板构型光化学反应器系统流程图
+Fig.1 Flowsheet of the solar flat plane photoreactor system
+
+本实验采用自制循环流动式太阳光催化解降装置(图1)，由平板反应器、出水槽、储罐、循环泵和流量计几部分组成.反应器由三面有边的塑料板(150 mm×100 mm×0.5 mm，边高40 mm)制成，由钢支架支撑，朝向正南，可以随阳光照射情况变动平板倾斜的角度.顶端放置一根直径为20 mm的喷淋管，管壁有许多2 mm的出水孔，使浆料在斜板上顺流而下均匀分布.出水槽体积均为15 L，中央接一根直径约25 mm的出水管，以保证反应系统中入水和出水流速相等.储罐体积为15 L，外加马达搅拌，混合均匀的浆料由循环泵经流量计进入反应器顶端的喷淋管，再沿斜板均匀分布接受光照后，经出水槽汇集流到储罐.系统全部由工程塑料制成，性能稳定强度好，无其他干扰.
+2.2　分析方法
+　　样品经离心分离后，再经0.45 μm滤膜过滤后待分析.采用紫外分光光度计(Backman DU-650)，测定甲基橙溶液在可见光区最大波长下吸光值变化.反应过程中太阳光紫外部分(300—400 nm)的辐射强度，采用UV-A型紫外辐射仪(北京师范大学光学仪器厂生产)连续测定，并用纪录仪跟踪纪录.
+2.3　表征方法
+　　根据反应物浓度与速度的一级动力学关系式：ln(C0/C)=kt(其中，C0:溶液初始浓度，Ct：反应某一时刻的溶液浓度，t:反应时间，k：脱色反应速率常数)，用以评价反应的快慢.由于甲基橙溶液吸光值与浓度的正比关系，在速度方程中可用吸光值A代替浓度，采用对数线性回归法将速率常数表示为：k=ln(A0/A)/(t).反应器面积为145 dm2，反应器所容纳的液体体积VR和液膜厚度δ与反应系统溶液循环时的流量Q及平板的倾斜度有关，可以经测定计算得出.储罐内液体体积Vs=10 L.Q/VR表示单位时间内溶液在平板上接受光照的次数，VR/Q表示溶液在平板反应器上的停留时间.显然，VR/Q值越大，表明溶液接受光照射的时间越长，将加速脱色反应的进行.为了将反应器的工艺参数与脱色反应速率常数综合考虑，用以评价反应系统的处理效果，我们引入另一个综合速率常数κ,并设定；κ=k*VR/Q.
+3　实验结果与讨论
+3.1　实验结果
+　　为了考察不同工艺参数对反应速率的影响，共进行了13组不同条件实验，比较甲基橙溶液的脱色降解反应速率变化.实验结果见表1.除No.11的溶剂采用蒸馏水外，其他实验溶剂均为自来水.No.12实验中外加空气压缩机向储罐中充氧.
+
+表1　太阳光催化降解甲基橙溶液实验结果
+Table 1 Experimental data of solar photocatalytic degradation of methyl orange solution
+No.G0,
+mg/LTiO2,
+g/Lδ,
+mmQ,
+L/hVR,
+LrVR/Q,
+sA/V,
+m-1κ,
+×10-4k,
+min-1T,
+℃I,
+W/m2天
+气
+1202.00.3466000.5010.0533.014512.60.02542427.93晴
+2202.00.3466000.5010.0533.01458.20.01632220.32阴
+3201.00.3466000.5010.0533.01456.10.01222220.00阴
+4201.00.3466000.5010.0533.014511.30.02252626.05晴
+5200.50.3466000.5010.0533.01459.80.01952227.89晴
+6200.50.3466000.5010.0533.01452.70.00542117.12阴
+7101.00.3466000.5010.0533.014514.90.02792024.95晴
+8501.00.3466000.5010.0533.01454.90.00972029.80晴
+9201.00.2013000.2910.0303.51454.40.00762027.52晴
+10201.00.61216000.8880.0972.014510.90.03202026.93晴
+11201.00.3466000.5010.0533.014510.10.02022025.57晴
+12201.00.3466000.5010.0533.014511.80.02362024.42晴
+13202.00.3466000.5010.0533.014510.10.02012020.46晴/阴
+3.2　讨论
+3.2.1　催化剂投加量的影响　图2是天气晴朗时，不同催化剂投加量对甲基橙溶液光催化降解的影响情况(No5、No4、No1).实验结果说明，在晴朗天气条件下，催化剂投加量在0.5—2.0 g/L范围内，反应速率随催化剂投加量增加而增加，但2.0 g/L与1.0 g/L之间的速度增加率比1.0 g/L与0.5 g/L的小.说明虽然催化剂增加能提高反应速率，但随着投加量增加而造成的光散射也会减慢反应速度，因此在实际应用中，晴朗的天气条件下，0.5—1.0 g/L为催化剂投加量的最佳范围.图3为阴天时相同条件的实验结果(No6、No3、No2)，可以看出，阴天时甲基橙溶液的光降解速度明显低于晴天时.且催化剂量少时，阴天和晴天的反应速率差异更大，由此说明适当增加催化剂的投加量可以弥补天气造成的差异.
+3.2.2　甲基橙溶液初始浓度的影响　图4是天气晴朗条件下，甲基橙初始浓度变化对光催化降解影响情况(No7、No4、No8).从实验结果可以看出，溶液初始浓度越高，达到相同去除率所需要的反应时间越长，实际运行中在允许的时间范围内，要尽可能提高对污染物的降解效率，选择最佳的初始浓度也是十分重要的.初始浓度过高会影响透光率，浓度过低则降低光子的利用率.在本组实验条件下，20 mg/L为最佳值.
+
+
+图2　晴天条件下催化剂投加量对甲基橙光催化降解的影响
+Fig.2 Effect of catalyst amount on photocatalytic decolorizaton of methyl orange in sunny day
+
+图3　阴天条件下催化剂投加量对甲基橙光催化降解的影响
+Fig.3 Effect of catalyst amount on photocatalytic decolorization of methyl orange in cloudy day
+
+图4　晴天条件下甲基橙溶液初始浓度对光催化降解的影响
+Fig.4 Effect of initial concentration of methyl orange on photocatalytic decolorization
+
+图5　系统体积流量对甲基橙光催化降解的影响
+Fig.5 Effect of flow rate on photocatalytic decolorization rate
+3.2.3　反应系统流量的影响　图5为不同系统体积流量对甲基橙溶液光催化降解影响情况(No9、No4、No10).实验结果说明，反应系统流速越大，反应速率越快.其原因可解释为：光催化氧化反应有可能分两步进行，先是在催化剂上光照产生活性基团，即光反应步骤，然后是催化剂的活性基团与溶液中有机物的氧化还原反应，即暗反应步骤.显然光反应必须在平板上瞬间完成，而后续的暗反应有可能在储罐内继续进行，所以尽管提高体系流速会缩短反应溶液在平板上的停留时间，但是并没有因此影响光催化反应速率.其次，系统流量大，单位时间内接受光照的溶液量增加，由此产生的光电子数多，有利于提高反应速率.同时体系流速快，水力搅拌强，对机械搅拌起到辅助作用，使得催化剂和反应溶液混合更均匀.从实际应用角度看，提高反应器的处理效率有两种手段，一是增大平板面积，二是提高系统流量.前者在应用中受到限制，而提高系统流量则是经济可行的方法，相当于在光照面积一定的条件下，提高了平板的利用率.由此可见平板式反应系统可以通过增大流量进一步提高反应速率.
+　　实验中还比较了储罐中是否外加充氧以及溶剂采用自来水与蒸馏水时的情况比较.实验结果说明，储罐是否充氧对甲基橙溶液的光降解速率并无明显影响，说明平板式反应系统在开放式运转过程中已经能够保证有足够的溶解氧，无需外加充氧设备.溶剂为自来水与蒸馏水时也无显著差异.
+4　结论
+　　1.实验结果肯定了非聚焦式平板构型太阳光反应系统的设计思想，它能够充分利用太阳光中直射和散射的UV光，即使在阴天条件下仍能继续运行.其最佳运行条件是：TiO2催化剂投加量为1.0g/L，系统体积流量为1600L/h，无需外加充氧，夏季或春秋季节太阳光UV辐射强度越高越好.
+　　2.在平板构型太阳光催化反应系统运行中，催化剂的投加量、反应溶液的初始浓度、反应系统的流量以及天气等条件是影响甲基橙光降解脱色速率的主要因素.
+　　3.根据实验结果看出，对于现有的平板构型反应系统，可以通过加大储罐、增大系统流量和依据地理参数调整平板与水平所成角度，进一步提高对污染物的去除效果.
+　　4.平板构型太阳光反应系统加工简单，操作容易.尤其相对与聚焦式反应器，工程造价和运转费用明显降低，因此具有进一步工业化的前景.
+　　此项研究同时得到中科院资环局九五重点项目(KZ952-S1-231)的部分资助，在此表示感谢.
+　　* 国家自然科学基金资助项目(编号：59578015)
+作者单位：王怡中　符　雁　汤鸿霄　(中国科学院生态环境研究中心环境水化学国家重点实验室，北京　100085)
+参考文献
+　[1]　Carey J H, Lawrence J, Tosine H M. Photodechlorination of PCB's in the presence of titanium dioxide in aqueous suspensions. Bull Environ Contam Toxicol, 1976,16:697—701
+　[2]　Roland Goslich, Ralf Dilert, Detlef Bahnemann. Solar water treatment: principles and reactors.Wat Sci Tech, 1997,35(4):137—148
+　[3]　Freudenhammer H, Bahnemann D et al. Detoxification and recycling of waste water by solarcatalytic treatment. Wat Sci Tech, 1997,35(4):149—156
+　[4] Hecht J. Sunlight gives toxic waste a tanning. New Sci, 1990,14:28
+　[5]　Hoffmann M R et al. Environmental applications of semiconductor photocatalysis. Chem Rev, 1995,95:69—96
+　[6]　Bockelmann D et al. Photocatalytic purification and treatment of water and air. Elsevier: Amsterdam, 1993
+　[7]　王怡中，符　雁，汤鸿霄.二氧化钛悬浆体系太阳光催化降解甲基橙研究.环境科学学报，1999，19(1)：63—67
+1997-04-03收到原稿　1998-03-18收到修改稿

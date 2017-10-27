@@ -1,0 +1,93 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第4期 No.4 Vol.18 1998
+科技期刊
+
+镍铜氧化物对吐氏酸废水臭氧氧化的催化作用*
+张彭义　祝万鹏　 (清华大学环境科学与工程系，环境模拟与污染控制国家联合重点实验室，北京 100084)
+许　强　(浙江省宁波环保科研设计院，宁波 315010)
+文　摘　染料中间体废水等难生物降解废水是目前水处理研究的焦点。用浸渍法和附着沉淀法制备了以γ-Al2O3为载体的负载型镍、铜氧化物催化剂，并以催化吐氏酸废水的臭氧氧化。研究结果表明，镍、铜单组分和双组分氧化物催化剂能不同程度地提高臭氧的利用效率，其中附着沉淀法制备的Ni-Cu-Urea-1催化剂活性最高，当臭氧投加量为0.82g/L时，其臭氧化指数为1.1；助剂钾对催化剂活性的影响与制备方法有关，当用浸渍法制备时，助剂钾能提高催化剂活性，而附着沉淀法时则不利。
+关键词　吐氏酸废水　固体催化剂　催化臭氧化
+Catalyzed ozonation of tobias acid wastewater by Ni and Cu oxides. Zhang Pengyi, Zhu Wanpeng (State Key Joint Laboratory on Environmental Simulation and Pollution Control,Department of Environmental Science and Engineering, Tsinghua University, Beijing 100084);Xu Qiang (Ningbo Environmental Protection Design Institute, Ningbo 315010).China Environmental Science.1998,18(4):310～313
+Abstract— Poorly biodegradable wastewater,such as dye intermediate wastewater,is at present the research focus of water treatment. This paper studies the catalyzed ozonation of tobias acid wastewater, a typical dye intermediate wastewater, with catalysts of Ni and Cu oxides which are loaded over the γ-Al2O3 carrier by the methods of impregnation or absorption-precipitation. It is shown that, catalysts of single oxide and complex oxides can improve ozonation efficiency in varying degrees, and catalyst Ni-Cu-Urea-1 prepared by the impregnation method has the highest activity. When the ozone dosage arrives to 0.82g/L, its ozonation index is 1.1. In addition, the effect of additive K on the catalytic performance is preliminarily investigated. 
+Key words:tobias acid wastewater　solid catalyst　catalyzed ozonation
+　　臭氧具有很强的氧化与杀菌能力，在水处理中的应用已有一百多年的历史。目前广泛地用于饮用水消毒、循环冷却水和废水的处理〔1〕。然而臭氧处理成本高，特别对于难降解有机废水，普通的臭氧氧化法存在投加量大、利用率低等问题。为了提高臭氧氧化的速率和效率，国内外探索了催化臭氧化，如紫外光催化〔2〕、固体催化剂催化〔3〕。催化臭氧化的机理是在紫外光和催化剂的作用下，强化臭氧氧化过程，即加强羟基自由基的产生和氧化还原循环。本文研究了负载型镍、铜氧化物催化剂对吐氏酸臭氧氧化的催化作用。
+1　试验方法
+1.1　催化剂制备
+　　分别采用浸渍法、附着沉淀法制备负载型催化剂。选用的催化剂载体为工业用γ-Al2O3，其外形为球形颗粒，直径2.5～4.5mm，比表面积约为250m2/g。催化剂活性组分均为分析纯硝酸盐，即Ni(NO3)2、Cu(NO3)2和KNO3。
+　　浸渍法是常用的负载型催化剂制备方法，主要包括浸渍-干燥-焙烧等步骤。首先将γ-Al2O3载体在浓度为6％～7％（以金属元素重量计）的硝酸盐溶液中（对于多组分，则是混合溶液）浸渍4h，然后在85℃下干燥，450℃下焙烧4h。重复1次即得到试验用的4种催化剂，即Ni-02、Cu-02、Ni-Cu-02、Ni-Cu-K-02（催化剂名称中，前面的元素表示其中含有的活性组分，数字表示浸渍次数）。
+　　此外，还用附着沉淀法〔4〕制备了Ni-Cu-Urea-1、Ni-Cu-Urea-2和Ni-Cu-K-Urea等3种双组分催化剂。该方法是在浸渍液中预先加入沉淀剂的母体，如尿素，待扩散、吸附过程完成（达到平衡）后，通过改变温度等条件，使沉淀剂母体产生沉淀物种，将活性组分均匀沉积在载体上。具体步骤是将一定量的分析纯尿素溶解在硝酸盐溶液中，然后将γ-Al2O3载体在其中浸4h；再将浸有γ-Al2O3的溶液用水浴加热至55℃，保持5h；其余步骤同浸渍法。附着沉淀法中，载体只浸渍1次。
+1.2　吐氏酸废水的催化臭氧化试验
+　　试验的吐氏酸废水取自天津某化工厂，用自来水稀释至初始COD约1500mg/L，色度300倍（稀释倍数法），并用氨水调节pH值到9.0。臭氧气由XFZ-5型臭氧发生器产生，流量为0.05m3/h，其中臭氧浓度为21～27mg/L。
+　　试验用反应器为一个带旋转筐的圆柱反应器，尺寸为200×250mm，圆柱中央的旋转筐内装催化剂，如图1所示。试验时，先将一定量（约105 g）催化剂装入旋转筐内，然后加入4L吐氏酸废水，再通入臭氧，每隔20min取水样和气样分析，分别测水样的COD和气样的臭氧浓度。根据臭氧进气和尾气中臭氧的浓度计算臭氧消耗量。
+
+图1　催化臭氧化反应装置
+Fig.1　Reactor for catalyzed ozonation
+2　结果与分析
+2.1　催化剂活性组分含量
+　　用原子吸收光谱法测定了1次浸渍后、2次浸渍后催化剂中金属含量，结果见表1，表1中同时给出制备每种催化剂浸渍液组成和浓度。
+表1　各种催化剂活性组分含量（w/w%）
+Table 1　Metal content in the catalysts (w/w%)
+
+催化剂名称浸渍液组成　浸渍液浓度1次浸渍焙烧后的
+金属含量2次浸渍焙烧后
+的金属含量
+Ni-02Ni(NO3)26.54.888.52
+Cu-02Cu(NO3)27.06.6912.48
+Ni-Cu-02Ni(NO3)25.205.188.82
+　Cu(NO3)21.423.203.31
+Ni-Cu-K-02Ni(NO3)24.734.898.16
+　Cu(NO3)21.271.723.38
+　KNO30.47没有测定0.80
+Ni-Cu-Urea-1Ni(NO3)25.203.64
+　Cu(NO3)21.422.04
+　CO(NH2)2
+Ni-Cu-Urea-2Ni(NO3)21.30没有测定
+　Cu(NO3)24.80
+　CO(NH2)2
+Ni-Cu-K-UreaNi(NO3)24.733.35
+　Cu(NO3)21.272.00
+　KNO30.470.81
+　CO(NH2)2
+
+　　由表1可见，在过量浸渍的情况下，由于浸渍液组成以及浸渍条件不同，各种催化剂的金属含量是各不相同的。载体中金属含量随浸渍次数而增加，正是因为浸渍次数的不同，浸渍法制备的催化剂的金属含量普遍高于附着沉淀法的含量；而对于Ni2+，比较经1次浸渍后催化剂中Ni2+的含量，浸渍法催化剂的含量高于附着沉淀法，而Cu2+则不完全如此。此外，浸渍液中加入硝酸钾后，相应的催化剂中Ni2+、Cu2+的含量变化不大。另外，在附着沉淀法制备的催化剂中Cu2+的含量多数高于对应的浸渍液的浓度，而Ni2+的含量则基本上都低于对应的浸渍液浓度，这可用Ni2+和Cu2+的氢氧化物具有不同的溶度积常数来解释。在附着沉淀法中，浸渍液中的尿素由于受热分解产生OH－，与溶液中的Ni2+和Cu2+发生反应，分别产生Ni(OH)2、Cu(OH)2沉淀，并沉积在载体的内外表面。这两种沉淀在25℃时的溶度积常数〔5〕分别为2×10-15和2.6×10-19，因此，Cu2+比Ni2+更容易沉积在载体上。
+2.2　各种催化剂对臭氧氧化的催化活性
+　　催化剂的催化活性可用COD去除率和臭氧化指数OI（Ozonation Index）表示。OI的含义为每去除单位COD所消耗的臭氧量(gO3/gCOD)。废水中所消耗的臭氧量包括由于氧化有机物等而消耗的及自分解而不发挥氧化作用而消耗的，从理论上可以推算，当全部的臭氧都用来去除COD即起氧化作用时，OI值为1，这也是OI值的理论最小值。OI值越小，说明臭氧的有效利用率越高，也就是催化剂的活性越高。
+2.2.1　单组分催化剂Ni-02、Cu-02催化臭氧化活性　如图2所示，当臭氧投加量为0.74g/L时，Ni-02、Cu-02的OI指数分别为1.30和1.62，而空白γ-Al2O3则为1.90。也就是说去除每公斤COD，在Ni-02、Cu-02催化下，所消耗的臭氧量分别比空白的γ-Al2O3降低31.6%和14.7%，表明2种催化剂均能提高臭氧的有效使用效率，有一定的催化活性。
+2.2.2　浸渍法制备的双组分催化剂Ni-Cu-02、Ni-Cu-K-02的催化活性　如图3所示，与空白的γ-Al2O3相比，Ni-Cu-02、Ni-Cu-K-02均有一定的催化活性，尤其是后者的活性较高；但是在整个反应阶段内，其活性并不比Ni-02高出多少，这说明，将具有催化作用的2种活性组分简单地同时浸渍在载体上并不能显著提高催化剂的活性。
+
+图2　Ni-02和Cu-02的催化活性
+Fig.2　Catalytic performance of Ni-02 and Cu-02
+
+图3　Ni-Cu-02和Ni-Cu-K-02催化活性
+Fig.3　Catalytic performance of Ni-Cu-02 
+and Ni-Cu-K-02 
+2.2.3　附着沉淀法制备的双组分催化剂　如图
+4，图5所示，当臭氧投加量为0.82g/L时，Ni-Cu-Urea-1的OI值达到1.10，已接近理论值1.0，同时COD去除率达到51%以上；而其余2种催化活性一般。Ni-Cu-Urea-1与Ni-Cu-02相比，浸渍液成分相同，制备方法不同，则催化活性有很大差别。用浸渍法制备的Ni-Cu-02没有表现出活性组分之间正向的协同催化作用；而用附着沉淀法制备的Ni-Cu-Urea-1表现出2种活性组分之间有一定的协同催化作用。另外，Ni-Cu-Urea-1与Ni-Cu-Urea-2相比，只是制备时浸渍液的比例不同（制备Ni-Cu-Urea-1时Ni(NO3)2∶Cu(NO3)2为4∶1，而Ni-Cu-Urea-2则为1∶4），而活性相差很大，这说明浸渍液的组成和制备方法与催化剂的活性有密切的关系。
+2.2.4　助剂钾在不同制备方法下的作用　如图
+6所示，比较Ni-Cu-02和Ni-Cu-K-02、Ni-Cu-Urea-1和Ni-Cu-K-Urea-1的催化活性，可以看到在用浸渍法制备时，助剂K能改善催化剂的活性；而在附着沉淀法制备时，非但不能提高催化剂活性，反而使催化性能下降。
+
+图4　附着沉淀法制备的催化剂OI值
+Fig.4　Catalytic performance of catalysts prepared
+by absorption-precipitation method
+
+图5　附着沉淀法制备催化剂的COD去除率
+Fig.5　COD removal rate in the cases of catalysts prepared by absorption-precipitation method
+
+图6　助剂钾在不同制备方法时的作用
+Fig.6　Effect of additive K on different preparation methods
+3　结论
+3.1　镍、铜离子在载体上的沉积与其氢氧化物的溶度积常数有关。
+3.2　用浸渍法和附着沉淀法制备的Ni、Cu活性组分催化剂对吐氏酸废水的臭氧氧化有一定的催化作用，其中用附着沉淀法制备的Ni-Cu-Urea-1催化剂表观活性最高。
+3.3　助剂钾能改善浸渍法制备的催化剂的活性，但不利于附着沉淀法制备的催化剂。
+参考文献
+1　张彭义,祝万鹏. 臭氧水处理技术的进展. 环境科学进展,1995, 3(6):18～24
+2　Takahashi N. Ozonation of several organic compounds having low molecular weight under ultraviolet irradiation. Ozone: Science and Engineering, 1990, 12(1):1～17
+3　Tarkovskaya I A，Stavitskaya S S,Luk Yanchuk V M,et al. Use of coal catalysis for oxidation-destructive treatment of sewage. Khimiyai Tekhnologiya Vody, 1993,15(7/8):578～584 
+4　庞斯莱特（比）等编. 梁育德等译. 催化剂的制备Ⅲ－制备非均相催化剂的科学基础. 北京:化学工业出版社, 1993.1～53
+5　常文保，李克安编. 简明分析化学手册. 北京:北京大学出版社, 1981.53,55 
+
+作者简介
+张彭义　男，1970年2月生。现为清华大学环境科学与工程系科研助理。主要从事水和废水的高级氧化技术研究、环境现场评估等。曾参加“染料工业废水综合治理技术与工艺研究”、“草浆造纸废水处理中日合作研究”、“太阳光激发半导体催化处理工业废水和光反应器的研究”、“中国环保产业投资背景分析”、“典型染料的催化臭氧化研究”、“摩托罗拉若干个场址的Phase I、II现场评估”等项目。发表论文12篇。
+收稿日期：1997-09-22
+* 中科院生态环境中心环境水化学实验室开放基金资助项目

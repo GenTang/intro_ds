@@ -1,0 +1,185 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000　Vol.19　No.6　P.58-60
+
+
+
+
+基于Windows线程技术实现数据
+采集的简易编程方法
+周开利　汪云
+摘要：基于Windows线程编程技术，将DOS数据采集程序“包裹”成1个线程，利用共享文件交换数据，实现Windows环境下数据采集的简易编程。
+关键词：数据采集 Windows 线程 共享文件
+　　Windows以其友好丰富的图形用户界面、简单灵活的操作，折服了各行业的用户。工业控制领域的用户也不例外，但由于Windows操作系统是以非抢占事件(消息)驱动为主要特征，强调设备无关性风格，不鼓励用户开发直接面向硬件设备的用户程序，因此试图在Windows环境下开发数据采集软件，往往使习惯DOS编程的一般用户感到无从下手。也有文章[1][2][3]介绍了一些很好的解决方法，但大都需要较高的Windows或特定语言(如Visual C＋＋)的编程技术。而当你熟悉的Windows开发环境不适于采用上述方法时，本文介绍的方法也许不失为一种简单易行的方法。
+本文使用DOS环境下的Borland C＋＋和Windows环境下的Borland C＋＋ Builder进行程序编制，但若使用的是DOS环境下的BASIC、PASCAL或Windows环境下的VB、VC＋＋等，同样可以采用本文所介绍的方法。它所要求的仅仅是：(1)任何一种你所熟悉的DOS环境下的I／O编程技术和共享文件使用方法；(2)任何一种你所熟悉的Windows开发环境中有关线程和共享文件的应用方法。
+1  基本原理
+　　本文采用的方法如图1所示。
+
+图1  原理框图
+　　数据采集卡通过DOS I／O接口程序，对I／O口进行读写操作交换数据；而DOS I／O接口程序与Windows应用程序之间却是通过共享数据文件交换数据。换句话说，对I／O口直接操作的依然是DOS程序，Windows应用程序只是对数据采集间接控制，从而避开了Windows程序不能对I／O口直接读写的限制。
+　　问题的关键是Windows应用程序如何能实时获得I／O口的数据并对其读写进行控制，本文通过线程和共享文件解决这一问题。所谓线程，简而言之就是运行在应用程序中的独立进程，它只是代码的执行体，其处理时间由操作系统控制而不是程序控制。在Windows应用程序中加入DOS I／O接口程序线程对象，则二者并行运行于计算机中。DOS I／O接口程序通过对I／O口的直接读写完成数据采集并以采集的数据不断更新采集数据文件中的数据。Windows应用程序可同时从采集数据文件中读取数据，效果就好像从I／O口直接读取数据一样。为了对数据文件能同时进行读写操作，文件必须以共享方式在2个应用程序中同时打开——即共享文件。另一方面，如果我们需要对DOS线程进行控制或传输数据(如终止线程运行或传递D／A数据等)时，可以以同样方式再建立1个控制数据文件进行“消息”传递。
+2  软件编程
+2.1 DOS部分
+　　本文以市售PCLS－718数据采集卡为例，使用DOS环境下的Borland C＋＋进行软件编程。该采集卡具有2个D／A和16个A／D通道，其I／O口基地址为0x300，0x300～0x301为A／D通道的高／低位数据和通道号端口地址；0x304～0x307为2个D／A通道的高／低位数据端口地址。
+＃include ＜stdio.h＞
+＃include ＜dos.h＞
+＃include ＜STDLIB.H＞
+＃include ＜conio.h＞
+＃include ＜share.h＞
+＃include ＜io.h＞
+typedef unsigned int word；
+const int BASE＝0x300； ／／设置I／O口基地址
+void main(){
+int status，dtl，dth，adl，adt，c＿reg，chv，i，Tn；
+word da1＝0x0，da2＝0x0；
+FILE *fADout，*fDAin，*fCtrl；
+fDAin＝＿fsopen(″DAin.dat″，″r″，SH＿DENYNO)；
+　　　　　　　　　　　　／／打开D／A共享数据文件
+fADout＝＿fsopen(″ADout.dat″，″w＋″，SH＿DENYNO)；
+　　　　　　　　　　　　／／打开A／D共享数据文件
+fCtrl＝fsopen(″Ctrl.dat″，″r″，SH＿DENYNO)；
+　　　　　　　　　　　／／打开控制共享数据文件
+do {
+　　fseek(fCtrl，SEEK＿SET，0)；
+　　fscanf(fCtrl，″％d＼n″，＆Tn)；
+　　if(Tn＝＝0)／／DOS程序接到Windows终止运行控制
+　　　　　　　　　　　／／字“0”时，执行相应操作
+　{
+　　　　fclose(fDAin)；
+　　　　fclose(fADout)；
+　　　　fclose(fCtrl)；
+　　　　exit(0)；
+　　　　return；
+　}
+　　fseek(fDAin，SEEK＿SET，0)；
+　　fscanf(fDAin，″％d ％d＼n″，＆da1，＆da2)； ／／从D／A数
+　　　　　　　　　　　／／据文件中读取D／A数据da1、da2
+outportb(BASE＋4，(da1＆0xf＜＜4))； ／／写D／A通道1
+　　　　　　　　　　　／／数据低位值
+outportb(BASE＋5，da1＞＞4)； ／／写D／A通道1数据
+　　　　　　　　　　　／／高位值
+outportb(BASE＋6，)da2＆0xf＜＜4)； ／／写D／A通道2
+　　　　　　　　　　　／／数据低位值
+outportb(BASE＋7，da2＞＞4)； ／／写D／A通道2数据
+　　　　　　　　　　　／／高位值
+fseek(fADout，SEEK＿SET，0)；
+i＝0；
+do {
+　　outportb(BASE＋8，0)；
+　　outportb(BASE，0)；
+　　do {
+　　　　status＝inport(BASE＋8)；
+　　　　delay(1)；
+　　　}while((status ＆ 0x10)＝＝0)；
+　　dtl＝inportb(BASE)； ／／读A／D通道i数据低位
+　　　　　　　　　　　／／值和通道号
+　　dth＝inportb(BASE＋1)； ／／读A／D通道i数据
+　　　　　　　　　　　／／高位值
+　　adl＝dtl／16；
+　　adt＝dth*16＋adl； ／／A／D转换值
+　　chv＝dtl－adl16； ／／A／D通道号
+　　fprintf(fADout，″％d ％d＼n″，chv，adt)；　／／将A／D
+　　　　　　　　　　　／／通道号及转换值写入A／D数据文件
+　　} while(i＋＋＜15)；
+　}while(i＞－1)；
+　　　　／／死循环，以保证采集过程一直进行，除非收到控
+　　　　　　　　　　　／／制字“0”，才结束程序运行
+　　return；
+}
+　　程序编制完成后形成可执行文件(本文为ada.exe)，并在Windows下右击该文件名，选择“属性”项，将程序运行属性设为“最小化”，并选择退出时关闭，以使Windows应用程序启用该线程对象时，不至于使Windows窗口被DOS运行窗口遮挡，并在终止该程序运行时能正常关闭DOS窗口。
+2.2 Windows部分
+　　本文使用Windows环境下的Borland C＋＋ Builder作为开发平台、以0.2s显示1次A／D通道5的采集数据和进行一次D／A转换为应用目的进行程序编制。
+／／－－－－－－－－窗体Form1应用程序代码－－－－－－－－－／／
+＃include ＜vcl.h＞
+＃pragma hdrstop
+＃include ＜dos.h＞
+＃include ＜STDLIB.H＞
+＃include ＜conio.h＞
+＃include ＜io.h＞
+＃include ＜fcntl.h＞
+＃include ＜sys＼stat.h＞
+＃include ＜share.h＞
+＃include ＜stdio.h＞
+＃include ″thread1.h″
+＃pragma package(smart＿init)
+＃pragma resource ″*.dfm″
+TForm1 *Form1；
+TadaThread *adaThread；
+FILE fADout，*fDAin，*fCtrl；
+int chv，cht，da1，da2；
+／／－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+＿fastcall TForm1(TForm1(TComponent* Owner)
+　　　　：TForm(Owner)
+{
+}
+／／－－－－－－－－－－窗体Form1创建时响应事件－－－－－－－－－－／／
+void ＿fastcall TForm1::FormCreate(TObject *Sender)
+{
+　　　　adaThread＝new TadaThread)(false)； ／／启用DOS
+　　　　　　　　　　　／／I／O接口程序线程
+　　　　adaThread－＞Resume()；
+　　　　fCtrl＝＿fsopen(″Ctrl.dat″，″w＋″，SH＿DENYNO)；
+　　　　　　　　　　　／／建立控制数据共享文件
+　　　　fseek(fCtrl，SEEK＿SET，0)；
+　　　　fprintf(fCtrl，″％d＼n″，1)；／／写入控制字初值“1”
+　　　　fDAin＝fsopen(″DAin.dat″，″w＋″，SH＿DENYNO)；
+　　　　　　　　　　　／／建立D／A数据共享文件
+　　fADout＝＿fsopen(″ADout.dat″，″r″，SH＿DENYNO)；
+　　　　　　　　　　　／／建立A／D数据共享文件
+}
+／／－－－－－－－－－－－每0.2s一次的响应事件－－－－－－－－－－－／／
+void ＿fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+　　da1＝10；
+　　da2＝20；
+　　fseek(fDAin，SEEK＿SET，0)；
+　　fprintf(fDAin，″％d ％d＼n″，da1，da2)； ／／将D／A变
+　　　　　　　　　　　／／换数据写入D／A数据文件中
+　　fseek(fADout，SEEK＿SET，0)；
+　　do {
+　　　　fscanf(fADout，″％d ％d＼n″，＆chv，＆cht)；
+　　　　　　　　／／从A／D数据文件中读取A／D变换数据
+　　　　if(chv＝＝5) ／／A／D通道号为5时
+　　　{
+　　　ListBox1－＞Items－＞Add(FloatToStr(chv)＋
+　　　　　　　　String (″  ″)＋FloatToStr(cht))；
+　　　　／／在窗体Form1的ListBox1中显示A／D通道
+　　　　　　　　　　　／／5的采集数据
+　　　break；
+　}
+　}while(chv＜15)；
+}
+／／－－－－－－－－－－窗体Form1关闭时响应事件－－－－－－－－－－／／
+void ＿fastcall TForm1::FormClose(TObject*Sender，
+　　　　　　　　　　　TCloseAction ＆Action)
+{
+fseek(fCtrl，SEEK＿SET，0)；
+fprintf(fCtrl，″％d＼n″，0)；／／写入终止程序运行控制字“0”
+fclose(fDAin)；
+fclose(fADout)；
+fclose(fCtrl)；
+}
+／／－－－－－－－－－－－线程thread1程序代码－－－－－－－－－－－－－／／
+＃include ＜vcl.h＞
+＃pragma hdrstop
+＃include ″thread1.h″
+＃pragma package(smart＿init)
+／／－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+＿fastcall TadaThread::TadaThread(bool CreateSuspended)
+：TThread(CreateSuspended)
+{
+}
+／／－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+void＿fastcall TadaThread::Execute())
+{
+system(″ada.exe″)；／／运行DOS I／O接口应用程序
+}
+　　为程序略去了采集卡的初始化程序和部分关系不大的语句，为读者在实际应用时应作相应增改。本文所述数据采集方法已成功应用于作者的项目开发中，对其它Windows环境下的应用程序开发也有一定参考价值。
+周开利(北京理工大学五系97研100081)
+汪云(北京理工大学五系97研100081)
+参考文献
+1，黄晓勇．Windows工业控制应用探讨．工业控制计算机，1997；（4）：25
+2，何海波．数据采集软件开发中问题的分析．微计算机信息，1999；15（2）：27
+3，袁志勇．用VC＋＋编写Windows硬件I／O接口程序．电脑 学习，1998；（6）：24
+4，Telle M．Borland C＋＋ Builder高级编程指南．北京：中国 水利电力出版社，1998
+收稿日期：1999－12－20

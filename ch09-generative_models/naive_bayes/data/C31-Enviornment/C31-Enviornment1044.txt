@@ -1,0 +1,70 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.12-16
+
+
+
+
+环境激素对鱼的影响
+赵劲松　 袁星　 
+摘　要：环境激素是存在于环境之中，以某种方式干扰正常内分泌功能的天然或合成的化合物。鱼在水生生态系统之中分布广泛，是在食物链中具有重要位置的物种，在毒理学和生态风险评价中具有重要的实验价值。文中对鱼暴露于一些常见环境激素时，受激素调节的生殖和发育过程所受到的影响及相应机理进行了探讨。同时介绍了鱼应用于水环境中激素的筛选与监测评价的方法。
+关键词：环境激素；鱼类；生殖和发育；监测方法
+分类号：X503.225　文献标识码：A
+文章编号：1001-6929(2001)03-0012-05
+The Effects of Endocrine-Disrupting Chemicals on Fish
+ZHAO Jin-song（Department of Environmental Science, Northeast Normal University, Changchun 130024, China）　
+YUAN Xing（Department of Environmental Science, Northeast Normal University, Changchun 130024, China）　
+
+Abstract：Endocrine-disrupting chemicals (EDCs) are natural or man-made agents presenting in the environment that interfere in some way with normal endocrine function. Fish is widely distrbuted in the aquatic ecosystem. Fish has the important position in the food chain and has the significant experimental value in toxicology and risk assessment. The effects of certain EDCs on hormone-regulated reproduction and development processes of fish and relevant mechanisms, as well as the methods of screening, detection and assessment for EDCs, are reviewed.
+Keywords：endocrine-disrupting chemicals; fish; reproduction and development; methods of detection
+
+作者简介：赵劲松(1978-)，男，安徽巢湖人，硕士研究生. 
+作者单位：赵劲松（东北师范大学环境科学系，吉林长春 130024）　
+　　　　　袁星（东北师范大学环境科学系，吉林长春 130024）　
+
+参考文献：
+［1］Kavlock R J,Daston G P,DeRosa C,et al.Research needs for risk assessment of health and environmental effects of endocrine disrupters:A report of the U.S.EPA-sponsored workshop .Environ Health Perspect,1996,104:715～740.
+［2］European Community.European workshop on the impact of endocrine disrupters on human health and wildlife .Paris,France:Workshop publication EUR17549,1997.
+［3］Arcand H,Lias D,Benson WH.Fish reproduction:An ecologically relevant indicator of endocrine disruption .Environ Toxicol Chem,1998,17:4957.
+［4］Billinghurst Z,Clare As,Matsumura K,et al.Induction of cypris major protein in barnacle larvae by exposure to 4-n-nonylphenol and 17β-oestradiol .Aquatic Toxicol,2000,47:203～212.
+［5］Tong Seong Khim,Kyu Tae Lee,Chul-Hwan Koh.Alkyphenols,polycyclic aromatic hydrocarbons,and organochlorines in sediment from Lake Shihwa,Korea:instrumental and bioanalytical characterization .Einviron Toxicol Chem,1999,18:2424～2432.
+［6］Larsson D G J,Adolfsson-Erici M,Parkkonen J,et al.Ethinyloestradiol——an undesired fish contraceptive ?Aquatic Toxicol,1999,45:91～97.
+［7］Ankley G,Mihaich E,Stahl R,et al.Overview of a workshop on screening methods for detecting potential (anti-) estrogenic/androgenic chemicals in wildlife .Environ Toxicol Chem,1998,17:68～87.
+［8］Pinter J,Thomas P.Characterization of a progestogen receptor in the ovary of the spotted seatrout,Cynoscion nebulosus .Biol Reprod,1995,52:667～675.
+［9］Pinter J,Thomas P.The ovarian progestogen receptor in the spotted seatrout,Cynoscion nebulosus,demonstrates steroid specificity different from progesterone receptors in other ver-tebrates .J Steroid Biochem Mol Biol,1997,60:13～119.
+［10］Purdom C E,Hardiman P A,Bye V J,et al.Estrogenic effects of effluents from sewage treatments works .Chem Ecol,1994,8:275～285.
+［11］Harrison P T C,Humfrey C D N,Litchfield M,et al.Assessment on Environmental Oestrogens:Consequences to Human Health and Wildlife .Leicester,U K:MRC Institute for Environment and Health,1995.
+［12］Jobling S,Sheahan D,Osborne J A,et al.Inhibition of testicular growth in rainbow trout (Oncorhynchus mykiss) exposed to estrogenic alkylphenolic chemicals .Environ Toxicol Chem,1996,15:194～202.
+［13］Louis T,Glen Van Der Kraak.Use of a series of homologous in vitro and in vivo assays to evaluate the endocrine modulating actions of β-sitosterol in rainbow trout .Aquatic Toxicol,1998,43:149～162.
+［14］McMaster M E,Van Der Kraak G J,Portt C B,et al.Changes in hepatic mixed-function oxygenase (MFO) activity,plasma steroid levels and age at maturity of a white sucker (Catostomus commersoni) population exposed to bleached kraft pulp mill effluent .Aquatic Toxicol,1991,21:199～218.
+［15］Munkittrick K R,Portt C B,Van Der Kraak G J,et al.Impact of bleached kraft mill effluent onpopulation characteristics,liver MFO activity,and serum steroid levels of a Lake Superior white sucker (Catostomus commersoni) Population .Can J Fish Aquat Sci.1991,48:1371～1380.
+［16］Davis W P,Bartone S A.Effects of kraft mill effluent on the sexuality of fishes:an environmental early warning?In:Colborn T,Clement C,eds.,Chemically induced alterations in sexual and functional development:The wildlife/human connection .New Jersey:Princeton Scientific Publishing Co.Inc,1992.113～127.
+［17］Van Der Kraak G J,Munkittrick K R,McMaster M E,et al.Exposure to bleached kraft pulp mill effluent disrupts the pituitary-gonadal axis of white sucker at multiple sites .Toxicol Appl Pharmacol,1992,115:224～233.
+［18］Howell W M,Black D A,Bortone S A.Abnormal expression of secondary sex characters in a population of mosquitofish,Gambusia affinis holbrooki:evidence for environmentally induced masculinization .Copeia,1980,4:676～681.
+［19］Thomas P.Effects of Aroclor 1254 and cadmium on reproductive endocrine function and ovarian growth in Atlantic croaker .Mar Environ Res,1990,28:499～503.
+［20］Moccia R D,Leatherland J F,Sonstegard R A.Quantitative interlake comparison of thyroid pathology in Great Lakes coho (Oncorhynchus kisutch) and chinook (Oncorhynchus tschawytscha) salmon .Cancer Res,1981,41:2200～2210.
+［21］Leatherland J.Endocrine and reproductive function in Great Lakes salmon.In:Colborn T,Clement C,eds.Chemically induced alterations in sexual and functional development:The wildlife/human connection .New Jersey:Princeton Scientific Publishing Co.Inc,1992.129～145.
+［22］Tong Zhou,Judith S W,Henry B J A,et al.Thyroidal status of mummichogs(Fundulus heteroclitus) from a polluted versus a reference habitat .Environ Toxicol Chem,1999,18:2817～2823.
+［23］Knudsen F R,Pottinger T G.Interaction of endocrine disrupting chemicals,singly and in combination,with estrogen-,androgen-,and corticosteroid-binding sites in rainbow trout (Oncorhynchus mykiss) .Aquatic Toxicol,1999,44:159～170.
+［24］U.S.Environmental Protection Agency.Special report on environmental endocrine disruption:An effects assessment and analysis .Washington,D.C.:EPA/630/R-96/012,1997.
+［25］Mueller G C,Kim U H.Displacement of estradiol from estrogen receptors by simple alkylphenols.Endocrinology,1978,102:1429～1435.
+［26］White R,Jobling S,Hoare S A,et al.Environmentally persistent alkylphenolic compounds are estrogenic .Endocrinology,1994,135:175～182.
+［27］Kelce W R,Wong C I,Wilson E M.Environmental antiandrogens.Abstract SOT Annual meeting .1995.254.
+［28］Kelce W R,Stone C R,Laws S C,et al.Persistent DDT metabolite p,p′-DDE is a potent androgen receptor antagonist .Nature,1995,375:581～585.
+［29］U.S.Environmental Protection Agency.Short-term methods for estimating the chronic toxicity of effluents and receiving waters to freshwater organisms ,3rd ed.Cincinnati,OH:EPA 600/4-91-002,1994.
+［30］Organization for Economic Cooperation and Development.OECD guidelines for testing of chemicals.Section 2.Guideline 210.Fish early-life stage toxicity test .Paris,France,1992.
+［31］U.S.Environmental Protection Agency.User's guide for conducting life cycle chronic toxicity tests with fathead min-nows(Pimephales promelas).Duluth,MN:EPA 600/8-81-011,1982.
+［32］U.S.Environmental Protection Agency.Guidelines for conducting early life stage toxicity tests with Japanese medaka (Oryzias latipes).Duluth,MN:EPA 600/3-01-063,1991.
+［33］Donohoe R M,Curtis L R.Estrogenic activity of chlor-decone,o,p′-DDT and o,p′-DDE in juvenile rainbow trout:In-duction of vitellogenesis and interaction with hepatic estrogen binding sites .Aquat Toxicol,1996,36:31～52,169～174.
+［34］Trudeau V L,Wade M G,Van Der Kraak G J,et al.Effects of 17β-estradiol on pituitary and testicular function in male goldfish .Can J Zool,1993,71:1131～1136.
+［35］Matsuyama M,Adachi S,Nagahama Y,et al.Diurnal rhythm of oocyte development and plasma steroid hormone levels in the female red sea bream,Pagrus major,during the spawning season .Aquaculture,1990,73:357～372.
+［36］Thomas P,Smith J.Binding of xenobiotics to the estrogen receptor of spotted seatrout:A screening assay for potential estrogenic effects .Mar Environ Res,1993,35:147～151.
+［37］Ghosh S,Thomas P.Antagonistic effects of xenobiotics on steroid-induced final maturation of Atlantic croaker oocytes in vitro .Mar Environ Res,1995,39:159～163.
+［38］Gray M A,Metcalfe C D.Induction of testis-ova in Japanese medaka (Oryzias latipes) exposed to p-nonylphenol .Environ Toxicol Chem,1996,16:1082～1086.
+［39］Diana M P,Douglas B N,Donald E T.An in vivo model fish system to test chemical effects on sexual differentiation and development:exposure to ethinyl estradiol .Aquatic Toxicol,2000,48:37～50.
+［40］Lindsey A A,Tom G P.Exposure of female juvenile rainbow trout to alkylphenolic compounds results in modifications to growth and ovosomatic index .Environ Toxicol Chem,1998,17:679～686.
+［41］Afonso L O B,Campbell P M,Iwama G K,et al.The effect of the aromatase inhibitor Fadrozole and two polynuclear aromatic hydrocarbons on sex steroid secretion by ovarian follicles of coho salmon .Gen Comp Endocrinol,1997,106:169～174.
+［42］Kahn I,Thomas P.Disruption of neuroendocrine function in Atlantic croaker exposed to Aroclor 1254 .Mar Environ Res,1996,42:145～149.
+
+收稿日期：2000年11月8日
+出版日期：2001年5月30日

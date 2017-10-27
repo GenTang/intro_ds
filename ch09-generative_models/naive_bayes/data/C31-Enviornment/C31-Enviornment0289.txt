@@ -1,0 +1,113 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第4期 No.4 Vol.18 1998
+科技期刊
+
+络合萃取法与生物法处理含酚废水技术经济比较
+戴猷元　孙　巍　蔡　薇　杨义燕　瞿福平　(清华大学化学工程系，北京 100084)
+文　摘　从技术经济角度对络合萃取法与生物法处理含酚废水进行了比较。建立了投资及净现值与处理量和浓度的关系式。结果表明：当浓度小于265mg/L时，络合萃取法与生物法随处理量的不同在投资上存在差别；当浓度大于265mg/L时，无论处理量为多少，络合萃取法的投资始终小于生物法的投资。对于处理量较大、浓度较高的废水，采用络合萃取法能获得较大的净现值(NPV)；当回收酚时，盈亏平衡点的浓度为1000mg/L，高于此浓度，络合萃取法处理为盈利项目。
+关键词　络合萃取法　生物法　含酚废水　技术经济比较
+A comparative study on technical economy for the treatment of wastewater containing phenol between complexation extraction process and biological process.Dai Youyuan，Sun Wei，Cai Wei，Yang Yiyan，Qu Fuping(Department of Chemical Engineering, Tsinghua University, Beijing 100084).China Environmental Science.1998,18(4):293～297
+Abstract—In this paper，a comparative study on the treatment of wastewater containing phenol is reported from a view point of technical economy between complexation extraction process and biological process. Some equations between investment or net present value(NPV) and water quantity and concentration are built. The results are as follows：when phenol concentration is less than 265mg/L, there is difference in investment between complexation extraction process and biological treatment process with different treatment quantity;when the concentration is larger than 265mg/L, no matter what the treatment quantity is, the investment of complexation extraction process is always less than that of biological treatment process. For the wastewater with great quantity and high concentration, a larger NPV will be obtained if complexation extraction process is used.The concentration for equilibrium of profit and loss is 1000mg/L with phenol recovery,while the concentration is larger than 1000mg/L, the complexation extraction process becomes a profit project.
+Key words:complexation extraction process　biological treatment process, wastewater containing phenol　comparison of technical economy
+　　含酚废水是一种污染面较广、毒性较大、亟需处理的工业废水〔1〕。传统的生物法在含酚废水处理中发挥了重要作用，但仍存在诸如高浓度可对生物产生抑制作用、停留时间长、去除率低等缺点。络合萃取法是一种基于可逆络合反应萃取极性有机物的分离技术〔2〕，该法在应用于工业含酚废水的处理中实现了一次萃取后使残液中酚含量达标排放〔3〕，为含酚废水的处理开辟了新的途径。本文试图从技术经济角度，对络合萃取法与生物法处理含酚废水进行比较，达到为决策者方案选择提供技术经济支持的目的。
+1　络合萃取法处理含酚废水工艺
+　　以清华大学研究开发的包括新型络合剂和相应设备在内的成套含酚废水处理技术为背景，其处理含酚废水的工艺流程如图1所示。
+
+图1　络合萃取法处理含酚废水工艺流程示意
+Fig.1　Schematic diagram of complexation extraction 
+process for wastewater containing phenol
+2　生物法处理含酚废水工艺
+　　以传统的活性污泥法作为生物法的基础，当进水浓度高于生物处理容许极限浓度〔4〕100mg/L时，采用出水回流稀释处理。其主要工艺流程如图2所示。
+
+图2　生物法处理含酚废水工艺流程示意
+Fig.2　Schematic diagram of biological treatment 
+process for wastewater containing phenol
+3　技术经济评价指标
+　　从费用和效益角度出发，人们提出了多种投资方案经济效果的评价方法〔5〕，这些方法分别适用于不同方案的评价问题。本文选择了动态的指标—净现值(NPV)，该指标是将不同时间的资金流出和流入换算成同一时间点上的等效值，其特点是可为不同方案的比较提供同等可比的基础，对投资者和决策者树立资金的时间价值观念，合理利用建设资金，提高经济效益具有重要意义。NPV计算公式如下：
+
+式中：n为项目建设及生产服务年限；i为折现率；t为年份；CI-CO为t年发生的净现金流量，其中CI为流入额，CO为流出额。
+4　计算方法
+　　针对环保项目的特点，在计算现金流量时主要考虑了方案的投资和运行费用。对于络合萃取法投资，主要考虑了萃取塔、反萃塔及填料的费用和其它诸如机泵、管线、仪表等费用；运行费用主要由溶剂夹带损失及动力、人工费等组成，计算方法参见文献〔6〕。对于生物法投资，主要考虑了初沉池、曝气池、二沉池、污泥浓缩池、脱水设备、污水泵、回流泵、鼓风机等设备的费用；运行费用主要考虑了动力及人工费等，计算方法参见文献〔7〕。
+5　净现值的计算(NPV)
+　　对于络合萃取法和生物法，分别按式(1)进行计算，其中n取10年，i取12%。对于络合萃取法，在不回收酚时CI 为0，回收酚时为酚回收价值。CO在第0年即为投资，在1～10年为运行费用；对于生物法，CI 始终为0。
+6　结果与讨论
+6.1　处理量和浓度对络合萃取法与生物法投资影响比较
+　　处理量和浓度对络合萃取法及生物法投资的影响分别如图3，图4所示。
+
+图3　络合萃取法投资随处理量及浓度变化曲线
+Fig.3　Investment vs quantity and concentration 
+for complexation extraction process 
+
+图4　生物法投资随处理量及浓度变化曲线
+Fig.4　Investment vs quantity and concentration
+for biological treatment process 
+　　由图3，图4可知，两种方法的投资都随处理量或浓度的增大而增大。络合萃取法投资受处理量的影响较大，受浓度的影响较小。生物法投资受处理量与浓度的影响都较大，两者皆为影响投资的敏感因素。通过对曲线采用多种函数拟合比较，得出了两种方法投资与处理量及浓度的最优关系式。
+　　络合萃取法:
+y=1.0918Q0.7051e2.8749×10-4C　(R=0.9971)
+　　生物法:
+y=6.8682×10-4QC+4.5907×10-4Q+4.0101×10-3C+11.9819　(R=0.9987)
+　　式中：C为含酚废水浓度(mg/L)；Q为含酚废水处理量(t/d)。
+　　由以上两式可看出，络合萃取法投资随处理量的增长具有幂函数关系，随浓度增长具有指数函数关系；而生物法投资随处理量或浓度的增长均具线性关系。
+　　假设两种方法的投资相等，可得：
+1.0918Q0.7051e2.8749×10-4C=6.8682×10-4QC
++4.5907×10-4Q+4.0101×10-3C+11.9819
+　　根据上式可作出两种方法的投资等值线如图5所示，在投资等值线的两边为不等值区，其中I区为络合萃取法投资小于生物法投资，II区为生物法投资小于络合萃取法投资。
+
+图5　络合萃取法与生物法投资等值线
+Fig.5　Investment isogram of complexation extraction
+process and biological treatment process
+　　从图5可看出，投资等值线中处理量随着浓度的增大而增大，当浓度小于265mg/L时，处理量不同，可引起两种方法在投资上的差别，当浓度大于265mg/L时，无论处理量的大小，络合萃取法的投资始终小于生物法的投资。一般说来，处理量小、浓度高，选择络合萃取法投资省；处理量大、浓度低，选择生物法投资省。
+6.2　处理量和浓度对络合萃取法与生物法NPV影响比较
+　　处理量和浓度对络合萃取法不回收酚及回收酚时的NPV影响分别如图6，图7所示。处理量和浓度对生物法的NPV影响如图8所示。
+
+图6　络合萃取法NPV随处理量及浓度
+变化曲线(不回收酚)
+Fig.6　NPV vs quantity and concentration for complexation 
+extraction process(no phenol recovery) 
+
+图7　络合萃取法NPV随处理量及浓度
+变化曲线(回收酚)
+Fig.7　NPV vs quantity and concentration for complexation 
+extraction process(with phenol recovery) 
+
+图8　生物法NPV随处理量及浓度变化曲线
+Fig.8　NPV vs quantity and concentration 
+for biological treatment process 
+　　由图6可知，不回收酚时，络合萃取法NPV均为负值，处理量或浓度越大，NPV越小，处理量是影响NPV的敏感因素。由图7可知，在回收酚情况下，5个处理量的NPV曲线在浓度约为1000mg/L时有一个交点，此点的NPV约为0，该点的经济意义为盈亏平衡点。当浓度小于1000mg/L时，NPV为负值，项目不赢利；当浓度大于1000mg/L时，NPV为正值，项目赢利，处理量越大，NPV越大赢利越多。可见萃取回收酚工艺由亏损变为盈利的临界浓度为1000mg/L，处理量和浓度均为影响NPV的敏感因素。由图8可知，生物法NPV均为负值，处理量或浓度越大，NPV越小，处理量是影响NPV的敏感因素。
+　　通过对曲线的多种函数拟合比较，得出了NPV与处理量及浓度的最优关系式。
+　　络合萃取法(不回收酚):
+y=-1.1504×10-8C２Q-3.5589×10-5CQ-1.5222Q-1.5369×10-6C２+3.1574×10-3C-7.0979　(R=0.9999)
+　　络合萃取法(回收酚):
+y=1.8328×10-3QC-1.4697Q-7.4586×10-3C-15.8693　(R=0.9999)
+　　生物法:
+y=-4.0279×10-4QC-1.5287Q-6.0405×10-3C+2.0691　(R=0.9996)
+　　从以上3式可以看出，对于络合萃取法，若不回收酚，NPV的负增长与处理量具有线性关系，而与浓度具有二次函数关系；若回收酚，NPV随处理量及浓度的增长均具有线性关系。对于生物法，NPV随处理量及浓度的增长亦具线性关系。假设两种方法的NPV相等，同理，可得两种方法的NPV等值线如图9，图10所示，在NPV等值线的两边为不等值区，其中I区为络合萃取法NPV大于生物法NPV，II区为生物法NPV大于络合萃取法NPV。
+
+图9　络合萃取法(不回收酚)与生物法NPV等值线
+Fig.9　NPV isogram of complexation extraction 
+process (no phenol recovery) and 
+biological treatment process
+　　从图9，图10可看出，NPV等值线上处理量随着浓度的增加都具减小的特点。一般来说，对于处理量大、浓度高的废水常常处于I区，选取络合萃取法能获得较大的NPV；对于处理量小、浓度低的废水常常处于II区，选取生物法能获得较大的NPV。
+
+图10　络合萃取法(回收酚)与生物法NPV等值线
+Fig.10　NPV isogram of complexation extraction 
+process (with phenol recovery) and
+biological treatment process
+7　小结
+7.1　影响络合萃取法投资的敏感因素为处理量，而影响生物法投资的敏感因素为处理量和浓度。
+7.2　不回收酚时，影响络合萃取法NPV的敏感因素为处理量；回收酚时，存在一个盈亏平衡点，对应浓度为1000mg/L，处理量和浓度均为影响NPV的敏感因素。对于生物法，处理量和浓度亦均为影响NPV的敏感因素。
+7.3　投资等值线表明，处理量较小、浓度较高，选择络合萃取法投资较省；处理量较大、浓度较低，选择生物法投资较省。当浓度大于265 mg/L时，无论处理量为多少，络合萃取法的投资始终小于生物法的投资。
+7.4　NPV等值线表明，对于处理量较大、浓度较高的废水采用络合萃取法能获得较高的NPV，对于处理量较低、浓度较低的废水采用生物法能获得较大的NPV。
+参考文献
+1　张芳西，金承基，周淑芬等.含酚废水的处理与利用. 北京: 化学工业出版社, 1983. 1～25
+2　King C J. Handbook of separation process technology. New York: John Wiley and Sons, 1987. 760～774
+3　杨义燕，李芮丽，党广悦等. 络合萃取法处理工业含酚废水. 环境科学,1995, 16(2): 35～38
+4　顾夏声，王占生，黄铭荣等. 水处理工程. 北京: 清华大学出版社, 1991. 165
+5　曹瑞钰. 环境经济学. 上海: 同济大学出版社, 1992. 43～54
+6　戴猷元，孙　巍，蔡　薇等. 络合萃取法处理含酚废水技术经济分析.环境科学，1998,19(5)：6～10
+7　张自杰等编. 环境工程手册—水污染防治卷. 北京: 高等教育出版社, 1996. 1434～1441
+作者简介
+戴猷元　男，1945年11月生。教授，博士生导师。清华大学化学工程系主任，国家环保局清华大学环境工程研究设计院副院长。主要从事化学工程和环境化工方面的教学和科研工作。科研重点是液液萃取分离过程的新工艺和新方法研究，先后承担4项自然科学基金重大项目，负责国家科技成果重点推广项目“络合萃取法处理工业含酚废水技术”及其它部委和企业的研究课题。近10年来，共获国家科技进步二等奖1项、省部级科技进步奖4项，通过部级鉴定成果10项，年经济效益超百万元的科技成果6项。合编专著2本，发表论文140余篇。
+收稿日期:1997-09-01
+* 国家“九五”科技环保攻关项目(96-909-05-01-03)

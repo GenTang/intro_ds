@@ -1,0 +1,39 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.2 P.38-39
+
+
+
+
+运用Java Applet制作多媒体网页的方法和实例
+傅献祯
+摘 要： 用Java Applet插入HTML文档制作多媒体动态网页的一般方法，并给出制作实例。
+关键词： Java语言 网页 Java Applet HTML语言 超级链接
+1 Java Applet概述
+　　众所周知，网页的制作可以利用超文本标识语言HTML去编写。HTML是用来描述WWW上的超文本文件的，它在原来文本文件的基础上加上一系列标识符描述其格式，形成网络文件。当用户使用浏览器下载文件时，浏览器通过编译后就把这些标识符解释成它应有的含义，按照一定的格式将这些被标识的文件显示在屏幕上，从而浏览HTML所定义的各种对象--文字、图形、声音、表格等。
+　　利用HTML标识语言还可将Internet上连接的不同地区的服务器上的信息文件连接起来，控制不同超媒体文件之间的超级链接。
+　　HTML通过标识符对文本的成分进行控制，用它建立的网页所包含的成分是有限的，仅有标题、段落、少量的列表和一些图形可供选择使用，因而HTML所提供的功能也是有限的，特别是在制作多媒体动态网页方面。
+　　Java是一种面向对象的程序设计语言，它已经广泛地应用于Internet上，以完成HTML所无法完成的功能，具有简单高效、安全稳定、结构化等特点，由于它的结构化特性使得它易于传播。Applet是运行在浏览器环境下的Java程序，某些面向对象的功能用HTML难以实现，但却可以通过在HTML代码内部插入1个Java Applet程序来达到目的。基于Java对HTML的辅助性，通过超级链接方式点击某项链接后Java Applet即被启动，这将会使网页的画面更加绚丽多姿，使多媒体的优越性在网页中得以体现。
+2 用Java Applet制作多媒体网页的方法
+　　制作动态网页是Java Applet的一个非常重要的应用。制作时，首先要编写好Java小程序，然后把它嵌入到网页中。编制好Java Applet程序并编译成功后，就可把编译形成的．class文件导入到当前的站点中，这是制作动态网页的关键环节。在网页中插入Java Applet可借助FrontPage 98按如下的方法进行：
+　　1．单击FrontPage 98编辑器中的“Insert”菜单，选中“Advanced”项，会出现1个子菜单，再选择菜单中的“Java Applet”项，FrontPage编辑器将打开“Java Applet properties”对话框。
+　　2．在对话框的“Applet Source”文本框内键入要插入的Java Applet的源文件名（其扩展名通常为．class）。
+　　3．在“Applet Base URL”框内键入包含Java Applet文件夹的URL地址。如果不输入内容，则为当前站点的当前目录。
+　　4．有的Java浏览器可能不支持Java，需要显示1个提示信息，可以在对话框的“Message For Browsers Without Java Support”框内键入文本，Web浏览器将显示此文本以代替Java Applet。
+　　5．有的Java Applet需要运行参数，可单击“Applet Parameters”框内的“Add”按钮，打开“Set Attribute Value”对话框，在“Name”栏内键入属性，在“Value”栏内键入属性值。
+　　6．在“Size”框中输入Java Applet运行时屏幕上所占的高度和宽度。
+　　7．在“Layout”框中分别输入Horizontal spacing和Vertical spacing 2个值，以便控制Java Applet与相邻对象的水平间距和垂直间距。
+　　8．在“Alignment”框中设置Java Applet与同一行文本之间的对齐方式。
+　　全部设置完毕，按“OK”即完成了对Java Applet程序的插入工作。
+3 用Java Applet制作动态网页的实例
+　　在HTML代码中嵌入Java Applet程序，可使网页产生各种特殊效果，现举一例说明其制作过程。
+　　为了在网上展示我市某经济开发区的环境概貌，以便招商引资，我们为其制作了网页。在制作的主页中除了采用动画按钮、表格图像外，还专门设计了1幅呈“波浪走马灯”式的文字画面，其背景为黑色夜幕中闪烁着点点星光，随着优美的背景音乐，一行墨绿色的“恭迎您访问本站”的文字象一条游龙缓缓在夜幕下波浪似移动，给人以动的美感。
+　　编制实现该功能的Applet Java，采用了Anfy Java这种Java Applet生成器。Anly Java是许多Java Applets的集合，专门用于生成各种Java动画程序，它提供了30多种网页特效功能，可通过对特定参数的修改，制作出不同特效的Java Applet程序。
+　　利用Anly Java制作动态网页的操作是很方便直观的，只需按照该生成工具提供的向导型操作界面一步步做下去。运行Anfy Java后，在弹出的对话框中选择“Flozoids”特效，由于Applet一般是图形界面程序，所以要定义一块显示区域，这里把Java Applet的高度和宽度定为300150，速度设为5，距离为200，背景设为黑色，在文本框中填入相应的文字，运行轨迹为水平，文字移动的速度为5，字体为浅绿色斜体。预览效果满意后将生成的Java Applet代码按前述方法插入到主页中，并将扩展名为．class的Java Applet中须调用的文件也置于主页所在的目录中，制作即告成功。Applet的HTML文档如下：
+
+
+傅献祯（武汉江汉大学数计系430019）
+参考文献
+1，王映雪．HTML使用指南．北京：清华大学出版社，1997
+2，张宝源．HomePage设计工具箱．北京：清华大学出版社， 1999
+收稿日期：1999－10－25

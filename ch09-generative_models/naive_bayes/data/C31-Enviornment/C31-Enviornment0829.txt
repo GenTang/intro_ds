@@ -1,0 +1,74 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+　　珠江三角洲气溶胶中正构烷烃分布规律、来源及其时空变化*
+成　玉1　盛国英2　闵育顺2　邵　波3　潘相敏1　陈立民1　傅家谟2　
+摘要　珠江三角洲地区主要城市气溶胶中正构烷烃分布可分为3种类型.第一类为前峰型，主要来源于汽车尾气；第二类为后峰型，主要来源于植物蜡；第三类为双峰型，来源于植物蜡、燃料燃烧和尾气.交通易阻塞区为第一类分布，清洁区以第二类分布为主，工业区以第三类为主.同一功能区气溶胶中正构烷烃分布随季节有较明显的变化.
+关键词　正构烷烃；分布类型；碳优势指数；植物蜡；气溶胶.
+Distributions and sources of n－alkanes in aerosols from the pearl river delta and their changes with seasons and function zones
+CHENG Yu1, SHENG Guoying2, MIN Yushun2, SHAO Bo3, PAN Xiangmin1, CHEN Limin1, FU Jiamo2 (1.Department of Environmental Sciences and Engineering,Fudan University,Shanghai 200433 2.Guangzhou Institute of Geochemistry,The Chinese Academy of Sciences 3.State Key Laboratory of Estua Yine and coastal Research,East China Normal University)
+Abstract　The distributions of n－alkanes in aerosols from major cities in the pearl River Delta can be mainly divided into three types.For the front peak type,its Cmax is C22 or C23 and CPI is approximately 1,mainly with an origin of vehicle exhaust.The behind peak type has a Cmax of C29 or C31 with an origin of plant waxes.The third type is dual distribution.Its Cmax is C25 and C27 or C29 indicating both plant waxes and exhausts or fossil combustion input.The first type appeared in the aerosols collected from traffic zones. The second type usually appeared in cleaning zones and the third type appeared in the rest zones.The results indicate that the distributions of n－alkanes in aerosds from the same function zone changed with seasons.
+Keywords　n－alkanes,distribution types,CPI,Plant waxes,aerosols.
+1　引言
+　　较高分子量的正构烷烃广泛分布于气溶胶中［1］.随着分子量的增大，正构烷烃的麻醉性增加.当碳数大于16时，随碳数的进一步增加，正构烷烃不但能损伤皮肤，甚至有产生皮肤癌的危险［2］.所以研究气溶胶中正构烷烃的特征，不仅具有理论意义，而且对人类键康具有重要的实际意义.自本世纪七十年代以来，国外的科学家广泛研究了气溶胶中正构烷烃的组成、含量、来源及在不同大小颗粒上的分布等等［3,4］.我国于八十年代末开始这方面的研究［5,6］然而关于城市不同功能区气溶胶中正构烷烃的分布、空间变化和季节性变化及来源等方面的研究仍比较薄弱.本文对珠江三角洲地区主要城市不同功能区气溶胶中正构烷烃的分布规律、来源、空间和季节性变化进行了研究，讨论了正构烷烃分布规律、正构烷烃的分布与其来源之间的关系，以及正构烷烃时空分布的变化.
+2　采样与实验
+2.1　采样
+　　使用大流量总悬浮颗粒(TSP)采样器和2500QAT UP型石英滤膜，连续采集样品24 h，采气量为1300—2477 m3.于1994年1月、4月、7月、11月及1995年3月、8月、11月分别在广州、深圳、珠海、香港和澳门等地不同功能区准同步采集40多个气溶胶样品.所用滤膜使用前在450℃条件下灼烧4?h，采集到的样品经恒重和称重后装入处理过的广口瓶中，加入5?mL甲醇［5,7］，防止微生物生长.样品在低于-18℃条件下保存至分析.
+2.2　标准物质
+　　正二十四烷、正二十八烷和正三十烷均为分析纯.建立校正曲线，采用外标法对部分样品定量分析［8］.用正构烷烃定量浓度和相对浓度计算出的CPI值相对比，二者非常接近，故常用相对浓度计算CPI值［4］.
+2.3　实验
+　　将样品剪成细条带状，用二氯甲烷超声抽提气溶胶样品中的可溶有机质.抽滤液过滤、浓缩，经硅胶层析柱分离出饱和烃、多环芳烃、酯类及极性组分.饱和烃组分(主要为正构烷烃，少量异构烷烃和五环三萜类)经GC/FID、GC/MSD分析.分析仪器为HP5890Ⅱ GC/FID、HP 5890Ⅱ GC/HP5972 MSD,ULTRA-1(长25 m，内径0.32 mm，0.17μm涂层)毛细柱［7，9］.GC/FID载气为高纯氮，GC/MSD载气为氦气，检测器300℃，进样口290℃，60℃起始(保持5 min)，4℃/min升至290℃(保持25 min).
+2.4　空白实验
+　　为了检验实验和采样过程中的人为有机污染，做两个空白实验，一个用处理过的石英滤膜，另一个用经恒重和称重过的滤膜，按本研究的实验流程分析.在实验流程中分离出的饱和烃馏份中未检测到正构烷烃，说明实验过程中没有人为的有机污染.恒重和称重过程中仅有痕量C14—C30正构烷烃污染(＜ppt级)，且无奇偶优势，说明这些极微量的正构烷烃是在恒重过程中由微生物形成的.样品中正构烷烃含量较大(ppm级)，故恒重过程中所造成的痕量正构烷烃污染，并不影响样品中正构烷烃的组成与分布［5］.　　
+
+
+图1　研究区气溶胶正构烷烃分布类型
+a.前峰型　b.双峰型　c.后峰型
+　Fig.1 Distribution types of n-Alkanes in aerosols from the study area
+3　结果与讨论
+3.1　区内气溶胶中正构烷烃分布类型
+a.ahead peak type b.dual-peak type c.back peak type
+研究区内气溶胶中正构烷烃组成范围是C12—C37，其中广州为C14—C36，珠海和深圳为C13—C37，香港为C14—C35，澳门为C12—C36.区内气溶胶正构烷烃的分布基本可分为三种类型.即前峰型、后峰型和双峰型.前峰型以C22或C23为主峰碳，碳优势指数(CPI)为0.9—1.16，CPIwax为1.37—7.20，高碳数部分(C25—C35)相对含量比较低碳数部分低(图1a).广州交通易阻塞区、香港交通区和澳门交通区气溶胶中正构烷烃分布属该种类型.后峰型以C29为主峰碳，C24—C34正构烷烃分布具明显的奇偶优势，且相对含量高于C23以前的正构烷烃(图1c)，CPI为1.26—1.88，CPIwax为25.69—29.81.广州、深圳和澳门各清洁区气溶胶中正构烷烃分布属于该种类型.双峰型以C25和C29为主峰碳，低于C26的正构烷烃分布无明显的奇偶优势，而高于C26的正构烷烃分布有较明显的奇偶优势(图1b)，CPI为1.14—1.26，CPIwax为3.91—10.63.广州工业区和商业区、深圳商业区、珠海工业区、澳门工业区等属该种类型.
+　　除以上3种类型外，还可以见到一种过渡型.虽然也属单峰型，但是以C27为主峰碳，具有比较明显的奇偶优势，广州化工区气溶胶中正构烷烃分布属这种类型.
+3.2　气溶胶中正构烷烃的来源
+　　正构烷烃碳优势指数(CPI)是Bray和Evans于1961年提出的概念［10］，定义为
+　　　　(1)
+被广泛应用于石油有机地球化学研究中，判断石油的来源和各种石油的对比［11］.Simonet等将CPI值用于气溶胶正构烷烃分布特征和来源方面的研究［4,5］，并将CPI重新定义为C10—C35之间奇碳数正构烷烃浓度(或相对浓度)总和与偶碳数正构烷烃浓度(或相对浓度)总和之比值，认为来源于原油的正构烷烃CPI接近于1，而生物成因正构烷烃的CPI则远大于1［4,8］.
+　　植物蜡碳数Cn(wax)可用正构烷烃浓度或相对浓度与其相邻两个碳数正构烷烃浓度或相对浓度平均值之差表示［4,8］，即
+Cn(wax)＝Cn-(Cn+1+Cn-1)/2　　　　(2)
+　　其中，当Cn＜0时，则定义Cn＝0.当Cn(wax)浓度分布呈锯齿状时，表示生物来源.交通易阻塞区(图2a)锯齿型植物蜡碳数分布相对较少，说明植物蜡贡献较少.清洁区(图2b)高碳数植物蜡锯齿型分布明显，相对浓度高，说明植物蜡的贡献大.澳门、香港和广州郊外清洁区植被发育很好，其正构烷烃主要来源于高等植物蜡.工业区(图2c)植物蜡的输入介于前两者之间.
+　　植物蜡碳优势指数(CPIwax)表示C10—C35之间奇碳数植物蜡相对浓度之总和与偶碳数植物蜡相对浓度之总和的比值［4,8］.当CPIwax为20时，代表典型植物蜡来源正构烷烃分布［9］.该指数也说明了郊外清洁区植物蜡的输入最大.
+
+
+图2　气溶胶中植物蜡组成和分布
+Fig.2 Compositions and Distributions of plant waxes in aerosols
+3.3　气溶胶中正构烷烃分布的季节性变化
+　　采自同一功能区的气溶胶样品，由于季节性变化和逆温层等气象因素的影响，使得不同季节的气溶胶中正构烷烃分布有比较明显的变化.例如采自广州市麓湖公园(市内清洁区)7月份的气溶胶样品中正构烷烃分布属后峰型，正构烷烃主要来源于植物蜡.广州7月份风力较大，易于污染物的扩散，公园内车辆数和烧烤人数均较少，汽车尾气和燃料燃烧较少.而11月份该点气溶胶中正构烷烃分布属双峰型，广州11月份静风期长，常常存在逆温层，使污染物不易扩散.金秋时节，在公园内烧烤人数聚增，汽车数也增多，另外又受到邻近工业区的影响，使得来源于燃料燃烧的正构烷烃相对浓度增加，造成正构烷烃的分布变成双峰型.
+4　结论
+　　1.珠江三角洲地区气溶胶中正构烷烃分布主要有3种类型.一是前峰型，以C22或C23为主峰碳，碳优势指数(CPI)为0.9—1.16，CPIwax为1.37—7.20.第二种为后峰型，以C29为主峰碳，具明显的奇偶优势，CPI为1.26—1.88，CPIwax为25.69—29.81.第三种为双峰型，以C25和C29为主峰碳，CPI为1.14—1.26，CPIwax为3.91—10.63.
+　　2.研究区内不同功能区气溶胶中正构烷烃分布有明显的变化.交通易阻塞区和交通要道气溶胶正构烷烃分布为前峰型，清洁区正构烷烃分布为后峰型，工业区、商业区和港口区正构烷烃分布属双峰型.
+　　3.根据CPI和CPIwax等参数的判断，前峰型分布的正构烷烃主要来源于汽车尾气和化石燃料燃烧，后峰型主要来源于植物蜡，双峰型则既有植物蜡的输入，也有尾气和化石燃料燃烧的输入.
+　　4.同一地区气溶胶中正构烷烃的分布具有比较明显的季节性变化，如广州市内清洁区夏季气溶胶中正构烷烃分布为后峰型，而在秋季则为双峰型分布.
+　　
+　　鸣谢：感谢广州市环境监测中心孙大勇工程师、广州荔湾区环境监测站蔡滇英高级工程师和黄永强工程师、珠海市环境监测站、深圳市环境监测中心、香港理工大学、澳门大学王志石教授和澳门气象署等单位和个人在采样中给予的支持和帮助，感谢中国科学院广州地球化学研究所李正悦工程师所做的GC/MSD分析.
+*国家自然科学基金(49375249)和有机地球化学国家重点实验室开放基金资助项目
+第一作者现工作单位为华东师范大学河口海岸国家重点实验室
+作者单位：成　玉　潘相敏　陈立民.复旦大学环境科学与工程系，上海　200433　
+　　　　　盛国英 　闵育顺 傅家谟.中国科学院广州地球化学研究所，广州　510640
+　　　　　邵　波33.华东师范大学河口海岸国家重点实验室)
+参考文献
+[1]　Isidorov V A.Organic chemistry of the Earth′s atmosphere.Springer-Verlap Berlin Heidelberg,1990
+[2]　堀口博.刘文宗，张凤臣等译.公害与毒物、危险物(有机篇).北京：石油化学工业出版社，1978
+[3] 　Marty J C， Saliot A. Aerosols in equatorial Atlantic air n-alkanes as a function of particulate size.Nature,1982,298:144—147
+[4]　Simoneit B R T,Mazurek M.Organic matter of the troposphere-Ⅱ.Nature background of biogenic lipid matter in aerosols over the rural western United States.Atmos Environ,1982,16:2139—2159
+[5]　Sheng G,Fu J,Zhang J et al.Preliminary study of extractable organic matter in aerosols from Beijing and Guiyang,China.Diersity of Environmental Biogeo-Chemistry,Developments in Geochemistry,1991,6:77—85.
+[6] 　汤国才，柳庸行.气溶胶中正构烷烃的碳优先指数研究.环境化学，1992，11(6)：21—24
+[7]　　成　玉，盛国英，傅家谟等.大气气溶胶中多环芳烃定量分析.环境化学，1996，15(4)：360—335
+[8]　Simoneit B R T,Cox R E,Standley L J.Organic matter of the troposphere-Ⅳ.Lipids in Hamaltan Aerosols of Nigeria.Atmos Environ,1988,22:938—1004
+[9] 　Simoneit B R T,Crisp P T,Mazurek M A et al． Composition of extractable organic matter of aerosols from the Blue Mountains and southeast coast of Australia.Environ International,1991,17:405—419
+[10] Bray E E,Evans D E.Distributions of n-paraffins as a clue to recognition of source beds.Geochim Cosmochim Acta,1961,22:2—15
+[11] 中国科学院地球化学研究所.有机地球化学.北京：科学出版社，1982
+1997-03-24收到原稿　1997-11-03收到修改稿

@@ -1,0 +1,93 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URAN ECOLOGY
+1999年　第12卷　第1期　Vol.12　No.1　1999
+
+
+
+蒽醌染料及其中间体絮凝菌的特性
+宋文华　胡国臣　颜　慧　戴树桂　温孚江
+　　摘要　本文研究所分离到的真菌NX1对蒽醌染料KNR及其中间体溴氨酸的作用，并考察营养条件、体系pH等因素对NX1的生长及絮凝作用的影响，结果表明，NX1对于KNR及溴氨酸有很好的絮凝效果，对pH的适应范围广，最佳碳、氮源分别为蔗糖及尿素。
+　　关键词　蒽醌染料　中间体　絮凝　营养条件
+Study on Characterization for Flocculating Fungus of
+Anthraquinone Dye and its Intermediate
+Song Wenhua　Hu Guochen　Yan Hui　Dai Shugui
+(Department of Environmental Science, Nankai University, Tianjin 300071)
+Wen Fujiang
+(Institute of Crop Genetic and Breeding， Shandong Agricultural University,Taian 271018)
+　　Abstract　A new isolated fungus was studied in this paper for the effect of the anthraquinone dye KNR and its intermediate. The influence of nutrient condition，pH value on NX1's growth and its flocculation were also investigated. The results showed that NX1 had good flocculating effect on KNR and its intermediate, the pH range was broad, and its optimum carbon & nitrogen source were sucrose and urea, respectively.
+　　Key words　anthraquinone dye　　intermediate　　flocculation　　nutrient condition
+1　前言
+　　由于染料废水的难生物降解及高毒性，因而它的治理越来越受到人们的关注。近年来，人们已分离选育出许多对染料废水有较好降解作用的特效菌［1～4］，这些菌大多数属于厌氧细菌，其作用条件苛刻，且对染料的降解不彻底。Cripps等［5］发现一种白腐真菌Phanerochaete chrysosporium可以在好氧条件下将偶氮染料彻底矿化，随后陆续发现一些其他真菌也对染料有较好效果［6］。Cripps等［5］的研究还发现，微生物对染料的作用可分生物絮凝和生物降解两个阶段，而最初的染料从溶液中迅速消除的现象则主要是生物絮凝作用。
+　　目前国内外对染料的研究大多集中于偶氮染料，而对于结构上更难生物降解的蒽醌染料涉及较少。本文选取蒽醌染料活性艳兰KNR及生产中间体溴氨酸作为处理对象，这种染料及中间体水溶性高，常规方法难以有效处理。利用从污染土壤中分离到的一株真菌，研究它对蒽醌类染料废水的处理效果，同时还考察了不同理化条件下，这株菌的生长情况及对染料的作用情况。
+2　材料与方法
+2.1　菌种及试剂
+　　菌株NX1（由南开大学环境科学系筛选分离）；接种方法：以无菌水冲洗培养斜面，制成孢子悬液（浓度控制在0.1体积悬液OD650nm≈0.75），每瓶接种1　mL。
+　　菌株的培养基（1L）：葡萄糖2　g，NH4NO32　g，Na2HPO4　1　g，MgSO4.7H2O微量，KCl 0.5　g，FeSO4.7H2O 微量。
+　　不同营养条件对菌株作用影响的测定试验中以不同碳源、氮源替代上述培养基中的原有组分，其余成分不变。
+　　染料：
+　　活性艳兰KNR　　　浙江东港化工集团
+　　溴氨酸　　　　　浙江东港化工集团
+　　其他所用化学试剂均为市售分析纯。
+2.2　菌株絮凝作用的测定
+　　将NX1接种于100　mL液体培养基中，150　rpm振荡培养过夜，之后向培养液中加入一定体积的染料，继续振荡培养，观察体系颜色变化，吸取上清液，在染料最大吸收峰处测定其反应前后的吸光度，以百分率表示脱色程度（注：反应体系50　mL，反应温度为自然温度，变动范围22℃～37℃，下同）。
+2.3　菌株生长情况的营养调控
+　　向含有不同碳源和氮源的培养基中，接入相同孢子浓度的NX1，150　rpm振荡培养74　h，6000　rpm离心20　min，过滤弃上清液，沉淀于80℃烘箱烘干，得到菌丝体干重。
+2.4　菌株絮凝作用的营养调控［7］
+　　改变培养基中的碳源和氮源，分别测定不同营养物对菌株絮凝作用的影响，试验操作同2.2。
+2.5　碳源比对菌株的影响
+　　在已确定最佳碳、氮源的条件下，改变碳氮比，接入相同浓度的菌液，考察不同时间对染料的作用情况及生长情况。
+2.6　体系pH对菌株的影响
+　　将培养基的pH分别调为pH　5、6、7、8，试验操作同2.5。
+3　结果与讨论
+3.1　NX1对染料KNR及其中间体溴氨酸的作用
+　　在pH为6条件下，测定不同时间间隔的脱色率，结果见表1。
+表1　NX1对KNR及溴氨酸的脱色率
+
+染料
+浓度
+(mg/L)KNR(%)染料
+浓度
+(mg/L)溴氨酸(%)
+1h4h16h24h48h72h
+40100　　1037.579＞95
+8067.7100　202257.381
+10058.39310030—3875
+12021.660.510040—27.163.5
+
+　　结果表明，NX1对KNR及溴氨酸均有一定的絮凝作用，对KNR的作用尤其明显，100　mg/L浓度以下的溶液在4　h之内即可澄清。 
+3.2　不同碳源及氮源对NX1的影响
+　　在pH为6条件下，测定在不同碳、氮源基础上NX1的生长及絮凝情况，结果见表2。
+表2　不同碳氮源对NX1的影响
+
+碳源
+（2g/L）菌丝体干重
+（mg/mL）KNR（反应8h）(%)溴氨酸（反应48h）(%)
+40mg/L80mg/L00mg/L10mg/L20mg/L40mg/L
+甘油0.437432—＜10——
+葡萄糖0.61100100957957.327.1
+蔗糖0.6310010010010097＞90
+麦芽糖0.5210087793117.6—
+甘露糖———————
+氮源
+(2g/L)菌丝体干重
+(mg/mL)KNR（反应8h）%溴氨酸（反应48h）%
+40mg/L80mg/L100mg/L10mg/L20mg/L40mg/L
+NH4NO30.49100100957957.327.1
+(NH4)2SO40.3363471424.8——
+尿素0.541001001007368.250.5
+谷氨酸0.471006943＜10——
+酵母膏0.751007852＜10——
+
+　　所测试的五种碳源中，甘露糖不支持NX1的正常生长，其余四种均是菌生长的良好碳源，但对菌絮凝作用的影响却不同，以蔗糖为碳源时NX1的作用效果最佳。
+　　五种氮源均可支持菌的正常生长，以酵母膏为氮源时生长量最大，但絮凝效果是以尿素为氮源时最好。
+　　综合NX1生长及絮凝效果，蔗糖和尿素分别为NX1的最适碳源及氮源。 
+3.3　碳氮比的调控作用
+　　在已优选出最佳碳、氮源的基础上，改变碳氮比例，结果见表3。
+表3　碳氮比对NX1的影响（pH6）
+
+蔗糖(1　g/L)
+尿素
+（g/L）菌丝体干重
+(mg/mKNR(反应8h)(%)
+40
+mg/L

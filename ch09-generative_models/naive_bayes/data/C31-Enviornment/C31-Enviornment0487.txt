@@ -1,0 +1,92 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+水中痕量亚硝酸盐氮的反相流动注射—光度测定
+王镇浦　吴宏　陈国松
+摘要：建立了测定水中痕量亚硝酸盐氮的N-(1-萘基)乙二胺-反相流动注射-分光光度法.将N-(1-萘基)乙二胺二盐酸盐溶液注入到水样和对氨基苯磺酰胺溶液的混合流,在lλmax 540nm处对反应形成的红色染料进行分光光度检测.线性范围为0.004～0.18 mg/L亚硝酸盐氮,检测限为0.0012 mg/L,测定频率为50次/h.本法灵敏度高、选择性好、分析速度快.应用本法测定南京玄武湖湖水中痕量亚硝酸盐氮,测定结果的相对标准偏差为3.5%,与N-(1-萘基)乙二胺分光光度法(国标法)测定结果相比较的平均相对误差为-4.2%,表明本法测定结果具有满意的精密度和准确度.
+关键词：流动注射分析；分光光度法；亚硝酸盐氮；N-(1-萘基)乙二胺；水
+中图分类号：X830.2 文献标识码：B 文章编号：1000- 6923(1999)05- 0469- 03
+Reversed phase flow injection-spectrophotometric determination of trace nitrite nitrogen in water.
+WANG Zhen-pu, WU Hong, CHEN Guo-song
+(Department of Applied Chemistry, Nanjing University of Chemical Technology, Nanjing 210009, China). China Environmental Science. 1999,19(5)：469～471
+Abstract：N-(1-Naphthyl)ethylenediamine-reversed phase flow injection-spectrophotometric determination of trace nitrite nitrogen in water was studied. N-(1-Naphthyl)ethylenediamine dihydrochloride solution was injected into the mixed flow of the water sample and sulfanilamide solution. Red dye formed by the reactions was spectrophotometrically detected at lλmax 540 nm. The linear range is 0.004 to 0.18 mg/L nitrite nitrogen with the detection limit of 0.0012 mg/L and the determination frequency of 50 times per hour. This method has high sensitivity, good selectivity and fast analytical speed. It has been applied to the determination of trace nitrite nitrogen in Xuanwu Lake water in Nanjing with relative standard deviation of 3.5% for the determination results and mean relative error of -4.2% for the determination results compared with that of N-(1-naphthyl)ethylenediamine spectrophotometry method (national standard method), indicating satisfactory precision and accuracy of the determination results.
+Key words：flow injection analysis；spectrophotometry；nitrite nitrogen；N-(1-naphthyl)ethylenediamine；water
+　　亚硝酸盐可使人体正常的血红蛋白氧化成为高铁血红蛋白,出现组织缺氧症状;还可以与仲胺类反应生成亚硝胺类,其中许多化合物为致癌物.水中痕量亚硝酸盐氮的测定方法主要有N-(1-萘基)乙二胺(NED)分光光度法[1-3]、α-萘胺分光光度法[4]、离子色谱法[3]和流动注射分析法(FIA).流动注射分析法主要有FIA-电化学法[5]、FIA-化学发光法和FIA-分光光度法[6]等.鉴于NED分光光度法为国标法[1]和国际标准法(ISO法)[2],FIA与分光光度法联用可大大缩短分析时间,反相FIA(rFIA)的灵敏度比FIA高得多,试剂消耗量也大大减少,故本文建立了测定痕量亚硝酸盐氮的NED-rFIA-分光光度法.将其应用于测定水和废水中痕量亚硝酸盐氮,取得了满意的结果.本文研究结果未见文献报道.
+1 实验部分
+1.1 试剂和仪器
+　　亚硝酸盐氮标准溶液 用NaNO2(AR)配制250 mg/L储备溶液,用KMnO4法标定后,将其稀释成2.00 mg/L标准溶液;1.00g/LNED二盐酸盐溶液 溶解0.250g NED二盐酸盐(AR)和10g NaCl (AR),稀释至250 mL;20.0g/L对氨基苯磺酰胺(SA)溶液 称取5.00 g SA (AR),溶于13 mL浓盐酸,稀释至250 mL;无亚硝酸盐水 于蒸馏水中加入少许KMnO4晶体,使其呈红色,再加Ba(OH)2使其呈碱性,置于全玻璃蒸馏器中蒸馏,弃去50 mL初馏液,收集中间约70％不含锰的馏出液,用作配置试剂溶液和实验用水.
+　　PU8800型自动记录分光光度计(英国)和752型紫外光栅分光光度计;RD-4型八通道层状压片蠕动泵;进样阀(黄海水产研究所);HCS-M型比色数据处理仪.
+1.2 试样预处理
+　　向每100 mL有颜色和悬浮物的水样中加入2mL Pb(OH)2悬浮液,搅拌静置,过滤,弃去25 mL初滤液.
+1.3 实验方法
+　　NED-rFIA-分光光度法的最佳流路条件和最佳显色条件如图1所示.测定时间和采样时间分别为30、40s,测定频率为50次/h.以2.00 mg/L亚硝酸盐氮标准溶液配制成间隔0.020mg/L的0.00~ 0.18 mg/L范围内的10个校准溶液系列,控制SA溶液(R2)和亚硝酸盐试样(S)的流量分别为0.80和1.00 mL/min,NED二盐酸盐注入体积为40.0m L,反应管长度L1和L2分别为50,150 cm,在540 nm处测量吸光度值,绘制成回归校准曲线.以待测水样代替校准溶液操作而测得吸光度值,由校准曲线求得待测水样中亚硝酸盐氮.
+
+图1 NED-rFIA-分光光度法流路
+Fig.1 Flow circuit of NED-rFIA-spectrophotometry
+A. 蠕动泵 B. 反应管 C. 进样阀 D. 分光光度计 R1. 1.00 g/L 
+NED二盐酸盐溶液 R2. 20.0 g/L SA溶液 S.亚硝酸盐氮试样
+VR1.R1注入体积 L1和L2. 反应管长度
+2 结果与讨论
+2.1 最佳流路条件的确定
+2.1.1 SA溶液(R2)流速的影响 R2流速为0.80 mL/min时,吸光度达到最大值.
+2.1.2 试样流速的影响 试样流速为1.00 mL/min时,吸光度达到最大值.
+2.1.3 NED二盐酸盐溶液注入体积(VR1)的影响 VR1大于40m L后,吸光度趋于最大值.
+2.1.4 反应管长度的影响 管长L1为50 cm (内径为0.5mm)时,吸光度趋于稳定的最大值;管长L2为150cm(内径为0.5mm)时,吸光度趋于稳定的最大值.
+2.2 最佳显色条件的确定
+2.2.1 吸收光谱和测量波长 在pH值约为1.8的酸性介质中,NO2-先与SA反应生成重氮盐,继而与NED盐酸盐偶联生成红色染料.其吸收光谱如图2所示.本文选最大吸收波长540 nm为测量波长.
+
+图2 红色染料的吸收光谱
+Fig.2 Absorption spectrum of red dye
+2.2.2 SA溶液浓度的影响 SA溶液浓度达20.0 g/L时,吸光度趋于稳定的最大值.
+2.2.3 NED二盐酸盐浓度的影响 NED二盐酸盐达1.00 g/L时,吸光度趋于稳定的最大值.
+2.2.4 盐酸溶液浓度的影响 盐酸溶液浓度为0.70 mol/L时,吸光度达到最大值.
+2.3 共存离子或物质的影响
+　　在最佳实验条件下,对于0.10 mg/L亚硝酸盐氮,测定的相对误差不超过±5％时,共存离子或物质允许存在的浓度如表1所示.由表1可见,本法的选择性好.
+2.4 线性范围、灵敏度和检测限
+　　按1.3操作,绘制回归校准曲线(图3).其回归方程为A=2.485c＋0.0095(c为mg/L),相关系数为0.9988(n=10).灵敏度为2.485L/mg.亚硝酸盐氮测定的线性范围为0.004~ 0.18mg/L.按IUPAC对检测限的规定,测得其值为0.0012 mg/L.
+表1 共存离子或物质的影响
+Table 1 Effect of coexisting ions or substances
+
+允许浓度(mg/L)共存离子或物质允许浓度(mg/L)共存离子或
+物质
+　K+, Na+, Mg2+, NO3-, Cl-100Cu2+,Hg2+,Pb2+
+800SO42-, PO43-, EDTA10Fe3+
+500HCO3-2氯胺
+300Ca2+, NH4+1S2O32-
+200CO32-, Mn2+0.5S2-, Cl2
+
+2.5 精密度和准确度
+　　对含0.100 mg/L亚硝酸盐氮的溶液,按1.3操作,10次测定结果的平均值为0.099 mg/L,相对标准偏差(RSD)为0.5％,平均相对误差为- 1%.
+
+图3 校准曲线
+Fig.3 Calibration curve
+2.6 试样分析
+　　采用NED-rFIA-分光光度法测定南京玄武湖湖水中的痕量亚硝酸盐氮,并与NED分光光度法(国标法)测定结果进行对照(表2).由表2可见,本法测定结果具有满意的准确度和精密度.
+表2 湖水中亚硝酸盐氮测定结果 (mg/L)
+Table 2 Determination results of nitrite nitrogen in lake water (mg/L)
+
+NED-rFIA-分光光度法 
+测定结果 平均值 RSD(%)NED分光光度法(国标法)
+测定结果 平均值 RSD(%)
+0.046, 0.047, 0.0480.0463.50.048, 0.047, 0.0480.0483.5
+0.046, 0.044, 0.044　　0.045, 0.049, 0.050　　
+
+3 结论
+3.1 基于亚硝酸盐氮在酸性介质中相继与对氨基苯磺酰胺和N-(1-萘基)乙二胺(NED)反应形成红色染料,建立了测定水中痕量亚硝酸盐氮的NED-反相流动注射(rFIA)-分光光度法.
+3.2 FIA或rFIA与分光光度联用可大大缩短分析时间,rFIA的灵敏度比FIA高得多,试剂消耗量也大大减少.
+3.3 应用本法测定南京玄武湖湖水中痕量亚硝酸盐氮,结果具有满意的准确度和精密度.
+基金项目：江苏省科学基金资助项目(41050)
+作者简介：王镇浦(1937-),男,江苏镇江人,南京化工大学教授.主要从事化学计量学法及其分子光谱和液相色谱多元分析应用、新有机试剂的合成、性能和分析应用以及水和废水中痕量污染物的流动注射-分光光度在线检测等项研究工作.曾主持8个省部级科研项目的研究,其中3个项目获省、部级科技进步二、三等奖,3个项目通过国家和省、部级鉴定,出版译著4本. 发表论文186篇.
+作者单位：王镇浦　陈国松　南京化工大学应用化学系,江苏 南京 210009
+　　　　　吴 宏 现在徐州师范大学化学系工作
+参考文献：
+　[1]GB/T 7493-1987, 水质亚硝酸氮的测定-分光光度法[S].
+　[2]王镇浦,沈鸿礼,张相臣译. 水质词汇 水质取样和分析方法国际标准(ISO) [M]. 北京:水利电力出版社, 1989. 208- 215.
+　[3]国家环境保护局. 水和废水监测分析方法(第3版) [M]. 北京: 中国环境科学出版社, 1989. 260- 266.
+　[4]Fresenius W, Quentin K E, Schneider W. 张曼平, 陆贤昆, 张亚利等译. 水质分析 [M]. 北京:北京大学出版社,1991.135- 139.
+　[5]Chamsi A Y, Fogg A G. Oxidative flow injection amperometric determination of nitrite at an electrochemically pre-treated glassy carbon electrode [J]. Analyst, 1988, 113(11): 1723- 1727.
+　[6]Shirato F, Okajima Y, Maekoya C, et al. Determination of nitrite, nitrate and ammonium nitrogens in soil by FIA [J]. Bunseki Kagaku, 1989, 38(9): 413- 418.
+收稿日期：1999-01-03

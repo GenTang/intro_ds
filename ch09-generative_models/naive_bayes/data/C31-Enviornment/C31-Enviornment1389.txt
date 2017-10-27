@@ -1,0 +1,206 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+活性污泥法的多变量最优控制*
+Ⅰ.基础理论与DO浓度对运行费用的影响
+彭永臻　王宝贞　王淑莹
+(哈尔滨建筑大学市政环境工程学院，150008)
+
+摘要　在现有的关于活性污泥法最优控制研究的基础上，首次提出了以两个最重要的控制参数污泥排放量和溶解氧浓度(DO)为控制变量、以出水水质为约束条件、以运行费用为性能指标的活性污泥法多变量最优控制的研究问题，并着重进行了基础研究.首先建立了最优控制所必要的基本状态方程与性能指标的泛函表达式.然后通过计算研究了在满足同一出水质量前提下控制不同的DO浓度时所需要的运行费用.结果表明，DO为0.9mg/L时所需运行费用最少，这与主张应当维持DO浓度大于2mg/L的传统观点相比相差甚远；衰减速率常数Kd不受DO影响的假设也不合理.
+关键词　活性污泥法；最优控制；溶解氧(DO)浓度.
+MULTIVARIABLE OPTIMAL CONTROL OF ACTIVATED SLUDGE PROCESS：Ⅰ.BASIC THEORY AND EFFECT OF DO ON OPERATIONAL COST
+
+Peng Yongzhen, Wang Baozhen,Wang Shuying
+(Department Environment and Municipal Engineering,Harbin University of Architecture and Engineering,150008)
+
+ABSTRACT　This paper originally presents the results of the study on the multivariable optimal control of activated sludge process,which takes the two most important control parameters,sludge wastage and dissolved oxygen(DO) as control variables,regards effluent quality as restriction factor and operation cost as performance index.The basic theory was studies.The fundament state equations and functional expression of performance index were established firstly. The operational costs at various DO concentrations were calculated,under the condition of the same effluent quality.The results indicate that the operational cost at DO of 0\^9mg/L is the lowest,which has great diversity compared with the conventional view that DO level should be maintained above 2mg/L.The assumption that the decay rate constant Kd is not affected by DO is not rational either. 
+Keywords　activated sludge process, optimal control, dissolved oxygen(DO) concentration.
+　　
+1　概述
+　　无论是城市污水还是工业废水处理厂，由于其进水水质水量时刻在变化，都处于非稳定状态下运行，这必然引起其它参数和出水质量的不断变化.近年来，污水处理厂的自动控制日益普及与深入，但至今仍没能实现最优控制.最优控制在其它一些工业过程中已得到较广泛的应用.它是过程控制中层次最高、要求最严格和技术难度最大的控制方式.它能根据被控制系统的状态方程，输入变量、约束条件和性能指标(也称目标函数、指标泛函等)等，通过计算，提供一个(组)最优控制变量.按最优控制进行过程控制，将能最大限度地使性能指标最优.如何选择控制变量、状态变量和约束条件、建立状态方程和性能指标是最优控制研究的基础和重要内容，也直接影响最优控制的质量.
+　　最优控制理论在60年代初才较完整地建立起来，而有关活性污泥法最优控制的研究在70年代刚刚起步，近年来人们进一步认识到该研究课题的重要理论意义与应用价值.至此关于该课题的研究有如下三个显著特点：一是总体来看真正涉及活性污泥法系统最优控制问题研究报道与公开发表的论文不多；二是多数的研究是以污泥回流量作为控制变量［1—6］，这属于单变量最优控制，少数以污泥排放量和污泥回流量(或进水流量)为控制变量［7，8］；三是几乎所有的研究都以平均出水底物浓度或出水底物浓度波动最小为性能指标［2，4，5—9］，只有Kabouris［7］等极少数研究以回流污泥与排放污泥的能耗最小为性能指标.Hamalainen［2］、Cheruy［3］和Kabouris［7］等人的研究表明：以污泥回流量作为控制变量来减少出水水质波动的效果很差甚至几乎是无效的.因为这并不能有效地控制曝气池中的混合液悬浮固体浓度(MLSS)，反而加大了二次沉淀池中的水力扰动.Kabouris［7］等人认为控制污泥排放量比控制污泥回流量更有效.
+　　目前，污水处理厂出水中的底物(有机物)浓度较高或波动大与运行费用较高是普遍存在的两个问题，也是两个永久性的研究课题.本文将这两个问题联系起来进行最优控制的研究，以污泥排放量(以下用Qw表示)和曝气池中溶解氧浓度(以下用DO表示)作为控制变量，以包括剩余污泥处理、污泥回流与供气这三者的运行费用(即能耗)之和作为性能指标，以出水水质为约束条件.显然，除了进水水质水量之外，Qw和DO是活性污泥法运行中最重要的输入参数.本研究的性能指标包括了活性污泥法的绝大部分运行费用，在满足出水水质要求的前提下，减少运行费用是最重要目标.本课题分三部分来研究限制有机物(均以BOD5计、也称底物)排放总量、限制出水有机物浓度、同时限制出水中平均与最高有机物浓度等三种不同出水排放标准下，使运行费用最省的最优控制问题，第一部分主要研究有关的若干基础理论.
+
+2　多变量最优控制的基本数学模型
+2.1　基本状态方程的建立
+　　由于完全混合式活性污泥法系统的生化反应过程易于数学化描述，在工业废水处理中也有广泛地应用，其它类型的曝气池也可看成是由若干个完全混合式曝气池串联而成.因此，本文以该系统作为研究对象.Grieves［10］与Milbury［11］等人的研究表明，推流式曝气池中的实际混合状态更接近于完全混合.本研究忽略二沉池中微生物的代谢作用与进水中溶解氧，为了便于对排放污泥量进行定量控制，规定从曝气池直接排泥，系统如图1所示.
+　　
+
+
+图1　活性污泥法系统与控制示意图
+Fig.1 Flow schem of activated sludge process and control
+图中与本文中的符号意义如下：
+　　Q，Qr,Qw——分别表示进水、污泥回流和污泥排放的流量(m3/d)；
+　　X，Xr——MLSS和回流污泥浓度，mg/L；
+　　So,S——进水与出水(即曝气池中)的底物(BOD)浓度，mg/L;
+　　DO——溶解氧浓度；mg/L；
+　　V——曝气池有效容积，m3;
+　　R——污泥回流比.
+　　首先对图1所示系统作底物的物质平衡：
+
+(1)
+
+即
+
+(2)
+式中(dS)/(dt)——曝气池中底物浓度的变化速率，mg/(L*d)；
+k——底物最大比利用速率常数，d-1；
+Ks——饱和常数，mg/L.
+其中kS/(Ks+S)是Lawrence和McCarty［12］提出的不同底物浓度下的底物比利用速率.再对图1系统作微生物的物质平衡：
+
+(3)
+即
+
+(4)
+式中(dX)/(dt)——曝气池中微生物浓度的变化速率；mg/(L*d)；
+Kd——微生物的衰减速率，d-1；
+式(2)和(4)联立起来，就是图1所示的活性污泥系统的基本状态方程.
+　　以DO为控制变量，则必须考虑DO在状态方程中的作用.DO对生化反应速率的影响是公认的，它主要表现在对底物最大比降解速率k和衰减速率Kd的影响.迄今，人们都主张用氧的开关函数(Switching function)来表示DO对k和Kd的影响［13，14］，如下所示：
+
+(5)
+式中Ko为氧的开关常数或称氧的饱和常数(mg/L)，它的取值定量地反映了DO对k和Kd的影响大小，一般认为Ko为0.2mg/L左右［13］.用式(5)来修正DO对生化反应速率k和Kd的影响后，将其代入式(4)和(2)，化简后得
+
+(6)
+式(6)就是以溶解氧浓度DO和污泥排放量Qw为控制变量，以曝气池中底物浓度S和微生物浓度X为状态变量的活性污泥法过程的基本状态方程.式中的X,S,Qw、DO等变量都是随时间变化的，是时间t的函数，也可分别写成X(t),S(t),Qw(t)和DO(t).
+2.2　基本性能指标的建立
+　　处理系统运行费用显然与控制变量DO与Qw有关，如果每日的运行费用用Jc表示，则包括剩余污泥处理费J1、回流污泥费J2和曝气池的供氧费用J3等三部分
+Jc=J1+J2+J3(7)
+　　在非稳定状态下X,S,Qw、DO都是时间的函数，J1、J1和J3等运行费用应当用泛函来表示.其中J1包括污泥浓缩、消化、脱水、干化及最后处置等所需的费用，显然J1与污泥排放量Qw有关.一日内(t0=0d,T=1d)所需运行费用J1表示如下：
+J1=(单位污泥的处理费A)*(排放的污泥量)=∫TtoAQwXdt(8)
+　　根据对图1所示处理系统的物质平衡，可得
+QrXr=(Q+Qr-Qw)X(9)
+(10)
+由式(10)可见，Qr是Q、Qw、X和Xr的函数，是时间t的复合函数，J2可表示为
+J2=(单位污泥回流量所需费用B)*(污泥回流量Qr)(11)
+　　曝气池中耗氧速率(OUR)公式［15］如下：
+(12)
+式中Ra——曝气池中的OUR，kg/d；
+a——利用单位底物的需氧系数；
+b——微生物内源呼吸需氧速率，一般有b=1.42Kd,d-1.
+由于原污水中无DO，出水中还要带出一些溶解氧，其溶解氧流出的速率为Q*DO，所以，曝气池中的总耗氧速率Rt为
+Rt=Ra+Q*DO(13)
+考虑到DO对k和Kd的影响，则Rt为
+(14)
+因为同一曝气设备的机械效率不变，转移单位质量氧所需费用C与氧转移效率η成反比.由表示氧转移速率ro的公式ro=KLa(Ds-DO)可知，在一定条件下氧的总转移系数KLa和氧的饱和浓度Ds是常数，ro或η与Ds-DO也成正比，与DO呈负相关的线性关系，即
+(15)
+式中η1和C1分别表示在溶解氧浓度为DO1时的氧转移效率和转移单位质量氧所需费用.在特定的DO1条件下C1是已知的，则C与DO的函数关系为
+(16)
+曝气池的供氧费用J3可表示为
+J3=(转移单位质量氧所需费用C)×(总耗氧速率)＝∫TtoCRtdt
+(17)
+将式(8)、(11)和(17)代入式(7)，令T=1d,to＝0d，可得到非稳定状态下活性污泥法处理系统一日的运行费用
+(18)
+这就是我们要建立的用泛函表示的性能指标表达式，也是研究最优控制问题必需的.
+
+3　控制DO浓度对运行费用的影响
+　　从方程(6)和(18)可以看出，DO对状态变量和运行费用的变化都有很大影响.在满足出水水质的前提下，维持较大的DO，无疑将增大供氧费用，但同时也可提高底物比降解速率，减少MLSS浓度以及污泥回流等方面的运行费用；反之亦然.传统的观点认为，DO应维持在2mg/L或以上为宜［15］.那么，DO究竟与运行费用的关系如何?DO应控制在怎样的范围内更合适呢?这正是本文所要着重讨论的，也是本研究的基础与基本问题.
+　　DO的影响主要表现在两个方面：一是对转移单位质量氧所需费用C的影响，这已由式(16)定量地给出；二是对生化反应速率的影响，这主要取决于氧的饱和常数的Ko值.关于Ko的取值众说纷纭，其范围大致为Ko=0.2—0.4mg/L，一般认为Ko≈0.2mg/L［13］.
+　　首先设进水流量Q与进水底物(BOD)浓度So每日随时间t按正弦波变化如下：
+(19)
+式中，——进水流量的平均值，取=10000m3/d；
+So——进水底物浓度的平均值，取So=0.150kg/m3.
+　　由于在运行中控制二沉池污泥斗中贮存的污泥量不变，曝气池与二沉池之间不设污泥贮存池，所以，MLSS浓度与回流污泥浓度Xr的变化幅度不太大，进入二沉池的固体通量与进水流量呈正相关关系，其回流污泥的浓缩程度与进水流量呈负相关关系，即Xr随着Q的增大而减小，随Q减小而增大，在这里可写成
+
+(20)
+表1　动力学与化学计量常数及其它参数的值
+Table 1 Biokinetic and stoichiometrycoefficients and other parameters
+
+参数取值单位
+k1.501/d
+Ks0.046kg(BOD)/m3
+Y0.58kg(MLSS)/kg(BOD)
+Kd0.051/d
+a0.42kg(O2)/kg(BOD)
+Ko0.0002kg(O2)/m3
+Ds0.0085kg(O2)/m3
+DO10.0015kg(O2)/m3
+r6.00kg(MLSS)/m3
+A1.10元/kg(MLSS)
+B0.042元/m3
+C10.950元/kg(O2)
+V2500m3
+10000m3/d
+o0.150kg(BOD)/m3
+
+式中r——称基准回流污泥浓度，即平均流量时回流污泥浓度，一般为5000—8000mg/L.
+
+　　根据活性污泥法动力学常数与化学计量常数以及其它参数的通常取值范围，表1给出它们的典型数值，供计算时采用.按表1中和o的数值，式(19)确定的进水Q和So的变化情况如图2所示.
+
+
+图2　进水流量与底物浓度随时间的变化情况
+Fig.2 Hourly variation in influentflow and substrate concentration
+　　为了能比较在出水水质相同时不同的定常DO下的运行费用，首先规定了每日排出的底物总量均为150kg(BOD)/d(相当于平均出水BOD为15mg/L)；在计算中还必须使状态变量的初始值与末端值相同，即X(0)=X(1),S(0)=S(1)，否则无法比较运行费用.另一控制变量Qw也按定常值控制.将确定的DO和Qw以表1中给出的数值代入式(6)和(18)，用计算机求解微分方程组表示的状态方程(6)，然后将其状态变量的解X(t)和S(t)代入式(18)，得到运行费用JC.计算机打印出的表2和图3分别表示控制DO为2.5和0.5mg/L时状态变量与控制变量随时间的变化情况与所需的运行费用JC，其中Z(t)为每日系统排出的BOD总量随时间t的变化，运行费用单位为人民币元.
+表2　DO为2.5mg/L时状态变量与控制变量的变化
+Table 2 Changes of state variables and control variables at DO=2.5mg/L
+
+X(t),mg/LS(t),mg/LQw(t),m3/dDO(t),mg/Lt,dZ(t),kg/d
+2103.09.58283.7502.500000
+2102.712.79283.7502.50000.0506.024
+2106.316.42283.7502.50000.10014.987
+2113.520.01283.7502.50000.15027.336
+2123.822.96283.7502.50000.20042.914
+2136.224.64283.7502.50000.25060.766
+2149.324.60283.7502.50000.30079.243
+2161.622.78283.7502.50000.35096.446
+2171.919.57283.7502.50000.400110.836
+2178.815.71283.7502.50000.450121.686
+2181.611.92283.7502.50000.500129.138
+2180.28.71283.7502.50000.550133.885
+2175.06.29283.7502.50000.600136.775
+2166.84.64283.7502.50000.650138.534
+2156.73.66283.7502.50000.700139.677
+2145.53.25283.7502.50000.750140.544
+2134.13.35283.7502.50000.800141.372
+2123.33.96283.7502.50000.850142.377
+2114.05.15283.7502.50000.900143.842
+2106.97.01283.7502.50000.950146.184
+2103.09.58283.7502.50001.000149.998
+J(N)=2630.0660(元/d)　JC(N)=2630.0660(元/d)　
+
+
+图3　DO为0.5mg/L时状态变量与控制变量的变化(JC=2491元/d)
+Fig.3 Changes of state variables and control varlables at 
+DO=0.5mg/L(JC=2491Yuan/d)
+
+　　应当指出，在计算时增大一日内允许排放的底物总量Z(1)，或者状态变量的末值X(1)、S(1)分别大于其初始X(0)、S(0)(相当于应去除的底物仍留在曝气池中)都可减小运行费用JC，这是不难解释的.因此，为了避免上述情况，需要进行大量的计算.此外，还以同样方法进行了控制DO为2.0、1.5、1.2、1.1、1.0、0.9、0.8、0.7、0.6、0.3mg/L时的计算.结果表明，随着DO的减小，必须提高X浓度作为补偿，同时减少排泥量Qw，即通过增大了污泥龄θc来维持出水水质不变.DO越低其供氧费用J3也越省，而其它方面费用越高，那么，DO与总运行费用JC的关系如何，是否存在使运行费用最省的DO浓度呢?
+　　根据计算结果，计算机打印出了表示DO与JC关系的表3和图4.由于不同污水处理厂的污泥处理程度与单位污泥处理费用A的差异较大，而单位污泥回流量所需费用B与转移单位质量氧所需费用C1的差异并不大，为此，表3和图4中给出了A值为1.1和2.1元/kg污泥时的JC值.
+表3　控制不同DO浓度时的运行费用JC(元/d)
+Table 3 Operation costs JC(yuan/d) at various DO concentrations
+A，元/kgDO浓度，mg/L
+0.300.500.600.700.800.901.001.101.201.502.50
+1.1026031883185618431837183618361843184918762022
+2.1026712491246424512445244424462450245725482630
+
+　　由上可见，在Z(1)均为150kg/d的相同处理效果的前提下，控制DO=0.7—1.2mg/L范围内，运行费用JC较低且变化不大，其中DO=0.9mg/L时JC最低.这与主张维持DO浓度大于等于2mg/L时的传统观点和美国“十州标准”的规定［15］相去甚远.关于DO的影响以及如何选择最合适的DO浓度问题，我们认为：
+
+
+图4　A值为1.1和2.2元/kg时DO浓度与JC关系
+Fig.4 Relation between DO and JC at A=1.1 and A=2.2yuan/kg
+1.一般来说，当DO大于1.0mg/L时就不会因缺氧而发生丝状菌性污泥膨胀.考虑到这个问题，应当将DO控制在1.0—1.2?mg/L为宜，这比DO为2mg/L时减少5%左右的运行费用.实际上每年污水处理厂能节省1%的运行费用也是很可观与有意义的.
+　　2.国际水污染研究与控制协会(IAWPRC)在1986年提出的“活性污泥模型1”报告中，假定微生物衰减速率Kd不受DO浓度的影响［13］.本研究按这一假设修改了状态方程(6)和性能指标(18)后，计算控制不同DO时的运行费用JC.结果出现了控制的DO浓度越低，JC也越小的趋势，DO为0.2mg/L左右时，JC最小.这是由于DO浓度很低也不影响Kd的大小，即微生物的内源呼吸速率不变所致，看来这种假设及其计算结果都不合理.
+　　3.氧的饱和常数Ko越大，DO对生化反应速率的影响越大，这时控制不同的DO与JC的关系如何呢?本研究令Ko等于其取值范围的上限0.4mg/L，其它参数值如表1，按公式(6)和式(18)计算不同DO下的JC，计算结果表明DO控制在1.1mg/L时其JC最小，这与主张将DO控制在2.0mg/L以上的传统观点相比仍差别很大.
+
+4　结论
+　　控制污泥回流量不能有效地改变出水水质，所以污泥排放量Qw(决定污泥龄的大小)和曝气池中溶解氧浓度DO是活性污泥法的最重要控制变量.本文首次提出了以Qw和DO为控制变量，以出水质量为约束条件，以运行费用为性能指标的活性污泥法多变量最优控制问题的研究，并进行了与其有关的基础研究.
+　　1.建立了以污泥排放量和溶解氧浓度为控制变量，以曝气池中MLSS浓度和底物浓度为状态变量的状态方程.
+　　2.建立了以剩余污泥处理、回流污泥和供氧等三项运行费用之和作为最优控制的性能指标的泛函表达式.状态方程与性能指标都是最优控制研究的基础.
+　　3.根据状态方程、性能指标与城市污水处理厂各项运行费用的一般指标，通过计算研究了在其它条件相同，控制不同的定常DO浓度时所需要的运行费用，结果表明，DO为0.9mg/L时所需运行费用最省，在0.7—1.2mg/L范围内，运行费用较低且变化不大.如果考虑到防止污泥膨胀或DO浓度可能对生化反应速率有更大的影响(即Ko=0.4mg/L)，将DO控制在1.0—1.2mg/L也足够了，而不必使DO超过2.0mg/L.
+　　4.本研究的计算结果表明，IAWPRC课题组［13］提出的衰减速率Kd不受DO影响的假设并不合理，理论上也难以解释.
+
+　　参加本项试验研究工作的还有彭永恒、周　利、丁　峰与崔和平等同志.
+参考文献
+1　Harris C J.Modelling and adaptive control of urban wastewater treatment plants.Environmental System Planning,Design,and Control.Proc IFAC Symp,Kyoto,Japan， 1977
+2 Hamalainen R P, Halme A,Gyllenberg A .A control model for activated sludge wastewater treatment process.Proc Ifac 6th World Congress,Boston,Mass, 1980
+3 Cheruy A,Panzarella L,Denat J P.Multimodel simulation and adaptive stochastic control of an activated sludge process. Modelling and Control of Biotechnological Processes.Proc IFAC Symp,Helsinki,Finland,1982
+4 Sincic D,Bailey E.Optimal periodic control of activated sludge processes-Ⅰ.Results for the base case with monod/decay kinetics.Wat Res,1978,12:47—53
+5　S Y S Yeung,Sincic D,Bailey E.Optimal periodic control of activated sludge Processes-Ⅱ.Comparison with conventional control for structured sludge Kinetics.Wat Res,1980，14:77—83
+6 Chen M.Stochastic modelling and stochastic optimization of chemical engineering process ph.D.thesis,Department of Chemical Engineering,Kansas State University,Manhattan,Kansas，1969
+7 Kabouris J C,Georgakakos A P.Optimal control of the activated sludge Process.Wat Res,1990,24(10):1197—1208
+8 Angelbeck D I,Shah Alam A B.Simulation studies on optimization of the activated sludge process.J WPCF,1978,50(1):31_39
+9 Kabouris J C,Georgakakos A P,Camara A.Optimal control of the activated sludge process:Effect of sludge storage.Wat Res,1992,26(4):507—517
+10 Grieves R B,Milbury W F,Pipes W O.A Mixing model for activated sludge.J WPCF,1964,36:619
+11 Milbury W F,Pipes W O,Grieves R B.Compartmentalization of aeration tank.J Sanit Eng Div,ASCE,1965,91(SA3):45
+12 Lawrence A W,McCarty P L.Unifled basis for biological treatment design and operation.J Sanit Eng Div,ASCE,1970,96(SA3):757
+13 Henze M et al. (IAWPRC Task Group on Mathematical Modelling for Design and Operation of Biological Wastewater Treatment) Activated sludge model No.1,IAWPRC.Scientific and Technical Reports No.1, 1986
+14　李献文等译.废水生物处理理论与应用.北京：中国建筑工业出版社，1989
+15　Benefield L D,Randall C W.Biological Porcess design for wastewater treatment,Prentice-Hall Inc， 1980

@@ -1,0 +1,131 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+2000　Vol.19　No.5　P.47-49
+
+
+
+
+类汉语组合查询器的查询操作模式构造
+刘秉毅
+摘 要：讨论类汉语组合查询器FIMSFIND的查询操作模式构造方面的有关问题。提出了以查询模式构造、查询模式驱动为基本思想的、面向中文信息处理的查询系统快速原型法生成工具箱，对脚本语言FimsScript的语法规则、语义描述、查询单元项的重用概念等关键问题进行了详细讨论。
+关键词：查询优化 查询器 数据库技术 泛模式接口 查询语言
+　　对以查询和检索为主要业务的信息系统（IS），其模型通常可以简化为1个4元组，即：
+　　IS ：＝＜DBS，QL，AS，α＞
+　　其中，数据库系统DBS为所有对象实例的集合；查询语言QL表示所有查询集合；答案系统AS表示所有查询结果的集合；查询计算函数α为偏序映射函数，即
+　　α：DBS×QL→AS
+　　对于关系型数据库信息系统，DBS主要由标征数据内涵的数据库模式和关系数据库外延二部分构成，为有限的信息集合；QL通常为由用户选择或指定的查询表达式，借助于DBMS查询系统完成查询检索操作（α偏序映射过程），产生查询集合AS；由于QL是以DBS所有数据库（表）的属性或数据库函数限定的属性构成的可组合查询项集、关系运算符集（＝、＜＞、＜、＞、＞＝、＜＝等）、逻辑关系符集（AND和OR）、有效查询值集（为无限集）等按照一定规则组合而成的有效表达的无限集合，AS为满足QL表达式条件的、包含DBS某一现有关系的一部分或若干现有关系的重构数据，即关系视图，显然，AS也应为无限集合。近年来，以终端用户为使用对象的、基于可组合查询项集的所谓任意组合条件查询机制是一直公认的解决以有限的查询程序承担无限的查询任务这一问题的有效方法之一［1］［2］［3］。
+　　研制专用的查询机制或者集成工具来支持语义丰富的查询操作已成为所谓的第4代语言（4GL，如PowerBuilder、Informixs等）的显著特色，而有关中文DBMS的任意组合查询机制的设计原理、性能指标及程序实现等专题一直是从事中文信息系统（CIS）研制者讨论的重点、关心的热点和开发的难点。不难发现，几乎国内所有的实际运行或大范围推广的CIS都具有所谓的“任意组合条件查询”的功能，并且取得了一定的运行效果。但是，对于相当数量的CIS而言，所谓“任意组合条件查询”机制或多或少存在以下问题：
+　　（1）对于终端用户要求熟悉整个系统的数据库结构的设置，掌握数据库查询表达式或SQL语句的构造，这显然是不合理的。
+　　（2）组合界面的控制问题。对于由控件实现的组合条件工作窗口，缺乏表达式组合顺序的精确控制、组合字段选择的无误性约束机制、输入查询值的有效检查、查询字段与查询值匹配问题的适时判定等，从而影响着查询系统的正常运行。
+　　（3）对于用户构造表达式的完整性、有效性由于无法在提交DBMS执行查询操作前进行检查，这就要求终端用户具有根据DBMS出错提示重新构造查询表达式的能力，这对于办公业务娴熟的非计算机专业用户而言，要求显然是过高了。
+　　（4）表达式的构造能力问题。表达式不允许使用括号，查询能力不能满足用户的需求。FIMSKITS（OFfice Information System Kits）是笔者研制开发的具有功能集成化、操作非过程化、可嵌入任何开发环境或编程语言的智能化工具箱（智能积木箱）。其中，面向泛关系接口的、支持按照类汉语方式进行表达式组合的查询器由查询模式维护（FFINDKIT）和模式驱动（FIMSFIND）二套工具配合使用。本文主要讨论FIMSFIND终端用户接口的类汉语化界面、查询操作模式的FIMSKITS脚本语言FimsScript的描述、查询操作模式定义等方面的问题。
+1 类汉语组合查询器的用户操作界面
+　　FFINDKIT主要作用是把系统开发人员使用脚本描述语言FimsScript定义的文本类查询操作模式TQOS生成可由FIMSFIND直接运行的查询操作模式QOS，QOS逻辑上定义了一组基于Windows操作系统的可执行程序的集合，可由FIMSFIND驱动完成特定的任务。FFINDKIT功能如图1所示。
+
+图1 FIMSFIND查询模式维护工具与FFINDKIT功能示意图
+　　查询操作模式QOS逻辑上可以定义任意多个查询操作过程，实际使用中，1个设有数千项查询功能的CIS通常只需1个QOS模式（文件）即可。FIMSFIND较为突出的特点是为终端用户提供了类汉语化的任意组合条件查询的工作窗口（如图2所示）。
+
+图2 FFINDKIT任意组合条件查询工作窗口
+　　从图2可以看出，FIMSFIND实现查询操作界面的类汉语化包括可组合的查询项、关系运算符、逻辑关系符等多方面的类汉语化，其查询操作类汉语化的过程由FIMSFIND实现，而整个界面的组合内容、完整性限制等方面的综合设置通过查询模式的构造来完成。
+2 查询操作模式基本单元的FimsScript描述
+　　QOS主要是由查询项、查询单元、数据查询源、输出视图等描述信息组合的包（PACKAGE）构成，1个QOS可以包含多个包。相关的TQOS脚本描述可简述如下：
+　　（1）查询包。TQOS以查询包为逻辑单元，1个包可聚集任意多个查询单元，FIMSFIND以包实现封装，包体内可以定义全局对象、局部对象等。1个QOS文件可以包含任意多个查询包。其格式为： 
+　　PACKAGE ＜查询包名＞ IS QUERY
+　　　　　　＜查询包体＞
+　　END PACKAGE
+　　（2）数据查询源和输出视图的定义。为了实现数据库访问的物理无关性和逻辑无关性，FIMSKITS引入敛使用了泛关系模式的概念[2][3]，提供了泛关系模式管理工具箱，允许用户建立基于多个数据库模式的泛关系操作模式（UROS），借助于UROS，查询操作模式中引用的整个数据库的所有属性集合可以作为唯一关系模式上的单一关系对待，数据查询源和输出视图通常在UROS中定义，供TQOS引用。例如：
+　　INPUT RELATION IS rminrel ／／指定查询单元的
+　　　　　　　　　　　　　　／／缺省数据查询源
+　　OUTPUT VIEW IS rmoutview ／／指定查询单元的缺
+　　　　　　　　　　　　　／／省输出视图
+　　（3）代码类字段和拼音码联想字段输入对象的定义。FIMSKITS的代码表、面向字段的汉字联想输入环境的定义由其它工具承担［4］［5］，TQOS只需作为对象引用即可。
+　　STATIC CODEOBJECT IS rmcode ／／静态缺
+　　　　　　　　　　　　　　　／／省代码对象
+　　DYNAMIC FIELDOBJECT IS rmfield ／／面向
+　　　　　　　　／／数据库字段的联想输入对象名
+　　（4）静态查询项（SQI）的定义。静态查询项为1个不包含任何待输入量的有效查询表达式，SQI在包内可以作为全局常数使用，主要用于组合静态、动态及组合查询单元。TQOS把多个SQI定义为1个静态查询项体（SQIB），即1个SQIB可以包含任意多个SQI，1个查询包内可以包含多个SQIB，把1个TQIB分解成多个TQIB语义上并无差别，只不过是为了编写脚本方便而已。逻辑上，所有TQIB作为1个TQIB看待。
+　　（5）动态查询项（DQI）的定义。动态查询项为包含1个（且必须包含）待输入量的有效查询表达式。除定义中必须指定待输入量的类型和长度外，DQI及动态查询项体（DQIB）的定义、概念等与SQI（SQIB）基本类似。
+　　（6）可组合查询项（CQI）的定义。CQI以泛关系的属性定义可组合项目。
+3 查询操作模式的构造
+　　在QOS的同一包内所有SQI、DQI和CDI均为全局变量，可以作为查询操作单元的构件，FIMSFIND的查询单元是由查询项集或者多个查询项用逻辑关系符（AND和OR）关联而成的查询表达式、表达式构造规则、查询标题、查询数据源、输出视图、引用标识等信息项构成的逻辑集合。查询单元的类别由指定或逻辑上隐含指定的查询表达式所包含的查询项来决定，当只包含SQI项时，称为静态查询单元（SQU）；当包含SQI和DSI（至少包含1个DQI）时，称为动态查询单元（DQU）；当至少包含1个CQI时，称之为组合查询单元（CQU）。下面给出1个简化的查询脚本，脚本中附有注释，本节不再赘述。
+PACKAGE GBRMQUERY IS QUERY
+　　／／窗口对象、库对象、视图对象、代码对象等定义（略）
+　　DYNAMIC WINDOWS IS dywin ／／指定动态查询单
+　　　　　　　　　　　　　　／／元的缺省工作窗口
+　　COMPOSE WINDOWS IS cowin ／／指定组合查询单
+　　　　　　　　　　　　　／／元的缺省工作窗口
+　　INPUT RELATION IS rminrel ／／指定查询单元的缺
+　　　　　　　　　　　　　　／／省泛关系
+　　OUTPUT VIEW IS rmoutview ／／指定查询单元的缺
+　　　　　　　　　　　　　／／省输出视图
+　　STATIC CODEOBJECT IS rmcode ／／定义查询项相
+　　　　　　　　　　　　　　　／／关的静态缺省代码对象
+　　DYNAMIC FIELDOBJECT IS rmfield ／／定义面向数
+　　　　　　　　　　　　　　　　／／据库字段的联想输入对象名
+　　STATIC CONDITION ITEMS ARE DEFINED AS
+　　　　　　　　　　　　　／／定义静态查询项集合
+　　　S010（军官）：FOR JGW＝［1］
+　　　S040（正军）：FOR ZWD＝［04］
+　　　S490（军部级）：FOR（（ZWD＞＝［04］．AND．ZWD＜＝［05］）
+　　　　　　　　　　．OR．（ZWD＞＝［54］．AND．ZWD＜＝［55］））
+END STATIC
+／／定义动态查询项集合
+DYNAMIC CONDITION ITEMS ARE DEFINED AS
+　　D100（入伍起始年月）：DATE（7） FOR RWS＞＝﹖
+　　D110（入伍截止年月）：DATE（7） FOR RWS＜＝﹖
+　　D850（各层次军衔调整年月）：DATE（7） FOR（（JXW＞＝
+　　　　［33］．ADN．WHC＞［3］．AND．AGE（﹖，JXS） ＞＝3）．
+　　　　 OR．（JXW＝［33］．AND．WHC＜＝［3］．AND．AGE（﹖，
+　　　　JXS） ＞＝2）．OR．；（JXW＜＝［32］．AND．JXW＞＝［22］．
+　　　　AND．AGE（﹖，JXS） ＞＝4））
+　　END DYNAMIC
+　　COMPOSE CONDITION ITEMS ARE DEFINED AS
+　　　　　　　　　　　　　／／定义可组合查询项集
+　　　C410（职务等级）：CHAR（2） HELP（″19″，rmcode，
+　　　　　　　　　TAIL，HEAD，STATIC） FOR ZWD﹖
+　　　C420（单位名称）：CHAR（40） HELP（″dwm″，rmfield，
+　　　　　　　　　　　　　　　　　　　　　　DYNAMIC）
+　　　C430（现职时间）：DATE（7） FOR ZWS﹖
+　　　C450（技术级）：CHAR（2） HELP（″37″，rmcode，TAIL，
+　　　　　　　　　　　　　　　HEAD，STATIC） FOR JSJ﹖
+　　　C470（技级时间）：DATE（7） FOR JSS﹖
+　　　C710（在编情况）：CHAR（1） HELP（″28″，rmcode，
+　　　　　　　　　　TAIL，HEAD，STATIC） FOR ZBQ﹖
+　　　C720（是否领导）：CHAR（1） HELP（″54″，rmcode，
+　　　　　　　　　　TAIL，HEAD，STATIC） FOR SLD﹖
+　　END COMPOSE
+　　QUERY SET IS DEFINED AS 　　　／／下面定义查询集合
+　　　　CREATE QUERY 1．3．1 AS ／／定义一个静态查询单元，
+　　　　　　　　　　　　　　　／／输入、输出视图使用缺省
+　　　　　TITLE IS ″正军职查询″
+　　　　　WHERE S010．AND．S040 ／／查询表达式
+　　　　END CREATE
+　　　　CREATE QUERY 1．3．2 AS ／／定义一个动态查询单
+　　　　　　／／元，工作窗口、输入、输出视图等均使用缺省指定
+　　　　TITLE IS ″按入伍时间查询正军情况″
+　　　　WHERE S010．and．S040．and．D100．and．D110
+　　END CREATE
+　　CREATE QUERY 1．3．3 AS ／／同查询单元1．3．2
+　　　　TITLE IS ″各层次军官军衔调整查询″
+　　　　WHERE S010．and．D850．and．D900．and．D910
+　　END CREATE
+　　CREATE QUERY 1．A WITH COMPOSE AS ／／定义
+　　　　　　　　／／一个可组合的查询单元，工作窗口、
+　　　　　　　　　　　／／输入、输出视图使用缺省指定
+　　　　TITLE IS ″军官职务任意组合条件查询″
+　　　　PREFIX EXPRESS IS （S010．and．D100．and．D110）
+　　　　　　　　　　　　　　／／组合条件的前置表达式
+　　　　WHERE C410，C430，C450，C470，C710，C720｝
+　　　　　　　　　　　　　　　　　／／指定组合项集合
+　　　　END CREATE
+　　　END QUERY SET
+　　END PACKAGE
+　　借助于虚拟机（VM）的概念，FIMSKITS引入了泛关系模式（URS）［1］［2］［3］的机制，对于多功能查询器FIMSFIND，URS相当于1个虚拟数据库管理系统（VDBMS），从数据库用户角度看，VDBMS整个数据库中所有属性的集合构成1个关系模式，所有数据都是由这唯一关系模式上的结构化数据集合构成，借助于FIMSFIND，经典关系数据库复杂的查询演算都可以转换为对于URS进行按条件选择的简单操作。以FIMSFIND为主要部件的FIMSKITS工具箱，由TurboC开发的约150多个功能积木构成，以VC＋＋进行面向Windows操作系统的移植转化工作已基本完成，其中，FIMSFIND新增了面向多媒体的自学习检索和索引功能，取得了较为理想的运行效果。
+刘秉毅（西安第四军医大学生物医学工程系710032）
+参考文献
+［1］Kifer M，Lozinskii E L．On compile－time optimization in deductive database by means of static filtering．ACM Tran on database systems，1990；15(3):385
+［2］Atzeni P．Updating relational database through weak instance interface．ACM Tran on Database Systems，1992；17(4)：718
+［3］L．lee D．Document ranking on weight－partitioned sig－nature files．ACM Tran on information systems，1996；14(2):109
+［4］刘秉毅．文本对象查询的相关性计算．小型微型计算机系统．1995；16(7):26
+［5］刘秉毅，屈景辉．医学数据库的面向对象数据模型．西安：第四军医大学学报，1999；20（3）：228
+收稿日期：1999－12－10

@@ -1,0 +1,140 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第2期 No.2 1999
+
+
+
+FCC废催化剂对水中铜(Ⅱ)的吸附
+陈芳艳　张洪林　唐玉斌　蒋林时　赵庆祥
+　　摘要：利用FCC(流化催化裂化)废催化剂吸附去除废水中的Cu2+,考察了振荡时间、温度和pH值对Cu2+在FCC废催化剂上吸附效果的影响,探讨了吸附机理,并对连续吸附及吸附剂可再生性作了考察.结果表明,振荡时间、温度及pH值对Cu2+的吸附效果影响较大.Cu2+在FCC废催化剂上的吸附符合Freundlich和Langmuir模式,吸附呈单分子层形式且易进行,吸附机理是靠静电引力发生交换吸附及化学键力形成羟基络合物而吸附.结果还表明,Cu2+的连续吸附操作可行,吸附剂易于再生.
+　　关键词：FCC废催化剂；铜离子；吸附；热力学；机理
+　　中图分类号：X703　　文献标识码：A　　文章编号：1000-6923(1999)02-0153-04
+Adsorption of Cu2+ onto waste FCC catalyst.
+CHEN Fang-yan　ZHANG Hong-lin　TANG Yu-bin　JIANG Lin-shi　ZHAO Qing-xiang
+(1.Research Institute of Environmental Engineering,Fushun Petroleum Institute, Fushun 113001, China；2.Institute of Resources and Environmental Engineering,East China University of Science and Technology,Shanghai 200237,China).China Environmental Science.1999,19(2)：153～156
+Abstract：The adsorption of waste FCC(Fluidized Catalytic Cracking) catalyst was used to remove Cu2+ in the waste water.The effect of shaking time,temperature and pH value on the adsorption of Cu2+ onto waste FCC catalyst was inspected. The mechanism for the adsorption was studied. The column test and the regeneration of the adsorbent were inspected too. The results indicate that shaking time, temperature and pH value are the main factors to affect adsorption of Cu2+. The adsorption of Cu2+ onto waste FCC catalyst is classified to mono-molecular type, which can be well described by Freundlich and Langmuir models.Cu2+ is easy to be adsorbed by the adsorbent. The mechanism for the adsorption is: Cu2+ is adsorbed by cation exchange or the formation of hydroxo complex. The successive operation for adsorption of Cu2+ is feasible. The adsorbent is easy to be regenerated.
+Key words：waste FCC catalyst；copper cation；adsorption；thermodynamics；mechanism
+　　含铜废水主要来自冶金、电镀、染料等工业生产过程.其排入水体后,可通过食物链被水生生物大量富集,人体摄入过量铜会导致腹痛、呕吐、肝硬化等症状.铜在土壤和作物中累积会使作物枯死,还会使水体自净作用受到抑制[1],因此,含铜废水必须经过严格处理才可排放.本文利用FCC废催化剂吸附去除废水中的Cu2+,试图以废治废,既为废催化剂的综合利用开辟新途径,又可降低含铜废水处理成本.
+1 材料及方法
+1.1 实验材料
+1.1.1 主要仪器及试剂 WFX-IB2型原子吸收分光光度计(北京第二光学仪器厂)；HY-2型调速振荡器(深圳国华仪器厂)；PXD-3型数字式离子计(江苏电分析仪器厂)；CuSO4.5H2O、KHC8H4O4、Na2B4O7.10H2O均为分析纯.
+1.1.2 FCC废催化剂 取自抚顺石油二厂催化裂化装置,用前在110℃下烘干.
+1.2 实验方法
+水样采用分析纯CuSO4.5H2O人工配制.
+1.2.1 静态吸附实验 取200mL一定浓度的含铜水样于250mL碘量瓶中,加入5g烘干的废催化剂,以120rpm的速率定时振荡后抽滤,测定滤液中残留铜浓度,计算吸附量和去除率.
+1.2.2 动态吸附实验 将一定浓度水样连续注入装有FCC废催化剂的内径为2.2cm的吸附柱,控制一定的过柱速率,定时测定流出液浓度.
+1.2.3 分析方法 pH值采用玻璃电极法测定；水中铜含量采用原子吸收分光光度法测定.
+2 结果与讨论
+2.1 静态吸附影响因素
+2.1.1 吸附平衡时间的确定由吸附速率试验可知,在常温15℃,原水pH值为5.66时,溶液浓度为50mg/L和200mg/L的Cu2+分别经30min和60min达到吸附平衡.为确保吸附达到充分平衡,吸附平衡时间定为2h.
+2.1.2 原水pH值对吸附效果的影响 原水浓度为50mg/L时,不生成铜的氢氧化物沉淀,只存在吸附作用的临界pH值为5.93,在pH值小于5.93、水温为15℃时,pH值对Cu2+吸附去除率的影响见表1.
+　　由表1可见,铜离子的吸附去除率随着pH值升高而增大.这是由于H+与Cu2+之间存在竞争吸附作用,当原水pH值较高时,H+浓度较低,H+的竞争吸附能力减弱之故.
+表 1 pH值对Cu2+去除率的影响
+Table 1 The effect of pH value on the rate ofremoval of Cu2+
+
+原水pH值去除率(%)原水pH值去除率(%)
+2.0613.15.0161.4
+3.0132.55.6664.9
+4.0553.6--
+
+
+　　2.1.3 温度对吸附效果的影响 原水浓度为50mg/L、pH值为5.66时,温度对Cu2+吸附效果的影响见图1.
+
+
+图 1 Cu2+的吸附容量与温度的关系
+Fig.1 The relation between adsorptive capacities and temperature
+　　模拟图1表明, Cu2+的吸附容量随温度升高而增大,这说明吸附主要是靠化学键力作用来实现的,提高温度使更多Cu2+获得所需的吸附活化能,因而提高温度对吸附有利.
+2.2 等温吸附
+2.2.1 吸附等温线 原水pH值为5.66时,室温(15℃)和50℃下得到的吸附等温线见图2.
+
+
+图 2 Cu2+的吸附等温线
+Fig.2 Adsorption isotherms of Cu2+
+　　图2所示的等温线形状,按照Giles等人对液相吸附等温线的分类应属于L2型[2],可用Langmuir及Freundlich吸附模式进行模拟.
+2.2.2 吸附规律的Langmuir模式拟合 Langmuir模式的线性形式为:
+ (1)
+式中:q为吸附容量(mg/g)；q0为极限吸附容量(mg/g)；b为吸附常数；Ce为平衡浓度(mg/L).
+　　将图2的数据按(1)式拟合,结果见表2.
+表 2 Langmuir 线性拟合结果
+Table 2 The linear results fitted by Langmuir model
+
+温度(℃)线性回归方程相关系数Rq0b
+15Ce/q=2.4094+0.5953Ce0.99811.6800.247
+50Ce/q=1.9278+0.5403Ce0.99751.8500.280
+
+　　从表2可见,Ce/q与Ce的线性相关性良好,证明吸附规律符合Langmuir模式,吸附呈单分子层形式.还可看出,随着温度升高,饱和吸附容量q0及吸附常数b的值均增大,表明吸附能力随温度升高而增强.
+2.2.3 吸附规律的Freundlich模式拟合 Freu-ndlich吸附模式的线性形式为:
+ (2)
+式中:Kf和n为吸附特征常数.
+　　将图3的数据按(2)式拟合,结果见表3.
+表 3 Freundlich模式拟合结果
+Table 3 The linear results fitted by Freundlich model
+
+温度(℃)线性回归方程相关系数RKf1/n
+15lgq=-0.1363+0.1773lgCe0.99070.73060.1773
+50lgq=0.0094+0.1190lgCe0.99511.02190.1190
+
+　
+　由表3可见,吸附规律也符合Freundlich模式,且1/n值介于0.1～0.5之间,说明吸附容易进行[3].
+2.3 等量吸附热的计算及吸附机理探讨
+　　吸附热的数值可用来评价吸附质和吸附剂之间作用力大小和种类,并为判断吸附机理提供有价值的信息.对于一种吸附反应,平衡常数K(K=1/Ce)随绝对温度T的变化按克劳修斯-克拉贝龙方程[4]表示为:
+ (3)
+式中:为吸附前后焓变,即吸附热.
+对(3)式进行积分得到方程:
+ (4)
+式中: 为等量吸附热.
+　　由图2所示的等温线,取不同覆盖度θ(θ=q/q0),从同一吸附量处引一平行于横轴的直线与两条等温线相交,把两交点对应的吸附平衡浓度、代入(4)式,求得的等量吸附热列于表4中.
+表 4 Cu2+在FCC废催化剂上的吸附热计算结果
+Table 4 The adsorption heat of Cu2+on the waste FCC catalyst
+
+q0 (mg/g)覆盖度θq(mg/g)C1e(mg/L)C2e (mg/L) (kJ/mol)
+0.61.122.18.731.98
+1.8500.751.3911.037.627.18
+0.851.5741.5109.821.53
+
+　　
+　　由表4可见,Cu2+的吸附热随覆盖度增大而减小,这与有关吸附理论相一致.还可看出,吸附热为正值,可见吸附为吸热过程.考虑到吸附为单分子层形式,将此与吸附热数值相联系,可以认为,Cu2+的吸附主要以化学吸附和离子交换吸附为主.吸附机理为:一方面靠化学键力作用, Cu2+在废催化剂载体中的氧化物表面形成羟基络合物而吸附[5].另一方面靠静电引力,Cu2+在FCC废催化剂内外表面上发生交换吸附.
+2.4 动态吸附与脱附
+2.4.1 动态吸附曲线 15℃时,将17g废催化剂装入内径为2.2cm的吸附柱,填充高度为5.5cm,Cu2+溶液初始浓度为100mg/L,pH值为5.13,以5.0mL/min速率过柱,测定流出液中Cu2+浓度,结果见图3.
+
+
+图 3 Cu2+的动态吸附曲线
+Fig.3 Dynamic adsorption curve of Cu2+
+　　在动态吸附试验中,当流出液中Cu2+浓度与进口样液Cu2+浓度相同时,即达到吸附饱和点,从而可计算出动态饱和吸附容量.试验得到的动态吸附容量为1.62mg/g.
+2.4.2 吸附剂的再生与再吸附 15℃下,将2N的稀盐酸水溶液以2.0mL/min的速率连续注入经上述已吸附饱和的吸附柱,对吸附剂进行脱附再生,其脱附透过曲线见图4.图4表明,经盐酸处理后,Cu2+可被洗脱下来,洗脱液中浓度较高的铜离子可采用化学沉淀法或电化学法去除.
+
+
+图 4 Cu2+的脱附透过曲线
+Fig.4 Dynamic desorption curve of Cu2+
+　　再生后的废催化剂对Cu2+的动态吸附结果见表5.
+表 5 再生后的废催化剂对Cu2+的动态吸附效果
+Table 5 The efficiency of dynamic adsorption of Cu2+on regenerated waste catalyst
+
+操作时间
+(min)流出液浓度
+(mg/L)操作时间
+(min)流出液浓度
+(mg/L)
+100.085042.9
+203.146063.5
+3015.77079.2
+4028.68091.6
+
+注:条件同图4
+　　从表5可见,再生后的废催化剂对原水浓度为100mg/L的Cu2+吸附80min即达饱和点,而从未用过的废催化剂在同样条件下要经240min才达到饱和点,可见脱附后的吸附剂再吸附能力有所减弱,这与脱附剂浓度相对较低以及Cu2+原水浓度相对较高有关.
+3 结论
+3.1 吸附容量随温度升高、pH值增大而增大.
+3.2 吸附规律可用Langmuir和Freundlich模式模拟,吸附呈单分子层形式且容易进行.
+3.3 吸附为吸热过程,吸附机理一是Cu2+在废催化剂内外表面上发生交换吸附；二是Cu2+在废催化剂载体中氧化物表面形成羟基络合物而吸附.
+3.4 动态吸附操作可行,吸附剂易于再生.
+基金项目：中国石油化工总公司资助项目(196135)
+作者单位：陈芳艳　张洪林　唐玉斌　蒋林时　抚顺石油学院环境工程研究所,辽宁 抚顺 113001
+　　　　　赵庆祥　华东理工大学资源与环境工程学院,上海 200237
+作者简介：陈芳艳(1967-),女,湖南祁东人,工学硕士,抚顺石油学院环境工程研究所讲师.主要从事水污染控制与资源化方面的研究.曾参与完成中国石化总公司资助项目“催化裂化废催化剂的中毒机理及综合利用研究”、“渣油催化裂化废水脱酚预处理技术研究”和“炼油厂三泥综合处理研究”等项课题.发表论文6篇.
+收稿日期：1998-08-10
+参考文献：
+　[1]徐根良,肖大松,肖敏.重金属废水处理技术综述[J].水处理技术,1991,17(2):58-77.
+　[2]叶振华.吸着与分离过程基础[M].北京:化学工业出版社,1988.72-74
+　[3]陈季华,奚旦立,杨大通.废水处理工艺设计及实例分析[M].北京:高等教育出版社,1990.120-121.
+　[4]全燮,薛大明,赵雅芝等.近海沉积物组份对有机物的吸附与吸附机理探讨[J].中国环境科学,1996,16(2):81-85.
+　[5]Marc A Anderson,Alan J Rubin.刘连生等译.水溶液吸附化学—无机物在固液界面上的吸附作用[M].北京:科学出版社,1989.146-152.

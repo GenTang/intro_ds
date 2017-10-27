@@ -1,0 +1,44 @@
+北京农业科学
+BEIJING AGRICULTURAL SCIENEES
+1999年 第17卷 第2期 Vol.17 No.2 1999
+
+
+
+普通小麦外源有益基因
+易位导入不同方法的评述
+樊　路　李军辉
+　　解决当今小麦育种材料贫乏最有效最实用的方法就是从小麦的近缘种属中以染色体易位方式导入有益基因[1]，因而各国科学家对外源有益基因易位导入方法的研究十分重视，创建和发展了不同导入方法[2～5]。其中包括：射线处理，诱导普通小麦与其近缘种属的部分同源染色体配对，单价体错分裂后的融合(罗伯逊氏易位)，组织培养诱导，杀配子基因诱导等。这些方法在外源导入中有一定的适用范围，同时也各自有其优点和不足。但到目前为止还没有文章对其做全面的比较分析与评估。而正确地比较分析与评估它们对于外源有益基因导入最适方法的选择，提高导入的效率和准确性，具有重要的参考价值。本文即是有关这些方法的一个评述。
+1　通过诱导普通小麦与其近缘种属间的部分同源染色体配对
+　　主要是通过除去普通小麦的染色体5B，抑制Ph1基因的作用以及利用Ph1及Ph2基因的突变体ph1b、ph2a、ph2b等，使普通小麦与其近缘种属的部分同源染色体配对、交换把外源有益基因导入到普通小麦中[6～9]。
+　　这种外源有益基因导入的方法，首先是被导入的有益基因要在普通小麦较近的近缘种属中，而不是太远的近缘种属中，它们与普通小麦的c值(平均染色体配对频率)至少在中等以上[10]。另外，有益基因只能从所在的染色体转移到相应的普通小麦部分同源染色体上，也就是这种转移仅限于部分同源染色体之间。同时，这种导入在一定程度上受部分同源染色体配对水平以及配对后交换频率高低所制约。
+　　这一方法最大的优点是：第一，使染色体易位具有一定的方向性和可操作性。例如，通过诱导黑麦1R染色体与普通小麦1A染色体配对，交换，可以把1R上的有益基因转移到1A染色体上。第二，在于它的补偿作用，由于易位发生在较近的近缘种属与普通小麦的部分同源染色体之间，所以较近的近缘种属的染色体片段可以很好地补偿普通小麦缺失的染色体片段，使获得的易位系具有更好的生活力，遗传稳定性和良好性状[1]。这种易位系便于在育种上利用。
+2　通过射线处理、组织培养和杀配子基因诱导的染色体易位外源导入
+　　主要是通过X、γ射线照射，组织培养诱导以及杀配子基因的诱导等使普通小麦和小麦近缘种属的染色体都发生断裂，然后随机进行拼接，形成普通小麦与近缘种属间的染色体易位，同时把近缘种属的有益基因导入到普通小麦中[11，12]。
+　　这些方法与诱导配对转移相比，最大的优点是可以从更远的近缘种属中导入有益基因，而且可以把有益基因从非同源染色体中转移到普通小麦任何一条染色体上去。
+　　它们的最大缺点是，转移方向性难以控制，具有很大的随意性，同时获得易位系具有遗传不平衡性，因为这种易位常造成小麦染色体片段的缺失(deficiency)以及外源染色体上基因与小麦染色体上的基因的重复(duplication)，因而也大大影响了这种易位系的开发与利用价值[9]。E.R.Sears曾用射线处理方法获得了17个普通小麦—Ae.umbellulata易位系仅仅一个是可用的[14]。所以，利用这些方法进行外源导入时，应获取较多的易位系，再在其中选择更适宜开发利用的。
+　　P.J.Larkin等也早就通过组织培养诱导的方法把Ag.intermedium的大麦抗黄矮病基因〔barley yellow dwarf virus gene(s)〕以易位方式转移到了普通小麦中[15]。但至今未见应用报道。
+3　由单价体(univalent)错分裂(misdivision)后的融合。
+　　主要是通过一定技术，使在普通小麦与其近缘种属的杂种中，在减数分裂时形成普通小麦单价体和其近缘种属单价体。这些单价体都有发生错分裂的倾向，形成各自的端着丝点染色体，这些新形成的端着丝点染色体，在着丝点处结合，形成一个普通小麦臂和一个近缘种属的染色体臂的易位染色体[16～19]。同时把近缘种属的有益基因转移到普通小麦中。
+　　通过这种易位方法，既可以把较远的近缘种属也可以把较近的近缘种属有益基因导入到普通小麦中。在一定情况下，我们首先做成一定的普通小麦单价体及特定的近缘种属单价体，可以使导入有益基因具有一定的方向性和可操作性。这是这一方法的优点。
+　　这种导入方法最大的缺点在于，由于近缘种属的整个染色体臂都到了普通小麦中，同时也会带入较多的不利基因，同时整个染色体臂的存在，对遗传稳定性也会造成一定影响。另外还有一点，就是本来有些单价体错分裂的频率就不高，再加上着丝点重新结合的频率也低，因而利用这种方法导入外源基因效率也是比较低的[3]。
+作者单位：樊　路　李军辉(中国农业科学院作物育种栽培研究所　100081)
+参考文献
+　[1]　Jiming J,Friebe B and Gill B S.Recent advances in alien gene transfer in wheat.Euphytica,1994,73:119～122
+　[2]　Sears E R.Transfer of alien genetic material to wheat.In: Wheat Science-Today and Tomorrow.Evance L T and Peacock W J,1981,75～89
+　[3]　Sears E R.Chromosome engineering in wheat.Stadler Genet Symp,1972,4:23～38
+　[4]　Sharma H C and Gill B S.Current status of wide hybridization in wheat.Euphytica 1983,32:17～31
+　[5]　樊路，韩敬花，潘淑婷.小麦族(Triticeae)外源有益基因导入的现状.北京农业科学，1993，11(1)：16～22
+　[6]　Sears E R.An induced mutant with homoeologous pairing in wheat.Can J Genet Cytol,1976,19:585～593
+　[7]　Ceoloni C,Ttio B,Palneri,E.Spindle sensitivity to colchicine of wheat mutants at the Ph2 locus.Genetica Agraria,1985,39:317～318
+　[8]　樊路，韩敬花.普通小麦中一个诱导中等水平的部分同源配对突变体 - ph2突变体.国外农业科技，1986，5:5～6
+　[9]　樊路，韩敬花.小麦(T.aestivum)中的抑制部分同源配对的主要基因 - Ph1(Ph).北京农业科学，1992，10(1):26～29
+　[10]　Kimber G.Genetic relationship in Triticum and the availability of alien germplasm.In:Biodiversity and Wheat Improvement.Damania A B,1993,9～16
+　[11]　Lapitan N L V,Sears R G and Gill B S.Translocation and other karyotypic structural changes in wheat x rye hybrids regenerated from tissue culture.Theor Appl Genet,1984,68:547～554
+　[12]　Endo T R.Chromosome mutation induced by gametocidal chromosome in common wheat.Proc 7th Int.Wheat Genet Symp.1988,259～265
+　[13]　樊路.以染色体易位的方式从小麦近缘种属转移有益基因到小麦中的几个问题.北京农业科学，1997，15(1)：6～8
+　[14]　Sears E R.The transfer of leaf rust from Hegilops umbellulata to wheat.Bro ckhaven Symp Bilo,1956,1:1～21
+　[15]　Larkin P J,Spindler L H and Banks P M.The use of cell culture to restruetu re plant genomes for introgressive breeding,In:Proc 2nd Chromo Engi in Plants.Kimber G.1990,89～90
+　[16]　樊路，韩敬花.普通小麦减数分裂中单价体的错分裂.细胞生物学,1987，2：60～62 
+　[17]　樊路.九个中国北部普通小麦品种(T.aestivum)同源转化群5单体单价体在减数分裂后期I时的错分裂.作物学报,1986，(1)：21～29
+　[18]　Lima-de-Faria A.The role of the kinetochore in chromosome organization.Here ditas,1956,42:85～95
+　[19]　Sears E R.Chromosome engineering in wheat.Stadler Symposia,1972,23～38

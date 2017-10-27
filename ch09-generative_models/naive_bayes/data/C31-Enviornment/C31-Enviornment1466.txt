@@ -1,0 +1,69 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+溶胶－凝胶工艺制备掺铅TiO2纳米薄膜
+及其光催化性能的研究
+王幼平　余家国　赵修建　石柱明　（武汉工业大学材料学院，武汉 430070 ）
+文　摘　 通过sol-gel 工艺在玻璃表面制得了均匀透明的掺铅和未掺铅TiO2纳米薄膜；在宏观上，膜层表面光滑平整;在微观上，TiO2薄膜由TiO2球形颗粒组成，其颗粒大小在50～150nm范围内。掺铅TiO2镀膜玻璃在紫外光附近的透光率明显小于未掺铅TiO2镀膜玻璃的透光率，这说明掺铅TiO2镀膜玻璃对紫外光具有明显的吸收。敌敌畏水溶液的光摧化降解实验表明，掺铅TiO2镀膜玻璃对有机磷农药的光解率明显高于未掺铅TiO2 镀膜玻璃的光解率。这为进一步提高TiO2的光催化效率开辟了新的途径。
+关键词　溶胶－凝胶工艺　薄膜　掺铅　纳米氧化钛颗粒　光催化
+Preparation of nanometer Pb-doping TiO2 thin film by sol-gel processing and its photocatalytic properties .Wang Youping，Yu Jiaguo，Zhao Xiujian，Shi Zhuming(College of Materials ,Wuhan University of Technology, Wuhan 430070).China Environmental Science.1998,18(3):244～247
+Abstract—The evenly transparent nanometer Pb-doping TiO2 and common TiO2 thin films deposited on glass substrates were prepared by sol-gel processing in this study. The diameters of the TiO2 particles in the coatings were in the range of 50～150 nm.In ultraviolet spectra，the transmittance of the glass coated with Pb-doping TiO2 was lower than that of the glass coated　with TiO2,which showed that the former appeared good adsorption in ultraviolet spectra . One organophosphorous insecticide-dimethyl-2,2-dichlorovinyl phosphate (DDVP) in its aqueous solution was degraded in the presence of the glass coated with TiO2 by illumination with a high pressure mercury lamp.Photocatalytic degradation indicated that photodegradation rate of the glass coated with Pb-doping TiO2 was superior to that of the glass coated with TiO2,which will probably become a new method for improving the photocatalytic efficiency of TiO2.
+Key words: sol-gel processing　thin film　Pb-doping　nano-titania particle　photocatalytic
+　　 TiO2作为一种光催化剂，越来越受到人们的重视。利用TiO2、ZnO等半导体对有机污染物进行光催化降解，最终生成无毒无味的CO2、H2O及一些简单的无机物，正逐渐成为工业化技术〔1〕，这为环境污染的消除开辟了广阔的前景。
+　　当TiO2受到波长小于387.5nm的紫外光照射时，价带上的电子跃迁到导带上，从而产生电子（e）－空穴（h+）对，但h+很容易与e复合，降低紫外光的利用率〔2〕。若体系中存在Pb2+，作为电子的接受体，可降低h+、e的复合率，从而提高TiO2的光催化效率。
+　　由于薄膜TiO2和粉末TiO2相比，具有无二次污染，可重复使用等优点。本文采用sol-gel工艺，通过浸渍提拉法在普通玻璃表面获得了均匀透明的掺铅TiO2纳米光催化薄膜，有关这方面的工作在国内外文献中还没有具体报道，本研究的目的是为开发新型高效自洁玻璃作些探索，研究了掺铅和不掺铅TiO2镀膜玻璃的光透过率，光催化降解有机磷农药的光解率及薄膜的表面形貌。
+
+1　实验部分
+　　文献〔3〕报道了Ti(OC4H9)4-C2H5OH-H2O体系的全相区，故镀膜用溶胶的组成应选择在该相图的浸渍区内。实验其溶胶的体积组成比为Ti(OC4H9)4 : C2H5OH : H2O=3 : 12 : 1。所用试剂均为分析纯，实验步骤： （1）取12mLTi(OC4H9)4滴入48mL无水乙醇中，并搅拌1h； （2）0.5 g Pb(NO3)2溶解在4mL蒸馏水中，然后逐滴加入上述溶液（1）中，如TiO2 镀层不含Pb，仅加蒸馏水，搅拌30 min； （3）在溶液（2）中加入4mL三乙醇胺作为抑制剂，继续搅拌30min，得到透明的淡黄色溶胶备用； （4）TiO2薄膜是用普通玻璃载玻片作基片从溶胶前驱体中采用浸渍提拉法制备的，提拉速度为5cm/min，湿膜在100℃热处理5min后可重复提拉，重复提拉10次所得薄膜的厚度一般为600～800nm； （5） 最终薄膜的热处理过程：先在马弗炉里100℃下保温30min,然后将炉温按2℃/min的升温速度升至550℃，保温1h即可，这样获得的TiO2薄膜晶型为锐钛矿型〔4〕。
+　　用扫描电镜（SEM）观察了TiO2薄膜的表面状况及纳米粒子的晶粒大小。用721型分光光度计测量了镀膜玻璃在360～700nm波长范围内的透光率。
+　　光催化实验是通过125W的高压汞灯照射TiO2薄膜来分解水溶液中的有机磷农药敌敌畏（DDVP）完成的，敌敌畏中的有机磷光催化氧化后变成了无机磷酸根PO3－４阴离子，其分解过程如下〔5〕:
+
+　　水中磷酸根采用磷钒钼酸盐分光光度法测定〔6〕，即可知道有机磷农药的光解率。具体过程为：涂有TiO2薄膜的载玻片（11mm×26mm）垂直放入装有200 μg/mL浓度，2mL 的稀敌敌畏水溶液的石英器皿（41.5mm×12mm×5mm）中，石英容器放在距紫外光源10cm处，光源波长范围为320～400nm,光催化反应1h后，用磷钒钼酸盐分光光度法检测反应物的无机化程度。
+2　结果与讨论
+　　 从图1a，1b和1c的不含铅TiO2薄膜表面的扫描电镜照片可以看出，镀膜次数不同，其TiO2颗粒大小有差异，随着镀膜次数的增加，TiO2纳米颗粒有增大的趋势，1次镀和5次镀TiO2纳米颗粒的大小基本一致，为50～60nm；而10次镀其均匀性明显变差，TiO2颗粒大小范围在50～150nm。图1d表示掺铅TiO2薄膜镀10次后的表面形貌，其颗粒大小和不均匀性与不掺Pb镀10次TiO2薄膜的颗粒大小和不均匀性相当，差别在于掺铅TiO2薄膜表面的TiO2颗粒球形变模糊，可能是由于热处理时Pb离子与玻璃表面发生作用而引起的。TiO2镀膜玻璃经过550℃热处理有两个目的：一是TiO2在高温下可与玻璃表面发生化学作用，牢固地粘附于玻璃表面；另外是TiO2经过热处理1h后，其晶型变成锐钛矿型,这有利于提高TiO2的光催化效率〔5〕。
+
+a　　　　　　　　　　b　　　　　　　　c　　　　　　　　　d
+图1　TiO2薄膜表面的SEM照片
+Fig.1　SEM of the surface of TiO2 thin film
+（a、b和c分别镀1次、5次和10次，d为镀10次含铅TiO2薄膜）
+　　利用721型分光光度计测量了360～700nm 波长范围内TiO2镀膜玻璃的相对透光率，每隔10nm测量1次，实验中以空白载玻片为参比值，其透光率为100％。从图2可以看出，TiO2单层和多层镀膜玻璃的相对透光率在72％以上，单层和多层镀膜玻璃的透光率相差不大。10层TiO2薄膜的相对透光率要相对小一些，5层与1层膜透光率接近，这表明透光率与镀膜层数（或厚度）关系不大，而与TiO2颗粒在玻璃表面上的均匀性有关，从图1可以看出，5层TiO2薄膜最均匀，因而透光率最大,而10层薄膜表面上的TiO2颗粒大小明显不均匀，因而透光率最小。这可能是由于薄膜表面的TiO2颗粒不均匀性增加，入射光在玻璃表面的散射增强,因而降低了镀膜玻璃的透光率。从图3可以看出,掺铅TiO2镀膜玻璃的相对透光率曲线在紫外区附近可能有较强的吸收,其透光率相对未掺铅的TiO2镀膜玻璃要小,而在600～700nm范围内,两者的相对透光率接近。
+
+图2　TiO2镀膜玻璃的可见光透过曲线
+Fig.2　The transmissivity of TiO2-plated glass 
+in visibile spectra 
+（C1、C5和C10分别镀1次、5次和10次）
+
+图 3　掺铅TiO2镀膜玻璃的可见光透过曲线
+Fig.3　The transmissivity of the glass coated TiO2 
+Pb-doping in visible spectra
+（J5、J7和J10分别镀5次、7次和10次）
+　　从表1可以看出,TiO2薄膜层数越多,光解率也越大,但并不是呈线性关系,也不是层数无限多,则光解率可以不断提高，一般达到10层以上,光解率提高就非常小了。其原因可能是从1层膜到10层膜,其TiO2颗粒增多,参与光解反应的数量增大,故光解率提高。但高于10层以后，虽然TiO2重量增加,同时TiO2颗粒变大,导致TiO2微粒的比表面降低,活性减弱，而且内层的TiO2难以与水溶液接触，因而无限提高镀膜次数不能增大光解率。从表1还可以看出,掺铅TiO2镀膜玻璃的光解率明显高于未掺铅的TiO2镀膜玻璃,这可能是由两个方面的原因引起的,首先Pb2+的引入,Pb2+可以吸收部分光电子e（Pb2+＋e=Pb+）,从而降低了空穴h+和电子e的复合率，由此增大了光解率。另一方面，Pb2+可能与TiO2反应生成了PbTiO3,而PbTiO3的带隙能较小，从而增大了掺Pb的TiO2镀膜玻璃的吸收范围，这与前面的光透过率曲线相一致，这也增大了TiO2薄膜的光解率。
+表1　掺铅与不掺铅TiO2薄膜对敌敌畏光解率的影响
+Table 1　The effects of the TiO2 coatings containing Pb
+on the photodegradation rate of aqueous DDVP
+
+样品类型 镀膜次数 光解率（％）
+　5 7.5
+不掺铅TiO2薄膜 78.3
+　10 10.3
+　5 15.5
+掺铅TiO2薄膜 7 19.0
+　10 24.0
+
+　　从以上实验可看出，在TiO2薄膜中引入少量Pb2+可以明显提高TiO2的光解率，这为进一步提高TiO2的光解率开辟了新的途径，有关这方面的研究正在进行中。
+3　结论
+3.1　通过溶胶－凝胶工艺在玻璃表面制得了均匀透明的掺铅和未掺铅的TiO2薄膜；在宏观上，膜层表面光滑平整；在微观上，TiO2薄膜由TiO2球形颗粒组成，其颗粒大小在50～150nm范围内。
+3.2　掺铅TiO2镀膜玻璃在紫外光附近的透光率明显小于未掺铅TiO2镀膜玻璃的透光率，而两者在红光附近的透光率相近，这表明掺铅TiO2镀膜玻璃在紫外光附近具有明显的吸收，因而增大了它的光解率。
+3.3　掺铅TiO2镀膜玻璃对有机磷农药的光解率明显高于未掺铅TiO2镀膜玻璃的光解率，这为进一步提高TiO2的光催化效率开辟了新的途径。
+参考文献
+1　Ollis D F，Pelizzetti E，Serpone N. Photocatalyzed destruction of water contaminants . Environ. Sci. and Technol.， 1991,25：1522～1529
+2　Al-Ekabi H，Serpone N. Kinetic studies in heterogeneous photocatalysis. l. Photocatalytic degradation of chlorinated phenols in aerated aqueous solutions over TiO2 supported on a glass matrix. J. Phys. Chem.，1988,92：5726～5731
+3　Samuneva B，et al.Sol-gel processing of titanium-containing thin coatings. Part 1 preparation and structure. J. Mater. Sci.， 1993,28：2352～2360
+4　余家国，张联盟，彭长琪.溶胶－凝胶工艺制备二氧化钛超微细粉过程中的物相和显微结构的变化.矿物学报, 1992, 12(4):380～385
+5　Harada K，Hisanaga T，Tanaka K. Photocatalytic degradation of organophosphorous insecticides in aqueous semiconductor suspensions.Wat. Res.， 1990. 24(11)：1415～1417
+6　威廉斯W J（英）著.曲长菱译.阴离子测定手册.北京：冶金工业出版社，第1版，1987.599～600
+作者简介
+王幼平　女，1943年8月生。现为武汉工业大学材料学院副教授。主要从事有机建材的教学和科研工作。多年来，承担国家级及省部级建筑防水和建筑装饰材料的科研项目20余项，现已完成并分别获有关部门二、三等奖。专著“有机建筑材料”获全国高校出版系统三等奖。发表论文40余篇。 
+收稿日期：1997-07-31

@@ -1,0 +1,40 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+煤矸石-石灰石-纯碱烧结过程研究*
+刘小波　傅勇坚　肖秋国
+摘要　从煤矸石中提取氧化铝、并用残渣直接煅烧硅酸盐水泥熟料，同时将废气、废液循环利用，是煤矸石高附加值、低污染资源化综合利用的新工艺.通过对该工艺的煤矸石-石灰石-纯碱烧结过程固相反应历程的分析和研究，揭示了烧结过程的反应特点，并讨论了烧结温度和烧结时间对氧化铝提取率的影响.当烧结温度为1040℃、烧结时间为80 min时，氧化铝的提取率可达到最大值85.2%.
+关键词　煤矸石；烧结过程；氧化铝.
+Sintering process of coal refuse-lime stone-soda ash
+LIU Xiaobo,FU Yongjian,XIAO Qiuguo 
+(Department of Chem Eng, Xiangtan Polytechnic University, 411201)
+Abstract　A comprehensive utilization technology of coal refuse resource was proposed.Alumina was extracted from coal refuse and cement clinker was sintered directly from the residue, at the same time,the waste gas and liquid are circulated.The reaction pathway during the sintering process of coal refuselime sone-soda ash was studied.The effects of sintered temperature and time on the extracting rate were discussed.It was demonstrated that the extracting rate can reach 85.2% at 1040℃ for 80 min.
+Keywords　coal refuse,sintering process,alumina.
+煤矸石是我国排放量最大的工业废渣，其累计堆积量已经超过30亿t，而且每年还以1.5亿t的速度增长［1］.大量排放的煤矸石污染水质和空气，是影响矿区环境的主要因素之一.近几年来，我国在煤矸石资源化综合利用方面取得了许多可喜的成就［2—4］，但普遍存在资源利用不充分、经济效益低下和生产过程中二次污染等问题［5］，开发新的煤矸石利用工艺，仍然是煤矸石综合利用领域关注的热点.
+　　从煤矸石中提取氧化铝，并用残渣直接煅烧硅酸盐水泥熟料，同时将废气、废液循环利用的工艺设想提出后［6］，已引起人们广泛的关注.作为一种高经济效益、低污染的煤矸石利用工艺，它做到了煤矸石二次资源的充分、合理和综合利用，实现了有害物质的全部转化.煤矸石-石灰石-纯碱烧结过程是该工艺的核心和关键，研究其反应历程、分析过程参数的影响，对降低氧化铝的提取成本、控制残渣的矿物组成，都具有重要的意义.
+1　试验原料及工艺
+　　试验用煤矸石、石灰石、纯碱的化学组成列于表1.
+　　煤矸石、石灰石经粉碎后按CaO与SiO2分子比为2∶1的比例配料，并混合共磨.纯碱的引入比例按Na2O与Al2O3分子比1∶1确定，使之先溶于水，制成浓度为30%的水溶液，再与煤矸石-石灰石粉料混合，形成煤矸石-石灰石-纯碱混合物料.该物料经粒化、干燥后入炉烧结.
+表1　原料的化学组成
+Table 1 Chemical composition of the raw materials
+原料名称质量分数，%
+SiO2Al2O3Fe2O3CaOMgO其它烧失量
+煤矸石51.7130.220.902.220.883.4010.67
+石灰石1.160.320.3852.832.350.3442.62
+纯　碱Na2CO3含量98.81%
+物料烧结后粉碎再以清水浸取，经过滤分离出残渣和铝酸钠溶液.在铝酸钠溶液中引入二氧化碳气体，使其碳酸化分解，所得到的氢氧化铝沉淀分离后煅烧即得氧化铝，而碳酸钠溶液可实现循环应用.
+2　结果与讨论
+2.1　烧结过程的反应历程
+　　煤矸石-石灰石-纯碱烧结过程的固相反应十分复杂，对烧结物料的X射线衍射分析的结果(图1)表明，烧结后的物料中主要矿物为2CaO.SiO2，并有一定量的4CaO.7Fe2O3、CaO.Fe2O3和CaO.Al2O3生成.这说明，煤矸石-石灰石-纯碱烧结过程固相反应的历程如下.
+
+
+图1　烧结物料的XRD谱图
+Fig.1 XRD pattern of the sintered material
+首先是煤矸石中高岭石的分解：
+Al2O3.2SiO2.2H2O　　Al2O3(无定形)+2SiO2(无定形)+2H2O
+　　所产生的无定形Al2O3和无定形SiO2提高了煤矸石参与固相反应的活性.CaCO3的分解使得下列反应顺利进行：
+Al2O3+Na2CO3Na2O.Al2O3+CO2↑
+2CaO+SiO2

@@ -1,0 +1,131 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+概率分析法在污水海洋排放近区模拟中的应用
+陈 刚　钟 坚　何 强 
+摘要：污水海洋排放时需要分析排放口近区的羽流几何特性和稀释特性,概率分析法是其中重要的方法之一.本文阐述了概率分析法的基本原理,通过实例演示了概率分析法应用于污水海洋排放近区模拟分析的过程.根据概率分析法所提供的结果,总结了概率分析法的优点,即提供了排放口近区的全面信息,由此可以进行后续工作,如远区模拟和风险评估;结合实例,指出了应用概率分析法的局限,它对输入信息量和计算速度(计算工作量)的要求较高;随计算机运算速度的提高和自动监测技术的发展,应用概率分析法的这一局限可以克服,因此,概率分析法具有广阔的应用前景.
+关键词：污水海洋排放；近区；概率分析法
+中图分类号：X145 X55 文献标识码：A 文章编号：1000- 6923(1999)04- 0349- 04
+The application of probabilistic analysis approach in the near field modeling of ocean outfall. 
+CHEN Gang1,ZHONG Jian2,HE Qiang1 (1.Department of Environmental Science and Engineering, Tsinghua University, Beijing 100084, China；2.Drainage Management Bureau of Shenzhen, Shenzhen 518030, China) China Environmental Science. 1999, 19(4)：349～ 352
+Abstract：It is necessary to analyse the characteristics of the plume and initial dilution in the near field of ocean outfall. Probabilistic analysis approach is one of approaches applied in the analysis. In this paper, the principle of probabilistic analysis approach is addressed. Through a case study, how to apply this approach is demonstrated in the near field modeling of ocean outfall. From the results obtained, the merits of probabilistic analysis approach which provides a whole information of the near field,thus making the far field modeling and risk assessment available.Whereas,there exits limits in applying probabilistic analysis approach,that is, requiring a great deal of inputs and quickly computing because of the great amount of computing work. With the improvement of computing and automatic measurement, the limits of applying probabilistic analysis approach can be overcomed, and this approach can be widely used in future. 
+Key words：ocean outfall；near field；probabilistic analysis approach
+　　污水海洋排放是污水处理和处置的一种常用方法,在污水的海洋排放中,需要合理利用海洋的稀释和净化容量,否则,会造成海洋污染和海洋的生态破坏.这需要在污水排放前进行周密的设计和评估,污水海洋排放的近区模拟是其中最为重要的一个环节.概率分析法(Probabilistic Analysis Approach)和“最不利案例法” (Worst- case Approach)是污水海洋排放近区模拟的主要方法[1].
+　　概率分析法很早就用于污水海洋处置初始稀释度的分析中[Roberts 1980],但由于最不利案例法的简单易用,概率分析法开始并未得到广泛应用,直到最近概率分析法在污水海洋处置中的优点才重新得到重视,并被应用于海滩和海岸污染物浓度的评价中[1].本文结合实例,阐述如何将概率分析法用于污水海洋排放近区模拟中.
+1 概率分析法
+1.1 概率分析法的原理
+　　概率分析法考虑了影响初始稀释度等其它指标的不同参数之间的互相组合,分析结果以累积频率或超标频率描述初始稀释度的分布.根据统计理论[2],如果将观察的数据分成许多组,将每组内的数据频数(组频数)除以数据总数即表示该组的频率,表示如下:
+组频率 = 组频数 / 数据总数 
+(1)
+累积频率可表示为小于或等于某一数值的数据频数(累积频数)除以数据总数:
+累积频率≤累积频数 / 数据总数 
+(2)
+1.2 初始稀释度的概率
+按照概率分析法的原理,初始稀释度的概率描述如下[3]:
+
+(3)
+式中:D为初始稀释度; p(D)为初始稀释度概率密度函数;N为初始稀释度的数据总数; M(D)为稀释度值在D- (D)/2到D+(D)/2范围内的数据数,即组频数.
+根据(3)式,就可得到累积概率P(D):
+
+(4)
+超标概率则定义为: dD
+
+(5)
+　　对于某一初始稀释度数值D,P(D)的涵义为初始稀释度小于或等于D的时间百分数;而EP(D)则是初始稀释度大于D的时间百分数.
+　　由P(D)和EP(D)就可评价污水排放给海洋环境带来的风险级别.排放口设计准则或水质标准可用某一规定的最不利初始稀释度Ds来表示,还可用累积概率函数P(Ds)或超标概率EP(Ds)来表示.
+1.3 其它参数的概率
+　　与初始稀释度概率分析法类似,对于污水海洋排放处置的其它一些参数,如初始稀释区纵向范围、羽流抬升高度等,均可以按照式(3)～ (5)定义其累积概率函数和超标概率函数.
+　　在实际情况中,累积概率常用统计的频率来近似概率分布.
+2 实例研究
+　　在实例研究中,以广东担杆海峡某一拟选排放口(South Lamma)丰水期为例,根据该处现场实测的海洋物理参数(如水温、盐度、流速和水深)以及污水排放参数(流量、扩散器结构参数、污水温度、污水盐度等),采用最新的Lagrangian水力学近区模型—Jetlag3模型来模拟污水海洋排放情况下近区的初始稀释度、羽流抬升高度、初始稀释区纵向范围等参数,并以概率分析法来分析这些参数的概率分布特性.
+2.1 近区模拟的参数
+　　污水排放量Q=26m3/s,污水温度T0=23.5℃,污水盐度S0=8‰ .
+　　扩散器结构参数:多孔竖管扩散器,竖管数为16,每一竖管上的喷口数为6 .
+　　海洋物理参数:现场实测丰水期大潮连续27h、小潮27h,共54h的水深、水温、盐度和流速,其中水温、盐度和流速沿水深方向设置5层监测点,因数据较多,此处不予列出.
+　　以上数据按照Jetlag3模型的输入要求进行处理后,用Jetlag3模型模拟污水排放情况下预测的初始稀释度,羽流几何特征参数(羽流抬升高度z、初始稀释区纵向范围x等).丰水期54h的模拟结果见表1所示,图1示意了羽流的几何特征.
+
+图1 羽流几何尺寸示意
+Fig.1 Schematic diagram of plume characteristics
+2.2 模拟结果的统计分析
+　　从模拟结果(表1)可以看出,初始稀释度的范围在20～ 180之间,初始稀释区纵向范围在20～ 120m,羽流抬升高度在6～ 21m.根据概率分析法的原理,按式(3) ～ (5)的定义,取适当的组间距(即式中D),计算相应的频率密度函数值,最终可以作出概率分布曲线(图2).其它特性的概率分布也可同样获得.
+表1 预测的初始稀释度和羽流几何特征参数
+Table 1 Predicted initial dilution and plume characteristics
+时间(h)Dx(m)z(m)时间(h)Dx(m)z(m)时间(h)Dx(m)z(m)
+1125 62.2 12.619120 68.4 7.737142 58.4 14.2 
+2109 52.1 8.720142 72.5 8.838125 55.9 14.0 
+3130 69.4 8.421100 50.7 10.939106 44.1 14.5 
+4172 101.5 8.8227238.7 12.84057 33.1 17.2 
+5159 85.9 8.8232235.5 15.54134 34.8 18.4 
+6179 108.9 8.8245931.9 17.24244 29.3 16.9 
+7144 73.7 8.325106 46.6 13.84325 33.5 13.3 
+8105 51.1 8.426144 67.3 10.34434 33.6 16.4 
+982 38.7 12.027146 77.7 8.74569 32.6 14.8 
+1066 31.9 15.22892 43.4 12.74693 44.8 11.7 
+1169 34.3 13.02929 33.9 17.04780 37.5 15.0 
+1235 30.6 12.63042 29.1 11.948106 50.4 11.8 
+1359 32.2 10.63142 32.9 17.549110 57.1 10.4 
+1486 40.2 8.33226 34.5 18.35097 50.6 11.3 
+1596 50.0 8.033117 42.6 15.65198 49.7 11.8 
+16114 58.1 7.934130 49.3 14.852117 49.7 13.9 
+17131 71.4 8.135130 61.3 13.05388 35.6 14.8 
+18151 82.6 8.436123 65.1 12.25426 37.0 19.9 
+
+注:D为初始稀释度 x为初始稀释区纵向范围 z为羽流抬升高度
+
+图2 预测的初始稀释度概率分布曲线
+Fig.2 The probabilistic characteristics of the predicted initial dilution
+2.3 概率分析结果
+2.3.1 不同保证率下的初始稀释度 根据初始稀释度的概率分布,可得到不同保证率下的初始稀释度数值(表2).保证率=1－累积百分率.
+2.3.2 不同累积频率下的初始稀释区纵向范围(x) 根据初始稀释区纵向范围(x)的概率分布,可得到不同累积频率的初始稀释区纵向范围数值(表3).
+2.3.3 不同累积频率下的羽流抬升高度(z)根据羽流抬升高度(z)的概率分布,可得到不同累积频率的羽流抬升高度数值(表4).
+表2 预测的初始稀释度的概率分析结果
+Table 2 Probabilistic analysis results of predicted 
+initial dilution
+保证率
+(%)初始稀释度(倍)保证率
+(%)初始稀释度
+(倍)
+903440108
+805230120
+706920130
+608910144
+5099　　
+
+表3 预测的初始稀释区纵向范围(x)的概率分析结果
+Table 3 Probabilistic analysis results of predicted downstream distance (x)
+累积百分率(%)x (m)累积百分率(%)x (m)
+1032.36050.6
+2033.87057.2
+3035.68066.0
+4040.69073.3
+5047.9　　
+
+　
+表4 预测的羽流抬升高度(z)的概率分析结果
+Table 4 Probabilistic analysis results of predicted
+plume height (z)
+累积百分率(%)z (m)累积百分率(%)z(m)
+108.46013.2
+208.87014.6
+3010.48015.3
+4011.89017.1
+5012.6　　
+
+3 结论
+3.1 从实例中可以看出,概率分析法提供了污水排放时不同概率下的初始稀释度、初始稀释区纵向范围、羽流抬升高度等信息.根据这些信息可以进行远区模拟、风险评价、混合区的划分和扩散器结构的优化设计.
+3.2 概率分析法要求的输入信息很多.本例中涉及大、小潮共54h的数据,并且每小时需同时测量从上至下5层海水的温度、盐度和流速.现实中要连续地获得以上的输入信息要求大量的人力和费用;同时要求的计算工作也是巨大的,这就是以往概率分析法未获得广泛应用的主要原因,随着一些自动监测仪器的出现和普遍使用,很容易获得上述连续的输入信息;随着计算机运算速度的快速提高,模拟计算时间可以缩短.因此,概率分析法具有广阔的应用前景.
+3.3 应用概率分析法可以用来进行模型的修正.水力学模型中的许多参数是通过实验和现场情况获得的,应用概率分析法,在保持长期的实测分析和模拟分析对照之后,可以修正模型中的一些参数取值,使得模型更符合实际.
+作者简介：陈 刚(1974-),男,四川宜宾人,清华大学环境科学与工程系研究生,主要从事环境工程的研究工作.曾参与“香港策略性污水排放计划环境影响评价研究”(SSDS-EIA).发表论文1篇.
+致谢：国家海洋局南海监测中心(广州)提供了文中的模拟输入,对于他们的帮助在此致以谢意.同时还要感谢尚风先生对模型模拟所做的大量前期工作以及黄河宁博士对于近区模拟的指导.
+
+作者单位:陈 刚　何 强　清华大学环境科学与工程系,北京 100084；
+　　　　　钟 坚　深圳市排水管理处,广东 深圳518030
+参考文献:
+[1]Hening Huang Ph D. A review of ocean discharge of treated municipal wastewater in the United Stats [R]. Hazen and Sawyer, P.C. Raleigh, North Carolina, USA. 1996.
+[2]傅 灌,胡蓓华. 基本统计方法教程 [M]. 上海:华东师范大学出版社,1989.
+[3]Hening Huang, John R Proni, John J Tsai. Probabilistic approach to initial dilution of ocean outfalls [J]. Water Environment Research, 1994, 66(6):787- 793.
+
+收稿日期：1998-11-17

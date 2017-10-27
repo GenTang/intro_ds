@@ -1,0 +1,131 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第5期 No.5 Vol.18 1998
+科技期刊
+
+长波紫外线对M13mp2噬菌体的致突变作用* 
+郝卫东　尚兰琴　郑　妤　金庆中　（北京医科大学公共卫生学院，北京100083）
+文　摘　以野生型大肠菌CSH50及mutM缺陷的大肠菌MF67为宿主，检测了长波紫外线（UVA）对M13mp2噬菌体单链DNA lacZα基因区域的致突变能力。结果显示，UVA照射可引起噬菌体lacZα基因区域的突变，在mutM缺陷的宿主中，UVA照射的致突变作用更明显。进一步研究了抗氧化剂甘露醇对UVA照射致突变作用的影响，结果显示，0.1mol/L的甘露醇可以部分拮抗UVA的致突变作用。说明UVA照射具有致突变作用，这种作用可能与DNA的氧化损伤有关。
+关键词　长波紫外线　致突变作用　DNA氧化损伤
+Mutagenesis of M13mp2 phage by near-ultraviolet light. Hao Weidong,Shang Lanqin,Zheng Yu,Jin Qingzhong (School of Public Health, Beijing Medical University, Beijing 100083).China Environmental Science.1998,18(5):472～475
+Abstract—The mutagenic potential of UVA (ultraviolet A) on the lacZα region of M13mp2 phage was observed in wild-type CSH50 and mutM-deficient (MF67) E.coli.The results showed that UVA induced mutations at lacZα region of phage and the mutation frequency was significantly higher in MF67 than in CSH50. The effect of free radical scavanger (mannitol) on mutagenesis by UVA was also investigated. The mutagenesis was inhibited in part by 0.1mol/L of mannitol. These results indicate that UVA can cause mutation in phage and its mutagenic effect can be ascribed to oxidative damage of DNA.
+Key words:ultraviolet A　mutagenesis　DNA oxidative damage
+　　太阳光照射被认为是皮肤癌发生的原因之一，但其确切机理还不清楚〔1〕。一般认为，紫外线，尤其是中波紫外线（ultraviolet B, UVB, 290～320nm波长）是太阳光中的主要致癌成分。UVB 可引起嘧啶二聚体及（6-4）光化合物，继而引发C（胞嘧啶）→T（胸腺嘧啶）的转换及CC →TT的串联突变（tandem mutation）〔2,3〕。但是，用M13mp2噬菌体的lacZα基因区域进行的太阳光和UVB诱发基因突变碱基特异性分析的研究结果显示，UVB与太阳光诱发的突变类型存在明显差异，在太阳光照射诱发的噬菌体单链DNA的突变中，80％是鸟嘌呤（G）的颠换，尤其是G→C的颠换；而UVB照射则诱发以C→T转换为主的突变。这一结果提示，太阳光诱发突变的作用不能完全归于其中的UVB成分，其它成分，如长波紫外线(UVA, 320～400nm波长）也可能发挥作用；另外，太阳光引发的鸟嘌呤颠换可能与鸟嘌呤的氧化损伤有关〔4,5〕。为了探讨UVA在太阳光诱变作用中的地位及DNA氧化损伤在致突变中的作用，本研究以含单链DNA的M13mp2噬菌体的lacZα基因区域为致突变作用的靶，分析UVA的致突变能力，并观察MutM 蛋白、宿主细胞的SOS修复功能和抗氧化剂对UVA致突变作用的影响。
+1　材料和方法
+1.1　噬菌体和细菌菌株
+　　M13mp2噬菌体和宿主大肠菌E.coli CSH50〔△(pro-lac),ara-,thi-/F'traD36,(proAB,lacI-QZ-△M15)〕 由T. A. Kunkel 博士(NIEHS, Research Triangle Park, NC, USA )惠赠。mutM基因缺陷的E.coli MF67是以P1转导（P1 trans-duction）的方法，以 E.coli YG5113 〔ara-, △(gpt-lac),mutM::cat/F'(lacI378,lacZ461,proAB)〕为转导基因的供体，E.coli CSH50为受体，进行基因转导及克隆选择而构建〔6〕。该菌株mutM基因缺陷，不能编码产生MutM蛋白，而野生型CSH50菌株可编码产生MutM蛋白。
+1.2　样品的照射处理
+　　UVA照射光源为三支金羚牌YZ15W黑光灯管（北京电光源研究所，光谱范围310～440nm，峰值365nm）。将以M9缓冲液稀释的M13mp2噬菌体溶液加入玻璃平皿中，平皿用保鲜膜覆盖，并置于冰上。保鲜膜对波长为290、320、365、400nm的光线透过率分别为89.6％、90.8％、91.9％和91.6％。为阻挡UVA光源的发射光中存在的少量波长小于320nm的光成分， 在UVA光源与照射样品之间放置一块4mm厚的窗玻璃，该玻璃对波长为320、350、360及380nm的光线透过率分别为0.1%、47.8%、73.8%和76.7％，对小于320 nm的光线透过率小于 0.1%。照射过程中，样品持续振荡。样品表面所受照射强度为4.7～7.0 J／m2*s。将含有同样噬菌体溶液的平皿以锡铂纸覆盖，作为对照。
+　　UVB照射光源为一支青靛牌BE15W灯管（北京电光源研究所，波谱范围285～385nm，峰值312nm），照射强度1.43 J／m2*s。
+1.3　宿主菌SOS功能的诱导
+　　依据文献〔7〕方法，宿主菌经142J/m2剂量的杀菌紫外线照射，在使用前避光培养45min。
+1.4　甘露醇处理噬菌体
+　　配制1mol/L的甘露醇溶液，使用时，取1/10体积的甘露醇溶液加到噬菌体溶液中，使甘露醇的最终浓度为0.1mol/L。
+1.5　突变株的选择
+　　照射后的噬菌体溶液稀释后，与宿主大肠菌一同在H-培养基上铺平板培养，倒平板时加入1.19 mg IPTG (isopropylthio-β-D-galactoside)和2.5mg X-gal(5-bromo-4-chloro-3-indolyl-β-D-galactoside)。经37℃培养一夜后，计数总的噬菌斑及突变噬菌斑数。噬菌体在lacZα基因区域发生突变而不能发生α-互补（α-comlementation），β-半乳糖苷酶活性缺失，形成的噬菌斑呈无色或淡蓝色。野生株形成的噬菌斑则为蓝色。
+1.6　统计分析
+　　使用KASTENBAUM-BOWMAN统计表〔8〕，对处理样品与对照样品突变率的差别进行显著性检验。
+2　结果
+　　经不同剂量UVA照射的M13mp2噬菌体感染宿主菌野生型E.coli CSH50或mutM缺陷的E.coli MF67其存活率和突变率见表1。
+表1　UVA 照射对M13mp2 噬菌体生存率和突变率的影响
+Table 1　Survival and mutation frequency of UVA-exposed M13mp2 phage
+
+照射剂量
+(kJ/m2) 生存率　
+(%)　 E.coli CSH50 (mutM+)E.coli MF67 (mutM-)
+计数噬菌
+斑总数突变噬
+菌斑数 突变率
+(×10-4) 计数噬菌
+斑总数突变噬
+菌斑数 突变率
+(×10-4) 
+0100.0 34 157 10 2.93 33 423 6 1.80
+50 43.7 11 800 5 4.24 12 085 6 4.96
+160 24.4 11 300 11 9.73** 12 00012 10.00*
+320 15.0 11 20010 8.93* 12 200 14 11.48**
+430 8.4 16 300 16 9.82**17 000 29 17.06**
+
+　　　　　　注：* 与对照 (0kJ/m2) 比较, P<0.05　** 与对照 (0kJ/m2) 比较, P<0.01
+　　UVA照射处理引起噬菌体存活率随照射剂量增加而下降。大于160 kJ/m2剂量的UVA照射处理在两种宿主中都显示了突变率的增加，430 kJ/m2剂量照射时，在MF67宿主中的突变率明显高于CSH50中的突变率。
+　　以诱导SOS功能的细胞作为宿主，进行了UVA致突变作用的检测，此时，嘧啶二聚体损伤可有效地引起突变。结果显示，在诱发SOS功能的宿主中，自发突变率及诱发突变率均明显高于未诱发SOS功能宿主中的突变率。在SOS功能存在的情况下，mutM-宿主中的突变率仍然高于mutM+宿主中的突变率（P<0.01）（表2）。
+表2　宿主菌的SOS修复功能对UVA照射致噬菌体M13mp2突变作用的影响
+Table 2　The effect of SOS function on mutagenesis of UVA-exposed M13mp2 phage
+
+处　理宿主菌
+E.coli 诱导SOS修复功能未诱导SOS修复功能
+计数噬菌　
+斑总数　突变噬
+菌斑数 突变率
+(×10-4) 计数噬菌
+斑总数突变噬
+菌斑数 突变率
+(×10-4) 
+对照CSH50 11 60010 8.62* 15 170 4 2.60
+UVA照射** CSH50 15 270 58 37.98* 16 835 16 9.50
+对照MF67 10 920 10 9.16* 33 423 6 1.80
+UVA照射** MF67 14 050 72 51.24* 14 450 18 12.46　
+
+　　　　　　注：* 与未诱导SOS功能比较, P<0.01　** UVA照射剂量为360 kJ/m2
+　　 UVB的致突变能力明显强于UVA。为了排除UVA光源中混杂的少量UVB成分（少于UVA剂量率的0.4％）的影响，在与UVA照射条件完全相同的情况下，以2.57 kJ/m2发射剂量的UVB照射处理M13mp2噬菌体。该发射剂量基本相当于UVA照射处理最大剂量时，其光源中发射出的UVB剂量。UVB照射处理未引起噬菌体存活率及突变率的明显变化（表3）。
+表3　UVB照射处理对 M13mp2 噬菌体生存率及突变率的影响
+Table 3　Survival and mutation frequency of UVB-exposed M13mp2 phage
+
+处　理生存率
+(%)E.coli CSH50 (mutM+)E.coli MF67 (mutM-)
+计数噬菌
+斑总数突变噬
+菌斑数 突变率
+(×10-4) 计数噬菌
+斑总数突变噬
+菌斑数 突变率
+(×10-4) 
+未诱导SOS功能
+对照－ 20 850 6 2.88 24 800 5 2.02
+UVB照射* 100.010 0002 2.00 12 000 3 2.50
+诱导SOS功能
+对 照 － 8 980 12 13.36
+UVB照射* 76.4 12 000 16 13.33
+
+　　　　　注：*光源发射UVB剂量为 2.57kJ/m2,样品以保鲜膜覆盖，置于4mm厚玻璃下
+表4　甘露醇对UVA照射致噬菌体M13mp2突变作用的影响#
+Table 4　The effect of mannitol on the inactivation and 
+mutagenesis of UVA-exposed M13mp2 phase#
+
+处　理 生存率
+（％）计数噬菌
+斑总数突变噬 
+菌斑数 突变率
+(×10-4)
+对照 － 10 920 10 9.15
+甘露醇** 92.8 13 00011 8.46
+UVA照射*** 19.8 14 800 57 38.51 
+UVA照射+甘露醇 42.610 150 24 23.64*
+
+　注：# 以诱导SOS功能的 E.coli MF67 为宿主　* 与UVA 照射组比较 P<0.05　** 甘露醇浓度为0.1mol/L　*** UVA 照射剂量为 320 kJ/m2
+　　为分析自由基在UVA诱发噬菌体突变中的作用，在M13mp2噬菌体溶液中加入0.1mol/L的甘露醇（自由基捕获剂）。结果显示，加入甘露醇可以提高UVA照射处理噬菌体的存活率，降低突变率（P<0.05）（表4）。
+3　讨论
+　　观察UVA照射的致突变作用。结果显示，UVA照射可以引起M13mp2噬菌体生存率下降、突变率升高，并提示，UVA照射的致突变作用可能与DNA氧化损伤有关。
+3.1　UVA的致突变作用和致癌作用已有报道〔9，10〕。根据北纬30°太阳光辐射光谱的年平均量，UVA在太阳光致癌作用中的贡献在20％以上〔11〕。Berg等曾报道，引起同样细胞毒性或致突变作用的UVA和UVB活性剂量，引发的嘧啶二聚体形成量不同，推测UVA的致突变作用可能涉及其它形式的DNA损伤，如DNA的氧化损伤〔12〕。在以前的研究中发现，太阳光照射引起M13mp2噬菌体以鸟嘌呤颠换为主的突变，推测鸟嘌呤的氧化损伤可能与这种颠换的发生有关；而UVB则引发以 C→T转换为主的突变，与太阳光引发突变类型存在明显的差异，这种差异的一种可能原因是，在太阳光诱变作用中，除UVB外，其它成分如UVA，也发挥一定的作用〔4，5〕。本研究的结果，支持了这些推测。
+3.2　MutM蛋白可去除DNA上的氧化损伤，如8-羟基鸟苷。如果噬菌体的突变与DNA的氧化损伤有关，在mutM缺陷的宿主菌内，其突变率应该增高。高剂量UVA照射处理时，在E.coli MF67（mutM-）宿主中噬菌体的突变率高于在E.coli CSH50（mutM+）中的突变率，提示UVA的致突变作用可能涉及DNA的氧化损伤。自由基捕获剂甘露醇对UVA致突变作用的抑制，说明自由基在UVA致突变中发挥作用。
+3.3　Brandenburger 和 LeClerc的研究显示，紫外线对M13噬菌体的致突变作用只有在存在SOS修复功能的宿主菌中才能观察到〔13，14〕。但在以前的研究中曾观察到，在缺乏SOS功能的宿主中，太阳光照射3h可使M13mp2噬菌体的突变率增加10倍；UVB照射30s可使突变率增加约4倍〔4，5〕。在SOS功能缺陷的宿主中，UVA也引起突变率的明显增高，当使用诱导SOS功能宿主时，突变率更高。说明尽管紫外线诱发突变作用在很大程度上依赖于SOS修复系统的存在，但也有一部分不依赖SOS修复系统。
+参考文献
+1　Bridges B. Sunlight, DNA damage and skin cancer: a new perspective. Jpn. J. Cancer Res., 1990, 81:105～107
+2　Larue L, Dougherty N， Mintz B. Genetic predisposition of transgenic mouse melanocytes to melanoma results in malignant melanoma after exposure to a low ultraviolet B intensity nontumorigenic for normal melanocytes. Proc. Natl. Acad. Sci.USA,
+1992, 89:9534～9538
+3　Clingen P H, Arlett C F, Roza L，et al. Induction of cyclobu-tane pyrimidine dimers, pyrimidine (6～4) pyrimidone photo-products, and dewar valence isomers by natural sunlight in nor-mal human mononuclear cells. Cancer Res., 1995, 55:2245～2248
+4　Negishi K，Hao W. Spectrum of mutations in single-stranded DNA phage M13mp2 exposed to sunlight: predominance of G-to-C transversion. Carcinogenesis, 1992, 13:1615～1618
+5　郝卫东，根岸和雄. 太阳光及紫外线B诱发基因突变的碱基特异性. 北京医科大学学报, 1997, 29:121～123
+6　Fujiwara M, Honda Y, Inoue H，et al. Mutations and oxidative DNA damage in phage M13mp2 exposed to N-nitrosomorpholine plus near-ultraviolet light. Carcinogenesis, 1996, 17:213～218
+7　Kunkel T A. Mutation specificity of depurination. Proc. Natl. Acad. Sci. USA, 1984, 81:1494～1498
+8　Kastenbaum M A，Bowman K O. Tables for determining the statistical significance of mutation frequencies. Mutation Res., 1970, 9:527～549
+9　Drobetsky E A, Turcotte J，Chateauneuf A. A role for ultraviolet A in solar mutagenesis. Proc. Natl. Acad. Sci. USA, 1995, 92:2350～2354
+10　Setlow R B, Grist E, Thompson K，et al. Wavelengths effective in induction of malignant melanoma. Proc. Natl. Acad. Sci. USA, 1993, 90:6666～6670
+11　Kelfkens G, de Gruijl F R，van der Leun J C. Ozone depletion and increase in annual carcinogenic UV dose. Photochem. Photobiol., 1990, 52:819～823
+12　Berg R J W, de Laat A, Roza L,et al. Substitution of equally carcinogenic UV-A for UV-B irradiations lowers epidermal thymine dimer levels during skin cancer induction in hairless mice. Carcinogenesis, 1995, 16:2455～2459
+13　Brandenburger A, Godson G N, Radman M，et al. Radiation-induced base substitution mutagenesis in single-stranded DNA phage M13. Nature, 1981, 294:180～182
+14　LeClerc J E，Istock N L. Specificity of UV mutagenesis in the lac promoter of M13 lac hybrid phage DNA. Nature, 1982, 297:596～598
+作者简介
+郝卫东　男，1963年7月生。北京医科大学卫生毒理学教研室副主任、副教授。从事毒理学的教学和研究工作。在国内外共发表论文20篇。
+收稿日期：1998-01-19
+* 国家自然科学基金资助项目（39700123）

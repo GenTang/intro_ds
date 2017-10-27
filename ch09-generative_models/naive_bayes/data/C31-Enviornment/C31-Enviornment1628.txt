@@ -1,0 +1,51 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+中国四城市空气中粗细颗粒物元素组成特征
+滕恩江　胡　伟　吴国平　魏复盛
+摘要：采集280多个来自中国4城市粗细颗粒物样品,用X-荧光光谱法分析了其中的42种元素.报道了空气颗粒物中元素的组成特征,并对元素进行聚类分析,结果表明,主要可分成地壳元素及燃煤或燃油污染元素两大类.污染点颗粒物中污染元素的浓度比对照点的要高,而且,这些污染元素在细颗粒物中的富集因子比在粗颗粒物中的富集因子要高出许多倍.但城市内污染元素的富集因子在污染点与对照点之间的差别不如同一种元素在两城市间的差别明显.
+关键词：空气污染；X-荧光光谱分析；元素富集因子；PM2.5；PM2.5～10
+中图分类号：X513 文献标识码：A 文章编号：1000- 6923(1999)03- 0238- 05
+The composing characteristics of elements in coarse and fine particle in air of the four cities in China. 
+TENG En-jiang,HU Wei,WU Guo-ping,WEI Fu-sheng 
+(China National Environmental Monitoring Center, Beijing 100029, China). China Environmental Science. 1999,19(3)：238～242
+Abstract：More than 280 coarse and fine particle samples were collected from the four cities in China, and 42 kinds of element were analyzed by XRF. This paper shows the results of the composing characteristics of elements and the cluster analysis shows that these elements could be classified into two kinds—the earth elements and the coal or oil burning elements. The pollution elements in particle of pollution sites are relatively more concentrated than those of reference sites,and the enrichment factors of the polluted elements from fossil fuel in fine particle are many times larger than that in coarse particle. However, the difference of enrichment factors between these two sites in same city is not as significant as that among cities.
+Key words：air pollution；XRF analysis；element enrichment factor；PM2.5；PM2.5～10
+　　大气气溶胶是指悬浮在空气中的固体和液体微粒,它是人们的感觉能直接觉察到的微量成分,其浓度的变化对人和动物的呼吸系统影响极为显著,尤其是细颗粒物质(PM2.5).因为它易富集空气中有毒重金属、酸性氧化物、有机污染物、细菌和病毒等,且能较长时间停留在空气中,被输送到较远的地区,因此,被人们广泛关注[1- 4].
+　　为考察空气中粗细颗粒物对儿童肺功能生长发育的影响,并为制订空气中PM2.5的质量标准提供依据.中美研究人员共同在重庆、武汉、兰州和广州4城市8所小学内,对细颗粒物和粗颗粒物(PM2.5-10)进行了2年长期监测,结果表明,我国4城市空气中粗细颗粒物的污染水平相当严重[5].本文选择了近280个粗细颗粒物样品,用X-荧光光谱法测定了42种元素的含量.结果表明S、Br、Cl、As、Se、Cu、Pb、Zn等8个元素在PM2.5中浓度高、富集倍数大,其中S、Pb、Se等元素的富集倍数达数千倍.
+1 样品采集和分析
+　　采样点位的选择、样品采集和质量保证见文献[6].按照时间均匀分布的原则,从每所小学采集的样品中选取粗细颗粒样品各20～50个送美国EPA三角公园实验室,用X-荧光光谱法测定了粗细颗粒物中42种元素 (Al、Si、Ca、P、K、V、Ti、Fe、Mn、Ba、As、Cd、Sc、Cu、Co、Ni、Pb、Zn、Zr、S、Cl、Br、Se、Ga、Ge、Rb、Sr、Y、Mo、Rh、Pd、Ag、Sn、Sb、Te、I、Cs、La、W、Au、Hg、Cr)的浓度.
+2 结果与讨论
+2.1 粗细颗粒物元素的聚类分析
+　　在给定的条件下,X-荧光光谱法不能准确给出粗细颗粒物中42种元素的浓度值.因此,研究选择了17种元素进行聚类分析,其结果见图1,图2.由图1,图2可知,聚在图左边的主要是S、Cl、Se、As、Br、Cu、Pb、Zn等8种典型的燃煤或燃油污染元素,聚在图右边的主要是Al、Si、Ti、Fe、Ca等典型的地壳元素.因此,本文主要对8种污染元素作进一步讨论.
+
+图1 4城市PM2.5中元素聚类
+Fig.1 The cluster figure of elements in PM2.5 in the four cities
+2.2 颗粒物中污染元素体积浓度
+　　表1,表2分别列出了4城市空气粗细颗粒物中部分污染元素的体积浓度值
+　　由表1,表2可知,各城市污染点的粗细颗粒物中污染元素的体积浓度比其对应的对照点高.污染元素的体积浓度在细颗粒物中比粗颗粒物中显著地高,是相应元素在粗颗粒物中体积浓度的1.1～21倍.即污染元素更容易富集在细颗粒物中.另外,污染元素S的浓度比其它元素高得多,这表明我国城市是煤烟型硫氧化物污染的特点.
+
+图2 4城市PM2.5～10中元素聚类
+Fig.2 The cluster figure of elements in PM2.5-10 in the four cities
+表1 4城市粗颗粒物中污染元素的体积浓度 (ng/m3)
+Table1 The volume concentrations of the pollution elements of coarse particle in the four cities (ng/m3)
+城市点位数目类型元 素
+AsCuPbSe ZnBrClS
+广州污染点10A8.036.2103.52.2248.317.5873.52570.9
+M6.621.569.31.8163.88.2666.31881.3
+对照点10A3.03.521.11.644.11.4191.9372.7
+M2.72.312.81.042.81.2156.7238.1
+武汉污染点13A4.123.930.01.476.72.2513.0710.1
+M3.425.223.81.456.71.6427.2669.6
+对照点12A3.39.219.11.125.71.6158.7437.5
+M3.03.015.61.115.71.5105.5328.7
+兰州污染点25A10.718.9155.11.5141.82.6393.41090.9
+M5.917.151.31.495.12.3377.9985.2
+对照点21A7.210.666.11.656.72.1249.4593.6
+M4.512.219.81.532.12.0233.3613.2
+重庆污染点18A5.78.469.93.494.18.3727.52067.2
+M3.78.052.51.577.14.3773.91464.1
+对照点19A3.75.226.61.549.23.8288.71137.6

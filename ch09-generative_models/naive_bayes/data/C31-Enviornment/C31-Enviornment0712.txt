@@ -1,0 +1,60 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+城市与山地森林地区夏秋季大气CO2浓度变化初探*
+蒋高明　黄银晓　韩兴国
+(中国科学院植物研究所，北京　100093)
+
+关键词　CO2浓度；城市；森林；北京市.
+
+CHANGES IN ATMOSPHERIC CO-2 OF URBAN AND MOUNTAIN FOREST AREAS DURING THE SUMMER AND AUTUMN SEASONS
+
+Jiang Gaoming Huang Yinxiao Han Xingguo
+(Institute of Botany, Chinese Academy of Sciences, Beijing 100093)
+
+ABSTRACT　The CO-2 concentrations and their changes during the summer and autumn seasons in the urban area of Beijing and those in the forest area of Xiaolongment Forest, Mentougou district, 114km southwest from Beijing downtown area were comparatively studied. During the summer and autumn, the CO-2 concentrations in the urban area changed from 328 to 475μmol*mol-1, with an average value of 380±19μmol*mol-1.The atmospheric CO-2 of the forest area during the summer time, when plants were growing luxuriantly,was 327±4μmol*mol-1, lower than that in autumn. During a sunny summer day, CO-2 was highest in the morning at 6:00am, then decreased when photosynthesis in the forest took place and reached the lowest level around 2:00pm. Large difference in CO-2 concentration, as much as 40μmol*mol-1 was recorded. The CO-2 concentration in the urban areas was 53μmol*mol-1 higher than that in the forest area, and 30μmol*mol-1 higher than the blobal mean of 350μmol*mol-1. The seasonal and hourly changes were not conspicuous in the urban area compared with the forest area, indicating the CO-2 level was strongly interred by urbanization and industrialization.
+Keywords　CO-2 concentration, urban area, forest area, Beijing.
+
+1　引　　言
+　　CO2等温室气体的增加，引起了全球科学家与政治家的关注，温室效应及其带来的一系列生态环境改变即全球变化现象一跃成为生态学研究的最热门课题之一［1，2］.在全球变化生态学研究中，大多数学者致力于预测陆地生态系统对CO2浓度及温度升高的响应［2～4］.在CO2浓度本身变化的研究方面，国内有人进行了农田CO2浓度分布及土壤释放CO2［5～7］、森林固定大气CO2的效益［8］等分析；国外有人探讨了森林土壤释放CO2及对大气CO2浓度的影响［9］，以及热带雨林与大气CO2浓度之间源与库的关系［10］.对生态系统中大气CO2浓度及其变化规律的研究，是一项不可缺少的工作.人们就是从近一个世纪以来大气CO2浓度的变化中预测出全球变化问题，CO2浓度从工业革命前的290 μmol*mol-1上升到目前的350 μmol*mol-1［11，12］.除此之外，CO2一方面是导致全球变化的温室气体之一，另一方面也是植物光合作用必需的原料.因而，自然生态系统中大气CO2的变化能够较好地反应植被在释放与固定CO2源与库的关系；城市中，人类活动排放CO2十分明显，其浓度的变化也会影响到自然生态系统中碳的平衡，需要对城市中CO2浓度变化进行监测与研究.本文比较了两类地区CO2浓度及其变化特点，从而寻找自然生态系统与城市生态系统大气CO2动态规律.
+
+2　材料与方法
+2.1　研究地点
+　　城市区CO2浓度的测定地点在北京香山中国科学院植物研究所植物园实验地内.实验地点海拔高度42m，年平均温度8.5℃，年雨量630 mm，植被为北方常见绿化植物.城区植被覆盖率＜20%.森林区域CO2浓度的测定地点位于离北京市区114km的门头沟小龙门林场，系中国科学院北京森林生态系统定位研究站所在地.海拔1170m，年平均温度6.8℃，年雨量550mm.测定地点植被为暖温带落叶阔叶林辽东林.森林覆盖率＞95%，平均冠层高度12m.
+2.2　样品采集
+　　用于CO2浓度分析的气体用气泵(流速25—30L*min-1)采自大气.采样管出口离地面约3m；在森林采样点，高出森林冠层约2m，(用长竿将采样管托出林冠外).气流用流量计减速至1L*min-1，多余气体经三通开关释放.用于分析的气流经2瓶无水氯化钙(各约1000g)干燥，去除气流中的水分.
+2.3　CO2浓度测定
+　　CO2浓度用北京分析仪器厂产GXH-305型便携式红外气体分析仪测定.仪器分辨率≤1μmol*mol-1；零点及量程飘移≤±3%满量程/3h.交直流两用，尤适于野外无电源地方使用.每天测定前用标准CO2气体标定仪器，标定用CO2浓度高于被测气体CO2浓度.野外用369μmol*mol-1，城市用460μmol*mol-1标定.
+
+3　结果与讨论
+3.1　城市大气CO2浓度变化特点
+
+
+图1　北京市城区小龙门林场森林地区大气CO2浓度月变化比较(1992—1994)
+Fig.1 Monthly changes of atmospheric CO2 concentrations in the urban rea of Beijing and the forest area in Xiaolongment (1992—1994)
+1992—1994年北京大气CO2浓度在不同月份之间的变化见图1.其中7、8、10月份高于6、9月份.一般在自然状态下，生长季节的6、7、8月份大气CO2因受植被光合作用的影响，其浓度应低于9、10月.但在本研究中，仅发现6月份CO2浓度较低；9月份浓度反而也低.很难从中看出大气CO2浓度受植被影响所发生变化的规律，而表现出受人类活动污染的影响，即城市大气CO2的变化并不表现出明显的季节变化，而表现出一定的随机性.城市中的人类活动CO2源主要有化石燃料燃烧、汽车尾气、工业活动以及大量人流的呼吸等.这些活动的强烈程度以及当时的天气状况(如风速、大气压、温度、光照等)，很大程度上决定了城市大气CO2浓度的分布特点.如所测定的最高值，476 μmol*mol-1，就是在阴天、静风和较高气压环境下测得的.
+　　
+
+
+图2　北京市城区与小龙门林场夏(6—8月)、秋(9—10月)季大气CO2浓度的日变化
+Fig.2 Daily changes of CO2 concentrations in summer and autumn in Beijing urban area and the forest area of Xiaolongmen
+
+城市大气CO2浓度的日变化特点见图2.1992—1994年夏季(6—8月)与秋季(9—10月)的大气CO2浓度都表现出在早晨8：00至下午14：00之间有较高的水平，而至下午16：00开始下降.而在自然生态系统中(如森林地区，图2)，在夏季光合作用旺盛的12：0～14：00之间，CO2浓度处于较低的水平.城市中的这种变化不明显.
+3.2　山地森林大气CO2浓度季节变化特点
+　　小龙门林场森林地区大气CO2浓度(日间)1994—1995年变化于305—341μmol*mol-1之间，最大相差36μmol*mol-1，平均为327±4μmol*mol-1.其变化幅度与平均值明显低于城市.城市大气CO-2浓度约比森林地区高53μmol*mol-1.若将两者平均，其结果353.5 μmol*mol-1，基本接近全球大气CO2的平均浓度.由图2可以看出夏季森林地区CO2平均值为322μmol*mol-1，而秋季为330μmol*mol-1.众多观测资料表明，北半球大气平均CO2浓度在1月份为346—350μmol*mol-1，8月份为336—340μmol*mol-1，下降10μmol*mol-1，12月份又回到350μmol*mol-1左右［10］.本研究发现在光合作用旺盛的夏季CO2浓度低于秋季8μmol*mol-1，符合自然生态系统中大气CO2浓度的消长规律.
+3.3　夏季森林地区大气CO2浓度昼夜变化特点
+　　为了揭示森林地区大气CO2随光合作用及土壤呼吸作用变化的特点，我们选择了两个晴朗的夏日，1994年7月28日和8月10日对辽东栎林大气CO2浓度、草本层光合作用及土壤呼吸进行了连续24小时的动态监测.两日都显示出大气CO2浓度在早晨6：00左右最高，而至午后14：00左右最低，而此时草本层群落的光合作用达到最高值(3.07μmol(CO2)*m-2*s-1).研究地点位于阴坡，14：00左右森林植物所得光照最多，光合作用最旺盛.植物对CO2截获的能力很强，如有研究表明：当玉米田叶面积指数为2.5时，可使冠层内CO2浓度降低70—80 μmol*mol-1［13］.两日的土壤呼吸强度除8月10日2：00以后表现为升高外(达5.85μmol(CO2)*m-2*s-1)，其余时间变化在4.12—5.66μmol(CO2)*m-2*s-1之间.土壤释放的CO2使大气中的CO2浓度逐渐升高，至早晨6：00太阳出山前达到最高值.在24小时的变化中，7月28日变化于313—353μmol*mol-1之间；8月10日变化于306—345μmol*mol-1之间，相差分别为40和39μmol*mol-1.因此森林地区大气CO2浓度的昼夜变化与光合作用及土壤呼吸作用的日进程有直接的关系.可见植被及其生态系统在控制大气CO2浓度平衡方面起着巨大的作用.
+参考文献
+1　叶笃正(主编).中国的全球变化预研究.北京：气象出版社，1992：1—23
+2　蒋高明.全球变化对陆地生态系统的影响——兼介英国TIGER和美国MINK计划.应用生态学报，1994，6(增刊)：143—149
+3　Ryle G J A, Powell C E.The influence of elevated CO2 and temperature on biomass production of continuosly defoliated white clover. Plant Cell and Envir, 1992,15:593—599
+4　Woodward F I，Thompson G B, Mckee I F. The effect of elevated concentration of carbon dioxide on individual plants, populations and ecosystems. American Botany, 1991,67:23—38
+5　杜宝华.作物冠层内二氧化碳源、流研究的现状与展望.中国农业气象，1994，15(3)：44—48
+6　杜宝华，洪佳华，司君智等.农田土壤CO2释放量的测定.农业气象，1985(2)：63—70
+7　张　理.北京地区高产麦田内CO2 浓度的分析.北京农业大学学报，1982，(2)：35—41
+8　杨永辉，毕绪岱.河北省森林CO2固定的效益.生态学杂志，1996，15(4)：51—54
+9　Fernandez I J, Son Y, Kraske C R et al.Soil carbon dioxide characteristics under different forest types and after harvest. Soil Soc Am J, 1993,57:1115—1121
+10　Taylor J A, Sources and sinks of atmospheric CO2. Lloyd J Austr J Bot, 1992,40:407—418
+11　Lamarche V C, Graybill D A, Fritts H C et al. Increasing atmospheric carbon dioxide:tree ring evidence for growth enbancement in natural vegetation. Science, 1984,225:1019—1021
+12　Neftel A, Moor E, Oeschger H et al. Evidence from polar ice cores for the increase in atmospheric CO2 in the past two centuries. Nature, 1985,315:45—47
+13　小田桂三郎著.姜 恕译.农田生态学.北京：科学出版社，1976，113—115

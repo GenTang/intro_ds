@@ -1,0 +1,116 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第2期 No.2 Vol.18 1998
+科技期刊
+
+不同状态MnO2对废水中As(III)的吸附研究*
+陈　红　(浙江大学环境科学与工程系,杭州 310027)
+叶兆杰　方　士　(浙江农业大学环保系,杭州 310029)
+刘巽镶　(中国科学院半导体研究所,北京 100083)
+文　摘　利用MnO2对含As(III)废水进行了吸附实验, 结果表明, MnO2对As(III)有着较强的吸附能力, 其饱和吸附量为44.06mg/g(δ-MnO2)和17.9mg/g(ε-MnO2), 阴离子的存在使MnO2吸附量有所下降, 一些阳离子(如Ga3+、In3+)可增加其吸附量, 吸附后的MnO2经解吸后可重复使用。
+关键词　MnO2　As(III)　吸附
+The study on adsorption of As(III) from wastewater by different types of MnO2 .Chen Hong(Department of Environmental Science and Engineering, Zhejiang University, Hangzhou 310027);Ye Zhaojie,Fang Shi(Department of Environmental Protection, Zhejiang Agricultural University, Hangzhou 310029); Liu XunXiang(Semi-conductor Research Institute, The Chinese Academy of Science, Beijing 100083).China Environmental Science.1998,18(2):126～130
+Abstract—Adsorption of As(III) from wastewater by MnO2 has been studied. The results show that MnO2 possesses strong adsorbing properties to As(III). The saturated adsorption amount is 44.04mg/g(δ-MnO2) and 17.9mg/g(ε-MnO2). Anions reduce the adsorption amount and some cations enhance the adsorption amount. The used MnO2 can be reused.
+Key words: MnO2　As(III)　adsorption
+　　 砷在医药、农业、陶瓷和玻璃工业中被广泛应用, 随着现代工农业生产的发展, 含砷废水的排放量日趋增加。含砷废水治理主要有化学法和物化法两大类, 化学法除砷如铁盐沉淀法〔1〕、硫化物沉淀法〔2〕、铁氧化法等, 适用于高浓度含砷废水, 生成的污泥易造成二次污染。对于处理量不大，浓度较低, 组成单纯且有较高回收价值的废水, 一般采用物化法，如用巯基螯合树脂处理As(III)〔3〕、优质的天然珊瑚可选择性吸附废水中As(V)〔4〕、用活氧化铝滤层来吸附去除饮用水中的砷〔5〕。一般地，天然矿物质如膨润土、活性炭、沸石等吸附As(III)的能力较低, 处理前常先将As(III)氧化成As(V), 以提高去除率。本实验利用MnO2的氧化、吸附特性，直接对含As(III)的废水进行了吸附实验，并就其吸附特性进行研究，为实际应用提供一定的依据。
+1　实验部分
+1.1　仪器与试剂
+　　实验中δ-MnO2按Mckenie.R.Min 方法合成，ε-MnO2由市场购买而得，经X-Ray鉴定为ε-MnO2。
+　　仪器有722型分光光度计，pH-3酸度计，多级可调恒温振荡器，砷化氢发生器，其它常规仪器。
+　　其它常规试剂(AR)。
+1.2　实验方法和分析方法
+　　于塑料瓶中加入10mg/L的As(III)溶液, MnO2浓度为1g/L, 20℃, 恒温振荡。
+1.2.1　吸附动力学　As(III)溶液100mL, 加入不同类型的MnO2进行不同时间下的砷吸附实验，干过滤，用巯基棉分离滤液中的As(III)和As(V)，分别测定滤液和分离液中的As。
+1.2.2　pH值的影响　As(III)溶液100mL, 内含0.01MNaNO3作为支持电解质, 调pH 2～10, 加MnO2, 振荡2h, 干过滤, 测定溶液中As。
+1.2.3　吸附平衡实验　配制一系列As(III)的初始浓度5～80mg/L, 加MnO2, 振荡2h, 干过滤，测定溶液中As。
+1.2.4　温度的影响　配制溶液浓度为10mg/L的As(III)溶液，进行不同温度下的吸附动力学实验。
+1.2.5　阴离子的影响实验　用不同阴离子(PO3-４、SO2-４、NO-３、Cl-)在不同浓度(10-1～10-2M)下进行吸附影响实验。
+1.2.6 　阳离子的影响实验　用不同阳离子(Na+、K+、Ga3+、In3+)进行吸附影响实验，不同Ga3+,In3+离子浓度共存(Ga3+/As3+,In3+/As3+:0.1/1,1/1,10/1)时的吸附影响实验。
+1.2.7 　解吸和再生实验　MnO2在10mg/L As(III)中达吸附平衡后, 干过滤, 用蒸馏水洗涤附着在MnO2表面的As, 选用不同解吸剂(1M NaOH、1M HCl、1M NaH2PO4、1M葡萄糖)，进行解吸实验。
+1.2.8 　实验用废水的配制　称取1.731 g亚砷酸钠(NaAsO2)溶于水中，并定容至1000 mL，即得1000 mg/L的AsO-２溶液(以As计)，使用时稀释。
+1.2.9　实验中As的测定采用SDDC-Ag法。
+2　试验结果与分析
+2.1　吸附动力学
+表1　δ-MnO2、ε-MnO2的物理性质比较
+Table 1　Comparing of physical property of δ-MnO2、ε-MnO2
+
+品种PZC比表面积(m2/g)结晶性能
+δ-MnO22.3248差
+ε-MnO23.843.2较差
+
+　　 为观察不同状态锰氧化物对As(III)的吸附能力，对两种不同状态MnO2进行了比较试验,δ-MnO2是自然界土壤和底泥中最常见的锰化合物，特别在酸性和碱性的表土层。ε-MnO2在矿床中常见。由于两种MnO2性质上的差异(见表1)，其吸附能力显著不同，δ-MnO2吸附As(III)的能力大于ε- MnO2, 见图1。
+
+图1　 MnO2吸附动力学曲线
+Fig.1　Kinetic curves of adsorption of As(III)by MnO2
+
+图2　 溶液中As(III)的减少与时间的关系
+Fig.2　Decrease curves of As(III) in solution
+　　从图1中可以看出, As(III)在MnO2表面的吸附反应在开始的30min已基本达平衡。MnO2吸附砷开始时是一个快反应段, 这时表面吸附起主要作用, 即MnO2直接从溶液中吸附As(III)，30min以后反应极为缓慢，这可能是表面吸附的As向内部扩散的过程起主要作用。
+　　溶液中As(III)浓度的降低速率在开始30min内较快，30min以后较慢(见图2)。
+　　比较图1，图2，可以看出，砷的吸附反应在30min以后达平衡，但溶液中As(III)仍逐渐降低，也就是说，当吸附达平衡后，溶液中As(总)(As(III)+As(V))是不变的，而其中As(III)与As(V)的比例在不断地变化，且As(III)的减少与As(V)的增加，具有对应的关系。MnO2对As(III)的吸附实际包括氧化和吸附两个过程, MnO2的吸附是As(III)和As(V)总和。
+2.2　等温吸附平衡
+　　MnO2(δ-MnO2与ε-MnO2)吸附As(III)的能力随着溶液初始浓度的升高而增大，当初始浓度>50 mg/L时, 吸附量的增加逐渐减慢(见图3)。用Langmiur吸附方程对其进行回归拟合, Langmiur方程的线性形式如下：
+　　　　C/X=1/KXm+C/Xm
+式中：X为吸附的As总量(mg/g); Xm为最大吸附量(mg/g); C为平衡溶液浓度(mg/L); K为常数。
+
+图3　ε-MnO2及δ-MnO2吸附等温线
+Fig.3　Adsorption isotherm curve of ε-MnO2 and δ-MnO2
+表2　MnO2吸附As(III)的参数
+Table 2　Adsorption parameters of MnO2
+
+参数Langmiur方程KXmr
+　C/X=1/KXm+C/Xm
+δ-MnO2C/X=0.5570+0.0227C0.04044.060.9056
+ε-MnO2C/X=1.2097+0.0559C0.04617.900.9373
+
+　　表2是统计拟合的结果，相关系数0.9056～0.9373, 均达P<0.01显著水平。同时，还可得出MnO2的最大吸附量分别为: 44.06mg/g(δ-MnO2)和17.9mg/g(ε-MnO2)。
+2.3　pH值的影响
+　　MnO2对As(III)的吸附能力随着pH值的升高而下降(见图4)。根据Hingston对阴离子的吸附机制研究结果〔6〕, MnO2对As的吸附可能是非专性吸附反应，也就是说MnO2的吸附只与pH值有关而与亚砷酸的pK值无关。
+2.4　温度的影响
+　　图5是温度对MnO2吸附As(III)的影响，从中可以看出，温度升高，MnO2的吸附量略有下降。温度影响有两个方面，其一是加快反应，其二是改变平衡位置。升高温度即能促进吸附，也能促进解析。温度升高，使更多的砷获得外界能量，克服障碍参与吸附反应，同时也有利于紧束缚态砷从固相表面脱逃，一般低温情况下吸附作用强些〔7〕。实验也证实了这一点。
+
+图4　pH值对ε-MnO2吸附As(III)的影响
+Fig.4　Effect of pH on the amount of As(III)adsorbed by ε-MnO2
+
+图5　温度对ε-MnO2吸附As(III)的影响
+Fig.5　Effect of temperature on the amount of As(III)adsorbed by ε-MnO2
+2.5　阴离子的影响
+　　选择几种常见的阴离子(PO3-４、Cl-、NO-３、SO2-４)进行吸附影响实验，见图6，可以看出在整个pH值范围内，PO3-４、Cl-、NO-３、SO2-４使MnO2吸附能力均有所降低, 相对来说, Cl-、NO-３、SO2-４的影响较小，PO3-４在较低浓度时就影响亚砷酸根的吸附，PO3-４对亚砷酸根有较强的置换作用。
+
+图6　不同阴离子在不同pH值下对ε-MnO2吸附As(III)的影响
+Fig.6　Effects of pH and anions on the amount of As(III) adsorbed by ε-MnO2
+(a)阴离子浓度10-2M;(b)阴离子浓度10-1M
+　　经典的双电层理论指出〔8〕，非专性吸附阴离子如Cl-、NO-３等只能代换物理吸附的亚砷酸根，代换发生在外Helmholtz层，而OH-、PO3-４等专性吸附阴离子则能代换内Helmoltz层吸附的亚砷酸根。这也说明了As与MnO2之间的吸附不是简单的库仑引力，而是通过配位离子交换反应。
+　　各种阴离子对MnO2吸附As(III)的影响顺序为: PO3-４>SO2-４>Cl->NO-３
+2.6 　阳离子的影响
+表3　不同浓度的Ga3+、In3+离子共存对As(III)吸附的影响
+Table 3　Effects of Ga3+、In3+ on the amount of As(III) adsorbed by MnO2
+
+离子种类Ga3+/As3+In3+/As3+
+离子浓度比0/10.1/11/110/10/10.1/11/110/1
+去除率(%)42.3434860.742.345.648.958
+
+　　常见阳离子如Na+、K+对MnO2吸附As(III)几乎没影响。对Ga3+、In3+等离子共存下的试验表明, Ga3+、In3+离子的存在使MnO2吸附As(III)的能力稍有增加(见表3)。这与Ga3+、In3+的物化性质相似有关, Ga3+、In3+等离子在pH=3时，就分别形成胶体沉淀，Ga3+、In3+浓度愈高，生成的胶体沉淀愈明显，它们形成的为两性氢氧化物，在pH值为中性时，胶体表面带有大量正电荷，可以吸附亚砷酸根离子。
+2.7　解析和再生实验
+　　常用的解析剂有酸(如HCl、H2SO4)，碱(NaOH)和其他一些盐类。
+
+图7　MnO2的重复除砷能力
+Fig.7　The ability of removing As(III) by regenerated MnO2 
+　　由于As(III)在MnO2表面是氧化-吸附同时进行，除选择1M HCl、1M NaOH、1M NaH2PO4外，还选择了一种还原剂葡萄糖作为解析剂。结果表明，NaOH溶液是有效的解析剂，解析率为98%左右, 其次为HCl, 能解析60%, 葡萄糖溶液仅解析37.5%。也就是说,吸附As(III)后的MnO2可用1M NaOH来解析浓缩。 解析后的MnO2对As(III)几乎没有吸附作用, 但用1MHCl浸泡后, 能恢复对As(III)的吸附能力, 见图7。
+3　结语
+　　利用MnO2直接吸附去除As(III)是可行的，其吸附作用实际包括氧化和吸附两个过程; 不同状态的MnO2, 由于其物理性质的差异, 吸附能力有显著不同; 其吸附符合Langmiur方程。
+　　被MnO2吸附后的As(III)可用NaOH溶液来解析浓缩，解析后的MnO2用HCl浸泡后, 可恢复对As(III)的吸附能力。
+　　有关MnO2吸附去除As(III)的工业应用, 还有待进一步的试验。
+参考文献
+1　黄远传.环境与开发, 1993,8(1):10～12
+2　蒋云龙.环境科学, 1985, 6(1): 15～20
+3　Hiroabi Egawa,et al.Separation Science and Technology,1985,20(9,10):653～664
+4　Maeda Shgern,et al.Separation Science and Technology,1990, 25(5): 547～555
+5　李树猷等. 环境与健康杂志, 1991, 8(4)：165～167
+6　 Mckenzie R M，et al.Mineralogical Magazine, 1971, 38:493～502
+7　袁可能.土壤化学.北京:农业出版社, 1990
+8　安德森(美).水溶液吸附化学.北京：科学出版社, 1989
+作者简介
+陈　红　女, 1968年8月生。现任浙江大学环境科学与工程系讲师。主要从事废水治理的教学与科研工作。承担GaAs材料生产中废液和废气无毒排放工艺等课题。发表论文2篇。
+收稿日期：1997-06-16
+* 国家自然科学基金资助项目

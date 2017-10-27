@@ -1,0 +1,129 @@
+计算机工程
+Computer Engineering
+1999年　第25卷　第4期　Vol.25　No.4　1999
+
+
+
+基于弹箭系统的图形库管理设计与实现
+杜淑幸　琚柏青　许社教
+摘　要　针对弹箭系统特点,介绍了集图形查询、设计于一体的图形库管理设计与实现方法，对开发中关键技术，提出了可行的解决办法。
+关键词　图形库弹箭系统CAD数据库
+The Design and Implementation of Graphics Base Based on Projectile and Rocket System
+Du Shuxing Qu Baiqing Xu Shejiao
+（Dept.of Electronic Mechanics,Xian Electionic Technique Univ.Xian 710071)
+Abstract:In connection with the characteristics of projectile and rocket system,the paper introduced a design and implementation method for managing graphics-base,which is intrgrated with search and drawing.Some pratical methods to solve key technique are presented.
+Key words:Graphics-base;Projectile-rocket system;CAD;Database
+　　由于现代战争日趋立体化，因而在军工系统，弹药种类五花八门，除了常规弹药，尖端和复合性能弹药也层出不穷，这些给军工产品的开发研制带来了严峻的挑战。现代弹药研制既要求周期短，效率高，又要求技术先进、全面，因此开发智能的弹箭CAD系统，是提高其精、高、深、快研制水平的必然要求和趋势。本文就是针对弹箭系统特点提出的图形库管理设计思想和实现方法。
+1　软件环境
+　　创建弹箭图形库的根本目的，不只是对图纸和图形文件的简单管理和浏览，更重要的是使设计者能借助图形库快速、高效地进行弹药设计和开发，因此我们采用了AutoCAD R12.0 for Windows'95为支撑软件。AutoCAD R12.0不仅具备强大的二、三维图形绘制与编辑功能，其开放的体系结构，允许用户全方位地对其进行扩充和修改，尤其是提供的PDB(Programmable Dialogue Boxes)，使开发者可以自己设计出和AutoCAD环境融为一体的应用软件，以满足各种特殊要求。因此系统开发时，要保证系统操作的即时性，使用户在图形库操作与AutoCAD原始环境之间进退自如。
+2　图形库的管理
+　　图形库的管理就是将对象的各相关内容转换为对机器存储而言最优的数据方式，其主要技术包括结构设计和数据的合理性组织，数据组织包括对象存储分配策略、对象间的逻辑关系管理及对象间的权限管理等。
+2.1　图形库结构设计
+　　弹箭系统非常庞大，自身的分类方法也各种各样。就以炮弹为例，以攻击目标分可分为反坦克炮弹、反工事炮弹....，以口径分可分为小口径、中口径、大口径炮弹，还可以用途、稳定方式、发射方式等分类，这就意味着弹箭系统的查询方式是复杂多样的，查询路径不易唯一确定，需要以设计者习惯查询概率权衡设计，最终采用了如图 1 所示的图形库结构，实践证明以这种强调“用途”的分类方法进行主查询是合理的，符合设计者使用习惯且查询路径重复少。
+2.2　图形库数据组织
+　　由图1可以看出，具体到某一构件，需要5级查询，因此要保证图形库操作可靠、快速、方便，图形库内部对象间的数据组织就非常重要，为此我们在数据库结构模型基础上，采用一种扩充型的关系数据模型。主要建立了3种数据库式的数据文件，这种文件将数据库的特点融入数据文件中，避免了纯数据库管理造成的集成性差、用户使用不方便的弊病，又具备类似数据库的快速检索、查询功能。
+
+图1弹箭系统图形库的基本结构
+　　(1)主查询数据文件(dan.fft)
+　　它记录一、二级查询的属性信息，为了缩小文件容量，将界面显示的索引代号代表某些属性。用 C 语言的结构描述为：
+typedef struct dan{
+　　　　char　gno[NN];　/*　代号　*/
+　　　　char　dia[5];　/*　口径　*/
+　　　　char　date[5];　/*　年代　*/
+　　　　short　id_dan;　/*　炮弹或火箭弹标志　*/
+　　　　short　id_dan2;　/*　弹类型标志　*/
+　　　　short　tag;　/*　删除逻辑标志　*/
+　　　　struct　dan　*next;
+　　　　　　　　　}DAN;
+　　(2)图库级查询数据文件(pd.fft hjd.fft)
+　　它记录实现三、四、五级查询及用于驱动参数化绘图所需的属性信息。用C语言的结构描述为：
+　　typedef struct tuku{
+　　　char fname[MM];/* 零、部、组件名称 */
+　　　char gname[LL];/**.dwg*.sld*.lsp*.dat文件名*/
+　　　char tag_dwg;/*dwg 文件逻辑代号*/
+　　　char tag_lsp;/*lsp文件逻辑代号*/
+　　　struct tuku *next;
+　　　　　　　　　}TUKU;
+(3)　参数化绘图数据文件(***.dat)
+　　它记录用于描述构件结构、形状的参数数据。为实现数据交互管理，其数据按一定的格式存储。
+　　除此之外，还针对基本图库、工作图库的数据文件(jb.fft work.fft)。这些数据库式的文件有机地管理着图形库的所有查询、编辑、绘图工作，由于是分类建立，因此查询效率高，文件易于管理，并具有良好的开放性。
+3　图形库的功能及实现
+　　本系统设计了4大功能模块，见图2 。查询设计模块DJXT，主要对炮弹和火箭弹库记录的各种弹种进行条件逐级查询，最终达到图形浏览、插入、打开或参数化绘图的目的，且可在AutoCAD环境中编辑、完善或输出。编辑模块EEDIT主要用于对炮弹和火箭弹库的记录进行逻辑删除、恢复和添加，目的是提高查询速度，保证系统对特定用户开放。工作库编辑模块WEDIT，是针对工作库进行的图形文件删除、图形插入和打开，以方便用户操作，提高工作效率。工作库存储模块WSAVE，其设计目的是维护炮弹库和火箭弹库的独立性和保密性，保证用户工作的连续、快捷。
+
+图2　图形库功能模块
+　　上述的交互界面，利用AutoCAD R12. 0提供的可编程对话框接口(PDB)和部分的菜单方式，所有库查询、检索、参数数据管理和对话框驱动使用ADS，Autolisp语言用于参数化绘图，这样做使得各种语言各尽其长。图形库系统与AutoCAD系统浑然一体，整个操作包括图形库的挂接、   卸载均可靠、方便、快速，有效地保证了弹箭系统操作的即时性。下面是ADS实现条件查询的回调函数部分程序段：
+　　static struct dan*creat(void)；
+　　void CALLB condition_list(ads_callback_packet *cpkt)
+　　{
+　　char cont[TILE_STR_LIMIT],show[TILE_STR_LIMIT];
+　　char list[TILE_STR_LIMIT];
+　　int n=0;
+　　DAN*p,*p1,*pchead=NULL;
+　　ads_get_tile(cpkt->dialog,"radio3_key",cont,TILE_STR_LIMIT);
+　　creat();/*生成用户所选择弹种的链表(phead为头指针)*/
+　　p=phead;
+　　p1=phead;
+　　　　ads_start_list(cpkt->dialog,"search_key",LIST_NEW,0);
+　　do{if(strcmp(cont,"gno_key")==0) strcpy(show,p->gno);
+　　if(strcmp(cont,"date_key")==0) strcpy(show,p->date);
+　　if(strcmp(cont,"dia_key")==0) strcpy(show,p->dia);
+　　if(strcmp(show,cpkt->value)==0){
+　　　　n=n+1;
+　　　　if(n=1) pchead=p;
+　　　　else p1->next=p;
+　　　　p1=p;
+　　　　strcpy(list,"代号：");
+　　　　strcat(list,p->gno);
+　　　　strcat(list," ")
+　　　　strcat(list,p->date);
+　　　　strcat(list,"年")
+　　　　strcat(list,p->dia);
+　　　　strcat(list,"毫米");
+　　　　ads_add_list(list);
+　　　　　　　　　　　　　　　}
+　　　p=p->next;
+　　}while(p!=NULL);
+　ads_end_list();
+　if(n==0)
+　　ads_set_tile(cpkt->dialog,"error","无符合条件的弹种!!");
+　　else {p1->next=NULL;
+　　　　ads_set_tile(cpkt->dialog,"error"," ");
+　　　ads_mode_tile(cpkt->dialog,"search_key",MODE_SETFOCUS);
+　　return;
+　}
+　　由此可看出，使用对话框的用户接口程序编程，具有比一般编程更强的错误检查和预见功能。
+4　关键技术
+　　(1)查询设计模块中应用程序间的通信
+　　Autolisp是嵌入AutoCAD内部的解释型语言，而ADS应用程序是一系列经过编译和连接的C函数，这些函数作为AutoCAD的外部函数，由Autolisp控制，故ADS应用程序无法调用Autolisp函数。为解决这种情况下的通信问题，   作者设计了下面程序段，即用Autolisp语言作为主调函数，使ADS应用程序与Autolisp应用程序有机地集成在函数内部，从而提供了解决这类问题的方法和思路。若将执行命令编制到AutoCAD菜单文件中，则运行是相当简捷方便的。
+(defun C:r_djxt(/newstr)
+　(xload“djxtk”)；装入编译连接成功的“djxtk.exe”
+　(setq newstr(C:djxt))；调用ADS定义的外部C函数djxt()
+　(装入与newstr相关的Autolisp绘图程序)
+　(用数据驱动Autolisp应用程序)
+　(xunload“djxtk”)；卸载
+)
+　　djxt()为ADS应用程序“djxtk.exe”中所定义的外部C函数，ADS要求所有通过ADS_LINK()与Autolisp通信的函数，只能且必需返回一个整数值，即使使用ADS_REGFUNC()注册的直接与Auolisp通信的外部函数，也只能返回一个整数RSRSLT或RSERR，如果使用其它值，则可能导致应用程序崩溃，因此在设计ADS程序时，只能用ADS提供的函数ads_retstr(str)将代表数据库文件名的字符串newstr传给主调函数，以实现对Autolisp应用程序的驱动，newstr是两种应用程序间通信的纽带，这种将“数据独立于程序”和“数据驱动应用程序”的技术，也是现代CAD/CAM发展的要求。
+(2)　对Autolisp绘图程序的驱动问题
+　　ADS应用程序将代表数据库文件名的newstr传给主调函数，如何在程序内部简洁地实现newstr对绘图程序的驱动，是非常关键的问题。本系统设计了一种巧妙的办法，定义每一个绘图程序与newstr对应的文件名相同，在所有程序内部定义相同的自定义绘图函数名，如drv(li)，其中li为数据联结表，这样不同绘图程序定义的相同绘图函数在不同的数据表驱动下完成的功能是不同的，在程序内部仅用一条语句就可以解决各种数据对相应应用程序的驱动，这种解决方法同样适用于其它语言。下面为驱动程序段：
+　　　　：
+　　(setq newstr (c:djxt))
+　　(if(!=newstr“ ”)
+　　(打开文件生成数据联结表li)
+　　(load newstr)
+　　(drv li)
+　　)
+　　　　：
+(3)参数数据可视化管理
+　　实现参数化绘图，必然要解决参数的输入和编辑问题。作者针对现有参数输入和AutoCAD R12.0提供的ASE接口进行外部数据库数据管理的缺陷，特设计了一个基于图形绘制的通用数据交互管理模块(在此不做专门介绍)。它使所有参数可视化，用户仅在一个对话框环境中，就可快速、方便地实现所有参数的查询、编辑和存储，并驱动应用程序，对话框还设置了便于用户选择修改的幻灯模板。该模块与弹箭查询模块融为一体，真正达到了集查询、设计于一体的目的。
+5　结论
+　　弹箭系统图形库的设计方法很多，实现管理的技术也是复杂多样的，需要在长期的探索中总结、完善。目前在预使用期，用户反映良好，基本上达到了创建图形库的目的。
+作者简介：杜淑幸　女，33岁，硕士，主要从事机械CAD，计算机图形学和数据库方面的教学和科研工作
+作者单位：西安电子科学电子机械学院西安　710071
+参考文献
+　1　Bown.Human-computer Interface Design Guideline.1988
+　2　方铁编著.AutoCAD C语言高级编程.北京：清华大学出版社,1995
+　3　Marcus A,Andries V D.User-interface Development for the Nineties.IEEE Computer， 1991，24(9)：49-57
+　4　Kleinfeldt S，et al.Design Methodology Managment.Proceeding of the IEEE，1994，82(2)：393-436
+　5　许社教主编.计算机绘图.西安：西安电子科技大学，1998
+　6　现民，晓志译.AutoCAD应用开发工具大全.北京：清华大学出版社，1994
+收稿日期:1998-08-03

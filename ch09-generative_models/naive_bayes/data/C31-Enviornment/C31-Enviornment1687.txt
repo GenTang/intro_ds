@@ -1,0 +1,107 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+一种工程菌的高酶活及其固定化细胞对农药的降解
+闫艳春　乔传令　周晓涛
+摘要：将抗性尖音库蚊五带亚种的抗有机磷农药基因克隆到质粒pRL-439中.经检测,重组质粒中的酯酶基因已得到表达,获得高酶活的工程菌.将工程菌固定化后对两类难降解农药(有机氯、菊酯类)进行降解,结果表明,固定化细胞在1h内对上两类农药可降解90%以上, 具有很高的降解效力.
+关键词：酯酶基因；工程菌；细胞固定化；降解农药
+中图分类号：X171 文献标识码：A 文章编号：1000- 6923(1999)05- 0461- 05
+High enzyme activity of an engineered bacteria and degradation of pesticides by immobilized cells.
+YAN Yan-chun1,QIAO Chuan-ling2,ZHOU Xiao-tao3
+(1.College of Life Sciences,Shandong Agricultural University,Taian 271018, China；2.Institute of Zoology,Chinese Academy of Sciences,Beijing 100080,China；3.College of Life Sciences,Peking University,Beijing 100871, China). China environmental Science.1999,19(5)：461～465 
+Abstract：Culex pipiens quinquefasciatus, a gene inducing resistance to organophosphate pesticide was cloned into plasmid pRL-439.Expression of recombinant plasmid containing esterase gene was detected. An engineered bacterium possessing high enzyme activity was obtained and immobilized. Assays showed that more than 90% of either acetofenate (7504 an organic chloride pesticide) or pyrethroids was degraded by the immobilized cells within one hour.
+Key words：esterase gene；engineered bacteria；immobilized cell；degradation of pesticide
+　　固定化微生物处理废水是近10年发展起来的废水处理新技术[1].由于可选择高浓度固定各种优势菌种,在含难降解有机物工业废水中的应用越来越受到重视,利用转基因微生物降解有机污染物更是研究热点[2].农田长期过量施用农药,严重破坏了生态平衡,造成土壤、水质及大气污染,有毒物质也易被生物富集,使作物及食品中残留量毒性增加,给人、畜带来潜在危害.
+　　本研究所用抗性尖音库蚊五带亚种(Culex pipiens quinquefasciatus)的酯酶基因至少可扩增250倍,抗性倍数达500倍[3].本文利用该酯酶基因的表达产物可将农药降解而使其失去毒杀作用的机理,将抗性库蚊的酯酶基因克隆、在大肠杆菌中的表达以及表达产物酶活的提高和将该工程菌固定化后对有机氯农药7504、菊酯类农药(Decis)溴氰菊酯进行降解.结果表明,固定化的工程菌能高效地降解这两类农药.国内外尚未见到有关该酯酶基因表达产物的研究报道.
+1 材料和方法
+1.1 材料
+1.1.1 细菌与质粒 大肠杆菌HB101,转化受体菌;大肠杆菌质粒pRL-439,抗性标记为Ampr,多克隆位点接受B1-cDNA的插入,由中科院植物所施定基教授提供;大肠杆菌质粒pUC19-B1,抗性标记为Ampr,目的基因,由法国蒙贝利埃大学Michel Raymond教授提供.
+1.1.2 培养基 LB培养基 按文献[4] 配制.
+1.1.3 抗生素 氨苄青霉素(Ampr,ampicillin).
+1.1.4 主要酶制剂 所用工具酶包括各种限制性内切酶、RNase、溶菌酶、DNA聚合酶I大片段、T4DNA连接酶、牛小肠碱性磷酸酶等均购自美国Promega公司.
+1.2 方法
+1.2.1 DNA的操作 质粒提取、限制性内切酶酶切反应、琼脂糖凝胶电泳、DNA片段的分离与回收、DNA连接、转化以及点杂交等,均按文献[4,5]方法进行.
+1.2.2 大肠杆菌感受态细胞的制备和转化 按文献[4,5]方法进行.
+1.2.3 Western印迹分析 按文献[6,7]方法进行.
+1.2.4 重组菌的酯酶酶活性分析[8] 酯酶与其特异性底物a -乙酸萘酯(a -NA)和b -乙酸萘酯(b -NA)作用后,该反应产物的量与OD值成正比,重组菌中含酯酶的量愈多则OD值愈高,据此推测重组菌的酯酶酶活的高低.研究取不同时间的反应物进行酶活分析,挑取转基因的大肠杆菌菌落,转入20mL LB液体培养基中(含氨苄青霉素100m g/mL),于37℃培养过夜;按表1加样处理;向各试管加入0.5mL DBLS,室温静置15min;测定OD600(β-NA为OD555)吸收值.
+表1 重组菌酶活性分析体系组成
+Table1 Enzyme analysis system of recombinant bacteria
+
+试管
+编号磷酸缓冲液(mL)a -NA(或b -NA)*(m L)大肠杆菌菌液(mL)37℃培养时间(h)
+11.3501.21
+21.3501.22
+31.3501.23
+41.3501.24
+51.3501.25
+61.3501.26
+
+注: * 浓度为0.01117g/mL
+1.2.5 溶液的配制 磷酸缓冲液(pH7.0): 57.7g Na2HPO4,42.3g NaH2PO4,溶于100mLH2O,加入1%的TritonX-100;DBLS溶液:1%固兰B加5%SDS(1%固兰B:5%SDS=2:5),现配现用;试剂空白,用乙醇代替试样.
+1.2.6 工程菌的固定化[9] 挑取转基因的大肠杆菌菌落,转入250mL LB液体培养基中(含氨苄青霉素100m g/mL),于37℃培养过夜;5000 r/min离心7min,收集细胞;用ddH2O洗涤细胞2次;取1g湿重细胞,加入到9g 3%的海藻酸钠(pH7.0)中,充分混匀;用内径3mm的滴管向3%的CaCl2(pH7.0)溶液中滴加上述混合菌液,滴加时不断搅拌;成球后静置1h(室温);取出固定球,用ddH2O洗涤３次,以除去多余离子.
+1.2.7 固定化细胞与a -NA、7504和溴氰菊酯的作用及气相色谱(GC)检测[10] 固定化细胞的酶活测定,工程菌按步骤1.2.6固定,将固定球转入100mL三角瓶中,加入51mL H2O,6mL 5% TritonX-100,3mL a -NA (0.01117g/mL),充分混匀后置于30℃摇床摇动,使其充分反应;每隔24h取出2.5mL处理液,加入0.5mL DBLS溶液,室温静置15min;测定OD600吸收值. 固定化细胞与7504的作用:固定化的细胞小球转入100mL三角瓶中,加入20mL H2O, 1mL 2% TritonX-100 (未加入包埋细胞取水样,加入包埋细胞后取0时样),5m L 7504(2.72mg/mL),充分混匀后置于30℃摇床摇动,使其充分反应;每隔1h取出1mL处理液置于5mL试管中,1mL样品中加入1mL重蒸正己烷,在混旋器上振荡3min充分混匀;6500r/min离心15min,取上清液留作检测用;取出上清液后的剩余部分中再加入1mL重蒸正己烷,在混旋器上振荡3min充分混匀;6500r/min离心15min,取上清液并与上次取出的上清液合并后作为检测样品.
+　　气相色谱(GC)条件,电子捕获检测器,25m HP-1毛细柱,内径0.32mm,检测器温度320℃,进样口温度290℃,柱温250℃,载气为高纯N2,流速为1mL/min.固定化细胞与农药溴氰菊酯作用:往100mL已有固定化细胞的三角瓶中,加入40 mLH2O,1.6mL 5%TritonX-100,10m Ldecis (1′ 10-4 mol/L),充分混匀后置于30℃摇床摇动,使其充分反应;其它步骤同以上固定化细胞与7504的作用.气相色谱(GC)条件,与固定化细胞与7504的作用相同,只是进样口温度295℃,柱温280℃.
+2 结果与讨论
+2.1 pRLB1的构建
+2.1.1 重组质粒的方向鉴定 将pUC19-B1、pRL-439质粒用EcoR I消化后分别得到1.33、2.70kb的片段,再连接、转化大肠杆菌,获克隆化质粒4.03kb的pRL-B1(构建图略).对构建的重组质粒pRL-B1分别用Xba I和Bam H I限制性内切酶酶切、琼脂糖凝胶电泳分析进行方向鉴定(图1).由图1可见,在3个随机重组子中, B道(随机编为3号)切得两条可见片段.根据质粒图谱可知,若为正向克隆,Bam HI应切出两段,一段与pRL-439分子量相近(稍大于2.7kb),另一段分子量略小于B1-cDNA(小于1.33kb);用Xba I则只能切出一条带,3号重组子所切片段大小与理论推测一致,为正向克隆.C道和D道(随机编号为No.2和No.1)切得一条片段,为反向克隆.以下使用正向重组子pRL-B1(3号).
+
+图1 3个重组子BamHI酶切后0.8%琼脂糖凝胶电泳鉴定正向克隆
+Fig.1 Restriction patterns of three recombinant plasmids DNAs digested by Bam HI, EcoR I and Xba Ito identify positive clone
+A.pUC-B1/EcoRI B.No.3/BamH I C.No.2/BamH I D.No.1/BamH I E.No.3/Xba I
+2.1.2 斑点杂交(dot-blotting)分析 用[a -32P] dATP标记pUC-B1的EcoRI酶切回收片段,以此作为探针,对重组子pRL-B1和所用载体pRL-439进行斑点杂交, 结果如图2所示.pRL-439为阴性,重组子pRL-B1呈阳性杂交斑点.
+　　由图1和图2可看出,重组质粒中的目的片段B1-cDNA已插入载体pRL-439的多克隆位点.
+
+图2 重组质粒pRL-B1的斑点杂交
+Fig.2 Dot hybridization of recombinant plasmid pRL-B1 labelled with [a -32P]dATP
+2.2 pRL-B1在大肠杆菌中的表达和检测
+2.2.1 工程菌的酯酶活性测定 为了检测酯酶基因B1的表达,以酯酶的特异性底物a -NA和b -NA为底物测定酶的活性,从而推测B1基因的表达情况.第一代工程菌HB101/pRL-B1: 共重复4次,反应趋势一致(图略,曲线形状与图3相似).第二代工程菌HB101/pRL-B1,从第一代实验知B1基因已得到表达,表达性状是否能稳定遗传,需做工程菌HB101/pRL-B1对a -NA降解的传代研究.取第二代工程菌菌液进行研究,同时以pRL-439的大肠杆菌菌液作对照.重复4次,反应趋势一致, 实验结果见图3.
+
+图3 重组质粒pRL-B1脱毒功能的酶活分析
+(第二代,不同时间)
+Fig.3 Enzyme activity analysis of detoxification 
+of pRL-B1(second generation, different time)
+　　从第一,第二代的实验数据得知,B1基因已得到表达且能稳定遗传,为更进一步证实该菌株的表达可稳定遗传,又做了第三代研究, 反应趋势基本与第二代相同.
+　　由第一,第二,第三代工程菌的酯酶酶活测定可知,一定波长下,pRL-B1组的吸收值显著高于对照组,说明B1-cDNA不仅插入载体pRL-439的多克隆位点,而且在E.coli中具有较高的表达效率;随着反应时间的增加,pRL-B1的吸收值显著增加;从传代实验中可看出,pRL-B1可稳定遗传;在细胞微环境中,质粒pRL-B1中酯酶基因的表达同蚊虫一致,其机制可能是基因扩增,由此引起表达产物大量增加,所以在同该酶的底物作用时活性呈上升趋势.据此推测重组质粒上酯酶基因将会随农药的选择而逐代扩增,从而使酯酶活性逐代增强,对农药的降解也将呈增加趋势.
+2.2.2 重组质粒中B1基因在大肠杆菌中表达的Western印迹分析 根据重组质粒pRL-B1细菌培养物的酶活分析,B1基因在大肠杆菌中有高效表达.本研究在理论上的系统性、完整性需进行Western印迹分析(图略).
+　　Western印迹分析进一步确证,B1基因在大肠杆菌中得到表达.工程菌HB101/pRL-B1对a -NA(b -NA)的高效分解正是酯酶的特性,由此可知它不仅可表达酯酶B1,而且有高的表达效率.
+2.3 工程菌的固定化
+　　为使工程菌更有应用价值,充分发挥酯酶的活力,首先将工程菌固定化,为制得降解有毒、有害、难降解物质的生物反应器提供依据.根据质粒pRL-B1在E. coli中的高效表达,作者研究了工程菌HB101/pRL-B1的固定化.
+　　用3%的海藻酸钠按方法1.2.6对工程菌进行包埋固定,细胞湿重一般在10%～20%.根据多次实验,研究取细胞的包埋量为10%.包埋在3%CaCl2溶液中交联(固定化细胞外形图略).还进行了包埋细胞脱毒使用后活化再生实验,一般包埋细胞的活性可保持一周.将包埋有细胞的固定小球在使用两周后,放入LB培养液中,在包埋前的培养条件下进行活化再生.活化后的固定细胞仍具有很高的降解a -NA和b -NA的能力,说明pRL-B1固定化细胞具有良好的活化再生性能.
+2.4 固定化细胞对a -NA、农药的降解
+2.4.1 固定化细胞对a -NA的降解 将样品用重蒸正己烷抽提,抽提液用于GC检测分析.分析结果如图4所示.由图4可知,固定化的工程菌对a -NA有较高的降解趋势.
+
+图4 固定化E.coli脱毒功能的酶活测定
+Fig.4 Enzyme activity analysis of detoxification of immobilized E.coli
+2.4.2 固定化细胞对溴氰菊酯的降解 将样品用重蒸正己烷抽提,抽提液用于GC检测分析.结果如图5所示.由图5可知,降解速率差异显著区在0～1h,此区间pRL-B1对Decis快速降解.
+
+图5 固定化E.coli对农药溴氰菊酯的降解
+Fig.5 Degradation of Decis by immobilized E.coli
+2.4.3 工程菌对7504的降解 将样品用重蒸正己烷抽提,抽提液用于GC检测分析.分析结果如图6所示.由图6可知,固定化细胞HB101/pRL-B1对7504有较高的降解效率,降解速率差异最大处在0～1h.
+　　由以上包埋细胞对a -NA、Decis和7504的降解实验知,HB101/pRL-B1的E. coli是可包埋的,且活化、再生性能良好;包埋后的细胞对有机氯类、菊酯类农药有良好的降解效果.离体鼠肝细胞对7504在40min时的降解速率为93.9%[10],包埋后的细胞对7504在1h时的降解速率是56.2%;其对菊酯类农药也有较好的降解效果.离体鼠肝细胞对Decis在40min时的降解速率为73.4%[10],包埋后的细胞对Decis在1h的降解速率是66.2%;由以上结果可知,该菌株可作为研制生物反应器的工程菌.
+
+图6 固定化E.coli对7504的降解
+Fig.6 Degradation of 7504 by immobilized E.coli
+3 讨论
+　　运用基因工程技术,将能分解菊酯类、氨基甲酸酯类、有机磷类等农药的解毒酶基因转入大肠杆菌,针对环境中的农药污染进行研究,这为生物工程技术在环境保护上的应用开辟了新的方向,为工程菌实际应用于农药污染的治理打下了坚实的基础,同时,将抗性库蚊的解毒酶基因转入大肠杆菌并得到表达,在理论上有一定的意义.
+　　实验结果表明,利用固定化微生物法处理被农药污染体系,具有高效、快速的特点,而且克服了悬浮生物法的各种弊端,也更有利于基因工程的应用.
+　　本研究中,用酯酶的特异性底物检测工程菌的酯酶活性,由实验可知,工程菌具有高酶活,基于这一特性,将其固定化后再测定对农药溴氰菊酯和7504的降解,同样得到满意的实验结果,说明转入的解毒酶基因得到充分表达.将此工程菌固定化制成生物反应器用于处理被农药等难降解有毒有机物污染的水,将是一项体现多学科间的交叉和相互渗透、体现宏观和微观不同层次的研究相结合,从单一的治理方法向综合化、模型化发展,把分子生物学和遗传工程高新技术的研究同宏观的一般水污染治理、监测相结合的综合方法,应用前景十分喜人.
+基金项目：国家自然科学基金资助项目(39680001);山东省自然科学基金资助项目(Y98D16064)
+作者简介：闫艳春(1959-),女,安徽宿县人,山东农业大学生命科学学院微生物系副教授,主要从事环境污染的生物整治和分子生物学方面的教学与研究工作.曾参加国家自然科学基金项目“蓝藻光生物反应器的研究”的研究工作.现主持山东省科委项目“蓝藻光生物反应器的研制”和山东省自然科学基金项目“工程菌生物反应器的研究”的研究工作.发表论文10余篇.
+作者单位：闫艳春　山东农业大学生命科学学院,山东 泰安 271018
+　　　　　乔传令　中国科学院动物研究所,北京 100080
+　　　　　周晓涛　北京大学生命科学院,北京 100871
+参考文献：
+　[1]黄 霞,陈 戈,邵林广等. 固定化优势菌种处理焦化废水中几种难降解有机物的试验研究 [J].环境科学,1995,15(1):1- 4.
+　[2]Pimentel D. Environmental and economic effects of reducing pesticide use [J]. Bioscience, 1991,41:402- 409.
+　[3]Mouchs C, Pauplin Y, Agarwal M, et al. Characterization of amplification core and esterase B1 gene responsible for insecticide resistance in Culex [J]. Proc. Natl. Acad. Sci. U.S.A., 1990, 87: 2574- 2578.
+　[4]Sambrook J, Fritsch E F, Maniatis T.Molecular cloning: a laboratory manual. 2nd ed [M]. Beijing: Science Publishing House, 1992.
+　[5]卢圣栋. 现代分子生物学实验技术 [M]. 北京: 高等教育出版社, 1993.
+　[6]Towbin H, Staehelin T, Gordon J. Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications [J]. Proc. Natl. Acad. Sci., 1979, 76(9): 4350- 4354.
+　[7]Mouchs C, Pasteur N, Bergé J B, et al. Amplification of an esterase gene is responsible for insecticide resistance in a California Culex mosquito [J]. Science. 1986, 233: 778- 780.
+　[8]Ellman G L, Courtney R D, Andres V, et al. A new and rapid colorimetric determination of Acetylcholinesterase activity [J]. Biochem. Pharmacol. 1961, 7: 88- 95.
+　[9]韩树琴, 杨惠芳. 用混合细菌89-01固定化细胞去除合成洗涤剂废水中LAS [J]. 微生物学通报, 1992,19(2):88- 91.
+　[10]冷欣夫,乔传令. 离体鼠肝细胞对溴氰菊酯、三氯杀虫酯和DDT等的生物降解作用 [J]. 科学通报, 1986, 19: 1505- 1508.
+收稿日期：1998-12-21

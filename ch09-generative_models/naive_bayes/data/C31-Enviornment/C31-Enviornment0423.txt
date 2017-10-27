@@ -1,0 +1,75 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+糠醛生产废渣直接转化为复合肥—添加剂(I)
+配方与蒸馏条件的研究
+刘俊峰　易平贵　陈安国
+摘要：采用复合添加剂(I),以稻草(或麦杆)为原料,用硫酸酸化水解制取糠醛,研究了复合添加剂(I)各成分的含量和添加量以及蒸馏条件对渣酸度的影响.结果表明,以20%(wt/wt,%)硫酸,液固比为3:1～4:1(wt/wt),复合添加剂(I)与原料的比为0.2:1(wt/wt),添加剂(I)配方为:磷酸钙70%,磷酸和重钙5%～10%,亚硫酸氢钠和碳酸钙3%～5%,助剂(III)5%～10%;蒸馏温度110～130℃,时间2.5～3.0h,出醛率可达理论量的80%以上,废渣全部转化为中性复合肥.
+关键词：稻草；麦杆；糠醛；废渣；复合肥
+中图分类号：X705 文献标识码：A 文章编号：1000- 6923(1999)03- 0223- 04
+Study on the waste settlings to become complex fertilizer in process of producing fufural—the compounding ingredient of the additive (I) and the conditions of the distillation. 
+LIU Jun-feng,YI Ping-gui,CHEN An-guo
+(Department of Chemical Engineering,Xiangtan Polytechnic University , Xiangtan 411201,China). China Environmental Science. 1999,19(3)：223～225
+Abstract：The complex additive(I) was used in producing furfural from straw of rice (or straw of wheat) by the hydrolysis with sulfuric acid.The effect of the amount of the additive added,the content of the additive components and the conditions of the distillation on the acidity of the settling were studied. The results show that in the following conditions: sulfuric acid concentration 20%,ratio of liquid to solid 3:1～4:1 (by weight),ratio of the complex additive (I) to raw material 0.2:1 (by weight),the complex additive (I) containing calcium phosphate 70%,phosphoric acid 5%～10%.calcium over－super phosphate 5%～10%,calcium carbonate 3%～5% and sodium hydrosulphite 3%～5%,additive (III) 5%～10%. distilling temperature 110～130℃, and time 2.5～3h,all the waste settling become neutral complex fertilizer after the distillation completed. In the same conditions,the productivity of furfural is above 80% of the theoretical value.
+Key words：straw of rice；straw of wheat；furfural；waste settling；complex fertilizer 
+　　糠醛是一种重要的化工原料和溶剂,用途不断扩大,产量逐年增加.由于糠醛生产废渣排放量大,如不及时处理,将对环境造成严重影响.目前,对糠醛生产废渣的处理方法大致有如下几种[1]:直接用作锅炉燃料,此法能够节约燃煤,但对锅炉腐蚀性大,同时也会造成二次污染;用作纸浆原料,由于废渣含酸较多,处理较麻烦;用废渣生产活性炭、乙酰丙酸、山梨酸等,但设备复杂、技术要求高,难于普及推广.作者[2]曾报道过采用单独添加过磷酸钙、重钙和复合添加剂使糠醛生产废渣直接转化为中性复合肥的研究.国外研究采用加入过磷酸钙、金属硫酸盐催化水解制取糠醛[3-5].本研究以稻草、麦杆为原料,用硫酸为催化剂,常压水解制取糠醛,进一步试验了复合添加剂(Ⅰ)中各成分的含量(主要成分为磷酸钙、磷酸、重钙、亚硫酸氢钠、碳酸钙等)、添加量和水解条件对渣pH值的影响.
+1 实　验
+1.1 实验原理
+　　稻草、麦杆等原料中的多缩戊糖在酸的作用下水解变成戊糖,再缩合变成糠醛.加入复合添加剂的主要作用是中和硫酸,同时在反应中由于产生盐效应而不使酸度下降太快,其中有些助剂还可提高出醛率.
+1.2 原料与仪器
+　　稻草、麦杆取自于当地农村;磷酸、硫酸、亚硫酸氢钠(化学纯),磷酸钙、重钙、碳酸钙(工业纯),其中磷酸钙用精磷矿粉代替.实验仪器:1000mL三颈烧瓶;调温电加热器;温控仪;25型酸度计.
+1.3 实验方法
+　　将稻草(或麦杆)切成长1～3cm,加入硫酸溶液中,再加入复合添加剂(I),混匀,装入三颈烧瓶,常压蒸馏,收集馏分.用10g蒸馏糠醛后未经洗涤的渣浸入400mL水中,搅拌12h,过滤,然后用酸度计测定滤液的pH值.
+　　采用常规化学方法测定渣中有效磷(折算成P2O5)和钾(折算成K2O)的含量.
+2　结果与讨论
+2.1 添加剂(I)主要成分含量对渣pH值的影响
+　　在其它条件相同的情况下复合添加剂(I)中主要成分含量对渣pH值的影响,结果如图1所示.
+
+图1 复合添加剂(I)中主要成分含量对渣pH值的影响
+Fig.1 Effect of major matters content in complex additive (I) on value of pH of settling
+1.磷酸钙 2.重钙 3.磷酸
+　　由图1可见,复合添加剂(I)中磷酸钙含量为70%,蒸馏后渣的pH值接近于7,且出醛率较高.加入磷酸钙的量增多,酸度虽然降低,但出醛率下降,且伴随有大量硫化物气体产生.磷酸的量也不宜加入太多,否则除了使渣的酸度增大外,还会增加生产成本.磷酸和重钙的量一般应控制在5%～10% 范围内(占复合添加剂总重,下同).
+2.2 助剂含量对渣pH值的影响
+　　复合添加剂(I)中助剂含量对渣pH值的影响如图2所示.
+
+图2　复合添加剂(I)中助剂含量对渣pH值的影响
+Fig.2 Effect of assistant content in complex additive (I) on value of pH of settling
+1.亚硫酸氢钠 2.碳酸钙 3.助剂(III)
+　　由图2可见,亚硫酸氢钠和碳酸钙的加入,有助于降低渣的酸度,且亚硫酸氢钠还可提高出醛率;碳酸钙可作为一种缚酸剂,同时还可吸收蒸馏时产生的少量硫化物气体.亚硫酸氢钠加入量过多,放出的二氧化硫气体增多,所消耗的吸收剂增多;同时酸度下降过快,出醛率降低.所以, 碳酸钙和亚硫酸氢钠的加入量以3%～5%为宜.助剂(III)的加入使渣的酸度有所上升,但适量的助剂可以提高出醛率.助剂(III)的加入量以5%～10%为宜.
+2.3 蒸馏温度对渣pH值的影响
+　　不同蒸馏温度对渣pH值的影响,结果表明,蒸馏温度升高,渣的pH值随之升高,提高蒸馏温度还可提高出醛率,但蒸馏温度受酸和盐溶液的浓度以及压力所限制,很难随意提高.
+2.4 蒸馏时间对渣pH值的影响
+　　加入复合添加剂(I)控制不同蒸馏时间对渣pH值的影响,结果如图3.
+　　由图3可见,蒸馏时间延长,添加剂与酸反应较完全,渣的酸度降低.但蒸馏时间过长,醛易发生氧化、聚合等副反应,产率下降.所以,应适当提高蒸馏温度和设计蒸馏效率高的反应器(如适当提高高径比),缩短蒸馏时间,同时添加剂又能够有效地与酸发生中和反应,降低渣的酸度.蒸馏时间控制在2.5～3h为宜.
+2.5 蒸馏时补水量对渣pH值的影响
+　　蒸馏时不同补水量对渣酸度的影响,结果如图4所示.
+
+图3　蒸馏时间对渣pH值的影响
+Fig.3 Effect of distilling time on value of pH of settlings
+
+图4　蒸馏时补水量对渣pH值的影响
+Fig.4 Effect of water amount on value of pH of settlings
+　　由图4可见,当含水量在300%～500%时,蒸馏后渣的pH值≥6.含水量不足或过多,中和反应都不能有效地进行,蒸馏后渣的酸度较大.
+2.6 添加剂与原料配比对渣pH值的影响
+　　测定加入不同量的复合添加剂(I)蒸馏后渣的pH值,结果表明,加入复合添加剂(I)为原料量的20%～25%(wt %)时,蒸馏后渣的pH值约为7.
+2.7 蒸馏后渣的有效成分
+　　测定了加入复合添加剂(I)蒸馏后渣的有效磷和钾的含量.其有效磷(折合成P2O5)含量为12.43%(wt%),钾(折合成K2O)含量为0.65%,符合复合磷钾肥企业标准,且稻草及麦杆腐化后还可进一步提高肥效,渣不含有害成分,对环境无污染,也不会损害土壤和作物.
+3　结　论
+3.1 采用复合添加剂(I),以稻草、麦杆及其它植物秸杆为原料,用硫酸催化水解制取糠醛,出醛率高,特别是废渣全部转化为复合肥料,消除了大量废渣对环境的污染.
+3.2 复合添加剂(I)的适宜配方为:磷酸钙含量为70%(wt %,下同),磷酸和重钙为5%～10%,亚硫酸氢钠和碳酸钙为3%～5%,助剂(III)为5%～10%;添加量为原料量的20%～25% .
+3.3 蒸馏时含水量控制在300%～500%(水分占原料,wt%),保持温度110～130℃,蒸馏2.5～3h,渣的pH值近于7,且出醛率较高.
+3.4 本法采用的添加剂成本较低,添加量较少,废气排放少,容易处理,如原料比配合得当,蒸馏时无结疤现象.
+3.5 采用常压蒸馏,设备要求不高,投资较低,无新的环境污染,具有良好的工业应用前景.
+基金项目：湖南省“八五”科技攻关项目(0194257)
+作者简介：刘俊峰(1957-),男,湖南邵阳人,湘潭工学院化学工程系有机化工硕士,副教授,主要从事有机合成和环境保护方面的教学和研究工作.承担和参加“二甘醇乙醚合成新工艺研究”、“合成气联产液化燃气研究”、“煤电化学脱硫研究”和“糠醛生产新技术研究”等国家、省部级多项科研课题.发表论文近30篇(其中EI、CA摘引22篇).
+作者单位：（湘潭工学院化学工程系,湖南 湘潭 411201）
+参考文献：
+[1]柯斌清. 糠醛生产技术进展 [J].化工时刊,1993,(7):20- 23.
+[2]刘俊峰,易平贵,金一粟. 糠醛生产废渣直接转化为复合肥的研究 [J].环境科学,1996,17(3):41- 43.
+[3]Parajo J C.On the behavior of liqnin and hemicelluloses during the acetosolv processing of wood [J].Bioresour.Technol.,1993, 46(3):233- 240.
+[4]Vedernikov N A.Kinetics of furfural formation from xylose in metal sulfate solution—furfural formation at atmospheric pressure [J].Khim Drev.,1993,5: 30- 35.
+[5]Vedernikov N A. Kinetics of furfural formation from pentosic monosac-charides under conditions of heterogeneous catalysis. 1.pentese dehydratio on the surface of graulated super-phosphates [J]. Khim. Drev.,1993, 6: 19- 26.
+收稿日期：1998-09-07

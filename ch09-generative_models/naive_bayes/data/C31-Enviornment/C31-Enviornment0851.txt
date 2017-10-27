@@ -1,0 +1,98 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+用氧吸收速率(OUR)表征活性污泥硝化活性的研究
+王建龙　吴立波　齐　星　钱　易
+摘要　研究了用氧吸收速率(Oxygen Uptake Rate,简称OUR)表征活性污泥 硝化活性的方法.利用生物抑制剂丙烯基硫脲(allylthiourea,简称ATU)和氯酸钠(NaClO3 )可以选择性地抑制亚硝酸细菌和硝酸细菌的活性.通过测量不同时间的OUR，可以分别计算 出污泥的亚硝化活性和硝化活性.结果表明：该方法的测量结果与实际反应器中的硝化反应 情况相当一致.该方法简单易行，快速方便，适用于硝化系统中硝化活性的测量.
+关键词　硝化活性；氧吸收速率；硝化；生物抑制剂；活性污泥.
+Characterization of nitrification activity of activated sludge by oxygen uptake rate (OUR)
+WANG Jianlong, WU Libo, QI Xing, QIAN Yi 
+State Key Joint Laboratory of Environment Simulation and Pollution Co ntrol,Department of Environmental Engineering,Tsinghua University,Beijing 100084  
+Abstract　A simple method was developed to characterize the nitrification activity by oxyg en uptake rate (OUR).The method was based on the subsequent addition of allylthi orea (ATU) and NaClO3,selective inhibitors of nitrate bacteria and nitrite bac teria respectively,to the mixed liquid sample of activated sludge in a closed ba t ch respirometer.The effect of nitrification inhibitors on the endogenous respira tion of activated sludge and the heterotrophic substrate oxidation were investig a ted.The repeatability tests were carried out and the results indicated that the average oxidation rates of NH4+-N and NO2--N were 12.6±0.3mg(O2)/ ( L.h) and 2.8±0.5mg(O2)/(L.h),respectively.The nitrification activity meas ure d by oxygen uptake rate was validated by determining the variation of nitrate in the running reactor.By means of simple measurement of OUR combined with the subs equent addition of two selective nitrification inhibitors,the oxidation rate of NH4+-N,NO2--N and COD can be obtained,which is helpful for control and optimization of nitrification process.
+Keywords　nitrificatiion activity,oxygen uptake rate,nitrificati on,inhibitor,activated sludge.
+　　　随着人们对水体富营养化的日益关注，脱氮除磷已成为水污染控制中的一项重要任务.硝化 反应是废水生物脱氮过程中的一个重要步骤，它是指将NH4+-N氧化成NO3--N的过程，这个过程必须在好氧条件下才能进行.硝化过程由亚硝酸细菌和硝酸细菌共同完成， 反应式可表示为：
+NH4++2O2→NO3-+H2O+2H+
+　　硝化反应受环境因素的影响很大.因此，在实际反应器运行中监测和调节反应器里的硝化过 程，了解硝化菌的活性非常重要.通常，基质(NH4＋-N)的减少和终产物(NO3--N)的增加能够为硝化过程的进行状况提供一些信息，但不能确切反映硝化菌的实际活性.如果能够直接测量硝化菌的活性变化，则为控制反应器中的硝化过程提供了更大的可能性.
+　　一般情况下，硝化活性可定义为单位污泥在单位时间内氧化的NH4+-N和NO2--N的量，根据硝化反应的原理，则可相应地以mg(O2)/(L..h)或mg(O2)/(g(MLSS).h)为单位表述为耗氧速率.
+　　 Nowak等人［1-3］在有特殊有机工业废水作为抑制剂存在时，测定了不同NH4+浓度下微生物的摄氧量，计算出硝化微生物的动力学参数，用来表示活性污泥的硝化活性.Vanrolleghem等人［4］利用呼吸仪测定了碳氧化和硝化的需氧量，即异养菌和硝化菌的活性.亚硝酸盐(NO2-)是硝化过程的中间产物，对生物有毒性，因此开发出快速有效的检测方法十分必要.研究表明，丙烯基硫脲(allylthiourea,简称ATU)可以抑制亚硝化菌的活性.Nowak等人［1，5］利用ATU为抑制剂，研究了活性污泥的硝化活性和碳氧化活性.他们先将活性污泥曝气，使废水中的有机物和NH4+彻底氧化，测定总的OUR，然后加入ATU抑制NH4+氧化，测量OUR，该方法可以区分碳氧化和硝化的需氧量，但不能测定出亚硝化活性.
+　　本文对用氧吸收速率(OUR)表征活性污泥的硝化活性进行了研究.该方法以向封闭型分批式呼吸计量仪中混合样品顺序投加硝酸细菌和亚硝酸细菌的选择性抑制剂为基础，使用的生物抑制剂为氯酸钠(NaClO3)和丙烯基硫脲(ATU).NaClO3在0.02mol/L的浓度下能够抑制硝酸细菌参与的NO2-氧化反应.NaClO3对亚硝酸细菌参与的NH4+氧化反应当时不产生影响，它对于亚硝酸细菌的抑制作用在大约30min后才能检测出，这是因为NaClO3缓慢转化成的NaClO2既抑制硝酸细菌，又抑制亚硝酸细菌.而本方法测定过程只需10 min左右即可完成，因而可以认为NaClO3只对NO2-氧化反应有抑制作用，而对NH4+氧化反应不产生抑制作用.ATU在5mg/L的浓度下能够抑制亚硝酸细菌参与的NH4+氧化反应.
+　　本方法是通过在特殊的实验装置中测量选择性抑制剂加入前后的混合液样品的OUR来确定硝酸细菌和亚硝酸细菌的活性.
+1　测定方法原理
+　　测量采用一个自制的完全封闭的呼吸仪，如图1所示.
+
+
+
+图1　测量硝化活性的实验装置图
+1.磁力搅拌器　2.溶解氧探头　3.呼吸计量仪　4.NaClO3和ATU的加入口
+Fig.1 Experimental setup for measuring nitrifying activity
+呼吸仪有一个与记录仪连接的溶解氧探头.待测的混合液样品从反应器中取出后，装入测量仪中，曝气充氧，使溶解氧接近饱和.在测量过程中水样利用磁力搅拌器进行混合.测量装置中试样的温度及pH与实际反应器中的保持一致.
+　　测定方法如下：首先测定总的OUR.在溶解氧浓度降低约3min后，向混合样中加入NaClO3(最终浓度达20mol/L或2.13g/L)，再测量OUR，总的OUR与NaClO3存在下的OUR之差可以看作亚硝酸盐氮的耗氧速率(如图2所示).在溶解氧继续降低约3min后，向混合样中加入ATU(最终浓度达5mg/L)，再测量OUR，NaClO3存在时的OUR与两种抑制--NaClO3和ATU都存在时的OUR之差代表氨氮氧化反应的耗氧速率.
+
+
+图2　用OUR测量硝化活性的实验原理图
+Fig.2 Schematic presentation of the measurement of nitrifying activity by OUR
+2　材料与方法
+2.1　实验装置
+　　采用常规的活性污泥法系统，接种污泥浓度约为4g/L.
+2.2　分析方法
+　　化学需氧量(COD)：采用重铬酸钾标准法测定.溶解氧(DO)：用YSI-58型溶解氧仪测定(Yellow Springs Instrument Co.,Ohio,USA).氨氮(NH4+-N)：采用纳氏比色法测定.亚硝酸盐氮(NO2--N)和硝酸盐氮(NO3--N):用离子色谱仪DX-100测定.
+　　氧吸收速率(OUR)：从反应器中取出定量的混合液进行曝气，使其中的DO饱和或接近饱和，然后在密闭容器中测量其DO浓度的变化，作DO-t曲线，同时测量其生物量(MLSS).
+根据DO-t曲线和生物量，按下列公式计算OUR：
+
+式中，OUR：单位质量污泥在单位时间内利用的氧量，mg(O2)/(g(MLSS).min);DO：溶解氧浓度，mg/L；t：测量时间，min;X:测量装置中生物固体浓度，g(MLSS)/L.
+3　结果与讨论
+3.1　硝化活性的测量结果
+　　利用本研究建立的方法对活性污泥的硝化活性进行了测试.取3份相同的污泥，加入标准基质溶液(其组成为：葡萄糖，200mg/L；NH4+-N(NH4Cl),10mg/L；NO2--N(NaNO2),5mg/L,用自来水配制.)，按不同方式进行OUR测定，实验结果如图3所示.
+
+
+图3　耗氧速率的测定结果
+Fig.3 The oxygen uptake rate of activated sludge
+　　图3结果表明，抑制剂加入前后污泥耗氧速率曲线的线性很好，可分别计算出其斜率，然后根据实验原理，将不同阶段的OUR相减，可得出亚硝化耗氧速率及硝化耗氧速率分别为0.19 mg(O2)/(g(MLSS).min)和0.29mg(O2/(g(MLSS).min).再取相同的污泥，按标准方法依次加入抑制剂，结果如图4所示.此连续实验得出的亚硝化活性与硝化活性分别为0.19 mg(O2)/(g(MLSS).min)和0.30mg(O2)/(g(MLSS).min).可以看出，用此方法进行硝化菌活性测定既简单又准确.
+
+
+图4　OUR连续测量结果
+Fig.4 The OUR of activated sludge with subsequent addition of nitrifying i nhibitors
+3.2　抑制剂对异养菌的影响
+　　异养菌的OUR包括两部分：基质氧化和内源呼吸的氧消耗.为了解抑制剂NaClO3和ATU对异养菌的影响，进行了以下两组实验.
+　　取一定量的活性污泥，空曝一天以后(使所有的能降解COD和氨氮得以转化).从中取出定量样品，加入蒸馏水，按标准方法依次加入NaClO3和ATU，测量OUR，得出DO变化曲线如图5(A).另取出相同量的污泥，加入葡萄糖标准液，使COD浓度达100mg/L,再按标准方法测量OUR，结果见图5(B).可以看出，本研究选用的生物抑制剂对异养菌的内源呼吸和有机物的氧化几乎没有影响.
+
+
+
+图5　抑制剂对异养菌的影响
+(A) 抑制剂对内源呼吸的影响　(B) 抑制剂对COD氧化的影响
+Fig.5 Effect of nitrifying inhibitors on heterotrophic bacteria
+(A) on endogenous respiration of activated sludge (B) on heterotrophic substrate oxidation
+3.3　可重复性实验
+　　为证明该方法的可靠性，本实验在利用其对硝化菌的活性进行监测的同时，还以一系列的独立实验对其进行了检验.
+　　从反应器中取出一定量的活性污泥进行一整天曝气，直至所有可降解的COD和氨氮都被转化(内源呼吸).将该污泥混合液分成10等份，向其中5份加入氨氮标准液(混合液初始浓度达10 mg(NH4+-N)/L),立即测量氨氮氧化速率，经计算得平均活性为12.6±0.3mg(O2)/(L.h)(图6A)).接着，按同样的方法向另5份污泥混合液中中加入亚硝酸盐氮标准液(混合液初始浓度为2mg(NO2--N)/L，因为实际反应器中NO2--N浓度很少能积累到2mg/L)，测量NO2--N氧化速率，得到平均氧化速率为2.8±0.5mg(O2)/(L.h)(图6(B)).由此可见，可重复性是很好的.
+
+
+图6　重现性实验结果
+(A) NH4+-N的氧化速率　(B) NO2--N的氧化速率
+Fig.6 The results of repeatability tests
+(A) oxidation rate of ammonium (B) oxidation rate of nitrite
+3.4　测量结果与实际运行情况的比较
+　　取一定量的污泥，在基质浓度为10mg(NH4+-N)/L的条件下测量OUR，硝化活性结果为0.0935mg(O2)/(L.min),即5.61mg(O2)/(L.h)(呼吸仪中污泥浓度MLSS=310mg /L)(图7(A)).另取等量的污泥在相同污泥浓度和相同基质浓度条件下曝气，进行硝化反应，测量其反应前后NO3--N的变化，经计算其氧化速率为1.26mg(NO3--N)/(L.h)(图7(B)).
+　　硝化反应可描述为：
+NH4++1.86O2+1.985HCO3-0.021C5H7O2N
++1.044H2O+1.881H2CO3+0.982NO3-
+
+
+
+图7　OUR测量结果与实际硝化反应进行情况
+Fig.7 Comparison of nitrifying activity measured by OUR and by nitrate con centration
+　　从上式可以计算出，生成1g NO3--N需要消耗4.33g氧.
+　　从OUR的测量结果可以计算出，氧化NH4+-N生成1g NO3--N所需的氧为：5.61 mg (O2)/(L.h)/1.26mg (NO3--N)/(L.h)=4.45g (O2).与理论值4.33很接近，说明该方法可以很好地反映活性污泥的硝化活性.
+4　结论
+　　本研究结果表明：通过测量OUR表征硝化活性的方法是可行的.它简单易行，快速方便，准确可靠，适用于硝化反应系统硝酸细菌和亚硝酸细菌活性的测量.为人们快速了解并控制和调整反应器中的硝化状态提供了可能.这种简便方法能够向人们迅速提供NH4+-N和NO2--N氧化菌存在情况的信息，使人们有可能尽快采取措施，令系统最优化.
+作者单位：(王建龙　吴立波　齐　星　钱　易)　　清华大学环境工程系，环境模拟与污染控制国家重点联合实验室，北京　100084
+参考文献
+　［1］　Nowak O,Svardal K.Observations on the kinetics of nitrification under inhibiting conditions caused by industrial wastewater compounds.Wat Sci Technol ,1993,28:115-123
+　［2］　Kroiss H et al.Nitrification inhibition--a source identification method for combined municipal and/or industrial treatment plants.Wat Sci Tech,1992,26: 1135-1146
+　［3］　Hynes R K,Knowles R.Inhibition of chemoautotrophic nitrification by sodium ch lorate and sodium chloride:a reexamination.Appl Environ Microbiol,1983,45:1179- 1182
+　［4］　Vanronlleghem P,Verstraete W.Simultaneous biokinetic characterization of hete rotrophic and nitrifying populations of activated sludge with an on-line respir ographic biosensor.Wat Sci Tech,1993,28:377-387
+　［5］　Stensel H D et al.An automated biological nitrification toxicity test.J Wat Pollut Control Fed,1976,48:2343-2350
+1997-08-14收到原稿　1997-12-23收到修改稿

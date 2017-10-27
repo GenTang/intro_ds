@@ -1,0 +1,57 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年　第1期　No.1　1999
+
+
+
+　　高硬韧材料切削温度的解析预测
+刘薇娜　杨立峰
+　　摘　要　以传热学为基础,用有限差分数值方法,对二元切削加工过程中切削区域温度场进行了计算机模拟。并以金刚石和硬质合金刀具切削钛合金为例,进行了切削温度计算。经分析,计算结果与实测切削温度值吻合良好。这不但表明切削温度的计算机模拟是可行的,同时也为探索难加工材料的切削加工特性提供了一种新的解析方法,可节省大量实验,为进一步预测最佳切削过程、指导新型刀具材料的开发奠定了基础。
+　　主题词　钛合金　切削温度　解析预测　有限差分
+ANALYTIC PREDICTION OF CUTTING 
+TEMPERATURE FOR HARD PROCESSING MATERIALS
+Lui Weina
+(Chang chun Institute of Optics and Fine Mechanics．Changchu．130022)
+Yang Lifeng
+(The Northeast Surveying and Designing Institute．Changchu．130021)
+　　Abstract　Based on heat transfer,by useing a finite difference numerical method and personal computer,temperature field at cutting area in two dimensional machining process ispredicted.Take machining titanium alloy by useing diamond tool and carbide tool for examples,the cutting temperature is calculated.The calculated temperature is in good agreement with that measured.This indicates that computer simulation of cutting temperature is applicable.It also provides a new analytic method for the study of cutting and processing features of hard processing materials.A large amount of experiments will be saved thus.It lay a fundation for predictingthe optimum cutting process and instructing the development of new cutter materials.
+　　Key words　Titanium alloy Cutting temperature Analytic prediction Finite difference
+1　引言
+　　随着宇航事业的迅速发展,配备于各类高新仪器与装备的高质量、性能好的材料不断问世,这给加工与制造技术提出了更新、更高的要求。对难加工材料加工技术的确定,如切削力、切削温度、刀具磨损及切削状态的预测等,是当今生产技术上的一个愈来愈突出的亟待解决的问题。
+　　由于高硬、高韧性材料的切削加工与刀具材料、加工方法、加工条件等多种因素有关,因此,正确把握加工状态、建立合适对策是非常重要的。但这一目的实现,仅靠实验难以完成,将计算机模拟及数值计算技术应用于切削加工过程中,可以将以往的切削过程的定性分析上升为定量的解析。
+　　高硬、高韧材料的切削加工过程是一个高温、高压、产生大变形的复杂过程,切削温度、应力是影响刀具寿命的重要因素。本文着重对切削温度的解析预测做了详细的分析与讨论,并以金刚石刀具、硬质合金刀具切削钛合金为例,进行了温度计算,做出了切削温度分布图。
+2　切削温度的差分计算
+　　由于切削加工过程是热传导、对流换热同时存在的内部有热源的传热过程,以二元切削为对象,切削过程的传热能量方程应为:
+
+式中θ是温度,κ是导热系数,ρ是密度,c是比热,s是热源,μ、ν分别是X、Y方向的速度。由于传热问题的分析解法非常复杂,所以采用有限差分数值方法由计算机计算切削温度。图1是在二元切削模型中计算切削温度时使用的有限差分网格。其中刀具、切屑及工件内产生变形的部分均使用斜方网格,便于刀具前、后角和剪切角变化时容易在模型里设定。图中每一个格子是一个小控制体,在切屑与刀具接触线上,刀具与已加工面的接触线及工件内部变形部分与未变形部分的接触线上的控制体形成零厚度的线控制体。这样,便于在模型中引入边界条件。另外还使用不等间隔的差分网格,用于防止网格点数过于增多。对控制体内的每一个节点,均由能量平衡列出方程,最后组成有限个差分离散化方程组。(方程组略)
+
+图1　有限差分网格
+　　热源分别由剪切面的剪切应力与前、后刀面的摩擦应力产生,热源强度分别以τsνs、τtνc、τfν表示,其中τs、τt、τf分别是剪切面上的剪切应力、前、后刀面上的摩擦应力,ν、νc、νs为切削速度、切屑速度及剪切面上的剪切速度。
+　　边界条件如图2所示。工件左边GH处、工件底部热量传至H′I′处、刀具热量传至R′Q′处的温度取为室温θR=20℃。切屑上边LM和工件右边IJ被假定为导热系数KW=0,其他自由表面假定传热系数Ct等于零。HI至H′I′的距离LW=20mm,PQR至PQ′R′的长度与宽度分别为LT=20mm。在二元定常切削条件下,切削温度计算的程度流程图如图3所示。
+
+图2　边界条件　
+
+图3　温度计算程序流程图
+3　钛合金切削温度的解析预测
+　　切削加工钛合金Ti-6Al-4V的温度解析预测结果如图4、切削条件如表1所示。其中图(a)、(b)是分别采用硬质合金K10和天然金刚石刀具,在相同的切削条件下切削钛合金Ti-6Al-4V的温度分布图。由图可见,当切削速度均为30m/min条件下,使用金刚石刀具切削钛合金时,切削区域的平均温度比使用硬质合金K10刀具时要低得多。这主要是由于金刚石刀具具有极好的散热和导热性,天然金刚石刀具的导热系数是硬质合金K10的12.7倍,所以,加工中热量很快散发出去,从而使切削温度大幅度降低。通常,金刚石刀具的分解温度大约为690℃由图4(b)可见,刀具温度为200℃,远低于金刚石的分解温度,因此,使用金刚石刀具加工钛合金会达到很好的切削效果。
+
+(a)K10 ν=30m/min　　　　　(b)天然金刚石ν=30m/min　　　　　(c)ν=200m/min天然金刚石
+图4　钛合金Ti-6Al-4V的切削温度分图
+表1　切削条件、切削力及热系数
+切削条件刀具角度切削力N　　　　热常数
+工件:Ti-6Al-4V前　角:20°水平切削力760　K10导热系数126w/m.k
+刀具:K10,天然金刚石后　角:6°垂直切削力20　天然金刚石导热系数1600w/m.k
+切削厚度20.25mm剪切角:40°
+切削液:干燥
+　　图4(c)是在其他条件不变,只改变切削速度时,切削温度解析结果。由图可见,将切削速度提高到200米/分条件下干切削时,刀具温度由200℃上升到500℃左右,刀尖处为600℃,即使这样,刀具温度仍低于金刚石的分解温度,这说明,还可以采用比200米/分更高一些的切削速度切削或在切削速度不变的条件下加大其他切削用量进行切削加工。
+　　将用计算机模拟计算硬质合金K10刀具前刀面的切削温度所得的计算结果与用人工热电偶实测刀具前刀面切削温度的实验结果相比较二者取得了良好的吻合［1］。
+4　结论
+　　由上述计算与分析,可得以下结论:
+　　(1)用解析法模拟预测加工过程,是研究切削加工的新思想。本文使用有限差分模型计算切削温度,其计算结果与实验结果吻合良好,说明此模拟计算能反映切削加工的实际切削温度,所以应用此模拟计算切削温度是可行的。
+　　(2)切削温度解析计算的优点在于:计算中,它可以不断改变刀具材料、工件材料,切削条件等不同输入参数,很方便的计算出相对应条件下的切削温度分布,从而可节省大量的人力、物力、财力,使大量的切削实验,包括一些无法实现的实验在计算机上完成。同时也会节省大量的贵重的金属材料。
+　　(3)此项研究为下一步预测高韧、高硬等难加工材料的最佳切削条件,刀具与难加工材料的最佳组合以及指导新型刀具材料的开发,奠定了基础。
+作者单位:刘薇娜(长春光机学院机械系.长.130022)　杨立峰(东北勘测设计研究院.长春.130021)
+参考文献
+　[1]T.obikwa AL.Prediction of Cutting Temperature and Flank Wear Rate for Praetical Use Using Personal Computer.Proc.of 7th IMCC China:1995:55～60
+　[2]水谷幸夫、香月正司译.Computeよゐ热移动と流れの数值解.森北出版社株式会社,1984.11
+　[3]刘吉萱译.工程传热学.人民教育出版社,1998.11

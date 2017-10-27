@@ -1,0 +1,159 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年 第2期　No.2 1999
+
+
+
+捷联惯导系统中确保全姿态测量的
+软故障检测和隔离
+秦永元　牛惠芳
+　　摘　要　本文探讨了最多有两个捷联陀螺发生软故障时的故障检测和隔离方法,给出了由奇偶向量确定的软故障χ2检验法,详细推导了两个陀螺都发生软故障时的极大似然故障隔离判决函数的计算公式,归纳出了对故障陀螺的隔离搜索算法。仿真结果表明,即使故障量与漂移一样微小,该法仍能准确检测并隔离出故障陀螺。
+　　主题词　软故障　检测　隔离　奇偶向量
+THE SOFT FAULT DETECTING AND LSOLATING TO 
+ENSURE THE ENTIRE ATTITUDE MEASURING OF 
+A STRAPDOWN INERTIAL NAVIGATION SYSTEM
+Qin Yongyuan Niu Huifang
+(Dept.of Automatic Control Northwestern Polytechnical University.Xi'an.710072)
+　　Abstract　In the federated filter design,the reliability of a strapdown inertial navigation system should be guaranteed absolutely because it is used as a common reference system.The paper investigates the way to detect and to isolate at most two faulty inertial components.The soft fault detection algorithm based on chi-square test is reviewed.The parity judgement function to isolate two faulty inertial components based on maximun likelyhood test is deduced in detail.The algorithm to search the faulty components is induced.The fault detection and isolation of the scewed redundant ring laser gyro cluster is simulated on the computer.The results show that the searching scheme can detect and isolate faulty components correctly even if the soft faults are as tiny as the gyro drifts.
+　　Key words　Soft fault Detection Isolation Parity vector
+1　引　言
+　　要获得运载体的完整姿态信息,捷联陀螺必须采用余度斜置和容错测量技术。对于由陀螺失效引起的硬故障,采用奇偶方程校验能有效地隔离出失效陀螺,但对陀螺性能变化引起的软故障,则须采用极大似然法作故障隔离。通常只研究仅一个陀螺有软故障时的隔离方法［2］,然而两个陀螺都有故障的概率不可忽视。本文探讨最多有两个陀螺发生软故障时的检测和隔离方法。
+2　对单个陀螺软故障的检测和隔离算法［2］
+　　设运载体的角速度为ω=［ωx ωy ωz］T,捷联惯导采用m个陀螺作斜置余度配置,并假设陀螺漂移已得到补偿,则陀螺组都正常工作时的测量方程为:
+　　　　　　Z=Hω+ε　　　　　　　　　　　　　　(1)
+其中Z∈Rm,ε为零均值高斯白噪声向量,均方根为σ。
+　　构造奇偶向量
+　　　　　　P=VZ　　　　　　　　　　　　　　　　(2)
+其中V为(m-3)×m的矩阵,由下述方程确定:
+　　　　　　　　　　　　　　　　　　　(3)
+　　显然,当陀螺组工作都正常时,
+　　　　　　P=Vε　　　　　　　　　　　　　　　 (4)
+　　用P构造统计量:
+　　　　　　　　　　　　　(5)
+则D服从自由度为m-3的χ2分布。设TD为某一阈值,在无故障条件(H0)下D超越TD的条件概率为α,若所取α很小,则可得如下故障判决准则:
+　　若D＞TD,则判定至少有一个陀螺出故障;
+　　若D＜TD,则判定所有陀螺工作正常。
+　　假设仅陀螺j出故障,并记该事件为Hj,则量测方程成:
+　　　　　　Z=Hω+ε+ejf　　　　　　　　　　　　(6)
+式中ej为与Z同维的向量,第j个分量为1,其余分量全为零,f表示故障大小,是确定性量。文献［2］给出了故障隔离判决函数:
+　　　　　　　　　　　　　　　　　　(7)
+式中,Vj为V的第j列,‖Vj‖=VTjVj。
+　　按(7)式分别计算D1,D2,…,Dm,若Dk(k=1,2,…,m)为最大,则判定第k个陀螺出故障。
+3　两个陀螺都有软故障时的检测和隔离算法
+　　若陀螺i和陀螺j都出故障,并记该事件为Hij,其中i,j=1,2,…,m,i≠j,则故障向量为:
+　　　　　　bf=eifi+ejfj　　　　　　　　　　　　　(8)
+　　若两故障量悬殊很大,则可按单个陀螺出故障的情况分析之,故障隔离判决函数按(7)式计算。
+　　若两故障量大小接近,即fi≈fj=f,则(8)式可写成:
+　　　　　　bf=(ei+ej)f　　　　　　　　　　　　　　(9)
+或
+　　　　　　bf=(ei-ej)f　　　　　　　　　　　　　　(10)
+　　先讨论(9)式所示情况。此时
+　　　　　　P=Vε+f(Vi+Vj)　　　　　　　　　　　　(11)
+由于f(Vi+Vj)为确定性量,ε服从正态分布,所以P也服从正态分布,且均值为f(Vi+Vj),方差阵为σ2I。所以P的条件密度为:
+　　　　(12)
+由此得似然函数为:
+　　
+该式右侧是关于f的抛物线方程,当f取
+　　　　　　　　　　　　　　　　　　(13)
+时,似然函数达到极大值,所以为f的极大似然估计。此时,条件密度也达到极大:
+　　　　　　　　(14)
+要使该式达到最大,须有达到最大。因此,当两个陀螺都发生软故障且故障大小接近、符号相同时的故障隔离判决函数为:
+　　　　　　　　　　　　　　(15)
+　　同理可得当陀螺i和陀螺j都发生软故障且故障大小接近、符号相反时的故障隔离判决函数为:
+　　　　　　　　　　　　　　(16)
+4　故障隔离的仿真分析
+　　仿真计算探讨了最多有两个陀螺出故障后判决函数最大值所指示的故障陀螺与实际故障陀螺间的对应关系。所假设的条件为:六个单轴激光陀螺的敏感轴分别沿正十二面体的法线,陀螺从1至6作编号,(1)式中H阵见［8］p92。(3)式求解详见［2］,P按(2)式构造。其余条件和仿真结果列于表1～表4。诸表中,括号内的数字组为隔离函数最大值指示的故障陀螺号,加*号表示判定正确的情况。
+　　　　表1　单个陀螺出故障时判决函数最大值的指示结果
+
+A　D
+123456
+C
+0.01BDj(1)*(2)*(3)*(4)*(5)*(6)*
+D+i,j(3,5)(2,3)(1,5)(2,5)(1,3)(1,2)
+D-i,j(1,5)(1,6)(2,6)(1,4)(4,6)(2,3)
+-0.01Dj(1)*(2)*(3)*(4)*(5)*(6)*
+D+i,j(3,5)(2,3)(1,5)(2,5)(1,3)(1,2)
+D-i,j(1,5)(1,6)(2,6)(1,4)(4,6)(2,3)
+
+　　注:A——故障量(°/h)　B——判决函数　C——判决函数最大值指示的陀螺号　D——实际故障陀螺号
+　　　　表2　两个陀螺出故障且故障量相差悬殊时判
+　决函数最大值的指示结果
+
+ABD
+23456
+1DjC
+(1)*(1)*(1)*(1)*(1)*
+D+i,j(1,6)(2,5)(1,6)(3,4)(1,6)
+D-i,j(1,5)(1,4)(1,3)(1,2)(1,5)
+2Dj(2)*(2)*(2)*(2)*(2)*
+D+i,j　(1,5)(2,4)(2,4)(2,6)
+D-i,j　(1,2)(1,6)(1,2)(4,5)
+3Dj(3)*(3)*(3)*(3)*(3)*
+D+i,j　　(1,5)(1,4)(1,5)
+D-i,j　　(2,6)(3,6)(2,4)
+4Dj(4)*(4)*(4)*(4)*(4)*
+D+i,j　　　(1,3)(4,6)
+D-i,j　　　(1,4)(2,3)
+5Dj(5)*(5)*(5)*(5)*(5)*
+D+i,j　　　　(1,3)
+D-i,j　　　　(2,4)
+
+　　注:A——故障陀螺号,故障量0.05°/h　B——判决函数　C——判决函数最大值指示的陀螺号　D——故障陀螺号,故障量0.005°/h
+表3　两个陀螺出故障且故障量相同符号相同时判决函数最大值指示结果
+ABD
+23456
+1DjC
+(6);(5)(5);(4)(6);(3)(3);(2)(6);(1)
+D+i,j(1,2)*(1,3)*;(4,5)(1,4)*(1,5)*;(2,3)(1,6)*;(3,5)
+D-i,j(5,6)(1,4);(2,4);(3,4);(4,5)(3,6)(2,6);(1,2);(2,5)(5,6);(1,3);(2,6)
+2Dj　(2);(3)(2);(4)(4);(1)(2);(6)
+D+i,j　(2,3)*;(1,5)(2,4)*(2,5)*(2,6)*
+D-i,j　(2,5);(3,5);(2,6)(1,6)(1,4)(4,5)
+3Dj　　(2);(1)(1);(6)(2);(5)
+D+i,j　　(3,4)*(1,6);(3,5)*(3,6)*
+D-i,j　　(1,2)(1,3);(5,6);(1,5)(2,5)
+4Dj　　　(4);(5)(6);(4)
+D+i,j　　　(1,3);(4,5)*(4,6)*
+D-i,j　　　(1,4);(3,4);(2,4);(3,5)(2,3)
+5Dj　　　　(4);(3)
+D+i,j　　　　(5,6)*
+D-i,j　　　　(3,4)*
+　　注:A——故障陀螺号,故障量0.1°/h　B——判决函数　C——判决函数最大值指示的陀螺号
+D——故障陀螺号,故障量0.1°/h
+表4　两个陀螺出故障且故障量相同符号相反时判决函数最大值指示结果
+ABD
+23456
+1DjC
+(1);(2)(1);(3)(1);(4)(1);(5)(4);(1)
+D+i,j(3,4)(1,6);(3,4)(2,5)(1,2);(2,5);(3,5)(2,4)
+D-i,j(1,2)*(1,3)*;(2,6)(1,4)*(1,5)*;(3,6);(1,6)*
+2Dj　(6);(4)(5);(3)(2);(5)(3);(1)
+D+i,j　(4,6)(3,6);(1,3);(1,5)(3,6)(1,5);(1,4);(3,5)
+D-i,j　(2,3)*(2,4)*;(3,5)(2,5)*(2,6)*;(1,3)
+3Dj　　(3);(4)(5);(3)(3);(6)
+D+i,j　　(5,6)(3,6);(1,3);(5,6)(1,4)
+D-i,j　　(3,4)*(3,5)*;(2,4)(3,6)*
+4Dj　　　(2);(6)(1);(5)
+D+i,j　　　(2,6)(2,5);(1,2);(1,3);(1,6)
+D-i,j　　　(4,5)*(1,5);(4,6)*
+5Dj　　　　(5);(6)
+D+i,j　　　　(1,2)
+D-i,j　　　　(5,6)*
+　　注:A——故障陀螺号,故障量0.1°/h　B——判决函数　C——判决函数最大值指示的陀螺号
+D——故障陀螺号,故障量-0.1°/h
+5　分析和结论
+　　从诸表可看出:当故障陀螺只有一个,或有两个但故障量悬殊时,Dj最大值所指示的故障陀螺号固定不变,并能正确指示出故障陀螺;当故障陀螺有两个且故障量接近时,D+i,j和D-i,j最大值所指示的故障陀螺组有多个,其中有一组是正确的,顺序隔离指示的故障陀螺组就能搜索出实际的故障陀螺。根据以上分析,可得对故障陀螺作搜索和隔离的流程图如图1所示。
+
+图1　根据故障判决函数搜索隔离故障陀螺的流程图
+　　作者单位：西北工业大学自动控制系.西安.710072)
+参考文献
+　1　Patton R J,Chen J.Robust Fault Detection and Isolation (FDI) Systems.Control and Dynamic Systems,1996,174:171-224
+　2　Potter J E,Suman M C.Thresholdless Redundancy Management with Arrays of Skewed Instruments.AGARDOGRAPH-224,1977:15-1～15-25
+　3　Kerr T H.Decentralized Filtering and Redundancy Management for Multisensor Navigation.IEEE Trans.on Aerospace and Electronic Systems,1987,23(1):83-118
+　4　Frank P M.Advances in Observer-based Fault Diagnosis.Proc.Int.Conf.on Fault Diagnosis,TOOLDIAG'93,Toulouse:817-836
+　5　Lou X,Willsky A S,Verghses G C.Optimally Robust Redundancy Relations for Failure Detection in Uncertain Systems.Automatica,1986,22(2):333-344
+　6　Watanabe K,Himmelblau D M.Instrument Fault Detection in Systems with Uncertainties.Int.J.Syst.Sci.,1982,13(2):137-158
+　7　Daly K C.Generalized Likelihood Test for FDI in Redundant Sensor Configurations.Journal of Guidance and Control,1979,2(1):9-17
+　8　以光衢等.惯性导航原理.航空工业出版社,1987年第一版:91-92
+　　本文为航空基金资助项目
+收稿日期:1996年11月1日,修回日期:1998年2月19日

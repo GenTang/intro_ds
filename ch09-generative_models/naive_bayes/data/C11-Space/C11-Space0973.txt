@@ -1,0 +1,157 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+铬硅共沉积及渗后热处理对不锈钢
+力学性能的影响
+卫　平　　万　如
+
+摘要： 用原位化学气相沉积方法在Cr17Ni2钢表面共渗铬硅，通过工艺优化，获得了含铬27wt%、含硅2wt%左右的渗层，渗层厚度约为120μm，渗层为单相的α固溶体。共渗后的热处理工艺对渗后材料的力学性能有较大的影响。
+关键词： 原位化学气相沉积； 卤化物活化剂； 力学性能
+中图分类号：TG142.71　　　文献标识码：A　　　文章编号：1005-5053(1999)01-0051-07
+The effect of codeposition of SiCr and heat-treatment after
+codeposition on mechanical properties of stainless steel
+WEI Ping　　　　WAN Xiao-ru
+(Beijing University of Aeronautics and Astronautics， Beijing 100083， China)
+Abstract： In-situ codeposition of Cr and Si into steel Cr17Ni2 has been achieved using pack cementation. Through optimizing the processing parameters，a coating containing about 27wt% Cr and 2wt% Si has been obtained, and the layer thickness is about 120μm. Heat-treatment process after codeposition has great effect on mechanical properties.
+Key words: in-situ chemical vapor deposition； halide activator； mechanical property
+
+　　不锈钢虽然在许多介质中有良好的耐蚀性能,但在某些特殊条件下，其耐蚀性仍然不够，如熔盐、燃气等恶劣环境。提高不锈钢中铬的含量对提高其在恶劣环境中的抗腐蚀性能有利，但钢中铬含量的提高会给钢的力学性能带来不良的影响,如韧脆转变温度的提高，而且高铬钢的熔炼也比较困难。采用原位化学气相沉积方法(一种采用卤化物作活化剂的改进了的包渗工艺，又称Halide-Activated Pack Cementation) 能同时在不锈钢表面共沉积2种金属元素铬硅，使得材料的抗腐蚀性能有很大的提高。Rapp和Harper［1，2］等人对原位化学气相沉积这种表面改性方法做了大量的研究，他们用这2种方法在某些低碳钢和低碳合金钢上共渗铬硅，获得了十分理想的渗层［3］。国内的一些研究者［4，5］试用纯铬、硅粉取代铬硅中间合金，在某些中碳钢、超高强度钢和不锈钢上共渗铬硅，取得了较好的共渗效果。
+　　目前，国外对金属材料表面共渗的研究大都侧重于渗后材料的耐磨性和耐蚀性等，对于共渗过程及渗后热处理工艺对材料力学性能的影响报道较少。本文在前人研究成果的基础上对这个问题进行了探索，力图找到一种合适的共渗工艺及热处理工艺，使得材料经共渗以后不仅具有优良的耐蚀性能，而且有良好的力学性能。
+1　材料及试验方法
+1.1　试验材料
+　　试验用的基体材料为Cr17Ni2钢，材料成分(wt%)为：C0.14,Si0.52,Mn0.56,Cr17.21,Ni2.37,S 0.001,P 0.015)。
+　　小试样制成φ16mm×3mm的圆片，表面打磨至320#砂纸。拉伸试验和冲击试验分别采用室温拉伸试样和夏式 U型缺口冲击试样。试验中每一个状态用4个试样。渗剂规格为200目的纯Cr粉和Si粉，分析纯的NaCl，NaF，AlF3活化剂和80目的SiO2粉末。
+1．2　试验方法
+　　试验中以未渗的Cr17Ni2钢经1020℃淬火+550℃回火后的力学性能作为基准，以判别共渗工艺及渗后的热处理工艺对材料力学性能的影响。从提高渗后材料的强度和韧性出发，试验选用了3种回火温度，即300℃，450℃和550℃。
+　　一般认为，表面涂层会对基体的力学性能产生影响［6］。用原位化学气相沉积方法在Cr17Ni2钢表面共渗铬硅，产生的铬硅渗层对于基体材料的冲击韧性和强度到底有何影响，国内外目前尚未见报道。为此在试验中专门设计了一个方案，以研究渗层对渗后材料力学性能的影响。其步骤是：将一些冲击和拉伸试样分别装入装有渗剂和未装渗剂的渗罐中，将渗罐密封后一起放入加热炉的均温区进行共渗，然后进行相同的热处理。这样保证了2种试样在热处理后有相同的基体组织，不同之处在于一种有渗层而另一种没有渗层。将2种试样分别做冲击和拉伸试验，对比它们的结果，即可看出渗层对材料冲击韧性和强度的影响。
+2　试验结果及讨论
+2．1　铬硅共渗试验结果及讨论
+　　在已有的研究成果基础上，为进一步缩短共渗时间，重新调整了渗剂配方。文献［7］证实，当渗层中铬的浓度超过30wt%时，容易生成σ相。σ相的产生使渗层变脆，抗氧化性和抗腐蚀性能降低［8］，因此，渗层中的铬浓度不应超过30wt%。渗入元素是靠各自的化学反应来产生活性原子，活性原子被基体表面吸附并向基体内扩散而形成渗层，所以，活性原子的产生数量决定着渗层的浓度，而活性原子的析出量是由活化剂决定的。当渗包中只加入1种活化剂，情况较为简单，如氯化钠作活化剂时主要沉积铬；氟化钠和氟化铝则主要有利于硅的沉积。若要同时沉积铬硅2种元素，则需要同时加入2种或3种活化剂，通过调整渗包中各种活化剂的含量，使渗包中气态的CrCl2和SiF2有着可比的分压，这样才能达到同时沉积铬硅的目的。表1和表2分别是活化剂中氟化钠和氯化钠的改变对渗层浓度的影响。为了计算方便，均假设渗剂总的质量是80g，渗源占26wt%（Cr∶Si=12∶1），活化剂由4wt%往上增加，SiO2余量。
+　　从表2中发现，在渗剂总量为80g，NaF=2.16g，AlF3=1.067g，NaCl=0.393g（SiO2余量）时，渗层中铬和硅的浓度均令人满意，而且，渗后试样的表面光亮均匀，渗层厚度在120～130μm之间。从表中的数据可以看出，提高氯化钠的含量使渗层中铬的浓度明显增加，而提高氟化钠的含量则使渗层中硅的含量显著增加。
+　　X射线衍射分析仪发现渗层为单相的α固溶体，原因在于铬和硅都是铁素体形成元素，在共渗温度下，钢的表面渗入铬硅，当铬硅元素的渗入超过它们在γ相中的最大溶解度后，表层就会发生γ→α的转变，这种转变重结晶从表面开始，并使α相沿元素的扩散方向长大，形成和扩散方向平行的柱状晶，取向不十分有利的晶粒则被其他长大的柱状晶所吞并。当从高温冷却到室温时，表层的柱状晶不再发生相变而保留下来。
+表1　氟化钠的含量对渗层中铬硅浓度的影响
+Table 1　Effect of the content of NaF on the composition of Cr， Si in the coating
+
+NaF/g5μm from the surface20μm from the surface
+Cr/wt%Si/wt%Cr/wt%Si/wt%
+1.9232.852.0530.601.88
+2.035.471.8729.351.67
+2.0831.362.0228.591.98
+2.1631.192.4327.052.03
+
+　
+表2　氯化钠的含量对渗层中铬硅浓度的影响
+Table 2　Effect of the content of NaCl on the composition of Cr，Si in the coating
+
+NaCl/g5μm from the surface20μm from the surface
+Cr/wt%Si/wt%Cr/wt%Si/wt%
+0.21331.192.4327.052.03
+0.39327.592.1525.252.10
+0.57331.041.9626.211.89
+0.72335.962.0029.341.76
+
+
+2．2　共渗层对材料力学性能的影响
+　　表3显示了铬硅共渗层对Cr17Ni2钢室温力学性能的影响。试样均经1020℃油淬+550℃回火处理。表中未渗试样是指与共渗试样一起随炉处理的试样，表面没有渗层，但基体组织与共渗试样相同。从表3中可以看出，渗层对2种试样的室温强度和冲击韧性基本没有影响。两者的低温（-55℃）冲击韧性也相差不大，共渗试样是78（J/cm2），未渗试样是88(J/cm2)。可见在渗层厚度约120μm时，渗层对渗后试样室温力学性能没有太大影响。
+表3　渗层对Cr17Ni2钢室温力学性能的影响
+Table 3　Effect of coating on the mechanical properties of the steel Cr17Ni2
+
+SamplesMechanical properties
+σb/MPaσ0.2/MPaak/(J.cm-2)
+Uncoated989786113
+Coated987781117
+
+　
+2.3　渗后热处理工艺对材料力学性能的影响
+　　表4是铬硅共渗的Cr17Ni2钢在不同回火温度及未渗的Cr17Ni2钢在550℃、室温（9℃）的强度和塑性值。需要注意的是表4中未渗试样与表3中未渗试样是不同的概念，前者是指没有经共渗高温处理过的试样，它的性能数据仅仅为渗后的热处理制度对性能的影响提供参照。
+　　从表4、图1和图2中可以看出，铬硅共渗后的材料低中温（300℃，450℃）回火的冲击韧性和450℃回火的韧性及强度值都比550℃回火者高，而塑性指标（δ，ψ）相差不大。
+　　表5和图3是回火温度对共渗及未渗材料室温（9℃）、低温冲击韧性的影响。可以发现材料经低中温（300℃，450℃）回火后，室温、低温的冲击韧性值均比高温（550℃）回火时高。材料的性能是由组织决定的，因此回火后材料性能的变化在于基体组织的不同。共渗后的材料经300℃和450℃回火后，基体的组织是低碳的板条状马氏体，而渗后经550℃回火，板条状马氏体分解形成回火索氏体。
+表4　Cr17Ni2钢共渗及未渗试样的力学性能
+Table 4　Mechanical property data of the coated and uncoated steel Cr17Ni2
+
+SampleHeat-treatmentMechanical properties
+σb/MPaσ0.2/MPaδ/%ψ/%ak/(J.cm-2)
+Uncoated1020℃/quenching+
+550℃/tempering1177932196485
+Coated1020℃/quenching+
+300℃/tempering11608372065220
+1020℃/quenching+
+450℃/tempering12069422064186
+1020℃/quenching+
+550℃/tempering9877812168117
+
+　
+表5　Cr17Ni2钢共渗及未渗试样冲击试验数据
+Table 5　Impact test data of the coated and uncoated steel Cr17Ni2
+
+SampleHeat-treatmentTemperature of test
+℃Impact strength
+J/cm2
+Coated1020℃/quenching+300℃/tempering9220
+1020℃/quenching+300℃/tempering-55183
+1020℃/quenching+450℃/tempering9186
+1020℃/quenching+450℃/tempering-55139
+1020℃/quenching+550℃/tempering9117
+1020℃/quenching+550℃/tempering-5576
+Uncoated
+1020℃/quenching+550℃/tempering985
+1020℃/quenching+550℃/tempering-5579
+
+
+　 　　　　　
+　图1　回火温度对共渗的Cr17Ni2钢　　　　　　　　图2　回火温度对共渗的Cr17Ni2钢
+　　　　室温塑性的影　　　　　　　　　　　　　　　　响室温强度的影响　
+Fig.1　Effect of tempering temperature on 　　Fig.2　Effect of tempering temperature
+plasticity of Cr17Ni2 at room temperature　　　　　strength of Cr17Ni2 at room 　
+　　　　　　　　　　　　　　　　　　　　　　　　　　temperatureon tensile 
+
+图3　回火温度对共渗的Cr17Ni2钢冲击韧性的影响
+Fig.3　Effect of tempering temperature on impact strength of Cr17Ni2
+
+　　图4是渗后材料经不同温度回火后的基体组织。从300℃和450℃回火的组织中可以明显地看到大量的板条马氏体存在；而在550℃回火的组织中，由于板条状马氏体回火分解形成回火索氏体组织，板条状的特征已不太明显。由于低中温回火后基体的组织是板条马氏体+铁素体+少量的残余奥氏体，使得材料具有较高的强度；而经高温（550℃）回火后基体组织主要是回火索氏体+铁素体，强度有所降低。Cr17Ni2钢在550℃回火时，由于残余奥氏体分解［11］使钢的韧性降低，且这时合金元素Cr，Ni，P［9，10］向晶界偏聚，高温回火脆性明显，从而导致了在550℃回火时出现冲击韧性的低谷［11，12］。
+
+
+图4　渗后经不同温度回火后的基体组织(SEM)
+(a)300℃回火；(b)450℃回火；(c)550℃回火
+Fig.4　Microstructure after tempering at different temperatures
+(a)tempering at 300℃；(b)tempering at 450℃； (c)tempering at 550℃
+
+
+图5　经不同温度回火后的断口组织
+(a)300℃回火；(b)450℃回火；(c),(d)550℃回火
+Fig.5　SEM micrographs of fracture surface after tempering at different temperature
+(a)tempering at 300℃；(b)tempering at 450℃；(c),(d)tempering at 550℃
+　　从图5a，b可以看出，经300℃和450℃回火后ak值较高，这时断口基本上是韧窝，韧窝多而且深；550℃回火，由于回火脆性的作用，得到沿晶+准解理+少量韧带、韧窝的混合断口，此时的韧窝与低温回火时的韧窝相比，不仅数量少而且韧窝浅，从图5c，d中可以清楚地看到沿晶裂纹和准解理面。
+3　结　论
+　　（1）用如下渗剂配方：26wt%渗源（Cr∶Si=12∶1），4.5wt%的活化剂(NaF∶NaCl∶AlF3=59.7∶10.8∶29.5)，69.5wt%的SiO2填充剂，用优化的共渗工艺可在Cr17Ni2钢表面获得良好的铬硅渗层，渗层中铬硅浓度(wt%)分别为：27～28和2～3，渗层厚度在120～130μm之间。
+　　（2） 共渗后经1020℃淬火，300℃或450℃回火后，基体组织是回火马氏体+铁素体，550℃回火后基体组织是回火索氏体+铁素体，渗层为富含合金元素铬、硅的单相α固溶体。
+　　（3） Cr17Ni2钢经铬硅共渗后在1020℃油淬，450℃回火，室温抗拉强度σb和冲击韧性ak分别为1206MPa和186 J/cm2，比550℃回火的共渗试样性能好。
+　　（4） 渗层厚度为120μm时，渗层对渗后材料的力学性能无太大影响。
+
+作者简介： 卫平(1970-)， 男， 硕士， 助理工程师， 现在北京航空材料研究院工作， 北京　100095
+作者单位：北京航空航天大学， 北京　100083
+参考文献：
+［1］Bianco R, Harper M A， Rapp R A.Codeposition elements by halide-activated pack 
+　　　cementation. JOM, 1991,43(11):68～73
+［2］Harper M A, Miller D M, Rapp R A. Codeposition of chromium-silicon and 
+　　　chromium-aluminum in diffusion coatings for iron-base alloys using pack 
+　　　cementation. Proc.Annu.Conf.Fossil Energy Mater.,4th, 1990,311～320
+［3］Harper M A， Rapp R A. Chromized/siliconized diffusion coatings for iron-base 
+　　　alloys by pack cementation. Mater Perform, 1991,30(9)：41～44
+［4］万如，郭伟明. 不锈钢上的铬硅原位化学气相沉积. 航空制造工程，1996，164(8)：25～27
+［5］万如，白真权. 超高强度钢Cr-Si原位CVD及耐蚀性研究.中国腐蚀与防护学报，1997，17：
+　　　494～497
+［6］科洛梅采夫 П Г. 耐热扩散涂层.马志春译. 北京：国防工业出版社，1988
+［7］Harper M A. Codeportion of chromium and silicon onto iron-base alloys via pack 
+　　　cementation:［Doctoral Dissertation］. Ohio State University, 1992
+［8］陈得和. 不锈钢的性能与组织. 北京：力学工业出版社，1977
+［9］刘宁. Cr17Ni2钢高温回火脆性的初步研究.理化检测（物理分册），1987，23(1)：3～6
+［10］刘宁. 550℃去应力回火对Cr17Ni2性能的影响规律的初步研究.热加工工艺， 1987(5)：9
+　　　～12
+［11］侯文泰. Cr17Ni2不锈钢的相变及热处理对力学性能的影响.金属热处理，1980(4)：26～35
+［12］中国航空材料手册编辑委员会. 航空材料手册,第一卷 结构钢 不锈钢. 北京：中国标准出
+　　　版社
+收稿日期： 1998-12-17； 修订日期： 1999-03-10

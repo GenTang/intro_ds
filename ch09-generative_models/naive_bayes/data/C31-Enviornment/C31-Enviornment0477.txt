@@ -1,0 +1,112 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+生物标志物在水环境研究中的应用
+王海黎　陶澍
+摘要：生物标志物是指示污染物危害效应的生物信号.可分为两类,一类指示生物体对有害物质的暴露;另一类指示污染物的毒性效应.与其它手段相比,生物标志物具有专一性、预警性和广泛适用性.本文介绍了指示水环境污染的主要几类生物标志物.生物转化酶和金属硫蛋白能有效地表征水体中的有机物和重金属对生物的影响.DNA加合物将有机污染与遗传物质变异相关联,因此成为生态毒理学研究的新热点.文中还讨论了生物标志物的缺陷和不足,并展望了该领域的应用前景.
+关键词：生物标志物；暴露；效应；水环境
+中图分类号：X171.5 文献标识码：A 文章编号：1000- 6923(1999)05- 0421- 06
+Application of biomarkers in aquatic environmental research.
+WANG Hai-li, TAO Shu
+(Department of Urban and Environmental Sciences, Peking University, Beijing 100871, China). China Environmental Science. 1999,19(5)：421～426
+Abstract：As the biological responses that indicate deleterious effects of pollutants in the environment, biomarkers can be classified into two types, indicating the exposure of organisms to the contaminants and the toxic effects of the pollutants. Compared to other monitoring techniques, biomarkers possess the advantages of specificity, early warning and extensive applicability. Currently applied biomarkers in aquatic environments are introduced in this paper. Both biotransformation enzymes and metallothioneins are able to indicate the effects of organic pollutants and heavy metals on aquatic organisms. DNA adducts can serve as indicators for the relationship between organic pollution and genetic mutation. The disadvantages of biomarkers are also discussed and the future prospects are evaluated as well.
+Key words：biomarker；exposure；effects；aquatic environment
+　　随着科技的进步和工业的发展,人类制造的化学制剂,无论是总量还是种类,都在持续不断地增长,并随人类活动大量地进入环境.这些与环境相关的外来化学制剂,统称为异生物质(xenobiotics),常可分为以下几大类:多环芳烃(PAHs);多氯联苯(PCBs);有机金属化合物;硝基芳香化合物;有机磷、有机氯等[1].据估计,目前环境中大约已有10万种人工合成的化学制剂,而且正以每年近1500种的速度递增.其中10%的化合物的制造量足以威胁到环境的安全[2].因此,在将其排放到环境中之前,需要进行必要的风险评估(risk assessment).一般的化学监测方法虽然能对环境或生物体内污染物含量进行定量描述,但仅凭含量无法反映这些污染物对生物的效应[3].而实验室内进行的毒性活体鉴定(toxicity bioassay),也会因实验条件和生物种类的界定,难以体现污染物在实际环境中的生物效应.需要了解污染物在现场的生物效应.许多污染物含量很低,相互混合,体系复杂,要检测和评估其对环境质量的影响,就要研究在污染物作用下生物体内各种指标的变化[4,5].在此背景下,生物标志物(biomarker)在环境研究中的应用正逐渐受到重视.本文将介绍生物标志物的定义、特征、优势和局限,并对其在水环境研究中的应用现状作简要地综述.
+1 定义、类别及特征
+　　关于生物标志物,比较经典的定义是通过测定体液、细胞或组织,可在生化或细胞层次上揭示污染物存在或生物体所产生的反应指标[6].而实际上,生物标志物所包含的组织层次不仅仅局限于细胞或组织,还应体现在生理学、行为学以及能学等各个方面[7].因此,对生物标志物更详尽和精确的描述应该是通过测量体液、组织或整个生物体,能够表征对一种或多种化学污染物的暴露和(或)其效应的生化、细胞、生理、行为或能量上的变化[8].笼统地说,生物标志物就是可衡量环境污染物的暴露及效应的生物反应[9].
+　　从功能上看,生物标志物可分为两大类,一类指示生物对污染物的暴露,即污染物引发的生物体的反应,如指示对重金属暴露的键联金属的蛋白质(金属硫蛋白,metallothioneins,MT).虽然此类标志物不能指示污染物的毒性效应,但有助于研究生物对化学分析方法很难检测到的环境中的不稳定化合物的暴露[6].另一类指示污染物的效应对生物体的健康状况的损害,如指示DNA损伤的DNA加合物(DNA-adducts).在环境毒理学研究中,这一类生物标志物具有更重要的作用.它们可解释污染物毒性效应的分子反应机理,在此前提下,才能确定污染物与其在生物体内的作用点之间的相互影响[9].
+表1 生物标志物的体系*
+Table 1 Hierarchy of biomarkers
+
+组织层次效 应标志物功能时间尺度
+分子分子效应指示暴露s
+细胞器/细胞细胞效应指示效应min
+组织/器官生理、健康和疾病效应　　
+个体受损的生殖能力,死亡指示生态的变化h
+种群生殖力下降的个体数量的减少近亲繁殖种群衰退遗传变异降低　month
+群落可能的灭绝指示进化的变化a
+生态系统生物多样性的降低　　
+
+注:* 资料取自文献[10,11]
+　　在污染物的作用下,各个层次的生物组织,小到生物分子,大到生态系统,都有各自相对应的污染效应及相适用的生物标志物,形成了完整的体系(表1).一般来说,在这个体系中,比个体层次低的标志物(分子、细胞器、细胞、组织)对应着相对特异性的生化鉴定方法,但这类标志物测定成本较高;非特异性的标志物包括生理和行为的分析以及生态学方法[12].比较而言,体系中低层次标志物能提供特定机理的信息,可能对揭示污染物的本质有益.生物标志物的研究多集中于分子或细胞水平,其中有些标志物的作用已得到广泛证实;而种群、群落和生态系统层次上的生物标志物正处于研究的初始阶段[13].与污染相关的微观生物标志物的变化,能在一定程度上揭示环境问题的成因,因而从管理和治理的角度,标志物有助于相关措施和行动的确立[14].
+　　生物标志物特征突出表现在以下3个方面.
+1.1 特异性
+　　对特定有机污染物或重金属的暴露,有特定的生物标志物.因此这些标志物对污染状况具备了诊断(diagnostic)作用.进一步了解相应的分子反应,并与更高层次的生态危害建立关联,生物标志物便可提供专一性的预报(prognostic)功能[6].
+1.2 预警作用
+　　污染物与生物体之间所有的相互作用都始于分子水平.生物标志物的产生是对污染物暴露的早期反应,因此这类标志物成了污染物暴露和毒性效应早期警报的指示物[15].
+1.3 广泛性
+　　具体表现在3个方面 从微观分子到宏观生态系统,生物标志物在各个不同层次的生物组织上体现着污染物和生物之间的因果关系;一般来说生物体之间的共性在分子水平上最大,所以许多分子生物标志物,如MT和DNA加合物,可广泛应用于各类生物[4,16];生物标志物既可用于实验室研究,也可用于现场实际监测.而污染物的毒性活体鉴定,检验对象受限于较小的范围,很难推广到野外测试中.
+2 生物标志物的优势
+　　与其它方法相比,生物标志物的最大区别在于可以确定污染物与生物体之间已发生的相互作用,测定的是污染物的亚致死效应(sublethal effects).与其它方法相比,生物标志物的优势主要有以下7个方面[6].
+　　能够了解生物有效性的污染物质在时间和空间上的累积效应,而不是象化学分析那样,难以摆脱抽验的属性.因此不容易因异常天气状况或工厂间歇排放带来监测结果的显著变异.
+　　可确定环境污染物与暴露和风险的对应关系.通过生物反应的特异性,从机理上了解对生物体的危害性影响,建立因果关系,这对于处理环境事件时澄清法律责任是至关重要的.
+　　应用于不同生境或不同营养级的物种,可以揭示污染物不同的暴露途径,这将有益于确定监测方案的优先次序,并对采取何种干预和补救措施提供科学依据.
+　　毒性活体鉴定法虽然反映了特定污染物的相对毒性,但很难将实验室数据外推至野外的条件.许多影响因素,如化学形态、吸附/吸收、污染物在食物链上的富集以及毒性作用的亚致死效应等等,无法在短期试验中测定.而应用生物标志物可以部分地解决上述问题.
+　　对于在环境中易代谢、去除的污染物,如PAHs和有机磷化合物,生物标志物能同时指示母体化合物和代谢产物的暴露和毒性效应.
+　　能够表现混合污染物之间毒性相互作用的累积效应.
+　　若将不同层次生物组织(从分子到种群、群落)所采用的一系列测定和研究加以整合,通过生物标志物的短期变化就有可能预测污染物长期的生态效应.
+3 指示水环境污染的主要生物标志物
+3.1 细胞色素P4501A1 (Cytochrome P4501A1)
+　　所有生物都具有生物转化酶(biotransformation enzymes)和解毒酶(detoxification enzymes),可将脂溶性有机异生物质转化成水溶性的、易被生物排泄的代谢产物.这类酶几乎存在于生物体内的所有组织,对水生脊椎动物来说,肝脏中含量最高.异生物质的新陈代谢分为两个阶段.首先,通过氧化酶、还原酶、水解酶、水化酶的作用,在异生物质分子上引入一官能团(主要是羟基、硝基和羧基等);然后,在酶的作用下,使官能团与生物内源性的水溶分子结合(如谷胱甘肽、葡萄糖醛酸等).通过提高有机污染物的溶解度达到解毒的作用,但有些有机化合物可能被转化成非常活跃的代谢产物,仍具有危害效应[17].
+　　细胞色素P4501A1是一种微粒体加单氧酶,在多种有机异生物质如PAHs、PCBs、硝基芳香化合物等在生物转化的第一阶段发挥重要作用[18].在哺乳动物体内,它是由异生物质键联芳烃受体(Ah receptor)诱导的.对鱼体中的细胞色素P4501A1的研究结果证实,其性状和可诱导性与哺乳动物中的非常相似[19].这种产生机理是细胞色素P4501A1成为有机污染的生物标志物的根据.通过测定P4501A1的某些酶活性,可以对其诱导进行监测.目前常用的是7-羟乙基试卤灵正脱乙基酶(7-ethoxyresorufin O-deethylase,EROD)和苯并芘羟化酶(benzopyrene hydroxylase,BPH).
+　　实验室条件下的实验结果表明,PAHs、PCBs及其它卤代化合物和环境中的污染物混合体如原油、沉积物提取液及漂白牛皮纸废液等,都可诱导鱼肝的P4501A1[18,20].鱼肝细胞色素P4501A1作为有机污染的生物标志物,已经大量地应用于野外现场研究.研究中还发现,细胞色素P4501A1与污染物含量之间存在较明显的剂量反应(dose-response)关系[4,18,21-23].除了这种显著的剂量反应关系,EROD被广泛应用的另一原因是该测定所需的所有试剂均为市售品,易于实现和推广.目前EROD的检测已经实现自动化[24,25].
+　　与鱼类等水生脊椎动物相比,水生无脊椎动物加单氧酶的研究结果不甚理想.根据观测结果,对有机污染物进行评价的结论往往不具有说服力[26].它们的EROD活性一般较低,与脊椎动物相比,用于判断P4501A1诱导的根据就显得不甚明确[5].
+3.2 金属硫蛋白
+　　绝大多数动物体内都有金属硫蛋白(MT)的存在.MT是分子量较低(6-7 kDa),富含半胱氨酸的蛋白质,通过半胱氨酸的残基与过渡金属键联.MT可调节内源性重金属Cu和Zn,防止浓度过高产生毒害作用,并以同样的机理对Cd、Hg等重金属发挥解毒作用,利用自由基在生物体内担当净化剂[27].Cd、Cu、Zn、Co、Ni等重金属能激活MT基因的转录,因而MT可作为金属暴露的生物标志物.MT没有催化功能,只能通过测定蛋白质自身的量来进行定量化.主要的方法包括利用粒度排斥和离子交换色谱的方法将MT与其它蛋白分离,再由原子吸收光谱测定重金属;测定MT与放射性标记的Cd之间产生的金属取代;极谱法分析蛋白质中硫醇的含量;免疫化学和mRNA技术.
+　　MT已经在多种鱼体内得到鉴定和研究.在细胞培养和活体实验中,都观测到鱼体中的MT可受Zn、Cu、Cd等金属的诱导,并表明这一过程发生在转录阶段[28].鱼体内的MT与水环境和体内组织中的重金属之间有显著的相关性.在受污染的水体中,鱼的肝脏、肾脏等部位的MT含量较高[29].与P4501A1不同,水生无脊椎动物和鱼一样,当暴露于Cd、Cu、Hg、Zn等重金属时,都能很明显地监测到MT的变化[30].而且无脊椎动物体内的MT与鱼体内的不同,它们的分子量较大,约为12.5kDa,半胱氨酸较少,甘氨酸较多,有的还含有芳烃氨基酸.因此,MT作为对重金属暴露的生物标志物,对于水生生物有着相当广泛的适用范围.
+3.3 DNA加合物
+　　某些有机污染物,如PAHs、芳基胺、黄曲霉毒素等,经代谢而产生亲电子的产物,与核酸和蛋白质结合,形成共价加合物.DNA加合物的形成是生物体对异生物质的吸收、代谢和大分子修复等诸多过程的综合结果,它的产生常导致突变的出现和肿瘤的形成,是化学癌变的初始阶段.DNA加合物适合作为水环境中有机污染物暴露和损害效应的生物标志物[6,31].其测定方法主要有荧光法;特定加合物的单克隆和多克隆抗体的免疫测定;32P后标记法;GC/MS.目前最常用的是32P后标记法.该法的具体步骤是先将DNA水解,正常的核苷酸和加合物分别形成各自的单磷酸盐,通过酶或化学萃取的方法将加合物浓缩,用32P标记;标记后的核苷酸经薄层色谱分离,测定有放射活性的片段,从而对DNA加合物定量.此方法的灵敏度可达到从1010个正常核苷酸中检出一个加合物.
+　　实验证明,鱼对苯并芘和芳香胺的暴露所形成的DNA加合物能够很好地指示这些有机物的污染状况[32,33].类似的结果和结论在软体动物中也得到证实[34].有关水环境的多项野外研究都表明,水生动物肝脏的DNA加合物与污染物之间存在着剂量反应关系[35,36].
+　　DNA加合物指示的是环境中的污染物对遗传物质的影响.开展此类生物标志物的研究,了解有害物质的遗传毒理性质,对于从本质上评价生物在环境胁迫下的健康及种群的生态变化,都具有积极意义.因此,借助生物标志物进行遗传毒理学研究将成为生态毒理学的一个新方向[12,37,38].
+4 结语
+　　尽管生物标志物在污染物风险评价中起着关键性的指示作用,但是应该看到其本身也有缺陷和不足,突出体现在以下3个方面.
+4.1 在现阶段,生物标志物的测定比较困难,花费相当高.
+4.2 有些生物标志物的特异性不够显著.如一种标志物对应多种污染物的效应或环境中的自然胁迫所产生的标志物.
+4.3 部分生物标志物在指示实际环境条件下的暴露和效应时,灵敏度不够高.因此,生物标志物作为监测和评价的手段不是万能的,也无法完全取代其它方法,它应该成为污染物综合监测体系的一个有效组成部分,这一完整体系当然还应包括化学分析及其它生物监测方法.
+　　生物标志物是早期警报的信号,它反映的是生物体从健康到疾病这一连续谱(continuum)上所处的确切位置.显然,掌握污染物危害发生前生物标志物的状况,对于制定预防性的管理措施,及时避免或减轻环境污染的损害都具有重要意义.这是生物标志物在生态风险评价中最有益的应用前景.
+基金项目：国家杰出青年基金资助项目(49525102)
+作者简介：王海黎(1971-),男,山东临沂人,北京大学城市与环境学系博士后,主要从事环境生物地球化学研究.发表论文17篇.
+作者单位：北京大学城市与环境学系,北京 100871
+参考文献：
+　[1]Sheehan D. Environmental biochemistry [J]. The Biochemist, 1994(June/July): 34- 37.
+　[2]Steinberg C E W,Geyer H J,Kettrup AAF, et al. Evaluation of xenobiotic effects by ecological techniques [J]. Chemosphere, 1994, 28: 357- 374.
+　[3]Lù pez-Barea J,Pueyo C. Mutagen content and metabolic activation of promutagens by molluscs as biomarkers of marine pollution [J]. Mutation Research, 1998, 399: 3- 15.
+　[4]Haux C,L F?rlin. Biochemical methods for detecting effects of contaminants on fish [J]. AMBIO, 1988, 17: 376- 380.
+　[5]Livingstone D R. Towards a specific index of impact by organic pollution for marine invertebrates [J]. Comp. Biochem. Physiol., 1991, 100C: 151- 155.
+　[6]McCarthy J F,Shugart L R (Eds.) Biomarkers of environmental contamination [M]. Lewis Publishers, Boca Raton, 1990.
+　[7]Widdows J,Donkin P. Role of physiological energetics in ecotoxicology [J]. Comp. Biochem. Physiol., 1991,100C:69- 75.
+　[8]Depledge M H,Aagaard A, Gy?rk?s P. Assessment of trace metal toxicity using molecular, physiological and behavioural biomarkers [J]. Mar. Pollut. Bull., 1995, 31: 19- 27.
+　[9]Walker, C H. Biochemical biomarkers in ecotoxicology–some recent developments [J]. Sci. Total Environ., 1995,171:189- 195.
+　[10]Depledge M H. Conceptual paradigms in marine ecotoxicology [A]. In: Proceedings of the 12th Baltic Marine Biologists Symposium [C].Fredensborg,Denmark: Olsen & Olsen, 1993, 47- 52.
+　[11]Bickham W,Smolen M J. Somatic and heritable effects of environmental genotoxins and the emergence of evolutionary toxicology [J]. Environ. Health Perspect., 1994, 102 (suppl.12): 25- 28.
+　[12]Evenden A J,Depledge M H. Genetic susceptibility in ecosystems:The challenge for ecotoxicology [J]. Environ. Health Perspect., 1997, 105(suppl. 4): 849- 854.
+　[13]Peakall D B. Biomarkers: the way forward in environmental assessment [J]. Toxicol. Ecotoxicol. News, 1994,1:55- 60.
+　[14]Livingstone D R. Biotechnology and pollution monitoring: use of molecular biomarkers in the aquatic environment [J]. J. Chem. Tech. Biotechnol., 1993, 57: 195- 211.
+　[15]Moore M N,Simpson M G. Molecular and cellular pathology in environmental impact assessment [J]. Aquat. Toxicol., 1992, 22: 313- 322.
+　[16]Chipman J K,Marsh J W. Bio-techniques for the detection of genetic toxicity in the aquatic environment [J]. J. Biotechnol., 1991, 17: 199- 208.
+　[17]Buhler D R,Williams D E. The role of biotransformation in the toxicity of chemicals [J]. Aquat. Toxicol.,1988,11:19- 28.
+　[18]Goksφyr A,F?rlin L. The cytochrome P450 system in fish, aquatic toxicology and environmental monitoring [J]. Aquat. Toxicol., 1992, 22: 287- 312.
+　[19]Stegeman J J,Lech J J. Cytochrome P450 monooxygenase systems in aquatic species: carcinogen metabolism and biomarkers for carcinogen and pollutant exposure [J]. Environ. Health Perspect., 1991, 90: 101- 109.
+　[20]Collier T K,Varanasi U. Hepatic activities of xenobiotic metabolizing enzymes and biliary levels of xenobiotics in English sole (Parophrys vetulus) exposed to environmental contaminants [J]. Arch. Environ. Contam. Toxicol., 1991,20: 462- 473.
+　[21]Stegeman J J,Kloeper-Sams P J,Farrington J W. Monooxygenase induction and chlorobiphenyls in the deep-sea fish Coryphaenoides armatus [J]. Science, 1986, 231: 1287- 1289.
+　[22]Goksφyr A.,Larsen H E,Husφy A M. Application of a cytochrome P-450 1A1-ELISA in environmental monitoring and toxicological testing of fish [J]. Comp. Biochem. Physiol., 1991, 100C: 157- 160.
+　[23]Lange U, Jedamski J, Siebers D, et al. Ethoxyresorufin O-deethylase and cytochrome P450 in the liver of dab (Limanda limanda (L.)) from the central and southern North Sea [J]. Mar. Pollut. Bull., 1992, 24: 446- 451.
+　[24]Goksφyr A A. Semi-quantitative cytochrome P4501A1 ELISA: a simple method for studying the monooxygenase induction response in environmental monitoring and ecotoxicological testing of fish [J]. Sci. Total Environ., 1992, 101: 255- 262.
+　[25]Eggens M L,Galgani F. Ethoxyresorufin O-deethylase (EROD) activity in flatfish: fast determination with a fluorescence plate-reader [J]. Mar. Environ. Res., 1992, 33: 213- 221.
+　[26]Porte C,Sole M,Albaiges J, et al. Responses of mixed-function oxygenase and antioxidase enzyme system of Mytilus sp. to organic pollution [J]. Comp. Biochem. Physiol., 1991, 100C: 183- 186.
+　[27]Kille P,Kay J,Leaver M, et al. Induction of piscine metallothionein as a primary response to heavy metal pollutants: applicability of new sensitive molecular probes [J]. Aquat. Toxicol., 1992, 22: 279- 286.
+　[28]Hogstrand C,Haux C. Metallothionein as an indicator of heavy-metal exposure in two subtropical fish species [J]. J. Exp. Mar. Biol. Ecol., 1990, 138: 69- 84.
+　[29]Overnell J,Abdullah M I. Metallothionein and metal levels in flounder Platichthys flesus from four field sites and in flounder dosed with water brone copper [J]. Mar. Ecol. Prog. Ser., 1988, 46:71- 74.
+　[30]Livingstone D R,Pipe R K. Mussels and environmental contaminants: bioaccumulation and physiological aspects [M]. In: E. Gosling (Eds.) The Mussel Mytilus: Ecology, Physiology, Genetics and Culture, Developments in Aquaculture and Fisheries Science, Elsevier, Amsterdam, 1992, 25:425- 464.
+　[31]Dunn B P. Carcinogen adducts as an indicator for the public health risks of consuming carcinogen-exposed fish and shellfish [J]. Environ. Health Perspect., 1991, 90: 111- 116.
+　[32]Thomas P. Molecular and biochemical responses of fish to stressors and their potential use in environmental monitoring [A]. In: S.M. Adams (Eds.) Biological Indicators in Fish, Amer. Fish [C]. Soc. Symp. 8, 1990, 9- 28.
+　[33]Stein J E,Reichert W L,Nishimot M, et al. Overview of studies on liver carcinogenesis in English sole from Puget Sound; evidence for a xenobiotic chemical etiology II: biochemical studies [J]. Sci. Total Environ., 1990, 94: 51- 69.
+　[34]James M O,Altman A H,Li CLT, et al. Dose-andtime-dependent formation of benzo[a]pyrene metabolite DNA adducts in spiny lobster, Panulirus argus [J]. Mar. Environ. Res., 1992, 34: 299- 302.
+　[35]Garg A,Krca S,Kurelec B, et al. Endogenous DNA modification in aquatic organisms and their probable biological significance [J]. Comp. Biochem. Physiol., 1992, 102B: 825- 832.
+　[36]Stein J E,Reichert W L,Varanasi U. Molecular epizootiology: assessment of exposure to genotoxic compounds in teleosts [J]. Environ. Health Perspect., 1994, 102(suppl.12): 19- 23.
+　[37]Depledge M H. The ecotoxicological significance of genotoxicity in marine invertebrates [J]. Mutation Res.,1998, 399:109 - 122.
+　[38]Walker C H. The use of biomarkers to measure the interactive effects of chemicals [J]. Ecotoxicol. Environ. Saf., 1998, 40: 65- 70.
+收稿日期：1999-01-25

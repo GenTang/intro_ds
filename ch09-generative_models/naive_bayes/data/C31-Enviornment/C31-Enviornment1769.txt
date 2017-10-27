@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.59-61
+
+
+
+
+常温循环流化床烟气脱硫床料的扫描电镜分析
+樊保国　 项光明　 祁海鹰　 陈昌和　 徐旭常　 
+摘　要：用扫描电镜对循环流化床排烟脱硫实验装置的床料进行了分析研究，得出了床料的能谱图、床料中的元素百分含量以及床料的外观形貌。反应后床料硫含量的增加和反应后床料外缘所形成的一层氢氧化钙和硫酸盐膜说明流化床中的床料起了脱硫剂载体的作用，证实了循环流化床烟气脱硫装置中的脱硫反应。
+关键词：排烟脱硫；　循环流化床床料；　扫描电镜
+分类号：X701.3　文献标识码：A
+文章编号：1001-6929(2001)03-0059-03
+1001-6929(2001)03-0059-03
+FAN Bao-guo（The State Key Laboratory of Clean Combustion of Coal, Tsinghua University, Beijing 100084, China）　
+XIANG Guang-ming（The State Key Laboratory of Clean Combustion of Coal, Tsinghua University, Beijing 100084, China）　
+QI Hai-ying（The State Key Laboratory of Clean Combustion of Coal, Tsinghua University, Beijing 100084, China）　
+CHEN Chang-he（The State Key Laboratory of Clean Combustion of Coal, Tsinghua University, Beijing 100084, China）　
+XU Xu-chang（The State Key Laboratory of Clean Combustion of Coal, Tsinghua University, Beijing 100084, China）　
+
+Abstract：An investigation has been performed on the bed material of circulating fluidized bed flue gas desulphurizer by a scanning electron microscope (SME).The energy spectrum,the element content and the appearance were obtained.In reacted bed material the sulfur content increased and the thin layer of hydroxide calcium as well as sulfate calcium formed around the solid particles.It signified that the bed material played the role of carrier of desulphurization and the desulphurization reaction took place in circulating fluidized bed.
+Keywords：flue gas desulphurization;　bed material of circulating fluidized bed;　SME
+
+基金项目：国家重点基础研究专项经费资助项目(G 19990222)
+作者简介：樊保国(1962-)，男，山西洪洞县人，博士研究生. 
+作者单位：樊保国（清华大学煤的清洁燃烧技术国家重点实验室，北京 100084）　
+　　　　　项光明（清华大学煤的清洁燃烧技术国家重点实验室，北京 100084）　
+　　　　　祁海鹰（清华大学煤的清洁燃烧技术国家重点实验室，北京 100084）　
+　　　　　陈昌和（清华大学煤的清洁燃烧技术国家重点实验室，北京 100084）　
+　　　　　徐旭常（清华大学煤的清洁燃烧技术国家重点实验室，北京 100084）　
+
+参考文献：
+［1］Sauer H,Anders R.Operating experience with a Dry FGD plant using a CFB at the brown coalfired power station in borken[R].Lurgi GmbH:Federal Republic of Germany,1989.
+［2］樊保国.循环流化床烟气脱硫技术的试验研究[D].北京：清华大学,1996.
+［3］廖乾初,蓝芬兰.扫描电镜原理及应用技术[M].北京：冶金工业出版社,1990.142.
+
+收稿日期：2000年7月14日
+出版日期：2001年5月30日

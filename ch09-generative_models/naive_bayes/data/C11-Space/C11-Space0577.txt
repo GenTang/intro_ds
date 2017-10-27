@@ -1,0 +1,29 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.1 P.44-49
+
+
+
+
+中分辨率微波扫描辐射仪
+李开明　 
+摘　要：仪器实施的方案为固定视角圆锥扫描双参考温度外部两点式周期定标全功率型。论述了它的工作原理、视向与扫描方式、频段选择和总体构形。同时对天馈技术、微波接收机、定标技术、数据采集与处理、驱动与传输、电源、热控制等技术进行了分析。
+关键词：微波扫描辐射仪；天馈；接收机数据处理；扫描驱动；定标
+分类号：TP732.1　文献标识码：A
+文章编号：1006－1630（2001）01－0044－06
+Mid-Resolution Microwave Scanning Radiometer
+LI Kai-ming（No.813 Institute of SAST, Shanghai 200086, China）　
+
+Abstract：The mid-resolution microwave scanning radiometer is a conical scanning total power radiometer with a fixed visual angle and double-reference temperature. The operational concept, sighting direction and scanning way, band selection and system structure are described. The space feed technique, microwave receiver, calibration technique, data collection & processing, driving & transmission, power source and heat control are also analyzed.
+Keywords：Microwave scanning radiometer; Space feed; Data processing of receiver; Scanning driving; Calibration
+
+作者简介：李开明（1940-），男，高级工程师，研究领域：微波遥感仪器。 
+作者单位：李开明（上海航天技术研究院813所，上海 200086）　
+
+参考文献：
+［1］林溪波.航天微波辐射计的设计原理[J].上海航天,1990,(1)：27.
+［2］吕颖.星载微波辐射周期定标技术的研究[D].华中理工大学,1997.文章编号：1006－1630（2001）01－0050－05
+
+收稿日期：1999年10月18日
+修稿日期：2000年8月31日
+出版日期：2001年2月25日

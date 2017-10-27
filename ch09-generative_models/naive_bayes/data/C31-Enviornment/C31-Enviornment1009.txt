@@ -1,0 +1,36 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.36-40
+
+
+
+
+一株芽孢杆菌所产絮凝剂的研究
+胡筱敏　 邓述波　 牛力东　 罗茜　 
+摘　要：从土壤中分离筛选得到一株能产生高效微生物絮凝剂(MBF)的芽孢杆菌A-9。A-9的培养实验表明，培养基的碳源、氮源、初始pH是影响MBFA9絮凝活性的主要因素。絮凝实验结果表明，用MBFA9处理高岭土悬浮液，效果明显优于其他种类MBF，且不需添加Ca2+及Al3+等助凝剂，用量也仅为一般MBF用量的1/10～1/100；处理含泥河水、硫化染料废水、淀粉厂黄浆废水，悬浮物及COD的去除率明显高于聚丙烯酰胺等传统的化学絮凝剂。
+关键词：絮凝；　水处理；　微生物；　微生物絮凝剂
+分类号：X703.1　文献标识码：A
+文章编号：1001-6929(2001)01-0036-05
+Study of Efficient Bioflocculant Produced by a Bacillus Strain
+HU Xiao-min（School of Resources and Civil Engineering,Northeastern University,Shenyang 110006,China）　
+DENG Shu-bo（School of Resources and Civil Engineering,Northeastern University,Shenyang 110006,China）　
+NIU Li-dong（Environmental Protection Bureau of Shenyang Economic and Technological Development Zone, Shenyang 110141, China）　
+LUO Qian（School of Resources and Civil Engineering,Northeastern University,Shenyang 110006,China）
+Abstract：A bacillus strain named A-9,which can produce bioflocculant with high flocculating activity,was screened from fertile soil.The test results of culture for A-9 show that the carbon sources nitrogen sources and initial pH of the cultural medium have important effects on the flocculating activity of MBFA9.MBFA9 can flocculate Gaoling suspension better than other bioflocculants without synergistic effects of Ca2+,Al3+ and other agents,and its dose is about 1/10～1/100 of other bioflocculants.The tests of treatment of river water with silt suspension,sulfur dyes wastewater and yellow wastewater from starch factory were carried out.It was found that MBFA9 has higher clearance of suspended solid and COD compared with polyacryamide.
+Keywords：flocculation;　water treatment;　microorganism;　microbial flocculant(MBF)
+基金项目：国家自然科学基金(59574010)资助项目；辽宁省自然科学基金(211)资助项目
+作者简介：胡筱敏(1958-)，男，江西乐平市人，教授，博士. 
+作者单位：胡筱敏（东北大学 资源与土木工程学院，辽宁 沈阳　110006）　
+　　　　　邓述波（东北大学 资源与土木工程学院，辽宁 沈阳　110006）　
+　　　　　牛力东（沈阳经济技术开发区 环境保护局，辽宁 沈阳　110141）　
+　　　　　罗茜（东北大学 资源与土木工程学院，辽宁 沈阳　110006）　
+参考文献：
+［1］邓述波，胡筱敏，罗茜.寄生曲霉产生絮凝剂的培养条件及其絮凝特性［J］.应用与环境生物学报，1998，4(4)：405～408.
+［2］Hiroshi Shimofuruya,Kunieda Yoshikiko,Suzuki Jiro,et al.The production of flocculating substance(s) by streptomyces griseus［J］.Biosci Biotech Biochem,1996,60(3):489～500.
+［3］Ryuichro Kurane Yasuhiro Nohata.Microbial flocculantion of waster liquid and oil emulsion by a bioflocculant from alcaligenes latus［J］.Agric Biol Chem,1991,55(4):1127～1129.
+［4］Ryuichiro Kurane,Hatamochi Kazuhiro,Kakuno Tadashi,et al.Purification and characterization of liquid bioflocculant produced by rhodococcus erythropolis［J］.Bioci Biotech Biochem,1995,59(a):1652～1656.
+［5］王镇，王孔星.几株微生物絮凝剂产生菌的特性研究［J］.微生物学报，1995，35(2)：121～129.
+［6］李智良，张本兰，裴健.微生物絮凝剂产生菌的筛选及相关废水絮凝效果实验［J］.应用与环境微生物学报，1997，3(1)：67～70.
+［7］二宫英治，木崎忠重，花团香一.一有孢子细菌生产高粘性多糖［J］.日本农芸化学杂志，1968，42(7)：431～434.
+收稿日期：1999年12月27日
+出版日期：2001年1月30日

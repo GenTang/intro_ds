@@ -1,0 +1,142 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第10期 Vol.19 No.10 1999
+
+
+
+用NSAPI增强Web Server 功能
+汤敏　郑纪蛟
+　　摘　要　本文介绍了HTTP协议的简单工作过程和NSAPI的有关知识，并讲述了如何用NSAPI编写自定义SAF。
+　　关键词　HTTP, NSAPI, SAF, CGI
+1　NSAPI基础
+1．1　简介
+　　NSAPI是Netscape Server Application Programming Interface的缩写，它是用来实现SAFs(即Server Application Functiions，Server已自身带有一套SAFs，你可以用NSAPI编写自己的SAFs以便扩展Server功能)的，让服务器能够把对请求的处理分成若干小的步骤来完成，这样就可以合理安排每一个小的步骤，从而满足较好的速度和灵活性的要求。NSAPI是由NCSA和CERN Web Server的开发者设计的,为程序员提供了速度、与Server结合的紧密性以及灵活性，但同时又都需要对Web Server的处理过程有较深的理解。你如果是写CGI(Common Gateway Interface）,就不会用到NSAPI，而只需用WAI（Web Application Interface）；如果想开发有自己特色的身份验证，登录过程，或者是想修改已有的Server的行为，你就会用到NSAPI。
+1.2　HTTP基础
+　　HTTP协议是快速、简单和可扩展的协议，协议的具体内容我们在此不作讲解，有兴趣的读者可自己参阅有关文献。下面，我们对HTTP的工作过程作一个大致浏览：
+　　. 浏览器和服务器相连接并且发送请求。
+　　. 服务器接收请求，产生答复并断开连接（如果接收的是一个要求保持连接的请求，则不断开连接直到下一个请求到来）。
+　　请求是由Method,Universal Resource Identifier(URI)以及由空格分开的HTTP协议版本信息组成。请求通常由几个头（headers）和标志着头结束的一行空格，时常还有主体数据（body data）组成。Header提供请求或客户的有关信息，Body data典型的是POST和GET方法。
+　　典型的一般都是像下面的样子：
+　　GET /index.html HTTP/1.0
+User-agent: Mozilla
+Accept: text/html, text/plain, 
+image/jpeg, image/gif, */*
+　　服务器收到请求并处理它，且每次只处理一个请求，虽然服务器能够同时处理多个请求。处理一个请求必须经过几个步骤。我们称这种处理方式为“请求-应答处理”（Request-Response process），用NSAPI写的SAFs正是在这种处理过程中被执行。
+　　服务器产生一个包含HTTP协议版本、HTTP状态码(status code)以及被空格分开的解释短语（reason phrase）的应答，通常应答后面是几个头（header）和应答的主体数据（body data）。典型的应答如下所示：
+　　HTTP/1.0 200 OK
+Server: Netscape Enterprise Server/3.0
+Content-type: text/html
+Content-length: 83
+<HTML>
+<HEAD><TITLE>Hello World</Title></HEAD>
+<BODY>Hello World</BODY>
+</HTML>
+　　状态码和解释短语告诉浏览器服务器如何处理了请求。一般状态码200表明服务器成功处理了请求并且主体数据含有请求所要的项目，其他状态码是重定向请求于其他服务器或浏览器的缓存（cache）或者是出了错误（如404是找不到被请求的项目）。
+1.3　请求-答复处理
+　　当服务器第一次启动时它要执行一些初始化工作然后等待HTTP请求。
+　　请求-答复处理通常由六个连续的步骤构成：
+　　a) AuthTrans(authorization translation)对请求进行身份验证（如姓名和密码）；
+　　b) NameTrans(name translation)将逻辑URI（统一资源标识）转换为本地文件系统路径；
+　　c) PathCheck(pathe checking)检验本地文件系统路径的有效性和请求用户的权限；
+　　d) ObjectType(object typing)确定被请求资源的MIME（Multi-purpose Internet Mail Encoding）类型(如text/html,image/gif等等)；
+　　e) Service(service)将答复返回给客户；
+　　f) AddLog(adding log entries)在日志文件添加一条记录。
+　　每一步为达到它的目的都需要执行一番操作，而这些操作是通过SAFs实现的。服务器内带有多种SAFs，这些SAFs实现服务器的功能和它的高级特性。
+　　每一个SAF都有自己的设置，并且它还有权访问到请求的相关信息和由以前SAFs创建和修改过的服务器变量（Server Variables），SAF依靠这些信息执行自己的操作。SAF还可以根据目前的请求和自身范围内的目的检查、修改或创建服务器变量。
+　　每一个SAF有返回代码以便告诉服务器是否执行成功。服务器依据这些返回代码可以决定是跳到下一步、执行当前一步的下一个SAF还是取消处理。
+　　通常，所有这些步骤是按顺序完成的，产生的答复发送给客户（在Service这一步），然后在日志文件中增加一条记录。然而，如果处理因为什么原因而被取消（如请求的资源不存在或用户无权访问等），服务器就跳到一个新的称作“Error”的步骤，这样Error处理步就替代了Service步。Error SAF会给客户发送描述问题的HTML页面，然后计入日志文件。
+2　指示和服务器内含SAFs
+　　Enterprise Server是通过几个文本文件来配置的。这几个配置文件存放于服务器的主目录（home directory）的config目录下（https-<servername>/config）。其中我们感兴趣有三个：magnus.conf,obj.conf和mime.types。magnus.conf文件是服务器的主配置文件，它决定服务器的名字、端口号和其他一些全局性设置；mime.conf文件决定如何将文件扩展名映射成HTTP的文件类型；obj.conf文件用来配置初始化和请求-应答处理中每一步SAFs的操作。你可编辑这个文件以便安装和配置自己的SAFs。
+　　obj.conf文件中含有指导初始化和请求-应答处理中每一步SAFs的操作的指示行（directive line）。请求-应答的指示（directives）按照<Object> 标记分成对象（Objects）组, 它以标签<Object>开始以标签</Object>结束。将它们称为“对象”是因为它们继承其它对象的行为。缺省的对象控制服务器对所有请求的缺省操作。其它对象要针对特定请求继承和（或）修改缺省的对象行为。
+　　当对象的参数与目前请求中的值相匹配时，它就被使能（Enabled）。一个对象标签有name和ppath两个参数，它们都可有自己的通配符。例如：
+　　<Object name="cgi"> 或 <Object
+ppath="/usr/netscape/suitespot/docs/private/*">
+　　当对象中指示的name参数为“default“时它总是使能的。处于使能状态时，其它对象中的指示就象缺省对象中的同种指示一样，这就让我们可以改变缺省对象的行为。
+　　指示行决定在请求-应答的每一步应执行哪些SAF。指示行语法格式如下：
+　　Directive fn=func-name
+［name1="value1"］…［nameN="valueN"］
+　　Directive是服务器的一个指示，func-name是要执行的SAF，nameN="valueN"是传给SAF的参数名称和值。
+　　以下是服务器的指示和描述：
+　　Init：初始化服务器各子系统和共享资源；
+　　AuthTrans：验证HTTP请求中的身份信息并将其转换成用户和（组）。服务器的权限控制分为两个阶段：先是AuthTrans验证用户的身份，后来PathCheck检查用户所要求的资源的存取权限。
+　　NameTrans：将请求中的URL中的转化为物理文件系统的路径。
+　　PathCheck：检查NameTrans中所转化的物理路径的有效性和存取权限。
+　　ObjectType：决定请求资源的MIME的类型。
+　　Service：发送结果给客户。
+　　Error：HTTP错误（REQ——ABORTED）。
+　　AddLog：记录事务处理有关的信息。
+3　创建自己的SAFs
+3.1　SAF接口
+　　所有的SAF都有相同的“C”接口，而不管它们是为哪一步服务的。SAF都是一些为请求-应答处理中的某一步实现特定功能的小函数。它们从obj.conf文件、server和以前的SAF中接受参数。下面是SAF的“C”接口：
+　　int function(pblock *pb, Session *sn, Request *rq);
+　　pb含有obj.conf文件中的SAF配置行参数，sn含有与单个TCP/TP会话有关的信息，rq含有与当前请求相关的信息。SAF还有返回码表示该函数执行的情况，服务器根据返回码决定如何处理当前的请求。
+3.2　创建一个自定义SAF
+　　自定义SAF是一组存在于由服务器加载和调用的共享库中的函数。下面是创建自定义SAF的步骤：（后面附有一例）
+　　a) 用NSAPI编写自定义SAF的源程序，每一个SAF为一个指示（directive）服务。
+　　注意：写SAF时要写线程安全（thread-safe）的程序，任何阻塞（blocking）都可能影响服务器性能，每个SAF都带有参数，参数可在obj.conf中设置。
+　　b) 编译并链接源程序，创建共享库（.so, .sl, or .dll）文件。编译要用特定平台的编译器，Windows NT可用MicrosoftVisual C++6.0。服务器根目录下的include目录里有NSAPI的头文件，现在所有的头文件信息都包含在“nsapi.h”文件中，其他头文件都是向后兼容的，只要简单的包括“nsapi.h”即可。
+　　c) 修改obj.conf文件配置服务器以便加载含有自定义SAF的共享库，使在适当时调用自定义SAF。
+　　先在obj.conf文件中其他初始化指示后加下面一行：
+　　Init fn=load-modules shlib=［path］sharedlibname
+funcs="SAF1,...,SAFn"
+　　shlib是共享库在本地文件系统中的路径，funcs是一系列由逗号分开的可从库中加载的的函数名，函数名是区分大小写的。
+　　然后再加下面一行以便在适当时调用自定义SAF：
+　　Directive fn=func-name
+［name1="value1"］...［nameN="valueN"］
+　　Directive是服务器的一个指示，func-name是要执行的函数名。
+　　d) 先停止然后再启动服务器。Windows NT里可从控制面板里停止和启动服务器，unix里可用命令stop和start，但不能用restart，因为这样重新启动不会重新加载库。
+　　e) 从浏览器访问服务器以便测试自定义SAF。注意的是一定要禁止cache功能。在Navigator可以再点击reload按钮时按住shift键。
+　　例：（本例是执行身份认证的函数）
+#include "base/pblock.h"
+#include "base/session.h"
+#include "frame/req.h"
+typedef struct {
+char *name;
+char *pw;
+} user—s;
+static user—s user—set［］ = {
+{"joe", "shmoe"},
+{"suzy", "creamcheese"},
+{NULL, NULL}
+};
+#include "frame/log.h"
+#ifdef XP—WIN32
+#define NSAPI—PUBLIC —　—　declspec(dllexport)
+#else /* !XP—WIN32 */
+#define NSAPI—PUBLIC
+#endif /* !XP—WIN32 */
+NSAPI—PUBLIC int hardcoded—auth
+(pblock *param, Session *sn,Request *rq)
+{ 
+/* 由用户身份认证得到的参数 */
+char *pwfile = pblock—findval("userdb", param);
+char *user = pblock—findval("user", param);
+char *pw = pblock—findval("pw", param);
+/* 临时变量*/
+register int x;
+for(x = 0; user—set［x］.name != NULL; ++x) {
+/* 如果不是我们预期的用户，则继续 */
+if(strcmp(user, user—set［x］.name) != 0)
+continue;
+/* 验证口令 */
+if(strcmp(pw, user—set［x］.pw)) {
+log—error(LOG—SECURITY, "hardcoded-auth", sn,
+rq,"user %s entered wrong password", user);
+/* 再问一次以便增强函数功能 */
+return REQ—NOACTION;
+}
+/* 如果返回REQ—PROCEED, 则该用户为我们所接受*/
+return REQ—PROCEED;
+}
+/* 如果不匹配，再问一次*/
+log—error(LOG—SECURITY, "hardcoded-auth", sn, rq,
+"unknown user %s", user);
+return REQ—NOACTION;
+}
+作者简介：汤敏　硕士研究生。研究方向：计算机网络和信息通信系统。
+郑纪蛟　教授。研究方向：计算机网络和通信、当前主要从事远程教育研究。
+作者单位：浙江大学计算机系　浙江.杭州（310027）
+参考文献
+［1］　T.Berners-Lee,R.Fielding,H.Nielsen. Hypertext Transfer Protocol HTTP/1.0. RFC1945，1996；5(17)
+［2］　Tony Beveridge,Paul Mcglashan. ISAPI/NSAPI Web高级编程. 北京：中国水利水电出版社，1999，1
+收稿日期:1999-05-05

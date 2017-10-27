@@ -1,0 +1,65 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第1期 Vol.23 No.1 1997
+
+
+
+系统存在参数摄动时基于二次规划的一种故障诊断算法
+陈金水　孙优贤
+摘　要　基于最优化方法，提出控制系统存在参数区间摄动情况下故障诊断的一种算法. 首先把故障诊断问题转化为输入输出观测值与标称模型簇相容性判断问题，进而转化为一个可在有限步内得到解的二次规划问题.
+关键词　故障诊断，容错控制，优化.
+A ALGORITHM OF FAULT DETECTION FOR DYNAMIC SYSTEMS
+WITH BOUNDEDPARAMETER PERTURBATION BASED 
+ONQUADRATIC PROGRAMMING
+CHEN JINSHUI SUN YOUXIAN
+(Institute for Industrial Process Control of Zhejing University, Hangzhou 310027)
+Abstract　This paper presents a new method of fault detection for dynamic systems with bounded parameter perturbation by optimization technique. Firstly, we discuss that some faults can be detected by checking the concordance between the given model cluster and the input/output signals, then based on quadratc programming, a finite-step termination algorithm is given to achieve the concordance examination.
+Key words　Fault Detection, fault tolerant control, optimization.
+1　引言
+　　故障诊断技术是实现容错控制提高控制系统可靠性的基础，国内外已有大量文献讨论控制系统的故障诊断问题，其中文［1，2］是具有一定权威性的综述文献. 然而，目前已有的方法多数是针对突变性故障的诊断问题，而且许多故障诊断算法依赖于精确的数学模型，这些要求对于许多工业控制系统来说，往往很难得到满足. 因此对于工业过程控制系统，应该寻求一些鲁棒性强、对模型要求较低的诊断方法. 
+　　目前基于模型的故障诊断方法主要有观测器法、一致性空间法和模型辨识法等. 相对来说，前两种方法对模型要求较高，而模型辨识法要求低些. 但在许多情况下，由于输入信号频宽有限造成系统不能够完全被激励，以及系统可能不满足闭环辨识条件等潜在问题，给这种方法的应用同样带来很大限制. 本文的思路是不直接辨识系统的模型，而是把故障诊断问题转化为输入输出信号与标称模型簇相容性判断问题，进而转化为一个可在有限步内得到求解的二次规划问题.
+2　问题的描述
+　　考虑离散动态系统
+　　　(1)
+假设该系统由于未建模非线性因素以及其它建模误差，使得系统在正常工作时参数ai及bi在一定范围内存在摄动，或者我们无法获得ai及bi的准确值而只能较保守地确定ai及bi在某一范围内，即
+　　　(2)
+如果参数ai及bi偏离上述正常范围，则可认为系统发生故障(显然，这是判断系统发生故障的充分条件而非必要条件). 
+　　记第k组输入输出信号观测值为
+　　(3)
+取多组观测值k=1,2,…,p，记为
+　　　(4)
+记模型参数为
+　　　(5)
+显而易见，当某模型参数X与系统实际情况完全匹配时，有
+QX+N=0.　　　(6)
+　　现定义：如果存在某模型参数,满足a*i∈[li,gi],b*i∈[ln+i,gn+i]且使QX*+N=0成立，则称观测值［Q,N］与模型簇{X｜ai∈li,gi］,bi∈［ln+i,gn+i］}相容. 反之，如果对于任意模型参数X*=［a*n-1,a*n-2,…,a*0,b*m,b*m-1,…,b*0］T,其中a*i∈［li,gi］,b*i∈［ln+i,gn+i］，都无法使QX*+N=0成立，则称观测值与模型簇不相容. 如果观测值与模型簇不相容，则认为系统发生故障.
+记　　　　　　　　　　　　(7)
+为了方便起见，不严格地表示ai∈［li,gi］,bi∈［ln+i,gn+i］为 X∈［L,G］.现把上述相容性判断问题转化为
+　　　　(8)
+显然，如果存在X*,X*∈［L,G］，使f(X)达到最小f(X*)=0(考虑数值计算误差及建模误差的影响，可取阈值ε，如果f(X*)＜ε成立)，则观测值与模型簇相容. 反之，则认为观测值与模型簇不相容.
+3　优化问题的求解
+　　式(8)优化问题等价于
+　　　(9)
+令H=QTQ,Y=X-L,cT=(LTH+NTQ),A=-I,B=L-G,则优化问题等价于
+　　　(10)
+这是一个典型的二次优化问题，可在有限迭代步内得到最优解. 
+　　记其Lagrange函数为
+　　(11)
+引入剩余变量使AY-η=B. 若问题(10)存在有界最优解，则等价于求解下列K-T条件
+　　　(12)
+　　记　
+则K-T条件可表示为
+　　　　(13)
+上式可采用Lemke算法［3］求解，限于篇幅，本文不再赘述.
+4　多输入多输出系统
+　　本故障诊断算法可进一步推广到MIMO系统，其方法是把MIMO系统分解为多个MISO系统各自处理. 每个MISO子系统的诊断算法与SISO相似，只是阶数可能大大增加. 限于篇幅，本文不再赘述.
+5　结束语
+　　自从六十年代以来，控制系统的故障诊断和容错控制一直得到广泛的重视和积极研究，并且在航空航天领域以及核电站等可靠性要求较高的场合中得到了成功的应用［4，5］. 但现有的故障诊断方法对模型的要求过于苛刻，使得它难于在工业现场广泛应用. 尽管能容忍模型不确定性的鲁棒控制理论已经发展十分成熟，然而，能容忍模型不确定性的故障诊断鲁棒算法还处于探索阶段. 国外许多学者在一致性空间及UIO观测器的基础上提出了一些解决方法，总的来说这些方法都存在一定局限性，很难通用各种场合. 本文提出采用最优化手段，判断观测数据与模型簇是否相容，原理直观简单，算法成熟. 它的不足之处在于要求模型的不确定性为结构化的，在许多场合，建模较为困难.
+作者单位：浙江大学工业控制技术研究所　杭州　310027
+参考文献
+　[1]　Gertler J. Survey of model-based failure detection and isolation in complex plants. IEEE Control System Magzine, 1988, 10∶3-11.
+　[2]　Frank P M. Fault diagnosis in dynamic systems using analytical and knowledge-based redundancy——A survey and some new results. Automatica, 1990, 26(3)∶459-474.
+　[3]　汪树玉等.优化原理方法与工程应用.杭州：浙江大学出版社，1991.
+　[4]　Delaat J C. A real-time microcomputer implemetation of sensor failure detection for turbofan engines. IEEE Control System Magzine, 1990, 6∶29-36.
+　[5]　Usoro P B. HVAC system fault detection and diagnosis. American Control Conference, 1986, 2∶606-612.
+收稿日期　1994-04-20

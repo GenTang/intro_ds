@@ -1,0 +1,20 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URBAN ECOLOGY
+1999年 第12卷 第4期 Vol.12 No.4 1999
+
+
+
+超临界水氧化去除含酚废水TOC的动力学研究
+李辉，庄源益，杨克莲，袁有才，谷文新，阎俪，李洋
+　　摘要：本文利用自行设计的一套连续式超临界水氧化实验装置，以过氧化氢为氧化剂，处理实验室模拟含酚废水。在超临界条件下（P=30MPa，T=400℃，440℃，480℃，520℃）进行超临界水氧化实验。结果表明，TOC去除速率在氧化剂过量10倍的情况下，对TOC是2.15级反应。速率常数与温度的关系符合阿仑尼乌斯公式。反应的实验活化能为171.7kJ/mol，前置因子A为2.99×1011。
+　　关键词：含酚废水；超临界水；氧化；动力学
+　　中图分类号：X703　　文献标识码：A　　文章编号：1002-1264(1999)04-0001-03
+Global Kinetics for Supercritical Water Oxidation of Phenol Wastewater
+LI Hui,ZHUANG Yuan-yi,YANG Ke-lian,
+YUAN You-cai,GU Wen-xin,YAN Li,LI Yang
+(Department of Environmental Science, Nankai University, Tianjin 300071)
+Abstract：Supercritical water oxidation (SCWO) has become a well-known treatment technology for aqueous waste. This paper focused on the treatment of phenol wastewater by using a self-made continuous-flow reactor system. Diluted aqueous solutions of phenol were oxidized at 400℃,440℃,480℃,520℃ at 30 MPa respectively. The global kinetics for total organic carbon (TOC) disappearance was described by a power-law, that was 2.15 order in TOC. The activation energy was 171.7 kJ/mol, and the Arrhenius pre-exponential factor was 2.99×1011.
+Key words：phenol wastewater；　supercritical water；　oxidation；　kinetics 
+1　前言
+　　超临界水氧化（Supercritical water oxidation,缩写为SCWO）经过十多年的开发研究，已经引起了广泛关注和巨大进展。这主要是因为它对有机废物具有超高破坏效果的能力，且可回收资源，同时也是因为该技术更为简单。水在超临界条件下（T>374℃，P>22MPa）可以与有机组分和氧化剂完全互溶。通过高温高压下的自由基氧化反应，有机物能快速氧化为CO2、H2O和N2等。超临界水氧化技术是在不产生有害副产物的情况下彻底有效降解有毒有机污染物的一种新方法。目前，此技术在美国、欧洲、日本等发达国家已受到广泛重视和深入研究，而我国在此领域的研究还刚刚起步［1］。
+　　超临界水氧化过程的开发以及设计、优化控制和评价都需要相关的动力学知识。为了使实验室研究过程转成工业规模，就需要对反应途径，氧化动力学及反应机理作深入研究。动力学的研究大部分集中在有机组分消失动力学。研究者们通常用经验的幂指数总速率式表述实验结果。总速率式是一个工业实用的数学模型，能方便地

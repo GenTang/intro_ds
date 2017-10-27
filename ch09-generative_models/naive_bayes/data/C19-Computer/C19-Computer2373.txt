@@ -1,0 +1,103 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+一种基于结点的分布式合作缓存管理算法DCC
+郑晓薇　郑纬民沈美明
+摘　要　工作站机群系统需要有一个高性能的并行文件系统以适应高速输入、输出数据处理的要求，而提高并行文件系统性能的关键是合作缓存技术.文中提出了一种基于结点的分布式合作缓存管理算法DCC.该算法综合了基于全局管理器和基于局部信息两种算法的优点,给出了一种位于结点机上的主块信息站的方法,通过对主块信息站的信息进行维护来达到对全局信息的跟踪.算法采用积极的局部信息维护策略，提高了主块位置判断的准确性.与GMS算法、Hints算法相比，DCC算法的开销较小且具有较好的可扩展性.
+关键词　机群系统,分布式合作缓存, 主块信息站 
+中图法分类号　TP338.8
+A DISTRIBUTED COOPERATIVE CACHING ALGORITHM FOR WORKSTATION CLUSTER FILE SYSTEM
+ZHENG Xiao-Wei, ZHENG Wei-Min, and SHEN Mei-Ming
+(Department of Computer Science, Liaoning Normal University, Dalian 116029)
+(Department of Computer Science & Engineering, Tsinghua University, Beijing 100084)
+Abstract　With the development of workstation cluster systems, a high performance file system on such systems is needed. A impotent technology to further improve the performance of cluster file system is cooperation of cache. A distributed cooperative caching algorithm (DCC) is brought forward in this paper. This algorithm combines the advantages of the global manager based algorithms and the local message based algorithms. It gives a concept of master copy message station. This approach uses active safeguard decision of local messages. The judgment of master copy position is more accurate. Consequently, the cost of the algorithm is the lowest among the available algorithms and it also exhibits a good scalability.
+Key words　cluster system, distributed cooperative cache, master copy station
+1　引言
+　　NFS, AFS［1］等传统网络文件系统的文件管理是由中央服务器负责的，这种方法的可扩展性较差，随着系统规模的增加,中央服务器会成为系统的瓶颈,造成网络拥塞.较好的改进方法是分布式合作缓存技术，该技术采用分布式算法进行全局管理,并将文件系统的管理分配到多个结点上完成，各结点上的缓存相互协作，所有结点上的缓存可以看成一个大的全局缓存.由于应用程序访问过的文件块保存在结点机的内存缓冲区中,再次访问该块就可以经合作缓存获得而不必读写磁盘,从而提高了系统速度.
+　　在设计合作缓存管理算法时应避免降低局部性能，如果本地应用程序需要本结点机的所有内存时，该结点不应缓存任何远程结点的数据块，应将其替换到其它结点上去.设计算法的另一重点是全局数据块的快速查找，已有的方法为精确信息法，一般使用全局管理器来维护各结点缓存中精确的块信息，采用这种方式的有GMS算法［2］、XFS［3］中的N-Chance算法；另一类为模糊信息法，它不要求维护精确的全局信息,而是通过查找每个结点上设置的一个块信息目录进行模糊查找，例如Hints算法等［4］.
+　　在N-Chance算法中,全局管理器以分布方式由多个管理器负责维护块在缓存中的位置和块一致性，因此在每次块查找时都可直接找到块在缓存中的准确位置，但算法的开销很大，而且每次本地块缺失时，均要通过管理器才能找到块的位置，并需要等待管理器回答.
+　　GMS算法也是采用分布式的全局管理器来收集全局信息,各结点利用全局信息来确定数据块的位置，然而GMS需要一个集中的管理器来负责收集信息、进行处理和发送，因而可扩展性不好.
+　　Hints算法利用非精确的全局信息Hints进行合作缓存管理,这样就避免了N-Chance算法和GMS算法用于维护精确的全局信息的开销.Hints算法在每个结点上维护一个Hints表,记录了全局其它结点中的最老块的时间信息以及主块位置信息.但Hints算法中所采用的主块位置链存在链头不固定的问题,因此会出现虽然主块在缓存中，但在结点中却找不到的情况，并且主块会因不断的前送而造成主块位置链过长、请求需要多次前送才能找到主块的情况.Hints算法还存在某活跃结点无法及时获知另一活跃结点变为空闲的情况，这是由于各结点间无前送关系时，Hints算法不会维护这些结点间的信息造成的.
+　　本文提出的DCC算法(distributed cooperative caching algorithm)综合了基于全局管理器和基于局部信息两类算法的优点,利用各结点的局部信息减少对管理器的依赖,又利用全局信息以减少局部决策错误.DCC算法给出了主块信息站MCS (master copy station) 的概念，各结点的MCS保存有本地主块信息，对该站的访问可随时获知要访问的文件块的主块的情况，大多数的块可直接定位，缩短了访问时间；当一个文件块成为主块后，通过对MCS的维护，只要主块在缓存中，其它结点即可访问到此主块而不必读取磁盘.在机群系统中各结点间需要频繁的通信来访问对方的磁盘和缓存，DCC算法利用这些通信来捎带发送本地信息以及全局状态信息，可以使较精确的全局信息较快地传播，因而算法的开销较小,并且具有较好的可扩展性.
+2 DCC算法的合作缓存结构
+　　基于机群系统的DCC算法的合作缓存模型将所有磁盘中的数据块统一编址 ,对每个数据块赋予一个块号.
+　　设系统中有n个结点.令第i个结点缓存中的数据块集为Mi ，磁盘中的数据块集为Di，则所有缓存中的数据块的集合是所有磁盘中数据块集合的子集，即
+
+对于第i个结点,将Mi称为本地缓存，Di称为本地磁盘;而Mj（j≠i）称为远地缓存, Dj称为远地磁盘.每个结点中的数据结构如图1所示，图中缩写说明如下.
+
+图 1　DCC算法的合作缓存数据结构
+　　缓存管理器CM(cache manager):由于取消了全局管理器,因此所有的合作缓存管理工作由分布在各结点上的缓存管理器共同协调完成.
+　　磁盘块位置表DCL(disk copy list):将所有的文件块所对应的磁盘块号以及相应结点机号保存在DCL中，查询DCL即可得知某文件块在哪个结点机中，每个结点的数据结构均保存相同的DCL，一经确定不再改变.
+　　主块及主块信息站MCS(master copy station):为保证各结点的本地信息能获得相对稳定的全局信息，我们引入“主块”(master copy)的概念.将第一次读入缓存的文件块磁盘拷贝定义为主块，称为本地主块，将本地主块前送到其它结点上时称为全局主块，对主块的再次访问均是通过复制主块获得的.MCS中记载了本地磁盘块是否已成为主块以及主块的位置信息，主块的位置只有在被前送时才改变，表中的信息不包含该主块的副本的信息.
+　　全局向量时间表GVT(global vector time):任指定一个结点存放GVT，保存n个结点上的向量时钟VT［1］，VT［2］，…，VT［n］.每当结点机上进行合作缓存操作事件时,修改其局部向量时钟
+VT［i］=max(VT［1］，VT［2］，…，VT［n］）＋1
+同时给事件打上本结点当前的向量时钟值作为该缓存块的时戳，并且可以比较任意两个缓存块的新旧程度及做出决策，而传统的向量时钟［5］只能比较两个具有因果关系的事件的先后次序而不能比较任意两个事件的先后次序.
+3　DCC算法的块查找及替换策略
+　　DCC算法的主要内容是块查找与块替换算法，通过对DCL及MCS的查找及维护策略实现对主块位置的判断以及对主块的访问.DCC算法对合作缓存的管理决策描述如下:
+　　设dns为全局第s步时结点n上访问的数据块号并代表对缓存的访问，Mns为结点n上的数据块集.将第s步结点n上本地块缺失时的决策Ens用一个四元组(a,r,v,ω)表示,其中a∈{local, remote} 表示远地访问的块是否缓存在本地, r∈{, move, copy} 表示远地访问的块是迁移还是复制到本地,v为本地的被替换块.
+　　若a=remote或本地缓存未满，则定义v=,表示无须选择被替换块;a=local 且本地缓存已满，则定义v=d, d∈Mns,d为被替换块；ω=(e,m) 为一个二元组, 表示v被迁移到结点m并且替换m上的块e,其中e∈Mms；如果a=remote或v被舍弃不迁移,则定义ω=.
+　　在操作时,每个结点均先检查本地的主块信息站，若本地MCS中有要访问的数据块链头,则可直接访问,否则进行决策.结点对某文件块的查找及替换分为几种情况:
+　　(1) 主块不在缓存中Ens=(local,copy,,).
+　　例：本地结点号n=2, 文件块号dns=5, 远地磁盘Dj=1(5号块在1号结点上).
+　　过程：查本地DCL2,再查MCS1,无5#主块消息;调用向量时钟程序,计算本地向量时钟；在MCS1中加入2:5#，表示5#块的主块在2结点缓存中；从磁盘D1中读出5#块并打上时戳,然后复制到缓存M2,在通信时顺带将MCS1的变化传给MCS2.
+　　(2) 主块已在缓存中Ens=(local,copy, v,ω)
+　　例：n=3, dns=5, ω=(e,4)
+　　过程：查本地的DCL3并访问MCS1,查询到5#主块在2号结点缓存中; 调用向量时钟程序，计算出本地向量时钟；将3号结点中的v块迁移到4号结点，替换4号上的块e；将5#块复制到缓存M3并更改时戳，同时顺带将MCS1信息传递给MCS3，3号结点中为5#主块的副本.
+　　(3) 主块要被替换并前送Ens=(remote, move, v, ω)
+　　例：n=2, v=dns=5 , ω=(,5).
+　　过程：查询DCL2,并访问MCS1,将5#块主块的位置改为5: 5#，同时将MCS2和MCS5一并修改；调用向量时钟程序,计算出本地时钟；将5#主块更改时戳后移动到5号结点作为全局主块；舍弃2号结点缓存中的5#主块.
+　　(4) 前送后的主块再次被访问Ens=(local,copy, v,)
+　　例：n=1, dns=5
+　　过程：访问MCS1,知5#主块在5号结点,在MCS1中更改为1: 5#,表示5#块的主块已换到1号结点上并成为本地主块.执行向量时钟程序,时戳更改后将5#主块从5号复制到1号结点并舍弃本地替换块v.
+　　(5) 块替换算法与前送结点的选择
+　　具体算法如下：
+　　① 根据向量时钟值在本地保存的LRU链上选择最老的非主块,舍弃；
+　　② 若LRU链上只有主块，选出最老的主块，访问结点1上的全局向量时间表VCT，计算最空闲的结点作为前送结点；
+　　③ 若该结点为本地结点，将最老主块舍弃；若为其它结点，则将最老主块前送.若本地缓存中最老块比前送块时间要新，将前送块继续前送，前送n次仍找不到接收结点则将前送块丢弃.
+4　DCC算法的模拟测试结果及分析
+　　我们通过实验模拟系统［6］对DCC算法进行了测试及分析,并将DCC算法和Hints算法测试的结果进行了比较.测试数据如下.
+　　系统为8个结点机，采用155Mbit/s ATM网连接的工作站机群系统，信息站数8，各结点缓存块数200/400/800块，各结点磁盘块数10 000块，块大小 8KB，块访问次数50 000次，本地访问时间0.25 ms,远地访问时间1.5 ms,磁盘访问时间15.85 ms,网络延迟0.2 ms.
+　　共用4组测试数据:
+　　A组:文件访问集中度θ=30/5(在5%磁盘块上有30%的访问比例),访问重叠度ρ=1(表示两个结点访问相同的数据集).各结点均访问第1号结点中的数据,共400块；
+　　B组:文件访问集中度θ=30/5,访问重叠度ρ=1.集中访问集按轮转方式分布在各结点磁盘中,共400块；
+　　C组:θ=30/5,ρ=1000(两结点对访问集的随机访问频率).集中访问集共400块；
+　　D组:θ=5/5,ρ=1.各结点集中访问集相同，访问集按轮转方式分布在各结点的磁盘上，共400块.
+　　(1) 局部信息准确性测试
+　　在DCC算法和Hints算法中,均将维护局部的信息用于本地决策.
+　　例如在块查找时维护本地信息站MCS的准确性.利用本地信息判断本地缺失块在其它结点缓存的次数占查找本地缺失块所有次数之比如表1所示.
+表 1　DCC法与Hints法主块位置表准确性比较
+
+　A组测试数据B组测试数据C组测试数据D组测试数据
+DCC91.35%86.02%85.10%88.07%
+Hints54.27%53.28%76.90%65.48%
+
+　　从表中可以看出,DCC算法在4组测试数据下均明显优于Hints算法，这是由于DCC算法采用了积极的局部信息维护策略.每次结点间交换信息时,均顺带交换双方状态信息以及其它结点的有关信息,因而使各个结点的信息都比较准确,而在Hints算法中,只是在前送块时,双方才交换信息.
+　　(2) 访问集中度对算法性能的影响
+　　对A组测试数据,将其访问集中度分别定为30/5、20／5、10／5和5／5，观察两种算法的平均块访问时间如图2所示.可以看出,随着集中度变小,两算法性能都在降低,而且算法性能的差距逐步缩小.但是由于DCC算法能较好地利用文件访问数据的集中度,因此性能较好.
+
+图 2　不同访问集中度对算法性能的影响
+　　(3) 系统中结点数对性能的影响
+　　图3表示出了系统中结点数据分别为8、16、32时两算法的平均块访问时间.随着结点数的增加,Hints算法的性能基本不变,而DCC算法的性能则随着结点数的增加而增加.因此具有较好的可扩展性.
+
+图 3　系统中结点数对算法性能的影响(A组数据)
+　　从测试结果可以看出,分布式合作缓存管理算法DCC随着结点数增加,合作缓存变大,因此可以在缓存中保存更多的文件块,从而提高了系统的性能.
+
+5　结论
+　　DCC算法利用各结点上的主块信息站MCS保存的较精确的本地信息及全局信息进行合作缓存的管理决策，有效地提高了数据块访问的准确性，缩短了访问时间.在算法的数据结构中使用了磁盘位置表DCL来保存文件块号和与之相应的结点机号，使各结点对文件块的查找先在本地进行，然后再查询MCS上的信息 ，这样就可以进一步缩短寻找主块的时间，从而大大减少了算法的开销.当结点增加时，只需将DCL稍加修改即可，MCS不受影响，因此算法的可扩展性也较好.
+作者简介：郑晓薇，女，1957年10月生，副教授，主要研究方向为计算机系统结构、并行文件系统.
+郑纬民，男，博士生导师，主要研究领域为计算机系统结构、分布式系统及并行处理.
+沈美明，女，博士生导师，主要研究领域为计算机系统结构、分布式系统及并行处理.
+作者单位：郑晓薇　辽宁师范大学计算机系　大连　116029
+郑纬民沈美明　清华大学计算机科学与技术系　北京　100084
+参考文献
+1　Howard J,Kazar M,Menees S et al.Scale and performance in a distributed file system.ACM Trans Computer Systems,1988,6(1):51～81
+2　Feeley M J, Morgan W E, Pighin F H et al. Implementing global memory management in a work station cluster. In: Proceedings of the ACM Fifteenth Symposium on Operating Systems Principles, USA, 1995. 201～211
+3 Amderson T E, Dahlin M D, Neefe J et al. Serverless network file system. In: Proceedings of the ACM Fifteenth Symposium on Operating Systems Principles,USA, 1995. 109～126
+4 Prasenjit Sarkar, Johnh Hartman. Efficient Cooperative caching using hints, In: Proceedings of Second Symposium on Operative System design and Implementation, USA, 1996. 35～46
+5 Fidge C J. Logical time in distributed computing systems. Computer, 1991, 24(8): 28～33
+6 何君，田范江，王鼎兴. 一种机群网络文件系统的合作高速缓存技术. 计算机学报， 1997， 20(10)： 899～907
+(He Jun, Tian Fanjiang, Wang Dingxing. Cooperative caching in the network file system on workstation cluster. Chinese Journal of Computers(in Chinese), 1997, 20(10): 899～907) 
+原稿收到日期：1998-12-11；修改稿收到日期：1999-04-08.

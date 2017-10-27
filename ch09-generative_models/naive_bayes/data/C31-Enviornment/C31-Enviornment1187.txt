@@ -1,0 +1,77 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+　　在TiO2催化剂上苯酚光催化氧化反应研究*
+2.多相光催化氧化与直接光解反应的比较
+王怡中　胡　春　汤鸿霄
+(中国科学院生态环境研究中心环境水化学国家重点实验室，北京 100085)
+　　摘要 在TiO2悬浆体系，中压汞灯作用下，通过苯酚降解过程中总碳浓度变化及二氧化碳生成速度的变化规律，研究了光催化氧化与直接光解反应的不同，并着重比较了当反应条件如催化剂量、气相氧浓度以及光强度变化对两种反应的影响.实验结果证明了两种反应的历程和产物各不相同.多相光催化氧化更有利于有机物分子的降解，而光解作用会引发聚合反应.同时也说明充分利用太阳能不仅是开发光催化水处理技术的重要途径，也是抑制直接光解加快催化氧化的有效措施.
+　　关键词 光催化氧化；直接光解；差异.
+　　多相光催化氧化法用于水中难降解污染物的去除，是80年代中期发展起来的新技术，具有节能、高效等优势.以二氧化钛为主的半导体催化剂在光照条件下，生成具有相当氧化还原活性的电子与空穴，它能使多种污染物得到不同程度的降解与去除［1—5］.目前一些新的研究进展，加快了多相光催化氧化技术向实际应用的步伐.
+　　在多相光催化氧化过程中，同时存在着两种反应.1.催化氧化反应：即在半导体催化剂作用下，有机物分子经过氧化反应逐步降解，经过一系列小分子物，最终生成二氧化碳、水以及无机离子.2.直接光解：即有机物在光作用下发生的直接光解反应.在光的作用下，有机物通常由自由基引发聚合反应，有些聚合物的稳定性和毒性比原始物更大.已有研究报道五氯酚溶液在无催化剂的均相光照作用下，生成毒性更大的tetrochlorodioxins［2］.在加入二氧化钛催化剂以后，这种中间物被有效地去除了［2］.在多相溶液中，两种反应同时存在相互竞争，经历各不相同的反应历程.尽管最终降解产物都可能生成二氧化碳，但由于光解过程的聚合作用，毒性基团没有迅速去除，而且原始物分子增大，生成的聚合物不论其毒性和稳定性都将对进一步去除造成阻碍，对反应不利.由此可见，在多相光催化反应中，应加快氧化步骤的进行，抑制光解作用.因而需要详细地研究两种反应的规律、相关因素，以便有效地控制反应向催化氧化的方向进行.为此我们以苯酚在TiO2催化剂的悬浮体系为例，分别考察了光催化氧化和光解反应的差异.
+1 试验内容
+1.1 光化学反应
+　　将410mL浓度为100ppm的苯酚溶液和一定量的TiO2催化剂(北京化工厂产品，以锐钛矿结构为主)置于玻璃光学反应器［6］中，中心光源采用300W和500W中压汞灯，光源周围的冷阱有玻璃和石英两种，以控制滤过之后可利用光的波长分别为330—450nm(以可见光为主)和200—450nm(包括紫外光和可见光)，用以比较不同波长的光源对苯酚光催化氧化和光解反应的影响.通入不同组分的气体(流量为240mL/min.)，既提供溶液中的气相氧，又起到搅拌作用.每间隔一定时间取样，经离心分离和0.45μm微孔滤膜过滤后，进行分析测定.为排除苯酚溶液在放置过程中的反应，空白试验将100ppm的苯酚溶液不加催化剂和光照，放置一周后，测定经0.45μm微孔滤膜过滤前后溶液的总碳浓度，未发现有任何差异.
+1.2 分析方法
+　　实验中发现，苯酚在光解反应中由于聚合作用使产物分子增大，溶液经0.45μm滤膜过滤后，出现总碳浓度减少，而单纯氧化反应中不曾有此现象.为了区分两种反应，我们在实验过程中，分别分析以下几项内容：反应过程中碳含量变化通过总有机碳测定仪TOC－500(shimadzu)分析.为了比较光解反应和氧化反应过程中产物增大和降解的差异，反应过程中每个样品分别测定经0.45μm滤膜过滤前后溶液中总碳浓度(TC)的变化，以下称为总碳差值(ΔTC)，并比较不同条件下该差值的变化趋势.总碳差值说明反应过程中光解聚合作用的大小.测定无机碳(IC)用以判断反应过程中CO2的生成量和生成率.溶液苯酚浓度的测定，通过高压液相色谱仪(shimadzu LC－3A)分析，采用紫外检测器、SOD柱，外标法以峰高定量.
+1.3 表征方法
+　　光解反应和催化氧化反应的速度用溶液中苯酚的浓度和总碳浓度随时间的变化表示为：
+(1) 苯酚的转化速度用苯酚的转化率即：苯酚浓度随时间的变化率表示；(2) 总碳转化速度可表示为：d［TC］/dt=k［TC］，假设反应速度对总碳浓度为一级动力学关系，经数学处理后可得到：　d［TC］/［TC］=kdt,k=.
+
+图1 不同光解条件下苯酚转化速度
+Fig.1 The conversion of phenol at various photoreactive conditions
+2 实验结果
+2.1 光解反应与催化氧化反应的差异
+　　从反应条件看，光解反应与催化氧化反应的关键差异是催化剂的存在与否.为了便于对两种反应的深入了解，我们分别考察和比较几种单一因素下的反应情况.首先采用500W中压汞灯，在无催化剂条件下，光解反应分别在通氧气、通氮气、紫外与可见光情况下表现出差异.图1显示出4种不同条件下苯酚的转化速度.可以看出在能量较高的紫外光条件下苯酚去除较快，而在可见光区有无氧气条件下苯酚去除都很有限.再对比催化剂TiO2加入后不同光源条件下苯酚的去除规律，从图2和图3的结果可以看出，紫外光条件下苯酚的去除速度与无催化剂时相近，说明在紫外光条件下，苯酚的去除有可能以光解反应为主.而在可见光条件下，加入催化剂后苯酚的去除速度明显加快，证明在可见光区苯酚的去除以多相光催化氧化反应为主.再从二氧化碳生成的角度比较有无催化剂存在时，光解和催化氧化两种反应的差异.图4结果可以看出有TiO2加入(2.5g/L)的一组实验中二氧化碳生成量始终比无催化剂的一组高，说明TiO2催化氧化将有利于有机物的完全氧化.
+
+图2 紫外光条件下苯酚催化氧化与光解反应比较
+Fig.2 The comparison between the photocatalytic oxidation and the direct photolysis under UV light
+
+图3 可见光条件下苯酚催化氧化与光解反应比较
+Fig.3 The comparison of the photocatalytic oxidatin with the direct photolysis of phenol under visible light
+
+图4 在有无催化剂条件下二氧化碳生成量的变化
+Fig.4 The change in CO2 production with TiO2
+2.2 不同催化剂投加量对催化氧化反应和光解反应的影响
+　　催化剂投加量将直接影响催化氧化反应的速度，势必对两种反应的竞争造成影响.改变溶液中催化剂量分别为0g、1.22g、2.44g、4.88g，考察对催化氧化反应和光解反应的影响，其中第一组催化剂空白试验可作为完全光解反应的对照结果.试验选用500W中压汞灯，石英冷阱，以便反应在紫外光和可见光同时存在的条件下进行.反应过程中分别考察溶液中总碳浓度及过滤前后总碳差值随时间的变化规律.表1结果明显看出投加催化剂的3组试验中，总碳消失速度都比不加催化剂的光解反应快，而且随着催化剂量的增加总碳消失速率常数k值也增加，反应过程中总碳消失说明生成了二氧化碳，并随搅拌气体脱离体系.再次证明二氧化钛催化剂有利于有机物分子氧化到二氧化碳.从图5的结果可以看出每组试验中总碳差值随反应时间增加而加大，达到一个最大值后又逐渐减小，第一组完全光解试验的总碳差值比加入催化剂的3组试验都大.3组催化剂试验比较，随着催化剂量增加总碳差值有减小趋势，说明随着催化剂量的增加，氧化反应的速度逐渐加快.但从图6的结果可以看出以上4组催化剂投加量变化试验中，苯酚的去除率变化趋势却基本相同，说明仅从原始物去除的角度观察试验现象将掩盖两种反应的本质差异，尽管光解反应也可以使苯酚浓度下降，但从总碳差值的变化看，并没有立即向分子降解途径发展，因而从污染控制的角度其毒性和稳定性都可能没有达到预期的结果.
+
+图5 催化剂投加量的变化对反应过程中总碳差值的影响
+Fig.5 The effect of the amount of catalyst on the change of TC
+
+图6 催化剂投加量的变化对苯酚转化反应的影响
+Fig.6 The effect of the amount of cata-lyst on the photodegradation of phenol
+表1 催化剂投加量对总碳消失速率的影响
+Table 1 Effect of dose of catalyst on the rate of total carbon disappearance
+
+催化剂量，g/L01.222.444.88
+速率常数k,min-12.1×10-35.2×10-35.8×10-36.7×10-3
+相关系数R0.920.990.970.99
+
+
+图7 气相氧浓度变化对总碳差值的影响
+Fig.7 The effect of the oxygen concentration on the change of TC
+2.3 气相氧浓度变化对氧化反应和光解反应的影响
+　　气相氧浓度是氧化反应进行的重要条件［7］，改变气相氧浓度将对氧化和光解反应的竞争产生影响，以便考察两者的差异.5组实验中气相氧浓度变化分别为0%、2%、5%、10%和20%，第一组试验中通入相同量的N2，以取代空气起同样的搅拌作用.试验采用500W中压汞灯，催化剂量为0.61g/L.试验考察了反应过程中总碳浓度和总碳差值随氧浓度的变化.从图7结果可以看出气相氧为零即无氧条件下，总碳差值最大.随着气相氧浓度增加，总碳差值减小并逐渐趋于零.说明随着氧化反应进程的加快光解反应速度逐渐减弱.
+2.4 光强度变化对氧化和光解反应的影响
+
+图8 不同功率光源条件下总碳差值变化趋势
+Fig.8 The change in TC under various power light source
+　　图8为不同功率汞灯的对比试验结果，从溶液过滤前后总碳差值看，300W条件下聚合物生成量明显低于500W，显然，光强度的增加对光解反应的加速作用更为明显，而在氧化反应中，当光强度增加时应有相应的氧气和催化剂量的增加，才能达到相应的最佳效果.
+3 结论
+　　从以上实验结果可以看出，直接光解与催化氧化共存在同一个体系中并相互竞争，两种反应的途径和产物各不相同.催化氧化更有利于有机物分子的解体，在有机物分子的降解过程中，随着碳链的断裂，毒性必然减小，可生化性提高，符合水处理的要求.提高光催化氧化反应速度的方法有：适量投加催化剂、提高溶液中氧气的浓度，同时适当提高光强度及光子的利用率.另外值得一提的是在可见光条件下光催化氧化速度比光解快得多，因而充分利用太阳光能不仅是进一步开发光催化氧化水处理技术的重要途径，也是抑制直接光解加快催化氧化的有效措施.
+　*国家自然科学基金(批准号为2967010)及中国科学院重点项目(KZ952-S1-231)
+参考文献
+　1 Ollis D F,Pelizzetti E， Serpone N.Destruction of waster contaminants.Environ Sci Technol,1991,25(9):1523—1529　
+　2 Hoffman M R,Martin S T,Choi W et al.Applications of semiconductor photocatalysis.Chem Rev,1995,95:69—96
+　3 Amy L,Linsebigler,Guangquan Lu　et al. Photocatalysis on TiO2 surfaces:Principles,mechanisms and selected results.Chem Rev,1995,95:735—738
+　4 胡　春，王怡中，汤鸿霄.多相光催化氧化的理论与实践.环境科学进展，1995，3(1)：55
+　5 Greg Smestad,Carlo Bignozzi,Roiberto Argazzi.Testing of dye sensitized TiO2 solar cells.Solar Energy Materials and Solar Cells,1994,32:221—227
+　6 王怡中，胡　春，汤鸿霄.在TiO2催化剂上苯酚光催化氧化反应研究1.降解产物分布及反应途径.环境科学学报，1995，15(4):472—479
+　7 胡　春，王怡中，汤鸿霄.TiO2光催化氧化苯酚动力学.环境科学，1997，18(4):1—4
+COMPARATIVE BETWEEN HETEROGENEROUS PHOTOCATALYTIC OXIDATION AND DIRECT PHOTOLYSIS OF PHENOL IN AQUEOUS SOLUTION
+Wang Yizhong,Hu Chun,Tang Hongxiao
+(Research Center for Eco-Environmental Sciences,Chinese Academy of Seiences Beijing 100085)
+ABSTRACT Comparison between heterogeneous photocatalytic oxidation with TiO2 slurry and direct photolysis of phenol have been investigated by means of monitoring the total carbon concentration and starting material during the reaction processes.The results clearly indicated that both processes followed different pathways.In photocatalysis oxidation the phenol was degraded into smaller molecular compounds.In contrast,in direct photolysis the dimmer or polymer reactions of phenol were brought as evidence showing that moleculars of the products are bigger than starting material.The influences of reaction conditions such as catalysts dose,the oxygen concentration,and illumination intensity on the reaction rate were investigated.In addition,it was shown that in visible light region the reaction rate of the photocatalytic oxidation is much faster than that of the direct photolysis,indicating the advantage of developing solar photocatalytic oxidation facilities for commercial applications on wastewater treatment.
+Keywords photocatalytic oxidation, direct photolysis,differences.
+1996-07-05收到原稿
+1997-03-19收到修改稿

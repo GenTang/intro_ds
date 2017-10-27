@@ -1,0 +1,59 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第8期 Vol.25 No.8 1999
+
+
+
+Unix和Windows NT之间实现远程过程调用
+孙春艳，项钦之
+摘要：介绍了利用Socket机制，实现跨Unix和Windows NT系统的远程过程调用方法、实现机制，并简介编程要点。
+关键词：远程过程调用；套接字；WinSock
+The Implementation of PRC Between Unix and Windows NT
+Sun Chunyan,xiang Qinzhi
+(CAD/CAM Software Development and Training Center of China Aerospace Corp.,Beijing 100037)
+【Abstract】This paper introduces the method and mechanism that take advantage of Socket to realize RPC between Unix and Windows NT.In addition,it shows main points of programming.
+【Key words】RPC;socket;WinSock
+　　网络程序开发中常要激活分布在网络中远地机器上的过程，即远程过程调用 RPC(Remote Procedure Call) ，现有的很多成熟的操作系统都有各自的 RPC 应用软件，用户在调用远程过程时，可直接利用库函数给予支持。然而，对于多种操作系统共存的网络环境，远程调用程序在不同的系统上时，要实现远程过程调用就不能直接使用现有的 RPC 软件。 Unix 和 NT 之间的跨平台不带参数的远程过程调用已经在包括 SUN 工作站 ( 以 Solaris 为操作系统 ) 和 PC 机 ( 以 Windows NT 为操作系统 ) 的网络环境上实现。 
+1 实现原理和实现机制
+1.1 实现原理 
+　　TCP/IP 作为应用最广泛的网络协议，已成为计算机行业中开放系统互联的 " 既成事实 " 的标准，大多数版本 ( 包括 Solaris) 的 Unix 已把 TCP/IP 作为操作系统的一部分， Microsoft 公司的 Windows NT 也包含了 TCP/IP 协议。套接字 (Socket) 作为在传送层上提供给应用程序的接口之一，在互连网域支持 TPC/IP 协议，为此 Socket 便成为两种操作系统之间实现通信的基础。 Socket 首先是由 4BSD Unix 提出，它采用 Client/Server 模式的通信机制，解决了网络之间连接和数据通信问题。 Solaris 系统的 Socket 在这样的机制下，提供了一系列系统调用，实现进程间通信。 Windows NT 提供的 WinSock 借用 4BSD Unix 中套接字的概念，同时又对 Windows 的几种特点增加了扩充，它的实现与 Socket 既有共同点又有本身的特点。利用两者的共同点实现两种操作系统之间的通信；由于两者的差别，编程实现又有很大不同。 
+1.2 实现机制 
+　　一般的 RPC 通常采用所谓的 Client/Server 工作方式，这是一种非对称的工作方式， RPC 的调用者处在 Client 方，而远程过程即被调用者处在 Server 方。如图 1 所示。 
+　　(1) 发往网络的信息，由网络中库例程处理 
+　　(2) 使用面向连接或非连接协议传送信息 
+　　(3) Server 进程等待客户请求，并激活远程过程 
+　　(4) 远程过程执行完毕，将结果交给网络 
+　　(5) 网络将结果信息传送到 Client 方 
+　　(6) Client 接受结果信息 
+
+图1 一般RPC模型
+　　在两种不同的操作系统之间实现 RPC 调用，所采用的工作机制和单一系统的基本一致，但由于系统的不同，运行在其上的进程也不同。如图 2 所示： 
+
+图2 跨平台RPC模型
+　　图 2 中 (1)-(6) ， (1′)-(6′) 和图 1 中 (1)-(6) 实现相同的功能，即 Unix 系统上的调用者通过 Client 进程既可经过 (1) 、 (2) 、 (3) 、 (4) 、 (5) 、 (6) 调用本系统内远程过程，也可经过 (1) 、 (2′) 、 (3′) 、 (4′) 、 (5′) 、 (6) 实现 Windows NT 系统上的远程过程调用。同样 Windows NT 系统上的调用者通过 Client 进程经过 (1′) 、 (2′) 、 (3′) 、 (4′) 、 (5′) 、 (6′) 和 (1′) 、 (2) 、 (3) 、 (4) 、 (5) 、 (6′) 调用本系统及 Unix 系统的远地过程。 
+　　由于系统的差异， Unix 系统和 NT 系统的服务进程的实现是不同的，图 2 中 Client 与 Client ′， Server 与 Server ′进程实现功能一样，但实现方法不同。具体细节在程序介绍中说明。 
+2 函数介绍 
+　　用户可见的函数有 3 个，调用方 Client 的 CallRemote-Proc() ，不论是在 Unix 还是 Windows NT 上，用户都用此函数调用异地过程。被调用方 Server 的两个函数：① RegisterRemoteProc() 为每个需要被异地调用的过程，在调用前在本机的远程调用过程表内注册；② DelRegistration() 用于取消本机的远程调用过程表内已注册的过程。 
+　　不论在 Unix 还是在 Windows NT 上，如一个进程需要被异地调用时，必须使用 RegisterRemoteProc() 注册，之后此过程可被任意系统上的 CallRemoteProc() 调用。当此进程不再被调用时，使用 DelRegistration() 在远程调用过程表内注销此过程，以免浪费资源。 
+　　此外，还有一些对用户不可见的函数集中在 Server 方，主要的两个函数是：为注册服务的 RegisteredProc() 和为 Client 端远程过程调用服务的 CallProc() 。它们是必须在使用远程调用的功能前，被启动的后台守护服务进程。前一个等待本机上由 RegisterRemoteProc() 和 DelRegistration() 发出请求，以维护远程调用过程表记录当前最新信息。后者等待网上任一机器上的进程发出调用本机过程的申请，通过检索远程调用过程表，确定此过程是否可调用，并将调用结果或不可调用信息返回发出申请的进程。 
+3 程序简介
+3.1 Server 方服务程序 
+　　据上所述 Server 方的 4 个主要函数实现两个功能：注册和监控 Client 方调用进程申请。 RegisteredProc() ， Register-RemoteProc() 和 DelRegistration() 实现注册功能； CallProc() 反应 Client 方调用进程的申请。无论 Unix 还是 NT 系统，这种函数的功能划分是一致的。下面分别介绍实现方法。 
+　　(1) Unix 系统上的 Server 方程序 
+　　注册主要用到同一台机器上进程间的信息交换技术。 Unix 提供消息队列实现进程间消息传送，所有的消息都放在内核并且都有一个相应的消息队列号，标志号记作 msgid 用来标识某一特定的消息队列，进程可通过所知 msgid 读写此队列中的某些消息。系统调用 msgget() 可创建一个新的消息或访问一个已存在的消息队列，一旦通过 msgget() 打开一消息队列，便可通过 msgsnd() 调用把一个消息挂在队列上。其它进程可通过系统调用 msgrcv() 从队列中读取此消息。 
+　　Client 方的监控程序主要用到网络间进程通信。 Unix 提供 API 之一的 Berkeley 套接字 ,Socket 提供多个由应用程序维护的系统调用来建立进程间的网络连接。图 3 说明这部分程序利用面向连接的 Socket 系统调用的实现过程。 
+　　监控程序的主要部分如图 3 中 Server 部分所示，完成对 Client 方的申请反应，并调用所需进程。 
+　　(2) Windows NT 上的 Server 方程序
+
+图3 监控程序socker结构
+　　注册部分的实现与 Unix 完全不同，由于 NT 没有消息队列的机制，使用命名管道的方法传送信息。命名管道是服务进程
+　　一个或多个客户进程之间通信的单向或双向管道。 registeredProc() 进程作为此处的服务进程在调用 CreateNamePipe() 函数建立一个命名管道实例时指定名字，所有命名管道实例共享相同的管道名，作为客户进程的 RegisterRemoteProc() 和 DelRegistration() ，在调用 CreateFile 和 CallNamePipe 函数时指定同样的管道名，连接到一个管道实例上。这样，进程使用相同名字的管道进行通信，完成对远程调用过程表的管理。 
+　　NT 上的监控部分应用 WinSock 编写， WinSock 由 Berkeley Socket 发展来的，它们的基本原理一致，所以这部分的实现核心及结构与 Unix 上一致，如图 3 所示。但由于 WinSock 的特点，程序实现细节仍存在差异。 首先，由于 Windows Sockets 的服务是以动态连接库 WinSock.DLL 形式实现的，所以必须要先调用 WSAStartup() 函数对 Windows Sockets DLL 进行初始化，协商 WinSock 的版本支持，并分配必要的资源。在应用程序关闭套接字后，还应调用 WSACleanup() 终止 Windows Sockets DLL 的使用，并释放资源，以备下次使用。其次， NT 产生子进程的函数 CreateProcess() 实现机制与 Unix 系统中的 fork() 不同， Socket 号不能直接传给子进程，所以父进程须调用函数 WSADuplicateSocket() 获得套接字描述符，使得子进程调用函数 WSASocket() 之后，与父进程共享相同的套接字描述符。其余部分基本与 Unix 相同。 
+3.2 Client 方程序 
+　　Unix 系统和 Windows NT 上 Client 方程序在实现方法及程序结构上差别不大，所以不分别说明。 
+　　调用方的 CallRemoteProc() 函数主要应用 Socket 应用软件中的 Client 方的系统调用，实现与远程机器间的通信，完成对其上过程的调用，并返回结果。程序实现如图 3 中 Client 部分所示。 
+作者单位：中国航天工业总公司CAD/CAM开发与培训中心，北京 100037
+参考文献
+1 全民，张倪 . 工作站系统结构、软件开发及应用 . 北京：国防工业 出版社， 1993 
+2 钟皓，陈淑珍 . Windows 环境下的 TCP/IP 网络编程及应用 . 计算 机工程， 1997 ， 23(6) ： 13 
+3 Microsoft Corporation. Microsoft Win32 程序员参考大全 ( 二 ). 北 京：清华大学出版社， 1994 

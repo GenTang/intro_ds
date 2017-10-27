@@ -1,0 +1,184 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年　第1期　No.1　1999
+
+
+
+　　压电框架单元及其在结构振动
+控制中的应用*
+马爱军　刘守荣　陈塑寰
+　　摘　要　重点阐述了含压电传感器和执行器的复合结构框架有限元模型的建立过程,导出了压电框架单元的压电刚度矩阵和介电刚度矩阵;进而引入基本控制规律用数值例子说明了压电传感器与执行器在结构的振动控制中的具体应用。 
+　　主题词　压电框架单元　结构振动控制
+A PIEZOELECTRIC FRAME FINITE ELEMENT MODEL 
+AND ITS APPLICATION IN VIBRATION CONTROL
+Ma Aijun
+(Institute of Space Medico-Engineering．Beijing．100094)
+Liu Shourong Chen Suhuan
+(Jilin University of Technology．Changchun．130022)
+　　bstract　This paper presents the finite element formulation of frame structures with distributed piezoelectric sensors and actuators.The piezoelectric stiffness matrix and dielectric stiffness matrix of a frame element are derived.A numerical example is given to illustrate the application of piezoelectric sensors and actuators in structure vibration control by implementing two fundamental control laws.
+　　Key words　Piezoelectric frame element Structure vibration control
+1　引言
+　　随着航天工业的飞速发展以及人类航天活动的日益频繁,对航天器的结构以及诸如空间站主体结构、大型空间探测用的精密仪器等各类复杂空间结构的结构特性提出了越来越高的要求;尤其是随着各类轻质复合材料在大型空间结构的应用而导致了这些空间结构具有大挠性,近年来大型空间挠性结构的振动控制问题引起了许多研究人员的注意［1］。
+　　已有研究表明压电材料的两个基本特性(正、逆压电效应)使得其能在结构的振动控制中充当传感元件和执行元件［2］。目前,主要采用三种方法来研究压电材料在结构的振动控制中的应用:(1)实验法［2］;(2)解析法［3］;(3)有限元法［4-7］。一般来说,实验法会受到模型的大小、制造费用、环境以及实验室条件等因素的限制。解析法只适用于解决具有简单几何形状和边界条件的问题,当模型和边界条件变得复杂时,该法将遇到不可克服的困难。此时,选择有限元法来解决问题较为理想。考虑压电效应影响的压电有限元法最初由Allik和Hughes提出［4］,在他们的开拓性的工作中,Allik和Hughes建立了机电耦合的常应变四面体单元。近十年来,由于压电材料在结构的振动控制中的普遍应用,促使各国研究人员建立考虑压电效应的新的压电单元,如文献［5中,Tzou和Tseng建立了分布参数系统分布压电传感器和执行器的薄六面体压电单元;文献［6中,Moetakef等给出了高阶四面体压电单元——直边线性应变四面体单元和二次应变四面体单元,并通过对所推得的四面体单元的组合构成了六面体单元,这有利于联合使用六面体单元和四面体单元对实际结构进行离散分析;文献［7］中,Hwang和Park建立了二维四边形弯曲板单元的压电传感器和执行器的有限元模型,该单元有四个节点,十二个位移自由度,每个单元的电场被假设成具有一个电自由度,该单元的优点是计算量小,且能大大节省计算机的内存,缺点是对单元电场的处理过于简单。概括地讲,用有限元法研究压电材料在结构振动控制中的应用目前所使用的单元类型还比较单一,有必要进一步建立新的压电单元模型。
+　　在大型结构(如空间站主体结构,大口径微米波天线结构等)中,框架结构被广泛采用,因此本文着重讨论压电框架有限元模型,详细阐述压电框架单元质量矩阵和刚度矩阵的导出过程;文中引入基本控制规律(PD控制规律),用数值例子研究了压电传感器与执行器在结构的振动控制中的应用,目的在于用数值分析的方法说明压电材料应用于结构振动控制的可行性。
+2　压电有限元方程的导出
+2.1　压电方程
+　　如图1所示,本文所研究的平面框架单元中所用压电材料的压电性可分别用如下两个正、逆压电方程表示［8］:
+DZ=e31SX+ε33EZ
+(1)
+TX=C11SX-e31EZ
+(2)
+式中DZ为电位移,e31为压电应力常数,SX为应变,ε33为夹持介电常数,EZ为电场强度,TX为应力,C11为短路弹性刚度常数。
+　　图1中,该平面框架元由三部分组成,上、下两层为压电材料,且假设它们的极化方向相反,它们在振动控制中分别充当执行器和传感器;中间一层为一般工程常用材料,这里称之为主体结构。图中u1,u2,u3,u4,u5,u6为单元的节点位移,φ1,φ2为单元上表面执行器的节点电势,φ3,φ4为单元下表面传感器的节点电势。
+
+
+图1　平面复合压电框架单元
+2.2　含压电传感器和执行器的复合框架单元的有限元方程
+　　为了导出如图1所示的平面复合压电框架单元的动力方程,我们用哈密尔顿原理
+
+(3)
+式中T、Ta、Ts分别为单元主体结构,执行器和传感器的动能,U、Ua、Us为势能,W为机械外力所作的功,Wa、Ws分别为电场在执行器和传感器上所作的功。式(3)中各项的具体形式如下:
+
+(4a)
+
+(4b)
+
+(4c)
+
+(5a)
+
+(5b)
+
+(5c)
+
+(6a)
+
+(6b)
+
+(6c)
+式中ρ、ρa、ρs分别为主体结构、执行器和传感器的质量密度,为速度,为位移,Ps为单元分布载荷,Pc为集中力,φ为电势,而σ为表面电荷面密度。
+　　对于平面复合压电框架单元的位移,我们取与标准有限元一致的位移插植模式,因此很容易得到单元任一点位移与节点位移的关系,以及应变与位移的关系如下:
+U=NuUe
+(7a)
+SX=BuUe
+(7b)
+其中Ue=［u1 u2 u3 u4 u5 u6］T为单元节点位移。
+　　对于压电框架单元的电场,我们假设其上表面执行器层任一点的电势φa与其节点电势φea的关系如下:
+
+(8a)
+假设其下表面传感层任一点的电势φs与其节点电势φes的关系如下:
+
+(8b)
+再利用电场强度与电势的关系式
+
+(9a)
+由于压电材料很薄,在式(9a)中可以用差分近似代替微分,即
+
+(9b)
+式中Δφ为压电执行器层与传感器层各自上表面与下表面的电势差,假设主体结构的电势为零,这样可由式(8)、式(9)导出电场强度与节点电势的关系为:
+
+(10a)
+
+(10b)
+式中ha、hs分别为压电执行器层和传感器层的高度。将式(4)-(10)代入式(3)可推得平面复合压电框架单元的动力方程为:
+
+(11a)
+
+(11b)
+
+(11c)
+式中单元矩阵与向量可表示如下:(以执行器为例)
+
+(12a)
+
+(12b)
+
+(12c)
+
+(12d)
+
+(12e)
+
+(12f)
+对于传感器的单元矩阵其形式与执行器的一样,所不同的只是积分域。式(12a)与(12b)均为标准的框架单元质量与刚度矩阵［9］,这里给出机电耦合的刚度阵Keuφa和介电刚度矩阵Keφφa
+
+(13)
+
+(14)
+式中L为单元长度,W为宽度,H为主结构高度,ha为压电执行器层高度。
+　　经过各单元组装,我们可得到整个结构的动力方程
+
+(15a)
+
+(15b)
+
+(15c)
+　　从方程(15)中消去电势φa和φs则
+　
+(16)
+式中FGa和FGs定义如下:
+
+(17)
+
+(18)
+　　若用M、K和F分别代表主结构的质量阵、刚度阵和外部机械激励向量,Mp、Kp和FG分别代表压电层(包括压电传感元件层和执行元件层)的质量阵、刚度阵和电激励向量,则式(16)可简写成:
+
+(19)
+　　一般情形下,所有结构都具有弱阻尼,为此,人为地在式(19)中加入一线性粘滞阻尼项,即
+
+(20)
+　　式中阻尼矩阵C定义为:
+C=α(M+Mp)+β(K+Kp)
+(21)
+　　式中α、β为瑞利系数。
+3　结构的振动控制
+　　由式(15c),可推得压电传感元件的输出电压表达式
+φs=K-1φφs(-Gs+KφusU)
+(22)
+一般情况下,没有外电场作用到压电传感元件上,即Gs=0,因此式(22)化为
+φs=K-1φφsKφusU
+(23)
+由式(20)可知,含压电传感器和执行器的复合结构所受外激励由两部分组成,F与FG,前者是机械激,后者在闭环控制系统中充当反馈控制激励,其一般表达式为式(17)。当联合使用基本控制规律(PD负反馈)时,压电执行元件层的反控制力可表示为:
+
+(24)
+式中C1、C2为反馈增益矩阵。
+　　将式(24)代入式(20)得:
+
+(25)
+由上式可知采用PD负反馈控制规律时,相当于在原系统的刚度项与阻尼项上分别增加了一修正项,适当调节增益系数,可改变原系统的动态特性并能满足必要的特性要求。
+4　数值例子
+　　为研究压电材料对主体结构振动特性影响,考虑如图2所示的悬臂梁结构,主结构的上下表面各粘结一层压电聚合物聚偏氟乙烯PVDF,在振动控制中,上面的一层PVDF可作为执行元件,下面的一层PVDF作为传感元件。该梁被均匀分成5个单元。该结构的长度L=0.3m,宽度W=0.005m,主结构和PVDF层的高度分别为0.003m和0.0001m,二者的材料常数分别为:
+　　PVDF　杨氏弹性模量C11=2.0×109N/m2
+　　　　　压电应力常数e31=0.046C/m2
+　　　　　介电　　常数ε33=1.062×10-10F/m
+　　　　　质量　　密度ρ=1.8×103kg/m3
+　　梁　　杨氏弹性模量C11=2.0×1011N/m2
+　　　　　质量　　密度ρ=7.8×103kg/m3
+
+
+图2　压电悬臂梁
+　　本例联合使用PD反馈控制规律来分析闭环系统压电悬臂梁的振动控制,此时系统的运动方程为式(25)。
+　　在悬臂梁端点处加一横向单位阶跃力,分别用式(20)、(25)计算其开环和闭环系统的响应。本例中方程(20)和(25)的求解采用模态迭加法,计算时主结构的阻尼比取为0.01,各压电传感元件的反馈增益均取为100。图3绘出了开环系统的响应曲线,图4为闭环系统的响应曲线,显然闭环系统的振动很快得到了抑制。这同时也说明将压电材料应用于结构的振动控制是可行的。
+
+
+图3　开环系统的响应
+
+
+图4　闭环系统的响应
+5　结束语
+　　本文提出了一种新的压电有限元模型——平面压电框架元,给出了该单元的压电刚度矩阵和介电刚度矩阵的具体形式;对压电材料应用于结构的振动控制进行了初步探讨,并采用有限元法验证了压电传感器和执行器用于结构的振动控制这一新技术的有效性。
+*国家自然科学基金资助项目
+作者单位:马爱军　(航天医学工程研究所．北京．100094)　刘守荣　陈塑寰(吉林工业大学．长春．130022)
+参考文献
+　[1]Rao S S,Sunar M.Piezoelectricity and Its Use in Disturbance Sensing and Control of Flexible Structures:A Survey.Applied Mechanics Review,1994,47(4):113-123
+　[2]Gibbs G P,Fuller C R.Experiments on Active Control of Vibrational Power Flow Using Piezoceramic Actuators/Sensors.AIAA Journal,1992,30(2):457-463
+　[3]Tzou H S,Gadre M.Theoretical Analysis of a Multi-Layered Thin Shell Coupled With Piezoelectric Shell Actuators for Distributed Vibration Controls.Journal of Sound and Vibration,1989,132(3):433-450
+　[4]Allik H,Hughes T J R.Finite Element Method for Piezoelctric Vibration.International Journal for Numerical Methods in Engineering,1970,2(2):151-157
+　[5]Tzou H S,Tseng C I.Distributed Piezoelectric Sensor/Actuator Design for Dynamic Measurement/Control of Distributed Parameter Systems:A Piezoelectric Finite Element Approach.Journal of Sound and Vibration,1990,138(1):17-34
+　[6]Moetakef M A,et al.Closed-Form Expressions for Higher Order Electroelastic Tetrahedral Elements.AIAA Journal,1995,33(1):136-142
+　[7]Hwang W S,Park H C.Finite Element Modeling of Piezoelectric Sensors and Actuators.AIAA Journal,1993,31(5):930-937
+　[8]孙慷,张福学.压电学.国防工业出版社,1984
+　[9]Cook R D.Concepts and Applications of Finite Element Analysis.New York:John Wiley,1981
+收稿日期:1996年8月9日,修回日期:1997年12月5日
+
+

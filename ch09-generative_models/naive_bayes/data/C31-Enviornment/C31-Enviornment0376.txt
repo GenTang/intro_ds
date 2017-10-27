@@ -1,0 +1,70 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第1期 Vol.19 No.1 1999
+
+
+
+湿式氧化法处理高浓度活性染料废水
+雷乐成　汪大辉
+摘要：采用湿式氧化法处理高浓度活性染料废水.试验结果表明,湿式双氧水氧化工艺具有较高的TOC和色度去除效果.湿式双氧水氧化处理受反应温度、双氧水的加入量、废水初始pH值的影响,反应温度是最敏感的实验参数.初始TOC的去除率与双氧水的加入量成正比,色度与TOC的去除率有密切的关系.在150℃、理论双氧水加入量、反应30min、未加催化剂和不调废水初始pH值等实验条件下,湿式双氧水氧化处理高浓度活性染料废水,其TOC和COD去除率均达80%以上,色度去除率高于90%.
+关键词：活性染料；湿式氧化；废水处理
+中图分类号：X703 文献标识码：A 文章编号：1000- 6923(1999)01- 0042- 05
+Wet oxidation of high concentration reactive dyes wastewater.
+LEI Le-cheng,WANG Da-hui (Department of Environmental Science and Engineering, Zhejiang University, Hangzhou 310027,China).China Environmental Science.1999,19(1)：42～46
+Abstract：Advanced oxidation technologies were used to degrade reactive dyes at high concentration.Wet peroxide oxidation was found to be the best method in terms of color and total organic carbon (TOC) removal.Reactive blue,the least biodegradable,was chosen as a model dye for determining the most suitable reaction conditions.Experimental results showed that wet peroxide oxidation (WPO) was affected by temperature,initial pH value and added hydrogen peroxide amount. The removal of TOC and color were found to be very sensitive to the reaction temperature.The initial TOC removal rate was found to be proportional to the dosage of hydrogen peroxide,the color removal was also found to be closely related to the removal of TOC until an equilibrium TOC was reached.With increasing the reaction temperature to 150 oC、80% TOC and 90% color were removed under the operating conditions as stoichiometric hydrogen peroxide amount added,without employed catalyst and within half an hour.
+Key words：reactive dyes；wet oxidation；wastewater treatment
+　　纺织印染废水是工业废水的主要排放源之一.印染废水中往往含有大量的有机物和较深的颜色.高浓度有机物将消耗水体中的溶解氧.废水的色度阻碍了光向水体的传递,从而破坏了水生生物的生存环境.分析纺织印染工艺废水排放的性质发现,废水具有高浓度 (化学耗氧量CODCr、总有机碳TOC)和高色度(Lovibond Unit, 色辉度)等特点.在各种染料废水的处理中,活性染料废水处理的难度最大.
+　　传统活性染料废水处理包括混凝、化学氧化和生物氧化.混凝法对活性染料废水的处理有一定效果,但各种混凝剂对染料的脱色没有广谱性,而且产生大量的化学污泥带来二次污染.由于印染废水的可生化性差,单纯的好氧生物处理工艺难以达到废水排放要求,且印染工艺或染料品种的改变对厌氧处理池中优势脱色菌造成致命冲击,如何长期保持这些优良菌种在生物处理系统中的活性,是目前厌氧-好氧法处理印染废水的技术难点[1].化学氧化法如Fenton氧化法处理活性染料废水具有良好的效果,但当废水浓度较高时反应速率下降,出水呈现较深的棕色[2].虽然膜分离技术已成功地应用于印染废水的处理中,但高浓度浓缩液尚需进一步处理[3].
+　　对于高浓度、高色度印染废水的处理,湿式空气氧化法(WAO)具有良好的处理效果,并能大大提高难降解废水的生物可生化性[4].它是在高温、高压下利用分子氧矿化废水中的有机物,具有处理效率高、占地面积小、无二次污染等优点.该法的技术难点是如何降低反应所需的高温和高压.本研究拟在WAO反应体系下,用双氧水代替氧气,开发湿式双氧水氧化处理新工艺,并对其操作参数进行优化,为高浓度活性染料废水的处理提供新途径.
+1 试验装置和方法
+　　湿式氧化装置如图1所示.反应器有效容积为2L,具有搅拌和内冷却装置.试验时将1L高浓度染料废水装入反应器中,密闭后充入氮气以赶走空气.当反应器加热到反应所需温度时,通入氧气至所需的理论氧分压,此时作为零点.在不同反应时间间隔取样分析水样的TOC、CODCr和色度.TOC测定采用Shimadu TOC-5000分析仪,CODCr采用HACH DR/2000直读式分光光度计测定,色度的分析采用Lovibond色调计进行.试验采用的废水由染料配制.
+
+图1 湿式氧化处理实验装置
+Fig.1 Schematic diagram of Wet Oxidation system
+1.高压釜 2.O2钢瓶 3.N2钢瓶 4.污水贮槽 5.搅拌器
+6.排气系统 7.压力计 8.取样系统
+2 结果与讨论
+2.1 湿式氧化法的比较
+　　实验选用4种湿式氧化法.以氧气单独作为氧化剂的处理工艺为湿式空气氧化(WAO).催化湿式空气氧化(CWAO)是在WAO反应体系中加入催化剂.助加湿式空气氧化法(PWAO)则是在WAO反应体系中,加入氧气的同时加入适量的双氧水作启动剂.湿式双氧水氧化(WPO)是用双氧水完全代替氧气作氧化剂.
+　　试验结果如图2所示.对于进水浓度TOC为8750mg/L,CODCr为38500mg/L的活性兰染料废水,在200oC、3.3MPa氧分压条件下WAO处理效果不明显,CODCr和色度没有显著降低.当加入Cu2+催化剂200mg/L时,CWAO处理效果有较大地改善,CODCr和TOC均有明显的去除,而色度的去除没有明显的效果.为提高废水的脱色效果同时降低反应所需的温度和压力,将纺织印染业中作为漂白剂而广泛使用的双氧水部分或全部代替氧气组成新的湿式氧化工艺.在WAO反应体系中加入10%的理论量双氧水(10%×250mL=25mL, 30%H2O2),反应温度降为150℃的PWAO工艺其CODCr和色度的去除率比CWAO、WAO有较大的提高,尤其是对色度的去除有明显的作用.当双氧水全部代替氧气即加入100%的理论双氧水量(100%×50mL=250 mL,30%H2O2),在150oC反应温度下,和PWAO工艺相比,WPO在20min即可取得80%的CODCr 去除率和90%的脱色效果.
+
+图 2 不同湿式氧化工艺对处理效果的影响
+Fig. 2 Wet Oxidation of reactive dye with various
+technologies
+2.2 湿式双氧水氧化(WPO)
+　　WPO具有较高的CODCr和色度去除率,主要是因为双氧水的氧化能力比氧气强;与WAO相比,WPO因采用液态双氧水作氧化剂,消除了气-液传质阻力.该工艺基于常温下的Fenton氧化原理,通过反应生成× OH自由基,从而激发氧化反应的进行[5].然而,WPO是在较高的反应温度下进行,而不加任何催化剂(如Fe2+等),利用高温促使双氧水产生. OH自由基.虽然高温能加速反应的进行,但同时也加速了双氧水自身的无效分解[6].因此反应温度、所需双氧水浓度、进水pH值等操作参数将直接影响WPO的处理效果.
+2.2.1 反应温度的影响 图3是反应温度对WPO处理效果的影响.试验温度分别为110、130、150oC,双氧水投加量为理论量即完全氧化有机物所需的理论双氧水投加量.随着温度的升高,CODCr、TOC和色度的去除率显著提高.当温度为150oC、进水TOC和CODCr分别为8750和38500mg/L,反应30min后出水中TOC和CODCr分别降为2000和5000mg/L.反应温度越高,色度的去除率越高,当反应温度从130增至150oC时,反应30min后色辉度从31迅速降至3.7个单位.
+
+图3 反应温度对湿式氧化处理效果的影响
+Fig. 3 WPO of reactive blue, effect of reaction temperature
+2.2.2 双氧水加入浓度的影响 图4表明不同双氧水加入量对高浓度活性兰染料废水处理效果的影响.反应温度为130oC,进水TOC和CODCr分别为8750和38500mg/L.随双氧水加入量的增加,初始TOC去除率也增加.当双氧水加入量为理论量的50%时,CODCr去除率为50%而TOC去除率效果不明显.说明加入双氧水产生的自由基不能完全矿化废水中有机物,但废水中有机碳的组成发生变化,形成低CODCr值的小分子有机物.当双氧水加入量超过理论量时, CODCr、TOC去除效果明显,但初始去除率没有显著提高.图5表明反应90min后废水的TOC和所加入双氧水量的关系.当双氧水加入量超过理论量时,废水中TOC值没有发生明显地下降.说明加入过量双氧水并不能明显地提高有机物的去除率.
+
+图4 双氧水浓度对湿式双氧水氧化处理效果的影响
+Fig. 4 WPO of reactive blue, effect of H2O2 dosage
+
+图5 双氧水浓度和最终TOC去除率的关系
+Fig. 5 WPO of reactive blue, effect of H2O2 concentration on final TOC
+2.2.3 废水初始pH值的影响　双氧水的稳定性和所处理废水的pH值有较大的关系,碱性溶液中的HCO-3将捕获H2O2裂解产生的. OH自由基,从而降低氧化反应速度[7].图6表明废水初始pH值和TOC、CODCr、色度去除率的关系.在反应时间为15min,废水初始pH值对TOC和色度去除效果的影响不明显.随着反应的继续,废水初始pH值越高,TOC、CODCr和色度的去除率明显下降.从图6中CODCr去除率的变化关系还可以发现,pH值从3. 5增加到8. 8,CODCr去除速率随之逐渐减少,即pH值越低,初始CODCr去除速率越大.这意味着较低的pH值阻止了. OH自由基的自身无效损耗.
+
+图6 废水初始pH值对湿式双氧水氧化效果的影响
+Fig. 6 WPO of reactive blue, pH effect
+2.3　湿式双氧水氧化的反应历程
+　　由图4可知,只有当双氧水的加入量达到理论加入量,而且当TOC的去除率达到一定程度时,色度的去除率才有明显地变化.当TOC去除率大于50%,色度值开始出现明显地下降;当TOC去除率达到70%时,色度几乎完全去除.随双氧水加入量的增加,色度的初始去除率有很大的提高,说明有色基团的破坏程度与双氧水加入浓度有关.
+　　活性兰染料有色基团的结构改变会相应引起废水颜色的变化.表示废水颜色的单位色辉度(Lovibond值)由红、黄、兰3种颜色组成.相同的Lovibond值其三原色的组成比例不一定一致.图7分析了在130oC反应温度下,组成活性兰染料三原色随反应时间的色度变化规律.当反应60min后,兰色消除并转变为红色和黄色；当反应90min后,红色消除,废水显现轻微的黄色.说明组成原始活性兰染料的有色基团被破坏,裂解成具有红色或黄色基团的小分子染料.随氧化的进行,这部分有色基团进一步被氧化.随着反应时间的延长,由于氧化生成的反应中间产物如乙酸、乙二酸不能进一步被氧化,去除效果没有得到较大地改变[8].
+
+图7 湿式双氧水氧化活性兰染料色度的变化
+Fig. 7 WPO of reactive blue, colorchange history
+3 结论
+　　对于高浓度活性染料废水的处理,湿式空气氧化、催化湿式空气氧化和助加湿式空气氧化均不能取得满意的效果,而湿式双氧水氧化处理活性染料废水具有较高的TOC、CODCr和色度的去除率.在150℃、理论双氧水加入量、反应30min,WPO处理活性染料废水其TOC、CODCr去除率均达80%以上,色度去除率大于90%.试验结果表明,湿式双氧水氧化速率受反应温度、双氧水投加量、废水初始pH值的影响,其中反应温度是最敏感的参数.色度去除率和处理废水的TOC去除率有密切的相关关系.当废水TOC去除率小于50%时,色度的去除效果不明显;当活性染料废水TOC去除率大于50%时,色度的去除率有显著地提高.分析WPO反应历程发现,活性染料的WPO处理首先是大分子染料的裂解,然后是裂解成的小分子染料氧化成低级有机酸,进一步矿化为CO2和水.
+作者简介：雷乐成(1963-),男,浙江富阳人,浙江大学化工学院副教授,博士后,主要从事环境工程的教学和科研工作,研究方向为水和废水的处理、高级氧化技术、催化剂制备新技术.先后参加过国家“七五”攻关课题“厌氧流化床小试研究”、中德政府合作项目“江、浙、沪地区温室气体减排对策研究”、香港政府资助的大型科研攻关课题“污染最小化技术研究”、香港工业署资助的“MOCUD催化剂制备新技术”以及德国海外研究中心和香港欧洲研究中心共同资助的“高级氧化技术研究”等工作.发表论文近10篇.
+作者单位：（浙江大学化工学院环境科学与工程系,浙江 杭州 310027）
+参考文献：
+　[1]　Grady C P L, Lim H C. Biological wastewater treatment: theory and applications [M].New York and Baserl:Marcel Dekker Inc., 1980.
+　[2]　Kuo W G. Decolourizing dye wastewater with Fenton抯 reagent [J]. Water Research, 1992, 26 (7): 881- 886.
+　[3]　Ben A R, Liu M G, Vigneswaran S. Recent development of me-mbrane processes for water and wastewater treatment [J].Water Science and Technology, 1993, 27 (10): 141- 149.
+　[4]　Lei L,Chen G,Porter J F,et al.Treatment of PVA-containing desizing wastewater promoted wet air oxidation [A].The Third International Conference on Advanced Oxidation Technologies for Water and Air Remediation [C], Cincinnati, 1996.
+　[5]　Debellefontaine H. Advanced methods for treatment wet peroxide oxidation [A]. 5th International Symposium on Operating European Hazardous Waste Management Facilities [C], Odense, Denmark,1992.
+　[6]　Striolo P, Debellefontaine H, Foussard J N, et al. Wet peroxide oxidation: aqueous organic wastes treatment using hydrogen peroxide at high temperature [A].The Fourth World Congress of Chemical Engineering [C], Karlsruhe, Germany,1991. 486- 493.
+　[7]　Bishop D F, Stern G, Fleischman M, et al. Hydrogen peroxide catalytic oxidation of refractory organics in municipal waste waters [J]. I & EC Process Design and Development, 1968, 7 (1):110- 117.
+　[8]　Copa W M, Gitchel W B. Standard handbook of hazardous waste treatment and disposal [M]. New York: McGraw-Hill, 1989.
+收稿日期：1998-06-22

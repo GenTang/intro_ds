@@ -1,0 +1,127 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+胺基膦酸型离子交换(螯合)纤维酸碱性研究*
+刘瑞霞　汤鸿霄　张宝文
+摘要　通过电位滴定实验求定了氨基膦酸型螯合纤维的表面质子电荷密度σs、零电点pH(PZC)和表面总吸附位Ns.并尝试了运用表面络合恒定容量模式求算此螯合纤维的表面固有酸度常数pKa1和pKa2.
+关键词　氨基膦酸型螯合纤维；酸碱特性.
+Acid-base properties of poly(acrylaminophosphonic-carboxyl-hydrazide) chelating fiber
+LIU Ruixia,TANG Hongxiao (State Key Laboratory of Environmental Aquatic Chemistry,Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085))ZHANG Baowen (Center Iron and Steel Research Institute, Beijing 100081)
+Abstract　The surface charge, point of zero proton charge and total absorption site of poly(acrylaminophosphonic-carboxyl-hydrazide) chelating fiber were determined by potentiometric titration method. The constant capacitance model was applied for evaluation of the intrinsic dissociation constants of the chelating fiber.
+Keywords　poly(acrylaminophosphonic-carboxyl-hydrazide) chelating fiber, acid-base properties.
+　　重金属废水对环境的影响及对人类自身的危害越来越受到人们的普遍关注，重金属废水的治理技术不断得以开发，同时亦推动了离子交换与吸附技术的发展.离子交换螯合纤维是继离子交换树脂之后发展起来的一种高效吸附材料，由于其具有比表面积大，吸附动力学性能好，溶胀性好，机械强度大，使用方便等特点，在水质的净化、资源回收再生、痕量元素的富集与分离等方面具有广阔的应用前景.
+　　表面酸碱特性是水化固体的一种重要性质，作为固相弱酸(碱)或两性离子交换螯合纤维，其主要特点是：(1)它是不溶性的，与水溶液构成两相体系；(2)在纤维骨架上，存在多种功能基，它们之间相互影响，尤其是已离解的功能基所带的电荷对未离解功能基酸碱性的影响；(3)功能基的非均匀性.这些特点就决定了不能简单的应用均相体系的低分子量的弱酸(碱)理论和实验方法，去研究高分子聚合物的酸碱特性.
+　　作为高效吸附材料的离子交换螯合纤维，在实际应用中，除了它的总交换容量外，酸(碱)的强弱也是螯合纤维非常重要的化学性质，因为纤维的酸碱性决定了在一定的条件下，特别是在一定pH值下，它的有效交换容量.因此，对本室合成的聚丙烯腈胺基膦酸型螯合纤维(PAAP-Ⅱ)酸碱特性进行详细研究是很有必要的.
+1　高分子离子交换(螯合)剂酸碱性的研究方法
+　　有关离子交换螯合纤维酸碱性的研究已有一些报导［1，2］，但更多的是对离子交换树脂酸碱性的研究［3，4］.最简单的方法是采用电位滴定法.
+1.1　弱酸(碱)性离子交换剂的一级离解质子平衡
+　　依据扩展Henderson-Hasselbach方程式［5］：
+　　　　　　　　　　　　(1)
+　　α为固相中离子交换剂的离解度，n为经验常数，pKa为离子交换剂的表观离解常数.
+　　将含有一定量交换剂及中性盐(NaCl,KCl,NaNO3)的溶液中，不断加入标准的酸或碱溶液，以溶液平衡pH值对log［(1-α)/α］作图，得到一条直线，由该直线与纵坐标的交点即可得到离子交换剂的表观酸碱离解常数pKa.
+1.2　弱酸(碱)性离子交换剂多级离解的质子平衡
+　　设表面反应为：RHj(S)=R-(S)+jH+(S)
+　　在文献［3］中，作者根据物料衡算及电中性原理，导出了描述N级质子化平衡的通用方程式
+　　　　　　　　(2)
+　　其中βj为一定离子强度下总质子化常数；α*(s)为固相中真实滴定度；a(s)H为固相中质子的活度.
+　　当式(2)中的N=3时，此式可简化为：
+　　　　　　　(3)
+　　通过不同α值时的若干实验点，可联立解方程得到βj值.
+　　在70年代初期，基于水合氧化物的分散体系中金属离子的专属吸附作用，Stumm等提出了表面络合模式以阐述固/液界面的表面特性和吸附特性.经过20多年来的大量研究工作，表面络合模式已在纯金属氧化物体系得到了很大发展［7,8］，并将此模式应用于天然沉积物的表面酸碱性的研究［9,10］.
+　　近年来，Holl［11，12］等将表面络合模型推广应用于弱酸性阳离子和具有亚胺二乙酸功能基的螯合树脂中，发展了二元离子交换体系和多元离子交换体系.基于此研究，本文试图应用表面络合模型对PAAP-Ⅱ离子交换螯合纤维的酸碱特性进行初步研究.
+2　表面络合模型的基本概念和假设
+　　在最常用的离子交换理论处理中，通常，假定交换剂是均相的，并将固相/水之间的界面看成是允许通过电解质与溶剂的Donnan膜，在平衡状态下，液相和水相中各组分的化学位是相等的.在双电层理论的基础上，根据表面络合恒定容量模式，提出以下基本假设［11—13］ ：
+　　(1) 将纤维骨架看成是具有一定表面积的平面板，不考虑它的溶胀和收缩.
+　　(2) 纤维骨架上分布均匀的功能基的电荷被各种反离子中和，各反离子进入内配位区，这一层与固体表面平行，并且有相同的表面积，电位降在紧密层中完成，各反离子之间没有相互作用.
+　　(3) 纤维上由于功能基的酸碱离解而带电荷，表面电位为Ψs,表面电荷密度为σs.
+　　(4) 固相中各组分的活度系数为1.
+3　实验材料与方法
+　　实验用PAAP-Ⅱ螯合纤维样品由本实验室自己合成［14］.
+　　表面电荷密度和表面总吸附位的测定方法：在150mL锥形瓶中加入0.500g PAAP-Ⅱ螯合纤维，用一定量1mol/L、0、1mol/L和0.05mol/L的NaCl溶液调节体系的离子强度.再加入3.0mL(1、0918mol/L)的标准HCl溶液，将体系稀释至100mL，待pH值稳定之后，用665-Dosmat自动精密电位滴定仪以0.9076mol/L NaOH滴定溶液pH值大于11.
+　　滴定过程中，温度控制在25±1℃，鼓N2气以除去CO2.以不含螯合纤维的溶液为滴定空白.根据实际所消耗的酸碱量，应用反应计量关系式计算不同pH下纤维表面的电荷密度［15］.不同离子强度的表面电荷(σs)-pH关系曲线的交点为纤维的零电点.根据σs-σs/\曲线的外推法求定总吸附位(Ns)［16］，并推算出纤维表面固有酸度常数.
+4　结果与讨论
+4.1　PAAP-Ⅱ螯合纤维的表面电荷
+　　根据PAAP-Ⅱ螯合纤维的红外光谱研究结果表明［14］，PAAP-Ⅱ螯合纤维中同时含有羧基、亚磷酸基、氨基和酰肼基等多种功能基团.
+
+　　由于这些离子化功能基的存在，决定了纤维表面所固有的化学和静电性质，其表面电荷主要产生于表面离子化功能基吸附H+或OH-，因而，与溶液pH值密切相关，是可变电荷.在实际溶液体系中，各官能基的离解并不是孤立的，因而，螯合纤维在宏观上表现出的酸碱性，实际上是各官能基团相互作用后的综合结果.
+　　为了简化计算，本文把PAAP-Ⅱ螯合纤维的官能基团作为两性表面来处理，离解反应可表示为：
+ROH+2=ROH+H+
+ROH=RO-+H+
+　　纤维表面固有的酸度离解常数K(s)al和K(s)a2分别表示为：
+　　　　　　　　　(4)
+　　　　　　　　　(5)
+　　其中,F为Faraday常数.
+　　表面质子电荷密度σs(μC/cm2)：
+
+(6)
+　　其中，B=106×F/A,A为溶液中纤维的表面积(cm2/L),纤维表面的吸附位总数Ns(μC/cm2)为：
+　　　　　　　　　(7)
+　　σs(mol/g)较容易用电位滴定实验测定：σs=(N样品-N空白)/W，其中，N为加到样品或空白中的质子的量(mol);W为纤维质量(g).
+　　图1是根据在不同离子强度下，PAAP-Ⅱ螯合纤维的电位滴定结果计算的表面电荷σs与pH的关系曲线，3条曲线的交点即为零电点.零电点时的pH(PZC)值，是反映螯合纤维中功能基的质子化程度的重要特征参数.由图1可见，pH(PZC)=4、3，当pH＞4、3时螯合纤维表面为负电性，且随pH升高趋于更大的负电性，当pH＜4.3时螯合纤维表面为弱的正电性.
+　　图2为不同离子强度下σs-σs[H+]的关系曲线，将曲线外推与纵轴交点即为纤维的总表面吸附位Ns，取3个离子强度下的平均值，即得Ns=2、01mol/g.
+
+
+图1　电荷密度随pH的变化
+Fig.1 Dependence of σs on pH value
+
+
+图2　外推法求定总吸附位Ns
+Fig.2 Determination of total adsorption site by extension method
+4.2　表面固有酸度常数的确定
+　　由实验测得螯合纤维的表面质子电荷密度(σs)和pH(PZC)以及总表面吸附位(Ns)，即可应用恒定容量模式简单而直观地图解求得表面固有酸度常数.
+　　当表面带负电荷时：
+　　　　　　　　　　　　　　(8)
+　　　　　　　　　　　(9)
+　　定义表面电荷分数：
+　　　　　　　　　　　　　　(10)
+　　当表面带正电荷时：
+　　　　　　　　　　　　(11)
+
+(12)
+　　定义表面电荷分数：
+　　　　　　　　　　　　　　(13)
+　　结合方程(4)、(5)、(8—13)，并以负对数形式整理后得到：
+　　　　　　(14)
+　　　　　　(15)
+　　令式(14)和(15)右端前两项分别为pQa1和pQa2，并将其对f+或f-作图，外推到f±=0时，所得到的纵坐标截距即为pK(s)a1和pK(s)a2.
+　　PAAP-Ⅱ螯合纤维的表面固有酸度常数的求定结果如图3所示，由于恒定容量模式并未考虑惰性电解质的影响，因此，上述求解的pK(s)a1和pK(s)a2只是条件常数，不同的离子强度有不同的值.
+
+
+图3　图解法求定PAAP-Ⅱ螯合纤维表面固有酸度常数
+(a) 1mol/L NaCl (b) 0.1mol/L NaCl (c) 0.05mol/L NaCl
+Fig.3 Evaluation of intrinsic acidity constant of PAAP-Ⅱ chelating fiber
+表1总结了PAAP-Ⅱ螯合纤维的表面特征参数.
+表1　PAAP-Ⅱ螯合纤维的表面特征参数
+Table 1 Surface characteristic parameters of PAAP-Ⅱ chelating fiber
+
+Ns,mol/LpH(pzc)pKa1pKa2
+1mol/L0.1mol/L0.05mol/L1mol/L0.1mol/L0.05mol/L
+2.014.32.942.582.525.345.605.95
+
+5　结论
+　　本文通过电位滴定实验，研究了氨基膦酸型螯合纤维的表面特征，结果表明，此螯合纤维的表面总吸附位Ns为2.01mol/g，零电点在酸性区域内：pH(PZC)=4.3，并应用恒定容量模式的图解法求定了氨基膦酸型螯合纤维的表面固有酸度常数pKa1和pKa2，这些结果为进一步研究螯合纤维的吸附与交换作用提供了必要的数据基础，这种方法简便直观，但并未考虑惰性电解质的影响，不同的离子强度有不同的pKa1和pKa2值.将表面络合原理应用于离子交换螯合纤维酸碱性的研究是一种新的尝试，还有待进一步探讨.
+* 中国科学院资源与生态环境研究重点项目(KZ952-S1-231)及国家重点环境水化学实验室开放基金资助项目
+作者单位：刘瑞霞　汤鸿霄：中科院生态环境研究中心环境水化学国家重点实验室，北京　100085
+张宝文：北京钢铁研究总院，北京　100081
+参考文献
+1　Gubenko E P.A Study on the interactions of some metal ions with graft copolymer of cellolose containing thioamicde groups. Ph.D Thesis (in Russian), KHGU,Kharkov,1980
+2 Tolmachev V N,Miroshnik L V,Chaikina YE A et al. Study of the acidic and ion-exchange properties of cellulose dervatives with complexing groups. Vysokomol soyed, 1968,A10(8):181—186
+3 Szabadka O.Studies on chelating resins-general equation for the calculation of the protonation constants of chelating resins. Talanta,1982,29:177—181
+4 Szabadka O.Studies on chelating resins-determination of the protonation constants of a chelating resin containing iminodiacetic acid groups. Talanta,1982,29:183～187
+5 Katchalsky A, Spitnik P.Potentiometric Titrations of polymethacrylic acid. J Polymer Sci, 1974,2:432—446
+6 Helfferich F.Ion exchange.New York:Mccraw-Hill.Chapter 4,1962
+7 Yates D E, Levine S, healy T W. Site binding model of the electrical double layer at the oxide-water interface. J Chem Soc Faraday Trans,1974,1:1807—1818
+8 Davis J A, James R O,Leckie J O.Surface ionization and complexation at the oxide/water interface, I.Compitation of electrical double layer properties in simple electrolytes. J Coll Interf Sci,1978,63:480—499
+9 文湘华，杜　青，汤鸿霄等.天然水体沉积物的表面特征.环境化学，1996，15(2)：97—106
+10　Du Q,Sun Z X, Forsling W et al. Acid-base properties of aqueous illite surfaces. J Coll Interf Sci, 1997,197:221—231
+11 Horst J,Holl W H, Eberle S H. Application of the surface complex formation model to exchange equilibria on ion exchange resins, Part 1. weak-acid resins. Reactive Polymers, 1990,13:209—231
+12 Holl W H,Horst J,Wernet M.Application of the surfce complex ormation model to exchange equilibria on ion exchange resins, Part 2. chelating resins. Reactive Polymers,1991,14:251—261
+13 陶祖贻，杜金洲.离子交换树脂/水界面的表面络合模型.离子交换与吸附，1994，10(1)：49—54
+14　刘瑞霞.多配位基离子交换/螯合纤维的合成、特征及应用［博士论文］.北京：中科院生态环境研究中心.1998
+15　Hohl H, Stumm W. Interaction of Pb2+ with hydrous γ-Al2O3. J Coll Interf Sci,1976,55:281—288
+16 Laurent C.Adsorption of some macronutrient ion on an oxisol.An Application of the Triple Layer Model. Ph.D.Thesis,University f California.1986
+1998-04-10收到原稿
+1998-09-30收到修改稿

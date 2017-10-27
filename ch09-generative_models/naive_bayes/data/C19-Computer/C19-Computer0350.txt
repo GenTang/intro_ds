@@ -1,0 +1,67 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第9期 Vol.19 No.9 1999
+
+
+
+Exchange Server与MS PC Mail邮件系统连接的实现
+李杰
+　　摘　要　本文论述了MS Exchange Server邮件系统与MS PC Mail邮件系统进行连接的方法, 以及MS Exchange Server与MS PC Mail邮局目录同步的实现。
+　　关键词　Exchange Server， MS Mail连接器，目录同步
+1　引言
+　　当我们机构的邮件系统中同时使用着MS Exchange Server和Microsoft Mail for PC Networks,我们可以利用Exchange Server的MS Mail连接器（MMC）透明地实现Exchange Server与MS Mail用户的连接。
+　　首先，在运行MMC的Exchange Server上将自动创建一个影子MS PC Mail网络和邮局。我们可以在MMC中增加和维护MMC提供服务的MS PC Mail邮局连接。MMC在标准的NT局域网协议之上运行，可以通过局域网连接，也可以通过异步连接或X.25连接。虽然每台Exchange Server只能运行一个MMC实例，但通过单个MMC可以连接到多个MS PC Mail邮局，而且一个MMC能够为Exchange机构中的一个场点或所有场点提供服务。
+　　其次，需要创建一个消息传输代理（MTA），以便为新设计的MS PC Mail邮局连接提供服务。MTA是一种NT服务，它将在Exchange Server上运行，能够仿真MS PC Mail的EXTERNAL.EXE程序完成的功能。这个服务在Exchange Server影子邮局和MS PC Mail邮局之间移动报文。
+　　接下来，我们需要把Exchange Server影子邮局的有关信息告诉给实际的MS PC Mail邮局，即在MS PC Mail邮局管理程序中创建相应的外部邮局。这个外部邮局可以通过局域网连接，也可以通过异步连接或X.25连接。
+　　现在，MMC的影子邮局和实际的MS PC Mail邮局就能够通过MMC MTA实现相互通讯了。
+　　我们利用MS Mail连接器实现了Exchange Server和Microsoft Mail for PC Networks系统之间的邮件交换。为了免去在两个系统之间进行邮件传递时手工输入其它系统的地址带来的麻烦，我们可以利用目录同步(Dirsync)把Exchange Server地址引入到MS PC Mail邮局中，反之亦然。这样，Exchange Server和MS PC Mail用户在编写报文时，就能够从地址表中选择其它系统的地址，如同自己系统的地址一样。
+2　实现Exchange Server与MS PC Mail邮件系统的连接
+2.1　设置MS Mail连接器的交换和一般特性
+　　要开始配置MS Mail连接器，应在Exchange Server管理器中适当的Connector存储器中查找并双击希望运行的MS Mail连接器。需要做的第一件工作是增加管理员邮箱。选择一个Exchange Server接收器作为管理员邮箱，以便完成对Exchange Server影子邮局的管理。随后，可以设置使用的正确语言，并为MMC设置报文大小限制。
+2.2　创建MS PC Mail邮局连接
+　　现在我们必须在MS Mail连接器中创建通向其它真正MS PC Mail邮局的连接。
+　　如果创建基于局域网的连接，我们必须告诉MS Mail连接器MS PC Mail邮局位于局域网中的何处，局域网中邮局路径的一般格式是“\　\计算机名　\目录”。 不必手工输入MS PC Mail网络和邮局的名字，Exchange Server能够自动从邮局中检索这些信息。
+　　如果创建基于异步或X.25的连接，在Exchange Server影子邮局和MS PC Mail邮局之间建立调制解调器连接，必须手工输入MS PC Mail网络和邮局的名字，并设置关于异步连接或X.25连接的各项信息。
+2.3　创建连接器消息传输代理(Connector MTA)
+　　我们必须创建一个MTA，以便为新设计的MS PC Mail邮局连接提供服务。MTA是一种NT服务，可以像对待其它任何NT服务那样对待它。
+　　为新创建的服务指定一个名字，当运行NT控制面板的Service程序时，可以看到这个名字。选择MTA服务启动模式，在默认情况下，当NT启动时MTA服务自动启动。
+　　选择MTA与它支持的实际MS PC Mail邮局进行连接的方式，有三种连接方式：“LAN”、“Async and LAN”以及“X.25 and LAN”。
+　　现在，我们应该把创建的MS PC Mail邮局连接分配给MS Mail连接器MTA，使MTA为相应的MS PC Mail邮局连接提供服务。
+　　最后，运行NT控制面板的Service程序，查找新创建的MS Mail连接器MTA服务，单击“开始”按钮启动该服务。
+2.4　MS PC Mail邮局的设置
+　　我们需要把Exchange Server影子邮局的有关信息告诉给实际的MS PC Mail邮局。在Microsoft PC Mail执行文件目录下运行Admin程序，以Admin权限的用户身份进行登入；创建新的外部邮局，输入Exchange Server影子邮局的网络名、邮局名、路由方式和连接类型；如果指定邮局的路由方式和连接类型是Direct和通过Async或X.25的，必须设置与Exchange Server影子邮局连接的端口、速率、登录识别符和口令信息。
+2.5　测试连接
+　　可以通过从MS PC Mail端向Exchange端发送报文来测试MS Mail连接器，反之亦然。因为我们还没有实现Exchange Server 和MS PC Mail系统之间的目录同步，所以不能从地址表中选择地址，而必须手工输入它们。
+　　首先，从MS PC Mail端向Exchange端发送报文测试。运行MS PC Mail客户端程序，编写一个新邮件，在收件人地址框中指定一个基于Exchange Server影子邮局的Exchange邮箱名，然后编写报文并发送该邮件。几分钟后，该邮件将出现在邮箱所有者Exchange客户程序的收件箱中。
+　　然后，从Exchange客户机向MS PC Mail网络邮箱发送测试报文。运行Exchange客户端程序，编写一个新邮件，点击“收件人”按钮，新建一个相应的MS PC Mail邮箱，然后编写报文并发送该邮件。在MMC MTA完成它工作后，MS PC Mail邮箱的所有者就能够利用任何MS PC Mail客户程序阅读该邮件。
+3　实现Exchange Server与MS PC Mail邮局的目录同步
+　　我们可以在一台Exchange Server上运行Dirsync服务器，并为每一个进行目录同步的MS PC Mail邮局建立相应的远程目录同步请求器(Remote Dirsync Requestor)；在所有MS PC Mail邮局上运行Dirsync请求器，由此来实现两个系统间的目录同步。这样，我们就能够从地址表中选择其它系统的地址，如同自己系统的地址一样。
+3.1　邮局地址的导入和导出
+　　为了确保Microsoft PC Mail地址传送到目录同步服务器（Exchange Server），并且Exchange Server地址传送到目录同步请求者（Microsoft PC Mail），每个进行目录同步的Microsoft PC Mail邮局都必须导入和导出目录同步地址。实现此步骤的方法如下：
+　　. 运行Microsoft Mail管理员程序Admin.exe，选择“Config”,“Dir-Sync”,“Requestor”,“Export”菜单。
+　　. 当提示导出本地用户和组（Local Users and Groups）时，点击“Yes”。在相同的菜单上 (Config-DirSync-Requestor-Import)，点击“Import”并点击“Yes”确认。
+3.2　目录同步的实现：
+　　. 对所有作为目录同步请求者的Microsoft PC Mail邮局，在Microsoft PC Mail执行文件目录下运行下列命令完成目录同步信息的发送：
+　　reqmain -d<drive> -t
+　　<drive>是连接到邮局数据库的驱动器号。
+　　. 打开控制面板中的服务管理程序，暂停“Microsoft Exchange Directory Synchronization”服务。
+　　. 对每一个作为目录同步请求者的Microsoft PC Mail邮局，在Microsoft PC Mail执行文件目录下运行下列命令完成目录同步信息的接收：
+　　reqmain -d<drive> -r
+import -d<drive> admin -p<password> -q -y
+rebuild -d<drive> -f
+　　其中：
+　　<drive>是连接到邮局数据库的驱动器号。
+　　“Reqmain -r”命令接收目录更新信息，并将它们放入SRVTRANS.GLB中。
+　　“Import”命令从SRVTRANS.GLB文件中提取记录，放入暂存处理文件中；然后将目录放入.USR 和.NME文件中。
+　　“Rebuild -f”命令使用网络名、.NME文件和.USR 文件重建GAL文件及其索引文件。
+3.3　验证目录同步过程的正确性
+　　当我们完成以上步骤后，如果在Exchange Server接收器中出现了MS PC Mail用户的邮箱，同时在MS PC Mail相应的外部邮局中也增加了Exchange Server的用户信息，则MS PC Mail邮局和 Microsoft Exchange Server之间的目录同步过程就顺利完成了。
+4　结束语
+　　本文介绍了MS Exchange Server邮件系统与MS PC Mail邮件系统进行连接的方法和实现步骤，以及Exchange Server与MS PC Mail邮局的目录同步的实现。通过本文介绍的方法可以将MS Exchange Server邮件系统与MS PC Mail邮件系统无缝地集成到一起，大大扩展了邮件系统的应用范围。
+作者简介：李杰　讲师。主要研究方向：计算机网络、数据库系统。
+作者单位：山东工业大学计算机科学系　山东.济南（250061）
+参考文献
+［1］　Barry Gerber. Microsoft Exchange Server从入门到精通. 北京：电子工业出版社，1997
+［2］　Microsoft. Microsoft Exchange Server资源指南. 北京：科学出版社，1998
+［3］　Microsoft. Microsoft Mail Administrator′s Guide. Microsoft Corp， 1992
+收稿日期:1999-03-18

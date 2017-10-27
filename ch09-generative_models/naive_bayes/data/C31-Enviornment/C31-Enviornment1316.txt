@@ -1,0 +1,92 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+载银活性碳纤维对大肠杆菌吸附作用的研究
+万怡灶　王玉林　周福刚　成国祥　董向红   温廷益
+摘要　以大肠杆菌(Escherichia coli)为对象，通过细菌吸附实验研究了载银活性碳纤维(ACF(Ag))对大肠杆菌的吸附特性.借助扫描电子显微镜(SEM)进行细菌分布形态的观察和细菌数量的计算.结果表明，大肠杆菌易分布于ACF(Ag)表面的沟槽处；ACF(Ag)吸附的细菌数量随银含量、比表面积的增加而增大.此外，细菌吸附量还与ACF(Ag)表面银颗粒的大小有关.对吸附细菌的动力学亦进行了研究.
+关键词　载银活性碳纤维(ACF(Ag))；大肠杆菌；吸附.
+Adsorption of Escherichia coli to activated carbon fibers supporting silver
+WAN Yizao,WANG Yulin,ZHOU Fugang,CHENG Guoxiang,DONG Xianghong 
+School of Materials Science and Technology,Tianjin University,Tia njin 300072
+WEN Tingyi 
+First Teaching Hospital of Tianjin Traditional Chinese Medicine College,Tianjin 300193 
+Abstract　Escherichia coli JM109 was chosen to carry out bacterial adsorption experime nt in this study.Adsorbed number of E.coli on the activated carbon fibers supporting silv er(ACF(Ag)) was determined by means of scanning electron microscopy(SEM) to evaluate the adsorption character of the ACF(Ag).SEM revealed preferential adsorption of the bacteria to the groove of the ACF(Ag).Number of bacteria adsorbed on th e ACF(Ag) increased with increasing silver content and specific surface area of the ACF(Ag).Moreover,results showed that adsorption of bacteria depended on the silver particles size.The difference in the kinetics of adsorption of E.coli to the ACF(Ag) was also investigated.
+Keywords　activated carbon fiber supporting silver (ACF(Ag)),adsorption,Escherichia coli.
+　　活性碳纤维(以下记为ACF)以其优异的吸附性能而成为一种新型的高效吸附材料，在环保领域有着重要的功用［1］.它可用于净化空气中的烟雾或其它有害气体，回收溶剂及贵重金属，净化血液病毒等，而净化饮用水是其最重要的用途之一.但由于微生物易在碳材料上附着［2］，ACF只能对细菌起吸附作用，而不能灭菌.于是，在日本出现了含银的活性碳纤维，同时具有吸附和灭菌功能［3,4］.我们用真空浸渍加热分解的方法仅在ACF的表面沉积银，制得了载银活性碳纤维(以下记为ACF(Ag))，具有吸附和灭菌双重功能［5］.目前，由于研究者多把研究的重点放在材料的制备工艺上，几乎没有对ACF(Ag)与细菌的作用过程及本质进行研究，材料的制备带有一定的经验性，而掌握细菌与材料的相互作用是设计灭菌材料的关键［6］.为此我们力图从微生物与ACF(Ag)的界面出发，揭示ACF(Ag)的灭菌过程，为制备出优质的灭菌材料提供理论依据.由于吸附是细菌与材料作用的第一步，因此，本文着重研究ACF(Ag)对细菌(大肠杆菌)的吸附作用，为后续的研究打下基础.
+1　实验材料与方法
+1.1　材料制备
+　　本实验所用的原材料是自制粘胶基ACF，其比表面积分别为1495 m2/g和1140 m2/g，直径为7-15 μm，截面为梅花形(即表面有许多沟槽).采用真空浸渍加热分解的方法制备ACF(Ag)，其制备工艺为：ACF预处理→抽真空→浸渍AgNO3溶液→真空热分解→ACF(Ag).
+　　通过调节AgNO3溶液的浓度、真空浸渍时间和热分解的温度可分别控制ACF表面银的含量和银颗粒的大小.ACF(Ag)的制备条件列于表1(热分解时间为1.5 h).
+表1　ACF(Ag)试样的制备条件
+Table 1 Preparing conditions of the ACF(Ag) samples
+
+试样号比表面积，
+m2/gAgNO3浓度，
+mol/L浸渍时间，
+h分解温度，
+℃银含量(W/W)，
+%
+114950.001163000.075
+214950.01163001.44
+314950.163008.30
+414950.11630010.30
+514950.41630018.80
+614950.71630045.30
+714950.01162301.44
+814950.01163701.44
+914950.11623010.30
+1014950.11637010.30
+1111400.01163000.76
+1211400.1163004.60
+1311400.41630010.70
+
+1.2　菌种及其培养
+　　菌种为大肠杆菌JM109(Escherichia coli JM109). 培养基组成为(g/L)：蛋白胨10，酵母粉5，氯化钠10.pH 7.4.
+　　将接种过大肠杆菌的液体培养基锥形瓶固定在恒温(37℃)摇床上振荡培养24 h，制成大肠杆菌悬浊液.再用缓冲液(18.2 g/L NaCl;3.1 g/L Na2HPO4*12H2O；0.2 g/L NaH2PO4*2H2O;pH7.4)配制成浓度为1010  cfu/mL和109 cfu/mL的细菌溶液.
+1.3　细菌吸附试验
+　　将相同体积(5 mm×5 mm×1.5 mm)的不同样品放入缓冲液中浸泡0.5 h后，依次放入装有20  mL细菌悬浊液的小烧杯中浸渍，每隔1 h各取出3块试样，先在20%戊二醛液中浸泡片刻，然后分别在体积为30%、50%和100%的丙酮溶液中脱水.表面经喷金处理后，用X-650扫描电镜观察细菌的分布并计算单位面积(mm2)所吸附的细菌数量，每个试样随机取6个视场计算细菌数量，取其平均值.
+2　实验结果与分析
+2.1　大肠杆菌在ACF(Ag)上的分布形态
+　　图1a、b分别是ACF(Ag)和ACF在细菌液中浸渍1 h后所吸附的大肠杆菌的分布状况.由图可 见，大肠杆菌在ACF上分布基本均匀；而在ACF(Ag)上，实验观察发现，在纤维的沟槽处，分布着较多的银颗粒，同样也分布着较多的细菌.这种分布形态对提高ACF(Ag)的灭菌性能极为有利.
+2.2　银含量不同的ACF(Ag)试样对大肠杆菌的吸附特性分析
+　　实验所测的银含量与所吸附细菌数量的关系曲线如图2所示，其中，曲线a代表原始ACF的比表面积为1495 m2/g，b为1140 m2/g.可见，曲线a、b的总趋势接近，在初始阶段，随试样表面银含量的升高，所吸附的细菌数量急剧增加，但很快又随银含量的增加而下降，这是由于银含量的增加使ACF(Ag)的比表面积减小(如图中曲线c所示)，从而使其物理吸附作用减弱的缘故.在真空浸渍过程中，还原的银颗粒易于填充ACF表面的活性位置(即微孔处)，从而降低ACF(Ag)的比表面积［7］.值得注意的是，未载银的ACF虽然具有最大的比表面积，但其吸附的细菌数量并不是最多，与ACF相比，含银仅0.075%(曲线a)的ACF(Ag)，其比表面积的下降不足15%，而它所吸附的细菌数量却增加了二倍多.由此可推断，ACF(Ag)对细菌的吸附除受比表面积的影响外，还取决于ACF(Ag)的银含量，或者说，ACF(Ag)对细菌的吸附不仅仅表现为物理吸附，还表现为化学吸附.比表面积大，物理吸附作用强；而银含量的增加体现为化学吸附作用的加强，因为银单质所释放出的银离子带正电荷，而大肠杆菌带负电荷［8］.由于增加银含量必使ACF(Ag)的比表面积降低，因此，银含量和比表面积存在一个最佳的匹配值.与曲线b不同的是，曲线a上有一个近似平台，表明较大的比表面积与适当的银含量相匹配，可维持较大的吸附量.因此，要增加材料对细菌的吸附数量，首先应当增加原始ACF的比表面积.此外，由还可知，当银含量增至一定值，即比表面积降至一定值时，ACF(Ag)对细菌几乎无吸附能力，这说明，在二种吸附过程中，物理吸附起着主导作用.
+
+
+图1　吸附在ACF(Ag)(a)、ACF(b)表面大肠杆菌的SEM形态
+Fig.1 Scanning electron micrographs of Escherichia coli adsorbed on ACF (Ag))(a) ACF(b)
+
+
+图2　试样吸附的细菌数量及比表面积与银含量的关系
+Fig.2 Bacterial number adsorbed on the ACF(Ag)and specific surface area as a function of silver content
+2.3　银颗粒的大小与吸附细菌数量的关系
+　　将银含量相同但经不同温度分解的ACF(Ag)试样进行细菌吸附的对比试验，结果列于表2.结果表明，在银含量相同时(10.3%或1.44%)，ACF(Ag)所吸附的大肠杆菌数量与银颗粒的大小密切相关：随着银颗粒大小的增大，ACF(Ag)吸附的细菌数量下降.这与银离子的释放有关，因为银颗粒越大，银离子的释放速度越慢，释放量越少，化学吸附作用也就越小.不过，由表2可知，当银含量较低(1.44%)时，其颗粒大小的影响较小，这是由于银含量较低时，颗粒大小对银的总体表面积的影响不大.
+表2　ACF(Ag)表面银颗粒大小与吸附细菌数量的关系
+Table 2 Effect of silver particle size on the bacterial number adsorbed on the ACF(Ag)
+
+ACF(Ag)银含量，%10.310.310.31.441.441.44
+平均银颗粒大小,nm255±40180±18160±25115±2170±1260±1 5
+吸附细菌数，104/mm223.38±1.2625.97±2.6148.18±10.162 2.19±1.4423.38±2.1426.72±3.67
+
+2.4　ACF(Ag)对大肠杆菌的吸附动力学
+　　不同材料所吸附的大肠杆菌数量与时间的函数关系如图3所示.当细菌浓度为1010 cfu/mL时，3种材料的吸附特性相差不大.随着时间的延长，ACF(Ag)和ACF表面吸附的大肠杆菌数量增加，且类似于指数规律. 3种材料达到吸附平衡的时间有所差别.其中，ACF达到平衡的时间最短(2 h)，平衡吸附量最小；含银量为1.44%的ACF(Ag)居中(约3 h)，含银为10.3%的ACF(Ag)达到平衡所需的时间最长，4 h仍未达到平衡，其平衡吸附量最大.由于ACF仅靠物理吸附，而ACF(Ag)既有物理吸附，又有化学吸附.由此可知，物理吸附的速度快，达到平衡所需的时间短，化学吸附的速度则较慢.因此，含银量越高，物理吸附作用越弱，化学吸附作用越强，达到平衡所需的时间越长.此外，由图3知，当细菌浓度下降(109 cfu/mL)时，平衡吸附量也下降，达到平衡所需的时间缩短，含银10.3%的试样只用1 h就基本达到吸附平衡，但仍近似遵循指数规律.
+
+
+图3　细菌吸附量与时间的关系
+Fig.3 Number of bacteria adsorbed on the samples as a function of impregna tion time
+3　结论
+　　(1) 大肠杆菌易被吸附在载银活性碳纤维(ACF(Ag))表面的沟槽处. (2) ACF(Ag)对大肠杆菌的吸附既有物理吸附，又有化学吸附，物理吸附起主导作用.细菌吸附数量取决于ACF(Ag)的银含量及其比表面积的大小，此外，还受银颗粒大小的影响.(3)ACF(Ag)对大肠杆菌的吸附速度类似于指数规律.银含量越高，细菌的平衡吸附量越大，达到平衡所需的时间越长.
+作者单位:(万怡灶　王玉林　周福刚　成国祥　董向红)　天津大学材料科学与工程学　　　　　　 院，天津　300072
+　　　　　(温廷益)　天津中医学院第一附属医院
+参考文献
+[1]　黄　讯，韩宝华，李伯骥等.活性碳纤维吸附CS2蒸汽的热力学研究.环境科 学学报，1992，12(3)：349-356
+[2]　Kuroda M,Yuzawa M,Sakakibara K et al.Methanogenic bacteria adhered to sol id supports.Wat Res,1988,22(5):653-656
+[3] Oya A,Yoshida,Abe Y et al.Antibacterial activated carbon fiber derived fr om phenolic resin containing silver nitrate.Carbon,1993,31(1):71-73
+[4] Oya A,Wakahara T,Yohsida S et al.Preparation of pitch- based antibacteria l activated carbon fiber.Carbon,1993,31(8):1243-1247
+[5] 朱　征.具有灭菌功能活性碳纤维的研究.离子交换与吸附，1995，11(3)：200-205
+[6] Gabriel B L,Gold J,Gristina A G,et al.Site- specific adhesion of staphylo coccus epidermidis(RP12) onto Ti- Al- V metal systems.Biomaterials,1994,15(8):62 8-634
+[7] Dentzer J,Ehrburger P, Lahaye J.Adsorption and decomposition of silver dia mmine complexes on carbon surfaces.J Colloid Interface Sci,1986,112(1):170-177 
+[8] Harkes G,Feijen J,Dankert J et al.Adhesion of Escherichia coli on to a se ries of poly(methacrylates) differing in charge and hydrophobicity.Biomaterials, 1991,12:853-859
+1997-08-29收到原稿　1997-12-30收到修改稿

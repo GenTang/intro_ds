@@ -1,0 +1,44 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.49-51
+
+
+
+
+农田非点源污染研究中的降雨径流关系
+——SCS法的修正
+贺宝根　 周乃晟　 高效江　 许世远　 袁永昆　 
+摘　要：SCS法是当前被广泛应用于非点源污染研究中降雨径流关系的一种方法，但是由于地理环境的差异，直接将该方法应用在上海郊区时误差较大。因此，笔者根据实测资料对模式的2个系数(前期损失量和径流曲线数)予以修正，并提出相应的模型。
+关键词：非点源污染；　地表径流；　小流域；　上海效区
+分类号：X144　文献标识码：A
+文章编号：01-6929(2001)03-0049-03
+Precipitation-Runoff Relationship in Farmland Nonpoint Source Pollution Research：Amending Coeffcient of SCS Hydrologic Method
+HE Bao-gen（Department of Geography, East China Normal University, Shanghai 200062, China）　
+ZHOU Nai-sheng（Department of Geography, East China Normal University, Shanghai 200062, China）　
+GAO Xiao-jiang（Department of Environmental Science and Engineering, Fudan University, Shanghai 200433, China）　
+XU Shi-yuan（Department of Geography, East China Normal University, Shanghai 200062, China）　
+YUAN Yong-kun（Xianghuaqiao Runoff Test Station, Shanghai 201805, China）　
+
+Abstract：SCS hydrologic method has widely been used for both analyses of small urban watersheds and agricultural watersheds.However,there will be relative error when applying SCS hydrologic method due to differentiation of geographical conditions.Based on actual measurement data,modifications for two coefficients,i.e.preceding loss and runoff curve,were proposed with the corresponding model.
+Keywords：nonpoint source pollution;　surface runoff;　small watersheds;　Shanghai suburbs
+基金项目：国家自然科学基金重点项目(49831070)；上海市教委重点学科项目
+作者简介：贺宝根(1962-)，男，浙江镇海人，副教授，博士研究生. 
+作者单位：贺宝根（华东师范大学地理系，上海 200062）　
+　　　　　周乃晟（华东师范大学地理系，上海 200062）　
+　　　　　高效江（复旦大学环境科学与工程，上海 200433）　
+　　　　　许世远（华东师范大学地理系，上海 200062）　
+　　　　　袁永昆（香花桥径流试验站，上海 201805）　
+
+参考文献：
+［1］阮仁良.苏州河截流区外非点源污染调查[J].上海环境科学,1997,1(16)：20～22.
+［2］夏青,等.计算非点源污染负荷的流域模型[J].中国环境科学,1985,5(4)：23～30.
+［3］陈西平.计算降雨及农田径流污染负荷的三峡库区模型[J].中国环境科学,1992,12(1)：48～52.
+［4］李怀恩.水文模型在非点源污染研究中的应用[J].陕西水利,1987,(3)：18～23.
+［5］张大弟,周建平,陈佩青.上海市郊4种地表径流深度的测算[J].上海环境科学,1997,9(16)：1～3,11.
+［6］Novotny V,Chesters G.Handbook of monpoint pollution source and management[M].New York:Van Nostrand Reinhold Company,1981.81～103.
+［7］McCuen R H.A guide to hydrologic analysis using SCS methods[M].New Jersey:Prentice-Hall Inc,1982.
+［8］吴祖林.一种城市径流量的计算方法——径流曲线数值方程(CNE)[J].上海环境科学,1987,6(12)：39～41.
+［9］周乃晟,贺宝根.城市水文学概论[M].上海：华东师范大学出版社,1995.101.
+
+收稿日期：2000年4月3日
+出版日期：2001年5月30日

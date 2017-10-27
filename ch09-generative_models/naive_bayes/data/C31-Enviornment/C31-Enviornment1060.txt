@@ -1,0 +1,94 @@
+环境科学研究
+RSEARCH OF ENUIRONMENTAL SCIENCES
+1999年 第12卷 第1期  Vol 12 No.1 1999
+
+
+
+化学氧化法和化学混凝法用于染料废水的脱色研究
+高宝玉　岳钦文　岳钦艳　赵启敏
+摘　要　研究了化学氧化法和化学混凝法处理染料废水的脱色效果，考查了氧化剂及混凝剂种类、投加量和pH值对脱色效果的影响。结果发现，光激发产生的复合氧化气体较纯ClO2具有更好的脱色效果，且二者对活性染料废水的脱色效果优于对分散染料废水的脱色效果，都是在pH<10的条件下取得良好的脱色效果；化学混凝法对分散染料废水的脱色效果优于对活性染料废水的脱色效果，MgCl2。6H2O的脱色效果最好，PAC次之，Al2(SO4)3。18H2O最差；pH值对MgCl2。6H2O的脱色效果影响较大，在pH≥12的条件下，MgCl2。6H2O的脱色效果达最佳。
+关键词　化学氧化法　化学混凝法　染料废水　脱色
+Color Removal from Wastewater Containing Dye by Chemical
+Oxidation and Coagulation
+GAO Baoyu1) YUE Qinwen2) YUE Qinyan1) ZHAO Qimin1)
+( 1)Department of Environmental Engineering, Shandong University, Jinan 250100;
+2) Beijing Lüchuang Environmental Protecion S & T Company Ltd., Beijing 100071)
+Abstract　The effectiveness of color removal for wastewater containing dye by means of chemical oxidation and coagulation has been studied. The effect of oxidants, dosage and pH value on color removal efficiency was investigated, The experimental results show that the mixture of oxidation gases, containing ClO2,Cl2，H2O2 and O3 etc., prepared by LC－10A type UV－O3 chloride dioxide complex disinfector generator, gave better color removal effect than pure ClO2 prepared by chemical method. The color removal capability of chemical oxidation for reactive dye was superior to that for dispersed dye. The chemical oxidation produced good color removal ratio when the pH value of the solution is less than 10. By means of coagulation, the efficiency of decolorization for dispersed dye was better than that for reactive dye. MgCl2。6H2O was shown to be superior to PAC and Al2(SO4)3。18H2O in color removal for the wastewater. MgCl2。6H2O produced excellent decolorization effect in basic aqueous medium (pH≥12.0). 
+Keywords　Chemical oxidation; Coagulation; Dye-containing wastewater; Color removal
+
+　　目前，印染行业所用的染料基本上都是人工合成的化学染料。由于化学染料具有品种多、结构复杂、脱色困难等特点，所以，印染废水的脱色处理一直是国内外没有得到很好解决的问题。印染废水的色度对处理回用带来了很大的困难，成为实现废水资源化的障碍。目前，印染废水的脱色是亟需解决的重要课题。针对化学染料的可生化性较差的特点，国内外都开展了利用化学法处理印染行业所排放出的染料废水的探索和应用研究［1～5］。
+　　鉴于ClO2是一种强氧化剂，随着其制造成本的降低及发生量的增大，在工业水处理中将得到广泛应用。所以，文中用化学法和光激发电解法分别制备出了纯ClO2和含有ClO2，Cl2，H2O2和O3等复合氧化性气体，探索研究了它们氧化处理染料模拟废水的脱色效果，并实验研究了化学混凝法处理染料模拟废水的脱水效果及影响脱色效果的因素。
+1　实验部分
+1.1　主要仪器和药品
+　　LC－10A光激发二氧化氯发生器，722型光栅分光光度计，pH S－2型酸度计，DC－506型实验搅拌机，800型电动离心沉淀器。
+　　NaClO3，H2SO4，Al2(SO4)3。18H2O，MgCl2。6H2O，均为A.R级；市售聚合氯化铝(PAC)含量为30%左右(以Al2O3计)，碱化度(B)为50%～65%。
+　　实验时选用2种活性染料及1种分散染料(均为工业品)，染料的名称、类型、结构及最大吸收波长见表1。
+表1　染料的名称、类型、结构和最大吸收波长
+
+染料名称类型结构式最大吸收波长(nm)
+活性艳红
+(K－2BP)偶氮550
+活性紫
+(K－3R)偶氮560
+分散红紫
+(P－R)偶氮556
+
+1.2　ClO2的化学制备方法
+　　ClO2的化学制备法及含量测定方法均参见文献［6］。
+1.3　LC－10A光激发二氧化氯发生器制备复合氧化性气体
+　　该发生器可同时产生ClO2，Cl2，H2O2和O3等多种强氧化性的复合气体。LC－10A光激发二氧化氯发生器的结构示意图如图1所示。用该发生器制备ClO2复合气体时，向电解槽内外槽中分别同时加饱和食盐水和自来水，打开电源，开启水泵，打开电解装置开关，控制电压小于12V，电流小于10A，在一定温度下用盛有去离子水的棕色瓶吸收产生的ClO2复合气体。
+
+
+图1　ClO2复合消毒剂发生器示意图
+1.4　化学氧化法处理染料废水方法
+　　向100mg/L的单一染料模拟水样中加入一定量的氧化剂，在搅拌下氧化反应30 min，在各染料的最大吸收波长下，以蒸馏水作参比，测定处理前后水样的吸光度，计算脱色率。测定吸光度时，考虑到介质的pH值可能对染料分子的结构有影响，染料的吸光度在不同pH值下会有所不同，所以均把处理前后的染料液调至中性进行测定。
+1.5　混凝脱色实验方法
+　　在浓度为100 mg/L的单一染料模拟水样中，定量加入混凝剂，先于转速为120 r/min下搅拌1～2 min，再在40 r/min下慢搅7 min，静置沉淀10 min，从上部吸取部分溶液离心5 min，离心上清液用稀盐酸或稀氢氧化钠溶液调至中性后，用722型分光光度计在各个染料的最大吸收波长下测定吸光度，以蒸馏水作参比，计算脱色率。
+2　结果与讨论
+2.1　氧化脱色效果
+2.1.1　氧化剂投加量对脱色效果的影响
+　　实验结果见图2。结果表明，化学氧化对活性染料废水的脱色效果优于对分散染料的脱色效果，随着氧化剂投加量的增加，活性染料废水的脱色效率大幅度升高，但分散染料废水的脱色效率随氧化剂投加量的变化不大，且脱色效果很差。ClO2和光激发产物对分散染料P－R的脱色效果差别不大，但对活性染料的脱色效果有所不同。在相同投加量情况下，光激发产物的脱色效果优于ClO2的脱色效果。无论是ClO2，还是光激发产物，对活性紫K－3R的脱色效果大大优于对活性艳红K－2BP的脱色效果。出现上述情况的原因为，对于活性染料K－2BP和K－3R而言，染料分子结构中带有3～4个亲水性的磺酸钠基团，染料溶于水，在搅拌下，能充分与氧化剂相互作用发生氧化还原反应，所以脱色效果好；而对分散染料P－R而言，由于染料分子中不含亲水性的基团，不溶于水，染料是以微小的固体颗粒形式分散在水溶液中，所加入的氧化剂不能充分地直接和染料颗粒物作用，而是必须先吸附在分散染料颗粒的表面上才能进行反应，所以氧化脱色效果较差。对于同是活性染料的K－2BP和K－3R而言，由于二者的分子结构及含有的亲水性基团的数目不同，结果导致其氧化脱色的难易程度出现差异。至于光激发产物的脱色效果优于ClO2的原因为，在光激发产物中含有ClO2，H2O2，Cl2和O3等多种氧化剂，结果表现出更强的氧化脱色能力。
+
+
+图2　氧化剂投加量对脱色效果的影响
+2.1.2　pH值对脱色效果的影响
+　　固定ClO2的投加量为0.461 mmol/L，光激发产物的投加量为0.414 mmol/L，实验结果见图3。结果表明，对活性染料而言，在pH小于10的情况下，氧化处理可获得良好的脱色效果，pH大于10后，脱色效率下降；对分散染料P－R而言，由于染料颗粒和氧化剂接触面积有限，pH对脱色效果影响不大，pH在7.0左右脱色效果最好，但在实验的pH范围内，脱色率都很低。
+
+
+
+图3　pH对氧化脱色效果的影响
+　　ClO2及光激发产物之所以在pH小于10的条件下具有良好的脱色效果，这与ClO2在水中的形态分布有关［7～8］。ClO2在水中基本上不发生水解作用，在pH为2～10范围内以溶解气体形式存在，但在强碱性介质中，可歧化生成1∶1摩尔比的亚氯酸盐和氯酸盐：
+2ClO2+2OH-=ClO-2+ClO-3+H2O　　　　　　　　　　　　　　　(1)
+　　其中，生成的亚氯酸根离子也是一种强氧化剂，但其氧化能力较ClO2弱，这可从ClO2和ClO-2的氧化还原电位看出：
+ClO2+e=ClO-2　　　E0=0.95 V　　　　　　　　　　　　　　　(2)
+ClO-2+2H2O+4e=Cl-+4OH-　　E0=0.78V　　　　　　　　　　　　(3)
+　　当ClO2以高浓度存在时，ClO2歧化反应的速度便显著加快。ClO2浓度在5～10 mg/L(0.074～0.148 mmol/L)范围内，pH值为12时，ClO2在水中的半衰期为20 min～3 h之间，但随着ClO2浓度进一步升高，在高pH下，ClO2在水中的安定性大大降低，生成较多的ClO-2和ClO-3，结果使其氧化能力下降，脱色效率降低。
+2.2　混凝脱色效果
+2.2.1　pH值对氯化镁脱色效果的影响
+　　据文献介绍［5，9］，镁盐作为水处理剂时具有絮体生成速度快、絮体大、密实、沉降速度快等特点，具有较好的除浊和脱色效果。该文在固定MgCl2。6H2O投加量为800 mg/L的条件下，用Ca(OH)2调染料模拟水样的pH值，研究了pH对MgCl2。6H2O脱色效果的影响，结果见图4。结果表明，随pH的升高，MgCl2。6H2O的脱色效果提高，对于K－2BP和K－3R而言，pH达12以上时，脱色率在90%以上，pH为12.5时脱色率趋于最佳，达99%左右；对P－R而言，pH达11.5左右时，就可取得极好的脱色效果，pH为12时脱色效果趋于最佳。在pH小于12的情况下，MgCl2。6H2O对P－R的脱色效果远远好于对K－2BP和K－3R的脱色效果。上述结果说明了，MgCl2。6H2O无论对活性染料，还是对分散染料，在碱性pH范围内，均具有良好的脱色效果，究其原因，笔者认为：对活性染料而言，在碱性pH条件下，染料分子在溶液中都呈阴离子状态，一方面，带正电荷的Mg2+可与带负电荷的染料分子作用(这种作用包括电中和作用及螯合作用)［5］，生成难溶于水的螯合物；另一方面，MgCl2。6H2O在高pH下水解产生大量的Mg(OH)2沉淀，通过Mg(OH)2沉淀的网捕作用，可使Mg2+与活性染料分子生成的难溶于水的螯合物聚沉，达到脱色效果。对P－R而言，因其不溶于水，在水溶液中呈分散状态，易于通过Mg(OH)2的沉淀网捕作用去除，所以脱色效果良好。
+
+
+图4　pH对MgCl2脱色效果的影响
+2.2.2　不同混凝剂脱色效果比较
+　　Al2(SO4)3。18H2O和PAC是常用的无机混凝剂，它们用于染料废水脱色时其最佳pH范围分别为5.0～6.5和5.5～6．5［1］。文中比较了MgCl2。6H2O，Al2(SO4)3。18H2O和PAC在各自最佳脱色pH条件下的脱色效果，结果见图5。结果表明，MgCl2。6H2O的脱色效果最佳，PAC次之，Al2(SO4)3。18H2O的脱色效果最佳。P－R最易脱色，K－3R次之，K－2BP最难脱色去除。
+
+
+图5　不同混合剂脱色效果比较
+　　另外，值得注意的是，印染行业所排出的染色废水其pH一般都在10以上，有时高达13左右，所以，在如此高的pH条件下，采用MgCl2。6H2O脱色是比较切实可行的。
+3　结论
+　　a.ClO2和光激发产物对水溶性活性染料废水脱色效果良好，但对水不溶性的分散染料脱色效果极差，ClO2和光激发产物适宜脱色的最佳pH范围为pH小于10。
+　　b.化学混凝法对分散染料废水的脱色效果优于对活性染料废水的脱色效果，其中MgCl2。6H2O的脱色效果最好，PAC次之，Al2(SO4)3。18H2O最差；pH对MgCl2。6H2O的脱色效果有效大的影响，在pH大于12的条件下，MgCl2。6H2O对活性染料和分散染料都具有良好的脱色效果。
+第一作者：男，1961年生，副教授
+作者单位：高宝玉　岳钦艳　赵启敏　山东大学环境工程系，济南　250100；
+　　　　　岳钦文　北京绿创环保科技有限责任公司，北京　100071
+参考文献
+1　宋光溥，曹德身，汪永辉.活性染料染色废水脱色的研究.环境化学，1986，5(4):25～29.
+2　金子正治.复合酸化物にすゐ反应染料液の脱色.环境技术,1981,10:708～709.
+3 汪凯民，靳志军.印染废水治理技术进展.环境科学.1991,12(4):62～67.
+4 嵇雅颖.水溶性染料废水脱色新方法的研究.上海环境科学,1990,9(8):8～11.
+5　Judkins J F, Homsby Jr John S. Color removal from textile dye waste using magnesium carbonate. J Water Pollution Control Federation, 1978,50(11):244～2456.
+6　杨卫权.二氧化氯的测定.华东交通大学学报，1995,12(4):26～31.
+7 朱琨,陈慧，朱铿.二氧化氯在饮用水消毒中的应用研究.环境保护,1996,(2):14～16.
+8　黄君礼(编译).新型消毒剂二氧化氯处理饮用水的研究.环境科学丛刊，1992,13(1):1～11.
+9　Thompson C G.Magnesium carbonate－a recycled coagulant. J Amer Water Works Assn, 1972, 64:11.
+收稿日期：1998－04－18

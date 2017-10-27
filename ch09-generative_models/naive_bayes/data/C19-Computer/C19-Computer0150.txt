@@ -1,0 +1,135 @@
+微型电脑应用
+MICROCOMPUTER APPLICATIONS
+2000　Vol.16　No.1　P.44-47
+
+
+
+WEB站点中电子论坛的实现
+徐萍
+摘　要：本文利用微软的IIS中提供的IDC技术，将Web服务器与数据库系统连接，较详细地叙述了在Web站点中实现完全从底层架构起来的电子论坛的程序实现，以使浏览器用户实时地互相交流信息。
+关键词：Internet　Internet数据库连接器　电子论坛SQL语句
+Abstract：This paper describes the connection of a Web ser ver with a database system using the IDC technology of Microsoft Internet Inform ation Server (IIS). It presents in detail the programming method of complete bot tom-up implementation of electronic forums on Web sites. Users can exchange info rmation in real time on the browser in such a system.
+Keywords：Internet　Internet database connection　electronic forum SQL statement▲
+一、引言
+　　WWW技术的问世，给Internet带来了新的活力，使Internet的用户数有了爆炸性的增长，各企业纷纷建立企业内部网，拥有了自己的WEB站点。电子公告牌系统BBS一直是Internet上最为主要的一项服务，在这上面用户可以张贴文章，阅读别人的作品，获得网友热心提供的最新消息，寻求问题的解答，是网络人的良师益友。由于WWW的优异性能，产生了基于WEB站点的电子公告牌系统(WWW-BBS，或称为电子论坛)，对比基于Telnet的Internet BBS，电子论坛具有访问速度快、服务器负载小、表现力丰富、使用方便等优点，目前许多WEB站点都已提供电子论坛服务。
+　　在Web服务器中，Microsoft公司的Internet信息服务器——IIS是当今Windows NT操作系统平台上使用得最多的Web服务器软件。IIS提供了Internet数据库连接器IDC，IDC技术提供了一种使数据库内容得以在Internet上发布并与用户进行交互的方法，它只要编程者具有HTML和SQL结构化查询语言的知识，而不需要任何C++、DLL及类似的编程语言概念。构成IDC应用程序的文件是解释性的，提供快速的开发循环和反馈。IDC这种简单高效的特性，让编程者在相对短的时间内建立应用程序，对于一些无需进行复杂验证的应用程序或部门应用程序，IDC是较合适的编程工具。
+　　我们利用IDC技术、Access数据库管理系统实现了完全从底层架构起来的WWW-BBS，在校园Intranet网上开辟了一些讨论话题以及聊天室等功能服务。
+二、程序功能简介
+　　整个电子论坛程序具有四大功能：
+　　用户登录功能：允许新用户随时注册、已注册用户登录，禁止未授权用户登录。
+　　消息浏览功能：将消息分成几个议题，在这些议题中，消息形成线程，使在一个议题的消息列表中，每一条消息下都跟随着相关的反馈消息。
+　　发布新消息功能：用户可以在议题消息列表中发送新话题(新话题出现在议题分层结构的第一层)或对某已存在的消息发布反馈消息，反馈消息被列在被反馈消息之下，缩进排列。
+　　主题搜索功能：用户可以在一个议题或一组议题中搜索任意的子字符串，整个搜索结果被分成10条消息一组，用户可以分组浏览搜索结果。
+　　本程序运行的服务器环境为：Windows NT 4.0,IIS3.0,Access97,工作站环境为：Windows 95/98,IE4.0，程序运行良好。
+三、数据库设计
+　　用Access97建立数据库net.mdb,表中各字段作用如下：
+　　消息表messages:Messageid(消息标识符)、Messagesubject(消息主题)、Messagetext(消息正文)、Userid(消息作者的用户标识符)、Messagets(发消息的时间)、Conferenceid(消息所属的议题标识符)、Parentmessageid(若该消息为另一消息的反馈消息，则存放父消息标识符)、Numspace(消息的嵌套深度)、Displayordering(消息列表中的排序机制)。
+　　议题表conferences:Conferenceid(议题标识符)、Conferencename(议题名)。
+　　用户表users:Userid(用户标识符)、Username(用户名)、Useremail(用户的Email地址)、Userpassword(用户口令)。
+　　空白表spaces：Numspaces(存放空格字符串中空格的数量，与消息表中的Numspace对应)、Spacestring(存放空格字符串)。
+　　其中spaces表主要用于根据消息的嵌套深度和排序机制产生缩进所用的空格字符串。
+四、配置系统数据源
+　　.打开Windows NT控制面板中的ODBC程序。
+　　.选择System DSN标签。
+　　.单击Add…按钮，出现Create New Data Source对话框。
+　　.在列表框中选Microsoft Access Driver，单击Finish按钮。
+　　.在Data Source Name文本框中输入dbmessagebase。
+　　.单击Select…找到net.mdb。
+　　.单击OK，完成设置。
+　　将net.mdb数据库设置成数据源dbmessagebase后，只要在.IDC文件中将datasource域设为dbmessagebase即可对数据库实施SQL语句操作。
+五、程序流程及实现
+　　图1为电子论坛程序流程图，图中每一个框代表一个网页，每条弧线代表要一个IDC文件来完成前一页的数据处理，收集下一页需显示的信息，虚线代表超级链接。
+
+图1 程序流程图
+　　1.登录页显示欢迎用户进入本电子论坛，用户输入用户名和口令，若是新用户则请他们先注册。该页的.HTM文件中的表单可将用户输入的用户名和口令存入inputuserid和inputuserpw两变量中，按“确定”按钮启动mainscreen.idc文件。该IDC文件根据inputuserid和inputuserpw的值查询users表中是否有相应的用户记录。同时在conferences表中检索所有的议题名及议题标识符，以供“主屏”页显示。其主要语句为：
+　　template:mainscreen.htx
+　　odbcoptions:SQL-ACCESS-MODE=1
+　　requiredparameter:inputuserid,inputuserpw
+　　datasource:dbmessagebase
+　　SQLStatement:SELECT userid,username,useremail,userpassword from users
+　　+where username='%inputuserid%'and userpassword='%inputuserpw%'
+　　SQLStatement:SELECT conferenceid,conferencename from conferences
+　　2.执行mainscreen.idc文件的结果由mainscreen.htx文件输出，形成“主屏”页。该页有三个特征：a.列出用户登录全名，若登录有误，则显示错误信息及回到登录页的超级链接。b.Combobox组合框和“查看”按钮允许用户选议题阅读。c.“查找”按钮允许用户使用程序的搜索功能。其中b、c两项需在用户登录成功后才显示。该页的.HTX文件中的主要语句有：
+　　<form action=”viemconfmessages.idc”method=post>
+　　<%begintail%><h3>欢迎<%username%>朋友</h3><%enddetail%>
+　　<%if currentrecord eq 0%>
+　　<h3>对不起，您的登录有误，请<a href="messagebase.htm">重试</a></h3>
+</form>
+<%else%>
+　　<select name="conferencename"size="1">
+　　<%begindetail%><option><%conferencename%><%enddetail%>
+<input type="submit"ualue="查看">
+</form>
+<form action="search.idc"method="post">
+　　<h4>按标题查找消息</h4>
+　　<%begin detail%><input type="hidden"name="userid"value=<%userid%>>
+　　<%enddetail%>
+　　<input type=submit value="查找">
+</form>
+　　3.在“主屏”页中，用户选择某议题后单击“查看”按钮执行viewconfmessages.idc文件，该文件完成在库中查询指定议题中的所有消息功能，其主要语句有：
+　　Datasource:dbmessagebase
+　　Template:viewconfmessages.htx
+　　SQLStatement:SELECT DISTINCTROW`+'& spacing.spacestring+& messages.
+　　+messagesubject AS exprl,users.username,messages.messagets,+messages.messageid
+　　+FROM conferences inner join(users INNER join lspacing inner join messages
+　　+on spaceing.numspaces=messages.+numspaces)on users.usersid=messages.userid)
+　　+on conferences.coferenceid=messages.+conferenceidwhere(conferences.conferencename)
+　　+='%conferencename%'+order by messages.displayordering
+　　查询所得到的全部消息通过viewconfmessages.htx显示出来形成“消息列表”页。
+　　4.“消息列表”页有四个特征：a.“刷新”按钮允许用户更新列表。b.“新标题”按钮允许用户进入“发送新消息”页。c.每条消息都有“打开”按钮，允许用户进入“查看消息”页。d.若一屏显示不下，页未出现“下一页”按钮，否则显示“没有更多消息了!”。该页的.HTX文件中的主要语句有：
+　　<formaction="viewconfmessages.idc"methed="post">
+　　　<input type="submit"value="刷新列表"></form>
+　　<form action="newtopic,idc"methed=post>
+　　　<input type="submit"value="新标题"></form>
+　　<table width="95%">
+　　　<tr><td colspan="4"align="center"bgcolor="#d0ffff">
+　　　　<h3><%idc.conferencename%></h3></td></tr>
+　　<tr><th>标题</th><>th作者</th><th>建立日期</th></tr>
+　　<%begindetail%>
+　　　<tr><td>
+　　<form action="viewmessage.idc"methed="post">
+　　　<input type="submit"name="open"value="打开"></form>
+　　</td>
+　　<td><pre><%exprl%></pre></td>
+　　<td><%username%></td><td><%messagets%></td></tr>
+　　<%if currentrecord eq 9%>
+　　<form action="viewconfmessages.idc"methed="post">
+　　<input type="submit"value="下一页"></form>
+　　<%endif%>
+　　<%enddetail%>
+　　5.“发送新消息”页允许用户输入新消息的标题、消息正文等，然后单击该页中的“发送”按钮启动postnew.idc文件，该文件将用户输入的消息标题、消息正文连同用户标识符、所选议题的标识符、消息建立日期等插入到消息表中。注意该条记录的父消息标识符字段应为1，消息嵌套深度字段应为0，排序机制字段应为该字段中已有值的最大值+1，同时启动显示消息列表页。其SQL语句如下：
+　　INSERT INTO messages(messagesubject,userid,messagets,conferenceid,parentmessageid,
+　　+numspaces,messagetext,displayordering)select`%messagesubject%','%userid%',now(),
+　　+'%conferenceid%',0,1,'%messagetext%',1+max(displayordering)from messages
+　　+where confrenceid=%conferenceid%
+　　6.若用户在“消息列表”页中单击某消息的“打开”按钮，则进入“查看消息页”，该页有如下特征：“往前”、“往后”按钮使用户可以往前后查看消息，而不必回到“消息列表”页；“回馈”按钮允许用户对显示的消息回馈消息，“回到列表”按钮允许用户返回“消息列表”页。
+　　“查看消息”页的IDC文件中的SQL语句实现根据messageid检索users表中所有字段、议题名、消息作者名、作者的Email地址的功能。
+　　查看前一消息的IDC文件中的SQL语句中，由(message.displayordering>(select displayordering from messages where messageid=%messageid%))一句来确定一条消息。该请求可能返回多行，由ODBCoptions:sql-max-rows=1一句来限制只有一行中最大的被检索。查看后一消息的IDC文件中的SQL语句与此句类似。
+　　对于检索到的某条消息，在显示它时需注意，若检索到作者Email，作者名就是一个超级链接，方便用户给作者发Email，该功能由下一段代码实现。
+　　<%if authoremail eq""%>
+　　<%authorname%>
+　　<%else%>
+　　<a href=mailto:<%authoremail%>>
+　　<%authorname%>
+　　</a>
+　　<%endif%>
+　　7.在“查看消息”页中，若用户单击“回馈”按钮则进入“发反馈消息”页，该页有如下特征：用户输入消息表单，按“发送”按钮发送消息，为正在查看的消息发回馈消息，回到消息列表页。其中在发回馈消息的IDC文件中要用SQL语句更新相关消息的displayordering，使之在消息列表中显示在该回馈消息后的所有消息的displayordering加1。在相应的.HTX文件中要用到文本框textarea.<textarea>结束标识符应该紧接着开始标识符，否则任何开始标识符与结束标识符之间的文字都将作为文本框缺省值。
+　　8.用户在“登录”页中单击“新成员注册”按钮进入“新成员注册”页，该页提示使用本电子论坛的纪律，要求未注册用户输入用户名、口令、Email地址等必要的信息以注册。验证用户名是否唯一，二次输入的用户密码是否相同，并将之加入users表中。
+　　9.用户在“主屏”中单击“查找”按钮进入“查找”页，该页有四项特征：一个列表框，让用户选一个(组)议题搜索；一个输入区域，用户可以输入搜索字符串，在查找字符串中可用统配符。“查找”按钮用来启动查询；一个统配符的说明，用来方例用户使用统配符，其主要代码如下：
+　　<select multiple name="seldconferences">
+　　<%begindetail%>
+　　<option value="<%conferenceid%>"><%conferencename%>
+　　<%enddetail%>
+　　</select>
+　　10.“查找结果”页与“消息列表”页相似，页首有一个“新搜索”按钮，用户用此进入“查找”页进行重新搜索；接下来是查找到的所有消息的列表，若本一屏显示不下，则页未出现“下一页”按钮，否则显示“找不到了”，其中起过滤和分页作用的代码如下：
+　　+where messages.messageid>%maxmsg%
+　　+and messages.messagesubject like `%searchtext%'
+　　+and conferences.conferenceid in(%seldconferences%)
+六、结束语
+　　用IDC技术实现将数据库内容在Internet、Intranet上发布的方法有其独特的优点，国内已有许多Web站点采用了该项技术。程序中所操作的数据是用Access数据库管理系统组织的，也可用任何一种具有ODBC驱动程序的数据库管理系统来实现，如MS-SQL，SYSBASE等。■
+作者单位：徐萍(中国纺织大学计算机系 无锡 214063)
+参考文献：
+［1］希望图书创作室　Microsoft SQL Server6.5参考手册　科学出版社
+［2］Susann Novalis著　成栋译　Frontpage97从入门到精通　电子工业出版社
+［3］Mark Minasi等者　邱仲潘译　Windows NT Server 4从入门到精通　电子工业出版社
+收稿日期：1999-10-20

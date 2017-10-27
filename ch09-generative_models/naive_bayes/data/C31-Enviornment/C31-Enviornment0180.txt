@@ -1,0 +1,98 @@
+土壤与环境
+SOIL AND ENVIRONMENTAL SCIENCES
+1999年　第4期　第8卷　Vol.8　No.4　1999
+
+
+
+化学方法降低城市污泥的重金属含量及其前景分析
+蔡全英　莫测辉　吴启堂　李桂荣
+　　摘要：城市污泥含有丰富的氮、磷、钾和有机质，农用前景广阔。但其中重金属含量常超标而受到限制。利用化学试剂如酸、有机物、表面活性剂等与污泥中的重金属发生作用，形成溶解性的金属离子或金属－试剂络合物，再通过淋滤，可以剔除污泥中大量的重金属，使其降低到符合农用标准。本文介绍了化学方法去除污泥重金属的原理和效果，分析了影响因素，包括重金属种类、污泥特性、操作方法、剔除时间等，并对该法的应用前景进行了讨论。
+　　关键词：城市污泥；重金属；化学方法；农用资源化
+　　中图分类号：X705　文献标识码：A
+Chemical Method and its Prospect for Heavy Metal Removal From Municipal Sludge
+CAI Quan-ying，MO Ce-hui，WU Qi-tang，LI Gui-rong
+（College of Natural Resources and Environmental Science, South China Agricultural University, Guangzhou 510642, China）
+　　Abstract:　Municipal sludge use as agricultural fertilizer appears to be the most interesting alternative due to its abundant N, P, K, and organic matter and from an economic perspective. However, the presence of high concentration of heavy metals represents a serious constraint to this practice. Metal removal from municipal sludge is a crux. Chemical method for metal removal has been conducted. According to the Eh-pH diagram of heavy metals, metals in sludge react with the agents including acid, organism, surface active agent and form the soluble metal ions or metal-agent chelate, and then remove a lot of heavy metals from sewage sludge by leaching. This paper introduces the principle and efficiencies of the method; and the affecting factors including specific type of heavy metals, the types and characteristics of sewage sludge, sludge solid concentration, pH value, length of acidification, etc. are analyzed. Also, the prospect of this method is reviewed.
+　　Key words:　municipal sludge; heavy metal; chemical method; agricultural use
+　　目前，污泥的处置方式主要有填埋、焚烧、倒海和农业利用等。因为环境压力和费用太高，前三种方式处置量不断减少或被禁止。而城市污泥通常含有丰富的氮、磷、钾和有机质，是良好的有机肥料，作为农业利用是一种最为经济可行和最有前景的处置方法，深受世界各国重视。但目前世界各国污泥的农用率不高，如英国、瑞士、荷兰等也仅为40％～50％。主要原因是污泥中的重金属含量通常超标。因此，解决污泥农用问题的关键是控制其中重金属的含量。最根本的办法应该是控制污染源，使污泥中重金属的含量不超过农用标准。但实际上往往难以达到。在这种情况下，可以采用化学方法把超标的重金属淋滤出来，降低到符合农用标准，从而达到污泥农业处置利用的目的。
+1 城市污泥中重金属的一般化学特征
+　　城市污泥可以分为生污泥、厌氧消化污泥、好氧消化污泥和活性污泥等，是一种由不同组份构成的多相混合物。Macnicol等（1989）提出一种简单的四分法，将污泥组份分为颗粒物、生物团（细菌碎屑）、胶体态和可溶态[1]。在消化污泥中，铜、镍和锌等重金属在上述各组份之间的分配为：85％～95％（质量分数）附着于生物团上；5％～15％在矿物颗粒和有机碎屑颗粒物上；其余不到3%存在于可溶态和胶状的有机物质中。污泥中的颗粒物仅占污泥总质量的2%，但它含有极高浓度的重金属。污泥中的重金属主要以氧化物、氢氧化物、硅酸盐、不可溶盐或有机络合物的形式存在，其次为硫化物（厌氧消化污泥除外，其中质量分数为70%的重金属以硫化物的形式存在），而以自由离子的形式存在是很少的[2～3]。Angelidis等（1989）用连续萃取技术对厌氧消化污泥进行处理，发现有机质和硫化物是重金属最重要的载体，80％以上的Cu、Pb、Zn和60%以上的Cd、Cr以有机态和硫化物的形式存在[4]。但污泥中不同的金属元素，以及同一金属元素在不同类型的污泥中，其主要存在形式可能有所不同[2～3，5]。
+2 化学方法剔除污泥重金属的原理及效果
+2.1 原理
+　　要使污泥中的重金属由不可溶态的化合物向可溶态的离子转化，可以通过提高污泥的氧化还原电位（Eh）和降低其酸度（pH值）的办法来达到。化学方法和微生物学方法均可达到此目的（后一种方法将另文论述）。去除污泥中重金属的化学方法首先是通过溶解作用，然后进行淋滤。氯化作用、离子交换作用、酸化作用、螯合剂和表面活性剂的络合作用，均可使难溶态的金属化合物形成可溶解的金属离子或金属络合物。最常用的化学试剂是硫酸、盐酸或硝酸和有机络合剂（如EDTA）。
+2.2 去除效果
+　　用酸或络合剂对污泥进行处理，可以溶解大量的金属。吴启堂等(1998)用硫酸、碳酸氢氨(NH4HCO3)、EDTA对Cu、Zn均严重超标的污泥(Cu 3116 mg/kg，Zn 2290 mg/kg)进行处理，其最大去除率为Cu 66.8%、Zn 50.7%(表1)[6]，处理后污泥金属含量基本符合农用标准。Wozniak等（1982）用盐酸/硫酸为1∶1对污泥进行处理，分别测定在不同pH值、污泥固体浓度、酸化时间等条件下重金属的去除效果，除了Cr元素的去除率低于60%以外，其他元素的去除率均高于60%，甚至达100%（表2）[7]。另外，用硫酸对消化污泥进行热处理，可去除Cd 92%、Cr 53%、Cu 53%、Ni 84%、Zn 92%[8]；用硝酸对污泥进行淋滤，可去除Cu 86.7%、Ni 100%、As 100% [9]。
+表1　H2SO4、EDTA和NH4HCO3对城市污泥中金属的去除率[6]
+提取剂提取时间/h固/液比Cu去除率/%Zn去除率/%
+0.05 mol/L H2SO41)0.51/545.6444.00
+0.05 mol/L H2SO42)0.51/566.7550.74
+0.05 mol/L EDTA51/1043.6140.00
+0.5 mol/L NH4HCO331/1020.20.38
+4.0 mol/L NH4HCO331/1043.5-
+
+1）先把酸稀释再加到污泥；2）先把浓酸加到污泥再稀释；“-”表示未检出
+表2　HCl/H2SO4为1∶1对城市污泥中金属的去除率[7]
+pH值污泥固体质量分数CdCrCuPbNiZn
+w/(g× kg-1)去除率/%
+1.55100(3)1）57(6)100(12)100(6)100(3)100(3)
+　1090(3)42(6)90(24)88(12)90(12)100(3)
+　2580(3)30(6)80(12)40(6)80(24)100(6)
+2.05100(6)30(6)93(24)90(24)100(3)100(6)
+　1090(6)25(6)80(24)80(12)90(12)100(6)
+　2587(6)18(6)45(24)25(6)75(12)100(12)
+3.05100(24)10(6)　30(24)100(24)100(24)
+　1070(12)10(6)　20(24)80(24)85(24)
+　2510(12)5(6)　5(12)65(24)65(24)
+
+1）各栏括号中的数据为所需时间（h）。
+3 影响化学方法剔除城市污泥重金属效果的因素
+3.1 重金属的种类
+　　在相同处理条件下，由于不同的金属元素在污泥中的存在状态、与污泥或有机物的结合能力等不同，故其去除效果也会不同。如表2所示，用HCl/H2SO4为1∶1处理污泥，在相同的pH值、固体浓度和处理时间的条件下，金属的去除效果大小是：Zn＞Cd＞Cr或Zn=Ni=Cd＞Pb＞Cr。从最终的总体效果来看是：Zn＞Cd＞Ni＞Cu＞Pb＞Cr。Tyagi（1988）用0.5 mol/L硫酸对固体质量分数为50～45 g/kg的污泥进行处理，当pH值为1.5时，去除效果为Zn 78％～90％，Pb 49％～86％，Cu 55％～87%；当pH值为2.0时，去除效果为Zn 61％～94%，Pb 48％～56%，Cu 46％～56%。当用相同固体质量分数和pH值时，金属的溶解率大小顺序为：Zn＞Cu＞Pb[10]。用EDTA处理污泥24 h后，其中的Pb、Cu的去除率最高，Mn、Cd次之，Fe、Ni、Cr最低[11]。
+3.2 污泥的种类及其性质
+　　由于不同类型污泥中金属的存在状态等不同，因此污泥的种类和特性会影响金属的去除效果。用硫酸和EDTA处理不同类型的污泥，其中金属的去除效果依次是消化污泥＞生污泥＞剩余活性污泥＞消化剩余活性污泥（表3）[11]。这与污泥对酸的缓冲能力有关。消化剩余污泥对酸的缓冲能力是最大的。非消化污泥需要增加酸量来克服金属与污泥间的络合力，打断污泥与金属之间的键。因此生污泥经过消化作用后，其中重金属更易溶解和淋滤出来。Hayes（1979）比较了酸处理对生污泥、剩余污泥、厌氧消化污泥、好氧消化污泥的影响，结果发现好氧消化污泥中的金属溶解率最大[12]。
+表3　H2SO4和EDTA处理不同类型污泥（1 h）金属的去除率（%）（H2SO4/EDTA）[11]
+金属PSDPSWASDWAS
+Cd74/815/237/86/15
+Cr70/3176/3360/2661/15
+Cu1/31/61/21/8
+Pb10/269/2410/1513/37
+Ni74/5372/5372/3642/33
+Zn72/2263/4553/1334/17
+
+　　PS ____ 生污泥；DPS ____ 消化污泥；WAS ____ 剩余活性污泥；DWAS ____ 消化剩余活性污泥
+　　污泥的固体质量分数和颗粒大小也影响其中重金属的淋溶效果。污泥固体质量分数越低，缓冲能力越小，就越易酸化（pH值＜2.5），金属的淋溶效果就越好，即金属的溶解率随着污泥固体质量分数的增大而减小（表2）。污泥颗粒大小会影响其与金属的络合能力，从而影响金属的淋出率。生污泥和消化污泥与Cu、Pb、Cd络合的能力随着其颗粒的增大而降低，而活性污泥则相反[13]。
+　　污泥的氧化还原电位（Eh）也是影响金属淋溶效果的重要因子。污泥中重金属的归宿主要取决于还原相的物理化学性质的变化，还原相可能是金属的主要载体[14]。在高Eh值和低pH值时，金属的淋溶量最大[15]。因为低Eh值和高pH值有利于污泥中金属的再沉淀和有机物的再络合[16]。厌氧消化污泥的Eh值一般为-300～520 mV，只有把Eh提高到+100 mV以上，且把pH值降低到4以下，硫化态金属才转化为离子态。选择适宜pH值和Eh值，使化学平衡朝可溶的金属离子态方向移动，有利于去除污泥中的重金属。
+3.3 pH值
+　　污泥中重金属的溶解主要是受pH值控制。被酸化污泥的pH值只有低到一定程度（通常＜3或＜4）时，金属才以离子态存在，金属的淋出率才较高，即随着被酸化污泥的pH值的降低而增高（表1）。然而，不同金属的淋出率受pH值影响的程度是不同的，影响最大的是Pb、Cr，其次是Cu，而Zn、Ni、Cd受影响相对较小（表1）。但是，如果仅用酸来降低污泥的pH值，不利于金属硫化物迅速向可溶态离子形式转化。如果同时加入H2O2等把污泥的氧化还原电位提高到一定程度，则可提高金属的淋出效果。
+3.4 化学试剂种类、操作方式及处理时间
+　　用硫酸、硝酸、盐酸等对污泥进行处理，均能提取大量的金属[17]。当污泥类型、pH值、酸化时间等条件相同时，这些不同的酸对金属的去除效果是盐酸＞硫酸＞硝酸，但相差并不明显[18]。然而，如上所述，当污泥酸化时，加过氧化氢（H2O2）可使金属的溶解效果略为提高[8，12]。从表1还可以看出，硫酸的去除效果较EDTA和碳酸氢氨好，且硫酸易与金属形成硫化物沉淀。
+　　操作方式对金属的去除效果也有影响。把浓硫酸加到干污泥中再加水进行稀释比把酸稀释后再加到干污泥中的效果好（表1）。因为前者使污泥pH值下降得更低[11]。
+　　在一定的pH值和污泥固体质量分数下，酸化时间的长短直接影响重金属的去除率。通常在3～6 h内，金属的溶解量接近最大，之后溶解趋缓[7, 10]。当固液比为1∶5，pH值为1.0时，淋滤时间以0.5 h较为适合[10]。在一定的pH值和污泥固体质量分数时，不同的金属达到最大淋溶效果所需的时间也不同，易溶解的Zn、Cd在相对短的时间内淋溶率就可达到最大值（表1）。Wozniak（1982）研究发现，加酸后溶解率达50%以上的是Cr和Ni，而其它金属的溶解率却小于10%[7]。
+4 前景分析
+　　综上所述，利用化学方法即各种酸或有机络合剂对污泥进行酸化或络合处理，在一定条件下可以剔除大量的重金属，通常是可以降低到符合农用标准。上述所用的几种酸及EDTA之间比较来看，用盐酸去除金属的效率较硝酸高，且盐酸的副效应较小[12]。而且，盐酸与过氧化氢处理后的污泥质量有所提高，利于农田利用。因此，最好是采用盐酸与过氧化氢来剔除污泥中的重金属[12]。采用表面活性剂包括季胺盐表面活性剂、阴离子表面活性剂、阳离子交换树脂等作为污泥重金属的去除剂是近年来开始研究的新技术。但由于表面活性剂对土壤中重金属具有解吸作用，且其自身容易给环境带来影响，必须采用易降解和无毒的表面活性剂。另外，采用无废液产生、并可回收金属的电化学方法来降低城市污泥中重金属的含量也是值得探讨的。
+　　但是，尽管化学方法剔除污泥中重金属的效果良好，而且淋滤过程所花的时间也较短，然而酸化污泥需要消耗大量的酸（酸与干污泥之质量比值为0.5～0.8[10]，耗酸费用为每吨干污泥27.56美元[11]），中和淋出液中的酸又要耗费大量的石灰（费用为每吨干污泥22.05～44.10美元[11]），因此该法费用较高，而且操作起来也较麻烦。另外，酸化处理一定程度上会溶解污泥中的氮、磷和有机质，降低污泥的肥料价值；如何妥善处理高浓度重金属的淋出液也是个问题。因此，该法仍需进一步研究和完善。近几年来迅速发展起来的微生物方法[19～20]，在费用和保存肥料价值方面都略优于该法。但不管是化学方法还是微生物方法，只能是一种补救措施，最根本的措施应该是控制污染源。
+基金项目：中国博士后科学基金（中博基[1996]4号）和美国Rockefeller brothers基金资助项目
+作者简介：蔡全英（1974～），女，硕士研究生
+作者单位：华南农业大学资源环境学院，广州 510642
+参考文献：
+[1] Macnicol R D, Beckett P H T. The distribution of heavy metals between the principal components of digested sewage sludge [J]. Water Res, 1989, 23(2): 199～206
+[2] Angelidis M. Chemistry of metals in anaerobically treated sludge [J]. Water Res. 1989, 23(1): 29～33
+[3] StepHendon T, Lester J N. Heavy metal removal during the activated sludge process: I. Extent of soluble and insoluble metal removal mechanism [J]. Sci Total Environ, 1987, 63: 199～214
+[4] Lawson P S, Srerrit R M. Adsorption and complexion mechanism of heavy metals uptake in activated sludge [J]. J Chem Tech Biotechnol, 1984, 34B: 253～262
+[5] Browm M J. Metal removal activated sludge: the role of bacterial extracellular polmers [J]. Water Res, 1979, 13: 817～837
+[6] Wu Q T, Nyirandege P, Mo Cehui. Removal of heavy metal from sewage sludge by low costing chemical method and recycling in agriculture [J]. J of Environ Sci, 1998, 10(1): 122～128
+[7] Wozniak D J, Huang J Y C. Variables affecting metals removal from sludge [J]. J Water Pollut Control Fed, 1982, 54(12): 1574～1580
+[8] Cheung Y H. Acid treatment of anaerobically digested sludge: Effect on heavy metals content and dewaterability [J]. Environ Inter, 1988, 14: 553～561
+[9] Abrego J. Removal of heavy metals from sample of residual sludge [J]. Intern Journ of Environ & Pollut, 1996, 6(2～3): 295～299
+[10] Tyagi R D, Couillard D, Tran F T. Heavy metals removal from anaerobiocally digested sludge by chemical and microbiological methods [J]. Environ Pollut, 1988, 50: 295～316
+[11] Jenkins R L, Scheybeler B J, Smith M L. Metals removal and recovery from municipal sludge[J]. J WPCF, 1981, 53(1): 25～32
+[12] Hayes T D, Jewell W J, Kabrick L S. Heavy metals removal from sludge using combined biological/chemical treatment [A]. Proc 34th Ind Waste Conf [C]. West Lafayette, Indiana: Purdue University Press, 1980. 529～543
+[13] Lake, Kirk D L, Lester P W W. Heavy metal solids association in sewage sludge [J]. Water Res, 1989, 23(3): 285～291
+[14] Angelidis M. Chemistry of metals in anaerobiocally treated sludge [J]. Water Res, 1989, 23(1): 29～33
+[15] Sreektishnan T R, Tyagi R D. Heavy metal leaching from sewage sludge: A techno-economic evaluation of the process options [J]. Environ Technol, 1994, 15(6): 531～543
+[16] Couillard D, Shucal Zhu. Bacterial leaching of heavy metals from sewage sludge for agricultural application [J]. Water, Air and Soil Pollution, 1990, 63: 67～80
+[17] Oliver B G, Carey J H. Acid solubilizatin of sewage sludge and ash constituents for possible recovery [J]. Water Res, 1976, 10; 1077～1081
+[18] Mingot J I, Obrador A, Manue J, et al. Acid extraction sequential fraction of heavy metals in water treatment sludge [J]. Environ Technol, 1995, 16(9): 869～876
+[19] Fournier D, Lemieux R, Couillard D. Essential interactions between Thiobacillus ferrooxidans and heterotrophic microorganisms during a wastewater sludge bioleaching process [J]. Environ Pollut, 1998, 101: 303～309
+[20] Tyagi R D, Sreekrishnan T R, Campbell P G C, et al. Kinetics of heavy metal bioleaching from sewage sludge: II. Mathematicalmodel [J]. Water Res, 1993, 27(11): 1653～1661
+收稿日期：1999-09-20

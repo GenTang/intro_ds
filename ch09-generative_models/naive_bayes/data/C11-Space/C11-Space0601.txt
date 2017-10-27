@@ -1,0 +1,36 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.3 P.5-7,14
+
+
+
+
+多项式逼近在介质柱宽角RCS快速计算中的应用
+童创明　 周后型　 洪伟　 
+摘　要：基于多项式函数逼近(PAOF)技术和矩量法(MOM)，快速预测任意形状非均匀介质柱体的单站雷达散射截面(RCS)方向图。首先采用MOM求解介质柱的电场积分方程及其有关角度导数方程，得到介质柱在某一给定方向入射波照射下的极化电流及其有关角度导数的极化电流，然后利用PAOF技术，将任一角度入射波照射下的极化电流表示为系数待定的多项式幂级数形式，并根据函数的泰勒展开确定级数的待定系数，由此可获得介质柱在任一角度入射波照射下的极化电流，进而计算出RCS方向图。计算结果表明，PAOF完全能逼近MOM精确计算的曲线。
+关键词：矩量法；多项式函数逼近；雷达散射截面；介质柱
+分类号：TN011　文献标识码：A
+文章编号：1006-1630(2001)03-0005-03
+Application of Polynomial Approximation in the Fast Calculation of Wide Angle RCS of Dielectric Cylinders 
+TONG Chuang-ming（State Key Lab. of Millimeter Waves, Dept. of Radio Engineering, Southeast University, Nanjing Jiangsu 210096, China）　
+ZHOU Hou-xing（State Key Lab. of Millimeter Waves, Dept. of Radio Engineering, Southeast University, Nanjing Jiangsu 210096, China）　
+HONG Wei（State Key Lab. of Millimeter Waves, Dept. of Radio Engineering, Southeast University, Nanjing Jiangsu 210096, China）　
+
+Abstract：The method of moments (MOM) in conjunction with the polynomial approximation of functions (PAOF) technique is applied to predict the mono-static radar cross section (RCS) pattern of an arbitrarily shaped two-dimensional dielectric cylinder. The electric field integral equation (EFIE) of a dielectric cylinder irradiated at a given direction by radar electromagnetic (EM) wave is solved using MOM to obtain the polarization current of the dielectric cylinder. In the PAOF technique, the polarization current at a given angle is expanded in a Taylor'series. The polarization current is obtained at any angle within the angular range, which is in turn used to calculate RCS of the 2-D dielectric cylinder. It was observed that AWE could result in considerable CPU time saving.
+Keywords：Method of moments; Polynomial approximation of functions ; Radar cross section; Dielectric cylinder
+
+基金项目：国家杰出青年基金项目（69625102）
+作者简介：童创明（1964-），男，博士后，研究领域：雷达目标特性。 
+作者单位：童创明（东南大学无线电工程系毫米波国家重点实验室，江苏南京 210096）　
+　　　　　周后型（东南大学无线电工程系毫米波国家重点实验室，江苏南京 210096）　
+　　　　　洪伟（东南大学无线电工程系毫米波国家重点实验室，江苏南京 210096）　
+
+参考文献：
+［1］[美] Harrington R F,王尔杰等译. 计算电磁场的矩量法[M].北京:国防工业出版社, 1981.
+［2］徐献瑜,李家楷,徐国良.Padè逼近概论[M].上海: 上海科学技术出版社, 1990.
+［3］徐利治,王仁宏,周蕴时. 函数逼近的理论与方法[M]. 上海: 上海科学技术出版社, 1990.
+［4］Richmond J H. Scattering by a dielectric cylinder of arbitrary cross section shape[J]. IEEE Tran. AP, 1965,(5): 334-341.
+
+收稿日期：2000年6月9日
+修稿日期：2000年9月4日
+出版日期：2001年3月1日

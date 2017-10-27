@@ -1,0 +1,96 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第2期 No.2 Vol.18 1998
+科技期刊
+
+广州市气溶胶中多环芳烃分布、
+季节性变化及来源判识指标*
+成　玉　陈立民　(复旦大学环境科学与工程系，上海 200433)
+盛国英　闵育顺　傅家谟　(中国科学院广州地球化学研究所，广州 510640)
+邵　波　(中国科学院兰州地质研究所，兰州 730000)
+　　文　摘　多环芳烃(PAH)具致癌特性，研究气溶胶中的PAH在不同功能区中的分布、变化及来源，具有重要意义。使用大流量总悬浮颗粒采样器，在广州市区5个代表性功能区采集季节性气溶胶样品共25个。用GC-FID、GC-MSD定量和半定量分析PAH组份。研究区气溶胶中检测出23种母核PAH，50多种烷基PAH。优先控制的PAH含量随功能区和季节而变化，其秋、夏季平均浓度具工业区>商业区>交通区>化工区的分布特征，秋季优控PAH浓度高于春、夏季。根据荧蒽/芘和间四联苯/荧蒽比值等指标判别，区内PAH主要来源于油、煤类等燃料的不完全燃烧。
+　　关键词　多环芳烃　分布　季节变化　来源判识　气溶胶
+Distribution,seasonal change and source identifications of polycyclic aromatic hydrocarbons in aerosols from Guangzhou.Cheng Yu，Chen Limin（Department of Environmental Science and Engineering, Fudan University,Shanghai 200433);Sheng Guoying，Min Yushun，Fu Jiamo(Guangzhou Institute of Geochemistry,Chinese Academy of Sciences,Guangzhou 510640);Shao Bo(Lanzhou Institute of Geology,Chinese Academy of Sciences, Lanzhou 730000).China Environmental Science.1998,18(2):136～139
+Abstract— Twenty-five aerosol samples were collected from 5 representative function zones of Guangzhou in 3 seasons by using high-volume TSP samplers. Polycyclic aromatic hydrocarbon (PAH) fractions in aerosols were quantitatively and semi-quantitatively analyzed by capillary columns GC/FID and GC/MSD. Twenty-three kinds of parent PAH and more than 50 kinds of alkyl PAH were detected in the aerosols from this area. The study indicated that the concentrations of precedent controlled PAH (PCPAH) in aerosols were changed with function zones and the seasons. The average concentrations of PCPAH in industrial zone was higher than in commercial zone. This concentration in traffic zone was higher than in chemical industry zone and lower than in commercial zone. As season changes, the concentrations in aerosols in autumn were higher than in spring and in summer. The ratio of fluoranthene to pyrene and m-quarterphenyl to fluoranthene could be used as identifications of sources and indicated that PAH in the study area was mainly from the uncompleted combustion of oil and coal.
+Key words: PAH　distribution　seasonal change　source identifications　aerosols
+　　多环芳烃(PAH)是广泛分布于环境中的有机污染物，其中一些苯并芘类的稠环芳烃有致癌特性〔1〕。美国环保局(U.S.EPA)于70年代公布的16种优先控制PAH，其中大部分具致癌性，有的为怀疑具致癌性物质。PAH主要来源于含碳物质不完全燃烧产物〔2〕，主要分布于气溶胶中〔3〕。国外关于气溶胶中PAH的组成〔4,5〕、分布〔6,7〕、污染源〔8,9〕等方面的研究已比较深入。而关于城市不同功能区气溶胶中PAH的浓度分布、季节性变化和污染源判识指标等方面的研究还比较薄弱。
+　　作者选择经济发达的广州市作为研究区，着重研究区内工业、商业、交通等5个功能区气溶胶样品中PAH的组成、分布、季节性变化规律及来源判识指标。
+1　采样与实验
+1.1　采样
+　　使用流速为1.05m3/min±大流量总悬浮颗粒(TSP)采样器连续采集样品24h，分别于1994年4月、7月和11月在广州市内5个功能区进行准同步采样。采集了25个样品，分析了其中17个样品。这些功能区分别为：荔湾工业区(广雅中学、陈家祠)、 荔湾商业区(西来西小学)、化工工业区(员村)、交通繁忙区(天河路)、市内清洁区(麓湖)(图1)。
+1.2　实验
+　　将滤纸剪成细条带状，用二氯甲烷超声抽提气溶胶样品中的可溶有机质，抽滤液过滤后经硅胶层析柱分离出饱和烃、多环芳烃、酯类及极性物质4个组分。多环芳烃组分经GC-FID、GC-MSD鉴定和定量、半定量分析〔10〕。 空白实验表明，在采样和实验流程中分离的多环芳烃馏份中未检测到PAH〔10〕。
+
+图1　广州市气溶胶样品采集分布位置
+Fig.1　The location of aerosols sampling in Guangzhou
+表1　广州市气溶胶中多环芳烃组成及其致癌特性
+Table 1　The composition and carcinogenio properties of PAH in aerosols from Guangzhou
+
+化合物　　　　　　　　　　　分子量致癌性化 合 物　　　　　　　　　　分子量致癌性
+萘●128±荧蒽●202±
+C·1-萘132　芘●202
+C2-萘(4个异构体)156　11H-苯并(b)芴216
+C3-萘(5个异构体)170　11H-苯并(a)芴216
+C4-萘(8个异构体)184　C1-芘/荧蒽(3个异构体)216
+二甲基联苯168　苯并(a)蒽●228+
+苊●152±●228±
+二氢苊●154±C1-/苯并(a)蒽242±
+芴●166±C2-/苯并(a)蒽256
+C1-芴(3个异构体)180　苯并(k)荧蒽+苯并(b)荧蒽●252±
+C2-芴(6个异构体)194　苯并(e)芘252-
+菲●178±苯并(a)芘●252++
+蒽●178+252-
+C1-菲(4个异构体)192　间-四联苯306
+C2-菲(11个异构体)206　二苯并(def,mno)276
+C3-菲(多个异构体)220　吲哚(1,2,3-cd)芘●276±
+C4-菲(四甲基菲)234++二苯并(a,h)蒽●276+
+二苯并噻吩184　苯并(g,h,i)●276±
+C1-二苯并噻吩(3个异构体)198　晕苯300
+C2-二苯并噻吩(4个异构体)212　二苯并芘(3 个异构体)302++
+
+　　　　注：*烷基碳数，++强致癌，+致癌，±怀疑具致癌性，－非致癌；●U.S.EPA优先控制污染物
+2　结果与讨论
+2.1　研究区内气溶胶中PAH组成
+　　广州市气溶胶中检出70多种2～7环PAH，包括23种母核PAH，50多种烷基PAH。母核PAH以稠环结构为主，少量联苯类。其中15种母核多环芳烃属U.S.EPA优先控制污染物(见表1中●)，浓度为1.32～228.56 ng/m3，平均为48.65ng/m3。四甲基菲和优控PAH，具强致癌、致癌和可能致癌特性(表1)。化工区和交通区气溶胶中PAH组成较其它功能区复杂，检出了痕量的萘、苊、二氢苊及芴。
+2.2　不同功能区优先控制PAH的分布与季节性变化
+　　广州市1994年秋、夏季各功能区的气溶胶中U.S.EPA优控PAH平均浓度分布有较大的差异(图2)。荔湾工业区最高(120.28 ng/m3)，位于上下九路附近的商业区次之，市内清洁区稍高于交通易阻塞区，化工工业区最低。
+　　广州市各功能区气溶胶中优控PAH浓度的季节性变化也非常明显。秋季气溶胶中优控PAH浓度为27.38～228.56 ng/m3，在各功能区的分布与其秋、夏季平均浓度分布一致。春、夏季优控PAH的浓度为1.32～17.88　ng/m3，较其秋季低一个数量级，其分布与秋、夏季平均浓度分布有较大的区别。春、夏季以交通区最高，工业区次之，化工区较低，其中春季以市内清洁区最低(图2)。
+　　造成各功能区气溶胶中优控PAH浓度分布差异较大的原因主要有3点，污染源分布、气象条件和采样位置。荔湾工业区内有热电厂、印染厂等工厂分布，其中热电厂用煤量很大，是区内主要排污大户，排放大量的PAH。商业区污染源比较复杂，有机动车尾气、星罗棋布的饮食业炉灶污染及区内民用炉灶排污等，另外受采样期处于上风向的钢铁厂排污的影响，所以优控PAH含量较高。交通区污染源排放较单一，且在距地面1.3m处采样，其排放量受季节性影响较小，浓度在13.21～52.17 ng/m3之间。化工区含量较低的原因，可能主要与采样条件有关，采样点位于化工区西边，位于污染区的上风向。因此，化工区的样品不能反映该区中心带的情况，仅反映化工区边缘的郊区气溶胶中PAH的分布。麓湖公园是环境监测站70～80年代选定的清洁区代表点，但90年代以来该区开发很快，由于新建高尔夫球场等工程的影响以及公园内烧烤区的增加，造成该区优控PAH的排放量增大，该区已不能代表清洁区。
+　　广州市全年气温变化较小，不存在冬季取暖期，故秋、冬季与春、夏季燃料用量相差不大。造成秋季比春、夏季优控PAH浓度相差较大的主要原因，可能是气象因素造成的。广州市春、夏季风力较大，特别是夏季常有台风影响，污染物扩散迅速，因此污染物浓度较低。1994年11月～1995年1月的秋、冬季静风期频率高，常常造成逆温层出现，污染物很难扩散，故低地面的污染物浓度聚增。
+
+图2　广州市不同功能区EPA优控PAH分布与季节性变化
+Fig.2　The distribution and seasonal change of PC PAH 
+　　from different function zones of Guangzhou
+2.3　PAH来源判识指标
+　　20多年来，科学家们一直在研究能够反映大气气溶胶中有机质的来源的物质或指标，但是由于许多污染源都排放各种PAH，所以这项研究相当困难。70年代末Lee等〔11〕提出了荧蒽/芘(Fl/P)，认为该比值可以判别污染源来源。当Fl/P为1.4时代表PAH来源于煤的燃烧， 为1时代表来源于木材的燃烧。在随后的研究中认为，当该比值接近于1时，代表PAH直接来源于燃烧源〔12〕。取广州市各功能区气溶胶中Fl/P的平均值，发现荔湾工业区Fl/P为1.50～1.52，交通易阻塞区为1.27，化工区接近于1.2，其它功能区均接近于1。说明荔湾工业区PAH主要来源于煤的燃烧，这与实际污染源调查情况相当一致。广州化工工业区内以重油为燃料，交通区以汽油和柴油为燃料，商业区以汽车尾气和重油为燃料。所以作者认为，该比值接近于1时，可以代表油类的燃烧。
+　　间四联苯/荧蒽(m-Q/Fl)比值能反映污染源来源〔13〕。比值大于5 时，代表有大量多聚体的燃烧，大于10时代表垃圾焚烧来源。广州市不同功能区气溶胶间四联苯/荧蒽比值为0.05～2.42，大多数比值在0.80～1.50之间(图3)。广州市目前仍没有设立垃圾焚烧炉，间四联苯的检出可能与塑料工业比较发达有关〔14〕。
+　　3环、4环和5至6环PAH分布类型也可以反映PAH来源，广州市气溶胶中94 %的样品以4环PAH为主(图3)，5环和6环PAH次之，3环PAH百分含量较少，一般10%左右。 以4环、5环和6环PAH为主时，代表高温燃烧来源〔12〕。可以得出，广州市气溶胶中的PAHs主要来源于高温燃烧产物。
+
+图3　广州市气溶胶中不同环数PAH的分布类型
+Fig.3　Distribution types different rings of PAH
+in aerosols from Guangzhou
+3　结　论
+　　广州市气溶胶中检出70多种多环芳烃，包括23种母核多环芳烃，50多种烷基多环芳烃。其中15种母核多环芳烃属U.S.EPA优先控制污染物，具致癌特性。
+　　广州市秋、冬季受逆温层的影响污染物不易扩散，气溶胶中优控多环芳烃的浓度较高，达27.38～228.56　ng/m3，各功能区气溶胶中优控多环芳烃分布与秋、夏季平均浓度分布一致。春、夏季由于风力较大，优控PAH浓度较低，为1.32～17.88　ng/m3。
+　　由于污染源分布、气象条件及采样风向等因素的影响，使广州市各功能区气溶胶中优控多环芳烃的分布有较明显的差异。秋季有荔湾工业区最高，商业区次之，市内清洁区和交通区高于化工区，化工区最低的分布特征。春、夏季则交通区最高，市内清洁区最低，工业区和商业区基本相当。麓湖公园不能代表市内清洁区。
+　　荧蒽/芘(Fl/P)、间四联苯/荧蒽(m-Q/Fl)及PAH不同环数的分布，是比较有效的来源指标，可以判断煤类、油类、垃圾焚烧高温燃烧来源。
+参考文献
+1　Verschuerren K.Handbook of environmental data on organic chemicals (second edition).1983
+2　Tan Y L, Quanci J F, Borys R D，et al.Atmos.Environ.,1992.26A: 1177～1181
+3　Isidorov V A.Organic chemistry of the Earth′s atmosphere, Springer-Verlap Berlin Heidelberg,1990
+4　Beernert H. J.Chromtogr,1979, 173: 109～118
+5　Simoneit B R T, Crisp P T, Mazurek M A，et al. Environment International, 1991,17: 405～419
+6　Daisey J M, McCaffrey R J,et al. Atmos. Environ., 1981, 15: 1353～1363
+7　周春玉, 叶汝求, 汤国才等.中国环境科学, 1991, 11: 337～342
+8　Takada H，Onda T,et al. Environ. Sci. Technol., 1990, 24: 1179～1186
+9　Rogge W F, Hildemann L M, Mazurek M A,et al. Environ. Sci. Technol., 1991, 25: 1112～1125
+10　成　玉，盛国英，傅家谟等.环境化学, 1996, 15: 360～365
+11　Lee M L, Prado G P, Howard J B,et al. Biomed. Mass Spectrometry, 1977, 4: 182～186
+12　Prahl F G ,Carpenter R. Geochim. Cosmochim. Acta., 1983, 47: 1013～1021
+13　成　玉，傅家谟，盛国英等. 科学通报, 1997，42(7)：728～729
+14　Hawley-Fedder R A,Parsons M L,Karasek F W. J. Chromagr., 1984, 315: 201～210
+作者简介
+成　玉　女，1959年10月生。助理研究员，现为复旦大学博士后。主要从事大气环境等方面的研究工作。参加过多项中国科学院重大基金项目、国家自然科学基金项目的研究工作，主持了中国博士后基金等项目的研究工作。发表论文14篇，参加编著1部
+致谢　感谢广州市环境监测中心站大气室孙大勇副主任、广州市荔湾区环境监测站蔡滇英副站长、黄永强工程师及广州市天河区环境监测站邓桂虹高级工程师、广州化工厂环保科等单位和个人在采样中给予的支持与帮助。
+收稿日期：1997-01-21
+*国家自然科学基金资助项目(49375249)

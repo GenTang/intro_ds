@@ -1,0 +1,43 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.17-20
+
+
+
+
+北京石景山地区大气中有机污染物特征与成因
+曾凡刚　 李红　 王琪　 吴燕红　 
+摘　要：对北京石景山地区大气中有机质浓度、各族组成及其饱和烃、多环芳烃的组成和分布特征进行了分析。大气中共检测出40多种多环芳烃，其中很多属于美国国家环保局(EPA)优先控制污染物，以及具有致癌和怀疑有致癌性的多环芳烃。其主要来源于煤的不完全燃烧，也有相当部分来源于汽车尾气的排放。其中煤比石油所造成的污染更为严重。
+关键词：北京石景山；大气；有机污染物；多环芳烃(PAHs)；优先控制污染物(EPA)
+分类号：X132　文献标识码：A
+文章编号：1001-6929(2001)03-0017-04
+The Characteristics and Origin of the Organic Pollutants in the Air of Beijing Shijingshan District
+ZENG Fan-gang（Department of Biology and Chemistry, Central University of Nationalities, Beijing 100081, China）　
+LI Hong（China University of Geosciences, Beijing 100083, China）　
+WANG Qi（Lanzhou Institut of geology, CAS, Lanzhou 730000, China）　
+WU Yan-hong（Department of Biology and Chemistry, Central University of Nationalities, Beijing 100081, China）　
+
+Abstract：The density of the organic matter, the composition of each group constituent, the composition and distribution characteristics of the saturated hydrocarbons and PAHs in the air-borne dusts in Beijing municipality are analyzed. There are more than 40 kinds of PAHs in the air-borne dusts, most of which are precedence-controlled pollutants set by US EPA. Many PAHs are carcinogenic or are suspected to be carcinogenic. They mainly come from the incomplete combustion of the fossil fuel, such as coal and petroleum, and the plant.The coal can cause more grave pollution than the petroleum during the incomplete combustion.
+Keywords：Shijingshan District of Beijing; air; organic pollutants; PAHs; precedence-controlled pollutants of EPA
+
+基金项目：北京市自然科学基金资助项目(8972007)
+作者简介：曾凡刚(1965-)，男，湖北荆州人，副教授，博士后. 
+作者单位：曾凡刚（中央民族大学生物化学系，北京 100081）　
+　　　　　李红（中国矿业大学，北京 100083）　
+　　　　　王琪（中国科学院兰州地质所，甘肃兰州 730000）　
+　　　　　吴燕红（中央民族大学生物化学系，北京 100081）　
+
+参考文献：
+［1］Pierce R C,Ratz M.Determma of atmospheric isomeric polycyclic aromatic hydrogen by thin-layer chromatography and fluorescence spectrometry analyt \.Chem, 1975,47:1743～1748.
+［2］成玉.大气气溶胶中多环芳烃的定量分析[J].环境化学,1996,15(4)：360～365.
+［3］成玉,陈立民,盛国英,等.广州市气溶胶中多环芳烃分布季节性变化及来源判识指标[J].中国环境科学,1998,18(2)：136.
+［4］成玉,盛国英,傅家漠,等.珠江三角洲气溶胶中间四联苯的检出及其环境意义初探[J].科学通报,1996,42(7)：728～730.
+［5］彭林,沈平.兰州市大气飘尘中有机物浓度的变化及其分布特征[J].深积学报,1996,14(1)：156～161.
+［6］傅家漠,盛国英.环境有机地球化学初探[J].地学前缘,1995,3(1)：129～132.
+［7］Simoneit B R T,Mazurek M A.Organic matter of the tropsphere-Ⅱ.Natural background of biogenic lipid matter in aerosols over the rural western united states \.Atmos Envivon,1982,16(9):2139～2159.
+［8］Simoneit B R T,Cardoso J N.,Robinson N.An assessment of terrestrial higher molecular weight lipid compounds in aerosol particulate matter over the south Atlantic from about 30～70 S\.Chemosphere,1991,23:447～465.
+［9］菲尔普R P.化石燃料生物标志物——应用与谱图[M].北京：科学出版社,1987.11～42.
+［10］唐孝炎,李金龙,粟欣,等.大气环境化学[M].北京：高等教育出版社,1990.197～198.
+
+收稿日期：2000年12月15日
+出版日期：2001年5月30日

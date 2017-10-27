@@ -1,0 +1,111 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+厌氧条件下活性黑(KBR)染料脱色的批量投料研究*
+顾　平　于振生　杨造燕　
+摘要　在厌氧条件下，进行了微生物降解染料活性黑(KBR)的试验研究。试验中研究了氯离子浓度、染料浓度、生物量、特别是投加易降解物对染料降解的影响，并且对厌氧降解该染料的过程进行了分析，着重探讨了易降解物葡萄糖投加量对该染料脱色降解的作用.
+关键词　厌氧处理；染料废水；脱色；氯离子浓度.
+Biodegradation of reactive dye KBR using batch reactor under anaerobic condition
+GU Ping, YU Zhensheng, YANG Zaoyan 
+Department of Environmental Engineering,Tianjin University,Tianjin 300072
+Abstract　Experiments on the biodegradation of reactive dye KBR was carried out using batch reactor under anaerobic condition. The effects of chloride and the dye concentration,quantity of biomass,especially of dosing easily biodegradable materials on the degradation of the dye were studied.The biodegradation pathway of the dye and the function of dosing easily biodegradation materials were also discussed.
+Keywords　anaerobic treatment, dye wastewater, decoloration, chloride concentration.
+　　在厌氧条件下微生物可以将较难降解的大分子有机物，分解转化成较简单的小分子有机物，然后再通过好氧生物处理进一步去除，采用这种治理路线比单纯采用好氧治理方法在脱色效果、去除有机污染能力上均有所提高，能量消耗也低，这一方法在处理印染废水中，已在一定的范围内得到推广和使用［1］，但染料废水比印染废水处理难度大得多，为考察在高盐含量和高难降解染料浓度、高COD、高色度情况下这一方法的有效性，我们选择了一种有代表性的难生物降解染料——活性黑(KBR).研究了厌氧条件下活性黑(KBR)染料的降解，目的是为厌氧膜生物反应器设计提供资料.
+1　实验材料与方法
+1.1　废水水质
+　　本研究所用废水取自天津某染料厂的KBR车间废水.压滤工艺产生的废水水质见表1.
+表1　原废水的水质
+Table 1 The quality of raw wastewater
+CODpH色度(稀释倍数)染料Cl-灰分总固体
+23800 mg/L5.2520000倍4500 mg/L160000?mg/L305.7 g/L360.1 g/L
+
+表2　营养液的配制
+Table 2 Preparation of nutrient solution
+　　组成浓度，mg/L
+C6H12O615000
+CO(NH2)2640
+K2HPO4260
+CaCl2*6H2O120
+MgCl2*6H2O200
+CuSO4*5H2O5
+FeSO4*7H2O20
+1.2　厌氧污泥的培养与驯化
+　　厌氧污泥采自某印染厂污水处理厂.根据表2配制营养液，控制反应器内COD为500 mg/L，按间歇式培养，每日从反应器中取出部分上清液，再补充投加营养液，维持原来COD的水平.一周之后，厌氧污泥量已经明显增加.此后开始驯化，根据实际染料废水中染料与Cl-离子的比例，逐步用染料废水取代葡萄糖，并且逐步增加COD浓度，约5个月后，染料浓度增加到1500 mg/L.此时厌氧污泥对废水的色度去除显著.
+1.3　试验方法
+　　采用经过5个月培养驯化的厌氧污泥，分取定量污泥加入数个500?mL厌氧培养瓶内.根据试验要求，控制各个瓶内厌氧污泥的浓度.试验在恒温摇床内进行，培养温度控制在30℃.每隔一定时间取各瓶内水样，将水样用孔径为0.45?μm的醋酸纤维膜过滤，消除悬浮物的干扰，再进行水样分析.
+1.4　分析方法
+　　所有分析遵照原国家环保局颁布的标准方法进行［2］.
+　　为准确定量，色度测定采用面积法.它是在可见光范围内(380—720 nm)测出溶液的吸光度曲线，用曲线与横轴所包围的面积来表示.吸光度曲线的测定采用754紫外分光光度计.
+
+
+
+图1　氯离子浓度对脱色的影响
+Fig.1 Effect of chloride concentration on the decoloration
+2　试验的结果与分析
+2.1　氯离子含量对厌氧脱色的影响由于该废水含盐量极高，Cl-含量高达160000 mg/L(16%)，故采用稀释方法，试验中Cl-浓度从10000 mg/L逐渐升到80000 mg/L，MLSS浓度为400 mg/L，投加染料浓度为400 mg/L，在不同时间取样分析.图1给出了不同Cl-浓度下色度去除率达到60%所需要的厌氧反应时间.
+　　从图1中可以看出，当Cl-浓度小于70000 mg/L时，厌氧脱色所需的时间与Cl-浓度基本呈线性关系，说明Cl-浓度增加对微生物产生一定的抑制作用，但是不严重.当Cl-浓度超过70000 mg/L以后，厌氧污泥的脱色速率显著降低，反应时间明显延长.试验结果表明，实际应用于Cl-浓度应该控制在小于70000 mg/L.
+2.2　染料浓度对厌氧污泥脱色的影响
+　　试验中MLSS浓度控制在40000 mg/L，不加NaCl,观察染料浓度对厌氧终点脱色率的影响(见表3).当脱色率的变化小于40%时，已经意义不大，因为每次试验达到脱色率不变时，都要数天乃至数十天.
+表3　染料浓度与最终脱色率的关系
+Table 3 Relationship between the dye concentration and decoloration rate
+染料浓度，mg/L9018929543586016602500
+脱色率，%77.074.768.064.456.944.041.1
+
+　　从试验结果看，在较高的浓度时，染料浓度增加虽然不会抑制微生物活性，但难以达到较高的脱色率.
+表4　不同浓度实际废水的脱色试验
+　Table 4 Test on decoloration of real dye wastewater at varicus concentration
+染料浓度，mg/LCl-浓度，mg/L脱色50%的厌氧
+反应时间，d
+450150002
+675225003
+900300006
+11254000010
+13505000013
+18006000023
+2.3　实际废水浓度变化对厌氧微生物脱色率的影响
+　　将所取实际废水稀释成不同的浓度，研究Cl-和染料浓度同时变化对微生物脱色的影响.试验中未投加葡萄糖等营养物质，Cl-浓度、染料浓度及脱色率见表4.
+　　结果表明，在Cl-浓度与染料浓度共同增加、且没有投加易降解物时，对脱色率的影响显著高于单一因素的影响.采用厌氧生物处理工艺时，Cl-浓度不宜超过30000 mg/L，染料浓度不宜超过900 mg/L，要达到特定的出水水质要求时，其染料浓度值还应该更低.
+2.4　投加易降解有机物(葡萄糖)的情况下活性黑KBR染料废水的降解试验
+　　厌氧培养瓶中MLSS浓度为19000 mg/L，原水稀释后等量加入各瓶中，Cl-浓度在15000 mg/L，染料浓度控制在430 mg/L，然后在向各瓶加入不同量的葡萄糖和少量的N、P、Fe、Mg、Ca等微量元素，将培养瓶放入恒温摇床，培养温度为30℃.试验结果如图2、图3和图4.
+
+
+
+图2　投加葡萄糖后厌氧过程中pH值的变化(D为葡萄糖投量)
+1．D＝0 mg/L;2．D＝200 mg/L;3．D＝800 mg/L
+Fig.2 The change in pH value in anaerobic process before and after dosing glucose
+
+
+
+　图3　厌氧反应前后活性黑(KBR)水溶液的吸收曲线
+Fig.3 The absorption curve of reactive dye KBR before and after the anaerobic reaction
+
+
+
+图4　不同葡萄糖投量对脱色的影响(D为葡萄糖投量)
+1．D＝0 mg/L;2．D＝200 mg/L;
+3．D＝800 mg/L
+Fig.4 Effect of glucose dosage on dicoloration
+　　图3为厌氧反应前后紫外及可见光的吸光度曲线，在330 nm和580 nm有两个吸收峰，它们分别是偶氮键和相应助色团产生的［3］，这与染料分子结构中存在偶氮键相一致.从图中可以看出，染料废水经过厌氧反应后原来两处的吸收峰基本消失.构成染料分子主体的苯环和萘环具有相当稳定的结构，在厌氧过程中几乎未受到破坏，图3中厌氧出水吸光度曲线在220 nm附近的吸收峰不但没有降低，反而有所增加，位于这一区域的吸收峰正是大多数芳香族基团的强吸收区［4］，这也说明染料分子中的苯环、萘环没有被分解，或分解过程十分缓慢.
+　　在本试验中，在染料废水中加入易降解的葡萄糖，能极大地促进染料的脱色，这是微生物的共代谢的结果.对脱色效果的影响试验结果表明(见图4)，当葡萄糖投量在200—800 mg/L范围内，脱色率达到50%的时间随葡萄糖投量增加有较大幅度的降低，脱色速率明显加快.我们认为厌氧污泥中的微生物优先分解了易降解的葡萄糖，由此为其降解染料的生色基团-偶氮键和相应的助色团提供了能源［5］，
+
+
+图5　MLSS浓度与脱色率间的关系
+1.MLSS＝5 g/L;2.MLSS＝10 g/L;
+3.MLSS＝40 g/L
+Fig.5 Relationship between MLSS and decoloration rate
+所以该染料由于偶氮键和相应的助色基在330 nm和580 nm的两个吸收峰在厌氧反应之后基本消失(见图3).从图4中可以看出，厌氧污泥中微生物降解葡萄糖提供给微生物降解染料的能量随葡萄糖投量的增加而增加.
+　　在厌氧条件下活性黑KBR染料脱色的共代谢实验说明不能以该染料作为唯一的碳源和能源，投加葡萄糖提供了碳源和能源，从而使脱色率大大增加.
+2.5　微生物量对脱色效果的影响
+　　在培养瓶中分别加入不同量的生物污泥，加入相同量经稀释后的染料废水，水样的COD为2200 mg/L，Cl-浓度为15000 mg/L，染料浓度为430 mg/L.放入恒温摇床内，定时取样测定吸光度曲线，计算脱色率.试验结果如图5所示.试验结果表明应该尽可能提高污泥浓度.
+　*本研究为国家“八五”科技攻关项目资助
+作者单位：天津大学环境工程系，天津　300072
+参考文献
+［1］　Yang Zaoyan et al.Anaerobic-aerobic treatment of a dye wastewater by combination of RBC with activated sludge. Water Science and Technology,1992,26(9-11):2093—2096
+［2］　国家环保局《水和废水监测分析方法》编委会.水和废水监测分析方法(第三版).北京：中国环境科学出版社，1989
+［3］　丁格里菲恩著.候　汾等译.颜色与有机分子结构.北京：化学工业出版社.1985.87
+［4］　天津大学有机化学教研室主编.有机化学.北京：人民教育出版社.1978.467
+［5］　王家玲主编.环境微生物学.北京：高等教育出版社.1988.93—94
+1997-04-14收到原稿　1997-12-19收到修改稿

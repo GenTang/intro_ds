@@ -1,0 +1,112 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+NO，N2气体中电晕放电高能电子密度分布的光谱实验研究*
+王文春　吴　彦
+(大连理工大学静电与特种电源研究所，大连　116024)
+李学初　沈关林
+(中国科学院大连化学物理研究所分子反应动力学国家重点实验室，大连　116023)
+
+摘要　利用目前在等离子体特性诊断方面较为先进实用的发射光谱法，在常温常压下测量了正脉冲电晕放电NO(A2+→X2)发射光谱相对强度沿线-筒式反应器的径向分布以及O2对NO(A2+→X2)发射光谱强度的影响.由此得到了正脉冲电晕放电等离子体中高能电子(≥5.5eV)的电子密度沿线-筒式反应器的径向分布情况.随径向距离增大高能电子密度呈非线性递减，对于不同放电电压这种递减规律相同.高能电子密度随加入氧量按指数规律衰减，对氧的作用作了初步解释.
+关键词　发射光谱；电晕放电；等离子体；烟气脱硫脱硝.
+ELECTRONIC DENSITY DISTRIBUTION PRODUCED IN CORONADISCHARGE OF NO+N2 MIXTURE ALONG THE RADIAL OF LINE-CYLINDER REACTOR
+
+Wang Wenchun Wu Yan
+(Institute of Static Electricity and Special Power Dalian University of Technology,Dalian 116024)
+Li Xuechu Shen Guanlin
+(State Key Laboratory of Molecular Reaction Dynamics,Dalian Institute of Chemical Physical,CAS,Dalian 116023)
+
+ABSTRACT　The diagnosis of plasma produced through positive pulse corina discharge in a line-cylinder reactor by measuring the emission intensity of NO(A2+→X2) in a mixture of N2 and NO along the radial of reactor is presented.The influence of oxygen quantity on the NO(A2＋→X2) emission intensity was investigated.The results show that the electronic density decreased nonlinealy with the increase of radial distance.The decreasing rates were the same for different discharge voltages.The electronic density presents the exponential decreasing with increasing the oxygen quantity in the mixture of NO+N2.
+Keywords　emission spectrum,corona discharge,plasma,deSO2/deNOx.
+
+1　引言
+　　脉冲电晕放电等离子体活化法是80年代发展起来的一种干法烟气脱硫脱硝新技术，颇具发展前途和应用前景.它的基本原理是：利用脉冲电晕放电过程中产生的高能电子(也称活化电子，5—20eV)把烟气中的SO2、NOx、H2O、O2、N2等分子激活、电离甚至裂解，产生强氧化性的活性粒子和自由基，如O3、OH、HO2、N、O等.这些活性物种引发的化学反应首先把气态的SO2和NOx转变为高阶氧化物，然后形成H2SO4和HNO3，在有氨注入的情况下生成硫氨和硝氨等细粒气溶胶.产物由常规方法(ESP或布袋)收集，完成从气相中的分离［1］.显然，O3、OH、HO2、N、O等活性物种的产生与线-筒式反应器内高能电子(5—20eV)的电子密度分布密切相关.通过对电晕放电等离子体中高能电子密度在线-筒式反应器内径向分布的测量，就能使我们了解线-筒式反应器内自由基和O3的产生及分布情况.已有实验结果表明，在脉冲电晕法(包括电子束辐射法)烟气脱硫脱硝中起主要作用的是非平衡等离子体中产生的各种自由基和O3.在线-筒式反应器内哪一位置自由基和O3产生最多，哪一位置化学反应就最快.这样就可以以此为依据对电源及反应器进行优化设计，从而降低能耗，提高脱除率.
+
+2　实验装置
+　　本实验所用的装置分为4部分，即配气系统、脉冲电源、反应器和光谱测量系统(见图1).脉冲电源为纳秒级，能产生前沿陡峭、上升沿为20ns、脉宽200ns左右的高压脉冲.重复频率10—200Hz可调.脉冲电源包括充电回路和放电回路，主要由直流高压电源、脉冲形成电容和旋转火花隙等组成.反应器采用线-筒式电极结构，筒中央为4×4mm的星形电晕线，有效长度为710mm,外筒为内径55mm的不锈钢圆筒.反应器的气体入口及出口均接有玻璃真空阀门，反应器两端的有机玻璃法兰与反应器间由橡胶圈密封.两法兰上分别开设直径为30mm的石英玻璃窗口，在石英玻璃窗口处沿反应器径向共开设4个孔径为3mm的圆孔，每个孔中心距反应器中心轴线距离分别为10、15、20和25mm.为降低噪音，提高信噪比，反应器两端面及导光管内壁均涂成黑色，吸收杂散光以及防止与导光管非平行的光线进入接收系统.为了减小放电对测量系统及其它仪器设备的干扰，反应器和脉冲高压电源均置于双层屏蔽网内，反应器与屏蔽网分别牢固接地.为保证信号积分平均器(BOXCAR，SR265)与放电脉冲信号同步触发，必须将脉冲电源与反应器分别单独接地，信号积分平均器外触发线要接在反应器地端.实验测量光谱范围为200—330nm.光路由He-Ne激光器准直.光信号经由反应器端面上的石英玻璃窗口、导光管(300mm)、会聚透镜(焦距f=170mm)到MODEL ASI-50SG光栅单色仪(光栅1200条/mm、闪耀波长500nm)、光电倍增管(9558QB)，再经由信号积分平均器取样平均，最后由计算机采集处理.9.96%的NO(化学工业部光明研究所)经氮气(99.9%)稀释成1.6×103ppm的混合气充入反应器足够长时间，将反应器完全封闭，接通脉冲高压电源放电.气体总压为1.013×105Pa.
+
+
+图1　脉冲电晕法脱硫脱硝光谱实验装置示意图
+Fig.1 Sketch map showing spectrum experiment setup of
+deSO2/deSOx by pulse corona discharge
+
+3　实验结果与讨论
+3.1　正脉冲电晕放电NO(A2+→X2)发射光谱相对强度的测量
+　　在常温常压下，NO、N2体系中脉冲电晕放电可产生非平衡等离子体，其中离子(NO+，N+2，N+)由于迁移率小，在脉冲电场中来不及加速，可看作是不动的，而迁移率很大的电子在脉冲电场中被加速可使能量达2—20eV［2］.电子与NO、N2分子的弹性碰撞将引起NO、N2分子动能的增加，电子与NO、N2分子的非弹性碰撞将引起NO、N2分子的电离、激发甚至解离.在脉冲电场中，不同能量的电子可使NO、N2分子激发到各个激发态，其中≥5.5eV、6.2eV的高能电子将NO、N2分子分别激发到A2+和A3+u态.NO分子在A2+态的辐射寿命为200ns［3］，N2分子在A3+u态的辐射寿命为13s.
+　　把NO分子从基态(X2)激发到激发态，主要有两种能量传输过程.一种是≥5.5eV的高能电子与基态的NO分子直接碰撞激发，其物理过程可以表示为
+e+NO(X2∏)→NO(A2∑+)+e
+(1)
+NO(A2∑+)→NO(X2∏)+hν
+(2)
+　　另一种是N2(A3+u)与NO(X2)传能碰撞激发，其传能激发速率系数为(10±3)×10-11cm3*mol-1*s-1.物理过程可以表示为［4］
+e+N2(X)→N2(A3∑+u)+e
+(3)
+N2(A3∑+u)+NO(X2∏)→NO(A2∑+)+N2(X)
+(4)
+NO(A2∑+)+N2(X1∑+e)猝灭产物
+(5)
+NO(A2∑+)NO(X2∏)+hν
+(6)
+　　因此，NO(A2+→X2)的辐射光强度I与两种碰撞激发的物理过程有关.实验测得NO(A2+→X2)辐射光强度沿线-筒式反应器径向距离r变化的曲线如图2所示.
+
+
+图2　正脉冲电晕放电NO(A2+→X2)发射光谱强度沿线-筒式反应器径向变化曲线
+Fig.2 The curves showing emission intensity′s change of NO(A2+→X2) produced by positive pulsecorona discharge along line-cylinderreactor radial distance change
+　　在上述电子与NO(X2)的直接碰撞激发和N2(A3+u)与NO(X2)的传能碰撞激发中, 由于NO(A2+)与N2(A3+u)都是由于≥5.5eV的电子碰撞激发，因此，N2(A3+u)对NO(X2)的传能碰撞激发等效于电子对NO的碰撞激发.在脉冲电场中，电子运动速度快，分子运动速度慢，电子质量小，分子质量大，所以在电子与分子相碰把能量传给分子时，分子可看作是不动的.因此，NO(A2+→X2)辐射光强度I与发光处高能电子(≥5.5eV)的电子密度ne是成正比关系.另外，当提高电源电压时，NO(A2+→X2)辐射光强度I随电源电压V的变化呈线性变化关系，如图3所示.利用最小二乘法，得到I随V变化的线性拟合方程I=32.5V-649.3.
+3.2　O2对NO(A2+→X2)发射光谱相对强度的影响
+　　将流量为50mL/min的NO(9.96%)、流量为0.18m3/h的氮气(99.9%)与流量为5mL/min、10mL/min、15mL/min……40mL/min的O2分别经配气系统混合后流入反应器，经足够长时间后.将反应器完全封闭，接通脉冲高压电源放电.实验测量在反应器径向第一孔处，电源电压40kV.实验测得NO(A2+→X2)辐射光强度随不同流量的O2加入而变化的曲线，如图4所示.由图可见，NO辐射光强度随O2的加入而陡然下降，曲线的变化规律相似于一条指数下降曲线.
+　　NO(A2+→X2)辐射光强度随O2的加入而下降的主要原因分析如下：
+　　(1)O2属于电负性气体，它的附着截面(Attaching cross section)较大，是一种高效电子捕获剂［5］.电子的两体和三体附着为［6］
+e+O2→O-2
+(7)
+e+O2+M→O-2+M
+(8)
+　　这里的M是第三体，可以是O2、N2、NO.O2大量的捕获电子而变成负离子，使电场内自由电子的数量大大减少，导致NO、N2被激发的分子数减少，于是NO(A2+→X2)辐射光强度大大减弱.而且O2量增加越多，NO辐射光强度越弱.另外，O2对NO(A2+)发光也有强烈的猝灭作用［7］.
+
+
+图3　在第二孔处(距反应器中心轴线15mm)NO(A2+→X2)发射光
+谱强度随电源电压变化曲线
+Fig.3 The curves showing change ofemission intensity of NO(A2+→X2) for different dischargevoltage at second hole (The distanceto reactor central axis is 15mm)
+
+
+图4　在第一孔处(距反应器中心轴线
+10mm)不同流量的O2与NO、N2混合后NO(A2+→X2)发射光谱强度变化曲线
+Fig.4 The curves showing change ofemission intensity of NO(A2+→X2)
+produced by the mixture of different fluxO2 and NO,N2 at first hole (The distance
+to reactor central axis is 10mm)
+　　(2)O2和电子存在下，引起的化学反应：O2的键能为5.08eV,按照Eliasson和Kogelschatz的研究［8］，在脉冲电场中，高能电子的碰撞导致O2分解
+e+O2→O+O+e
+(9)
+而O与O2发生三体重合反应生成大量的O3，即
+O+O2+M→O3+M
+(10)
+这里的M是第三体，可以是N2、O2、NO或器壁.NO与O2、O发生氧化反应，而与O3发生两体快速氧化反应而生成NO2［9］和O2
+2NO+O2→2NO2(11)
+NO+O+M→NO2+M(12)
+NO+O3→NO2+O2(13)
+　　(3)离子-分子反应破坏NO：O2与N2在脉冲电场中被电离，同时有O2对电子的附着效应
+e+O2→O+2+2e(14)
+e+N2→N+2+2e(15)
+e+O2+M→O-2+M(16)
+N+2与O2发生快速电荷交换，O+2与NO发生电荷交换，而后NO+与O-2中和导致了一部分NO分解［10］
+N+2+O2→N2+O+2(17)
+O+2+NO→O2+NO+(18)
+NO++O-2→N+O+O2(19)
+　　因此，电荷交换过程也使得NO(A2＋→X2)辐射光强度变弱.
+4　结论
+　　(1)靠近电晕线的第一孔辐射光强度最强，表明该处电子碰撞NO、N2的激发几率最高，高能电子(≥5.5eV)的密度最大.靠近筒壁的第四孔辐射光强度最弱，表明该处电子碰撞NO、N2的激发几率最低，高能电子的密度最小.其它两孔的情况介于第一孔与第四孔之间.
+　　(2)同一电压下，辐射光强度I随反应器径向距离r的增大而减弱.把第一孔处7个电压值对应的辐射光强度与第四孔处的7个电压值对应的辐射光强度对比，可以看出，在同一电压下，第一孔与第四孔辐射光强度比值为2∶1.这实际上反映了在同一电压下，第一孔与第四孔高能电子密度的比值为2∶1.
+　　(3)同一孔径处，辐射光强度I随电源电压V升高而增强，由图3可知，两者之间呈线性变化关系.这实际上反映出高能电子密度ne随电源电压V升高而增大的线性变化关系.
+　　(4)不同电源电压下，高能电子密度ne与反应器径向距离r的关系具有相同的变化规律.
+　　(5)O2对NO(A2+→X2)辐射光强度有显著的减弱作用，曲线按e指数规律衰减.
+参考文献
+　1　刘书海等.电晕等离子体活化法脱硫脱硝的研究进展.环境科学进展，1994，2(5)：75
+　2　李 廉等.用脉冲电晕放电方法干脱除烟气中的SO2.环境保护，1994，3：17
+　3　Suchard S N.Spectroscopic Data,Volume 1,Heteronuclar diatomic Molecules,Part A,1975,724—724
+　4　Lawrence G J.State-to-state excitation of NO(A2∑+，V′=0,1,2) by N2　(A3∑+u,V′=0,1,2).Chem Phys,1986,85(6):3371-3372
+　5　杨津基编著.气体放电.北京：科学出版社，1983：113，38
+　6　Lowke J J. Theory of electrical breakdown in air the role of metastable oxygen.J Phys D:Appl Phys.1992,25:202—210
+　7　Hideo Okabe.Photochemistry of Small of Molecules.John Wiley & Sons Inc,1978:173
+　8　Eliasson B,Kogelschatz U.J Phys B:At Mol Phys,1986,19:1241
+　9　Aurela A M,Punkkin R,Bilund A. Process model for nitrogen oxidation in onset Streamers in air.J Phys D:Appl Phys,22,1989,22:650—658
+10　Tokuaga O,Suzuki N. Radiation chemical reactions in Nox and SO2 removals from flue gas. Radiat Phys Chem 1984(24):145—165

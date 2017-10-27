@@ -1,0 +1,67 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URBAN ECOLOGY
+1999年 第12卷 第4期 Vol.12 No.4 1999
+
+
+
+UASB反应器处理COD/SO42－=0.5有机废水试验
+陈　浩，陆正禹
+　　摘要：本文对使用UASB反应器处理COD/SO42－=0.5有机废水(温度为35±1℃)进行了较系统的研究。试验结果表明：(1)UASB反应器可以较好地处理COD/SO42－=0.5的有机废水，COD去除负荷与SO42－去除负荷之比(ΔCOD/ΔSO42－)在1.0左右。当COD和SO42－的进水负荷分别为1.036　g/L/d和2.086　g/L/d时，其去除率可达70%和30%以上；而当COD和SO42－的进水负荷分别为2.489　g/L/d和4.977　g/L/d时，去除率仍可达50%和30%。(2)反应器中的细菌主要是硫酸盐还原菌和发酵性细菌，而产甲烷菌含量很少。(3)反应器中硫化物的抑制浓度为300mg/L，相应的硫化氢浓度为129mg/L。
+　　关键词：有机废水；硫酸盐还原；UASB反应器
+　　中图分类号：X703.1　　文献标识码：A　　文章编号：1002-1264(1999)04-0015-04
+Experimental Study on Treating Synthetic Organic 
+Wastewater with COD/SO42－=0.5 by Using UASB Reator
+CHEN Hao,LU Zheng-yu
+(Environmental Science and Engineering Department,Tsinghua University,Beijing 100084)
+Abstract：A systematic study was conducted on treating the synthetic wastewater where COD/SO42－ is about 0.5 by using UASB reactor with continuous operation.Experimental results showed that:(1)The UASB reactor could effectively treat the synthetic organic wastewater that COD/SO42－ is about 0.5，the ratio of COD removal loading rate to SO42－ removal loading rate(ΔCOD/ΔSO42－) of the waste water was about 1.0； (2) It was showed theoretically that the superior bacteria in the sludge of this UASB reactor were sulfate Reducing Bacteria(SRB) and Fermentative Bacteria(FB) with few of Methane Producing Bacteria(MPB);(3) The sulfide concentration in this UASB reactor was 300mg/L,and the relevant hydrogen sulfide concentration was 129mg/L.
+Key words：sulfate-organic wastewater;　sulfate reduction;　UASB reactor
+　　厌氧生物处理技术作为一种高效节能的废水处理方法，受到人们越来越多的重视。但是，一些轻工业(如味精合成)在生产过程中加入硫酸、亚硫酸或其盐类作为辅助原料，故在其废水中含有较高浓度的硫酸盐或亚硫酸盐，其含量约为COD/SO42－=0.2-1。当废水中含有硫酸盐时，在厌氧条件下硫酸盐还原菌(Sulfate Reducing Bacteria，简称SRB)的生长和活动，会对正常的厌氧消化过程产生很大影响：一方面，硫酸盐还原菌与产甲烷菌(Methane Producing Bacteria，简称MPB)相比，二者具有类似的生长环境要求和基质利用特性，因而它们之间存在基质竞争关系，影响了产甲烷菌的生长和活性；另一方面，硫酸盐还原菌的代谢终产物—硫化氢(H2S)对产甲烷菌具有较强的毒害作用，会导致产甲烷菌活性降低甚至丧失，而且厌氧处理出水中高浓度的硫化物给后续处理增加了负担。因此硫酸盐还原作用对厌氧生物处理的影响及控制技术已成为厌氧消化中的一个重要课题。清华大学环境科学与工程系于1995年开发出一种新型厌氧工艺［1］，其特点是将硫酸盐还原、好氧生物脱硫和产甲烷三相串联，使废水中的硫酸盐首先被硫酸盐还原菌还原为硫化物，然后利用无色硫细菌(Colorless Sulfur Bacteria)在好氧条件下将硫化物氧化为单质硫；废水中有机物先转化为小分子有机物，如氨基酸、脂肪酸等，再被产甲烷菌转化为甲烷，所产生的单质硫和甲烷可回收利用。本试验研究使用三相工艺中的硫酸盐还原相来处理COD∶SO42－=1∶2的自配水的效果。
+1　试验装置、试验用水和测定方法
+1.1　材料
+1.1.1　试验装置
+　　硫酸盐还原相使用一个UASB反应器，放置于35±1℃的恒温箱内。反应器各部分尺寸如表1所示。
+表1　UASA反应器尺寸
+
+项目直径(mm)总高度
+(mm)反应区
+容积(L)沉淀区
+容积(L)反应器总
+容积(L)
+尺寸70(反应区)13203.51.55.0
+　100(沉淀区)
+
+1.1.2　接种污泥
+　　UASB反应器的接种污泥在COD∶SO42－＝4000:8000的高硫酸盐条件下驯化28天，其VSS=27.7　g/L、SS=57.3　g/L、VSS/SS=0.47。反应器内接种浓度为8.3　gVSS/L。
+1.1.3　试验用水
+　　试验用水用葡萄糖和硫酸盐(相同摩尔的Na2SO4和K2SO4)加自来水配制而成。按COD∶N∶P=200∶5∶1分别投加尿素和磷酸二氢钾作为氮源和磷源。反应器出水以Na2CO3或盐酸作为pH调节剂，使出水pH值保持在6.8-7.2之间。
+1.1.4　分析项目及测定方法［2］
+　　COD：标准重铬酸钾法；pH值：pHC-3型酸度计；悬浮固体(SS)和挥发性悬浮固体(VSS)：重量法；硫酸根(SO42－)：烧灼残渣重量法；硫化物：碘量法。其中COD的测定中没有吹脱硫化物。
+1.2　试验方法
+　　先从低浓度自配水(COD/SO42－=500∶1000mg/L)开始运行，每当其COD去除率达到70%以上时，将进水浓度提高一倍。试验结束时进水浓度达到COD=2000mg/L，SO42－=4000mg/L。每天测定进出水的流量(Q)、COD、硫酸盐、硫化物浓度。使出水pH值。
+　　整个动态试验可分为三个阶段：
+　　第一阶段(进水COD/SO42－=500∶1000mg/L)此阶段进水COD=500mg/L，SO42－=1000mg/L，水力负荷q=0.043　m3/m2/h，流量0.17　L/h，停留时间HRT=30　h。COD和SO42－进水负荷分别为0.44　kg/m3/d和0.88　kg/m3/d，COD去除率可达到67%，而硫酸盐去除率只有30%，此时ΔCOD/ΔSO42－=1左右。由于产生的气体主要是CO2和H2S，且因未达到饱和状态而溶于水，因此产气量接近零。这一阶段的硫酸盐去除量为300mg/L，硫化物浓度在50mg/L左右(相应的H2S浓度为16mg/L)。
+　　第二阶段(进水COD/SO42－=1000∶2000mg/L)
+　　此阶段是通过提高进水浓度和流量来提高负荷的。水力负荷q=0.06　m3/m2/h，流量0.23　L/h停留时间HRT=22　h。COD和SO42－的进水负荷分别为1.04　kg/m3/d和2.19　kg/m3/d，COD去除率为69%，SO42－去除率为34%，变化不大，ΔCOD/ΔSO42－也稳定在1左右。产气量仍然接近0，可认为其组成仍为CO2和H2S。由于进水浓度提高，其硫酸盐去除量增加到680mg/L，硫化物浓度增至130mg/L(相应硫化氢浓度为47mg/L)。
+　　第三阶段(进水COD/SO42－=2000∶4000mg/L)
+　　此阶段通过提高浓度来提高负荷。流量和水力负荷基本不变，q=0.067　m3/m2/h，Q=0.26　L/h，停留时间HRT=19.6　h。COD和SO42－的进水负荷分别为2.49　kg/m3/d和4.98　kg/m3/d，但COD去除率却大幅度下降，只有52%，硫酸盐去除率虽提高到35%，但并不稳定。此时的ΔCOD/ΔSO42－约为0.84。产气量仍然接近0，组成也以CO2和H2S为主。本阶段硫酸盐去除量为1400mg/L，硫化物浓度平均为327mg/L(相应硫化氢浓度为235mg/L)，其最高值达到396mg/L。
+　　反应器运行的第80天，取出颗粒污泥测定其VSS=12.9　g/L、SS=24.7　g/L、VSS/SS=0.52。
+2　结果与讨论
+2.1　硫酸盐还原相中细菌的生长情况
+　　整个试验过程中COD去除负荷与SO42－去除负荷的比值(ΔCOD/ΔSO42－)变化情况见图1。
+
+
+图1　ΔCOD/ΔSO42－比值的变化
+　　从图1可以看出废水的ΔCOD/ΔSO42－比值绝大部分保持在1.0左右。此值与理论上硫酸盐还原菌还原1克硫酸盐需要的COD接近(0.678)，说明反应器中硫酸盐还原菌占优势，去除的COD中大部分被硫酸盐还原菌利用了。
+2.2　硫酸盐向硫化物的转化
+　　去除的硫酸盐中一部分被细菌吸收，另一部分被还原为硫化物。生成的硫化物中，一部分是以硫化氢的形式存在于气相中，一部分与进水中的金属离子化合形成沉淀，还有一部分则以H2S、HS－、S2－的形式存在于水中。出水中测得的硫化物含量所指的就是最后这一部分。
+　　出水中硫化物和硫化氢浓度如表2所示。计算表明，当进水负荷COD分别为0.44　kg/m3/d、1.04　kg/m3/d、2.49　kg/m3/d时(相应的硫酸盐负荷分别为0.88　kg/m3/d、2.18　kg/m3/d、4.98　kg/m3/d)，硫酸盐的转化率分别为59.7%、69.2%和97.5%。这些数值说明去除的硫酸盐中只有一小部分被细菌吸收和形成硫化物沉淀，大部分生成可溶性硫化物或以硫化氢的形式存在于气相中，并且进水负荷越高，后一部分所占比重越大。这说明随进水负荷升高，反应器内硫酸盐还原菌的数量在细菌总量中所占比重也在增加。
+　　另外，由于进水中所含的金属浓度不变，各阶段产生的硫化物沉淀基本相同，可知硫酸盐被同化的量随进水负荷的升高而逐渐减少。
+2.3　硫酸盐还原相处理COD/SO42－=0.5自配水的处理效果
+　　整个试验阶段COD和SO42－的去除率与进水负荷的关系从试验得知，当COD和SO42－的进水负荷为1.04　kg/m3/d和2.09　kg/m3/d时，其去除率分别为70%和30%以上；而当COD和SO42－的进水负荷分别为2.49　kg/m3/d和4.98　kg/m3/d时，其去除率分别为50%和30%以上。因此可以认为UASB反应器在硫酸盐存在下仍可以较好地处理废水中的COD。由于反应器中的生物相主要是硫酸盐还原菌，而COD的去除主要是由硫酸盐还原菌完成的，因此，当硫酸盐进水浓度很高时，硫酸盐去除率就不会很高。
+表2　出水中硫化物和硫化氢浓度
+
+运行时间COD进水负荷
+kg/m3/dSO42－进水
+浓度mg/LSO42－
+去除率%硫酸盐去除量
+mg/L出水pH值出水中硫化

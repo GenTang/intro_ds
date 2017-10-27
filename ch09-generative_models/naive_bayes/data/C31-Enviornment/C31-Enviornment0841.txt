@@ -1,0 +1,133 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+贵州梵净山自然保护区大气汞的沉降*
+何锦林　谭　红　赵亚民　姚松林
+XIAO Zifan, Oliver Lindquvist, Jonas Sammer
+摘要　以铜仁汞矿为点源，研究对梵净山汞的辐射、沉降及流通影响.在海拔500 m的梵净山定位测定，应用Moss bag方法，评价梵净山Hg的干湿沉降的累积是115 μg.m-2.a-1，干沉降大约占总沉降的50%，通过测定苔藓生物量和Hg含量估算Hg的总沉降量为85.0 μg.m-2.a-1,Hg的流通量平均为21.0 μg.m-2.a-1，Hg的总沉降占总流通量80%.Hg在梵净山沉降累积随高度变化关系明显，海拔2000 m以下时汞的沉降累积量较大，和苔藓植物指示汞含量变化关系相一致.
+关键词　梵净山；大气汞；沉降.
+Atmosphere Hg deposition in Guizhou Fanjing Mountain
+HE Jinlin,TAN Hong,ZHAO Yamin,YAO Songlin 
+(Guizhou Research Center of Physical Testing and Chemical Analysis,Guiyang 550002)
+XIAO Zifan,Oliver Lindquvist,Jonas Sammer 
+(Department of Inorganic Chemistry,Chalmers University of Technology,S-412 96 Goteborg,Sweden)
+Abstract　Emission,deposition and fluxes of Hg from point a source in Guizhou Fanjing Mountain was studied through fixing measure.The total Hg deposition fluxes has been observed to be 115 μg/(m2*a) using moss bag technique.Dry deposition was corresponded to more than 50% of the total deposition.Total deposition is about 85.0 μg/(m2*a) by measuring moss biology and Hg concentration.Hg fluxes is 21.0 μg/(m2*a) by average,total Hg deposition is corresponded to 80% of total fluxes.Hg deposition accumulation varies with altitude and Hg deposition rate is high at altitude 2000 m,which is consistence with large change of Hg concentration.
+Keywords　Mountain,Hg,deposition.
+　　1　前言
+　　汞为剧毒重金属元素.在常温为液态，其许多化合物是易挥发性的，因而导致了它的气态远程传输和广泛扩散危害.国外在高纬度的北欧森林生态系统对大气汞流通与沉降进行广泛的研究［1］，对中低纬度高海拔地区这一研究仍属空白.梵净山自然保护区位于贵州铜仁地区，铜仁地区是贵州省主要产汞地区，汞产量约占我国50%左右，环境污染严重.大气汞的流通沉降受到国际环境汞研究学者的关注.
+　　梵净山自然保护区是我国南方地带性顶极森林植被(N 27°49′50″—28°1′30″， E 108°45′55″—108°48′30″)，其森林生态系统是我国相对稳定典型地区.总面积约412 km2，年均温度6—17℃，年降雨量1100—2600 mm，相对湿度大于80%，具有我国典型中亚热带季风山地湿润气候特征.梵净山最高峰海拔2570 m，最低475 m，高差悬殊达2000 m左右，土壤类型垂直亦呈明显规律.1983年对梵净山自然保护区背景值调查中，提出表层土壤Hg含量异常.为揭示梵净山土壤汞含量高是受到附近汞污染的影响，本研究以铜仁汞矿为点源，描述汞污染对自然保护区的影响.
+2　实验与方法
+2.1　研究点的基本情况
+
+
+图1　研究点相对位置
+Fig.1 The relative position of studied sites
+图1示意梵净山与各汞矿之间相对位置，梵净山与铜仁汞矿相距67 km,铜仁汞矿海拔480—510 m，矿区面积约20 km2，是一个年产汞和朱砂150 t左右采选联合企业.80年代先后建成日产30 t高炉14座，其高炉技术指标：冶炼每t矿石产生废气1400 m3,排放废气含汞26—40 mg/m3.这些年铜仁汞矿由于汞生产销路和矿石耗尽影响，已基本停止汞开采生产，但汞化工试剂生产和部分土法冶炼汞仍在进行.历年含汞固体废弃物约160万t，露天堆放.
+2.2　苔藓袋(Moss Bag)制作
+　　从清洁区采集大灰藓(Hypnum plumaefoeme wils)，摘取大于6 cm以上的植株，用0.5 mol/L HCl浸泡24 h，然后用蒸馏水冲净，风干.称取3.2 g样品装入网眼1.5 mm×2.0 mm的尼龙袋，悬挂于测定地区，距地面3 m以上，用塑料罩覆盖.Moss所接受的是干沉降累积，暴露于大气中Moss所接受的是总沉降累积.每月更换，3次重复.
+
+
+图2　沿梵净山不同海拔高度土壤和苔藓的采样点
+Fig.2 Sampling locations of soil and moss together with distribution of bryophyte and soil along with the heights of Fanjing Mountain
+2.3　土壤和苔藓样品的采集与分析
+　　为评价汞在梵净山历史性累积高度变化，沿梵净山东南坡方向在7个不同高度采集表土和苔藓，采样点如图2.土壤采样深度为0—5 cm，苔藓为灰藓(Hypnum plumaefoeme wils)，采用密封式消化罐消化处理，土壤用HNO3∶HClO4∶H2SO4(体积比)为7∶5∶3，植物用HNO3在160℃消化.AAS测汞.检出限10 mL溶液0.1 ng*mL-1.
+2.4　大气汞浓度的测定
+　　大气汞用携带式(GARDIS-A)仪测定，检出限0.2 pg.在测定大气汞地点同时采集苔藓植物样品.
+2.5　土壤表面汞的通量
+　　通量箱Chamber是用聚四氟乙烯作内衬，外壳用2 mm厚不锈钢保护，其几何尺寸d=40 cm,h=20 cm.测定前按图3连接好Chamber与GARDIS-A(AAS)测定仪，为保证测定在流动下进行，控制流速1—1.8 L.min-1.测定开始前，另外两个进口接上GOLD TRAP(含金粒的石英管)，以3 L.min-1流速通过Chamber,流程的空白应小于5 ng.m-3，并同时测定其大气浓度，然后打开底盖，测定汞的流动，最后盖上底盖，测定Chamber的空白，并重复3次.其Hg流通量计算为：
+Δ=Vc/A.([Hg]out-[Hg]in-[Hg]black)
+式中：Δ是汞的流通量(ng.m-2.h-1);Vc是通过chamber的流速(m3.h-1);A是chamber的表面积(m2);[Hg]in是进入chamber的汞浓度(ng.m-3)；[Hg]out是出chamber的汞浓度(ng*m-3);［Hg］black是flux chamber所产生空白值，为前后两次所测定空白平均值.
+
+
+图3　Flux Chamber测定的流程图
+Fig.3 Flow diagram of the flux chamber
+3　结果与讨论
+3.1　土壤汞的流通量
+　　对梵净山海拔500 m阔叶林下土壤、铜仁汞矿附近的耕作土上的测定值与瑞典南部针叶林下土壤测定值进行比较.其结果如表1.
+表1　土壤汞流通量测定结果
+Table 1 The measured Hg fluxes in soil
+采样时间测定地点大气温度，℃Hg流通量，
+ng.m-2.h-1大气汞浓度，
+ng.m-3
+1996.3铜仁汞矿5—7360±220(n=6)1060±100(n=16)
+1996.3梵净山6—82.1±3.0(n=4)3.7±0.6(n=21)
+1996.8铜仁汞矿32—33210±95(n=7)120±60(n=25)
+1996.8梵净山27—292.7±2.0(n=6)4.0±0.5(n=12)
+1995.3瑞典100.95±0.40(n=9)2.6±0.2(n=12)
+1995.3瑞典<3-0.3±0.4(n=7)2.4±0.2(n=15)
+　　从表1可知，冬季梵净山土壤汞流通量为2.1 ng.m-2.h-1，夏季为2.7 ng.m-2.h-1，显然比瑞典南部针叶林下土壤Hg流通量大得多.这是由于受到铜仁汞矿土壤Hg高流通量(210—369 ng.m-2.h-1)的影响所致.
+3.2　梵净山汞的累积
+　　从不同海拔采集土壤、苔藓分析汞的结果如表2，反映了汞在不同海拔高度的变化.
+表2　梵净山不同海拔土壤和苔藓中Hg的含量(μg.g-1)
+Table 1 Hg concentraction in moss and soil at different altitude
+　海拔，m
+50080010001500190021002300
+土壤0.100.160.190.220.150.210.09
+苔藓0.020.060.100.170.100.060.02
+　　由于梵净山地处中亚热带，这种条件下发育土壤呈酸性(pH=3.6—5.5)，决定了微量元素在成土过程中的一般迁移方向是淋失［4］，造成微量元素累积量沿剖面向下应逐渐增高，这一特性在梵净山8种微量元素中有6种符合.汞表现为表层高于底层，梵净山汞土壤背景值结果见表3，各类型土壤垂直谱带与海拔高度见图2.这种现象表明由于大气Hg沉降所致.梵净山土壤表层汞的浓度分布为0.02—0.23 μg.g-1，平均含量为0.160±0.006 μg.g-1(n=10),在海拔1500 m时达到最大0.23 μg.g-1，土壤中汞含量随采样高度变化，山地黄红壤与山顶高山草甸土汞含量较低.
+表3　不同土壤类型Hg含量背景值*(μg.g-1)
+Table 3 Hg background in different type of soil
+海拔，m土壤类型剖面深度，cm
+0—1010—2020—3030—4040—5050—60
+2000—2300草甸土0.120.0970.0920.088--
+1500—2000黄棕壤0.220.330.300.310.250.25
+500—1500黄　壤0.260.220.200.190.0860.024
+500以下黄红壤0.0940.0880.0780.0610.0560.057
+　　* 数据取自梵净山科学考察集(周精忠，杨黔生.梵净山的自然土壤8种微量元素环境背景值.贵州省环保局.1983.255—264)
+
+
+图4　大气汞总沉降量随海拔高度的变化
+Fig.4 Change of total deposition with height
+3.3　汞的沉降通量测定与计算
+　　汞的湿沉降常常是测定雨水中的汞含量和知道年降雨来计算的，但这种方法较复杂，目前，国际上用Moss调查重金属污染是一种可比对方法.苔藓中金属含量可反映出大气中金属沉降，沉降通量的计算为：
+沉降通量(μg.m-2.a-1)=A.C/α.E
+A为生物生长因子，在梵净山地区约为100—150 g.m-2.a-1;α为采集时整个计算面积(m2)新芽占植株有效比例(0—100%)，E是新芽占整个植株的有效比例(0—100%).
+　　我们按不同海拔采集苔藓，调查结果如图4.Hg沉降通量与海拔高度明显相关，海拔(500—1000 m)Hg累积沉降70.85—80.70 μg.m-2.a-1；海拔(1500—1900 m)，76.65—51.5 μg.m-2.a-1;海拔(2100—2300 m),10.1—3.6 μg.m-2.a-1.在海拔2000 m以下时沉降累积量较大.
+3.4　大气汞的浓度测定
+　　汞在大气中的传输和扩散与汞源有关.为观测大气汞浓度的变化梯度与距离汞源关系，了解汞源散布的强度及范围，在同一天中对图1中9个样点连续采样，测定大气汞浓度变化，结果如图5.可以看出，距汞源20 km已明显降低，距汞源67 km的梵净山已降到1.8—5.1 ng.m-3，同时按图1位置附近采集苔藓样品结果如表4.含汞量随距离的增加而降低，与大气汞测定变化趋势一致.
+
+
+图5　大气汞浓度随距离的变化
+　Fig.5 Change of air Hg concentration with distance
+表4　苔藓汞含量的测定结果
+Table 4 The measure results of Moss Hg
+离汞矿距离，km310152030
+Hg含量，mg*kg-116.607.694.432.550.85
+　　大气汞分析结果表明：本地区明显高于瑞典南部背景值［5］2.6 ng.m-3(n=124)；全球背景值北大西洋为2.25 ng.m-3(n=12)［6］；南大西洋为1.5 ng.m-3(n=16)［7］.当然，汞在大气中的传输还与温度、湿度、光照强度、气象条件、距地面高度不同有关.目前人们通常认为大部分Hg2+离子态汞沉降到100 km以内，而沉降的汞有5%以元素汞的形式再辐射，50%将进一步的迁移，沉降到1000—2000 km，其余的全球性分布.但从所得以上结果可看出是遵循一般分布模式的.
+3.5　Moss Bag测定汞的干湿沉降结果
+　　用Moss Bag测定Hg的大气干湿沉降累积结果如表5.在矿区总沉降累积3800±600 μg.m-2.a-1(n=6).而距汞源67 km梵净山自然保护区Hg的总沉降累积115 μg.m-2.a-1,同时表明与降水量无关的污染物从大气向地面做转移过程的干沉降占总沉降的70%，说明同湿沉降相比，虽然没有那么集中但因作用时间长其总达到效果也与湿沉降相当.这一结果很接近苔藓进行大面积调查结果(85.0 μg.m-2.a-1).
+表5　Moss Bag测定结果(μg.m-2.mon-1)
+Table 5 The results measured by Moss Bag
+日期地点总沉降干沉降干/总
+1996-03铜仁汞矿233.689.60.38
+1996-04374.4120.20.32
+1996-05308.3141.90.46
+1996-04梵净山9.64.80.50
+1996-059.67.50.78
+3.6　梵净山大气汞流通量与世界环境背景值比较
+　　由于Hg大气循环的复杂性，在世界范围内存在两种类型大气汞的循环，全球性和地区性的循环［5］.表6反映贵州梵净山与贵州铜仁汞矿附近土壤Hg流通量和大气沉降与世界背景值比较.由表6可知梵净山自然保护区412 km2Hg的流通量达到8.65 kg.a-1.Hg的沉降累积量43.38 kg.a-1，流通量占总沉降量20%.铜仁汞矿20 km2 Hg的流通量达到49.8kg.a-1，沉降量76 kg.a-1，流通量占总沉降量70%.从全球来看，来自陆地Hg的流通量为1 g.km-2.a-1［1］，来自海洋Hg的流通量为6.5 g.km-2.a-1［1］.通过比较这些数据，说明汞矿是强辐射源.过去的研究也表明：在污染地区，大气中由于元素汞的氧化增加汞的沉降速率及流通量，梵净山土壤背景值Hg含量较高，是来自通过大气流通所产生Hg的迁移与沉降所致.
+表6　梵净山大气汞流通量与世界环境背景比较(103.kg.a-1)
+Table 6 Comparision in Hg fluxes in fanjing mountain with background in the world
+地区全球海洋欧洲加拿大美国瑞典梵净山*铜仁汞矿**
+流通量7500230011105067090.00860.050
+干沉降5000170040015030070.0230.038
+湿沉降25002001001005050.0230.038
+总沉降75001900500250350120.0460.076
+，%0-21-122+80-90+25+81+34
+　　* 以412 km2计算　** 以20 km2计算* 
+国家自然科学基金资助(编号 29667001)
+国家自然科学基金国际合作项目资助(编号 2951013502)
+作者单位：贵州省理化测试中心，贵阳　550002
+参考文献
+　[1]　Lindqvist O.Mercury in the swedish environment.Kluwer Academic Publishers.1991.1—253
+　[2]　Temple P J et al.Moss bag as monitor of atmospheric deposition.Journal of the air pollutiion control association,1981,31(6):668—670
+　[3]　Xiao Z et al.Vertical fhixes of volatile mercury over forest soil and lake surfaces in Sweden.Tellus,1993,24A:67—279
+　[4] He J,Tan H.Effect of wet settlement on mercury in alpine soil in mercury mining area.Pedosphere,1995(4):379—381
+　[5]　Lindqvist O et al.Mercury in the Sweden Environment-Recent Research on cause,consequences and corrective methods.Water,Air and Soil Pollut,1991,55:1—261
+　[6] Iverfeldt A et al.,Long-term change in concentration and deposition of atmospheric mercury over Scandinavia.Water,Air and Soil Pollut.1995,80:227—233
+　[7] Slemr F, Langer E.Increase in global atmospheric concentrations of mercury inferred from measurements over the Atlantic Ocean.Nature,1992,355:434—437
+　[8] 谭　红等.用Moss Bag测定汞矿附近元素汞的干湿沉降.环境科学，1997，18(6)：71—72
+1997-05-29收到原稿　1998-04-13收到修改稿

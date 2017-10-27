@@ -1,0 +1,60 @@
+计算机应用研究
+APPLICATION RESERCH OF COMPUTERS
+2000  Vol.17　No.1　P.40-41
+
+
+
+
+Jini技术与分布对象计算
+彭路　胡越明
+摘 要 Jini技术是由Sun Microsystem提出的建立在JavaBean/RMI机制上的一种应用技术。它主要用于将目前广泛使用的各种电子设备如Personal Digital Assistant(PDA)、数码相机、蜂窝电话、电视机等连接成一个使用方便、即插即用并且动态的网络，以便更好地实现资源共享，并讨论了Jini技术的体系结构、连接技术及其与Microsoft Universal Plug & Play的比较。
+关键词 Jini技术 RMI 分布对象计算
+1　背景
+　　随着各种电子设备如Personal Digital Assistant (PDA)、数码相机、蜂窝电话、电视机等的广泛使用，建立一个使用方便、即插即用并且动态的网络，以便更好地实现资源共享便成为应用的需要。Jini技术正是为了实现这种需要而提出的一种基于RMI机制的技术。一个Jini系统就是一个分布式系统，Jini网络系统中用户可以方便地找到计算资源，该资源可以是由软件、硬件或者两者结合完成。一个Jini网络系统包括：
+　　。一个为分布式系统中提供共同服务基础设施的部件集合。
+　　。一个支持产生可靠的分布式服务的编程模型。
+　　。一系列组成Jini系统的服务，这些服务能被其他成员所使用，这正是Jini技术的关键所在，正是这点才体现了分布对象计算的特点。
+2　Jini技术的体系结构
+　　Jini技术作为一种基于Java的应用技术，其体系结构如图1所示。
+
+图1　Jini技术体系结构
+　　服务(Services)是Jini技术最关键的概念。一个服务是指一种可以被一个人、一个程序或者其它服务所使用的实体。一个服务代表一种可以被利用的计算资源。一个服务可以是一个计算程序、一种存储资源或者一个通信频道等等。服务作为一个计算资源，可以在网络上移动，具有动态性。它可以被远程客户应用，以方法调用的形式访问，客户无需知道他所调用的服务处在网络中的具体位置。
+3　Jini系统的连接协议
+　　对每个使用Jini技术的设备来说，都假定其具有一定的存储和处理功能，对那些不具备这两种功能的设备来说，可以将其连接到Jini代理(Proxy)上，这些代理能够帮助它们实现存储和处理功能。
+　　一个Jini网络中，两台使用Jini技术的设备连接在不同层次采用不同协议，具体情况如图2。
+
+图2　Jini网络各层连接协议
+　　。服务协议(Services protocol)是用Java编程语言所写的一系列服务接口，例如打印功能接口等，应用层之间调用服务就可以直接使用这些协议。
+　　。桥协议(Bridge protocol)当一个设备需要调用本网络之外的服务时，需使用桥协议调用外部设备。
+　　。Jini层所使用的Discovery和Lookup协议是整个Jini连接技术的核心，本文将在下一节重点讨论。
+　　。Java技术层采用Remote Method Invocation(RMI)方式调用远程对象服务。因此，网络层采用何种协议以及被调用服务运行在何种操作系统上对用户来说可以透明。
+　　。网络协议(Network protocol)可以采用TCP/IP、IPX、IrDA(对红外线)等各种协议。
+4　Jini连接协议桪iscovery和Lookup协议
+　　Jini技术连接协议的核心是Discovery、Join、Lookup三个协议。Discovery/Join协议在把一个设备插入网络时使用，其中，当一个服务需要寻找一个Lookup服务将自己注册时使用Discovery协议，而当它找到以后，需要加入时采用Join协议。当用户需要根据服务协议接口查找和调用服务时采用Lookup协议。从一个提供服务的设备加入网络到其被使用的过程就是以下四个阶段。
+　　(1)Discovery
+　　服务提供者寻求一个Lookup服务的过程就是一个Discovery过程。
+
+图3　Discovery
+　　(2)Join
+　　Discovery过程找到Lookup服务之后，将自己的服务对象连同服务属性加入Lookup服务之中，这就是Join过程。
+
+图4　Join
+　　(3)Lookup
+　　在服务注册结束之后，其他用户根据他所知道的服务接口或者服务属性(用Java语言描写)要求使用这些服务，Lookup服务则根据其要求，将服务对象拷贝给用户，以便用户能在下一步调用这些服务。
+
+图5　Lookup
+　　(4)服务调用
+　　用户可以根据服务对象接口直接与服务提供者交涉，完成服务调用。
+
+图6　服务调用
+5　Jini技术与Microsoft Universal Plug & Play方案的比较
+　　从图1可以看出，Jini技术不是一种操作系统，它只是一种基于Java的应用技术。Microsoft Universal Plug & Play则主要以运行在各种家电设备上的操作系统Windows CE为核心。Jini技术在各种设备上的使用则不局限于某种操作系统，它的安装则不需要各种驱动程序。只要各种电子设备厂商支持它，将其固化在设备中，则可以方便地使用。
+6　结束语
+　　Network Anywhere的要求已经被列入许多公司和研究机构的研究范围，Jini技术作为其中一种技术，引起广泛的关注。Jini技术本身还需要不断地修改，并且为广大电子设备厂商所支持，才能有广阔的前景。
+彭路（上海交通大学计算机科学与工程系 上海 200030）
+胡越明（上海交通大学计算机科学与工程系 上海 200030）
+参考文献
+1，Sun microsystem, Jini Technology Architectural Overview, Jan l999, http://www.sun.com/jini
+2，Sun microsystem, Jini Connection Technology Executive Overview, Jan 1999, http://www.sun.com/jini
+3，Sun microsystem, Jini Technology Frequently Asked Questions, Jan 1999, http://www.sun.com/jini
+收稿日期：1999年6月25日

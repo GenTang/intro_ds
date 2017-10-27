@@ -1,0 +1,85 @@
+计算机工程
+COMPUTER ENGINEERING 
+1999年 第25卷 第5期 Vol.25 No.5 1999
+
+
+
+利用IIS发布动态信息的一种方法
+李强 赵霞 许晓鸣
+摘要 介绍如何在MSNTServer环境下,通过Internet database Connector实现Web服务器同数据库服务器联接,从而实现通过Web动态发布数据库内容的目的.
+关键词 Internet 信息服务器 全球网 HTMLInternet数据库连接器
+A Way to Publish Dynamic Information with IIS
+Li Qiang Zhao Xia XU Xiaoming
+(Autonation Department of Shanghai Jiaotong University Shanghai 200030)
+[Abstract] This article is aimed at introducing a way to establish dynamic link between Web server and databasse server through Internet database connector on MS NT SServer,and realize the goal of dynamic publishing for datqa stored in databases through Web.
+[Key Words] IIS Web;HTML;IDC
+　　Internet技术的成熟与飞速发展，带动了全球信息产业的革命。而今天电子商务等基于Web的应用的实现，其重要的一环就是要通过Web服务器接收用户的输入，并实时执行用户的输入，然后，返回执行后的结果，也就是给用户提供一个交互平台，使用户看到自己感兴趣的内容。这时在Web客户浏览器上看到的不再是静态页面，而是根据用户提交的条件而生成的动态页面。
+　　本文正是在此背景下，介绍如何在MS NT Server4.0上开发动态Web服务，达到通过网络，在Web上实现对数据库服务器的数据查询、插入、修改、删除等功能。
+1 IIS管理
+　　IIS(Internet Information Server)是集成于Windows NT的一组Web Server软件。主要包括以下组件：
+　　(1)Internet服务：WWW、FTP和Gopher；
+　　(2)Internet服务管理器：管理Internet服务的工具；
+　　(3)Internet数据库连接器：向数据库发送SQL语句的组件；
+　　(4)密钥管理器：安装安全套接字层(SLL)密钥的工具。
+　　ISS可以很好地集成到现有的环境中。IIS集成了Windows NT的安全性和网络特性。它使用服务器上的有效用户帐号，并要求帐号具有本机登录的权限。IIS集成于Windows NT操作系统中，当用户安装Windows NT Server时，即可选择安装IIS，若当时没有安装也没关系，用户可以找来IIS独立安装。成功安装IIS后，用户即可使用Internet服务管理器对IIS进行配置和管理。步骤如下：
+　　(1)在Internet服务管理器中选择用户需要于其上发布Web的服务器的Internet服务名(WWW)，查看其属性。
+　　(2)单击属性页顶部的各个标签以配置相应的属性，包括Service属性页、Directories属性页、Logging属性页和Advanced属性页。其中Directories在属性页中可以配置要发布的Web内容。IIS将NT Server系统目录下的/InetPub/WWWroot作为WWW服务的缺省主目录，用户可以根据需要增加子目录，这些目录在逻辑上存放在主目录内，叫作“虚拟目录”。用户可以将其要发布的内容以子目录的形式
+　　发布。本例中，我们将储存发布内容的目录作为主目录的子目录发布。
+　　配置好了Internet服务管理器，然后对ODBC进行配置，登记好要连接的数据源。本例的数据库是在PowerBuilder5.0下的本地数据库personnel，其中有一张员工信息表employee，表中字段定义为：姓名(Name)、姓别(Sex)、年龄(Age)、部门(Department)等。在ODBC驱动器管理器中我们把它登记为系统数据源personnel(注意：IDC只与系统数据源一起工作)。这样就完成了对Web Server端的主要配置。NT Server中的IIS提供了一种方法：它由Internet数据库连接器(IDC)通过ODBC接口连接数据库，并执行由Internet数据库连接器文件(.idc)加入用户提交的参数而生成的标准SQL语句，然后通过HTML扩展名文件(.htx)返回结果。
+2  IDC作用原理
+　　IDC(Internet Database Connector)是Microsoft Infor-mation Server for NT和Microsoft Personal Web Server for Win95中内含的数据库接口。它允许用户采用标准SQL语句对Web服务器上连接的任何开放数据库进行操作。IDC使用两种文件，即Interent数据库连接器文件(.idc)和HTML扩展名文件(.htx)来控制如何访问数据库和如何构造输出HTML文档。其中Interent数据库连接器文件包含连接适当ODBC数据源和执行SQL语句所必需的信息。Internet数据库连接器文件还包含HTML扩展文件的名称和位置。HTML扩展文件是实际HTML文档的模板，HTML文档用IDC将数据库信息并入其中之后返回Web浏览器。
+　　我们开发的环境是Windows NT Server4.0，Web Server是IIS2.0。图书馆是客户浏览器访问服务器并得到结果的流程。
+　　(1)客户端Web浏览器通过HTTP协议向Web服务器(IIS)提交已填写好的从服务器上得到FORM表单；
+　　(2)IIS调用Httpodbc.dll，并将相应(.idc)文件名及用户填写的参数传给Httpodbc.dll；
+　　(3)Httpodbc.dll调用相应(.idc)文件并由(.idc)文件根据用户填写的参数生成标准SQL语句；
+　　(4)Httpodbc.dll将(.idc)文件中指定的数据源和标准SQL语句交由ODBC接口连接相应的数据库并执行该标准SQL语句；
+　　(5)ODBC接口将结果集回调给Httpodbc.dll；
+　　(6)Httpodbc.dll将结果集插入对应的HTML扩展名文件(.htx)传给IIS；
+　　(7)Httpodbc.dll将已插入结果集的HTML扩展名文件(.htx)传给IIS；
+　　(8)IIS将该HTML文件通过HTTP协议交给客户端Web浏览器。
+3  开发过程
+3.1 表单的制作
+　　下面就是存储于Web服务器端通过虚拟目录方式发布的表单。客户Web浏览器首先从Web服务器取得此表单。
+　　<html><head>
+　　<title>查询员工</title>
+　　</head>
+　　<body>
+　　<h2 align="center">查询条件</h2>
+　　<form method="post"action="query.idc">
+　　<div align="center"><center><p>Sex:<input name="sex"value size="20"></p>
+　　</center></idv><hr>
+　　<div align="center"><center><p><input type="submit"value="submit"align="center"></p>
+　　</center></div>
+　　</form></body></html>
+3.2 Internet数据库连接器文件(.idc)的制作
+　　客户填写好的表单传至服务器端，表单中指定的(.idc)文件为query.idc。IIS加载Httpodbc.dll。通过它完成客户填写信息与Internet数据库连接器文件(query.idc)的合成。Internet数据库连接器文件(.idc)含有几个类似field:value格式的项：Datasource对应数据源项，Username对应用户名项，Template对应相应的模板文件，SQL Statement为与用户填写的表单参数合成的标准SQL语句。
+　　Datasource:personnel
+　　Username:dba
+　　Password:sql
+　　Template:query.htx
+　　SQL Statement:
+　　+SELECT Name,Age from employee where Sex='%'sex%'
+3.3 HTML扩展名文件(,htx)r的制作
+　　<HTML><HEAD><TITLE>查询结果</TITLE></HEAD><center>
+　　<%ifidc.sex eq"male"%>
+　　<h2>男员工查询结果</h2>
+　　<%else%>
+　　<center><caption>查询<%idc.sex%>员工查询结果</caption>
+　　<%endif%>
+　　<TR><TABLE><tr><td></td><td><p>
+　　<table border>
+　　<TR><TH><B>Name</B></TH><TH><B>Age</B></TH></TR>
+　　<%begindetail%>
+　　<TR><TD><%Name%></TD><TD><%Age></TD></TR>
+　　<%enddetail%>
+　　<P></TABLE></center><P></font></td></tr></table>
+　　</BODY></HTML>
+　　以上是查询部分的实现，只要按照上述开发步骤，编写其他对应(.idc)和(.htx)文件就可以实现对数据的插入、删除、修改等功能。
+4 结论
+　　较之于CGI、Java等其他动态发布方法，用本文介绍的在IIS平台上利用Internet Database Connector接口来实现具有方便、直观和易于实现的特点。但是，它是集成在MS IIS或MS Personel Web Server之上，因而应用范围比CGI和Java方法窄。
+作者简介:李强,男,23岁,研究生,主要研究数据库,网络信息技术及数据库在Intranet中开发.
+作者单位:上海交通大学自动化系 上海200030
+参考文献
+1 KRIS JAMSA著。王玉琳译。Web程序设计教程.北京：电子工业出版社，1997：250-272
+2 高毅如.动态发布技术的探讨.微电脑世界，1998(9)：37-39
+收稿日期:1998-06-30

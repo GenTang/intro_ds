@@ -1,0 +1,104 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第1期 No.1 Vol.18 1998
+科技期刊
+
+污水厂污泥低温热化学转化过程机理研究*
+何品晶　邵立明　陈正夫　顾国维　(污染控制与资源化研究国家重点实验室，同济大学环境工程学院，上海200092)
+文　摘　污水厂污泥低温热化学转化是可望达到能量平衡的污泥处理新技术。借助污泥与其转化产物的元素分析、污泥的热重分析和衍生油的GC/MS分析等手段，对该转化反应过程的元素转移、转化特征温度和反应机理进行了研究。认为过程的主要反应是脂肪族化合物的蒸发、蛋白质肽键断裂和基团转移反应，参与反应的主要成份是脂肪族化合物和蛋白质，其中前者参与反应的温度低于后者，而糖类化合物参与反应的温度最高。
+关键词　 污泥制油　低温热化学转化　机理研究
+Study on the mechanism of a low-temperature thermo-chemical conversion process for sewage sludge .He Pinjing,Shao Liming,Chen Zhengfu，Gu Guowei(National Laboratory of Pollution Control and Reclamation,School of Environmental Engineering,Tongji University,Shanghai 200092).China Environmental Science,1998,18(1):39～42
+Abstract—The low-temperature thermo-chemical conversion process for sewage sludge ,through which the energy can be expected to be recovered,is a new developing technology. With the help of elemental composition analysis for sewage sludge and transfered products , thermal gravimetric analysis(TGA)for sewage sludge and GC/MS analysis for derived oil, it is discussed about the elements transfer,specified transfer temperature and reaction mechanism about the transfer reaction of the conversion process. The conclusion is that main conversion reactions are the evaporation of aliphatic compounds , the fission of protein peptide bond and the group transfer reaction,and that the main compositions involved in the conversion reaction are aliphatic compounds and protein,with higher reaction temperature for the former,lower for the latter and the highest for the saccharide compounds.
+Key words:oil from sludge　low-temperature thermo-chemical conversion　mechanism study
+　　以低温热化学转化过程将有机废弃物（包括污水厂污泥）转化为燃料的设想是Shibata〔1〕提出的。近年来，主要由于Bayer〔2〕、Campbell〔3〕和Bridle〔4〕等人的工作，污水厂污泥低温热化学转化工艺逐步由实验室走向实用过程。在国内，作者以上海城市污水厂污泥为背景进行了工艺实验与过程可行性分析〔5，6〕，认为该工艺能达到能量自持，并有一定的经济可行性。为进一步深化对过程的理解，并为工艺放大提供了理论依据，对该工艺过程进行了一些机理性研究。
+1　实验方法
+1.1实验路线
+　　研究的实验路线见图1。
+
+图1　实验技术路线
+Fig.1　Schematic diagram of the experimental program
+1.2　实验方法与设备
+　　模型实验的流程与设备可参见文献〔5〕；萃取采用索氏抽提方法，溶剂为CCl4;TGA分析采用DuPont TA2000热分析系统；元素分析参照GB476-79和GB214-83煤的工业和元素分析方法；GC/MS分析采用HP公司的P5890GC/5971aMSD设备。
+2　实验结果与讨论
+2.1　热化学转化过程中有机物元素的转移
+　　污泥、热化学转化产物油和炭焦的元素分析结果及有机物含量见表1。
+表1　污泥与转化产物的元素分析结果
+Table 1　Analytical results of elements in sewage sludge and its converted products
+
+物料反应温度
+（℃）有机质含量d
+(%)元素组成daf(%)摩尔比
+CHNSOC/H（C+H）/O
+污泥-53.7454.19.55.51.429.50.477.58
+油I30010068.410.05.60.915.10.5716.64
+炭焦I30038.4248.85.67.90.737.00.734.18
+油II42010071.410.32.00.415.90.5816.35
+炭焦II42021.4353.15.94.92.733.40.754.95
+
+　　根据表1的数据和已发表的污泥热化学转化的产物分布数据〔6〕，可以发现污泥热化学转化过程中有机物元素的转移规律（见图2〗）。
+
+图2　污泥热化学转化过程的元素转移
+Fig.2　Element transfer of thermo-chemical conversion
+process for sewage sludge
+　　从上述的测定结果可以发现，污泥中的主要有机元素是C、H和O，而N和S的含量较低。在热化学反应中 ，最敏感的元素是氢，在300℃时，已有70%以上从固相中转化；其次是碳、氧和氮；而硫的转化率与反应温度成反比，这可能是由于其总含量低而受测定误差及其它偶然因素影响较大所致。 总体来看，随着反应温度的升高各有机元素的转化率均会随之上升，但上升的规律各不相同。
+　　由于污泥中的氮元素主要存在于蛋白质类化合物中，它在300℃时的低转化率，和在420℃时的高转化率，预示蛋白质类化合物的热转化反应主要发生在这一温度段；另一方面，氧元素的转化率也有相似的规律性，这可能是由于污泥中含氧元素丰度最高的糖类化合物也在此温度段发生转化反应，但420℃时的产物炭焦中氧含量仍较高，可能是由于纤维素、木质素等含氧元素较多的大分子多糖其主干仍没有发生转化。
+　　由此推测，在300℃以下发生的热化学转化反应主要是污泥中的脂肪族化合物（主要含碳、氢元素及少量氧）的转化，由于此类化合物沸点较低，所以其转化形式主要是以蒸发方式向液、气相转移。同时蛋白质和糖类化合物则通过基团转移、短支链断裂等方式，产生一些较小的分子与游离基转化到液、气相；300～450℃区间内，蛋白质的转化反应加强，主要的结构键（肽键）开始发生反应，并伴随缩聚、基团游离等一系列反应，大量的氮元素以小分子胺或氨的形式向气相转移，氮元素在气相中的大量富集即由此而产生。糖类化合物也开始发生反应，但主要是支链断裂和基团转移的反应，而主链大量脱水环化的反应似乎还未占主导地位。
+2.2　污泥热化学转化的温度特征 
+　　通过TGA分析可以研究有机燃料的热化学反应的温度特征〔7〕，这对于有热传递影响的实用规模反应器的设计是很重要的。典型的污泥TGA测定曲线如图3，通过TGA曲线可提供燃料的热转化起始温度（Ti）和峰值温度（TP）（借助于DTG曲线），图4和图5示出了污泥热化学转化起始温度和峰值温度与反应空间的升温速率（β）间的相关性。
+
+图3　TGA/DTG曲线 
+Fig.3　TGA/DTG analysis diagram of sewage sludge
+
+图4　Ti与β的相关性
+Fig.4　Correlation between Ti and β
+
+图5　TP与β的相关性
+Fig.5　Correlation between TP and β
+　　从图中可见起始温度与升温速率的自然对数呈直线相关，而峰值温度则基本与升温速率直线相关。这一现象的产生源于污泥颗粒与反应气流间的传递热阻，得到这些相关数据对反应器的选用有重要的意义。如完全湍流的流化床与搅拌床反应器的传递热阻就有很大的差异。
+　　通过TGA分析还有助于对反应机理的推测，图6对原状污泥和经CCl4萃取后的萃余污泥不同反应温度下的平衡转化率作了比较，从图中发现，萃出物是这个温度区间的主要热转化反应物，失去这部分反应物的萃余污泥的平衡转化率曲线向高温区平移了一段。表2则根据有机质萃出率（40.9%），计算了不同反应温度下残炭中有机物的含量，可以看出被萃出的有机物在200～450℃区间内逐步转化的趋势，至450℃时两个VS含量相当接近这一事实表明，萃出物在此时已基本转化完毕。
+
+图6　原状污泥/萃余污泥的平衡转化率
+Fig.6　Equilibrium conversion ratio of original 
+and extracted sewage sludge
+表2　炭中有机物含量随反应温度的变化
+Table 2　Relation between organic content of char
+and variation of reaction temperature
+
+反应温度污泥残炭的VS*萃余污泥残炭的VS*
+（℃）(%)(%)
+20048.138.8 
+30034.427.2 
+40021.216.2 
+45015.214.2
+
+　注：*VS挥发性固体，干物料650℃恒温30min的失重百分比
+
+　　对萃出有机物（萃出液）所作的GC/MS分析（见表3）表明其成份主要是脂肪酸和脂类，这间接说明了污泥中脂肪酸和脂类是热转化反应的主要反应物。
+2.3　污泥衍生油的GC/MS分析与反应机理
+　　衍生油是污泥热化学转化的液相产物，对衍生油的化合物组成进行分析既可有助于判断油的应用价值，也是推测污泥热化学转化反应机理的有力手段。分析采用GC/MS为工具，为了保证油样在气相色谱中完全气化，原油样用乙醚为溶剂在超声波振荡下，先作了溶出处理，处理中产生了一定量的不溶物。根据煤化学〔7〕中的习惯将其名为沥青烯类，这是一类主体结构复杂、表面基团丰富的有机物。对溶出的衍生油的总离子谱图进行化合物解析，方法是图谱库对照与保留值分析双重认定，不同反应温度下的衍生油分析结果见表3。
+表3　衍生油化学组成（重量%）
+Table 3　Compositions of derived oil (wt%)
+
+反应温度
+（℃）苯系物脂肪酸硬脂酸甲脂酚类酰胺脂肪氰烃类沥青烯
+3000.4547.137.680.1322.549.730.2412.1
+3901.0135.5116.53　0.0623.787.871.1614.2
+4202.1138.815.490.111.9327.89　0.3623.2
+萃出液*-94　　6　　-----
+
+　　　　　　　　　注：*CCl4萃出物
+　　对分析结果作了归一化处理后的化合物重量组成（见表3）说明，由缩聚等聚合反应形成的大分子不溶物（沥青烯）的产生量随反应温度而上升，同时表征糖类脱水环化的苯系产物也随温度上升而稍有增加，这被认为是纤维素热解的特征产物，但它们的含量即使在反应温度420℃时也较低，表明这不是热转化的主要反应。大量的直链（C13～C22）化合物表明了脂肪族化合物是衍生油的主要来源，油中大量的含氮化合物（主要是酰胺和氰类）则表明了蛋白质广泛参与了热转化反应，主要机理可能是在活性氢的作用下造成的肽键断裂和氨基酸的转化。从含氮化合物在衍生油中含量随反应温度的变化，说明温度上升蛋白质的转化反应增加。而在390～420℃区间，酰胺向氰的转化，则可用酰胺的脱水来解释。通过对不同温度污泥衍生油化合物组成的分析可以说明污泥热化学转化过程产油的主要机理是脂肪族化合物的蒸发和蛋白质肽键的断裂，同时还发生了脂肪酸的脂化、酰胺化等基团转移反应，在较高的温度段（>390℃)糖类化合物也通过了支链断裂、缩聚等方式参与了转化反应，同时酰胺脱水向氰转化。
+3　结论
+　　通过对污泥低温热化学转化过程的宏观现象（温度特征）和产物的微观组成、元素和化合物的分析研究，可推测转化过程主要的反应机理是：200～450℃的脂肪族化合物蒸发；300℃以上的蛋白质转化与390℃以上开始的糖类化合物转化，主要转化反应是肽键的断裂、基团的转移变性及支链断裂等。由此，可以认为污泥低温热化学转化所得衍生油的主要来源是污泥中的脂肪族化合物和蛋白质。
+参考文献
+1　Shibata S. Procede de Fabrication d'une Huille Combustible a Partir de Boue Digeree, French Patent No.838,063.1939
+2　Bayer B.Kutubuddin M.Proc. of the International Recycling Congress. Berlin: EF Verlag, 1987. 314～318
+3　Campbell H W.Sewage Sludge Treatment and Use.London: Elsevier Applied Science, 1989. 281～290
+4　Bridle T R. Hammerton I，Hertle C K. Wat.Sci. Tech..1990，22(12):249～258
+5　何品晶等.中国环境科学，1996，16（4）：254～257
+6　邵立明，何品晶.上海环境科学，1996，15（6）：19～21
+7　郭树才.煤化学工程.北京：冶金工业出版社，1991.13～33
+作者简介
+何品晶　男，1962年10月生。 现任同济大学环境工程学院副教授，在职博士生。主要从事废弃物处理与资源化利用的科研与教学工作，主持完成国家自然科学基金资助“污水污泥热化学转化制油过程技术特性研究”，“固定化微生物脱臭机理研究”等研究项目。发表论著20余篇。
+收稿日期：1997-02-21
+*国家自然科学基金(编号59378345)资助项目

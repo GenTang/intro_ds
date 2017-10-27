@@ -1,0 +1,119 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+ZnO催化剂对苯胺光降解的研究
+胡　春
+(中国科学院生态环境研究中心 环境水化学国家重点实验室，北京 100085)
+刘星娟　李　爽
+(吉林大学环境科学系)
+
+
+摘要　以太阳光、氙灯为光源，ZnO为光催化剂，对苯胺光降解行为进行研究，考察了溶液的初始浓度、催化剂量、溶液pH值对苯胺光降解速率的影响.实验结果证实苯胺光降解符合准一级动力学规律，氧不足的条件下苯胺降解的速率减慢.通过HPLC确定苯胺降解的主要中间产物是邻氨基酚、对氨基酚、羧酸类化合物.有机酸进一步氧化生成二氧化碳.在pH＞6和pH＜6两种条件下苯胺光降解途径不同，产物分别为不同的羧酸.
+关键词　光催化氧化；苯胺；氧化锌.
+PHOTOCATALYTIC DEGRADATION OF ANILINE WITH ZnO
+
+Hu Chun 
+(State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences,Beijing 100085)
+Liu Xingjuan,Li Shuang
+(Department of Environmental Scienes, Jilin University)
+
+ABSTRACT The photocatalytic degradation of aniline in ZnO suspension with sunlight or xenon lamp has been studied. The effects of aniline initial concentration, catalyst amount and pH of solution on the photodegradation rate were investigated. The results indicates that the main pro-ducts were o-aminophenol, p-aminophenol and carboxylic acids and the later will be oxidized into carbon dioxide further. The reaction accorded apparently with the-first-order kinetics, At conditions of pH＞6 or pH＜6 there are different degradation pathways producing different carboxylic acids. Without enough oxygen, the degradation rate was slow down.
+Key words photocatalytic oxidation, aniline, ZnO.
+
+1　前言
+　　最近几年，利用半导体材料光催化氧化法处理有毒污染物日益受到重视，很多有机物能被无机化，或者转化为毒性较小的化合物.由于这种反应只需光、催化剂和空气，处理成本相对较低,已成为一种较有前途的废水处理新方法［1，2］.Matthews等人利用TiO2、ZnO曾对多种含磷(P)、硫(S)、氮(N)及卤素(X)的芳烃有机物进行光催化降解的研究，证实反应的最终产物为CO2、H2O、PO3-4、SO2-4、NO-3、X-［3］.半导体粒子光催化机制被认为是，光照射使半导体粒子价带上的电子激发到导带，形成导带上的自由电子，具有强还原性，在价带留有空穴，具有强氧化性.光致电子和空穴与催化剂表面吸附的化合物发生氧化还原反应.光解液组份及反应气氛等因素的变化都有可能影响光反应过程.也有研究者提出表面双空穴自由基机制［4］，即当在催化剂表面主要吸附物为氢氧根或者水分子时，它们俘获空穴产生羟基自由基，该自由基氧化有机物，这是间接氧化途径.当催化剂表面主要吸附物为有机物时，空穴与有机物的直接氧化反应为主要途径.本文考察了影响有机物光反应的几个控制因素，试图寻找其关键所在.
+　　环境中的苯胺来源于杀虫剂、除草剂的残留以及染料工业的中间产物.苯胺的毒性很大，尤其一些有取代基的苯胺可能致癌.而且它们的转换形式很复杂.本文研究了在ZnO催化剂上苯胺降解的动力学规律，同时着重考察了pH＜6和pH＞6两个范围内苯胺降解途径，通过对ZnO表面进行EPR的分析，说明了不同反应条件下ZnO具有不同的表面形态.
+
+2　实验方法
+2.1　光催化氧化反应
+　　配制10ppm的苯胺溶液250mL(未经酸碱调节的苯胺溶液pH=6)，置于光反应器(900mL石英烧杯放在电磁搅拌器上)中，加入0.25g ZnO粉末(化学纯，开原化学试剂一厂生产)，氙灯从侧面照射或太阳光照射，反应温度30±5℃.间隔一定时间取样，经离心分离和0.45μm微孔膜过滤后进行分析测定.
+2.2　不同pH的实验
+　　用HCl或NaOH溶液调节反应液的pH值分别为2.46、4.46、9.22、11.57、13.63，固定反应液浓度为10ppm，固定氙灯光强3000Lx和搅拌速度，进行光解实验.
+2.3　缺氧实验
+　　用99.9%高纯氮气驱赶反应液内的溶解氧.用橡皮泥密封反应器减少反应过程中空气的进入，固定反应液浓度10ppm，固定氙灯光强3000Lx和搅拌速度，保持光解反应在缺氧条件下进行.
+2.4　分析方法
+　　苯胺光降解产物的确定及光谱扫描，采用高效液相色谱仪(Shimadzu)LC-10A分析，二极 管矩阵检测器，SOD柱，淋洗液为50%甲醇水溶液，流速为1.0mL/min.苯胺的测定采用4-氨基安替吡啉比色法(722型光栅光度计)分析.通过总有机碳测定仪(Shimadzu TOC-500)测定光解液的无机碳(IC)，确定反应过程中CO2的生成.
+
+3　结果与讨论
+3.1　苯胺光降解产物
+　　苯胺在两种光源下降解产物相同.高效液相色谱的分析结果鉴定，反应过程中的产物为邻
+
+
+图1　苯胺及其光解产物随光照时间的变化
+(ZnO 1g/L，太阳光 54000Lx)
+Fig.1　The change of aniline and intermediates with irradiation time
+氨基酚、对氨基酚、羧酸类化合物和二氧化碳.从图1光解产物随时间的分布可以看出，初期阶段的反应主要是苯环的羟基化过程，随着反应时间的增加，邻氨基酚、对氨基酚生成量达到最大，之后羧酸的量也逐渐达到极值.由TOC检测光解液发现有无机碳生成.因此在ZnO催化剂上苯胺的光解反应可分为3个阶段：苯环的羟基化、开环生成羧酸和完全氧化至二氧化碳.苯胺的光解液中无机碳浓度大于10ppm，反应前后溶液的pH值不变.在研究苯酚光催化降解的类似工作中［5］，反应之后的光解液中无机碳浓度小于2ppm，反应后溶液显酸性.由此可以推测苯胺降解过程中有碱性化合物生成，从而使更多的二氧化碳固定在溶液中.
+3.2　反应液的初始浓度对苯胺降解速率的影响
+　　实验结果用一元线性拟和法将lnC与时间t作图，均可以得到很好的线性关系(R=0.99)，由此证明苯胺的光催化降解反应速度对苯胺的浓度符合一级动力学规律.考察不同苯胺起始浓度对苯胺降解速率的影响(见图2)，光降解动力学常数随起始浓度的变化而变化，可能是多相光氧化反应中各种因素作用的结果.在苯酚、氯酚和氯苯的光催化反应中都有类似的现象，可以认为苯胺光催化降解反应符合准一级动力学关系.
+
+
+图3　氧化锌投加量对苯胺光降解速率的影响
+Fig.3　The effect of the amount of ZnO on the realition rate of aniline
+3.3　催化剂投加量对苯胺光降解反应的影响
+　　实验结果见图3.苯胺的紫外吸收峰小于
+
+
+图2　苯胺初始浓度对光解速率的影响
+(ZnO 1g/L，氙灯 3000Lx)
+Fig.2　The effect of initial concentration on the rate of photodegradation of aniline
+290nm，氙灯的光谱与太阳光谱相似，波长大于300nm，不能激发苯胺.没有催化剂的作用,苯胺几乎不发生光解反应.有ZnO存在时，小于400nm的光能激发ZnO产生光致电子与空穴，进一步形成自由基而氧化苯胺.随着ZnO投加量的增加苯胺降解速度加快，最后达到极限值，此时ZnO的量为lg/L，这个值同光子的全部吸收对应.不同的光强有响应的极限值.在没有光照的条件下，投加ZnO量为lg/L，10ppm的苯胺溶液3h后去除6%，没有其他产物生成说明没有发生光降解，只可能在ZnO表面发生吸附.这组实验结果证明半导体粒子通过吸收光子而起催化作用，光能通过半导体粒子的作用转化为化学能.
+3.4　溶液的pH对苯胺光降解的影响
+
+
+
+图4　不同pH条件下，生成不同羧酸的一阶导数光谱
+Fig.4　The first differential spectial of different carboxylic acid formed at various pH level
+
+
+图5　氧化反应后的ZnO催化剂的EPR谱图
+Fig.5　The EPR spectra of used ZnO
+表1　在ZnO催化剂上，苯胺降解的速率常数和半衰期
+
+　氙灯太阳光
+k,min-1
+T1/2，min7.78×10-3
+89.097.46×10-2
+9.29
+
+
+
+
+图6　光降解速率常数随pH的变化
+Fig.6　The variation of the rate constant with pH levels
+苯胺在酸性溶液和碱性溶液中羟基化产物相同，但开环生成不同的羧酸，从图4结果可以看出两条导数光谱图明显不同，说明两种化合物结构不同.反应后的催化剂EPR谱图分析(图5)表明，在不同的pH溶液中ZnO表面吸附了不同的物种.说明在光反应过程中，催化剂表面的吸附状态将影响中间产物的种类.图6是在不同pH条件下苯胺光降解反应速率常数曲线.芳烃化合物的光氧化过程可分为3个阶段：苯环羟基化、生成羧酸和生成二氧化碳.羟基自由基的生成是光氧化反应的重要一步.ZnO粒子在水溶液中对H2O、H+和OH-的吸附存在一个动态平衡，溶液的pH直接影响了ZnO对这些物种的吸附状态.在碱性溶液中有更多的OH-吸附在ZnO表面，在这种条件下苯胺的光降解速度较快.Claire［6］研究ZnO光催化氧化有机物过程中产生的氧化物种，证实在pH=11的碱性溶液中，羟基自由基是仅有的氧化剂，且其作用比在酸性和中性溶液中大，所以在pH＞9的范围内，随着pH的增加，苯胺降解速度加快.在酸性、中性和弱碱性溶液中，OH-在ZnO表面的吸附量较小.部分OH*-由O·2的质子化产生，质子化速度比OH-俘获空穴的速度慢，致使苯胺降解速度较慢.酸性和碱性溶液中由于生成的产物不同也使反应速度发生变化.
+
+
+
+图7　不同反应条件下催化剂的EPR谱图
+Fig.7　The EPR Spectra of used ZnO at various conditions
+3.5　氧在苯胺光降解中的作用
+　　缺氧条件下，苯胺降解速率常数是4.30×10-3min-1.在氧浓度为20%(空气)时，反应速率常数是8.64×10-3min-1.已经证明［2］在目前实验条件下，光反应速率受到电子与空穴复合的限制，颗粒表面的吸附氧是电子俘获剂，抑制电子与空穴的复合.
+O2(ads.)+e-→O-*2
+
+　　过氧离子有可能在溶液中经过质子化反应形成过氧化氢：
+　　
+O-*2+H+→HO·2
+
+　　
+HO·2+HO·2→H2O2＋O2
+
+　　
+O-*2+HO·2→O2＋HO-2
+
+　　
+HO-2+H+→H2O2
+
+　　经过各种途径产生羟基自由基：
+H2O2→2OH·
+
+　　可见O-*2是OH·的一个来源，同时氧也是羟基化过程的氧化剂.图7是不同氧气浓度条
+件的反应后催化剂的EPR谱图，说明在有氧和缺氧条件下催化剂表面处于不同的吸附状态.
+3.6　苯胺在太阳光和氙灯下的反应速率
+　　苯胺在太阳光和氙灯下的反应速率常数见表1.氙灯的光谱是连续光谱与太阳光相似，苯胺在两种光源下降解规律相同，但因有效光强不同，在太阳光下苯胺降解速率较快.可见通过催化剂的作用，太阳能可转化为化学能.目前广泛采用的ZnO、TiO2只吸收小于400nm的光能，而这部分光仅占地面接收太阳光的5%，大部分太阳能未被利用，因此研制吸收可见光的新型催化剂是进一步利用太阳能提高处理废水效率的关键.
+参考文献
+1　Legrini O, Oliveros E, Braun A M. Photochemical Processes for Water Treatment. Chem Rev, 1993,93:671
+2 胡　春，王怡中，汤鸿霄.多相光催化氧化的理论与实践进展.环境科学进展，1995，3(1)：55
+3　Matthews R W. Kinetics of photocatalytic oxidation of organic solutes over titanium dioxide. J Catal, 1988, 111:264
+4 Yun Fu Sun, Joseph J Pignatello. Evidence for a Surface dual Hole-Radical Mechanism in the TiO2 Photocatalytic Oxidation of 2,4-Dichlorophenoxyacetic Acide. Environ Sci Technol, 1995, 29:2065
+5 王怡中，胡　春，汤鸿霄.在TiO2催化剂上苯酚光催化氧化反应研究I.降解产物分布及反应途径.环境科学学报，1995，15(4)：472
+6 Claire R, Pierre Boule. Oxidizing Species Involved in Photocatalytic Transformation on Zinic Oxide.J Photochem Photobiol A:Chem, 1991,60:235

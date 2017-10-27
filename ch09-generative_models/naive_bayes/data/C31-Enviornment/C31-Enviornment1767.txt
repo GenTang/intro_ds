@@ -1,0 +1,34 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.52-55
+
+
+
+
+总量控制法中两种源强优化模型的对比分析
+王颖　 袁九毅　 李拥军　 
+摘　要：将总量控制中两种源强优化模型应用于兰州市，运用线性规划方法对这两种模型进行了计算和比较分析。为了使最终的优化方案能够应用于实际，笔者将优化方案中决策变量的上界乘一经济技术指标值，尽管方案的优化性能有所降低，但却增强了方案的可行性和可操作性。
+关键词：优化；　总量控制；　可行性；　削减量；　指标值
+分类号：X32.012　文献标识码：A
+文章编号：1001-6929(2001)03-0052-04
+Comparison and Analysis of Two Optimal Methods of Intensity of Pollution Sources in Total Amount Control
+WANG Ying（Resource and Environment College of Lanzhou University, Lanzhou 730000, China）　
+YUAN Jiu-yi（Resource and Environment College of Lanzhou University, Lanzhou 730000, China）　
+LI Yong-jun（Lanzhou Environmental Protection Bureau, Lanzhou 730000, China）　
+
+Abstract：Two optimal models of intensity of pollution sources were applied to Lanzhou city,and calculation and analysis performed for the models with linear program method.The variables were multiplied by an economic and technical index value in order to make the results take into effect.The results were not better than before in optimization,but they are more feasible and operational.
+Keywords：optimization;　total amount control;　feasibility;　reduction;　index value
+
+作者简介：王颖(1975-)，女，吉林四平人，硕士. 
+作者单位：王颖（兰州大学资源环境学院，甘肃兰州 730000）　
+　　　　　袁九毅（兰州大学资源环境学院，甘肃兰州 730000）　
+　　　　　李拥军（兰州市环境保护局，甘肃兰州 730000）　
+
+参考文献：
+［1］劳期团.环境管理实用技术方法[M].北京：中国环境科学出版社,1994.187～212.
+［2］国家环境保护局,中国环境科学研究院.城市大气污染总量控制方法手册[M].北京：中国环境科学出版社,1991.5～12.
+［3］中国人民大学数学教研室.线性规划[M].北京：中国人民大学出版社,1997.29～62.
+［4］李家瑞.工业大气污染控制[M].北京：冶金工业出版社,1992.411～438.
+
+收稿日期：2000年8月4日
+出版日期：2001年5月30日

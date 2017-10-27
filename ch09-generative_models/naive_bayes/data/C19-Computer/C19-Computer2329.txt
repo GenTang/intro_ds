@@ -1,0 +1,81 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.6　P.764-768
+
+
+
+专用集成电路的设计验证方法及
+一种实际的通用微处理器设计的多级验证体系
+杨文华　罗晓沛
+摘　要：随着专用集成电路制造工艺及设计方法的飞速发展，片上系统可集成的功能越来越多，规模越来越大，设计验证越来越复杂，只有使用先进的设计验证方法充分地验证其设计，才能保证一次投片成功.文中针对专用集成电路设计验证的各种方法和一种实际的通用微处理器设计的多级验证体系作了专门的描述，对片上系统设计者在构建自己的设计验证方案、使设计得以充分验证方面能给予一定的参考.
+关键词：专用集成电路，软件模拟，事件驱动，硬件加速，硬件仿真，静态时序分析，形式验证
+分类号：TN4；TP3
+ASIC DESIGN VERIFICATION METHODOLOGY
+AND A REAL UNIVERSAL MICROPROCESSOR'S DESIGN
+VERIFICATION SYSTEM
+YANG Wen-Hua，LUO Xiao-Pei
+(Mentor Graphics， Beijing 100081)
+(Graduate School, University of Science and Technology of China， Beijing 100039)
+Abstract：ASIC(application specific integrated circuit) technology and design methodologies develop very rapidly. More and more functions and circuits are integrated in a SOC(system-on-chip). Designers must use advanced methodologies and tools to verify their larger and larger VLSI design, so as to guarantee the first silicon success and meet the time-to-market.Here described are various kinds of ASIC verification methods and a real universal microprocessor's design verification system, which would be helpful to those who want to build a powerful verification plan and make their design adequately verified.
+Key words：ASIC, software simulation, event-driven, hardware acceleration, hardware emulation, static timing verification，formal verification▲
+1　引　　言
+　　专用集成电路(application specific integrated circuit, ASIC)设计时的差错带来的损失是巨大的，由于没有修复成品ASIC芯片的技术，不可能对ASIC中的错误部分进行修正或直接在上面焊接，因此ASIC设计的结果只有两种可能:要么成功，要么失败，不存在第3种中间状态.失败后重新设计给设计者无疑会带来巨大的损失，因此对于设计者来说，要保证芯片一次投片成功，充分的验证变得至关重要.
+　　在整个ASIC的设计过程中，设计验证是最花费人力、时间和占用EDA资源最多的地方.设计者需要对设计验证方面的EDA工具有充足的了解，以构建起一个有效的验证方案.前端的设计验证的任务主要有下列3个方面［1,2］:
+　　(1) 验证原始设计输入描述的正确性.
+　　(2) 验证设计的逻辑功能是否符合预定的逻辑功能.
+　　(3) 验证设计结果的时间关系是否符合预定的性能指标.
+　　具有商用EDA工具的成熟的设计验证方法主要有模拟，包括事件驱动的软件模拟(event-driven simulation)、基于周期的软件模拟(cycle-based simulation)、硬件加速（hardware acceleration )、硬件仿真(hardware emulation)；静态时序分析(static timing analysis)等方法，另外形式验证(formal verification)是近几年来兴起的一种验证方法，形式验证利用理论证明的方法来验证设计结果的正确性［3，4］.软件模拟和硬件仿真主要用来做功能验证及有限的时序分析，超大规模集成电路设计的时序分析用静态时序分析的方法是最有效的.本文将在下面部分对上述验证方法及相应EDA工具加以介绍.
+2　模　　拟
+　　模拟(simulation)是指从电路的描述(语言描述或图形描述)提取模型，然后将外部激励信号或数据施加于此模型.通过观察该模型在外部激励信号作用下的反应来判断该电路系统是否实现了预期的功能［2］.设计者要通过模拟、精确分析来有效地捕捉到设计故障.模拟可以是对不同抽象级别的电路的模拟，如行为级、寄存器级、门级或开关级.HDL语言(VHDL/Verilog)可以支持对不同抽象级别的电路的描述，基于HDL语言的模拟工具通常也支持对不同抽象级别的电路的模拟.而传统的模拟工具是基于原理图设计输入的门级模拟工具，它是传统PCB和IC设计中被广泛应用的模拟工具.
+　　各个抽象级别的描述都要进行模拟，尤其要注意整个芯片的行为级功能模拟.芯片的行为级功能模拟主要是为了验证设计是否满足设计要求，它在整个设计周期中占的比率已逐步提高到30%以上，工程的早期变更对比晚期的变更将使整个设计效率提高一倍并能避免设计的延误.
+3　事件驱动模拟和基于周期的模拟
+　　模拟方法目前最常用的是事件驱动(event-driven)的方法.事件驱动模拟器要分析计算整个电路，建立一个事件表，模拟过程中的每一个变化都要排列在事件表中.在模拟进行的过程中，事件表中的事件被顺序处理；每处理一个事件，把该事件作为当前事件，计算当前事件的值对整个电路的影响，得到一个新值；新值是未来值，这个未来值成为一个未来事件排在事件表中；当时钟走到那个时刻后，原来的未来事件就变成了当前事件并取得当前值［2］.
+　　在事件表中的某个时间点可能排列有若干个事件，只有当这些事件被全部处理之后，模拟时间才能前进一个时间点，由此可见，模拟的速度完全取决于事件的多寡与处理的速度.另外每个单元的最好、典型、最坏延时在事件排列时可以考虑进去，这使得事件驱动模拟器在延时计算上会很准确，但是这也使得它们在纯功能验证时达不到令人满意的速度.
+　　基于周期(cycle-based)的模拟为纯功能验证提供一种更简单、更快速的方法，模拟时只处理设计周期中“重要事件”所引起的变化，不计算准确延时，只显示时钟沿上的信号变化［4］.
+　　基于周期的模拟器通常与事件驱动的模拟器是两个不同的程序.使用时往往是用基于周期的模拟做纯功能验证，而传统的事件驱动模拟则做细致的功能及延时验证.基于周期的模拟器往往对设计有一定的约束，如限制设计中带有异步逻辑、用于事件驱动模拟器的激励不能被直接利用等.
+　　目前也出现有所谓基于周期的优化工具，可以将普通的HDL模型转换成优化的基于周期的模型，利用已有的事件驱动的模拟器，将用于事件驱动模拟器的激励作用于优化后的模型［5］.这样即可利用已有的事件驱动模拟器，又可以加速纯功能的模拟验证.
+4　模拟加速的另外两种手段：硬件加速和硬件仿真
+　　微电子技术的发展，使得系统集成在一个芯片上成为可能，全芯片的模拟就是系统的模拟.随着系统复杂度的提高，数百万门的电路已经开始制造，传统的事件驱动软件模拟办法尽管使用最快的计算机，其速度仍然不能令人忍受.需要更快捷、更接近设计目标的模拟方法.
+　　基于周期的软件模拟能够在一定程度上加速纯功能验证的速度；硬件加速(hardware acceleration, 用实际的硬芯片代替电路中的软模型模拟)可以大大地加速模拟速度，但它也有明显的两个约束，一是被模拟的系统中必须是含有可用硬芯片代替的CPU或Memory，另外其模拟方法还是软件模拟的方法，其速度最终还是决定于软件模拟器的速度.
+　　硬件仿真(hardware emulation)不是靠计算机通过运算来模拟，而是通过相应的硬件，实现被仿真的逻辑结构或实际运行系统功能来进行仿真，因而其速度比计算机软件模拟要快得多，硬件仿真目前只限于进行功能验证、故障模拟，以及部分的时序验证.
+　　集成电路的硬件仿真技术目前有两种:一种是以FPGA为基础的硬件仿真;另一种是以处理器为基础的硬件仿真.以处理器为基础的硬件仿真器对设计有一定的约束，如对异步逻辑的限制，同时它们对仿真的加速率不如基于FPGA的高［6］.
+　　对仿真技术的基本要求是精度、速度和费用.精度是说明仿真系统能力的最基本指标.目前数字仿真技术日益成熟，仿真精度一般都能达到要求.速度是第二重要指标，特别是在规模不断增长的超大规模集成电路的仿真中，速度日益成为仿真的瓶颈.另外，仿真的目的是用较少的费用来验证系统的设计是否达到预定的要求，从而可早期发现问题，避免重大损失，因此只有仿真费用低于建造实际系统费用时，仿真才有价值.图1为模拟及模拟加速方法的性能与成本关系示意图，从事件驱动模拟，到基于周期模拟，到硬件加速器，最后到硬件仿真器，它们的速度越来越快，但成本也越来越高.设计者需要根据自身条件及需求来确定适合自己的模拟或仿真工具.
+
+图1　仿真及仿真加速的方法
+5　静态时序分析(static timing analysis)
+　　上面描述的模拟或仿真方法都需要用户输入激励(测试向量)，且对超大规模集成电路进行模拟时都相当费时.当ASIC设计的规模在几十万门以上时，设计者就要面对以指数级增长的测试向量、极长的模拟时间、以及所需的巨大的硬件支持等问题.因此不得不寻求门级验证的新方法以帮助解决高密度、深亚微米设计的问题.静态时序分析提供电路中所有路径的完全分析而不需要测试向量.它只用事件驱动模拟所需时间的很少一部分，却能提供所有路径都被识别的、更大程度上的确定性.因此越来越多的设计者开始同时运用静态时序分析和事件驱动模拟来缩短周期，减小不能识别问题的风险.对于超大型器件的设计者来说，由于事件驱动式模拟的时间过长，结合静态时序分析后仍然存在问题，于是他们将静态时序验证和一种加速的功能验证工具一起使用进行功能验证，后者包括形式验证、基于周期的模拟、硬件加速和硬件仿真等.如图2所示日益增长的ASIC复杂性要求设计方法上的变更［7］.
+
+图2　日益增长的ASIC复杂性要求设计方法上的变更
+　　静态时序分析工具的优点是减小了芯片设计的风险，快速且不需要任何测试向量的开发.然而静态时序分析的完备性也像一把双刃剑，它将正常运行中不会出现的关键路径(critical path)也会识别出来.而识别且截断这些“虚假路径(false path)”一直是许多设计者的一项重要工作，有时它是非常重要而繁重的，以至于使设计者放弃了静态时序分析以及它所带来的额外好处.此外，传统静态时序分析仅仅适用于那些全同步、只具有相当简单的时钟结构以及不必大量依靠寄存器的设计，由于这些原因使得静态时序分析工具被拒于主流市场之外.能否恰当地解决上述问题将决定静态时序分析工具能否被广泛接受.
+6　形式验证
+　　形式验证是近几年来兴起的一种验证方法.它提供严密证明而不是实验的结果来验证设计结果的正确性［3］.与模拟不同之处有［2］:
+　　(1)模拟必须给出对输入信号的激励，而形式验证则只是电路描述本身进行分析.从理论上讲，一个电路正确与否，仅取决于电路本身，而不是对输入信号的激励.
+　　(2)模拟过程是通过信号在电路元件之间动态传播而实现的;而形式验证则是通过静态逻辑推理而实现的.
+　　(3)模拟结果本身并不直接指出电路是否有错或指出电路错误位置，它需要用户自己分析模拟结果，判断并找出设计的错误.而形式验证直接给出“正确”或是“错误”结论.
+　　目前，EDA市场上已开始出现形式验证工具.它们限于验证设计在综合前后或在加入测试逻辑后是否发生逻辑功能的变化, 即设计的等价性检查［3，4，8］.
+7　一种实际的通用微处理器的设计验证
+　　这个通用微处理器芯片的电路规模约为50万门，内部逻辑模块包括有指令译码、内部系统标识、主从通信控制、主从寄存器堆控制、主从存储器地址数据、定点运算、浮点运算及中断、复位、时序控制、边界扫描等电路模块.
+　　在该芯片的设计中采用了多级验证体系，如图3所示.模块级的模拟(包括布线后的模拟)全部采用事件驱动式的软件模拟工具验证，各大模块的联合模拟及整个芯片的功能验证(寄存器传输级与门级)使用硬件仿真器；对于采用Top-Down的设计方法得到门级网表的模块，其时序分析及布线后的时序分析直接利用逻辑综合工具的时序分析功能来完成，其它模块则使用专门的静态时序分析工具来做时序分析.如此严密的验证体系加上相应先进的EDA工具使得芯片的设计得到了充分验证.
+
+图3　一种通用微处理器设计的多级验证体系
+8　结　　语
+　　随着工艺技术的不断发展，片上系统(SOC)可以集成的规模越来越大；设计者使用Top-Down设计方法加上IP(intellectual property)后，其设计能力已大大提高，但同时也增加了验证的负担；只有在增加芯片集成规模的同时，改善设计验证的手段，才能保证芯片的一次投片成功.■
+作者简介：杨文华，女，1969年1月生，Mentor Graphics 工程师，中国科技大学北京研究生　　　　　　院计算机学部研究生，主要研究方向为EDA、ASIC、计算机应用.
+　　　　　罗晓沛，男，1933年6月生，教授，研究方向为计算机系统、计算机信息系统.
+作者单位：杨文华（Mentor Graphics　北京　100081）
+　　　　　罗晓沛（Mentor Graphics　北京　100081）
+　　　　　杨文华（中国科学技术大学研究生院　北京　100039）
+　　　　　罗晓沛（中国科学技术大学研究生院　北京　100039）
+参考文献：
+［1］Huber J P, Rosneck M W. Successful ASIC Design: The First Time Through. Portland: Meritor Graphics Corporation Press, 1991
+［2］周祖成, 王志华. 专用集成电路和集成系统自动化设计方法. 北京：国防工业出版社， 1997
+　　　(Zhou Zucheng, Wang Zhihua. ASIC and Integrated System Design Automation Methods (in Chinese). Beijing: National Defense Industry Press, 1997)
+［3］Goering R. Logic verification: Beyond Simulation. EETimes, December 22, 1997, 986
+［4］Goering R. Turmoil at Abstract Symbolizes Fight for Survival in Equivalency Checking-Vendors Scraps for Survival in Formal Market. EETimes. August 10, 1998, 1020
+［5］QuickHDL-XLC User's and Refernce Mannual. Portland: Mentor Graphics Corporation, 1997
+［6］Rizzatti L. Celaro: State-of-the-art hardware emulator. Mentor Graphics, Corporation, Tech Rep: Celaro White Paper, 1998
+［7］Cline D P. SST velocity: Timing analysis and verification for high-end ASIC. Mentor Graphics, Corporation, Tech Rep: SST Velocity White Paper, 1998
+［8］Musgrave G et al. User experience with high level formal verification. In: ACM Proceedings of the 35th Design Automation Conference. San Francisco, ACM, 1998. 327
+［9］Keating M, Bricaud P. Reuse Methodology Manual for System-on-a-Chip Designs. Norwell, Massachusetts: Kluwer Academic Publishers, 1998
+收稿日期：1998-08-11
+修稿日期：1998-10-26

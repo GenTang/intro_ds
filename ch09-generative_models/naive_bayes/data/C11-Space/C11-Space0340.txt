@@ -1,0 +1,76 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年 第14卷 第3期 Vol.14 No.3 1999
+
+
+
+来流湍流度及端壁效应对涡轮叶片上对流换热的影响*
+朱惠人　许都纯　郭涛　刘松龄
+　　【摘要】　利用大尺寸低速开式叶栅风洞对涡轮叶片表面的对流换热进行了实验测量，叶片高度方向布置了3个测量位置，距端壁距离分别为5 mm，30 mm及150 mm。重点对比研究了高来流湍流度、端壁效应及来流雷诺数对涡叶片中部及根部区的过渡起始点、过渡区长度及换热的影响。实验参数范围是：来流湍流度Tu=0.75～13.5％，来流雷诺数Re=60000～240000。
+　　主题词：湍流　叶片　对流换热　测量
+　　分类号：V231.1
+INFLUENCES OF MAINSTREAM TURBULENCE AND END-WALL EFFECT ON CONVECTIVE HEAT TRANSFER OF TURBINE BLADE
+Zhu Huiren, Xu Duchun, Guo Tao, Liu Songlin
+（7th Dept.Northwestern Polytechnical University, Xi′an　710072）
+　　ABSTRACT　　The influences of mainstream turbulence,end-wall effect and mainstream Reynolds number on the beginning location of transition,transition length and heat transfer both in the middle region and root region of a turbine blade were comparatively studied.A five-blade linear cascade in a large-scale low-speed opening wind tunnel was used in the experiment.A thin-foil thermocouple technique was applied to determining the heat transfer coefficients on the blade surface.Three row of thermocouple located 5 mm,30 mm and 150 mm in the span-wise direction of blade from end-wall.The mainstream Reynolds number changed from 60000 to 240000.The mainstream turbulence varied from 0.75% to 13.5%.The results showed that the mainstream turbulence enhanced heat transfer coefficients on the suction surface to a great extent,and also increased the heat transfer coefficients on the pressure surface.Both onset and end of transition on the suction surface boundary layer move forward with increase of mainstream turbulence intensity.The end-wall effect region emerged at the root region of x／C＞0.24 of suction surface for the present turbine blade.The end-wall effect raised on the heat transfer coefficients for a low mainstream turbulence,but diminished for a high mainstream turbulence at the end-wall effect region.The influence of mainstream turbulence on the heat transfer coefficients vanished at the end-wall effect region. 
+　　Key　Words　Turbulence　Blades　Heat convection　Measurements
+1　前　言
+　　在现代高性能航空发动机中，由于燃气的温度越来越高，高湍流度已成为发动机内流动的一个主要特点，特别是在燃烧室出口燃气的湍流度往往可高达10%以上，对涡轮叶片上的流动及换热有重要影响。因此，90年代以来，这个问题已成为国际上发动机高温部件研究领域的热门课题之一。如Mehendale［1］等实验研究了高湍流度对前缘区无气膜情况下传热的影响，Zhang［2］等实验研究了高湍流度对涡轮叶片上无气膜情况下传热的影响。结果表明，当主流湍流度从0.7%提高到17%时，涡轮叶片上前驻点，吸力面及压力面上的对流换热可分别提高30%，250%及100%。在吸力面上，高湍流度可以使流动转捩大大提前，从而改变该面上对流换热的分布情况。Zhang［3］等实验研究了高湍流度和非定常尾迹共同作用时对涡轮叶片上无气膜情况下传热的影响，发现在强非定常尾迹条件下，高来流湍流度的影响趋于消失。从国际上公开发表的文献来看，目前该领域的研究主要集中在叶片中部的二维区内。
+　　本文主要是将研究区域扩展到叶片的根部，考查高湍流度对涡轮叶片高度方向上不同区域流动及换热的影响，进一步深化对高湍流度条件下，涡轮叶片上流动及换热规律的认识，同时为涡轮叶片设计积累相应的实验数据，也为发展相应的湍流模型及数值模拟打下一定的基础。
+2　实验装置
+　　实验在低速开式叶栅风洞中进行，图1为试验段简图。试验段迎风横截面为30 cm×80 cm，其内安装了由5个导向叶片组成的叶栅，转角为68°，中间的叶片经加工后用于测量换热系数，其余叶片主要用来为中间的叶片形成周期性边界条件。叶片弦长C=20.5 cm，间距P=16 cm，半高L=15cm。叶栅前来流速度的可调节范围是3～23 m/s。
+
+
+图1　低速叶栅风洞试验段简图
+　　为模拟不同的来流湍流度，制成了2个湍流发生网格。一号网格由1.5 cm×1.5 cm的木条制成，网格大小为4.1 cm×4.1 cm；二号网格由0.6 cm×0.6 cm的铝条制成，网格大小为2.0 cm×2.0 cm。叶栅前23.5 cm，47.5 cm及78.5 cm处可以安装湍流发生网格，测量表明，不安装湍流发生网格时，叶栅进口处湍流度为0.75%，安装湍流发生网格时，可使叶栅进口处湍流度提高至13.5%。表1给出了本实验中将不同湍流发生网格放在叶栅前不同位置时，在叶栅前缘所产生的湍流度的具体数值。
+表1　实验中不同网格置于不同位置时，在叶栅前缘所产生湍流度
+
+网　　格距叶栅前缘湍流度网　　格距叶栅前缘湍流度
+一号网格
+一号网格23.5 cm处
+47.5 cm处13.5%
+10.0%二号网格
+二号网格23.5 cm处
+78.5 cm处8.0%
+4.0%
+
+　　叶栅中间的叶片经加工后用于测量换热系数，该叶片用硬质松木制成中空的，以便于热电偶引线。表面粘贴厚度为0.05 mm的薄合金钢加热带，通直流电对其进行加热，在表面形成等热流密度的发热量，这样在测量出电加热功率及来流温度t∞和叶片表面加热带的温度ti,j后，就可计算叶片表面的局部对流换热系数h及努赛尔特数Nu：
+h＝（qi,j-q′）／（ti,j-t∞），　　Nu＝hC／λ
+上式中qi,j是根据电加热功率确定的热流密度，q′为换热表面的热辐射、加热片内部沿着加热片的二维导热及从加热钢带通过木制叶片向内部的导热这三部分损失之和。根据实验对比及相应的传热计算可得到上述三种损失的变化范围为：辐射热损失：1～2%，沿加热片的二维导热修正0～1%，通过木制叶片向内部的导热损失，0.5～2%。
+　　为了研究叶片上两维区的换热及端壁效应对换热的影响，在叶片的高度方向上布置了三排热电偶，它们距端壁的距离分别是y=5 mm，30 mm及150 mm。与叶片半高L的比分别是y/L=0.033，0.2及1.0，其中y/L=1处是叶片的中部，处于流动的两维区。
+3　实验结果与分析
+　　本实验的参数范围为来流湍流度Tu=0.75～13.5%，来流雷诺数Re=60000～240000，来流雷诺数根据叶栅前来流速度及叶片弦长计算。
+3.1　端壁效应的影响
+　　图2给出了Re为60000，Tu为0.75%时，涡轮叶片上距端壁距离分别为y/L=0.033，0.2及1.0处的Nu数的分布。比较叶片根部区域（y/L=0.033）与中部区（y/L=1.0）的两条曲线，可以明显地看出，在叶片吸力面x/C大于0.24的区域，叶片根部区的对流换热强度明显高于中部区，说明在该区域有较强的端壁效应影响。在吸力面层流区及压力面一侧，叶片根部区域的换热强度与中部区相比虽有一定程度的增强，但幅度不大，说明在叶片吸力面层流区及压力面上端壁效应不强。
+
+
+图2　Tu=0.75%，Re=60000时在不同叶高位置处换热的比较
+　　比较叶片上距端壁y/L=0.2处的区域与中部区域（y/L=1.0）的换热，可以看出，无论是在叶片吸力面及压力面，该两个区域的对流换热强度均相差不大，表明在y/L大于0.2的区域，端壁效应基本消失了。该区域的流动具有两维性。
+3.2　来流湍流度对叶片中部及根部区换热影响的比较
+　　图3（a）给出了Re为60000，Tu分别为0.75%，4.0%，8.0%，10.0%及13.5%时，涡轮叶片上中部区域（y/L=1）处的Nu数的分布，横坐标是以驻点为起点的弧长x与叶片弦长C的比。可以看出：叶片吸力面上边界层的发展有明显的层流、过渡及湍流区存在。湍流度对叶片吸力面上层流区及湍流区的的换热影响不大，但对过渡区的换热有较大影响。主要表现在两个方面：（1）过渡起始点随Tu的增大有前移的趋势，如当Tu=0.75%，8.0%及13.5%时，过渡起始点位置分别大约在x/C=0.44，0.38及0.32处。该趋势与文献［2］中的结果相同，原因主要是湍流度的增大削弱了层流区的稳定性，引起流态提前过渡；（2）过渡区结束点的位置随Tu的增大有前移的趋势，如当Tu=0.75，8.0%及13.5%时，过渡区结束点的位置分别在x/C=0.88，0.60及0.52处。这种趋势与文献［2］的结果也相同。上述两种影响的总效果造成吸力面上的大部分区域的换热均有较大幅度的提高。如在x/C=0.3至0.7的区域，湍流度从0.75%提高到13.5%时，对流换热提高约100%。
+
+
+图3　Re=60000时，来流湍流度对叶片中部及根部区换热影响的比较
+　　与吸力面相比，压力面上没有湍流区，过渡区也不明显，湍流度的提高虽对叶片压力面上的换热有一定的增强作用，但幅度较小。文献［2］也有同样的结果。这主要是因为压力面上的流动具有较强的顺压力梯度，因而稳定性较好，不易发生过渡，使湍流度的影响较为有限。当湍流度为13.5%时，与湍流度为0.75%的情况相比，对流换热提高约50%左右。
+　　图3(b)给出了Re为60000，Tu分别为0.75%，4.0%，8.0%，10.0%及13.5%时，涡轮叶片上根部区（y/L=0.033）处的Nu数的分布。可以看出：在本实验的各个湍流度下，叶片吸力面根部区的过渡起始点位置，过渡区的长度及换热强度均相差不大，这与图3(a)中所表明的叶片中部区的换热有明显不同，说明叶片吸力面根部区的流动及换热有其自身的规律，与叶栅前来流的品质关系不大。比较图3(a)及(b)还可看出，随着来流湍流度的增大，叶片吸力面中部区的换热强度与根部区的换热强度之间的差别趋于缩小，说明在高湍流度条件下，端壁效应要弱一些。在叶片的压力面上，湍流度对换热强度有一定影响，但对换热的分布规律的影响并不大。这与图3(a)中所表明的叶片中部区的情况基本相同。
+3.3　来流雷诺数对叶片中部及根部区换热影响的比较
+　　图4(a)给出了Tu为10.0%时，来流雷诺数Re=60000，105000，150000，195000，240000时，涡轮叶片上距端壁距离为150 mm（y/L=1）处的Nu数的分布。
+　　在吸力面上，来流雷诺数的影响表现在以下几个方面：（1）随着雷诺数的增大，过渡起始点逐渐前移，如Re=60000时，过渡起始点约在x/C=0.40处，而当Re=240000时，过渡起始点已前移至x/C=0.24附近；（2）过渡区的长度随雷诺数的增大而有一定幅度的增加，如Re=60000时，过渡区约在x/C=0.40～0.50的区域，当Re=240000时，过渡区约在x/C=0.24～0.44的区域；（3）随着雷诺数的增大，整个吸力面上的换热强度均有所提高。提高的幅度在层流区、过渡区及湍流区基本相同。
+　　在压力面上，来流雷诺数的不同并没有使该侧的流动特点发生实质性变化，只是换热强度随着雷诺数的增大有一定的提高，但幅度不如在吸力面大。
+　　图4(b)给出了Tu为10.0%时，来流雷诺数Re=60000，105000，150000，195000，240000时，涡轮叶片上距端壁距离为5 mm（y/L=0.033）处的Nu数的分布。
+
+
+图4　Tu=10.0%时，来流雷诺数对叶片中部及根部区换热影响的比较
+　　在整个根部区，换热强度随雷诺数的增大而增强，且在吸力面湍流区增强的幅度最大，这些特点与叶片中部区非常相似，但也有不同之处，即吸力面上的过渡起始点及过渡区长度并未受雷诺数变化的影响。表明吸力面根部区的流动换热特点，从定量上讲，受来流雷诺数影响较大，但从定性上讲，流态的转变及发展过程却基本不受雷诺数变化的影响。压力面根部区的流动换热特点与中部区基本相同。
+4　结　论
+　　（1）在叶片吸力面根部的后半区域有较强的端壁效应影响，在吸力面层流区及压力面一侧，叶片根部区域的端壁效应较弱。在高湍流度条件下，端壁效应要弱一些。
+　　（2）湍流度对叶片吸力面二维区的层流区及湍流区的的换热影响不大，但对过渡区的换热有较大影响，随着来流湍流度的增高，过渡起始点发生前移，过渡区的长度要缩短，导致吸力面总换热量增加。 湍流度对叶片吸力面根部区的过渡起始点位置，过渡区的长度及换热强度均影响不大。湍流度的提高并未改变叶片压力面上（根部区及两维区）的流动特点，对换热有一定的增强作用，但幅度较小。
+　　（3）雷诺数的增加，对叶片吸力面二维区的流动特点有一定影响，使过渡起始点前移，过渡区的长度增加，但对叶片吸力面根部区的流动特点影响不大。叶片压力面根部区及两维区的流动特点，受雷诺数的影响均不大。总体上讲，叶片表面的换热强度无论是吸力面或压力面，根部区或两维区，均随雷诺数的增加而增强。
+*本文系航空科学基金资助项目，编号：96C53034
+作者简介：朱惠人男　41岁　博士　副教授　西安市西北工业大学706教研室　710072
+作者单位：西北工业大学
+参考文献
+　1　Mehendale A B,Han J C.Influence of High Mainstream Turbulence on Leading Edgy Heat Transfer.ASME Journal of Heat Transfer,1991,113:843-850
+　2　Zhang L,Han J C.Influence of Mainstream Turbulence on Heat transfer Coefficients From a Gas Turbine Blade.ASME Journal of Heat Transfer,1994,116:896-903
+　3　Zhang L,Han J C.Combined effect of Free-Stream Turbulence and Unsteady wake on Heat transfer Coefficients From a Gas Turbine Blade.ASME Journal of Heat Transfer,1995,117:296-302
+1998年7月收稿；1998年10月收到修改稿。

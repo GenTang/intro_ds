@@ -1,0 +1,94 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第1期 No.1 Vol.18 1998
+科技期刊
+
+M-DNB和P-DNB对鲤鱼肝脏过氧化氢酶的影响*
+徐镜波　(东北师范大学环科系，长春　130024)
+景体淞　(长春科技大学环境与建筑工程学院，长春 130026)
+文　摘　为阐明M-DNB和P-DNB对鲤鱼肝脏过氧化氢酶的影响，在体内实验条件下，测定了鲤鱼肝脏过氧化氢酶的活性。间－二硝基苯M-DNB和对－二硝基苯P-DNB对鲤鱼肝脏过氧化氢酶均有明显的抑制作用，EC50值分别为1.382 mg／L和0.0807mg／L。鲤鱼肝脏过氧化氢酶对P-DNB的敏感性比对M-DNB更高。
+关键词　 鲤鱼肝脏　过氧化氢酶　活性　抑制
+Effects of M-DNB and P-DNB on liver catalase activity of carp.Xu Jingbo(Department of Environmental Science, Northeast Normal University，Changchun 130024)；Jing Tisong(Environmental and Architectural Engineering College, Changchun University of Science and Technology, Changchun 130026).China Environmental Science.1998,18(1):57～59
+Abstract—The effects of M-DNB and P-DNB on Ct of carp liver Invivo were carried out.The results show that M-DNB and P-DNB cause fairly strong inhibition to Ct of carp.Satisfactory straight lines were obtained by plotting the probits of inhibition percentage of Ct against the logarithmic concentration of toxicants.The concentrations required to effect 50％ inhibition of M-DNB and P-DNB to Ct of carp livers were 1.382 mg/L and 0.0807 mg/L respectively. Enzyme tests also indicated that the sensitivity of liver Ct to P-DNB was greater than that of liver Ct to M-DNB. 
+Key words:liver of carp　catalase(Ct)　activity　inhibition
+　　M-DNB 和 P-DNB是我国第二松花江中游的主要污染物，近年来有关其环境影响已逐渐被人们认识，但亚致死剂量的生态毒理文献尚较少见，作者应用紫外分光光度法〔1〕对鲤鱼肝脏的过氧化氢酶（Ct）活性进行了测定。结果表明，符合剂量－效应关系，从0％～100％酶活性抑制浓度值计算出EC50值。为亚致死剂量的生态风险评价提供科学依据。
+1　实验部分
+1.1　试剂、器材
+　　　　试剂参照文献(1)进行。仪器采用UV－190紫外分光光度计（日本产）、电动搅拌机、匀浆器、离心机、计时器、石英比色皿、40L水簇箱和常规玻璃器材。
+1.2　生物材料
+　　实验鲤鱼由长春市水产所养殖基地购得。鱼苗平均体重2.0±0.9g；平均体长5.7±0.8cm。鱼苗经5％食盐水消毒后进入实验室驯化。驯养采用除氯自来水，饲喂市售鱼饵，实验前一天停止进食。
+1.3　材料处理和梯度设计
+　　首先测定M-DNB和P-DNB对鲤鱼的急性毒性数据LC50值，再配制1/6～1/2的M-DNB和P-DNB溶液，将鱼暴露7d。
+　　依据鲤鱼96h急性毒性数据，M-DNB 96h LC50＝8.511×10-5mol／L，P-DNB 96h LC50＝6.781×10-6mol／L，用丙酮配制 M-DNB 贮备液浓度 C＝14.30 mg／L。P-DNB 贮备液浓度 C＝11.36mg／L。在1/6 LC50～1/2 LC50之间设置两种化合物各4个浓度梯度，外加对照（表1）。玻璃水族箱总容积为 40 L左右，每个水族箱实验液体积为20 L。实验用水为除氯水，配制实验液时，要在电动搅拌机的快速搅拌下用移液管逐渐加入贮备液，务必使之混合均匀。以丙酮为助溶剂，其用量为0.05％～0.1％。每个水簇箱投10尾鱼，每24h换水一次，每次换水10L。采用自然光照，避免阳光直射。对照组、染毒组同时进行实验。
+表1　实验浓度设计(mL)
+Table 1　Experimental concentration design
+
+项目原始试验液20L每天换水10L
+加贮备液加丙酮加贮备液加丙酮
+对照01005
+1/6LC503.26.81.6 3.4
+1/4LC50552.5 2.5
+1/3LC50 6.63.43.3 1.7
+1/2LC5010050
+
+　　组织处理：染毒7d后取每个浓度水簇箱4～6尾鱼，擦干，称重，迅速解剖，取肝，称肝重。在玻璃匀浆器内按1g肝重加12.5mL磷酸盐缓冲液（pH＝7.0）的比例加入缓冲液。然后在冰水浴(1～4℃)下用电动搅拌机带动玻璃匀浆器匀浆，匀浆过程始终保持冰水浴。匀浆后，将匀浆液移入离心管离心，转速为1500r／min，时间5min，所得上清液用于Ct活性测定。活性测定依据文献〔1〕方法进行。
+2　结果与讨论
+2.1　实验现象
+　　染毒实验过程中空白组鲤鱼无死亡，两种化合物1/3 LC50、1/2 LC50浓度组，实验鲤鱼无可观察到行为反应，实验终止后各浓度梯度鲤鱼无死亡。
+2.2　空白组鲤鱼Ct的测定
+　　为确保实验采用的紫外分光光度法测定鱼体肝脏Ct活性的准确性与可靠性，对正常条件鲤鱼（体重1.9g，体长5.6cm）平行6次测定Ct活性。以lnA对时刻t作图，应为一条直线，该直线的斜率K代表Ct活性，见表2。由表2求出K＝8.276×10-3，S＝1.797×10-4，CV％＝S/K＝2.2％。
+表2　Ct活性测定结果
+Table 2　Results of Ct activity 
+
+项目测 定 次 数
+123456
+K（×10-3）-8.516 -8.365 -7.976-8.212 -8.278-8.319
+r -0.9996-0.9997 -0.9997 -0.9998 -0.9987-0.9996
+n 7 77777
+
+2.3　染毒鲤鱼的Ct活性结果
+　　根据平行样品测定的吸光值，得到K的平均值（K），然后按100K/ln2，求得活性单位数，再用蛋白质浓度校正后即求得各染毒组Ct活性测定结果（表3、4）。蛋白质含量测定曲线的回归方程为：y＝0.0198＋1.561×10-3x，r＝0.996，y＝A（吸光度），x＝g（Pr.含量）。
+　　M-DNB、P-DNB对鲤鱼肝脏Ct活性抑制百分数，随着化合物浓度增高，抑制率逐渐加大，经统计分析得到回归方程（表5）。
+表3鲤鱼肝脏Ct活性结果(M-DNB)
+Table 3　Results of Ct activity of contaminated carpliver(M-DNB)
+
+项目　　　对照 1/6LC50 1/4LC50 1/3LC50 1/2LC50
+M-DNB（mg／L）0　2.3833.5754.766 7.149
+K×10-3 -12.89-12.25 -7.556-3.021-2.775
+活性单位U │100K/ln2│ 1.859 1.767 1.091 0.436 0.400
+活性U/gpr(×104)5.497 4.012 2.475 0.886 0.736
+I％ 　　　　　　　　　　 027.0 55.0 83.9 86.6
+
+表4　鲤鱼肝脏Ct活性结果(P-DNB)
+Table 4　Results of Ct activity of contaminated carpliver(P-DNB)
+
+项目对照1/6LC501/4LC50 1/3LC50 1/2LC50
+P-DNB（mg／L）0　0.189 0.2840.378 0.567
+K×10-3-12.89 -9.722 -7.256 -5.872 -5.066
+活性单位U │100K/ln2│1.859 1.403 1.047 0.847 0.731
+活性U/gpr(×104)5.497 3.6022.245 2.128 0.914
+I％034.5　59.2　 61.3 　 83.4　
+
+表5　回归分析结果
+Table 5　Results of liner regression
+
+毒物回归方程 相关系数 
+M-DNB I*＝57.2lnC－18.0 0.947 
+P-DNB I ＝42.2lnC＋106.7 0.977
+
+　　注：*I为抑制百分数
+2.4　讨论
+　　M-DNB、P-DNB对鲤鱼肝脏Ct的作用规律表明，在本实验浓度范围内，体内实验结果符合剂量－效应关系。随着两种化合物剂量增大，Ct活性呈下降趋势，对肝脏的毒性作用P-DNB大于M-DNB。M-DNB和P-DNB对鲤鱼肝脏Ct的半抑制浓度分别为1.382 mg／L、0.0807mg／L。
+　　在体内实验条件下，实验鲤鱼驯化一定时间后，选用紫外分光光度法进行鱼肝过氧化氢酶活性的测定比国内已报导的碘量法〔2,3〕灵敏度更高，更简便准确可靠。选用鲤鱼肝脏作为酶源的优点是材料方便易得，而且对材料需求量不大，酶源用量少，小于10 cm的鲤鱼就可以进行一次完整的实验，可确保染毒组与空白组在同一水平上进行比较，较易排除个体差异的影响。
+　　实验结果表明，用Ct作为参数，反映环境化学物的毒性效应时，具有与许多生物实验相同的规律，即在给定的浓度梯度下，符合剂量－效应关系。说明Ct体内实验可以展示毒性作用的某些特性，反映M-DNB、P-DNB对Ct的毒性效应，具有重要意义。可利用Ct这一参数，从生化机制方面对毒性进行评价，用于生态毒理学的研究。
+3　小结
+3.1　鲤鱼肝脏过氧化氢酶的体内测定结果准确可靠。
+3.2　M-DNB和P-DNB对鲤鱼肝脏过氧化氢酶的抑制结果表明，鲤鱼对P-DNB更加敏感。EC50值分别为1.382 mg／L和0.080 mg／L。
+参考文献
+1　徐镜波等．环境化学，1997，16(1):73
+2　丁树荣等．环境生物学实验技术与方法．南京：南京大学出版社，1989
+3　徐镜波等．环境化学，1994，13(30):279
+作者简介
+徐镜波　女，1951年1月生。副教授。主要从事化学生态、生化毒理的教学与科研工作。现正主持国家自然科学基金《鱼体酶学指标的分子生态毒理学研究》项目。《火电厂循环冷却水排放对水生态热影响研究──火电厂热排水对湖泊水库理化性质影响研究》科学技术成果获水电部东北电业管理局技术改进一等奖。在国内外核心杂志上发表论文40余篇。
+收稿日期：1997-03-20
+*国家自然科学基金资助项目

@@ -1,0 +1,64 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年 第14卷 第3期 Vol.14 No.3 1999
+
+
+
+关于两方程湍流模型的考虑*
+梁德旺　吕兵
+　　【摘要】　通过对两方程湍流模型的分析，提出了在主流区或远壁区用两方程模型,近壁区用代数湍流模型的思路，即所谓的“双层”模型概念。通过对平板湍流附面层的计算表明，这种分层计算措施获得的速度分布、壁面剪切力较单纯应用低雷诺数两方程湍流模型时的结果准确。对非均匀来流条件下90°弯管内高湍流度流场的计算表明，双层模型可获得更加准确的速度分布。从而表明本文提出的分层计算措施是有效的，可满足工程计算要求。
+　　主题词：湍流　建立模型　计算流体力学
+　　分类号：O357.5
+A CONSIDERATION OF TWO EQUATION TURBULENCE MODEL
+Liang Dewang and Lu Bing
+（2nd Dept.Nanjing University of Aeronautics and Astronautics,Nanjing　210016）
+　　ABSTRACT　　A concept of "two-layer" turbulence model is proposed which employs an algebraic turbulence model in near wall area and a two-equation turbulence model in outer area or far wall area.The flows over a flat plate with M=0.3 uniform inflow and in a 90°rectangular bent duct with non-uniform velocity and high turbulence inflow are calculated respectively by use of the "two layer" turbulence model and two equation turbulence model with low Reynolds number modification.The obtained results show that the "two layer" turbulence model can predict the distribution of velocity and wall stress for external flow and the boundary layer thickness and main velocity for internal flow more accurately than the two equation turbulence model.Therefore the "two layer" model is a powerful tool in engineering.
+　　Key　Words　Turbulence　Modelling　Computational fluid mechanics
+1　引　言
+　　在近壁区内，分子粘性对流动的影响相对增强，它不仅影响了平均流的输运，而且直接或间接地影响各种湍流过程，此外，湍流动能K的产生率及耗散率ε达到极大,近似处于局部平衡，平均流速度和温度的二阶导数大，即平均流参数的梯度变化大。此区内的湍流呈各向异性。从而造成适用于高雷诺数、各向同性湍流的两方程湍流模型不能直接应用到该区。
+　　处理低雷诺数湍流流动的工程方法有两大类；即壁面函数法和低雷诺数湍流模型。
+　　所谓壁面函数法就是采用简化分析的方法或经验式，给出近壁网格内的速度分量与壁面应力的关系，近壁网格内温度与壁面温差同壁面热流通量的关系，近壁网格内湍流动能的产生率与耗散率。这种方法不需在近壁区内求解平均流场或湍流参量的偏微分方程，不需在近壁区布置精细的网格（y+＞30）。但是，这种方法不能用于低雷诺数流动及不稳定或有分离的附面层流动，对于复杂三维流动，传统的壁面函数可能不合适。此外，近壁网格稀疏时平均流的计算精度受限。
+　　低雷诺数湍流模型则是由对高雷诺数湍流模型方程中的经验常数或函数进行近壁衰减和分子粘性效应修正而构成。文献［1］对近壁和低雷诺数模型进行了比较和分析。低雷诺数湍流模型可直接求解近壁区内的流动。但要求在近壁区设置很精细的网格，以便能正确地反映参数在近壁区的剧烈变化。如文献［2］用Launder／Sharma的K-ε模型求解平板湍流附面层，其近壁第一条网格的y+<<1。然而工程计算中，近壁网格的y+=2～3，由图1和图2可以看出，此时用低雷诺数湍流模型求解的平板湍流附面层速度分布(图中棱形点)与经验分布(图中实线)相差较远。造成误差的原因是近壁区内网格不够精细，近壁区内流动参数的求解不准确。
+　　鉴于上述原因，本文提出了在近壁区用Van Driest 的近壁衰减修正的混合长度模型(即Baldwin／Lomax代数模型)，其他区域依旧采用低雷诺数两方程湍流模型求解湍流流动的思路，对平板湍流附面层和非均匀来流条件下90°弯管内高湍流度流场的求解表明，这种分层求解措施可明显提高计算准确度。
+2　湍流模型和数值方法
+　　本文计算采用可压流体质量加权平均N-S方程，Launder／Sharma的K-ε模型［3］，Speziale K-τ模型［4］和Wilcox K-ω模型［5］。本文的计算采用时间相关法求解定常流动，其中空间积分采用格心格式的有限体积法，而时间积分采用五步龙格－库塔法，其CFL数为5.0。粘性项及源项的计算采用中心格式，对流项则采用二阶精度的Jameson方法。为了加速收敛，计算中采用了当地时间步长，网格加密，隐式残余平均和焓阻尼等加速收敛技术。
+3　“双层”模型概念
+　　为了探讨上述两方程湍流模型的效果，我们计算了长为1m的平板置于Ma=0.3的均匀流场中之平板湍流，来流Re数为6.9315×106。图1～3分别给出了用上述3个两方程湍流模型计算所得出口截面上无量纲平均速度分布。图中棱形点为用上述两方程湍流模型之计算结果。方块则为用Baldwin／Lomax［6］代数湍流模型的计算结果，实线则为理论及实验分析结果。图1和图2中的三角点则为用本文提出的“双层”模型计算结果，图3中三角点为K-ω模型结果。由图可以看出，对于平板附面层K-ω模型和B/L代数模型的计算精度最高，所得结果接近理论分布。这是因为B/L模型本身是平板附面层之经验模型。K-ω模型无需进行低雷诺数修正可直接应用于求解粘性底层流动［5］。而K-ε模型和K-τ模型尽管进行了近壁修正，但由于近壁网格不够精细(y+≈2)、低雷诺数修正有一定的近似性，造成计算结果误差大，具体表现为壁面剪切力不准（因uτ不准）。近壁区速度分布不准（作者用其他K-ε和K-τ模型进行了计算，结果也是如此）。可见，如何准确计算平均流参数关键是近壁区的处理。为此，本文提出了在近壁区用Van Drist的近壁衰减混合长度模型而在其他区域依旧应用上述两方程模型,即所谓的“双层”模型。它可表为： 
+
+或 Cμfμρkτ
+其中l和ω为文献［6］中给出的考虑压力梯度修正之Baldwin／Lomax代数湍流模型参数，k，ε及τ等为上述两方程湍流模型之参数。由图1和图2可以看出，采用“双层”模型后所得计算结果精度明显提高，而且双层K-ε模型的结果略优于B/L模型结果。
+
+
+图1　K-ε模型计算平板附面层速度分布
+
+图2　K-τ模型计算平板附面层速度分布
+
+
+图3　K-ω模型计算平板附面层速度分布
+4　非均匀来流条件下90°弯管内高湍流度流场计算
+　　为了进一步检验上面提出的“双层”模型的有效性，我们分别用K-ε模型和“双层”K-ε模型计算了来流为非均匀且具有高湍流度的90°弯管内湍流流动。之所以选择这样一个流动来检验模型是因为弯管内的流动具有很大的横向压力梯度和强的二次流，流动呈很强的三维性，而且比较接近于叶轮机械的叶栅通道内流动。
+　　图4给出了90°弯管的几何形状和计算网格示意图。这里给出的几何尺寸及下面将给出的入流、出流条件均为文献［7，8］实验几何尺寸及实验条件。由图可知管道为一个三维矩形90°弯管，其横截面为边长为0.254 m的正方形，入口至拐弯段0°截面距离为两倍管道宽度，出口截面则在拐弯段90°截面下游一倍宽度处，90°弯管内侧弯曲半径为0.457 m。计算用网格比图示网格密4倍，其网格节点数为57×57×121，近壁网格y+在3～4之间。
+
+
+图4　90°弯管几何形状及网格
+　　根据文献［7，8］，我们选定了一个来流速度为20 m/s，来流附面层厚度δ0=11.43 mm，来流湍流度Tu=0.02475的流动状态作为计算状态。此时，来流温度为T0=295.71 K，来流Ma数为0.05802，单位长度Re数为1.3071×106，出口截面压力为101277.7 (N/m2)。由于来流附面层内速度分布规律不知，计算中假定为1/7次方指数规律。
+　　图5给出了0°，30°，60°，90°及出口截面上的主流速度的计算值与实验值的比较。图中各符号表示为实验测得的速度分布，实线为用“双层”K-ε模型计算得到的速度分布，虚线则为用K-ε模型计算得到的速度分布。由图可知，在各截面上均有“双层”K-ε模型的计算结果优于K-ε模型的计算结果。计算中我们还比较了横向二次涡及湍能K的分布，虽然“双层”K-ε模型的计算结果准确性略优于K-ε模型，但没有明显的优势。
+
+
+
+图5　90°弯管内速度分布
+5　结束语
+　　由上面的讨论、分析可得如下结论性意见：(1)提出的近壁区用代数湍流模型，其他区域用两方程模型来计算湍流的措施是可行的、有效的，它可以获得较单纯用两方程模型更准确的结果。(2)对非均匀来流条件下90°弯管内高湍流度流场的计算是成功的。它不仅说明了文中提出的“双层”模型可用于三维湍流，而且表明可用于工程计算。
+*本文系国家教委“跨世纪优秀人才”基金资助及江苏省“青蓝工程”基金资助项目
+作者简介：梁德旺男　37岁　教授　南京航空航天大学动力工程系　210016
+作者单位：南京航空航天大学
+参考文献
+　1　Patel V C,Rodi W,Scheuerer G.Turbulence Models for Near Wall and Low Reynolds Number Flows:A Review.AIAA Journal 1985,23(9):1308-1319
+　2　Zheng X,Liao C,Liu C,Sung C H,Hung T T.Multigrid Multiblock Computation of Incompressible Flows Using Two-Equation Turbulence Models.AIAA 97-0602,1997
+　3　Launder B E,Sharma B I.Application of the Energy Dissipation Model of Turbulence to the Calculation of Flow near a Spinning Disc.Letters in Heat and Mass Transfer,1974,1(1):131-138
+　4　Speziale C G,Abid R,Anderson E C.A Critical Evaluation of Two-Equation Models for Near Wall Turbulence.ICASE Report No.90-46 (1990)
+　5　Wilcox D C.A Half Century Historical Review of the K-ω model.AIAA 91-0615
+　6　梁德旺，黄国平，赵海峰．B／L湍流模型在强压力梯度流场计算中的应用．南京航天大学学报（待发表），1999，31(1)：37-42
+　7　Crawford R,et al.Mean Velocity and Turbulence Measurements in a 90° Curved Duct with Thin Inlet Boundary Layer.NASA CR 174811,Dec.1985
+　8　Crawford R.Influence of Bulk Turbulence and Entrance Boundary Layer Thickness on the Curved Duct Flow Field,NASA CR-4188,1988
+1998年9月收稿；1998年12月收到修改稿。

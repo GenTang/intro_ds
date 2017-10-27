@@ -1,0 +1,256 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年6月第18卷第6期科技期刊
+中美高等环境类专业课程结构和教学实施比较研究
+陆根法　尹大强　丁树荣　许鸥泳
+(南京大学环境科学与工程系，污染控制与资源化研究国家重点实验室，南京　210093)
+
+摘要　以美国5所大学为代表，调查和分析了其环境类专业的课程结构和教学实施的基本状况，并与我国进行了比较研究.研究表明课程结构和教学实施存在明显差别，其主要表现在以下9个方面：本科生专业培养目标；素质教育课程的设置；课程体系结构和学分制；培养解决环境问题能力的课程设置；及时反映新观点和新理论的课程；人文科学和社会科学类课程设置；环境政策课程；资源课程和专业教学方式.比较研究认为，上述9个方面可作为我国修订环境类本科生专业基本培养规格和基本教学要求的借鉴.同时还提供某些具有参考价值的课程设置实例.
+关键词　高等环境教育；课程结构；比较研究.
+COMPARATIVE STUDY OF THE COURSE STRUCTURE FOR ENVIRONMENTAL PROGRAMS (MAJORS) AND TEACHING PRACTICE IN HIGHER ENVIRONMENTAL EDUCATION BETWEEN CHINA AND USA
+
+Lu Genfa, Yin Daqiang, Ding Shurong, Xu Ouyong
+(State Key Laboratory of Pollution Control and Resource Reuse,Department of Environmental Science and Engineering,Nanjing University,Nanjing,210093)
+
+ABSTRACT　In this paper,based on data from five universities and colleges which are chosen as representatives of USA,the system and structure of courses and teaching practice for undergraduate students majoring in environment between China and USA were studied and analysed comparatively.The multiphase analysis and comparative studies sholwed that there were many differences in system and structure of environmental courses adn teaching practices between China and USA.These differences mainly existed in the following aspects:the training objectives;setting up courses on quality education for students;the system and structure of courses and the practice of the credit system;setting up courses to foster student's ability to solve environmental problems;timely response to new viewpoints and theories on environmental sciences;setting up courese about environmental humanities and social science;developing courses concerning environmental policy;course of resource science;and the utilization of teaching methods.We can conclude that some experiences mentioned above in USA are used for reference when we make the national basic training speciifications and basic teaching requirements for undergraduate studnets majoring in environment.
+Keywords　higher environmental educatioin,course structure,comparative study.
+　　本文选择了美国高等学校环境类本科专业中具有代表意义的5所大学，对环境类专业课程结构和教学实施上从下述9个方面与我国加以对比，为研究制订我国高校环境类专业本科生基本培养规格和教学基本要求以及高等环境教育发展战略提供研究基础.
+
+1　本科专业培养目标的差别
+　　我国对本科生的培养目标多年以来强调培养“专家”和“专门人才”，要求毕业后专业能“对口”，因此培养学生唯恐其专业知识深度不够，而较为忽视广度，导致毕业后工作适应面小.近年来虽已逐步扩大专业培养口径，但还不够.另一方面，忽视对学生全面的文化素质的培养，在“知识”、“能力”和“做人”三者中，后二者较为薄弱.美国大学对本科生的培养目标，则比较注意三者兼顾，例如北卡罗莱纳大学的公共卫生学院的本科学位专业(环境科学与政策专业，为其4个本科学位专业之一)是将广泛的基础教育与公共卫生领域的专业教育相结合［1］.该类专业培养从事在卫生和有关领域专业职业的人员，为以后的研究生学习提供一个坚实的基础，并使学生将来获得全面发展.所谓全面发展实际上指今后如何作为一个有大学文化的社会人.该专业又让学生“在获得较强的专业基础同时，也钻研这些学科在环境政策中的应用”，强调应用能力的培养.
+
+2　素质教育课程
+　　对本科生的培养应注意素质教育.素质指的是知识加能力，再加上能使知识和能力更好地发挥作用的东西——做人.素质具体可以包括4个方面：一是思想道德素质；二是文化素质(包括物质与精神两种文化)；三是业务素质；四是身体心理素质.素质教育是这4方面的全面教育.21世纪需要的人才是高素质的、全面发展的人才.对大学生进行提高素质的教育，是一个十分复杂的系统工程，决非一个方面、一种方法所能胜任，必须各方面通力协作才能奏效.开设系列课程是其中一种重要的方法.例如美国华盛顿州立大学设有“综合教育计划”(General Education Program)比较具有系统性，它包括贯穿本科一至四年级各年级的系列课程，4年总共须修习40学分，分为艺术与人文、社会学科和科学(实为自然科学)3个系列［2］.例如设置了现代社会中的人文学科、伦理学导论、美学、环境伦理学、美国文化中的主要趋向、伦理学与职业作风(Ethics and Professionalism讲述土木工程的职业作风)、职业写作等等课程，以加强学生的素质教育.
+　　又如纽约州立大学环境科学与森林学院环境研究系环境研究专业，在“较低部分”课程(相当于我国公共基础课)的60个学分中，必修人文科学类6个学分，课程包括了文学、哲学、外语、艺术、音乐、喜剧等，由学生自己选择［3］.而我国的课程设置中如环境学专业，必修课有大学生思想品德、法学概论、体育、大学语文10个学分，并在一些学校开设了艺术鉴赏、音乐欣赏等任选课.虽然中美之间课程设置不同，但目的相同，即加强学生文化素质教育.然则，职业素质教育，在我国环境类专业中常常被忽视，其课程设置远远少于美国.例如美国杜克大学环境学院开设的职业素质教育课程有：职业写作(Professional Writing)\,职业技能(Professional Skill)\,环境影响分析的准备和报告(Environmental Impact Analysis Preparing and Documenting)［4］.又如纽约州立大学环境科学与森林学院环境研究系开设的课程有：写作、图书馆研究(Library Research)\,科学职业写作(Writing for Science Professionals)\,环境职业写作(Writing for Environmental Professionals)等［3］.而我国高校仅开设环境专业英语一门，这不符合对学生全面素质培养的要求，因此我国在加强思想道德素质和文化素质教育的同时，需大力加强职业素质教育.
+
+3　课程体系和结构与学分制实施上的差别
+　　我国现行本科学分制中的缺点是规定的必修学分多，而选修学分少，开设的专业课程种类少，因而学生的选择机会少.而美国环境类本科生专业课程设置中的一个明显特点就是专业课数量众多，涉及面广，学生选修自由度大，特别是在指定选修课和必修课中也同时设置若干门课供学生选择.表1列出了纽约州立大学环境科学与森林学院环境研究专业课程结构［3］，从表1可以看出，不仅是在专业必修课中具有较多的选修，而且在主修方向专业课和“较低部分”课程必修课(相当于我国的公共基础课中)也具有较大的选择自由度.在课程结构上既明确区分各个部份，又注意保证各个所需要的部分的不同选修量，以保持学习计划的完整性.这些明显的特点一方面反映了环境学科和环境问题解决的复杂性和综合学科性，另一方面也反映美国受市场经济调节及其人才需求的特点，并反映对学生自我价值创造的信任以及开创学生创造力的教育思想.
+
+4　综合分析和解决环境问题能力的培养
+　　环境教育课程应是综合学科性的，并应集中在真正的实际环境问题上.学校课程应在获得的理论基础上，上升到与此相关的特殊环境问题的实践.学生应是一个活跃的思考者和知识的产生者，而不应该是消极的旁观者和他人知识和思想的接受者，学生的知识和技能应集中于对环境决策、环境问题的实践［5］.环境问题的解决应是多学科的综合性方法，因此，要求学生具有这种综合分析问题和解决实际问题的能力.美国大学环境类课程中比较重视培养学生具有综合地分析环境问题的能力和掌握解决环境问题的方法(见表2).表2列出的这些课程都是通过实例讲授和课堂讨论以至现场调查进行，而在我国环境教学中十分缺乏这类课程.
+表1　纽约州立大学环境科学与森林学院环境研究系的课程体系与结构
+Table 1 The system and structure of course offerings at faculty of Environmental Studies,College ofEnvironmental Science and Forestry,State University of New York
+
+较低部分课程较高部分课程
+A. 自然科学(Nature Sciences),15—20学分
+a. 普通生态学或普通植物学，或普通动物学，6—8学分
+b. 普通地学/地球科学，3—4学分
+c. 普通化学或普通物理学，6—8学分
+B. 社会科学(Social Sciences),18学分
+a. 经济学，3学分
+b. 政府/政治科学，3学分
+c. 社会学和文化人类学，3学分
+d. 美国历史，3学分
+e. 心理学或人类地理学或其它社会科学课，6学分
+C. 人文科学(Humanities),6学分
+课程包括：文学、哲学、外语、艺术、音乐、戏剧等
+D. 英文写作，6学分
+E. 数学和计算机应用，6学分
+F. 另外课程，4—9学分
+学生至少须完成较低课程60学分中的54个学分，通常生物学课程中至少有一门必须有实验，必须学习一门普通化学或普通物理学课.　　b. 技术、技能和方法课，9学分
+必修统计学，3学分
+其它6个学分由学生从下列课程中有指导地选修：(计算机程序导论；环境交流；产生的问题解决讨论会；环境影响分析导论；信息技术导论；逻辑学)
+环境经济学，3学分
+管理原则，3学分
+自然资源和环境政策，3学分
+自然资源管理法，3学分
+C. 主修领域课：
+　　从三年级开始，环境研究专业设4个主修领域为：环境信息与技术、土地使用规划、生物科学应用和政策与管理，每一个领域均需修12学分.
+　　a. 环境信息与技术领域
+环境测量和空间信息，3学分
+环境技术：水与废水处理，3学分
+环境管理的决策模式，3学分
+地理信息系统导论，3学分
+　　b. 土地使用规划领域
+规划和设计中的自然过程，3分学
+综合土地规划，3学分
+土地使用发展过程，3学分
+土地发展法，3学分
+　　c. 生物科学应用领域
+必修生物资源课，6学分(植物资源3学分，动物资源3学分)
+任选6个学分的生物学深度课程(例如基因工程)
+　　d. 政策与管理领域
+D. 其他专业课程，12学分
+　　这部分课程由学生根据自己的主修领域自选，但必须保证环境研究广度和深度的学习.例如政策与管理领域课程有：室外娱乐管理、森林旅游地的规划和发展、野生生物管理等.
+E. 高级综合课(Senior Syntheis),3学分
+　　在四年级，学生必须完成3个学分的环境研究综合课，本课程的形式是由学生和导师组成研究或学习小组，以综合学科的方法讨论或解决环境问题.
+　　学生至少应完成较高部分课61—62学分中的51个学分.
+　　一个环境研究专业的学生需完成121—122学分才能毕业，并至少应完成这二部分课程中的105学分，其余16—17学分可由学生从其它方面自选.
+较高部分课程
+A. 环境研究专业基础课，21—22学分
+a. 自然科学课，12—13学分
+必修课三门：
+土壤学，3学分
+水文学和水质量，3学分
+普通生态学，3学分
+　　由学生在下列课程中自选一门：
+　　(环境微生物学；植物多样性；树木学；昆虫学；无脊椎动物学；动物行为的原理；鸟类和哺乳动物生物学；有机化学；环境地学)
+　　b. 社会科学课，9学分
+意识、价值和环境，3学分
+政府和环境，3学分
+社会过程和环境，3学分
+或经批准，学生自选其他社会科学课来代替上述指定选修课.
+B. 技能和方法课，13学分
+a. 技术交流课(The Technical Communications)，4学分
+包括：职业写作(Writing for Professionals)
+图书馆研究(Library Research)
+
+　　注：“环境研究”本科生专业设置的课程分为两大部分，较低部分课程供一、二年级学生学习，较高部分课程供三、四年级学生学习.该专业学制四年，授予环境研究理学学士学位(Bachelor of Science in Environmental Studies)
+表2　美国4所大学环境类专业综合分析和解决环境问题能力的部分课程设置
+Table 2 The courses of environmental majors (Programs) to foster students' abilityto do integrated
+analysis and to solve environmental problems at 4 universities in USA
+
+北卡罗莱纳大学［1］杜克大学［4］
+环境科学与工程专业环境科学与政策专业
+环境问题的分析和解决(Analysis and Solution of Environmental problems)
+
+(每周1小时讲课，2小时讨论)综合案例研究(Integrated Case Studies)
+环境学中案例研究(Case Studies in Environmental)
+资源和环境政策的经济分析(Economic Analysis of Resource and Environmental Policy)
+麻省理工学院(MIT)［6］纽约州立大学［3］
+环境规划与管理专业环境研究专业
+解决环境问题的生态学方法
+(Ecologrical Approachs to Environmental Problem Solving)
+环境政策规划、设计和实施的战略分析
+(Strategic Analysis for Environmental Policy Planning,Desigin and Implementaion)研究问题指导
+(Introductory Research Problems)
+引起的问题解决
+(Creative Problem Solving)
+
+
+5　及时反映环境新观点、新理论的课程
+　　美国环境类专业开设课程的特点是能及时敏锐地反映当前环境决策和举措中的新观点、新动向和新进展，不失时机地向学生介绍，贯彻在他们所开设的新课程中，或者在课程中的若干新章节内充实为新内容，使学生能跟上时代的发展.这方面的课程很多，例如：污染防止导论；环境伦理学；保护和可持续发展Ⅰ.概念和方法；保护和可持续发展Ⅱ.综合问题解决；比较环境和可持续发展.详见表3.
+表3　美国高等学校环境类专业中反映新观点、新理论的课程举例
+Table 3 The examples for environmental courses concerning new viewpoints and theories for environmentalmajors (Programs) at some universities and colleges in USA
+
+华盛顿州立大学［2］杜克大学［4］
+地理信息系统导论(Introducation to Geographic Information Systems)
+
+可更新资源的保护(Conservation of Renewable Resource)地理信息系统中计算机地图分析
+(Computer-Based Map Analysis with Geopgraphic Information Systems)
+麻省理工学院［6］纽约州立大学［3］
+公众政策中的矛盾(Controversies in Public Policy)
+组织与环境(Organizations and Environment)
+国际环境协商(International Environment Negotiation)政府和环境(Government and the Environment)
+意识、价值和环境(Attitude,Values and the Environment)
+社会过程与环境(Social Processes and the Environment)
+环境研究关系(Env.Studies Intership)
+环境争端的协商(Negotiating Env.Disputes)
+环境决策(Env.Decisionmaking)
+环境机构(Env.Institutions)
+环境信息政策(Env.Information Policy)
+环境交流(Env.Communications)
+
+
+6　人文科学和社会科学课程设置
+　　环境不仅仅具有自然结构，而且具有社会结构.同样环境问题也是由社会实践和结构产生的社会问题.如果环境问题被作为一个纯技术问题对待，那么环境问题的解决就被局限在单一的科技领域之中，仅仅依赖于新的技术成果来实现.必须指出的是环境问题是社会问题，不是简单的技术问题.环境问题的解决涉及实际社会和政治行为的意识形态，资源和经济发展模式，社会结构和经济发展的次序，社会价值观和道德标准、社会和公众意识提高和参与.因此，涉及政治、法律、管理、道德、伦理、价值、决策等等一整套社会和人文科学知识，以解决环境问题为目标之一的环境教育，不仅仅需要培养科学家，而且还需要培养思想家、政治家、社会学家，社会咨询家以及环境和政治决策的积极参与者和问题解决者［5］.
+表4　美国高等学校环境类专业中人文科学和社会科学的课程举例
+Table 4 The examples of environmental courses concerning humanities and 
+social sciences of environmental majors (Programs) at some universities and colleges in USA
+
+纽约州立大学［3］杜克大学［4］
+社会/文化影响和环境形式
+环境和政策
+环境科学与政策中的问题
+自然科学与当前的问题
+自然的文学导论
+自然文学
+图书馆研究
+自然资源和环境政策
+管理原理
+自然资源管理法环境经济学：理论和应用
+资源和环境经济学
+资源和环境政策的经济分析
+资源和环境政策
+保护和可持续发展Ⅰ.概念和方法
+保护和可持续发展Ⅱ.问题的解决
+环境伦理学
+环境和自然资源的经济学的高级理论
+国家环境政策法规的实施
+麻省理工学院［6］华盛顿州立大学［2］
+经济发展理论
+环境政策和法规
+社会政策论述
+社会科学研究和理论在政策与实践中的应用
+环境管理
+环境政策和条例
+比较环境和可持续发展哲学导论
+科学哲学
+社会学导论
+人类社会生态学
+政治社会学
+微观经济学
+宏观经济学
+艺术与社会
+公共政策分析
+技术与环境分析导论
+
+　　美国一些大学环境类专业课程设置不仅在专业课程上设置了大量人文社会科学类课程，而且在公共基础必修课中也加强了人文社会科学课程，不论理科和工科都是如此.从表1可看到纽约州立大学环境科学与森林学院环境研究专业在较低部分课程(相当于我国的公共基础课)60个学分中，规定社会科学18个学分，人文科学6个学分.而我国如环境学专业的公共基础课中人文社会必修课程主要是政治课，包括哲学、政治经济学和科学社会主义，以及一些大学开设的选修课.美国高校开设的人文科学和社会科学课程很多(见表4).这些课程对我国教师来说也相当陌生，而且缺乏教材和教学参考资料.
+7　重视和开设环境政策方面的课程
+　　美国环境本科专业中设置环境政策方面课程的不仅专业数量较多，而且各专业均开设了大量涉及环境政策的课程，见表5.这反映了美国高等环境教育比较重视培养决策能力，加强决策所需要的学科基础和人员素质.美国社会中不乏由学校培养的高层次环境决策人员，其社会影响和对保护环境的作用是显而易见的.
+　　西方国家认为环境保护运动与和平、妇女、人权等运动一样是一项政治活动.社会政策制定和实施直接影响着环境问题的产生和解决，我们目前的环境保护是受政治、法规调控的环境保护，还没有达到人类自发的环境保护阶段［7］.环境教育的目的之一是帮助学生根据生态的、政治的、经济的和社会等因素作出关于环境可改变的方法和被传达的决策，须帮助学生检查在政治——立法过程中的正常和非正常过程，鼓励学生分析政治参与的不同形式，有利于今后他们被雇用的政府机关中对战略制定作出判断［5］，这与我国长期以来加强宏观环境管理，实行“三同步”和“三统一”的环境保护方针政策是一致的.
+表5　美国部分大学环境类专业环境政策课程举例
+Table 5 The examples of environmental courses concerning environmental policy for environmentalmajors (Programs) at some universities and colleges in USA
+
+杜克大学［4］麻省理工学院［6］
+资源和环境政策的经济分析(Economic Analysis of Resource and Env.Policy)
+
+资源和环境政策(Resource and Env.Policy)
+土地利用原理和政策(Land Use Principles and Policy)
+国家环境政策的实施(Implementation of the National Env.Policy)环境政策和条例(Environmenta Policy and Regulation)
+社会政策论述(Discuss on Social Policy)
+环境设计政策和作用(Env.Design Policy and Action)
+环境中化学品：政策和管理(Chemicals in Env.:Policy and Management)
+纽约州立大学［3］北卡罗莱纳大学［1］
+环境决策(Env.Decisionmaking)
+环境法与政策(Env.Law and Policy)环境管理与政策(Env.Management and Policy)
+环境政策分析(Env.Policy Analysis)
+自然资源法律与政策(Natural Resources Law and Policy)
+水资源规划和政策分析(Water Resources Planning and Policy Analysis)
+空气污染规章的政策问题(Air Pollution Regulatory Policy Issues)
+华盛顿州立大学［2］
+环境政策(Environmental Policy)
+环境政策讨论会(Env.Policy Seminar)每周讨论2小时
+
+
+　　
+8　资源课程常与环境课程相结合
+　　环境问题的产生与资源的开发利用是不可分割的，人们对环境问题的认识也是从资源问题开始，第一个被人们认识的重大环境问题是人口与粮食问题，随之而来，人们认识到地球上的资源是有限的，资源开发利用会产生众多的环境破坏和污染.环境保护中重要内容之一是资源保护.可持续发展观提出了新的资源保护要求，如生物多样性保护、大气臭氧层保护等等.
+　　既然环境与资源问题密切不可分，在本科专业课程设置和教学上也应充分反映.但我国却很少结合和反映这种联系.美国高等环境教育不仅在专业设置上把资源与环境紧密联系在一起，而且在课程设置上也是如此(表6).
+表6　美国环境类专业资源课程举例
+Table 6 The examples of environmental courses concerning natural resource for environmental majors (programs) at some universities and colleges in USA
+
+杜克大学［4］纽约州立大学［3］
+土壤资源(Soil Resource)
+
+资源与环境经济学(Resource and Env.Economics)
+资源与环境政策(Resource and Env.Policy)
+自然资源损害评价的经济学
+(Economics of Natural Resource Damage Assessment)
+环境和自然资源的经济学的高级理论
+(Advanced Theory of Env.and Natural Resource Economics)
+资源和环境政策讨论会(Seminar in Resource and Env.Policy)生态学、资源和发展
+(Ecology,Resource and Development)
+水资源管理
+(Water Resources Management)
+环境和资源工程研究
+(Research in Environmental and Resource Engineering)
+
+
+　　
+9　专业教学中课堂讨论方式的运用
+　　露丝*比尔德认为小组讨论教学法的作用［8］：(1) 发展心智技能　a. 促进理解：这是一个小组讨论的基本要求，应使学生知道某一学科领域的概念、原理等等，使学生学会这门学科中各种知识之间的联系；b. 通过讨论学生的论文、设计或实验结果来发展他的潜能.(2) 教学生如何解决问题，作出分析和判断，并发展批判思维能力.(3) 有根据地评述某一领域.(4) 培养学生口头表达的技能.(5) 运用讨论来改变学生的态度.
+　　美国大学环境课程的教学方式，不是以教师讲授的灌输方式为主，而是在教师讲课后，规定较多的学时用于课堂讨论(Seminar)，有些课程课堂讨论的学时往往多于教师讲课学时，例如北卡罗莱纳大学的“环境问题的分析和解决”，每周共3个学时，其中教师讲1学时，课堂讨论2学时［1］.
+　　在美国大学的课程中设有大量讨论会(Seminar)和讲座讨论(Advanced Topic of Special Topics)以及独立研究(Independent Study),一般1—2个学分，讨论会和讲座讨论形式有教师组织和由学生自己组织，针对某一个问题或某一个领域，学生运用已学过的知识，参考文献资料，由学生演讲发表自己的观点，陈述存在的问题以阐述设想的解决方法.独立研究一般在教师的指导下，由3—5个学生组成一组，针对某一个具体问题展开室内、室外的研究，写出小论文.这些讨论会不仅培养学生独立思考、独立解决问题，独立研究的实际技能，而且有助于培养学生创造力，这在环境科学领域显得十分重要.环境教育目的之一是致力于环境问题的解决，帮助学生发展调查整个环境和解决问题的技能，要提供学生有机会在所有水平上的活动致力于环境问题的解决［5］.然而，我国环境类专业的教学方式仍以课堂灌输的教学方式为主，这种教学方式既不符合高等教育的教学思想和发展趋势，也不符合环境科学应有的教学特点.
+
+10　小结
+　　通过以上9个方面的调查、对比和分析，可以看到，中、美两国高等教育环境类专业课程体系、结构与教学实施上存在很大差别，我国高等环境教育可以在很多方面借鉴美国的做法.首先在培养目标上要改变只着眼于职业、专长的培养，而要重视全面的素质教育，进一步加强基础，扩大专业培养口径；本科专业名称口径一般应宽于研究生专业或至少相似；在课程体系和结构上要合理组织.将全面的素质教育贯穿于专业学习全过程；从课程设置和教学内容及方法上，努力加强综合分析与解决实际环境问题能力的培养；课程种类和内容都要力求及时反映现代环境科学技术中的新进展；尤其要加大课程体系中人文科学和社会科学课程的比重，无论理、工、农、医、文各科专业都要如此；增设环境政策方面的课程和增加有关课程中环境政策的内容；设法改变目前课程体系中资源与环境脱节的状况，增设二者密切结合的课程；增加培养基本技术和基本技能方面课程的设置；在教学实施上切实改变以教师讲授为主的灌输式教学方式，充分运用课堂讨论、文献阅读、社会调查等各种生动活泼的教学方式，以提高学生的学习主动性和培养分析和解决实际环境问题的能力.
+参考文献
+1　The University of North Carlina at Chapel Hill,Record of the School of Public Health,Department of Environmental Science and Engineering,1995—1997
+2　Washington State University,Department of Civil and Environmental Engineering,The Undergraduate Program,1995
+3　State University of New York.College of Environmental Sicience and Forestry,1994—1995
+4　Duke University,School of the Environment,1996—1997
+5　Ian Robottom,Environmental education:Practice and Possible,Deakin University Press,Austalia,1987
+6　Massachusetts Institute of Technology,Department of Urban Studies and Planning,1995—1996
+7　Julie Jubeir.Education of Environmental Managers for Tomorrow,EPA Journal,Spring,1995:31—33
+8　露丝*比尔德著.陈友松译.高等学校教育法.北京：春秋出版社，1989

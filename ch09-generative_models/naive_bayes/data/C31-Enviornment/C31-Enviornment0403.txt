@@ -1,0 +1,60 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第2期 No.2 1999
+
+
+
+六种重金属对大肠杆菌体内质粒DNA一级结构的影响
+孟 玲　王焕校　谭德勇
+　　摘要：将质粒pBR322、c-Myc、pC53-SN3、pTB29转入大肠杆菌(Escherichia coli)HB101中,使其各自分别在含亚致死浓度Pb2+、Cd2+、Zn2+、Cu2+、Mn2+、Hg2+的液体氨苄 LB培养基中,振荡培养 2 4h后,再将这些质粒抽提出来,通过限制性内切酶分析,研究了这些重金属离子对大肠杆菌体内质粒DNA分子一级结构的影响.结果表明,在供试的6种重金属离子中只有Hg2+处理可明显导致质粒DNA序列的改变.此外,供试6种重金属离子连续处理24h未发现可明显导致大肠杆菌体内质粒DNA链的随机断裂.
+　　关键词：重金属；质粒；DNA一级结构 
+　　中图分类号：X503 文献标识码：A 文章编号：1000-6923(1999)02-0169-03
+Effects of six heavy metals on plasmid DNA sequence in vivo of E.coli HB101.
+MENG Ling,WANG Huan-xiao,TAN De-yong
+(Department of Biology,Yunnan University,Kunming 650091,China). China Environmental Science. 1999, 19(2)：169～171
+Abstract：Transformating the plasmids of pBR322, pC53-SN3 , c-Myc and pTB29 into Escherichia coli HB101 and cultured with vibration in LB which contained separately sublethal concentration of Pb2+ , Cd2+ , Zn2+ ,Cu2+ ,Mn2+ or Hg2+ , constantly for 24 h,these plasmids were isolated.The effect of the heavy metals on plasmid DNA were studied through the analysis of restriction fragment length polymorphism(RFLP). The result showed that only Hg2+ could lead to the change of plasmid DNA sequence. Moreover, these heavy metals did not cause the random break of the double-strand plasmid DNA after the treatment in vivo of E. coli HB101 for 24h.
+Key words：heavy metal；plasmid；DNA sequence
+　　已有研究表明某些重金属如铅、镉、砷、铬、钴等对生物具有遗传毒性,它们干扰DNA代谢,并可导致染色体和DNA分子的变异[1- 5],且实验显示许多重金属离子能与DNA相互作用并可导致DNA的断裂[6,7] .目前,有关金属离子与DNA的 相互作用及重金属的致突、致癌、致畸作用越来越引起人们的重视.
+1 材料和方法
+1.1 菌种
+　　由华西医科大学生化教研室孙芝琳教授提供大肠杆菌HB101( Escherichia coli HB101).
+1.2 质粒
+　　采用4个质粒:pBR322、pC53-SN3、c-Myc和pTB29.其中pBR322为标准质粒(购自东方生物试剂公司),其余3种均为 以 pBR322为载体的重组质粒.pC53-SN3 质粒含P53基因,c-Myc质粒含Myc基因(质粒pC53-SN3由美国Hopkins大学Vogelstein教授提供,c-Myc质粒由美国刘万国博士提供);质粒pTB29含rbcL基因,由中国科学院昆明植物研究所胡运乾副教授提供.
+1.3 重金属离子处理
+　　转入不同质粒后的宿主菌经挑单菌落摇瓶活化后,被同时转接于同样体积(200mL)分别含亚致死浓度不同重金属离子(PbCl21mM, CdCl2 0.2 mM,ZnCl2 0.75 mM,CuCl2 0.75 mM,MnCl2 1 mM,HgCl2 0.02mM)的氨苄LB液体培养基上(NaCl 10.0g/L,牛肉膏10.0g/L,酵母粉5.0g/L,Amp 50.0μg/mL,pH 7.2～7.4[8]),接种量为200μL,同时设置不含金属离子的空白对照.每次实验同时进行,采用同一批配制的培养基,同时在37℃, 100r/min条件下振荡培养24h.
+1.4 质粒的抽提
+　　质粒在宿主菌中经连续24h的不同重金属处理后,连同对照,采用碱裂解法,同时从宿主菌中抽提出来,具体操作见文献[8].抽提出来的质粒溶于500m L的1′ TE缓冲溶液中,并经电泳和紫外光谱检测及定量后,于4℃保存备用.
+1.5 质粒DNA的限制性片段长度多态性分析
+　　用过量的4碱基限制性内切酶Taq I及6碱基限制性内切酶Bam HI,Dra I,分别酶切以上质粒,酶用量为10μg质粒DNA,酶切质粒量每次1.5μg,酶切反应总体积20μL,Taq I酶切温度65℃, Dra I和Bam HI为37℃,酶切时间均为12h.酶切反应结束后,Taq I酶切产物进行5%聚丙烯酰胺凝胶电泳, Dra I和Bam HI酶切产物进行1%琼脂糖电泳,电泳后紫外拍照记录实验结果,具体方法参见厂家说明及文献[8].此实验重复两次.
+2 结果与讨论
+2.1 限制性内切酶分析结果
+　　从限制性酶切电泳图谱看,供试的4个质粒经不同金属离子处理后,只有质粒pC53-SN3 经Hg2+处理后酶切图谱发生明显变化,结果见图1. 质粒pC53-SN3总长为8.4kb,6碱基限制性内切酶Bam HI的识别序列为GGATCC,它在质粒pC53-SN3上有 两个识别位点,酶切后产生1.8kb和6.6kb 2个片段.Hg2+处理后Bam HI酶切质粒pC53-SN3只产生一条带, 此带大小比对照的6.6kb片段大,且它的电泳迁移行为不同于其未酶切的质粒,表明Hg2+处理使质粒pC53-SN3上Bam HI识别序列消失了1个,使其被切成8.4kb的线状DNA(图1A).限制性内切酶Dra I的识别序列为TTTAAA,酶切质粒pC53-SN3产生4条带,Hg2+处理后它的酶切谱带增至7条(经重复实验及分析,一些被认为属于酶切不完全的电泳带不予统计),且只有3条带的电泳迁移位置与对照一致(图1B).4碱基限制酶Taq I的识别序列为TCGA,它酶切质粒 p C53-SN3后产生14个酶切片段, Hg2+处理后其Taq I酶切谱带发生很大变化,酶切片段数由对照的14条下降为10条,并且只有5条带的电泳迁移位置与对照一致(图1C).此外,酶切电泳结果还显示,经供试金属离子处理后,这几个质粒的酶切电泳谱带与对照相比仍很集中,未出现电泳带拖尾、弥散或背景“噪音”增加的现象(图1).
+
+
+
+
+图1 重金属离子处理大肠杆菌体内质粒pC53-SN3后的RFLP图谱
+Fig.1 The RFLP patterns of plasmid pC53-SN3 after the treatments of heavy metals in vivo of E.coli HB101
+A.Bam HI酶切 B.Dra I酶切,１%琼脂糖凝胶电泳 C.Taq I酶切,5%聚丙烯酰胺凝胶电泳
+1.Mark 2.Ck 3.Pb2+ 4.Cd2+ 5.Zn2+ 6.Cu2+ 7.Mn2+ 8.Hg2+
+2.2 讨论 
+　　本研究所用质粒是一种存在于细菌染色体外的双链环状DNA分子,可独立复制,其复制不受宿主菌染色体复制的控制,在宿主菌中可多次复制使其拷倍数高达15～700个[8],且大肠杆菌生长迅速,故用质粒作为实验材料可在较短时间内获得重金属对DNA长期效应的信息.此外,质粒DNA分子较小便于研究,其为环境污染物对体内DNA影响和损伤的研究提供了一个理想的分子模型.
+　　供试质粒在大肠杆菌体内随着宿主菌生长传代而进行复制扩增,同时分别处于不同重金属离子的处理下,被抽提出来立即进行研究.在实验过程中,除金属离子处理条件不同外,其余条件均保持一致,故经不同重金属离子处理后的质粒与未经处理的对照质粒间的任何差异均为重金属胁迫所致.并且,从酶切图谱来看,同一质粒不同处理间、重复实验间、酶切图谱基本稳定,酶切片段大小与质粒大小也吻合,可以排除由于限制酶纯度等问题带来的实验误差.
+　　从限制性片段长度多态性(RFLP)分析的原理可知,如果在DNA分子中发生了内切酶识别序列内碱基的变化,则限制酶切图谱会发生改变,酶切片段数量和片段的长度与对照不同,可发生谱带数量的增减和迁移位置的改变,即产生限制性片段长度多态性.如果DNA分子发生随机断裂则电泳结果会出现拖带、电泳谱带背景增强甚至DNA在整个泳道内呈火箭状分布.故从限制性片段长度多态性分析原理可以认为,高浓度Hg2+处理大肠杆菌体内质粒pC53-SN3可使其DNA的碱基序列发生改变,即Hg2+对质粒DNA一级结构具有诱变性,但实验结果未显示供试其它金属离子对质粒DNA序列具有明显诱变性,也未发现高浓度的这些供试金属离子可明显造成质粒DNA链的随机断裂.
+　　在实验检测范围内供试的6种重金属离子中,只有Hg2+可明显导致质粒DNA序列的改变,表明Hg2+对生物的遗传毒性较强,此结果与Hg2+的生理生化毒性较强的结果一致.Aage F.N.等[6]研究表明,Hg2+可直接与DNA分子的碱基结合,这可能是Hg2+导致DNA序列变异的主要原因.
+3 结语
+　　在铅、镉、锌、铜、锰、汞6种供试金属离子中,只有汞离子可明显导致质粒DNA一级结构的改变,表明汞离子的遗传毒性较强,且其遗传毒性的机理主要是其直接对DNA一级结构的诱变作用.此外,实验结果表明,供试的6种金属离子不能明显导致质粒DNA链的随机断裂.
+基金项目：云南省应用基础研究基金资助项目(95C144M)
+作者单位：孟 玲　王焕校　谭德勇（云南大学生物系,云南 昆明 650091）
+作者简介：孟 玲(1964-),女,江苏铜山人,云南大学生物系生态学与环境生物学研究室讲师,中国科学院昆明植物研究所植物生物技术化学在读博士生.主要从事生态遗传学及环境毒理学方面的研究工作.发表论文10余篇.
+收稿日期：1998-08-02
+
+参考文献：
+　[1]曹 阳,张 林,刘雁雨. 22种化学物和紫外线对λDNA的遗传毒性分析[J].中国环境科学,1994,14(2):139-142.
+　[2]段昌群,王焕校. 重金属对蚕豆的细胞遗传学毒理作用和对蚕豆根尖微核技术的探讨[J].植物学报,1995,37(1):14-24.
+　[3]孟紫强.中国田鼠卵巢细胞gpt基因自发突变和亚砷酸钠诱发突变的分子分析[J].遗传学报,1997,24(5):403-409.
+　[4]张 波,孟紫强.汞和镍对人血淋巴细胞转化及DNA合 成的效应[J].中国环境科学,1996,16(6):452-455.
+　[5]张义贤.重金属对大麦(Hordeum Vulgare)毒性的研究[J].环境科学学报,1997,17(2):199- 205.
+　[6]Aage F N,Einar S.Interaction of mercury (Ⅱ) with the DNA dodecomer CGCGAATTCGCG.A'H and 15 N NMR study [J].J. Am. Chem. Soc., 1994, 116(8):3240-32
+　[7]刘建源,陆宗鹏.鸟嘌呤和次黄嘌呤的铜络合物的吸附作用和伏安特性研究 [J]. 分析化学,1993,21(9):1022-1027
+　[8]Sambrook J, Fritsch E F, Maniatis T.Molecular cloning a laboratory manual [M].2nd. ed. New York:Cold Spring Harbor Laboratory Press,1989.1.3, 1.21-42, 6.3-20, A.1.

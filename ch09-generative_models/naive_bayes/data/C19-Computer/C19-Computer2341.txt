@@ -1,0 +1,114 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.7　P.848-852
+
+
+
+曙光1000上矩阵乘积算法的性能分析
+谢幸　顾乃杰　陈国良
+摘　要：矩阵乘积算法在科学计算中应用十分广泛.文中给出了典型矩阵乘积算法在曙光1000上的性能比较和分析，并针对SUMMA算法研究了分块尺寸对其通信性能的影响，指出分块尺寸是影响其通信性能的一个重要因素.原算法并没有给出其分块尺寸的具体选取方法，文中通过理论和实验的分析提出了一个选取最优分块尺寸的标准.实验结果显示SUMMA算法按文中的标准选取最优分块尺寸后性能得到大幅度提高，可达机器峰值的50.7%.　　
+关键词：曙光1000，矩阵乘积，通信，性能分析
+分类号：TP302
+PERFORMANCE ANALYSIS OF MATRIX MULTIPLICATION
+ALGORITHMS ON DAWNING-1000
+XIE Xing
+(Department of Computer Science and Technology, University of Science and Technology of China, Hefei 230027)
+GU Nai-Jie
+(Department of Computer Science and Technology, University of Science and Technology of China, Hefei 230027)
+CHEN Guo-Liang
+(Department of Computer Science and Technology, University of Science and Technology of China, Hefei 230027)
+Abstract：Matrix multiplication is widely used in scientific computing. The performance of typical matrix multiplication algorithms on Dawning-1000 are compared and analyzed in this paper. The analysis shows that matrix block size is an important factor in the performance of the SUMMA algorithm, but how to choose the best block size is not considered in the original algorithm. A criterion is proposed here for choosing the best block size in the SUMMA algorithm after theoretic and experimental analysis. Higher performance is achieved by improving the SUMMA algorithm using this criterion. Experimental results show that it can reach 50.7% of the peak performance.
+Key words：Dawning-1000, matrix multiplication, communication, performance analysis▲
+1　引言
+　　在科学与工程计算的许多问题中，矩阵乘积是最基本的算法之一.在分布存储并行机上的经典矩阵乘积算法主要有1969年Cannon［1］提出的二维mesh上的矩阵乘积算法和1987年Fox［2］等提出的“广播-乘积-滚动”算法.1994年Choi等［3］提出的PUMMA算法将Fox算法推广到二维块卷帘数据分布上，同年，Huss-Lederman等［4］又将Fox算法推广到虚二维环绕数据分布.1995年van de Geijn和Watts［5］提出了一个简单而高效的矩阵乘积算法，称为SUMMA算法.
+　　曙光1000并行机是国家智能计算机研究开发中心研制的一种基于分布存储结构和消息传送机制的大规模并行计算机系统［6］.本文讨论了典型矩阵乘积算法Fox 算法和SUMMA算法在类似于曙光1000这样的大规模并行机上的实现，并比较和分析了它们的性能.
+　　SUMMA算法将矩阵相乘分解为一系列块修正，减少了内存的使用量，可以求解更大规模的问题.在SUMMA算法中，最优的分块尺寸被认为对于具体机器是一个常数，并采用手工的方法选择.但我们的分析发现最优的分块尺寸不仅和机器通信性能相关，而且还与处理器的数目和拓扑结构有关.在曙光1000上的实验结果证实了我们的分析.我们提出了一个选取最优分块尺寸的标准，并按这个标准对SUMMA算法中的分块尺寸进行了调整，使其性能得到了大幅度提高.
+2　计算环境
+　　曙光1000是一个基于消息传递机制的松散耦合的大规模并行计算机系统.如图1所示，它包括32个基于Intel's i860XR的计算结点（主频40MHz，字长64位），4个服务结点和I/O结点.计算结点每个结点内存为32MB.曙光1000的峰值计算速度是2.56GFlops(单精度)，1.92GFlops(双精度).这些结点通过一个6×6的二维mesh连接，在每个mesh网格上有一个wormhole路由器.在wormhole路由下，消息穿过途中的路由器，而不进入途中的结点机.这样，消息传递并不中断所经结点的运行，对大多数应用来说，结点之间可看作是全连接的.从一个结点向另一个结点发送m个字节的消息，所需时间均为ts+mtw，其中ts是通信启动开销，tw是通信带宽，这里假设网络无拥挤出现.曙光1000上的测试结果显示，ts的值为150μs，tw的值为0.026μs/byte.
+
+
+图1　曙光1000的体系结构
+　　曙光1000上提供了一个串行优化数学库Kmath，它包含基本线性代数子程序BLAS和FFT等常用科学计算子程序.我们在单结点上的串行计算尽量调用Kmath库完成，以充分利用系统的资源.
+3　算法描述和分析
+　　这里我们考虑的问题是计算矩阵乘积C=A×B，其中A，B和C分别是m×k，k×n和m×n阶矩阵.处理器数为p，映射为r×c二维mesh，这里p=r×c，mycol和myrow分别为各处理器所在的行号和列号，0≤myrow≤r-1，0≤mycol≤c-1.在不引起混淆的前提下，我们也用A,B和C来表示各处理器上的子矩阵块，用A′，B′表示通信时使用的辅助空间.
+3.1　Fox算法［2］
+　　这里假设m=k=n且r=c=，Fox算法将A，B和C均划分为×块相同大小的方阵，对应放在×的二维mesh上.算法过程可以分为“广播、乘积、滚动”3部分，如算法1所示.
+　　算法1. 二维mesh上的Fox算法
+　　C=0
+　　for i=0 to  -1 do
+　　　　　curcoll = （myrow+i） mod 
+　　　　　if mycol = curcol 向本行广播A，存于A′
+　　　　　C=C+A′×B
+　　　　　if i≠-1 B在本列内向上循环移动一行
+　　end for
+　　Fox算法的计算量为Θ(n3/p).算法中矩阵A广播了次，B移动了-1次，它们的大小均为n2/p，所以算法的通信开销为，也就是.由于每个处理器上需要存放A，B和C三个子矩阵，再加上接收消息所需空间，总共需要的空间至少为Θ(4n2/p).
+3.2　SUMMA算法［5］
+　　SUMMA算法和Fox算法一样，将A，B和C划分为相同大小的矩阵，对应放在r×c二维mesh上.但SUMMA算法将矩阵乘法分解为一系列的秩nb修正，即各处理器中的A和B分别被分解为nb大小的列块和行块进行相乘，nb≤min(k/r,k/c)，前面所说的分块尺寸就是指nb的大小.算法中，广播实现为逻辑处理器行环或列环上的流水线传送，达到了计算与通信的重叠.具体描述如算法2所示.
+　　算法2. 二维mesh上的SUMMA算法
+　　C=0
+　　for i=0 to k-1 step nb　do
+　　　　　curcol = i×c/n
+　　　　　currow = i×r/m
+　　　　　if mycol = currol 向本行广播A从i mod (k/c)列开始的nb列，存于A′
+　　　　　if myrow = currow 向本列广播B从i mod (k/r)行开始的nb行，存于B′
+　　　　　C=C+A′×B′
+　　end for
+　　SUMMA算法的计算量为Θ(n3/p).算法中通信部分采用了流水线广播的技术，其通信开销应为(k/nb+2c-3)(ts+m×nbtw/r)+(k/nb+2r-3)(ts+n×nbtw/c)，当m=k=n且r=c=时通信开销为2(n/nb+2p-3)(ts+n×nbtw/).由于每个处理器上需要存放A，B和C三个子矩阵，再加上接收消息所需空间，总共需要的空间为Θ(3n2/p+2nb×n/).
+　　SUMMA算法的计算复杂度和Fox算法相当，而所需的辅助空间小于Fox算法，在处理器数目相同时，SUMMA算法可以求解更大规模的问题.另外又由于SUMMA算法采用了流水线广播的技术，其通信开销中不含logP因子，故SUMMA算法具有更好的可扩放性，对于大规模并行机，SUMMA算法要优于Fox算法.
+4　nb对SUMMA算法通信性能的影响
+　　在SUMMA算法中，最优分块尺寸nb被认为对于具体机器是一个常数，并使用手工的方法选取.我们在这一节研究了nb对SUMMA算法通信性能的影响，并从理论上寻找选择最优nb的方法.
+4.1　理论分析
+　　为了简化讨论，我们假设m=k=n，即A,B,C均为方阵，这时SUMMA算法的通信开销为
+2n×ts/nb+n×nbtw((2c-3)/r+(2r-3)/c)+n2tw(1/r+1/c)+(2c+2r-6)ts，
+　　当分块尺寸nb增加时，式子第1项减少，第2项增加，而其它项的值不变.这里第1项的减少代表了启动开销随着启动次数减少的降低，而第2项的增加代表了计算与通信重叠的减少.
+　　通过计算可以得出当时，通信开销随着nb增加而减小，而当时达到最小值，这里r和c须满足(2c-3)/2r+(2r-3)/2c>0.
+　　下面我们令，则ω的大小完全取决于机器的通信性能，对于具体机器是一个常数，我们称其为机器通信因子，因为ω是机器通信性能的一个度量，当ω相对较小时，则机器的启动开销相对较小，而通信带宽相对较大，也就是通信性能相对较好.反之，当机器通信性能相对较差时，则ω的值也相对较大.
+　　我们又令,则ψ的值取决于二维处理器网格的大小和形状，故我们称其为机器结构因子.当r=c=时，也就是在正方形网格的情形下，，其中p≥3.随着处理器数目的增加，ψ的值增加并逐步趋近于.
+　　我们将最优分块尺寸记作nbmax，从上面的分析可以得出
+nbmax=ω/ψ
+　　我们将其作为最优分块尺寸选取的主要标准.
+　　我们可以发现，nbmax的大小不仅取决于机器通信因子ω，还取决于机器结构因子ψ，其中机器通信因子对给定机器是一个常数，而机器结构因子则随着所用处理器网格的大小和形状而不同.所以只有同时给定机器和具体网格大小结构，nbmax的值才能是一个定值.
+　　nbmax的大小正比于ω，当机器通信性能好时，nbmax相对较小，而当机器通信性能差时，nbmax相对较大，这样算法所需的辅助空间也会相应增加.nbmax的大小和ψ成反比关系，当处理器数目增加时，nbmax减小并趋近于一个常数.
+　　对于曙光1000，我们可以计算出其机器通信因子，当处理器数目增加时，ψ趋近于.在正方形网格的情形下，最优分块尺寸nbmax与处理器数的关系如图2所示.从图中可以看出，nbmax并非是一个常数，而是从4个处理器时的107逐渐减小，并趋近于54，减小幅度达到了50%.
+
+
+图2　曙光1000上在r=c时最优分块尺寸与处理器数的关系
+　　对于m，n，k不等的情形，可以通过类似的分析得出最优分块尺寸选取的标准，此时，最优分块尺寸的大小不仅决定于机器通信因子和机器结构因子，还与m，n，k相互之间的比例有关.
+　　在以上分析之外，nbmax的选取还要受到其他因素如存储器大小的限制.在实际算法中，nbmax的选取必须结合以上各种因素综合考虑.
+4.2　实验分析
+　　我们分别在曙光1000的4个处理器和16个处理器上测量了800阶方阵乘法的通信时间和计算时间，实验环境已在第2节中作了介绍，结果如图3所示.其中m=n=k=800，r=c=,Tcomm是通信时间，Tcomp是计算时间.这里的矩阵元素均为双精度浮点类型.
+
+
+图3　nb对SUMMA算法性能的影响
+　　随着nb的增加，通信开销下降幅度很大，而且下降速度随着nb增加而减慢，在达到一定值后才达到较稳定的最低点，而计算开销基本保持稳定.根据前一节的理论分析可以计算出对应于p=4和p=16的最优分块尺寸nbmax应为107和68，这和实验数据是基本吻合的.
+4.3　性能测试
+　　从图3可以看出，虽然nb在大于一定值(在曙光1000上为20左右)以后，计算性能就基本可以达到一个稳定的值，但是通信性能却远未达到最优.由于通信开销占了算法总开销相当大的比重，所以我们应该在存储允许的前提下按前面提出的标准调整nb，以使算法性能达到最优.
+　　我们分别在4个处理器和16个处理器上对Fox算法、SUMMA算法(取nb=20)和调整了nb的SUMMA算法(记作SUMMA′)作了性能比较，实验结果如图4所示.图4显示在同样的条件下，SUMMA算法可以比Fox算法更大规模的问题，改进后的SUMMA算法性能明显增加，在4个处理器时与Fox算法接近，而在16个处理器时超过了Fox算法.
+
+
+图4　Fox, SUMMA和改进后的SUMMA算法的比较
+　　使用改进后的SUMMA算法在全部32个处理器上计算6000阶方阵乘积时，速度可以达到973.30 Mflops，将曙光1000的试算结果［6］提高了25.6%，是曙光1000双精度类型数据运算峰值的50.7%，这里取r=4，c=8.
+5　结语
+　　SUMMA算法在通信开销上优于Fox算法，可扩放性好，适合于大规模分布式并行机.本文通过分析nb对SUMMA算法通信性能的影响，指出分块尺寸是SUMMA算法性能中不可忽视的一个重要因素.分析指出，最优的分块尺寸与机器的通信性能和拓扑结构有关，对于给定的机器，最优的分块尺寸并不是一个定值，而是随着所用处理器的数目和拓扑结构而变化.通过调整nb值改进后的SUMMA算法性能有了大幅度提高，可达到机器峰值的一半以上.
+　　在大规模分布式并行机上，通信开销占执行时间相当大的比重，分析算法时不仅要考虑分块尺寸对计算开销的影响，还要考虑其对通信开销带来的影响.本文对SUMMA算法中最优分块尺寸的分析和研究方法对其它类似算法的性能分析，尤其是通信性能的分析和可扩放性的分析具有一定的参考意义.■
+作者简介：谢幸，男，1977年8月生，博士研究生，主要研究方向为并行分布计算.
+　　　　　顾乃杰，男，1961年8月生，副教授，主要研究方向为并行与分布计算.
+　　　　　陈国良，男，1938年6月生，教授，博士生导师，主要研究方向为并行计算.
+作者单位：谢幸（中国科学技术大学计算机科学技术系　合肥　230027）
+　　　　　顾乃杰（中国科学技术大学计算机科学技术系　合肥　230027）
+　　　　　陈国良（中国科学技术大学计算机科学技术系　合肥　230027）
+参考文献：
+［1］Cannon L E. A cellular computer to implement the Kalman filter algorithm ［Ph D Dissertation］. Montana State University, 1969
+［2］Fox G C, Otto S W, Hey A J G. Matrix algorithms on a hypercube I: Matrix multiplication.Parallel Computing, 1987, 4:17～31
+［3］Choi J, Dongarra J J, Walker D W. PUMMA: Parallel universal matrix multiplication algorithms on distributed memory concurrent computers. Concurrency: Practice and Experience, 1994, 6(7):543～570.
+［4］Huss-Lederman S,Jacobson E M, Tsao A et al. Matrix multiplication on the Intel touchstone delta. Concurrency: Practice and Experience, 1994, 6(7):571～594
+［5］van de Geijn R, Watts J. SUMMA: Scalable universal matrix multiplication algorithm. The University of Texas at Austin, Tech Rep: UTEXAS.CS//CS-TR-95-13, 1995
+［6］曙光1000大规模并行计算机系统鉴定会材料.国家智能计算机研究开发中心, 1995
+　　　(Certifying Material of Dawning-1000 Massively Parallel Processing System(in Chinese).National Research Center for Intelligent Computing Systems.1995)
+［7］孙家昶，张林波，迟学斌等.网络并行计算与分布式编程环境.北京: 科学出版社.1996
+　　　(Sun Jiachang，Zhang Linbo，Chi Xuebin et al. Network Parallel Computing and Distributed Programming Environment(in Chinese). Beijing: Science Press， 1996)
+［8］Gu Naijie, Chen Xiaoqing, Chen Guoliang et al. Performance of matrix multiplication on AP1000. In:Proc of 1997 Int'l Workshop on Computational Science and Engineering, 1997. 104～107
+［9］吴建平，迟学斌. 分布式系统上并行矩阵乘法. 中国科学院软件所并行软件研究开发中心1997年年报, 1998，18～27
+　　　(Wu Jianping, Chi Xuebin. Parallel matrix multiplication on distributed systems. 1997 Annual Report of Research and Development Center for Parallel Software(in Chinese), 1998. 18～27)
+收稿日期：1998-09-14
+修稿日期：1999-03-02

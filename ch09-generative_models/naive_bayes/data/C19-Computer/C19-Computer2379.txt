@@ -1,0 +1,147 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+基于内容的网格生成算法
+吴枫　高文　高鹏　屈立俊
+摘　要　在基于模型的编码技术中，选择合适的网格模型对提高模型的运动估计精度、编码效率和得到高质量的解码图像都是至关重要的.文中提出的基于图像内容的自适应网格模型生成算法，首先利用数学形态学中的水线算法把编码图像分割成许多纹理一致的区域，所分割的区域反映了图像的结构、轮廓和边界；再对这些区域的边界进行多边形拟合，得到多边形各个边的端点作为网格模型的节点，以这些节点为基础就能生成一个Delaunay三角形网格.通过该算法得到的网格能有效的描述编码图像的结构，从而有更好的运动补偿能力和更高的编码效率.
+关键词　基于模型的编码，基于内容的网格生成，数学形态学，水线算法
+中图法分类号　TP391.4
+CONTENT-BASED MESH GENERATION ALGORITHM
+WU Feng，GAO Wen， Gao Peng*, and QU Li-Jun**
+(Department of Computer Science and Technology, Harbin Institute of Technology, Harbin　150001)
+*(Institute of Computing Technology, Chinese Academy of Sciences, Beijing 100080)
+**(Institute of Automation, Chinese Academy of Sciences, Beijing 100080)
+Abstract　It is critical to choose a suitable model for accurate motion estimation, efficiently encoding image signal, and high quality decoding image in model-based coding. A content-based adaptive mesh generation algorithm is proposed in this paper. At first, a watershed algorithm of mathematical morphology is used to segment image into many homogeneous regions so that watershed lines can better represent image structure, contours, and edges. Boundaries of these regions are approximated by polygons that can be represented with a few parameters. Each end point of polygonal sides serves as candidate node of mesh model. Because interval between candidate nodes may be too large or small, some mesh elements based on these nodes are unsuitable for later tracking and motion estimation in quality and size. Some preprocessing are adopted to delete or insert some candidate nodes. A content-based Delaunay triangular mesh can be generated on these nodes with limitation in nodal interval. The results of this algorithm can more efficiently represent encoding image structure, so accurate motion estimation and efficiently encoding can better achieve in model-based coding.
+Key words　model-based encoding, content-based mesh generation, mathematical morphology, watershed algorithm
+1　引言
+　　传统的块运动估计和DCT变换相结合的编码方法，把视频序列按时间先后分为帧，每一帧图像又分为16×16的宏块来进行运动补偿和编码，这种编码方法不考虑图像的具体结构和内容将图像固定分成相同大小的块，所采用的简单块匹配技术也只能补偿块的平移运动，在低码率编码时必然产生严重的块效应.基于模型的编码方法［1，2］把图像的分析和合成技术结合于编码之中，认为编码的图像都具有一定的结构，并用一定的模型加以描述.因此选择适合编码图像的结构模型和运动模型是至关重要的.
+　　在即将公布的MPEG-4新的编码国际标准中［3］，包括基于模型的编码技术.该标准规定了编码网格模型节点的位置和运动的算法及码流格式，但是如何得到网格模型即确定模型的节点位置，以及如何估计节点位置的运动变化，在该标准中并没有作任何规定，而是作为开放性问题留待进一步的研究.本文主要讨论如何基于图像的内容自适应生成网格模型.
+2　网格模型建立方法
+　　基于模型的编码技术自从80年代提出后，关于如何提取描述图像的网格模型进行了许多研究.这些研究根据生成模型的方法大致可以分为3类：规则网格、自适应网格和基于内容的网格.
+　　规则网格［4～6］是把图像按一定的规则分成相同大小的三角形或四边形，传统的把图像划分为16×16宏块的编码方法就是规则网格的一个特例，不同的是在基于模型的编码方法中是通过一定的运动模型来描述其运动的.三角形网格片的运动模型通常采用仿射变换
+
+(1)
+其中aij是描述该三角片运动的6个参数，这些参数可以通过三角形的3个顶点确定.四边形网格片的运动模型通常采用双线性变换
+
+(2)
+其中aij是描述该四边形运动的8个参数，这些参数可以通过四边形的4个顶点确定.这两种运动模型在最优的情况下，即等边三角形和正方形，其性能是相同的［5］.由于在相同数量网格片条件下，三角形网格需要的节点数少，所以三角形网格得到了更多的研究和应用.规则网格在编码过程中不需要对编码图像进行分析，只要简单规定在图像的水平方向和垂直方向的节点数，三角形网格还需要规定对角线的方向，就能在解码端和编码端生成相同的网格模型，因而也不需要编码模型各个节点的位置.但这种网格模型不能很好地反映图像的结构，在同一个网格片上可能包括不同的运动特性和纹理特性，必将影响运动估计的精度和纹理映射的质量.
+　　自适应网格［7，8］是在规则网格模型的基础上，定义一个评价函数来判断每个规则网格片是否存在纹理或运动差异，对存在局部运动和纹理特性差别很大的网格片进一步细分，三角形网格片在其重心插入一个节点将其分为3个小三角形，四边形在4个边的中心插入一个节点将其划分为4个小四边形.这种网格模型有一定的自适应能力，在图像纹理复杂或存在局部运动的区域存在更多的网格片.这种网格模型的节点位置可以通过树形图来有效编码.
+　　基于内容的网格模型［9，10］主要采用图像的分析技术来生成网格模型，得到的网格模型能很好的反映图像的边界和轮廓，从而能正确地估计网格的运动和确保纹理映射的质量.文献［9］用图像的时域和空域梯度信息选择模型的节点，再生成Delaunay三角形网格；文献［10］等所提出的算法也是基于梯度的方法，在生成网格模型时着重处理前景物体覆盖背景物体和背景物体重新暴露这两种情况.为了确定背景图像的哪些区域在下一帧中暴露出来和哪些区域将被覆盖，需要分割出图像的前景物体和准确估计其运动，因而算法的复杂度高，而且准确性也无法保证.基于时域梯度和空域梯度提取模型节点的方法，选择的节点位置很容易受图像噪声的影响，也不能确保图像的边界和轮廓对齐模型的边.另外一类比较特殊的网格模型也属于基于内容的网格模型，主要用来描述图像编码中的人脸部分.这种网格模型根据人脸的共性事先建立通用模型［11，12］，在编码过程中根据特定人的脸形和结构上的细微差别，调整通用模型匹配特定人脸，然后将该模型用于图像的编码.
+　　本文提出了一个新的基于图像内容的网格模型的生成方法.首先我们采用水线算法对关键帧图像即I帧进行分析，将这些图像分割成为许多纹理一致的区域，得到的水线就能反映图像的结构、轮廓和边界；再对这些区域的边界进行多边形拟合，确定能有效描述图像结构信息的关键点，这些关键点作为网格模型的节点，从而生成一个基于图像内容的Delaunay三角形网格.这种网格模型不是基于梯度提取的方法，而是通过区域分割的方法得到的，对图像噪声有很好的鲁棒性，网格模型的边也能很好对齐图像的轮廓和边界，因而能提高网格模型的运动估计精度和纹理映射质量.
+3　算法描述
+　　本文所提出算法的核心思想是利用数学形态学工具来生成基于内容的网格模型.数学形态学［13，14］提供了图像处理的几何方法，能够比较容易处理图像大小、形状、对比度和连通性等一些几何特征，因而在图像处理中得到广泛的应用，尤其是水线变换成为图像分割的最有力的工具［15～17］.本算法共包括4个部分：形态预处理、水线分割、多边形拟合和Delaunay 网格生成，下面将分别讨论各个部分的算法与实现.
+3.1　形态预处理
+　　形态预处理的目的是简化要进行水线分割的图像，防止在分割过程中产生过度分割现象.形态预处理采用数学形态学的工具.在给出具体的预处理算法前，先定义几个基本的算子和操作.
+　　定义1. 膨胀(dilatation)和腐蚀(erosion)算子.
+　　设f(x)表示输入的数字图像，An表示尺寸为n的结构元素，那么形态膨胀算子和腐蚀算子定义如下：
+膨胀算子：δn(f)=max｛f(x-a),a∈An｝　　　　　　　　　　　(3)
+腐蚀算子：εn(f)=min｛f(x+a),a∈An｝　　　　　　　　　　　(4)
+　　定义2. 开(opening)和闭(closing)滤波.
+开滤波：an(f)=δn(εn(f))　　　　　　　　　　　　　(5)
+闭滤波：βn(f)=εn(δn(f))　　　　　　　　　　　　　(6)
+　　形态开滤波和闭滤波通过移去图像中小于结构元素的亮区和暗区来简化图像，因而能作为图像的预处理工具，但是这些滤波在简化图像的同时也使图像丢失了部分边界信息.为了恢复损失的边界信息，通过式(7)的开重构过程来恢复没有完全丢失的边界：
+γ(rec)(εn(f),f)=δ1(…δ1(εn(f),f)…，f)
+(7)
+　　详细的预处理过程为：先对原图像通过形态梯度公式（8）得到结构元素为3×3的形态梯度图像；对形态梯度图像进行结构元素为5×5的闭滤波和开滤波，分别消除面积小于结构元素的凹区和凸区；为了恢复滤波损失的边界信息，以滤波前的图像为参考对处理后的图像进行开重构：
+f′=δn(f)-εn(f)
+(8)
+3.2　水线分割
+　　假设将二维图像f(x,y)看做一个二维的地形图，图像的灰度值表示地形的高低，灰度值越小表示地形越低.水线算法就是模拟把该地形图浸入水中的过程.如果在二维的地形图各个局部凹区的最低处都存在一个小孔，将该地形图匀速按入水面，水将首先从这些小孔进入各个局部的凹区.随着水的浸入，不同局部凹区的水将会汇聚到一起.为了防止水的汇聚，要在汇聚区建立水坝.最后整个地形图都浸入在水面下，露在水面的就只有这些水坝，这些水坝称水线，它将图像分割为各个不同的区域.
+　　水线算法采用迭代标号的方法来实现这一过程，通过3.1节所述的预处理后，设图像的最小灰度值为hmin，这些最小点就是水线分割的各个区域的起始点.算法具体描述如下：
+　　步骤1.将所有像素点按其灰度值由小到大放入一个先进先出队列；
+　　步骤2.取出所有灰度值为hmin的像素点，按下面的规则分别赋予唯一的标号：
+① 孤立的像素点赋给唯一的标号，每一个标号表示一个区域；
+② 相邻的像素点赋给相同的标号，表示这些像素点属于同一个区域；
+　　步骤3.迭代地从队列中取出下一个灰度值的所有像素点，给这些像素点分配标号有3种情况：
+① 像素点的邻域内存在已经分配了标号的像素点，这些分配了标号的像素点标号相同，则该像素点赋予相同的标号；
+② 像素点的邻域内存在已经分配了标号的像素点，但这些分配了标号的像素点标号不同，则该像素点分配一个特殊的标号，这个标号就是水线；
+③ 像素点的邻域内不存在分配了标号的像素点，则表示该像素点是一个新凹区的起始点，给该像素分配一个新的标号；
+　　步骤4.重复步骤直到所有的像素点都分配有标号.
+　　所有标号为水线的像素点就构成了将图像分割成各个区域的水线.水线算法的具体程序流图可以参考文献［18］.
+3.3　多边形拟合
+　　多边形拟合的目的是在满足一定的精度条件下，用尽可能少的点来表达图像的形状信息.水线算法得到的水线虽然能很好反映图像的结构，但需要一个有效的表达方式，多边形就能通过少量的节点来描述图像的形状.我们采用了一种思路简单却有效的多边形拟合方法，来表示3.2节中得到的水线，具体算法描述为:
+　　步骤1.提取图像中水线的交点列表crosspointlist，即两条或两条以上的水线的交点，这些交点也是多边形拟合的端点；
+　　步骤2.从crosspointlist中随机地取出一个交点cross1，并从crosspointlist中去掉这个点.从这个点出发，搜索它的8邻域，如果有两个或两个以上像素点的标号为水线，则把这个交点放入待处理的交点列表stacklist中，并从其邻域中选择一个标号为水线的像素点为起点，把这点的标号置为零表示这条水线已经搜索过；
+　　步骤3.沿着这条水线进行搜索，直到搜索到水线的另外一个交点cross2，并把两个交点及他们之间的像素点保存在一个列表pointlist中.基于第二步中的考虑将这些像素点的标号同样置零.如果cross2的邻域内还存在像素点的标号为水线，把cross2存入stacklist中.如果cross2在crosspointlist中，则从该列表中去掉cross2；
+　　步骤4.进行如下的迭代操作：
+① 计算pointlist中各点到相邻两个交点（或端点）连线的欧氏距离；
+② 求pointlist中距离最大的点及距离H，如果距离H大于设定的阈值，则该像素点为多边形的端点.pointlist一分为二，得到的两个列表，返回①；否则执行下一步；
+　　步骤5.如果stacklist非空，从stacklist中取出下一个交点，返回步骤3；
+　　步骤6.如果crosspointlist非空，返回步骤2.否则END.
+　　多边形拟合得到的所有端点是描述水线的关键点，也是用来生成网格模型的候选节点.
+3.4　Delaunay网格生成
+　　通过对分割区域的边界进行多边形拟合，我们得到了描述图像的结构、轮廓和边界的一些关键点，这些关键点就是生成网格模型的节点.在生成网格模型时还要对这些节点进行处理.多边形拟合选择的节点存在两个问题：可能有两个或两个以上的节点距离很近以及图像边界上节点的距离太大，这样的节点生成网格模型存在三角形的最小角太小和三角形的面积太大或太小等问题，不利于这些三角形片的运动估计.对前一种情况可用下面的节点取代所有相邻的节点：
+
+(9)
+对边界上节点距离太大的情况，可通过限定节点间的最大距离来插入一些新的节点.选定好网格模型的节点后，可以由Delaunay算法生成唯一的网格，具体的网格生成算法可以参考文献［19］.
+4　实验结果
+　　实验1.实验1给出了用本文所提出的算法生成网格模型的过程，Miss America是CCITT所提供的彩色测试序列，所用图像的格式是QCIF，即图像尺寸是176×144，在网格的生成过程中只用到图像的亮度信息.图1(a)是图像序列第一帧的原图；(b)是经过形态梯度、滤波和重建等预处理后的图像；(c)是图像进行水线分割后的结果；(d) 是对分割区域进行多边形拟合后的结果.图2(a)是本文算法所得到的最后的网格模型.与图2(b) 规则的网格模型和图2(c)按照时域和空域梯度选择模型节点所建立的网格模型比较可以看出：在相同节点数的情况下，本文所提出的算法得到的网格模型更能反映图像的结构，模型的边也能比较好地对齐图像的边界和轮廓.
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+图1　(a)原图像(b)经过形态梯度和重建等预处理后的图像(c)水线分割的结果
+(d)多边形拟合的结果
+
+(a)
+
+(b)
+
+(c)
+图2　(a)本文所提出的算法生成的网格模型(b)规则网格模型(c)基于梯度的网格模型
+　　实验2.研究各种网格模型生成方法的目的是为了提高基于模型的编码方法的效率和合成图像的质量，本实验比较了规则网格、梯度网格和本文所生成网格的运动补偿能力.实验采用Miss America(1～150帧)，Akiyo(1～300帧)和Mother and Daughter(100～400帧)3个图像序列，原图像序列的帧率是30Hz，实际的编码帧率是10 Hz，即编码图像的第1，第4，第7，…帧.为了消除其他因素的影响，实验采用前一帧图像的原图像作为参考图像.模型的运动估计采用六边形匹配算法，迭代次数为1，只在3个序列图像的第一帧进行图像分析生成网格模型即I帧编码，后面的所有帧采用运动补偿的方法即P帧编码.表1给出了3种网格模型在编码上述3个图像序列的模型参数和运动补偿的平均信噪比，编码同一个图像序列的3个网格模型节点数基本相同.本文所提出的网格模型在Miss America序列编码中信噪比要比规则网格提高1.3dB，比梯度网格要提高0.47dB.从图3的信噪比图中可以看出，在序列的60～110帧图像向右移动的过程中，本文所提出的网格模型的运动估计效果远远好于其它的两个网格模型.在编码Akiyo和Mother & Daughter序列时，本文所生成的网格模型运动估计的信噪比也同样好于规则网格和梯度网格.
+表1　三类网格模型的运动补偿结果
+图像序列规则网格梯度网格本文的网格
+Miss America
+(150帧)节点数(个)707171
+三角形数(个)108110118
+平均信噪比(dB)37.9938.8339.30
+Akiyo
+(300帧)节点数(个)817879
+三角形数(个)128124137
+平均信噪比(dB)39.4539.8340.21
+Mother & Daughter
+(300帧)节点数(个)110109109
+三角形数(个)180186191
+平均信噪比(dB)36.1136.8037.30
+
+
+图 3 Miss America 运动补偿信噪比
+5　结论
+　　本文所提出的基于内容的网格生成算法不需要编码图像的先验知识，完全通过图像的分析技术自动得到反映图像结构的模型，并且算法的计算量也不大，有比较广泛的应用背景.目前算法在利用形态学工具生成网格模型主要是根据纹理特征来处理，如果与图像序列的运动信息结合能得到更好的效果.但本算法不适用有多个前景运动物体且存在相互覆盖运动的图像序列的模型生成.为了解决这类图像模型的生成，需要分割各个运动物体和准确估计其运动参数，每个物体的网格模型可以用本文所提出的算法得到.
+注:本课题得到国家自然科学基金(项目编号69789301)和国家“八六三”高科技基金(项目编号863-306-03-01-1)的资助.
+作者简介:吴枫，男，1969年生，博士研究生，主要研究领域为运动图像编码和计算机视觉.
+高文，男，1956年生，教授，博士生导师，主要研究领域为人工智能和多媒体技术.
+高鹏，男，1966年生，副研究员，主要研究领域为数字化技术和HDTV.
+屈立俊，男，1972年生，硕士研究生，主要研究领域为图像分割.
+作者单位:吴枫　高文　哈尔滨工业大学计算机科学与工程系　哈尔滨　150001
+高鹏　中国科学院计算技术研究所　北京　100080
+屈立俊　中国科学院自动化研究所　北京　100080
+参考文献
+1　　Li H, Lundmark A, Forchheimer R. Image sequence coding at very low bitrates: A review. IEEE Trans Image Processing, 1994, 3(5): 589～609
+2　　Aizawa K, Huang H S. Model-based image coding: Advanced video coding techniques for very low bitrate applications. in Proc of IEEE, 1995, 83(2): 259～271
+3　　MPEG-4 overview. ISO/IEC JTC1/SC29/WG11, N2564, 46th MPEG Meeting, Roma, 1998
+4　　Brusewitz H. Motion compensation with triangles. In: Proc 3rd Int Conf 64-Kbit Coding of Moving Video, Rotterdam, Netherlands, 1990
+5　　Yuichiro Nakaya, Hiroshi Harashima. Motion compensation based on spatial transformations. IEEE Trans on Circuits and System for Video Technology, 1994, 14(3): 339～356
+6　　Sullivan G J, Baker R L. Motion compensation for video compression using control grid interpolation. In: Proc International Conf on Acoustics, Speed and Signal Processing, Toronto, Canada, 1991. 2713～2716
+7　　Huang Chunglin, Hsu Chaoyuen. A new motion compensation method for image sequence coding using hierarachical grid interpolation. IEEE Trans on Circuits and System for Video Technology, 1994, 4(1): 42～52
+8　　Lee W F, Yuen P C, Chan C K. Two-dimensional split and merge algorithm for image coding. SPIE Visual Communications and Image Processing, Minneapolis, MN, 1995, 2501: 694～704
+9　　Dudon M, Avaro O, Roux O. Triangular active mesh for Motion estimation. Signal Processing: Image Communication, 1997, 10: 21～41
+10 Altunbasan Y, Tekalp A M. Occlusion-adaptive, content-based mesh design and forward tracking. IEEE Trans on Image Processing,1997, 16(9): 1270～1280
+11 Rydfalk M. CANDIDE: A parameterized face. Link O¨ping Univ, Dep Elec Eng Rep: LiTH-ISY-I-0866, 1987
+12 Aizawa K, Harashima H, Saito T. Model-based analysis synthesis image coding for a person's face. Image communication, 1989, 1(2): 139～152
+13 Serra J.Image analysis and mathematical morphology, London, Academic Press, 1982
+14 Serra J. Image analysis and mathematical morphology, Part II:Theoretical advances, London, Academic Press, 1988
+15 Salembier P, Oardas M. Hierarchical morphological segmentation for image sequence coding. IEEE Trans Image processing,1994,3(5):639～651
+16 Demin W.A multiscale gradient algorithm for image segmentation using watershed. Pattern Recognization, 1997, 30(20): 21～41
+17 Beucher S,Meyer F.The morphological approach to segmentation: The watershed transformation. In: Dougherty E R eds.Mathematical Morphology in Image Processing. 1992, 453～482
+18 Vincent L, Soille P. Watersheds in digital spaces: An efficient algorithm based on immersion simulations. IEEE Trans PAMI, 1991, 13(6): 583～598
+19 Shewchuk J R.Delaunay refinement mesh generation ［Ph D thesis］, Carnegie Mellon University, 1997
+原稿收到日期：1999-01-05；修改稿收到日期：1999-03-19.

@@ -1,0 +1,31 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.2 P.56-60
+
+
+
+
+卫星抗辐射加固技术
+宋明龙　 朱海元　 章生平　 
+摘　要：分析了FY-1C卫星运行轨道空间辐射环境，介绍了整星、单机、器件抗辐射要求。卫星研制过程中，对各单机和系统在技术设计、元器件选择、软件编制等的抗辐射加固设计要求。特别对有CPU和存储器的单粒子翻转效应（SEU）和闩锁效应（SEL）试验。仪器和系统的软件均用故障注入的方法完成了抗SEU的仿真试验。
+关键词：太阳同步卫星；空间辐射；抗辐射加固；仿真试验
+分类号：V520.6　文献标识码：A
+文章编号：1006－1630(2001)02－0056－05
+Radiation-Resistance and Reinforce Technology of Satellite
+SONG Ming-long（No.509 Institute of SAST, Shanghai 200240, China）　
+ZHU Hai-yuan（No.509 Institute of SAST, Shanghai 200240, China）　
+ZHANG Sheng-ping（No.509 Institute of SAST, Shanghai 200240, China）　
+
+Abstract：Putting forward the needs of radiation-resistance and reinforce of the whole FY -1C satellite, stand-alones and units, analyzing space radiation environment o f the satellite. In the design and manufacture, we raise clearly the requirement s of radiation-resistance and reinforce about the stand-alones and system's te chnology design, unit selection and software programming. Especially SEU and SEL tests are done for the stand-alones with CPU or memory SEU-resisting simulati on test is also done for the software of the instruments and system by failure- injecting method.
+Keywords：Sun synchronous satellite; Space radiation; Radiation-resistance and reinforce; Simulation tes
+作者简介：宋明龙(1940-)，男，研究员，上海市宇航学会会员，研究领域：卫星总体。 
+作者单位：宋明龙（上海航天技术研究院509所，上海 200240）　
+　　　　　朱海元（上海航天技术研究院509所，上海 200240）　
+　　　　　章生平（上海航天技术研究院509所，上海 200240）　
+
+参考文献：
+［1］范景德.对卫星抗辐射加固保证大纲的探讨[J].原子能科学技术,1997, 31（3）.
+
+收稿日期：2000年9月29日
+修稿日期：2001年1月5日
+出版日期：2001年4月25日

@@ -1,0 +1,79 @@
+计算机工程
+COMPUTER ENGINEERING 
+1999年 第25卷 第5期 Vol.25 No.5 1999
+
+
+
+基于Intranet 的图书馆Web检索系统的开发
+贾美英
+摘要 主要分析了游览，Web服务器与外部应用程序的两种接口方式CGI和ISAP以及ISAPI的工作流程。在此基础上介绍了作者开发的本单位Intranet网上的图书馆Web信息检索系统。
+关键词 通用网关接口 Intranet服务器应用程序接口 Intranet信息服务器
+The Development of Web Retrieval Information System Based on Intranet
+Jia Meiying
+（Beijing Graphics Research Institute Beijing 100029）
+[Abstract] This paper gives a comparison of CGI and ISAPI which are interfaces between explorer，Web server and executive programs，then analyzes the theory of ISAPI，at last，introduces a Web retrieval information system on the Intranet programmed by author。
+[Key words] CGI；ISAPI；IIS
+　　本单位Intranet网上的图书馆Web信息检索系统，主要目的是实现本单位馆藏图书和情报信息的方便、快速查询和高效利用。该系统采用Client/Server结构，用Windows NT 4.0作为主服务器，其内置的Internet Information Server(IIS)作为Web服务器，数据库系统采用Oracle 7.3，ODBC应至少选用2.5版本，客户端采用Windows95和FrontPage作为开发环境。
+1 两种接口规范的选择
+　　客户通过浏览器向Web服务器发出的服务请求有两种：一种是要求返回一个MIME类型的文档，这类请求由Web服务器直接处理并返回结果；另一类请求是要求执行应用程序或脚本代码。对于这种请求，Web服务器本身并不处理，而是将它递交给应用程序或脚本处理。应用程序或脚本的执行结果以标准输出的方式传回给服务器程序。服务器收到结果后，将其以MIME实体的形式返回给客户端浏览器。
+　　IIS具有的优秀性能之一就是开发应用程序或脚本的能力。几乎可以使用任何32位编程语言编写交互式应用程序。当编写应用程序或脚本时，可使用IIS的ISAPI或通用网关接口CGI(Common Gateway Interface)这两种支持界面的一种。ISAPI和CGI都是客户端浏览器、Web服务器、外部应用程序之间交互的一组规范。通过填写HTML表单或单击Web服务器上的HTML页面中的链接，Web客户浏览器可启动CGI脚本或ISAPI应用程序。CGI脚本或ISAPI应用程序可获取客户Web浏览器提供的信息，并且做事先编程的事情，然后返回HTML页面中应用程序的结果，或将信息传递到数据库。两者的区别在于ISAPI在Web服务器上创建可运行为DLL的应用程序，应用程序在服务器运行时已被装入内存；而CGI脚本是典型的独立可执行程序，每个请求都单独启动一个进程，系统开销大。
+　　针对CGI和ISAPI的以上特点，设计Web Server时选用ISAPI作为Web页面同数据库的接口方式。同时，应用MS FrontPage软件，制作主页及开发Web Server。
+2 通过ISAPI访问数据库原理
+　　IIS提供一个称为数据库连接器(IDC)的ISAPI应用软件(httpodbc.dll)，使用ODBC API在SQL Server和Internet间发送和检索信息。Httpodbc.dll使用两类文件(.idc文件和.htx文件)来控制对数据库的访问和输出Web页面的构造。这些文件是Internet数据库连接器(.idc)文件和HTML扩展名(.htx)文件。.idc文件包括ODBC数据源的有关信息和执行SQL语句所必需的信息，同时包含html扩展文件的位置和名称(.htx)，.htx文件是利用数据库返回结果的构造返回html文件的样板文件。HTML扩展文件是实际HTML文档的模板，HTML文档用IDC取得数据库信息，并入其中之后返回Web浏览器。其工作原理如图1所示。
+
+图1 ISAPI工作原理
+ISAPI工作的主要流程如下：
+.IIS接收URL；
+.IIS装载httpodbc.dll；
+.httpodbc.dll读取IDC文件；
+.IDC连接到ODBC数据源，并执行SQL语句；
+.IDC从数据库中取出数据，并将其合并到HTML扩展文件；
+.IDC将合并成文档发送回IIS，并返回到客户。
+3 图书馆Web信息检索系统的实现
+　　基于以上介绍的Web与数据库接口原理，作者开发了本单位Intranet网上的图书馆Web信息检索系统。该检索系统主要完成3大功能：(1)查询馆藏图书；(2)查询读者本人流通信息；(3)软件下载及系统信息发布。本检索系统建立在已有Oracle数据库的基础上，其中主要对该数据库的馆藏图书流通表进行多种手段的检索。查询馆藏图书主要包括按主题词、书名、作者、国地号查询；用户还可随时浏览到达本图书馆半年以内的新书信息；读者可以根据自己的借书证条码查询自己的流通信息；用户还可以从我们的软件开发中心下载自己需要的新版软件；系统信息发布页发布系统更新情况和注意事项等。我们用"按书名查询"举例说明基本检索实现过程。
+　　由于IDC只能通过系统数据源访问数据库，因此首先利用ODBC建立一个系统数据源，名为zlj_web，数据库连接串定义为zlj，每个数据库连接串对应唯一的数据库用户，通过该用户的权限访问数据库；第二步建立一个按书名查询的界面页"书名查询.htm"、 "书名查询.idc"和"书名查询结果.htx"，其中.idc文件与对应的.htx文件缺一不可。书名查询.htm用于用户选择查询方式和接收用户输入参数，并调用书名查询.idc，开始查询命令。
+3.1 书名查询.htm 
+　　书名查询.htm界面如图2所示。
+
+图2 书名查询.htm界面
+　　.书名查询界面标题栏：主要提供了可选择的查询方式。
+　　.到书起始日期、到书结束日期输入框：用户输入所要查询资料到达本资料库的日期范围。
+　　.书名匹配词输入框：用户输入所要查询的书名匹配词。
+　　.前匹配、后匹配复选框：用户选择书名查询的匹配模式。其中前匹配是指用户所输入的查询匹配词是所查找内容的最前面几个字；后匹配指用户所输入的查询匹配词是所查找内容的最后面几个字。如果这两个复选框都选中，则指双向匹配，及用户所输入的查询匹配词是所查找内容的任意位置的几个字。提供这几种匹配模式主要为了提高查询速度。
+　　.查询按钮：接收用户输入的书名匹配词，按选定匹配模式调用书名查询.idc进行查询。Web服务器在接收到查询命令后，通过环境变量和标准输入/输出方式与ISAPI程序传递信息。
+　　.重置按钮：清空书名匹配词输入框，准备接收新的匹配词。
+3.2 书名查询 .idc
+　　Datasource: zlj_web
+　　SQLStatement: select book_id,substr(chinese_name,1,30) as chinese_name1 ,
+　　+substr(name,1,55) as name1
+　　+ from zljdba.z2_catalogue
+　　+ where %name_para% like
+　　+ upper('%left_para%'||'%name0%'||'%right_para%')
+　　+ and arrival_date>=to_date('%begin_year%'||'%begin_month%'||'%begin_day%',
+　　+'yyyymmdd')
+　　+ and arrival_date<to_date('%end_year%'||'%end_month%'||'%end_day%',
+　　+'yyyymmdd')
+　　+ order by chinese_name ASC,name ASC
+　　Template:初步查询结果.htx
+　　Username: zlj
+　　Password: zlj
+　　ODBCOptions: SQL_MAX_ROWS=500
+3.3 初步查询结果.htx
+　　显示按书名查询的初步查询结果。该模块界面设计见图3。
+
+图3 书名查询.htx界面
+主要HTML语句如下：
+<%begindetail%>
+  <option> value="<%book_id%>"><%chinese_name1%>%name1%></option>
+  <option> value="<%book_id%>">---------------</option>
+<%enddetail%>
+4 系统的安全保证
+　　利用Oracle数据库自身保护信息的方法与NTFS提供的数据文件安全性和访问控制机制保证系统数据的安全性。数据库建立了专门的浏览器用户以及数据库视图。视图只包括用户可访问信息，而且用户只能查询视图中的信息，不能进行修改，杜绝了破坏数据的可能性。对于通过远程拨号上网的用户，验证其拨号权限。拨号授权用户只能对特定文件和目录进行访问，且拨号属性设置为回拨，这样有效地限制了拨号的电话和计算机，最大限度地保护数据资源。
+　　该系统目前已在Intranet网上发布，大大提高了读者和图书馆管理人员的工作效率，同时也提高了图书情报的利用率，实现了图书情报资料快速查询、高效利用和共享的目的。
+作者简介：贾美英 女，24岁，助工，主要研究数据库
+作者单位：北京市图形研究所 北京100029
+参考文献
+1 俞盘祥编著.ORACLE数据库系统基础.北京：清华大学出版社,1995-11
+2 Jason Garms著.郭漫雪,王应波,夏文等译.Windows NT Server 4大全.北京：机械工业出版社,1997-07
+3 郑人杰著.实用软件工程.北京：清华大学出版社,1991-02
+收稿日期：1998-06-30

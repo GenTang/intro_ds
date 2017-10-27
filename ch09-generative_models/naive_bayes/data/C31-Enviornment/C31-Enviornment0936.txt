@@ -1,0 +1,158 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+加拿大北极地区雪化学成分的初步研究*
+殷兴军　方精云
+摘要　利用ICP-AES、ICP-MS、IC测定法，测定了北极地区不同纬度的17个雪样品的化学成分.结果显示，在被测试的32种化学成分中，14种化学成分被检测出. 用富集因子法判断了雪中化学成分的4种可能发生源，即人为活动源、地壳源、海洋源和混合源.计算S/Na比值发现SO42-、NO3-主要来自人为活动源.
+关键词　北极雪; 化学成分; 富集因子; 发生源.
+A preliminary study on chemical constitutents in Arctic snow
+YIN Xingjun (Research Centre for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+FANG Jingyun (Department of Urban and Environmental Sciences,Peking University,Beijing 100871)
+Abstract　Seventeen snow samples were collected during April to May 1995 in different Arctic regions, and the chemical constitutents were measured by three methods, Inductively Coupled Plasma Emission Spectroscopy (ICP-AES),Inductively Coupled Plasma Mass Spectroscopy (ICP-MS), and Ion Chromatography (IC).Fourteen chemical constituents were detected among all measured ones. The enrichment factor method was used to determine the possible origin anthropogenic, curst,oceanic,and mixing origins, of chemical constitutents in snow. The S/Na valuas suggest that SO42-,and NO3- are mainly from anthropogenic activities.
+Keywords　Arctic snow,chemical constituent,enrichment factor,origin of hemical element.
+　　80年代以来，北极对流层的污染物浓度逐年增加［1］ ,并且出现了北极酸性雪［2］.由大气传输到北极的化学成分经化学转化及干湿沉降到雪中而导致雪的酸性增加,主要原因是H2SO4和HNO3的作用［3—5］ .许多研究认为,北极的污染物主要是北极周边的工业化国家人为活动排放的污染物,长期停留在稳定和干燥的大气中，通过长距离传输、海流和地表径流等3种途经输入到高纬度的北极地区［6］ .因此，北极是欧亚大陆、北美和西欧等地区人为活动排放污染物的接受器.北极日益加剧的环境污染将导致其生态系统的变化.如雪场 (Snowpack)中NO3-的变化正影响北极的生态系统［7,8］ . 大部分北极沉降物集中在北美、格陵兰和斯堪第纳维亚北部.在这些地区，对其对流层气溶胶和雪的化学成分及其来源和季节变化已有许多研究报道.目前，国外极地大气和雪化学研究的主要目的之一是阐明污染物从大气向冰雪的转移［9］ 及其对气候的影响. 1995年4月至5月上旬，中国首支北极科学考察队赴加拿大北极地区进行科学考察,旨在研究北极环境的现状及其沿纬度梯度的变化.本文报导了表面雪样品化学成分的研究结果.
+1　实验部分
+1.1　采样
+表1　北极雪样品(年度表面雪)采样参数
+Table 1　Characteristics of the Arctic snow samples
+
+样号采样地点采样坐标采样日期
+1美国北部明尼苏达州Ely47°59′N, 91°48′W1995-04-12
+2美国北部明尼苏达州Ely47°59′N, 91°48′W1995-04-12
+3加拿大Hudson Bay58°46′N, 94°04′W1995-04-06
+4加拿大Hudson Bay58°46′N, 94°04′W1995-04-07
+5加拿大Hudson Bay58°46′N, 94°04′W1995-04-07
+6加拿大Hudson Bay泰加
+林地面积雪(上层)58°46′N, 94°04′W1995-04-08
+7加拿大西北地区Resolute
+机场近海74°43′N, 97°W1995-04-25
+8加拿大西北地区Resolute
+机场近海的冰层剖面74°43′N, 97°W1995-04-28
+9加拿大Beechey Island　1995-05-03
+10加拿大Eureka陆地88°N 1995-04-22
+11加拿大Eureka冰面88°N 1995-05-05
+12冰上临时加油站86°30′N, 84°W1995-04-22
+13北纬88°N 88°N1995-04-22
+1489°12′30″N,北冰洋冰面89°12′N1995-04-25
+1589°12′30″N,北冰洋冰面89°12′N1995-04-25
+1689°37′30″N,北冰洋冰面89°37′N1995-04-28
+1790°N,北极点90°N(极点)1995-05-05
+
+　　 采样日期、地点、位置和样品类型列于表1.采样后，置低温下保存.带回北京后继续保持在冰箱冷冻室内直至样品分析.采样深度均在表面年度层内.北极积雪低年度降雪量为130mm［10］.
+1.2　分析方法
+　　所有雪样品中的化学元素和阴离子分析在国家地质实验测试中心进行.测定前，样品在室温下融化.Si、Al、Fe、Ca、Mg、Na和P用等离子体直读光谱法测定(日本日立公司TA-1160型) ，测定方法及实验条件见文献［11］；Be、B、Ti、V、Cr、Mn、Co、Ni、Cu、Zn、Ga、As、Rb、Sr、Y、Zr、Nb、Cd、Ba、Hg、Pb用等离子体质谱法(ICP-MS，英国VG公司Plasma Quad型) 分析，测定方法及实验条件见文献［12］.SO42-、NO3-、Cl-、F-用离子色谱(IC, 美国Dionex Series 4500 Ⅰ型)测定.
+2　结果与讨论
+2.1　测试结果
+　　用上述分析方法测定的结果显示，在被测的32种化学成分中，14种成分被检测出.它们和电导率的测定结果和范围以及最高浓度出现的地理位置列于表2.
+表2　北极雪的化学成分(μg/g)
+Table 2 Chemical constituents in Arctic snow(μg/g)
+
+样品号SO42-NO3-NaCl-MgCaSrRbZnNiMnCuBa电导率,
+μS/cmTi
+S10.352.100.20.60.20.10.00470.00210.0100.0390.0390.0080.003717.40.008
+S20.713.501.53.10.20.10.00450.00340.0140.0210.0340.0080.003514.40.008
+S39.103.9038.361.04.62.10.02700.00060.0120.0120.0020.0090.0013225.00.010
+S44.264.9041.066.66.01.80.03000.00060.0150.0110.0020.0100.0015260.00.012
+S53.102.2837.158.55.31.60.02700.00070.0120.0140.0020.0150.0018268.00.019
+S63.681.304.36.60.70.10.01100.00050.0180.0080.0020.0320.001138.50.033
+S74.001.6346.847.26.56.00.03500.00090.0010.0180.000.0030.0009357.00.008
+S81.301.639.320.81.70.80.01900.00040.0020.0180.0010.0010.000978.80.003
+S90.881.413.05.70.240.10.0046MDL0.0020.0070.001MDL0.000739.80.002
+S101.622.174.57.02.044.40.00900.00060.0010.0010.004MDL0.004774.10.038
+S1125.517.80270.0396.236.810.80.220.00390.0080.0110.0070.0040.00471220.00.004
+S1286.514.35622.01160.4133.037.40.510.0100MDL0.010MDL0.0010.00302680.00.004
+S13647.10282.67230.08867.9927.0258.01.680.04100.0020.007MDL0.0060.00087750.00.024
+S142.291.6328.640.63.91.10.034MDL0.0030.0030.0020.0010.0017180.00.002
+S151.301.1017.428.52.40.80.0220.00050.0020.0100.0030.0030.0012110.00.006
+S160.621.301.02.20.20.10.0085MDL0.0030.010MDL0.0020.001816.00.002
+S170.650.542.53.50.20.10.00560.00050.0050.0030.0010.0060.002224.00.001
+最低检
+测限0.050.100.050.050.050.00010.00010.0010.0010.0010.0010.0010.00010.0020.001
+
+　　MDL为最低检测限
+2.2　北极雪中化学成分的源识别
+　　雪和大气气溶胶一样，是多源化学组成的样品.北极雪中化学成分既能反映大气污染状况，也能反映对北极生态系统的可能影响.在环境污染研究中，常用富集因子法判别沉降物中化学成分的可能发生源.该法已广泛应用于大气颗粒物化学成分的识别，在湿沉降雨水的化学元素发生源研究中也有应用［13］.本研究利用富集因子法，结合S/Na比值判别北极雪中化学成分的发生源.富集因子按下式计算：
+F=(E1/E1R)/(E2/E2R)
+式中，E1是雪中某元素的浓度；E1R是雪中参考元素（地壳用Ti, 海洋用Na）的浓度；E2/E2R是在地壳和海洋中相同元素的浓度比值；F是富集因子.
+　　富集因子接近1的元素具有类似的发生源，远大于1(＞10)或远小于1(＜0.1)的富集因子，不能用天然源解释.通常，在研究富集因子时，选钠为海洋源参考元素，选铝为地壳源参考元素［14］.在本研究列出的测定元素中，所有样品的铝浓度都在检测限以下，因此，选钛作为本研究的地壳源参考元素.因为钛在海洋中浓度低，地壳中丰度高，所以作为参考元素是合适的.计算结果分别列于表3和表4.
+表3　雪样中元素相对地壳的富集因子
+Table 3　Crustal enrichment factors for Ti
+
+样品ClNaKMgCaBaSrMnCuZnNiRbTi
+S324125154117238079286131
+S4172624040621926107147205281
+S7206592596279626132172757031
+S81878465302910618129167705421
+S9104209304165810117163404311
+S1067692024004978341411
+S131995579104317091151230813261
+S1423411447939121313742274235261
+S1796462231232554272406320521
+S186218186111410122211
+S1933524611049543719373273645880126161481
+S2098187692573115127000113381496120161471221
+S2112506019468371890813213030821020517841
+S226870772223106406679200540948821
+S23160769451248615243240219841
+S24372317416195950280529321
+S2511507739510538102366548019176241
+
+表4　雪样中元素相对海洋的富集因子
+Table 4 Ocean enrichment factors for Na
+
+样品号ClNaKMgCaBaSrMnCuZnNiRbTi
+S3118503469865053.09422222756087955601073418892378043
+S4112632111122200.41226666112935199808632919842348
+S7111185111820.1290151096891983112838
+S8111406111970.1271753158061702133189
+S9111352112610.129958789711238925566
+S101123021113720.3257781613919178117471083228
+S13111230131030.13561139447243421858
+S14112114125230.3600623504751231643525
+S171125761112670.318706732014801491837319
+S18116782942525620.149494484148914381291989
+S1911108011260.11441322652581161
+S2011152521240.08433395166
+S211110461110.281816136
+S22111239113200.238857602306640760
+S23111369113710.295783748252363723748
+S2411566922101881.05850045761694166646922880
+S251169191146560.32187251348432574751814348
+
+　　Cu、Zn、Ni的富集因子既不接近Ti，也不接近Na，是人为活动因素造成的.Rb的富集因子，既有接近Ti的, 也有接近Na的，还有Ca既不接近Ti也不接近Na，属于人为活动原因.因此，把Rb作为混合源看待.
+　　雪中S的可能来源主要有两种，即海洋溅水和人为活动.Vermette & Bingham［15］利用海水中S/Na的天然浓度比值作为判断发生源的参考标准.在海水中，S/Na的比值是0.08.假如由海水浪花溅射来源的S在进入雪中并沉降到地面上，经长时间累积不发生化学变化，那么，该值接近0.08，即认为是来自于海洋源.而当比值与0.08的值差异较大时，可认为来自于人为活动源.计算的年度层内雪的S/Na值列于表5.从该表推测，除S1、S3和S7 S可能没有人为活动排放的因素外， 其它地点均与人为活动有关.SO42-和NO3-主要是人类燃烧化石燃料和冶炼工业排放的SO2和NOx在大气中传输和化学转化的产物.Li和Barrie［16］在加拿大Alert西北部(82.5°N, 61.25°W)用蒙特卡洛不确定分布技术(Monte Carle uncertainty propagation technique)和多变量统计技术研究了SO42-的发生源，认为主要来自于人为活动源.Jaffe和Zukowski［17］在Alaska北极雪场的研究中，认为NO3-主要来自人为活动源.
+表5　北极年度层雪内S/Na的比值
+Table 5 S/Na values in Arctic snow for annual layer
+
+样品号S1S2S3S4S5S6S7S8S9S10S11S12S13S14S15S16S17
+S/Na0.070.010.080.042.80.0040.050.070.0060.20.0040.020.00010.040.040.020.006
+
+　　对收集的17个雪样品的化学成分进行综合分析，可以把北极不同地区的雪化学成分主要发生源分为4类，人为活动源:Mn,Cu,Zn,Ni,SO42-,NO3-;海洋源:Cl,Na,Mg,Ca,Sr;地壳源:Ti,Ba;混合源:Rb.
+　　雪中的SO4-2可能是由于在3、4月期间来自气态SO2产生的结果［3］，Boutron et al. (1993)认为 Cu, Zn, Pb, Cd 主要来自人为活动源.
+　　上述4类来源是从47°58′N到90°N之间的纬度梯度上年度内的主要发生源.这个分类和Barrie等［6］报道的北极年度大气气溶胶的化学成分的发生源分类相似.
+* 国家杰出青年科学基金部分资助.北极考察费用得到南德经济集团资助. 
+作者单位:殷兴军　中国科学院生态环境研究中心，北京　100085
+方精云　北京大学城市与环境学系，北京　100871
+参考文献
+1　Barrie L A.Arctic air pollution:an overview of current knowledge.Atmos Environ,1986,20:643—663
+2 Koerner R M,D Fisher.Acid snow in the Canadian high Arctic. Nature , 1986.295:137—140
+3 Barrie A L,R J Vet.The concentaration and deposition of acidity,major ions and trace methals in the snowpack of the eastern canadian shield during winter of 1980—1981.Atmos Environ,1984,18:1459—1469
+4 Davidson C I,Harrington J R,Stephenson M J et al.Seasonal variations in sulfate, nitrate and chloride in the Greenland Ice Sheet:relation to atmospheric concentrations.Atmos Environ,1989,23:2483—2493
+5 Joranger E,Semb A.Major ions and scavenging of sulphate in the Norwegion arctic.Atmos Environ,1989,23:2463—2469
+6 Barrie L A,D Gregor,Hargrave B et al.Arctic contaminants:sources,Occurrence and Pathway.The Sciences of the Total Environment, 1992,122:1—74
+7 Barsdate R J,Alexander V.The nitrogen balnce of tundra:pathways, rates and environmental implications.J Env O,1975,4:111—117
+8 Thomas D J,Tracey B,Marshall H et al.Arctic terrestrial ecosystem contamination.Sci Total Environ,1992,122:1—74
+9 Colin J L,B Lim,E Herms et al. Air-to-snow mineral transfer-Ccrustal elements in aeresols, frest snow and snowpits on the Greenland ice sheet. Atmos Environ,1997,31:3395—3406
+10 Ann World Survey of Climatology,14.Climates of the Polar Regions.Elsevier Publishing Company,Amsterdam, Ⅱ Montly climatic data for the world,1984,37:1—5
+11 殷宁万等.化学样品的等离子体直读光谱分析.岩石矿物及测试，1984，3(1)：65—68
+12　殷宁万等.等离子体质谱法测定天然水中痕量元素.岩矿测试, 1991, 10(3): 171—174
+13　Vermette S J,Bingham V G.Trace elements in Frobisher Bay rainwater.Arctic,1986,39:177—179
+14 Heidam N Z.Crustal enrichments in the Arctic aerosol.Atmos Environ,1985,19:2083—2097
+15 Vermette S J,V G Bingham.Sulfur,halogens,and heavy methals in summer rains, Churchill,Manitoba,Canada,Arctic and Alpine Reearch,1987,19:187—193
+16 Li S-m, L A Barrie.Biogenic sulfur aerosol in the arctic troposphere:Ⅰ.Contributions to toal sulfate. J Goephys Res,1993,98(DII):613—622
+17 Jaffe D A, M D Zukowski.Nitrate deposition to the Alaskan snowpack.Atmos Environ,1993,27a:2935—2941
+1998-04-29收到原稿
+1999-01-20收到修改稿

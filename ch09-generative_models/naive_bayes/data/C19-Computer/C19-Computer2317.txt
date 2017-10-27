@@ -1,0 +1,96 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.6　P.685-689
+
+
+
+用神经网络求解性能驱动的电路划分问题
+胡卫明
+摘　要：文中考虑一种以连线代价最小为目标的、以面积和时延为约束的、划分块与划分块之间有确定的拓扑关系的电路划分问题,提出了一个性能驱动电路划分的均场退火算法.算法通过换位矩阵把问题映射为神经网络,并建立了包含优化目标项、面积约束项和时延约束项的能量函数,再用均场退火方程迭代求解.每个单元只能分配到一个划分块的约束用神经元归一化的方法处理.算法已用Visual C++语言编程实现,实验结果表明这是一种有效的方法.另外,文中还讨论了人机结合的电路划分问题.
+关键词：神经网络，均场退火，性能驱动，电路划分
+分类号：TP18
+A NEURAL NETWORK APPROACH FOR PERFORMANCE-DRIVEN
+CIRCUIT PARTITIONING
+HU Wei-Ming
+(National Key Laboratory of Text Processing Technology,Institute of Computer Science and Technology,
+Peking University,Beijing 100871)
+Abstract：Here proposed is a mean field annealing approach to the performance\|driven circuit partitioning, in which the object is to minimize the total routing cost between cells, the constraints are timing and area, and the partitions have intrinsic topological relationships. In the algorithm, a permute matrix is used to map the problem to neural network,and the energy function including object item, area constrained item,and the timing constrained item is presented, and then iteration procedure is put into practice with the mean annealing equation. Normalization of neurons proves that one cell only can be assigned to one partition. The algorithm is programmed with Visual C++, and experimental result shows that it is an effective method. In addition, the human and machine combined partitioning conception is also discussed.
+Key words：neural network, mean field annealing, performance-driven, circuit partitioning▲
+1　引　　言
+　　划分是指把一个系统分割成若干子系统,使得每个子系统不太复杂,从而便于实现.围绕划分问题,多年来提出了大量的启发式算法,它们都有各自的优点,也有各自的缺点.人工神经网络具有独特的结构和独特的处理信息方法,能够解决一些传统计算技术难以求解的问题, 也有人尝试用它来解决电路划分问题:文献［1］应用Hopfield网络求解具有平衡约束的块间连线最少的二划分问题(bipartitioning),取得了良好的效果;文献［2］应用Boltzmann机求解与文献［1］基本相同的问题,并探讨了并行Boltzmann机求解电路划分问题的可行性;文献［3］把模糊集合论的方法引入自组织神经网络,提出了一个能求解电路划分的模糊神经网络算法,它求解的是多块划分(multi-way partitioning)问题.本文考虑一类块与块之间具有确定的拓扑关系的电路划分问题(如FPGA和TCM类型的划分问题),提出了一个性能驱动电路划分的神经网络算法.
+2　问题描述和单元归并
+　　性能驱动的电路划分问题可以描述为:给定一个划分实例,包括:①由M个单元组成的电路单元集合I,其中si是单元i的面积;aij是从单元i到单元j的连线数;cij是从单元i到单元j所允许的最大信号布线时延;②由N个划分块组成的划分块集合X,其中tx为块x的面积容量;bxy是从块x到块y的布线代价;dxy是从块x到块y的布线时延,要寻求一个分配ψ:I→X,使最小,并满足:①面积约束:,②时延约束:d(ψ(i),ψ(j))≤c(i,j)i,j∈I.
+　　说明几点:①bxy可以模型化许多形式的布线代价.例如:当若x=y,则bxy=0,否则bxy=1时,优化目标项对应于某一分配ψ的块间连线总数;当bxy为块x到块y的Manhattan距离,该项等价于块间连线的Manhattan距离总长,可以根据问题的需要定义bxy的值.②bxy与dxy相互间是有关系的,定义中把这种关系当“黑箱”处理,使问题定义更具一般性.③面积约束是指分配到同一划分块的单元的面积总和不能大于该划分块的面积.④时延约束是由系统周期时间驱动的,并且可以通过时延方程和组合电路单元的内部时延推导得出两个单元间所允许的最大布线时延［4］.每对单元的实际连线时延要小于它们之间所允许的最大布线时延.
+　　在进行神经计算之前,可以根据时延约束条件,对单元进行归并处理,以减少单元的数量,从而缩小问题的规模,减少实施均场退火所需的计算时间.归并的方法为:对于任意两个单元i和j,如果c(i,j)<(d(x,y)),则归并单元i和单元j为单元k.
+3 神经计算
+3.1 神经网络模型
+　　均场退火方法主要特点是:①均场退火只需要在某个关键温度附近实施退火过程,以达到某个热平衡状态,就可取得较好的效果;②均场退火既可看作是一种新的神经网络计算模型,又可视为是对模拟退火的重大改进.③可以用神经元归一化的方法解决行约束问题.
+　　均场退火可由下面3个方程表示:，其中V是能量函数中的状态矢量,φi为均场,g是神经元的I/O特性函数,T是温度控制参数.
+3.2　映射方法
+　　将M个单元的N块划分问题映射为神经网络,需要用换位矩阵［vix］M×N表示:矩阵的行代表单元,列代表所属的划分块.换位矩阵是一个值为“0”或“1”的矩阵,它对应于一种可行的划分.当ψ(i)=x,即单元i应属于划分块x,神经元(i,x)的输出vix=1,否则vix=0.该问题需要M×N个神经元.
+3.3 能量函数
+　　将问题映射为相应的神经网络后,能量函数定义为:
+
+　　能量函数E对vix求一阶偏导数即为均场:
+　　(1)
+　　能量函数的第1项为目标项,它最小化单元间的连线代价.
+　　能量函数的第2项为面积约束项,它表示,即只有当各划分块中单元面积和相等时它才取最小值,它利用算术平均和几何平均的关系表示了各划分块中单元面积和大致相等时取极小的约束关系.
+　　能量函数的第3项为时延约束项.时延约束这种类型的不等式约束不能直接加入到能量函数中,也就是说,神经网络不能直接处理时延约束,为此,我们定义了一个布尔矩阵Delay(i:1～M,j:1～M,x:1～N,y:1～N),并将时延约束条件转换到该布尔矩阵中.当c(i,j)≥d(x,y),Delay(i,j,x
+,y)=1,即单元i和单元j能够同时分别分配在块x和块y中; 当c(i,j)<d(x,y),Delay(i,j,x,y)=0,即单元i和单元j不能同时分别分配到块x和块y中.有了Delay矩阵后,就可以定义能量函数的时延约束项,即
+
+当Delay(i,j,x,y)=0时,若vix,vjy不同时为1,此项为0(即满足时延约束);否则此项不为0(即不满足时延约束).
+　　值得注意的是,Delay矩阵的定义只是为了说明问题的方便而已,事实上并无必要用O(M2)(N＜＜M)数量级的存储空间去存储Delay矩阵.程序设计时,是通过在线计算的方法来求Delay值的.例如,求E3的方法为:if c(i,j)<d(x,y) E3=E3+0.5βvixviy;
+　　参数α和β对解的质量有很大影响.若α和β取较大值,网络能较快收敛到一可行解,但解的质量不一定好;若α和β取较小值,网络能求得更好的解,但要用更长的计算时间为代价.根据经验,α和β取3.5是合适的.与Hopfield网络不同,均场退火网络都能求得可行解,但网络收敛速度要慢于Hopfield网络.
+3.4 神经元归一化
+　　对于行约束,即换位矩阵每一行的神经元中只有1个神经元为“1”,在Hopfield网络中是通过“柔软”地往能量函数中加惩罚项的方法解决的.这种办法外加了自由度,增加了新的对应不可行解的局部极小点,从而降低了能量函数向前看的能力.在均场退火网络中,可以采用归一化的方法来处理行约束.
+　　神经元的输出状态矢量vix可看作是:当单元在随机平衡扰动中,单元i分配到块x的概率,它服从Boltzmann分布,即
+vix=exp(-φix/T)　　(2)
+因此,均场φix 越大,位置占有概率vix就越小,这表明单元i不可能分配在块x.为了获得实际概率,对神经元的输出vix进行归一化:
+　　(3)
+　　它保证了每个单元只能分配在一个划分块中,从而也就满足了行约束.在高温的条件下,单元分配到各个划分块的概率呈均匀分布;而在低温时,单元向具有较小均值的划分块凝结,它使整个目标函数最小.能量函数中的面积约束项、时延约束项和归一化处理保证能够产生合法解.
+3.5 临界温度
+　　欲求临界温度Tc,可以认为此时每个单元对各个划分块的占有概率为1/N,对于每一个神经元(i,x)有,φ0ix=φix(vix=1/N),因为v0ix=exp(-φ0ix/T0ix),所以T0ix=φ0ix/ln（v0ix)=φ0ix/ln(N).选择,x{T0ix}作为整个系统的临界温度,并在从该温度开始实施退火过程.
+4 算法描述与时间复杂度
+　　根据均场退火方程,可以将性能驱动系统划分的均场退火过程描述如下:
+　　步骤1.进行单元的归并处理.
+　　步骤2.随机选取vix(i=1,2,…，M，x=1,2,…,N)的值,并进行归一化处理,即；T=Tc；计算能量值E,并赋给E1.
+　　步骤3.随机选择任一单元i,作如下处理:由(1)式计算φix(i=1,2,…，N)的值;由(2)式计算vix(x=1,2,…，N)的值;用(3)式进行神经元归一化处理;计算E值,并赋给E2.
+　　步骤4.计算E2和E1的差并赋给ΔE;如果ΔE近似等于0,则结束,否则将E2赋给E1,再返回步骤3.
+　　说明3点: ① ΔE是相邻两次E的差.为降低求ΔE的时间复杂性,可用如下方法求ΔE:
+
+其中vix和v′ix是神经元(i,x)的相邻两次输出状态.② ΔE=0是热平衡条件,即收敛条件为ΔE<ε.③与模拟退火方法不同,均场退火方法只要在关键温度Tc附近实施上述的均场退火过程,即可得到全局最优解或近似全局最优解.解的质量取决于迭代次数,ε取得越小,解的质量越好,但计算时间越长.
+　　由于N＜＜M,求φix和ΔE的时间复杂度都为O(M);为了使ΔE→0,需要进行O(M)次迭代,所以本算法的时间复杂度为O(M2).
+5　人机结合的划分问题的讨论
+　　在有些电路划分应用场合,特别在进行系统划分时,人的干预可以取得很好的效果.例如,在TCM的高层设计中,初始划分可以由有经验的设计人员手工将功能单元分配到TCM芯片槽中来完成［4］,这样初始划分依靠的主要是人的智能和经验,因此它是最有价值的.然而,由于初始划分未经过精确的计算,所以有许多约束不能满足.为了消除这些不满足的约束,需要将一些单元重新分配到其它划分块中.这种移动应该能与初始划分有最小的偏差.也就是说,给定一个违反时延约束和面积约束的初始分配,要寻找一个偏离初始分配最小的满足所有约束的有效分配.
+　　可以以一单元初始分配所在的块与现分配所在的块之间的Manhattan距离乘上该单元的内部时延作为该单元的偏移量.这样可以尽可能不移动具有较大内部时延的单元.假设给定一个初始分配ψinitial:I→J和每一个单元的内部时延di,则可以定义一个代价矩阵P,它是一个M×N矩阵,其中pix=di×Man_dis(x,ψinitial(i)),它表示单元i分配到划分块x的代价.所有单元偏移的总和便构成了系统的整体偏移.对于TCM的划分问题,可以用相对于初始分配的整体偏移作为优化目标,即E1,它是一个线性项,易于计算,并且能够体现人机结合的电路划分思想.
+6 实验结果
+　　本算法已用Visual C++语言编程,在Compaq586/100计算机上实现.选用两类电路实例来验证算法的有效性:第1类为规则结构的电路.如图1所示,图中边的粗细表示单元间连线数目的多少,图中的虚线将该电路分割成4块,被虚线直接分割的单元(如a和b)之间所允许的最大布线时延大于相邻芯片间(如1和2)的布线时延(如c(a,b)≥d(1,2)).不难看出,图中虚线所示的分割方法是该电路划分成4块时的最优解.经测试,对于这类例子,200个单元划分成4块时,可以求得最优解,这表明本算法有较强的寻优能力.另一类例子由计算机随机产生,它更具一般性.
+
+图1　测试实例
+　　表1给出了测试用的4个电路的有关信息,其中例1和例2为第1类电路,例3和例4为第2类例子.表1还列出了这些电路划分成4个划分块的实验结果,并且将它与HNN算法进行了比较.实验结果表明,本算法的运行速度不如HNN算法;但是,如果本算法用4倍于HNN算法的运行时间,可取得比HNN好得多的运行结果.另外,本算法也比HNN算法稳定.
+　　　表1 实验结果
+
+例　号单元数目连线数Manhattan布线代价总和运行时间(s)
+本算法HNN算法本算法HNN算法
+16420816300.980.17
+219613668107106.439.7
+3575730713111848319.390.2
+4104393551906-859.7-
+
+　　　　注:例4算法HNN迭代发散,未求得计算结果 
+7　结束语
+　　本文提出了一个性能驱动的电路划分的神经网络算法.算法应用均场退火方法来求解以减小块间的连线代价为目标、以面积和时延为约束条件的优化问题.实验表明,该算法具有较强的寻优能力.■
+基金项目：本课题得到中国博士后科学基金和国家自然科学基金(项目编号69576009)资助.
+作者简介：胡卫明，男，1968年11月生，博士后，主要从事IC-CAD、人工神经网络和GIS的研　　　　　　究工作.
+作者单位：胡卫明(北京大学计算机科学技术研究所文字信息处理技术国家重点实验室　北京　　　　　　100871)
+参考文献：
+［1］Yih J S,Mazumder P. A neural network design for circuit partitioning. IEEE Trans on CAD of integrated circuits and systems, 1990, 9(12): 1265～1271
+［2］oenig A,Wehn N,Glesnet M.Partitioning on Boltzmann machines. In: Proc of IEEE Int'l Symp on Circuit and System.San Diego,1992. 324～327
+［3］涛等. 模糊人工神经网络方法在电路划分问题中的应用. 计算机学报, 1992, 15(9): 641～647
+(Shen Tao et al . Application of fuzzy neural computing in circuit partitioning. Chinese Journal of Computers (in Chinese), 1992, 15(9): 641～647)
+［4］hih M,Kuh E S. Quadratic Boolean programming for performance-driven system partitioning.In: Proc of Design Automation Conf.New Orleans, 1993. 761～765
+［5］ohannes F M. Partitioning of VLSI circuits and systems. In: Proc of Design Automation Conf.California. 1996. 83～86
+［6］ok C W,Cheng C K,Lin T T Y. General purpose multiple-way partitioning algorithm. IEEE Trans on CAD of integrated circuits and systems, 1994, 13(12): 1480～1487
+［7］han V C,Lewis D. Hierarchical partitioning for field-programmable systems. In:Proc of IEEE Int'l Conf on Computer Aided Design.California, 1997. 428～435 
+收稿日期：1998-08-19
+修稿日期：1999-01-19

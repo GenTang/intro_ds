@@ -1,0 +1,72 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URBAN ECOLOGY
+1999年 第12卷 第4期 Vol.12 No.4 1999
+
+
+
+模糊综合法在城市绿地系统景观生态综合评价中的应用
+——以上海市为例
+周廷刚　陈云浩　郭达志　陶康华
+　　摘要：绿地是城市人工景观中最重要的自然要素，以往对绿地景观生态的研究主要集中在能量流动和空间结构等方面，很少涉及城市绿地景观生态的综合评价。本文利用融模糊综合评判和模糊聚类分析于一体的模糊综合法对城市绿地系统景观生态进行了综合评价。
+　　关键词：绿地系统；景观生态；模糊综合法；模糊综合评判；模糊聚类分析
+　　中图分类号：X171　　文献标识码：A　　文章编号：1002-1264(1999)04-0023-03
+Fuzzy Comprehensive Method and its Application in Landscape 
+Ecological Comprehensive Assessment of Urban Greenland System
+——Taking Shanghai as an Exmple
+ZHOU Ting-gang1，CHEN Yun-hao1，GUO Da-zhi1，TAO Kang-hua2
+(1.The Institute of Survey & Spatial Information Engineering, 
+China University of Mining & Technology. Jiangsu 221008)
+(2.The Institute of Urban & Tourism, Shanghai Normal University,Shanghai 200234)
+Abstract：In this paper, a new fuzzy comprehensive method is put forward, combining fuzzy comprehensive evaluation with fuzzy clustering analysis. It not only avoids both of their own disadvantages, but also takes better use of their advantages. Finally, this method is practiced in parts of comprehensive assessment in landscape ecology of urban Greenland system in Shanghai city. The practice indicates that it is better and easier compared with other conventional methods.
+Key words：Greenland system;　landscape ecology;　fuzzy comprehensive method;　fuzzy comprehensive evaluation;　fuzzy clustering analysis
+1　引言
+　　景观生态是一门以空间为基本特征的交叉性综合学科，集生态学、现代地理学、系统科学各门理论为一体，研究景观及其空间要素、考察景观系统的结构、功能、演变规律以及人类社会系统的相互作用，并进行景观优化利用及管理保护的原理的途径。作为人类改造最彻底的景观——城市而言，由于它具有高度的异质性，景观要素的流动复杂性［1］，因此迫切需要对城市绿地系统景观生态进行综合评价。
+　　模糊综合评判能够顾及评价界线的模糊性，但在根据最大隶属度或主导因素原则对综合评判矩阵确定定级结果时，丢失了各评价单元之间的相关信息，容易造成与实际不符的评价结果。模糊聚类分析法兼顾了各评价单元的相关信息，在很大程度上弥补了模糊综合评判的不足，但它在获取原始信息和选取分类阈值λ时，具有很大的主观性，尤其是凭经验选取λ值，不仅有先在思想上按主观愿望分类，再去凑阈值λ之嫌，而且分类结果不唯一［2］。城市绿地是城市景观的要素之一，因而本文将模糊综合评判与模糊聚类分析有机结合的模糊综合法用于城市绿地系统景观生态综合评价，能够扬长避短，是一种较好的方法。
+2　基本原理
+2.1　模糊综合评判
+　　影响城市绿地系统景观生态的因素指标很多且重要程度即权重各异，对其进行综合评判时应结合实际，因地制宜选择因素并确定权重，本模型采用特尔菲法，具体步骤如图1。
+　　设因素集U=｛U1，U2，…Um｝，权重集
+
+评语集V=｛V1，V2，…，Vn｝，U的所有因素综合评判
+矩阵
+(p=1，2，…，k；k代表绿地系统景观生态综合评价行政单元数）。对k个行政单元绿地系统景观生态的等级综合评价矩阵为：
+　　(1)
+2.2　模糊聚类分析
+　　把矩阵中的元素xij(i=1,2,…,k;j=1,2,…,n)作为原始数据，用夹角余弦rij=建立模糊相似矩阵R=(rij)kk，并用平方自合成法求得模糊等价矩阵t(R)。根据模糊概率选取聚类阈值，本文选取0.98（即属于同一类的概率达98%），以下面的方法进行聚类：
+　　1）对t(R)的每一列（tii除外）的k-1个元素求和：；
+　　2）求最大值T（1）max=max(T1,T2,…Tk)和比值K(1)j=Tj/T(1)max；
+　　3）把K(1)j＞0.98的Uj聚为一类；
+　　4）在剩余的Tj中再重复上述步骤，直到聚类完成。
+3　评价指标的确定
+　　城市绿地系统景观生态综合评价属宏观评价范畴，本文选择五个评价指标，即：绿化覆盖率（G0）、绿化缀块均匀度（E）、破碎度（C）、分离度（F）和优势度（D）。G0属数量参数，E、C、F、D属绿化景观格局结构参数，它们是绿化缀块空间分布格局的宏观反映。
+　　（1）绿化覆盖率（G0）
+　　绿化覆盖率是常规的宏观评价参数，其计算公式为：
+G0=A/S×100%　　(2)
+式中：A—绿化景观总面积，
+　　　S—区域总面积。
+　　(2)均匀度指数（E）
+　　均匀度指数是衡量不同等级缀块在区域中的比例是否协调，其计算公式为：
+E=(H/Hmax)　　(3)
+式中：
+　　　H—多样性指数，
+　　　Hmax—最大多样性指数，
+　　　Pi—缀块i等级类型所占面积的比例，
+　　　k—区域内缀块的总数。
+　　(3)破碎度（C）
+　　破碎度是指景观被分割的破碎程度，它与城市自然保护关系密切，本文采用单位面积中各种缀块的总个数来作为景观破碎度的判别指标：
+　　(4)
+式中：ΣNi—景观中所有缀块等级类型斑块的总个数，
+A—绿化景观的总面积。
+　　(4)分离度（F）
+　　分离度是区域景观中不同缀块类型的个体分离程度，每一缀块类型的分离度定义为：
+　　(5)
+式中：Fi—缀块类型i的分离度，
+　　　S—区域总面积，
+　　　A—绿化景观总面积，
+　　　Ai—缀块类型i的面积，
+　　　Ni—缀块等级类型i的块数。
+　　将每一缀块类型的分离度值用标准差进行归一化，得归一化分离度，最后确定区域的分离度（F）：
+　　(6)
+式中：k—区域内缀块的总数。
+　　(5) 区域总优势度（D）
+　　绿化景观优势度（D0）反映了各类缀块在景观变化中的作用，其计算公式为：

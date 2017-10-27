@@ -1,0 +1,104 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+镉对沉水植物硝酸还原酶和超氧化物歧化酶活性的影响*
+陈　愚　任久长　蔡晓明
+(北京大学生命科学学院，北京　100871)
+(北京大学环境科学中心环境模拟与污染控制国家重点实验室，北京，100871)
+　　摘要 研究了重金属污染物镉对4种沉水植物(红线草、金鱼藻、黑藻和菹草)硝酸还原酶和超氧化物歧化酶的分子毒理学效应.实验结果表明，一定浓度的镉能诱导沉水植物的硝酸还原酶活性，抑制沉水植物超氧化物歧化酶活性，从而破坏其抗氧化防御系统.镉对沉水植物的毒害存在明显的剂量/效应关系.建议以硝酸还原酶和超氧化物歧化酶的活性变化作为沉水植物受重金属污染的生态毒理学指标.
+　　关键词 沉水植物；镉；生物指标.
+　　沉水植物(submerged macrophytes)是水生态系统中重要的初级生产者和溶解氧的调节者［1］.他们不仅为众多水生动物提供觅食、栖息和繁殖的场所，而且可以净化水体，以维持水体的生态平衡.利用沉水植物的净化作用是治理湖泊污染，改善湖泊水质的途径之一.然而，我国云南省著名的高原湖泊滇池，近年来生物多样性降低，草海沉水植物濒于绝灭［2］.探讨生态系统的恢复(restoration)和重建(reconstruction)的机理与技术措施已成为紧迫的任务.
+　　70年代以来，生态毒理学有了迅速发展，已成为一门新兴的边缘学科.在分子水平研究水体污染物与水生生物体内酶、蛋白、核酶等有关生化成分的反应，所产生的影响可被用来反映污染物的作用［3，4］.本文研究了重金属类有毒污染物中镉对沉水植物分子生态毒理学的效应.
+1 材料与方法
+1.1 植物材料
+　　采自京密运河白石桥运河段的多种沉水植物有：红线草，又名蓖齿眼子菜（Potamogeton pectinatus)、金鱼藻(Ceratophyllum demersum)、 黑藻(Hydrilla verticillata)和菹草(Potamogeton crispus)等.选取生长良好、生长状况一致的植株.
+　　采回植物在实验室内用蒸馏水冲洗干净后，分别置于盛有蒸馏水的大型玻璃槽内，驯化24h，挑选侧枝顶端发育良好，长约8cm的部分为试验材料.
+1.2 试验方法
+1.2.1 试验设计　准确称取CdCl2,用蒸馏水配制镉处理液，其浓度分别为：0.01、0.05、0.10、1.0、10.0和100.0(单位：mg/L).每个浓度设平行重复3次，并以蒸馏水作为空白对照，将试验植株分别置于实验玻璃缸内，重复排列，并设置对照组［5，6］.定期检测两种酶的活性.
+1.2.2 实验条件　光照周期为12h∶12h(L∶D)，光照强度为5500Lx,用ST-80C型数字式照度计检测；温度28℃±2℃;pH 7.1.
+1.2.3 酶活性测定　硝酸还原酶活性，参照Radin, J.W.(1973)的方法，制作亚硝酸氮标准曲线和测定样品溶液中的亚硝酸氮含量.用722型分光光度计在波长520nm处测其吸光值［7］.
+　　超氧化物歧化酶(superoxide dismutase,简称SOD)的活性，参照Dhindsa, D.S等(1981)方法［7］，测定SOD对氯化硝基四氯唑蓝(Nitroblue tetrazolium,简称NBT)光化还原的抑制作用.
+2 结果与分析
+2.1 镉对沉水植物硝酸还原酶活性影响
+　　硝酸还原酶是植物氮代谢中的一种酶.多数植物以无机的硝酸根和氨离子作为氮源.当植物体吸收硝酸盐后，必须将其还原到氮的水平才能进一步转变为氨基酸、蛋白质等含氮有机化合物.硝酸还原酶在此过程中催化硝酸盐生成亚硝酸盐的反应.
+　　A520为反应液在520nm处的吸光度.
+　　相对酶活性=实验组酶活性/对照组酶活性×100%.
+　　经测定，硝酸还原酶活性标准曲线回归方程为：
+　　y=0.957x+0.023(r=0.9999) 酶活性=(A520-0.0023)/0.957
+　　以每h生成1μg亚硝态氮作为一个酶活单位.沉水植物的酶活性以每g(鲜重)植物所含酶活单位数计，以U/g(f.w)表示.
+　　镉溶液处理对红线草硝酸还原酶活性的影响见表1.镉溶液处理对金鱼藻硝酸还原酶活性的影响见图1.镉溶液处理对黑藻硝酸还原酶活性的影响见表2.
+表1 镉溶液处理对红线草硝酸还原酶活性(10-3U/g(f.w)的影响
+Table 1 Effect of cadmium on the nitrate reductase activity of P. pectinatus
+
+处理时间 h浓度， mg/L
+　00.010.050.101.010.0100.0
+　A5200.0800.0870.1160.1060.1050.1040.030
+48酶活81.288.511910810710628.9
+　相对酶活，%10010914713313213135.6
+　A5200.0650.0750.0840.1360.3840.2740.047
+96酶活65.576.685.414039928446.7
+　相对酶活，%10011713021460943471.3
+　A5200.0520.0620.0750.0810.0860.6270.037
+144酶活51.962.476.082.287.565336.3
+　相对酶活，%100120146158169125869.6
+
+表2 镉溶液处理对黑藻硝酸还原酶活性(10-3U/g(f.w)的影响
+Table 1 Effect of cadmium on the nitrate reductase activity of H. verticillate
+
+处理时间, h浓度， mg/L
+　00.010.050.101.010.0100.0
+　A5200.0480.0530.0590.0580.0520.0750.037
+48酶活47.853.059.258.251.976.036.3
+　相对酶活，%10011112412210915987.8
+　A5200.0410.0260.0300.0310.0310.3260.031
+96酶活40.424.828.930.036.333830.0
+　相对酶活，%10061.471.574.389.983774.3
+　A5200.0360.0370.0400.0530.0580.1830.044
+144酶活35.236.339.454.058.218943.6
+　相对酶活，%100103112150165537124
+
+
+图1 镉溶液处理后金鱼藻硝酸还原酶活性
+Fig.1 Effect of cadmium on the nitrate reductase activity ofCeratophyllum demersum
+　　从上述3种沉水植物的试验结果，结果可以看出，在镉浓度≤1.0mg/L时，沉水植物硝酸还原酶活性变化不大，一般多在对照值水平上下波动或略有升高.镉浓度为10.0mg/L时，沉水植物硝酸还原酶活性有明显升高，可达对照值的10倍以上.镉浓度达到100mg/L时，沉水植物硝酸还原酶活性降低.
+　　随处理时间不同，沉水植物硝酸还原酶活性的变化规律是一致的，只是酶活性升高的倍数有所不同(图1).
+2.2　镉对沉水植物SOD活性的影响
+　　SOD是沉水植物中普遍存在的一种含金属的酶，能有效地消除活性氧，防止细胞膜系统过氧化作用的发生.
+　　根据SOD抑制对氯化硝基四氮唑蓝(NBT)光还原的性质测定酶活性，以每h抑制NBT光还原50%作为一个酶活单位.沉水植物的酶活性以每g鲜重植物所含酶活单位数计，以(U/g(f.w)表示.红线草和菹草经镉处理后的SOD活性变化见图2.
+　　由图2可见，沉水植物SOD活性随镉浓度增加而下降.从图3可知，镉对沉水植物SOD活性的抑制率与镉浓度呈现S型曲线的关系.红线草SOD活性对镉的敏感浓度范围是1.0—10.0mg/L;而菹草则是0.1—1.0mg/L.
+
+图2 镉溶液处理对沉水植物的SOD活性的影响
+Fig.2 Effect of cadmium on SOD activity in submerged macrophytes
+
+图3 镉对红线草和菹草SOD活性的抑制作用
+Fig.3 Inhibitory effect of cadmium on SOD activities of P. pectinatus and P.crispus
+3 讨论
+　　硝酸还原酶和SOD是沉水植物体内起着重要作用的两种酶.目前认为，硝酸还原酶催化硝酸盐成为亚硝酸盐，在植物体内促进氮的代谢.硝酸还原酶是一类含巯基的酶.镉与巯基结合，破坏该酶的活性中心，使酶失活.
+　　SOD与植物体内过氧化物酶，过氧化氢酶，谷胱甘肽还原酶，维生素E，维生素C，辅酶Q，巯基化合物等组成了防御过氧化系统，能有效地消除活性氧，防止细胞膜系统过氧化作用的发生.SOD可催化对毒害生物细胞的氧自由基的歧化反应，生成过氧化氢，再由过氧化氢酶转化为无害的分子氧和水.镉进入植物体，通过原生质流动和胞间连丝，逐个细胞迁移进入导管，然后输送到植物各部.
+　　水体中的镉被沉水植物吸附后，通过渗透到达表皮细胞内.镉也可被沉水植物根系直接吸收.镉在植物体内可以螯合态和毒性更大的可溶态形式存在.在分子水平上，镉可以破坏沉水植物的保护酶系统，从多方面影响其生理、生化功能，最终可导致整株植物的死亡［8］.
+　　本研究结果还表明，重金属镉对沉水植物生化毒理的影响存在着典型的剂量/效应关系［9］，即植物的反应随镉浓度增加而增强.但二者并不成正比关系.低浓度时，处于起始区，反应变化不明显.随浓度的增加，植物的反应急剧增强.而浓度继续增大时，反应的变化又不太明显.
+　　4种沉水植物对镉污染的抗性存在较大差别［10］.其中，红线草对镉的抗性较强，从分子水平上，从硝酸还原酶和SOD的活性上可以反映出来.红线草对镉的缓冲力高，解毒能力和抗性较强［11］.因此，红线草可以作为沉水植物群落恢复的先锋物种.这一结论与目前昆明滇池(草海)中残存少量红线草的事实是完全一致的.因此作者建议以硝酸还原酶和SOD活性作为沉水植物受重金属污染的生态毒理学指标，应用于监测的评价污染物对水生植物的影响［12］，具有相当好的推广应用前景.
+　* 本文为“八五”国家科技攻关项目（85-908-02-03）的一部分
+　** 通讯联系人
+参考文献
+　1 蔡晓明，尚玉昌.普通生态学(下册).北京：北京大学出版社，1995
+　2 吴玉树等.根生沉水植物菹草对滇池水体的净化作用.环境科学学报，1991，11(4)：411—416
+　3 Tanaka K et al. Role of superoxide dismutase in defense against SO2 toxicity and an increase in superoxide dismutase activity with SO2 fumigation. Plant & Cell Physiol, 1980, 21:601—611
+　4 Ostrofsky L M, Zetter R　E. Chemical defences in aquatic plants. J Ecol, 1986, 74:279—287
+　5 金相灿等.湖泊富营养化调查规范(第二版).北京：中国环境科学出版社，1990
+　6 陈静生等.中国水环境重金属研究.北京：中国环境科学出版社，1992
+　7 朱广廉等.植物生理学实验.北京：北京大学出版社，1990
+　8 Carins J J. The recovery process in demaged ecosystem. Ann Arbor Science Publishers Inc, 1980
+　9 Bnix H.The use of aquatic macrophytes in water pollution control. AMBIO, 1989,18(2):100—107
+　10 颜素珠.8种沉水植物对重金属的抗性及净化能力探讨.中国环境科学，1990，10(3)：166—170
+　11 蔡晓明等.青龙河底栖无脊椎动物群落结构及其水质评价.应用生态学报，1992，3(4)：364—370
+　12 叶文虎等.环境质量评价.北京：高等教育出版社，1994
+EFFECTS OF CADMIUM ON NITRATE REDUCTASE AND SPEROXIDE DISMUTASE OF SUBMERGED MACROPHYTES
+Chen Yu
+(College of Life Science, Peking University, Beijing 100871)
+Ren Jiuchang, Cai Xiaoming
+(State Key Laboratory of Environmental Simulation and Pollution Control, Centre of Environmental Science, Peking University, Beijing 100871)
+ABSTRACT Physiological and biochemical effects of cadmium on four species of submerged macrophytes were tested. The results showed that above certain concentration, Cd could induce the activity of nitrate reductase, and inhibit the activity of superoxide dismutase. Thus the antioxidant defense system of these species was injured. There was a positive correlation between dose and effect. Based on the results of this study the activity of superoxide dismutase of submerged macrophytes are expected to be used to monitor and evaluate aquatic ecosystem as a biomarker.
+Keywords submerged macrophyte, cadmium, biological criteria.
+1996-07-25收到原稿
+1997-04-23收到修改稿

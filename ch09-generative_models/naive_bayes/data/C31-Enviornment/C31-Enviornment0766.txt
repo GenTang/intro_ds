@@ -1,0 +1,77 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+载体对负载钯催化剂的CO氧化活性的影响
+陈　敏　罗孟飞　袁贤鑫
+(杭州大学催化研究所，杭州　310028)
+
+摘要　采用COTPSR和CO氧化活性测试等方法考察了不同载体对Pd催化剂的CO表面氧化性能的影响.结果表明，载体对Pd催化剂的CO氧化性能、CO吸附能力影响很大.CO的吸附能力顺序为Pd/CeO2(吸附量：0.59mL/100mg)＞Pd/Al2O3(吸附量：0.052mL/100mg)＞Pd/TiO2(吸附量：0.001mL/100mg).催化剂的CO氧化活性与CO吸附能力有很好的对应关系，尤其是Pd/CeO2催化剂对CO表现出很好的活性，在50℃时其转化率可达98%.
+关键词　载体；Pd催化剂；CO氧化.
+EFFECT OF SUPPORT ON Pd CATALYST FOR CO OXIDATION
+
+Chen Min, Luo Mengfei, Yuan Xianxin
+(Research Institute of Catalysis,Hangzhou University,Hangzhou 310028)
+
+ABSTRACT　Pd supported on CeO2, Al2O3, TiO2 was investigated by means of COTPSRMS technology. The oxidation activity of CO over the catalysts was studied. The results showed that supports had different effects on CO oxidation activity and CO adsorption.The adsorption capacity of the catalysts for CO was in following order, Pd/CeO2＞Pd/Al2O3＞Pd/TiO2. The CO oxidation activity of the catalysts was closely related to their adsorption capacity.Pd/CeO2 catalyst is the most active one for CO oxidation among all.The conversion of CO could reach 98% at 50℃.
+
+Keywords　Pd catalyst,CO oxidation,support.
+1　引言
+　　催化燃烧是处理有机废气和CO污染的行之有效的方法之一.Pd是这类催化剂的常用活性组分.载体对催化剂的活性影响很大.例如：载体性质对负载Au催化剂的NO还原活性、H2和CO氧化活性有明显影响［1—3］.Moto等发现负载在SiO2、Al2O3和SiO2Al2O3上的Pd催化剂，不同载体制得的催化剂的CH4氧化活性和氧化反应动力学参数不同［4］.钟依均等发现载体对银催化剂的CO氧化活性及其表面氧性质影响很大［5］.安井昭夫等研究了不同载体上钯催化剂对乙烯合成醋酸乙烯的反应，发现反应速度随载体的变化而改变［6］.本文考察了载体对Pd催化剂CO氧化活性的影响，并与COTPSR结果进行了关联，探讨了不同载体上CO氧化反应的机理.
+
+2　实验部分
+2.1　催化剂制备
+　　载体TiO2由浙江省明矾石研究所提供，Al2O3由温州催化剂厂提供，CeO2由硝酸亚铈经650℃空气氛中分解4h制得，采用浸渍法，Pd负载量为2%，经干燥、空气氛中650℃焙烧4h制得Pd/TiO2、Pd/CeO2、Pd/Al2O3催化剂.
+2.2　CO氧化活性测定
+　　CO氧化活性测定在常温固定床流动反应装置上进行，反应气组成：CO为2.4%，O2为1.2%，N2气平衡.催化剂装量150mg,反应气流量：80mL/min.色谱分析.CO的反应转化率按下面公式计算：
+
+其中，A——反应前混合气体中的CO峰面积，a——反应后混合气体中的CO峰面积.
+2.3　COTPSR
+　　COTPSR实验在改装的ZhDOIS色质联用仪上进行.CO脱附前，先将样品(100mg)在600℃氧气氛下处理0.5h，降温至室温，切换成He气，吹扫0.5h，脉冲CO气体进行吸附(1mL/次)，待吸附饱和后，经He吹扫再进行程序升温脱附，升温速率15℃/min，质谱检测升温过程脱附气体中的CO2(m/e=44)和CO(m/e=28)的信号强度.CO吸附量按下式计算：
+　(单位：mL/100mg)
+其中，An——吸附达到饱和时的峰面积，A总——至饱和时每次吸附CO后的峰面积总和，n——至吸附饱和时的进针次数.
+
+3　结果与讨论
+3.1　催化剂的COTPSR结果
+
+
+图1　催化剂的COTPSR图谱
+Fig.1 COTPSR spectra of catalysts
+图1是催化剂吸附CO后程序升温过程中产物的脱附情况，产物中没有检测到CO.图1表明，Pd/CeO2催化剂从50℃即开始脱附，到190℃结束，其程脱物主要为氧化产物CO2，峰面积很大，这表明CO在Pd/CeO2催化剂上很易脱附，相比之下，Pd/TiO2,Pd/Al2O3催化剂程脱峰面积明显小于Pd/CeO2催化剂，并且随着脱附温度的提高，也没有CO脱出，表明这二种催化剂CO吸附很少，即3种催化剂吸附CO能力为：Pd/CeO2＞Pd/Al2O3＞Pd/TiO2.可见，不同载体负载的催化剂，表现出对CO不同的吸附能力.
+表1　不同催化剂CO吸附情况比较
+Table 1 The absorption of CO on various catalysts
+
+催化剂Pd/CeO2Pd/Al2O3Pd/TiO2
+CO吸附量，mL/100mg0.590.0520.001
+
+　　表1是3种催化剂对CO吸附量大小比较情况.从表1可见，Pd/CeO2催化剂对CO的吸附最大，Pd/Al2O3催化剂与Pd/TiO2催化剂吸附很小及几乎没有吸附.这进一步说明了由于载体的不同，对CO的吸附情况不同.与COTPSR结果有相应的关联.
+
+
+
+图2　3种催化剂上CO氧化活性图
+Fig.2 Activity of CO oxidation over three catalysis
+3.2　CO氧化活性测试
+　　图2是催化剂的CO氧化活性与反应温度的关系图.图2表明，Pd/CeO2催化剂对CO氧化活性最高，在50℃时，CO转化率可达98%.Pd/Al2O3催化剂的完全氧化温度为120℃，Pd/TiO2催化剂的完全氧化温度较高，要达190℃，这表明载体对催化剂的氧化活性影响很大，其氧化活性次序与其对CO的吸附有很好的对应关系，即Pd/CeO2＞Pd/Al2O3＞Pd/TiO2.同一种活性组分(Pd)在不同的载体上表现出了很不相同的性能，这可能由于金属催化剂表面用以活化CO等反应物分子的活性中心主要决定于载体与活性组分的相互协同作用.为了进一步了解这一点，我们对CeO2、Al2O3、TiO2载体进行了CO氧化活性测定，结果表明均无活性或活性甚微，这表明载体的差别只有当与活性组分Pd发生作用才能体现出来，即载体与活性组分组成了与CO反应机理相适应的活性结构.由此推测：CeO2、TiO2、Al2O3在CO氧化过程中，不仅仅是分散活性组分的载体，而是在整个CO氧化反应过程中作为一个有效的电子传递中间体参与反应，通过Pd与不同载体间的协同作用，实现了CO氧化的催化行为.
+
+
+图3　CO转化率的时间效应曲线
+Fig.3 Conversion of CO as a functionof reaction time
+3.3　CO转化率的时间效应测定
+　　图3是3种催化剂CO转化率与反应时间的关系.在相同的反应温度、气体流量条件下，Pd/CeO2催化剂的活性随反应时间的延长不断提高.时间的延长对Pd/Al2O3，Pd/TiO2催化剂的活性影响不大.这种差别，可以用集团结构适应理论［7］，从Pd与不同载体间的相互作用的强弱来解释.在带有正电荷的Pd中心和吸附CO的氧原子之间形成了Pd*—O键，同时Pd或(Pd*)n集团也是吸附活化CO分子的中心，二者在催化剂表面的吸附氧化是相互竞争的.在Pd/CeO2催化剂上，由于CeO2本身有储氧的作用，可使供［O］中心起到传递氧的作用，活性氧浓度相对较大，故能在较短时间内迅速活化，并随时间延长保持有足够的供氧数目而不断氧化，其催化活性也就不断提高.另二种催化剂Pd/TiO2、Pd/Al2O3，由于金属与担体间相互作用较强［8］，使Pd中心具有明显的缺电子性，这样势必增加它的成键能力，增强吸附键Pd—O键强，其活性氧吸得牢而不易脱出，其活性位的氧化较难，故活性氧数目受时间影响小，反应时间的延长对其影响也就不大.
+3.4　不同载体上CO氧化机理探讨
+　　担载型催化剂的CO氧化反应的可能途径是：CO先在(Pd)活性中心上活化吸附，然后在催化剂表面使活化吸附的CO氧化成为CO2.在这个过程中，由于载体性质的不同，CO的吸附氧化也就有难易之分.从载体角度看，CeO2是稀土型氧化物，它的变价能力是公认的，具有良好的传递表面氧的能力.它的存在，使得表面活性氧被消耗的同时，体相中的活性氧种能不断地向表面移动.这就是Pd/CeO2催化剂对CO氧化表现出较高的氧化活性的原因之一.而Al2O3是具有表面酸性的载体，催化剂的表面酸碱性的强弱与其表面氧化能力的大小有关.一般强酸性中心数目多，催化剂表面酸性强，则对生成活性氧不太有利［9］；而载体TiO2表面有阳离子空位，氧交换率低，供氧较困难，故对CO较难氧化，所以相同的活性组分(Pd)在不同的载体上由于载体性质的不同表现出了很不相同的对CO的反应能力.另外，CO在Pd活性中心上活化吸附后，由于不同载体提供的“氧源”不同也是造成反应活性差异的原因之一，即：CeO2的晶格氧易参加反应，而TiO2以吸附氧(O-2,O-)为主，所以在TiO2载体担载的Pd催化剂上氧交换速度低，故CO氧化活性也就低.
+
+4　结论
+　　(1) Pd/CeO2、Pd/Al2O3、Pd/TiO2 3种催化剂由于载体的不同，其CO2生成及CO脱附次序也就有了差别：Pd/CeO2＞Pd/Al2O3＞Pd/TiO2.
+　　(2) 3种催化剂上CO氧化活性与COTPSR结果有一致的对应关系，CeO2为载体担载的Pd催化剂，其CO表面氧化反应最易进行，Al2O3为载体的次之，TiO2为载体时最差.
+　　(3) 3种催化剂对CO的时间效应曲线表明，反应时间的增长对Pd/CeO2催化剂影响较大，而对Pd/Al2O3,Pd/TiO2催化剂影响不大.
+　　(4) Pd/CeO2催化剂对CO的低温氧化活性具有广阔的应用前景，有待于进一步深入研究.
+参考文献
+　1　上田　厚，春田正毅.酸素及じ水蒸气共存下じおけゐ担持金触媒上じの——酸化室素の还元反应. 触媒，1994，36：112
+　2　Haruta M,Tsubota S,Kobayashi T et al.Lowtemperature oxidation of CO over gold supported on TiO2,aFe2O3, and Co3O4. J Catal,1993,144:175
+　3 Haruta M,Yamana N,Kobayashi T et al. Gold catalysts prepared by coprecipitation for lowtemperature oxidation of hydrogen and of carbon monoxide.J Catal,1989,115:301
+　4 Moto K,Katada N,Niwa M.Complete oxidation of methane on supported palladium catalyst support effect.Appl Catal,1996,134:203
+　5 钟依均，罗孟飞等.负载银催化剂的氧性质和CO氧化活性.见：张鸿斌等编第八届全国催化会议论文集.厦门，1996：843
+　6 安井昭夫，中村征四郎.触媒担体の作用.触媒，1972，14：187
+　7 金松寿等.有机催化.上海：科技出版社，1986：1
+　8 Yao H C et al.Surface interactions in the Pt/rAl2O3 system. J Catal.,1979,59:365
+　9 吴 波，远松月等.甲烷氧化偶联La-Me-O(Me=Mg,Ca,Sr,Ba)系催化剂表面氧种的研究.高等学校化学学报，1995，16(3)：432

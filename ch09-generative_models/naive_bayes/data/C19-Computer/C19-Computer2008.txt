@@ -1,0 +1,124 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+1999年3月 第18卷 第3期 vol.18 No.3
+
+
+
+利用ASP创建含有数据库信息的动态页面
+都艺兵
+　　摘　要：简要介绍了ASP技术，并通过1个简单的实例介绍 了如何使用ASP技术创建含有数据库信息的动态页面。
+　　关键词：ASP技术　动态页面　数据库
+1　ASP技术
+　　ASP是一种开放技术，可以将HTML、脚本及可重用的ActiveX Server组件结合在一起以建立 高 效的、动态的、基于Web的应用程序环境。利用ASP，可以增加运行在服务器端的脚本的新功 能，开发出动态、交互的高性能Web服务器端应用。利用ASP开发的脚本程序，全部运行在服 务器端。
+　　ASP支持ActiveX Server组件的使用。ActiveX Server组件通过组件对象模型(COM)为ASP提 供了可编程的界面，其中的ADO(ActiveX Data Object)提供了与数据库相连的机制。ADO包 括7个对象：
+　　(1)Command对象：定义对数据源进行操作的命令。
+　　(2)Connection对象：建立1个与数据源的连接。
+　　(3)Error对象：提供属于数据访问错误的细节。
+　　(4)Field对象：表示一般数据类型的字段。
+　　(5)Parameter对象：表示command对象的参数。
+　　(6)Property对象：表示由数据提供源定义ADO对象的动态特性。
+　　(7)Recordset对象：表示数据库信息显示的全部结果集。
+　　使用ADO对象可以建立和管理与数据库的连接，从数据库服务器提取数据、执行更新、删除 添加数据。
+　　图1示出了Microsoft的各数据存取组件共同工作的情况。
+
+SQL Server.Oracle.Foxpro
+图2  MS数据存取组件间的关系
+　　当浏览器请求1个.ASP文件时，Web服务器调用ASP，读取.ASP文件的内容，执行.ASP文件 中的脚本命令，然后向浏览器发送标准的HTML页面，如图2所示。
+
+图2  ASP模型
+　　ASP文件是1种嵌入了可在服务器端执行的脚本的HTML文档，与ASP兼容的Web服务器执行这些 脚本，在客户端ASP文件是标准的HTML文本。
+　　1个ASP文件是包含以下内容的扩展名为.ASP的文本文件：
+　　(1)Text(文本)
+　　(2)HTML tags(HTML标记)
+　　(3)ASP脚本命令
+　　建立.ASP文件非常简单，对于任意1个想加入脚本的HTML文件，只需如下工作：将脚本扩展 名由.htm或.html改为.ASP，然后加入脚本命令，脚本命令放在分界符<%和%>之间，脚本 命令可以是脚本语言Java Script或VBscript语句。可以在<%和%>之间加入任何脚本语言合 法的语句、表达式、过程和运算符，也可以在语句之间包含HTML文本。
+2　ASP访问数据库举例
+　　首先建立1个ODBC数据源(DSN)文件，利用DSN指向ODBC数据库，包括数据库的配置、用户权 限、数据库的位置。
+　　具体方法是：在服务器的控制面板，双击ODBC图标，选择FILE DSN，单击ADD，创建系统数 据源DSN文件。本例中创建了1个DSN文件——CLHS，指向1个SQL Server数据库misd bl。
+　　本例在1个带框架的页面frame.htm中，用户在1个框架中选择要查询的内容(对应的页面为cl hs.htm)，在另1个框架中显示数据库的查询结果。
+　　下面脚本实现的功能是，在1个框架中(clhs.htm)选择动态库存查询(其超级连接为1个ASP文 件kclist.asp)，在服务器端运行kclist.asp中的脚本，在数据库misdb的表cljgm l中提取该材料的名称、计划价及当前动态库存等信息，将结果显示在浏览器的页面中。
+Frame.htm的内容为：
+<html>
+<head>
+<meta http-equiv=“Content-Type"content=“text/html;charset=gb2312”>
+<title>总框架</title>
+<meta name=“GENERATOR”content=“Microsoft FrontPage 3.0”>
+<bgsound src=“贝多芬的《致艾丽丝》.rmi”loop=“-1”>
+<meta name=“Microsoft Theme”content=“arcs lll,default”>
+</head>
+<frameset framespacing=“0”border=“false”frameborder=“0”rows=“*”> 
+<frameset cols=“26%,*”>
+<frame name=“contents”target=“main”src=“clhs.htm”scrolling=“auto ”>
+<frame name=“main”src=“intro.htm”scrolling=“auto”>
+</frameset>
+</noframes>
+<body>
+<p>This page uses frames,but your browser doesn't support them.</p>
+</body>
+</noframes>
+</frameset>
+</html>
+clhs.htm的内容为：
+<html>
+<head>
+<meta http-equiv=“Content-Type”content=“text/html;charset=gb2312”>[ ZK)〗
+<title>材料核算系统</title>
+<base target=“main”>
+<meta name=“Microsoft Theme”content=“arcs 111”>
+</head>
+<body>
+<h5 align=“left”>材料核算系统</h5>
+<o1>
+　<li><font size=“2”><a href=“intro.htm”>简介</a></font></li> 
+　<li><font size=“2”><a href=“kclist.asp”>材料动态库存</a></font></li >
+　<li><font size=“2”><a href=“clrk.asp”>材料入库台帐</a></font></li> 
+　<li><font size=“2”><a href=“clck.asp”>材料出库台帐</a></font></li> 
+　<li><font size=“2”><a href=“gjrk.asp”>估价入库查询</a></font></li> 
+</o1>
+</body>
+</html>
+kclist.asp的内容为：(脚本语言为VBSript,脚本在<%与%>之间)
+<html>
+<head>
+<meta http-equiv=“Content-Type”content=“text/html;charset=gb2312”>[ ZK)〗
+<title>材料动态库存</title>
+<meta name=“GENERATOR”content=“Microsoft FrontPage 3.0”>
+<meta name=“Microsoft Theme”content=“arcs 111,default”>
+</head>
+<body>
+<%
+set rstMain=CreateObject(“ADODB.Recordset”);调用ASP的方法
+；CreateObje ct建立1个Recordset对象的实例
+rstMain.CursorType=3
+rstMain.Open　“SELECT　clbh,mc1,mc2,dw,jhj,kcs1　FROM
+　　misdb1.dbo.cljgml",“DATABASE=misdb1;UID=sa;PWD=;DSN=clhs”
+%>
+<h6 align=“center”><big><big><big><a name=“head”>材</a>料动态库存
+             &n bsp; 
+</big></big></big></h6>
+<table border=“1”width=“88%”height=“21”>
+<tr>
+　<td height=“17”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”>科目编码</font></td>
+　<td height=“17”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”>名称</font></td>
+　<td height=“17”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”>规格</font></td>
+　<td height=“17”valign=“middle”align=“center”><font size=“2”>计 划价</font></td>
+　<td height=“17”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”>库存数量</font></td>
+</tr>
+<%do while not rstMain.eof%>
+<tr>
+　<td height=“15”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”><%=rstMain.fields(0)%></font></td>
+　<td height=“15”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”><%=rstMain.fields(1)%></font></td>
+　<td height=“15”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”><%=rstMain.fields(2)%></font></td>
+　<td height=“15”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”><%=rstMain.fields(4)%></font></td>
+　<td height=“15”valign=“middle”align=“center”><font COLOR=“#00000 0”size=“2”><%=rstMain.fields(5)%></font></td>
+</tr>
+<%rstMain.movenext%>
+<%loop %>
+</table>
+<hr align=“center”>
+<p align=“right”><a href=“#head”>返回</a></p>
+</body>
+</html>
+　　以上程序已在网络环境下正确运行。 
+作者单位：山东财政学院信息系(250014)
+(收稿日期：1998-09-13)

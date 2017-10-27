@@ -1,0 +1,88 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第1期 Vol.23 No.1 1997
+
+
+
+多变量时滞系统鲁棒稳定性
+庞国仲　孙丽华　刘军　薛福珍
+摘　要　基于 Smith 预估技术和多变量线性系统解耦鲁棒理论，研究了多变量时滞系统鲁棒稳定性，得到在 Smith 预估严格匹配时闭环系统稳定，且摄动系统为鲁棒对角优势，则摄动系统为鲁棒稳定的一般性结论.
+关键词　鲁棒对角优势，多变量时滞系统，鲁棒稳定性.
+ROBUST STABILITY FOR MULTIVARIABLE
+SYSTEM WITH TIME DELAYS
+PANG GUOZHONG　 SUN LIHUA　 LIU JUN　 XUE FUZHEN
+(Department of Automation,University of Science and Technlolgy of China,Hefei 230027)
+Abstract　Based on the Smith precompensation technique and the decoupling robust theory,this paper studies the robust stability of multivaliable system with time delays and derives the general conclusion that under the condition of Smith precompensation matching strictly,if the closed-loop system is stable and its perturbed system is robust diagonal dominance,the perturbed system must be robust stable.This result has the theoretical significance for resarch on the relation between system structure and its robustness,and also contributes the theoretical basis to robust design for the multivariable systems with uncertainty and time delays.
+Key words　Robust diagonal dominance,multivariable system with time delays,robust stability.
+1　引言
+　　奈氏阵列法用于研究参数不确定性系统，形成了解耦鲁棒理论.文献［1］首先提出了鲁棒对角优势定义.文献［2］证明了对于结构性摄动系统，如果其名义系统稳定，则鲁棒对角优势保证鲁棒稳定，并提出了鲁棒系统设计方法，实际设计表明该方法有效［3］.
+　　本文基于解耦鲁棒理论和 Smith 预估技术，研究多变量时滞系统鲁棒稳定性，给出了多变量时滞系统鲁棒对角优势定义，证明了 Smith 预估的多变量时滞系统，如果名义系统稳定，且摄动系统为鲁棒对角优势，则摄动系统为鲁棒稳定的一般性结论，它不仅具有理论意义，而且可用于实际系统设计.
+2　奈氏阵列法
+　　引理1［4］.在图1所示系统中，若(F-1+Q(s))在 D 上为对角优势，则 det［F-1+Q(s)］轨迹包围原点次数(顺时针为正) N 等于 (F-1+Q(s))各对角元(f-1i+qii(s))轨迹包围原点次数 ni 之和，即 
+
+
+图1　多变量反馈系统
+　　定理1［4］.对于图1所示系统，若 (F-1+Q(s)) 在 D 上为对角优势，则闭环系统稳定充分必要条件为
+　　(1)
+其中n0为开环系统在s右半开平面上极点数.
+3　多变量时滞系统鲁棒稳定性
+　　图2给出 Smith 预估多变量时滞摄动系统，其中，G(s)=(gij(s)e-τijs)∈Rm×m为广义对象名义模型，G0(s)=G(s)｜τij=0，为对象变化的模型，K(s)∈Rm×m为控制器模型，,fi∈R 为反馈增益矩阵，G(s) 和(s)为稳定的.
+容易推出对于Y*(s)和Y(s)的闭环传递函数矩阵为
+
+
+图2　Smith预估多变量时滞系统
+　　(2)
+　　(3)
+式(2)，(3)有相同的特征方程，即
+　　　(4)
+可见，如果对于 Y*(s)的闭环系统稳定，则对于 Y(s)的闭环系统一定稳定.
+　　设 Q(s)=G0(s)K(s) 为Smith预估后系统名义模型，E(s)=((s)-G(s))K(s) 为 Q(s) 的结构性加法摄动矩阵，且在如下意义下有界：
+
+
+
+图3　加法摄动系统
+则有　　｜E(s)｜=(｜eij(s)｜,
+　　　　｜R(s)｜=(｜rjj(s)｜)，
+　　满足｜E(s)｜≤｜R(s)｜,s∈D.
+　　对于 Y*(s)为输出的摄动系统如图3所示.
+　　对于图3所示的时滞摄动系统，给出鲁棒对角优势定义.
+　　定义1.若(F-1+Q(s))在D上为行或列对角优势，且满足
+　　(5)
+或
+　　　(6)
+则称图3所示摄动系统为行或列鲁棒对角优势.
+　　定理2.在图3所示摄动系统中，若(F-1+Q(s))为对角优势，且按定义1在D上为鲁棒对角优势，则 det［F-1+Q(s)］的轨迹包围原点次数 N 等于det［F-1+Q(s)+E(s)］的轨迹包围原点次数 N1，即 N=N1.　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(7)
+　　证明.令 Z(s)=F-1+Q(s)，定义矩阵(s)=Z(s)+αE(s).　　　　　　　　　　　　　(8)
+　　定义函数
+　　　　(9)
+Z(s)在上D为对角优势，故det Z(s)在 D 上无零点和极点.(s)在 D 上为鲁棒对角优势和 E(s) 有界，故 det (s)在 D 上无极点，于是在 0≤α≤1 时，函数β(α,s)在 D 上均为有限值.
+
+
+图4　函数 β(1,s)的图象
+　　取 α=1，当 s 沿 D 变化一周时，β(1,s)在复平面上绘出封闭曲线 Γ，如图4所示.在 D 上取 s0,β(1,s0) 为 Γ上点 A.α=0时，β(0,s0)=1.当 α由 0 变到 1时，β(α,s0)绘出一条由1到 A 的连续曲线γ(α).当 s 从 　s0 　沿 D 变化一周时，曲线γ(α)将连续扫过复平面一个区域，最后回到原位置.
+　　反证法.设封闭曲线 Γ包围复平面原点，表明存在 s1∈D 和 α∈［0，1］，使β(α1s1)=0.这是不可能的.因为在 α∈［0，1］和 s∈D 上，函数β(α,s)为有限值.故封闭曲线 Γ不可能包围复平面原点.
+　　根据幅角原理，由式(9)得 N1-N=0，故 N1=N.
+　　定理3.在图3所示系统中，若 (F-1+Q(s))在 D 上为对角优势，且满足
+　　1) 等效无时滞(即名义)系统闭环稳定；
+　　2) G(s) 和 (s)无位于 s 右半闭平面上极点；
+　　3) 摄动系统为鲁棒对角优势，则 Smith 预估的摄动系统稳定，即系统为鲁棒稳定.
+　　证明.对于图3所示摄动系统，在模型严格匹配时，为等效无时滞系数，由定理1得 nc=N+n0.名义系统闭环稳定，即 nc=0,又 n0=0，故 N=0.
+　　对于摄动系统，有
+　　　　　　　　　　　　　　(10)
+其中c(s) 和0(s)分别为摄动系统闭环和开环特征多项式.
+　　由幅角原理得
+n′c=N1+n′0,　　　(11)
+其中n′c和n′0分别为摄动系统位于s右半闭平面上闭环和开环极点数.已知n′0=0，由定理2得 N1=N=0,故n′c=0.因此，摄动系统闭环稳定.即系统鲁棒稳定.
+4　结论
+　　1)对于 Smith 预估的多变量时滞系统，如果等效无时滞系统闭环稳定，而摄动系统又为鲁棒对角优势，则该系统必为鲁棒稳定.该结论对深入研究时滞系统鲁棒性具有理论意义.
+　　2)鲁棒对角优势比鲁棒稳定更强的条件，因而鲁棒对角优势一定保证鲁棒稳定，而且鲁棒对角优势越大，允许摄动范围也越大.
+　　3)本文所得结论的保定性和计算量都较小，控制器和 Smith 预估器易于设计和实现，因而可直接用于时滞系统设计.
+作者单位：中国科学技术大学自动化系　合肥　230026
+参考文献
+［1］　Arkun Y,Manousiouthakis B， Putz P.Robust nyquist array methodology:a new theoretical framwork for analysis and design of rohust multivariable feedback Systems,Int.J.control,1989,40(4):603-629.
+［2］　庞国仲，陈振跃.鲁棒稳定性与鲁棒对角优势的关系.自动化学报，1992，18(3)：273-281.
+［3］　庞国仲，刘军，向有敏，鲁棒对角优势及在多变量系统鲁棒设计中应用.控制理论及应用.1993，10(4)：435-440.
+［4］　庞国仲，白方周，濮洪钧.多变量控制系统实践.合肥：中国科学技术大学出版社，1990，155-160.
+收稿日期　1994-02-22
+
+

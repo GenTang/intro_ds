@@ -1,0 +1,15 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第10期 Vol.19 No.10 1999
+
+
+
+JDK 1.1的多语种支持
+路骏
+　　JDK 1.1的改变主要影响了三个包：
+　　Java.util, 增加Locale类。Locale 类封装了局域的一些信息，如国家,语种,日期代码等。但并不提供实际的局域化操作。如果没有指定一个Locale, JDK1.1会从环境中提取缺省的Locale(us-en)。
+　　java.io 中所有的类，它们用InputStream和OutputStream流工作，都增加了相应的Reader和Writer字符流类。新增的Reader和Writer除了处理16位的国际码特性以外，和其他字节流的工作是一样的。字符流使用大量的字符集转换。每一个原有的在类一层的输入输出字节流，现在都有对应的Reader和Writer类，用字符流完成相似的功能。
+　　若你正在开发新程序，就在以前使用InputStream和OutputStream流的地方，用相应的Reader和Writer类来代替。JDK 1.1提供了InputStreamReader和OutputWriter两个类，用来创建基于字节流的新的Reader和Writer对象，使Reader/Writer类同目前使用字节流的其他类兼容。
+　　java.txt 是一个完全意义上的新包。他提供了处理各种文本的支持，包括文本排序，格式化日期与数值，以及分析相关语言数据。
+　　应用JDK 1.1提供的新方法，可以将程序中地区化的标签，文本和处理地区化信息的源程序封装到要支持的每一个Locale对应的ResourceBundle对象中，只要把指定的Locale源转译成新的语言或习惯，就可以实现移植。
+作者单位：中科院安徽光机所

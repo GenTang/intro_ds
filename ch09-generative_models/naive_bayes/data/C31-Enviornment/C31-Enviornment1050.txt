@@ -1,0 +1,33 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.37-39
+
+
+
+
+利用天然蛭石处理造纸黑液
+周平　 刘东　 
+摘　要：实验使用未经膨化处理的天然蛭石，添加微量铁质添加剂处理草浆黑液，然后将其沉渣烧制陶瓷制品。微量铁质添加剂使得天然蛭石对造纸黑液中COD的去除率由原来的30%提高到50%以上；利用沉渣烧制陶瓷制品的烧成温度宽，制品的强度高，孔隙率大。
+关键词：蛭石；　三氧化二铁；　草浆黑液；　COD去除率；　陶瓷
+分类号：X793　文献标识码：A
+文章编号：1001-6929(2001)03-0037-03
+The Application of Natural Vermiculite to Treatment of Straw Pulp Wastewater
+ZHOU Ping（China University of Geosciences, Beijing 100083, China）　
+LIU Dong（China University of Geosciences, Beijing 100083, China）　
+
+Abstract：This paper describes a method for treating straw pulp wastewater by complex reagent,which is composed of natural vermiculite and trace amount iron substrate additive.The sediment from the straw pulp wastewater can be fired to make ceramic.The natural vermiculite can raise the COD removal of the straw pulp wastewater from 30% to 50% because of the trace amount iron substrate additive.This kind of sediment has a wider temperature range to be fired into ceramics.The ceramic has the properties of higher intensity and the greater factor of porosity.
+Keywords：vermiculite;　ferric oxide;　straw pulp wastewater;　COD removal rate;　ceramic
+
+基金项目：矿物岩石材料开发与应用国家专业实验室基金资助项目(98013)
+作者简介：周平(1966-)，女，四川人，讲师，硕士. 
+作者单位：周平（中国地质大学，北京 100083）　
+　　　　　刘东（中国地质大学，北京 100083）　
+
+参考文献：
+［1］王泽民,董德明,马小凡.利用硅藻土复合净水剂处理造纸废水的研究[J].非金属矿,1997,(3)：33～34.
+［2］程胜高,高速进.利用沸石材料治理造纸黑液[J].环境保护,1997,(9)：6～8.
+［3］彭同江.新疆尉犁且干布拉克蛭石矿金云母-蛭石间层矿物的晶体化学研究[D].北京：中国地质大学,1993.
+［4］周平,王寻,姚礼.利用天然矿物处理造纸黑液[J].地学前缘,2000,(2)：541～543.
+
+收稿日期：2000年8月4日
+出版日期：2001年5月30日

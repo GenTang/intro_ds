@@ -1,0 +1,128 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+强化絮凝法去除水中DBP先质研究
+黄廷林
+摘要　采用强化絮凝的方法，实验研究和探明了混合反应强度、浊度、pH值等因素对去除水中DBP先质的影响规律，进一步揭示了强化絮凝条件下除浊与除DBP先质的相互关系，求得了不同水质条件下的最佳pH值和最佳投药量.在同时考虑除浊时，单一腐殖酸水样的TOC去除率可高达90%，西安兴庆湖水样的TOC去除率也可达70%.研究结果可为水厂应用强化絮凝工艺去除水中DBP先质提供科学依据和参考.
+关键词　强化絮凝；DBP先质；自然有机物；腐殖酸.
+DBP's precursor removal by enhanced coagulation in water purification process
+HUANG Tinglin 
+(Department of Environ Eng,Xi′an University of Arch & Tech,Xi′an 710005)
+Abstract　Effects of flash mixing intensity and flocculation time,turbidity,pH value etc.on DBP's precursor removal were experimentally studied.Under the enhanced coagulation conditions,the correlation between NOM removal and turbidity removal was also investigated,and the optimal pH value and aluminum coagulant dosage were obtained.TOC removal percent reached 90% and 70% for HA water sample and Xi'an Xingqing Lake water sample respectively.
+Keywords　enhanced coagulation,DBP's precursor,natural organic matter (NOM),humic acid.
+　　
+　　
+1　前言
+　　由于氯化消毒仍将是饮用水净化工艺中最常用的和有效的消毒方法，那么就很有必要选取一种方法将原水中的自然有机物(NOM)——消毒副产物(DBP)先质在形成DBP前从水中去除掉.强化絮凝就是一种不需额外增加高额投资而能在现有处理构筑物基础上控制DBP形成的重要的处理方法［1］.水中的NOM通过强化絮凝条件可达60%以上的去除率［2，3］.通常，强化絮凝可有效去除胶体类、腐殖酸类和高分子类的DBP先质，而对溶解性的非腐殖酸类和低分子类DBP先质的去除效果相对较差［4］.水中NOM值在强化絮凝条件下的去除受多种因素的影响，包括絮凝剂种类、絮凝剂投量、水样pH值、混和反应条件、水中NOM的性质、碱度、无机离子、温度、浊度等，其中以前3个因素影响最大［1］.本文将着重研究讨论混和反应条件、水样性质等因素的作用情况，并就强化絮凝条件下除浊与除NOM的关系进行探讨.
+
+2　水中DBP先质去除的影响因素
+2.1　混合反应条件
+　　根据铝盐的水解特点，其水解产物微晶体和颗粒的形成是多相过程，在此过程中搅拌的特点和强度直接影响着絮凝体的成长及其物理性质.对于混合阶段，要求混合时间短、强度大，速度梯度一般为G＝350—500s-1，高时可达700—1000s-1,混合时间通常在几十秒,最长不超过2min;根据絮凝动力学，絮凝反应阶段的搅拌强度不宜过大，一般取反应G值20—70s-1，GT值104—105之间［5］．在生产实际中，在考虑除浊要求的同时，应根据强化絮凝的具体情况，对G、T或GT值进行选择，以求最大限度地去除水中有机物，尽管一般认为混合反应条件对水中有机物的去除影响不大［6］.
+　　由于我国实际生产中絮凝除浊的混合反应工艺参数基本在上述范围内，参考国外同类研究中的控制条件，本实验中混合阶段以改变搅拌强度为主，絮凝反应阶段以考察反应时间为主，控制范围见表1.
+表1　混合反应条件
+Table 1 Mixing condition
+
+参数快速混合反应(絮凝)备　注
+n,r/min20025030040050080混合、反应条件组合为：每一混合强度下进行5种不同反应时间的实验.
+静沉时间：1h
+G,s-119026735154175548
+T,min0.6671518222630
+GT,104　4.355.226.387.548.96
+
+　　表1中的反应条件与国外同类研究中的基本一致(G=30—60s-1,T＝30—10min)，但快速混合强度有一定差别(G＝95s-1,T=0.5—2min)，虽然表中的混合强度已低于目前常用混合强度范围，但仍远大于国外一般选用的混合强度［1，7，8］．对单一腐殖酸水样，在最佳硫酸铝投量(80mg/L)及最佳pH值(pH=5.5)条件下，优化混合反应操作条件，结果见图1.
+
+
+图1　混合反应条件的影响
+Fig.1 Effect of mixing condition on TOC removal
+　　由图1可以看出，适宜的混合搅拌速度为300—400r/min，相应G值为350—550s-1.适宜反应时间在18—22min,此时GT值为5.0×104—6.5×104.另外，从图1中发现，反应时间T＝30min条件下，随n值的降低，TOC去除率有提高的趋势，在n＝200r/min时高达95%以上，说明该T值下，低混合强度利于TOC的去除；结合图1中n=200r/min时TOC去除率随不同反应时间T的变化趋势，进一步证实：低混合强度下通过延长絮凝反应时间同样可获得很好的TOC去除效果.另外，该结果也说明选用低混合G值和长反应T值的合理性［1，7，8］.
+　　总的来看，混合强度和反应时间对TOC去除率有一定的影响，混合G值的影响比反应T值稍大一些，但它们的影响程度远没有投药量、pH值的大，在最低转速200r/min，最短时间15min时TOC的去除率已达70%以上.
+2.2　水质的影响
+　　为了考察不同水质对NOM去除的影响，对单一腐殖酸水样和兴庆湖水样中NOM的絮凝去除进行比较.由于兴庆湖水是呈黄褐色的自然水体，色度较高，本实验采用铂钴比色法对色度进行了测定和实验研究.与本研究有关的兴庆湖水质指标的分析测定结果见表2.
+表2　兴庆湖水样水质分析结果
+Table 2 Water quality of Xingqing Lake sample
+
+浊度，
+NTUpH色度
+(铂钴比色)CODCr,
+mg/LTOC,
+mg/L
+20.007.6710853.8221.5
+
+　　从表2可见，兴庆湖水浊度不高，色度较高；其CODCr和TOC值与50mg/L的腐殖酸水样相应指标数值非常接近(COD=54.35mg/L,TOC=22.0mg/L)，可以认为这两种水样经处理后的结果应具有一定的可比性.
+
+
+图2　TOC去除的最佳pH值
+Fig.2 Optimal pH value of TOC removal
+2.2.1　NOM去除的最佳pH值　在硫酸铝投量为37.5—87.5mg/L范围内，实验研究了不同pH值条件下，兴庆湖水样中TOC去除率的变化情况(图2中实线).由图2可见，随pH值增大，TOC去除率逐渐提高，至pH=5.5时最高达71%，继续增大pH值，TOC去除率又开始降低.这与单一腐殖酸水样的情况完全一致，但是两种水样的TOC去除率随pH值的变化趋势却有很大差别.对湖水水样，其TOC-pH去除率曲线与腐殖酸水样的相比升高较为平缓，没有后者的突变过程(图2中虚线)，也就是说，原水中有机物组分构成越少，对其去除的最佳pH值影响就越大，反之亦然.在水溶液中，Al(Ⅲ)的水解产物取决于水的pH值，当pH=5.2—5.5时 ，由于伴有大量Al(OH)3沉淀的形成，NOM与之产生共沉淀作用，导致TOC去除率急剧提高，在pH=5.5左右时达到最高.由此可见，以Al2(SO4)3作为絮凝剂有效去除实验水样中腐殖质的最重要的作用机理是有机质与固体Al(OH)3产生的共沉淀作用，另外带正电的水解产物的专性吸附脱稳也对水中有机质的去除起到了一定作用；前者是针对水中溶解有机物，而后者则是针对胶体有机物.
+　　实验结果进一步表明，以硫酸铝作为絮凝剂去除水中NOM的最佳pH值应在5.5左右，这与国外的研究结果是一致的［7，8］.对于低碱度或低pH值的原水可能需要投加石灰将pH值提高到该范围内，而对于高碱度或高pH值的原水则要通过投加絮凝剂或酸使pH降至该范围内.对于给定的TOC去除率采用辅助加酸降低pH值的方法可减少所需絮凝剂的用量；对于给定的pH值条件，当辅助加酸调整pH值时，虽然絮凝剂投量有所减少，但同时所能生成的氢氧化物沉淀也有所减少，因而TOC去除率的提高会受到一定程度的影响.
+
+
+图3　TOC去除的最佳投药量
+Fig.3 Optimal aluminium dosage of TOC removal
+2.2.2　最佳铝盐投量　在最佳pH值条件下，进一步确定去除NOM的最佳投药量.实验结果如图3所示.由图可见，湖水的Al2(SO4)3最佳投量为70mg/L左右，低于腐殖酸水样的最佳投药量80mg/L,相应地，去除率也降低10%左右.另外，两种条件下的所得曲线的变化趋势与图2有相似之处，兴庆湖水样最佳投药量的出现是渐变过程，而腐殖酸水样则与之相反，这主要是由于两种水质的差异造成的.因为构成湖水有机物的成份较为复杂，表现出的物化性质和可凝聚性能就有一定差别，这种不一致性决定了这些有机物的去除率随投药量的增加只能是一个逐渐提高的过程，而不会象单一腐殖酸水样那样的变化关系.由于兴庆湖水样中含有的藻类、无机盐等成分，可能会抑制水中有机物的絮凝去除［9，10］，致使TOC去除率降低.强化絮凝工艺中，水中氢氧根与硫酸根阴离子的存在对NOM的去除有阻碍作用，这可能是由于它们能与带阴离子的有机分子竞争吸附位或与起絮凝作用的金属阳离子水解产物发生络合，降低了NOM的絮凝去除率［11］，水中存在的其它离子，尤其是溴、铵离子会直接影响DBP的形成，进而可能影响DBP先质的去除.在同一絮凝条件下，单一腐殖酸水样中TOC的去除率高于兴庆湖水中TOC去除率的原因，除主要与NOM的物质构成有关外，兴庆湖水中的无机阴离子特别是存在的大量铵离子［12］，可能也是使TOC去除率降低的原因之一.
+表3　兴庆湖水样色度去除结果
+Table 3 Color removal of Xingqing Lake sample
+
+投药量，
+mg/LpH残留色度
+(铂钴比色)色度去除率，
+%
+37.5　2081
+50.0　1586
+62.5　1586
+68.85.501091
+75.0　1586
+87.5　2081
+
+　　另外，从水的色度去除情况看(表3)，虽然随投药量增加，色度去除变化幅度较小，但变化趋势和最佳去除率与TOC是一致的.
+　　对同一水质而言，其最佳投药量一般随有机物浓度的提高相应增大，本文对此未作进一步实验研究.
+2.3　NOM去除与浊度去除的关系
+　　以除浊为目的的现行水处理工艺中，其絮凝的操作控制条件与以去除NOM为目的的强化絮凝操作控制条件有一定差别.下面从最佳pH值和最佳投药量两个主要控制指标入手，探讨两种水质条件下浊度去除和NOM去除的关系.
+2.3.1　NOM与浊度同时去除时的最佳pH值和最佳投药量　在絮凝工艺中同时进行除浊和除有机物时，其最佳控制pH值和投药量与单一去除浊度或NOM的pH值和投量会有所不同.在单独除浊时，pH值对浊度去除的影响相对较小，其最佳pH值在7.0左右，而浊度和NOM同时去除时，最佳除浊pH值有所降低，基本都在6.5左右(图4)，NOM去除的最佳pH值则没有变化，仍为5.5左右.这种差异主要是由它们各自去除的不同机理即对铝盐不同水解产物的要求所决定的.另外，从图4的实验结果看，浊度去除随pH的变化趋势同TOC-pH的变化基本一致，只是不同水质条件下的曲线形状有较大差别：单一腐殖酸水样的最佳pH值较兴庆湖水样的最佳pH值更为明显，范围更窄.另外，有机物的存在降低了除浊的最佳pH值.
+　　同时除浊和除有机物条件下，去除率与最佳投药量的关系见图5.由图可看出除浊最佳投药量低于去除有机物的最佳投药量，这就是说，要有效去除水中NOM，必须增大絮凝剂投量；除浊效率大大高于有机物去除率；无论是高岭土浊度，还是自然浊度，它们的去除率随投药量的变化趋势与TOC去除率的基本一致，TOC去除的最佳投药量不受浊度存在的影响.另外，两种水质差别的影响与上述pH条件下基本一致.
+
+
+图4　同时除浊、除有机物时的最佳pH值
+Fig.4 Optimal pH values for simultaneously removing turbidity and NOM
+
+
+图5　同时除浊、除有机物时的最佳投药量
+Fig.5 Optimal aluminium dosage for simultaneously removing turbidity and NOM
+2.3.2　浊度与有机物去除的相互影响　实验结果表明，在一定pH值和有机物浓度条件下，水中浊度的变化对有机物的去除基本上没有影响(图6)，但在高岭土浊度和絮凝剂投量一定时，有机物浓度提高则在一定程度上降低了浊度的去除率(图7).由此可进一步说明，一般情况下，在以去除水中NOM为目的的强化絮凝工艺中，其操作控制条件完全可以满足除浊的要求，但以除浊为目的的絮凝工艺操作控制条件则不一定能满足NOM去除的要求.当然，这还决定于原水中浊度与NOM浓度的大小.
+
+
+图6　浊度变化对有机质去除的影响
+Fig.6 Effect of coexisting turbidity on NOM removal
+
+
+图7　有机质变化对浊度去除的影响
+Fig.7 Effect of coexisting NOM on turbidity removal
+3　结论
+　　1.强化絮凝去除水中NOM的适宜混合搅拌速度为300—400r/min,G值为350—550s-1，反应时间为18—22min.
+　　2.NOM去除的最佳pH值、投药量基本不受浊度的影响，但与单独除浊相比，除浊的最佳pH有所降低.腐殖酸水样和兴庆湖水样TOC去除的最佳pH值均在5.5左右；最佳投药量分别为80mg/L和70mg/L左右，相应的TOC去除率分别可达80%和70%以上.
+　　3.有机物去除的强化絮凝条件要求增大絮凝剂投量和降低絮凝的pH值.
+　　4.浊度变化不影响DBP先质去除，但提高有机物浓度会降低浊度的去除率.
+　　
+　　西安建筑科技大学给排水专业96届毕业生王锦、肖天葵同学参加了该项实验工作，本校环工实验室温晓梅工程师在TOC测试方面给予了大力协助，作者在此向他们表示感谢.
+* 原冶金部基金资助项目
+作者单位:(西安建筑科技大学环境工程系，西安　710055)
+参考文献
+　1　Grozes Gil et al.Enhanced coagulation:its effect on NOM removal and chemical costs.Jour AWWA,1995,87(2):78
+　2 Huck P M et al.Formation and removal of assimilable organic carbon during biological treatment.Jour AWWA,1991,83(12):69
+　3 Awy G L et al.The effects of ozonation and activated carbon adsorption on trihalomethane speciation.Water Res,1991,25(22):191
+　4 Amy G L et al.Molecular size distribution of dissolved organic matter.Jour AWWA,1992,84(6):67
+　5 严煦世，范谨初主编.给水工程.北京：中国建筑工业出版社，1995
+　6　常　青等.絮凝原理.兰州：兰州大学出版社.1993.11
+　7　Krasner S W,Gary Amy.Jar－test evaluations of enhanced coagulation.Jour AWWA,1995,87(1):93
+　8 Dennett K E et al.Coagulation:its effect on organic matter.Jour AWWA,1996,88(4):129
+　9 Randtake S J.Organic contaminant removal by coagulation and related process combinations.Jour AWWA,1988,80(5):40
+　10 Jacangelo J G et al.Selected Processes for removing NOM:an overview.Jour AWWA,1995,86(1):65
+　11 Randtke S J et al.A comprehensive assessment of DBP precursor removal by enhanced coagulation and softening.Proc 1994 AWWA Ann Conf,New York
+　12 黄廷林，王永辉.水环境质量综合评价的灰色聚类法.西安冶金建筑学院学报，1991，23(3)：71
+1997-09-04收到原稿
+1998-03-12收到修改稿
+
+

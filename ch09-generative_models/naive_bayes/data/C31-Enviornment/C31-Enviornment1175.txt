@@ -1,0 +1,73 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+久效磷对海洋微藻毒性机理的初步研究*
+III.超氧化物歧化酶和过氧化物酶活性的变化
+唐学玺　李永祺
+(青岛海洋大学海洋生命学院，青岛 266003)
+
+摘要　报道了久效磷对3种海洋微藻细胞内2种清除活性氧的关键性酶——超氧化物歧化酶和过氧化物酶活性的影响.结果显示：1.在久效磷的胁迫下，扁藻和三角褐指藻细胞的超氧化物歧化酶(SOD)活性均表现出下降的总变化趋势，而叉鞭金藻细胞的SOD活性时而上升，时而下降，在整个胁迫过程中呈现出无规律性的变化.2.随着久效磷胁迫时间的延长，3种微藻细胞的过氧化物酶活性均逐渐下降，表现出相同的变化规律性.这说明不同的藻种，久效磷对其细胞内酶活性的影响不尽相同.推测超氧化物歧化酶和过氧化物酶(POD)活性的降低是微藻细胞内过量产生活性氧，进而引起藻细胞膜脂过氧化伤害的主要原因之一.
+关键词　超氧化物歧化酶；过氧化物酶；久效磷.
+A PRELIMINARY STUDY ON TOXICITY MECHANISM OF 
+MONOCROTOPHOS ON MARINE MICROALGAE 
+Ⅲ.CHANGES OF ACTIVITY OF SUPEROXIDE DISMUTASE AND PEROXIDASE
+
+Tang Xuexi, Li Yongqi
+( Ocean University of Qingdao, Qingdao 266003)
+
+ABSTRACT　This paper reports the effect of monocrotophos stress on the activity of superoxide dismutase (SOD) and peroxidase (POD) which are two key enzymes to eliminate active oxygen in algal cell. Results showed that: 1. SOD activity on Platymonas sp. and Phaeodactylum tricornutum decreased under moncrotophos stress, and fluctuated irregularly in Dicrateria sp. during the whole period of stress; 2. POD activity of three marine microalgae decreased gradually with the prolonging time of stress. Therefore, the mechanism to eliminate active oxygen is different in various marine microalgae. It is one of the main causes for activity decline of SOD and POD to lead to the excess production of active oxygen and cell damage of lipid peroxidation.
+Keywords　superoxide dismutase (SOD),peroxidase(POD), monocrotophos.
+
+
+　　
+1　前言
+　　虽然有关石油、重金属及有机氯农药污染对海洋微藻的影响已有大量的文献报道［1］，但有机磷农药污染对海洋微藻影响的报道较少［2，3］.已有的研究资料也大多局限于对微藻的种群结构、微藻的生长及繁殖的影响，而有关其对海洋微藻毒性机理的研究至今未见报道.本文以扁藻、叉鞭金藻和三角褐指藻为材料，继续探讨久效磷对它们的超氧化物歧化酶(SOD)和过氧化物酶(POD)活性的影响，这对于揭示有机磷农药对海洋微藻的毒性机理，保护海洋生物资源有重要意义，并为探索监测海洋有机磷农药污染的生物指标提供依据.
+　　
+2　材料和方法
+2.1　藻种的选择　选用本院微藻培养室提供的扁藻(Platymonas subcordiformis Hazen)、叉鞭金藻(Dicrateria zhanjiangensis Hu.var.sp.)和三角褐指藻(Phaeodactylum tricornutum).
+2.2　培养方法及条件　培养液选用f/2营养盐［4］配方，原配方中的FeCl3和EDTA以20μg/mL的柠檬酸铁代替，扁藻的培养液需另加尿素至10ppm.海水取自青岛鲁迅公园附近海滨，经孔径0.45μm滤膜抽滤煮沸消毒，冷却后配制培养液.用于微藻培养的三角瓶，预先在1mol/L的盐酸中浸泡3日，再分别用含有相应久效磷浓度的培养液预平衡二次，每次平衡时间为1天，以清除实验过程中容器壁对久效磷的吸附作用.
+　　3种海洋微藻的培养条件是：光照强度为32—40μmol/(s.m2)，光暗比为1410，pH为8.0±0.1，盐度为30.0±1.0，温度为25±1℃(三角褐指藻为17±1℃).于指数生长期接种.
+　　实验中所用的久效磷为青岛农药厂生产的40%的水溶性药液，其有效成分为0，0—二甲基—0(1-甲基-3-甲胺基甲酰)乙烯基磷酸酯，分子式为C7H14NO5P，属高毒杀虫剂.它对扁藻、叉鞭金藻和三角褐指藻的处理浓度分别为1.46mg/L,3.49mg/L和9.74mg/L,各为其相应的半抑制浓度.
+2.3　超氧化物歧化酶(SOD)活性的检测　本实验采用氮蓝四唑光化学还原反应法［5，6］.反应物总体积为3mL，其中含5×10-3mol/L磷酸缓冲液(pH=7.8),13×10-3mol/L蛋氨酸，75×10-6mol/L氮蓝四唑(NBT)，100nmol/L的EDTA和2×10-6mol/L核黄素.实验中加入微藻细胞中的酶提取液0.1mL，荧光灯下光照20min.光照时，反应体系中产生的活性氧自由基使NBT还原，形成蓝色的产物.SOD作为活性氧自由基清除剂可抑制此反应.光照后，利用721型分光光度计在波长560nm处比色测定光吸收值.测定时用0.1mL磷酸缓冲液代替酶提取液测得对照组的OD值.一个SOD活力单位定义为能引起反应初速度(指不加酶提取液时)半抑制时的酶用量.按下式求得：
+
+2.4　过氧化物酶(POD)活性的测定　参照Chance和Mathly［7］建立，Srivestava等［8］改进的愈创木酚法测定.
+
+3　实验结果
+3.1　久效磷对3种微藻SOD活性的影响　久效磷对3种微藻细胞的SOD活性的影响有所不同(图1).首先，扁藻受久效磷胁迫，开始时，SOD活性有所升高，12h左右开始迅速下降，20h降至对照组水平，以后大大低于对照水平.三角褐指藻细胞在胁迫处理的前36h，SOD活性保持相对稳定，其后随着胁迫时间的延长，活性也逐渐降低.而其对照组，在无久效磷胁迫下培养72h的全过程中，SOD活性较高并保持相对稳定.说明久效磷的胁迫处理降低了扁藻和三角褐指藻细胞的SOD活性，使微藻细胞清除自由基的能力有所下降.
+
+
+图1　久效磷对三种微藻SOD活性的影响
+Fig.1　The effect of monocrotophos on SOD activity of three marine microalgae
+
+
+叉鞭金藻在胁迫的前24h，其细胞的SOD活性有所升高，而在24—60h之间，SOD活性出现下降趋势，随后又开始上升.而对照组的SOD活性在培养过程中的变化不明显，一直保持相对稳定状态.
+3.2　久效磷对三种微藻细胞POD活性影响　图2表明，在久效磷胁迫的整个过程中，3种微藻细胞的POD活性呈现出下降的总趋势.扁藻细胞在胁迫的前24小时，POD活性保持稳定，24小时后，其活性逐渐降低.三角褐指藻细胞在胁迫的前24小时，POD活性有所升高，其后随着胁迫时间的延长，活性依次降低.对叉鞭金藻细胞来说，其POD活性始终表现出逐渐下降的趋势.
+
+
+图2　久效磷对三种微藻POD活性的影响
+Fig.2　The effect of monocrotophos on SOD 
+activity of three marine microalgae
+
+
+图3　正常条件下三种微藻的POD活性
+Fig.3　The POD activity of three marine microalgae under normal condition
+与相应的处理组相比，3种微藻的对照组POD活性相对稳定(图3)，在无久效磷的培养液中培养72h的全过程中，3种微藻细胞的POD活性变化不明显.
+　　POD为藻细胞清除活性氧的关键性酶之一，它的活性的降低再次证明了久效磷的胁迫处理使微藻细胞清除活性氧的能力有所下降.因此可以认为SOD和POD活性的降低是微藻细胞在久效磷胁迫下产生过量的活性氧自由基进而引起膜脂过氧化及细胞膜伤害的原因之一.
+
+4　讨论
+　　近年来，超氧化物歧化酶(SOD)和过氧化物酶(POD)作为植物体内清除活性氧、保护植物细胞免受伤害的二种保护性酶进行研究.研究表明，它们与植物的抗盐性、抗热性、脱水忍耐力、抗病性、耐寒性及抗除莠剂的能力密切相关［9，10］.另外，微藻细胞对低温及亚硫酸盐的抗性也与SOD的活性相关［11，12］.已有报道，植物体在受到轻度的环境胁迫时，SOD和POD的活性会有所升高，以增强植物对活性氧的清除能力；而当受到重度的逆境胁迫时，SOD和POD的活性又会大幅度地降低，造成活性氧的积累和细胞的伤害.在我们的实验中，以扁藻和三角褐指藻为材料同样得到了类似的结果.而对于叉鞭金藻，虽其SOD活性的变化无规律性，但POD活性表现出了逐渐下降的总变化趋势.因此，我们推测，SOD和POD活性的降低，必然会造成藻细胞活性氧的积累及伤害.
+　　另外，我们的实验还发现，对久效磷抗性较弱的扁藻，其SOD活性的急剧下降也早于抗性较强的三角褐指藻和叉鞭金藻.可见，不同的微藻其清除活性氧的能力也存有差异.
+　　SOD和POD作为一种保护性酶在活性氧的清除、控制膜脂过氧化水平及减轻膜的伤害上起重要作用.有关这方面的报道在高等植物的抗逆生理研究中有许多.我们以扁藻、叉鞭金藻和三角褐指藻为实验材料的结果也证实了这一点.因此我们认为SOD和POD活性的降低是微藻细胞内活性氧过量产生，导致细胞膜脂过氧化及细胞伤害的主要原因之一.
+参考文献
+　1　李永祺，丁美丽编.海洋污染生物学.北京：海洋出版社，1991：40—195
+　2　陈碧鹃等.甲基异柳磷、水胺硫磷对海洋藻类(金藻)、贝类(紫贻贝*蓝蛤)及对虾仔虾的毒性影响.海洋环境科学,1993,12:2
+　3　汝少国等.十种有机磷农药对扁藻的毒性效应.青岛海洋大学学报，1996，26：197
+　4　湛江水产专科学校主编.海洋饵料生物培养.北京：农业出版社，1980：104
+　5　Beauchamp C, Fridovich I. Superoxide dismutase:Improved assays and an assay applicable to acrylamine gel. Anal Biochem, 1971,44:276
+　6　Bewley R D. Physiological aspects of desication tolerance. Ann Rev Plant Physiol, 1979, 20:195
+　7　Chance B, Maehly A C. Method in enzymology. New York:Academic Press Inc， 1955:764—775
+　8　Srivastava O P, van. Huystee P B. Evidence forclose association of POD Polyphenol oxidase and IAA oxidase isoenzyme of peanut suspension culture medium. Can J Bot, 1973,51:2207
+　9　王建华等.超氧化物歧化酶(SOD)在植物逆境和衰老中的作用.植物生理学通讯，1989，1：1
+10　武宝轩，格林*托德.小麦幼苗过氧化物歧化酶活性与幼苗脱水忍耐力相关性的研究.植物学报，1985，27：152
+11　Clare D A et al. Superoxide dismutase and chilling injury in Chlorella ellipsoidea. Arch Biochem Biophys, 1984,231:158
+12 Rabinowich H　D, Fridovich I. Cell content of superoxide dismutase and resistance to paraquat in chlorella sorokiniana. Planta, 1985,164:524

@@ -1,0 +1,102 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+新型淡水发光菌(Vibrio qinghaiensis sp.——Q67)
+应用于环境样品毒性测试的初步研究
+马　梅　童中华　王子健
+(中国科学院生态环境研究中心　国家重点环境水化学实验室，北京　100085)
+杨笃才　朱文杰
+(华东师范大学生物系，上海　200062)
+
+摘要　研究表明，新型淡水发光菌(Vibrio qinghaiensis sp. ——Q67)作为环境样品毒性检验的指标生物具有快速简便的优点.对重金属污染物毒性检验比以往T3发光菌具有更高的灵敏度，对鱼体进行的感染实验未发现明显病理改变.
+关键词　淡水发光菌；毒性检验；环境.
+APPLICATION OF NEW TYPE OF FRESH WATER LUMINESCENT
+BACTERIUM (VIBRIO QINGHAIENSIS SP.——Q67) FOR
+TOXICITY BIOASSAY
+
+Ma Mei， Tong Zhonghua， Wang Zijian
+(SKLEAC,Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences, Beijing 100085)
+Yang Ducai, Zhu Wenjie
+(Department of Biology, Huadong Normal University, 200062)
+
+ABSTRACT A new type of fresh water luminescent bacterium (Vibrio qinghaiensis sp.-Q67) was evaluated for its environmental application. The bacterium was found to be suitable for the toxicity bioassay in fresh water system. Comparing with conventional Microtox bioassay, it is more sensitive for heavy metal pollutants and gives more rational results when using for the toxic screening of sediment samples from Le An River, which was seriously polluted by copper mine discharges. Initial evaluation on the waterborne infection of the bacterium shows no significant influential symptoms for Golden fish (Carassius auratus).
+Key words fresh water luminescent bacterium, toxic assay, heavy metals.
+1　前　言
+　　随着工农业的发展和人类活动的日益增长，大量的有毒有害污染物被排放到湖泊、河流和海洋，对水生生态系统的生态平衡和生物体造成危害.因此采用水生生物进行环境样品的毒性检验成为评价环境污染的必需手段之一.水生生物毒性实验通常采用浮游生物、藻类和鱼的急慢性毒性测试，但由于实验时间长、费用高，不宜用作常规检验.因此近年来倾向于发展一些快速、简便、经济的方法.发光菌毒性检验就是符合这些要求的毒性检验方法之一.
+　　发光菌毒性测试中应用最广泛的是海洋发光细菌(Photobacterium phosporum)［1］，成套方法一般称为Microtox检验.但是在利用海水发光菌进行环境样品生物毒性测试时由于其生存环境中需要大量的Cl-，因此在检测中需要人为加入一定量的NaCl(2%—3%)，这对测试淡水体系样品中污染物毒性显然存在一定局限性和矛盾.
+　　1985年我国学者从青海湟鱼体表分离出了一种淡水型发光菌并定名为Vibrio qinghaiensis sp.nov.［2］.该菌具有在淡水体系中能正常发光的特点.因此有可能取代传统海水发光菌应用于淡水环境样品的生物毒性测试.本工作针对青海孤菌(Vibrio qinghaiensis sp.nov.)的一个变种Q67，研究了其对水生生物的致病性，环境因素变化对该菌发光的影响，以及该菌应用于多种重金属污染物和实际环境样品毒性测试的结果，并与T3发光菌测试结果进行了平行对比.
+
+2　实验材料和方法
+2.1　Q67淡水发光菌实验
+　　按如下方法配制培养基：MgSO42.47g,MgCO30.79g,MgBr20.09g,MgCl20.09g，CaCO30.03g,KCl0.22g，NaCl8.29g,Mg(HCO3)20.50g，酵母膏5g，胰胨5g,甘油3g，溶于1000mL蒸馏水中.
+　　将4℃保存的Q67斜面菌种转接到新鲜斜面上，22℃培养24h，将新鲜斜面的菌种接种到50mL液体培养基中，22℃振荡培养16—18h.离心(2000 r/min)10min(BECKMAN JS-21，德国).收集菌体并用蒸馏水制成菌悬液，测其发光强度.调整菌液浓度，使起始发光(0.1mL)控制在200万—500万光子单位之间.每个样管中加入0.9mL样品溶液(每组3个平行，以蒸馏水为对照)，加0.1mL菌悬液到样品管中混匀，恒温20min后测发光强度.发光度测定在化学/生物发光仪上进行(BERTHODLB9501，德国)，测定条件为：低背景管；5s计数；自动背景扣除.
+2.2　T3发光菌实验
+　　将4℃保存的T3菌冻干粉约5mg(由中科院南京土壤所提供)，在4℃保存的1mL2.5% NaCl溶液中复苏3min，菌体即发光.加入3%NaCl溶液到10mL，混匀后20℃恒温20min.用3%NaCl制成所需浓度的菌悬液，使其发光强度控制在200万—500万光子数，将0.1mL的菌液加入到0.9mL含有3%NaCl的样品溶液中(每组3个平行，以3%的NaCl溶液为对照)，混匀后恒温20min，测发光强度.
+2.3　Q67对金鱼感染实验
+　　金鱼(Carassius auratus, 12g/尾)感染实验采用3种不同实验方法进行，分别是：取无菌接种的Q67菌悬液用接种针直接涂于金鱼鳃部、在含2×106个/mL浓度的Q67菌体水溶液中喂养、以及腹腔注射108，107，和106个菌体.实验中每天观察鱼体的变化，定期解剖观察内脏，以及实验介质和鱼各器官中Q67发光菌的含量变化.
+
+3　结果与讨论
+3.1　不同环境因素对Q67淡水发光菌发光强度的影响
+　　图1是Q67在不同pH值的溶液(pH 4—9)中发光强度的测定结果.可以看出，若以pH
+
+
+图1　pH值对Q67淡水发光菌的影响(用HCl/NaOH调整pH，pH=7为100%)
+Fig.1 The influence of pH on luminosity of Q-67(adjusted by HCl/NaOH,pH=7 as 100%)
+为7时的发光强度为100%，pH在5—9的范围内发光强度基本保持在同样水平.当pH＜5或pH＞9时对发光有明显的抑制作用.分离得到菌体的青海湖水体pH约为9.0［2］.因此可以认为当体系控制pH在5—9之间时，作为测试体系可以得到稳定结果.
+　　K+、Na+、Ca2+、Mg2+、HCO-3、SO2-4、Cl-和NO-3为天然水体中常见离子，表1列出这几种离子的含量范围［3］.为了观察这些离子是否对Q67发光菌有影响，对以上离子单独存在的各盐溶液分别进行了发光度测定，结果见图2.
+　　实验结果表明上述几种阴阳离子对Q67发光菌的作用趋势基本相同，即在低浓度下不存在明显的作用，但随着浓度的升高，在一定浓度下表现为强烈的刺激发光作用.浓度继续升高时，表现出强的抑制作用.实验得到的毒性作用浓度范围对K+、Na+、Ca2+、Mg2+为1000 mg/L以上，对阴离子亦为1000mg/L以上.参照表1可以看出，适当调整对照组配方，在天然水体中多数离子含量范围内不会对利用发光菌测试毒性产生明显影响.
+
+
+图2　天然水体中主要阳、阴离子分别对Q67发光菌的影响
+(以蒸馏水为对照)　a:阳离子　b:阴离子
+Fig.2 The influence of major cations and anions in natural water on luminosity of Q-67, respectively (distilled water as control)
+表1　天然水体中主要阴阳离子的含量范围
+Table 1 Concentration of major cations and anions in natural water
+
+离子K+Na+Ca2+Mg2+HCO-3SO2-4Cl-NO-3
+含量，mg/L0.5—1000.7—250.002—1200.4—60.006—190.2—401—350.002—1.8
+
+　　
+
+
+
+图3　天然水体中主要阳、阴离子分别对Q67发光菌的影响
+a:阳离子　　b:阴离子(扣除对照组的校正值)
+Fig.3 The influence of major cations and anions in natural water on luminosity of Q-67(Control:KCl 0.50mmol/L, CaCl2 0.056mmol/L, NaHCO3 0.116 mmol/L, MgSO4 0.10mmol/L)
+依照天然水体中常见离子浓度范围，在此范围内以一个上述离子共同存在的体系(KCl:0.500 mmol/L,CaCl2:0.056 mmol/L，MgSO4：0.100 mmol/L，NaHCO3:0.116 mmol/L)为对照，观察天然水中常见离子浓度变化对Q67发光度的影响.结果(图3)表明除Ca外，在表1所示浓度范围内不会对发光产生明显的影响.当测定样品中Ca离子大于12mg/L时，需要做相应的背景扣除.
+3.2　重金属离子对Q67发光菌的毒性作用
+　　以CuSO4作为产毒化合物，采用不同的菌液浓度和不同的反应时间，得出了CuSO4的EC50值(图4).发现当菌液浓度在1000万光子数以上时，EC50随时间和菌液浓度有明显变化.但当菌液浓度为600万以下和反应20min以后，EC50稳定在同一水平，随时间变化不大.以上述实验所确定的实验条件进行了Cu2+、Pb2+、Zn2+和Hg2+的毒性测试，结果与T3发光毒性测试结果进行比较(表2).可以看出，4种重金属离子对Q67发光菌的毒性作用顺序与对T3发光菌毒性顺序一致.除Hg以外，采用Q67发光菌，对毒性测试的灵敏度有明显提高.4种重金属分别采用CuSO4、Pb(NO3)2、ZnSO4、HgCl2进行测试，样品均为分析纯，数据处理方法参照文献［4］.
+
+
+图4　Q67发光菌菌液浓度和反应时间对毒性测试的影响
+(对照:KCl 0.50, CaCl2 0.056, NaHCO3 0.116, MgSO4 0.10(单位：mmol/L))
+Fig.4 Influences of bacterium concentration and reaction time on toxicity assay
+(Control:KCl 0.50 mmol/L, CaCl2 0.056mmol/L, NaHCO3 0.116mmol/L, MgSO4 0.10 mmol/L)
+表2　4种重金属对Q67与T3发光菌毒性作用比较(EC50，mg/L)
+(起始菌液浓度：300万—400万光子数)
+Table 2 Toxicity of four heavymetals on Q67 and T3 (Initial 
+Concentration:3-4 million light unit)
+
+　Q67T3
+EC50C.V.
+Cu2+0.650.044.9
+Pb2+5.100.5827.4
+Zn2+0.270.030.49
+Hg2+0.260.240.14
+
+3.3　应用Q67发光菌对环境样品进行毒性检验
+　　将重金属污染严重的江西德兴铜矿下游乐安江沉积物样品按照标准方法(USEPA600/6-91/007)制备水提液并用Q67发光菌和T3菌进行毒性检验(图5).结果表明重金属污染最为严重的洎水河点(J.R)及其与乐安江的汇合点(A07)［5］均表现出强毒性，这种毒性作用在下游样品(A08，A13)逐渐减弱.利用Q67进行的毒性测试结果和多指标生物毒性测试结果更为接近［6］，同时大多数样品对Q67发光菌表现出更强的毒性，显示Q67比T3发光菌更为敏感.
+
+
+图5　T3和Q67应用于乐安江沉积物重金属污染评价比较
+Fig.5 Comparative evaluation of sediment toxicity by both T3 and Q67 bioassays for the sediments from Le An River
+3.4　Q67对金鱼的感染
+　　采用三种不同实验方法进行的金鱼感染实验结果表明较长时间接触Q67菌体的金鱼腮部暗红，但腮丝无腐烂、脱落、或炎症.器官解剖实验未观察到和对照组之间的明显差异.对各解剖器官进行平板分离发光菌，均未在各器官中发现菌体的存在.菌体导致的金鱼腮部暗红现象需要做进一步研究.
+　　从以上实验结果看，Q67淡水发光菌作为水生生物毒性检验的指标生物具有快速简便灵敏度高的优点.对大多数重金属污染物毒性检验与以往T3发光菌具有更高的灵敏度，对鱼体进行的感染实验未发现明显病理改变.进一步需要对有机污染物毒性测试的可行性及其他应用方面进行研究.
+参考文献
+1　Bulich A A, Isenberg D L. Use of the luminescent bacterial system for the rapid assessment of aquatic toxicity. ISA Transactions, 1981,20(1):29—32
+2　朱文杰，汪　杰等.发光细菌一新种——青海孤菌.海洋与湖沼，1994， 25(3)：273—279
+3　王晓蓉 著.环境化学.南京大学出版社，1993：9
+4　Ronco A E. Development of a bioassay reagent using Photobacterium phosphoreum as a test for the detection of aquatic toxicants. World Journal of Microbiology and Biotechnology, 1992, 8:316—318
+5 Lin Yuhuan， Li Qi. The present change of heavy metal pollution in Le An River-Poyang Lake. China Environ Sci,(Eng.), 1994,5(2):110—115
+6 Wang Zijian， Ma Mei. In:T Schaaf (ed). Toxic assessment of water and sediment in the Le An River. Ecological Effects of Heavy-Metal Pollution in the Dexing Copper Mine Region (Jiangxi Province, China)-MAB Digest UNESCO Publisher, 1995:59

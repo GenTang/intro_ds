@@ -1,0 +1,102 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+几种矿业废物的酸化潜力
+束文圣　黄立南　张志权　蓝崇钰　李世华　招文锐
+摘要：利用净产酸(NAG)试验和净产酸潜力(NAPP)试验,研究了采自8个矿山共9种废物的49个样品的产酸潜力.结果表明,大部分的样品都具有产酸潜力,这是因为它们较高的含硫量或较低的酸中和能力.本研究也发现NAG试验要比NAPP试验更能准确地预测废物的产酸情况,供试的废物产酸与否的NAG-pH阈值是NAG-pH3 5,不产酸; NAG-pH￡ 2.5,中度或高度产酸; NAG-pH>2.5且<5,低度产酸.本研究结果可为矿业废物的环境管理提供科学依据.
+关键词: 矿业废物；产酸潜力；净产酸试验
+中图分类号：X153 文献标识码：A 文章编号：1000- 6923(1999)05- 0402- 04
+The acid producing potential of some mine wastes.
+SHU Wen-sheng1, HUANG Li-nan1, ZHANG Zhi-quan1, LAN Chong-yu1, LI Shi-hua1, ZHAO Wen-rui2
+(1.Department of Biology, School of Life Sciences, Zhongshan University, Guangzhou 510275,China；2.Shaoguan Environmental Protection Institute, Shaoguan 512000,China). China Environmental Science. 1999,19(5)：402～405
+Abstract：The acid producing potential of 49 samples, representing 9 kinds of wastes collected from 8 mines, was studied using both NAG (net acid generation) and NAPP (net acid producing potential) test. The results indicated that most of the samples had acid producing potential, because of the high sulfur content or low acid neutralization capacity. It also demonstrated that NAG test was more accurate than NAPP test in predicting the acid forming potential of mine wastes. The cut-off values of NAG-pH for the mine wastes tested were NAG-pH 3 5,non-acid forming; NAG-pH ￡ 2.5,moderate or strong acid forming; NAG-pH >2.5 and <5,low acid forming. These findings will have a basis of science in the environmental management of mine wastes.
+Key words：mine wastes；acid producing potential；net acid generation
+　　矿山开采不可避免地会产生大量的固体废物,它包括剥离废土、废石或低品位矿石和尾矿等.很多矿业废物含硫量较高,由硫的氧化而导致的酸化和酸性废水排放是矿山环境污染的主要问题之一.酸化及酸性废水的污染具有广泛性、严重性和长期性等特点,因此,世界各国都高度重视对废物治理的研究[1],酸化的预测就是其重要的一面[2,3].中国矿业废物的酸化问题十分突出,国内在此领域的研究侧重于酸化的机理与酸化的环境影响,而酸化的预测研究极少[4,5].本文应用两种方法预测中国数个矿山废物的酸化情况,同时也比较这两种方法的优劣,为矿业废物酸化的控制提供科学依据.
+1 材料与方法
+1.1 样品采集与处理
+　　试验所研究的废物包括广东省境内的阳春硫铁矿废土,云浮硫铁矿废土,阳春石录铜矿的尾矿、废土,茂名油页岩渣,仁化花坪煤矿煤矸石,甘肃省境内的金川镍矿尾矿和白银铜矿尾矿,陕西华阴的金堆城钼矿尾矿.根据每种废物的堆存量及其质地的均匀情况,分别采集4～8个混合样品,共49个样品.采样深度为20cm,风干,磨碎,过1mm筛,供各项试验.样品的初始pH值按1:1水土比(v/v)用pH计测定;总含S量用PE-CHNS全自动分析仪测定.
+1.2 酸中和能力的测定和净产酸潜力的计算[6]
+　　酸中和能力(acid neutralizing capacity,ANC): 100mL烧杯中加入l g样品,再移入25mL 0.2 mol/L HCl,90℃加热3h,冷却,用0.2 mol/L NaOH滴定过量的HCl,则ANC可按下式计算: 
+ANC(kgH2SO4/t)=[(25- m)×0.2×98×10-6]/ 
+(2×w×10-6) 
+式中:m为NaOH的用量;w为样品重量.NAPP可按下式计算：
+　　NAPP (kg H2SO4/t) = MPA - ANC
+式中:MPA = 样品总含S量(%)×30.6
+1.3 净产酸量的测定[6]
+　　净产酸量(net acid generation,NAG):加2.5g样品到500mL的锥形瓶中,再加入250mL 150g/L的H2O2,在通风橱中放置24h,煮沸l h左右除去残余的H2O2,冷却,测pH值,即为NAG-pH,再用0.1 mol/L的NaOH将其滴定至pH值为7.NAG可按下式求出: 
+NAG(kg H2SO4/t)=(0.1×m×98×103 ) / (2×w),
+式中:m为NaOH的用量;w为样品重.
+2 结果与讨论
+2.1 各种废物的酸化情况
+　　各种废物的初始pH值、NAG、ANC、NAPP、总S和NAG-pH见表1. 
+表1 几种矿业废物的产酸情况
+Table 1 The acid producing potential of some mine wastes
+
+样品初始pH值ANCNAPPNAG总S (%)NAG-pH样品初始
+pH值ANC NAPP NAG总S (%)NAG-pH
+S1*5.5017.2-7.37.80.324.67S264.15-23.553.926.10.993.18
+S25.6829.2-17.80.70.375.99S273.20-24.528.829.40.143.21
+S32.45-80.9196.040.23.752.60S285.654.45.148.00.313.65
+S42.15-71.1172.469.63.302.39S296.1555.9-51.666.90.143.43
+S52.3230.6-20.215.70.344.05S301.95-85.8158.573.42.371.97
+S66.002.583.515.52.804.10S313.50-12.335.016.70.742.92
+S73.149.627.326.71.203.42S326.3573.5-52.300.697.42
+S85.7043.623.939.72.203.26S336.7585.8-71.300.477.43
+S94.67-4.9106.246.33.303.34S344.2818.221.11.31.282.78
+S106.1515.55231.12.203.45S353.85-13.239.30.90.853.01
+S112.25-161.7473.9161.110.171.78S366.50104.9-86.400.607.38
+S124.85-6.937.622.31.002.65S376.40117.1-79.001.248.18
+S137.0248.5-45.100.117.04S386.85116.6-85.301.027.60
+S147.2556.4-30.900.837.24S397.40120.1-66.01.01.766.56
+S157.15100.2-92.80.90.246.35S407.50121.0-119.500.058.37
+S166.9556.4-45.600.357.05S417.347.34.600.399.75
+S177.25104.9-102.100.097.85S427.52111.2-43.18.32.223.55
+S187.20120.1-119.100.038.43S436.7076.47.416.22.733.19
+S196.88121.0-118.300.098.38S447.1373.5-5.712.72.213.24
+S207.33120.8-118.600.078.06S457.1584.9-0.513.22.753.21
+S217.58121.0-120.100.0310.10S463.00-9.3668.7257.521.482.20
+S227.05119.1-116.600.088.21S472.40-78.4517.789.214.312.24
+S233.89-49.570.730.70.693.04S482.45-39.2702.9293.021.622.18
+S244.00-18.140.270.90.723.32S493.12-41.3590.8227.817.902.23
+S254.65-15.772.241.71.843.37　　　　　　　
+
+注：* S1～5: 阳春硫铁矿废土,S6～12: 云浮硫铁矿废土,S13～17: 阳春铜矿废土,S18～22: 阳春铜矿尾矿,S23～30: 茂名油页岩渣,S31～36: 花坪煤矸石,S37～41: 金川镍矿尾矿,S42～45: 金堆城钼矿尾矿,S45～49: 白银铜矿尾矿 ANC、NAPP、NAG单位均为kg H2SO4 / t
+　　阳春硫铁矿废土(S1～5),总含S量较低,根据NAG和NAG-pH的试验结果,5个样品全部产酸,而NAPP的结果表明只有S3和S4产酸,其余3个样品均不产酸.
+　　云浮硫铁矿废土(S6～12)虽含S量较低,但ANC的值也很低,NAG和NAPP两种方法都表明该类废土全部产酸.不过由NAPP计算出的产酸量高于NAG值.
+　　阳春铜矿废土(S13～17),含S量低,且ANC高,NAG和NAPP值均表明样品全部不产酸.阳春铜矿尾矿(S18～22)的情况一样,全部不产酸.
+　　阳春铜矿尾矿(S23~ 30),样品初始pH值<7,表明样品已发生一定程度的酸化,并消耗掉样品中的碱性物质,因而ANC呈负值.由于样品也存在一定量的S,NAG-pH低于初始pH值,表明样品还有进一步酸化的可能,NAPP和NAG表明了同样的结果.
+　　花坪煤矸石(S31～36),根据NAG和NAPP的试验结果,一致表明其中3个样品产酸(S31、S34和S35),这是因为样品的初始pH值就比较低,ANC较小或呈负值.因此存在极少量的S就会足以导致进一步的酸化.
+　　金川镍矿尾矿(S37～41),样品含S量较低,ANC值较高,因而无论是NAPP或NAG都表明全部样品无产酸潜力.
+　　金堆城钼矿尾矿(S42～45),尾矿的含S量在2.5%左右,ANC值也较高,NAPP值表明样品基本不产酸,而NAG的试验结果却表明全部样品都会酸化.
+　　白银铜矿尾矿(S46～49),样品初始pH值很低,说明该尾矿已发生较强的酸化,因此ANC均呈负值,同时,由于样品的含S量极高,NAPP和NAG的值都很高,它们一致表明尾矿还会进一步酸化.其中NAPP要高于NAG一倍以上,甚至接近6倍(S47).
+　　在所研究的9种废物中,5种废物全部产酸(阳春硫铁矿废土、云浮硫铁矿废土、茂名油页岩渣、金堆城钼矿尾矿和白银铜矿尾矿),其中白银铜矿尾矿的酸化情况极为严重,NAG-pH全部小于2.5;花坪煤矸石部分产酸;只有阳春铜矿废土和尾矿、金川镍矿尾矿无产酸潜力.由此看来,酸化是矿业废物中较为普遍的问题.
+2.2 NAPP和NAG试验结果的比较
+　　废物是否酸化主要取决于它可酸化物质S的含量以及废物本身中和酸的能力(ANC). NAPP是通过对含S量和ANC的测定,再推导、计算废物的产酸量,所代表的是理论值.而NAG主要是通过加入H2O2,使废物中的S快速氧化产酸,在此过程中,所产生的酸与废物的碱性物质发生中和反应,酸性物质被ANC消耗后,剩余酸量为NAG,因此,它要比NAPP更为接近实际情况[6,7].本试验中,NAPP和NAG在产酸与否的定性结果上基本一致,但也存在一定的差异,如NAG指示S1～S5全部产酸,而NAPP则认为只有S3和S4产酸;两者在产酸量多少的定量结果方面,NAPP的值一般都显著高于NAG,个别样品甚至高达6倍左右(如S47),可见两者在定量方面的差别很大.NAPP过高估计样品的产酸潜力的原因可能是NAPP的值由总S计算得出,而只有黄铁矿硫和有机硫等才参加产酸反应,而SO42-中的S则不参加反应;由于晶体结构不同、废物颗粒大小不同,黄铁矿硫本身也不会完全参加反应[8,9].由此可见,NAG试验要比NAPP试验结果更为准确地预测废物的产酸潜力.此外, NAG试验也要比NAPP试验方便、快速.当然, NAPP试验也非全无意义,因为它基于精确的S和ANC的测定,有助于了解酸化究竟是因为废物含S太高(如白银铜矿尾矿),或者是含S并不高,但因ANC(酸中和能力)较低所引起的(如云浮硫铁矿废土).因此,将NAG和NAPP试验综合使用,有助于正确、完整地了解废物酸化情况.
+2.3 NAG与NAG-pH的关系
+　　NAG与NAG-pH的关系见图1. 通过对图1的分析,不难发现,NAG与NAG-pH之间有着明显的联系,当NAG-pH>5时,废物不产酸;当NAG-pH<5且>2.5时,废物的产酸量一般都小于50 kg H2SO4/t,只有两个样品S24、S29例外,可视为低度产酸;当NAG-pH≤ 2.5时,废物的产量都大于50kg H2SO4 /t,中度或高度产酸.本试验的结果与前人的一些工作极为相近[6,8],进一步论证了NAG-pH可以极好地从定性和定量两方面指示不同类型废物的酸化情况.因为NAG-pH只需向一定样品中加入H2O2反应后,就可以测定pH值,因而可方便地用于大量样品酸化潜力的快速测定.
+
+净产酸量(NAG，kg H2SO4/t)
+图1 净产酸量(NAG)与NAG-pH值的关系
+Fig.1 The relationship between NAG (net acid generation) and NAG-pH
+3 小结
+　　在对8个矿山的9种矿业废物酸化的预测研究表明,矿业废物较为普遍地存在着酸化风险,是矿业废物环境管理中应重视的问题.
+　　NAG作为直接测得的反应结果,较理论值NAPP更能准确地预测矿业废物的酸化情况,但NAPP却能指出酸化产生的原因.
+　　NAG-pH与NAG有着明显的相关性. NAG-pH可以从定性和定量两方面预测不同废物的酸化情况.本研究中各种废物的产酸与否的阈值为:NAG-pH>5,不产酸;NAG -pH<5且>2.5,低度产酸(NAG≤ 50 kg H2SO4/t);NAG-pH≤2.5时,中度或高度产酸(NAG>50 kg H2SO4 /t).上述的NAG-pH阈值适用于本研究所涉及的9种矿业废物的酸化预测.
+基金项目：国家自然科学基金资助项目(39770154)
+作者简介：束文圣(1968-),男,安徽庐江人,博士,中山大学讲师,华南生物科学与技术研究中心副秘书长. 主要从事矿业废弃地的生态学以及植物的重金属耐性研究.曾参加国家自然科学基金项目“铅锌尾矿植被重建中的生态学问题研究”等的研究工作.现正从事国家自然科学基金“矿业废弃地植被恢复中废物的酸化预测与过程控制研究”的研究工作.发表论文10余篇.
+作者单位：束文圣　黄立南　张志权　蓝崇钰　李世华　中山大学生命科学学院生物系, 广东 广州510275
+　　　　　招文锐　韶关市环境科学研究所,广东 韶关512000
+参考文献：
+　[1]Williamson N A, Johnson M S,Bradshaw A D. Mine wastes reclamation [M]. Mining Journal Books Ltd.,London. 1982.
+　[2]Robb G,Robinson J. Acid mine drainage prediction and remediation [J]. Mining Environmental Management, 1995,3(3):19- 21.
+　[3]蓝崇钰,束文圣,孙庆业. 采矿地的复垦 [A]. 陈昌笃.持续发展与生态学 [M]. 北京: 中国科技出版社,1993. 132- 138.
+　[4]沈景文. 酸性矿坑水的污染与防治 [J]. 环境科学动态, 1988, (6): 20- 23.
+　[5]林玉环,李 琪. 矿山酸性废水对乐安江水质的影响 [J]. 环境科学, 1992, 13(4): 9- 14.
+　[6]Miller S D, Jeffery J J,Wong J W C. Use and misuse of the acid-base account for AMD prediction [A]. Proceedings of the Second International Conference on the Abatement of Acid Drainage [C]. Montreal, 1991.16- 18.
+　[7]Finkelaman R B, Giffin D E. Hydrogen peroxide oxidation: an improved method for rapidly assessing acid-generating potential of sediments and sedimentary rocks [J]. Recreation and Revegetation Research, 1986, 5:521- 534.
+　[8]Shu W S, Ye Z H, Lan C Y, et al. Acid forming potential of a Pb/Zn mine tailings at Lechang [A]. International Conference on the Remediation and Management of Degraded Lands [C]. Hong Kong, 1996. 3- 6.
+　[9]Hossner L R (Ed.). Reclamation of surface-mined lands [M].CRC Press,Boca Raton,Florida. 1988.
+收稿日期：1999-01-25

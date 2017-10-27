@@ -1,0 +1,163 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第5期 Vol.23 No.5 1997
+
+
+
+基于状态观测器的非线性相似组合
+大系统的镇定设计1）
+严星刚　吕兴亚　张嗣瀛
+摘　要　研究了由非线性相似子系统经时变非线性互联而成的非线性组合大系统.首先，设计出该组合大系统的状态观测器，然后，给出一种基于此观测器所得的估计状态使整个大系统镇定的控制器设计方案，其结果表明相似结构能简化组合大系统的分析与设计.最后，将所得结论应用于轴盘传动系统，仿真结果表明所得方法的有效性.
+关键词　相似组合大系统，状态观测器，镇定.
+OBSERVER-BASED STABILIZATION FOR NONLINEAR
+COMPOSITE SYSTEMS WITH SIMILARITY
+YAN XINGGANG　　Lü XINGYA　　ZHANG SIYING
+(Department of Automatic Control,Northeasterm University,Shenyang　110006)
+Abstract　This paper studies nonlinear composite large-scale systems with similarity,which contain time-varying interconnections.First,a kind of observer is presented for the systmes.Then,the observer-based controllers which are used to stabilize the large-scale systems are designed.It shows that similar structure can simplify the analysis and design of systems.Finally,the conclusion is applied to a disk-shaft system and the simulation shows that our method is effective.
+Key words　Composite large-scale systems with similarity,state observer,stabilization.
+1　引言
+　　自状态空间描述被引入控制领域之后，状态反馈镇定取得了许多研究成果［1—3］.由于实际系统状态的不可知性，且对非线性系统，分别用估计状态和真实状态镇定可能会产生不同甚至截然相反的结论［3，4］.所以，研究用估计状态对非线性系统进行镇定是非常必要的.近年来，基于估计状态的镇定设计对于线性组合大系统［5，6］及非线性系统［4，7，8］已取得了一些成果，但对于非线性组合大系统，这方面的研究成果极少.充分利用系统的结构属性是解决特殊非线性组合大系统有关问题的有效途径，如级联结构［1］，对称结构［2］以及相似结构等.本文将对一类具有相似结构的非线性组合大系统给出其用估计状态进行镇定的设计方案，并通过仿真实例说明所得结论的有效性.
+2　系统描述及预备知识
+　　引入一些记号：Vωn(Ω)——Ω上的n维解析向量场集合；Q>0——Q是正定阵；λM(A)——矩阵A的最大奇异值；λm(A)——矩阵A的最小特征值；R+——非负实数集.
+　　考虑两个非线性系统
+
+其中x,z∈Rn,u=(u1,u2,…,um)T,y∈Rm分别是Σ1和Σ2的状态，输入和输出.
+　　定义1.如果存在x0某邻域E上的微分同胚T：x→z,使得系统Σ1在z坐标下和Σ2具有相同的形式，则称系统Σ1在E上相似于系统Σ2，并称T为Σ1到Σ2的相似元.
+　　引理1［4］.设在区域Θ上，系统相似，相似，且的相似元相同.如果Σ2是Σ1的状态观测器，则的状态观测器.
+　　考虑非线性组合大系统
+
+(1)
+其中　分别是第i个子系统的状态向量，输入和输出，Gi(xi)=(gi1(xi),gi2(xi),…,gim(xi)),fi(xi),gij(xi)∈Vωn(Ωi),Hi(x,t)∈Vωn(Ω×R+)是互联项，这里Ωi是xi=0的邻域，Ω=Ω1×Ω2×…×ΩN.不失一般性，假设fi(0)=Hi(0,t)=0,hij(0)=0,其中j=1,2,…,m,　x=col(x1,x2,…,xN).
+　　为了研究系统(1)的基于估计状态的镇定问题，需要引入两个基本假设
+　　A1)　非线性组合大系统(1)的N个孤立子系统是彼此相似的；
+　　A2)　非线性组合大系统(1)有一个孤立子系统相似于能控能观的线性系统.
+　　引理2［9］.设P是n阶正定阵，是满足Lipschitz条件的n维向量函数，且其Lipschitz常数为γ，则对任意的有
+
+3　状态观测器的设计
+　　考虑满足假设A1)，A2)的系统(1).此时它可看作由相似的子系统互联而成，称其为相似组合系统，由假设A1)，A2)易知，系统(1)的所有孤立子系统均相似于能控能观线性系统
+
+(2)
+即存在微分同胚
+
+(3)
+(T可由几何方法直接求出)使得在T确定的坐标z下相似组合大系统(1)具有形式
+
+(4)
+其中
+
+(5)
+由(A，B，C)的能控能观性知，存在矩阵K和L使得A-BK和A-LC均为Hurwitz稳定阵，故对任意正定阵Q1,Q2,下述Lyapunov方程分别有唯一正定解矩阵P1,P2
+(A-LC)TP1+P1(A-LC)=-Q1,
+(6)
+(A-BK)TP2+P2(A-BK)=-Q2.
+(7)
+现在构造系统
+
+(8)
+其中i=1,2,…,N,L由(6)式确定.于是，有如下结论：
+　　定理1.设系统(1)是满足假设A1)，A2)的非线性组合大系统，如果
+　　i)Ψi(z,t)在T(Ω)上关于t∈R+一致满足Lipschitz条件，且其Lipschitz常数为γi，其中Ψi(z,t)由(5)式确定，i=1,2,…,N;
+　　ii)Q1-γ2P21-I>0,其中γ=maxγ1,γ2,…,γN，P1,Q1由(6)式确定，则(8)式是(1)式的渐近状态观测器，即
+　　证明.构造系统
+
+(9)
+其中　A，B，C同(2)式，Ψi由(5)式确定，L由(6)式确定.
+　　首先(9)是系统(4)的渐近状态观测器.事实上，令则误差方程为
+
+(10)
+对系统(10)，构造正定函数由(6)式及引理2有
+
+其中　　e=(eT1,eT2,…,eTN)T.再由定理1条件ii)是负定的，所以，系统(10)渐近稳定，即(9)式是系统(4)的渐近状态观测器.考察系统(1)，(4)，(8)和(9)的结构形式，容易验证，系统(1)和(4)相似，(8)和(9)相似，而由上述分析知系统(9)是系统(4)的状态观测器，结合引理1即得(8)式为系统(1)的渐近状态观测器.
+4　基于观测器的控制设计
+　　考虑系统(1).由Ψi(z,t)∈Vωn(T(Ω)×R+)及Ψi(0,t)=0知［10，11］Ψi(z,t)可表示为
+
+(11)
+定理2.设系统(1)是满足假设A1)，A2)的非线性组合大系统，如果
+　　i)Ψi(z,t)在T(Ω)上关于t∈R+一致满足Lipschitz条件，且其Lipschitz常数为γi;
+　　ii)Q1-γ2P21-I>0，其中γ=max{γ1,γ2,…,γN},P1,Q1由(6)式镇定；
+　　iii)WT(x)+W(x)在区域Ω上正定，其中W(x)=(wij)N×N,
+
+则系统(1)可用观测器(8)给出的估计状态镇定.
+　　证明.首先设计控制器
+ui=KTi(xi),　　i=1,2,…,N.
+(12)
+其中　K由(7)式确定，考察系统
+
+(13)
+
+(14)
+
+(15),(16)
+其中　L，K分别由(6)，(7)式确定.显然只需证明系统(13)—(16)是渐近稳定的即可.
+　　构造微分同胚则在Di确定的坐标z下，系统(13)—(16)可表示为
+
+(17)
+
+(18)
+
+(19),(20)
+令　则系统(17)—(20)的渐近稳定性等价于系统
+
+的渐近稳定性.对系统(21)，构造正定函数
+
+其中　P1,P2分别由(6)，(7)式确定，α是待定正常数.则
+
+(22)
+记　e=(eT1,eT2,…,eTN)T,z=(zT1,zT2,…,zTN)T,Ψ=(ΨT1,ΨT2,…,ΨTN)T.由引理2得
+
+(23)
+由基本不等式及(11)式有
+
+(24)
+结合(22)—(24)式即得
+
+由定理2的条件ii)知，存在α使得α(Q1-γ2P21-I)-λM((P2BK)2)I正定，结合条件iii)即知负定，所以，系统(21)渐近稳定.由于微分同胚不影响系统的渐近稳定性，故由(21)式在区域T（Ω)上的渐近稳定性即得系统(13)—(16)在区域Ω上渐近稳定.所以系统(1)可用(8)式给出的估计状态借助于控制器(12)进行镇定.
+5　仿真例子
+　　考虑图1的轴盘传动系统，其动态系统模型见文献［12］，当时，轴盘传动系统的动态系统模型是具有相似结构的组合系统
+
+(25),(26)
+
+(27)
+
+(28)
+
+图1　轴盘传动系统
+其中输出y1,y2是添加的.参考文献［12］选取参数
+则设定则
+
+取则系统(25)—(28)的渐近状态观测器为
+
+(29)
+
+
+(30)
+由观测器(29)—(30)所得估计状态与系统(25)—(28)的状态误差的误差曲线如图2.其中初值输入u1=10sint,u2=-3e-t.
+
+图2　误差曲线
+　　由定理2知，利用观测器(29)—(30)所得的估计状态借助于控制器
+
+(31)
+能使系统(25)—(28)镇定.且基于估计状态反馈的响应曲线如图3所示.仿真结果表明本文的方法是有效的.
+
+图3　基于观测器的状态响应曲线x(t)
+　　上述研究及仿真表明，相似结构能简化大系统的理论分析及工程设计.由于利用了几何方法对大系统的孤立子系统进行线性化，所以所得结论的镇定域一般比较大，通常能满足实际问题的需要，这是近似线性化方法［7，8］所不及的.另外，还给出了处理时变非线性互联项的一种方法，该方法不但适合于非线性相似组合大系统，且适合于更广泛的一类组合大系统.
+1)　国家自然科学基金、国家教委博士点基金资助项目.
+作者简介：
+　　严星刚　1964年生于陕西渭南.1985年在陕西师范大学数学系获理学学士，1988年在曲阜师范大学运筹与控制专业获理学硕士.1992年在青岛大学数学系晋升为讲师.1994年9月考入东北大学自控系攻读博士学位.主要研究方向为非线性相似组合大系统的结构及全息控制和鲁棒控制，包括一般非线性控制系统的几何理论和滑模控制理论与应用.
+　　吕兴亚　1965年生于辽宁沈阳.分别于1987年、1990年在中国纺织大学自动化系获工学学士、硕士学位.1994年9月考入东北大学自控系攻读博士学位.主要研究方向为相似组合大系统的结构及自适应控制和鲁棒控制.
+　　张嗣瀛　简介见本刊第21卷第5期.
+作者单位：东北大学自动控制系　沈阳　110006
+参考文献
+　[1］　Qu Zhihua,Daswson Darren M.Robust control of cascaded and individually feedback linearization nonlinear systems.Automatica.1994,30(6):1057—1064.
+　[2]　Yang Guanghong, Zhang Siying.Stabilizing controllers for uncertain symmetric composite systems.Automatica.1995,30(2):337—340.
+　[3]　陈彭年，韩正之，张钟俊.非线性控制系统镇定的若干进展.控制理论与应用，1995，12(4)：401—409.
+　[4]　井元伟，严星刚，张嗣瀛.基于状态观测器的伪非线性系统的镇定与设计.控制与决策，1996，11(1)：28—33.
+　[5]　Chae Seog,Bien Zeungnam.Decentralized observer-based stabilization for a class of interconnected systems.Int. J. Contr.,1989,50(6):2365—2379.
+　[6]　Chai W,Loh Nank,Poo A N.Stabilizing uncertain discrete-time systems by observer-based control.Int. J. Syst Sci.,1994,25(1):761—769.
+　[7]　Delepaut C,Bastin G,Gevers M.Stabilization of nonlinear systems by means of state estimate feedback.In:Proceedings of the 28th IEEE Conference on Decision and Control.Florida,1989,1042—1046.
+　[8]　Nicosia S,Tomei P,Tornambe A.Observer-based control for a class of nonlinear systems.Int. J. Contr.,1990,50(6):553—566.
+　[9]　Raghavan Sekhar,Hedrick J Karl.Observer design for a class of nonlinear systems,Int. J. Contr.,1994,25(6):1053—1066.
+　[10]　Zheng Dazhong,Decentralized output stabilization of interconnected systems using output feedback.IEEE Trans Automat Contr.1989,34(12):1297—1300.
+　[11]　严星刚，井元伟，张嗣瀛.一类参数不确定非线性系统的鲁棒稳定性.控制理论与应用.1996，13(3):395—399.
+　[12]　Han M C,Chen Y H.Decentralized robust control design for systems with strong interconnections.In:Proceedings of the 1993 American Control Confernce.1993,3279—3283.
+收稿日期　1995-12-14

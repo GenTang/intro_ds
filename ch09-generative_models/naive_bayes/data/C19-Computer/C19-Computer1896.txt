@@ -1,0 +1,122 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+2000　Vol.19　No.5　P.9-10,51
+
+
+
+
+Matlab函数转换为VB可用的DLL
+段晓君
+摘 要：一种利用Matcom将Matlab函数转换为VB中可用的动态链接库的方法，操作简单易行。
+关键词：Matlab函数 动态链接库DLL M－文件 VB语言
+1 Matlab简介
+　　Matlab是MathWorks公司开发的一种工程计算语言。它是一个交互系统，在Matlab中的基本数据元素是一个不要求维数的复矩阵。用Matlab可解决很多工程计算问题，特别是涉及到矩阵和矢量形式的问题。Matlab是一个高度集成的语言环境，在它的界面下可以编写程序、运行程序并可进行跟踪调试。对于广大的工程技术人员和科学研究人员来说，Matlab不失为一种很好的工具。
+　　Matlab也有局限性，一般它不能脱离Matlab集成环境工作；而且编写界面的功能比较弱。
+　　Matcom是一个从Matlab到C＋＋的编译器，它可以节省用户的运算时间和内存要求。MathTools公司利用Matcom技术编写了Mideva工具软件，它可以借用C＋＋编译器将Matlab下的M－文件转换为可被Visual Basic、Excel以及Delphi调用的DLL动态链接库或者是独立的可执行文件。本文就M－文件到DLL的转换以及在VB中调用这一类DLL的2个问题做了一些探讨。文中针对Matlab5．0、VC5．0、VB5．0、Matcom4．0或相应的更高版本的软件进行了讨论。
+2 M－文件到DLL的转换
+　　要将一个m－文件编译成DLL，需进行如下操作：启动运行Matcom4的Mideva，点击菜单File／Compile to dll，选择要转换的m－文件（该文件应该是能够作为函数被其它集成环境调用的m－文件，假设文件名为yourfile．m）。值得注意的是，Mideva对M－文件有一定的要求，即该文件必须是1个函数，如果要编译没有输入也没有输出的脚本文件，可以先在Matlab中将它编辑成无输入无输出的函数，再按照上述操作进行转换。
+　　编译之前，还可以在Mideva集成环境的菜单Configuration中配置编译的参数为Debug模式或Release模式。编译完成之后，在对应的Debug或Release目录下，可以看到一些编译生成的文件。在VB集成环境中需要用到的文件有2个：yourfile．dll（DLL文件）和yourfile．bas（在VB中声明DLL的模块文件）。为了在VB中能够调用这类DLL，要求将yourfile．bas和matlib42．bas加入到你的工程中，并将yourfile．dll以及matlib42．dll拷贝到工程所在的目录下。编译后，在VB中的函数名为yourfile＿in＿out，其中，in和out分别为函数的输入参数和输出参数的个数，例如c＝conv（a，b），编译转换后的函数名为conv＿2＿1。
+3 数据接口
+　　VB中要使用DLL，必须在你的工程中包含DLL的声明文件（即模块文件），同时还要将DLL拷贝到工程文件所在的目录中。事实上，yourfile．dll中的函数并不能直接与集成环境进行数据交换，它只能通过矩阵句柄进行接口。这些句柄与文件句柄类似，它是用一个32位的矩阵整数来表示的，它们可以被创建，也可以被删除，通过它可以对矩阵数据进行操作。这样，集成环境与DLL之间需要1个中间层，MathTools提供了一个单独的C＋＋库文件Matlib42．dll以及相应的模块文件Matlib42．bas。Matlib42．dll相当于VB集成环境与DLL之间的代理，在这一DLL中包含有20多个矩阵句柄操作函数和800多个从Matlab转换而来的矩阵函数。表1列出了Matlib42．dll提供的比较常用的14个矩阵句柄函数。
+　　在编程的时候，必须调用mtInitM来初始化库文件，即请求允许使用转换的DLL，并调用mtExitM来结束这种请求。另外，还要使用其它的矩阵句柄函数来分配、访问和释放矩阵句柄。
+4 应用举例
+　　事实上，最简单的例子是直接调用matlib42．dll中提供的inv＿2＿1来计算矩阵的逆。为了让读者更好地领会这一转换的意义和操作过程，这里给出另外1个例程：在VB中打开1个记录有10种股票的、500多天的收盘价和成交量的Access数据库，并将指定的1列数据传送给Matlab的函数，由该函数完成股票数据的动态显示。
+表1 常用的矩阵句柄函数
+函数名功能返回值
+mtInitM()请求允许使用库无
+mtExitM()结束库使用权限无
+mtCreateDoubleMatrix(rows,Cols,isc)分配1个大小为[rows cols]的矩阵句柄新的矩阵的句柄
+mtDestroyMatrix(x)释放由上1个函数创建的矩阵句柄无
+mtGetR(x,row,col,y)将实数矩阵x的元素[row，col]的值赋给y无
+mtSetR(x,row,col,y)将y的值赋给实数矩阵x的元素[row，col]无
+mtGetI(x,row,col,y)将图象矩阵x的元素[row，col]的值赋给y无
+mtSetI(x,row,col,y)将y的值赋给图像矩阵x的元素[row，col]无
+mtGetM(x)取得矩阵x的行数矩阵x的行数
+mtGetN(x)取得矩阵x的列数矩阵x的列数
+mtGetNumberOf Dimensions(x)取得矩阵x的维数矩阵x的维数
+mtIschar(x)判断x是否为1个字符串矩阵True/False
+mtIsComplex(x)判断x是否为复数矩阵True/False
+mtSetString(x)将x设置称1个字符串矩阵无
+
+　　为了打开数据库文件并显示数据库的数据，我们定制了3个窗体：主窗体，是MDI风格的，只有1个打开数据库的菜单项和1个CommonDialog控件；子窗体1，用于显示数据库的表项结构，包含有ImageList控件和TreeView控件各1个，其中，ImageList用于存放TreeView的图标，TreeView用于显示表项；子窗体2，用于显示选定表项的数据，包含有Data控件、DbGrid控件和CommandButton控件各1个。在通过菜单项选择要打开的数据库后，子窗体1显示数据库的表项结构，鼠标双击某一表项，子窗体2显示该表项中的数据。
+　　由于篇幅的限制，这里不对VB中如何打开数据库文件作过多的描述。下面详细介绍VB中如何调用Matlab函数转换过来的动态链接库。Matlab函数的源程序如下
+（DynDataPlot．m）：
+function DynPlotData（Data）
+T＝length（Data）；
+TestPlot（T）；％初始化动态显示数据的窗口
+MaxY＝max（Data）；
+for k＝1：T
+　　y＝Data（1：K）；
+　　x＝1：k；
+　　TestPlot（T，x，y，MaxY）；％动态绘制数据曲线
+end
+function TestPlot（DataNum，x，Data，MaxY）
+switch nargin
+case 1，％只有1个输入参数，初始化动态显示数据的窗口
+　　fhnd＝findobj（allchild（0），′flat′，′Tag′，′TMWWaitbar′）；
+　　if ～isempty（fhnd）
+　　close（fhnd）；
+　　end
+fhnd＝figure（′Name′，′Show Db Data′，… 
+　　　′Units′，′points′，′Resize′，′off′，… 
+　　　′CreateFcn′，″，′NumberTitle′，′off′，… 
+　　　′IntegerHandle′，′off′，′MenuBar′，′none′， 
+　　　′Tag′，′TMWWaitbar′）；
+　　AxesHnd＝axes（′Parent′，fhnd，′XLim′，［0 DataNum］，…
+　　　′Position′，［．1．1．8．75］，′FontSize′，［11］，… 
+　　　′Box′，′on′，′XGrid′，′on′，′YGrid′，′on′）；
+　　title（′Plot Dynamic Curve′）；
+　　HndList＝［AxesHnd］；
+　　set（fhnd，′HandleVisibility′，′callback′，′UserData′， HndList）；
+case4，％4个输入参数时，动态绘制数据曲线
+　　fhnd＝findobj（allchild（0），′flat′，′Tag′，′TMWWaitbar′）；
+　　HndList＝get（fhnd，′UserData′）；
+　　DataLen＝length（Data）；
+　　if DataLen＝＝1
+　　　set（HndList（1）；′YLim′，［0，MaxY＊1．2］）；
+　　　line（′Parent′，HndList（1），′XData′，［0：1］，′YData′，
+　　　　　［Data（1） Data（1）］，′Color′，［0 0 1］，′
+　　　　　　EraseMode′，′none′）；
+end
+if DataLen＞1
+　　set（HndList（1），′YLim′，［0，MaxY＊1．2］）；
+　　axes（HndList（1））；
+　　line（′Parent′，HndList（1），′XData′，［DataLen－1：
+　　　　　 DataLen］，′YData′，Data（DataLen－1DataLen），
+　　　　　′Color′，［0 0 1］，EraseMode′，′none′）；
+　　end
+end ％case
+return
+　　按照前面描述的步骤，可以将这一函数转换为dyndataplot．dll，同时得到动态链接库的声明模版文件dyndataplot．bas。在VB中添加了该声明文件，将动态链接库拷贝到VB工程文件的当前目录下，并给子窗体2的CommandButton添加如下代码：
+Private Sub Command1＿Click（）
+Dim i，n，m As Long
+Dim strMSG As String
+　　′请求允许使用Matlab的文件
+Call mtInitM
+　　Dim tmp1，tmp2 As Long
+　　　′创建矩阵句柄
+　　　tmp1＝mtCreateDoubleMatrix（1，n，0）
+　　　tmp2＝mtCreateDoubleMatrix（1，1，0）
+　　 ′取得数据库表中1列数值
+　　　m＝DataGrid．datDataCtl．Recordset．Fields．count 
+　　　DataGrid．datDataCtl．Recordset．MoveFirst
+　　　n＝DataGrid．datDataCtl．Recordset．RecordCount
+　　　For i＝1 To n－1 
+　　　　′将指定数据库表项中的第2列有效数据的第
+　　　　′i个记录的值取出
+　　　　temp＝DataGrid．datDataCtl．Recordset．Fields（2）
+　　　　′将取得的值附给矩阵句柄tmp1的第i个单元
+　　　　Call mtSetR（tmp1，1，i，temp）
+　　　　DataGrid．datDataCtl．Recordset．MoveNext
+　　　Next
+　　　′调用Matlab的函数
+　　　Call DynPlotData＿1＿1（tmp1，tmp2）
+　　　′释放矩阵句柄
+　　　Call mtDestroyMatrix（tmp1）
+　　　Call mtDestroyMatrix（tmp2）
+　　′终止Matlab函数的调用权限
+　　　Call mtExitM
+End Sub
+　　这样，在点击“绘制数据曲线”按钮后，就调用转换后的Matlab函数将数据表项中的第2只股票的数据曲线动态地绘制出来。通过这个示例可以看出，将Matlab的函数转换为VB中可以调用的动态链接库，操作简单、调用方便。并且充分利用了VB的界面开发能力和Matlab的数据处理和绘图功能。
+段晓君（长沙国防科技大学七系研究生队410073）
+收稿日期：1999－12－11

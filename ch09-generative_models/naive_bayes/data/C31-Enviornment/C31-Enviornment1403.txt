@@ -1,0 +1,79 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第1期 No.1 Vol.18 1998
+科技期刊
+
+镉胁迫对小麦叶片细胞膜脂过氧化的影响*
+罗立新　孙铁珩　靳月华(中国科学院沈阳应用生态研究所，沈阳 110015）
+文　摘　镉胁迫使植物体内活性氧自由基清除系统的功能降低，造成细胞内H2O2积累，抗坏血酸过氧化酶和谷胱甘肽还原酶活性下降，内源抗氧化剂抗坏血酸和谷胱甘肽含量减少，小麦叶片的组织自动氧化速率显著提高。细胞内丙二醛的积累表明，膜脂过氧化发生和膜系统受到损伤。推测小麦镉伤害过程中，活性氧自由基代谢失衡造成的膜脂过氧化起着重要作用。
+关键词　镉　小麦　膜脂过氧化　组织自动氧化
+Effects of cadmium stress on lipid peroxidation in wheat leaves.Luo Lixin，Sun Tieheng，Jin Yuehua(Institute of Applied Ecology, Chinese Academy of Sciences,Shenyang 110015).China Environmental Science.1998,18(1):72～75
+Abstract—Lipid peroxidation is one of the most deteriorative reactions damaging cellular membrane.For further understanding the lipid peroxidation in wheat leaves under cadmium stress, hydrogen peroxide scavenging system was studied. Germi-nating seedlings of wheat (Tritium aestivum) were treated with different concentrations of cadmium acetate (0.05, 0.1,0.3, 0.5 and 1.0 mmol/L). Cadmium stress significantly enhanced the accumulation of H2O2 in cells. Activities of ascorbate peroxidase (EC 1.11.1.7) and glutathione reductase (EC 1.6.4.2) decreased apparently , and contents of ascorbic acid and glutathione also dropped under Cd stress. Furthermore, the rate of tissue autoxidation in leaves was higher than that of the control, which indicated lipid peroxidation of cellular membrane was stimulated by endogenous active oxygen radicals. The results suggest that effects of cadmium on wheat leaves is achieved by excessive accumulation of active oxygen radicals resulted from the degradation of the radical scavenging system.
+Key words: Cadmium　wheat　lipid peroxidation　tissue autoxidation
+　　已知在环境污染、逆境伤害导致的机体衰老和有关的酶反应中，都可能涉及到活性氧的作用〔1，2〕。植物体内存在着酶促和非酶促两类活性氧自由基清除系统。细胞内的H2O2通过抗坏血酸-谷胱甘肽-NADPH循环（Halliwell-Asada途径）被清除，而中间产物脱氢抗坏血酸和氧化型谷胱甘肽则分别经抗坏血酸过氧化物酶（Ascorbate peroxidase, EC 1.11.1.7）和谷胱甘肽还原酶（Glutathione reductase, EC 1.6.4.2）催化还原〔3，4〕。谷胱甘肽（GSH）是植物体内普遍存在的还原性物质，能还原S-S键、稳定蛋白质中的SH基团，对维持膜结构的完整性和防御活性氧自由基对膜脂的攻击有重要作用〔5〕。
+　　据报道，镉对植物的毒害作用与其影响活性氧自由基的代谢平衡有关〔6，7〕。但以往的研究集中于以超氧化物歧化酶（SOD）为中心的活性氧防御系统，而镉胁迫下抗坏血酸-谷胱甘肽-NADPH循环的功能状态的变化尚未见报道。
+　　本文研究了镉胁迫下小麦叶片细胞膜脂过氧化水平，抗坏血酸氧化酶和谷胱甘肽还原酶活性的变化，抗坏血酸（AsA）和GSH含量的变化，并引用“组织自动氧化”（tissue autoxidation）概念，研究小麦叶片组织总的抗氧化保护能力的变化，探讨Cd毒害的活性氧伤害机理。
+1　材料和方法
+　　小麦（Triticum aestivum 铁春1号）种子浸种24h后,排列在铺有滤纸的培养皿中,置室温自然光照下,用1/2 Hoagland培养液培养至二叶期。分别用含Cd2+为0.05、0.1、0.3、0.5和1.0 mmol/L的1/2 Hoagland培养液处理。
+　　H2O2含量按蒋明义等的方法测定〔8〕。GSH含量按Ellman 的方法测定〔9〕。古胱甘肽还原酶（GR）活性按Foster等的方法测定，以氧化1nmol NADPH/mg protein.min为一个活性单位〔10〕。抗坏血酸含量（AsA）按Mishri等的方法测定〔11〕。抗坏血酸过氧化物酶（ASP）活性按沈文飚等的方法测定〔12〕。叶片组织自动氧化速率按李柏林等的方法测定〔13〕。蛋白质含量按Lowery法测定〔14〕。将叶片烘干,用硝酸-高氯酸分解,原子吸收分光光度计测定Cd含量。
+2　结果
+2.1　小麦叶中镉和H2O2含量的变化
+　　实验过程中，对照组小麦叶内Cd含量始终低于0.04μg/g干重，在图1中未能显示出其Cd含量。由图1看出，培养液中的Cd很快被小麦吸收。镉胁迫2d时，各Cd处理组小麦叶中Cd含量已大大高于对照组，并与处理组浓度呈正相关。以后Cd含量继续升高。 镉胁迫6d后，小麦叶片中一种活性氧自由基—H2O2的含量呈增加趋势（图1）。胁迫8d时，0.5和1.0mmol/L Cd浓度处理组小麦叶片中H2O2含量为对照组的146%左右，差异极显著（P＜0.01）。但比较4个高浓度Cd处理组（0.1、0.3、0.5和1.0mmol/L Cd）小麦叶片中H2O2的含量，相互间差异未达到显著水平（P＞0.05）。
+
+图1　小麦叶中镉和H2O2含量的变化
+Fig.1　Changes of Cd and H2O2 content in 
+wheat leaves under Cd stress
+2.2　镉胁迫对小麦叶中活性氧自由基清除系统的影响
+　　镉胁迫6d后，小麦叶中GSH含量的变化趋势与Cd处理浓度的升高呈负相关（图2）。镉胁迫8d时，0.5和1.0 mmol/L Cd处理组的GSH含量仅为对照组的44%左右，差异极显著（P＜0.01）。
+　　镉胁迫4d时GR活性升高（图2），0.1～1.0mmol/L Cd处理组的GR活性均高出对照20%以上，差异显著（P＜0.05）或极显著（P＜0.01）。但镉胁迫6d以后，0.1～1.0 mmol/L Cd处理组的GR活性下降，与对照组的差异均不显著（P＞0.05）。0.05 mmol/L Cd处理组的GR活性在整个实验周期中始终高于对照组15%左右。
+
+图2　镉胁迫下小麦叶中古胱甘肽含量和古胱甘肽
+还原酶活性的变化
+Fig.2　Changes of glutathione content and glutathione
+reductase activity in wheat leaves under Cd stress
+　　与GSH含量的变化趋势相比，镉胁迫下AsA含量降低发生得较晚，变化幅度也较小。镉胁迫8d，0.5和1.0 mmol/L Cd处理组的AsA含量降低到对照组的64%左右（图3）。
+　　镉胁迫下ASP活性变化趋势表现为先升后降过程（图3）。镉胁迫6d时，ASP活性呈随镉胁迫强度增强而升高的趋势，1.0 mmol/L Cd处理组的ASP活性为对照组的134%（P＜0.01）。但到镉胁迫第8d时ASP活性转为下降，高浓度Cd处理组（0.3～1.0 mmol/L）的ASP活性下降最明显。此时各Cd处理组的ASP活性与对照组的差异均不显著（P＞0.05）。
+
+图3　镉胁迫下小麦叶中抗坏血酸含量
+和抗坏血酸过氧化物酶活性的变化
+Fig.3　Changes of ascorbic acid content and ascorbte 
+peroxodase activity in wheat leaves under Cd stress
+2.3　镉胁迫对小麦叶片组织自动氧化速率的影响
+　　机体中清除自由基的体系是很复杂的，其中某一种酶或某一物质的变化并不能代表机体总的清除自由基能力的变化。为了表示机体总的清除自由基的能力，在机体衰老研究中采用了“组织自动氧化”的方法，即将组织在生理pH下匀浆，在生理温度暴露于空气中震荡一定时间，然后测定丙二醛（MDA）的积累速率。MDA积累越多，组织自动氧化速率越大，表明机体中总的清除自由基能力越低，即组织的保护能力弱〔13〕。
+
+图4　镉胁迫对小麦叶片组织自动氧化速率的影响
+Fig.4　Effects of Cd stress on the tissue
+autoxidation rate in wheat leaves
+　　镉胁迫2d时小麦叶片组织自动氧化速率即升高（图4）。镉胁迫8d时0.3 mmol/L Cd高浓度处理组小麦叶片组织自动氧化速率为对照组的212%（P＜0.01）。与镉胁迫下H2O2含量的变化相似，胁迫8d时3个高浓度Cd处理组相互间的组织自动氧化速率差异不显著（P＞0.05），而0.05 mmol/L Cd处理组的自动氧化速率与对照组的差异也未达到显著水平(P＞0.05)。
+
+3　讨论
+　　在逆境胁迫下植物细胞内活性氧自由基的代谢失衡，引起自由基的积累和膜脂过氧化，使膜系统的结构和功能受到损伤，是造成细胞伤害的重要原因〔1，15〕。本实验证实镉胁迫造成小麦叶片细胞中一种活性氧自由基H2O2的积累。正常情况下H2O2可通过Halliwell-Asada途径清除〔1，3,4〕：
+
+　　ASP和GR均为植物细胞内清除H2O2的重要酶，而AsA和GSH则是植物体内有效抗氧化剂, 它们的变化与植物防御活性氧自由基伤害的能力水平相关，其作用在干旱、涝渍、低温等环境胁迫中做过大量的研究〔1，3～5，16〕。实验结果显示，在镉胁迫下小麦叶片细胞中酶活性的改变是GR先于ASP发生，而抗氧化剂含量的下降幅度则是GSH大于AsA。推测镉胁迫首先是抑制了小麦叶片中GR活性，使Halliwell-Asada反应的中间产物之一氧化型古胱甘肽（GSSG）不能迅速还原，大幅度降低了GSH的含量；而ASP酶活性的下降，同样使得该反应的中间产物脱氢抗坏血酸（DHAsA）还原受阻，AsA含量也因此降低。其结果是Halliwell-Asada途径效率下降，不能有效地清除细胞内的H2O2。活性氧自由基的代谢失衡和积累，使植物因膜脂过氧化而受到伤害。在成熟的叶肉细胞中，ASP和GR主要存在于叶绿体中，大约有30%～40%的AsA和10%～50%的GSH也位于叶绿体中〔3, 4，17〕。镉胁迫对小麦的原初影响是否集中于叶绿体内，这需要用分离的叶绿体做进一步研究。
+　　李柏林和梅慧生〔13〕指出燕麦离体叶片衰老过程中伴随着组织自动氧化速率的急剧上升，而施加各种活性氧自由基清除剂能延缓离体叶片的衰老，同时也抑制了组织自动氧化速率的上升。观察到在高浓度镉的胁迫下，小麦叶片的自动氧化速率大幅度上升，MDA积累加剧，表明机体总的清除活性氧自由基的能力在迅速下降，进一步证实镉胁迫对植物伤害的重要机制之一是活性氧自由基的过量积累导致膜脂过氧化。从本实验的结果来看，以组织自动氧化速率的变化为指标度量Cd胁迫对植物的伤害，要比使用其它指标更灵敏。
+4　结论
+4.1　镉胁迫抑制了小麦叶片中GR和ASP酶活性，使内源抗氧化物质GSH和AsA含量下降，导致Halliwell-Asada途径效率下降，不能有效地清除细胞内的H2O2。 
+4.2　H2O2的代谢失衡和过量积累，使植物因膜脂过氧化而受到伤害。
+4.3　在镉的胁迫下，小麦叶片的自动氧化速率大幅度上升，MDA积累加剧，表明机体总的清除活性氧自由基的能力在迅速下降。
+参考文献
+1　Bowler C, van Montagu M, Inze D. Annu Rev Plant Physiol Plant Mol Biol.,1992,43: 83～116
+2　Fridovich I. Annu Rev Biochem., 1995, 64: 97～112
+3　Larson R. Phytochemstry, 1988, 27: 969～978
+4　Bunkelmann J, Trelease R N. Plant Physiol., 1996, 110: 589～598
+5　Alscher R G. Physiol.Plant, 1989, 77: 457～464
+6　Somashekaraiah B V, Padmja K, Prasad A R. Physiol.Plant, 1992, 85: 85～89 
+7　杨居荣，贺建群，张国祥等. 中国环境科学，1996，16(2)：113～117
+8　蒋明义，郭绍川. 植物生理学报, 1996，22:(1)6～12
+9　Ellman G L. Arch Biochem Biophys., 1959, 82: 70～77
+10　Foster J G, Hess J L. Plant Physiol.，1980, 66: 482～487
+11　Mishri N P, Ranjit K M, Gauri S S. Plant Physiol., 1993, 102: 903～910 
+12　沈文飚，徐朗莱，叶茂炳等. 植物生理学通讯, 1996, 32(3): 203～205
+13　李柏林，梅慧生. 植物生理学报, 1989, 15(1): 6～12 
+14　Lowry D H. J Biol Chem., 1951, 193: 267～275
+15　龚　明，丁念松，贺子义等. 植物学报, 1989，31(11)：841～846
+16　Nakano Y, Asada K. Plant Cell Physiol., 1987, 28: 131～139
+17　Chen G X, Asada K. Plant Cell Physiol., 1992, 33: 117～123
+作者简介
+罗立新　男，1957年7月生。博士，1995年毕业于北京大学生命科学学院。现从事污染生态学研究。发表论文14篇。
+收稿日期：1997-02-03
+*博士后科学基金资助项目

@@ -1,0 +1,103 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第1期 Vol.18 No.1 1999
+
+
+
+一种在关系数据库中图的表示及遍历方法
+邵远升
+　　摘　要：针对在数据库应用程序中经常遇到的一类查询，提出了1种在关系数据库中对图进行表示和遍历的方法，并使用MS SQL Server 6.5的T-SQL语言实现了遍历过程。
+　　关键词：关系数据库　图的遍历　SQL语言
+　　目前，大多数应用程序都涉及数据库的应用，在对数据库进行查询时经常会遇到一类较为复杂的问题。例如，已知各城市之间的航班，现要查出从某一城市到达另一城市的所有路径。这类查询从本质上来看涉及求解图的连通性和求关键线路等问题，其基础是对图的遍历。对图的遍历一般要应用高级语言的指针和特殊的数据结构来实现。这在大多数数据库应用程序开发工具中实现起来比较困难。本文针对这一问题提出了1种在关系数据库中表示图的方法，以及利用标准的SQL语言对其进行遍历的算法，并通过一实例说明。
+1　图的表示及遍历
+　　1.图的表示
+　　本文以有向图为例，无向图则可以表示为双向的有向图。传统上对图的表示一般采用数组或邻接表等多种方式，但在关系数据库中只能以二维表的形式来存储数据。因此本文提出的方法是将图表示为2个二维表，1个是节点表(node)，包括节点名nodename、节点信息nodeinfo和是否为根节点ynroot(根节点为1，其他为0，无向图全为1)3个字段；另1个是与弧有关的弧表(arc)，包括起始节点startnode、终止节点endnode和与弧有关的信息arcinfo 3个字段。表结构如表1、表2所示。
+表1　node表结构
+
+nodenamenodeinfoynroot
+charcharint
+
+表2　arc表结构
+
+startnodeendnodearcinfo
+charcharchar
+
+　　2.图的遍历
+　　以深度优先搜索算法为例，给出算法流程图，如图1所示。其中用到2个临时表stack和list,stack作为堆栈使用，临时存放返回点，list记录已访问过的节点。stack表中包含nodename和glevel 2个字段，list表中包含nodename和sequence 2个字段。 
+
+图1　算法流程图
+2　实例
+　　以图2中的有向图为例，该图在数据库中存储为表3和表4。
+
+图2　有向图
+表3　node表
+
+nodenameynroot
+a1
+b0
+c0
+d0
+e0
+f0
+g0
+h0
+
+表4　Arc表
+
+startnodeendnode
+ab
+ac
+bd
+dg
+dh
+cf
+eb
+he
+
+　　本文采用MS SQL Server 6.5的T-SQL语言编写过程对图2进行遍历。具体程序如下：
+set nocount on
+declare @i int,@j int,@nodename char(1)
+create table #stack(node char(1),glevel int)
+create table #list(node char(1),sequence int)
+insert into #stack select *from node where ynroot=1
+select @i=1
+select @j=1
+while @i>0
+begin
+　　if exists(select *from #stack where glevel=@i)
+　　　begin
+　　　select @nodename=node
+　　　from #stack where glevel=@i
+　　　delete from #stack where glevel=@i and node=@nodename
+　　　if exists(select *from #list where node=@nodename)
+　　　　continue
+　　　　　insert #list values(@nodename,@j)
+　　　select @j=@j+1
+　　　insert #stack
+　　　select endnode,@i+1
+　　　from arc where startnode=@nodename
+　　　if @@rowcount>0
+　　　　select @i=@i+1
+　　　end
+　　　else
+　　　　select @i=@i-1
+end
+select * from #list
+　　遍历结果如图3： 
+　　node　sequence
+　　——　———
+　　a　　1
+　　b　　2
+　　d　　3
+　　g　　4
+　　h　　5
+　　e　　6
+　　c　　7
+　　f　　8
+图3　遍历结果
+　　综上所述，本方法使用简单的数据结构和标准的SQL语言实现了对图的遍历，对于解决实际中遇到的复杂查询问题有一定的参考价值。
+作者单位：天津大学管理学院947#(300072)
+参考文献
+　1　严蔚敏，吴伟民.数据结构.北京：清华大学出版社，1992
+　2　Microsoft Corporation.Microsoft SQL SERVER Database Developer's Companion.
+(收稿日期：1998-07-25)

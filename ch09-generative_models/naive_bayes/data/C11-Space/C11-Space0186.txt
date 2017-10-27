@@ -1,0 +1,100 @@
+宇航学报 
+JOURNAL OF ASTRONAUTICS
+1998年 第19卷 第1期 No1 Vol.9 1998科技期刊
+
+月球探测器轨道设计与地面观测弧
+严　辉　吴宏鑫
+(北京控制工程研究所*北京*100080)
+　　摘　要　本文研究月球探测器轨道设计方法及与地面观测弧的关系。主要研究地月直接转移轨道和定相环形转移轨道。通过建立B平面用迭代方法得到满足要求的月球卫星轨道,并认为定相环形转移轨道的测控优于直接转移轨道。
+　　主题词　月球探测器轨道　轨道转移　跟踪研究
+LUNAR TRAJECTORIES AND TRACKING ARCS
+Yan Hui　Wu Hongxin
+(Beijing Institute of Control and Engineering*Beijing*100080)
+　　Abstract　The paper involves how to establish lunar trajectorjes and their relations with tracking arcs.Direct transfers and phasing loop transfers are researched for lunar trajectories,and lunar orbits satisfied with the requirements can be obtained by iterations in B-plane.It shows the phasing loop transfers are better than the direct transfers in the tracking and guidance.
+　　Key words　Lunar trajectories　Orbital transfers　Tracking studies
+1　引　言
+　　月球探测器飞向月球实际上是求解二点边值问题。其最一般形式是找到连接地球发射点和月球目标点的轨道以使燃料最省。文［1］用优化方法研究了直接命中月球的轨道,本文通过建立B平面得到满足要求的月球卫星轨道［2,3］。
+　　进入90年代,日美月球探测器采用一种间接转移轨道即定相环形转移轨道或周期转移轨道(Phasing Loop Transfer Trajectory),转移轨道的相位为540度、900度、1260度…等,由于轨道绕地几周后再回到月球,故轨道控制比相位180度霍曼直接转移具有更大灵活性,节省修正燃料,且有较长的定轨时间［4,5］。本文比较直接与间接转移轨道与观测弧关系。
+2　坐标系及数学模型
+2.1　地心惯性坐标系
+　　原点在地心,X轴指向春分点,Y轴在赤道平面由X轴向东转90度,Z轴按右手法则得到。
+2.2　测站坐标系
+　　原点在测站,基准面为地平面,x轴指向南,y轴向东,z轴向上。
+2.3　数学模型
+　　考虑地球、太阳、月球和探测器四体运动方程,不计引力摄动和各扰动影响,在地心惯性坐标系内,有
+
+(1)
+当探测器飞到月球影响球时,可将地心惯性坐标系平移至月心,在该坐标系建立同样的方程。式(1)中,vex,vey,vez为速度,x,y,z为坐标,ge,gm,gs为地球,太阳和月球对探测器的引力,gme,gse为月球和地球,太阳和地球之间的引力。
+3　B平面
+　　深空轨道可以用B平面描述目标点散布,数值实验表明,用迭代方法修正B平面上的误差具有很好收敛性。所谓B平面是垂直于无穷远速度的平面,并通过月心。以无穷远速度作为S轴,S与月球轨道平面法向的矢积作为T轴,R由右手法则确定,如图1所示。B矢量为
+B=S×NS
+(2)
+NS为探测器运动平面的法向。B矢量大小为双曲线短半轴。将月球卫星轨道倾角及近月距用B矢量表示。若二点边值终端满足B矢量要求,则可得到满足要求的轨道倾角和近月距。
+　　容易证明,就极轨道月球卫星,若月球卫星轨道与月球运动平面垂直(月球的赤道面与月球运动平面有6.7度的夹角,本文暂不考虑该角度),则T轴即为月球卫星平面的法向,所以B矢量沿R轴方向。如图2,以下求B矢量大小
+
+
+图1　B平面示意图
+
+
+图2　双曲线几何参数
+由于
+
+故B矢量大小为
+
+(3)
+式中,rp为近月心距,fm为月球引力常数,v∞为相对月球为中心体的无穷远速度。注意在动力学中,a为负值,因而c取负值。
+4　计算实例
+4.1　任务
+　　a.开始绕月时间为1997年8月25日12点;
+　　b.月球卫星轨道平面与月球赤道面垂直;
+　　c.近月距为100公里。
+4.2　约束
+　　a.停泊轨道倾角为43度。
+　　b.停泊轨道高度为200公里。
+4.3　初始条件
+　　考虑到能量最优,直接转移轨道的飞行时间大致为4天。若要满足任务要求,由停泊轨道至转移轨道的变轨时间为1997年8月21日9时36分,由圆锥曲线拼接法可得近似初始条件为
+fc0=180°
+v0=10.930km/s
+其中v0为初始速度,fc0为地心扫角,变轨速度方向沿停泊轨道切线,地心扫角由地月变轨点量至月球卫星轨道插入点,具体计算方法可见文［1］,并转换到地心坐标系中。
+4.4　初值迭代
+　　用牛顿迭代法变化初值v0和fc0,得到满足要求的B矢量,从而满足月球卫星设定的轨道倾角和近月距。一般迭代次数为3-10次,表1是直接转移的迭代过程,开始绕月的时间为1997年8月25日11时42分。
+表1　直接转移的迭代
+
+迭代次数初始速度(km/s)地心扫角(°)轨道倾角(°)近月距(km)
+110.930180-29.0729134.9
+210.91516179.85440.562005.5
+310.917420179.54888.53114.0
+410.917465179.535-89.92100.2
+
+　　表2为900度间接转移的迭代,其变轨时间经过试算调整为1997年7月31日20时47分,开始绕月时间为1997年8月25日11时35分。
+表2　900度间接转移的迭代
+
+迭代次数初始速度(km/s)地心扫角(°)轨道倾角(°)近月距(km)
+110.9175180-70.21103.9
+310.919499177.84836.301656.6
+510.918398179.15089.2686.8
+710.918375179.179-89.90100.4
+
+4.5　地面观测弧
+　　设定某一地面站,假定探测器一出测站地平即为雷达捕获。图3为直接转移的观测弧,图4为900度间接转移的观测弧。
+
+
+图3　直接转移的观测弧
+
+
+图4　900度间接转移观测弧
+5　计算结果分析与结论
+5.1　计算结果分析
+　　从表1和表2可看出,B平面算法具有较好的收敛性,在选取间接转移的初值时,直接转移的计算结果可作为参考。
+　　图3和图4表明,间接转移的观测弧的时间是直接转移的数倍,且多次经过近地点和远地点,说明间接转移的测控要优于直接转移。
+5.2　结论
+　　a.B平面误差算法具有较好的收敛性;
+　　b.定相环形转移轨道测控优于直接转移轨道。
+参考文献
+1　严辉,陈士橹,吕学富.给定条件下直接命中月球轨道计算方法.中国空间科学技术,1996,3:17-21
+2　Carrico J.,etc.Rapid Design of Gravity Assist Trajectories,Proceedings of the ESA Symposium on Spacecraft Flight Dynamics.Germany,1991
+3　Carrico J.,etc.An Interactive Tool for Design and Support of Lunar,Gravity Assist and Libration-Point Trajectories.AIAA 93-1126
+4　Uesugi K.,etc.Mission Operations of the Spacecraft HITEN,Proceedings of the ESA Symposium on Spacecraft Flight Dynamics.Germany,1991
+5　Kaufman B.Mission Design of the CLEMENTINE Space Experiment.AAS 95-124
+本文于1997年5月20日收到
+　　*国家自然科学基金项目19782004

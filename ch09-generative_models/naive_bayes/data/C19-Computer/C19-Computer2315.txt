@@ -1,0 +1,155 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.6　P.675-680
+
+
+
+一种具有抗噪音能力的增量式混合学习算法
+陈兆乾　周志华　姜远　陈世福
+摘　要：文中提出了一种具有抗噪音能力的增量式混合学习算法IHMCAP.该算法将基于概率论的符号学习与神经网络学习相结合，通过引入FTART神经网络，不仅实现了两种不同思维层次的靠近，还成功地解决了符号学习与神经网络学习精度之间的均衡性问题.其独特的增量学习机制不仅使得它只需进行一遍增量学习即可完成对新增示例的学习，还使该算法具有较好的抗噪音能力，从而可以应用于实时在线学习任务.
+关键词：混合模型， 增量学习， 神经网络， 噪音处理
+分类号：TP18
+AN INCREMENTAL HYBRID LEARNING ALGORITHM WITH
+NOISE RESISTANCE ABILITY
+CHEN Zhao-Qian，ZHOU Zhi-Hua，JIANG Yuan，CHEN Shi-Fu
+(State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210093)
+Abstract：In the paper here, an incremental hybrid learning algorithm IHMCAP is proposed, which has the ability of noise resistance. This algorithm successfully combines probability based symbolic learning with neural learning. By adopting the FTART neural network proposed before, the IHMCAP not only proportions the learning accuracy between symbolic and neural parts, but also lays the two different thought levels aboard. The unique incremental learning mechanism employed enables the IHMCAP performs only one round learning to cover new training patterns. Moreover, it also depresses the noise sensibility of the learning system, which makes IHMCAP fit for tasks that require real-time online learning.
+Key words：hybrid model, incremental learning, neural network, noise disposal▲
+1　引　　言
+　　神经网络与符号学习相结合的混合型学习方法现已成为机器学习领域的研究热点，这方面的主要成果有：EITHER［1］等系统；KBANN［2］一类的算法等.但这些方法并没有充分发挥符号学习与神经网络的处理能力，大多只是EBL（explanation-based learning）与EL（empirical lear
+ning）的结合，因此在归纳能力和适用范围上有很大的限制.
+　　IHMCAP算法是我们在HMCAP算法［3］基础上提出的一种增量式混合型多概念获取算法，它采用属性值对表示方式，将基于概率论的符号学习与神经网络学习相结合，能从隶属于多个概念的示例集中归纳出以混合型二叉判定树表示的概念描述，可以处理连续属性，效率较高，容错性较好.该算法充分发挥了FTART［4，5］神经网络的优点，成功地在符号学习与神经网络学习精度之间达到了均衡.尤为重要的是，该算法的增量学习机制使其具有较好的抗噪音能力.这种特性使IHMCAP算法可以应用于其他算法难以处理的“噪音丰富”的实时在线学习任务，扩大了判定树类算法的适用范围.该算法已在Windows98环境下用Visual C++ 5.0 编程实现.
+2　IHMCAP算法设计
+　　IHMCAP算法采用属性值对的示例表示方式，能从隶属于多个概念集的例子集中归纳出以二叉混合判定树表示的概念描述，可以学习多概念和连续属性，归纳能力强，效率高.该算法先根据离散属性对示例进行分类，然后调用神经网络对无法用离散属性精确划分的示例进行处理，利用这些示例的连续属性作进一步的学习.
+　　在符号学习与神经网络学习相结合的混合型学习中都存在一个精度提高的均衡性问题，其原因是神经网络的构造需要大量的训练例.一方面，如果符号学习部分的效率很高，则提供给神经网络的训练例就会很少，这样网络的精度就很难得到保证.另一方面，如果符号学习部分的效率较低，提供给神经网络的训练例就可以比较多，这样网络的精度就能有所提高，但系统的总体精度却比较低.最佳选择是在保持符号学习精度的同时，尽可能提高神经网络学习的精度，使二者能够在一个合适的临界点达到均衡.
+　　IHMCAP算法成功地解决了上述均衡性问题，它采用FTART神经网络［4，5］，该网络只需一遍学习，在样本数较少时也可实现对样本空间的有效划分，收敛速度极快，而且不存在陷入局部极小的问题，非常适合于在混合型学习中使用.更为重要的是，与传统前馈型的BP算法不同，在给训练好的FTART网络增加新的输入模式时，不用再重新生成已有的网络结构，而只需在网络中自适应地增加神经元，并且适当调整新增连接权，即可覆盖新增模式.FTART算法的这种特性为IHMCAP算法的增量学习及抗噪音能力提供了有力的支持.
+3　增量学习与噪音处理
+3.1　增量学习机制
+　　为进行增量学习，我们要将新增实例与判定树进行匹配，但由于生成的混合判定树中包含神经网络结点，因此在这里不能使用ID4［6］，ID5R［7］中那种寻找最佳状态然后“上拉”的简单增量学习策略，否则将由于神经网络结点状态无法“上拉”而导致算法失败.我们根据二叉混合判定树的特征设计了一种独特的增量学习机制［8］，不仅解决了增量学习问题，还降低了算法对噪音数据的敏感度.
+　　因为IHMCAP使用二叉混合型判定树，所以新增实例与判定树匹配的过程有其不同于ID4，ID5R的特征，即匹配过程在匹配到叶结点之前决不会停止，而无论到达哪一个叶结点，都将出现下面几种情况之一：
+　　(1) 到达非神经网络结点，且新增实例的分类与该叶结点的分类相同；
+　　(2) 到达非神经网络结点，新增实例的分类与该叶结点的分类不同，尚有可用于继续划分的离散属性；
+　　(3) 到达非神经网络结点，新增实例的分类与该叶结点的分类不同，没有可用于继续划分的离散属性；
+　　(4) 到达神经网络结点，新增实例形成的输入模式已被原网络覆盖；
+　　(5) 到达神经网络结点，新增实例形成的输入模式没有被原网络覆盖.
+　　针对第(1)、(4)两种情况,我们不需要再做任何工作；对第(2)种情况，需要对该叶结点进行进一步划分；对第(3)种情况需要生成一个新的神经网络结点；而对最后一种情况，则可以凭借FTART网络的增量学习功能，调整原神经网络的拓扑结构.
+　　此外，ID4，ID5R算法从构造判定树开始就进行增量学习，这样就导致多次学习后判定树结构紊乱，匹配能力差.IHMCAP算法采用分段学习策略，先提供一批训练例进行学习，待构造了一个初始树结构之后再进行增量学习，从而较为妥善地解决了这个问题.
+3.2　噪音处理
+　　在遇到噪音数据时，因为学习算法并不知道这是噪音，所以它会将噪音数据当作正确的信息处理，从而对原来的结构进行错误的修正.由于判定树算法都是基于匹配的，而主干被匹配的可能性比分枝大得多，因此主干上的错误造成的影响也将比分枝上的错误大得多.
+　　正如我们在前面介绍IHMCAP算法的增量学习机制时指出的，在根据不含噪音的例子集形成一个初始判定树之后，IHMCAP进行增量学习时的结构变化全部发生在叶结点上.即为了覆盖新增加的例子，其他算法需要大幅变动原判定树结构，甚至要将所有的例子都重学一遍以重构判定树，而IHMCAP只需进行微调.这样，当增加的例子中包含噪音时，IHMCAP就可以将错误数据的影响限制在判定树的分枝上，而不像其他算法那样在树的主干上引入错误，从而降低了算法对噪音的敏感度［9］.
+4　IHMCAP算法描述
+　　算法1.
+　　Step1. 是否已有训练好的混合判定树？
+　　　　　　是，则　GOTO Step7；
+　　　　　　否则　GOTO Step2；
+　　Step2. 初始化根结点；
+　　Step3. 当前结点的所有示例是否都属于同一个概念？
+　　　　　　是，则　返回；
+　　　　　　否则　　GOTO Step4；
+　　Step4. 是否有可用于继续划分的离散属性？
+　　　　　　是，则　GOTO Step5；
+　　　　　　否则　　生成神经网络结点，调用FTART算法进行学习；
+　　　　　　　　返回；
+　　Step5. 当前结点的所有示例的离散属性取值是否都相同？
+　　　　　　是，则　生成神经网络结点，调用FTART算法进行学习；
+　　　　　　　　　　返回；
+　　　　　　否则　　GOTO Step6；
+　　Step6. 根据最优于划分的离散属性生成当前结点的左子树和右子树；
+　　　　　　继续划分左（右）子树，GOTO Step3；
+　　Step7. 当前结点是否是神经网络结点？
+　　　　　　是，则　GOTO Step8；
+　　　　　　否则　　GOTO Step9；
+　　Step8. 新增模式是否已被原网络覆盖？
+　　　　　　是，则　返回；
+　　　　　　否则　　调用FTART算法进行增量学习；
+　　　　　　　　　　返回；
+　　Step9. 当前结点是否是叶结点?
+　　　　　　是，则　GOTO Step3；
+　　　　　　否则　　GOTO Step10；
+　　Step10. 新增示例继续与判定树进行匹配；
+　　　　　　GOTO Step7；
+5　运行实例
+　　情报处理作为指控设备中必不可少的部分，其软件设计的难点是处理不确定性，包括目标的数目、速度、运动规律以及噪声干扰等不确定性.由于这个原因，经过成百上千次测试的情报软件仍不可避免地会出现一些故障.如何及时诊断故障使软件恢复正常运行，贯穿于情报软件生命周期的各个阶段.根据中国船舶工业总公司716研究所提供的数据，我们利用IHMCAP算法研制了一个情报软件故障诊断系统［10］，取得了很好的效果.系统中用到的背景知识如表1和表2所示：
+表1　情报软件故障类型及其含义
+
+故障类型　　含义故障类型　　含义
+C1正北波动太大C6未按交战键
+C2环形缓冲区饱和C7未收到主航迹表数据
+C3起始航迹数太多C8威胁排序模块故障
+C4航迹起始模块故障C9目标分配模块故障
+C5后续跟踪模块故障C10综合体故障
+
+表2　属性含义及其取值范围
+
+属性序号　　　含义　　　　　取值范围
+A1正北时间间隔波动量V10：波动<=2%，V11：2%<波动<=4%， 
+V12：4%<波动<=6%，V13：6%<波动
+A2主航迹表信号量V20：无，V21：有
+A3能否读到综合体数据V30：能，V31：否
+A4环形缓存区状态V40：无点迹，V41：有点迹未饱和，
+V42：可能饱和，V43：饱和
+A5综合体状态V50：正常，V51：故障
+A6交战状态V60：处于非交战状态，V61：处于交战状态
+A7威胁排序变化情况V70：威胁排序无变化，V71：威胁排序变化较小，
+V72：威胁排序变化较大
+A8目标分配变化情况V80：无变化，V81：变化较小，V82：变化较大
+A9上天线周期接受到的点迹数0～255
+A10起始航迹数0～127
+A111链上的自由点迹数0～255
+A122链上的自由点迹数0～255
+A133链上的自由点迹数0～255
+A144链上的自由点迹数0～255
+A155链上的自由点迹数0～255
+A16测试起始航迹数0～127
+A17航迹总数0～127
+A18正北处理前所处理的缓存区前沿0～8192
+A19主航迹条数0～16
+A201号点迹区的待处理点迹数0～255
+A212号点迹区的待处理点迹数0～255
+A223号点迹区的待处理点迹数0～255
+
+
+　　中国船舶工业总公司716研究所共提供了352个示例（略），这些数据都是确保没有被噪音污染的.由于IHMCAP采用分段学习策略，因此我们先从中随机抽取172个示例组成训练集进行训练，得到了如图1所示的混合判定树，在此基础上再进行增量学习.为了进行比较，同时采用HMCAP算法对这个例子集进行学习，得到的判定树形式上与图1相同，但其神经网络采用的是BP算法.
+
+
+图1　初始的混合型判定树
+　　我们对引入噪音后的IHMCAP算法与HMCAP算法的学习结果进行了比较，发现前者的学习精度下降幅度远小于后者.为了模拟噪音数据，我们提供一个错误的训练例：{综合体故障，4%<波动<=6%，有，能，有点迹未饱和，正常，处于交战状态，威胁排序无变化，变化较小，81，15，75，21，17，94，48，25，5，8047，4，105，72，2}.IHMCAP进行增量式学习后得到的判定树如图2所示①.HMCAP算法由于不具备增量学习能力，只能将这个新增的例子加入原例子集中重新训练，得到的判定树如图3所示①.显然，噪音数据引入后，IHMCAP的判定树结构几乎不变，仅仅在初始判定树最底层的一个叶结点引入了一个新的神经网络结点，即NN10；而HMCAP不仅引入了新的神经网络结点，还使判定树主干也发生了较大的变化.
+
+
+图2　IHMCAP得到的混合型判定树(局部)
+
+
+图3　HMCAP生成的混合型判定树(局部)
+　　①图2、图3中与图1相同的部分以“……”表示我们用剩余的180个示例组成测试集对这4个判定树（图1代表了两个初始判定树，分别用IHMCAP算法和HMCAP算法学习）进行测试，对图1所示的判定树，IHMCAP的精度为96.11%，HMCAP的精度为86.67%.显然，IHMCAP的学习效果比HMCAP好得多，这主要是因为IHMCAP引入了FTART神经网络，在符号学习与神经网络学习之间达到了均衡.图2的判定树精度为92.22%，图3为73.89%.显然， IHMCAP算法具有较好的抗噪音能力，其学习精度的下降幅度远小于HMCAP.
+　　此外，我们还将IHMCAP算法与ID4［6］，ID5R［7］等算法的学习结果进行了比较（比较结果从略），发现IHMCAP对噪音的敏感度远低于上述算法，即IHMCAP的抗噪音能力较强.同时我们还发现，除了可以较好地处理噪音数据外，IHMCAP算法以增量学习方式学习得到的精度与每获取一个新例子就重新构建整个树所得的精度非常接近，而所用时间却少得多，这也充分表明了IHMCAP是一个速度快、精度高的增量式混合学习算法.
+6　结束语
+　　IHMCAP算法在混合型机器学习模型的连续值输入、多概念获取、神经网络与符号学习结合的均衡性以及增量学习等方面进行了有益的尝试.该算法具有不同于其他判定树算法的增量学习机制，很好地解决了结合神经网络的混合型算法的增量学习及抗噪音问题，并使该算法可以应用于其他判定树算法难以处理的“噪音丰富”的实时在线学习任务.我们已经利用IHMCAP算法为中国船舶工业总公司716研究所开发了一个实时故障诊断系统，具有较好的实用价值.■
+基金项目：本课题得到国家自然科学基金(项目编号69575008，69875006)与江苏省自然科学基　　　　　　金(项目编号BK97029)资助.
+注释：①图2、图3中与图1相同的部分以“……”表示
+作者简介：陈兆乾，女，1940年2月生，教授，主要研究领域为机器学习、神经网络、专家系统.
+　　　　　周志华，男，1973年11月生，博士研究生，主要研究领域为机器学习、神经网络、　　　　　　数据挖掘.
+　　　　　姜远，女，1976年5月生，硕士研究生，主要研究领域为机器学习、专家系统.
+　　　　　陈世福，男，1938年10月生，教授，博士生导师，主要研究领域为知识工程、机器　　　　　　学习、图像处理、分布式人工智能.
+作者单位：陈兆乾（南京大学计算机软件新技术国家重点实验室　南京　210093）
+　　　　　周志华（南京大学计算机软件新技术国家重点实验室　南京　210093）
+　　　　　姜远（南京大学计算机软件新技术国家重点实验室　南京　210093）
+　　　　　陈世福（南京大学计算机软件新技术国家重点实验室　南京　210093）
+参考文献：
+［1］Mooney R, Ourston D. A multistrategy approach to the theory refinement. In: Proc of the Int'l Workshop on Machine Learning. Harper's Ferry, WV, 1991. 115～130
+［2］Towell G G, Shavlik J W, Noordewier M O. Refinement of approximately correct domain theories by knowledge-based neural networks. In: Proc of the Eighth National Conf on Artificial Intelligence. Boston: AAAI Press, 1990. 861～866
+［3］陈兆乾, 刘宏等. 一种混合型多概念获取算法HMCAP及其应用. 计算机学报,1996,19(10): 753～761
+　　　(Chen Zhaoqian, Liu Hong et al. A hybrid algorithm for multi-concept acquisition and its application. Chinese Journal of Computers (in Chinese), 1996, 19(10): 753～761)
+［4］陈兆乾, 周戎等. 一种新的自适应谐振算法FTART. 软件学报,1996,7(8): 458～465
+　　　(Chen Zhaoqian, Zhou Rong et al. A new adaptive resonance theory algorithm. Journal of Software (in Chinese), 1996, 7(8): 458～465)
+［5］陈兆乾, 李红兵等. 对FTART算法的研究及改进. 软件学报,1997,8(4): 259～265
+　　　(Chen Zhaoqian, Li Hongbing  et al . Analysis and improvement of FTART algorithm. Journal of Software (in Chinese), 1997, 8(4): 259～265)
+［6］Schlimmer J C, Fisher D. A Case study of incremental concept induction. In: Proc of the Fifth National Conf on Artificial Intelligence. Los Altos, CA: Morgan Kaufmann, 1986. 496～501
+［7］Utgoff P E. Incremental induction of decision trees. Machine Learning, 1989,65(4): 161～186
+［8］陈兆乾, 周志华等. 混合型学习模型HLM中的增量学习算法. 软件学报, 1997, 8(11): 875～880
+　　　(Chen Zhaoqian, Zhou Zhihua  et al . The incremental learning algorithm in hybrid learning model HLM. Journal of Software (in Chinese), 1997, 8(11): 875～880)
+［9］周志华, 陈兆乾等. IHMCAP算法对噪音数据的处理. 清华大学学报(自然科学版), 1998, 38(S2): 118～122
+　　　(Zhou Zhihua, Chen Zhaoqian  et al . The noisy data disposal by IHMCAP algorithm. Journal of Tsinghua University (Natural Science Version)(in Chinese), 1998, 38(S2): 118～122)
+［10］何佳洲, 周志华等. 基于IHMCAP算法的一个故障诊断模型. 见：1998年中国智能自动化学术会议论文集.上海：中国自动化学会智能自动化专业委员会,1998. 969～974
+　　　(He Jiazhou, Zhou Zhihua  et al . A fault diagnosis model based on IHMCAP algorithm. In: Proc of the CIAC'98 (in Chinese). Shanghai: Intelligent Automation Committee of Chinese Society of Automation, 1998. 969～974)
+收稿日期：1998-03-30
+修稿日期：1999-02-10

@@ -1,0 +1,291 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第2期　Vol.19　No.2　1999
+
+
+
+不同状态NiCrAlY涂层组织结构的研究
+汝继来　王仁智
+摘要： 对DD2镍基单晶材料表面上采用阴极电弧镀(APD)方法获得NiCrAlY防护涂层的原始涂层、扩散处理涂层、塑变涂层以及塑变后时效处理涂层等的表面与内部的相结构进行了试验研究。结果表明，厚度约130μm的涂层中主要由Ni3Al基体(有序或无序)、简单立方NiAl和Cr三种物相构成，但不同状态的涂层由不同的相结构组成，且沿着涂层深度有着各自不同的分布；塑变使扩散处理析出的NiAl新相又发生回溶，而在高温(1100℃)下对塑变涂层时效处理后，NiAl相又重新析出。
+关键词： 抗氧化涂层； 物相分析； 相转变； 表面形变处理
+中图分类号： TG174.452　　　文献标识码：A　　文章编号：1005-5053(1999)02-0027-08
+Investigation on the microstructure of NiCrAlY
+deposition with different conditions
+RU Ji-lai　　WANG Ren-zhi
+(Institute of Aeronautical Materials， Beijing 100095， China)
+Abstract： NiCrAlY deposition produced by Arc Plasma Deposition was used to protect DD2, a nickel based single crystal materials, from high temperature oxdidation. The surface and inner phase analysis of the deposition with different states including original, diffused, plastic deformation and aged after plastic deformation have been investigated. It has been showed that the main phases within NiCrAlY deposition with the depth of 130μm are Ni3Al matric (ordered or non-ordered structure), NiAl and Cr, but the phase composition are different for different states. It has also been pointed out that the new phase NiAl precipitated during diffused treatment can be soluted by plastic deformation, while NiAl can be precipitated again from the plastic deformed deposition ageing at 1100℃.
+Key words: oxidation resistant deposition； phase analysis； phase transformation； surface plastic deformation treatment
+
+　　采用表面防护涂层是改善高温部件抗氧化性能的有效措施之一。本试验采用阴极电弧镀(APD)方法，在DD2镍基单晶基体材料表面涂上厚约130μm的NiCrAlY涂层。这种涂层的抗高温氧化性能取决于涂层的组织结构和涂层的致密度［1］，因此应对不同状态涂层的相结构和组织结构进行系统的研究。本试验将对以下几种状态涂层的相结构进行试验研究：
+　　(1)原始涂层(阴极电弧镀后不经任何处理)；
+　　(2)扩散处理涂层，简称扩散涂层(阴极电弧镀后经870℃，1h扩散处理)；
+　　(3)塑变涂层(对扩散处理涂层进行表面喷丸形变处理)；
+　　(4)塑变与时效涂层(对喷丸形变涂层进行时效处理)。
+1　材料与试验方法
+1.1　材料
+　　基体材料采用DD2镍基单晶，防护涂层为NiCrAlY，其主要化学成份分别列于表1和表2。
+
+表1　DD2镍基单晶高温合金的主要化学成份，wt%
+Table 1　Main chemical compositions of DD2 nicklw base single crystal superalloy，wt%
+
+CrCoWMoTaTiNi
+～8～10～6～0.5～6～1Remain
+
+　
+表2　NiCrAlY涂层的化学成份，wt%
+Table 2　Chemical compositions of NiCrAlY coating，wt%
+
+NiCrAlY
+66.9～69.922～238～100.1～0.3
+
+　
+1.2　X射线结构分析方法
+　　在D/max～2400型Rigaku X-Ray衍射仪上进行各种涂层的物相测定与分析。
+1.3　喷丸形变处理方法
+　　在气动式喷丸机内对扩散处理涂层进行喷丸(SP)形变处理，采用的弹丸直径为0.15～0.25mm。采用不使涂层脱落的适宜的喷丸强度对涂层进行塑变处理。
+2　试验结果与讨论
+　　表3列出了原始涂层表面与不同深度上的相结构。
+
+表3　原始涂层的表面与不同深度上的相结构
+Table 3　The phase structures in the original coating at different depths
+
+NSP-ND-0μmNSP-ND-20μmNSP-ND-50μmNSP-ND-80μmNSP-ND-130μm
+d(hkl)d(hkl)d(hkl)d(hkl)d(hkl)
+3.5701Ni3Al (100)3.5617Ni3Al (100)2.0616Ni3Al (111)2.0616Ni3Al (111)2.0697Ni3Al (111)
+2.5433Ni3Al (110)2.5280Ni3Al (110)1.7853Ni3Al (200)1.7860Ni3Al (200)1.7984Ni3Al (200)
+2.0643Ni3Al (111)2.0643Ni3Al (111)1.4427Cr (200)1.4439Cr (200)1.4305Cr (200)
+2.0343Cr (110)2.0343Cr (110)1.2613Ni3Al (220)1.2613Ni3Al (220)1.2627Ni3Al (220)
+1.7873Ni3Al (200)
+1.7847
+Ni3Al (200)
+1.1765
+Cr (211)
+1.1755
+Cr (211)
+1.1746
+Cr (211)
+
+1.4423
+Cr (200)
+1.4431
+Cr (200)
+1.0750
+Ni3Al (311)
+1.0750
+Ni3Al (311)
+1.0798
+Ni3Al (311)
+
+1.2613
+Ni3Al (220)
+1.2599
+Ni3Al (220)
+1.0290
+Ni3Al (222)
+1.0310
+Ni3Al (222)
+1.0344
+Ni3Al (222)
+
+1.1765
+Cr (211)
+1.1767
+Cr (211)
+0.9113
+Cr (310)
+0.9112
+Cr (310)
+0.9080
+Cr (310)
+
+1.0761Ni3Al (311)1.0759Ni3Al (311)
+1.0305Ni3Al (222)1.0302Ni3Al (222)
+0.9118Cr (310)0.9103Cr (310)
+
+　
+　　原始涂层的厚度为130μm。在涂层开始沉积时，涂层中只形成两个相：Ni3Al相和Cr相。由于沉积速率的影响，基体中的一部分形成无序Ni3Al面心立方晶体相(γ)(见表3中第4、5列，图1(c)和(d))，而基体的另一部分在衍射角2θ20°附近给出无定形散射峰(图1(c)和(d))的为非(微)晶态Ni3Al相。随着沉积厚度的增加并达到约100μm厚时，非(微)晶态Ni3Al相消失(表3中第1、2、3列，图1, (a)和(b))，这时生成的Ni3Al基体相为有序相，衍射谱线中出现了超点阵线(100)、(110)、等(表3中第1、2列)。外表层(～20)内由有序的Ni3Al相(γ′)和Cr相构成。
+
+
+
+
+图1　原始组织(～130)不同深度上的X射线衍射谱线：
+Fig.1　(200)diffraction lines at different depths of original coating
+(a)0μm;(b)50μm;(c)80μm;(d)130μm
+
+　　原始涂层经870℃(1h)扩散处理后(即扩散处理涂层)，不同深度上的相结构发生以下变化(表4)。首先，在整个涂层深度范围内Ni3Al基体全部转变为有序相。其次，在深度约为35μm的表层范围内出现了简单立方NiAl相的析出，而超过45μm深度后不再有NiAl相的析出。扩散处理似乎对Cr相的分布无明显影响，它存在于整个涂层深度范围内。
+
+表4　扩散涂层表面与不同深度上的相结构
+Table 4　The phase structures in the diffusion coating at different depths
+
+NSPNSP-16μmNSP-33μmNSP-44μmNSP-67μm
+d(hkl)d(hkl)d(hkl)d(hkl)d(hkl)
+3.5871Ni3Al (100)3.5871Ni3Al (100)3.5814Ni3Al (100)3.5786Ni3Al (100)3.5871Ni3Al (100)
+2.8988NiAl (100)2.8806NiAl (100)2.8842NiAl (100)2.5294Ni3Al (110)2.5322Ni3Al (110)
+2.5335Ni3Al (110)2.5349Ni3Al (110)2.5322Ni3Al (110)2.0652Ni3Al (111)2.0670Ni3Al (111)
+2.0679
+Ni3Al (111)
+2.0688
+Ni3Al (111)
+2.0661
+Ni3Al (111)
+2.0386
+Cr (110)
+NiAl (110)2.0413
+Cr (110)
+
+2.0413
+Cr (110)
+NiAl (100)2.0421
+Cr (110)
+NiAl (110)2.0404
+Cr (110)
+NiAl (110)1.7873
+Ni3Al (200)
+1.7892
+Ni3Al (200)
+
+1.7873
+Ni3Al (200)
+1.7905
+Ni3Al (200)
+1.7886
+Ni3Al (200)
+1.5989
+Ni3Al (210)
+1.5999
+Ni3Al (210)
+
+1.6004Ni3Al (210)1.6009Ni3Al (210)1.5999Ni3Al (210)1.4593Ni3Al (211)1.4605Ni3Al (211)
+1.4609
+Ni3Al (211)
+1.4613
+Ni3Al (211)
+1.4601
+Ni3Al (211)
+1.4411
+Cr (200)
+NiAl (200)1.4419
+Cr (200)
+
+1.4419
+Cr (200)
+NiAl (200)1.4427
+Cr (200)
+1.4419
+Cr (200)
+NiAl (200)1.2639
+Ni3Al (200)
+1.2645
+Ni3Al (200)
+
+1.2646
+Ni3Al (200)
+1.2650
+Ni3Al (220)
+1.2645
+Ni3Al (220)
+1.1765
+Cr (211)
+NiAl (211)1.1769
+Cr (211)
+
+1.1769
+Cr (211)
+NiAl (211)1.1772
+Cr (211)
+NiAl (211)1.1767
+Cr (211)
+NiAl (211)1.0777
+Ni3Al (311)
+1.0781
+Ni3Al (311)
+
+1.0783Ni3Al (311)1.0785Ni3Al (311)1.0779Ni3Al (311)1.0320Ni3Al (222)1.0321Ni3Al (222)
+1.0325Ni3Al (222)1.0326Ni3Al (222)1.0321Ni3Al (222)1.0188Cr (220)1.0191Cr (220)
+1.0188Cr (220)1.0191Cr (220)1.0192Cr (220)0.9556NiAl (300)0.9114Cr (310)
+0.9129Cr (310)0.9558NiAl (300)0.9558NiAl (300)0.9112Cr (310)0.8937Ni3Al (400)
+0.8938Ni3Al (400)0.9115Cr (310)0.9116Cr (310)0.8932Ni3Al (400)0.8321Cr (222)
+0.8318Cr (222)0.8939Ni3Al (400)0.8935Ni3Al (400)0.8321Cr (222)
+　　0.8318Cr (222)0.8318Cr (222)
+　　0.8203Ni3Al (331)
+
+　
+　　表5为扩散处理涂层经喷丸形变处理后外表面层(～10μm)的相结构测定结果。喷丸过程是使涂层承受循环塑性变形的过程，循环塑性变形使扩散处理涂层中的物相结构发生重大变化。首先，NiAl相在强烈的塑变过程中已全部回溶到Ni3Al基体中；其次，塑变使有序相Ni3Al转变为无序相，但塑变不影响Cr相的形态和分布。
+
+表5　喷丸形变涂层的物相分析结果
+Table 5　The phase structures on the plastic deformed surface layes
+
+NoMeasurement
+resultsAnalysis results
+Ni3AlCr
+　d (A)Id (A)I(hkl)(hkl)I(hkl)
+12.0771002.077100(111)
+22.04367　　　2.039100(110)
+31.809241.79970(200)
+41.44410　　　1.44116(200)
+51.272431.26560(220)
+61.17923　　　1.17730(211)
+71.08411.07860(311)
+81.03731.03240(222)
+91.02164　　　1.01918(220)
+100.91365　　　0.91220(310)
+110.834012　　　0.8326(222)
+120.824580.81970(331)
+
+　
+
+　　表6为喷丸形变涂层的相结构在时效过程中的变化。首先，随着时效温度的增高，形变Ni3Al的有序度逐渐增高，时效温度升至500℃时，形变无序Ni3Al相完全转变成有序Ni3Al相(表6)。由500℃至1000℃的时效温度范围内，涂层的相结构基本保持不变，即由有序Ni3Al与Cr相构成。当时效温度升至1100℃时，NiAl相开始析出，并且为有序相(表6)。
+　　根据表3～6和图1的试验结果，可以勾画出不同状态涂层的相结构沿深度的分布，如图2和图3所示。由此可见，原始涂层经870℃扩散处理后，表层析出有序的NiAl相，该相具有高的抗氧化性。塑变又使NiAl相回溶到Ni3Al基体中，但在1100℃下对形变涂层进行时效处理时，又重新析出NiAl有序相。如涂层的最终工艺为：扩散处理+形变处理+时效处理(1100℃)，则在45μm深度内涂层的相结构由Ni3Al有序基体+NiAl有序相+Cr相构成。是否在整个深度上均有NiAl相的析出，尚有待试验证实。无疑，NiAl相在时效中的析出，有利于涂层抗氧化性能的提高。
+表6　喷丸形变涂层经时效处理后的表层相结构
+Table 6　The changes of phase structures in plastic deformed coating with temperature
+SPSP+500℃SP+600℃SP+800℃SP+1000℃SP+1100℃
+d(hkl)d(hkl)d(hkl)d(hkl)d(hkl)d(hkl)
+2.0742Ni3Al(111)3.5814Ni3Al(100)3.5814Ni3Al(100)3.5786Ni3Al(100)3.5786Ni3Al(100)3.5786Ni3Al(100)
+2.0456Cr (110)2.5294Ni3Al(110)2.5280Ni3Al(110)2.5280Ni3Al(110)2.5294Ni3Al(110)2.8697NiAl(100)
+1.8024Ni3Al(200)2.0652Ni3Al(111)2.0643Ni3Al(111)2.0643Ni3Al(111)2.0652Ni3Al(111)2.5294Ni3Al(110)
+1.4451Cr(200)2.0404Cr(110)2.0413Cr(110)2.0413Cr(110)2.0395Cr (110)2.0652Ni3Al(111)
+1.2688Ni3Al(220)1.7873Ni3Al(200)1.7873Ni3Al(200)1.7873Ni3Al(200)1.7879Ni3Al(200)2.0386Cr (110)
+NiAl(110)
+1.1800Cr (211)1.5979Ni3Al(210)1.5984Ni3Al(210)1.5984Ni3Al(210)1.5989Ni3Al(210)1.7873Ni3Al(200)
+1.0844Ni3Al(311)1.4585Ni3Al(211)1.4585Ni3Al(211)1.4589Ni3Al(211)1.4597Ni3Al(211)1.6565NiAl(111)
+1.0359Ni3Al(222)1.4427Cr (200)1.4427Cr (200)1.4427Cr (200)1.4415Cr (200)1.5989Ni3Al(210)
+1.0219Cr (220)1.2636Ni3Al(220)1.2630Ni3Al(220)1.2630Ni3Al(220)1.2639Ni3Al(220)1.4597Ni3Al(211)
+0.9134Cr (310)1.1779Cr (211)1.1772Cr (211)1.1897　1.1767Cr (211)1.4415Cr (200)
+0.8342Cr (222)1.0774Ni3Al(311)1.0768Ni3Al(311)1.1774Cr (211)1.0777Ni3Al(311)1.2636Ni3Al(220)
+0.8227Ni3Al(331)1.0309Ni3Al(222)1.0310Ni3Al(222)1.0770Ni3Al(311)1.0318Ni3Al(222)1.1765Cr (211)
+　　1.0192Cr (220)1.0191Cr (220)1.0310Ni3Al(222)1.0189Cr (220)1.1708NiAl(211)
+　　0.9125Cr (310)0.9120Cr (310)1.0194Cr (220)0.9112Cr (310)1.0774Ni3Al(311)
+　　0.8932Ni3Al(400)0.8922Ni3Al(400)0.9123Cr (310)0.8938Ni3Al(400)1.0318Ni3Al(222)
+　　0.8322Cr (222)0.8321Cr (222)0.8923Ni3Al(400)0.8315Cr (222)1.0189Cr (220)
+　　0.8200Ni3Al(331)0.8199Ni3Al(331)0.8323Cr (222)0.8200Ni3Al(331)0.9550NiAl(300)
+　　　　　　0.8197Ni3Al(331)　　0.9154Cr (310)
+　　　　　　　　　　0.9108NiAl(310)
+　　　　　　　　　　0.8932Ni3Al(400)
+　　　　　　　　　　0.8318Cr (222)
+　　　　　　　　　　0.8198Ni3Al(331)
+　
+
+
+
+图2　原始涂层、扩散涂层、喷丸形变涂层内的物相结构及其沿深度的分布
+Fig.2　The phase structures of original coating,diffusion coating and shot peening
+induced plastic deformed coating and their distribution along the depths
+
+图3　喷丸形变涂层经不同温度(1h)时效处理后表层(～10μm)的物相结构
+Fig.3　The changes of the phase structures on the surface layer (～10 μm)
+of plastic deformed coating with temperature (1h)
+
+3　结　论
+　　用阴极电弧镀(APD)方法获得的NiCrAlY涂层，其原始涂层与后期经不同处理的涂层，其中的相组成及沿深度的分布各不相同。
+　　(1)原始涂层的相组成及其沿涂层深度的分布为：有序Ni3Al+Cr→无序Ni3Al+Cr→无序Ni3Al+多量非(微)晶态Ni3Al+Cr→无序Ni3Al+少量非(微)晶态Ni3Al+Cr→界面。
+　　(2)扩散处理涂层的相组成及其沿涂层深度的分布：有序Ni3Al+NiAl+Cr→有序Ni3Al+少量NiAl+Cr→有序Ni3Al+Cr→界面。
+　　(3)喷丸形变涂层的相组成及其沿涂层深度的分布为：无序Ni3Al+Cr→有序Ni3Al+Cr→界面。
+　　(4)喷丸形变涂层经时效处理的表层相组成为：
+　　①经500℃至1000℃时效处理表层的相组成为：有序Ni3Al+Cr
+　　②经1100℃时效处理表层的相组成为：有序Ni3Al+NiAl+Cr
+作者简介： 汝继来(1962-)， 男， 硕士， 高级工程师
+作者单位：北京航空材料研究院， 北京　100095
+参考文献：
+[1］　汝继来、王仁智.循环塑性变形对NiCrAlY涂层的组织结构与密度影响的研究，中国表面工
+　　　程，1998，11：3
+收稿日期： 1998-10-2； 修订日期： 1999-01-20

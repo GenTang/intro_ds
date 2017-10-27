@@ -1,0 +1,128 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+DD402单晶合金及其Ⅰ级单晶
+涡轮叶片的组织稳定性
+燕　平　单　熙　赵京晨　师燕渝　黄乾尧　孙家华　何继绥
+
+摘要： 对DD402(CMSX-2)单晶合金标准热处理状态组织及850℃下500h时效、1500h时效和3000h时效后的组织进行了显微组织观察和比较，测定了长期时效后的高温持久性能，并检查了拉断后试棒的显微组织。DD402单晶合金的应用对象是某涡轴发动机Ⅰ级涡轮叶片，解剖分析了经800h考核试车后的叶片组织。结果表明，在本文试验范围内，试样及叶片组织中均未发现TCP相，γ′形态稳定，仅在一定时间的高温和足够高的应力综合作用下，γ′才发生筏形变化。
+关键词： 单晶高温合金； 单晶涡轮叶片； 组织稳定性； DD402
+中图分类号： TG113.12　　文献标识码：A　　　文章编号： 1005-5053(1999)01-0006-07
+
+Microstructural stability of single crystal superalloy
+DD402 and its 1st stage turbine blades
+YAN Ping　　SHAN Xi　　ZHAO Jing-chen　　SHI Yan-yu
+HUANG Qian-yao　　SUN Jia-hua　　HE Ji-sui
+(1.Central Iron and Steel Research Institute, Beijing 100081, China;2.South China National Aeromotive Company, Zhuzhou 412002， China)
+Abstract： The microstructure was inspected and compared for DD402 single crystal superalloy under different conditions:standard heat treatment,850℃/500h aging,850℃/1500h aging and 850℃/3000h aging.The high temperature stress-rupture properties for the specimens after long time aging and the microstructure of the ruptured specimens were examined.Also,the microstructure of DD402 single crystal turbine blade was analyzed after 800h engine test.The results showed that there was no TCP phase in the microstructure either in the long time aging specimens or in the tested blades and the shape of γ′ was stable.The γ′ rafts formed just under a certain time with combinative effect of high temperature and sufficient stress.
+Key words: single crystal superalloy; single crystal turbine blade; microstructural stability; DD402
+　　DD402单晶合金属于第一代单晶合金，已经成功地应用于某发动机的Ⅰ级涡轮叶片［1］。为使我国航空发动机赶上世界先进发动机的水平，钢铁研究总院和南方航空动力机械公司共同开展了DD402单晶合金及其Ⅰ级单晶涡轮叶片的研制工作。目前，叶片已通过800h考核试车，正在参加试飞。因为动叶材料的组织稳定性直接影响发动机的可靠性和寿命，本文所进行的合金组织稳定性研究是整个项目中的重要内容。对DD402单晶合金的组织与性能的研究较多［2～6］，但对其组织稳定性，特别是对试车叶片的解剖分析研究尚未见报道。为此，本文用试样无应力长期时效的方法，并直接解剖分析了经800h试车后的叶片组织，以获得对DD402单晶合金组织稳定性的准确认识。
+1　试验方法
+　　用IS5Ⅲ型真空感应炉熔炼DD402母合金，其化学成分(wt%)为：Al5.56,Co4.66,Cr7.90,　Mo0.55,Ta5.89,　Ti1.03,W7.86,Ni余量。采用螺旋选晶法拉制［001］取向的单晶试棒和单晶叶片。试样和叶片的热处理制度为：1315℃/3h，空冷+1080℃/6h，空冷+870℃/20h，空冷(以下称标准热处理)。对经标准热处理后的试样分别进行850℃下保温500h，1500h和3000h的长期时效。试样尺寸为φ14mm×15mm和φ14mm×70mm。前者直以上试验毕竟与真正的叶片工作状况不同，所以本研究解剖了经800h考核试车后的单晶叶片。解剖是沿叶片纵向，即［001］方向。考查在叶片不同高度上的组织变化，其结果反映了DD402合金单晶叶片在发动机工作条件下的长期组织变化情况。
+2　试验结果与分析
+2.1　长期时效后的显微组织
+　　DD402单晶合金在铸态下有少量γ/γ′共晶和碳化物，经标准热处理后的组织由体积百分数为68.89%，尺寸为0.35～0.6μm的γ′及约30%的γ基体组成(图1a)。图1b，c,d为850℃长期时效后的显微组织。单晶合金的组织稳定性包括是否出现TCP相及γ′相的变化，本试验所有金相检查中均未发现TCP有害相，而对于DD402单晶合金，其组织稳定性问题只涉及γ′相的稳定性。由图1看出，500h时效后，γ′保持了原貌；1500h时效后，γ′的大小基本未变，仍基本保持了立方形态；而3000h时效后，γ′则有些长大，原立方形的尖角稍许有些圆化。综上所述，即使在850℃经3000h无应力长期时效后，DD402合金组织中未出现TCP相，立方形γ′无明显变化，合金有很好的组织稳定性。
+
+
+图1　DD402单晶合金长期时效后的显微组织
+　　　　　　　　　　　　　　　　(a)标准热处理；
+　　　　　　　　　　　　　　　　(b)标准热处理+850℃/500h时效；
+　　　　　　　　　　　　　　　　(c)标准热处理+850℃/1500h时效；
+　　　　　　　　　　　　　　　　(d)标准热处理+850℃/3000h时效
+Fig.1　Microstructure of the alloy after long time aged
+　　　　　　　　　　　　　　(a)standard heat treatment；
+　　　　　　　　　　　　　　(b)standard heat treatment+850℃/500h aged；
+　　　　　　　　　　　　　　(c)standard heat treatment+850℃/1500h aged；
+　　　　　　　　　　　　　　(d)standard heat treatment+850℃/3000h aged
+2.2　长期时效后的持久性能及拉断试样的组织
+　　表1列出了经850℃不同时间时效后的持久性能。由表可知，随着时效时间的延长，2个制度的持久性能均在500h时效时最高，随着时效时间的继续延长，持久性能有所下降，但即使长达3000h时效后的性能仍高于技术条件要求。这与组织的变化是一致的，表明γ′相的粗化有损于合金的持久寿命。但从性能下降的程度看，DD402合金组织具有足够的长期稳定性。
+表1　长期时效对合金持久性能的影响
+Table 1　Effect of long time aging on the stress-rupture properties of the alloy
+
+ConditionLife of stress-rupture/h
+(980℃/260MPa)Life of stress-rupture/h
+(760℃/780MPa)
+Specification≥30≥30
+Standard heat treatment72.4506.7
+Standard heat treatment+850℃/500h aged119.9512.9
+Standard heat treatment+850℃/1500h aged66.4309.4
+Standard heat treatment+850℃/3000h aged57.1283.3
+
+
+　　对拉断的持久试样在靠近断口处做纵向(平行于［001］方向)解剖后的金相检查(图2、图3)发现，对于经不同时间长期时效的试样，760℃/780MPa持久拉断后组织中γ′仍保持立方形态(图2)，而所有980℃/260MPa持久拉断试样上均出现了γ′的筏形转变(图3)。
+
+
+图2　长期时效后760℃/780MPa持久拉断试样组织
+(a)850℃/500h时效； (b)850℃/3000h时效
+Fig.2　Microstructure of the ruptured specimens(760℃/780MPa) after long time aged
+(a)850℃/500h aged; (b)850℃/3000h aged
+
+图3　长期时效后980℃/260MPa持久拉断试样组织
+(a)850℃/500h时效；(b)850℃/3000h时效
+Fig.3　Microstructure of the ruptured specimens(980℃/260MPa)
+(a)850℃/500h aged;(b)850℃/3000h aged
+
+　　这种γ′的筏形化最初是由Tien［7］等人在单晶合金研究中发现的，后又经很多研究者的广泛研究，现在已经对γ′筏形化的形成过程以及各种因素的影响有了一定的认识［8～11］。γ′筏形化的实质是在应力作用下的扩散过程。实现此过程的必要条件是足够高的温度同时受到一定的单向外加载荷。单晶的受力温度越高，γ′筏形化速度越快；在一定温度下，应力越大，γ′的筏形化速率也越快。对于DD402这种γ/γ′负错配型单晶合金，在高温拉伸载荷下，立方形γ′将沿垂直于外力方向粗化。在本试验中，不论拉伸前的初始组织怎样，在持久拉伸的温度不太高时(760℃)，直至拉断，γ′都不会发生筏形化，这是由于此温度还不足以造成显著的原子扩散。而在980℃下，尽管试样仅50多小时即拉断，而其γ′已形成完善的筏形组织，说明其原子扩散过程进行充分，导致γ′筏形化速度很快。另外，对比不同时效时间经980℃拉断试样的组织，未发现γ′沿外应力方向(平行于［001］)的粗化。说明DD402单晶合金在高温拉伸载荷下，γ′沿垂直于应力轴方向粗化时，其厚度变化很小。这一点与其他单晶合金的研究结果也是一致的［12，13］。关于DD402单晶合金的γ′筏形化专门的机理性研究，将另文发表［14］。
+2.3　试车后叶片解剖分析
+　　经过800h试车的整体Ⅰ级涡轮如图4所示。解剖叶片的观察部位如图5所示。图6为800h试车后叶片的显微组织。从各部位的显微组织可以看出，由于叶片各部位的工作温度及所受应力水平的不同，显微组织存在显著差异。在叶身高2/3处，γ′已发生了明显的筏形化转变。距此位置越远，γ′变化越小。叶尖处γ′稍有长大，在叶根处立方形γ′几乎未发生变化。另外，试车后的叶片上也未发现TCP相。
+　　根据γ′筏形化的机理，以上现象可以这样解释，在叶片高2/3处的温度很高，并受很大的单向拉应力，形成了有利于元素单向扩散、γ′定向粗化的条件，最终导致了γ′的筏形化。叶尖处虽然温度很高，但受力较小，类似于无应力时效条件，所以γ′只是略有粗化，未发生筏形化。叶根及榫头处受力很大，但温度相对较低，也不会使γ′筏形化。由试车叶片的组织分析得知，DD402单晶合金具有充分的组织稳定性。
+　　　　　　　　　　　　　　　　　　　　　　
+　　　　图4　800h试车后的Ⅰ级涡轮　　　　　　　　　　　图5　叶片解剖取样部位
+Fig.4　1st stage turbine assembly-DD402　　　　Fig.5　Sketch of the microstructural 　　　　blades after 800h engine test　　　　　position on the tested blade analysis
+
+
+
+图6　800h试车后叶片各部位(图5)的组织
+Fig.6　Microstructure of the different positions(Fig.5) on the tested blade after 800h engine test
+(a)position a;(b)position b;(c)position Ⅱ;(d)position c;(e)position d;(f)position Ⅲ
+
+3　结　论
+　　(1)DD402单晶合金经850℃/3000h长期时效及其单晶叶片经800h试车后的组织中均未发现TCP有害相。
+　　(2)DD402单晶合金经850℃/3000h长期时效后，γ′稍有长大，合金的持久性能略有下降，但仍然能达到技术要求。
+　　(3)对持久拉断试样的组织检查得知，中温(760℃)持久拉伸后γ′保持立方形貌；高温(980℃)持久拉伸会造成γ′发生筏形变化。
+　　(4)由试车后单晶叶片的解剖分析可知，只有在温度高、受力大的叶身高2/3部位附近，γ′形成了筏排组织，其他部位的组织基本没有发生变化。
+　　(5)DD402单晶合金具有充分的组织稳定性。
+作者简介： 燕平(1951-)， 男， 硕士， 高级工程师接做组织检验，后者加工试棒检测持久性能，并检查拉断试棒的显微组织变化。
+作者单位：燕平、单熙、赵京晨、师燕渝、黄乾尧、孙家华：钢铁研究总院五室，北京　　　　　　　　　100081； 
+　　　　　何继绥：中国南方航空动力机械公司， 湖南　株州　412002
+参考文献：
+［1］Khan T,Caron P,Fourier D,et al.Single crystal superalloy for turbine 
+　　　blades:characterization and optimization of CMSX-2 alloy.11th Symposium:Steel 
+　　　＆ Spesial Alloys for Aerospace,Paris Air Show Le Bourget,1985
+［2］Khan T,Caron P.Effect of processing conditions and heat treatment on mechanical 
+　　　properties of single crystal superalloy CMSX-2.Materials Science and 
+　　　Technology,1986,2(5):486～492
+［3］Khan T,Caron P,Nakagawa Y G.Some aspects of mechanical behaviour and 
+　　　processing in DS & single crystal superalloys.Journal of Metals,1986(7):16～19
+［4］Caron P,Khan T.Improvement of creep strength in a Ni-base single crystal 
+　　　superalloy by heat treatment.Materials Science and Engineering,1983,61:173～
+　　　184
+［5］Caron P,Ohta Y,Nakagawa Y G,et al.Creep deformation anisotropy in single 
+　　　crystal superalloy.Superalloys,1988,215～224
+［6］Foster S M,Nielsen T A,Nagy P.Enhanced rupture properties in advanced single 
+　　　crystal alloys.Superalloys,1988,245～254
+［7］Tien J K,Copley S M.The effect of uniaxial stress on the periodic morphology 
+　　　　of coherent gamma prime precipitates in nickel-base superalloy single 
+　　　　crystals.Metall Trans,1971,2:215～219
+［8］Khan T.High temperature alloys for gas turbine and other applications 
+　　　　1986.Betz W,ed.Holland:D Reidel Publishing Company,1986.21～50
+［9］Mackay R A,Ebert L J.The development of γ′/γ lamellar structures in a 
+　　　nickel-base superalloy during elevated temperature mechanical testing.Metall 
+　　　Trans,1985,16A:1969～1982
+［10］Mackay R A,Nathal M V.NASA TM-88788,National Technical Information 
+　　　Services,Springfield,VA,1986,1～37
+［11］郭喜平，傅恒志，孙家华.单晶高温合金中γ′筏形组织的形成及转动.金属学报，
+　　　1994，30(7)：A321～A326
+［12］Nathal M V,Ebert L J.The Influence of cobalt,tantalum and tungsten on the 
+　　　elevated temperature mechanical properties of single crystal nickel-base 
+　　　superalloys.Metall Trans,1985,16A:1863～1870
+［13］Pollock T M,Argon A S.Directional coarsening in nickel-base single crystals 
+　　　with high volume fractions of coherent precipitates.Acta Metall Mater,1994,42
+　　　(6):1859～1874
+［14］彭志方，任遥遥，樊宝珍等.镍基单晶高温合金CMSX-2持久拉伸的显微形态及力学行为.金
+　　　属学报，待发表
+
+　收稿日期： 1998-12-22

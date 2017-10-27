@@ -1,0 +1,34 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.2 P.29-32
+
+
+
+
+FY-1C卫星高分辨率云图传输技术
+王金华　 刘廷贵　 侯爱吾　 
+摘　要：介绍了FY-1C星传输系统的任务、方案、主要技术指标和组成。系统采用极化隔离加带外频谱抑制的方法,达到了信道隔离的技术指标。概述了星载记录器由磁带记录器向固态记录器转变的技术因素以及磁带记录器、FLASH和DRAM固态记录器的研制过程。简述了传输系统在轨测试和运行状况。
+关键词：云图；分辨率；传输系统；信道隔离
+分类号：TN957.53　文献标识码：A
+文章编号：1006－1630(2001)02－0029－04
+The Technology for High Resolution Picture Transmission of FY-1C Satellite
+WANG Jin-hua（No.509 Institute of SAST, Shanghai 200240, China）　
+LIU Ting-gui（No.813 Institute of SAST, Shanghai 200086, China）　
+HOU Ai-wu（No.509 Institute of SAST, Shanghai 200240, China）　
+
+Abstract：The FY-1C satellite transmission system, including the mission, schem e, main specifications and system constitution is introduced. Polarization isola tion and limiting frequency spectrum outside bandwidth are adopted in order to a t tain channel isolation specification. The technological factors of satellite-bo r ne recorder that is changed from a magnetic tape recorder to a solid-state reco r der are summed. The manufacture processes of the magnetic tape recorder, the FLA SH and DRAM solid-state recorder are described. On-orbit testing and runni ng state of the transmission system is briefly introduced.
+Keywords：Cloud picture; Resolution; Transmission system; Channel isolation
+作者简介：王金华(1971-),男,工程师,研究领域:通信系统设计和测试。 
+作者单位：王金华（上海航天技术研究院509所，上海 200240）　
+　　　　　刘廷贵（上海航天技术研究院813所，上海 200086）　
+　　　　　侯爱吾（上海航天技术研究院509所，上海 200240）　
+
+参考文献：
+［1］吕洪生,杨新德,刘德军,等.实用卫星通信工程[M].成都:电子科技大学出版社,1994.58-59.
+［2］Rommey R K. Space data storage and technologies[J]. IEEE Trans. on Magn etics, 1994, 30（6）：4194-4199.
+［3］曹志刚,钱亚生.现代通信原理[M].北京:清华大学出版社,1992,207-213,257-2 62.
+［4］詹幸农,李秉常,张力余,等.星上固态记录技术的发展与我们的对策[J].遥测遥控, 1997,18(3):1-11.
+
+收稿日期：2000年10月13日
+修稿日期：2001年1月5日
+出版日期：2001年4月25日

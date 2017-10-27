@@ -1,0 +1,6 @@
+Transmeta这家鲜为人知的电脑芯片公司因推出两款为移动电脑设计的芯片而逐渐声名远扬。 
+
+　　其中一款TM5400可与传统的用于桌面电脑的芯片媲美，RAM为400kb，运行速度为700MHz。而另一款TM3120主要用于小型设备的网上浏览，RAM为100kb，运行速度为400MHz，并配有一个叫“Deep Sleep”的电源管理系统，据称，这一设置可以使机器数星期处于备用状态。
+
+　　Transmeta公司的主要成员有Linus Torvalds（LINUX的创始人）、总裁Dave Ditzel（SUN公司的前任首席设计师）、Paul Allen（微软创始人之一）、George Soros（金融家）。
+

@@ -1,0 +1,134 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+地下水中氮的表现形式及其污染的微生物控制
+赵　林　王榕树　林学
+摘要　论述了地下水环境中氮的表现形式及其对地下水污染的途径和特点，提出了利用人工诱变得到的高效除氮菌来进行地下环境除氮的理论和方法.通过模拟实验证明该方法是可行的，同时，对细菌除氮效率、影响因素及其变化规律进行了研究.对方法应用过程中有关问题进行了讨论.
+关键词　地下水； 氮； 人工细菌； 污染控制.
+Existing form of nitrogen and its pollution control by microorgnism in the groundwater
+ZHAO Lin,WANG Rongshu 
+(College of Chemical Engineering,Tianjin University,Tianjin 300072)
+LIN Xueyu (Changchun University of Science and Technology,Changchun 1300260
+Abstract　The existing form of nitrogen and its polluting pathways and charactercs in the groundwater environment were investigated.The theories and methods of denitrification in the underground environment,where the employed highly effecient denitrifers can be obtained by atificial inducement are presented.The method was verified to be feasible by modeling study.The denitrifying effectiveness and its affecting factors was studied and the application of the method was further discussed.
+Keywords　groundwater,existing forms of nitrogen,cultural denitrifers,pollution control.　　
+
+　　统计资料表明，地下水氮污染已是相当普遍的环境问题［1—4］，这一问题已引起了一些国家政府［2］和学者的高度重视，地下水体氮污染及其控制的研究成为当今国内外研究的热点［1—13］.本文从氮在地下水环境中所表现的形式入手，结合地下环境特点，采用驯化诱变的高效除氮菌进行地下环境除氮的实验研究，以探讨控制地下水氮污染的理论方法，同时，寻求含氮污水地下处理新途径.
+
+1　氮在地下水体环境中的表现形式
+　　地下水体环境中氮污染质的主要来源有：(1)农业活动(人畜粪便、化肥、农药的施用和污水灌溉等)；(2)城市工业和生活“三废”的随意排放等这些含氮物质经过土壤和包气带入渗到地下水体中，期间由于物理、化学和生物作用使其表现出不同的形式，概括起来主要以无机态氮的形式存在，即：NH4+－N、NO2-－N和NO3-－N;它们与环境(Eh、pH)间关系可通过理论计算获得.无机态氮即NH4+、NO2-、NO3-和NH3之间在水溶液中存在下列反应：
+NO2-+8H++6e-=NH4++2H2O
+(1)
+NO3-+2H++2e-=NO2-+H2O
+(2)
+NO3-+10H++8e-=NH4++3H2O
+(3)
+NO2-+7H++6e-=NH3+2H2O
+(4)
+NH4+=NH3+H+
+(5)
+根据它们在水溶液中的标准自由焓见表1.由能斯特方程及ΔGf0与E0的关系，可求得它们之间平衡时的关系式(标准状态和单位活度a=1时)：
+表1　不同形式氮在水溶液中的标准自由焓
+Table 1 Standard free enthalpy of different forms of nitrogen in water solution
+
+N的形式NH4+NO2-NO3-NH3H2O
+ΔGf0，kJ/mol-79.61-34.57-110.74-26.77-237.53
+
+Eh=897．0-78．78pH
+(1a)
+Eh=834．96-58．56pH
+(2a)
+Eh=881．57-73．85pH
+(3a)
+Eh=805．98-68．93pH
+(4a)
+pH≈9．3
+(5a)
+
+
+图1　无机态氮与EhpH关系分布图
+Fig．1 Distribution map of inorganic nitrogen related to pH and Eh
+　　以pH为横轴，Eh为纵轴，用式(1a)—(5a)的关系，并考虑天然潜水的分布［14］，作出图1.图1反映出了地下水环境中NH4+NO2-NO3-NH3与EhpH间的理论分布关系.
+　　氮经过土壤层进入包气带后，绝大部分转化成硝态氮，其转化的深度受环境影响有所不同，分别在地面以下80cm130cm170cm不等［9—11］.由此可见，地下水环境中氮的主要形式是硝态氮.这一点已被国内外众多学者对地下水水质研究结果所证实［1—4，9—11］.
+
+2　地下水环境系统中氮污染的微生物控制
+2.1　实验方法
+　　实验装置：为了模拟包气带入渗状态，选用土柱装置进行研究.其柱内径为15cm土体高度为45cm,分别为粉土(记为k)和细砂(记为s)，采用分层称重装填，均匀夯实到接近天然状态，每种介质以同样条件装成两个土柱，其中之一植入适于地下环境高效除氮菌G0.8*(该菌是经驯化和诱变获得，静态实验结果表明其适宜条件是：pH为6～8；溶解氧小于6mg/L时，除氮率达85%以上；温度适于地下环境温度(5—18℃)，植入细菌的两个土柱分别记为k1s1,未植细菌的土柱分别记为k2和s2，其中土柱特征参数见表2.
+表2　土柱特征参数
+Table 2 Feature and paramerers in soil columns
+
+　k1k2s1s2
+容重，g/cm31．5151．5151．4951．495
+孔隙度，%46．2645．6042．9644．85
+孔隙体积，cm33435．773386．752974．423105．28
+K,m/d0.210.199.148.02
+细菌G0.8无G0.8无
+
+　　实验过程：首先用自来水从下往上饱和土体，当水面达到土体顶面后，将G0.8菌液(密度为7.0×108个/mL)1.5L从柱顶面一次注入到k1s1柱内，停留48h后，用浓度为200mg/L的NO3-的配水(污水加KNO3配制而成)进行定水头连续渗透，定水头位于土柱顶面，水层厚5cm,相当于含NO3-N污水直接渗入包气带，或为含NH4+－N及有机氮等污水经过土壤层被转化为含NO3-N污水后渗入包气带情况的模拟，在柱底部取样并对其中的pHEhDONH4+NO2-NO3-温度、电导率、和渗水量等要素进行分析测试，当出水中的电导率和pH稳定一段时间后结束实验，实验历时20天.
+
+
+图2　s和k柱中除氮曲线
+Fig．2 Denitrification curves in the columns k and s
+2.2　结果分析与讨论
+2.2.1　除氮(在上述情况下为反硝化)效果及其变化规律　对数据进行整理作图见图2.从图中可以看出：在没有加入细菌的柱体渗出水中，NO3-浓度随着渗水量的增加而不断增大，但两柱增大的速度有所差异，其中粗粒介质(s2)增大的速率较细粒介质(k2)快些.原因之一是介质对NO3-吸附作用［12］，减少了NO3-的运移；其二是介质本身还有一定的反硝化作用使NO3-减少，在细粒介质中这两种作用都较粗粒介质强，因此造成了上述差异.这也是出水中的NO3-浓度未能达到入渗水值的原因.尽管如此，两种土柱出水中的NO3-浓度均都很快达到160mg/L以上，仍能使其下游水遭到NO3-的污染.相反，在植入了G0.8细菌的k1和s1柱的出水中，NO3-浓度在整个实验期间都维持在很低乃至零的程度.与k2和s2柱相比表明，人工植入G0.8细菌起到了很好的除氮作用.
+2.2.2　环境因素变化及其机理分析　从实验过程中环境因素(pHEhDO电导率和温度)曲线图(图3—7)中可以看出变化规律.　　
+
+
+图3　实验过程中pH变化曲线
+Fig．3 pH curves
+
+
+图4　实验过程中Eh变化曲线
+Fig．4 Eh curves
+　　s1柱：pH由实验开始的7.5逐渐下降，当达到一定渗水量时(连续入渗12天近7个孔隙体积)，基本稳定在6.7左右；Eh由实验开始的400mV,迅速下降到280mV,然后经波动后稳定在280mV;DO的变化是从开始时的7.5mg/L迅速下降，当实验进行5天渗水量达2.2个孔隙体积时，DO就接近零并一直维持到实验结束；电导率的变化经历了由小到大再到小，最后稳定在710μS/cm左右；实验过程中的温度主要是在4～15℃之间变化，接近或低于地下水的环境温度.
+
+　　k1柱中的环境变化规律与s1柱基本类似(图3—图7)，所不同的是曲线变幅有所差异，这也是由于介质颗粒不同所致.与s1和k1柱的环境因素变化规律相比，对应的未加菌的s2和k2柱的环境因素变化的差异有：pH、Eh和DO值偏高，而电导率偏低的特点(图3—图7)，产生的原因和机理主要有以下几种：
+
+
+图5　实验过程中DO变化曲线
+Fig．5 DO curves
+
+
+图6　实验过程中电导率变化曲线
+Fig．6 Electronic conductivity curves
+
+
+图7　实验过程中温度变化曲线
+Fig．7 Temperature curves
+　　(1)溶滤作用　随着污水的不断入渗，水岩发生相互作用，岩土中吸附的离子及易溶盐类通过解吸和溶解进入水中，引起水中离子强度加大而使电导率急剧增大；随着溶滤作用的进行，可溶盐逐渐减少，水中离子强度逐渐减弱，电导率呈缓慢下降，最后因离子强度达到动态平衡，电导率便趋于稳定.
+　　(2)有机质的氧化作用　污水中都含有不同程度的有机质，在渗透过程中要发生氧化和微生物分解，因此消耗水中溶解氧，其结果造成出水中溶解氧降低.所以，在加了G0.8细菌的柱体渗出水中溶解氧衰减的就更快些.溶解氧的降低直接引起Eh值的下降，所以导致出水中Eh值迅速下降的变化规律．
+　　(3)微生物的生化作用　微生物在生长过程中，由于代谢作用而引起物质的转化，从而改变了环境中氢离子浓度，导致pH下降.pH的下降导致一些盐类的进一步溶解，故s1和k1柱出水中电导率高于s2和k2柱.同理，微生物的活动可以改变环境中的氧化还原电位.例如，微生物借代谢作用产生还原性抗坏血酸、H2S或有机硫氢化物(半胱氨酸、谷胱甘肽、二硫苏糖醇等)可以降低环境中的氧化还原电位.因此而导致s1和k1柱出水中Eh值低于s2和k2柱.
+
+3　有关应用的问题讨论
+3.1　温度问题
+　　温度是影响微生物除氮的因素之一，理论和实验都证明：随着环境温度的升高，除氮效率增大，但是由于地下水环境温度一般在15—18℃，北方地区最低在6—9℃，若在这样低的温度条件下获得较高的除氮效率，就需要有针对性地对细菌进行驯化和诱变，使之适应地下环境，本次实验所采用的G0.8细菌就是针对这一目的而培驯的，结果表明比较有效.
+3.2　溶解氧的问题
+　　溶解氧与NO3-中的氧竞争电子受体，从而影响除氮效果.因此，在溶解氧较低的还原环境，微生物的除氮效率会高.实际调查研究表明，随着地下深度的增加，地下水环境中的溶解氧会降低.例如，丹麦约在地下150cm左右，其水中溶解氧含量为零［4］；在垃圾填埋场淋滤液运移过程中也能产生有利于反硝化的还原环境［13］；在浅部包气带中，连续入渗也可以造成溶解氧降低的还原环境(图5).由此说明实际中存在有利于除氮的溶解氧环境.
+3.3　营养问题
+　　微生物反应所需营养主要是碳源问题.过去多数反应工程是采用外加碳源来进行的.但是，对于地下反应工程特别是在大面积包气带中的除氮反应，外加碳源是不经济而且是不方便的.实际上，灌溉污水中含有一定量的有机碳源，大多数地区进行污水灌溉，这将大大增加下渗水中的BOD浓度，微生物利用这部分BOD进行反硝化是很有意义的，使整个系统即能维持细菌的生命活动，又能去除污水中的氮及BOD污染质，达到防止地下水体氮及BOD污染的双重目的.但如果进行硝酸盐污染含水层的净化处理，则需加入适量的碳源.
+　　综上研究表明，利用人工驯化和诱变的高效除氮细菌进行地下环境除氮是可行的.
+* 国家“863”和高等学校博士点基金资助项目
+* 赵林，林学钰.地下环境高效除氮菌的研究及其应用.第二届未来地下水危机国际讨论会论文集(印刷中)　
+作者单位：赵　林　王榕树　(天津大学化工学院，天津　300072)
+林学钰　(长春科技大学，长春　130026)
+参考文献
+　1　陈梦熊.城市水水资源问题与对策研究.西北地区环境水资源研究，1995，26—31
+　2　Colin Macilwain.US report raises fears over nitrate levels in water.Nature,1995,377:4
+　3　Hiscock K M,Lloyd J W,Lerner N.An engineering solution to the nitrate pollution of borehole at Swaffham,Norfolk,U.K.Journal of Hydrology,1989,107:267—281
+　4　Andersen L J,Kristansen H.Nitrate in groundwater related to landuse in the Karup Basin,Denmark.Environmental Geology,1984,5(4):207—212
+　5　易秀.施用氮肥的环境后果综述.土壤学进展，1994，2：38—42
+　6　Valeriet T E,Chapinil F S.Plant－microbial interactions.Nature,1997,385(2):26—27
+　7　Kronzucker H J.Conifer root discrimination against soil nitrate and the ecology of forest succesion.Nature,1997,385(2):59—61
+　8 Stark J M,Stephen C H.High rates of nitrification and nitrate turnover in undisturbed coniferous forests.Nature,1997,385(2):61—64
+　9　于乃秀，李宽良，韦漫春等.三氮迁移转化过程中的质量不守恒问题及其石柱模拟方法途径.成都地质学院学报，1993，20(3)：108—115
+　10 彭锋明.北京地区潮土表层中NO3-－N的转化积累及其淋失.土壤学报，1995，32(4)：389—398
+　11 Shen Zhaoli,Zhong Zuoxin,Wang Min et al.Nitrogen pollution and transformation in groundwater system in urban area.The Proceedings of Scope Workshop on Groundwater Contamination in China.Beijing,1995
+　12 赵林，林学钰.地下水中三氮迁移转化过程中的质量不守恒机理的研究.长春地质学院学报，1997，27(sup.I):28—33
+　13　John V.Occurrence and distribution of pharmaceutical organic compound in groundwater down gradient of a landfill.Environmental Science and Technology,1995,29(5):1415～1420
+　14 沈照理主编.水文地球化学基础.北京：地质出版社.1986
+1998-01-25收到原稿
+1998-07-01收到修改稿
+
+

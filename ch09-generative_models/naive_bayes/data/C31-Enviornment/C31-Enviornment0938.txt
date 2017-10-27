@@ -1,0 +1,55 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+不同程度富营养化水中植物净化能力比较研究*
+葛　滢　王晓月　常　杰
+摘要　为建立净化富营养化水体的生态工程，选择了十余种本地植物，研究各种植物的净化能力和生物生态学特性.结果表明，对于重度富营养水，空心菜的净化效果最好，凤眼莲和鸭跖草其次，灯芯草、知风草和水芹菜也有一定效果；对于轻度富营养化水，鸭跖草、喜旱莲子草最好，凤眼莲、空心菜、酸模叶蓼均较好，石菖蒲、灯芯草、知风草、穹隆苔草、萱草略差，但可四季使用.
+关键词　富营养化水；植物净化；本地种.
+Comparative studies on the purification ability of plants in different degree eutrophic water
+GE Ying,WANG Xiaoyue,CHANG Jie (College of Life Science,Zhejiang University,Hangzhou 310012)
+Abstract　For building the ecological engineering to purify the eutrophic water,more than ten local plants were selected,and the purification ability and the bio-ecological character of them were studied.It was found that in high degree eutrophic water,the purification effect of Ipomoea aquatica was the best,Eichhornia crassipes and Commelina communis took second place,Juncus setchuensis,Eragrostis fepathifolium and Oenanthe javanica also had some effect; while in low degree eutrophic water,Commelina communis and Alternanthera philoxeroides were the best,Ipomoea aquatica,Eichhornia crassipes and Polygonum lapathifolium also had good effect,Acorus calamus,Juncus setchuensis,Eragrostis fepathifolium,Carex gibba and Hemerocallis fulva were lower than others,but could be used through the year.
+Keywords　eutrophic water,removed rate,local plants.
+　　利用植物净化污水的工作已开展多年［1—5］，国内外已有一些工作取得了很好的效果.根据生态学原理，建立对污水的植物净化系统，在植物选种上应尽可能地利用当地种，并建立多种植物组合的植被，使人工湿地具有合理的物种多样性，从而更容易保持长期的稳定性，减少病虫害.同时，为美化环境、降低投资，采用本地种植物也是首选之策.综上述，我们在杭州附近筛选出十几种野生植物，在富营养化水中进行栽培，观察其生长情况，并通过小型静态试验比较各种类的净化效果，以选择当地具有较好净化效果的植物种类.
+1　材料与方法
+1.1　植物栽培
+　　1997年春天，在杭州市郊区的溪水及水塘边选择22种植物，洗净泥土，栽入植物预培养容器Logatainer(德国赠送)，再将Logatainer放入塑料盒中，加入20cm深的水(10kg左右)培养，一周更换一次水.经2—4周种植后，发现有14种植物生长较好，其余生长差的种类去掉.由于植物材料的个体起始质量有一定差异，经两个月的水中适应培养，种类之间因生长能力不同，生物量仍有差异.但各个种的种植和生长密度基本保持一致，计算同样面积内不同植物对污染物质的去除率，使试验结果具可比性，并且这与生态工程中的实际栽培时选取材料的情况一致.
+　　考虑到植物净化不同富营养化程度水体所遇到的问题不同，设计了两个处理：(1) 轻度富营养化水中，总氮(TN)：0.9—4.57mg.L-1，总磷(TP)：0.2—0.60mg.L-1，凯氏氮(TN-NO-3)：0.4～0.52mg.L-1；(2) 重度富营养化水中，TN：55.01mg.L-1，TP：10.86mg.L-1，NO-3：22.76mg.L-1［4］.
+1.2　植物净化富营养化水体试验
+　　1997-7-28日换水时开始试验.对供试的Logatainer及其中栽种的植物用水清洗(不损伤根系)、风干(10min)、称重；每盒中加入10kg重的水，以后对轻度富营养水在第3天和第5天取水样，重度富营养化水在第4天和第6天取水样，并称盒中水重以换算TN、TP、NO-3总量及水分减少量.
+　　水样在当天测定.其中，TN、TP用过硫酸钾氧化法同时测定［6］，NO-3用电极法测定［7］.去除率的计算公式为：去除率(%)=(C0.V0-Ci.Vi)÷(C0.V0)×100%.其中C0为初始时的浓度，V0为初始时的体积，Ci为第i天的浓度，Vi为第i天的水体积.
+　　在以往的静态实验中，有些通过添加蒸馏水或自来水以保持水体积不变，从而观察所测指标浓度的降低［4］.但这种做法存在一定的问题：一方面，水的蒸发和植物蒸腾引起的水体积减少是自然发生的过程，人为加水不能反映自然条件下的过程；另一方面，添加水分以后，植物所在水的营养浓度被人为稀释，植物的吸收行为也就发生变化，在稀释的营养浓度中的吸收能力减弱，从而影响净化效果.考虑到上述原因，本实验模拟自然状态下的情况，不添加水量，而是通过称水重，换算所观测指标的总量来计算去除率.因此本试验水中的净化效果与自然状态更符合.
+2　结果与分析
+2.1　各种植物对重度富营养化水中TN、NO-3和TP的去除率比较
+　　与对照比较，14种植物对重度富营养化水中TN的去除均有一定作用(图1A).各种植物对TP的降低率与对TN的顺序基本一致.综合分析各项指标，空心菜效果最好，凤眼莲和鸭跖草其次，灯芯草、知风草和水芹菜也有一定效果，但不能一步净化到位.
+2.2　各种植物对轻度富营养化水中TN、NO-3和TP的去除率比较
+　　14种植物均使轻度富营养化水中的TN降低(图1B).不同植物对轻度富营养水中TP的去除率差别较大，其中灯芯草、狼尾草和鸭芹对TP的去除作用小于对照，其它植物均高于对照.14种植物中，除凤眼莲、空心菜、水芹菜和鸭跖草对NO-3的去除率高于对照外，其余植物低于对照.由于植物对NO-3的吸收需消耗能量［8］，在铵态氮较多时一般不会优先吸收NO-3.所以本研究中轻度富营养化水中植物对NO-3的吸收均较少.但对照的去除率较高，说明NO-3在自然状态下通过反硝化作用即可减少，由于环境质量标准允许水中的NO-3含量较高(国家标准I类水是10mg.L-1以下)，而轻度富营养水中NO-3含量远低于10mg，所以在讨论综合净化能力时可不考虑这一指标.
+　　综合分析各种植物对TN和TP的净化效果，鸭跖草、喜旱莲子草、凤眼莲、空心菜、酸模叶蓼、均较好，石菖蒲、萱草、知风草、穹隆苔草、水芹菜略低于前面几种植物.
+
+
+
+
+
+图1　14种植物在重度(A)和轻度(B)富营养化水中的生物量和去除率
+1.空心菜(Ipomoea aquatica) 2.凤眼莲(Eichhornia crassipes) 3.鸭跖草(Commelina communis) 4.灯芯草(Juncus setchuensis) 5.知风草(Eragrostis fepathifolium) 6.水芹菜(Oenanthe javanica) 7.喜旱莲子(Alternanthera philoxeroides) 8.蝴蝶花(Iris japonica) 9.石菖蒲(Acorus calamus) 10.酸模叶蓼(Polygonum lapathifolium) 11.萱草(Hemerocallis fulva) 12.穹隆苔草(Carex gibba) 13.鸭芹(Cryptotaenia japonica) 14.狼尾草(Pennisetum alopecuroides)
+Fig.1 Removal rate of 14 plants for in high degree (A) and low degree (B) eutrophic water
+3　讨论
+　　从图1可见，植物的质量与其对污染物质的去除率并无对应关系.如采用单位质量植物对污染物质去除率指标进行比较则发现，单位重量去除率高的植物对单位面积内富营养化水的去除率并不高，因为其单位面积内的质量无法提高.
+　　在轻度富营养化水体中，植物不可能获得生长所需的足够的N、P.量，生长受抑制，生物量较低，所以需要选择既能在贫瘠条件下生长又能有较高净化能力的植物.植物对重度富营养化水的净化效果好于轻度富营养化水时，是否因其在轻度富营养化水中生长不良而降低了净化能力，应进一步研究.
+　　凤眼莲和空心菜是公认的对富营养化水净化效果好的植物，本试验选择这两种植物主要是作为参照种.试验表明空心菜的净化效果与已有研究［4］的规律一致.
+　　进一步分析各种植物的生物生态学特性，凤眼莲是水生植物，其净化能力很强，但扩展能力过强易泛滥，造成危害，需在水体中控制使用.鸭跖草、空心菜、酸模叶蓼、三种叶片较大的一年生植物，在中亚热带地区的可利用时间为3—11月；石菖蒲、萱草、知风草、穹隆苔草等为多年生线形叶或条形叶植物，虽然净化效果较前几种植物稍差，但四季均可用.水芹菜的净化效果也很好，但只适合短期使用.喜旱莲子草在高密度下植株能直立，外观较好，更适合用于种植在水体中.
+* 欧洲联盟资助项目(项目号ERBIC18CT960059)
+作者单位：浙江大学生命科学学院，杭州　310012
+参考文献
+1　黄立南、蓝崇钰.湿地处理污水的研究.生态科学，1996，15(2)：117—120
+2　Gersberg R M et al.Role of aquatica plants in wastewater treatment by artificial wetlands,Wat Res,1986,20(3):363—368
+3　Lie E et al.,Carbon and phosphorus transformations in a full-scale enhanced biological phosphorus removal process.Wat Res,1997,31(11):2693—2698
+4　戴全裕等.水蕹菜对啤酒及饮食废水净化与资源化研究.环境科学学报，1996，16(2)：249—250
+5　成水平.人工湿地废水处理系统的生物学基础研究进展.湖泊科学，1996，8(3)：268—271
+6　钱君龙等.用过流酸盐氧化法同时测定水中的总氮和总磷.环境科学，1987，8(1)：81—84
+7　国家环保局编.水和废水监测分析方法(第三版).北京：中国环境科学出版社.1989
+8　潘瑞炽、董愚得.植物生理学.北京：高等教育出版社.1995
+1998-08-28收到原稿
+1999-03-31收到修改稿

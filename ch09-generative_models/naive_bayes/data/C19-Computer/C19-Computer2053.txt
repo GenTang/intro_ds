@@ -1,0 +1,75 @@
+计算机工程
+Computer Engineering
+1999年　第25卷　第4期　Vol.25　No.4　1999
+
+
+
+对象数据库设计的EER方法
+邱锡锋　陈家训
+摘　要　EER方法虽然没有形成标准，但它将重点放在对象的结构、联系和完整性上，不失为一种有效的OODB设计方法。结合科研实践探索了EER的概念，模式以及改进方法。
+关键词　面向对象数据库管理系统扩充实体关系
+Design of OODB with EER
+Qiu Xifeng Chen Jiaxun
+（Department of Computer Science and Technology，China Textile University Shanghai 200051）
+Abstract：EER（Extended of Computer Science and Technology is considering suitable for this job with its strong points on objects’structure，relationship，and integirty；though there may lack some standards.This paper describes the conception,implementation and some improvement of EER based on the results of work carried out in this area.
+Key words:Object oriented;OODBMS;EER
+1　EER建模方法
+　　EER建模方法是对ER模型的扩充，而ER模型是一种较为流行的语义数据模型，能表示实体及实体间丰富的语义结构，如实体间联系和制约。EER可用于数据逻辑模型的设计，也是一种重要的文档形式。其主要元素有：(1)实体用矩形框表示；(2)属性用椭圆表示；(3)联系用菱形表示，表明两个实体间的关系：线上括号内的数字表示对应实体的最小数量和最大数量，条上加箭头表示依赖关系；(4)继承关系用粗线条表示。
+2　EER建模实例分析
+　　本文所举例子为关于服装设计师及模特的已简化的模型。主要步骤如下：
+　　(1)根据事务模型确定实体
+　　涉及到的主要有：设计师(Designer)，模特(Model)，经纪人(Manager)，公司(Company),时装表演(Show)，时装Fashion，它们各自有自己的属性。
+　　(2)对实体进行抽象以确定实体层次关系
+　　Designer,Model,Manager 具有一些共同的属性，可抽象出一个父实体Person,Person具有这些共同的属性，为它们所共享。
+　　(3)确定实体间的联系
+　　Designer,Model,Manager都应属于某一个Company,故Person与Company之间有联系work_at;Company举办Show,故有联系control;Model可在Show上表演，故有联系perform;Designer设计时装Fashion,故有联系design。
+　　(4)详细描述实体的属性、联系，以作文档
+　　当模型复杂时还可以将实体分组，以简化结构。
+　　如图1所示，manager、designer、model从person继承而来，因而具有 person 的所有属性和联系。modeldesigner由model、designer多重继承而来。person具有一个复合属性address,包括city、street、apartment number和zip子属性。model和show之间的联系为多对多联系。show具有一个多值属性location。
+
+图1　EER模型图例
+3　用EER进行OO设计的原则
+　　(1)实体开放性与独立性原则
+　　开放性，指易于被继承扩展，如Person被抽象为具有name,address属性的类，它可被多样的子类继承。
+　　独立性，指类的行为可以变化扩充，而不必要对类的定义有任何改动，例如：
+　　在Person上定义方法getbonus(),则下列语句
+　　Bag<Person>ps;
+　　Person p;
+　　ps=Person from Person;
+　　scan(ps,p){
+　　p.getbonus().print();
+　　};
+　　可得到Person类中包括Model、Designer、Manager在内的奖金列表，当Person有新的子类如Saleman时，仍可以用上述相同语句得到，包括Saleman在内的奖金列表。
+　　这一点集中体现了对象模式的长处，即可重用性和可维护性，子类的改变不影响父类。
+　　(2)子实体对象必需满足父实体的界面定义，这是1的逻辑扩充，在父类上定义的方法自动被子类继承使用，而用户不需知道子类和父类之间的显式差别，有反例，如定义一个四方形类和它的两个子类 : 长方形和正方形；在四方形类中定义方法set_ratio(n)用来将长和宽的比设为n:1,很明显正方形子实体不适合此方法，要使方法继续有效，则必须修改set_ratio(n)，在其中显式指明不适用于正方形，但这样就违反了原则1,即父类失去了独立性。
+4　EER到OMT的转化
+　　EER具有丰富的语义表示能力，其模型不限于某一特定模式，它可以用于关系型模式、对象模式、网络模式，或层次模式。在将EER模型转化为对象模式之前，有两点需要特别指出，一点是实体间的联系，EER中实体间的联系被显式地用菱形表示，相关实体间的数量限制和依赖关系也有显式的图形表示，甚至可以在EER模型图上加文字来表述更复杂的制约关系。而这些在对象模式中是通过方法来隐含地表示的。第二，在EER模型中使用关键字段属性来描述一个实体的特性，来区别实体中不同的实例，而这在对象模式中是没有必要的，因为对象是通过系统赋予的对象标识符来唯一表示的，而不需要有关键属性来进行完整性约束，但是在对象模式中，关键属性仍能起到帮助查询的作用，即可作为查询的条件项，也能用于创建索引，以提高查询效率。在对象模式中占重要地位的方法(method)在EER中却没有相应的表示，这是否意味着EER不足以描述对象数据库模式？答案是否定的。事实上，从数据库结构设计本身的角度来看，方法并不是一个必要的组成部分，方法在很大程度上是一种较先进的编程技术，用以对某些数据结构进行封装，或者当在对象模式中无法用其他手段表示一种制约时，方法被用来表示这种语义。所以当我们能够在EER中用显示的符号进行语义表示时，其实没有必要用方法。即使是在对象数据库模式中，随着应用系统的开发，不可避免地会出现新的应用需求，需要在数据库结构中增加新的方法来满足它，因此在系统分析和设计阶段，从数据库结构设计本身出发，EER模型已足以表达对象模式所能要求的语义。
+　　在图1中可知，一个company最多可有3个manager，此制约可用以下方法实现：
+　　company.add_manager(manager m){
+　　　　if count(manager)>=3{
+　　　　　error("Construction Violation");
+　　　　　exit;
+　　　　　}
+　　　　manager.add(m);
+　　　};
+　　在将EER转化为OMT时可分3步走:
+　　(1)将EER中实体对应OMT中的类图，属性不变，但应该增加相应的方法来代替OMT中无法显式表示的语义。
+　　(2)从实际出发，将某些联系转化为OMT中的类。
+　　(3)从应用角度出发，增加附加的方法。
+
+图2　OMT模型图例
+　　图2　OMT模型是从EER模型转化而来的。在第一步中注意以下几点。
+　　(1)实体：EER中的每个实体都被OMT中一个类图所对应，实体中的继承关系对应类图的继承关系。一个共享的子实体对应于一个多重继承的子类如modeldesigner。复合属性对应复合属性，多值属性对应集合属性(如set，ag，ist等)。
+　　(2)联系：EER中的联系，在对象模式中可以用对象引用方便地表示，即以另一个对象作为自己的一个属性。有些对象数据库系统如ORION还支持双向引用，即两个对象可相互引用。一对多联系可通过将另一方对象的集合作为自己的一个属性实现，多对多联系在对象模式中也可以同样方便地实现。在一个多对多联系中，当联系本身具有的专有的属性时，可以将该联系转化为对象模式中的一个类。如model和show之间的多对多联系performance,它具有自己的专有属性hours,表示一个model在某一次show中的表演时间。可以在对象模式中建立一个类performance。见图3。
+
+图3　对象模式中建立类Preformance
+　　(3)制约：EER中的制约可以由对象模式中的方法来实现，对于联系一级的制约，可为相应的实体创建new()和remove()方法和add(),delete()方法 , 在这些方法中用程序体现制约。
+5　总结
+　　EER方法将设计分成两步，第一步是语义层次上的结构设计；第二步则集中在应用层次上的行为设计。它丰富的语义表示能力和易理解的表示方式使它成为数据库系统前期设计的有力工具，并能方便地转化为特定系统的模型表示方式。从EER开始设计对象数据库系统将是一件令人高兴的事。
+作者简介：邱锡锋　男，24岁，研究生 主要研究方向：数据库网络集成
+作者单位：中国纺织大学计算机系　上海200051
+参考文献
+　1　Elmasri R，Navathe S.Fundamentals of Database Systems(2nd ed).Benjamin/Cummings，Redwood City，CA，1994
+　2　Special Report SR-OPT-001826:Information Modeling Concepts and Guidelines(Issue 1)：Information Exchange Management.Bellcore，Morristown，NJ，1991-01
+　3　Kemper A,Moerkotte G.Object-oriented Database Management.Prentice Hall,Englewood Cliffs,NJ,1994
+收稿日期：1998-05-27

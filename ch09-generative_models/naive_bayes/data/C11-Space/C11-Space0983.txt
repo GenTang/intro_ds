@@ -1,0 +1,115 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+喷射沉积Ni3Al-Mo合金的位错结构分析
+米国发　　罗治平　　田世藩　　李庆春
+
+摘要： 利用多功能雾化沉积装置制备了Ni-Al-Mo系Ni3Al基高温合金。拉伸性能测试表明，喷射沉积Ni3Al-Mo合金的屈服强度具有明显的“R”特性。利用TEM位错结构分析，阐明了合金微观结构与屈服强度之间的关系，研究结果表明，试验合金所具有的屈服强度随温度的变化规律主要是由不同温度下γ′及γ相内的位错缠结状况、位错对的形态及数量和六面体滑移系的开动程度决定的。
+关键词： Ni3Al-Mo合金； 拉伸性能； 位错结构
+中图分类号： TG113　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0019-08
+
+Dislocation structure of spray deposited Ni3Al-Mo alloy
+MI Guo-fa1　　LUO Zhi-ping1　　TIAN Shi-fan1　　LI Qing-chun2
+(1.Institute of Aeronautical Materials,Beijing 100095,China; 2.Harbin Institute of Technology,Harbin 150001,China)
+Abstract： A Ni3Al-based superalloy of Ni-Al-Mo system has been successfully prepared by using the multifuctional spray atomization and deposition plant.Testing for tensile properties indicated that the spray deposited Ni3Al-Mo alloy possesses “R” characteristic in the yield strength.Analysis of dislocation structure by TEM has revealed the relationship between the microstructure and yield strength.The results show that the yield strength changing with temperature for the alloy is determined by the dislocation winding condition、pattern and quantity of the dislocation pair and starting degree of the hexahedron slide system inside γ′ and γ phases.
+Key words: Ni3Al-Mo alloy； tensile properties； dislocation structure
+
+　　L12型Ni3Al金属间化合物合金，由于其屈服强度具有相对温度的反常现象而成为发展高温合金的基础。大量的研究表明，在峰值温度以下，开动的主要滑移系为{111}〈110〉，而在峰值温度以上则为六面体滑移系{010}〈110〉［1］。目前已趋于认为，位错从{111}面交滑移至{100}面而导致不可动位错的产生是材料发生温度反常效应的原因，并提出了多种理论结构模型［2～4］。
+　　对于(γ+γ′)两相结构材料的变形行为研究较少。显然，其变形方式有别于单相的L12型材料。喷射沉积Ni3Al-Mo合金属典型的两相LI2型结构。本文通过对合金变形后的位错结构分析，揭示了微观结构与宏观力学性能之间的内在联系。
+1　试验研究方法
+　　试验合金的成分及其制备工艺见文献［5～7］；拉伸性能试验在Instron万能试验机上进行，拉伸试验温度分别为20℃，650℃，760℃，800℃和870℃，夹头移动速度为8.33×10－3mm/s；制备TEM样品时，先在拉伸断裂后的试样上轴向切取0.2mm厚薄片，再机械减薄至0.05mm，然后进行电解双喷减薄，电解液采用15%高氯酸甲醇溶液，样品在电解双喷减薄时，应尽量使穿孔薄区靠近断口。
+2　试验结果及讨论
+2.1　拉伸性能与温度的关系
+　　图1给出了喷射沉积Ni3Al-Mo合金屈服强度随温度的变化规律。由图可见，与单相LI2型金属间化合物的变形行为相似，具有明显的“R”特性，从室温开始，随温度升高，屈服强度值不仅没有下降，反而上升，到760℃时达到峰值，再随后屈服强度随温度上升而下降。
+
+图1　喷射沉积材料的屈服强度随温度的变化曲线
+Fig.1　Yield strength of spray deposited materials νs temperature
+
+2.2　位错结构分析
+2.2.1　室温变形后的位错结构
+　　经室温变形后，γ及γ′相内均出现了位错缠结结构，尤其是在γ相内位错密度很高(图2)。由于γ比有序的γ′相软，初始变形总是发生在γ相内，将产生运动的〈110〉点阵位错［7～10］。这种点阵位错运动到γ/γ′界面时，直接切割γ相将产生高能的反相畴(APB)，但也可与后续的〈110〉点阵位错发生反应生成〈110〉型超点阵位错而切割γ′相［7］。在室温下，初始位错与超点阵位错均在八面体滑移系的｛111｝面间发生了交滑移，因而呈现了位错缠结结构，并不是平面状的位错结构。
+　　室温下变形时，在γ相内发现了精细孪晶结构(图3)。观察到倒易矢11垂直于图像中孪晶的迹线方向，分析确定孪晶面为(11)。相应地，根据其晶面变换矩阵标定了孪晶衍射图(图3c)。由于精细片状孪晶形状效应，衍射斑点在垂直于孪晶面方向被拉长，并且由于二次衍射效应，在穿过透射斑点且具有公共斑点的一列衍射斑的上下两层，均出现了孪晶斑点。
+
+图2　室温变形后的位错结构
+Fig.2　Dislocation structures after deformation at room temperature　
+(a) bright field (BF)；(b)/3 weak beam dark field(WBDF)；
+(c) two beam electron diffraction pattern with=［11］(EDP)
+
+图3　室温变形后γ相中的孪晶
+　Fig.3　Twins in γ phase after deformation at room temperature
+(a) bright field (BF)；(b) center dark field (CDF) with
+(200)T reflection；(c) electron diffraction pattern (EDP) 
+
+2.2.2　650℃变形后的位错结构
+　　经650℃变形后，在γ相内，仍然存在精细孪晶结构，按上述同样方法处理，确定其孪晶面为(11)。
+　　经650℃变形后，γ相内仍然存在高位错密度的缠结结构。但在γ′相内出现了较为平直的位错对(图4)，同时可以观察到有大量的弯曲位错线存在。首先观察在［011］带轴下的位错结构。在=［1］条件下，观察到了在一个方向的位错对(图4a)，采用±成像来检验，位错对间距与位置并不改变，因此为超位错［8］。当操作矢量改为=［00］时，位错对消失(图4c)，可见其柏氏矢量＝［01］［9］。将该视场沿(200)倒易矢方向大角度倾转到［001］轴方向(图4e)，此时以=［20］成像，由于.≠0，所以位错对出现［9］。可以观察到，位错对1—1的间距在［001］轴下明显增加，由0.5μm增加至0.75μm，相差约倍。由此可见，1—1位错对位于(001)面，其方向为［100］，从图4f衍射图也可得到证实。位错对位于(001)面，意味着六面体滑移系的开动。由于位错对在｛001｝面上APB能量低，因此，｛111｝面上的位错对在高温下通过热激活而交滑移至｛100｝面上，并且在｛100｝面上位错对间距往往扩展得很宽，这与实验观察到的结果相符合。由于｛100｝面并不是其滑移面，从而将成为后续运动位错的障碍，这是650℃合金屈服强度反而高于室温的原因，与宏观力学性能测试结果相吻合。
+2.2.3　760℃变形后的位错结构
+　　经760℃变形后，γ相内已没有精细孪晶结构，而只有高位错密度的缠结结构。在γ′相内，出现了大量的位错对结构，部分位错对呈弯曲或缠结状(图5)。用±20］成像，由于方法检验，确定这些位错对为超点阵位错对。当操作矢量改为＝［200］时，这些位错对消失(图5c)。可见其柏氏矢量为＝［01］［9］。将该视场从［011］轴大角度地倾转至［101］轴(图5e)，在＝［011］下，位错对仍然可见，但仔细观察可见其中某些位错线对，如a-a，在［101］轴下已发生重合，说明这些位错线对位于(010)面上，即在760℃下有六面体滑移系的开动。观察表明，此时六面体滑移系开动的程度较大，因此｛111｝面上的位错对在高温下通过热激活而交滑至｛100｝面上的数量迅速增加，因此对后续运动位错的阻碍作用大大增强，所以导致了合金在760℃时屈服强度出现最大值。
+
+
+
+
+
+图4　650℃变形后的位错结构
+Fig.4　Dislocation structure after deformation at 650℃
+(a) /3 WBDF；(b) EDP with =［1］；(c) /3 WBDF；
+(d) EDP with=［00］；(e)/3 WBDF；(f) EDP with =［20］
+
+
+
+
+
+图5　760℃变形后的位错结构
+Fig.5　Dislocation structure after deformation at 760℃
+(a) /3 WBDF；(b) EDP with =［1］；(c) /3 WBDF；
+(d) EDP with=［200］；(e) /3 WBDF；(f) EDP with g=［11］
+
+2.2.4　800℃变形后的位错结构
+　　经800℃变形后，γ相内位错密度仍然很高，并有出现位错网的趋势。在γ′相内，位错对排列规则，具有明显的晶体学特征，无弯曲和缠结状态存在(图6)。在图6a中，γ′相内位错对呈两个方向分布，图中标为A和B方向。当操作矢量从［200］改为［11］时，位错对B消失(图6c)，可见1＝［110］或1＝［10］［9，11］。当操作矢量＝［11］时，位错对A消失，由此可知2＝［10］或2＝［101］［9，11］。将试样从［011］轴倾转至［001］轴时，从图6g可见，在＝［00］下，位错对A和B均可见，因此可唯一确定1＝［110］。2＝［10］［9，11］。由于位错对扩展很宽，可见其滑移面仍为｛100｝。在高温下，由于位错可以通过热激活而增加活性，因此γ′相内位错发展为较为稳定的网状结构。这种网状结构较缠结结构对运动位错的阻碍作用将减弱，再加上γ′相内位错对弯曲和缠结结构的消失，势必会导致合金屈服强度的下降。
+
+ 
+
+
+图6　800℃变形后的位错结构
+Fig.6　Dislocation structure after deformation at 800℃
+(a) /3 WBDF；(b) EDP with g=［200］；(c)/3 WBDF；
+(d) EDP with=［11］；(e)/3 WBDF；(f) EDP with =
+［1］；(g) /3 WBDF；(h) EDP with =［00］
+
+2.2.5　870℃变形后的位错结构
+　　经870℃变形后，在γ相内位错呈网状的趋势加强，说明位错通过高温下的运动由高能状态向低能状态转变的加剧。同时γ′相内尽管存在较多的超点阵位错对，但较800℃时，其数量已明显减少，由此可以推知，合金在870℃时，屈服强度值将会有较大程度下降，这与实验结果相一致。γ′相内的超点阵位错对间距扩展很宽，说明其滑移面为｛100｝，同时在位错间夹有层错结构(图7)。这说明合金在870℃下的变形过程较800℃时有所变化。采用不同操作反射成像实验可知，这些位错对在＝［200］，［020］及［20］时均不消失，但在＝［220］时消失(图7b)，由此可推知其柏氏矢量=［10］［9］。观察表明，层错在＝［200］，±［020］，±［220］时均不消失，但在g＝［20］时消失，据此可知该层错位移矢量RF＝［110］［9，11］。这种(〈110〉型位移矢量层错被称为反相畴层错。
+
+
+图7　870℃变形后的位错结构
+Fig.7　Dislocation structure after deformation at 870℃
+(a) BF,＝［200］；(b)BF， =［220］；
+(c)EDP with=［220］；(d)EDP with＝［20］
+3　结束语
+　　喷射沉积Ni3Al-Mo合金屈服强度随温度变化曲线具有明显的“R”特性。TEM位错结构分析表明，此变化规律主要是由不同温度下γ′及γ相内的位错缠结状况、位错对的形态及数量和六面体滑移系的开动程度决定的。
+　　李周、梁志凯、任立平、赵先国参与了本文试验坯件的制备工作，在此表示感谢。
+作者简介： 米国发(1966-)， 男， 博士， 高级工程师
+作者单位：米国发、罗治平、田世藩：北京航空材料研究院， 北京　100095；
+　　　　　李庆春：哈尔滨工业大学434信箱， 哈尔滨　150001
+参考文献：
+［1］　POPE D P，EZZ S S. Mechanical properties of Ni3Al and nickel-base alloys with
+　　　　high volume fraction of γ′. Inter Metals Rev, 1984,29:136
+［2］　COPLEY S M,KEAR B H. Temperature and orientation dependence of the flow 
+　　　　stress in off-stoichiometric Ni3Al. Trans TMS-AIME, 1967,237:977
+［3］　TAKEUCHI S,KURAMOTO E. Temperature and orientation dependence of the yield 
+　　　　stress in Ni3Ga single crystals. Acta metall, 1973,21:415
+［4］　姚学兴. 延性L12型金属间化合物（Fe，Co，Ni)3V系的微观设计及其形变断裂研究:［博
+　　　　士论文］.北京：清华大学，1992 
+［5］　米国发，罗治平，田世藩等.喷射沉积Ni3Al-Mo合金的显微组织.金属学报，1997，33
+　　　　(6)：566
+［6］　米国发，罗治平，田世藩等.喷射沉积IC6合金的拉伸性能及断裂特征.材料工程，1997
+　　　　(7)：14
+［7］　米国发.喷射沉积Ni-Al-Mo系Ni3Al基高温合金及其复合材料研究：［博士论文］.哈尔
+　　　　滨：哈尔滨工业大学，1995
+［8］　刘文西，黄孝瑛，陈玉如.材料结构电子显微分析.天津：天津大学出版社,1988
+［9］　黄孝瑛.电子显微分析.北京：机械工业出版社,1987
+［10］　赫什 P， 豪伊 A，尼科尔森 R B等. 薄晶体电子显微学.北京：科学出版社，1992
+［11］　郭可信，叶恒强，吴玉琨.电子衍射图在晶体学中的应用.北京：科学出版社,1983
+　收稿日期： 1999-05-14

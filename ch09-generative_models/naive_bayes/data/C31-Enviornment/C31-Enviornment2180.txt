@@ -1,0 +1,59 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.62-64
+
+
+
+
+垃圾焚烧重金属污染物的控制现状
+葛俊　 徐旭　 张若冰　 陆胜勇　 池涌　 严建华　 
+摘　要：采用焚烧法处理城市固体垃圾，在我国正逐渐得到推广和应用。而焚烧所带来的重金属污染已广泛引起国内外专家的关注。文中从焚烧前、焚烧中、焚烧后三方面评述了国内外近些年来所发展的重金属污染物的控制技术及其相应的机理，重点介绍了吸附技术。
+关键词：城市固体垃圾；　重金属；　焚烧；　吸附
+分类号：X705　文献标识码：A
+文章编号：001-6929(2001)03-0062-03
+Current Control Status of Heavy Metals from MSW Incineration
+GE Jun（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+XU Xu（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+ZHANG Ruo-bin（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+LU Sheng-yong（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+CHI Yong（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+YAN Jian-hua（Institute for Thermal Plant Engineering, Zhejiang University, Hangzhou 310027, China）　
+
+Abstract：Nowadays incineration is gradually being used to dispose municipal solid waste(MSW)in China. However,the issue about the secondary environment pollution caused by heavy metals emitted from incineration has aroused wide attentions of many experts at home and abroad.This paper reviews the control technology developed during the past years in three aspects,that is ,before,during and after the incineration,and the correlative mechanisms are also discussed with emphasis on absorption technology.
+Keywords：municipal solid waste;　heavy metal;　incineration;　absorption
+
+基金项目：国家重点自然科学基金资助项目(N59836210)；浙江省青年科技人才专项资金资助(RC99041)
+作者简介：葛俊(1976-)，男，江苏南通人，硕士研究生. 
+作者单位：葛俊（浙江大学热能工程研究所，浙江杭州 310027）　
+　　　　　徐旭（浙江大学热能工程研究所，浙江杭州 310027）　
+　　　　　张若冰（浙江大学热能工程研究所，浙江杭州 310027）　
+　　　　　陆胜勇（浙江大学热能工程研究所，浙江杭州 310027）　
+　　　　　池涌（浙江大学热能工程研究所，浙江杭州 310027）　
+　　　　　严建华（浙江大学热能工程研究所，浙江杭州 310027）　
+
+参考文献：
+［1］陈尚兵,金浩.城市垃圾焚烧处理中重金属和有机氯化物的二次污染与防治[J].环境导报,1998,6：7～10.
+［2］宋宝增.城市生活垃圾焚烧发电[J].四川环境,1998,(17)4：17～22.
+［3］生活垃圾焚烧污染控制标准.国家环境保护总局文件,环发[2000]46号,2000-03-01.
+［4］William P Linak,Jost O L Wendt.Metal emissions from incineration:Mechanisms and control[J].Prog Energy Combusti Sci,1993,19:145～185.
+［5］邓志文.我国垃圾焚烧处理现状及其发展方向初探[J].环境与开发,1999,(14)3：31～35.
+［6］王志刚,张淑娟,陈新庚.广州市城市生活垃圾分类收集研究[J].环境科学动态,1999,3：26～27.
+［7］Floyd Hasselriis,Anthony Licata.Analysis of Heavy Metal emission data from municipal waste combustion[J].Journal of Hazardous Materials,1996,47:77～102.
+［8］Thomas D Brown,Dennis N Smith,Richard A Hargis,et al.Mercury measurement and its control:What we know,have learned,and need to further investigate[J].Journal of the Air & Waste Management Association,1999,49:628～640.
+［9］Liberti L,Notarnicola M,Amicarelli V.Mercury removal with powdered activated carbon from flue gases at the Coriano municipals solid waste incineration plant[J].Waste Manage Res,1998,(16)2:183～189.
+［10］Walter M Shaub.Mercury emission from MSW incinerators:An assessment of the current situation in the United States and forest of future emissions[J].Resources,Conservation and Recucling,1993,9:31～59.
+［11］Franks b Meserole,Ramsay Chang,Todd R Carey.Modeling mercury removal by sorbent injection.Jouranl of the Air & Waste Management Association,1999,49:694～704.
+［12］Sagrario Mendiotoz,Isabel Guijarro M,Vicfnta Munoz.Mercury retrieval from Flue Gas by Monolithic Afsorbents Based on Sulfurized Sepiolite[J].Environ Sci Technol,1999,33:1697～1702.
+［13］Uberoi M,PUNJAK W A,SHADMAN F.The kinetics and mechanism of alkali removal from fllue gases by solid sorbents[J].Prog Energy Combust Sci,1990,16:205～211.
+［14］Pratim Biswas,Michael R Zachariah.in situ immobilization of lead species in combustion environments by injection of gas phase silica sorbent precursors[J].Enviorn Sci technol,1997,(31)9:2455～2463.
+［15］Wu Chang-yu,Lee tai-gyu,Glendon Tyree.Capture of mercury in combustion systems by In situ-generated titania particles with UV irradiation[J].Envion Engin Sci,1998,(15)2:137～148.
+［16］Ho T C, Chen J M,Hopper J T.Novel fluidized bed bechnology for metal emissions control during waste incineration[C].The Second Asian Conference on Fluidized-Bed and Three-Phase Reactors,1991:136～143.
+［17］王韶林编译.日本垃圾焚烧灰处理现状[J].环境科学动态,1995,1：26～27.
+［18］Jakob A,Stucki S,Kuhn P.Evaporation of heavy metals during the heat treatment of municipal solid waste incineration fly ash[J].Environ Sci Technol,1995,29:2429～2436.
+［19］Chris Chan,Charles Q Jia,John W Graydon.The behaviour of selected heavy metals in MSW incineration electrostatic precipitator ash during roasting with chlorination agents[J].Journal of Hazardous Materials,1996,50:1～13.
+［20］Chris C Y Chan,Donald W Kirk.Behaviour of metals under the conditions of roasting MSW incinerator fly ash with chlorinating agents[J].Journal of Hazardous Materials,1999,(B)64:75～89.
+［21］蒋建国,王伟 ,赵翔龙,等.重金属螯合剂处理焚烧飞灰的稳定化技术研究[J].环境科学,1999,(20)3：13～17.
+［22］Elizabeth Gutierrez,Thomasin C Miller,Jose R.Characterization of Immobilizec Poly-L-asparatate as a Metal Chelator[J].Environ Sci Technol,1999,33:1664～1670.
+
+收稿日期：2000年7月31日
+出版日期：2001年5月30日

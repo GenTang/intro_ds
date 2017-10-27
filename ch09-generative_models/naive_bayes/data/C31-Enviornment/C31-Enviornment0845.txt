@@ -1,0 +1,122 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+土壤中单甲脒挥发的研究*
+张晓辉**　莫汉宏***　杨克武　安凤春
+摘要　在实验室模拟条件下初步研究了农药单甲脒从本身纯物质及土壤表面的挥发行为.实验表明，挥发通量的对数与温度的倒数呈线性关系；单甲脒从有机质含量低的土壤中挥发较其从有机质含量较高的土壤中挥发要快；在一定范围内，土壤中单甲脒的挥发通量随着土壤中农药的浓度增加、温度的上升和风速的增加而增加；土壤水分的增加最初促进单甲脒挥发，继续增加则可能使挥发减慢.
+关键词　单甲脒；农药；土壤；挥发；室内模拟.
+Volatilization of N′—(2,4-dimethylphenyl)—N—methylformamidine from soil
+ZHANG Xiaohui, MO Hanhong, YANG Kewu, AN Fengchun 
+(Research Center for Eco-Environmental Sciences, Chines Academy of Sciences, Beijing 100085)
+Abstract　The volatilization of N′—(2,4-dimethylphenyl)—N—methyl_formamidine (DMA) from the surface of DMA pure substance and soil were initially measured in laboratory. The result shown that at the air flow of 3.33m/min, the vapor flux of DMA from the surface of pure DMA was 2.59,6.67 and 18.13 mg/(m2.h), at 30,35 and 40℃,respectively. There was a linear relationship between the reciprocal of the temperature and the logarithm of the value for DMA vapor flux from the surface of DMA pure substance. Factors influencing the volatilization of DMA from soil were also investigated. Under the same condition, the volatilization of DMA from soil with low organic matter was generally greater than that from soil with high organic matter. In a limited extent, the vapor flux of DMA increased with the increase of DMA concentration in soils, the temperature or the air flow rate. The increase of water content in soil was able to raise the DMA volatilization at first, however, more water probably reduce the volatilization of DMA. Without water evaporation from soil at 25℃, total amount of DMA vaporized from sand loam soil during the first four days was measured as 0.28mg, which is 5.6% of all used pesticide.
+Keywords　N′—(2,4—dimethylphenyl)—N—methylformidine, pesticide, soil, volatiolization.
+　　农药从地表的挥发是其进入大气的重要过程，仅次于农药使用时的喷洒过程.农药不仅可以在大气中大量存在，而且可以通过大气在全球范围散布.因此农药从地表包括从陆地(作物和土壤表面)和从水体表面的挥发是一些持久性农药能在远至极地的环境和生物体中被检出的重要原因之一.对此，国外从70年代以来已多有研究，特别是对农药从土壤表面挥发的研究更为全面和系统［1—7］.在对实验室控制条件下影响农药挥发的各种因素的研究基础上已建立相应的多种数学模型，农药从土壤到达大气中的过程可得到定性和定量描述.同时实验手段不断更新，完善的室内实验设施主要包括风洞、温控装置、风速、温度调节装置、土壤湿度调节装置、农药蒸气捕集装置和气流流速计等.
+　　单甲脒农药是一种高效、低毒有机氮杀螨、杀虫剂，化学名称为N′—(2,4-二甲苯基)—N—甲基甲脒，农药剂型为单甲脒盐酸盐水剂.该农药对多种经济作物的螨类有较高活性.本文报道了单甲脒从自身纯物质表面和土壤中挥发的一些特点，并报道在实验室控制条件下单甲脒从土壤中挥发通量的初步研究结果.
+1　实验部分
+1.1　测定装置
+　　实验装置的组成，如图1所示.
+　　(1) 农药挥发室用有机玻璃板制成，分为两部分，下层为土壤池，上层为风洞.土壤池宽为3 cm，长10 cm，最大深度10 cm(可调节).风洞指土壤池与其顶盖间高2 mm的薄层空间，两端比土壤池分别长出7.5 cm，使气流在经过挥发表面时呈稳定的薄层状.(2)农药蒸气捕集管为长10 cm，内径2 cm的玻璃管，一端用玻璃毛填塞，以聚四氟乙烯管接挥发室出口，另一端接流量计，管内填以XAD-2树脂.(3)气路控制与测量系统由预热管、压力表、压力调节器、流速调节阀和皂沫流量计组成.(4)气流湿度控制装置由两个长20 cm，内径4.5 cm的填有玻璃填料的玻璃柱和一个有砂芯的洗气瓶串联而成.
+
+
+图1　土壤中农药挥发实验装置系统图
+1—干燥空气源；2—压力表；3—针形阀；4—预热管；5—装有
+玻璃填料的水饱和柱；6—洗气瓶；7—土壤农药挥发室；8—蒸
+气捕集管；9—流量计；10—恒温箱
+Fig.1 The system for determining volatilization of pesticides from soil
+(5)恒温箱为日本制造Yamato PROGRAM INCUBATOR,Model IB-81(HiTEC)低温培养箱，温度范围-10℃—50℃，温度波动±1.0℃.(6) LC-3A型高效液相色谱仪(岛津)，254 nm固定波长紫外检测器，C18色谱柱，长25 cm，内径0.46 cm,流动相：甲醇/水(体积比为80/20)，流速0.8 mL*min-1.
+1.2　材料和试剂　(1)土壤：选取两种pH值相近、有机质含量相差较大的土壤作农药载体，其有关性质列于表1.使用前于烘箱内在105℃烘2h，使土壤干燥和灭菌，消除微生物对农药的影响.(2)Amberlite XAD-2(德国进口)树脂：农药蒸气捕集剂.新的XAD-2树脂须于索氏提取器中用水、甲醇、二氯甲烷各回流24h，干燥氮气流吹干，用干燥器保存.(3)单甲脒标准品由武汉慈溪化工厂提供25%单甲脒盐酸盐水剂，经本实验室提取纯化，纯度＞98%.单甲脒25℃饱和蒸气压为0.556Pa，亨利常数为1.67×10-3.(4)甲醇经重蒸，二氯甲烷用4%的NaOH溶液在分液漏斗中摇振洗涤后重蒸.
+1.3　操作步骤
+1.3.1　单甲脒从本身纯物质表面的挥发　将浓度为1.00 mg*mL-1单甲脒二氯甲烷溶液2.5?mL施加到3 cm×10 cm玻璃板表面，二氯甲烷迅速挥发，这时玻璃板上出现一层白色沉积物.将玻璃片放入土壤池，调节土壤池深度使玻璃板表面与风洞顶部保持2 mm距离.用聚四氟乙烯条密封挥发室接口，分别在30、35和40℃下通干燥氮气，调节气速为3.33 m*min-1，通气12 h.通气结束取出捕集管，将管中树脂取出，用滤纸包裹后于索氏提取器中用二氯甲烷回流6 h，将提取液减压浓缩，待剩余的二氯甲烷自然挥发后立即用甲醇定容至1 mL，用液相色谱法分析其中单甲脒含量.
+表1　土壤的基本性质
+Table 1 Properties of soils used in the experiment
+土壤类型褐土潮土
+取土地点北京河南
+pH8.278.14
+有机质含量，%2.750.40
+CEC*(me/100g)10.886.01
+　　　　砂粒37.258.2
+机械组成，粉粒53.829.0
+　　%　　粘粒9.012.8
+质地粉砂壤土砂壤土
+K**d7.400.92
+密度，kg*m-325902150
+容重，kg*m-310701450
+
+　　* 阳离子交换容量
+　　** 土壤/水分配系数
+1.3.2　影响农药从土壤中挥发因素的测定
+　　(1)系统恒温：预先启动恒温箱使系统达到设定温度.(2)土壤施药：土壤池深度取1 cm对一天实验时间是足够的.据此取土壤称重(河南潮土33.0 g，北京褐土25.0 g).根据施药量准确移取一定体积的1.00 mg*ml-1单甲脒二氯甲烷溶液，分散滴加在土壤上并轻轻搅拌，使之与土壤充分混合，重新称重以确认溶剂自然挥发完.(3)土壤加水：按所控制含水量的比例加入蒸馏水，拌匀.(4)土壤填装：将上述土壤混合物全部填入土壤池中，边填边轻轻压实，最后使土表平整.(5)系统运行：密封挥发室并将其按图1连入实验装置.开启气阀，控制流速，记录时间和流速.该流速下，空气通过湿度控制装置后应达到饱和，即控制土壤水份蒸发量为零.(6)取样测定：运行一天后关闭气路，取出捕集管，将管中捕集剂取出，按1.3.1节所述的方法处理后，用液相色谱法分析其中单甲脒含量.
+1.3.3　农药从土壤中长时间挥发趋势测定　按1.3.2节所述步骤，在25℃下，河南砂壤土中，单甲脒浓度为128.9 mg*kg-1，含水15%，风速1.67 m*min-1，每天更换一次捕集剂，连续采样4 d.
+1.4　挥发通量的预测
+
+
+图2　单甲脒从自身纯物质表面的挥发通量-温度曲线
+Fig.2 Relationship between vapor flux of DMA from the surface of pure substantce and temperature
+本文选用了Jury［2，3］的土壤中痕量有机化合物行为评价模型.该模型中根据享利常数大小，有机化合物被分为3类：Ⅰ类化合物，KH值远大于2.5×10-5，在环境中易挥发；Ⅲ类化合物，KH值远小于2.5×10-5，在环境中难挥发；Ⅱ类化合物介于前两者之间.已知单甲脒25℃的KH为1.67×10-3，属于Ⅰ类化合物，对于这类化合物，当以初始总浓度C0(g*m-3)均匀混和于土壤中时，穿过土壤表面到达大气中的最大挥发速率JV用下式表示：
+JV=C0(DE/πt)1/2
+(1)
+式中，t是时间(d)，DE是有效土壤扩散系数(m2.d-1)，用下式得到：
+
+(2)
+式中，KH——享利常数，DairG——空气中气相扩散系数(m2.d-1)，DwaterL——水中液相扩散系数(m2.d-1)，a——空气含量，——土壤孔隙度，θ——水含量.
+2　结果与讨论
+2.1　单甲脒从纯物质表面的挥发
+　　实验中30 cm2玻璃表面形成可见沉积层，这样使单甲脒的挥发在实验过程中始终发生在单甲脒的表面.气速为3.33 m.min-1，实验测得单甲脒在30、35、40℃时的挥发通量分别为2.59、6.76和18.13 mg.m-2.h-1，绘出挥发通量的对数随温度变化的曲线(图2).从图上可以看出，挥发通量的对数与温度的倒数呈线性关系(R=-0.999).根据Clausius-Clapeyron方程［1］，化合物饱和蒸气压的对数与相应温度的倒数呈线性关系，可见挥发通量与相同温度下的饱和蒸气压是成比例的.
+2.2　单甲脒从土壤中挥发的影响因素
+　　农药从土壤中挥发受多种因素影响，实验中对两种土壤的几种影响因素的作用各取3点进行测定.
+
+
+图3　土壤中单甲脒浓度对挥发的影响
+Fig.3 Effect of soil concentration to vapor flux of DMA
+2.2.1　土壤性质　从实验结果(如图3—图6)可以看出，单甲脒在相同条件下在河南潮土中的挥发通量一般比在北京褐土中的挥发通量大，这与对农药在土壤中吸附行为的研究结果相吻合［8］.有机质含量在土壤吸附弱极性非离子农药分子的作用中是主要影响因素，有机质含量越高，吸附越强，因而挥发越弱.北京褐土有机质含量为2.75%，河南潮土有机质含量为0.40%，两者有着显著差别，所以在相同条件下，单甲脒在两种土壤中挥发行为也就大为不同.在实验所选两种碱性土中单甲脒不会电离，因而与土壤中蒙脱石等矿物的离子交换影响可不考虑.
+　　土壤孔隙度影响农药分子在土壤中气相扩散的速度.孔隙度可按式(3)计算
+
+
+图4　温度对土壤中单甲脒挥发的影响
+Fig.4 Effect of tempertature to vapor flux of DMA from soil
+
+(3)
+式中，P——土壤总孔隙度(%)；dv——土壤容重(kg.m-3)；ds——土壤密度(kg.m-3).
+　　孔隙度的计算结果河南潮土为40%，北京褐土为62%，后者高于前者，这应有利于单甲脒通过气相扩散较快到达土壤表面，但实验结果相反.与土壤有机质含量相比，孔隙度影响并不显著，原因之一是挥发时间短，挥发掉的主要是土壤表面的单甲脒.
+2.2.2　土壤中单甲脒的浓度　图3表明在一定范围内，两种土壤中单甲脒的挥发都随浓度增大而呈增加趋势.
+2.2.3　温度　化合物从土壤挥发通量的对数与温度的倒数的关系仍可用Clausius-Clapeyron方程表示.图4表示单甲脒从土壤挥发通量与温度的关系，实验结果与理论符合得不是很好，特别是在北京土中.这不仅是因为所试验的只有3点，不能良好地反映上述关系，更主要的原因是单甲脒在这两种偏碱性土壤中易降解.显然温度的升高促进降解，使土壤中单甲脒浓度下降，因而挥发量减少，使图中较高温度处的点偏低.
+
+
+图5　土壤水含量对单甲脒挥发的影响
+Fig.5 Effect of water cotent in soil to vapor flux of DMA from soil
+2.2.4　土壤水含量　水分对农药从土壤中挥发的影响有：(1)土壤水分蒸发时农药分子随其运动而利于挥发；(2)一般农药从潮湿土壤中挥发比从干燥土壤中挥发要快，但过于潮湿可能限制农药挥发.本实验中空气相对湿度控制为100%，土壤水分没有因蒸发而运动，因而单甲脒挥发速度仅取决于(1)水分如何影响其在土壤中的分配；(2)覆盖于土壤颗粒表面的水分子层厚度.
+　　实验结果表明(图5)，在河南潮土中，当土壤水含量为10%和20%时，单甲脒的挥发通量较土壤含水量为15%时低.当水含量为10%时，该土壤干燥松散，农药分子以吸附于土壤颗粒上为主而阻碍挥发.含水量增为15%时，农药分子解吸到水分子层中的数量增加，
+
+
+图6　风速对土壤中单甲脒挥发的影响
+Fig.6 Effect of wind velocity to vapor fluxof DMA from soil
+农药分子很快穿过水分子层到达挥发表面挥发掉.水分增加到20%时，因含水量较大该土壤呈泥浆状，对单甲脒分子来说这种环境近似于溶液，当溶液表层农药分子挥发耗尽后，较深层的和吸附于土壤颗粒上的农药分子需要通过解吸和较远的液相扩散才能达到溶液表面，同时农药分子通过土壤孔隙的气相扩散也被抑制，因而挥发减慢.
+　　在北京土中水分从10%、15%到20%，单甲脒挥发通量随之增加，较大的含水量尚未限制农药挥发.这是因为北京土孔隙度较大，大的表面积使附着于土壤颗粒上水分子层较薄.
+
+
+图7　土壤中单甲脒随时间挥发的趋势
+Fig.7 Volatilization trend of DMA from
+soil versus time
+2.2.5　风速　风速的增加可加快土壤表面农药的挥发，也使土表气流与较深处土壤空气交换速率增加，有利于较深处农药的挥发.当风速达到一定限度后，气相扩散成为限制因子，风速的增加不再促进挥发.实验结果表明(图6)，单甲脒从北京褐土中的挥发在风速增强时随之增大，与上述观点相符.单甲脒从河南潮土中的挥发在风速最大时挥发没有继续增大，但由于取样水平只有3个，还没有充分证据说明风速的影响达到极限.
+2.3　长时间挥发趋势测定
+　　单甲脒在土壤中容易降解，在碱性土中半衰期为4.6 d［9］，所以仅采样4 d.但从实验结果的趋热看，4 d后仍会有显著挥发.单甲脒在4 d的时间里挥发通量分别为29.4，22.9、21.5、20.1 mg.m-2.d-1，呈逐渐下降趋势，与用Jury模型的预测是基本符合(图7).根据Jury模型，单甲脒应属Ⅰ类(易挥发)化合物(KH2.5×10-5)，这类化合物从土壤中的挥发一开始就使土壤表面的农药迅速消耗完，接下来的挥发是由土壤内部农药向土表的扩散过程控制.单甲脒从土壤中的挥发逐天下降是因为其在土壤中的扩散要比挥发慢得多，同时土壤内单甲脒含量也在减少而造成的.
+3　结论
+　　在气流速度为3.33 m.min-1，温度为30、35和40℃时单甲脒从本身纯物质表面挥发通量分别为2.59、6.76和18.13 mg.m-2*h-1，挥发通量的对数与温度的倒数呈线性关系，因此挥发通量与相应温度下的饱和蒸气压成正比.在同样条件下，单甲脒从有机质含量较低的河南潮土中挥发比从有机质含量较高的北京褐土中挥发一般要快；挥发通量随着土壤中农药的浓度增加而增加；温度的上升促进挥发，但高温下单甲脒可能降解而减弱挥发；土壤水分的影响较复杂，总的趋势是在一定范围内水的增加首先促进单甲脒挥发，继续增加可能使挥发下降；风速增加有利于挥发.在25℃没有水分蒸发时，单甲脒从含量为128.9 mg.kg-1的土壤中的挥发通量在开始4 d中逐渐下降，共挥发了0.28 mg，占总施药量的5.6%.
+　　* 国家自然科学基金资助项目(批准号99290600)
+　　** 现工作单位：化工部北京化工研究院环境保护研究所
+　　*** 通讯联系人
+作者单位：(中国科学院生态环境研究中心，北京　100085)
+参考文献
+　[1]　Burkhard N, Guth J A. Rate of volatilization of pesticides from soil surfaces. Pestic Sci, 1981,12:37
+　[2]　Jury W A, Spencer W F, Farmer W J. Behavior assessment model for trace organics in soil: Ⅰ. Model description. J Environ Qual, 1983,12:558
+　[3]　Jury W A, Spencer W F, Farmer W J. Behavior assessment model for trace organics in soil: Ⅱ.Chemical classification and parameter sensitivity. J Environ Qual, 1984,13:567
+　[4] Spencer W F, Cliath M M. Pesticide volatilization as related to water loss from soil. J Environ Quality, 1973,2:284
+　[5]　Spencer W F, Cliath M M. Factors affecting vapor loss of trifluraling from soil. J Agric Food Chem, 1974,22:987
+　[6]　Spencer W F, Cliath M M. Evaluating volatility of toxicants in soil and water. Test Protocols for Environmental Fate and Movement of Toxicants, AOAC, 1980:110
+　[7]　Spence W F, Cliath M M, Jury W A et al. Volatilization of organic chemicals from soil as related to their Henry's Law constants. J Environ Qual, 1988,17:504
+　[8]　杨克武，安凤春，莫汉宏.单甲脒在土壤中的吸附.环境化学，1995，14(5)：431
+　[9] 周振惠，翁朝联，莫汉宏.单甲脒在土壤中的降解及持久性研究.环境化学，1995，14(3)：234
+1997-05-16收到原稿　1997-12-25收到修改稿

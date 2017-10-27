@@ -1,0 +1,123 @@
+宇航学报 
+JOURNAL OF ASTRONAUTICS
+1998年 第19卷 第1期 No1 Vol.9 1998科技期刊
+
+在不同地形条件下的地形辅助
+导航系统定位精度评估
+苏　康　关世义
+(航天工业总公司三院三部*北京7203信箱210分箱*100074)
+柳　健　张继贤
+(华中理工大学图象所*武汉*430074)
+　　摘　要　如何选择合适的地形是卡尔曼连续修正的地形辅助导航系统在实际应用中遇到的难题。本文首先建立系统仿真模型，然后利用ARC/INFO地理信息系统软件进行地形分析。在此基础上，通过大量的计算机仿真试验，对卡尔曼连续修正的地形辅助导航系统在不同地形条件下的定位精度进行了评估。评估结果为系统在实际应用中的地形选择提供了依据。
+　　主题词　地形辅助导航　仿真　评估　卡尔曼滤波　坡度标准差　地理信息系统　圆概率误差
+POSITIONING ACCURACY EVALUATION OF 
+A TERRAIN-AIDED NAVIGATION SYSTEM 
+UNDER DIFFERENT TYPES OF TERRAIN
+Su Kang　Guan Shiyi
+(The 3rd Research Academy,CASC*Beijing*100074)
+Liu Jian　Zhang Jixian
+(Institute of Image Recognition & AI,HUST*Wuhan*430074)
+　　Abstract　How to select appropriate type of terrain for a terrain-aided navigation system using continuous Kalman updating technique is a complicated problem encountered in practical applications.The system simulation models have been built,then terrain data analysis has been carried out on the ARC/INFO GIS software platform.Finally,the system performance under different types of terrain has been evaluated by a large number of computer simulations.The criterion for selection of terrain required for good navigation performance can be derived from the valuation results.
+　　Key words　Terrain-aided navigation Simulation　Evaluation Kalman filtering　Standard variance of slope　Geographical Information System(GIS)　Circular error probable(CEP)
+1　引言
+　　地形辅助导航(Terrain-aided Navigation(TAN))系统是近十几年出现的一种新型的导航系统，其主要功能是利用地形的特征信息实现飞行器自主、隐蔽、连续、全天候的精确导航，因此，该系统在无人和有人驾驶飞行器上得到实际的应用。地形辅助导航系统的种类很多，利用卡尔曼滤波技术连续修正的地形辅助导航系统是其中之一，如图1.1所示。该系统由惯导系统、雷达高度表、气压高度表、数字地图和卡尔曼滤波器五部分组成。系统的工作原理是，首先通过飞行任务规划系统得到飞行器预定要飞过区域的等高线数字地图，并将它存到飞行器载计算机中。当飞行器经过预定区域上空时，利用惯导提供的位置和速度信息，在数字地图上采用地形随机线性化技术对地形进行拟合来提取地形参数。通过卡尔曼滤波器把地形参数信息、雷达高度表和气压高度表的测量信息以及惯导输出的状态信息综合起来，实现对惯导状态误差的最优估计，并将误差估计值反馈给惯导系统，修正该系统经过长时间飞行所积累的误差。　　
+
+
+1.1　地形辅助导航系统原理框图
+由图1.1可见，地形是影响系统定位精度的因素之一。对于不同的地形，系统有不同的定位精度。由于地形的多样性、复杂性和差异性，因此，如何选择适合辅助导航的地形是实际应用中碰到的难题。为了解决这个问题，需要对导航系统在不同地形条件下的定位精度进行评估。众所周知，很难用精确的数学模型对地形进行描述，因而不便用解析方法对其进行评估，一种行之有效的方法是通过计算机进行数字仿真。本文在建立系统数学模型的基础上，用真实的数字地图，通过大量的计算机仿真试验，得到了系统在不同地形条件下的定位精度。
+2　系统数学模型
+　　为了利用计算机仿真手段对系统的定位精度进行评估，首先要建立系统的数学模型。
+2.1　卡尔曼滤波模型
+　　状态方程：
+Xk+1=Φk+1,kXk+Wk(2.1-1)
+　　测量方程
+Zk+1=Hk+1Xk+1+Uk+1(2.1-2)
+Xk=［δxk,δyk,δzk］T(2.1-3)
+Φk+1,k=100
+010
+001(2.1-4)
+Hk=(-αk,-βk,1)(2.1-5)
+Zk=Ck-Ak(2.1-6)
+Uk=Vk+V′k-εk(2.1-7)
+式中　δxk,δyk,δzk分别为k时刻X，Y，Z方向上的位置误差；
+　　　αk,βk分别为k时刻拟合平面在X，Y方向上的地形斜率；
+　　　Ck为k时刻雷达高度表的测量值；
+　　　Ak为k时刻飞行器的参考位置到拟合平面的距离；
+　　　Vk，V′k分别为k时刻雷达高度表和气压高度表的测量噪声；
+　　　εk为k时刻地形拟合误差(称之为拟合噪声)；
+　　　Wk为k时刻动态噪声。
+　　为了得到系统的卡尔曼滤波递推公式，提出以下假设条件：
+　　(1)雷达高度表测量噪声序列Vk、气压高度表测量噪声序列V′k、拟合噪声序列εk、动态噪声序列Wk是互不相关、均值为0的高斯白噪声序列，即
+E［Vk］=0(2.1-8)
+E［VkVTj］=Rkδk,j(2.1-9)
+E［V′k］=0(2.1-10)
+E［V′kV′Tj］=R′kδk,j(2.1-11)
+E［εk］=0(2.1-12)
+E［εkεTj］=RFkδk,j(2.1-13)
+E［Wk］=0(2.1-14)
+E［WkWTj］=Qkδk,j(2.1-15)
+　　(2)Vk、V′k、εk和Wk彼此之间相互独立。
+　　(3)，其方差矩阵为
+　　，并且X0与Vk、V′k、εk和Wk彼此之间相互独立。
+　　由以上假设条件，根据文献［7］，可以得到以下递推公式：
+(2.1-16)
+Pk+1/k=Φk+1,kPk/kΦTk+1,k+Qk(2.1-17)
+Kk+1=Pk+1/kHTk+1［Hk+1Pk+1/kHTk+1+Rk+R′k+RFk］-1(2.1-18)
+(2.1-19)
+Pk+1/k+1=Pk+1/k-Kk+1Hk+1Pk+1/k(2.1-20)
+2.2　地形随机线性化模型
+　　地形随机线性化是指用一个平面(称拟合面)来拟合地形，拟合面必须在统计意义上足够准确地反映地形的变化趋势。本文采用九点平面拟合方法对任意时刻k得到的地形块进行平面拟合，拟合面的变化趋势在统计意义上满足最小二乘准则。设d为固定的格网间隔，T1，T2，…，T9为地形块9个点的地位上由数字地图提供的地形海拔高度，则拟合面在飞行器估计位置上的海拔高度αk、在X、Y方向上的斜率αk、βk满足下列公式：
+(2.2-1)
+(2.2-2)
+(2.2-3)
+2.3　地形模型
+　　为了使评估结果反映实际情况，在仿真过程中，采用由等高线图制作而成的不同类型地形数字地图，而不是通过计算机模拟的方法来产生所需要的地形数据。所有的数字地图数据均用美国环境系统研究所(ESRI)开发的ARC/INFO地理信息系统软件来管理和分析。
+　　从系统模型可见，地形对导航定位精度的影响表现为地形拟合面的斜率变化对导航定位精度的影响。因此，本文用坡度标准差(stdslp)作为特征来描述不同类型的地形，并研究该特征参数和系统定位精度(CEP)的关系。设地图的大小为M×N，如图2.1所示，对于数字地图上的任意一点(i,j)，它对应的高程为h(i,j)，数字地图的格网大小为cellsize，则点(i,j)的坡度和坡度标准差(stdslp)定义为：
+slp(i,j)=［slp(i,j)2x+slp(i,j)2y］(1)/(2)×100%(2.3-1)
+(2.3-2)
+其中
+slpx(i,j)=［h(i+1,j-1)+2h(i+1,j)+h(i+1,j+1)-h(i-1,j-1)-2h(i-1,j)-h(i-1,j+1)］/(8×cellsize)(2.3-3)
+slpy(i,j)=［h(i+1,j-1)+2h(i,j-1)+h(i+1,j-1)-h(i-1,j+1)
+-2h(i,j+1)-h(i+1,j+1)］/(8×cellsize)(2.3-4)
+(2.3-5)
+　　图2.2所示的是一个利用上述公式得到的坡度分布灰度图，图的格网数为100×250，格网大小(cellsize)为50m×50m。
+
+h(i-1,j-1)h(i,j-1)h(i+1,j-1)
+h(i-1,j)h(i,j)h(i+1,j)
+h(i-1,j+1)h(i,j+1)h(i+1,j+1)
+
+　图2.1　格网位置(i,j)及其邻域的高程示意图
+
+
+图2.2　坡度分布灰度图
+3　仿真结果及其分析
+　　仿真过程流程如图3.1所示。首先产生飞行航迹，航迹数据被分别送到高度表(包括雷达高度表和气压高度表)输出仿真模块和惯导输出仿真模块，以便产生高度表和惯导系统的输出。利用ARC/INFO地理信息系统软件完成地形特征参数计算和地形筛选。将得到的地形数据和高度表输出数据、惯导系统输出数据一起关至卡尔曼滤波器，经过滤波处理后，得到位置状态的最优估计。
+　　
+
+
+图3.1　仿真流程图
+仿真初始条件：
+　　(1)协方差阵初始值
+　　
+　　(3)测量噪声Rn=Rk+R′k为20m；
+　　(4)卡尔曼滤波器的迭代次数N=80，时间间隔为0.5s；
+　　(5)数字地图格网数为100×250，格网大小为50×50m2。
+　　在仿真的过程中，利用ARC/INFO地理信息系统对地形进行分析和筛选，一共选取了14幅具有不同特征参数的数字高程图作为仿真情况，它们分别代表平地、丘陵、山地等地形，特征参数stdslp为1.532，2.886，3.077，6.510，6.911，7.897，7.919，8.026，8.784，11.557，12.164，12.972，15.044，15.382。
+　　对每一种试验情况，通过统计试验(Monte-Carlo)法，进行了400次仿真试验，并经数据的统计处理和回归分析，所得结果如图3.2所示。其中表示的是系统的圆概率误差(CEP)随坡度标准差(stdslp)变化的关系曲线。从中可见：　　
+
+
+图3.2　圆概率误差(CEP)和坡度
+标准差关系曲线
+(1)系统的圆概率误差(CEP)的大小虽然有些波动，但是它的总体趋势随坡度标准差(stdslp)增加而减小。这说明了粗糙程度大的地形有利于系统定位定位精度的提高。
+　　(2)当坡度标准差大于3时，系统的CEP小于100m，而stdslp大于3所对应的地形大多数是丘陵以上的地形，因此，所设计的导航算法在丘陵地形的上空也能取得很好的定位效果，也就是说，选择stdsp大于3的地形能够满足实际的应用要求。
+4　结论
+　　在卡尔曼滤波连续修正地形辅助导航系统中，地形是影响其定位精度的重要因素。计算机的仿真结果表明，系统的导航定位精度与地形的粗糙程度密切相关。当地形坡度标准差(stdslp)大于3时，系统的圆概率误差(CEP)在百米以内，能满足飞行器导航实际应用要求。本文的研究成果为系统实际应用的地形选择提供了依据。
+参考文献
+　　1　苏康，关世义，陈渭莉.图象匹配制导系统精度分析.宇航学报，1992(3)：19-23
+　　2　Hostetler L D Beckmann.R C.Continuous Kalman Updating of an Inertial Navigation System Using Terrain Measurements.NAECON,May,1978:1623-1270
+　　3　Paul W.Mcburney.A Robust Approach to Reliable Real-Time Kalman Filtering.IEEE PLANS′90-Position Location and Navigation,Symposium,Las Vegas NY,Mar.20-33,1990:549-556
+　　4　Drayton D.Boozer.Terrain-Aided Navigation Test Results in the AFTI/F-16 Aircraft.NAVIGATION(ISSN 0028-1522),Journal of The Institute of Navigation,Summer 1988，(2)
+　　5　Russell Enns,Darryl Morrell.Terrain-Aided Navigation Using the Veterbi Algorithm,Journal of Guidance,Control,and Dynamics,November December 1995,(6)
+　　6　Understanding GIS-The ARC/INFO Method.USA:Environment System Research Institude,INC,1995
+　　7　柯正谊，何建邦，池天河.数字地面模型.北京：中国科学技术出版社，1993，5
+　　8　贾沛璋，朱征桃.最优估计及其应用.北京：科学出版社，1984，12

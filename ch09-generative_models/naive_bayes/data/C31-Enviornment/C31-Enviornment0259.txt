@@ -1,0 +1,126 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+常温厌氧污泥消化的停留时间分析
+王世和　(东南大学环境工程系，南京 210096)
+远藤郁夫　(早稻田大学，日本)
+文　摘　通过对25℃下城市污泥常温厌氧消化过程的产气率、pH值、挥发酸、有机物分解率、消化速度常数等的测定，引入“微生物污泥(Active Biological Solids)”概念，进行了常温厌氧消化过程的动力学分析。结果表明，常温消化的反应速度、产气率、有机物分解率均明显低于高、中温消化。为获得同一程度的产气率和有机物分解率，常温消化需150天以上的停留时间，而中、高温则为12～30天。常温污泥消化的基质浓度与消化速度关系不同于合成基质，呈S型，可采用Moser模型模拟其动力学过程；n=2时所得各项动力学常数及最小消化时间可用于常温厌氧消化过程的控制。
+关键词　厌氧污泥消化　甲烷发酵　污泥处理与处置
+
+The analysis of the retention time in the process of the normal temperature anaerobic sludge digestion.Wang Shihe (Department of Environmental Engineering, Southeast University,Nanjing 210096);Ikuo Endo(WASEDA University, Japan).China Environmental Science.1998,18(3):218～222
+Abstract—In this paper, the concept of “Active Biological Solids" was introduced and the analysis of kinetics in the process of normal temperature anaerobic digestion was carried out by means of measuring the rate of gas production, pH, the volatile acid, the degradation rate of organic matter and the digestion speed constant in the process of urban sludge anaerobic digestion in 25℃. The results demonstrate that the reaction speed, the rate of gas production and the degradation rate of organic matter in normal temperature digestion are obviously lower than those in high or middle temperature. To reach the same degree in the rate of gas production and degradation rate of organic matter, the retention time for normal temperature digestion needs more than 150 days,while only 12 to 30 days required for high or middle temperature digestion. The relationship between the substrate concentration and the digestion speed in the process of normal temperature sludge digestion takes on the style of an "S", which differs from that of the synthetic substrates. Its kinetics can be simulated with Moser model. When n is 2, several kinetic constants and the minimum digestion time can be used for the control of nomal temperature anaerobic digestion.
+Key words:anaerobic sludge digestion　methane fermentation　sludge treatment and disposal
+　　已有的研究表明〔1〕，高温和中温消化可在较短的时间内获得较好的处理效果。但自70年代初世界性能源危机以来，以节能为特征的低温、常温污泥消化技术的研究成了科技界关注的热点。
+　　污泥消化与污水生物处理同是生化过程，但由于有机物的表现形态不同，消化过程的动力学分析也不同。在厌氧污泥消化中，作为基质对象的污泥中的有机物及无机物，常以溶解态、胶体及悬浮物等形式表现，因而MLVSS也与合成基质的情形不同。作者的研究表明〔1〕，在各种停留时间下，TS中的SS约占84.5%～88.4%；混合液基质浓度中，分离液仅占21%～23%，其余77%～79%的有机物以悬浮状态存在，故可认为菌体是以SS为附着载体，并在反应器内构成SS 与菌体的复合体，共同完成对有机物的降解过程。为便于分析，本文将此定义为“微生物污泥”，并以此为MLVSS进行动力学分析。
+1　试验概况
+　　试验用图1的消化装置，14组消化反应器分别置于25±0.2℃的恒温水槽内，停留时间分别为8、10、12、15、20、25、30、40、60、80、100、120、150、200天。反应器容积：8～80天消化组用3.0L玻璃瓶，混合液容积为2.4L；100～200天消化组采用5L玻璃瓶，混合液容积为4L。每天1次进行污泥的排出和投配，早、晚各1次充分搅拌，使反应器内污泥混合均匀。接种污泥以城市污水处理厂二沉池污泥经8个月充分驯化而成。
+　　投配污泥的初始测定值：pH值为5.93，CODCr 31548mg/L，BOD5 12843mg/L，VFA1412mg/L,TS 22424mg/L，VS 18383mg/L，SS 19561mg/L，VSS 16675mg/L，T-N 835mg/L。试验共进行了10个月，每天定时测定反应器内混合液的pH值、挥发酸(VFA)、BOD5、CODCr及MLVSS等值，分析数据为稳定运行状态下3个星期的平均值(见表1)。
+
+图1　消化装置示意
+Fig.1　Illustration of the digestion unit
+A.反应器　B、C.沼气测量系统　D.混合液采样口
+E.基质投加口　F.安全阀　G.恒温水槽　　　　　
+表1　试验测定结果平均值
+Table 1　Average results measured in the experiments
+
+消化天数
+(d)产气量
+(mL/d)pH值BOD混
+(mg/L)BOD分
+(mg/L)CODCr
+(mg/L)VFA
+(mg/L)TS
+(mg/L)VS
+(mg/L)SS
+(mg/L)VSS
+(mg/L)
+823916.7556441386173091192.01585211198131869807
+1021096.84369490714744376.0137859120114128067
+1218776.87302272714956749.2128468570109307598
+1512376.85277154216161267.81670210125136499389
+2011596.94230149213449564.7128838349107607293
+259456.97225646713488536.6130258309108137226
+306416.94211344615627280.4142499250125208354
+404616.97198441913443419.013774878.2121327996
+603267.02171334213050496.6134878471117087543
+802477.07179332112024455.0131048187112447234
+1003877.07169938912289342.2133508238112697106
+1203347.11152041012888377.8130097956109927019
+1502737.17153935812523339.8128937795108846875
+2002167.20145534212407412.3126997789105006533
+
+2　试验结果及动力学分析
+　　图2为产气量与停留时间的关系。为便于分析，同时给出高温(53℃)、中温(37℃)消化的试验曲线。从图2可见，在12～30天消化条件下，中、高温产气量均达到600～630mL/g*VS，接近最高产气量。常温消化的产气量在12～200天范围内，在465～630mL/g*VS间渐增。由此看来，为获得与中、高温稳定状态同程度的产气量，常温消化需150天以上的停留时间。同时发现，反应器混合液pH值达到7.0以上需40天以上的消化时间。
+　　图3为消化时间与有机物分解率的关系。在高、中温消化、产气率稳定的状态下，有机物分解率在55%～63%范围内上升，而常温消化在8～30天内急增，40天以上有机物分解率增势趋缓，150～200天时达到最大值(55%)，常温消化难以达到高、中温时的最大消化率。为获得50%以上的分解率，需有60天以上的停留时间；要获得55%以上的分解率，高、中温消化的停留时间在12天以上即可，而常温需150天以上。尽管如此，30天消化的分解率已经达到46%，为最高消化率(55%)的84%；要达到90%的最大可能消化率，停留时间在60天以上即可，此时分解率为50.5%。
+
+图2　产气量、pH值与停留时间关系
+Fig.2　The relationship between the amount of gas
+production, pH and ratention time 
+
+图3　有机物分解率与停留时间关系
+Fig.3　The relationship between the degradetion
+rate of the organic matter
+　　图4为反应器的基质浓度与基质消化速度的关系。由图4可知，与合成基质时的抛物线分布不同，此时呈S型分布规律，在BOD5为2050mg/L处出现拐点。因而判定，常温污泥消化过程不能简单地套用Monod方程，必须在对微生物污泥的增殖规律进行分析的基础上，引进Moser模型〔1～3〕，以考察常温厌氧污泥消化的动力学过程。根据本研究的具体条件，图1的消化系统可概括为的完全混合型反应器，故
+　　基质的容积负荷
+　　去除率　　　　(2)
+　　消化速度　　　(3)
+式中：X0、X为投料及反应器内的微生物浓度；S0、S为投料及反应器内的基质浓度；Q为流量；V为反应器混合液体积；t为污泥停留时间。由反应器内微生物污泥的平衡关系可得：
+　　(4)
+式中：Kd为微生物污泥的自身氧化率。
+　　(dX/dt)=-Kd*X　(5)
+Y为微生物污泥的产率系数：
+(6)
+通常情况下，X0=0；在稳态下dX/dt=0，故(4)式可化简为：
+(7)
+
+图4　基质消化速度与基质浓度关系
+Fig.4　The relationship between substrate degestion 
+speed and substrate concentration
+进一步线性化可得：　(8)
+作图(图5)，可得(8)式中Y=1.51，Kd=0.0442。以(6)式中微生物污泥概念为基础，将试验资料作图(图6)，由直线的斜率求得甲烷发酵阶段微生物污泥产率系数Y=1.5(VS/TS=0.82，相关系数r=0.934)。可见两者所得Y值非常一致。一般情况下，合成基质高温厌氧消化的微生物产率系数YBOD=0.096mg*VSS/mg*BOD5(YCODCr0.057mg*VSS/mg*CODCr)。可见，本文定义的微生物污泥的产率远大于合成基质，两者之比为16.2。由于微生物污泥不同于单纯的菌体，因而产率值相差甚远。
+
+图5　Rs/X～1/t关系
+Fig.5　The relationship between Rs/X and 1/t
+
+图6　式(6)所得ΔBOD5～ΔVSS关系
+Fig.6　The relationship between ΔBOD5　and
+ΔVSS derived from equation(6)
+　　令微生物污泥增殖速度为：
+　　　　　Rm=K*X　(9)
+式中：K为微生物污泥的比增殖速率，采用下式的Moser方程：
+　(10)
+式中：Km为微生物污泥的最大比增殖速度；Ks为Moser常数。当n=1时，(10)式即为Monod方程，Ks则为Monod方程的饱和常数。由微生物污泥产率系数的定义可得：　(11)
+代入式(9)、(10)得：
+　(12)
+线性化可得：
+　　由图4中S～Rs曲线的S型分布规律可知，式(13)中n>1.0，作者在已有的研究〔1〕中得出，常温厌氧污泥消化按二级反应进行分析可获得足够的精度。因此，取n=2，将Y，n等值代入式(13)，并作X/Rs～(1/S)2图(图7)，可得Moser模型常数Km=0.278，Ks=(3618)2，代入式(10)得：　(14)
+
+图7　X/Rs～(1/S)2
+Fig.7　The relationship between  and 
+
+图8　n=2时的Moser模型关系
+Fig.8　The relationship diagrams for Moser model when n is 2
+　　图8绘出式(14)中S～K关系，可见在30天消化处有拐点，对式(14)求得拐点处浓度：S==2088mg*BOD/L　(15)
+　　与图4所得值非常接近，说明在本试验条件下取Moser模型指数n=2符合实际反应条件。
+　　令反应器内混合基质的稀释率为D=1/t，则最大稀释率Dm对应着最小停留时间tmin。将式(3)代入式(7)，可得：
+　　X*(D+Kd)=Y*D(S0-S)　(16)
+改写式(12)并代入式(8)，可得：
+　　　　(17)
+代入(16)式得：
+　(18)
+将式(18)对D求导数并令其为零：
+
+解得Dm=0.1497d-1，故甲烷发酵阶段的最小停留时间tmin=1/Dm=6.67≈7(d)。本试验8天消化时pH=6.8，有机物分解率为47.8%，消化过程显得不稳定，此时有机酸积累(VFA=1192.0mg/L)，明显高出10天以上消化的VFA值。由此可见，停留时间对污泥的厌氧消化过程及有机物分解率、产气率等影响很大。为保证城市污泥的正常消化过程，需保证停留时间不低于该消化温度下的最小停留时间。
+3　结论
+3.1　25℃下常温厌氧污泥消化的动力学分析及试验结果表明，由于温度的影响，常温消化的反应速度、产气率、有机物分解率均明显低于高、中温消化。为获得同样程度的产气率(600～630mL/g*VS)和有机物分解率(55%)，常温消化需150天以上的停留时间，而高、中温只需12～30天。
+3.2　常温污泥消化的基质浓度与消化速度关系不同于合成基质，呈S型，可采用Moser模型模拟其动力学过程。n=2时，Y=1.51mg*MLSS/mg*BOD,Kd=0.0442 1/d,Km=0.276 1/d,Ks=(3618)2(mg BOD/L)2，tmin=7d，可用于控制常温厌氧消化过程。
+3.3　常温消化虽运行效果不及高、中温，但由于无需加温，从而大大节省能耗，降低运行管理费用，并使装置简化。因而，在我国南方大部分地区仍不失为一种经济、简便的污泥处理处置方法，具有较好的开发应用前景。
+参考文献
+1　远藤郁夫，王世和.(日)土木学会第49回年次讲演概要集，1994，9
+2　清水达夫.剩余污泥的甲烷发酵机理及动力学分析.下水道协会志，1992，29(339)：82～92
+3　Pavlotathis S G，Gossett J M.Kinetics model for anaerobic digestion of biological sludge.Biotech and Bioeng，1996, 28：1519～1530
+作者简介
+王世和　男，1945年11月生。现任东南大学环境工程系教授。主要从事环境工程及废水处理等方面的教学和科研工作。主持承担水处理生物流化床的微生物与流体相关机制及其应用等两项国家自然科学基金及4项省部级课题的研究，获省、市科技奖各1项，教学奖5项。发表论文40多篇。
+收稿日期：1997-05-28

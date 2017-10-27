@@ -1,0 +1,99 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.3 P.14-16
+
+
+
+Windows95串行通信的几种方式及编程
+杨磊
+　　摘　要：详细介绍Windows95平台下串行口通信的4种方式和部分程序代码,并对应用场合提出建议。
+　　关键词：Windows95 串行通信 工业监控系统
+　　目前Windows95在工业生产监控管理系统中已成为主流平台,Windows95环境下的上位机与下位机之间的串行通信是设计与开发监控管理系统和集散控制系统的重要组成部分。Windows95通信一般都以WOSA（Windows Open Services Architecture,即Windows开放式服务体系）模型为基础,在此模型中位于上层的应用程序通过调用各种通信API（Application Programming Interfaces,即应用程序接口）与位于下层的设备驱动程序进行数据交换。Windows95对串行口的读写也不例外,通过调用Win32的串口通信API函数,即可编写串行通信程序。
+　　表1为Win32与16位Windows下的串行通信函数的差别。
+表1 串行通信函数的差别
+　打开串口关闭串口读串口写串口
+Win16OpenCommCloseCommReadCommWriteComm
+Win32CreateFileCloseHandleReadFileWriteFile
+
+　　在Win32环境下,对串口的读写就像是对1个文件进行读写,只不过此时的文件句柄指向1个串口。另外,可充分利用Win32的多任务的特点,编写出强壮性较高、实时性较好的通信程序。本文并不涉及对串行口的设置,而主要讨论Windows95平台下串行通信的4种主要方式,即:同步方式、异步方式、查询方式、事件驱动方式。
+1 4种读串口方式
+1.1 同步方式
+　　同步方式中,读串口的函数试图在串口的接收缓冲区中读取规定数目的数据,直到规定数目的数据全部被读出或设定的超时时间已到时才返回。例如:
+　　……
+　　COMMTIMEOUTS timeOver;
+　　memset（&timeOver,0,sizeof（timeOver））;
+　　DWORD timeMultiplier,timeConstant;
+　　timeOver.ReadTotalTimeoutMultiplier=timeMultiplier;
+　　timeOver.ReadTotalTimeoutConstant=timeConstant;
+　　SetCommTimeouts（hComport,&timeOver）;
+　　……
+　　ReadFile（hComport,inBuffer,nWantRead,&nRealRead,
+　　　　NULL）;
+　　……
+　　COMMTIMEOUTS结构用于设置超时,指定读写函数的等待时间。
+　　在ReadFile函数中hComport为待读串口句柄;inBuffer为输入缓冲区大小;nWantRead为每次调用ReadFile时,函数试图读出的字节数;nRealRead为实际读出的字节数;最后一个参数值NULL代表ReadFile将采用同步文件读写方式。
+　　如果所规定的待读取数据的数目nWantRead较大且设定的超时时间（计算公式为:timeMultiplier＊ nWantRead+ timeConstant）也较大,而接受缓冲区中数据较少,则可能引起线程阻塞。解决这一问题的方法是检查COMSTAT结构的cbInQue成员（COMSTAT结构存放端口状态信息,可以通过调用ClearCommError函数获取其值）,该成员的大小即为接受缓冲区中处于等待状态的数据的实际个数。如果令nWantRead等于COMSTAT.cbInQue,就能较好地防止线程阻塞。
+1.2 查询方式
+　　查询方式,即1个进程中的某一线程定时地查询串口的接收缓冲区,如果缓冲区中有数据,就读取数据;若缓冲区中没有数据,该线程将继续执行,因此会占用大量的CPU时间,它实际上是同步方式的一种派生。例如:
+　　……
+　　COMMTIMEOUTS timeOver;
+　　memset（&timeOver,0,sizeof（timeOver））;
+　　timeOver.ReadIntervalTimeout=MAXWORD;
+　　SetCommTimeouts（hComport.&timeOver）;
+　　……
+　　ReadFile（hComport.inBuffer.nWantRead.&nRealRead,
+　　　　　　　NULL）;
+　　……
+　　除了COMMTIMEOUTS结构的变量timeOver的设置不同,查询方式与同步方式在程序代码方面很类似,但二者的工作方式却差别很大。尽管ReadFile采用的也是同步文件读写方式,但由于timeOver的区间超过时间设置为MAXWORD,所以ReadFile每次将读出接收队列中的所有处于等待状态的数据,1次最多可读出nWantRead个字节的数据。
+1.3 异步方式
+　　异步方式中,利用Win32的多线程结构,可以让串口的读写操作在后台进行,而应用程序的其它部分在前台执行。例如:
+　　……
+　　OVERLAPPED wrOverlapped;
+　　COMMTIMEOUTS timeOver;
+　　memset（&timeOver.0.sizeof（timeOver））;
+　　DWORDtimeMultiplier,timeConstant;
+　　timeOver.ReadTotalTimeoutMultiplier=timeMultiplier;
+　　timeOver.ReadTotalTimeoutConstant=timeConstant;
+　　SetCommTimeouts（hComport,&timeOver）;
+　　wrOverlapped.hEvent=CreateEvent（NULL.TRUE,FALSE,
+　　　　　　　　　　　　NULL）;
+　　……
+　　ReadFile（hComport,inBuffer,nWantRead,&nRealRead,
+　　　　　　　　　　　　　　　　　　　&wrOverlapped）;
+　　GetOverlappedResult（hComport,&wrOverlapped,& nRe-
+　　　　　　　　　　　　　　　　　　　　alRead,TRUE）;
+　　……
+　　ResetEvent（wrOverlapped.hEvent）;
+　　……
+　　wrOverlapped是1个OVERLAPPED结构变量,OVERLAPPED结构用于指出读写操作与其它操作的重叠。为了实现线程间同步与通信,上面的代码中用CreateEvent函数产生1个人工复位事件,并将其句柄赋予wrOverlapped的hEvent成员。这样,在异步读写完成时,Windows95发送该事件信号。
+　　上面代码中的ReadFile由于采用了异步方式,所以它只返回数据是否已开始读入,并不返回实际的读入数据,即ReadFile中的nRealRead无效。实际读入的数据是由GetOverlappedResult函数返回的,该函数的最后1个参数值为TRUE,表示它等待异步操作结束后才返回到应用程序。此时,GetOverlappedResult函数与WaitForSingleObject函数等效。
+　　当采用异步方式时,在用CreateFile打开串口设备时,CreateFile函数的第6个参数,即fdwAttrsAndFlags必须为FILE_FLAG_OVERLAPPED。在Windows95中,只有在串行设备上才支持异步文件读写,并且,GetOverlappedResult函数也只支持串行设备或用DeviceloControl函数打开的文件。
+1.4 事件驱动方式
+　　事件驱动方式通过设置事件通知,当所希望的事件发生时,Windows95发出该事件已发生的通知,这与DOS环境下的中断方式很相似。例如:
+　　……
+　　COMSTAT comStat;
+　　DWORD dwEvent;
+　　SetCommMask（hComport,EV_RXCHAR）;
+　　……
+　　if（WaitCommEvent（hComport,&dwEvent,NULL））
+　　　　　if（（dwEvent&EV_RXCHAR）&&comstat.cbInQue）
+　　　　　　　　　ReadFile（hComport,inBuffer,comstat.cbInQue,
+　　　　　　　　　　　　　　　　　　　　　　&nRealRead,NULL）;
+　　　　　……
+　　｝｝
+　　……
+　　首先用SetCommMask函数设置事件掩码,上面的代码中为EV_RXCHAR,表示接收到1个字符时触发这一事件,然后调用WaitCommEvent函数等待该事件的发生。注意,WaitCommEvent函数第3个参数1pOverlapped可以是1个OVERLAPPED结构的变量指针,也可以是NULL。当用NULL时,表示该函数是同步的,否则表示该函数是异步的。
+2 写串口方式
+　　以上对读串口的4种操作方式进行了介绍,写操作与此类似,只不过调用的是WriteFile函数。与写操作相关的函数还有:SetCommBreak函数用于将写操作挂起;ClearCommBreak函数用于恢复写操作;TransmitCommChar函数用于在发送输出缓冲区中的数据之前先发送1个字符。
+3 4种方式的选择
+　　在编写主控计算机与PLC及智能仪表的串口通信程序时,应根据实际情况选择串口读写方式。建议尽量不要采用同步方式,因为一般主控计算机除了对串口进行读写外,还要处理其它任务,如数据库的管理、组态软件的运行等。而采用同步方式可能会引起线程阻塞,从而造成系统性能下降。
+　　在一般控制要求情况下,对PLC及智能仪表的数据写操作并不频繁发生,只在进行参数设置时发生;而对PLC及智能仪表内部数据及它们采集来的数据需及时获得。由于查询方式是一种最直接的读串口方式,所以,建议采用查询方式。但定时查询存在一个致命弱点,即查询是定时发生的,可能发生得过早或过晚。在数据变化较快的情况下,特别是主控计算机的串口通过扩展板扩展至多个时,需定时地对所有串口轮流查询,此时容易发生数据的丢失。虽然定时间隔越小,数据的实时性越高,但系统的资源也被占去越多。
+　　Win32中提出文件读写的异步方式,主要是针对文件I/O相对较慢的速度而进行的改进,它利用了Win32的多线程结构。虽然在Windows95中没有实现任何对文件I/O的异步操作,但它却能对串口进行异步操作。采用异步方式,可以提高系统的整体性能,在对系统强壮性要求较高的场合,建议采用这种方式。
+　　事件驱动方式是一种高效的串口读方式。这种方式的实时性较高,特别是对于扩展了多个串口的情况,并不要求像查询方式那样定时地对所有串口轮流查询,而是像中断方式那样,只有当设定的事件发生时,应用程序得到Windows95操作系统发出的消息后,才进行相应处理,避免了数据丢失。在实时性要求较高的场合建议采用这种方式。
+4 结束语
+　　以上简略介绍了Windows95环境下串口读写的4种方式,并给出了部分代码。在Windows95环境下对串口读写还涉及其它许多步骤,如对串口和通信参数的设置,有关内容,可参阅MSDN的相关文档。
+杨磊（上海大学机电学院201800）
+参考文献
+1，Richter J.Windows95 Windows NT3.5高级编程技术.北京:清华大学出版社,1996
+2，米尔豪.Windows95通信编程.北京:清华大学出版社,1997
+收稿日期：1999-09-01

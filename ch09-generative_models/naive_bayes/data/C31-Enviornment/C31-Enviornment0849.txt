@@ -1,0 +1,79 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+土壤中油-水驱替机理研究*
+郑西来　刘孝义　钱　会
+摘要　自行设计制备的二维包气带石油驱替装置是采用电导仪和负压计测定泄漏石油在包气带入渗过程中压力和水分的微观变化，用染色油品观测入渗锋面迁移，进而探讨了包气带油-水驱替的机理.
+关键词　负压；油-水驱替；泄漏石油；入渗锋面.
+Mechanism of oil-water emplacement in soil 
+ZHENG Xilai, LIU Xiaoyi 
+(Land and Environmental institute,Shenyang Agricultural University,Shenyang 110161)
+QIAN Hui 
+(Xi'an Engineering Institute,Xi'an 710054)
+Abstract　A two-dimensional oil-water emplacement device was designed and installed.Negative pressure meters and conductometers were applied to measure the microeffects of pressure and water bearing content in soil in the precess of oil infiltration.At the same time,colored oil was applied to observe the propagation of oil front.The mechanism of oil-water emplacement was discussed.
+Keywords　negative pressure,oil-water emplacement,leaked oil,infiltration front.
+在石油开采、加工、运输和使用过程中，不可避免地会有大量的原油和石油制品洒落和泄漏于地面，这些石油烃在重力和毛细力的作用下会直接渗入土壤，甚至进入地下水体，所以地下水系统的石油污染问题日益引起人们的重视.本文旨在通过模拟实验来研究石油入渗过程中含水量和压力的微观变化过程.
+1　油-水驱替试验
+1.1　试验装置
+　　为了研究土壤中油-水驱替机理，自行设计和制作了一套长71 cm、高65 cm、厚6 cm的二维油-水驱替装置，如图1所示.
+
+
+图1　土壤中油-水驱替装置
+Fig.1 Setup of the two-dimensional oil-water emplacement in soil
+1.2　试验材料
+　　将大庆油田的砂壤土进行洗盐，以消除盐分对电导测定的影响，然后将该样品风干和筛分，其颗粒分布如下：1.0—0.5 mm占0.6%，0.50—0.25 mm占6.7%，0.25—0.10 mm占84.1%，<0.10 mm占2.2%.另外，在0号柴油中加入几
+滴PAH有机染色剂，使油品呈桔红色，以便观察石油入渗锋面的变化.
+1.3　试验步骤
+　　将土样均匀地倒入砂槽，每隔5 cm轻敲其外壁，使土样和槽壁充分接触.待砂槽准备完毕后，从其两侧的水槽中缓慢加入电导为4.3 mS/cm的水溶液，使整个砂槽逐渐湿润.待土样全部饱水后，降低两侧水位至高出底面4 cm,然后在重力作用下排水40 h.这时，底板以上36 cm的范围内几乎完全饱水(饱水带和毛细带)；而其上部的含水量由高到低，土样逐渐变干.
+　　在重力作用下将550 mL着色的轻质柴油逐渐加入砂槽上部的有机玻璃柱中，且控制油面高出土样顶面2 cm.与此同时，直接观测土样中着色石油的锋面变化，并用负压计和电导仪测定砂槽内部压力和含水量的时空变化.
+2　结果与讨论
+2.1　石油入渗锋面的变化
+　　将着色的柴油加入砂槽上方的供油源后，可以清晰地看到油品的缓慢下渗，其分布范围越来越大.在入渗的初期，油品基本上保持一个近圆形的锋面；随着油品的继续入渗(特别是锋面达到毛细带上缘后)，其锋面有向两侧发展的趋势(图2).
+2.2　石油入渗引起的水分重新分布
+　　用负压计和电导仪分别测定不同高度上的负压值和电导值，它们与相应高度上的含水量关系如图3所示.将电导值换算成含水量，可定量地刻画土壤中油-水驱替引起的水分重分布(图4).
+　　在石油入渗之前，上、中、下电极(E1、E2、E3)附近的含水量分别为27.5%、33.0%和33.5%.石油的入渗很快影响到上部电极，使其周围的含水量迅速下降，并在石油入渗1 h左右降为最低点(12%).与此同时，油品的入渗对水分产生驱替，使中间和下部电极测得的含水量反而增加了约2.5%.随着供油的停止，上部电极周围的油压降低，含水量在3 h中又回升了约5%；石油常压入渗停止后3 h左右，中间电极附近含水量开始降低，由于石油入渗使土壤中水分向下移动，所以下部电极测得的含水量比上部和中部电极附近高得多.
+
+
+图2　石油入渗锋面实测曲线
+Fig.2 The measured curves of oil in leakage front
+
+图3　含水量与电导和负压的关系曲线
+Fig.3 The relative curves between water-bearing content and negative pressure and conductivity
+
+图4　土壤含水量变化曲线
+Fig.4 The curves of soil water-bearing content
+
+
+图5　土壤中负压变化曲线
+Fig.5 The measured curves of native pressure in soil
+2.3　石油入渗引起的负压变化
+　　在石油入渗前砂槽内的水分处于平衡状态，砂槽上部的负压计(N1)测得的负压值比下部负压计(N2和N3)附近高.石油的入渗使孔隙中的流体(包括油和水)增加，上部负压计周围的负压值大幅度下降；随着饱和区的下移，上部孔隙中流体减少，负压值又逐渐恢复(图5).下部负压计(N2和N3)附近的含水量较高，那么石油入渗引起的负压变化主要来自于油-水之间的驱替，所以下部负压计测得的负压变化不大.
+3　油-水驱替的数学模型
+　　把供油源作为点源，且连续注油，由达西定律可得
+
+(1)
+式中，Q为石油的入渗量；K0为土壤中石油的渗透系数；A为供油源的面积；H为油头值.已知地面以上的油层厚度h0，油-水界面张力产生的毛细高度为how,则式(1)可以进一步表示为
+
+(2)
+式中，Hc为h0与how之和.
+　　根据石油入渗锋面变化曲线(图1)，砂槽中石油分布可以近似概化为圆形.再由质量守恒定律，dt时段内石油入渗量可以表示为
+
+(3)
+式中，z为石油入渗的深度；W为砂槽的厚度；S0为油品的饱和度；n为孔隙度.
+　　将式(2)代入式(3)后，经化简和积分后；可得石油入渗深度(z)与时间(t)的关系式
+
+(4)
+这样，根据物理模型的有关参数，可以计算不同时刻石油的入渗深度.
+* 地矿部环境水文地质开放研究实验室资助项目(K96003)
+作者单位：郑西来　刘孝义　沈阳农业大学土地与环境学院，沈阳　110161
+　　　　　钱　会　西安工程学院
+参考文献
+　[1]　Kessler A,Rubin H.Relationships between water infiltration and oil spill migration in sandy soils.Journal of Hydrology,1987,91:187—204
+　[2] El-Kadi A I.Application of sharp-interface models for NAPL transport:1.Infiltration.Ground Water,1992,30:849—856
+　[3] Abriola L M,Pinder G F.A multiphase approach to the modeling of porous media contamination by organic compounds:1.Equation development.Water Resources 　Research,1985,21:11—18
+　[4] Pautazidou M,Sitar N.Emplacement of nonaqueous liquids in the vadose zone.Water Resources Research,1993,29:705—722
+　[5] J.贝尔等.李竞生等译.多孔介质流体动力学.北京：中国建筑工业出版社.1983
+1997-05-27收到原稿　1998-03-16收到修改稿

@@ -1,0 +1,104 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+滚筒式高温堆肥中微生物种类数量的研究
+冯明谦　刘德明
+摘要：定量地研究了城市生活垃圾高温好氧堆肥中微生物的种类和数量.分离鉴定出了细菌5属20株、霉菌8属13株、放线菌1属3株、酵母菌2属2株.探明了高温好氧堆肥能杀灭绝大多数细菌,细菌和霉菌是堆肥的优势类群,芽孢杆菌和曲霉菌是优势种.
+关键词：城市生活垃圾；高温好氧堆肥；微生物种类数量
+中图分类号：X171 文献标识码：A
+Study on microbe species for high-temperature composting of horizontal cylinder.
+FENG Ming-qian
+(Southwest Municipal Engineering Design and Research Institute of China, Chengdu 610081,China)
+LIU De-ming
+(Department of Biology, Sichuan University,Chengdu 610065,China). China Environmental Science.1999,19(6)：490～492
+Abstract：This thesis studies quantitatively microbe species of municipal solid waste (M.S.W) high-temperature aerobic composting. There are 20 strains bacteria of 5 genus, 13 strains moulds of 8 genus, 3 strains actinomyces of 1 genus, 2 strains yeasts of 2 genus in high-temperature aerobic composting. High-temperature aerobic composting is able to kill most bacteria; bacteria and moulds are dominant community; bacillus and aspergillus are dominant species. 
+Key words：municipal solid waste (M.S.W)；high-temperature aerobic composting；microbe species
+　　滚筒式高温好氧堆肥是微生物在旋转卧式发酵滚筒中分解有机物形成腐殖物的生化过程.该法堆肥周期短、供氧均匀、机械化程度高、无害化彻底,便于大规模连续操作运行,在国外应用广泛[1].国内从90年代初开始研究动态发酵,但研究应用多以工艺为主,对发酵中微生物的研究很少.为了探明滚筒式高温发酵中微生物的变化规律,探索用人工接种方法提高垃圾处理效率的可能性,作者设计制造了长7.0m、直径1.0m,处理量为2000kg/d的卧式发酵滚筒,在进行工艺试验的同时,进行了微生物分离鉴定工作.
+1　分析方法
+1.1 样品采集
+　　采集样品两批,每批4个样,即发酵前物料、滚筒进料前端(50～54℃)物料、滚筒中部(55～62℃)及出料端(60℃左右)的物料,每个样品采集200g.
+1.2 培养基
+　　细菌分离培养基 牛肉膏、蛋白胨培养基[2],1kg/cm2灭菌20 min后,加制霉素30单位/mL.
+　　霉菌分离培养基 查氏培养基[2] 0.56 kg/cm2灭菌20 min后,加青霉素2000单位/mL、链霉素100单位/mL;放线菌分离培养基 高氏1号培养基[2] 1kg/cm2灭菌20 min后,加青霉素2000单位/mL,链霉素100单位/mL,制霉素30单位/mL;酵母菌分离培养基 麦芽汁培养基[2] 0.56 kg/cm2灭菌20 min后,加青霉素2000单位/mL,链霉素100单位/mL.鉴定培养基按规定标准制作[3].
+1.3 活菌数测定
+　　采用平板稀释培养计数法.
+1.4 菌种鉴定
+　　将挑选出的各微生物菌种反复分离纯化,按“伯杰氏细菌鉴定手册(第八版)”、“常见与常用真菌”、“一般细菌常用鉴定方法”、“微生物实验手册”等方法进行,以形态特征为主,辅以必要的生理生化实验,将各菌株鉴定到属.
+2　结果与讨论
+2.1 发酵滚筒中微生物数量的变化趋势滚筒中不同部位(不同温度)的微生物数量分析结果见表1,表2. 
+表1 第一批样品中微生物数量的变化*(个/g(干))
+Table 1 Variation of microbe numbers in first sample
+样品
+菌种发酵前活菌数进料前端活菌数中部物料活菌数出料端
+活菌数
+细 菌2.815 1093.285 1082.455 1062.135 104
+霉 菌2.315 1041.435 1041.905 1039.395 101
+放线菌2.645 1022.145 102　6.265 101
+酵母菌2.975 1021.435 102　　
+
+注:*发酵前物料 温度33℃,水份40% 进料前端物料 温度54℃,水份44%
+中部物料 温度62℃,水份38% 出料端物料 温度60℃,水份36%
+表2 第二批样品中微生物数量的变化(个/g(干))
+Table 2 Variation of microbe numbers in second sample
+样品菌种发酵前活菌数进料前端
+活菌数中部物料活菌数出料端活菌数
+细 菌1.275 1093.665 1081.065 1068.445 105
+霉 菌1.445 1052.265 1061.625 1046.265 101
+放线菌2.185 1031.135 1026.565 101　
+酵母菌1.445 1037.545 101　　
+
+注:同表1
+　　从表1,表2中可以看出,发酵前垃圾中微生物的数量很高,细菌数量达2.815 109个/g(干).这与城市垃圾中一般细菌数量在106～ 1025个/g(干)之间吻合[4].发酵前垃圾中微生物的数量很高,可能与采样季节气温较高、样品不够新鲜、在分析前垃圾已开始发酵增殖有关.微生物的数量还随采样季节和样品不同而有差异.无论是在发酵前、发酵后或发酵过程中,细菌的数量总是最大,霉菌次之,放线菌和酵母菌相对较少.例如在发酵前的样品中,细菌比霉菌高出4～5个数量级,比放线菌和酵母菌高出6～7个数量级.发酵后的样品中细菌较多,霉菌较少,放线菌和酵母菌极少.在发酵过程中,细菌是优势种群,对发酵升温具有较大的作用.
+　　物料经发酵后,无论哪一类微生物的数量均大幅度下降,其中,细菌变化幅度最大.发酵后的样品中,细菌数量比发酵前降低4～5个数量级,霉菌降低约3个数量级.这也表明滚筒发酵确能杀灭大部分微生物,能达到无害化的要求.
+　　在发酵过程中,60℃左右的温度(滚筒中部及出料端)比50℃左右的温度(进料前端) 对微生物的杀灭作用高10倍以上.垃圾中绝大部分微生物是在这一温度区被杀灭的.
+2.2 菌种鉴定结果
+　　两批样品中共分离出细菌5属20株;霉菌8属13株;放线菌3株,属链霉菌属;酵母菌2属2株.
+2.2.1 芽孢杆菌属(Bacillus sp.)共17株.
+2.2.2 假单孢菌属(Pseudomonas sp.) 1株;乳杆菌属(Lactobacillus sp.)1株;葡萄球菌属(Staphylococcus sp.)1株;埃希氏属(Escherichia sp.)1株;曲霉属(Aspergillus sp.)共5株;毛霉属(Mucor sp.)共2株;红曲霉属(Monascus sp.)1株;青霉属(Penicillium sp.)1株;地霉属(Geotrichum sp.)1株;木霉属(Trichoderma sp.)1株;脉孢菌属(Neurospora sp.)1株;头孢霉属(Cephalosporium sp.)1株;酵母属(Saccharomyces sp.)1株;裂殖酵母属(Schizosaccharomyces sp.)1株,菌落白色,平坦;放线菌属(Streptomyces sp.)3株.
+2.3 发酵过程中微生物相的变化
+　　两批样品中(不同部位)所分离到的微生物见表3,表4.
+表3 第一批样品中微生物种群的变化
+Table 3 Variation of microbe community varies of first sample
+物 料细 菌霉 菌放线菌酵母菌
+发 酵前Bacillus sp. 
+Escherichia Pseudomo-nas sp.
+Lactobacillus sp.Aspergillus sp.Penicilliu- m
+sp.Mucor sp.Streptom-yces sp. Schizosaccha-romyces sp.
+前 端物 料Bacillus sp.
+Lectobacillus sp.Aspergillus sp.Monascus sp.Geotrichu-m sp.Streptom-yces.
+sp.Schizosaccha-romyces sp.
+中 部
+物 料Bacillus sp.Aspergillus sp.　　
+出 料
+端Bacillus sp.Monascus Streptom-yces sp. 　
+
+表4 第二批样品中微生物种群的变化
+Table 4 Variation of microbe community varies of second sample
+物料细 菌霉 菌放线菌酵母菌
+发酵前Bacillus sp.
+Staphylo-coccus sp.Tricoderma sp.
+Neurospora sp.Streptom-yces sp.Saccharomyces sp.
+前端物料Bacillus sp.
+Staphylococ-cus sp. Aspergillus sp Cephalosprium sp.Streptom-yces sp.　
+中部物料Bacillus sp.Aspergillus sp.Cephalosporium sp.Streptom-yces sp. 　
+出料端Bacillus sp.Aspergillus sp.Mucor
+sp. 　　
+
+　　发酵过程中微生物种群分布最明显的特点是滚筒发酵使微生物种类逐渐趋于单一.发酵前的样品中都包含有细菌、霉菌、放线菌和酵母菌,在发酵后的样品中,检出频率最高的是细菌和霉菌,放线菌和酵母菌检出率很低.就细菌而言,发酵前的样品中涉及的种类较多(随样品不同而异),而发酵后只有芽孢杆菌属(Bacillus sp.)的菌株检出率最高,其它细菌未能检出.结合前面的数量分析,芽孢杆菌是发酵后样品中的主要类群.霉菌的分布情况类似于细菌,但发酵中以哪些霉菌为主,随样品不同而有较大差异.
+3　小结
+3.1 生活垃圾中自带的微生物种类繁多,数量极大.细菌数量最大,约为109个细胞/g(干),涉及5个属;霉菌数量次之,约为105个孢子/g(干),涉及8个属;放线菌和酵母菌相对较少,均为103个细胞/g(干),分别涉及一个属和两个属.细菌和霉菌是参与发酵的主要类群.
+3.2 垃圾经滚筒发酵后,微生物的数量大幅度下降,微生物种类趋于单一.发酵前样品中细菌、霉菌、放线菌和酵母菌均有较高的检出率,发酵后样品中只有细菌中的芽孢杆菌和少数种类霉菌有较高的检出率,它们生长繁殖较快,均能产生抗逆性较强的芽孢或孢子,生命力强,是堆肥的优势种.
+3.3 城市生活垃圾经滚筒发酵(停留时间48h)后,能较迅速杀灭绝大多数细菌,达到无害化目的.
+基金项目：“八五” 国家科技攻关项目(85-909-07-01)
+作者简介：冯明谦(1965-),男,四川射洪人,中国市政工程西南设计研究院高级工程师,硕士,主要从事给排水、垃圾处理的设计和科研工作.参加了“七五”国家科技攻关项目“东北地区稳定塘技术研究”,负责“八五”国家科技攻关项目“滚筒式高温好氧堆肥技术研究”,参加了“九五”国家科技攻关项目“旋转式机械格栅研究”等科研项目,发表论文3篇.
+作者单位：冯明谦　中国市政工程西南设计研究院,四川 成都 610081
+　　　　　刘德明　四川大学生物系,四川 成都 610065
+参考文献
+　[1]　陈世和,张所明. 城市垃圾堆肥原理与工艺 [M]. 上海:复旦大学出版社,1990.7.
+　[2]　武汉大学,复旦大学生物系. 微生物学 [M].北京:高等教育出版社, 1979.84.
+　[3]　中国科学院微生物所细菌分类组. 一般细菌常用鉴定方法 [J]. 北京:科学出版社, 1978.139- 194.
+　[4]　郑安介. 全国环境卫生科学论文集 [C]. 北京:中国环境科学出版社,1998.429.
+收稿日期：1999-03-05

@@ -1,0 +1,107 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000 Vol.17 No.3 P.38-39
+
+
+
+
+如何实现基于Windows CE的移动设备C/S模式的红外网络连接
+胡虚怀
+摘　要：介绍了Windows CE所支持的WinSock的一个扩展-基于红外技术的IrSock。讨论了利用工业标准IrDA协议实现红外线通信的方法，并给出了C/S模式的应用程序实例。
+关键词：Windows CE 移动计算 掌上电脑 客户机/服务器 红外套接字
+1　前言
+　　Windows CE是专门为信息设备、移动应用、嵌入式应用等设计的操作系统，它具有功能强大的通讯功能，可以支持范围广泛的通信硬件和数据传送协议。对于基于Windows CE平台的移动计算设备(如HPC、Plam PC)来说，最灵活的通信方式当属利用红外技术的局域网连接。红外技术是依靠红外线(波长介于红光和微波之间，从750毫微米至1毫米)来传输数据的，它的优点是带宽较高(可达16 Mbps)，不需要分配无线电频谱，不易受电磁干扰，但受视距限制(不到2英里)，一般用于建立局域网。红外网络连接的基本模式是C/S(客户/服务器)模式，本文将讨论这种模式的实现方法，并将给出相应的C/S应用程序实例。
+2　Windows CE所支持的红外局域网下的C/S模式
+　　C/S技术是随着计算机网络的发展而发展起来的。自80年代开始，计算机局域网和广域网中数据库管理系统开始向C/S模式转变，并迅速占据了主导地位。在C/S组成的系统中，拥有众多资源的主机提供服务，资源较少的客户请求服务，服务器处理客户的请求后将结果返回给客户，这一非对等作用是通过网间的进程完成的。由于进程通信是完全异步的，相互通信的进程间不存在父子关系，又不共享内存缓冲区，因此需要一种机制为希望通信的进程间建立联系，为两者的数据交换提供同步。跟传统的做法一样，Windows CE也采用Windows Socket(套接字)通信机制来实现进程间的这种双向数据传输。Windows Socket一般称为WinSock。WinSock需要考虑通信双方约定的协议。在有线固定网络环境下，最典型的协议就是著名的TCP/IP；而在红外无线网络环境下使用的协议为IrDA(Infrared Data Association)。IrDA是计算机、通信等工业组织所制定的工业标准，常用于计算机与外围设备(如具有红外端口的打印机)之间的通信。Windows CE通过WinSock API支持IrDA标准。一般将支持IrDA标准的Socket称为IrSock，并以此作为WinSock的扩展。
+　　在Windows CE所支持的红外局域网中使用IrDA协议与固定网络中使用TCP/IP协议是不一样的。主要的差别是：
+　　．名字服务
+　　传统的WinSock名字服务对于固定网络是合适的，因为网络中建立了Socket连接的各种设备是静止的。但是在移动计算环境中，许多设备在红外线的有效视距范围内来来往往，频繁出没，此时名字服务就不适应了。因此在IrSock所建立的连接中，WinSock名字服务函数是不能使用的，需要将名字服务合并到通信流中。
+　　．编址方法
+　　编址是以逻辑服务访问点选择器(LSAP-SELs)为基础的，编址数从l到127。因为可用值的范围较小，通常不将Sockets直接与逻辑服务访问点结合，而是通过信息访问服务(IAS)所提供的方法来实现Sockets与逻辑服务访问点的绑定。为了使用IAS，服务器应用程序先将一个Socket与一个IAS服务名结合，而客户应用程序则通过Connect函数使用服务名。应用程序不知道也不必知道由IAS所指派的逻辑服务访问点。这个处理过程将在下面的实例中予以描述。
+　　．增强的Socket选项
+　　Windows CE所包含的某些Socket选项对TCP/IP协议是不适应的，它仅用来访问IrDA协议中的某些独有特性。限于篇幅，本文不予讨论。
+3　基于Windows CE的移动设备建立C/S模式的应用程序的步骤
+　　VC++ 5.0以上版本的编程语言配合相应的Windows CE Toolkit for VC++可提供对IrSock的支持。我们知道Sockets支持两种套接字：流套接字(SOCK_STREAM)和数据报套接字(SOCK_DGRAM)。流式套接字提供了一个面向连接的、可靠的、数据无错、无重复地发送及按发送顺序接收的服务。内设流量控制，避免数据流超限，数据被看作是字节流，无长度限制。数据报套接字提供了一个无连接服务、数据包以独立包形式发送，不提供无差错保证，数据可能丢失或重复，并且接收顺序混乱。对建立C/S模式的应用程序，两种套接字的方法是基本一致的，这里仅介绍流式套接字的方法。
+3.1　建立服务器应用程序
+　　1)用SOCKET 指派一个流式Socket，以AF_IRDA作为地址参数，SOCK_STREAM作为类型参数。
+　　2)调用Bind将服务名与Socket结合，以SOCKADDR_IRDA作为地址参数的结构类型。
+　　3)调用Listen侦听客户连接请求。
+　　4)当侦听到客户请求时调用Accept接收客户。
+　　5)调用Send和Recv与客户进行通信。
+　　6)调用Closesocket关闭Socket。
+3.2　建立客户应用程序
+　　1)与服务器应用程序一样，指派一个流式Socket。
+　　2)搜索服务器，调用Getsockopt获取它的ID值。
+　　3)以SOCKADDR_IRDA作为名字参数，调用Connect建立与服务器的连接。
+　　4)调用Send和Recv与服务器进行通信。
+　　5)调用Closesocket关闭Socket。
+4　示例
+　　下面的Infrared Socket服务器和客户应用程序可以运行于一对基于Windows CE的HPC或Palm PC之上。若在Windows NT网上，利用Windows CE Emulation Software Development Kit (SDK) 2.0以上版本来模拟HPC的环境，也可以予以验证。
+//Infrared Socket服务器
+#include <windows.h>
+#include <af_irda.h>
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
+{ SOCKET ServerSock, ClientSock；
+　SOCKADDR_IRDA address={AF_IRDA,0,0,0,0,"MyServer"}；
+　char helloServer[25]； //ASCII串
+　TCHAR helloText[25]； //UNICODE串
+　int idx=0；
+　ServerSock=socket(AF_IRDA, SOCK_STREAM, 0)；
+　bind(ServerSock, (struct sockaddr*) &address, sizeof(address))；
+　listen (ServerSock, 1)；
+　ClientSock=accept(ServerSock, 0, 0)；
+　recv(ClientSock, helloServer, sizeof(helloServer), 0)；
+　for(idx=0; idx<=sizeof(helloServer); idx++)
+　　　helloText[idx]=helloServer[idx]；
+　MessageBox (NULL, helloText, TEXT("IR Server"), MB_OK)；
+　send(ClientSock, "Hello Client!", strlen("Hello Client!")+1, 0)；
+　closesocket(ClientSock)；
+　closesocket(ServerSock)；
+　return 0；
+}
+//Infrared Socket 客户
+#include <windows.h>
+#include <af_irda.h>
+#define NumRetries 5
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
+{ SOCKET sock；
+　SOCKADDR_IRDA address={AF_IRDA,0,0,0,0,"MyServer"}；
+　EVICELIST devList；
+　Int 　　devListLen=sizeof(devList),
+　　　　　cnt=0,
+　　　　　idx=0；
+　char helloClient[25]；
+　TCHAR helloText[25]；
+　sock=socket(AF_IRDA, SOCK_STREAM, 0)；
+　devList.numDevice=0; //设备号初始化为0
+while ((devList.numDevice==0) && (cnt<=NumRetries))
+{
+　　getsockopt (sock, SOL_IRLMP, IRLMP_ENUMDEVICES, (char*) & devList, &devListLen)；
+　　cnt++；
+　　Sleep(1000)； //重试前等待一秒
+}
+if (cnt>NumRetries)
+{
+　　　MessageBox (NULL, TEXT("Server could not be located"), TEXT("IR C1ient"), MB_OK);
+}
+else
+{ //获取服务器的socket地址
+　　for (idx=0; idx<=3; idx++)
+　　　address.irdaDeviceID[idx]=devList.Device[0].irdaDeviceID[idx]；
+　　connect (sock, (struct sockaddr*) &address, sizeof (SOCKADDR_IRDA))；
+　　send (sock, "Hello Server!", strlen ("Hello Server!")+1, 0)；
+　　recv(sock, helloClient, sizeof(helloClient), 0)；
+　　for (idx=0; idx<=sizeof(helloClient)；idx++)
+　　　　helloText[idx]=helloClient[idx]；
+　　MessageBox (NULL, helloText, TEXT("IR Client"), MB_OK)； closesocket(sock)； 
+　}
+return 0；
+}
+5　结束语
+　　基于Windows CE的设备利用IrDA协议建立客户机/服务器工作模式的红外线连网是实现别具一格的移动计算环境的最有效的途径。通过对以上的分析，我们可以基本掌握IrSock网络程序设计的基本原理及实现方法。
+胡虚怀(岳阳师范学院计算机系 湖南岳阳 414000)
+参考文献
+1 Windows CE Programmer's Guide. Microsoft Press, 1998
+2 http://microsoft.com/windowsce
+3 寥 俊, 段爱民译. Windows 32位编程指南. 北京: 清华大学出版社, 1996
+收稿日期：1999年9月13日

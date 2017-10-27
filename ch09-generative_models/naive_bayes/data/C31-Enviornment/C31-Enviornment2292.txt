@@ -1,0 +1,159 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+生物-光催化反应器系统处理印染废水的研究
+(赵玉光*　王宝贞)
+((哈尔滨建筑大学环境工程系，哈尔滨　150001))
+(李湘中)
+((香港理工大学土木与结构工程学系))　　
+(聂梅生)
+((国家建设部科技司，北京　100835))
+
+摘要　实验室规模间歇排放延时曝气(IDEA)生物反应器及TiO2光催化反应器组成的生物-光催化反应器系统，处理由3种不同工业染料合成的人工配制印染废水.结果表明，此系统能够有效去除印染废水中的生物可降解及不可生物降解的COD，且能够将废水完全脱色.该系统有很高的抗冲击负荷及处理高浓度印染废水的能力.
+关键词　印染废水；生物氧化；光催化氧化；二氧化钛.
+TREATMENT OF DYEING WASTEWATER BY A BIO-PHOTOREA-
+CTOR
+
+Zhao Yuguang, Wang Baozhen
+(Dept of Environ Eng, Harbin Univ of Architecture and Eng, Harbin 150001)
+Li Xangzhong
+(Dept of Civil and Structure Eng, The Hong Kong Polytechnic Univ, Hong Kong)
+Nie Meisheng 
+(Bureau of Sci & Tech Development, Ministry of Construction, Beijing)
+
+ABSTRACT　Synthetic dyeing wastewater consisting of the three types of commercial dyes with different CODs(around 900 and 300mg/L respectively) were preliminarily treated by an Intermittently Decanted Extended Aeration reactor(IDEA) for BOD removal, and then treated by a TiO2 sensitized photoreactor for a further COD removal and decolourization. A bio-photoreactor system was designed to combine this photocatalytic reactor with the IDEA reactor for the treatment of the dyeing wastewater. The performances of this combined bio-photoreactor system with and without recycle water were investigated and compared. The efficiency for decolurization and COD removal of the system with recycle water was similar to that without recycle water, but with a high capacity of eliminating the effects caused by a shock loading. The system can treat dyeing wastewater with a higher organic concentration. 
+Keywords　dyeing wastewater, biological treatment, photocatalytic oxidation, titanium dioxide.
+　　由印染工艺排出的高浓度(COD)及高色度的废水已经引起严重水环境污染问题，虽然对生物氧化工艺处理印染废水已经进行广泛的应用研究和报道［1，2］，但单一生化工艺处理印染废水依然存在COD去除率和色度去除率低的限制.对于用不同的活性污泥工艺处理印染废水，BOD去除率可达到95%以上.但对于COD去除率一般只有40%—50%，对于色度仅有20%—30%的去除率.间歇排放延时曝气(IDEA)生物反应器是近年成功应用于工业废水处理的一种新型生物氧化工艺［3］，本研究以此工艺进行了对印染废水进行生化处理的研究.近年来各国对光催化氧化处理印染废水进行了大量的研究［4—6］.本试验在以往研究［7］基础上对生化处理后的印染废水应用以固着在天然沸石上的二氧化钛为催化剂的内循环平板式光催化反应器进行了深度处理的研究.为了获得对印染废水的完全脱色和高COD去处率的效果.在本研究中二氧化钛光催化氧化工艺和生物氧化工艺组成一个新的生物-光氧化反应系统.
+　　
+1　实验
+　　印染废水:本研究中的印染废水是由3种工业染料仿照实际工艺配方以不同比例配制的模拟印染废水.这3种染料分别为：Cibacvron Red FB 活性染料;Dispersal Yellow C-4R分散染料和Solophenyl Orang T4RL 直接染料.废水中BOD∶N∶P的质量比调整至100∶5∶1.实验中配制了两种不同COD浓度的废水.其组分见表1.
+表1　合成印染废水成分组成
+Table 1 Characteristics of synthetic dyeing wastewater
+
+废水
+编号COD,
+mg/LBOD5，
+mg/L活性染料，
+mg/L分散染料，
+mg/L直接染料，
+mg/L色度*pH
+红黄
+Ⅰ830—930320—3901008080257≈7
+Ⅱ2600—3000700—9002001501504020≈7
+
+　　* 色度单位：Lovibond 单位(2.54cm石英玻璃比色皿)
+
+　　二氧化钛催化剂：粉末状二氧化钛为化学纯试剂.0.8—1.8mm天然沸石由澳大利亚天然沸石公司提供.使用前沸石先在沸水中煮2h.二氧化钛固着程序为：在150mL蒸馏水中根据实验的需要加入1.5或4.0g二氧化钛.超声波振荡10min后加入150g天然沸石，放入105℃干燥箱中蒸发干燥.最后在550℃马福炉中烧0.5h.
+　　实验过程:为了比较生物-光催化反应器系统的性能.本研究共分4个阶段进行，第一阶段为表1中第I类废水单独由生物反应器处理；第二阶段为第I类废水单独由二氧化钛光催化氧化反应器处理；第三阶段为第I类废水在无回流状态下的生物-光催化反应器系统中处理；第四阶段为表1中两种废水分别由在生物与光催化反应器之间有不同的回流比的生物-光催化反应器系统进行处理.
+　　实验流程：图1为生物-光催化反应器系统的流程图.印染废水首先经过生物反应器处理，然后泵入光催化反应器中进一步处理，根据处理程度的需要，在生物与光催化反应器之间可以调整回流的比例.以达到所要求的处理效果.
+　　
+
+
+图1　生物-光催化反应器系统流程图
+1.IDEA生物反应器；2.光催化氧化反应器；3.紫外光源
+4.二氧化钛催化剂；5.储水槽；6.蠕动泵
+Fig.1 Schematic diagram of the bio-photoreactor system
+实验设备及操作条件：本研究中共制作3套如图1所示的实验设备同时运转，间歇式延时生物反应器主体为内径10cm的有机玻璃管，总高为100cm.如图1所示.废水以1L/d的流量从每个反应器的底部泵入生化反应器，其水力停留时间(HRT)为3天.曝气和沉淀的时间比例由定时器控制在5∶1.生物反应器具体操作步骤为：曝气10h→沉淀2h→排放上清液0.5L→继续曝气.在实验的第一阶段，3个IDEA生物反应器的污泥龄(SRT)分别控制在10，20和30d.在第三和第四阶段所有IDEA生物反应器SRT均控制在20d.每个IDEA生物反应器在收集实验数据前均进行了两个月以上的培养驯化.
+　　本研究中采用了内循环平板式光催化反应器，每个反应器的规格为60cm×8cm×3cm(长×宽×高)的有机玻璃制品.反应器内部的循环水由蠕动泵完成.循环水量为100—300L/min.根据以往的研究结果，光敏催化剂选定为粉末状的二氧化钛固着在0.8—1.8mm天然沸石上.且每个光催化反应器的底部平铺着150g天然沸石固着4g二氧化钛(第三阶段的对比实验除外).在每个光催化反应器的上部装有一个主光源为365nm的近紫外线灯管(T10，20W).灯管位于水面上1.5cm时提供的光照强度为30W/m2；当灯管位于水面上3.0cm时提供的光照强度为20W/m2.如图1所示每组生物-光催化反应器系统有两个光催化反应器串联运行.
+　　分析方法：废水的色度由Tintometer色度计(EAF900型)测定，并表示为直接从仪表中读得的红色和黄色读数.紫外光强度由近紫外光强度计(Blak-Ray Longwave Meter, J-221)，测定波长为365nm.COD、BOD、溶解氧、pH和MLVSS依据标准方法进行，其分析频率为每周至少两次.
+
+2　结果及讨论
+2.1　第一试验阶段
+　　表2给出了不同SRT的IDEA生物反应器处理印染废水的性能.由表2可以看出在延时曝气的条件下第3号反应器(HRT=30d)获得了最高的COD去除率.但最高的BOD去除率是在第2号反应器(HRT=20d)中获得的.每个生物反应器对黄色色度的去除率均为14%.一般认为，活性染料是一种不易生物降解的有机染料 .而废水的红色主要来源于活性染料，因而导致每个生物反应器对废水的红色处理能力甚低.
+
+表2　IDEA生物反应器的性能*
+Table 2 The performance of the IDEA bioreactor
+
+反应器编号123
+HRT,d333
+SRT,d102030
+MLVSS,g/L0.62—0.670.73—0.760.97—1.02
+出水COD，mg/L335—358310—340302—336
+COD去除率，%58.9—59.961—62.561.8—63.6
+出水BOD5,mg/L24—2722.8—23.824—26.4
+BOD5 去除率，%92.8—92.993.2—9492.8—93
+出水红色色度**252525
+出水黄色色度**6.06.06.0
+pH7.32—7.387.21—7.357.35—7.42
+
+　　* 进水水质见表1.** 色度单位：Lovibond单位
+
+2.2　第二试验阶段
+　　印染废水未经过任何预处理直接进行二氧化钛光催化氧化的研究.其试验条件和结果绘于图2中.从试验数据中可以看到以二氧化钛为催化剂，在365nm波长的照射下可以完全氧化废水中的各种染料，使废水至完全脱色.但由于废水中有机物含量较高，要获得废水至完全脱色，COD小于90mg/L和BOD小于40mg/L时需要200至250h的反应时间，这显然在实际应用中是难以接受的. 
+
+
+图2　废水由二氧化钛光催化反应器直接处理过程
+(光照面积=480cm2；废水量=1.2L;光照强度=30W/m2；
+循环水量=200mL/min；催化剂量1.5?g?TiO2固着在150?g天然沸石上)
+Fig.2 Decolorization of raw dyeing wastewater by photoreactor
+2.3 第三试验阶段
+　　本阶段试验是一套简单的生物与光催化反应器的串联系统(无生物与光氧化器之间的回流).根据第一阶段的试验结果.在以后的试验中IDEA生物反应器的SRT均控制在20d.当这个系统只用一个光催化反应器的时候，所提供的光照面积为480cm3.当每个系统有两个光催化反应器串联使用时所提供的光照面积为960cm2.废水经过生化处理以后，经过了不同光照强度、光照面积和催化剂量的各种条件的光催化氧化试验研究.其试验结果分别示于图3和图4之中.从图3中可以看出当催化剂为4.0g、光照强度为30W/m2时所需使废水完全脱色的时间比在1.5g和光照强度为20W/m2时缩短近一半.由此可见光照强度和催化剂的剂量均是影响二氧化钛光催化反应的重要因素.对比第二阶段试验研究结果.使经过生化处理后的废水达到完全脱色的时间仅是处理未经过生化处理废水所需要时间的20%左右.图4是在一个系统中使用两级光催化反应的处理效果.在光照面积加大一倍时，其废水完全脱色的时间缩短了近40%.从图4可以看到，在二氧化钛催化反应过程中，当COD随着反应时间降低时，BOD的数值随着反应时间而上升.这表明在光催化氧化反应能够将印染废水中的难生物降解的组分分解为较容易降解的物质.从反应过程的pH曲线也可以看到这一点.当反应开始后废水pH值略有下降，这是因为光催化氧化反应将有机染料降解为低级脂肪酸的缘故.
+
+
+图3　生化处理后印染废水的光催化反应脱色过程
+(光照面积=480cm2;废水量=1.2L；循环水量=200mL/min；天然沸石150g)
+Fig.3 Decolorization of dyeing wastewater
+
+
+图4　印染废水光催化氧化过程及COD和BOD的变化
+(光照面积=96cm2;废水量=1.2L;循环水量=200mL/min)
+Fig.4 Variation of COD and BOD during the photocatalytic reaction
+2.4　第四试验阶段
+　　在本试验阶段中，印染废水经过具有在光催化反应器和生物反应器之间不同回流比(0—150%)的生物-光催化反应器系统处理.其不同条件试验的结果分别列于表3、图5和表4中.试验结果表明，具有回流水的生物-光催化反应器系统的最终出水BOD较没有回流水的系统出水可降低5—10mg/L.此外具有回流水系统的最大优越性在于能够抵抗较大的冲击负荷和处理高浓度的印染废水.图5绘出了本研究系统抵抗冲击负荷的条件试验结果.当试验中的一天进水COD的幅度被提高3倍后.IDEA生化反应器出水COD依据不同的回流比(50%—150%)较正常运行只提高了1.9—1.5倍，出水的BOD几乎没有任何变化，且系统运行在一天之后即可恢复正常.与之形成对比的是没有回流水的反应系统的IDEA生物反应器出水COD和BOD都有较大的变化以及系统需要4d才能恢复正常运行.
+表3　生物-光催化氧化反应器系统处理印染废水效果*
+Table 3 The performancen of bio-photoreactor system
+
+系统编号0#1#2#3#
+回流率(回流水量/进水量),%050100150
+光照反应时间，h24283036
+光催化反应器废水量，L1.01.52.02.5
+生化反应器出水COD，mg/L310—340250—286217—234161—171
+生化反应器出水BOD，mg/L22.8—23.818.6—21.415.5—16.213.7—15.0
+生化反应器出水色度**25(R),6(Y)19(R),3.5(Y)16(R),3.5(Y)13(R),3.5(Y)
+系统出水COD，mg/L78—8081—8476—8481—87
+系统出水BOD，mg/L36—3730.5—34.532.6—34.929.2—33.5
+COD去除率，%90.4—9190.2—90.890.8—91.390.2—91.6
+BOD5去除率，%88*8—90.490.4—91.289.9—91.290.8—91.3
+系统出水色度**0.2(R，Y)0.2(R，Y)0.2(R，Y)0.2(R，Y)
+
+　　*进水水质见表1 **色度单位：Lovibond 单位，2.54cm石英玻璃比色皿
+
+
+图5　生物光催化反应器系统冲击负荷试验结果
+Fig.5 The results of shock loading test for the bio-photoreactior system
+由于具有回流水的生物-光催化反应器系统能够稀释高浓度印染废水中对微生物有毒物质的浓度，此系统对处理高浓度印染废水显示出了较大的优越性.表4为处理进水COD浓度为3000mg/L的合成印染废水的研究结果，试验结果表明，这种废水已经使单独的生物反应器处理不能正常运行，而在此系统中仍能获得高于95%的COD和BOD的去除率.生物-光催化反应器系统处理印染废水的另一个优越性是出水水质好(无色，悬浮物小于10mg/L，pH≈7)，经过处理的印染废水可回用于印染工艺中，从而解决印染废水对工厂周围水环境污染的难题.
+表4　生物-光催化反应器系统处理高浓度印染废水性能*
+Table 4 The performance of bio-photoreactor system treated high concentration dyeing wastewater
+
+系统编号1#2#3#
+回流率(回流水量/进水量)，%50100150
+光照反应时间，h323644
+光催化反应器废水量，L1.52.02.5
+生化反应器出水COD，mg/L334—374253—308233—294
+生化反应器出水BOD，mg/L24.8—29.319.3—20.314.9—18.8
+生化反应器出水色度**24(R);5.1(Y)22(R);4.1(Y)21(R);4.0(Y)
+系统出水COD，mg/L79—8378—8480—88
+系统出水BOD，mg/L34^7—39.430.4—40.329.4—35.3
+COD去除率，%96.9—97.196.9—97.297.0—97.1
+BOD5去除率，%95.5—95.895.6—95.896—96.5
+系统出水色度**0.2(R，Y)0.2(R，Y)0.2(R，Y)
+
+　　*进水水质见表1中第Ⅱ类废水；**色度单位：Lovibond单位，2.54cm石英玻璃比色皿
+
+2.5　催化剂的寿命　由于二氧化钛不溶于水，当二氧化钛固着非常牢固时，催化剂的使用寿命是非常长的.在本研究中3个光催化反应器均进行了500h以上的实验，其氧化效率没有明显的变化.因此本研究采用的以固着在天然沸石上的二氧化钛为催化剂的内循环平板式光催化反应器具有广泛的应用开发前景的.
+　　
+3　结论
+　　通过生物-光催化反应器系统对两类含有3种不同工业染料的合成印染废水的试验研究，可以得到以下结论：
+　　1.二氧化钛光催化氧化是在生化工艺之后对印染废水进行进一步深度处理的高效工艺.
+　　2.IDEA生物反应器和二氧化钛光催化反应器组成的生物-光催化反应器系统能够有效地降解印染废水中各种染料，使废水完全脱色，且能获得高于90%以上的COD去除率.
+　　3.在生物反应器于光催化反应器之间有回流水的生物-光催化反应器系统对印染废水的冲击负荷有较大的抵抗能力.
+　　4.由于光催化反应器的出水回流至生物反应器可以稀释印染废水中对微生物有毒的物质，生物-光催化反应器系统可以处理高浓度的印染废水.当进水COD浓度为3000mg/L时，可以获得高于95%以上的COD和BOD的去除率，且可使废水完全脱色.
+　　5.生物光催化反应器系统处理后的印染废水可以进一步研究，回用于印染工艺.
+参考文献
+　1　胡淑筠.纺织工业废水处理最新进展.见：给水与废水国际会议论文集.北京：中国建筑工业出版社，1994：480—487
+　2　Poonam N, Roger M. Selection of a substratum for composting biofilm system of a textile-effluent decolourizating bacteria.Biotechnology Letters, 1995, 17(9):993—996
+　3　Harris S, Battye-Smith W.Full scale demonstration o f biological nutrient removal using the IDEA system. Proc Second Aust Conf on Biological Nutrient Removal from Wastewater, 4—6 Oct，1994： 311—515
+　4　Reeves, Ohlhausen R, Sloan D. Photocatalytic destruction of organic dyes in aqueous TiO2 suspensions using concentrated simulated and natural solar energy. Solar Energy, 1992,48(6):413—420
+　5　Matthews W.Potooxidative degradation of coloured organic in water using supported catalysts TiO2 on sand. Water Research, 25(10):1169—1176
+　6　Davis J, Gainer J L,Neal G O. Photocatalytic decolorization of wastewater dyes. Water Env Res, 1994,66(1):50—53
+　7　Li X Z,Zhang M.Decolorization and biodegradability of dyeing wastewater treated by a TiO2-sensitized photooxidation process. Proceedings of LAWQ 18th Biennial International Conference, Singapore, 23—28 June, 1996：41—47

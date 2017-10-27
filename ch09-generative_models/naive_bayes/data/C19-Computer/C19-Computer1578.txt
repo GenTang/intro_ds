@@ -1,0 +1,147 @@
+信息与控制
+INFORMATION AND CONTROL
+1999年 第28卷 第3期 Vol.28 No.3 1999
+
+
+
+
+时变时滞不确定系统基于观测器的
+鲁棒控制器设计*
+关新平　林志云　段广仁
+　　摘要:研究了时变时滞不确定系统基于状态观测器的鲁棒控制器设计问题,其中不确定性是时变的,满足范数有界条件. 利用Lyapunov稳定性理论和Razumikhin-type理论,获得了基于状态观测器的鲁棒控制器存在条件,以及给出了相应的控制律. 所得结论推广并改进了已知的一些结果. 通过实例说明了其有效性.
+　　关键词：时变时滞,不确定系统,基于观测器的鲁棒控制
+　　中图分类号：TP11　　　　　　文献标识码：A
+DESIGN OF OBSERVER-BASED ROBUST CONTROLLERS FOR
+UNCERTAIN SYSTEMS WITH TIME-VARYING DELAY
+GUAN Xinping　DUAN Guangren
+Department of Control Engineering,Harbin Institute of Technology,Harbin 150001
+LIN Zhiyun
+Institute of Electrical Engineering,Yanshan University,Qinhuangdao 066004
+　　Abstract　This paper deals with the problem of observer-based robust control for uncertain linear systems with time-varying delay. The uncertainties are unknown but norm-bounded. By using Lyapunov stability theory and Razumikhin-type theory,a sufficient condition for the system to be stabilizable based on state observer is obtained,and the corresponding cotrol laws are presented. The conclusions extend and improve some results in the literature. Numerical examples are given to illustrate the obtained results.
+　　Key words　time-varying delay,uncertain systems,observer-based robust control
+　　1　引言
+　　近年来,利用状态反馈对时滞系统的鲁棒镇定问题的研究已取得了很大的进展［1～5］. 但是由于系统状态不易直接量测,或者由于量测设备在经济性和使用性上的限制,使得许多情况下不可能获得系统的全部状态变量,从而使状态反馈的物理实现成为不可能. 状态反馈在性能上不可替代性和在物理上不能实现性,形成了一个尖锐的矛盾. 解决这个矛盾的途径之一,就是通过重构系统的状态,并用这个重构状态代替系统的真实状态来实现所要求的状态反馈. 本文就是基于这种目的,来研究不确定变时滞系统的基于重构状态的鲁棒控制问题.
+　　本文首先考虑了具有变时滞的不确定系统,其系统输出不仅与当前状态有关,还与滞后状态有关,其中不确定性是时变的,满足范数有界条件,但不要求满足秩 1 特性或匹配条件. 根据Lyapunov稳定性理论和Razumikhin条件,给出了该不确定性系统存在状态观测器和基于状态观测器的鲁棒镇定控制器的充分条件,同时导出了通过求解Riccati方程的基于状态观测器的鲁棒控制器的设计方法,推广并改进了文[6]的结果. 本文结论即使在常时滞情形下,也是对文[7~9]结果的改进,克服了文[7~9]中要求不确定性满足匹配条件以及系统满足若干假设等要求. 其次,对输入输出不存在不确定性的时滞线性系统也进行了研究,基于极点配置的方法和通过求解Lyapunov矩阵方程,获得了设计更为方便有效的基于状态观测器的鲁棒镇定控制律,克服了文[10]建立状态观测器时需要基于精确的滞后时间以及对于变时滞和不确定性时滞就无法实现的缺陷.
+　　2　主要结果
+　　考虑由以下方程描述的不确定线性时滞系统
+　　　　(2.1)
+其中x(t)∈Rn是系统的状态向量,u(t)∈Rm是控制输入,y∈Rq是测量输出,A1,A2,B,C和D是适当维数的常数矩阵,d(t)是系统中的滞后时间,满足0≤d(t)≤d*＜∞,d*为已知常数,φ(t)是一个连续的向量初始函数,ΔA1(t),ΔA2(t),ΔB(t)和ΔD(t)表示出现在模型中的时变不确定性,且满足下述形式的范数有界条件
+
+这里Hi和Ei是已知适当维数的常数矩阵,Fi中的元素Lebesgue可测,且满足
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.2)
+对系统(2.1),本文构造了一个满足如下形式状态方程的状态观测器及线性无记忆反馈控制律
+　　　　　　　　　　　　　　　　　　　　(2.3)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.4)
+其中z(t)∈Rn是观测器状态,L和K分别被称为观测器增益和控制器增益.以下具体分析系统(2.1)的基于观测器的鲁棒镇定问题.
+　　引理1［2］　对任意向量z,y∈Rn,都有
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.5)
+令,则有
+　　　　　　　　(2.6)
+利用(2.1),(2.4)和(2.6)合成的增广系统为
+　　　　　　　　　(2.7)
+对该增广系统构造Lyapunov函数如下
+　　　　　　　　　　　　　　　　　　　　　(2.8)
+其中Pc,Po为正定对称矩阵.
+　　利用引理1中的不等式,沿式(2.7)对其求时间的导数,有
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.9)
+令
+　　　　　　　　　　　　(2.10)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.11)
+　　　　(2.12)
+则(2.9)式可表示为
+　　　　　　　(2.13)
+假设R≤Pc,则有以下不等式成立.
+
+根据文[11]和文[12]中所提的Razumikhin条件,可知对任意的δ＞1都有
+
+则我们有
+
+当时,则必存在一个δ＞1,使得也即
+　　由Lyapunov稳定性理论,可得定理1.
+　　定理1　对于系统(2.1),若存在矩阵L和K以及正定对称矩阵Pc和Po满足条件R≤Pc,其中,并且使得矩阵S1+Pc,S2+P-1o负定,其中S1,S2如式(2.10),(2.12)所示,则基于状态观测器(2.3),可以采用线性无记忆状态反馈(2.4) 对该系统实现鲁棒镇定.
+　　根据定理1,则有以下定理2.
+　　定理2　对于系统(2.1),采用式(2.3),(2.4)给出的状态观测器和控制律,其中
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.14)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.15)
+里So,Sc为一个任意给定的正定对称矩阵,Pc,Po为Riccati矩阵方程
+　　　　　　　　　　　　　　　(2.16)
+　　　　　　　　　　　　　　　(2.17)
+的正定解,并且满足条件
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.18)
+其中
+　　　　　(2.19)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.20)
+　　　　　　　　　　　　　　　　　(2.21)
+　　　　　　　　　　　　　　　　　　　　　(2.22)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.23)
+β1,β2为任意常数,则系统(2.1)鲁棒镇定.
+　　注1　文[6]研究了不确定变时滞系统基于状态观测器的鲁棒控制,其时变时滞受到导数小于1的限制,而在许多场合,该条件都不能被满足. 而本文所获得的基于观测器的鲁棒控制器设计中,克服了这个限制,使其对任意的时变时滞0≤d(t)≤d*＜∞都成立.
+　　注2　本文结论考虑了系统输出不仅与当前状态有关,而且还与滞后状态有关的不确定性系统,通过求解两个Riccati方程来获得状态观测器和鲁棒控制器,克服了文[7~9]要求不确定性满足匹配条件和系统满足若干假设的苛刻要求,推广并改进了他们的结果.
+　　考虑输入、 输出矩阵不存在不确定性的时滞系统
+　　　　　　　　　(2.24)
+其中参数都如系统(2.1)所示. 则有以下定理 3.
+　　定理3　对于系统(2.24),采用式(2.3),(2.4)给出的状态观测器和控制律,其中
+　　　　　　　　　　　　　(2.25)
+　　　　　　　　　　　　　　　　(2.26)
+这里Fc,Fo分别是使得BFc和FoC满秩的矩阵,K1和L1分别是使得和渐近稳定的矩阵,Pc和Po是Lyapunov矩阵方程
+　　　　　　　　　　　　　　(2.27)
+　　　　　　　　　　　　　　　(2.28)
+的正定解,并且满足条件R≤Pc,其中
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.29)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.30)
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2.31)
+β1,β2＞0为任意常数,则系统(2.24)鲁棒镇定.
+　　注3　对于系统(2.24),采用控制器增益(2.25)和观测器增益(2.26),若矩阵对可稳,对可检测,则满足条件的矩阵K1,L1,Pc和Po都一定存在,故可知该系统能够实现鲁棒镇定.
+　　注4　文[10]也考虑了系统(2.24)基于状态观测器的鲁棒控制器设计,并且选择状态观测器为
+
+但是该状态观测器必须基于精确的滞后时间常数,对于不确定性时滞和变时滞就无法实现,故在物理可实现性上是难以满足的. 而本文的结论则克服了这个缺陷.
+　　3　例子
+　　例1　考虑系统(2.1),其中
+
+　　显然可知上述系统不满足文中所要求的匹配条件. 故文中基于观测器的鲁棒镇定设计在此失效. 现按本文结论对上述系统进行鲁棒镇定设计. 对不确定性ΔA1(t),ΔA2(t),ΔB(t),ΔC(t),ΔD(t)进行分解,则有
+
+采用式(2.3),(2.4)给出的状态观测器和鲁棒控制器. 我们选择Sc=1,β1=40,根据式(2.19),(2.20),(2.23)则可得
+
+通过求解Riccati矩阵方程(2.16)得
+
+选择So=1,β2=1,根据式(2.21),(2.22),则有
+
+求解Riccati矩阵方程(2.17)得
+
+可以验证Pc,Po正定,且满足条件R≤Pc.
+　　由定理2可知,式(2.3),(2.4)给出的控制律鲁棒镇定上述不确定性时滞系统,其相应的控制器增益K=[0.8866　3.4866],观测器增益
+　　例2　考虑系统(2.24),其中
+
+　　　　
+按前文所提到的方法对不确定性ΔA1,ΔA2进行分解,我们有
+
+现取
+
+使BFc,FoC满秩; 取
+
+使得和渐近稳定. 选择β1=β2=1,通过求解Lyapunov矩阵方程(2.27),(2.28)得
+
+并且求得R=2.50
+02,满足条件R≤Pc. 由定理3可知,式(2.3),(2.4)给出的控制律鲁棒镇定上述不确定时滞系统,其相应的控制器增益,观测器增益
+　　4　结语
+　　本文给出了时变时滞不确定系统基于状态观测器的鲁棒镇定设计方法. 该系统中的不确定性是时变的,并满足范数有界条件. 对该不确定系统给出了基于观测器的鲁棒镇定控制器存在的充分条件,并给出了系统相应的状态观测器和鲁棒镇定控制律. 这对于实际过程中常见的具有时变时滞、不确定性及状态不能完全测得等特性的系统,具有一定的理论价值和实际意义.
+*国家自然科学基金（69504002）与国家教委跨世纪人才基金资助项目。
+作者简介：关新平，35岁，副教授，博士生．研究领域为时滞系统，离散分布参数系统，线性系统和现代控制理论在航天领域中的应用．
+　　　　　林志云，24岁，硕士生．研究领域为时滞系统，鲁棒控制理论、广义系统理论和现代控制理论在航天领域中的应用．
+　　　　　段广仁，36岁，教授，博士后．研究领域为线性系统理论，鲁棒控制理论、广义系统理论和现代控制理论在航天领域中的应用．
+作者单位：关新平：哈尔滨工业大学控制工程系　哈尔滨　150001
+　　　　　林志云　段广仁：燕山大学电气工程学院　秦皇岛　066004
+　　参考文献
+　1　 Ge J H,Frank P M,Lin C F. Robust State Feedback Control for Linear Systems with State Delay and Parameter Uncertainty. Automatica,1996,32(8): 1183～1185
+　2　 Li X,Souza C E D. Criteria for Robust Stability and Stabilization of Uncertain Linear Systems with State Delay. Automatica,1997,33(9):1657～1662
+　3　 Lien C H,Hsieh J G,Sun Y J. Robust Stabilization for a Class of Uncertian Systems with Multiple Time Delays Via Linear Control. J. Mathematical Anylysis and Applications,1998,218: 369～378
+　4　 Su H,Chu J,Wang J. A Memoryless Robust Stabilizing Controller for a Class of Uncertain Linear Time-delay Systems. Int. J. Sys. Sci.,1998,29(2): 191～197
+　5　 程储旺,孙优贤. 时变时滞不确定性系统的状态反馈控制器设计.自动化学报,1998,24(1): 81～84
+　6　 Shen J C. Designing Stabilizing Controllers and Observers for Uncertain Linear Systems with Time-varying Delay. IEE Proc.-Control Theory Appl.,1997,144(4): 331～333
+　7　 张明君,孙优贤. 基于观测器的状态和控制输入不确定时滞系统的鲁棒镇定. 信息与控制,1998,27(1): 11～15
+　8　 朱晓东,孙优贤. 不确定动态时滞系统的基于观测器的鲁棒镇定设计. 控制理论与应用,1996,13(2): 254～258
+　9　 张明君,毛维杰,孙优贤等. 基于观测器的不确定动态时滞系统鲁棒镇定的 Riccati 方程方　法. 控制理论与应用,1998,15(2): 263～266
+　10　卢立磊,高立群,张嗣瀛. 线性时滞不确定系统的强稳定鲁棒控制器设计.信息与控制,1998,27(2): 6～10
+　11　Hale J. Theory of Functional Differential Equations. New York:Springer-velag,1977
+　12　Cheres E,Palmor Z J,Gutman S. Quantitave Measures of Robustness for Systems Induding Delayed Perturbations. IEEE Trans. Autom. Control,1989,34: 1203～1204
+　1998-08-12收稿

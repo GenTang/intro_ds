@@ -1,0 +1,115 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+Pr-O/γ-Al2O3等稀土氧化物催化还原SO2的研究
+王世忠　俞启全
+摘要　进行了负载于氧化铝上的镨、钕、锌、镧、钐等稀土氧化物上，CO、CH4及H2催化还原SO2反应的研究.实验着重考察了Pr-O/γ-Al2O3上CO催化还原SO2的反应，测定了不同反应温度、不同反应物配比及不同空速下的活性，同时对Pr-o/γ-Al2O3催化剂进行了TPD、TG、XRD、XPS表征.结果表明，稀土氧化物具有非常高的CO催化还原SO2反应的活性，在500℃，CO∶SO2=2∶1(体积比)，空速为1.4×105mL.h-1.g-1的条件下，SO2的转化率(CSO2)达到90%，反应生成S2的选择性(SS2)达到95%.稀土氧化物对H2及CH4还原二氧化硫的反应无明显的催化作用.Pr-O/γ-Al2O3上的CO还原SO2反应可能以L-H机理进行，CO吸附于氧化镨上，SO2吸附于氧化铝上.
+关键词　稀土；氧化；二氧化硫；催化还原.
+Research on catalytic reduction of SO2 on Pr-O/γ-Al2O3 and other rare earth oxides
+WANG Shizhong YU Qiquan (Peking University,Beijing 100871)
+Abstract　The rare earth oxides supported by γ-Al2O3 were prepared by the method of impregnation.Several methods(TPD,TG,XRD and XPS)have been used to characterize the adsorption and desorption characters of Pr-O/γ-Al2O3 catalyst.The results demonstrated that the rare earth oxides supported by γ-Al2O3 are excellent catalysts for the reduction of SO2 with CO,but have no much activity for the reduction of SO2 with H2,and CH4.It is most likely that the reaction mechanism is L-H,in which,the CO adsorbed on Pr-O and SO2 adsorbed on Al2O3.
+Keywords　rare earth oxides,SO2,catalytic reduction.
+　　催化还原烟气脱硫在20年代就已经开始研究［1—7］，所用还原气主要为CH4,CO,H2及它们的混合气.应用于这个反应的催化剂主要为过渡金属或者稀土氧化物、硫化物，所用载体多为γ-Al2O3.其中稀土氧化物催化剂主要局限于镧，铈的研究，对其它稀土氧化物的研究较少，尤其反应机理方面的研究很少，而反应机理的研究对提供进一步进行催化剂改性的指导具有重要的作用.因此本文进行了镨、钕、铈、镧、钐等稀土氧化物用不同还原气催化还原SO2反应的活性测试及初步的机理研究.
+1　实验
+1.1　催化剂制备
+　　称取适量的Pr6O11氧化物(Pr6O11∶Al2O3=3∶10(质量比))，加入适量体积的水及浓的硝酸将Pr6O11加热溶解，趁热将研磨为20—40目的小颗粒γ-Al2O3载体加入Pr的硝酸溶液中，快速蒸干，然后在马弗炉中500℃焙烧4h.同样方法我们制备了Nb,Ce,La,Sm氧化物的负载型催化剂.Pr-O/γ-Al2O3催化剂的比表面为112m2.g-1，孔径为3—5μm，孔隙度为0.54.
+1.2　反应活性评价装置
+
+
+图1　反应装置流程图
+1a.氢气　1b.二氧化硫　1c.氮气　2a、2b、2c.流速计　3.混合气　4.反应器　5.管式炉　6.硫沉积管　7.水冷凝管　8.皂膜流量计
+Fig.1 Line diagram of the reaction apparatus.
+　　活性评价采用固定床流动积分反应器，反应器主体为外径1.2cm，内径0.6cm的玻璃管，在靠近内管底有一个隔板，用于放催化剂，测量反应温度的热电偶插入内管中，监测反应温度.反应装置流程图如图1所示.产物分析采用北京分析仪器厂的3-A双气路色谱仪，热导检测，色谱数据处理机为岛津C-R1B型，分离柱为内径3mm,长2m填充柱，所用填充物为Chromsorb-104高分子小球.分析条件：气化及层析室温度为110℃，桥流100mA.
+1.3　吸附热测定
+　　吸附热测定采用色谱法.测定一定量脉冲气体不同温度下通过1g催化剂的相对保留时间，扣除He的相对保留时间，得到比保留体积(mL.g-1)，将其取对数后对1/T作图的斜率即为吸附热.
+1.4　TPD
+　　取50mg催化剂在600℃脱水后降于室温，进行待脱附气体的吸附，然后以15K/min的速度脱附，载气采用He气，流速为50mL/min.
+1.5　TG
+　　热重实验在RIKAGU热重差热分析仪上进行.载皿为白金坩埚，样品为5mg(120目)催化剂，载气为高纯氮，载气流速为150mL/min.样品在600℃原位处理，260℃进行硫的吸附.
+表1　CO及H2混合物还原SO2的催化活性与选择性
+Table 1 Catalytic activity and selectivity for the redu-ction of SO2 with mixed H2 and CO over oxides of rare earth
+
+　催化剂
+　NbCePrLaSm
+CSO2,%78.562.179.971.880.1
+SS2,%99.498.998.799.698.6
+
+2　结果与讨论
+2.1　活性测试
+2.1.1　不同稀土氧化物催化还原SO2反应活性比较　催化剂用量为0.5g，甲烷反应温度为800℃，其它的反应温度为520℃，活性测定前催化剂预先用CO∶H2∶SO2=3500(mL/h)∶4500(mL/h)∶2000(mL/h)的气体在550℃活化2h.实验结果表明，用CH4作还原气SO2的转化率在800℃小于10%，用H2作还原气SO2的转化率在520℃小于10%，表1中列出不同催化剂上CO∶H2∶SO2=3500(mL/h)∶4500(mL/h)∶2000(mL/h)条件下反应的活性测试结果.从表1可以看出，稀土氧化物作为CO+SO2反应的催化剂，性质是非常优异的.另外对H2还原SO2反应的催化性很差，但是H2的加入并不影响CO+SO2反应.其中Pr-O/γ-Al2O3催化剂的活性及稳定性好于其它的催化剂.
+2.1.2　Pr-O/γ-Al2O3上CO催化还原SO2反应的活性　反应前，催化剂在600℃用CO与SO2(5333mL/h∶2667mL/h)的混合气活化1h后原位使用，连续使用时间小于20h.
+　　(1) 不同反应温度下的活性　催化剂用量为0.085g，反应气为CO与SO2混合气(5333mL/h∶2667mL/h)，反应温度范围为420—580℃.结果表明(图2)，随温度的升高转化率增加，540℃达到极值并基本持恒，选择性随温度的升高先增后降，在500℃附近达到最高值，但变化不很明显.在实验条件下，反应只能维持在较高温度，进一步降温将会引起反应的完全停止.
+　　(2) 不同空速下的活性　催化剂用量为0.085g,反应温度为540℃，反应流速范围为2000—12000mL/h.SO2的转化率及选择性随流速的增加略有下降(图3)，但变化幅度不大，S2的收率维持在90%左右，表明有很大的生产能力.
+
+
+图2　不同温度对Pr-O/γ-Al2O3催化剂的活性及选择性的影响
+Fig.2 Effect of reaction temperature on catalytic activity and selectivity over Pr-O/γ-Al2O3 catalyst
+
+
+图3　不同流速对Pr-O/γ-Al2O3催化剂的活性及选择性影响
+Fig.3 The effect of feed rate on the catalytic activity and selectivity over Pr-O/γ-Al2O3 catalyst
+
+
+图4　反应物配比对Pr-O/γ-Al2O3催化剂的活性与选择性的影响
+Fig.4 The effect of different ratio of reactants on the catalytic avtivity and selectivity over Pr-O/γ-Al2O3 catalyst
+　　(3) 不同配比下的活性　催化剂用量为0.065g，反应温度为540℃，反应物总流速为8000mL/h，反应物配比范围为CO∶SO2=0.5—3.0(流速比).实验结果(图4)表明，反应活性受配比的影响比较明显，在CO∶SO2=0.5—2.0范围内SO2的转化率随CO比例的增加明显增加，COS随着CO的增加也缓慢增加，S2选择性在CO∶SO2=1.0—2.0范围内可以维持在95%左右.在CO∶SO2>2.0时SO2转化率基本不变，S2选择性随CO的增加迅速下降.
+　　以上不同条件下CO还原SO2反应的活性表明，Pr-O/γ-Al2O3催化剂对该反应具有优良的催活性，在合适的条件下，S2的收率可以超过90%，并且反应可以在大空速下进行.
+2.2　表征
+2.2.1　吸附热测定　表2结果表明反应物及产物(S2除外)在催化剂表面均有吸附.Al2O3载体上进行的吸附热测定没有发现明显的CO吸附，表明CO可能主要吸附于镨上.
+2.2.2　TPD　作为机理的推理依据，我们做了SO2在Pr-O/γ-Al2O3表面上的TPD实验.图5为Al2O3载体及Pr-O/γ-Al2O3催化剂上SO2的脱附图.Al2O3从升温开始即出现脱附峰，共有两个SO2脱附峰，第一个脱附峰的峰温在125℃附近，峰较大，可能对应于SO2的物理吸附，在其后有一峰温为300℃的小的拖尾峰.Pr-O/γ-Al2O3催化剂在相同的实验条件下，得到峰位与Al2O3相近的SO2脱附峰，但其第二个峰明显增强
+表2　反应物及产物在Pr-O/γ-Al2O3上的吸附热
+Table 2 The heats of adsorption for reactants and
+products over Pr-O/γ-Al2O3
+
+吸附物温度，℃吸附热，kJ/malγ
+CO0—5041.10.99
+SO2421—50020.50.94
+CO260—14042.40.99
+
+2.2.3　TG　S2由于在常温下为固体，因此它的脱附很难用普通的方法检测，热重是比较合适的一种方法.图6中的实验结果可以看出S2在Pr-O/γ-Al2O3催化剂表面存在明显的吸附，在350℃及500℃附近存在两个明显的吸附峰.
+
+
+图5　载体及反应后的Pr-O/γ-Al2O3催化剂的SO2TPD图
+Fig.5 Experimental TPD peaks of SO2 for carrier and Pr-O/γ-Al2O3 after reaction
+
+
+图6　Pr-O/γ-Al2O3催化剂S2脱附的TG及DTG图
+Fig.6 TG and DTG spectra of S2 adsorbed on Pr-O/γ-Al2O3 catalyst
+
+
+图7　Al2O3载体及Pr-O/γ-Al2O3催化剂的XRD谱
+Fig.7 The analysis of Al2O3 and Pr-O/γ-Al2O3 with XRD
+2.2.4　XRD　Al2O3载体及反应前后Pr-O/γ-Al2O3催化剂的XRD谱(图7)表明催化剂中Pr-O没有引起新的晶相，因此Pr-O可能主要以无定型方式分布在载体上.反应前后催化剂的XRD谱图一致，表明没有发生明显的相变.
+2.2.5　XPS　对载体γ-Al2O3及反应前后Pr-O/γ-Al2O3催化剂的样品进行了XPS分析.表3为反应前后Pr各峰以C1s=284.8eV进行电荷校正后的结合能.
+　　表3镨的数据表明催化剂反应前的存在形式主要为Pr2O3及PrO2，其中PrO2为主要物种，反应后NFDA3以硫酸盐及氧化物的混合形式存在.表3中O1s的位移及S的峰位均表明硫主要以硫酸盐的形式存在，无明显的单质硫.铝峰表明铝的硫酸盐的出现.
+　　由吸附热，TPD及TG的结果可以看出，Pr-O/γ-Al2O3催化剂上CO还原SO2的反应物及产物在催化剂表面均有吸附，其中CO可能主要吸附于Pr-O表面，SO2主要吸附于Al2O3上.因此反应很有可能按照L-H机理进行，即反应物CO及SO2分别吸附于Pr-O及Al2O3上，然后发生相互作用，SO2脱掉一个氧原子，SO再进一步进行反应(图8).其中由吸附热的结果可以知道CO吸附于Pr-O上，但具体的吸附位及吸附态还需进一步的实验证明，SO2的吸附由实验及文献可以证明主要吸附于Al2O3上OH脱水后形成的B酸位上［4］.
+表3　反应前后Pr-O/γ-Al2O3催化剂Pr,S,O,Al的结合能
+The Binding enagies of Pr,S,O,Al for Pr-O/γ-Al2O3 catalyst befor and after reaction
+
+　结合能，eV
+Pr3dPr4sPr4pPr4dO1sS2pAl2p
+反应前932.6953.2305.6218.2234.3114.8119530.9　73.8
+反应后935.4955.5309.3220.7234.4117.0120.7532.9170.776.1
+
+
+图8　Pr-O/γ-Al2O3催化剂上CO还原SO2反应机理示意图
+Fig.8 The mechanism of reduction for SO2 with CO over Pr-O/γ-Al2O3 catalyst
+3　结论
+　　1.负载于氧化铝上的稀土氧化物对CO还原SO2反应具有很好的催化活性，但对H2及CH4还原SO2的反应催化性能较差.
+　　2.Pr-O/γ-Al2O3催化剂是用CO还原SO2反应的优良催化剂，在合适的反应条件下S2的收率可以超过90%.
+　　3.Pr-O/γ-Al2O3上用CO还原SO2反应可能以L-H机理进行，CO主要吸附于Pr-O上，SO2主要吸附于Al2O3上.
+* 通讯联系人
+作者单位:北京大学化学系，北京　100871
+参考文献
+1　方明，王树森.城市煤气对SO2的催化还原.环境化学，1990，9(4)：76—80
+2　Quinlan C W,Okay VC,Kittrell J R.Simultaneous catalytic reduction of nitric oxide and sulfur dioxide by cabon monoxide.Ind Eng chem Progress Des Dev,1973,12(1):10—18
+3 Khalafalls S E,Haas L A.Active sites for catalytic reduction of SO2 with CO on alumina.J Catal,1972,24:115—120
+4 khalaballa S E,Haas L A.The role of metallic component in the iron-alumina bifunctional catalyst for reduction of SO2 with CO.J catal,1972,24:121—129
+5 Mulligam D J,Berk D.Reduction of sulfur dioxide with mechane over selected transition metal sulfides.Ind Eng Chem Res,1989,28：926—931
+6 Quinlan C W,Okay V C,Kittrell J R.Kinetics and yields for sulfur dioxide reduction by calbon monoxide Ind Eng.Chem Progress Des Dev,1973,12(1):107—111
+7 Bayzes J G I,Caretto L S,Nobe K.Catalytic reduction of sulfur dioxide with calbon monoxide on cobalt oxides.Ind Eng Chem Progree Des Dev,1975,14(4):264—268
+1998-03-30收到原稿
+1999-05-17收到修改稿

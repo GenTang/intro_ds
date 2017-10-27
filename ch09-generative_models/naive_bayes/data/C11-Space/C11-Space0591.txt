@@ -1,0 +1,27 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.2 P.44-50
+
+
+
+
+CPL技术在FY-1C卫星中的应用
+赵小翔　 
+摘　要：为使FY-1C卫星上的镉镍电池可向空间散热，以降低工作温度，采用了毛细泵回路（CPL）技术。介绍CPL的工作原理、主要组成以及在卫星上控制星载设备温度应用的设计技术，给出了在地面进行的各项热性能试验情况。卫星在轨运行测试验证表明，卫星温度处于最佳状态，镉镍电池组的温度控制在（4～9）℃的范围内，6台镉镍电池之间温差小于3℃,满足镉镍电池的特殊温度要求。
+关键词：卫星电池；热控制；镉镍电池组；温度控制
+分类号：TM912.2　文献标识码：A
+文章编号：1006－1630(2001)02－0044－07
+The Application of the Capillary Pumped Loop in FY-1C Satellite
+ZHAO Xiao-xiang（No.509 Institute of SAST, Shanghai 200240, China）　
+
+Abstract：The paper mainly introduces the working principle and composing of the Capillary Pumped Loop（CPL）, and the design of CPL used in satellite. The data of ground thermal performance test and of orbital telemetry are also shown. The resu lts of in-orbit operation show that the temperatures of six batteries are contr olled in the range of (4～9)℃,and the difference in temperature among them is l ess 3℃ to meet the specific requirements of temperature for Cd-Ni battery.
+Keywords：Satellite battery；Thermal control; Cd-Ni battery；Temperature control
+作者简介：赵小翔(1965-)，男，研究员，FY-1C卫星热控系统副主任设计师，研究领域：航天器热控制系统的设计。 
+作者单位：赵小翔（上海航天技术研究院509所，上海 200240）　
+
+参考文献：
+［1］Stenger F J. Experimental feasibility study of water-filled c apillary-pumped heat-transfer loop[M]. NASA TM X-1310, NASA Lewis Research Center, Cleveland, Ohio,1966.
+
+收稿日期：2000年11月16日
+修稿日期：2001年1月5日
+出版日期：2001年4月25日

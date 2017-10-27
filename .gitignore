@@ -1,0 +1,16 @@
+*.pmml
+*.pyc
+*.so
+*.pyd
+*~
+.#*
+*.dot
+*.png
+*.zip
+*.lprof
+*.swp
+*.swo
+.DS_Store
+build
+logs
+ch04-linear/linear_model

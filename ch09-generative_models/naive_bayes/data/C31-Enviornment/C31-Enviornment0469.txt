@@ -1,0 +1,69 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+未来气候变化对旱田生态系统N2O释放的潜在影响
+徐文彬　洪业汤　陈旭晖　李长生　林庆华　王羽
+摘要：反硝化-分解作用模型(DNDC)能较好地拟合贵州省玉米椨筒寺肿魈铩⒋蠖箺冬小麦轮作田和休耕地的N2O释放通量及其影响因子季节变化模式,采用DNDC模型定量探讨了未来气温、降雨量和降雨中无机N浓度变化对亚热带旱田生态系统N2O释放的潜在影响.结果表明,除大豆外,其它作物和休耕地土壤N2O释放通量对气温变化接近于正响应;玉米地、大豆地和体耕地(对应于玉米生长期)土壤N2O释放通量对降雨量的变化也接近于正响应;降雨中无机氮浓度的变化对3块实验田NO2释放通量影响最大.
+关键词：N2O释放；气候变化；农业土壤；DNDC模型
+中图分类号：X131 文献标识码：A 文章编号：1000- 6923(1999)05- 0387- 05 
+The potential effects of climate changes in future on N2O emissions from agricultural soils.
+XU Wen-bin1,HONG Ye-tang1,CHEN Xu-hui2,Li Chang-sheng3,LIN Qing-hua1,WANG Yu1
+(1.State Key Laboratory of Environmental Geochemistry, Institute of Geochemistry, Chinese Academy of Sciences, Guiyang 550002, China；2.Soil and Fertilizer Institute, Guizhou Academy of Agricultural Sciences, Guiyang 550013, China；3.Institute for the Study of Earth, Oceans and Space, University of New Hampshire, Durham, USA). China Environmental Science. 1999,19(5)：387～391
+Abstract：Based on the success of DNDC model elucidating N2O emissions and its influencing factors from a corn-rape rotation a soybean-winter wheat rotation, and a fallow land in Guizhou Province, DNDC model was used to assess the potential effects of variations in air temperature, precipitation, NO3- and NH4+ concentrations in precipitation in future on N2O emissions from sub-tropical agricultural soils. Results indicated that N2O emissions from fallow land and croplands except soybean were positive relation to variations in air temperature, N2O emissions from corn land,soybean land and fallow land (corresponding to corn growing period) were also positive relation to variations in precipitation, and varying the in-organic N concentration in precipitation produced the largest effect on N2O emissions.
+Key words：N2O emissions；climate changes；agricultural soils；DNDC model
+　　农业土壤是全球最主要的人为N2O释放源,其释放通量主要受气候、农业活动和土壤性状等宏观环境条件的影响.由温室效应和全球气候自然振荡引起的未来全球气候微小变化会在一定程度上影响土壤中许多微生物过程的速率,从而影响N2O等温室气体的释放量.工业革命后全球大气N沉降量的显著增长,造成土壤有效N含量增加和土壤酸化,也将改变N2O的释放量.未来全球气候的这些物理和化学上的变化对区域或全球土壤N2O释放量的反馈作用究竟有多大,目前还难以通过田间实验和简单的经验模式作出准确回答.最近Li等在采用反硝化- 分解作用模型(DNDC模型)[1-3]估算以州为空间尺度的美国农业土壤N2O释放量的同时,以依阿华州玉米地为例探索性地检验了未来气候变化对温带地区旱田生态系统N2O释放的潜在影响[4].
+　　在开展中国农业土壤N2O释放量估算研究的同时,以我国南方亚热带代表性旱田土壤-贵州省旱田土壤为例,采用DNDC模型初步评估了未来气温、降雨量和降雨中无机N(NO3- +NH4+)浓度变化对亚热带旱田生态系统N2O释放的潜在影响.在采用DNDC模型前,检验了模型对试验田土壤N2O释放过程及其影响因子季节变化的拟合程度.本工作将为全面评估未来气候变化对我国农田生态系统N2O释放的反馈影响提供研究基础和参考.
+1 实验方法
+1.1 研究对象和N2O释放通量测量方法
+　　选贵州省农科院土壤肥料研究所试验站(106° 66'E, 26°50'N,海拔1140m)的玉米-油菜轮作田、大豆-冬小麦轮作田和休耕地为试验地.玉米-油菜轮作田和休耕地测量时间从1995-05-28(玉米播前整地)～1996-05-27(油菜收割),大豆椂-冬小麦轮作田测量时间从1995-03-20(大豆播前整地)～1996-05-15(小麦收割),观测期包括了上述4种旱地作物的生长期.3块试验田各作物施肥量、翻耕情况、土壤理化性状及田间N2O气样采集方法和N2O浓度测量方法见另文说明[5].
+1.2 DNDC模型对土壤N2O释放的模拟过程
+　　DNDC模型主要模拟农业土壤的N2O释放过程.模型由土壤水热子模型、作物生长子模型、好氧分解作用子模型和厌氧反硝化作用子模型构成,模拟是以天(干旱期间)或每小时(降雨期间)为时间步长的土壤N2O释放过程.水热子模型根据日气温和降雨,结合土壤物理性质参数,计算整个模拟过程中土壤剖面的温度和湿度变化,计算结果进入其它3个子模型.作物生长子模型计算作物每日及收割后归田作物秸杆的C、N吸收量.分解作用子模型模拟日时间步长的有机质分解和硝化作用等过程,计算土壤中可溶性C和NO3- 等及硝化作用的N2O生成量.反硝化作用子模型模拟以每小时为时间步长的反硝化过程,并计算N2O的释放通量.有关该模型的详细结构、方程和输入参数见文献[1].
+2 结果与讨论
+2.1 DNDC模型拟合与田间测量在N2O释放通量及其影响因子季节变化上的对比分析
+　　模型计算结果表明,模型基本上捕捉了田间观察到的降雨后土壤主要N2O释放峰,两者在主要释放峰的峰值和出现时间上较为相近(图1).
+
+图1 模型计算与田间测量在N2O释放通量季节变化上的对比
+Fig.1 Comparison of N2O emissions simulated by the DNDC model with measured at plots, Guizhou Province from March 1995 to June 1996
+a. 玉米-油菜轮作田 b. 休耕地 c. 大豆-冬小麦轮作田
+　　两者也具有相似的N2O释放通量季节变化模式,3块试验田模型计算与田间测量N2O通量季节变化的相关系数在0.72~0.76,经相关系数显著性t检验,P<0.05,相关性显著.对整个实验阶段的N2O释放量,3块试验田模型计算结果约是田间测量结果的70%~77%,与Li等[3]对弗罗里达州的模拟结果(72%)很接近.同时,对3块试验田0~15cm的土层土壤含水孔隙率(WFPS[1], water-filled pore space)和10cm处土温,模型拟合与田间测量结果也具有相似的季节变化模式和相近的数值变化[5],均反映出雨晴交替、降雨量和降雨频率变化对土壤湿度的影响及气温变化对土温变化的影响.
+　　需指出的是由于土壤N2O释放通量具有广泛的时空变化和田间通量测量的复杂性,目前还无法对DNDC等生物地球化学模型进行绝对的验证.模型计算与田间测量在N2O释放峰出现的时间、峰值、季节变化模式和释放量、土壤湿度和土温,及其它影响参数[5](如NO3- 含量和NH4+含量季节变化)上的较好拟合结果,为采用DNDC模型检验未来气候变化对该地区农田生态系统N2O释放通量的潜在影响提供了依据.
+2.2 气候变化对土壤N2O释放的潜在影响分析
+　　模型检验基线参照条件采用实验小区的气候、土壤理化性状和各作物生长季节的施肥、翻耕等数据.在检验每一气候参数变化对N2O释放的影响时,模型其它参数均采用参照条件的数据.考虑到为满足作物的正常生长所需要的气温和降雨量及未来气候变化可能的幅度及大气N沉降量的增长趋势,年均气温和年降雨量的变化幅度均限制在参照条件的±20%内,降雨中的无机N(NO3- +NH4+)浓度则有较大的变化幅度.
+2.2.1 气温变化对旱田生态系统N2O释放的潜在影响 实验小区1995年年均气温14.7℃,模型检验年均气温在12.7~16.7℃时,气温变化对土壤N2O释放的潜在影响见图2.结果表明,除大豆外,玉米、油菜、冬小麦和休耕地的N2O释放通量或释放量均随气温升高而增加,N2O释放通量对气温变化的响应均接近于线性.Li等对依阿华州玉米地的气温变化检验也有相同结论[4].温度升高加快了土壤中的硝化、反硝化、有机质分解和N的矿化作用速率,在土壤环境温度范围内N2O的产生速率与土壤温度有正相关性.当年均气温超过14.7℃时,大豆的N2O释放通量反而略微下降.在较高的气温条件下,温度升高易引起大豆植株气孔关闭而影响N2O释放[6].在田间观察到[7],当气温约超过20℃左右时,大豆地N2O释放通量表现为随气温升高反而下降,试验小区大豆生长季节的平均气温在20.9℃.
+
+图2 N2O释放通量对年均气温变化的敏感性
+Fig.2 Sensitivity of N2O emissions to air temperature changes
+　　进一步分析显示,油菜、冬小麦和休耕地(对应于油菜生长季节)的N2O释放通量对气温变化的敏感性要明显强于玉米和休耕地(对应于玉米生长季节),在试验小区,玉米生长季节的平均气温在22.3℃,而油菜和冬小麦生长季节的平均气温分别为10.5℃和9.1℃,当温度低于15℃时,单位温度变化对土壤中产生N2O的微生物过程的影响效应要强于温度高于15℃时的情况[8].对亚热带旱田生态系统,由于秋收作物生长季节的平均气温一般在20℃以上,而越冬作物生长季节的平均气温一般在15℃以下,因此,气温变化对越冬作物土壤N2O释放量的潜在影响效应很可能大于秋收作物土壤.而对温带旱田生态系统,如Li等检验的依阿华州玉米地,年均气温为9.8℃,该玉米虽为秋收作物,但生长季节平均气温13.3℃.当年均气温由7.8℃升至11.8℃时,N2O释放通通量增长了70%,此时气温变化对夏收作物或越冬作物N2O释放通量,均具重要的潜在影响.
+2.2.2 降雨量变化对旱田农业生态系统N2O释放的潜在影响 实验小区1995年降雨量109.73cm,模型检验年降雨量在89.73～129.73cm时,降雨量变化对土壤N2O释放的潜在影响见图3.结果表明,玉米、大豆和休耕地(玉米生长季节)的土壤N2O释放通量均随降雨量增加而升高,释放通量对降雨量变化的响应也均接近于线性,但响应程度不如气温变化对越冬作物土壤N2O释放的影响那样强烈.先前对3块试验田土壤N2O释放通量季节变化与其影响因子间的关系分析结果表明,降雨是驱动亚热带旱田生态系统秋收作物土壤N2O释放的关键因子,释放量与降雨量间呈显著正相关.
+
+图3 N2O释放通量对降雨量变化的敏感性
+Fig3 Sensitivety of N2O emissions to precipitation changes
+　　降雨量变化对越冬作物或越冬阶段土壤N2O释放的影响较为复杂,影响效应也不如对秋收作物土壤那样明显.总体上,试验小区未来年降雨量的增加或下降,均将引起越冬期土壤N2O释放量的微弱下降.该结论与Li等对依阿华州玉米地降雨量变化的检验结果相反[4],Li等得出,降雨量的增加或下降均增加了该州玉米地的土壤N2O释放量.这是由于对越冬作物或越冬阶段,温度条件决定着降雨量和土壤湿度对N2O释放的影响,当土壤中硝化和反硝化菌活性受低温影响时,增加降雨量非但不能通过扩大土壤中厌氧微结构位的数量和范围来促进N2O的生成和释放,反而使土壤中大量无机N淋失,而影响随后的N2O释放.当然,减少降雨量,土壤湿度过低,硝化和反硝化菌的活性及土壤中C、N基质的迁移也会受到影响,N2O释放量也会降低.
+　　从全年或整个作物轮作期来看,3块试验田土壤N2O释放量均随降雨量增加而呈非线性增长.
+2.2.3 降雨中无机N(NO3- +NH4+)浓度变化对旱田生态系统N2O释放的潜在影响 实验小区1995年降雨中无机N(NO3- +NH4+)浓度约1mgN/L,由于全球大气N沉降量呈逐年增长趋势,因此,模型检验降雨中无机N浓度在0.5~4.0mgN/L时,浓度变化对土壤N2O释放的潜在影响见图4.结果表明,N2O释放通量对降雨中无机N浓度的变化异常敏感,均表现出N2O释放通量或释放量随降雨中无机N浓度的增加呈加速增长趋势,这与Li等对依阿华州玉米地的检验结果完全一致[4].检验结果还表明,N浓度上升对秋收作物或夏季半年土壤N2O释放量的影响效应要强于越冬作物或冬季半年,这是由于试验小区夏季半年降雨量约占全年降雨量的70%,降雨中N沉降量也约占全年N沉降量的70%,且雨热同步.上述结果还显示,N浓度上升对休耕地的影响效应要强于种植作物土壤,与作物生长过程中对沉降入土壤中无机N大量吸收有关.
+
+图4 N2O释放通量对降雨中无机N(NO3- +NH4+)浓度变化的敏感性
+Fig.4 Sensitivity of N2O emissions to NO3- and NH4+ concentration changes in rainfall
+　　进一步分析表明,无机N浓度上升引起的N沉降量增加对N2O释放的增强效应远高于增加N肥施用量引起的效应,Li等也有类似结论[4].在检验中,当无机N浓度达4mgN/L时,对玉米、油菜、大豆和冬小麦生长期,N沉降量分别占上述作物生长季节N肥施用量的20.0%、14.0%、98.5%和9.1%,分别使N2O释放通量增长了40.0%、18.4%、46.2%和31.2%.而对N肥,即使上述作物生长季节N肥施用量均增加50%,N2O释放通量也仅增长27.8%、14.9%、6.2%和33.0%[5].这暗示着,降雨中的N沉降对土壤表层中的反硝化菌具有类似于直接“滴定”一样的作用[4],能有效促进反硝化作用.相反N肥的一次性大量施用,常导致反硝化作用处于土壤供有机C不足状态,并伴随着作物的大量吸收和NO3- 的大量淋失.
+3 结论
+3.1 除大豆外,其它作物和休耕地土壤N2O释放通量对气温变化接近于正响应.
+3.2 夏季半年土壤N2O释放通量对降雨量的变化接近于正响应,冬季半年随降雨量增加或减少释放通量均微弱下降.
+3.3 3块试验田N2O释放通量对降雨中无机N浓度的变化均表现为随无机N浓度的增加释放通量呈加速增长,无机N浓度上升引起的N沉降量增加对N2O释放的增强效应远高于增加N肥施用量引起的效应.
+基金项目：国家自然科学基金资助项目(49873034)
+作者简介：徐文彬(1968-),男,浙江玉环人,中国科学院地球化学研究所环境地球化学国家重点实验室博士,主要从事环境地球化学和全球环境变化研究.发表论文20余篇.
+作者单位：徐文彬　洪业汤　林庆华　王羽　中国科学院地球化学研究所环境地球化学国家重点实验室,贵州 贵阳 550002
+　　　　　陈旭晖　贵州省农业科学院土壤肥料研究所,贵州 贵阳 550013
+　　　　　李长生　Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, USA
+参考文献：
+　[1]Li C S, Frolking S, Frolking T A. A model of nitrous oxide evolution from soil driven by rainfall events: I. Model structure and sensitivity [J]. Journal of Geophysical Research, 1992a, 97(D9): 9759- 9776.
+　[2]Li C S, Frolking S, Frolking T A. A model of nitrous oxide evolution from soil driven by rainfall events: Ⅱ.model appl-ication [J].Journal of Geophysical Research,1992b,97(D9):9777- 9783.
+　[3]Li C S, Frolking S, Harriss R C, et al. Modeling nitrous oxide emissions from agriculture: A Florida case study [J]. Chemosphere, 1994,28(7): 1401- 1415.
+　[4]Li C S, Narayanan V, Harris R C. Model estimates of nitrous oxide emissions from agricultural lands in the United States [J]. Global Biogeochemical Cycles, 1996, 10(2): 297- 306.
+　[5]徐文彬. 旱地农业土壤N2O释放研究-以贵州省农业土壤例[D]. 贵阳: 中国科学院地球化学研究所, 1997.
+　[6]黄国宏,陈冠雄. 无菌大豆植株释放N2O研究 [J]. 植物学报, 1992, 11: 835- 839.
+　[7]黄国宏,陈冠雄,黄 斌等. 东北旱田生态系统N2O排放通量测定及总量估算 [A]. 王庚辰, 温玉璞. 温室气体浓度和排放监测及相关过程 [C]. 北京: 环境科学出版社, 1996, 351- 357.
+　[8]Williams E J,Hutchinson G L,Fehsenfeld F C. NOX and N2Oemissions from soil [J]. Global Biogeochemical Cycles, 1992,6(4): 351- 388.
+收稿日期：1999-01-15

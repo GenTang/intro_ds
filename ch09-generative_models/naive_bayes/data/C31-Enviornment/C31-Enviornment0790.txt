@@ -1,0 +1,102 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+简　　报
+丛枝菌根菌丝对重金属元素Zn和Cd吸收的研究*
+陶红群　李晓林　张俊伶
+(中国农业大学资源与环境学院，北京 100094)
+
+关键词　丛枝菌根；锌；镉.
+
+　　近年来，由于工业排放及一些农业措施(如污灌等)造成许多土壤中重金属元素的污染.其中锌和镉是两个较为重要的重金属污染元素，它们通过根系吸收进入植物体，再进入食物链，给人体健康带来危害.由于丛枝菌根存在的普遍性，研究丛枝菌根是否具有对植物抵抗过量重金属毒害的作用显得很有必要.关于丛枝菌根对植物吸收重金属影响的研究尚少，且观点不一.一些研究表明菌根的侵染增加了植株地上部锌、镉的含量［1—3］.而另一些文献则发现菌根可减少植物对它们的吸收［4—7］.造成这些结果相互矛盾的重要原因之一在于对菌根菌丝直接吸收重金属元素的作用缺乏足够的了解，尤其对菌丝吸镉的潜力及其对植物生长的直接影响更是知之甚少.本研究旨在通过隔室盆栽方法，在消除生物“稀释效应”及根际效应的基础上，定量丛枝菌根菌丝直接吸收土壤锌和镉的潜力.
+UPTAKE OF Zn AND Cd BY HYPHAE OF AN ARBUSCULAR MYCORRHIZAL FUNAI (G.MOSSEAE) ASSOCIATED WITH RED CLOVER
+
+Tao Hongqun, Li Xiaolin,Zhang Junling
+(College of Agricultural Resources and Environment Science,China Agricultural University,Beijing 100094)
+
+ABSTRACT　Uptake of Zn and Cd by hyphae of an arbuscular mycorrhizal fungi associated with red clover was stuided using threecompartment pot experiment separated with 30μm nylon nets.The central compartment for root growth and two outer ones for growth of arbuscular mycorrhizal hyphae.Zn and Cd were applied at three levels (0,50 and 200mg/kg) respectivley in the two outer compartments.Arbuscular mycorrizal fungus (G.mosseae) was inoculated or uninoculated to test the direct hyphae contribution to Zn and Cd uptake by the plants.The results showed that there was no significant difference in shoot dry weight among all treatments.Increased Zn and Cd were observed due to the inoculation of mycorrhizal fungi with Zn and Cd applied.With a dosage of 50mg/kg in the outer compartment,the contribution of mycorrhizal hyphae to plant uptake accunted for up to 22.4% of the total Zn uptake and 53.6% of the total Cd uptake.With 200mg/kg applied,the contribution of mycorrhizal fungi to plant total Zn and Cd uptake accounted for up to 8.1% and 63.5%,respectively.
+Keywords　arbuscular mycorrhiza,Zn,Cd,heavy metal.
+1　材料与方法
+　　试验装置采用有机玻璃制成.试验装置见图1，包括一个中室和两个边室，中室和边室之间用孔径30μm的尼龙网隔开，以将根系限制在中室生长，而菌丝则可以穿过尼龙网到边室土壤中吸收养分及重金属.中室装土150g，每个边室装土390g.
+　　供试土壤采自内蒙古武川县，土壤为栗钙土，土壤基本理化性状见表1.土壤过2mm筛后在120℃下高压蒸汽灭菌2h，备用.
+
+
+图1　试验装置示意图
+Fig.1 Diagram of the pot used
+表1　供试土壤的基本理化性状
+Table 1 The properties of the tested soil
+
+有机质，%速效磷，mg/kg有效锌，mg/kg有效镉，mg/kg有效锰，mg/kg有效铜，mg/kg有效铁，mg/kgpH
+1.314.50.470.0316.70.452.67.3
+
+
+　　供试作物红三叶草(Trifolium pratense L.).
+菌根菌供试菌种为Glomus mosseae.先用土壤盆栽玉米繁殖，生长2个月后用含有受到真菌侵染的根段和含有菌丝的根际土壤作为菌根接种剂.
+　　试验设计　在菌丝生长的边室土壤除设置不施锌及镉的对照外，还分别对锌和镉设50和200mg/kg两个施用水平.锌为ZnSO4*7H2O，镉为3CdSO4*8H2O与土壤混合均匀.每个水平再于中室土壤设接种(+M)和不接种(-M)菌根菌两组，总计10个处理，各处理均重复3次.锌和镉只施于距隔网1cm以外的土壤区域内.试验中在不接种处理中室土壤中施P 300mg/kg,接种处理施P 50mg/kg，以期保证菌根植株与非菌根植株具有相同的生物量.所有处理的边室土壤施P量相同，均为50mg/kg.为保证植物生长期间对N和K的需求，在所有处理的各室土壤施N 300mg/kg,K 200mg/kg.
+
+2　研究结果
+2.1　菌根侵染率和植株生长量
+　　各处理三叶草菌根侵染率、植株生长量列于表2.结果表明，不接种菌根菌处理未发现菌根菌的侵染，而接种菌根菌各处理三叶草都有较好的侵染，菌根侵染率在25%—30%之间，锌、镉各水平间无显著差异.对于植株地上部生长量，不论是不同重金属施用水平间，还是接种与否都没有出现显著差异.而根系生长，除Zn1水平条件下接种和不接种菌根菌处理之间根干重基本相同外，其它处理，接种菌根菌都显著降低了三叶草根干重.
+
+表2　菌根和非菌根三叶草菌根侵染率和干物质产量
+Table 2 Mycorrhizal infection rate and dry weight of red clove
+
+处理菌根侵染率，%地上部干重，g/盆根干重，g/盆
+-M+M-M+M-M+M
+CK0d29.5a4.23a4.02a2.72ab1.71def
+Zn10d27.2ab4.00a4.81a2.54abc2.31abc
+Zn20d25.3ab4.48a4.43a2.91a1.97cd
+Cd10d27.8a
+26.2abc4.17a4.08a2.28bcd1.78def
+Cd20d4.28a3.98a2.53abc1.91e
+
+　　*同一列中的不同字母表示在Duncan多重比较中达到5%显著性差异水平，下同
+
+2.2　植株锌、镉吸收量及菌丝作用
+　　表3为不同处理三叶草锌和镉的吸收量.不施锌条件下，地上部锌吸收量基本相同,约为
+表3　不同处理三叶草对Zn和Cd的吸收量
+Table 3 Zn and Cd uptake for various treatment
+
+处理Zn吸收量，μg/盆Cd吸收量，μg/盆
+地上部根系地上部根系
+　-M+M-M+M-M+M-M+M
+CK106.8b116.4b100.3a68.0b0.23c0.22c1.75c1.31c
+Zn1115.9b173.4a98.0a101.9a0.22c0.26c1.77c1.69c
+Zn2124.5b166.0a110.0a89.1a0.24c0.23c1.98c1.46c
+Cd1108.8b119.5b84.2a69.9b0.34c1.52b1.91c3.45b
+Cd2118.7b113.5b87.5a74.2b0.33c1.80a2.37c5.60a
+
+
+110μg左右.而根系则不同，菌根侵染的植株根系中的锌量明显低于未接种的对照植株.边室施Zn情况下，地上部锌吸收量要显著高于不接种菌根菌的处理.而菌根植株根中锌的数量与未接种处理之间的差异明显缩小.植物镉吸收量的变化与锌的情况类似，只是菌根侵染不仅大大增加了地上部的吸镉量，而且也显著提高了根系中的含镉量.此外，随着边室施镉量的提高，镉的吸收量也随着上升.
+表4　菌根菌丝吸收的锌、镉总量及其对植物的贡献百分率
+Table 4 The total Zn and Cd taken up by extral hyphase
+and contribution to plant uptake
+
+处理菌丝吸收
+
+锌总量，μg贡献率
+(Zn)，%菌丝吸收
+镉总量，μg贡献率
+(Cd)，%
+Zn161.5622.4——
+Zn220.758.1——
+Cd1——2.7253.6
+Cd2——4.7063.5
+
+　　菌根植株体内的锌和镉，一部分是由菌根菌丝所吸收的.对于施加的某一元素而言，接种菌根植株吸收总量与相应不接种菌根处理植株吸收量的差值，即为菌丝吸收量.菌丝吸收量占菌根植株吸收总量的百分率为菌丝贡献.菌丝吸收Zn和Cd的数量及贡献百分率列于表4.可以看出，在同一锌、镉施用水平下，菌丝吸收的锌量远大于镉，而菌丝贡献则是镉大于锌.
+3　讨论
+　　由于丛枝菌根真菌目前尚不能纯培养，因而成为定量研究丛枝菌根菌丝吸收元素机理的重要障碍，致使多数关于菌根对重金属元素吸收效应的研究多采用菌根和非菌根植物吸收量进行对比的简单方法［8］.然而这种简单的对比方法存在很大的缺陷.首先，接种菌根菌对植物磷素营养的改善，促使植株生物量高于未接种的对照植株，因而造成对重金属元素含量的“生物稀释效应”；其次，在空间位置上不能区分根系与菌丝对元素吸收的作用，因此不能真实反映菌根菌丝吸收重金属的数量，其中有关菌丝对镉的吸收作用的资料尤为缺乏.本试验采用分室隔网技术，将根系限制在中室中生长，而菌丝则可以穿过尼龙网到边室土壤吸收磷、锌和镉等元素，并在网外设置1cm宽的不施重金属的缓冲区，另外，通过增加无菌根三叶草中室土壤施磷水平，保证了菌根和相应非菌根处理三叶草地上部生长量的一致(表2)，目的是使边室施用区内的锌和镉只能通过菌丝吸收途径才能到达植株体内.表3的结果充分说明了这种方法的可行性.同时，基本解决了测定重金属元素菌丝吸收量需消除“生物稀释效应”干扰的难题.
+　　本试验证明，菌根侵染促进了三叶草植株对锌和镉的吸收(表3)，而且菌丝能够直接吸收并运输到植物体内.根据边室土壤锌，镉施用水平的不同，菌丝吸收对植物吸收总量的贡献百分率锌为8.1%—22.4%，镉为53.6%—63.6%，这一数值只是菌丝吸收量的最低估测值，因为中室内菌丝的吸收作用未能包括在内，同时菌根植物根系长度显著低于对照植物，其影响也未在计算菌丝作用效率中.因此，菌丝对锌和镉的实际贡献大于表4的差值法的计算值.
+　　锌和镉是化学性质相近的一类元素.但丛枝菌根菌丝对二者的吸收能力却相差很大，表现在吸收绝对数量上，菌丝吸收的锌远多于镉，这一现象与植物根系对它们的吸收差异具有相似之处.避免毒害的机制之一是阻止重金属由根系向地上部的转移，接种菌根菌后在锌和镉上均有所体现，而镉更为突出.由于镉对植物的毒害作用程度上显著高于锌，因此植物防止镉进入体内的机制可能更完善，菌丝对两种元素的选择吸收方面可能与植物有相似的机理.研究表明，一些金属元素如钙、锰等在菌丝内向寄主植物根的运输，主要以吸附在聚磷酸盐大分子上的形式进行的［9］.镉的运输是否与聚磷酸盐有关以及控制镉运输数量的机理还有待进一步研究.菌丝直接吸收锌和镉的数量可占植物吸收总量的相当一部分(表4)，但对植物的生长并未造成不利影响.对镉来说，由于它对植物的毒害作用较大，而且进入食物链后会对的动物或人类的健康产生较为严重的危害，因此在镉污染的土壤环境中，菌根菌丝对镉的吸收可能会起不良作用.在生产实践中应通过各种措施发挥菌根的有益作用从而减小和避免其有害影响.
+
+*国家自然科学基金(39790100和39525019)资助项目
+参考文献
+1　Diaz G,Azcon C,Honrubia M.Influence of arbuscular mycorrhizae on heavy metal (Zn and Pb) uptake and growth of Lygeum spartum and Anthyllis cytisoides.Plant Soil,1996.80:241—249
+2　Killham K,Firestone M K.Vesiculararbuscular mycorrhizal mediation of grass respojnes to acidic and neavy metal deposition.Plant Soil,1983,72:39—48
+3　Weissenhorn I,Leyval C,Berlgy G et al.Arbuscular mycorrhizal contribution to heavy metal uptake by maize (Zea mays L.)in pot culture with contaminated soil.Mycorrhiza,1995,5:245—251
+4　Dehn B,Schuepp H.Infuence of VA mycorrhizae on the uptake and distribution of heavy metals in plant.Agri Ecosyst Environ,1989,29:79—83
+5　Dueck T A,Visser P,Ernst W H O.Vesiculararbuscular mycorrhizae decrease zinctoxicity to grasses growing in zincpolluted soil.Soil Biol Biochem,1986,18:331—333
+6　Heggo A,Angle J S,Chaney R L.Effects of vesiculararbuscular mycorrhizal fungi on heavy metal uptake by soybeans.Soil Biol Biochem,1990,22:865—869
+7　熊礼明.VA菌根降低植物对重金属镉的吸收.植物资源与环境，1993，2(3)：58—60
+8　张俊伶，李晓林.土壤与植物营养研究新动态(第三卷).张福锁等主编.北京：中国农业出版社，1995：205—220
+9　Cox C,Moran K J,Sanders F E.Translocation and transfer of nutrients in vesiculararbuscular mycorrhizas.(Ⅲ)Polyphosphate granules and phosphorus translocation.New Phytol,1980,84:649—659

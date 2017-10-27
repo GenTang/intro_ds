@@ -1,0 +1,71 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第2期 Vol.18 No.2 1999
+
+
+
+基于Intranet的数据库系统(一)
+谭立湘　罗家融
+　　摘　要：针对企业建立Intranet信息系统的实现方案，分析了Web与数据库互连的各种方法，并进一步举例说明了采用IDC实现基于Web的MIS系统的详细过程。
+　　关键词：企业网Intranet　数据库系统　Browser/Server　CGI接口　ISAPI　IDC连接器
+
+1　企业的Intranet方案
+　　Internet的发展为现代企业构建信息系统提供了一种新的模式：将Internet技术应用到企业内部，并建立基于这种开放技术的企业应用环境，称之为Intranet的体系。
+1.1　Intranet体系结构
+　　Intranet的基本思想是：在企业内部网络上采用TCP/IP协议，以Web技术为核心，同时提供Email、FTP、Telnet等服务，并通过建立防火墙与外部Internet隔离开来。其基本结构如图1。
+
+图1  Intranet体系基本结构
+1.2　Browser/Server结构模式
+　　Intranet是一种基于Browser/Server(浏览器/服务器)体系结构的计算模式，它是从Client/Server(客户机/服务器)模式发展而来的，其本质仍然是“请求驱动”，但是它在综合多项技术的同时克服了Client/Server结构的一些不足。
+　　(1)解决了Client/Server应用中存在的客户端跨多平台的问题。
+　　Browser/Server模式以Web技术为核心，客户端具有统一的用户界面，即通过浏览器可以访问多个应用服务器；而基于Client/Server模式的软件系统则往往要求1个客户端、1个服务器成对出现，如果1个客户机要访问多个服务器就必须配置多种客户软件。
+　　(2)Browser/Server结构的系统维护费用相当低廉，软件版本的更新不涉及用户，只需将服务器端的软件更新，所有用户都能自动更新应用，具有极强的扩展性。
+　　(3)以浏览器作为统一的用户界面使用起来非常简单、易操作，免去了对用户的培训。
+1.3　企业Intranet的实现方案
+　　对于一般的中小企业，由于资金及技术力量的制约，采用某些UNIX操作系统的专用服务器和专用的网络设备是不现实的。目前一种切实可行的方案是利用Windows NT网络操作系统及其配套产品建立自己的Intranet，如图2。
+
+图2  企业Intranet的实现方案
+　　从图2可以看出网关、代理服务器、Internet信息服务器(Web服务器、FTP服务器、Gopher服务器)、邮件服务器和数据库服务器是由1台机器实现的。为了保证系统良好的性能，我们推荐选用Pentium Ⅱ型机器，并应当配置32MB以上的内存和大容量硬盘(最好为SCSI接口的)。至于客户端的工作站可以采用Windows 95等流行的视窗软件配以用户喜爱的浏览器。
+2　Web与数据库互连方案的分析
+　　Web与数据库的互连技术是建立基于Intranet的企业信息系统的关键。目前有多种实现方案，它们各有利弊，下面将对常用的几种作详细的分析。
+2.1　采用公共网关接口——CGI
+　　这是目前最为广泛使用的一种方案，其原理如图3。
+
+图3  采用公共网关接口的原理图
+　　CGI(Common Gateway Interface)是运行于Web服务器之上的通用接口程序，采用这种方案的工作流程为：当用户通过浏览器向页面(HTML文档)中的表单(Form)输入查询信息或录入信息，并将它们提交给Web服务器时，服务器将这些信息置于一组环境变量或标准输入中，并形成对CGI程序的调用，CGI程序将这些信息转换成适当的SQL语句，对数据库进行访问，查询的结果通过Web服务器仍以HTML文档的形式返回给用户。
+　　使用CGI实现Web与数据库互连，最大的优点在于其通用性。目前几乎所有的HTTP服务器都支持CGI，而且CGI可以用多种语言编写，如Perl、C、Visual Basic等。
+　　目前微机上常用的是WinCGI,它是一个基于Windows 95或Windows NT平台上的应用程序。常见的Web服务器如Website、Alibaba、Commerce Builder/Communications都支持它；Microsoft的IIS通过一个称为IS2WINCGI的应用程序也支持WinCGI。WinCGI的开发可利用Windows环境下的快速应用程序，开发工具如Visual Basic、Visual C++、Visual J++和Delphi等，大大提高了编程效率。
+　　CGI方案的缺点是使Web服务器负载过重，并且对用户请求响应较慢。这是因为CGI程序必须为每个用户的每次请求加载1次对应的CGI程序，每个CGI程序都需要系统建立1个单独的线程甚至进程来执行，每个线程和进程都要占用一定的系统资源。因此当多个用户同时发出请求时，必将导致系统资源的大量占用，致使Web服务器响应速度大大降低，整个系统负载过重。
+　　另外，用户必须十分小地使用CGI可执行程序，以防止对服务器的潜在安全性冒险。
+2.2　采用扩展应用程序接口——API
+　　许多Web服务器都提供1套API(Application Programming Interface)，用户利用这些API可以完成CGI程序所实现的功能，并且维护服务器较好的性能。API的结构如图4。
+
+图4  API的结构
+　　API与Web服务器软件是一个有机整体，它常驻于内存之中，它可以在多次请求时和数据库一直保持连接。这种基于API的应用程序在Windows下以DLL的形式出现。它不是一个独立的应用程序，而是可执行的函数库，在第1次请求时调入内存，并且可以访问服务器的进程和变量，从而减少了服务器的额外开销。ISAPI的另一个特征是允许预处理请求和后处理响应。
+　　API最大的缺点就是它们与特定的Web服务器相关。
+　　目前流行的API有Windows NT平台上的Internet信息服务器(IIS)提供的ISAPI(Internet Server API)和Netscape Commerce Server提供的NSAPI。它们对应的成品软件分别为集成在IIS中的Internet数据库连接器——IDC(Internet Database Connector)和Live Wire 1.0。我们的应用实例主要用ISAPI，下面将对它做详细介绍。
+　　常用Web服务器所支持的ISAPI应用程序，作为一个常驻内存的DLL(如Httpodbc.dll)与Web服务器运行于相同的地址空间并可存取服务器的所有资源。Web服务器使用ISAPI时无需建立线程或进程，也无需在进程边界两端进行耗时的通信，因此与CGI相比，ISAPI系统开销较少。
+　　ISAPI访问数据库的方法如图5，它是通过启动开放式数据库互连(ODBC)来实现的。ODBC以其独立于应用、独立于操作系统、独立于网络协议、独立于数据库管理系统的特性已成为一种工业标准。程序开发者可以利用VC++的MFC中的ODBC类或DAO类(Data Access Object)，或VB和Delphi中的数据库引擎(Database Engine)来实现对各种数据库的访问。
+
+图5  ISAPI访问数据库的方法
+2.3　采用Java
+　　Java是一种简单、面向对象、多线程执行控制的编程语言，它易于实现交互式的Web服务。Java通过其JDBC API能够迅速有效地连接不同系统上的关系数据库。Java访问数据库的模式如图6。
+
+图6  Java访问数据库的模式
+　　从图6可见，首先用户的浏览器连接到Web服务器上，下载含有Java Applet的HTML页面，Java Applet在客户端运行，调用JDBC接口，直接与数据库服务器交互，并把查询结果的HTML文档返回到浏览器。
+　　利用Java连接Web服务器与数据库可以实现对输入数据提供字段级验证，同时避免Web无状态特性带来的问题。但目前Java应用需要在Java虚拟机上运行，其效率还有待于提高；另外Java应用不能访问环境变量。
+2.4　ASP技术
+　　ASP(Active Server Page)是一个WEB服务器端的开发环境，利用它可以产生和运行动态的、交互的、高性能的WEB服务应用程序。ASP属于ActiveX技术的一种，ActiveX技术在WWW技术上可分为二大类：ActiveX Client和ActiveX Server。通常实现动态主页的方式Java applet、ActiveX control、VBScript、JavaScript等都属于client端的应用，通过浏览器来解释执行它们的语句命令。当需要针对不同使用者使用不同浏览器访问服务器资源时，Client端的应用是不够的。ASP就是这样一种Server端的应用环境，它也是通过描述语句(Script)来实现动态主页，但它的Script由服务器端解释执行，生成用户需要的主页送出。它的好处在于不担心浏览器是否能处理ASP，而且不会像Client端的Script一样，让别人知道你的编程逻辑。
+　　目前，ASP只能用于下列Web Server:
+　　.IIS 3.0 on Windows NT;
+　　.Microsoft Personal Web Server on Win95;
+　　.Microsoft Peer Web Server v3.0 on NT Workstation。
+　　ASP可以使用任何Script语言，只要你提供相应的脚本驱动。ASP自身提供了VBScript和JScript的驱动。ASP可以将可执行的Script直接嵌入HTML文件，HTML开发和Script开发在同一开发过程就可完成。而且通过ActiveX构件，可以实现非常复杂的WEB应用程序。
+　　ASP的特征：
+　　.完全和HTML集成；
+　　.易于生成，无需手工编译和连接；
+　　.面向对象，可以扩展ActiveX Server构件；
+　　但目前，ASP在使用中文方面存在一些局限。
+作者单位：合肥中科院等离子体物理研究所计算中心(230031)
+(未完待续)
+(收稿日期：1998-07-26)

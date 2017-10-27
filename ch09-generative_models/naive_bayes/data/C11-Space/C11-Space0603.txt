@@ -1,0 +1,37 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.3 P.15-18
+
+
+
+
+弹道导弹基于仿真的落点精度修正
+熊海林　 陈坚　 沈永福　 邓方林　 
+摘　要：介绍了利用计算机仿真技术预测、修正弹道导弹落点，从而提高其命中精度的原理和方法，给出了导弹射前初始状态的测量方法以及导弹仿真的程序模型，并对一枚具体的导弹作了落点的仿真预测与落点修正，仿真的结果与实际情况相吻合。此方法在弹道导弹的实弹演习与作战中具有十分重要的价值，可在相关单位广泛使用。
+关键词：弹道导弹；蒙特卡罗法；落点精度；修正；工具误差
+分类号：TJ761.3; O242.2　文献标识码：A
+文章编号：1006-1630(2001)03-0015-04
+Correcting of Fall-Point Precision of Ballistic Missile Based on Simulation
+XIONG Hai-lin（Xi'an Second Artillery Engineering College, Xi'an Shaanxi, 710025，China）　
+CHEN Jian（Xi'an Second Artillery Engineering College, Xi'an Shaanxi, 710025，China）　
+SHEN Yong-fu（Xi'an Second Artillery Engineering College, Xi'an Shaanxi, 710025，China）　
+DENG Fang-lin（Xi'an Second Artillery Engineering College, Xi'an Shaanxi, 710025，China）　
+
+Abstract：Introduces a method to forecast and correct ballistic missile fall-point and advance its precision based on computer simulation, presents a method to measure missile's initial states and a program model of missile simulation. In this paper, a example is given, its result is anastomosed with facts. This method has very important values in exercise and operation of ballistic missile, can be widely used in related units.
+Keywords：Ballistic missile; Monte-carlo method; Precision of fall-point; Correction; Error of tools
+
+作者简介：熊海林(1965-)，男，博士生，已发表论文10余篇，研究领域：导弹控制系统的设计与仿真。 
+作者单位：熊海林（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　陈坚（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　沈永福（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　邓方林（西安第二炮兵工程学院，陕西西安 710025）　
+
+参考文献：
+［1］邓方林,阎斌,王仕成. 大型弹道式飞行器六自由度仿真研究与展望[J]. 宇航学报,1999,(3).
+［2］阎斌,邓方林,王仕成. 大型飞行器六自由度仿真建模研究[J]. 系统仿真学报,1998,(3).
+［3］沙钰,吴翊,王正明,等.弹道导弹精度分析概论[M].长沙：国防科技大学出版社,1995.
+［4］张金槐.远程火箭精度分析与评估[M].长沙：国防科技大学出版社,1995.
+［5］张金槐.谱分析与仿真结果可信性分析[J].计算技术与自动化,1997,(增刊).
+
+收稿日期：2000年5月23日
+出版日期：2001年3月1日

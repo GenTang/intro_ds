@@ -1,0 +1,72 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年　第14卷　第1期　VOL.14　No.1　1999
+
+
+
+用粘性体积力方法计算
+高速离心压气机叶轮内部流场
+　杨　策　索沂生　蒋滋康　朱　伟　老大中
+摘要：高速离心压气机是用途非常广泛的一种动力机械，充分了解其内部复杂的三维流场对设计高压比、高效率离心压气机具有很重大的意义。本文采用一种简化的Navier-Stokes方程的计算方法－粘性体积力方法，计算了Krain叶轮内部流场。使用H型网格离散微分方程，并采用多重网格方法和当地时间步长方法加速计算收敛。粘性应力通过Baldwin-Lomax模型计算。为了证明计算结果的有效性，文中也给出了相应的激光测量结果。
+主题词：离心式压气机　三维流场　计算
+分类号：O354.2　V211.18
+PREDICTION OF INTERNAL FLOW FIELD
+IN A HIGH SPEED IMPELLER
+WITH VISCOUS BODY FORCE TECHNIQUE
+Yang Ce,Suo Yisheng,Jiang Zikang,Zhu Wei
+（Department of Thermal Engineering,Tsinghua University, Beijing　100084）
+Lao Dazhong（Beijing University of Technology,Beijing　100081）
+ABSTRACT　It is very important of understanding the internal flow field in high speed centrifugal compressor in order to design an impeller with higher efficiency and high pressure ratio.In this paper,a three-dimensional viscous code has been developed to solve simplified Reynolds-averaged Navier-Stokes equations .The viscosity is simulated with viscous body force method.The governing equations are spatially discretized in the cell-vertex finite volume scheme on a simple H mesh and temporally integrated by an explicit two-step Runge-Kutta scheme.The turbulence closure is made by using Baldwin-Lomax model.This code is demonstrated for predicting the internal flow field of a high speed impeller.Some laser measure data are also illustrated to testify the calculated results.
+Key　Words　Centrifugal comperssors　Three-dimensional flow　Calculation
+　　在过去的二十年里，离心压气机叶轮内部一些复杂的三维流动现象已经得到进一步的了解，在这方面Eckardt［1］和Krain［2］的工作是最具有代表性的。目前广泛采用的后弯式叶轮的设计、配合改进的轮缘型线的做法，已经明显改进了离心式叶轮的性能，缓解了出口速度分布不均匀的状况。虽然国内、国外采用三维计算程序在求解高速离心压气机内部流场方面和进行叶轮设计方面都做了大量的工作，但在这方面的技术依然不很成熟，为了设计出效率更高，压比更高，稳定工作范围更广的叶轮，发展比较先进的计算程序是很必要的。
+1　基本方程及计算方法
+　　旋转坐标系下加入粘性体积力的守恒型三元方程组可以写成：
+(1)
+其中：　
+式中：V为控制体的体积，A为控制体的表面积，H为相对滞止转焓，W为相对速度，C为绝对速度，r为半径，F为模拟粘性应力的粘性体积力，ρ为密度，p为压力；下标：Cv为体积分的积分区域，Cs为面积积分的积分区域，z为轴向分量，r为径向分量，φ为周向分量。
+　　有下面关系式存在：Wr=Cr，Wz=Cz，Wφ=Cφ-ωr，E=(H-p)/ρ，H=i+C2-ωrCφ，i为焓。若假设为理想气体，则满足状态方程(k为比热比)：
+p＝(k-1)ρ(E-C2/2+ωrCφ)　(2)
+　　采用显式离散方法，离散后的方程可以表示为：
+(dq/dt)*Vol＝(zfluxi,j-1,k-zfluxi,j,k+tfluxi,j,k-tfluxi+1,j,k
++rfluxi,j,k-rfluxi,j,k+1-S　(3)
+式中：zflux，tflux，rflux和S分别是轴向通量、周向通量、径向通量和源项，它们的具体表达式
+是：
+gz，gr和gt的具体表达式是：
+gz＝ρCrAqr+ρCzAqz　，　gr＝ρCrAsr+ρCzAsz　，　gt＝ρCrAbr+ρCtAbt+ρCzAbz
+其中：Sφ，Sr和Sz分别是周向，径向和轴向的粘性体积力，其具体求法见下文，能量方程中的粘性项rωSφ只在叶片槽道内存在。
+　　采用H型网格离散微分方程，流场变量取在控制体顶点，为了消除计算过程中在光滑区出现的非物理波动和在间断区出现的振荡现象，程序中使用Jameson［3］自适应人工粘性方法。程序中同时使用局部时间步长和一种简化的但非常有效的多重网格方法加速计算的收敛。以两重网格为例，考虑人工耗散的方程(3)可以简写成d(Vol*q)/dt+Q-D=0，其中Q为进入微元体的总通量，D为人工耗散通量，定义残差R=(Q-D)/Vol，则粗网格的残差可以表示为Rc=ni=1Rf，这里Rc为粗网格的残差，Rf为细网格的残差，n为粗网格中所包含的细网格的数目，细网格最终残差变化可以表示为R′f=Rf+k*Rc。采用这种方法可以比单层网格缩短1/3的计算时间。
+2　粘性体积力模型
+　　文献［4］最早把粘性体积力的概念用于叶轮机械内部流场的求解，随后这个方法被广泛地用于叶轮机械内部流场计算［5，6］，并取得了很大成功，文献［5］给出了关于粘性体积力的详细推导过程。本文在计算流场中的粘性影响时采用了Denton的思想和方法，其简化方程的基本思想参见文献［5］。计算粘性体积力过程中，忽略准正交平面上的粘性力，对于一个六面体微元来说，只需要计算剩下的4个表面上的粘性应力，即只考虑准S1流面和准S2流面上的粘性力，把作用在这4个表面相同方向上的粘性力相加，即得到作用在微元体上总粘性体积力在3个坐标方向上的分量。根据Denton的假设，首先要计算出壁面剪切应力τw，其具体做法是假设第一个网格点不在固体壁面，而在附面层的层流底层或对数率区域内。首先求出Re数，即：
+
+
+　　　图1　拟S2流面速度矢量图　　　图2　吸力面上压力分布等值线图
+Re=ρWyn/μ，根据Re数求解壁面摩擦系数，具体求解公式Cf=-0.001767+0.03177/ln(Re)+0.25614／［ln(Re)］2，最后根据Cf与τw间的关系式求解τw，即τw=0.5CfρW2。对于内部流场上的粘性应力则采用Baldwin-Lomax代数模型求解。
+3　计算结果及分析
+　　选取Krain叶轮作为数值实验的对象，这个叶轮是西德宇航院(DFVLR)设计的，Krain对这个叶轮内部流场做了详细的激光测量。这个叶轮是一个
+
+
+图3　准正交平面上速度等值线图
+后弯角达30°的叶轮，整个叶轮共有24个叶片，其设计压比是4.7，叶尖顶部速度为470 m/s，转速是22363 r/min，设计流量为4 kg/s，对应的叶轮出口压力为265.978 kPa，具体叶型数据来源于文献［2］，实验结果选自文献［2，7］。计算中共选用27104个计算点，其中周向为22个网格点，径向为22个网格点，轴向为56个网格点。靠近壁面处的网格加密。
+　　图1给出了临近吸力面的拟S2流面速度分布矢量图。从这张图中可以看出，气流在叶轮入口前的流动方向基本与叶轮的轮缘和轮毂平行，在进入叶片槽道后，径向流动速度增大，气流首先开始向轮缘一侧流动，在图1中可以很清楚地发现这一流动现象。图2给出了叶片吸力面上压力分布等值线图，从图上可以看出同一弦长截面上的压力分布还是比较均匀的。
+　　图3分别给出了沿弦长方向0%和60%位置的准正交平面上，沿子午面方向速度与叶尖速度之比(cm/u2)等值线图的计算结果和实验结果，图中左面对应压力面，右面对应吸力面。图3中的字母“PS”代表压力面，“SS”代表吸力面。从0%截面的实验结果和计算结果可以看出两
+
+
+图4　轮缘处周向平均静压的计算结果和实验
+结果(n/n0=1，m=4 kg/s)
+者在这个截面上的差别很小，速度分布也基本相同。在60%截面上，计算所得的最大和最小子午速度的数值及位置基本与实验结果相同，但计算所得低速区比实验更靠近吸力面一侧。综上所述可以看出，计算程序能够很好地模拟子午速度在叶片槽道内的变化过程，但在低速区预测方面，计算结果和实验结果存在一定的偏差，这可能是由于计算程序没有考虑叶尖顶部间隙造成的。
+　　图4给出了设计工况下的轮缘处周向平均静压的计算结果和实验结果。图中横坐标是相对弦长，纵坐标是轮缘处周向平均静压和入口大气压之比。从图中可以看出，在叶轮入口到弦长50%处计算结果比实验结果偏低一些，在50%弦长和100%弦长之间两者吻合很好，总体而言，两者差别很小。
+4　结　论
+　　本文用有限体积的显式时间推进方法求解了Krain离心压气机内部三维粘性流场，计算方案经数值试验证明是成功的，计算结果与试验结果符合良好。由于使用粘性体积力方法模拟粘性流动，使计算量大为减少，在保证计算精度的前提条件下缩短了求解全三维粘性流场所需要的时间，初步满足了工程实用的要求。
+作者简介：杨策　男　34岁　博士生　讲师　清华大学热能工程系　100084
+作者单位：　清华大学北京理工大学
+参考文献
+［1］　Eckardt D.Detailed Flow Investigations Within a High-Speed Centrifugal Compressor Impeller.ASME Journal of Fluids Engineering.1976,98(3):390-402
+［2］　Krain H,Hoffman W.Verification of an Impeller Design by Laser Measurements and 3D-Viscous Flow Calculations.ASME Paper,1989,No.89-GT-159
+［3］　Jameson A,Schmidt W,Turkel E.Numerical Solution of the Euler Equations by Finite Volume Methods Using Runge-Kutta Time Stepping Schemes.1981,AIAA Paper 81-1259
+［4］　Marble F E.Three-Dimensional Flow in Turbomachines.High Speed Aerodynamics and Jet Propulsion,1964,10:83-166
+［5］　Denton J D.The Use of a Distributed Body Force to Simulate Viscous Effects in 3D Flow Calculations.ASME Paper,1986,No.86-GT-144
+［6］　Damle S V,Dang,T Q,Reddy D R.Throughflow Method for Turbomachines Applicable for All Flow Regimes.ASME Journal of Turbomachinery,1997,119(2):256-262
+［7］　Hah C,Krain H.Secondary Flows and Vortex Motion in a High-Efficiency Backswept Impeller at Design and Off-Design Conditions. ASME Journal of Turbomachinery,1990,112(1):7-13
+收稿：1998年3月
+修稿：1998年5月
+责任编辑：杨再荣

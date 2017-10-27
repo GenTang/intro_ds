@@ -1,0 +1,171 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH
+AND DEVELOPMENT
+1999年 第36卷 第12期 Vol.36 No.12 1999
+
+
+
+SMDPA：基于访问频率的多维数据空间放置算法
+谭郁松　杨利　周兴铭
+摘　要　针对一般数据访问模式，文中引入了“相似性”概念，提出了并行数据库中基于频率和相似性的多维数据空间放置的算法——SMDPA算法.经过性能模拟发现SMDPA算法在一般访问模式下依然能得到良好的平衡和并发性能.
+关键词　并行数据库，多维数据空间，数据超方体放置
+中图法分类号　TP311.133.2
+SMDPA:A SIMILARITY-BASED MULTIDIMENSIONAL
+DATA-SPACE-PLACING ALGORITHM
+TAN Yu-Song, YANG Li*, and ZHOU Xing-Ming
+(National Laboratory for Parallel & Distributed Processing,
+National University of Defense Technology, Changsha 410073)
+(Northeastern University, Shenyang 110006)
+Abstract　This paper describes a new multidimensional data-space-placing algorithm, SMDP A. The algorithm can get the access relation between data hypercubes by using th eir priori frequency and similarities. Consequently, it can place the data hype rcubes efficiently even if they have different accessed frequency. The simulatio n result shows that the SMDPA algorithm may obtain better performance than tradi tional algorithms do.
+Key words　parallel database, multidimensional data space,data hypercube placement
+1　引　　言
+　　自70年代末期以来，随着计算机技术的迅猛发展以及计算机应用的进一步推广，许多数据库的新应用层出不穷，如地理信息数据库（GIS）、联机事务处理系统（OLTP）、决策支持系统（DSS）等.它们具有如下主要特点：①数据库规模越来越大；②数据类型非结构化、复杂；③查询复杂；④实时性要求高.为满足未来高性能的数据库应用要求，对数据库的研究提出了极大的挑战.
+　　继数据库机之后，并行数据库成为研究重点，并取得了极大的进展和实际应用价值［1，2］.对并行数据库的历史、关键技术、发展展望作了很好的总结.至今，已出现许多商业及研究用并行数据库系统，如XPRS［3］，Gamma［4］，Grace［5］，Bubba［1］等.
+　　当今计算机发展的现状是高速的CPU和低速的I/O之间的性能差距逐渐扩大.所以，如何把大量的数据放置在并行数据库系统的多个处理单元上，以提高I/O有效带宽来匹配CPU的高速，最小化数据查询的响应时间，提高系统的性能，是并行数据库系统研究的一个关键技术.本文基于一般的数据访问模式，利用数据超方体间被访问的相关性，提出了基于访问频率和相似度的多维数据空间放置算法：SMDPA（similarly-based multidimensional data-sp ace placement algorithm）.并且算法性能的模拟结果都令人满意.
+　　本文的第2节简介国内外在数据放置算法上的研究现状与相关结果；第3节详细介绍SMDPA算法；第4节给出SMDPA算法和其它已有算法的性能比较的模拟结果.
+2　相关工作
+　　数据放置方法的种类可大致分为如下4种：顺序文件法（sequentially files method）、树结构法（tree-structured method）、散列法（hash method）、格文件法（grid files method）.
+　　因为格文件能较好地描述数据在数据空间内的分布情况，并具有良好的数据分布动态性，所以近年来许多专家的研究主要集中在格文件的放置算法.本文也主要讨论格文件的放置算法.
+　　放置算法可依据放置属性维数一般分为单维放置算法和多维放置算法.单维数据放置算法是最简单的数据放置算法，已被大多数的并行数据库系统实际采用.它一般可分为三大类［2］：①Round-Robin划分算法；②Hash划分算法；③Range划分算法.因单维放置算法只能较好地支持在划分属性上的数据访问，对其它维的访问则很低效.于是基于多维属性的数据放置算法便孕育而生.
+　　多维放置算法可依据放置的算法不同，大致分为如下几类：
+　　(1)基于模的算法（modulo-based algorithms）
+　　DM［6］和CMD［7］算法均属此类.该类算法就是把数据块号依处理单元数取模放置.
+　　(2)基于异或的算法（exclusive-based algorithms）
+　　Field-wise Exclusive-OR Algorithm［8］便是典型算法.该类算法的主要思想为把数据的属性值进行异或操作，得到相应的处理单元编号.即，设元组为〈i1，i2，…，iN〉，对i1，i2，…，iN求异或操作，则为该元组被放置的处理单元编号.
+　　(3)基于编码的算法（code-based algorithms）
+　　Error-Correcting Code Algorithm［9］即为典型算法.该算法同样需要针对属性值进行二进制编码，然后就属性值的二进制码值进行纠错码计算，利用编码的纠错码部分得到码值，从而放置到相应的处理器上.
+　　(4)基于空间填充曲线的算法（space-filling curve based algorithms）
+　　该类算法主要利用分形几何学中若干分形曲线能填充整个空间的结论.Hilbert Curve Algo rithm［10］即为典型算法.Hilbert曲线遍历空间内所有点，但不重复，并且曲线自身并不相交.从而该算法遍历所有点后便得到所有点的线性编号，从而能依此编号进行随后的数据放置. Row-wise Curve Algorithm［11］，Peano Curve Algorithm ［12］，Gray Curve Algorithm［9］等算法均属于该类算法的范畴.
+　　(5)启发式算法（heuristic algorithms）
+　　该类算法利用数据访问的统计信息，利用启发式算法进行有效的放置.例如：Bubba算法，Disk Cooling算法都是该类算法的典型算法.
+　　Moon［13］给出了严格的数学证明：DM/CMD算法只在小规模的处理单元数目、数据查询相对大规模的情况下，它们才能得到近似最优值.并且，对于一些查询，即使增加处理单元数目，也不能改善系统响应时间.对于基于编码、异或的算法需要并行数据库系统的处理单元数目为2的幂次，且数据空间被划分的数目也必须为2的幂次.显然，该类算法并不能很好地支持一般环境下的数据放置.基于空间填充曲线的算法，因为要遍历多维数据空间内所有点的算法本身就没有得到很好地解决，算法并不能保证在复杂的多维空间中给出一个多项式的遍历算法；并且对于某些空间条件下，本身就不存在能遍历所有点的曲线.
+　　并且以上的算法又有个致命的缺点，并没有考虑数据访问的模式，而是基于均匀访问的系统假设条件下，这对于复杂的实际运用是不太恰当的，不能给出最有效的算法.有些基于启发式算法的方法考虑了数据访问的模式，但是对于平衡性、并发性至今还没有一种算法能很好地综合考虑.
+3　SMDPA算法
+3.1　问题背景
+　　定义1.从数据查询的发出时刻至所有所需数据均被访问完毕时的时间区间长称之为响应时间（responsetime）.记为RT(Q).
+　　若指令执行时间和网络传输延时都可忽略不计，则响应时间可简单地等价于各处理单元数据访问页面的最大值.本文的以下所有讨论都基于该假设.
+　　数据放置问题（data declustering problem，DDP）可描述为：给定一个D维笛卡尔数据空间：［L1,U1］×［L2,U2］×…×［LD,UD］，空间中以一定概率分布了若干数据；并行数据库系统中含有N个处理单元.试求一个数据空间的划分与分置算法，使算法对数据查询操作的响应时间最小［14］.文献［14］证明了在一般条件下DDP是NPC问题，故而只能试图寻求可得到优化结果的高效算法.
+　　本文认为，一个完整的数据分置算法应该分为两部分，即数据空间的划分算法（data space partition algorithm，DSPA）、数据超方体的放置算法（data hypercube placement alg orithm，DHPA）.前者按照一定的限制把数据空间划分为若干个超方体；而后者则把这些超方体依算法放置于整个并行数据库系统内所有处理单元上.
+　　对于多维数据空间的DSPA算法，作者已在另文中详细讨论，提出了在一般数据访问模式条件下基于频率均分的划分算法FMDA.本文将详细研究数据超立方体的放置算法，故假设数据空间已事先被划分成若干数据超方体.
+3.2　SMDPA算法介绍
+　　现有的数据放置算法大多是基于访问模式满足均匀分布的假设，显然该假设在一般的实际应用背景下并不满足，所以该类算法的实际性能较差.虽然有些启发式算法能基于一般的访问模式，但是它们并没有充分利用有关访问模式的统计信息，故而性能也并不太高.
+　　考虑到实际数据访问的时/空局部性，数据超方体之间的访问存在相关性.首先我们深入研究该访问相关性的物理含义.
+　　定义2.由并行数据库系统根据系统的访问日志得到的数据超方体的被访问概率称之为该数据超方体的先验被访问概率（priori accessed frequency）.以PAF（A）表示数据超方体A的先验被访问概率.
+　　定义3.考虑到应用系统的访问时/空局部性，若数据超方体A将以概率p被访问，如果数据超方体B已被访问，则我们称数据超方体A与B间存在值为p的相似度（similarity）.用Sim（A,B）来表示.在实际系统中，我们可以简单地认为Sim（A,B）=Sim（B,A）.
+　　定义4.考虑到实际系统中的数据访问局部性，我们可以认为系统是通过数据超方体的后验被访问概率（posteriori accessed frequency）来访问各个数据超方体.使用PeAF（A）表示数据超方体A的后验被访问概率.　　
+　　为了提高并行数据库系统对数据查询操作响应的并发能力，我们应该将可能同时被访问的数据超方体放置到不同的处理节点上.但是如何判断那些数据超方体可能被同时访问呢？且在实际的并行数据库系统只能利用系统的日志机制得到各个数据超方体的先验被访问概率，如何得到它们的后验被访问概率？这就需要利用我们所定义的相似度概念.相似度定义了在实际系统中如何衡量数据超方体间的访问局部性.依概率学的观点，相似度本质上和数据超方体访问的条件概率相同.
+　　不妨假设系统已访问了某个数据超方体，设之为A.那对于剩余没有被访问的数据超方体（不妨设为B）而言，它可能有是与A一同被该数据查询操作访问，也可能是被单独被访问（或者是和其它数据超方体一同被访问）.我们可以利用PAF（A）和Sim（B，A）得到B的“伪”后验被访问概率，比较该概率值和B的先验被访问概率.若先验被访问概率值大，则表明数据超方体B只以很小的概率与A共同被访问；否则，则说明B将以较大概率和A共同被访问.此时，我们便要修正B的被访问概率值，可依然命名为“先验被访问概率”，虽然它的物理意义已为“伪”后验被访问概率；并且记录下B将可能与A共同被访问的结论.显然在如上的被访问概率被修正的过程中，数据超方体的“先验被访问概率”值将越来越大.
+　　在如上对所有未被访问的数据超方体进行一轮的值修正后，我们便要判断下一个最可能被访问的数据超方体.显然依照概率的观点，我们每次选择出的该被访问数据超方体具有在所有未被访问的数据超方体积和中最大的被访问概率值.
+　　如此操作多轮后，我们便将所有的数据超方体依序选择出来.并且所有的数据超方体可以依据被访问的相关性，被划分为若干有序队列.在同一个队列中的数据超方体将以大概率被同时访问，既具有较强的访问局部性.并且队列元素的顺序表明了它们被依次访问的顺序.
+　　因此，为了使并行数据库系统能较好地并行支持数据查询操作，我们应该将在同一个有序队列的数据超方体放置到不同的处理节点上.此时，我们便可以把这些数据超方体按照DM方法，从特定的起始节点开始放置.
+　　同时为了能使系统具有较好的平衡性能，我们针对每个有序队列进行放置时，所选择的起始节点应该是当时所有处理节点中最空闲的处理节点.
+　　依照如上思想，本文给出如下数据超方体放置算法——SMDPA：
+　　Input:
+　　{PAF(DCi)|i∈［1,2,…,K］},其中，K是数据超方体的总数
+　　{Sim(DCi,DCj)|i,j∈［1,2,…,K］};
+　　N,处理节点的数目.
+　　Output:
+　　{PUId(DCi)|i∈［1,2,…,K］∧PUId(DCi)∈［1,2,…,N］},该向量表示各数据超方
+　　体被放置的处理节点的标号
+　　/*首先初始化算法的若干参量*/
+　　步骤1.DC∶={DCi|i∈［1,2,…,K］}
+　　步骤2.Prob(DCi)∶=PAF(DCi),i∈［1,2,…,K］
+　　步骤3.ListId(DCi)∶=NULL,i∈［1,2,…,K］
+　　步骤4.NumOfLinkedList∶=-1
+　　步骤5.WorkLoad(PUi)=0,i∈［1,2,…,N］
+　　/*现在生成若干有序的链表，在同一链表内的节点具有较强的相关性*/
+　　步骤6.while(‖DC‖>0)do{
+　　步骤7.寻找具有最大被访问概率的数据超方体，不妨设为DCi
+　　步骤8.DC∶=DC-{DCi}
+　　步骤9.ifListId(DCi)=NULLthen{
+　　步骤10.NumOfLinkedList∶=NumOf-LinkedList+1
+　　步骤11.LinkedList(NumOfLinkedList)={DCi}
+　　步骤12.ListId(DCi)=NumOfLinked-List}
+　　　Else
+　　步骤13.LinkedList(NumOfLinkedList)=LinkedList(NumOfLinkedList)+{DCi}
+　　/*现在依据DCi的概率值来修正其它未被选出的数据超方体的后验被访问概率值*/
+　　步骤14.for(all DCj in DC∧j≠i)do{
+　　步骤15.TempFrequency∶=Prob(DCi)×Sim(DCj,DCi)
+　　步骤16.if(TempFrequency>Prob(DCj))thendo{
+　　步骤17.Prob(DCj)=TempFrequency
+　　步骤18.ListId(DCj)=ListId(DCi)
+　　　　　}/*end of if*/
+　　　　}/*end of for*/
+　　　}/*end of while*/
+　　/*已将所有的数据超方体都插入所有的链表中，现在需要将这些链表内的所有数据超方体
+　　放置到所有的处理单元上*/
+　　步骤19.for(i∶=0;i<NumOfLinkedList;i=i+1)do{
+　　步骤20.List=LinkedList(i)
+　　/*得到最空闲的处理节点来作为链表的起始放置节点*/
+　　步骤21.k∶=GetIdleNodeID();
+　　步骤22.依序遍历该链表的所有数据超方体,do{
+　　/*不妨设，现在访问DCj*/
+　　步骤23.PUId(DCj)∶=(j+k)mod N
+　　步骤24.WorkLoad(PUId(DCj))∶=Work Load(PUId(DCj)) +Prob(DCj)
+　　　　}/*End of visits all data hyper-cubes in one linked list*/
+　　}/* End of for, which visits all linked lists to place the data hyper-cubes*/
+4　算法性能分析
+　　如下我们给出SMDPA算法的模拟结果.首先定义两个衡量性能的参数.
+　　定义5.给定一种数据空间划分和放置算法，数据查询操作Q所需访问的数据超方体被放置于若干个处理节点上.这些处理节点的数目与并行数据库系统内所有处理节点数目的比值被称之为该数据查询的并行度（degree of parallelism，DP）.用DP(Q)表示数据查询操作Q的并行度.
+　　显然，对所有数据查询操作的DP值都不大于1.
+　　定义6.给定一种数据空间划分和放置算法，数据查询操作Q所需访问的所有数据超方体被放置于DP(Q)个处理节点上.定义下式为数据查询操作Q的平衡度（degree of balance，DB）.
+
+式中，NumOfCube(PUi)表示在PUi中存储并被数据查询操作Q访问的数据超方体.PUSet(Q)表示所有满足数据查询操作Q的处理节点集合.显然集合中元素的数目等于DP(Q).
+　　显然，对于数据空间划分和放置算法而言，它们应该使系统对数据查询操作所响应的并行度尽可能地大，平衡度尽可能地小.
+　　在本节中，我们制作了二维数据空间的模拟，采用了4种算法进行性能比较.它们是：CMD算法、Hilbert Curve(HCA)算法、FieldXOR(XOR)算法、FMDA/SDMPA算法.
+　　进行模拟的首步，我们首先假设数据超方体在空间上的分布满足一定的概率分布.我们进行了正态概率分布的模拟.
+　　给予假设的概率分布，我们生成了满足概率分布的数据超方体.我们认为数据空间存在峰点(peak point)，并行数据库系统对峰点处及附近的数据纪录具有较大的访问概率.这意味着：①在峰点附近的数据纪录分布密集；②在峰点附近的数据查询操作密集.
+　　因为前3种方法均是简单的将数据空间进行值均分划分，而FMDA算法则是将数据空间进行被访问概率的概率均分划分.故而，数据空间的划分算法实质上只有两种：值均分划分方法、概率均分划分方法.
+　　利用该两种数据空间划分方法进行划分后，便得到了若干各自的数据超方体.而后分别利用如上4种算法进行数据超方体的放置.
+　　图1表示了经过4种放置算法处理后，各个处理节点上所有数据超方体被访问概率总和，即处理节点的被访问概率.
+
+图1　16/2500条件下各处理单元的被访问概率总和
+
+　　在4种算法中，显然只有FMDA/SMDPA算法才能基本上将所有处理节点的被访问概率保持相等.而其它3种算法都将使部分处理节点过热，这些热处理节点必然将成为系统的瓶颈；而同时却有其它的处理节点的被访问概率较低，这些处理节点将在系统运行过程中较为空闲.例如，HCA算法使第3个处理节点的被访问概率高达0.13439，而第12个处理节点的被访问概率却只有0.0342095，两者之间的比例高达4.
+　　图2和图3显示了在处理节点数目为16和数据超方体数目为900条件下4种算法的并行度和平衡度性能的比较.
+
+图2　16/900条件下的并发性能
+
+图3　16/900条件下的平衡性能
+　　图4和图5显示了在处理节点数目为16和数据超方体数目为2500条件下4种算法的并行度和平衡度性能的比较.
+
+图4　16/2500条件下的并发性能
+
+图5　16/2500条件下的平衡性能
+　　图6和图7显示了在处理节点数目为32和数据超方体数目为2500条件下4种算法的并行度和平衡度性能的比较.
+
+图6　32/2500条件下的并发性能
+
+图7　32/2500条件下的平衡性能
+
+　　从这些图中，我们不难发现FMDA/SMDPA算法具有较其它3种算法更良好的并发性能和平衡性能.例如，当模拟参数为32个处理节点、数据超方体数目为2500时，若数据查询操作的访问长度为0.5，SMDPA算法的并行度高达0.8505，且平衡度为0.0851.而同时，HCA算法的相应性能值却只有0.4755，平衡度为0.2154.
+　　此外，我们还可以发现：当其它条件不变，但处理节点数目增加时，FDMA/SMDPA算法具有更良好的性能.例如，在处理节点为16时，同样在0.5的查询长度时，SMDPA算法的并行度只为0.793，而平衡度却高达0.1065.这可能是在增加处理节点数目时，SMDPA算法能更好地将同一有序队列中的数据超方体放置在不同的处理节点上.而其它算法的放置节点的选择也增加了，但是它们没有能很好地描述各数据超方体的访问局部性，故而性能改善不大.
+　　当其它条件不变，但数据超方体数目增加时，FDMA/SMDPA算法的性能也有较明显地改善.例如，当处理节点数目为16、数据查询长度为0.2、且数据超方体的数目为900时，SMDPA算法的并行度和平衡度分别为0.7098和0.1354；而当数据超方体数目增加到2500时，相应的性能增加到0.793和0.1065.这是因为，当数据超方体数目增加时，算法可利用关于数据超方体被访问的信息可能更加充分，从而能更加精确地描述数据超方体间的被访问局部性，所以能更好地放置这些数据超方体.
+本课题得到国家自然科学基金项目(项目编号69673046)的资助.
+作者简介：谭郁松，男，1976年9月生，硕士研究生，主要研究方向为并行数据库、计算机协同.
+　　　　　杨利，男，1962年6月生，博士后，副教授，主要研究方向为并行数据库.
+　　　　　周兴铭，男，1938年12月生，中科院院士，教授，博士生导师，主要研究方向为高性
+　　　　　能计算机体系结构、并行与分布数据库、计算机协同.
+作者单位：谭郁松　周兴铭(国防科技大学并行与分布处理重点实验室　长沙　410073)；
+　　　　　杨利(东北大学软件中心　沈阳　110032)
+参考文献
+　1　BoralH et al.Prototyping Bubba:A highly parallel database system.IEEE Trans on Knowledge and Data Engineering,1990, 2(1): 1～4
+　2　Dewitt, Jim Gray. Parallel database systems: The future of database pr ocessing 　or passing fad. Proc of ACM SIGMOD, 1990, 14(4): 104～112
+　3　Stonebrake. The Design of XPRS. In: Proc of 14th VLDB Conf on VLDB. L os Angeles, 1988. 18～35
+　4　Dewitt D J et al. The gamma database machine project. IEEE Trans on Knowledge and Data Engineering, 1990, 2(1): 44～62
+　5　Kitsuregawa M et al. Architecture and performance of relational al gebra machine GRACE. In: Proc of the 1984 International Conference on Parallel P rocessing. Los Angeles: IEEE Computer Society Press, 1984
+　6　Du H C, Sobolewski J S. Disk allocation for cartesian product files on multi-disk system. ACM Trans on Database Systems, 1982, 7(1): 82～101
+　7　Li, Srivastava J. CMD: A multidimensional declustering method for para llel database system. In: Proc of 18th VLDB, 1992. 3～14
+　8　Kim Myoang Ho, Pramanik Sakti. Optimal file distributions for partial match retrieval. Proc ACM SIGMOD, 1988, 17(3): 173～182
+　9　Faloutsos C. Gray codes for partial match and range queries. IEEE Tra ns on Software Engineering, 1988, 14(10): 1381～1393
+　10　Faloutsos. Declustering using fractals, parallel and distributed. In: C onference on Parallel and Distributed Information System, San Diego, 1993. 18～25 
+　11　Samet. Applications of Spatial Data Structure. Reading, MA: Addison-We sley, 1990
+　12　Orenstein, Merrett T. A class of data structure for associative search ing. In: Proc of ACM SIGMOD, Waterloo, 1984. 181～190
+　13　Moon B, Acharya A, Saltz J. Study of scalable declustering algorithm f or parallel grid files. In: Proc of the 10th International Parallel Processing Symposium. Los Alarnitos: IEEE Computer Society Press, 1996. 434～440
+　14　Bell D. Difficult data placement problems. The Computer Journal, 1984 , 27(4): 315～320
+　15　Faloutsos C, Metaxas D. Disk allocation methods using error correcting code. IEEE Trans on Computers, 1991, 40(8): 907～914
+　16　Faloutsos C, Metaxast D. Declustering using error correcting codes. In: Proc Symposium on Principles of Database System, 1989. 253～258
+　17　Grade, Gunther O. Multidimensional access methods. ACM Computing Surve ys, 1998, 30(2): 170～231
+　18　Hinrichs K. Implementation of the grid file: Design concepts and experi ence. BIT, 1985, 25(4): 569～592
+　19　Himatsingka, Srivastava J. Performance evaluation of grid based multi- attribute record declustering methods. In: Proc of 18th VLDB, 1994. 356～365
+原稿收到日期：1999-04-08；修改稿收到日期：1999-08-30.

@@ -1,0 +1,30 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URBAN ECOLOGY
+1999年 第12卷 第5期 Vol.12 No.5 1999
+
+
+
+系统评价EM菌液在生活污水处理中的应用效果
+孟范平，李桂芳，李科林
+　　摘要：采用在生活污水中投加有效微生物群（EM）的方法，系统评价了EM对污水中三类常见污染物去除率的影响。结果表明：①好氧条件下，EM显著提高污水CODcr去除率的适宜加入量（VEM/V污水）为5/10000-1/1000，增幅达10%；厌氧条件下，EM对污水CODcr的去除没有促进作用。②EM在好氧条件下能显著或极显著提高污水NH4+-N的硝化程度，当EM加入量为5/1000时效果最好，增幅达37.62%；厌氧条件下，当加入量为1/10000-1/1000时，能极显著增强污水的反硝化作用，NO3--N的去除率约提高14%。③EM加入量大于5/1000时，才能显著提高污水的除磷能力。由此提出，在处理污水时，应根据处理要求，选择适宜的EM加入量。
+　　关键词：有效微生物群（EM）；生活污水；化学需氧量（CODcr）；氨氮（NH4+-N）；总磷（T-P）
+　　中图分类号：X172　　文献标识码：A　　文章编号：1002-1264(1999)05-0004-04
+A Systematic Study on the Effect of Effective Microorganisms(EM)
+on the Removal of Pollutants from Domestic Sewage
+MENG Fan-ping，LI Gui-fang，LI Ke-lin
+(College of Resources & Environment, Central South Forestry University, Zhuzhou 412006)
+Abstract：The effect of Effective Microorganisms(EM) on the re moval of three main kinds of pollutants from domestic sewage(DS) was studied by adding EM into DS. It showed that: ①In aerobic condition, EM addition (VEM/VDS) between 5/10000-1/1000 raised the removal rate of CODcr significantly with an increment of about 10%; however, in anaerobic condition, EM had no remarkable effect on CODcr remo val. ②5/1000 of EM addition could enhance the nitrification in DS significantly with a largest increment of 37.62% of NH4+-N removal rate; EM addition between 1/10000-1/1000 also promoted the denitrification with an increment of ab out 14% of NO3--N removal. ③Removal rate of phosphorus from DS was increased signif ican tly when EM addition surpassed 5/1000. Therefore, suitable EM addition need to be chosen to meet with different purposes of wastewater treatment.
+Key words：effective microorganisms(EM)；　domestic sewage；　 chemical oxygen demand(COD)；　ammonia nitrogen (NH4+-N)；　total phosphorus (T- P)
+　　有效微生物群（Effective Microorganisms，简称EM）自1978年问世以来，受到了许多行业专家、学者的青睐，并在饲料发酵、禽舍除臭等方面获得了极好的效果，它在环境污染治理方面也有独特的效果［1］。在此前曾采用正交试验研究了投加EM对生活污水中有机物的降解能力［2］，发现EM有效去除生活污水中有机物的最适条件是：水温25℃，曝气时间HRT/3，菌液加入量（VEM/V污水）为1/10000，进水pH为8.0。在此条件下，污水经过较短时间（2d）处理即能达到较高的COD、BOD去除率，比不加EM而要达到同等处理效果的时间缩短了1/2。这说明EM的确能提高生活污水中有机物的降解能力。但是，它对污水中含氮、磷污染物的净化能力如何以及厌氧条件下是否也能起到同样的较好效果。本文将就这些问题做详细的探讨。
+1　材料和方法
+1.1　材料
+　　供试污水为中南林学院教工南区的生活污水（经化粪池预处理），污染特征见文献［2］。
+　　EM由湖南岳阳微生物制剂厂提供（液态）。
+1.2　水质监测方法
+　　污水处理前后CODcr、NH4+-N、NO3--N、NO2--N、T-P等污染物的分析按文献［3］的规定进行，即：CODcr——重铬酸钾法、NH4+-N——纳氏试剂分光光度法、NO3--N——酚二磺酸分光光度法、NO2--N——萘乙二胺分光光度法、T-P——过硫酸钾氧化—钼锑抗分光光度法。
+1.3　EM加入与污水处理方法
+　　EM与污水好氧处理：在污水排放口处采集一定量的生活污水，静置半小时后，取上层污水分装于15只1000　mL广口瓶中，每瓶装1000　mL，然后将15只广口瓶分为五组（即每组设3个重复），分别按VEM/V污水为0、1/10000、5/10000、1/1000和5/1000的比例加入EM菌液，并充分混匀，在室温条件下，用AR-6500型充气泵对污水曝气24　h，测定曝气前后污水中5种污染物的浓度，并据每一组污染物的平均浓度计算相应的去除率。
+　　EM与污水厌氧处理：方法与好氧处理类似，不同之处是处理组数为4组，即：VEM/V污水分别是0、1/10000、1/1000和1/100。另外，EM加入后，立即密塞，保持厌氧24h。
+2　结果与讨论
+2.1　投加EM对污水CODcr去除效果的影响
+　　CODcr是反映污水有机污染程度的主要指标。从图1(a)可以看出，不加EM的对照组的污水CODcr由处理前的453.79　mg/L降为220.66mg/L，去除率为51.37%。同对照相比，随着污水中EM加入量的增加，曝气24　h后污水中的CODcr逐渐降低，特别是VEM/V污水的比值为5/10000和1/1000两个处理组的CODcr浓度与对照的差异达到了显著水平（相应的去除率分别达到59.99%和60.42%），表明EM中的有效菌能够促进污水中有机物的降解。但是，当VEM/V污水比值达到5/1000时，处理后污水的CODcr与对照相差无几，这可能是因为EM本身含有一定量的CODcr（EM菌液中含有大量的糖蜜，据测定，EM菌液的CODcr浓度在30000-40000　mg/L），当污水中EM加入量较大时，必然会显著提高供试污水的原有浓度，而且其提高比例大于微生物数

@@ -1,0 +1,34 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.3 P.32-35
+
+
+
+
+多谐波相参调制信号激励下的系统参数辨识
+周生龙　 缪栋　 
+摘　要：探讨了用来辨识飞行器上线性系统参数的新激励——多谐波相参调制信号（SPHS）的性质及其在参数辨识中的具体应用。实验中运用系统辨识、参数估计、镜像映射原理，借助MATLAB方便的矩阵运算能力，辨识了一个系统参数，结果说明此方法编程实现简洁、迅速，辨识精度高，适合系统的快速参数辨识。
+关键词：调制信号；参数辨识；系统参数
+分类号：V448.1　文献标识码：A
+文章编号：1006-1630(2001)03-0032-04
+System Parameter Identification Motivated by SPHS 
+ZHOU Sheng-long（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025,China）　
+MIAO Dong（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025,China）　
+
+Abstract：This paper discusses the features of a new motivation (SPHS) to identify the parameters of linear system on flying devices and the concrete application in parameter identification. During the procedure of experiments we apply the theories of system identification, parameter estimation, Household to identify the parameters of a system with the convenient matrix operation ability of MATLAB. The experimental results indicate that this method is easy and rapid to program, and the identification accuracy is high. SPHS is adapted to quick parameter identification.
+Keywords：Modulation signal; Parameters identification； System paramenter
+
+作者简介：周生龙（1975-），男，硕士生，研究领域：导航制导与控制；缪栋（1940-），男，教授，博士生导师，研究领域：微电子测试与控制技术。 
+作者单位：周生龙（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　缪栋（西安第二炮兵工程学院，陕西西安 710025）　
+
+参考文献：
+［1］朱三可.多谐波相差调制信号激励下导弹伺服机构动态测试研究[D].西安二炮工程学院,1996.
+［2］黄俊钦.静、动态数学模型的实用建模方法[M].北京：机械工业出版社,1988.79-234.
+［3］胡干耀.系统辨识[M]. 北京：航空航天大学出版社,1989.31-65.
+［4］周秀银.误差理论与实验数据处理[M]. 北京：北京航空航天大学出版社,1988.6-59.
+［5］Schroeder M R. Synthesis of low-peak-factor signals and binary sequences with low autocorrelation[J].IEEE Transaction on Information Theory,1970,(1).
+
+收稿日期：2000年3月29日
+修稿日期：2000年5月15日
+出版日期：2001年3月1日

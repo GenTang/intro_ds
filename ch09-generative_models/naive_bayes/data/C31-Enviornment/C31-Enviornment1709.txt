@@ -1,0 +1,83 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+冬季净化湖水的效果与机理
+胡春华　濮培民　王国祥　黄宜凯
+摘要：为了做到全年改善饮用水水质,需要研究在冬季怎样有效净化水质的问题.为此,在太湖重富营养化水域进行了人工生态系统工程改进试验.结果表明,采用若干措施后,能大大地改善水质;滞留时间2d时,工程内净化效果不明显;滞留时间延至7d左右时,水质指标能改善50%～80%;工程内水质净化的机理为高等水生植物及其共生细菌的共同作用,使人工生态系统工程成为抵抗环境变化的稳定生态系统,使水质变化处于良性循环;而滞留时间2d或在人工生态系统工程外,水质变化处于恶性循环.
+关键词：人工生态系统；净化水质机理；冬季；太湖；五里湖
+中图分类号：X524 文献标识码：A
+Effects and mechanism on purifying lake water quality in winter.
+HU Chun-hua, PU Pei-ming, WANG Guo-xiang, HUANG Yi-kai
+(Nanjing Institute of Geography and Limnology, Chinese Academy of Sciences, Nanjing 210008, China). China Environmental Science. 1999,19(6)：561～ 565
+Abstract：For improving drinking water quality in the whole year, it must be studied how to purify efficiently water quality in winter. In order to raise effects on purifying water quality of the engineering in winter, some improved tests had been taken. Results in the engineering in winter showed as follows. Lake water quality could be improved remarkably by some methods; Effects on purifying water quality were un-notable when the remain time was not more than 2 days; however,the water quality could be improved 50%～ 80% when the remain time was prolonged about 7 days; mechanism on purifying lake water quality is that the cooperative actions of aquatic plants and their symbiotic bacteria made the engineering a stable artificial ecosystem with strong ability to resist the change of environment in the engineering, causing good circle of the water quality change in the artificial ecosystem. However, outside the engineering or with the remain time not more than 2 days in the engineering, the water quality changes in vicious circle.
+Key words：artificial ecosystem；mechanism on purifying water quality；winter；Taihu Lake；Wuli Lake
+　　自然水体水质的恶化并未停止,国内外都在努力探索持续稳定大范围地改善地表水质的方法,许多经验证明,大面积、长时间污染后的水体,仅靠控制入湖(河)外污染源,短期内很难见效,截污、挖泥、生物处理设施等,效果不理想,且耗资大[1-4].为了找出一条适合我国国情的湖泊污染治理的方法与技术.多年来,中国科学院南京地理与湖泊研究所开展了净化水质的人工生态系统工程研究[5-7].为了全年改善工程内水质,需要多样化地配置各种生物种群,加强管理.尤其在冬季,多数飘浮、浮叶植物因霜冻而枯萎或冻死或生长缓慢,在不断抽水的动态条件下,沉水植物因透明度低、水深等,而无法存活.因此,为了提高该工程在冬季净化水质的能力,在太湖重富营养化水域的五里湖饮用水源区进行了若干试验,探索了若干措施的有效性,并对其净化水质的机理作了初步研究.
+1　材料与方法
+　　试验区位于太湖北端内陆湖湾的五里湖, 是太湖水质污染最严重的地区之一,透明度仅有0.25～0.45m. 夏秋季节经常爆发大规模的藻类水华,在丰水期、平水期,其水质的营养化类型为富营养型,每当进入冬春季枯水期,常因河湖水量少、自净能力弱,水质急剧下降,进一步恶化成重富营养型[8,9];然而该水体仍为无锡市重要的中桥自来水老厂的水源;1996年10月23日～12月1日该厂的NH3-N含量(据该水厂日监测表明),最低值为4.0mg/L,最大值高达9.3mg/L,平均值大于6.4mg/L,已严重影响到该厂出水质量(出厂水的NH3-N含量最低值为2.6mg/L,最大值为7.5mg/L,平均5.1mg/L). 
+
+图1 人工生态系统工程示意与水样点位
+Fig.1 Sketch map of the artificial ecosystem engineering and sites of water sample
+　　在此富营养化水体(简称圈外)的取水口附近(试验期间水深1.5～1.6m),圈定了两个南北向40×5m2 矩形圈闭,圈内外水质、底质相同,这两个圈闭简称圈A、圈B.圈A作动态试验,而圈B用作静态对比研究.夏季引种飘浮植物(水葫芦、水鳖等),能提高透明度(SD)达1.20～1.30cm,进入冬季后,该飘浮植物因霜冻而枯萎死亡被移去.1996年11月1～10日,在不与圈外水质发生交换的静态条件下,均种植了沉水植物,几天内存活.1996年11月20～25日,在圈A中引种耐寒的飘浮物种(该物种为两栖挺水植物、驯化后在开阔湖面能很好生长的水花生),并采取了若干防寒措施.1996年12月7～19日对圈A进行了脉动换水动态与静态试验,同时测量了气温、风速、风向;为了比较,在圈外(Os)、圈A中的南部(As)、中部(Am)、北部(An)、圈B中部(Bm)共5处(图1)监测了水温(T)、透明度(SD)、水色(Col)、叶绿素A(Chla)、溶解氧(DOs,水下0.2m处;DOb,水下1.2m处)、NH3-N、NO2-N、NO3-N、TN、PO4-P、TP,测定方法见文献[10].
+2 结果与讨论
+2.1 飘浮植物越冬
+　　在圈A中引种耐寒的飘浮物种,同时采取了若干防寒措施,它能青翠越冬.翌年三月中旬,该物种在采取防寒措施的情况下,新枝青绿粗大(直径0.010m左右),长达0.50～0.60m;而在未采取任何防寒措施的情况下(即露天飘浮水上),新枝暗红细小(直径为0.003m左右),长为0.05～0.07m.非耐寒的飘浮物种(水葫芦、水鳖等),在未采取任何防寒措施的情况下,会全部死亡;采取若干防寒措施后,约有10％能顺利越冬保苗.
+2.2 冬季飘浮植物对水质的影响
+　　在与圈外水质不发生交换的静态条件下,所种植的沉水植物能顺利越冬,并保持较好的水质;但若与圈外水质发生交换的动态条件下,沉水植物的生长会因透明度下降受到抑制,甚至发生死亡,因此必须控制换水速率,若换水过快,当滞留时间为1d时,圈内透明度降至与圈外相同或相近(0.25～0.45m)时,水深为1.5m左右,沉水植物因缺乏光照可导致死亡,其残体的分解,使水质变得更差,这必须设法避免.除了引种耐寒沉水植物外,关键技术是维持较高的透明度.若干措施使得耐寒飘浮植物能顺利越冬.
+　　在防寒条件下的耐寒飘浮植物,其作用主要表现在以下7个方面.
+2.2.1 快速提高SD 圈A内SD介于静态圈B与圈外之间,当滞留时间(Tr)为1d时,其SD比圈外高2/3(仅在进水口附近局部范围且受较强风浪影响期间,SD与圈外一致);正常条件下,SD按照0.2m/d的速度递增,只需3d左右的时间便可达到1.00m,与圈B静态条件相近(图2,图3),为沉水植物的生长创造了必要的光照条件.
+
+图2 圈A内滞留时间(Tr)
+Fig.2 Remain time (Tr) in the enclosure A
+
+图3 Os, As, Am, An, Bm位置的SD
+Fig.3 Transparency (SD) at sites of Os, As, Am, An, Bm
+—□—Os —△—As —○—Am —*—An —◇—Bm
+2.2.2 快速降低Col　圈A内Col介于静态圈B与圈外之间,Tr为1d时,其Col与圈外一致,随Tr增大,Col很快下降;正常条件下,降速为1～2号/d,由最高值17号迅速降至最低值10号,即与静态圈B相同.
+2.2.3 降低Chla　水体滞留时间短的条件下(即Tr<3d),Chla介于静态圈B与圈外之间,沿水流方向从圈外至出水处(时间为1d,Os→As→Am→ An,Chla:41.1→32.2→25.5→27.7m g/L),Chla总体趋小,最低值出现在飘浮植物的中间(Am),显示飘浮植物具有抑制藻类生长的作用.
+2.2.4 维持较高的DO　上层溶解氧(DOs,水下0.2m处)与下层溶解氧(DOb,水下1.2m处)均维持在8mg/L左右;DOb圈A与圈B相近,但DOs圈A总体上高于圈B;圈A内部比较,DOs、DOb最低值常出现在飘浮植物的中间,可能与飘浮植物根部附近耗氧硝化过程较强(见后)有关;但总体上,工程内有较强的复氧过程,DO波动小,而圈外波动大易恶化而发生灾害,例如在风平浪静的条件下(时间为11d),圈外DOb降至2.3mg/L,这对水生生物是一场灾害,可直接导致它们的死亡,而圈A内仍维持在8mg/L左右(图4),揭示圈内外水质变化的机理不同.
+
+图4 Os、As、Am、An、Bm位置DOb
+Fig.4 DO at bottom sites (DOb) of Os, As, Am, An, Am
+图例同图3
+2.2.5 降低水体中的营养盐,并促使NH3-N向NO3-N转化　圈A的营养盐总体介于静态圈B与圈外之间;Tr为1d时,圈A内营养盐快速提高,但TN-N 、NO2-N比圈外低25%～30％,除个别点位外,NH3-N、TP-P、PO4-P也比圈外低,只有NO3-N比圈外高;随着Tr增大,NH3-N、NO2-N、TN-N快速下降,降速分别约为0.47mg/L/d,6m g/L/d,0.16mg/L/d,例如NH3-N 的变化过程见图5.
+
+图5 Os、As、Am、An、Bm位置NH3-N
+Fig.5 NH3-N at sites of Os、As、Am、An、Bm
+图例同图3
+　　NO2-N是NO3-N与NH3-N相互转化的中间物,NO2-N％(NO2-N%=NO2-N/TN-N×100％)基本恒定在2.4%.Tr为1d的条件下,圈A内(Am处)NO3-N％(NO3-N%=NO3-N/TN-N×100％)较低,一般<2.8%,NH3-N％(NH3-N％=NH3-N/TN-N×100％)极高>62%,最高达96.5%;随着Tr延长,NO3-N％增大近一个数量级,为25％左右,而NH3-N％下降<47%.尤其在圈外(Os处)NH3-N％增加、NO3-N％下降时,圈A内NH3-N％下降、NO3-N％上升,与圈外的变化恰恰相反(图2,图6),揭示圈内外水质变化的机理不同;微生物测定表明圈内高等水生植物在低换水的条件下,依附在其根茎上的微生物异常活跃,其中反硝化菌、氨化菌、硝化菌、亚硝化菌其最大可能数比圈外高2～4个数量级,促使NH3-N向NO3-N转化.
+
+图6 Am ,Os位置 NH3-N％、NO3-N％、NO2-N％
+Fig.6 NH3-N％、NO3-N％、NO2-N％ at sites of Am,Os
+—□—NH3-N％ —○—NO3-N％ —△—NO2-N％
+2.2.6 削减风浪的扰动 由于试验区靠近北岸,受南风或偏南风影响大,当圈外波高0.08～0.12m时,圈内仅有0.02～0.04m,显示风浪作用减弱.试验期间,受到2次南风或偏南风的影响(时间:3d,7d),圈外尤其圈B的SD下降较大,而圈A除进水口局部范围外,SD下降很小,特别是飘浮植物中间的SD几乎不变(图3);DOs、DOb、PO4-P/TP％在风浪的影响下,普遍升高,但在飘浮植物中间升幅最小,指示飘浮植物具有削减风浪扰动、减少底泥向水体释放营养盐的作用. 
+2.2.7 调节温度 水温(T)变幅圈A低于圈外,圈A内部在飘浮植物中间变幅最小.圈内飘浮植物作用于水面辐射交换、热量平衡,从而达到调节温度的作用.
+　　在晴天水温升高(时间:8～ 11d;T升高1～2℃),圈内多项指标显示水质改善,而此时圈外则相反即水质进一步恶化.例如,圈A内NH3-N、NO2-N、TN-N,Col下降,SD、Chla增大;圈外则NH3-N、NO2-N、TN-N、TP-P、PO4-P增大,SD、Chla、DOs、DOb下降;揭示圈内外水质变化的机理不同.
+2.3 保证净化水质效果必要的滞留时间
+　　保证净化水质效果必要的滞留时间的确定,对于应用该人工生态系统工程净化饮用水源具有重大现实意义.一旦确定必要的滞留时间(τr,某个特定的Tr,d),便可计算出工程的规模：
+V＝SH＝τrQ 或S＝τrQ/H
+其中:V为工程内饮用水的体积(m3); S为水域面积(m2);H为平均水深(m);Q为水厂日抽水量(m3/d).由上式可知,τr 增大时,水域面积增大,工程量就要加大,因此必须寻求必要的τr.
+　　Tr2d时,圈A水质各指标均很快变坏,净化效果不明显;尤其NH3-N增加最快,且与圈外接近,特别是在飘浮植物中间的NH3-N比圈外还要高68％;Tr增大,水质逐步改善.Tr延至7d左右,效果更佳,水质各指标均与静态圈B相同或相近,比圈外改善50%～ 80％,远优于同水源的中桥水厂出厂水,例如NH3-N与TN-N的含量分别比出厂水低73％、45%,因此,保证净化水质效果必要的滞留时间τr应为7d.
+2.4 净化水质的机理
+　　工程内高等水生植物根、茎的吸附、分解、吸收,及其共生细菌构成的多级生态系统分泌物,使水体中的悬浮颗粒与胶体凝聚后沉降对浮游藻类产生抑制作用,快速提高了透明度,从而大大增强了水下光照条件,促使沉水植物及其共生细菌的生长;沉水植物及其共生细菌的生长,不但加速了悬浮颗粒与胶体凝聚沉降作用,而且其光合作用还能显著改善水体尤其下层水体的溶解氧;较高的溶解氧与丰富的水生植物,为鱼、虾等水生动物的存活与生长创造了必要的条件;高等水生植物对水体中营养盐的吸收,使水体中营养盐含量减少;高等水生植物的存在,促使富含营养盐或可转化为营养盐的悬浮有机碎屑沉降,离开水体,也会使水体中营养盐含量减少;尤其是依附其根、茎上的微生物,其中反硝化菌、氨化菌、硝化菌、亚硝化菌的异常活跃,加速了NH3-N→NO2-N→NO3-N过程,便于水生植物的吸收与利用,为沉水植物的生长创造了良好条件,同时也降低了水体中的营养盐,尤其是降低了NH3-N与NO2-N的含量;高等水生植物的存在,大大降低了风浪的扰动作用,减少了底泥向水体中的营养盐的释放;高等水生植物的存在,还能调节温度,温度升高时,加速工程内水质变化的良性循环,使水质提高.总之,高等水生植物的存在及其共生的微生物共同作用,使该工程成为能够抵抗环境变化的稳定生态系统,使水质的变化处于良性循环.而滞留时间2d或在工程外时,上述机制被破坏,水质的变化处于恶性循环;温度升高时,加速了有机碎屑的腐烂与分解以及底泥的释放,使水质进一步恶化.
+3 结论
+3.1 采取若干防寒措施后,水生植物能青翠越冬;采取若干措施后,能大大地改善水质;滞留时间 2d时,工程净化效果不明显;滞留时间延至7d左右,水质能改善50%～80％.
+3.2 工程内水质净化的机理为高等水生植物及其共生细菌的共同作用,使工程成为能够抵抗环境变化的稳定的生态系统,使水质的变化处于良性循环.而滞留时间2d或在工程外时,水质的变化处于恶性循环.
+致谢：对张圣照、张文华、胡维平、李文朝以及丹麦的Sven Eric JF rgensen、Soren Nors Nielsen、Jorgen Salomonsen等人的帮助及无锡市中桥自来水厂特别是其化验室的支持,在此表示感谢.
+基金项目：国家科委和欧盟资助项目C11*-CT93-0094(DG12 HSM U)
+作者简介：胡春华(1965-),男,江苏溧水人,中国科学院南京地理与湖泊研究所硕士,助理研究员.主要从事沉积环境、生态环境、生态工程的研究工作.合著2部,发表论文10余篇.
+作者单位：中国科学院南京地理与湖泊研究所,江苏 南京 210008
+参考文献
+　[1]　Wu J. The comprehensive control of West Lake in Hangzhou City and its change of trophic state [A].In: Eutrophication of Lakes in China [C]. Beijing. 1990: 469- 500.
+　[2]　Van Liere L. Working group water quality research Loosdreht Lakes: its history, structure, research programme, and some results [J]. Hydrobiologia, 1992, 233: 1- 9.
+　[3]　Van Donk. First attempt to apply whole-lake food-web manipulation on a large scale lake in the Netherlands [J]. Hydrobiologia, 1990, 200 /201:291- 301.
+　[4]　Van der Does J. Lake restoration with and without dredging of phosphorus-enriched upper sediment layers [J].Hydrobiologia 1992, 233: 197- 210.
+　[5]　Pu P. The high-efficient artificial ecosystems in local water bodies and biological enterprises for environment conservation, their roles in eutrophication control for Taihu Lake, China [A]. In: Proceedings of the 6th International Conservation and Management of Lakes [C].1995.1882- 1885.
+　[6]　Pu P. Physic-ecological engineering for improving Taihu Lake water quality in intake area of Mashan Drinking Water Plant [A]. In: Proceedings of 5th International Conference on the Conservation and Management of Lakes [C]. 1993.480- 483.
+　[7]　濮培民,胡维平,逢 勇等.净化湖泊饮用水源的物理-生物工程实验研究 [J]. 湖泊科学,1997,9(2):159- 167.
+　[8]　孙顺才,黄漪平.太湖 [M].北京:海洋出版社, 1993. 96- 100, 250- 261.
+　[9]　Huang Yiping. The water quality and eutrophic state in Lake Taihu [A]. In: Environmental Protection and Lake Ecosystem [C]. 1993.1994:181- 191.
+　[10]　金相灿,屠清瑛.湖泊富营养化调查规范 [M]. 北京:中国环境科学出版社,1990.138- 207.
+收稿日期：1999-01-18

@@ -1,0 +1,210 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000 Vol.17 No.3 P.87-90
+
+
+
+
+网络多功能气象计算器的开发与使用
+苗春生　Charles Duncan　Peter Douglas
+摘　要：介绍了开发气象网上计算器的目的、用途、基本结构及主要的开发语言。重点阐述了计算器开发中的技术处理、编程技巧及计算气象物理参量的数学表达式推导等。最后提出了该计算器尚存的不足及未来改进增强其功能的设想。
+关键词：气象计算器 网上运行 JavaScript语言 气象物理量计算
+0　引言
+　　气象科学是理论性和实践性很强的科学。无论是在理论研究还是在气象业务实际工作中都需要进行大量的精确计算和数据处理，因此一个方便实用的具有科学计算功能和气象物理量计算功能的计算器是十分有用的。目前国外也有用C语言和ToolBook平台开发的简易气象计算器(澳大利亚气象局训练中心)但仅适合于在PC机上安装软件，单机运行。此外，该计算器的结构像一本书，仅有的少量功能还在不同页面上，因使用不便，使用范围很有限。随着网络技术的发展尤其是环球网(WWW)技术的迅速普及，使得大量有用的资料、方法和工具在全球范围内共享成为可能。现在任何有用的网络工具都会受到使用者的欢迎并产生巨大的效益。本文介绍的网络运行计算器，就是本文作者在英国从事欧洲气象教育训练计划(EuroMETE)工作期间为上述目的而开发的多功能网络计算器。目前该计算器已在英国爱丁堡大学气象系主页和欧洲气象教育训练网页上运行。以下简称为气象计算器。
+1　气象计算器的基本功能
+　　从图1可以看出气象计算的器简洁明了。上部的两个窗口分别显示输入/输出的数值及相应的量纲单位。Help和Constant是两个超文本链，为用户提供帮助和有用的数学、物理及气象物理量的计算输出(Output)。
+1.1　数学计算功能
+　　在数学计算功能中包括了最常使用的数学计算功能，例如：对数、指数、三角函数、特殊函数、求和、随机数等。为使程序短小精干，本计算器在计算时多数调用了JavaScript程序中的内置对象Math( )的方法。对于处理字符串对象中的数字表达式和比较表达式等则使用了JavaScript中非常有用的eval( )函数。例如在本计算器中执行与等号“=”功能有关的程序就调用了该函数。其函数语句如下：
+function equal(operation) { 自定义函数。
+　var form=operation.form; 声明局域变量。
+　var expression=total+lastOperation+form.display.value；
+　　　　　　构建计算表达式并声明对应变量。
+　total=eval(expression)；
+　　　　　　　调用eval()函数处理表达式并赋值到全局变量total。
+　form.display1.value=total；在显示窗display中，显示计算结果。
+}
+1.2　气象物理量的计算功能
+　　在气象计算功能区中，首先要根据不同的计算目的输入最基础最常规的4个气象观测值，即干球温度T、湿球温度Tw、气压P、全风矢V及观测点的海拔高度H和所在纬度L中的一个或其中几个初始数据。然后点击物理量的计算按钮，就可得到需要的计算值。目前可计算的气象物理量见表1。
+表1　气象参量表
+
+气象物理量单 位需要输入的初始量
+Td露点温度摄氏度T和Tw
+F华氏温度华氏度T
+C摄氏温度摄氏度T
+Ta位温摄氏度T和P
+Tv虚温摄氏度T，Tw和P
+Fh相对湿度百分比T和Tw
+E水汽压毫巴Tw
+Es饱和水汽压毫巴T
+S比湿克/千克T，Tw和P
+Ss饱和比湿克/千克T，Tw和P
+Lcl抬升凝结高度μT和Tw
+Ek动能(米*秒)平方V
+Ep位能(米/秒)平方H
+Et显热能卡/克T和Tw
+Ee潜热能卡/克T，Tw和P
+Te总能量卡/公斤T，Tw，P，V和H
+Tt总温度摄氏度T，Tw，P，V和H
+Ts饱和总温度摄氏度T，Tw，P和H
+Bt罗斯贝参数1/(米*秒)L
+F地转参数1/秒L
+
+1.3　数学物理和气象常量表
+　　气象计算器的Constant连接着气象工作者最常用的数学物理常数表和气象常数表及度量衡、里程等单位换算表。Help为用户提供了计算器使用指导和各物理量功能说明。使用者只要单击Constant或Help字符标记，就会弹出一个窗口，同时浏览器根据其URL就可方便地取回相应的文本，供用户参考使用(如图2所示)。为了使用户不离开计算器就可阅读Constant和Help的内容，本应用程序中使用了如下方法：定义调用函数、用事件句柄触发某项动作、创建新窗口并控制其外观和使用窗口对象的close( )功能等 (相关程序略)。 
+
+图2　气象计算器帮助窗口
+2　开发气象计算器所用的编程语言和工具
+　　该网络计算器主要由JavaScript语言编成的，但也涉及到HTML语言、CGI程序和Table编程技术。
+　　．JavaScript语言是近几年开始流行的Web编程语言，其特点是近似自然语言并有较强的多媒体处理功能并可不经过编译就能在常用的Netscape和Explorer浏览器上运行。它与目标定向语言Java具有相同的句法结构而且其源代码可以直接嵌入Web页中，使静态网页具有交互性。它是创建计算机和互联网应用程序不可多得的工具。
+　　．HTML语言是超文本定向语言，是目前网页编辑的主要语言，因而也是网络教学训练软件的主要制作工具。
+　　．CGI即公共网关界面，是服务器软件和用户软件的交集，在CGI程序库中，有大量的公共应用软件，例如数学软件包、交互表格等可由用户编程调用，这样就可为用户节省大量的编程时间。
+　　．Table因其具有较强的人机交互功能，因而目前是Web上最常用的动态表格制作工具。气象计算器的基本外型及数据输入，计算功能执行所使用的按钮(Button)均来自于Table技术。
+3　开发过程中的编程技术处理
+3.1　程序特点
+　　气象计算器程序充分利用了JavaScript面向对象的语言特性，特别是表格处理技术及自定义函数功能。两千多条语句、56个自定义函数使得程序结构有相当的复杂性。但由于程序模块清晰、高效，使人易于理解。下面简介程序中的若干特征。
+　　．声明全局变量
+　　本程序的开头共声明了27个全局变量，大部分用于计算气象物理量。而用于数学计算功能的3个全局变量是：Total, LastOperation和Newnumber。
+　　Total变量包含了当前用户计算结果的总和，其值与当前显示在数据显示窗中的数值相同。
+　　Newnumber是布尔型变量，主要用于判别执行计算。
+　　LastOperation变量是为了保存用户要执行的最后一个运算符，便于把Total和最近输入的数Newnumber进行运算。这些变量必须通过赋初值来进行说明。其说明语句为：
+Var total=0；
+Var lastOperation="+"；
+Var newnumber=true；
+　　LastOperation的初值是“+”，而Total的初始值是“0”，这就保证了用户输入的第一个有效数据能被正确存入变量Total中，因为在程序中输入的第一个数据将通过LastOperation(初值是“+”操作)与Total的初值“0”相加，其结果必然是这个数本身。Newnumber的初值为“True”是执行数学计算前赋初值和进行布尔变量判别所需要的。
+　　．浮点数运算
+　　为了具有浮点数运算功能，本计算器程序使用了JavaScript的内部Math floor()方法，字符串对象的Substring()方法，字符串属性Length以及逻辑运算“∣∣”功能。首先对进行浮点运算的一个输入值先进行有效整数或浮点数判别，然后进行取整处理，最后恢复或转变为浮点值。其相关的函数程序段如下：
+function decimalPoint (form) { 定义一个浮点数处理函数。
+var lastChar = form.display1.value.length；
+　　　　　　　把输入数据的字符个数存入局域变量lastchar中。
+var pnumb1=form.display1.value；
+　　　　　赋输入的数值给局域变量pnumb1
+if ((Math.floor(form.display1.value)==form.display1.value
+　　　　　　　当输入值是整数时
+　| | (pnumb1.substring(lastChar,lastChar) == ".")) {
+　　　　　　　　或输入数值的最后字符是“.”即浮点数时
+　Math.floor(form.display1.value)；
+　　　　　　　　整数和浮点数均进行取整处理。
+　form.display1.value += "."；恢复或转换成浮点数。
+　}
+}
+　　从程序可看出，对于用户可能键入两个以上小数点的特殊情况也具有自动纠正功能。
+　　．查错功能Functions of checking本计算器程序有较好的检查错误功能。在进行计算时，如果用户执行了一个特殊的操作，例如用“0”作除数，显然这是常规数学不允许的错误。该计算器首先检查输入数值是否在允许范围之内，然后检查除数是否为“0”。若除数为“0”，计算器显示窗中将显示警告信息并删除显示窗中的数据。其有关程序段如下：
+function calculate (operation) { 数学计算函数
+　var form = operation.form；
+　if (chkrange(form){调用chkrange函数进行有效数据范围检查。
+　if (chkerror(form)) {调用chkerror函数进行除数为0错误检查。
+　var expression = total + lastOperation + form.display1.value；
+　lastOperation = operation.value; 无错则开始计算操作。
+　total = eval (expression); form.display1.value = total；
+　newnumber = true；
+　} else {
+　　　alert ("You can't divide by zero!"); 有错，提出警告。
+　　　form.display1.value = " "; 删除输入的数据。
+　　　}
+　}
+}
+function chkrange(form,low,high,) { 数据有效范围检验函数
+　if form.display1.value != " " {
+　　if ((form.display1.value > low | | (form.display1.value < high)) {
+　　newnumber = true；
+　　} else {
+　　　alert ("beyond the range!")；
+　　　form.display1.value = " "；
+　　}
+function chkerror(form) { 检查除数的函数
+　var noerror =true；
+　if ((lastOperation == "/" && (form.display1.value == 0)) {
+　noerror = false；
+　return noerror；
+}
+　　．两个输入输出窗口
+　　气象计算器输出的物理参量必须带有量纲和单位，为此本气象计算器利用HTML的<Table>标记功能设置了两个文本域Display1(2)。一个用作输出输入数据窗口，而另一个则自动显示对应的量纲单位。请参见图1。
+　　两个文本域窗口的有关设定如下：
+<Input type=text width=12 name=display1 size=8 value="0.0">
+<input type=text width=12 name=display2 size=8 value=" ">
+　　该计算器原始数据的输入使用了表格的Button属性结合JavaScript的事件句柄onClick()来进行的。
+　　以输入温度数据为例：
+<Input type=button name="Temperature" value="T"
+　　onClick="clearFirst(this);">
+　　当用户单击温度输入键T时，事件句柄 onClick，就会立即触发自定义函数clearFirst()的功能。
+function clearFirst1(digit) { 温度T数据输入函数
+　　displ1(digit)；
+　　var form=digit.form:
+　　form.display1.value=" "；
+　　enterNumber(digit)；
+}
+　　clearFirst1()函数在接收温度数据之前，首先调用函数Displ1()清除显示窗口Display2中原有的信息并显示出要求输入温度的单位“Kelvin”。然后清除显示窗口 Display1中原有的数据，最后调用函数enterNumber()接收用户输入的新数据。
+function displ1(digit) {
+　　var form=digit.form；
+　　form.display2.value=" "；
+　　form.display2.value="kelvin"；
+}
+　　．气象初始数据的输入
+　　气象4个观测数据：气压(P)、干球温度(T)、湿球温度(Tw)、风(V)及观测点的纬度(L)和海拔高度(H)是计算大部分气象物理量的初始值。因此，准确获取这些数据是进行计算的基础。如上所述，该计算器程序的数据输入是通过结合Button表项和onClick事件句柄而进行的，因此，为了让计算器区别每一个输入的值。在程序中每一个数据的第一个字符均为大写的英文字母。例如：键入气压时其值的第一个字符为P，温度值的首个字符是T。但是为了把不带字母的准确数据存储在相应的全局变量中，为其后的变量使用，在数据获取自定义函数Getdata( )中使用了字符串的Substring( )方法，charAt( )方法以及字符串属性Length。相应的程序段如下：
+function getdata(form) { 获取数据函数
+var num1=form.display1.value；
+　　　　把窗口中显示的数据赋值到局域变量numb1中。
+var length1=numb1.length；
+　　　　使用length属性标记输入数据的字符数。
+　var num11=numb1.substring(1,length1)；
+　　　　使用substring()方法截取num1中的有用数据。
+　var numb12=numb1.charAt(0)；
+　　　　使用charAt()方法抽出第一个字符。
+　　　if (numb12=="P") { 判别是哪一个气象值。
+　　　pppp=numb11; 存储在相应的全局变量中。
+　　　}
+　　　if (numb12=="T") {
+　　　ttc =eval(numb11-273.15)；存储温度为摄氏温标。
+　　　tttt =ttc；把温度值赋予全局变量tttt。
+　　　}
+　　　┆　　其它气象初值赋值程序段。
+　　　form.display1.value=numb11；
+　　　newnumber=true；
+　　　form.display1.value= " "；
+3.2　气象参量的计算
+　　常用气象物理量的计算是从该物理量的常用表达式编程计算得到的。例如位温计算就来自于位温的表达式(1)。
+　　　　　　　 (1)
+式中：θ是位温，T是气温，P是某一位势高度上的气压，而A是功热当量，Rd和Cpd分别为干空气气体常数和干空气的定压比热。
+　　部分气象参数的计算式却需要利用其它气象参量表达式及本身相关物理定义推导得来。例如：露点温度的计算式(3)就是从温度(摄氏)与饱和水汽压(毫巴)的关系式(2)与露点温度的物理定义推导而来的。饱和水汽压和温度的关系式为：
+es=6.11×107.5T/(T+237.3)　　　　　　(2)
+式中es 就是气温T所对应的饱和水汽压。
+　　因为湿球温度对应的水汽压就是同时刻露点温度对应的饱和水汽压。因此，用湿球温度Tw代替饱和水汽压公式(2)的气温T，得到露点温度对应的饱和水汽压表达式(略)，进而推得露点温度的计算表达式(3)。
+　　　　　　(3)
+式中Td是露点温度，ew是湿球温度Tw对应的水汽压，同时也是露点温度对应的饱和水汽压。
+　　相应的露点温度计算程序段如下：
+function TdTd (form) {
+　with (Math) {
+　　　　　　　使用对象Math,说明该程序段将调用内置数学函数。
+　var n0=parseFloat (tttt)；
+　　　　使用内置函数parseFloat把带有单位的温度和露点
+　var n1=parseFloat(twtw)；
+　　　　变量转换成纯浮点数，以便计算。
+　var n2=(7.5xn1)/(n1+237.3)；
+　var n3=6.11xMath.pow(10,n2)；
+　var nn12=n3.toString()；把数值型变量n3转换成字符串。 
+　form.display1.value=nn12.substring(0,9)；
+　var n4=n3-0.666x(n0-n1)；
+　var n11=eval(log(n4)/log(10)))；
+　var n12=eval(log(6.11)/log(10))；
+　var n5=eval(237.3x(n11-n12)):
+　var n6=eval(7.5-(n11-n12))；
+　var n7=n5/n6; tdtd=n7；
+　var tdtd1=tdtd.toString()；把数据型变量转变成字符串变量。
+　form.display1.value=tdtd1.substring(0,5)；
+　　　使用字符串substring()方法，使露点值精确到5位数。
+　form.display2.value="C-degree"；
+　　　　在第二个显示窗中显示露点的单位。
+　}
+}
+4　不足和进一步的改进
+　　本气象计算器已经在英国爱丁堡大学气象系主页和欧洲气象教育培训网页上运行。不久的将来它也会在中国气象教育培训网络课程页面上出现，为中国气象教育和气象科研服务。但是必须指出，由于JavaScript是个发展中的语言，其功能尚有不完善之处，例如onMouseOver句柄就不能应用于Button之上，来触发事件的发生，为用户带来更多的方便。而且本计算器目前尚无实时绘图及图表显示能力。因此，在下一阶段，我们将结合Java语言和CGI程序来增强该气象计算器的实用功能。增加同时显示多个气象参数，计算绘图及图形显示等有用功能，以及常用数学物理手册和中英文大气科学词典等辅助内容。
+苗春生(南京气象学院气象台 南京 210044)
+Charles Duncan(英国爱丁堡大学气象系)
+Peter Douglas(英国爱丁堡大学气象系)
+参考文献
+1 Ian Bell, ToolBook Calculator, Personal Communication, CALMET 97 CD_ROM, Australia. 1998
+2 David Flanagan. JavaScript The Definitive Guide, second Edition, Published by O'Reilly & Associates, Inc. U.S.A 1997
+3 John T. Houghton. The physics of Atmospheres, second Edition, Published by the Press Syndicate of the University of Cambridge. U.K. 1986
+4 James R. Holton. An Introduction to Dynamic Meteorology, third Edition,Published by Academic Press Limited, U.K. 1992
+5 Charles N. Duncan. Meteorological Teaching Material, Dpat. of Meteorology, The University of Edinburgh. U.K.
+收稿日期：1999年9月28日

@@ -1,0 +1,226 @@
+宇 航 学 报
+JOURNAL OF ASTRONAUTICS
+1998年4月  第19卷  第2期科技期刊
+
+
+微重力环境中重力梯度加速度引起
+的流体晃动力和力矩的模拟
+潘海林 魏延明
+(北京控制工程研究所*北京2729信箱*100080)
+洪儒珍
+(美国阿拉巴马大学)
+摘  要   本文研究了关于旋转轴在贮箱的非对称轴上且远离贮箱的几何中
+心情况下，流体在微重力环境中由重力梯度加速度诱发的晃动特性。我们以
+精密X光光谱天文物理实验卫星(简称AXAF-S)作为研究对象，获得了由于旋转
+运动引起的重力梯度加速度的数学表达式。关于晃动问题的数值计算是用与
+卫星固连的非惯性坐标系为基础，目的是寻求一种较为易处理且适合于流体
+力学方程的边界和初始条件。通过数值计算获得了流体作用于卫星贮箱上的
+力和力矩。
+
+主题词  微重力  晃动力学  气液界面
+　
+SLOSHING INDUCED MOMENT DRIVEN BY
+GRAVITY GRADIENT ASSOCIATED 
+WITH SPACECRAFT SLEW MOTION
+H.L.Pan Wei Yanming
+(Beijing Institute of Control Engineering*Beijing*100080)
+R.J.Hung
+(The University of Alabama in Huntsvell,Alabama 35889,U.S.A.)
+Abstract  The mathematical formulation of spacecraft sloshing for a partially liquid fill 
+cryogenic helium Ⅱ in dewar container driven by the gravity gradient acceleration 
+associated with slew motion is studied.The Advanced X-Ray Astrophysics Facility-
+Spectroscopy spacecraft is chosen as an example in this study.Explicit mathematical 
+expressions which manage orbital gravity gradient acceleration associted with slew 
+motion acting on the spacecraft fluid systems are derived.the numerical computation of 
+sloshing dynamics is based on the non-inertial frame spacecraft bound coordinates and 
+intends to seek the solution of time-dependent,three-dimensional formulations of 
+partialdifferential equations subject to initial and boundary conditions.The numerical 
+computation of fluid forces and moment fluctuation exerted on dewar container are 
+investigated.This study discloses the sloshing dynamic modulated liquid-vapor interface 
+fluctuations,fluid forces and moment fluctuations exerted on the spacecraft system.The 
+relationship with the major driving force of gravity gradient acceleration associated with 
+slew motion on the fluid system in a microgravity environment are also presented.
+
+Key words  Microgravity  Slosh wave  Liquid-vapor interface
+
+1  引言
+
+　　一些科学实验卫星为了达到非常稳定的机械和力学条件，以及观测仪、
+望远镜和陀螺仪的超导传感器在非常低的温度下工作(接近绝对零度)，使用了
+低温液态氦充当推进剂达到冷却和控制的双重目的。重力探测卫星-B(GP-B)
+和精密X光光谱天文物理实验卫星(AXAF-S)都是采用低温液态氦为冷却剂和推
+进剂来保持卫星的许多精密仪器在低温下工作、维持卫星的姿态控制以及无
+阻力的运行。
+
+　　对于AXAF-S卫星，用1.3K低温液态氦作为推进剂。由于低温液态氦的
+超流体特性，液体内部以及自由表面不存在温度梯度，忽略自由表面温度梯
+度驱动的Marangoni对流，自由表面平衡主要的力是：离心力、表面张力、
+重力以及液体和气体表面的摩擦力。纵向和横向加速度使得气液界面处于不
+稳定状态，同时能够激发推进剂的低频和高频晃动波。一般贮箱中流体所受
+的外力分为重力梯度加速度和重力脉动加速度，重力梯度加速度是由于地球
+引力和卫星运动合成作用所产生的加速度，重力脉动加速度则包括如下方面：
+高空大气阻力、机械振动、卫星姿态的调整、发动机点火、卫星运动的惯性
+力、航天器人员移动等，最近有些研究表明［１］高频脉动加速度没有低频
+重要，低频会引起比高频更大幅度的晃动波。
+
+　　数值模拟部分充液旋转贮箱中流体在微重力下的动力响应可以等效于在
+一定初始和边界条件下求解Navier-Stokes方程［２］。在气体和液体的自由
+表面上，需要满足运动边界条件(运动边界的质量守恒)和动力边界条件(切
+向力平衡和法向力平衡)［３］。初始边界条件采用轴对称稳态解［４］，旋
+转流体自由表面稳态解的一些结果曾与Leslie在KC-135飞机上所做的低重
+实验进行比较［５］。实验也显示经典流体力学理论能够用于较大贮箱中的
+低温液态氦。卫星在轨道上运行时，由于受到重力梯度加速度的作用，流体
+会产生相对于卫星贮箱的运动。因此，重力梯度加速度能够使得流体与贮箱
+产生相互作用而激发流体系统的晃动波扰动。本文有兴趣研究与旋转运动相
+关的重力梯度加速度引起的流体晃动力在卫星贮箱上的反馈。
+
+    
+2  与旋转有关的重力梯度加速度
+
+　　AXAF-S卫星是一个高度为650公里绕极地运行的卫星，轨道周期τ0＝97.6
+分钟，轨道角速度ｎ＝2π／τ0＝0.00107rad／ｓ。当卫星绕地球轨道运行
+时，其相对于地球的方位角ΨＥ是随时间变化的。我们定义固连在卫星上的直
+角坐标系（ｘ，ｙ，ｚ）和(ｘ″，y″,z″)(参见图1)，假设当卫星在轨道中
+运行时，在轨道周期τ０时间内，
+
+
+
+图1 AXAF-S卫星坐标系统，ψＥ为由卫星质心和地心的连线
+与卫星自旋轴的夹角，坐标系(ｘ″，y″,z″)用于描述卫
+星的旋转运动，坐标系（ｘ，ｙ，ｚ）用于描述流体其卫星
+绕地心线性地由0°转过了360°。
+
+　　为了完成较大范围的观测，一些科学卫星需要绕ｘ″或ｙ″转动，AXAF-
+S卫星即是如此。假设卫星绕其质心开始旋转时，z″轴与贮箱对称轴共线(参
+见图1)，ｒｃ是一个由卫星质心指向地心的单位径向量。方位角ΨＥ被定义为单
+位径向量与ｚ″轴负方向的夹角，ωｘ，ωｙ和ωｚ分别表示绕ｘ″，ｙ″和ｚ″
+轴的旋转角速度，当系统没有旋转运动时，在直角坐标中的单位径矢量ｒｃ可
+表达为：
+
+
+（1）
+当只考虑系统绕ｙ″做旋转运动时，单位径向量ｒc为：
+
+
+（2）
+通过(3)式和(4)式比较有ΨＥ＝ΨＥｏ＋ωｙｔ。
+
+    作用在流体上的重力梯度加速度：
+ａgg＝－n２［3（rｃ*d）rｃ－d］　　　　(3）
+式中，ｄ是流体单元是卫星质心的向量，对于固连于贮箱上的园柱坐标系
+（r，θ，z），ｄ＝｛－rcosθ，－rsinθ，－（ｚ－Ｌｃ）｝。于是，重
+力梯度加速度可表达为：
+
+（４）
+
+3  与旋转有关的重力梯度加速度引起的自由表面晃动
+
+　　在本文的实际计算中，我们主要针对绕ｙ″轴的旋转情况进行数值模拟，
+旋转的操作是用600秒来完成90度的转动。对于在轨道上的卫星流体系统的
+晃动动力特性，绕ｙ″轴转动与绕ｚ″轴转动是不一样的，这是因为绕ｙ″
+轴旋转引起的重力梯度加速度远大于绕ｚ″轴自转引起的重力梯度加速度。
+我们以部分充有低温液态氦的低温保温贮箱为研究对象，使用园柱坐标(ｒ，
+θ，ｚ)，相对应的速度分量为(ｕ，ｖ，ｗ）。要求求解的数学方程是一个
+在非惯性系的园柱坐标下满足一定初始和边界条件的Navier-Stokes方程
+［６，７］。方程中包括有重力梯度加速度、离心力、角加速度、表面张力、
+粘性力和哥氏加速度等。在微重力下，对于求解推进剂晃动问题所需要的
+初始和边界条件可参考文献［７，８］。在本文中数值模拟的AXAF-S低温保
+温贮箱半径为68ｃｍ，高为145cm，贮箱中充液比为70%。低温液态氦的温
+度为1.3K。我们取低温液态氦与墙的接解角为0°。
+
+　　在计算程序中，对于速度分量采用交错网络，通过MAC［９］方法来处
+理，压力参数值取在网格的中心点上，离散用“Hybrid Scheme”
+方法，流场的计算采用半隐式，时间步长用对流的稳定性和粘性扩散的稳定
+性来确定，压力迭代采用共轭梯度法(Conjugate Gradient Method).。总的流
+体体积守恒满足相对误差不超过0.01。
+
+　　作为例子，本文研究了绕ｙ″轴旋转产生的重力梯度加速度引起的卫星
+贮箱中流体的晃动问题(见图1)。对于流体质点(ｒ，θ，ｚ）＝（12ｃｍ，
+π／2，3ｃｍ）所受的重力梯度加速度在直角坐标(ｘ，ｙ，ｚ）上的分量所
+显示的重力梯度加速度量级的大小为10－６ｇ，卫星质心到贮箱底部的距离LＣ
+(见图1)是257.8cm。本问题气液界面的初始形状为圆球体(图略)。
+
+　图2所示的是受重力梯度加速度的作用所引起的自由液面晃动随时间的变化
+情况，自由液面随时间的变化在图2中选取的时间ｔ＝334、392、431、456、
+487、524、554、588、600、695、784和800秒。
+
+4  由于晃动引起的反馈在贮箱上的力和力矩
+
+　　为了获得晃动引起的作用在贮箱上的力和力矩，我们首先要知道流体作用
+在贮箱上的切向应力∏ｔ和法向应力∏ｎ，根据流体力学的基本理论其表达式为：
+
+
+
+（6）
+
+为了计算流体作用到贮箱上的力和力矩，非惯性系统坐标(与贮箱固连的坐标系)
+必须转换回惯性系坐标(地球坐标系)。对于ＡＸＡＦ-Ｓ卫星，旋转轴总是固定
+在卫星的质心位置(Ｘｃ，Ｙｃ，Ｚｃ）＝（0，0，LＣ）(见图1)，关于(Fｘ，Ｆｙ，
+Ｆｚ）、（Ｍｘ，Ｍｙ，Ｍｚ）详细的数学表达式请参考文献［８］。
+
+　　这样我们可以通过下式计算作用力的力臂(Lｘ，Ｌｙ，Ｌｚ）：
+
+图3 绕y″轴旋转有关的重力梯度加速度作用
+引起流体晃动而反馈到贮箱上的力
+图4 绕y″轴旋转有关的重力梯度加速度作用
+引起流体晃动而反馈到贮箱上的力矩
+
+图4所示的是与绕ｙ″轴旋转有关的重力梯度加速度作用引起流体晃动而反馈
+到贮箱上的力矩。
+
+图5所示的是与绕ｙ″轴旋转有关的重力梯度加速度作用引起流体晃动而
+反馈到贮箱上力的力臂。
+
+
+图5 绕y″轴旋转有关的重力梯度加速度作用引起流体晃动而
+反馈到贮箱上的力臂
+
+5  结论与讨论
+
+　　为了达到不同的科学实验目的，一些科学实验卫星必须执行多种旋转运
+动的操作，AXAF-S卫星需要做本文前面所述那样的转动。由于卫星的旋转轴
+远离贮箱的几何中心，贮箱中的流体会受到一个不平衡的重力梯度加速度作
+用，进而引起流体自由液面的晃动，而自由液面晃动所产生的晃动力影响会
+带来卫星控制系统的诸多问题。本文研究的目的就是为了解决这些问题，并
+进而为卫星的控制提供一个有效的工具。
+
+　　本文完成了与旋转有关的重力梯度加速度引起的流体晃动而产生作用在
+贮箱上的力和力矩的数值模拟。通过对图3、图4和图5的分析，我们得到进
+一步的结论：(1)本文把重力梯度加速度作为一个扰动源，来研究液体燃料贮
+箱的晃动，作为一般卫星的姿态控制，可以忽略不计，但作为高精度姿态控
+制的卫星，却是一个非常重要的扰动源。(2)把整个卫星作为一个系统，作用
+在流体上的重力梯度加速度可以看做是这个系统的输入，而最后由液体晃动
+引起的作用于贮箱上的力和力矩是这个输入的响应和反馈，如果我们把作用
+于贮箱上的力和力矩产生的卫星运动引起的加速度又作为输入的话，那么我
+们就可以建立一个流体力学与卫星控制的闭合系统。(3)作为重力梯度加速度
+引起的液体晃动，当卫星的转动绕ｙ″轴进行时，所得到绕ｙ″轴的力矩最
+大，这与作用在ｙ″轴的力矩有相同之处。(4)作为重力梯度加速度引起的液
+体晃动，当卫星的转动绕ｙ″轴进行时，在ｘ″和z″方向上产生一个有变化
+的晃动力，这是重力梯度加速度引起液体晃动的一个重要特点。
+
+本文于1996年1月15日收到
+
+参考文献
+1  Kamotani Y,Prasad A,Ostrach S.Thermal Convection in an Enclosure Due to 
+Vibration Abroad a Spacecraft.AIAA Journal,1981,19(4):511-516
+2 Hung R J,Shyu K L.Constant Reverse Thrust Activated Reorientation of Liquid 
+Hydrogen with Geyser Initiation.AIAA Journal of Spacecraft and Rocket,
+1992,29(2):279-285
+3 Hung R J,Lee C C,Leslie F W.Response of Gravity Level Fluctuations on the 
+Gravity Prob-B Spacecraft Propellant System.AIAA Journal of Propulsion and Power,
+1991,7(3):556-564
+4  Hung R J Hong B B,Leslie F W.Dynamical Behavior of surface Tension on Rotating 
+Fluies in Low and Microgravity Environments.International Joural for Microgravity Research 
+and Applications,1989,11(1):81-95
+5 Leslie F W.Measurements of Rotating Bubble Shapes in Low Gravity Environment.
+Journal of Fluid Mechanics,1985,161(2):269-275
+6 Hung R J,Pan H L.Differences in Gravity Gradient and Gravity Jitter-Excited Slosh 
+Waves in Microgravity.Transactions of the Japan Society for Aeronautical and Space 
+Sciences,1993,36(1):153-169
+7  Hung R J,Pan H L,Leslie F W.Gravity Gradient or Gravity Jitter Induced Viscous Stress 
+and Monment Fluctuations in Microgravity.Fluid Dynamics Research,1994,14(1):29-51
+8  Hung R J,Pan H L.Fluid Force Activated Spacecraft Dynamics Driven by Gravity 
+Gradiend and Jitter Accelerations.AIAA Journal of Guidance,Control,and Dynamics,
+1995,18(5):1190-1197
+9  Harlow F H,Welch F E.Numerical Calculation of Time Dependent Viscous Incompr-
+essible Flow of Fluid With Free Surface.Physics of Fluids,1965,8(10):2182-2189

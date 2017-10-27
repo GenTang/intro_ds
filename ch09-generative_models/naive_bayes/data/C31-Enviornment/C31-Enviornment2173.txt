@@ -1,0 +1,34 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.40-41
+
+
+
+
+地下水中放射性物质去除技术的应用
+孙喆　 刘国红　 孙慧丽　 
+摘　要：采用二氧化氯消毒、活性炭吸附，对某一饮用水水源水中放射性物质α和β去除的实际工程运行进行了讨论，为去除地下水中放射性物质提供了新方法。
+关键词：活化活性炭；　放射性物质；　处理
+分类号：X523　文献标识码：A
+文章编号：001-6929(2001)03-0040-02
+Application of Removal Technology for Radioactive Matters in the Groundwater
+SUN Zhe（College of Civil Environmental Engineering, Harbin University of Technology, Harbin 150090, China）　
+LIU Guo-hong（College of Civil Environmental Engineering, Harbin University of Technology, Harbin 150090, China）　
+SUN Hui-li（College of Civil Environmental Engineering, Harbin University of Technology, Harbin 150090, China）　
+
+Abstract：The actual engineering operation applying the method of chlorine dioxide disinfection and activated carbon adsorption,for removal of alpha- and beta -radioactive matters in certain drinking water source,was discussed,providing a new method for removing radioactive matters in the groundwater.
+Keywords：activated carbon;　radioactive matter;　treatment
+
+作者简介：孙喆NFDA2(1963-)，男，山东黄县人，教授，博士. 地下水中放射性物质去除技术的应用 
+作者单位：孙喆（哈尔滨工业大学市政环境工程学院，黑龙江哈尔滨 150090）　
+　　　　　刘国红（哈尔滨工业大学市政环境工程学院，黑龙江哈尔滨 150090）　
+　　　　　孙慧丽（哈尔滨工业大学市政环境工程学院，黑龙江哈尔滨 150090）　
+
+参考文献：
+［1］王宝贞.放射性废水处理(上册)[M].北京：科学出版社,1979.
+［2］王宝贞.水污染控制工程[M].北京：高等教育出版社,1990.
+［3］李圭白,刘超.地下水除铁除锰[M].北京：中国建筑工业出版社,1989.
+［4］兰淑澄.活性炭水处理技术[M].北京：中国环境科学出版社,1991.
+
+收稿日期：2000年8月22日
+出版日期：2001年5月30日

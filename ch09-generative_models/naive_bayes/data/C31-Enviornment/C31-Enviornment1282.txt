@@ -1,0 +1,153 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+河流沉积物重金属污染质量控制基准的研究
+Ⅰ.C-B-T质量三合一方法(Triad)
+刘文新　汤鸿霄
+摘要　在综合数据库CERP-DBMS支持下，利用水体沉积物质量三合一工具(Triad)，初步建立江西乐安江表层沉积物中重金属污染的质量控制基准(SQC).通过将化学分析(C)、毒性鉴定(T)和底栖群落结构变化(B)三基元集成为一体的三轴图和相应的响应信息判断矩阵，基于现场生物响应的沉积物质量基准能较为清晰地指示乐安江流域表层沉积物中重金属污染的相对程度和分布模式，体现底栖生物对沉积物重金属污染的剂量-响应关系，为进一步制订该区域沉积质量管理标准(SQS)、开展后续的污染治理与恢复工程提供技术保证和科学依据.
+关键词　沉积物质量基准(SQC)；质量三合一法(Triad)；重金属；乐安江.
+Sediment quality criteria for heavy metal pollution in the Lean River Ⅰ. Sediment quality triad approach
+
+LIU Wenxin,TANG Hongxiao (SKLEAC,Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+Abstract　By the aid of a comprehensive database, regional sediment quality criteria(SQC) for heavy metal pollution along the Lean River were established with an integrative approach-triad. Chemical analysis(C) and toxic tests(T) were combined with benthic macro invertebrates community structure alternations(B). Based on tri-axial graphs together with relevant matrix of decision-making, the initial bio-responsive sediment quality criteria clearly indicated the situation of heavy metal pollution, and showed the dose-response relationships between heavy metal contamination and benthic biotics. Moreover, the SQC may provide some basic material for establishment of sediment quality standards(SQS) and for follow-up remediation engineering in the area.
+Keywords　sediment quality criteria,triad,Lean River,heavy metal.
+1　前言
+　　水体沉积物对水生生态系统具有重要影响，相应的沉积物质量基准(SQC)也日益受到各界重视［1］.目前，SQC广泛用于生态环境风险评估、鉴定污染现状、配置排放负荷和设计监测程序等.同时，SQC也是制订行政管理职能和法律强制力的沉积物质量标准(SQS)所必需的决策辅助工具［2］.目前国家级SQC仍处于概念模式阶段，而针对特定位置(site-specific)或特定情况(situation-specific)的区域SQC则属当前研究热点［3］.SQC的表现形式可大体划分为：(Ⅰ)底栖生物响应型SQC，方法主要有筛选水平浓度法(SLC)、表观效应阈值法(AET)和质量三合一法(Triad)等；(Ⅱ)数值型SQC，包括相平衡分配法(EqP)、水质标准法(WQC)［1—3］.其中，Triad方法具有多因素互补特征(融合化学分析、毒性鉴定和底栖群落结构三基元)，属典型的证据负荷式(evidence-burden)集成化方法.沉积物质量三合一法(SQT)侧重现场(in situ)生物效应，适于建立逐一化学污染物和化学混合污染物的控制基准，并能综合描述区域沉积物的生物质量状况及其水生环境的影响［4，5］.迄今为止，有关SQC专项研究在国内开展很少［1］，而SQT的实地应用尚无报导.本文以德兴铜矿污染的乐安江作为研究对象，利用其综合数据库和质量三合一法，具体阐述该流域沉积物中重金属污染的生物-剂量响应关系，初步建立了生物响应型SQC，以期改变国内相对落后的沉积物管理现状，深化区域沉积物污染及其生态控制研究.
+
+2　材料与方法
+2.1　采样位置
+
+
+图1　乐安江沉积物采样位置示意图
+Fig.1 Sampling sites along the Lean River
+　
+江西境内的乐安江最终汇入鄱阳湖，因毗邻德兴铜矿，矿区酸、碱废矿水连同沿江其它中、小型工矿企业的冶炼废水从不同位置排放进入乐安江，以铜为主的重金属污染导致水生生态环境质量的严重衰退.图1为CERP计划沿乐安江设置的部分站位.
+2.2　Triad法建立区域SQC的基本步骤
+2.2.1　基元指标定量化　在综合数据库CERP-DBMS支持下，将沉积物的化学分析(C)、生物毒性(T)和底栖群落结构(B)三基元的实测数据进行参考比率计算和相关数据变换，并统一规范化为百分标度［10］.
+　　(1) 化学浓度分析(C)　建立SQC的目标是保护底栖生物，因而沉积物中金属污染的化学分析必需考虑金属形态分布的影响和酸可挥发性硫化物(AVS)对金属生物效应的校正作用.由于乐安江表层沉积物中AVS水平很低，同步提取金属浓度之和(∑SEM)与AVS的比值通常大于1［6］，故可忽略AVS的作用.另据CERP计划前期研究，乐安江沉积物中金属的形态分布按简化型生物可给性划分，其生物易利用态与中等利用态之和占据绝对优势［7］，鉴于制订SQC应对水环境条件的渐变或突变具有一定的适应力，因此本文选择上述形态分布范围作为沉积物化学分析的原始数据.乐安江表层沉积物(5—10 cm)样品经湿法筛选(<63 μm组分)、低温烘干和逐级提取处理后，采用AAS、ICP技术对铜、铅、锌、镉、砷、铬等元素进行测定.各样点每种金属的分析浓度(Dij)均以当地背景样点(海口A01)作为参照(Drj)，代入公式(1)计算RTR，比率数据按公式(2)加和后由公式(3)规范化为百分标度.
+Rij=Dij/Drj, i=1,2,…,n个样本； j=1,2,…,m种金属　　(1)
+
+　　　　(2)
+
+Rti=1+(100-1)*(Ri-Rmin)/(Rmax-Rmin), i=1,2,…,n　　　(3)
+　　(2) 生物毒性鉴定(T)　毒性检测项目包括：(i) 沉积物孔隙水毒性.试验材料选用新型淡水发光菌Q-67(青海弧菌，Vibrio Qinghaiensis sp.Nov.)［8］和Microtox检验方法推荐的T3发光菌(Photobacterium phosphoreum)，遵照标准的成组实验方案和毒性评价程序(TIE)鉴定乐安江孔隙水样品的生物毒性［9］，定量指标为菌丛个体抑制率(Inhibition %)；(ii) 利用大型蚤(D.magna)进行沉积物提取液(水∶沉积物=1∶4，时间48 h)和湿性沉积物的暴露(接触)急性测试(T=48 h)，以个体致死率(Lethality %)表示.所有百分比数据用反正弦三角函数变换为弧度制(Radian)数值［5］.同理，选择海口A01作参比，由公式(1)求出各项毒性测试的RTR比值，将各站位数据分别加和后按公式(2)规范化为百分标度.
+　　(3) 底栖生物群落结构变化(B)　选择反应灵敏的底栖大型无脊椎动物区系(benthic macroinvertebrates)作为指示物种［5］，采用信息论公式(公式4)将物种类别与个体丰度的统计结果转化为生物多样性指数形式［10］.同样以上游的海口A01作参考，遵循公式(1)分别求算各样点的RTR数值后，直接用公式(3)规范化为百分标度.为与化学分析(C)和生物毒性(T)的百分标度的响应意义相一致，最终用公式(5)转换.
+　
+　　　(4)
+　　式中，ni代表某样点物种i的个体数目,n代表同一样点所有m物种的个体总和.
+　
+　　　　(5)
+2.2.2　沉积物污染现状的初步判断及相应决策　选取海口A01为比较基准，确定所有站位各基元响应指标的相对程度(以+/-符号标识基元正/负响应的显著性)，并构造用于判断沉积物质量现状和决策管理措施的矩阵雏形［5］，如表1.
+
+表1　质量三合一法的信息响应-判断矩阵
+Table 1 Triad response matrix for primary decision-making and advice
+CTB可能的结论显著性和初步治理建议*
++++重金属污染导致衰退的证据明确根据衰退程度和特定化学污染物进行治理(1)
+---没有衰退迹象的正常状态不需要治理
++--重金属的生物可给性很低目前不需要治理
+-+-存在未测定的可导致潜在衰退的污染情况**在现有结果指导下深入研究以确定化学污染特征(1)
+--+底栖群落结构的改变并非源于有毒重金属目前无治理必要
+++-金属在室内呈生物有效性，但无现场效果(2)需依据实验室效果的来源和程度制订治理水平(1)
+-++存在导致衰退的未测定的有毒污染物(3)需依据生物效应的来源和程度制订治理水平(1)
++-+金属生物效应低或群落结构改变同金属无关可能不需要治理，但须进行附加的集中确认研究
+　　*包括来源控制和一级、二级、三级治理措施中的全部或部分；**重新核实化学分析结果(例如测试过程的质量评定和质量控制QA&QC以及检测限等)和毒性实验数据(例如试验的质评和质控QA&QC、颗粒粒径等修正因子)，并考虑进行附加分析；(1) 某些情况下需怀疑氨的毒性；(2) 重新核查底栖群落数据(尤其是统计分析结果，以确认并未发生结构改变)；否则考虑进行来源控制；(3)重新核查化学分析的完整性及其质评和质控QA&QC，进一步考虑附加分析来鉴别其它可能引发生物毒性和底栖群落结构改变的原因或来源.
+2.2.3　沉积物质量评价C-B-T三轴图　将样点各基元指标的百分标度统一绘制成三轴示意图，藉以指示流域沉积物中重金属污染的相对程度和空间分布模式，显示底栖生物与重金属污染之间的剂量-响应关系.其中，C、B、T三轴分别代表化学浓度效应、底栖群落结构变化和生物毒性影响.基元轴上的百分标度越低，表明样点附近沉积物中该基元的作用越小.
+
+3　结果
+3.1　各基元指标的定量计算和数据转换
+3.1.1　沉积物中重金属化学分析(C)　沿江布设站点的分析数据以海口A01为基准，计算每种金属各自的参考比率，然后将各站位所有检测金属的RTR相加，由公式(2)转换为百分标度，见表2.
+
+表2　乐安江表层沉积物重金属浓度参考比值计算及数据转换
+Table 2 RTR transformation for contents of various heavy metals in surface sediments
+样点名称Ri(Cu)Ri(Pb)Ri(Zn)Ri(Cd)Ri(As)Ri(Cr)加和百分标度
+海口A011.01.01.01.01.01.06.01
+沽口A04109.41.70.81.01.82.4117.1100
+中洲A0569.31.00.61.01.51.775.263
+戴村A0737.85.33.22.08.41.858.548
+虎山A0830.72.11.81.33.51.941.333
+接渡A0913.81.51.21.02.31.721.515
+蔡家湾A1328.41.62.21.32.31.837.629
+黄龙庙A1410.91.51.01.01.92.118.412
+龙口A1610.41.41.20.31.91.616.911
+最大值109.45.33.22.08.42.4117.1100
+最小值1.01.00.60.31.01.06.01
+3.1.2　污染沉积物的生物毒性鉴定(T)　表3列举了孔隙水、沉积物水提液和湿性沉积物毒性检测数据的反正弦三角函数变换(弧度制)、RTR计算及其转换结果.
+
+表3　乐安江表层沉积物毒性数据的反正弦变换、参考比值计算及数据转换
+Table 3 Arcsine and RTR transformation of toxic data(%) for heavy metals in surface sedments
+站位
+名称孔隙水T3发光菌
+抑制%变换孔隙水Q67发光菌
+抑制%变换湿沉积物接触大型蚤
+D.magna致死%变换沉积物水提液大型蚤
+D.magna致死%变换RTR
+加和百分
+标度
+海口A010.01/10.05/10.32/10.01/141
+沽口A040.20/200.32/61.22/41.06/10613659
+中洲A050.13/130.12/20.52/20.64/648135
+戴村A070.78/780.89/180.28/11.33/133229100
+虎山A080.33/330.42/80.56/21.06/10614865
+接渡A090.49/490.36/70.59/20.88/8814663
+蔡家弯A130.41/410.37/70.19/11.06/10615567
+黄龙庙A140.54/540.41/80.32/10.41/4110445
+龙口A160.46/460.42/80.16/10.49/4910345
+最大值0.78/780.89/181.22/41.33/133229100
+最小值0.01/10.05/10.16/10.01/141
+3.1.3　底栖大型无脊椎动物群落结构改变(B)　乐安江底栖大型无脊椎动物群落结构的统计调查结果［11］根据Shannon-Wiener公式(公式3)计算各站位的底栖无脊椎动物多样性指数，参考比率及数据转换结果如表4所示.
+表4　乐安江底栖大型无脊椎动物多样性指数参考比值计算及数据转换
+Table 4 RTR calculation and transformation for species and abundences of benthic macroinvertebrate
+站点名称底栖无脊椎动物多样性指数H参考比率RTR规范化百分标度校正百分标度
+海口A012.641.001001
+沽口A040*01100
+中洲A051.500.575744
+虎山A082.520.96965
+蔡家湾A132.220.848417
+龙口A162.320.888813
+最大值2.641.00100100
+最小值0011
+*因现场未检测到生物个体，故以零计
+3.2　各样点沉积物质量三合一百分标度及污染相对程度
+　　以海口为背景样点，综合三基元各自百分标度可得到沿江沉积物的相对污染情况(表5).
+表5　乐安江表层沉积物三基元参考比率的规范化百分标度及相对响应程度
+Table 5 Percentage scale of RTR values for each components in surface sediments from the Lean River
+样点名称化学分析(C)毒性鉴定(T)底栖大型无脊椎动物群落结构改变(B)基元响应符号C/T/B
+海口A01111-/-/-
+沽口A0410059100+/+/+
+中洲A05633544+/+/+
+虎山A0833655+/+/-
+蔡家湾A13296717+/+/+
+龙口A16114513-/+/-
+戴村A0748100us/ud+/+/?
+接渡A091563us/ud+/+/?
+黄龙庙A141245us/ud-/+/?
+　　us/ud——因当地条件限制未能采样或未能测定.?——因缺乏底栖群落结构(B)的相应数据，尚无法确定.
+3.3　Triad三轴示意图
+　　依据表5数据，图2为乐安江表层沉积物中重金属污染的三合一响应示意图.
+
+
+
+图2　乐安江表层沉积物中重金属污染的质量控制三合一响应示意图
+Fig.2 Triad graphs for heavy metal pollution in surface sediments from the Lean River
+4　讨论
+　　基元三轴图(图2)有助于描述流域内沉积物重金属污染在地理空间分布和数量级别上的差异，结合沉积物质量状况的判断-决策矩阵(表1、表5)可完成乐安江污染沉积物的分段区划，提出初步的治理建议和深入研究的方向：乐安江海口以上流域处于正常状态，现阶段应限制潜在污染源的出现.沽口至中洲江段遭受德兴铜矿排放废矿水的巨大影响，沉积相中高浓度铜不仅导致底栖动物基本绝迹，而且是生物毒性的主要来源，为此，必须增设新的污水处理厂或提高现行处理厂的负荷以便严格限制大坞河支流的直接排放，同时对底泥进行彻底清理.尽管缺少底栖群落结构的数据，但中游的戴村地段仍可划归多金属综合污染强烈区.其铜、铅、锌、铬含量普遍较高，协同毒性达到极值.经实地勘察，除去德兴铜矿的污染扩散，乐安江另一支流——洎水河沿岸铅锌矿的冶炼废水也具有重要作用，应加强针对性管理，对中、小工矿企业实行必要的关停并转等措施.从虎山至接渡一带，伴随污染物迁移能力的减弱和水体自净容量的适度恢复，金属的化学污染强度开始降低，底栖动物区系有所改善.目前，尚不清楚虎山沉积物中重金属的现场与室内毒性行为差异的原因(C+/T+/B-)，需核查和确认底栖群落的统计特征，以便进行来源控制，对沿岸淘金和火力发电等人为活动应予以足够重视.特殊的水文地质条件(如支流汇入、流速变缓等)致使河流悬浮物在蔡家湾处大量沉降，重金属的化学基元响应明显增强，生物毒性和底栖动物群落结构趋于恶化.因此，有必要开展污染底质的疏浚和控掘工程.在接近鄱阳湖的黄龙庙、龙口等地，沉积物中重金属含量进一步逐渐降低，底栖无脊椎动物多样性指数(H)出现回升，但实验室生物检测毒性(T)仍比较高，表明可能存在其它潜在的污染来源，为防止污染进一步扩展至湖区内部，现阶段应加强监测和保护.
+　　必需指出，对行政管理和执法部门而言，现有水平的响应型SQC缺乏直观、明确的数值界限(Threshold)或阈值区间(Range)，RTR指标数据缺少标准的统计置信度［12］，因而不如数值型SQC易于掌握和实际运用.因此，现阶段应加强与数值型SQC有机、有序的结合，发挥Triad工具对数值型SQC的检验和修正作用.在依据SQC制订SQS过程中，应充分协调社会、经济、政治、技术等多方面的相互关系，以便优化解决两个突出问题，即选择适宜的质量评价方法和有限资金的合理分配.必须从长远的全局立场出发，客观地评判费用与效益的辨证关系，现阶段相对便宜的方法和技术并非最终合算，也不一定能满足系统的整体需求.
+　　致谢——作者衷心感谢所有参与CERP计划的中、外工作人员的鼎力协助和热情支持.
+作者单位：刘文新　汤鸿霄　(中国科学院生态环境研究中心环境水化学国家重点实验室，北京　100085)
+参考文献
+　[1]　文湘华.水体沉积物质量基准研究.环境化学，1993，12(5)：334—341
+　[2]　Chapman P M.Current approaches to developing sediment quality criteria.Environ Tox Chem,1989,8:589—599
+　[3]　USEPA.An SAB Report:Review of the Agency's approach for developing sediment criteria for five metals.EPA\|SAB-EPEC-95-020,Washington D C.1995
+　[4]　Canfield T J,Kemble N E,Brumbaugh W G.Use of benthic invertebrate community structure and the sediment quality triad to evaluate metal-contaminated sediment in the upper Clark Fork River,Montana.Environ Tox Chem,1994,13(12):1999—2012
+　[5] Chapman P M,Pine M D,Arthur A D.A triad study of sediment quality associated with a major,relatively untreated marine sewage discharge.Marine Pollution Bulletin,1996,32(1):47—64
+　[6] 文湘华，Allen H E.乐安江沉积物酸可挥发硫化物含量及溶解氧对重金属释放特性的影响的初步研究.环境科学，1997，18(4)：32—34
+　[7]　Mao M Z.Speciation of metals in sediments along the Lean River.Final Report of the CERP,UNESCO,Paris,1996.55—57
+　[8] 朱文杰，汪　杰，陈晓耘等.发光菌一新种——青海弧菌.海洋与湖沼，1994，25(3)：273—276
+　[9] Wang Z J, Ma M.Toxic assessment by Photobacterium phosphoreum.China Environ Sci,1994,5(2):159—164
+　[10] Washington H G.Review:diversity,biotic and similarity indices.Water Res,1984,18(6):653—694
+　[11] Zhu J, Ren S Z.Preliminary study on the benthic macroinvertegrate community relating to the metal pollution in Lean River.China Envrion Sci,1994,5(2):177—181
+　[12] Alden III R W.Uncertainty and sediment quality assessments:(Ⅰ) Confidence limits for the triad.Environ Tox Chem,1992,11:637—644
+1997-04-07收到原稿　1998-01-21收到修改稿

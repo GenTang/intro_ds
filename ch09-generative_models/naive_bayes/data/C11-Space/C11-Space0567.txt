@@ -1,0 +1,23 @@
+航空计测技术
+AVIATION METROLOGY & MEASUREMENT TECHNOLOGY
+1999年 第1期 No.1 1999
+
+
+
+Wollaston棱镜方位对
+激光干涉测量精度的影响
+张　琢　刘丽华　于瀛洁　李鹏生
+　　摘　要　在双频激光干涉测量系统中,Wollaston棱镜是不可缺少的重要光学元件，它可将双频激光按偏振方向分为测量光和参考光，从而实现高精度测量；但是，如果Wollaston棱镜的安装方位相对入射光线方向以及与聚焦透镜距离不同时，测量结果将会不同。本文结合表面粗糙度激光测量系统,从理论上定量分析了Wollaston棱镜的安装方位对测量精度的影响。
+　　关键词　Wollaston棱镜　方位　精度
+Influence of Orientation of Wollaston Prism on Accuracy of Laser
+Interference Measuring System
+Zhang Zuo,Liu Lihua,Yu Yingjie,Li Pengsheng
+　　Abstract　In dual-frequency laser interference measuring system Wollaston prism is an indispensable and important device,which can separate the incident beam in to measurement beam and reference beam according to the polarization direction of dual-frequency laser,so as to realize the high accuracy measurement.But if the installation orentation of Wollaston prism relative to the incident beam and the distance between the prism and the focus lens are different.The measurement result will be different.In this paper,combining with the surface roughness laser measuring system,the influence of the orientation of Wollaston prism on accuracy of measurement is analyzed in theory and quantitatively.
+　　Key words　Wollaston prism,Orientation,Accuracy
+
+1　测量原理
+　　图1为激光干涉表面粗糙度测量原理图。由双频激光器1发出的两个频率略有差异的左右旋圆偏振光f1和f2，经λ／4波片变成两个偏振方向互相垂直的线偏振光，又经过光阑3、倒置望远镜后，由分光镜5分成两束。第一束光经过检偏器6、聚焦透镜7后，由光电接收器8接收；第二束光经反射镜转向并经Wollaston棱镜10，分为f1和f2两束光线，这两束光线透过物镜射向被测表面上。因为f1和f2两束光线照射在被测工件的不同点上，表面的起伏使两束光的光程差发生变化。反射光在Wollaston棱镜处汇合成一束光，并经检偏器、聚焦镜后，被第二路光电接收器接收。对两路光电接收器的测量信号进行处理，就可以测得被测表面的粗糙度，这已经是成熟的技术，在此不详细叙述。
+2　Wollaston棱镜安装方位对测量精度的影响
+2.1　Wollaston棱镜与聚焦透镜的距离
+　　从实验中发现，如果Wollaston棱镜的分光面与聚焦物镜的后焦面距离调整的不好，将导致由被测表面返回的两束光线不能重合,因而不能发生干涉，下面就此现象结合上述测量原理进行理论分析。如图2所示，入射光经Wollaston棱镜按偏振方向分为与分光面法线夹角分别为α1，α2的两束光线，此两束光线经透镜后，入射到被测表面的W点和Y点，入射角分别为β1，β2，J和I是返回两条测量光线，入射到Wollaston棱镜分光面上的点分别为G和K，其距离为x，与分光面的夹角分别为γ1，γ2，当不考虑分光面对透镜主平面的倾角时，通过计算可求得
+x＝2(h－f)(tgα1＋tgα2)(1)

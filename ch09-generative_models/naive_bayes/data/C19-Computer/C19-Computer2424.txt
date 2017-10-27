@@ -1,0 +1,169 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第11期　Vol.36　No.11　1999
+
+
+
+Prolog抽象机及运行模型研究
+萧　镇　韩国新　龚育昌　赵振西
+摘　要：文中从实现Prolog 集成开发环境（Prolog-PE）在功能和效率方面的要求出发，通过对Warren抽象机（WAM)的改进与扩充，提出了一种改进的Prolog抽象机PAM及相应的基于Client-Agent结构的运行控制机制.
+关键词：Prolog抽象机，静态代码与动态代码，Client-Agent结构，Prolog“或”语义
+中图法分类号：TP312；TP314
+A STUDY OF PROLOG ABSTRACT MACHINE AND RUNNING MODEL
+XIAO Zhen, HAN Guo-Xin, GONG Yu-Chang, and ZHAO Zhen-Xi
+(Department of Computer Science and Technology, University of Science and Technology of China, Hefei 230026)
+Abstract　In this paper, an improved Prolog abstract machine (PAM) based on Warren abstract machine (WAM) is presented to suit the need of an integrated Prolog programming environment (Prolog-PE). Furthermore, the running model for PAM in client-agent structure is described in detail, which can flexibly coordinate the execution of static and dynamic Prolog Codes and improve the efficiency of the system.
+Key words　Prolog abstract machine, static code and dynamic code, client-agent structure, OR semantic of Prolog
+1　引　言
+　　Prolog抽象机是实现Prolog语言的虚拟模型. Warren 所提出的可支持编译实现的Prolog抽象机WAM［1］具有结构简练紧凑、易于实现并采用了基本优化机制等优点，已被Quintus Prolog，IBM Prolog等许多Prolog系统所采用.然而WAM是一个基本模型，而且只是Prolog逻辑部分的执行模型，因此当实现一个功能强大的Prolog系统时，在非逻辑部分功能的实现、更完备的Prolog语义的实现以及获得更高的执行效率等方面，WAM尚存在诸多问题.现实而有效的解决方案是对WAM进行改进与扩充.
+　　本文所讨论的Prolog抽象机PAM及其运行环境是根据一个Prolog集成开发环境（Prolog-PE）总体设计所提出的要求而设计的. Prolog-PE是一个集文件管理器、工程（project）管理器、动态编译器/解释器/动态链接器、源代码窗口调试器、外部接口、界面管理器和联机手册等为一体的Prolog程序设计环境［2，3］.为了实现模块化功能、灵活协调动态代码（即可由代码维护谓词修改的Prolog代码）和静态代码的执行，以及实现真正面向源代码的调试器（摒弃调试谓词）、强化交互能力和提高综合执行效率等要求.Prolog-PE对PAM及其运行控制机制提出了很高的要求.针对上述具体的要求，我们在已做工作［4，5］的基础上，对WAM的三大组成部分（存储器、机器状态和抽象指令集）都做了进一步的改进与扩充，并设计了一种基于Client-Agent结构的运行控制机制. 3年多来，Prolog-PE 2.0系统运行与使用的情况说明，PAM及其运行模型的设计是十分有效的.
+　　本文以下各节分别着重介绍PAM的存储器与数据对象、机器状态和抽象指令集的改进部分以及基于Client-Agent结构的运行环境.限于篇幅，不再对WAM作更多的介绍.
+2　PAM的存储器及数据对象
+　　PAM的存储器分为数据存储器和代码存储器两部分.
+　　数据存储器又分为运行时环境存储器和数据资源存储器.运行时环境包括全局栈(堆)、局部栈和踪迹栈.这里我们放弃了对合一栈的显式管理，而将其交给宿主语言C，以节省显示数据存取操作的开销.数据资源存储器存储Prolog标志数据所对应的数据对象，如谓词名、浮点值等.
+　　代码存储器分为静态代码存储器和动态代码存储器两部分.静态代码存储器存放由Prolog中间代码转换生成C语言形式的静态代码，交给操作系统管理；动态代码存储器存放Prolog动态子句过程的中间代码序列及其源代码的等价表示，这是处理静态、动态代码的语义一致性和协调执行所需要的.
+　　在Prolog运行时刻，存储器中存放着各种操作对象的描述符，这些操作对象包括常量(原子、整数、浮点数、空表)、变量、表、结构、代码和纯量.我们根据其属性将这些操作对象区分为数据操作对象和代码操作对象.　　
+　　对于数据操作对象，除纯量为其自然表示外，其余均统一表示为4字节的标志字，其格式为：
+
+
+　　对于常量，用标志字的第16位（第一、二字节）表示具体数据（整数）或数据资源表索引（原子、浮点数）；对于结构，除具有原子常量的信息外，第二字节存放结构参数的个数；对于变量和表，数据内容域中存放运行时刻环境存储器指针.
+　　对于代码操作对象，由于存在着不同存储属性的静态代码（SC）和动态代码（DC），涉及到运行时刻定义的描述符，将在第5节中介绍. 
+3　PAM的机器状态
+　　为了协调SC和DC的执行，扩充Prolog的语义（如“或”语义）和提高执行效率，PAM对WAM 的机器状态作了适当的修改和扩充.首先将WAM中C和CP的定义由单纯的程序计数器改变为事件描述符（或程序描述符），且增设当前函数指针F和后继函数指针CF（与WAM中的C和CP对应）.此外还增设了合一结果寄存器Fail.因此，PAM完整的机器状态寄存器组为：
+　　A：参数寄存器
+　　TR：踪迹栈顶指针
+　　NUM-OF-ARGS：参数个数
+　　H：堆顶指针
+　　E：环境帧指针
+　　B0：cut寄存器
+　　P：当前程序描述符
+　　HB：堆回溯指针
+　　CP：后继程序描述符
+　　S：结构指针
+　　F：当前函数指针
+　　MODE：合一状态寄存器
+　　CF：后继函数指针
+　　Fail：合一（失败）结果寄存器
+　　B：选择点指针
+
+
+图1　PAM的存储空间与机器状态
+　　图1表示PAM的存储空间与机器状态.参照图1，我们再来说明一下修改C，PC含义的一个理由.在Prolog程序中，最大量的是静态代码SC，提高其执行效率是至关重要的.SC的执行过程可归结为①由事件描述符找到谓词过程函数指针；②通过函数指针调用过程.其中①是一个相当费时的环节.但如果系统确切知道谓词过程的属性，函数指针的查找是可能避免的.下节中将对事件描述符作进一步的说明.
+4　PAM的抽象指令集
+　　对于实现Prolog的逻辑语义，WAM的抽象指令集是必要的，但并不是充分的.此外，其中unify指令在实现Prolog的功能时稍嫌复杂，影响效率，对于非逻辑语义，WAM中找不到相关的支持.PAM对WAM的抽象指令集作了必要的改进和扩充.限于篇幅，下面只对PAM抽象指令集中改进与扩充的部分进行原理性的介绍.关于PAM抽象指令集的全部指令集及其详细描述，请参考文献［2］中的附录1.
+　　(1) 把unify指令细分为Set和Unify两种指令
+　　Set相当于写模式下的Unify指令.这是为了省去大量模式设置和测试时间以提高效率，同时也可使代码含义更清晰.
+　　(2) 细分Call和execute 指令
+　　把调用的Prolog过程区分为以下几类：
+　　DBIP：确定性内部谓词过程（不会产生选择点）；
+　　NBIP：非确定性内部谓词过程；
+　　STATIC：用户定义的动态代码过程；
+　　DLL/NAME：需要动态链接的用户定义过程.
+　　以上细化对Prolog非逻辑部分的实现和提高效率是很有效的.
+　　(3) 引入IO指令及操作原语
+　　其中包括产生输出的out类指令和完成询问的QueryUser原语.这是Prolog-PE增强交互性所需要的.
+　　(4) 增加了Math类指令
+　　这是Prolog-PE增强数值处理能力必须的.增加了Math类指令可避免大量过程调用，提高运行效率.
+　　(5) 扩充控制类指令
+　　Prolog-PE的原型系统运行表明，文献［2］中对WAM控制类指令的扩充对实现Prolog-PE的功能和性能是不够的，Prolog-PE 2.0 进一步扩充了如下控制类指令：
+　　end指令：是deallocate和Proceed指令的结合体，旨在避免不必要的数据移动；
+　　Continue指令和success指令：是在同一子句过程中的控制转移指令.增设的目的在于增强控制的灵活性，有效减少运行栈的维护工作；
+　　test_A指令：是Prolog与外部语言（包括SQL）协调工作的接口控制指令.
+　　(6) 支持“或”语义实现的指令
+　　在逻辑程序设计中“或”语义是很有用的.在Prolog程序中，存在着以“；”表示的“或”求解子目标.WAM没有提供实现“或”语义的支持，这可能也是在已有Prolog系统中未实现“或”语义的因素之一.为了实现“或”语义，PAM的指令集重新定义了选择指令Try，Retry和Trust：
+　　　Try n：（1）产生一个选择点；（2）按如下方式定义回溯过程描述符：
+　　　　　　BP∶　=P；
+　　　　　　BP.GI∶　= n ；其中n为子目标索引.
+　　　Retry n：对当前选择点的回溯过程描述符作如下修改：
+　　　　　　BP∶　=P；
+　　　　　　BP.GI∶　= n；
+　　　Trust：抛弃当前选择点.
+　　以上3条指令和Successn指令相配合，通过适当地设置后继过程指针，便可简单地实现“或”语义.下节在介绍了运行控制之后，将举例说明其实现过程.
+5　PAM的运行控制
+　　由于PAM中存在着静态代码SC和动态代码DC，因此需要设计一种运行控制机制，以提供一致的接口来保证这两种代码的语义一致性和协调执行.
+5.1　基于Client_Agent结构的运行控制机制
+　　Prolog对问题的求解过程是对问题状态空间的深度优先遍历，实现的主要机制是回溯.因此，实现回溯是解决上述接口问题的首要问题.一种最直接的想法是直接利用结构化程序设计语言的嵌套、递归机制，把每个谓词实现为一个过程，目标求解则转化为过程调用，因此问题空间状态节点表现为各过程的运行环境.但是，这种方法的致命弱点是所生成的代码流没有条理性，极难保证其正确性.同时，运行环境的保存和恢复要消耗大量的内存空间.
+　　一种可以考虑的方案是把Prolog应用程序实现为一个无结构的语句序列，利用GOTO语句实现程序状态的转移，以实现问题空间的遍历.其优点是很容易与中间语言指令对应，特别适合于用汇编实现，KD-Prolog［2］就采用了这种方案.
+　　另一种可考虑的方案是设置全局结构变量，保存问题的求解过程，把谓词过程完全视为状态空间结点上的操作.其优点是概念清晰，易于处理，不足之处在于完全忽视了程序状态也可以表示求解遍历状态，运行代码需要额外的数据空间及数据维护操作.
+　　上述两种方案只要实现充分的优化，对于纯编译或纯解释实现，基本上可以实现求解机制.但对于解释代码与编译代码共存的情况，这两种方案都不能解决两种代码的相互调用问题.因为解释代码实际是“数据”，在进程运行中不能作为“代码”被一般程序访问.为此，Prolog-PE采用了一种基于Client_Agent结构的运行控制机制，即把Prolog 的执行机制作为Agent，而把谓词实现作为Client，以消息驱动的方式工作.如图2所示.这种运行控制机制充分利用了上述第一种方案中用程序状态表示求解问题空间状态的优点，又以远小于上述第二种方案所需的空间代价（全部通过PAM运行时的栈空间，额外空间消耗为0）实现了非常强的模块封装结构.同时，由于把谓词过程作为事件处理过程，不需要有关具体抽象指令的代码空间索引，从而在较高的层次上统一了SC和DC的编址——即摒弃了绝对物理编址方式，代之以逻辑上的事件描述符.
+
+
+图2　Client_Agent 结构
+5.2　事件描述符
+　　在WAM中，P和PC的含义特别单一，只是把要执行的中间指令在代码区中的地址索引通知执行机构.这种简单的定义对于存在两种不同存储属性的代码SC和DC的情况已不能满足要求.为此，PAM将其修改为作用更强的事件描述符（ED），使其既能从不同代码中索引谓词过程，又能作为谓词过程（Client）的驱动事件的事件描述.
+　　作为谓词过程的索引，ED应能区分谓词过程的属性以及谓词过程在各自代码域中的地址索引；同时，ED应能表达谓词过程中子句的信息；进而言之，子句的基本单位是其组成目标，子句的求解过程实际是求解子句各组成目标的过程，因此，ED还应该给出有关目标的说明，并将索引细化到各组成目标.
+　　作为驱动谓词过程的事件，ED应该把Prolog执行过程中的控制信息通知Client，其中包括：首次尝试还是重新满足、要求处理的事件类型等.
+　　综合上述两方面的要求，结合Client_Agent结构的运行控制机制，将PAM中ED的具体结构确定为：
+
+
+其中：T为谓词过程类型；PI为谓词过程在其所属代码空间中的索引；CI为子句索引；GI为目标索引.
+　　对于T，可以是SC或DC.为了提高效率，把系统谓词Buildings也定义为T的一种类型；对于PI，根据T的不同类型，以不同的策略得到索引值；CI和GI在索引到子句和目标的同时，也是发给Client的事件：“CI=0 AND GI=0”表示该谓词过程首次被调用，“CI≠0 AND GI=0 ”表示对该谓词过程的新一次尝试.同时，GI也是要求Client处理的事件.
+5.3　Client结构与Agent结构
+　　明确了ED的组成之后，Client的结构形式就清晰了.首先，根据ED中的索引信息找到相应的目标代码，然后根据ED的 类型进行不同的处理（产生选择点、分配环境帧、修改选择点等）.因此，我们把Client实现为基本块结构，把谓词过程中对各子目标的求解都实现为一组中间指令序列：
+　　Compute_para A1
+　　Compute_para A2
+　　……
+　　Compute_para An
+　　Call/execute P, n
+　　并通过ED的索引信息在各基本块之间执行控制转移.对于SC，最直接而简单的方式是使用Case语句；对于DC，则把基本块的索引信息作为谓词过程的一部分，以指导解释器运行.
+　　通过以上讨论，可知Client的整体结构如下：
+　　PROCEDURE MSG_PROCESS(Message_Contence)
+　　　BEGIN
+　　　　SWITCH Message_Contence OF
+　　　　CASE Msg_Type_1；
+　　　　　　Process 1；
+　　　　　　Put Answer Message；
+　　　　　　BREAK；
+　　　　CASE Msg_Type_2；
+　　　　　　Process 2；
+　　　　　　Put Answer Message；
+　　　　　　BREAK；
+　　　END //SWITCH
+　　END//PROCEDURE
+　　作为Client的调度者，Agent的控制流程为：
+　　　Initialization
+　　REPEAT
+　　　GET Message From Client；
+　　　Message Process；
+　　　Sent Message To Client；
+　　UNTIL Have Quit Message
+5.4　Client 结构的优化
+　　Client通过Call//execute指令反馈给Agent的消息可能会被Agent不加处理地再次发送给该Client（存在递归时）；此外，对于多子句过程，回溯点可能就是本过程，这也意味着Agent在满足之前对该过程进行反复的调用.对以上两种情况如不加以控制，会造成大量时间浪费.为此，我们给Client的最外层增加了获取有关消息的操作，从而用迭代高效地实现Prolog的控制.
+5.5　SC和DC相互调用的控制转换
+　　SC和DC之间的控制转移最终要经过Call//execute指令，这两指令接受的是事件描述符ED，因此它们实际上成为由Client向Agent反馈消息的途径：把下一步需被处理的事件以ED形式通知Agent，Agent则通过ED索引得到下一步所需的Client，并对其发送消息.可见，采用Client_Agent结构来处理SC和DC的相互调用和协调执行具有概念清晰和易于实现的特点. 
+6　“或”语义实现示例
+　　根据以上对PAM及运行控制的描述，我们以子句a:-b,(c；d,e；f；g),h.为例，说明“或”目标的实现方法.该子句的编译代码为：
+　　Client_a()
+　　{
+　　SWITCH(P,GI){
+　　　CASE 0 : allocate 0； call Client_b； BREAK；
+　　　CASE 1 : Try 2； success 6； execute Client_c；BREAK；
+　　　CASE 2 : Retry 3； success 6； execute Client_d；BREAK；
+　　　CASE 3 : Retry 5； call Client_e；BREAK；
+　　　CASE 4 : success 6； execute Client_f；BREAK；
+　　　CASE 5 : Trust； success 6； execute Client_g； BREAK；
+　　　CASE 6 : call Client_h； BREAK；
+　　　CASE 7 : end； BREAK；
+　　　DEFAULT : PAM.Fail = TRUE； BREAK；
+　　　}
+　　}
+　　以上代码中，从CASE 1到CASE 5涉及到“或”目标的实现.c，d，g是单块“或”目标，而e，f是多块“或”目标.在“或”目标的首块是选择指令（Try，Retry，Trust），而在“或”目标的末块都用一条success指令来设置成功选择点.因此，每个“或”目标都有自己的“失败出口”（由选择点定义）和“成功出口”.当“或”目标失败时，会从选择点中找到下一个可尝试的“或”目标；而当“或”目标成功时，会根据success指令设置的后继过程CP转移到“或”目标成功点.使用execute指令是为了保证success指令设置的CP不会被“或”目标所破坏.
+7　结束语
+　　本文根据Prolog集成开发环境Prolog-PE实现更强大功能的需求，通过对WAM的改进与扩充，设计了一种功能更完备的Prolog抽象机PAM，进而提出了一种基于Client_Agent结构的运行控制机制，该机制能灵活地协调共存的静态代码和动态代码的执行，而且能对Prolog功能（如“或”语义）的扩充提供有效的支持.Prolog-PE运行使用3年以来的实践说明，PAM和上述运行控制机制是十分有效的.
+*本课题得到中国科学院重点科技攻关项目基金资助.
+作者简介：萧镇，男，1976年生，博士研究生，主要研究领域为软件工程环境.
+　　　　　韩国新，男，1970年生，硕士，工程师，主要研究领域为软件技术.
+　　　　　龚育昌，男，1943年生，教授，主要研究领域为软件工程环境、数据库技术.
+　　　　　赵振西，男，1937年生，教授，博士生导师，主要研究领域为软件工程环境、信息集成技术.
+作者单位：中国科学技术大学计算机科学技术系　合肥　230026
+参考文献
+1　Warren H D. An abstract prolog instruction set. Technical Note 309, SRI International, Menlo Park, CA, 1983
+2　萧镇，韩国新. Prolog集成开发环境Prolog-PE技术报告. 中国科学技术大学信息处理实验室, 1995
+　　(Xiao Zhen, Han Guoxin. A guide to Prolog-PE: Integrated prolog development environment(in Chinese). Information Processing Lab, USTC, Hefei, Tech Rep, 1995)
+3　萧镇，韩国新. Prolog-PE用户手册. 中国科学技术大学信息处理实验室，1995
+　　(Xiao Zhen, Han Guoxin. Prolog-PE User Manual(in Chinese). Anhui: Information Processing Lab, USTC, Tech Rep, 1995)
+4　赵振西, 柯向东, 郭剑昆. 有效的Prolog编译实现方法. 计算机学报， 1991, 14(4): 267～274
+　　(Zhao Zhenxi, Ke Xiangdong, Guo Jiankun. Effective methods for compiled Prolog. Chinese Journal of Computers(in Chinese), 1991, 14(4): 267～274)
+5　王子骏. 一种新型的Prolog中间语言及其运行环境［硕士论文］. 中国科学技术大学，合肥，1993
+　　(Wang Zijun. A new interlingua and runtime environment for PROLOG. ［Master D dissertation］(in Chinese). USTC, Hefei, 1993)
+原稿收到日期：1999-01-05；修改稿收到日期：1999-07-02.

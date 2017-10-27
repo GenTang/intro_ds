@@ -1,0 +1,74 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+路由芯片中的微流水设计
+章永兴
+摘　要　微流水技术是异步电路中实现流水线设计的有效方法，而路由芯片是高速通信网络中的重要硬件部件.文中首先介绍了微流水设计的基本结构和控制，然后介绍了采用蛀洞机制的路由芯片的工作机理，并给出了利用微流水实现ASIC路由芯片的具体应用，该芯片达到了简单、高效、可靠的设计目标，文中的最后还给出了在较复杂的电路系统中实现微流水所需要进一步研究的问题.
+关键词　异步电路,微流水，路由芯片，蛀洞机制，Verilog硬件描述语言
+中图法分类号　TP301
+THE DESIGN OF MICROPIPELINES IN ROUTER CHIP
+ZHANG Yong-Xing
+(National Research Center for Intelligent Computing System, Institute of Computing Technology,Chinese Academy of Sciences, Beijing 100080)
+Abstract　Micropipeline is an efficient way for pipeline design in an asynchronous circuit, and router chip is the key technology in high-speed communication networks. In the paper here, the basic structure and control of micropipeline are introduced, and then the application in ASIC router chip with micropipeline is given. The router chip achieves the goal of simplicity, efficiency and reliability. Finally some issues to be researched further in more a complex circuit system are pointed out.
+Key words　asynchronous circuit, micropipelines, router chip, wormhole routing, Verilog HDL
+1　引言
+　　异步电路设计一直是人们热衷研究的一个领域，异步电路设计不需要全局统一的时钟驱动,而是采用某种握手协议来保证操作的正确性,与同步电路设计相比,采用异步设计具有硬件系统容易组织构造、降低功耗、稳定性好和电路升级方便等好处.目前，异步电路设计已有很多理论和方法，包括 Huffman电路、burst-mode、微流水、I-Net和STG图等［1］.其中微流水设计是基于事件驱动的可伸缩的流水线设计方法，是由Ivan Sutherland首先提出的，它是在异步电路中进行流水线设计的有效方法［2］.在MPP大规模并行处理机和机群系统中，高速通信网络是关键技术之一，而路由芯片是高速通信网络的重要硬件部件.在文中的路由芯片设计中，采用了微流水技术，达到了简单、高效、可靠的设计目标.
+2　微流水设计的结构及控制
+　　微流水在结构上由数据通路和控制电路两部分组成,如果数据通路不进行任何数据处理,也就是一个简单的FIFO结构.如图1所示，REG是流水线的数据存储单元，以4级为例，它们构成了微流水的数据通路；Muller C器件和延时单元构成了微流水的控制电路部分，Muller C器件用与门并且在其中标上字母C来表示，其功能是当两个输入端的逻辑值相同时，输出端保持不变；当两个输入端的逻辑值相反时，将左边的输入信号值输出.作为数据存储单元的REG有两个输入的事件控制端，C（capture)和P(pass),两个输出的事件控制端，Cd(capture done)和Pd(pass done)［2］.
+
+图1　微流水的基本结构示意图
+数据传送操作过程如下(前两级为例):
+　　(1) Rin=1,A1=0，有请求,但还没有应答,发captureREG1；
+　　(2) REG1锁存数据,发Cd=1；
+　　(3) Ain=1,向上一级发应答;且R1=1,往下一级发请求；
+　　(4) R1=1,A(2)=0，发captureREG2; 同时,发passREG1；
+　　(5) REG2锁存数据,Cd=1，这时REG1传送数据完成,发Pd=1；
+　　(6) A1=1,表示可接收下一个数据，如果Rin=1,则C仍保持为1;如果Rin=0,则C=0.
+3　微流水设计的应用
+　　在本文的ASIC路由芯片设计中，采用了蛀洞机制(wormhole routing),即当含有寻径信息的头节片进入路由器后，路由器根据寻径信息决定输出通道.如果选择的通道空闲，头节片就沿该通道穿出通道，该通道就由消息包所占用，随后的节片沿此通道向前传输，直到遇到尾节片再释放通道；如果选择的通道忙，头节片就地阻塞在该路由器的节片缓冲区，后续的节片依次停留在相应路由器的缓冲区内［3］.
+　　路由芯片的结构由X层和Y层构成，这两层的设计完全相同，每一层又有3个输入通道和3个输出通道，从输入到输出通道上都有4级Buffer缓冲,在前3级Buffer之间主要是完成对头节片进行判零、地址修改、路由选择和剥零等操作,第3到第4级Buffer之间是进行数据选通操作,见图2.我们根据路由芯片结构上的特点，并加上流量控制，将图1中的Muller C 器件及有关的控制部分设计成一个ACE异步控制单元，每一级Buffer都有一个相应的ACE异步控制单元进行异步传输时序的控制.
+
+图2　路由芯片中输入输出通道结构示意图
+3.1　数据传送协议
+　　(1)只要上一级有请求，本级立即给应答；
+　　(2)先应答上一级的请求，再给下一级发请求；
+　　(3)下一级应答不结束，本级不能再发请求，即被阻塞；
+　　(4)当阻塞解除后，本级自动向下一级发请求.
+3.2　ACE单元的逻辑及时序
+　　ACE单元信号之间的逻辑关系表达式如下：
+　　Aout=Rin+Aout×～(Rout×Ain)
+　　Rout=(～Ain+Rout)×Aout}
+　　CLK＝Rin
+3.3　ACE单元控制数据传递的基本操作过程
+　　如图3所示，信号均为高电平有效
+
+图3　典型的ACE信号时序
+　　① Rin=1, ACE收到上一级的请求；
+　　② Aout=1，向上一级发应答；
+　　③ 若Ain＝0，则Rout=1，向下一级发请求；若Ain=1，则 Rout保持；
+　　④ Rin=0，输入请求结束；
+　　⑤ 若Ain＝0，即ACE还没有收到应答，则Aout仍保持；若Ain＝1，即ACE收到了应答，则Aout=0，对上一级的应答结束，准备接收下一次请求，转步骤①;
+　　⑥ Rout=0，向下一级输出请求结束，可以准备发下一次请求，当收到请求并发应答后，转步骤③.
+3.4　ACE单元中的异步状态流程图
+　　由Rin，Ain，Rout和Aout4个信号的不同取值构成ACE的一个异步状态，状态流程图如图4所示.
+
+图4　异步状态流程图
+4　芯片的实现
+　　文中的路由芯片是采用半定制门阵列(gate array)来实现的，并采用Verilog 硬件描述语言进行行为级和门级的描述，设计流程见图5.芯片的测试结果表明路由芯片的功能和性能都达到了设计上要求，单通道的传输带宽达到100MB/s（数据宽度是16位）.
+
+图5　ASIC路由芯片设计流程
+5　结论
+　　在路由芯片的设计过程中，感到微流水技术可较容易地将同步电路中的流水线结构挪用到异步电路设计中,只需将各级Buffer锁存的时钟部分换成微流水的控制电路.另外，通过对请求应答的流量控制协议来克服Bounded-delay中的additive skew问题.从芯片的仿真和测试结果来看，对异步流水的控制也是可靠有效的，由于在数据通路上要进行某种操作,因此仍要在请求线上加上延时器件.且要考虑Worst case的影响.在今后的路由芯片设计中，如何在较复杂的电路系统中实现微流水还需要进一步的研究,如带有反馈信号的流水线,请求信号双沿的利用［4］和wavepiplining的实现,另外在规模较大时还要考虑微流水控制电路的开销问题.
+注：本课题得到国家“八六三”高技术计划基金(项目编号863-306-ZD-01)资助.
+作者简介：章永兴，男，1967年7月生，工程师，硕士研究生，主要研究方向为高性能计算机体系机构，ASIC芯片设计.
+作者单位：中国科学院计算技术研究所国家智能中心　北京　100080
+参考文献
+1　Hauck S. Asynchronous design methodologies: An overview. Proceedings of the IEEE，1995, 1(1): 69～92
+2　Sutherland I E. Micropipelines. Commun ACM， 1989, 32(6): 720～738
+3　曾荣,董向军,祝明发. 蛀洞路由机制及其芯片设计. 计算机学报，1997, 20(5): 404～411
+　　(Zeng Rong, Dong Xiangjun, Zhu Mingfa. Wormhole routing and its chip design. Chinese Journal of Computers. 1997, 20(5): 404～411)
+4　Pountain D. Computing without clock. BYTE, 1993, 18(1): 145～150
+原稿收到日期：1997-12-17；修改稿收到日期：1998-07-01.

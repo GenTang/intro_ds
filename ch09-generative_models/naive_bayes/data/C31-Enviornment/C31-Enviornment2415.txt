@@ -1,0 +1,190 @@
+环境与开发
+ENVIRONMENT AND EXPLOITATION
+1999年　第14卷　第2期　vol.14　No.2　1999
+
+
+
+三峡库区森林植被分类系统初探
+程瑞梅　肖文发　李建文　马娟　韩景军　任明波
+　　摘　要：森林是三峡库区重要的自然资源之一，其面积占库区总面积的37%，根据设置在库区各县市的81个典型样地和4条样线的调查，结合中国植被分类系统，库区内现有森林可初步分为2个植被型组，8个植被型，18个群系组，44个群系，102个群丛.
+　　关键词：三峡库区；森林植被分类系统
+　　中图分类号：X173　　　文献标识码：A　　　文章编号：10006—5776(1999)02—0004—04
+The Preliminary Research of Forest Vegetation Classified System in the Three Gorge Researvior Area
+　　Abstract:Forest is one of the important natural resource in the Three Gorge Researvior Area,37 percent of the total area is forest,according to 81 typical plot and 4transect, combining the classified system of the China Vegetation,forest in the Three Gorges Researvior Area can be divided into 2 group of vegetation type,8 vegetation 18group of formation,44formation and 102 association.
+　　Key word:The Three Gorge Researvior Area;The Classified system of forest vegetation.
+　　森林是人类赖以生存的基础，三峡库区森林面积占库区总面积的37%，是当地重要的自然资源之一，对其现有的森林植被进行系统的分类，对有计划地发展、保护和合理开发利用其资源，做到可持续发展，具有重要意义.我们于1996年～1998年对三峡库区现有森林状况进行了详尽的调查.
+1　自然概况
+　　三峡库区地处东径106°～110°50′，北纬29°16′～31°25′之间，它东起湖北宜昌，西至四川江津，总面积约5.4万km2.区内热量充足，年平均气温为15℃～18℃，极端最高温可达44℃，年平均气温垂直递变率为0.63℃/100 m；年降水量为1 000～1 200 mm，多集中在夏季，而冬季雨水少，相对湿度较大，可达60%～80%；整个库区四季气候明显，冬季微冷，夏季热而多雨，具亚热带湿润地区的气候特征.
+2　研究方法
+　　样地的设置采用典型取样法，在四川丰都、涪凌、石柱、长寿、江津、云阳、奉节、万县、开县、忠县、巫山、重庆渝北区、江北区、北碚区、巴南区、湖北秭归等处设置样地共81块，4条样线.每个取样面积乔样方20 m×20 m，内设10个2 m×2 m小样方调查灌木，10个1 m×1 m小样方调查草本.记录项目主要包括：(1)乔木样方按每木检尺法记录乔木的高度、胸径；(2)灌木和草本的高度、盖度、多度、株数；(3)生境因子，如海拔、坡向、坡度、坡位、土壤类型等.
+3　研究结果
+　　根据81个代表样方和4条样线的实地调查结果，同时采用《中国植被》分类的原则和系统［1］［2］，将三峡库区19市(县)现有森林植被初步分为2个植被型组，8个植被型，18个群系组，44个群系，102个群丛.其编号为：黑体字为植被型组；Ⅰ，Ⅱ，Ⅲ……为植被型；一、二、三……为植被亚型；(一)、(二)、(三)……为群系组；1，2，3……为群系，(1—1)、(1—2)、(1—3)……为群丛.
+针叶林(植被型组)
+　　Ⅰ.寒温性针叶林(植被型)
+　　一、寒温性常绿针叶林(植被亚型)
+　　(一)冷杉林(群系组)
+　　1.巴山冷杉林(Form. Abies fargesii)(群系)
+　　(1—1)巴山冷杉—箭竹—毛叶黎芦群丛(Ass.Abies fargesii—Fargesia spathacea Franch.—Vertrum annotium)
+　　Ⅱ.温性针叶林
+　　一、温性常绿针叶林
+　　(一)温性松林
+　　2.巴山松林(Form.Pinus henryi)
+　　(2—1)巴山松—美丽胡枝子—金星蕨群丛(Ass.Pinus henryi—Lespedeza formosa—parathelypteris glandulifera)
+　　(2—2)巴山松—小叶平枝旬子—日本金星蕨群丛(Ass.Pinus henryi—Cotoneaster hoizontalis uar.perpusillus—Parathelypteris nipponica)
+　　3.华山松林(Form.Pinus armandii)
+　　(3—1)华山松—绿叶甘姜—荩草群丛(Ass.Pinus armandii—Lindera neesiana—Arthraxon prionodes)
+　　4.巴山榧树＋红豆杉林(Form.Torreya fargesii＋Taxus chinensis)
+　　(4—1)巴山榧树＋红豆杉—红茴香—庐山石韦群丛(Ass.Torreya fargesii＋Taxus chinensis—Illicium henryi—Pyrrosia sheareri)
+　　Ⅲ.暖温性针叶林
+　　一、暖温性常绿针叶林
+　　(一)暖性松林
+　　5.马尾松林(Form.Pinus massoniana)
+　　(5—1)马尾松—继木—芒(Pinus massoniana—Loropetalum chinense—Miscanthus sinensis)(5—2)马尾松—继木—铁芒萁(Pinus massoniana—Loropetalum chinense—Dicranopteris linearis)
+　　(5—3)马尾松—继木—芒＋铁芒萁(Pinus massoniana—Loropetalum chinense—miscanthus sinensis＋Dicranopteris linearis)
+　　(5—4)马尾松—继木—栗褐苔草(Pinus massoniana—Loropetalum chinense—carex brunnea)
+　　(5—5)马尾松—宜昌荚迷＋继木＋铁芒萁(Pinus massoniana—Viburnum ichangense＋Lorpetalum chinenst—Dicranopteris linearis)
+　　(5—6)马尾松—继木＋映山红—芒+荩草(Pinus massoniana—Loroptealum chinense+Rhododendron simsii—Miscanthus sinensis+Arthraxon hispidus)
+　　(5—7)马尾松—映山红—栗褐苔草(Pinus massoniana_Rhododendron simsii_Carexbrunnea)
+　　(5—8)马尾松—映山红—蕨+栗褐苔草(Pinus massoniana—Rhododendron simsii—Pteridium aquilinum var.latiusculum+Carex brunnea)
+　　(5—9)马尾松—映山红—白茅(Pinus massoniana—Rhododendron simsii—Imperata cylindrica var.major)
+　　(5—10)马尾松—白栋+山胡椒—铁芒萁(Pinus massoniana—Viburnum utile—Carex brunnea)
+　　(5—11)马尾松—白栎+山胡椒—铁芒萁(Pinus massonian—Quercus fabri+Lindera glauca—Dicranopteris linearis)
+　　(5—12)马尾松—白栎—铁芒萁(Pinus massoniana—Quercus fabri—Dicranopteris linearis)
+　　(5—13)马尾松—白栎—芒(Pinus massoniana—Quercus fabri—Miscanthus sinensis)
+　　(5—14)马尾松—短柄抱栎—五节芒(Pinus massoniana—Quercus glandulifer var.brevipetiolata—Miscanthus floridulus)
+　　(5—15)马尾松—葱木—铁芒萁(Pinus massoniana—aralia chinensis—Dicranopteris linearis)
+　　(5—16)马尾松—铁仔—过路黄+芒(Pinus massoniana—Myrsine africana+Lysimachiachristinae—Miscanthus sinensis)
+　　(5—17)马尾松—展毛野牡丹+继木—铁芒萁(Pinus massoniana—Melastoma normale+Loropetalum chinense—Dicranopteris linearis)
+　　(5—18)马尾松—截叶铁雪帚—金发草(Pinus massoniana—Lespedeza cuneata—Pogonatherun paniceum)(5—19)马尾松—美丽丽枝子—日本金星蕨(Pinus massoniana—Lespedeza formosa—Parathelypteris nipponica)
+　　(5—20)马尾松—火棘—白茅(Pinus massoniana—Pyracantha fortuneana—Imperata cylindrica var.major)
+　　(5—21)马尾松—盐肤木—铁芒萁(Pinus massoniana—Rhus chinenses—Dicranopteris linearis)
+　　(二)杉木林
+　　6.杉木林(Form.Cunnighamia lanceolata)+(6—1)杉木—野樱桃—水金凤群丛(Ass,Cunninghamia lanceolata—Cerasus serrulata—Impatiens noli—tangere)(6—2)杉木—鼠李—金线草群丛(Ass.Cunninghamia lanceolata—Rhamuns sp.—Antenoron fililforme)
+　　(6—3)杉木—长蕊杜鹃—乌蕨群丛(Ass.Cunninghamia lanceolata—Rhododendron stamineum Franch.—Sphenomeris chinensis)
+　　(6—4)杉木—细齿叶柃—铁芒萁群丛(Ass.Cunninghamia lanceolata—Eurya nitida—Dicranopteris linearis)
+　　(6—5)杉木—继木—芒群丛(Ass.Cunninghamia lanceloata—Loropetalum chinense—Miscanthus sinensis Anderss.)
+　　(6—6)杉木—白栎—铁芒萁群丛(Ass.Cunninghamia lanceolata—Quercus fabri Hance—Dicranopteris linearis)
+　　(三)
+　　7.柏木林(Form.Cupessus funebris)
+　　(7—1)柏木—黄荆—白茅群丛(Ass. Cupressus funebris —Vitex negunda—Imperata cylindrica uar.major)
+　　(7—2)柏木—黄荆—黄茅群丛(Ass. Cupressus funebris —Vitex negunda—Heteropogon contortus)
+　　(7—3)柏木—黄荆—栗褐苔草群丛(Ass. Cupressus funebris —Vitex negundo—Carexbrunnea)
+　　(7—4)柏木—美丽胡枝子—白茅群丛(Ass. Cupressus funebris —Lespedeza formosa—Imperata cylindrica var.major)
+　　(7—5)柏木—继木+勾儿茶—芒+细穗苔草群丛(Ass. Cupressus funebris —Loropetalum chinense+Berchemia sinica—Miscanthussinensis+Carex sp.)
+　　(7—6)柏木—火棘+悬钩子—栗褐苔草群丛(Ass. Cupressus funebris —Pyracantha fortuneana+Rubus sp.—Carex brunnea Thunb.)
+　　(7—7)柏木—铁仔—栗褐苔草群丛(Ass. Cupressus funebris +Myrsine africana—Carexbrunnea)
+　　(7—8)柏木—黄荆—栗褐苔草+高茎紫苑群丛(Ass. Cupressus funebris —Vitex negundo—Carex brunnea+Aster prorcrus)
+　　(7—9)柏木—黄栌+铁仔—栗褐苔草群丛(Ass. Cupressus funebris —Cotinus coggygria+Myrsine africana—Carex brunnea)
+　　(7—10)柏木—烟管荚迷—栗褐苔草群丛(Ass. Cupressus funebris —Viburnumutile —Carexbrunnea)
+　　(7—11)柏木—继木—芒+细穗苔草群丛(Ass. Cupressus funebris —Loropetalum chinense—Miscanthus sinensis+Carex sp.)
+　　Ⅳ.暖温性针阔叶混交林(低山、丘陵地阔叶混交林)
+　　(一)马尾松针阔叶混交林
+　　8.马尾松＋甜槠林(Form.piuns massoniana+Castanopsis eyrdi)
+　　(8—1)马尾松+甜槠—水竹—铁芒萁群丛(Pinus massoniana+Castanopsis eyrei—Phyllostachys heteroclada—Dicranopteris linearis)
+　　9.马尾松+短柄抱栎林(Form.piuns massoniana+Quercus glandulifer var.brevipetiola)
+　　(9—1)马尾松+短柄抱栎—短柱柃—芒群丛(Ass.Pinus massoniana+Quercus glandulifer ver. brevipetiolata—Eurya brevistyla—Miscanthus sinensis)
+　　(二)杉木针阔混交林
+　　11.杉木、甜槠林(Form.Cunninghamia lanceolata+Castanopsis eyrei)
+　　(11—1)杉木+甜槠—大叶鼠刺—铁芒萁群丛(Cunninghamia lanceolata+Castanopsis eyrei—Itea macrophylla—Dicranopteris linearis)
+　　12.杉木、栲林(Form.Cunninghamia lanceolata+Castanopsis fargesii)
+　　(12—2)杉木+栲—木莓—鸢尾群丛(Cunninghamia lanceolata+Castanopsis fargesii—Rubus swinhoei—Iris tectorum)
+阔叶林(植被型组)
+　　Ⅴ.落叶阔叶林
+　　一、典型落叶阔叶林
+　　(一)栎类林
+　　13.短柄抱栎林(Form.Quercus glandulifer var.brevipeticiolata)
+　　(13—1)短柄抱栎—美丽胡枝子—蕨群丛(Ass.Quercus glandulifer var.brevipeticiolata—Lespedeza formosa—Pteridium aquilinum var.latiusculum)
+　　(13—2)短柄抱栎—旬子—栗褐苔草群丛(Ass.Quercus glandulifer var.brevipeticiolata—Lespedeza formosa—Pteridium aquilinum var.latiusculum)
+　　14.短柄抱栋+茅栗林(Form.Quercus glandulifer var.brevipeticiolata+Quercus seguinii)
+　　(14—1)短柄抱栎+茅栗—宜昌荚迷—耳羽短肠蕨群丛(Ass.Quercus glandulifer var.brevipeticiolata+Quercus seguinii—Viburnum erosum—Allantodia wichurae)
+　　15.栓皮栎林(Form.Quercus variabillis)
+　　(15—1)栓皮栎—映山红—栗褐苔草群丛(Ass.Quercus variabilis—Rhododendron simsii—Carex brunnea)
+　　(15—2)栓皮栎—山胡椒+中华绣线菊—云雾台草群丛(Ass.Quercus variabilis—Linderaglauca+Spiraea chinensis—Carex nubigena)
+　　(15—3)栓皮栎—马桑+小黄杨—栗褐苔草+野菊群丛(Ass.Quercus variabilis—Linderaglauca+Spiraea chinensis—Carex nubigena+Chrysanthemum indicum)
+　　(15—4)栓皮栎—映山红—芒群丛(Ass.Quercus variabilis—Rhododendron simsii+Miscanthus sinensis)
+　　16.槲栎+栓皮栎林(Form.Quercus aliena+Quercus Variabilis)
+　　(16—1)槲栎+栓皮栎—继木—云雾苔草群丛Ass.Quercus aliena+Quercus Variabilis—Loropetalum chinensis—Carex nubigena)
+　　17.西南槲树林(Form.Quercus dentata var.oxyloba)
+　　(17—1)西南槲树—白檀—金星蕨群丛(Ass.Quercus dentata var.oxyloba—Gymplocos paniculata—Parathelypteris glanduligera)
+　　18.白栎林(Form.Quercus fabri)
+　　(18—1)白栎—山胡椒—棕叶狗尾草(Quercus fabri—Lindera glauca—Setaria palmifolia)
+　　(18—2)白栎—乌饭+铁仔—腹水草(Quercus fabri—Vaccinium bracteatum+Myrsine africana—Veronicsatrum stenostachyum)
+　　(二)水青冈林
+　　19.亮叶水青冈林(Form.Fagus lucida)
+　　(19—1)亮叶水青冈—箭竹—梅笠草群丛(Ass.Fagus lucida—Sinarundinaria nitida—Chimaphila japonica)
+　　20.亮叶水青冈+粉白杜鹃林(Form.Fagus lucida+Rhododendron hypoglaucum)
+　　(20—1)亮叶水青冈+粉白杜鹃—箬竹—宝铎草+蕨群丛(Ass.Fagus lucida+Rhododendron hypoglaucum—Indocalamus tessellatus—Disporum sessile+Pteridium aquilinum var.latiusculum)
+　　21.茅栗林(Form.Castanea seguinii)
+　　(21—1)茅栗—绿叶胡枝子—日本金星蕨群丛(Ass.Castanea seguinii—Lespedeza buergeri—Parathelypteris nipponica)
+　　22.茅栗+亮叶桦林(Form.Castanea seguinii+Betula luminifera)
+　　(22—1)茅栗+亮叶桦—水马桑+木姜子—稀羽鳞毛蕨+莲叶橐吾(Ass.Castanea seguinii＋Betula luminifera—Weigela japonica var.sinica+Lindera pungens—Dryopteris sparsa+Ligularia nelumbifolia)
+　　(四)鹅耳枥林
+　　23.川陕鹅耳枥林(Form.Carpinus fargesiana)
+　　(23—1)鹅耳枥—波叶红果树+美丽胡枝子—蕨群众(Ass.Carpinus fargesiana—Stranvaesia davidiana var.undulata+Lespedeza formosa—Pteridium aquilinum var.latiusculum)
+　　(五)落叶阔叶杂木林
+　　24.化香杂木林(Form.Platycarya strobilacea)
+　　(24—1)化香—锐齿槲栎—苔草群丛(Ass.Platycarya strobilace—Quercus acutidentata—Carex sp.)
+　　(24—2)化香—短柄抱栎—荩草+苔草群丛(Ass.Platycarya strobilace—Quercus glandulifer var.brevipetiolata—Arthraxon hispidus+Carex sp.)
+　　(24—3)化香—麻栎—鸢尾群丛(Ass.Platycarya strobilace—Quercusglandulifer var.brevipetiolata—Arthraxon hispidus)
+　　(24—4)化香+漆树—箭竹—金星蕨群丛(Ass.Platycarya strobilacea+Toxicodendron vernicifluum—Fargesia spathacea—Parathelypteris glanduligera)
+　　二、山地杨桦林
+　　(一)桦木林
+　　25.红桦林(Form.Betula albo—sinensis)
+　　(25—1)红桦—箭竹—苔草群丛(Ass.Betula albo—sinensis—Fargesia spathacea—Carexsp.)
+　　26.红桦+亮叶桦林(Form.Betula utilis var.sinensis+B.luminifera)
+　　(26—1)红桦+亮叶桦—箬竹—金星蕨群丛(Ass.Betula utilis var.sinensis+B.luminifera—Indocalamus tessellatus—Parathelypteris glanduligera)
+　　(27—1)糙皮桦—短柄抱栎—褐绿苔草(Ass.Betula utili—Quercus glandulifer var.brevipeticiolata —Carex stipitinux)
+　　三、一般落叶阔叶林
+　　28.四照花林(Form.Dendrobenthamia japonica var.chinensis)
+　　(28—1)四照花—箬竹—大叶金腰群丛(Ass.Dendrobenthamia japonica var.chinensis—Indocalamus tessellatus—Chrysosplanium macrophyllum)
+　　29.珙桐+米心水青冈—猫儿刺—莲叶橐吾群丛(Ass.Davidia involucrata+Fagusengleriana—Ilex pernyi—Ligularia nelumbifolia)
+　　30.枫香林(Form.Liquidambar formosana)
+　　(30—1)枫香—映红红—土麦冬群丛(Ass .Liquidumbar formosana—Rhododendron simsii—Liriope spicata)
+　　(30—2)枫香—玉叶金花—蔓出卷柏群丛(Ass .Liquidumbar formosana—Rhododendron simsii—Liriope spicata)
+　　31.华中樱桃+刺叶栎林(Form.Cerasus Conradinae+Quercus spinosa)
+　　(31—1)华中樱桃+刺叶栎—山胡椒+水马桑—金星蕨+三脉紫菀群丛(Ass.Cerasus Conradinae+Quercus spinosa—Lindera glauca+Weigela japonica var.sinica—Parathelypteris glanduligera+Aster ageratoides)
+　　32.连香树、细齿稠李林(Form.Cercidiphyllnm japonicum+padus obtasata)
+　　(32—1)连香树+细齿稠李—棣棠—水金凤群丛(Ass.Cercidiphylla jopanicum+Padus obtusat—Kerria japonica—Impatiens noli-tangere)
+　　33.灯台树林(Form.Bothrocaryum controversum)
+　　(33—1)灯台树—川萼山茱萸+川萼鹅耳枥—糙野青茅(Bothrocaryum controversum—Cornus+Carpinus hupeana Hu var.henryana—Deyeuxia scabrescens)
+　　34.朴树林(Form.Celtis sinensis)
+　　(34-1)朴树—黄荆—野菊(Celtis sinensis—Vitex negundo—Chrysanthemum indicum)
+　　Ⅵ.常绿、落叶阔叶混交林
+　　一、山地常绿、落叶阔叶混交林
+　　(一)石栎类落叶阔叶混交林
+　　35.包槲柯、锥栗林(Form.Lithocarpus cleistocarpus castanea henryi+Castanea henryi)
+　　(35—1)包槲柯、锥栗林—箬竹—稀毛金腺草群丛(Ass.Lithocarpus cleistocarpus+Castanea henryi —Indocalamus tessellatus—Antenoron neofiliforme)
+　　(二)化香杂木落叶阔叶混交林
+　　36.化香、青冈林(Form.Platycarya strobilacea、Cyclobalanopsis glaucoides)
+　　(36—1)化香+青冈-四川山矾-栗褐苔草(Platycarya strobilacea+Cyclobalanopsis glaucoides—Symplocos setchuensis—Carex brunnea)
+　　Ⅶ.常绿阔叶林
+　　一、典型常绿阔叶林
+　　(一)青冈林
+　　37.曼青风+巴东栎林(Form.Cyclobalanopsis oxyodon、Quercus engleriana)
+　　(37—1)曼青冈+巴东栎林—红茴香—苔草群系(Form.Cyclobalanopsis oxyodon+Quercus engleriana—Illicium henryi—Carex sp.)
+　　38.青稠(小叶青冈)+圆锥石栎林(Form.Quercus myrsinaefolia+Lithocarpus paniculatus)
+　　(39—1)石栎—卫矛—铁芒萁(Litheocarpus glaber—Euonymus alatu —Dicranopteris linearis)
+　　(39—2)石栎—杜茎山—铁芒萁(Lithocarpus glaber—Maesa japonica —Dicranopteris linearis)(39—3)石栎—马银花—铁芒萁(Lithocarpus glaber—Rhododendron ovatum—Dicranopteris linearis)
+　　(三)甜槠林
+　　40.甜槠林(Form.Castanopsis eyrei)
+　　(40—1)甜槠—杜茎山—重楼排草(Castanopsis eyrei—Maesa japonica—lysimachia paridiformis)
+　　(40—2)甜槠—异叶榕+宜昌润楠—山姜(Castanopsis eyrei—Ficus hetermorpha+Machilus ichangensis—Alpinia japonica)二、其它常绿阔叶林
+　　41.红豆树林(Form.Ormosia hosiei)
+　　(41—1)红豆树—百两金—荩草群丛(Ass.Ormosia hosiei—Ardisia crispa—Arthraxon prionodes)
+　　(41—2)红豆树—继木—荩草群丛(Ass.Ormosia hosiei—Loropetalum chinense—Arthraxon hispidus)
+　　42.虎皮楠林(Form.Daphniphyllum oldhami)
+　　(42—1)虎皮楠—毛叶木姜子+四川山矾—淡竹叶(Daphniphyllum oldhami—litsea mollis+Symplocos setchuensis Brand—Lophatherum gracile)
+　　43.大头茶林(Form.Gordonia axillaris)
+　　(43—1)大头茶—四川灰木—狗脊(Gordonia axillaris—manglietia glauca—Gordonia axillaris)
+　　Ⅷ.硬叶常绿阔叶林
+　　一、山地硬叶栎类林
+　　44.刺叶栎林(Form.Quercns spinosa)
+　　(44—1)刺叶栎—荚迷—苔草群丛(Ass.Quercus spinosa—Vibrunum dilatatum—Carex sp.)
+基金项目：本研究为林业部生态环境监测总站承担国务院三峡委、三峡总公司的“三峡库区陆生野生动物监测”子系统的部分成果.
+作者简介：程瑞梅，女，助理研究员，1995年毕业于河南农业大学林学系，已发表论文数篇.
+作者单位：程瑞梅　肖文发　李建文　马娟　韩景军（中国林科院森林生态环境与保护研究所，北京 100091）
+　　　　　任明波（重庆市药用植物研究所，四川 南川　408435）
+参考文献：
+［1］吴征镒.中国植被［M］.北京：科学出版社，1983.
+［2］四川植被协作组.四川植被［M］，成都：四川人民出版社，1980
+收稿日期：1999-01-06

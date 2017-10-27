@@ -1,0 +1,158 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.7　P.836-841
+
+
+
+一个基于机群系统的面向对象并行程序
+开发环境的研究与实现
+陆嘉　温冬婵　王鼎兴　郑健楠
+摘　要：面向对象程序设计技术可以降低并行程序设计的复杂性，提高并行程序的可读性、可维护性、可移植性.因此提供面向对象的并行程序设计环境，可以减少并行程序开发难度，有效地利用并行计算机系统的潜能.可扩展并行机群系统是随着网络技术迅速发展而出现的一种网络并行计算系统.其主要特点是适于粗粒度任务并行，适于采用消息传递机制.文中在可扩展机群系统上实现了面向对象的并行程序开发环境ParaObject，它由对象平台、并行对象和邮件对象组成，并行程序以并行对象为单位并行执行，通过邮件对象传送数据，具有良好的封装性和可移植性，友好的用户编程接口，使用方便.
+关键词：并行程序开发环境，面向对象，机群系统，消息传递
+分类号：TP311
+AN OBJECT ORIENTED PARALLEL PROGRAMMING ENVIRONMENT
+BASED ON SCALABLE WORKSTATION CLUSTER
+LU Jia
+（Department of Computer Science and Technology, Tsinghua University, Beijing 100084）
+WEN Dong-Chan
+（Department of Computer Science and Technology, Tsinghua University, Beijing 100084）
+WANG Ding-Xing
+（Department of Computer Science and Technology, Tsinghua University, Beijing 100084）
+ZHENG Jian-Nan
+（Department of Computer Science and Technology, Tsinghua University, Beijing 100084）
+Abstract：The object oriented programming technology is very useful in software engineering. It also makes software developers easy to express parallel algorithms in parallel programming. ParaObject is a parallel programming environment based on workstation cluster. It includes object platform, parallel object and mailing object. A software developer expresses parallel coarse-grained tasks by parallel objects, and transfers data by mailing object.
+Key words：parallel programming environment, object oriented, workstation cluster, message passing▲
+1　引言
+　　面向对象程序设计技术在软件工程上有巨大的优势.面向对象模型的天然的并行性，以及它所具有的封装性、继承性、多态性等特点，可以降低并行程序设计的复杂性，提高并行程序的可读性、可维护性、可移植性.因此提供面向对象的并行程序设计环境可以减少并行程序开发难度，有效地利用并行计算机系统的潜能.目前常见的系统有ACTORS［1］，PRESTO［2］，PC++［3］，uC++［4］等.它们一般实现在共享内存和紧耦合的多机系统上，程序并行粒度为细粒度.
+　　可扩展并行机群系统是随着网络技术迅速发展而出现的一种网络并行计算系统.它是用高速通信网络将工作站连接在一起.其体系结构特点是构造简单，各节点的系统完整，分布式存储，其通信开销较大.因此，该平台上的并行计算的主要特点是适于粗粒度任务并行，适于采用消息传递机制.
+　　在可扩展并行机群系统上，用户操作使用的软件界面常用的有PVM，MPI，EXPRESS等.这些并行程序开发环境主要解决系统核心运转以及组织各部分有效工作的底层问题，它们通过提供C，Fortran语言的并行函数库实现并行程序设计，因此对应用程序的高层接口考虑不足，特别是对于同样基于消息传递机制的不同环境，应用程序可移植性不强.
+　　我们采用C++语言在并行机群系统上设计了ParaObject，它包括对象平台类、并行对象类以及邮件对象类，实现程序粗粒度并行和数据传送，完成并行计算所需的机制，提供给用户一个面向对象的并行程序设计环境.本文第2部分介绍了对象平台，第3部分描述了并行对象，第4部分描述了邮件对象，第5部分说明系统实现，最后分析了系统性能.
+2　对象平台
+　　由于现在的并行计算机系统很多，性能差异较大，用户的应用程序为了获得满意的性能，往往要把同一个程序设计成许多版本，以适应不同的并行计算机系统，浪费许多人力物力.为了实现用户程序的机器无关性和良好的可移植性，我们提出了对象平台的概念.对象平台是并行对象与实际并行系统之间的平台，如图1所示.
+
+
+图1　对象平台
+　　对象平台对于普通用户而言是不可见的，对于系统程序员相当于一台虚拟并行计算机.它包括虚拟节点和虚拟节点之间连接，其中虚拟节点实现应用程序的运算处理，其功能等价于实际并行计算机系统中的一个运算节点.系统程序员可以设定对象平台中虚拟节点的个数和节点间的连接方式，也就是说系统程序员可以根据实际需要定制虚拟并行计算机，即对象平台.对象平台管理虚拟节点与实际并行系统的映射关系，维护虚拟节点与实际并行节点的映射表，节点与节点间通信路由表.因为用户应用程序设计只是关心并行节点间的逻辑连接方式，不关心实际的连接方式，所以虚拟节点连接默认为全相连，系统默认的虚拟节点个数与实际并行计算机系统的节点数目相同.对象平台的主要功能是在对象平台的虚拟节点上创建一个或几个任务，通过节点与节点之间的通信实现任务与任务之间的通信.对象平台的设计与实现充分利用现有的并行程序开发环境，例如PVM，MPI等，实现节点任务的分配和节点之间的通信.
+　　我们采用C++语言实现了一个对象平台类，对象平台类的参数主要有虚拟节点个数，虚拟节点连接表.主要方法调用如下：
+　　(1) 虚拟节点的增加与删除：
+　　　　NodeId　ObjectPlatform::AddNode();
+　　　　void　ObjectPlatform::DeleteNode(NodeId node_id);
+　　(2) 虚拟节点间的连接建立与拆除：
+　　　　void　ObjectPlatform::NodeLink(NodeId nodeid1, NodeId node_id2);
+　　　　void　ObjectPlatform::NodeDislink(NodeId node_id1, NodeId node_id2);
+　　(3) 虚拟节点上任务的创建与终结：
+　　　　TaskId　ObjectPlatform::CreateTask(NodeId node_id);
+　　　　void　ObjectPlatform::TerminateTask(NodeId node_id, TaskId task_id);
+　　(4) 各任务之间的通信：
+　　　　void　ObjectPlatform::SendMessage(TaskId task_id, int message_length, int message_type, void *message);
+　　　　void　ObjectPlatform::ReceiveMessage(TaskId task_id, int message_length, int message_type, void *message);
+　　该对象平台类屏蔽底层并行系统，而且充分利用现有的并行程序开发环境，实现于不同的底层并行环境上，使用户程序无需关心底层平台的情况，可移植性增加.另外提供给应用程序员的并行对象、邮件对象都建立在该平台上，使得它们与底层系统无关，这样，易用性和可移植性就更好.
+3　并行对象
+　　并行对象是用户程序在对象平台上运算执行的任务单位.它是由并行数据、并行执行代码组成.若干个并行对象在对象平台上并行执行，通过对象平台完成对象间的通信.一个并行对象相当于虚拟节点上的一个任务.并行对象的主要属性有并行方法、并行对象组、同步函数等.并行对象实现并行程序的数据封装和数据私有，通过消息传递来修改数据.并行对象有活动状态和休眠状态两种状态，当并行对象进行运算处理时，它处于活动状态；当并行对象处于同步等待、阻塞发送和接收时，为休眠状态.
+　　我们用C++语言实现了根并行对象类，该类是所有并行对象的父类，它实现了并行对象的创建与消亡、并行对象的同步与通信.系统在对象平台的每一个节点上都有一个主控程序，由它来管理并行对象全局表，当一个新的并行对象创建时，这个并行对象的情况就加入到并行对象全局表中，例如该对象所在的节点号，并通知各个节点修改自己的并行对象全局表.对象之间通信时，要先检索全局表，获得与之通信对象所在节点号，再建立节点间连接.由于每个节点上都有若干个并行对象，因此每个对象都有自己特定的消息接收类型.发送对象还需要知道接收对象的消息接收类型，才能发送数据.所以全局表中还记录了对象的消息接收类型.根并行对象类中有一个虚函数ParallelProcedure()，没有实际可并行执行代码.用户在继承根并行对象类定义实际应用程序的并行对象类时，可将该虚函数定义为用户需要并行运算的函数或过程.
+3.1　并行对象的创建
+　　并行对象创建在用户程序声明时.用户在声明一个并行对象时，先定义一个新类，它继承根并行对象类，有自己的并行运算代码.这个新类可以声明若干个实例，每一个实例就是一个并行对象.这些并行对象具有相同的并行运算代码.这种使用方法常用于并行程序SPMD的执行方式.另外，不同的类声明不同的实例，即每一个并行对象的并行运算代码不同.这种方法常用于并行程序MPMD的执行方式.
+　　当用户定义的并行对象的执行代码中涉及其他并行对象时，直接用根并行对象类声明该并行对象实例，而不是用相应子类声明.系统只是将该实例名填入全局表，并不实际派生并行对象.直到子类声明该对象实例，派生出并行对象时，其相应属性才填入全局表.例如：
+　　　　class Receiver : public ParallelObject {
+　　　　　　virtual void ParallelProcedure() {
+　　　　　　　　float a［100］,b［100］,c［100］;
+　　　　　　　　ParallelObject sender;　　　　　　// 声明但不创建并行对象
+　　　　　　　　Mail m;// 声明邮件对象
+　　　　　　　　msender;// 从并行对象sender接收邮件
+　　　　　　　　m.get (b, 100);
+　　　　　　　　m.get (c, 100);// 从邮件中取出数据
+　　　　　　　　for (int i = 0; i < 100; i++)
+　　　　　　　　　　a［i］ = b［i］ + c［i］;
+　　　　　　　　}
+　　　　} receiver［4］;// 创建4个并行对象
+
+　　　　class Sender : public ParallelObject {
+　　　　　　virtual void ParallelProcedure() {
+　　　　　　　　float b［400］, c［400］;
+　　　　　　　　ParallelObject receiver［4］;　　　　// 声明但不创建并行对象
+　　　　　　　　Mail m;
+　　　　　　　　for (int i = 0; i＜4; i++)
+　　　　　　　　　　{
+　　　　　　　　　　　　m.put(&b［i*100］, 100);
+　　　　　　　　　　　　m.put(&c［i*100］, 100)　　　;// 将发送数据装入邮件
+　　　　　　　　　　　　mreceiver［i］;　　　// 发送给相应并行对象
+　　　　　　　　　　}
+　　　　　　}
+　　　　} sender;// 创建并行对象.
+
+3.2　并行对象组和组间同步
+　　两个并行对象之间的同步可以通过阻塞通信来实现，而几个并行对象间的同步则可以通过系统提供的并行对象组的组间同步来实现.每一个对象都有一个组群属性，说明它所属于的并行对象组.并行对象可以加入一个并行对象组，也可以退出一个对象组.但是不能同时属于两个组.
+　　并行对象组主要作用是实现组间同步.当组内的一个对象在同步点申请同步后，该对象则进入休眠态，直到同一组内的所有对象都申请同步.当同一组的所有对象都申请同步后，它们都进入活动状态，从同步点继续向下执行.
+　　组间同步的实现方法是检索并行对象全局表中的同组对象的状态，若所有同组对象都申请同步，则向下执行；否则等待.
+　　并行对象的组群管理和同步函数说明如下：
+　　Boolean ParallelObject::JoinGroup(char *groupname);　　// 加入一个指定并行对象组
+　　Boolean ParallelObject::WithdrawGroup(char *groupname); // 退出一个指定并行对象组
+　　void ParallelObject::Barrier();// 同组对象同步.
+
+3.3　并行对象间的通信
+　　用户程序使用邮件对象来进行对象间通信，本文第4部分将详细说明.
+4　邮件对象
+　　基于消息传递机制的并行程序设计，消息传递函数是非常重要的.然而一般并行系统所提供的消息通信函数往往比较繁琐，大量相似的函数充斥其中，导致应用程序的可读性不好，容易出错，并且有许多涉及底层系统的数据结构和系统调用，一般的应用程序员不仅难以理解而且也没有必要关心这些.因此，我们为用户提供了一个简单、灵活的邮件类.该邮件类表达清晰，可读性强，并实现了并行对象间消息的阻塞传送与非阻塞传送.
+4.1　邮件类
+　　用户使用的邮件对象由系统提供的邮件类(Mail)声明，用户可以根据自己的需要，向邮件对象中加入具体消息，一次收发含有若干个消息的邮件对象.
+　　邮件对象有5种属性，包括邮件目的地址、邮件发送地址、邮件类型和消息包链等；两种调用方法：阻塞发送和非阻塞发送.其中，邮件发送地址由系统根据发送对象自动填写，邮件类型说明并行对象间传递邮件的类型，以区别各种不同的邮件.邮件类型有普通邮件、全局广播邮件、组内广播邮件.例如邮件类型为-1时，该邮件为全局广播邮件.程序员在使用邮件对象时没有必要关心如何设置邮件类型.消息包是并行对象之间传递的数据，邮件对象通过消息包链表将若干消息包组织在一个邮件对象中.
+　　消息包链由一个或几个消息包组成，每个消息包包括消息缓冲区首地址、消息长度、链表指针.数据结构定义如下：
+　　　　struct MessagePackage {
+　　　　　　MessagePackage *next;
+　　　　　　void *message_buffer_address;
+　　　　　　unsigned long message_length;
+　　　　　　};
+
+程序员可以使用邮件对象的put方法将若干个消息逐条加入邮件对象的消息包链表，使用get方法将邮件对象中的消息逐条取出.将多条消息打包、一次收发的方式可以减少通信连接建立次数，减少通信开销.邮件对象的put,get方法有两种参数表，一种要指明消息长度，另一种无须指明，默认消息长度为1.这常用于收发单个变量.
+　　例如：并行对象po1发送数据，并行对象po2接收数据：
+　　po1的程序如下：
+　　　　int a［100］, b;
+　　　　Mail m;　　　　　　　// 定义邮件对象
+　　　　m.put (a, 100);
+　　　　m.put(b);　　　// 数据加入邮件
+　　　　mpo2;　　　　// 发送邮件；
+
+　　po2的程序如下：
+　　　　int aa［100］, bb;
+　　　　Mail mm;　　　// 定义邮件对象
+　　　　mmpo1;　　　// 接收邮件
+　　　　mm.get(aa, 100);
+　　　　mm.get(bb);　　// 从邮件中取出数据.
+
+并行对象po1将发送数据a［100］和b加入邮件对象m，并发送给并行对象po2；并行对象po2从po1收到邮件，放入邮件对象mm，然后取出数据，放入aa［100］和bb.
+4.2　邮件的传送与接收
+　　邮件类提供给用户3种通信模式：点对点、全局广播和组内广播.点对点通信是两个并行对象之间的通信，通信邮件的类型为普通类型；全局广播通信是对该程序涉及的对象平台上的所有对象发送，通信邮件的类型为全局广播类型；组内广播通信是对所有同组并行对象广播，通信邮件类型为组内广播类型.邮件类提供给用户有2种点对点发送方式：阻塞发送与非阻塞发送.邮件的阻塞发送是发送方发送邮件，在接收方接收到邮件后才继续执行.阻塞发送可以作为并行对象间两两同步之用.邮件的非阻塞发送是发送方发送完成后，不论接收方是否收到，就继续执行.非阻塞发送消除发送后等待，可以提高发送方的运行效率.邮件接收时，接收方阻塞在邮件接收处，直到邮件收到才继续执行.
+　　系统通过重载运算符“”、“＞”和“”、“＜”来定义发送和接收的方法，其操作数是并行对象，以表明邮件发送的目的地址和接收邮件的发送地址.“”、“”表示阻塞方式，“＞”、“＜”表示非阻塞方式.邮件全局广播发送时使用方法broadcast()，组内广播发送时使用方法broadcast(char *groupname).
+5　系统实现
+　　ParaObject系统由对象平台类库、并行对象类库、邮件类库、ParaObject系统预编译器和C++语言编译器组成.程序通过加入并行对象，与各类库完成编译链接，便得到并行系统可执行代码.该系统总体结构如图2所示.
+
+
+图2　ParaObject系统总体结构
+　　ParaObject系统预编译器完成并行程序文本的处理，以适应各底层系统对并行任务文本的要求.对象平台类的构造函数完成对象平台的初始化，以及在各节点创建主控任务.并行对象类的构造函数创建相应的并行对象处理任务，析构函数消亡该并行对象任务.邮件对象类的构造函数实现邮件的初始化.
+6　性能测试
+　　我们用C++语言在由8台曙光PowerPC工作站（主频133MHz)组成的用100MEthernet互联的并行机群系统上，底层使用PVM并行开发环境实现了ParaObject系统，并测试了系统的并行运行性能，其中多环形体图像处理是CAD的真实物体光照模型计算.结果如下表所示：
+表1　性能测试结果
+
+程序名1个并行对象运行时间(s)8个并行对象运行时间(s)相对加速比
+矩阵乘(400×400)83.9611.667.20
+分数维28.654.097.01
+多环形体图像41.405.847.09
+
+
+7　总结 
+　　我们在可扩展机群系统上实现了面向对象的并行程序开发环境ParaObject，它由对象平台、并行对象和邮件对象组成，并行程序以并行对象为单位并行执行，通过邮件对象传送数据，具有良好的封装性和可移植性，友好的用户编程接口，使用方便.■
+基金项目：本课题得到国家国防科技预研重点项目(项目编号15.5.2)基金资助.
+作者简介：陆嘉，男，1971年11月生，博士研究生，主要研究方向为并发面向对象语言、面向　　　　　　对象并行系统.
+　　　　　温冬婵，女，1946年12月生，副教授，主要研究方向为并行计算、并发计算机语言.
+　　　　　王鼎兴，男，1937年10月生，教授，博士生导师，主要研究方向为并行计算与分布　　　　　　处理系统及应用.
+作者单位：陆嘉（清华大学计算机科学与技术系　北京　100084）
+　　　　　温冬婵（清华大学计算机科学与技术系　北京　100084）
+　　　　　王鼎兴（清华大学计算机科学与技术系　北京　100084）
+　　　　　郑健楠（清华大学计算机科学与技术系　北京　100084）
+参考文献：
+［1］Agha G A. ACTORS: A Model of Concurrent Computation in Distributed System. Boston: The MIT Press, 1986
+［2］Brian N, Bershad, Edward Lazowska D, Levy Henry M. PRESTO: A system for object oriented parallel programming, Software-Practice and Experience. 1988, 18(8): 713～732
+［3］Bodin F, Beckman P, Gannon D, Yang S, Kesavan S, Malony A, Mohr B. Implementing a parallel C++ runtime system for scalable parallel systems. In: Proceedings of the Supercomputing '93 Conference Portland, Oregan. 1993
+［4］Buhr P A, Dithckfield G, Stroobosscher R A, Younger B M. uC++: Concurrency in the object oriented language C++. Software Practice and Experience, 1992, 22(2): 137～173
+收稿日期：1998-10-20
+修稿日期：1999-03-12

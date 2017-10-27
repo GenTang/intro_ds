@@ -1,0 +1,70 @@
+农业现代化研究
+RESEARCH OF AGRICULTURAL MODERNIZATION
+1999年 第20卷 第6期  Vol 20 No.6 1999
+
+
+
+土壤微生物对硫素转化及有效性的控制作用
+吴金水　肖和艾
+摘　要：土壤微生物不仅是一个重要的S(硫)养分库，而且控制土壤S的转化及其作物有效性。在不同土壤，微生物生物量变化很大，从贫瘠耕地土壤(表层)的1t/hm2(干物质)以下到肥沃草地土壤的10t/hm2以上。耕地表层土壤微生物生物S含量通常为4-43kg/hm2，一般相当或大于土壤有效S含量和植物S吸收量。土壤微生物生物S的全周转时间估计小于1年。由于建立了新的土壤微生物生物S测定方法并结合同位素35S标记技术，S的微生物转化动力学研究取得了很多的进展。研究表明，外源有机物S在土壤中能迅速的转化为无机S和被微生物同化和转化，但对土壤有效S含量的影响却取决于它本身的C∶S比率。无机SO2-4-S的转化是通过微生物的同化和有机转化进行的。元素S的氧化速度在不同土壤相差极大，其产生的SO2-4-S有相当一部分(29%—57%)被微生物利用和转化为非提取态有机S。
+关键词：土壤微生物生物硫；硫素转化
+中图分类号：S154.4；S143.7+1　　文献标识码：A　　文章编号：1000-0275(1999)06-0350-05
+Roles of Microbial Biomass in Controlling the 
+Transformations and Availability of Sulphur in soil
+WU Jinshui 　XIAO He ai
+(Changsha Institute of Agricultural Modernization ，CAS，Changsha　410125,China)
+Abstract:Soil S deficiency rapidly spreads in the world and significantly affects the yields and quality of grain and animal production. As S is actively involved into complicate cycling in the atmosphericbiologicalsoil ecosystems, to improve understanding on the dynamics in the procceses of S cycling is the key toward an effective manipulation of S deficiency.Soil microbial biomass serves as an important reservoir of available S to plants and also is the needdle of S cycling in soils. In soils, the amount of the microbial biomass(dry matter) varys largely, from smaller than l t ha-1 in infertile arable soils to larger than 10 t ha-1 in rich grassland soils. Quantities of microbial biomass S in the surface layer(023 cm) of arable soils generally varies between 4 and 43 kg ha-1, which in general is equivalent to or larger than those of soil available S and plant uptake S. It is estimated that the turnover time of the microbial biomass S is below l year.Reliable methods have been developed to measure the amount of microbial biomass S and to monitor the microbial transformations of S in soil. This leads breakthrough in understanding the dynamics (processes and rates ) in the transformations of S. Studies showed that S in organic materials incorporated into soils can rapidly be released to sulphateS, immobilized by the microbial biomass or transformed into soil organic fractions. However, effects of such incorporations on the amount of available S in soil are dependent on the C∶S ratio of the organic materials. The immobilization and subsequent organic incorporations of inorganicS(sulphate) are regulated by the microbial uptake and its turnover. The transformations of oxided elemental S show similar dynamic characters, as following oxidation, 29%57% of elemental S added to 3 Uk arable soils transformed into microbial biomass or nonextractable organic fractions.
+Key words:microbial biomass S; sulphur transformations
+　　在许多国家缺S土壤面积迅速扩大，越来越严重地影响作物的产量和品质。英国是一个典型例子。70年代以来，由于控制工业含S物排放并长期使用高纯低S化肥，导致土壤S来源持续减少。目前英国已有35%的土壤为中度以上缺S，预计到2003年将有60%的农业土壤缺S［1］。英国土壤缺S情形正在或将在很多国家出现。我国土壤缺S在南方和东北地区12省严重，近年又向中部和北方地区发展。
+　　土壤和植株分析能反映缺S状况和对作物产量和品质的影响程度［1，2］。然而，S是一种化学和生物活性很强的元素，其循环极为复杂，包括一系列大气、生物、土壤过程。对于确定有效的作物施S措施来说，仅仅依靠土壤和植株样品分析手段是不够的，必须结合对S素在特定的大气土壤生物生态系统中循环状况的全面了解并运用准确的预测手段。计算机模拟S循环是解决作物施S需求预测的重要途径。
+　　土壤微生物转化过程是S循环的关键。这是因为土壤中90%的S存在于有机质中，其形成和释放都与微生物的转化作用密切相关［3］。而土壤微生物本身也是一个重要的植物有效养分库，且分解动植物残体，参与养分的无机、有机和生物循环过程。因此，研究土壤S的微生物转化对于弄清S循环动力学情况，准确模拟S循环具有重要意义。近几年，土壤微生物生物硫测定方法有了很大的改进，研究硫素的微生物转化已进入了一个新阶段。
+1　土壤微生物生物硫含量的测定方法
+　　Saggar等［4］首次报道了对土壤微生物生物S的测定。他们提出用10mM CaCl2或100mM KHCO3(pH 8.5)提取S，提取水土比为5∶1；用还原蒸馏法分析S。土壤微生物生物S量(Bs)的计算方法是：BS＝ES/KS；其中ES为熏蒸处理的提取S增量；KS为转换系数，取值0.35，代表土壤微生物生物S的熏蒸释放和提取率。Chapman［5］改用X-荧光光度法分析提取S。他还发现常用的三种提取剂以10 mM CaCl2最好，100mM KH2PO4次之，100 mM KHCO3较差。
+　　以通常土壤微生物生物S含量范围为3—30 mg/kg土推算，ES相当于1-10mg/kg土。按5∶1的水土比，熏蒸处理提取液与对照的S含量之差仅为0.2—2 mg/L，其分析精度要求是上述两种方法难以达到的。Wu等［6］提出提取水土比应当降低到2∶1，用10mM CaCl2作为提取剂，提取液经过H2O2—HCl消化后采用离子色谱法分析全S，并测定到KS值为0.31。考虑到提取水土比的差别，Wu等［6］的KS值与Saggar等的［4］非常吻合。这些改进得到了其它学者的肯定［7］。
+　　需要指出，100 mM KHCO3提取剂对腐殖酸的溶解度大，不适合于酸性或有机质含量高的土壤。当采用离子色谱法分析S时，不能用KH2PO4作为提取剂。等离子体分光光度法(ICP)的S分析精确度高，越来越被广泛采用。当采用ICP分析时，最好用100 mM KH2PO4提取剂，10 mM CaCl2提取液中的Ca2+对分析S有一定的干扰。
+2　土壤微生物生物量与硫含量及其周转
+　　土壤微生物生物量约占有机质总量的1%—3%［7］。由于受有机物质来源、土壤性状、肥力水平、种植管理等因子的影响，土壤微生物生物量变化范围很大。据对已发表文献的数据分析，肥沃草地土壤表层的微生物干物质总量达10 t/hm2以上，而贫瘠耕地土壤表层的微生物干物质总量在1 t/hm2以下(表1)。根据Wu等［6］及Banerjee和Chapman［8］提供的数据，按表层土壤质量为2200 t/hm2计算，得到耕地土壤表层的微生物生物S含量范围为4—43kg/hm2，草地土壤表层的微生物生物S含量范围为6—52 kg/hm2。从Wu等［6］及He等［9］的测定还可看出，大多数土壤的微生物生物S含量相当和大于相同水土比测得的土壤有效S含量(CaCl2提取)及S的植物吸收量。
+表1　土壤表层微生物量和S含量情况
+
+引用
+文献号利用
+方式样本数微生物生物量*微生物生物S
+(干重)
+t/hm2kg/hm2
+5耕地80.5—2.44—23
+6耕地41.9—7.56—43
+6草地82.3—13.016—44
+7耕地140.6—2.9NA
+7草地51.5—4.8NA
+8耕地160.8—3.66—16
+8草地8NA7—52
+9草地65.3—8.026—41
+
+　　*由土壤微生物生物C量的含C量为43%和表层土重2200t/hm2换得到。NA：未测定或测定不全。
+
+　　土壤微生物对S有很强的富集作用。按含C量43%计算，实验室培养微生物的C∶S比率为150—1200∶1［6］。据对已发表文献的数据分析，土壤微生物的C∶S比率为50—150∶1，大大低于培养微生物的C∶S比率［6，8］。土壤微生物C∶S比率及其变化既反映了本身的S吸收和释放潜力，也能指示土壤S的作物有效状况和变化。
+　　在自然条件下，土壤微生物物质周转表现在总量的季节性变化及生命和营养代谢两个方面。据He等［9］测定，英国中部草地土壤微生物生物量和S含量的季节变化很大，高低相差达1—3倍(图1)。土壤微生物生物S含量以春夏季牧草生长旺盛时期较低。在秋冬降雨季节，随着S的沉降量和牧草残体回归土壤的大幅增加而牧草生长停止，土壤微生物生物S迅速增加。土壤微生物生物C在温带气候条件下周转时间一般为1.5年，在热带和亚热带土壤可能在1年以下。微生物的养分代谢速度应当比C代谢速度快得多，据此可以推测土壤微生物生物S的全周转(总量变化+代谢)时间估计小于1年。可以认为土壤微生物的有效S周转量能超过S的植物吸收量。
+
+图1　草地土壤有效S和微生物S的季节性变化
+不施肥(O)：N(▲)P()，NPK(◆)，农家肥(●)，农家肥+NPK(■)
+　　土壤微生物生物S的周转对维持S的有效性和植物供应具有极重要的作用。土壤微生物对有机S的利用导致有机S的矿化和释放。当植物吸收引起土壤有效S含量降低时，土壤微生物S的周转能朝着释放S的方向进行。反之，当施肥及S的大气和雨水沉降提高土壤有效S含量时，土壤微生物的周转能朝着同化S方向进行，从而防止或减少有效S的淋溶损失。
+
+3　土壤硫的微生物转化
+3.1　有机硫的转化
+　　研究表明加入土壤的植物残体中的S能快速释放为无机S和被微生物吸收和转化［10—12］。图2展示在25℃培养5天，33%的油菜幼叶S转化为土壤微生物生物S，50%转化为100 mM KH2PO4提取S(有效S)。在第5天，大麦秸秆S的转化为土壤微生物生物S和有效S的比例分别是20%和42%。有意思的是，在5—15天期间，加入大麦秸秆的土壤中的微生物生物S和有效S含量同时出现明显地降低，说明微生物一方面继续同化土壤中的有效S，一方面又释放出S。这个现象表明微生物释放的S并不能直接成为无机S，而是转化到100 mM KH2PO4所不能提取到的有机态。
+
+图2　加入土壤中的植物残体S的释放和微生物同化量
+对照(O)，加入大麦秸秆()，加入油菜幼叶(●)
+
+　　尽管外源有机物质中的S能迅速被土壤微生物矿化释放或同化转化，而对土壤S 有效性的影响却与外源有机物质的C∶S比率密切相关。上述油菜幼叶和大麦秸秆就是一个明显的例子，它们的C∶S比例分别为64∶1和206∶1［10］。Chapman［12］认为，当C∶S比率大于340∶1时，外源有机物质的加入能引起土壤微生物对有效S的净固定。
+3.2　无机硫转化
+　　以往研究无机S(SO2-4)的转化很少测定微生物同化和转化动力学状况［13，14］。Wu等［15］应用同位素示踪技术研究了无机S在土壤中的微生物同化和有机转化状况，发现在加入土壤的第三天，微生物的标记S含量与标记S的全部固定量呈1∶1的线性关系，说明无机S的固定是由微生物吸收同化引起的(图3)。此后，这一比例不断降低，但并没有引起标记无机S固定量的变化。由此可以推断微生物同化的无机S释放后被转化到有机组分中去了［15，16］。加入C(例如葡萄糖)或低S有机物质促进微生物对无机S的同化，相反N促进S的矿化而减少无机S的微生物同化和有机转化［13，15］。
+
+图3　加入土壤中的35S标记无机S的微生物同化量与固定量的关系
+3.3　元素S的转化
+　　元素S制品T90在英国有大面积的应用。然而，普遍反映其效果极不稳定。He等［17］采用同位素示踪技术对元素S在英国3个旱地土壤和中国浙江1个水稻土中的氧化及转化状况进行了详细的研究。发现元素S氧化半衰期在不同土壤的差别很大，在水稻土、表层淋溶土、始成土、老成土中分别为12，24，34，196天(表2)。从氧化S的组分看(以第28天的测定为例)，水稻土中的元素S氧化后绝大部分(86%)以SO2-4态和可提取有机态存在。这说明元素S肥在水稻土中有效性好。但是，对于英国旱地土壤来说，元素S不仅氧化速度慢，而且氧化后有相当部分(29%—57%)转化为为非提取态。这部分氧化S可能被土壤微生物利用或转化为难溶性有机态而不能被作物直接利用。此外，由于元素S在这些土壤中氧化持续时间长，对作物的供应强度有限，雨季还有淋溶损失。这些因素是确定象英国旱地土壤的元素S肥施用量和时间时所需要特别注意的。
+表2　35S标记元素S在土壤的氧化及转化*
+
+土壤类型氧化半衰期
+(t1/2)氧化S第28天的形态
+<td align="center"

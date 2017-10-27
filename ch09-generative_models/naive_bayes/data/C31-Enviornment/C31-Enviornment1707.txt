@@ -1,0 +1,105 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+北京市轻型汽车排放新标准
+傅立新　郝吉明　贺克斌　何东全　吴　烨
+摘要：如何有效地控制汽车污染,已经成为我国一些大型城市迫切需要解决的问题.对北京市机动车污染状况的调查分析表明,NOx和CO的排放分担率已达41%和82%;在4种不同控制方案的排放削减效果与成本计算中发现,严格的新车排放标准,才能有效地削减NOx排放;而且,这些严格的排放标准方案具有更低的削减成本,因此,在具备可行性的前提下,北京市应该尽可能采用严格的新车排放标准方案,才能尽快控制汽车排放污染,改善城市大气环境质量.
+关键词：汽车污染；排放标准；排放控制技术；成本效果
+中图分类号：X652 文献标识码：A
+The new emission standard for light-duty motor vehicle in Beijing.
+FU Li-xin,HAO Ji-ming,HE Ke-bin,HE Dong-quan,WU Ye
+(Department of Environmental Science and Engineering, Tsinghua University, Beijing 100084, China). China Environmental Science. 1999,19(6)：552～555
+Abstract：It is an urgent task to effectively control the air pollution caused by emissions from motor vehicle in Chinese megacities. The investigation and analysis on vehicular pollution in Beijing show that the emission contribution rate of motor vehicle rises up to 41% and 82% for NOx and CO respectively. Through calculation of emission reduction effectiveness and cost of 4 different control scenarios, rigid emission standards for new vehicles are found to have greater reduction potential especially for NOx, as well as lower cost due to advanced technologies. Therefore, the most stringent emission standard should be adopted in Beijing as long as the feasibility allows, so as to combat vehicular pollution and to improve air quality in the earliest possibility.
+Key words：vehicular pollution；emission standard；emission control technology；cost-effectiveness
+　　近年来,北京市机动车污染问题日益突出, 市政府已经采取将部分车辆改造为代用燃料车,对排放超标车辆安装净化装置等一系列措施.国外经验表明,相对于在用车来说,对新车加强严格排放标准以削减污染排放,是最有效的[1].尤其是对NOx的控制,只有先进的闭环电控发动机加三效催化净化技术的新车方能予以大幅削减.由于北京城区机动车污染主要来自轻型车的排放,因此,北京市优先制订轻型汽车的排放标准, 在原有国标的基础上,排放限值削减了约80%.
+1 北京市机动车污染状况与趋势
+　　北京市机动车保有量1997年底已突破120万辆,平均年增长率为18%.同迅速增加的机动车保有量相比,城市交通基础设施建设相对缓慢,造成道路车流量迅速增加,机动车平均车速下的调查表明,北京城区白天机动车平均车速低于20km/h.另外,许多机动车缺少维修保养,即使在目前比较宽松的怠速检测标准下,机动车年检合格率常在70%以下,路检合格率则更低.为系统评估我国机动车单车排放水平,国家环境保护总局组织了典型在用轻型车、重型汽油发动机和摩托车的排放因子测试,试验结果及美国相应车型的排放水平[2]见表1.
+表1 中美机动车排放因子结果对比(基于ece15工况)
+Table 1 Motor vehicles emission factors in China and USA (based on ECE15 cycle)
+车种co(g/km)NOx(g/km)
+中国美国中国美国
+轿车43.03.11.50.4
+微型车25.33.12.10.4
+吉普车33.53.13.20.4
+中型车51.78.04.61.2
+
+　　根据上述排放因子试验结果,采用美国环境保护局开发的mobile 5[3]模式,计算了北京市机动车实际运行条件下的排放因子.结合北京市机动车运行状况和车辆登记分布调查,进行了机动车排放量计算,1995年CO和NOx排放总量分别为97.2万t和11.4万t.另外,根据北京市固定源排放清单的调研,得到了机动车排放分担率结果,CO和NOx分担率分别为78%和41%.
+　　1995年北京市机动车不到100万辆,仅为日本东京的1/4,但污染物排放量却远大于东京.上述排放状况已导致城市大气质量的明显恶化,根据北京市监测结果,城市环境大气中SO2和TSP的污染得到了一定控制,但与机动车相关的污染物NOx和CO则进一步恶化,各区超标范围逐年扩大,已由交通密集区域和主要干线两侧扩大到整个城区(图1).
+
+图1 北京市NOx浓度年度变化
+Fig.1 Annual concentration evolution of NOx in Beijing
+　　此外, O3和细微颗粒物[4]的超标频率也有不同程度的升高,超标持续时间增加,其中臭氧超标天数由1991年的44d增加到1994年的75d.
+　　对未来北京市机动车排放趋势的计算分析表明(图2),如果不加以严格控制,到2010年,各种污染物排放量将成倍增长.机动车将变为城市最主要的污染源.NOx、CO将大幅度超标,大气质量进一步恶化,O3超标频率及持续时间继续增加,潜伏着发生光化学烟雾的危机.
+
+图2 北京市无控条件下机动车污染物排放量增长比例
+Fig.2 The increase ratio of pollutant emissions from vehicle under business-as-usual scenario in Beijing
+　　综上所述,无论是目前的状况还是未来的预测都表明,北京市机动车污染已经相当严重,同国内其它地区和城市相比,其污染具有典型性和超前性[5-7].因此,对于北京市的特殊情况,必须采取比全国更紧迫、更严格的控制措施,才有可能在较短时间内实现大气环境质量的明显改善.
+2 不同标准方案的削减效果分析
+　　新车的排放控制方案主要是设计一系列控制标准组合,规定其实施的时间,从而达到减少排放的目的.由于过去我国机动车排放法规基本沿用欧洲体系,本研究设计的方案也主要参照欧洲的标准系列.但由于中国和欧洲的机动车排放特征和控制时机不同,设计的4套标准方案进行了不同时段的调整(表2).
+表2 新车排放控制方案设计
+Table 2 Scenario design of emission standard for new vehicles
+方案车型实施步骤
+2000年2002年2005年
+1轿车R15-04　91/441/EEC
+轻型车R15-04　93/59/EEC
+重型车　　Euro1
+摩托车ECE40.01　Japan
+2轿车91/441/EEC　94/12/EC
+轻型车93/59/EEC　96/69/EC
+重型车Euro1　Euro2
+摩托车Japan　Taiwan 91
+3轿车　91/441/EEC94/12/EC (2007年)
+轻型车　93/59/EEC96/69/EC (2007年)
+重型车　Euro1Euro2 (2007年)
+摩托车　JapanTaiwan91(2007年)
+4
+　轿车94/12/EC　　
+轻型车96/69/EC　　
+重型车Euro2　　
+摩托车Taiwan91　　
+
+　　这4套方案的严格程度为:方案4＞方案2＞方案3＞方案1.上述各法规中,R15-04, 91/441,94/12,93/59,96/69,Euro1,Euro2等分别为欧洲不同阶段的汽车排放标准,Japan,Taiwan 91为日本和台湾的摩托车排放标准.这些标准规定了不同车型的排放因子限值、耐久性要求和对应的测试规程等. 
+　　排放控制方案的削减潜力是指采用该控制方案后,机动车污染物排放量与不采取任何控制措施相比的削减量.计算公式如下：
+EQp=∑(Pj×Mj×Efpj)×fc　　　　(1)
+其中:Pj为预测年份机动车保有量(万辆); j为车型分类;Mj为平均行驶里程(万km);fc为单位转换系数(mile/km);Efpj为不同车型不同污染物的平均排放因子(g/km).
+　　对不同新车控制方案下北京市机动车污染物(CO、NOx)排放情况进行了计算(图3,图4),其中未来各年度的排放因子由mobile5模式进行预测.排放因子的变化主要考虑两方面影响因素[8]:采用新的排放标准后,机动车基本排放水平提高;根据北京市交通规划,到2010年机动车平均车速将提高到30km/h.图3,图4中各控制方案与无控方案的差值即为各方案该年度的削减潜力.
+
+图3 不同新车控制方案下CO排放量变化预测
+Fig.3 CO emission prediction under different scenario of new vehicles control
+图中水平线为排放控制目标
+
+图4 不同新车控制方案下NOx排放量变化预测
+Fig.4 NOx emission prediction under different scenario of new vehicles control
+图中水平线为排放控制目标
+　　从排放削减潜力看,上述4套方案对CO削减都相当明显,而2、4套方案对NOx的削减能力较高.如果采用最严格的方案4,到2010年可以将机动车排放NOx控制到11.4万t,基本与1995年排放量持平,削减潜力达21.3万t.
+3 新标准的技术经济分析
+　　每一新标准的实施都要求相应控制技术的进步.为了选择费用效果尽可能佳的标准和对应的技术,对4套方案进行了削减成本分析.控制技术的生命周期削减成本,是指采用某项控制技术措施的一辆汽车,在该技术整个使用年限中,与没采取控制措施的汽车相比,增加的费用和获得的排放削减量的比值.计算的不同技术生命周期削减成本见表3.
+表3 机动车排放控制技术生命周期削减成本分析
+Table 3 Emission control cost for an individualvehicle’s life span
+车型标准削减效益（t）硬件成本(元)运行费用(元)削减成本(元/t)
+轿车R15-040.0478800
+91/4410.568710032705760
+94/120.701793031704530
+轻型汽油车R15-04-0.0878800
+93/590.35710028808230
+96/690.45793026405860
+
+　　费用的计算是综合考虑采用该技术后,所需要的硬件成本、维护费用以及燃油经济性变化得到的,并以8%的贴现率折合成基准年的人民币值.由计算结果发现,对不同的污染物和不同车型,各种技术的削减成本趋势基本一致.因此,表3中仅列出NOx的计算结果.从中可以看出,先进的技术具有相对较好的费用效果,因为这些技术不但可以削减更多的污染物,而且具有更好的燃料经济性,因而降低了使用过程中的费用.
+4 结论
+　　综合上述分析,方案2和方案4对环境较为有利,同时也具有较低的削减成本,是值得推荐的新车控制方案.由于实现方案4要求的控制技术跨度很大,考虑到目前国内机动车生产厂家在技术改造方面的实际情况,实施该方案有较大难度.本研究最终推荐方案2作为新车控制的起码要求,同时, 因为只有采用最严格的排放标准方案,才能尽快缓解大型城市机动车污染状况,建议政府部门采用经济调控手段,鼓励有条件的厂家尽早达到方案4的排放标准要求.
+基金项目：FORD-中国研究与发展基金资助项目(9712705)
+作者简介：傅立新(1966-),男,湖南湘阴人,清华大学环境科学与工程系副教授,工学博士, 主要从事空气污染控制方面的研究工作.承担汽车污染控制“九五”国家攻关任务. 获得首届中国环境科学学会青年科技奖, 发表论文26篇.
+作者单位：清华大学环境科学与工程系, 北京100084
+参考文献
+　[1]　何东全,郝吉明,傅立新等. 中国城市机动车污染挑战与对策 [A]. 清华大学发展研究文集 [C]. 清华大学出版社,1998.145- 149.
+　[2]　Sjodin A. On-road emission performance of late-model TWC-cars as measured by remote sensing [J]. J. Air Waste Man. Ass. 1994, 44(4): 397- 404.
+　[3]　傅立新,贺克斌,何东全等. MOBILE汽车源排放因子模式研究 [J]. 环境科学学报, 1997, 17(4): 474- 479.
+　[4]　姚渭溪, 张锦春. 柴油发动机车辆排放废气对城市大气质量影响的研究 [J]. 环境科学, 1994, 15(3): 61- 64.
+　[5]　王培洁. 上海市汽车排气污染管理的现状与对策 [J]. 上海环境科学, 1994, 13(7): 7- 15.
+　[6]　石振源. 乌鲁木齐市汽车尾气污染状况调查 [J].干旱环境监测, 1991, 8(2): 8- 12.
+　[7]　陈鲁言, 覃有钧. 香港与广州市汽车尾气污染比较 [J]. 环境科学, 1994, 15 (5): 41- 45.
+　[8]　Smith M G. MOBILE4 sensitivity analysis [R]. EPA/600/S8-91/032, 1991.
+收稿日期：1999-03-22

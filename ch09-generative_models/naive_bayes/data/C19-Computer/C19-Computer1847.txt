@@ -1,0 +1,37 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.2 P.58-59
+
+
+
+
+Windows 9x使用技巧问答（一）
+谢晓巍　陈轩飞　谢晓艳
+　　Windows 9x因其使用方便、操作简单而迅速成为目前最为流行的操作系统。但是，用户要想灵活使用Windows 9x，以满足个人的需求，也并不容易。下面对Windows 9x使用中经常出现的问题进行解答。
+1 系统环境
+　　问：Windows 9x总是将用户编辑的文档自动保存在“我的文档”（C＼My Documents）文件夹中，这个看似体贴用户的设计却给不少用户带来了麻烦。当1台电脑被多人同时使用时，如果用户希望将自己的文件保存在自己特定的文件夹中，应该怎样设置呢？
+　　答：运行Windows文件夹中的regedit程序，打开注册表编辑器，逐层进入HKEY＿CURRENT＿USER＼Software＼Microsoft＼Windows＼CurrentVersion＼Explorer＼Shell Folders目录和HKEY＿CURRENT＿USER＼Software＼Microsoft＼Windows＼CurrentVersion＼Explorer＼User Shell Folders目录，再在右边的工作区中双击“Personal”字符串，将其值改为自己喜欢的文件夹名，以后再保存的文件都会存到你所设定的文件夹中。
+　　如果使用的是Windows 98，那么更改“我的文档”的默认位置将更为方便。只须在桌面上“我的文档”图标上单击鼠标右键，选择“属性”，然后将目标改为自己喜欢的文件夹即可。
+　　问：如何保持用户在Windows中设定的风格？
+　　答：当1台电脑被多人同时使用时，每个用户都希望电脑能按自己的风格进行工作，虽然Windows 9x能够通过控制面板中的“用户”在Windows 98下或“口令”在Windows 95下来为每个用户设置各自不同的桌面设置和开始菜单，但当某一用户以另一用户身份来使用电脑时就可以随意修改后者的界面风格。如果后一用户不希望别人修改他所设定的Windows风格，可运行regedit程序，打开注册表编辑器，逐层进入HKEY＿CURRENT＿USER＼Software＼Microsoft＼Windows＼CurrentVersion＼Policies＼Explorer目录，再在右边的工作区中单击右键，选择“新建／DWORD值”，并将这个DWORD值命名为“NoSaveSettings”，然后双击这个值，在“编辑DWORD值”对话框中设置键值为“1”。这样，别人就无法更改你所设定的原有风格了。
+　　问：怎样禁止使用“系统属性”中的“设备管理器”页？
+　　答：Windows 9x利用“系统属性”中的“设备管理器”页来设置硬件的中断和输入／输出范围等，如果用户任意改变这些参数，就可能引起硬件冲突，造成硬件不能正常工作。要禁止他人任意修改“系统属性”中的“设备管理器”页，可运行regedit程序，打开注册表编辑器，逐层进入＼HKEY＿USERS＼．DEFAULT＼Software＼Microsoft＼Windows＼CurrentVersion＼Policies＼System目录，再在右边的工作区中单击右键，选择“新建／DWORD值”，并将这个DWORD值命名为“NoDevMgrPage”，然后双击这个值，在“编辑DWORD值”对话框中设置键值为“1”。
+　　问：怎样禁止使用“控制面板”？
+　　答：如果能够禁止用户使用“控制面板”，那么，就能够避免用户随意修改大部分的Windows参数，极大地提高系统的安全性。下面的方法即可禁止用户使用“控制面板”，同时还将禁止用户使用“打印机”来添加或删除打印机。
+　　运行regedit程序，打开注册表编辑器，逐层进入＼HKEY＿USERS＼．DEFAULT＼Software＼Microsoft＼Windows＼CurrentVersion＼Policies＼Explorer目录，再在右边的工作区中单击右键，选择“新建／二进制值”，并将这个二进制值命名为“NoSetFolders”，然后双击这个值，在“编辑二进制值”对话框中设置键值为“01 00 00 00”。这样，别人就无法使用“控制面板”和“打印机”了。
+2 系统安全
+　　问：怎样禁止非法用户使用Windows 9x？
+　　答：Windows 9x本身并不是1个安全可靠的操作系统，任何1个用户都可以不经许可就进入Windows 9x系统，尽管Windows 9x可以设置登录时的用户口令，但是1个未经授权的用户可以直接点击对话框中的“取消”按钮来自由进入Windows 9x系统。下面的设置可禁止非授权用户进入Windows 9x系统。
+　　首先使用控制面板中的“用户”来添加此电脑的授权用户，然后运行regedit程序，打开注册表编辑器，逐层进入HKEY＿LOCAL＿MACHINE＼Network＼Logon目录，在右边的工作区中选择“新建／DWORD值”，将键名改为MustBeValidated，设置它的值为0x 00 00 00 01（1）。以后再进入Windows 9x时在登录窗口按“取消”按钮或按“Esc”键都不能进入Windows 9x系统。
+　　为了避免用户在开机后通过使用Ctrl和F8等功能键直接进入DOS系统，还可以进一步修改MSDOS．SYS文件，在Options下加入以下2句：
+　　BootKeys＝0 ；引导时不能使用功能键打开启动菜单
+　　BootMulti＝0 ；不能用DOS引导 
+　　问：怎样保持“开始”菜单中的“文档”菜单为空？ 
+　　答：用户为了保密，通常不愿意在文档菜单中保留自己使用过的文件记录，这时用户可以运行regedit程序，打开注册表编辑器，在HKEY＿CURRENT＿USER＼Software＼Microsoft＼Windows＼CurrentVersion＼Policies＼Explorer目录下新建名为NoRecentDocsHistory的DWORD值，将其值设置为0x 00 00 00 01（1），这样就可以保证以后新打开的文档不再加入文档菜单中。
+　　问：怎样隐藏驱动器？
+　　答：如果用户有机密文件需要保密，我们可以通过将这个文件所在的驱动器隐藏起来，达到加密的效果。打开注册表编辑器，在“HKEY＿CURRENT＿USER＼Software＼Microsoft＼Windows＼CurrentVersion＼Policies＼Explorer”
+目录下，选“新建／二进制值”，输入NoDrives，缺省值为00 00 00 00，它的4个字节中每个字节的每一位（bit）就对应于1个驱动器（从A：到Z：），当相应位为1时，该驱动器即被隐藏起来。在这4个字节中，每个字节代表了8个驱动器之一，第1个字节代表了A：到H：即01为A，02为B，04为C，08为D…80为H，依此类推，第2个字节代表了I：到P：，第3个字节代表了Q：到X：，第4个字节代表了Y：到Z：。— 未完待续 — 
+谢晓巍（长沙电力学院计算中心410077）
+陈轩飞（长沙电力学院动力系）
+谢晓艳（湖南财经学院信息系）
+（收稿日期：1999－09－01）

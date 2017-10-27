@@ -1,0 +1,101 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第1期 Vol.18 No.1 1999
+
+
+
+在VC 5.0环境下开发数据库接口应用
+马松梅　刘静霞　朱秋萍
+　　摘　要：在VC 5.0环境下基于MFC类库开发数据库接口应用程序的方法。
+　　关键词：数据库接口　MFC类库　开放数据库互连ODBC
+　　ODBC是Microsoft Windows Open Services Architecture(WOSA)的数据库部分，它提供API以使应用程序独立于源数据库管理系统(DBMS)。通过ODBC驱动程序，允许终端用户在1个应用程序中访问不同数据库中的数据。MFC数据库类的目标，就是要为程序员提供用于访问ODBC数据源的高级C++和Microsoft Windows API，它是基于ODBC的，以保证最大的内部可操作性。通常情况下不需要直接调用ODBC API。
+　　图1说明了应用程序、数据库类、ODBC和DBMS之间的关系。
+
+图1　数据库应用程序层次关系
+1　MFC数据库类简介
+1.1　CDatabase类(数据库类)
+　　该类主要完成与数据源的联接。当1个CDatabase对象与1个数据源联接上以后，可构造记录集。当数据源的联接使用完后，要关闭CDatabase对象，将其撤销或把它用于1个新的联接。
+1.2　CRecordset类(记录集类)
+　　在应用程序创建记录集类的1个对象时，要指定与它相关联的数据源、要用的表和该表的列。VC应用程序框架会自动编写CRecordset类的GetDefaultSQL成员函数返回该表的名称。应用程序通过记录集类的1个对象以RFX(记录字段交换)方式在其字段数据成员与数据源表的对应列之间传送数据。
+1.3　CRecordView类(记录视类)
+　　该类对象直接与1个记录集对象相关联。采用动态数据交换(DDE)方式把记录集当前记录中字段的值送到格式控制中，并把更新过的信息送回到记录集中。该类提供1个基于对话资源模板的数据库格式，其控制被映射成相关记录集对象的字段数据成员。
+2　在VC 5.0中实现应用程序和数据库的接口
+　　下面通过1个具体例子介绍MFC数据库类及用数据库类开发数据库接口应用的方法。假设计算机中已装有32位的ODBC Driver Manager动态链接库和32位的ODBC驱动程序，且在PowerBuilder 5.0中开发了1个藏书信息数据库，名为“bookcase.pbl”，作为应用接口数据库。具体开发过程为：
+　　1.在AppWizard中，建立基于单文档的项目(项目名为dbtest.mdp)。在关于数据库支持选项中选择第3项(或第4项)，二者的主要区别是第4个选项除打开1个数据库外，还将打开1个磁盘文件。磁盘文件可用于保存“风格表”之类信息，使用户可以配置、保存和快速恢复数据库的多个替换视。随后点击下面的“Data Source”按钮，进入1个数据库选择对话框。选择基于“ODBC”的数据源(该例中选择bookcase数据源)，选择记录类型为“snapshot”型，点击“OK”按钮。接下来进入选择数据库表单对话框，在该对话框中列出了所选数据库的所有表单，选择欲联接的表，点击“OK”返回。该步骤创建了应用程序与数据库联接的相关类、文件及资源。
+　　2.创建应用程序界面。进入资源模板，读者会看到AppWizard自动创建了1个ID号为IDDDBTESTFORM的对话模板资源。该资源是用于应用与用户的交互界面。本例中将该对话框设计成有5个编辑框(用于显示记录的值)，ID号分别为IDCEDIT1，IDCEDIT2，……IDCEDIT5。在编辑框的前面对应静态文本，分别为“书名”，“作者”，“出版社”，“价格”，“内容简介”。
+　　3.把记录集的字段与表格的列联接起来。点击“View”菜单，进入ClassWizard对话框，在此把选中表的所有列和记录集联接起来，也可从记录集中去除一些不想要的列对应的数据成员，还可更新记录集的列以反映变化后的数据源表的新列。这些功能都可在ClassWizard中选择CDbtestSet类的Member Variables表实现，方法非常简单，此处不再赘述。
+　　完成上述操作后，打开dbtestSet.h文件，将发现已自动声明了如下变量：
+　　class CDbtestSet:public CRecordset
+{ public:
+　　　…
+　　//{{AFX-FIELD(CDbtestSet,CRecordset)
+　　CString m-booktitle;
+　　CString m-bookauthor;
+　　CString m-bookpublisher;
+　　CString m-bookprice;
+　　CString m-bookabstract;
+　　//}}AFX-FIELD
+　　　…
+}
+　　同时在CDbtestSet.cpp文件中的DoFieldExchange(CFieldExchange*pFX)函数中将选中表的列和记录集字段数据成员联接起来。程序代码如下：
+　　void CDbtestSet::DoFieldExchange(CFieldExchange*pFX)
+{
+　　//{{AFX-FIELDMAP(CDbtestSet)
+　　pFX->SetFieldType(CFieldExchange::outputColumn);
+　　RFX-Text(pFX,-T(“［book-title］"),m-book-title);
+　　RFX-Text(pFX,-T(“［book-author］"),m-book-author);
+　　RFX-Text(pFX,-T(“［book-publisher］"),m-book-publisher);
+　　RFX-Text(pFX,-T(“［book-price］"),m-book-price);
+　　RFX-Text(pFX,-T(“［book-abstract］"),m-bookabstract);
+　　//}}AFXFIELDMAP
+}
+　　4.把格式的控制映射成记录集的字段。基于CRecordView类的数据库格式要用动态数据交换(DDE)在格式的控制与格式的相关记录集对象的字段数据成员之间交换数据。所以，开发者要做的工作是把格式的控制映射到记录集中，步骤如下：
+　　(1)选择ClassWizard的Member Variables表；
+　　(2)在Class Name框中，选择记录视类的名字；
+　　(3)在Control IDs框中，选择1个控制ID(本例中为IDC-EDIT1，…，IDC-EDIT5)；
+　　(4)选择Add Variable按钮命名1个与该控制相关的变量；
+　　(5)在Add Member Variable对话框中，通过选择Member Variable Name下拉列表框中的1个记录集数据成员，选择1个变量名；
+　　(6)选择“OK”按钮关闭Add Member Variable对话框；
+　　(7)对记录视中想要映射成记录集字段数据成员的每个控制，重复(3)～(6)步；
+　　(8)选择“OK”按钮关闭ClassWizard。
+　　另外，如果Visual C++对话框编辑器是打开的，对上述实现步骤则有下述捷径：
+　　选择格式中的1个控制，按下CTRL并双击鼠标，打开Class Wizard的Add Member Variable对话框，从中可把记录集的1个字段数据成员与该控制联接起来。
+　　完成上述步骤，打开dbtestView.h文件，看到记录视类中增加了1个成员变量mpSet,该变量定义为1个指向记录集类的指针。
+　　打开dbtestView.cpp文件，看到程序生成代码如下：
+　　void CDbtestView::DoDataExchange(CDataExchange*pDX)
+{
+　　CRecordView::DoDataExchange(pDX);
+　　//{{AFX-DATA-MAP(CDbtestView)
+　　DDX-FieldText(pDX,IDC-EDIT1,m-pSet->m-book-abstract,m-pSet);
+　　DDX-FieldText(pDX,IDC-EDIT2,m-pSet->m-book-title,m-pSet);
+　　DDX-FieldText(pDX,IDC-EDIT3,m-pSet->m-book-author,m-pSet);
+　　DDX-FieldText(pDX,IDC-EDIT4,m-pSet->m-book-publisher,m-pSet);
+　　DDX-FieldText(pDX,IDC-EDIT5,m-pSet->m-book-price,m-pSet);
+　　//}}AFX-DATA-MAP
+}
+　　5.编译连接。
+　　此时已经开发了1个简单数据库接口应用程序，读者可通过执行此程序在界面上看到与应用相关联的数据库中表的内容。
+　　6.如果开发者要实现“排序记录”、“过滤记录”等增强功能，方法如下：
+　　(1)对记录集指定排列顺序。在构造对象之后，调用其Open成员函数之前，建立记录集的排列次序。通常在CDbtestSet的构造函数中实现。本例中，程序代码如下：
+CDbtestSet::CDbtestSet(CDatabase*pdb)
+:CRecordset(pdb)
+{　　…
+mstrSort=“bookprice DESC,bookauthor ASC";
+}
+　　其中，参数“DESC”指明按降序排列，“ASC”指明按升序排列。在排序中若指定2个或更多的排序准则，则先按第1条准则排序，若值相同，再按第2条准则排序，依次类推。
+　　(2)对记录集指定过滤准则。在构造对象之后，调用其Open成员函数之前建立记录集的过滤准则。本例中在CDbtestSet的构造函数中实现，程序代码如下：
+CDbtestSet::CDbtestSet(CDatabase*pdb)
+:CRecordset(pdb)
+{　　…
+　mstrFilter=“bookprice=`34.00'";
+}
+　　设置完后，应用程序只显示书价为34.00元的书目。
+　　至此，已初步完成简单的数据库接口应用开发。为帮助读者更好地掌握MFC数据库关系及程序开发思路，将开发过程中记录集类对象、记录视类对象的关系做个总结，结果如图2。
+
+图2　记录集类与记录视类的对象关系
+　　通过上面的讲述及框图，较为详细地介绍了在VC5.0环境下开发数据库接口应用程序的思路及过程。希望读者能在此基础上开发1个更加完善的数据库接口应用程序。
+作者单位：武汉大学电信学院(430072)
+参考文献
+　1　赵人任，郑峰译.Microsoft Visual C++2.0 for Win32大全(一)——用户指南.北京：清华大学出版社，1996
+　2　王敏，韦诚.Visual C++程序员参考手册.北京：北京大学出版社，1995
+(收稿日期：1998-7-13)

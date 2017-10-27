@@ -1,0 +1,83 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年 第14卷 第3期 Vol.14 No.3 1999
+
+
+
+发动机叶片无损检测的可靠性
+刘登第　傅惠民
+　　【摘要】　提出了一种发动机叶片无损检测可靠性分析方法，利用该方法可以有效地提高叶片中裂纹（缺陷）的检出概率（POD），并能对裂纹的漏检概率（POM）进行准确地评估和控制，使因叶片裂纹漏检而引起发动机故障的可能性降至最低程度，从而确保发动机的安全运行；该方法简单方便，易于工程实施和应用。
+　　主题词：航空发动机　叶片　无损检验　缺陷　可靠性
+　　分类号：TB114.3
+RELIABILITY OF ENGINE BLADE NONDESTRUCTIVE TESTING
+Liu Dengdi and Fu Huimin
+（5th Dept.Beijing University of Aeronautics and Astronautics,Beijing　100083）
+　　ABSTRACT　　The attention has focused on quantifying the capability of nondestructive testing (NDT) system for guaranteeing structural safety through damage tolerance analysis.A method of reliability assessment for engine blades NDT is presented,which can determine exactly the probability of flaw detection（POD）and assess the probability of flaws missed（POM）in the engine blades,as well as control the largest size of the flaws missed at inspections with high probability of flaw detection and confidence level.This method also raises the flaw detection probability and prevents the flight accidents caused by the missed flaws in engine blades.
+　　Key　Words　Aircraft engine　Blades　Nondestructive tests　Flaw　Reliability
+1　引　言
+　　叶片中裂纹(缺陷)漏检是导致发动机损坏的主要原因之一。某型发动机二级涡轮叶片因没有及时发现已出现的裂纹（曾连11 mm的裂纹也漏检）而导致断裂失效，酿成了多起重大飞行事故。近几年来，尽管无损检测技术有了很大发展，但是不同检测人员对同一裂纹进行检测时，得到的结果仍然存在较大差异，并不能百分之百地检测出结构材料中大于规定尺寸的裂纹。一个最小能检测到零点几毫米，甚至几个微米裂纹的无损检测设备，常常连几个毫米，甚至十几个毫米的裂纹也会漏检［1］。为了解决这一问题，本文对这种无损检测的不确定性进行了研究，提出了一种发动机叶片无损检测可靠性分析方法，利用该方法可以有效地提高发动机叶片中裂纹（缺陷）的检出概率，保证无损检测质量，使叶片因裂纹（缺陷）漏检而危及发动机安全运行的可能性降至最低程度。
+2　发动机叶片的无损检测可靠性评估
+2.1　发动机叶片裂纹（缺陷）漏检概率(POM)曲线的确定
+　　发动机结构中的叶片缺陷漏检概率（POM）曲线的确定，是研究发动机叶片无损检测可靠性的基础，如何准确地对它们进行测定是问题的关键。经研究表明，叶片中裂纹（缺陷）a的置信度至少为γ的漏检概率Pu由下式给出：
+　(1)
+式中参数α，β，Sα，Sβ和Sαβ可按文献［1］方法求得；tr是t分布的百分位值。
+2.2　发动机单个叶片无损检测的可靠性
+　　当采用第j种检测设备对第i级的一个叶片进行一次检测时，其大于规定尺寸的裂纹漏检概率Pij可由式（1）求得，当独立检测K次时，裂纹的漏检概率为：P1=PKij。若用q种不同的检测仪器分别进行Kj次独立检测时，那么该叶片的漏检概率P1为：
+　(2)
+Kj是第j种检测仪器的独立检测次数，j=1，…，2，q。如果叶片按损伤容限设计原则设计，那么当规定的裂纹尺寸取aNDT时，可取Pij=10%，式（2）成为：
+　(3)
+2.3　发动机某一级叶片的无损检测可靠性
+　　设发动机第i级共有n个叶片，对其全部进行无损探伤后，如果每个叶片的裂纹（缺陷）漏检概率相同，则该级叶片中大于规定尺寸的裂纹漏检概率P2i由下式计算：
+P2i＝1-(1-P1)n　(4)
+式中P1由式（2）确定。如果叶片按损伤容限设计原则，那么P1由式（3）确定，即有：
+　(5)
+式中i=1，2，…，n；j=1，2，…，q。
+2.4　发动机全部叶片的无损检测可靠性
+　　设一发动机共有m级叶片，Ai为第i级叶片中大于规定尺寸的裂纹漏检这一事件，概率P(Ai)为其漏检概率，那么，对这m级叶片进行全部无损探伤后，发动机全部叶片中大于规定尺寸的裂纹漏检概率P3为：
+　(6)
+　　由于各级叶片之间的探伤是相互独立的，所以，式（6）可以简化为：
+　(7)
+即
+　(8)
+式中P2i为第i级叶片中大于规定尺寸裂纹漏检概率，可由式（4）或式（5）确定，i=1，2，…m。
+3　发动机叶片裂纹（缺陷）漏检概率控制方法
+3.1　发动机单个叶片裂纹（缺陷）漏检概率控制
+　　从式（2）可以看出，通过增加检测设备的独立检测次数，可以明显地减少发动机叶片中缺陷的漏检概率。因此，检测人员可以通过最佳独立检测次数和检测设备的不同组合来控制缺陷漏检概率。
+　　对于预先规定的裂纹漏检概率P*1，利用第j种检测设备，使第i级叶片中大于规定尺寸的缺陷漏检概率不超过P*1的独立检测次数为：
+　(9)
+　　若用q种不同的检测仪器分别进行独立检测时，第j种检测仪器应进行的独立检测次数Kj（j=1,2,…，q）由下式计算：
+　(10)
+其中满足条件的K1，K2，…，Kq有多种不同的组合，可根据具体情况取其中之一。
+　　若当K1=K2=…=Kq=K时，上式变为：
+　(11)
+　　如果叶片按损伤容限设计原则进行设计，当规定的裂纹尺寸取aNDT时，可取Pij=10%，此时式（11）成为：
+　(12)
+如果计算出的K值不为整数时，可取大于它的最小整数为最佳独立检测次数。
+3.2　发动机每一级叶片裂纹（缺陷）漏检概率控制
+　　设发动机中某一级共有n个叶片，欲使该级叶片中大于规定尺寸的缺陷漏检概率小于预先给定的P*2，则可由下式求得每个叶片应控制的缺陷漏检概率P*1：
+　(13)
+　　将式（13）代入式（9）～（12）即可求得使每个叶片中的缺陷漏检概率低于P*1应进行的独立检测次数，从而将该发动机每一级叶片缺陷的漏检概率控制在预先指定的P*2以下。
+3.3　发动机全部叶片的裂纹（缺陷）漏检概率控制
+　　欲使一台发动机全部m级叶片中大于规定尺寸的裂纹（缺陷）的漏检概率小于预先给定的P*3，则首先将P*3按每级叶片的重要程度进行分配，求得每级叶片应控制的缺陷漏检概率P*2i：
+P*2i＝ωix　(14)
+式中x由下式计算：
+　(15)
+式中ωi是第i级叶片的重要度，归一化处理后，满足条件。解得x后，代入式（14），即可得到每级叶片应该控制的裂纹漏检概率P*2i；再代入式（13），即可得到每个叶片应该控制的裂纹漏检概率P*1i；然后由式（9）～式（11）求得与每个叶片相对应的无损探伤次数，这样就可以通过增加对每个叶片的独立检测次数和不同探伤仪器之间的不同组合，保证该发动机所有叶片中大于规定尺寸的裂纹（缺陷）的漏检概率低于P*3。
+　　当ωi=1/m，则表示每级叶片的重要程度都相同，即P*21=P*22=…=P*2m，那么（15）式变为：
+　(16)
+则
+　(17)
+即
+　(18)
+4　结束语
+　　本文方法不但可以评估和控制发动机叶片中的裂纹漏检概率，而且还可以对发动机其他零部件中的裂纹（缺陷）漏检概率进行有效地评估和控制，从而提高无损检测质量，使发动机因裂纹（缺陷）漏检而破坏的可能性降至最低程度。
+作者简介：刘登第男　33岁　博士生　北京航空航天大学飞行器设计与应用力学系
+作者单位：北京航空航天大学
+参考文献
+　1　傅惠民，钱若力.无损检测可靠性与寿命控制方法.航空动力报学报，1994，9(3)：227-232
+　2　刘登第，傅惠民等.一种新的数据融合方法.中国安全科学学报，1998，8(6)：1-4
+　3　Gallagher J P，et al.USAF Damage Tolerant Design Handbook.MIL-A-83444,1984
+　4　Berns A P,Hovey P W.Flaw Detection Criteria.AFWAL-TR-84-4022,1984
+　5　Lewis W H, et al. Reliability of Nondestructive Inspections (Final Report). SA-ALC/MME 76-6-38-1,USAF,1978
+　6　Simola K,Pulkkinen U.Models for Nondestructive Inspection Data.Reliability Engineering and System Safety.1998,60：1-12
+1999年3月收稿；1999年5月收到修改稿。

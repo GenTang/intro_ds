@@ -1,0 +1,100 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+大蒜茎尖组培苗的检测
+张明厚　魏培文　朱俊华　张俊华
+摘要　从市售阿城紫皮蒜生长的叶片经PEC沉淀差速离心提纯，获得复合病毒制剂，得率为4.90 mm(100 g)-1叶。电镜观察病毒粒体为长度550～800 nm的线状物，经抗血清测定主要为洋葱黄矮病毒(OYDV)和大蒜潜隐病毒(GLV)。用复合病毒制剂免疫制备的抗血清效价为1024～2048。OYDV抗血清检测茎尖脱毒组培苗，脱毒率为50%左右，用GLV抗血清检测，脱毒率为95%～97%，复合病毒抗血清检测结果与OYDV相同。证明复合病毒抗血清可用于组培苗的检测。组培脱毒大蒜在田间种植1年后发病率为50%，3年后达80%。茎尖组培脱毒率不高。需用抗血清逐株检测挑选，淘汰病苗，才能获得健康无毒的大蒜群体。
+关　键　词　大蒜病毒病，组培脱毒苗，检测，洋葱黄矮病毒(OYDV)，大蒜潜隐病毒(GLV)
+中图分类号　S633.4　　文献标识码A
+DETECTION OF VIRUS ON TISSUE-CULTURAL
+GARLIC SEEDLINGS
+Zhang Minghou， Wei Peiwen
+Zhu Juhhua， Zhang Junhua
+(Department of Plant Pathology Northeast Agricultural University,Harbin 150030 PRC)
+ABSTRACT
+　　Complex virus preparation was obtained by purification through sedimentation with PEG and differential centrifugation from diseased laeves of purple garlic bulbs bought in markets of Acounty,Heilongjiang Province.4.90 mg complex viruses were purified from 100g deseased garlic leaves.All virus particles were flexous rods with 550～800 nm in length.OYDV and GLV were two major viruses which were identified by antiserum test. Antiserum against complex virus with titer of 1024～2048 was prepared.Rate of OYDV free tissue-cultural seedlings was ablut 50%.Rate of GLV-free tissue-cultural seedlings was 95%～97%,when detected with ther antisera.The result of testing with complex antiserum was the same as with OYDV antiserum.This indicated that using complex antiserum to detect tissue-cultural gralic seedlings was also reliable and could be used for virus-free garlic production.When tissue-cultural garlic seedling were planted in field,disease incidence was 50% after one year 80% after 3 years.As rate of virus-free seedlings from tissue-culture was rather low,detection of viruses by testing with antiserum was very necessary in order to avoid diseased seedlings occurring in fields.
+　　KEY WORDS：garlic virus diseases,tissue-cultural virus-free seedings,detection OYDV.GLV
+0　前　言
+　　黑龙江省是我国主要的大蒜产区，阿城、宁安等地大蒜栽培面积很大，质优味美，载誉国内外。据我们调查当前我省栽培的大蒜，普遍严重退化，蒜头小，发病株率100%，对农民和地方经济造成很大损失，目前正采取茎尖组培方法脱毒，以便培育无毒大蒜，重新获得优质高产的大蒜。由于组培脱毒产果达不到100%，经茎尖培养的苗必须逐株用抗血清检测挑选，才能获得完全无毒的大蒜群体。而抗血清检测又需要首先明确我省大蒜主要病毒病的种类，并制备抗血清，才能有的放矢的检测汰除病苗。我们通过寄主范围、传播方式、抗血清反应及电镜观察粒体形态等常规鉴定，已查明我省大蒜主要病毒的种类〔1〕，并试验了检测组培苗的有效方法，以便在生产中应用，本文是关于组培苗检测方法的报道。
+1　材料与方法
+1.1　材料
+1.1.1　检测植株　东北农大蔬菜园艺系经茎尖组织培养的大蒜再生小苗，及1992～1995年在试验站田间繁殖的组培大蒜植株。
+1.1.2　抗血清　复合大蒜病毒抗血清为本组自制的。OYDV及GLV抗血清分别为日本Dr.Fukami,M及台湾Dr.Deng,T.C.提供的。
+1.2　病毒提纯
+　　用阿城紫皮大蒜种植温室中，长出叶片后观察记录叶部症状及发病率，收集大蒜病叶1550 g，按下列流程提取病毒复合制剂。
+　　
+图1　病毒复合制剂提纯流程
+Fig.1　The procedures of purification
+　　提纯病毒制剂用紫外分光光度计波长260 nm测定OD值，计算其浓度，用电镜观察病毒粒体形态。
+1.3　抗血清制备
+　　选健康公兔，免疫注射前从耳静脉采血一次，取血清作为对照。免疫用复合病毒制剂2 mL，加等量不完全佐剂，乳化后肌肉注射兔左右臀部。每周免疫一次，连续免疫4次。第4次免疫后三周有血，每7 d采血一次，测其效价。
+1.4　茎尖组培大蒜带毒检测
+　　用间接酶标抗体测定法(ELISA)检测，酶标抗体为辣根过氧化物酶羊抗兔IgG(中国军事医学科学院微生物流行病毒研究所)正对照为温室繁殖的病苗，负对照为多次检测无毒的组培苗。OD值大于负对照的2.50倍者为阳性反应。
+2　结果与分析
+2.1　症状
+　　阿城紫皮蒜的叶片呈明显花叶，即黄色腿绿条纹或条斑(图2)，严重时叶扭曲捻卷，叶尖干枯，植株矮缩，鳞茎退化变小(图2)。市售阿城紫皮蒜发病率100%，在阿城田间调查及哈市温室调查蒜苗发病率也为100%。
+2.2　病毒提纯和抗血清制备
+　　1550 g病叶提纯后得病毒复合制剂8 mL，稀释10倍液经紫外分光光度计测定，OD值高峰在257 nm处，峰值为2.666(图3)。电镜观察全部粒体均为线状，未见其它形状粒体。粒体长度为550～800 nm，在马铃薯Y病毒组及康乃馨潜隐病毒组粒体的长度范围内〔2，3〕。
+　　根据我们对黑龙江省大蒜病毒病的调查和病原鉴定〔1〕，全部大蒜病毒病均系复合侵染，其中最主要的病毒有两种，洋葱黄矮病毒(OYDV)及大蒜潜隐病毒(GLV，又称亚实基隆葱潜隐病毒大蒜株系SLV—G)，两者都是线状病毒，其形状和长度与提纯的复合病毒是一致的。
+　　提纯的复合病毒制剂，按PVY及CLY两病毒组的紫外吸收系数2.80〔2，3〕计算病毒浓度，提纯病毒的得率为4.90 mg.mL-1。制备的抗血清效价为1024～2048。
+2.3　茎尖脱毒组培大蒜苗带毒检测
+　　用复合病毒抗血清及日本和台湾提供的OYDV和GLV抗血清分别测定茎尖脱毒组培苗的带毒情况，结果(表1)表明，茎尖组培对OYDV的脱毒率不高，仅有50%左右，但对GLV的脱毒效率则很高(95%～97%)，复合病毒抗血清的检测结果与OYDV抗血清一致的。可见用复合病毒抗血清检测组培再生苗的结果是可靠的，能检出含任一种病毒的组培苗。
+　　茎尖脱毒组培大蒜苗如不经过抗血清检测严格挑选，在田间种植又不采取防病措施，仍然会迅速退化(表2)。组培苗当年发病率为30%，3年后可达80%。如将OD值为负对照+2.0的低毒株计算在内，田间种植3年的发病率也达到100%。
+表1　茎尖脱毒大蒜组培苗带毒检测
+Table1　Detection of virus on tissue-cultural garlic seedling
+抗血清
+(Antiserum)带毒苗(株)
+(Virus seedling)无毒苗(株)
+(Virus-free
+seedling)检测株数
+(Count of 
+Testing garlic)脱毒率(%)
+(Rate)
+复合病毒抗血清
+(Complex viruses
+antiserum)19
+8228
+7647
+15859.60
+48.10
+OYDV(日本)708515855.50
+GLV(日本)415415897.50
+GLV(台湾)815015894.90
+　　*为两次用复合病毒抗血清测得的结果
+表2　茎尖脱毒组培大蒜田间繁殖植株的发病率
+Table2　Incidence in the field planting from tissue-cultural seedling
+田间种植时间(年)
+Time of planting
+in fields(year)病株数
+(Count of
+Diseased)检测株数
+(Count of
+Testing garlic)发病率(%)
+(Incidence)
+3162080
+2132065
+1102056
+2月(Month)31030
+　　*用混合病毒抗血清定
+
+图2　大蒜病苗症状
+Fig.2　Symptoms of virus seedlings
+
+
+图3　大蒜混合病毒曲线
+Fig.3　Absorption curve of purified garlic complex viruses
+3　讨　论
+　　大蒜是以鳞茎无性繁殖的蔬菜，病毒可通过鳞茎传至后代，使病毒发病率逐年增加，直到100%。与此同时，感染病毒的种类也可能增加。致使大蒜普遍感染多种病毒。人们曾采用挑选大植株或大蒜头种植的方法防止退化，但收效不大。近来普遍采用茎尖脱毒的方法，培育无毒蒜。许多地方用此方法获得很理想的效果，但也有些地方未能取得满意的效果。其原因是对于不同的病毒，脱毒效果不同，含有脱毒效果差的病毒，不经过抗血清挑选剔除近半数的病苗，是不可能控制退化的。我们的试验结果指出，黑龙江省大蒜所含的两种主要病毒之一OYDV，茎尖脱毒率很低，而它的为害性最大，茎尖组培对LGV的脱毒率很高，但它的为害性不及OYDV。为了保证播种材料不带病毒，特别是OYDV，组培苗必须逐一检测，否则将大大降低组培脱毒的效益。大蒜两种主要病毒在田间以蚜虫非持久性方式传播，蔓延很快。黑龙江省大蒜4月初种植，8月收获。田间蚜虫发生始于6月中旬左右，7月中达高峰。蚜虫发生时期大蒜虽已过最感病为害最大的苗期，但仍然能被侵染而带有较低浓度的病毒。作为商品大蒜，含低浓度的病毒对产量影响不大，但种蒜即使带毒量低也可成为田间毒源。根据我们的研究，与OYDV同属马铃薯Y病毒组的大豆花叶病毒(SMV)，在蚜虫发生中等程度的年份，种子带毒率不超过0.10%，才能控制当年SMV的为害〔4〕，莴苣花叶病毒的防治要求种子带毒不超过0.30%。茎尖脱毒大蒜带毒率50%，显然不能控制大田病毒的蔓延为害。
+　　大蒜病毒病基本都是复合侵染，其主要病毒的寄主范围很窄，如OYDV只限于葱科，常规方法难以找到能分离纯化OYDV的过滤寄主。因此我国目前还未能制出OYDV的单一抗血清。本试验证明用复合病毒制备的抗血清检测和挑选无毒组培苗是可靠的，它的制备也较简单，成本低，可在生产中推广应用。GLV抗血清虽已能制作，但GLC的为害性不及OYDV大，而且组培脱毒效率高，因而用GLV抗血清检测的意义不大。
+作者简介：张明厚，女，70岁，东北农业大学农学院植保系植物病理教研室教授。
+作者单位：张明厚　魏培文　张俊华　(东北农业大学　植物病理系　哈尔滨　150030)
+　　　　　朱俊华　现在山东农业大学植保系
+参考文献
+〔1〕　朱俊华，张明厚.黑龙江省大蒜病毒病的鉴定.(东北农业大学硕士论文)
+〔2〕　Koenig,R.Dcarlavirus group CMI/AAB descriptions of plant viruses 1982(259):4
+〔3〕　Bos,L. Onion yellow dwarf virus CMI/AAB Description of plant viruses 1976(158):4
+〔4〕　郭井泉.控制大豆花叶病毒危害的种子带毒率临界水平.东北农学院学报，1992，23(3)：220～225
+收稿日期：1997-11-05

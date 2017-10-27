@@ -1,0 +1,78 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+部分预混改善柴油机碳烟排放研究初探*
+杜德兴
+摘要　通过测量对置射流扩散火焰中开始形成碳核时的临界气动变形率Kp，对丙烷中加入空气、氮气和氧气时其扩散火焰中碳烟生成的影响进行了实验研究.介绍了利用氩气和氮气的比热差异，通过适当的火焰温度调节方法，将丙烷中加入氮气和氧气时对碳烟成核过程所起的各种作用进行了分解，并由此得出结论：适量氧气在扩散火焰中具有遏制碳烟成核的作用.加上空气中氮气的稀释作用，添加部分空气形成部分预混的扩散燃烧有利于减少碳烟的生成.
+关键词　部分预混；扩散火焰；碳烟成核.
+A study on the improvement of soot emission of the diesel engine by partial premixing
+DU Dexing (Zhejiang University, Department of Energy Engineering,Hangzhou 310027)
+Abstract　The influence of nitrogen, oxygen and air addition on the propane diffusion flame was studied experimentelly by measuring the soot particle inception limit. By substituting a part of the nitrogen in the air by equal mole argon (nitrogen addition), or decreasing the oxygen index of the air (oxygen addition),the flame temparatures were adjusted,then the effects on the sooting limit of these additions were isolated. The results show that nitrogen addition and appropriate oxygen or air addition on the propane diffusion flames may reduce soot formation. 
+Keywords　partial premixing, diffusion flames, soot inception.
+　　以柴油机为动力的汽车的碳烟排放严重污染了城市空气.减少柴油机的碳烟颗粒排放、保护环境已成为摆在我们面前的迫切课题.尾气过滤的后处理方法虽然效果较好，但是，在排气系统中安装碳烟过滤器，不仅增加了结构复杂性和提高了制造成本，而且对发动机的燃油经济性有不利影响.过滤器的再生与使用寿命也是一个需要不断研究改进的课题.
+　　预混合气在燃烧时碳烟生成量很少，柴油机的碳烟生成于扩散燃烧过程.将部分气体燃料或易挥发的燃料与空气形成预混合气，在进气时引入气缸组织起部分预混燃烧，预期可改善柴油机的碳烟排放.柴油机排气中的碳烟从生成到排出可分成成核、聚合长大（包括凝聚和表面长大）、氧化和吸附4个阶段［1］.生成量决定于前两个阶段，本研究将从成核阶段的变化情况进行研究.碳烟的成核是一个化学反应过程，成核量的多少决定于化学反应的速度.当燃料气中加入空气时，同时加入了基本不参与燃烧反应的氮气和主要反应物氧气这样两种性质完全不同的气体，为了考察这样两种性质差别巨大的气体的作用，将对氮气和氧气的作用进行分解研究.
+　　研究已表明［2—6］，在燃料气体中加入添加物，可使火焰中生成碳烟发生变化，由于此时影响碳烟生成过程的火焰温度发生了变化，因此容易简单地归结到是火焰温度变化的原因.本研究将通过维持火焰温度与纯燃料气体相同的适当处理手段，将添加物加进后对碳烟形成所起的作用按照改变火焰温度的热力作用、改变反应物浓度的稀释作用和积极参与化学反应过程的化学作用分隔开来.考虑到柴油成分的复杂性和应用燃油液滴蒸汽进行实验研究的困难，在此将用丙烷气来模拟柴油蒸汽.
+1　实验方法和仪器设备
+　　对置流喷嘴组成的燃烧器和火焰及火焰中的碳烟层如图1所示.燃烧器由两个强烈收缩的对置喷嘴组成.从这两个喷嘴产生的气流在其出口都有均匀的速度分布，这两股气流相互碰撞后形成一滞止平面，所形成的扩散火焰就位于滞止平面的空气流一侧.在这样的燃烧器中的火焰受到两边的气体流动的动力应变作用，其作用的大小由气动变形率来度量.
+
+
+图1　碳核粒子散射信号测量系统的光路图
+Fig.1 The optical system used to measure soot particle light scattering
+　　火焰在流场中受到的流场的拉伸变形作用，产生气动形变，根据气动形变率K的定义［7］
+K=(1/A)(DA/Dt)　　　　　　　　　　　　　　　　（1）
+式中,A为火焰的表面积，DA/Dt为全微分算符.因此，火焰的的变形率也是火焰中的反应物在反应区的滞留时间的度量.而火焰中开始形成碳核的临界火焰变形率,碳烟成核极限Kp.其倒数也就成碳烟成核的反应速度的度量［8］.Kp随不同条件时的变化就可用来研究这些条件对碳烟成核的影响.
+
+
+图2　燃烧器的滞止中心线上的速度分布
+Fig.2 The velocity profile of the axi-symmtric counterflow diffusion flame on its centerline
+　　由如图1所示的对置喷嘴所形成的流场，在亚音速流时，可作为不可压缩的势流场，若流速在径向和轴向的速度梯度分别为a和-a，这一流场的速度场可在柱坐标系中表示成
+　　　　　　　　　　　　　（2）
+　　将（1）式进行适当的变化而成
+　　　　　　　　　　　(3)
+式中t和Δt分别为沿火焰面的切向速度分量和切向梯度算子，为火焰面的法向矢量.
+　　对如图1的流场中的火焰，联合（2）式和（3）式，由于t=0，以及t在r方向，所以这一火焰的的变形率的表达式为
+　　　　　　　（4）
+　　流场的速度分布用激光多普勒测速仪沿滞止流线测量.图2给出了空气一侧的典型速度分布曲线.火焰上游的速度梯度的绝对值即为火焰的气动变形率K.
+　　散射光的测量系统如图1所示.氩离子激光器发出的波长为488?nm的激光竖直方向偏振，入射激光经机械斩光器的调制后由透镜聚焦在燃烧器的对称中心线上.接收散射光信号的光路布置在与入射激光垂直的方向上.激光束照射在燃烧器中心线处的物质所散射出的散射光信号通过由检偏振镜、激光滤光镜、聚焦镜头等组成的接收装置后通过针孔进入光电倍增管，经光电倍增管放大后的信号送到一锁相放大处理器，然后送入PC机处理储存.
+　　火焰的温度用涂有BeO-Yt2O3保护层的Pt-20%Rh/Pt-40%Rh热电偶测量，所用热电偶丝的直径为0.05mm，引线与火焰平行以使热传导引起的误差达到最小.图中所示温度值已将实测温度读数进行了辐射散热校正.
+　　为确定燃料中加入氮气和氧气对扩散火焰中碳烟成核所起的作用进行分解.为此采用：在不改变空气的氧气浓度，将空气中的部分氮气用氩气代替（丙烷中添加氮气时提高火焰温度），或改变空气中的氧气浓度（丙烷中添加氧气时降低火焰温度）的方法.对火焰的温度进行调整使之回复到燃料和空气均未发生变化的参考状态.
+2　结果和讨论
+　　从图3a中可以看到，当空气加入到丙烷中时，Kp降低；将空气组分分别加入时，则有：加入氮气使Kp降低；加入氧气时，在氧气的摩尔浓度达到0.3以前，Kp基本保持不变，当氧气的摩尔浓度超过0.3以后，Kp有所增加.由于Kp是火焰中出现碳核的临界变形率，因此，Kp降低意味着降低了碳烟成核的化学过程的速率，可见，向丙烷燃料气中添加氮气或空气都有降低火焰生成碳核的作用.
+
+
+图3　丙烷中添加空气时的影响
+Fig.3 The influence of air
+addition to propane
+　　从图3b可以看到，燃料中加入氮气使火焰的温度降低而添加氧气则使火焰的温度升高.
+
+
+图4　碳烟成核极限与温度的关系
+Fig.4 The relation between the soot inception limit and flame temperature
+　　在丙烷中加入氮气和氧气所引起的碳烟成核极限和火焰温度的变化的关系，见图4.图中虚线表示了仅因Tf的变化而使KP改变的阿累尼乌斯关系.这一函数关系是通过将空气流中的部分氮气用氩气代替，而保持空气中的氧气的摩尔浓度仍为0.21从而改变火焰温度，然后测出该条件下的KP.由于这一曲线表示的就是热力作用对碳烟生成的影响.从实验结果与这一曲线的差很清楚地看出添加物对碳烟成核的影响除了热力作用，还有其他的作用.
+
+
+图5　碳烟成核极限和丙烷中的添加气体的摩尔浓度的关系
+Fig.5 Effects of the gaseous additives on the soot inception limit
+　　为了考察燃料中添加氮气时对碳烟成核的化学过程的具体作用，将空气流中的部分氮气用氩气代替并保持氧气摩尔浓度不变，调整火焰的温度使与纯燃料气体时相同，测定此时的碳烟成核极限；对于添加氧气的情况，则通过降低空气流中的氧气浓度，将火焰温度调整到与纯丙烷与自然空气时相同，然后测定碳烟的成核极限.结果如图5所示，图中所有实心的符号都有相同的火焰温度.可以看到，如果火焰温度保持不变，加入氮气总有降低碳烟成核的效果，而加入氧气，在氧气的摩尔浓度达到0.5以前，也具有降低碳烟成核的效果.而且在很大的范围内，这种效果还超过氮气.
+　　虽然丙烷中加入适量的氧气有遏制碳烟成核的作用，但是，当氧气的摩尔浓度超过0.5以后，即使维持火焰温度不变，碳烟成核的化学过程仍显著加速了.在这样的火焰中，促进碳烟成核的反应显然超过遏制成核的作用，例如，丙烷的热解加速了，还可能使形成芳香环的自由基的化学反应也加速了.
+　　从图5可以清楚地看到丙烷中添加氮气和氧气时对碳烟成核所呈现的稀释作用、热力作用和化学作用.由于认为氮气不参与燃料生成碳烟的化学反应，因此图中实心正方形图标与圆形图标所表示的KP之差，代表了氮气的稀释作用；而实心和空心的正方形图标所表示的KP之差则表示了温度差引起的热力作用.实心的三角形和实心的正方形图标所表示的KP之差则表示了氧气在碳烟成核的化学反应中的作用.当然，由于氧气加入到丙烷气中时，火焰温度升高了，因此，其热力作用是加速碳烟的生成.所以，只有在丙烷中加入的氧气适量时，并控制火焰温度不提高，才可以遏制扩散火焰的碳烟生成.
+3　结论
+　　1. 向丙烷中添加空气，可在相当宽的浓度范围内对碳烟的成核起遏制作用而有利于减少碳烟的生成.而对于将少部分燃料气添加到空气中的部分预混方式的作用则有待于进一步的试验研究.同时，由于丙烷气体燃料与从柴油燃料液滴蒸发的燃油蒸汽尚有较大的差异，因此，将由此获得的结论推广到柴油机中时，必须注意到这种差异.
+　　2. 通过以氩气替换空气中的适当部分氮气，保持空气中氧气的摩尔浓度不变，从而改变火焰温度的实验技术，或通过改变空气中的氧气浓度以改变火焰温度的技术，可以将加入燃料气体中的不同添加气体在碳烟成核过程中的不同作用区分开来.
+　　3. 氮气添加到丙烷气中对碳烟成核的遏制作用包含了热力作用和稀释作用.氧气添加到丙烷气中对碳烟成核的作用，既有热力作用和稀释作用，还有直接参与化学反应过程的化学作用.
+*浙江省自然科学基金资助项目（597041）
+作者单位:浙江大学能源系，杭州 310027
+参考文献
+1　Amnn C A, Siegla D C. Diesel particulates-what they are and why. Aerosol Sci Tech, 1982, 1: 73—101
+2　Glassman I, Yaccarino P. The effect of oxygen concentration on sooting diffusion flames. Combust Sci Tech, 1980,24: 107—114
+3　Du D X, Axelbaum R L, Law C K. Experiments on the sooting limits of aerodynamically-strained diffusion flames. 22nd Symposium (International) on Combustion/The Combustion Institute. Pittsburgh. 1988, 387—394
+4　Axelbaum R L Law, C K Soot. Formation and inert addition in diffusion flames. 23rd Symposium (International) on Combustion/The Combustion Institute, Pittsburgh, 1990. 1517—1523
+5　Du D X, Axelbaum R L Law C K. The influence of carbon dioxide and oxygen as additives on the soot formation in diffusion flames. 23rd Symposium (International) on Combustion/The Combustion Institute Pittsburgh. 1990. 1501—1507
+6　Du D X, Axelbaum R L Law C K, Soot formation in strained diffusion flames with gaseous additives. Combustion And Flame, 1995,102: 11—20
+7　Williams F A. Combustion Theory, 2nd Edition, Menlo Park, Benjamin Cummings Publishing Company Inc., 1985
+8 Kennedy I M. Flow field effects on nucleation in a reacting mixing layer. Phys Fluids, 1985, 28: 3515—3524
+1998-11-25收到原稿
+1999-06-21收到修改稿

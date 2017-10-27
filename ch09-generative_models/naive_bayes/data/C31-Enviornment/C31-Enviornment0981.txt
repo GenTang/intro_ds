@@ -1,0 +1,125 @@
+地质灾害与环境保护
+JOURNAL OF GEOLOGICAL HAZRDS AND ENVIRONMENT PRESERVATION
+1999年 第10卷 第3期 vol.10 No.3 1999
+
+
+
+核废料贮存裂隙岩体耦合分析研究综述 
+刘亚晨　吴玉山　刘泉声
+摘　要：　在核废料地质处置过程中，涉及到热液力三种影响因素及其耦合问题。拟对国内外就这一研究方面的进展和现状作一介绍和评述，并对进一步研究核废料贮存围岩全耦合问题提出分析方法。
+关键词：　全耦合分析；地下水流动；附加应力；热载；岩体力学响应
+中图分类号：　TL942+.1　　文献标识码：　A
+A REVIEW OF RESEARCH ON THE COUPLED ANALYSIS OF
+RADIOACTIVE WASTES BURIAL IN FRACTURED ROCK MASS
+Liu Yachen　Wu Yushan 　Liu Quansheng
+(Institute of Rock and Soil Mechanics,The Chinese Academy of Sciences,Wuhan　430071)
+Abstract:　The progress and the state of art of the research on the effect of three factors,namely thermal、hydrological and mechanical effect,and the coupled problem are reviewed in the paper.Analytical methods for further researches are also made.
+Key words:　fully-coupled analysis;underground water flow;additional pressure;thermal loading;mechanical response of the rock mass
+　　在核废料地下处置过程中，由于放射性同位素衰变，将产生大量的热量。核废料贮库围岩介质的温度升高，不仅影响岩体、水体的物理性质，而且对岩体的应力场和水体的渗流场也有重要作用；与此同时，地下水作为一种环境因素，对岩体的物理力学性质和热对流传输具有重要影响；另一方面，岩体的热物理特性及其中的各种不连续面(节理、断层、裂隙等)分别对热传导及地下水渗流起着重要控制作用。这三者相互联系、相互制约的性质，是由三场耦合效应引起的。从核废料深层地质处置来看，核废料贮库围岩赋存在一定的物理地质环境中，温度场(Thermal)、渗流场(Hydrological)和应力场(Mechanical)，(简称：THM)，是岩体物理地质环境中的三个重要组成部分；从系统的角度来看，围岩THM耦合是子系统间相互作用的必然结果。1998年3月，美国华盛顿州中部的一个核武器厂有90×104加仑(gallon)的放射性核废料自行泄漏，是核废料贮库围岩在THM耦合作用下失稳破坏水热循环加剧的结果。因此，在评价贮放核废料地质介质时，需要获得足够的实际岩体各种特性资料，以制定出不同贮库的设计方案，其中一个重要指标就是贮库裂隙围岩系统中地下水流动、附加应力和热载的耦合作用下的裂隙岩体力学响应。这样，有助于核废料的安全贮存设计，同时也将推动核废料对地下水资源污染的研究。另外，在石油和天然气及地热开采工程中，为设计合理的开采方案和因抽水、采油等所引起的岩体位移，及其诱发的各类地质灾害的研究提供科学依据；在理论上，耦合分析研究有助于人们对岩体渗流模式、介质迁移机制及渗流基本规律的研究，从而促进岩体力学理论的广泛研究，使岩体力学理论更能反映实际，具有十分重要的意义。
+　　核废料地质贮存研究，主要涉及到三种因素的影响，即热(Thermal)、液(Hydrological)、力(Mechanical)。科研人员分别对上述三种因素及其耦合问题开展了积极的研究。下面就这方面的研究工作做介绍性的综述。
+1　涉及到三种因素的研究
+1.1　核废料地下贮存热影响
+　　Mufti［1］(1971)根据贮库不同形态和大小，给出了围岩温度升高与同位素衰变常数之间关系的计算方法；Harkonen［2］、Stephansson［3］、Beale［4］(1979)、Hodgkinson［5～7］(1980，1983)分别对高放固化的核废料贮存的温度场进行了解析分析，采用不同的计算方法探讨各自温度场下围岩中热弹性力的响应，以及地下水的渗流规律；王青海［8，9］(1997，1998)探讨了中低放核废料地下处置对围岩介质(花岗岩体)温度场的影响，同时分析了花岗岩介质的热应力效应。
+1.2　核废料地质贮库裂隙围岩在不同驱动力下的地下水流动
+　　从收集资料来看，驱动地下水流动的外在条件，主要有三种，即：地表面河床(地形地貌)或地下潜水面—水头作用；自由热对流—温度梯度作用；岩体热膨胀致使裂隙在自封闭条件下的驱动。
+　　Parts［10］(1966)用解析方法探讨了在多孔介质中自由热对流的规律，同时讨论水平来流对自由热对流的影响；Hodgkinson［6，7］(1980，1983)建立了核废料围岩水热对流的数学模型，采用级数方法探讨其运动规律，讨论水平来流对自由热对流的影响；Wickens［11］(1984)用有限元方法模拟核废料围岩地下水流动模式，并同时考虑了潜水面及热对流两种驱动力作用；Lowell［12］(1990)探讨了热弹性对平行裂隙及裂隙渗流的影响，认为由于热膨胀作用，裂隙产生自闭，可驱动流体运动；Abdallah［13］(1995)采用离散元方法探讨在不连续面由于岩体与水体的热传导特性不同，存在着岩体与水体有能量交换条件下的热对流问题。
+1.3　裂隙围岩介质特性对受热液力因素影响的响应
+　　(1) 裂隙岩体系统中的统计特性及其物理参数
+　　在实际地质构造与岩体结构中含有大量不同方向、规模、产状的非连续性结构面(节理、断层、裂隙)，使岩体在工程构造和力学性能上呈现非均质、非线性、非连续的各向异性体；同时又成为地下水流的主要通道，使岩体渗透特性呈非均匀各向异性。为了研究岩体的这些特性，普遍采用根据野外现场实测统计数据，建立结构面网络几何特性概率模型的方法。
+　　1965年，Walsh［14］的多篇论文探讨裂隙对岩石的可压缩性和模量的影响；1969年，Jaeger和Cook［15］定性地解释了裂隙对岩石弹性力学性质的影响；1974，1976年 ，O′Connell,Budiansky［16］利用自洽方法(the self-consistent method)和与裂隙有关的应变能理论，探讨含裂隙岩石的有效弹性模量和完整岩石弹性模量之间的关系，最终引出模量与裂隙密度的关系，同时探讨了饱和裂隙岩体弹性模量与裂隙密度的关系；1976年，Gregory［17］对孔隙中饱和流体的沉积岩的各项模量变化进行了实验研究，然后分析水饱和度对各项模量的影响；1986年，Oda［35］的多篇论文采用等效准则，即应变迭加原理，引入裂隙张量(crack tensor)来描述裂隙岩体的各种特性(如渗流张量、弹性参数)；1995年，周创兵［18］应用形变势能迭加原理，分析随机节理裂隙岩体的各向异性弹性参数；1997年，王让甲［19］在总结前人研究成果的基础上，探讨了岩性对各项动态模量的影响(包括裂隙)。
+　　(2) 温度对裂隙岩体物理参数及开通裂隙密度数的影响
+　　Molen［20］(1981)对石英相变温度对压力的依赖性和对热膨胀系数的影响进行探讨；1987年，寇绍全［21，22］引入裂隙密度来描述热开裂引起的岩石损伤程度；1992年，Germanovich［23］应用渗透理论，导出裂隙受热后裂隙密度数发生变化的计算公式，并指出近竖向裂隙发生闭合的概率最大；Bruhn［24］(1994)对在节理岩体中的裂隙和水热循环进行探讨，给出弹性模量与裂隙密度的变化关系，讨论渗透率随有效应力及裂隙自封闭变化规律，当温度大于300℃时，裂隙岩体中的水热循环矿物成分明显增加。席道瑛［25］(1998)对花岗岩在温度为-60～600℃范围内进行模量实验，结果表明：随温度升高，岩体模量下降，并分析其下降机理。
+　　(3) 裂隙岩体渗透特性
+　　Oda［26，27］(1985，1987)应用裂隙张量，导出裂隙岩体的渗透张量；周创兵［18］(1995)应用渗流能量泛函，导出裂隙岩体渗透张量；仵彦卿［28］(1996～1998)的系列岩体水力学基础专题讲座，系统地总结了岩体渗流问题的研究成果，包括：岩体水力学基础、岩体渗流模型、岩体水力参数的确定；张金才［29］(1997)采用力学理论，研究裂隙岩体渗透系数与埋深、水压力、应力的关系；Brown［30］(1998)应用Oda渗流模型，提出反映裂隙连通参数λ的表达式，考虑了剪切应力对渗透特性的影响。
+　　(4) 裂隙岩体渗透特性与温度的关系
+　　Morrow［31］(1981)进行模拟核废料环境条件的室内渗流试验，测定热源温度保持在200～310℃，轴压为10，20 MPa，围压为30，60 MPa条件下的渗透率，发现渗透率随温度而下降，并分析了其原因，认为是花岗岩中的矿物成分在高温区溶解度增加，遇低温区溶解度下降及热膨胀所致；Moore［32］(1983)用Morrow的同样方法，进行了在温度梯度条件下通过花岗岩试样水流伴随着的化学反应测试，并分析测试结果；Lowell［33］(1993)建立解析模型，用于探讨裂隙岩体水热系统中受温度影响的岩体矿物成分(SiO2)溶解度变化及岩石热弹性应力对渗流的影响，从中也说明矿物成分溶解度与水压有密切关系；Martin［34］(1997)进一步发展了Lowell［33］(1993)建立的模型，并使用该模型数值模拟实验室实验结果，其中极坐标下的裂隙开度变化关系式为：
+
+式中，b,bm为裂隙半开度、平均裂隙半开度；αr为岩石热膨胀系数；v为泊松比；为质量流量，U为粘性系数；cSiO2为含SiO2的浓度；Tf为流体温度；ΔT为岩体局部温度与初始温度之差。
+2　HM及THM耦合问题研究
+　　数学上处理岩体HM及THM耦合有三种模型，即：等效连续介质模型、裂隙网络模型、双重介质模型。国内外学者在这些方面进行了试验和理论研究，提出不同的耦合计算方法——主要有等效连续法和离散法。
+2.1　HM耦合
+　　Oda［35］(1986)用等效连续模型解决固、液两相介质的耦合问题，此模型分析了不连续面受正应力和剪应力作用，导出裂隙弹性张量和渗透张量，建立较严密的裂隙岩体渗流特性与应力特性的耦合关系；耿克勤［36，37］(1996)对剪切变形与渗流耦合也进行了实验探讨，结果认为：在不同的应力作用下裂隙面由于剪切变形使渗流流量先减少，后又增加的变化；沈洪俊［38］(1998)对在应力作用下的接触型岩体裂隙的渗流基本规律作了研究，探讨接触型岩体裂隙在大应力及高水头耦合作用下的渗流规律；周创兵［18］(1995)对岩体渗流性质与变形耦合作了研究，同时使用节理统计特征，确定REV的解析解；盛金昌［39］(1998)系统综述裂隙岩体渗流应力耦合研究情况，包括：单一裂隙渗流应力耦合研究、裂隙岩体渗流与应力耦合分析。
+2.2　THM耦合
+　　对核废料贮存库围岩THM耦合过程的研究，在90年代瑞典、美国、日本、英国、法国等联合进行了名为DECOVALEX［40］的国际合作研究项目，致力于对岩体的热、液、力耦合过程进行理论和实验研究。
+　　(1) 模拟裂隙岩体对THM耦合作用发生响应采用的方法
+　　① 离散法： 直接表示出岩体中每个具有THM耦合特性的不连续面。
+　　② 等效连续法： 用一种均匀化的、又具有THM耦合特性的等效连续介质，来表示岩体中的岩块和不连续面。
+　　(2) THM耦合过程的描述
+　　THM耦合过程简图如图1：
+
+图1　THM耦合过程简图
+Fig.1　THM coupled analysis process
+　　图1中各不同过程说明：
+　　①-a为与温度有关的固体特性变化；①-b为诱发的热应变；②-a为与固体变形有关的热特性变化；②-b为固体内部耗散；③为与温度有关的流体特性变化；④为流体热对流；⑤为流体压力对固体力学性质的影响；⑥为空隙度和渗透率的变化。
+　　(3) DECOVALEX国际合作项目对THM耦合过程的研究
+　　代表离散法的研究小组有：法国的INERIS和ENSMP小组，采用的方法为：离散单元法和有限单元法。代表等效连续方法的研究小组有：日本的KPH小组和法国CEA/DMT小组。
+　　a. 离散法：　此法采用的控制方程是：热平衡方程、块体和不连续体的力学动力方程，以及不连续体的水力方程。
+　　INERIS小组采用UDEC法，求解THM耦合定解问题。但根据UDEC法的特点，它不能完全模拟THM耦合过程。所以，在THM耦合过程简图中的①-a，②-a，②-b，④作用被忽略了。
+　　ENSMP小组采用二维有限单元法，求解THM耦合定解问题。但同样无法考虑①-a，②-a，②-b，④的作用。
+　　b. 等效连续方法：　此法根据连续力学基本原理，建立由能量、质量和运动组成的守恒方程。
+　　KPH小组利用Oda提出的裂隙模型，采用有限元方法，求解THM耦合定解问题。此法比较全面地考虑了THM耦合过程。
+　　CEA/DMT小组在弹性张量方面利用Reuss模型；在渗流张量方面利用Snow模型，同样采用有限元方法，求解THM耦合定解问题。但此法没有考虑①-a，②-a，②-b，④，⑤的耦合作用。
+　　(4) 各种方法的模拟结果分析
+　　利用假定包含了两组正交贯通裂隙的岩体为标准试样(BMT1)，对两种模拟方法结果进行比较，结果表明：在热和力方面，两种方法模拟结果相吻合；但在渗流方面，却有显著差别，导致这一原因是由于裂隙开度呈非线性所致。
+3　结语
+　　对核废料地质处置的研究发现，地下水流和岩体结构力学响应，主要是由核废料放射性同位素衰变产生的热所诱发的，由诱发产生的水流及岩体力学响应，是核废料贮库安全设计必须考虑的因素。因此，在分析地下水流及岩体力学响应时，必须充分体现热效应。在地下水流动研究中，应主要考虑热驱动的水流运动；在岩体力学响应研究中，应主要考虑岩体的热弹性响应，以及不连续面的热影响(渗流通道数及裂隙开度变化)。具体耦合分析如下：
+3.1　 实施步骤
+　　(1) 在总结前人对THM三因素及其耦合的基础上，确定研究岩体的地质特征及定量分析方法；分析研究岩体及其不连续面渗流性质与变形及热载的耦合特性；然后根据岩体的地质特征和赋存的环境条件(包括热环境)，确定岩体介质类型，合理选择研究途径和分析方法，重点是地下水及岩体对热载的力学响应。
+　　(2) 建立核废料贮库裂隙围岩THM耦合控制方程组，即能量、质量和运动守恒方程。
+　　(3) 在对问题合理假设基础上，建立能满足三方面的本构方程式(如达西定律、比奥(Biot)广义虎克定律、傅里叶热传导定律)及THM耦合数学模型。
+3.2　采取的方法
+　　(1) 充分考虑水热循环对流特点，适当选取裂隙岩体THM耦合分析的裂隙渗流模型和裂隙岩体力学模型。在处理裂隙时，裂隙开度变化应考虑附加应力、热膨胀、裂隙数量及化学成分等变化因素的影响；在岩石模量变化时，应考虑原有裂隙的热损伤和饱和水等因素的影响。
+　　(2) 要全面了解THM耦合因素，需从THM耦合过程来考虑。具体分析如下：
+　　①-a 作用：　建立裂隙岩体弹性与温度因子(如热裂隙密度)，以及岩体热膨胀系数与温度的关系。
+　　①-b 作用：　反映在Biot的广义虎克定律中。
+　　②-a 作用：　在由热力学定理导出的岩体热传导方程中得到体现，用熵函数表示固体变形过程中的热耗散。
+　　②-b 作用：　主要体现在岩体与流体能量交换项中(岩体和水体的能量方程包含此项)。
+　　③ 作用：　应用流体物理参数与温度的关系。
+　　④ 作用：　在达西定律中考虑此项，其中把流体密度看成是温度的函数。
+　　⑤ 作用：　太沙基有效应力原理。
+　　⑥ 作用：　孔隙度变化在流体质量守恒方程中得到体现；建立裂隙体THM耦合渗透率表达式，是THM耦合的重心，上述所有作用将在此式中得到充分体现，它的合理性直接反映THM耦合分析的成败，并最好能有这方面的渗流试验作基础。
+3.3　核废料全耦合分析有待于更深层次的探讨
+　　核废料地质贮存裂隙岩体的全耦合分析是一个系统工程，它需建立在更合理可靠的理论和技术基础之上。各国(主要是发达国家)之间已开展了广泛的合作研究。目前，我国政府已开始立项进行研究，希望广大岩土工程界的专家、教授、科研人员都来关注这一难题。
+作者简介：刘亚晨，男，33岁。博士研究生。1995年毕业于武汉水利电力大学水利系，获硕士学位。主研方向：岩石的热物理特性和岩土渗流特性研究。
+作者单位：中国科学院武汉岩土力学研究所，武汉　430071
+参考文献
+［1］　Mufti,I R. Geothermal aspects of radioactive waste disposal into the subsurface［J］.Journal of Geophysical Research, 1971.11,76(35):8568～8585.
+［2］　Harkonen,H,et al..Temperature distribution and thermally induced stresses in a highlevel waste.In underground disposal of radioactive wastes［J］.IAEA,Vienna,1979,2:149～158.
+［3］　Stephansson,O,et al..Modelling of temperature fields and deformations for radioactive waste repositories in hard rock.In underground disposal of radioactive wastes［J］.IAEA,Vienna,1979,2:121～133.
+［4］　Beale,H,et al..Thermal aspects of radioactive waste disposal in hard rock.In underground disposal of radioactive wastes［J］.IAEA,Vienna,1979,2:137～158.
+［5］　Hodgkinson,D P,et al..Initial assessment of the thermal stresses around a radioactive waste depository in hard rock［J］.Annals of nuclear Energy,1980,7:541～552.
+［6］　Hodgkinson,D P,et al..A mathematical model for hydrothermal convection around a radioactive waste depository in hard rock［J］.Annals of nuclear Energy,1980,7:313～334.
+［7］　Hodgkinson,D P,et al..Thermal aspects of radioactive wastes burial in hard rock［J］.Progress in nuclear Energy,1983,11(2):183～218.
+［8］　王青海 等.花岗岩介质中处置中低放核废料的热应力［J］.地质灾害与环境保护，1998.6，9(2)：45～48.
+［9］　王青海 等.中低放核废料地下处置对围岩介质(花岗岩体)温度场的影响［J］.地质灾害与环境保护，1997.12，8(4)：54～58.
+［10］　Prats,M.The effect of horizontal fluid flow on thermally induced convection currents in porous mediums［J］.Journal of Geophysical Research,1966.10,71(20):4835～4838.
+［11］　Wickens,L M.Finite-element modelling of groundwater flow in hard rock regions containing a heat-emitting radioactive waste depository［J］.Ann.nucl.Energy,1984,11(1/2):15～25.
+［12］　Lowell,R P. Thermoelasticity and the formation of black smokers［J］.Geophysical Research Letters,1990.5,17(6):709～712.
+［13］　Abdallah,G,et al..Thermal convection of fluid in fractured media［J］.Int.J.Rock Mech.Min.Sci & Geomech.Abstr.,1995,32(5):481～490.
+［14］　Walsh,J B.The effect of cracks on the uniaxial elastic compression of rocks［J］.Journal of Geophysical Research,1965.1,70(2):399～411.
+［15］　［英］J C 耶路，N G W 库克 著,中科院工程力学所译.岩石力学基础［M］.北京：科学技术出版社，1981.
+［16］　Budiansky,B.et al..Elastic moduli of a cracked solid［J］. Int.J. Solids Structures.1976,12:81～97.
+［17］　Gregory,A R.Fluid saturation effects on dynamic elastic properties of sedimentary rocks［J］.Geophysics,1976.10,41(5):895～921.
+［18］　周创兵.裂隙岩体渗流场与应力场耦合分析研究［D］.武汉水利电力大学，博士学位论文，1995.
+［19］　王让甲.声波岩石分级和岩石动弹性力学参数的分析研究［M］.北京：地质出版社，1997.11.
+［20］　 Molen,V I.The shift of the α-β transition temperature of quartz associated with the thermal expansion of granite at high pressure［J］.Techonphysics,1981,73(1):323～342.
+［21］　寇绍全.热开裂损伤对花岗岩变形及破坏特性的影响［J］.力学学报，1987.11，19(6)：550～556.
+［22］　寇绍全 等.微裂隙和花岗岩的抗拉强度［J］.力学学报，1987.7，19(4)：366～373.
+［23］　Germanovich,L N,et al..Percolation theory,Thermoelasticity,and discrete hydrothermal venting in the earth′s crust［J］.Science,1992.3,255:1564～1567.
+［24］　Bruhn,R L,et al..Fracturing and hydrothermal alteration in normal fault zones［J］.Pure Appl.Geophys.,1994,142(3/4):609～644.
+［25］　席道瑛 等.温度对岩石模量和波速的影响［J］.岩石力学与工程学报，1998.11，17(增)：802～807.
+［26］　Oda M .Permeability tensor for discontinuous rock masses［J］.Geotechnique,1985,35(4):483～495.
+［27］　Oda M,et al..Numerical experiments on permeability tensor and its application to jointed granite at Strip a Mine,Sweden［J］.Journal of Geophysical Research,1987.6,92(B8):8037～8048.
+［28］　仵彦卿.岩体水力学基础(一)至(七)［J］.水文地质工程地质，1996～1998.
+［29］　张金才 等.裂隙岩体渗流特性的研究［J］.煤炭学报，1997.10，22(5)：481～485.
+［30］　Brown,S R,et al..Fluid permeability of deformable fracture networks［J］.Journal of Geophysical Research,1998.2,103(B2):2489～2500.
+［31］　Morrow,C,et al..Permeability of Granite in a temperature gradient［J］.Journal of Geophysical Research,1981.4,86(B4):3002～3008.
+［32］　Moore,D E,et al..Chemical reactions accompanying fluid flow through granite held in a temperature gradient［J］.Geochimic et cosmochimica Acta,1983,47:445～453.
+［33］　Lowell,R P, et al..Silica precipitation in fractures and the evolution of permeability in hydrothermal upflow zones［J］.Science,1993,260(9):192～194.
+［34］　Martin,J T,et al..On thermoelasticity and silcica precipitation in hydrothermal systems:Numerical modelling of laboratory experiments［J］.Journal of Geophysical Research,1997.6,102(B6):12095～12107.
+［35］　Oda , M.An equivalent continuum model for coupled stress and fliud flow analysis in jointed rock masses［J］.Water Resources Research,1986.11,22(13):1845～1856.
+［36］　耿克勤 等.节理岩体的渗透系数与应变、应力的关系［J］.清华大学学报，1996，36(1)：107～112.
+［37］　耿克勤 等.岩体裂隙渗流水力特性的实验研究［J］.清华大学学报，1996，36(1)：102～106.
+［38］　沈洪俊 等.应力作用下裂隙岩体渗流特性的试验研究［J］.长江科学院院报，1998.6，15(3)：35～39.
+［39］　盛金昌 等.裂隙岩体渗流应力耦合研究综述［J］.岩土力学，1998.6，19(2)：92～98.
+［40］　DECOVALEX-An International Co-Operative Research Processes for Safety Analysis of Radioactive Waste Repositories［J］.Int.J.Rock Mech.Sci.& Abstr.,1995,32(5):389～398.

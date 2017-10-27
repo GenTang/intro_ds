@@ -1,0 +1,103 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第1期 Vol.18 No.1 1999
+
+
+
+FoxPro for Windows环境下与单片机串行通信的实现
+周卫平　周斌
+　　摘　要：在FoxPro for Windows环境下，PC机与单片机之间进行串行通信时的硬件接口设计及软件实现方法。
+　　关键词：串行通信　单片机　FoxPro for Windows　应用程序编程接口
+　　单片机因其自身的优点，在嵌入式过程控制、自动化仪器仪表、数据采集和处理、计算机系统外设等方面已得到广泛应用。利用FoxPro for Windows提供的API库FOXTOOLS.FLL访问Windows的特殊功能，可以在FoxPro for Windows语言环境下直接实现和其它计算机的通信。
+1　硬件接口电路
+　　接口电路结构如图1。PC机和单片机间是一对一连接，采用RS—232C全双工串行通信方式。与PC机串行口连接的是9芯D型插座，其所有引脚的定义及对应的信号电平均按照RS—232C标准规定连接和设计。本设计中只使用其中的3根信号线：发送数据(TXD)，接收数据(RXD)和信号地(GND)。
+
+图1　PC机与单片机之间串行接口硬件结构图
+　　RS—232C标准接口的输入/输出信号电平为EIA电平：即对于输入信号，逻辑“1”为-15～-3V(通常用-12V)，逻辑“0”为+3～+15V(通常用+12V)。对于输出信号，逻辑“1”为-15～-5V(通常用-12V)，逻辑“0”为+5～+15V(通常用+12V)。由于一般单片机应用电路的输入/输出信号电平为CMOS或TTL电平，因此，为了实现RS—232C方式下PC机与单片机之间输入/输出信号电平的匹配，在RS—232C接口和单片微处理机的串行口之间，用MAX232来实现EIA电平与CMOS/TTL电平之间的相互转换。MAX232是+5V单电源供电，内部使用升压电路和极性转换电路获得EIA正负逻辑电平，省略了-12V和+12V 2组电源。
+2　串行通信的软件实现方法
+　　PC机和单片机之间要实现串行通信，除要遵守RS—232C串行通信协议外，还必须具有各自的通信应用软件。虽不同的单片机系统，使用不同的汇编语言编制其应用程序，但通信软件的设计思路是一样的：即PC机为主动方式，单片机根据PC机发来的命令，判断是要求发送还是接收数据。若是发送命令，则准备好所需数据和校验码，分别填入串行缓冲器发送给PC机，然后读取PC机送来的返回码，若是错误码，则需重新发送数据。若是接收命令，则将PC机发送到串行缓冲器中的数据取出后存放到一固定存储区内。若接收数据有错，则发一错误码给PC机，然后重复刚才的接收过程。这里需注意单片机和PC机校验数据的方法要一致。下面详细介绍PC机上通信软件的实现方法。
+　　FoxPro for Windows应用程序要实现与单片机应用程序之间的数据传递，必须利用其API库函数注册并运行Windows.DLL通信函数来访问串行口。.FLL(Fox Link Library)文件是API使用的外部连接库的形式，它实际上也是1个Windows.DLL(Dynamic Link Library)文件，允许FoxPro for Windows与用C/C++或汇编语言编写的程序接口。用户也可将自己编写的一些功能函数放入自定义的.FLL库中。FOXTOOLS.FLL是由FoxPro for Windows提供的API库。安装FoxPro for Windows时已将其放入＼FOXPROW子目录中。FOXTOOLS.FLL提供了对不同的Windows函数的访问。在编写FoxPro for Windows通信程序时，首先用以下命令装入该库：
+　　SET LIBRARY TO SYS(2004)+“FOXTOOLS.FLL” ADDITIVE
+其中，SYS(2004)返回FoxPro for Windows启动目录的名称，加入ADDTIVE可保证任何以前装入的库有效。
+　　用下面的命令可取消FOXTOOLS.FLL库：
+　　RELEASE LIBRARY SYS(2004)+“FOXTOOLS.FLL”
+　　装入FOXTOOLS.FLL库后，就可以开始使用该库中的Regfn()函数来注册要访问的Windows通信函数。Regfn()函数允许用户调用Windows.DLL中的函数。DLL允许输入下列数据类型：整型(I)、长整数(L)、浮点(F)、双精度(D)、字符串(C)，也允许返回上述数据类型。注册1个Windows.DLL函数和它的参数的函数格式为：
+　　myfun=Regfn(Winfunction,Argtypes,Rtntype)
+其中Winfunction是要访问的Windows.DLL函数名。Argtypes是必须传递给它的各参数类型代码，例如要传递给函数的参数类型为整型、整型、浮点型、字符型时，则Argtypes为“IIFC”；可使用引用方式或数值方式来传递参数，当使用引用传递参数时，参数类型前要放@标志，该参数被作为指向缓冲区的指针。Rtntype是该.DLL函数返回值的数据类型。如果注册成功，Regfn()函数返回1个数字型值给myfun；如果注册失败，则返回-1。
+　　在用Regfn()注册Windows.DLL通信函数成功后，接下来的工作是用Callfn()函数调用它，以执行这个已注册的函数。调用格式如下：
+　　myret=Callfn(myfun,pm1,<pm2>,…)
+其中myfun就是已注册函数的数值句柄，pm1、pm2等是要传递给Windows.DLL函数的各参数值，参数个数随访问的.DLL函数而变。各参数次序和类型必须严格按照.DLL函数规定的要求传递，否则将引起调用失败。如果Callfn()调用成功，变量myret的内容就是Windows.DLL函数的返回值，它带有Rtntype参数指定的数据类型。
+3　应用实例
+　　这个实例的目的是利用上面介绍的方法，注册通信中要访问的Windows.DLL库中的函数，然后根据实现通信的各步骤，执行这些注册函数。要实现FoxPro for Windows环境下的串行通信，必须包括以下步骤：打开要访问的串行端口；对串行口初始化；根据通信要求发送或接收数据；关闭串行端口。下面是用FoxPro for Windows语言编制的请求单片机发送数据的串行通信子程序Subcom.pag：
+PROCEDURE Subcom
+PRIVATE Lpmode,Lpread,num,m.rl,M,COM2
+DIMENSION acr(256)
+*装入FOXTOOLS.FLL库文件
+SET LIBRARY TO SYS(2004)+“FOXTOOLS.FLL" ADDITIVE
+*初始化通信协议：通信端口为COM2，波特率为2400，没用奇
+*偶校验方式，8位数据位，1位停止位。
+Commmode=“COM2"+“2400"+“N"+“8"+“1"
+Lpmode=REPLICATE(CHR(0),40)
+&&初始化设备控制块DCB结构为0
+Lpread=REPLICATE(CHR(32),256)
+&&初始化接收队列为空，长度256B
+*注册Windows.DLL通信函数
+buildcommDCB=Regfn(“BuildCommDCB",“C@C",“I")
+opencomm=Regfn(“OpenComm",“CII",“I")
+setcommstate=Regfn(“SetCommState",“@C",“I")
+readcomm=Regfn(“ReadComm",“I@CI",“I")
+writecomm=Regfn(“WriteComm",“ICI",“I")
+closecomm=Regfn(“CloseComm",“I",“I")
+clearcomm=Regfn(“GetCommError",“I@C",“I")
+*初始化COM2通信端口
+=Callfn(buildcommdcb,commmode,@lpmode)
+&&建立Windows可接受的通信方式
+COM2=Callfn(opencomm,“COM2:",256,256)
+&&打开COM2通信口
+IF COM2<0
+　WAIT WINDOW“打开通信口失败，退出后重引导"timeout 1
+　=Callfn(closecomm,COM2)　　&&关闭COM2口
+　return -1
+ENDIF
+M=Callfn(setcommstate,@lpmode)　　&&设置通信方式
+　IF M<0
+　　　WAIT WINDOW“设置通信方式失败，退出后重引导"timeout 1
+　　　=Callfn(closecomm,COM2)
+　　　return -1
+　ENDIF
+*对通信口进行读/写操作
+　　m.order=CHR(184)　　&&发请求取数据命令
+　　M=Callfn(writecomm,COM2,m.order,LEN(m.order))
+　　　IF M<0
+　　　WAIT WINDOW“请求失败，退出后重引导"timeout 1
+　　　=Callfn(clearcomm,COM2,NULL)
+&&通信失败，清除端口
+　　　=Callfn(closecomm,COM2)　　&&释放缓冲区
+　　　　return -1
+　　ENDIF
+　num=256
+　M=Callfn(readcomm,COM2,@lpread,num)
+&&读num个字节入缓冲区
+　　IF M<0
+　　　WAIT WINDOW“读数据失败，退出后重引导"timeout 1
+　　　=Callfn(clearcomm,COM2,NULL)
+　　　=Callfn(closecomm,COM2)
+　　　return -1
+　　ENDIF
+*显示接收到的数据
+　　FOR i=1 to num
+d=(i%8)*10-1
+j=int(i/8)
+m.siotemp=substr(lpread,i,1)
+acr(i)=ASC(SUBSTR(lpread,i,1))
+@j,d say acr(i);
+FONT"FIXEDSYS",8
+　　ENDFOR
+*通信结束
+=Callfn(closecomm,COM2)
+RELEASE LIBRARY SYS(2004)+"FOXTOOLS.FLL"
+WAIT WINDOW"通信已结束!"NOWAIT
+RETURN
+关于Windows.DLL通信函数及其参数的具体意义，请参阅有关Windows.API手册。
+作者单位：南京市东南大学热能所(210096)
+(收稿日期：1998-07-23)

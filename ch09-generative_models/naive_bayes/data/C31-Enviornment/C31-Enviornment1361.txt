@@ -1,0 +1,162 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+城市生活垃圾典型组分的热解动力学模型研究
+李　斌　谷月玲　严建华　徐　旭　池　涌　蒋旭光　倪明江　岑可法
+摘要　对城市生活垃圾中的典型组分进行热重特性试验，根据热失重曲线得出了反应力学参数及反应速率控制方程，进而提出了一个通用的反应速率函数式，提出热解指数这个指标来表征垃圾的热解特性.结果表明：1.垃圾组分中，塑料、橡胶、植物类厨余热解符合三段模型，其余组分符合二段热解模型，在不同的温度范围内，热解的反应机理是不同的，且反应动力学参数也不相同.2.同一种组分，影响其反应速率的主要因素是反应动力学常数，升温速率改变时，反应速率方程中的函数式并不改变，改变的只是反应动力学常数.3.在加热速率相同的情况下，塑料最容易热解，提高加热速率，热解指数增加.
+关键词　热解动力学；垃圾；热重分析.
+Thermal decomposition kinetics model of the representative composition of municipal solid waste
+LI Bin,GU Yueling,YAN Jianhua,XU Xu,CHI Yong,JIANG Xuguang,NI Mingjiang,CEN Kefa (Institute of Thermal Power Engineering, Zhejiang University, Hangzhou 310027)
+Abstract　The thermal decomposition kinetics parameters and the controlling equations of the composition of solid waste was derived through solid waster thermal gravimetric analysis of nine representative compositions of solid waste. A general thermal decomposition rate equation was deduced, and the thermal decomposition characteristics of the solid waste composition were described by using thermal decomposition index. The results show that (1) the thermal decomposition mechanism and the reaction kinetics parameter are different from each other within the certain range of temperature. Three compositions of the solid waste, plastics, rubber, and vegetal kitchen trash, conform with a three-stage model, while the other compositions with a two-stage model; (2) the main factors affecting the reaction rate are reaction kinetics parameters, while heating rate (＜50℃/min) does not change the reaction rate equation but changes the reaction kinetics parameters; (3) it is most easy for plastics to be decomposed and increasing heating rate is helpful for thermal decomposition.
+Keywords　thermal decomposition kinetics, solid waste, thermal gravimetric analysis.
+　　垃圾热解是近几年发展起来的一项处理生活垃圾的新技术，该项技术具有洁净、处理彻底、能源利用率高等特点.采用热天平研究垃圾热解可以求得反应动力学参数，进而为建立热解综合模型提供基础数据.Lasse Holst Sorensen［1］,Juan Mignel Jimenez-Mateos［2］,Paolo Davini［3］采用热重法研究煤、煤焦和炭黑的反应特性；Ying Gang Pan［4］采用热重法研究贫煤与生物质混合物的热解特性；Kimihito Narukawa et al［5］通过对废物衍生燃料(RDF)进行热天平试验，得出了RDF的三阶段动力学模型，采用热天平研究城市生活垃圾的热解特性的报道并不常见.本研究对9种典型垃圾组分进行了热天平试验，采用积分法，通过选择气固反应机理方程，求解反应动力学参数，减少了数据处理的误差.
+1　试验设备及试验方法
+　　由于原生垃圾成分复杂，且随季节和气候的改变而波动，为了使研究结果更具有普遍性和代表性，本文选出垃圾中的9种典型组分进行热天平试验.试样工业分析如表1所示.热天平为TGD-5000微分差热天平，试样粒度0.5—1.0mm,加入热天平的试样质量为0—10mg，加热速率为10℃/min、20℃/min和50℃/min,气氛为高纯氮气.为了消除水分蒸发对热分析的影响，样品都是经过空气干燥的.
+表1　9种垃圾组分的工业分析
+Table 1 Approximate analysis of the nine compositions of solid waste
+
+名称水分，%灰分，%挥发分，%固定炭，%
+废橡胶1.9042.7853.062.23
+废皮革6.738.6975.029.56
+废塑料0.788.6779.1911.36
+废纸张2.648.1389.200.03
+瓜皮类13.864.0759.8322.24
+化纤4.641.4185.618.34
+杂草10.8322.3652.5714.24
+植物类厨余14.554.0060.1421.31
+落叶8.566.0668.1017.28
+
+2　垃圾的热解特性分析
+　　首先定义α为试样消耗份额：α=(W0-W)/(W0-W∞)式中，W0：试样初始质量；W:试样在温度为T时的质量；W∞：试样最终质量.
+　　α-T和-T可以由TG及DTG曲线计算得到.
+　　为了综合描述垃圾中各组分的热解特性，本文提出一个表征热解特性的指标——热解指数，其定义如下：I=(dα/dt)max)/(Tmax.ΔT)
+式中，α：试样消耗份额;dα/dtmax：最大失重率；Tmax：对应于最大失重率的温度；ΔT=T2-T1;T1:开始失重时的温度；T2：终止失重时的温度.显然，T1和Tmax越小，挥发份释放越早；dα/dtmax越大，ΔT、Tmax越小，总体热解反应进行过程越集中，反之，则不易热解.表2列出了不同垃圾组分的T1、dα/dtmax、Tmax、T2和垃圾热解指数I，可见，加热速率提高，热解指数增大，垃圾越容易热解，垃圾热解指数还与垃圾粒度、传热传质等因素有关.
+表2　不同垃圾组分热解过程中的特征点及热解指数
+Table 2 Characteristics point and thermal decomposition index of thermal composition of solid waste at various heating rate
+
+垃圾组分
+名　　称加热速率，
+℃/minT1,℃T2,℃Tmax,℃(dα/dt)max
+%/minI,×10-6
+
+植物类厨余101709002700.06980.354
+植物类厨余501809803300.32101.216
+落叶101709203300.18720.756
+落叶502209603600.21120.793
+废橡胶101607807600.06870.146
+废橡胶202007807900.10630.232
+废橡胶501708603900.22290.828
+废塑料102205503000.11531.165
+废塑料202405503200.23972.417
+废塑料502505503300.63546.418
+杂草102109003300.06490.285
+废皮革101804903400.05880.558
+废纸张102409203400.16070.695
+化纤101908803600.12650.509
+瓜皮类101709703100.04080.164
+
+3　热解动力学模型
+　　假设在无限短的时间间隔内，非等温过程可看作等温过程，垃圾的总体热解速率可以表示如下：
+dα/dt=k.f(α)=　　　　　　　　　　　　　　　　
+A.exp(-E/RT).f(α)　　　　　　　　　　　　　(2)
+式中，A：指前因子；k：反应速率常数，min-1;R：气体常数，8.31J/(mol.K);E：活化能，kJ/mol; T：温度，K；f(α)：固体反应物中未反应产物与反应速率有关的函数，它的大小取决于反应机理.
+　　热天平实验数据处理方法有微分法和积分法，采用微分法来处理实验数据，其优点是简单方便，不足之处是要用到DTG曲线，DTG曲线的影响因素复杂，易导致增大数据处理的误差.垃圾热解是一个复杂的反应过程，认为垃圾热解反应是一级或二级反应是不准确的.在不同温度条件下，垃圾热解的反应机理是不同的.由于积分法不存在这个问题，本研究选用积分法处理实验数据.
+表3　常见的气固反应的机理方程式，kt=F(α)
+Table 3 General gas-solid reaction equations,kt=F(α)
+
+函数序号反应机理方程式反应速率函数式f(α)
+1α2=ktf(α)=α-1/2
+2(1-α)ln(1-α)+α=ktf(α)=(-ln(1-α))-1
+3［1-(1-α)1/3]+2=ktf(α)=3/2(1-α)2/3(1-(1-α)1/3)-1
+4(1-2/3α)-(1-α)2/3=ktf(α)=3/2((1-α)-1/3)-1
+5((1+α)1/3-1)2=ktf(α)=3/2(1+α)2/3((1+α)1/3-1)-1
+6((1-α)-1/3-1)2=ktf(α)=3/2(1-α)4/3((1-α)1/3-1)-1
+7-ln(1-α)=ktf(α)=1-α
+81-(1-α)1/2=ktf(α)=2(1-α)1/2
+91-(1-α)1/3=ktf(α)=3(1-α)2/3
+10α=ktf(α)=1
+11(1-α)-1/2-1=ktf(α)=2(1-α)3/2
+12(1-α)-1-1=ktf(α)=(1-α)2
+133/2［1-(1-α)2/3]=ktf(α)=(1-α)1/3
+142[(1-α)-1/2-1]=ktf(α)=(1-α)3/2
+15-ln(α/(1-α))=ktf(α)=α(1-α)
+
+　　首先令
+　　　　　　　　　　　　　(3)
+加热速率,由式(2)和式(3)可得：
+　　　　　　　　　(4)
+
+(5)
+式中，Ei(-x)为指数积分；T为对应于α=α(t)的温度.
+对式(4)两边取对数：
+　　　　　　　　　(6)
+式(6)右端与温度无关，而左端与温度有关，近似认为-logP(x)是1/T的线性函数，则logF(α)也必然是1/T的线性函数，从式(5)可看出，P(x)既与温度T有关又与E有关.
+Maccallum和Tanner［6］给出了P(x)的表达式：
+　　　　(7)
+将式(7)代入式(6)后得：
+　　　　　　　　　　(8)
+把α-T数据代入表3中的F(α)的函数式，从logF(α)对应于1/T的数据中，在某一确定的温度范围内可以找到一个函数F(α)，使得logF(α)和1/T成线性关系，根据式(8)即可算出动力学参数E和A.温度区间的划分依据如下：(1)当T≤120℃或当dα/dt=0时，认为没有发生化学反应.(2)当dα/dt≠0时，认为试样发生化学反应，引起失重.(3)在试样发生化学反应过程中，若存在一点T0，使得T0点左侧和右侧的logF(α)-1/T直线的斜率不相等，认为T0点左侧和右侧服从不同的反应机理或服从相同的反应机理但动力学参数不相同.
+　　通过对热天平实验数据的分析和处理，可以看出，垃圾组分的热解动力学模型可以用一个方程式来概括，即
+　(9)
+对式(9)中的m、n、p和q取不同的值，即可得到垃圾中的典型组分在不同温度范围内的热解模型.
+4　结果分析与讨论
+　　分析得出的不同试样的部分反应动力学参数及其对应的反应速率控制方程(见表4).将式(4)的级数展开为：
+　　　　　(10)
+取第一项近似为：P(x)=e-x/x2　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(11)
+将式(11)代入式(3)可得
+　　　　　　　　　　　　(12)
+由式(12)可得到α-α(T)的关系式，
+表4　垃圾组分的热解动力学参数(高温区段)
+Table 4 Thermal decomposition kinetics parameters of solid wastes within the high temperature range
+
+垃圾组分
+名　称加热速率,
+℃/min温度区间，
+℃E,
+kJ/molA,
+min-1反应速率控制
+制方程式f(α)相关
+系数
+废橡胶10690—780168.13E+08f(α)=α(1-α)0.9842
+20700—7801788E+08f(α)=α(1-α)0.9979
+50690—8601145E+05f(α)=α(1-α)0.9718
+废塑料10420—55049.063660f(α)=(1-α)20.9793
+20450—55086.242E-06f(α)=(1-α)20.9958
+50430—550672E+05f(α)=(1-α)20.9431
+废纸10380—92034.970.069f(α)=α-1/20.9992
+瓜皮10400—9703.3120.166f(α)=α-1/20.9575
+化纤10390—8801.9230.253f(α)=(-ln(1-a))-10.9926
+废皮革10490—9402.4230.222f(α)=α-1/20.9813
+杂草10380—9003.6730.232f(α)=α-1/20.9995
+植物类厨余10700—90027.151.377f(α)=(-ln(1-a))-10.9917
+50500—9801.7061.051f(α)=(-ln(1-a))-10.9464
+落叶10480—9206.3630.217f(α)=α-1/20.9867
+50530—9601.1311.662f(α)=α-1/20.9826
+
+比如废橡胶热解(加热速率：10℃/min)符合三段热解模型，即
+
+(13)
+
+
+图1　废橡胶的热解失重过程(10℃/min)
+Fig.1 Thermal decomposition process of waste rubble at heating rate 10℃/min
+从图1中可以看出，式(13)能较好地反映橡胶试样的热解失重过程.
+5　结论
+　　1.垃圾组分中，塑料、橡胶、植物类厨余热解符合三段模型，其特征是：植物类厨余和塑料的活化能：E低＞E高＞E中，橡胶的活化能：E高＞E低＞E中；瓜皮类、皮革类、废纸、杂草、树叶、化纤等符合二段热解模型，其特征是：E低＞E高；在不同的温度范围内，热解的反应机理是不同的，且反应动力学参数各不相同.
+　　2.同一种物质，影响其反应速率的主要因素是反应动力学常数，升温速率改变时，反应速率方程中的函数式f(α)并不改变，改变的只是反应动力学常数E和A.
+　　3.垃圾热解过程可由式f(α)={3/2(1+α)2/3((1+α)1/3-1)-1}m.αn.(1-α)p.[-ln(1-α)]q来描述其热解速率，根据实验得出的反应动力学参数以及m、n、p和q的不同取值可得出垃圾热解的动力学模型.
+　　4.本文提出热解指数来综合描述垃圾中各组分的热解难易程度：1)在加热速率为10℃/min的情况下，塑料最容易热解，其他组分热解由易到难依次为：树叶，废纸，皮革，化纤，植物类厨余，瓜皮类，橡胶；2)对于塑料、橡胶、厨余和落叶等组分，提高加热速率(＜50℃/min)，热解指数增加，说明提高加热速率，对加速热解过程是有益的.
+本文得到了浙江大学曹光彪高科技发展基金资助
+作者单位:浙江大学热能工程研究所，杭州　310027
+参考文献
+1　Lasse Holst Sorensen et al. Determination of reactivity parameter of model carbons, cokes, and flame-chars. Fuel, 1996,75(1):31—38
+2　Juan Mignel Jimenez-Mateos et al. Characterization of petroleums bitumens and their fraction by thermogravimetric analysis and differential scanning calorimetry. Fuel, 1996,75(15):1691—1700
+3 Paolo Davini et al. Investigation of the combustion of particles of coal. Fuel, 1996,75(9):1083—1088
+4 Ying Gang Pan. Pyrolysis of blend of biomass with poor coal. Fuel,1996,75(4):412—418
+5 Kimihito Narukawa et al. In:F D S Preto(ed). Japanese RDF-fired power generation system and fundermental research on RDF combustion. Proc of 14th Int Conf on FBC ASME. 1997.633—637
+6 Maccallum J R, Tanner J.The kinetics of thermogravimetry Eur Polymer J,1970,6:1033
+1998-04-06收到原稿
+1999-03-09收到修改稿

@@ -1,0 +1,152 @@
+宇 航 学 报
+JOURNAL OF ASTRONAUTICS
+1998年4月  第19卷  第2期科技期刊
+
+
+多模自适应目标图像跟踪
+周 锐 申功勋
+(北京航空航天大学第五研究室*北京*100083)
+崔祜涛 杨 涤
+(哈尔滨工业大学*哈尔滨*150001)
+摘  要   本文建立了图像序列中含加性和乘性两种噪声模型影响下的目标偏
+移值测量模型。并针对目标机动性,采用多模虑波器和两段卡尔曼虑波器对目
+标状态进行估值,有效抑制了各种噪声影响,又消除了显式的目标机动性检测,
+且有较高的实时性和较少的存储量等优点。
+
+主题词  图像相关  多模跟踪   速度和加速度滤波器  模型概率
+　
+MULTIPLE MODELS ADAPTIVE 
+TARGET IMAGE TRACKING
+Zhou Rui Shen Gongxun
+(Beijng University of Aeronautics and Astronautics*
+Beijing*100083)
+Cui Hutao Yang Di
+(Harbin Institute of Technology*Harbin*150001)
+Abstract  In this paper,the target image position offset measurement models in image 
+sequence are developed under the effects of additive and multiplitive noise.In consid-
+eration of the target maneuvering,the target states are estimated by multiple-model 
+filters and two-stage Kalman filters,depressing the effects of noise and avoiding the 
+explicit maneuvering detection.The algorithm has good performance with high speed 
+and small savings.
+
+Key words  Image correlation  Multiple model tracking   Velocity and acceleration 
+filter  Model probabitity 
+
+1  引言
+
+　　在基于图像传感器的目标跟踪系中,由于各种噪声影响,例如传感器噪声、
+背景噪声和图像量化噪声等,使得跟踪器提取到的目标位置信息含有较大误差。
+这些噪声一般可以分为两类:加性噪声和乘性噪声。滤波是抑制噪声、提高跟
+踪精度的一种有效方法,而正确的目标测量模型和动态模型是实现精确跟踪与
+滤波的前提和基础。Fitts［1］相关算法由于能得到亚象素级精度的偏移
+值测量,因而使得其成为高精度跟踪系统的一种常用方法。文献［3］采用速
+度滤波器和加速度滤波器并行切换的方法实现了对机动性或随机不确定性运
+动目标的跟踪,滤波维数低,计算量小,但需要显式的机动性检测。文献［4］
+采用交互式多模滤波器,通过模型概率的计算消除了显式的机动性检测,但计
+算量较大。
+
+　　本文采用Fitts相关算法建立噪声图像中目标偏移值测量模型,通过多
+模滤波器［4］和两段卡尔曼滤波器［3］相结合,实现了对机动目标的精确
+跟踪,既消除了显式的目标机动性检测,又有较高的实时性和较少的存储量
+等优点。
+
+2  目标图像偏移值测量模型
+
+　将目标图像中要跟踪的点作为参考点,则参考点与传感器视场中心之间的
+距离即为目标偏移量。设r(x,y)为目标参考图像,s(x,y)为传感器检测到的
+实时图像,并假定实时图像是由参考图像平移以后并迭加不相关高斯噪声n(x,
+y)的结果,于是有
+s(x,y)=cr(x-εx,y-εy)+n(x,y)
+(1)
+其中,εx,εy为目标图像参考点的偏移量,c是比例变换因子。对于帧频较高
+的跟踪器,εx,εy一般较小,于是可对r(x,y)Taylor展开,并保留到一阶项
+s(x,y)=c［r(x,y)+εxrx+εyry］+n(x,y)
+(2)
+其中rx=r/x,ry=r/y是r(x,y)在X,Y方向偏导数。若跟踪窗口
+内图像象元数大小为M=N×N=N2,于是可将(2)式写成向量形式
+
+是由于乘性噪声的影响。而且还可以看到,估值误差方差与偏移
+量无关。由于以上各式是建立在Taylor展开基础上,因此估值误差将随偏移量
+减少而减少。
+
+　　为求得r(x,y)在x和y方向的偏导数,,定义复数λ=x+jy,j2=-1,则有
+r(x,y)/λ=+j,将,的傅立叶变换表示为实部和虚部形式
+
+
+根据二维傅氏变换性质,有
+DFT{}=j(2π/N)fxDFT{r}
+DFT{}=j(2π/N)fyDFT{r}
+(8)
+由(6)式和(8)式得到A1,A2,B1和B2,代入(7)式并作逆变换得,。
+
+    有了目标偏移值测量模型,就可建立目标运动模型,对目标状态进行滤波估
+值。3  目标运动模型描述与滤波器的建立
+
+    假设目标运动模型可以用一线性系统模型表示:
+Xk+1=FkXk+Gkgk+Gxkwxk
+(9)
+gk+1=gk+Ggkwgk
+(10)
+其中Xk是状态向量,表示目标位置和速度;gk表示目标加速度。wxk,wgk是高斯
+白噪声,均值为零,方差为
+E［wxk(wxl)T］=Qxkδkl,E［wgk(wgl)T］=Qgkδkl,E［wxk(wgl)T］=Qxgkδkl
+测量模型可以表示为:
+Zk=HkXk+Ckgk+vk
+(11)
+测量噪声方差vk～N(0,Rk)。若用(·),(·)表示gk=0,即目标作非机动
+
+
+考虑目标机动性,并利用速度滤波器残差k得到加速度滤波器的状态估值
+
+
+    根据机动性检测情况,加速度滤波器的输出用来对速度滤波器输出进行校正
+［3］
+
+
+　　　　　　(16)
+上述算法由于速度滤波器和加速度滤波器并行运算,计算量和存储量
+都较小,但需要显式的机动性检测。本文将上述方法和多模跟踪算法［4］相
+结合,消除显式的机动性检测,又具有较少的计算量和存储量等特点。设系统
+有两个加速度模型,第一个零加速度模型M1k,即恒定速度模型;第二个是恒加速
+度模型M2k。模型M1k不需要对加速度进行估值,模型是解偶的,维数低,计算量小。
+
+
+
+该算法结构如图1所示。由此可以看出:该算法消除了显式的机动性检测,且滤
+波维数低。4  仿真结果与结论
+
+　　模拟产生含噪声的高斯分布的目标图象,且目标图像在传感器平面上作运
+速直线、运加速、加速拐弯几种运动,并且几种运动交替出现。采用本文建立
+的图像偏移值测量模型和多模滤波算法对目标图象的运动状态进行估值。目
+标初始状态:x(0)=1象素,y(0)=10象素;(0)=0象素/帧,(0)=-0.3象素/帧。仿
+真时模型切换概率取p11=0.9,p22=0.9,p12=p21=0.1;模型概率初值μ10=0.9,
+μ20=0.1。
+
+　　图2给出了目标图像在X方向的位置和速度跟踪结果,其中实线是理想结
+果,虚线是多模跟踪结果。可以看出,该算法对机动目标具有很好的跟踪效果,
+位置跟踪基本重合。为了说明多模跟踪对机动目标的自适应性,图3给出了常
+规单模跟踪曲线,即没有加速度补偿的结果,可看出,当目标出现机动性时,跟
+踪效果差。
+
+    
+
+图2 多模跟踪曲线
+(a)位置跟踪 (b)速度跟踪
+图3 单模跟踪曲线
+(a)位置跟踪 (b)速度跟踪
+
+综上所述,本文提出的图像序列中目标偏移值测量模型和多模跟踪算法,能实现
+对噪声图像中机动目标进行精确跟踪,且滤波器是解偶的,计算量和存储量小。
+
+本文于1995年11月20日收到
+参考文献
+1  Fitts J M.Precision Correlation Tracking via Optimal Weighting Function.Proceedings 
+of the 18th IEEE Conference on Decision and Control,1979:280-283
+2  Ignagni M B.Separate-Bias Kalman Estimator With Bias State Noise.IEEE Trans on 
+Automatic Control,1990,35(3):338-341
+3  Alouani A T,Xia P.A Two-Stage Kalman Estimator for Tracking Maneuvering 
+Targets.In Proceedings of IEEE 1991 International Conference on Sys,Man,Cyb
+4  Blom H A P,Shalom B.The Interacting Multiple Model Algorithm for System with 
+Markovian Switching Coefficients.IEEE Trans on Automatic Control,1988,23(8):780-783
+5  Blair W D.Fixed-gain Two-stage Estimators for Tracking Maneuvering Targets.IEEE 
+Trans on Aero,Elect and Sys.1993,29(4):1004-1014

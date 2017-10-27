@@ -1,0 +1,115 @@
+导弹与航天运载技术
+MISSILES AND SPACE VEHICLES
+1999年 第5期 No.5 1999
+
+
+
+基于Hamilton原理的柔性多体系统动力学建模方法
+刘才山　陈滨　阎绍泽　吴德隆
+　　摘要　首先基于Hamilton原理建立起一般柔性体连续系统的动力学建模方法，进而以水平面内作大范围回转运动的柔性梁为例，在Eu1er-Bemoulli梁模型的假设前提下，根据轴向不可伸长的柔性梁的几何约束条件，推导出作大范围刚体运动的柔性梁连续系统的一致线性化振动微分方程。采用假设模态法对其离散化，导出考虑刚弹耦合作用的柔性梁有限维离散化动力学模型。文中最后给出了仿真算例，验证了该方法的有效性。
+　　主题词　柔性体 ，动力学，＋多体系统，数学模型。
+The Modelling Method of Flexible Multibody Dynamics Based on Hamilton Principle
+　　Liu Caishan　Chen Bin
+　　(Department of Mechanics ＆ Engineering Science,Beijing University，Beijing 100871)
+　　Yan Shaoze
+　　(Department of Precision Instrument,Qinghua University,Beijing 100871)
+　　Wu Delong
+　　(Beijing Institute of Astronautical Systems Engineering)
+　　Abstract　In the first place, the normal flexible body dynamics modelling method of continous system is built based on hamilton principle. And then taking the flexible beam tunning in the horizontal plan for example, in the assumption of Euler-Bernoulli beam,the identical linearilized vibration differential equation is deduced according to geometry constraint conditions . The flexible beam finite discrete dynamic model with rigid-elastic coupling behavior is deduced by discretizating the equation with assumption modal method. The effectiveness is verified by computational simulation at last.
+　　Key Words　Flexible body, Dynamics, +　Multibody， Mathematical model.
+1　引　言
+　　机器人技术和航空航天技术的发展，使得弹性体的大范围运动与其自身变形之间相互耦合的非线性惯性力项的作用变得不容忽视。 Kane［1］等于1987年指出，当弹性体的大范围运动的速度接近或超过柔性体的固有频率时，传统的线性化的动力学建模方法将会导致较大的计算偏差，甚至会得出完全错误的计算结果。这一现象的发现引起了国内外众多学者的广泛关注，并成为柔性多体动力学建模的热点问题之一。
+　　陈滨等［2］以带有中心刚体作大范围回转运动的Eu1er，Bernou11i梁为例，指出当大范围刚体运动的速度超过梁的一阶固有频率时，数值求解会发生失稳和分岔现象，解释产生这种错误现象的原因主要是由于忽略了重要的刚柔耦合离心惯性力项的作用。
+　　 文献［3，4］利用结构的中性轴和中性面不伸长的几何约束条件，将轴向位移或面内位移表示为广义坐标的二阶小量，通过附加几何刚度项考虑刚弹耦合项。文献［5，6］在几何非线性应变-位移关系中引入小变形假设，通过将一般弹性体的弹性位移表示为广义坐标的二阶小量，推导出一般柔性体的一致线性化模型。
+　　本文从Hamilton基本原理入手，首先建立起一般柔性体的动力学建模方法，进而以Euler-Bernoulli梁模型为例，根据轴向不伸长的柔性梁的几何约束条件，推导出柔性体一致线性化的连续系统的振动微分方程，利用假设模态法导出考虑刚弹耦合作用的柔性体有限维动力学模型。仿真算例验证了该方法的有效性。
+2　一般柔性体的Hamilton原理建模方法
+　　Hamilton原理的基本形式如下：
+
+(1)
+其中　t1，t2为任意的时刻；δT为系统动能的变分；δV为系统势能的变分；δW为作用于弹性体上外力所做的功的变分。
+　　图1表示具有大范围刚体运动的任意柔件体B。P为体B上的任意一点；Oa1a2a3为固定在体B上并随其一起运动的随动坐标系框架；为随动坐标系相对于固定坐标系的位置矢量；为柔件体B上的任意一点P相对于随动坐标系的位置矢量。
+　　则点P相对于固定坐标系位置矢量为
+
+(2)
+
+图1　具有大范围运动的任意柔性体
+位置矢量依赖于柔性体弹性变形的广义坐标qj，(j=1,2,…,n为广义坐标的数目)。
+
+(3)
+点P在固定坐标系的速度可表达为：
+
+(4)
+式中　0为系统的随动坐标系的原点O在固定坐标系中的平动速度矢量;为随动坐标系框架在固定坐标中的角速度矢量；i为柔件体弹性变形的广义坐标的速率。
+　　整个系统的动能T为：
+
+(5)
+式中　M为柔性体B的质量；c和分别为体B的质心和惯性矩并矢量。
+　　将式（5)代入方程（1），并进行分步积分，可得弹性体变形运动的振动微分方程如下：
+
+(6)
+　　在方程(6)的推导过程中，没有对柔性体的变形作任何假设，因此，式(6)适合于任意形状、任意假设条件下的柔性体。
+3　Euler-Bernoulli梁模型的一致线性化动力学方程
+　　考虑如图2所示的在水平面内作回转运动的柔件机械臂系统。杆件的总长度为L；截面积为A；质量密度为ρ；弹性模量为E；固定端处的集中惯性矩为Ih；电机轴中心距柔性梁固定端的距离为a；电机的驱动力矩为τ；θ为刚体大范围运动的转角位移；l为截面惯性矩；Oij为固定坐标；Oa1a2为随动坐标系。
+
+图2　在水平面作回转运动的柔件机械臂系统
+　　设柔性梁上任意一点Q经变形运动后到达Q′点；u为柔性梁轴向位移的广义坐标；v为柔件梁的横向位移的广义坐标；x为点Q距臂根处的距离。则Q′点在随动坐标系Oa1a2下的位置矢量为
+
+(7）
+其对时间的一阶导数为
+
+(8)
+忽略重力的影响，则系统总的势能即为系统的应变能
+
+(9)
+将式(8)，(9)代入式(6)可得
+
+(10)
+　　忽略惯性力作用下柔性梁产生的轴向应变，即认为弹性体在中性轴上为一轴向不可伸长的柔性梁，则梁上任意一点Q在变形前后存在如下的几何约束条件。
+
+(11)
+式中　σ为哑元变量。
+　　对上式求变分
+
+(12)
+将式（12）代人式（10）
+
+（13）
+式中　
+　　方程(13)是基于几何约束条件，u关于v为二阶精确描述的基础上进行的,从而使得动力学方程中关于v及其的一次项和零次项是精确的，因此，方程（13）称之为一致线性化动力学方程。
+　　基于假设模态法对方程（13）进行离散化，将v(x,t)用模态广义坐标qi(t)表示成如下形式：
+
+(14)
+式中　φi(x）为柔性梁横向振动的第i阶模态振型函数；qi(t)为i阶模态广义坐标；n为模态阶数。可得系统如下的离散化动力学方程：
+
+(15)
+式中　为系统的广义主质量对角阵；
+　　　
+　　　为系统的广义主刚度对角阵；
+　　　
+　　　
+　　　
+　　　
+　　　
+4　仿真算例
+　　为验证以上方法的正确性，引用文献［1］所给出的算例，设一转动基础上的柔性梁，梁长L=10 m，截面积A＝4.60×10-4 m2，弹性模量E=6．895×1010 N/m2，截面惯性矩Ib=　2．031×10-7 m4，质量密度ρ=2．767×103 kg/m2，基础运动规律为
+
+(16)
+式中　Ω为稳定转速；Ω＝6　rad/s；T为加速时间，T=15 s。
+　　动力学仿真结果如图3所示。
+
+图3　末端弹性变形曲线
+　　仿真结果同文献［1］给出的结果非常吻合，验证了本文基于Hamilton原理建立的一致线性化动力学模型的有效性。
+5　结　语
+　　本文从Hamilton基本原理出发，推导出适合任意形状，任意假设条件下的一般柔性体的动力学建模方法，以作大范围刚体运动的Euler-Bernoulli梁模型为例，根据轴向不伸长的柔性梁的几何约束条件，导出柔性体一致线性化的连续系统的振动微分方程。基于假设模态法对其进行离散化，得到考虑刚弹耦合作用的柔性体有限维动力学模型。仿真算例验证了该方法的有效性。
+本课题为航天高科技资助项目(863-2-3-4)、国家教委博士点基金项目、中国博士基金资助项目
+作者单位：刘才山　陈滨　（北京大学力学与工程科学系，北京 100871）
+　　　　　阎绍泽　(清华大学精密仪器系，北京 1000871)
+　　　　　吴德隆　（北京宇航系统工程设计部，北京 100076）
+参考文献
+　1　Kane T R， Ryan R R， Banerjee A k. Dynamics of a cantilever beam attached to a moving base.J.Guid.Contr.and Dyn.1987,10:139～151
+　2　肖世福，陈滨.一类刚-柔耦合系统的建模与稳定性分析.力学学报，1997,4:439～447
+　3　Banerjee A K, Dickens M. Dynamics of an arbitrary flexible body in large rotation and translation. J. Guid Cont. and Dyn.1990，13：221～227
+　4　Ryu J， Kim S S. A genera1 approach to stress stiffening effects on flexible multibody dynamics systems Mech. Struct. ＆ Mach．， 1994，22（2）：157～180
+　5　Zhang D J，Liu C Q,Huston R L. On the dynamics of an arbitrary flexible body with large overall motion: An integrated approach. Mech Struct. ＆ Mach.， 1995,23(3):419～438
+　6　Chang B L， Shabana A A.Nonlinear finite element formulation for the large displacement analysis of plates. J. Appl. Mech．，1990,57:707～71
+收稿日期：1998-11-20

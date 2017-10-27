@@ -1,0 +1,35 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.30-32
+
+
+
+
+UBF与UASB两相厌氧系统处理Zn5-ASA医药废水的研究
+孙剑辉　 倪利晓　 
+摘　要：采用以铁屑为填料的UBF反应器作酸化相、以UASB反应器作甲烷相的两相厌氧系统处理Zn5-ASA医药废水。实验结果表明：此系统在UBF与USAB的HRT分别控制在5.95h和11.43h时，UBF与UASB的OLR(以COD计)分别高达58.44和17.01kg/(m3.d)，对SCOD和BOD5的总去除率分别达90%和95%左右，具有系统运行稳定、处理效率高等优点。系统中UBF反应器所选用的铁屑填料，通过微电解作用，能够有效提高废水的可生化性，且可省去通常的调碱工序，为难降解有机废水的处理开辟了新途径。
+关键词：UBF；　USAB；　铁屑；　两相厌氧；　医药废水
+分类号：X787　文献标识码：A
+文章编号：1001-6929(2001)02-0030-03
+Study on the Treatment of Zn 5-ASA Medical Wastewater in a Two-Phase (UBF-UASB) Anaerobic System
+SUN Jian-hui（Environmental Science and Engineering Key Open Laboratory of Henan Universities, College of Chemistry and Environmental Science, Henan Normal University, Xinxiang 453002, China）　
+NI Li-xiao（Environmental Science and Engineering Key Open Laboratory of Henan Universities, College of Chemistry and Environmental Science, Henan Normal University, Xinxiang 453002, China）　
+
+Abstract：A two-phase anaerobic system composed of UBF acidification reactor with iron chip filter and UASB mechanization can treat medical wastewater from production of Zinc5-aminosalicylate (Zn5-ASA) of high concentration. The experiment results showed that when the HRT of the UBF and UASB was controlled at 5.95 h and 11.43 h respectively, the OLR of UBF and UASB reactors could COD highly reached 58.44 and 17.01 kg/（m3.d) respectively, and the total removal rate of COD and BOD-5 was about 90% and 95% respectively. From these results, this system has advantages of stable operation and high treatment efficiency. In the system, the iron chip filter of the UBF reactor can efficiently improve the bio-degradation of the wastewater by micro-electrolysis, and can save the regular adjusting alkali process. This system may open a new method for the treatment of organic wastewater difficult to degrade.
+Keywords：UBF;　UASB;　iron chip;　two-phase anaerobic;　medical wastewater
+基金项目：河南省科技攻关项目(编号：001200216)
+作者简介：孙剑辉(1957-)，男，河南偃师人，教授 
+作者单位：孙剑辉（河南师范大学 化学与环境科学学院 河南省高校环境科学与工程重点开放实验室，河南 新乡　453002）　
+　　　　　倪利晓（河南师范大学 化学与环境科学学院 河南省高校环境科学与工程重点开放实验室，河南 新乡　453002）　
+
+参考文献：
+［1］　严月根，刘劲松，胡纪萃.啤酒废水常温一相两相厌氧颗粒污泥床处理的对照研究[J]．中国环境科学，1990，10(4)：304～308．
+［2］　Guiot S R,Van den Berg L.Performance and biomass retention of an upflow anaerobic reactor combining a sludge blanket and filter.Biotechnol Lett,1984,6:161～164.
+［3］ Letting G,van Velsen A F,Hobma S W,et al.Use of the Upflow Sludge Blanket (USB) reactor concept for biological wastewater treatment.Biotecnol.Bioengng,1980,22:699～734.
+［4］ 吴海锁，朱光灿，吕锡武.微电解工艺在染料废水治理中的应用[J]．环境导报，1999，(2)：18～20．
+［5］　王小文，王伯铎，侯润卯.铁屑/炭电化学反应——混凝沉淀法处理制罐废水[J]．化工环保，1998，18(4)：220～223．
+［6］　孙天华，林少宁，余智梅，陈亮.生物铁法处理高浓度难降解印染废水的研究[J]．中国环境科学，1991，11(2)：138～142.
+［7］ 《水和废水监测分析方法》编委会.水和废水监测分析方法[M]．北京：中国环境科学出版社，1989.
+
+收稿日期：2000年5月26日
+出版日期：2001年3月30日

@@ -1,0 +1,68 @@
+微型电脑应用
+MICROCOMPUTER APPLICATIONS
+2000　Vol.16　No.1　P.24-25
+
+
+
+地理信息系统MapInfo中时间
+函数引起的2000年问题及其解决方法
+张静怡　邓正栋　徐小明　丁健　李炎新
+摘　要：本文列举了地理信息系统MapInfo中时间函数引起的2000年问题，并阐述了解决该问题的一个方法，对MapInfo用户认识和解决应用中的2000年问题有借鉴意义。
+关键词：MapInfo　MapBaisc　Visual Basic
+Abstract：This paper presents the Y2K problem in GIS MapIn fo systems due to embedded timer functions in them. It proposes a method to solv e this problem, which proves very useful in application of MapInfo systems.
+Keywords：MapInfo　MapBaisc　Visual Basic▲
+一、引言
+　　地理信息系统MapInfo是世界公认的标准桌面地理信息系统，该系统在我国的推广和应用已有几个年头了，其应用范围涉及邮电通讯、交通运输、水利电力、国土市政、公安军事、石油石化等行业，许多重点机构、大型工程、重点项目已经或正在采用该系统进行数据的可视化分析、智能辅助决策等工作。
+　　在应用中几乎所有的高级用户都依赖于MapInfo强有力的二次开发语言MapBasic。通过使用MapBasic进行二次开发，能够扩展MapInfo功能，实现程序的自动重复操作并使MapInfo与其它应用软件集成。
+　　在全球面临计算机2000年问题的今天，MapInfo用户是否能高枕无忧呢?答案是“不能”。我们在开发中发现，MapBasic的时间函数也存在2000年问题。这样对于一些使用到存在2000年问题时间函数的系统就会造成隐患。另外值得指出的是，MapInfo公司在其新近推出的MapBasic5.0中尚未提到时间函数的2000年问题。
+二、MapInfo的时间函数简介
+　　与时间有关的函数有CurDate()、Day()、Month()、Weekday()、Year()、Timer()、StringToDate()、NumberToDate()8个。
+　　其中Day()、Month()、Weekday()、Year()、StringToDate()、NumberToDate()6个函数是带用户定义参数函数，本身不会产生问题。
+　　CurDate()函数返回系统当前日期。
+　　Timer()函数返回一个整型数，代表自1970年7月1日午夜至调用Timer()函数时所经历的秒数，通过在一个特殊操作中调用该函数我们可以检测操作所经历的时间，Timer()也经常被用于循环设置。
+三、MapInfo的时间函数存在的问题
+　　1.CurDate()函数返回的最远有效日期是2038年1月19号，在系统日期超过2038年1月19号后，CurDate()函数返回的日期数均为2038年1月19号。
+　　2.Timer()函数
+　　由Timer()的功能和返回值，我们很容易看出它的不足。首先是返回整型数的性质，如果计数超过整型数(4个字节)的定义范围(-2，147，483，647-2，147，483，647)，那么函数执行错误，返回0。这种情况理论上发生在2038年1月19日以后(如同32位的Unix系统到2038年因时间计数器溢出而自动停止工作一样，属2000年问题。2000年问题并不只是一个世纪过渡问题，它不但有可能在2000年1月1日零时发作，也有可能在1999年、2000年、2000年以后的一些特殊日子发作)，但在实际中也给我们带来过麻烦，我们的一台笔记本电脑时间被误设为2099年，在运行基于MapInfo的专题地理信息系统执行到由Timer()函数控制的循环时系统进入死循环，费了好多劲才查出是Timer()函数的问题。其次，Timer()返回的数值不“耐看”，比如现在是北京时间1999年4月16日13时49分，此时Timer()返回“924241798”这样一个数值，显然该数值没有实际意义，这样我们就涉及到一个在MapInfo中如何显示实际时间的问题。
+四、解决方法
+　　1.一个方法是通过换算，那将是一大堆程序。
+　　2.我们采取的方法是用MapBasic联合Visual Basic编程，因为在VB中时间极易提取，而且现在VB5.0、6.0的函数已注意了Y2K问题。具体步骤如下：
+　　(1)通过VB建立一个内有时间小节和当前时间的INI文件：
+　　在VB中建立一个VISIBLE属性为FALSE的窗体，窗体Form-Load()事件内写入下面程序：
+Private Declare Function WritePrivateProfileString Lib
+"kerne132" Alias "WritePrivateProfileStringA"(ByVallpApplicationName As String,ByVal lpKeyName As Any,ByVal lpString As Any,ByVal lpFileName As String) As Long
+Private Sub Form-Load()
+　　Dim X As Long,buff As String * 128,i As Integer
+　　X=WritePrivateProfileString("时间程序","时间",Str(Time),App.Path+"＼timer.ini")
+　　X=WritePrivateProfileString("时间程序","日期",Str(Date),App.Path+"＼timer.ini")
+　　End
+End Sub
+　　则程序运行后，在应用程序目录建立一个timer.ini文件，内容为：
+　　　［时间程序］
+　　　时间=17:49:02
+　　　日期=99-4-16
+运行后程序撤出内存。将此工程编译为可执行文件timer.exe，放置于下面的MapBasic文件同一目录。
+
+图1
+　　(2)在MapBasic环境下编程：
+Declare Function GetPrivateProfileString Lib "kerne132" Alias "GetPrivateProfileStringA" (ByVal lpApplicationName As String,ByVal lpKeyName As string,ByVal lpDefault As String,lpReturnedString As String,ByVal nSize As smallint,ByVal lpFileName As String)As integer
+declare sub main
+sub main
+　　Dim time-buff,date-buff As String
+　　dim i As Integer
+　　run program applicationdirectory()+"timer.exe"
+　　i=GetPrivateProfileString("时间程序","时间","",time-buff，128，applicatio ndirectory()+"timer.ini")
+　　i=GetPrivateProfileString("时间程序","日期",""，date-buff,128,applicatio ndirectory()+"timer.ini")
+END SUB
+　　则在上述MapBasic程序运行后time-buff字符串内包含有当前时间，可实时显示。下图为运行示意。
+　　3.亦可以在MapBasic中直接调用Windows API函数如GetSystemTime等，但比较而言2的方法简便，因为GetSystemTime等函数也不能返回直观的当前时间，而且在MapBasic中声明一些Windows函数数据结构相当麻烦，需要多次调试，诸如内存地址、指针等变量MapBasic无法定义。
+五、小结
+　　本文叙述的MapBasic联合Visual Basic编程的方法具有可借鉴性，不仅可以用来解决MapBasic的一些缺陷，还可用在其他开发环境中。■
+作者单位：张静怡(河海大学数理系 南京 210000)
+参考文献：
+［1］MapInfo公司，MapBasic User Guide. Troy, New York,1995
+［2］MapInfo公司，MapBasic Reference. Troy, New York,1995
+［3］MapInfo China. MapInfo应用集锦，中国　北京　1999
+［4］邓正栋等，应用地理信息系统MapInfo管理野戏给水条件信息的实践　微型电脑应用　99年第6期
+［5］邓正栋等，数学化野战给水条件图制作研究　微型电脑应用　99年第7期
+收稿日期：1999-09-06

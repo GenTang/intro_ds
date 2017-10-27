@@ -1,0 +1,97 @@
+航空制造技术
+AERONAUTICAL 
+MANUFACTURING TECHNOLOGY
+1999年 第6期 No.6 1999
+
+
+
+一种新的基于电流信号的铣削振动识别技术
+　　刘晓胜　王 涛　马玉林　蔡鹤皋
+［摘要］　介绍了一种新的基于电流信号的铣削振动识别模型，可利用机床主轴电流信号的高频成分和低频成分的相对变化识别高频颤振和齿频振动。这种方法算法简单，计算量小，不受切削条件变化的影响，可用于在线检测。
+关键词： 电流信号　铣削颤振　模型识别
+A New Technology for Identifying Vibration in Milling 
+Process Based on Current Signal
+［ABSTRACT］　The paper presents the new model of identifying the vibration in milling process based on current signal. The method identifies the chatter and the fundamental frequency vibration by measuring the related change of low frequency and high frequency of spindle current signal. And the algorithm of the method is simple, which eliminates the effect of changes of cutting conditions, and it is used for on-line detection.
+Keywords: Current signal　Milling chatter　Model identification
+　　颤振是金属切削过程中刀具与工件之间产生的一种十分强烈的相对振动，是影响加工质量和限制切削效率的主要因素。铣削是机械加工中广泛应用的一种加工方法，具有多刃断续切削、半封闭式加工以及变加工厚度等特点，加工过程振动机理复杂，比较容易出现颤振。如何在线识别铣削颤振是各类自动化系统实现无人化生产必不可少的条件。
+　　目前，国内外对振动理论的研究开展得比较广泛［1～3］，众多专家已经建立了各种线性的和非线性的颤振模型，为分析和抑制颤振提供了有效的理论指导。但是，由于生产过程中刀具、工件和夹具的不断变化，很难建立起统一的高度复杂性加工过程的颤振动力学模型，因此，为了抑制颤振，利用加工过程中的状态信号，有效地识别颤振显得十分重要。
+1　基于电流信号的颤振识别
+1.1　A-value指示器
+　　为有效地识别颤振，笔者提出了一种新的基于电流信号的方法，建立了相应的状态指示器，即A_value(A值)指示器。该指示器以电流信号的高频成分与低频成分的比值为依据，消除了切削条件变化对颤振检测结果的影响，通过合理地选择阈值来判断颤振的发生及其严重程度。A-value定义为
+
+…………(1)
+式中：Idy——主轴电流的高频成分；
+　　　Ist——主轴电流的低频成分；
+　　　n——选定的多个测量点数，可进行多点平均；
+　　　A－value——颤振的指示值。
+　　考虑到实时性要求，在实际测量中尽可能减少计算量，可以采用多转平均法来计算A-value，因此，该值具有统计意义。可以看出，A_value既对高频颤振变化敏感，又能不被加工工况变化所影响，且其阈值设定与工况无关。
+1.2　PTP－value指示器
+　　齿频振动的频率一般较低。为有效地识别齿频振动以及消除不同工况对检测的影响，本课题建立了无量纲的PTP_value(PTP值)指示器，同样可以通过设定阈值来判断齿频的振动强度。PTP－value定义为
+
+……(2)
+式中：Imax——电流信号低频成分的正向最大峰值；
+　　　Imin——电流信号低频成分的正向最小峰值；
+　　　j——电流信号低频成分的瞬时值。
+　　该指示器能良好地反映加工过程中的齿频振动。
+2　铣削试验
+2.1　试验装置及条件
+　　系统结构如图1所示。用电流传感器直接从主轴电机提取电流信号，信号采集采用PCL818HG多功能数据采集卡(研华产)。通过试验测定加工中心的固有频率为0.45～0．85kHz，根据香农采样定理，选定采样频率为2kHz。试验刀具选用Φ8的双刃HSS键槽铣刀，试验材料为A3钢。全部试验均在Hurbo CNCBMC 20L镗铣加工中心上完成。
+
+图1　系统结构框图
+Fig.1　System structure block diagram
+
+
+2.2　试验和分析
+　　图2所示是试验中的主轴电流信号时域波形及相应的频谱，其切削条件见表1。从图2可以看出，在试验1的条件下存在较强烈的齿频振动(约40Hz)和轻微的高频颤振(500Hz)，低频振动造成了电流信号的严重畸变；在试验2的条件下存在较强的高频颤振而不存在低频振动，电流信号畸变小。
+表1　试验的切削条件
+
+试验号主轴转速/
+r.min-1进给速度/
+mm.min-1径向切深/
+mm轴向切深/
+mm
+16004878
+212009626
+
+
+图2　机床主轴的电流信号时域波形及其相应频谱
+Fig.2　Time-domain waveform and its related frequency spectrum 
+of current signal of machine spindle
+2.3　电流信号分析及处理
+2.3.1　电流信号分析
+　　根据电机理论，对于交流异步电动机来说，可推导出如下关系：
+
+……(3)
+式中，，SN为额定滑差，Ω1为同步转速，k为从电机到刀具的传动比，R为刀具半径，m1为定子相数，r2′为转子电阻，F为刀刃所受切削阻力，IN为电机电流值。
+　　式(3)表明，在一定转速下，电机电流与切削力的平方根成正比。因此，电流信号可以很好地反映切削力的变化。F.Ismail等人的研究［4］也证明了电机电流信号与切削过程中的力信号有着很好的一致性，仅在时间上表现为电流信号比力信号延迟约50ms。
+2.3.2　数字滤波技术及数字滤波器设计
+　　数字滤波是近10几年来随着微电子技术、数字信号处理技术及计算机技术的发展而迅速崛起的一门新技术，已在信号处理领域中得到了广泛的应用。在机床电机电流信号中，信号成分包含两部分：一部分为低频电流信号，其强弱主要反映了切削过程中静态切削力的大小变化，与切削用量直接相关；另一部分信号为高频电流信号，主要反映加工过程中动态力的变化情况。提取这两部分信号可以有效地监视加工工况。
+　　为分别提取上述两种信号成分，利用数字滤波技术成功地设计了直接型无限单位脉冲响应(IIR)高通滤波器和低通滤波器，比较理想地实现了上述信号的分离。该滤波器的传递函数可以表示为
+
+……(4)
+
+　　滤波器均采用MATLAB(5.1)设计，其带通段波纹小于0.1dB,阻频段波纹不小于30dB。图3所示为试验1和试验2的电流信号低频和高频成分。
+　　对比图3的(b)和(d)可以看出，试验2电流的高频成分比试验1的高频成分强得多，也就是说，在试验2中，已开始出现颤振；对比图3的(a)和(c)可以看出，在试验2中，虽然已开始出现颤振，但电流的低频成分只发生很弱的畸变，即原始的电流信号基本上没有发生畸变，而在试验1中，虽然尚未开始出现颤振，但电流的低频成分已发生较强的畸变，显然已经开始出现比较强的齿频振动。
+
+图3　主轴电流的低频成分和高频成分
+Fig.3　Low frequency and high frequency components of spindle current
+2.4　改变切深试验
+　　为试验A－value模型和PTP-value模型，进行了改变径向切深的试验，试验方法见图4。试验条件为主轴转速1000r/min；进给速度为80mm/min；轴向切深为12mm；其他试验条件同前。获得的振动监测曲线见图5，从图5可以看出，A值和PTP值很好地反映了工况的变化，能有效地识别齿频振动和高频颤振。
+
+图4　试验方法示意图
+Fig.4　Test method diagram
+3　结论
+　　尽管伺服电机驱动电压信号比较容易受电网波动的影响，但是电流信号在小于1?kHz的频率范围内并不容易被污染，同时，电流信号是一种比较容易提取和处理的信号，不易受加工过程偶然因素变化的影响，且电流信号的采集处理不受实际加工工况的限制。本文提出的基于电流信号的颤振识别方法和齿频振动识别方法可以有效地识别振动现象，算法简单，不受切削条件变化的影响，能以在线监测方式有效地应用于实际的加工过程中。
+
+图5　振动监测曲线
+Fig.5　Vibration monitoring curve
+作者单位：刘晓胜 东南大学无线电系
+　　　　　王涛 马玉林 蔡鹤皋 哈尔滨工业大学机电学院
+参考文献
+1　Altintas Y, Chan P K. In_process detection and suppression of chatter in milling. Int.J.Mach.Tools Manufact. 1992,32:329～347
+2　Tarng Y S, Chen M C. An intelligent sensor for detection of milling chatter. Journal of Intelligent Manufacturing, 1994(5):193～200
+3　Smith S, Delio T. Sensor_based chatter detection and avoidance by spindle speed selection. Journal of Dynamic Systems, Measurement and Control, 1992,114:487～492
+4　Ismail F, Kubica E G. Active suppression of chatter in peripheral milling. Part I. A statistical indicator to evaluate the spindle speed modulation method. The International Journal of Advanced Manufacturing Technology,1995(10):299～310
+(责编 文 洵)
+
+

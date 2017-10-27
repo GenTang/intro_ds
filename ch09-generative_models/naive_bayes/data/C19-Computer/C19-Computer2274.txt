@@ -1,0 +1,234 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.5　P.58-61
+
+
+
+32位操作系统下的混合编程
+朱国强　刘勇　洪嘉振
+摘  要  通过研究混合语言编程的接口规范，从以下三个方面：变量和过程的命名约定；堆栈的调用约定；不同语言生成的子程序之间参数传递的约定，讨论了在32位视窗操作系统下混合编程的实现方法，并通过若干实例演示了其实际应用。
+关键词  混合编程  调用约定  命名约定   参数传递约定
+　　混合语言编程是指源程序使用两种或两种以上计算机编程语言来生成应用程序的过程。尽管混合语言编程会给编程者带来一些额外的挑战，但它的价值在于：(1)它使你能够调用现有的用其它语言编程的代码；(2)它使你能够使用单一语言难以实现的过程；(3)它使你能够在执行速度、效率上得到提高。
+　　混合语言编程必须了解以下规则：变量和过程的命名约定；堆栈的调用约定；不同语言生成的子程序之间参数传递的约定。这三大约定组合在一起，统称为混合编程的接口规范。
+1  调整调用约定
+　　调用约定决定了程序怎样调用子程序和参数在哪里进行传递。在混合语言的程序中，你不能使所有模块共享相同的子程序声明，你必须考虑采用什么样的调用约定。假如你在混合编程中使用不一致的调用规则，在程序的连接编译中并不会出错，只有在程序运行时执行到呼叫调用这一步时才会出错。这种错误往往是致命的，会导致程序非法退出甚至系统中止，直接原因是由于调用错误导致的内存/堆栈出错。因此，混合编程必须使用一致的调用约定。在Windows 95/98操作系统环境中，高级语言编程常用的调用约定有：Fortran PowerStation默认调用约定(以下简称For32)；C/C++默认调用约定；Basic默认调用约定；Pascal默认调用约定；Stdcall调用约定(微软的Windows API使用的调用约定)。各约定的具体细节如下：
+
+变量For32C/C++VBDELPHIStdCall
+标量(默认)地址值地址值值
+标量(传值)值值值值值
+标量指针地址地址地址地址地址
+字符串地址+长度第一个字符地址第一个字符第一个字符
+字符串指针地址+长度地址~地址地址
+数组地址地址地址地址地址
+数组指针地址地址地址地址地址
+过程名称
+后缀@nNone~@None
+大小写大写小写~　小写
+堆栈的销毁被调用模块被调用模块被调用模块被调用模块被调用模块
+
+　　表格中，术语的含义如下：
+　　标量：指整型、长整型、浮点型、双精度型等数据类型。
+　　标量(默认)：采用编程语言默认方式传递标量。如：C/C++源代码：void test(int VAR1，float VAR2)
+　　标量(传值)：采用编程语言显式以传值方式传递标量。如：C/C++源代码：void test(int VAR1，float VAR2)
+　　标量(传地址)：C/C++源代码：void test(int VAR1，float &amp; VAR2)
+　　值：变量按照它的值压入堆栈，以4个字节为分界线。
+　　地址：由4个字节组成的地址值压入堆栈。
+　　第一个字符：对于字符串而言，将第一个字符按ASCII码转换成4字节整数压入堆栈。
+　　@n：参数表的字节数(十进制)。 
+2  调整命名约定
+　　命名约定决定了高级语言在标识名称(外部变量名、过程名)放置于.OBJ文件中时作什么样的改变。对于程序后紧跟的参数列表中的参数名称则不受影响。命名约定与调用约定关系十分密切，因为编译器在确定调用约定的同时也确定了命名约定。但是，值得注意的是，C/C++在它的符号表中是大小写敏感的，而其它语言的符号表则不然，这也许会带来一些额外的麻烦，但是你可以使用Alias属性解决命名上的冲突。
+　　下面这张表总结了Fortran、C/C++、VB、DELPHI使用的命名约定。
+
+命名规则
+　For32C/C++VBDelphiStdCall
+后缀@nNone~@None
+大小写大写大小写~　小写
+
+　　例如，假设VC++中的有一段函数声明如下：
+　　extern int_stdcall Sum_Up (int a, int b, int c);
+　　每个整型占4个字节，因此.OBJ文件中的标识名如下：_Sum_Up@12 
+3  确定参数传递方式
+　　对于Fortran PowerStation、C/C++、DELPHI而言，调用例程传给被调用例程的参数按传递方式分为两种：传值与传地址。传值是指被调用例程另外开辟参数内存空间，在程序运行期间调用例程将实际参数的值压入堆栈传给被调用例程，被调用例程内参数值的改变不会影响调用例程中对应参数值的变化。传地址是指在程序运行期间调用例程将实际参数的地址(4个字节)压入堆栈传给被调用例程，被调用例程与调用例程共享参数所占内存，因此被调用例程中参数的变化直接影响调用例程中对应参数的值。由于Windows 95/98是32位操作系统，所有地址均是4字节长度，可直接寻址范围达4G，因此，不再需要原DOS、Windows 3.x操作系统下的near，far指针。
+　　采用传值方式时，调用例程与被调用例程的参数列表中的对应参数必须兼容。由于每种语言的侧重点不同，它们的数据类型不完全兼容。Fortran PowerStation、C/C++、DELPHI、VB相对应的常用数据类型对应关系如下表所示：
+
+　For32C/C++VBDELPHI
+整型(2字节)INTEGER(2)shortIntegersmallint
+长整型(4字节) INTEGER(4)int，longLonginteger
+浮点型(4字节)REAL(4)floatsinglesingle
+双精度(8字节)REAL(8)doubleDoubledouble
+数组DIMENSION(m:n)[m](m To n)array[m..n] of
+定长字符串CHARACTER(LEN=n)Char var [n]String*n无
+变长字符串CHARACTER*(*)Char var[ ]StringString
+
+4  实际示例 
+　　为了充分利用Windows操作系统在多任务处理方面的增强特性，我们采用的方法是将某一语言的源程序(被调用程序)编译成动态连接库.DLL，而将另一语言的源程序(调用程序)编译成可执行程序。鉴于工程界对Fortran程序可视化的要求最高，因此我们采用将Fortran源代码作为被调用程序，而将面向对象的其它高级语言作为调用程序的办法。
+4.1  VB调用FORTRAN
+　　Visual Basic从小巧玲珑的编程工具发展，经过微软的不断完善，成为强大的开发工具。VBA成为OFFICE系列软件的编程工具，而VBScript则成为Windows 98的主要脚本语言，就充分说明了微软对Visual Basic的重视。工程界经常使用VB作为可视化界面的开发工具，相对其它语言而言，VB的数据类型较少，但这并不妨碍用它来编写主调用程序的功能。
+　　在MS FORTRAN POWERSTATION集成开发环境下新建一个动态连接库项目，名称为FORDLL，内包含三个子程序，源程序声明部分如下：
+SUBROUTINE FORDLLA(M, N)
+!MS$IF.NOT.DEFINED (LINKDIRECT)
+!MS$ATTRIBUTES DLLEXPORT:: FORDLLA
+!MS$ATTRIBUTES VALUE::M
+!MS$ENDIF
+INTEGER(4) M, N
+......
+RETURN
+END
+SUBROUTINE FORDLLB(STR)
+!ms$if.not. defined(LINKDIRECT)
+!ms$attributes dllexport:: FORDLLB
+!ms$endif
+CHARACTER *(40) STR
+......
+RETURN
+end
+REAL(4) FUNCTION FORDLLC(ARRAYX)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES DLLEXPORT:: FORDLLC
+!MS$ENDIF
+REAL(4), DIMENSION(1:2, 1:2)::ARRAYX
+FORDLLC=ARRAYX(1, 1)+ARRAYX(1, 2)+ARRAYX(2, 1)+ 
+ARRAYX(2, 2)
+RETURN
+END
+　　源程序说明：
+　　(1)!MS$ATTRIBUTES DLLEXPORT::FORDLLA
+　　这说明DLL采用For32调用约定，同时也确定了采用For32命名约定。根据前述命名约定，在DLL中FORDLLA子程序的标识名为“_FORDLLA@8”，名称字符全部大写，后缀@8表示参数表长度为8个字节，其中含一个32位的地址值和一个4字节长的整型。DLL中的第二个子程序的标识名为“_FORDLLB@8”，这是因为For32调用约定规定字符串参数传递时除了32位地址以外，还要传一个4字节的字符串长度信息。
+　　(2)!MS$ATTRIBUTES VALUE::M
+子程序参数M采用传值方式，For32调用约定默认是标量采用传地址方式。
+　　(3)CHARACTER *(40)STR
+　　由于FORTRAN中变长字符串不能出现在参数表中，因此使用一个定长字符串代替。编译后生成的动态连接库FORDLL.DLL中包含了三个子程序。子程序名称分别是_FORDLLA@8，_FORDLLB@8，_FORDLLC@4。调用程序采用VB语言，在MS Visual Basic 6.0中输入源程序如下。
+　　VB部分源程序中，为了能调用Fortran的子例程，必须在模块部分对动态库中子程序进行声明：
+Private Declare Sub callforA Lib &quot;fordll&quot; Alias &quot;_FORDLLA@8&quot; (By Val a As Integer, b As Integer)
+Private Declare Sub callforB Lib &quot;fordll&quot; Alias &quot;_FORDLLB@8&quot; (By Val str As String, c As Long)
+Private Declare Function callforC Lib &quot;fordll&quot; Alias &quot;_FORDLLC@4&quot; (x As Single) As Single
+　　然后就可以在程序中进行如下调用了。
+Dim M As Integer, N As Integer, Value As Integer: Dim str1 As
+　String
+Dim arrayX (1 To 2, 1 To 2) As Single
+callforA M, N
+callforB str1, c
+Value=callforC(arrayX(1,1))
+　　对于每个要调用的其它语言的例程，在VB中都需使用Declare语句进行声明，后面紧跟的是VB程序中所使用的例程名。Lib表明了例程所在动态连接库的名称和位置。若省略路径，则按下述路径进行寻找：当前目录，系统目录(一般为C:\Windows\system)，PATH所定的目录。Alias表明了被调用例程在OBJ目标文件中的例程名，这个名称由被调用例程所使用的调用规则确定。
+　　在参数表中，对于标量参数的传递，若被调用例程中使用按值传递，VB中要使用ByVal进行说明；若被调用例程中使用按地址传递，VB中要使用ByRef进行说明(或采用默认方式)。对于字符串参数，VB中使用ByVal str As String语法将字符串地址压入调用堆栈，由于FORTRAN的字符串参数还需获得4字节的字符串长度信息，因此VB调用例程的参数表中还应传递一个4字节(长整型)的长度值。对于数组参数，如果是传递数组中的单个元素，方法与传递同类型的变量相同。有时需要将整个数组传递到DLL过程中。如果DLL过程是专门为自动化编写的，那么将数组传递到DLL过程的方式与传递到Visual Basic过程是相同的：加上空的括号。如果DLL过程不能直接接收自动化数组，数值数组仍可以整个进行传递；以引用方式传递数组的第一个单元。因为数值数组数据总是按顺序放在内存中，因此这种办法是可行的。只需要将数组的第一个元素传递到DLL过程，该DLL就能够访问数组的所有单元。
+4.2  VC调用FORTRAN
+　　上面例子展示了这样一种技术，FORTRAN被调用例程使用FORTRAN调用约定，VB调用例程也使用FORTRAN调用约定。然而，调用例程与被调用例程也可都采用调用例程的调用约定。下面这个例子展示了这样一个技术。FORTRAN源程序声明和VB调用FORTRAN例子中的相应部分大体相同，如下：
+SUBROUTINE FORDLLA(M, N)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES C,DLLEXPORT:: FORDLLA
+　INTEGER(4) M,N
+!MS$ATTRIBUTES VALUE::M
+!MS$ATTRIBUTES REFERENCE::N
+!MS$ENDIF
+SUBROUTINE FORDLLB(STR)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES C,DLLEXPORT:: FORDLLB
+CHARACTER *(50) STR
+!MS$ATTRIBUTES REFERENCE::STR
+!MS$ENDIF
+......
+str(len(STR):len(STR))=char(0)
+......
+REAL(4) FUNCTION FORDLLC(ARRAYX)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES C,DLLEXPORT:: FORDLLC
+!MS$ENDIF
+REAL(4),DIMENSION(1:2,1:2)::ARRAYX
+　　程序说明：
+　　(1)!MS$ATTRIBUTES C, DLLEXPORT:: FORDLLA
+　　表明采用C调用约定来代替默认调用约定。
+　　(2)!MS$ATTRIBUTES REFERENCE::STR
+　　字符串STR采用传地址方式传递。这样，被调用例程对字符串参数的修改就会影响调用例程中相应的字符串。字符串STR也可采用传值方式传递，但被调用例程对字符串参数的修改不会影响调用例程中相应的字符串。
+　　(3)STR(LEN(STR):LEN(STR))=CHAR(0)
+　　C/C++中的字符串是以“\n”结尾，因此FORTRAN中字符串的最后一个字符也填NULL。
+VC源程序的声明部分如下：
+extern &quot;C&quot;
+{
+　void fordlla(int var1, int* var2);
+　void fordllb(char* str, int arg);
+　float fordllc(float* a);
+}
+　　VC调用其它语言例程要用extern &quot;C&quot;语句进行声明。extern &quot;C&quot;语句应放在所有对该例程的调用之前。由于本例中被调用例程采用了C调用约定，extern &quot;C&quot;语句中的例程名全部小写。在参数表中，C/C++的标量数据默认是按值传递，若按地址传递，则应当传递参数的指针，若要传递整个数组，只需将数组第一个元素的地址传给被调用例程即可，对于字符串参数，C/C++调用例程需要传递两个参数：字符串指针(4个字节)和字符串长度。由于每种语言对数组在内存中的分配不同，对于多维数组，有按列排列和按行排列两种。FORTRAN与VB缺省采用按列排列；DELPHI与VC缺省采用按行排列。例如：对于数组X(3，3)，FORTRAN数组在内存中的前4个元素为：X(1，1)，X(2，1)，X(3，1)，X(1，2)，VC数组在内存中的前4个元素为：X(1，l)，X(1，2)，X(l，3)，X(2，1)。
+　　以下是VC中调用的实现部分。
+int m,n;
+unsigned int c;
+float a[2][2];
+char b[50];
+fordlla(m,&n);
+c=m_Str1.GetLength( );
+fordllb(b,c);
+m_rtnSum=fordllc(&amp;a[0][0]);
+4.3  DELPHI调用FORTRAN
+　　与微软的编程工具相比，BORLAND DELPHI具有以下令人欣赏的特性：基于窗体和面向对象的方法，高速的编译器，强大的数据库支持，与Windows编程的紧密结合，及其组件技术，新版本又增加了DLL调试功能，它正受到愈来愈多的程序员的欢迎。如同VB、VC一样，DELPHI也支持标准的Windows DLL的调用。但由于DELPHI与FORTRAN POWER STATION出自不同的两个公司的产品，它们之间混合编程采用的调用约定无法和前面一样直接统一。不过，由于FORTRAN POWERSTATION提供了生成stdcall(Window API接口调用约定)例程的功能，而DELPHI的外部例程声明语句也提供了符合stdcall调用约定的外部例程调用的功能，因此我们可以让调用例程和被调用例程都使用stdcall调用约定。其具体做法见以下示例。FORTRAN源程序如下：
+SUBROUTINE FORDLLA(M,N)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES STDCALL,DLLEXPORT:: FORDLLA
+INTEGER(4) M,N
+!MS$ATTRIBUTES VALUE::M
+!MS$ATTRIBUTES REFERENCE::N
+!MS$ENDIF
+SUBROUTINE FORDLLB(STR)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES STDCALL,DLLEXPORT:: FORDLLB
+CHARACTER *(50) STR
+!MS$ATTRIBUTES REFERENCE::STR
+!MS$ENDIF
+REAL(4) FUNCTION FORDLLC(ARRAYX)
+!MS$IF.NOT. DEFINED(LINKDIRECT)
+!MS$ATTRIBUTES STDCALL,DLLEXPORT:: FORDLLC
+!MS$ENDIF
+　　程序说明：
+　　(1)!MS$ATTRIBUTES STDCALL,DLLEXPORT:: FORDLLA
+表明采用stdcall调用约定来代替默认调用约定。
+　　(2)!MS$ATTRIBUTES REFERENCE::STR
+字符串STR采用传地址方式传递。这样，被调用例程对字符串参数的修改就会影响调用例程中相应的字符串。字符串STR也可采用传值方式传递，但被调用例程对字符串参数的修改不会影响调用例程中相应的字符串。DELPHI源程序的声明部分如下：
+procedure callforA (x:integer;var y:integer);
+　stdcall; external 'fordll.dll' name '_fordlla@8';
+procedure callforB (S:string);
+　stdcall; external 'fordll.dll' name'_fordllb@4';
+function callforC (var a :single):single;
+　stdcall; external 'fordll.dll' name '_fordllc@4';
+　　DELPHI源程序的调用部分如下：
+procedure TForm1.cmdCallDllsClick(Sender: TObject);
+var
+　m,n:integer;
+　sum :single;
+　arrayX:array[l..2,1..2] of single;
+　str1:string;
+begin
+　m:=strtoint(editl.text);
+　n:=strtoint(edit2.text);
+　str1:=trim(edit3.text);
+　setlength(strl,50);
+　arrayX[1,1]:=1.2;
+　arrayX[1,2]:=2.3;
+　arrayX[2,1]:=3.0;
+　arrayX[2,2]:=4.2;
+　callforA(m,n);
+　callforB(Strl);
+　sum:=callforC(arrayX[1,1]);
+　label1.Caption:=IntToStr(m);
+　label2.Caption:=IntToStr(n);
+　label3.Caption:=str1;
+　memo1.Lines.Append('Sum='+FloatToStr(sum));
+end;
+　　程序说明：
+　　(1)DELPHI使用external语句来声明对外部例程的调用
+　　其语法如下：external DLL 名称 name被调用例程在DLL内的名称
+　　在本例中，'fordll.dll'即为DLL名称，省略路径，则按下述路径进行寻找：当前目录，系统目录(一般为C:\Windows\system)，PATH所定的目录。'_fordlla@8是被调用例程在DLL内的名称，大小写依按前面所述stdcall调用约定。参数表中，在DELPHI中标量数据默认是按值传递，若按地址传递，则应当在参数说明前加var关键字。对于传递整个数组参数的情况，只需将数组第一个元素的地址传给被调用例程即可，在参数表的声明中加var关键字。对于数组元素在内存中的排列次序，见前节VC调用FORTRAN。
+　　(2)setlength(strl,50)
+　　当参数是字符串时，由于DELPHI不允许字符串长度越界，所以在传递字符串参数前必须用setlength语句分配内存，而且，设定长度要大于FORTRAN被调用例程中对应定长字符串长度的长度，否则程序运行时会出现地址越界错误。
+5  其它
+　　对于Windows编程工具VB、VC、DELPHI而言，它们之间相互调用一般不再采用上述方法，而是采用面向对象方法封装的ActiveX控件技术。这已超出本文讨论范围，有兴趣者可以参考有关书籍。
+朱国强(上海交通大学  上海 200240)
+刘勇(上海交通大学  上海 200240)
+洪嘉振(上海交通大学  上海 200240)
+参考文献
+1，MS POWERSTATION Programmer's Guide联机帮助
+2，MS Visual C++ Programmer's Guide联机帮助
+3，Delphi Help联机帮助
+4，Object Pascal Reference联机帮助
+5，Mastering Delphi 40. 北京: 电子工业出版社, ISBN7-5053-5347-0
+6，Mastering Visual Basic6.0. 北京: 电子工业出版社, ISBN7-5053-4998-8
+7，计算机常用语言混合编程. 南京: 南京大学出版社, ISBN7-305-02432-5
+收稿日期：1999-10-29

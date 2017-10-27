@@ -1,0 +1,122 @@
+信息与控制
+INFORMATION AND CONTROL
+1999年 第28卷 第3期 Vol.28 No.3 1999
+
+
+
+一种分段线性超混沌同步系统的解析设计*
+南明凯　是湘全　朱志文　刘中
+　　摘要：针对一种4维分段线性（4D-MPL）超混沌系统进行了同步系统的设计，所采用的线性反馈设计方法本质上是一种基于APD原理的同步系统的构造方法．在设计过程中我们获得了耦合参数和CLE之间的解析关系式，从而可以对同步系统的CLE任意设置．此同步系统可应用于保密通信，解析分析和模拟结果都证明了该同步系统的优越性．
+　　关键词：同步，超混沌，条件李亚普诺夫分量，4D-MPL电路
+　　中图分类号：TP13　　　　　　文献标识码：B
+ANALYTICAL DESIGN OF THE SYNCHRONIZED PIECEWISE LINEAR
+HYPERCHAOTIC SYSTEMS
+NAN Mingkai　SHI Xiangquan　ZHU Zhiwen　LIU　Zhong
+(Dept. Electronic Engineering, Nanjing Univ. Scie. & Tech. 210094, Nanjing)
+　　Abstract　We design a unidirectional coupling between two hyperchaotic circuits named 4D manifold piecewise linear hyperchaos generator (4D-MPL). The linear feedback scheme we adopt here to construct hyperchaotic synchronized systems can be considered as a special case of active-passive decomposition (APD). In our design, the relation between the coupling parameters and the CLEs is obtained analytically, and thus it is very convenient to set any desired negative numbers as the CLEs, which will lead to stable synchronous motion according to the APD mechanism. In regard to its application to secure communication, several advantages are testified by numerical simulation together with corresponding theoretical explanation.
+　　Key words　synchronization, hyperchaotic system, conditional Lyapunov exponent，4D-MPL circuit
+　　1　引言
+　　混沌同步与混沌通信的研究是混沌应用领域中一个重要的前沿课题和发展方向．把混沌理论应用到通信系统中，首先需要解决的问题是混沌系统的同步．到目前为止，人们提出了许多混沌系统的同步方法，其中较成功的有Pecora和Carrol提出的PC方法(驱动-响应同步法)［1］和Parlitz等人提出的APD方法(active-passive decomposition)［2］．目前，大多的混沌通信系统都是采用仅含有一个正的李亚普诺夫分量的简单混沌系统=g(x)，例如蔡氏电路．然而，文献[3，4]指出这样的混沌通信系统保密性还存在一些问题．含有多个正李亚普诺夫分量的超混沌系统，可以产生更加复杂的动力学行为，具有更强的不可预测性，从而可以提高通信系统的保密性能．Kocarev和Parlitz等人曾提出一种采用级联结构的超混沌通信方案，它采用了多个简单的APD系统级联的方式［5］．Peng等人也提出了一种超混沌系统的同步方法［6］，此方法利用状态变量的线性组合作为传输信号，只利用一维传输信号实现了超混沌系统的同步，为超混沌系统在通信中的应用提供了理论依据．本文将利用APD原理，对于一个分段线性超混沌系统=g(x)，在保持系统动力学特性不变的前提下，通过施加线性反馈可以构造一个系统=f(x,u)，使得此系统对u具有负的CLE，从而达到收发端的同步．
+　　必需指出的是，当以非线性系统为研究对象时，寻求问题的精确解析解将会十分困难，常常采用数值方法．然而，这里所采用的4D-MPL系统，是一个很特殊的非线性模型，它具有非时变的雅可比矩阵，可以采用经典的线性控制理论来进行同步系统的设计．我们将先对混沌同步系统的线性反馈设计方法作一简介，然后针对4D-MPL超混沌系统来设计同步系统，并将之应用于保密通信．文章最后给出了数值模拟结果和相应的理论分析．
+　　2　混沌同步的线性反馈设计方法
+　　APD系统可以描述为
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(1)
+x称为驱动系统，y称为响应系统，它们都工作于混沌模式．u是驱动信号．混沌系统的同步问题实际上是要把耦合系统稳定在状态空间(x,y)∈R2n中的一个低维流形S={(x,y):y=x}上，流形S称为同步流形［7］．APD系统(1)在同步流形S上的稳定性可用局部线性化的方法来分析．考虑和S横截相交的微扰δ(t)，有y(t)=x(t)+δ(t)，代入(1)并忽略高阶项σ(δ2)，δ将按照以下的线性化方程所描述的规律演化
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2)
+我们称为条件雅可比矩阵，它是一个n阶的时变方阵，一般都含有关于u和x的时变项，所以式(2)描述的是一个时变线性系统．最大CLE定义为
+
+如果λC>0，说明微扰δ将按照指数规律增大；如果λC<0，说明微扰δ将按照指数规律减小，最终使δ=0，系统可以稳定在同步状态．λC反映了系统的一种全局特性，决定了系统的最终行为；条件雅可比矩阵则反映了系统的局部特性，条件雅可比矩阵最大特征根λm(x,u)的正负与否，直接决定了微扰δ在当前(x,u)处是发散还是收敛．所以，我们有理由认为λC是λm(x,u)在统计规律下的平均，是系统的一个不变特性［8］．通过控制雅可比矩阵，就可达到控制CLE的目的．
+　　考虑n维微分动力系统（3）,并假定系统处于混沌状态．
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(3)
+将其作为发射系统，对其加载信息后为
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(4)
+其中s∈R1是欲传递的信息，映射L:R1→Rn×1．令L(s)=Bφ(s)和u=KTx+φ(s)，可得 
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(5.1)
+易见式(4)和(5.1)保持了完全相同的动力学特性．我们将u作为传输信号．由于u∈R1是一维的，不占用额外的信道资源，符合通信的一般需要．在接收端采用和发射端完全相同结构的反馈，
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(5.2)
+可见系统(5.2)只是在原始系统上施加了线性反馈-BKTy，并将u作为输入信号．由于收发系统(5.1)和(5.2)采用了完全相同的结构，显然同步流形S存在．如果流形S稳定，即系统(5.2)对于输入u具有负的CLE，那么，系统演化将最终吸引到同步流形S上，即达到．若选取φ:R→R可逆，可得
+
+最终恢复出所要的信息．已有的研究表明：通过选取适当的K可使系统达到同步［6］．容易得到使系统同步的一个充分条件是：λm(x,u)在同步流形上处处为负．如何选择满足此条件的K，将是我们在以下设计过程中所要解决的问题．
+　　3　基于4D-MPL超混沌系统的同步系统的设计
+　　我们所采用的4维流形分段线性超混沌系统(4D manifold piecewise linear hyperchaos generator简称4D-MPL)是由Tsubone和Saito提出的［10］．如原理图1所示，它是由一个二维线性系统，一个一维线性系统和一个受控源组成．其中后者是系统中的非线性部分，它的状态为w，取值于{-1，+1}．只有当y=0时，w的值才发生变化，此时如果，x≥z,w=1；x＜z，w=-1，并且保持不变直到下次y=0． 4D-MPL超混沌系统可用以下方程描述
+
+
+图1　4D-MPL超混沌系统原理框图
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(6)
+其中
+
+取0<λ<1和0<δ<1，容易得到系统(6)具有特征根λ和共轭复根δ±iω，其中，,此时A的所有特征根为正(注意这里的δ是系统参数，区别于上节的扰动δ)，系统在相空间中所有的方向上都初值敏感，处于超混沌状态．时变项w使得系统(6)工作状态跳变于和两种高度发散的方式，从而形成超混沌吸引子，文献[10]不但给出了解析证明，而且还给出了电路实现方案．
+　　接下来,我们利用线性反馈设计方法构造基于4D-MPL形如式(5)的同步系统．由于式(6)几乎处处有(除了那些w发生跳变的点，而这些点组成的集合Lebesque测度为零．），因而几乎处处有
+
+根据CLE的定义，此时CLE值等于A-BKT的特征值．这使得我们可以利用极点配置定理解析地求取K，从而大大地简化了设计过程．
+　　极点配置定理　对于矩阵A∈Rn×n和B∈Rn×1，如果(A,B)是可控对，即Det(B,AB,…,An-1B)≠0，则对于任意一组数λs=(a1,a2,…,an)，ai∈C（若ai含非零虚部，则以共轭对出现），存在K∈Rn×1使得λs是矩阵A-BKT的特征根．
+　　证明详见文献[9]．
+　　文献[6]中已指出，存在这样的矩阵A, 对于任何的向量B, (A,B)都不可能是可控对．为了排除这种特殊情况，我们给出了以下命题．
+　　命题　对(6)式中的矩阵A，当选取0<δ<1时，必存在向量B,使得(A,B)是可控对．
+　　证明　反证法．假如不存在向量B，使(A,B)是可控对；即：对任意B有
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(7)
+经推导得:
+
+根据假设，等式对所有的B都成立，必有关于bi各项系数都为零，于是
+
+而此方程在0<δ<1时无实数解．证毕．
+　　根据矩阵的秩的不同，式(7)在B所在的3维空间中仅定义了一个二维曲面或一维曲线等零测度的几何体．所以，一旦存在B使得（A,B）是可控对，那么几乎对于所有随机选取的B都可使（A,B）是可控对．欲构造稳定的同步系统，只需选择B，K使A-BKT具有负的特征根．根据以上命题和极点配置定理，可以对A-BKT的特征值任意配置．利用Eckermann公式［9］可以解析的得到K与ai之间的关系
+　　　　　　　　　　　　　　　　　　　　　　　(8)
+其中φ(s)=(s-a1)(s-a2)(s-a3)，ai是欲设置的特征根．为了能使系统同步，只需设置负的ai（CLE），利用式（8）可解析的求得参数K，完成了同步设计．
+　　4　数值实验
+　　为了验证本设计方法的有效性，我们采用数值实验的方法进行模拟．例如，选取λ=0.05，δ=0.05和B=[1　0　1]T，容易求出
+
+可见此时(A,B)是可控对．我们令欲设置的特征根ai为
+
+由(8)立即得到KT=[2.46　-2.98　1.19]．此时最大CLE=a1=-0.5<0，根据APD同步原理，系统将最终达到同步状态．
+　　利用以上参数，图2给出了φ(s)=s=0.1sin(t)，传输信号u=KTx+s时，同步系统的数值模拟结果．图2(a)是发射端4D-MPL电路超混沌吸引子在z-x平面上的投影，可见加载信息后系统中吸引子仍然存在；图2(b)为传输信号u，它具有复杂的波形，能够很好地掩埋有用信息s．因为，系统变量x中已经揉进了u的信息，传输信号u并不是信息s和状态变量x的简单线性组合．由图2(c)可见同步误差信号e(t)迅速收敛到0，收发系统可以很好的同步．X(t)和Y(t)分别表示接收端和发射端的状态变量．图2(d)给出了暂态响应结束后接收信息sR的波形；为了研究混沌同步的鲁棒性［11］，我们还考察了弱加性噪声对同步性能的影响．在接收端将=u+n作为接收信号，其中n为随机噪声．图2(e)和2(f)分别是有噪声时的同步误差随时间变化的曲线和解调信息的波形．正如图所示，同步性能对弱噪声不敏感．这是由于接收系统对于输入u渐近稳定，尽管噪声持续作用并使得系统偏离同步流形，但由于与同步流形横截方向的李亚普诺夫分量均为负，同步流形始终是吸引的，使得系统在一定的误差范围内仍可保持同步．
+
+
+(a)　发射端4D-MPL超混沌吸引子在z-x平面上的投影
+
+(b)　传输信号u(t)
+
+(c)　同步误差e(t)=‖X(t)-Y(t)‖
+
+(d)　接收信息SR(t)
+
+(e)　有信道噪声时的同步误差e(t)
+
+(f)　 有信道噪声时的解调信息SR(t)
+图2　φs(s)=s=0.1sin(t),传输信号u=KTc+s时，同步系统的数值模拟结果
+　　为了能进一步说明本方法的有效性，根据关系式（7），我们给出了以下几组参数和相应的同步曲线．系统参数我们仍设定为λ=0.05，δ=0.05．
+表1　几组参数
+
+　CLE值a1，a2，a3BK
+1-1，-2，-4[101]T[-1.5895 -13.6305 8.7395]T
+2-1.5，-2，-4[101]T[-5.2511 -16.4974 12.9011]T
+3-2, -3, -9[101]T[-15.9053 -38.5147 29.0553]T
+4-1，-2，-4[011]T[13.7895 -1.5895 8.7295]T
+5-1.5，-2，-3[011]T[17.0266 -5.2511 12.9011]T
+6-2, -3, -9[011]T[40.1053 -15.9053 29.0553]T
+
+
+
+图3　同步曲线
+　　5　结论
+　　总之，基于4D-MPL超混沌模型的保密通信系统具有以下几个优点：
+　　1) 设计过程简单，可转化为线性问题．2) 系统工作于超混沌状态，具有良好的保密性．3) 采用一维传输信号实现了超混沌的同步，因而，不需占用额外的信道资源．4) 系统便于电路实现．
+　　必须指出的是，就一般的非线性微分动力系统而言，雅可比矩阵g(x)/x是时变矩阵，此时K的求取会很复杂，往往采用数值运算在参数空间中搜索合适的K．本文所采用的4D-MPL超混沌系统具有非时变的雅可比矩阵，使得同步系统的设计能够采用经典的极点配置技术，任意设置CLE值，从而构造出理想的同步系统．数值模拟和理论分析十分吻合．
+*江苏省自然科学基金和霍英东教育基金资助
+作者简介：南明凯，博士生．研究领域为非线性电路与系统、混沌 理论及其在通信领域中的应用．
+　　　　　是湘全，教授，博士生导师．研究领域为随机信号处理、模式识别、通信及现代雷达系统等领域的工程和理论研究．
+　　　　　朱志文，博士后．研究领域为非线性电路中的奇异非混沌现象、非线性信号处理．
+作者单位：南京理工大学电子工程系　南京　210094
+参考文献
+　1　 Louis M. Pecora and Thomas L. Carrol, Synchronization in Chaotic Systems, Physical Review Letters, 1990,64(8):821～824
+　2　 Kocarev L, Parlitz U. Encode Message Using Chaotic Synchronization, Physical Review E, 1996,53(5):4351～4361
+　3　 Perez G, Cerdeira H A. Extracting Messages Masked by Chaos, Physical Review Letters, 1995, 74(11):1970～1973
+　4　 Short K M. Steps Toward Unmasking Secure Communications, Int. J. of Bifurcation and Chaos, 1994, 4(5):959～977
+　5　 Kocarev L, Parlitz U, et al. An Application of Synchronized Chaotic Dynamics Arrays， Physics Letters A, 1996, 217(4,5):280～284
+　6　 Peng J H，Ding E J, et al. Synchronizing Hyperchaos with a Scalar Transmitted Signal, Physical Review Letters, 1996, 76(6):904～907
+　7　 Güe mei J, Martin C. Approach to the Chaotic Synchronized State of Some Driving Methods, Physical Review E, 1997, 55(1):124～134
+　8　 Eckmann J -p, Ruelle D. Ergodic Theory of Chaos and Strange Attractors, Reviews of Modern Physics, 1985, 57(3):619～656
+　9　 Ogata K. Modern Control Engineering, Prentice-Hall, Englewood Cliffs, NJ, 1990:776～786
+　10　 Tsubone T, Saito T. A 4-D Manifold Piecewise Linear Hyperchaos Generator, ISCAS'97, Hong Kong, 1997, 2,773～776
+　11　Sushchik M M, Rolkov Jr N F, Abarbanel H D I. Robustness and Stability of Synchronized Chaos: An Illustrative Model, IEEE TCAS-I, 1997, 44(10):867～873
+1998-10-12收稿

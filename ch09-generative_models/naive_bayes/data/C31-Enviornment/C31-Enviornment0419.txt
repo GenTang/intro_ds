@@ -1,0 +1,146 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+公路隧道空气中多环芳烃的污染现状及影响因素分析
+朱利中　刘勇建　沈红心　沈学优　邱殿星　周 宁
+摘要：用XAD-2吸附树脂和玻璃纤维滤膜(GF)同时采集隧道空气中气态和颗粒态的多环芳烃(PAHs),超声提取样品中的PAHs,采用梯度淋洗和程序化可变波长荧光检测器相结合的高效液相色谱法
+测定9种具有代表性的多环芳烃,分析并讨论了隧道空气中多环芳烃的浓度、存在形态及其影响
+因素.结果表明,九凰山公路隧道空气中PAHs污染非常严重,9种PAHs的总量平均达78.8μg/m3, 
+所测PAHs的种类及浓度与过往车辆所用燃料有关,其存在形态与环境温度有关,人体暴露PAHs的量
+与其在空气中的浓度成正比.
+关键词：多环芳烃；空气污染；公路隧道；高效液相色谱
+中图分类号：X502 文献标识码：A 文章编号：1000- 6923(1999)03- 0201- 05 
+Pollution survey and influence factors analysis of polycyclic aromatic 
+hydrocarbons(PAHs) in traffic tunnel air.
+ZHU Li-zhong1,LIU Yong-jian1,SHEN Hong-xin1,SHEN Xue-you1,QIU Dian-xing2,ZHOU Ning2 
+(1.Department of Environmental Science, Zhejiang University, Hangzhou 310028,China；2.Pingyang Environmental Monitoring Station, Pingyang 325400,China). China Environmental Science. 1999,19(3)：201～205
+Abstract：The vaporous and particulate polycyclic aromatic hydrocarbons(PAHs) in tunnel air were simultaneously sampled by XAD-2 and glass fiber filters respectively. PAHs in XAD-2 and the filters were separately extracted by sonication. Nine PAHs in tunnel air were analyzed by high performance liquid chromatography (HPLC) with a spectrofluorometric detector and programmed excitation and emission wavelength pairs.Concentrations and forms of PAHs of occurrence in tunnel air as well as influence factors were evaluated. The results indicate that the air pollution of PAHs is very serious in the Mountain Jiuhuang and the total sum of nine PAHs is averaged to 78.8m g/m3,the kind and concentration of the PAHs in the tunnel are related to the vehicular fuels;the occurent states of the PAHs are connected with the temperature in the tunnel;and the sum of human body exposure to the PAHs is directly proportional to the concentration of PAHs in the air.
+Key words：PAHs；air pollution；traffic tunnel；high performance liquid chromatography
+　　人类活动(如汽车)排放的多环芳烃(PAHs)可直接进入大气,并吸附在颗粒物上;由于3-5环的PAHs具有较高的蒸气压,在常温下有相当部分以气态形式存在,即空气中PAHs以气、固两种形式存在.早期人们主要研究吸附在颗粒物上的PAHs 及其粒径分布、来源;由于气态PAHs同样具有危害性,故逐渐开展了气态PAHs的研究,从而较全面监测评价室内外空气中气态及颗粒态PAHs含量及来源[1- 5],但迄今对公路隧道空气中PAHs的研究较少[6].
+　　在既长又大的公路隧道内,若车流量大、通风条件差,过往车辆排放尾气中含有的高浓度气态或颗粒态PAHs会对驾驶员、乘客及过往行人的健康造成危害.因此,进行公路隧道空气中气态和颗粒态PAHs的监测分析对环境保护和保障人体健康都是十分重要的.
+　　本文用XAD-2树脂和玻璃纤维滤膜同时采集了浙江省平阳九凰山公路隧道污染空气中气态和颗粒态PAHs;超声提取样品中气态及颗粒态PAHs;用梯度淋洗结合可变波长荧光检测器的高效液相色谱法测定了9种具有代表性的PAHs.分析探讨了隧道空气中PAHs浓度、存在形态及其影响因素.
+1 实验部分
+1.1 仪器和试剂
+　　日立L-7000系列高效液相色谱仪;NP-15C型气体采样泵(日本柴田科技有限公司);玻璃采样管为自行设计定制;日产XAD-2多孔有机复合树脂(用甲醇在65℃下恒温回流洗净至无PAHs为止);CQ-250型超声振荡器. 
+　　PAHs标准储备液:芴120.00μ/mL、菲501.70μ/mL、荧蒽1180.00μg/mL、蒽69.16μ/mL、芘148.20μ/mL、1-甲基芘 405.40 μg/mL、281.60μg/mL、苯并(e)芘 460.00μ/mL、苯并(a)芘600.00μg/mL.甲醇、乙腈、二氯甲烷、二甲基亚砜均为分析纯,重蒸后经0.22μm滤膜过滤.实验用水为去离子重蒸水,经0.22μm滤膜过滤后使用.
+1.2 样品的采集
+　　采用NP-15C型低噪声小体积采样泵同时收集气态和颗粒态PAHs,即用φ25mm玻璃纤维滤膜收集颗粒态PAHs,同时用XAD-2 采集气态PAHs.采样时间2h,流量为0.50L/min(经测定空气泵采样前后流量变动范围在1%以内),采样高度为1.7m[5].
+1.3 样品的预处理
+1.3.1　气态PAHs 采样后的XAD-2树脂加入20mL二氯甲烷和乙腈的混合溶液,超声提取30min,移取10mL上清液于试管中,加入30m L二甲基亚砜,高纯氮气吹干浓缩,用少量二氯甲烷洗1次,吹至近干,加入乙腈稀释至1mL,经0.22μm过滤器过滤,进样色谱分析.
+1.3.2　颗粒态PAHs 采样后的玻璃纤维滤膜剪碎后加入10mL二氯甲烷,超声提取20 min,离心分离,取5mL上清液于试管中,加入30m L二甲基亚砜,高纯氮气吹干浓缩,用少量二氯甲烷洗1次,吹至近干,加入乙腈稀释至1mL,经0.22μm 过滤器过滤,进样色谱分析.
+1.4 色谱分析条件
+　　色谱柱:Wakosoil 5C-18 4.6Ф×250mm AR色谱柱;柱温:40℃;流动相:甲醇-水;流速: 1.0mL/min;进样量:100m L;检测器:程序化可变波长荧光检测器.
+2　结果与讨论
+2.1 分析方法
+　　采用梯度淋洗结合可变波长荧光检测器的高效液相色谱法分离样品中9种PAHs(测定条件见表1),建立了公路隧道空气中PAHs测定的新方法.所测9种PAHs标样色谱图见图1.结果表明,采用梯度淋洗和程序化可变波长荧光检测器,PAHs混合标样出峰时间短、峰形尖锐、对称、分离效果好.该方法具有灵敏度高、选择性好、检测限低、自动化程度高等优点. 
+表1　PAHs荧光测定条件与检测限
+Table 1 Measuring wavelength of fluorescence detector and detectable limits for PAHs
+PAHs分子量时间(min)激发波长(nm)发射波长(nm)检测限(pg)
+芴1660.02623150.53
+菲17818.82503702.95
+蒽17821.62544003.58
+荧蒽20225.228746029.13
+芘20226.633639414.43
+1-甲基芘21632.53363944.80
+22833.82703604.83
+苯并(e)芘25236.92853853.00
+苯并(a)芘25238.52964043.42
+
+　
+
+图1　PAHs标样液相色谱图
+Fig.1 HPLC chromatogram of PAHs standard solution (100m L)
+1.芴 2.菲 3.蒽 4.荧蒽 5.芘 6.1-甲基芘7. 8.苯并(e)芘 9.苯并(a)芘
+　　为了检验方法的可靠性和实际样品的干扰,取隧道污染空气中气态和颗粒态样品溶液,加入标样后连续测定7次,结果表明,气态PAHs的加标回收率为93.7%～95.5%,颗粒态PAHs的加标回收率为91.7%～95.7%.
+2.2 公路隧道空气中PAHs的污染及影响因素
+2.2.1 采样点基本情况 九凰山公路隧道位于104国道上,南北走向,全长1313m,高约10m,宽约15m,坡度约为4.5%,隧道内无任何通风除尘设施.采样时间为1998年7月25至26日.上午和下午采样时隧道内温度分别约为30℃和38℃.经统计,采样时平均车流量约为720辆/h,其中载重柴油车占71.7% (70.0%～ 73.0%),汽油车占28.8%(28.0%～30.0%).设4个采样点:1号点设在隧道内距北边出口100m处;2号点设在隧道中间;3号点设在隧道内距南边出口100m处;4号点作为对照点,设在隧道外距北边出口300m、相对高度70m的山上.
+2.2.2 PAHs的污染状况、存在形态及影响因素　图2为实际样品气态PAHs加标液相色谱图.由于实际样品的色谱峰较复杂,采用了荧光可变波长时间程序,可以消除大部分干扰物质的影响,提高分析的选择性和准确度.隧道污染空气中气态、颗粒态PAHs含量的监测结果见表2.
+
+图2　实际样品中气态PAHs加标液相色谱图
+Fig.2　HPLC chromatogram of PAHs in vaporous sample
+注同图1
+表2　隧道空气中气态、颗粒态PAHs化合物的浓度 (m g/m3)
+TabLe 2 The concentrations of vaporous and particulate's PAHs in tunnel air(m g/m3)
+时间采样点芴菲蒽荧蒽芘1-甲基芘苯并(e)芘苯并(a)芘总量各采样
+点所占
+百分比
+V PV PV PV PV PV PV PV PV P
+7.25
+8:00-
+10:0019.8 2.213.6 4.12.7 1.04.4 0.33.4 0.90.9 0.31.7 0.50.1 0.5--- 0.945.320.6
+217.2 4.339.2 6.74.1 1.39.6 1.09.2 2.24.3 0.92.6 0.90.3 1.40.2 1.7107.348.7
+315.2 3.217.4 4.73.6 1.06.2 0.55.4 1.72.3 0.71.9 0.80.2 1.3--- 1.467.530.7
+40.02 ---0.07 ---0.04 ------ ------ ------ ------ ------ ------ 0.010.14
+平均值14.1 3.223.4 5.23.5 1.16.7 0.66.0 1.62.5 0.62.1 0.70.2 1.10.1 1.373.4
+7.25 14:00-16:00111.3 1.414.1 2.25.8 1.96.6 1.25.1 0.81.9 0.31.3 0.3---- 0.9--- 1.256.325.8
+218.3 3.736.8 3.25.1 1.18.4 1.47.5 1.13.5 0.72.0 0.30.4 1.60.3 2.197.544.8
+316.7 2.813.0 2.24.5 0.67.4 1.74.3 1.32.2 0.81.9 0.40.5 1.30.1 1.464.129.4
+40.03 ---0.09 ---0.05 ------ ------ ------ ------ ------ ------ 0.010.18
+平均值15.4 2.621.3 2.55.1 1.27.5 1.45.6 1.12.5 0.62.0 0.80.3 1.30.1 1.875.1
+7.26 
+8:00-10:00116.0 1.712.9 2.54.8 1.57.0 1.35.2 1.03.8 0.42.0 0.7--- 1.0--- 2.063.827.0
+221.0 3.231.6 4.65.3 1.78.8 1.56.4 1.44.3 1.02.4 0.90.5 2.00.1 1.798.441.6
+316.7 2.224.0 1.44.8 1.77.3 1.34.2 1.33.2 0.42.0 0.70.3 1.5--- 1.374.331.4
+40.03 ---0.07 ---0.03 ------ ------ ------ ------ ------ ------ 0.010.14
+平均值17.9 2.422.8 2.85.0 1.67.7 1.45.3 1.23.8 0.62.1 0.80.3 1.50.1 1.778.8
+注: V为气态PAHs P为颗粒态PAHs --- 代表未检出
+　　实验结果表明,隧道空气中PAHs污染非常严重,9种PAHs的总量平均达78.8m g/m3.主要是隧道内车流量大、通风条件差,过往车辆排放的尾气难以扩散.在采样点中, 2号点位于隧道中间,故测得PAHs含量最高,占总量的41%以上;1、3号采样点距出口均为100m,两者条件相似,污染空气相对容易扩散,所测PAHs浓度较低,也较接近.隧道空气中PAHs的种类及浓度与过往车辆所用燃料有关.研究表明,载重柴油车每行驶1km约释放出35～ 430m g PAHs[6],其中主要为小分子量(M≤228)的三环或四环PAHs,而汽油车则主要排放大分子量(M>228)的五环PAHs[5].在九凰山隧道的过往车辆中载重柴油车占70%以上,因而小分子量的芴、菲、蒽、荧蒽、芘、 、1-甲基芘占所测9种PAHs总量的95％左右,其中菲的含量最高,约占总量的1/3以上(图3),与文献[7]的报道一致.由于汽油车所占的比重较小,所以大分子量的(M>228)五环PAHs (BeP、BaP)含量较低,不到总量的5%.隧道空气中PAHs的存在形态与温度有关.由于采样分析在夏季进行,气温较高,受PAHs本身物理化学性质等因素的影响,隧道空气中75％以上小分子量的PAHs以气态形式存在,80％以上大分子量的五环PAHs以颗粒态形式存在,如BaP 95%以上以颗粒态存在(图4).此外,下午各采样点的温度均高于上午,测得气态 PAHs占总量的比例略高于上午(表3).人体暴露PAHs的量与其在空气中的浓度成正比,吸收量=20％×吸入空气量(m3)×污染物总浓度(m g/m3),行人通过该隧道时可吸收到体内的PAHs约为6.75m g (步行约20min,按每分钟呼吸15次,每次呼吸量1500mL计).由于大部分PAHs都有致癌或致畸作用,因此吸入体内的PAHs将对人身体健康造成危害,必须采取措施改善该隧道的通风条件.
+
+图3 各PAHs占总量的百分比
+Fig.3 Percentages of PAH in the total sum 
+注同图1
+
+图4　PAHs在气态和颗粒态中的分配
+Fig.4 Distribution of PAHs in vaporous and particulate phases
+注同图1
+表3　隧道空气中各采样点气态、颗粒态PAHs所占百分比 (%)
+Table 3 Percentages of the PAHs in vaporous and particulate phases in tunnel air (%)
+时间采样点芴菲蒽荧蒽芘1-甲基芘苯并(e)芘苯并(a)芘
+V PV PV PV PV PV PV　　PV　PV P
+7.25
+8:00-
+10:00181.7 18.376.8 23.273.0 27.093.6 6.479.1 20.975.0 25.077.322.716.7 83.30.0 100.0
+280.0 20.085.4 14.575.9 24.190.1 9.980.7 19.382.7 17.374.3 25.717.7 82.310.5 89.5
+382.6 17.478.7 21.378.3 21.792.5 7.576.1 23.976.7 23.370.4 29.613.3 86.70.0 100.0
+7.25
+14:0-
+16:00189.0 11.086.5 13.575.3 24.784.6 25.486.4 23.686.4 23.681.3 18.70.0 100.00.0 100.0
+283.2 16.892.0 8.082.3 17.785.7 14.387.2 12.883.3 16.787.0 13.020.0 80.012.5 87.5
+385.6 14.485.5 14.588.2 11.881.3 18.776.8 23.273.3 26.772.2 27.817.4 82.66.7 93.3
+7.26
+8:00-
+10:00190.4 9.683.8 16.276.2 23.884.3 15.783.9 16.190.5 9.574.1 25.90.0 100.00.0 100.0
+286.8 13.287.3 12.775.7 24.385.4 14.682.1 17.981.1 18.972.7 27.320.0 80.05.6 94.4
+388.4 11.694.5 5.573.8 26.284.9 15.176.4 23.688.9 11.174.1 25.916.7 83.30.0100.0
+平均值　85.2
+14.886.9
+13.177.4
+22.686.6
+13.481.4
+18.683.0
+17.076.3
+23.713.5
+86.53.9
+96.1
+　
+3　结　论
+3.1 用XAD-2树脂和玻璃纤维滤膜同时采集公路隧道污染空气中气态和颗粒态的PAHs,用带荧光检测器的高效液相色谱测定了9种具有代表性的PAHs,建立了隧道空气中PAHs采样分析的新方法.
+3.2 由于过往车辆多,通风条件差,平阳九凰山公路隧道空气中PAHs污染十分严重,如不及时采取治理措施,将会对过往乘客及行人的身体健康造成危害.
+3.3 公路隧道空气中PAHs的种类及含量与过往车辆所用燃料有关,柴油车主要排放小分子量的PAHs,汽油车主要排放大分子量的PAHs.
+3.4 公路隧道空气中PAHs的存在形态与温度有关,气温越高,气态PAHs所占比例也越高.
+基金项目：浙江省科技计划项目(97-2-087)
+作者简介：朱利中(1959-),男,浙江上虞人,浙江大学环境科学系教授,主要从事污染控制化学、环境分析化学、环境污染化学、环境规划与管理等领域的研究工作.主持完成了10余项国家自然科学基金、浙江省自然科学基金等课题.曾获化工部自然科学三等奖、国家教委科技进步二、三等奖、浙江省科技进步三等奖2次.出版论著3本,发表论文80余篇,被引用100多次.
+作者单位：朱利中　刘勇建　沈红心　沈学优　浙江大学环境科学系,浙江 杭州310028；
+　　　　　邱殿星　周　宁　平阳市环境监测站,,浙江 平阳 325400 
+参考文献：
+[1]赵振华,全文熠,田德海. 北京市空气中气相与颗粒物上多环芳烃的分析 [J]. 环境科学学报, 1991, 11(2): 216- 222.
+[2]Venkataraman C,Lyons J M,Friedlander S K.Size distributions of polycyclic aromatic hydrocarbons and elemental carbon 1. Sampling, measurement methods, and source characterization [J]. Environ. Sci. Technol., 1994, 28:555- 562.
+[3]Venkataraman C,Friedlander S K. Size distributions of polycyclic aromatic hydrocarbons and elemental carbon 2. Ambient measurements and effects of atmospheric processes [J]. Environ. Sci.Technol.,1994,28:563- 572.
+[4]Nielsen T. Traffic concentration of polycyclic aromatic hydrocarbons in the center of large city [J]. Atmos. Environ., 1996, 30(2): 3481- 3490.
+[5]Eskinja I,Soljic Z,Svel-Cerovecki S.Sources and fate of polycyclic aromatic hydrocarbons in ambient air of urban and rural croatian sites [J].Intern.J.Environ.Anal.Chem., 1996, 63: 251- 268.
+[6]Miguel A H,Kirchstetter T W,Harley R A,et al.On-road emissions of particulate polycyclic aromatic hydrocarbons and black carbon from gasoline and diesel vehicles [J]. Environ.Sci.Technol., 1998, 32:450- 455.
+[7]Westerholm R,Li H.A multivariate statistical analysis of fuel-related polycyclic aromatic hydro-carbon emissions from heavy-duty diesel vehicles [J].Environ.Sci.Technol.,1994,28: 965- 972.
+收稿日期：1998-09-08

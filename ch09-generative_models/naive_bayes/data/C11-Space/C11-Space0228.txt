@@ -1,0 +1,135 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年 第2期　No.2 1999
+
+
+
+数字景象图的计算机模拟生成
+张天序　胡　礴
+　　摘　要　数字景象图在飞行器末制导中起着关键作用。在特殊情形下,有必要用计算机模拟生成数字景象图。本文在分析数字景象图成象机理的基础上给出了一个基于数字高程图模拟生成数字景象图的框架,分别讨论了光照模型,大气模型,误差模型,坐标系和视点变换等关键步骤。文中给出了模拟生成的结果。
+　　主题词　导航　数字高程图　成象机理　图象生成
+DIGITAL SCENE IMAGE SYNTHESIS
+Zhang Tianxu
+(Institute for Pattern Recognition and Artificial Intelligence,
+Huazhong University of Science and Technology.Wuhan.430074)
+Hu Bo
+(Key Lab.for Image Processing & Intelligent Control,The Ministry of Education of 
+China,Huazhong University of Science and Technology.Wuhan.430074)
+　　Abstract　Digital scene image plays an important role in navigation of aircraft.In some circumstances,it is necessary to synthesize digital scene images.We propose a system framework of scene image synthesis using digital elevation map(DEM) after analyzing the imaging mechanism.Key parts of the framework as illumination model,atmosphere model,error model,coordinates and view point transformation are given.Simulation results are also given.
+　　Key words　Navigation Digital elevation map Imaging mechanism Image synthesis
+1　引　言
+　　在飞行器制导系统研究过程中常遇到下列情形,使得模拟生成景象图非常重要。
+　　*　受客观条件的限制,没有和已知地形数据对应的景象图可用;
+　　*　对同一区域,需要获取不同视点,不同季节的景象图;
+　　*　飞行平台姿态误差是可变的,需要进行模拟;
+　　*　匹配识别算法研究和算法性能分析需要大量景象图［1］［2］［3］。
+　　国内外关于这一课题的成果在期刊上还不多见。文献［4］讨论了在简化的光照模型下,单一纹理的数字景象图的模拟生成,其应用有一定的局限性。文献［5］着重分析了成象系统的硬件组成,对算法涉及较少。本文详细分析了成象过程的每一步骤,综合了不同研究领域的一些成果,提出了一个基于数字高程图和成象机理的完整的可直接操作的模拟生成景象图框架,在这一框架的基础上,根据特定的应用背景,采用繁简不同的算法,可得到效果不同的景象图。最后提出以后进一步改进的途径。
+2　景象模拟生成框架
+　　景象模拟生成系统框图如图1所示,虚线框内是需要人机交互的功能模块。
+
+图1　数字景象图模拟生成框架
+　　总的流程为:
+　　(1)读入数字高程图和景象类别图;
+　　(2)算出太阳(光源)位置;
+　　(3)由数字高程图,景象类别图,光源,利用光照模型,得到表面反射矩阵;
+　　(4)考虑大气影响和噪声;
+　　(5)对表面反射矩阵,使用相机模型和消隐算法,通过插值和量化,得到景象图。
+2.1　数字高程图(DEM)
+　　数字高程图有多种表示形式,常用的规则矩形网格数字高程图可表示为:
+　　　　　　z=f(x,y)　　　　　　　　　　　　　　　　　　(1)
+z为高程,x,y为平面坐标。在我们的算法中,假设X轴由西至东,Y轴由南至北,Z轴指向由右手系决定。单位为米。
+2.2　光照模型
+　　为了计算景象可见面的亮度值,需要用到光照模型。现有光照模型可分为全局光照模型和局部光照模型。局部光照模型主要有朗伯模型(Lambertian model)和冯模型(Phong's model)。前者只考虑漫反射分量,后者进一步考虑了镜面反射。一般的,当景物表面为山地,田野等粗糙表面时,可以用漫射模型。我们目前生成的景物只限于以上类型,所以只考虑使用朗伯模型。当背景是水体或雪景等具有镜面反射特性的表面时,应使用冯模型。
+
+图2　Lambert光照模型
+　　朗伯模型用公式表达如下,它指出落在表面上的光能是随着光线入射角的余弦而变化的(参考图2)。
+　　　　　　I(α,β,γ)=ρcosα.Ed　　　　　　　　　　　　(2)
+I表示亮度,Ed是落在景物上的漫射光照,ρ是反射系数,取值范围是从0到1。α,β,γ意义参见图2。Lambert模型考虑的是漫射光,所以I与β,γ都无关。如果入射角α超过90度,则对光源而言,该表面为隐藏面,此时,要将I置零。
+2.3　太阳的位置
+　　为了得到(2)式中的cosα,首先要知道光源(太阳)的位置［6］。
+　　已知景象区域的地理经纬度,摄取景象图的日期和时间,则可通过计算得到太阳的位置。太阳位置由两个角表示,高度角φ(Elevation angle)是太阳与地平之间的夹角,方位角θ（azimuth angle)是太阳在地平面上的投影线与北向的夹角(逆时针方向)。下列一组公式中的记号意义如下:
+　　DEC　　　　　　　太阳偏向角
+　　GHA　　　　　　　格林威治时角
+　　LHA　　　　　　　地理纬度(单位:度)
+　　UT　　　　　　　 世界时
+　　Y,M,D　　　　　　年,月,日
+　　h,mis,s　　　　　小时,分,秒
+首先计算太阳偏向角和格林威治时角(单位:度):
+　　　　　　DEC=tan-1(tanεsinα)
+　　　　　　GHA=15UT-180-B+C-α
+　　　　　　ε=23.4393-0.01t　　　　　　　　　　　　　　　　　　(3)
+　　　　　　t=(UT/24+D+(30.6m+0.5)+［365.25(y-1976)］-8707.5)/36525
+　　　　　　UT=h+min/60+s/3600
+上式中,如果M＞2则y=Y,m=M-3,否则y=Y-1,m=M+9。Y,M,D分别是拍摄时的年,月,日。上面一组公式中的中间变量计算如下,各公式意义参见［6］。
+　　　　　　α=L-2.466sin2L+0.053sin4L
+　　　　　　L=280.460+36000.770t+C
+　　　　　　C=1.915sinG+0.020sin2G　　　　　　　　　　　　　　　(4)
+　　　　　　G=357.528+35999.05t
+现在,φ,θ可确定如下:
+　　　　　　sinφ=sinLATsinDEC-cosLATcosDECcosGHA
+　　　　　　　　　(5)
+{LAT的意义参见［6］。}
+2.4　亮度值的确定
+　　景物表面方程用(1)式表达,我们有如下推导。景物表面法向量为:,法向量为［-p,-q,1］,(p,q)即f(x,y)的梯度。光源(太阳)的方向向量为［-ps,-qs,1］,则(2)式中cosα可由向量［-p,-q,1］和［-ps,-qs,1］的归一化内积得出。(2)式又可写作:
+　　　　　　　　　　　　　　　(6)
+式中太阳方向向量由下式求出:
+　　　　　　ps=-sinθcosφ
+　　　　　　qs=-cosθcosφ　　　　　　　　　　　　　　　　　　　　　(7)
+对数字高程图的每一个单元面(x,y),相应的p和q可估计如下:
+　　　　　(8)
+其中d是数字高程图的网格间距。
+　　对应于每一(x,y),有ρ(x,y)。矩阵［ρ］即景象类别图。［ρ］可随机产生。
+
+图3　大气效应
+2.5　大气效应
+　　考虑大气效应［9］,进入相机的光由下面三部分组成:
+　　　　　　I=I0+Is+Id　　　　　　　　　　　　　　　　　　(9)
+I0是没有经过地面反射而直接由于大气散射进入相机的。它与景物表面反射无关,只是降低图象的对比度。Is是太阳光进入大气,被景物表面反射,再进入大气最后进入相机的分量。这一分量反映了景物表面的性质,是我们主要关心的分量。Id是散射分量(图3)。特别的,对于朗伯模型,有下式成立:
+　　　　　　　　　　　　　　　　　　　　　(10)
+ρ即(2)式中的反射系数,T是描述大气辐射的传输函数,S是大气反射系数。T,S的取值与季节,地理位置等因素有关,参考［9］。我们在实验中取为常数1。
+2.6　噪声模型
+　　按以上几步得到图像亮度后,还可考虑传感器的散弹噪声和热噪声［7］。下面只描述生成方法。令n1(.),n2(.)是两个标准高斯分布的随机数序列,u(.)是服从(-0.5,0.5)之间的均匀分布的随机数序列,附有噪声的图像可产生如下:
+　　　　I′(i,j)=［I(i,j)+σtn1(i,j)+σsn2(i,j)I(i,j)］.［1+σcu(i,j)］　　(11)
+σt,σs,σc的意义和取值见［7］。
+2.7　相机模型和坐标系
+2.7.1　相机模型
+　　我们采用一般的针孔相机模型。并认为相机内参数已知:焦距f可调(实验中取典型值100mm),X,Y方向的偏心为零。
+2.7.2　透视变换和坐标系
+　　本文中涉及三个坐标系:世界坐标系oxyz,观察坐标系OXYZ和屏幕坐标系O′X′Y′Z′(参见图4)。世界坐标系与DEM坐标系重合,所有点的坐标都以世界坐标系为基准。观察坐标系中的原点为视点,Z轴与相机光轴重合。屏幕坐标系的XOY面与成象面重合,原点是相机光轴与成象面的交点。透视变换的过程是先将世界坐标系中的点变换成观察坐标系中的点,再将观察坐标系下的点变换成屏幕坐标系中的点。
+
+图4　坐标系
+　　我们用齐次坐标将以上变换过程表达如下:
+　　　　［X′,Y′,Z′,1］=［x,y,z,1］TR(Y,180°)R(Z,90°)P　　　　　　(12)
+其中T为平移变换矩阵,R(Y,180°)为绕Y轴逆时针旋转180度的旋转变换矩阵,R(Z,90°)为绕Z轴逆时针旋转90度的旋转变换矩阵,P为透视变换矩阵。算出(X′,Y′)后,再经过插值,量化和消隐,最终得到景象图。
+3　模拟结果
+　　本实验采用位于武汉附近(东经114.2,北纬30.5)的一块大小448*480,网格大小25m(即11.2km*12.0km)的数字高程图(图5)。图6和图7是模拟产生的两幅景象图。
+
+图5　本实验所用数字高程图,
+448点*480点,网格大小25m
+
+图6　(东经114.2,北纬30.5)1996年
+11月2日北京时间10:00
+噪声σt=σs=0.5,σc=0.5
+相机位置(5600m,6000m,1500m)相机焦距f=0.1m
+
+图7　(东经114.2,北纬30.5)1996年
+11月2日北京时间10:00
+噪声σt=σs=0.5,σc=0.5
+相机位置(5600m,6000m,2100m)相机焦距f=0.1m
+4　进一步的工作
+　　模拟产生数字图象图是一个难度大,需要大量基础工作的课题。本文给出了一种模拟生产景象图的完整框架和完整算法,实验表明方法是有效的。进一步的工作包括:
+　　(1)本文只用到局部光照模型,下一步工作考虑使用一些快速的全局光照模型,以求得更高的真实感。
+　　(2)利用本文提出的模型反求ρ,统计出不同地物ρ的取值。用这些ρ值进一步生成复杂的景象图。
+　　作者单位：张天序(华中理工大学图象识别与人工智能研究所.武汉.430074)；胡礴(华中理工大学图象信息处理与智能控制教育部开放实验室.武汉.430074)
+参考文献
+　1　Tianxu Zhang,Weixue LU,Jiaxiong Peng.Adaptive Image Matching via Spatial Varying Gray-Level Correction.IEEE Trans.Comm.,1995,43(5):1971-1980
+　2　Xianming Xie,Tianxu Zhang,Nong Sang,Guoyou Wang.Texture Segmentation Using Visual Nonlinearity,Machine Vision Applications.Architectures and Systems Intelligence,SPIE,1995,2597(10):142-149
+　3　Yabin Xie,Tianxu Zhang,Wangqing Zhang.Using Phase Correlation Based on Edge for Scene-Matching.International Conference on Neural Networks and Signal Processing,Nanjing,China,1995:1479-1482
+　4　Woodham,Robert J,Using Digital Terrain Data to Model Image Formation in Remote Sensing.SPIE,Image Processing for Missile Guidance,1980,238:361-267
+　5　J.P.Kerrkes et al.Simulation of Optical Remote Sensing Systems.IEEE Trans.GRS,1989,27(6):762-771
+　6　R C.Angus et al.Sun Position for Daylight Model:Precise Algorithms for Determination.Light Res.Technology,1993,25(2):81-83
+　7　D A.Landgrebe and E R.Malaret.Noise in Remote Sensing Systems:The Effect on Classification error.IEEE Trans.GRS,1986,25(3):294-300
+　8　A H.Strahler et al.On the Neture of Models in Remote Sensing.Remote Sensing of Environment,1986,20(2):121-139
+　9　T Y.Lee et al.Non-Lambertian Effects on Remote Sensing of Surface Reflectance and Vefetation Index.IEEE Trans.GRS.1985,24(5):699-708
+　　本课题得到国防科工委基金的资助
+收稿日期:1997年2月27日,修回日期:1998年3月31日

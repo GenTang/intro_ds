@@ -1,0 +1,138 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+北极冰化学元素含量及其分布*
+方精云　刘少创
+摘要　报道了北极冰主要化学元素的浓度分布及其变化.在测定的31种成分中，高于仪器检测限的10种元素B、Mg、V、As、Rb、Sr、Ca、K、S、Na和硬度被用来统计分析.结果表明，同一地区，元素浓度相对稳定，不同地区浓度有较大差异.元素浓度与纬度关系的相关分析显示，随纬度增加，各元素浓度显著降低.同一冰层元素浓度的变化与深度无关.元素间相关矩阵揭示，元素浓度间存在显著的相关关系，并且相关系数均为正值，即随某一元素浓度的增加，其他元素的浓度也随之增加.导致这一现象的原因有待于进一步分析.
+关键词　北极冰; 化学成分; 冰层; 纬度; 统计分析.
+Contents and distribution of chemical elements in arctic ice
+FANG Jingyun (Department of Urban & Environmental Sciences, Peking Universit,Beijing 100871)
+LIU Shaochuang (Institute of Remot Sensing Applications,Academic of Science,Beijing 100101)
+Abstract　Contents and the distribution of main chemical elements in ice in Canadian Arctic Sea are reported. Ten elements, B,Mg,V,As,Rb,Sr,Ca,K,S,Na,and hardness were detected, and the data were used for statistical analysis. The results showed that the content of an element has a similar value in the same place, but difference is found from place to place. Content of an element decreases with increasing latitude, but keeps unchanged in different depth in the same ice profile. A correlation matrix shows that there are strong correlations between contents of different elements, namely,content of an element increases with that of others,but the cause is unknown yet.
+Keywords　Arctic ice,chemical element,ice profile,latitude,statistical analysis.
+　　北冰洋构成北极圈的中心，是地球上最大的海水冰原.据测算，北极的陆地总面积为148×107km2［1］，冬天北冰洋的冰面面积可达23×107km2［2］，到了面积最小的9月份，冰面面积仍可达8×107km2［3］ .如此巨大的冰面其环境状况如何，自然是人们所十分关心的.为此，我国首次北极科考的环境考察内容之一是调查北极冰中化学元素含量.关于北极冰雪中某些化学元素或其同位素的含量及其分布的研究, 国外已有不少报道［4—7］, 但冰雪中多种化学元素含量, 尤其是它们的地理分布特征的研究却不多见.作者在这次科考过程中，对北极冰进行了大范围的取样，取样地理跨度南起北纬74°48′N的Resolute，北至北极点，共取得冰样31个.这些样品为研究北极冰的化学元素背景及其地理分布特征提供了宝贵资料.
+1　材料和方法
+1.1　材料
+　　1995年4—5月，在高纬度北极地区共采集样品31个，其中在Resolute和Eureka分别掘起200cm(R-2)、100cm(R-1)和50cm(Eu-1) 的冰层剖面各1个.样品采集后置于低温(＜0℃)中保存.于1995年6月和12月分别在中科院生态环境研究中心和国家地质实验测试中心用ICP和ICP-MS等仪器测定冰中主要化学元素含量.测定方法见文献［8］.
+1.2　仪器
+　　将保存于低温下的冰自然融化后，采用不同仪器对30种化学元素含量和硬度进行了测定.
+　　(1) CP-MS (VG Plasma Quad).功率: 1.25kW；载气：0.7L/min.
+　　测试项目：Be, B, Ti, V, Cr, Mn, Co, Ni, Cu, Zn, Ga, As, Rb, Sr, Y, Zr, Nb, Cd, Ba, Hg, Pb, Th. 
+　　(2) ICP-AES (JA-1160).功率: 1.0kW,载气：0.5L/min; 反射功率＜5W; 冷却气：0.5L/min.测试项目：Si, Al, Fe, Ca, Mg, Na, P.
+　　(3) 用原子吸收分光光度计(Z-8000)，测定K.波长769.9nm，狭缝1.3nm，灯电7.5 mA.
+2　结果和讨论
+2.1　主要元素含量
+　　31个样品30种化学组分的测定结果显示，不少元素的含量值低于仪器检测限或在其附近变动.为便于分析元素含量的地理分布规律和元素间的关系，将高于检测限的10种元素和硬度列于表1，并分别求出不同地点的平均元素含量和标准差以及它们的平均值(表2).在表2中，位于北纬86°30′的临时冰上机场附近(见表1的样号B29)所获数据末列入计算，这是因为该冰上临时机场每天有数次飞机升降，此处的冰已受到飞机升降的显著影响.冰化学元素含量的高低不仅与冰冻结时的海水化学成分有关，也与冰层的形成时间及当时的环境状况有关，但要确切地弄清其原因是相当困难的.因为北冰洋的冰和海水始终处于流动之中，因此，我们在某处获得的样品到底来自何处并不清楚.另外，我们也难以确认冰层形成的时间.
+　　本次所取冰样多为多年冰，是海水经数年交替冻结而成.为比较冰的化学元素含量与海水的化学元素含量之间的差异，在表2中还分别列出了位于Resolute Bay的 R-2号冰层剖面之下的海水样品(见表1的样号B16)的化学元素含量，以及全球海水的平均元素含量［9］ .从表2可知，北极冰平均元素含量与海水的化学元素含量相差较大.这主要是由于冰层形成后，由重力作用和雨水淋洗作用导致冰中化学元素沉降的缘故.这里，我们定义冰层的某一元素含量(Ci)与海水中该元素的含量(Cs)的百分比值为沉降指数(Drop index, Di), 即
+　　　　　　　　　　　　　　　(1)
+K、Ca、Mg这类主要以离子形态存在于海水中的碱金属或碱土金属元素均呈现出较小的Di值，即沉降速率快，而象As和B这类非金属元素的Di值甚大，表现出相当强的稳定性，沉降速率慢.
+2.2　元素浓度的纬向分布和垂直分布
+　　表3列出表层冰主要元素含量与纬度之间的关系以及2个冰层剖面(R-1 和R-2) 主要化学元素含量与冰层深度的关系.11种化学成分的含量与纬度之间均显示了显著的负相关关系，其显著性概率(P值)均小于0.06%.即随着纬度的增加，元素含量逐渐降低.另一方面，在同一冰层中(R-1和R-2)，随着深度的变化，各元素含量并不显示有规则的变化(表4).除了剖面R-2中的元素V (P=4.22%)和S(P=22.39%)之外，其他元素的P值均大于30％，说明元素含量与深度之间无显著性相关.虽然我们所取样的冰层为不同年份形成的多年冰，但冰层并不厚(最厚的冰层(R-2)，冰厚也仅为2 m)，也就是说形成的年数并不多，因而化学元素在冰层剖面中的分布尚不能明确地显示出来.另一方面也似乎说明，在所研究冰层，不同年份形成的冰，其元素含量没有显著性不同.
+表1　北极冰主要化学元素的含量(μg/g)及有关采样特征
+Table 1 Concentrations of main chemical elements in arctic ice in different samples
+
+采样地点纬度(N)经度(W)冰层号样号深度
+cmBMgVAsRbSrCaKSNa硬度
+Resolute74°48′94°59′R-1B10—50.36227.00.0420.0110.0261.0961.275.6268.017001090
+74°48′94°59′B2200.27167.00.0340.0070.0210.8445.346.6113.0133080
+74°48′94°59′B3400.18119.00.0280.0040.0140.6432.833.353.1899572
+74°48′94°59′B4600.34314.00.0530.0120.0291.3787.489.6231.024401510
+74°48′94°59′B5800.31281.00.0510.0120.0271.1175.684.1190.021901350
+74°48′94°59′B61000.27224.00.0430.0130.0251.0061.858.5134.017301080
+Resolute74°48′94°59′R-2B70—50.26206.00.0420.0110.0241.2057.154.8194.01730991
+74°48′94°59′B8200.23155.00.0340.0130.0220.9242.743.4104.01270745
+74°48′94°59′B9400.19151.00.0390.0120.0190.8041.242.0110.01150725
+74°48′94°59′B10600.23168.00.0340.0110.0210.9046.145.368.21250807
+74°48′94°59′B11800.24187.00.0350.0110.0230.9550.149.2111.01410895
+74°48′94°59′B121000.20183.00.0350.0090.0190.8148.548.2162.01440875
+74°48′94°59′B131200.22182.00.0240.0120.0210.8547.848.862.21400869
+74°48′94°59′B141500.19180.00.0250.0090.0180.7548.747.862.01370863
+74°48′94°59′B152000.32180.00.0320.0150.0291.1847.848.4103.01380861
+74°48′94°59′B16海水0.28954.00.0580.0130.0361.47277.0319.0284.097304620
+Eureka79°59′85°56′Eu-1B170—50.15157.00.0330.0070.0130.6041.942.7230.01440751
+79°59′85°56′B18200.14134.00.0290.0050.0120.5837.636.893.01050646
+79°59′85°56′B19500.12134.00.0280.0060.0110.5337.637.084.51060646
+极点附近89°13′？P-1B200—20.14152.00.0310.0100.0130.6040.341.6132.01220727
+89°13′？B21100.0768.3-0.0090.0070.3716.720.1-538323
+89°13′？B22200.15107.00.0260.0060.0120.5832.432.288.2835521
+极点附近89°38′？P-2B230—20.0324.90.0090.0020.0030.208.27.428.1212123
+89°38′？B24100.0217.7-0.0020.0020.146.05.5-17488
+89°38′？B2520-3.20.007-0.0000.030.91.25.43116
+冰上机场86°30′？P-3B29表层0.24318.00.0510.0080.0220.9084.895.0286.025701520
+北极点90°00′90°00′P-4B30表层0.0743.80.0110.0030.0060.3414.214.458.5370216
+北极点90°00′90°00′P-5B31表层0.0337.50.011-0.0020.1113.612.846.5301189
+
+表2　不同地点北极冰的主要化学元素平均含量及沉降指数
+Table 2　Average concentration and drop index (Di) of main chemical elements in different ice samples
+
+化学
+成分ResoluteEureka89.13 N in
+latitude89.38 N in 
+latitudeNorth Pole北极海水含量，
+μg/gDi ,
+%
+平均含量,
+μg/g平均含量,
+μg/g平均含量,
+μg/g平均含量,
+μg/g平均含量,
+μg/g平均含量,
+μg/g
+B0.29±0.060.23±0.040.14± 0.020.03±0.010.050.19±0.100.2867.9
+Mg222.00±71.57176.89±16.81141.67±13.2815.27±11.0540.6146.28±78.19954.022.4
+V0.04±0.010.03±0.010.03±00.01±00.010.03±0.010.05851.7
+As0.01±00.01±00.01±0000.01±00.01376.9
+Rb0.02±0.010.02±00.01±0000.02±0.010.03655.6
+Sr1.01±0.250.93±0.160.57±0.040.12±0.090.220.71±0.361.4748.3
+Ca60.68±19.7647.78±4.5539.03±2.485.03±3.7413.940.13±20.88277.014.5
+K64.62±22.2147.54±3.7338.83±3.354.70±3.1813.641.05±22.21319.012.9
+S164.85±79.72108.49±44.95135.83±81.6616.75±16.0552.5113.82±67.98284.040.1
+Na1715.00±559.601378.00±161.771183.00±222.34139.00±95.44335.001151.00±605.01973011.8
+硬度947.00±531.00847.89±80.34681.00±60.6275.67±54.56202.00675.35±393.07462014.6
+
+表3　表层冰(0—20cm)主要化学元素含量与纬度之间的相关系数(R)及其显著性概率(P)
+Table 3 Correlation coefficient (R) of the content of chemical elements to latitude and their probability (P, %).
+
+元素BMgVAsRbSrCaKSNa硬度
+R-0.88-0.85-0.84-0.62-0.90-0.87-0.85-0.83-0.68-0.85-0.63
+P, %0.010.010.060.030.000.000.000.000.010.000.01
+
+表4　冰层剖面的主要化学元素含量与冰层深度的相关及显著性概率
+Table 4　Correlation coefficient (R) of the content of chemical elements to ice profile depth
+in two ice profiles and probability (P, %).
+
+元素BMgVAsRbSrCaKSNa硬度
+R-1R-0.130.400.460.510.280.240.410.21-0.160.410.48
+　P, % 80.4343.6836.2630.3258.5064.6742.2269.1575.6941.5135.10
+R-2R0.300.14-0.680.160.27-0.03-0.020.07-0.45-0.090.12
+　P, %43.6772.614.2267.4548.8693.0696.2185.8122.3981.6975.20
+
+2.3　元素含量间的相关性
+　　元素含量间的相互关系具有重要的生物地球化学意义［10］. 图1给出各元素间的相互关系趋势(左下部)以及相关系数和显著性相关概率(右上部).10种元素含量和总硬度之间均显示了显著的正相关关系，即随某一元素浓度的增加，其他元素含量也显著增加，并且增加的趋势几乎是线性的.关于淡水河流元素间的关系有一些研究［11—13］ ，但海水中的元素含量间相互关系很少见报道.
+
+
+图1　北极冰的10种化学元素及硬度间的相关性
+Fig.1 Correlationships among contents of main chemical elements in arctic ice
+　　样品采集得到中国首次北极科考队队员的大力协助，化学元素测试得到殷兴军等先生的大力帮助.在此一并致谢.
+* 国家杰出青年科学基金部分资助；北极考察费用得到南德经济集团资助.
+作者单位:方精云　北京大学城市与环境学系，北京　100871
+刘少创　中国科学院遥感应用研究所，北京　100101
+参考文献
+1　AMAP. Interim Report to the third Ministerial Conference: Arctic Environmental Protection Strategy. Arctic Monitoring and Assessment Programme (AMAP), Inuvik, Canada. 1996
+2　CCAFF. Circumpolar Protected Areas Network - Strategy and Action Plan. Conservation of Arctic Flora and Fauna (CAFF). Habitat conservation report No. 6. Trondheim. Norway. 1996
+3　EAA/ NPI. State of the European Arctic Environment. Hansen J R,Hansson R,Norris S (eds). European Environment Agency/Norwegian Polar Institute (EEA/NPI). EEA Environmental Monograph No. Norsk Polarinstitutt Meddelelser No. 141.1996
+4　Landy M P, Peel D A, Wolff E W. Trace metals in remote Arctic snows: natural or anthropogenic? Nature, 1980, 284: 574—575
+5　Neftel A, Beer J, Oeschger H, Zurcher F. Sulphate and nitrate concentrations in snow from South Greenland 1895—1978. Nature, 1985, 314: 611—613
+6　Vermette S V,Bingham V G. Trace elements in Frobisher Bay Rainwater. Arctic, 1986, 39: 177—179
+7　Boutron C F, Ducroz F M, Gorlach U, & Jaffrezo J L. Variations in heavy metal concentrations in frech Greenland snow from January to August. Atmospheric Environment, 1993, 27A (17/18): 2773—2779
+8 殷万宁. 等离子体质谱法测定天然水中痕量元素.岩矿测试, 1991, 10(3): 171—174
+9　陈静生等. 环境地球化学，北京：海洋出版社. 1990
+10 李永祺，丁美丽. 海洋污染生物学.北京：海洋出版社.1991
+11 乐嘉祥，王德春. 中国河流水化学，地理学报, 1963, 29: 1—9
+12 Gibbs R J. Water Chenistry of the Amazon Rives, Geochimica et Cosmochimica Acta, 1972, 36: 1060—1066
+13　Hu M H. Major ion chemistry of some large Chinese rivers. Nature, 1982, 239: 550—553
+1998-04-28收到原稿
+1999-01-29收到修改稿

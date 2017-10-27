@@ -1,0 +1,89 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+温敏性线型共聚物对金属离子的吸附
+张剑波　
+摘要　利用合成的NIPAAm-AAc温敏性线型共聚物研究了其对无机金属离子的吸附性能，以期应用于水污染的治理.结果表明其有明显的浓集效果，在pH=4时，对Y3+、Er3+和UO2+2的浓集率分别达到84%、65%和56%，相应的浓集量分别为11.2mg.g-1、4.45mg.g-1和11.3mg.g-1，并讨论了影响浓集的条件和吸附机理.
+关键词　温敏性线型共聚物；金属离子；浓集.
+Absorptivity of temperature sensitivity linear copolymers to metal ions in dilute aqueous solution
+ZHANG Jianbo 
+(Department of Technical Physics,Peking University,Beijing 100871)
+Abstract　Absorptivity of linear copolymers to metal ions was studied in dilute aqueous solution.The conditions of concentration were given and the mechanism was discuses.The concentration effect of polyNIPAAm-co-AAc) was higher than that of polyNIAAm,which was found not only for Er3+ but for UO2+2 and Cr(VI).Because polyNIPAAm is nonionizing polymer which was not influenced by pH.On the contrary,ionization of poly(NIPAAm-co-AAc) took place at high pH.The hydrolysis of these metals was suggested in the pH range of 2 to 4.Concentration effect of copolymer for UO2+2 was found at pH 3.The concentration yield increased rapidly with a little increase in pH,because six-element-ring compound of COOH with UO2+2 was formed.The concentration effect was observed forEr3+,UO2+2 and Cr(VI).
+Keywords　temperature sensitivity copolymers,metal,absorptivity.
+　　
+1　前言
+　　水溶性温度敏感性聚合物(water soluble temperature sensitive polymer)具有低临界相转变温度LCST(lower critical solution temperature)，在此温度以上，聚合物则以沉淀析出，并且此过程可逆.由于具有这一特性其被广泛应用于化学分离，生物分子耦合，药物纯化等方面［1，2］，而将其对无机金属离子的吸附性能应用于环境污染的治理，却是一个崭新的领域.
+　　本文研究以N-异丙基丙烯酰胺(NIPAAm)为主体的聚合物对金属离子的吸附性能，采用新的思路，寻找高效、清洁、低成本的除污方法.此法的特点在于，利用材料的温度敏感性及聚合溶解沉淀的可逆性，便于实现材料的反复利用和废弃资源的再生.在考虑到各种可能影响因素的基础上，通过不同聚合物在不同条件下对金属离子吸附状况的研究，发现在一定pH条件下其对Y3+、Er3+、UO2+2和Cr(Ⅵ)具有良好的吸附效果.
+
+2　实验部分
+2.1　仪器和试剂
+　　仪器：721型分光光度计(上海第三分析仪器厂)：pHS3型酸度计(上海第二分析仪器厂)，60Co-γ辐射源(北京大学技术物理系).
+　　试剂：N-异丙基丙烯酰胺(NIPAAm，美国Kodak公司)；丙烯酸(AAc,北京化工厂)，使用前经减压蒸馏纯化；Y3+、Er3+、UO2+2(北京化工厂)；Cr(Ⅵ)(上海浦江化工厂)；其他试剂均为AR级.
+2.2　温敏性共聚物(PNIPAAm/AAc)的合成
+　　将NIPAAm(0.08g/mL)溶于四氢呋喃(THF)中振荡使之溶解后取9mL，加入1mL的丙烯酸(AAc,0.08g/mL)共10mL置于内径为14mm的辐照管中，通高纯氮除氧15min，封管，室温下用60Co-γ辐照(剂量率38.4Gy/min，总计量3kGy)［3—6］.辐照后的溶液用5倍的乙醚使聚合物沉淀，静置，过滤，用乙醚洗涤2—3次后，即得PNIPAAm/AAc(9∶1，W/W)的线型共聚物.
+2.3　对金属离子吸附的测定
+　　在高于其临界温度(LCST)时聚合物可以与金属离子一起被沉淀下来，经对金属离子分离后，聚合物又可重复使用，这对污水净化，资源回收有着重要的意义.定量量取一定浓度的金属离子溶液(C0)于烧杯中，加入一定量的聚合物，调节pH值，将烧杯置于水浴中加热达到相转变温度(LCST)出现沉淀，保持加热5—10min，用热漏斗过滤，滤液收集在另一烧杯中(经加热后滤液无浑浊，则表示温敏线型聚合物已回收完全)，测滤液中离子浓度(C)，则浓集率R=(C0-C)/C0×100%.
+　　Y3+、Er3+、UO2+2采用铀试剂Ⅲ比色法，Cr(Ⅵ)则用二苯卡巴肼(λ=550nm)显色反应测其浓度.
+
+
+图1　溶液pH值与PNIPAAm/AAc的LCST及浓集率R的关系
+Fig.1 Effect of pH on LCST and Concentration Rate of PNIPAAm/AAc
+3　结果与讨论
+3.1　溶液pH对吸附的影响
+　　线型PNIPAAm/AAc共聚物具有温敏性，在不同pH测定其LCST值，随pH值的升高LCST增高(见图1)，其原因在于当pH值上升，有利于线型共聚物中羧基COOH的解离，当分子中COO-增多，极性增大，分子间斥力增大，易溶于水而不易沉淀，故LCST值上升.而线型共聚PNIPAAm/AAc中COO-的增多，对阳离子的引力增大，也将影响对离子的浓集.分别固定C0(Er3+)=4.00×10-4mol/L,C0(Y3+)=3.85×10-4mol/L,C0(UO2+2)=3.74×10-4mol/L,PNIPAAm/AAc聚合物量为5g.L-1，改变pH值，测其对浓集率的影响，结果见图1.
+　　由图1可见随pH值上升，PNIPAAm/AAc对各离子的浓集率增加，对Er3+，Y3+和UO2+2的最大浓集率分别为84%、65%和56%，相应的浓集量分别为11.2mg.g-1、4.45mg.g-1，和11.3mg.g-1.存在羧基的PNIPAAm/AAc之所以有较强的吸附能力，这是由于二元线型共聚物能与金属离子形成稳定的螯合物.在研究过程中，曾用PNIPAAm聚合物进行对比实验，其对Y3+、Er3+的浓集能力明显小于共聚物PNIPAam/AAc的浓集能力；对UO2+2则未见有吸附作用.聚合物对阳离子的作用与离子的大小及络合方式有关，Y3+、Er3+与UO2+2相比体积要小得多，可配位成八面体，—COO-的存在利于络合物的生成；而UO2+2的配位一般为六角双锥形，使得络合体的体积很大，从而降低了浓集作用；对PNIPAAm/AAc来讲，随pH升高，共聚物中—COO-增加，对阳离子的引力增加，促进与UO2+2的络合，从而对铀浓集有利，螯合物的结构示意图为：
+
+在以下的实验中，选取pH=3，使共聚物有较适宜的沉淀温度.
+3.2　离子初始浓度对浓集率的影响
+　　在pH=3，PNIPAAm/AAc量为5g.L-1时，改变溶液的初始离子浓度，其浓集率变化见表1、表2.
+表1　不同Er3+浓度下PNIPAAm/AAc的浓集率
+Table 1 Concentration rate of PNIPAAm/AAc at various Er3+ concentration
+
+C0,mg.L-15.8512.520.126.833.540.2
+浓集率，%88.076.059.040.038.025.0
+浓集量，mg.g-11.031.902.372.142.552.01
+
+表2　不同Y3+浓度下PNIPAAm/AAc的浓集率
+Table 2 Concentration Rate of PNIPAAm/AAc at various Y3+ concentration
+
+C0,mg.L-13.297.1210.714.217.819.9
+浓集率，%81.073.065.060.047.039.0
+浓集量，mg.g-10.531.041.391.701.671.55
+
+　　由表1、表2可见，随着Er3+、Y3+离子初始浓度增加，聚合物对其浓集率下降，但浓集量有所增加，表明在离子浓度较低的情况下，PNIPAAm/AAc的浓集量并未饱和，但由于平衡的存在，也不能吸附所有离子；随着离子浓度的增加，浓集率趋向降低，说明共聚物对离子的吸附会趋向饱和.
+3.3　聚合物用量的影响
+　　固定体系C0(Er3+)=2.0×10-4mol.L-1,C0(Y3+)=2.0×10-4mol.L-1和pH=3.5，浓集率随聚合物用量的变化见图2.
+
+
+图2　聚合物用量与浓集率R的关系
+Fig.2 Relationship between amount of polymers and concentration rate R
+　　由图2可见，当PNIPAAm用于Er3+、Y3+浓集时，浓集率随聚合物用量的增加而缓慢上升，最终达到平衡，吸附曲线与一般固体表面吸附规律相符，符合兰缪尔方程；而PNIPAAm/AAc(W/W,9/1)共聚物对Er3+、Y3+的浓集除了表面吸附外，还与二元共聚物中的羧基有关.—COOH离解后，对阳离子有强的电荷引力，与其络合能力增强，随着共聚物量的增加，对Er3+、Y3+的吸附呈线性上升.
+　　可以预计，对PNIPAAm/AAc共聚物，增加其AAc的含量，将有利于对金属离子的吸附，但考虑到共聚物的合成及保持其温度敏感特性等因素，在合成时选择NIPAAm∶AAc为9∶1(W/W).
+3.4　聚合物对Cr(Ⅵ)的吸附
+　　Cr(Ⅵ)是污水、污泥中常见的污染物，对其治理一般采用电解法，但效果并不理想，故寻找高效、清洁、简便的除Cr(Ⅵ)方法是一重要课题.经对Cr(Ⅵ)用温敏性线型聚合物吸附沉淀的初步尝试，其结果示于表3中.
+表3　不同分子量的PNIPAAm和PNIPAAm/AAc对Cr(Ⅵ)的浓集
+Table 3 Concentration Rate of PNIPAAm and PNIPAAm/AAc for Cr(Ⅵ)
+
+PNIPAAmPNIPAAm/AAc(W/W,9/1)
+分子量浓集率R,%分子量浓集率R,%
+4.0×10439.84.0×104～100
+2.2×10589.08.0×105～100
+4.2×10593.2
+
+　　* C0[Cr(Ⅵ)]=10mg.mL-1,pH=3.0　PNIPAAm和PNIPAAm/AAc用量均为1%(W/W)
+　　由表可见，合成的线性聚合物和共聚物对稀水溶液中Cr(Ⅵ)都有明显的吸附作用，其中PNIPAAm/AAc共聚物中由于存在对Cr(Ⅵ)有络合能力的羧基，所以其浓集率明显高于线型PNIPAam均聚物.对PNIPAAm均聚物而言，其分子量增加能明显提高对Cr(Ⅵ)的吸附能力，而共聚物中由于AAc的存在使其对Cr(Ⅵ)的浓集能力相当高(～100%)，因此再提高分子量则无显著差异，详细机理有待进一步研究.以上结果表明，温敏性线型共聚物吸附去除污水中的Cr(Ⅵ)具有良好应用前景.
+作者单位：(北京大学技术物理学系，北京　100871)
+参考文献
+　1　Levi Valuev,Olga N,Lefirova et al.Targeted delivery of drug provided by water-soluble polymeric systems with low critical solution temperature(LCST).J Bioactive and Compatible Polymers,1994,9(1):5
+　2　Allan S Hoffman.Appliations of thermally reversible polymers and hydrogels in therapeutics and diagnostics.J Controlled Release,1989,6(1):297
+　3　Noriyasa Nagaoka,Agneza Safianj,Masaru Yoshida et al.Synthesis of poly(N-isopropylamide) hydrogels by radiation polymerization and crosslinking.Macromolecules,1993,26(26):7386—7388
+　4　Mccormick C L,Blackmon K P.Water-solublecopolymers.XIX.Copolymers of Acrylamide with Sodium 3-(N-propyl) acrylamido-3-Methylbutanoate:Synthesis and characterization.J Macromol Sci-Chem.1986,A23(12):1451—1467
+　5　翟茂林，伊　敏，哈鸿飞.辐射技术在温度敏感性水凝胶合成改性中的应用.同位素，1995,8(2):124
+　6　Yi M,Li J,Ha H F.Radiation preparation of the water-soluble temperature sensitive polymers in organic solvents.Radiat Phys Chem,1993,46(4—6):855
+1997-09-29收到原稿
+1998-05-14收到修改稿
+
+

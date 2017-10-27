@@ -1,0 +1,96 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+阿魏酸芥子酸清除亚硝基自由基的动力学研究*
+张周恩　姚思德　王文锋　林维真　林念芸
+(中国科学院上海原子核研究所辐射化学开放实验室，上海　201800)
+
+摘要　利用脉冲辐解方法，研究了阿魏酸、芥子酸(HCA)快速清除NO·2的机理，测得NO·2从HCA抽氢反应的动力学常数为(7.2—7.4)×108dm3*mol-1*s-1量级，并发现在弱酸性条件下HCA也能有效清除HNO2.
+关键词　亚硝基自由基；脉冲辐解；羟基肉桂酸衍生物；反应动力学.
+KINETIC CONFIRMATION OF THE SCAVENGING REACTION OF FERULIC ACID AND SINAPIC ACID WITH NITROGEN DIOXIDE RADIAL
+
+Zhang Zhouen, Yao Side, Wang Wenfeng, Lin Weizhen, Lin Nianyun
+(Laboratory of Radiation Chemistry, Shanghai Institute of Nuclear Research, Chinese Academy of Sciences, Shanghai 201800)
+
+ABSTRACT　By application of pulse radiolysis, the quick scavenging mechanism of nitrogen dioxide radical NO2 by ferulic acid and sinapic acid was studied. The rate constants for the hydrogen abstraction of nitrogen dioxide radical from HCas were determined as k=(7.2—7.4)×108dm3*mol-1.s-1. It was also found out that HCA can also acavenge nitrous acid HNO3 under the weak acidic condition.
+Keywords　scavenging, ferulic acid, sinapic acid, nitrogen dioxide radial.
+1　引言
+　　亚硝酸盐是环境污染物质，在自然界和人体新陈代谢中产生的亚硝基自由基NO·2被公认为具有细胞致突变或致死毒性.含氮有机物燃烧、细菌的新陈代谢［1］、亚硝酸盐水溶液紫外光光解［2］、NO与O2作用都会产生亚硝基自由基NO·2.它的E0(NO2·/NO2-)=1V［3］，是一个强氧化剂.在气相或液相中NO2·与烯烃和不饱和脂肪酸发生加成反应并诱导过氧化，此过程导致细胞膜损伤，使细胞致死［4，5］.NO2-从脂肪烃等抽氢生成亚硝酸HNO2，进而与肺组织或食物中胺类化合物反应生成强致癌物亚硝胺，引发肺癌和胃癌［6］.另有研究表明，NO2·能氧化肽上的半胱氨酸［7］、酪氨酸［8］并加成到肽上，使酶失活.NO2·是一个类似NO被认为造成生物物质损伤的重要含氮自由基，研究清除该自由基的机理具有深远意义.羟基肉桂酸衍生物包括阿魏酸、芥子酸等，是一类良好的天然抗氧化剂，其单电子氧化还原电位分别为0.70V、0.60V［9］，已有的研究表明能有效清除羟基自由基(OH)［10］、并能快速修复DNA及其组份的氧化性羟基加成自由基［11］.利用脉冲辐解技术，研究了水溶液体系中羟基肉桂酸衍生物清除NO2·的机理，并测定了抽氢反应动力学常数k.
+
+2　材料和方法
+2.1　材料
+　　阿魏酸(ferulic acid)、芥子酸(sinapic acid)为Sigma公司试剂(纯度＞98%)，亚硝酸钠为化学纯试剂，都经重结晶纯化.所有溶液都于实验前用3次蒸馏水新鲜配制，用氧化亚氮(N2O)鼓泡20min除氧并将水辐解产生的水合电子转换成羟基自由基.
+2.2　脉冲辐解
+　　实验使用8MeV电子直线加速器的脉冲电子束照射样品，其电子束脉宽为8ns，脉冲束流为2—3A；用时间分辨吸收分光光度测定和跟踪瞬态产物.以空气饱和、浓度为10mmol.dm-3 KSCN水溶液作脉冲剂量计标定单脉冲剂量，取480nm处(SCN)2*-的摩尔消光系数ε为7600dm3*mol-1*cm-1，(SCN)2*-的G值为2.8.本实验中使用的单脉冲剂量为10Gy,测定脉冲辐解产物瞬态吸收谱时使用流动池.装置和数据处理详见文献说明［11］.
+2.3　亚硝基(NO·2)的产生
+　　N2O饱和的4mol*dm-3 NaNO2(pH7)水溶液体系在脉冲辐解中，水被辐解生成水合电子(eaq-)、羟基自由基(OH)和氢原子(H)，水合电子被N2O转换成OH.经电子转移，NO2-被OH氧化成NO·2自由基，取G=5.6［2，7，8］.其反应机理为：
+　　H2O～～～HO*, eaq-, H* 
+(1)
+　　N2O+eaq-N2+OH*+OH-　k2=6.5×109dm3*mol-1*s-1
+(2)
+　　OH·+NO2-OH-+NO2·k3=1.0×1010dm3*mol-1*s-1
+(3)
+　　NO2.+NO2.N2O4k4=3.8×107dm3*mol-1*s-1
+(4)
+　　K4=6.5×104(平衡常数)
+NO·2的最大吸收在400nm，摩尔消光系数为ε400nm=200dm3*mol-1*cm-1.
+2.4　动力学测定方法
+　　酚类化合物和脉冲辐解产生的亚硝基自由基反应后生成酚氧自由基［8，9］，因此羟基肉桂酸衍生物(HCA)与NO·2作用形成酚氧自由基，可由NO·2自由基的衰减曲线或酚氧自由基(PhO·)的生长曲线，测定相应反应动力学常数.由于酚氧自由基在可见光区的特征吸收信号较NO·2的强，本方法以酚氧自由基的生长曲线进行动力学处理.选择NO·2远低于HCA的浓度，可以准一级反应动力学按下式求得反应速率常数，即：
+HCA+NO·2PhO*+HNO2-d［NO2*］/dt=d［PhO·］/dt=k［NO·2］［HCA］
+令　kobs=k［HCA］，
+改变HCA浓度，测定不同kobs，即可求反应速率常数k.
+
+2　结果与讨论
+2.1　中性条件下HCA清除NO2·自由基反应瞬态特征吸收谱测定
+
+
+图1　阿魏酸水溶液经脉冲辐解谱图
+((a)脉冲电子结束后20μs记录到的瞬态吸收谱 (b)350nm处观察到的瞬态吸收)
+Fig.1 Spectra from pulse radiolysis of ferulic acid solution
+(a) transient absorption spectra recorded 
+at 20μs after pulse radiolysis;
+(b) growth trace of the transient absorption at 350nm
+N2O饱和pH为7，含有4mmol*dm-3 NaNO2和0.05mmol*dm-3阿魏酸的水溶液，于电子脉冲结束后20μs记录到如图1(a)所示的瞬态吸收谱，350nm处出现最大吸收峰.因NO2-的浓度远大于阿魏酸，由水辐解产生的OH自由基主要与NO2-反应生成NO2·自由基(约98.8%).NO2·自由基的最大特征吸收峰在400nm，且消光系数仅为200dm3*mol-1*cm-1，故该350nm处的吸收峰归于NO2·与阿魏酸反应所得的特征吸收，该条件得其350nm处消光系数ε=15500dm3*mol-1*cm-1.根据文献［11］和［12］，此特征吸收谱与阿魏酸和N3·作用产生的酚氧自由基的特征吸收谱相同，该归属为阿魏酸酚氧自由基的特征吸收.所以NO2·和阿魏酸反应类似NO2·和酚类化合物如苯酚、酪氨酸等作用产生酚氧自由基［8，9］.图1(b)为350nm处观察到的阿魏酸酚氧自由基的生成曲线.
+　　图2(a)为芥子酸清除NO2·反应记录到的瞬态吸收谱，同样360nm的特征吸收该归属为芥子酸与NO2·反应生成的酚氧自由基，ε360nm=13800dm3*mol-1*cm-1，图2(b)为360nm处观察到的芥子酸酚氧自由基的生成曲线.
+　　综上所述，中性条件下，阿魏酸、芥子酸与NO2·作用机理可描述为：
+HCA+NO2·HCA(-H)·+HNO2
+(5)
+　　另HNO2存在下式平衡：
+HNO2H++NO-2 pKa=3.3
+(6)
+中性条件HNO2主要以NO2-的形式存在.酸性条件HNO2是强氧化剂，有电极反应：
+HNO2+H++eH2O+NOE0=0.99V
+(7)
+
+
+图2　芥子酸水溶液经脉冲辐解谱图
+((a)脉冲电子结束后40μs记录到的瞬态吸收谱
+(b)360nm处观察到的瞬态吸收)
+Fig.2 Spectra from pulse radiolysis ofsinapic acid solution
+(a) transient absorption spectra recorded at 40μs after pulse radiolysis;
+(b) growth trace of the transientabsorption at 360nm
+据Nernst方程计算得：4mmol*dm-3 NaNO2 (pH=5)水溶液条件下的E(HNO2/NO)=0.74V,大于E(FER+/FER)的0.7V，所以在酸性条件下HNO2极易氧化阿魏酸.由此可推知，弱酸性条件下NO·2抽取阿魏酸上的氢形成的HNO2还可被阿魏酸清除.同理知芥子酸能清除HNO2.
+2.2　HCA清除NO2·的动力学常数测定
+在N2O饱和、pH=7、4mol*dm-3 NaNO2的水溶液中分别加进不同浓度的阿魏酸(0.02-0.06mmol*dm-3),脉冲辐解，以350nm处阿魏酸酚氧自由基的生成曲线测定准一级反应动力学常数kobs;作kobs对阿魏酸浓度关系图(见图3)，得阿魏酸清除NO2·反应速率常数kFer为7.4×108dm3*mol-1*s-1.同样测定芥子酸清除NO2·的反应速率常数ksin为7.2×108dm3*mol-1*s-1.由于阿魏酸酚羟基邻位有一个甲氧基，而芥子酸上有两个甲氧基，酚羟基的空间位阻与NO·2的抽氢作用有关，所以NO·2抽取羟基肉桂酸衍生物上氢的反应速率常数阿魏酸＞芥子酸.
+
+
+图3　不同浓度的阿魏酸与kobs的关系图谱
+Fig.3 The ferulic acid's concentration dependnece of kobs
+　　文献报导，NO·2氧化酪氨酸、胱氨酸、反丁烯二酸和亚油酸的反应速率常数分别为k=3.2×105dm3*mol-1*s-1(pH=7.5)［8］、k=2.4×108?dm3*mol-1*s-1(pH=9.5)、k=1.3×107dm3*mol-1*s-1、k＜5×104dm3*mol-1*s-1［7］，都远小于本研究中测定的羟基肉桂酸衍生物清除NO·2的速率常数，推测HCA能有效保护细胞膜上不饱和脂肪酸不被NO·2氧化，可保护酶蛋白酪氨酸、胱氨酸不被NO·2氧化而失活.
+
+3　结论
+　　应用脉冲辐解技术，详细研究了羟基肉桂酸衍生物清除NO·2的反应机理，测定了NO·2抽氢反应的动力学常数，并讨论了羟基肉桂酸衍生物清除NO·2的分子构效关系.研究表明，羟基肉桂酸衍生物能有效保护细胞膜、酶蛋白免受环境污染物亚硝基自由基的损伤.
+国家自然科学基金资助项目（编号39130050）
+参考文献
+　1　Urone P.In: Stern A C (ed). Air Pollution I. Air pollutants, their transformation and transport. New York: Academic Press, 1976:23—75
+　2　Treinin A, Hayon E. Absorption spectra and reaction kinetics of NO2, N2O3, and N2O4 in aqueous solution. J Am Chem Soc, 1970,92(20):5821—5828
+　3 Frank A J, Gratzel M. Sensitized photorreduction of nitrate in homogeneous and micellar slutions. Inorg Chem, 1982,21(10):3834
+　4 Pryor A W, Lightsy W J. Mechanisms of nitrogen dioxide reaction: initiation of lipid peroxidation and the production of nitrous acid. Science, 1981,214(10):435—437
+　5 Pryor A W, Lightsy W J, Church D F. Reaction of nitrogen dioxide with alkenes and polyunsaturated fatty acids: addition and hydrogen abstraction mechanisms. J Am Chem Soc, 1982,104(24):6685—6692
+　6 Lijinsky W, Epstein S S. Nitrosamines as environmental carcinogens. Nature, 1970,225(5227):21—23
+　7 Forni L G, Victor O, Mora-Arellano et al. Nitrogen dioxide and related free radicals: electron-transfer reations with organic compounds in solutions containing nitrite or nitrate.J Chem Soc Perkin Trans II, 1986,1:1—6
+　8 Prutz W A, Monig H, Butler J, Land E J. Reactions of nitrogen dioxide in aqueous model systems: oxidation of tyosine units in peptides and proteins. Arch biochem Biophys, 1985,243(1):125—134
+　9 Lin W Z, Navaratnam S, Yao S O et al. Antioxdative proerties of hydroxycinnamic acid derivatives and a phenylpropanoid glycoside. A Pulse Radiolysis Study. Radiat Phys Chem, 1998(in press)
+10 Lin N Y. Radiaton induced long range electron transer in biological systems. Res Chem Intermed, 1990,14(3):209—221
+11 Wang W F, Luo J, Yao S D et al. Pulse radiolysis studies of the interation of hydroxycinnamic acid derivatives with oxidizing OH adducts of pyrimidine. Radiat Phys Chem, 1995,46(1):41—44
+12 Jiang Y, Yao S D, Lin N Y. Fast repair of oxidizing OH radical adduct of dGMP by hydroxycinnamic acid derivatives: a pulse radiolytic study. Radiat Phys Chem, 1997,49(4):447—450

@@ -1,0 +1,87 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+粉煤流化床燃烧中N2O排放与控制
+陈鸿伟　樊泉桂　金保升　徐益谦
+摘要：粉煤流化床(PC-FB)是一项燃烧效率高,同时实现炉内脱硫﹑低NOx和N2O排放的新型高效﹑清洁煤燃烧技术.在一座0.3MW的试验台上,系统而详细地研究了其N2O的排放与控制特性.主要研究内容包括:各层二次风份额(R2i%)及悬浮空间燃烧区(FCZ)的温度分布与炉内N2O浓度分布的关系;床层温度Tb﹑烟气氧浓度、二次风率(R2%)、FCZ内烟温Tf、钙硫比(Ca/S)对其N2O排放的影响.
+关键词：粉煤；流化床；燃烧；N2O排放与控制
+中图分类号：X131.1 文献标识码：A 文章编号：1000- 6923(1999)05- 0445- 05
+Emission and control of N2O in pulverized coal fluidized bed combustion.
+CHEN Hong-wei1,FAN Quan-gui1,JIN Bao-sheng2,XU Yi-qian2
+(1.Department of Power Engineering, North China Electric Power University, Baoding 071003, China; 2.Institute of Thermal Power Engineering, Southeast University, Nanjing 210096, China). China Environmental Science. 1999,19(5)：445～449
+Abstract：Pulverized coal-fluidized bed (PC-FB) is a new clean coal combustion technology. A high combustion efficiency can be got realizing in-furnace desulphuration with low NOx and N2O emissions. In this paper, the research work was conducted systemically about the emission and control of N2O in a 0.3MW PC-FB experimental rig. The influences of many factors investigated,such as bed temperature (Tb),O2 concentration in gas, secondary air ratio (R2%) , temperature in FCZ and Ca/S; and also the relationship of the N2O concentration distribution with every layer’s secondary air ratio (R2i%) and the temperature distribution in FCZ.
+Key words：pulverized coal；fluidized bed；combustion；N2O emission and control
+　　氧化亚氮(N2O),又称“笑气”,是近年来引起研究者们关注的大气污染物.研究表明[1],N2O除了被人体直接吸入后引起皮肤癌、白内障等疾病外,它对大气环境的危害主要有增加温室效应和破坏臭氧层两个方面.
+　　N2O对全球气候的变化所造成的不良影响,促使各国在近一时期内对燃煤系统的N2O排放进行了系列研究[2,4].通过从常规的煤粉锅炉到先进的燃煤技术,即鼓泡流化床、循环流化床等燃煤流化床锅炉的研究发现,因煤种、设计及运行参数的不同,燃煤流化床锅炉的N2O排放达40～200mL/m3.与此相反,煤粉炉的N2O排放水平约为5～30 mL/m3.
+　　PC-FBC在燃烧方式上将流化床锅炉与煤粉锅炉的特点有机结合起来,不仅炉内燃烧温度介于两者之间,而且在炉内建立局部还原区以还原分解NO和N2O,使其N2O排放达到常规煤粉炉的水平.PC-FB的N2O 生成与分解过程,有着自身的特点与规律.研究这些特点与规律,对将来控制PC-FBC锅炉的N2O排放是非常有益的.
+1 试验装置及材料
+　　本研究使用的试验台、测点布置、取样点布置﹑测量系统以及燃用煤种(含氮0.85%)见文献[2,3].
+2 试验结果与分析
+2.1 PC-FB悬浮空间N2O浓度分布的影响因素
+2.1.1 PC-FB的各层二次风份额(R2i%)图1是相应于A、B、C、D 4组不同二次风配风方式下,试验研究所测的PC-FB悬浮空间N2O浓度分布曲线.从图1可以看出,在第二取样点,烟气中N2O的浓度出现峰值[2,3],虽然这个位置并不一定是真正的峰值点,但却定性说明了PC-FB悬浮空间的N2O浓度从1～5号取样点[2,3]之间存在极值点的规律;极值点所对应的N2O浓度值以及PC-FB悬浮空间烟气总的N2O浓度水平,随着第一层二次风份额R21%的增加而提高.出现峰值点的原因,可能是由于在1、2号取样点之间870～950℃的温度下,NO分解生成N2O的缘故.
+
+图1　二次风投入方式对于FCZ内N2O浓度分布的影响
+Fig1 Influence of forms of secondary air on N2O concentration distribution in FCZ
+折算值为将实测值为O2=4.0%下的N2O浓度
+表1 二次风投入方式 (%)
+Table 1 Forms of secondary air (%)
+
+序号R21R22R23R24
+A0201030
+B10201020
+C20201010
+D3020100
+
+注:与图1对应
+　　粉煤穿过PC-FBC流化床燃烧区时释放了绝大部分挥发份,由于流化床燃烧区(FBCZ)氧浓度低和停留时间的限制,使得仍有部份挥发份进入悬浮空间.这部分挥发分同第一层二次风混合后,其中的HCN、NH3等剩余氮化物便同氧发生反应而部分生成N2O,并且第一层二次风风量越大,氧浓度越高,混合越强烈、气流旋流强度越大,反应时间越长,生成的N2O就越多.同样,虽然由C-N生成的N2O份额很小[4,5],但是生成的N2O仍有所提高.当然,第一层二次风量增大,已生成的N2O与烟气中还原成分(C、CO、H等)所发生的还原分解反应也得以加强.与烟气的中氧浓度相比,CO、H等成分的浓度非常有限.虽然N2O与C的气-固相反应的速度比起NO与C的还原反应速度快,但是NO的分解产物中包含有N2O,所以,从第一取样点至第二取样点烟气中N2O浓度呈上升趋势,并且R21%越大,第二取样点烟气N2O浓度越高.当R21%=0时,第二取样点烟气N2O浓度较1号取样点有所降低.
+　　第二取样点以后,PC-FBC悬浮燃烧区烟气中N2O浓度沿轴向逐步降低.这说明在试验的R21%变化范围内,煤粉在1、2号取样点之间的区段内基本完成了挥发分的充分释放与燃烬,其中氮化物的氧化反应也基本完成,生成的N2O在以后区段中发生热力分解与还原分解反应主要生成N2;与此同时,煤粉余下固定碳中的氮成分也随2号取样点燃烬过程而释放出来并部分氧化生成N2O.由于PC-FBC悬浮空间较高的烟温水平(相对鼓泡流化床燃烧BFBC或循环流化床燃烧CFBC),不利于C-N生成N2O,加上残余C-N释放的困难性,所以,总的结果是在2号取样点以后区段中,N2O的分解反应过程快于残余C-N生成N2O的过程,从而有现象b的出现.当第一层二次风风量减少时,R2%不变,即二次风投入位置上移, N2O分解反应时间与强度得以延长和加强,所以PC-FBC悬浮空间平均N2O浓度随之下降.
+
+图2 FCZ内对应于不同烟气温度分布(a)的N2O浓度分布(b)
+Fig.2 N2O concentration distribution under various temperature distributions in FCZ
+2.1.2 PC-FBC悬浮空间的温度分布无论是粉煤挥发份的氮成份,还是固定炭中的氮(C-N),其N2O的生成量都与反应所处的环境温度有关.已生成的N2O的分解反应过程亦是如此.在不同的PC-FBC悬浮空间的温度分布下,试验测得了相应的烟气N2O浓度分布,结果见图2.由此可以看出,PC-FBC悬浮空间平均烟气N2O浓度水平随其平均烟温Tf的升高而下降;随着最高温度区段的向上移动,FCZ内的N2O浓度分布曲线亦整个向上移动.这可能是低烟温区段相对加长,有利于N2O生成反应的缘故;随着1、2号取样点之间烟气温度的升高,2号取样点处烟气N2O浓度降低.
+2.2 PC-FBC的N2O排放与控制
+2.2.1 床温对N2O排放的影响 图3是实测的粉煤流化床(PC-FBC)中床内(FBCZ)温度与N2O排放的关系.可以看出,床温内Tb与PC-FBC的N2O的排放浓度N2O″(mL/m3)有着密切关系.其它条件相同时,随着床温由800升至960℃,PC-FBC的N2O排放浓度由22.1mL/m3降低到4.4 mL/m3.
+　　由此可见,PC-FBC中床温的升高有利于降低其N2O的排放浓度,但是床温增高会导致NO的排放量增加,同时过高的床温不利于实现石灰石高效炉内脱硫,尤其在PC-FBC这种煤粉分级燃烧形式下还会造成床内结焦等问题,所以,PC-FBC的床内温度一般保持在820～880℃之间,不能采用过分提高床温的办法来控制N2O的排放.
+
+图3　床温Tb对N2O''(mL/m)的影响
+Fig.3 Influence of bed temperature Tb on N2O″O2″=4.0% R2=50%
+2.2.2烟气氧浓度对N2O排放的影响在保持PC-FBC的床温、流化速度和二次风份额、投入位置不变的条件下,实测炉膛出口的烟气氧浓度与其N2O排放浓度的关系如图4所示.可以看出,烟气的O2″(%)较高时,N2O的排放浓度也较高,当O2由1.6%增至6.0%时,烟气中N2O的浓度则由4.5 mL/m3增至11.8 mL/m3.此外还可以看出,当烟气氧浓度大于4.5%后,N2O的排放浓度依然上升,但上升趋势减弱.
+　　降低炉膛出口烟气的氧浓度O2可以减少PC-FBC的N2O排放.但在实际运行中,为保证PC-FBC的高燃烧效率和高脱硫效率,炉膛出口烟气氧浓度一般保持在4.0%～5.0%左右.
+
+图4　炉膛出口氧浓度O2''%与N2O排放N2O''的关系'
+Fig.4 Relationship of N2O emission N2O″with O2″
+(O2 concentration at exit of the furnace)
+Tb=850℃ R2=50%
+2.2.3二次风对N2O排放的影响如图5所示,炉膛出口过量空气系数a″为1.2时,R2从30%增至70%,PC-FBC的N2O排放浓度则从22～16 mL/m3降到6 mL/m3左右;另外,保持a″不变,对应不同的R2%,当R21由30%减至7.0%时,PC-FBC的N2O的排放浓度平均从14.8 mL/m3降至9.6 mL/m3.
+
+图5　二次风率R2%第一次风率R21%对N2O排放N2O''的影响
+Fig.5 Influence of R2% and R21% ( first layer’s secondary air ratio) on N2O″
+Tb=850℃ O2″=4.0%
+2.2.4 悬浮段温度Tf(℃)对N2O排放的影响如图6所示,当悬浮燃烧区的平均温度Tf从910℃升至1100℃时,PC-FBC的N2O排放浓度则由21.0和12.9 mL/m3降低为7.1和1.8 mL/m3.因此,提高PC-FBC悬浮燃烧区的温度Tf有利于降低其N2O的排放.为了控制PC-FBC的N2O排放水平以及避免CaSO4发生分解,悬浮燃烧区的温度水平控制在1100℃左右为宜.
+
+图6　FCZ内平均温度Tf与N2O排放的关系
+Fig.6 Relationship between N2O and FCZ average temperature Tf
+Tb=850℃ R2=50%
+2.2.5 Ca/S对N2O排放的影响试验中保持床PC-FBC炉膛出口的烟气氧浓度,O2″为1.2%和5.5%,分别得出PC-FBC在加与不加石灰石的条件下N2O排放及其随Ca/S比增大的变化规律.
+
+图7　Ca/S比对N2O排放浓度N2O''的影响
+Fig.7 Influence of Ca/S on N2O″emission concentration
+　　图7是石灰石平均粒径dc 232.65m ;Tb为850℃. Tf为1005℃条件下试验结果.由此看出,当O2″为1.2%时,加入石灰石后PC-FBC的N2O排放浓度较不加时有所提高,并且随着Ca/S比的增大该N2O排放浓度亦随之升高.当O2″为5.5%时情况则相反,即加入石灰石后较加之前PC-FBC的N2O排放浓度有所下降,并且随着Ca/S比的增加其N2O排放浓度有所降低.
+3 结论
+3.1 粉煤流化床悬浮燃烧区,烟气中N2O浓度分布沿高度逐渐降低.在FCZ下部区域内,当该区域烟气温度小于1000℃时,由于NO还原分解而部分生成N2O时,烟气中N2O浓度有所上升.同样FCZ温度分布下,二次风投入位置向上移动使FCZ内平均N2O浓度水平下降.相反,当FCZ内最高温度点位置上移时,整个FCZ烟气温度水平下降,FCZ内平均N2O浓度水平则上升.
+3.2 PC-FBC中燃料氮生成N2O的化学反应基本都在FBCZ内进行.从单因素作用的结果来看,降低床层温度、增大床层氧浓度、高床温时加快流化速度、FBCZ低氧浓度时加入石灰石都使FBCZ出口N2O浓度提高.增大二次风率R2(%)、低床温时加快了流化速度、FBCZ富氧时加入石灰石则使FBCZ出口烟气N2O浓度降低.
+3.3 粉煤流化床燃烧的N2O排放浓度可控制在10 mL/m3左右,远低于燃煤循环流化床(CFBC)的50～200 mL/m3的排放浓度水平,而与煤粉炉的排放相当.
+基金项目：高校博士点基金资助项目(高校基金第1号)
+作者简介：陈鸿伟(1965-),男,四川长寿人,华北电力大学动力工程系副教授,主要从事煤的高效低污染利用的研究工作.发表论文20余篇.
+作者单位：陈鸿伟　樊泉桂　华北电力大学动力工程系,河北 保定 071003
+　　　　　金保升　徐益谦　东南大学热能工程研究所,江苏 南京 210096
+参考文献：
+　[1]Hayhurst A N. Emission of nitrous oxide from combustion sources [J]. Progresses of Energy and Combusion Science,1992,18(6):529- 552.
+　[2]陈鸿伟, 金保昇, 刘坤磊等. 粉煤流化床燃烧(PCF-FBC)的热态试验研究 [J]. 动力工程, 1996,(2):31- 39.
+　[3]陈鸿伟. 粉煤流化床燃烧(PC-FBC)热态试验研究及其气-固两相流动的数值模拟 [D]. 南京:东南大学,1996.
+　[4]De Soete G.G.Fornation of nitrous oxide in larg-scal pulverised-coal flame [A]. 23th symposium (interantional) on combustion [C]. Pittsburgh,Pennsylvania, USA. 1990.1257- 1265.
+　[5]Bramer E A . Nitrous oxide and nitrous oxide emissions by fluidized bed combustion [A]. 11th International Conference on FBC [C]. 1991, 701- 709.
+收稿日期：1999-03-04

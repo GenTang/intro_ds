@@ -1,0 +1,62 @@
+地质灾害与环境环境
+JOURNAL OF GEOLOGICAL HAZARDS AND ENVIRONMENT PRESERVATION
+　1999年　第10卷　第4期　Vol.4　No.12 1999
+
+
+
+二郎山公路隧道岩爆
+岩石X射线粉晶衍射成分分析
+徐林生　王兰生　李天斌
+摘要：通过X射线粉晶衍射成分分析，结合岩石点荷载强度试验研究，查明国内外首次发现的此隧道部分砂质泥岩发生岩爆活动的内在原因。
+关键词：二郎山公路隧道；岩爆；砂质泥岩；X射线粉晶衍射分析
+中图分类号：U451+．2；TU456
+文献标识码：A
+文章编号：1006-4362(1999)04-0077-04
+X-RAY DIFFRACTION ANALYSIS FOR
+THE SANDY MUDSTONES AFFECTED BY ROCKBURST IN
+ERLANG MOUNTAIN HIGHWAY TUNNEL
+Xu Linsheng　Wang Lansheng　Li Tianbin
+(Chengdu University of Technology, Chengdu　610059)
+Abstract：Through the X-ray diffraction analysis and point loading strength test, intrinsic causes for the rockburst in some sandy mudstones in Erlang mountain highway tunnel has been ascertained. This kind of rockburst phenomenon is first discovered at home and abroad.
+Key words：Erlang mountain highway tunnel; rockburst;sandy mudstone;X-ray diffraction analysis
+　　川藏公路二郎山隧道，是“九五”期间国家投资正在施工的长约4 161 m，最大埋深超过760 m的隧道。隧道处于深埋高地应力条件下，穿越浅海相碳酸盐岩—碎屑岩建造的志留系、泥盆系单斜地层和11条断层(图1)，地质条件较为复杂，其中，高地应力与岩爆问题是本隧道主要的工程地质问题。
+
+
+图1　二郎山公路隧道地质剖面略图
+Fig.1　The geological section of Erlang mountain highway tunnel
+1. 地层代号；2.断层及编号；3.实际岩爆段；4.地应力测点及编号；5.钻孔及编号
+1　岩爆岩石X射线粉晶衍射成分分析
+　　在隧道中部高地应力区，施工过程中部分砂质泥岩发生了轻微、中等岩爆活动［1］，这在国内外尚属首次发现。为了查明这类特殊岩石发生岩爆的内在原因，开展了岩石X射线粉晶衍射成分分析研究，研究结果见图2至图4和表1。表1中同时还列出了岩石点荷载强度试验结果，以便对比说明问题。
+
+
+图2　WC1试样X射线粉晶衍射分析谱线
+Fig.2　The X-ray diffraction analysis pattern of WC1 sample
+
+
+图3　EC1试样X射线粉晶衍射分析谱线
+Fig.3　The X-ray diffraction analysis pattern of EC1 sample
+
+
+图4　EC2试样X射线粉晶衍射分析谱线
+Fig.4　The X-ray diffraction analysis pattern of EC2 sample
+表1　研究区砂质泥岩X射线粉晶衍射成分分析
+Table 1　 The results of X-ray diffraction analysis for the sandy mudstones
+样号位　置岩爆烈度岩石点荷载强度试验值矿物成分测试结果(%)
+Is(50) 
+(MPa)Rb
+(MPa)石英伊利石绿泥石长石
+WC1平导K261+870中等岩爆
+(Ⅱ级)3.9586.90393525<1
+EC1主洞K261+810轻微岩爆
+(Ⅰ级)3.5878.76264924<1
+EC2平导K260+280无岩爆活动2.1747.7496723<1
+*成都理工学院测试中心D/MAX3C型衍射仪测试。
+　　从表1中分析可知，砂质泥岩中的主要矿物成分为伊利石、绿泥石和石英，其中，绿泥石矿物组成变化很小；但是，有岩爆与无岩爆活动的砂质泥岩内石英和伊利石的矿物组成差异十分明显，其变化规律为：无岩爆活动的EC2样砂质泥岩内石英含量最低(小于10%)、伊利石含量最高(为67%)，故岩石单轴抗压强度Rb较低(仅47.74 MPa)；有轻微岩爆活动的EC1样砂质泥岩内石英、伊利石含量居中(分别为26%和49%)，岩石单轴抗压强度明显高于EC2试样，可达78.76 MPa；而有中等岩爆活动的WC1样砂质泥岩内石英含量最高(达39%，超过EC2样的4倍，并成为最主要的组成矿物)、伊利石含量最低(仅35%，约为EC2样的一半)，岩石单轴抗压强度则增高到86.90 MPa。
+2　结论
+　　综上所述，二郎山公路隧道高地应力区部分砂质泥岩内发生的岩爆活动，与其矿物组成变化有着十分密切的关系。其中，石英含量的剧增和伊利石含量的陡降，可以提高这类岩石的总体强度，改善岩石的结构特征及其物理力学性能，从而提高岩石储聚弹性应变能的能力，故在本地区高地应力条件下，可以使其成为能产生岩爆活动的高储能体。
+第一作者简介：徐林生，男，1964年生。博士，现为同济大学定向培养博士后。研究方向：岩土力学与岩体稳定。已发表论文10余篇。
+作者单位：徐林生　王兰生　李天斌　成都理工学院工程地质研究所，成都　610059
+参考文献
+［1］　徐林生，王兰生等.二郎山公路隧道岩爆特征与预测研究［J］.地质灾害与环境保护，1999，10(2).
+［2］　张倬元，王士天，王兰生.工程地质分析原理［M］.北京：地质出版社，1994.
+收稿日期：1999-07-01

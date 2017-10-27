@@ -1,0 +1,102 @@
+　宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年 第20卷 第3期 vol.20 No.3 1999
+
+
+
+　　绳系卫星系统复杂模型研究
+朱仁璋　雷　达　林华宝
+　　摘　要　对绳系卫星系统提出一种仿真度更高的动力学模型，着重研究状态保持阶段的子星的振荡与姿态运动。主星设为质点，与系统质心相合，作圆轨道运动；子星取为三维刚体；系绳采用珠式模型。除绳系系统动能、引力位能及系绳弹性势能外，还考虑了系绳的结构阻尼，以及由系绳外包皮引起的弯曲力矩与扭转力矩。计算机辅助推导参与模拟计算程序设计。
+　　主题词　绳系卫星系统　动力学
+A SOPHISTICATED DYNAMICAL MODEL OF 
+TETHERED SATELLITE SYSTEMS
+Zhu Renzhang Lei Da
+(Beijing University of Aeronautics and Astronautics)
+Lin Huabao
+(Chinese Academy of Space Technology)
+　　Abstract　A sophisticated dynamical model of tethered satellite systems is presented in this paper,where the tether is modeled as a system of N discrete point-masses connected by massless springs,the nominal length of the tether is constant,the main satellite is taken as a point with msaa much greater than the subsatellite's mass,and the subsatellite is modeled as a rigid body.So,this dynamic model is described with 3(1+N） generalized coordinates (coordinates of the N beads and three attitude angles of the subsatellite).This model can describe the motion of the center of mass of the subsatellite and the attitude motion of the end body.
+　　Key words　Tethered satellite system Dynamics
+　　1　概述
+　　绳系卫星系统的运动可分为系统质心的轨道运动(绝对运动)以及系统各部分的相对运动［1，2］。相对运动包括端体振荡(oscillation)，端体自身的姿态运动，系绳长度变化，系绳纵向、横向及扭转振动等。端体振荡又可分高频振动(vibration)和低频摆荡(libration)两部分。真实模拟实际系统的动力学方程是极为复杂的，分析求解十分困难，因此，人们往往提出各种简化程度不等、侧重点不同的动力学模型，以得到有意义的结果。本文以文献［3］为基础，提出一种仿真度更高的动力学模型，着重研究状态保持阶段的子星的振荡与姿态运动，包括子星运动与系绳振荡的耦合效应。考虑到主星的质量一般比子星的质量大得多，且有主动式姿态控制，我们将主星取为质点，且与系统质心相合，作圆轨道运动；子星被取为自由的三维刚体。对系绳，我们采用珠式模型(bead model)。除绳系系统动能、引力位能及系绳弹性势能外，这个模型还考虑了系绳的结构阻尼，以及由系绳外包皮引起的弯曲与扭转力矩。该动力学模型可用于微重力实验平台及空间容器返回等系绳使命的分析与设计。
+　　2　动力学模型、坐标系与广义坐标
+　　本文提出的动力学模型依据下列条件：系绳连接主星与子星，其标称长度不变；主星设为质点，且与绳系系统质心相合，在地球中心引力场作圆轨道运动；子星设为刚体；系绳模拟为珠式模型，即足够多的质点(珠点)被无质量的弹簧连接。
+　　动力学方程的推导基于下列坐标系：(1)地心惯性坐标系。(2)轨道坐标系O-XoYoZo：原点O位于系统质心(即主星)，Xo轴沿运动方向水平向前，Zo轴沿当地垂线指向地心，Yo轴完成右手系。原点O离地心的距离为Ro，相应的轨道角速度为Ω。(3)子星本体坐标系P-XpYpZp：原点为子星的质心P，Xp轴、Yp轴与Zp轴分别沿子星的三个惯性主轴。子星本体坐标系相对轨道坐标系的方位由偏航角β1，俯仰角β2及滚转角β3确定。
+　　动力学方程的广义坐标为各个珠点在轨道坐标系内的直角坐标xi,yi,zi(i=1,2,…,N)以及子星本体坐标系相对轨道坐标系的欧拉角βj(j=1,2,3)。广义坐标共(3N+3)个。
+　　3　动能、位能及结构阻尼
+　　根据对动力学模型所作的假设，主星的动能与位能为常量，故在拉格朗日函数中可以不计入主星的能量。珠点1(m1) 与子星相连，离子星质心的距离为dP。各珠点由子星至主星顺序编号，珠点N(mN)离主星最近。
+　　(1)绳系系统的动能
+　　绳系卫星系统的动能可表示为：
+E=EP+EB
+这里，EP为子星的动能，EB为所有珠点的动能之和。子星动能为子星平动动能EM与转动动能ER之和：
+EP=EM+ER
+这里，
+
+式中，M为子星质量，是子星质心在惯性系中的绝对速度；Vi(i=1,2,3)是表示在轨道坐标系中的分量，Vi是Ω,x1,y1,z1,,,,βj与(j=1,2,3)以及dP的函数。
+
+式中，是子星在惯性系中的绝对角速度；ωi(i=1,2,3)是表示在子星本体坐标系中的分量，ωi是Ω,βj与(J=1,2,3)的函数。为子星惯性张量，Ii(i=1,2,3)为子星的主惯性矩。
+
+式中，是珠点mi，在惯性系中的绝对速度;Vij(i=1,2,…,N;j=1,2,3)是表示在轨道坐标系中的分量，它是位置(xi,yi,zi)与速度(,,)及Ω的函数。
+　　(2)绳系系统的引力位能
+　　绳系系统的引力位能由两部分组成：
+Vg=VP+VB
+这里，VP为子星位能，VB为N个珠点的位能之和。令为地心至子星质心的向径，为子星质心至子星任一质量元的向径，则
+
+式中，μ是地球引力常数。上式可近似表为：
+　　
+这里，R=||，Ri(i=1,2,3)是表示在子星本体坐标系中的分量，它是Ro,dP,x1,y1,z1,βi(i=1,2,3)的函数。
+
+如前所述，Ro为主星离地心的距离。
+　　(3)系绳的弹性位能
+　　系绳的弹性位能表示如下：
+
+式中，Ki为系绳弹性系数，KBi和KT分别为系绳的弯曲系数与扭转系数。β1为与系绳扭转有关的偏航角。
+
+式中，li为第i段系绳(弹簧)的标称长度。
+　　(4)系绳结构阻尼
+　　系绳结构阻尼可借助Rayleigh耗散函数表示：
+
+式中，Ci、CMi和CT为相应的结构阻尼系数。
+　　4　运动方程
+　　描述绳系系统运动的广义坐标可通过拉格朗日方程求解，该方程组由下列(3N+3)个方程组成：
+　　　　　　　　　　
+　　　　　　　　　　
+　　　　　　　　　　
+式中，L为拉格朗日函数：
+L=E-(Vg+Ve)
+上述方程组的求导、展开、求解是极为复杂的，符号运算软件Mathematica被用于辅助推导。
+　　5　模拟计算与分析
+　　模拟计算中应用的主要参数如下：轨道高度为297km，系绳长度为500m，系绳线密度为2.35kg/km，系绳弹性模量与横截面积的乘积为61645N，子星质量为500kg，子星的主惯量为1666.67、2166.67、833.33kg*m2。模拟计算使用100个珠点。
+　　为了详尽地分析系绳的振荡与子星的运动，我们进行了大量的数值模拟计算，限于篇幅，这里仅给出典型的子星运动轨迹。由图可见，在绳系系统状态保持阶段，子星质心运动及子星姿态运动均显示出规律性。对于较小的初始姿态角偏差(如0.1弧度)，在相当长的时间内，子星的运动没有出现不稳定的情况。
+　　图1与图2表示子星质心相对轨道坐标系的运动。其中，图1.1与图1.2的初始俯仰角为0.1弧度，图2.1至图2.3的初始滚转角为0.1弧度。
+
+图1.1　子星质心X方向运动
+(初始俯仰角0.1弧度)
+
+图1.2　子星质心Z方向运动
+(初始俯仰角0.1弧度)
+
+图2.1　子星质心X方向运动
+(初始滚转角0.1弧度)
+
+图2.2　子星质心Y方向运动
+(初始滚转角0.1弧度)
+
+图2.3　子星质心Z方向运动
+(初始滚转角0.1弧度)
+　　图3与图4表示子星本体的姿态运动。其中，图3表示初始俯仰角为0.1弧度时的俯仰运动，图4.1至图4.3分别表示初始滚转角为0.1弧度时的俯仰、滚转、偏航运动。
+
+图3　子星俯仰运动(初始俯仰角0.1弧度)
+
+图4.1　子星俯仰运动(初始滚转角0.1弧度)
+
+图4.2　子星滚转运动(初始滚转角0.1弧度)
+
+图4.3　子星偏航运动(初始滚转角0.1弧度)
+　　模拟计算显示出，当仅存在初始俯仰角偏差时，系绳与子星仅有轨道平面内的运动(参见图1.1与图1.2，以及图3)。当仅有初始滚转角偏差时，系绳与子星既有轨道平面内的运动，又有轨道平面外的运动(参见图2.1至图2.3，以及图4.1至图4.3)，但俯仰运动与偏航运动很弱(参见图4.1与图4.3)。上述模拟计算结果提示我们，如果初始姿态偏差很小，子星三个方向的姿态运动的耦合性不强。
+作者单位：朱仁璋 雷达：北京航空航天大学宇航学院.北京.100083
+　　　　　林华宝：中国空间技术研究院.北京.100081
+参考文献
+　　1　Zhu R,Misra A K and Modi V J.Dynamics and Control of Coupled Orbital and Librational Motion of Tethered Satellite Systems.The Journal of the Astronautical Sciences，1994,42(3):319-342
+　　2　Zhu R,Misra A K,and Modi V J.Determination of Frequencies of Oscillations of an N-Body Tethered System by an Equivalent Two-Point Problem.AAS/AIAA Spaceflight Mechanics Meeting,Feb.1992
+　　3　Zhu R and Misra A K.A Simplified Model for Tethered Payloads OEDIPUS.Department of Mechanical Engineering,McGill University.June 1993
+收稿日期:1997年10月7日,修回日期:1998年11月2日

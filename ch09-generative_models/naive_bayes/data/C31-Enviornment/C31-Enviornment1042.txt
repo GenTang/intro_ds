@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.4-5,20
+
+
+
+
+绿藻对硝基苯类化合物的富集与释放研究
+陆光华　 赵元慧　 汤洁　 
+摘　要：测定了硝基苯、2，4-二硝基甲苯、2，6-二硝基甲苯及硝基氯苯(邻、间、对)在绿藻体内富集及释放趋势。其生物富集因子由小到大的顺序为：硝基苯<2，6-二硝基甲苯<2，4-二硝基甲苯<硝基氯苯(邻、间、对)。富集与释放曲线表明，所有化合物在实验开始的0.5～1h即达到最大富集量，2h后基本达到稳态。硝基苯、2，4-二硝基甲苯及2，6-二硝基甲苯的释放速率很快，0.5～1h达到最大释放量。6种有机物的生物富集因子与辛醇/水分配系数相关很好，生物富集过程符合脂水平衡分配模型。
+关键词：硝基苯类化合物；　生物富集；绿藻；分配过程
+分类号：X503.225　文献标识码：A
+文章编号：1001-6929(2001)03-0004-02
+Bioconcentration and Elimination of Nitrobenzenes by the Algae (Scenedesmus obliquus)
+LU Guang-hua（Department of Environmental Science,Northeast Normal University, Changchun 130024, China）　
+ZHAO Yuan-hui（Department of Environmental Science,Northeast Normal University, Changchun 130024, China）　
+TANG Jie（Environment and Construction College, Jilin University, Changchun 130021, China）　
+
+Abstract：Bioconcentration potentials were determined for nitrobenzene,2,4-and 2,6-dinitrotoluene,and 3 nitrochlorobenzenes (ortho,meta and para) using the algae (S.obliquus).The order of their bioconcentration factors (BCF)was: NB<2.6-DNT<2,4-DNT<NClE.The sorption curves showed that sorption was up to the greatest degree within 1 h and followed by little change from 2 h to 10 h.The desorption of NB,2,4-DNT and 2,6-DNT was rapid and reached the greatest degree at 0.5～1 h.A strong linear correlation was evident between BCF and the octanol/water partition coefficient (KOW ),and bioconcentration conforms to the model of partition between lipid and water.
+Keywords：nitrobenzenes; bioconcentration; algae; partition
+
+基金项目：国家自然科学基金资助项目(29877004)
+作者简介：陆光华(1969-)，吉林乾安人，讲师，博士研究生. 
+作者单位：陆光华（东北师范大学环境科学系，吉林长春 130024）　
+　　　　　赵元慧（东北师范大学环境科学系，吉林长春 130024）　
+　　　　　汤洁（吉林大学环境与建设工程学院，吉林长春 130021）　
+
+参考文献：
+［1］郎佩珍,龙凤山,袁星,等.松花江中游(哨口—松花江村段)水中有毒有机物污染研究[J].环境科学进展,1993,(6)：47～55.
+［2］OECD.Test Guideline 201[M].Paris:Desition of the Council C,1981(81):320～32.
+［3］OJEC.Official journal of the European communities No:133[M].Paris:OJEC,1988,89～94.
+［4］Herman D C,Mayfield C I,Inniss W E.The relationship between toxicity and bioconcentration of volatile aromatic hydrocarons by the algae Selenastrum capricornutum[J].Chemosphere,1991(22):665～676.
+［5］朱志宁,郎佩珍.12种有机物在鲤鱼体内富集与释放行为的研究[J].环境科学学报,1987,7(3)：339～345.
+［6］陆光华,郎佩珍.硝基芳烃对斜生栅列藻的毒性与结构相关性研究[J].环境科学,1996,17(2)：35～37.
+［7］Guang\|Hua Lu,Xing Yuan,Yuan\|Hui Zhao.QSAR study on the toxicity of substituted benzenes to the algae (Scenedesmus obliquus)[J].Chemosphere,2001(待发表).
+
+收稿日期：2000年8月2日
+出版日期：2001年5月30日

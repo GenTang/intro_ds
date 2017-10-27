@@ -1,0 +1,64 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URAN ECOLOGY
+1999年　第12卷　第1期　Vol.12　No.1　1999
+
+
+
+湿地土壤因素对污水处理作用的模拟研究
+陈博谦　王星　尹澄清
+　　摘要　人工湿地是近年来发展较快的污水处理设置，本文用室内模拟的方法研究了湿地土壤在处理生活污水的作用。结果表明，在排除了植物因子的前提下，人工湿地土壤—微生物系统对污水中的污染成分仍具有良好的去除作用。系统不同单位区段对污水中的总有机碳(TOC)、总氮(TN)去除率存在差异，在第一个单位区段的处理效率最高，分别达48%和38%，远大于第二、三、四区段。土壤吸收附磷的过程中存在着积累现象，土壤磷浓度在第一区段先达到饱和，导致去除效率在实验后期下降。
+　　关键词　人工湿地模拟系统　土壤-细菌系统　污水处理
+The Role of Soils in Wastewater Treatment
+in a Simulated Constructed Wetland
+Chen Boqian　Wang Xing　Yin Chengqing
+(SKLEAC,Research Center for Eco-environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+　　Abstract　Constructed wetlands for wastewater treatment are the newly developed system to remove nutrient,BOD,SS and pathogenic organisms in China.The removal process of a simulated wetland was studied in the absence of aquatic plants.The 12m long system was divided into four equal units along the direction of inflow.It was found that the soil-bacteria system had a good effect on nutrient removal.The elimination of organic matter and nitrogen mainly occurred in the first unit,with a decrease of 48% and 38% in the TOC and TN concentration respectively.This efficiency was much greater than those in the subsequent three units.Total phosphorous was removed from inflow and the accumulation of P was found in soil.The concentration of TP in the first unit reached a peak at the 13th day after the beginning of the experiment,thus making the treatment efficiency decline in the late period.
+　　Key words　simulated constructed wetland　　soil-bacteria system　　wastewater treatment
+1　前言
+　　大量研究表明，湿地系统具有显著改善水质的功能［1～3］。70年代以来，在北美、澳大利亚和西欧相继兴建了许多人工湿地污水处理装置［4］，成为去除有机营养物质的重要措施。经过湿地处理后，污水中的COD、BOD5、TSS、总氮、总磷等污染物浓度下降，水质得到改善。
+　　目前在人工湿地系统的机理性研究往往偏于生物因子在污水处理过程中的作用，而对非生物因子，特别是作为湿地系统中植物和微生物生长依托的土壤研究相对较少。本文以室内湿地模拟系统为对象，排除了室外环境中不可控环境因子的影响，使系统简单化、直观化，用以研究湿地系统中土壤因素的作用。
+2　实验设计、材料和方法
+2.1　室内湿地模拟系统的方法和结构
+2.1.1　模拟系统的设计
+　　在四个塑料圆盆的底部铺上10　cm厚的土壤，用铝片将泥土隔成间距5　cm宽的螺旋状水道。将四个圆盆按上下次序放置在铁架上，盆间用橡皮管通过盆壁上的小孔串联。铁架顶层放置模拟生活污水，污水可借重力作用流经整个系统。
+　　实验土壤采自北京林业大学苗圃。每一圆盆水道长3　m，整个系统总长12　m。在全长12　m的水道中选取3　m、6　m、9　m、12　m处为取样点。模拟生活污水的流速由塑料圆桶开关和橡皮管夹子控制。为了防止铝离子的溶解对水质的影响，铝片事先涂上桐油干燥后使用。
+2.1.2　生活污水的配置
+　　按文献［5］配制生活污水，测定含总氮274　mg/L、总磷154　mg/L、TOC　1018　mg/L。考虑到室内实验的特殊性，进水中设计总氮、总磷浓度较实际生活污水中浓度高10倍左右。生活污水放于在铁架顶层有调速开关的塑料圆桶里，水力负荷控制在1.65～5.71　L/(m2.d)。
+2.2　实验方法
+　　溶液中总氮、总磷浓度用过硫酸钾氧化法测定［6］。总有机碳(TOC)用日本岛津公司产的TOC测定仪测定。土壤中总氮、总磷浓度测定采用标准开氏法和高氯酸消化法测定［7］。
+　　在近一个月的实验周期中，每隔一段时间测四个取样点处污水中的总氮、总磷、TOC值，绘制出去除率变化图，分析其与滞留时间及负荷量的关系。另外，在实验初期(第1天)、中期(第12天)和末期(第25天)，测土壤中总氮、总磷浓度。
+　　实验装置设计两套，同时运行；在整个实验过程中，实验温度控制在25　℃，生活污水在每一区段的停留时间相同，样品测定进行三个重复样。
+3　结果和分析
+3.1　处理效果
+　　体系中某点处去除率R表示了从进水原点到该处体系对污染物的去除能力，计算方法如下：
+　　Rx=(C0-Cx)/C0
+　　Rx—距进水原点x处污水中污染物的去除率(%)；
+　　C—污染物浓度；
+　　停留时间为24　h情况下，在系统出水口处，总氮，TOC去除率可达70%，总磷的去除率达到70%～90%(表1)，这表明在排除植物因子，人工湿地土壤—微生物系统仍具有相当高的处理污染物的能力。
+表1　各取样点处TOC、总氮、总磷的去除率　　%
+
+取样点3m6m9m12m
+总氮41.658.560.667.1
+TOC59.762.171.976.4
+总磷(第9天)69.474.389.290.4
+总磷(第22天)3.145.968.573.8
+
+3.2　不同单位区段的处理效果 
+　　 为了更好说明系统中各区段对污染物的去除效果，计算了各区段平均处理效率：
+K=(Ci-Ci-1)/Ci
+　　图1中，横坐标1、2、3、4表示第一、二、三、四的3米段。
+　　TOC区间平均去除率分别为0.481、　0.171、　0.127、　0.179，总氮的区间平均去除率分别为0.378、　0.122、　0.085、　0.023，总磷各取样点去除率在3天时分别为0.334、　0.122、　0.062、　0.072，在22天时分别为0.076、　0.189、　0.37、　0.213。
+
+
+图1　TOC各区段平均去除率
+
+
+图2　总氮各区段平均去除率
+
+
+图3　3天，22天时总磷各区段平均去除率
+3.3　不同实验阶段土壤总氮、总磷浓度变化
+　　在实验初期、中期和末期，分别对土壤的总氮、总磷进行测定。其结果如表2、表3。
+表2　土壤总氮浓度的变化　　　　%
+
+取样点<td align="cen

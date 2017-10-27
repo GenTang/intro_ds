@@ -1,0 +1,118 @@
+地质灾害与环境保护
+JOURNAL OF GEOLOGICAL HAZARDS AND ENVIRONMENT PRESERVATION
+1999年 第10卷 第1期 VOL.10 No.1 1999
+
+
+
+基于知识的基坑施工监控器的研究* 
+王晓鸿
+　　摘　要　从目前施工面临的问题出发，利用人 工智能工具CLIPS语言建立一个简单的基于知识的基坑施工监控器，主要用于解决监测数 据的自动查错、变形趋势预测、变形自动报警，以及具有自学习功能的施工应急措施。
+　　关键词　基坑工程　施工监测　智能控制
+　　中图号　TU712.2　TU473.2
+RESEARCH ON A MONITOR BASED ON KNOWLEDGE OF EXCAVATION CONSTRUCTION
+Wang Xiaohong
+(Department of Geotechnical Engineering,Tongji University,Shang hai　200092)
+　　Abstract　With artificial intelligent tool CLIPS,this pape r builded a construction monitor of excavation engineering,which can mainly be u sed to solve some current problems,such as self-correction of monitor data,forma tion forecast,formation self-warning and self-learning construction measure.
+　　Key Words　Excavation engineering　Construction monitor 　 Intelligent control
+　　在饱和软粘土地区进行基坑工程施工，由于地质条件、荷载条件、材料性质、施工条件和外界其他因素的影响，很难或者不可能单纯从理论上预测这种影响的程度。因此，有必要在施工过程中跟踪施工活动，对坑周地层位移和附近建筑物、地下管道等保护对象的变形及受力情况进行量测，比较监测的数据、预测值或计算值，才能可靠地反映工程施工所造成的影响，较准确地以量的形式反映这种影响的程度，以保证施工活动和周围环境的安全；同时，由于上述部分影响因素的模糊性、不确定性，设计及施工人员的经验也尤为重要。因此，建立一个基于知识的监控系统是十分必要的。
+　　1994年由同济大学、上海大学和上海隧道公司，共同研制开发的盾构工程施工的基于知识的系统，现已在地铁二号线施工中取得了喜人的成绩。对于基坑施工仅在上海的某日资工程中采用了监测、数据采集及传输、分析、决策完全自动化的方法，其优越性是有目共睹的，但是它的 工程造价却是目前非一般甲方单位所能承受；而且，目前国内的大部分监测项目仍然是由专业 测量人员采集数据，然后输入计算机，方法较为落后，但是成本较低，比较适合我国国情。因此 ，开发一种简单的、能够解决实际施工问题的监测系统，具有较大的现实意义。
+　　由于上述原因，本文利用人工智能工具CLIPS (the C Language Integrated Production System)语言，主要用于解决监测数据的自动查错、变形趋势预测、变形自动报警，以及具有自 学习功能的紧急情况的施工处理措施。
+1　知识的表达
+　　(1) CLIPS 语言简介：　CLIPS 语言是美国航空航天管理局(NASA)约翰逊空间中心，于80年代后期开发的一种集成化系统。CLIPS以规则作为主要的知识表达方式，同时也提供“事实块”与“事实模板”来定义事实或规则的前提模式。基于正向推理策略，采用RETE模式匹配算法(Rete matching algorithm)这种高效的方法。CLIPS语言十分适合解决具有数据驱动特征的实时监控系统的实现。
+　　(2) 监控知识的表达：　本问题的知识表示，可按图1设定中包含的知识进行编码。
+
+
+　　　　　图1　监测项目与传感器关系示意图
+　　　　Fig.1　Diagram showing relations of monitor item with sensors
+　　描述监测项目用下列样板：
+　　(item <name> <status>)
+其中，<name> 是项目标识符i1，i2，i3等，即表示一般基坑施工的监测内容。本文主要选 择基坑纵向变形、地面水平沉降和支撑轴力三项指标。<status>说明该项目是“ok”，“wa rning”或“dangerous”。
+　　项目与其对应的传感器的关系由：
+　　事实样板(sensor <name> <associated-item>)表示。其中，<name>是传感器标识符，<asso ciated-device>是传感器所在设备的标识符。如：
+　　(sensor si1 i1)
+　　(sensor si2 i1)
+　　…
+　　(sensor sij i1)
+　　如，对于基坑纵向变形 i1，si1，si2，…，sij，分别表示位于不同深度的传感器。
+　　事实样板(ranges <name> <RW> <RD> <SW> <SD>)表示传感器的警戒值，<name>表示传感器 标 识符；<RW>(RATE-WARNING)变化速率的警告值；<RD>(RATE-DANGEROUS)变化速率的危险值； <SW>(SUM-WARNING)变化累积的警告值；<SD>(SUM-DANGEROUS)变化累积的危险值。这些值，一般由设计人员所给。本文根据《基坑工程手册》和其他经验性知识写了一个规则，依据周围环境条件以人-机交互方式获得以上值，控制器也储存工程相应项目实际的危险值与警戒值，辅助将来的设计、施工。
+　　利用条件样板(condition <name> measure <answer>)和决策样板(condition <name> decis ion <question> <ok> <cancel>)，使紧急状态下的施工措施具有自学习的能力。其中，<name >是条件的命名，<answer>是该条件满足时的答案；决策样板中，<question>表示经过该条件是提出的问题，<ok>和<cancel>是对该问题进行肯定或否定回答时，要处理的条件名。
+2　控制器的实现
+2.1　数据可靠度的判别
+　　正确可靠的监测数据，是进行监控的前提和必要条件。该监控器专门有特权值(salience)是 10的规则，分别判别数据的可行性。
+　　(declare (salience 10))
+　　(phrase input)
+　　(data-source user)
+　　……　　……
+　　
+　　*(printout t “what is the value for sensor”? id “?”)
+　　(bind? value(read))
+　　(if (not (numberp?value)) then (halt))
+　　(if (eq?item no-direction) then
+　　　　(if(CONT?value) then (assert (original-value?id?value?time)))
+　　　　else ((printout t “Your original-date is probably wrong!”)
+　　　　(halt))
+　　else (if (CONT1 abs (?value)) then
+　　　　(assert (original-value?id?value?time)))
+　　　　else ((printout t “Your original-date is probably wrong!”)
+　　　　(halt))
+　　该规则以特权值10，使得控制器只要在输入阶段，就要检查输入数据的正误。然后，在动作部分，首先判别输入值是否为数值(numberp)，不是，则退出(halt)。后以事实(no-direction)将数据粗略地分为两类：一类没有方向的(或只在坐标轴的一个方向变化)；另一类是有方向的，如基坑的纵向位移，等等。CONT和CONT1，由监测专家凭经验给出。当然，也可编一个规则，以人-机交互方式获得，由于这方面的资料甚少，本控制器尚不具备此项功能。 
+2.2　变形趋势预测
+　　变形预测是施工监测的重要组成部分，目前多采用反分析法。其原理相对较为复杂，计算也较为繁琐，不适合现场施工人员进行实时控制。
+　　本控制器，通过对基坑施工环境的实时监测获得输出响应，根据系统辨识的方法，估计出其数学模型，进而对基坑的变形作出预测。
+　　假定受施工影响土体环境中位移、扰动应力和渗透压力之间相互联系，相互影响，且有自相关性，其数学模型可描述为：
+Xt =A1Xt-1+A2Xt-2+… +AnXt-n+εt
+式中，Xt=(δ1，δ2，…，δm，σ1，σ2，…，σm，ρ1，ρ2，… ，ρm)t；δi,σi,ρi(i=1,2,…，m)分别为m个点测得的基坑纵向位移、扰动应力和渗透压力；Ai(i=1，2，…，n)为模型系数矩阵(3m ×3m 阶矩阵)；n为模型阶数；εt为模型误差矢量，其一阶、二阶统计量为：
+E(εt)=0；　　E(εtεtT )=Qn
+式中，Qn为3m 维正定矩阵，称为模型噪声的协方差矩阵。
+　　该模型可以进行多点多变量的预测，但使参数和边界条件隐含在实时监测序列的数据中，避免了常规数值计算的困难和不足。更重要的是，该模型使用简单、方便，且耗资少。
+　　CLIPS提供了一系列方便用户程序设计的实用命令，控制器利用SYSTEM直接调用由以上模型编写的程序“KALMAM.EXE”。即：
+　　(open　“orig.dat”　orig　“r”)
+　　　　…　　…
+　　(system　“kalman.exe”)
+　　　　……　　……
+　　(open　“resu.dat”　resu　“w”)
+2.3　监测阶段的报警
+　　将监测数据与预测值相比较，以判断前一步施工工艺和施工参数是否符合预期要求，以确定和优化下一步的施工参数。或具体地，根据预测值自动判断未来开挖是OK，WARNING或DANGE ROUS。基于知识的监控器有三个规则，分处理是OK，WARNING和DANGEROUS的情况：
+　　(1)　(phrase trends)
+　　　　 (cycle ?time)
+　　　　 (pro-sensor-value ?sensor ?pro-value ?time)
+　　　　 (pro-sensor-svalue ?pro-svalue ?time)
+　　　　 (ranges ?sensor ?rw ? ?sw?)
+　　　　 (test (and (> ?pro-value ?rw)
+　　　　 (> ?pro-svalue ?sw))
+　　　　
+　　　　 (assert(sensor-state ?sensor ok ?pro-value?time)))
+　　(2)　…　　…
+　　　　 (ranges ?sensor ?rw ?rd ?sw ?sd)
+　　　　 (test (or (and (> ?pro-value ?rw)
+　　　　　 　　　　　　 (< ?pro-value ?rd))
+　　　　　　　　　　　(and (<?pro-svalue ?sw)
+　　　　　　　　 　　 (<?pro-svalue ?sd))))
+　　　　 (assert (sensor-state ?sensor warning ?pro-value ?time)))
+　　(3)　…　　…
+　　　　 (ranges?sensor ? ?rd ?sd)
+　　　　 (test (or (> ?pro-value ?rd)
+　　　　 　　　　　(>?pro-svalue ?sd)))
+　　　　
+　　　　 (assert (sensor-state ?sensor dangerous ?pro-value ?time)))
+2.4　紧急阶段的处理措施
+　　对于WARNING或DANGEROUS，实际是根据设计人员的计算与经验确定的，仅表示变形程度不同而已。因此，该控制器采用同类型规则的处理措施，而辅之以不同的不确定性因子作为二者的区别。这样，便于使用相同的预警知识组织结构，可以大大提高问题求解的效率。另外，本控制器的处理措施部分，也提供了自学习处理功能，即具有面向用户的、开放的特点，以适应知识更新的特点和弥补现有知识的不足。有一点要强调的是，这些措施只能从直观、方便、有效的方式上来解决问题，不可能作详尽的力学分析和计算。
+　　这部分可谓控制器设计的一个主要目的，也真正体现出基于知识的重要性和必要性。
+　　图2就是监控器最原始的知识结构模型。虚箭头线表示学习前，控制器采取的措施。
+
+图2　监控器知识结构模型
+Fig.2　Knowledge structure model of the monitor
+　　控制器利用三条规则实现上述功能：①执行决策条件所需要的动作；②处理措施条件所需的；③当措施不正确或不合适时，增添一个新的决策条件，以表示其学习功能。
+　　单独运行上述规则和对应的简单事实库，产生如下结果(以伪代码表示)：
+　　clips > (reset)
+　　clips > (run)
+　　Now are we thinking about the construction environment (yes or no)? yes
+　　Is building (yes or no)? no
+　　Is road (yes or no)? no
+　　Is subway (yes or no)? no
+　　Is sub-pipeline (yes or no)? yes
+　　Now we can deal with the problems with !
+　　Am I correct? no
+　　What do we take measure? Or do you add some condition (w or d) d
+　　Rigid of flexible
+　　What do we take measure if

@@ -1,0 +1,65 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+铁锈及Fe(OH)3处理硫酸盐废水厌氧方法试验
+张耀斌
+摘要：投加铁锈或Fe(OH)3可明显改善含高浓度硫酸盐有机废水的厌氧处理能力,使趋于失败的升流式厌氧污泥床UASB恢复正常工作.对SO42- 为5000mg/L,CODCr为15000mg/L的合成脂肪酸废水,在水力停留时间为4d,由40%以下的COD去除率提高到投加铁锈或Fe(OH)3后的73%和82%,出口pH值由5.3上升到7.3,产甲烷气量由0.3L/d上升为2.2L/d.并提出了Fe(OH)3比铁锈在去除S2-干扰更有效,去除S2-干扰可使厌氧处理恢复正常.
+关键词：铁锈；Fe(OH)3；硫酸盐废水
+中图分类号：X703.1 文献标识码：B
+Treatment of sulphate containing wastewater by iron rust or ferric hydroxide.
+ZHANG Yao-bin
+(Environmental Engineering Institute, Dalian Railway College, Dalian 116028,China). China Environmental Science. 1999,19(6)：493～495
+Abstract：It had been found in this study that the addition of iron rust or Fe(OH)3 improved remarkebly the performance of UASB in treating organic wastewater containing SO42- of high concentration. For a synthetic aliphatic acid wastewater containing SO42- (5000mg/L) and CODCr (15000mg/L),at HTR of 4d,the COD removal efficency was increased to 73% or 82% under 40% by the addition of iron rust or Fe(OH)3 respectively,while the effluent pH raised from 5.3 to 7.3 and the methane gas production increased from 0.3L/d to 2.2L/d.It was also put forward that Fe(OH)3 was more efficient to eliminate S2- than iron rust,and anaerobic treatment would recover to be normal after removal of S2-.
+Key words：iron rust；Fe(OH)3；sulphate containing wastewater
+　　大部分有机废水中过高浓度的硫酸盐能严重影响厌氧生物处理的效果,甚至使厌氧发酵完全失败.主要原因是SO42- 对厌氧过程的二次抑制[1-4],然而,SO42-对厌氧生物处理的影响至今还没有成熟、公认的结论[5,6].在硫酸盐有机废水的处理方法中最经济简便的仍是在单级反应器中进行[7,8].投加Fe3+可与SO42-在厌氧环境中被硫酸盐还原菌还原产物S2-形成FeS颗粒,从而降低SO42-的抑制作用,但常见的铁盐如FeCl3、Fe(NO3)3等的阴离子对厌氧过程有着不同程度的毒害作用[8-11].用铁锈或Fe(OH)3作为铁试剂消除S2-影响,尚未见报道.本文探讨采用铁锈和Fe(OH)3投加反应器,去除硫酸盐还原产物S2-,提高厌氧生物处理效果.
+1　试验装置和方法
+　　以升流式厌氧污泥床(UASB)作反应器,高1250mm,内径100mm,容积9.81 L,反应器温度37℃.
+　　废水采用合成脂肪酸废水,CODCr为10000～20000mg/L,SO42-浓度为300～5000mg/L,营养盐配比CODCr:N:P=200:5:1,进水pH值在6.5～7.5,水力停留时间为4d,流程见图1.
+
+图1 USAB装置流程
+Fig.1 UASB system process
+1.高位槽 2.反应器 3.投料口 4.集气装置
+　　CODCr、硫酸盐分析分别采用重铬酸钾回流滴定法、络合滴定法;S2-采用碘量法;Fe3+分析采用邻菲锣啉光度法;甲烷产量采用102G气相色谱仪测定.
+2　结果与讨论
+2.1 Fe3+浓度与pH值的关系
+　　铁锈的主要成分为Fe2O3,在酸性条件下,溶解为Fe3+,与S2-生成难溶于水的FeS,pH值对其溶解度有很大影响.由实验可知,随pH值升高,铁锈溶解度呈下降趋势,pH值为3.0时,Fe3+浓度为27mg/L,pH值为5.8时,溶解度降为3mg/L. 
+2.2 投加铁锈对UASB反应器运行的影响
+　　UASB反应器首先处理的SO42-为300 mg/L, CODCr为15000mg/L的合成脂肪酸废水,水力停留时间为4d,其CODCr去除率达87%,有比较稳定的处理效果.然后将SO42-浓度提高到5000mg/L,CODCr去除率开始急剧下降,出口pH值和产甲烷量同时下降,S2-浓度则快速上升.1周后,CODCr去除率降至40%以下,出口的CODCr浓度达9800mg/L,S2-浓度达920mg/L,pH值降为5.3左右,产甲烷量由2.7L/d降为0.3L/d,厌氧反应趋于停顿.投加Ca(OH)2以调整pH值,每日往反应器底部投加5.0g铁锈,运行2周后,CODCr去除率开始缓慢上升,出口pH值逐渐上升,S2-快速下降,1个月后,CODCr去除率达73%,出水的pH值回升到7.3左右,S2-浓度降至170mg/L,产甲烷量达1.7L/d,厌氧反应基本恢复.随着试验的进行,将铁锈的投加量增加为6.5g/d,反应器运行状态一直较平稳,CODCr去除率、S2-等指标未见有新的提高,见图2.由图2可知,含硫酸盐浓度较低的有机废水,厌氧处理几乎不受影响,随着硫酸盐浓度的增加,厌氧反应器受到严重抑制,厌氧趋于停顿.当向反应器投加铁锈时,溶解出Fe3+,可与硫酸盐的还原产物S2-生成难溶于水的FeS,减少了S2-对甲烷菌的毒害作用,使CODCr去除率逐渐上升,从而使厌氧降解逐步恢复.这表明,投加铁锈是有效的.但增加铁锈的投加量,各项指标,特别是出口S2-浓度无明显变化,说明这一运行状态的反应器已达铁锈除硫的最大能力.这个结果还表明,硫酸根在厌氧生物处理的2次抑制中,S2-的毒害是主要的,除去S2-,可使厌氧反应基本恢复.
+
+
+
+
+图2 投加铁锈前后UASB的运行情况
+Fig.2 The performance of UASB after addition of iron rust
+从第37d起将铁锈的投加量增加至6.5g/d
+2.3 投加Fe(OH)3对UASB反应器运行的影响
+　　由前面试验可知,投加铁锈可明显减轻S2-对产甲烷菌的毒害,但从出水情况看,S2-浓度依然较高,达170mg/L,CODCr转化率只有73%,产甲烷量仍然不高,未达到初始运行的水平.说明这一浓度的S2-对厌氧反应仍有一定抑制作用.S2-浓度较高,显然不是FeS溶度积太高溶出的结果,理论上计算,即使pH值为5.0时只需7.3mg/L的Fe2+便可使S2-沉淀完全.造成这种结果的原因可能是由于酸化水解段,酸度不足,不能完全溶解铁锈,使足够多的Fe3+进入水相,致使S2-不能完全被沉淀.
+　　实验证明,Fe(OH)3比铁锈在溶出Fe3+与S2-生成FeS时更有优势.配制Fe(OH)3絮体,完全洗去Fe3+,测pH值为7.2,加入Na2S溶液,片刻后,棕黄色的Fe(OH)3转化为黑色的FeS沉淀,同样条件下做铁锈对比实验,无任何反应发生.
+　　对前一UASB反应器,停止投加铁锈,改投Fe(OH)3,与铁锈类似,宜加在厌氧酸化段.每日取5.0g铁锈,制备成Fe(OH)3,洗去其它离子,将Fe(OH)3浊液加入UASB中.经过20多天的运行,CODCr的去除率逐步提高到82%,S2-降低至56mg/L,产甲烷量增加到2.2L/d(图3).测定气相中的H2S也由210mg/L下降到31mg/L.这是由于气相中H2S的平衡为2H++S2-=H2S,减少液相中硫化物的浓度,可降低气相中H2S浓度.由此可见,Fe(OH)3对去除S2-的干扰更有效.
+
+
+
+图3 投加Fe(OH)3前后UASB的运行情况
+Fig.3 The Performance of UASB after addittion of Fe(OH)3
+3　结论
+3.1 铁锈可以有效地降低硫酸盐对厌氧生物处理的抑制作用,使SO42-为5000mg/L,CODCr为15000 mg/L的合成脂肪酸废水的CODCr转化率由低于40%提高到73%.
+3.2 Fe(OH)3比铁锈在去除S2-干扰上更具优越性,可使CODCr去除率达到82%,同时降低了出水的S2-,产甲烷量达到2.2L/d.
+3.3 从试验结果可以反映出硫酸盐对厌氧生物处理的二次抑制,主要原因是SO42-的还原产物S2-的干扰,去除S2-可以使厌氧反应器正常工作,有比较满意的CODCr降解能力.
+作者简介：张耀斌(1971-),男,河南偃师人,大连铁道学院环境工程研究所讲师,硕士,主要从事环境工程的教学科研与开发工作,主持大连市科委和大连铁道学院课题2项,作为项目技术总负责人完成水污染治理工程6项,1996年获大连市科技进步二等奖.发表论文5篇.
+作者单位：大连铁道学院环境工程研究所,辽宁 大连 116028
+参考文献
+　[1]　Karhadkar P P,Audic J M,Faup G M. Sulfide and sulfate methanogenesis [J]. Water Research,1987,21(9):1061- 1066.
+　[2]　Hilton M G,Archer D B. Anaerobic digestion of a sulfate-rich molasses wasterwater : inhibition of hydrogen sulfide production [J]. Biotechnol. Bioengineer,1988,31:885- 888.
+　[3]　Elke G,Werner H,Christian M. Biological sulfate removel from tannery wasterwater in a two-stage anaerobic treatment [J].Water Research,1996,30(9):2072- 2078.
+　[4]　左剑恶,胡纪萃. 含硫酸盐有机废水的厌氧生物处理 [J]. 环境科学,1991,12(3):67- 71.
+　[5]　刘 燕. 硫酸盐对有机废水厌氧生物处理的影响 [J]. 环境科学,1992,13(5):50- 53.
+　[6]　Mizuno O,Li Y Y,Noike T. The behavior of sulfate-reducing acidogenie phase of anaerobic digestion [J]. Water Research, 1998,32(5):1626- 1634.
+　[7]　杨子亮,左剑恶,胡纪萃. 两相厌氧工艺处理含硫酸盐有机废水研究 [J]. 环境科学,1995,16(3):8- 12.
+　[8]　王菊思,赵丽辉,贾智萍. 硫酸盐和氯离子对厌氧生物过程抑制研究 [J]. 环境科学,1995,16(4):3- 7.
+　[9]　Tanka S, Lee Y H. Control of sulfate reduction by molybelecte in anaerobic digestion [J]. Water Science Technology, 1997, 36(12):143- 150.
+　[10]　Gupta A,Flora J R V,Gupta M T. Methannogenenis and sulfate reduction in chemostats-kinetic studies and experiments [J].Water Research,1994,28(4):781- 793.
+　[11]　Munish G,Ashutosh G. Biotransformation rates of chloroform under Anaerobic conditions-Ⅱ sulfate reduction [J]. Water Research,1996,30(6):1377- 1387. 
+收稿日期：1999-04-15

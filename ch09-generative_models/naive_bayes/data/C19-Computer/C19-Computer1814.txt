@@ -1,0 +1,93 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000　No.19　No.1　P.43-45
+
+
+
+
+Windows95下用单台微机通过RS－485控制多台变频器
+周捷)程春玲
+摘 要： MicroMaster变频器的RS－485通信协议，利用VC5．0中的ActiveX控件MSCOMM通信控件实现了Windows95下单台微机与多台变频器的串行通信控制，并能实时检测各变频器的运行状态。
+关键词： 工控PC机 ActiveX控件 RS－485通信协议 变频器控制
+　　工业场合中，经常要用变频器去控制交流电机的转速、转向。在某些场合，需要用1台工控PC机灵活地控制多台变频器，以达到控制各交流电机的目的。针对这一需要，一些公司(如德国西门子、日本东芝、三菱等公司)推出了带有RS－485通信接口的变频器，使用户能方便灵活地选择变频器的强大功能来设计各自的工业控制系统。
+　　在Windows95下开发工控软件，可利用Windows95的丰富资源，方便地生成各种菜单及美观大方的图形界面，软件产品质量高且开发周期短。Visual C＋＋5．0是Microsoft公司最新推出功能最强的Windows开发软件，由于只能在Win95下运行开发32位的应用程序，而在Windows环境下，系统完全接管了各种硬件资源，不允许用户直接控制串行口的中断管理，因此如何在Windows环境下开发微机的底层资源，已成为当今工业控制软件的一大热点及难点。
+　　本文利用VC5.0的ActiveX控件——Microsoft Communication控件，方便地实现了Win95环境下与多个西门子MicroMaster变频器的串行通信接口，成功地实现了用单台工控PC机对多台交流异步电机的灵活控制。
+1 系统的总体设计
+　　图1为系统的总体设计方框图，这里只重点突出工控PC机与变频器RS－485的接口部分。RS－485的驱动器可带32个接收器，在波特率为100Kb/s时，通信距离可达到1200m；通信距离为15m时，波特率可达10Mb/s。在工业现场，RS－485是应用较多的一种通信方式。图中工控PC机通过485通信接口卡与多个变频器相连接，最多可达到32台。每个变频器被赋予各自的地址码用以识别身份，这样上位机便能通过485通信线对挂在上面的所有变频器进行控制操作。
+
+图1 系统的总体方框图
+2 变频器的串口通信协议
+　　对于西门子的MicroMaster变频器，其通信方式为RS－485，波特率最高可达到19200b/s；1位起始位；8位数据位；1位偶校验；1位停止位。变频器接收控制的通信协议如下：
+
+STXLGEADRPKEINDVALSTWHSWBCC
+
+　　STX：起始字符，为02H。
+　　LGE：发送字节数，对于MicroMaster，为0CH(12个字节)。
+　　ADR：变频器的地址码，取值范围为0～31(Bit：0～4位)，第5位为1时为广播发送。
+　　PKE：为一16位的字，用来控制变频器的运行参数设置，各Bit的含义如下：
+
+控制位0变频器的参数值
+
+　　对于MicroMaster，控制位为0001时，读变频器的参数；控制位为0010时，写参数到变频器的RAM和EEPROM。第1位未用，置为0。变频器的参数值详见说明书。
+　　IND：为16位的字，未用，置为0。
+　　VAL：为16位的变频器参数，与PKE一起将运行参数写入到变频器中。
+　　STW：为16位的字用来控制变频器的运行动作，各位的具体含义详见说明书。
+　　HSW：为16位的字用来控制变频器的输出频率，满频的值为16384(4000H)对应100％的输出频率，最大值为32767，即200％的输出频率。当取值为32768～65535时，表示反向的输出频率从0％～200％变化，电机反转。
+　　BCC：校验字符，为前面所有字节的异或和。
+　　若变频器＃3(地址码为03H)以满频的50％输出频率，则以上各参数的值设置如下： 
+
+　　同时，变频器也向上位机回送状态数据，其通信协议如下：
+
+STXLGEADRPKEINDVALZSWHIWBCC
+
+　与上位机向变频器发送的控制字相比，变频器回送的状态字只是以ZSW代替了STW，HIW代替了HSW，其余的字的含义是一样的。ZSW是16位的状态字来指示变频器的当前运行状态，各位的具体含义见说明书；HIW也是16位的字代表变频器的输出频率，其定义与HSW是一样的。
+　　因此，对于变频器能通过面板按键设置的功能，通过以上的通信协议也一样能实现。并且通过RS－485通信线最多能同时控制32台变频器，同时各变频器的运行状态也能实时地回送给上位机，这就大大方便了用户，增加了控制系统的灵活性。 
+3 Visual C＋＋5．0下对变频器进行串行通信控制
+3.1 ActiveX控件Microsoft Comm Control 5.0
+　　在Windows环境下，操作系统完全接管了各种硬件资源，不允许用户直接控制串行口的中断管理。以往程序员只能通过数目众多的API函数来控制串口。
+　　VC5.0下提供了1个ActiveX控件Microsoft Communication Control 5．0，简称MSComm控件。用户可以在自己的应用程序中嵌入MSComm控件，利用它可以方便地进行计算机串口的通信管理。VC5．0中的ActiveX控件MSComm与VC4．0中的OLE通信控件相比，增加了一些新的功能，其中最为有用的1个改进是将Input(从缓冲区读取接收数据)的数据类型从CString改成Variant，同时新增1个属性InputMode，使程序能方便地选择从缓冲区读取数据的格式：字符串格式或2进制格式。
+　　在VC5．0开发环境中，选择Microsoft Communication Control 5．0控件插入程序，则系统自动为所插入的控件定义1个CMSComm类，与其相关的文件保存在mscomm．h和mscomm．cpp文件中。确认以上菜单选择后，则MSComm控件已嵌入到项目文件中。
+　　MSComm控件有许多属性，其中一些重要的属性如下：
+　　CommPort：设置串口号，类型：short；
+　　Settings：设置串口通信参数，类型：CString；
+　　PortOpen：设置或返回通信口的状态，类型：BOOL；
+　　InputMode：设置从缓冲区读取数据的格式，类型：long；
+　　Input：从接收缓冲区读取数据，类型：VARIANT；
+　　Output：向发送缓冲区写入数据，类型：VARIANT；
+　　InBufferSize：接收缓冲区的大小，类型：short；
+　　InBufferCount：接收缓冲区的字节数，类型：short；
+　　OutBufferSize：发送缓冲区的大小，类型：short；
+　　OutBufferCount：发送缓冲区中的字节数，类型：short；
+　　InputLen：设置或返回Input每次读出的字节数，类型：short；
+　　CommEvent：串口事件，类型：short。
+　　其中串口号(CommPort)设置为1、2等表示COMM1、COMM2。参数设置(Settings)的格式为“B，P，D，S”，B表示波特率，P表示奇偶校验(N-无校验，E-偶校验，O-奇校验)，D表示字节有效位数，S表示停止位数。串口状态(PortOpen)为BOOL变量，TRUE表示打开串口，FALSE表示关闭串口。InputMode使程序能方便地选择从缓冲区读取数据的格式，设置为0时字符串格式，设置为1时表示2进制格式。InputLen设置或返回的是用Input从缓冲区读字符串时每次读出的字符个数，这个性质对于读出数据块中定长数据串非常有用。
+　　另外，MSComm控件提供了2种方法来处理串口通信，上面属性的InBufferCount和OutBufferCount用于串口的查询方式。对于较复杂的通信任务，可通过SetCommEvent()函数设置串口要响应的事件，当相应事件或串口错误事件发生时，系统会激活OnComm()事件，在OnComm()中添加用户的处理代码，则可实现类似DOS中断的串口处理程序。
+3.2 变频器串口通信控制检测软件的编制
+　　在项目文件嵌入MSComm控件的头文件mscomm．h及实现文件mscomm．cpp之后，为了用该控件控制1个串口进行通信操作，还必须在应用程序中插入该控件。为此，我们为程序的某个对话框插入MSComm控件，控件ID为IDC＿MSCOMM1，并利用Class Wizard为其添加变量CCMSComm m＿Coml，则程序中对串口的各种操作都可通过变量m＿Coml来实现。
+　　MicroMaster变频器回送的状态信息1帧为14B。为此，程序编制上采用事件驱动的通信方式，串口每接收14个字符便激活1个OnComm()事件，在OnComm()消息处理函数中加入相应的处理代码，用来读取状态字ZSW和HIW各位的状态参数，并作出相应的处理，如显示、报警等。下面简要给出用事件驱动方式读出变频器回送状态字的程序源代码。设RS－485卡的口地址为工控PC机的串口4的地址，波特率为9600b/s。
+　　串口初始化程序如下：
+　　m＿Coml．SetCommPort(4)；　//设置串口4
+　　if(! m＿Coml．GetPortOpen())
+　　　　m＿Coml．SetPortOpen(TRUE)；　//打开串口
+　　m＿Coml．SetSettings(″9600，e，8，1″)；　//串口参数设置
+　　m＿Coml．SetInputMode(1)；　//设置Binary缓冲输入方式
+　　m＿Coml．SetRThreshold(14)；　//每接收1个字符时//激发OnComm()事件
+　　工控PC机控制变频器的参数通过类ColeVariant的构造函数来实现，ColeVariant可以接受各种类型的数据(如字符串、整数、浮点数等)并自动将其转换为符合VARIANT要求的数据。程序代码如下：
+　　m＿Coml．SetOutput(ColeVariant(″\x02″))；　//发送起始//字符02H
+　　m＿Coml．SetOutput(ColeVariant(″\x0C″))； //发送数据//长度字符0CH
+　　……　　　　　　//发送其它的控制参数
+　　对于变频器回送的状态信息则利用Windows的消息处理函数OnComm()进行处理。利用ClassWizard为MSComm控件IDC＿MSCOMM1添加消息处理函数OnOnCommMscomm1()，在OnOnCommMscomm1()中加入处理代码如下(最后2个语句为添加的程序代码，其余代码由ClassWizard自动生成)：
+　　void CGpsdataDlg：：OnOnCommMscomm1()
+　　{
+　　//TODO：Add your control notification handler　//code here
+　　m＿Coml．SetInputLen(0)；　//读取串口缓冲区全//部数据
+　　VARIANT Parameter＝m＿Coml．GetInput()；　//数据赋给VARIANT变量
+　　……　　　//具体程序处理代码
+　　}
+在消息处理函数OnOnCommMscomm1()中，将变频器回送的14个状态字每一次全部读到VARIANT变量Parameter中，然后程序再从VARIANT类型的数组变量Parameter中分别读取各状态字节，在屏幕上显示、判断并报警。
+　　本文利用VC5．0下的ActiveX控件和MicroMaster变频器RS－485的串行通信功能，实现了在Windows95环境下用单台工控PC机控制多台变频器的任务，并能实时检测各变频器的运行状态。整个控制系统灵活方便，具有很大的实用性。
+周捷（南京东南大学仪器科学与工程系210096）
+程春玲（南京邮电学院信息所210096）
+参考文献
+1，木林森．Visual C＋＋5．0使用与开发．北京：清华大学出 版社，1997
+收稿日期：1999－07－31

@@ -1,0 +1,53 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+禽喘安对鸡霉形体与大肠杆菌合并感染的药效学研究*
+胡功政　刘冰宏　班付国　靳国昌　张素梅　吴　华
+摘要　研究了中药散剂禽喘安对鸡霉形体与大肠杆菌合并感染的药效学。结果表明，禽喘安按0.75%，0.50%拌料连续5天，对鸡霉形体与大肠杆菌合并感染具有显著疗效，治愈率分别为92.50%，90%；试验结束时，试验鸡只的抗体反应阳性率分别为25%，50%，气囊平均损伤记分分别为0.33%，1.33%。
+关　键　词　禽喘安，霉形体病，大肠杆菌病，药效学
+中图分类号　S859〔.3〕，S859.79　　文献标识码A
+PHARMACODYNAMIC STUDIES OF QINCHUANAN AGAINST
+COMPLICATED MYCOPLASMOSIS AND COLIBACILLOSIS IN CHICKS
+Hu Gongzheng1，Liu Binghong2，Ban Fuguo2,Jin Guochang1,
+Zhang Sumei1,Wu Hua1
+1(College of Ani.Husb.and Vet.Med.Engineering,Henan Agri.Uni.,Zhengzhou 450002 PRC)
+2(Henan Province Control Institute of Veterinary Pharmaceuticals and Feed PRC)
+ABSTRACT
+　　Pharmacodynamics of chinese medicine Qinchuanan powder against chicks artificially infected with mycoplasma gallisepticum and Escherichia Coli was studied.The results revealed that Qinchanan exhibited high efficacy in the control of experimentally induced MG and E.Coli infection in chicks.The cure rates of two dose Qinchuanan against diseased chicks infected with MG and E.Coli were 92.5%,90% respectively following a 5 succesive days treatment added to feeds at 0.75%,0.50%.At the end of experiment observation,were positive rate of antibody response in surving birds 25%,50% and mean air-sac lesions score 0.33、1.33 respectively.
+　　KEY WORDS：Qinchuanan,mycoplasmosisk,colibacillosis,pharmacodynamics
+0　前　言
+　　鸡慢性呼吸道病(CRD)是由鸡败血霉形体(MG)引起的接触性呼吸道感染病，既可水平传染，亦可垂直传播，对养禽业危害极大。治疗CRD常用的西药有大环内酯类(红霉素、泰乐菌素、北里霉素)、泰妙灵(tiamulin)、强力霉素及氟喹诺酮类抗菌药物等，但中药由于具有无药物残留、不易产生耐药性等优点，在临床上的应用仍十分普遍。禽喘安是新近研制的治疗CRD的中药复方散剂，已被批准生产。鉴于临床上单纯的禽霉形体感染(仅出现轻度呼吸道症状或不发病)较少，主要与大肠杆菌合并感染或继发感染，故本试验采用鸡霉形体与大肠杆菌合并感染为实验模型，以验证禽喘安的治疗效果。
+1　材料与方法
+1.1　药品
+　　禽喘安　洛阳惠中兽药有限公司提供，批号971113；支鼻康散　河南新密市兽药厂生产，批号961221；MG阳性血清、MG平板凝集抗原　哈尔滨兽医研究所提供。
+1.2　菌种与培养基
+　　鸡败血霉形体S6，大肠杆菌O78　本室保存，均源自中国兽药监察所。葡萄糖酚红肉汤〔1〕　用于MIC测定；营养肉汤、营养琼脂用于大肠杆菌培养；牛心浸液培养基用于MG的分离培养〔2〕。
+1.3　动物
+　　17日龄罗曼商品代蛋用雏鸡240只，河南农大畜牧站鸡场提供，未经大肠杆菌及MG防疫，喂以该场提供的不含抗菌药物的全价饲料。试验鸡1日龄购入预饲16 d后进入试验。
+1.4　最小抑菌浓度(MIC)测定
+　　称取禽喘安及对照药物各10 g，分别加10倍量的水煮沸45 min，将两次煎汁过滤合并后浓缩至20 mL，使药物浓度为0.5 g.mL-1，调pH值7.5左右，离心取上层液高压灭菌后作为供试液。冰箱4℃存放待测。
+　　为避免过滤灭菌的混浊影响测定结果的判定，用葡萄糖酚红肉汤代替普通肉汤〔1〕，用两倍试管稀释法测定MIC〔3〕。
+1.5　人工发病
+　　除健康对照组外，每只鸡左右气囊(倒数第二肋间)各接种MG培养液(生长浊度达107cfu/mL以上)0.50 mL，同时肌肉注射经复壮后的大肠杆菌培养液(6×108cfu/mL)1.00 mL。
+1.6　治疗用药
+　　试验鸡只随机分为健康对照组(1组)、感染对照组(2组)、禽喘安高(0.75%拌料，3组)、中(0.50%拌料，4组)、低剂量组(0.25%拌料，5组)及支鼻康药物对照线(0.20%拌料，6组)，每组雏鸡40只。称重、染色标记，分笼饲养。除感染对照组外，其它各感染组试验鸡只接种霉形体和大肠杆菌后4～5 h开始给药，连用5 d。观察给药后的临床症状，对死鸡进行病理剖检。重点观察气囊、肝脏、腹腔，必要时作细菌分离培养，观察期为给药后的12d。
+1.7　疗效评价指标
+1.7.1　死亡率　具有大肠杆菌、霉形体病的典型症并死亡的鸡只数占该组动物的百分比。
+1.7.2　治愈率　精神、食欲、饮水等恢复正常、不再有咳嗽、流鼻涕、罗音、呼吸困难及拉稀等临床症状者为治愈。治愈鸡只数占该组试验动物的百分比。
+1.7.3　相对增重率　以各感染试验组的平均增重(给药前与试验结束时体重均值差)与健康对照组的平均增重之比。
+1.7.4　血中抗体水平　试验结束时，每组抽检8只鸡作MG全血平板凝集试验，以测定血中MG抗体水平。
+1.7.5　气囊损伤率　试验结束时，每组抽杀6只鸡进行病理剖检，对气囊的损伤度按Lam等方法〔4，5〕作病变等级记分：即0级：无病变；1级：气囊膜混浊；2级：气囊膜变厚；3级：一个气囊内含有大量奶酪样粘稠渗出物；4级：多个气囊内发现大量渗出物。并对病变等级打分：0级为0分，1级为2分，2级为4分，3级为6分，4级为8分。根据平均每只鸡的分数计算气囊损伤率。
+2　结果与分析
+2.1　体外抑菌试验
+　　禽喘安、支鼻康对大肠杆菌O78的MIC分别为0.312 mg.mL-1，1.25 mg.mL-1。
+2.2　攻毒及治疗试验结果
+　　感染对照组于攻毒后的第2 d，个别鸡只发病，至感染的第3 d左右，半数左右的鸡出现不同程度的精神沉郁、食欲减退、咳嗽、罗音、流鼻涕、拉稀粪等症状，至感染的第13 d(用药后的第12 d)，抗体阳性反应率达80%以上，且抗体水平大多在“++”以上。
+　　剖检感染及死亡鸡只，可见部分鸡的肺部有坏死、出血或淤血，气囊膜混浊、增厚，气囊壁有黄色干酪样分泌物；腹膜炎、肝脏肿大，气管内有多量粘稠分泌物。
+　　各用药组连用药物5 d，对霉形体与大肠杆菌均有不同程度的疗效。高、中剂量组分别于开始用药后的第3，4 d停止死亡，而低剂量、药物对照组均于开始用药后的第5 d停止死亡。攻毒用药后12 d内，各组的死亡率、治愈率、相对增重率结果见表1；各组的抗体水平及气囊损伤情况见表2。
+表1　禽喘安对鸡霉形体与大肠杆菌合并感染的疗效
+Table1　Efficacy of qinchuanan against chicks artificial infected with mycoplasma gallisepticum and Echerichia Coli
+组别
+Group<td 

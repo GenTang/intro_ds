@@ -1,0 +1,25 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.59-60
+
+
+
+
+应急监测水中N-甲基哌嗪的气相色谱法
+张莘民　 程滢　 徐朝　 
+摘　要：采用气相色谱直接进样法测定了水中N-甲基哌嗪，在3min内完成整个分析过程。直接进水样经毛细管柱分离水中的N-甲基哌嗪，用GC/FID测定，以保留时间定性，峰高定量。在浓度范围为8.44～80.32mg/L时，相对标准偏差为1.8%～2.9%，标准偏差为0.19～1.5mg/L。样品加标回收率为81%。标准曲线的相关系数为0.9992。检出限为0.08mg/L。
+关键词：应急监测；　气相色谱；　直接进样；　N-甲基哌嗪；　水
+分类号：X830.7　文献标识码：A
+文章编号：1001-6929(2001)01-0059-02
+Emergency Monitoring of N-methyl Piperazine in the Water by GC
+ZHANG Xin-min（Taizhou Municipal Environmental Monitoring Station,　Taizhou　225300，　China）　
+CHENG Ying（Taizhou Municipal Environmental Monitoring Station,　Taizhou　225300，　China）　
+XU Chao（Taizhou Municipal Environmental Monitoring Station,　Taizhou　225300，　China）　
+Abstract：Determination of N-methyl piperazine in the water by direct injection gas chromatography (GC).The method completed the whole analytic process in 3 min.The N-methyl piperazine has been determinated by capollary column GC/FID with direct injection.The sample is qualitatively determined by retention time and quantitatively determined by peak-height extend standard method.When the average concentration range is 8.44～80.32 mg/L,the relative deviation is 1.8%～2.9%,and the standard deviation is 0.19～1.50 mg/L.The recovery rate of sample is 81%,the correlation coefficient is 0.9992,and the determination limit is 0.08 mg/L.
+Keywords：emergency monitoring;　gas chromatography;　N-methyl piperazine;　water
+作者简介：张莘民(1943-)，男，江苏泰兴市人，高级工程师. 
+作者单位：张莘民（泰州市环境监测中心站，　江苏 泰州　225300）　
+　　　　　程滢（泰州市环境监测中心站，　江苏 泰州　225300）　
+　　　　　徐朝（泰州市环境监测中心站，　江苏 泰州　225300）　
+收稿日期：2000年1月10日
+出版日期：2001年1月30日

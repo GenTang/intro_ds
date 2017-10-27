@@ -1,0 +1,84 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第1期 Vol.19 No.1 1999
+
+
+
+苯酚在大连近海海水中的生物降解动力学
+孙为军　周集体　项学敏　王　竞　张爱丽
+摘要：用生化耗氧量测试法,利用大连近海海水中的微生物群落及海水物理化学组成条件,研究苯酚的生物降解能力.结果表明,苯酚在大连近海海水中的生物降解过程符合一级反应动力学方程Yt=L0(1-e-k(t-t0)),得出单位质量苯酚的完全生化需氧量不受环境因素影响,为一固定常数;天然海水温度升高,苯酚的生物降解速率相应增大,滞后期和半衰期相应缩短;苯酚浓度在本实验条件下对生物降解滞后期和半衰期的影响,在低温时表现较显著,随温度的升高,这种影响减弱.
+关键词：苯酚；近海海水；大连；生物降解
+中图分类号：X502 文献标识码：A 文章编号：1000- 6923(1999)01- 0026- 03
+Biodegradation kinetics of phenol in coastal seawater of Dalian.
+SUN Wei-jun,ZHOU Ji-ti,XIANG Xue-min,WANG Jing,ZHANG Ai-li (Research Institute of Environmental Engineering,Dalian University of Technology, Dalian 116012,China).China Environmental Science.1999,19(1)：26～28
+Abstract：The biological degradation kinetic characteristics of phenol were studied under the conditions of natural microorganism groups and seawater physico-chemical components in Dalian coastal seawater using biochemical oxygen demand (BOD) test . The results showed that the biodegradation process of phenol in Dalian coastal seawater fitted first-order kinetic equation Yt=L0(1-e-k(t-t0))；and the ultimate BOD of unit mass of phenol was a constant , not varying with environmental conditions . As the temperature of natural seawater increased , the biodegradation rate of phenol would increased accordingly；however , the lag phase and the half time of phenol were shortened . The concentration of phenol had significant effect on the lag phase and the half time of biodegradation under experimental conditions with low temperature of natural seawater；and as the temperature of natural seawater increased , this effect would decrease.
+Key words：phenol；coastal seawater；Dalian；biodegradation
+　　有机污染物进入水环境后,将会发生物理扩散过程、化学转化和生物降解过程而使水体得到净化[1],其中,生物降解过程是决定有机污染物在自然水体中迁移转化的重要因素[2,3],苯酚是可降解污染物,其降解主要依赖生物降解.本研究采用生化耗氧量测试法,不对微生物作纯种分离来测试混合菌种对特征污染物的生物降解能力,也不向天然海水中添加营养物和接种微生物,只向天然海水中添加特征污染物,且所加入特征污染物的浓度也尽量与大连近海海域中特征污染物在迁移转化过程中的实际浓度相近,因而最大限度保留了其物理化学环境和生物环境,同时,有效地分离了化学因素对实验的影响,使在复杂的水质组成和生态群落中测定单一化合物的生物降解成为可能.本文通过苯酚在天然海水中的生物降解实验,得出苯酚在大连近海海水中的生物降解动力学符合一级效应动力学方程的结论以及相应的动力学参数,为苯酚在海水中的最终归宿的预测提供理论依据,为建立完整的海洋水质模型提供准确的动力学参数.
+1 实验与方法
+1.1 材料
+　　海水取自大连市北大桥下海军码头,该处海水污染较轻,所取海水距岸10m,距水面0.5m;所用试剂均为分析纯试剂.
+1.2 生物降解实验
+　　培养温度：根据本海区不同季节海水水温[4],选择5.5、12.5、20.0℃ 3个BOD试验特性培养温度,针对不同季节、不同海水温度进行实验.
+　　苯酚起始浓度：根据苯酚在实际海水中迁移转化时的浓度变化,在0.2～1.0mg/L之间选择若干浓度.
+　　实验方法:采用BOD测试法进行生物降解试验[5].从取样点取回新鲜海水后,配成一定浓度的苯酚溶液,放入恒温培养箱中培养,每隔一定时间取出3个平行样测定海水中的溶解氧含量,观察微生物消耗溶解氧的情况,同时以不加苯酚的空白海水为对照,算出BOD.
+1.3 分析方法
+　　溶解氧含量用0.005mol/L左右的标准硫代硫酸钠溶液,采用碘量法进行测定[5-7].
+2 结果与讨论
+　　将苯酚在海水中的生物降解BOD历时变化值用最小二乘法进行回归处理，实验结果见图1～图3和表1.结果表明,苯酚在大连近海海水中的生物降解过程符合一级反应动力学规律:
+Yt=L0(1-e-k(t-t0))
+式中：t为有机物降解的时间(d);Yt为时间(t)时有机物的累积耗氧量,即BODn的值(mg/L);L0为有机物的完全生化耗氧量(mg/L);t0为有机物生物降解的滞后期(d);k为BOD反应的一级速率常数(1/d).
+2.1 完全生化需氧量
+　　完全生化需氧量是指在有氧条件下,微生物利用有机物将其转化成无机的二氧化碳、水和氨所消耗的氧量,它是有机物降解动力学中的一个重要参数.从表1可看出,单位质量苯酚的完全生化需氧量不受海水温度和苯酚初始浓度的影响.这与文献[8]的实验结果一致.
+
+图1 苯酚在20.0℃下的BOD变化曲线
+Fig.1 The BOD change curve of phenol at 20.0℃
+
+图2 苯酚在12.5℃下的BOD变化曲线
+Fig.2 The BOD change curve of phenol at 12.5℃
+
+图3 苯酚在5.5℃下的BOD变化曲线
+Fig.3 The BOD change curve of phenol at 5.5℃
+表1 不同条件下苯酚生物降解实验结果
+Table 1 The biodegradation results of phenol under different conditions of experiment
+培养温度(℃)初始浓度
+(mg苯酚/L)降解速率
+k(1/d)平均降解速率k(1/d)降解半衰期t1/2(d)滞后期t1/2(d)完全生化需氧量L0(mgO2/mg)平均完全生化需氧量L0(mgO2/mg)
+20.01.000.97560.88411.6350.9251.907　
+　0.600.8959　1.6180.8441.881　
+　0.400.9043　1.6160.8492.128　
+　0.200.7607　1.5660.6551.988　
+12.51.000.58540.61172.2651.0811.8781.929
+　0.750.5178　2.4171.0781.978　
+　0.500.5833　2.1130.9251.905　
+　0.250.7602　1.8360.9241.888　
+5.51.000.35440.35926.3444.3881.934　
+　0.750.3623　6.0684.1551.891　
+　0.500.3719　4.7262.8621.898　
+　0.250.3482　4.7812.7911.869　
+
+2.2 降解速率
+　　降解速率反映了化合物降解的快慢程度,它也是生物降解动力学中的一个重要参数.由表1可看出,苯酚的降解速率随温度升高而显著增大,其值和文献[9,10]报道的有差别,这主要是因为本研究考察的是天然海水中微生物对苯酚的生物降解,而文献中是考察天然淡水以及污水中微生物对苯酚的生物降解.
+2.3 滞后期和半衰期
+　　滞后期的出现与微生物体内缺乏降解相应有机物的酶有关,在这期间,微生物为适应新的环境合成能利用该有机物的适应酶,其长短受环境因素和微生物本身的状态影响[11].从图1～图3和表1中可以看出,温度升高,苯酚降解的滞后期和半衰期均缩短,且它们随浓度的变化而表现的差别不显著.
+3 结论
+3.1 苯酚在大连近海海水中的生物降解过程符合一级反应动力学：Yt=L0(1-e-k(t-t0))
+3.2 苯酚单位质量的完全生化需氧量不受温度和浓度的影响.
+3.3 海水温度对滞后期、半衰期和降解速率有显著影响.
+3.4 浓度对滞后期和半衰期的影响在低温时表现得较显著,随温度的升高这种影响减弱.
+* 现在大连市环境监测中心工作
+基金项目：国家自然科学基金资助项目(59479020)
+作者简介：孙为军(1969-),男,湖北潜江人,大连理工大学化工学院环境科学与工程系硕士,主要从事环境微生物工程研究工作.
+作者单位：(大连理工大学化工学院环境工程研究所,辽宁 大连 116012）
+参考文献：
+　[1]　戴树桂主编.环境化学 [M].北京:高等教育出版社,1988.185.
+　[2]　Stuart G Wakeham,Alan C Davls.Mesocosm experiments to det-ermine the fate and persistence of volatile organic compounds in coastal seawater [M]. Environ. Sci. Technol., 1983, 17(10):611- 617.
+　[3]　Huey-Min Hwang,R E Hodson.Degradation of aniline and chloroaniline by sunlight and microbes in estuarine water [J].Water Research,1987,21(3):309- 316.
+　[4]　雷宗友.中国海洋环境手册 [M].上海:上海交通大学出版社,1988.301.
+　[5]　国家海洋局.海洋监测规范 [S].北京:海洋出版社,1991.250, 258. 
+　[6]　K.Grasshoff.陆贤昆等译.海水分析方法 [M].北京:科学出版社,1982.44.
+　[7]　薛宏基,汤大卫,丁贵平.放大反应滴定法测定食品中的微量碘[J].食品科学,1995,16(9):53- 55.
+　[8]　Greenfield R E,Elder A L.Effect of temperature on rate of deoxygenation of diluted sewage[J].Indust.Engin.Chem.,1926, 18: 291- 294.
+　[9]　吴欣然,夏福兴,吴 玲.天然水体中酚的降解动力学 [J].海洋科学,1992,16(1):33- 37.
+　[10]　Tabak,Henry H.Biodegradability studies for predicting the environmental fate of organic priority pollutants [M].Test Protoc.Environ.Fate Mov.Toxicants,Proc.Symp.1980.267.
+　[11]　胡家骏,周群英.环境工程微生物学 [M].北京:高等教育出版社,1992.106.
+收稿日期：1998-04-08

@@ -1,0 +1,180 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第8期 Vol.36 No.8 1999
+
+
+
+数据仓库中多视图环境下的联机维护
+摘　要　数据仓库的视图联机维护是指数据仓库中的实体化视图实时地与信息源中的数据变化保持一致，同时不影响前端用户对数据仓库的正常使用.为了解决多视图环境中视图联机维护与下钻查询的一致性问题，文中在数据仓库体系结构中引入了“基库”模型，并提出了相应的视图维护算法3VPA（three-version painting algorithm）.“基库”不仅增强了整个数据仓库系统的伸缩性，而且为下钻查询提供了更好的支持.3VPA采用补偿思想、同步等待机制和版本控制方法，通过与“基库”的联合控制，不但保证了数据仓库中多视图之间的数据一致性，而且还保证了下钻查询能够得到一致的结果.
+关键词　数据仓库，实体化视图，联机维护，下钻查询，一致性，基库，3VPA
+中图法分类号　TP311.13
+MULTIPLE VIEWS ON-LINE MAINTENANCE IN DATA WAREHOUSE ENVIRONMENT
+LI Zi-Mu, MO Qian, XU Ming, and ZHOU Xing-Ming
+(National Laboratory of Parallel & Distributed Processing, National University of Defense Technology, Changsha 410073)
+Abstract　Views on-line maintenance in data warehouse environment means that the refresh-ments of materialized views are synchronized with that of data sources without disturbing user's normal use with data warehouse at the same time. Data warehouse base (DWbase) in data warehouse architecture and 3VPA(three-version painting algorithm) are presented to solve the consistency problem between multiple views on-line maintenance and drill-down query. The introduction of DWbase not only improves the scalability of data warehouse system but also provides better support for drill-down query. The combined control of DWbase and 3VPA, which uses compensating, synchronization, and version control techniques, ensures data consistency of multiple views on-line maintenance and drill-down query.
+Key words　data warehouse, materialized view, on-line maintenance, drill-down, consistency, DWbase, 3VPA
+1　引　言
+　　数据仓库的主要应用是联机分析处理（OLAP）.对于某些OLAP应用，如下钻查询，当用户知道了宏观数据，又想了解与这些宏观数据相关的细节数据时，有时必须通过访问源数据库才能给出最终的查询结果.如果此时源数据库中的细节数据已被修改，而这种变化尚未反映在数据仓库中相应的实体化视图中时，下钻查询得到的细节数据便会与宏观数据不一致.特别是当此下钻查询用到了数据仓库中的多个实体化视图，而其中有不只一个实体化视图与这些被修改的源数据相关时，这种数据不一致问题就更复杂了.
+2　基库与3VPA算法
+　　针对数据仓库的特点，本文提出了一种改进的3层数据仓库体系结构，如图1所示.
+
+
+图1　改进的3层数据仓库体系结构
+
+
+图2　两层数据仓库体系结构
+它与斯坦福大学提出的两层数据仓库体系结构［1］（图2）的不同之处是在数据仓库和当前数据库之间，增加了一个称为“数据仓库基库（DWbase，以下简称基库）”的数据库.它类似于一个中间件，向上，它与数据仓库打交道；向下，它与当前数据库打交道.基库与当前数据库之间的数据流是单向的，当前数据库只负责将数据库端（DB端）的每次变化情况通知基库即可，除此之外无需做任何动作.基库与数据仓库之间的数据流是双向的，它向DW端发送数据变化通知，接收DW端发来的视图维护查询和下钻查询，并将最终查询结果返回给DW.
+2.1　基库中的数据表示
+　　基库实际上也是一个数据库，它的数据全部来源于当前数据库，只是类似于网络中的数据“打包”，在原始数据的前面增加了3个属性，如图3所示：
+
+VNIVNDflagdbt
+
+　
+图3　基库中的元组结构
+　　其中：VNI(version number of insertion)：生成这一元组时实体化视图FV的版本号；
+VND(version number of deletion)：删除本元组的实体化视图FV的版本号；
+flag：标志位，它有两个标志①：
+I：表明此元组是刚插入的；
+D：表明此元组已被逻辑删除（版本切换时才进行物理删除）；
+dbt(database tuple)：来自源数据库的原始元组；
+　　这里采用版本号和标志位的方法来区分最新数据与历史数据，并对它们进行控制维护.
+2.2　3VPA算法
+　　基于这个3层体系结构，3VPA算法不仅能够保证DW中多视图之间的数据一致性，而且也能保证视图联机维护与下钻查询的一致性，并且还很好地解决了2VNL面临的事物重启和维护不完备等问题［2］.3VPA分为3VPA-vm，3VPA-mp和3VPA-dwb三部分，分别在DW端和基库端执行.它采用补偿思想［3］、同步等待机制和版本控制［4］方法，在“基库”的参与下，联合协调数据库、数据仓库的刷新操作和用户启动的下钻查询.它的基本工作原理如下：
+　　(1) 在当前数据库中加载一个Monitor模块，它负责向基库报告DB中数据的变化情况，对于DB中数据的任何变化（insert/delete），Monitor都产生一个消息，通知基库；
+　　(2) 基库收到DB端发来的数据变化通知后，对基库中的数据做相应更新，然后发送一个对应的消息到DW端，由Integrator将其转发给相应的ViewMgr（VM），并告知Merge Process（MP）哪些实体化视图与这次更新有关.
+　　(3) 每个VM都是一个相对独立的视图维护进程，分别负责某个实体化视图某一版本的更新维护工作.VM计算出相应的实体化视图应采取的更新操作后，产生动作表ActionList (AL)，并将其传送给MP.
+　　(4) MP了解DW中所有实体化视图的定义和版本更新情况.它维护着两个不同版本的ViewUpdateTable（VUT），通过VUT对DW中多个视图的刷新操作进行同步，以保证相同版本号的所有实体化视图之间始终是一致的.
+　　(5) 在DW端，每个实体化视图都有3个不同的版本：Current Version(CV)，Next Version(NV)和Future Version(FV).其中CV对用户始终是可见的，它是一个稳定的只读版本，且与基库的某个状态是一致的.NV是一个中间版本，负责维护此版本的VM不再接收来自基库的数据变化通知，而只是等待自己以前发向基库的维护查询的结果，并产生相应的AL传递给MP.当所有NV的更新全部完成后，它们之间将是一致的，而且它们与基库的某个状态也是一致的.这时它们变成可见，以后用户启动的新的OLAP查询将在这个版本上执行.此时，如果所有基于CV的OLAP查询都已完成，即可进行版本切换.FV是DW端最活跃的版本，负责维护此版本的VM接收所有来自基库的数据变化通知，根据需要发送维护查询到基库，并产生相应的AL发往MP.这3个版本之间的关系是：ver(FV)=ver(NV)+1=ver(CV)+2②.
+　　(6) 版本切换时，NV取代原来的CV成为新CV，FV取代原来的NV成为新NV，并产生一个新的FV和VM.与此相应，基库端与CV对应的“过时”旧数据将被物理清除.
+2.3　新结构和算法的特点
+　　新的3层数据仓库体系结构和3VPA算法具有以下的特点：
+　　(1) 用户可以随时使用数据仓库，数据仓库不再有专门的对外服务时间和更新维护时间，这两者可以同时进行，极大地提高了系统的可用性；
+　　(2) 数据仓库中的多个实体化视图之间，以及它们与源数据之间始终是一致的，因而支持下钻查询，且返回给用户的查询结果是一致的；
+　　(3) 版本切换平滑，不会导致任何事务的重启；
+　　(4) 基本保持现有数据库系统不变，使其只需加载一个监控模块即可融入到数据仓库系统中；融入数据仓库系统中的数据库仍可以进行正常的OLTP操作，性能基本不下降；
+　　(5) 基库的引入增强了系统的伸缩性，数据仓库的未来功能扩充可以在基库中进行，而不必受传统数据库结构设计的约束.
+3　3VPA和版本切换
+　　在3VPA中共涉及到6种消息类型：
+　　　DB端的Monitor发出的数据变化通知，U为以下两个参数之一：
+ins(r，t)：在表r中插入元组t； del(r，t)：从表r中删除元组t；
+　　基库发向DW端的数据变化通知，其中的参数U完全对应于dbup中的参数；
+　　由DW端的发出的维护查询通知，它带有一个版本号参数N，表明此查询的返回结果是用于维护的（版本号为N的实体化视图Vx）；
+　　基库发出的完成查询后的结果通知；
+　　DW端发出的下钻查询通知，它也带有一个版本号参数N，表明此下钻查询在DW端是基于哪个版本的实体化视图的.
+　　基库发出的完成查询后的结果通知；Integrator收到此通知后，将把直接提交给用户启动的OLAP查询，而不用于实体化视图的维护.
+　　算法中涉及到的变量：
+　　AVN：Active Version Number，AVN是当前FV的版本号，即AVN＝ver(FV)；
+　　UQSN：Unanswered Query Set，用于记录所有基于N号版本视图的OLAP查询.当用户启动一个基于N号版本的OLAP查询Q时，UQSN←UQSN＋{Q}；当此查询完成后，UQSN←UQSN－{Q}；
+3.1　3VPA-dwb算法
+　　基库中的数据全部来源于数据库，在最初建立时，任一元组的VNI都等于1，VND都是无穷大（符号为∞，在实际中可以将其初始化为一个不会到达的版本号），flag都为I.
+　　3VPA-dwb通过标志位和版本号对基库中的数据进行控制维护，确保数据的一致性操作.它接收来自DB端Monitor发来的原始数据变化通知，刷新自己的库存数据，并负责将此变化通知Integrator.算法具体如下：
+　　对消息队列中的消息做相应处理：
+　　
+　　　if Ui=ins(r，t) then
+　　　　｛ 生成新元组t'；其中 t'.VNI = AVN， t'.VND =∞， t'.flag = I，t'.dbt = t；｝
+　else /* Ui=del(r，t) */
+　　｛找到元组t'，使得t'.dbt = t;
+　　　　if t'.VNI=AVN then 物理删除t' ;
+　　　　else { t'.flag = D;
+　　　　　　　t'.VND = AVN;}}
+　　发送到DW端；
+　　
+　if N=AVN then
+　　{/* QNk是基于FV的维护查询 */ 
+　　　对于是做QNk运算时涉及到的关系）， 
+　　　使用算法1读出r'中的元组注③；} 
+　else /* QNk是基于NV的维护查询 */
+　{ 对于, 使用算法2读出r' 中的元组; }
+　使用读出元组的dbt域做QNk运算, ANk←结果；
+　发送到DW端；
+　　
+　if N=AVN－1 then { /* 是基于NV的下钻查询 */
+　　对于, 使用算法2读出r' 中所有元组；}
+　else /* 是基于CV的下钻查询 */
+　　{对于,使用算法3读出r' 中的元组；}
+　使用读出元组的dbt域做运算，结果；
+　发送到DW端；
+算法1.
+Repeat｛
+　对于t'.dbt∈r，
+　if t'.flag=I then 读出t'; }
+Until t'.dbt∈r的元组已全部扫描.
+算法2.
+Repeat｛对于t'.dbt∈r，
+　if t'.VNI≤AVN-1 then
+　　｛ if t'.flag=I then 读出t';
+　　else if t'.flag=D且t'.VND=AVN+then
+读出t';}}
+Until t'.dbt∈r的元组已全部扫描过.
+算法3.
+Repeat｛对于t'.dbt∈r，
+　if t'.VNI≤AVN-2 then 读出t';}
+Until t'.dbt∈r的元组已全部扫描.
+　　基库对实体化视图的3个版本分别进行处理，是为了保证各版本在维护时只能看到它自己应看到的数据变化，而看不到与之无关的数据状态.只有这样才能保证CV，NV和FV在基库中都有与之对应的一致的数据状态.
+3.2　3VPA-vm算法
+　　3VPA-vm是DW端视图维护进程VM执行的算法.它负责与基库通信，并最终生成动作表AL.在系统最初建立的时候，每个实体化视图只有两个版本：CV和FV（NV＝FV），因此只有一个VM负责视图的维护工作.当系统进行版本更新，系统中的实体化视图出现3个版本后，每个实体化视图Vx则有两个VM：VMNVx和VMFVx分别负责维护它的NV和FV.
+　　VMFVx执行全部的3VPA-vm算法，VMNVx由于不再接收基库发来的数据变化通知，所以它不再执行对dwbup事件的处理.算法具体如下（设执行此算法的是VMNx）：
+　　初始化变量：
+对基库发来的消息做相应处理：
+　　
+　　　　 then m＝i；/* 记下本轮动作表的第一个序号 */
+　　　　if Ui＝ins(r，t) then ｛ k＝k＋1；
+　　　　　　
+　　　　　　发送 到基库端；
+　　　　　　WASNx←WASNx＋QNk；PNk＝1；｝
+　　　　else if Ui＝del(r，t) then {k＝k＋1；
+　　　　　　
+　　　　　　发送 到基库端；
+　　　　　　WASNx←WASNx＋QNk；PNk＝-1；｝
+　　
+　　　　DeltaNx←DeltaNx＋PNkANk；WASNx←WASNx-QNk；
+　　　　n＝k;　/* 当时，n即为本轮动作表的最后一个序号 */
+　　　　if  then ｛ 　发送到MP；｝
+　　当某一时刻DB端数据更新的速度较快，或DW端版本切换较慢时，VM发出的维护查询需要做补偿处理，WASNx（waiting for answer set）即是用于记录那些尚未收到结果的维护查询的.DeltaNx是一个临时变量，用于记录对实体化视图VNx的更新操作.,记录了从Um到Un所引起的应对实体化视图VNx采取的更新操作.V是数据仓库中实体化视图的定义，例如（用r1的元组［2,3］替代表达式中相应的关系）.QNk是DW端发往基库端的维护查询，形式上与V类似.
+3.3　3VPA-mp算法
+　　MP负责维护两个VUT（FV版本和NV版本），3VPA-mp是其在VUT上执行的算法，用以维护版本号相同的多个实体化视图之间的数据一致性.它采用SPA算法［1］思想，不同之处是，3VPA-mp带有版本概念，而且由于VM采用的是具有补偿思想的3VPA-vm算法，所以算法中VUT的每一行可以是与源数据库中的多个更新操作对应的.算法具体如下：
+　　初始化：
+　　收到RELNi：
+　　　　if  then Collect←Collect∪REL\+N\-i;
+　　　　else 
+　　　收到：
+　　　　｛ if then
+　　　　　｛ 在VUTN中新增一s行，其中VUTN［s,x］对应于Um到Un和VNx；
+　　　　　
+　　　　　｛对于.color=white;
+　　　　　　else VUTN［s,x］.color=black; }
+　　　　　对于所有的项，调用ProcessAction(); s=s+1; }
+　　　　　else｛ 调用ProcessAction(); ｝｝
+　　procedure ProcessAction()
+　　　｛ VUTN［s,x］.color=red;
+　　　if VUTN－1为空表 then 调用ProcessRow(s); ｝
+　　procedure ProcessRow(s)
+　　　｛ if 　x且VUTN［s,x］.color=white then return;
+　　　　if 　x,s'<s,使得(VUTN［s,x］.color=red且VUTN［s',x］.color=red) then return;
+　　　　对于x∈VMN， if VUTN［s,x］.color=red then VUTN［s,x］.color=gray;
+
+　　　　对所有VUTN［s,x］.color=gray的项，if NextRed(s,x,N)≠0 then 调用ProcessRow(NextRed)(s,x,N);
+　　　　从VUTN中删除s行，return; ｝
+　　上述算法中，RELNi是用于记录与Ui相关的实体化视图的，当Integrator每次收到基库发来的Ui后，便确定RELNi的值，并将其传送给MP.ALLRELNs记录了与Um到Un这些更新有关的实体化视图，它时刻与VUT保持一致，当VUTN为空表时，ALLRELNs也为空集.WTNs用于收集相关实体化视图的动作表.由于动作表涉及到的更新操作可能不只一个，而RELNi总是先于相应的AL到达MP，所以MP在收到之前无法确定与之对应的的ALLRELNs内容，只能用一临时变量Collect来保存每次的RELNi.
+　　在ProcessAction过程中，对VUTN－1进行了判断，因为NV的更新是基于CV的，FV的更新是基于NV的，只有当它们的前一版本稳定下来后（即VUTN－1为空表时），才可以用前一版本实体化视图的内容和当前版本的动作表一起更新当前版本实体化视图.ProcessRow中的(即是用来完成此项功能的.NextRed(s, x, N)返回的是紧排在VUTN［s, x］下面的color域为red的项的行标.
+3.4　版本切换
+　　在DW端，当所有基于NV版本的视图维护工作已经完成（为空表），且基于CV的OLAP查询也已全部完成（）时，即可进行版本切换.在DW端，版本切换要执行的操作如下：
+　　(1) AVN←AVN＋1；删除所有CV版本的实体化视图；杀死相应的VM；删除VUTCV；
+　　(2) CV←NV；NV←FV；VUTCV←VUTNV；VUTNV←VUTFV；
+　　(3) 每个实体化视图Vx再生成一个新的FV版本，由VMFVx负责维护；MP产生一个新的空的VUTFV；
+　　在基库端，与之对应的是“旧数据”回收.即VND≤AVN－2且flag=D的元组从基库中物理删除.
+4　结束语
+　　数据仓库联机维护技术已经成为重要的研究方向.本文中提出的3层数据仓库体系结构和3VPA算法不仅增强了整个系统的伸缩性，而且使得数据库和数据仓库更能专注于自己的OLTP和OLAP应用，提高了数据仓库系统的整体性能.由于采用了三版本维护方法，数据仓库的刷新和查询可以同时进行，系统的更新不会中止任何正在进行的查询事务，消除了现有系统必须在专门时间对系统进行更新维护的缺点，提高了系统的可用性.
+①modify操作可以看做是先删除后插入，也可以单独对其进行处理，本文对此不做讨论
+②　FV,NV,CV分别表示实体化视图的3个不同版本；ver(FV),ver(NV),ver(CV)分别表示FV，NV和CV这3个版本的实体化视图的版本号.
+③r'是基库按照图3的结构建立的与r对应的表
+④运算符的运算规则为
+作者简介：李子木，男，1971年7月生，博士研究生，研究领域为数据仓库、数据库协同工作、计算机网络. 莫倩，男，1972年6月生，博士研究生，研究领域为数据库协同工作. 徐明，男，1965年生，博士，副教授，研究领域为数据库协同工作、面向对象数据库、高性能计算机体系结构. 周兴铭，男，1938年生，博士生导师，中科院院士，研究领域为数据库协同工作、分布并行计算、高性能计算机体系结构.
+作者单位：李子木　莫　倩　　徐　明　周兴铭　国防科技大学并行与分布处理国家重点实验室　长沙　410073
+参考文献
+1　Zhuge Y, Wiener J, Molina H G. Multiple view consistency for data warehousing. In: Proceedings of the International Conference on Data Engineering, Brimingham, 1997. 289～300
+2　Quass D, Widom J. On-line warehouse view maintenance for batch updates. In: Proceedings of the ACM SIGMOD Conference, Tuscon, Arizona, 1997
+3　Zhuge Y, Molina H G, Hammer J, Widom J. View maintenance in a warehousing environment. In: Proceedings of ACM SIGMOD Conference, San Jose, USA, 1995. 316～327
+4　Bober P M, Towards practical multi-version locking techniques for on-line query processing［Ph D dissertation］, University of Wisconsin-Madison, 1993
+收到日期：1998-09-22
+修改日期：1999-05-17

@@ -1,0 +1,122 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+ANAMMOX流化床反应器性能的研究*
+(郑　平　冯孝善)
+((淅江农业大学环保系，　杭州　310029))
+　　(M.S.M.Jetten J.G.Kuenen)
+((荷兰代尔夫特技术大学))
+
+摘要　直接以氨为电子供体的反硝化反应是一种新的生物反应，可实现对两种氮素污染物的同时去除.探索了用流化床反应器开发这一反应，以处理厌氧消化污泥压滤液的可行性.试验发现，用该技术处理，无需供氧，也无需中和，并可有效地避免基质的抑制作用；平均氨和亚硝酸容积负荷率为428.83和464.91mg/(L*d)，平均氨和亚硝酸去除率为88.49%和99.04%；由于ANAMMOX混培物产率较低，需要较长的SRT(＞100d),有必要进一步研究ANAMMOX混培物的生长条件，以保证ANAMMOX反应器长期稳定运行.
+关键词　厌氧氨氧化；反应器性能；厌氧消化污泥压滤液；生物脱氮.
+STUDY ON PERFORMANCE OF ANAMMOX FLUIDIZED BED
+REACTOR
+
+Zheng Ping, Feng Xiaoshan
+(Zhejiang Agricultural University, Hangzhou 310029)
+M.S.M. Jetten, J.G.Kuenen
+(Delft University of Technology, the Netherlands)
+
+ABSTRACT　Denitrification with ammonium as direct electron donor is a new biological reaction which can remove ammonium and nitrite simultaneously. The performance of ANAMMOX (anaerobic ammonium oxidation) fluidized bed reactor for treatement of the anaerobic effluent from sludge digestion was studied. The results showed that the inhibitory effect of substrates could be avoided and the energy for aeration and chemical for neutralization could be saved.The average ammonium and nitrite volumetric loading rates were 428.83 and 464.91 mg(N)/(L*d), with maxima of 961.56 and 1125.00mg (N)/(L*d),respectively. The average removal of ammonium and nitrite were 88.49% and 99.04%. Because of the low yield of ANAMMOX biomass, a long SRT(＞100d) was needed. In order to operate the bioreactor properly, the growth condition of ANAMMOX biomass should be further studied.
+Keywords　anaerobic ammonium oxidation, bioreactor, anaerobic effluent, sludge digestion, biological dinitrification.
+
+　　随着氮素污染的加剧，除氮技术的研究和应用引起了人们的关注.在氮素污染物的控制中，目前国内外主要采用生物脱氮技术，研究的热点集中在如何改进传统的硝化-反硝化工艺［1］.从微生物学的角度看，硝化和反硝化是两个相互对立的生化反应.前者借助硝化细菌的作用，将氨氧化为硝酸，需要氧的有效供给［2］；而后者则是一个厌氧反应，只有在无氧条件下，反硝化细菌才能把硝酸还原为氮气［3］.此外，在环境中存在有机物时，自养型硝化细菌对氧和营养物质的竞争能力劣于异养型微生物［4］，其生长速度很容易被异养型微生物超过，并因此而难以在硝化中发挥应有的作用；但要使反硝化反应顺利进行，则必须为反硝化细菌提供合适的电子供体(通常为有机物如甲醇等)［1］.最近发现，氨可直接作为电子供体进行反硝化反应，即所谓的厌氧氨氧化(ANAMMOX，Anaerobic Ammonia Oxidation)［5，6］.这一重大的新发现为改进传统的生物脱氮技术提供了理论依据.若能开发利用厌氧氨氧化进行生物脱氮，不仅可以大幅度地降低硝化反应的充氧能耗，免去反硝化反应的外源电子供体，而且还可改善硝化反应产酸，反硝化反应产碱而均需中和的状况.其中后两项对控制化学试剂消耗，防止可能出现的二次污染具有重要作用.
+　　鉴于理论上ANAMMOX的潜在优点，作者探索了用ANAMMOX流化床反应器处理厌氧消化污泥压滤液的可行性.之所以选用这种污水，是因为对含高浓度氨的污水的脱氮研究尚不多见.
+　　
+1　材料与方法
+1.1　试验装置和条件
+　　ANAMMOX流化床反应器装置如图1所示，采用玻璃管制成，高100cm，底部直径5cm，顶部直径8cm，总容积2.5L，其中液相容积2.25L，气相容积0.25L.装置内铺有一层砂子(直径0.3—0.6mm，体积310mL)，起着微生物附着载体和分散污水的作用.反应器外侧设有水层夹套，通过循环水维持37℃的反应温度.整个装置用黑纸包裹，以防光对ANAMMOX混培物的损害.为了使反应器保持缺氧状态，气室用氩(95%)和CO2(5%)混合气体置换，并通过水封防止氧气进入.
+
+
+图1　ANAMMOX流化床反应器装置
+　　1.污水　2.亚硝酸盐溶液　3.4.5.泵　6.取样口
+7.ANAMMOX流化床反应器　8.恒温水浴　9.水封
+10.湿式气体流量计　11.出水
+Fig.1 ANAMMOX fluidized reactor
+接种所用的ANAMMOX混培物取自一套实验室规模的脱氮反应器(容积为23L)，接种量为1L(VS浓度24.86g/L).供试污水取自荷兰鹿特丹污水处理厂，几项水质指标为(mg/L)：NH+4-N?1120—1680(80—120mmol/L)；COD?5430—7514；TOC?1647—1912；pH?7.1—7.3.进料前，污水和亚硝酸盐溶液先用氩(95%)和CO2(5%)混合气体置换除氧，尔后分别泵入反应器.料液与回流液混合后，一起引入反应器底部.进液加回流的总流速为720mL/h，以维持50%的膨胀率.
+1.2　分析方法
+　　氨采用比色法［7］，是离子态和分子态氨的总和；亚硝酸采用Griess-Romijn试剂［8］；N2和N2O采用气相色谱仪(ECD/TCD检测器，美国Fisons仪器公司)；COD采用K2Cr2O7氧化法；pH采用玻璃电极法；TOC采用Beckman?915-B型分析仪；挥发性固体(VS)为60℃下烘24h与600℃下灼烧1h后的质量之差；产气量用湿式流量计计量.
+　　
+2　结果
+2.1　氨的厌氧氧化
+　　用厌氧消化污泥压滤液连续运试ANAMMOX流化床反应器200多天的结果见图2.整个试验分为3个阶段，运试初期(0—64d)，
+
+
+图2　ANAMMOX反应器的除氨效能
+Fig.2 Ammonium removal in ANAMMOX reactor
+用100mmol/L的NaNO2溶液作电子受体，水力停留时间(HRT)控制在4—5d，污水与亚硝酸盐溶液混合后进入反应器的氨浓度(即本文所指的进水氨浓度)为22.26—68.68mmol/L,平均值44.98mmol/L；出水氨浓度1.18—31.05mmol/L，平均值13.66mmol/L；氨去除率21.28%—96.89％，平均值69.02%.但随着运行时间的延长，氨去除率逐渐下降.反应器除氨效能的下降主要由ANAMMOX混培物流失所致，两只泵间进料不平衡造成的亚硝酸盐冲击也有一定的影响.因此，在开始第二阶段(65—125d)的试验时，先补加ANAMMOX混培物，将出水中收集的生物体返回反应器，同时将NaNO2浓度降至25mmol/L以降低亚硝酸盐的冲击强度，氨去除率迅速恢复.平均进出水氨浓度分别为80.78和26.46mmol/L，平均氨去除率65.77%.但是，经过二个月左右的运试，处理效能再度降低.鉴于ANAMMOX混培物增长缓慢且易流失的状况，在第三阶段(126—200d)的试验中，重新从脱氮反应器取样(VS浓度29.45g/L)添加了100mL ANAMMOX混培物，并在进样内添加了乙酸盐、丙酮酸盐和酵母膏混合液，ANAMMOX混培物的数量逐渐增大，氨去除率也随之提高.半个月后，停止补加乙酸盐、丙酮酸盐和酵母膏混合液，恢复正常操作，尔后将HRT由4—5天逐渐缩短.第三阶段的平均进出水氨浓度分别为21.14和2.48mmol/L，平均氨去除率达88.49%.
+
+
+图3　进水氨浓度与出水氨浓度和氨去除率的关系
+Fig.3 Relation between in fluent and effluent
+ammonium concentrations and between influent
+ammonium concentration and ammonium removal
+如图3所示，进、出水氨浓度间具有良好的相关性，进水氨浓度与氨去除率间则呈负相关.
+2.2　亚硝酸的厌氧还原
+　　如图4所示，伴随着氨的厌氧转化，亚硝酸盐也同时被有效地去除.第一阶段的平均进出水亚硝酸盐浓度分别为41.71和0.75mmol/L,平均亚硝酸去除率高达97.74%.第二阶段的进出水亚硝酸盐浓度较低( 11.43 mmol/L和0.24 mmol/L)，平均亚硝酸去除率为97.58%.第三阶段的平均进出水亚硝酸浓度依次为17.14和0.14mmol/L，平均亚硝酸去除率达99.04%.
+　　进水亚硝酸浓度与亚硝酸去除率之间的相关性不显著(r2=0.32和0.16，图5).这与亚硝酸盐被用作控制参数有关.
+
+
+图4　ANAMMOX反应器去除
+亚硝酸盐的效能
+Fig.4 Nitrite removal in ANAMMOX reactor
+
+
+图5　进水亚硝酸浓度与出水亚硝酸
+浓度和亚硝酸去除率的关系
+Fig.5 Relation between influent and effuent 
+nitrite concentrations and between influent
+nitrite concentration and nitrite removal
+2.3　反应器的氨容积负荷与氨去除负荷
+　　反应器氨容积负荷与氨去除负荷随时间的变化如图6所示.3个阶段的平均(NH+4-N)容积负荷依次为188.34、130.30和428.83mg/(L*d)，相应的氨去除负荷依次为144.21\,84.41和379.96mg/(L*d).其中，第三阶段的运试效能良好，最高氨容积负荷与去除负荷分别达961.56和703.08mg/(L*d).氨容积负荷与氨去除负荷之间存在良好的相关性(r2=0.984,图7).
+
+
+图6　反应器容积负荷(AL)与去除
+负荷(AR)随时间的变化
+Fig.6 Volumetric loading rate and 
+volumetric removal rate during operation
+
+
+图7　氨容积负荷与氨去除负荷之间的相关关系
+Fig.7 Relation between volumetric ammonium
+loading rate and ammonium removal rate 
+3个运试阶段的平均亚硝酸容积负荷依次为163.37、93.67和464.91mg/(L*d)，相应的去除负荷依次为159.68、91.40和460.45mg/(L*d).其中，第三阶段的最高亚硝酸容积负荷率与容积去除率分别可达1125.00和1099.64mg/(L*d)；由于亚硝酸盐浓度被用作控制参数，亚硝酸容积负荷与亚硝酸去除率之间的相关性不显著(r2=0.571).
+　　厌氧氨生物氧化的主要产物是N2(88.45%)和N2O(0.32%).第三阶段的平均及最高容积产气率分别为426和920mL/（L*d）；氨或亚硝酸容积负荷率与容积产气率呈正相关(r2=0.87和0.90).
+2.4　水力停留时间和固体停留时间
+　　在第三阶段的试验中，考察了水力停留时间(HRT)和固体停留时间(SRT)对氨或亚硝酸去除率的影响.如图8所示，在HRT较大的条件下，氨去除率保持相对稳定；但当HRT小于0.4天时，氨去除率明显地受到影响.亚硝酸被用作控制参数，去除率几乎未受影响.
+　　由于ANAMMOX混培物产率较低，SRT因HRT缩短而降低.在一定的SRT范围内，氨去除率较高而且稳定.但超过一定范围时，氨去除率急剧下降(图9).亚硝酸去除率几乎不受SRT的影响.从图9看，ANAMMOX流化床反应器的SRT不宜小于100天.
+　　
+
+
+图8　水力停留时间(HRT)对氨或亚硝酸去除率的影响
+Fig.8 Effect of HRT on ammonium or nitrite removal
+
+
+图9　固体停留时间(SRT)对氨或亚硝酸去除率的影响
+Fig.9 Effect of SRT on ammonium ornitrite removal
+3　讨论
+3.1　ANAMMOX流化床反应器的效能
+　　本试验探索了ANAMMOX反应器脱除厌氧消化污泥压滤液中的氨的效能.平均进出水氨浓度46.45和13.39mmol/L，氨容积负荷率259.97mg/(L*d)，氨去除率为76.13%；平均进出水亚硝酸浓度24.30和0.34mmol/L，亚硝酸容积负荷率235.47mg/(L*d)，亚硝酸去除率98.42%.其中，第三阶段的运试比较稳定，结果较有代表性，平均氨容积负荷率与容积去除率428.83和379.96mg/(L*d)，最高氨容积负荷率与容积去除率961.56和703.08mg/(L*d)，平均氨去除率88.49%；平均亚硝酸容积负荷率和容积去除率464.91和460.45mg/(L*d)，最高亚硝酸容积负荷率与容积去除率1125.00和1099.64mg/(L*d)，平均亚硝酸去除率为99.04%.第三阶段的运试指标已明显高于Mulder等用同类反应器取得的结果(最高氨容积去除率为0.4kg/(m3*d)［5］，也已优于Prakasam等所报道的硝化-反硝化工艺的结果［9］，因此值得进一步研究与开发.
+3.2　ANAMMOX流化床反应器的特点
+　　传统的生物硝化涉及Nitrosomonas 和Nitrobacter两类细菌，要求DO＞1mg/L或2mg/L，pH＞7，因此应及时中和或缓冲反应所产生的酸度［6］，厌氧氨氧化是一个厌氧过程，不仅无需供氧，而且反应物和产物均为中性［10］：
+　　NH+4+NO-2→N2+2H2O　　ΔG0=-360kJ/mol(NH+4)
+也无需中和.对于所试的厌氧污泥压滤液而言，其本身的pH为7.1—7.3，正好处于厌氧氨氧化的适宜范围.
+　　厌氧氨氧化可实现对两种氮素污染物的同时去除.虽然氨和亚硝酸对细菌均有毒害作用，本试验采用流化床反应器进行此反应，适度的回流不仅维持了一定的膨胀率，也有效地避免了基质的抑制作用.在所试的基质浓度范围(氨10—120mmol/L，亚硝酸3—78mmol/L)内，并未出现严重的操作问题.
+3.3　HRT和SRT的影响
+　　尽管亚硝酸盐去除率受HRT和SRT的影响不大，但氨去除率则明显地受HRT和SRT缩短的影响.当HRT较大时，反应器的运行效能相对稳定；而在HRT小于0.4天的情况下，氨去除率明显下降.这与Sheintuch等的报道相吻合，他们发现在HRT为10—20h的情况下，硝化作用(氨和亚硝酸的转化)进行得较好［11］.
+　　由于ANAMMOX混培物产率较低，当HRT缩短时，SRT也随之下降.在特定的SRT范围内，氨去除率较高而且稳定.低于一定下限后，氨去除率明显下降.SRT的下限值约为100d，大大长于其他研究者对城市废水的研究结果［11］.尽管已经确证在缺氧条件下，氨是理想的电子供体，但当氨被用作唯一的电子供体时，并未检出细胞数量的增加［12，13］.因此有必要深入研究ANAMMOX混培物的生长条件，以保证ANAMMOX反应器长期稳定运行.
+国家自然科学基金资助项目（批准号59678024）
+参考文献
+　1　Mateju V, Janoch T.Biological water denitrification— a review. Enzyme Microbiolob Technol, 1992, 14:170—183
+　2　Helder W,de Vries R T P. Estuarine nitrite maxima and nitrifying bacteria (Ems-Dollard estuary). Neth J Sea Res, 1983,17:1—18
+　3　Zumft W G. The denitrifying prokaryotes. In:Balows A et al. (Ed). 2nd ed. The Prokaryotes.Berlin:Springer, 1992: 554—582
+　4　Van Niel E W J, Kuenen J G. A mathematical description of the behaviour of mixed chemostat cultures of an autotrophic nitrifier and a heterotrophic nitrifier/aerobic denitrifier; a comparison with experimental data. FEMS Microbiol Ecol, 1993, 102:99—108
+　5　Mulder A, Van de Graaf A A. Anaerobic ammonium oxidation discovered in a denitrifying fluidized bed reactor. FEMS Microbiol Ecol, 1995,16:177—184
+　6　Van de Graaf A A, Kuenen JG.Anaerobic oxidation of ammonium is a biologically mediated process. Appl Environ Microbiol,1995,61:1246—1251
+　7　Fawcett J K, Scott J E. A rapid and precise method for the determination of urea. J Clin Pathol, 1960, 13:156—159
+　8　Griess-Romijn van Eck. Phyciological and chemical tests for drinking water.NEN 1056, IV-2. Netherlands Normalisatie-Instituut, Rijswijk, 1966
+　9　Prakasom, T B S， Loehr R C. Microbial nitrification and denitrification in concentrated wastes. Wat Res, 1972, 6:859—869
+10　Broda E.Two kinds of lithotrophis missing in nature. Z Allg Mikrobiol, 1977, 17:491—493
+11　Sheintuch M, Rebhun M. Substrate inhibition and multiple states in a continuous nitrification process. Wat Res, 1995 29:953—963
+12　Abeliovich A, and Vonshak A. Anaaerobic metabolism of nitrosomonas europaea. Arch Microbiol, 1992, 158:267—270
+13　Bock E, Zart D. Nitrogen loss caused by denitrifying nitrosomonas cells using ammonium or hydrogen as electron donors and nitrite as electron acceptor. Arch Microbiol, 1995, 163:16—20

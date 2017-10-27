@@ -1,0 +1,117 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+水溶液中腐殖酸的二氧化钛膜光催化氧化研究
+魏宏斌　徐迪民
+(同济大学环境工程学院，上海 200092)
+徐建伟
+(同济大学测试中心)
+
+摘要　二氧化钛(TiO2)膜光催化氧化法处理水中腐殖酸(HA)技术避免了以往悬浮相光催化时催化剂难以分离回收等回题，具有良好的应用前景.研究了光源种类、TiO2膜的表面修饰和HA水溶液的pH值等因素对HA光催化氧化效率的影响，讨论了有关的机理并合理解释了实验现象.
+关键词　腐殖酸；TiO2膜；光催化氧化.
+PHOTO OXIDATION OF HUMIC ACID IN AQUEOUS SOLUTION CATALIZED BY TIO2 FILM
+
+Wei Hongbin, Xu Dimin
+(School of Environmental Engineering, Tongji University, Shanghai 200092)
+Xu Jianwei
+(Analysis and Research Center, Tongji University, Shanghai 200092)
+
+ABSTRACT　The photocatalytic oxidation of humic acid(HA) in aqueous solution using TiO2 film as a catalyst was studied in compared to a dispersion system, in which the suspended TiO2 particles were difficult to be separated and recovered. The method showed a good application perspective. The effects of the photosources, surface modifications of TiO2 film and pH value of HA aqueous solution on photocatalytic oxidation efficiencies were investigated. The involved mechanism were discussed.
+Keywords　humic acid, TiO2 film, photocatalytic oxidation.
+1　引　言
+　　腐殖酸(HA)是天然水体中有机物质的主要成分之一.有研究表明，天然饮用水中的有机物质主要为HA，其含量愈高，水质卫生状况愈差［1］.HA亦是微量金属的强络合剂，会使水中金属离子和微量元素含量下降，矿化度降低.同时，HA被认为是自来水氯化消毒过程中形成三卤甲烷类有害消毒副产物的主要母体物.Langvik等人对湖泊水体中分离出来的HA和黄腐酸(FA)形成氯化消毒副产物的研究表明，单位质量有机质中HA组分在氯化消毒过程中所形成的副产物的致突变性比FA组分略强，而且前者所生成的具有极强致诱变力的氯化副产物MX(如1-氯-3-二氯甲基-4-羟基-丁烯酸)的含量也较后者高［2］.因此，研究开发一种高效实用的水中HA降解技术已显得极为迫切.
+　　光催化氧化是近20年来才发展起来的水处理新技术，其方法简便，氧化能力极强，在足够的反应时间里，通常能将水中的有机污染物氧化为CO2和H2O等简单无机物，避免了二次污染，显示了良好的应用前景.高翠琴等人曾利用TiO2悬浮体系光催化分解水中的腐殖酸［3］，但由于粉末催化剂难以分离回收，在水溶液中易于凝聚不易分散等问题而使该方法很难实用化.本文介绍固定相TiO2膜光催化氧化法处理水中腐殖酸技术.
+
+2　实验部分
+2.1　TiO2膜的制备
+　　将钛酸丁酯、无水乙醇、水和硝酸配制成溶胶，陈化后，浸入经预处理的玻璃纤维布，然后取出，在马福炉中以3℃/min的升温速度加热至400℃，保持1h后，慢慢冷却至室温.上述过程重复4次，制成TiO2薄膜.对TiO2膜的X射线衍射分析结果如图1所示，图峰鉴定证明为锐钛矿型.Ag-TiO2膜、Pt-TiO2膜采用光化学沉积法制备，以蓝黑管紫外线荧光灯(黑光灯)照射一定浓度的AgNO3溶液或H2PtCl6溶液，使Ag或Pt担载在TiO2膜上.
+
+
+图1　TiO2膜的X射线衍射定性分析
+注：21-1272为锐钛矿标准卡片
+Fig.1 X-ray diffraction patterns of the TiO2 film
+
+
+图2　实验装置示意图
+(1)反光罩 (2)灯管 (3)反应器(4)磁力泵　(5)转子流量计
+Fig.2 Schematic illustration of theexperimental apparatus
+2.2　实验装置与方法
+
+　　如图2所示，敞口反应器装置由聚氯乙烯板制成，长438mm,宽140mm,高65mm.敞口反应器能确保反应过程中向水体提供充足的溶解氧.反应器底部放置TiO2膜并置于25±1℃恒温水浴中.除特殊说明外，反光罩和反应器内侧均贴有铝箔以提高光能利用率.反光罩内安装3支15W的主波长253.7nm的紫外线杀菌灯或主波长365nm的蓝管紫外线荧光灯(黑光灯).HA水溶液以磁力泵循环，流量40L/h.实验以间歇批量方式运行，运转液体积1.2L，反应器中水层厚度16mm,灯距水面70mm，每隔一定时间取样分析.预先的实验证明，该反应器中的HA在反应条件下不会挥发.
+2.3　HA水样配制
+　　HA为上海试剂二厂生产的生化试剂.称取1gHA试剂，加入到2%NaOH热溶液中，使其充分溶解，冷却后用定量滤纸过滤去渣，再用盐酸调节pH值为7左右，配成HA贮备液.测得其TOC为255mg/L.将HA贮备液稀释后供实验用.
+2.4　分析方法
+　　总有机碳(TOC)以Shimadzu TOC-500总有机碳分析仪测定，进样量为20μL.采用Shimadzu UV-365紫外可见分光光度计进行吸光度-波长自动扫描和λ=254nm处的吸光度(A254）测定，1cm石英比色皿，二次蒸馏水作参比.pH值由pHs-3DC精密数显酸度计测定.X射线衍射采用日本Rigaku株式会社转靶粉末X 射线衍射仪D/max-2400测定.
+
+3　结果与讨论
+3.1　光源种类及总体降解情况
+
+
+图3　不同处理方式下HA水溶液的A-λ扫描曲线
+a.黑光灯/TiO2膜　b.杀菌灯/TiO2膜
+c.杀菌灯/无膜　d.黑光灯/无膜
+Fig.3　 A-λ scanning curves of HA aqueous solution under various disposal modes
+图3为HA水溶液在不同处理方式下的吸光度-波长扫描曲线.可见，起始浓度基本相同的HA水溶液，光催化氧化后水样的吸光度在整个扫描区间均降低，但以杀菌灯/TiO2膜光催化时降低的幅度大(图3b).光催化过程中紫外可见吸收光谱的形状并没有改变，说明光催化氧化的中间产物中，没有在紫外区具有特征吸收的物质积累.杀菌灯/无膜处理方式下水样的吸光度在整个扫描区间亦随处理时间的延长而降低，这与笔者研究苯酚降解时的情况不同［4］，但降低的幅度远小于杀菌灯/TiO2膜处理方式时.而黑光灯/无膜情况下水样的吸光度在整个扫描区间随处理时间的增大而增大，原因可能是此时直接光解生成的中间产物比降解前的HA具有大的摩尔吸光系数，同时亦说明了光源波长对HA光催化氧化过程中光解作用的影响之大. 
+　　
+
+
+图4　不同光源光催化氧化时TOC与A254变化情况比较
+(1)(3)黑光灯/有膜
+(2)(4)杀菌灯/有膜
+Fig.4 Comparison between decrement of TOCand A254 under different light sources
+以下以HA水溶液在254nm处的吸光度值(A254)表示HA的相对含量.图4比较了起始TOC值5.75mg/L的HA水溶液在不同光源下光催化氧化时TOC去除情况与A254变化情况.可见，杀菌灯光催化对TOC的去除效果优于黑光灯光催化.图5、图6为不同处理方式下，起始TOC值3.57mg/L的HA水溶液的TOC与A254随处理时间的变化.结果表明，杀菌灯光催化时的效果最好.与图4相似，仍是在降解初期(前20min)TOC与A254降低的幅度最大，随处理时间的延长，很明显TOC的递减速率小于A254的递减速率，说明随着处理时间的延长，生成了较多的中间产物，水溶液中有机物(包括HA母体)的总体降解速率减缓.表1比较了起始TOC值3.57mg/L的HA水溶液在不同光源下光催化氧化时A254变化率与TOC去除率.
+
+
+图5　不同处理方式时TOC随时间的变化
+(1) 黑光灯/无膜 (2) 杀菌灯/无膜
+(3)黑光灯/有膜 (4)杀菌灯/有膜
+Fig.5 Decrement of TOC as a function of irradiation time under various disposal modes
+
+
+图6　不同处理方式时A254随时间的变化
+((1)，(2)，(3)，(4)同图5)
+Fig.6 Decrement of A254 as a function of irradiation time under various disposal modes
+表1　不同光源光催化时A254变化率与TOC去除率的比较
+Table 1 Comparison of elimination rates between A254 and TOC under different light sources
+
+处理方式A254变化率，%TOC去除率，%
+20min60min120min20min60min120min
+黑光灯/TiO2膜10.929.940.810.416.021.6
+灭菌灯/TiO2膜28.251.361.519.433.336.5
+
+　　杀菌灯光催化氧化HA的效果优于黑光灯的原因可能是：(1)光催化氧化过程中，有机物不可避免地存在不同程度的光解作用.根据HA的紫外/可见吸收光谱，很显然杀菌灯将比黑光灯更有效地激发、分解HA分子；同时，短波紫外光亦有足够的能量激发氧分子，用通过氧原子对碳氢键的插入反应实现光氧化反应.被激发的HA分子和光解产物比基态的HA分子更容易被光催化氧化.(2)黑光灯的主波长365nm接近于TiO2的吸收截止波长，而杀菌灯的主波长在253.7nm，TiO2对短波紫外光的吸收效率更高，产生更多的e-和h+，因而，用杀菌灯光催化氧化效率高.(3)波长越短，光子能量越高，因此杀菌灯的光子能量高，输出功率高.
+3.2　TiO2膜的表面修饰
+　　在光催化氧化过程中，光生e-和h+的简单复合与伴有化学反应的复合(e-与/或h+的捕集)之间存在竞争.因此，任何减慢简单复合过程或有助于e-/h+向半导体上的吸附物种转移的因素都将提高TiO2的光催化活性.
+　　在TiO2表面担载高活性的贵金属或金属氧化物，如Ag\,Au\,Pt\,Pd\,Nb\,RuO2和Pt-RuO2等，就是一种有效的提高TiO2光催化活性的方法.这些分散在TiO2表面的金属对光生e-有较强的吸引力，有利于光生e-向TiO2表面迁移，从而阻止了光生e-与h+的简单复合［5］.本文采用光化学沉积法，将Ag和Pt担载在TiO2膜上，测定了黑光灯/Ag-TiO2膜、杀菌灯/Pt-TiO2膜光催化氧化腐殖酸的效果(表2).可见，担载Ag\,Pt后的TiO2膜的光催化活性大大提高.
+表2　表面修饰后的TiO2膜与纯TiO2膜光催化时A254的比较
+Table 2 Comparison of elimination rates of A254 between naked TiO2 film and surface modified TiO2 film
+
+处理时间，minA254变化率，%
+黑光灯杀菌灯
+纯TiO2膜Ag-TiO2膜变化率增加值纯TiO2膜Pt-TiO2膜变化率增加值
+2010.934.623.728.243.615.4
+4021.844.823.041.756.414.7
+6029.950.620.751.366.715.4
+变化率平均增加值　　22.5　　15.2
+
+注：HA水溶液起始TOC值3.57mg/L
+
+3.3　起始pH值的影响
+　　不同pH值下，杀菌灯/TiO2膜光催化氧化HA水溶液的结果见图7.可见，随HA水溶液起始pH的减小，HA的光催化速率增大，这与高翠琴等在其实验条件下所得的溶液pH值不会影响HA光催化分解速度的结论不同［3］.
+
+
+图7　HA在不同起始pH值下的光催化氧化
+(杀菌灯/TiO2膜)
+Fig.7 Photocatalytic oxidation of HA at differentinitial pH values
+
+Tunesi S.等人曾测得采用溶胶-凝胶法制备的TiO2陶瓷膜(热处理温度400℃)的等电点(PZC)为6.0±0．2［6］.由于水溶液中氧化物的表面荷电情况与溶液pH值有关，当溶液pH＞PZC时，氧化物表面荷负电，pH＜PZC时，氧化物表面荷正电，随着溶液pH值的增大，氧化物表面的负电性增大.许多研究证明，有机物在光催化剂表面的吸附是其高效率降解的一个先决条件.因此，笔者认为在本文实验条件下，随着pH值降低，HA光催化速率增大的结果可能与溶液pH值降低时，TiO2膜表面的正电性增加从而导致电离性有机物HA在TiO2膜表面的吸附增加有关.同时，随pH值减小，HA的水溶性减小，亦有利于其在TiO2膜表面的吸附.
+
+4　结论
+　　TiO2膜光催化氧化法处理水中腐殖酸技术避免了以往悬浮相光催化时催化剂难以分离回收及光能利用率低等问题，实现了催化与分离的一体化.通过本文的实验研究，证明采用杀菌灯作为光源比采用黑光灯更为有效；TiO2膜以重金属Ag,Pt修饰后其光催化活性大为提高，HA的降解速率与效率增加；随起始pH值的降低，HA的光催化氧化速率增大.
+参考文献
+1　唐森本等.天然饮用水中腐殖物质的研究.环境保护，1994，11：34—36
+2　Langvik VA et al. Formation of mutagemic organic by-products and Aox by chlorination of fractions of humic water. Wat Res, 1994,28(3):553_557
+3 高翠琴等.半导体悬浮体系光催化分解水中的腐殖酸.化学世界，1993，8：390—393
+4　魏宏斌等.二氧化钛膜光催化氧化苯酚.上海环境科学，1995，14(10)：31—34
+5　Gerischer H et al. The role of oxygen in photooxidation of organic molecules on semiconductor particles. J Phys Chem, 1991,95:5261_5267
+6 Tunesi S et al. Influence of chemisorption on the photodecomposition of salicylic acid and related compounds using suspended TiO2 ceramic membranes.J Phys Chem, 1991,95(8):3399_3405

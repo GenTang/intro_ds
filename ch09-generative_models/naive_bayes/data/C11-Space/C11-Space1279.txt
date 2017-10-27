@@ -1,0 +1,105 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+SiO2-AlN复合材料的热物理性质
+吴洁华　　李包顺　　郭景坤
+
+摘要： 研究了AlN引入量和温度对SiO2-AlN复合材料的热膨胀系数和热导率的影响，并对影响SiO2-AlN复合材料抗热震性的诸因素做了分析。结果表明，SiO2-AlN复合材料的热膨胀系数随温度的提高而增加；在同一温度下，复合材料的热膨胀系数在400℃以上随AlN引入量的增加而增加。SiO2-AlN复合材料的热扩散率和热导率随热压温度的提高而增加。SiO2-AlN复合材料的临界淬冷温度在600℃左右。
+关键词： 石英； 氮化铝； 复合材料； 热膨胀系数； 热导率； 抗热震性
+中图分类号： V254.2　　　文献标识码： A　　　文章编号： 1005-5053(1999)03-0037-06
+
+Investigation on thermophysical properties
+of SiO2-AlN composites
+WU Jie-hua　　LI Bao-shun　　GUO Jing-kun
+(Shanghai Institute of Ceramics, Chinese Academy of Sciences, Shanghai 200050, China)
+Abstract： Thermophysical properties of SiO2-AlN composites as a function of temperature and the content of AlN particles were investigated.The theoretical analysis of thermal shock resistance of SiO2-AlN composites was also studied.The results showed that thermal expansion coefficient of SiO2-AlN composites increased with temperature;while in the same temperature thermal expansion coefficient increased with the content of AlN particles above 400℃.Thermal diffusivity and thermal conductivity of SiO2-AlN composites increased with hot-pressing temperature.Retained flexural strength of SiO2-AlN composites decreased abruptly when temperature difference was above 600℃ because of the heavy mismatch of thermal expansion coefficient between SiO2 matrix and AlN particles.
+Key words: silica; aluminium nitride; composite; thermal expansion coefficient; thermal conductivity; thermal shock resistance
+
+　　随着探索航空航天领域的深入，天线窗复合材料的研究引起了科技工作者越来越浓厚的兴趣。传统的天线窗材料，如熔融浇铸石英，尽管有着优秀的介电性能和抗热震性，但因为其较低的机械性能，难以满足某些苛刻工况(如5Mach以上)的要求。
+　　根据复相陶瓷原则，在颗粒增韧陶瓷基复合材料中，第二相高弹性模量颗粒的引入及基体与第二相颗粒热膨胀系数不匹配所致的残余应力场的协同作用将使得复合材料的力学性能有所提高［1］。作者在SiO2基体中引入第二相AlN，结果发现，SiO2-AlN复合材料的抗弯强度和断裂韧度提高到200MPa和2.96MPa.m1/2［2］，这说明，第二相AlN对SiO2基复合材料力学性能的补强增韧是显著的。SiO2-AlN复合材料在微波频率9.375GHz下的介电常数和介电损耗分别是4.02和6×10-3［3］，基本达到天线窗材料对介电性能的要求［4］。
+　　表1是SiO2和AlN的物理性质。可以发现，两者的热膨胀系数和热导率差别较大，无疑这将影响到SiO2-AlN复合材料的热物理性质。本文以热压烧结SiO2-AlN复合材料为对象，研究了AlN引入量和温度对SiO2-AlN复合材料热膨胀系数和热导率的影响，并对影响SiO2-AlN复合材料抗热震性的诸因素做了分析，为改进其抗热冲击能力提供了根据。
+1　实　验
+　　以SiO2石英砂和自蔓延法(SHS)制备的AlN粉为原料，SiO2石英砂经X-射线荧光(XRF)分析SiO2含量为99.98%；AlN粉预先做抗水化处理。将SiO2石英砂和AlN粉分别按90～10(体积百分比，下同)，80～20，70～30的比例配料，以无水乙醇为介质，球磨混合24h，混合料干燥后过120目筛，将筛下物装于模具中，在一定温度下热压烧结，热压温度为1250℃，1300℃和1350℃，保温压力20MPa，保温时间30min，热压气氛为纯Ar气。
+　　
+表1　SiO2和AlN的物理性质
+Table 1　Physical properties of pure SiO2 and AlN
+
+PropertiesSiO2AlN
+Density/g.cm-32.23.3
+Specific heat/J.(g.k)-10.8410.736
+Young modulus/GPa72274
+Thermal conductivity/W.(m.K)-11.95320
+Thermal expansion coefficient/×10-6K-10.54.5
+
+　
+
+　　采用顶杆热膨胀法测试试样的热膨胀系数，试样尺寸为4mm×4mm×30mm，升温速率为5℃.min-1。使用周期热流法测试复合材料表面方向的热扩散率，试样尺寸为16mm×4mm×0.3mm，然后利用以下公式计算复合材料的热导率［5］：
+　　　　λ=α.Cp.ρ　　　　　　　　　　　　　　　　　　　　　　　(1)
+式中λ为热导率，α为面向热扩散率，Cp为比热容，ρ为密度。Cp根据复合材料热容加和性原则由SiO2和AlN的比热容计算得到。ρ用排水法测试。将SiO2-AlN复合材料加工成尺寸为2.5mm×5mm×30mm的试样，将试样在马弗炉中加热至600℃，800℃和1000℃，保温30min，然后投入到流动冷水中淬冷，试样烘干后在Instron-1195材料试验机上用三点抗弯法测试复合材料的抗弯强度。用JEM-200CXJ透射电镜观察复合材料的显微结构。
+2　结果与讨论
+2.1　SiO2-AlN复合材料的热学性能
+　　根据两相复合材料热膨胀系数的Turner表达式［6］：
+　　　　　　　　　　　　　　　　　　　(2)　　
+式中：α，V和E分别指热膨胀系数、体积分数和弹性模量，下标p，m分别指第二相颗粒和基体，因为AlN的热膨胀系数比SiO2的大，可以预测SiO2-AlN复合材料的热膨胀系数随AlN引入量的增加而增加。图1是不同AlN引入量的SiO2-AlN复合材料的热膨胀系数随温度变化关系。可以发现，对于同一AlN引入量的复合材料，热膨胀系数随温度的提高而增加；对于不同AlN引入量的复合材料，当温度在400℃以上时，热膨胀系数随AlN引入量的增加而增加，这与式(2)所预测的结果是一致的。值得注意的是，在较低的温度时，热膨胀系数并不是随AlN引入量的增加而增加，而是先下降然后上升，400℃以上温度时，随AlN引入量的增加，复合材料的热膨胀系数才逐渐增加。
+　　复合材料由于第二相在物理化学性质上有别于基体，因而第二相的引入将影响到复合材料的烧结过程，包括坯体内气孔的排除和致密化过程。结果随AlN引入量的增加，复合材料的相对密度下降，复合材料中存在一定的气孔［2］；此外，因为SiO2基体和第二相AlN的热膨胀系数差别较大，复合材料在从热压温度向室温冷却过程中，因为残余应力的生成易在复合材料内引发微裂纹(图2)。当再加热时，一定量的气孔和微裂纹趋于弥合，而在低温下表现出随AlN引入量的增加，热膨胀系数下降，但对于30vol%AlN-SiO2复合材料而言，因为AlN引入量较大，正如Turner表达式所预测的，热膨胀系数增加明显，所以AlN引入量为30vol%的复合材料的热膨胀系数比AlN引入量为20vol%的略大，但又比AlN引入量为10vol%的要小。当再继续提高温度时，由于微裂纹已基本弥合，而气孔率的影响作用趋于减弱，所以热膨胀系数随AlN引入量的增加而增加。
+　　　　　　　
+　图1　SiO2-AlN复合材料的热膨胀系数　　　　　　　　图2　SiO2-AlN复合材料的TEM照片
+　　　随温度的变化关系　　　　　　　　　　　　　Fig.2　TEM micrograph of SiO-AlN
+Fig.1　Thermal expansion coefficient of　　　　　composites showing microcrack
+SiO2-AlN composites as a function of temperature
+
+　　图3和图4分别是不同AlN引入量的SiO2-AlN复合材料的热扩散率和热导率随热压温度的变化关系，其中图4中数据是根据式(1)由图3中数据计算得到的。可以发现，随热压温度的提高，复合材料的热扩散率和热导率增加，这是因为随热压温度的提高，复合材料的致密度得以提高的缘故。而SiO2-AlN复合材料的热导率接近于玻璃质基体的热导率，是因为复合材料以SiO2为连续相，高热导率AlN弥散性地分布其中的缘故。
+　　根据两相复合材料热导率表达式［6］：
+　　　　　　　　　　　　　　　(3)
+式中：λ为复合材料的热导率，λc和λd分别为连续相和分散相的热导率，Vd为分散相的体积分数。比较SiO2和AlN的热导率(表1)，AlN的热导率比SiO2要大得多，所以式(3)可以简化为：
+　　　　λλc［(1+2Vd)/(1-Vd)］　　　　　　　　　　　　　　(4)
+根据上式计算得20vol%AlN-SiO2和30vol%AlN-SiO2复合材料的热导率分别为3.412W/(m.K)和4.457W/(m.K)。实验值与之相比较小，其原因是复合材料中存在一定的微裂纹，导致热导率的降低［7］。
+　　　　　
+　　图3　SiO2-AlN复合材料的热扩散率随热　　　　　图4　SiO2-AlN复合材料的热导率随
+　　　　压温度的变化关系　　　　　　　　　　　　　　　热压温度的变化关系
+Fig.3　Thermal diffusivity of SiO2-AlN -　　Fig.4　Thermal conductivity of SiO2-AlN 
+composites as a function of temperature　　　composites as a function of temperature
+
+图5　SiO2-AlN复合材料经受热冲击后抗弯强度随淬冷温度的变化关系
+Fig.5　Flexural strength of SiO2-AlN composites as a function of
+quenching temperature
+2.2　SiO2-AlN复合材料的抗热震性
+　　图5是1350℃下热压烧结的SiO2-AlN复合材料经受热冲击前后抗弯强度随淬冷温度的变化关系。可以发现，未经受热冲击前，AlN引入量为30vol%的复合材料因高弹性模量第二相颗粒的引入以及残余应力场的协同作用力学性能有较大提高［2］。当经受热冲击后，随热冲击温度区间的增加，复合材料的抗弯强度趋于下降。当ΔT=0～600℃时，抗弯强度衰减幅度小且缓慢；当ΔΤ＞600℃时，抗弯强度迅速下降。可以估计，SiO2-AlN复合材料的临界淬冷温度在600℃左右，较之SiO2基体材料，抗热震性有所下降。
+　　复合材料的抗热震性是其力学性能和热学性能的综合表现，且与热应力有很大关系。当从高温淬冷至室温时，由于复合材料表面内外的温度梯度使得收缩不一致而导致在复合材料内生成热应力［5］：
+　　　　　　　　　　　　　　　　　　　　(5)
+式中：σ为热应力，E为弹性模量，μ为泊松比，α为热膨胀系数，ΔΤ为温差。假如σ=σf，即热应力恰好达到材料的极限抗弯强度，则材料将被破坏。代入式(4)，则得：
+　　　　　　　　　　　　　　　　　　(6)
+上式指出了物性参数对复合材料抗热震性的影响。注意到SiO2-AlN复合材料以SiO2为连续相，可以假设复合材料的物性参数为SiO2基体的物性参数并取值μ=0.16，E=72GPa，则近似计算得ΔΤmax=638℃(表2)。可以发现，计算结果与实验值基本一致。而且式(5)也反映了随AlN引入量的增加，复合材料的热膨胀系数增加，使得复合材料所能经受的临界淬冷温度下降。
+
+表2　SiO2-AlN复合材料抗热震性分析
+Table 2　Analysis of thermal shock resistance of SiO2-AlN composites
+
+SampleμE/GPaα/×10-6K-1σ/MPaΔTmax/℃
+30vol%AlN-SiO20.16723164［2］638
+
+　
+
+　　根据式(4)和式(5)可知，影响复合材料抗热震性的因素如下：1)提高SiO2-AlN复合材料的抗弯强度σf，使σf/E提高。这意味着提高复合材料的柔韧性，可以吸收较多的弹性应变能；2)减小SiO2-AlN复合材料的热膨胀系数α。在同一温差下，α小的材料生成的热应力小；3)提高SiO2-AlN复合材料的热导率λ。λ大的材料易于缓解材料内热应力的聚集。显然这将有助于提高SiO2-AlN复合材料的抗热震性。
+3　结　论
+　　(1)SiO2-AlN复合材料的热膨胀系数随温度的提高而增加；在同一温度下，复合材料的热膨胀系数与AlN的含量有关，400℃以上，热膨胀系数随AlN引入量的增加而增加，400℃以下，热膨胀系数随AlN引入量的变化较复杂。
+　　(2)SiO2-AlN复合材料的热扩散率和热导率随热压温度的提高而增加，由于以SiO2为连续相复合材料的热导率接近于玻璃质基体的热导率。
+　　(3)SiO2-AlN复合材料的临界淬冷温度在600℃左右。提高复合材料的柔韧性和热导率、减小热膨胀系数有助于提高复合材料的抗热震性。
+作者简介： 吴洁华(1972-)， 男， 博士 
+作者单位：中国科学院上海硅酸盐研究所， 上海　200050
+参考文献： 
+［1］　江东亮，郭景坤.复相陶瓷.硅酸盐学报，1991，19：258
+［2］　WU Jie-hua,LI Bao-shun,GUO Jing-kun.The influences of addition of AlN 
+　　　　particles on mechanical properties of SiO2 matrix composites doped with AlN 
+　　　　particles.materials letters(in press)
+［3］　吴洁华，李包顺，黄校先等.SiO2-AlN复合材料的介电性能.功能材料与器件学报(待发表)
+［4］　BARTA J,MANELA M.Si3N4 and Si2N2O for high performance.Mater Sci & Eng, 
+　　　　1985,71:265
+［5］　奚同庚.无机材料热物性学.上海：上海科学技术出版社，1981
+［6］　KINGERY W D,BOWEN H K,UHLMANN D R.Introduction to ceramics.John Wiley & Sons 
+　　　　Inc.1976
+［7］　SIEBENECK H J,HASSELMAN D P H.Effect of microcracking on the thermal 
+　　　　diffusivity of Fe2TiO5.J Am Ceram Soc,1976,59:241
+收稿日期： 1999-03-22； 修订日期： 1999-06-09

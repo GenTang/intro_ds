@@ -1,0 +1,118 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.7　P.824-829
+
+
+
+CORBA实现系统性能优化策略研究
+谢俊清　蔡敏　顾冠群
+摘　要：CORBA作为支持异构分布式系统的开发和运行的环境和平台，在众多领域得到了应用.但是，许多传统的CORBA实现系统的运行性能比较低，无法满足一些性能要求较高的应用系统的需要.本文分析了传统CORBA实现系统的体系结构，研究并提出了解决实现高吞吐量、低延迟的CORBA系统的优化策略；同时，本文基于以上的优化策略对自行开发的遵循CORBA 2.0规范的ORBUS系统进行优化，并对优化前后的性能进行了比较测试.
+关键词：CORBA，性能优化，GIOP，IIOP，CDR，编译，解释
+分类号：TP301；TP393
+RESEARCH ON PERFORMANCE OPTIMIZATION
+OF CORBA IMPLEMENTATION
+XIE Jun-Qing
+(Department of Computer Science and Engineering, Southeast University, Nanjing 210096)
+CAI Min
+(Department of Computer Science and Engineering, Southeast University, Nanjing 210096)
+GU Guan-Qun
+(Department of Computer Science and Engineering, Southeast University, Nanjing 210096)
+Abstract：CORBA has been used in many fields as an environment supporting the development and deployment of heterogeneous distributed systems. But most of the traditional CORBA implementations have low run-time performance and can not satisfy the requirements of time sensitive applications. This paper first analyses the structure of the traditional CORBA implementation, and then introduces some optimization strategies. Finally， those strategies are used to improve run-time performance of the ORBUS system which is a CORBA 2.0 implementation system developed by the authors. Some tests are also taken and the results are presented.
+Key words：CORBA, performance optimization, GIOP, IIOP, CDR, compile, interpret▲
+1　引言
+　　随着计算机网络的发展，将应用扩展到局域网、广域网甚至Internet上成为用户的普遍需求，这样，分布计算就成为了新的热点.在分布式计算环境中，异构性是一个十分明显的特点.而在异构环境下实现信息和软件资源的共享是十分困难的，一个健壮的分布计算框架将为分布式应用软件的开发带来极大的便利.从1989年成立开始，OMG组织就一直致力于支持异构分布环境下应用软件开发和集成的相关技术的研究和标准的制订.它提出并且制订的CORBA规范［1］是异构环境分布计算的一个良好的解决方案［2］，目前得到了大约830余家厂商和机构的支持.大量的CORBA实现系统随之不断涌现，在制造领域、电信领域、金融领域、信息领域以及交通运输领域得到了广泛的应用.
+　　但是，随着一些对性能敏感的分布应用系统（如视频点播、视频会议及实时仿真系统）的迅速发展，传统的CORBA实现系统对这些应用的支持能力就显得相当有限.这首先表现在传统CORBA实现的性能比较低下，无法提供高吞吐量、低延迟的传输支持.在此种情况下，大量的研究和测试工作开始着手进行CORBA实现系统的性能分析和优化，从而为高性能的CORBA实现奠定了良好的基础.
+2　CORBA实现系统性能优化策略
+2.1　CORBA实现系统结构分析
+　　不同的CORBA实现系统在实现技术和体系结构的细节上存在着很大的区别，这也是CORBA规范只定义系统特性和行为而不定义实现的具体体现.然而，各个不同CORBA系统所包含的基本组成部件是相同的；而且从CORBA系统的一个客户请求所流经的部件来看，不同的系统都是类似的.这就使得针对某个基本系统组成部件的性能优化策略对不同的CORBA系统而言都是适用的.
+　　对于基于CORBA规范开发的分布式应用系统，当客户程序对服务对象的某个操作发起请求时，首先会由客户桩（Stub）或者动态调用接口（DII）将该操作的输入参数编码成IIOP协议的通用数据表示（CDR）的格式，然后由ORB核心将其组装成IIOP的报文发送给服务方.服务方ORB核心接收该IIOP报文后，首先进行请求报文的解码，然后由基本对象适配器（BOA）和服务器架构（skeleton）或者动态架构接口（DSI）将该客户的操作请求分派到对应服务对象的相应操作中.服务对象执行完该操作之后，通过类似的途径和方法将输出参数和返回值传递给客户程序.该过程如图1所示.图中的阴影部分表示了需要进行性能优化的CORBA实现系统的基本组成部件：桩或动态调用接口、基本对象适配器、架构或动态架构接口以及IIOP协议的实现.这些组成部件的优化采用不同的技术，这将在下节中描述.
+
+
+图1　CORBA系统实现体系结构
+2.2　性能优化策略研究
+　　CORBA实现系统的性能优化策略根据优化部件的不同，大致可以划分为3个类别：IDL编译器生成代码的优化、IIOP协议实现的优化和请求分发机制的优化.其中，前两种优化策略是紧密地联系在一起的；在某种程度上，IDL编译器生成代码的优化也可以作为IIOP协议实现的优化的一部分.另外，这里的优化策略基本上只涉及CORBA实现端系统的优化，而没有涉及支持报文传输的传输协议及其实现的性能优化.
+2.2.1 IIOP协议实现的优化
+　　为了达到各种ORB间互操作的目的，CORBA 2.0规范中定义了用于ORB间通信的标准通信协议GIOP (general inter-ORB protocol)，它由3个部分组成：①　公共数据表示（CDR），它提供GIOP表示IDL数据类型的格式标准，它将IDL数据类型映射到低级的二进制流，以便于网络传输；②　GIOP消息.GIOP协议定义了7种消息实现对象请求/回答、对象定位和信道管理；③　GIOP消息传递机制的定义.GIOP协议只是一种抽象协议，在实现时必须映射到具体的运输层协议或者特定的运输机制上，目前CORBA 2.0规范定义了GIOP到TCP/IP协议和DCE的映射.
+　　GIOP协议到TCP/IP协议的映射称为IIOP(internet inter-ORB protocol)协议，它逐步成为Internet上的对象互操作协议.IIOP协议中关于数据表示和消息格式等均与GIOP完全相同，它只是对消息传送部分进行了具体化，它规定了怎样利用TCP连接来交换GIOP消息.
+　　由于各种类型的参数和返回值编、解码及发送、接收都要经过IIOP协议的处理，因此，IIOP协议的实现性能直接关系到整个CORBA系统的运行性能和效率.
+　　（1）连接管理的优化
+　　IIOP协议直接架设在TCP/IP协议之上，因此每个请求和回答必定是通过一个特定TCP/IP链接来进行传输的.对于传输CORBA请求和回答的TCP/IP连接而言，大致有3类管理方法：① 对每个客户请求都建立一个单独的TCP/IP链接.该方法实现比较简单，不需要记录任何管理信息，但是，由于不断地建立和拆除TCP/IP链接会耗费大量的时间，因此，这种方法的运行效率是最低的；② 对每个服务对象建立一个TCP/IP链接.该方法避免了大量的建链和拆链开销，每个不同的服务对象的客户请求都共享同一个链接，但是，当服务端服务对象的数量比较大时，同时维持的TCP/IP链接数可能会超出操作系统的许可而导致系统的失败；③ 对每个服务端系统建立一个TCP/IP链接.此时，客户端对一个特定的服务端系统（无论它包含多少个服务对象）只建立一次链接，所有的客户请求都共享该链接，因此，运行效率是最高的.但是，系统必须维护一个客户端/服务端系统链接对应表以查找得到相应的TCP/IP链接.
+　　（2）表示层处理的优化
+　　大量的研究和测试表明［3，4］，基于传统的CORBA系统开发的分布式应用程序的性能之所以不高，主要在于IIOP的协议的表示层（编解码）处理效率比较低.对于IIOP协议表示层处理的优化工作，还因动态调用和静态调用而不同.
+　　在动态调用情况下，当客户调用服务对象的操作时，客户桩和服务器架构进行的参数编、解码需要由ORB核心中的CDR引擎动态地分析该参数的类型信息TypeCode.在遍历该参数的TypeCode的同时，通过多次调用组成该参数类型的基本类型的编/解码操作来完成整个参数的编/解码.这种处理方法可以称为“解释型”的表示层处理方法.
+　　在OMG IDL语言中，各种复杂数据类型，如构造类型和模板类型等，都由基本类型组合而成，并且可能相互嵌套.但是，所有的复杂类型最终将拆分为各种基本类型.因而，对于各种类型的参数的编/解码操作而言，其执行的时间主要可以分为两部分：①组成该参数类型的各个基本数据类型的编/解码操作所需的执行时间；②分析该参数的类型信息（TypeCode）及依次调用各基本类型的所编/解码操作所需的执行时间.显然，对于某个固定类型的参数，①部分的执行时间是固定的；而②部分的执行时间由于该方法需要动态地分析参数的类型值，因而开销特别大，使得表示层的处理成为瓶颈.
+　　对于此种情况，Gokhale利用Varghese提出了通信协议软件优化的七个指导性原则，对IIOP协议的表示处理进行了优化［5］：① 针对常见情况和常用算法进行优化；②　减少因冗余操作引起的资源浪费；③　用专用算法取代效率不高的通用算法；④　事先计算并保存常用值；⑤　保存中间状态以加快资源耗费大的算法的操作；⑥　在层与层之间传递优化信息；⑦　针对CPU缓存进行优化.尽管这些指导原则的主要目的是为了一般网络通信协议的优化，但是由于所描述的问题和提出的解决方法具有一般性，因此这些原则也适用于IIOP协议表示层处理的优化.
+　　在静态调用情况下，由于客户/服务交互的接口及其使用的数据类型在IDL文件中指定，因而接口中每个操作的参数类型对于客户桩和服务器架构而言是可知的.这就可以针对这种特性提出了一种效率较高的IIOP协议表示处理方法.该方法的基本思想是通过IDL编译器，在客户桩/服务架构中直接生成组成参数类型的基本数据类型的编/解码的C++代码，在进行参数编/解码时，就可以直接调用这些编/解码操作.这种方法可以称为“编译型”方法.
+　　该方法的②部分的执行时间比“解释型”的要低的多，因为该部分的工作在IDL语言编译为具体编程语言的过程中已经基本完成了.但是，在这个过程中，IDL编译器生成的代码的长度将大大地增加.对于某些嵌入式系统而言，客户端或服务端代码的增加将可能无法满足系统容量的限制.因此，对于静态调用的情况，还应该根据具体情况在上述两种方法之间求得最优［6］，把编译和解释处理相结合，形成混合编/解码的方法.
+　　让IDL编译器自动生成混合型的数据类型编/解码操作需要解决以下4个主要问题：
+　　(1) 估算为某种类型生成编/解码操作的代码而引起代码增加的耗费；
+　　(2) 估算为该种类型生成编/解码操作的代码所能节省时间的收益；
+　　(3) 估算每种数据类型运行时的用到的概率；
+　　(4) 设计一个优化算法，以上面3个估算值、运行速度或代码长度的限制条件以及相关的数据类型集合为输入参数，计算出一个产生混合型编/解码方法的最优方案.
+　　给定数据类型集合T={t1,t2,…,tn}，代码长度集合C={c1,c2,…,cn}，时间集合S={s1,s2,…,sn和频率集合F={f1,f2,…,fn}，其中ci是数据类型ti对应的编码操作和解码操作增加的代码长度，si是数据类型ti使用编码操作和解码操作后节省的时间，而fi是类型ti运行时被使用到的频率，它可以通过预先估计或者实际运行统计得到，在一般情况下可以认为各频率相同.设Cmax是允许增加的代码长度的最大值，则该优化问题可形式地描述如下：
+　　假定允许增加的代码长度的上界为Cmax，要求选择一个需产生编码操作和解码操作的数据类型的集合，使得增加的代码长度不超过上界，而节省的时间最多，即求下列整数规划问题：
+
+　　其中xi∈{0,1}，当xi=1时表示数据类型ti的编/解码方式为编译型，xi=0时为解释型.
+　　虽然整数规划问题已被证明是一个NP完全问题，但该问题中xi的取值只有0和1，因而对于该问题，存在一些较好的逼近或启发性算法.
+　　例如一种时间复杂性为O(n.logn)的近似算法如下：
+　　(1) 令ki=si.fi/ci，计算每种数据类型ti对应的ki；
+　　(2) 对i从1到n，将ti按ki的值从大到小排序，设tj是该排序，即当j<j+1，1≤j≤n时，有kj>kj+1；
+　　(3) 在该排序中，取出前m个，使得，并令tj对应的xi为1，其它xi为0.
+　　通过求解该整数规划问题，可以确定输入的IDL文件中哪些数据类型需要生成编码和解码操作.而对于其他数据类型则只生成TypeCode，通过CDR引擎动态地解释来进行编/解码.这样，就可以比较完美地解决IIOP协议的表示层处理问题.
+2.2.2 请求分发机制的优化
+　　传统的CORBA实现系统，例如IONA公司的Orbix系统，在服务端对接收到的客户请求进行分发处理时，往往采用分层次处理的方式：首先，基本对象适配器（BOA）根据客户请求中的目标服务对象进行顺序查找；然后，在查找到的服务对象的架构（skeleton）代码中，根据所请求的目标对象的操作方法名称进行顺序查找（字符串比较）；最后，执行该目标操作方法的代码，进行具体的服务处理.这种分层分发处理的方式，由于涉及多次顺序查找的过程，当服务端的服务对象数量以及各服务对象所支持的操作的数量较大时，系统的开销将非常大.换句话说，就是服务端系统的可扩展性比较差.
+　　请求分发机制的优化主要是采用Hash查找机制代替顺序查找机制［7］.请求分发的Hash查找机制又可以分为两大类：① 分别对目标服务对象查找及操作名称查找施行Hash查找的方式，从整体而言，分发查找过程仍然是分层次进行的；② 将对目标服务对象查找及操作名称查找结合在一起进行Hash查找，此时，基本对象适配器以及架构的分层次查找过程的界限将被打破，形成一次查找的方式.该方式对于服务端的服务对象数量以及各服务对象所支持的操作的数量较大的情况而言，其执行效率是最高的.当然，Hash函数的确定在这里是相当困难的.
+3　ORBUS系统性能优化及其测试分析
+3.1　ORBUS系统简介
+　　“面向CIMS的并行工程集成框架关键技术”课题是国家“八六三”重大攻关项目，它的目标是通过遵从CORBA 2.0规范的企业层框架，实现不同的领域层框架（机械领域框架、电子领域框架和经营领域框架）之间的不同应用系统的信息和过程的集成，以达到尽可能并行地进行产品的开发设计和制造管理.ORBUS系统是课题组研制的遵循CORBA 2.0规范的一个实现，它是企业层框架的核心部件，是整个集成框架正常运转的重要支撑.
+　　ORBUS系统目前支持Solaris 2.5和Windows NT 4.0操作系统，它所支持的编程语言为C++.ORBUS系统由ORB运行系统、IDL/C++编译器和接口仓库三个主要部件组成.ORB运行系统包括了CORBA 2.0规范中的ORB核心、对象适配器、DII和IIOP等的内容；IDL/C++编译器包含了IDL语言映射、桩和架构部分的生成.
+3.2　ORBUS系统的性能优化
+　　ORBUS系统原先的报文传输机制采用了SunSoft公司的IIOP软件包.SunSoft的IIOP软件包是一个免费的IIOP协议的参考实现（ftp://ftp.omg.org/pub/interop），它是由C++语言编制的，提供了遵循CORBA 2.0规范的ORB的大多数功能，但是不包括IDL编译器、接口仓库和完整的基本对象适配器.SunSoft的IIOP参考实现采用了“解释型”的表示处理方式，它主要目的是为了缩减编解码代码的长度以支持嵌入式系统，因此运行效率不高［5］.然而，ORBUS系统主要支持静态调用方式，它具有一个强大而完整的IDL/C++编译器，因此，优化后的ORBUS系统重新改写了IDL编译器生成编解码代码的部分，抛弃了SunSoft的解释引擎，形成了“编译型”的表示处理方式.
+　　同时，原先的ORBUS系统的实现为了方便，采用了对每个客户请求都建立一个单独的TCP/IP链接的方法，这在客户请求数量比较密集的情况下，性能将受到很大的影响.因此，优化后的ORBUS系统采用对每个服务端系统建立一个TCP/IP链接的连接管理方法.
+　　下面对ORBUS系统优化前后的性能以及主流CORBA产品——IONA公司的Orbix系统的性能进行对比测试.这里的性能衡量指标主要有如下两个：
+　　(1) 吞吐量（throughput）:吞吐量通常指单位时间内两个通信实体间单向传输数据量的大小，一般以bps为单位.对于CORBA系统而言，吞吐量指标主要是指客户进程到服务对象实例之间，单位时间内用本地主机格式表示的高层应用数据平均的单向流量，因而不包含表示层及其以下各层协议数据在内.吞吐量是衡量表示层处理性能的主要指标.
+　　(2) 延迟（latency）:延迟对CORBA系统而言，主要是指从客户开始调用客户端代理对象的操作开始，到客户收到该操作返回值为止所经历的平均时间，并需要减去服务方对象实现所执行操作的时间.
+3.3　测试环境
+　　ORBUS系统及Orbix系统的性能测试是在一台Sun Ultra I工作站（CPU主频143MHz，内存64MB）上进行的，该工作站的操作系统为Solaris 2.5.1.由于实验室的网络环境为10MBps以太网，为了不使网络成为传输瓶颈而无法正确反映报文传输的吞吐量，客户程序和服务程序都在Sun Ultar I工作站上运行，它们之间利用操作系统内的TCP/IP本地回环（loopback）方式进行报文传输.
+　　typedef sequence<short>　　　shortSeq;
+　　typedef sequence<long>longSeq;
+　　typedef sequence<float>floatSeq;
+　　typedef sequence<double>doubleSeq;
+　　typedef sequence<string>stringSeq;
+　　typedef sequence<char>charSeq;
+　　struct PerfStruct {
+　　　　short shortVal; long longVal; float floatVal;
+　　　　double doubleVal; char charVal; string stringVal;
+　　};
+　　typedef sequence<PerfStruct>　　structSeq;
+　　interface TestReqReply {
+　　　long test prim args(in short shortVal, in long longVal,…,out char outChar, out string outString);
+　　　long test struct args(in PerfStruct structVal, inout PerfStruct inoutStruct, out PerfStruct outStruct);
+　　　long test prim seq(in shortSeq shortVal, in longSeq longVal,…, out charSeq outChar, out stringSeq outString);
+　　　long test struct seq(in structSeq structVal, inout structSeq inoutStruct, out structSeq outStruct);　};
+　　供测试的IDL文件中定义了一个TestReqReply接口及4个测试操作，分别用于测试参数类型为基本类型、结构类型、基本类型的序列类型和结构类型的序列类型时所有CORBA实现系统的吞吐量.
+3.4　测试结果
+　　图2给出了基本类型、结构类型、基本类型序列和结构类型序列的测试结果.测试的结果表明了采用了“编译型”表示层处理方式以及对每个服务端系统建立一个TCP/IP链接的连接管理方法之后，CORBA端系统数据传输吞吐量有了较大的提高，接近甚至超过了主流产品——IONA公司的Orbix 2.2MT for Solaris.
+
+
+图中“1～12”分别表示(执行次数、序列长度)组(50，50)…(200，50)，(50，100)…(200，100)，(50，400)…(200，400)
+图2　(a) 基本类型；(b) 结构类型；(c) 基本类型序列和(d)结构类型序列的测试结果
+4　结束语
+　　本文所研究的CORBA系统的性能优化主要是指CORBA端系统实现技术的优化，而CORBA实现系统的性能优化还可以从CORBA规范（尤其是传输协议GIOP/IIOP等）本身的机制着手进行，例如，如何在高性能的传输协议（如XTP协议）之上进行CORBA系统报文的传输.此外，目前实时CORBA系统的研究已经成为热点，而高性能的CORBA的研究和实现也是实时CORBA系统的前提和基础.■
+基金项目：本课题得到国家“八六三”重大攻关项目（项目编号863-511-9704-002）基金资助.
+作者简介：谢俊清，男，1972年生，博士生，主要研究领域为分布对象技术、异构网络集成.
+　　　　　蔡敏，男，1976年生，硕士研究生，主要研究领域为分布对象技术.
+　　　　　顾冠群，男，1940年生，中国工程院院士，教授，博士生导师，主要研究领域为高　　　　　　性能计算机网络、网络协议工程、CIMS、分布对象技术.
+作者单位：谢俊清（国家教委计算机网络和信息集成支撑技术开放实验室,东南大学计算机科　　　　　　学与工程系　南京　210096）
+　　　　　蔡敏（国家教委计算机网络和信息集成支撑技术开放实验室,东南大学计算机科学　　　　　　与工程系　南京　210096）
+　　　　　顾冠群（国家教委计算机网络和信息集成支撑技术开放实验室,东南大学计算机科　　　　　　学与工程系　南京　210096）
+参考文献：
+［1］Object Management Group. The Common Object Request Broker: Architecture and Specification, Revision 2.0, 1995
+［2］Vinoski S. CORBA: Integrating diverse applications within distributed heterogeneous environments. IEEE Communication Magazine, 1997, 14(2): 46～55
+［3］Gokhale A, Schmidt D C. Measuring the performance of communication middleware on high speed networks. In: Proceedings of SIGCOMM '96, 1996. 306～317
+［4］Gokhale A, Schmidt D C. The performance of the CORBA dynamic invocation interface and dynamic skeleton interface over high speed ATM networks. In: Proceedings of GLOBECOM'96, 1996. 55～56
+［5］Gokhale A, Schmidt D C. Optimizing the Performance of the CORBA Internet Inter-ORB Protocol over ATM. Washington University, Tech Rep: #WUCS-97-10, 1997. http://www.cs.wustl.edu/cs/techreports/1997/WUCS-97-10.ps.gz
+［6］Hoschka P, Huitema C. Automatic generation of optimized code for marshalling routines. In: IETP TC6/WG6.5 International Working Conference on Uppler Layer Protocols, Architectures and Applications, 1994. 131～146
+［7］Gokhale A, Schmidt D C, Moyer S. Evaluating the Performance of Demultiplexing Strategies for Real Time CORBA. In: Proceedings of GLOBECOM'97, 1997. http://www.cs.wustl.edu/schmidt/GLOBECOM-97.ps.gz
+收稿日期：1998-09-28
+修稿日期：1999-01-10

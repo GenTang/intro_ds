@@ -1,0 +1,184 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+单甲脒农药的微生物降解代谢研究*
+王保军　刘志培　杨惠芳
+(中国科学院微生物研究所，北京 100080)
+　　摘要 研究了门多萨假单胞菌DR-8(Pseudomonas mendocina DR-8)菌株对单甲脒农药的降解代谢.该菌利用单甲脒作为生长的唯一氮源.其对单甲脒的呼吸作用试验确证了该农药的生物可降解性.单甲脒对细菌生物氧化代谢关联酶活性的影响研究表明，脱氢酶对单甲脒较敏感，而NADH氧化酶则耐受性较强.单甲脒生物降解特性研究表明，DR-8菌株的单甲脒降解酶为组成酶，主要分布于细胞壁和细胞膜组分，该酶作用于单甲脒的Km值约为5.14mmol/L.经紫外吸收光谱和薄层层析等分析检测，单甲脒降解过程中形成氨和2，4-二甲基苯胺.该菌对于单甲脒农药的降解属于共代谢作用.
+　　关键词 单甲脒；微生物降解；共代谢作用.
+1 引言
+　　化学农药主要是人工合成的生物外源性物质，许多类型通常不易被生物降解，故称之为顽固性化合物(Recalcitrants).然而，由于环境因子的复杂性和环境微生物的多样性，这些化学农药在不同程度上可被生物降解.迄今，对农药的生物降解及代谢已有不少报道.Parsons等［1］研究了细菌纯菌株对几种有机氯农药的降解.Kimbara［2］报道了细菌混合培养物对氯代农药的降解代谢.施国涵［3］描述了土壤中分离的真菌菌株对苯甲酰基脲类杀虫剂灭幼脲3号的降解代谢作用，并探讨了该农药的生物降解途径和机制.Baker等［4］由牲畜药浸池中分离出降解有机氮杀虫剂双甲脒的细菌，用纯菌株和混合菌株研究了双甲脒的降解代谢.供试细菌不能利用该农药作为生长的碳源和能源，只能在有其它营养基质存在下对双甲脒进行降解，降解产物是2，4-二甲基苯胺和2，4-二甲基甲酰替苯胺.研究者提出，供试菌对该种农药的降解属于共代谢作用(Cometabolism)，是一种不完全降解作用［5］.
+　　单甲脒(化学名称为N—2，4-二甲基苯—N′—甲基甲脒，简称DMA)是我国近年来推广使用的新型有机氮杀虫剂，有关该农药的生物降解研究很少.刘志培等［6］分离到对单甲脒有降解作用的门多萨假单胞菌DR-8菌株，并对该菌降解单甲脒的某些条件进行了研究.本文将进一步描述该菌对单甲脒的降解代谢作用，包括单甲脒生物可降解性的确证；单甲脒对供试菌中生物氧化关联酶活性的影响；单甲脒降解酶活性的胞内分布检测以及单甲脒降解代谢产物的分析等.
+2 材料和方法
+2.1 菌株
+　　门多萨假单胞菌DR-8菌株(Pseudomonas mendocina DR-8)为本研究中主要实验菌株［6］.蜡状芽孢杆菌DB-22(Bacillus cereus DB-22)由本试验室分离，与其它一些未鉴定菌株一并作为试验参照菌株.
+2.2 培养基
+　　牛肉汁培养基：蛋白胨10g,NaCl?!5g，牛肉汁1000mL(pH7.0).该培养基用于细胞的收集.合成培养基，成分详见文献［6］.
+2.3 细菌生长测定
+　　以测定菌液在460nm处的消光值(OD)表示菌的生长.
+2.4 单甲脒的测定
+　　培养液经离心去除细胞，稀盐酸调pH至3.0左右，0.45μm微孔滤膜过滤后，采用日本岛津LC-3A型高效液相色谱仪，20R-BAS氰基不锈钢柱进行单甲脒的测定.
+2.5 完整细胞的制备
+　　供试菌接种于牛肉汁培养基中，30℃摇床振荡培养18—20h，5000?!r/min离心30?!min，收集菌体，用1/15 mol/L的磷酸缓冲液(pH 7.0)洗涤2次，再悬浮于相同的缓冲液中即为完整细胞悬液.
+2.6 无细胞提取液的制备
+　　上述完整细胞悬液经超声波破碎(19kHz，200W,1min/次，共5次)，然后在高速冷冻离心机21000 r/min离心30 min，上清液即为无细胞提取液.
+2.7 脱氢酶和NADH氧化酶活性的测定
+　　按文献［7，8］所述方法进行.
+2.8 细胞呼吸代谢试验
+　　测定液中细胞浓度20mg(湿重)/mL，加入单甲脒至所需浓度，溶液总体积5mL，25℃，在ML-1型测氧仪上测定细胞与单甲脒作用过程中的耗氧量.
+2.9 单甲脒降解酶活性的胞内定位
+　　完整细胞悬液经超声波破碎(30s×6)，19000 r/min离心20?!min，分别收集细胞碎片和上清液，在规定条件下与单甲脒反应，测定单甲脒降解酶活性.
+2.10 单甲脒降解代谢产物检测
+2.10.1 紫外吸收光谱扫描　细胞悬液中加入一定浓度的单甲脒后，在37℃反应6h，离心，上清液在Beckman Du-7型紫外分光光度计200—400nm范围扫描，比较反应前后样品吸收光谱的变化.
+2.10.2 薄层层析法(TLC)　细胞悬液与单甲脒反应后 ，离心，上清液加氯仿提取，浓缩，在含荧光剂的GF 254型硅胶板(20cm×5cm)上点样，甲苯∶异戊醇为40∶1(V/V)，用作展开剂进行层析，风干后在紫外灯下显色，与标准品对照，定性对比Rf值.
+2.10.3 氨的测定　采用奈氏试剂比色法［9］.
+2.11 白质含量的测定
+　　采用Bradford法［10］.
+3 结果与讨论
+3.1 单甲脒的生物降解
+3.1.1 DR-8纯菌株及混合菌对单甲脒的降解　前文［6］研究结果表明，门多萨假单胞菌DR-8菌株不能利用单甲脒作为生长的唯一碳源，但添加葡萄糖作为碳源后，可利用加入的单甲脒作为生长的唯一氮源.为进一步研究该农药的生物降解作用，以DR-8菌株为基础，与其它分离菌株以不同组合进行混合培养.培养液体积10mL，葡萄糖(3.0g/L)作碳源，单甲脒浓度300mg/L，每管培养基接种一环(用接种环)菌种斜面的菌苔，30℃培养.表1结果说明，混合菌在以单甲脒作为唯一氮源时，生长情况优于DR-8纯培养液.需要指出的是，除DR-8外，其它供试菌的纯菌株或混合菌均不能利用单甲脒作为生长的唯一氮源.详见前文［6］.之后，在含葡萄糖(3.0g/L)和单甲脒(521mg/L)的培养基中补加硫酸铵(0.5g/L)作氮源，培养液体积10mL,30℃培养3天.表2结果显示，由DR-8菌株与其它两种菌组成的混合菌液降解单甲脒效果优于纯培养液.有关农药的微生物降解作用，一些研究者认为，与纯菌种相比较，许多混合微生物对农药降解效率更高，其间可能涉及以共代谢为基础的协同作用［11］.因此，从上述混合菌的作用和营养来源判断，DR-8菌及与其它细菌组成的混合物对单甲脒农药的降解可能为共代谢作用方式(Cometabolism).
+表1 DR-8菌株及其混合菌利用单甲脒作为氮源生长状况
+Table 1 Growth of strain DR-8 and mixed culture using DMA as nitrogen source
+
+菌　株生长状况(OD460nm)
+3 d6 d
+DR-80.1850.290
+DR-8+DB-140.2000.320
+DR-8+DB-210.2300.300
+DR-8+93-90.2850.300
+DR-8+93-120.2150.310
+DR-8+93-60.2150.320
+
+表2 DR-8纯菌株和混合菌株对单甲脒的降解*
+Table 2 Degradation of DMA by strain DR-8 and mixed culture
+
+菌　株生长状况
+(OD460nm)单甲脒浓度，
+mg/L降解率，
+%
+无菌对照—521—
+DR-80.31838526.1
+93-90.42740622.1
+DB-220.0924876.5
+混合菌0.73025750.7
+
+　* 菌株 93-9未鉴定，DB-22是蜡状芽孢杆菌，混合菌为表中3种菌株的混合物，接种方式同表1试验
+
+图1 DR-8菌完整细胞对单甲脒的呼吸作用(A.DB-22菌株(对照)；B.DR-8菌株) (单甲脒浓度(mg/L):(1).未加，(2).100—200 (3).300，(4).400)
+Fig.1 Respiration of intact cells of strain DR-8 for DMA
+3.1.2 单甲脒生物可降解性测定　在待测有机物存在下，测定微生物呼吸过程中消耗的氧量，通常可反应出测试微生物是否具有相应的生物活性，进而表明该有机物是否具有生物可降解性.为此目的，检测了门多萨假单胞菌DR-8和蜡状芽孢杆菌DB-22的完整细胞悬液对单甲脒的呼吸代谢.图1结果表明，对单甲脒无明显降解作用的DB-22吸收氧量变化不大，几乎接近于内源呼吸，而对单甲脒有降解作用的DR-8细胞吸收氧量都明显高于内源呼吸，在单甲脒浓度为100和200mg/L时达最高值，在300—400mg/L时，吸收氧量虽有所下降，但仍高于对照菌株DB-22.本试验结果进一步证明，在DR-8菌作用下，农药单甲脒具有生物可降解性.
+表3 单甲脒对NADH氧化酶活性的影响
+Table 3 Effect of DMA on activity of NADH oxidase
+
+单甲脒浓度，
+mg/LNADH氧化酶比活，u/mg(蛋白)
+DR-8菌株DB-22菌株
+0336.8139.2
+100335.4135.7
+200335.7126.6
+300335.885.6
+600278.875.2
+900172.672.0
+1200127.657.6
+
+3.2 单甲脒对细菌生物氧化代谢关联酶活性的影响
+3.2.1 对NADH氧化酶活性的影响　NADH氧化酶是微生物生物氧化代谢中重要关联酶之一.为探讨单甲脒农药的生物降解作用，采用DR-8菌株和对照菌株DB-22的无细胞提取液，试验了单甲脒对NADH氧化酶活性的影响.表3结果可见，对单甲脒有降解作用的DR-8菌中具有较高的NADH氧化酶活性，对单甲脒也具有一定的耐受性，而对单甲脒无降解能力的DB-22菌株，其NADH氧化酶活性较低，对单甲脒也较敏感，在该农药为300mg/L时，抑制率达38.5%.
+3.2.2 对脱氢酶活性的影响　脱氢酶是细菌生物氧化代谢中另外一种重要酶类，能催化有机物脱氢并传递给特定的受氢体，该酶活性高低可反映出细胞生物氧化代谢强度的高低.为此，测定了单甲脒对细胞中脱氢酶活力的影响.如图2所示，DR-8菌中脱氢酶活性在单甲脒浓度为50mg/L时是DB-22菌的2倍.两株菌细胞中的脱氢酶活性对单甲脒较敏感，以DR-8菌为例，随着单甲脒浓度的增加，脱氢酶活性亦逐渐降低，在浓度为150mg/L时，酶活性下降约65%.
+
+图2 单甲脒对细菌脱氢酶活性的影响
+A.DB-22菌株，B.DR-8菌株反应条件：37℃,pH 7.0,细胞量 25mg(湿重)/mL
+Fig.2 Effect of DMA on activity of dehydrogenase
+3.3 单甲脒的微生物降解特性
+3.3.1 单甲脒降解酶的形成　有关DR-8菌完整细胞对单甲脒的降解条件在前文已经报道［6］.本文研究了该菌降解酶的形成.DR-8菌株先在添加50mg/L单甲脒的培养基或不加该农药的培养基中培养28h，即在诱导或非诱导条件下生长，之后离心收集的细胞与单甲脒反应，并测定单甲脒的剩余浓度.由表4结果可见，细胞经用单甲脒诱导或未经诱导，单甲脒去除率无明显差异.由此认为，DR-8菌株中的单甲脒降解酶不是诱导酶；而是一种组成酶.组成酶通常被认为是细胞中的固有酶类，其活性形成受外界影响较小［12］.
+表4 单甲脒降解酶的形成*
+Table 4 Formation of DMA-degrading enzyme in the strain DR-8
+
+生物样品单甲脒剩余浓度，
+mg/L去除率，
+%
+用单甲脒诱导的细胞3634.5
+未诱导的细胞3732.7
+未加细胞对照液550
+
+　* 反应液总体积10mL，单甲脒浓度55mg/L，细胞量50mg(湿重)/mL，反应在pH 7.0,37℃条件下进行16h
+3.3.2 单甲脒降解酶活性的胞内分布　单甲脒降解酶活性组分的胞内定位是通过处理细胞和培养液上清液后，分别测定单甲脒降解活性后予以确定的.由表5可见，DR-8菌株完整细胞因未受到超声波处理，细胞内具有完整的降解酶系及辅酶系统，故降解酶活性最高.未加细胞的对照液，培养后离心所得上清液均无降解酶活性检出，表明该菌降解酶也不存在于细胞外.经超声波破碎后离心所得上清液即无细胞提取液中未检出该降解酶活性，而主要由细胞壁和细胞膜组成的细胞碎片部分，在添加了辅酶NADH或NADPH后，有降解酶活性检出.
+表5 单甲脒降解酶活性的胞内分布检测
+Table 5 Distribution of DMA-degrading enzyme in the strain DR-8
+
+组分辅酶单甲脒剩余浓度，
+mg/L降解酶比活，
+u*mg-1
+缓冲液—22.50
+菌液离心后上清液—22.50
+完整细胞—10.60.59
+细胞碎片—22.50
+细胞碎片NADH16.50.3
+细胞碎片NADPH18.50.2
+无细胞提取液—23.00
+无细胞提取液NADH23.00
+无细胞提取液NADPH22.50
+
+　注：反应液pH 6.8，单甲脒浓度22.5mg/L，在需加辅酶的生物样品中,NADH或NADPH的含量为100mg/L.反应液在37℃反应6h，然后离心测定上清液中单甲脒剩余浓度.以规定条件下，每1h降解1mg单甲脒所需酶量定为一个降解酶活性单位(u).
+
+图3 单甲脒降解酶的Lineweaver-Burk图
+Fig.3 Lineweaver-Burk plot of DMA-degrading enzyme for DMA
+
+图4 单甲脒生物降解产物的紫外吸收图谱
+1.单甲脒；2.DR-8菌与单甲脒反应液；3.DR-8加其它菌组成的混合菌与单甲脒的反应液；4.2，4-二甲基苯胺
+Fig.4 The spectrum of DMA degradation products by intact cells of strain DR-8 and mixed culture
+3.3.3 单甲脒降解酶Km值的测定　以DR-8菌的细胞碎片作为单甲脒降解酶主要活性组分，补加辅酶NADH，再加入单甲脒至反应液中，最终浓度分别为0.308，0.416，0.617，1.234和2.057mmol/L，在pH 6.8的磷酸缓冲系统中，37℃反应，测定单甲脒降解率.按 Linewe-aver-Burk法作图，求得DR-8菌单甲脒降解酶作用单甲脒农药的Km值为5.14mmol/L(图3).
+3.4 单甲脒生物降解产物测定
+　　为了探讨DR-8菌株降解单甲脒的代谢途径，首先采用紫外吸收光谱扫描检测了该菌完整细胞与单甲脒的反应液.如图4所示，单甲脒的最大吸收峰在214nm，另一种标准物2，4-二甲基苯胺的最大吸收在204nm.单甲脒经DR-8细胞作用后，其最大吸收峰由214nm处移至204nm处.由此初步认为，单甲脒经DR-8菌作用后，其中有些已形成中间代谢产物2，4-二甲基苯胺.
+　　随后，采用薄层层析法对单甲脒降解产物进行检测.表6所示结果表明，DR-8菌降解产物的Rf值与标准物2，4-二甲基苯胺的Rf值相近.由此认为，单甲脒农药经DR-8菌降解后，反应液中有2，4-二甲基苯胺存在，这与Baker等［4］对供试菌降解双甲脒后的代谢产物分析结果是相似的，他们证明，2，4-二甲基苯胺是一主要中间代谢产物［5］.
+表6 单甲脒降解产物的薄层层析
+Table 6 Rf values of DMA and its metabolits on TLC
+
+测定样品样品 Rf值
+单甲脒2，4-二甲基苯胺
+标准物混合液0.140.331
+未加细胞对照液0.14—
+DR-8菌反应液0.140.331
+DR-8+Y1菌混合反应液0.140.330
+
+* Y1菌为未鉴定菌株
+表7 DR-8菌降解单甲脒后氨的测定*
+Table 7 Measure of ammonia after DMA degradation by intact cells of strain DR-8
+
+反应时间，
+h单甲脒剩余量，
+mg/L理论氨量，
+mmol实测氨量，
+mmol
+0523——
+182483.393.33
+242013.974.00
+421844.194.14
+
+* 细胞反应条件，详见文献［6］
+　　氨是有机氮降解的重要产物，为此，检测了门多萨假单胞菌DR-8菌株完整细胞与单甲脒反应后的样品液中氨的含量.表7结果显示，单甲脒被DR-8菌作用后，反应液中有氨产生，其量与理论产生值接近，按理论值计算，每消耗1mmol的单甲脒，可产生2mmol的氨.
+　　根据上述研究结果，本文提出门多萨假单胞菌DR-8菌株对农药单甲脒的降解是一种共代谢作用.依照所测定的代谢产物，对该菌降解单甲脒的途径提出下述假设：
+
+4 结论
+　　门多萨假单胞菌DR-8菌株及与其它细菌菌株组成的混合菌可利用单甲脒作为生长的唯一氮源，同时降解该农药.该菌完整细胞悬液对单甲脒的呼吸代谢试验结果确证了该农药的生物可降解性.该菌的NADH氧化酶活性较高，对单甲脒耐受性也较强，但该菌细胞中的脱氢酶对此种农药较敏感.DR-8菌株的单甲脒降解酶是一种组成酶，主要分布于细胞壁和细胞膜组分.该酶作用于农药单甲脒的Km值为5.14mmol/L.经检测，单甲脒降解产物为2，4-二甲基苯胺以及NH3.鉴于DR-8菌株不能以单甲脒作为生长的碳源和能源，只能在添加其它有机营养基质作生长碳源的条件下降解单甲脒，且降解产物未完全矿化，是一种不完全降解作用，因此提出，该菌对于单甲脒农药的降解属于共代谢作用类型.
+　* 国家自然科学基金(99290600-04(3))资助项目通讯联系人
+　* 国家自然科学基金(99290600-04(3))资助项目通讯联系人
+参考文献
+　1 Parsons J R, Dthm S et al. Biodegradation of chloronated biphenyls and benziic acids by a Pseudomonas strain. Appl Microbiol Biotechnol, 1988,29:81
+　2 Kimbara K, Hashimoto T, Fukuda M. Isolation and characterization of a mixed culture that degraded polychlorinated biphenyl. Agric Biol Chem, 1988, 52:2885
+　3 施国涵.土壤微生物对灭幼脲3号杀虫剂代谢作用的研究.环境科学学报,1990,10(3):296
+　4 Baker E R, Wood D R. Cometabolism of the ixodicide amitray. J Appl Bacteriol, 1977, 42:187—196
+　5 Allcock E R, Wood D R. Bacterial degradation products of the ixodicide amitray. Appl Bacteriol, 1978, 44:383—386
+　6 刘志培，贾省芬，杨惠芳.单甲脒降解菌的分离筛选.微生物学通报，1995，22：285—288
+　7 俞毓馨等主编.环境工程微生物检验手册.北京：中国环境科学出版社，1990:163
+　8 Mahaffey W R et al. Effects of kepone on the growth and respiration of several Estuarine bacteria. Appl Environ Microbiol, 1982, 43:1419—1425
+　9 日本分析化学会北海道支部编.孙铁NFDA2等译.水的分析.北京：中国建筑工业出版社,1979:234—237
+　10 Bradford M R M. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye bind. Anal Biochem, 1976, 72:248—255
+　11 郑 重.农药的微生物降解.环境科学，1990,11:68—72
+　12 沈 同等.生物化学(上册).北京：人民教育出版社，1980:306—307
+MICROBIAL DEGRADATION METABOLISM OF N-2,4-DIMETHYL -PHENYL-N′-METHYLFORMAMIDINE(DMA)
+Wang Baojun, Liu Zhipei, Yang Huifang
+(Institute of Microbiology, Chinese Academy of Sciences, Beijing 100080)
+ABSTRACT Degradation metabolism of N-2,4-dimethyl-phenyl-N′-methylformamidine (DMA) by Pseudomonas mendocina DR-8 was studied. The strain DR-8 and its mixed culture with other bacteria were able to utilize DMA as sole nitrogen source for growth and degrading the pesticide. The result from respiration assay by intact cells of strain DR-8 for DMA also demonstrated that the pesticide was biodegradable. Effects of DMA on the activity of enzymes indicated that dehydrogenase was susceptible to DMA, but NADH oxidase was rather tolerant to DMA. Properties of the DMA-degrading enzyme were studied, the enzyme was an intracellular one, mainly located in the cell wall and membrane, the Km of the enzyme for degrading DMA was 5.14 mmol/L. The results from the detection of the intermediate metabolites for degradation of DMA by ultraviolet spectrum and thin layer chromatography as well as ammonia assay showed that biodegradation products of DMA were 2,4-dimethylaniline and ammonia. Above study showed that the degradation of DMA by Pseudomonas mendocina DR-8 was a cometabolism.
+Keywords　N-2,4-dimethyl-phenyl-N′-methylformamidine(DMA), microbial degradation, cometabolism.
+1996-07-19收到原稿
+1997-01-19收到修改稿

@@ -1,0 +1,92 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+4-氨基联苯与人体血红蛋白体外加合反应及加合物测定的研究*
+秦　涛　赵立新　徐晓白** 
+摘要　研究了人体血红蛋白(Hb)与4-氨基联苯(4-ABP)加合物的测定方法.考察加合物的分离条件及定量测定加合物的精确度.研究人体血红蛋白的体外加合产物的生成量与反应时间的关系.体外实验结果发现，在37℃恒温条件下，12h之内，4-ABP与Hb加合物的生成速率为126pg/(mg.h).
+关键词　人体血红蛋白；4-氨基联苯；血红蛋白加合物.
+In vitro adduct formation of hemoglobin with 4-amino-biophenyl
+QIN Tao, ZHAO Lixin, XU Xiaobai 
+(Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085)
+Abstract　Reliable determination method for 4-aminobiphenyl adduct with human hemoglobin in vitro was developed. The separating conditions of the adduct from low molecule weight ingredients and the precision of quantity inspection for the adduct were examined. Adduct reaction of 4-aminobinbenyl to hemoglobin occurred directly according to the result of the adduct analysis. It was confirmed that the rate of 4-ABP binding to Hb in vitro is 126 pg/(mg(Hb).h) within 12 hours at 37℃.
+Keywords　human hemoglobin, 4-aminobiphenyl, hemoglobin adduct.
+　　芳香胺类化合物是化学致癌剂之一［1，2］.早在五六十年代就有报道，接触芳香胺类化合物的人中患膀胱癌的发病率高达12%—16%［3，4］.4-氨基联苯对人和动物的致癌作用已有明确证据.经过大量动物实验研究确证了有些癌症的流行病学调查结论，提供了深入研究的实验方式，从以往测定环境中化学致癌剂的含量估计生物体的接触水平，发展到直接检测化学致癌剂与生物受体结合的产物［5—8］.用血红蛋白与化学致癌剂的加合物的检测结果说明这些污染物经过生物代谢或激活后可以产生癌症的毒作用效果，有利于从分子水平探讨致癌机理，同时也更加有效地预测和评价环境致癌物的危险性.
+　　流行病学调查和实验室研究资料证明，除生产车间接触4-氨基联苯的操作工人是暴露于这种污染物的主要人群之外，为数更多的是那些吸烟者.吸烟人群的心脑血管疾病、肺癌、膀胱癌、乳腺癌的发病率明显高于非吸烟人群.香烟烟雾中含有多种有害健康的物质，4-氨基联苯就是这些有害物质之一.研究结果已经证明吸烟者的血红蛋白与4-氨基联苯的加合物水平普遍高于不吸烟者.鉴于国内外对4-氨基联苯的血红蛋白加合反应速率的研究报道尚少，我们采用毛细管气相色谱检测法，对4-氨基联苯这一典型致癌物与血红蛋白形成加合物的结合速率进行了研究，即了解4-氨基联苯与血红蛋白直接作用的效果，以便提供较为客观的生物监测指标作为评价个体接触水平成为可能.
+1　实验材料和方法
+1.1　试剂
+　　4-氨基联苯、血红蛋白标准品及定量分析试剂均为Sigma公司产品.D21 mm透析管为华美生物工程公司产品.人血红蛋白标准液来自北京广安门医院.正己烷(北京化工厂)作为萃取溶剂，使用前精密蒸馏，经气相色谱鉴定无杂质峰.其它试剂如三甲胺、七氟丁酸酐、氢氧化氨等均为分析纯和优级纯.蒸馏水作为空白试样在与样品处理完全相同的条件下检测不出4 氨基联苯.重蒸去离子水作为透析用水.
+1.2　血红蛋白含量的测定
+　　测定采用氰化高铁蛋白法［8，9］，751G分光光度计(上海分析仪器厂)，钨灯稳压电源，狭缝0.06 mm，波长540 nm,光径1.0 cm.取20 μL经过透析分离的血红蛋白样品加到5.0 mL Drabkin's试剂中充分混合，静置5min，以Drabkin's试剂为空白测定吸光度，进行定量.
+1.3　4-氨基联苯的GC-ECD测定
+　　外标定量法：Varian 3700气相色谱仪，63Ni源ECD检测器.CR-3A色谱处理机(Shimadzu).SE-54毛细管色谱柱(40 m×0.25 mm,北京石油科学研究院制).高纯氮气作载气，初始温度50℃，升温速率4℃/min,至280℃终止.以不分流方式进样1 μL.
+1.4　样品处理
+1.4.1　加合反应条件　取相同量4-氨基联苯100μg,加入5 mL蒸馏水和44 mg人血红蛋白混合均匀后，在37℃恒温水浴中，保温时间分别为0、3、6、9、12 h，每个时间点有3个平行样品.
+1.4.2　血红蛋白加合物的透析分离　将反应后的血红蛋白溶液转移到截留分子量为20000的透析管中，在5L的重蒸去离子水中透析65 h以上，换水4次.每个容器中的透析管不超过6个，透析温度为4℃.
+1.4.3　血红蛋白加合物的测定　水解前取20 μL的样品，测定血红蛋白含量.在碱性条件下水解血红蛋白及其加合物(用10mol/L NaOH将透析后的样品调至pH11，在室温下放置3—4 h).色谱分析的样品前处理是用15 mL正己烷萃取水解或未水解的经过透析的样品中的4-氨基联苯，萃取两次的有机相合并在一起，经过七氟丁酸酐衍生化［10，11］并经过除水处理后，收集到小试管中，浓缩至适当浓度，进行气相色谱分析［12］.
+1.4.4　反应速率的数据处理　经加合反应处理后测得的4-氨基联苯与血红蛋白加合物的生成量均为同一反应时间点上的3个样品的平均值，经线性回归处理，得到加合物生成量与反应时间的关系曲线.
+2　结果和讨论
+2.1　血红蛋白加合物测定方法的灵敏度和可靠性
+　　加合物含量的测定包括血红蛋白总量和加合在加合物上的母体化合物的测定.从这两项分析的标准曲线的测定结果得知，用分光光度计分析血红蛋白，在0—180 mg/mL的范围内有较好的线性关系；而GC-ECD响应与4-氨基联苯含量在0—8000pg范围之间的线性关系也令人满意.经多次重复测定所获得的线性相关系数的平均值均大于0.99(表1、表2).若取样量为10 mL，分析样被浓缩至20μL，并以100 mg(血红蛋白)/mL(人血)计算，本方法的最低检测限和最低检测浓度分别为7 pg和0.14 pg/mg(血红蛋白).
+表1　吸光值与血红蛋白浓度的关系
+Table 1 Linear relationship between absorptivity
+and concentration of hemoglobin
+实验次数abr
+10.03040.02360.9999
+20.02790.03180.9999
+30.02650.05680.9998
+40.02940.07740.9995
+50.0317-0.00070.9997
+60.02980.00060.9997
+70.03480.00011.0000
+平均值0.03010.02710.9998
+　　标准曲线的回归方程为：Y=aX+b (n=5) 
+表2　GC-ECD响应值与4-氨基联苯的衍生物浓度的关系
+Table 2 Linear relationship between respond on GC-ECD and concentration of 4-ABP-HFBA derivative
+实验次数abr
+10.90200.60000.9964
+20.9675-3.16000.9966
+31.1831-1.12000.9988
+41.2749-3.51400.9945
+51.2628-6.18440.9924
+61.00480.16000.9991
+71.4389-1.56590.9966
+81.38490.53000.9993
+91.32820.89900.9909
+101.94890.72520.9969
+平均值1.2696-1.31700.9962
+　　标准曲线的方程为：Y=aX+b (n=6)
+
+
+图1　人血红蛋白水溶液和水中4-氨基联苯的透析曲线
+Fig.1 4-ABP remained in water or in human hemoglobin solution during the period of dialysis
+
+
+图2　4-氨基联苯在人血红蛋白水溶液中加合物生成量的时间曲线
+Fig.2 Relationship between dadduct of 4-ABP-Hb and reactio time
+2.2　分离4-氨基联苯和血红蛋白加合物的条件控制
+　　利用透析方法分离小分子化合物的去除率主要取决于透析时间以及透析容器的容积.本实验在相同容器条件下，测定不同时间的透析去除率，以水作为血红蛋白的参照物，得知在每12—18 h换水一次的条件下，约60 h可以使游离的、未形成加合物的4-氨基联苯去除到本方法的最低检测水平以下.而在相同透析条件下，测到的血红蛋白加合物含量经60 h以上透析分离的测定结果趋于一个恒定值(图1).因此，透析分离4-氨基联苯的条件控制在65 h以上，共换水4次，确保大分子加合物与游离的4-ABP充分分离.
+2.3不同反应时间加合物生成量的测定
+　　图2为上述处理方法得到的4-氨基联苯与血红蛋白加合物生成量的测定结果与反应时间的相关图.可以看出，4-氨基联苯与人血红蛋白的结合能力相当强，反应时间为0 h的样品仍可测到加合物的原因在于透析过程仍有4-氨基联苯与人血红蛋白作用的可能.当4-氨基联苯的直接反应量在100 μg时，人血红蛋白的用量一定的条件下，所形成的加合物的平均值与作用时间呈线性关系.其平均速率为126 pg/(mg.h).
+3　结　论
+　　1.本实验结果是在生物体外，采用从人体红血球分离得到的血红蛋白作为加合反应底物的实验得到的测定结果.它明确反映出4-氨基联苯在所择特定条件下，能与人体血红蛋白结合形成大分子加合物.其生成量与4-氨基联苯的接触量和作用时间呈线性相关性.至于生物体内的实验结果，我们将另文报导.
+　　2.本实验结果说明，未经代谢活化的4-氨基联苯也可以直接与血红蛋白结合.当然，更确切地反映化学致癌物的危险性的接触和效应的评价还应该是以生物体内所产生的生物标记为基础作为毒理学研究的生物监测指标.
+　　本项研究得到金祖亮研究员和储少岗博士的热情指导与帮助，在此表示感谢.
+　　* 获得中国科学院基础局、生态环境研究中心主任基金部分资助　　** 联系人
+作者单位：(中国科学院生态环境研究中心，北京　100085)
+参考文献
+　[1]　Perera F P, Mauer J, Santella R M et al. Biologic markers in risk assessment for environmental carcinogens. Environmental Health Perspectives, 1991, 90:247—254
+　[2]　Sabbioni G. Hemoglobin binding of arylamines and nitroarenees: Molecular dosimetry and quantitative structure__activity relationships. Environmental Health Perspectives, 1994,102:61—67
+　[3]　Case R A M. Tumors of the urinary bladder in workmen engaged in the manufacture and use of certain dye stuff intermediates in the British chemical industry. Br J Ind Med, 1954,11:75—104
+　[4] Mancusco T F. Cohort Studies of workers exposed to betanaphthlamine and benzidine. J Occup Med, 1967,9:277—285
+　[5]　Skipper P L, Obiedzinski M W, Tannenbaum S R Miller et al. Identification on the major serum albumin adduct formed by 4-aminobiphenyl in vivo in rats. Cancer Res, 1985,45:5122—5127
+　[6]　Wilson P M, Que Hee S S, Fronies J R. Determination of hemoglobin adduct levels of the carcinogen 2,4-diaminotoluene using gas chromatography electron impact positive-ion mass spectrometry. J Chromatogr B Biomed Appl, 1995,667(1):166—172
+　[7]　Green L C, Skipper P L, Tursky R J et al. In vivo disimetry of 4-aminobiphenyl in rats via a cysteine adduct in hemoglobin. Cancer Res, 1984,44:4254—4259
+　[8] Van Kamppen E J, Zijistra W G. Standardization of hemoglobinometry. II. The hemoglobincyanide method. Clin Chim Acta, 1961,6:538
+　[9] Rice E W. Rapid determination of total hemoglobin as hemoglobin cyanide in blood containing carboxyhemoglobin. Clin Chim Acta, 1967,18:89
+[10] 马明生，徐晓白.还原-衍生化高分辨气相色谱法测定复杂样品中痕量硝基多环芳烃(NO2-PAH)的研究.环境科学学报，1993，14(3)：374—379
+[11]　Bakthavachalam J, Annan R S, Beland F A et al. Selection of electrophoric derivatives of 1-aminopyrene and 2-aminofluorene for determination by gas chromatography with electron-capture negative-ion mass spectrometry. J Chromatogr, 1990,500:373—386
+[12] Skipper P L, Bryant M S, Tannenbaum S R et al. Analytical methods for assessing exposure to 4-aminobiphenyl based on protein adduct formation. J Occup Med, 1986,28:643—646
+1997-07-04收到原稿　1997-12-11收到修改稿

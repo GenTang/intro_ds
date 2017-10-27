@@ -1,0 +1,134 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+金属氧化物直接分解CO2成C的活性分析
+王力军
+(渝州大学化学系，重庆 400033)
+张春雷　吴通好　李　爽
+(吉林大学化学系，长春 130023)
+摘要　利用各种类型的简单和复合金属氧化物在H2还原活化前后分解CO2成C的活性试验的结果表明，决定金属氧化物分解CO2活性的因素是氧缺位程度、尖晶石结构(包括NaCl型结构)及其含铁相.而其它各类金属氧化物活性均极低，甚至完全无活性.氧缺位铁酸盐(MFe2O4-δ (δ＞0)，M=Mg,Zn、Cu,Co,Ni,Mn, Fe)分解CO2成C的活性较高，且按Mg＜Zn＜Cu＜Co＜Mn＜Ni＜Fe的次序增加.铁酸盐的氧缺位程度越大，分解CO2的速度越快，分解CO2成C的量越大，在573K下Fe3O3.8281仅用75min就可将0.5L 1.013×105Pa的CO2几乎100%地分解成炭.
+关键词　金属氧化物；CO2分解；氧缺位；铁酸盐；反应活性.
+ANALYSIS OF THE ACTIVITY OF DIRECT DECOMPOSING CARBON DIOXIDE INTO CARBON WITH THE VARIOUS METAL OXIDES
+
+Wang Lijun
+(Department of Chemistry, Yuzhou University, Chongqing 400033)
+Zhang Chunlei, Wu Tonghao, Li Shuang
+(Department of Chemistry, Jilin University, Changchun, 130023)
+
+ABSTRACT　The decomposition activity of carbon dioxide into carbon is examined by using various simplex and complex metal oxides reduced and unreduced by hydrogen gas. The activity of carbon dioxide decomposition is depended on the factors such as oxygen-deficiency, spinel structure(including NaCl type structure) and iron phase being among the metal oxides. But the others with non-spinel structure and the spinel oxides of non-containing iron phase show extremely low active or even non-active. Oxygen-deficient ferrites (MFe2O4-δ，δ＞0， M=Mg，Zn,Cu,Co,Ni,Mn, Fe) are highly active and their reactivity increases in the order of Mg＜Zn＜Cu＜Co＜Mn＜Ni＜Fe. The higher oxygen-deficiency of ferrites,the higher is the decomposition rate of CO2 and the larger is the amount of carbon by decomposing carbon dioxide. 0.5L carbon dioxide under the pressure of 1.013×105Pa can be almost wholely decomposed into carbon finished in 75min at 573K using Fe3O3.8281 of oxygen-deficient ferrites.
+Keywords　metal oxides, decomposition of CO2, oxygen deficiency, ferrite, reactivity.
+　　化石燃料一直是人类所依赖的主要能源材料，但随着现代工业的迅猛发展，化石燃料的消耗急剧增长，致使人类一方面面临能源危机，另一方面又面临大气中CO2浓度增加的双重问题.自1923年Fischer和Tropsck研究F-T合成且成功地将CO通过加氢固定以来［1］，CO2这个自然界中贮量丰富廉价易得的碳源引起了科学家们的浓厚兴趣，目前CO2固定化的研究也取得一定的进展.随着环境科学的发展，人们对大气层CO2浓度增加(“温室效应”)等一系列问题认识逐步深入，研究CO2固定化工作的意义就显得愈来愈重要.
+　　二氧化碳的还原研究涉及物理、化学、生物等各种方法，但有关CO2直接固化成C的研究及文献报道却不多见.由于CO2固定成C也是解决宇宙飞船等密封舱体系内维持生命的空气净化及供氧等关键问题，所以近年来这方面的研究十分活跃.目前，宇宙飞船上所采用的Bosch法是将CO2和H2通入金属铁上于700—1000K下反应［2，4］，但CO2转化率低于30%，且有大量的CO和CH4的毒副产物生成，因此效果并不十分理想.1990年日本的Tamaura和Tabata［5］首次报道了用氧缺位磁铁矿分解CO2成C的研究结果，为CO2固定化的研究开辟了一条新的途径.
+　　本文系统地考察了不同类型金属氧化物分解CO2成C的活性，重点研究了影响金属氧化物分解CO2活性的因素，为CO2直接固定成C的研究提供了科学依据.
+　　
+1　实验部分
+1.1　铁酸盐的制备
+　　将0.24mol/L的MSO4(M=Fe,Mn,Co,Ni, Zn,Cu,Mg)1.0L和0.48mol/L的FeSO4溶液1.0L加入到容积为3.0L的五颈烧瓶中，通入N2，赶尽溶解的氧及CO2后，快速升温至358K，加入1.44mol/L的NaOH溶液1.0L.待温度恒定在358K后，切换N2为300mL/h流速的空气鼓泡氧化.空气氧化20h时，将反应悬浮液抽滤，再依次经醋酸缓冲液、蒸馏水及丙酮洗涤后，在高纯N2吹扫下于323K干燥样品.
+1.2　供试样品的还原及其对CO2的分解
+　　所有供试的金属氧化物样品均在0.5L密闭的无梯度反应器中，在573K下用40mL/min的H2还原活化3h，获得氧缺位的金属氧化物(不同氧缺位程度铁酸盐则通过不同还原时间来获得)，然后切换成20mL/min流速的He气吹扫10min，再抽真空处理10min，即可通入纯CO2至1.013×105Pa在573K下进行分解反应5h.体系总压力由真空压力表测量，内部气体种类由SP-2305型气相色谱热导池检测，样品上沉积的碳量用Perkin Elmer 2400 CHN型元素分析仪测定.
+
+表1　铁酸盐还原前后分解CO2的反应活性
+Table 1 Activity of decomposition of CO2 before and after 
+ferrites reduced by H2 of rate of 40mL/min at 573K
+
+样　品CO2转化率，
+%C选择性，
+%CO选择性，
+%烃类选择性，
+%
+Fe3O43.299.80.20
+Fe3O4100.099.70.20.1
+NiFe2O41.499.50.50
+NiFe2O499.899.800.2
+MnFe2O40.898.90.50.1
+MnFe2O485.299.41.20
+CoFe2O40.798.21.20
+CoFe2O475.899.60.20.2
+CuFe2O40000
+CuFe2O438.599.60.30.1
+MgFe2O40000
+MgFe2O427.499.80.20
+ZnFe2O40000
+ZnFe2O420.499.960.10.1
+
+　　*表示经H2还原后的样品 
+
+2　结果和讨论
+2.1　铁酸盐分解CO2的活性
+　　在用化学法直接固定CO2成C的研究中，首先考察了铁酸盐MFe2O4(M=Fe,Co,Ni,Mn,Cu,Zn,Mg)缺氧与否对分解CO2的影响.从表1可见，系列的铁酸盐在573K下用H2还原(40mL/min)前后分解CO2的活性对比差异十分显著，还原前的所有非氧缺位铁酸盐MFe2O4+δ(δ≥0)都没有显示出明显的活性(CO2的转化率均在3.5%以下)，相反，还原后的铁酸盐MFe2O4-δ(δ＞0)分解CO2活性都有显著提高，对CO2的转化率增幅都在27.4%—96.8%之间.这说明CO2固化成C的高活性确实与物质的氧缺位有关.
+2.2　相同还原条件下各种金属氧化物分解CO2的活性比较
+　　将供试的各种金属氧化物在573K下用H2还原3h以后，经He气和抽真空分别处理10min后，再通入CO2在573K下反应5h的结果见表2.所有还原后的不含铁的尖晶石型和非尖晶石型氧化物如Co3O4、TiO2等都基本上没有分解CO2的活性；还原后的含Fe2+的尖晶石型非铁酸盐氧化物和含铁的非尖晶石氧化物(Fe1-xO除外)Fe2TiO4、FeZSM-5等分解CO2的活性也较低，CO2的转化率都均在20%以下，这说明非尖晶石氧化物及不含Fe3+的尖晶石氧化物均不具有分解CO2成C的高活性特征.而所有经还原的尖晶石型氧缺位铁酸盐(MFe2O4-δ(δ＞0)，特别是M=Fe、Ni、Mn、Co)都有较高的分解CO2成C的活性.此外，还原后的Fe2O3由于生成了Fe3O4及部分Fe3O4-δ，故能表现出一定的活性；Fe1-xO由于结构不稳定，因而具有容易分解CO2的活性［6］.
+　　总的来看，将CO2有效地直接分解成C与所用材料的氧缺位，Fe3+离子及尖晶石型结构的特性均有关.因此，研究用于促进CO2直接分解成C的材料就应集中于考察氧缺位的尖晶石型铁酸盐类物质.
+2.3　Fe3O4-δ氧缺位程度对分解CO2的影响
+表2　各类金属氧化物在氢还原后分解CO2的活性比较
+Table 2 Comparison of activity of decomposition of CO2 aftervarious metal oxides reduced by H2
+
+样　品CO2转化率，
+%C选择性，
+% CO选择性，
+%烃类选择性，
+%
+Co3O48.798.70.21.2
+Mn3O47.999.60.40
+MgAl2O40000
+TiO21.2100.000
+V2O52.1100.000
+WO35.399.800
+BaTiO30.4100.000
+CuZSM-53.299.90.10
+H3PWVO2.4100.000
+H3SiWVO1.3100.000
+Fe2TiO9.799.50.30.2
+Fe2VO48.499.60.20.2
+FeAl2O43.2100.000
+LaFeO315.498.30.50.2
+FeZSM-510.5100.000
+HPWFeO5.499.90.10
+α-Fe2O335.694.55.20.3
+Fe1-xO100.099.90.10
+α-Fe20.065.235.80
+Fe3O4100.099.70.20.1
+NiFe2O499.899.800.2
+MnFe2O485.299.40.50.1
+CoFe2O475.899.60.20.2
+CuFe2O438.599.60.30.1
+MgFe2O427.499.80.20
+ZnFe2O420.499.80.10.1
+
+　　铁酸盐Fe3O4+δ(δ≥0)通过H2还原不同时间，得到氧缺位程度δ值不同的Fe3O4-δ(δ＞0)，在573K下不同氧缺位程度的Fe3O4-δ上CO2分压随时间的变化规律示于图1.从图1可知在相同反应时间里，氧缺位程度越大，CO2分压越低，被分解的CO2量越大.反应180min时，δ=0.1324的氧缺位磁铁矿已将0.5L97%的CO2转化成了C；δ=0.0832的样品约78%转化成C；δ=0.0315的样品仅转化了约60%的CO2，而δ=0.1719的磁铁矿却仅用75min就能将0.5L(1.013×105Pa)的CO2100%地分解成C.因此，磁铁矿的氧缺位程度与其分解CO2的能力直接相关，磁铁矿氧缺位程度δ值越大，分解CO2的活性越高.
+
+
+图1　CO2在Fe3O4-δ上反应时CO2分压随δ值变化规律
+Fig.1 The change rule of the particle pressure of CO2 reacting
+Fe3O4-δ with the δ-value at 573K
+2.4　M2+离子性质对Fe2O4-δ分解CO2活性的影响
+　　我们从表1可见在氧缺位铁酸盐(MFe2O4-δδ＞0)分解CO2成C中，不同的M2+分解CO2活性也不相同，因此，我们进一步将MFe2O4(M=Mg,Zn,Cu,Mn,Co,Ni,Fe)用H2于573K下分别还原4h和15h后，对它们分解CO2的活性进行了比较，结果列于表3.还原4h的MFe2O4样品分解CO2的活性(及CO2转化率)和沉积炭量是按Mg＜Zn＜Cu＜Co＜Mn＜Ni＜Fe的次序增大；继续延长还原时间(15h)MFe2O4分解CO2的活性均比还原4h的MFe2O4的活性高，但活性顺序为Mg＜Zn＜Cu＜Mn＜Co＜Ni≈Fe，两者基本上没有大的变化.在铁酸盐MFe2O4中M2+离子的不同对分解CO2活性的差异，从它们的原子结构来看，M2+=Fe,Ni,Co,Mn,Cu,Zn和Mg离子3d电子数分别为6,8,7,5,9,10,0,Zn2+和Mg2+具有惰性气体结构的3d电子层，不能向CO2提供电子，因此，含有Mg和Zn的MgFe2O4和ZnFe2O4所形成的氧缺位铁酸盐分解CO2活性一直较低.
+
+表3　MFe2O4还原分解CO2的活性比较(反应温度573K，反应时间3h)
+Table 3 Comparison of activity of decomposition of CO2 with MFe2O4 after 4h and 15h
+
+样　品还原4h还原15h
+CO2转化率，
+%积炭量，
+mgCO2分压，
+105PaCO分压，
+105PaCO2转化率，
+%积炭量，
+mgCO2分压，
+105PaCO分压,
+105Pa
+MgFe2O41940.20.810.043161.60.690.08
+ZnFe2O42558.90.750.034296.40.580.06
+CuFe2O43269.60.670.0651115.20.490.08
+CoFe2O458144.60.390.0498262.20.020
+MnFe2O463152.70.350.0582195.50.180.04
+NiFe2O467166.10.280.05100267.600
+Fe3O482200.90.180.07100267.700
+
+参考文献
+　1　Fischer F,Tropsch H. Synthol process with crabon monoxide and hydrogen by ferric oxide in heterogeneous catalysis. Brennst Chem,1923,21(3):226
+　2　Sacco A,Reid R C. Morphological changes in an iron catalyst and the formation of carbon fibers in the C—H—O—Fe system. Carbon, 1979,17:459
+　3　Wangner R C et al. Study of iron catalyst by temperature programmed desorption proc. 18th Int Conf Envir Sys SAE Tech Pap Ser, 880995, 1—9(Soc Zautom Eng, 1988)
+　4　Lee M,Lee J. Change C catalytic behavior and phase composition change of iron catalyst in hydrogenation of carbon dioxide. J Chem Engng Jpn, 1990,23:130
+　5　Tamaura Y, Tabata M. Complete reduction of carbon dioxide to carbon using cation-excess magnetite. Nature, 1990,346:255
+　6　Kodama T et al. Decomposition of carbon dioxide to carbon with active wustite at 300℃. J Am Ceram Soc, 1992,75(5):1287

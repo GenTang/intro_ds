@@ -1,0 +1,130 @@
+信息与控制
+Information and Control
+1999年　第28卷　第4期　Vol.28　No.4　1999
+
+
+
+在KDD和Data Mining 中我们的部分工作和看法
+覃振兴　袁曾任
+
+　　摘　要：本文介绍了什么是KDD和Data Mining，目前国外在Data Mining中研究的一部分重要内容的概况以及几年来我们在KDD和Data Mining中的部分工作和看法．
+　　关键词：KDD, Data Mining, 粗集理论, 神经元网络, 遗传算法
+　　中图分类号：TP274　　　　　　文献标识码：A
+A PART OF OUR RESEARCH WORK AND VIEWS IN THE
+KDD AND DATA MINING
+QIN Zhenxing1 YUAN Zengren2
+(1. Dept of Mathmatics and Computer Science, Guangxi Teachers Tra ining University, Guangxi;
+2. Depr. of Mathmatics and Computer Science and Technology, Tsinghua Univer sity　100084　Beijing)
+Abstract: The paper presents the definition of KDD and Data M ining. It also presents briefly a surver of a part of important contrnt s in the intemational data mining research work as as a part research work and v iews in the KDD and data mining in recent yeats.
+Key words: KDD, data mining, rough sets, artifivial Neural netwo rk, genetic algiruthm
+
+　　 当今世界正处于一个“信息爆炸”的时代．据估计全世界的信息总量每18个月翻一番， 以目前社会的信息化和自动化发展趋势来看，这个速度还会更快．随着近年来Internet 的迅速发展，大量的数据好象一下子涌到我们的面前，可以说我们不是缺少信息，而是给信息淹没了，我们反而不知道如何才能从中迅速找到我们真正需要的知识．
+一般而言，人们通常用各种各样的数据库来保存各种信息．长期积累下来，有些数据库变得非常庞大，目前数百万乃至数千万条记录的数据库已比比皆是．这些数据是一种宝贵的资源，就象一座蕴藏丰富的巨大矿场．但不幸的是，我们从中发掘所需矿物的能力却非常有限，有时我们不得不有所取舍，仅能开发其中的一小部分而已．
+目前的数据库系统基本上是一个检索工具，仅能产生一定的检索、汇总或统计量，还谈不上进行理解和概括．所以传统的信息处理方法很大程度上是一种手工作业，通过统计方法 把数据库的大量数据简化到人类能处理和理解的范围，然后由人类专家根据经验对之进行分析、理解，最后给出相应的结论．但是随着海量数据库和数据仓库的大量出现，用这类传统的方式进行处理显得非常费时、费力，而且主观性很大．因此，当前迫切需要更好的方式和工具来处理和发掘这些日益庞大的数据库．于是一个新的研究领域—数据库中的知识发现（Knowledge Discovery in Databases简称KDD) 也就应运而生，而且在近几年里迅速发展起来．这个领域实质上是智能技术与数据库相结合，不但为决策者提供知识和策略，而且为投资者带来经济效益.
+1　什么是KDD
+　　KDD（Knowledge discovery in databases)这一术语最早出现在1989年AAAI的KDD专题研讨会上，而后Fayyad[1]给出了一个较详尽的定义．他认为KDD包括九个步骤：
+(1)确定研究领域和用户需求;(2)创建目标数据集：选择一个数据集或者集中在变量或 者数据样本的子集上，使之能反映待发现的对象;(3)数据的净化和预处理，如排除噪声或者 分离物等;(4)数据的减少和映射：寻找有用的特征以表示确定作业目标的数据．用降级或者 变换方法以减少变量数或者找到对数据的恒定的表示;(5)选取适当的数据采掘任务: 决定KD D处理的目标是否是分类、回归、聚类等;(6)选择数据采掘的算法：选择用于寻找数据中模 式的方法;(7)进行数据采掘，发掘数据所包含的模式;(8)解释所发现的模式并形式化;(9) 整理已发现的知识：检验所发掘的知识然后予以应用．
+　　我们比较倾向于上述定义，不过我们认为对Data Mining的定义可略为扩充，从5至8步有时在广义上都可看作是Data Mining的范畴．于是我们不妨把1至4步称为Data Mini ng的前处理，而(8)，(9)则称作其后处理．KDD可看作一个有效的迭代和在上述任何两步之间可能包含环路的循环过程，KDD是一个经过用户评估的大闭环过程; Data Mining是其中的一个内环. 在后处理的检验和应用中，若发现不一致或不合适则可回头对前面步骤进行修改，直至得到较满意的结果．从这一意义上来讲，我们觉得Data Mining可以认为是在一个比较确定的数据库上，采用特定的数据采掘方法提取出隐含的、未知的、有潜在应用价值的信息的过程．
+2　国外部分研究情况
+　　1989年AAAI组织了一个KDD专题研讨会，其论文集于1991年出版[2]，标志着KDD的正式诞生．之后逐渐升温，越来越多的研究者投身其中．而近几年为了处理数据仓库和Inte rnet上浩如烟海的信息数据，象IBM，NASA，GM，MICROSOFT等大公司竞相投入资金推动KDD 的研究及其实用化，因此近两年来形成一股KDD研究热潮．从1995年开始举行每年一届的KDD 国际会议，AAAI和IJCAI 这两大AI系列会议均开设了KDD专题，各种有关KDD的专辑和杂志 层出不穷．
+  下面，我们就Data Mining当前所研究的主要热点中我们比较感兴趣而且作了一些工作的几个主题分别讨论其当前的研究状况，对于想比较详细了解KDD 和 Data Mining 各个方 面的读者可以参见文献[1,2,3,15]．
+2.1 相关性建模
+　　即是通过对选定的数据表进行分析，找到一个模型来描述变量间有意义的依赖关系．其中关联规则的发掘是近期研究得比较多的一个重要问题[4～10]，主要是因为其 用于实际的大型事务数据库（如大型商场或超级市场的事务数据库）中，应用效果和前景都 非常好．
+关联规则的数学模型最先由文[4]提出．设Γ＝{i1，i2，…,im}是一组文字（或称项），事务是(上的一个子集．每个事务均有一个唯一标识符Tid．不同的事 务一起构成了一个事务数据库，记为D．D就是发掘关联规则的数据源．一个关联规则简记为 XY的形式，这里X∈Γ，且X∩Y=φ．规则X关联规则的数学模型最先由文[4]提出．设Γ＝{i1，i2，…,im}是一组文 字（或称项），事务是(上的一个子集．每个事务均有一个唯一标识符Tid．不同的事务一起构成了一个事务数据库，记为D．D就是发掘关联规则的数据源．一个关联规则简记为 XY的置信度c表示在D中有c％的事务包含X∩ Y，而规则X关联规则的数学模型最先由文[4]提出．设Γ＝{i1，i2，…,im}是一组文 字（或称项），事务是(上的一个子集．每个事务均有一个唯一标识符Tid．不同的事务一起构成了一个事务数据库，记为D．D就是发掘关联规则的数据源．一个关联规则简记为XY的支持度s表示在D中有s％的事务包含X∪Y，人可以根据需要定出不同的阈值s′，称为最小支持度，只有其支持度s大于s′时才予以考虑．
+　　例如：在某商场中发现购买商品A和B的客户有6%，购买商品C和D的客户有4%，而且购买A和B的客户有90%会购买C和D，于是这一信息可用关联规则R：A∧BC∧D (c=90%，s=10% )来表示．这类规则对商场的布局，商品摆放及市场分析等都非常有用．
+　　根据文[4]，关联规则问题可以分解成以下两步：
+　　(1) 找出所有满足最小支持度的所有项集．
+　　(2) 从上面的项集中提取满足最小置信度的规则．
+其中第(1)步是问题的核心，在事务数据库D非常大且项集的项数也很多时，如何能快 速准确地找出这些项集是非常关键的．比较经典的算法是IBM公司的Quest 系统中的Apriori[5]及文[8]中DHP算法．文［8］则引入并行算法以提高效率．
+这两个算法适用于事务数据库，即各属性只取0,1(发生和不发生)两值，但通过分段和影射可推广至其它类型的数据库或得到定量性的相关规则[6,11,12,13]．
+　　另外的一个推广就是引入背景知识， 如面向属性的概念层次树[5,10]即是其中一种，它使得关联规则可以扩展到多级概念层次．
+2.2 数据综合和概括
+　　数据概括即是把一个大的相关数据集从较低概念层次抽象到更高概念层次的过程．我 们知道数据库中的数据常常是比较具体和细致的，所以其概念层次往往较低，而用户有时需 要在更高的抽象级上进行分析，这就要进行一定的抽象化．
+　　目前，主要有两类方法： (1) “数据立方”方法[16～19]，也被称作“多维数据库”，“数据可视化”或“OLAP（On-Line Analytical Processing）” (2) 面向属 性的归约(attribute-oriented, 以下简称AO方法)[20,21]．本文主要讨论AO方法 ．
+　　AO方法主要特点是它利用一种特殊的背景知识,即概念层次或概念树[20,21], 把数据库中的原始数据按背景知识转换为更高级的概念,可以大大缩小数据规模．
+2.3 数据分类
+　　数据分类即根据分类模型，把数据库中数据项影射或划分到预先定义好的若干类别中的某一个． 数据分类在概率统计，机器学习，神经网络和专家系统中均被研究过，是一个重要的Data Mining专题．
+　　基于决策树的分类[22.23]方法来源于机器学习，从一组样本中用带监督的学习方法构造出决策树，它同时要考虑分类准确性和树的大小两个方面．
+　　具体是先采样进行学习得到一个决策树，然后对它进行检验，如果有些对象不满足于它，则把这些例外的对象加入样本中重新学习，直至得到一个准确的决策集．最终结果是一棵树，它每一片叶子都是一个类，而内结点则代表一个属性，该属性所有取值都在其分枝中．决策树有比较简单的表示形式，比较容易理解和推导．
+　　较经典的决策树学习系统是ID3[22]及C4.5[23]， C4.5是把ID-3从分类属性领域扩展到能对数字化属性进行分类，文[21]用ID3算法来作面向属性的归约可以 改善高抽象级的分类能力，[28]中的DBMiner即是一个可调的多级分类系统，它使用级别 调节和显现技术来提高大型数据库的分类准确性，同时应用了面向属性的归约和分类方法． 
+　　但是， 机器学习方法及其它部分的分类算法往往需要把训练数据放入内存，这只适用于较小规模的数据，在大型数据库中往往性能不隹[24]． 因此[25]提出了一种快速分类算子，叫SLIQ(Supervised Learning in Quest)，它也是一种基于决策树的算子，它能训练数据对内存的需求减少到一个较小的比例，同时处理分类和数值型属性．其改进算法SPRINT[26]可以使训练数据不受内存的限制．
+　　还有就是以前的决策树都是针对单个属性作为分支决策依据，有时需要用多个综合来划分类别．文[27]认为可分成两个阶段，先是特征抽取，找出一组好的分类属性，然后根据 这些属性综合起来进行分类，可以得到更好的分类效果．
+　　其它还有象基于概率的方法[29,30,31]，及基于Roughsets的方法[32]等． 文[33]提出了应用于大型数据库的分类方法，用3区间算子来减少生成决策树时的 开销，而[34,42]中用神经网络来进行和提取规则，是一种较新的方法． 还有[43]也提出了一个叫meta-learning的方法，可以综合几种基本的分类算子，可能是一个比较好的尝试．
+2.4 数据聚类 (也叫非监督学习)
+　　数据聚类即是把给定的若干抽象或具体的对象划分成有限个数的类别． 它在统计学[29,35]和机器学习[36,37]中均被研究过．但这些方法在处理极大量的数据时开销太大，必须采用一定的方法进行简化．
+　　文[40]的CLARANS采用先抽样再聚类的方法，综合了PAM和CLARA算法的优点．但是要把所聚类对象放入内存，而且计算类间的距离开销也很大，因此文[39]采用R*-tree [38]来“聚焦”出类的代表，可以大大节省空间和减少计算复杂度．由于R*-tree不一定存在，BIRCH算法[41]可以根据内存大小进行调整．
+3　我们的部分研究工作
+　　有些研究者认为KDD是机器学习或统计学等方法的另一说法，我们说的KDD及其Data Mining方法并不是说要完全抛弃以前的方法，而是要互相结合，再引入一些新的智能技术予以扩展，使之能适应数据量剧增带来的新变化．
+本实验室很早就注意到了KDD这一研究领域,一直注视国外的最新进展,目前已在国内国际杂志和会议发表有关文章三十余篇．我们曾从以下几个方面进行了一些研究．现简要介绍如下．
+3.1 与逻辑学结合并引入背景知识[44～47]．
+　　周生炳博士后提出不完全决策表概念及其化简方法[44]和基于规则的面向属性归纳方法(rule-based attribute-oriented 简称为RBAO方法)的无回溯方法[45]并应用于知识发现．其主要思想是把不完全决策表与AO方法相结合，进一步改善AO 方法与 粗糙集方法的结果．但总的来说,当前的各种KDD方法, 都是从数据库本身的信息出发,挖掘 出有意义的模式,用户的经验、常识等无法利用,其原因之一是缺乏有效的表示和处理的手段 ．AO方法和RBAO方法算是走出了第一步,但只能表示和利用分类学的知识,而且所涉及的事物 性质都是数据库中的属性．可是，有时数据库之外的某些性质可能与数据库属性有关,反之 亦然．而且某些性质只对部分对象有意义．为此在数据库归纳中我们引入了一般的背景知识 ,称为基于知识(knowledge-based)的KDD方法[46,47]．该方法用不循环一元谓词知识库表示背景知识,把非单调推理与归纳学习纳入一个统一框架,大大提高了背景知识的表达能力．
+3.2 应用神经元网络（基于BP算法）实现Data Mining．
+3.2.1 由神经元网络提取规则[48～53]．
+　　在过去的几年里，用ANN技术提取规则(包括“crisp”和模糊两类)的若干方法已经提出来了，从已训练好的多层神经网络提取“crisp”(乾脆的)规则的技术，例如BRINNE技术[48]和KT算法[49]以及由Yoon Byungjao等人提出通过“destructive learning”(毁坏性学习)提取规则[50]和Ishikawa,M.提出结构的学习及其应用于规则的提取[51]
+　　作者等人提出一种由预处理和规则提取两阶段组成的方法[53]，预处理阶段中包含有动态修正、聚类和删枝三部分．动态修正是自动生成或者由初始规则集构造出全联接或者非全联接网络的初步拓扑结构；聚类和删技分别删截掉不重要或者多余的隐含节点和联接，从而可以得到最简洁和规模小的拓扑结构，成为提取规则的基础．作者等人还提出了规则提取算法并用于已删截好的网络提取规则．作者将这种方法应用于美国AD报告中气象云图的数据，提取出规则集，经过测试数据集的测试表明是正确的和有效的，这是一种简单和可行的方法．
+3.2.2 由神经元网络采掘分类规则．
+　　文章中所用采掘算法是由训练、删枝、提取和后处理四个模块组成．训练模块主要是采用惩罚函数将学习的知识集中到尽可能少的隐含单元上．开始选用比必要还大的网络结构 ，然后消去不需要的部分，这种做法允许网络相当快而且对起始条件不太敏感地去学习知识 ，同时减少修整好系统的复杂性，有助于改进泛化能力．由于网络规模较大将会增加删除隐含节点的困难，所以惩罚项应该加到误差函数中以把知识汇集在最少隐含单元上，在文献[54]中采用由Chaulin建议的惩罚函数．删除模块主要采用异常的比例去选择对于分类最相 关的隐含单元．建议的算法是基于在其他文献中已采用的由模糊分类器产生的类区分析，在 类区中重叠的程度或者由模糊分类器产生在模糊规则内部存在异常的程度，把它定义为异常 的比例并用它来作为隐含单元评估的一个量度．给定一组留下的隐含单元，建议的算法消去 邻接的隐含单元，它的消去使比例之和最小．当单个隐含单元的更多消去导致异常比例之和 显著地增加时，意味着显著地依靠属于分类器在使用时的未知数据的识别误差率，建议的算 法终断．其他内容因篇幅关系不再介绍，请见[54]．将这种方法应用于Iris,Cancer,Spli ce,Plomotes和Agrawal建议的几种函数上，实验结果表明在提取规则准确率、规则数和条件 数都比较好．
+3.2.3 混合法[55]
+　　在文献[55]中采用遗传算法删剪已经训练好的神经元网络拓扑结构，然后把删剪好的 网络转化为M树，而M是输出单元的数目并等于问题的类数，最后，通过分析每棵树提取出适 合每类的规则集．将这种方法应用于Iris,Breast Caneer Datasets和Handnitten Numeral Dataset中取得了和1995年由Setiono等人得到的NN和DT规则相当．但是这种方法表现出解释 能力而同时保持网络的精度，此外，这种方法可以清晰地说明决策过程．
+感谢周生炳博士后、张朝晖博士、周远辉博士提供他们的文章以及多次的讨论．
+作者简介：覃振兴，男，25岁，硕士．研究领域为人工智能和KDD及Data Mining领域．
+　　　　　袁曾任，男，64岁，教授.研究领域为智能控制和计算智能(人工神经网络，模糊逻辑、遗 传算法)及其应用.
+作者单位： 覃振兴:广西师范大学数学与计算机科学系, 清华大学计算机系智能技术与系统国家重点实验室客座；
+　　　　　　袁曾任: 清华大学计算机系　北京　100084
+参考文献
+1　 U M Fayyad, G Piatetsky-Shapiro, P Smyth. From Data Mining to Knowledge Discove ry : An Overview. In U.M.Fayyad, G. Piatetsky-Shapiro, P. Smyth, R U Uthurusamy , editors, Advances in Knowledge Discovery and Data Mining, AAAI/MIT Press, 1996 :83～115
+2 G Piatesky-Shapiro, W J Frawley. Knowkledge Discovery in Databases, AAAI/MI T Press, 1991
+3 U M Fayyad, G Piatetsky-Shapiro, P Smyth, R U Uthurusamy, editors, Advances in Knowledge Discovery and Data Mining, AAAI/MIT Press, 1996:83～115.
+4 R Agrawal, T Imielinski, A Swami. Mining Association Rules Between Sets of Items in Large Databases. Proceedings of ACM SIGMOD, May 1993:207～216
+5 R Agrawal, R Srikant. Fast Algorithms for Mining Association Rules in Large Databases. Proceedings of the 20th International Conference on Very Lage Data Bases, September 1994:478～499
+6 J Han, Y Fu. Discovery of Multiple-Level Association Rules from Large Databases. Proceedings of the 20th International Conference on Very lage Data B ases, September 1994:478～499
+7 H Mannila, H Toivonen, A Inkeri Verkamo. Efficient Algorithms for Disco vering Association Rules. Proceedings of AAAI Workshop on Knowledge Discovery in Databases, July, 1994:181～192
+8 J-S Park, M-S. Chen, P S Yu. An Effective Hash Bashed Algorithm for Minin g Association Rules. Proceedings of ACM SIGMOD, May 1993:175～186
+9 A Savasere, E Omiecinski, S Navathe. An Efficient Algorithm for Mining Assoc iation Rules in Large Databases. Proceedings of the 21th International Conferenc e on Very lage Data Bases, September 1995:432～444
+10 R Srikant, R Agrawal. Mining Generalized Association Rules. Proceedings of t he 21th International Conference on Very lage Data Bases, September 1995:407～41 9
+11 Srikant R, Agrawal R. 1996a. Mining Quantitative Association Rules in Large Relational Tables. In Proc. of the ACM SIGMOD Conference on Management of Data 
+12 Randy Kerber. Chimege: Discretization of Numeric Attributes. In Proceedings of the AAAI-92 workshop on KDD. 123～128
+13 H Tsukimoto. The Discovery of Logical Propositions in Numerical Data, AAAI'9 4 Workshop on Knowledge Discovery in Databases, 1994:205～216
+14 R Agrawal, JC Shafer. Parallel Mining of Association Rules IEEE Transation on Knowledge and Data Engineering, Dec 1996:962～969
+15 M Chen, J Han, P S Yu. Data Mining: An Overview from Database Perspective. I EEE Trans. Kjnowledge and Data Engineering, 1996,8:833～866
+16 A Fupta, V Harinarayan, D Quass. Aggregate-query Processing in Data Warehou sing Environment. In Proc. 21st Int. Conf. Very Large Data Bases, Pages, Zurich , Switzerland, Sept. 1995:358～369
+17 V Harinarayan, J D Ullman, A Rajaraman. Implementing Data Cubes Efficientl y. In Proc. of the ACM SIGMOD Conference on Management of Data
+18 J Widom. Reserch Problems in Data Warehousin. In Proc. 4th Int. Conf. on Information and Knowledge Management, Baltimore, Maryland, Nov. 1995:25～30
+19 W P Yan, P Larson. Eager Aggregation and Lazy Aggregation. In Proc 21st Int Conf Very Large Data Bases, Zurich, Switzerland, Sept. 1995:345～357
+20 J Han, Y Cai, N Cercone. Data-driven Discovery of Quantitative Rules in Re lational Databases. IEEE Trans. Knowledge and Data Engineering, 1993, 5:29～40
+21 J Han, Y Fu. Exploration of the Power of Attribute-oriented Induction in Da ta Mining. In U M Fayyad, G Piatetsky-Shapiro P Smyth, R U Uthurusamy, editors, Advances in Knowledge Discovery and Data Mining, AAAI/MIT Press, 1996:83～115
+22 J R Quinlan. Induction of Decision Trees. Machine Learning, 1986, 1:81～106
+23 J R Quinlan. C4.5: Programs for Machine Learning, Morgan Kaufmann, 1986
+24 R Agrawal, M Mehta, J Shafer, R Srikant, A Arning, T Bollinger. The Quest Data Mining System. In Proc. 1996 Int'l Conf. on Data Mining and Kno wledge Discovery (KDD'96), Portland, Oregon, August 1996
+25 M Mehta, R Agrawal, J Rissanen. SLIQ: A Fast Scalable Classifier for Data Mi ning. In Proc. 1996 Int. Conference on Extending Database Technology (EDBT'96), Avignon, France, March 1996
+26 J Shafer, R Agrawal, M Mehta. Fast Serial and Parallel Classification of V ery Large Data bases. In VLDB 96
+27 M S Chen, P S Yu. Using Multi-Attribute Predicates for Mining Classificati on Rules. IBM Research Report, 1995
+28 J Han, Y Fu, W Wang,etc. DBMiner: A System for Mining Knowledge in La rge Relational Databases. In KDD'96, Portland, Oregon, Augest 1996
+29 P Cheeseman, J Stutz. Bayesian Classificaton (AutoClass): Theory and Result s. In U M Fayyad, G Piatetsky-shapiro, P Smyth, R U Uthurusamy, Editors, Advanc es in Knowledge Discovery and Data Mining, AAAI/MIT Press, 1996:153～180
+30 J Elder IV, D Pregibon. A Statistical Perspective on Knowledge Discovery in Databases. In U M Fayyad, G Piatetsky-shapiro, P Smyth, R U Uthurusamy, Editors, Advances in Knowledge Discovery and Data Mining, AAAI/MIT Press, 1996 :83～115
+31 G Piatetsky-shapiro. Discovery, Analysis, and Presentation of Strong Rules. In G Piatetsky-shapiro, W J Frawley, Editors, Knowledge Discovery and Databases, AAAI/MIT Press, 1991:229～238
+32 W Ziarko. Rough Sets, Fuzzy Sets and Knowledge Discovery. Springer-verlag , 1994
+33 R Agrawal, S Ghosh, T Imielinski, B Iyer, A Swami. An Interval Classifier for Database Mining Applications. Proceedings of the 18th International Confere nce on Very lage Data Bases, August 1992:560～573
+34 H Lu, R Setiono, H Liu. Neurorule: A Connectionist Approach to Data Mining . Proceedings of the 21th International Conference on Very Lage Data Bases, September 1995:407～419
+35 A K J, R C Dubes. Algorithms for Clustering Data. Printice Hall, 1988
+36 D Fisher. Improving Inference Through Conceptual Clustering. In Proc. 1987 A AAI Cconf., Seattle, Washington, July 1987:461～465
+37 D Fisher. Optimization and Simplification of Hierarchical Clusterings. In Pr oc. 1st Int. Conf. on Knowledge Discovery and Data Minging (KDD'95), Montreal, C anada, Aug. 1995:118～123
+38 N Beckmann, H P Kriegel, R Schneider, B Seeger. The R*-tree: An Efficient and Robust Access Method for Points and Rectangles. In Proc. 1990 ACM-SIGMOD Int . Conf. Management of Data, Atlantic City, NJ, June 1990:322～331
+39 M Ester, H P Kriegel, X Xu. Knowledge Discovery in Large Spatial Databases: Focusing Techniques for Efficient Class Identification. In Proc. 4th Int. Symp. on Large Spatial Databases (SSD'95), Portland, Maine, August 1995:67～82
+40 R Ng, J Han. Efficient and Effective Clustering Method for Spatial Data Mini ng. In Proc. 1994 Int. Conf. Very Large Data Bases, Santiago,Chile,September 19 94:144～155
+41 W P Yan, P Larson. Eager Aggregation and Lazy Lazy Aggregation. In Proc. 21 th Int. Conf. Very Large Data Bases, Zurich, Switzerland, Sept. 1995:345～357
+42 HJ Lu, R Setiono, H Liu. Effective Data Mining using Neural Networks. IEEE Transactions on Knowledge and Data Engi
+50 Yoon Byungjoo, Lacher R C. Extraction Rules neering 8: 6 (DEC 1996) Page 957～961
+43 P K Chan, S J Stolfo. Learning Arbiter and Combiner Trees from Partitioned Data for Scaling Machine Learning. In KDD'95, August 1995:39～44
+44 周生炳，张钹. 不完全决策表及其化简. 软件学报 （将发表) 
+45 周生炳，张钹. RBAO方法的无回嗍算法. 计算机学报 （将发表)
+46 周生炳，张钹. 基于知识的KDD方法. 中国科学（E辑）（将发表）
+47 周生炳. 基于知识的KDD方法. 清华大学博士后出站报告, 北京: 1997,4
+48 Binaghi E. (1192), Empirical Learning for Fuzzy Knowledge Acquisition, Proc . 2nd Int. Conf. Fuzzy Logic & Neural Networks, IIZUKA'92, 1992
+49 Fu LiMin. Rule Generation from Neural Networks, IEEE Transactions on Systems , Man and Cybernetics, 1994, 24(8):1114～1124by Destructive Learning, IEEE, 1994:1766～1771
+51 Ishikawa M. Structural Learning and its Applications to Rule Extraction, IEEE,1994:354～359
+52 袁曾任，卢振中. 由神经网络提取规则的一种方法及其在气象云图中的应用. 1996 年中国智能自动化学术会议论文集(上册）180～186
+53 袁曾任，卢振中. 由神经网络提取规则的一种方法. 信息与控制, 1997,26(1):61～66
+54 Zhou yuanlui, Lu Yuchang. Shi Chunyi Using Neual Nework to Discover Knowled ge from Database (to be published)
+55 Zhaohui Zhang, Yuanhui Zhou, Yuchang Lu, Bo Zhang. Extracting Rules from a GA-Pruned Neual Network
+收稿日期：1998-02-09

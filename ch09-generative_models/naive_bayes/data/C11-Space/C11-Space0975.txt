@@ -1,0 +1,144 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第2期　Vol.19　No.2　1999
+
+
+
+三层结构加氢反应器器壁中
+氢扩散的数学模型
+余　刚　张学元　杜元龙
+
+摘要： 根据Devanathan-Stachurski 提出的电化学渗氢原理，采用专利的电化学氢探头测定氢在金属中渗透速率的方法，建立了氢稳态扩散时在热壁三层结构的加氢反应器器壁中氢浓度计算的数学模型。在反应器的运行条件下，氢渗透过程受扩散控制。只要检测出氢探头在一定温度下的稳态渗氢电流密度i∞，通过计算机程序选择适当的参数输入，应用提出的计算公式可计算单层、双层或三层加氢反应器器壁中各关键界面的氢浓度及器壁径向任意指定剖面上的氢浓度分布。
+关键词： 氢扩散; 加氢反应器; 数学模型
+中图分类号：TQ031.4　　　文献标识码：A　　　文章编号：1005-5053(1999)02-0001-07
+Mathematical model of hydrogen diffusion in treble 
+layer structure wall of hydrogenation reactors
+YU Gang　　ZHANG Xue-yuan　　DU Yuan-long
+(1.State Key Laboratory for Corrosion and Protection, Institute of Corrosion and Protection of Metals,Chinese Academy of Sciences,Shenyang 110015, China;2.Shenyang Polytechnic University, Shenyang 110023, China)
+Abstract： Based on the principle of the electrochemical hydrogen permeation presented by Devanathan－Stachurski , the mathematical model for calculating the hydrogen concentration distribution in the treble layer wall of hydrogen reactor at the condition of steady diffusion of hydrogen was suggested by using the electrochemical probe described in the Chinese Invention Patent: 95111971.0 for determining hydrogen permeation rate in metals. The process of hydrogen permeation was controlled by the hydrogen diffusion step under the operation condition of the reactor. As long as the steady hydrogen permeation current density i∞ was detected in the hydrogen probe at a given temperature, the interface hydrogen concentrations on the key interfaces and hydrogen distribution at any given radial section in the single, double or treble layer wall of hydrogenation reactor could be found by applying the presented equations through suitable parameters input of computer program. The theoretical bases were provided for detecting or monitoring the concentration of atomic hydrogen in the walls of hydrogenation reactors.
+Key words: hydrogen diffusion; hydrogenation reactor; mathematical model
+
+　　在炼油工业中越来越多地采用加氢脱硫、加氢裂化和加氢精制等加氢工艺，以提高轻油回收率和油品质量。加氢反应器的筒体主要采用中温铬钼型抗氢钢2.25Cr1Mo, 筒体结构采用整锻、锻焊、厚板卷焊、薄板多包扎等多种形式。反应器最大内径可达4米，壁厚270毫米，长度22米，反应器运行温度633～723K，压力7.1～27Mpa。由于2.25Cr1Mo钢抗硫化氢腐蚀和抗连多硫酸腐蚀的性能差。因此，容器内壁多采用TP347不锈钢堆焊层或TP309+TP347复合堆焊层。
+　　由于反应器长期处于高温高压的氢环境中运行，氢受到金属表面的物理吸附、化学吸附，氢分子分解成氢原子，然后溶入金属中，并向内部扩散，与金属进行交互作用，使金属材料产生氢脆或氢腐蚀。石油化工加氢设备由于在高温环境中渗氢后，发生氢损伤和滞后断裂的事故［1～3］在国内外有较多的报道, 可是没有一种方法能够预示或监测氢蚀的程度。避免氢蚀唯一的常规做法是按照经验数据组成的NELSON图［4］来选择在高温高压条件下使用的材料。
+　　加氢反应器的氢破坏与在高温和高压下进入钢中的原子氢含量密切相关，研制一种能检测加氢反应器器壁中的原子氢含量的探测仪，来预示氢积累将要发生破坏的危险性，可及早采取有效的措施，防止事故的发生和避免造成巨大的经济损失。
+　　1962年印度电化学科学家Devanathan 和Stachurski 提出了一种电化学方法来研究氢在金属中的渗透速率［5，6］, 其主要结构是由金属箔双面电极及两侧的两个电解槽组成。箔的一侧处于自由腐蚀或阴极充氢状态,另一侧（表面镀催化剂活性层钯)则在0.1mol.L-1的氢氧化钠中处于阳极钝化状态,采用恒电位仪对阳极侧施加一个氧化电位,能将由充氢侧扩散过来的原子氢氧化掉,其氧化电流密度就是原子氢扩散速率的直接量度.McBreen［7］和Chaudhari［8］分别提出了用电化学渗氢法确定氢在金属膜中扩散的扩散系数和渗氢速率的数学模型及边界条件。Balaramachandran［9］和Yamakawa［10］等人研究了在0.2mol.L-1 NaOH溶液中采用氧化汞电极为参比电极，氢在镀钯试样上氧化的最佳氧化电位。Truax［11］通过在一双层结构的实际反应器的器壁外用制造反应器时就焊接好的集氢帽收集氢，用氩气为载体进行色镨分析，测定出氢的渗透速率，得到氢在2.25Cr-1Mo钢器壁中的最大浓度，它与利用氢扩散方程和溶解度方程计算得到的结果十分吻合，而三层结构的加氢反应器的氢扩散检测的方法和数学模型至今还未见报道。
+　　本文应用电化学氢探头检测氢渗透速率的方法，从理论上阐述使用的氢探测仪在热壁三层结构的加氢反应器器壁上进行实时、无损、在线检测原子氢含量的数学模型。
+1　氢扩散方程及电化学检测方法
+1.1　氢扩散方程
+　　若晶体中存在浓度梯度,则实验表明,通过某一截面的扩散通量J(即单位时间内通过单位面积的扩散物质的质量)和该平面处的浓度梯度成正比,即
+　　　　　　　　　　　　　　　　（1）　　
+D为Fick扩散系数,因为J指向浓度较小的一方，而浓度梯度指向溶质浓度增加方向，故(1)式中需有一负号，这就是Fick第一定律［12］。
+
+图1. 氢扩散过程示意图
+Fig.1　The schematic diagram of hydrogen diffusion
+
+　　在第一定律中，J、D、可以是常量也可是变量，如果J和x有关，则利用Fick第二定律来描述更为合适。如图1所示，某组元延x方向扩散，试样截面积为A，因J(x)是单位时间通过单位面积的质量,故Δt时间内通过ab面(位置x = x1)流入abcd小体积元中的质量为J(x1).A.Δt。故Δt时间内abcd体积元中物质质量变化为
+　　　　J(x1). A. Δt －J(x2).A.Δt = －J(x).A.Δt
+因为c(x,t)是单位体积内的物质的质量，Δc(x,t)是指Δx范围内单位体积质量的改变量，故在abcd体积元（其体积Δx×A）中质量改变量为Δc.A.Δx。上述两种方法导出的扩散物质的质量改变量是一致的，即
+　　　　
+把它代入（1）式就得
+　　　　　　　　　　　　　　　　　　　　　　　　　(2)　　
+如果D和浓度无关，即=0,则上式为Fick第二定律的表示形式：
+　　　　　　　　　　　　　　　　　　　　　　　　(3)　　
+如果一块金属片把容器分成互不相通的两室,其中一边充满高压氢气(p=p1),而另一边则充满低压氢气(p=p0).这时氢将从高压端试样面进入,扩散通过试样后从低压端逸出,由于两边容器中的压力保持不变,在经过一定的时间后,单位时间内从高压端进入的氢量就等于从低压端离开的氢量,即J与X无关,扩散达稳态。从此之后，试样中各处氢的浓度也不随时间而改变. 即=0,代入Fick第二定律(3)式得, ,故=常数, 这样。其中c1和c0是试样两端的浓度，Δx是试样厚度。利用Sieverts定律, S=常数,当两端压力恒定,浓度也恒定时,则可得
+　　　　　　　　　　　　　　　(4)　　
+1.2　氢渗透的电化学检测方法
+　　杜元龙［13］等人发明的电化学氢探头如图2所示，它由钯合金箔(阳极)和氧化物粉末电极(阴极) 浸在KOH溶液中构成。即
+　　　　Pd Alloy Foil ｜0.2 mol.L-1 KOH｜ MeO
+
+图2　氢探头原理示意图　　　
+1.钢样；2.钯合金片；3.氢氧化钾电解质溶液；4.金属氧化物电极
+Fig.2　Schematic diagram of hydrogen probe
+1.Steel Coupon；2.Pd Alloy；3.KOH Electrolyte solution；4.M/MO Electrode
+　　2.25Cr1Mo钢体中的氢原子扩散到钯合金箔上，当到达接触KOH溶液的内表面时，由于阴、阳极短路，具有高活性表面的氧化物粉末阴极可为阳极提供一个稳定的氧化电位，将原子氢氧化成水。此时，发生下面反应：
+
+阴极反应MeO+H2O+2e=2OH－+Me 
+阳极反应　　　2H+2OH－=2H2O+2e
+电池反应　　　MeO+2H=Me+H2O
+
+　
+　　利用零阻电流表测量氢探头在短路时原子氢的氧化稳定电流值i∞（A.m-2）, 按Fick第一定律计算反应器壁中原子氢的浓度c0(质量分数浓度, μg.g-1)。
+　　　　　　　　　　　　　　　　　　　(5)　　
+(5)式中：L是试样的厚度，m ；F是法拉第常数；D是氢在试样中的扩散系数，m2*s-1；d是钢的密度，7.86Mg.m-3。
+2　氢在三层热壁加氢反应器上扩散的数学模型
+　　根据三层结构的热壁加氢反应器。简化成图3所表示的｜0TP347｜1TP309｜22.2Cr-1Mo｜3的可移动的原子氢扩散过程示意图。界面“0”为反应器内壁表面，界面“1”为347不锈钢与309不锈钢两堆焊层之间的界面，界面“2”为309不锈钢与2.25Cr1Mo抗氢钢之间的界面，界面“3”为反应器外钯合金/KOH溶液之间的界面。
+
+图3　氢在三层加氢反应器壁中扩散示意图
+Fig.3　The schematic diagram of hydrogen diffusion 
+in the treble layer wall of hydrogenation reactor
+
+　　D.J.Truax的实验结果证明［11］：在反应器的运行条件下，氢渗透过程受扩散控制，界面氢浓度呈连续分布。对于稳态扩散, 各扩散界面在单位时间,单位面积内的扩散通量J是相等的,但由于不同扩散层的材质不同,因其D值不同,氢在不同钢中的扩散速率就不同。由Fick第一定律可得三个界面的氢扩散通量为：
+　　　　J1 =-D1 (c1 -c0)/L1　　　　　　　　　　　　　　　　　(6)
+　　　　J2 =-D2 (c2 -c1 )/L2　　　　　　　　　　　　　　　　　(7)
+　　　　J3 =-D3 (c3 -c2 )/L3　　　　　　　　　　　　　　　　　(8)
+　　　　J1 =J2 =J3 = i∞ / nF　　　　　　　　　　　　　　　　　(9)
+　　由于是稳态扩散, 氢原子氧化转移的电子数 n =1。由测得的最大稳定电流密度i∞ 代入上面的式子得:
+　　　　i∞ =-FD1 (c1 -c0)/L1　　　　　　　　　　　　　　　　　　　　　　
+　　　　c0=i∞ L1 /FD1 + c1　　　　　　　　　　　　　　　　　　　　　(10)
+　　　　i∞ =-FD2 (c2 -c1 )/L2　　 　　　　　　　　　　　　　　　　　　　
+c1 =i∞L2 /FD2 + c2　　　　　　　　　　　　　　　　　　　　　(11)
+　　　　i∞ =-FD3 (c3 -c2 )/L3　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　c2 =i∞L3 /FD3　　　　　　　　　　　　　　　　　　　　　　　　(12)
+　　上述（10）、（11）、（12）三式中当c3 =0时（扩散到集氢面上的氢原子立即被电离）, 只有c0, c1 ,c2 是未知数, 故方程组有定解。先解(12)式求出c2 ,再解(11)式求出c1 ,最后解(10)式求出c0。若电流密度、扩散系数、钢板厚度的单位分别为 i∞(A.cm-2 ), D(cm2 .s-1), L(cm)。则以上求得的氢原子的浓度的单位为mol(H).cm-3。
+　　电流密度i∞若以μA.cm-2 为单位的数据表示, 求浓度时要转换为A.cm-2为单位参与运算, 则需乘一个单位变换因子10－6。
+　　　　c2= i∞.L3 .10－6 /FD3　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　　=K2.i∞.L3　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(13)
+　　　　c1= i∞.L2 .10－6 /FD2 + c2　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　=(K1.L2 + K2.L3)i∞　　　　　　　　　　　　　　　　　　　　　　　　　(14)
+　　　　c0=i∞ .L1 .10－6 /FD1 + c1　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+=(K0.L1 + K1 .L2 + K2.L3).i∞　　　　　　　　　　　　　　　　　　　　　(15)
+式中
+　　　　　　　　K2= 10－6 /FD3
+　　　　　　　　K1= 10－6 /FD2
+　　　　　　　　K0= 10－6 /FD1
+　　采用单片微机系统作数据处理的探测仪，用不同温度下的Ki值，按（13）、（14）、（15）式计算加氢反应器各界面的浓度。若使用数据处理能力较强的系统机，温度对氢在钢中的扩散系数的数学关系表示为: Di (T ) = D0i exp(-Qi /RT )的指数形式。三种加氢反应器钢材的氢原子的扩散系数与温度的关系分别为:
+
+　　2.25Cr1Mo［14］ D3 = 2.46×10-3 exp( -2150/T)　　　　　　　　　　　　(16)
+　　309［15］D2 = 4.70×10-3 exp( -6442/T )　　　　　　　　　　　　　　　(17)
+　　347［16］D1 = 5.97×10-3 exp( -6633/T )　　　　　　　　　　　　　　　(18)
+　　T = 273 + t　　　　　　　　　　　　　　　　　　　　　　　　(19)
+　　将（16）、（17）、（18）式分别代入（13）、（14）、（15）式，得到界面浓度计算公式如下：
+　　　　c2 = i∞.L3 .10-6 /FD3　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+= 4.213×10-9exp［2150/(273 + t)］.i∞.L3　　　　　　　　　　　(20)
+　　　　c1 = i∞.L2 .10-6 /FD2 + c2　　　　　　　　　　　　　　　　　　　　　　　　　　
+=2.205×10-9exp［6442/(273 + t)］.i∞.L2 +c2　 　　　　　　　　(21)
+　　　　c0 = i∞ .L1 .10-6 /FD1 + c1　　　　　　　　　　　　　　　　　　　　
+=1.736×10-9exp［6633/(273 + t) ］.i∞.L1 + c1　　　　　　　　(22)
+按其氢浓度分布如图4所表示的几何关系曲线那样，则可得到如下的氢浓度分布公式：
+　　当 0≤x≤L1时,
+　　　　c(x)=c0- (c0- c1 ).x /L1　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(23)
+　　当L1≤x≤L1+L2时,
+　　　　c(x)=c1 - (c1 - c2 ).(x - L1) /L2　　　　　　　　　　　　　　　　　　　　　(24)
+　　当 L1+L2≤x≤L1+L2＋L3时,
+　　　　c(x)=c2 - (c2 - c3 ).(x - L1 - L2) /L3　　　　　　　　　　　　　　　　　　(25)
+
+图4　浓度分布示意图
+Fig.4　The schematic diagram of concentration distribution
+　　若只有单层结构的反应器，则L1和L2都为零。双层结构，则L2为零。通过计算机程序选择适当的参数输入，应用以上公式可计算单层、双层或三层加氢反应器壁的各关键界面的氢浓度及器壁径向上的氢浓度分布。
+3　结　论
+　　在反应器的运行条件下，氢渗透过程受扩散控制，界面浓度呈连续分布。只要检测出氢探头在一定温度下的稳态渗氢电流密度i∞，通过计算机程序选择适当的参数输入，应用（20）～（25）式可计算单层、双层或三层结构的加氢反应器器壁中各关键界面的氢浓度及氢浓度分布，为加氢反应器器壁中氢渗透原子氢浓度的检测和监测提供了理论依据。
+注释:　基金项目： 国家自然科学基金(59760111254）
+作者简介： 余刚(1960-)， 男， 博士研究生，沈阳工业大学副教授
+作者单位： 余　刚、张学元、杜元龙：金属腐蚀与防护国家重点实验室,中国科学院金属腐蚀与防护研究所，沈阳　110015；
+　　　　　　余　刚：沈阳工业大学，沈阳　110023
+参考文献：
+［1］NISHIMURA R. Corrosion Science, 1996，38：611～621
+［2］YAMAKAWA K. J Soc Mater Sci Jpn, 1976，25：1110
+［3］ISHIZUKA K， CHIBA R. Tetsu-To-Hagane 1970, 56，93
+［4］API Publication 941, 3rd Edn. API. Washington D.C.(May 1983)
+［5］DEVANATHAN M A V STACHURSKI Z. Proceedings of the Royal Society, 1962, A270:90
+［6］DEVANATHAN M A V， STACHURSKI Z. Journal of the Electrochemical Society, 1964：
+　　　111
+［7］MCBREEN J. NANIS L，BECK W. Journal of the Electrochemical Society, 1966，11：
+　　　1218～1222
+［8］CHAUDHARI B S. Corrosion Science, 1990, 30(12)：1219～234
+［9］BALARAMACHADRAN V. Corrosion Science, 1991,32(2)：185～191
+［10］YAMAKAWA, A New electrochemical hydrogen probe， ASTM, STP 908, 1986, 221～236
+［11］Druax D J. Hydrocarbon Processing, 1978,57：348～353
+［12］褚武扬.氢损伤与滞后断裂.北京： 冶金工业出版社，1988, 50
+［13］中国发明专利: 95111971.0
+［14］ANDO S.，YAMAKAWA K. 11th International Corrosion Congress,ASM, Florence,Italy,
+　　　April,1990, 4:4.241
+［15］LOUTHAN M R Jr, DERRICK R G.Corrosion Science,1975,15：565
+［16］FLINT P S.USAEC Repot, KAPL, 1951： 659
+收稿日期： 1999-01-28； 修订日期： 1999-04-09

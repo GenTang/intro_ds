@@ -1,0 +1,111 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+基于Web.sql的Web数据库接口程序生成器
+肖宗水　柴乔林　单玉峰
+　　摘　要　本文详细地介绍了Web.sql数据库接口程序生成器的设计思想、功能特点、实现方法及应用。它为Web开发人员提供了一个通过Web服务器访问Sybase数据库的应用程序开发环境。
+　　关键词　Web数据库接口，WWW ，Intranet， Perl语言
+WEB DATABASE INTERFACE
+PROGRAM GENERATOR BASED ON WEB.SQL
+Xiao Zongshui　Chai Qiaolin　Shan Yufeng
+Netware Center, Sandong University of Industry, Sandong.Jinan 250061
+　　Abstract　This paper introduced Web database interface program generatorbased on Web.sql and its main idea , function, features and application,it provides developers with a new kind of developing method and tool ofWeb database interface program.
+　　Keywords　Web database interface，WWW，Intranet，Perl
+1　前言
+　　通过Web.sql接口可以将Web服务器和Sybase数据库服务器透明地集成在一起，为动态构造Web页发布数据库信息［1］提供了一种简便方法。通常利用Web.sql进行Web数据库应用软件的开发需要具备Perl编程能力和经验，需要掌握运用Web.sql的有关知识，这对一般开发人员有一定的难度。而在基于Web.sql的Web数据库应用程序中，许多程序流程大致相似，开发人员不得不编写许多重复的程序代码。另外，在利用FORM交互式界面来完成数据的录入和提交时，用于处理FORM数据的服务器端Web.sql程序通常不能与对应的FORM在同一个HTML文件中，而FORM中各控件的参数定义需要在Web.sql程序引用，这就要求在不同文件之间相互参照，给编程带来较多不便。本文介绍的基于Web.sql的Web数据库接口符号及相应的程序生成器则给出了一种解决上述问题的方法。
+2　设计思想与数据库接口描述符号
+　　通过对Web.sql接口及其Web数据库应用程序［2,3］进行分析和研究。我们将那些常用的应用程序段，如将系统注册、SQL语句的提交、取回SQL语句的结果、FORM提交事件处理和菜单功能等定义为各种接口符号，将其插入到HTML文档中适当的位置，并开发了相应的程序生成器，对含有这些符号的HTML文档进行处理，将其转换为对应功能的Perl程序，从而实现Web服务器对Sybase数据库的访问。图1给出了这种应用示意。
+
+图1　系统结构
+2.1　接口符号定义
+　　（1） <%DATABASE：db%>
+　　指明程序所使用的数据库，db为数据库名。
+　　（2） <%SQL：sql—sta%>
+　　向数据库服务器发送SQL语句，其中sql—sta是要发送的语句。
+　　（3） <%RESULT%>......<%/RESULT%>
+　　<%RESULT%>与<%RESULT%>构成一个循环，如果所发送的是select语句，则按行处理返回的查询结果。
+　　（4） $col［n］
+　　引用查询结果，其中n与select语句中的字端顺序对应，n从0开始。
+　　例如：select name，sex，age from tab—man
+$col［0］－－>name
+$col［1］－－>sex
+$col［2］－－>age
+　　（5） <%ACTION：form—action—name %>......<%/ACTION%>
+　　FORM表单中输入的数据提交后，服务器端的数据处理过程，其对应的程序代码单独生成一个事件处理程序文件。其中form—action—name应与FORM中action的url相同。
+　　（6） <%GOTO：url%>
+　　重定向到url指明的Web页。
+　　（7） <%REFRESH：n：url%>
+　　设置浏览器定时访问url指明的Web页，其中n为时间间隔，单位是秒。如果url指明的是当前页，则引起该页定时刷新。
+　　（8） <%LOGIN%>......<%/LOGIN%>
+　　执行用户注册功能。只有用户注册成功后才执行该处理。通常，<%LOGIN%>符号用在<%ACTION%>块中。
+　　（9） <%RIGHT：right—name %>....<%/RIGHT%>
+　　检查用户是否具备某项权限，具备right—name权限的用户才能执行其中的程序块。
+　　（10） <%LOGIN CHECK%>....<%/LOGIN CHECK%>
+　　检查用户是否注册，防止用户直接输入URL执行敏感程序。
+　　（11） <%MENU：menu—item %>....<%/MENU%>
+　　用来构造多态CGI处理程序，该类型的程序执行时，通过URL的参数提供菜单选项，根据不同的menu—item，执行对应的MENU块。
+2.2　通常的程序结构
+　　<%DATABASE：db%>
+<LOGIN CHECK%>
+<RIGHT：right—name%>
+　　HTML代码
+<%MENU：menu—item%>
+　　HTML代码
+<%SQL：sql—sta%>
+<%RESULT%>
+　　HTML格式化代码
+<%/RESULT%>
+<%/MENU%>
+<%/RIGHT%>
+<%/LOGIN CHECK%>
+<%ACTION：form—action—name%>
+<%SQL：sql—sta%>
+<%GOTO：url%>
+<%/ACTION%>
+3　程序开发过程和程序生成器的实现
+3.1　接口符号程序开发过程
+　　（1） 在Frontpage中编辑HTML文档，Frontpage是较为常用的可视化HTML编辑器，可以用其中的EDIT:Database Column Value功能输入接口符号，或直接在普通的文本编辑器中输入；
+　　（2） 在HTML中的适当的位置插入接口符号，得到的新文件以“.htx”为扩展名；
+　　（3） 将包含接口符号的.htx文档转换为Perl程序；
+　　（4） 测试生成的Perl程序。
+3.2　程序生成器处理流程
+　　（1） 程序生成器符号表
+　　@symbol=｛"各接口符号", ... ...｝；
+　　在接口符号中涉及到可变参数的位置用$para代替。
+　　（2） 接口符号对应的代码块表：
+　　@code=｛qq!.....
+　.....!,
+qq!.....
+　.....!,
+　......｝；
+　　@symbol与@code的元素一一对应。
+　　（3） 扫描.htx文件，对遇到的接口符号用对应的代码块替换，并将符号中的可变参数插入到代码块的相应位置，对遇到的HTML代码，用perl的print语句构造，形式如下：
+　　print qq!HTML代码!;
+　　（4） 对.htx文件中的<%ACTION: form—action—name%>块内的代码，单独生成一perl程序文件，文件名为form—action—name的内容。
+3.3　数据库接口程序生成器的组成
+　　（1） 程序生成器(compiler.pl)：通过调用该程序将接口描述程序(*.htx)转换为perl程序(*.pl)。
+　　（2） 生成与测试环境(wdtool.htm)：该环境提供一个基于浏览器的交互式界面。用户可以输入接口描述程序文件名和将要生成的perl程序文件名，如test.htx和test.pl，然后将其提交到服务器端的compiler.pl，将接口描述程序test.htx转换为对应的perl程序test.pl。另外用户可以测试一下生成的perl程序的执行情况。
+　　（3） 程序测试器(gen—test—view.pl):该文件用于测试生成的perl程序的执行情况。
+　　（4） 程序源码查看器(viewsrc.hts)：该文件用于查看生成的perl程序的源代码。
+　　（5） 程序在线调试器(wd.pl):通过调用该程序完成对接口描述程序的转换和调试。可以在浏览器地址栏中直接输入接口描述程序的文件名进行调试，方式为:“.../wd.pl?htx=test.htx”。
+3.4　运行环境
+　　将上述5个组成文件复制到Web文档目录中，通常与要开发的程序文档同在一个目录下。Web服务器可以是IIS或Netscape Enterprise Web Server。
+4　程序生成器的特点
+4.1　安全性
+　　开放性的信息共享是internet/intranet网络的一个重要特性，但是这又带来了网络资源的安全性问题。WWW是internet/intranet网上最重要的服务之一，因此,Web站点的安全，特别是数据库的安全成为业界非常重视的研究课题。因此，在Web数据库接口描述程序语法中通过定义三个语言符号实现了Web数据库应用程序的安全性。如<%LOGIN CHECK%>、<%login%>、<RIGHT:right—name%>等，其中<LOGIN CHECK%> 的功能是通过核对客户端机器的IP地址和输入的用户名检查用户注册信息。结合其他几个语言符号的使用，验证用户的合法性以及访问的权限等，只有通过合法验证并具有一定权限的用户方可访问Web页。这在一定程度上解决了Web数据库应用系统中的安全问题,有效的对系统进行保护。
+4.2　基于事件驱动的编程方法
+　　FORM表单是用户可以把自己的信息提交给Web服务器，也可接受从Web服务器反馈回来的信息进行修改，使客户端和服务器之间实现了交互式的访问，因而得到了广泛的应用，尽管微软公司的Frontpage为编程人员提供了一个可视化的开发环境，能方便的创建和定义FORM，但是对于由FORM提交的数据的处理需要由服务器端的CGI程序来完成（在FORM的Action中指定），而该CGI程序必须由某种编程语言编写的独立的程序文件。在接口描述程序语言中，通过定义<%ACTION%>接口符号，使开发人员能在同一个HTML文档中既可以定义FORM，同时也可以在<%ACTION%>块中用定义的接口符号编写FORM数据处理程序。把FORM中数据的提交作为一个事件，该事件触发<%ACTION%>块中程序的执行。
+4.3　实用性
+　　该生成器使Web.sql对用户成为透明，用户只需在诸如Frontpage等Web开发工具中编排HTML文档，并在HTML文档中适当的位置插入接口符号，由生成器自动完成接口描述程序到Perl程序的转换。这对不熟悉perl语言和Web.sql的用户，则不必专门学习这些相关知识，只需开发更容易掌握的接口程序，就可以完成Web数据库应用程序的开发任务。而对熟悉perl语言和Web.sql的开发人员，则简化了程序开发过程。
+作者简介：肖宗水　硕士，讲师。主要研究方向：软件工程环境、数据库技术及Intranet技术。
+柴乔林　副教授。主要研究方向：计算机网络及神经网络技术。
+单玉峰　硕士，讲师。主要研究方向：网络多媒体应用。
+作者单位：山东工业大学网络中心　山东.济南（250061）
+参考文献
+［1］　Nguyen T, V. Srinivasan. Accessing relational database from the World Wide Web. Proceeding of the 1996 ACM SIGMOD，Canada，1996,6:529-539
+［2］　张治洪,等. WWW与数据库的连接.计算机研究与发展，1997;(8)
+［3］　刘东波. Web数据库技术进展. 中国计算机用户, 1997;(10)
+收稿日期:1999-01-11

@@ -1,0 +1,85 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+混合编程与Fortran计算程序可视化
+张志华　王林江　吕庆风
+　　摘　要　本文探索了用VC++,Fortran,OpenGL 进行混合编程的方法。该方法充分发挥了三种语言各自的优点，既能设计出画面丰富多彩，方便人机对话的界面，又能最大限度利用已有的用Fortran语言编写的程序资源，并实现计算结果的可视化。用作者已有的用Fortran语言编写的源程序进行了尝试，结果良好。
+　　关键词　VC++,Fortran,OpenGL，混合编程，可视化
+PROGRAMMING ON MECHANICS CALCULATION
+WITH MIXED LANGUAGES
+Zhang Zhihua　Wang Linjiang　Lü Qingfeng
+Nanjing University of Aeronautics and Astronautics, Jiangsu.Nanjing 210016
+　　Abstract　Using VC++ to design colorful friendly interface,using Fortran to calculate,using OpenGL to draw, this paper dwells on programming with mixed languages to the full advantage of every one.It is valuable for many procedures compiled in Fortran before to be Visualized for better use. The attempt with existed software compiled by authors results in success.
+　　Keywords　VC++, Fortran, OpenGL，Programming with mixed languages, Visualization
+1　引言
+　　现有的机械设计，力学计算，工程分析软件，大多都是用Fortran语言编写的。近年来微软公司推出的PowerStation软件，推出新的Fortran90语言，以及与VC++4.0一样的工作平台Developerstudio，现在通过混合编程Fortran程序可以溶合在VC++程序中。这种混合编程的概念具有普遍意义，即可以提供一种通用而且简便方法，来改造已有的Fortran程序，使其拥有一个全新的Windows界面，便于用户使用。
+2　混合编程的思路
+　　大多数Fortran程序是按照这样一条方式工作的：首先是通过屏幕或原始数据文件输入数据，进行运算，运算结束后，把计算结果保存有数据文件中。在这一过程中原始数据的准备是十分繁琐和容易出错，计算结果的阅读也是十分费神的。现在可以方便地应用VC++的对话框获得参数，利用文档类来保存计算结果或进行磁盘操作，利用视窗类显示结果，利用OpenGL 库函数绘制云图、立体图或曲面。至于计算和保存中间结果则仍由Fortran完成。
+2.1　VC++与Fortran混合编程的规则
+　　由于同属微软家族，且使用同一平台，这两种语言之间的沟通是非常方便的。一般在文档类CPP文件的前面加上
+　　extern "C" {
+　　　　void —　stdcall 函数名(数据类型 *); }
+　　然后在需要计算处加上函数名(&+传送的变量，传送的数组)，这里需要指出的是，此种混合编程要求数据是以引用形式传递的，另外传递数组前，必须为其开辟专用内存，并在数据存盘后及时清除。同时，将原Fortran程序进行改造，将其主程序变成Subroutine或Function，并加上与VC++中的传递函数的传递变量同样多的哑元，关于数据类型的转换，一般是float对real*4，double对 real*8,int 对integer。最后的关键两步是：通过Insert菜单中的 Files into Project命令将Fortran程序嵌入VC++的框架中，通过Build菜单中的settings命令在Link 选项中加上Libfmt.lib,在defaultlibry中注明Libfcmt.lib并将C\C++选项中加上Multithreaded, 将Fortran选项中加上Multithreaded和 Full optimization。
+2.2　文档生成与派生
+　　文档类通过CtypedPtrArray类模版生成CobArray派生类对象保存最终结果［4］［5］传统的Fortran程序对成员变量封装性差，另外保存或打开数据文件也有些繁琐，而利用类的概念,利用Serialize函数可以轻易解决这个问题，而且利用从CobArray 类中继承下来的Add(),GetAt(),GetSize()函数很方便地实现数据的添加和查找。
+2.3　视窗类绘制数据曲线
+　　视窗类首先通过样条函数对数据进行处理，然后确定映射方式，通过逻辑坐标与设备坐标的转换，确定坐标原点，调用画笔，连接曲线。
+2.4　利用OpenGL对结果进行后置处理
+　　OpenGL是SGI,SUN,HP,DEC,Microsoft公司推出的三维图形开发标准，由于十分方便实用，OpenGL已成为三维图形的通用标准。OpenGL 可以在工作平台Developstadio上调试，另外也可以嵌入VC++框架中的视窗类里，纹理映射，特殊光和特殊效果处理，三维动画是OpenGL的优势，利用此技术可以立体再现结果，可以从各个角度观察模型，通过色彩的变化，反映出应力场的分布。需要指出的是要通过Build菜单中的settings命令在Link 选项中加上opengl32.lib glu32.lib glaux.lib.。
+　　将OpenGL嵌入视窗类中，关键是编写bSetupPixelFormat代码将一个象素格式描述符结构和当前设备上下文关联起来
+　BOOL CCubeView::bSetupPixelFormat()
+{ 
+static PIXELFORMATDESCRIPTOR pfd =
+{ sizeof(PIXELFORMATDESCRIPTOR), 　　　　　　　　　　　　　　　　// size of this pfd
+1, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// version number
+PFD—DRAW—TO—WINDOW | 　　　　　　　　　　　　　　　　　　　　　　// support window
+PFD—SUPPORT—OPENGL | 　　　　　　　　　　　　　　　　　　　　　　　// support OpenGL
+PFD—DOUBLEBUFFER, 　　　　　　　　　　　　　　　　　　　　　　　　// double buffered
+PFD—TYPE—RGBA, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　// RGBA type
+24, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// 24-bit color depth
+0, 0, 0, 0, 0, 0, 　　　　　　　　　　　　　　　　　　　　　　　// color bits ignored
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// no alpha buffer
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// shift bit ignored
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　// no accumulation buffer
+0, 0, 0, 0, 　　　　　　　　　　　　　　　　　　　　　　　　　　// accum bits ignored
+32, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// 32-bit z-buffer
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// no stencil buffer
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// no auxiliary buffer
+PFD—MAIN—PLANE, 　　　　　　　　　　　　　　　　　　　　　　　　　　　// main layer
+0, 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　// reserved
+0, 0, 0 　　　　　　　　　　　　　　　　　　　　　　　　　　　// layer masks ignored
+}; }
+3　PowerStation 软件新功能
+　　PowerStation软件已被广泛应用，但由于缺少必要的使用指南，造成了其许多功能没有被充分利用，现针对混合编程介绍其中的关键功能。
+3.1　强大的Debug调试功能
+　　在Developerstudio工作平台中，调试程序检查错误异常方便，选择Infoviewer工具条中的FPS4.0 books online,点击Project Wokspace 窗口的Infoview工具按扭，则该窗口显示书中的许多专题讨论，双击Builder Error专题，将显示Compile error,Linker Tools error,Runtime error,Math error等分专题，详细介绍了各种错误的原因。如果编译连接通过，但结果不正确，则可以选择Build菜单中Debug命令，选择run to cursor，执行到可能发生数据传递错误处，则出现Debug调试窗口，在此状态下，各个变量，数组的当前值都可在屏幕上显示，在选择单步执行命令，通过观察变量的变化可以判断数据是否正确传递。这种功能对于混合编程尤其重要，因为数据传递对于混合编程起着决定作用。
+3.2　利用PowerStation提供的数学库，精减源程序
+　　PowerStation提供了1000各动态连接库，覆盖了工程数学的各个方面，这样一来，如果涉及到数学运算，我们完全不必写与此有关的源代码，也不用拷贝与此有关的源代码，因为它们是以动态连接库形式存在，只需写 CALL+所要库函数名即可，如何得到所要库函数名？选择Infoviewer工具条中的FPS4.0 books online,点击Project Wokspace 窗口的Infoview工具按扭，则该窗口显示书中的许多专题讨论，双击IMSL libraries Reference专题,将显示如下三各库，IMSL Math Library(通用数学库包含微分积分矩阵运算等)，IMSL stat Library(数理统计库)，IMSL Math Library Special Function (特殊函数库)。打开所需库便可查寻库函数，双击库函数，便出现库函数的详细使用说明，最后一定勿忘在程序开头加上USE MSIMSL,表明调用数学库。
+3.3　Fortran 90语言的优越性
+　　在80年代，尽管Fortran语言相当普及，但许多功能更强大的语言象是C、C++、Ada越来越被人们采用。一个ANSI委员会努力推出Fortran 77标准的更新版，1990年，新标准的技术工作宣告完成，此标准被称为Fortran 90。Fortran 90与Fortran 77相比,主要增加了如下功能,数组运算、模块化设计、结构类型数据与类、指针、模块接口，显而易见这些功能将大大弥补Fortran77语言的不足；但是由于Fortran 77语言已深入人心，同时这些功能使用起来与C语言的同类功能相比有些不是得心应手。但是在某些特定场合，适当利用Fortran 90的特点，也会产生较好的效果。如可以将主程序与各个子例程(subroutine)分为不同的文件，使各例程成为子模块，把各个子模块的某些变量改造成类的成员变量，这样一来既实现了模块化设计，条理清晰，又实现了变量的封装，方便其他人使用该模块，同时也对其进行保护。
+4　混合编程实例
+　　通过作者用Fortran语言编写的用特解边界元求解含孔洞，裂纹的各向异性板的应力场或应力强度因子的程序，利用VC++,OpenGL混合编程技术，生成一个界面友好，结果形象直观的Windows程序。程序主界面如图1所示，获取参数对话框如图2所示。
+
+图1　程序主界面
+
+图2　获取参数的对话框
+　　绘制云图的基本思路是在板上划分7000多个小网格，将网格的节点共14760（相邻网格有公共节点）个的坐标通过Fortran边界元程序算出应力值(σx,σy,τxy)，然后求出最大应力，最小应力，Von Mises相当应力，对各种应力分别在最大值于最小值中划分11个小区间，每个区间赋予不同的色彩，这样一来每个点通过应力的大小就有了色彩坐标，当用7000多个带有色彩的小四边形来构造板时，云图就被绘制出来。最小主应力云图如图3所示， Von Mises相当应力云图如图4所示。
+
+图3　最小主应力云图
+
+图4　Von Mises相当应力云图
+5　结语
+　　本文探索了一种改造传统Fortran语言编写的程序的通用方法，实践证明此方法是切实可行的。该通用方法的提出得益于作者对于这三种语言都具有一定的了解，同时由于 PowerStation，VC++，OpenGL工作平台的统一，使得原本复杂的问题大大简化。该方法可以使这个相对陈旧的计算机语言焕发生机，但最主要的是我们可以利用以前的资源，节约大量的编程时间。
+作者简介：张志华　博士研究生。研究方向：压电陶瓷机电耦合、计算机应用软件。　王林江　副研究员。　研究方向：计算力学。　吕庆风　研究员。研究方向：飞机总体设计。
+作者单位：南京航空航天大学　江苏.南京(210016）
+参考文献
+［1］　陈启秀，黄彻为. 计算机常用语言混合编程.南京：南京大学出版社,1994：1-5
+［2］　Redwine Cooper. Upgrading to Fortran 90. Springer-Verlag New York,Inc，1995：1-35
+［3］　何新贵，徐祖渊. Fortran 90. 中国铁道出版社, 1994：1-10
+［4］　Michael J.Young. Visul C++ 4 从入门到精通.北京：电子工业 出版社,1997：202-207
+［5］　Scott Stanfield,Ralph Arvesen. Visul C++ 4开发人员指南. 北京：机械工业出版社1997：56-76
+［6］　David J.Kruglinski. Visul C++技术内幕.北京：清华大学出版社, 1996：50-57
+收稿日期:1999-03-15(修改稿)

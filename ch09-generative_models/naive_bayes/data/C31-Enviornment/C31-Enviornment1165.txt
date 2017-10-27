@@ -1,0 +1,62 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+聚合氯化铝(PAC)对腐殖酸有机溶胶混凝机理的探讨
+陈瑞福
+(漳州师范学院化学系，福建 363000)
+
+摘要　采用一定铝总量［Al］T的不同羟铝比(r=［OH/［Al］)的PAC溶液对有机溶胶进行混凝实验.结果表明，聚合氯化铝表面张力(σ)与有机溶胶的COD去除率呈正相关.根据溶液表面张力与溶质水合能力的关系和不同羟铝比的聚合氯化铝中各种羟铝配离子的相对含量，探讨聚合氯化铝对有机溶胶的混凝机理.
+关键词　聚合氯化铝；混凝机理；表面张力；水合作用；稀释热.
+COAGULATION MECHANISM OF POLYMERIC ALUMINIUM CHLORIDE (PAC) FOR HUMIC ACID ORGANIC COLLOSOL
+
+Chen Ruifu
+(Dept of Chem,Zhangzhou Normal College,Fujian 363000)
+
+ABSTRACT　Coagulation experiments were carried out with PAC solution in various Hydroxy-Aluminium ratio (r=［OH］/［Al］) with a given amount of Aluminium (AlT).The results showed that surface tension of PAC σ has a positive relation with the removal ratio of organic collosol (COD).According to the relative content of various hydroxy-aluminium coordinate ion in PAC solution of different Hydroxy-Aluminium ratio r and the relation between surface tension of the solution and the hydrous ability,the mechanism of PAC to organic collosol is discussed.
+Keywords　polymeric aluminium chloride,coagulation mechanism,surface tension,hydration,dilution heat.
+　　七十年代以来，PAC作为无机高分子混凝剂已广泛应用于饮用水和水处理，并提出了有关混凝机理［1，2］.根据NMR图谱，在PAC溶液中存在各种羟铝配离子形态，各种羟铝配离子的相对含量与PAC的羟铝比、铝总量和溶液的pH值有关［2，3］.本文主要根据无机盐类溶液表面张力与溶质离子的水合作用的关系，以及PAC溶液表面张力大小直接影响混凝去除有机溶胶的效果，讨论其混凝机理.
+
+1 实验材料和方法
+1.1　仪器和试剂
+　　超级恒温水浴器(501型)，酸度计(pHS-3C)，刻度玻璃毛细管(直径为0.16mm)，比重管，铝片(99.98%)，盐酸(AR)，腐殖酸(97.4%，生化试剂)，氢氧化钠(CP).
+1.2　缓冲溶液
+　　0.025 mol/L KH2PO4和0.025mol/L Na2HPO4混合溶液(pH为 6.85).
+1.3　PAC溶液制备［4］
+　　采用酸不足量的酸铝片法，根据r=3-VC/［Al］T公式，配制铝总量为1.3、1.0、0.8、0.5mol/L的不同羟铝比的PAC溶液.
+1.4　毛细管上升法测定溶液的表面张力(25.0℃±0.1℃)
+　　表面张力计算公式［5］为：σ=(1)/(2)h+(r)/(3)r*ρ*g.式中，r为毛细管半径，h为溶液在毛细管中上升的高度，g为重力加速度，ρ为溶液的密度(采用比重法测定).
+1.5　PAC溶液的混凝实验
+　　采用酸性高锰酸钾法测定有机溶胶的COD值.
+　　腐殖酸和氢氧化钠溶液反应，制取腐殖酸钠原液，测定溶液的COD值为15570mg/L.在50mL腐殖酸钠有机溶胶(由48.4mL缓冲液与1.6mL腐殖酸钠原液混合，COD为519mg/L)中，加入0.1mL铝总量分别为1.3、1.0、0.8、0.5mol/L(混凝溶液中铝总量分别为2.6×10-3、2.0×10-3、1.6×10-3、1.0×10-3mol/L)的不同羟铝比的PAC溶液，在25℃下，搅拌30s(60r/min),静止24h，测定清液的COD值.
+
+2　结果和讨论
+2.1　PAC溶液羟铝比与表面张力的关系
+　　由图1可见，在一定［Al］T的PAC溶液中，r=1.2时，它们的表面张力都是呈现最大值；r＞1.2，表面张力随r值增大而降低，r值从1.2至1.0，表面张力显著下降，接着随r值递减而缓慢变化.
+2.2　PAC溶液羟铝比与有机溶胶(COD)的去除率的关系
+　　由图2可见，对一定［Al］T的PAC溶液来说，当r=1.2时，都呈现最大的去除率；当r从1.2依次递增，去除率依次减小；当r从1.2依次递减时，去除率也依次减小.由图3可见，PAC溶液的σ值与去除率(R)呈正相关的趋势.
+
+
+图1　不同r与σ的关系曲线
+Fig.1　σ as a function of r
+
+
+图2　不同r与R的关系曲线
+Fig.2　R as a function of r
+
+
+图3　σ与R的关系曲线
+Fig.3　R as a function of σ
+2.3　PAC对有机溶胶混凝机理的初探
+　　在PAC溶液中含有各种带不同正电荷的羟铝配离子，随着PAC溶液羟铝比的增大，溶液中具有较高正电荷的高聚羟铝配离子的相对含量增多［2］.若根据电中和吸附机理，讨论一定铝总量的PAC溶液对具有负电荷有机溶胶的混凝能力，应该是随PAC羟铝比增大而有机溶胶的去除率亦增大.但是，在一定铝总量PAC对有机溶胶的混凝实验中，当羟铝比大于1.2之后，虽然羟铝比增大，但是有机溶胶的去除率反而降低.因此，仅电性中和、架桥作用的吸附机理解释PAC对有机溶胶混凝能力的大小是不能得到满意的结果.
+　　本实验表明，PAC混凝去除有机溶胶能力是随PAC溶液表面张力增大而增强.无机盐类水溶液表面张力增加，可解释为带异号电荷离子间相互作用的机会在体相中比在界面相中多，导致界面相中离子数量的减小，考虑到离子的水化作用，对这一事实就易于理解［6］.无机盐离子的总水合作用愈强，溶液表面张力愈大.因此，PAC溶液表面张力与其溶液中羟铝配离子形态的水合能力有关，而配离子的水合能力主要取决于配离子的离子强度和羟基(或氧桥).根据NMR图谱，在一定铝总量的PAC溶液中，羟铝比从0.5递增至2.4，溶液中双核低正电荷羟铝配离子的相对浓度减少，而带有高正电荷的高聚羟铝配离子的相对浓度增大.在一定铝总量的PAC溶液中，若羟铝比大于1.2，虽然配离子中多核羟铝配离子所带正电荷数有所增加，相对浓度增大，但溶液中各种形态配离子的总浓度反而逐渐减少，造成溶液中的离子强度显著降低；羟铝比小于1.2，虽然低电荷配离子的浓度较大，但单核、双核羟铝配离子所带正电荷数较少，溶液中的离子强度也是显著降低；当羟铝比在1.2附近，PAC溶液中各种配离子所带正电荷数、离子浓度和羟基数目间数量关系恰恰最合适，使得溶液中离子强度最大.因此，PAC溶液的表面张力愈大，反映了PAC溶液中各种羟铝配离子的总水合作用愈强.
+　　PAC对带负电性的有机溶胶的混凝实质，主要有二种过程：由于静电库仑力，羟铝配离子与有机溶胶相互靠近碰撞；另一方面，由于PAC溶液中羟铝配离子水合能力远远大于有机物的水合能力，即PAC溶液中羟铝配离子争夺溶剂水的能力强于有机物，结果将使有机溶胶表面的水化膜变薄或水化膜脱附引起溶液中羟铝配离子的浓度变小，由稀释热引起的吸附能足以克服具有负电性有机物表面电荷间的斥力，使有机物的局部浓度升高，有效碰撞增大而发生凝聚.
+
+3　结论
+　　PAC对有机溶胶的混凝过程，其中起主要作用的是溶剂化效应，是PAC溶液中各种羟铝配离子和有机物争夺溶剂水的竞争过程，PAC溶液中各种羟铝配离子的总水合 能力愈强，有机溶胶越易脱附水化膜，有利于有机物的凝聚.
+参考文献
+　1　Sato T等著.江　龙等译.聚合物吸附对胶态分散体稳定性的影响.北京：科学出版社，1988:98—104
+　2　栾兆坤，汤鸿霄.聚合铝的凝聚絮凝特征及作用机理.环境科学学报，1992，12(2)：129
+　3　Akitt J W et al.27Al NMR Studies of the Hydrolysis and Polymerization of the Hexa-Aguo-Aluminium (Ⅲ) Cation.J Chem Soc:Dalton Trans,1972:604
+　4　姚重华等.聚合氯化铝的27Al NMR研究.环境科学学报，1989，9(1)：116
+　5　David P Shoemaker等著.俞鼎琼等译.物理化学实验(第四版).北京：化学工业出版社，1990：329—332
+　6　Paul C Hiemenz著.周祖康等译.胶体与表面化学原理.北京：北京大学出版社，1986：327—329

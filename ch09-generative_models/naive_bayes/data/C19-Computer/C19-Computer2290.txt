@@ -1,0 +1,105 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.5　P.107-108
+
+
+
+CGI技术对因特网上铁路货运运价查询的应用
+周乐　江南
+摘  要  简要介绍CGI(通用网关接口)原理，对如何应用CGI技术实现因特网上铁路货运运价查询作了详尽的分析，并提出了实现方案。
+关键词  Internet  CGI  货运运价查询
+　　随着Internet(国际互联网络)在我国的飞速发展，充分利用Internet扩大铁路货运影响力，开拓货运市场，是铁路货运业在激烈的市场竞争中切实可行的一种货运营销手段。
+笔者通过使用CGI(Common Gateway Interface，通用网关接口)技术，实现了因特网上铁路货运运价的Web动态查询，以下对此作简要介绍。
+1  CGI(Common Gateway Interface)简介
+　　在互联网上，Web用户(Web Client)和发布Web的服务器 (Web Server)通过HTTP协议建立联系。Web用户向服务器发送一个包含URL题头字段和其它用户数据的HTTP请求，而服务器则返回包含请求内容的HTTP应答。
+　　当Web用户请求一个驻留在服务器上的外部程序服务时，Web服务器就成为连接Web用户和服务器上应用程序之间的一个“桥”(GATEWAY)。它将客户机的HTTP请求信息传送到应用程序当中，然后又将应用程序的应答发送给请求的Web用户。CGI(Common Gateway Interface，通用网关接口)就是定义Web服务器怎样同服务器上外部程序(CGI程序)进行通讯的接口(见图1)。
+
+图1
+　　CGI程序设计可以使用诸如C(C++)、Visual Basic等流行编程语言。除程序设计的输入输出部分以外，CGI程序的设计与一般程序设计并无不同，因此采用CGI是实现互联网用户与Web服务器信息交互的一种快速简洁的方案。
+2  铁路货运运价网上查询系统设计
+2.1  系统功能
+　　通过CGI实现Internet用户以WWW方式查询铁路货运运价信息的功能。
+2.2  系统结构
+　　网络客户通过浏览器提交托运信息表单，经系统输入模块处理，计算运价及经由等信息，通过输出模块处理，反馈给用户(见图2)。
+
+图2
+2.3  系统环境与开发工具
+　　服务器端环境： Windows NT4.0操作系统，WebSite服务器
+　　客户端环境：  Windows操作系统，Web浏览器
+　　系统开发工具： Windows NT 4.0操作系统，Visual C++6.0，FrontPage98，WebSite 1.1服务器
+3  系统输入与输出模块
+　　如前所述，CGI程序设计与一般应用程序设计最大的不同就在于CGI程序的输入输出部分。Web服务器与CGI程序交换数据信息的方式有两种：一种通过标准输入输出流(STDIN / STDOUT)完成，称为标准CGI；另一种方式则通过profile文件(Windows的.ini文件)完成，称为WIN-CGI。笔者采用标准CGI接口，以C语言作为CGI程序设计语言。因此，程序输入输出部分的设计重点就在于读取和拆解STDIN信息，以及对STDOUT的信息发送。
+3. 1  数据输入
+　　．客户端设计
+　　在Web页上使用HTML文本框、单选框、复选框等控件输入用户信息，使用表单(form)提交信息，以客户输入到发站信息为例：
+......
+<form method="POST" action="URL/CGI程序名">
+<p>发站; <input type="text" name="staSource" size="20"></p>
+<p>到站; <input type="text" name="staDest" size="20"></p>
+<p><input type="submit" value="确定" name="ok">
+　<input type="reset" value="取消" name="cancel"></p>
+</form>
+......
+　　注：CGI程序应放置在服务器指定目录下，并在action中指定相应的URL。本例WebSite服务器设置标准CGI程序目录为C:\ WebSite \ Cgi-dos目录下，URL地址为HTTP ://域名或IP地址/Cgi-dos 。
+　　．STDIN信息分析
+　　用户提交信息后，服务器将信息放置在STDIN中。其格式为以字符“&amp;”分隔的name-value对字符串。其中name为Web页上的控件名，value为用户在该控件中输入的信息(如用户在staSource文本框中输入广州北，则相应的name-value对为“staSource = 广州北”)。
+需要注意的是，用户输入的空格被转换为“+”；非ASCII127字符以内的字符(如汉字)被转换为特殊字符，需要转为16进制码显示。
+　　．数据结构
+typedef    struct 
+{
+　　char *name;
+　　char *value;
+}input;
+input inCGI[i];
+　　*name存放项目名，如staSource ；
+　　*value存放用户数据，如“广州北”。
+　　．程序流程
+
+　　从流程图可以看出，程序设计的关键在于将STDIN字符串读入数组inCGI-[NUM]中。其程序代码如下：
+//读入SDTIN信息，返回name-value对个数
+int read(input inCGI[MAX]) 
+{......
+//从环境变量CONTENT_LENGTH读取STDIN字符串长度
+len = atoi(getenv(＂CONTENT_LENGTH＂));
+for(i=0;len&&(!feof(stdin));i++)
+　　inCGI[i].value = readstdin(＇&＇,&len);
+return i;
+}
+//以“&”分割STDIN字符串
+char *readstdin(char stop,int *len)
+{......
+　　while(TRUE)
+　　{
+　　word[x]=getchar();
+　　--(*len);
+　　if( (word[x]=stop)||(feof(stdin))||(!(*len)) )
+　　{
+　　If(word[x]!=stop) x++;
+　　word[x]='\0';
+　　return word;
+　　}
+　　x++;
+　　}
+}
+3.2  数据输出
+　　CGI程序向STDOUT输出数据，必须遵循HTTP应答格式。Web服务器检查CGI程序输出文件第一行，以确定输出文件MIME类型，然后依次向客户端发送信息。因此CGI程序的输出通常包括两部分：头(header)和体(body)，头和体之间用一个空行隔开。
+　　以发送最短路径信息为例：
+// header
+printf(＂Content-Type：text/html \n\n＂); 
+// body
+printf(＂<html><head><title>运价里程及经由</title></head>＂);
+printf (＂发站:  %s\n<p></p>＂,szSource);
+printf (＂到站:  %s\n<p></p>＂,szDest) ;
+printf (＂里程:  %d\n<p></p>＂, dist) ;
+printf (＂路径: ＂) ;
+......
+printf(＂</body></html>＂);
+4  结论
+　　综上所述，通过CGI来实现互联网上铁路货运运价信息的Web动态发布是一种简单易行的方案。但CGI也有明显的不足之处，每一个Web用户向服务器发出请求，服务器总是为其单独开启一个进程，因此，当访问的用户过多时，系统资源被大量占用，服务器反应将明显变慢，影响了信息反馈的速度。
+　　因此，从长远的角度来看，要实现整个铁路货运业务的网上办理，单靠CGI技术仍不能完全胜任。此时可以采用其它的解决办法，如：JAVA、ASP、ISAPI等，在此方向可作进一步的开发。
+周乐(长沙铁道学院经管院  长沙 410075)
+江南(长沙铁道学院经管院  长沙 410075)
+参考文献
+1，蔡玉奇等. CGI编程指南. 北京：机械工业出版社，1997
+2，Gunnit S.Khurana等. Web数据库的建立与管理. 北京：机械工业出版社，1997
+收稿日期：1999-11-16

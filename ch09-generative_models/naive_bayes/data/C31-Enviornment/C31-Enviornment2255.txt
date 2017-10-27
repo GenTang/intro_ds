@@ -1,0 +1,87 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+若干典型岩性区域沉积物金属元素
+地球化学特征比较研究*
+张朝生1　章　申2　王立军2　王丽珍2
+(中国科学院地理研究所，1.资源与环境信息系统国家重点实验室 2.化学地理室，北京　100101)
+
+摘要　研究了4种成片分布的典型岩性(页岩、石灰岩、花岗岩、黄土)区域沉积物金属元素(Li,Na,K,Ca,Sr,Ba,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Al等共16种)总量与形态特征.结果表明：这4种岩性区域沉积物金属元素含量与形态均有显著的差别.与其它岩性相比，黄土地区易迁移元素含量高，而重金属含量显著较低；其金属元素残渣态含量高，而有机态、铁锰氧化物态和可交换态含量低.石灰岩地区重金属含量较高，而易迁移元素如Na,Sr等含量则较低；其重金属元素残渣态含量不偏低，表明经风化作用释放出来的重金属参与了次生矿物的形成过程而得以富集.花岗岩地区重金属含量居中，而Fe和Al含量较高；其金属元素残渣态含量不偏高则与风化作用较强有关.页岩地区元素含量与形态均居中，代表了各种岩性的平均水平.
+关键词　沉积物；金属；地球化学；形态；岩性.
+COMPARISON OF GEOCHEMISTRY OF METALS IN SEDIMENTS FROM SOME TYPICAL ROCK AREAS
+
+Zhang Chaosheng1, Zhang Shen2, Wang Lijun2 Wang Lizhen2
+(1LREIS,2Dept of Chemical Georgraphy,Institute of Geography,Chinese Academy of Scienes, Beijing 100101)
+
+ABSTRACT　Total contents and speciation of metals (Li,Na,K,Ca,Sr,Ba,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Al) in sediments from four typical rock areas of shales,limestone,granite,and loess were studied.Both the contents and speciation in sediments are different among the rock areas.Compared with the other rock areas,sediments in the loess area have high contents of mobile elements,but low contents of immobile elements.Metals in sediments of the loess area reside mainly in residual form,while the contents of organic,oxide,and exchangeable forms are relatively low.Contents of heavy metals in sediments from the limestone area are high,but those of immobile elements,such as Na and Sr,are low.The residual fractions of metals in sediments from the limestone area are not low,showing that the metals released by weathering have taken part in the formation of secondary minerals,and thus being enriched.Heavy metal contents in sediments from the granite area are moderate,but Fe and Al contents are rather high.Contents of the residual forms of metals in the granite area are not high,which is related with strong weathering forces.Contents and speciation of metals in sediments from shales area are moderate,showing average state of all rock areas.
+Keywords　sediments,metals,geochemistry,speciation,rock type.
+1　研究意义
+
+
+图1　典型岩性区域沉积物采样点分布图
+(C：页岩区；D：石灰岩区；
+E：花岗岩区；F：黄土区)
+Fig.1 Sampling locations of sedimentsfrom typical rook areas
+(C:shales;D:limestone;E:granite;F:loess)
+近年来，沉积物中金属元素的地球化学特征受到了广泛的关注［1，2］.但大多集中在重金属上［3，4］，因为重金属污染问题在全世界普遍存在，对其进行研究具有重要的环境意义，而对其它金属的研究则相对较少.本文作者曾将长江中下游沉积物与悬浮物金属元素总量与形态扩展到碱金属、碱土金属，以及研究较少的元素如Ti,V,Y,Zr等［5，6］，并与黄河干流进行了对比，获得了具有地球化学意义的结论.
+　　许多研究表明，区域内地质岩性是决定沉积物和土壤元素含量的重要因素之一.为深入探讨这一问题，本研究特从页岩、石灰岩、花岗岩和黄土等典型岩性区域内采集了沉积物样品进行研究，以期详细了解地质岩性对沉积物金属元素含量和化学形态的影响.
+
+2　样品采集与实验分析
+　　页岩区沉积物于1993年4月27日—5月2日在四川盆地采集(C1,C2,C3)；石灰岩区沉积物于1993年5月28日—6月2日在贵州高原采集(D1,D3,D5);花岗岩区沉积物于1994年3月11—13日在湖北省东北部采集(E1,E2,E3);黄土区沉积物于1994年4月6—9日在陕西省采集(F1,F2,F4).样点分布见图1.采样点尽量设计在小流域内岩性纯净、无污染的地方.页岩区域内混杂有少量砂岩，页岩与砂岩呈夹层分布，但以页岩为主.样品采集于细粒沉积物易于沉积的河流弯曲处，尽量采集新鲜泥状样品，装于500mL塑料瓶中，送回实验室，风干保存.为消除粒度对分析结果的影响，全部采用过240目筛的细粒样品(＜63μm)［7］，形态分析也采用此细粒样品.
+　　金属元素形态的连续提取采用Tessier法［8］，将元素形态分为：Ⅰ可交换态、Ⅱ碳酸盐态、Ⅲ铁锰氧化物态、Ⅳ有机质|硫化物态以及V残渣态共5种形态.残渣态和沉积物中元素总量均采用HF|HClO4|HNO3进行消化.各形态上清液和消化后溶液用ICP-AES进行测定，所用仪器为美国BAIRD公司2070型ICP.所分析元素包括Li,Na,K,Ca,Sr,Ba,Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn,Al等共16种.残渣态和总量的分析测试过程采用沉积物标样GSD|3进行质量控制.仪器分析结果与标样数据相符.
+
+3　结果与讨论
+3.1　几种典型岩性区域沉积物金属元素总量
+　　分析了页岩、石灰岩、花岗岩和黄土地区各3个典型沉积物样品元素含量，并列于表1中.各类型沉积物元素含量平均值由图2表示.
+表1　典型岩性区域河流沉积物中金属元素含量(单位：mg/kg)*
+Table 1 Metal contents in sediments from typical rock areas (mg/kg)
+
+No.LiNaKCaSrBaTiVCrMnFeCoNiCuZnAl
+C152.50.592.183.751645100.3286.767.69663.5515.641.532.790.67.17
+C248.50.812.252.321375030.4089.378.68723.7618.245.928.394.77.31
+C347.81.101.960.641034220.4588.475.18073.8217.742.250.999.17.31
+D145.90.392.020.34454860.3596.174.99563.4817.840.539.9180.87.19
+D371.70.451.633.811573620.80164.598.014874.9632.462.8100.4177.06.91
+D548.30.471.872.65656370.3488.572.19133.6618.540.885.7256.56.22
+E132.41.081.770.831295950.47101.374.813004.2825.435.726.979.97.46
+E230.51.591.581.622505800.50110.089.616125.1814.045.1105.3105.38.77
+E318.30.981.393.552356530.4178.759.915833.6321.926.398.898.86.52
+F131.41.271.723.352053850.3166.050.25132.5412.126.156.956.95.19
+F226.51.401.712.961873720.2858.249.64882.2010.822.650.850.85.20
+F431.81.431.723.171893890.2558.350.94842.1610.626.058.658.65.30
+
+　　 Na,K,Ca,Ti,Fe,Al:%
+
+
+图2　典型岩性区域内沉积物金属元素含量平均值
+Fig.2　Average contents of metals
+in sediments from typical rock areas
+从上述表和图可见，4种岩性区域内16种元素的含量顺序基本相同，与地壳丰度一致［9］，即Al,Fe,Ca,K等大量元素含量高，而Co,Ni,Cu,Cr,Li等微量元素含量较低.
+　　无需采用任何统计检验便可看出，不同岩性之间元素含量有显著差别.黄土地区Ca,Na,Sr含量高，而重金属含量显著较低，如Ti,V,Cr,Mn,Fe,Co,Ni,Cu,Zn，以及Al,无一例外.石灰岩地区重金属含量则较高，如V,Cr,Co,Ni,Cu,Zn,Ti等，而易迁移元素如Na,Sr等则较低.花岗岩地区重金属含量居中，而Fe和Al含量较高.页岩地区元素含量基本居中，无显著偏高或偏低现象.
+　　上述现象有其地球化学上的必然原因.黄土地区易迁移元素含量高，显然与其风化作用弱有关，而重金属含量低则是因为它们在黄土中的含量本身比较低，且在沉积物中未能得到富集.石灰岩地区重金属元素的强烈富集得益于其母质的强烈风化作用以及成土过程.石灰岩是一种易于风化的母岩，再加上地处温度较高且湿度较大的亚热带地区，强烈的风化作用得以实施.这种风化作用使易迁移元素大量淋失，而重金属元素则被富集在风化产物，如形成的粘土矿物内.花岗岩地区母质重金属元素含量低，但强烈的风化作用和成土过程使其有所富集，从而含量比黄土区要高；另一方面，这也与本研究分析的是沉积物中＜63μm细颗粒部分，沉积物中作为重金属稀释剂的石英被大量去除有关.页岩本身是各种岩性混合后的产物，其分布区内沉积物元素含量居中理所当然.
+
+
+图3　各种岩性区域沉积物中金属元素形态百分比例
+Fig.3　Percentages of metals in different forms in sediments from typical rork areas
+3.2　几种典型岩性区域沉积物金属元素形态
+　　不同岩性区域沉积物元素间的差别不仅表现在含量上，而且表现在形态上.各种岩性区域沉积物中金属元素5种形态百分含量平均值见图3.
+　　可交换态：此态含量较高的元素如Ca,Sr,Ba,Mn在各岩性区域含量均较高，达10%—30%，而其它元素含量则较低，一般低于1%.Ca的可交换态含量在黄土区沉积物中百分比例最低，而在页岩区最高，在石灰岩区含量也较高.Sr,Ca与此类似；Mn则在花岗岩区含量最高，在黄土区最低.黄土区沉积物金属元素可交换态含量低可能与黄土质地较粗，从而吸附能力差以及风化作用弱有关.
+　　碳酸盐态：Ca,Sr,Ba,Mn该形态含量较高.黄土区Ca,Sr该形态含量最高，这显然与黄土母质富含碳酸钙有关，但黄土中富含碳酸钙并未引起其它元素碳酸盐态的显著增加，这与该区风化作用弱，其它金属元素对碳酸钙中钙的置换作用较弱有关.石灰岩区除了Mn的碳酸盐态含量较高外，其余元素也不显著偏高，这与风化作用强有关：碳酸盐化合物遭受严重破坏，形成大量的次生矿物.此外，花岗岩区Ca,Sr此态含量低.
+　　铁锰氧化物态：含量较高的元素有Mn,Co,Zn,Ca等，各元素含量在4种岩性区域变化趋势一致，差别不明显.但黄土区重金属含量偏低(除Cu外)，尤其以Fe,Mn和Zn元素为典型，这是由于黄土区富铁铝化过程弱所致.花岗岩和石灰岩区重金属此态含量较高，与风化作用和红、黄壤成土作用较强有关.
+　　有机质|硫化物态：黄土区除Li,V,Cr,Ni外，含量偏低，这与黄土中有机质含量很低有关.页岩区Ca,Ba,Mn,Co此态含量高，而花岗岩区多数元素也偏高，可能与区域内沉积物中有机质含量较多有关.除Cu显著偏高外，石灰岩区此态含量居中.
+　　残渣态：所有岩性区域Ti,Al,K等含量均很高，达98%以上.黄土区除Li,Sr等元素以外，绝大多数元素此态含量偏高，显然与风化作用弱有关.花岗岩区除Ca,Sr含量很高以外，其余元素较为偏低，这是由风化作用较强引起的.在石灰岩地区，除Zn,Ni含量较低外，其余元素含量并不偏低，可见由碳酸钙风化而释放出来的重金属并非被简单地吸附在颗粒物上，而是存在于新生成的矿物(如粘土矿物)晶格中.当然，这还有待进一步研究.
+　　上述形态特征除了黄土区有显著特征外，其它3种岩性区域差异较小，这3种岩性区域具有基本相同的亚热带气候条件，表明生物|气候条件对沉积物元素地球化学特征有显著影响.
+
+4　结论
+　　不同岩性地区沉积物元素含量有显著的差别：黄土地区Ca,Na,Sr等易迁移元素含量高，而重金属含量显著较低；石灰岩地区重金属含量高，而易迁移元素如Na,Sr等含量则较低.花岗岩地区重金属含量居中，而Fe和Al含量较高.页岩地区元素含量基本居中，无显著偏高或偏低现象.
+　　形态特征方面，黄土区区别于其它区域的显著特征是金属元素残渣态含量高，而有机态、铁锰氧化物态和可交换态含量低；同时，黄土中富含碳酸钙并未引起沉积物中其它金属元素碳酸盐态含量的提高.这与该区风化作用较弱有关.花岗岩区残渣态含量偏低则与风化作用较强有关.石灰岩区残渣态含量不偏低，表明经风化作用释放出来的重金属参与了次生矿物的形成过程.页岩区各形态含量居中则代表了各种岩性的平均水平.除岩性对沉积物元素地球化学特征有显著影响外，气候条件的影响也较显著.
+参考文献
+　1　Burton Jr G A. Annual review:Assessing the toxicity of freshwater sediments.Environ Toxic Chem,1991, 10:1585—1627
+　2　Campbell P G C,Lewis A G, Chapman P M et al.Biologically Available Metals in Sediments.NRCC/CNRC:Ottawa,Canada,1988
+　3　陈静生，周家义主编.中国水环境重金属研究.北京：中国环境科学出版社，1992
+　4　Fergusson J E.The Heavy Elements:Chemistry,Environmental Impact and Health Effects.Oxford:Pergamon Press,1990: 276—282
+　5　张朝生，王立军，章　申.长江中下游沉积物和悬浮物中金属元素形态特征.中国环境科学，1995，15(5):342—347
+　6　Zhang Chaosheng,Wang Lijun,Zhang Shen.Speciation of metals in sediments and suspended matter in the lower and middle reaches of the Changjiang River.Journal of Basic Science and Engineering,1994,2(4):320—332
+　7　Allan R J. Lake sediment,medium for regional geochemical exploration of the Canadian shield.Can Inst Min Met Bull,1971, 64:43—59
+　8　Tessier A,Campbell P G C, Bisson M.Sequential extraction procedure for the speciation of particulate trace metals.Analytical Chemistry,1979,51(7):844—851
+　9　Turekian K K, Wedepohl K H. Distribution of the Elements in Some Major Units of the Earth′s Crust.Bull Geol Soc America,1961,72:175

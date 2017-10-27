@@ -1,0 +1,129 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+紫外线辐射对小麦和燕麦竞争性平衡的影响
+——小麦和燕麦生物量结构与冠层结构*
+岳　明　王勋陵
+摘要　在模拟15%臭氧层减薄条件下讨论了紫外线辐射增强对大田中小麦和燕麦在单独种植与混合种植时的生物量结构和冠层结构的影响.紫外辐射使两物种的生物量减少，使节间缩短，叶片着生高度下降，但使根冠比和单株有效穗数增加.两物种在单种和混种时对紫外辐射的反应有所不同，种间竞争有时加强紫外辐射的影响，但有时则又能抵消其作用.紫外辐射使竞争性平衡向有利于小麦的方向发展，这一改变可以部分地由两物种的生物量及冠层结构对紫外辐射反应的不同来解释.结果还暗示单独生长的植物对紫外辐射的反应并不能用来预测其在多种群的群落中对紫外辐射的反应和表现.
+关键词　紫外辐射；小麦；燕麦；竞争性平衡；生物量结构；冠层结构.
+Effect of enhanced ultraviolet radiation on Competitive balance of wheat and oat-the structure of biomass and canopy
+YUE Ming,WANG Xunling (Department of Biology,Northwest University,Xian 73000)
+Abstract　The structure of biomass and canopy of wheat (Triticun aestivum) and oat　(Avena sativa) in monoculture and mixture under supplementary UV radiation(approximately a 15% ozone layer depletion) were studied.The dry weight,internode length and leaf insection height were reduced,while the Root Shoot Ratio(RST) and eat numbers per plant were increased by enhanced UV radiation. The response of these two species to UV radiation were different between monocilture and mixture.Interspecific competition could alter the effects of UV radiation on wheat and oat.The competitive balance of these two species was shifted in favor of wheat by supplementary UV radiation based upon biomass production.The change of competitive balance could be interpreted partially by the different morphological responses of wheat and oat to UV radiation.The results also implied that the response of a species to UV radiation in monoculture or planted separately could not always be used to predict its response in mixtures to UV radiation.
+Keywords　ultraviolet radiation,wheat,oat,competition,biomass structure,canopy structure.
+　　近二十年来，由平流层臭氧层减薄导致的地表紫外辐射增强(主要是UV-B,280—315nm)及其对植物的影响，引起了人们极大的兴趣.预测这种全球性变化的生态学后果是一个困难而必要的课题［1］.虽然紫外辐射增强可以导致一些农作物产量下降［2］，但其产生的一些间接影响，如对种间竞争性平衡的影响被认为是一种更重要的潜在后果［1］.已有一些研究证明紫外辐射引起了一些种对(Species pairs)间竞争性平衡的变化［3,4,5］.对这些试验中的许多物种来说，紫外辐射增强并未对其在单独种植时的生物量产生抑制影响.因此一些研究者认为，这种竞争性平衡的改变是由于紫外辐射诱导植株形态变化，进而改变了物种间对光的竞争能力而引起［5,6］.Barnes等(1988)［5］报道了小麦(Triticum aestivum)和野燕麦(Avena fatua)的植株形态和冠层结构在UV-B辐射处理后的一些变化，但处理时间较短，缺少地下部分及经济器官产量等方面的资料.本文主要讨论春小麦与燕麦(Avena sativa)在竞争与非竞争条件下，其生物量结构及其动态变化，以及冠层结构受UV-B辐射的影响，以期为评价增强的UV辐射对农业生态系统中作物与杂草竞争性平衡的影响及其机制提供依据.
+1　材料和方法
+　　试验选用春小麦(品种为80101)和燕麦(巴燕三号).试验在兰州大学生物园大田条件下进行.两种植物按400株.m-2总密度进行单独播种和1∶1混合播种.小区面积1m×1m，各小区土壤与水分状况一致，小区随机排列.两物种于4月12日同时出苗，一周后开始紫外辐射处理直至成熟.处理时间为每日9时—16时，阴雨天暂停.
+　　试验设对照组(C)和处理组(T).对照组即为自然光照，处理组在此基础上以紫外灯来增加紫外辐射.辐射强度在整个生长季中保持在76.2mW.m-2(在波长297nm处测定，并按文献［7］的方法换算为生物有效辐射)，相当于兰州地区(海拔1500m，北纬36°)，夏至前后晴天平均UV-B辐射增加30%，即模拟臭氧层减薄15%.该模拟值与联合国环境规划署的臭氧层减薄预测值一致［8］.每个处理各设4组重复.
+　　本试验中两物种的生育期基本一致.每小区划分为0.5m×0.5m的4个亚区，以供拔节前期(5月6日)、拔节后期(5月14日)、孕穗期(5月26日、5月29日)及成熟期(7月23日)4次取样，每亚区随机抽取10株进行有关指标测定.按10cm一层分层分器官进行生物量测定.地下部分取0—20cm土层中之根系.所有植物材料在70℃烘干48h.叶面积以面积-质量法求得.
+　　用相对拥挤系数k(RCC)来表示物种的相对竞争能力［5］.按以下公式计算：
+
+　　式中kW-O为小麦(W)对燕麦(O)的相对拥挤系数.XW和XO分别为小麦和燕麦在1∶1混种时的生物量或籽粒产量.MW和MO分别为小麦和燕麦在单种时的生物量或籽粒产量.
+　　平均相对生长速率R按以下公式求得［9］：
+
+　　x1和x2分别是时刻t1和时刻t2的生物量.
+2　结果与分析
+2.1　竞争平衡的变化
+　　以单株生物量、单株籽粒数、单株籽粒重为依据分别计算了kW-O值(表1).所有kW-O值大于1，说明小麦对燕麦有一定的竞争优势.以生物量为依据的kW-O值在紫外辐射处理后升高(5月6日除外)，反映出紫外辐射增强了小麦对燕麦的竞争优势.以籽粒数及籽粒重为依据的kW-O值在紫外辐射处理后也未从根本上改变小麦对燕麦的竞争优势(kW-O值仍大于1)，但它们的kW-O值低于以生物量为依据的kW-O值，这可能与紫外辐射对两物种同化产物分配的影响不同有关.
+2.2　生物量动态及结构
+　　紫外辐射对两物种的生物量在各生育期都有不同程度的抑制作用(图1)，这种抑制是通过降低其生长速率来实现的(表2).越到后期，处理与对照的生物量差异越大.反映出紫外辐射对植物生长的影响有积累效应.但就平均相对生长速率而言，紫外辐射对早期生长的抑制影响要大的多(表2).紫外辐射对单种与混种时两物种生物量动态的影响没有显著的不同.
+表1　不同辐射处理kW-O值
+Table 1 kW-O values depending on radiation treatment,calculation basis and sampling date(Means followed by different letter indicat significant differences at 0.05 level according to Duncans multiple range test(n=4)
+
+(取样时间)/(不同处理)5月6日5月14日5月29日7月23日
+　CTCTCTCT
+生物量，g1.37a1.10b1.04b1.07b1.09b1.44a1.13b1.27c
+籽粒数，个／　／／2.03d1.20c
+籽粒重，g／　／／1.52a1.08b
+
+　　注：C为对照组；T为紫外辐射处理组(以下同).(平均值后跟有不同字母者为按Duncan多范围检验在0.05水平上差异显著，n=4)
+
+
+
+图1　紫外辐射对小麦和燕麦生物量动态的影响
+Fig.1 Effects of UV radiation on the dynamics of biomass in wheat and oat
+表2　不同辐射及单种和混种时小麦和燕麦在不同取样时间的平均相对生长率
+Table 2 The mean relative growth rate (R) of wheat and oat in monoculture and mixture depending on sampling data and radiation treatment
+
+　　5月6日—14日5月14日—29日5月9日—7月23日
+单种小麦C0.219*0.0330.014
+T0.1740.0320.013
+单种燕麦C0.217*0.0370.013
+T0.1840.0350.012
+混种小麦C0.204*0.0380.012
+T0.1580.0370.013
+混种燕麦C0.237*0.0390.011
+T0.1510.0410.010
+
+　　(*指每物种不同辐射处理间按t-检验在0.05水平上具显著差异，n=4)
+　　成熟时两物种的一些生物量性状如表3.无论单种或混种，紫外辐射显著降低了两物种的单株生物量及燕麦的单株籽粒重和千粒重.紫外辐射对小麦的单株籽粒重和千粒重在单种时无显著影响，而在混种时有抑制作用.对单株有效穗数而言，紫外辐射对其有促进作用，而种间竞争则使其降低.紫外辐射与种间竞争均使两物种的根冠比有所提高.
+　　UV辐射对干物质在各器官中的分配有一定的影响(图2).在单种时，两物种各器官占总生物量的比例在UV处理后没有显著变化(n=40).而在混种时，UV辐射引起小麦叶重比例的显著增加，并导致两物种穗重比例显著下降(n=40).
+　　从混种时两种植物的生物量沿高度的分布上看(图3)，小麦与燕麦地上部分的下部及根系生物量在UV处理后减小幅度较大，这在燕麦中尤为明显.而地上部分的上部所受影响较小.茎加叶鞘以及叶片生物量的变化与地上部总生物量的变化基本一致，即小麦所受影响程度小于燕麦.
+表3　紫外辐射对小麦和燕麦生物量性状的影响
+Table 3 The effects of UV radiation on the biomass characteristics of wheat and oat
+
+　处理单株重，g籽粒重/株，g穗/株根冠比千粒重，g
+单种小麦C5.45±0.26a1.26±0.10a1.6±0.52a0.02731.3
+　T4.43±0.31b1.26±0.06a2.3±0.48b0.03432.5
+单种燕麦C4.28±0.27b1.44±0.11a1.2±0.42ac0.02922.5
+　T3.79±0.20c1.05±0.06b2.0±0.67b0.03015.0
+混种小麦C5.38±0.42a1.78±0.17c1.0±0.00c0.03334.3
+　T4.49±0.24b1.33±0.10a1.6±0.70a0.03630.1
+混种燕麦C3.72±0.16c1.38±0.10a1.0±0.00c0.04925.2
+　T3.02±0.19d1.07±0.12b1.2±0.79ac0.05419.3
+
+　　(除最后两列外数值为平均值±SE，n=40，字母含义同表1)
+
+
+图2　紫外辐射对小麦和燕麦各器官干重比例的影响(23/7测定)
+Fig.2 Effects of UV radiation on the dry weight fraction of different organs in whaeat and oat
+
+
+图3　紫外辐射对小麦和燕麦混种时的生物量垂直结构的影响(29/5取样)
+Fig.3 Effects of UV radiation on the vertcal biomass tructure in wheat and oat in mixture(May 29)
+2.3　冠层结构
+　　叶面积指数(LAI)是植物群体冠层结构的基本特征之一，混种时对照组小麦与燕麦LAI差异极小(图4a).UV处理使燕麦LAI显著减小而小麦基本不受影响(图4b).混合冠层的LAI显著减小(6.97→6.04)主要由燕麦引起.两物种LAI在垂直高度上的分布对UV辐射的反应也有所不同.小麦LAI除其高峰值出现高度略有下降外，未受UV辐射显著影响.而燕麦LAI分布重心则相对上移，对照组40cm—80cm层中LAI占其总LAI的68.5%，而处理组则占78.1%.
+
+
+图4　混种时小麦和燕麦LAI对紫外辐射的反应(5月26日测定)
+Fig.4 Response of LAI in wheat and oat in mixture to enhanced UV-B radiation(May 26)
+　　从活叶片着生高度来看(图5)，燕麦最下部节间比小麦长，使其叶位较小麦为高.UV辐射使单种与混种时两物种的叶片着生高度均有不同程度的下降.其中单种时燕麦(图5a)与混种时小麦(图5b)的降低达到显著水平(P<0.05，n=40).
+
+
+图5　单种与混种时小麦和燕麦活叶片着生高度对紫外辐射的反应(26/5测定)
+Fig.5 Response of insertion height of living leaves in wheat and oat to enhanced UV-B radiation in monoculture and mixture(Measured on May 26)
+　　比叶面积(Specific Leaf Area,SLA,m2.kg-1)表示单位叶干重之面积，主要反映叶片厚度.单种时两物种SLA在UV处理后下降，说明叶片增厚.而在混种时紫外辐射则显著提高了两物种的SLA，即使叶片变薄.而且只要处理一致(对照或+UV处理)，单种时小麦SLA显著高于燕麦，而在混种时这种差异消失.
+3　讨论
+　　很多物种在UV-B处理后产生矮化、节间缩短及叶面积减小［2,10］.紫外辐射对侧芽生长和分蘖的刺激作用也时有报道［5］，并被认为是植物对紫外辐射的普遍反应［10］.这种形态学变化可能是很专一的，且非损伤性的植物对紫外辐射的光形态建成反应［11］，有两个光形态建成系统影响节间的伸长和分蘖［12］.另外Curry等［13］曾报道紫外辐射直接影响植物内源激素和IAA的代谢.因此，植株形态可能是比叶片光合能力及植物生物量对紫外辐射更为敏感的指标.
+　　本试验中，小麦与燕麦在混种条件下对UV辐射的形态反应不尽相同.如燕麦LAI在UV处理后 减小而小麦无明显变化(图4)，并且燕麦LAI的分布上移.又如，小麦活叶片着生高度的降低比之燕麦幅度更大(图5b).这些差异可以部分解释UV辐射使竞争平衡向有利于小麦的方向发展(以生物量为依据，表1).可以想象，UV处理条件下，能维持一定的叶面积指数并将其置于混合冠层较下部的小麦，至少在生理有效辐射充足时具有更强的竞争优势，因为较多的UV辐射被燕麦挡住了.Bogenrieder等［14］也认为较矮的植物比较高的植物在增强的UV辐射条件下更具有竞争优势.
+　　紫外辐射对植物生产力的影响常不一致［1］.Barnes等的工作表明［5］，即使对同一种植物，在不同的种植方式下(分离的或群体的)对紫外辐射的反应也是极不相同的.我们的工作 也证实，小麦光合产物的显著减少并不是在各种密度条件下都发生.但在郁闭的冠层中(如本文中的情况)，节间长度和叶面积分布的微小变化就足以导致冠层对光能截获及冠层光合强度的显著改变［6］，进而引起物种竞争性平衡及群落生产力的改变.
+　　小麦和燕麦的生物量性状及植株形态对紫外辐射的响应，在单种与混种时有所不同，这些现象说明种间竞争可能会改变紫外辐射的作用.有证据表明，干旱等一些胁迫因子能抵消紫外辐射对植物生长的一些影响［1］.种间竞争与紫外辐射共同作用于植物，使其生物量性状及植株形态变化的格局变得复杂，譬如在本试验中，紫外辐射引起的小麦与燕麦单种有效穗数的增加，可被两者间的种间竞争所抵消(表3).紫外辐射导致的两物种叶片增厚，在种间竞争存在时被逆转(图6).而紫外辐射引起的根冠比增加则能被种间竞争所加强(表3).在有种间竞争这样的不利条件下，维持相对较大的叶面积和根冠比对其生存是有利的.单种时叶片增厚在许多物种中被注意到［10］，这是植物对减少紫外辐射伤害的一种保护性适应，但混种时紫外辐射却导致叶片变薄(图6)，这可能是光资源竞争的结果.Beyschlag等证明UV-B辐射对小麦和野燕麦单个叶片的光合速率没有抑制作用［15］.因此叶片变薄在竞争条件下有助于增加其光合面积.上述结果暗示，单独生长的植物对UV辐射的反应，并不能用来预测其在多种群的群落中对UV辐射的反应和表现.
+
+
+图6　单种与混种时小麦和燕麦SLA对紫外辐射的反应.5月29日测定
+对象为最上一片叶片.柱上方字母相同者在0.05水平上无显著差异(n=10)
+Fig.6 Response of SLA in wheat and oat to enhanced UV-B radiation in monoculture or mixture to enhanced UV-B radiation Measured on May 29.Means with same letter above bars are not significantly different at 0.05 level(n=10)according to Duncans multiple range test
+　
+* 国家自然科学基金资助项目(39670132号)
+王勋陵:通讯联系人
+作者单位:西北大学生物系，西安　710069
+参考文献
+1　Caldwell M,Teramura A H,Tivini M et al.Effects of increased solar ultraviolet radiation on terrestrial plant.Ambio,1995,24:166—173
+2　Teramura A H.Effects of ultraviolet-B radiation on the growth and yield of crop plants.Physiol Plant,1983,58:415—427
+3　Fox F M,Caldwell M,M.Competitive interaction in plant populations exposed to supplementary ultraviolet-B radiation.Oecologia,1978,36:173—190
+4　Gold W G,Caldwell M M.The effects of ultraviolet-B radiation on plant competition in terrestrial ecosystems.Physiologia Plantarum,1983,58:435—444
+5　Barnes P W,Jordan P W,Gold W G et al.Competition,morphology and canopy structure in wheat(Triticum aestivum L.)and wild oat(Avena fatuaL.)exposed to enhanced ultraviolet-B radiation.Functional Ecology 1988,2：319—330
+6　Barnes P W,Beyschlag W,Ryel R et al.Plant competition for lightanalyzed with a multispecies canopy model Ⅲ.Influence of canopy structure in mixtures and monocultures of wheat and wild oat.Oecologia,1990,82:560—566
+7　Caldwell M M.Solar ultraviolet radiation and the growth and development of higher plant.Photophysiology (A.C.Giese,ed),New York:Academic Press,1971,Vol.6.131—177
+8 UNEP.Environmental Effects of Stratospheric Ozone Depletion-1991 Update.United Nations Environmental Programme,Nairobi.November.1991
+9　Beadle C L.植物生长分析.见：生物生产力和光合作用测定技术(库姆斯，J.等主编，邱国雄等译).北京：科学出版社.1986.21—27
+10 Barnes P W,Flint S D, Caldwell M M.Morphological responses of crop and weed species of different growth forms to ultraviolet-B radiation.American Journal of Botany,1990, 77(10):1354—1360
+11 Steinmetz V, Wellman E.The role of solar UV-B in growth regulation of cress(Lepidium sativum)seedlings.Photochem and Photobiol 1986,43:189—193
+12　Warpeha K M F,Kaufman L S.Blue light regulation of epicotyl elongation in pisum sativum.Plant Physiol.1989,89:544—548
+13 Curry G M,Thimann K V,Ray P M.The base curvature response of avena seedligns to the ultraviolet.Physiologia Plantarum,1956,9:429—440
+14 Bogenrieder A,Klein R.Does solar UV influence the competitive relationship in higher plant In:J.Calkins(ed).The Role of Solar Ultraviolet Radiation in Marine Ecosystems,New York:Plenum Press,ISBN 0-306-40909-7.1992
+15 Beyschlag W,Barnes P W,Flint S D et al.Enhanced UV-B irradiation has no effect on photosynthetic characteristics of wheat (Triticum aestivum L.) and wild oat(Avena fatua L.)under greenhouse and field conditions.Photosynthetica,1988,22(4)：516—525
+1998-02-03收到原稿
+1998-08-10收到修改稿

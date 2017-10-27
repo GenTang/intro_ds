@@ -1,0 +1,90 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+焦化废水中有机污染物经厌氧酸化后
+对好氧生物降解性能的影响*
+姚　珺（洛阳大学数理工程系，洛阳 471000）
+何　苗　（清华大学环境科学与工程系，北京 100084）
+文　摘　采用厌氧酸化处理间歇装置和瓦勃氏微量呼吸测压仪，对萘等10种焦化废水中有机污染物进行厌氧酸化后好氧生物降解性能的研究。研究表明，受试的有机物经过厌氧酸化处理后均发生了不同程度的转化。萘、吡咯、咪唑、喹啉、吲哚生物氧化率有明显提高；联苯、三联苯、吡啶、咔唑从对好氧微生物的抑制状态转化为易于生物降解的物质；吩噻嗪抑制作用解除，但仍是难以生物降解物质。
+关键词　焦化废水　厌氧酸化　生物降解性
+Effect on the aerobic biodegradability after anaerobic acidification of organic pollutants in coke-plant wastewater.Yao Jun(Department of Mathematics Engineering,Luoyang University, Luoyang 471000);He Miao(Department of Environmental Science and Engineering,Tsinghua University, Beijing 100084).China Environmental Science.1998,18(3):276～279
+Abstract—Using the device of anaerobic acidification and Warbury respirometer, after anaerobic acidification, the aerobic biodegradability of 10 organic pollutants such as naphthalene, etc in coke-plant wastewater were tested. The biooxyrate of naphthalene, pyrrol, imidazole, quinoline and indole have been improved obviously. The biodegradability of biphenyl , terphenyl , pyridine and carbazole becomes easier except phenothiazine.
+Key words: coke-plant wastewater　anaerobic acidification　 biodegradability
+　　焦化废水中含有大量的杂环及多环芳烃类有机物，这些有机物在好氧条件下较难被微生物所降解〔1〕。据文献报道〔2〕,经过厌氧酸化预处理可以改变难降解有机物的化学结构，使其好氧生物降解性能提高，为后续的好氧生物处理创造良好的条件。以往对杂环化合物及多环芳烃生物降解性能的研究报道，大多是各研究者在不同的试验背景条件下，针对各自的研究目的而得到的，研究结果的可比性较差。本研究从焦化废水处理实际出发，在接近实际废水生物处理工艺过程的条件下，采用厌氧酸化处理间歇装置和瓦勃氏微量呼吸测压仪，对萘、吡咯、咪唑、喹啉、吲哚、联苯、三联苯、吡啶、咔唑、吩噻嗪10种有机污染物分别进行厌氧酸化后好氧生物降解性能的研究，为厌氧酸化-好氧法处理焦化废水提供理论依据。
+1　试验装置与方法
+1.1　试验装置
+
+图1　厌氧酸化处理试验装置
+Fig.1　Device of anaerobic acidification
+1.培养瓶　2.水封瓶　3.恒温水浴器
+　　首先采用图1所示的厌氧酸化处理间歇试验装置，进行受试有机物的厌氧酸化处理；然后对经厌氧酸化处理后的水样，采用上海科技大学工厂生产的SKW-3型瓦勃氏微量呼吸测压仪，进行受试有机物经厌氧酸化后好氧生物降解性能的研究。
+1.2　厌氧预处理
+1.2.1　试验用水　 采用受试有机物和葡萄糖人工配水作为试验用水。预先配制两种试剂-葡萄糖营养液和受试有机物溶液。试验 时根据不同浓度要求，用它们配制试验用水，试验 用水总COD控制在1000mg/L 。受试有机物初始浓度：喹啉为60mg/L,萘、吡咯、咪唑、吲哚、吡啶为40mg/L，联苯、三联苯、咔唑、吩噻嗪为20mg/L。
+　　葡萄糖营养液：采用葡萄糖配水，其中投加(NH4)2CO3和KH2PO4作为氮源和磷源，使COD∶N∶P=200∶5∶1，COD约15g/L。
+　　受试有机物溶液：配成2g/L 浓度溶液。
+1.2.2　接种污泥　取北京市北小河污水处理厂厌氧污泥作为接种污泥，在实验室中进行培养驯化，驯化时取250mL（MLSS为20g/L ）厌氧污泥置于500mL培养瓶内，加入一定量葡萄糖营养液和受试有机物溶液，加入蒸馏水至刻度使COD控制在1000mg/L，污泥浓度约10g/L，将培养瓶置于恒温振荡水浴器中进行驯化，每天换1次水样，测COD、BOD5、pH值，直至系统运行稳定，污泥成熟，以备试验用。
+1.3　好氧降解性能试验
+1.3.1　试验用水　采用厌氧酸化处理前后的水样作为试验用水。
+1.3.2　接种污泥　 采用实验室活性污泥法模型曝气池中污泥作为接种污泥。该污泥已采用焦化废水驯化成熟。取曝气池内混合液空曝24h后，离心、洗涤、浓缩，用pH7.0的磷酸盐缓冲液配成浓度为9g/L的污泥备用。
+1.4　试验方法
+　　试验分为受试有机物试验组和葡萄糖对照组分别进行厌氧酸化处理和瓦呼仪生物降解性能试验。对照组目的是消除葡萄糖的影响，对照组：葡萄糖营养液+接种污泥。
+　　进行厌氧酸化处理时，对照组的葡萄糖浓度及接种污泥量与试验组完全相同。对厌氧酸化前的水样和经过12h酸化反应后水样进行瓦呼仪试验，研究厌氧酸化前后受试污染物好氧生物降解性能的变化。
+　　受试物相对累积耗氧量=（试验组相对累积耗氧量）-（对照组相对累积耗氧量）
+2　结果与讨论
+　　表1为计算所得10种受试物厌氧处理前后生物氧化率，以生物氧化率来评价其降解性能。
+
+表1　受试有机物厌氧前后好氧降解性能比较
+Table 1　The comparison of aerobic biodegradability that organic pollutants 
+before and after anaerobic acidification
+
+物质初始浓度
+(mg/L )生物氧化率(%)物质初始浓度
+(mg/L )生物氧化率(%)
+厌氧酸化前厌氧酸化后厌氧酸化前厌氧酸化后
+萘4031.251.2联苯20明显抑制35.4
+吡咯4021.228.7三联苯20明显抑制35.2
+咪唑4022.829.2吡啶40明显抑制36.6
+喹啉6018.939.3咔唑20明显抑制36.7
+吲哚4014.738.8吩噻嗪20明显抑制10.2
+
+　　当生物氧化率>35%,为易降解；生物氧化率35%～20%为可降解；生物氧化率<20%为难降解。
+　　图2～6分别为萘、吲哚、喹啉、三联苯、吩噻嗪厌氧酸化前后相对累积耗氧量曲线。图中曲线1为未经厌氧酸化，曲线2为经过12h厌氧酸化。
+
+图2　萘厌氧酸化前后相对累积耗氧量曲线
+Fig.2　Naphthalene accumulative oxygen consumed curve
+before and after anaerobic acidification 
+
+图3　吲哚厌氧酸化前后相对累积耗氧量曲线
+Fig.3　Indole accumulative oxygen consumed curve
+before and after anaerobic acidification
+
+图4　喹啉厌氧酸化前后相对累积耗氧量曲线
+Fig.4　Quinoline accumulative oxygen consumed
+curve before and after anaerobic acidification
+
+图5　三联苯厌氧酸化前后相对累积耗氧量曲线
+Fig.5　Terphenyl accumulative oxygen consumed curve
+before and after anaerobic acidification
+
+图6　吩噻嗪厌氧酸化前后相对累积耗氧量曲线
+Fig.6　Phenothiazine accumulative oxygen consumed
+curve before and after anaerobic acidification
+　　由图2～6及表1可见：(1)萘经厌氧酸化后,转化为易于好氧生物降解,生物氧化率由厌氧前的31.2%提高到厌氧酸化后的51.2%；(2)吡咯和咪唑在厌氧酸化前，属于可以好氧生物降解的一类物质，经12h厌氧酸化后，生物氧化率略有提高;(3)喹啉和吲哚在好氧条件下是难降解物质，经12h厌氧酸化处理后转化为易于好氧处理，生物氧化率提高到39.3%和38.8%;由图3,图4可看出，未经厌氧处理时，喹啉和吲哚在初期（约12h），对葡萄糖降解产生抑制作用，经12h厌氧酸化后，抑制作用完全解除;(4)联苯，三联苯、吡啶、咔唑、吩噻嗪在受试浓度下对好氧微生物均存在明显抑制作用，经厌氧处理后，它们对微生物的抑制作用于完全解除 ，联苯、三联苯、吡啶、咔唑生物氧化率明显提高，均大于35%，成为易于好氧降解物质。对杂环化合物及多环芳烃生物降解机理的研究表明，环的开环裂解是它们在生物降解过程中的限速步骤。在好氧条件下，由于好氧微生物开环酶体系的脆弱及不发达，阻止了杂环化合物及多环芳烃的降解。而厌氧微生物学对于环的裂解具有不同于好氧菌的代谢过程〔3～5〕，一是还原性代谢途径，通过苯环加氢还原使之裂解，另一种途径是非还原性代谢途径，通过苯环加水而羟基化，而且所涉及的开环酶体系也完全不同于好氧微生物。Kluge等人〔6〕报道还原性芳香环裂解需脱羧酶，还原酶及裂解酶参与。Voger〔4〕等人研究报道了多种参与厌氧芳烃裂解的酶体系，表明厌氧微生物体内具有易于诱导较为多样化的开环酶体系，这就为芳香烃及杂环化合物的厌氧酸化转化提供了客观保证，使它们易于开环裂解，进行有效的生物降解；(5)吩噻嗪厌氧酸化后，抑制作用解除，但仍属于难降解物质，吩噻嗪分子双侧苯环上的电子云密度高于中间杂环，杂环上的氮原子和硫原子的孤对电子没有参与环上的共轭大π键形成，氮原子和硫原子电负性大，致使环上电子云密度下降，故难以供出电子被氧化，所以吩噻嗪难以生物降解。
+3　结论
+3.1　焦化废水中多环芳烃及杂环类有机物经厌氧酸化处理后均发生了不同程度的转化。
+3.2　萘经厌氧酸化处理后，其好氧生物降解性能大大提高；吡咯和咪唑厌氧酸化后，好氧生物降解性能提高不大，可认为单环杂环化合物对厌氧酸化有抗性。喹啉、吲哚经厌氧酸化后，对好氧微生物的初期抑制作用消失，而且好氧降解性能显著提高。
+3.3　吩噻嗪经厌氧酸化后，对好氧微生物的抑制作用解除；联苯、三联苯、吡啶、咔唑经厌氧酸化后好氧生物降解性能显著提高。
+3.4　厌氧酸化-好氧生物处理工艺是去除焦化废水中难降解有机污染物的有效途径。
+参考文献
+1　Ganzarczyk J J.Second stage activated sludge treatment of coke-plant effluents. Water Research, 1972,7：1137～1157
+2　钱　易，文一波.焦化废水中难降解有机物去除的研究.环境科学研究，1992， 5（5）：1～8
+3　Leisinger T，Cook A M，Huter R,et al.Microbial degradation of xenobiotics and recalcitrant compounds.New York:Academic press,1981
+4　Vogel T M,Grbie-galic D.Incorporation of oxygen from water into toluene and beniene during anaerobic fermentative transformation，Appl. Environ. Microbial., 1986,52:200～202
+5　Kuhn E P.Microbial transformation of substituted bezenes during infiltration of river water to ground water,Environ. Sci. Technol., 1985,19(6)：961～968
+6　Kluge C,Tschech A,Fuchs G.Anaerobic metabolism of resorcyclic acid and resorcinol in a fermenting and in a denitrifying bacterium.Arch.Microbial.,1990,155:68～74
+作者简介
+姚　女，1963年2月生。现任洛阳大学数理工程系环境工程教研室讲师。主要从事水污染控制工程教学和研究工作。参加过国家自然科学基金项目“水体颗粒物和难降解有机物特性及控制技术原理”的研究工作。发表论文3篇。
+收稿日期：1997-05-28
+* 国家自然科学基金资助项目(5913808)

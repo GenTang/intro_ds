@@ -1,0 +1,109 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+小球藻(Chlorella vulgaris)与高岭土在实验
+条件下的凝聚沉降行为研究*
+罗岳平　邱振华(长沙市自来水公司，长沙　410007)
+马剑敏((河南师范大学生物系))　　李益健 张甲耀((武汉大学环境科学系))
+　　摘要 用比浊法研究了小球藻与高岭土在实验条件下的凝聚沉降行为.结果表明，小球藻与高岭土的凝聚沉降是受颗粒表面理化作用力控制的过程.环境条件通过改变颗粒间的理化作用，在不同程度上促进或抑制颗粒凝聚沉降.根据颗粒凝聚沉降的特点，可将粘土用于水污染治理.
+　　关键词 小球藻；高岭土；凝聚；表面性质.
+　　水中悬浮颗粒通过布朗运动、水流切应力作用及重力差异性沉降等发生碰撞［1，2］，由此而形成的较大颗粒快速向下沉降［3，4］.这个过程对水华消失，重金属和有毒有机化合物在水体中的迁移，转化和分布，动物的滤食行为及其效率，碳和氮等营养元素的生物地球化学循环及水生态系统的生物生产力等起重要调控作用［4—6］.有关研究受到越来越多的学者的重视.
+　　对无机悬浮颗粒凝聚沉降动态的研究已取得一些进展［6，7］.在水生态系统中，生物与无机悬浮颗粒相互作用的现象非常普遍［5，8］，然而人们对此了解甚少，本文就此进行一些探讨.
+1 材料和方法
+1.1 藻类培养
+　　小球藻藻种由中科院水生生物研究所藻种库提供.藻类批量培养在光照强度2500—3000Lx，温度22±1℃的恒温培养箱中进行，24h连续光照.选用水生4号培养液［9］.藻生长到对数增长末期(稳定初期)后离心收集(3500r/min×10min)，一般用新鲜培养液将收集藻稀释到细胞浓度4×106个*mL-1后实验.
+1.2 研究方法
+　　凝聚沉降实验在75mL烧杯中进行.将混合均匀的小球藻和高岭土(终含量50mg*L-1)溶液移入烧杯中，用培养皿覆盖杯口后静置.小球藻和高岭土在静置过程中凝聚沉降，通过测量混合液中颗粒浓度的变化计算凝聚沉降量.操作时用注射针头于水表下1cm处取样2mL，在721型分光光度计上测其光密度值A(λ=665nm).通过公式
+　　　　
+计算颗粒的凝聚沉降比值.式中S为发生凝聚沉降的颗粒的比值，A0为混合液的初始光密度值，Ai为混合液在取样时刻(1，3，5，12，18h)的光密度值.
+1.3 小球藻与高岭土的凝聚沉降行为及其随环境条件的变化研究
+1.3.1 颗粒浓度对凝聚沉降效果的影响研究　调节混合液中藻细胞的数量和高岭土的含量，使之分别达到2×106，7×106，1×107，1.5×107个*mL-1和50，100，200，250mg*L-1后测颗粒的凝聚沉降量.
+1.3.2 小球藻生理状态对其与高岭土凝聚沉降能力的影响研究 将小球藻培养到对数增长期、稳定初期和衰老期后进行凝聚沉降实验.将处于生长稳定期的小球藻无光培养24h和48h后进行凝聚沉降实验.在75℃水浴中恒温处理5min，热杀死藻细胞后与活藻对照实验［10］.
+1.3.3 环境条件对小球藻与高岭土凝聚沉降行为的影响研究　在不同的环境温度(5℃，15℃，25℃)和pH(4.0,6.0,8.0,10.0)条件下研究小球藻与高岭土的凝聚沉降.于混合液中加入CuSO4，使之浓度分别为1×10-6，1×10-5，1×10-4mol/L，测量颗粒凝聚沉降速率发生的相应变化.在新鲜培养液，磷酸盐缓冲液(Na2HPO4-NaH2PO4，0.2mol/L,pH=7.0)和自然湖水3种不同的水介质中研究小球藻与高岭土的凝聚沉降.
+2 结果与分析
+2.1 颗粒浓度对凝聚沉降效果的影响
+　　小球藻与高岭土的凝聚沉降同颗粒浓度密切相关(图1、图2).提高混合液中藻细胞的数量或高岭土的含量都有利于颗粒间发生凝聚后沉降.混合液中小球藻数量过多时藻细胞发生凝聚沉降的比例下降(图1).这种现象的出现与饱和吸附有关.一定量的高岭土所提供的吸附位点是固定的，在这些位点都被利用后，相当量的藻细胞因不能凝聚而继续维持悬浮状态.但提高混合液中小球藻的数量可增加高岭土表面吸附位点的利用程度，结果形成体积较大的凝聚颗粒，实验结束时小球藻的绝对沉降量相应增加.提高混合液中高岭土含量后颗粒间凝聚沉降的速度显著加快，这是因为可与小球藻发生凝聚的吸附位点数量增加，颗粒间的凝聚沉降能够快而彻底地进行.
+
+图1 混合液中小球藻的数量对其与高岭土凝聚的影响
+Fig.1 Influence of the cell number of C.vulgaris on its aggregation with Kaolin
+
+图2 混合液中高岭土的含量对其与小球藻凝聚的影响
+Fig.2 Influence of concentration of Kaolin on its aggregation with C.vulgaris
+2.2 小球藻生理状态对其与高岭土凝聚沉降的影响
+　　处于不同生长期的小球藻与高岭土凝聚沉降的能力有明显差异(图3).对数增长期的小球藻不易与高岭土凝聚.这与生长早期的小球藻的表面净负电荷量大，颗粒间彼此强烈排斥有关.进入稳定期和衰老期后，小球藻的表面净负电荷量逐渐减少，颗粒间碰撞后发生凝聚的概率增加，藻细胞在短时间内即能与高岭土凝聚后快速沉降.
+　　无光保持24h后，小球藻与高岭土在18h内的凝聚沉降量由71%下降至50%左右(图4).进一步延长无光保持时间，小球藻与高岭土凝聚的能力继续下降，但幅度较初期小.这种变化与小球藻的表面电荷特征在无光培养条件下发生的变化是一致的，因而静电斥力增加是抑制颗粒间发生凝聚的主要原因.
+　　在75℃水浴中保持5min后，小球藻停止新陈代谢活动，但表面结构完整并具有正常的物理吸附能力［10］.这些热杀死藻在实验初期几乎以和生活藻相同的速率与高岭土凝聚沉降(图5).但5h后，热杀死藻细胞的凝聚沉降量逐渐超过生活藻.这种差别主要是藻细胞间的凝聚沉降程度不同引起的.热杀死藻细胞缺乏足够能量克服静电引力而易于凝聚后沉降.由此可见，在凝聚发生时刻，藻细胞的生理状态并不重要，而其表面性质对凝聚起决定作用.
+　　洗涤藻细胞实验从另一角度反映小球藻与高岭土的凝聚沉降是受颗粒表面性质控制的理化过程.按Nakagawa等介绍的方法洗脱疏松结合在藻细胞表面的细胞外化合物后［11］，小球藻与高岭土在18h内的凝聚沉降量由64%提高到82%(图6)，而且洗涤后的小球藻与高岭土形成的凝聚颗粒的体积大.
+
+图3 生长期对小球藻与高岭土凝聚的影响
+Fig.3 Influence of growth phase on C.vulgaris aggregation with Kaolin
+
+图4 无光保持对小球藻与高岭土凝聚的影响
+Fig.4 Influence of darkness on C.vulgaris aggregation with Kaolin　　
+
+图5 存活状态对小球藻与高岭土凝聚的影响
+Fig.5 Influence of living state on C.vulgaris aggregation with Kaolin
+
+图6 疏松结合在细胞表面的细胞外化合物对小球藻与高岭土凝聚的影响
+Fig.6 Influence of extracellular loosely attached polymers on C.vulgaris aggregation with Kaolin
+
+图7 温度对小球藻与高岭土凝聚的影响
+Fig.7 Influence of temperature on C.vulgaris aggregation with Kaolin
+
+图8 水体pH对小球藻与高岭土凝聚的影响
+Fig.8 Influence of pH on C. vulgaris aggregation with Kaolin
+2.3 环境条件对小球藻与高岭土凝聚沉降行为的影响
+　　在环境温度较高的情况下，颗粒布朗运动加剧，彼此间发生碰撞的概率随之增大，因而在一定范围内提高环境温度促进小球藻与高岭土凝聚沉降(图7).但第3h后，颗粒在5℃环境中的凝聚沉降量超出在15℃中的，这种情况一直持续到实验结束.出现这种现象的原因值得进一步探讨.
+　　小球藻在酸性和碱性条件下都能迅速与高岭土凝聚后沉降(图8).酸性环境中，高岭土表面基团质子化，小球藻通过静电引力与之紧密结合，形成体积小而致密的凝聚颗粒.碱性环境中，小球藻主要与位于高岭土颗粒缘角处的水解多核铝化合物(Al13(OH)7+32,Al13(OH)9+30等)发生吸附.多核铝等水解化合物在高岭土颗粒表面不均匀分布，因而吸附藻高度分散，所形成的凝聚颗粒体积大而质地疏松.
+　　提高水中［Cu2+］浓度，小球藻与高岭土凝聚沉降的速度显著增加(图9).水中［Cu2+］浓度达到1×10-5mol/L后，在不到10min的时间内，超过80%的颗粒凝聚后沉降，未沉降颗粒在整个实验过程中都维持自由悬浮状态.将［Cu2+］浓度提高到1×10-4mol/L，颗粒在短时间内全部凝聚后沉降.在这个快速凝聚沉降过程中，大量气泡出现在凝聚颗粒的表面或内部，它们产生的巨大浮力使凝聚颗粒成块上浮并聚集到水表.随着气泡破裂，凝聚颗粒再次下沉.在延长静置时间的过程中，凝聚颗粒发生重构，逐渐变得致密，最终呈细粒状.
+　　自然水体中，无机颗粒凝聚沉降主要取决于水体化学特征［2］.小球藻与高岭土在不同介质中的凝聚沉降行为差异表明，水体化学特征同样是决定生物与非生物颗粒凝聚沉降的重要因素.在取自武汉东湖，经过分离处理的自然样水中，将近90%的小球藻和高岭土在1h内就能凝聚后沉降，而且形成的凝聚颗粒相当稳定.但在新鲜培养液和磷酸盐缓冲液中，小球藻以慢得多的速度与高岭土凝聚(图10).
+
+图9 Cu2+］对小球藻与高岭土凝聚的影响
+Fig.9 Influence ［Cu2+］ on C.vulgaris aggregation with Kaolin
+
+图10 小球藻与高岭土在不同水介质中的凝聚沉降
+Fig.10 C. vulgaris aggregation with Kaolin in various water medium
+3 讨论
+　　凝聚后加速沉降是悬浮颗粒从水体表层消失的最重要途径之一［5，12］.浮游藻类和细菌等微生物的表面粘性大，能够提高颗粒间碰撞的有效性及凝聚颗粒的结构稳定性［13］，在很大程度上影响着水中颗粒的凝聚沉降动态.
+3.1 小球藻与高岭土凝聚沉降的理化考虑
+　　存活状态对小球藻凝聚能力的影响及洗涤藻细胞的实验表明，小球藻与高岭土的凝聚受理化作用力控制，凝聚速度和程度主要取决于两种颗粒的表面性质.
+　　提高混合液中小球藻数量或高岭土含量及环境温度都促进颗粒间发生碰撞，能够加快颗粒发生凝聚的速度，但颗粒碰撞的有效性未改变，因而凝聚程度基本不受影响.
+　　水体pH和离子组成等通过改变颗粒碰撞的有效性而影响小球藻与高岭土凝聚.在酸性、碱性和离子浓度较大的环境中，表面带净负电荷的生物和无机悬浮颗粒［14］易克服静电斥力而凝聚后沉降.在水体酸化及重金属污染加剧过程中，这种凝聚沉降现象可能是藻类等微生物从水体表层消失，导致水体微生物多样性和数量下降的重要原因之一.而在藻类大量繁殖，水中CO2含量下降，结果水体pH值升高的水华发生期，藻类与水解生成带正电荷的配位化合物的各种金属氧化物颗粒凝聚后沉降对缩短水华持续时间有重要意义.
+3.2 小球藻与高岭土凝聚沉降的生物学考虑
+　　尽管小球藻的生理状态在其与高岭土凝聚沉降的过程中并不重要，但小球藻细胞在凝聚发生时所表现出来的表面特征是其在此之前进行的各种生理活动的累积，因而生长过程及曾经发生过的生理变化对藻细胞的凝聚能力的影响很大.这也是小球藻在不同生长阶段及无光培养后以不同速度和程度与高岭土凝聚沉降的主要原因.
+　　生物因素在颗粒凝聚沉降过程中的作用还表现在藻类分泌细胞外化合物控制藻细胞与粘土颗粒凝聚的动态.实验中，我们通过洗脱研究细胞外化合物对小球藻凝聚能力的影响.而在自然环境中，藻类将大量细胞外化合物释放到周围水体的现象非常普遍［15］.这些细胞外化合物类似“清洁剂”，能有效使生物和无机悬浮颗粒凝聚后沉降［8］.也有些藻分泌的细胞外化合物抑制颗粒凝聚，使藻细胞难以凝聚后从光亮区沉降，从而维持水体表层较高浓度的藻细胞［13］.
+3.3 藻类和粘土凝聚沉降过程在治理水体污染方面的应用
+　　国外已开始应用粘土治理赤潮［16］.粘土具有来源丰富，生产成本低，无污染等特点，用其治理水体污染优势明显.但粘土与生物颗粒大量沉降会带来比较严重的底泥淤积.在实践中需采取措施增强颗粒的凝聚效果，降低粘土的使用量.将CuSO4与粘土联合使用是减轻CuSO4化学污染，降低粘土使用量的有效手段.单独使用CuSO4除藻主要是通过大剂量撒播杀死藻细胞而达到治理目的.但在小球藻与高岭土的凝聚沉降过程中，［Cu2+］通过正电桥连作用使颗粒团块式凝聚并三维扩展，藻类随凝聚颗粒快速沉降而离开光亮区后因光合作用不足死亡分解.
+　　静态实验系统中，在有［Cu2+］存在的情况下，小球藻与高岭土形成的凝聚颗粒大而疏松.振荡后凝聚颗粒发生结构重构，体积变小而密度增加.这表明水体运动对凝聚颗粒的各种物理性质的改造作用很大并将以此控制它们在水中的沉降速率，进而影响［Cu2+］向水底迁移和分解过程中的再释放等.由此可见，在实践中应对CuSO4的使用浓度和粘土用量，气候和水力条件等进行合理选择，以期达到良好的治理效果并将化学污染控制在最小程度.
+　　实验还发现，［Cu2+］对藻类与粘土颗粒凝聚沉降过程的促进作用与其加入顺序有关.如果小球藻先与［Cu2+］接触24h，那么它们与高岭土的凝聚更彻底且凝聚颗粒结构致密，沉降速度快.在治理污染时可采取先喷洒CuSO4，一定时间间隔后再撒播粘土的策略.
+　　纯培养小球藻与高岭土在自然样水中快速凝聚沉降表明将粘土用于治理水华在实践中是可行的.但自然环境中，生物和粘土颗粒表面吸附了各种金属氧化物和有机化合物等［17］，颗粒表面性质发生变化，相互间的作用也变得非常复杂.因此，将藻类与粘土的凝聚沉降过程用于水体污染治理仍需开展大量野外研究.
+　* 国家自然科学基金(39570144)资助项目
+参考文献
+　1 Jlang Q, Logan B E . Fractal dimensions of aggregates determined from steady-state size distributions. Environ Sci Technol， 1991，25(12):2031—2038
+　2 Weilenmann V et al. Particles transport in lakes: models and measurements. Limnol Oceanogra， 1989，34(1):1—18
+　3 Alldredge A L Gotschalk C. In situ setting behaviour of marine snow.Limnol Oceanogra， 1988， 33(3):339—351
+　4 Avnimelech Y， Troeger B W. Mutual flocculation of alge and Clay: evidence and implication. Science， 1982， 216(2):63—65
+　5 Droppo I G， Ongley E D. Floculation of suspended sediment in rivers of southeasten Canada. Wat Res, 1994,28(8):1799—1809
+　6 Rao S S . Particulate Matter and Aquatic Contaminants. Boca Raton, Ann Arbor, London, Tokyo:Lewis Publishers， 1993
+　7 Sigg L et al. Vertical transport of heavy metals by setting particles in Lake Zwrich. Limnol Qceanogra, 1987, 32(1):112—130
+　8 Jackson G A. Simulation of bacterial attaction and adhension to falling particles in an aquatic environment. Limnol Oceanogra, 1989,34(3):514—530
+　9 华汝成.单细胞藻类的培养与利用.北京：农业出版社,1986:272—348
+　10 Skowronski T. Adsorption of cadmium on green microalga Strichococcws bacillaris. Chemosphe, 1986, 15(1):69—76
+　11 Nakagawa M et al. Isolation and characterization of the slime from a cyanobacterium Microcystis aeruginosa k-3A. Agric Biol Chem, 1987, 51(2):329—337
+　12 Baines S B et al. Why does the relationship between sinking flux and planktonic primary production differ from lakes and oceans? Limnol Oceanogra, 1994, 39(2):213—226
+　13 Kirboe T, Hansen J L S. Phytoplankton aggregate formation:observation of patterns and mechanisms of cell sticking and the significance of expolymeric material. J Plankton Res, 1993,15(9):993—1018
+　14 Loder T C， Liss P S. Control by organic coatings of surface charge of estuarine suspended particles. Limnol Oceanogra, 1985,30(2):418—421
+　15 Nalewajko C. Photosynthesis and excretion in various planktonic algae. Limnol Oceanogra, 1966, 11(1):1—10
+　16 Shirota A. Red tide problem and countermeasures. Int J　Aq Fish Technol, 1989,1:25—38
+　17 Hunter A, Liss P. The surface charge of suspended particles in estuarine and coastal waters. Nature, 1979, 282:823—825
+AGGREGATION AND SINKING BEHAVIOR OF CHLORELLA VULGARIS WITH KAOLIN UNDER LABORATORY CONDITIONS
+Luo Yueping, Qiu Zhenhua, 
+(Water Supply Company of Changsha, Changsha 410007)
+Ma Jianmin
+(Biological Department, Henan Normal University, Xinxiang 453002)
+Liu Yijian, Zhang Jiayao
+(Department of Environmental Science, Wuhan University, Wuhan 430072)
+ABSTRACT Aggregation and sinking behavior of C. vulgaris with Kaolin was studied by means of turbidity colorimetric analysis. The results indicated that the aggregation and sinking of C. vulgaris with Kaolin was controlled by the surface properties of the suspended particles. The surface properties were different under various environmental conditions, the aggregation and sinking processes were either enhanced or reduced consequently. 
+Keywords Chlorella vulgaris, Kaolin, aggregation, surface property.
+1996-07-12收到原稿
+1997-02-09收到修改稿

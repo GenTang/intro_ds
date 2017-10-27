@@ -1,0 +1,108 @@
+软件学报
+JOURNAL OF SOFTWARE
+1999年 第10卷 第12期  Vol.10 No.12 1999
+
+
+
+模糊神经网络及其在时间序列分析中的应用
+周春光　张冰　梁艳春　胡成全　常迪
+摘要　给出了一种新型的模糊神经网络模型.该模型不需要领域专家的知识进行指导，而是通过对样本竞争分类产生模糊规则.每类样本对应于一条模糊规则，每条模糊规则的后件部分为一个对本类样本进行过学习训练的神经网络.文章以模糊神经网络在时间序列分析中的应用为例，通过与传统的时间序列分析方法以及前向神经网络方法的对比，说明了新型模糊神经网络的有效性.
+关键词　模糊神经网络,模糊系统,样本,竞争分类,时间序列分析.
+中图法分类号　TP18
+Fuzzy Neural Network and Its Applications in Time Series Analysis
+ZHOU Chun-guang1 ZHANG Bing1 LIANG Yan-chun2 HU Cheng-quan1 CHANG Di1
+　1(Department of Computer Science Jilin University Changchun 130012)
+　2(Department of Mathematics Jilin University Changchun 130012)
+Abstract　 A new fuzzy neural network model is presented in this paper. In the new model, the fuzzy rules are generated through the competitive classification of samples without the aid of domain experts. One class of samples forms a fuzzy rule. The consequent part of each fuzzy rule is a feed forward neural network trained using the corresponding class of samples. The application of the fuzzy neural network to the analysis of time series is taken as an example to demonstrate the effectiveness of the fuzzy neural network through the comparison with the conventional analysis of time series and neural network methods.
+Key words　Fuzzy neural network, fuzzy system, samples, competitive classification, time series analysis.
+　　模糊系统（fuzzy system）是基于模糊集合的理论，它对复杂事物进行模糊度量、模糊识别、模糊推理、模糊控制和模糊决策.目前，模糊系统在自动控制、信息处理、人工智能、图像识别以及心理学、社会学、语言学等方面都得到了广泛的应用［1］.模糊系统的显著特点是能够直接地表示逻辑，适合于直接或高级的知识表达，具有较强的逻辑功能.但是，模糊规则的确定比较困难，通常需要领域专家的知识进行指导.
+　　人工神经网络（artificial neural network）能够通过学习获得用数据表达的知识，除了可以记忆已知的信息之外，还具有较强的概括能力和联想记忆能力.有一些神经网络模型及算法已经较为成熟并达到了应用水准.神经网络在智能控制、模式识别、机器视觉、连续语音识别、知识处理等方面都取得了进展，令人鼓舞.但是，神经网络中的知识是通过网络的连接权值来表达的，因而难于理解和分析［2,3］. 
+　　随着对模糊系统和神经网络研究的深入，两个领域间相互独立的关系逐渐改变［4,5］.模糊系统和神经网络的相互融合导致了模糊神经网络（fuzzy neural network）的产生.模糊神经网络一经产生就在工业控制、金融时间序列分析、风险评估等方面得到了广泛的应用，展现了广阔的应用前景.［6～8］
+1 模糊神经网络
+1．1 典型的模糊神经网络模型
+　　比较典型的网络模型有：
+　　(1) Hiroyuki Okada等人提出的用于金融风险评估的模糊神经网络模型［7］，如图1所示.网络由Sigmoid型节点和线性节点构成.通过领域专家知识建立模糊模型，得到模糊规则，确定网络中节点的连接及其权值；用单个Sigmoid型神经元表示S型或Z型隶属度函数，用两个Sigmoid型神经元实现钟型隶属度函数；推理结果用重心法进行非模糊化，得到精确的评估结果；并可以利用系统的反馈信息对网络进行训练.这种网络模型的模糊规则由领域专家给出，能够充分利用领域专家的知识，模糊规则易于理解，网络结构简明，具有学习能力.但是，网络互连结构及其权值的确定依赖于领域专家的知识，而专家知识的获取较为困难，有时，专家的知识也会产生不一致性.
+
+图1　用于金融风险评估的模糊神经网络模型
+　　(2) Cai Yaling等人提出的由3种不同类型节点构成的网络模型［6］.此网络分为隶属函数层、取小层和求和层，分别由三角形隶属函数节点(TRAN-fuzzy neuron)、取小节点(MIN-fuzzy neuron)、求和节点(SUM-fuzzy neuron)组成，使用三角形隶属度函数.隶属函数层与求和层分别对应于网络的输入和输出.在学习过程中，每个学习样本生成一个取小节点，用五点法确定隶属度函数的参数以及与各层节点的连接权值，形成一条规则.通过学习来确定取小层的节点个数.该网络能够对学习样本快速记忆，不需要领域专家知识进行指导.但是，当学习样本较多时，规则数量较大，拒识情况较多.
+1.2 一种新型的模糊神经网络模型
+1.2.1 网络模型
+　　本文提出的模糊神经网络模型不需要领域专家的知识进行指导，而是通过对样本竞争分类产生模糊规则.每类样本对应于一条模糊规则，每条规则的后件部分为一个对本类样本进行学习训练的前向神经网络.模糊神经网络由4层不同功能的节点构成，如图2所示.
+
+图2　模糊神经网络模型
+　　网络包含C条规则，每条模糊规则具有以下形式：
+　　IF X1 is L1j AND X2 is L2j AND ... AND XN is LNj THEN Y=NETj(X1,X2,...,XN)
+其中Lij为对应于输入变量Xi的第j个语言变量，NETj为第j条规则的后件神经网络的映射函数，i=1,...,N；j=1,...,C.
+　　网络的第1层为语言变量隶属度函数层.每个输入Xi划分为C个语言变量，每一个节点对应于一个语言变量，节点的输出为隶属度函数值.节点的传输函数为
+O1ij=μLij(xi).
+　　第2层为取最小层.本层节点与第1层节点给出的隶属度值进行取最小或代数乘操作，得到各条规则的点火强度(firing strength).节点的传输函数为
+
+或者
+
+其中FSi为第i条规则的点火强度，i=1,...,C.
+　　第3层为后件神经网络层.每条规则的后件部分对应于一个有两层隐层的前向神经网络.输入向量为X=(X1,X2,...,XN)，并对本类样本进行学习训练.后件神经网络的输出与本规则的点火强度相乘作为该层的输出.节点的传输函数为
+
+其中NETi为第i条规则的后件神经网络的映射函数，i=1,...,C.
+　　第4层为非模糊化层.该层对各个后件神经网络的输出结果用重心法进行非模糊化，产生模糊神经网络的输出结果.节点的传输函数为
+
+1.2.2 样本竞争分类
+　　为了确定模糊规则前件中语言变量的隶属函数，首先对学习样本进行竞争分类.假设共有M个输入样本T1,T2,...,TM，其输入向量为Tk=(Tk1,Tk2,...,TkN)，k=1,...,M.用如下方法对输入样本进行竞争分类.
+　　（1） 在输入样本空间中投入C个“种子”，Si=(Si1,Si2,...,SiN)，i=1,...,C.
+　　（2） 对每个输入样本和每个种子计算具有最小Dik值的种子Si就是对输入样本Tk竞争的胜者，即输入样本Tk是第i类的成员.每个输入样本只有一个竞争胜者，即每个输入样本只属于C类中的某一类.
+　　（3） 对所有的样本竞争完毕后，对每个种子根据竞争获胜的情况,按下式进行修正.
+
+其中α为学习率，取较小的正数,Si为TK竞争的胜者.
+　　（4） 如果竞争次数已到,则结束，否则转（2）.
+　　在竞争分类过程中对种子进行修正，使种子在竞争所得样本的共同作用下向所得样本移动.经过多次竞争和修正，种子最终稳定在竞争所得到的样本中心.因为每个输入样本仅有一个获胜者，所以每个样本仅属于一个类.这样,经过竞争，学习样本分为C类.
+1.2.3 输入变量隶属度函数的确定
+　　对于C类学习样本，每类对应于一条模糊规则.模糊规则前件中语言变量的隶属度函数(π4函数)采用如图3所示的梯形函数，其形状由参数a,b,c,d来确定.语言变量Lij的参数由下式确定.
+
+图3　梯形隶属度函数
+
+
+输入变量X的隶属度计算如下.
+
+1.2.4 模糊规则后件子网的训练
+后件子网采用遗传算法进行训练［8,9］.每个子网学习属于本类的学习样本，训练一定次数或误差满足要求后结束训练.
+1.2.5 拒识样本的处理
+经过竞争，学习样本分为C类，N维输入向量的每一维对应C个语言变量，共有CN种语言变量的组合，即有CN条规则.当N较大时，C条规则仅是CN种组合的一小部分.实际上往往会发生拒识的情况，即所有规则的点火强度均为零，所有的规则都没被激活.对于拒识样本I=(I1,I2,...,IN)，计算I与每个种子的距离D*i=以1/D*i作为各规则的点火强度，模糊神经网络的输出结果为
+
+　　这样，用拒识样本与各条规则对应的种子（即类的中心）的距离确定规则的激活程度.距离越大，样本越偏离这条规则，规则的激活程度越小.综合所有规则的结果，用重心法进行非模糊化即可得到一个能代表全体规则输出结果的值，从而解决了样本拒识的问题.
+2 实验结果
+　　将本文提出的模糊神经网络模型用在时间序列分析上，并和一些其他的方法相比较以验证其有效性.在时间序列分析和系统辩识中使用的参数模型中，ARMA(auto regressive moving average)自动回归滑动平均模型［10］是重要的一种，由于ARMA模型的建立比较复杂，在实际应用中常常使用AR(auto regressive)模型.
+　　前向神经网络方法是把时间序列预测中的输入输出模式作为网络的学习样本来对应网络训练，利用网络的学习能力从样本中获取知识，从而作出预测.前向神经网络方法的主要问题是当样本较多时网络的训练难以收敛.
+　　本文的实验使用武汉市1978年1月至1987年12月的月平均气温数据［10］，共120个数据.实验用的模糊神经网络包含4条规则，后件子网有12个输入，1个输出，2个隐层，隐层单元数均为30.用前12个数据作为输入，进行向前一步预测，得到下一个数据.这样，120个数据可以产生108个输入输出模式，以其中前90个模式为学习样本，其他的作为测试样本.每个子网用遗传算法训练5 000代.模糊神经网络输出结果与样本输出结果的比较见图4所示.
+
+图4　模糊神经网络输出与样本输出结果的比较
+　　前向神经网络方法使用具有12个输入节点、1个输出节点、40个单隐层节点的网络，网络对90个样本进行学习训练，其他样本用来进行测试.传统的时间序列分析方法使用AR（12）模型，用12个数据作为输入，进行向前一步测试，得到下一个数据.AR（12）的参数确定为
+　　Xt=0.728Xt-1-0.246Xt-2-0.080Xt-3-0.209Xt-4-0.203Xt-5+0.018Xt-6-0.375Xt-7+0.052Xt-8+0.007Xt-9-0.114Xt-10+0.043Xt-11-0.073Xt-12.
+　　3种方法的测试结果对比如图5所示.由实验结果可以看出，本文提出的模糊神经网络用于时间序列分析上,取得了较好的效果.
+
+图5　测试结果
+3 结论
+　　本文提出的模糊神经网络模型不需要领域专家的知识进行指导，通过样本的竞争分类产生模糊规则.每条模糊规则的后件部分为一个前向神经网络，后件神经网络用遗传算法对本类样本进行学习训练，并且较好地解决了拒识样本的处理问题.本文提出的模糊神经网络在时间序列分析中进行应用，取得了较好的效果.文章通过与传统的时间序列分析方法及前向神经网络方法的对比，说明了模糊神经网络的实用性和有效性.
+　　在本文提出的模糊神经网络模型中，对于种子个数的确定以及隶属度函数的重叠问题仍需要进一步的研究工作来解决.
+*本文研究得到国家自然科学基金和国家教育部符号计算与知识工程开放实验室资金资助.
+作者简介：周春光,1947年生,博士，教授，博士生导师，主要研究领域为神经网络，图像处理，遗传算法.
+　　　　　张冰,1972年生,助教,主要研究领域为遗传算法，图像处理，模式识别.
+　　　　　梁艳春,1953年生,博士，教授，博士生导师，主要研究领域为神经网络，图像处理，遗传算法.
+　　　　　胡成全,1957年生,副教授，主要研究领域为计算机网络安全与加密，信息管理系统.
+　　　　　常迪,女，1972年生,助教，主要研究领域为小波变换，图像识别，神经网络.
+本文通讯联系人:周春光，长春130012,吉林大学计算机科学系
+作者单位：周春光　张冰　胡成全　常迪　吉林大学计算机科学系　长春　130012
+　　　　　梁艳春　吉林大学数学系　长春　130012
+E-mail: cgzhou@mail.jlu.edu.cn
+参考文献
+　　1　Luo R F, Shao H H, Zhang Z J. Fuzzy-neural-net-based inferential control for a high-purity distillation column. Control Engineering. Practice, 1995,3(1):31～40
+　　2　Wang De-liang. Pattern recognition: neural network in perspective. IEEE EXPERT Intelligent System & Their Applications, 1993,8(4):52～60
+　　3　Kim Hongbong, Nam Kwanghee. Object recognition of one-DOF tools by a back-propagation neural network. IEEE Transactions on Neural Network, 1995,6:484～487
+　　4　Satoru Isaka. On neural approximation of fuzzy system. In: Proceedings of INCNN'92, Vol1. New York: IEEE, 1992. I263～I268
+　　5　Jokinen Petri A. On the relations between radial basis function networks and fuzzy system. In: Proceedings of INCNN '92, Vol1. New York: IEEE, 1992. I220～I225
+　　6　Cai Yaling, Hon Keung Kwan. A fuzzy neural network for fuzzy classification. In: Proceedings of ASME SCI'94. Wuhan: Press of Huazhong University of Science and Technology, 1994. 894～899
+　　7　Okada Hiroyuki et al. Initializing multilayer neural network with fuzzy logic. In: Proceedings of INCNN'92, Vol1. New York: IEEE, 1992. I239～I244
+　　8　Xu H Y, Wang G Z, Baird C B. A fuzzy neural networks technique with fast back propagation learning. In: Proceedings of INCNN'92, Vol1. 1992. I214～I219
+　　9　周春光，张冰等.遗传算法及其在训练前向神经网络中的应用.小型微型计算机系统,1996,17(6):54～58
+(Zhou Chun-guang, Zhang Bing et al. Genetic algorithm and its application in training feedforward neural networks. Chinese Mini-Micro Systems, 1996,17(6):54～58)
+　10　杨叔子，吴雅等.时间序列分析的工程应用.武汉:华中理工大学出版社,1992
+(Yang Shu-zi, Wu Ya et al. Engineering Applications of Time Series Analysis. Wuhan: Press of Huazhong University of Science and Technology, 1992)
+本文1998-10-09收到原稿,1999-01-18收到修改稿

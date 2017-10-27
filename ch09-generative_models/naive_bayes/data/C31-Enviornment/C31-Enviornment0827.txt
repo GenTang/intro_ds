@@ -1,0 +1,88 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+活性污泥作为气化用型煤粘结剂的研究
+Ⅰ.污泥添加量和型煤成型条件的考察
+唐黎华　朱子彬　赵庆祥　郑志胜　张成芳　马鲁铭　
+摘要　以活性污泥(以下简称为污泥)为研究对象，以合成氨厂广泛使用的白泥型煤为参照，进行了气化用型煤粘结剂的研究.结果表明，当污泥添加量为2%(干基)白泥添加量为0.3%(干基)时，所制得的型煤抗压强度、跌落强度、热稳定性与白泥型煤相当.研究表明，成型压力30MPa，烘干温度150℃和烘干时间2?h是制污泥型煤的合适工艺条件.
+关键词　活性污泥；型煤粘结剂；型煤质量.
+Active sludge as coherent agent for briquette of gasification in ammonia synthesis
+Ⅰ.Effect of sewage sludge additive level and modeling condition on quality of briquette
+TANG Lihua, ZHU Zibin, ZHAO Qingxiang, ZHENG Zhisheng, ZHANG Chengfang, MA Luming
+East China University of Science and Technology,Shanghai 200237
+Abstract　The cohesiveness of active sludge with coal powder was studied in order to use it as briquette which is raw material of gasification in ammonia synthesis.Briquette with white earth was taken as a reference.The results indicated that coincident beaten strength,falling strenngth annd thermal stability of the sewage sludge briquette made of 2%(dry basis)sewage sludge,0.3% white earth,and coal powered equivalent to those of white earth briquette.Modeling pressure of 30 MPa,Drying temperature of 150℃ and drying time of 2?h were suitable conditions for production of sewage sludge briquette.
+Keywords　active sludge,briquette coherent agent.
+1　引言
+　　据不完全统计，全国现有城市污水处理厂60余座，日总处理能力约300万t，每年产生的污泥(简称：SS)量约50多万t,再加上大型企业和石化厂的污水处理装置，全国每年产生的污泥量十分可观.据查，污泥处理和处置费用约占污水处理系统总费用的25%—30%，因此妥善、经济地处理和处置污泥是一个亟待解决的环境问题［1］.
+　　我国有数千家小型合成氨厂，其中绝大多数采用粘结性较强的白泥(简称：WE)或石灰作气化型煤粘结剂.通常将这类粘结剂制成的型煤称为白泥型煤(简称：WEB)或石灰碳化型煤.石灰碳化型煤气化反应性好，但成型工艺复杂，石灰添加量较多、成本也高，影响工厂经济效益.白泥型煤生产工艺较简单，制成的型煤强度高，但型煤气化反应性差，灰渣残炭高，蒸汽耗量大，是困扰生产厂的一大难点.为此寻找一种粘结性高、成本低，型煤气化反应性好的粘结剂一直是化肥厂的一个重要课题.污泥本身含有机物，如蛋白质、脂肪和多糖，具有一定的热值［2］，又有一定的粘结性能.活性污泥作粘结剂将无烟粉煤加工成型煤，而污泥在高温气化炉内被处理，防止了污染；污泥作为型煤粘结剂，替代白泥可改善在高温下型煤的内部孔结构，提高了型煤的气化反应性，降低灰渣中的残炭，提高炭转化率，污泥既可作为一种粘结剂，同时也是一种疏松剂，污泥的热值也得到了利用，且污泥处理量大，将污泥资源化处理就是本研究的出发点.
+2　实验部分
+2.1　试验材料
+　　粉煤：采用山西晋城无烟煤为原料，煤粉碎后颗粒度为10—20目.粘结剂：活性污泥取自于上海金山石化总厂污水处理厂，含水量在80%左右.白泥是浙江安吉出产，其颗粒度为10—20目.
+2.2　型煤质量的评价方法［3］
+　　将颗粒度为10—20目的晋城无烟煤与粘结剂(活性污泥或白泥)混合，然后放入搅拌器搅拌均匀，混合料放入成型机中，在压力为30 MPa的条件下成型，加工成直径为32 mm、高为25 mm的圆柱状，成型后的型煤加热烘干数小时，然后进行强度和热稳定性等测试.本试验是参照合成氨气化用白泥型煤的配比(白泥含量：5.5%)，与以相同的方法制成的白泥型煤进行对比评价.(1).热稳定性：把型煤置于带盖铁盒内，放到850℃马弗炉内，温度回复后恒温15 min，冷却后筛分，测定直径大于13 mm颗粒所占的百分率.(2).落下强度：将型煤从2 m高度跌落到10 mm厚的钢板上，3次跌落后，测定直径大于13?mm颗粒所占的百分率.(3).抗压强度：测量型煤的侧压，取型煤破碎时强度试验机上的压力指示值为型煤的抗压强度.
+
+
+图1　污泥添加量与抗压强度的关系
+Fig.1　Variation of beaten strength
+with SS quantity (modeling
+pressure:30 MPa,drying time:2 h)
+3　实验结果与讨论
+3.1　抗压强度与污泥添加量的关系
+　　型煤的抗压强度与污泥添加量和白泥添加量之间的关系如图1所示，从图1可以看出，当污泥加入量为2%(干基)，白泥量分别为0%、0.3%、0.5%和0.9%，型煤的抗压强度都呈现一最大值，白泥量一定，污泥加入量小于2%(干基)时，型煤的抗压强度随污泥加入量增加而提高；污泥加入量大于2%(干基)时，型煤的抗压强度随污泥加入量的增加而上降.考虑到型煤的强度要求以及制作型煤的经济性，为此可确定适宜的混合型型煤(以下简称为污泥型煤或SSB)配比为：白泥添加量为0.3%，污泥添加量为2%.为了进一步证实这一结果，对其他行业的活性污泥进行了验证性试验，得到的结论与此相符.
+3.2　抗压强度和落下强度与烘干温度的关系
+　　型煤的烘干温度与抗压强度之关系如图2所示，在烘干温度小于150℃时，型煤的抗压强度随烘干温度的升高而增加，在烘干温度大于150℃时，随烘干温度的升高而略有下降趋势.
+　　型煤烘干温度与落下强度之关系如图3所示，由图可见，在150℃以前，型煤的落下强度均随烘干温度的提高而急剧增加，烘干温度大于150℃后，2种型煤随烘干温度增加，落下强度增加变缓，污泥型煤的落下强度稍低于白泥型煤.
+
+
+图2　烘干温度与抗压强度的关系
+Fig.2　Variation of beaten strength with drying temperature(modeling pressure:30 MPa,drying time:2 h)
+
+
+图3　烘干温度与落下强度的关系
+Fig.3　Variation of falling strength with drying temperature(modeling pressure:30 MPa,drying time:2 h)
+3.3　抗压强度，落下强度和热稳定性与成型压力的关系
+　　型煤的成型压力与抗压强度之间的关系如图4所示，型煤的抗压强度均随成型压力的提高而增加，2种型煤增加幅度也几乎相同.在不同成型压力下的白泥型煤的抗压强度略高于相应成型压力下的污泥型煤.
+　　型煤的成型压力与落下强度之间的关系如图5所示，在测试范围内，2种型煤的落下强度均随成型压力的变化而变化，但变化的幅度不大，在同样的成型压力下，白泥型煤的落下强度略优于污泥型煤.型煤的成型压力与热稳定性之间的关系如表1所示.由表可见，型煤的热稳定性不随成型压力的改变而变化.
+
+
+图4　成型压力与抗压强度的关系
+Fig.4　Variation of beaten strength with modeling pressure(Drying temperature:150℃,drying time:2 h)
+
+
+图5　成型压力与落下强度的关系
+Fig.5 Variation of falling strength with modeling pressure(drying temperature:150℃,drying time:2 h)
+表1　型煤的热稳定性与成型压力的关系
+Table 1 Variation of modeling pressure with thermal tability
+热稳定性成型压力，MPa
+253035
+白泥型煤大于13 mm,%100100100
+污泥型煤大于13 mm,%100100100
+
+　
+表2　型煤的热稳定性与存放时间的关系
+Table 2 Variation of staying time with thermal stability
+热稳定性存放时间，周
+0123
+白泥型煤大于13 mm，%100100100100
+污泥型煤大于13 mm，%100100100100
+3.4　抗压强度、热稳定性与存放时间的关系
+　　2种不同配比型煤的抗压强度与存放时间的关系如图6所示，由图可见，2种型煤的抗压强度均随存放时间的延长而下降，而且具有相近的下降速率.　　
+
+
+图6　存放时间与抗压强度关系
+Fig.6 Variation of beaten strength with staying time(modeling pressure:30 MPa,drying temperature:150℃,drying time:2 h)
+　　　　2种型煤的热稳定性与存放时间的关系如表2所示，由表可见，在测试范围内，2种型煤的热稳定性不随存放时间而变化.
+　　4　结　论
+　　　　1.将脱水活性污泥作气化用型煤粘结剂，充分利用了活性污泥之粘结性和热值.经气化炉高达1000℃以上的高温处理，防止污染二次转移，这是污泥资源化处理的好方法.
+　　2.以脱水活性污泥作气化用型煤粘结剂，污泥添加量2%(干基)，白泥0.3%(干基)，混炼制成污泥型煤，可达到白泥型煤相同水平的抗压强度，落下强度和热稳定性.该污泥和白泥添加量配比可认为是适宜于制气化用型煤的粘结剂配比，表明活性污泥有很好的粘结性能.
+　　3.粉煤的颗粒度在10—20目之间，型煤的烘干温度为150℃，烘干时间为2?h，是制污泥型煤的合适工艺条件.
+(华东理工大学化工工艺研究所，上海　200237)
+参　考　文　献
+[1]　徐颖等.污泥用作农肥处置及其环境影响.环境污染与防治，1993，15(4)：24
+[2]　柳丽芬等.活性污泥化学组成的分析.环境科学，1990，11(2)：45
+[3]　沙兴中等.用于城市煤气气化炉的成型煤技术开发.上海煤气，1991，165(1)：12
+1997-03-03收到原稿
+1997-09-22收到修改稿

@@ -1,0 +1,141 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第10期　Vol.36　No.10　1999
+
+
+
+自动并行库中基于存储转发机制的通信优化
+祝明　胡永刚　祝明发　张兆庆
+　　摘　要　文中工作是在曙光2000上的PVM环境中为自动并行识别系统(AutoPar)实现的，介绍的是数据收集函数Collect算法及其设计优化以及对原有算法所作的结构性改进，主要思想是将存储转发机制引入到数据收集算法中，从而省去了大量的数据填充及抽取操作，并防止了由此产生的数据收集错误.众所周知，通信问题在并行机系统中是关键问题，因此，Collect效率的高低直接关系到AutoPar的加速比.采用本算法后，其效率成倍增加.
+　　关键词　并行化，AutoPar，PVM，数据收集算法，存储转发
+　　中图法分类号　TP314
+COMMUNICATION OPTIMIZATION OF PARALLEL LIBRARY BY
+STORE-AND-FORWARD MECHANISM
+ZHU Ming, HU Yong-Gang, ZHU Ming-Fa, and ZHANG Zhao-Qing
+(National Research Center of Intelligent Computing Systems, Institute of Computing Technology,
+Chinese Academy of Sciences, Beijing 100080)
+(Research Center of High Performance Computers, Institute of Computing Technology,
+Chinese Academy of Sciences, Beijing 100080)
+　　Abstract　The work in PVM's environment on the Dawning-2000 system is realized for the automatic parallel recognition system(AutoPar). Introduced here is the data collection function Collect's algorithm and its design optimization and the structure improvement of the original algorithm.Collect algorithm and its design in AutoPar's parallel communication library based on PVM are studied,and a new algorithm and store and forward mechanism are found to implement Collect,which is faster than its original one.Because it emphasizes particularly the communication among processors, Collect will influence the speedup of AutoPar at Dawning-2000. Its major idea is to introduce the save-transmit mechanism into the data collection algorithm, reducing a large number of data fills-in and draws-out operation and preventing the data collection mistakes from being produced. As everyone knows, the communication problem in running parallel machine system is a vital problem, so the height of Collect's efficiency directly concerns how the quickening of AutoPar is compared. After the algorithm is used, its efficiency is doubled through real testing.
+　　Key words　parallelization, AutoPar, PVM, collect algorithm, store and forward
+1　引言
+　　高性能计算一般是以其高速的硬件系统为基础的, 而计算机系统性能的整体改善在很大程度上却是取决于其软件性能的提高. 为了充分发挥高性能计算机所提供的高速计算性能, 利用自动并行重构技术开发超级编译器已成为计算机软件的重要研究课题.在这一领域, 代表性的系统有：Rice 大学的 FPPS, Illinois 大学的 PARADIGM，IBM 的PTRAN, Stanford大学的SUIF 等. 近20年来, 对并行重构的研究大多是针对Fortran 源程序的，这主要是因为Fortran 作为一种科学计算语言，积累了大量的应用程序. 对串行的Fortran 源程序做源-源变换，将其转换为带并行代码的扩展Fortran 源程序. 曙光2000计算机系统配置的自动并行识别系统(AutoPar)就是对Fortran 源程序做源-源变换. 本文是以曙光2000计算机系统配置的自动并行识别系统为研究背景，主要介绍其PVM［1］并行通信库中［2］至关重要的数据收集功能函数的算法设计.它针对SPMD并行程序的需求采用了存储转发的思想，使得其算法流程中的关键路径大大缩短，其效率比已做了大量优化的前算法［3］成倍提高. 本文对其收集函数Collect 的优化算法作了详细的介绍.
+2　基于存储转发机制的Collect算法
+2.1　Collect的算法框图
+　　用户程序并行化后［4］，势必要进行循环分割运算，这就导致各节点机只有部分数据参加运算，而数据的其它部分则要从其它节点上得到，即作数据收集操作. 下面给出其算法框图.
+2.1.1　原算法框图
+　　从图1的原算法框图中可以看出，在算法流程的关键路经上，有较多的等待延迟和通信延迟，因此，影响了原算法的优化性能. 在随后作者提出的新算法框图中，上述延迟大大减少.
+
+
+图1　原算法框图
+2.1.2　新算法框图
+　　新算法是基于存储转发的思想，主机把各个从机的有效数据存储在其动态申请的内存中，然后，再将其广播至各个从机. 从而，省去了前算法的多次发送-接收操作以及主机上的数组填充，集成处理(参见图2).
+
+
+图2　新算法框图
+2.2　Collect的算法描述
+　　在这里，“range information”就是“数组界”；“copy the data modified by itself to a data buffer”就是“数组集成”.“fill in the data to its local array for the newest status”就是“数组填充”.
+2.2.1　Collect原算法
+　　收集函数Collect 的算法描述：
+int AUTOPA R_COLLECT()
+{
+　(1)　if this process is master
+　{
+　　①　receive the range information of array data from all other nodes;
+　　②　broadcast all range information received from all other nodes;
+　　③　receive the data of array from all other nodes;
+　　④　fill in the data to its local array for the newest status;
+　　⑤　calculated the minimum and maximum range information for every dim of the whole array, and then copy the data of the specified range of the array to a data buffer;
+　　⑥　broadcast the data buffer to all other nodes;
+　　}
+　　(2)　else // this process is a slave
+　　{
+　　　①　send its range information of array data to the master;
+　　　②　receive all range information from the master;
+　　　③　copy the data modified by itself to a data buffer;
+　　　④　send the data buffer to the master;
+　　　⑤　receive the newest data of the whole array from the master;
+　　　⑥ fill in the newest data to its local array to keep the newest status of the array;
+　　　}
+　　}
+　　在此算法流程中，关键路径上共有4次send＿receive调用，2次 Collect＿local＿data() 和2次Fill＿data()，尽管这两个子函数在算法上已做了大量改进［4］，但是由于频繁的调用和通信，导致其性能的下降. 作者在分析了上述的算法流程后，巧妙地引入了存储转发机制，大大降低了通信开销，从而使其效率成倍提高. 下面就来讨论新算法.
+2.2.2　Collect新算法
+　　首先，简要介绍一下新算法所需的数据结构.
+
+数据长度数组维边界信息处理机号数组数据
+
+　　上述数据结构将由主机申请并使用，从机将其数据发送到主机，主机将各从机的数据按上述数据结构拼装，拼装完毕后，主机将其广播至各个从机，从机再根据“处理机号”，把其他从机的数据填充到它本身的数组中.　　
+　　采用此新算法，从逻辑上可知其效率将会成倍增加, 而且其实际效率也确实如此.
+New algorithm:
+{
+　(1)　if this process is a master;
+　{
+　　①　malloc a large memory as the data buffer and copy its local newest data to data buffer
+(meantime, fill its ‘processor＿num’ to the correspondent position.)
+　　②　receive the range information and the modified data of the array from all other nodes;
+　　③　according to the range information of every node, fill in its newest data to its local array for its newest status;
+　　④　broadcast the data buffer which includes all newest range information of data of every node;
+　}
+　(2)　else // this process is a slaver;
+　{
+　　①　copy its newest range information and data of its array to a little data buffer;
+(meantime, fill its ‘processor＿num’ to its correspondent position in the buffer.)
+　　②　send the message in data buffer to the master;
+　　③　malloc a large memory as the data buffer;
+　　④　receive the broadcast message from the master;
+　　⑤　according to the range information and ‘processor＿num’ in the broadcast message, fill in the newest data to its local array to keep its data validate;
+　}
+} 
+　　在此算法流程中，关键路径上，共有2次send＿receive调用，1次 Collect＿local＿data() 和2次Fill＿data(). 可见，存储转发的引用，使得通信开销大大降低. 从而，将大大提高程序并行化的效率. 
+2.2.3　新算法的效率
+　　下面以一个100×100×100的三维数组运算为例，下面的数据来自国家智能机中心的曙光机＿1000 Plus上.　　
+　　源＿源变换后100×100×100的三维数组运算的部分Fortran并行代码，其中含有对AUTOPAR＿COLLECT的调用：
+　　　S = 0
+　　　DO 120 M=1,50
+　　　S = S+1.0D+00
+　　　CALL F＿AUTOPAR＿LOOP＿SPLIT(99,2,F＿AUTOPAR＿LOOP＿START,& F＿AUTOPAR＿LOOP＿END)
+　　　　　DO 130 J=F＿AUTOPAR＿LOOP＿START,F＿AUTOPAR＿LOOP＿END
+　　　　　DO 140 I=1,100
+　　　　　A(I,J,M) = 1010.0
+　　　140 CONTINUE
+　　　130 CONTINUE
+　　　CALL F＿AUTOPAR＿SET＿RANGE＿D(2,1,100)
+　　　CALL F＿AUTOPAR＿SET＿RANGE＿UD(1,0,0)
+　　　CALL F＿AUTOPAR＿SET＿RANGE＿D(0,M,M)
+　　　CALL F＿AUTOPAR＿LAYOUT(A)
+　　　CALL F＿AUTOPAR＿COLLECT(A)
+　　其运行时间统计对比如表1所示： 
+表　1
+
+机器结点数新算法(秒)原算法(秒)加速比
+324502.1
+211201.8
+
+　　从这个小例子就可以看出此算法的效率较原算法已大大提高. 而且，随计算量和处理机数量的增加，其优势更能得到体现. 表2所示是一些大型BENCHMARK测试数据(环境为PVM3.3，节点数为2.) ： 
+表　2
+
+BENCHMARK新算法(秒)原算法(秒)加速比
+B7325067002.0
+W.SR293058282.0
+W.LG4299472.2
+
+　　注：
+　　① BENCHMARK 7（B7）的NUMBER OF STEPS为5.　　
+　　② W.SR SOLVES THE EULER EQUATIONS IN GENERALIZED CURVILINEAR COORDINA USING AN IMPLICIT FINITE DIFFERENCE ALGORITHM WITH APPROXIMATED FACTORIZATION AND A DIAGONALIZATION OF THE IMPLICIT OPERATORS
+　　③ W.LG IS PURE GAUGE SU(3) MONTE CARLO 
+3　结　论
+　　综上所述，由于将存储转发机制引入到数据收集算法中，省去了大量的数据填充及抽取操作，不但防止了由此产生的数据收集错误，而且大大降低了通信开销.采用本算法后，其总体效率比曙光2000 AutoPar 的α版本提高了很多，为曙光2000 AutoPar 的最终实用化奠定了基础.
+本课题得到国家高技术“八六三”项目基金资助.
+作者简介：祝明，男，1968年5月生，助理研究员，硕士，主要从事计算机算术运算、高速电子线路计算机网络方面的研究.
+　　　　　胡永刚，男，1964年11月生，助理研究员，硕士，主要从事自动并行编译识别工具和NT机群系统开发研究.
+　　　　　祝明发，男，1945年5月生，研究员，主要从事高性能并行计算机的研究开发.
+　　　　　张兆庆，女，1938年1月生，研究员，主要从事自动并行编译识别工具的研究开发.
+作者单位：祝明　祝明发　张兆庆　中国科学院计算技术研究所智能机研究开发中心　北京　100080
+　　　　　　　胡永刚　中国科学院计算技术研究所高性能计算机研究中心　北京　100080
+参考文献
+　1　　PVM3 User's Guide and Reference Manual. Department of Computer Science, University of Tennessee, Knoxville, 1994
+　2　　ASPAR——An Automatic Parallelizer for C Programs. Parasoft Corporation, Pasadena, 1991
+　3　　Cytron R. Compile-time scheduling and optimization for asynchronous machines［Ph D dissertation］. University of Illinois at Urbana-Champaign, Illinois, 1984
+　4　　Wolfe M. Data dependence and program restructuring. The Journal of Supercomputer, 1990, 4(4): 591～601
+原稿收到日期：1997-12-18；
+修改稿收到日期：1998-05-05.

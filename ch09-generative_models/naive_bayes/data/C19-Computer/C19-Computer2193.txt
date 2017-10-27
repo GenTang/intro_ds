@@ -1,0 +1,94 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.2　P.60-62
+
+
+
+用Java开发HTTP服务器
+万江平　何思遥　吴越　张鹏
+摘 要 在对HTTP协议的分析基础上，用Java开发了一个HTTP服务器原型系统，说明了其实现模型，并讨论了多线程及虚拟终端等若干实现问题。
+关键词 超文本传输协议 Java 套接字 线程 虚拟终端
+1 引言
+　　实现WWW的通信协议是HTTP(Hypertext Transfer Protocol，超文本传输协议)，它定义了HTTP的通信交换机制、请求及响应消息的格式等。
+2 HTTP模型
+　　HTTP协议是建立在请求/响应(Request/Response)模型上的。首先由客户建立与服务器的连接，并发送一个请求到服务器，请求中包含请求方法、URI、协议版本以及相关的MIME样式的消息(包含请求修饰符、客户信息或者可能的内容)。服务器响应一个状态行，包括消息的协议版本和一个成功或失败码，相关的MIME样式的消息(包含服务器的信息，资源实体的信息和可能的资源内容)。
+　　大多数的HTTP通信是由于用户启动的，包含一个对某服务器的资源的请求。在简单的情况下，这可以通过在客户和服务器之间的单个连接(V)完成，见图1。
+
+图1　简单的HTTP交互过程
+　　复杂的情况是在请求/响应通信链路上有一个或者多个中介体。在这里有三种中介体，代理(Proxy)，网关(Gateway)和通道(Tunnel)。代理是一个转发机构，它接收用户对一个由URI绝对格式标识的资源请求，改写请求的全部或一部分，转发被改变的请求信息到由URI标识的服务器。网关是一个接收机构，作为某些服务器的一个层，必要时，翻译请求成为服务器支持的协议。通道是两个连接的转置点，不改变消息。复杂的HTTP过程见图2。
+
+图2　复杂的HTTP交互过程
+　　在图2中，客户和服务器之间的通信链路有三个中介体，请求或响应消息必须经过四个单独的连接。这对某些HTTP通信很重要，因为某些HTTP通信选项只能适用于申请近邻非通道的连接或通信链的端点，或链上的所有连接。这里每一个中介体同时支持多个通信过程。
+　　一次HTTP操作称为一次事务(Transaction)。HTTP定义的事务处理由以下四步组成：1)客户和服务器建立连接；2)客户向服务器提出请求；3)如果请求被接受，则服务器送回响应，在响应中包括状态码和所需的文件；4)客户与服务器断开连接。
+　　HTTP采用TCP连接，该连接仅在此事务中保持，浏览器和服务器都不会记忆上次的连接状态。HTTP之所以采取这种无状态机制，完全是为了提高服务器的工作效率。在Web中点击一个超链接时，浏览器有可能从当前站点转到另一个站点。因此，当文档传输完毕时，服务器都假定用户要退出对本服务器上的文档的浏览连接，因而断开连接。如果要继续浏览，就再次建立连接。如果用户确实要退出时，服务器就不需要执行任何操作，因为连接已经断开了。
+3 用Java开发HTTP服务器
+3.1 Java语言网络编程
+　　当通信数据到达的是目的主机的网络层，IP地址连同端口号一起，提供了对两台机器之间唯一的、无二义性的连接的标识，这个连接叫套接字(Socket)。一对套接字唯一地标识了每个端口连接：(1)发送方套接字=源IP地址+源端口号；(2)接收方套接字=目的IP地址+目的端口号。
+　　Socket类实现基于连接的客户插口。这些插口用于开发应用程序，应用程序利用由面向连接的服务器应用程序所提供的服务。我们可以利用Java API中的java.net包中的插口类提供了套接字功能进行网络编程。
+　　Socket类提供四种创建插口并将插口连接到接收方主机与端口的构造函数。访问方法用来访问I/O流及与所连接的插口有关联的连接参数。(1)getInet Address( )－获取插口所连接时信宿机的IP地址；(2)getPort( )－获取插口所连接时信宿机的端口号；(3)getInputStream( )返回与插口相关联的输入流；(4)getOutputStream( )－返回与插口相关联的输出流；(5)close( )－关闭插口。
+　　ServerSocket类实现了TCP服务器插口。它提供两种构造函数，用它们指定服务器插口所用的端口，以便监听到连接请求。它的Accept( )方法用来引起服务器插口监听并等待，直到建立了到达连接为止。一旦建立了连接，它就返回Socket类的一个实例。然后该Socket对象用来为单个客户实施服务。
+3.2 HTTP服务器功能
+　　用Java实现一个Web服务器程序，具备以下的功能：1)支持简单请求和简单响应模式(HTTP/0.9)；2)部分支持完全请求和完全响应模式(HTTP/1.0)，实现揋ET敚瑩HEAD數那肭蠓椒ǎ?)能以并发的方式同时为多个客户服务；4)能够查找文档；5)注释文档－即在完全响应模式下生成元信息头域(Header)[6]。
+3.3 HTTP服务器的开发
+3.3.1 服务器总体设计
+　　把Web服务器分成两个组成模块：客户请求处理模块和响应生成发送模块，其中客户请求处理模块负责接收客户的连接，分析请求中的各个协议参数，此外还负责调用响应生成发送模块。而响应生成发送模块的任务就是根据对客户请求的分析的结果查找资源，生成响应和发送响应。
+　　1)客户请求处理模块的任务就是负责监听系统的端口，以获取客户机到达本机的连接。当获得一个连接请求时，就把这一连接所建立的套接字连接交给一个负责客户请求处理程序桟lient类处理这一个客户的请求，之后程序继续监听等待下一个客户的连接。在一个Client对象建立之后，它就把其在初始化时获得的一个Socket对象的输入流重定向给一个Request对象，使其能通过Request类提供的接口方法获取这一用户请求的相关的参数，如URL的组成椙肭蠓椒ǎ肝募约靶榘姹镜仁荨Ｈ缓蟀颜庖桓鯮equest对象连同Socket对象的输出流传递给一个ResourceHandler类的实例，由这一个ResourceHandler对象完成产生并发送对用户请求的响应。主要由三个部分组成：(1)守护程序：一个WebServer类的实例对象；(2)客户处理程序：一个Client用户类，由WebServer对象负责建立其实例和执行其运行线程；(3)请求分析程序：一个Request用户类，由Client对象初始化其对象实例，用于分析客户请求中的协议参数(见图3)。
+
+图3　请求处理模块
+　　其中，1－调用；2－Socket对象；3－Socket对象；4－Socket对象的输入流；5－Request对象；6－Socket对象的输入流和Request对象。Request对象是指经分析的客户请求。
+　　2)响应生成发送模块实现的功能就是从客户请求程序中接受一个Request对象和一个标识一个用户连接的客户Socket对象的输出流(NVTOutputStream)对象。通过从Request对象中获得客户请求的协议参数，查找客户请求指定的资源，根据查找的结果，生成相应的响应，并把成功生成的响应写入到指定的NVTOutputStream对象中，其操作结果就是把响应送往客户。包含了以下对象：ResourceHandler对象(响应产生发送处理)、SCManager(响应的状态码管理)对象、StatusCode对象(状态码处理)、MimeType对象(媒体类型描述处理)，通过互相调用协调，共同完成模块的功能(见图4)。其中：1－Socket对象的输入流和Request对象；2－文件名；3－文件描述；4－状态码；5－状态码相关的描述；6－文件名；7－媒体类型描述。
+
+图4　响应生成发送模块
+3.3.2 多线程的实现和同步
+　　Java的多线程编程的途径有两种－继承Thread类和实现Runnable界面。Client对象采用的是第二种方法。Client类中声明一个类实现Java API中的java.lang.Runnable界面，然后编写代码以覆盖这一个界面中预先定义的run( )方法。这样和守护程序中的代码结合起来，就能从语言的级别上实现多线程。下面是在WebServer类中的应用：
+public void run( )
+　{String inLine1;
+　try
+　{ServerSocket server=new ServerSocket (8080);
+　int localPort=server.getLocalPort ();
+　System.out.println("WebServer is listening on port:"
+　　+localPort+".");
+　do
+　{Socket client=server.accept();
+　　Thread thread1=new Thread(new Client(client));
+　　thread1.start();
+　　while (thread1.isAlive());
+　　System.out.println("Service Completed!...");
+　} While(true);
+}catch(IOException c);
+　{System.out.println("IOException occurred.");}
+}
+　　由于每一个客户处理程序都要对日志文件进行维护更新的操作，这些操作都是写操作，而每一个客户处理程序是在不同的线程上运行，其调度顺序是不可预知的；另一方面，这些线程都共享同一个日志文件的输出流，这就有可能使写入到日志文件里的内容不可读。因此把对日志文件的输出流进行写操作的方法声明为同步方法，就可以轻易地解决一个线程之间的同步协调：Synchronized Void WriteToLog( ){}。
+3.3.3 虚拟终端
+　　NVT是一种抽象的设备，由打印机和键盘组成。用户使用键盘键入的字符被转发到服务器中，服务器再把数据返回给用户，而NVT在打印机上将其输出。它使用标准的回车与换行组合去终止行。NVT提供控制操作，这些操作支持过程中断并丢弃多余的输出。这些操作是通过使用IAC(Interpret as Command，解释成命令)代码发出的。IAC是一个单字节，由值255或十六进制0xff组成。IAC后面可以跟着一个单字节，用于发送控制代码；或者后面跟着两个或更多的字节，用于协商一选项。而为了发送已用于IAC的字节值255，可以通过一个特殊的字节序列来实现：连续发送两个IAC。
+　class NVTInputStream extends FilterInputStream
+{byte IAC=(byte)0xff;
+　byte DO=(byte)0xfd; byte WILL=(byte)0xfb;
+　byte CR=13; byte LF=10;
+　int WONT=252; int DONT=254;
+　int BUFFER_SIZE=1024;
+　OutputStream out;
+　byte lineBuffer[]=new byte[BUFFER_SIZE];
+　int numBytes=0;
+　public NVTInputStream(InputStream inStream, OutputStream
+　　　　　outStream) //构造函数
+　public int read() throws IOException //识别各控制代码
+　public String readLine() throws IOException //读入一行
+}
+　　这个类就是为了从NVT输入流中读取命令而设的。它处理掉NVT的控制字符，让程序从中读出的是纯粹的命令字符流，以便于服务器处理客户发送来的命令行。
+　　虚拟网络终端输出流类(Class NVTOutput Stream)：这个类跟上一个类是相对的，它用在程序中向NVT输出流写入给客户的应答字符串。它们还可以用于FTP服务器的实现中。
+4 结束语
+　　HTTP标准在迅速发展。第一版HTTP/0.9，只包括简单的Get请求和响应。HTTP/1.0是常用的标准，它增加了进行HTTP Post和HTTP Head请求的能力，以及一些其它信息头字段[6]。HTTP/1.1也已推出，它包括HTTP Put和Delete，以及其它一些协议改进。
+　　WWW是因特网最重要的应用之一，有关其代理服务器，安全性和应用方面(如支持断点续传等)都有许多问题值得进一步研究。使用Java开发HTTP服务器可以深入理解因特网环境下客户/服务器交互作用，并结合到因特网的实际应用中。
+万江平（华南理工大学电子信息学院 广州 510641）
+何思遥（华南理工大学电子信息学院 广州 510641）
+吴越（华南理工大学电子信息学院 广州 510641）
+张鹏（华南理工大学电子信息学院 广州 510641）
+参考文献
+1，Douglas E.Comer,Computer Network and Internet, PRENTICE HALL.1997
+2，Dilip C.Naik, Internet Standard and Protocols, Redmond, Washington, U.S.A:Microsoft Press, 1998
+3，万江平, 叶子华等. 远程教学系统的设计与实现. 广州: 华南理工大学学报, 1999, 27(1), 48～53
+4，张宝社, 张宝峰. Windows界面下的网络编程. 合肥: 中国科学技术大学出版社, 1997.4
+5，易文韬, 陈颖平. Java编程手册. 北京: 科学出版社, 1997
+6，Rfc1945 HyperText Transfer Protocol 1.0
+收稿日期：1999年7月31日

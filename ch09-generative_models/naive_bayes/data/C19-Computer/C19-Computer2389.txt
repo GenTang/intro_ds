@@ -1,0 +1,121 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第10期　Vol.36　No.10　1999
+
+
+
+Agent计算的能力理论
+毛新军　王怀民　陈火旺　刘凤歧
+　　摘　要　能力是规范和描述Agent、研究和分析Agent计算以及设计Agent的一个重要抽象概念.文中基于一种主观的观点提出了Agent计算的能力理论以支持Agent计算的理论研究，提出了规划树概念以刻画Agent如何在动态、不确定的多Agent系统中通过对其规划进行合理、有效的组织来实现其任务.基于多Agent系统计算的逻辑框架，文中给出了能力概念的形式化语义定义，获取和描述了它的一些重要属性.
+　　关键词　Agent，多Agent系统，信念，能力
+　　中图法分类号　TP18
+CAPABILITY THEORY OF AGENT'S COMPUTING
+MAO Xin-Jun, WANG Huai-Min, CHEN Huo-Wang, and LIU Feng-Qi
+(Department of Computer Science, Changsha Institute of Technology, Changsha 410073)
+　　Abstract　Capability is an important abstract concept to specify and design agent, and to investigate agent's computing. In the paper here, a capability theory of agent's computing is put forward based on the internal perspective in support of the research on the theory of agent computing. The concept of plan tree is presented to describe how agent organizes its plans effectively to achieve its tasks in a non-deterministic and dynamic multi-agent system. Based on the logic framework of multi-agent computing, the formal semantics of the capability is defined and some important logical properties are obtained.
+　　Key words　agent, multi-agent system, belief, capability 
+1　引言
+　　随着面向Agent程序设计范型［1］的提出，如何获取和分析多Agent系统的需求、指导系统设计已成为当前软件工程领域一项重要的研究课题.在AI领域，人们通常基于意向观点(intentional stance)来研究Agent，即将Agent视为由一组认知部件所构成的意向系统(intentional system)［1～3］.意向观点为我们研究Agent提供了一组高层的抽象认知概念如信念、期望、意愿等等.基于这些概念，我们可以独立于Agent的内部结构和具体实现细节来构造Agent体系结构，定义Agent状态，分析Agent行为的规律性特征.然而这些抽象认知概念并不足以有效地刻画Agent、研究和分析Agent计算.具有某种意愿的Agent并不意味着它就能成功地实现其意愿［2］，Agent成功地实现其意愿还必须具有相应的能力.
+　　能力是规范和描述Agent、理解和分析Agent计算的一个重要抽象概念，原因是：① Agent的能力是Agent进行计算的前提，它将影响和约束Agent的行为决策.在Agent计算过程中，理性Agent将根据其能力来选择规划、执行动作；② Agent的能力是Agent成功地实现其任务的一个重要条件；③ 能力概念可以有效地规范和描述复杂系统的需求，指导系统设计，这一抽象概念使得我们可以脱离系统的内部结构和具体实现细节来研究和分析复杂系统的行为，因而规范和描述Agent、分析Agent计算还必须研究和刻画能力这一抽象概念.
+2　多Agent系统计算的逻辑框架
+　　多Agent系统计算的逻辑框架主要包括3个部分：语法、模型和语义.我们将基于该逻辑框架来开展Agent计算的理论研究.
+2.1　形式化语言L
+　　形式化语言L是对命题分枝时序逻辑CTL的扩充.语言L的公式集由状态公式集Lt和路径公式集Ls 2部分组成.设Φ是原子命题符号集合；ConstAg是Agent符号集合；ConstAc是原子动作符号集合；ConstP是规划表达式符号集合；ConstT是规划树符号集合.这些集合均非空且递归可枚举.为了简化说明，文中具有以下符号约定：① p, q表示原子命题符号；② φ，Ψ表示公式符号；③ i, j表示Agent符号；④ a, b表示原子动作符号；⑤ α,β表示规划表达式符号; ⑥ 表示规划树符号， 其中是空树符号.
+　　定义1. 语言L是由下列规则定义的最小封闭集合
+　　① p∈Lt ；
+　　② 如果ψ, φ∈Lt , 则φ,Ψ∧φ, Hasi() , Kiφ, Δ:φ, |{doi()}|Pφ, |{doi()}|Tφ, Caniφ∈Lt；
+　　③ 如果φ∈Ls，则Aφ∈Lt ；
+　　④ 如果Ψ, φ∈Ls，则φ, Ψ∧φ, Ψ∪φ,〈doi(α)〉φ，［doi(α)］φ∈Ls; 
+　　⑤ LtLs；
+其中，规划表达式定义如下：
+　　⑥ 如果φ∈Lt ，则confirm(φ)，a∈ConstP;
+　　⑦ 如果α, β∈ConstP，则α;β，α|β∈ConstP;
+规划树表达式定义如下：
+　　⑧ ，α∈ConstT;
+　　⑨ 如果α∈ConstP且1,…, n∈ConstT，则〈α;1,…, n〉∈ConstT 
+　　一棵规划树或者是一棵空树，或者是由单结点规划所构成的规划树，或者是由根结点规划以及一组子树组成.规划树中的每个结点对应于一个规划.每个结点所对应的一组子树刻画了Agent在执行了该结点规划之后的规划选择函数，即Agent选择并执行根结点规划，并根据该规划的执行情况选择某一棵子树进一步执行. Agent如何选择子树、选择哪棵子树执行取决于Agent的知识.
+　　除了通常的命题连接词外，形式化语言L还引进了其它算子包括：“Until”时序算子U；全称路径算子A；动作算子〈 〉和［ ］；知识算子K；规划树存在算子Has； 子规划树存在量词Δ；规划算子|{ }|p；规划树算子|{ }|T；能力算子Can. 语言L还引进规划构造算子以构造复杂的规划表达式，包括测试算子confirm；顺序组合算子“;”，α;β表示先执行规划α然后再执行规划β；不确定选择算子“|”，α|β表示不确定地选择规划α或者规划β执行.一个规划树表达式或者是空树，或者是规划表达式，或者是具有形如〈α; 1,…, n〉的表达式.
+2.2　模型和语义
+　　定义2. 形式化语言L的一个模型M是一结构〈T, <, U,Π,π,Act,［ ］, B 〉.
+　　T是时刻集；<T×T，<是T上的偏序关系且满足过去线性； U=UAg∪UAc∪Up∪UT ，其中UAg是Agent集合，UAc是原子动作集合，Up是基于UAc的Agent规划集合，UT是基于UP的Agent规划树集合； Π: UAg→powerset(UT)，Π定义了每个Agent的规划库，π：Φ　→powerset(T)，π是对原子命题的解释.π(p)定义了使原子公式p成立的时刻集； Act: UAg×UAc→powerset(T×T)，Act定义了原子动作的发生，［t, t′］∈Act(i,a)表示Agenti在［t, t′］路径子区间中执行动作a, 其中t是动作执行的起始时刻，t′是终止时刻；［ ］：(ConstAg→ UAg)∪(ConstAc→UAc)∪(ConstP→UP)∪(ConstT→UT), ［ ］是对Agent符号、原子动作符号、规划符号和规划树符号的解释. B:UAg→powerset(T×T)，(t,t′)∈B(i)是指Agenti在t时刻认为t′时刻是可能的，关系B(i)满足自反性和传递性，函数B用于定义Agent的知识.
+　　T中的每一时刻对应于世界的一个状态.世界状态由在该状态下为真的原子命题来表示.<是T上的偏序关系，它描述了时刻间的先后次序.在形式化模型中，任意时刻的过去是线性和确定的，它的将来可能是分枝的.整个形式化模型呈图1所示的树形结构.时刻t的一条路径是指始于该时刻，由t的将来时刻构成的一条线性分枝，它刻画了世界的某种特定发展轨迹.　　
+
+
+图1　形式化模型示意图
+　　定义3. 时刻t的一条路径是指集合ST且满足：① t∈S;②t1,t2∈S: (t1<t2)∨(t2<t1)∨(t1=t2);③ t1,t2∈S;t3∈T: (t1<t3<t2)(t3∈S);④ t1∈S;t2∈T: (t1<t2)(t3∈S: (t1<t3)∧(t3<t2));⑤ t1∈S: (t=t1)∨(t<t1)
+　　定义4. 设t≤t′，则［t,t′］ = { t″|t≤t″≤t′}为一路径子区间.设St表示时刻t的所有路径的集合，SΣ是所有路径的集合.
+　　多Agent系统是个动态、不确定的系统.系统中各个Agent的动作并发、异步地发生.在任一时刻，Agent可能执行各种动作并通过动作的执行来影响和控制世界的发展，然而这种影响和控制是有限的，世界发展轨迹还受其他Agent动作执行事件和环境事件的影响，所有Agent动作执行事件和环境事件共同确定世界的发展.考虑图1所示的由两个Agent构成的多Agent系统计算的形式化模型.图中的结点表示时刻，边表示多个Agent的动作并发地发生.我们假定“‖”左侧符号表示Agent1的动作，右侧符号表示Agent2的动作.在t0时刻Agent1通过执行动作a使得世界沿t1或t2方向发展，但世界发展的将来时刻是t1还是t2还取决于Agent2的动作.当Agent2执行动作c时则世界沿t1方向发展，当Agent2执行动作d时则世界沿t2方向发展.在形式化模型中，不同的路径对应于不同的Agent动作执行事件与环境事件的组合，反映了世界的不同发展轨迹.
+　　Lt中公式的可满足语义定义由模型M和时刻t给出. Mtφ表示模型M在时刻t满足公式φ.Ls中公式的可满足语义由模型M，路径S和时刻t加以定义.Ms,tΨ表示模型M在路径S的时刻t满足公式Ψ.
+　　定义5. 设Σ为规划树的子规划树的集合, 则Σ定义如下：
+　　① 如果=或=α,则Σ=Φ；
+　　② 如果=〈α; 1, 2, …, n 〉, 则Σ= {1, 2, …, n } .
+　　为了简化算子Δ的语义定义，我们限定算子Δ不能嵌套且公式中的每个规划树符号只能被量化一次.设φ|，′ 是用′替换在φ中所有出现所得到的公式.
+　　定义6. 状态公式的形式化语义定义如下：
+　　① Mtp　iff t∈π(p);
+　　② MtΨ∧φ　iff MtΨ且Mtφ；
+　　③ Mtφ　iff　M|≠tφ；
+　　④ MtΔ：φ　iff　′∈Σ：Mtφ|，′；
+　　⑤ MtAφ　iff　S∈St：Ms,tφ；
+　　⑥ MtKiφ　iff　t′：(t,t′)∈B(［i］)Mt′φ；
+　　⑦ MtHasi()　iff　［］∈Π(［i］).
+　　在定义路径公式的形式化语义之前，我们首先扩充形式化模型M中函数Act的定义，使得它能解释规划表达式.
+　　定义7. Act*：UAg×UP→powerset(T×T) 定义如下：
+　　① Act*(i, confirm(φ)) = {［t, t］|M|=tφ}；
+　　② Act*(i, a) = Act(i, a)；
+　　③ Act*(i, α;β) = {［t, t′］|t″：t≤ t″≤t′ 且［t, t″］∈Act*(i, α)且 ［t″, t′］∈Act(i,β) }；
+　　④ Act*(i, α|β) = Act*(i, α)∪Act*(i,β).
+　　定义8. 路径公式的形式化语义定义如下：
+　　① Ms,tφ　iff M|≠s,tφ；
+　　② Ms,tΨ∧φ　iff　Ms,tΨ且Ms,tφ；
+　　③ Ms,tΨUφ　iff　t′∈S: Ms,t′φ且(t″：t≤t″≤t′Ms,t″Ψ)；
+　　④ Ms,t〈doi(α)〉φ　iff　t′∈S: ［t,t′］∈Act*(［i］,［α］)且(t″：t≤t″≤t′且Ms,t″φ)；
+　　⑤ Ms,t［doi(α)］φ　iff　t′∈S: ［t,t′］∈Act(［i］,［α］)(t″：t≤t″≤t′且Ms,t″φ)；
+　　⑥ Ms,tφ　iff　Mtφ，其中φ∈Lt.
+　　根据上述语义定义我们可以派生出其它算子.Fφ=trueUφ，F是“必然”时序算子.G是F的对偶算子即Gφ=F(φ). <>和［］是两个动作算子以描述动作的发生以及具有的结果.直觉地，公式〈doi(α)〉φ表示Agenti完成规划α且具有结果φ，公式［doi(α)］φ表示如果Agenti能够完成规划α，则具有相应的结果φ.<>和［］的语义遵循了标准动态逻辑中的定义，然而上述语义定义具有更强的灵活性，即要求φ在规划执行过程中(而不是在规划完成之时)成立.值得注意的是，［］不是<>的对偶算子.［doi(α)］φ的对偶是［doi(α)］φ.直觉地，［doi(α)］φ是指Agenti完成规划α且在规划执行过程中公式φ恒成立. Ms,t［doi(α)］φ　iff　t′∈S: ［t,t′］∈Act(［i］,［α］)且(t″：t≤t″≤t′Ms,t″φ).同理<>不是［］的对偶算子.公式Hasi()表示Agenti具有规划树.Kiφ表示Agenti具有知识φ或Agenti知道φ.
+3　描述Agent能力的Can算子
+　　由于本文试图基于一种主观的观点(即站在Agent角度)来开展Agent计算的能力理论研究，因而我们将Agent视为一规划系统，它具有一组规划，并能对规划进行有效、合理的组织以实现其任务.我们引进了规划树概念以研究和分析在动态、不确定的多Agent系统中Agent的能力.Agent的规划树刻画了Agent对其规划进行组织的组织结构、封装了Agent在实现其任务过程中的规划选择函数.引进规划树的原因是① 在多Agent系统中，每个Agent都是一个规划系统.它具有一组规划，并能基于这些规划来实现一些简单的任务和目标.然而对于一些复杂的任务而言，Agent必须具备对其规划进行合理组织的能力.② 在多Agent系统中，Agent的规划并不总是可执行的.Agent的行为可能受外部条件的约束和限制，例如资源共享和冲突等因素，而多Agent系统是一个动态、不确定的系统.动态性体现在：多Agent系统中Agent动作执行事件和环境事件不断地发生，多Agent系统呈现出一种动态发展和变化的过程.不确定性表现在：多Agent系统中的各个Agent都是自主的行为实体.Agent通过动作的执行来影响和控制系统的发展，但Agent的这种影响和控制是有限的，系统的发展还受其他Agent的动作执行事件以及环境事件的影响，因而对于多Agent系统中的各个Agent而言，系统的发展是不确定的.在任一时刻，Agent既不能完全控制系统的发展，也不能完全准确地判断出其他Agent的行为以及系统发展的实际轨迹.因此Agent仅仅通过更为详细、更为具体的规划来实现其任务显然是不切实际的，也是不可行的.Agent必须具备合理、有效的组织和调整其规划的能力，必须根据系统发展的实际情况来选择规划、执行动作.基于上述分析和讨论，我们认为基于规划树概念来刻画Agent对其规划进行组织的组织结构、描述Agent在任务实现过程中的规划选择函数是比较恰当的.规划树由称为根结点的规划以及一组子树组成.在Agent实现其任务过程中，Agent将基于规划树来选择规划、执行动作.其基本思想是：Agent选择并执行根结点的规划，并根据规划的执行情况选择某一棵子树进一步执行.Agent如何选择子树、选择哪棵子树执行取决于Agent的知识.
+　　值得注意的是：规划树仅仅是对Agent的规划组织结构及其在实现任务过程中的规划选择函数的一种抽象表示.在具体实现Agent时，我们并不需要对它进行显示符号化.由于我们期望Agent能在有限时间内实现其任务，因而我们限定Agent规划库中每棵规划树的深度均是有穷的.如何构造规划以及对规划进行合理、有效地组织以形成规划树是AI和DAI领域中的一项极为复杂的工作，而且这一研究通常是与特定的问题域相关联的.本文并不试图在这一方面开展研究工作.我们假定每个Agent拥有一个由规划树所构成的规划库.我们将基于Agent的规划树来研究和分析Agent的能力概念.
+　　我们首先给出算子|{ }|p的形式化语义定义.直觉地, 公式|{doi(α)}|pφ表示Agenti知道它能通过规划α的执行来实现φ.
+　　定义9. 算子|{ }|p的语义定义如下：
+　　① Mt|{doi(confirm(Ψ))}|pφ　iff　MtKi(Ψ∧φ)；
+　　② Mt|{doi(a)}|pφ　iff　MtKi(E〈doi(a)〉true∧A［doi(a)］Kiφ)；
+　　③ Mt|{doi(α;β)}|pφ　iff　Mt|{doi(α)}|p(|{doi(β)}|p)；
+　　④ Mt|{doi(α|β)}|pφ　iff　Mt|{doi(α)}|pφ或Mt|{doi(β)}|pφ .
+　　① 指出Agenti在时刻t知道它能通过规划confirm(Ψ)来实现φ当且仅当在该时刻Agent知道φ和Ψ均成立.② 指出Agenti在时刻t知道它能通过原子动作a的执行来实现φ当且仅当在该时刻Agenti知道它能够执行原子动作a且知道如果动作a发生则必有结果φ.③ 指出Agenti在时刻t知道它能够通过规划α; β来实现φ当且仅当在该时刻Agenti 知道它能通过规划α的执行来实现|{doi(β)}|pφ.④ 指出Agenti在时刻t知道它能够通过规划α|β的执行来实现φ当且仅当在该时刻Agenti知道它能通过规划α的执行来实现φ或者知道它能通过规划β的执行来实现φ.基于算子|{ }|p，下面我们给出算子|{ }|T的形式化语义定义.直觉地，公式|{doi()}|Tφ表示Agenti知道它能通过规划树的执行来实现φ.
+　　定义10. 算子|{ }|T的语义归纳定义如下：
+　　① Mt|{doi()}|Tφ　iff　MtKiφ；
+　　② Mt|{doi(α)}|Tφ　iff　Mt|{doi(α)}|pφ；
+　　③ Mt|{doi(〈α；1, …, n 〉)}|Tφ　iff　
+　　　　Mt|{doi(α)}|T(Δ〈α；1, …, n〉：|{doi(〈α；1, …, n〉)}|Tφ).
+　　① 指出Agenti在时刻t知道它能通过空规划树来实现φ当且仅当在该时刻Agenti知道φ成立.② 指出Agenti在时刻t知道它能通过由单一规划α所构成的规划树来实现φ当且仅当在该时刻Agenti知道它能通过规划α的执行来实现φ.③ 指出Agenti在时刻t知道它能够通过规划树=〈1，2, …,n〉来实现φ当且仅当在该时刻Agenti知道它能执行规划α以实现Δ〈α；1, …,n〉：|{doi(〈α；1, …, n〉)}|Tφ. 公式Δ〈α；1, …,n〉：|{doi(〈α；1, …, n〉)}|Tφ在时刻t成立当且仅当存在规划树〈α；1, …,n〉的一棵子树′∈{1, …,n}使得|{doi(′)}|Tφ在时刻t成立.
+　　下面我们给出Can算子的形式化语义定义.公式Caniφ表示Agenti具有能力实现φ.Agent在某一时刻的能力不仅与Agent的规划以及对规划的组织能力(即Agent所具有的规划树)相关联，而且还与该时刻规划树的执行情况以及Agent所具有的知识相关联.
+　　定义11. MtCaniφ　iff　MtHasi()∧|{doi()}|Tφ.
+　　根据上述语义定义，公式Caniφ在时刻t成立当且仅当在该时刻Agenti知道它具有某棵规划树且它能通过该规划树来实现φ.下面我们给出算子Can 的一组公理并证明这些公理是可靠的.
+　　公理1. Hasi()∧Kiφ→Caniφ.
+　　公理2. Hasi(α)∧|{doi(α)}|pφ→Caniφ.
+　　公理3. Hasi(〈α；1, …,n〉)∧|{doi(〈α；1, …,n〉)}|Tφ→Caniφ.
+　　①本文的定理和引理在文献［4］都得到证明.由于篇幅限制，文中仅给出证明思路而没有给出详细证明.定理1. 公理1～公理3是可靠的①.可根据Can算子的形式化语义定义来证明该定理.算子Can在知识和规划层次上刻画了Agent的能力.公式Caniφ在时刻t成立当且仅当在该时刻Agenti具有某棵规划树且知道它能以该规划树作为其规划选择函数来实现φ.
+　　引理1. |{doi(α)}|pφ→KiEFKiφ.引理1表明如果Agenti知道它能通过规划α的执行来实现φ, 则它知道存在一条路径且φ在该路径上必然成立.可对算子|{ }|p采用归纳法来证明该定理.
+　　引理2. |{doi()}|Tφ→KiEFKiφ.引理2表明如果Agenti知道它能通过规划树来实现φ, 则它知道存在一条路径且φ在该路径上必然成立.可对|{ }|T算子采用归纳法并结合引理1来证明该定理.
+　　定理2. Caniφ→KiEFKiφ.定理2表明如果AgentI具有能力实现φ, 则它知道存在一条路径且φ在该路径上必然成立.可根据Can算子的语义定义以及引理2来证明该定理.
+　　定理3. Caniφ→KiCaniφ.定理3表明如果Agent具有能力实现φ，则Agent知道它能实现φ.可根据Can算子的语义定义以及定理Kiφ→KiKiφ来证明该定理.
+　　定理4. Canifalse. 定理4指出任何Agent都不能够实现false.可采用反证法并结合定理2来证明该定理.
+4　对比和应用
+　　近年来能力理论的研究引起了人们的重视［1～3］.根据研究角度的不同，这些理论大致可分为2类：① 基于客观观点的研究，即站在Agent外部观察者的角度，根据所观察到的Agent行为来研究和分析在什么情况下Agent被认为具有某种能力.② 基于主观观点的研究，即站在Agent角度来构造形式化系统.Haddadi研究了能力理论以分析和讨论Agent是如何基于其能力来参与合作的，她的工作是基于主观观点的研究［3］.Shoham在开发AOP的过程中引进了能力概念以研究Agent是如何基于其能力作出承诺的［1］.然而已有的许多工作［1，3］都没有考虑多Agent系统的社会性、动态性和不确定性.没有认识到Agent在这样的社会中所起的影响和作用以及这种影响和作用的有限性.Singh的工作弥补了上述不足，他引进了Know-how这一抽象概念以刻画Agent的能力并指出Know-how是规范Agent、描述Agent间通信行为的一个重要概念［2］.他的工作是基于客观观点的研究.本文基于一种主观的观点（即站在Agent角度）提出了Agent计算的能力理论.我们强调了Agent在多Agent系统中的影响和作用以及这种影响和作用的有限性，并提出了规划树概念以研究和分析Agent的能力.
+　　我们所提出的能力理论可以用于规范和描述Agent、获取和分析多Agent系统的需求.例如在开发自动售货机的过程中(假设我们将自动售货机视为一个Agent)，我们可以要求自动售货机必须具有检测和分辨硬币价值的能力.能力概念还可以进一步地用于分析Agent是如何基于其能力作出行为决策、进行计算的，提出Agent计算的抽象模型［4］.能力概念的另一个重要应用是规范和描述Agent间交互和通信行为、刻画Agent间交互和通信行为的有效性和可满足性［5］.例如一个请求行为被满足如果接收方Agent具有相应的能力.
+5　结论
+　　在多Agent系统开发过程中，能力是规范Agent、研究和分析Agent计算的一个重要抽象概念.本文提出了Agent计算的能力理论以支持Agent计算的理论研究.我们引进了规划树概念来定义Agent的能力.规划树是对Agent的规划组织结构以及在实现任务过程中Agent的规划选择函数的一种抽象表示.在Agent实现其任务的过程中，Agent将基于规划树来选择规划、执行动作.Agent某一时刻的能力不仅与Agent的规划以及对规划的组织能力(即Agent具有的规划树)相关，而且还与该时刻规划树的执行情况以及Agent的知识相关联.
+本课题得到国家自然科学基金(项目编号69503002)和国防预研基金项目的资助.
+作者简介：毛新军，男，1970年9月生，博士，主要研究方向为Agent理论、分布计算等.
+　　　　　王怀民，男，1962年6月生，教授，主要研究方向为分布计算、Agent理论等.
+　　　　　陈火旺，男，1936年2月生，教授，主要研究方向为计算机科学理论、人工智能等.
+　　　　　刘凤歧，男，1938年5月生，教授，主要研究方向为人工智能等.
+作者单位：国防科学技术大学计算机科学系　长沙　410073
+参考文献
+　1　　Shoham Y. Agent-oriented programming. Artificial Intelligence, 1993, 60(4): 51～92
+　2　　Singh M P. Multi-Agent System: A Theoretical Framework for Intentions, Know-how, and Communications. Berlin, Heidelberg: Springer-Verlag, 1994
+　3　　Haddadi A. Communication and Cooperation in Agent Systems: A Pragmatic Theory. Berlin, Heidelberg: Springer-Verlag, 1996
+　4　　Mao Xinjun. The theoretical framework of multi-agent computing［Ph D dissertation］. Changsha Institute of Technology. Changsha, 1998
+　5　　Mao Xinjun, Wang Huaimin, Chen Huowang. An active model for distributed cooperative computing. Chinese Journal of Computers(in Chinese), 1998, 21(Supplement): 231～236 
+原稿收到日期：1997-12-26；
+修改稿收到日期：1999-03-11.

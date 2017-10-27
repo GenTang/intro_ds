@@ -1,0 +1,88 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第2期 No.2 1999
+
+
+
+我国轻型汽车污染物排放因子的测试研究
+邓顺熙　史宝忠
+　　摘要：采用底盘测功机按ECE-15规程测试了我国13辆(12种)正在使用的轻型汽车的CO、HC和NOx的排放量分别为87.25 ± 56.31、11.36± 5.13和8.20± 6.68g/test；在相同测试条件下,测试了其中11种轻型车在不同车速匀速行驶时的CO、HC和NOx排放因子.测试结果表明,轻型汽车污染物排放因子随车速的变化有良好的规律性.用统计方法拟合了轻型汽车污染物排放因子的车速变化系数的计算公式.当车速<90km/h时 ,轻型车CO、HC排放因子随车速的增加而减小,当车速>90km/h时 ,又略有增加,而NOx排放因子随车速的增加而增大.
+　　关键词：轻型汽车；汽车污染物；排放因子；底盘测功机
+　　中图分类号：X511　　文献标识码：A　　文章编号：1000-6923(1999)02-0176-04
+An experimental study on pollutant emission factors of light duty vehicles in China.
+DENG Shun-xiSHI Bao-zhong
+(1.Environmental Engineering Division, Xi'an Highway University, Xi'an 710064, China；2.Department of Environmental Engineering, Xi'an University of Architecture and Technology, Xi'an 710055,China).China Environmental Science. 1999,19(2)：176～179
+Abstract：The emission quantities of CO, HC and NOx of 13 light duty vehicles, measured using the ECE-15 driving cycles on chassis dynamometer, were 87.25 ± 56.31,11.36 ± 5.13 and 8.20± 6.68 g/test,respectively.Meanwhile, the pollutant emission factors of 11 vehicles at the different average driving speeds were measured. The measured data showed that the relationship between emission factors of these vehicles had the same change trend with the car speeds. The statistical formulas for calculating the coefficients of the pollutant emission factors vs. vehicle speeds were developed. When the speeds of vehicles were less than 90 km/h, the both CO and HC emission factors decreased with the raising vehicle speeds;while the speeds were more than 90 km/h, they slightly increased with the raising speeds. However, the emission factor of NOx increased with raising car speeds.
+Key words：light duty vehicles；vehicular pollutant；emission factors；chassis dynamometer
+　　汽车污染物排放量和排放因子是计算道路机动车污染物排放源强的关键参数[1-3],在汽车空气污染研究[4]、汽车控制装置的研制等方面有广泛的应用.在城市市区交通中,轻型汽车(质量＜3.5t)占有很高的比例.经西安市城市汽车的分类调查表明,轻型汽车占城区汽车的85%以上.鉴于国内有关城市汽车污染物排放特性的测试研究工作较少,本文选取13辆(12种)国内有代表性的轻型汽车采用底盘测功机对其尾气污染物排放特性进行了较系统的测试和分析.给出了代表汽车在有红绿灯街道上行驶时,即车速由怠速、加速、均速、减速组成的工况行驶条件下污染物排放量和代表汽车在畅通、无平面交叉道路上匀速行驶时污染物排放因子.其研究结果可供在计算城市道路汽车污染物排放源强和汽车尾气防治技术研究和开发等工作中参考使用.
+1 测试方法及规程
+1.1 测试方法
+　　采用底盘测功机测试法测定各轻型汽车在给定规程和匀速行车条件下汽车尾气中CO、NOx和HC排放量(g/test)(按图2工况行驶195s为一次试验或test)和排放因子(g/km.ven).测试方法如图1所示.
+
+
+图1 汽车尾气测试过程示意
+Fig.1 Schematic diagram of measuring vehicular pollutants
+1.2 测试设备及分析仪器
+　　测试汽车运行的设备为日本小野公司产CD-1535-HD型汽车底盘测功机.使用等容采样法(CVS)采集被测汽车的尾气.使用日本堀场公司产MEXA-8420型汽车排气分析仪分析尾气中CO、HC和NOx浓度.该仪器的分析原理为采用非色散红外分析(NDIR)法分析CO成份；使用氢火焰离子化(VZD)法分析HC；使用化学发光分析法(CLD)分析NOx.
+1.3 测试汽车 
+　　上海-SANTANA1,Audi-100,北京-130,金杯(GMC)S10,解放(CA6440),捷达CL,Citraen zx,红旗CA630C,Nission Cabstar,Tflay(DAEWO-O),D-ODGE 600SE, MAZDA-E180,上海-SANTANA2.
+2 结果及分析
+2.1 轻型车污染物排放量
+　　汽车排气中污染物含量与汽车行驶工况(怠速、加速、等速、减速)、空气与燃料比、环境温度、发动机负荷等因素有关.要比较不同汽车污染物排放量,只有在同一工况条件下测得数值才有可比性.我国采用欧洲ECE-15工 况测试法,规定了轻型汽车排气污染物测试方法(GB11642-89).ECE-15测试规程运转循环如图2所示,测试一个周期为195s.可见ECE-15工况的循环基本上综合了汽车各档位的车速和各变档过程,具有汽车在城市有红绿灯街道行驶的特点.
+
+
+图2 ECE-15工况运转循环示意
+Fig.2 ECE-15 mode for driving cycles
+　　按工况(ECE-15)测得13辆轻型汽车的CO、HC和NOx排放量见图3.由图3数据分析,所测13辆轻型汽车CO、HC和NOx的排放量分别在8.43～228.01、4.69～22.33和0.30～27.03g/test之间,CO、HC和NOx排放量平均值分别为87.25、11.36和8.20g/test,其标准差分别为56.31、5.13和6.68g/test.按进口车和国产车(包括引进生产线)分,进口车CO、HC和NOx排放量均值分别为44.978、7.583和6.700g/test；国产车CO、HC和NOx平均排放量分别为106.033、13.036和8.870g/test.在所测13辆车中,国产车CO、HC和NOx平均排放量分别是进口车平均排放量的2.36、1.72和1.32倍.两辆SANTANA1和SANTANA2测得CO、HC和NOx的排放量分别相差2.29、1.14和0.043倍.这说明即使是同型号车,其相同运行规程,汽车污染物排放量之间差异也十分显著.
+
+
+图3 ECE-15规程各轻型车污染物排放量
+Fig.3 The emission quantities of pollutants from tested cars operating in ECE-15 mode
+2.2 轻型车等速污染物排放因子
+　　当汽车在畅通无平面交叉的道路上行驶时,汽车的速度相对稳定,这时ECE-15工况测试不能反映汽车匀速行驶时污染物排放特征,故测定其中11辆轻型车在不同行驶速度(等速）(20,30,40,50,60,70,80,90,100,110km/h)条件下CO、HC和NOx排放因子与车速的关系(图4).由图4可看出,轻型车CO和HC排放因子随车速增加而减少,NOx排放因子基本上随车速增加而增加.从11辆车的污染物排放速度变化曲线看,CO排放因子最大值与最小值有数量级之差,NOx和HC排放因子有数倍差值.
+
+
+图4 轻型车污染物排放因子与车速的关系
+Fig.4 Variation of emission factors of pollutants with average speeds
+3 轻型车排放因子车速订正系数曲线方程的拟合
+3.1 无量纲速度订正系数
+　　图4表明,不同的车在相同车速下其尾气污染物浓度差异十分显著.在道路汽车污染物排放量计算中一般把汽车车速对汽车污染物排放因子的影响表示成无量纲车速订正系数[5].为了分离出车速对汽车污染物排放因子的影响,把不同车速下测得的排放因子除以某一给定车速vo测得的排放因子, 得到无量纲车速修正系数：
+(1)
+式中:l ij(v)为i车行驶车速v (km/h)时排放j种污染物车速订正系数；Eij(vo)为i车在车速vo时j种
+污染物排放因子；Eij(v)为i车在车速v时j种污染物排放因子.
+3.2 速度订正系数曲线方程的拟合
+采用多项式来拟合,设回归方程为:
+λij(v)=β0+β1v+β2v2+…+βpvp (2)
+式中:β0,β1,…,βp为回归系数；v为车速；p为多项式的次数.令x1=v, x2=v2,…,则(2)式化为线性回归方程:
+λij(x)=β0+β1x1+β2x2+…βpxp (3)
+利用实测值｛vm ,λm｝,m=1,2,…,n;n为 测点数,解对应(3)式的正规方程:
+
+
+
+得:
+取v0 = 50km/h求解式(4)表明,当p = 2,即用抛物线l (v)=β0+β1v+β2v2拟合足以使实测值与拟合曲线之间相关系数R2达0.99.轻型车CO、HC和NOx的车速订正系数曲线方程分别为：
+λCO (v)= 4.3618-0.0954v+0.00058v2
+R2 = 0.99 (5)
+λHC (v)= 3.1075- 0.05673v+0.0003v2
+R2 = 0.99 (6)
+λNOx(v)= 1.1219- 0.00766v+0.0001v2
+R2 = 0.99 (7)
+　　图5是拟合的轻型车单车污染物排放因子的车速订正系数与实测值之间的关系.
+
+
+图5 单车污染物排放因子速度订正系数曲线与实测值之间关系
+Fig.5 The relationship between calculations of driving speed amendment curves and observationsfor vehicular emissions
+4 结论
+4.1 按ECE-15规程行驶我国轻型汽车尾气中CO、HC和NOx排放量均值分别为87.25、11.36和8.20g/test;标准差分别为56.31、5.13和6.68g/test.进口车污染物排放量明显小于国产车. 
+4.2 轻型车CO、HC和NOx排放因子值离散性很大,但随车速的变化有良好的规律性,当车速v＜90km/h时轻型车CO、HC污染物排放因子随车速的增加而减小；当车速v＞90km/h时又略有增加,而轻型车NOx排放因子随车速的增加而增大.轻型车CO、HC和NOx排放因子的车速订正(参考车速v0=50km/h)系数方程为(5)～(7)式.
+基金项目：交通部资助科研项目(1994-1265)
+作者简介：邓顺熙(1960-),男,陕西神木人,西安公路交通大学博士生.主要从事汽车污染物排放因子的测试和汽车尾气扩散模式的研究.主持完成交通部“公路汽车污染物排放因子的研究”和“立交桥汽车污染物扩散模式研究”等课题,发表论文8篇.
+作者单位：邓顺熙　西安公路交通大学环境工程研究所,陕西 西安 710064
+史宝忠　西安建筑科技大学环境工程系,陕西 西安 710055
+收稿日期：1998-06-04
+参考文献：
+　[1]EPA/TEB-89/01.User's guide to mobile4[R]. EPA Ann Arbor, MI,1989.
+　[2]Eggleston H S, Goriβen N. Jourmard R,et al. CORINAIR work-ing group on emission factors for calculating emissions from road traffic[R].Methodology and emission factors. Report Vol.1, No. EVR 12260EN,Luxembourg,1989.
+　[3]EPA. Compilation of air pollutant emission factors[R]. US Environment Protection Agency. AP-42,NC,USA.1985.50-83
+　[4]邓顺熙,梁 鹏.公路汽车排气污染物扩散模式的研究[J]. 西安公路交通大学学报,1997,17(3):80-84. 
+　[5]中华人民共和国行业标准.公路建设项目环境影响评价规范(JTJ 005-96)[S].北京:人民交通出版社,1997.14-18.

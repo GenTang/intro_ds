@@ -1,0 +1,174 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第5期 Vol.23 No.5 1997
+
+
+
+一种多机械手(指)自适应协调控制
+的递推算法1)
+朱文宏　席裕庚　江卓军
+摘　要　提出了一种多机械手(指)的自适应协调控制递推算法.原系统的控制问题转化为各子系统的控制问题.各子系统之间的动态关联在Lyapunov意义下表示为在各分解点处的“虚功率流”.机械手指的点接触问题处理成被动关节的控制问题.原系统的渐近稳定性在Lyapunov意义上得到保证.计算机数字仿真验证了理论结果.
+关键词　机器人控制，自适应控制，Lyapunov稳定性.
+A RECURSIVE ALGORITHM FOR ADAPTIVE CONTROL OF
+COORDINATED MULTIPLE MANIPULATORS/FINGERS
+ZHU WENHONG　　XI YUGENG
+(Department of Automation,Shanghai Jiaotong University,Shanghai 200030)
+JIANG ZHUOJUN
+(Ningbo Port Office,Ningbo,315200)
+Abstract　This paper presents a recursive algorithm for adaptive control of coordinated multiple manipulators/fingers.The control problem of the complete system is converted into the control problem of each subsystem.In the sense of Lyapunov,the dynamic interactions between the subsystems are completely represented as virtual power flows(VPFs) at their cutting points.Finger tip is considered as a passive joint.Lyapunov asymptotic stability of the complete system is guaranteed.Computer simulation is conducted to verify the validity of the proposed approach.
+Key words　Robot control,adaptive control,multi-robot control,Lyapunov stability.
+1　引　言
+　　近来年，多机械手协调控制已成为机器人控制方面的一个热点［1—9］.多机械手协调控制不仅包括运动控制，而且包括内力控制.文献［4］用Lagrangian模型对多机械手设计了自适应控制，但除了要求加速度测量外，由Lagrangiun模型所导出的控制律使得实时控制较为困难.文献［5］给出了基于Newton-Euler方程的控制律，可是要求精确的机械手参数.
+　　本文指出的控制算法克服了上述算法的缺点.它首先将原系统的控制问题转化为各子系统的控制问题，各子系统之间的动态关联表示为十分简单的“虚功率流”形式.文中同时对多手指系统进行了研究.
+2　运动学描述
+　　不失一般性，假定m个6关节机械手刚性地抓住一物体，系统中不存在运动学奇异问题.若干坐标系定义如下：系O与被抓物体固连；系S的原点位于被抓物体与环境的接触面上，其坐标轴与约束面的法线及切平面重合；系Ci,i=1,2,…,m，固连于第i个机械手的末端；系Lij,Tij,j=1,2,…,6，固连于第i个机械手的第j杆和第j-1杆上，它们的z轴与第j关节的轴线重合.
+　　每一坐标系均伴随一个6维广义速度：φx=［φvT,(φwT］T=［(φRI.vφ)T，(φRI.wφ)T］T，式中vφ∈R3和wφ∈R3代表系φ的线性/角速度在惯性系中的表示.φRI∈R3×3代表一个正交旋转变换阵，它将一个在惯性系I中表示的3×1向量转换到系φ中表示.每一关节速度可以表示为
+
+(1)
+式中代表第i个机械手第j个关节的关节速度；对于滑动关节zij=［001000］T，对于旋转关节代表广义力/矩变换阵，αrβ∈R3代表一个从系α原点指向系β原点并在系α中表示的向量.“×”代表cross积.
+　　系统增广速度定义为
+
+式中
+　　多机械手刚性抓物为
+
+(2)
+式中Ji∈R6×6代表第i个机械手从关节速度至系O速度的Jacobian矩阵.被抓物体与环境的接触使得
+
+(3)
+式中x∈R6-r代表独立速度，r为约束空间维数.结合式(1)—(3)给出X=Π.x,　　　　　　　(4)
+式中
+
+　　期望独立速度设计为
+xr=xd+λ.ε,
+(5)
+式中λ＞0，xd为给定值.ε代表位置/位姿误差向量，ε的选取必须满足下式：
+
+(6)
+式中r*＞0，K(t)为一正定阵.
+　　对于二个固连于同一刚体的系α和β，有dx=βUTα.βx.根据文献中的定义，有H0=sUT0.Tp,式中Tp∈R6×(6-r)为系S中运动子空间的基，它由6-r个单位正交向量所组成.如果选定
+很容易验证(6)式是成立的.
+　　基于(4)，(5)式，系统期望增广速度设计为
+Xr=Π.xr.
+(7)
+3　系统动力学及控制设计
+　　在固连系α中的刚体动力学可以写成［8，9］
+
+(8)
+式中pα代表该刚体的线性参数向量，y*α是相应的Regressor矩阵.Mα是正定常数阵，Cα(αw)是斜对称阵，Gα为重力向量.αE∈R6代表广义合成力/矩定义为
+
+(9)
+式中
+
+代表在系α中测量与表示的广义力/矩.为一对角阵，其对角元素为1时对应运动子空间，为0时对应约束子空间.
+　　第i个机械手第j关节在考虑驱动机构动力学情况下的动力学通式可以写成
+
+(10)
+式中Iij为关节等效转动惯量，fij(+)为关节主轴方向上的扰动力/矩如摩擦力/矩等，τij为电机驱动力/矩.对于理想铰链关节，(10)式左端为零.
+　　基于(8)式，各刚体的期望合成力矩设计为
+
+(11)
+式中　为正定阵.参数适应律设计为
+
+(12)
+式中Γα及R(t)为正定阵.
+
+为微分操作子，a为一阶滤波器时间常数.基于(9)式，期望作用力/矩设计为
+　　　(13a)
+　　　(13b)
+　　　(13c)
+式中代表期望内力.基于(10)式，各关节的控制设计为
+
+(14)
+式中为正定阵.
+　　(10)，(14)式可以扩展用以处理手指抓物情况.不失一般性.假定指尖与被抓物的接触为点接触，且不存在滑动.指尖可以处理成一个三维被动球形关节，其运动方程表示为
+
+(15)
+式中代表该被动关节的旋转角速度.由于该关节是理想被动铰链关节，根据(10)式有同理(14)式变成
+
+(16)
+式中Ki∈R3×3为正定阵.结合(13a)，(16)式得
+
+(17)
+式中为已知矩阵及向量.
+　　(17)式完全反映了指尖力约束的情况，它确定了ηr中3m维的子空间.ηr中剩余6(m-1)-3m维部分既可设计为跟踪目的，也可设计为优化目的.
+4　稳定性和收敛性
+　　系α所在的分解点处“虚功率流”定义为
+
+(18)
+wα是速度误差与力误差的内积，对系α具有不变性.
+　　引理1.对于由(8)，(9)式所描述的被抓物体和杆，在控制(11)—(13)式作用下，如果选择如下非负陪伴函数：
+
+(19)
+则有
+
+(20)
+式中　WTi1=Wci.
+　　证略.
+　　引理2.对于由(10)式所描述的关节在控制(14)式作用下，如果选择如下非负陪伴函数
+
+(21)
+则有
+
+(22)
+　　推论1.对于由(15)式所描述的指尖在约束方程(16)式作用下，如果选择非负陪伴函数Vi=0,则有
+
+(23)
+　　(20)—(23)式说明各子系统之间的动态关联可以通过在各分解点处的“虚功率流”所完全反映.选择系统的Lyapunov函数为各子系统非负陪伴函数的总和
+
+(24)
+从而保证了原系统的全局渐近稳定性，即
+
+(25)
+因为所有的“虚功率流”在中得到了相互抵消.
+　　根据(8)，(11)，(10)和(14)式，有
+
+(26)
+式中　
+　　
+考虑(Xr-X)T(Fr-F)=0,根据(4)，(7)式有ΠT(Fr-F)=0.用ΠT左乘(26)式得
+
+(27)
+将(27)式代入(26)式得
+
+(28)
+式中另一方面，根据(9)，(13)式得
+
+(29)
+式中为可逆阵，
+
+同时根据(9)，(13a)式有
+
+(30)
+式中代表系统内力.根据(28)—(30)式得
+
+(31)
+　　定理.对于由(1)—(4)，(8)—(10)及(15)式所描述的多机械手(指)抓物系统，在控制设计(5)—(7)，(11)—(14)及(16)式作用下，当选用由(24)式所描述的Lyapunov函数时，实现了由(25)，(31)式所表征的系统全局稳定性.
+5　仿真结果
+　　计算机仿真是针对两个Puma560机械手协调抓物并跟踪一条长为一米的六维空间中的直线而设计的.仿真模型的参数是通过对真实Puma机械手进行参数辨识而得到的.采样周期选为5ms,a=5,λ=20.考虑到约束力与内力在性质上的一致性，仿真中没有包括约束情况.
+　　仿真结果示于图1.假定被抓物有两个未知参数——m质量及m.z质量矩，其真值为初始估值为仿真结果显示位置/位姿误差均收敛于零，内力和参数误差也得到了很好的收敛.
+
+
+
+
+图1　仿真结果
+6　结语
+　　本文的结果为协调多机械手(指)抓物系统的“模块化”自适应控制设计和“模块化”稳定性分析提供了可能.无论期望合成力/矩的计算还是参数适应律均可针对各子系统而分别独立地进行.模块之间仅需很少的通讯，如：和αFr，这为并行计算提供了基础.由于相对简单的子系统动力学，使得相应非负陪伴函数的选取也变得简单.因此可以说，本文在简化控制设计的同时也简化了系统稳定性分析.
+1)　本课题得到国家自然科学基金和国家“八六三”高科技项目的资助.
+作者简介：
+　　朱文宏　1963年生于南京.1984年毕业于西北工业大学航空自动控制系，1987年在该系获得硕士学位，1991年于西安交通大学信息与控制工程系获博士学位.后在上海交通大学自动化系从事博士后研究，1993年被评为副教授.目前在比利时的KULeuven做博士后研究.研究方向：多机器人控制，机器人动力学及自适应控制，服务机器人等.
+　　席裕庚　简介见本刊21卷第1期.
+　　江卓军　1971年生，1993年毕业于上海交通大学自动控制系，现在浙江宁波港务局工作.
+作者单位：朱文宏　席裕庚(上海交通大学自动化系　上海　200030)；
+　　　　　江卓军(宁波港务局　浙江　315200)
+参考文献
+［1］　Luh J Y S,Zheng Y F.Constrained relations between two coordinated industrial robots for motion control.Int.J.Robotics Research,,1987,6(3):60—70.
+［2］　Unseren M A.A rigid body model and decoupled control architecture for two manipulators holding a complex object.Robotics and Autonomous Systems,1992,10:115—131.
+［3］　Yoshikawa T,Zheng X Z.Coordinated dynamic hybrid position/Force control for multiple robot manipulators handling one constrained object.Int.J.Robotics Research,1993,12(3):219—230.
+［4］　Hu Y R,Goldenberg A A.An adaptive approach to motion and force control of multiple coordinated robots.ASME.J.Dynamic systems,Measurement,and control,1993,115(1):60—69.
+［5］　Walker M W,Kim D,Dionise J.Adaptive coordinated motion control of two manipulator arms,In:Proc.IEEE Int.Conf.Robotics Automation,1989,1084—1090.
+［6］　Uchiyama M,Dauchez P.A symmetric hybrid position/force control scheme for the coordination of two robots.In:Proc.IEEE Int.Conf.Robotics Automation,1988,350—356.
+［7］　Wen J T,Delgado K K.Motion and force control of multiple robotic manipulators.Automatica,1992,28(4):729—743.
+［8］　Zhu W H,Xi Y G,Zhang Z J.Virtual decomposition based coordinated control of multiple arms containing inner closed loops.In:Proc.First Asian Control Conference,Tokyo,1994,2:145—148.
+［9］　Zhu W H,Xi Y G,Zhang Z J.Hierarchical adaptive control of multiple manipulators by using contact force measurements.In:Proc.of 31st IEEE CDC,1992,1864—1865.
+［10］　Zhu W H,Xi Y G,Zhang Z J,Bien Z,De Schutter J.Virtual decomposition based control for generalized high dimensional robotic systems with complicated structure.Accepted for publication in IEEE Trans.Robotics and Automation as a Regular Paper.
+收稿日期　1995-08-21

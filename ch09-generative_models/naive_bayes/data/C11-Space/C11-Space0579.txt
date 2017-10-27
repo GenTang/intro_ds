@@ -1,0 +1,30 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.1 P.55-60
+
+
+
+
+FY-1C气象卫星在沙尘暴监测中的应用
+郑新江　 罗敬宁　 刘征　 
+摘　要：利用我国发射的"风云一号"（C）极轨气象卫星（FY-1C）所提供的图像，对1999年5月13～14日发生在塔里木盆地至河西走廊西部以及2000年4月6～7日发生在北京周围地区的两次沙尘暴过程进行了分析，说明FY-1C资料在环境监测方面可以发挥极好的作用。
+关键词：气象卫星；卫星遥感；沙尘暴
+分类号：V474.2+4　文献标识码：A
+文章编号：1006－1630（2001）01－0055－06
+Study of Using FY-1C Meteorological Satellite to Monitor the Dust Storm
+ZHENG Xin-jiang（National Satellite Meteorological Center CMA, Beijing 100081，China）　
+LUO Jing-ning（National Satellite Meteorological Center CMA, Beijing 100081，China）　
+LIU Zheng（National Satellite Meteorological Center CMA, Beijing 100081，China）　
+
+Abstract：The dust storm and fly ash which happened from the tarim Basin(on may 13～14th in 1999) and the Beijing area (on April 6～7th in 2000) are analyzed with the data from FY-1C Meteorological Satellite launched Recently in china .The above illustrates that the FY-1C Meteorological Satellite can exert the best function at the aspect of environment monitor.
+Keywords：Meteorological satellite; Satellite remote sensing;Dust storm
+作者简介：郑新江（1945-）男，研究员，发表论文多篇，研究领域：气象卫星资料的应用。 
+作者单位：郑新江（中国气象局国家卫星气象中心，北京 100081）　
+　　　　　罗敬宁（中国气象局国家卫星气象中心，北京 100081）　
+　　　　　刘征（中国气象局国家卫星气象中心，北京 100081）　
+
+参考文献：
+［1］郑新江,罗敬宁等. 2000年3～4月卫星监测沙尘天气分析[J]. 遥感信息,2000,(2): 26-30.
+
+收稿日期：2000年11月15日
+出版日期：2001年2月25日

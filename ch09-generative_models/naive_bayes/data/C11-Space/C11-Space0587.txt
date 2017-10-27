@@ -1,0 +1,37 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.2 P.15-23
+
+
+
+
+FY-1C卫星10通道扫描辐射计
+郑亲波　 翁垂骏　 王维扬　 龚惠兴　 
+摘　要：详细介绍了用于FY-1C卫星的10通道扫描辐射计系统性能、光学设计、电子学设计、辐射定标和主要元部件的指标性能以及卫星发射后的在轨测试结果。同时还与当前国际同类仪器的水平进行了比较。
+关键词：红外遥感系统；红外扫描系统；辐射计
+分类号：TN215; TP722.5　文献标识码：A
+文章编号：1006－1630(2001)02－0015－09
+10-Band Scanning Radiometer of FY-1C Satellite
+ZHENG Qin-bo（Shanghai Institute of Technical Physics, Chinese Academy of Sciences, Shanghai 200083, China）　
+WENG Chui-jun（Shanghai Institute of Technical Physics, Chinese Academy of Sciences, Shanghai 200083, China）　
+WANG Wei-yang（Shanghai Institute of Technical Physics, Chinese Academy of Sciences, Shanghai 200083, China）　
+GONG Hui-xing（Shanghai Institute of Technical Physics, Chinese Academy of Sciences, Shanghai 200083, China）　
+
+Abstract：10-band scanning radiometer is a main load of FY-1C meteorological s at ellite .The paper introduces optic design , electronic design, radiation calibra tion and performance of the component in detail. Testing result of the remote s ensor on after-launched satellite is given and compared with s imilar sensors abroad .
+Keywords：Infrared remote sensing system；Infrared scanning system；Radiometer
+作者简介：郑亲波(1944-)男，研究员，博士生导师，上海市宇航学会会员，风云一号(02批)气象卫星副总设计师，研究领域：空间光电遥感技术。 
+作者单位：郑亲波（中国科学院上海技术物理研究所，上海 200083）　
+　　　　　翁垂骏（中国科学院上海技术物理研究所，上海 200083）　
+　　　　　王维扬（中国科学院上海技术物理研究所，上海 200083）　
+　　　　　龚惠兴（中国科学院上海技术物理研究所，上海 200083）　
+
+参考文献：
+［1］FY-1B气象卫星在轨测试报告[R].国家卫星气象中心,1990.
+［2］FY-1C气象卫星在轨测试报告[R].国家卫星气象中心,1999.
+［3］三个海洋通道的在轨测试报告[R].国家海洋局二所,1999.
+［4］Advanced very high resolution radiometer/3[R]. Nas-5 30384 .
+［5］Characteristics of the AVHRR/3 and HIRS/3 for NOAA K,L,M[R]. Fourth Conference on Meteorology and Oceanography,1989,16-19.
+
+收稿日期：2000年10月25日
+修稿日期：2001年1月3日
+出版日期：2001年4月25日

@@ -1,0 +1,83 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第5期 No.5 Vol.18 1998
+科技期刊
+
+用溶解氧浓度作为SBR法过程和反应时间控制参数*
+王淑莹　彭永臻　周　利　(哈尔滨建筑大学市政与环境工程学院，哈尔滨 150008)
+彭永恒　(黑龙江省交通高等专科学校路桥系，哈尔滨 150050)
+文　摘　进行了以DO作为SBR法过程和反应时间控制参数的试验研究。结果表明，无论使曝气量或初始污泥浓度大幅度变化，还是逐渐或突然改变初始有机物浓度等各种试验条件，都会在反应阶段开始不久出现所谓平衡DO浓度现象；当有机物达到其难降解浓度时DO浓度迅速地大幅度升高。因此,在目前还没有简易、快速的有机物浓度传感器的情况下，DO不仅可作为反应时间的指示性控制参数，而且也能可靠地作为反应阶段的过程控制参数。
+关键词　DO　SBR法　控制参数　反应时间
+The control parameter of SBR process and its reaction time using DO.Wang Shuying,Peng Yongzhen,Zhou Li(School of Municipal and Environmental Engineering,Harbin University of Civil Engineering and Architecture,Harbin 150008);Peng Yongheng(Department of Road and Bridge Engineering, Heilongjiang Communication College,Harbin 150050).China Environmental Science.1998,18(5):415～418
+Abstract— The experimental research is introduced in which DO was used as the control parameter of SBR process and reaction time in this paper .It was revealed that the balanced DO concentration appeared soon after the reaction stage starting,and DO level rose quickly in large range when COD was degraded to its nondegradation concentration under that condition,no matter that change the aeration rate or the MLSS concentration in large range,or change the initial COD concentration gradually or suddenly in the various experimental conditions. Consequently it is indicated that DO can be used not only as the indicative control parameter of SBR reaction time,but also as the process control parameter of SBR reliably when a simple and rapid sensor of organic matter concentration does not come out now .
+Key words: DO　SBR process　control parameter　reaction time
+　　80年代以来，间歇式活性污泥法即序批式反应器(Sequencing Batch Reactor,简称SBR)法用于处理间歇排放的、水质水量变化很大的工业废水取得了很大成功。在确定了SBR 法5个阶段分别所需要的时间后，实现其计算机控制是很简单的事。但是，工业废水的排放量不仅是变化的或间歇的，而且其有机物浓度也随时间有很大变化，如果按某一相同的反应时间控制SBR法的运行，当进水浓度高时处理水达不到排放标准，进水浓度低时反应（曝气）时间过长,既增加能耗又易于发生污泥膨胀。与连续流反应器相比，SBR法的优点之一是可根据反应器中底物降解情况，灵活地改变反应时间。然而现在还没有开发出能连续在线测定有机物的传感器，为了实现SBR法更高层次的计算机在线控制，必须寻求一个参数既能反映SBR法中有机物（也称底物）降解程度，又能作为计算机控制参数，这也是深化SBR法自动控制的重要研究课题。本研究就是探索用DO作为SBR法反应期间底物降解程度的间接参数，进而作为SBR法过程控制和反应时间控制参数的可行性。迄今，以DO作为连续流活性污泥法过程控制参数的研究较多〔1～3〕,但尚未见到以DO作为SBR法控制参数的报道。
+1　试验设备与方法
+　　试验中用H石油化工厂的废水作为处理对象，废水中含有乙酸，偏苯三酸及苯酐等多种有机化合物。该厂排出的废水水质、水量变化都很大，其COD浓度的上限与下限相差近10倍。图1给出了试验用的SBR法设备、控制与流程示意图。SBR的有效容积为38L，试验时，采用一次加入式进水方式，因而进水时间极短，然后立即开始曝气进入反应阶段。在反应阶段，连续测定DO和ORP值,并根据DO变化或在一定时间间隔内取样测定反应器中CODCr，pH值和混合液污泥(MLSS)浓度等指标。
+
+图1　SBR试验系统
+Fig.1　Experimental system of SBR
+2　结果与分析
+　　试验采用的废水含有易被微生物降解的和难于降解的两大类有机物，而且这两者的降解性能差别较大。试验结果表明，在一定的条件下，无论怎样延长SBR的反应时间，都有一部分有机物不能进一步被降解,这部分有机物称为该条件下的难降解COD。试验中反应刚开始时(以下称初始)混合后的COD浓度一般比原废水COD浓度低30%左右。
+2.1　曝气量不同时DO与COD浓度相关关系
+　　在试验中，SBR中的初始MLSS浓度为2000mg/L左右，初始COD浓度为800mg/L左右，分别进行了恒定曝气量为500～1200L/h的试验。图2给出了曝气量为900～1200L/h时的试验结果。这些试验结果有3个共同特点。
+2.1.1　在反应开始2min内,DO浓度都有一个大幅度升高，在反应期间DO浓度又有一个小幅度的升高。此外,COD达到其难降解程度之前,很少变化，基本是稳定的,本文称之为“平衡DO浓度”。反应初期DO浓度的迅速升高是由于反应开始时SBR内的DO基本为零,此时供氧速率远大于耗氧速率(OUR)所致。而且随着恒定曝气量的增大，DO增大的幅度也越大，平衡DO浓度也越高。这可以用表示氧转移的速率dDO/dt公式来解释：
+dDO/dt=KLa(DOS-DO)
+式中：KLa为氧的总转移系数（1/h)；DOS，DO分别为反应器中饱和DO浓度与实际的DO浓度（mg/L)。随着曝气量的增大，KLa和供氧能力都随着增大。
+
+图2　不同曝气量时DO与COD随时间的变化
+Fig.2　Variation of DO and COD with time under
+different aeration rate
+—— DO(AR=1200L/h)　┈×┈ DO(AR=1000L/h)
+—●— COD　　　　　　—■— COD　　　　　
+┈┈ DO(AR=1100L/h)　┈○┈ DO(AR=900L/h)
+—◆— COD　　　　　　—▲— COD　　　　　
+2.1.2　随着曝气量的逐渐减少，COD达到其难降解浓度时所需的反应时间也逐渐增大，这是由于“平衡DO浓度”不同,以及DO对底物比降解速率又有较大影响所致。
+2.1.3　当达到其难降解COD浓度时，DO浓度都有一个明显、迅速的大幅度升高，而且DO都升至5.5～6.8mg/L范围内逐渐平稳，之后基本不变，又达到一个新的平衡。由此可见，DO浓度这一变化特点完全可以作为COD达到其难降解浓度的信号和SBR反应阶段结束的信号。
+　　当SBR中的有机物接近其难降解浓度时，很难进一步被利用，其有机物降解的OUR也接近零，由于曝气量恒定，供氧速率远远大于OUR，使DO迅速大幅度上升。随着DO浓度的增加，氧转移速率即供氧速率也逐渐随之减小，当微生物内源呼吸的OUR与供氧速率相等时，DO浓度又表现出新的平衡。这时的DO浓度肯定要低于该条件下的饱和浓度DOS，恒定的曝气量较大，氧的总转移系数KLa也较大，平衡时的最高DO浓度也较大。
+　　试验结果还表明，曝气量越小，平衡DO浓度越低，所需反应时间越长，即所需SBR容积越大；反之，平衡DO浓度越高，所需反应时间越短，但曝气运行费用越大。在本试验条件下曝气量控制在700L/h左右，即平衡DO浓度控制在0.8～1.5mg/L比较合适。由此可见，DO本身又是一个重要的过程控制参数，可根据在线检测的DO浓度控制曝气量。
+2.2　改变初始混合液污泥浓度
+　　控制曝气量为1000L/h，初始COD浓度为1100mg/L左右，初始MLSS分别为1090mg/L和2690mg/L时的DO和COD浓度随反应时间变化的相关关系基本相同，后者如图3所示。可见，与控制不同的恒定曝气量的试验结果基本相同。因此,初始MLSS浓度大幅度变化时，并不影响以DO浓度作为SBR反应时间的控制参数。
+
+图3　初始MLSS为2690mg/L时DO与COD
+浓度随时间的变化
+Fig.3　Variation of DO and COD with time under 
+initial MLSS of 2690 mg/L
+2.3　改变进水有机物浓度
+　　在恒定曝气量为800L/h,初始MLSS浓度为2000mg/L左右的条件下，初始COD由230mg/L增加到2180mg/L时的部分试验结果如图4所示。可见,当COD达到其难降解浓度时，DO的变化规律与前述的试验完全相同。此外，随着初始COD浓度的增大，反应阶段平衡DO浓度和DO达到第二次平衡时的最高浓度逐渐减小，而所需的反应时间逐渐增加。表1总结了上述试验的结果。因此，DO浓度不仅可以作为SBR法反应时间的控制参数，而且也是反应过程中曝气量的控制参数。如表1所示，在某一恒定曝气量条件下,仍然可以根据反应阶段开始后不久的“平衡DO浓度”大小,来大致推测进水有机物浓度，然后迅速调节曝气量将DO浓度控制在某一最佳范围内。
+
+图4　不同初始COD时DO与COD随时间的变化
+Fig.4　Variation of DO and COD with time
+under different initial COD
+—— DO(COD=230mg/L)　　　—●— COD
+┈┈ DO(COD=490mg/L)　　　—◆—COD
+┈×┈ DO(COD=650mg/L)　　—■—COD
+表1　不同初始COD浓度所需的反应时间与平衡DO浓度
+Table 1　Reaction time needed and balanced DO 
+concentration under various initial COD
+
+初始COD
+(mg/L)反应时间
+(min)平衡DO
+(mg/L)初始COD
+(mg/L)反应时间
+(min)平衡DO
+(mg/L)
+230193.61230861.4
+490362.41640971.2
+650462.118901100.9
+830581.721801240.6
+1060751.6
+
+3　结论
+3.1　无论改变恒定曝气量，还是改变初始MLSS或初始COD浓度，在反应阶段开始几分钟后都会出现DO浓度基本稳定的平衡DO浓度现象；当COD达到其难降解浓度时，DO浓度迅速地大幅度升高，之后又出现新的平衡。DO浓度的这一变化特点可以使DO作为有机物基本被去除及反应结束的信号，因此，以DO作为SBR法反应时间的计算机控制参数是可行与可靠的。
+3.2　DO也可作为过程控制参数。即根据平衡DO浓度的大小来判断进水有机物浓度的高低，进而及时地调节曝气量，这既能防止DO浓度过高引起的运行费用的浪费，又能避免DO过低而产生的污泥膨胀与反应时间过长。
+3.3　由于在SBR中停止进水开始反应后，DO浓度不象在连续活性污泥法曝气池中那样不断地受流入废水水质、水量的影响，因而以DO浓度作为过程控制参数和反应时间的控制参数是可靠的，而且DO仪的构造简单、性能稳定、响应迅速、价格便宜、便于与计算机接口。
+参考文献
+1　Jonathan C Palm.Relationship between organic loading, dissolved oxygen concentration and sludge settle ability in the completely mixed activated sludge process.J.WPCF., 1980,52(10):2484～2506
+2　James L Barnard,Meiring P G J.Dissolved oxygen control in the activated sludge process.Wat.Sci.Tech.,1989,20(4，5):93～97
+3　Seung Chul Lee,Young Bo Hwang,Ho Nam Chang.Adaptive control of dissolved oxygen concentration in a bioreactor.Biotechnology and Bioengineering,1991,37(5):597～606
+作者简介
+王淑莹　女，1953年3月生。哈尔滨建筑大学市政与环境工程学院中心实验室副主任、副教授。主要从事污水处理方面的教学与科研工作，先后承担了3项国家自然科学基金资助的科研项目，以及3项省、市计划项目。曾获黑龙江省科技进步三等奖和哈尔滨市科技进步二等奖。发表论文28篇。
+收稿日期：1997-12-01
+* 国家教委资助优秀年轻教师基金项目

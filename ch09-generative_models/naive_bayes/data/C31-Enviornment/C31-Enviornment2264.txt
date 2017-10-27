@@ -1,0 +1,124 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+斜生栅藻降解邻苯二甲酸二甲酯和苯胺的动力学研究
+阎　海　雷志芳　叶常明
+(中国科学院生态环境研究中心，北京 100085)
+
+关键词　斜生栅藻；邻苯二甲酸二甲酯；苯胺；降解动力学.
+KINETICS OF THE BIODEGRADATION OF DIMETHYL 
+PHTHALATE AND ANILINE BY SCENEDESMUS OBLIQNUS
+
+Yan Hai, Lei Zhifang, Ye Changming
+(Research Centre for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085)
+
+ABSTRACT　Experimental results showed that Scenedesmus obliqnus has the ability of degradation to dimethyl phthalate(DMP) and aniline, the average biodegradation rates per day were found to be 12.0 and 42.6 mg/L under the initial DMP concentrations of 300 and 700mg/L and 2.4 and 4.3 mg/L under the initial aniline concentrations of 100 and 200 mg/L, respectively. Calculation of biodegradation kinetic equation newly suggested fits well with the observed values than Monod kinetic equation, and standard deviation between caloulated and observed values were 1.5 and 7.9mg/L under the initial DMP concentrations of 300 and 700 mg/L, and 1.3 and 1.1 mg/L under the initial aniline concentrations of 100 and 200 mg/L, respectively.
+Keywords　Scenedesmus obliqnus, dimethyl phthalate, aniline, biodegradation kinetics.
+　　邻苯二甲酸酯类是广泛使用的人工合成有机物，主要作为塑料和橡胶等化工产品的增塑剂，我国和世界上邻苯二甲酸酯类的产量都呈上升趋势.由于产量的增加和广泛的使用，使其进入环境的数量日益增加，以至于在天然水体、土壤、大气飘尘和生物体中都发现有它们的存在［1，2］.苯胺是印染工业中广泛使用的染料，研究结果表明，苯胺不仅是导致人患膀胱癌的强致癌物，而且对人体血液和神经的毒性也非常强烈［3］.中国环境监测总站根据有机化合物的污染特征及分布，结合国外的文献资料，已分别将邻苯二甲酸二甲酯(DMP)和苯胺列为中国优先控制的有机污染物［4］.
+　　单细胞藻类被视为最简单的光合作用有机体，它不仅可以吸收无机营养盐类通过光合作用合成细胞物质，而且能够通过降解有机物获取碳源，即兼性化能有机营养［5］.据报道，单细胞藻类对酚类［6］、DDT［7］、六六六［8］、偶氮［9］、石油［10］等有机物都具有明显的富集与降解能力.阎　海［11］等通过实验证实蛋白核小球藻具备很强的降解邻苯二甲酸酯类的能力，并提出了藻类降解有机污染物的动力学方程.在此基础上，为进一步研究所提出的动力学方程适用的普遍性，又选择了在自然水域中广泛分布的典型绿藻斜生栅藻(Scenedesmus Obliqnus)进行了降解DMP和苯胺的实验，这将无疑在丰富发展生物降解理论和藻类处理有机污染物的应用两方面都具有重要意义.
+
+1　研究方法
+1.1　试剂
+　　邻苯二甲酸二甲酯：气相色谱固定液，密度1.52g/mL,上海试剂一厂生产.苯胺：分析纯，密度1.02g/mL，北京石鹰化工厂生产.斜生栅藻(Scenedesmus Obliqnus):购自中科院武汉水生生物研究所.
+1.2　实验条件
+　　采用美国环保局推荐的培养基［12］，实验温度24±2℃，12h光照黑暗循环，光照强度为3500lx左右.实验容器100mL玻璃三角瓶，每瓶培养量30mL，实验开始后，每天取3瓶平行样进行藻细胞浓度和有机污染物浓度的测定，实验重复3次.
+1.3　实验方法
+　　在通过实验确定DMP抑制斜生栅藻生长的96h-EC50为576ppm和苯胺抑制斜生栅藻生长的96h-EC50为150ppm的基础上，分别选取低于和高于96h-EC50两种初始浓度进行降解实验.培养基和所有玻璃器皿先在121℃高温下灭菌20min，然后在洁净工作台内经紫外线灭菌20min.实验操作严格在洁净工作台内无菌条件下进行，并通过显微镜进行镜检以确保在培养物中没有细菌的存在.藻细胞初始浓度分别为2.00×105/mL和1.00×105/mL，实验中定时取样用血球计数板在显微镜下计数藻细胞数量；用液相色谱测定水中有机污染物浓度.
+1.4　有机物浓度测定条件
+　　DMP浓度测定条件见参考文献［11］.苯胺测定条件为：Shimadzu LC-3A高效液相色谱，Zorbax-CN不锈钢柱，流动相：375mL甲醇、125mL蒸馏水、7.5mL乙醚-氯仿(11体积比)和0.45mL 1mol／L NaCl，流速：0.8mL/min，紫外检测波长：254nm，进样量：10μL.
+1.5　对照实验
+　　在没有接种藻且其它实验条件完全相同的情况下，6d内，100mg/L DMP浓度的变化率为2.0%；100mg/L苯胺的浓度变化率为1.2%.因此可以确认，在本实验中上述两种有机污染物浓度的减少是斜生栅藻降解作用的结果.
+
+2　结果与讨论
+2.1　藻细胞浓度的生长过程
+　　图1和图2显示，对于上述两种有机污染物，在低浓度下斜生栅藻生长迅速，在6d内已基本完成了藻类生长的延迟期、对数期和衰老期3个不同阶段，而在高浓度下，藻细胞浓度(N)的增长速度受到明显抑制，生长缓慢.在资源和空间都是有限的情况下，应用Logistic方程分别拟合斜生栅藻在4种不同条件下的生长过程.可得到如下生长方程：
+　　300mg/L DMP下，N(105/mL)=29.67/(1+13.84e-0.044t)
+(1)
+
+　　700mg/L DMP下，N(105/mL)=10.53/(1+4.27e-0.030t)
+(2)
+
+　　100mg/L 苯胺下，N(105/mL)=56.83/(1+55.83e-0.046t)
+(3)
+
+　　200mg/L 苯胺下，N(105/mL)=9.25/(1+8.25e-0.046t)
+(4)
+
+
+图1　在300mg/L和700mg/L DMP初始浓度下
+斜生栅藻细胞增长曲线
+Fig.1　Growth curves of Scenedesmus obliqnus under
+initial DMP concentrations of 300 and 700 mg/L
+
+
+图2　在100mg/L和200mg/L 苯胺初始浓度下
+斜生栅藻细胞增长曲线
+Fig.2　Growth curves of Scenedesmus obliqnus underinitial concentrations of 100 and 200 mg/L
+
+
+图3　斜生栅藻降解初始300mg/L和700mg/LDMP的动力拟合曲线
+Fig.3　Kinetic curves of DMP with initial
+concentrations of 300 and 700 mg/L degradedby Scenedesmus obliqnus 
+
+
+图4　斜生栅藻降解初始100mg/L和200mg/L苯胺的动力学拟合曲线
+Fig.4　Kinetic curves of aniline with initial
+concentrations of 100 and 200 mg/L degradedby Scenedesmus obliqnus 
+图3、4显示，无论是在初始高浓度或低浓度下，DMP和苯胺浓度都随时间的延长而减少，降解速度的变化基本上随藻细胞浓度的增大呈现出从小到大的过程，但在96h以后降解速度并没有随藻细胞浓度的增加而明显增大.初始300和700mg/L DMP下，日平均降解量分别为12.0和42.6mg/L，初始100和200mg/L苯胺浓度时，日平均降解量分别为2.4和4.3mg/L，在同一种有机物的情况下，初始高浓度时的降解速度比初始低浓度时的降解速度快，关于在受到高浓度污染物作用使藻生长受到明显抑制的情况下，藻的降解能力不仅没有减小反而加强的原因还有待于进一步研究.
+2.2　藻降解动力学方程的拟合与检验
+　　微生物是降解有机污染物的主要生物成分，其降解过程一般符合Monod一级反应动力学方程(-dC/dt=KN,C:有机物浓度，t：时间，K：一级反应动力学常数，N：微生物浓度)［13］.但藻类对有机污染物的降解是藻类除具光能无机营养外还具备的兼性化能有机营养功能作用的结果.因此，尽管藻类和微生物都能降解有机污染物，但降解机制是不同的，而这种差异必然反映在它们降解有机污染物动力学的不一样.根据参考文献［11］，藻降解有机污染物的动力学方程可表示为：
+-dC/dt＝KNr
+　　其中，K:二级反应动力学常数，N:藻细胞浓度，r：藻生长速度.
+　　将r=dN/dt代入上式积分后得到：
+C=-KN2+C0
+(5)
+运用方程(5)，分别通过实测藻细胞浓度的平方(N2)与有机物浓度(C)之间的一元线性回归，得到参数K和C0，将参数K、C0和拟合的藻细胞浓度增长方程(N)分别代入方程(5)后，可分别得到有机污染物浓度随时间延长而变化的动力学方程(图3、图4)：
+
+　　300mg/L DMP时，C=-0.075［29.67/(1+13.84e-0.044t)］2+299
+(6)
+
+　　700mg/L DMP下，C=-2.458［10.53/(1+4.27e-0.030t)］2+719
+(7)
+
+　　100mg/L 苯胺下，C=-0.0048［56.83/(1+55.83e-0.046t)］2+98.3
+(8)
+
+　　200mg/L 苯胺下，C=-0.307［9.25/(1+8.25e-0.046t)］2+201.1
+(9)
+
+　　运用(6)—（9）式进行计算，在DMP 300和700mg/L时，水中有机物浓度的计算值与实测值的标准偏差分别为1.5和7.9mg/L，在100和200mg/L苯胺时，标准偏差分别为1.3和1.1mg/L.如用经典的Monod方程拟合上述降解过程，在DMP初始浓度300和700mg/L时，水中有机物浓度的计算值与实测值的标准偏差分别为3.8和9.6mg/L.在苯胺初始浓度100和200mg/L时，标准偏差分别为1.6和2.9mg/L.由此可见.方程(5)比Monod方程能更好地反映斜生栅藻降解DMP和苯胺的过程.参数K和Co的估计检验结果见表1.
+　　
+表1　参数K和C0的95%置信区间估计
+Table 1 Test results for estimates of K and C0
+
+有机污染物
+　浓　度，
+mg/LK
+　K的95%
+置信区间C0，
+mg/LC0的95%
+置信区间r
+DMP3000.1500.126，0.174299.1293.3，304.9-0.990
+DMP7004.9164.034，5.798718.7695.2，742.2-0.990
+苯胺1000.00960.0068，0.012498.396.1，100.5-0.976
+苯胺2000.6140.534，0.694201.1199.0，203.2-0.997
+
+
+
+3　结论
+　　1.斜生栅藻对DMP有很强的降解能力，在300和700初始浓度下，5d时间内，日平均降解量分别为12.0和42.6mg/L.实验结果表明，斜生栅藻对苯胺也有一定的降解能力，在100和200mg/L初始浓度下，6d时间内，日平均降解量分别为2.4和4.3mg/L.
+　　2.在DMP初始浓度为300和700mg/L时，应用新提出动力学方程计算，计算值与实测值的标准偏差分别为1.5和7.9mg/L,在苯胺初始浓度100和200mg/L时，标准偏差分别为1.3和1.1mg/L.如用经典的Monod方程拟合上述降解过程，在DMP初始浓度300和700mg/L时，计算值与实测值的标准偏差分别为3.8和9.6mg/L，在苯胺初始浓度100和200mg/L时，标准偏差分别为1.6和2.9mg/L，由此可见，参考文献［11］所提出的动力学方程比Monod方程更好地反映了斜生栅藻降解DMP和苯胺的过程.
+参考文献
+　1　赵振华.酞酸酯对人与环境潜在危害的研究情况.环境化学，1991，10(3)：64
+　2　赵振华.我国环境中邻苯二甲酸酯污染研究.环境科学丛刊，1986，7(5)：50
+　3　掘口　博著(刘文宗译，包文滁校).公害与毒物、危险物.北京：石油化学工业出版社，1978:400
+　4　金相灿，程振华，徐南妮等.有机化合物污染化学.北京：清华大学出版社.1990:9
+　5　G E 福格著(纪明侯译).藻类的新陈代谢.北京：科学出版社，1962：42
+　6　Klekner V, Kosaric N.Degradation of phenols by algae. Environ Technol， 1992,13:493
+　7　林毅雄.莱因衣藻和小球藻对丙体-666的富集和降解的研究.中国环境科学，1984，4(2)：15
+　8　Matsumura F.藻类和微生物对农药的降解.国外环境科学技术，1983，(4)：55
+　9　Liu J, Liu H.Degradation of azo dyes by algae. Environ Pollution， 1992,75：273
+10　邓星明，詹发萃，邓亚农.一种降解石油烃的淡水藻类——坑形席藻.植物学报, 1982，24(6)：548
+11　Yan Hai , Ye Changming , Yin Chengqing . Kinetics of phthalate ester biodegradation by chlorella pyrenoidosa. Environmental Toxicology and Chemistry, 1995,14(6):931
+12　周永欣，章宗涉.水生生物毒性试验方法.北京：农业出版社, 1989:170
+13　Mill T, Mabey W R. Laboratory protocols for evaluating the fate of organic chemicals in air and water. EPA 6803-2227. U.S.Environmental Protection Agency. Washington, D C, 1981:218

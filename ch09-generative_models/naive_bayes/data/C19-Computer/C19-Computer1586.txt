@@ -1,0 +1,97 @@
+信息与控制
+INFORMATION AND CONTROL
+1999年 第28卷 第3期 Vol.28 No.3 1999
+
+
+
+一类基于神经网络非线性观测器的鲁棒故障检测*
+胡寿松　周川　胡维礼
+　　摘要：针对一类仿射非线性动态系统，提出了一种基于神经网络非线性观测器的鲁棒故障检测与隔离的新方法．该方法采用神经网络逼近观测器系统中的非线性项，提高了状态估计的精度，并从理论上证明了状态估计误差稳定且渐近收敛到零；另一方面引入神经网络分类器进行故障的模式识别，通过在神经网络输入端加入噪声项来进行训练，提高神经网络的泛化逼近能力，从而保证对被监测系统的建模误差和外部扰动具有良好的鲁棒性．最后，利用本文方法针对某型歼击机结构故障进行仿真验证，仿真结果表明本文方法是有效的．
+　　关键词：故障检测，神经网络，观测器，鲁棒性
+　　中图分类号：TP206　　　　　　文献标识码：B
+ROBUST FAULT DETECTION FOR A CLASS OF NONLINEAR SYSTEM
+BASED ON NEURAL NETWORKS OBSERVER
+HU Shousong　ZHOU Chuan
+(Department of Automatic Control, Nanjing University of Aeronautics and Astronautics, Nanjing 210016)
+HU Weili
+(Department of Automatic Control, Nanjing University of Science and Technology, 210094)
+　　Abstract　A new type of non-linear observer-based robust fault detection and isolation (FDI) using neural networks is presented in this paper. Firstly, a radial basis function neural networks is used to approximate the nonlinear item of the monitored system to improve the accuracy of state estimation, and the state estimation error is proved to be zero asymptotically. On the other hand, a neural network classifier is applied to identify the type and location of faults. In order to improve the robustness of fault classification, the neural network has been trained with noise injected inputs and the generalization capability an remarkably be enhanced. Therefore, this FDI strategy has good robustness against modeling error and environment disturban-ce. At last , this method is applied to faults detection of fighter aircraft with structure damage, and simulation results reveal that this FDI strategy is effective.
+　　Key words　fault detection， neural networks， observer， robustness
+　　1　引言
+　　基于观测器或Kalman滤波器的故障检测与隔离（FDI）在自动化过程中得到了广泛的研究与应用［1］．但这些方法仅能适用于线性的被控对象，尽管近年来对非线性系统的故障检测也取得了一定的研究成果［2］，然而对于一般的非线性系统仍缺乏有效的检测手段．由于系统参数具有不确定性和时变性，并且噪声和扰动的特性是未知的，因而常常造成实际系统与数学模型间的失配，使得观测器产生不精确的状态估计而导致误报警．
+　　本文提出一种基于神经网络状态观测器的鲁棒故障检测与隔离的新方法，采用RBF神经网络来补偿系统高阶非线性的影响，降低了建模误差对残差的影响，同时，引入另一神经网络分类器对故障实现隔离，通过在神经网络输入端加入噪声项的方法进行训练，提高了神经网络在非样本点上的泛化逼近能力，降低了系统外部扰动对故障模式识别的影响．
+　　2　问题描述
+　　考虑如下仿射非线性动态系统
+　　　　　　　　　　　　　　　　　(1)
+其中，为有界故障向量，即为连续可微向量或矩阵函数．
+　　对系统（1）在工作点(x0,u0)进行线性化处理，可得如下状态空间表达式为
+　　　　　　　　　　　　　　　　　　　　　　　　　　(2)
+这里为常数阵．将f(x)在x=x0处进行泰勒展开，有
+，同样,则可知
+
+　　方程（2）中的非线性函数ψ(x,u,t)包含了系统的未建模非线性高阶项，若系统无故障，即δ(t)=0，则对方程（2），构造如下形式的观测器
+　　　　　　　　　　　　　　　　　　　　　　(3)
+其中为状态估计值，L为观测器增益阵．定义状态估计误差
+，则该观测器的设计问题就是选择合适的L阵使估计误差渐近趋于零，以下定理给出了观测器系统稳定的条件．
+　　定理1［3］　对于给定的非线性系统（2）及其观测器（3），如果ψ(x,u,t)满足全局Lipschitz条件且，其中P,Q为正定对称阵，满足Lyapunov方程，则
+　　定理1仅提供对给定L阵来检验估计误差是否收敛的方法，并未指明对给定的常数γ如何选取L才满足γ＜λmin(Q)/2λmax(P)．由于ψ(x,u,t)包含了系统固有的高阶非线性项，要提高状态估计的准确性，就必须提高对ψ(x,u,t)逼近的精度．因此，本文提出一种新的鲁棒故障检测策略，其结构如图1所示．
+
+
+图1　基于神经网络非线性观测器的鲁棒故障检测与隔离
+　　3　基于神经网络的非线性状态观测器
+　　针对系统（2），引入新的神经网络观测器：
+　　　　　　　　　　　　　　　　　　　　　　(4)
+其中，为神经网络非线性估计器．可用一个三层RBF神经网络来实现，整个RBF神经网络控制器的输入输出特性为非线性映射，即
+　　　　　　　　　　　　　　　　　　(5)
+其中为输入向量，n+m为输入节点个数，s,n分别为隐层和输出节点数，wji为输出层线性组合的权重，宽度ρj为一正标量，cj为隐层节点中心，隐层的非线性激活函数Ψ(.)取为正态分布的高斯函数：
+　　假设1　在某一紧集上，RBF神经网络可对式（2）中的连续非线性函数ψ(x,u,t)进行任意逼近，即存在理想权矩阵W*，使得ψ(x,u,t)=W*Ψ(x,ρ)．
+　　定理2　对于给定的非线性系统（2）及其观测器（4），如果对选定的状态增益阵L，存在正定对称阵P，Q，满足Lyapnov方程
+
+且RBF神经网络估计器的权值参数采用如下调整规律
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(6)
+则观测器估计误差渐近稳定且
+　　证明　选取Lyapnov函数为，其中，则状态估计误差方程为
+因
+
+如果神经网络估计器的权值调整规律选为，对该式两边积分得：，其中λmin(Q)＞0为Q的最小特征值，当t→∞有
+　　　　　　　　　　　　　　　　　　　　　　　　　　(7)
+因为有界，也即式（7）右边有界，故当t→∞时，‖ε(t)‖→0．
+　　4　非线性系统的鲁棒故障检测与隔离
+　　基于神经网络非线性观测器，可产生输出残差向量，它包含了故障的时间和位置信息．系统在正常情况下它接近于零．而故障发生时将偏离零，可通过逻辑判决和神经网络分类器实现故障的检测与分类．
+　　根据决策函数D(r)及选定的门限Dth，定义D(r)=rT(t)Pfr(t)，其中Pf为对角正定加权阵，则FDI问题可描述为（1）对于故障检测满足以下关系：若D(r)＜Dthi，则故障δ(t)=0；若D(r)＞Dth，则δ(t)≠0．（2）对于故障分类与隔离满足: 若D(ri)＜Dthi,则δi(t)=0；若D(ri)＞Dthi，则δi(t)≠0，(i=1,2,…,q)，其中q为故障的模式数．
+　　这里采用前馈神经网络的联想记忆功能及反传（BP）算法来进行故障的分类与隔离，BP算法作为一种数据动态回归技术，其主要思想是根据误差的负梯度方向来调整网络权值．设整个网络的输入输出映射为e=f(r,W)，其中输入残差样本r=[r1,…,rp]T,输出的故障模式样本e=[e1,…,eq]T,权值W=[wij]，且f为非线性向量函数，p,q分别为网络输入、输出节点个数．设{r(k),e(k)}为训练样本对，定义如下的误差性能函数
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　(8)
+取网络权值的调整规则为，学习速率η为大于0的常数．但采用式（8）的性能指标只能在样本模式空间内保证最优，由于训练样本不可能覆盖系统所有的运行状态，且不能保证在有噪声和扰动的情况下仍能对系统故障进行准确的分类和隔离，故引入一个新的优化性能指标，旨在提高神经网络故障分类器对噪声和扰动的鲁棒性． 
+　　定理3　考虑故障状态下的非线性系统（2），对于给定的神经网络输入残差样本r=[r1,…,rp]T以及输出故障模式样本e=[e1,…,eq]T,若网络权值的调整规则为，且定义为：，其中ξ为分布已知且独立于r(k)的随机噪声，则该算法可保证神经网络故障模式分类的鲁棒性．
+　　证明　若令为网络新的输入样本点，其中为独立于r(k)的随机干扰向量，且其均值为E{d}=m，方差为E(ddT}=σ2I．可知网络输出的变化为δe(k)=f(r(k)+d)-f(r(k))≈
+　　定义网络输出变化δe(k)对干扰输入项d的灵敏度函数为
+
+考虑到，则有
+　　　　　　　　　　　　　(9)
+显然R(W)越小，网络输出对输入干扰的灵敏度越低．引入新的性能指标
+　　　　　(10)
+设ξ为独立于r(k)的随机噪声，其均值为E{ξ}=M，方差为则
+　　　　　　　　　　　　　　　　(11)
+极小化式（11）的性能指标，等价于在残差样本输入端加入噪声后，仍采用BP算法进行训练，可保证该神经网络故障模式分类的鲁棒性．
+　　5　仿真算例
+　　某歼击机纵向运动方程在平飞平衡点进行小扰动线性化后，可得
+
+　　为了对该歼击机的结构故障进行检测与隔离，首先要设计一个稳定的非线性状态观测器，其增益矩阵L可通过配置(A-LC)的闭环极点为[-2, -5, -4, -6]来产生，由此可得L=[1.9418, -0.1710, 0; -0.3030, 0, 1.1090; -0.0715, 0, 3.0530; 0, 6.00, 1.00]3×4.
+　　歼击机动力学方程的高阶非线性项ψ(x, u, t)可由RBF神经网络估计器逼近，RBF神经网络的结构选为6-8-4．在飞行过程中，ψ(x, u, t)将随飞行条件的变化而变化，因此可采用神经网络离线训练和在线学习相结合的方法来逼近ψ(x, u, t)，以提高该神经网络状态观测器的自适应能力．图2分别给出了飞机发生左升降舵卡死故障时各状态残差的响应曲线．对于歼击机的纵向运动，主要考虑左右平尾的卡死或损伤故障．神经网络故障分类器的结构选为3-8-4．在理想情况下，当发生第i种故障时，第i个模式输出ei=0.9，否则为0.1．考虑到噪声和参数摄动的影响，选取门限为0.5进行分类．图3为神经网络模式输出e的响应曲线，由图看出，在t=2.95s时e1＞0.5，因此飞机发生了左平尾卡死故障．
+
+
+图2　左升降舵2s时卡死-在5度的残差响应
+
+图3　神经网络故障分类器的输出模式响应
+*江苏省自然科学基金及航空科学基金资助项目。
+作者简介
+　　胡寿松，62岁，教授，博士生导师．研究领域为神经网络与故障模式识别，以及非线性系统的自修复控制．
+　　周　川，29岁，博士研究生．研究领域为智能控制与歼击机自修复飞行控制．
+　　胡维礼，58岁，教授，博士生导师．研究领域为鲁棒与自适应控制，以及高精度伺服控制．．
+作者单位：胡寿松　周川：南京航空航天大学自动控制系　南京　210016
+　　　　　胡维礼：南京理工大学自动控制系　南京　210094
+参考文献
+　1　Frank P M. Enhancement of Robustness in Observer-based Fault Detection. Int. J. Control, 1994,59(4):955～981
+　2　Young M C, Rajesh R. A Systematic Approach to Adaptive Observer Sythesis for Nonlinear Systems. IEEE Transactions on Automatic Control, 1997,42(4):534～537
+　3　Sakhar R, Karl J H. Observer Design for a Class of Nonlinear Systems. Int. J. Control, 1994,59(2):515～528
+1998-08-24收稿

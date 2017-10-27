@@ -1,0 +1,98 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第2期 Vol.18 No.2 1999
+
+
+
+网页中文字淡入淡出动画效果的实现
+杨少波
+　　摘　要：在Internet 3W网页文档内嵌的Java Applet小程序中实现文字串淡入淡出动画效果显示技术，并给出具体实现的关键部分程序代码。
+　　关键词：网页文档　Java Applet小程序　文字串淡入淡出
+　　Java程序设计语言以其面向对象、与平台无关性、分布式、高稳定性、安全性及支持多线程等特性，广泛地应用于网络计算环境(如Internet网等领域的应用)。在Internet WWW网页中如能实现文字串显示的淡入(文字串从背景色中渐渐显示出来)和淡出(文字串从背景色中渐渐隐入其中)的动画显示效果，则能给用户在浏览网页时增色不少，使网页生动活泼。本文通过实例并借助于Microsoft Visual J++ 1.1版开发平台，介绍这方面的技术实现，并给出具体实现的关键部分程序代码。　　
+1　Java语言中的颜色及其JDK API类
+　　色彩是由三基色(红色、绿色、蓝色，简称RGB)组成，三基色的比例不同，所调配出的颜色也就不同。在计算机中，对颜色是采用数字化方式描述的，因而色彩的变化是数字化的(离散非连续)，而非现实生活中的色彩连续变化。三基色成份的变化范围为0～255，从而可产生24位总共16MB的颜色数。
+　　在显示文字串时如能连续控制三基色的变化量，就可以实现文字串色彩的离散式断续变化。Java语言JDK API(应用程序接口)中对色彩的数字化描述是采用java.awt包中的Color类，用户只需利用Color类的构造函数来创建1个Color类对象。在文字显示过程中分别改变其三基色成份的比例，然后通过调用Graphics类中的setColor(Color textColor)成员函数来改变所显示的文字串的颜色(逐次增大，实现淡入；逐次减小，实现淡出)。本文的Java Applet小程序的绘制输出成员函数paint()代码如下：
+
+public void paint(Graphics g)
+{　Color textColor=new Color(Red,Green,Blue);//创建1个Color
+//类对象
+　　g.setColor(textColor);　　//改变文字串的颜色
+　　g.setFont(new Font(“Helvetica",Font.BOLD,16));
+　　g.drawString(“文字淡入淡出动画效果显示"，10，100)；
+//显示文字串
+　　if(highColor)
+　　{　if(Green>=255)
+　　　　{　Green=255;　　//重赋为初始值
+Blue=255;
+highColor=false;
+　　　　}
+　　　　else
+　　　　{　Green=Green+1;　　//淡入
+Blue=Blue+1;
+　　　　}
+　　}
+　　else
+　　{　if(Green<=0)
+　　　　{　Green=0;
+Blue=0;　　//改为淡入方式
+highColor=true;
+　　　　}
+　　　　else
+　　　　{　Green=Green-1;　　//淡出
+Blue=Blue-1;
+　　　　}
+　　}
+}
+
+　　由于Java Applet小程序是内嵌到网页文档中并在浏览器的窗口客户区内执行和绘制输出，因而其输出环境应是图形环境，可通过java.applet包中的Applet类的成员函数paint()来实现绘制。在java.awt包中有一个图形环境类Graphics，调用其中的drawString()成员函数来实现文字串显示输出。
+2　Java语言中的线程及其JDK API
+　　为实现颜色在视觉上的连续变化，必须要能定时循环连续地控制颜色的三基色分量的增减。在Java Applet小程序中可通过创建1个后台线程的方法来实现。但由于用户的Java Applet小程序在Java语言中要求必须要从Java JDK系统的java.applet包中的Applet类派生，因而在创建颜色渐变线程时不能再直接从线程类Thread中派生，而应改由实现Runnable接口方式。
+2.1　创建颜色渐变线程
+　　在Java Applet小程序类(Applet类的派生类TextColor)中内嵌1个Thread类对象，并在Java Applet小程序的start()成员函数中创建出线程对象。传送1个目标对象this(本Applet小程序对象本身)参数给线程类Thread的构造函数，并启动该线程；为使所显示的文字串能与网页文档相同步显示和关闭，可在Java Applet小程序的成员函数stop()内加入终止线程的代码。
+import java.awt.*;
+import java.applet.*;
+public class TextColor extends Applet implements Runnable
+{　Thread textThread=null;　//内嵌的线程对象
+　　int Red,Green,Blue;　boolean highColor;
+　　public void init()
+　　{　Red=255;　Green=255;　Blue=255;　highColor=false;
+setBackground(Color.white);　//完成初始化操作
+　　}
+　　public void start()
+　　{　if(textThread==null)　//创建出线程对象
+　　　　{　textThread=new Thread(this,“TextColorThread");
+　　　　textThread.start();　//启动该线程
+　　　　}
+　　}
+　　public void stop()
+　　{　textThread=null;　　//终止线程
+　　}
+　　…//其它成员函数及成员数据定义
+}
+2.2　实现线程的函数体
+　　Java语言的线程类Thread中的成员函数run()和接口Runnable中的成员函数run()均可实现线程的具体功能(它们称为线程体函数)。本文由于是采用实现Runnable接口方法创建线程，因而在用户自己的Java Applet类中应实现Runnable接口中的成员函数run()，以完成线程的具体功能。
+　　在线程函数体中，主要是实现递增和递减颜色的三基色分量，并使暂停线程休眠一给定时间，从而达到颜色的不断离散变化，并在视觉上形成连续渐变的动画式的显示效果。
+public void run()
+{　while(Thread.current Thread()==text Thread)
+　　{　repaint();　　//重新绘制文字
+　　　try{　textThread.sleep(150);　//休眠暂停线程
+}
+　　　catch(InterruptedException e){　}
+　　}
+}
+
+2.3　消除背景的闪烁
+　　Java语言运行系统在后台自动实现图形环境的绘制，即运行系统会自动调用repaint()成员函数，然后repaint()再调用update()成员函数，最后update()再调用paint()成员函数实现绘制输出。但update()的缺省功能实现是首先清除背景，然后再调用paint()函数。这在文字的连续显示或动画图像显示等方面的应用中，会产生背景闪烁，影响显示的视觉效果。其主要原因是每次重新绘制输出时系统都消除了背景，从而造成视觉上的闪烁。
+　　为消除闪烁，可在用户自己的Java Applet小程序的TextColor类中覆盖基类中的缺省update()成员函数，在用户自己的update()中不去清除背景而是直接调用paint()函数实现绘制输出。程序代码如下：
+public void update(Graphics g)
+{　paint(g);
+}
+
+3　结束语
+　　要实现Internet 3W网页中标题文字串的淡入淡出动画效果显示，也可采用动画图像文件(*.gif或*.jpeg)方法来连续绘制各种色彩渐变的一系列图像文件并连接播放它们。但由于图像文件数据容量较大，会导致用户下载该网页文件的时间增加，因而不及本文直接采用编程实现的方法。
+　　本文的程序在PC 586主机、Windows 95操作系统平台及Microsoft Visual J++ 1.1版开发平台中调试通过。将它内嵌到Microsoft IE 3.0浏览器中，文字串“文字淡入淡出动画效果显示”会不断地淡入淡出显示。读者仿照本文的思路，也可灵活地应用到Java普通应用程序的启动封面的设计中。 
+作者单位：北京中国科学院计算技术研究所(100080)
+参考文献
+1　杨少波.Java Applet调用ActiveX控件的技术.计算机系统应用，1998；(5)
+2　王克宏，刘波.Java语言API类库.北京：清华大学出版社，1997
+(收稿日期：1998-09-01)

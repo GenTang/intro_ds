@@ -1,0 +1,70 @@
+航空计测技术
+AVIATION METROLOGY & MEASUREMENT TECHNOLOGY
+1999年　第19卷　第6期　Vol.19　No.6　1999
+
+
+
+航空计量信息管理系统
+ORACLE6应用软件的升级
+王新　李涛
+　　摘要　简要叙述了航空计量信息管理系统ORACLE6应用软件向ORACLE7升级的过程中遇到的一些问题和解决办法，以及升级后的效果。
+　　关键词　计量　信息管理　应用软件　升级
+Upgrade of Applicable Software of Aviation Metrology
+Information Managing System
+Wang Xin,Li Tao
+　　Abstract　This paper describes some problems met during the upgrade of applicable software of information managing system of aviation metrology,their solving methods and the effect after upgrade.
+　　Key words　Metrology,Information management,Applicable software,Upgrade
+　　ORACLE数据库以其移植性好，数据处理功能强大，用户界面友好等一些特点而赢得了众多企业的青睐。在航空计量信息管理系统中我们也选择了ORACLE数据库。由于前期开发的应用软件是以MS-DOS操作系统为平台，以ORACLE6关系数据库为核心的，为了适应现代技术的发展需要，应将其升级到以WINDOWS为平台，以ORACLE7关系数据库为核心的软件。现介绍航空计量信息管理系统移植过程中所使用的一些方法，与广大同行探讨。
+1　系统的运行环境
+　　技术实施方法有赖于系统的运行环境，ORACLE7关系数据库是采用Client／Server(客户／服务器)体系结构。所谓客户／服务器就是分布式处理的实现。在客户／服务器配置下，处理被分配在通过网络连接的客户机和服务器上。一个简单的客户／服务器配置有一台机器作为服务器而其它机器作为客户，每台机器完成不同的功能。现将系统运行软件环境略述如下：
+　　操作系统：NOVELL NETWARE网络操作系统以及WINDOWS环境。
+　　应用软件：ORACLE DEVELOPER／2000应用软件。
+　　数据库管理系统：ORACLE7 SERVER FOR NETWARE V7.0关系数据库。
+2　系统移植中出现的问题与措施
+2.1　网络工作站与服务器的联接
+　　ORACLE V6.0A关系型数据库的应用软件可在NOVELL NETWARE的工作站生成软件(WSGEN)生成的网络工作站上使用，而ORACLE 7 SERVER FOR NETWARE V7.0关系型数据库的应用软件(ORACLE DEVELOPER／2000)不能在此站点上使用，因此要用NETWARE 3.12 CLIENT FOR DOS／WINDOWS软件生成网络工作站，此网络工作站采用ODI(开放数据接口)方式上网，在这种情况下ORACLE V6.0A的应用软件仍然能用。
+2.2　ORACLE V6.0A与ORACLE DEVELOPER／2000应用程序的区别
+　　由于原系统是以MS-DOS为平台的ORACLE V6.0A关系型数据库软件开发的，要升级为以WINDOWS为平台的软件，做了以下几方面的工作。
+　　1)触发器
+　　在ORACLE SQL*FORMS 3.0的一个FORM中有如下的OBJECTS：FORM，BLOCK，FIELD，TRIGGER，FORM-LEVEL，PROCEDURE，因此，在定义查询模块时，首先定义一个控制块，其上有若干个可输入查询条件的字段，然后再定义键触发器KEY-EXEQRY和PER-QUERY执行查询条件。
+　　定义KEY-EXEQRY和PER-QUERY两个键触发子，其PL／SQL语句分别为：
+Trigger text:go-block(‘块名’)；
+execute-query；
+　　Trigger text:copy(name-in(‘字段名1’)，’字段名2’)；
+而在ORACLE FORMS 4.5中可利用BUTTON对象将ORACLE SOL*FORMS 3.0中定义的KEY触发定义为BUTTON触发，PL／SQL语句不变，使其操作方便灵活，界面更加直观。
+　　2)LOV(值表)的定义
+　　在ORACLE V6.0A的SQL*FORMS 3.0中定义的LOV是采用调用基表的方式实现的，例如：在定义地区值表时，采用调用基表的方式，LIST OF VALUES SQL TEXT语句如下：
+select 地区名 into 变量 (FIELDS) from 基表
+　　而在ORACLE DEVELOPER／2000中可根据不同要求定义。例如：若值表中有若干个固定值，则可以通过定义列表字段(LIST ITEM)来实现，此属于静态方式。值表要随基表中数据源改变而改变，则可定义LOV，此属于动态方式。而且同一个LOV可支持多文本项或其它项，还可利用LOV进行合法检查。
+　　3)菜单对象的调用
+　　在ORACLE V6.0A的SQL*MENU中设计的菜单可独立运行，而在ORACLE DEVELOPER／2000中则要通过FORM对象MENU MODULE属性来调用。
+　　4)字段的唯一性
+　　在ORACLE V6.0A中定义基表时，是通过索引来控制字段的唯一性。
+例如：SQL〉CREATE UNIQUE INDEX 索引名 ON 基表(唯一字段)；
+而在ORACLE DEVELOPER／2000中可直接定义字段的唯一性。
+　　5)ORACLE DEVELOPER／2000中日期的解决办法
+　　由于全世界的计算机都存在着2000年日期的转换问题，因此本系统中的日期也存在这个问题。ORACLE关系型数据库定义的缺省日期格式为DD-MON-YY，年份只占两位，因此在本系统中日期格式均定义为DD-MON-YYYY格式。
+　　6)表格文件的升级
+　　ORACLE 6.0A SQL*FORM3.0中设计的表格文件(.INP)可通过F45RUN[MODULE-NAME][用户名／口令]UPGRADE=YES，WIDEN-FIELDS=YES命令，升级为DEVELOPER／2000中的表格文件(.FMB).虽然升级后的表格可以运行，而且定义的功能与原来一样，但是整个布局差异很大，需要修改，因此不宜采取此种方式，最好重新自行设计。
+　　7)应用报表程序的升级
+　　ORACLE V6.0A SQL*REPORTWRITER 1.1编制的报表文件(.REX)可通过命令R25MREP.EXE升级为ORACLE DEVELOPER／2000中的报表文件，(.RDF).升级后，SCREEN显示和原来一样，但以PREVIEWER(模拟显示)和PRINTER方式显示和打印时与原设计不同，因此，应重新自行设计。
+　　8)数据的完整性的实现
+　　在本系统中，利用ORACLE V6.0A实现基表之间的关联是通过触发子来实现的，而在ORACLE 7 SERVER FOR NETWARE V7.0中可以通过定义字段的主键和外部键来实现。
+3　应用软件在网络上的运行分析
+　　ORACLE V6.0A UTILITY应用软件中有IMP(载入)、EXP(卸出)命令，而ORACLE DEVELOPER／2000应用软件中无此命令，只能在ORACLE 7 SERVER FOR NETWARE V7.0.核心软件中使用，由于ORACLE 7核心软件是装在服务器上的，因此对于网络数据库提供了良好的安全措施。
+　　ORACLE V6.0A SQL*FORMS 3.0调用SQLREPORT文件是通过调用宿主命令HOST，而HOST命令行在DOS平台上的最大长度为127个字节，限制了参数的传递，例如：
+HOST(‘RUNREP路径名\用户名／口令
+DESTYPE=FILE’｜｜’
+参数名=‘｜｜变量｜｜’，NO-SCREEN)；
+在ORACLE DEVELOPER／2000中可以通过参数表在被集成模块之间传递数据和参数，参数表是一个PL／SQL对象，在运行期间生成。其中存放的是要传递的参数的名称和值。
+　　ORACLE REPORTS 2.5可以使用PL／SQL语句定义触发子，而SQL*REPORTWRITER1.1中没有。这样，可以使报表灵活多变，以满足不同用户的需求。
+　　在ORACLE V6.0A数据库向ORACLE V7.0网上数据库移植过程中，需注意字符集的匹配问题，即NATIONAL LANGUAGE SUPPORT要一致。
+作者简介:王新　31岁　男　工程师
+作者单位:北京长城计量测试研究所，北京市1066信箱，100095
+参考文献
+　　1　ORACLE DEVELOPER／2000协同开发环境(CDE2)
+　　2　ORACLE DEVELOPER／2000使用技术与方法
+　　3　ORACLE V7技术手册
+　　4　NOVELL NETWARE 386 V3.11技术丛书
+　　5　WINDOWS 95使用大全
+1998-07-03收稿

@@ -1,0 +1,77 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+基于多项污染物综合相对重要性的主成分子集合环境测点优选法
+李祚泳　邓新民
+摘要：根据对多项污染物环境测点的优选,提出了单项污染物测值的相对重要性和多项污染物测值的综合相对重要性新概念,并给出了综合相对重要性的计算公式.根据测点的综合相对重要性,再用主成分子集合选择法优选测点.该方法与基于交叉相关性的主成分子集合优选法相比,不仅减少了计算量,而且避免了当各单项污染物选出的测点不一致时,难以确定公共优化点的困难.该方法用于成都市大气污染物的12个测点优选结果符合实际情况.
+关键词：大气污染；环境监测；优化选点；主成分分析
+中图分类号：X830.1 文献标识码：A 文章编号：1000- 6923(1999)05- 0458- 03
+Optimization of environmental monitoring sites by principal component subset selection based on comprehensive relative importance of pollutants.
+LI Zuo-yong, DENG Xin-min
+(Department of Atmospheric Electrology Engineering, Chengdu Institute of Meteorology, Chengdu 610041, China). China Environmental Science. 1999,19(5)：458～460
+Abstract：In order to select the optimal numbers of environmental monitoring sites, new concepts of the relative importance on monitoring values of single pollutant were advanced; and the formula of comprehensive relative importance was derived. On the basis of comprehensive relative importance of monitoring values of sites, the optimization of environmental monitoring sites was carried out by principal component subset selection. The advantages of this method not only reduce the calculation but also refrain from the difficulty of determining common optimal sites as a result of coincidenceless of optimal sites selected from single pollutant, as compared with the optimization of principal component subset selection based on the cross-correlation. The results of optimization from 12 monitoring sites of atmospheric pollutants in Chengdu Urban coincide with the practical cases.
+Key words：atmospheric pollution；environmental monitoring；optimal number of sites；principal component analysis
+　　采样点的优化是环境监测的一个重要问题,国内外不少学者对此进行了研究[1-6].文献[6]用主成分子集合选择法(PCSS)优选测点.该方法对于单项污染物测点的优选有独特之处,而对多项污染物测点的优选,则存在两点不足之处:对各项污染物都分别要应用主成分子集合优化选点,若污染物项目较多,则计算量很大;若测点对不同污染物测值的交叉相关性不好,由不同污染物优选出的测点数目有差异,或选出的测点不相同,则很难从中确定出多项污染物的公共优化点.
+　　本文将污染物测值反映的信息量用相对重要性表示,并用公式计算出测点多项污染物综合信息量的相对重要性,然后对综合相对重要性再应用主成分子集合选择法进行优选.
+1 基于综合相对重要性的主成分子集合(CRI-PCSS)的环境测点的优选
+1.1 单项污染物测值信息量的相对重要性
+　　用极差规格化公式将单项污染物测值yij规格化为x'ij,下标j代表时刻,i代表测点. 
+　　
+　　(i=1, 2 … m；j=1,2 … k)
+　　若将某项污染物具有最大测值[yij]max反映的信息量的重要性视作1,则x'ij为该污染物测值yij代表的信息量相对于最大信息量的相对重要性.显然有1≥x'ij≥0.
+1.2 多项污染物的综合相对重要性公式
+　　若测点受多项污染物污染,则在测点i,时刻j的多项污染物测值反映的综合信息量的相对重要性xij(以下简称综合相对重要性)应满足:由于各单项污染物之间的关系十分复杂,它们的相对重要性既不相互排斥,也非相互独立,因此,xij不应是各单项污染的x'ij的简单线性叠加;为了突出某测点处相对重要性最大的一种污染物对xij的贡献,xij应满足xij≥max x'ij (l), (1≤l≤n).式中n为污染物种类数;xij的最大值不超过1.类比概率论中Jordan公式,满足上述条件的n项污染物的综合相对重要性公式应有如下形式:
+
+式中:l, p, q, s代表污染物名称.若忽略各项污染物之间的相互影响,则式(2)可用式(3)代替:
+
+　　在应用公式(1)和(2)或(3)计算出综合相对重要性xij后,就可应用文献[6]所述的PCSS法对m个测点进行综合优选.
+2 CRI-PCSS法优化选点实例分析
+　　该方法用于成都市(1987~ 1992年)12个测点的SO2、NOx和TSP 3项大气污染物同期监测数据的季度均值分析计算.
+　　应用式(1)分别对3项污染物的不同测点监测数据的各季度均值进行规格化处理,并再用式(2)计算出12个测点,24个季度的3项污染物的综合相对重要性xij数值.
+　　对12个测点的xij数值进行相关分析,得到各测点之间综合相对重要性的相关系数矩阵R.
+　　应用文献[6]所述的主成分子集合优选法,计算R矩阵的特征值、特征向量和特征值代表的信息量的累积贡献率.首先用主成分子集合优选法剔除掉1个测点;对余下的测点再进行主成分子集合优选,又剔除掉1个测点.如此反复进行多次主成分子集合优选.设第T次应用主成分子集合对余下的m' 个测点优选,则第T次剔除掉的那个测点包含的信息量占m'个测点信息量的百分比为:
+　　(4)
+式中:λm'为m'个特征值中最小的特征值.余下的(m'- 1)个测点所含信息量占m'个测点信息量和全部m个测点信息量的百分比βT和α分别为:
+βT=1-RT　　(5)
+　　(6)
+　　对本实例相继进行7次主成分子集合优选后,依次剔除掉1#(体育场)、2#(无机校)、3#(金牛坝)、4#(草堂寺)、6#(高笋塘)、7#(动物园)、11#(华西医大)共7个测点,最后保留5#(红牌楼)、8#(仪表厂)、9#(川棉厂)、10#(南光厂)和12#(火车站)等5个测点.这5个测点保留的信息量占全部12个测点信息总量的百分比为:
+　　(7)
+3 两种优选法比较
+　　用文献[6]所述的主成分子集合分别对3种单项污染物优选出的点以及再由它们的交叉相关性选出公共优化点如表1所示.从表1可见,公共优选法和CRI-PCSS优选法优选出的测点只有1个有差异.前者优选出3#点,而后者优选出8#点.但由3种单项污染物的主成分子集合优选出的测点,除10#点的3种污染物测值交叉相关性很好外,其余测点的3种污染物测值交叉相关性并不显著,尤其1#、2#、4#和6#点都没有交叉相关性.此外,计算表明由各单项污染物的主成分子集合优选法选出的5个测点数目虽然一样,但保留的信息量占全部测点的信息总量的百分比并不相同.表1中5种优选结果选出的点保留的信息量分别为92.58%、90.56%、93.86%、92.33%、94.13%.
+表1 两种优选法用于成都市环境测点优化选择结果
+Table 1 Results of optimization of environmental monitoring sites in Chengdu Urban
+using two optimal methods
+
+基于交叉相关性的主成分子集合优选法　
+考虑SO2选出的点考虑NOx选出的点考虑TSP选出的点综合公共优化的点CRI-PCSS优选出的点
+1#(体育场)12#(火车站)12#(火车站)12#(火车站)12#(火车站)
+3#(金牛坝)4# (草堂寺)3#(金牛坝)3#(金牛坝)8#(仪表厂)
+5#(红牌楼)5#(红牌楼)2#(无机校)5#(红牌楼)5#(红牌楼)
+9#(川棉厂)9#(川棉厂)6#(高笋塘)9#(川棉厂)9#(川棉厂)
+10#(南光厂)10#(南光厂)10#(南光厂)10#(南光厂)10#(南光厂)
+
+4 检验
+　　为了检验CRI-PCSS法选出的5个测点是否能代表全部12个测点所反映的环境质量,应用文献[7]提出的大气环境质量评价的标度指数公式:
+　　(8)
+　　(9)
+式中:cik、ci0分别为i种大气污染物实测浓度值和背景浓度值;ai为i种大气污染物相邻两级重要性比率;n为污染物种类数.其综合标度指数K的分级标准为Ⅰ(清洁)(-∞ ,3.5];Ⅱ(中污染)(3.5, 5.5];Ⅲ(重污染)(5.5,∞ ).分别以12个测点和CPI-PCSS法优选出的5个测点的各项污染物均值代入式(8),(9)计算出的标度指数为K12=5.90和K5=6.25,同属Ⅲ级.
+5 结论
+5.1 不论有多少项污染物,用本文提出的CRI-PCSS优选法都只需对多项污染物的综合相对重要性变量进行主成分子集合分析,就能优选测点.不必象文献[6]那样,对每项污染物都进行主成分子集合优化选点,从而大大减少了计算量.
+5.2 CRI-PCSS优选法可以避免在多项污染物测值交叉相关性不好的情况下,难以确定综合优化公共点的困难.
+5.3 若可以忽略污染物之间的相互作用,则可用式(3)代替式(2)计算多项污染物的综合相对重要性,计算更简便.
+5.4 该方法对各种环境测点优选都适合,且具有较好的客观性.
+基金项目：“九五”国家重点科技攻关项目(96-911-08-03)
+作者简介：李祚泳(1944-),男,四川宜宾人,理学硕士,成都气象学院教授,从事物元分析、遗传算法、人工神经网络及投影寻踪技术(PP)等多个领域中的应用基础研究.完成了“环境质量分析与评价的新理论与新方法”(获首届四川省教委科技进步三等奖)等11项科研课题.论著5本,发表论文180余篇,其中有9篇获优秀论文奖,论文被《SCI》,《BA》,《PA》,《CA》,《EI》等录用或检索数10次.
+作者单位：成都气象学院大气电子工程系,四川 成都 610041
+参考文献：
+　[1]Venkatram A. Inherent uncertainty in air quality modeling [J]. Atmos. Environ., 1988, 22(6):1221- 1227.
+　[2]Grimm J W. Statistical analysis of errors in estimating wet doposition using five surface estimation algorithms [J]. Atmos. Environ., 1991, 25A(2):317- 320.
+　[3]许 榕. 大气环境监测优化布点的研究 [J]. 中国环境监测, 1994, 10(5):1- 3.
+　[4]杨永泰,程金沐,张劲伟. 大气环境监测最佳点集因子逐步筛剔优化 [J]. 环境科学研究, 1996, 9(1):12- 15.
+　[5]李祚泳. 环境监测优化布点的人工神经网络模型 [J]. 中国环境科学, 1997, 17(1):27- 29.
+　[6]庄世坚,高诚铁,欧寿铭等. 用主成分子集合选择法优选大气环境测点 [J]. 中国环境科学,1990, 10(2):148- 151.
+　[7]李祚泳. 大气环境质量评价的标度指数法 [J]. 中国环境科学, 1998, 18(5): 433- 436.
+收稿日期：1998-09-15

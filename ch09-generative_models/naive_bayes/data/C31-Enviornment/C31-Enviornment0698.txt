@@ -1,0 +1,125 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年1月第18卷第1期科技期刊
+湖泊水体中硫酸盐增高的环境效应研究*
+吴丰昌　万国江　黄荣贵　蔡玉蓉
+(中国科学院地球化学研究所环境地球化学国家重点实验室，贵阳　550002)
+
+摘要　通过对高原3个硫酸盐浓度差异的湖泊沉积物-水界面硫的形态分布、扩散通量和碎屑有机硫通量等估算，揭示了湖泊水体硫酸盐增加以后的环境效应和自然反馈机制.研究认为：水体向沉积物内部扩散和界面硫酸盐还原作用是高硫酸盐浓度水体硫酸盐的主要清除作用，随硫酸盐浓度的增加，它在水体清除硫酸盐作用的贡献逐渐增大，而低硫酸盐含量湖泊水体生物同化吸收作用是水体硫酸盐的主要清除机制，它在硫酸盐浓度不同的水体没有差异.
+关键词　硫酸盐；环境效应；硫酸盐还原作用；高原湖泊.
+ENVIRONMENTAL IMPACT OF SULFATE CONCENTRATION INCREASING OF LAKES
+
+Wu Fengchang, Wan Guojiang, Huang Ronggui, Cai Yurong
+(State Key Laboratory of Environmental Geochemistry,Institute of Geochemistry,Chinese academy of Sciences,Guiyang 550002)
+ABSTRACT　Three lakes(Lake Aha,Lake Erhai and Lake Baihua) from Yunnan-Guizhou Plateau with obviously different sulfate concentration were chosen for this study.Through quantitatively evaluation of two main sulfate scavenging rate:scavenging rate of sulfate reduction,and phytoplankton assimilation rate,and their contribution to sulfate scavenging process,eco-environmental impacts resulted from sulfate concentration increasing in aquatic environment were discussed.The results showed that downward diffusion from overlying waters to sediments and reduction near the interface are key sulfate scavenging mechanism in lakes where there is high sulfate concentration;biological assimilation process is dominant sulfate sca-venging mechanism in such lakes at low sulfate concentration.The first mechanism can only scavenge 0.4—8.4% of the total sulfate in lakes.In addition,it can also produce (0.3—23.0)×10-2 mmol (cm-2*a-1) alkalinity flux which can contradict acidity of natural environment.The second scavenging mechanism can generally scavenge 3%—4% of total sulfate in lake and it is stable in lakes with various concentrations of sulfate.
+Keywords　sulfate, environmental impact, sulfate reduction, plateau lakes.
+
+　　近十年以来，人为硫污染已成为世界十分关注的环境问题，它主要来源于工业活动引起的酸沉降及大量煤矿和各种金属矿床开采、矿渣的堆放过程中形成的高浓度的酸性废水.它们已造成全球水体不同程度的酸化和SO2-4浓度的增高［1，2］.湖泊是与人民生活密切相关的表面水体，具养殖、城市生活供水和旅游等重要功能.目前表面水体酸化和硫酸盐浓度增加的现象在湖泊尤为明显，已严重影响了初级生产力和水体质量.针对上述情况，国际上开展了大量关于硫的生物地球化学循环研究，并对硫酸盐还原速率、机理、早期成岩作用及硫与铁的化学转化等进行了大量研究［2—7］，但在自然水环境对硫酸盐浓度增大以后的环境效应，特别在如何定量估计等方面研究较少.而这个问题对认识水体演化、预测和治理等具十分重要的价值.
+　　本文目的主要是通过对高原三个SO2-4浓度差异的湖泊沉积物-水界面硫的形态分布，硫酸盐的自然清除速率和通量等的定量估算，了解水体中SO2-4增高的自然清除和反馈机制，以及水体和沉积物对水体SO2-4增高的环境效应，以便为水体治理和预测提供科学依据.
+
+1　样品采集，实验和分析方法
+　　沉积物柱芯用自制的沉积物-水界面采样装置［8］采集，采样过程中沉积物表层和界面水样品未受扰动.湖水和界面水分别按5m和2—5cm间隔采样，各柱芯覆水深度见表1.阿哈湖、百花湖和洱海的采样时间分别为1992年11月、1994年10月和1994年7月.
+　　沉积物柱芯在野外现场按0.5—1.0cm间隔分截，经高速离心后的上层清液用0.45μm微孔滤膜过滤获得孔隙水，沉积物经真空冷冻干燥，碾磨成粉并混合均匀，供分析之用.湖水和界面水及孔隙水中SO2-4浓度用离子色谱直接测定，HCO-3用化学容量法分析.沉积物中C、N、H和S用元素分析仪直接测得.
+
+2　结果
+　　自然水环境消除SO2-4主要有两种作用:(1)生物同化吸收作用，将硫酸盐还原成有机硫化合物，沉降和埋藏下来(Rudd等，1990)；(2)由于硫酸盐还原作用，SO2-4不断被还原，并形成各种还原态硫和有机硫沉积下来.
+2.1　界面硫酸盐还原作用对水体硫酸盐的消除作用和效率
+
+
+图1　高源湖泊水体和沉积物孔隙水中SO2-4浓度垂直剖面
+(a):1为AH9201,2为AH9202，3为AH9206，4为AH9209
+(b):1为BH9402-3，2为BH9402-1，3为BH9401-1
+(c)：为EH9402-2
+Fig.1 profiles of water column and sediment pore water from plateau lakes
+
+图1为阿哈湖(a)、洱海(b)和百花湖(c)沉积物孔隙水和上覆水体中SO2-4浓度剖面分布，从图可以看出，尽管各湖泊水体SO2-4浓度差别很大，在沉积物-水界面附近，SO2-4浓度都显著降低，反映了在沉积物和水界面存在着明显的硫酸盐还原作用，这与海洋和其他湖泊的结果是一致的［2，4，6］.这种作用将硫酸盐还原成还原态硫沉积下来［2，8，10］.
+　　从图还可看出：硫酸盐还原渗透深度主要集中在表层沉积物5cm之内，此深度以下孔隙水中的硫酸盐几乎被耗尽，此时发生的硫酸盐还原作用将受到其浓度的制约.因此，我们认为，湖泊水环境中硫酸盐还原作用主要发生在沉积物和水界面几cm以内.这种作用对整个水体硫酸盐的清除作用可用界面附近因硫酸盐浓度梯度而引起扩散的通量来估算.水体硫酸盐向沉积物内部扩散是在硫酸盐还原细菌参与下的硫酸盐还原作用和还原性硫氧化作用共同作用的结果，这种通量方法虽不能判别水体中硫酸盐进入沉积物的方式，但却表示了沉积物对硫酸盐的清除作用［10］.
+　　假设剖面代表稳态条件，运用Fick第一定律计算扩散通量的公式为：
+J=ΦDdC/dx(1)
+这里：J为扩散通量，Φ为孔隙度，D为扩散系数，dC/dx为浓度梯度，其中扩散系数D可用温度和孔隙度进行较正，D=D0Φ2，D和D0分别为实际和理想状态下SO2-4的分子扩散系数.阿哈湖、洱海和百花湖沉积物-水界面处，温度近似为18℃，据Li(1974)［11］的研究可知SO2-4的标准扩散系数D0(18℃)为8.9×10-6(cm-2*s-1).由于SO2-4浓度的降低主要集中在界面水体10cm和沉积物表层5cm之内，SO2-4的dC/dx用下式求得：
+dC/dx=1/n∑(dCi/dxi)(2)
+其中，n为界面15cm内的间隔采样次数，dCi/dxi为第i(0—n)次采样上下间隔SO2-4的浓度梯度.根据以上(1)和(2)式，可以计算阿哈湖、洱海和百花湖沉积物和水界面SO2-4的浓度梯度和扩散通量(表1).从表1可以看出，从洱海、百花湖到阿哈湖湖水中SO2-4浓度依次增大，其底部沉积物对SO2-4的吸收速率也随之增大，说明沉积物对SO2-4的吸收速率与湖水中的SO2-4的浓度有关，反映了湖水SO2-4浓度制约着扩散物理过程［12，13］，进而影响着硫酸盐还原作用；低SO2-4浓度湖泊也存在着自上覆水体向沉积物内部扩散作用.
+　　运用扩散通量就可以直接估算沉积物对水体硫酸盐的清除效率η，我们用扩散进入沉积物内部的通量所对应的SO2-4在整个湖泊水体中的浓度(Cout)与SO2-4在湖泊水体的浓度(C)之比来表示.
+η=Cout/C(3)
+并可知［17］：
+Cout=JTw/h
+η=JTw/hC(4)
+这里，J为SO2-4扩散通量，Tw为湖水寄宿时间，h为湖泊平均有效深度，根据(4)式，沉积物对SO2-4的清除效率(η)与SO2-4扩散通量(J)和湖水寄宿时间(Tw)成正比，与湖水深度(h)和湖水本身SO2-4浓度成反比.表1为阿哈湖、洱海和百花湖各湖泊沉积物对上覆水体SO2-4的清除效率，从表可看出，百花湖和阿哈湖沉积物对SO2-4的清除效率很低，分别在0.40%—0.65%和0.086%—0.11%之间，洱海沉积物对SO2-4的清除效率较高，在8.42%.
+
+表1　各湖泊硫酸盐在界面的浓度梯度和扩散通量及沉积物对水体硫酸盐的清除效率η
+Table 1 Sulfate concentration gradient and diffusion flux near the interface and efficient 
+rate of sulfate scavenging by sediment from waters
+湖泊柱芯浓度梯度扩散通量，深度湖水寄宿
+湖水硫酸盐扩散对上覆水
+体的贡献η,%
+　103mg.cm4mg.(cm-2.a-1)m时间,a浓度,mg/L　
+阿哈湖AH920134.57.04170.44196.880.93
+AH920223.94.8819　　0.57
+AH920633.86.9019　　0.81
+AH920929.86.0820　　0.68
+百花湖BH9402-34.891.00150.1697.40.11
+BH9402-13.840.78　　　0.09
+BH9401-14.040.82　　0.09
+洱海EH9402-20.680.14122.83.848.42
+
+2.2　有机碎屑硫的沉积速率
+　　水体碎屑硫的沉积通量目前难以直接测定，根据湖泊滞水层悬浮物捕获器可以估计湖泊输入底部的碎屑硫通量［3］，然而不清楚表面浮游有机质和沉积微粒的关系.Jorgensen(1977)测得Limifjiorden海岸有机碎屑中最多只有1%的硫沉降到底部沉积物，本文假设高原湖泊碎屑输入中有机质的1%为有机碎屑硫沉积，它基本上代表湖泊浮游生物同化吸收水体硫酸盐的通量即有机碎屑硫的沉积速率.根据Martens等(1984)［15］，运用各湖泊表面1cm沉积物中的有机碳含量，可以计算出表层有机碎屑硫的含量；再根据各湖泊年沉积速率，就可以求得碎屑硫沉积速率(表2).
+　　SO2-4可以通过湖水生物如藻类同化作用而沉降到沉积物中，表层几cm的沉积物还可通过再悬浮作用和生物扰动作用［16］或与深部沉积物发生混合作用形成.已有研究表明［4，5，10］：沉积物-水界面有高浓度的还原性硫存在，因此即使最表层总硫含量也是早期成岩作用形成的，因此不能用表面硫含量作为沉降的有机碎屑硫的含量.
+表2　湖泊水体中硫酸盐两种清除作用的速率及其贡献
+Talbe 2 Rates of two main sulfate scavenging processes and their contribution in lakes
+
+湖泊有机碎屑硫平均沉积速率JsedSO2-4平均扩散通量Jflux平均总清除速率
+mg.(cm-2a-1)
+阿哈湖4.55(42.21%)6.23(57.80%)10.78(100%)
+百花湖3.67(80.80%)0.87(19.12%)4.54
+洱海4.36(96.89%)0.14(3.09%)4.50
+
+
+　　从表2可以看出，阿哈湖、百花湖和洱海湖水SO2-4浓度各有差异，但各湖泊的有机碎屑硫沉积速率基本没有差别，表明水体生物同化吸收作用不随SO2-4浓度的增大而增加.
+
+3　讨论和结论
+　　根据以上结果可以进行如下讨论：
+　　(1)沉积物和水界面附近的硫酸盐还原作用是高浓度硫酸盐湖泊硫酸盐的主要清除作用，而低硫酸盐含量湖泊水体硫酸盐的清除作用主要是水体生物的同化吸收作用.
+　　根据前述的水体硫酸盐向沉积物扩散的通量和有机碎屑硫沉积速率，可以计算湖泊对硫酸盐的总清除速率及其这两种作用的贡献(表2).从表2可以看出，随着水体硫酸盐浓度的增大，湖泊沉积物-水界面对硫酸盐的清除作用也随之增大，这反映了湖泊对硫酸盐浓度增大的反馈和自然调节机制.但水体生物同化吸收作用几乎不随硫酸盐浓度的增大而增大，说明这时水体硫酸盐浓度对水体生物来说已经过剩［9］.水体向沉积物内部扩散的通量则随硫酸盐浓度的增加而增大，在清除整个湖泊硫酸盐所起的贡献也越大.百花湖和阿哈湖通过向沉积物扩散清除的通量占整个湖泊清除通量的比例达到19.1%和47.8%，而洱海只有3.09%，这表明：对于硫酸盐浓度较低的水体，水体生物同化吸收作用是湖泊硫酸盐清除作用的主要途径；然而随着硫酸盐浓度的增大，通过向沉积物内部扩散和硫酸盐还原作用逐渐成为湖泊清除硫酸盐的重要机制，这就是目前研究界面硫循环的意义之所在.
+　　(2)硫酸盐还原过程中产生的碱度是水体碱度的来源之一，湖泊酸碱平衡演化模式有必要考虑污染物经界面作用后对水体本身的影响.
+　　界面硫酸盐还原作用有双重环境效应：(1)SO2-4因浓度梯度不断向沉积物内部扩散，并以还原态硫和有机硫形式沉积下来，从而清除水体中的硫酸盐；(2)硫酸盐等作为电子受体参与有机质分解发生的还原过程中形成的HCO-3等离子可能向上覆水体扩散，从而增大湖泊水体的酸性中和容量，有利于减轻酸沉降本身造成的酸化效应.沉积物在硫酸盐厌氧还原细菌的参与下发生的硫酸盐还原作用可用下式表示：
+SO2-4+2CH2OH2S+2HCO-3+2H2O
+(5)
+硫酸盐向沉积物内部扩散的通量是硫酸盐还原和还原性硫氧化速率的共同结果，代表了硫酸盐还原的净速率；从上式可知，1摩尔的硫酸盐被还原，可以生成2摩尔的HCO-3；因此用界面SO2-4扩散通量可直接估算硫酸盐还原作用产生的碱度通量及其对上覆水体碱度的贡献(表3).
+表3　湖泊沉积物-水界面硫酸盐还原作用产生的碱度通量及其对上覆水体碱度的贡献
+Table 3 Alkalinity flux produced by sulfate reduction near the interface,and its contribution to alkalinity 
+of overlying water in Lake Baihua,Lake Aha,and Lake Erhai chosen from Yunnan-Guizhon platean
+
+　柱芯HCO-3浓度，
+mg/L碱度通量，
+10-2mmol.(cm-2.a-1)对上覆水体碱度的
+贡献，%
+阿哈湖AH92015023.01.54
+　AH920215016.00.96
+　AH920515022.61.35
+　AH920915019.941.13
+百花湖BH9402-31403.280.10
+　BH9402-11402.560.08
+　BH9401-11402.700.08
+洱　海EH9402-2147.60.260.28
+
+
+由表可看出，界面硫酸盐还原作用的过程中产生一定的碱度，是水体碱度的来源之一，为水体酸性中和容量的组成部分，暗示了湖泊酸碱平衡演化模式有必要考虑污染物经界面作用后对水体本身的影响
+参考文献
+1　Lahermo P M， Tarvainen T, Tuovinen J P. Atmospheric sulfur deposition and stream water quality in Finland.Environmenatl Geology,1994,24:90—99
+2 Baker L A. Recent enrichment in the sediments of Little Rock Lake,Wisconsin. Limnol Oceanogr.,1992,37(4):689—702
+3 Chanton J P， Martens C S, Paull C K et al. Sulfur isotope and pore water geochemistry of Florida escarpment seep sediments.Geochimica et Cosmochica Acta,1992,57:1253—1266
+4 Goldhaber M B, Gordon A G. Mechanisms of sulfur in cooperation and isotope fractionation during early diagenesis in sediments of the Gulf of Califormia. Mar.Chem.,1980,9:95—148
+5 Lord C J Ⅲ, Church T M. The geochemistry of salt Marshes; Sedimentary diffusion, sulfate reduction, and pyritization. Geochimica et cosmochica Acta,1983,47:1381—1891
+6 Urban N R， Brezonik P L, Baker L A et al. Sulfate reduction and diffusion in sediments of Little Rock Lake, Wisconsin. Limnol Oceanogr, 1994,39(4):797—948
+7 Walsh R S, Luther G A. The biogeochemistry of hydrogen sulfide:Pytoplankton production in the surface ocean. Limnol Oceanogr,39(4):941—948
+8　袁自强，吴德殊，黄荣贵等.湖泊沉积物水界面系列采样装置的研究.环境科学，1993，14(1)：70—73
+9 Rudd J W M, Kelly C A, Schinder D W. A comparison of the acidification efficiencies of nitric and sulfuric acids by two whole lake addition expernment. Limnol Oceanogr,1990,35(3):663—679
+10 吴丰昌.云贵高原湖泊沉积物和水体氮、磷和硫的生物地球化学作用和环境效应［博士论文］.中国科学院地球化学所，1995
+11　Li Y H, Gregory S. Diffusion of ions in sea water and in deep-sea sediments. Geochimica et Cosmochica Acta,1974,38:703—714
+12 Kelly C A, Rudd J W M et al. Prediction of biological acid neutralization in acid-sensitive lakes. Biogeochem,1987,3:129—136
+13 Cook R B, Kelly C A, Kingston J C et al. Chemical limnology of soft lakes in the Upper Midwest. Biogeochem,1987,4:97—117
+14 Jorgensen B B. The sulfur cycle of a coastal marine sediments. Limnol Oceanogr,1977,5:814—832
+15 Martens C S, Klump J V et al. Biogeochemical cycling in an organic-rich coastal marine basin, 4. An organic carbon budget for sediment dominated by sulfate reduction and methanogensis. Geochimica et Cosmochica Acta,1984,48:1987—2004
+16 Bartlette K.Macrofauna Distribution and Seasonal Influences on Interstitial Water Chemistry of Cape Lookout Bight,N.N.C.M.S.Thesis,University of North Carolina at Chapei Hill,1981
+17　吴丰昌，万国江.泸沽湖沉积物-水界面扩散作用对上覆水体基本化学组成的影响.环境科学，1996，17(2)：10—12

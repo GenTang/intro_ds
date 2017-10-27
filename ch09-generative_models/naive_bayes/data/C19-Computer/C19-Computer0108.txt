@@ -1,0 +1,47 @@
+计算机工程
+Computer Engineering
+1999年　第25卷　第9期　Vol.25 No.9  1999
+
+
+
+实现分布式网络管理的一种方式
+黄　淞　瞿兆荣
+　　摘　要：通过整合MbD(Mamagement by Delegation)、CORBA分布式数据库达到统一构建分布式网管平台的期望．
+　　关键词：MbD; CORBA; 分布式数据库
+Introduction of a Way to Design Distributed Network Management
+Huang Song Qu Zhaorong
+(Eeat-China Institute of Computer Technology, Shanghai 201800)
+　　Abstract　This paper established a part of network management platform which integrates MbD (Management by Delegation). CORBA and Distributed Databace.
+　　Key words　MbD; CORBA; Distributed database
+　　首先讨论平台的选择。传统意义上的网络管理可以以SNMP协议为代表。在代理端所做的工作量相对而言是很轻的，这也是和当时的硬件水平有关。随着嵌入式系统的发展，从CPU到内存都有了长足的进步，再简单地进行SNMP代理工作有些在PⅡ上跑DOS的味道。对网管的改进有几种方法。一种直接的方法是增加SNMP代理的功能，如相应的SNMP以后的版本V2V3等，增加MIB库变量如RMON，就是把“DOS”不断升级。操作系统还是传统意义的操作系统。另一种方法是在代理端先驻留上一个Runtime，以后需要什么功能再以代码下发的方式下载到代理上去。还和操作系统比较就是这时只驻留了一个微内核完成诸如调度的工作，而所需的其它模块在运行时必要时要加载进内存。只不过不同的是，一个是从Manager下载到代理，而另一个是从硬盘载入内存。后一种网管方法称为MbD(Management by Delegation)目标，本对照就是后者治本前者治标。
+　　网络复杂以后，往往是层次式、分布式结构。这就由一个Manager演变成了MoM(Manager of Manoger)。由Manager和几个Submanager组成，甚至可以有MoMoM…的关系。关系一复杂以后，各种问题就出来了，如何对各个Submanager寻址，统一传送格式等，在通信中间件无处不在的今天，我们只需利用中间件提供的功能就可以不关心这些繁琐而枯燥的事情了。这里用的是CORBA，当然其它如DCE也可以，只不过CORBA的天然对象性用起来自然一些。因为MoM的现象并非只有网管才有，所以在其它各种需管理的地方都可以适用。正如OSF的“bring management to everything"，这时所管理的库信息就得相应地变动，访问该信息的操作的意义也需进行“本地化”了。
+　　接下来就是应用层协议的安排了。CORBA是个中间件，在网络7层中可以看成会话层、表示层、应用层的一部分。整个系统的应用层协议参照分布式数据库实现，将分散于各个域中的各个Agent控制的视图变量统一在一个模式下进行管理(关于视图变量下面详细阐述)。实质是在首先将局部MIB库进行“数据库”化后再将全部网络的各域中的各个代理所控制的“数据库”进行“分布式数据库整合。这样做不光访问方便了，也解决了一些通常方法完成不了的问题(具体参见文献[2])。
+　　下面逐步细化整个设计过程。
+1　客户登录部分
+　　整个系统的框架如图1。为保证系统的安全性，用SSL是因为在Socket上动手脚，所以不影响其上的各层即可以Web方式登录(在Manager上驻留一个HTTP Server)，也可以用CORBA方式登录(IIOP协议)，或干脆自行做一个C/S结构的东西都行。关于SSL的整个过程，由于是程式化的一套，现在有许多plug-in来完成这项工作，如SSLeay就是C++的Plug-in。在登录的整个过程里，中心服务器(Manager)需完成：(1) 用户的确认；(2)其管理权限的确认。
+
+图1　系统框架
+2　中心服务器
+　　在中心服务器中必须存有(1) 管理用户权限表；(2) Submanager的名称，提供的服务；(3) 全网络的视图变量及其对应的域、代理。
+　　在管理用户需访问某变量时，首先判断找出该变量对应域、代理名和权限表对应后，如合法则由命名服务器定位Submanager进行操作。
+　　设计中心网管服务器对外编程接口至少需包括3个：get(),set和make()。它们分别是获取、设置某视图变量的值和产生一视图变量。
+　　所谓视图变量就是MIB变量是在“数据库”化后的外模式下的视图。没有进行“数据库”化以前，SNMP可以看成是对MIB库的查询语言，SMI是其数据定义语言DDL，Agent是DBMS。对照完整的数据库体系结构发现内模式有的即Agent对MIB变量的内部表示，模式有的即用SMI语法规则表示的被管理实体，但外模式就没有了。不同的用户看到的是同一个模式--全体MIB变量，这不仅不安全，而且访问效率也不高。MIB库的“数据库”化过程就是加上外模式的过程，具体是通过添加视图变量实现的。由代理Agent实现从视图到MIB变量的转换。这个转换程序代码可以是一直驻留在代理上的，也可以是从域Submanager下发给代理再编译运行的；而视图变量则由make()接口所接收的类AQL代码下发到代理上，再由该代理完成定义的视图到实际的MIB变量间的转换，过程见图2。
+
+图2　变量转换
+3　Manager和Submanager互操作部分
+　　由于在系统内部就不考虑SSL，当然根据需要添上也是无妨的。
+　　这时的总线是CORBA。在具体使用的时候，首先定制所需的部分。由于完全的CORBA包括CORBA core和CORBA Compliance points，一些必需的部分(也即最小内核)为包括ORB Interface、BOA、IR、IDL Mapping在内的CORBA Core。而如CORBA互操作CIIOP)、CORBA服务(包括生存期服务、命名服务)、trader服务等16种服务和CORBA公共设施(facility)都算是Compliance points。在考虑到系统的尽可能精减和功能上的需求，系统所用的CORBA产品必须包括Core+命名服务+IIOP。如该产品可提供Transaction和Concurency服务，则不需自行完成许多工作， 若不提供，则自选设计也行。在 Mapping 方面一般用C++。Java的目前弊病在JVM的效率上。
+　　CORBA的实质其实是这样的。首先不管是客户还是服务端对象，都把自己的应用层意义通过统一的IDL语言说明，这就保证了跨语言的能力，实现了应用层上互通的可能。而下面各层由ORB来完成通信，然后在客户端把这个IDL mapping成由本地语言写成的Stub，服务端把它的IDL mapping成由它本地语言写成的Skeleton。这时Stub和Skeleton就可以看成是双方的两个代理(翻译)，成了CORBA这个中间件的转换器。在互通的基础建好之后，就必须知道对方(服务方)的IOR(Interoperable Object Reference)号了，很像打电话所必需的电话号和上网的IP地址一样。这时就可以通过CORBA的命名服务器把IOR和有一定意义的对象名称联系起来。
+4　Submanager和Agent间的互操作
+　　这是通过MbD完成的(主要针对make()操作)。对于get()set()可以看成是MbD和SNMP互作用的结果。MbD详细介绍参见参考文献[3]。简而言之就是在Agent上的程序由Submanager完全控制，而这个程序是由Submanager下发到Agent上的，好处就像是随时可以清理硬盘空间和内存一样。在进行互操作前需预先下发一个类SQL语言--SMI的翻译器和一个类SNMP Agent代码到Agent的Runtime上。这两者前者处理make()接口，后者处理get()、set()接口。基本上整个系统的难点就在这两个daemon上，类SNMP Agent还好办一些，有现成的各种资料好查，而类SQL-SML翻译部分需花些时间。
+5 与分布式数据库结合
+　　所以在应用层用到分布式数据库理论主要是考虑到存在多用户同时访问同一域中同一MIB变量的可能，也存在make()，set()写操作过程中突然出现的异常情况而导致整个操作不能正确完成的情况。所以有必要引入分布式数据库中的事务处理中的事务提交方法和锁定临界区的方法，这里以IPL和IPC为代表。
+　　具体而言，中心服务器在接收到客户请求式自行判断标准生效后，起动IPC、IPL过程。IPL的过程若是有同级，高级用户正在访问某一域时用户等待。IPC的过程是在所有所需提交的域完成提交之后才回写日志完成提交。
+　　这样，在局部进行了数据库化处理，增加外模式之后，全局引入分布式数据库的一些解决方法，再在通信方面以CORBA连接后，整个系统就可搭建起来了。
+作者简介：黄　淞(1976～)，男，研究生，主攻方向：分布式与网络软件系统
+作者单位：华东计算技术研究所，上海　201800
+参考文献
+1 黄淞.利用MbD实现分布式网络管理.华东计算所研究生论文,1999
+2 German Goldszmidt.On Distributed System Management. http:// www.cs.columbia.edu/-german
+3 German Goldszmidt & Yechiam Yemim.Distributed Management by Delegation.http:www.cs.Columbia.edu/-german
+收稿日期：1999-03-01

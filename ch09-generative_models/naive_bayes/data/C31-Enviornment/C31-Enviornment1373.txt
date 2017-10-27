@@ -1,0 +1,143 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+天然矿物锰矿砂对苯酚的界面吸附与降解研究*
+郑　红　汤鸿霄
+摘要　研究了天然矿物锰矿砂对苯酚的界面吸附与降解，结果表明锰矿砂对苯酚具有较强的吸附作用.较高温度、低pH值、固相与苯酚的较高质量比值有利于苯酚的吸附.吸附过程遵循二级反应动力学，吸附等温线为Langmuir型.应用简化的表面络合反应模式，求得了不同条件下的条件稳定常数及吸附苯酚的表面总吸附位.适量的锰矿砂在最佳条件下可去除苯酚80%以上，其中光催化降解作用约占6%左右.酸性条件下光照和暗反应均有对苯醌检出，光照促进了锰矿砂的溶解.对降解机理进行了初步探讨.
+关键词　天然矿物；锰矿砂；苯酚；吸附；降解
+Adsorption and degradation of phenol on natural manganese ore surfaces
+ZHENG Hong, TANG Hongxiao (Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+Abstract　In this paper,the adsorption and degradation of phenol on natural manganese ore were studied.The results indicate that manganese ore particles are excellent adsorbents for phenol.Higher temperature,low pH and higher mass ratio of solid/phenol are favorable to adsorption of phenol on manganese ore surfaces.Second order kinetics were observed during adsorption process.The adsorption isotherms are linearised according to Langmuir model.Conditional adsorption constants and total manganese ore surface site concentration of surface complexes of phenol with manganese ore particles were calculated by a simplified surface complexation model.Removal percentage of phenol on manganese ore surfaces under the best condition was over 80%,in which sunlight photolysis percentage was about 6%.p-benzoquinone was main oxidized product under acidic pH conditions.Light is favorable to the redox reaction on interface.Possible degradation mechanisms were discussed.
+Keywords　natural minerals,manganese ore,phenol,adsorption,degradation.
+　　矿物的光化学还原溶解以及此过程中有机物的氧化是一个活跃的研究课题.许多研究［1，2］表明，与天然有机物结构相似的合成有机物能够还原和溶解氧化锰而本身得到氧化降解.变价金属氧化物的氧化可能是某些环境中有机物降解的重要途径［3］.矿物还原及有机氧化反应的外层和内层机理如表1，可用前体络合物形成、电子迁移和次级络合物解体三个主要过程来表示［4］.
+　　吸附能明显的改变矿物颗粒表面的特性，控制天然水中痕量污染物的迁移和归趋，同时也是影响矿物与配体间界面氧化还原反应的重要过程.由于较高价态矿物的溶解性很低，氧化还原反应发生在矿物/水界面［5］.总的氧化还原反应速率不仅取决于电子迁移和随后的反应速率，同样依赖于吸附的速率和程度.表面羟基化程度、配体-水相互作用及配体-表面相互作用力在决定有机配体吸附程度上都起着至关重要的作用.
+表1　苯酚对三价金属氧化物表面位的还原
+Table 1 Reduction of trivalent metal oxide surface sites by phenol
+
+　内层外层
+(A)前体络合物形成≡MeⅢOH+HA≡MeⅢA+H2O≡MeⅢOH+HA≡MeⅢOH+HA
+(B)电子迁移≡MeⅢA≡MeⅡ.A≡MeⅢOH,HA≡MeⅡOH,A·＋H+
+(C)次级络合物解体≡MeⅡ.A·MeⅡ(H2O)62++A·≡MeⅡ.AMeⅡ(H2O)62＋＋A·
+
+　　注：≡MeⅢOH表示三价金属氧化物的两性表面官能团，HA表示苯酚
+　　氧化锰的氧化强度和反应性使其在环境中能参与非常重要的氧化还原反应.锰矿砂的主要成分是锰的氧化物，本文重点讨论锰矿砂对苯酚的界面吸附动力学，可能遵循的吸附模式及降解趋势.
+1　材料与方法
+1.1　锰矿砂颗粒的表征
+　　试验选取的锰矿砂源自江西，试验前用微型高效万能试样粉碎机粉碎，用50μm标准检验筛经水分筛分处理，除去其中大于50μm的颗粒，用二次蒸馏水浸泡24h，并反复冲洗，以去除附着在颗粒表面的杂质，然后在红外灯下(30—60℃)烘干备用.
+　　使用傅立叶红外分光光度计以溴化钾压片法测定锰矿砂的红外光谱，其谱图如图1所示. 529cm-1处的峰为氧化锰Mn—O键振动的特征峰，大于1400cm-1的峰是由氧化物的水合组分引起的.其丰富的表面羟基键说明锰矿砂表面具有强的化学吸附活性.N2吸附法测得<50μm颗粒的BET比表面积为73.41m2/g.电位滴定试验测得颗粒的pHPZC为3.6，如图2.
+
+
+图1　锰矿砂的傅立叶红外光谱谱图
+Fig.1 IR spectra of manganese ore particles
+
+
+图2　锰矿砂表面电荷与pH值关系曲线
+Fig.2 Surface charge on manganese ore under different pH conditions
+1.2　吸附实验
+1.2.1　吸附等温线　在一系列100mL磨口三角瓶中加入一定量锰矿砂(最终浓度为2g/L).悬浊液离子强度为0.01mol/L NaNO3.用0.1mol/L HNO3或0.1mol/L NaOH分别调pH至预定值.苯酚浓度为0—50mg/L.加塞分别于25±0.1℃和40±0.1℃下振荡3h，静置24h后，一部分上层液立即测定pH值，另一部分经0.45μm滤膜过滤，过滤后的样品用DU-650紫外分光光度计和LC-10A高效液相色谱在270nm波长下直接测定苯酚浓度.测定时以同条件下不加苯酚的矿物本底为空白对照.
+1.2.2　吸附动力学实验　在500mL烧杯中配制一定浓度的矿物悬浊液300mL，离子强度为0.01mol/L NaNO3，在给定的苯酚初始浓度、温度和pH值条件下磁力搅拌，在不同的时间定期取样.测定pH值及苯酚浓度的方法与上述相同.
+1.3　降解实验
+　　日光光解实验采用与吸附动力学实验相同的装置，在太阳光下磁力搅拌，取样的同时测定温度和光强，并进行同条件下不加锰矿砂时苯酚的直接光解实验.
+　　溶解实验在光化学反应器(南京长宁无线电厂制造)中进行.反应器中心为500W中压汞灯，用玻璃外套循环冷却水控制反应温度在20±1℃.通入空气(240mL/min),定期取样，膜滤后用高碘酸钾氧化光度法测定溶解Mn2+的浓度.
+2　结果与讨论
+2.1　锰矿砂对苯酚的吸附
+2.1.1　吸附等温线　图3为不同pH值和温度条件下的吸附等温线.温度升高，pH值降低时，饱和吸附量增大.我们选用Langmuir表达式来处理等温线数据，得到的线性方程如图4.可见四种条件均能较好的满足Langmuir吸附等温式.
+
+
+图3　锰矿砂吸附苯酚的吸附等温线
+Fig.3 Adsorption isotherms of phenol on manganese ore particles (0.01mol/L NaNO3)
+
+
+图4　锰矿砂吸附苯酚的Langmuir线性等温线
+Fig.4 Linearised Langmuir adsorption isotherms of phenol on manganese ore particles
+
+
+图5　锰矿砂吸附苯酚的二级反应动力学曲线
+Fig.5 Second order kinetics curves of adsorption of phenol on manganese oreparticles
+C固=2g/L,pH=2.87±0.02,T＝34±2℃
+2.1.2　吸附动力学　在低pH值的酸性条件下锰矿砂对苯酚具有很好的吸附去除效果.如图5，pH=2.87±0.02时，反应7h后苯酚吸附去除率达到67%.当锰矿砂与苯酚的质量比一定时，苯酚去除速率可用二级反应方程式拟合，即，
+-dCphenol/dt=kC2phenol
+　　则　C-1t-C-10=kt
+将实测数据回归，得到的回归系数R2大于0.95.
+
+
+图6　pH值对苯酚吸附百分率的影响
+Fig.6 Adsorption of phenol on manganese ore under different pH conditions
+C0=10mg/L,T＝34±2℃,C固=2g/L
+2.1.3　影响吸附效果的因素　在所研究的pH值范围(pH=2.85—7.60)内，苯酚的吸附去除率随pH值升高而降低，如图6所示.当pH>3.6时，随pH值升高去除率变化较小，而pH<3.6时，随pH值降低去除率明显升高.由于pH值影响配位体在溶液中的质子作用平衡和个别表面位的质子作用水平，表面的净质子作用水平反过来又决定表面电荷和表面电位，所以pH值可通过质子反应而加速前体络合物的形成；也可通过提高表面前体络合物的质子作用水平从而提高电子迁移速率［11］.质子还可通过如下反应促进吸附的Mn2+从表面释放而影响反应速率［2］：
+≡MnⅣOH+Mn2+(aq)+H2O
+≡MnⅣOMnⅡOH2++H+
+电位滴定试验测得锰矿砂的pHPZC约为3.6,pH＞3.6时,颗粒物表面为负电荷,颗粒物还原生成的Mn2+因异性电荷相吸的静电作用而吸附在颗粒物表面,吸附的Mn2+占用了可能的表面位,从而降低了苯酚的吸附率;pH＞3.6时则相反.低pH值时苯酚分子形态较离子形态比例增大,疏水效应增强,也促进了苯酚的吸附作用.
+　　锰矿砂浓度增加，会使总的吸附位增加，吸附容量增大，但单位质量锰矿砂去除苯酚的百分率呈现出不同的趋势，这主要由颗粒物表现吸附位强弱不同决定的[7].苯酚初始浓度高时,支除速率较大,但去除百分率相对较小,这与颗粒物的吸附容量有关.
+2.1.4　吸附模式探讨　锰矿砂颗粒的主要成分是锰的氧化物,因而苯酚与锰矿砂界面相互作用可以用金属氧化物与吸附质的表面络合吸附模式即锰矿砂表面位与苯酚的配位络合反应来表述.水中县浮的锰矿砂颗粒由于其表面离子的配位不饱和,在水溶液中与水配位,水发生离解而生成羟基化[8].如果锰矿砂的两性表面官能团用≡MnⅢ/ⅣOH来表示,那么其表面羟基具有下列的酸碱平衡:
+≡MnⅢ/ⅣOH2＋≡MnⅢ/ⅣOH＋Haq+　≡MnⅢ/ⅣOH≡MnⅢ/ⅣO－＋Haq+　　　　　(1)
+由于锰矿砂表面结构比较复杂，很难精确描述锰矿砂表面基团与苯酚的酸碱化学反应，所以我们将总的锰矿砂表面位浓度Σ≡MnⅢ/ⅣOH简单表示为
+Σ≡MnⅢ/ⅣOH=≡MnⅢ/ⅣOH2++≡MnⅢ/ⅣOH+≡MnⅢ/ⅣO-　　　　　　　(2)
+苯酚(HA)-金属键合位ΣHA表示为
+ΣHA=H2A++HA+A-
+(3)
+　　假设苯酚所有键合位的键合能力是等同的，一个表面位与一个苯酚分子相互作用，则锰矿砂表面位与苯酚的络合反应可以得到大大简化，以苯酚与锰矿砂表面形成前体络合物时的内层键合为例，该过程可表示为
+Σ≡MnⅢ/ⅣOH+ΣHAΣ≡MnⅢ/ⅣA+H2O
+(4)
+式中
+Σ=MnⅢ/ⅣA=≡MnⅢ/ⅣHA++≡MnⅢ/ⅣA+≡MnⅢ/ⅣOHA-+…　　　　　　　　(5)
+按照1∶1反应的质量平衡表达式，由反应(4)可得
+Σ≡MnⅢ/ⅣA=k*[Σ≡MnⅢ/ⅣOH][ΣHA]　　　　　　　　(6)
+式中k*为表面络合物Σ≡MnⅢ/ⅣA的条件稳定常数，体现配体苯酚与锰矿砂表面位间的质子相互作用.
+　　这一模式是锰矿砂表面与苯酚配体相互作用的最简单的可能模式，虽然过于简化了锰矿砂表面与苯酚的相互作用，但由于实际相互作用的复杂性和描述真实反应的困难性，加之主要反应的合理性，该简化了的模式能够反映一定的相互作用过程.
+反应平衡时总的锰矿砂表面位浓度［≡MnⅢ/ⅣT］可表示为
+［MnⅢ/ⅣT］=[≡MnⅢ/ⅣOH]+[Σ≡MnⅢ/ⅣA\]　　　　　　(7)
+将方程(6)与(7)联立，得
+［Σ≡MnⅢ/ⅣA］=k*［≡MnⅢ/ⅣT］[ΣHA]/(1+k*[ΣHA])　　　　(8)
+符合Langmuir等温式.
+将等式(8)变形，得
+(［Σ≡MnⅢ/ⅣA])-1=(k*[≡MnⅢ/ⅣT])-1×([ΣHA])-1+([≡MnⅢ/ⅣT］）-1　　(9)
+将pH=2.5±0.05，T＝25℃及pH=6.5±0.15，t=25℃时的实测值代入，得
+　　pH=2.5±0.05，T=25℃时，k*=0.04［≡MnⅢ/ⅣT］=0.76mmol/g
+　　pH=6.5±0.15,T=25℃时，k*=0.012[≡MnⅢ/ⅣT]=0.088mmol/g
+2.2　降解效果
+　　为了评价光照对苯酚去除效果的影响，我们进行了室外光照和避光实验(避光的烧杯用不透光纸遮住)，发现苯酚的去除率约有4%的差异.由于前面的研究中发现酸性条件下紫外光谱和液相色谱测定结果相差很大，将数据进行校正，如表2，发现锰矿砂的光催化去除率可达6%左右(C固=2g/L)，苯酚总的去除率可达80%以上.
+表2　酸性条件下苯酚去除百分率校正结果(t=6h)
+Table 2 Adjusted results of removal percentages of phenol under acidic conditions
+
+　紫外测定结果液谱校正结果
+C0Ct去除率，%C0Ct去除率，%
+光照21.56.2970.7421.53.9881.5
+避光21.57.1666.721.55.3175.3
+
+　　注：C0和Ct的单位均为mg/L,pH=3.05±0.2,C固=2g/L.
+
+
+图7　不同条件下锰矿砂的还原溶解
+Fig.7 Reductive dissolution of manganese ore
+C固=2g/L,pH=3.10±0.04,T=20±0.1℃
+　　从产物的液相色谱结果可以看出，光照和暗反应时均有一定量的对苯醌检出，可见除可能的太阳光降解作用外，其界面还发生了伴随锰矿砂溶解的氧化反应.苯酚存在时锰矿砂的还原溶解如图7.光照、暗反应条件下锰矿砂均有一定程度的溶解，光照明显催化了锰矿砂的溶解.Stone［1］提出了Mn(Ⅲ/Ⅳ)氧化物与取代酚的界面氧化还原反应机理，暗反应时锰矿砂与苯酚的相互作用与纯锰氧化物有相似之处，可用同样的机理来表述：
+　　吸附：≡MnⅢ/ⅣOH+ArOH≡MnⅢ/ⅣOAr+H2O
+　　电子迁移：≡MnⅢ/ⅣOAr(MnⅡ,·OAr)
+　　酚自由基的释放：(≡MnⅡ，·OAr)+H2O≡MnⅡ-OH2+·OAr
+　　还原Mn(Ⅱ)的释放：≡MnⅡ-OH2Mn2++初始表面位
+　　重组及进一步氧化：ArO·→醌、二聚物及多聚氧化产物
+　　光有助于锰矿砂的还原及伴随发生的苯酚的氧化.文献报导，纯锰的氧化物与酚类化合物的界面氧化还原反应并不为光照所催化［1］，而天然有机物如淡水和海水腐殖酸类物质能光催化含锰氧化物的还原溶解［2，3］.因而光对锰矿砂与苯酚反应的催化作用不能用纯锰氧化物的作用机制来解释.Waite等人［2］认为，淡水中的富里酸光致溶解氧化锰主要通过下面机理来实现：(1)有机配体富里酸的官能团与氧化物表面Mn(Ⅲ/Ⅳ)中心形成内层络合物，光照时其配体-金属电荷迁移带吸收光子，生成电荷迁移激发态［9］，有利于电子迁移；(2)光照有利于溶液相及吸附于氧化物表面的富里酸分子的n→π*或π→π*迁移激发，使分子的给电子能力提高［10］；(3)光致价带电子激发到导带，在氧化锰颗粒表面生成电荷载流子(e-,h+)，催化反应的发生［11］.锰矿砂复杂的组分和结构可能有利于光子的吸收、电子迁移及电荷载流子的生成.重铬酸钾容量法测得锰矿砂中有机质的含量为0.147%，不加苯酚时锰矿砂的溶解及光催化作用都可能与这些有机质有关.
+3　结论
+　　1.锰矿砂对苯酚具有较强的吸附作用，其吸附过程遵循二级反应动力学.高温、低pH值、较高锰矿砂与苯酚的质量比有利于苯酚的吸附.
+　　2.锰矿砂吸附苯酚遵循Langmuir型吸附等温式，应用简化了的表面络合反应模式，求得pH=2.5±0.05，t=25℃时的条件稳定常数为0.04，吸附苯酚的表面总吸附位为0.76mmol/g;pH=6.5±0.15，t=25℃时，条件稳定常数为0.012，表面总吸附位为0.088mmol/g.
+　　3.酸性条件下锰矿砂与苯酚发生了界面氧化还原反应，光照催化了该反应的发生.暗反应时的作用机理可用纯锰氧化物与有机物的作用机理来解释，光照的催化作用主要来自天然锰矿砂复杂的组分和结构.
+* 国家自然科学重点基金项目(批准号29637010)资助
+作者单位：中科院生态环境研究中心环境水化学国家重点实验室　北京　100085
+参考文献
+1　Stone A T,Reductive Dissolution of manganese (Ⅲ/Ⅳ) oxides by substituted phenols.Environ Sci Technol,1987,21:979
+2 Waite T D,Wrigley I C,Szymczak R.Photoassisted dissolution of a colloidal manganese oxide in the presence of fulvic acid.Environ Sci Technol,1988,22:778
+3 Stone A T,Morgan J J.Reaction and dissolution of manganese (Ⅲ) and manganese (Ⅳ) oxides by organics.2.Survey of the reactivity of organics.Environ Sci Technol,1984,18:617
+4 Stone A T.Adsorption of organic reductants and subsequent electron transfer on metal oxide surfaces.In:Davis T A,Hayes K F (ed.) Geochemical processes at mineral surfaces.1986:446
+5 Stone A T,Morgan J J.Reaction and dissolution of manganese (Ⅲ) and manganese (Ⅳ) oxides by organics.1.Reaction with hydroquinone.Environ Sci Technol,1984,18:450
+6 Voelker B M,Morel F M M,Sulzberger B.Iron redox cycling in surface waters:effects of humic substances and light.Environ Sci Technol,1997,31:1004
+7 郑红，汤鸿霄.几种天然矿物去除苯酚效果及日光光解效应评价.环境化学，1998，17：473
+8　斯塔姆 W，摩尔根 JJ著，汤鸿霄等译.水化学.北京：科学出版社.1987
+9　Balzani V,Carassiti V.Photochemistry of coordination compounds.Academic:New York.1970
+10 Waite T D,Torikov A,Smith J D.Photoreductive dissolution of colloidal iron oxides by thiol containing compounds 1.Dissolution of hematite.J Colloid Interface Sci,1986,112:412
+11 Harriman A,Richoux M C,Christensen P A,et al.Redox reactions with colloidal metal oxides:Comparoison of radiation-generated and chemically generated ruthenium dioxide dihydrate and colloids.J Chem Soc,Faraday Trans 1,1987,83(9):3001
+1997-11-03收到原稿
+1998-04-22收到修改稿

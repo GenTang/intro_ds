@@ -1,0 +1,117 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+一种基于等价的联盟演化机制
+徐晋晖　石纯一
+摘要　联盟是多Agent之间一种重要的合作方法.多数方法没有考虑联盟的演化问题，难以避免大量的计算；而且对于联盟值是已知的假设也是不实际的.文中给出了联盟问题的等价性和相应的联盟演化机制，不通过对联盟值预先计算，可求得联盟问题的解，可以降低计算复杂度.与Shehory & Kraus的工作相比引入了联盟的等价和演化，放松了对联盟值已知的假设限制.
+关键词　联盟，联盟值，等价，演化
+中图法分类号　TP18
+A MECHANISM OF COALITION EVOLVEMENT 
+BASED ON EQUIVALENCE
+XU Jin-Hui and SHI Chun-Yi
+(Department of Computer Science, Tsinghua University, Beijing　100084)
+Abstract　Coalition is an important cooperative method in multi-agent systems. Most of the methods don't consider evolvement of coalition, so it is difficult to avoid a mass of computation, and assumption about coalition value known isn't realistic. In the paper here, equivalence of coalition and mechanism of evolvement are presented, which can obtain solution of coalition by non-computing of coalition value and may reduce computational complexity. The work of the paper introduces equivalence and evolvement of coalition, and releases restriction of assumption about coalition value known, compared with the work of Shehory & Kraus.
+Key words　coalition, coalition value, equivalence, evolvement
+1　引　　言
+　　自1993年文献［1］到文献［3］提出联盟方法以来，已取得了一定的进展.通过联盟可以提高Agent求解问题的能力，获得更多的报酬，因而联盟是多Agent系统(MAS)的重要合作方法.
+1.1　问题的描述
+　　设Agent集N={A1,A2,…,An}，资源集Q={(q1,q2,…,qn)}，其中qi=(q1i,q2i,…,qkii)，qji表示Ai第j种资源的数量；任务集T={T1,T2,…,Tn}，其中Ti={t1i,t2i,…,tmii}是Ai的任务集，tji是Ai的第j个任务，对每一个任务有对应的资源需求说明；每一个Agent开始都持有一定的资源.
+　　MAS的合作是如何在Agent之间进行资源和任务的重组，使得每一个Agent既能完成任务，又能节省资源取得满意的报酬？这可通过联盟方法来完成.
+　　一个联盟C可以用〈Nc,qc,Q′c,Tc,T′c,V(c),Uc〉来描述，其中Nc是N的子集，qc是C拥有的资源，Q′c是资源分配的结果，Tc是C的任务集合，T′c是任务分配的结果，V(c)是联盟的值，Uc=(u1,…,u|c|)是V(c)对C成员的一个分配.
+　　联盟问题是求一个满足稳定性要求的{U,CS}，(U,CS)为问题求解的一个中间状态或最后结果，其中联盟结构CS={C1,C2,…,Cp}是N的一个划分，U=(u1,u2,…,un)是每个Agent所得报酬的描述.
+　　函数V是2N→R的映射，如果对N的子集S，T，当S∩T=φ，有V(S∪T)≥V(S)+V(T)，称V满足超加性，否则V(S∪T)<V(S)+V(T)，称V满足次加性；在超加情况下所有的Agent应组成一个大联盟，最后的CS={N}；相反在次加情况下应互不结盟，最后的CS={{A1},{A2},…,{An}}.通常以Agent通过联盟合作带来的额外效用作为联盟的值，一般有V({Ai})=0.
+1.2　联盟的形成过程
+　　联盟的形成过程：①联盟结构CS的产生；②求解联盟值，将联盟结构每一个可能的联盟的资源和任务进行组合分配，求得相应的联盟值；③将联盟值在成员之间进行分配，求得一个稳定的U.这3步是互相交互的，需不断反复求得一个符合稳定性要求的{U,CS}.
+　　作为一种联盟方法应满足最小性质要求：
+　　(1) 方法的有效性.指通过联盟带来的额外效用不应该比形成联盟所需的通信和计算资源开销小；
+　　(2) 结果的稳定性.有个人、群体、联盟3种理性要求，即①个人理性公式ui≥V({Ai}),②群体理性公式是对于，有∑Ai∈Sui=V(S)，(有的文章中公式是∑Ai∈Nui=V(N)，这只对超加性适用)，③联盟理性公式是，对于，有且∑Ai∈Tui≥V(T)，这是强理性要求，往往难以保证.
+　　(3) 计算的分布性.计算和通信的分布，防止通信瓶颈和瘫痪点现象的发生.
+　　(4) 过程的简单性.要求得一个满意的结果采用穷尽所有可能的方案是不现实的，因为这是一个NP问题.
+　　有的文章中也提到对称性［4］，非减性［5］等.
+1.3　相关的工作分析
+　　Shehory & Kraus［2，6，7］,Zlotkin & Rosenschein［4］,Ketchpel［3，8］和Sandholm & Lesser［9，10］的工作没有考虑联盟的演化，每当新的任务加入任务集时，需要依形成算法重新结盟，而当任务求解完成后，联盟解体，这样势必有大量的计算和通信开销；并且所有的方法均假定联盟的值是预先求得的，但是联盟值的预先计算是困难的，因为只有最后合作完成，才能实际确定联盟的值.
+　　针对这些问题，本文首先给出了联盟等价的定义和相应的命题，进而依联盟等价给出了联盟的基本过程、匹配方法、调整策略等演化机制.
+2　联盟等价性
+　　依N人合作对策中策略等价，引入联盟问题的等价性.对策论中
+　　对策 (N,v) 与 (N,u) 称为策略等价的，如果存在正数a及实数β1,β2,…,βn,使
+
+　　这里的v和u是联盟值函数，并限定V({Ai})=0.
+　　定义1. 设有联盟问题P1和P2，对应的联盟值函数是V1和V2，如果有正数a，使
+
+那么称P1和P2在联盟值函数上等价.
+　　命题1. 设P1和P2在联盟值函数上等价，如果已求得P2的一个解(U2,CS2)，那么(aU2,CS2)是P1的一个解.
+　　联盟问题是多解的，核心、核、稳定集等对策解是集合的含义，这里指Shapley值、核心、核、稳定集等的一种.命题1从不同的解定义来证明.
+　　例1. 设N={1,2,3}，对于P1有V1({1})=V1({2})=V1({3})=0，V1({1,2})=V1({1,3})=V1({2,3})=4，V1({1,2,3})=8，对于P2有V2({1})=V2({2})=V2({3})=0，V2({1,2})=V2({1,3})=V2({2,3})=2，V2({1,2,3})=4，可见对，有V1(S)=2V2(S)，那么P1和P2在联盟值函数意义上等价.对于P2求得Shapley值意义上的解是（U2=(4/3,4/3,4/3),CS2={{1,2,3}}），并且解(U2,CS2)恰好也在核心、核和稳定集中.可以验证（U1=2(4/3,4/3,4/3),CS1={{1,2,3}}）是P1在Shapley值意义上的解，同时属于P1的核心、核和稳定集中.
+　　寻求得等价联盟问题的解，要依赖于联盟值函数的预先求得，而这是困难的，但可将联盟值与任务代价联系起来讨论.
+　　任务代价函数E是从Agent（或联盟）的任务集到实数集R的映射.
+　　约定的联盟值是Agnet之间通过合作所带来的额外效益，也就是任务代价的降低.对CN，有
+V(C)=∑i∈CE(Ti)-E(TC).
+　　这里Ti是Ai的任务集，TC=Ui∈CTi是联盟C的任务集.
+　　当V1(C)=aV2(C)有
+∑i∈CE(T1i)-E(T1C)=a（∑i∈CE(T2i)-E(T2C)）=a（∑i∈CE(T2i)）-aE(T2C)　　CN.
+　　这里T1i是P1中Ai的任务集.
+　　定义2. 设有联盟问题P1和P2，如果存在正数a，使
+∑i∈CE(T1i)-E(T1C)=a（∑i∈CE(T2i)-E(T2C)）=a（∑i∈CE(T2i)）-aE(T2C)　　CN,
+那么称P1和P2在代价上等价.
+　　命题2. 设P1和P2在代价上等价，那么命题1的结果仍成立.
+　　判断联盟问题代价等价是困难的，因为要对N的所有子集进行比较，但比依联盟值来判断等价进了一步.
+　　为了方便，我们限定：如果对i∈N，当E(T1i)=aE(T2i)，对CN有E(T1C)=aE(T2C)成立，这种限定称为E约束.
+　　命题3. 设有联盟问题P1和P2，满足E约束，如果存在正数a，使
+C(T1i)=aC(T2i)　　对i∈N，
+那么P1和P2在代价上等价.
+　　这时，就可以根据每个Ai的任务集，来判断联盟是否等价.
+　　命题4. P1和P2在联盟值上等价当且仅当P1和P2在代价上等价.
+　　如果两个联盟问题等价，那么在已知一个联盟问题的解，就可以直接计算出另一个联盟问题的解.
+3　联盟演化
+　　联盟演化与联盟历史有关，令联盟历史({联盟问题，联盟结果})中，每个{联盟问题，联盟结果} 称为联盟的一段历史，这里联盟问题指((HE1,ε1),(HE2,ε2),…,(HEn,εn))，其中(HEi,εi)是对Ai的描述，HEi是历史代价，联盟结果是(U,CS).
+　　εi=HEi/(∑Aj∈NHEj)是等价匹配范围.根据启发式知识，给每一个Agent指定一个适当的范围提高匹配的成功率，其所失要比通过联盟形成来求得一个结果所付出的计算和通信的开销小.U中不保存具体的数值，而是一个比例，且对所有的C∈CS，有∑i∈Cui=1，这样只有最后合作求解完成，才根据相应的比例进行联盟值的分配.
+3.1　联盟演化过程
+　　步骤1. 每一个Agent计算任务代价，将结果通知其他的Agent；
+　　步骤2. 与保存的联盟历史进行等价匹配：
+① 如果匹配成功，那么以成功匹配的历史的结果，作为此时联盟问题的结果；
+② 如果匹配不成功，考虑是否可以通过调整达到匹配，否则调用已有的联盟形成方法；
+　　步骤3. 按求得的(U,CS)组成联盟，对给定的任务进行合作求解，并进行联盟值的实际分配.如果是通过联盟形成求得的结果，将相应的结果保存到联盟历史中.
+　　该过程可以在MAS环境下实现.
+3.2　分布式等价匹配
+　　定义3. Ai与一段历史以正数a为参考匹配，是指目前的任务代价Ei在［(a-εi)HEi,(a+εi)HEi］范围内.
+　　联盟C与一段历史以正数a为参考匹配，是指所有的联盟成员均以a为参考与该历史匹配.
+　　联盟问题与一段历史以正数a为参考匹配，是指CS中的所有联盟均以a为参考与该历史匹配.
+　　分布式等价匹配过程：
+　　步骤1. 每一个Agent以自我为起点，计算目前的Ei与所有历史的比a；
+　　步骤2. 对于每一段历史，判断其所在联盟内的其他成员是否以相应的a为参考与该历史匹配；
+　　步骤3. 将联盟内所有成员均匹配的历史与相应的a，通知其他的Agent；
+　　步骤4. 如果在所有的Agent之间存在一个相同的历史且a也相同，那么匹配成功.
+3.3　基于代价转移的调整
+　　分布等价匹配步骤4中，虽然达不到完全相同的历史，但如果存在这样的一段历史，可以采用代价转移的方法，使趋于相同.
+　　这样一段历史应满足的条件是：CS中只有一个联盟没有匹配，且该联盟成员数较少，且满足可调整条件.
+　　可调整条件：∑i∈CEi=∑i∈Ca×HEi，指虽然个别的可能不匹配，整体是匹配的.
+　　每一个Agent计算相应的ai，比a大者向比a小者进行一定量的任务代价转移，同时要对相应的报酬也进行转移，对于转移的量在转移者之间通过协商机制达到同意，一直到出现匹配为止.
+　　如果大多数Agent对于一个历史认为匹配，而只有极少数认为不匹配，而且被同意的Agent认为属于同一联盟内，那么同意者可以要求不同意者之间进行调整，达到全局的一致，这是启发式知识，并且由于可调整条件保证了调整的成功；在调整中，代价的转移同时伴随报酬的转移.
+3.4　联盟形成
+　　在匹配不成功，且不能进行调整时，需要调用已有的联盟形成方法来进行求解.在联盟演化的初级阶段，会经常使用联盟形成方法，但随着联盟历史的积累，匹配的成功率逐步提高，到一定时候可能会不需要联盟形成.
+3.5　实例分析
+　　以本文的例1为例，按照本文的方法，如果已有P1的历史，那么当遇到P2时，通过匹配可以发现P2与P1等价，此时可以直接得到P2的结果，而不需进行联盟形成算法的调用.
+4　结　　语
+　　联盟演化机制的主要计算是等价的匹配，复杂度是O(m)，m是联盟历史的个数.随着联盟历史的增多，匹配的成功率提高，但相应的复杂度增大，并且要大量的存储空间来支持，这是一对矛盾，可以借鉴CBR的有关方法.
+　　本文给出的演化机制适合于一般情形，不局限于V满足超加性，而已有的联盟形成方法局限于超加情形；所提供的一种不通过预先计算联盟值，求解联盟问题解的方法；在匹配成功（可以调整）的情况下，计算复杂度远低于现有的方法，因为现有的方法不可避免要进行联盟值计算、联盟值的分配；在匹配不成功的情况下，仅比现有的方法多匹配的计算.
+　　对每一个联盟问题，在匹配不成功的情况下，如何通过合适的调整方法，构造一个等价联盟问题，省去调用联盟形成方法的连续演化，是有待研究的工作.
+本课题得到国家自然科学基金(项目编号 69773026，69733020)和清华大学研究生院博士学位论文基金资助.
+作者简介：徐晋晖，男，1966年4月生，博士研究生，研究方向为多Agent系统、联盟机制.石纯一，男，1935年8月生，教授，博士生导师，研究方向为人工智能应用基础.
+作者单位：清华大学计算机科学系　北京　100084
+参考文献
+　1　Zlotkin G,Rosenschein J S. One,two,many:Coalitions in multi-agent systems. In:Castelfranchi C,Pmuller J Eds.From Reaction to Cognition,Lecture Notes in Artificial Intelligence,Vol 957.Berlin:Springer,1993
+　2　Shehory O,Kraus S. Coalition formation among autonomous agents: Strategies and complexity. In: Castelfranchi C,Pmuller J Eds.From Reaction to Cognition,Lecture Notes in Artificial Intelligence,Vol 957.Berlin:Springer,1993.57～72
+　3　Ketchpel S. Coalition formation among autonomous agents. In:Castelfranchi C,Pmuller J Eds.From Reaction to Cognition,Lecture Notes in Artificial Intelligence,Vol 957.Berlin:Springer,1993.73～88
+　4　Zlotkin G，Rosenschein J S. Coalition,cryptography and stability: Mechanisms for coalition formation in task oriented. In:Proc AAAI-94.Seattle,1994.432～437
+　5　罗翊,石纯一.Agent协作求解中形成联盟的行为策略.计算机学报，1997,20(11):961～965
+(Luo Yi, Shi Chunyi. The behavior strategy to form coalition in agent cooperative problem solving. Chinese Journal of Computers(in Chinese),1997,20(11):961～965)
+　6　Shehory O,Kraus S. Task allocation via coalition formation among autonomous agents. In: Proc IJCAI-95.Montreal,1995.655～661
+　7　Shehory O, Kraus S. A kernel-oriented model for coalition formation in general environments: Implementation and results. In:Proc AAAI-96.Portland,1996.134～140
+　8　Ketchpel S. Forming coalitions in the face of uncertain rewards. In: Proc AAAI-94.Seattle,1994.414～419
+　9　Sandholm T W, Lesser V R. Coalition formation among bounded rational agents. In: Proc IJCAI-95.Montreal,1995.694～701
+　10　Sandholm T W, Lesser V R. Coalition among computationally bounded agents. Artificial Intelligence,1997,94(1):99～137
+　　原稿收到日期：1998-08-11
+修改稿收到日期：1998-10-28

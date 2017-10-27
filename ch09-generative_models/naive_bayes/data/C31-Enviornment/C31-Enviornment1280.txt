@@ -1,0 +1,86 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+施用磷石膏对碱化土壤氟含量及其吸附特性的影响
+梁成华　陈新之　李焕珍　李纪柏　
+摘　要　通过室内培养试验和田间试验就施用磷石膏对土壤氟含量和土壤对氟吸附特性的影响进行了研究.结果表明，经连续4年施用磷石膏改良土壤后，0—20?cm土层全氟积累现象明显.但是，土壤水溶性氟含量却随磷石膏施用量增加而降低.土壤对氟的吸附数据均能与Langmuir,Freundilich和Temkin方程很好地拟合，施用磷石膏处理土壤对氟的最大吸附量高于没有施用磷石膏处理的.影响土壤水溶性氟含量和吸附特性的主要因素可能是土壤钙含量的增加和pH值的降低.
+关键词　碱化土；磷石膏；水溶性氟；pH值
+Effect of application phosphogysum on contents and adsorption characteristic of fluorine in alkline soils
+
+LIANG Chenghua, CHEN Xinzhi 
+Land and Environment College, Shenyang Agricultura University,110161
+LI Huanzhen, LI Jibai, YANG Weiqi 
+Soil and Fertilizer Research and Extension Station of Shenyang,110034
+Abstract　The changes of contents and adsorption characteristics of fluorine in a alkaline soils improved by applying phosphogpsum for 4 years successively were studied.The results indicated that the total fluorine accumulated evidence was obviously among the soils (0—20　cm) applied phosphogpsum. But, There was a tendency that the contents of water soluble F- dropped with the increase amount of phosphogpsum added. The trial data of F- adsorption in examined soils were significantly conform to Langmuir,Freundlich,Temkin equations The maximum amounts of F- adsorbed were increased in the improved soils compared with the soil (CK). The main factors controlling the contents of water soluble F- and F- adsorption behavior might be the amount of Ca2+ and pH values in the soils.
+Keywords　alkaline soil, phosphogypsum, water soluble F-, pH.
+　　碱土和碱化土是我国的主要低产土壤之一［1］，其主要理化特征是土壤代换性钠含量高，土壤胶体高度分散.施用磷石膏是改良这类土壤的主要措施之一［2］.近十年来，我国各地施用磷石膏改良碱土和碱化土壤取得了较好的效果［3，4］.但是，因碱土分布区多伴有不同程度的高氟特点，而磷石膏又是湿法生产磷酸过程中排放的废渣，含有一定量的氟.因此，人们对施用磷石膏是否会加重土壤的氟污染问题十分关注.目前有关这方面的研究资料很少.本文通过室内培养试验和田间定位试验，研究了施用磷石膏对土壤氟含量和土壤对氟吸附特性的影响.
+1　材料与方法
+1.1　试验材料
+　　供试土壤为碱化草甸土，碱化度10.05%，有机质含量8.4 g/kg，全氟含量0.19 g/kg，水溶性氟含量7.83 mg/kg,pH值8.7；供试磷石膏由沈阳市化肥厂提供，其主要化学性质为：石膏(CaSO4*2H2O)610.3g/kg,P2O5 14.8　g/kg,全氟2.974　g/kg，水溶性氟11.84 mg/kg，pH值3.25.
+1.2　试验方法
+1.2.1　田间试验　试验设对照(CK)和每亩施磷石膏(200 kg(T1)、600 kg(T2)、1 200 kg(T3)3个处理，小区面积为36 m2，3次重复.每年在播种前把磷石膏均匀地耙入耕层，连续施用4年，种植作物为玉米.有关产量和改土效果见参考文献［3］.
+1.2.2　室内培养试验　称过1 mm筛的风干土100.00 g若干份，分别加入磷石膏0.133 g\,0.400 g、0.800 g、1.600 g、3.333 g，以不加磷石膏的为对照.磷石膏与土壤混匀后，放入塑料袋中，加水至田间持水量的80%，在30℃条件下培养15 d.
+1.2.3　土壤对氟的等温吸附试验　分别称取田间试验CK、T1、T2、T3处理的过1 mm筛风干土样2.500?g若干份于50 mL塑料离心管中，再分别加入F-浓度为5.26×10-4、1.05×10-3、2.63×10-3、5.26×10-3、1.05×10-2、2.63×10-2 mol/L的培养液，重复3次，28℃条件下振荡2 h，并静置培养48?h.测定平衡液中F-的浓度，以平衡前后溶液中F-浓度的变化计算土壤对F-的吸附量.
+1.3　样品分析方法
+　　土壤全氟用NaOH熔融，水溶性氟用土液比为1∶10的去离子水浸提，加入离子强度调节剂后用氟电极法测定.土壤和磷石膏的基本理化性质均用常规方法测定［5］.
+表1　不同处理土壤的水溶性氟含量和pH值的变化
+Table 1 The contents of water soluble F and pH values of the soil with different treatments
+处理不同处理，g/100g(土)
+0(CK)0.1330.4000.8001.6003.333
+水溶性氟,
+mg/kg7.837.807.647.517.327.15
+pH(H2O)8.708.528.318.027.857.52
+2　结果与讨论
+2.1　施用磷石膏对土壤水溶性氟含量的影响
+　　磷石膏的含氟量很高，其中水溶性氟含量高达11.84 mg/kg，施用磷石膏后是否会引起土壤水溶性氟含量的升高是人们担心的问题.从表1可以看出，土壤施入磷石膏以后并没有引起土壤水溶性氟含量的升高，而是随磷石膏施用量的增加逐渐降低.其中，每100 g土施用磷石膏0.400 g和3.333 g处理的水溶性氟含量分别比对照的下降了0.19 mg/kg和0.68 mg/kg.同时，土壤的pH值也分别由对照的8.70，下降到8.31和7.52.据研究报道［6］，土壤对F-的吸附量随pH值的降低而增加.可以认为土壤pH值降低是使土壤水溶性氟下降的主要原因.
+2.2　田间定位试验条件下土壤的水溶性氟和pH值变化
+2.2.1　土壤剖面中氟含量的变化　从表2可以看出，在没有施用磷石膏的对照处理土壤剖面上，全氟含量为192—222 mg/kg，上层的低于下层的，具有下移的特点.经连续4年施用磷石膏以后，全氟在0—20 cm土层出现积累的趋势，并有随磷石膏施用量的增加，积累程度越趋严重.以下各土层的全氟含量没有表现出明显的积累趋势.说明磷石膏带入土壤中的氟没有发生下移现象.
+　　表2数据说明因施用磷石膏而在土壤表层积累的全氟，没有使土壤水溶性氟和地下水氟含量升高，反而出现了耕层土壤水溶性氟含量降低的现象.T1、T2和T3处理，0—20 cm土层的水溶性氟含量分别7.35 mg/kg\,6.85 mg/kg和6.82 mg/kg，均低于对照处理的(7.83 mg/kg).20—40cm土层的也有降低的趋势，但是不如上层的明显.对照处理与各处理之间的地下水含氟量也没有表现出差异来.这说明磷石膏带入土壤中的氟基本上被固定在土壤表层，而磷石膏的改土作用还有降低土壤水溶性氟的作用.
+2.2.2　土壤对氟吸附特性的变化　从表3可以看出，所有土壤对F-的等温吸附数据与Langmuir、Freundlich、Temkin 3个方程的拟合程度均达极显著水平，说明土壤对氟的吸附特征可以用这三个方程来描述.Langmuir方程与其它两个方程相比的优点是，它可以计算出土壤对氟的最大吸附量.表中数据表明，施用磷石膏提高了碱化土壤对F-的最大吸附量，其中，T3处理的为791.46 mg/kg，比CK处理的高199.47 mg/kg.
+表2　土壤剖面和地下水中氟含量的变化
+Table 2 Changes in contents of F in soil profiles and ground water
+处理深度，cm全氟，mg/kg水溶性氟，mg/kg地下水含氟量,mg/kgpH
+CK0—201927.83　8.69
+20—401978.141.158.72
+40—602229.85　8.98
+T10—202047.35　7.58
+20—401968.201.178.64
+40—602199.87　8.95
+T20—202296.85　7.72
+20—402038.501.158.33
+40—602219.79　9.00
+T30—202576.87　7.67
+20—402268.471.168.40
+40—602239.82　8.94
+　
+表3　土壤等温吸附方程的特征值
+Table 3 The characteristics of F- isothermal adsorption of the soils
+处理Langmuir方程
+c/x=1/kmx+c/mx　Freundlich方程
+X=k1ck2　　　　　Temkin方程
+X=k1lnk2+k1lnc
+MxkrK1k2rK2k1　r
+CK591.990.01000.993117.20940.57820.97320.1589107.700.9839
+T1658.960.01080.990221.62000.55940.97260.1770118.350.9799
+T2705.130.01410.990728.01280.54410.96290.2143146.230.9797
+T3791.460.01370.992729.54790.55480.96410.2125132.490.7914
+　　Langmuir方程式中的K值与土壤对F-吸附的结合能有关，K值越大土壤对F-吸附得越牢固［7，8］.CK的K值为0.0100，而T1、T2、T3处理的分别为0.0108、0.0141和0.0137，均大于CK的.说明施用磷石膏不仅提高了土壤对F-的最大吸附量，同时也增强了土壤对F-吸附的牢固程度.据报道［7，8］，Freundlich方程中的K2值也可说明土壤对F-吸附得牢固程度，只不过是与K值相反，K2值越大，F-被吸附得越弱.表3中的K2值是CK的大，T1、T2和T3处理的小，这种变化规律同样说明了土壤施用磷石膏后F-吸附能力的增强.
+　　施用磷石膏后土壤所表现出对F-吸附能力的增强和水溶性氟含量的降低与磷石膏对碱化土壤的改良效果有直接关系.磷石膏中游离酸对土壤的中和作用和Ca2+对Na\++的交换作用均能降低土壤的碱化度，使pH值降低［3，9］.F-的离子半径与OH-的相近，OH-与F-在粘土矿物晶格中及在土壤胶体的吸附点位上起着相互竞争作用［11，10］.pH值降低OH-数量的减少，都有利于土壤对F-的吸附，而降低土壤的水溶性氟含量.另外，Ca2+浓度的提高也将使F-形成CaF2沉淀［11］.这些作用机制可能是施用磷石膏后土壤对F-吸附能力增强和水溶性氟含量降低的主要原因.因此，施用磷石膏改良碱化土壤不仅不会提高水溶性氟含量，加重土壤的氟污染，而且在一定程度上可以降低土壤水溶性氟含量.但是，由于施用磷石膏不可避免地使土壤全氟含量增加，如果土壤改良措施不配套，使土壤再次碱化，将加重土壤和地下水的氟污染，应引起有关部门注意.
+作者单位：梁成华　陈新之　沈阳农业大学土地与环境学院，沈阳　110161
+　　　　　李焕珍　李纪柏　杨伟奇　沈阳市土肥站
+参考文献
+［1］　刘文政.我国盐渍土改良利用分区.土壤学报，1978，15(2)：101—112
+［2］　王遵亲等著.中国盐渍土.北京：科学出版社.1993.217—237
+［3］　李焕珍等.磷石膏改良盐碱土效果的研究.土壤通报，1994(6)：248—252
+［4］　崔志祥等.磷石膏改良河套地区碱化土的效果.土壤，1995(4)：216—218
+［5］　中国土壤学会农业化学专业委员会编.土壤农业化学常规分析方法.北京：科学出版社.1983
+［6］　王素芬.不同地理环境中元素迁移致病的途径及防治对策.农业环境保护，1991(6)：248—251
+［7］　邵宗臣，陈家坊.土壤和氧化铁对氟的吸附和解吸.土壤学报，1986，23(3)：236—241
+［8］　Syer J K et al. Phophorus adsorption by soil evaluated by Langmuir adsorption eqation.Soil Sci Soc,Amer,Proc,1993,37:358—363
+［9］　Chhabra R et al.Fluorine in sodic soils.Soil Sci Soc Amer J,1980,44,(1):33—36
+［10］　Gupta R K,Chhabra R et al.Fluorine adsorption behavior in alkli soils:relative roles of pH and sodicity.Soil Science,1982,133(5):364—368
+［11］　潘　宏等.江苏省滨海盐土向潮土演化过程中水溶性氟含量变化原因的探讨.土壤学报，1993(4)：416—421
+1997-09-08收到原稿　1998-03-04收到修改稿

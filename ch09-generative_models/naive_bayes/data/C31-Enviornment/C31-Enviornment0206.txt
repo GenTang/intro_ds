@@ -1,0 +1,86 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第1期 No.1 Vol.18 1998
+科技期刊
+
+石灰石脱硫反应活性的研究
+李　星　杨艳玲　(哈尔滨建筑大学市政与环境工程系，哈尔滨 150006)
+李　磊　(哈尔滨理工大学管理系，哈尔滨 150006)
+文　摘　脱硫剂石灰石的反应活性对流化床燃煤锅炉的脱硫效果影响很大。目前，国内外主要采用动力学方法，通过测定固态CaO的硫酸盐化程度来推断石灰石的反应活性。但是这在石灰石中含有许多其它杂质成分时是不够全面的，因为这些杂质成分对石灰石的脱硫反应活性影响很大，不能忽视。为此，通过测定流化床入口和出口的SO2浓度变化来判断加入床中的石灰石样品的反应活性。由于凡是能引起SO2浓度变化的物质都与石灰石的反应活性有关，从而克服了原有方法仅考虑CaO重量变化的片面性。本文也采用了动力学方法建立了石灰石反应动力学模型，并利用线性化方法对其反应速率常数K进行线性估计，建立了石灰石化学成分与活性关系的数学模型。
+关键词　石灰石　脱硫　反应活性　动力学模型
+Study of desulphurization reaction activity of limestone.Li Xing，Yang Yanling(Department of Municipal and Environmental Engineering，Harbin University of Architectural and Civil Engineering,Harbin 150006)；Li Lei(Department of management,Harbin University of Science and Engineering,Harbin 150006).China Environmental Science.1998,18(1):94～96
+Abstract—The reaction activity of desulphruizer limestone has a great influence on the desulphurization effect of fluidized bed coal-burning boilers.Now,the method of dynamics is used in normal applications by measuring the sulphation degree of the solid calcium oxide to infer the reaction activity of limestone;but it is not enough on condition of many types of impurity the limestone composition,which has considerable influence on the desulphurization reaction activity of limestone.The change of sulfur dioxide concentration of inlet and outlet of the fluidized bed is measured to determine the reaction activity of limestone samples in the bed in this paper.Since the material which will lead to the change of sulfur dioxide concentration has a relation to the reaction activity of limestone,this method overcomes the one-sidedness of the method above,which only considers the weight change of calcium oxide.The method of dynamics is applied to establish the dynamic model of limestone reaction,and linearization method is employed to make linear estimates of reaction rate constant K so that the mathematical model between chemical composition and activity of limestone is built up.
+Key words:limestone　desulphurization　reaction activity　dynamic model
+　　向流化床锅炉的燃烧区加入石灰石，首先发生的是石灰石的高温分解，分解产物为CaO。CaO颗粒在O2过量条件下，与SO2发生硫化反应，生成CaSO4，即：
+CaO+SO2+1/2O2=CaSO4+486kJ/mol(1)
+石灰石的反应活性对反应式(1)的反应程度影响很大。因此，国内外研究人员对此进行了大量工作〔1～3〕，实验主要采用热重分析(TGA)法，测定的对象一般为CaO的硫酸盐化程度，并以此为基础研究石灰石的脱硫反应活性。由于该方法的测定对象为固态，故简称之为“固测法”。但是，用固测法研究石灰石的活性，有时存在较大的偏差。TGA法的吸硫曲线的增重趋势总是被认为是按反应式(1)中CaO吸收SO2和O2生成CaSO4所造成。而实际上，石灰石中除了主要成分CaCO3外，还含有许多其它杂质成分。一些杂质成分经高温分解后产生的一些碱性氧化物同样也能与SO2和O2反应生成硫酸盐，另外一些杂质成分还会生成一些复杂的复合物，从而间接地影响反应(1)的进行，这些情况会给热重分析带来不可避免的误差，而影响石灰石活性数据的准确性。
+　　本文的研究方法是将测定对象由TGA法的固测改为对SO2的气测。在流化床脱硫模拟试验台上，通过监测SO2浓度的变化研究石灰石的反应活性。在特定的工况条件下，SO2在通过吸硫剂石灰石时浓度变化可以认为是由于石灰石固有特性所引起的，它体现了石灰石总体吸硫效果，这样就避免了由于仅仅考虑CaO的转化而忽略了其它杂质成分影响带来的活性数值的偏差。本文将以流化床典型运行温度850℃下的反应速度常数作为石灰石脱硫活性的指标。
+1　材料与方法
+　　试验采用流化床反应器模拟法。全部试验在石灰石脱硫反应活性试验台上进行，图1为试验流程简图。N2、CO2和SO2经流量计A进入气体混合器B，在a点用MIS-2000烟道气体分析仪E对混合气体的SO2初始浓度进行测定。当SO2流经a点进入反应器C时，脱硫反应开始进行。每间隔10min在b点用气体分析仪E对SO2的浓度进行一次测定，直到SO2的浓度不再改变时为止，此时，试验结束。为了模拟流化床的实际工况，石灰石的热解与脱硫在反应器中同时进行(这与TGA法不同)，反应温度设置为流化床典型运行温度850℃。
+
+图1　试验装置系统示意
+A.浮子式气体流量计　B.气体混合器
+C.流化床反应器　D.隔膜泵　E.MSI-2000气体分析仪
+Fig.1　Diagram of experiment unit
+A.flaot gas meter　B.gas mixer　
+C.fluidized bed reactor　D.metering pump　MSI-2000 gas analyzer
+2　动力学模型的建立
+　　反应式(1)的速度公式为：
+r=-dCA/dt=KCxACyB(2)
+式中：r 为脱硫反应速度；t为反应时间，CA为t时刻的SO2浓度；CB为t时刻的O2浓度；x和y分别为SO2和O2的表观反应级数。
+　　Lee〔4〕等人研究石灰石在流化床中与SO2的反应活性时指出：因为反应是在氧过量的条件下进行的，所以固硫化反应对于SO2是一级反应，而对O2是零级反应。于是，根据这一结论可将(2)式简化为：
+r=-dCA/dt=KCA(3)
+采用积分法，将(3)式移项积分
+∫cc°dCA/CA=∫°tKdt(4)
+当t=0时，SO2的浓度为C0；当t=t时，SO2的浓度为C。对(4)式积分后即得到：
+C=C0 exp(-Kt)(5)
+3　石灰石脱硫反应活性的求取
+　　将(5)式两边取对数，得
+lnC=lnC0-Kt(6)
+(6)式可转换为：Y=b+aX(7)
+由式(7)可见，变量X与Y之间成线性关系。因此，可以线性回归确定参数a、b及线性相关系数R。使用ppp-60程序上机运算，结果列于表1。
+　　由表1可见，线性相关系数在0.95以上，查t分布的ta值表，t0.0005=-5.405。表1中所有的t检验值均小于-5.405，说明有1-α=1-0.0005=99.95%的把握拒绝μ=0的零假设〔5〕。
+4　石灰石化学成分与活性关系
+　　以反应活性K作为因变量，化学成分为自变量，建立多元线性回归方程。为了保证方程的稳定性，采用逐步回归分析法〔6〕将一些次要成分剔除，最后得到回归方程为：
+=0.01382+9.471×10-5〔CaO〕-1.432×10-4〔MgCO3〕-3.084×10-5〔SiO2〕-1.054×10-3〔Al2O3〕+1.080×10-3〔Fe2O3〕(8)
+　　复相关系数R=0.9722，残差平方和Q=1.275×10-5，剩余标准差S=9.544×10-4，F检验值F=80.48。可见，方程(8)的回归拟合优度较高。
+表1　运算结果
+Table 1　Calculating results
+
+序回归式=b+aX反应速度常数相关系数Rt检验植
+号　850℃
+1=8.000-1.794×10-2X1.794×10-20.9712-9.990
+2=7.886-1.374×10-2X1.374×10-20.9506-7.505
+3=7.968-8.843×10-3X8.843×10-30.9960-27.42
+4=7.807-1.794×10-2X1.794×10-20.9764-11.08
+5=7.912-1.409×10-2X1.409×10-20.9936-21.63
+6=7.884-1.708×10-2X1.708×10-20.9885-16.03
+7=7.849-7.160×10-3X7.160×10-30.9644-8.935
+8=7.792-1.795×10-2X1.795×10-20.9794-11.89
+9=7.879-1.519×10-2X1.519×10-20.9891-16.48
+10=7.778-1.665×10-2X1.665×10-20.9837-13.38
+11=7.752-1.808×10-2X1.808×10-20.9864-14.70
+12=7.857-1.022×10-2X1.022×10-20.9708-9.905
+13=7.857-1.431×10-2X1.431×10-20.9831-13.15
+14=7.794-2.001×10-2X2.001×10-20.9816-15.43
+15=7.777-2.048×10-2X2.048×10-20.9833-13.23
+16=7.783-1.677×10-2X1.677×10-20.9760-10.96
+17=7.868-1.510×10-2X1.510×10-20.9788-11.71
+18=7.788-1.788×10-2X1.788×10-20.9714-10.02
+19=7.900-1.811×10-2X1.811×10-20.9761-11.01
+20=7.844-1.749×10-2X1.749×10-20.9790-11.76
+
+5　结论
+5.1　采用气测法获得的石灰石脱硫反应速率常数K，可以全面地反映石灰石中脱硫能力，避免了固测法由于石灰石杂质造成的误差。
+5.2　由式(8)可知，石灰石的反应活性与杂质成分有一定的数量关系。值得注意的是〔MgCO3〕在方程中对K具有负效应，这似乎有些不可思议，这是因为〔MgCO3〕的分解产物MgO的反应活性与压力有关。MgO由于在常压下与SO2的反应非常之慢，可视为惰性，所以MgCO3一般在增压流化床内才具有良好的脱硫作用。
+5.3　利用式(8)可对石灰石的反应活性进行预测，例如：当〔CaO〕=50%,〔MgCO3〕=6.2%,〔SiO2〕=3.42%,〔Fe2O3〕=0.08%,〔Al2O3〕=0.2%时，可求得K=1.763×10-2。
+参考文献
+1　Dennis J S，Hayhurst A N.Chemical Engineering Science,1986,41:25～36
+2　James R H,et al.Testing of Limestone Sample from the TVA Region as Sulfur Dioxide Sorbent in AFBC,Institute for Miningang Minerals and Research Kentucky Center for Energy,Research Laboratory and Tennessee,Valley Authority,1984
+3　国家环保局.大气防治技术研究.北京：科学出版社，1993.370～373
+4　Lee D C,et al.AICHEJ,1981,27:472～480
+5　中国科学院数学研究所.回归分析方法.北京：科学出版社，1974.29～32
+6　邢　英等.经济统计分析及预测.北京：清华大学出版社，1982.109～119
+作者简介
+李　星　男，1963年2月生。1985年毕业于哈尔滨建筑工程学院(现哈尔滨建筑大学)，获学士学位，1988年获硕士学位。1990～1993年作为中外联合培养博士研究生赴英国伦敦大学(UCL)学习；1995年获得博士学位，1996年进入博士后流动站。现为哈尔滨建筑大学副教授。从事环境工程和水处理工程的科研和教学工作。参加了建设部“七*五”、“八*五”及现在的“九*五”重点攻关项目，并获得数项科技成果和科技奖项。发表论文10余篇。
+收稿日期：1997-12-11

@@ -1,0 +1,75 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第5期 No.5 Vol.18 1998
+科技期刊
+
+易降解有机物对氯苯好氧生物降解性能影响* 
+瞿福平　张晓健　何　苗　顾夏声　(清华大学环境科学与工程系，北京 100084)
+文　摘　利用测定微生物呼吸耗氧量的方法，从生物氧化程度出发，对氯苯在单基质条件下的好氧生物降解性能及易降解有机物对受试物的生物降解性能的影响进行了研究。结果表明，受试物的生物氧化率与浓度无关，易降解有机物的存在有利于受试物的降解，生物氧化率的增加值随所投易降解BOD5浓度的关系具有类似米-门公式的形式。
+关键词　氯苯　易降解有机物　好氧生物降解性能
+Effect of easily biodegradable organics on the aerobic biodegradation of chlorobenzene.Qu Fuping,Zhang Xiaojian,He Miao,Gu Xiasheng (Department of Environmental Engineering, Tsinghua University, Beijing 100084).China Environmental Science.1998,18(5):407～409
+Abstract—By measuring the respiratory oxygen consumption of microbe, a study on the effect of easily degradable organics on the aerobic biodegradation of chlorobenzene was conducted. The experimental results show that the bio-oxidation ratio(RBO) of tested compound has no relation with its concentration, the coexistence of easily degradable organics is favorable for the biodegradation of chlorobenzene and the increase of RBO with the concentration of easily degradable BOD5 added nearly follows the Michaelis-Menten equation.
+Key words:chlorobenzene　easily biodegradable organics　aerobic biodegradation
+　　氯苯是一种污染面较广、毒性较大的有机物，存在于多种工业废水中，被美国EPA列为优先污染物，目前国内外对于这种化合物的研究多侧重于降解机理，且多是模拟自然环境条件，而对人工处理系统中的降解研究较少〔1～3〕 ，本文以活性污泥法为背景，从有机物生物氧化程度出发，研究易降解有机物对其好氧生物降解性能的影响，进而考察其单独及与生活污水合并生物处理的可行性。
+1　实验部分
+1.1　活性污泥的驯化及制备(参见文献〔4〕)
+1.2　实验参数的测定及计算方法
+　　为了进行比较，本试验对氯苯饱和浓度范围内的单基质条件下的5个浓度样进行了实验，实验方法参见文献〔5〕。反应瓶中活性污泥浓度为3g/L, 实验温度为25℃恒温, 振荡频率为85次/min, 测试时间为38h。根据所得曲线, 可求得描述受试物生物氧化程度的参数—生物氧化率。
+(1)
+式中：E为生物氧化率；O生化为生化呼吸耗氧量；O内源为内源呼吸耗氧量；SS为接种污泥(活性污泥)浓度；ThOD为反应瓶内受试物的理论需氧量。
+　　为了考察易降解有机物对氯苯好氧生物降解性能的影响，本试验以模拟生活污水(葡萄糖配水)作为受试物共基质的背景，其浓度参照一般生物处理构筑物出水BOD5≤30mg/L，因此共基质浓度以BOD5 =30mg/L为基准，考虑到其浓度的波动，选取了30±30mg/L作为共基质浓度范围。将共基质中模拟生活污水的生物氧化率扣除后，即可得到氯苯的生物氧化率。
+2　结果与讨论
+2.1　单一基质条件下的生物氧化率
+　　图1为在以饱和氯苯驯化的污泥为菌种时不同浓度氯苯的38h相对累积耗氧量曲线，右端示出了各浓度达到最大生物氧化程度时的相对累积耗氧量。
+
+图1　不同浓度氯苯的相对累积耗氧量曲线
+Fig.1　Relative accumulated oxygen consumption versus
+different concentration of chlorobenzene
+　　根据图1可计算不同浓度氯苯的生物氧化率。以氯苯浓度20mg/L为例，其生物氧化率为：
+
+　　其它浓度下氯苯的生物氧化率，如表1所示。
+表1　氯苯在不同浓度下的生物氧化率*
+Table 1　The bio-oxidation ratio of chlorobenzene 
+
+浓度(mg/L)生物氧化率(%)
+2035.34
+5035.59
+6035.08
+7035.81
+133.336.00 
+
+　注：* 平均生物氧化率为35.50%
+　　从表1可以看出，虽然所用受试物浓度不同，但其生物氧化率值仍然相当接近。实际上，生物氧化率E表示的是有机物中可被微生物降解部分耗氧量占整个有机物理论需氧量的百分数，对于特定的有机物及其对应的驯化污泥来说，生物氧化率应为一定值。显然，E越大，有机物的可生化性越好。
+2.2　共基质条件下的生物氧化率
+　　由于生物氧化率与试验浓度无关，因此本文选取了浓度为20mg/L的氯苯进行试验。图2为共基质条件下氯苯生物氧化率随所投易降解有机物BOD5的变化关系。
+
+图2　氯苯生物氧化率随所投加的易降解BOD5的变化关系
+Fig.2　Bio-oxidation ratio of chlorobenzene versus BOD5
+　　从图2可以看出，随着共基质中所投加易降解BOD5的增加，氯苯的生物氧化率逐渐增大，其关系曲线具有随着易降解BOD5浓度的增大，而生物氧化率趋向一个定值的趋势，本文采用了双曲函数进行拟合。
+(2)
+式中：x 为所投加的易降解BOD5；y 为共基质条件下受试物的生物氧化率(可用E表示)；y0 为单基质条件下受试物的生物氧化率，即易降解BOD5=0时的生物氧化率(可用E0表示)。代入后得：
+(3)
+　　式(3)具有微生物学中的米-门公式的形式。E-E0 为投入易降解BOD5后生物氧化率的增加值。据此，a , b 的含义如下：a为最大生物氧化率增加值(可用符号 △Emax表示)；b为达到最大生物氧化率增加值一半时的易降解BOD5浓度值，可称为半最大增加常数(用符号Kcb表示)。代入后得：
+(4)
+　　将式(4)取倒数得：
+(5)
+　　根据试验数据，以作图3。
+
+图3　共基质中氯苯的1/(E-0.3534)～1/BOD5关系
+Fig.3　Relationship between 1/(E-0.3534) and 1/BOD5
+　　由图3可知，对其进行直线拟合，根据相关系数，其拟合是显著的。因此，用式(4)来描述共基质中生物氧化率的增加值随共基质中所投加易降解BOD5浓度的变化是成功的。根据拟合直线，它们有下面的关系：
+
+　　式(6)即为所求氯苯生物氧化率E随所投加的易降解BOD5的变化关系。由式(6)可得出：随着溶液中易降解BOD5浓度的增加，氯苯的生物氧化率将增大，但并不是无限制地增大，有一个极限存在；由△Emax =0.0650可知，氯苯的生物氧化率最大增加值为6.50%，其最大生物氧化率Emax可达41.84%；由Kcb=13.45可知，达到最大生物氧化率增加值一半3.25%(6.50%×1/2)时的易降解BOD5=13.45mg/L。△Emax与Kcb值的大小反映了易降解BOD5对受试物生物氧化率的影响。
+3　结论
+　　单一基质下，氯苯的生物氧化率与试验浓度无关。当氯苯与易降解有机物共存时，在一定浓度范围内，受试物的生物氧化率随所投易降解有机物浓度的增大而提高。若生物降解性能的改善程度用生物氧化率的增加值来描述，则生物氧化率的增加值随所投易降解有机物BOD5浓度的变化具有类似米-门公式形式。
+
+参考文献
+1　Gibson D T.Microbial degradation of organic compounds.New York：Marcel Dekker, 1984.319～353
+2　Pitter P.Biodegradability of organic substances in the aquatic environment. CRC press, 1992.131～133
+3　瞿福平，张晓健，吕　昕等. 氯代芳香化合物生物降解性能研究进展.环境科学，1997,18(2):74～78
+4　瞿福平，张晓健，何　苗等. 氯苯类有机物生物降解性能及共代谢作用研究. 中国环境科学，1997, 17(2):142～145
+5　俞毓馨. 环境工程微生物手册. 北京: 中国环境科学出版社,1990.166～170
+作者简介
+瞿福平　男, 1966年1月生。1997年在清华大学环境科学与工程系获博士学位。现为清华大学化学工程系博士后。主要从事国家“九五”环保攻关项目“络合萃取法处理难降解有机废水”的研究工作。发表论文30篇。
+收稿日期: 1997-08-21
+* 国家自然科学基金(59138080)及环境模拟与污染控制国家重点联合实验室开放基金资助项目

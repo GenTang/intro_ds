@@ -1,0 +1,60 @@
+宇 航 学 报
+JOURNAL OF ASTRONAUTICS
+1998年  第3期   No.3 May   1998
+科技期刊
+跨音速细长体三维分离的
+数值研究
+
+陈　靓　闫　超　丁小妹
+(北京航空航天大学流体所*北京*100083)
+　　摘　要　本文数值模拟了半球柱在跨音速、中等攻角时的粘性层流绕流,研究了流场中的复杂三维分离形态结构,其中包含流向与横向的主分离、二次分离、以及激波边界层的相互干扰,解释了在球柱接合部精确捕获的压力波动与流动主分离、二次分离的影响关系,这个现象是前人的计算［5,6］未捕捉到的。
+　　主题词　分离流　涡　数值模拟
+NUMERICAL INVESTIGATION OF 
+THREE-DIMENSIONAL SEPARATED 
+FLOWS ABOUT A HEMISPHERE-CYLINDER
+
+Chen Liang　Yan Chao　Ding Xiaomei
+(Beijing University of Aeronautic and Astronautics*Beijing*100083)
+　　Abstract　A numerical investigation of three-dimensional separated flows about a hemisphere-cylinder is presented.The analysis has been restricted to transonic and laminar flows.Results are given for the complex flow field structures including shock,boundary layer,separated flow,vertical flow and their mutual effects.The topological structures of the separated flow is shown.
+　　Key words　Separated flow　Vorfex　Numerical simulation
+1　前　言
+　　三维分离是流体力学中引人注目的一个课题,其结构形态还有不少争议和疑问。目前,实验研究仍是三维分离现象研究的主流,但是数值模拟由于能够全面细致地描述流场形态,已经发挥出日见重要的作用。
+　　本文就是利用数值方法来研究三维分离流动,所选用的典型模型为细长体半球柱。半球柱绕流包含有丰富的三维分离形态和空间涡结构,跨音速情况下,还存在激波与边界层的相互干扰作用。
+2　数值方法
+　　本文采用的控制方程为三维可压非定常全NS方程,计算方法为:空间离散为Jameson的有限体积二阶中心差分格式,时间离散为RungeKutta多步步进格式。早期Jameson格式的人工粘性及残差平滑都取常数,由于求解NS方程时,壁面附近的网格必须加密,使得一些区域网格的长宽比很大,从而引入过量的数值耗散,有可能掩盖真实物理粘性效应,以及造成过度平滑。因此,为保证数值粘性不掩盖物理粘性,Martinelli［1］对人工粘性的常系数进行了修正,采用与Jacobian矩阵频谱半径有关的变尺度因子。本文使用Martinelli修正后的变尺度因子的人工粘性和变系数隐式残差平滑,以减小固壁附近的人工耗散效应和平滑影响。
+　　由于本文的数值格式采用了变尺度因子的人工粘性和变系数残差平滑处理,格式的数值粘性和平滑特性得到了控制,从而有效地保证了数值格式的精度及精细刻画流场的能力。Swanson及Turkel［2］所做的数值验证实验也证实了这样处理后的格式在求解低、跨、高超音速流场时,具有精确计算粘性流的能力。此外,本文还采用了当地时间步长的加速技术以加快收敛。
+
+
+图1　三维计算网格
+　　固壁边界为无滑移条件及绝热壁条件;远场边界按Riemann不变量计算。
+　　计算网格为CH形网络(图1),网格沿物体轴向、法向及周向分别为60×49×58,物面附近法向最小网格尺度为2.0×10-5(半球直径D=1)。自由流参数Ma=1.2,ReD=445000,迎角α=19°,本文计算未使用湍流模型,取层流假设。
+3　计算结果
+　　本文参考了国外有关半球柱的几个实验［3,4］和计算［5,6］。图2所示为CP曲线,本文的结果与实验符合很好。尤其值得注意的是,在背风面球柱接合部附近,两个实验［3,4］都明确显示出两个压力峰值,Ying［6］未描述出这个现象,本文精确捕获了这一压力波动,经分析,该压力波动导致了背风面流向的主分离及二次分离。需要说明的是,［4］的曲线在X/D＞4.5后下跌,是因为实验模型的端部张开造成的。
+　　在图3的等马赫线图中,可以看到本文捕捉到了球头前的弓形离体激波,背风面球柱接合部附近因头部气流过膨胀引起的斜激波,以及由激波边界层相互干扰引起的大分离区,这与文献［3］中的实验结果是相符的。此外本文计算得到的球头部猫头鹰面谱流型及横向主分离,一次分离的形态与位置都与实验的油流显示相符。
+
+
+图2　背风面压力分布
+
+
+图3　对称面等马赫线
+对于半球柱,虽然已经做过不少实验,但由于实验无法精细定量测量流动,尚无法得到细致的分离与涡的结构形态,本文由计算得到的流场各点状态以及拓扑分析理论,给出了半球柱的分离形态及物面奇点拓扑流谱。
+　　半球柱边界层分离主要有两个区域,球柱接合部附近的流向分离区以及柱段横向分离区,两个分离区都出现主分离、二次分离,以及流体离开物面卷起形成的主涡、二次涡。分析图4,背风面流动在球柱接合部上游的鞍点发生主分离,分离线呈弓形延伸,卷入下游的两个螺旋结点。在附着结点紧邻的下游鞍点,流动发生二次分离,分离线及结点发出的极限流线也卷入两侧的螺旋结点。螺旋结点下游外侧可见一对鞍点,入流分别来自迎风面的附着结点及背风面下游对称面内的再附着结点,出流一支流向上游,形成回流横向分离并卷入螺旋结点,另一支伸向下游,形成闭式分离线,也即横向主分离线。在距球头顶点约5倍半径处,主分离线内侧的极限流线聚拢,开始出现横向的二次分离。
+
+
+图4(a)　背风面物面极限流线
+
+
+图4(b)　侧面物面极限流线
+
+
+图5　横截面流线
+由上述的流动图画,我们可以得到,头部的流向主分离为典型的泡式分离,其分离线通过螺旋点,鞍点与回流横向分离线及横向主分离线相连,形成整体闭式分离。在其内部,球柱结合部下游附近又出现流向的二次分离泡,再下游发生横向二次分离,超始点附近无任何奇点,且呈现出“非禁区性”,即分离线两侧聚拢的极限流线来自同一上游结点,可以判定为常点型开式分离。计入迎风面的附着结点及无究远的分离结点,则结点,鞍点总数满足拓扑分析的hairysphere定理:ΣN-ΣS=2。在分离线上结点与鞍点交替分布,起始于奇点的分离线,其奇点类型都是鞍点,流向主分离线,终止于螺旋结点,横向主分离线,二次分离线终止于无究远下游的分离结点。
+　　上述的拓扑分离结构,虽然没有实验的验证,但是横向主分离及二次分离的形态与位置都与实验显示出的结果相一致,而Ying［6］的计算结果与实验结论相比,主分离线与二次分离线的上下位置颠倒了。Rieger［5］并未给出详细的流动图画及分离特征。
+　　图5为半球柱横截面的等密度线,可见因横向主分离,边界层流体卷起形成横向主涡。横向主涡在向下游发展的过程中,由于涡量不断由边界层卷入,涡强增大,诱导产生二次分离(常点型开式分离)和二次涡。而Ying［6］在同样位置的等密度线的图中,只显示出一对横向主涡。
+参考文献
+1　Martinelli I.Calculations of viscous flows with a multigrid method.Ph.D.dissertation,MAE Dept.,Princeton Univ.,NJ,1987
+2　Swanson R C,Turkel E.Aspects of a High-Resolution Scheme for the Navier-stokes Equations.AIAA-93-3372-CP,1993
+3　Hsieh T.An investigation of separated flows about a hemisphere-cylinder at incidence in the mach number range from 0.6 to 1.5.AIAA-77-1179,1977
+4　Meade and Rew J JR.Experimental study of three-dimensional separated flow surrouding a hemisphere-cylinder at incidence,AIAA paper 87-2492,1987
+5　Rieger H.Solution of steady three-dimensional compressible Euler and Navier-Stokes equations by an implict LU scheme.AIAA-88-0619,1988
+6　Ying S X.Numerical simulation of unsteady,viscous,high-angle-of-attack flows using a partially flux-split algorithm.AIAA-86-2179,1986

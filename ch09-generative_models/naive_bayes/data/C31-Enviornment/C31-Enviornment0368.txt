@@ -1,0 +1,115 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第1期 Vol.19 No.1 1999
+
+
+
+非离子表面活性剂在人工光源辐照下的光催化降解
+肖邦定　胡　凯　刘剑彤　丘昌强　陈珠金　黄　毅
+摘要：在光催化氧化对5种典型非离子表面活性剂(NIS)和实际印染废水中NIS的去除效果的实验中,未见TiO2有明显催化作用.光解30min,几种NIS的光降解率均达60％以上.NIS的光降解速率受NIS浓度和DO的影响较小;pH值降低有利于NIS的光降解,而在中性或弱酸性条件下,NIS光降解效率仍较好；投加H2O2可提高NIS的光降解速率,最适投加量为4.4×10-4mol/L.对于实际印染废水,NIS的光降解去除率比生化法高且处理时间短得多,同时对COD、MBAS 亦有较好的去除效果,表明光催化氧化是一项很有前途的NIS处理技术.
+关键词：非离子表面活性剂；光催化降解；印染废水
+中图分类号：X78 文献标识码：A 文章编号：1000- 6923(1999)01- 0009- 05
+Photocatalytic degradation of non-ionic surfactants by UV-light radiation.
+XIAO Bang-ding1,HU Kai1,LIU Jian-tong1,QIU Chang-qiang1,CHEN Zhu-jin1,Huang Yi2 (1.Institute of Hydrobiology,Chinese Academy of Sciences,Wuhan 430072,China；2.Environmental Monitoring Station of Changde City, Changde 415000, China). China Environmental Science.1999,19(1)：9～13
+Abstract：The removal efficiencies of five kinds of non-ionic surfactants (NIS) and NIS in printing and dyeing wastewater under photocatalytic oxidation condition were reported. In the photocatalytic degradation system, the action of TiO2 as a catalyst was not obvious and the removal rates of various NIS were all higher than 60% after photodegraded for 30min. Both the concentrations of NIS and Dissolved Oxygen(DO) had little effect on the photodegradation efficiency.The photodegradation of NIS could be improved lower pH.Photodegradation rate could also be reached better under neutral or weak acidity condition. The addition of H2O2 could improve the photodegradation rate of NIS, its optimum concentration was 4.4?0-4mol/L.As to printing and dyeing wastewater, the removal rate of NIS by photodegradation was higher than by biochemical treatment and the treatment time was much shorter as well. Meanwhile,removal efficiencies of COD and MBAS could also be reached better. The results showed that the photocatalytic oxidation technique has an applicable prospect for the NIS treatment.
+Key words：non-ionic surfactants；photocatalytic degradation；printing and dyeing wastewater
+　　近年来,国内外对含表面活性剂的生活和工业废水的处理大多采用活性污泥法.此外还有活性炭吸附、离子交换、泡沫分离、絮凝分离、臭氧氧化、反渗透和超滤等处理方法,但都存在造价和运行费用太高,易引起二次污染等缺陷,而且对较低浓度表面活性剂废水的处理效果不能令人满意,尚有待于改进.
+　　水中污染物的光催化降解(photocatalytic degradation)是近20年兴起的新型水处理技术.主要优点是,可使大多数污染物完全被破坏而不形成中间物,没有或大大减少二次污染;适用于低浓度污染物的治理,通常可使污染物浓度降到m g/L,许多难于生物降解的污染物经光催化过程可以得到转化;反应条件温和,处理过程本身杀菌作用强;操作费用经济,明显低于紫外-臭氧法,与活性炭法接近.因此,自1972年Fujishima等发现受光辐射的TiO2上可以持续发生水的氧化还原反应,产生× OH以来,光催化氧化水中污染物的技术在理论和实际应用上都取得很大进展[1- 3].
+　　村上等较早利用光催化降解表面活性剂,得到一些比较粗略的结论[4].近年来,国内外有关非离子表面活性剂(non-ionic surfactants,NIS)光降解研究仅见于岳林海等用ZnO-CuO复合催化体系对 Peregal O 溶液的光降解研究结果[5],以及Hidaka和Pelizzetti等对壬基酚聚氧乙烯醚的TiO2催化光解及其机理的探讨[6,7].本文对几种典型的NIS进行了人工光源催化光解的研究,并在实验条件下对实际印染废水中的NIS进行光降解处理,为探索和开发新的治理NIS废水途径提供科学依据.
+1 材料与方法
+1.1 材料
+　　选用目前最为常用且具代表性的几种NIS:Peregal O(脂肪醇聚氧乙烯醚)工业级,浙江助剂总厂;Triton X-100(异辛基酚聚氧乙烯(10)醚)化学纯,北京化学试剂公司;Oπ-10(壬基酚聚氧乙烯(10)醚),进口分装,天津天泰精细化学品有限公司;Tween-80(失水山梨醇单油酸酯聚氧乙烯(20)醚)分析纯,天津化学试剂三厂;6501(椰油基二乙醇酰胺)工业级,湖南丽臣实业有限公司.
+　　印染废水取自湖南省常德市桃源纺织印染厂污水处理站的调节池.废水pH值为8.5,COD为531.5mg/L,废水中NIS浓度(11.23mg/L)比阴离子表面活性剂浓度(2.61mg/L)高得多.
+1.2 试剂和仪器
+　　TiO2工业级,锐钛矿晶型,株州化工集团公司;H2O2分析纯,30％,湖南师范大学化学试剂厂;U形紫外线高压汞灯GGU-500型,500Ｗ,上海亚明灯泡厂.
+1.3 研究方法
+　　在直径为20cm的圆形玻璃缸(经HNO3浸泡,洗净烘干)中,加入500mL用煮沸后冷却的新鲜蒸馏水配制好的NIS水溶液,磁力搅拌均匀,或加入一定量的TiO2粉末并充分搅拌使之成为悬浮态,然后于高压汞灯下进行照射并计时,同时风冷以免汞灯过热并基本保持反应液温度不变.光照一定时间后取适量溶液测定水中NIS的残留量.
+　　对于印染废水,于500mL废水中加入0.025mL H2O2,不加TiO2,其余操作同上.光照一定时间后取上清液测定COD、阴离子表面活性剂含量(以MBAS表示)和NIS含量.
+　　NIS测定采用苦味酸钡络合萃取比色法[8],结果为苦味酸钡活性物质(BPAS)含量.其它项目的测定参照标准方法进行[9].
+2 结果与讨论
+2.1 TiO2投加量对NIS光解的影响
+　　TiO2是已证实的光催化活性较高的催化剂,具有廉价、无毒、稳定、可回收利用、不产生光腐蚀等优点[10].在其主要的两种晶型中,锐钛矿型的催化剂活性优于金红石型.故首先进行了锐钛矿型TiO2的用量对Peregal O和Triton X-100光降解影响的研究.结果表明(图1),光照20min,Peregal O和Triton X-100的光降解率基本在60%以上.与未加入TiO2的情形比较,加入TiO2对Peregal O光降解速率影响不大,Triton X-100光降解率随TiO2加入量的增加而稍有增加.原因可能在于这些NIS易于吸收光能而直接光解,TiO2的加入形成悬浮液反而减少了被NIS直接吸收的光能,从而抵消了自身大部分的催化作用或引起负作用.经反复试验,均得到同样结果,因此,本试验系统中无需加入TiO2催化剂,即可得到对NIS令人满意的去除效果.
+
+图1 TiO2投加量与Peregal O和Triton X-100光降解率的关系
+Fig.1 The relationship between TiO2 dosage and
+photodegradation efficiency of Peregal O 
+and Triton X-100
+2.2 NIS浓度对光降解率的影响
+　　测定不同浓度Peregal O和Triton X-100光照20min的降解率(表1),可以看出,在变化较大的浓度范围内,NIS浓度对其光降解率影响不大.
+表1 不同浓度Peregal O和Triton X-100的光降解率
+Table 1 Photodegradation efficiency variation of Peregal 
+O and Triton X-100 as a function of concentration
+Peregal O
+浓度 20min光解率
+(mg/L) (%)Triton X-100
+浓度 20min光解率(mg/L) (%)
+11.7409.156
+25.05013.348
+38.34829.345
+62.05051.123
+
+2.3 pH值对NIS光降解率的影响
+　　在不同pH值时Peregal O和Triton X-100的光降解结果见图2.结果表明,pH值降低有利于Peregal O和Triton X-100的光降解,而在强碱性条件下光降解率较低.在实际处理中,为了经济简便,除强碱性废水需调节pH值外,光降解可在弱酸性或中性条件下直接进行,亦可获得较好的去除效果.
+
+图2 pH值对Peregal O和Triton X-100光降解率的影响
+Fig.2 The effects of pH on the photodegradation efficiency of Peregal O and Triton X-100
+2.4 DO对NIS光降解率的影响
+　　利用充氧或充氮调整反应液中DO,图3是Peregal O和TritonX-100在DO分别为10、1.4mg/L时的光降解曲线.可以看出DO降低对两种NIS光降解的影响不同,Peregal O光降解率有所降低,Triton X-100的降解率变化不明显.可见在试验DO范围内,DO并不是影响NIS光降解率的主要因素.
+2.5 H2O2加入量对Peregal O光降解的影响
+　　在光催化氧化反应中,为提高光催化效率,常与H2O2等强氧化剂结合使用[11].H2O2用量与Peregal O光降解率的关系见图4.随H2O2加入量的增加,Peregal O的光降解率提高,表明H2O2是一种比O2更好的电子受体,产生的O2与× OH增强了氧化NIS的能力.但是随着H2O2用量的不断增加,Peregal O光降解率在增加到一定程度后提高幅度变小,因为过多的H2O2会随反应作无效分解.从图4可看出H2O2的最适加入量取0.025 mL/500mL,即溶液中H2O2的最适加入浓度为4.4×10-4mol/L.
+
+图3 DO对Peregal O和Triton X-100光降解的影响
+Fig.3 The effects of DO on the photodegradation rates of Peregal O and Triton X-100
+1.Peregal O,DO=10mg/L 2.Peregal O ,DO=1.4mg/L 3.Triton X-100, DO=10mg/L 4.Triton X-100, DO=10mg/L
+
+图4 H2O2加入量对Peregal O光降解率的影响
+Fig.4 The effects of H2O2 on the photodegradation 
+rate of Peregal O
+2.6 不同NIS的光降解性
+　　图5,图6表明,几种NIS的光降解速度都较快,30min光降解率均达60％以上,顺序为Tween 80＞Oπ-10＞Triton X-100＞Peregal O＞6501;脂肪醇聚氧乙烯醚(AEO)与烷基酚聚氧乙烯醚(APEO)相比,分子中具苯环结构的APEO比链烃结构的Peregal O更易断链而实现无机化,其光解速度也较快.这与文献[1- 3]的结论一致.APEO的苯环断裂后,其表面活性及毒性大大降低,生成的长链烷烃副产物对环境的危害也要小得多;本试验光降解系统未利用TiO2催化剂,简化了操作,降低了处理费用,给NIS废水的治理提供了一条有前景的途径.
+
+图5 不同种类NIS的浓度与光照时间的关系
+Fig.5 The relationship between concentration and 
+illumination time of various NIS
+
+图6 不同种类NIS的光降解率
+Fig.6 Photodegradation efficiencies of various NIS
+2.7 实际印染废水中NIS的光降解
+　　全国每天排出印染废水量在300万t以上,其成分复杂,治理难度较大[12,13].印染废水又是NIS污染的主要来源.在上述研究基础上,本文进一步对实际印染废水中NIS的光降解进行了研究,以探索光催化降解处理印染废水的可能性.
+　　光照120min后,废水色度明显降低,由土黄色变为浅灰色.试验结果(表2,图7)表明,印染废水中加入少量H2O2,NIS迅速发生降解,同时COD、BPAS和MBAS均有较好的去除效果;光降解法与实际生化法处理效果对比,COD去除率稍低,但能更有效地去除印染废水中的BPAS和MBAS;与水中NIS的光降解结果比较,实际废水的光降解处理效果要差些.这是由于实际高浓度工业废水往往杂质多、浊度高、透光性差,故光解效率低.光催化降解反应体系具有良好的透光性是使其反应得以顺利进行的前提条件.因此,今后尚需探索和开发新型催化剂或将光催化降解与其它技术配合,用于后期的深度处理.
+表2 印染废水的光降解结果
+Table 2 Results of photodegradation of printing and dyeing wastewater
+时间
+(min)COD去除率
+(%)BPAS去除率
+(%)MBAS去除率 (%)
+1511．234．622．6
+3018．038．960．9
+6045．459．169．0
+9052．270．683．1
+12055．672．888．9
+
+
+图7 印染废水的光降解与生化法处理结果对比
+Fig.7 Comparison of printing and dyeing wastewater by photodegradation and biochemical treatment
+3 小结
+　　光催化氧化对NIS有很好的去除效果,在本实验光降解体系中,可不用TiO2作催化剂,光解30min,几种NIS的光降解率均达60％以上.NIS浓度、溶液的DO对光降解速率影响较小；pH值降低有利于NIS的光降解,而在中性或弱酸性条件下NIS光解效率仍较好；投加H2O2可提高NIS的光解速率,其最适投加浓度为4.4×10-4mol/L.对于实际印染废水,NIS的光解去除率比生化法高且处理时间短得多,对COD、MBAS亦有较好的去除效果,表明光催化氧化是一项很有前途的NIS处理技术.
+基金项目：国家“八五”科技攻关专题(85-908-03-07)
+作者简介：肖邦定(1964-),男,湖南陵醴人,中国科学院水生生物研究所副研究员,主要从事环境化学方面的研究工作.曾参加国家“八五”科技攻关“复合生态系统处理城市污水技术”和“九五”科技攻关专题“中小城镇高效实用污水处理技术”的研究,曾获中科院科技进步二等奖.发表论文10余篇.
+作者单位：肖邦定　胡　凯　刘剑彤　丘昌强　陈珠金　中国科学院水生生物研究所,湖北 武汉 430072；
+　　　　　黄　毅　湖南省常德市环境监测站,湖南 常德 415000
+参考文献：
+　[1]　魏宏斌,李 田,严煦世.水中有机污染物的光催化氧化 [J].环境学进展,1994,2(3):50- 57.
+　[2]　李 琳.多相光催化在水污染治理中的应用 [J].环境科学进展,1994,2(6):23- 31.
+　[3]　胡 春,王怡中,汤鸿霄.多相光催化氧化的理论与实践进展[J].环境科学进展,1995,3(1):55- 64.
+　[4]　村上幸夫,楸原一芳,东国茂等.界面活性剂含有废水の光酸 化处理(J).水处理技术,1976,17(1):3- 8.
+　[5]　岳林海,樊邦棠.半导体复合体系对表面活性剂和印染废水的光催化降解研究 [J].环境污染与防治,1994,16(2): 24- 26,10.
+　[6]　Hidaka H,Ihara K,Fugita Y,et al.Photodegradation of surfactants Ⅳ: photodegradation of non-ionic surfactants inaqueous titanium dioxide suspensions [J].J.Photochem.& Photobio., 1988,42(2- 3):375- 381.
+　[7]　Pelizzetti E,Minero C,Maurino V,et al.Photocatalytic degradation of nonylphenol ethoxylated surfactants [J].Environ. Sci. Technol.,1989,23(11):1380- 1385.
+　[8]　钱锡兴,王敬铭,胡振元.水中痕量非离子表面活性剂的测定 [J].分析化学,1987,15(2):97- 100. 
+　[9]　国家环保局编.水和废水分析监测方法 [M].第3版.北京:中国环境科学出版社,1989.
+　[10]　贺北平,王占生,张锡辉.半导体光催化氧化有机物的研究现 状及发展趋势 [J].环境科学,1994,15(3):80- 83.
+　[11]　李 田.光化学氧化法的类型及研究进程 [J].环境污染与防治,1993,15(1):32- 37.
+　[12]　郭夏楠. 我国印染废水处理现状 [J]. 环境污染与防治, 1987,9(3):30- 33.
+　[13]　何 强.印染废水治理技术评价(J).给水排水,1995,(5):47- 50.
+收稿日期：1998-05-11

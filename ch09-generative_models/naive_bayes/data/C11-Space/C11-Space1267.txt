@@ -1,0 +1,131 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+SiC颗粒影响SiCp/Cu复合材料
+物理性能的研究
+曾　强　　钟涛兴　　王荣明 
+摘要： 运用多元回归分析方法，研究了SiC颗粒含量、粒度及纯度对SiCp/Cu复合材料热膨胀系数和导热率的影响规律。研究表明，影响材料热膨胀系数和导热率的主要因素为SiC颗粒含量。随着SiC颗粒含量的增加，复合材料的热膨胀系数和导热率降低; SiC颗粒越小，热膨胀系数越低,而导热率越好;适当增加杂质含量有利于获得较高的导热率。
+关键词： SiCp/Cu 复合材料； 热膨胀系数； 导热率
+中图分类号： V257　　　文献标识码：A　　文章编号： 1005-5053(1999)01-0058-05
+Effects of SiC particle on physical properties
+for SiCp/Cu composites
+ZENG Qiang　　ZHONG Tao-xing　　WANG Rong-ming
+(1.Institute of Aeronautical Materials， Beijing 100095， China； 2.School of Materials Science and Engineering,Beijing Polytechnic University, Beijing 100022, China)
+Abstract： Multiple regression analyses were formulated to explore the influence mechanism on the coefficient of thermal expansion and thermal conductivity of the SiCp/Cu composites by three deterministic factors, which were content, granularity and purity of the SiC particles. The results revealed that the key factor to affect coefficient of thermal expansion of the composites was the content of the reinforcements. The coefficient of thermal expansion and thermal conductivity of the composites decreased with the increase of SiC particles. However, small reinforcements lead to decreased thermal expansion coefficient and increased thermal conductivity . Higher thermal conductivity can also be obtained by proper impurity in the composites.
+Key words: SiCp/Cu composites； coefficient of thermal expansion； thermal conductivity
+
+　　随着微电子学的发展，封装技术在器件制造中起着越来越重要的作用，对电子封装材料也提出了越来越高的要求，需要它具有低的热膨胀系数(CTE)和高的导热率(TC)［1］。Urquhart等的研究表明，采用SiC颗粒增强Al基复合材料作为电子封装，可大大降低材料的热膨胀系数，但基体的导热率略有下降［2］。随着电子封装材料地位的日益重要，需研制具有更低热膨胀系数和更高导热率的新一代电子封装材料，选用Cu代替Al制备的SiCp/Cu复合材料将是极具竞争力的侯选材料之一。这是因为Cu的热膨胀系数比Al低，但导热率比Al高，而国际上有关这方面的报导很少。本文研制了SiC颗粒增强Cu基复合材料，并对影响该复合材料热膨胀系数、导热系数的3种影响因素进行了多元分析。
+1　实验方法
+　　实验用SiCp/Cu复合材料采用不同粒度（5μm，10μm，20μm）的SiC粉和Cu粉，在微粒球磨机中混合均匀后，于80℃烘干箱中烘干，再在四柱液压机上将粉末预压成φ18mm×10mm的坯料，后经包套、抽真空、封焊和热等静压等工艺制成。热等静压工艺流程为首先经30min升温至500℃后加压220MPa；1.5h后升温至1000℃并保温保压3h。热膨胀系数采用日本FUJI公司生产的FTM－4型全自动变形记录测定装置进行测量，导热系数采用机械电子工业部第十二研究所自制的测定装置，按国标GB5598-85方法进行测量。测量结果采用SAS/STAT统计软件［3］进行多元线性回归分析，得到的自变量标准化偏回归系数值(简称标化系数)可消除不同自变量量纲的影响，通过对标化系数绝对值大小的比较可分析各自变量对变量的影响。
+2　结果与讨论
+2.1　热膨胀系数
+2.1.1　偏回归系数与热膨胀系数的关系
+　　表1给出了未热处理、300℃热处理、700℃退火处理3种状态下SiCp/Cu 复合材料的热膨胀系数，从表中可以看出，材料的热膨胀系数由SiC颗粒的含量、粒度和纯度决定。
+表1　3种状态下SiCp/Cu复合材料的热膨胀系数（）
+Table 1　The coefficients of thermal expansion （） of the
+SiCp/Cu composites under different conditions
+
+No.CuSiCSiC
+granularity
+μmPurity
+(colour）/（×10－6℃-1）
+vol％No heat
+treated300℃ heat
+treated700℃
+annealing
+140605Impure (black)12.011.28.8
+240605Pure（green）12.011.28.8
+3406010Pure（green）12.211.810.1
+4406020Pure（green）———
+550505Impure (black)14.912.111.3
+650505Pure（green）———
+7505010Pure（green）16.114.110.9
+8505020Pure（green）15.815.0—
+960405Impure (black)15.612.812.8
+1060405Pure（green）17.014.110.8
+11604010Pure（green）15.615.612.5
+12604020Pure（green）17.014.110.8
+
+　
+
+　　由于经SAS/STAT统计软件处理后得到的自变量标准化偏回归系数值可消除不同自变量量纲的影响，为简单起见，将SiC颗粒的含量、粒度和纯度分别设为3个自变量x1，x2，x3，选择含杂质（黑色）自变量x3值为1，质纯（绿色）x3值为0，并将未热处理、300℃热处理、700℃退火处理的热膨胀系数分别设为变量y1，y2和y3。由于每个变量值的大小都是3个自变量综合作用的结果，这种关系适于应用多元线性回归方法进行定量分析。本文采用SAS/STAT统计软件中的多元线性回归分析程序，得出多元线性回归方程为：
+　　　　yi = a1×x1 + a2×x2 + a3×x3 + b　　　　　　　　　　　　　(1)
+其中，a1，a2，a3为偏回归系数，b为常数。从而，3种不同状态下SiCp/Cu 复合材料的热膨胀系数可表达为：
+　　　　y1 = -0.200270x1 +0.033153x2－0.317117x3 +24.331532　　　　　　　(2)
+　　　　y2 = -0.128919x1 +0.010721x2－1.81532x3+19.607207　　　　　　　　(3)
+　　　　y3 = -0.127838x1－0.018559x2+0.436937x3 + 17.014414　　　　　　　(4)
+　　从上述3个方程可以看出，SiC颗粒含量（x1）的系数均为负，说明它在热处理的3种条件下均与热膨胀系数成反比。而方程（3）中x3(纯度）的系数值小于方程（2）的系数，说明300℃热处理时纯度对热膨胀系数的作用比未热处理状态大，即SiC颗粒含杂质越多，材料的热膨胀系数越小。而当700℃退火热处理时x3的系数为正，表明颗粒越纯材料的热膨胀系数值越小。以上结果表明，SiCp/Cu复合材料在300℃热处理时和未热处理时，适量的杂质对降低复合材料的热膨胀系数是有益的；而在700℃退火热处理后则相反，SiC颗粒越纯，复合材料的热膨胀系数越低。
+2.1.2　标准化偏回归系数与热膨胀系数
+　　将方程(2)～(4)中的自变量采用SAS/STAT统计软件进行标准化处理，得到自变量标准化偏回归系数值，如表2所示。
+
+表2　SiCp/Cu复合材料热膨胀系数标准化与未标准化偏回归系数值
+Table 2　Standard and non-standard partial coefficients of regression models
+of the thermal expansion coefficient for SiCp/Cu composites
+
+No.Coefficient of x1Coefficient of x2Coefficient of x3
+Non-standardStandardNon-standardStandardNon-standardStandard
+Equation 2-0.200270-0.888132770.0331530.07921851-0.317117-0.07577422
+Equation 3-0.128919-0.773024920.0107210.03463708-1.181532-0.38173551
+Equation 4-0.127838-0.84891186-0.018559-0.066403020.4369370.15633721
+
+　
+　　由表2可以看出,在3个方程中，x1的标准化偏回归系数都是最大的，这表明SiC颗粒在复合材料中所占的体积百分比是影响该复合材料热膨胀系数的最重要因素。其回归系数值为负说明SiC颗粒越少，材料的热膨胀系数越大。这是由于Cu基体的热膨胀系数远高于SiC颗粒的热膨胀系数，从而SiCp/Cu复合材料的热膨胀系数随SiC颗粒在复合材料中含量的增大而减少。增加SiC颗粒的含量对降低材料整体的热膨胀系数是十分有效的。
+　　与x1的标准化偏回归系数相比，x2和x3的标准化偏回归系数较小，这意味着本实验条件下，在影响SiCp/Cu复合材料热膨胀系数的诸多因素中，SiC颗粒的粒度及SiC颗粒的颜色对复合材料热膨胀系数的影响相对较小。
+2.2　导热性能影响因素的多元分析
+2.2.1　偏回归系数与材料的导热性能
+　　表3给出了SiCp/Cu复合材料的导热系数。
+表3　SiCp/Cu复合材料的导热系数
+Table 3　Thermal conductivity of SiCp/Cu composites
+
+No.Percentage/%SiCMea. temp.
+℃λ
+(W.m-1K-1)
+CuSiC Granularity/μmPurity(colour)
+140605Impure (black)50.145.4
+240605Pure (green)50.139.4
+3406010Pure (green)50.242.4
+4406020Pure (green)--
+550505Impure (black)50.438.5
+650505Pure (green)50.329.1
+7505010Pure (green)50.336.1
+8505020Pure (green)50.438.0
+9-160405Impure (black)50.2172.0
+9-260405Impure (black)50.1148.2
+10-160405Pure (green)50.832.4
+10-260405Pure (green)50.2101.9
+11604010Pure (green)50.193.3
+12604020Pure (green)49.884.7
+
+　
+
+　　从表3中可以看出，与热膨胀系数相似，SiCp/Cu复合材料的导热系数是由SiC颗粒含量、粒度、纯度和测量温度决定的。采用和材料热膨胀系数相同的分析方法，对材料的导热系数进行分析研究。设上述4种影响因素为自变量x1，x2，x3和x4，将材料的导热系数设为变量y。得到材料的导热系数方程为：
+y=－3.745791x1 +(-1.437729)x2 +33.477820x3 +(-91.405833) x4 +4814.233699　　(5)
+其中x3的偏回归系数值为正，说明SiC颗粒含杂质越多，材料整体的导热系数越大；而x1，x2和x4的偏回归系数值为负，表明SiC颗粒含量越多、粒度越大、测量温度越高，复合材料的导热系数越低。采用小颗粒、适当纯度的SiC可有效提高材料的导热性能。
+2.2.2　标准化偏回归系数与材料的导热性能
+　　为了比较上述4个自变量对复合材料导热系数的不同影响，采用了SAS/STAT统计软件中的多元线性回归分析程序，对实验结果进行了分析，结果如表4所示。
+
+表4　SiCp/Cu复合材料导热系数非标准化和标准化偏回归系数值
+Table 4　Standard and non-standard partial coefficients of thermal conductivity
+of SiCp/Cu composites in different regress models
+
+Classificationx1x2x3x4
+Non-standard-3.7458-1.4378+33.4778-91.4058
+Standard-0.6589-0.16860.3400-0.4490
+
+　
+　显然，x1的标准化偏回归系数值最大，表明SiC颗粒的含量是影响SiCp/Cu复合材料导热性能的主要因素。SiC颗粒的含量越少，材料整体的导热系数越大。降低复合材料中SiC颗粒的含量对提高材料的导热性能是有益的。另外，温度（x4）也是影响材料导热性能的重要因素，随着温度升高，材料整体的导热性能下降。
+3　结束语
+　　在SiCp/Cu复合材料中，增强颗粒的含量是影响材料热膨胀系数和导热系数的重要因素。SiC 颗粒越多，材料的热膨胀系数越低、导热性能越好。进行材料设计时，应综合考虑SiC颗粒含量、粒度及纯度等多种因素，使复合材料的热膨胀系数与导热率均达到最佳匹配。
+作者简介： 曾强， 男(1974-)， 学士
+作者单位：曾强、王荣明：北京航空材料研究院， 北京　100095；
+　　　　　钟涛兴：北京工业大学材料科学与工程学院， 北京　100022
+参考文献：
+［1］Premkumar M K,Hunt W H，Jr.，Sawtell R R. Aluminum composite material for 
+　　　mutichip modules.JOM,1992(7):24～29
+［2］Urquhart A W. Novel reinforced ceramics and metals: a review of Landxide′s 
+　　　composite technologies. Mater Sci Eng,1991，A144：75～82
+［3］高惠璇.SAS系统 SAS/STAT软件使用手册.北京：中国统计出版社，1997
+收稿日期： 1998-10-20； 修订日期： 1999-01-25

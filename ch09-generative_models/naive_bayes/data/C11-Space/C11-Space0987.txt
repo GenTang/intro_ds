@@ -1,0 +1,124 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+先驱体转化-热压烧结碳纤维增韧
+碳化硅复合材料的显微结构
+何新波　张长瑞　周新贵　张新明　周安郴
+
+摘要： 采用XRD，HRTEM和SEM等分析测试手段，研究了以聚碳硅烷(PCS)为先驱体和粘结剂，Y2O3和AlN为烧结助剂，采用先驱体转化-热压烧结法制备的Cf/SiC复合材料的显微结构。结果表明，Y2O3主要与PCS的裂解产物以及AlN和SiC表面的氧化物发生反应，形成有助于复合材料致密化的液相，而AlN则与烧结液相和PCS之间通过反应-溶解-沉积过程，形成主要分布于界面相中的微小SiC-AlN固溶体。正是由于含有一定量SiC-AlN固溶体的富碳界面相使纤维与基体之间的结合适中，纤维易发挥脱粘和拔出作用，复合材料具有很好的力学性能。
+关键词： 先驱体转化-热压烧结； Cf/SiC复合材料； 显微结构 
+中图分类号： TB332　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0043-08
+
+Microstructure of the Cf/SiC composites by precursor
+conversion-hot pressing sintering
+HE Xin-bo1　　ZHANG Chang-rui2　　ZHOU Xin-gui2
+ZHANG Xin-ming1　　ZHOU An-chen2
+(1.Central South University of Technology， Changsha 410073, China； 2.National University of Defense Technology， Changsha 410083, China)
+Abstract： The microstructure of the Cf/SiC composites, prepared by precursor conversion-hot pressing sintering with polycarbosilane (PCS) as precursor and binder and AlN-Y2O3 as additives, was investigated using XRD, HRTEM and SEM. The results showed that Y2O3 reacted with the pyrolytic products of the PCS and the oxides on the surface of the AlN and SiC grains, forming the liquid-phase assisting in the densification of the composites, and the fine SiC-AlN solid solution was formed between AlN and the PCS through reaction-dissolution-precipitation at the grain boundaries and the fiber/matrix interface. Due to the presence of the carbon-rich fiber/matrix interphase with a certain of SiC-AlN solid solution, a desirable fiber/matrix interfacial bonding was obtained, which facilitated the debonding and pullout of the fibers. As a result, the composite exhibited excellent mechanical properties. 
+Key words: precursor conversion-hot pressing sintering； Cf/SiC composites； microstructure
+
+　　陶瓷基复合材料因其在性能方面，特别是韧性和高温稳定性方面，存在着巨大的潜力而备受世人关注。在过去的二三十年中，为了提高陶瓷基复合材料的力学性能和可靠性，人们已经对陶瓷基复合材料进行了大量的研究，并开发出了多种陶瓷基复合材料［1～4］。其中，连续纤维增韧陶瓷基复合材料因其具有高强、轻质和高韧特性，最为引人注目，被认为是很有发展前途的复合材料之一［5，6］。连续碳纤维增强SiC陶瓷基复合材料，是一种很有希望满足1650℃工作温度需要的航空发动机热端部件的结构材料。同时，由于轻质、力学性能好和耐高温等优点，在航空航天领域有着巨大的应用潜力，因此被许多国家列为重点开发的关键技术和复合材料［7］。
+　　复合材料的性能不仅与基体和增强相的性能有关，而且与它们两者之间的界面结合有关。为了能制备出性能更好的复合材料，有必要了解复合材料中基体、增强相和两者之间界面的结构及其形成机理。本工作采用XRD，TEM和SEM等分析测试手段，研究了以聚碳硅烷(PCS)为先驱体和粘结剂，Y2O3和AlN为烧结助剂，采用先驱体转化-热压烧结法制备的Cf/SiC复合材料的显微结构。
+1　实验过程
+1.1　复合材料制备
+　　采用的原料是：SiC微粉(纯度为99%，平均粒径约为0.8μm)，烧结助剂(Y2O3纯度为99%，平均粒径约为0.5μm；AlN纯度大于99%，平均粒径约为0.5μm)，聚碳硅烷(软化点为203～213℃)。上述粉料按一定的比例配制成复合粉体，以二甲苯为熔剂，采用湿法球磨混合均匀而制得浆料。然后，通过缠绕将碳纤维(型号为M40JB，日本产)和浆料制成无纬布，晾干后裁剪成30mm×35mm的小块，最后通过叠层、热模压和热压烧结，制得纤维体积分数约为50%的复合材料。热压压力为25MPa，烧结温度为1800℃，保温1h。
+1.2　复合材料表征
+　　采用三点弯曲法测抗弯强度和层间剪切强度，试样尺寸为4mm×3mm×35mm，跨距分别为30mm和15mm，加载速度为0.5mm/min；断裂韧性采用单边切口梁法，试样尺寸为2.5mm×5mm×30mm，切口深度约为2.5mm，跨距为20mm，加载速度0.05mm/min；试样密度采用阿基米德排水法测量；烧结试样用X-射线衍射仪进行物相分析，并用Link ISIS型X-射线能谱仪(EDS)进行微区成分分析。利用JEM-2010型透射电镜(HRTEM)和扫描电镜(SEM)观察试样的显微结构、界面特征和断口形貌。
+2　结果与讨论
+2.1　显微结构
+　　图1为复合材料TEM形貌。图中白色相为界面相，纤维较均匀地分布在细小的SiC基体中，并且保持较为完整的形态。基体组织主要由平均粒径约为1.0μm的颗粒组成，颗粒之间以及纤维/基体间分布着大量的界面相。同时，在显微组织中存在着大量的平均粒径约为100～300nm的小粒径颗粒(图1b和图2a)。这种小粒径颗粒主要分布在界面相中，起到填充大粒径颗粒间和纤维/基体间间隙的作用。由于我们所加的初始SiC颗粒粒径约为0.8μm，因此，复合材料在烧结时，基体晶粒的长大得到了很好的控制。鉴于复合材料中存在着大量的界面相，说明复合材料烧结时，形成了大量的液相，这些界面液相在冷却后，主要以非晶相形式存在于SiC晶界和纤维/基体之间，而纤维主要是通过这种界面相与基体连接的，很少直接与基体颗粒相结合(图1)。
+
+图1　复合材料TEM形貌
+Fig.1　TEM images of the composite
+2.2　显微结构的形成
+　　从XRD(图3)结果来看，复合材料中没有单独的AlN相存在，这与EDS结果相一致(图2)。由图2可知，大粒径颗粒内几乎不含AlN(图2b)，但在其表面有一层石墨层(图2c)，而小粒径颗粒内AlN含量较高(图2d)，说明小粒径颗粒是AlN-SiC的固溶体。界面相中除含有大量的碳外，还含有Al，Si，Y，O和其他杂质元素等，但几乎不含N，也没有发现AlN颗粒，说明AlN主要与PCS反应形成SiC-AlN固溶体。AlN和SiC在1800～2100℃温度范围内能形成固溶体［8，9］。但是在本实验条件下，除了与小粒径颗粒发生固溶外，并未与任何大颗粒发生固溶。这是由于AlN和大粒径SiC之间的固溶反应主要是通过固相扩散来完成的，而它们的互扩散系数很小，因此，一般要求烧结温度较高(高于2100℃)。在本实验中，虽然复合材料的烧结机制是液相烧结，但由于烧结温度较低(1800℃)，原子的扩散速度很小，因此AlN与大粒径SiC颗粒之间无法形成固溶体。但在石墨层下面的SiC表层中含有少量的Al，证明了Al在大粒径SiC颗粒中的扩散。至于小粒径固溶体颗粒的形成机理将另文讨论。
+
+
+图2　复合材料的TEM显微结构及其不同组织的EDS谱(b),(c)和(d)分别为(a)中A，B和C处的EDS谱
+Fig.2　TEM image of the microstructures (a) and EDS patterns of the region A,B and C in (a) are shown in (b),(c) and (d),respectively
+
+　　本实验所用PCS在高温下的裂解产物是以多孔体形式存在的物质，主要为SiC，Si-O-C,SiO2和10～20%的游离碳，其中SiC以β微晶形式存在。图4为复合材料密度与烧结温度关系。当烧结温度高于1750℃后，复合材料具有较高的密度。实验中发现，当烧结温度达到1660℃时，材料的体积收缩急剧增大，这意味着界面液相的生成。由于Y2O3-Al2O3的共晶点温度高于1760℃［10］，因此液相不可能仅由Y2O3-Al2O3组成。由于界面相中含有一定量的硅和大量的碳，说明液相来源于多种物质之间的反应。可能是来源于Y2O3与PCS裂解产物(如SiO2，SiC3O和自由碳等)以及AlN和SiC表面的氧化物之间的反应，从而使液相形成温度降低，生成大量的富碳液相以利于材料的烧结。高温下，AlN由于分解、蒸发［11，12］和反应也开始慢慢溶进界面相中，然后扩散或沉积在正在长大的由PCS转化而来的β-SiC上，从而在界面相中形成微小的AlN-SiC固溶体。这种固溶体颗粒主要分布在界面相中，包括纤维/基体界面相(图2)，或与SiC颗粒结合在一起，或单独存在于界面相中，因此能够起到强化界面相、提高材料密度和纤维与基体间的界面结合以及抑制原始SiC颗粒的长大作用，从而导致复合材料性能的提高。至于大粒径SiC颗粒表面的石墨层，是由PCS转化而来的非晶碳在高温下结晶而成［13］。
+　　　　　　　　
+　　图3　复合材料的XRD谱　　　　　　　　　图4　复合材料密度与烧结温度的关系
+Fig.3　XRD pattern for the composite　　　Fig.4　Relationship between the densities
+　　　　　　　　　　　　　　　　　　　　and sintering temperatures
+
+　　复合材料中的界面相主要有两种，一种是SiC颗粒间的晶界相，除了非晶碳外，它还含有大量的Al,Y,Si等元素，并且具有一定的结晶度；另一种是纤维/基体间界面相，其主要成分为非晶碳，而其他元素，如Si,Y和Al等则很少。这可能与自由碳易沉积在纤维表面有关。它们的选区电子衍射(SAD)和EDS谱示于图5。由于这层富碳的界面相含有一定量的Si-AlN固溶体，因此它不仅使纤维/基体的界面结合完整，而且能够调整界面结合力，使纤维/基体间的结合强度适中，从而导致纤维易发挥脱粘和拔出(图6)，复合材料具有好的力学性能(表1)。另外，在界面相中几乎没有N，其原因可能与AlN的高温分解以及AlN与其他物质的反应有关，有待进一步研究。
+　　　　　　
+　　　　　　　
+图5　复合材料中界面相的SAD与EDS谱
+(a)纤维/基体间界面相；(b)SiC颗粒间晶界相
+Fig.5　EDS and SAD patterns of the boundary-phase between fiber
+and matrix (a) and SiC grains(b)
+
+表1　复合材料的力学性能
+Table 1　Densities and mechanical properties of the composities
+
+Flexural strength
+/MPaFracture 
+toughness/MPa.m1/2Interlaminar shear
+strength/MPaRelative density
+/%
+691.620.739.893.6
+
+
+
+
+图6　复合材料的SEM断口形貌
+Fig.6　Fracture surface of the composite
+2.3　复合材料界面
+　　图7为两个大粒径SiC颗粒间界面的HRTEM图。图7a中SiC晶粒间界面十分干净，无任何晶界相或石墨。而在图7b中，SiC颗粒表面均有一厚度约为20nm的石墨层，它们之间是通过少量的非晶碳连接的。同时，图8a给出了SiC颗粒/晶界相之间的界面关系，在图中同样可见到一石墨层，而且其厚度与图7b中的基本相等。在整个基体中，以图7b和8a为多，说明材料的致密化主要是通过晶界相的帮助来完成的。SiC-AlN固溶体颗粒/晶界相的界面如图8b所示。从图可知，固溶体颗粒表面没有石墨层，而且，在某些地方固溶体晶粒与晶界相融合在一起，说明其形成与长大是在晶界液相中完成的。与图8a中的晶格相比，图8b中的晶格显得紊乱，这也可证明此晶粒为固溶体晶粒。纤维/基体之间的界面是影响复合材料性能的关键［14］。在本实验所制复合材料中，纤维主要是通过富碳的界面相与基体相连的，因此，避免了纤维与基体颗粒的直接结合，从而使纤维与基体的结合适中，复合材料具有良好的力学性能。但是，从图1可看出，复合材料的致密度不是很高，其相对密度仅为93.6%(表1)，这可能与PCS在裂解时产生了大量小分子气体(PCS的陶瓷产率仅为56%)、烧结助剂用量和热压温度等因素有关。提高烧结温度或/和烧结助剂含量，虽可提高复合材料的密度，但由于纤维与基本界面结合的增强和纤维本身性能的下降等原因，反而使复合材料的性能下降。从显微结构的形成过程来看，提高先驱体PCS的陶瓷产率或/和改变PCS的用量是进一步提高复合材料性能的有效途径，这部分工作有待深一步研究。
+
+图7　SiC颗粒间界面(HRTEM)
+Fig.7　HRTEM images of the grain boundaries between two SiC grains
+
+图8　SiC颗粒与晶界相之间界面(HRTEM)(a)和固溶体颗粒与晶界相间界面(HRTEM)(b)
+Fig.8　Interface between SiC grain and the grain-boundary-phase(a) and
+interface between the solid solution and grain-boundary-phase(b)
+
+3　结　论
+　　通过对以聚碳硅烷(PCS)为粘结剂，Y2O3和AlN为烧结助剂，采用先驱体转化-热压烧结法制备的Cf/SiC复合材料显微结构的研究，得出如下结论：
+　　(1)复合材料在热压烧结时，Y2O3主要与PCS的裂解产物、AlN和SiC表面的氧化物反应，形成有利于复合材料致密化的液相。
+　　(2)AlN与晶界液相和PCS发生反应-溶解-沉积是形成复合材料内SiC-AlN固溶体的主要原因。这种微细固溶体主要分布在晶界相中，能够起到强化晶界相，提高材料密度和纤维与基本间的界面结合以及抑制原始SiC颗粒长大的作用。
+　　(3)烧结后的复合材料中，由于含有一定量SiC-AlN固溶体的富碳晶界相使纤维与基体之间的结合适中。因此，纤维易发挥脱粘和拔出作用，复合材料具有很好的力学性能。其抗弯强度与断裂韧性分别达到691.6MPa和20.7MPa.m1/2。
+注释：基金项目： 国防预研重点资助项目(121Q0439)
+作者简介： 何新波(1971-)， 男， 博士研究生 
+作者单位：何新波、张新明：中南工业大学材料科学与工程系， 长沙410073； 
+　　　　　张长瑞、周新贵：国防科技大学应用化学与材料工程系，长沙410083
+参考文献：
+［1］　史可顺.高温陶瓷复合材料的进展.硅酸盐学报，1993，25(2)：77～86
+［2］　PAN X Q，MAYER J，RUHLE M.Silicon nitride based ceramic nanocomposites.J Am 
+　　　　Ceram Soc,1996, 79(3)：585～590
+［3］　KODAMA H,SAKAMOTO H,MIYOSHI T.Silicon carbide monofilament reinforced silicon
+　　　　nitride of silicon carbide matrix composites.J Am Ceram Soc,1989,72(4):551～
+　　　　558
+［4］　OLAGNON C,BULLOCK E,FANTOZZI G.Properties of sintered SiC whisker-reinforced 
+　　　　Si3N4 composites.J Euro Ceram Soc,1991(7):265～273
+［5］　EVANS A G.Prospective on the development of high toughness ceramics.J Am 
+　　　　Ceram Soc,1990,73(2):187
+［6］　YANG J M,CHEN T J,JERG S M,et al. Processing and mechanical behavior of SiC 
+　　　　fiber-reinforced Si3N4 composites.J Mater Res,1991,6(9):1926～1936
+［7］　美国空军技术学院.国防关键技术.中国航空信息中心研究部译.北京：中国航空信息中
+　　　　心，1994，5
+［8］　ZANGVIL A，ROBERT. Phase relationships in the SiC-AlN system.J Am Ceram 
+　　　　Soc.,1988,71(10):884
+［9］　INTRRANTE I V.Preparation of SiC-AlN solid solution using organometallic 
+　　　　precursors.US,Ad-A,206998.1989.2.15
+［10］　HASHIMOTO N,YODEN H.Sintering behavior of fine AlN powder synthesized from 
+　　　　aluminum polynuclear complexes.J Am Ceram Soc,1992,75(8):2098～2106
+［11］　SOETA A,MAEDA K.Study on sintering process of SiC ceramics with BeO or AlN 
+　　　　addition by analytical electron microscopy.Yogyo Kyokaishi,1985,93(10):636
+　　　　～648
+［12］　PAN Yu-bai,QIU Jian-hui,MORITA M,et al.The mechanical properties and 
+　　　　microstructure of SiC-AlN particulate composites.J Mater Sci,1998(33):1233～
+　　　　1237
+［13］　BOUILLON E，LANGLAIS F，PAILLER R，et al.Conversion mechanical of 
+　　　　polycarbosilane precursor into an SiC-based ceramic material,J Mater Sci,
+　　　　1991(26):1333～1345
+［14］　KERANS R J，HAY R S，PARTHASARATHY N J.The role 
+　　　　of the fiber-matrix interface in ceramic composite.Am Ceram Soc Bull,1989,68
+　　　　(2):429～442
+收稿日期： 1999-04-14； 修订日期： 1999-06-03

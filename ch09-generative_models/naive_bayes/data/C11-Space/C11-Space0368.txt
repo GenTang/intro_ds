@@ -1,0 +1,96 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年　第14卷　第1期　VOL.14　No.1　1999
+
+
+
+高速对称刚性转子碰摩运动的稳定性分析
+　　季进臣　虞　烈
+摘要：分析了高速对称刚性转子圆柱形和圆锥形碰摩运动。当转子两端的轴承同时发生不良润滑，造成转子两端同时与轴承接触，产生圆柱形碰摩运动，给出了发生圆柱形碰摩运动时系统的稳定范围，讨论了摩擦系数、轴承径向间隙、碰摩发生时的初始角度与失稳涡动角速度的关系。当转子一端的轴承发生不良润滑，而另一端的轴承正常工作时发生圆锥形碰摩运动，分析发现其碰摩运动的稳定性取决于其系统本身物理参数，进行了分岔分析，给出了其涡动角速度的一阶近似表达式，这可为转子系统的故障诊断提供一定的理论基础。
+主题词：转子　摩擦　稳定性　分析
+分类号：TH133
+STABILITY OF RUBBING MOTIONS
+OF SYMMETRIC RIGID ROTOR
+IN HIGH SPEED ROTATING MACHINERY
+Ji Jinchen and Yu Lie
+（Theory of Lubrication and Bearing Institute,Xi'an Jiaotong University,Xi'an　710049）
+ABSTRACT　The cylindrical and conical rubbing motions of a symmetric rigid rotor in high speed rotating machinery are investigated.When both journal bearings of the rotor are simultaneously under starvaton lubrication condition,both ends of the rotor contact locally with the bearings so that the cylindrical rubbing motions occur.The stability margin of the cylindrical rubbing motions is determined,and the relationships of instability with the radial clearance,the bearing/rotor friction coefficients,and the angle of incidence during successive rubs are obtained.When one of the journal bearings is under starvation lubrication condition,the conical rubbing motion of the rotor occurs.The analysis shows that in this case the stability of rotor depends on its physical parameters,the transcritical bifurcation is analyzed.Then the first order approximation formula of whirling angular speed is given,which provides theoretical analysis for diagnosis of rotor systems.
+Key　Words　Rotors　Friction　Stability　Analysis
+1　引　言
+　　在高速旋转机械中，常发生碰摩运动。目前的研究主要集中在瞬态振动分析和稳定性分析上。Choy［1］分析了转子碰摩时的非线性瞬态振动，Ehrich［2～4］给出高阶亚谐响应和边频现象，Kim［5］给出了一Jeffcott转子的伪周期响应和稳定性分析，文献［6～8］分别给出了转子碰摩的振动故障特征分析和混沌现象。张文［9］给出几种碰摩的稳定性分析。本文给出了对称刚性转子碰摩运动的稳定性分析，分析了发生圆柱形碰摩运动时系统的稳定范围；对于圆锥形碰摩运动，给出了其涡动角速度的表达式。
+2　圆柱形碰摩运动
+　　当转子两端的轴承同时发生
+
+
+图1　圆柱形碰摩运动
+不良润滑，造成转子两端同时与轴承接触，如图1所示。
+　　转子发生碰摩的条件为：
+N=mgcosθ+mc02≥0　(1)
+　　转子在切线方向的运动方程为：
+mc0+mgsinθ+μN=0　(2)
+　　在碰摩过程中，假设转子的自转角速度由于外界不断供给能量而保持为一个常数。
+将(1)式代入(2)式得到：　　mc0+mgsinθ+μm(gcosθ+c02)=0　(3)
+此式即为刚性转子圆柱形碰摩运动方程，对(3)式进行简化得：
++Ω2(sinθ+μcosθ)+μ2=0　(4)
+其中Ω2=g/c0。上式中有一个平衡点：=0，tanθ0=-μ，θ0=tan-1(-μ)。令θ=φ+θ0，(4)式变为。它是一个非线性方程，可令y=2通过常微分方程的方法进行求解得：
+　(5)
+这里c是一积分常数，它的值可由初始条件决定。设系统碰摩时的初始条件为φ(0)=φ0，(0)=0，代入(5)式得到：　　(6)
+其中：δ=-tan-1(1/2μ)。将(6)式代入(5)式得到：
+　　(7)
+上式中解曲线在相平面(φ，)上或者形成封闭曲线或者非封闭曲线。封闭曲线对应着周期解是稳定的，非封闭曲线对应着无界解，分析得到初始条件的失稳区是：
+　(8)
+　　根据(8)式和(1)式可以看出，失稳阈值0是摩擦系数μ，轴承间隙c0和碰摩发生时的初始角度φ0的函数。图2和3给出了数值算例。算例表明，在一定的轴承间隙c0下，刚性转子碰
+
+
+图3　圆柱形碰摩运动的稳定区域
+摩的失稳涡动角速度0随摩擦系数μ的增加而增大，随碰摩发生时的初始角度φ0的增加而减小。在一定的摩擦系数μ下，刚性转子碰摩的失稳涡动角速度0随轴承间隙c0的增加而减小，随碰摩发生时的初始角度φ0的增加而减小。
+3　圆锥形碰摩运动
+　　当转子一端的轴承发生不良润滑，而另一端的轴承正常工作时发生的碰摩运动，如图4所示。选取oxyz为静坐标系，oξηζ为固连于刚体上的动坐标系。
+　　刚体转子绕O点的角速度为：。其中Jd，Jp分别是刚性转子绕O点的赤道转动惯量和极转动惯量。
+
+
+图4　圆锥形碰摩运动
+　　转子所受外力(重力，碰摩时产生的摩擦力和正压力)对O点的力矩为：
+
+　　根据动量矩定理，并假设在碰摩过程中，转子的自转角速度为一定值，保持不变，且假设α是小量，令sinαc0/l，cosα1.0，整理得到：
+N=［(Jd-Jp)/l2］c02-［(Jd-Jp)/l2］c0ω2+(1/2)mgcosθ　(9)
+-μa2+μaω+(mgl2/2Jdc0)(-μcosθ+sinθ)＝0　(10)
+(10)式即为圆锥形碰摩运动的方程，其a=(Jd-Jp)/Jd。必须指出，它仅当c0＜Rω时成立，否则摩擦力方向相反，μ取负值。由＝0得平衡位置是tanθ0=μ，θ0=tan-1μ。取相对于平衡位置的扰动角y=θ-θ0作广义坐标，代入得：-μa2+μaω+(mgl2/2Jdc0)siny＝0　(11)
+(11)式是一非线性方程，令T=ωt，c=mgl2/2Jdc0ω，引入小参数ε=1/ω则上式变为：
+-μa2+μa+εcsiny＝0　(12)
+令　　y=y0+εy1+ε2y2+…　(13)
+　　采用多尺度方法分析(12)式，将(13)式代入(12)式，并比较ε的同次幂的系数项得：
+ε0：D20y0-μa(D0y0)2+μa(D0y0)＝0　(14)
+ε1：D20y1+2D0D1y0-2μa(D0y0)(D0y1)-2μa(D0y0)(D0y1)
++μa(D0y1)+μa(D1y0)+csiny0＝0　(15)
+令　ω0=D0y0，(14)式变为：　　　　D0ω0-μaω20+μaω0＝0　(16)
+(16)式的定常解为：=1.0，或=0。其解为：　　ω0=a／［-a+eμa(T0+A(T1))］(17)
+其中A(T1)是独立于T0的积分常数。设系统的初始条件为(0)＝0代入(17)式得：
+ω0＝1.0／［1.0+(1.0／-1.0)eμaT0］　(18)
+如果a＞0，令x=μaω0，则(16)式变为：　　　=x2-μax　　(19)
+以μa为参数，根据文献［10］，方程(19)产生跨临界分岔(Transcritical bifurcation)，其分岔图见图5(a)。如果a＜0，令x=(-μa)ω0，则(16)式变为：　　=-x2-μax　(20)
+　　以-μa为参数，方程(20)产生跨临界分岔，其分岔图见图5(b)。
+
+
+图5　分岔图
+　　初始条件确定了解是无界的或接近于定常解(对应着固定点)。图5(a)和(b)说明，如果碰摩开始时，系统的参数位于1区域，则碰摩是不稳定的，其涡动的角速度将发散；如果系统的参数位于2，3区域，则碰摩是稳定的，其稳态涡动的角速度将收敛于0。（当a＞0时）或收敛于1.0（当a＜0时）。在ω0是稳定定常解的情况下，D0y0=ω0，(15)式可简化为：
+D20y1-μa(2ω0-1.0)(D0y1)+csinω0T0＝0　(21)
+令D0y1=ω1，由(21)式可解得：ω1=(c／)［cos(ω0T0+γ)+e-f［T0+B(T1)］］　(22)
+其中f=μa(1.0-2ω0)，tanγ=-(f/ω0)，B(T1)是独立于T0的积分常数。显然要是ω1稳定，如a＞0，则ω0≤1/2，如a＜0，则ω0≥1/2。
+　　令初值ω1(0)=0，代入(22)式得到ω1=(c／)［cos(ω0T0+γ)-cosγe-fT0］，由此得到碰摩时其涡动角速度的一阶近似为：　　　　　ω＝ω0+εω1　(23)
+　　结论　通过对高速对称刚性转子圆柱形碰摩运动和圆锥形碰摩运动的分析，发现圆柱形碰摩运动的失稳阈值0是摩擦系数μ、轴承间隙c0和碰摩发生时的初始角度φ0的函数。圆锥形碰摩运动的收敛情况，取决于其系统本身物理系数，给出了其稳态碰摩时其涡动角速度的一阶近似表达式，这可为转子系统的安全运行保障条件和故障诊断提供一定的理论基础。
+作者简介：季进臣　男　33岁　博士后　西安交通大学润滑理论及轴承研究所　710049
+作者单位：　西安交通大学
+参考文献
+［1］　Choy F K,Padovan J.Non-Linear Transient Analysis of Rotor-Casing Rub Events.Journal of Sound and Vibration,1987,113(3):529-545
+［2］　Ehrich F F.High Order Subharmonic Response of High Speed Rotors in Bearing Clearance.ASME Journal of Vibration,Acoustics,Stress,and Reliability in Design,1988,110:9-16
+［3］　Ehrich F F.Spontaneous Sidebanding in High Speed Rotordynamics.ASME Journal of Vibration and Acoustics,1992,114:498-505
+［4］　Kim Y B.Quasi-Periodic Response and Stability Analysis for a Nonlinear Jeffcott Rotor.Journal of Sound and Vibration,1996,190(2):239-253
+［5］　岳国金等．转子碰摩的振动特征分析．航空学报，1990，11(10)：B499-B502
+［6］　武新华等．旋转机械碰摩故障特性分析．汽轮技术，1996，38(1)：31-34
+［7］　褚福磊等．碰摩转子系统中的阵发性及混沌现象．航空动力学报，1996，11(3)：261-264
+［8］　张文．转子动力学理论基础．北京：科学出版社，1990
+［9］　Guckenheimer J,Holmes P.Nonlinear Oscillations,Dynamical Systems,and Bifurcation of Vector Fields.New York,Springer-Verlag,1983
+收稿：1998年2月
+修稿：1998年4月
+责任编辑：杨再荣

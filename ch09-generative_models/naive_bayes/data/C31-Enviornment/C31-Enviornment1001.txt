@@ -1,0 +1,50 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.9-13
+
+
+
+
+澳门大气降尘中优控多环芳烃研究
+祁士华　 傅家谟　 盛国英　 王志石　 汤仕文　 闵育顺　 张干　 邓宇华　 
+摘　要：通过对澳门大气降尘中的优控多环芳烃含量特征研究以及与气溶胶中的对比研究认为：①降尘中的优控多环芳烃含量受空间位置的影响，地面降尘由于受到土壤的稀释而使其中PAHs的含量降低，交通商业居民集中区降尘中的PAHs含量较高；②降尘中的PAHs含量较气溶胶中的低，与夜晚气溶胶中的含量比值为0.02～0.08，与白天气溶胶中的含量比值为0.03～0.12；③降尘中的优控多环芳烃的分布与气溶胶中的存在差异，气溶胶显示贫2个苯环和3个苯环PAHs的特征，降尘显示富4个苯环PAHs的特征。
+关键词：澳门； 降尘； 气溶胶； 多环芳烃
+分类号：X513　文献标识码：A
+文章编号：1001-6929(2001)01-0009-05
+Study on Priority Polycyclic Aromatic Hydrocarbons(PAHs) in Dustfall at Macao
+QI Shi-hua（State Key Laboratory of Organic Geochemistry, Guangzhou Institute of Geochemistry, CAS, Guangzhou 510640,　China）　
+FU Jia-mo（State Key Laboratory of Organic Geochemistry, Guangzhou Institute of Geochemistry, CAS, Guangzhou 510640,　China）　
+SHENG Guo-ying（State Key Laboratory of Organic Geochemistry, Guangzhou Institute of Geochemistry, CAS, Guangzhou 510640,　China）　
+WANG Zhi-shi（Faculty of Science and Technology, University of Macao, Macao, China）
+TANG Shi-wen（Macao Weather Station, Macao, China）　
+MIN Yu-shun（State Key Laboratory of Organic Geochemistry, Guangzhou Institute of Geochemistry, CAS, Guangzhou 510640,　China）　
+ZHANG Gan（State Key Laboratory of Organic Geochemistry, Guangzhou Institute of Geochemistry, CAS, Guangzhou 510640,　China）　
+DENG Yu-hua（Faculty of Science and Technology, University of Macao, Macao, China）　
+Abstract：The conclusions,by studying on the characteristics of the concentrations of priority polycyclic aromatic hydrocarbons in dustfall and contrasting with aerosols in Macao,are as follows.①The concentrations of priority PAHs in dustfall were influenced by spatial locations and were diluted by soil from ground,and the highest concentrations were occurred at heavy traffic,commercial and crowded residents region.②The concentrations of priority PAHs in dustfall are lower than those in aerosol,and the ratios of the concentrations of priority PAHs in dustfall to those in aerosol are 0.02 to 0.08 at night and 0.03 to 0.12 in daytime,respectively.③There is a difference in the distrbution of individual priority PAHs in dustfall and in aerosol,scarce of 2-ring and 3-ring compounds of PAHs in aerosol and rich in 4-ring compounds of PAHs in dustfall.
+Keywords：Macao;　dustfall; aerosol; polycyclic aromatic hydrocarbons(PAHs)
+基金项目：国家自然科学基金(49872092)和中国科学院重点基金(KZ952-S1-413)资助项目
+作者简介：祁士华(1963-)，男，江苏宝应县人，研究员，博士. 
+作者单位：祁士华（中国科学院 广州地球化学研究所 有机地球化学国家重点实验室， 广东 广州　510640）　
+　　　　　傅家谟（中国科学院 广州地球化学研究所 有机地球化学国家重点实验室， 广东 广州　510640）　
+　　　　　盛国英（中国科学院 广州地球化学研究所 有机地球化学国家重点实验室， 广东 广州　510640）　
+　　　　　王志石（澳门大学科技学院，澳门）　
+　　　　　汤仕文（澳门气象台， 澳门）　
+　　　　　闵育顺（中国科学院 广州地球化学研究所 有机地球化学国家重点实验室， 广东 广州　510640）　
+　　　　　张干（中国科学院 广州地球化学研究所 有机地球化学国家重点实验室， 广东 广州　510640）　
+　　　　　邓宇华（澳门大学科技学院，澳门）　
+参考文献：
+［1］Durlak S K,Biswas P,Shi J,et al.Characterization of polycyclic aromatic hydrocarbons particulate and gaseous emissions from polystyrene combustion［J］.Environ Sci Technol,1998,32:2301～2307.
+［2］Xu X B,Chu S G,Song N.Review:Application of chromatographic studies of air pollution in China［J］.J chromatography,1995,710A:21～37.
+［3］林峥，麦碧娴，张干，等.沉积物中多环芳烃和有机氯农药定量分析的质量保证和质量控制［J］.环境化学，1999，18(2)：115～121.
+［4］Gardner B,Hewitt C N,Jones K C.PAHs in air adjacent to two inland water bodies［J］.Environ Sci Technol,1995,29:2405～2413.
+［5］Simck M F,Eisenreich S J,Golden K A,et al.Atmospheric loading of of polycyclic aromatic hydrocarbons to Lake Michigan as recorded in the sediments［J］.Environ Sci Technol,1996,30:3039～3046.
+［6］Su M-C,Christensen E R,Karls J F.Determination of PAH sources in dated sediments from Green Bay,Wisconsin,by a chemical mass balance model［J］.Environ Pollut,1998,98:411～419.
+［7］Chiou C T,Mcgroddy S E,Kile D E.Partition characteristics of polycyclic aromatic hydrocarbons on soils and sediments［J］.Environ Sci Technol,1998，32：264～269.
+［8］Dickhut R M,Gustafson K E.Atmospheric washout of polycyclic aromatic hydrocarbons in the Southern Chesapeake Bay region［J］.Environ Sci Technol,1995,29:1518～1525.
+［9］Poster D L,Kaker J E.Influence of Submicron Particles on Hydrophobic Organic Contaminants in Precipitation.1.Concentrations and Distributions of Polycyclic Aromatic Hydrocarbons and Polychlorinated Biphenyls in Rainwater［J］.Environ Sci Technol,1996,30:341～348.
+［10］Poster D L,Kaker J E.Influence of Submicron Particles on Hydrophobic Organic Contaminants in Precipitation.2.Scavenging of Polycyclic Aromatic Hydrocarbons by Rain［J］.Environ Sci Technol,1996,30:349～354.
+［11］Pirrone N,Keeler G J.Dry deposition of semivolatile organic compounds to Lake Michigan［J］.Environ Sci Technol,1995,29:2123～1232。
+［12］祁士华，傅家谟，盛国英，等.澳门大气气溶胶中多环芳烃研究［J］.环境科学研究，2000，13(4)：6～9.
+［13］Brown G,Maher W.The occurrence,distribution and sources of polycyclic aromatic hydrocarbons in the sediments of the Georges River estuary,Australia［J］.Org Geochem,1992,18(5):657～668.
+收稿日期：2000年1月14日
+出版日期：2001年1月30日

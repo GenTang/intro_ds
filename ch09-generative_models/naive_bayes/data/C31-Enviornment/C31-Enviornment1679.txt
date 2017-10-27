@@ -1,0 +1,95 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷　第5期　Vol.19 No.5 1999
+
+
+
+烷基酚聚氧乙烯醚类物质的环境雌激素效应
+王宏　沈英娃
+摘要：随着环境污染的加剧,环境污染物的雌激素效应成为当前科学研究的一个热点,烷基酚聚氧乙烯醚(APEs)类物质即为具有雌激素效应的环境污染物之一.APEs为一类非离子表面活性剂在工业生产和家庭洗涤中应用广泛,APEs类物质进入环境后可以降解为一些中间代谢物,这些中间代谢物具有环境持久性,很难在环境中进一步降解.研究人员通过3种活体外生物评估法研究发现APEs的中间代谢物具有雌激素活性,可以诱导水体中雄性鱼类等生物的雌性化,同时对哺乳动物和人类健康也具有潜在危害,因此进行更加深入研究,确定APEs类物质对人体的危害,限制APEs的使用已成为当务之急.
+关键词：环境雌激素；烷基酚聚氧乙烯醚(APEs)；烷基酚(APs)；雌激素效应
+中图分类号：X171 文献标识码：A 文章编号：1000- 6923(1999)05- 0427- 05
+Environmental estrogenic effects of alkylphenol ethoxylates.
+WANG Hong, SHEN Ying-wa
+(Chinese Research Academy of Environmental Sciences, Beijing 100012,China). China Environmental Science. 1999,19(5)：427～431
+Abstract：With the environment pollution being serious the environment estrogenic effects of environmental pollutants become an important task of research, alkylphenol ethoxylates (APEs) is one of these environmental pollutant APEs is one of non-ionic surfactants, it is mainly used in industry and family washing, APEs can be degraded to some intermediate products after it came to environment, these intermediate products are environmental permanence ,then the next degradation is more slowly.Researchers find that the intermediate products of APEs have estrogenicity by using three in vitro asssays, they can lead male fish have some female characters, and they also have potential harm to mammalian and human being, so it is an urgent affair to develop more perfect assays of environmental estrogenics, determine the harm of these chemicals to human being and restrict the use of APEs.
+Key words：environment estrogen；alkylphenol ethoxylates；alkyphenolic compounds；estrogenic effect
+　　环境雌激素类化学物质,可以通过干扰内分泌系统影响人及野生生物健康[1,2].最近报道非离子表面活性剂烷基酚聚氧乙烯醚(APEs)的降解产物具有雌激素活性[3],这引起了人们的高度重视,因为APEs大量应用于工、农业生产及日常生活中,环境污染非常广泛.本文对APEs及其相关化合物的雌激素活性及环境影响作了初步论述.
+1 APEs及其相关化合物的雌激素活性
+1.1 APEs类物质雌激素活性
+　　烷基酚聚氧乙烯醚(简称APEs或APnEO,n代表乙氧基的数目,结构式见图1)是一类非离子表面活性剂,APEs的表面活性来自于烷基酚的疏水性及对位取代长链上乙氧基重复单元的亲水性.乙氧基链可以含1～100个乙氧基重复单元,链越长,化合物的水溶性越好.烷基一般带有分支结构,主要为壬基、辛基和十二烷基[3,4].APEs的使用始于本世纪40年代,到了80年代使用迅速增长,目前已是全球商用第二大类非离子表面活性剂.1988年,APEs全球年产量超过360 000t,欧洲每年使用75 000t[5,6].1989年美国年产量达180 000t,1990年英国消耗16 000～19 000t[7].在APEs产品中80%为壬基酚聚氧乙烯醚(NPnEO),剩余的20%主要为辛基酚聚氧乙烯醚类产品[8,9].在工业生产中,APEs的用途主要包括塑料及弹性塑料生产过程,纺织厂洗涤、脱浆、漂白、树脂整理生产工艺,农业用化学品加湿、乳化生产工艺,造纸厂制浆生产过程.在家用市场中,APEs的主要用途是用做洗衣剂及硬表面清洁剂.此外, APEs还在避孕药膏及凝胶中用做杀精子剂[10].
+　　APEs经生物降解可以转化为短乙氧基链烷基酚聚氧乙烯醚、烷基酚(APs)、烷基苯氧基羧酸(APnECs)等中间代谢物,据报道这类化学物质具有雌激素活性.早在1938年,研究人员就曾发现烷基酚类具有雌激素活性,但是直到最近,人们才开始细致地研究这类物质与内分泌干扰的关系[2].1978年Muller等人报道烷基酚类化合物可以阻止雌二醇与雌激素受体结合,并能够将雌激素受体上已结合的激素取代下来,1991年Soto等人又发现从聚苯乙烯塑料试管中游离出来的壬基苯酚可以诱导人的雌激素敏感型乳腺癌细胞MCF-7增生,这些发现都进一步证明烷基酚类具有雌激素活性[11,12].此后,Jobling与Sumpter又利用虹鳟鱼活体外生物评估法证实4-辛基苯酚(OP)、4-壬基苯酚(NP)及4-壬基-苯氧基乙酸(NP1EC)、4-壬基-苯氧基-双氧乙烯醚(NP2EO)均具有雌激素活性[6,13].
+1.2 APEs类物质在环境中的迁移转化
+1.2.1 生物降解 由于APEs的广泛使用,据估计大约有60%的APEs在使用后经污水处理厂或化粪池处理后进入水体环境.在污水处理厂及环境中这类化学物质可以被微生物降解.APEs的初级生物降解是去除亲水的乙氧基部分,这一步较迅速,生成中间代谢物APs、AP1EO +AP2EO、AP1EC+AP2EC.在这些中间产物中,苯环的存在使得进一步生物降解很难进行,因此最终生物降解过程非常缓慢,经最终生物降解,APEs转化为CO2和H2O[3] (图1).
+1.2.2 生物富集 水生植物及动物群可以做为水及底泥中脂溶性异生物质生物富集的贮存库.一些NPnEO的转化产物如NP、NP1EO及NP2EO都具有明显的脂溶性特征,因此它们的水生毒性高于亲代化合物.Mclease等人报道NP在海洋生物贻贝(Mytilus edulis L.)体内的生物浓缩因子BCF值为10,在大西洋鲑鱼(Salmo salar)体内的BCF值为280[14].对此Ekelud等人在海洋生物中进行了一项重新评估,他们报告NP在贻贝体内BCF值为3 400,在九刺鱼体内(Gaste- rosteus aculeatus L.)BCF值为1 300,他们还报道在虾(Crangon crangon L.)体内NP的BCF值为100[14,15].Ahel等人调查了NP及具有脂溶性的NPnEO在淡水生物体内的积累,他们发现在淡水团集刚毛藻(Cladophora glomerata)体内NP、NP1EO及NP2EO的浓度达38、4.7及4.3mg/kg,其中NP的BCF值达10 000;这类物质在淡水鱼体内浓度较低:NP<0.03～1.6mg/kg,NP1EO <0.06～7.0mg/kg,NP2EO<0.03～3.1mg/kg;据估计它们在鱼体中的BCF值分别为NP 13～408、NP1EO 3～300、NP2EO 3～326;研究者还发现所调查淡水环境中野鸭(Anas boscas)体内所有组织和器官中均含有NPnEO的降解物,其中NP、NP1EO及NP2EO在野鸭肌肉中最高浓度值分别为1.2、2.1及0.35mg/kg[5].由此可见,NP、NP1EO及NP2EO在淡水生物体及海水生物体中均表现出相当大的生物富集能力,因此在评估APEs类表面活性剂的环境接纳力时,必须考虑亲脂性代谢物的生物富集作用.
+
+图1 APEs的生物降解
+Fig.1 Biodegradation of APEs
+1.3 与雌激素活性相关的结构特征
+　　一直以来,人们都企图找到与雌激素活性相关的结构特征,但收效甚微.最近,Routledge与Sumpter利用重组酵母系统评估法检测了烷基酚类、烷基酚乙氧基、烷基酚丙氧基化合物的雌激素活性,并找到一些与雌激素活性相关的重要结构特征.首先,他们发现烷基链的长短可以影响烷基酚的雌激素活性,当烷基链上的C原子数为1～8时,雌激素活性随C原子数增加而增强,当C原子数超过8后,雌激素活性则随C原子数增加而开始下降.其次,烷基链的分支程度及烷基在苯环上的取代位置也会影响雌激素活性;一般顺序为三支链烷基>二支链烷基>直链烷基,对位取代>间位取代>邻位取代.此外,在烷基酚的苯环上附加乙氧基,雌激素活性降低,附加丙氧基则彻底失去雌激素活性[10]. 
+1.4 雌激素活性评估方法比较
+　　环境雌激素与雌二醇相比一般活性较弱,目前已发展了多种生物评估法检测环境雌激素的雌激素效应.Soto等人最先采用活体外细胞培养法对APEs衍生物等一系列环境雌激素的活性进行评估,利用人的乳腺癌细胞MCF-7做为培养细胞,通过细胞增殖实验及孕酮受体蛋白合成检测雌激素活性[3,12].Jobling及Sumpter等人采用另一种活体外评估程序对APEs衍生物的雌激素活性进行了评估,将雄性虹鳟鱼(Oncorhynchus mykiss)的肝细胞培养于溶有受试化合物的介质中,利用放射性免疫法检测分泌入介质中的卵黄蛋白原的量来评估雌激素活性[3,6,8].最近,Routledge和Sumpter又发展了一种新的评估方法:利用重组酵母系统对APEs衍生物的雌激素活性进行评估,这种方法的原理是将人的雌激素受体DNA片段整合到酵母基因组中,在该基因组中含有表达质粒,质粒携带有控制报告基因lac-Z(编码b -半乳糖苷酶)表达的雌激素-反应片段,在雌激素存在时,b -半乳糖苷酶被合成并分泌入介质中,通过检测b -半乳糖苷酶的量即可评估不同雌激素的活性[16] (见表1).
+　　由表1中数据可见,环境雌激素活性的大小依赖于检测雌激素活性的评估方法,不同评估方法所得的结果有时并不一致.仅检测一种单一反应来确定雌激素活性,易得出错误结论,当化合物在代谢后雌激素活性增强时,进行活体内评估就非常重要.
+表1 不同环境雌激素活性评估方法比较
+Table 1 Comparation of different assessment of environmental estrogen
+
+评估方法化合物相对效力作 者
+活体外细胞雌二醇1.0Soto A M[3]
+培养法4-叔丁基酚0.000003　
+　NP0.000003　
+虹鳟鱼活体雌二醇1.0Jobling S
+外肝细胞生NP0.0000090Sumpter J P[3]
+物评估法4-叔丁基酚0.00016　
+　4-叔辛基酚0.00037　
+　NP2EO0.0000060　
+　NP9EO0.0000002　
+　NP1EC0.0000063　
+重组酵母系统雌二醇1.0Routledge E J
+生物评估法OP0.00067Sumpter J P[14]
+　NP0.00014　
+　NP1EC0.00004　
+　NP2EC0.00004　
+　NP2EO0.00002　
+
+2 APEs类物质的环境影响
+2.1 水体环境中的浓度
+　　大量的APEs及其降解产物由污水排放入河流及海洋或由污泥流入水体环境,家庭污水中含102mg/L量级的烷基酚类化学物质,一些工业污水,如来自于造纸厂、纺织厂的污水也含有mg/L量级的APs.APs主要来自APEs的降解,由于其具有亲脂性,大部分APs浓缩于污泥中.尽管NP在工业污水中的浓度可达mg/L量级,但在英国所研究的大多数河流中,NP的浓度小于10m g/L,在美国30多条河流的调查发现70%点处NP的浓度小于0.1m g/L[2].由于污水处理中大部分APEs被微生物降解,且NPnEC的水溶性优于NP,所以在水体中NPnEC的浓度高于NP.研究发现,NPnEC(NP1EC～NP4EC)的总浓度在造纸厂、市政污水的排放水中最高达1300m g/L,在河流中最高为13.8m g/L[2].在瑞士Glatt河流域进行的调查表明河流中NPECs含量最丰富(NP1EC<1~45m g/L,NP2EC<2～71m g/L),其次为亲脂性的NPnEO和壬基酚(NP1EO<0.3～69m g/L, NP2EO<0.3～30m g/L,NP<0.3～45m g/L),NPnEO的低聚物也有检出(<1～7.1m g/L),但它们的贡献与其它同类物相比非常小[17].
+2.2 对水生生物的影响
+　　非离子表面活性剂对水生有机体具有较高毒性,APEs对水生有机体的毒性随乙氧基单元减少疏水链长度增加而增加,亲代化合物毒性比降解产物NP、NP1EO、NP2EO弱.例如NP16EO对日本青 (Oryzias latipes)的LC50值为160.0mg/L,而NP9EO及NP的LC50值则分别降为11.2及1.4mg/L[3].此外,APEs的降解产物对水生有机体具有多种雌激素效应.据研究,NP及OP在浓度分别为20.3、4.8m g/L时即可以诱导雄性虹鳟鱼血浆中卵黄蛋白原VTG(一种卵黄前体,一般只存在于性成熟的雌性鱼体内,在雄鱼及幼鱼体内含量极少)浓度显著升高,同样浓度的NP和OP还可以抑制雄性虹鳟鱼精巢的发育[13,18].TPP(对-叔戊基苯酚)可以引起雄性鲤鱼雌性化,在浓度为0.32～1mg/L时,受TPP暴露的雄鱼体内可观察到卵巢存在[2].NP、OP、NP1EC、NP2EO在具有环境相关浓度时即可对幼年雌性虹鳟鱼的生长引起限制作用[9].对大西洋鲑鱼的血浆免疫学分析表明,NP可以以剂量-相关方式诱导幼年鲑鱼肝细胞合成卵黄壳蛋白ZrP(也称为辐射带蛋白,一般仅存在于性成熟的雌性鲑鱼体内)[19].此外,NP还可以引起大西洋鲑鱼肝细胞中细胞色素依赖性类固醇同功酶的变化,NP浓度低时可以增强酶活,而NP浓度较高时酶活呈剂量-相关性下降[20].
+　　对枝角类大型 (Daphnia magna)的研究发现NP对大型 的急性24h及48hEC50值分别为0.30及0.19mg/L.用NP处理大型 不会对亲代存活力产生影响,但导致生育力减低,并且产生的后代发育异常,幼体在胚胎阶段身体前端长出卷曲尾刺,第二触角末端拖毛变短.此外,研究发现用25、100m g/L的NP处理大型后,可以干扰大型蚤的睾酮代谢途径,导致睾酮去除代谢下降,促进雄性性状化合物在生物体内积累量增加[21-23].
+2.3 对哺乳动物的影响
+　　APEs对哺乳动物的急性毒性非常低,例如, APEs对白鼠LD50仅值为2～4g/kg.同时,刺激数据还表明,APEs对皮肤影响较弱(500mg),对眼睛刺激较为严重(5～100mg)[3].据报道OP、NP、NP1EC、及NP2EO可诱导人的乳腺癌细胞MCF-7及ZR-75增生,其中OP雌性效应最强在10-6M时即可产生影响.研究发现受到OP暴露的怀孕小鼠其雄性后代睾丸重量变小,精子数量减少[24].
+2.4 人体暴露
+　　APEs类物质对人体的影响不十分清楚,人类可通过多种途径潜在暴露于APEs及其降解物中.Linda等人曾利用PB/LC/MS法检测到饮用水中存在多种微量APEs衍生物[25].另外,污泥用做肥料,水生生物做为食物,直接使用APEs作为杀精剂以及最近发现的APEs用于生产食品包装袋、护发用品(香波、染色剂、定型剂)、芳香剂中,都将成为人类不可避免的暴露途径.
+3 小结
+　　在过去的50年中,为了提高农业生产力和发展现代工业,使大量多样的合成化学物质进入环境,研究发现许多环境污染物具有雌激素活性,但迄今为止,还没有标准方法确定雌激素活性,大多数所采用的分析方法为活体外或活体内生物评估法.但这些检测方法还不够完善,尚存在各种缺陷,无法充分评估环境污染物的雌激素活性及生态风险,因此,环境污染不断加剧,发展快速高效的环境雌激素筛选方法则成为当务之急.
+　　关于APEs降解产物环境雌激素效应的科学研究,已使一些欧洲国家开始考虑对APEs类表面活性剂的使用加以限制.但是,由于目前所获得关于APEs的数据还较少,加之这类化合物对人体潜在危害可能受到多种因素影响如暴露的水平及路线;新陈代谢;药物动力学;化合物效力,血清浓度;与相应血清蛋白的结合;生物浓缩;与其它内分泌反应路径的相互作用及干扰等,目前还无法确定这类化合物对人体的潜在危害.尚需大量全面的科学研究来证明这类化学物质对水体环境的雌激素污染及对人类的危害.从而更好地引起人们的高度重视,加强环境管理,限制APEs类表面活性剂的使用,防患于未然.
+作者简介：王 宏(1973-),女,河北遵化人,现为中国环境科学院在读研究生,主要从事生态毒理方面的研究工作.发表论文1篇.
+作者单位：中国环境科学研究院,北京100012
+参考文献：
+　[1]Safe S H,Gaido K. Phytoestrogens and anthropogenic estrogenic compounds [J]. Environ. Toxicol.Chem.,1998,17(1): 119 - 126.
+　[2]Tyler C R,Jobling S,Sumpter J P. Endocrine disruption in wild life :a critical review of the evidence [J]. Crit. Rew. Toxicol., 1998,28(4):319- 362.
+　[3]Nimrod A C,Benson W H.Environmental estrogenic effects of alkylphenol ethoxylates [J].Crit.Rew.Toxicol.,1996,2(3):335 - 364.
+　[4]Donald J Versteeg,David T Stanton, Michael A Pence, et al. Effects of surfactants on the rotifer,BRACHIONUS CALYCIFLORUS in a chronic test and in the development of QSARs [J]. Environ. Toxicol. Chem., 1997,16(5):1051- 1058.
+　[5]Ahel M,Mcevoy J,Giger W. Bioaccumulation of the lipophilic metabolites of nonionic surfactants in freshwater organisms [J]. Environ. Pollution, 1993,79:243- 248.
+　[6]Jobling S,Sumpter J P.Detergent components in sewage effluents are weakly oestrogenic to fish:an in vitro study using rainbow trout hepatocytes [J].Aqu.Toxicol.,1993,27:361- 372.
+　[7]Blackburn M A,Wldock M J. Concentrations of alkylphenols in rivers and estuaries in England and Wales [J]. Wat. Res., 1995, 29(7): 1623 –1629.
+　[8]Jobling S,Hoare S A,Sumpter J P,et al. Environmental persistent alkylphenolic compounds are estrogenic [J]. Endocrinology, 1994 ,135(1):175- 182.
+　[9]Ashfield L A,Pottinger T G,Sumpter J P. Exposure of female juvenile rainbow trout to alkylphenolic compounds results in modification to growth and ovosomatic index [J]. Environ. Toxicol. Chem., 1998,17(3):679- 686.
+　[10]Edwin J Routledge,Sumpter J P. Structural features of alkylphenolic chemicals associated with estrogenic activity [J]. J. Biol. Chem., 1997,272(6):3280- 3288.
+　[11]Mueller G C,Kim U. Displacement of estradiol from estrogen receptors by simple alkylphenols [J].Endocri.,1978,102(5): 1429- 1435.
+　[12]Ana M Soto,Honorato Justicia, Jonathan W Wray, et al. p-Nonyl-Phenol: an estrogenic xenobiotic released from“Modified”polystyrene [J]. Environ.Health.Perspect, 1991,92:167- 173.
+　[13]Jobling S,Sheahan D,Osborne J A, et al. Inhibition of testicular growth in rainbow trout exposed to estrogenic alkylphenolic chemicals [J]. Environ.Toxicol.Chem.,1996,15(2):194- 202.
+　[14]Mcleese D W,Zitko V,Sergent D B. Lethality and accumulation of alkylphenols in aquatic fauna [J]. Chemosphere, 1981, 10(7):723- 730.
+　[15]Ekelund R,? .Bergman,? .Granmo,et al. Bioaccumulation of 4-Nonylphenol in marine animals a re-evaluation [J]. Environ. Pollution, 1990,64:107- 120.
+　[16]Routledge E J,Sumpter J P.Estrogenic activity of surfactants and some of their degradation products assessed using a recombinant yeast screen [J]. Environ. Toxicol. Chem., 1996, 15(3):241- 248.
+　[17]Ahel M,Giger W,Schaffner C. Behaviour of alkylphenol polyethoxylate surfactants in the aquatic environment-II. Occurrence and transformation in rivers [J]. Wat. Res., 1994, 28(5):1143- 1152.
+　[18]Harries J E,Sheahan D A,Jobling S.Estrogenic activity in five United Kingdom rivers detected by measurement of vitellogenesis in caged male trout [J]. Environ. Health.Toxicol. Chem., 1997,16(3):534- 542.
+　[19]Arukwe A,Knudsen F R,Anders Goksoyr.Fish zona radiata (eggshell) protein: a sensitivity biomarker for environmental estrogens [J]. Environ. Health. Perspect, 1997,105(4):418- 422.
+　[20]Arukwe A,F? rlin L,Goksoyr A. Xenobiotic and steroid biotrasformation enzymes in Atlantic salmon liver treated with an estrogenic compound,4-Nonylphenol [J]. Environ. Toxicol. Chem.,1997,16(12):2576- 2583.
+　[21]Comber M H I,Williams T D,Stewart K M.The effect of nony- lphenol on daphnia magna [J]. Wat. Res., 1993,27(2):273- 276.
+　[22]Shurin J B,Dodson S I. Sublethal toxic effects of cyanobacteria and nonylphenol on environmental sex determination and develop-ment in daphnia [J]. Environ. Toxicol. Chem., 1997, 16(6):1269- 1276.
+　[23]Baldwin W S,Stephen E Graham, Damian Shea,et al. Metabolic androgenization of female daphnia magna by the xenoestrogen 4-nonylphenol [J].Environ.Toxicol.Chem., 1997, 16(9):1905- 1911.
+　[24]Richard M Sharpe,Jane S Fisher, Mike M Millar, et al. Gestational and lactational exposure of rats to xenoestrogens results in reduced testicular size and sperm production [J]. Environ. Health Perspect, 1995,103(12):1136- 1142.
+　[25]Linda B Clark,Rosen R T,Hartman T G, et al. Determination of alkylphenol ethoxylates and their acetic acid derivatives in drinking water by particle beam liquid chromatography/mass spectrometry[J].Intern.J.Environ.Annual.Chem., 1992,47:167- 180.
+收稿日期：1999-03-08

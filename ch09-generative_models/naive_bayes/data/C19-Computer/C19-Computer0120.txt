@@ -1,0 +1,41 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第9期 Vol.19 No.9 1999
+
+
+
+主页动态按钮的制作
+邓世刚　左晓晖
+　　摘　要　本文介绍了主页动态按钮的制作。阐明了使用javaScript脚本语言实现动态按钮原理及方法。利用同样原理可以制作出IE风格的浮动按钮。
+　　关键词　HomePage, Java, IE控件
+　　随着Internet在国内的普及，越来越多的人开始上网，很多网迷朋友尝试着制作自己的主页，展现自我风采，广交四海朋友，更大程度上把自己融入这个瞬息万变的信息社会，“我想有个家”再一次成为时髦的语言。目前，Homepage的制作基本有两个途径：一是依靠像FrontPage、HotDog这样的编辑器自动生成；二是像真正的编程一样手工编写。对于手工编写主页的朋友来讲，追求的是一种对于细节的完全控制的感觉，而采用FrontPage等工具，则是满足于各种效果的信手拈来。从技术上看，主页制作主要依靠四种技术：HTML、Java Applet、JavaScript和VBScript，其中HTML是核心，但是，仅仅用HTML是无法写出尽善尽美的Homepage的，所以在现在的Internet上，后三种技术争奇斗艳。主页制作中一个很常用的技术是动态按钮，最典型的例子就是IE中著名的浮动按钮，当鼠标移动到某个按钮上时，按钮会发生形态上的变化。经常在网上逛的朋友会发现很多主页带有动态按钮，利用FrontPage可以很容易地做出这种效果，但是FrontPage的动态效果是采用Java Applet实现的，众所周知，Java的致命缺点是它的启动速度，尤其对于国内相对缓慢的线路来讲，等待几十秒甚至几分钟，会使最美丽的主页也变得黯然失色。
+　　那么，不用Java是否也能实现动态按钮呢？答案是肯定的，这就是利用JavaScript。JavaScript是Netscape和Sun共同推出的一种脚本语言，用于扩展HTML的功能，在NC和IE中，JavaScript是内嵌实现，所以无须像Java那样的启动过程。利用JavaScript可以完成很多HTML无法实现的功能，从而在大多数场合取代Java和CGI。关于JavaScript更多的知识，可以参考“中文搜狐——网猴教程”（http://www.sohoo.com.cn）。下面介绍用JavaScript实现动态按钮的方法。
+　　JavaScript作为一种脚本语言，和Delphi、VB等可视化语言相似，也有“属性”和“方法”等概念，例如，在Web页面上的一幅图像(img)，有着许多的属性和方法。动态按钮的实现，利用了JavaScript中的两个“事件”——MouseOver和MouseOut，当鼠标指针移入或移出某个对象时产生，产生该事件的对象包括Area、 Layer和Link，当对象捕捉到这两个事件时，由浏览器调用响应对象的事件处理程序，事件的捕捉采用onMouseOver和onMouseOut。熟悉Delphi和VB的朋友很容易理解这种事件驱动的原理。了解了这两个鼠标事件，就可以用“锚(a href)”和“图像(img)”构造出动感十足的按钮来：
+　　<HTML>
+　　<HEAD>
+　　<TITLE>动态按钮演示</TITLE>
+　　</HEAD>
+　　<BODY>
+　　<script language="JavaScript">
+　　function mover()
+　　{ 
+　　　window.document.bb.src="bt2.gif"
+　　}
+　　function mout()
+　　{ 
+　　　window.document.bb.src="bt1.gif"
+　　}
+　　</script>
+　　<CENTER><H1>动态按钮演示</H1></CENTER>
+　　<a href="bt1.gif" onmouseover=
+　　"mover()" onmouseout="mout()">
+　　<img name="bb" src="bt1.gif">
+　　</a>
+　　</BODY>
+　　</HTML>
+　　这样，一个漂亮的动态按钮就做好了，你可以修改按钮对应的图像锚的链接，使之指向需要的内容。
+　　在这个例子中，img 标识多了一个name属性，这是实现的关键，因为动态按钮从原理来看，是根据鼠标事件动态改变按钮图像（即src），所以要根据对象名进行引用，在Netscape和IE4以上版本的浏览器中，都支持img的name属性。
+　　利用同样原理，你也可以制作出IE风格的浮动按钮来，如果在页面中有很多动态按钮，还可以用JavaScript中的数组来管理图像。
+作者简介：邓世刚　讲师。主要从事软件开发、数据库技术的研究。
+作者单位：徐州师范大学计算机科学系　江苏.徐州（221009）
+收稿日期:1999-03-18

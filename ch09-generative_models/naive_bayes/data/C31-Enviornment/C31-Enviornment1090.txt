@@ -1,0 +1,203 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+1999年 第 12卷 第3期 vol.12 No.3 1999
+
+
+
+生物强化技术及其在废水治理中的应用
+全向春　刘佐才　范广裕　韩力平
+摘　要　介绍了生物强化技术在废水治理中的应用现状，评价了生物强化作用的效果，并对生物强化机理、生物强化剂的优化选择、反应动力学、系统的优化设计等方面进行了讨论。生物强化技术是一种生物治理废水的高效技术，在废水治理中具有广阔的应用前景。
+关键词　生物强化　生物强化剂　微生物　生物降解
+Bioaugmentation and Its Application in Wastewater Treatment
+QUAN Xiangchun1)　LIU Zuocai1)　FAN Guangyu1)　HAN Liping2)
+( 1)Chemical Engineering and Material Science School,Beijing Institute of Technology,Beijing 100081;
+2)Environmental Engineering Department,Tsinghua University,Beijing 100084)
+Abstract　The application of bioaugmentation in wastewater treatment is briefed and its effects evaluated.The mechanism of bioaugmentation,selection of bioaugmentation agents,dynamics of reaction and the optimum design of a bioaugmentation system are also discussed.Bioaugmentation is a highly efficient biotechnology and has a bright future in wastewater treatment.
+Keywords　Bioaugmentation; Bioaugmentation agent; Microorganism; Biodegradation
+　　生物强化技术，即生物增强技术(Bioaugmentation)，它产生于本世纪70年代中期［1］，80年代以来得以广泛的研究和应用。产生初期是因为一些废水治理厂的突发事故，如菌体大量死亡、有毒有害物质泄露等致使废水达不到排放标准，于是直接投加高效菌种以改善出水水质，使系统恢复正常。一般的生物治理技术对于浓度较高、易于生物降解的废水去除效率高，但当废水中含有暂时性的有毒物质，它们会对菌起到毒害作用，用一般生物方法治理，降解速率较慢，菌需要一段较长的时间来适应，而生物增强技术恰好弥补了这一不足，投加优势菌种可迅速有效降解目标去除物。于是国内外研究人员开始研究把这项技术用于工业废水、地表水及地下水中难降解的有毒有害物质的治理或用于改善提高废水处理效果。生物强化技术与一般生物治理技术相结合，在废水治理中已显示其独特的作用。
+1　生物强化技术的作用机理
+　　生物强化技术，就是为了提高废水处理系统的处理能力，而向该系统中投加从自然界中筛选的优势菌种或通过基因组合技术产生的高效菌种，以去除某一种或某一类有害物质的方法。它是通过向自然菌群中投加具有特殊作用的微生物来增强生物量，以强化生物量对某一特定环境或特殊污染物的反应。投入的菌种与底质之间的作用主要有：
+1.1　直接作用
+　　就是通过驯化、筛选、诱变、基因重组等技术得到1株以目标降解物质为主要碳源和能源的微生物，向处理系统中投入一定量的该菌种，就会达到对目标去除物去除效果的增强作用。如表1所示的微生物都能够直接降解某些特定的有害物质。
+
+表1　一些降解有机物的高效菌种　　　　　　g
+
+化合物名称高效菌种名称引用文
+献序号
+五氯酚(PCP)
+　
+　Mycobacterium chlorophenolicus 
+comb.nov.
+Flavobacterium sp.13
+　
+4
+3－氯苯甲酸酯(3－CB)Pseudomonas putida36
+三氯乙烯(TCE)
+　Pseudomonas burkholderia cepacia G4
+Escherichia coli4
+7
+苯酚Pseudomonas putida ATCC 11172
+Acromobacter sp.E1
+Alcaligenes sp.E215
+27
+27
+BTEX化合物
+(苯、甲苯、乙苯、二甲苯)Phanerochaete chrysosporium
+Pseudomonas putida10
+20
+多环芳香族碳氢化合物
+(萘、蒽、芴、菲等)
+　White－rot fungi
+Aspergillus ochraceus
+Cunninghamella elegans29
+32
+32
+氮杂环化合物(吡啶、吲
+哚、喹啉等)
+　Pseudomonas sp.
+Rhodococcus sp.
+Desulfobacterium indolicum8
+8
+16
+
+
+1.2　共代谢作用
+　　就是对于一些有毒有害物质，微生物不能以其为碳源和能源生长，但在其他基质存在下能够改变这种有害物的化学结构使其降解。如在甲烷、芳香烃、氨、异戊二烯和丙烯为主要基质生长的一些菌可以产生一种氧合酶，这种酶可以共代谢三氯乙烯(TCE)，但共代谢机制成功地用在生物增强系统中的例子并不多见［4］。
+2　生物强化剂的优化选择与批量获得
+　　应用生物强化技术的前提是获得高效作用于目标降解物的菌种。对于那些自然界中固有的化合物，一般都能够找到相应的降解菌种，如表1所示。但对于人类工业生产中合成的一些外生化合物(Xenbiotics)，它们的结构不易被自然界中固有微生物的降解酶系识别，需要用目标降解物来驯化、诱导产生相应降解酶系，筛选得到高效菌种，这种方法一般需要1个月甚至几个月的时间。
+　　基因工程的发展为人类快速获取一些高效菌种提供了新方法［5，6］。生物学家发现微生物对污染物的降解性与其所带的质粒有关。利用降解性质粒的相容性，把能够降解不同有害物的质粒组合到1个菌种中，组建1个多质粒的新菌种，这样能使1种微生物降解多种污染物或完成降解过程的多个环节，或使不带降解性的菌带上质粒从而获得降解性。另外可采用质粒分子育种，即在选择压力的条件下，在恒化器内混合培养，使微生物发生质粒相互作用和传递，缩短了自然进化所需的时间，以达到加速培养新菌种的目的。降解性质粒DNA体外重组，是在体外对生物大分子DNA进行剪切加工，将不同亲本的DNA重新连结，转移到受体细胞中，通过复制表达，使细胞获得新的遗传性状。原生质体融合技术，同样会使细胞获得多个不同亲本的性状。
+　　Digiovanni等［5］发现菌Alcaligenes eutrophus JMP134含有质粒pJP4，这种质粒上的基因会使2，4－二氯苯氧基乙酸(2，4－D)降解，而且使该菌具有抗汞性能。把这株菌转入土壤中并向土壤中投加2，4－D，结果土壤中产生许多转移接合子，这些转移接合子不仅具有同样大小的pJP4质粒，而且具备降解2，4－D的性能和抗汞性。
+　　Burkholderia cepacia G4，在芳香族化合物存在下能够共代谢三氯乙烯(TCE)，但降解中间产物会对该菌起毒害抑制作用。通过Tn5插入产生Burkholderia cepacia G45223－PR1，它能够从结构上表达降解TCE的邻甲苯单氧合酶，因此在没有诱导物(如芳香族化合物)的情况下也可降解TCE［6］。
+　　厂商生产生物增强剂主要包括驯化、筛选和突变几个步骤，方法如图1所示：
+
+图1 生物强化剂的生产方法
+　　多数商家生产的生物增强剂由多达二十几种的自养、异养和兼性菌组成，欲达到的目标不同，生物增强剂中菌的种类就有所不同。
+　　若要维持一个生物增强系统持续稳定运行，就要得到大量的高效菌种。方法之一是向厂家直购，方便易得，但价格比较昂贵。另一种是自我培育，通过驯化培养得到高效菌株后，扩大培养。一般方法是在生物增强系统外设置一富集池(Enricher－reactor)，富集池中的物质一般包括要降解的有害物质、降解的中间产物、引发剂和营养物质。接入高效菌种后，在其中驯化、培养、繁殖。这种富集池一方面可以模拟实际废水为微生物繁殖提供最优化条件，另一方面缩短了微生物在实际反应器中的适应期。因时因地的操作，经济有效。
+3　生物强化反应动力学的研究
+　　近些年来，国内外研究人员已不满足于从宏观上研究生物增强的作用，而是开始探讨生物强化反应动力学，构建数学模型，以便更好地指导实际系统设计与运作。
+　　Quasim等［11］在实验室应用连续活性污泥反应床研究生物强化技术降解城市废水中的BOD的动力学参数。结果表明，生物增强作用对污泥生长系数Y和衰减系数Kd有影响，而对于底质利用参数K和Ks没有影响。
+　　污泥泥龄是废水生物治理设计中的一项重要指标。传统的活性污泥法的污泥泥龄一般由Lawrence－Mc Carty数学模式计算得出，但该模式假设的前提是系统中菌的浓度处于稳态。对于不断投菌的生物增强系统，Rittmann等［12］进行了恒化器内基质、活性菌体、惰性菌体的数学模拟。结论认为：实际污泥的污泥泥龄(以净增长速率来衡量)要比通过传统方法计算得到的污泥泥龄长。并利用该模式成功地设计了一个有污泥回流的活性污泥生物增强系统。
+4　生物增强系统中微生物存活及活性检测技术的发展
+　　投入的微生物在生物增强系统中的状况对废水处理效果的影响极大。由于缺乏这方面的信息，以往的多数研究仅用降解效果和动力学参数来评价生物增强作用，很难深入到投入的菌本身数量变化，活性高低等对其影响。近年来，分子生物技术的发展突飞猛进，能够探测表征降解性基因的DNA探针及聚合酶链反应(PCR)，逆转录(RT/PCR)技术及免疫荧光显微镜检测技术等，为研究生物增强提供了有力的工具。应用这些技术得出的数据不仅强有力地支持了生物增强技术的理论基础，且可用来确定系统的最优条件，设定投菌日程及投菌量，还可了解混合菌种中生物增强菌本身对系统改善的贡献。
+　　Selvaratnam［15］采用PCR和RT/PCR技术，准确评价了Pseudomonas putida ATCC11172菌在已有微生物系统中对脱酚效果的影响，并观察了该菌的降解性基因在系统中表达的情况。Jacobsen［13］利用免疫荧光显微镜检测技术对系统中生物增强菌定量，评价了这些菌对PCP降解速率提高的贡献。
+5　生物增强作用的效果及评价
+　　向废水生物处理系统中投加优势菌对效果的影响众说不一。尽管有些生物增强剂没有达到改善系统的目的，但许多生物增强技术的应用已显示出优越性，如表2所示，主要体现在：
+表2　生物增强技术在废水治理中的应用实例
+
+废水类型操作系统规模结果引用文献序号
+轴承厂废水滴滤池全规模提高严寒天气中BOD去除率2
+
+　牛奶废水延时曝气
+曝气塘
+氧化沟全规模
+　
+　提高COD去除率
+防止污泥膨胀
+　17
+17
+17
+城市废水氧化塘全规模降低污泥床层24
+洗衣及厨房废水滴滤池全规模显著降低COD、BOD、洗涤剂、油脂，减少发臭产生20
+化工厂含氨废水普通活性污泥法全规模脱氨率大幅度提高21
+马铃薯废水A.S.连续式
+A.S.间歇式实验室
+　提高COD去除率
+提高TOC去除率，减少污泥产生9
+18
+菠萝加工废水A.S.间歇式实验室提高TOC去除率14
+苯酚废水SBR稳态
+SBR非稳态
+SBR
+　
+A.S.间歇式实验室
+　
+　
+　
+　加快系统启动
+改善系统运行
+提高苯酚去除率及系统稳定性
+缩短启动时间3
+3
+15
+
+27
+3－氯苯甲酸酯废水(3－CB)SBR
+SBR实验室
+　加快系统启动
+提高降解速率36
+25
+含磷废水SBR实验室加快系统启动，提高污泥抗负荷冲击能力26
+1－氨基萘(1－NA)废水FBR实验室降解效果提高34
+五氯酚(PCP)废水A.S.间歇式
+UASB实验室
+　加快系统启动
+提高降解效果13
+35
+对氯酚(4－CP)废水恒化器实验室提高降解效果19
+BTX(苯、甲苯、二甲苯)废水升流式附着床实验室显著提高BTX的去除率20
+
+
+5.1　提高对目标去除物的去除效果
+　　生物增强作用比一般的废水生物治理方法更能提高对BOD，COD，TOC或某种特定污染物的去除效果［3，9，13，14，17，19～21］。
+　　Chambers［17］用生物增强技术处理牛奶废水，分别采用延时曝气、曝气塘和氧化沟3种不同系统，都提高了BOD，COD的去除率。Hung等［18］用该方法处理马铃薯废水，可使TOC去除率达到98%。
+　　Kennedy［19］研究发现，用生物增强技术可使对氯酚的去除率在9 h内达到96%，而非生物增强系统的去除率在58 h后才达到57%。
+　　Chin［20］在附着生长生物床加入降解BTX(苯、甲苯、二甲苯)的混合优势菌，在HRT为1.9 h时，生物增强系统可去除10 mg/L BTX，而对照系统仅为3.2 mg/L。
+　　某化工厂含氨废水采用一般的活性污泥法处理，出水含NH+4-N 120 mg/L采用2步增强，第1步向其中投加降解硝基苯和对硝基苯的菌，第2步投加氨根离子氧化菌，两步增强后出水NH+4含量低于2 mg/L［21］。
+5.2　改善污泥性能，减少污泥产生
+　　生物增强作用不仅可以有效消除污泥膨胀，增强污泥沉降性能，而且大大减少了污泥的产生，一般可使污泥容积降低17%～30%。这样不仅改善了出水水质，而且减少了排放和消化剩余污泥消耗的能源［17，22～24］。
+　　Chamber［17］研究生物增强技术在延时曝气、曝气塘和氧化沟3种不同系统中的应用。在延时曝气系统中，接种生物增强剂3周后就成功地消除了污泥膨胀，而在氧化沟中4周后污泥膨胀消除。
+　　实验室规模研究中，Hung等［22］发现生物增强技术使有机物去除率比普通活性污泥法提高20%，污泥的产量降低34%；对于低浓度的城市废水，长期实验结果表明，生物增强可降低污泥产生，在进水TOC为40 mg/L,COD为150 mg/L，生物增强系统产生的污泥要比对照系统低100 mg/L［23］。而在全规模实际废水处理中，Hung发现生物增强作用使污泥床层由2.3～2.7 m降到0.7～1 m，既节省了能源又控制了臭气的发生［24］。
+5.3　加快系统启动，增强耐负荷冲击能力和系统稳定性
+　　投加一定量的优势菌种，增大系统中有效菌种的比率，就会大大缩短系统启动的时间，快速达到较高去除效果，并增强耐负荷冲击的能力及系统的稳定性［26～28］。
+　　Belia和Smith［26］发现，向传统活性污泥中加入10%的降解磷的纯菌，那么整个系统成为高效脱磷系统(脱磷率达90%以上)只需14 d，而只用活性污泥驯化达到此脱磷率需要58 d。Watanabe等［27］把3种菌接种到3个活性污泥单元体系来降解酚，发现普通活性污泥法需要10 d才能将酚完全降解，而接种E1，E2菌种的增强系统分别只在2，3 d内将其完全降解。
+　　Edgehill等［28］ 用降解五氯酚(PCP)的纯菌来增强活性污泥系统，当加入10%(相对于固有菌量)的纯菌，就会使PCP废水驯化期大大缩短。当PCP负荷由40 mg/L升高到120 mg/L时，出水则达到60 mg/L，单纯的活性污泥系统恢复正常需48 h，但加入5%或7%的纯菌(相对于固有菌量)，系统在18 h内就使PCP出水达到15 mg/L，表现出良好的抗负荷冲击的能力。
+　　并非所有生物增强系统都能够达到预期的目标。实践证明，有些效果微乎其微，甚至是完全失败的［30，31，33］。Lange等［30］认为，多数生物增强剂只有通过一定时间驯化才能达到去除效果，而固有菌通过一定时间驯化后也能达到相同目的。因此生物增强作用的效果是不明确的。Martin等［31］在实验室中按照生产厂家的说明测定2种生物增强剂的效果，3个月后，生物增强剂仍未能抑制丝状菌膨胀。Koe［33］用生物增强研究厌氧消化，生物增强系统和对照系统效果没有明显不同。
+　　基于以上诸多失败的例子，一些人对生物增强作用产生怀疑，更多的人开始探索其失败的原因，认为失败的原因主要有：①废水成分复杂，用生物增强技术本身难以达到治理目的和要求；②废水中微生物可利用其生长的底质的浓度太低，不足以维持其生长；③投入的菌不如系统中固有菌的竞争能力强，不能强有力地摄取有限的营养物质；④系统中原生动物等捕食性动物将优势菌捕食；⑤优势菌优先利用其他易于利用的底质，对目标降解物作用缓慢；⑥废水中存在抑制性基质，抑制菌的生长和代谢；⑦投入菌的量不足以使其在菌群中占优势，或由于控制不当菌体流失；⑧不利的环境因素如废水的pH，温度，DO的影响。
+6　生物强化系统的优化设计
+　　生物增强技术的成功应用要综合考虑水质、水量、投菌量、营养物质、氧耗、反应器的构型、水力停留时间等诸多因素。
+　　投菌量是强化系统设计的重要参数。随着投菌量的增加，一般增强效果会提高［9，18，20，25，26］。如Rogerw采用该技术处理1－氨基萘(1－NA)废水，当增强剂投入量分别为1%，2%，5%，10%及50%时(降解1－NA菌的MLVSS/固有菌的MLVSS)，降解速率的提高分别为0%，33%，100%，100%，100%和300%。但菌量投入过大，成本就会升高。投菌量的确定要视水中目标物的含量而定，一般在启动时，采用重投菌，投菌量较大，系统稳定后，投菌量可为启动时的1/10～1/8。
+　　投加方式也是设计时考虑的一个重要方面。直接投加，简便易行，但菌体易于流失或被其他微生物吞噬；采用固定化技术，如用高聚物将其包埋，或是固定在载体上，这种方法增强了菌体的竞争性，抗毒物毒性能力，有力地避免了原生动物的捕食。
+　　另外，不同的反应器投加生物增强剂效果不尽相同。最初人们把这种技术较多用于悬浮污泥法，如间歇式活性污泥法，曝气塘、氧化沟等［9，17，18，21］，而现在人们尝试将其用于生物膜法，如生物流化床、填充床和升流式厌氧污泥床等［20，34，35］，使生物增强菌附着在载体上，如砂砾、颗粒污泥上，减少了菌体的流失。生物增强技术用在不同反应器的强化效果有待于人们进一步研究和探索。
+7　结语
+　　生物增强技术在现代废水治理中的应用日益引起人们的兴趣与关注。该方法可有效提高有毒有害物的去除效果，改善污泥性能，加快系统启动，增强系统稳定性、耐负荷冲击能力等，操作简便，易于管理。不扩充现有的水处理设施，如何提高其水处理范围和能力，生物增强无疑为人们开拓了一条新思路。分子生物技术的发展为研究生物增强提供了新方法、新手段，有力地支持了该技术的发展。生物增强技术与传统的生物治理技术相结合，已成为生物治理废水发展的一种趋势。
+作者简介：女，1973年生，在读硕士研究生
+作者单位：全向春　刘佐才　范广裕　北京理工大学化工与材料学院，北京　100081
+　　　　　韩力平　清华大学环境工程系，北京　100084
+8　参考文献
+1　Young C Y.The use of enzymes and biocatalytic additives for wastewater treatment process.Water Pollut Control Fed Highlights,1976,13:5.
+2 Bitondo M.Cold water treatment.Ind Waste,1980,Jan/Feb,26:29.
+3 Gaiek R L.The effects of bioaugmentation under steady and non－steady state influent conditions.Proc.A.S.C.E.4th Environmental Special Conference,1988.130
+4　Steirt J G,Grauford R L.Catabolism of pentachlorphenol by a Flacobacterium sp.Biochembiophys Biochembiology Res Commun,1986,141:825.
+5 Digiovanni G D,Neilson J W,Pepper I L.Gene－Transfer of alcaligenes－eutrophus jmp134 plasmid pJP4 to indigenous soil recipients.Appl Environ Microbiol,1996,62(7):2521.
+6 Winkler J,Timmis K N.Tracking the response of burkholderia－cepacia G4－5223 Pr1 in aquifer microcosms.Appl Environ Microbiol,1995,61(2):448.
+7 Yadav J S,Reddy C A.Degradation of benzene,toluene,ethylbenzene and xylene (BTEX) by the lignindegrading basidiomycete phanerochaete chrysosporium.Appl Environ Microbiol,1993(59):756.
+8 Schwarza G,Senghas E.Microbvial metabolism of quinoline and related compounds I.Isolation and characterization of quinoline－degrading bacteria,System.Appl Microbiol,1988,10:185.
+9 Yah Y L,Hung Y T.Bioaugmented activated sludge treatment of potato wastewater,Acta.Hydrochim Hydrobiol,1988,16:223.
+10 Yadav J S,Reddy C A.Degradation of benzene,toluene,ethylbenzene and xylene (BTEX) by the lignindegrading basidiomycete phanerochaete chrysosporium.Appl Environ Microbiol,1993(59):756.
+11 Quasim S R,Stinehelfer M L.Effect of a baqcterial culture product on biological kinetics.J Water Pollut Control Fed,1982,54:255.
+12　Bruce E,Rittmann.How input active biomass affects sludge age and process stability.Environ Eng,1996(1):4～8.
+13 Bo Neergaard Jacobsen,Erik Arvin.biodegradation kinetics and fate modeling of pentachlorophenol in bioaugmented activeated sludge reactors.Wat Res,1996,30(5):1184.
+14 Abllah N F N,Lee A H.A batch activated sludge study of pineapple wastewater using a bioaugmentation process,Water Sci Technol,1991,24:223.
+15 Selvaratnam S,Schoedel B A.Application of the polymerase chain reaction (PCR) and reverse transcriptase/PCR for determining the fate of phenol－degrading pseudomonas putida ATCC 11172 in a bioaugmented sequencing batch reactor.Appl Microbiol Biotechnol,1997,47:236.
+16 Johanson S S,Licht D,Arvin E,et al.Metabolic pathways of quinoline indole and their methylated analogs by Desulfobacterium indolicum (DSM3383).Appl Microbiol Biotechnol,1997,47:292.
+17 Chamber J V.Improving waste removal performance reliability of a wastewater treatment system through bioaugmentation .Waste Conf.Purdue University.Proc.36th Ind.West Lafayette:Waste Conf.Purlue University,1981.631.
+18 Hung Y T,Lo H H,Javaid A M,et al.Effet of bioaugmentation on activated sludge treatment of potato wastewater.Inten J Environmental Studies,1994,45:89.
+19 Kennedy M S,Grammas J,Arbackle WB,et al.Parachlorophenol degradation uses bioaugmentation research.J Water Pollut Control Fed,1990,62:227.
+20 Chin K K,Ong S L,Poh L H,et al.Wastewater treatment with bacterial augmentation.Wat Sci Tech,1996,33(8):23.
+21 Rittmann B E,Whiteman R.Bioaugmentation:A coming of age.Water Quality International,1994,1:12.
+22 Hung Y T,Zachopoulus S A,Horsfall F L.Effect of bioaugmentation process on sludge production in activated sludge reactors for municipal wastewater treatment.Western Canada Water and Wastewater Assoc.Proc,39th Ann,Conf.Saskatoon:Saskatchewan,1987.63～74.
+23　Hung Y T,Shah D B,Horsfall F L.Effect of bioaugmentation on the performance of activated sludge reactors.Process Biochemistry,1987,(7):68～73.
+24 Hung Y T,Horsfall F L,Wong J M,et al.Bio－conversion of accumulated sludge with bacterial augentation process in aerated lagoons for municipal wastewater treatment.Intern J Environmental Studies,1986,28:41.
+25 Ying W C,Bonk R R,Sojka S A,et al.Biological treatment of a landfill in sequencing batch reactors.Environ Progress,1986,5:41.
+26 Belia E,Smith P G.The bioaugmentation of sequencing batch reactor sludges for biological phosphorus removal.Wat Sci Tech,1997,35(1):19.
+27 Watanabe K,Hino S,Takahashi N,et al.Effects of exogenous phenol－degrading bacteria on performance and ecosystem of activated－sludge.J Fermentation and Bioengineering,1996,82(3):291.
+28 Edgehill R V,Finn R K.Activated sludge treatment of synthetic wastewater containing pentachlorophenol.Biotechnol Bioeng,1983,25:2165.
+29 Field J A,De Jong E,Costa G F,et al.Biodegradation of polycylic aromatic hydrocarbons by new isolates of white rot fungi.Appl Environ Microbiol,1992,58:2219.
+30 Lange C R.Constraints of bioaungmentation in enhancing biological treatment process performance.Waste Conf.Purdure Universit Proc.42nd Ind.West Lafayette:Waste Conf.Purdue University,1987.275.
+31 Martin J H,Zall R R.Dairy processing wastewater bioaugmentation－An evaluation of effectiveness.Waste Conf.Purdure University Proc.40th Ind.West Lafayette:Waste Conf.Purdue University,1985.351.
+32 Sutherland J B.Detoxification of polycylic aromatic hydrocarbons by fungi.J Ind.Microbiol,1992,9:53.
+33 Koe L C C,Ang F L.Bioaugmentation of anaerobic digestion with a biocatalytic addition:The bacterial nature of the biocatalytic addition.Wat Res ,1992,26:389.
+34 Ro K S,Babcock R W,Stenstrom M K,et al.Demonstration of bioaugmentation in a fluidized－bed process treating 1－Naphthylamine.Wat Res,1997,31(7):1687.
+35 Christiansen N,Ahring B K.Introduction of a de－Novo bioremediation activity into anaerobic granular sludge using the dechlorinating bacterium Dcb－2.Intern J General and Molecular Microbiology,1996,69(1):6166.
+36 Wilderer P A,Rubio M A,Davids L.Impact of the addition of pure cultures on the performance of mixed culture reactors.Wat Res,1991,25(11):1307.
+收稿日期：1998－07－07

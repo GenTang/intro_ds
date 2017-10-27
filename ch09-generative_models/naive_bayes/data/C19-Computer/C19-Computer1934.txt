@@ -1,0 +1,125 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000　Vol.19　No.6　P.48-50
+
+
+
+
+基于Visual Basic的瞬态图像
+采集系统软件设计
+于复生　艾兴　刘素萍
+摘要：对Visual Basic在动态散斑瞬态图像采集系统软件编程方面的应用进行了探讨，并对其数据处理、I／O操作、DLL动态链接库的编制与调用、测控系统动画模拟显示等进行了研究。
+关键词：Visual Basic　瞬态图像采集　数据处理
+　　随着现代测量系统数据处理量的增大，其主控机也越来越多地采用高档计算机。Windows系统的普遍使用，迫使新的测量系统采用Windows编程。面向Microsoft Windows系统的语言程序为用户设计优美的图像界面提供了方便，为测控系统建立高度友好的用户界面奠定了基础，其中Visual C＋＋(VC)和Visual Basic(VB)都是Windows编程的强有力的工具。VC功能强大，既能直接访问CPU的各个寄存器，又能访问内存的相关单元，尤其注重于编程技术细节的应用和代码的优化，但一般人难以在短时间内掌握；而VB则摆脱了所有的低层信息处理，它只自动地处理消息，其它的处理作为事件过程由编程者自行处理。其模块化编程优势明显，因而开发者可以快捷地创建功能强大的应用程序，摆脱了传统的开发程序所带来的惊人的工作量。然而在测量、控制系统中，由于VB不能直接访问计算机的寄存器和内容单元，给测控系统的软件开发带来了一定的困难。本文就所研制的动态散斑图像采集系统的VB编程，对VB如何用于测控系统的软件设计作了探讨。
+1  系统的构成
+　　本图像采集系统的主要构成如图1所示。其主要部分有作为动态散斑光源的脉冲激光器、CCD镜头、插入计算机主板的P540图像采集卡和图像显示器及相应的测量工件。由于P540卡没有外触发接口，基于其可编程的C语言函数，本系统采用了DLL动态链接库的方式，对系统从键盘入口进行了改制，从而完成了准确的时间控制，达到激光光脉冲的出发与CCD的图像采集时间上的一致。
+
+图1  系统构成图
+2  系统的数据处理
+　　相对于其它语言来说，VB的数据结构相对简单。对于一般的测控系统，其浮点数运算较多，而计算机处理整型数的速度要远高于处理浮点数的速度，因而为了不影响测控数据的处理速度，最好在系统中把采集到的数据转化为整型数进行处理，其结果再转换为浮点数存储、显示及打印。
+　　用VB编制图像采集与处理的系统，由于图像数据的存储采用二进制方式，不可避免地要使用Byte数据类型。在转换期间用Byte变量存储二进制数据，当String变量在ANSI和Unicode格式间进行转换时，变量中的二进制数据会遭到破坏，在下列的任何一种情况下，VB都会自动在ANSI和Unicode之间进行转换：读文件时；写文件时；调用DLL时；调用对象的方法和属性时。也就是说在上述几种情况下数据都有可能遭到破坏。所以，对于图像采集中的数据处理而言，为了避免出错，数据处理应在DLL中完成，而VB仅用来在界面中显示数据结果。
+3  I／O操作
+　　测控系统有较多的输入输出操作。Visual Basic虽然有较强的用户界面设计能力，但没有提供直接的I／O操作功能，当用户使用诸如AD板、图像采集卡等即插即用的功能板时，给VB编程带来了一定的困难。这就需要用户利用其丰富的用户控件VBX、动态链接库DLL、动态数据交换DDE及对象的链接与嵌入技术OLE来对其功能进行扩展。从原则上说，这些技术都可以实现I／O操作，但又各有其应用上的侧重点。
+3.1 使用通信控件
+　　VB的通信控件MSCOMM.VBX提供了一系列标准通信命令的使用界面，可以用来建立与串行口的连接，通过串行口连接到其它设备，发出命令，交换数据，以及监视和响应串行口连接中发生的事件和错误。但它只能用于与串行口连接的器件。
+3.2 使用动态数据交换DDE
+　　动态数据交换是一种进程间的数据交换形式。应用程序可通过DDE进行一次性的数据传输，也可进行现场数据的交换。这种方式总是在1个客户应用程序和1个服务应用程序之间进行，它们之间通过建立会话的方式，基于信息传递数据。其最大优点就是当DDE会话建立起来以后，它一般可在没有用户参与的情况下，按照事先定好的规则，自动地进行数据的交换，它比较适合于二程序间实时的数据交换。
+3.3 采用OLE技术
+　　OLE是继DDE之后发展起来的一种崭新的数据交换技术。OLE提供的信息传递的基本单位是对象——包括数据及操纵数据的方法的完整对象。OLE功能强大，支持可视化编程、应用程序间拖放操作及OLE自动化和对象的结构化存储等多项功能的实现。但它主要是面向文档的交换技术。对于实时测控的数据处理，这种技术并不合适。
+　　在我们所研制的图像采集系统中，P540图像采集卡是中科院科技嘉公司早期的图像采集系统的主要板卡。主要应用于DOS环境，有1个CCD视频信号入口和1个图像监视器信息出口，无直接的外触发功能。它的所有功能既可以作为单独的函数在Turbo C下调用，又可以用其集成环境PCANVE.EXE。为了应用该图像采集卡的图像采集和处理函数上的方便，我们采用了DLL方式，由VB来调用TC的图像采集及处理模块。
+4  DLL的建立与调用
+4.1 DLL的建立
+　　动态链接库DLL类似于运行函数库，程序运行期间被链接进来，是组成Windows系统的重要元素之一。DLL程序一般采用C或C＋＋语言(For Windows版本)进行编程。它主要由模块定义文件(.DEF)、动态链接函数头文件(.H)、动态链接库文件(.C)三部分组成。
+　　下面用我们编制的图像采集程序来示例动态链接库的各部分结构。
+4.1.1 模块定义文件
+　　Library PictureCollection
+　　Description ″图像采集动态模块定义文件″
+　　ExeType Windows
+　　Stub ″PictColl.EXE″
+　　Code Preload Moveable Discardable
+　　Data Preload Moveable Single
+　　Heapsize 1024
+　　Exports Web　　　　　　　＠1 RESIDENTINAME
+　　　　PICTURE＿COLLECT　　＠2
+　　　　READ＿PORT＿VALUE　　＠3
+　　　　WRITE＿PORT＿VALUE　＠4
+　　　　CLR＿PORT＿BIT　　　＠5
+　　　　SET＿PORT＿BIT　　　＠6
+　　　　INITCARD　　　　　　＠7
+　　　　SAVE＿PICTURE　　　　＠8
+　　　　EXTERL＿SINGLE　　　＠9
+　　这里应该定义所有的输入输出函数，并且所有的函数都必须在EXPORTS硬件中进行说明，每一个函数的后面是其唯一的序列号，即出现在＠符号后面的数字。
+4.1.2 动态链接函数头文件
+　　这部分主要是定义DLL的库函数，如下所示：
+　　int  FAR PASCAL PICTURE＿COLLECT(int，int)；
+　　int  FAR PASCAL READ＿PORT＿VALUE(int)；
+　　int FAR  PASCAL WRITE＿PORT＿VALUE(int，un－
+　　　　　　　　　　　　　　　signed char)；
+　　int  FAR PASCAL CLR＿PORT＿BIT(int，int，int)；
+　　int  FAR PASCAL SET＿PORT＿BIT(int，int，int)；
+　　void FAR PASCAL INITCARD(int)；
+　　int  FAR PASCAL SAVE＿PICTURE(unsigned char)；
+　　int FAR PASCAL EXTERL＿SIGNLE(unsigned char)；
+4.1.3 动态链接函数文件
+　　这部分是DLL库函数的核心部分，每一个函数的编程大体上与在DOS下编程一样。
+　　＃include ″windows.h″
+　　＃include ″dos.h″
+　　＃include ″pdrv.h″ ／*P540图像采集卡的驱动函数库*／
+　　＃include ″stdio.h″
+　　＃include ″malloc.h″
+　　＃include ″bios.h″
+　　int FAR PASCAL Libmain(HANDLE hinstance，WORD wDataseg，WORD wHeapsize，LPSTRlpszCmdline)
+　{
+　　……
+　　return 1；
+　}
+　　int FAR PASCAL WEP(int nParameter)
+　{
+　　……
+　　return 1；
+　}
+　　int FAR PASCAL set＿base(int b)
+　　　　　　　　　／*设置图像采集卡的基地址*／
+  int FAR PASCAL PICTURE＿COLLECT(int EX－
+　　　　　　　　　TERL＿SIGNAL，int SAVE＿PICTURE)
+{
+　　unsigned char color[3]；
+　　int i；
+　　SysInit()；
+　　GrabImage(greenBank)；
+　　printf(″＼nPress any key to accept the EXTERL 
+　　　　SIGNAL to freeze image.＼n″0；
+　　　　＿bios＿keybrd(＿KEYBRD＿READ)；
+　　if(EXTERL＿SIGNAL＝NULL)FreezeImage()；
+　　…… ／*图像处理的其它程序*／
+　}
+　　注意，上面的LinMain()和WEP()函数是DLL所必需的函数，不能省略。
+　　当动态链接库设计好后，就可以在Visual Basic中调用DLL的相应子程序，达到对相应接口电路的检测、控制的目的。
+4.2 DLL的调用
+　　Visual Basic通过Declare(声明)来访问DLL。其编译器根据声明确定参数，检查数据类型，VB在运行期间也根据声明处理参数，进行压栈、出栈的管理工作。只要程序在Form部分或共用模块中声明了DLL过程，用户就可以像使用VB关键字或用户定义的VB过程一样，方便地使用DLL中的函数。
+　　声明存储在DLL中的过程(子程序)的格式如下：
+　　Declare Sub UserFunc Lib ″DLLName.DLL″[Alias 
+　　　　　　　　　　　　　　　″DLLFunc″]([Parameters])
+　　如果是函数，其格式则为：
+　　Declare Function UserFunc[DATA type suffix]Lib ″DLLName.DLL″[Alias DLLFunc″][(Parameters])[As datatype]
+　　参数传递方式为：
+　　(1)在缺省状态下，传递函数或过程的参数采用地址传送方式，即“by reference”，实参在DLL的函数或过程中能够被修改，并且返回修改后的值。
+　　(2)如果参数是通过数值方式来传送的，则应传给DLL函数或过程的只是1个参数值的副本，DLL函数或过程对该参数的操作不会影响其原始数值，如果调用DLL函数过程中，希望通过数值方式传递参数，则需用“ByVal”关键字指出参数是按值来传递的。
+　　例如：Sub DataCollection(ByVal time As Integer)
+　　　　　
+　　　　这里放语句
+　　　　　
+　　　End Sub
+5  动画的显示
+　　为了使系统的界面丰富生动，可视性强，使系统的数据具有图像立即显示功能，系统的运行中应采用动画显示。实现动画显示的方法有很多，针对不同的部分而选择合适的方法。
+　　(1)对于在程序中固定不动的图像，为了减少在系统运行时占用的时间，可以采用其它的面向Windows的作图工具，如PowerPoint，Photoshop，PaintBrush等做好图后，作为VB的Picture控件嵌入系统界面。
+　　(2)对虽是动态，但其状态转换很慢的图像，如指示灯、仪表头等，可以对其每一种状态着不同的颜色后分别以不同状态部件的裁剪文件形式存盘，形成各种部件的多状态裁剪文件。然后在系统中创建1个窗体，并在窗体中使用图像控件(内部图像不变)与图片控件(内部图像可变)来构造动画显示。系统运行时，程序将根据数据的变化而动态地改变显示的内容。当部件的状态变化时，只需将部件的变化状态控件的图像内容赋值给其标准控件，而这在VB中只需要2条语句即可实现。
+　　(3)对于某些部件的复杂变化或是数据曲线的显示，一方面可以利用VB提供的复杂的图像处理控件(如Gauge控件等)来实现；另一方面可以利用动态链接库DLL调用Windows的API中的图像处理函数进行编程实现。
+　　Visual Basic已成为Windows系统开发的主要语言，VB以其良好的图形用户接口、面向对象的程序设计以及结构化的事件驱动编程模式，使编程效率大大提高，应用功能增强。采用VB开发测控系统的应用软件，只要能够处理好实时处理部分，就能在短时间内开发出交互界面友好、功能易扩展、面向对象的测控系统。本文利用VB编程，应用图像采集卡，采用DLL动态链接库技术，完成了基于Windows的图像采集系统。该编程方法同样可以很好地应用于其它的实时测控系统中。
+于复生（济南山东工业大学机械工程学院250061）
+艾兴（济南山东工业大学机械工程学院250061）
+刘素萍（济南山东工业大学机械工程学院250061）
+参考文献
+1，王占杰．多进程的数据交换．工控电子，1999；（7）：30
+2，史慧康．Visual Basic 5．0实用编程技术．北京：中国水利 水电出版社，1998
+收稿日期：1999－12－11

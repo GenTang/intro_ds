@@ -1,0 +1,84 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+水稻杂种后代稻米直链淀粉含量的配合力分析
+金正勋　崔成焕　秋太权
+摘要　选用稻米直链淀粉含量比较相近的6个粳稻品种，采用Griffing双列杂交方法四，再结合直链淀粉含量的单粒测定方法，对亲本在F1、F2代植株上结实的F2、F3稻米直链淀粉含量配合力作了分析。结果表明，稻米直链淀粉含量的GCA和SCA方差均极显著，表明在本试验中基因加性效应和非加性效应均起重要作用。但，由于二个世代的gca Ms/sca Ms值大于1或显著，且随着世代的推进这一比值又明显增加，因此，稻米直链淀粉含量在杂种后代的表现主要还是由基因加性效应决定。在F2的胚乳表现中基因非加性效应的作用很大，随着世代的增加，加性基因的作用越显重要。在总的遗传变异中，F2种子主要以非加性变异为主，F3种子主要以加性变异为主，但非加性变异仍然占很大比重。配合力效应两世代间相关不显著，亲本稻米直链淀含量的高低与一般配合力的高低并不一致。
+关　键　词　水稻，直链淀粉含量，配合力，变化
+中图分类号　SS11.1，S501　　文献标识码A
+ANALYSIS OF THE COMBINING ABILITY OF AMYLOSE
+CONTENT IN GRAINS OF RICE HYBRID
+Jin Zhengxun， Cui Chenghuan， Qiu Taiquan
+(Northeast Agricultural University,Harbin 150030,PRC)
+ABSTRACT
+　　The combining abilities of amylose content were analysed in grains of F2 and F3 setting on the F1 and F2 plants from the crosses,made among 6 japonica rice cultivars which were different in amylose content by the means of the Griffing's diallel cross method 4. The results showed that there were very significant difference in all GCA and SCA variance of amylose contents in rice grains,indicating that the gene additive effect and non-additive effect all acted on it significantly in this experiment.However,the amylose content appearances of rice grains in offspring of hybrid were determinded by the gene additive effect,because the values of gca Ms/sca Ms in the two generatins were over/or significant and increased as the generation advanced.And the action of the gene non-additive effect on the amylose content appearance of F2 was more,but the gene additive effect became more important with the generation augmentation.The non-additive variation was chief in F2 and the additive one was chief in F3 though the non-additive still accounted for a certain proportion .The relationship of the combining ability effect between the two generations was not significant and there was difference between the amylose content of rice grain of parents and its general combining ability.
+　　KEY WORDS：Rice,Amylise content,Combining ability,variation
+0　前　言
+　　稻米的蒸煮、食味品质是衡量稻米优劣的最重要指标。已有的研究表明，稻米蒸煮、食味的优劣，在很大程度上取决于稻米淀粉中直链淀粉含量与支链淀粉含量的比例。因此，国内外水稻育种家在稻米品质改良中都很重视直链淀粉含量的鉴定和遗传研究。
+　　配合力是杂交组合中亲本各性状配合能力的一个指标，在作物育种中，它可以作为选配亲本的重要依据。配合力和其它农艺性状一样具有遗传和变异的特性。因此，在以培育纯系为目的的杂交育种中，仅用F1代的配合力评价亲本是不全面的，应该进一步了解配合力在杂种后代中的变化特点及其相对大小，这对于正确选择优良亲本和后代具有实际意义。
+　　Griffing(1956)提出的完全双列杂交法，一直被大多数学者认为是分析配合力的有效方法。为了进一步探讨稻米直链淀粉含量的遗传特性，作者利用此种方法，再结合直链淀粉含量的单粒测定方法，对水稻杂种后代稻米直链淀粉含量的配合力进行了分析，为水稻品质育种提供参考。
+
+1　材料与方法
+　　选用稻米直链淀粉含量比较相近的6个粳稻品种合江19、上育397、东农416、富士光、东农419、东农415(分别以P1、P2、P3、P4、P5、P6表示，亲本直链淀粉含量见表2)，分别于1994年和1995年按Griffing双列杂交方法四配制15个杂交组合。1996年将F1和F2代的15个杂交组合及亲本进行试验。行距30cm，株距10cm，单本插，F1代为8—15株不等，F2代和亲本为4m行长，双行区，全部试验以组合为单位顺序排列，不设重复。收获时，F1代植株以组合为单位全部混收，F2代每组合随机取30个单株，亲本随机取15个单株，单株脱粒，并参照申岳正的方法〔1〕，取完整精米，测定单粒直链淀粉含量。F1代每组合测定90粒，F2代每单株测定3粒，这样F1、F2代均得90个观察值，亲本测定70粒。
+　　统计分析以单粒为单位进行，配合力分析是按刘来福〔2〕介绍的方法进行。
+2　结果与分析
+2.1　各世代配合力分析及基因作用的估计
+　　稻米直链淀粉含量是胚乳性状，而胚乳是一个受精产物，在遗传上比植株本身高一个世代，即F1、F2代植株上结实的种子胚乳已分别是F2、F3代。因此，在本试验中所进行的配合力分析实际上是F2、F3代的。稻米直链淀粉含量的F2、F2代配合力分析结果列于表1。
+表1　各世代直链淀粉含量的配合力分析
+Table1　Combining ability analysis of amylose content in different generations
+世代
+GenerationF2F3
+项目 ItemsDFMSFMSF
+组合间 Crosses1437.73224.35**23.46616.49**
+GCA50.57933.66**0.49131.07**
+SCA90.33419.42**0.1338.42**
+误　差 Error13350.0172　0.0158
+GCA/SCA　1.73　3.69*
+σ2A/σ2G　0.2788　0.6046
+　　注：和分别表示达5%和1%的显著水平。
+　　Notc:andrepresent at 5% and 1% singnificant levels respectively.
+　　由表1可见，稻米直链淀粉含量两个世代组合间均方都极显著，表明上述材料群体平均数间有极显著的遗传差异。分解为一般配合力和特殊配合力后，二个世代这两种配合力均方都达到极显著水平。这说明，稻米直链淀粉含量在杂种F2、F3代有极显著的一般配合力差异及组合间极显著的特殊配合力差异，同时还表明，在本试验中基因加性效应和非加性效应对稻米直链淀粉含量均起重要作用。
+　　GCA与SCA均方之比是衡量一般配合力和特殊配合力相对重要性的指标。稻米直链淀粉含量这一比值在F2代虽然没达到显著水平，但比值大于1，而且在F3代达到显著水平。由此说明，稻米直链淀粉含量在杂种F2、F3代的表现主要是由基因加性效应决定，但F2代的表现中基因非加性效应的作用仍然很大，不过随着世代的增加，加性基因的作用越显重要。
+　　值表示，在总的遗传变异中加性变异所占的比重大小，这一比值越大，说明在总的遗传变异中加性变异的成份越大，而值在世代间的变化大小表示显性及其有关互作变异的大小。如果显性及其有关互作变异较大，则值将会随着世代的推进而变化增大，反之若显性及其有关互作变异较小，则值在世代间的变化较小。在表1中，稻米直链淀粉含量的在F2代为0.2788，F3代为0.6046，并且随着世代的推进这一比值明显增大。这就说明，在总的遗传变异中F2代主要以非加性变异为主，F3代主要以加性变异为主，但非加性变异仍然占很大比重。因此，稻米直链淀粉含量虽然在F1代植株上以粒为单位进行分离，为单粒选择提供材料，但其遗传变异主要以非加性变异为主，而这部分变异在杂种后代中不稳定，会降低选择效率，故对F1代植株不宜进行单粒选择。稻米直链淀粉含量的单粒选择应从F2代植株开始为宜，这样有利于提高选择效果。
+2.2　世代间配合力效应的变化
+　　配合力中的各种基因效应都是在一定的遗传背景下产生和发展起来的，随着基因的分离和重组，这些基因效应相应地会有所改变，从而配合力的表现也就会有所变化。
+表2　亲本直链淀粉含量各世代的一般配合力效应值及平均值
+Table2　Means and GCA effects of amylose content in different generations
+世代
+Generation合江19
+Hejiang 19上育397
+Shangyu 397东农416
+Dongnong 416富士光
+Fushiguang东农419
+Dongnong 419东农415
+Dongnong 415
+一般配合力效应　F2-0.163-0.238-0.0480.762-0.088-0.893
+gca effect　F36.280-12.5607.6007.060-6.800-1.580
+亲本均值(%)
+Parent means19.3318.5919.9219.6619.3818.28
+
+表3　15个杂交组合直链淀粉含量各世代的特殊配合力效应值
+Table3　SCA effects of amylose content of 15 crosses in different generations
+亲本 ParentP1P2P3P4P5P6
+P1　-0.3390.861-0.199-0.089-0.244
+P20.217　-0.0740.78960.036-0.419
+P30.517-0.238　-0.824-0.4440.481
+P4-0.201-0.276-0.006　0.266-0.039
+P5-0.083-0.1580.8820.145　-0.764
+P6-0.4510.455-0.3560.3770.015
+　　注：右上角和左下角分别为F2和F3代的特殊配合力效应值
+　　Note:The up triangle in the table in the S.C.A Values of F2 generation and the down in the S.C.A Values of F3.
+　　稻米直链淀粉含量的一般配合力效应和特殊配合力效应，在F2代及F3代的表现并不完全一致(表2、表3)。亲本合江19和东农416的一般配合力效应在F2代均表现为负值，但在F3代却均表现为正值，在这两世代的表现完全相反。另外在F2代亲本东农415的一般配合力效应值最小，但在F3代亲本上育397的一般配合力效应值却最小。特殊配合力效应同样表现了和一般配合力效应相类似的现象。一般配合力效应和特殊配合力效应在F2代和F3代间的秩次相关系数分别为0.6571和-0.1214，相关不显著。以上说明，世代间一般配合力效应及特殊配合力效应的表现有所不同，即不同世代亲本具有不同的一般配合力效应，组合间有不同的特殊配合力效应，配合力效应在两世代间的表现无内在的必然联系。因此，对于利用品种间杂交选育新品种的自交作物来说，不能只根据F1代植株上结实的F2种子的配合力效应大小来确定亲本或组合的优劣。
+2.3　配合力的相对效应与亲本评价
+　　为了具体了解各亲本对杂种贡献的大小，以便对亲本优劣作出更为确切的评价，估算了两世代的亲本稻米直链淀粉含量一般配合力的相对效应及特殊配合力方差，其结果分别列于表2和表4。
+表4　亲本特殊配合力方差
+Table4　Variance of parental SCA
+世代
+Generation合江19
+Hejiang 19上育397
+Shangyu 397东农416
+Dongnong 416富士光
+Fushiguang东农419

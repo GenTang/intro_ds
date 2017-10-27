@@ -1,0 +1,93 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+新农药吡虫啉水解动力学和机理研究*
+郑　巍　宣日成　刘维屏*　*　
+摘要　介绍了吡虫啉在不同酸、碱条件下的降解动力学情况.实验表明，吡虫啉在酸性、中性条件下比较稳定，不易水解，而在碱性条件下水解速度较快.通过对水解产物的鉴定，确定了水解产物主要是1-(6-氯—3-吡啶甲基)—2-咪唑酮，从而推测了有关吡虫啉的水解机理.
+关键词　吡虫啉；水解.
+Kinetics and mechanism of pesticide imidacloprid hydrolysis
+ZHENG Wei, XUAN Richeng, LIU Weiping
+Department of Chemistry,Zhejiang University,Hangzhou 310027
+Abstract　Kinetics of imidacloprid hydrolysis were studied at various pH values.The experimental results show that imidacloprid is stable in acid and neutral water and its hydrolysis easily takes place in basic water.By extracting and analyzing hydrolysis products,it was found that the primary hydrolysis product is 1-［(6-chloro-3-pridinl)methyl］-2-imidazolidone.The hydrolysis mechanism of imidacloprid is thus proposed.
+Keywords　hydrolysis, imidacloprid.
+吡虫啉是本世纪九十年代德国拜耳公司和日本特殊农药公司共同开发的一种新型、高效、低毒杀虫剂，其通用名为Imidacloprid,化学名称是“1-(6-氯-3-吡啶甲基)-N-硝基咪唑-2-亚胺”，化学结构式为
+　　
+　　吡虫啉对防治危害水稻、小麦、果树、蔬菜的飞虱、叶蝉、蚜虫等刺吸式口器害虫有特效.国外一些专家称它为“一种划时代的杀虫剂”，预计在我国吡虫啉将成为甲胺磷等高毒农药的取代品而广泛使用.为了全面了解吡虫啉在环境中的滞留、迁移、转化情况，正确评价其环境安全性，研究吡虫啉在水环境中的行为和归宿是十分必要的.目前有关该农药在环境中降解的研究报道甚少［1,2］，关于其水解尚未见公开报道.本文研究了吡虫啉在酸性、中性、碱性条件下的水解动力学过程，通过提取并鉴定水解产物，提出了吡虫啉的水解途径和机理.
+1　实验部分
+1.1　仪器
+　　美国Spectra Physics公司高效液相色谱仪，带Spectra 100UV-VIS检测器和Upper系列色谱数据工作站；美国Finnigan MATSSQ-7000型气质联用仪(GC-MS)，电子轰击源70 eV，配30mDB-5毛细管柱；Shimadzu公司的IR-470红外光谱仪；ZFQL-85A旋转蒸发器(上海医械专机厂)；TGL-168高速抬升离心机(上海安亭科学仪器厂)及酸度计等.
+1.2　试剂
+　　吡虫啉标准品：由浙江菱化集团公司提供85%左右的原药粉剂，经3次重结晶(二氯甲烷/正己烷＝1/1(V/V))后制得，纯度大于99%；其它化学试剂均为分析纯试剂；二次重蒸水；缓冲溶液按文献［3］的方法，制得pH＝3至pH＝9的缓冲溶液.
+1.3　液相色谱操作条件
+　　YWG-C18色谱柱(内径4.6 mm，长250 mm不锈钢柱)；检测波长267nm；测水解产物时，流动相为乙腈／水=30／70，(V/V)，分析吡虫啉含量时，流动相为乙腈/甲醇/水=20／20／60(V/V/V)，由磷酸调pH值为4左右；流量为1 mL/min，该条件下吡虫啉的保留时间为5.6 min.分析方法的线性范围为0.1mg/L至90mg/L(r＞0.995)，在该线性范围内3次平行测定的变异系数＜3.9%.
+1.4　实验操作
+　　用蒸汽消毒器将容量瓶、烧杯、滴管等所需玻璃器皿高温高压灭菌30 min.取10 mL 200 mg/L的吡虫啉溶液于100 mL容量瓶中，分别加入pH 3、5、7、8、9的缓冲溶液至刻度，另外pH为11、12的吡虫啉溶液靠直接滴加2 mol/L NaOH的方法配制，为抑制微生物的生长，分别加入0.1 g NaN3固体.然后将它们放入20℃恒温箱中，温度控制在20.0±0.5℃.隔一定时间摇匀后移取4 mL反应液，加HCl使样品pH在3左右，为消除系统误差将同一pH的所有样品直接进高效液相色谱检测.
+
+
+图1　吡虫啉在酸性、中性溶液中的水解
+Fig.1 Hydrolysis of imidacloprid in acid and neutral solution
+1.5　水解产物的提取、鉴定
+　　将0.5 g吡虫啉溶于100 mL pH为12以上的水溶液中(加入少量甲醇以提高吡虫啉的溶解度).将此反应液放入20℃的恒温箱中，隔一定时间取样稀释观察水解产物的变化过程，当吡虫啉全部水解后，滴加2 mol/L HCl使反应液的pH为7左右，用乙酸乙酯萃取，萃取溶液加无水Na2SO4脱水，然后在旋转蒸发器上脱去乙醇乙酯溶剂，得到的水解产物经重结晶(正己烷／二氯甲烷＝3/4，(V／V))而纯化.经红外光谱、质谱及液相色谱确定水解产物结构，从而推测吡虫啉的水解机理.
+
+
+图2　吡虫啉碱性条件下水解动力学曲线
+Fig.2 Kinetic curves of imidacloprid hydrolysis in basic solution
+2　结果与讨论
+2.1　酸性、中性水解
+　　吡虫啉在酸性、中性条件下水解实验结果见图1所示.从图1可知，吡虫啉在酸性条件下几乎不水解，在水中3个月其浓度无减少趋势，说明吡虫啉在酸性介质中是非常稳定的.中性条件下，吡虫啉水解速度类似于酸性下的情况，3个月后，pH＝7的样品仅降解了1.5%，pH＝8.0的样品降解了5.3%.
+2.2　碱性水解
+　　在弱碱条件下吡虫啉水解比较慢，但大于酸性、中性条件下的水解速度，pH＝9的样品3个月后降解了20%.实验发现随着反应介质碱性的增加，吡虫啉水解速度将明显增加，说明该农药在碱性越强的条件下，稳定性越差.吡虫啉在碱性条件下能很好地满足一级反应动力学方程，图2为pH＝10.80、11.80的水解动力学曲线，它们的水解动力学方程，水解速度常数和半衰期见表1.
+表1　吡虫啉碱性水解参数
+Table 1 Hydrolysis parameters of imidaclopridin basic solution
+pH水解动力学方程
+(lnC＝-kt+B)相关系数半衰期，d
+10.80lnC＝-0.0346+3.020.99820.00
+11.80lnC＝-0.243+2.930.9952.85
+
+
+图3　吡虫啉水解后的色谱图
+(1.水解产物； 2.吡虫啉)
+Fig.3 HPLC pattern of imidacloprid after hydrolysis
+2.3　水解产物的鉴定
+　　吡虫啉水解过程中的液相色谱图见图3，从图3可知，吡虫啉水解后仅有一个水解产物峰，其保留时间为7.4 min.当随着吡虫啉水解时间的增加，吡虫啉峰减小，未发现有其它水解产物峰产生.此外也发现这水解产物随着水解时间增加而增大，当吡虫啉全部水解完后，该水解产物趋向平衡，进一步水解，未发现有其它降解产物生成.由此可见吡虫啉水解产生的水解主产物仅一个，而且此水解产物在碱性条件下能稳定存在，不易进一步降解.
+　　将提纯的水解产物作红外谱图，表2列出了一些主要吸收峰.由表可见水解产物含酰胺基团.
+　　用GC-MS联用机分析，也仅发现只有一个水解产物峰，该物质经离子轰击后的质谱图见图4，从它的碎片质量、相对丰度及母体的结构特点，我们推断出其化学结构为　　
+
+　　最后，我们自己合成了1-(6-氯—3-吡啶甲基)—2-咪唑酮，在同一色谱条件下，其在液相色谱的保留时间与水解产物相同，另外比较它们的红外谱图也相同.
+表2　水解产物的红外特征基团频率
+Table 2 Infrared spectral datas of hydrolysis product
+基团振动形式吸收峰位置
+cm-1强　度*备　注
+υCO1680v.s酰胺的特征频率
+υN—H3220s
+δN—H1560s伯、仲酰胺区分的特征频率
+
+υC—H1256v.s　
+υC—Cl735m
+δC—Cl1025m
+—CH2—υC—H1880，2930s　
+CHυCH3070m　
+　　*吸收强度表示：v.s——很强，s——强，m——中等强度
+
+
+图4　吡虫啉水解产物质谱图
+　Fig.4 EI mass spectrum of hydrolysis product
+2.4　水解机理推测
+　　根据1.5节所鉴定水解产物的结构，吡虫啉水解机理推测如下(图5).由于吡虫啉咪唑烷上的NO2是强吸电子基团，它使CN位上的C原子有较强带δ+电荷趋势，在碱性条件下易受OH-进攻发生反应.
+
+图5　吡虫啉水解机理的推测
+Fig.5 Proposed mechanism for hydrolysis of imidacloprid
+3　结论
+1.吡虫啉在酸性和中性条件下水解速度很慢，说明在自然环境中吡虫啉水解不明显.
+　　2.吡虫啉碱性条件下较容易水解，其中碱性越强，水解越快，说明吡虫啉在碱性土壤或水体中，水解是吡虫啉的主要降解行为之一.
+　　3.吡虫啉主要水解产物仅一个为1-(6-氯—3-吡啶甲基)—2-咪唑酮，该化合物在水体中较稳定，所以研究吡虫啉在碱性介质条件下的环境安全性时，还需考虑1-(6-氯—3-吡啶甲基)—2-咪唑酮的毒理和环境生态情况，对此我们将作进一步研究.
+　　*　国家自然科学基金项目29477274　通讯联系人　刘维屏
+作者单位：郑　巍　宣日成　　浙江大学化学系，杭州　310027
+参考文献
+[1]　Rouchaud J et al. Imidacloprid insecticide soil metabolism in sugar beet field crops.Bull Environ Contam Toxicol,1996,56:29
+[2] Rouchaud J et al.Soil biodegradation and leaf trannsfer of insecticide imidacloprid applied in seed dressing in sugar beet crops.Bull Environ Contam Toxicol,1994,53:334
+[3] 杨克武等.有机化合物水解的研究方法.环境化学，1994，13(3)：206
+1997-03-31收到原稿　1997-10-15收到修改稿

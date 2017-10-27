@@ -1,0 +1,102 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+一种新的DSS模型描述方法
+李云峰　史忠植　谭　宁
+摘　要　模型管理系统是(群体)决策支持系统的重要研究领域，文中认为决策中使用的数学模型由属性数据、操作和知识组成，并由此给出了一种嵌入知识的面向对象模型描述方法OOMDEK.文中探讨了知识在模型管理系统中的作用；从模型组合的角度，提取出3种模型类的继承关系，做了相应的讨论.并给出了基于OOMDEK的模型管理系统的实现方法.
+关键词　决策支持系统，模型管理系统，面向对象，知识
+中图法分类号　TP311
+A NEW MODEL DESCRIPTION METHOD IN
+DECISION SUPPORT SYSTEMS
+LI Yun-Feng, SHI Zhong-Zhi, and TAN Ning
+(Institute of Computing Technology, Chinese Academy of Sciences, Beijing　100080)
+Abstract　Model management is an important research area in (G)DSS. A mathematical model is thought of as the integration of attribute data, operation, and knowledge. A new method of object-oriented model description with embedded knowledge, called OOMDEK, is implemented. From the point of view of model integration, three kinds of multiple inheritance are proposed. The role of knowledge in model management and the implementation of model base are explored,and model management system is also covered.
+Key words　decision support system, model management system, object-oriented, knowledge
+1　引　　言
+　　决策支持系统(decision support system, DSS)是支持解决半结构化或非结构化问题以提高决策效率的软件系统.模型管理系统是DSS的重要组成部分，对它的研究主要集中在模型库结构的表示、模型库系统的设计和模型管理系统环境这3个方面.DSS中模型表示方法有以下几种：关系模型表示框架把模型看作输入域和输出域之间的虚关系[1]；实体-关系表示框架把决策模型看作一个实体，它具有多个属性，实体之间存在着关系[2]；结构化模型表示框架使用层次组织的、分割的、带属性的非循环图来表示模型的数学结构和语义关系[3].关系模型不能完全支持模型的共享和复用；结构化模型表示尽管表达了模型之间的复杂关系，但表示真实模型的结果图往往难以理解和使用.
+　　面向对象的模型表示方法引入了面向对象的方法学，把模型看作是对象的集合，模型管理功能通过消息的传递、接收和响应来完成，M. L. Lenard[4]和Jian Ma[5，6]等人在这方面做了许多有意义的工作.我们在智能决策系统开发平台IDSDP[7]中，实现了一种新的面向对象的模型描述方法，这种方法在模型描述中嵌入了知识来支持模型结果的解释和主动式模型选择，并从模型组合的角度探讨了继承机制在模型管理中的应用.
+2　嵌入知识的面向对象模型描述
+2.1　面向对象的模型描述框架
+　　面向对象（object-oriented，OO）方法学认为世界由各种“对象” 组成，对象拥有自己的属性和操作这些属性的方法，即：“对象=属性+方法”，而数学模型是一组操作对相关数据进行的运算，可以很自然地把模型和对象对应：将模型看作“类”，模型的输入输出参数和对象的属性相对应，我们称之为“属性数据”，而模型的运算操作、数据的存取操作和对象的方法相对应.同时，数学模型中蕴涵了大量的知识，这些知识信息应该在模型的表示中有所体现，因此我们认为：“模型=属性数据+操作+知识”.根据这个式子，我们提出了嵌入知识的面向对象模型描述方法OOMDEK(object-oriented model description with embedded-knowledge)，这种方法把模型看作类，将一个模型的属性数据、模型求解和数据存取操作以及模型蕴涵的知识封装起来，通过继承关系描述模型间的联系.
+　　定义1.类代表决策中使用的数学模型，对于不同性质的模型，类分为原子模型类和复合模型类.原子模型类对应于原子模型，即功能不可细分，解决某一类决策问题的数学模型；复合模型类表示组合模型，即由多个模型经模型组合所生成的数学模型.
+　　定义2.一个原子模型类AC可以表示为一个四元组：AC={I，O，M，K}；其中，I，O分别代表模型的输入输出属性数据，M代表模型的操作，包括属性数据的存取、模型的求解算法等，K代表关于模型的知识.
+　　定义3.一个复合模型类CC可以表示为一个五元组：CC={F，I，O，M，K}其中，F代表组成复合模型的原子模型序列，即复合模型类的父类；I代表模型的输入属性数据，O代表模型的输出属性数据，M代表作用于模型上的操作，K代表关于复合模型的知识.
+　　定义4.对象表示模型的一个实例，即把模型的输入输入数据进行例化，它表示的是针对具体决策问题使用的数学模型.
+　　定义5.继承是指用已经存在的原子模型类或复合模型类构造新的复合类的一种机制.对于新的复合类Cs和它的多个父类Cf1，Cf2，…，Cfn，有下列式子成立：
+
+2.2　BNF语法
+　　根据上一节的形式化描述，我们给出OOMDEK模型描述方法的BNF语法如下：
+　　〈Model Class〉∷=〈Model Description〉〈Inheritance Section〉{
+〈Input Attribute Section〉;〈Output Attribute Section〉;
+〈Operation Section〉;〈Knowledge Section〉}
+　　〈Model Description〉∷=MODEL 〈Model Name〉
+　　〈Inheritance Section〉∷=INHERIT 〈Inherit Constraint〉〈Model List〉
+　　〈Inherit Constraint〉∷=〈N—TO—ONE〉|〈ONE—TO—N〉|〈N—TO—N〉
+　　〈Model List〉∷=〈((Model Name List), 〈Model Name〉)|
+〈(Model Name, (〈Model Name List〉))|
+〈((Model Name List), (Model Name List))〉
+　　〈Model Name List〉∷=〈Model Name〉
+　　〈Input Attribute Section〉∷=INPUT:〈Attribute List〉
+　　〈Output Attribute Section〉∷=OUTPUT:〈Attribute List〉
+　　〈Attribute List〉∷=〈Attribute Name∶Attribute Type〉
+　　〈Attribute Type〉∷=INTEGER|FLOAT|DOUBLE|VECTOR|MATRIX|CONST
+　　〈Operation Section〉∷=OPERATION:〈Solve Operation〉; 〈Access Operation〉
+　　〈Solve Operation〉∷=SOLVE(〈Method Name〉)
+　　〈Access Operation〉∷=ACCESS(DB，Table Name)|ACCESS(FILE，File Name)
+　　〈Knowledge Section〉∷=KNOWLEDGE:〈Rule List〉
+　　〈Rule List〉∷=〈Rule〉|〈Rule〉; 〈Rule List〉
+　　〈Rule〉∷=RULE〈Number〉:IF 〈Condition〉
+　　　　　　　　　　　　　　　THEN〈Conclusion〉
+　　　　　　　　　　　　　　　ELSE〈Conclusion〉
+　　〈Number〉∷=〈number〉
+　　〈Condition〉∷=〈string〉
+　　〈Conclusion〉∷=〈string〉
+　　〈Method Name〉∷=〈string〉
+　　〈Model Name〉∷=〈string〉
+　　〈Attribute Name〉∷=〈string〉
+　　〈Table Name〉∷=〈string〉
+　　〈File Name〉∷=〈string〉
+3　知识在模型描述中的作用
+　　决策中使用的数学模型是用数学方程和数学表达式对决策过程的抽象模拟，它们绝不仅仅是数字的计算和表达式的简单堆积，其中还蕴涵了大量的知识信息，包括：关于模型使用的先验知识、关于模型运行结果的评价知识和使用模型进行分析预测的知识等.知识是模型中不可见的重要组成部分，应该在DSS的模型管理中对这些知识有所表现.我们认为：“模型=属性数据+操作+知识”，并在OOMDEK方法中体现了这一思想.
+　　将模型中隐式的知识显式地表示出来，作为模型的一个组成部分，可以在DSS的模型管理和使用中发挥以下3方面的作用：
+　　(1) 对模型的运行结果进行自动评价
+　　模型运行除了计算出一些输出数据外，还会计算出一些统计量，这些统计量是评价模型的重要参数，它们可以说明模型的建立合适与否等问题.在模型管理中加入有关这方面的知识，可以对模型进行自动的智能评价，简化模型使用者的工作.
+　　(2) 满足群体决策支持的需要
+　　在群体决策环境中，参与决策的人员往往具有不同的专业领域和知识背景，有了关于模型的知识，可以缩小决策参与者之间的知识差距，决策者可以对他人的局部决策进行评价或指出错误，对群体决策结论的协商、认同和制定提供更加有效的支持.
+　　(3) 满足主动式模型选择的需要
+　　对于某一决策问题，可以建立多种模型进行求解，如何从众多模型中选择最恰当的模型是需要解决的重要问题.在模型中加入与模型评价相关的知识和模型使用的先验知识，可以把模型的选择工作交给模型管理系统来完成，这就是主动模型选择.
+4　继承机制及模型组合
+　　在使用数学模型解决决策问题的过程中，往往需要使用多个模型组合起来共同求解，这就是模型组合问题.新的复合模型不可避免地要同时涉及到其父模型的属性数据、操作等特征.面向对象的继承机制是解决模型组合问题的较好手段.我们从模型组合运行的需要出发，对模型类的多重继承进行了研究，从中提取出3种继承关系，分别称为“n-1继承”、“1-n继承”、“n-n继承”.为研究问题的方便，以下将使用一个两层的模型组合结构来讨论这3种继承关系，多层次的模型组合可以简单地由两层结构进行扩充.
+　　“n-1继承”如图1(a)所示，就是指多组输入数据经第1层的多个模型处理后产生的中间输出数据作为第2层的单一模型的输入，经第2层模型处理后的结果作为最终的输出.对“n-1继承”关系下产生的模型求解需要借助消息传递机制，首先对第1层模型发送求解消息，然后对它们的运行结果进行存取操作，最后对第2层的模型进行求解.“n-1继承”在模型说明的继承列表(〈Inheritance List〉)中的形式为((Model11，Model12，…，Model1n), Model2)，其中带有编号的Model均是实际的模型名字.
+
+
+　　　(a)n-1继承　　　(b)1-n继承　　　(c)n-n继承
+图1　模型组合中的继承关系
+“1-n继承”如图1(b)所示.是指输入数据经第1层的单个模型进行处理后，其多个输出数据分别作为第2层多个模型的输入，第2层多个模型的输出共同作为组合模型的最终结果.“1-n继承”在模型的继承列表中的表示形式为(Model1，(Model21，Model22，…，Model2n)).
+　　“n-n继承”如图1(c)所示，多个输入数据经第1层多个模型的处理后，产生的多个中间输出数据再作为第2层多个模型的输入数据，处理后得到的多个输出数据组成该组合模型的最终输出数据，由于两层均包含多个模型，故称之为“n-n继承”.“n-n继承”在模型继承列表中的说明形式为((Model11，Model12，…，Model1n)，(Model21，Model22，…，Model2m)).
+5　实　　现
+　　基于OOMDEK方法，我们设计实现的模型管理系统结构如图2所示.
+
+
+图2　模型管理系统结构图
+　　模型库中存储系统的所有原子模型和复合模型.方法例程库中存放相关的求解模型的算法.原子模型和复合模型均通过模型描述解释器来进行求解，模型描述解释器完成3方面的工作：原子模型和复合模型的实例化；原子模型的组合，即复合模型的生成；模型实例化后的求解.模型的运行结果经模型知识解释器的处理生成模型的评价，与模型运行结果一起提供给模型的使用者.
+6　相关工作的比较
+　　对于面向对象方法和模型管理系统结合方面，比较有代表性的是Lenard和Jian Ma的工作. Lenard的工作实际上是使用了结构化模型表示作为基础，把结构化模型中的一些基本概念和组成部分表示为类，这种方法在本质上可以说是结构化模型的面向对象实现,没有解决结构化模型表示的根本缺点，并且一个或一类数学模型应该作为一个整体来进行管理，对模型的过于细分必然会使模型管理的工作更加繁重.Jian Ma提出了一个面向对象模型管理的框架，给出了相应的模型操纵语言，并主要从模型库设计的角度讨论了继承机制.我们的工作同时考虑了DSS和GDSS对模型管理的需要，明确提出了在数学模型的描述中应该把知识显式地表述出来，把知识作为模型的组成部分,并从模型组合这个关键问题上对继承机制进行了探讨.
+　　OOMDEK方法在我们开发的IDSDP系统，基于主体的群体智能决策支持系统ABGIDSS中的应用均取得了较好的效果，证明了这种方法的可行性.如何将模型和知识、主体技术结合起来构造模型管理主体，并进一步研究基于主体的群体智能决策支持系统，以及主动式模型管理系统的设计实现将是我们今后的工作重点.
+本课题得到国家“八六三”高技术计划基金资助（项目编号863-511-9609-005）.
+作者简介：李云峰，男，1973年10月生，博士，现主要研究方向为人工智能、决策支持系统.史忠植，男，1941年9月生，研究员，博士生导师，现主要研究方向为多主体系统、决策支持系统、数据开采、多媒体信息检索等.谭宁，男，1971年11月生，硕士研究生，现主要研究方向为知识处理系统、决策支持系统、多主体系统等.
+作者单位：中国科学院计算技术研究所　北京　100080
+参考文献
+　1　Blanning R W. A relational theory of model management. In: Holsapple C W, Whinston A B eds. Decision Support Systems: Theory and Application.New York: Springer-Verlag, 1987. 19～53
+　2　Chen Y S. An entity-relationship approach in decision support and expert systems. Decision Support System, 1988,4(2):225～234
+　3　Geoffrion A M. An introduction to structured modeling. Management Science, 1987,33(5):547～588
+　4　Lenard M L. An object-oriented approach to model management. Decision Support Systems, 1993,9(1):67～73
+　5　Jian Ma. An object-oriented framework for model management. Decision Support Systems, 1995,13(2):133～139
+　6　Jian Ma. Type and inheritance theory for model management. Decision Support Systems, 1997,19(4):53～60
+　7　史忠植等. 智能决策支持系统开发平台IDSDP. 见:CIMS-CHINA96.哈尔滨，1996.285～289
+(Shi Zhongzhi et al. Intelligent decision support system developing platform IDSDP(in Chinese). In:CIMS-CHINA 96.Harbin, 1996. 285～289)
+原稿收到日期：1998-03-17
+修改稿收到日期：1998-07-22

@@ -1,0 +1,195 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期
+丁基锡化合物在水体悬浮颗粒物上的吸附行为研究
+黄国兰　陈志琼*　戴树桂
+(南开大学环境科学系，天津 300071)
+
+摘要　将海河河口表层底泥制成悬浮颗粒物(SPM)，采用批量平衡法首次研究了模拟河口条件下三丁基锡(TBT)和二丁基锡(DBT)在该SPM上的吸附行为.结果表明，TBT和DBT均能在SPM上发生吸附，尤以TBT更为显著.吸附速率可用Kuo和Lake的经验公式描述；吸附过程受SPM的浓度及TOC含量、pH值、温度、腐殖酸浓度和盐度影响.实际河口水样中的SPM对TBT和DBT的吸附百分率也较高，因此SPM是TBT和DBT归趋的重要场所，去除SPM可使水体得到一定净化.
+关键词　三丁基锡；二丁基锡；悬浮颗粒物；吸附.
+ADSORPTION BEHAVIOR OF BUTYLTIN COMPOUNDS OF SUSPENDED PARTICULATE MATTER IN WATER BODY
+
+Huang Guolan,Chen Zhiqiong,Dai Shugui
+(Dept of Environmental Science,Nankai University,Tianjin 300071)
+
+ABSTRACT　This paper reported for first time the adsorption behavior of butyltin compounds on the suspended particulate matter (SPM) under a simulated estuary condition by using batch-equilibrium method.SPM is prepared by surface sediments from the Haihe estuary.The results showed that both TBT and DBT,especially TBT,can be adsorbed significantly on SPM.The adsorption rate may be expressed by the emeric equation of Kuo and Lake.The adsorption rate is influenced greater by the concentrations of SPM,TOC,humic acid,and temperature than by the salinity.APM in water sample taken from the estuary has even higher adsorption ability to TBT and DBT.This shows that SPM is an important sink to TBT and DBT and,consequently,the removal of SPM can purify water body to some extent.
+Keywords　tributyltin,dibutyltin,suspended paticulate matter,adsorption.
+
+
+1　前言
+　　有机锡化合物是人为引入海洋环境中的毒性最大的物质之一，但由于其应用广泛，海洋中的含量日益增加［1］，丁基锡化合物便是典型的代表.它们主要存在于河口和港湾，研究它们在河口地区的环境行为具有重要意义.
+　　悬浮颗粒物SPM(Suspended Particulate Matter)是河口水体的重要组份，它对污染物的行为是有影响的，但是对有机锡化合物在SPM上的吸附行为所开展的研究尚不多，尤其在国内，还没有文献报道.Randall和Weber等［2，3］曾作过一些研究，但是他们均用人工合成吸附剂作SPM，与实际环境中的SPM必然存在差距.本研究将海河河口表层(≤2cm)底泥制成SPM，研究了TBT和DBT在水-SPM间的分配行为.实际河口水样的调查结果表明，TBT和DBT在SPM上均存在吸附，是它们的重要归趋场所.
+
+2　实验部分
+2.1　人工海水和SPM的制备
+　　人工海水采用Kester配方［4］配制，其他所需盐度用去离子水稀释而成，模拟海河河口盐度为15；SPM由海河河口表层(≤2cm)底泥经自然风干后捣碎、碾细、过筛取小于60μm的颗粒物混匀制得.它们的一些性质参数见表1.
+表1　人工海水和SPM的性质
+Table 1 Characteristics of artificial sea water and SPM
+
+水pH值
+8.05盐度
+15总碳，mg/L
+15.37无机碳，mg/L
+12.67溶解有机碳，mg/L
+2.70　电导率，mΩ/cm
+32.0
+SPMpH值
+7.48TOC，%
+0.58CEC，meq/100g(土)
+153.16粒径，μm
+≤60元素分析*，%
+CHN
+2.020.360.02
+
+2.2　实验用TBT、DBT和NFDA1酚酮购自Aldrich公司；苯为国产优级纯；HBr,H2SO4,THF,无水乙醇和溴代正戊烷为国产分析纯.
+2.3　仪器
+　　pHS-25型酸度计(上海嘉定学联仪器厂)；M-50型砂芯过滤装置(上海玻璃厂)；THZ88-1型恒温振荡器(江苏太仓鹿河生化仪器厂)；GC-AAS联用系统(由意大利Carlo Erba公司制造的Fractovap 2101 AC气相色谱仪与中国沈阳分析仪器厂生产的WYX-402型原子吸收分光光度计自行组装).
+2.4　实验方法
+　　在100mL具塞三角烧瓶中加入SPM和50mL人工海水，调pH值后沉化过夜，再确证pH值后加入TBT或DBT，经恒温振荡后抽滤，滤液移至125mL分液漏斗中，调pH值约为1后加入苯(或含0.1%NFDA1酚酮的苯)溶液剧烈振摇，经静置后分离出有机相用戊基格氏试剂烷基化，稀硫酸破坏过量格氏试剂后取出有机相浓缩定容，最后用GC-AAS联用系统测定，分析条件见文献［5］.
+　　实际河口水样的处理方法为：取水样10L，加HBr调pH约为1，加入含0.05%NFDA1酚酮的苯，剧烈振摇后静置，分离出有机相浓缩后再烷基化，以后步骤同上述.
+
+3　结果和讨论
+3.1　自制SPM的理论基础
+　　水体中的SPM是相当复杂的，而小于63μm的颗粒物在水体中的时空分布较均匀且代表了SPM的主要组成［6］.在河口地区，40—60μm的颗粒物是其主要的SPM［7］，因此我们用河口表层(≤2cm)底泥处理制成SPM作研究.
+3.2　TBT和DBT在SPM上的吸附动力学
+　　当盐度为15，SPM浓度为1g/L,pH值为8.0，TBT或DBT浓度为1ng/L，温度为(20±0.5)℃时，TBT或DBT在SPM上的吸附量随时间的变化如图1.
+
+
+图1　TBT， DBT的吸附速率曲线
+Fig.1　Adsorption rate of TBT and DBT
+
+从图1可看到，TBT和DBT在SPM上的吸附均较快，且TBT的吸附较DBT多.用Kuo和Lake经验公式k=x/C0t1/m［8,9］来描述所得吸附速率方程见表2.从方程可推知：TBT和DBT在SPM上的吸附分别需7h和9h即达平衡，这样的吸附平衡时间对我们的实验室模拟是可行的.为便于TBT和DBT吸附的比较，我们以24h作为平衡时间.
+表2　TBT、DBT的吸附速率方程*
+Table 2 Adsorption rate equation of TBT and DBT
+
+化合物km吸附速率方程相关系数r
+TBT1003.06x=100C0t0.330.9925
+DBT13.41.72x=13.4C0t0.580.9968
+
+　　*弃去达平衡后的点，经lgx-lgt线性回归而得
+
+
+图2　吸附量与SPM浓度的关系曲线
+Fig.2　Relationship between adsorptivecapacity and concentration of SPM
+
+3.3　TBT和DBT在SPM上吸附的影响因素
+3.3.1　SPM浓度　控制其他条件如3.2节所述,振荡24h，作出TBT和DBT的吸附随SPM浓度的变化曲线(图2).其变化趋势与水体颗粒物对重金属污染物的吸附情形相似，也符合颗粒物的浓度效应［10］.SPM浓度增大使颗粒物之间相互碰撞的机率增大，SPM又是一些具有活性官能团的复合体，因碰撞会发生絮凝，使比表面积减小，吸附点位减少，吸附量便降低.只是这种相互作用在较高浓度时被SPM表面电荷的静电斥力所克服，TBT和DBT的吸附量受SPM浓度的影响便不明显，趋于一个较稳定的值.
+3.3.2　SPM的TOC含量　自制SPM均属重粘土类型，即它们的矿物性质相似，而总有机碳(TOC)含量上有差异，对TBT、DBT这样的金属有机物，SPM的TOC含量对其吸附是有影响的(图3所示)，从SPM1到SPM5，TOC含量由0.48%升至1.72%，TBT和DBT的吸附量却分别增加约28%和27%，可见，SPM的TOC含量的较小改变已导致吸附量较大变化，对其中的关系有待更深入的研究.
+3.3.3　pH值　当其它条件同3.3.1节，SPM浓度为1g/L时，TBT和DBT在SPM上的吸附随pH值变化结果见图4.图4表明pH值较小时，吸附量也较小，因体系中较高浓度的H3O+将与以正离子形态存在的TBT或DBT共同竞争吸附点位；而随pH值不断增大，SPM的表面电荷状况及TBT或DBT的存在形态将发生变化［11］，使吸附更易于发生，吸附量便不断增加，当pH值约为6或7时，DBT或TBT的吸附量分别达到最大值；pH值再升高时，吸附量反而减小，当超过9.5后，吸附量又稍有增加(因体系中可溶Ca2+,Mg2+形成氢氧化物胶体增加了部分吸附).
+
+
+
+图3　TOC含量与吸附量的关系曲线
+Fig.3　Relationship between adsorptivecapacity and TOC content
+
+
+图4　pH值与吸附量的关系曲线
+Fig.4　Relationship between adsorptivecapacity and pH value
+
+
+3.3.4　盐度　同pH值一样，盐度也是河口地区变化较大的环境因子，盐度对吸附的影响情况见图5.结果表明，随盐度增加，TBT或DBT在SPM上的吸附稍有减小.由于体系中与TBT或DBT共同竞争吸附点位的离子增多(主要是阳离子)，故吸附量呈现减小趋势.但是氯离子的浓度会影响TBT或DBT的存在形态［11］，在某一盐度范围会使吸附更易于发生，吸附量便会在这一区间有所增加，这对DBT更为明显，可能由于DBT的形态转化受氯离子浓度影响更显著.
+3.3.5　腐殖酸浓度　腐殖酸是水体中重要的有机质，它具有很强的螯合能力，对水体中的污染物有着重要的影响.对TBT和DBT在SPM上的吸附，腐殖酸浓度大小也呈现出较大影响(如图6所示)，当浓度增加时，TBT、DBT在SPM上的吸附量均有所增大，并且开始时增加迅速，然后则缓慢增加至趋于稳定.这一方面由于腐殖酸被SPM吸附后增加了SPM的表面活性官能团，另一方面TBT或DBT与腐殖酸形成络合物后更易于被SPM吸附，尤其在腐殖酸浓度较低时，这种变化更为显著，当浓度较高时TBT或DBT与腐殖酸形成大量的负聚合物阻止了它们在负电荷的SPM上的吸附［3］，因而吸附量增加缓慢甚至趋于稳定.
+
+
+图5　盐度与吸附量的关系曲线
+Fig.5　Relationship between adsorptivecapacity and salinity
+
+
+图6　腐殖酸浓度与吸附量的关系曲线
+Fig.6　Relationship between adsorptivecapacity and 
+adsorption capacity and concentration of humic acid
+3.3.6　温度-吸附等温线的绘制与研究　选择了3个较典型的温度条件来考察TBT或DBT的吸附行为.绘制了(20±0.5)℃下TBT和DBT在SPM5(TOC=1.72%)上的吸附等温线.各等温线如图7和图8所示.
+　　通过在SPM5上的吸附等温线可看到：在相同条件下TBT在其上的吸附量较在SPM2上大得多，而DBT的这种差别较小，从而初步说明SPM的TOC含量对TBT或DBT的吸附均有影响，而以TBT更为明显.
+　　描述水环境中的吸附通常用Freundlich或Langmuir吸附等温方程［12—15］，对于TBT和DBT在SPM上的吸附行为我们分别地用两方程进行讨论，结果见表3至表6.表中相关系数表明，在研究所采用的温度和浓度条件下，Freundlich或Langmuir等温方程均可较好地描述TBT、DBT在SPM上的吸附行为.
+
+
+图7　TBT的吸附等温线
+1:SPM5(20±0.5)℃ 2:SPM2(12±0.5)℃
+3:SPM2(30±0.5)℃ 4:SPM2(20±0.5)℃
+Fig.7　Adsorption isotherms of TBT
+
+
+图8　DBT的吸附量温线
+1:SPM5(20±0.5)℃ 2:SPM2(20±0.5)℃
+3:SPM2(30±0.5)℃
+Fig.8　Adsorption isotherms of DBT
+表3　TBT的Freundilch等温方程
+Table 3 Freundlich′s Langmuir′s isotherms equation of TBT
+
+SPM温度，℃吸附常数Freundilch等温方程相关系数 r适用浓度范围，μg/mL
+kn
+SPM2(12±0.5)77051.026x/m=7705Ce1.0260.98900.031—0.467
+(20±0.5)33421.073x/m=3342Ce1.0730.99900.055—0.961
+SPM5(30±0.5)46911.209x/m=4691Ce1.2090.95660.077—0.726
+(20±0.5)118411.090x/m=11841Ce1.0900.93550.037—0.361
+
+表4　TBT的Langmuir等温方程
+Table 4 Langmuir′s Freundlich′s isotherms equation of TBT
+
+SPM温度，℃饱和吸附量，
+μg/g吸附常数
+bLangmuir等温方程相关系数
+r适用浓度范围，
+μg/mL
+SPM2(12±0.5)40001.47　1/G=-0.00025+0.00017/Ce0.96580.031—0.0467
+(20±0.5)50000.501/G=-0.0002+0.0004Ce0.99960.055—0.961
+SPM5(30±0.5)16671.201/G=-0.0006+0.0005/Ce0.82950.077—0.726
+(20±0.5)16673.001/G=-0.0006+0.0002Ce0.82120.037—0.361
+
+表5　DBT的Freundilch等温方程
+Table 5 Freundlich′s isotherms equation of DBT
+
+SPM温度，℃吸附常数Freundilch等温方程相关系数 r适用浓度范围，μg/mL
+kn
+SPM2(20±0.5)14551.195x/m=1455Ce1.1950.98540.106—0.170
+(30±0.5)12050.956x/m=1205Ce0.9560.97850.095—1.262
+SPM5(20±0.5)15371.106x/m=1537Ce1.1060.99680.095—1.161
+
+表6　DBT的Langmuir等温方程
+Table 6 Langmuir′s isotherms equation of DBT
+
+SPM温度，℃饱和吸附量，
+μg/g吸附常数
+bLangmuir等温方程相关系数
+r适用浓度范围，
+μg/mL
+SPM2(20.0±0.5)11110.751/G=-0.0009+0.0012/Ce0.98520.106—1.170
+(30.0±0.5)250000.05　1/G=-0.00004+0.0008/Ce0.95500.095—1.262
+SPM5(20.0±0.5)20000.561/G=-0.0005+0.0009/Ce0.99250.095—1.161
+
+3.4　现场采样调查
+　　从海河河口的两个点采集水样，经分析后表明(表7)：海河河口存在丁基锡化合物(主要是TBT及其降解产物DBT)，且在其中的SPM上吸附较多(吸附百分率均大于45%).结果还表明水样1即新港船厂附近的TBT和DBT浓度远高于水样2(采自二港池)，这由于新港船厂附近可能存在直接污染源(防污涂料的倾倒)，同时新港客运码头船只停泊多且水交换条件较差，其中TBT、DBT不易向外海扩散迁移，故浓度较高.但无论在哪个位置，水体中的SPM均发挥较大的吸附作用，SPM吸附TBT或DBT后可使水体中游离态的TBT或DBT得到一定去除，对滤食性生物而言相对减小了TBT或DBT的毒性效应，而对碎屑性生物则存在食物链的放大，毒性效应反而加强.总之，SPM对TBT或DBT的吸附、对水体中TBT或DBT的迁移转化、存在形态及生物可用性状况都产生影响.
+表7　实际水样中的TBT和DBT及SPM对它们的吸附百分率
+Table 7 Concentration of TBT and DBT in sea water samples and their adsorption percentage on SPM
+
+水样项　　目TBT浓度，ng/mLDBT浓度，ng/mL
+1水样未经过滤(含SPM)0.78960.5968
+水样用0.45μm滤膜过程0.18670.2894
+TBT、DBT在SPM上的吸附百分率76.39%51.51%
+2水样未经过滤(含SPM)0.0177未检出
+水样用0.45μm滤膜过程0.00945未检出
+TBT、DBT在SPM上的吸附百分率46.61%/
+
+
+4　结语
+　　1.本文采用实际河口表层底泥制成SPM，克服了人工合成吸附剂的局限性，能够更直接而充分地反映实际状况，这可由实验室模拟测得TBT和DBT在SPM上的吸附百分率(分别为72%和52%)与实际水样分析结果(1号点分别为76%和52%)基本一致.
+　　2.通过本研究建立了测定分配系数Kp(悬浮物中与水相中浓度之比)的方法，并为建立多介质循环归趋综合数学模型提供科学数值依据.
+　　3.研究结果表明，SPM对TBT和DBT均存在较强吸附，吸附过程受SPM的浓度及TOC含量、pH值、腐殖酸浓度、温度和盐度影响.因此在TBT和DBT的污染地区，可通过调节各影响因素使SPM最大限度地吸附TBT和DBT，再滤除SPM便可使水体得到净化.
+参考文献
+　1　周名江，李正贵，颜　天等.海洋环境中的有机锡及其对海洋生物的影响.环境科学进展，1994，2(4)：67
+　2　Randall Louise , Weber J H.Adsorptive Behavior of Butyltin Compounds under Simulated Esturine Condition.Sci Total Environ,1986,57:191
+　3　Donald ofx, Weber J H.Behavior of Methyltin Compounds under Simulated Estudarine Conditions.Environ Sci Technol,1985,19(1):1104
+　4　Riley J P, Spinow G (ed.).Chemical Oceanography (2nd edition).Academic Prise,1975,1:559
+　5　黄国兰，蔡 勇，张卫华等.GC-AAS联用技基锡化合物.南开大学学报，1993，4：23
+　6　陈静生，王飞越，陈江麟.论小于63μm粒级作为水体颗粒物重金属研究介质的合理性及有关粒级转换模型研究.环境科学学报，1994，14(4)：419
+　7　金相灿，徐南妮，吴淑岱等.湘江悬浮沉积物对重金属镉和汞吸附-解吸速率研究.中国环境科学，1987，7(2)：21
+　8　Sparks O L.Kinetic of Potassium Desorption in Soil using Misscible Disllacement.Soil Sci Soc Am J,1980,44:1205
+　9　Sparks O L.Kinetic of Potassium Exchange in a Paleudult from the Coastal Plain of Virginia. Soil Sci Soc Am J,1980,44:37
+10　汤鸿霄.环境水质学的进展——颗粒物表面络合(下).环境科学进展，1993，1(2)：1
+11　Laughlin Jr R B et al.Tributyltin in Seawater:Speciation and Octanol-Water Partition Coefficient.Environ Sci Technol,1986,20(2):201
+12　Dalland C et al.The Adsorption of Organomercury Compounds from Seawater onto Sedimentary Phase. ACS Symp Ser,1986,305:369
+13 陈 松，廖文卓，艾宏稻等.长江口重金属元素固液界面过程Ⅱ:水和氧化铁对Pb\,Cu和Cd吸附的热力学模式.海洋学报，1984，6(3)：324
+14　张正斌，顾宏堪，刘莲生等.海洋化学.上海：上海科学出版社，1984:36
+15 Jewett K L,Brinckman F E. In:Brinckman F E, Bellama J M(eds.). Organometals and Organometalloids:Oceurrence and Fate in the Environment. ACS Symp Ser,1987,82:158
+1996-06-10收到原稿
+1997-03-22收到修改稿

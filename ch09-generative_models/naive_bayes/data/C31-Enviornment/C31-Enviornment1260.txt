@@ -1,0 +1,110 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+西湖底泥不同供氧条件下有机质降解及CO2与CH4释放速率的模拟研究
+　　周启星　朱荫湄　
+摘要　采用密闭培养实验装置于室温(25℃左右)及pH为7.5条件下，对西湖底泥中有机质完全降解及转化为CO2和CH4的速率进行了模拟研究.结果表明，在西湖湖水现有供氧水平(5.0—8.6mg(O2)/L)条件下，底泥中有机质完全降解的速率最为缓慢，培养期间(42天)平均只有0.72mg(C)/(kg*d).当湖水供氧水平进一步上升(8.6→12.0→16.0mg(O2)/L),CO2释放速率增加，最大值可达到8.7mg(C)/(kg*周);当湖水供氧水平下降(8.6→0mg(O2)/L),CH4释放速率加快，最大值可达到4.6mg(C)/(kg*周).
+关键词　底泥；有机质；完全降解速率.
+Simulated studies on degradation of organic matter and release of CO2 and CH4 in sediment from the west lake under various oxygen-supply conditions
+ZHOU Qixing, ZHU Yinmei 
+College of Natural Resources and Environmental Sciences, Zhejiang Agricultural University, Hangzhou 310029
+Abstract　Rates of complete degradation of organic matter in sediment from the West Lake and its changes into CO2 and CH4 were simulatively studied with the closed-culture experimental installation. Under the current oxygen-supply level(8.6 mg(O2)/L) of the West Lake water, the rate of complete degradation of organic matter in the sediment was slowest. The average degradation rate was only 0.72 mg(C)*kg-1*d-1 during the whole culture time. The release rate of CO2 increased with the increase(8.6→12.0→16.0 mg (O2)/L) in oxygen-supply levels of the West-Lake water. The maximum release rate of CO2 was up to 8.7 mg (C)*kg-1*week-1 under the experimental conditions. The release rate of CH4 also speeded up when dissolved oxygen in water decreased. The maximum release rate of CH4 was up to 4.6 mg (C)*kg-1*week-1 under the airtight culture condition.
+Keywords　sediment, organic matter, complete degradation rate.
+　　西湖位于杭州市近郊，为国家级著名风景、游览湖泊，面积5.6km2.近年来，由于采取了“环湖截污”和“钱塘江引水”等一系列工程整治措施，虽然在一定程度上改善了西湖水质，但湖泊底泥中有机质含量仍然很高(平均含量达到16.7%)，底泥中所含的养分因有机质降解不断释放进入上覆水中，湖泊富营养化问题没有得到根本的解决［1，2］.针对这一现状，我们采用实验室模拟方法对西湖底泥中有机质降解情况进行了研究，考察了同一水温及相同pH值但不同供氧水平下湖泊底泥中有机质完全降解及CO2和CH4等气体的形成与释放速率.
+1　材料与方法
+表1　试样的基本理化性状及培养试验的初始条件
+　Table 1 Basic physical and chemical properties of tested samples and initial conditions of the culture test
+
+基本性质试　样
+底泥水
+pH7.347.62
+有机质，%21.3
+有机碳，%12.7
+含水率，%81.3
+DO，mg(O2)/L　9.16
+总氮 mg/L1.36×1042.10
+NH+4-N,mg/L　0.45
+CO2,mg/L　24.9
+大肠菌群，个/L　8456
+
+1.1　材料
+　　随采样船用网兜于湖心采取一定数量的表层沉积物，用塑料桶采取一定数量的湖水.其中，底泥静置过夜沥去水分后，用塑料瓶密封与湖水分别置于5℃左右的冰箱内待用.表1为底泥和水样的某些基本理化性质.
+1.2　方法
+　　分别称取湿重为500g底泥，量取800mL湖水，置于5000mL以锥形瓶为主体的特制实验装置中(图1)，以形成溶解氧为8.6mg(O2)/L、pH为7.5的封闭体系.然后，在该体系的基础上，分以下4种处理进行为期6周的模拟实验［3，4］.
+
+
+图1　有机质降解密闭培养装置示意图
+Fig.1 Diagram of a closed-culture installation for the degradation of organic matter
+　　　(1)自始至终不向体系通入氧气，但每天轻轻摇动(尽量不扰动底泥为准)若干次，这期间水层溶解氧逐渐降至0mg(O2)/L；(2)每当水层中溶解氧降至5.0mg/L，就向体系边摇动边通入纯氧，使溶液溶解氧恢复至8.6mg(O2)/L；(3)先向水层通入纯氧使溶液溶解氧上升至12.0mg(O2)/L后，每当水层溶解氧下降至10.0mg(O2)/L时，就向体系边摇动边补充氧气使溶液溶解氧恢复至12.0mg(O2)/L；(4)先向水层通入纯氧使溶液溶解氧上升至16.0mg(O2)/L后，每当水层溶解氧下降至12.0mg(O2)/L，就向体系边摇动边补充纯氧使溶液溶解氧恢复至16.0mg(O2)/L.
+　　其中，每一处理重复2次，在遮光及室温(即实验水温控制在25℃左右)下进行.每隔一周用微量针筒抽取一定数量的气体，用气相色谱法测定CO2和CH4的浓度［5，6］.
+2　结果与讨论
+2.1　不同供氧水平对底泥中有机质降解的影响
+　　从热力学观点来看，底泥中所含的有机质是不稳定的，它迟早总要被氧化成CO2或还原为CH4，而使固定于其中的养分物质(包括N，P和微量元素)从底泥中释放出来［7，8］.也就是说，随着底泥中有机质的不断降解，N、P和微量元素得以释放，致使湖泊的富营养化现象更为明显.
+　　然而，实验表明，在温度、pH基本不变的情况下，这一环境生态化学过程受系统中氧气供应状况(即Eh变化)的影响.从表2可以看出，不论在培养的头1周，还是在培养的最后1周， 有机质矿化产物(CO2和CH4之和)累积浓度都以湖水溶解氧为5.0—8.6mg(O2)/L时为最低.也就是说，在与湖水现有供氧水平(5.0 —8.6mg(O2)/L相同的情况下，有机质降解速率最低，随时间变化的动态回归方程为： Y1=0.61t+7.15　(r=0.984，n=7).其中，Y1为培养体系中有机质矿化产物CO2和CH4之和的累积浓度(mg(C)/L)，t为培养时间(d).
+表2　不同供氧条件下有机质矿化产物的累积浓度(mg(C)/L)*
+Table 2 Cumulative concentration of mineralized products from organic matter under various oxygen-supply conditions
+处理培养时间，周
+123456
+密闭(8.6→0mg(O2)/L)9.916.721.726.732.036.3
+5.0—8.6mg(O2)/L9.416.221.626.129.030.4
+10.0—12.0mg(O2)/L9.518.024.229.032.635.3
+12.0—16.0mg(O2)/L10.018.728.335.540.543.9
+　　* 本实验所有处理，当t=0时，Y1=7.0 mg(C)/L
+　　表2还表明，当体系溶解氧进一步增加，由于有利于有机质转化为CO2，有机质降解速率加快.当体系溶解氧分别为10.0—12.0和12.0—16.0　mg(O2)/L时，有机质矿化随时间变化的动态回归方程分别为：Y1=0.73t+6.90 (r=0.987,n=7) 或 Y1=0.96t+6.13 (r=0.989,n=7).可见，有机质降解速率随湖水中溶解氧增加而增加.
+　　而在密闭条件下，即水层溶解氧由8.6 mg(O2)/L降至0 mg(O2)/L时，体系因缺氧导致有机质转化为CO2的循环支路受到抑制，而这种厌氧环境则促进了CH4的形成，有机质降解速率仍然有所增加，随时间变化的回归方程为：Y1=0.73t+6.14 (r=0.998,n=7).
+　　根据上述回归方程的计算表明，湖泊底泥中有机质降解是一非常缓慢的过程，密闭或补充氧气均在一定程度上有助于底泥中有机质的降解.但是，西湖周围还存在着地表径流，外界随时都有一定数量的有机质输入湖水中，以及湖水中还有一部分无机碳转化为有机碳，它们通过沉降富集在底泥中，致使西湖底泥中有机质含量一直维持在很高的水平.
+2.2　不同供氧条件下底泥中CO2释放速率
+　　湖水中溶解氧的增加，有利于底泥中有机质转化为CO2.而且，随着培养时间的延长，这种趋势愈为明显.从第1周产生的CO2累积浓度来看，密闭(湖水溶解氧由8.6降至0 mg(O2)/L)条件下为7.8 mg(C)/L，而湖水溶解氧上升至12.0—16.0 mg(O2)/L时达到8.4 mg(C)/L，两者相差不大.但是，以后各周由于CO2产生的量随湖水溶解氧增加而增加，致使到了第6周后，密闭条件下CO2累积浓度仅为16.7 mg(C)/L，而湖水溶解氧为12.0—16.0 mg(O2)/L的处理CO2累积浓度则高达38.7 mg(C)/L(表3)，后者为前者的2.32倍.回归分
+表3　不同供氧条件下有机质转化为CO2的累积浓度(mg(C)/L)*
+Table 3 Cumulative concentration of CO2 from organic matter under various oxygen-supply conditions
+
+处理培养时间，周回归方程
+123456
+密闭(8.6→0mg(O2)/L)7.812.214.315.816.516.7Y2=0.26t+7.41 (r=0.951,n=7)
+5.0—8.6mg(O2)/L7.011.615.017.619.119.7Y2=0.35t+6.48 (r=0.974,n=7)
+10.0—12.0mg(O2)/L7.614.218.822.525.227.4Y2=0.54t+6.16 (r=0.986,n=7)
+12.0—16.0mg(O2)/L8.416.024.731.335.738.7Y2=0.84t+5.45 (r=0.988,n=7)
+
+　　* 对于所有处理，当t=0时，Y2=6.7 mg(C)/L；Y2为培养时间有机质转化为CO2的累积浓度( mg(C)/L)，t为时间(d)
+析也表明，在实验条件下，底泥中有机质转化为CO2的速率，既是时间的函数，又受不同供氧水平的影响.
+
+
+    图2　不同供氧条件下底泥中有机质降解转化为CO2的速率
+Fig.2 Rate of organic matter in sediment degrading into CO2 under various oxygen-supply conditions
+从图2则可以看出，在培养的头1周内，4种处理的CO2周释放速率大致相等，为7.0—8.4 mg(C)/kg；在培养的第2周，8.6—0 mg(O2)/L和5.0—8.6 mg(O2)/L两处理的CO2周释放速率接近，而10.0—12.0 mg(O2)/L和12.0—16.0 mg(O2)/L两处理的CO2周释放速率大体接近；在培养的第3周，12.0—16.0 mg(O2)/L处理的CO2周释放速率达到最大值，为8.7 mg(C)/kg；到了第3周以后，各处理的CO2周释放速率虽然明显与供氧水平的增加有关，但就同一处理来说，其CO2周释放速率均呈下降趋势.特别当溶解氧为8.6—0 mg(O2)/L条件下，到了第6周后，CO2周释放速率只有0.2 mg(C)/kg.
+2.3　不同供氧条件下底泥中CH4释放速率
+　　与CO2的释放速率相反，当湖水中溶解氧增加时，有机质转化为CH4的速率呈减少趋势.
+　　当不向水层通入溶解氧的情况下，体系中CH4的释放速率在培养的头1周最低，其累积浓度为2.1 mg(C)/L；以后各周由于有机质转化为CH4的速率加快，到了第6周后，体系中CH4的累积 浓度达到19.6 mg(C)/L(表4)；从培养的整个时间来看，当不向水层通入溶解氧的情况下体系中CH4的累积浓度随时间变化的动态回归方程为：Y3=0.47t+1.27 (r=0.989,n=7).其中，Y3为培养时间内有机质转化为CH4的累积浓度(mg(C)/L)，t为时间(d).
+表4　不同供氧条件下有机质转化为CH4的累积浓度(mg(C)/L)*
+Table 4 Cumulative concentration of CH4 from organic matter under different oxygen-supply conditions
+
+处理培养时间，周回归方程
+123456
+密闭(8.6→0 mg(O2)/L)2.14.57.410.915.519.6　
+5.0—8.6 mg(O2)/L2.44.66.68.59.910.7Y3=0.26t+0.67 (r=0.991 n=7)
+10.0—12.0 mg(O2)/L1.93.85.46.57.47.9Y3=0.19t+0.74 (r=0.982 n=7)
+12.0—16.0 mg(O2)/L1.62.73.64.34.85.2Y3=0.12t+0.68 (r=0.978 n=7)
+
+　　* 对于所有处理，t=0时，Y3=0.2 mg(C)/L
+　　图3表明，在培养的头1周内，以5.0—8.6 mg(O2)/L处理的CH4周释放速率最大，为2.4 mg(C)/kg;以后各周均以8.6—0 mg(O2)/L(密闭)处理的CH4周释放速率最大，到了第6周后达到极大值，为4.6 mg(C)/kg；而且，随着不同处理中溶解氧的增加，CH4周释放速率降低.特别是12.0—16.0 mg(O2)/L的处理，在培养的最后1周，其CH4周释放速率仅为0.4 mg(C)/kg.　　
+
+
+图3　不同供氧条件下底泥中有机质降解转化为CH4的速率
+Fig.3 Rate of organic matter in sediment turning into CH4 under different oxygen-supply conditions
+3　结论
+　　西湖底泥中有机质降解是一非常缓慢的环境生态化学过程，在温度和pH不变的情况下，不同供氧水平对这一过程发生重要影响.在西湖湖水现有供氧水平(5.0—8.6 mg(O2)/L)条件下的任一时间内，底泥中有机质降解速率均最小.当湖水中溶解氧进一步增加，底泥中CO2的释放速率加快.其中，湖水溶解氧为10.0—12.0 mg(O2)/L处理的CO2周释放最大速率达到7.6 mg(C)/kg，湖水溶解氧为12.0—16.0 mg(O2)/L处理的CO2周释放最大速率达到8.7 mg(C)/kg.相反，在密闭(即溶解氧全部被消耗)情况下，CH4的周释放最大速率可达到4.6 mg(C)/kg，这就是说，厌氧环境由于加速了CH4的形成，在总体上也增加了有机质的降解速率.
+* 浙江省自然科学基金和中国科学院南京土壤所土壤圈物质循环开放研究实验室资助项目
+作者单位：周启星　朱荫湄　浙江农业大学环境与资源学院，杭州310029
+参考文献
+　［1］　金相灿等.中国湖泊富营养化.北京：中国环境科学出版社，1990 
+　［2］　陈宜宜等.西湖底泥中酶活性与养分释放的关系.浙江农业大学学报，1997，23(2)：171—174
+　［3］　刘鸿亮等.湖泊富营养化调查规范.北京：中国环境科学出版社，1990
+　［4］　Cornfield A H. A simple technique for determing mineralization of carbon during incubation of soils treated with organic materials. Plant and Soil, 1961,14:90—93
+　［5］　国家环境保护局.环境监测分析方法.北京：中国环境科学出版社，1986
+　［6］　柳庸行.气相色谱在环境监测分析中的应用.北京：中国环境科学出版社，1986
+　［7］　Gibson C E, Stewart D A.Nutrient cycles in Lough Neagh. In: Wood R B, Smith R V (eds).Lough Neagh: Kluwer Academic Publishers, 1993:171—201
+　［8］　陶 澍等.我国东部主要河流河水腐殖酸的起源、含量及地域分异规律.环境科学学报，1988，8(3)：286—290
+1997-07-16收到原稿　1997-12-09收到修改稿

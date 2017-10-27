@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.56-58
+
+
+
+
+水环境质量评价的普适指数公式
+李祚泳　 郭丽婷　 欧阳洁　 
+摘　要：在适当设定水质指标的“基准”值情况下，用相对于“基准”值的指标相对值替换对数形式的指数公式中的水质指标值，采用遗传算法优化不同指标的指数公式中的参数，得到对多项指标通用的水质普适指数公式；并用折衷型激励功效函数将单项指标的指数加权为综合指数。公式的正确性已被多处水质评价检验。
+关键词：水质评价；　指数；　遗传算法；　参数优化；　功效函数
+分类号：X824　文献标识码：A
+文章编号：1001-6929(2001)03-0056-03
+An Universal Index Formula Suited to Water Quality Evaluation
+LI Zuo-yong（Chengdu University of Information Technology, Chengdu 610041, China）　
+GUO Li-ting（Chengdu University of Information Technology, Chengdu 610041, China）　
+OUYANG Jie（Guangdong University of Technology, Guangzhou 510090, China）　
+
+Abstract：Based on hypothesis of “base value” of water quality parameter,the monitoring values of parameters in the water quality index formula with logarithm function form were replaced by their relative values,and the optimum for coefficients of different indexes in formula was carried out using genetic algorithms,and then an universal index formula of water quality suited to multi-parameter was presented.The comprehensive index of water quality can be calculated in the aid of the compromise active function weighting for each index.The formula was verified by assessing the water quality states of many spots with the above method.
+Keywords：water quality evaluation;　index;　genetic algorithms;　parameter optimum;　active function
+
+基金项目：国家“九五”重点科技攻关项目(96-911-08-03)
+作者简介：李祚泳(1944-)，男，四川宜宾县人，教授，硕士. 
+作者单位：李祚泳（成都信息工程学院，四川成都 610041）　
+　　　　　郭丽婷（成都信息工程学院，四川成都 610041）　
+　　　　　欧阳洁（广东工业大学，广东广州 510090）　
+
+参考文献：
+［1］Palmer M W.Putting things in even better order:the advantanges of canonical correspondence analysis [J].Ecology,1993,74(8):2215～2230.
+［2］李祚泳.人工神经网络在水环境质量评价中的应用[J].中国环境监测,1996,12(2)：36～38.
+［3］樊文艳,吴国之.水质综合评价的物元模型的建立与应用[J].上海环境科学,2000,19(5)：205～207.
+［4］李祚泳.B-P网络用于水质综合评价方法的研究[J].环境工程,1995,13(2)：51～53.
+［5］Holland J H.Genetic algorithms[J].Scientific American,1992,(4):44～50.
+［6］李祚泳,王珏,刘国东,等.大气质量污染损失率评价模型参数的GA优化[J].环境科学研究,2001,14(2)：7～10.
+［7］朱发庆,高冠民,李国倜,等.东湖水污染经济损失研究[J].环境科学学报,1993,13(2)：214～222.
+
+收稿日期：2000年9月15日
+出版日期：2001年5月30日

@@ -1,0 +1,120 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+聚合酶链式反应(PCR)用于检测环境水体指示菌的研究*
+明镇寰　黄　朴　虞左明　詹　立
+摘要　对聚合酶链式反应(polymerase chain reaction,PCR)快速检测水体指示菌——大肠菌群(total coliform)和大肠杆菌(Escherichia coli)进行了研究.采用的两对引物分别扩增了LacZ基因的约260bp和UdiA基因的约150bp DNA片段.引物Ⅰ和引物Ⅱ最低能分别扩增10-6μg或10-8μg基因组DNA.整个检测工作在采集水样后5—6h内完成.与常规水质检测法相比，PCR法具有快速，准确的特点，是有效监测环境水体指示菌的一种潜在的新方法.
+关键词　聚合酶链式反应，大肠菌群，大肠杆菌，环境水体检测.
+Detection of indicator bacteria in water bodies using polymerase chain reaction
+MING Zhenhuan,HUANG Pu (College of Life Science,Zhejiang University,Hangzhou 310012)
+YU Zuoming,ZHAN Li (Hangzhou Environmental Science Institute,Hangzhou 310007)
+Abstract　Polymerase chain reaction (PCR) procedure was applied for identification of two indicators,total coliform and E.coli,in various water samples.Two oligonucleotide primers were used in this procedure to amplify LacZ gene DNA fragments of total coloform and UdiA gene DNA fragments of E.coli respectively.According to the results of agarose gel electrophoresis,the length of the DNA fragments amplified were about 260bp and 150bp respectively.In serial dilution experiments,as few as 10—100 bacteria and 10-6μg genomic DNA were detected by primer for LacZ gene in total coloform and 1—10 bacteria and 10-8μg genomic DNA by primer for UdiA gene in E.coli.Only 5—6 hours were needed to finish the assay after samples gathered.A total 40 water samples were detected by the PCR procedure and multi－tube－fermentation(MTF) method.The coincidence of the two methods was 100% in big volume water sample and 77.5% in small volume water sampel.
+Keywords　PCR,total coliform,E.coli,detection of water bodies.
+　　大肠菌群是一大类革兰氏阴性杆菌，它包括人与哺乳类动物肠道中的正常寄生菌和肠道病原菌，以及土壤和水体中的腐生菌.大肠杆菌是大肠菌群的典型代表.长期来，两者作为水体指示菌一直受到环保部门的监控，其中大肠杆菌更是被用作水体粪便污染的最佳指示菌［1］.目前被各国普遍采用的水体指示菌常规检测方法是多管发酵法(MTF法)和滤膜法(MF法)［2—4］，用这两种方法完成一次水样检测均需2—3天的时间.近年，有人提出了一种新的水质检测法——Autoanalysis Coliert,简称AC法［5］.它利用大肠菌群的β-半乳糖苷酶使底物中的邻硝基苯-β-D-半乳吡喃糖苷分解而使无色培养液变成黄色，利用大肠杆菌的β-D-葡糖醛酸酶(GUD)使荧光底物4-甲基伞形酮-β-D-葡萄糖苷构型改变在366nm处产生荧光而将两种指示菌检测出来.AC法由于其操作和设备要求简单，检测时间较短，结果稳定，已被美国等国的环保部门批准用于对水体中大肠菌群的检测，但对大肠杆菌的检测还需要其它实验进行确证［6］.最近的研究表明，利用GUD基因来检测大肠杆菌则可避免上述表型检测的缺陷，具有更高的准确性［7］.PCR技术的出现为这种基于基因水平的检测提供了方便［8—10］，使研究者们试图建立一种快速、专一、灵敏地检测水体指示菌的新方法.本文的研究也是基于此目的，在用PCR技术对杭州西湖湖水、城市河道河水、钱塘江水体中的指示菌的检测上进行了一些探索.
+1　材料与方法
+1.1　材料
+1.1.1　细菌菌种　肠道细菌：大肠杆菌(本院生化室保存)，柠檬酸杆菌，产气杆菌，肺炎克氏杆菌，变形杆菌，宋内志贺菌(以上菌种购自浙江省防疫站).其它细菌：枯草芽孢杆菌(本院微生物室提供)，假单孢杆菌(购自浙江省防疫站).
+1.1.2　检测水样　取自杭州西湖湖水，杭州城市河道河水，钱塘江水.
+1.1.3　PCR引物　本实验设计的两对引物由北京赛百盛生物工程公司合成，序列如下：
+　　引物Ⅰ：5′－ATGAAAGCTGGCTACAGGAAGGCC－3′
+　　　　　　5′－GGTTTATGCAGCAACGAGACGTCA－3′
+　　引物Ⅱ：5′－AAAACGGCAAGAAAAAGCAG－3′
+　　　　　　5′－ACGCGTGGTTACAGTCTTGCG－3′.
+1.1.4　PCR扩增仪　美国产Stratagene梯度热循环仪.
+1.2　方法
+1.2.1　DNA的提取　细菌DNA的提取参照Yuli Tsai等人的方法［11］，10mL和1mL水样样本(简称大样本和小样本)DNA的提取分别用Degrange等人的方法［12］和蛋白酶K法.
+1.2.2　DNA的定量测定　用紫外分光光度计测定OD260和OD280的吸收值，并以此判断DNA的纯度和浓度.
+1.2.3　PCR扩增反应　采用30μL反应体系，引物浓度0.2μmol/L，4种dNTP的浓度分别为200μmol/L,MgCl2浓度为2.5mmol/L，扩增参数为：引物Ⅰ，94℃预变性3min，94℃变性1min，64℃复性30s，72℃延伸30s，扩增35个循环；最后72℃延伸3min；引物Ⅱ，94℃预变性3min，94℃变性1min，55℃复性、延伸1min，扩增35个循环，最后55℃延伸3min.
+1.2.4　PCR扩增产物的检测　使用1.5%琼脂糖凝胶(含溴化乙锭0.5μg/mL)电泳，紫外灯下观察电泳结果并拍照，产物分析参照DNA分子量标准(DNA Marker:1543bp,994bp,695bp,515bp,377bp,237bp)
+2　结果与讨论
+2.1　引物Ⅰ和引物Ⅱ的PCR扩增结果
+　　两对引物分别是针对大肠菌群中普遍存在的lacZ基因和大肠杆菌的UdiA基因而设计的.纯培养大肠杆菌DNA和水样菌体DNA的PCR扩增产物的电泳结果如图1所示.两对引物在大肠杆菌和水样标本DNA为模板的扩增中，出现了位置相同的扩增条带.根据DNA分子量标准推算，两个条带的大小分别约为260bp和150bp.这说明设计的引物对大肠杆菌(或大肠菌群)是特异的，也说明在采集的水样中有大肠杆菌和大肠菌群的存在.
+
+
+图1　PCR扩增产物的凝胶电泳图谱
+1：大肠杆菌的引物Ⅱ扩增产物，2：水样标本的引物Ⅱ扩增产物，3：DNA分子量标准，4：大肠杆菌的引物Ⅰ扩增产物；5：水样标本的引物Ⅰ扩增产物
+Fig.1 Electrophoretogram of PCR amplified products
+1.Amplified products of E.coli sample by primer Ⅱ;2.Amplified products of water sample by primer Ⅱ;3.DNA marker;4.Amplified products of E.coli sample by primer I;5.Amplified products of water sample by primer Ⅰ
+2.2　PCR扩增的灵敏性和特异性
+　　分别以10倍系列稀释的大肠杆菌培养菌液抽提的DNA和已知浓度的大肠杆菌DNA溶液的10倍系列稀释液为模板进行试验，结果表明引物Ⅰ和引物Ⅱ的模板量可分别少至10-6μg和10-8μg(见图2和图3)，少至1—10个大肠杆菌的DNA作为模板可被检出.
+
+
+图2　引物Ⅰ PCR扩增的灵敏性
+1：阳性对照，2：模板为10-2μg，3：模板为10-3μg,4：模板为10-4μg,5：模板为10-5μg,6：模板为10-6μg
+Fig.2 The sensitivity of PCR amplification by primer I
+1.Positive control;2.10-2μg DNA as template;3.10-3μg DNA as template;4.10-4μg DNA as template;5.10-5μg DNA as template;6.10-6μg DNA as template
+
+
+图3　引物Ⅱ PCR扩增的灵敏性
+　1：模板为10-8μg,2：阳性对照，3：模板为10-7μg,4：模板为10-6μg,5：模板为10-5μg,6：模板为10-4μg,7：模板为10-3μg
+Fig.3 The sensitivity of PCR amplification by primer Ⅱ
+　1.10-8μg DNA as template;2.Positive control;3.10-7μg DNA as template;4.10-6μg DNA as template;5.10-5μg DNA as template;6.10-4μg DNA as template;7.10-3μg DNA as template
+　　分别以几种肠道细菌和假单胞杆菌，枯草芽孢杆菌等非肠道细菌的DNA作为模板进行扩增的结果显示，在引物Ⅰ的扩增中，除变形杆菌以外的肠道细菌均有相同的扩增条带产生，而两种非肠道细菌未有条带产生，如图4.在引物Ⅱ的扩增中，只有大肠杆菌和宋内志贺菌有目的条带产生，如图5.这表明两个引物的扩增具有较好的特异性.
+
+
+图4　引物Ⅰ PCR扩增的特异性
+1：模板为芽孢杆菌DNA，2：模板为柠檬酸杆菌DNA，3：模板为假单胞杆菌DNA，4：模板为肺炎克氏杆菌DNA，5：模板为产气杆菌DNA，6：模板为阴沟产气杆菌DNA，7：模板为变形杆菌DNA，8：模板为宋内志贺菌DNA，9：模板为大肠杆菌DNA，10：DNA分子量标准
+Fig.4 The specificity of PCR amplification by primer Ⅰ
+1.Bacillus DNA as template;2.Citrobacter DNA as template;3.Pseudomonas DNA as template;4.Klebsiella DNA as template;5.Enterobacter aeroenes DNA as template;6.Enterobacter cloaceae DNA as template;7.Proteus DNA as template;8.Shigella DNA as template;9.E.coli DNA as template;10.DNA marker
+
+
+图5　引物Ⅱ PCR扩增的特异性
+1：模板为产气杆菌DNA，2：模板为柠檬酸杆菌DNA，3：模板为肺炎克氏杆菌DNA，4：模板为宋内志贺菌DNA，5：模板为大肠杆菌DNA，6：DNA分子量标准
+Fig.5 The specificity of PCR amplification by primer Ⅱ
+1.Enterobacter aerogenes DNA as template;2.Citrobacter DNA as template;3.Klebsiella DNA as template;4.Shigella DNA as template;5.E.coli DNA as template;6.DNA marker
+2.3　非靶DNA存在对目的DNA扩增的影响
+　　由于实际检测的水样标本中含有大量的各种生物，所以提取的水样DNA也包含了大量的非目的DNA，这些异源DNA的存在对目的DNA的扩增可能产生的影响对PCR法能否用于检测环境水体指示菌是至关重要的.我们的研究表明，一般情况下，这种非靶DNA的存在对检测结果不会产生干扰.在用凤尾竹DNA做的干扰实验中，在其量大于目的DNA 3000倍的情况下，仍不影响目的DNA的检出.
+2.4　环境水体指示菌PCR检测结果
+　　我们用PCR法检测了杭州西湖湖水，城市河道河水，钱塘江水等共计40份水样中指示菌的存在情况，检测结果均与常规的MTF法进行了对照，部分结果见表1.在所检测的水样中，大水样样本其PCR检测结果与MTF法完全一致，符合率100%；而小水样样本的检测中，40份水样中有31份检测结果与MTF法一致，符合率77.5%.整个检测工作在水样采集后5—6h内完成.图6和图7为部分水样的PCR检测结果.我们的研究表明PCR法检测水体指示菌具有快速，准确的特点，是有效监测环境水体指示菌的一种潜在的新方法.
+表1　环境水体指示菌PCR检测和MTF检测结果对照
+Table 1 Comparision of detective results by PCR and MTF methods
+
+水样来源MTF检测PCR检测水样来源MTF检测PCR检测
+0.1mL1mL0.1mL1mL0.1mL1mL0.1mL1mL
+里西湖北-+-+朱头角中++++
+湖心处++-+朱头角右++++
+少年宫-+-+袁浦左++++
+金沙涧++-+袁浦中++-+
+龙弘涧++++袁浦右++-+
+长桥溪++++七堡左++++
+半山桥++++七堡中++-+
+坝子桥++++七堡右++++
+清泰门-+-+闸口左++-+
+化仙桥++++闸口中-+-+
+华家桥++++闸口右-+-+
+朱头角左++-+　
+
+　　“+”表示检测结果为阳性，“-”表示检测结果为阴性
+
+
+图6　部分水样使用引物Ⅰ的PCR检测电泳图谱
+1—9：水样DNA扩增产物，水样分别取自杭州西湖湖水，城市河道河水和钱塘江水，10：DNA分子量标准
+Fig.6 Electrophoretogram of PCR detection for some water samples by primer Ⅰ
+1—9.amplified products of water sample DNA from the West Lake,City rivers and Qiantang River respectively;10.DNA marker
+
+
+图7　部分水样使用引物Ⅱ的PCR检测电泳图谱
+1—9：水样DNA扩增产物，水样分别取自杭州西湖湖水，城市河道河水和钱塘江水，10：DNA分子量标准
+Fig.7 Electrophoretogram of PCR detection for some water samples by primer Ⅱ
+1—9.amplified products of water sample DNA from the West Lake,City rivers and Qiantang River respectively;10.DNA marker
+* 浙江省科委项目(971103079)和浙江省教委项目资助
+作者单位：明镇寰　黄　朴：浙江大学生命科学学院，杭州　310012
+虞左明　詹　立：杭州市环境保护科学研究所，杭州　310007
+参考文献
+1　Dufour A P.In:Hoadley(ed).Bacterial indicators/health hazards associated with water.ASTM publication,Philadelphia,1977:59—64
+2　Bissonnette G K,Jezeski J.Evaluation of recovery mmethods to detect coliforms in water.Appl Microbiol,1977,33:590—595
+3　McFeters G A,Cameron S C.Influence of diluents,media and membrane filters on the detection of injured waterborne coliform bacteria.Appl Environ Microbiol,1986,51:1007—1012
+4　McFeters G A,Staart D G.Survival of coliform bacteria in natural water field and laboratory studies with membrane－filter chambers.Appl Microbiol,1972,24:805—811
+5　Stephen C,Martin J.National field evaluation of a defined substrate method for the simultanneous enumeration of total coliforms and Escherichia coli from drinking water:comparison with the standard multiple tube fermentation method.Appl Environ Microbiol,1988,54:1595—1601
+6　Stephen C,Martin J.National field evaluation of a defined substrate method for the simultaneous detection of total Coliforms and Escherichia coli from drinking water:Comparison with presence－Absence Techniques.Appl Environ Microbiol,1989,55:1003—1008
+7　Fricker E J,Fricker C R.Application of the polymerase chain reaction to the identification of Escherichia coli and coliforms in water.Letters in Appl Microbiol,1994,19:44—46
+8 Saiki R K,Mullis K B.Enzymatic amplification of β－globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia.Science,1985,230:1350—1354
+9　Asim K B,,Steffan R J.Detection of coliform bacteria in water by polymerase chain reaction and gene probe.Appl Environ Microbiol,1990,56:307—314
+10 Mcdaniels A E,Rice A L.Confirmational identification of Escherichia coli,a comparison of genotypic and penotypic assays for glutamate decarboxylase and β-D-glucuronidase.Appl Environ Microbiol,1996,62:3350—3354
+11 Tsai Yuli,Olson B H.Detection of low numbers of bacterial cells in soils and sediments by polymerase chain reaction.Appl Environ Microbiol,1992,58:2292—2295
+12 Degrange V,Rardin R.Detection and counting of Nitrobacter populations in soil by PCR.Appl Environ Microbiol,1995,61:2093—2098
+1998-09-14收到原稿
+1998-12-25收到修改稿

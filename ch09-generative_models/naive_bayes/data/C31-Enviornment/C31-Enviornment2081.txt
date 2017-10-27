@@ -1,0 +1,79 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URAN ECOLOGY
+1999年　第12卷　第1期　Vol.12　No.1　1999
+
+
+
+光合细菌球形红杆菌对活性艳红X-3B
+的脱色作用及其与质粒的关系
+张波　张素蓉
+　　摘要　本文研究了光合细菌球形红杆菌在不同条件下对活性艳红X-3B的脱色效果及与质粒的关系。结果表明，球形红杆菌的培养条件对脱色效果有较大的影响，pH在6～9范围内24　h脱色率均在85%以上，最适pH稍偏碱为7～9；脱色的最适温度范围较宽，在15℃～40℃之间24h脱色率均在75%以上；氧的存在对脱色是不利的，厌氧条件下的脱色效果远远高于好氧条件下的脱色效果。结果还表明，该菌株质粒在琼脂糖凝胶电泳图谱上仅有一条质粒带。通过高温吖啶橙处理，消除该菌株的质粒后，该菌株的脱色能力也随之消失，从而证明该菌株的脱色能力是由质粒控制的。
+　　关键词　光合细菌球形红杆菌　活性艳红X-3B　脱色　脱色质粒
+Decolorization of Rhodobacter Sphacroides on Reactive 
+Red X-3B and it's Plasmid
+Zhang Bo　Zhang Surong
+　　(Department of Life Sciences,Shanxi University,Taiyuan 030006)
+　　Abstract　This paper studied the influence of three factors on decolorization and the relation between decolorization and plasmid.The results showed that cultural conditions greatly influenced decolorization rates.In pH6～9,the decolorization rates were over 85%and at 15℃～40℃,the decolorization rates were over 75%.The decolorization rates in anaerobic condition were higher than that in aerobic condition.By using the agar gel electrophoresis technique,it is found that the strain has a plasmid and fails to decolorize Reactive Red X-3B after removing its plasmids.These results showed the dye decolorizing ability of Rhodobacter sphacroides was controlled by its plasmids.
+　　Key words　rhodobacter sphacroides　　reactive red X-3B　　decolorization　　decolorization plasmid
+　　活性染料具有色泽鲜艳、色谱齐全、工艺简便、匀染性良好等优点。自1956年英国ICI公司开始生产以来，已被广泛用于毛纺、针织、印染等行业中。由于含活性染料的废水，色度深，COD值高，可生化性低，较其他种类的印染废水较难处理，故对活性染料的微生物降解脱色进行研究尤为必要。近年来，利用光合细菌对含染料的印染废水进行脱色处理，收到了较好的效果［1，2］。然而，光合细菌对多种活性染料降解能力的系统研究报道甚少，其降解染料的偶氮降解酶的基因是定位在细菌染色体上还是质粒上，迄今国内外尚未见报道。本文系统地研究了光合细菌球形红杆菌(Rhodobacter sphacroides 17023)对活性艳红X-3B的脱色条件并对其脱色与质粒的关系进行了研究。结果表明，光合细菌对活性艳红X-3B具有良好的脱色能力，其脱色效率受其培养条件的影响较大，同时也证明了该菌的脱色能力是由其质粒控制的，这意味着光合细菌偶氮降解酶的基因是定位在质粒而非染色体上，从而为培养多质粒高效脱色工程菌提供了理论依据。
+1　材料与方法
+1.1　菌种
+　　由美国典型培养物保藏中心提供的模式菌株球形红杆菌(Rhodobacter sphacroides 17023)。
+1.2　培养基成分
+　　酵母粉1.0　g，硫酸铵1.25　g，苹果酸2.5　g，硫酸镁0.2　g，氯化钙0.07　g，柠檬酸铁0.01　g，乙二胺四乙酸(EDTA)0.02　g，磷酸二氢钾0.6　g，磷酸氢二钾0.9　g，加双蒸水至1　L。其中苹果酸用氢氧化钠调至中性，培养基pH最终调至试验所需pH值。
+1.3　培养条件
+　　将培养3天的菌种液5　mL接种到100　mL培养基中培养(培养基中染料的浓度为50　mg/L)，培养温度25℃～30℃，光照强度1000～3000　LX。
+1.4　脱色能力的测定
+　　用752分光光度计定时测定活性艳红X-3B在其最大吸收峰520　nm处的OD值，并以不加菌的染料溶液作对照，计算脱色率，并以此表示脱色能力。
+1.5　质粒DNA的检测
+　　参照Kado和魏征宇的方法［3，4］，稍加修改，取厌氧光照培养3天的菌液1.5　mL于Epondoff管中，10000　rpm离心1　min，去上清液，菌体中加入50　μL TE缓冲液(40　mM Tris—乙酸，2　mM Na2EDTA，pH　7.9)悬浮后，加入　50　μL酚—氯仿混合液，充分振荡、混匀，12000　rpm离心5　min，取60～80　μL上清液进行琼脂糖平板电泳，琼脂糖浓度为0.7%，电泳缓冲液为Tris—硼酸缓冲液(89　mM Tris,89　mM 硼酸，2　mM EDTA)，50　V，电泳5～6h后，在紫外灯下观察结果，加红色滤光片照像。
+1.6　质粒的消除
+　　用高温吖啶橙消除质粒法进行。配制含吖啶橙50　μg/mL的培养基10　mL，接培养3天的菌液1　mL，45℃高温处理1　h，然后30℃培养48　h，挑单菌落接入含有50　mg/L活性艳红X-3B的培养基中，目测脱色情况并离心取上清液测OD值，将脱色与不脱色的菌液进行质粒检测。
+2　结果与讨论
+2.1　培养条件对脱色效果的影响
+　　脱色试验表明，球形红杆菌在pH　6～9范围内24　h脱色率均在85%以上，最适pH稍偏碱为7～9，见图1；球形红杆菌对温度适应范围较宽，在15℃～40℃之间24　h脱色率均在75%以上，见图2；球形红杆菌是一种兼性厌氯细菌，在光照厌氧，光照好氧、黑暗好氧、黑暗微好氧条件下均匀可生长，但利用此菌作为脱色菌，在厌氧条件下的脱色效果远远高于好氧条件下的脱色效果，结果见表1。
+
+
+图1　pH对脱色效果的影响
+
+
+图2　温度对脱色效果的影响
+表1　O2对脱色效果的影响
+
+脱色条件*处理时间(h)脱色率(%)
+024
+厌氧光照0.3880.05887.1
+微好氧光照0.3880.10373.4
+好氧光照0.3880.16258.3
+
+*本实验染料浓度均为50　mg/L。
+　　厌氧：100　mL血清瓶装满培养物，盖橡皮塞
+　　微好氧：500　mL三角瓶装100　mL培养物静置培养
+　　好氧：500　mL三角瓶装100　mL培养物磁力搅拌培养 
+2.2　质粒与脱色的关系
+　　经琼脂糖平板电泳检测，球形红杆菌含有一条质粒带，分子量约为14　kb左右，见图3。经高温吖啶橙处理1　h，其子代中有10%丧失了脱色能力，脱色率为零，经检测，不含质粒带，但其细菌学表型鉴定与原菌株相同。子代中90%的菌株仍具有脱色能力且含有与原菌株泳动度相同的质粒。球形红杆菌及其质粒消除菌对活性艳红X-3B的脱色情况列于表2。
+
+
+图3　质粒消除前后质粒DNA琼脂糖凝胶电泳图谱
+表2　质粒消除前后的脱色比较
+
+染料名称浓度
+(mg/L)脱色时间
+(h)脱色率均值(%)对照
+含质粒菌不含质粒菌对照
+活性艳红X-3B502484.200
+
+　　文献报道，一些细菌对染料降解的遗传物质基础位于质粒上［5，6］，本文通过对球形红杆菌脱色质粒的检测及消除试验，证明了该菌株偶氮降解酶的遗传基因也是定位在质粒上，这与文献报道结果相同。但文献报道，同一菌株对不同种类的染料脱色能力相差很大［7，8］，因此，对于含有多种染料的印染废水用单一菌株进行处理效果都不太理想，与实际应用有一定距离。如能借助分子生物学和遗传工程技术把不同菌株的脱色质粒克隆到某一菌株内构建“超级菌”，对多种染料均有高效脱色能力，从而提高印染废水的处理效果。对此，尚待进一步研究。 
+*山西省青年科学基金资助课题
+作者简介：张波　1962年生，理学硕士，副教授。公开发表论文10余篇。
+作者单位：山西大学生命科学系，太原030006
+参考文献
+　　1　吴国庆等.光合细菌对染料废水脱色的初步研究.环境科学，1989；10(5)：46～50
+　　2　牛志卿等.固定化紫色非硫光合细菌降解活性艳红X -3B的研究.环境科学，1994；15(5)：49～52
+　　3　Kado C.I. et al.Rapid Procedure for detection and isolation of large and small plasmids.J.Bacteriol.，1981；145(3)：1365～1373
+　　4　魏征宇等.质粒DNA的酚—氯仿一步抽提法.微生物学通报，1993；20(6)：375～376
+　　5　Kulla H.G.Aerobic Bacterial Degradation of azo dyes.387_390,Microbial degradation Xenobiotics recalcitrant compounds.Academic Press,London,1982
+　　6　曹孟德等.染料脱色菌RD2脱色质粒的初步研究.中国环境科学，1991;11(5)：348～350
+　　7　张波等.球形红杆菌对多种染料脱色的研究.山西大学学报，1995;18(2)：217～221
+　　8　曹孟德等.一株气单胞菌对活性染料脱色的研究.中国环境科学，1990;10(5)：347～351
+收稿日期：1998-12-03

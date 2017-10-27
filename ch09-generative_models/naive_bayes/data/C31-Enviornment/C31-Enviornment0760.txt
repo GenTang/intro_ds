@@ -1,0 +1,138 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+受酸性矿水污染河流中悬浮颗粒对铜的吸附特征
+栾兆坤　刘文新　汤鸿霄
+(中国科学院生态环境研究中心环境水化学国家重点实验室，北京　100085)
+
+摘要　通过现场实测数据与实验室模拟实验相结合，分析研究了受铜矿酸碱矿水污染河流沿程主要江段中铜在水与悬浮颗粒物之间的分配，模拟研究了悬浮沉积颗粒物的主要组份对铜离子的吸附特征.结果表明，污染河段中新生水合氧化铁/铝微粒表面具有显著的吸附作用并控制水中溶解态铜离子浓度.其吸附规律遵循表面络合反应特征并可用简化表面络合模式来描述.
+关键词　矿水污染水体；铁氧化物颗粒；吸附特征；表面络合模式.
+ADSORPTION CHARACTERISTICS OF COPPER IN RIVERS CONTAMINATED BY ACID MINE DRAINAGE FROM A COPPER MINE
+
+Luan Zhaokun, Liu Wenxin, Tang Hongxiao
+(Res Center for EcoEnviron Sci, CAS, Beijing 100085)
+
+ABSTRACT　Partitioning of copper between sediments and overlaying water in DawuLe An River contaminated by acid mine drainage was studied by field investigation and acid dissolution experiment. Simulated absorption experiments were carried out to study the absorption of copper on amorphous iron oxyhyroxide and ore tailing particles. The results showed that the binding of copper onto the surface of amorphous Fe/Al oxyhydeoxides and ore tailing particles regulated the concentrations of dissolved Cu at downstream of Dawu River and its inlet into Le An River. A significant part of adsorbed copper was likely to be associated with amorphous Fe/al oxyhydroxides coated on the surface of ore tailing particles. A simplified surface complexation model can be used to describe the absorption behavior.
+Keywords　copper, adsorption, mine, drainage.
+1　前言
+　　已有研究表明，天然水体中各种颗粒物对水中微量金属污染物的吸附作用，尤其是水合金属氧化物，对于从水中去除及改变固/水相面间微量金属污染物的分配起到了十分重要的作用［1，2］.一些研究还指出，由于水中铁、锰、铝离子的絮凝作用，使污染水体中普遍存在以粘土矿物为基质，在其表面形成Fe/Mn水合金属氧化物包裹层.这种表面包裹层微粒对微量金属污染物的强烈吸附作用被认为是去除水中重金属离子的重要界面反应［1，2，3—6］.目前，各种吸附模式，尤其表面络合模式已广泛地用来描述并解释发生在天然水体中的这类吸附作用［4—7］.
+　　铜矿酸性矿水含丰量的铁离子，在酸性矿水与天然水体混合过程中，Fe3+将发生的一系列水解沉淀反应，它不仅明显地改变了酸性矿水中金属污染物在天然水体中的迁移转化规律［8］，而且对控制及净化重金属污染物起到了极其重要的作用.所以，在估评酸性矿水对天然水体的污染冲击及其危害时，实际上只有围绕酸性矿水中丰量的铁离子在酸性矿水与天然水体混合过程中的这些物理化学变化及其迁移转化规律这一主题而开展研究工作，才能得到较为详细而系统的结论.
+　　本文通过现场实测数据与实验室模拟实验相结合，研究对比了铜矿酸碱矿水污染河流沿程主要江段中铁、铜在水/固相间的分配比例，并模拟研究了新生成的铁凝胶沉淀微粒，微细的尾矿砂颗粒及新生铁氧化物表面包裹层对水中铜离子的吸附特征，最后采用简化表面络合模式计算并加以讨论.
+
+2　材料与方法
+　　大坞乐安江河段流经中国最大的铜矿——德兴铜矿.长期以来，该河段已受到来自铜矿酸碱废水的严重污染［7］.现场采样点分布如图1所示.对现场采集的水样及悬浮沉积物进行了一系列分析测定，悬浮颗粒特征见文献［8］.
+
+
+图1　大坞乐安江现场沿江采样点分布
+Fig.1 Location of the sampling sites on 
+DawuLe An River
+酸解释放实验是在风干的5.0g表层沉积物中加入不同浓度的H2SO4溶液，在25℃下连续恒温振荡3h并平衡24h后，用0.45μm滤膜过滤，滤液酸化至pH2以下并采用ICP测定重金属含量.酸解释放实验结果表明，表层沉积物样品在0.05mol/L H2SO4溶液中所释放的铁和铜浓度与采用逐级化学提取法中的碳酸盐结合态(HOAC可提取态)和铁锰结合态(NH2OH*HCl可提取态)所提取浓度大致相同［9］.表明这部分铁和铜主要是可解离形态，属于沉淀或吸附行为所致.
+　　模拟吸附实验分别在100mL聚乙烯塑料瓶和高管沉降筒(容积70L)内进行.吸附实验采用去离子水并保持水的离子强度为0.1mol/L NaNO3，高管吸附沉降实验则用模拟配制的乐安江水.将预先制备的0.1%无定形氧化铁凝胶颗粒或细微尾矿砂颗粒(＜25μm)悬浊液分别放入塑料瓶或高管沉降筒内，再加入一定量的Cu离子溶液并预调pH至预定值(pH5—6).然后将100mL塑料瓶在往复式振荡器上振荡3h并平衡24h后，取50mL悬浊液样品直接用0.45μm滤膜过滤并酸化，另外50mL悬浊液定量加入0.05mol/L H2SO4溶液后再振荡3h并平衡24h后用0.45μm滤膜过滤并酸化.高管吸附沉降实验则是距表层1m深处进行连续缓慢地搅拌扰动，并于2m深处在一定间隔内取样经0.45μm滤膜过滤并酸化.最后，酸化滤液用PE300型原子吸收光谱仪测定Cu含量并依此计算出吸附量及解吸量.模拟解吸实验结果表明，在0.05mol/L H2SO4溶液中，约有90%—93%的铜离子可被解吸下来，表明这些铜离子是被吸附在微粒表面上.
+
+3　结果与讨论
+3.1　大坞乐安江水和悬浮沉积物中主要金属污染物的分布特征
+　　大坞乐安江典型站位的水中主要金属污染物的总量(T)和溶解态含量(D)概括于表1中.由表1可见，这些主要金属污染物无论总量还是溶解态含量的变化都呈沿程逐渐递减趋势，并且溶解态含量逐渐降低而颗粒态含量逐渐升高，在乐安江段，颗粒态含量达70%—90%.表明大坞乐安江水中主要金属污染物，尤其铁和铜沿程迁移形态的变化主要是由于沿程水体pH不断升高，导致大量的沉淀或吸附作用发生.
+　　表2是典型站位表层沉积颗粒中的铁、铝及铜含量及可酸解释放量.对乐安江典型站位(A04,A05,A13,A14)水中悬浮颗粒粒径测定结果表明，颗粒粒径为0.83—3.40μm(＞90%)，50%—70%的粒径小于1μm，颗粒物中含有大量的铁、铝和铜.从表2可见，除铝外，可酸解释放的铁和铜的比例也呈沿程递减趋势.在混合前(D8)，表层沉积物呈红褐色，可酸解释放的铁和铜分别达到58.9%和63.1%，X衍射分析表明主要是无定形铁氧化物.在混合江段(D14，A04和A05)，表层沉积物中可酸解释放的铁和铜只有20%—25%，而在乐安江下游(A13和A14)则只有13％—19%，X衍射分析表明，这些表层沉积物组份除了无定形铁氧化物外，主要是由微细尾矿砂和粘土矿物颗粒(≈80%)组成.
+表1　大坞乐安江典型站位的水中主要金属污染物的总量(T)和溶解态含量(D)(ppm)
+Tagle 1 Total (T) and dissolved (D) concentrations of metals at Dawu section
+
+　站位pHFeAlMnCuS
+酸性矿水D1—D62.4—2.7(T)453.7136.710.924.5682.6
+　　　(D)331.9119.710.018.7648.0
+混合前D7—D112.8—3.0(T)341.882.69.227.5825.0
+　　　(D)297.573.48.919.5786.0
+　D124.3—4.8(T)53.522.13.35.2150.9
+与碱性矿　　(D)12.413.62.62.3127.9
+水混合后D13—D144.6—6.2(T)22.530.83.7463157.1
+　　　(D)6.016.93.51.7125.5
+　A044.7—7.2(T)8.017.70.51.786.5
+与乐安江　　(D)1.72.10.30.0816.1
+水混合后A05　(D)2.1　　0.18　
+
+表2　大坞乐安江河段典型沉积物样品中Fe,Al和Cu总含量及酸解释放浓度
+Table 2 Total and acid soluble Fe,Al,Cu in the sediments from DawuLe section
+
+　站位
+D8D14A04A05A13A14
+　 pH2.894.644.765.666.646.64
+沉积物中总Fe，ppm642003840037600209602577518970
+酸解释放的Fe，ppm3780085607640745047602530
+酸解Fe/沉积物Fe，%58.922.320.325.718.513.3
+沉积物中总Al，ppm977007500095500　86700　
+酸解释放的Al，ppm235031402620　2775　
+酸解Al/沉积物Al，%2.44.22.7　3.2　
+沉积物中总Cu，ppm459.42598.521901580447271
+酸解释放的Cu，ppm290.3690435.5329.175.151.3
+酸解Cu/沉积物Cu，%63.126.624.720.716.818.9
+
+
+图2　典型站位表层悬浮沉积物
+中Cu(Ⅱ)含量与水中溶解态Cu(Ⅱ)浓度的对数比与pH的关系
+Fig.2 The concentration ratio of Cu(Ⅱ) in the 
+suspended phase to water as a function of pH
+　　从上述分析结果可以推测，酸性矿水中丰量的Fe(Ⅲ)的沉积作用对控制水中微量金属污染物的浓度及迁移形态起到了重要的作用.如在混合过程中，酸性矿水中大部分Cu2+或是由于Fe(Ⅲ)的水解共沉淀作用(混合前，pH＜4.0)，或是由于Fe(Ⅲ)水解沉淀生成的无定形铁氧化物的强烈吸附作用(混合后，pH5—6)而导致其沉积于沉积物中或以其吸附态悬浮微粒随水流向下迁移.
+　　如以表2实测不同站位的表层沉积物和悬浮物中酸解释放的铜与水中溶解态的铜浓度的对数比对pH值作图，结果如图2所示，呈明显的线性关系.由图2可见，无论是表层沉积物还是悬浮物中的酸可溶解态Cu(Ⅱ)与水中Cu(Ⅱ)的比率随pH升高而增大，这进一步表明受酸性矿水污染水体中Cu(Ⅱ)浓度明显地与其共沉淀作用及吸附作用具有相关关系，尤其在混合过程中(pH5—6)，水中Cu2+及其形态转化明显受酸性矿水中Fe(Ⅲ)水解沉淀生成的无定形铁/铝水合氧化物及其包裹层强烈吸附作用的控制.
+3.2　新生铁氧化物及其包裹颗粒对Cu2+离子的吸附特征
+　　为证实上述实测结果的推测，在实验室进行了一系列模拟吸附实验.其中，以无定形铁氧化物和尾矿砂颗粒对铜离子的典型吸附实验结果示于图3.由图3可见，无论是无定形铁氧化物还是尾矿砂颗粒对铜离子的吸附作用明显取决于pH并具有显著的“吸附临界”.无定形铁氧化物的吸附临界pH大致发生pH4.2—4.5，而尾矿砂则大致在pH4.5—4.9，且均随颗粒浓度增加而吸附临界pH降低.如将吸附50%Cu(Ⅱ)的pH定义为pH50，则从图3曲线明显可见，pH50随水中Cu(Ⅱ)离子和颗粒物浓度而变.无定形铁氧化物的pH50发生在pH5.4—5.9，而尾矿砂则在pH5.7—6.9.这些结果表明，这两种微粒对Cu(Ⅱ)的明显吸附作用发生在pH5.5—6.5之间，并且铁氧化物微粒的吸附趋于较低pH值.
+
+
+图3　尾矿砂(A)和硫酸铁氧化物(B)吸附Cu(Ⅱ)与pH的相关关系
+Fig.3 Absorption of Cu(Ⅱ) on ore tailing and amorphous Fe oxyhydroxide as a function of pH
+
+
+图4　尾矿矿砂表面包裹铁氧化物
+的包裹颗粒吸附Cu(Ⅱ)与pH的相关关系
+Fig.4 Absorption of Cu(Ⅱ) on the coating of amorphous Fe oxyhydroxide
+on the ore tailing as a function of pH
+　　无定形铁氧化物与尾矿砂颗粒混合物对水中Cu(Ⅱ)离子的吸附作用如图4所示，模拟混合物的制备是向含尾矿砂颗粒的硫酸铁混合悬浊液中逐渐滴加去除了CO2的NaOH溶液至中性pH，使之生成氢氧化铁沉淀.Cu(Ⅱ)在铁氧化物包裹层上的吸附实验结果表明，Cu在包裹层颗粒上的吸附作用与在纯铁氧化物上的吸附作用大致相同，均随铁氧化物含量和pH增加而明显增加.这种模拟混合表层包裹颗粒物特征与现场采集表层沉积物基本一致，并且已得到电泳迁移率的证实［8］.
+　　图5是采用高管沉积筒模拟吸附动力学实验结果，图5(A)表示了在无悬浮或悬浮微粒存在下模拟乐安江水中Cu(Ⅱ)离子随时间的变化趋势.从图5(A)可见，在 pH5.5—5.9，在无任何颗粒物存在的模拟乐安江水中，2mg/L的Cu(Ⅱ)离子在96h仅有12.9%被去除，而在200mg/L的3种微粒存在时，水中Cu(Ⅱ)离子随时间迅速减少，尤其在24h内，减少幅度最为明显，24h后，渐趋于平衡状态.其中，以硫酸铁氧化物的影响最大，尾矿砂最小，表明明显吸附过程发生在24h内，24h后颗粒物对Cu离子的吸附减缓.需指出，24h后大致分别有20.3%的硫酸铁氧化物、24.5%A13站的沉积物和34.7%尾矿砂的颗粒已沉积水底.因此，24h后颗粒物对Cu(Ⅱ)离子的吸附减缓还应考虑由于水中颗粒的沉积而导致吸附颗粒浓度降低的因素.图5(B)则是根据上述结果计算在24h内，3种模拟悬浮微粒吸附Cu(Ⅱ)随时间的变化.从图5(B)可见，在初始5h内，Cu(Ⅱ)离子迅速被3种颗粒物吸附.24h后，大约有76%、53%和41%的Cu(Ⅱ)分别被硫酸铁氧化物、A13表层沉积物和尾矿砂微粒所吸附.
+
+
+图5　pH5.5—5.9高管沉积筒模拟乐安江悬浮微粒对Cu(Ⅱ)的吸附动力学实验结果
+(A) 悬浮微粒存在下模拟水中Cu(Ⅱ)离子随时间的变化趋势
+(B) 3种模拟悬浮微粒吸附Cu(Ⅱ)随时间的变化
+Fig.5 Results of simulated absorption in high sedimentation tube at pH5.5—5.9
+(A) with suspend particles, Cu(Ⅱ) concentration is a function of time
+(B) adsorption of Cu(Ⅱ)on three types of particles as a function of time
+　　这些结果进一步证实了在悬浮颗粒物存在下，Cu(Ⅱ)离子将会迅速地吸附在颗粒物表面上而导致水中Cu(Ⅱ)离子明显降低.
+3.3　简化表面络合模式的应用
+　　根据表面络合模式［3，4］，天然水体中微量金属在金属水合氧化物及矿物微粒表面上的吸附作用可被看作为一种表面络合反应的结果，可表示为：
+SOHx+M2+==SOM+H+
+(1)
+或SOHx+M+H2O==SOMOH+(x+1)H+
+(2)
+　　表面络合反应不仅强烈依赖于水体pH值，还依赖于吸附微粒的表面特征，以及水中金属离子的种类和浓度.由于表面络合模式计算过程相当复杂，需要许多颗粒表面特征值并计算求取其表面固有常数值.因此，为了直接能够获得颗粒物与重金属离子的表面络合常数，可应用简化表面络合反应及模式，即［10，11］：
+SOHx+nM2+==SOMn+xH+
+(3)
+
+(4)
+式中，［SOHx］和［SOMn］分别表示没被吸附的颗粒表面浓度和已吸附的表面浓度，［M］n为水相平衡浓度，Kad为表面络合常数，x表示反应过程中每吸附一个重金属离子所释放的质子数.EDL表示颗粒表面静电项，取决于计算模式所选择的双电层结构.由于在实际吸附过程中，EDL项影响较小，因此可被隐含到常数项中，即K′ad=Kad/EDL［12］.另外，由于水相中吸附质浓度比吸附剂浓度低得多，因而可用颗粒总表面吸附位替代未吸咐的表面吸附位，即［SOHT］=［SOMx］，则有：
+
+(5)
+式(5)取对数，得：
+
+(6)
+
+
+图6　根据式(6)简化表面络合模式对大坞乐安江实测数据及模拟
+吸附实验数据计算结果
+Fig.6 Calculated results for the data 
+measured in field and ollected during the 
+experiment of simulated adsorption
+式中，K′ad定义为表面络合条件稳定常数，这主要是因为上述反应过程中没有考虑到双电层结构中的静电项的影响.从式(6)中可见，单位表面吸附的重金属离子浓度与平衡水中的重金属离子浓度和总吸附剂的对数比与pH之间成线性关系，其截距即为所求表面络合条件稳定常数K′ad，x则表示反应过程中所释放的质子数.因此，式(6)表明，如果简化表面络合模式成立，以对pH作图，理论上应为线性相关关系，截距即为logKad，斜率为x.根据式(6)对上述实测及模拟吸附实验结果计算并绘制于图6中.从图可见，无论实测数据与模拟吸附实际数据都十分吻合式(6)计算的线性相关关系.
+　　计算结果表明，在乐安江段实测计算所得表面条件络合稳定常数(logKad)、吸附每个Cu离子所释放的平均质子数(x)以及Cu离子在颗粒表面平均吸附密度分别为-5.94、1.62和2.9×10-2—3.7×10-2mol/L，无定形铁氧化物包裹层的模拟吸附实验计算所得表面条件络合稳定常数，吸附每个Cu离子所释放的平均质子数以及Cu离子在颗粒表面平均吸附密度分别为-4.89、1.36和2.8×10-2—3.0×10-2mol/L.表明实测分析数据与模拟吸附实验数据基本是吻合的.同时，上述计算结果与文献报道无定形铁氧化物吸附较高浓度的Cu(Ⅱ)离子所得的表面络合模式计算结果也基本是吻合的，如Davis［8］应用表面络合模式计算Cu2+在无定形铁氧化物颗粒表面的吸附(SOH+Cu2+=［SOCu2+］+H\++)所得固有表面络合常数为-4.1.然而，根据实测计算的乐安江段的Kad均低于模拟吸附实验及其他研究者所得的Kad，这主要可能是由于乐安江段颗粒物的高表面吸附密度所致.一些研究已指出，在高表面吸附密度条件下，Kad值将降低［11］.
+
+4　结　论
+　　通过对铜矿酸性矿水污染河流的实测数据计算整理及模拟吸附实验研究结果表明，由于在酸性矿水与天然水混合过程中，酸性矿水中的Fe(Ⅲ)/Al(Ⅲ)水解沉淀而导致污染水体中含有丰量的无定形铁/铝氧化物颗粒.这些无定形铁/铝氧化物颗粒对水中溶解态重金属离子具有强烈吸附作用，因而控制了酸性矿水污染河流中的重金属浓度、形态分布及其迁移转化规律.在这些富含无定形铁/铝氧化物或其表面包裹层的水体中，重金属污染物大多吸附在悬浮颗粒表面上而随水流迁移.
+参考文献
+　1　汤鸿霄，薛含斌等.粘土矿物吸附镉污染物的基本特征.环境科学学报，1981，1(2)：140
+　2　Singh S K, Subramian V. Hydrous Fe and Mn oxides scavengers of heavy metakls in the aquatic system, CRC. Crit Rev Environ Control, 1984,14:33
+　3 Stumm W. Morgan J J. Aquatic Chemistry, 3nd ed., John Wiley，1996
+　4 Holh H. Stumm W. Interaction of Pb with hyrousAl2O3. J Colloid & Inter Sci, 1976,55:469
+　5 James R O, Machaughton M G. The adsorption of aqueoues heavy metals on inorganic minerals. Geochimca Cosmochimica Acta, 1977,41:1549
+　6 James R O, Healy T W. Adsorption of hydrolyzable metalions at the oxidewater interface. J Colloid & Inter Sci, 1972,40:53
+　7 Davis J A, Leckie J O. Surface ionization and complexation at the oxide/water interface. J Colloid & Inter Sci, 1978,67:90
+　8 Luan ZhaoKun and Tang HongXiao. Chemical process of acid mine drainge in the aquatic system of copper mine area. J Environ Sci (China), 1992,4(3):42
+　9 Mao MeiZhou et al. Distribution and speciation of heavy metals in sediments along Le An river. J Environ Sci (China), 1992,4(3):72
+10 栾兆坤，汤鸿霄.硫酸铁氧化物的表征及其对重金属吸附作用的研究.环境科学学报，1994，14(2)：129
+11　Benjamin M M, Leckie J O. Multiple site adsorption of Cd, Cu, Zn and Pb on amorphors iron oxyhroxide. J Colloid & Inter Sci, 1981,79:209

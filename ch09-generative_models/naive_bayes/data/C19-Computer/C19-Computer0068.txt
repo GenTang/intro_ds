@@ -1,0 +1,59 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第8期 Vol.25 No.8 1999
+
+
+
+基于进化规划求解Steiner Tree 问题
+曲润涛，席裕庚，韩兵
+摘要：提出基于进化规划求解Steiner Tree 问题的新方法，通过和原有启发式算法的结合提高了进货算法的效率，仿真证明了进化规划算法的有效性。
+关键词：Steiner Tree；进化规划；NP-complete
+Solve Steiner Tree Problem Based on Evolutionary Programming
+Qu Runtao,Xi Yugeng,Han Bing
+(Dept. of Automation,Shanghai Jiaotong University,Shanghai 200030)
+【Abstract】In this paper a novel method based on evolutionary programming is proposed to solve the Steiner Tree Problem,we combined with the heuristic alogoithm to improve the efficient of the evolutionary algorithm. The effective of evolutionary programming alogrithm is given out through simulation.
+【Key words】Steiner Tree；Evolutionary programming；NP-complete
+　　Steiner Tree 问题[1]，是图论中的一个 NP-complete 问题，由于在网络中有广泛的应用 [2] 而受到大量的重视。 
+　　Steiner Tree 问题的描述如下 [1] ： 
+　　一个网络可以表示为无向图 G ＝ (V ， E ， C) ：其中 V 是顶点的集合，包括 N 个顶点； E 是边的集合，包括 L 条边； C 是边的代价， c:E → R ， ci,j 表示顶点 i 和 j 之间的代价。 Steiner Tree 问题就是给定一个顶点的集合 D V 的情况下，寻找 G 的一棵子树 S=(V' ， E') 包括 D 中的所有顶点， V' V ， E' E ，并且使 Cost(S)= ∑ c(e) 最小。 
+　　尽管 Steiner Tree 的描述比较简单，但问题的求解非常困难，在图论中一般通过启发式方法解决这一问题。基于启发式的解决方案，在优化性能上有时不能满足要求，因此寻求新的方法来解决这一问题。 
+　　进化算法是解决 NP-complete 的一种有效策略，并且在很多 NP-complete 问题上得到应用，其中最为典型的是基于遗传算法解决旅行商问题。目前已经有文献 [3] 使用遗传算法求解 Steiner Tree 问题，但完全使用遗传算法进行 Steiner Tree 问题的求解效率比较低下，因此本文试图通过进化规划算法和启发式算法结合求解 Steiner Tree 问题。 
+1 Steiner 树问题的启发式算法和实质 
+　　目前已经有很多 Steiner 树问题的启发式算法 [2] ，这些算法都只能得到 Steiner 树问题的近似解，其中最常用的是 MST 启发式算法。 
+　　求解 Steiner 树问题的 MST 算法通过两步实现。给定一个网络 G(V ， E) ，和一组网络节点 D ∈ V ，首先从 G 产生一个子图 G' ， G' 只包含 D 中的节点，在子图中节点集合 D 中的节点通过其最小路径连接；然后计算 G' 的最小扩展树。将 G' 中的边映射回 G ，即得到所求的 Steiner 树。应该指出的是，通过 MST 求得的 Steiner 树不是最优化的，有研究指出在最坏情况下 MST 算法的性能是最优结果的一半，但在平均性能上非常接近最优。图 1 是一个简单的网络模型，图 2 是使用 MST 算法求解 Steiner Tree 问题的解，图 3 是最优的 Steiner Tree 问题的解。
+
+图 1 简单网络模型 
+
+图 2 使用 MST 算法求解Steiner Tree 问题的解
+
+图 3 最优的 Steiner Tree 问题的解
+　　Steiner Tree 问题的实质是寻找网络中的 Steiner 点，由于 Steiner 点的存在，使通过 Steiner 点连接目的节点的代价减小。在网络中不在目的节点组中的节点都可能成为 Steiner 点。不同的 Steiner 点组合得到不同的结果。假设网络节点的数目｜ V ｜ =N ，目的节点的数目为｜ D ｜ =M ，则所有组合数目为 C0N-M+C1N-M+C2N-M+A+CN-MN-M=2N-M，可见 Steiner Tree 问题的求解随着 N－M 的增大成指数增长，因此是一 NP 问题。 
+2 进化规划算法 
+　　进化规划 [4] 是由美国 L.J.Fogel,A.J.Owens 和 M.J.Walsh 提出，最近又由 D.B.Fogel 进行了完善的一类随机化搜索算法，它模拟生物界中的自然选择和生物进化机制，通过群体搜索策略在解空间中进行最优点的搜索。进化规划算法隐含有并行算法机制，所以特别适合于解决传统方法难以解决的的问题。其基本框架为 [5] ： 
+　　Step1: 生成待求解问题的偶数个初始群体； 
+　　Step2: 计算群体中各个体的性能指标，并排序； 
+　　Step3: 若不满足迭代停止条件，则： 
+　　(1) 选取性能指标排在前 50 ％父代个体复制到下一代； 
+　　(2) 对选出的个体按一定规则变异操作，结果存入下一代； 
+　　(3) 合并 (1) 和 (2) 形成新一代群体，返回到步骤 2 。 
+　　进化规划和遗传算法一样有较好的全局性能，但有不同的侧重点。遗传算法强调遗传操作符，性能的改进主要通过交换；进化规划则侧重于群体层次的进化，性能的改进主要通过变异。它们之间的不同决定了它们的适用范围，一般地讲遗传算法的优化性能较好，而进化规划的收敛性能较好。由于本文的主要目的是验证使用进化算法求解 Steiner Tree 问题的可行性，而不是求取 Steiner Tree 问题的最优解，因此本文使用了操作相对简单的进化规划算法，同样也可使用遗传算法采用同样的方法论求解 Steiner Tree 问题。 
+3 基于进化规划和启发式算法结合求解 Steiner Tree 问题 
+　　文献 [3] 采用了遗传算法，通过对网络的扩展树进行编码，在扩展树的范围内对优化的 Steiner Tree 树进行搜索，但该方法是一种纯粹的随机方法，算法的效率很低。由上节的分析可以看出， Steiner Tree 问题的本质是一个组合优化问题，问题可分解为两步实现：首先选择 Steiner 点，然后通过启发式算法求解在该组 Steiner 点下的 Steiner Tree 。因此本文考虑将进化算法和启发式算法结合求解 Steiner Tree 问题。本文进化规划算法基于 MST 启发式算法，同样的思想和方法论也可推广到其他求解 Steiner 树问题的启发式算法。 
+　　本文首先使用进化规划算法来选择 Steiner 点，然后对于选定选择 Steiner 点，使用启发式算法求解在这些选择 Steiner 点下的 Steiner 树。由于进化规划算法中的每一个个体对应于一棵 Steiner 树，这样可以通过进化规划算法的变异和选择操作使个体逐步进化，最终求得优化的 Steiner Tree 问题的解。 
+　　算法的具体细节如下： (1) 个体描述 采用 MODE[N] 一维数组表示个体， MODE[i]=0 或 1 ：对于 D 中的点 MODE[i]=1 ；对于不在 D 中的点， MODE[i]=1 ，如果选择该点作为 Steiner 点；否则 MODE[i]=0 。 (2) 适应度函数的确定 使用启发式算法求解各个个体的 Steiner 树，其代价作为适应度函数。 (3) 变异操作 通过随机选择个体的不在 D 中的点，对其 MODE[i] 进行取反操作，对个体进行变异。变异的幅度和问题的规模有关，可以在进化的开始使用较大的变异幅度，在进化的后期采用较小的变异幅度。 (4) 选择操作 可以采用一般进化规划的选择策略，为了保持个体间的差异，防止群体过早收敛于局部极小值，本文采用了对相同的个体保留一个的策略。在进化的每一代，设 Cmax 为群体中的最大值，对于相同的个体，保留一个个体，令其他个体的代价修改为： Ci =Ci +Cmax 。根据进化规划的选择规则，每一代从好到坏排列，然后选择 50 ％的个体遗传到下一代，因此相同的个体在下一代不会出现，保持了种群的多样性，避免了过早收敛。 (5) 结束标志的选择 进化算法的结束标志可以有两种方式：一种是个体对应的目标函数值已达到最优值；另一种是使用迭代次数进行控制。由于本文算法的目的是验证算法的有效性，而不是求取最优解，因此本文使用迭代次数控制进化算法的结束。 
+4 仿真实例 
+　　为了验证仿真的结果，使用随机化的方法产生具有实际网络特性的图的模型 [2] ， N 个网络节点在一定的区域内随机产生，网络节点的距离使用欧拉距离。任意两节点 i 和 j 之间的边，根据节点之间的距离按照一定的概率产生，边产生的概率按下面的公式决定。 
+
+　　上式中， d(i,j) 是 i 和 j 之间的距离， L 是任意两节点间的最大距离， α 和 β 是 (0,1] 之间的参数；当 β 增大时，网络边的密度增大，当 α 减小时，网络距离小的边相对于距离大的边的密度增大，网络边的代价等于网络节点间的距离。 
+　　在 10 个随机产生的 25 节点的网络模型上将进化规划算法求得的解和基本的启发式算法求解的结果进行了对比。在仿真中进化规划算法运行 50 代，群体规模选择为 20 ，变异幅度选择为 4 到 1 。图 4 中实线给出了启发式算法和进化规划算法的性能比，虚线给出了启发式算法和优化解的比，仿真结果是 20 次仿真的平均值。由图 4 可以看出使用进化规划算法求得的解基本接近优化 Steiner 问题的解。更为重要的是，用启发式算法求得的解是不稳定的，文献 [5] 证明了在最坏的情况下，使用 MST 启发式算法求得的解的性能是最优解的一倍。而使用进化规划和启发式算法结合的方法求解 Steiner 问题，可以提高启发式算法的鲁棒性，当然这是在付出一定计算代价的前提下获得的。 
+
+图 4 仿真结果 
+5 结论
+　　本文提出了使用进化规划算法和启发式方法相结合求解 Steiner Tree 问题的新思路，尽管这种方法不能保证搜索到最优的解，但是能够改善启发式算法的性能，改善启发式的鲁棒性，仿真表明这种方法是有效的。 
+作者单位：上海交通大学自动化研究所，上海 200030
+参考文献
+1 Winter,P.Steiner Problem in Networks: A Survey.Networks,1986, 17(1) ： 129-167 
+2 Bernard M W.Routing of Multipoint Connections.IEEE JSAC, 1988,6(4) ： 1617-1621 
+3 Julstrom BA.A Genetic Algorithm for the Rectilinear Steiner Problem. Proc. of the 15'th International Conference on Genetic Algorithms. University of Illinois at Urbana-Champaign Morgan Kaufmann,San Mateo, CA,1993-07 ： 474-479 
+4 陈国良 . 遗传算法及其应用 . 北京：人民邮电出版社 ,1996 
+5 Kou L,Markowsky G,Berman L.A fast Algorithm for Steiner Trees, Acta Informatica,1981,15 ： 141-145 

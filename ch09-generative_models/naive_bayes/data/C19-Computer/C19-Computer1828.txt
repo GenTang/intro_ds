@@ -1,0 +1,100 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.2 P.14-16
+
+
+
+
+LINUX字符设备管理设计方法的研究
+叶绿
+摘 要： 对比较典型的鼠标和行式打印机的设备驱动程序进行了研究，用来说明和分析LINUX系统字符设备的管理。
+关键词： LINUX 字符设备 设备管理
+　　同其它UNIX系统类似，LINUX系统包含2类基本设备--块设备和字符设备。所谓字符设备，即操作的基本单位是1个1个的字符，并且操作顺序固定，不能进行随机操作。字符设备驱动程序可以自己带有小型缓冲区，例如行打。字符设备的文件系统接口如open、write等与块设备管理不同，它是直接与设备驱动程序连在一起的，这样大大简化了管理过程。本文将通过分析2种比较典型的字符设备：鼠标mouse和行式打印机line printer，来说明字符设备的管理。LINUX系统设备驱动程序的主要结构有3大块，分别为初始化过程＿init、1组文件操作接口struct file＿operations的定义、中断处理过程或者是Polling过程，视具体情况而定。
+1 鼠标设备的管理
+　　鼠标是一种常见的典型字符设备，在LINUX系统中的主设备号为10。实际上，设备文件／dev／mouse所对应的是1个逻辑鼠标，系统会自动地找到真正的鼠标，并对其进行操作。系统每一种鼠标的驱动程序只支持1个鼠标，而整个系统在一段时间仅支持1个鼠标。在LINUX（version 1．3．20）中支持的鼠标种类如下所示：
+　　＃define BUSMOUSE＿MINOR 0 ／／Logitech bus mouse
+　　＃define PSMOUSE＿MINOR 1 ／／PS／2 mouse
+　　＃define MS＿BUSMOUSE＿MINOR 2 ／／Microsoft bus
+　　　　　　　　　　　　　　　　 ／／mouse
+　　＃define ATIXL＿BUSMOUSE＿MINOR 3 ／／Atixl board 
+　　　　　　　　　　　　　　　　　　　／／bus mouse…
+1．1 逻辑鼠标
+　　在mouse的设备驱动程序／drivers／char／mouse．c中只出现了2个函数：1个是mouse＿open作为这个逻辑鼠标唯一的文件操作接口；另1个是mouse＿init，作为鼠标的初始过程出现在函数chr＿dev＿init中。mouse＿open根据参数次设备号判断要打开哪一类鼠标，然后简单地把指定的鼠标文件操作接口填入该逻辑设备的文件结构file－＞op；最后当然还得重新调用实际鼠标的文件操作。若确切地知道实际的鼠标文件是哪个例如是msbusmouse，那么对mouse进行操作和对msbusmouse进行操作的效果是一致的。函数mouse＿init分别初始化系统配置好的各种鼠标设备，这是在编译的时候确定的。
+1．2 msbusmouse的驱动
+　　1．数据结构设备驱动程序不可避免地要涉及硬件底层，因此应该简单了解一些底层硬件数据。
+　　＃define MOUSE＿IRQ 5 ／／中断向量
+　　＃define MS＿MSE＿DATA＿PORT 0x23d ／／I／O数据端口
+　　＃define MS＿MSE＿SIGNATURE＿PORT 0x23e ／／信号端口
+　　＃define MS＿MSE＿CONTROL＿PORT 0x23c ／／控制端口
+　　＃define MS＿MSE＿CONFIG＿PORT 0x23f
+　　　　　　　　　　　　　 ／／配置端口，seems useless
+　　对这些I／O端口进行操作的过程是inb和outb。所有鼠标中断号都是5，这就使系统一般只能支持1台鼠标设备。鼠标驱动程序中有一块静态数据区用来保存当前鼠标事件信息，其结构定义于文件／include／linux／busmouse．h，如下所示：
+　　struct mouse＿status ｛ ／／当前鼠标状态
+　　 unsigned char buttons； ／／鼠标按钮状态 
+　　　unsigned char latch＿buttons；
+　　　int dx； ／／当前坐标 
+　　　int dy； 
+　　　int present； ／／鼠标存在状态 
+　　　int ready； ／／数据是否有效 
+　　　int active； ／／means busy struct wait＿queue wait；／／关于鼠标的等待队列
+　｝；
+　static struct mouse＿status mouse；
+　　2．鼠标设备工作原理
+　　　首先介绍鼠标是如何初始化的。过程mouse＿init调用了这种Microsoft bus鼠标的初始化过程：unsigned long ms＿bus＿mouse＿init（unsigned long kmem＿start）。它开始初始化鼠标状态mouse中的域，清0；然后检测当前的鼠标安装状态，通过若干次从信号端口MS＿MSE＿SIGNATURE＿PORT读数据，观察状态是否稳定，从而判断鼠标是否安装。最后程序禁止鼠标的中断。从这里可以看到，鼠标设备的检测由驱动程序完成，如果在系统启动的时候鼠标没有安装，那么即使在运行过程中再安装也无济于事。系统仍然不会承认，若要满足要求可对驱动程序稍做改动。
+　　下面分析这个鼠标的文件操作接口。驱动程序并非要实现所有的文件接口，具体设备有各自的工作特点，如鼠标主要读入数据流。
+　　struct file＿operations ms＿bus＿mouse＿fops＝｛
+　　　　NULL， ／* mouse＿seek，字符设备是顺序文件*／ 
+　　　　　read＿mouse， ／／read button，x and y coordinates． 
+　　　　　write＿mouse， ／／事实上，调用本函数将返回错误信息 
+　　　　　NULL， ／* mouse＿readdir *／
+　　　　　mouse＿select， ／* mouse＿select*／
+　　　　　NULL， ／* mouse＿ioct1*
+　　　　NULL， ／* mouse＿mmap *／ 
+　　　　　open＿mouse， 
+　　　　　release＿mouse，
+　　　}；
+　　　（1）static int open＿mousestruct inode * inode，struct file *file）
+　　函数首先判断鼠标是否存在或者是否有其它应用正在使用，如果没有，就标识占用鼠标，同时清数据区。然后程序向系统申请10号中断向量reuqest＿irq，登记自己的中断处理程序ms＿mouse＿interruput。如果已经有其它鼠标申请了这个中断，就失败。最后是往控制端口发命令启动鼠标设备并开中断。
+　　（2）static void release＿mousestruct inode * inode，struct file* file
+　　相对来讲释放过程要简单得多，它仅仅关鼠标中断，设置设备空闲标志并释放中断向量。
+　　（3）static int read＿mouse（struct inode * inode，struct file * file，char  buffer，int count）这是鼠标主要的功能函数。如果当前存在1个合法的鼠标事件，它就将状态数据区mouse中的按钮和坐标状态数据共3字节写入到用户数据区buffer中，并更新状态mouse。
+　　（4）static int mouse＿select（struct inode * inode，struct file * file，int sel＿type，select＿table * wait）
+　　如果当前没有鼠标事件，就把wait插入到mouse的等待队列中，等出现事件时由中断处理程序唤醒。这个功能一般与read＿mouse结合使用。
+　　LINUX系统中鼠标工作在中断方式下，这个鼠标的中断处理程序是：
+　　static void ms＿mouse＿interrupt（int irq，struct pt＿regs * regs）；
+　　系统在接收到硬中断后自动调用它。它的主要功能是从数据端口读入当前按钮和坐标数据，并把数据填入状态数据区mouse，最后中断处理程序还要唤醒等待队列中的进程。值得注意的是，鼠标读操作没有阻塞过程，阻塞等待的是select操作。不同的鼠标有自己不同的设备驱动程序，但基本工作原理和流程相似，差异只存在于硬件操作。
+2 行打设备的管理
+　　行式打印机是UNIX系统的一种特别的打印设备，它要比鼠标复杂，有自己的缓冲区，同时系统一般能够支持多台打印机。在LINUX系统中，本文说明了总共能支持3台打印机。行式打印机可以分别工作在中断和polling2种方式下，这2种方式可以相互切换。
+2．1 打印机数据结构
+　　行打在LINUX系统中的主设备号为LP＿MAJOR＝6，它的中断向量根据不同的打印机分别配置。
+
+　　　注：
+　　（1）lp＿struct是行打的主要结构，支持3台设备；
+　　（2）base是行打设备的I／O基地址；
+　　（3）irq是中断向量，当它为0时，打印机工作在轮询方式；
+　　（4）flag表示了打印机的当前状态；
+　　（5）chars每个字符的时限，以总线周期计算；
+　　（6）time记录了当打印机缓冲区填满时，驱动程序的等待时间；
+　　（7）lp＿wait＿q是打印机的等待作业队列；
+　　（8）lp＿buffer是打印缓冲区。
+2．2 打印机驱动程序
+　　打印机驱动程序的基本框架与鼠标差不多，所以将省略介绍相似的部分。行打的初始化过程：
+　　long lp＿initlong kmcm＿start；
+　　lp＿init要在系统字符设备表中登记行打：register＿chrdevLP＿MAJOR，″lp″，＆lp＿fops，lp＿fops是行打的文件操作接口，′lp′是设备名。然后程序分别检测3个打印机端口，如果存在打印机，就在相应的打印机结构中作初始化，标志打印机状态并通过调用lp＿reset向打印机发送初始命令。从程序看，一般开始时打印机工作在轮询方式下，并且决定了打印机的存在状态。这里还出现了关于I／O资源申请的问题，打印机必须向系统申请相应的I／O地址空间，如果要申请的I／O空间已经被占用了，此打印机的初始过程就失败。关于资源的程序定义在文件／kernel／resource．c中。
+　　行打的主要文件接口数据定义：
+
+　　驱动程序根据i节点确定具体的打印机，即通过MINOR（inode－＞i＿rdev）确定，一般的驱动程序都使用这种方法分辨不同的设备。接着程序进行一些合法性判断，如是否存在空闲、是否缺纸等等。前面曾经提到行打能够分别支持中断和polling工作方式，在中断方式下，还需申请打印机缓冲区和相应的中断号，并设置中断处理程序lp＿interrupt，最后设置忙标志。
+　　（2）static void lp＿release（struct inode * inode，struct file * file）
+　　这个过程仅仅逆open过程，释放缓冲区和中断号，设置空闲标志。如果是polling方式则仅需设置空闲标志。
+　　（3）static int lp＿writestruct inode * inode，struct file * file，const char * buf，int count）
+　　根据工作方式分别进行不同的写操作：int lp＿write＿interruptunsigned int minor，const char  buf，int ount和int lp＿write＿polledunsigned int minor，const char  buf，int count。它们的基本功能相同，即把buf中的字符写入设备文件，其中在中断方式下首先把buf中的内容放入打印机缓冲区中，然后再1个字符1个字符地打印，二种方式主要的不同是对异常情况的处理。polling方式调用schedule函数进入睡眠等待，由系统调度进程唤醒；而中断方式则调用interruptable＿sleep＿on函数在该打印机的等待队列中插入，等到打印机ready时由该打印机中断唤醒。总的来说，中断方式的效率更高，更灵活一些。
+　（4）static int lp＿ioctl（struct inode * inode，struct file * file，unsigned int cmd，unsigned long arg）
+　　ioctl是1个特殊的文件接口，它的函数入口地址是sys＿ioctl，定义于文件fs／ioctl．c中。它主要用来对特殊文件的底层参数进行操作。如果对象是普通文件，主要对文件结构中的f＿flags参数进行操作，如FI／OCLEX，FI／ONCLEX和FI／ONBI／O等，分别读取或设置阻塞属性，进行bmap操作。如果对象是设备文件就调用设备驱动程序的ioctl接口。当然并不是所有的设备文件都需要这个接口。在打印机中，该功能函数可以读取和设置lp＿struct结构中的参数。如果是超级用户还能重新设置该打印机的中断向量号，中断向量号为0即意味着工作在polling方式下。
+　　当工作在中断方式下的时候，中断处理程序lp＿interrupt根据irq找到相应的打印机，并唤醒该打印机上睡眠的进程。每台打印机的中断处理程序都相同，而polling方式则不需要这个过程。其实从程序看，二种工作方式比较类似，轮询方式也用schedule进行进程切换，只不过中断方式更有目标，挑选该事件队列中的等待进程进行调度。打印机的缓冲区分配在核心空间中，中断方式下用来暂存用户打印数据。而轮询方式下打印机并没有使用这个缓冲区，它直接从用户数据区读取。
+3 结束语
+　　上面介绍了二种简单典型的字符设备驱动程序，它们各有特点。通过对二者相互结合的补充说明，阐述了有关字符设备的概念。其中涉及到了硬件中断和轮询机制、设备文件与设备驱动程序的接口以及对输入输出设备的控制和关于设备的安装等等问题，并对这些问题进行了较为深入的分析与研究。作为1个开放性的操作系统，LINUX将会有越来越广泛的应用前景。
+叶绿（杭州应用工程技术学院信电系310012）
+参考文献
+1，金连甫．UNIX系统代码分析．杭州：浙江大学出版社，1997
+2，胡希明．UNIX结构分析．杭州：浙江大学出版社，1998
+收稿日期：1999－09－27

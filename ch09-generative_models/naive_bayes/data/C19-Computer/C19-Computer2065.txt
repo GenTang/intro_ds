@@ -1,0 +1,141 @@
+计算机工程
+COMPUTER ENGINEERING 
+1999年 第25卷 第5期 Vol.25 No.5 1999
+
+
+
+一种新颖的菜单设计技术
+邵明
+摘要 介绍一种有热键响应的下拉菜单设计技术，主要介绍了其设计思想及实现原理。具有效率高，美观大方等特点。
+关键词 下拉菜单 热键 Borland C++3.1
+A New Technique for Designing Menu
+Shao Ming
+（Qingdao Architecture Engineering Institute，Mechanical and Electrical Engineering Department Qingdao 266520）
+[Abstract] This essay introduces the designing of pull-dowm menu with hot keys to respond to ，and puts emphasis on ideas of how to disign it and principles of how to make it work 。It has characteristics of high efficiency，pleasing to the eye and so on。
+[Key words] Pull-dowm menu；Hot key；Borland C++3.1
+　　在应用程序中,用户最先接触到的就是应用程序中的菜单系统,菜单系统设计好坏不但反映了应用程序中的功能模块的组织水平,同时也反映了应用程序的用户友善性。而目前大多数菜单设计技术支持两种对菜单项的选择:一种是使用键盘输入一个与菜单项相关的字母或数字键,称为热键;另一种则是利用光标键或其它定位设备将菜单光标移动到指定菜单项并按下回车或鼠标按钮。对热键的响应只局限于包含该菜单项的菜单处于活动期间才可使用,不能响应其它子菜单中的热键,这在一定程度上影响菜单选择的执行效率。笔者在实际应用系统开发过程中设计的多级下拉式菜单,可随时响应不同级子菜单中的热键,大大提高菜单执行效率。
+1 固定式下拉菜单
+　　本菜单系统采用的是固定式下拉菜单,这是一种根菜单固定显示在屏幕顶部,其子菜单在使用时才在屏幕上弹出的一种下拉菜单。若一个应用程序的命令系统需要使用一个如图1所示的二级菜单，每一菜单对菜单项的选择除常用的选择方法之外,对一些常用菜单项设置了一些热键,这样无论当前菜单光标处于哪一级子菜单中,都可不通过菜单层层选择,而直接按热键来选择该菜单项。对于本菜单系统设置如下热键：
+
+图1 菜单示意图
+　　ALT_F、ALT_E、ALT_G分别选择主菜单的各菜单项;ALT_X,F2,F3分别选择File子菜单中的Quit,Save,Load项。如何实现以上热键的处理,是菜单设计的关键技术。
+2 菜单设计技术
+2.1 设计合理的数据结构
+　　为了描述一个菜单,必须精心组织一个数据结构,其内容包括菜单内容,菜单显示属性,菜单的位置和大小,菜单的选择属性等。如图1菜单结构，笔者进行如下设计：
+　　(1) 设计存放每个菜单信息的结构
+　　struct screen{
+　　unsigned char left,top,right,bottom;/*菜单显示区域左上角,右下角坐标*/
+　　char bar_position;　　　　　／*当前菜单项在子菜单中的排列序号*／
+　　　char **menu_message;　　　/*菜单内容*/
+　　　char menu_attr;　　　　　／*菜单项数*/
+　　　char commands;　　　　　　／*本级菜单热键字符串*／
+　　int screen_buff;};　　　　／*记录保存菜单覆盖区屏幕信息的缓冲区首址*/
+　　每个菜单具体设置如下：
+struct screen main_menu={0,0,79,0,0,prompt0,3,"FEG",NULL},
+　file_menu={1,1,14,8,0,file_prompt,6,"LSWUOQ",NULL},
+　　　edit_menu={12,1,25,6,0,edit_prompt,3,"UEC",NULL},
+　　　graph_menu={21,1,34,7,0,graph_prompt,4,"LMBC",NULL},
+null_screen={0,0,0,0,0,NULL,0,NULL,NULL};
+　　其中每一子菜单的提示信息为：
+char *prompt0[]={"File","Edit","Grapher"};
+char *file_prompt[]={"Load F2","Save F3","Write to","Quit Alt_x"};
+char *edit_prompt[]={"Undo","Erase","Copy"};
+char *graph_prompt[]={"Line","Move","Box","Circle"};
+　　(2)设置如下结构描述每一菜单项
+　　　struct node{int up,down,left,right;
+　　/*记录父菜单项，子菜单第一菜单项；本菜单上一个，下一个菜单项在结构数组中位置*/
+　　struct screen *owner_screen;/*该菜单项下级子菜单的描述信息*／
+　　int(*sub_function)();};／*选择该菜单项时应执行的函数*／
+　　定义一个结构数组,数组每一元素存放一个菜单项信息:
+　　struct node nodes[]={{-1,1,-1,-1,&main_menu,select_subtask},
+　　/*1 File项*/　　{0,4,3,2,&file_menu,select_subtask},
+　　/*2 Edit项*/　　{0,8,1,3,&edit_menu,select_subtask},
+　　/*3 Grapher项*/　　{0,11,2,1,&graph_menu,select_subtask},
+　　/*4 Load项*/　　{1,-1,7,5,&null_screen,load_file},
+　　/*5 Save项*/　　{1,-1,4,6,&null_screen,save_file},
+　　/*6 Write to项*/　　{1,-1,5,7,&null_screen,NULL},
+　　/*7 Quit项*/　　{1,-1,6,4,&null_screen,exit_system},
+　　/*8 Undo项*/　　{2,-1,10,9,&null_screen,NULL},
+　　/*9 Erase项*/　　{2,-1,8,10,&null_screen,exit_system},
+　　/*10 Copy项*/　　{2,-1,9,8,&null_screen,NULL},
+　　/*11 Line项*/　　{3,-1,14,12,&null_screen,NULL},
+　　/*12 Move项*/　　{3,-1,11,13,&null_screen,NULL},
+　　/*13 Box项*/　　{3,-1,12,14,&null_screen,NULL},
+　　/*14 Circle项*/　　{3,-1,13,11,&null_screen,NULL}};
+　　某菜单项若有下级子菜单,则选择该菜单项时执行的函数是菜单管理与驱动程序select_subtask(),该函数处理用户按键,若是光标移动键,则把菜单光标移至相应的菜单项上,若为选择,则返回菜单项在菜单中的排列序号,若按ESC键,函数返回值为-1；否则执行该菜单项相关函数,这些函数应设置返回值为-1,以便完成该功能后退到上一级菜单。
+　　(3)设置一堆栈记录菜单选择路径,便于响应某一热键或按Esc键时恢复每一子菜单所覆盖的区域。
+　　struct screen *screen_stackc[20],*current_menu;/*堆栈，当前活动菜单*/
+　　int screen_sp=-1,current_node;/*堆栈指针及当前菜单项在结构数组中的位置*/
+2.2 主要函数设计技术
+　　(1)主函数
+　　　main()
+　　　{int ret_code,i,j;
+　　　. . . . . ./*完成初始化界面*/
+　　　setjmp(ebuf);/*设置函数间跳转点*/
+　　　do{ current_menu=nodes[current_node].owner_screen;
+　　　　push_screen(current_menu);
+　　　ret_code=nodes[current_node].sub_function();
+　　　　if(ret_code==-1){pop_screen(current_menu);
+　　　　　　current_node=nodes[current_node].up;}
+　　else current_node=nodes[current_node].down+ret_code;
+　　}while(1);}
+　　(2)压栈函数:把当前子菜单信息压入堆栈,并且在指定位置显示该子菜单
+　　void push_screen(struct screen *sc)
+　　　{int i,j,mode;
+　　　for(j=0;j<=screen_sp;j++) if(sc==screen_stack[j]) return;
+　　　screen_sp++;screen_stack[screen_sp]=sc;
+　　　if(sc==&null_screen) return;
+　　　mode=(sc==&main_menu)?1:0; 
+　　　disp_menu(sc,mode);}/*显示子菜单,主菜单固定在屏幕第一行,下拉菜单垂直显示*/
+　　(3)弹栈函数:返回上一级菜单,并且恢复菜单履盖区域屏幕信息
+　　　void pop_screen(struct screen *sc)
+　　　{screen_sp--;
+　　　if(sc==&null_screen) return;
+　　　if(sc==&main_menu){draw_cursor_bar(&main_menu,main_menu.bar_position,0);
+　　　　　　　　return;}/*主菜单只须重显光带点*/
+　　　puttext(sc->left+1,sc->top+1,sc->right+2,sc->bottom+2,sc->screen_buffer);
+　　　free(sc->screen_buffer);}
+　　(4)接受输入键值函数：接收输入键，若为热键，则进行热键处理 
+　　int get_key(void)
+　　{int temp;
+　　in.h.ah=0x00; int86(0x16,&in,&out);
+　　temp=(out.h.al==0)?out.h.ah+256:out.h.al;
+　　switch(temp){
+　case F2: case F3: case ALT_F:case ALT_E:case ALT_G:
+　　　case ALT_X:break;
+　　　　case CURSOR_LEFT:
+　　　　　case CURSOR_RIGHT:if(current_node<=3&&current_node>=1)break;
+　　　　else return(temp);
+　　　　default:return(temp);}
+　　　　hot_key=temp;hot_key_handle();}
+　　其中主菜单为活动时,左右光标键是移向下一菜单项;否则为热键,拉下其父菜单下一菜单项的子菜单。
+　　(5)热键处理函数
+　　int hot_key_handle()
+　　　{int i,j,temp[10],temp_sp,father,hot_node;
+　　　switch(hot_key){
+　　　case F2:hot_node=5;break;
+　　　case F3:hot_node=4;break;
+　　　case CURSOR_LEFT:hot_node=nodes[current_node].left;break;
+　　　case CURSOR_RIGHT:hot_node=nodes[current_node].right;break;
+　　　case ALT_F:hot_node=1;break;
+　　　case ALT_E:hot_node=2;break;
+　　　case ALT_G:hot_node=3;break;
+　　　case ALT_X:hot_node=9;break;} /*switch*/
+　　　/*恢复选择路径下各子菜单覆盖区，退至根结点*/
+　　　for(j=screen_sp;j>=0;j--) pop_screen(screen_stack[j]);
+　　　screen_sp=-1; current_node=0;
+　　　/*temp纪录的是热键对应的菜单项及父菜单中相应菜单项在各自菜单中的序号*/
+　　　for(temp_sp=0,j=hot_node;j!=current_node;){
+　　father=nodes[j].up; temp[temp_sp++]=j-nodes[father].down;
+　　　j=father;} temp_sp--;
+　　　/*沿着热键选择路径，执行到热键对应菜单项处*/
+　　　for(j=temp_sp;j>=0;j--){
+　　　　nodes[current_node].owner_screen->bar_position=temp[j];
+　　　　push_screen(nodes[current_node].owner_screen);
+　　　　current_node=nodes[current_node].down+temp[j];}
+　　　　longjmp(ebuf,1);} /*跳到主程序处，执行热键对应函数*/
+3 结束语
+　　鉴于篇幅所限，只介绍二级下拉菜单生成技术，若要设计更多层次的下拉菜单，只需在结构数组中再加上每个菜单中的各菜单项描述信息即可，本程序用C语言编写，代码效率高，执行速度快。
+作者简介：邵明女，女，35岁，讲师，主攻数据库及其应用，软件开发
+作者单位：青岛建工学院机电系 青岛 266520
+收稿日期：1998-12-02 修回日期：1999-01-21

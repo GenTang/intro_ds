@@ -1,0 +1,79 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+UV－B辐射对小麦叶抗氧化系统的影响
+陈　拓　任红旭　王勋陵
+摘要　研究了温室种植的小麦在0(CK)、8.82kJ/m2(T1)和12.6kJ/m2(T2)三种剂量的紫外线B(UV-B)辐射下抗氧化系统的变化及其原因.UV-B辐射诱导了H2O2的合成、还原型抗坏血酸(AsA)和还原型谷胱甘肽(GSH)含量的增加、过氧化氢酶(CAT)、愈创木酚过氧化物酶(PPOX)、抗坏血酸过氧化物酶(APx)和谷胱甘肽还原酶(GR)活性升高，而类胡萝卜素(Car)稍有所降低、超氧歧化酶(SOD)活性几乎不受UVB辐射影响.分析表明，UVB辐射引起的抗氧化系统变化可能是UVB辐射下活性氧的积累引起的.
+关键词　小麦；UV-B辐射；抗氧化系统.
+Influence of enhanced UVB radiation on antioxidant systems in wheat leaves
+CHEN Tuo,REN Hongxu,WANG Xunling 
+(Department of Biology,Lanzhou University,Lanzhou 730000)
+Abstract　The changes of antioxidant system in wheat leaves exposed to 0(CK),8.82kJ/m2(T1) and 12.6kJ/m2(T2) were studied.Under the reaction of UVB H2O2 formated,ascorbic acid and glutathione increased;activity of catalase,peroxidase,ascorbatspecific peroxidase and glutathione reductase enhanced;superoxide dismutase almost remained constant;carotenoid content slightly reduced.The analysis indicates that the accumulation of H2O2 induced by UVB radiation may influence the biosynthsis of antioxidant systems.
+Keywords　wheat (Tritucum aestivum L.),UVB radiation,antioxidant systems.　
+
+　　由于平流层臭氧层减薄导致的到达地表紫外线B增强是当今全球性环境问题之一，倍受各国科学家关注.大量的模拟试验结果表明：在增强UV-B辐射下，许多植物——在检测的近300种植物中有三分之二的植物——的生长和生物量都有明显的降低［1］.这可能与活性氧代谢的紊乱有关［2］，因为活性氧能抑制CO2固定、参与叶绿素的降解、加速叶片的衰老和膜脂过氧化.目前普遍认为，抗氧化系统是高等植物清除活性氧的重要防御系统.植物对逆境胁迫抗性的大小与其有效性密切相关［3］.然而，增强UV-B辐射对抗氧化系统的影响研究较少，甚至出现了一些自相矛盾的结果［2，4］.为此，本试验以小麦为受试材料，较系统地研究了增强UV-B辐射下抗氧化系统的变化，并探讨了其变化的原因.
+
+1　材料与方法
+1.1　材料与UV-B处理
+　　92-5005品系春小麦(Triticum aestivum L.)种子经5%次氯酸钠消毒30min,用自来水冲洗，浸泡过夜后，种植温室内.温室条件为：昼夜温度30℃/15℃，光照PAR400—600μmol/(m\+2*s)，相对湿度70%.待长出3片真叶后进行UV-B处理.UV-B由宝鸡光源研究所研制的秦牌紫外灯管(波长峰值310nm)提供，每天处理8h(9：00—17：00).每隔7天剪取同一叶位的叶片测定各项生理指标.
+1.2　各项生理指标的测定
+　　H2O2参照晏斌等的方法［2］.AsA含量测定参照Mishra等的方法［5］．按晏斌等的方法测定GSH含量［2］.类胡萝卜素含量的测定按Middleton等的方法进行［6］.
+　　SOD活性的测定按照Giannopolitis等的方法［7］.1酶活单位定义为抑制NBT还原50%所需的酶量.PPOX和CAT活性的测定参照Japoap等的方法［8］，分别取消光系数26.6(mmol/L)-1cm-1和3.6(mmol/L)-1cm-1计算酶活性.GR参照Foyer等的方法［9］,APx参照Nakano等的方法［10］，分别取消光系数6.2(mmol/L)-1cm-1和2.8(mmol/L)-1cm-1进行酶活性的计算.
+
+2　结果
+　　UV-B辐射下，H2O2含量升高，并且，不同UV-B辐射剂量处理，升高程度不一样，辐射剂量越大，H2O2升高的越多(表1).说明UV-B辐射伤害可能与活性氧引起的氧化胁迫有关.
+　　表1显示了AsA和GSH含量的变化.AsA含量在UV-B辐射下增加，但在T2处理后期显著下降，可能与活性氧的大量积累有关［3］；GSH含量与对照相比一直较大，但T2处理后期其增加幅度有所降低.Car含量在UV-B辐射下稍有降低，它的降低可能与UV-B辐射诱导的氧自由基合成有关，也可能是植物为了保证其光合效率的缘故［6］.
+表1　UV-B处理下H2O2和一些抗氧化因子含量的变化
+Table 1 Concentration change in H2O2 and some antioxidants under UVB radiation
+
+处理天数，周1234处理天数，周1234
+　CK32.0047.1461.14　　CK2.544.205.187.78
+H2O2T143.2462.0083.42　AsAT12.248.768.809.72
+　T260.2881.14128.85　　T27.9212.027.163.62
+　CK18.8818.2317.39　　CK0.410.570.510.50
+GSHT119.1320.0029.00　CarT10.560.580.480.43
+　T224.9128.2624.11　　T20.390.430.350.34
+
+* 单位：H2O2:mmol/g(FW),AsA:μmol/g(FW),GSH:mg/g(FW),Car:mg/g(FW)
+　　GR和APx是清除高等植物叶绿体内H2O2的重要酶［3］.UV-B处理下它们活性的变化表现相似的模式，除T2处理前期稍微降低外，其活性增加，特别是T2处理下增加明显(表2).
+　　UV-B处理下，PPOX和CAT活性明显升高(表2)，间接地说明UV-B辐射诱导了活性氧自由基的产生；而SOD活性几乎没有受到影响，也许正常情况下植物体内SOD量对于清除UV-B辐射期间产生的较高活性氧水平是足够的.
+表2　UV-B处理下抗氧化酶活性的变化
+Table 2 Activiting change of antioxidant enzymes under UVB radiation
+
+处理天数，周1234处理天数，周1234
+　CK1.140.872.333.31　CK0.380.350.761.14
+GRT11.392.012.864.81APxT10.590.901.451.63
+　T20.992.283.595.12　T20.320.551.791.95
+　CK1.93.945.079.01　CK19.7521.9524.8749.61
+CATT13.945.449.2112.17PPOXT139.7741.8343.7843.96
+　T28.2313.1618.2920.60　T242.8345.2267.1769.03
+　CK2.522.603.283.34
+SODT12.542.533.103.35
+　T22.572.683.133.41
+
+* 单位：GR,APx,CAT和PPOX:nmol/(min/.g(FW));SOD:unit/(min.g(FW))
+3　讨论
+　　由活性氧引起的氧化胁迫是绿色植物不可避免的现象.但正常情况下，植物体内活性氧的产生和清除之间存在动态的平衡，主要是高等植物体内抗氧化系统在灭活活性氧中起了重要作用［4］，如SOD能使1O2歧化生成H2O2和O2，主要定位于过氧化体中的PPOX和CAT有利于过氧化自由基的分解，主要存在于叶绿体的AsAGSH循环系统与H2O2的去毒性有关，Car在光氧化过程中具有清除氧自由基的能力等，抗氧化系统的这种作用在多种逆境胁迫中被观察到了.研究表明其灭活活性氧的有效性对于植物在逆境中的能否存活至关重要［4，5］.UV-B辐射下抗氧化系统中某一部分的变化在国内外已有一些报道，但所得结果有所差异，甚至相反［2,4,11,12］.这可能与实验者使用的材料不同有关.本试验结果显示，UV-B辐射引起了抗氧化系统的变化，具体表现为AsA和GSH含量增加，CAT、PPOX、APx和GR活性升高，说明在UV-B辐射下抗氧化系统灭活活性氧的有效性加强；而Car含量稍有降低，可能是Car是高能量短波辐射的猝灭剂，它能保护光系统免受光氧化的破坏，同时其含量与光合效率指数负相关［6］，因此Car含量的降低也许是UV-B辐射对其的破坏或植物为了保证其光合效率的缘故；SOD活性几乎没有变化，也许正常情况下植物体内SOD量对于清除UV-B辐射期间产生的较高活性氧水平是足够的.可是另一方面，UV-B辐射诱导了氧自由基的产生，本试验结果与晏斌等的结果一致［2］，后者认为UV-B辐射下活性氧的积累是UV-B降低SOD活性的结果.从本试验结果推测，UV-B辐射诱导的活性氧的积累并不是由UV-B影响了抗氧化系统而直接引起的.这意味着UV-B辐射下活性氧的积累有另外的途径.众所周知，紫外线具有比可见光更高的能量，因此在照射植物就可能产生更多的活性氧.Mishra等认为活性氧的积累能诱导抗氧化系统的生物合成［5］.可见UV-B辐射引起的抗氧化系统变化可能是UV-B辐射下活性氧的积累引起的.
+* 本文受到国家自然科学基金(批号：3947004)和博士点基金(批号：39670132)资助
+** 现通讯址：中科院兰州冰川冻土所冰芯与寒区环境开放实验室
+作者单位：(兰州大学生物系，兰州　730000)
+参考文献
+　1　Tevini M,Teramura A H.UVB effects on terrestrial plants.Photochem Photobiol,1989,40:479—487
+　2　晏斌，戴秋杰.紫外线B对水稻叶组织中活性氧代谢及膜系统的影响.植物生理学报，1996，22：373—378
+　3　Krause G H.Photoinhibition of photosynthesis:An evaluation of damaging and protective mechanisms.Physiol Plant,1988,74:566—574
+　4　Willekens H,Camp W V,Monmtagu M V et al.Ozone,sulfur dioxide and ultravioletB have similar effects on mRNA acumulation of antioxidant genes in Nicotiana plumbaginifolial.Plant Physiol,1994,106:1007—1014
+　5　Mishra N P,Mishra R K,Singhal G S.Changes in the activities of antioxidant enzymes during exposure of intact wheat leves to strong visible light at different temperature in the pesence of protein synthesis inhibitors.Plant Physiol,1993,102:903—910
+　6　Middleton E M,Teramura A H.The role of flavonol glycosides and carotenoids in protecting soybean from ultravioletB damage.Plant Physiol,1993,103:741—752
+　7　Giannopolitis C N,Ries S K.Superoxide dismutases I,Occurrence in higher plants.Plant Physiol,1977,59:309—314
+　8　Jagoap V,Bhargava S.Variation in antioxidant metabolism of drought tolerant and drought susceptible varieties of Sorghum bicolor (L.) Moerch exposed to high light,low water and high temperature stress.J Plant Physiol,1995,145:195—197
+　9　Foyer C H,Halliwell B.The presence of glutathione and glutathione reductase in chloroplasts:A proposed role in ascorbic acid metabolism.Planta,1976,133：21—25
+　10　Nakano Y,Asada K.Hydrogen peroxide is scaverngen by ascorbatespecific peroxidase in spinach chloroplasts.Plant Cell Physiol,1981,145:195—197
+　11　李宏文，史绮，曹阳等.紫外光对几种水生植物过氧化氢酶(CAT)活性的影响.环境科学，1993，14(4)：74—77
+　12　Strid A.Alteration in expression of defence genes in Pisum sativum after exposure to supplementary ultravioletB radiation.Plant Cell Physiol,1993,34:949—953
+1997-12-19收到原稿
+1998-06-09收到修改稿
+
+

@@ -1,0 +1,122 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+不对称氧化铝膜管的微滤性能研究*
+黄肖容　黄仲涛
+(华南理工大学化学工程系，广州 510641)
+摘要　采用熔模离心法制备的不对称氧化铝微滤膜管的孔径沿径向呈梯度分布，控制层孔径均匀.最可几孔径为0.05μm、最大孔径为0.1μm的管能滤除原液中全部的细菌，获得完全无菌的水，但过滤速率太慢.最可几孔径为0.1μm、最大孔径为0.2μm的管能基本滤除原液中的全部细菌，获得无菌的水，过滤速率为0.45m3/(m2*h).最可几孔径为0.2μm、最大孔径0.3μm的氧化铝膜管能完全滤除水中的大肠杆菌、霉菌和酵母，细菌总滤除率大于95%，水的错流微滤通量可稳定在1.59m3/(m2*h).这种孔径梯度分布的不对称氧化铝膜管能有效防止膜深层孔的堵塞，延长微滤膜管的寿命，细菌滤除性能、渗透性能恢复率良好，分别为100%和大于90%.可用作食品和饮料工业(水果汁)的液体过滤、水的微滤，除去0.1—10μm的微生物和微粒子，生产无菌液体、澄清液体和无菌水.
+关键词　无机膜；不对称膜管；氧化铝膜；微滤.
+STUDY ON THE MICROFILTRATION OF THE ASYMMETRIC ALUMINA TUBULAR MEMBRANE
+
+Huang Xiaorong, Huang Zhongtao
+(Chemical Engineering Department, South China University of Technology, Guangzhou 510641)
+
+ABSTRACT　The alumina tubular membrane prepared by the meltable moulding centrifugal technique has gradient pore size distribution in cross section with the narrow pore size distribution of top layers(controlled layers). With the most pore size of 0.05μm,the largest pore size of 0.1μm alumina tubular membrane, very bright and entire sterile water is obtained. Using the tubular membrane of the most pore size of 0.1μm and the largest pore size of 0.2μm, the bacterium in the feed can be removed with stable microfiltration flux of 0.45m3／(m2*h). Near-sterilizing filtration can be achieved using membranes of the most pore size of 0.2μm and the largest pore size of 0.3μm, escherichia coli, mold and yeast in water can be removed entirely, more than 95% of total bacteria contained in the water can be removed. The crossflow microfiltration flux starts at a high level and drops rapidly, approaching a steady-state value of 1.59m3／(m2*h) for water. This kind of asymmetric tubular membrane minimizes deep-pore fouling and plugging efficiently, easy cleaning, with 100% recovery of trapping efficiency and more than 90% recovery of flux efficiency. This kind of alumina tubular membrane can be used in the food and beverage industries and in water filtration to produced a clear sterile liquid and water by removing the contaminants such as microparticles of 0.1—10μm is diameter or bacterium.
+Keywords　Inorganic membrane, Asymmetric tubular membrane, alumina membrane,microfiltration
+1　前言
+　　膜分离是一种新兴的高效分离技术.膜分离技术的迅速发展和工业化从60年代就已开始.在膜科学技术领域，开发较早的是有机膜，由于这种膜容易制备，容易成型，性能良好，价格便宜，已成为应用最广泛的微滤膜类型.但随着膜分离技术及其应用的发展，对膜的使用条件提出越来越高的要求，而有机膜的热稳定性差、抗腐蚀性差、易堵塞、不易清洗、寿命短等自身无法克服的缺点，使有机膜已无法满足这些要求，因此，无机分离膜日益受到重视，自80年代以来，无机分离膜材料的研究和开发利用已引起人们的广泛关注并取得了重大的进展.无机膜与有机膜相比，有以下优点：(1)耐高温性能好，适用于高温和高压体系；(2)耐腐蚀性能好，在涉及高温和腐蚀过程的工艺(如食品加工等)中有着广泛的应用前景；(3)机械稳定性能好；(4)无污染，易清洗，在堵塞后便于清洗，可以反复使用；(5)抗微生物腐蚀性能好，且能用蒸汽对无机膜进行同步杀菌，很适合于食品、生化、制药工业；(6)使用寿命长.但由于无机膜材料多是Al2O3、SiO2、
+ZrO2等无机陶瓷，一般没有弹性，脆性大，难加工成型、易碎，使无机膜比有机膜昂贵，所以它们需要有更优越的性能才会被采用［1］.
+　　无机微滤膜主要用于食品和饮料工业、环境工业的液体过滤、水的过滤.如除去0.10—10μm的微生物和微粒子，生产无菌液体、澄清液体和超纯水.无机膜在奶制品工业中，应用于浓缩牛奶和乳清的生产；在饮料工业(水果汁和酒精类饮料)中，生产无菌的澄清液体；各种工厂的污水的预处理中用于除去象重金属、油之类的有毒物等［2］.由于无机膜优于其它膜(尤其是有机膜)
+的可用蒸汽同步杀菌、比其它的膜更能耐生产过程的腐蚀等优点，使它在食品、饮料工业和环境工业的应用日益受到重视并取得了重大进展［3，4］.
+　　性能良好的无机微孔滤膜要求孔径均匀、孔隙率高、微滤精度高、微滤阻力小、强度好.但高孔隙率和高强度是互相矛盾的，孔隙率的增加必然影响膜的强度，为了保持膜的强度就需增加膜的厚度，而膜的厚度的增加又将导致微滤阻力的增加；高的微滤精度要求膜的孔径小、均匀，小的孔径会大大增加膜的微滤阻力，降低膜的通量.为了同时保证多孔膜的机械稳定性和高的通
+量、高的微滤精度，就需要一种不对称膜，这种膜由较厚的(1mm左右)大孔径的多孔载体、较小
+孔径的过渡层和控制微滤精度的顶层组成.载体提供机械稳定性和尽可能小的流通阻力.我们在实验室采用一种新型的无机膜管的成形方法，使一次性地获得孔径梯度分布的不对称无机微滤膜管成为可能［5］，这种无机膜管控制层有均匀的孔径分布，能有效地滤除液体中的微粒子和细菌.
+　　
+2　实验
+2.1　梯度无机膜管的制备
+　　以不同粒度的高纯氧化铝粉为原料，采用熔模离心法可根据需要制得膜厚1—2mm、控制层孔径小于0.1μm、0.2μm和1—3μm的不对称高纯氧化铝微滤膜管［6］.
+2.2　氧化铝梯度膜管的微滤实验
+
+
+图1　不对称氧化铝膜管的微滤示意图
+Fig.1 Schematic diagram of the microfiltration 
+of asymmetric alumina tubular membrane
+图1是用于液体微滤的示意图，采用错流过滤形式，原液走管内，滤液从管外流出，原液的流动方向与滤液的透过方向相垂直.以含菌水作待过滤的原液，通过细菌培养，比较微滤前后水中细菌浓度的变化，了解不对称氧化铝微滤膜管的孔径对细菌滤除率的影响、不同孔径的微滤膜管的通量大小.
+　　
+3　结果和讨论
+3.1　氧化铝梯度膜管的形貌
+　　
+
+
+图2　氧化铝梯度膜管的SEM图
+(a)横截面，(b)顶(控制)层
+Fig.2 SEM of the alum a gradient tubular membrane
+(a) cross-section (b) top(controlled)layr
+图2(a,b)是最可几孔径为0.2μm的不对称氧化铝膜管(YM-3)的横截面和控制层的SEM图，从图中可以明显看出，这种氧化铝膜管的孔径是从大到小逐渐过渡的，层与层之间结合良好，无缝隙、
+无缺陷，顶层孔径分布均匀.
+　　用气泡法测定制备的氧化铝微滤膜管的最大孔径及其孔径分布［7］.预先用液体充分浸润待测的氧化铝管，对预先用液体浸润过的微滤膜样品，利用逐渐加压的气体把微孔中的液体排出来，通过测量样品两侧的气体压差和流过样品的气体流量，即可计算出孔径分布曲线.当微滤膜的孔被已知表面张力的液体完全充满时，气体通过膜孔所需的压力与膜孔半径存在如下关系：
+r=2σcosθ/p
+
+
+图3　YM-3膜管的孔径分布曲线
+Fig.3 Pore size distribution of 
+YM-3 tubular membrane
+式中，p为压力，也就是气体通过微滤膜时两侧的压差Δp，r为孔半径，σ为表面张力，θ为液体与孔壁之间的接触角.
+　　因此，若已知气体和液体的表面张力σ与接触角θ，则可以利用气体通过膜孔并在膜表面上产生气泡时对应的压力p，以上式求孔半径.测定时膜表面上出现第一个气泡时所对应的压力计算出的孔半径为膜的最大孔径，用气泡数最多时所对应的压力计算出的孔半径作为膜的最小孔径.采用解析法，通过计算机编程计算，根据测得的P-Q值，输入运算程序，直接就可获得样品的孔径分布曲线.图3是YM-3氧化铝膜管的控制层的孔径分布曲线.
+3.2　氧化铝膜管的微滤性能
+　　以水作为过滤液体，表1是一些水中常见的细菌［8］，常见的大肠杆菌宽0.6—1.5μm，长2
+—6μm，显然孔径小于0.3μm的氧化铝膜管应该能完全滤除这些常见的细菌，最大孔径不大于0.1μm的氧化铝膜管可以获得完全无菌的水.
+表1　水中常见的细菌
+Table 1 Common bacterium in the water
+
+　球菌杆　菌螺旋菌蓝细菌酵母菌霉菌
+小球菌葡萄球菌链球菌大肠杆菌炭疽杆菌破伤风杆菌霍乱菌钩端螺旋体
+直径，μm0.5—2.50.5—1.51.0—2.0　　　　　3—15　2—10*
+长，μm　　　2.0—6.04.0—10.04.0—8.01—35—20　5—30　
+宽，μm　　　0.6—1.51.0—1.50.4—0.60.3—0.50.1—0.2　1—5　
+
+　　* 间或有小至0.5μm的细菌
+
+　　
+　　表2是制备的不对称氧化铝微滤膜管的不同孔径及其对应的渗透性能.表3是原液经不同孔径的不对称氧化铝膜管微滤后的细菌含量.
+表2　氧化铝微滤膜管的性能
+Table 2 Permeability of the asymmetric alumina microfiltration tubular membrane
+
+编号最可几孔径，
+μm最大孔径，
+μm孔隙率，
+%渗透性，
+m3/(m2*h)操作压力，
+MPa
+YM-10.050.160.080.35
+YM-20.10.2150.450.25
+YM-30.20.3181.590.17
+YM-41.53.0185.500.10
+
+　　　　* 稳定通量
+表3　不对称氧化铝膜管细菌滤除率
+Table 3 Bacterial filterableness of the asymmetric alumina tubular membrane
+
+　　细菌总数霉　菌酵母菌大肠肝菌
+过滤前　100个/mL有检出有检出有检出
+　YM-10个/mL未检出未检出未检出
+　YM-20个/mL*未检出未检出未检出
+过滤后YM-33个/mL未检出未检出未检出
+　YM-414个/mL未检出未检出未检出
+
+　　　　* 多次的实验中，偶尔有一个细菌检出
+
+　　制备的这4种管都能完全滤除原液中的霉菌、酵母菌、大肠杆菌等大体积细菌，最可几孔径为0.05μm的管能滤除原液中全部的细菌，获得完全无菌的水，但过滤速率太慢.YM-4微滤管的微滤通量远远高于其它的管，但微滤精度低.YM-3的通量适中，但不能达到完全无细菌的要求，一般细菌的滤除率大于95%.综合渗透能量和细菌滤除率等因素，YM-2氧化铝微滤膜管是比较合适的微滤膜管.孔径越小的微滤器所需的操作压力越高，高的操作压力对提高膜的渗透通量有利，但高的压力也会带来密封、膜管强度等问题，对于孔径在0.1—0.2μm的微滤器，操作压力在0.2MPa左右，膜管的渗透性能已可以接受.膜管的渗透通量随工作时间的延长而减小，同一膜管，过滤液体中所含悬浮微粒的大小和数量的多少对膜管的微滤通量都有影响，膜管的初始通量较高，但很快就降低了，而后达到一稳定值，
+
+
+图4　使用时间对氧化铝管渗透通量的影响
+Fig.4 Influence of use time on the filtration
+flux of the alumina tubular membrane
+　　图4是YM-2、YM-3微滤膜管渗透通量随时间的变化曲线.最可几孔径为0.2μm、最大孔径0.3μm的YM-3氧化铝微滤膜管的初始通量可达5m3／(m2*h)，但在数小时内即成倍降低，大约在十几二十小时后通量的降低减缓，通量基本稳定于1.59m3/(m2*h).YM-2氧化铝微滤膜管的初始通量约为2.8m3／(m2*h)，经急剧下降阶段和缓慢降低两阶段后，基本稳定于0.45m3／(m2*h).
+　　采用熔模离心法制备的氧化铝管是孔径沿径向由外管壁向内管壁逐渐减小的，当原液走管内进行过滤时，最小孔径的内管壁作为控制层，细菌和微粒只能沉积在控制层表面，而不可能透过控制层进入膜孔通道，有效地防止了细菌和微粒进入管的深层，防止了管的深层堵塞.由于这种不对称氧化铝膜管具有良好的防深度污染能力，在膜管使用完毕后，采用一般的清洗程序，用清洗剂(可以是酸性或碱性)清洗后，再用洁净水反冲即可. 由于氧化铝膜管的耐高温性，可以在合适高温下，对用毕的微滤膜管作杀菌处理，将污染物烧失，再用洁净水反冲，可得到清洁的氧化铝膜管 .清洗后的膜管，细菌及微粒滤除性能的恢复率达100%，渗透性能的恢复率大于90%.
+　　
+4　结论
+　　利用熔模离心法制备的氧化铝微滤膜管孔径呈梯度分布，孔径由大到小自然过渡，控制层孔径大小均匀，有良好的过滤精度.最可几孔径为0.05μm、最大孔径为0.1μm的管能滤除原液中全部的细菌，获得完全无菌的水，但过滤速率太慢.最可几孔径为0.1μm、最大孔径为0.2μm的管能基本滤除原液中的全部细菌，获得无菌的水，过滤速率为0.45m3／(m2*h).最可几孔径为0.2μm、最大孔径0.3μm的氧化铝膜管能完全滤除水中的大肠杆菌、霉菌和酵母，细菌总滤除率大于95%，水的错流微滤通量可稳定在1.59m3／(m2*h).这种不对称氧化铝微滤膜管能有效防止孔的深层堵塞，用毕的微滤膜管经反冲清洗和高温杀菌后其细菌滤除性能、渗透性能恢复率分别为100%和大于90%，可用作食品和饮料工业的液体过滤、水的微滤，除去0.1—10μm的微生物和微粒子，生产无菌液体、澄清液体和无菌水.
+　　
+　　本研究工作得到了赵宗亮教授、陈永铿工程师和林影博士的帮助，特此致谢.
+　　
+　* 广东省青年科学基金项目
+参考文献
+　1　王学松.膜分离技术及其应用.北京：科学出版社，1994：201
+　2　Keizer K, Verweij H.Progress in inorganic membranes. Chemtech, 1996,26(1):37
+　3　Sheppard Laurel M.In:Ish izaki Kozo (eds). Porous ceramics:processing and applications. Ceramic Transactions, Porous Materials. Westerville, Ohio:The American Ceramic Society, 1992:9—20
+　4　Bhave R R,Guibaud J, Fuente B Taboda De La et al. In:Bhave Ramesh R (ed).Inorganic membranes in food and biotechnology. Inorganic membranes. New York: Van Norstrand Reinhold, 1991:208
+　5　黄肖容，黄仲涛.高纯陶瓷膜管的生产方法及其装置，发明专利:CN1132680A,1996
+　6　黄肖容，黄仲涛.熔模离心法制备高纯氧化铝基质膜管.膜科学与技术，1996，16(2)：31
+　7　胡荣泽等编著.粉末颗粒和孔隙的测量.北京：冶金工业出版社，1982：245
+　8　罗志腾主编.水污染控制工程微生物学.北京：北京科学技术出版社，1988:9

@@ -1,0 +1,58 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+草原樱桃与欧洲甜樱桃远缘杂交不亲和原因初探)
+睢　薇　丁晓东　霍俊伟　迟慧梅
+摘要　通过对草原樱桃与欧洲甜樱桃种间远缘杂交及草原樱桃品种间杂交后花粉管行为的荧光观察发现，草原樱桃品种间杂交授粉后花粉在柱头上能正常萌发生长，花粉管沿花柱到达胚珠完成受精过程，平均座果率为27%。而草原樱桃与欧洲甜樱桃种间杂交授粉后花粉在柱头上虽 少量萌发，但花粉管在柱头上横向生长，或盘绕，扭曲不能伸入花柱；个别进入花柱的花粉管先端因沉积胼胝质而中途停止伸长未能进入子房到达胚珠，从而说明这种杂交授粉后花粉管的不正常行为是导致草原樱桃与欧洲甜樱桃远缘杂交不亲和的主要原因。
+关　键　词　草原樱桃，远缘杂交，不亲和性，花粉管行为
+中图分类号　S662.5，S603　　文献标识码A
+PRELIMINRY STUDIES ON DISTANT CROSS-INCOMPATIBILITY BETWEEN CERASUS FRUTICOSA PALL.AND C.AVIUML.
+Sui Wei Ding Xiaodong Huo Junwei Chi Huimei
+(Northeast Agricultural University,Harbin 150030,PRC)
+ABSTRACT
+　　In this paper,observation was conducted on pollen germination and growth behavior in distant hybridization between Cerasus fruticosa and C.avium and hybridization between varieties in C. fruticosa through fluorescent light system of microscope.The results showed that pollens could normally germinate and pollen tubes could reach ovary through style to completed fertilization in intraspecific hybridization in C. fruticosa.The average fruit-set rate was 27%. However,only did a few pollen germinate in inter-specific hybridization between Cerasus fruticosa and C. avian and many pollen tubes are crosswise on stigma and couldn't penetrated into style.Although a few pollen tubes entered,they couldn't continue to grow due to accumulation of callosity in pollen tubes.In view of above-mentioned results,the irregular growth of pollen was the main reason to cause the incompatibility of distant hybridization between Cerasus fruticosa and C.avium.
+　　KEY WORDS：cherry,distant hybridization,incompatibility,pollen behavior
+0　前　言
+　　草原樱桃(Cerasus fruticosa Pall.)是1988年从俄罗斯引入的树种，其果实个大，柄长，丰产，抗寒性和适应性极强〔1，2〕，但由于其果实的酸度较大，果实品质还有待于进一步改善和提高。利用樱桃属中品质上佳的欧洲甜樱桃(C.aviumL.)与其杂交无疑是对该种果树果实品质进行改良的重要途径，但象这种种间的远缘杂交往往存在不亲和性问题。关于远缘杂交不亲和的现象从前有不少人曾做过研究〔3，4〕，揭示了一些原因，如：花粉在柱头上萌发率低，花粉管生长弱，花粉管不能达到胚囊及杂种胚不育等。
+　　本试验通过对欧洲甜樱桃与草原樱桃种间杂交花粉管活动情况的研究，初步探索了远缘杂交不亲和的原因，并且以草原樱桃种内品种间杂交为对照，尝试了几种不同的授粉方法，试图来提高杂交座果率，为今后的寒地樱桃育种工作奠定基础。
+1　材料与方法
+1.1　材料
+　　本试验于1997年5月在东北农业大学园艺站进行，杂交母本树为该果园中7年生草原樱桃品种希望和马克西莫夫斯卡娅，父本树的花粉采自大连农科所樱桃试验园中的欧洲甜樱桃品种红灯和佳红，花粉采后自然阴干，在冰箱中保存备用。
+1.2　方法
+　　采用离体萌发试验测定花粉生活力，培养基中蔗糖浓度为13%～15%，琼脂1%，硼酸0.02%。
+　　在马克西莫夫斯卡娅×红灯(远缘杂交)的组合中以去雄后立即授粉为对照采用以下三种授粉方式：(1)老柱头授粉：既去雄后2，3，4，5天分别授粉；(2)重复授粉：即自去雄后连续2天和连续3天重复授粉；(3)药剂处理：分别用0.02%硼酸涂抹柱头后授粉和用40 mg.L-1NAA涂抹柱头后授粉。一个月后调查座果率。
+　　花粉萌发及花粉管在柱头上的活动情况的观察采用对草原樱桃与欧洲甜樱桃远缘杂交及草原樱桃种内品种间杂交的6个组合在授粉后2，4，8，24，32，48，72，80，96hr分别取样，固定，脱色苯胺兰染色制片，在01ympus BH-2型多功能显微镜荧光系统下观察，拍照。
+2　结果与分析
+2.1　花粉生活力的鉴定
+　　较高的花粉发芽率是保证正常授粉受精的重要前提条件，试验结果表明：不同品种的花粉在其萌发过程中所需培养基的最佳条件不同，品种间的花粉萌发能力也有一定的差异。品种红灯、希望、马克西莫夫斯卡娅均在蔗糖浓度为13%的培养基上发芽率最高，发芽率分别为31.50%，39.80%和49.50%，佳红这个品种在蔗糖浓度为15%的培养基上发芽率最高，发芽率为36.50%，由此可以看出各供试品种花粉的发芽率均超过30%，可以保证试验的正常进行。
+2.2　杂交座果率
+　　为了使樱桃的远缘杂交获得成功，作者采用了不同授粉方式和对柱头进行不同药剂处理，一个月后对杂交座果率进行的调查结果表明：草原樱桃和欧洲甜樱桃种间杂交各处理的座果率均为零，草原樱桃种内品种间杂交平均座果率为27%(表1)
+
+表1　不同处理对樱桃种间杂交座果率的影响*
+Table1　Effect of different treatments on fruit-set rates in
+hybridization of cherry species
+处理
+Treatments重复授粉
+Repeat pollination老柱头授粉
+Pollinating old stigma药剂处理
+Chemicals对照
+CK**
+两天
+2 days三天
+3 days去雄当天
+1st after emasculation第二天
+2nd day第三天
+3rd day第四天
+4th dayNAA
+NAA硼酸
+B
+授粉总花数
+Total pollinated flowers10010050505050100100100
+座果数
+No. of setted fruits00
+
+
+Transfer interrupted!

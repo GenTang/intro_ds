@@ -1,0 +1,115 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第10期　Vol.36　No.10　1999
+
+
+
+基于神经网络结构学习的知识求精方法
+刘振凯　贵忠华 蔡青
+　　摘　要　知识求精是知识获取中必不可少的步骤.已有的用于知识求精的KBANN(knowledge based artificial neural network)方法，主要局限性是训练时不能改变网络的拓扑结构.文中提出了一种基于神经网络结构学习的知识求精方法，首先将一组规则集转化为初始神经网络，然后用训练样本和结构学习算法训练初始神经网络，并提取求精的规则知识.网络拓扑结构的改变是通过训练时采用基于动态增加隐含节点和网络删除的结构学习算法实现的.大量实例表明该方法是有效的.
+　　关键词　知识求精，人工神经网络，结构学习，规则提取
+　　中图法分类号　TP18
+A KNOWLEDGE BASE REFINEMENT METHOD BASED
+ON STRUCTURAL LEARNING OF NEURAL NETWORKS
+LIU Zhen-Kai, GUI Zhong-Hua*, and CAI Qing*
+(School of Mechanical Engineering, Xi'an Jiaotong University, Xi'an 710049)
+(Northwestern University of Technology, Xi'an 710072)
+　　Abstract　Knowledge base refinement is necessary for knowledge acquisition in building expert systems. The KBANN (knowledge based artificial neural network) for knowledge base refinement has been proposed in literatures. The key limitation of KBANN is that there is no mechanism for changing the topology of the network. In this paper, a novel approach to knowledge base refinement based upon structural learning of neural networks is presented. In this approach, a set of rules are mapped into a neural network (i.e., the initial neural network), and then this reformulated knowledge is refined using structural learning (i.e., the initial neural network is trained by structural learning algorithm and a set of training examples). Finally, the refined rules are extracted from the trained neural network. To accomplish the topology change of the initial neural network, structural learning algorithms based on dynamic node creation and network pruning are used in this approach. Many simulation experiments have proved the effect of this approach.
+　　Key words　knowledge base refinement, artificial neural networks, structural learning, rule extraction
+1　引　言
+　　知识获取是研制专家系统的瓶颈问题.对知识获取的主要步骤及其一般模式，学者们提出了种种见解，现将其中比较著名的3种介绍如下：
+　　(1) Buchanan等人在构造专家系统一文［1］中提出了一个知识获取模式，其主要步骤是：① 识别阶段；② 概念化阶段；③ 形式化阶段；④ 实现阶段；⑤ 测试阶段；⑥ 初始知识模型的修改阶段.
+　　(2) Kidd等人根据心理学的理论提出了一个知识获取模式［2］，分为3个阶段：① 领域知识基本结构的识别；② 细节知识的抽取；③ 知识库的调试和求精.
+　　(3) Ginsberg等人把知识获取分为两个阶段［3］：① 初始知识库抽取阶段；② 初始知识库求精阶段.
+　　综上所述，知识求精是知识获取必不可少的步骤.一般来说，得到的初始知识库常常有些问题，比如知识不完全、知识之间不一致、有的知识不正确等，因此需要调试、修改和补充.实践证明，初始知识库求精后可以显著地提高专家系统的运行性能，比如利用知识求精系统SEEK2对诊断风湿病专家系统EXPERT的知识库求精后，其诊断正确率提高了21.2%［3］.因此知识求精受到专家系统研制者的极大重视.
+　　近年来，人们将人工神经网络用于知识求精，取得了一些进展.1990年，Towell和Shavlik提出了用于知识求精的基于知识的人工神经网络(knowledge based artificial neural network，简称KBANN)［4］，并通过实例证明基于KBANN的知识求精方法比纯符号求精系统要好.但是KBANN也具有一些缺点［4，5］，主要是KBANN在学习时不能改变网络的拓扑结构，因而不能向不完全的规则集增加新的规则.1993年Optiz和Shavlik提出了一个KBANN改进学习算法［6］，在训练期间利用符号机制指导、解释和说明网络中如何动态增加新节点，但究竟在何处增加新节点仍是一个问题，需要进一步研究.同年，Fu提出了与KBANN类似的KBCNN(knowledge based conceptual neural network)用于知识求精［7］，他指出当网络训练不收敛时，可人工在指定的隐含层上增加新节点.
+　　针对上述问题，我们提出了一种基于神经网络结构学习的知识求精方法.
+2　基于神经网络结构学习的知识求精方法
+2.1　知识求精问题描述
+　　本文所指的知识求精问题描述如下：
+　　已知：(1) 初始知识库(指规则集)；
+　　(2) 专家例证.
+　　求解：用已知例证检查初始知识库，并对它进行修改、删除和补充，使加工后的知识库达到预期的运行性能.　　
+2.2　基于神经网络结构学习的知识求精方法流程
+　　与KBANN类似，基于神经网络结构学习的知识求精方法的流程图如图1所示，图中的初始规则集即初始知识库、训练样本即专家例证.它由3个步骤组成：
+　　(1) 转化：初始规则集转化为初始神经网络；
+　　(2) 求精：用训练样本和学习算法训练初始神经网络；
+　　(3) 提取求精的规则知识.在训练网络时，不仅考虑了权值和阈值的学习(对应于规则的修改)，而且考虑了动态增加隐含节点(对应于规则的补充)和网络的删除(对应于规则的删除).
+
+
+图1　基于神经网络结构学习的知识求精方法流程图
+2.3　初始规则集转化为神经网络
+　　初始规则集转化为神经网络，对应关系为① 最终结论：输出节点；② 支持的事实：输入节点；③ 中间结论：隐含节点；④ 依赖关系：联接权值和阈值.
+　　利用上述关系，可以将待求精的规则知识转化为初始神经网络.但是，这些规则必须满足这样两个条件：(1)无谓词运算变量；(2)不构成回路.
+　　构造初始神经网络的方法有很多，不同的方法产生不同拓扑结构、不同规模的初始网络.本文采用了一个与Towell等在KBANN中使用的“规则转化为网络算法”相似的算法，简介如下.
+　　第1步. 规则重写. 使每个析取式都表示为仅有一个前提的规则.如果有多条规则且具有相同的结论，则将这些规则分别重写为两条规则：其中一条以原来的结论为结论，以一个新建项为前提；另一条规则以此新建项为结论，以原规则的前提为前提.这样做的目的是便于所对应的网络分层.图2给出了一个规则重写的实例，设知识库中的一条规则为(B∧C)∨(D∧E∧F)→A，则将此规则改写为两条规则，即B∧C→A和D∧E∧F→A，然后将它们分别重写为A′→A, B∧C→A″和A″→A, D∧E∧F→A″.
+
+
+图2　规则重写实例
+　　第2步. 将规则集转化为神经网络. 用上述规则与网络的映射关系，将包含逻辑关系AND，OR和NOT的规则转化到神经网络中，建立一个与规则集元素一一对应的初始神经网络.这些规则均为合取式（析取式经过第一步已被改写为多个合取式），且无回路、无变元.规则前提与结论的依赖关系转化为网络中对应的权值联接.
+　　第3步. 增加中间节点. 为了使网络中各节点处于正确的层次，可能需要适当增加一些新节点.
+　　第4步. 增加联接. 在原来没有关系的上下层节点之间增加权值为零的联接，使网络中的任何一个中间节点和终节点与其每一个下层节点间均存在联接.
+　　第5步. 对权值和节点扰动，即对网络中的所有权值和阈值加上一个很小的随机数.
+　　按照上述步骤，最终得到的是一个全互联、多层神经网络.
+2.4　训练初始神经网络
+　　KBANN和KBCNN都采用BP学习算法，而BP算法只能对联接权值进行学习，不能改变网络的拓扑结构.但在知识求精时，由于初始规则集可能不完善或含有一些错误的规则，这样导致初始神经网络缺少节点或包含一些错误的联接.因此必须使网络的拓扑结构进行合理变化，包括增加节点、联接以及删除节点、联接等.只有通过结构学习才能实现网络拓扑结构的改变.
+　　我们提出的结构学习算法包括动态增加隐含节点和网络删除两步.
+　　(1) 动态增加隐含节点
+　　从前面可知，初始神经网络的拓扑结构是根据初始规则集构造的全互联、多层网络.一般来说，初始规则集并不完善，由此构造的网络表现为缺少隐含节点，因此经过BP算法训练不一定能收敛.为解决这个问题，我们提出在训练过程中动态地增加隐含节点.具体地说，就是用BP算法训练网络直到到达一学习平台，即网络的训练误差不再随时间而减小，此时在网络的每一隐含层加入一定数量的节点(例如，当前隐含层节点数的10%，或至少一个)，新加入的隐含节点与相邻层节点采用全互联并具有较小的随机权值，因而其重要性较低，当网络继续学习时，新的隐含节点的重要性增加并开始影响网络输出.上述过程重复进行直到网络达到规定允差.
+　　当然，这样动态增加隐含节点有可能使网络增加了多余的节点或连接，所以有必要在网络收敛后，删除多余的节点和联接，这样做同样也可删除初始规则集中的错误规则.
+　　(2) 网络删除
+　　目前已有许多神经网络结构学习的删除算法［8］，有的算法只删除多余联接，有的算法只删除多余节点，还有的算法则同时删除多余节点和联接.我们采用Ishikawa提出的遗忘结构学习算法［9］(structural learning with forgetting，简称SLF)，它既删除多余节点也删除多余联接，共由3部分组成，即遗忘学习LF(learning with forgetting)、隐含节点澄清学习LHUC(learning with hidden units clarification)和选择遗忘学习LSF(learning with selective forgetting).SLF的基本思想是在神经网络的均方差MSE上增加惩罚项，以实现LF, LHUC和LSF.该算法由以下3步组成：
+　　① 用LF得到一个骨架网络结构；
+　　② 用LHUC使隐含节点的输出为全激活(接近1)或全抑制(接近0)；
+　　③ 同时用LSF和LHUC得到更好的学习效果.
+　　SLF算法不仅删除了多余节点、多余联接，而且使隐含节点的输出接近1或0，这样为下一步提取规则打好了基础.因为如果隐含节点的输出不是接近1或0，这样对于提取规则是很困难的，故一些从神经网络提取规则的算法都作了相应的处理［10］.
+2.5　提取规则
+　　通过上述算法训练好的神经网络实际上是求精的神经网络，其知识分布表示于网络结构和权值中，是一种隐式表达，不易于理解.只有通过提取规则，才能使之成为人们易于理解和接受的形式.
+　　Towell和Shavlik提出了一种从KBANN中提取求精规则的方法［11］，即NofM方法.这种方法提取的规则形式如下：
+　　If N of the following M antecedents are true then …
+　　这种规则实际上是神经网络隐式知识的另一种表示形式，不能直接用于构造专家系统的知识库.我们采用Fu提出的KT方法［12］，该方法能提取易于理解的规则知识，其算法简介如下：
+　　对于每个节点Y，将W＋和W－分别定义为其所有正输入权值的集合和所有负输入权值的集合.
+　　(1) 若其某部分正输入权值之和加上除某部分负输入权值以外的任何权值之和均大于其阈值，则产生如下规则
+
+　　(2) 若其某部分负输入权值之和加上除某部分正输入权值以外的任何权值之和均小于其阈值，则产生如下规则
+
+　　其中，，分别是通过权值,，与Y节点相联的Y节点前一层的节点.
+3　仿真实验
+　　利用本文提出的知识求精方法，我们进行了许多仿真实验.下面给出一个实例，其初始规则集为
+　　　　　　　R1:B∧Z→A　　　　R2:E∧F∧G→B　　　　R3:C∧～D→B
+　　　　　　　R4:Y∧X→Z　　　　R5:H∧I→Y　　　　　R6:G∧J→X
+　　经过规则重写得到的网络如图3所示，再通过增加联接、扰动等步骤最终得到一个全互联、多层网络.网络共有4层，输入层有8个节点，代表C，D，E，F，G，H，I和J；两个隐含层分别有4个和2个节点，代表中间概念B1，B2，Y和X；输出层只有一个节点代表最终结论A.
+
+
+图3　规则转化为神经网络
+　　训练样本共有256个，初始规则集对其中63个得出错误结论.用BP算法训练网络至一平台，这时分别在2个隐含层各增加1个节点，然后训练收敛.再用SLF算法训练网络，删除了在第2隐含层增加的多余节点并删除了全部多余连接，最终得到的网络结构如图4所示.最后用KT算法提取的求精后的规则知识如下：
+
+
+图4　求精后的神经网络
+　　　　　　　　　R1:B∧Z→A　　　　R2:X∧Y→Z　　　　R3:E∧F→B
+　　　　　　　　　R4:C∧～D→B　　　R5:～C∧D→B　　　R6:G∧H→Y
+　　　　　　　　　R7: I∧～J→X
+　　这些规则对全部256个样本均得出正确结论.可以看出该方法不仅修改了一些错误的规则，而且还补充了一些遗漏的规则.
+4　结　论
+　　本文针对KBANN的局限性提出了一种基于神经网络结构学习的知识求精方法.该方法与KBANN的主要区别是：① 训练初始神经网络采用了结构学习算法，即动态增加隐含节点和网络删除；② 采用KT算法提取求精的规则知识，其形式易于理解和接受，并可直接用于构造专家系统的知识库.将这种方法应用于工程实际问题是作者进一步的研究工作.
+本课题得到国家自然科学基金资助(项目编号69483005).
+作者简介：刘振凯，男，1967年9月生，博士后，研究方向为人工神经网络、专家系统、智能CAD和反求工程.
+　　　　　贵忠华，女，1969年11月生，博士研究生，研究方向为智能制造、FMS和CIMS.
+　　　　　蔡青，男，1934年10月生，教授，博士生导师，研究方向为CAD/CAM、智能CAD、CAGD和可视化.
+作者单位：西安交通大学机械工程学院　西安　710049
+　　　　　西北工业大学十系　西安　710072
+参考文献
+　1　　Buchanan B G et al. Constructing an expert system. In: Hayes-Roth F, Waterman D A, Lenat D B eds. Building Expert Systems, Chapt 5. Reading, MA: Addison-Wesley, 1983, 127～168
+　2　　Kidd A, Welbank S M. Knowledge acquisition in expert systems. Berkshire Pergamon Infortech Ltd, State of Art Rept: 1984, 71～80
+　3　　Ginsberg A, Weiss S M, Politakis P. Automatic knowledge base refinement for classification system. Artificial Intelligence, 1988, 35(1): 197～226
+　4　　Towell G G, Shavlik J W, Noordewier M O. Refinement of approximate domain theories by knowledge based neural networks. In: Proc of AAAI-90, Menlo Park: AAAI Press, 1990. 861～866
+　5　　Towell G G, Shavlik J W. Knowledge based artificial neural networks. Artificial Intelligence, 1994, 70(1/2): 119～165
+　6　　Optiz D W, Shavlik J W. Heuristically expanding knowledge-based neural network. In: Proc of IJCAI-93, San Mateo, 1993. 1360～1365
+　7　　Fu L. Knowledge-based connectionism for revising domain theories. IEEE Trans on Systems, Man, Cybernetics, 1993, 23(1): 173～182
+　8　　Reed R. Pruning algorithm——A survey. IEEE Trans on Neural Networks, 1993, 4(5): 740～747
+　9　　Ishikawa M. Structural learning with forgetting. Neural Networks, 1996, 9(3): 509～521
+　10　　Yoon B, Lacher R C. Extracting rules by destructive learning. In: Proc IEEE ICNN'94, New York: IEEE Press, 1994. 1766～1771
+　11　　Towell G G, Shavlik J M, Extracting refined rules from knowledge based neural networks. Mach 　Learn, 1993, 13(1): 71～101
+　12　　Fu L. Rule generation from neural networks. IEEE Trans on Systems, Man, Cybernetics, 1994, 24(8): 1114～1124 
+原稿收到日期：1998-10-06；
+修改稿收到日期：1999-05-17.

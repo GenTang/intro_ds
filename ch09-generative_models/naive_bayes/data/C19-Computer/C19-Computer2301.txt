@@ -1,0 +1,127 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+一个并发对象演算
+张　黔　李卫华　傅建明　金　涛
+摘　要　由于缺乏一个为人们接受的描述并发对象系统语义的形式化模型，并发面向对象程序设计语言的开发受到了很大的制约.为了给并发面向对象程序设计定义一个公共的语义框架，人们分别以π-演算和actor模型为基础进行了研究.综合这两种方法，文中定义了一个形式化模型.该模型具有清晰的形式化定义，既可重用标准的并发性理论，还保存了高级面向对象的程序设计风格.本文还提供了一个actor代数及一个并发对象演算，并在两者之间建立起变换关系.
+关键词　并发面向对象程序设计语言，π-演算，actor模型，操作语义
+中图法分类号　TP311
+A CALCULUS OF CONCURRENT OBJECTS
+ZHANG Qian, LI Wei-Hua, FU Jian-Ming, and JIN Tao
+(National Engineering Technology Research Centre for Multimedia Software,Wuhan　430072)
+(Open Research Laboratory for Multimedia Software under Ministry of Education,Wuhan　430072)
+(Software Base of Wuhan University, Wuhan　430072)
+Abstract　The development of concurrent object-oriented programming languages has suffered from the lack of a widely accepted formal foundation for describing the semantics of concurrent object systems. Based on the π-calculus and the actor model respectively, attempts have been made to define a common semantic framework for concurrent object-oriented programming. By compromising these two approaches, a formalism that enjoys a clean formal definition is defined, which allows the reuse of standard results of the theory of concurrency, while preserving a high level object-oriented programming style. The actor algebra and the concurrent object calculus are proposed in the paper here, and the translation relationship between the two approaches is also presented.
+Key words　concurrent object-oriented programming language, π-calculus, actor model, operational semantics
+　　Grogono和Gargul曾指出：“函数式程序设计的基础是λ-演算，逻辑程序设计的基础为逻辑，而面向对象程序设计缺乏一个人们可用来作为定义和讨论基础的简单模型”.Stein等人也指出“关于什么是面向对象程序设计基础的讨论自该领域出现就一直存在.哪些特征——类、原型、继承、代理、消息传递、封装、抽象——是面向对象程序设计的核心，以及它们之间的关系如何，这些问题都不是在短时间内可以解决的”.
+　　而对于并发面向对象程序设计来说，其形式化模型则更是缺乏.Nierstrasz在文献[1]中谈到“由于缺乏被广泛接受的定义语义的形式化基础，基于对象的并发程序设计语言的开发受到了制约”.在这里，他所谈到的只是基于对象的并发程序设计语言，还未涉及面向对象的许多特征，如类、继承等等.人们认识到该问题的严重性，正投入较大精力从事并发对象形式语义的研究.
+　　目前，在研究给并发面向对象程序设计定义一个公共的语义框架时，主要有两种方法：
+　　第1种方法基于π-演算.π-演算可以被看作是对进程代数的扩充，它引入了名字及动态进程创建的概念，在计算过程中，通信的拓扑结构可以动态地演化[2].通常认为，π-演算为建模具有动态结构的系统提供了一个合理的形式化基础.但是用π-演算来建模，面向对象特征是一件相当繁琐的工作，这就类似于用“并发汇编”来进行程序设计.
+　　第2种方法基于actor模型.长期以来，actor模型被公认为是能处理进程创建、变换等动态特性的独特的并发计算模型[3].与π-演算相比，actor模型为并发面向对象程序设计提供了更抽象的观察点.特别是，由于一个actor具有接近于对象的结构及交互属性，该模型可以对面向对象程序设计的核心概念——对象——进行直接的表示.但该模型一方面无法表示面向对象系统中最重要的概念——继承，同时模型的理论基础还不够完备.
+　　本文研究的目标就是要开发一个全新的方法，用以进行并发面向对象程序设计语义的研究.我们将综合π-演算及actor模型的特征，形成一个并发对象演算.
+1　并发对象演算需满足的特性
+　　在形式化一个并发对象演算时，我们需考虑并发面向对象语言中几个基本特征：
+　　(1) 对象标识性.标识性是对象的一个重要属性，根据该属性，一个对象可区别于其它所有对象，这对于获得对相应对象的存取十分必要.通过给每个对象关联一个特有的名字或地址可以实现对于对象标识性的支持.
+　　(2) 并发性.对象是自治的实体，它具有内部及外部并发性.
+　　(3) 组合.对象可以被指定为对于对象的抽象、服务及其它对象部分的函数组合.
+　　(4) 异步消息传递.异步消息传递最适合于描述并发面向对象程序设计的基本交互机制.通过提供足够的同步约束，在异步消息传递机制上可以建模同步通信.但是反过来，若想在一个同步语言中建模异步消息传递，则需要引入一个额外的实体以处理消息的缓存.
+　　(5) 递归.以表达非终止agent及状态改变.
+　　(6) 动态性.动态性意味着在运行时期创建新对象的可能性.
+2　Actor的一个代数
+　　actor是自包含agent，它具有一个状态及一个行为.每个actor有一个独特的邮箱地址，该地址是在它被创建时决定的.actor利用3个基本的原语进行异步消息传递：create——创建新的actors；send——发送消息给其它actor；become——改变当前actor的行为.一个actor或处于活跃状态或处于空闲状态.仅当某actor处于空闲时，它方可接收消息［3］.
+2.1　一个actor代数
+　　actor代数是一可建模actor系统的代数.设Aactors为actor名字的可数集合，a，b，c，ai，bi，…在Aactors上变化；Mactors为消息内容的集合；Sactors为变量值的集合，s，s1，s2，v，v1，…在Sactors上变化.actor系统可以根据下面的抽象语法进行定义：
+　　Actor ∷=Idle—Actor|Active—Actor|Message|Actor‖Actor|v(name)Actor|0
+　　Idle—Actor ∷=〈Idle,Name,Program,States〉　∥可接收一消息
+　　Active—Actor ∷=〈Active,Name,Program,States〉　∥Program为正在执行的程序
+　　Message ∷=〈Recipient,Contents〉　 Recipient ∷=Name
+　　Name ∷= a∈Aactors　 Contents ∷=m∈Mactors　 States ∷=s∈Sactors
+　　Program ∷=become(Program,State).Program|send(Name,Contents).Program
+|create(Name,Program,State).Program|E1:Progam1+…+En:Programn|
+　　一个actor系统代表并行运行的actor的集合.
+2.2　操作语义
+　　我们用标签变换系统来建模上述actor代数的操作语义.设τ为局部自治的计算步骤；和av分别表示接收及发送一消息，该消息的接收者为a，消息的内容为v.
+　　① 
+程序send(b,m).P发送一内容为m的消息到名字为b的actor.
+　　② 
+程序become(P,s1).P′将自身状态从活跃改变为空闲.继续的程序P′由匿名actor〈Active, P,s2〉执行，该actor将不能再接收任何消息，所以它没有名字.
+　　③ （d是一个新的名字)
+程序create(b,P,s1).P′创建一新的空闲actor，该actor状态为s1、程序为P′，且具有新名字d.
+　　④ 　∥若ei＝真
+表达式ei为返回真或假的布尔表达式.仅当表达式ei为真时，方可选中对应的分支Pi.
+　　⑤ 
+　　⑥ 
+　　⑦ 
+　　⑧ 
+2.3　一个基于actor的语言
+　　下面我们引入一个新语言ABL，ABL是基于actor的简单的并发面向对象语言，其基础为actor代数.在actor模型中，计算由多个称为actor的agent执行，每个actor有自己的邮箱地址.在接收到一条消息时，该actor可以发送一些消息到其它actor或自身、创建新的actors、或指定替代行为.
+　　例如，下面是对一个cell类的定义：
+　　
+　　cell类的实例有状态变量x，该类处理get及set两条消息.消息get带参量reply—adr，此参量指出cell对象将状态变量x的值所送到的目标.消息set带参量newx，当cell对象接收到此消息时，它将其实例变量设为newx.cell类的一个实例可以用表达式(let id:=create cell(1.0) in e)创建.该表达式创建cell类的一个实例，并在e中将id约束为它的标识符.
+　　下面给出在ABL中一个类的定义的全部语法：
+　　〈defcl〉∷=(defclass(〈clname〉〈state-var〉*)〈body〉*)
+　　
+　　〈action〉∷=(become〈clname〉(〈arg〉*))|(sendto〈dest〉〈mname〉(〈arg〉*))
+|(sendto〈dest〉〈arg〉)|(let〈var〉:=create〈clname〉(〈arg〉*)in〈action〉*)
+　　其中，〈body〉代表方法定义.表达式（sendto x m）发送一异步消息m到x.消息m或为一包含方法名及参量的点对，或仅为一参量.
+3　并发对象演算
+　　从上面对ABL的语法分析可以看出，ABL语言具有较高的抽象程度，其语法结构能够较容易地为编程人员所接受.但是如何看待其理论基础呢？如何能够正确地对该语言的语义进行研究呢？下面我们将给出一个并发对象演算，并设法在ABL及演算之间建立起相应的变换关系，从而实现对语言语义的探讨.
+3.1　并发对象演算
+　　表1中总结了并发对象演算中进程表达式的语法.我们将每个进程表达式与TyCO （typed concurrent objects）［4］的一些公式对应起来，表中第2列显示这种对应关系.在定义中，设x在变量上变化，P在进程表达式上变化，m为一消息谓词.仅当发送者与接收者的消息谓词相同时，方可执行消息传递.例如，（m1（2）|可计算为：
+表1　并发对象演算中进程表达式的语法
+
+进程表达式TyCO语法描述
+0无作用
+Proc A x1…xn=P进程定义
+m(x1,…,xn)|P接收m(e1,…，en)消息，并表现为P［e1/x1,…，en/xn］
+m(x1,…,xn)P发送m(e1,…,en)消息，并表现为P
+m1(x11,…,x1n)P1 & m2(x21,…,x2n)P2表现为m1(x11,…,x1n)P1或m2(x21,…,x2n)P2
+P1|P2P1,P2并行组合
+＄x.PvxP名字限制创建
+?P!P非约束复制
+
+
+3.2　将ABL编码到并发对象演算
+　　上文已经给出了一种并发对象演算，由于我们已经将该并发对象演算对应到TyCO，而目前对TyCO中类型的研究已经取得了一定的进展［4］，所以对自定义的并发对象演算就可以重用并发性理论中的标准结果.现在关键的问题在于ABL和该并发对象演算之间如何能够建立起相应的变换关系？
+　　我们观察到，ABL可以被简单地编码到并发对象演算中.例如，上述cell类的定义可编码为下面的进程表达式：（设比&具较高优先级）
+　　proc cell (x) self=
+self.get(reply—adr)(reply—adr(x)|cell(x)self) & self.set(newx)(cell(newx)self);
+　　变换后的程序与ABL中cell类的定义形式上十分近似，区别在于在演算中我们为cell引入了一个额外的参量self，self可以看作是cell的对象标识符，而它在ABL中是隐含的.有关并发对象演算中self的必要性我们在文献［5］中已进行了较详细的描述.
+　　下面给出一些变换函数的形式定义，它们将ABL中对类的定义变换为并发对象演算中的进程表达式：
+　　ζc(defclass(〈clname〉〈state-var〉*)〈body〉*)proc〈clname〉(〈state-var〉*)self=ζb(〈bodys〉);
+　　ζb(ε)⊥
+　　ζb((method〈mname〉(〈parvar〉*)〈action〉*)〈body〉*)
+　　(self.〈mname〉〈parvar〉*ζa(〈actions〉)) & ζb(〈script〉*)
+　　ζa(ε)⊥
+　　ζa((become〈clname〉(〈arg〉*))〈action〉*)(〈clname〉〈arg〉*self)|ζa(〈action〉*)
+　　ζa((sendto〈dest〉〈mname〉(〈arg〉*))〈action〉*)〈dest〉.〈mname〉(〈arg〉*)|ζa(〈action〉*)
+　　ζa((sendto〈dest〉〈arg〉)〈action〉*)〈dest〉(〈arg〉)|ζa(〈action〉*)
+　　ζa(let〈var〉:=new〈clname〉(〈arg〉*)in〈action〉*)＄〈var〉.(〈clname〉〈arg〉*self)|ζa(〈action〉*)
+　　利用上述变换函数，可以将ABL编码到并发对象演算中.经过变换后，所有的类型推断、语义研究均可以在并发对象演算中进行.由于我们已经将该并发对象演算对应到TyCO，将可以利用并发性理论中一些标准结论.同时，由于在ABL和并发对象演算之间建立了一变换关系，还保存了高级面向对象程序设计风格. 
+4　相关工作及讨论
+4.1　相关工作
+　　关于对象计算模型的研究，目前主要有以下几种方法.λ-演算具有完备的理论基础，适于对封装性、组合及类型等问题进行建模，但是它完全不涉及并发性及通信.人们开发了CCS等进程演算以解决这些问题，但是它们不能直接地表示新通信通道的动态创建及通信.
+　　π-演算通过引入名字，以及像λ-演算引入新的约束名字一样地进行通信，克服了上述缺点.以这种方式，新对象的创建可以用它们独特的对象标识符来建模.人们在这个领域进行了很多的尝试，以利用π-演算来建模并发面向对象程序设计语言中的不同方面.有代表性的包括B. Pierce的PICT［6］，V.Vasconcelos的TyCO［4］以及O. Nierstrasz的OC［1］.但是这些方法并不能完全地令人满意，主要是因为π-演算不能将对象处理为一阶实体.
+　　actor模型能处理并发计算模型的动态特性，如进程创建、变换等.该模型为并发面向对象程序设计提供了抽象的观察点［3］.但其理论基础不完备.例如，迄今为止对于actor的等价性仍然没有一个公认的概念.
+　　还有一些对并发面向对象语言的研究，例如，P.America采用基于指称语义的方法、J. Engelfriet采用基于Petri网的方法，为一特定并行面向对象语言POOL提供了不同的语义描述.这些工作与我们所进行研究的目标不大相同，我们是希望研究一个适于对通用并发面向对象语言建模的actor代数及其基础并发对象演算.
+4.2　讨论
+　　本文研究了actor模型与并发对象演算的关系.定义了一个actor代数，该代数既具有清晰的形式定义，又基于良好的程序设计风格.文中引入了一个基于actor的高级语言以及一个并发对象演算，指出该高级语言可以编码到并发对象演算中，从而进行类型检查和语义推理.这种方法的好处在于，可以在不修改底层并发对象演算及其类型系统的前提下，引入并发面向对象程序设计的其它机制.
+　　在该领域还有一些研究有待进行.它们包括：研究在该actor代数中如何讨论类型及继承问题；研究代数定律的表达以特征化actor系统的等价性；研究在该actor代数中如何集成并发面向对象语言的特征，特别是重用特征和并发性机制.
+本课题得到国家“八六三”高技术计划(项目编号863-306-05-05)和国家高校博士点学科点专项基金资助.
+作者简介：张黔，女，1973年5月生，博士研究生，主要研究领域为并发面向对象程序设计语言、并行归纳法推理及分布计算.李卫华，男，1952年7月生，教授，博士生导师，主要研究领域为人工智能、知识工程、多媒体技术.傅建明，男，1969年9月生，博士研究生，主要研究领域为知识工程、分布计算.金涛，男，1973年4月生，博士研究生，主要研究领域为知识工程、多媒体技术.
+作者单位：张　黔　国家多媒体软件工程技术研究中心　武汉　430072
+　　　　　李卫华　教育部多媒体软件开放研究实验室　武汉　430072
+　　　　　傅建明　金涛　武汉大学软件基地　武汉　430072
+参考文献
+　1　Nierstrasz O. Towards an object calculus. In:Proc of the ECOOP91 Workshop on Object-Based Concurrent Computing,LNCS 612.Utrecht:Springer-Verlag,1992.1～20
+　2Milner R, Parrow J, Walker D. A calculus of mobile processes, Part Ⅰ/Ⅱ. Information and Computation, 1992,100(3)：1～77
+　3Agha G, Mason I A, Smith S et al. Towards a theory of actor computation. In:Proc of CONCUR 92, LNCS 630. Nice:Springer-Verlag, 1992. 564～579
+　4Vasconcelos V T. Typed concurrent objects. In: 8th European Conf on Object-Oriented Programming, LNCS 821.Berlin:Springer-Verlag, 1994. 100～117
+　5张黔. 并发面向对象语言中继承异常及语义模型的研究[博士论文], 武汉大学,武汉， 1999.
+(Zhang Qian. Research on the inheritance anomaly and the semantics model in concurrent object-oriented language(in Chinese). Wuhan University, Wuhan, 1999)
+　6Pierce B C, Turner D N. Pict: A programming language based on the pi-calculus. Indiana University, Tech Rep： CSCI#476, 1997
+原稿收到日期：1998-04-24
+修改稿收到日期：1999-02-01

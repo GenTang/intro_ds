@@ -1,0 +1,72 @@
+航空计测技术
+Aviation　Metrology　&　Measurement　Technology
+1999年 第19卷 第3期 Vol.19 No.3 1999
+
+
+
+基于边界扫描的板级BIT技术研究现状及发展趋势
+温熙森　刘冠军　黎琼炜　易晓山
+　　摘　要　简要介绍了边界扫描技术，并介绍了基于边界扫描的电路板BIT技术的研究现状，然后分析了目前此技术存在的关键问题和发展趋势。
+　　关键词　边界扫描　板级BIT　混合技术电路板
+Research Status and Trend of Board-Level BIT Technique Based on Boundary Scan
+Wen Xisen　Liu Guanjun　Li Qiongwei　Yi Xiaoshan
+　　Abstract　In this paper,the boundary scan technique and the researching status of circuit board technique based on the boundary scan are presented.The key problem existing in this technique and developing trend are analyzed.
+　　Key words　Boundary scan,Board-level BIT,Mixed technique circuit board
+　　引言
+　　BIT(Built-in Test：机内测试)是系统或设备本身为故障监测、隔离或诊断提供的自动测试能力。BIT技术从70年代提出到现在，随着武器系统复杂性的提高，已成为改善武器系统特别是航空电子系统测试性和诊断能力的一种重要途径和技术[1～2]；但是，随着VLSI、SMD(Surface Mounted Devices)、MCM(Multi-Chip Modules)、MPCB(Multi-Layer Printed Circuit Boards)的出现及发展，器件安装密度骤增而间距锐减(达到12 mil,1 mil＝25.4μm)，器件结构和功能复杂性大为增加(gate／pin＞1000／1)。常规的电路板BIT技术如余度技术、环绕技术和BIBLO(内部逻辑块监测)技术等难以实现或实现代价太大，无法解决上述现代电子技术发展带来的信息获取通道、不可接触测试、监测精度、诊断定位的精确性与一致性等问题[3]，从而导致BIT诊断能力差，虚警率较高，无法适应现代电子系统的BIT要求。
+　　为解决VLSI的测试问题，1985年，由Philips、Siemens等公司成立的JETAG(Joint European Test Action Group)提出了边界扫描技术，它通过存在于器件输入输出管脚与内核电路之间的BSC(边界扫描单元)对器件及其外围电路进行测试，从而提高了器件的可控性和可观察性，解决了现代电子技术发展带来的上述测试问题，可以较方便地完成由现代器件组装的电路板的测试；而且，边界扫描技术作为DFT(可测试性设计)的一种重要技术，体现了“并行设计”的思想，实现了与功能设计同步的测试性和BIT设计。所以，边界扫描技术已成为电路板测试(包括BIT)的一种重要技术途径。
+　　另外，从工程背景看，边界扫描技术在1990年被IEEE采纳并形成了IEEE1149.1工业标准，得到了世界大多数集成电路制造商和测试商的支持，如Inte180486以上、Motorola68040、Xilinx的XC3000以上系列FPGA等芯片都具有边界扫描结构。据Schlumberger公司Wigley预言，今后五年内，多于50％的半导体器件将包含边界扫描结构。可以看出，由边界扫描器件组装的电路板必将越来越多，它们面临着如何应用边界扫描实现BIT的实际问题。
+　　综上所述，研究基于边界扫描的板级BIT技术,具有非常重要的意义。
+1　基于边界扫描的板级BIT的基本形式
+　　基于边界扫描的板级BIT的基本形式如图1所示，其基本组成主要有板上测试机、 IEEE1149.1测试总线和设计在IC内的边界扫描结构。其中，测试总线由TDI(测试数据输入)、TDO(测试数据输出)、TMS(测试模式选择)、TCK(测试时钟)、TRST(测试复位，待选)五条线构成，IC边界扫描结构包括芯片管脚和内部逻辑之间的BSC和TAP(测试存取口)控制器等。板级BIT的基本测试原理是：板上测试机产生IEEE1149.1测试总线信号，将测试码以串行扫描方式由TDI输入至BSC，然后通过TMS发送测试控制命令，经TAP控制器控制BSC完成测试码的加载和测试响应的采集，最后测试响应以串行扫描方式由TDO送到测试机分析处理。
+
+图1　基于边界扫描的板级BIT基本形式图
+2　基于边界扫描的板级BIT技术研究现状
+　　边界扫描技术一出现，基于边界扫描的板级BIT技术研究,就围绕图1所示的基本形式迅速开展起来，其研究方向主要有：
+2.1 测试内容方面，实现了板上器件的离线功能测试和器件间的互连测试
+　　边界扫描技术因其固有的结构特点，克服了现代器件的不可接触测试等问题，可以实现现代器件的离线功能测试和互连测试。这是边界扫描技术的基本功能，已进行了广泛和深入的研究。目前，互连测试已经从简单的基于电路板拓扑结构深入到考虑具体的电路类型。如National Central University的Chauchin Su等人分析了三态门和双向门的互连特征，根据电路物理特性进行互连测试，提高了故障检测率和隔离率[4]。
+2.2 板上测试机方面，设计开发了适合板级BIT的边界扫描测试控制器
+　　由于板上资源和硬件开销的限制，测试机应该结构简单，可以方便地嵌入到已有电路板中。葡萄牙波尔图大学的Jose M.Ferreira[5]、AT&T贝尔实验室的Najmi Jarwala[6]以及我国北京自动测试技术研究所[7]先后设计了板级BIST(机内自测试)结构，通过实验或仿真从原理上探索了基于边界扫描技术的板级BIT实现的可行性，得到了较满意的结果。另外，TI(Texas Instruments)研究生产了适合板级BIT的嵌入式测试控制器SN74LVT8980，它具有体积小、低功耗、易编程、可靠性高等特点，采用它实现的板级BIT，尤其满足武器和航空电子系统BIT的高可靠性、灵巧化和嵌入式要求[8]。
+2.3 测试结构方面，设计了多扫描链结构
+　　图1中，各边界扫描器件的TDI、TDO首尾相连,形成扫描链，实现测试数据的输入与输出。这样，就会导致含边界扫描器件较多的复杂电路板的扫描链太长，从而带来测试速度慢和故障定位准确性差等问题.为此，TI公司提出了多链结构，并研究生产了实现多链结构的扫描链连接器SN74ACT8997和SN74ACT8999[8]。利用扫描链连接器可以将单条长链分割成多条短链，从而缩短扫描链长度，提高BIT测试速度和故障定位能力。
+2.4 测试向量方面，吸收测试生成的一般研究成果，形成了边界扫描测试的向量格式标准
+　　基于边界扫描的板级BIT作为测试领域的一部分，不仅在向量生成方面吸收了测试生成的一般研究成果，而且结合边界扫描的串行特点，形成了标准的向量格式SVF(Serial Vector Format)和EVF(Embedded Vector Format)，从而有利于测试向量的生成和存储[9]。
+2.5 测试过程方面，研究了高效的测试数据扫入扫出方法
+　　基于边界扫描的板级BIT中，由于BIT资源简单以及边界扫描测试的串行特点，测试速度慢是一个显著的问题。Allison H.Evans基于异码输入方式研究了一种数据扫描的启发式算法，可以有效地缩短测试数据的扫入扫出时间[10]。
+2.6 系统扩展方面，研究了板级BIT和系统级BIT的连接方案
+　　板级BIT是系统极BIT的有机组成部分，接受系统级BIT的测试向量和控制命令，且向其报告测试结果。TI和National Semiconductor公司设计了边界扫描环境下板级和系统级的连接方案和接口产品，以适应大型系统的BIT要求[9][11]。
+2.7 应用方面，在军方和航空部门得到了成功应用
+　　1991～1993年，SCOPE公司应用边界扫描技术,对美空军HAIDE(敌机识别装置)进行了系统级和板级BIT设计，实现了98％的故障检测率和85％的故障隔离率[12]。另外，边界扫描技术在网络、电信和容错计算机等高可靠性领域都得到了成功应用。
+3　基于边界扫描的板级BIT技术的可能发展趋势
+　　基于边界扫描的板级BIT技术研究虽然取得了较大的进展，现阶段仍围绕一些关键问题向前发展，这主要有：
+3.1 混合技术电路板的测试问题
+　　目前，虽然边界扫描器件越来越多，非边界扫描器件仍大量存在；而且在复杂电路设计中，VLSI和ASIC(专用集成电路)虽然能够完成电路的许多功能，但并不是所有的逻辑功能都可以集成，相当多的功能仍需要采用分离器件或通用集成电路实现，而它们很少支持边界扫描;所以，由边界扫描器件和非边界扫描器件组装的混合技术电路板仍将在今后相当长时间内广泛存在，它们的测试问题成为板级BIT技术需要研究的关键问题。
+　　解决此问题的基本思想是通过电路板上存在的边界扫描器件实现非边界扫描器件的测试，实现此思想需要进行如下两个方面的关键技术研究：
+　　1)在综合考虑设计复杂性、实现代价和测试完备性等因素的情形下，基于边界扫描的电路板可测性设计技术研究。即研究如何合理选用或添加边界扫描器件以最好地完成电路板测试，同时使得实现成本最低。此技术具有很高的实际应用价值，值得开展深入的研究。
+　　2)扫描链优化配置技术研究。美国南加州大学的Melvin A.Breuer在美国国防高级研究计划局DARPA的资助下对部分扫描领域中扫描链优化配置技术进行了研究，取得了较为满意的结果[13]。明尼苏达大学的T.Jung借鉴此技术对混合技术电路板测试进行了简单的研究[14]，证明扫描链优化配置技术对于提高测试效率具有很大的作用，有必要在此基础上开展进一步的研究。
+3.2 测试向量生成的优化问题
+　　生成序列长度短、故障覆盖率高、诊断准确的测试向量,一直是测试领域孜孜以求的目标和研究的问题。在板级BIT中，由于BIT资源较简单、测试时间受限以及边界扫描测试的串行特点，这个问题显得更加突出。目前，传统的测试生成算法如计数序列算法、改良计数序列算法以及移动“1”算法等，虽然在数学上进行了一定的优化，但由于没有充分利用电路板的结构信息，测试向量仍不够简练。如果测试生成算法能充分利用电路板结构信息，生成的测试向量集将更为优化，这是测试向量生成的重要发展趋势[9]。
+3.3 板级连续BIT(在线BIT)的实现问题
+　　连续BIT是连续监控系统工作状态的一种BIT形式，它要求在系统工作时进行并行测试，是并行技术在BIT中的体现，同时也是BIT的较高要求和重要发展趋势之一。为基于边界扫描实现电子系统的并行测试，TI开发了一种DBM(Digital Bus Monitor)器件，能够在IEEE std1149.1测试总线信号的控制下,实时采样工作数据，可以在其基础上研究基于边界扫描的板级连续BIT实现技术[15]。
+4　结论与展望
+　　过去十几年来，基于边界扫描的板级BIT技术已经开展了广泛的研究，并且取得了较大的理论和实践成果，但仍存在一些关键问题，特别是混合技术电路板的测试问题,需要开展深入的研究。这些问题的解决，不仅具有重要的理论意义，而且具有重要的工程应用价值。
+基金项目：“九五”国防预研项目支持
+作者简介：53岁　男　教授　国防科技大学校长　博士生导师
+作者单位：温熙森　刘冠军　黎琼炜　易晓山　(国防科技大学智能监控与故障诊断研究室，湖南省长沙市，410073)
+参考文献
+　　1　曾天翔主编.电子设备测试性及诊断技术.北京:航空工业出版社,1996
+　　2　杨为民主编.可靠性*维修性*保障性总论.北京:国防工业出版社,1995
+　　3　BIT技术发展情况与分析报告.国防科技大学智能监控与故障诊断研究室,1997
+　　4　Su Chauchin,Shyh-Jye Jou,et.al.Decentralized BIST for 1149.1 and 1149.5 Bassed Interconnects.IEEE,1996,120～125
+　　5　Jose M Ferreira.A modular architecture for BIST of boundary scan boards,ITC'1992,184～188
+　　6　Najmi Jarwala,Chi W Yau.Achieving board-level BIST using the boundary-sacan master.ITC'1991,649～658
+　　7　赵振峰.VLSI及电子设备层次化自测试结构实验验证.北京自动测试技术研究所,1996
+　　8　TI.IEEE1149.1(JTAG)Testability Primer.1997
+　　9　Gary O'Donnell.An Update on Using Boundary Scan for System-level Test Integration.Evaluation Engineering,1996,16～30
+　　10　Allison H Evans,Enrico Macii.Heuristic algorithm for the minimization of test application time in digital circuits with boundary-scan capabilities.Proceedings of the Mediterranean Electrotechnical Conference-MELECON Industrial Applications in Power Systems,Computer Science and Telecommunications Part 1(of3)May 1996,13～16
+　　11　Lee Whetsel.A Proposed Method of Accessing 1149.1 in a Backplane Enviroment.ITC'91,206～216
+　　12　Robert J Dougherty.An IEEE 1149.1 Boundary Scan Application for BIT Evaluation Engineering,1993,38～43
+　　13　Sridhar Narayanan,Rajesh Gupta,Melvin Breuer A.Optimal Configuring of Multiple Scan Chains.IEEE Transactions on Computers,1993,42(9):1121～1131
+　　14　Choi Y H,Jung T.Configuration of a Boundary Scan for Optimal Testing of Clusters of non Boundary Scan Devives.ICCAD'1992,13～16
+　　15　Lee Whetsel.An IEEE 1149.1 Based Logic/Signature Analyzer in a Chip.ITC'1991,869～878
+收稿日期：1998-09-10

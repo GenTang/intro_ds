@@ -1,0 +1,83 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第8期 Vol.36 No.8 1999
+
+
+
+文档处理中消除线噪声的研究
+胡钟山　娄　震　杨静宇　LIU Ke
+摘　要　文中讨论了在文档处理中对表格型文档图像处理的一种预处理方法.由于表格型文档的框线会和文档中字符粘连或交叠，这将会降低OCR系统识别模块的性能，从而影响系统整体性能.文中首先针对这种情况提出了去除文档图像中线噪声的一个通用基本模型，给出了该基本模型消除线噪声的具体算法.然后在此模型的基础上对一些具体应用时遇到的情况提出了一些扩展方法.最后通过实验验证了这些方法.
+关键词　文档处理，光学字符识别, 线噪声消除，表格处理
+中图法分类号　TP391
+LINE-STYLE NOISE REMOVAL IN DOCUMENT IMAGE PROCESSING
+HU Zhong-Shan, LOU Zhen, YANG Jing-Yu, and LIU Ke*
+(Department of Computer Science, Nanjing University of Science and Technology, Nanjing 210094)
+*(Center of Pattern Recognition and Machine Intelligence, Concordia University, Montreal, Canada)
+Abstract　A pre-processing method for table-form document image in document image processing is discussed in this paper. Because the box frame in the table-form document touches or overlaps the characters in the box frame, which will affect the distinguishability of an OCR system, the performance of the total system drops. In order to solve this problem, a basic and general model of line-style noise removal and its detailed algorithm are proposed. Based on this model, some extended methods are also proposed for special applications. Some experiments are also given to show the effectiveness of these methods.
+Key words　document processing, OCR, line-style noise removal, form processing
+1　引　言
+　　随着计算机技术的飞速发展，文档分析以及自动处理的实用化越来越成为研究的热点，引起了人们的广泛兴趣［1，2］.各种各样的表格在实际中被广泛而大量使用，如信用卡申请表、普通发票等，其它一些非表格文档在某些区域往往也具有表格型的特征，如各种支票的金额区域、邮政编码区域等，它们的共同特征是有由横、竖直线段组成的框线围成一个区域，人们在此区域内填写相关信息.对于自动文档处理系统以及OCR系统，这种比较简单的直线结构对于文档处理系统的自动定位分割提供了强有力的帮助，系统能利用这些信息容易地定位到所需信息并进行分割［3］.但在随后的OCR识别过程中，由于字符往往与这些线段有粘连或交叠，对待识别字符产生较大干扰，这样会使得OCR系统的性能下降，造成系统产生许多的误识和拒识.因此如何减少这些框线对系统的影响成为一个实用OCR系统的一个重要环节［4］.对于这个问题可以有两种解决方案：一种是提高OCR系统本身对这些线段噪声的容忍能力使其对这些噪声不敏感.由于噪声的强弱与具体应用密切相关，例如有些应用中线噪声只会出现在字符的底端，而有些会出现在字符的任意位置，还有些应用中线噪声较粗，而有些则很细，如果采用这种方式可能会使得OCR系统不能与具体应用相对独立，将使参与训练的样本模式数量大量增加，同时也会对系统可靠性产生影响，降低系统性能；第二种方法是在分割阶段结束后，从图像上除去这些线噪声，然后送OCR系统去识别.这样提高系统的预处理能力，使图像在预处理阶段消除这些噪声而不是在识别阶段去容忍这些噪声.本文就是试图从第二种方案着手解决此类问题.在文中我们建立了一个去除线噪声的基本模型，为使该模型尽量通用，要求该模型对图像先验知识要求甚少，例如它不要求事先知道笔画的粗细等.在这个基本模型之上，针对具体情况提出了一些精细方法.
+2　去线噪声基本模型的构造
+　　下面我们构造一个比较通用的模型以适合一般情况.模型建立在以下两个基本假设下：① 线噪声直线方程可测；② 对于某一条线噪声，其宽度一定.对于文档中印刷的直线绝大多数满足这两个假设.此外从本节开始，未经特殊说明的图像均指二值图像，背景点为黑点（blackpoint）.
+　　设线噪声的直线L为：ax+by=c, (为讨论方便，设|a|≤|b|）, L宽度为δ.设集合为与直线L的连通域，为集合D(L)的边界点集合，即.对于直线上任一点，沿直线L′:求点，使得，且线段,若,则将线段标记为可擦除线段，否则将其标记为可疑线段.
+　　以上模型是在理想情况下实现，针对图像，其具体实现算法如下：
+　　步骤1. 在图像上求直线方程.
+　　　利用Hough变换，可以求得直线方程：
+　　　　　ax+by=c
+　　　做计数器Counter［］［］；
+　　　　for (all points)
+　　　　　if (point(x,y)！= blackpoint)
+　　　　　　for (all θ)
+　　　　　　　{ρ=xcosθ+ysinθ;
+　　　　　　　　Counter［θ］［ρ］++;
+　　　　　　　　}
+　　最后求计数器Counter最大值对应的θ和ρ,a=cosθ,b=sinθ,c=ρ.
+　　步骤2. 为在实际使用中比较方便，我们可以认为直线L近似水平.由于已经得到了直线方程，总可以将图像旋转一角度，使得直线L水平.但由于实际处理中直线L方程不一定严格准确，可能会存在一个小的误差（其中的一个主要原因由是θ和ρ的量化造成）.因此只能认为旋转后直线L近似水平.这时直线L方程为：y=εx+C, (ε1), C为常量.
+　　步骤3. 对直线L的线宽δ进行测量.
+　　在实际应用中，即使是同一根直线段，经过同一采样设备前后两次进行采样，其前后两次成像的直线宽度可能就会不一样.此外不同的滤波算法和二值化算法也会使得对同一灰度图像二值化处理后其线宽不一样，所以针对不同的二值图像需要测量出直线宽度.
+　　对于任意点，设表示，设d(P,Q)表示P，Q两点间的距离，在其邻域（C1是一常量）上求一点P4(x4,y4)，其中P4满足：.在实际运算时可直接取x4=x3，然后再求P4.在求出P4后，我们可以在直线x=x4上求点P1,P2(实际上P1,P2应记为,表明其取值与P3有关)，P1,P2满足，且线段.考虑到C是常量，我们记，对所有的x，我们计算出Δ(x)，统计Δ(x)出现的频率，频率最大的Δ(x)即为线宽δ.用算法描述如下：
+
+.
+　　步骤4. 在得到线宽δ后，类似依照步骤3，对每一x，我们求得点P1,P2，若,则将线段上所有的点标记为可擦除点，否则将其标记为可疑点.
+　　步骤5. 在不包含可擦除点的图像上，对每个可疑点计算包含该点的最大连通域的面积，将面积很小的区域中的点也标记为可擦除点.
+　　以上即为我们构造的去线噪声基本模型及算法.
+3　基本模型的扩展
+　　在上一章中，我们建立了线噪声的一个基本模型，它能解决大部分这类问题，但在实际应用过程中，还要根据具体情况，在这一基本模型基础上，对其进行扩展，以更适应具体应用.
+　　(1)当笔画与噪声直线L相比较细时，当笔画与L斜交时，笔画上的部分点可能会被标记为可擦除点.
+
+
+图1　S与L斜交示意图
+　　为说明这个问题，我们做如下分析.
+　　设笔画S的宽度为b，直线L宽度为δ，以S和L中线的交点为原点，以L的中线为x轴，建立坐标系，设S与L交角为φ（不妨设0＜φ＜π/2），如图1.则其边界线方程为
+
+　　笔画的边界线方程为
+
+　　S1与L1的交点Q1，S2与L2的交点Q2的坐标分别为.因此当满足：时，有.
+　　上式说明当笔画宽度b小于直线L宽度δ且它们之间的交角较小时，会出现交点Q1的x坐标大于Q2的x坐标，那么直线L上从Q2到Q1一段（长度为将会被标记为可擦除点，这时笔画S将会被擦断.因此由于这种情况会出现，当我们如有先验知识知道直线L可能比较粗时，就需要对这种情况作出处理，具体方法可为对一标记为可擦除点的连通区域Z（该区域内均为可擦除点组成），计算该区域在x轴方向上的跨度，若该跨度小于某一阈值（该阈值与有关），则考查在x轴方向与区域Z相邻区域是否有一定长度笔画与之相连，若有，则将该区域标改记为可疑区域.
+
+
+图2　笔画与直线相切示意图
+(2)当笔画宽度可以测量或已知时，我们可以在基本模型基础上进一步精细我们的算法.
+　　如图2：当字符笔画与直线相切时，阴影部分的直线就无法除去，直线噪声将会保留下来，但如果知道笔画的宽度，就可对标记为可疑的区域进行分析，测量其宽度，如果超过某一宽度，就可以进行擦除，一直到留下的宽度等于已知的笔画宽度.当然这之中还可能有许多的精细算法，这里就不详细讨论了.
+4　实验及结果
+　　我们在3种测试集上实验了该算法.
+　　实验1：实验数据是实际使用的银行支票，共有550张支票，由扫描仪输入，分辨率为200dpi，这里的线噪声有两种：(1)大写金额区域的横线;(2)小写金额的外框.对这组实验我们都能将这种噪声从总体上去除，使之不影响随后的识别，部分实验结果如图3.
+
+
+图3　处理前后图像的比较
+　　实验2：实验数据是Concordia大学Cenparmi实验室的手写体数据库，有6000单个字符，我们对其中的2000个测试样本人工加上直线噪声，然后利用我们的算法对加上去的噪声进行去除，送分类器进行分类，对识别率没有影响［5］.
+5　结　论
+　　本文建立了表格文档处理中框线噪声去除的一个基本模型，并在此基础上针对一些具体的情况对该模型进行了扩展.依据对图像内容的先验知识多少，在这一基本模型的基础上可以构造出许多的扩展方法，这也是我们在今后应用中所要做的工作.
+基金项目：本课题得到国家自然科学基金和国际合作研究项目资助
+作者简介：胡钟山，男，1973年生，博士研究生，主要从事图像识别、字符识别、支票识别处理等方面的研究.娄震，男，1974年生，博士研究生，主要从事图像识别、字符识别等方面的研究.杨静宇，男，1941年生，教授，在人工智能、机器人等方面有广泛的研究.LIU Ke，男，1960年生，教授，现在在Concordia大学从事字符分割及识别方面的研究.
+作者单位：胡钟山　娄　震　杨静宇　南京理工大学计算机系　南京　210094
+　　　　　LIU Ke　模式识别与机器智能中心，Concordia 大学　蒙特利尔　加拿大)
+参考文献
+1　Mori Shunji, Suen C Y， Yamamoto Kazuhiko. Historical review of OCR research. Proc of IEEE, 1992, 80(7): 1029～1058
+2　Impedovo S, Wang P S P, Bunke H et al. Automatic Bankcheck Processing. World Scientific Publishing Co, 1997
+3　Liu Ke, Suen C Y et al. Automatic extraction of baselines and data from check images. In: Automatic Bankcheck Processing. World Scientific Publishing Co, 1997, 213～236
+4　Youngtae Chung et al. Extraction and restoration of digits touching or overlapping lines. In: Proc of ICPR96, 1996. 155～159
+5　胡钟山，娄震，杨静宇， Liu Ke, Suen C Y. 基于多分类器组合的手写体数字识别. 计算机学报, 1999, 22(4): 369～374
+(Hu Zhongshan, Lou Zhen, Yang Jingyu, Liu Ke, Suen C Y. Handwritten digits recognition based on multi－classifier combination. Chinese Journal of Computers(in Chinese)，1999, 22(4): 369～374)
+收到日期：1998-10-09
+修改日期：1999-01-18

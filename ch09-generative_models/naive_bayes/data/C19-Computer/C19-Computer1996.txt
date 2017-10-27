@@ -1,0 +1,134 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+1999年3月 第18卷 第3期 vol.18 No.3
+
+
+
+基于Intranet的数据库系统(二)
+谭立湘　罗家融
+(接上期)
+3　Web数据库应用实例
+　　基于前面对各种方案的分析与比较，下面将具体给出一个企业Intranet中Web数据库应用的实例。该系统是一个企业Intranet信息系统，对内承担着搜集信息、管理信息并提供用户查询的功能；对外可以面向Internet进行信息的发布。
+3.1　系统平台的选择
+　　网络平台选用Windows NT 4.0中文版操作系统，数据库管理系统选用Microsoft公司的SQL Server 6.5。微软的Windows NT 4.0与SQL Server 6.5的结合是实现Browser/Server体系结构下WWW与数据库互连的优秀平台。只需要1台高性能微机就可以作为整个系统的服务器，提供完善的DNS域名服务、邮件服务、WWW服务、FTP服务、Gopher服务和数据库服务。
+3.2　Internet信息服务器——IIS
+　　我们所构建的企业Intranet信息系统的核心为IIS。它是Windows NT 4.0自带的一个捆绑软件，可以配置成WWW服务器、FTP服务器和Gopher服务器，并支持CGI和ISAPI。IIS主要包括下列组件：
+　　.Internet服务：WWW、FTP和Gopher；
+　　.Internet服务管理器：管理Internet各种服务的工具；
+　　.Internet数据库连接器(IDC)；
+　　.密钥管理器：安装安全套接层(SSL)密钥的工具。
+　　IIS集成了Windows NT的安全性和联网性，并使用现有的用户帐号。用户可以在安装Windows NT Server时安装它，也可以在安装NT之后再单独安装。下面主要介绍WWW服务器的配置。
+　　(1)在Internet服务管理器中双击要进行配置的服务器名，以显示其属性页。
+　　(2)属性页包括服务(Service)、目录(Directories)、记录(Logging)和高级(Advanced)4类属性。服务属性中可以设置连接超时、最大连接数、匿名登录名等。系统默认的匿名登录名是IUSRcomputername，安全的做法是设置IUSRcomputername帐号，不能使用Windows NT文件系统(NTFS)删除或更改文件。目录属性页中列出了作为WWW服务的目录，缺省宿主目录为＼wwwroot。当然可以改变缺省宿主目录，增加其它目录或设置虚拟目录。同时在这1页中也设定了WWW服务器的默认文档，以及是否允许目录浏览。记录属性页中可以设置把WWW服务器的运行情况记录到1个文件或SQL/ODBC数据库中，以便管理员进行安全和统计的审查。高级属性页中可以设置对WWW服务的访问权限，如限制某些IP地址的访问、限制网络输出带宽。
+　　(3)停止服务器的运行，并重新启动。
+　　一个值得注意的问题是，如果你所创建的Web页面中运用了CGI、IDC、ActiveX等动态页面技术，包含这些页面的目录属性中访问权限必须设置为可“执行”；否则将会在程序执行时予以拒绝。作为一项准则，对于包含CGI或Internet ISAPI应用程序的虚拟目录只授予执行权限。
+3.3　WWW与数据库的互连
+　　我们建议采用IIS中提供的Internet数据库连接器(IDC)组件来实现WWW与数据库的连接。因为这是一种简单快捷的Web数据库应用开发工具，能大大减轻开发者的编程难度；同时IDC又是基于ISAPI机制的，访问数据库的效率高，对服务器造成的负载小。IDC实际上是一个ISAPI应用程序Httpodbc.dll，它使用两类文件来控制访问数据库且返回结果的HTML页面的构造。这两类文件分别为：
+　　①Internet Database Connector文件(*.idc)
+　　其中包含连接到ODBC数据源的必要信息及要执行的SQL语句，还包含了HTML扩展文件的文件名及其路径。
+　　②HTML扩展文件(*.htx)
+　　它是显示查询结果的HTML文档的模板文件，它同样是用HTML语言编写的，其中可包括文字、图像、音频、视频等。模板文件的作用是在IDC访问数据库后将所得信息(如查询结果)插入到模板文件中，以形成一个完整的HTML文档。
+　　(1)IDC工作原理
+　　利用IDC实现WWW与数据库互连的工作流程如图7。即Web浏览器使用HTTP将请求提交给Web服务器，Web服务器将HTML格式的文档传递给IDC模块，然后由IDC转换成相应的SQL语句，再通过ODBC驱动程序去访问数据库。具体按6步执行：
+　　①由IIS接收URL；
+　　②IIS装载IDC模块，并提供其URL中保存的信息；
+　　　　③Httpodbc.dll模块读取IDC文件；
+　　④IDC与ODBC数据源建立连接，并调用执行IDC文件中的SQL语句；
+　　⑤IDC将从数据库中取得的数据合并到HTX模板文件中；
+　　⑥Web服务器将合并生成的HTML文档返回给客户端浏览器。
+　　(2)实现IIS访问数据库的4个步骤
+　　①为IIS安装和配置ODBC驱动程序。双击“设置”项“控制面板”中的ODBC图标，进入“ODBC数据源”对话框，如果以前安装了某些ODBC驱动程序，此时会在列表中显示相应的数据源。
+　　单击“系统DSN”按钮，出现“系统数据源”对话框。
+
+
+　　图7 IDC实现WWW与数据库互连的工作流程
+    单击“添加”按钮，出现“添加数据源”对话框，选定“ODBC驱动程序”并“确定”，将出现专用于驱动程序的对象，如SQLServer。
+　　输入数据源名称(逻辑名)，如“LocalServer”，单击“确定”之后，逐步关闭即可。
+　　注意，IDC使用的是系统数据源，因此一定要保证正确设置DSN。
+　　②编写利用表单(Form)，接受用户输入并调用IDC文件的HTML文档。
+　　在表单(Form)的编写中，可以充分利用所提供的文本(text)、口令(password)、复选框(checkbox)、单选按钮(radio)输入类型以及多重选择输入列表框(<select>)，来设计最便于用户输入的精美页面。
+　　③编写IDC文件。IDC文件中包含用于访问数据库的信息，它们的格式为“域名：值”，可分为如下几类：
+　　必要域：
+　　.Datasource：ODBC系统数据源名称(DSN)。
+　　.Template：模板文件的名称和路径。
+　　.SQLStatement：所要执行的SQL语句。
+　　可选域：
+　　.Username：若不使用SQL Server集成的安全性，可指定一个访问数据库的有效用户名。
+　　.Password：与用户名对应的口令，省略此域表示无口令。
+　　.DefaultParameters：用户未填的表单项的默认值。
+　　.RequireParameters：要求用户必须填写的表单项。
+　　.MaxFieldSize：每个字段的最大缓冲空间，默认值为8192B。
+　　.MaxRecords：查询可返回的最大记录量。
+　　.Expires：可指定高速缓冲区多少秒刷新1次，否则每次都要访问数据库。此域指定后可降低系统的负荷。
+　　ODBC高级选项：
+　　这些选项允许调整由IDC使用的ODBC驱动程序。它们的格式为：
+　　ODBCOptions:Option Name=Value［,Option Name=Value…
+　　例如，要使SQL语句停止运行十几秒，并停止其对ODBC函数调用的跟踪，则在IDC文件中指定：
+　　ODBCOptions:SQLQUERYTIMEOUT=10,
+SQLOPTTRACE=1,
+SQLOPTTRACEFILE=C:＼Sql.log
+　　下面给出1个查询的例子——query.idc:
+　　Datasource:LocalServer
+　　Usermame:guest
+　　Password:ok
+　　Template:query.htx
+　　SQLStatement:
+　　+select name,age,sex,id,birthday,phone,salary
+　　+from pubs.dbo.personnel
+　　+where name like`%%%namep%%%'and salary>%salaryp%
+　　+order by id;
+　　这里要特别注意百分号(%)的用法，%是SQL中的通配符。在SQL查询中使用通配符可以搜索包含特定字符的表中的元素。在%前又使用“%%”，是为了防止IDC试图使用%作为参数标记符。
+　　在IDC文件中，可以将SQL查询分为2组：批处理查询和多步查询。
+　　.批处理查询
+　　如果数据库系统可同时处理几个SQL语句，则应采用批处理查询格式。例如：
+　　SQLStatement:
+　　+insert into perf(testtime,tag)values(getdate(),`%tag%')
+　　+select aulname,ytdsales from pubs.dbo.title where ytdsales>5000
+　　+select count(*)as nrecs from pubs.dbo.title where ytdsales>5000
+　　.多步查询
+　　如果数据库系统查询不能同时处理1组SQL语句，则将这些查询语句配置为多步查询格式。例如：
+　　SQLStatement:
+　　+insert into perf(testtime,tag)values(getdate(),`%tag%')
+　　SQLStatement:
+　　+select aulname,ytdsales from pubs.dbo.title where ytdsales>5000
+　　SQLStatement:
+　　+select count(*)as nrecs from pubs.dbo.titleview where ytdsales>5000
+　　批处理查询将1次处理完毕所有查询，而多步查询每次只处理1个。因此，如果数据库系统可进行批处理查询，将查询格式化为批处理方式可获得更好的性能。SQL Server正是这样的数据库系统。
+　　④编写HTX模板文件，把SQL应答转换为HTML文件。
+　　HTX模板文件是含有以<%%><!--%%-->括起来的附加标签的HTML文档，IDC能识别这些标签，并将动态数据添加到文档中。HTX文件中有6个关键字(begindetail,enddetail,if,else,endif,and)、4种操作符(LT、EO、GT、CONTAINS)和2个内置变量(CurrentRecord和MaxRecords)；另外还可以使用各种HTTP变量、来自IDC文件的参数、数据库列名及常数。下面请看③中查询示例的HTX文件——query.htx:
+　　<html>
+　　<head><title>查询结果显示</title></head>
+　　<body background=“纹理.gif”>
+　　<center><h2>人员信息查询结果</h2>
+　　<table border=6 width=600>
+　　<%begindetail%>
+　　<%if CurrentRecord EQ 0 %>
+　　<tr><th>编号</th><th>姓名</th><th>年龄</th><th>性别</th>
+　　<th>出生日期</th><th>电话</th><th>薪水</th></tr>
+　　<%endif%>
+　　<tr><td><b><%id%></b></td><td><b><%name%></b></td>
+　　<td><b><%age%></b></td><td><b><%sex%></b></td>
+　　<td><b><%birthday%></b></td><td><b><%phone%></b></td>
+　　<td><b><%salary%></b></td></tr>
+　　<%enddetail%>
+　　<p></table></center>
+　　<%if CurrentRecord EQ 0 %>
+　　<h1>抱歉，没有满足查询条件的数据!</h1>
+　　<%else%>
+　　<hr size=3>
+　　<%endif%>
+　　</body>
+　　</html>
+4　结束语
+　　随着基于Intranet信息技术的进一步推广，必将加速企业由传统的Client/Server模式向先进的Browser/Server模式转换，在此基础上建立自己的信息系统，提高企业的开放性和管理效率。 
+作者单位:合肥中科院等离子体物理研究所计算中心(230031)
+　　
+参考文献
+　1　Millecan J.Unlocking Microsoft Internet Information Server.北京：清华大学出版社、西蒙与舒斯特国际出版公司，1998
+　2　Microsoft Corp.Microsoft Internet Information Server Installation and planning Guide.1995
+　3　赵春泉.Microsoft客户/服务器开发工具实用手册.北京：清华大学出版社，1997
+　4　王文泰，许景超，施玉勋.Internet王牌——WWW使用指南.合肥：中国科学技术大学出版社，1996
+　5　Stout R.The World Wide Web Complete Reference.北京：海洋出版社，1996
+　6　Dwight J.Special Edition Using CGI.北京：机械工业出版社、西蒙与舒斯特国际出版公司，1998
+　7　Hipson P D著.张达译.Windows NT 4 Server.北京：电子工业出版社，1997　　(全文完)
+(收稿日期：1998-07-26)

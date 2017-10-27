@@ -1,0 +1,94 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第3期 No.3 Vol.18 1998
+科技期刊
+
+土壤-小麦体系中稀土元素的形态和生物有效性研究
+孙　昊　王晓蓉　王　芹　吴　徽　杨丽红　(污染控制与资源化研究
+国家重点实验室，南京大学环境科学与工程系,南京 210093)
+陈逸君　戴乐美　曹　密　(南京大学现代分析中心，南京 210093)
+文　摘　利用逐级提取法结合盆栽实验将外源稀土 (La、Gd、Y、Ce和Sm ) 在土壤中的存在形态分为：水可溶解态、酸可提取态和有机质及硫化物结合态，并研究了这三种形态的稀土对小麦的生物有效性。研究结果表明：外源稀土进入土壤后主要以酸可提取态存在，不同形态的稀土浓度大小依次为：酸可提取态>有机质及硫化物结合态>水可溶解态。盆栽实验的结果表明，稀土元素主要富集在小麦的根部，土壤中酸可提取态、有机质及硫化物结合态的浓度和小麦中稀土的富集量有明显的相关关系。 
+关键词　土壤　外源稀土　形态　生物有效性
+Study on the species and the bioavailabilities of rare earth elements in soil and wheat system.Sun Hao，Wang Xiaorong，Wang Qin，Wu Hui Yang Lihong(State Key Laboratory of Pollution Control and Resources Reuse, Department of Environmental Sciences and Engineering , Nanjing University, Nanjing , 210093);Chen Yijun,Dai Lemei,Cao Mi(Center of Material Analysis Nanjing University, Nanjing 210093).China Environmental Science.1998,18(3):268～271
+Abstract—In this investigation, the species of spiked Rare Earth Elements (REEs) in soil were classified into three species:water soluble ,acid extractable and organic/sulphid bound species by sequential extraction procedures.Pot experiment was also used to study the species and bioavailabilities of REEs in soil and wheat system.The results indicate that the spiked REEs exist mainly in the form of acid extractable species, the contents of different species of spiked REEs in soil were acid extractable >organic/sulphid bound > water soluble species. The data of pot experiment show that most of REEs in wheat bioaccumulate in root , and for acid extractable and organic/sulphid species there existes a significant correlation relationship between the contents of REEs accumulated in wheat′s root and the contents of two species in soil.
+Key words:soil　spiked REEs　species　bioavailability
+　　近年来,稀土元素广泛应用于农业生产的各个领域,如施以适当浓度的稀土微肥,能够促使粮食和经济作物提高产量、改良品质〔1〕。目前国内外对稀土元素在土壤-植物系统中的迁移、转化、生物及生态效应的研究中对总量研究较多，而对形态的研究则相对较少。但是，土壤性质和环境条件对土壤中稀土的赋存形态有很大影响〔2〕 ，只研究总量而不考虑形态对评价稀土在土壤-植物体系中的环境行为和生物有效性是远远不够的。逐级提取法已被广泛应用于土壤和沉积物中金属形态的分析〔3,4〕。本文考虑到外源稀土进入土壤中的形式和在土壤-小麦系统中的动态迁移过程，利用逐级提取法，将土壤中的稀土形态分为水可溶解态(WS)、酸可提取态(AE)和有机质及硫化物结合态(OS)，研究土壤环境中稀土的存在形态、转化规律及其与植物有效性的关系，以期对此有一个系统深入的了解。
+1　材料与方法
+1.1　土壤样品的采集和制备
+　　供试土壤采自江苏南京下蜀系黄土发育的黄棕壤,经风干后用玛瑙碾钵碾碎,过18目筛,得土壤样品。不同浓度(0～100 mg/kg)的外源稀土元素La 〔La(NO3)3*nH2O(A.R.)〕、Gd 〔Gd2O3(99.9%)〕、Y 〔Y2O3(99.9%)〕、Ce 〔CeCl3*7H2O〕 和Sm 〔SmCl3*nH2O(A.R.)〕被加入到土壤中制成实验土壤。
+1.2　土壤中稀土形态的测定
+　　土壤中稀土的形态分析采取三步连续提取法,其相应的稀土形态为水可溶解态、酸可提取态和有机质及硫化物结合态。具体提取方法见表1。
+表1　连续化学浸提各形态稀土元素的操作步骤
+Table 1　The procedure of chemical sequential extraction
+for different species of REEs
+
+步骤浸提操作　　　　　　稀土的形态　　　　
+10.5 g 土壤加25 mL去离子水在25℃下浸提24h水可溶解态
+2残渣用25 mL 0.1 M HCl (pH 1.0), 在25℃下恒温震荡5h，放置过夜酸可提取态
+3残渣用pH值为2的25mL 30％的H2O2/0.02M HNO3 (体积比 5：3)，有机质及硫化物
+　在85±2℃的水浴上间断搅拌2h，然后同法提取3h，冷却后，结合态
+　按固液比1：10加入 0.1 M HCl 连续搅拌 0.5h 
+
+1.3　实验作物的培养
+　　选用扬麦158号 tritiicum 为实验作物，取小麦种若干，分盛于两个250mL的烧杯中，用2%的NaClO浸泡30min，灭菌消毒后，置于日光灯下，恒温约20℃培养，每天换水2～3次。3天后麦种发芽,用镊子夹取芽较大者放在铺有石英砂和滤纸的培养皿中，并注意使麦种排列整齐，胚芽朝上，加少量培养液置于镝灯下进行光照,光暗比为14∶10。每天更换培养液。
+1.4　盆栽实验 
+　　取小麦幼苗10株, 用去离子水洗净, 放入250mL烧杯中, 同时在杯中加入土样250g，保持杯中土壤含水量在70%, 每天恒重2次, 培养25天, 分别取小麦植株的根和茎、叶, 在75℃烘箱中烘干, 恒重。
+1.5　小麦样品中稀土元素的测定
+　　向恒重的小麦样品中加入约10mL浓HNO3，盖上表面皿，浸泡过夜。将样品在电热板上加热至微沸2～3h，使浓硝酸挥发近干，取下冷却后，加入5～6滴高氯酸，加热至冒白烟，继续小火加热至白烟冒尽，仅剩白色或粉红色残渣。取下冷却后，加入少许7% HCl，微热使残渣溶解，得到澄清透明的消化液。将根的消化液定容至10mL比色管中，茎与叶的消化液定容至25mL容量瓶中， 用等离子发射光谱 (ICP-AES) 测定溶液中稀土元素的含量。
+2　结果与讨论
+2.1　外源稀土进入土壤后的形态分布(表2)
+　　从表2可看出,5种外源稀土进入土壤后其形态分布规律基本一致,即酸可提取态>有机质及硫化物结合态>水可溶解态。酸可提取态为稀土在土壤中的主要存在形态，与其它两态相比，其浓度至少要高出1～2倍。与空白对照相比，外源稀土的添加明显提高了酸可提取态和有机质及硫化物结合态在土壤中的含量，随着添加的外源稀土浓度的增大，这两种形态稀土的浓度也逐渐升高。但是水可溶解态的含量与空白相比没有多大变化，这主要是因为在逐级提取法中吸附作用控制着土壤中稀土元素的释放〔5〕，在以去离子水为提取剂时，由于土壤对稀土离子有很强的吸附能力，因此，随着外源稀土含量的增加水可溶解态稀土的含量变化不大。
+2.2　稀土元素在植物中的分布及与土壤中存在形态的关系
+　　考虑到稀土元素在土壤和小麦系统中的迁移过程，稀土元素主要通过小麦的根部吸收进入小麦，然后通过蒸腾作用再向茎、叶输送，因此，为考察土壤中稀土的形态和生物有效性的关系，将各形态稀土的浓度和小麦根中的稀土浓度进行相关分析，获得小麦根中的稀土含量与其在土壤中各形态含量的相关系数(表3)。
+表2　土壤中外源稀土的存在形态(mg/kg)
+Table 2　The species of spiked REEs in soil(mg/kg)
+
+元素形态外源稀土含量(mg/kg)
+0.0010.025.035.050.085.0100
+La酸可提取态8.4514.422.028.035.652.674.0
+　有机质/硫化物结合态1.882.392.963.234.196.137.76
+　水可溶解态0.151.161.171.171.221.21.16
+Gd酸可提取态3.2810.721.629.639.463.391.9
+　有机质/硫化物结合态2.562.873.693.444.577.509.51
+　水可溶解态2.392.412.242.442.312.412.22
+Y酸可提取态3.4711.423.231.641.966.596.8
+　有机质/硫化物结合态0.972.233.825.097.0211.215.1
+　水可溶解态0.52.002.402.602.002.812.92
+Ce酸可提取态13.718.828.334.643.964.391.1
+　有机质/硫化物结合态9.6810.711.110.311.714.516.1
+　水可溶解态7.737.487.297.066.986.726.68
+Sm酸可提取态4.739.8116.721.928.745.165.3
+　有机质/硫化物结合态4.624.034.224.694.857.449.18
+　水可溶解态4.774.224.374.014.84.464.2
+
+
+图1　稀土元素在小麦根和茎、叶中富集百分数
+Fig 1　The distribution of REEs in different parts of wheat
+　　从表3中的相关系数可看出，酸可提取态和有机质及硫化物结合态的稀土均和小麦根中稀土的富集量有较好的相关性，而水可溶解态则与小麦中的稀土含量相关性很差，这说明在研究稀土元素从土壤向小麦迁移的过程中，酸可提取态和有机质及硫化物结合态起着非常重要的作用。
+　　图1为稀土元素在小麦根和茎、叶中的分布百分数，图1中的结果表明，5种稀土元素在小麦各部分的分布规律基本一致，其中，对于不同的处理浓度，根部的富集量均占全部富集量的70％以上，并且随着外源稀土浓度的增加根部的富集量的百分含量也逐渐升高，而茎、叶的富集量与根相比则较低，这说明：稀土元素主要富集在小麦的根部，且其在小麦中的迁移性较小，故茎叶含量相对较低。
+表3　小麦根中的稀土含量与其在土壤中各形态含量的相关系数
+Table 3　The correaltion coefficients of the REEs contents
+in root of wheat and contents of different species in soil
+
+元素相关系数r
+水可溶解态酸可提取态有机质及硫化物结合态
+La　0.330.96*0.96*
+Gd-0.230.96*0.96*
+Y-0.210.96*0.96*
+Ce-0.220.98*0.96*
+Sm-0.230.97*0.96*
+
+　注：* n=7，P＜0.01
+3　结论
+3.1　外源稀土进入土壤后主要以酸可提取态和有机质及硫化物结合态存在,其顺序为酸可提取态>有机质及硫化物结合态>水可溶解态。
+3.2　土壤中酸可提取态，有机质及硫化物结合态的含量与稀土在小麦根中的富集量有显著的相关关系，与这两种形态相比，水可溶解态则没有明显的相关关系。
+3.3　进入小麦的稀土元素主要富集在小麦的根部，茎、叶含量相对较少。
+参考文献
+1　王宪泽. 稀土农用的效果、影响因素及其作用的生理基础.稀土，1994，15(1):47～49
+2　冉　勇,刘　铮. 外源稀土在我国主要土壤中化学形态的研究.稀土,1993，14(2):31～35
+3　Martin J M, Nirel P,Thomas A J.Sequential extraction techniques: promises and problems.Marine Chem.,1987,22:313～341
+4　Forstner U. Metal speciation-general concepts and applications. Int. J. Environ. Analyt. Chem.,1993，51：5～23
+5　王晓蓉等. 提取剂pH值对沉积物释放金属的影响, 环境化学,1989，8(3):1～9
+作者简介
+孙　昊　男，1969年11月生。现为南京大学环境科学与工程系，污染控制与资源化研究国家重点实验室在读博士生。主要从事稀土环境化学的研究工作。发表论文18篇。
+收稿日期：1997-08-13

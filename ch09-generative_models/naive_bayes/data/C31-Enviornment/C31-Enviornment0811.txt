@@ -1,0 +1,113 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+利用DO-stat补料分批培养的方法积累聚β-羟基丁酸的研究
+庄国强　李爱英　文　欣　祁庆生　许　平　曲音波
+摘要　真养产碱杆菌突变株B510(Alcaligenes eutrophus mutant B510)能以葡萄糖为碳源在无机合成培养基上积累聚β-羟基丁酸.为消除发酵过程中底物的抑制和优化DO-stat分批补料培养中的补料速率，建立了真养产碱菌突变株B510的比生长速率μ和底物浓度S的数学模型，并求得其生长得率Yx/s.在此基础上，借助一个计算路线优化出在生长期每一个DO信号所要补加的底物量为13 g/L；按中心组合实验设计优化PHB积累期最佳葡萄糖浓度为35 g/L，硫酸铵为1.6 g/L.通过DO-stat补料分批培养，最终细胞浓度为80 g/L，PHB的产量为62 g/L.
+关键词　聚β-羟基丁酸；优化；DO-stat.
+Studies on the production of PHB by fed-batch culture with DO-stat method employing alcaligenes eutrophus mutant B510
+ZHUANG Guoqiang, LI Aiying, WEN Xin, QI Qingsheng, XU Ping, QU Yinbo 
+The State Key Laboratory of Microbial Technology of Shandong University, Jinan 250100
+Abstract　Glucose can be utilized by A. eutrophus mutant B510 to accumulate poly-β-hydrobutyric acid (PHB) in mineral medium. In order to eliminate the substrate inhibition and obtain an optimum substrate feed rate in the fed-batch culture with B510,a mathematic model reflecting the relationship between the specific growth rate and substrate concentration was built and the growth yield was calculated. Based on these results, we got the optimum feed rate (13 g/L signal) for cell growth with a calculative procedure, and the optimum substrate concentration (35 g/L of glucose and 1.6 g/L of (NH4)2SO4) for PHB accumulation with centureal compsite design. The final cell biomass and PHB production in DO-stat fed-batch culture were 80 g/L and 62 g/L, respectively.
+Keywords　DO-stat, PHB, optimum.
+        化学合成塑料已是当今社会不可缺少的重要材料，然而它们的废弃物由于不能被降解，每年以2500万t的速度在地球上大量积累，严重污染了我们的生存环境［1］.尤其在我国，农用地膜日渐得到广泛应用，其碎片滞留于土壤中会破坏土壤的结构和性质，妨碍农作物的生长［2，3］.因此开发可降解性塑料已成为生物工程界研究热点之一.聚β-羟基丁酸(poly-β-hydroxybutyric acid,简称PHB)是其中最有代表性的一类，它是一种高度结晶的热塑性物质，和化学合成塑料一样能成膜和拉丝，特别是具有生物可降解性和生物组织亲合性，使其具有广泛的应用前景［4］.
+　　产PHB的微生物有很多，目前主要采用的是自生固氮菌、假单胞菌、真养产碱杆菌和近几年发展起来的工程菌株.由于采用不同的碳源和菌株其生产工艺和产品性质存在差异［5］.真养产碱杆菌积累的聚β-羟基丁酸具有较高的聚合度和热塑性，因而成为PHB生产的主要菌株［6］.PHB的发酵一般采用前期生长菌体，后期积累PHB的工艺.国内外曾采用过很多方案来试图提高菌体浓度和PHB的产量.韩国的Kim Boo等以pH作为控制信号来进行重组工程菌E.coli的发酵［7］，后又采用真养产碱杆菌可利用葡萄糖的突变株，利用葡萄糖在线分析仪控制葡萄糖的流加［8］.在本实验中，我们以溶氧(DO)作为补料的控制信号，首次在PHB的发酵中采用DO-stat发酵工艺，对真氧产碱杆菌利用葡萄糖的突变株生长和积累PHB的工艺进行了研究.
+1　材料和方法
+1.1　菌株
+　　实验用菌株为真养产碱杆菌B510.该菌是德国哥廷根大学微生物所Peter Schubert先生提供的真养产碱杆菌H16的突变株，可利用葡萄糖为碳源.
+1.2　培养基
+　　斜面培养基：普通牛肉膏蛋白胨培养基.
+　　种子培养基：(NH4)2SO4 2g/L,MgSO4 0.2g/L,Hoagland 2mL/L,CaCl2 15mg/L NaHCO3 0.5 g/L,Na2HPO4 9 g/L,KH2PO4 1.5 g/L，柠檬酸铁铵5 mg/L，葡萄糖20 g/L，牛肉膏0.5 g/L；pH 7.2.发酵培养基：同种子培养基，无牛肉膏.流加培养基：葡萄糖62%，柠檬酸铁铵0.02%，Na2HPO4 9%,KH2PO4 1.5%, MgSO4 0.15%,NaHCO3 0.07%，CaCl2 0.02%，(NH4)2SO4 1.4%.中心组合实验用培养基:葡萄糖与硫酸铵浓度如表1，其它成份同发酵培养基.
+表1　中心组合实验设计葡萄糖与硫酸铵浓度工作表
+Table 1 Worksheet for central
+composite design
+
+实验号葡萄糖，g/L硫酸铵，g/L
+1502.5
+2500.5
+3102.5
+4100.5
+5301.5
+658.281.5
+71.721.5
+8302.914
+9300.086
+
+1.3　分析方法
+　　菌体生长：发酵液经稀释测定波长为600 nm时的光密度和直接称量菌体干重［9］.葡萄糖浓度测定采用DNS法.PHB含量测定采用气相色谱法［10］.
+1.4　发酵条件和方法
+1.4.1　发酵条件　将培养一天的斜面种子接入液体种子培养基，30 ℃，140 r/min摇瓶培养20—24 h，以10%接种量接入发酵培养基中.
+　　液体种子先接入发酵培养基培养30 h(菌体浓度6—7 g/L)，6000 r/min无菌离心，用灭菌的0.85%的生理盐水洗涤两次，配成菌悬液(菌浓度约50 g/L)，按10%接种量接入中心组合实验培养基(见表2).发酵初期(葡萄糖消耗总糖10%以下)测菌体浓度X和PHB浓度CPHB,并根据公式ρ=ΔCPHB/(Δt*X)计算比产生速率并求平均值ρ.
+1.4.2　发酵方法　设备是B.Braun公司生产的3L的BIOSTAT*B3L全自动发酵罐.分批培养条件：用33%的氨水和10%的HCl自动调节pH=7,T=30 ℃，DO维持在15%(通过搅拌速率和通气量来控制).补料分批培养条件：发酵分两个时期.前期为菌体生长期，用33%的氨水和10%的HCl自动调节pH=7，T=30 ℃，搅拌速度设定600 r/min，通气量为1∶2(V/V)，底物流加通过DO-stat来控制(溶氧超过设定值时，流加泵自动启动，溶氧低于设定值，流加泵自动停止)；后期为PHB积累期，改用10%的氢氧化钠代替氨水调节pH.其它条件相同，底物流加通过离线测定手动流加的方法.
+
+　
+图1　分批培养和比生长速率与底物浓度之间的关系
+(A.分批培养　B.比生长速率与底物浓度之间关系)
+Fig.1 Batch culture and the relationship between specificgrowth rate and concentration of substrateA.Batch culture; B.the relationship between specific growthrate and concentration of substrate
+2　结果与讨论
+2.1　底物抑制生长动力学模型的建立
+2.1.1　动力学类型分析　为了解B510的生长动力学类型，先进行分批培养，发酵24h，定时测定其菌体浓度和底物的浓度，并计算出比生长速率μ值，得到μ随底物S变化曲线(图1).由图可见，除延迟期对μ的影响外，随着S的增大，μ也增大，直到最大值μm.此时对应底物浓度为S*，但当S＞S*，μ随S的提高开始下降，这说明B510的生长存在高浓度底物抑制现象.
+2.1.2　生长动力学模型的建立　为了对发酵进行优化控制，必须建立发酵过程的生长动力学模型，以确定μ与S的函数关系.我们采用了Andrews模型［11］：μ=μm/(1+Ks/S+S/Ki).用最小二乘法求出动力学参数，所求动力学参数分别为：最大比生长速率μm为0.38(h-1)，抑制常数Ki为11.8(g/L)，饱和常数Ks为1.14(g/L)，细胞得率Yx/s为0.46(g/g).
+2.1.3　模型的验证　利用所求出的动力学参数，用微机对模型进行计算，结果如图2.
+
+                                                                                    
+图2　Andrews模型的验证
+Fig.2 The test of Andrews model  
+其中，两组点为实验值，两组曲线为模拟计算曲线.图2的结果表明，模型能较好地反映实验过程.因此可利用这个模型由底物浓度S来估算μ.
+2.2　补料速率的优化
+　　用DO作为补料的控制信号，为在补料分批培养中得到较好的结果，须对每一个DO信号需要补加底物量进行优化.我们通过一个计算线路(图3)用计算机来拟合DO-stat的过程［12］.图3中，Yx/s为细胞得率(g(细胞)/g(底物))，X为细胞浓度(g/L)，S为底物浓度(g/L)，ΔS为短时间内底物消耗量(g/L)，ΔX是消耗ΔS能增加的菌体量(g/L).S0为对应每一个DO信号补入的底物在发酵液中的浓度.假定第一个DO信号出现时(底物耗尽)，补料使底物浓度变为S0,菌体每消耗ΔS，菌体增长ΔX，直到S=0(出现第二个DO信号)，再补料使底物浓度变为S0，重复以上过程.当所用时间超过预定的补料时间tf时停止补料，计算出菌体的最终浓度.当S0取不同的值时，可得到不同的最终浓度.
+
+
+图3　用于优化补料速率的路线图
+Fig.3　Flow-chart to estimate optimum amout of substrate to be fed per DO signal
+
+
+图4　对应一个DO信号不同补料速率下的细胞浓度
+Fig.4 The relationship between cell concentration and amount of feed rate of per DO signal
+
+　　因为ΔS=0.01、0.1、0.5(g/L)对于计算结果的影响可忽略，所以为计算方便，我们选定ΔS=0.1，tf=20 h，X0=8 g/L(补料前的细胞浓度)，从而计算出对应一个DO信号的底物补加量与X的关系(图4).由图可知对应每个DO信号补加底物为13 g/L时，最终发酵菌体浓度最高.
+
+
+图5　不同硫酸铵浓度和葡萄糖浓度下的PHB比生长速率的等高线图
+Fig.5 The contour plot for PHB specific production rate
+2.3　PHB积累期底物浓度的优化
+　　为了在PHB积累期得到一个较高的比产生速率ρ，我们通过中心组合实验设计来优化底物浓度，结果如表2.
+表2　中心组合实验设计工作结果
+Table 2 Workshoeet for central composite design and results
+
+实验号123456789
+ρ，h-10.0400.0360.0380.0240.0430.0370.0120.0240.034
+
+　　将以上结果通过进行非线性回归，作出关于PHB比产生速率的等高线图5.此等高线图表明，在所取实验点范围内底物浓度存在最优值(葡萄糖35 g/L，硫酸氨1.6  /L)，使得比产生速率最大.
+2.4　利用DO-stat进行补料分批发酵
+　　在以上优化结果的基础上，我们进行了DO-stat补料分批培养.经过16—18 h的分批培养(细胞浓度约7—8 g/L)，转入DO-stat补料分批培养，当生长期菌的生长速率减慢时转入PHB的积累期.在PHB积累阶段，溶氧不进行控制，加入35 g/L的葡萄糖进行PHB的积累.通过离线的方式测定葡萄糖以控制葡萄糖的浓度.发酵结果如图6.最终菌体浓度可达80 g/L，PHB浓度为62 g/L.
+
+
+　
+                             图6　DO-stat补料分批培养
+                                Fig.6 The time course of DO-statfed-batch culture
+3　结　论
+　　DO-stat是国外研究较多的发酵工艺，具有易于控制，操作简便等优点.真养产碱杆菌的PHB的发酵却未有这方面报道.通过DO-stat分批补料培养可以看出，它比分批培养的菌体浓度提高了近10倍，产率提高了1倍，因此DO-stat流加方式在PHB发酵中同样是适用的，而且和pH-stat相比不受培养基成分的限制.和文献报导不同，在我们的实验中在生长期真养产碱杆菌H16突变株B510的PHB积累速率也较高，具体的机制还有待研究.
+　　由于该菌株为生理研究用菌株，生长速率和PHB的积累速率还不是很高，如果进一步对菌种进行选育和优化，用DO-stat的方案进行PHB的发酵，将会大大提高最终PHB的产量和产率.
+致谢：感谢中科院微生物研究所陈琦先生给予的关心和指导
+作者单位：庄国强　文　欣　祁庆生　许　平　曲音波　山东大学微生物技术国家重点实验室，济南　250100
+　　　　　李爱英　华中农业大学生命科技学院　武汉　730070
+参考文献
+　［1］　Lee B Pometto Ⅲ, Fratzke A L, T B A Bailey. Biodegradation of degradable plastic polyethyleneby phanerochaete and streptomyces species. Appl Environ Microbiol, 1991,57:678—685
+　［2］　Sang Yap Lee. Bacterial polyhyroxyalkaniates. Biotechnology and Bioengineering, 1996,49:1—1
+　［3］　陈西剑,沈建忠,朱蓓蕾.北京菊脂Ⅱ的亚慢性毒性研究.农业环境保护，1989，8(5)：13—15
+　［4］　乔宝义.微生物合成塑料-聚羟基链烷酯.生物工程进展，1990，10(6)：43—46
+　［5］　Byron D. Polymer synthesis by microorganism: Technology and economics. Trend in Biotechnology, 1987,5:246—248
+　［6］　陈 琦，黄和容，易祖华.微生物合成生物降解塑料研究与展望.微生物学通报，1994，21(5)：297—303
+　［7］　Beom Soo Kim, Sang Yuo Lee, Ko Nam Chang. Production of poly-β-hydroxybutyrate by fed-batch culture of recombinant eschericha coli. Biotech Letters, 1992,14(9):811—816
+　［8］　Kim B S, Lee S C, Lee S Y et al. Production of Poly(3-hydroxybutyric Acid) by fed-batch culture of alcaligenes eutrophus with glucose concentration control. Biotechnol Bioeng, 1994,43:892—898
+　［9］　陈 琦，易祖华，黄和容.利用葡萄糖发酵产聚β羟基丁酸菌株的选育.微生物学通报，1994，21(6)：333—335
+　［10］ Braunegg G, Sonnleitner B, Lafferty R M. A rapid gas chromatographic method for the deterination of poly-β-hydroxybutyric acid in microbial biomass. European Appl J Microbiol biotech, 1978,6:29—37
+　［11］ Johnf Andrews. A mathematics model for the continuous culture of microorganism utilizing inhibitory substrates. Biotechnology and Bioengineering, 1968,X:707—723
+　［12］ Takuo Yano, Masata Kurokawa, Yoshinori Nishizawa. Optimum substrate feed rate in fed-batch culture with the DO-stat method. Journal of Fermentation and bioengineering, 1991,5:345—349
+1997-03-17收到原稿　1997-07-31收到修改稿
+
+

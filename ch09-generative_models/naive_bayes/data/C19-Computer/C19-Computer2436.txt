@@ -1,0 +1,112 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH
+AND DEVELOPMENT
+1999年 第36卷 第12期 Vol.36 No.12 1999
+
+
+
+开放的异种对象标识及绑定机制研究
+兑继英　沈卓炜　顾冠群
+摘　要　随着各种分布对象计算系统的广泛使用，异构对象系统之间的互操作已成为必要.其中，COM/CORBA互操作是最为迫切的，很多CORBA产品遵照OMG组织的COM/CORBA互操作规范提供了互操作功能.然而规范中异种对象的标识及绑定机制存在问题，影响了应用程序的可移植性和互操作系统之间的互操作性.文中将互操作中异种对象的标识和绑定机制形式化地描述为异种对象标识空间的映射，在此基础上归纳出3种对象标识方法和相应的绑定语义，并提出一种开放的对象标识机制以提高应用的移植性和互操作系统之间的互操作性.
+关键词　分布对象计算，COM，CORBA，互操作，对象标识，对象绑定
+中图法分类号　TP393
+RESEARCH ON AN OPEN FOREIGN OBJECT IDENTIFYING
+AND BINDING MECHANISM
+DUI Ji-Ying, SHEN Zhuo-Wei, and GU Guan-Qun
+(Department of Computer Science and Engineering,
+Southeast University, Nanjing 210096)
+Abstract　With the wide application of different distributed object computing systems, interworking between heterogeneous systems becomes necessary. Since interworking between COM and CORBA is most urgent, many CORBA products provide interworking capabilities according to the OMG's COM/CORBA interworking specification. However, the specification has some limitations on the object identifying and binding mechanism, and these limitations make it difficult to provide portability of applications and interoperability of interworking systems. In this paper, foreign object identifying and binding mechanism is formalized as mapping between foreign object identifiers. Based on this formalization, three methods for object identifying and binding are concluded. And then, an open object identifying and binding mechanism is proposed to achieve portability and interoperability.
+Key words　distributed object computing, COM, CORBA, interworking, object identifying, object binding
+1　引　　言
+　　各种分布对象计算系统的广泛使用使得异构对象系统之间的互操作成为必要.OMG组织的CORBA和Microsoft公司的COM/DCOM是当前分布对象模型中的两大主流，很多分布式应用同时采用了COM和CORBA［1］，用户迫切需要COM和CORBA的互操作以开发和集成系统，因此目前绝大多数CORBA产品都提供了COM/CORBA互操作的功能.
+　　OMG的CORBA2.0规范及其后续版本中都制订了COM/CORBA互操作规范，其目的在于制定COM和CORBA对象之间的通信机制［2］，用于保证基于规范开发的互操作产品之间的互操作性和用户应用程序的可移植性.但是规范中的异种对象标识（identifier）和绑定（binding）机制存在缺陷，这样不同的互操作产品很可能使用不同的对象标识和绑定机制.例如，当COM客户使用CORBA对象时，IONA公司的Orbix ActiveX使用COM视图对象所在代理的名字、接口的名字和CORBA对象的标识来指定所要使用的CORBA对象［3］，而HP的ORBplus CORBA Connect则使用CORBA对象的名字来指定所要使用的CORBA对象［4］.即使两种产品都使用CORBA对象名来指定所要使用的CORBA对象，也无法保证其格式的一致性：HP的ORBplus CORBA Connect直接将CORBA对象的名字作为参数，而Orbix的COMet则使用接口的名字和CORBA对象的名字来指定CORBA对象［5］.
+　　显然，对象标识和绑定机制的差异妨碍了互操作应用程序的可移植性和互操作系统之间的互操作性.此外，规范中CORBA客户和COM对象的绑定机制无法以通用映射方式实现.针对这些问题，文中对COM/CORBA互操作中的对象标识和绑定机制进行了形式化描述，归纳出3种对象标识和绑定方法，在此基础上提出一种开放的标识和绑定机制，并对其实现进行了可行性论证.
+2　COM/CORBA互操作中的对象标识和绑定问题
+　　在COM/CORBA互操作模型中，客户通过视图对异种对象进行访问，由桥负责两种系统之间的转换工作［2］，如图1所示.
+
+图1　互操作模型
+　　客户在使用异种对象之前需要以某种方式指明所要使用的异种对象，该问题称为对象标识.之后，系统根据客户指定的对象标识定位异种对象，创建相应的视图对象，将视图对象和异种对象联系起来并将视图对象的引用返回给客户，该问题称为对象绑定.此后，客户通过访问视图对象实现对异种对象的访问.
+　　①在对象标识和绑定方面，Automation和CORBA之间的映射与COM和CORBA之间的映射基本相同，因此本文只讨论COM和CORBA的映射，结果同样适用于Automation和CORBA之间的映射.2.1　CORBA对象的标识和绑定①
+　　规范中COM客户通过互操作系统提供的ICORBAFactory类工厂来绑定CORBA对象. ICORBAFactory类工厂为COM对象，代表了系统中所有的CORBA对象，其接口定义如图2所示.
+
+图2　ICORBAFactory接口
+　　CreateObject的行为包括：
+　　(1)创建COM视图对象；
+　　(2)创建CORBA对象并将其绑定到COM视图.方法中的factoryName参数标识了所要创建的CORBA对象的类型.规范没有规定factoryName参数的具体语义，例如，该参数可以用来表示CORBA对象类工厂的名字，也可以用来表示COM视图对象的Prog ID；
+　　(3)将COM视图的引用返回给客户；
+　　GetObject的行为包括：①将方法中的objectName映射为CORBA的对象引用.规范中没有指定objectName映射到CORBA的对象引用的映射规则，例如，该参数可以用来表示CORBA对象的名字，也可以用来表示已经创建了的COM视图的名字；②将CORBA对象引用绑定到已有的视图对象，将视图对象的引用返回给客户.
+2.2　COM对象的标识和绑定
+　　CORBA客户使用互操作系统实现的SimpleFactory类工厂来绑定COM对象.SimpleFactory类工厂是一个实现了SimpleFactory接口的CORBA对象，每个COM对象的类工厂映射为一个单独的SimpleFactory类工厂.SimpleFactory接口的定义如图3所示.
+
+图3　SimpleFactory接口
+　　规范中没有规定如何将CORBA SimpleFactory类工厂提供给CORBA用户使用.另外，规范也没有将实现CORBA SimpleFactory类工厂作为互操作规范的遵从点（compliance point）.
+2.3　存在问题
+　　从以上分析可以看出，规范中的对象标识和绑定机制存在以下问题：
+　　(1)规范没有定义对象标识所代表的语义，因此应用程序中的对象标识在不同的互操作产品中可能会作不同的解释，从而导致应用程序无法在不同的互操作产品上移植；
+　　(2)由于规范没有定义对象标识所代表的语义，因此无法针对不同的语义定义对象标识的格式，即使不同的互操作产品采用同样的标识和绑定方法，也会由于标识格式的不同而影响应用移植；
+　　(3)规范中列举了两种可能的互操作实现方式：通用映射和特定于接口的映射［2］.通用映射方式下视图对象可以根据客户使用的异种对象动态生成，而CORBA视图到COM对象的绑定机制没有提供类似ICORBAFactory的接口来动态地创建COM对象，而且无法绑定已有的COM对象；
+　　(4)一个互操作系统有可能需要在另一个互操作系统上创建视图对象，以上问题影响了互操作系统之间的互操作性.
+3　互操作中异种对象标识和绑定机制的形式化描述
+　　从规范中的互操作模型可以看出，互操作系统需要根据用户指定的对象标识来确定视图对象和异种对象.设互操作系统提供给用户使用的对象标识空间为Nc，视图对象的标识空间为Nv，异种对象的标识空间为Ns，则互操作的对象标识和绑定机制可以形式化地描述为函数f:NcNv和g:NcNs，其中函数f的作用为根据用户指定的对象标识来确定视图对象，函数g的作用为根据用户指定的对象标识来确定异种对象，如图4所示.
+
+图4　互操作中的对象标识和绑定机制
+　　Nc可以由Nv和/或Ns组成.定义函数h为Nc的构成方式，则h有3种（C12+C22）形式：h1:Nv→Nc, h2:Ns→Nc或h3:Nv×Ns→Nc.其中，h1表示用户在绑定异种对象时将视图对象的标识作为参数，通过视图对象隐含地指定所要使用的异种对象，称这种标识及绑定方式为间接方式；h2表示用户在绑定异种对象时将异种对象的标识作为参数，隐含地指定所要使用的视图对象，称这种方式为直接方式；h3表示用户在绑定异种对象时参数既包括视图对象的标识又包括异种对象的标识，称这种方式为混合方式.
+　　在间接方式中，互操作系统先确定视图对象，再根据视图对象确定异种对象，即g(x)=g′(f(x)).其中函数g′为Nv到Ns的映射，如图5所示；在直接方式中，互操作系统先确定异种对象，再根据异种对象确定视图对象，即f(x)=f′(g(x)).其中f′(x)为Ns到Nv的映射，如图6所示；在混合方式中，客户指定的标识中既包括视图对象的标识又包括异种对象的标识，因此视图对象和异种对象的标识可以直接从客户标识中得到，如图4所示.
+
+图5　间接方式的对象标识和绑定机制
+
+图6　直接方式的对象标识和绑定机制
+4　开放的异种对象标识机制
+　　在COM和CORBA中，用户可以采用各种方式标识对象，因此Nc中的对象标识需要带有所使用的对象所在系统的类型信息；此外，规范中的ICORBAFactory接口采用字符串作为对象标识的类型，因此使用串化的对象标识来组成Nc.开放的对象标识包括了上述3种Nc的构成方法，这种标识方式简称为OOID（open object identifier）.下面是Nc的构成文法：
+　　〈OOID〉∷=〈COM对象标识〉|〈CORBA对象标识〉|
+　　〈COM对象标识〉“:”〈CORBA对象标识〉;
+　　〈COM对象标识〉∷=〈COM对象标识类型〉“:”〈串化的COM对象标识〉;
+　　〈CORBA对象标识〉∷=〈CORBA对象标识类型〉“:”〈串化的CORBA对象标识〉.
+　　（1）COM对象标识
+　　COM中的对象通过其CLSID或对应的ProgID来标识［6］.其中CLSID是一个128位的整数，可以按照COM中UuidToString和UuidFromString函数的转换格式将其串化和反串化.Prog ID是一个以“.”分隔开来的字符串，可以直接用作串化的COM对象标识.因此COM对象有两种OOID：
+　　①“CLSID：”〈串化的CLSID〉，表示通过COM对象的CLSID标识COM对象；
+　　②“ProgID：”〈ProgID〉，表示通过COM对象的ProgID标识COM对象.
+　　（2）CORBA对象标识
+　　CORBA中的对象通过可以通过以下几种方式获得对象的引用：将串化的IOR反串化［2］；使用CORBA的名录服务（naming service），通过对象的名字查找对象的引用［7］；使用CORBA的交易服务（trading service），通过一组服务对象的属性来查找对象［7］；使用类工厂创建对象［7］.
+　　其中，CORBA交易服务中对象的属性可以是各种类型的数据，串化和反串化的代价很高，而且得到的对象引用可能不止一个，因此不适合使用OOID标识.替代的办法是将CORBA的交易服务映射为COM的交易服务，COM客户可以使用映射后的交易服务得到串化的对象的IOR，再将串化的IOR转换为OOID来使用.另外，CORBA中的类工厂也是CORBA对象，因此CORBA类工厂的标识和CORBA对象的标识相同，但需要在前面加“Factory〖KG-9〗　”前缀，表明它是一个类工厂，用户希望得到的是通过该类工厂创建的CORBA对象.需要指出的是，如果通过类工厂创建的对象仍然是一个类工厂对象，此时系统直接返回该类工厂对象（或它的视图）而不再做进一步的创建工作，因为客户有可能确实需要得到该类工厂或其COM视图.因此针对CORBA对象有4种OOID：
+　　①“IOR：”〈串化的IOR〉，表示通过IOR标识CORBA对象；
+　　②“NS：”〈串化的对象名〉，表示通过CORBA名录服务中CORBA对象的名字标识CORBA对象.其中对象名可以串化为以下格式：〈id1〉.〈kind1〉.〈id2〉.〈kind2〉…〈idn〉〈kindn〉，这里对象名包括n个对象名组件（name component）；
+　　③“Factory_IOR：”〈串化的IOR〉，表示通过CORBA类工厂创建CORBA对象，其中IOR是CORBA类工厂对象的IOR；
+　　④“Factory_NS：”〈串化的对象名〉，表示通过CORBA类工厂创建CORBA对象，其中对象名是CORBA类工厂对象的对象名.
+5　开放的异种对象绑定机制及其实现方法
+　　规范中列举了两种互操作实现方式：通用映射和特定于接口的映射［2］（以下简称为通用方式和特定方式），当前COM/CORBA互操作产品也分为这样两大类［1］.在通用方式中，所有接口都由一组固定的互操作组件动态地进行映射并生成视图对象.当目标系统中注册了新的接口和对象时，用户可以直接去访问这些新的对象而无需针对这些接口专门生成视图对象.这种方法简化了配置管理，但是性能较低.在特定方式中，用户在访问目标对象之前需要使用互操作编译器对目标对象的接口描述文件进行编译生成代理，之后才可以通过该代理创建视图对象.这种方法提高了性能，但用户的使用和视图对象的管理工作较为复杂.
+　　以通用方式实现的互操作系统大都采用直接方式标识异种对象，例如HP的ORBplus.以特定方式实现的互操作系统大都采用混合方式标识异种对象，例如IONA的Orbix ActiveX.为了支持用户应用的移植，互操作应支持多种标识和绑定方式.以下结合这两种实现方式讨论开放的对象绑定机制及其实现方法.
+5.1　COM客户对CORBA对象的绑定
+　　由于OOID是字符串，因此不需要改变ICORBAFactory接口，只需将CreateObject方法和GetObject方法中的factoryName参数和GetObject方法中的objectName参数按照OOID进行解释.
+　　(1)直接方式
+　　如果factoryName或objectName是CORBA对象标识，那么表示客户希望通过直接方式创建或绑定CORBA对象.系统根据OOID中指明的CORBA对象标识创建一个新的CORBA对象（如果OOID标识的是一个CORBA类工厂对象）或绑定一个已经存在的CORBA对象（如果OOID标识的是一个CORBA对象实例），并根据CORBA对象的类型创建或绑定相应的COM视图对象，将CORBA对象绑定到COM视图对象，最后将COM视图对象引用返回给客户.
+　　不论通用方式还是特定方式，互操作系统都可以根据CORBA对象的IDL描述来确定视图对象.
+　　(2)间接方式
+　　如果factoryName或objectName是COM对象标识，那么表示客户希望通过间接方式创建或绑定CORBA对象.
+　　视图是根据CORBA对象的接口描述生成的，一个视图对象可以绑定多个同种类型的CORBA对象，因此需要用户通过配置来指定缺省情况下视图对象所对应的CORBA对象.在以通用方式实现的互操作系统中，可以将COM视图的标识作为CORBA对象的别名使用并由用户事先设置，之后系统可以根据COM视图的标识查找对应的CORBA对象标识，并根据CORBA对象的类型生成相应的视图对象；在以特定方式实现的互操作系统中，一个代理可以支持多个视图对象，系统可以直接定义视图对象的标识并由用户定义缺省情况下视图对象所要绑定的CORBA对象.
+　　(3)混合方式
+　　如果factoryName或objectName是COM对象标识加CORBA对象标识，那么表示客户希望通过混合方式创建或绑定CORBA对象.对于以通用方式实现的互操作系统，可以只使用CORBA对象的标识，以直接方式绑定对象；对于以特定方式实现的互操作系统，可以根据COM对象标识确定视图对象，根据CORBA对象标识来确定CORBA对象.
+5.2　CORBA客户对COM对象的绑定
+　　规范中没有规定用户以何种方式获得SimpleFactory类工厂.由于SimpleFactory类工厂是一个CORBA对象，因此可以将其命名并登记在CORBA的名录服务中，用户通过名录服务查找得到其IOR，但是这样做不利于使用通用映射方式实现COM到CORBA的互操作，而且SimpleFactory类工厂没有提供绑定已有COM对象的功能.这里仿照ICORBAFactory定义了一个COMFactory接口，用于创建和绑定包括COM对象类工厂对象在内的COM对象.互操作系统可以实现一个具有该接口的CORBA对象，并给它指定一个周知的CORBA名录服务中的名字，例如将其名字的id设为“COM_FACTORY”， kind设为NULL.COMFactory对象的接口定义如图7所示.
+
+图7　COMFactory接口
+　　其中create_factory方法用于创建COM类工厂，get_factory方法用于绑定已有的COM类工厂；create_object方法用于创建COM对象，get_object方法用于绑定已有的COM对象.factoryName和objectName分别为标识COM对象类工厂和COM对象的OOID.具体的绑定方法与前面的ICORBAFactory类似，这里不再赘述.
+6　结束语
+　　开放的对象标识和绑定机制的基本思想是将对象标识的类型和对象标识的内容捆绑起来标识对象，同时针对各种OOID定义具体的绑定语义，从而解决了对象标识及绑定所带来的应用程序的移植性问题和互操作系统之间的互操作问题.从OOID的定义可以知道任何可以串化的对象标识都可以用它来表示，因此具有很好的可扩充性.
+　　互操作产品可以将其可以支持的OOID公布出来，这样用户可以据此判断其应用是否可以移植到其它互操作产品上去.规范也可以指定一些OOID作为对规范的遵从点，从而保证用户在使用这些OOID时能够在所有遵从规范的互操作产品上移植.此外，文中对象标识和绑定机制的形式化是针对任意两个异构分布对象计算系统的互操作进行的，开放的对象标识和绑定机制也可以应用到其它异构分布对象计算系统的互操作中.
+本课题得到国家“八六三”重大攻关项目（项目编号863-511-9704-002）基金资助.
+作者简介：兑继英，男，1971年12月生，博士研究生，主要研究方向为计算机网络、电子邮件及
+　　　　　分布式处理.
+　　　　　沈卓炜，男，1974年1月生，主要研究方向为计算机网络和分布式处理.
+　　　　　顾冠群，男，1940年生，中国工程院院士，教授，博士生导师，主要研究方向为高性
+　　　　　能计算机网络、网络协议工程、CIMS、分布对象技术.
+作者单位：东南大学计算机科学与工程系　南京　210096
+参考文献
+　1　John Montgomery. Distributed components. BYTE, 1997, 22(4): 93～98
+　2　Object Management Group. The Common Object Request Broker: Architecture and Specification, Revision 2.0, 1995
+　3　IONA Technologies. Orbix ActiveX Integration Guide. IONA Technologies Ltd, 1997
+　4　Mike Foody. Let's talk. BYTE, 1997, 22(4): 99～102
+　5　IONA Technologies. OrbixCOMet Desktop. http://www.iona.com/orbixcomet/whitepaper/comet.html. 1997
+　6　Microsoft Corporation and Digital Equipment Corporation. The Component Object Model Specification, Draft Version 0.9, 1995
+　7　Object Management Group. CORBAServices: Common Object Services Specification, Revised Edition, 1997
+原稿收到日期：1998-12-24；修改稿收到日期：1999-08-25.

@@ -1,0 +1,264 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年6月第18卷第6期科技期刊
+中国高等环保人才现状分析
+(姚炎祥　刘金春　韦保仁　周常明)
+((苏州城建环保学院，苏州　215011))
+
+摘要　按环保人才的工作系统对其进行了分类分析.对环保局系统的人才现状从人才总量、部门分布、学历结构、职称结构、年龄结构、地区分布等方面作了较详细的分析；对工业和环保产业的环保人才现状也作了一定程度的分析，为预测21世纪初我国高等环保人才的需求提供了依据.
+关键词　环境保护；人才；现状.
+AN ANALYSIS OF THE PRESENT SITUATION OF CHINA'S HIGHER ENVIRONMENTAL PROTECTION PERSONNEL
+
+Yao Yanxiang, Liu Jinchun, Wei Baoren, Zhou Changming
+(Suzhou Institute of Urban Construction and Environmental Protection, Suzhou 215011)
+
+ABSTRACT　This paper analyses China's higher environmental protection personnel according to the working systems they belong to. A detailed analysis is made on the present situation of the environmental personnel in the departments of evironmental protection administration in terms of their quantity, organizational structure, educational background structure, professional titles structure, age structure and area distribution; also, the paper gives an explicit description of the present situation of higher environmental protection personnel in different trades and environmental protection industry, and provides theoretical grounds for prediction of the demand of higher environmental protection personnel in China at the turn of the 21s century.
+Keywords　environmental protection, personnel, present situation.
+　　
+1　引言
+　　自70年代以来，我国环保专业人才的数量稳步增长，尤其是90年代以来增长较快.随着社会、经济可持续发展思想深入人心，环保专业人才，尤其是综合性的环境与发展决策型人才的需求将逐年增加.为了预测新世纪到来后我国高等环保人才数量和质量的需求，必须对我国现有高等环保人才的现状及其变化规律作一研究，以便根据我国的国情和社会、经济发展趋势作出较为客观的人才需求预测，为我国高等环境教育的发展战略提供依据.
+　　我们界定的高等环保人才是指具有中专以上学历，或虽无学历，但有技术职称的工作在环境保护领域内的管理人员和科技人员.目前，我国高等环保人才分布广泛，为便于研究，我们按环保人才的工作系统，初步把环保人才分为4大类，即：环保局系统的环保人才，在各部委和企事业单位工作的环保人才(以下简称行业环保人才)，在环保产业部门工作的环保人才以及高校的环保人才.因高校环保人才另有专文研究，本文只论及前三类环保人才.
+
+2　环保局系统高等环保人才现状
+2.1　环保局系统人才总量
+　　
+
+
+图1　环保局系统人员总量变化
+Fig.1 The total numbers of personnel in the departments of environmental protection administration
+根据1996年6月5日我国政府发表的环境白皮书，截止1995年，我国环保局系统的人员总量为8.8万人.根据《中国环境年鉴》的统计［1］，1981年环保局系统人员只有2.25万人，到1986年差不多增加一倍，历时5年.从1986年到1995年又增加一倍，历时9年.显然，环保局系统的队伍在不断扩大，从1981年算起，人员绝对量以年均0.46万人的速度递增.环保局系统人员总量的年变化见图1.环保局系统中管理干部和科技人员的年变化见图2.由图1和图2可见，历年来环保局系统中管理和科技人才占总人员的
+
+
+图2　环保局系统中管理干部和科技人员总量变化
+Fig.2 The total number of administrative and sci-tech personnel in the departments of environmental protection administration over the years
+比例在76%左右，这表明环保局系统的人才素质较高.根据《中国环境年鉴》，1994年环保局系统中管理人员、科技人员和工人的比例示于表1.由表1可见，科技人员占人员总量的一半以上，充分表明环保局系统中人员的科技素质相当高，与政府其它部门相比，这是一个显著的特点.
+
+表1　1994年环保局系统人员比例
+Table 1 The percentage of personnel in the departments of environmental protection administration
+
+　管理人员科技人员工　人
+人数，万人2.104.512.06
+比例，%245224
+
+
+2.2　环保局系统的机构设置
+　　1994年我国共有环保机构7583个，共有86700余人，分布在省(含自治区和直辖市，下同)、市(含地区，下同)、县(含县级市，下同)三级，表2为三级环保局机构数与人员分布.由表2可见，环保局系统中，县级的机构数和人员最多.在省、市两级环保局系统中，除环保局局机关(以下简称环保局)外，还包括：环境科学研究所、环境监测站、环境监理所、环境宣教中心等机构.
+表2　三级环保局机构与人员分布
+Table 2 The distribution of three-level organizationand personnel involved
+
+　省市县
+机构数，个21815085858
+百分比，%32077
+人数，万人0.892.984.80
+百分比，%103456
+
+　　1994年全国省级环保机构的数目和人员分布见表3.由表3可见，省级环保机构中科研所和监测站的人才数量相当.表3中的其它是指前列机构以外的直属环保局领导的机构，如：宣教中心、环科协会、固体废物处理中心、培训中心等环保事业单位(下同).
+表3　1994年全国省级环保机构与人员分布
+Table 3 The distribution of provincial organizations and their personnel in 1994
+
+机构名称环保局科研所监测站监理所其　它
+机构数目，个30273723101
+机构人员，万人0.150.270.280.040.15
+
+　　1994年全国市级环保局系统的机构和人员分布见表4.由表4可见，市级机构中环境监测站的人员数为1.34万人，几乎为全体人员2.98万人的一半.
+表4　1994年全国市级环保机构与人员分布
+Table 4 The distribution of organizations and personnel at the city level in 1994
+
+机构名称环保局科研所监测站监理站其　它
+机构数目，个356194377288293
+机构人员，万人0.650.331.340.340.31
+
+　　1994年我国县级环保局系统中的机构数目与人员分布见表5.
+表5　1994年全国县级环保机构数目与人员分布
+Table 5 The distribution of environmental protection organizations andtheir personnel at the county level in 1994
+
+机构名称环保局监测站监理站其　它
+机构数目，个200518081348696
+机构人员，万人1.671.930.880.31
+
+
+　　综上所述，全国三级环保机构的8.67万人的部门分布见表6.
+表6　1994年全国环保局系统人员分布
+Table 6 The distribution of personnel in the departments of environmentalprotection administration in the country in 1994
+
+机构名称环保局科研所监测站监理站其　它
+机构人员，万人2.470.63.551.260.79
+百分比，%28741159
+
+
+2.3　环保局系统人才的学历结构
+　　我们专门组织人员和发函对全国各地环保部门进行人才学历的典型调查，回收调查表39份，这些调查表来自20个省(市、自治区).其中包括市级和县级环保机构.调查结果列于表7.该表中省级的数据是江苏省全省三级环保局系统的调查结果.调查表明，三级系统中专门人才的学历分布有明显差异.县级环保局系统人才的学历编低，提高县级环保机构的学历层次是当前环保队伍建设的一项重要任务.
+表7　省、市、县级环保局系统人才学历分布抽样调查结果
+Table 7 The educational background distribution of personnel in the departments of environmentalprotection administration at provincial, municipal and county levels
+
+　研究生本科生大专生中专生
+江苏省，%1646307
+市，%3463417
+县，%　372934
+
+
+2.4　环保局系统人才的职称结构
+　　根据北京市的调查，北京、天津、重庆等城市的环保人才中，中级职称占40%以上，初级职称占10%，职称分布中间大，两头小的结构与环境保护工作涉及学科广泛，学科交叉性强，技术含量较高等特点相关.但从全国的统计资料来看，职称分布呈明显的“金字塔”型，如表8所示.从我们调查的有效返回表格统计得出的数据示于表9.调查表明，市级的高、中级职称比例比全国平均水平高，县级的初级职称比例比全国平均水平高.总之，县级环保人员的专业职称偏低，这也与这一层次环保人员的学历层次偏低是一致的.
+表8　全国环保局系统科技人员职称比例(1994年)
+Table 8 The proportions of three kinds of professional title holders in the departments of environmental protection administration (1994)
+
+职　称高　级中　级初　级
+人数，万人0.311.352.59
+比例，%73261
+
+表9　市、县级环保局系统专业人员职称比例的抽样调查结果
+Table 9 The percentage of professional title holders in the departments of environmental protection administration at municipal and county Levels
+
+职　称高　级中　级初　级
+市，%184636
+县，%62272
+
+
+2.5　环保局系统人才的专业结构
+表10　江苏省环保局系统人才专业结构
+　Table 10 The specialty structure of personnel in the departments of environmental protection administration in Jiangsu Province
+
+学科比例，%人数，人
+理科26.21460
+工科24.31354
+环境类16.7931
+文科6.6368
+医科5.9329
+农科3.4190
+材料科学1.689
+管理科学1.584
+其　它13.8769
+
+由于历史原因，我国环境教育起步较晚，环保人员中相当一批是转行进入环保系统的，因此环保局系统人才的原有专业结构比较复杂.根据北京市的调查，在全市环保系统人员中，原有专业与环境保护相关性较大的人员占总数的47%.以江苏省为例，环保局系统人才专业结构如表10所示.从表10可见，江苏省环保局系统中理、工和环境类专业人才占60%以上，具有明显的自然科学特性，这与江苏省工业生产发展带来较繁重的环境污染治理任务有关.随着环境建设纳入法制的轨道，社会公众关心和参与环境保护意识的加强，其它学科的人才比例将会适当提高.
+2.6　环保局系统人才的年龄结构
+　　根据有关资料统计，中国内地环保局系统和香港环保系统科技人员的年龄分布如表11所示.内地环保局系统科技人员虽无断层，但与香港相比，年龄老化较为严重.
+表11　内地环保局系统科技人员年龄分布与香港的比较
+Table 11 A Comparison of the Age Distribution of Sci-Tech Personnel in the Departments of 
+Environmental Protection Administration Between in Land and Hong Kong
+
+年　　龄＜30岁31—40岁41—50岁＞50岁
+内地，%3227.126.414.5
+香港，%3950101
+
+
+2.7　环保局系统人员的地区分布
+　　为便于研究，按GNP将我国分为东、中和西部3个地区，各地区对应的省(市、自治区)示于表12.1993年各地区GNP、人口百分比、经济密度、环保人员总数及其相对比例［2］如表13所示.由表13可见，东部地区GNP占全国一半以上，经济密度最高，中部次之.与此相应环保人员的比例亦然.这也表明环保人员的分布与GNP的分布关系密切.
+表12　东、中、西部地区省份划分
+Table 12 The provinces in the east, central and west ragions China
+
+地　　区省(市、自治区)名
+东　　部北京、天津、河南、辽宁、上海、江苏、浙江、福建、山东、广东、海南
+中　　部山西、四川、吉林、河北、安徽、江西、广西、湖北、湖南、云南
+西　　部内蒙、贵州、黑龙江、西藏、陕西、甘肃、青海、宁夏、新疆
+
+表13　1993年东、中、西部人口、经济密度和环保人员的分布
+Table 13 The distribution of environmental protection personnel, population and economic densityin the east, central and west regions of China
+
+地　　区东　部中　部西　部
+GNP百分比，%56.032.411.6
+人口百分比，%39.244.314.5
+经济密度，亿元/km\+2167.941.75.88
+环保人员，万人3.472.791.23
+环保人员相对比例，%46.337.216.4
+
+
+
+3　行业高等环保人才现状
+3.1　行业高等环保人才总量
+　　行业环保人才的总量研究客观上具有一定难度，主要是统计资料不多，且在较少的资料中统计口径也不一致.根据《中国环境年鉴》等资料统计，全国历年行业环保人员总量如表14所示.对1992年的数据，按各行业的分布，列于表15.环保人员较多的行业依次为：机械、化工、食品、纺织、建材、冶金等行业.
+
+表14　全国行业环保人员总量变化
+Table 14 Change of total number of environmental protection personnel in different trades of the country's
+
+年份19861987198819891990
+人数，万人14.314.5715.5815.7516.26
+年份19911992199319941995
+人数，万人16.9017.19　　18.4(估计)
+
+表15　1992年各行业环保人员分布
+Table 15 The distribution of environmental protection personnel in China's different trades in 1992
+
+行　业环保人员数，
+万人行　业环保人员数，
+万人
+机械、电气、电子设备制造业2.59石油加工业0.44
+化学工业2.28医药工业0.44
+食品、饮料和烟草制造业1.77电力、蒸汽、热水生产和供应业0.38
+纺织业1.68化学纤维工业0.29
+建筑材料及其它非金属矿物制品业1.48皮革、毛皮及其制造业0.18
+矿业1.36橡胶制品业0.15
+黑色金属冶炼及压延加工业0.91炼焦、煤气及煤制品业0.15
+造纸及纸制品业0.64塑料制品业0.14
+有色金属冶炼及压延加工业0.50印刷业0.13
+金属制品业0.44全国总计17.20
+
+
+3.2　行业环保人员的年龄结构和地区分布
+　　资料［1］表明，行业环保人员的年龄结构示于表16，由此表可见，年龄结构较为合理.
+表16　行业环保人员的年龄结构
+Table 16 The age distribution of environmental protection personnel in different trades
+年龄<35岁35-45岁45-55岁>55岁
+百分比，%35.626.625.512.3
+　　行业环保人员的地区分布示于表17.由该表可见，行业环保人才的地区分布与环保局系统一样，与GNP的关系密切.
+表17　行业环保人员的地区分布
+Table 17 The area distribution of environmentalprotection personnel in different trades
+
+地区东部中部西部
+人数，万人9.075.922.16
+百分比，%52.934.512.6
+
+3.3　行业环保专业人才占从业人员比例的典型剖析和估算
+　　行业环保人员中高等环保人才所占的比例因行业不同而异.以1989年有色金属部门为例，其环保从业人员总量为2.05万人，分布于管理、监测、科研和生产岗位，以生产岗位最多，占83%，其环保专业人才总量为0.20万人，仅占从业人员的10%，这些专业人才主要分布于管理岗位和生产岗位.从事科研开发的技术人才比例偏小，不利于推行清洁生产.我们对行业环保专业人才占环保从业人员的比例进行了统计分析，这个比例约为28%.
+
+4　环保产业高等环保人才现状
+　　环保事业的发展促进了环保产业的形成.我国提出环保产业的概念始于1988年.所谓环保产业是指国民经济结构中以防治环境污染、改善生态环境保护自然资源为目的所进行的如技术开发、产品生产、商业流通、资源利用、信息服务、工程承包等活动的总称［3］.当前，环境保护产业包括环境保护设备制造工业、环境工程与软件服务业、自然生态保护产业三部分.这三部分中以环境保护工业发展最快，据1989年的调查，我国当时共有环保工业单位2529个，职工32.8万人，其中工程师以上技术职称的专业人员3.4万人，占职工总数10.4%，国家资产38亿元；其中包括工业企业1928个，工业事业单位397个，环境保护公司(集团)204个，遍布全国28个省市和24个部门，职工4.2万人.
+　　环境工程和软件服务业是一个新兴的环保产业，随着信息技术和计算机互联网络的发展，应用现代高新信息技术为环境工程设计、环境规划与管理以及环境要素状况的预报等方面的服务方兴未艾，是未来环保产业中高等环保人才的一个增长点.
+　　根据1994—1995年全国环保产业基本情况调查［4］，以1993年为基准年，全国从事环保产业的企事业单位8651个，职工188.20万人，拥有固定资产450.11亿元，年产值311.48亿元，年利润40.91亿元.图3、图4为全国环保产业单位数、企事业数、职工数按不同
+
+
+图3　全国环保产业单位的项目分布(1993)
+The distribution of the business scope of the country's environmental protection industry (1993)
+
+
+图4　全国环保产业职工数的项目分布(1993)
+Fig.4 The distribution of employees involved in different fields of China's environmental protection industry (1993)
+
+产业项目的分布，表18为环保工业产品年产值的地域分布.表19是环保产品分类及生产单位情况.由上述图、表可见，从单位数和职工人数来看，环保产品和三废综合利用是环保产业的主体，其中环保产品生产的发展对环保人才的吸纳有重大影响.到本世纪末，环保产品年产值可达250—300亿元，相当于1993年全部环保产业的产值.若1993年工程师以上技术职称的专业人员占职工总数的比例与1989年相同，即占10%左右，则在环保产业中的专业技术人员为18.8万人.据上述全国环保产业基本情况调查，环保产业中从事环保产品生产的单位职工总数在1994年约为45万人［4］，按比例，从事环保产品生产的环保人才约为4.5万人以上.
+
+表18　环保产品年产值的地区分布(1993)
+Table 18 The area distribution of annual output valne of the contry's environmental protection industry (1993)
+产品年产值，亿元地　　　　区
+31江苏
+5—8上海、浙江、山东、河北、辽宁
+3—5北京、河南、安徽、四川、福建、广东
+1—3黑龙江、天津、内蒙古、甘肃、湖南
+＜1吉林、新疆、山西、陕西、青海、广西、海南、贵州、江西、宁夏
+表19　环保产品及生产单位情况(1993)
+Table 19 The number of environmental protection products and their manufacturers (1993)
+
+产品类别单位总数，个职工总数，万人年产值，亿元年利润，亿元
+水污染治理设备138623.8238.224.81
+空气污染治理设备137121.4745.275.08
+固体废弃物处理处置设备1092.92.680.37
+噪声与振动控制设备4089.286.200.79
+放射性与电磁波污染防护设备40.550.210.03
+污染监测仪器1383.152.250.3
+其　　它2384.079.442.01
+
+
+
+5　结论
+　　通过上述分析，有如下结论：
+　　1.我国环保工作从业人员分布在环保局系统(7.41万人)、环境监理系统(1.26万人)、各行业环保部门(18.4万人)以及环保产业部门(18.8万人)等4个方面.
+　　2.高等环保人才在上述4个方面的分布是：环保局系统5.63万人，监理站0.95万人，各行业5.15万人，环保产业大于4.5万人.
+　　3.行业和环保产业中的高等环保人才所占比例较低，随着可持续发展和科教兴国战略的实施，将会有所提高.
+　　4.高等环保人才的密度与我国经济发展的地区不平衡是相关的.
+　　5.提高基层环保管理人才的科技和文化素质，对我国实现跨世纪十五年环境保护阶段目标十分重要.
+　　6.高等环境保护教育应面向基层、面向国民经济各部门、面向广大中、西部地区，培养基础扎实、知识面宽、适应能力强、素质高的人才.
+
+
+参考文献
+　1　《中国环境年鉴》编辑委员会.中国环境年鉴(1987—1991).北京：中国环境年鉴社，1993、1994
+　2　《中国城市统计年鉴》编辑委员会.中国城市统计年鉴(1990—1994).北京：中国统计出版社
+　3　曲格平.发展我国环境保护产业势在必行，环境保护，1992(6)：13
+　4　达　文.全国环保产业基本情况调查圆满完成.中国环保产业CEPI，1996(4)：6—7

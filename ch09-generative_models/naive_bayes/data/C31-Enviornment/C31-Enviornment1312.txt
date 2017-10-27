@@ -1,0 +1,124 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+　　沼泽红假单胞菌H3对酸性红B2GL染料的
+厌氧脱色和降解作用*
+黄志勇　杨惠芳　刘双江　
+摘要　从印染厂污泥中分离到一株沼泽红假单胞菌(Rhodopseudomonas palustris H3)，在光照厌氧条件下该菌生长细胞可将100 mg/L酸性红B2GL染料去除到30 mg/L.完整细胞脱色的最适条件为pH7.0，温度30℃，细胞浓度20-25 mg/mL(湿重).低浓度的阳离子对脱色影响不大.在通Ar气使严格厌氧和加有还原性辅酶I的条件下无细胞提取液的脱色活性最高，比活率为1.54×10-2 mg/(mg. h).根据降解产物的分析，推断了该菌对酸性红染料的降解代谢途径.
+关键词　沼泽红假单胞菌；酸性红B2GL；厌氧脱色；降解作用.
+The anaerobic decolorization and degradation of acid red B2GL by Rhodopseudomonas palustris H3
+HUANG Zhiyong, YANG Huifang, LIU Shuangjiang 
+Institute of Microbiology, Chinese Academy of Sciences, Beijing 100080
+Abstract　A strain of Rhodopseudomans palustris with capacity of decolorization was is olated from sludge of printing and dyeing mill. The growing-cell could degrade 100  mg/L of acid red B2GL to 30 mg/L under anaerobic and illuminated condit ions, pH 7.0, temperature 30℃ and cell concentration 20-25 mg/mL(wet weight) were optimum conditions for decolorization. The low level metal ions appeared little effects on the decolorization. The addition of NADH and ventilation with arg on gas could greatly improve the decolonizing activity of cell-free extract, and the highest specific activity was 1.54×10-2 mg/(mg.h). from chemical a nalyses of degraded products, a metabolic pathway of acid red B2GL by bact eria H3 was suggested in this paper.
+Keywords　 Rhodopseudomonas palustris, acid red B2GL， anaerobic, decolorization de gradation.
+1　引言
+　　合成染料是纺织印染工业和染料生产废水中的主要污染物.近年来，国内外已报道了许多关 于细菌的染料脱色和降解代谢.述及的微生物种类很多，绝大部分是在黑暗条件下生长的好氧或兼性厌氧的异养菌［1-6］.其中一些已在纺织印染废水处理中投加使用［7］.吴国庆［8］和牛志卿［9］等人曾报道了混合光合细菌与活性污泥对染料废水的脱色作用，而纯的光合细菌对染料的降解机理尚未见报道.为确证光合细菌对染料的脱色作用，研究了沼泽红假单胞菌对酸性红B2GL的厌氧脱色作用及其降解机理.
+2　材料与方法
+2.1　菌种来源
+　　从广东省印染厂废水池污泥中分离、纯化一株紫色非硫细菌，经鉴定命名为沼泽红假单胞菌H3(Rhodopseudomonas palustris H3)，培养条件和培养基成份见参考文献［10，11］.用比浊法或重量法(湿重)测定细菌的生物量.细胞蛋白的测定见参考文献［12］.
+2.2　菌株H3的脱色反应
+　　生长细胞的脱色：在含100 mg/L酸性红B2GL的培养液中接种10%的新鲜菌液，于30℃、光照厌氧条件下培养一定时间.离心去除细胞，上清液在721型分光光度计波长518 nm 处测反应前后酸性红B2GL的OD值.
+　　完整细胞的脱色：在制备好的完整细胞悬浮液［3］中加入100 mg/L的酸性红B2GL，于30℃厌氧条件下反应一定时间，并计算脱色比活率，单位为mg(染料)/(mg(细胞).h).
+　　无细胞提取液的脱色：将制备好的含100 mg/L酸性红B2GL的破碎细胞提取液(粗酶液)［3］，于30℃、厌氧条件下保持一定时间，测出反应前后染料的OD值，据此计算脱色比活率，单位为mg(染料)/(mg(蛋白).h).
+2.3　代谢产物的分析
+　　完整细胞脱色后，离心收集上清液，对酸性红B2GL的降解产物进行光谱分析.利用HEWLETT-PACKARD 8452A型紫外分光光度计，测降解产物的紫外和可见光谱；利用PERKIN-ELM ER SYSTEM 2000-FTIR傅利叶红外分光光度计，采用溴化钾压片法，测降解产物的红外光谱.用Nessler试剂法［16］测定产物中氨氮的含量.
+
+
+图1　细胞在生长条件下的脱色
+Fig.1 Decolorization of growing cells
+2.4　中间产物的利用
+　　为了便于对中间产物的分析，分别以苯甲酸、对氨基苯甲酸、对氨基苯磺酸等7种芳香化合 物为唯一碳源，观察菌生长情况，确定对中间产物的利用.
+
+
+图2　不同细胞浓度时的脱色作用
+Fig.2 Decolorization in different concentration of cells 
+3　结果
+3.1　菌株H3的生长脱色
+　　从图1可见，在培养液中含100 mg/L酸性红B2GL时，在菌生长的同时，酸性红B2GL即表现出脱色作用.培养20 h，细胞生物量(OD值)由0.432提高到0.800，酸性红B2GL从100 mg/L降至30 mg/L.其中4-12 h是细菌生长的对数期，12 h以后生长较为稳定.而染料的脱色却先经过一段迟缓期，到细菌生长8 h后，染料才开始去除；在8-12 h间，染料浓度随着细菌的生长而迅速降低；16 h后，染料的脱色反应进入稳定期.
+3.2　完整细胞的脱色条件
+　　菌株H3完整细胞脱色的最适温度为30℃，最适pH7.0，与文献［9］记载相似.取不同细胞浓度作脱色反应实验，结果如图2所示.图中可见，随着细胞浓度的升高，染料的去除效果逐步好转；并在细胞生物量为20-25 mg/mL时达到最大值，脱色比活率为1.16×10-3 mg/(mg. h)；当细胞浓度超过20 mg/mL时，脱色比活率没有明显变化.
+　　在完整细胞悬液中加入CaCl2、MgCl2、FeCl2、ZnCl2、Pb(NO3)2、CoCl2、C uSO4、Al2(SO4)3、NiSO4、MnCl2等阳离子，浓度均为0.1 mmol/L.结果与不加金属离子的对照相比，脱色率变动幅度不大.由表1可以看出：Fe3+、Mn2+、Ni2+、Zn2+和Cu2+离子使细胞的比活率略有提高，最高达20.8%，而Pb2+、Mg2+、Ca2+和Co2+离子则降低了脱色比活率，但总的看来较低浓度的阳离子对光合细菌的脱色作用未发生明显的影响.
+表1　金属离子对沼泽红假单胞菌H3细胞脱色的影响
+Table 1 Effect of metals on the decoloriztion by R.palustris H3
+金属阳离子，0.1 mmol/L脱色比活率，mg/(mg. h)金属阳离子，0.1 mmol/ L脱色比活率，mg/(mg. h)
+对照2.40×10-4--
+MgCl22.29×10-4Pb(NO3)22.09×10-4
+CaCl22.29×10-4NiSO42.42×10-4
+FeCl32.90×10-4Al2(SO4)32.40×10-4
+MnCl22.58×10-4CuSO42.73×10-4
+CoCl21.78×10-4ZnCl22.52×10-4
+3.3　无细胞提取液的脱色活性
+　　据报道［5，6］，还原性辅酶I(NADH)和还原性辅酶Ⅱ(NADPH)是偶氮双键裂解过程中的电子传递体.因此在通入惰性气体Ar的严格厌氧条件下，检测了NADH对H3菌株的无细胞提取液(粗酶液)的脱色活性.表2的结果表明：在既加NADH又通Ar气的条件下效果最好.无细胞提取液的脱色率高达93.3%，比活率为1.54×10-2 mg(mg. h)；不加NADH也不通Ar气时最低，其脱色比活率0.95×10-2 mg/(mg. h)，比投加NADH、通Ar气时低62 .0%；其他条件下的活性介于两者之间.
+　　　　　　表2　加NADH和通Ar气对无细胞提 取液比活的影响
+　Table 2 Effects of NADH and Ar on the active rate of cell-free extract
+
+条件脱色率，%脱色比活率，mg/(mg. h)
+对照57.60.95×10-2
+加NADH87.91.45×10-2
+通Ar气76.91.27×10-2
+通Ar气、加NADH93.31.54×10-2
+
+3.4　代谢产物的光谱分析
+　　完整细胞有完整的酶系，因此染料降解产物的测定仍用完整细胞反应后的产物进行测定.图3 a和图3b分别为酸性红B2GL及降解产物的紫外光谱，图中位于可见光区的518 nm处和位于紫外光区的320 nm处的吸收带是酸性红B2GL的特征吸收值；从图3b产物的光谱可见，酸性红B2GL的两个特征吸收带消失，结构的共轭系被打破，颜色消失.
+　　应用红外光谱测定酸性红B2GL的降解产物.图4a为酸性红B2GL的标准图，芳香族化合物的三种特征吸收带νCH，骨架振动和δCH(外面)［13］均在图中出现，其中3070.22 cm-1、1619.21 cm-1、1591.22 cm -1、1497.62 cm-1和758.19 cm-1是苯环的特征吸收带.图4b是产物的红外吸收光谱，苯环所具有的特征吸收带消失，却出现了标准图中没有的酰胺化合物中的CO (1656.09 cm-1)和-NH-(3387.53 cm-1)两个吸收带，以及2345.93 cm-1和2367.43 cm-1处CO2的吸收.
+
+
+图3　 酸性红B2GL(a)和降解产物(b)的紫外光谱
+Fig.3 Ultraviolet spectrum of acid red B2GL (a) and degraded product s (b)
+
+
+图4　酸性红B2GL(a)和降解产物(b)的红外光谱
+Fig.4 Infrared spectrum of acid red B2GL (a) and degradied products (b)
+3.4　降解产物中氨氮的测定
+　　根据酸性红B2GL的化学结构推断，1分子的染料完全降解后能产生2分子的N，因此可以对其进行理论计算，得出单位浓度的酸性红B2GL在完全降解后的N的含量.在细菌浓度为20 mg/mL时，降解不同浓度的酸性红B2GL，结果NH3-N的实测值与理论值相近.当酸性红B2GL的浓度为5 mg/L时，降解产物中NH3-N的测定值为0.30 mg/L，仅比理论值低3 .2%；随着酸性红B2GL的浓度增加，测定值和理论值均呈增加趋势，但误差均小于10 .9%.可以认为酸性红B2GL能被降解，分子中的N可以全部形成游离态的氨氮.
+表3　不同浓度酸性红B2GL的降解产物中氨氮的含量
+Table 3 The concentrations of NH4-N in degraded products of acid red B 2GL
+染料浓度，mg/LOD(518 nm)值NH3-N,mg/L误差，%
+测定值理论值
+50.050.300.313.2
+200.231.321.246.4
+400.442.532.482.0
+600.623.583.723.8
+800.764.424.9610.9
+3.5　中间代谢产物的利用
+　　根据染料的结构，为了推断产物中可能出现过的物质，便于降解机理的分析，对几种芳香化 合物进行了碳源利用实验.结果如表4所示：H3菌株能以苯甲酸、对氨基酚为唯一碳源，也能利用对氨基苯磺酸、对氨基苯甲酸和邻苯二酚生长，而间氨基酚和邻氨基酚几乎不被利用. 
+表4　沼泽红假单胞菌H3对芳香族化合物的利用
+Table 4 The utlization of aromatic compounds by R.palustris H3
+
+碳　　源生长情况碳　　源生长情况
+普通培养基碳源+++对氨基酚++
+苯甲酸++邻氨基酚+/-
+对氨基苯甲酸+间氨基酚+/-
+对氨基苯磺酸+邻苯二酚+
+
+　　a.+++，长势良好(在660 nm的光吸收＞0.5)；++，长势一般(0.2到0.5)；+ ，长势较差(0.1到0.2)；+/-，长势很差(＜0.1) b.碳源浓度为0.2%
+4　讨　论
+　　本文证实了单一光合菌的纯菌种对染料有一定的脱色降解能力.光合非硫细菌沼泽红假单胞 菌H3的生长细胞和完整细胞在厌氧条件下对偶氮染料酸性红B2GL有较高的脱色和降解能力，无细胞提取液中含有使酸性红B2GL脱色的酶，在通Ar气的厌氧条件下有较高活性，还原性辅酶I(NADH)作为电子供体，对染料降解有很大的促进作用，这与其他异养菌的还原脱色极为相似［3，5］.
+　　为推断酸性红B2GL厌氧降解的中间产物及其结构，做了产物光谱分析、碳源利用实验和氨氮含量的测定.根据紫外线吸收光谱了解的分子的共轭系及其取代情况，可以看出酸性红B2GL的偶氮双键断裂，分子中的共轭系被打破，红色褪去，形成对氨基苯磺酸和联苯羟基间氨基磺酸.从红外吸收光谱中的官能团及其周围情况，可以明显看出由于酶的作用，偶氮双键断裂后产生的芳香化合物特征吸收带已全部消失，说明中间产物中的苯环开环，形成新的直链化合物，包括代表1656.09 cm-1和3387.53 cm-1吸收带的酰胺化合物以及代表2345.93 cm-1和2367.43 cm-1吸收带的CO2出现.
+　　碳源利用的结果证实：由于菌株H3能利用对氨基苯磺酸生长，表明它可以进入细胞的代谢， 被同化；不仅如此，该菌株还能将苯甲酸作为唯一碳源，并可利用对氨基酚和邻苯二酚.对氨基苯磺酸和对氨基酚很可能是降解过程的中间产物，在染料降解过程中出现.这和关于光合细菌可以利用芳香族化合物的报道相似［14，15］.
+　　由于在酸性红B2GL的降解产物中测量到游离的氨氮，说明在染料降解途径中有一个脱氨基过程，并有NH3产生.
+　　因此推断了酸性红B2GL的降解代谢途径是从偶氮双键断裂开始，经过苯环裂解开环后的中间代谢产物，通过β-氧化途径，进入三羧酸循环，进一步代谢，最终使部分染料达到矿物化作用.沼泽红假单胞菌H3对酸性红B2GL厌氧降解的假设途径如下：
+
+* 国家自然科学基金(29577291)资助项目 
+作者单位：中国科学院微生物研究所，北京　100080 
+参考文献
+[1]　Xian Haijun, Yang Huifang. Study on the decolorization of dyes by mi croorganisms. J of Environ Sciences (China),1989,1(2):60-68
+[2]　贾省芬，杨惠芳.假单胞菌S-59对多种染料的脱色和降解.微生物学通报，1990，17(6 )：339-343
+[3] Liu Zhipei, Yang Huifang. Decolorization and biodegradation metabiolism of az o dys by Pseudomonas S-42. J of Environ Sciences (China),1991,3(2):89-102
+[4] 鲜海军，贾省芬，杨惠芳等.用高效染料脱色菌和PVA降解菌混合培养液处理印染废水. 环境科学学报，1993，13(4)：420-427
+[5] Kulla H G, Franziska H , Ulrich M et al. Interference of aromatic sulfo g roups in the microbial degradation of the azo dyes orange I and orange Ⅱ. Arch Microbiol, 1983,135:1-7
+[6]Thomas Z, Franz G, Kulla H G et al. Comparison of two bacterial azoreduct ases acquired during adaption to growth on azo dyes. Arch Microbiol, 1984,138:37 -43
+[7] Yang Huifang, Wang Kaimin, Jia Shengfen. The addition of microbes for treatin g textile wastewater. J of Environ Sciences (China), 1991,3(1):95-100
+[8] 吴国庆，杜恒利，张　琳等.光合细菌对染料废水脱色的初步研究.环境科学，1989，1 0(5)：46-50
+[9]　牛志卿，吴国庆，张　琳等.固定化紫色非硫光合细菌降解活性艳红X-3B的研究.环境 科学，1994，15(5)：49-52
+[10]　Imhoff J F, Trüper H G. In:Balows A, Trüper H G, Dworkin M et al (eds).The Genus Rhodospirillum and related gena ra. The Prokaryotes. 2nd. Heidelberg: springer-verlag. 1992,1:2141-2155
+[11] Imhoff J F. In:Staley J T, Bryant M P, Pfenning N (eds). Genus Rhodobacter (1984) Bergey's manual of systematic bacteriology, Baltimore: The Williams & Wilkins Co. 1989,3:1658-1682
+[12] Bradford M M. A rapid and senstive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Bioc hem, 1976,72:248
+[13] 洪山海著.光谱解析法在有机化学中的应用.北京：科学出版社.1980.13-58
+[14] Khanna P, Rajkumar B, Jothikumar N. Anoxygentic degradation of aromatic subs tances by Rhodopseudomonas palustris, Current Microbiol, 1992,25:63-67
+[15] Lunt D C, Evans W C. Metabolism of tyrosine by Microspira tyrosinatica a new intermediate [2,4,5-Trihydroxyphenylalanine(6-Hydroxydopa)] in the tyros inase reaction. Biochem Sco Trans, 1976,4:490-491
+[16] 日本分析化学会北海道分会编.孙铁珩等译.水的分析.北京：中国建筑出版社.1979 .234-237
+1997-08-28收到原稿　1998-03-16收到修改稿

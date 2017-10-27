@@ -1,0 +1,113 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+锰矿砂对取代酚的光氧化作用研究*
+郑　红　汤鸿霄
+摘要　研究了不同条件下锰矿砂对4种取代酚的光氧化作用.结果表明，pH=3、10±0.04时，苯酚、对氯苯酚、对氨基酚及对苯二酚均能被锰矿砂光催化氧化.低pH，适当的苯酚初始浓度及适当的锰矿砂浓度有利于锰矿砂对取代酚的氧化；离子强度和溶解氧浓度不影响反应速度.对其可能的机理及取代基效应进行了讨论.
+关键词　天然矿物；锰矿砂；取代酚；光氧化.
+Photooxidation of substituted phenols by manganese ore particles
+ZHENG Hong,TANG Hongxiao (State Key Laboratory of Environmental Aquatic,Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+Abstract　The photooxidation of four substituted phenols by manganese ore particles were studied.The results indicated that oxidation of phenol,p-chlorophenol,p-aminophenol and hydroquinone by manganese ore particles was enhanced by illumination.Low pH,proper initial concentration and proper manganese ore particle concentration were favorable to oxidation of the substituted phenols.No effects of ionic strength or dissolved oxygen concentration were found.The possible mechanisms and substituted effects were discussed.
+Keywords　photooxidation,natural minerals,manganese ore particles,substituted phenols.
+　　地表水中变价金属氧化物／氢氧化物氧化分解有机污染物的巨大潜能前人已经做了大量的研究工作［1—4］，结果表明，天然水中的变价金属氧化物粒子和粉末能被有机物还原溶解，同时被变价金属氧化物氧化也是天然水中有机物降解的重要途径.Sunda & Kieber［5］报导了氧化锰存在时腐殖酸类物质的氧化产物，发现氧化锰能将微生物无法直接利用的复杂腐殖酸物质降解，生成分子量低并能为微生物生长所利用的有机物.
+　　变价金属氧化物／氢氧化物的光还原溶解及伴随发生的有机物的氧化也被广泛地研究［2,6］.有机官能团与氧化物表面金属(Ⅲ/Ⅳ)中心形成内层络合物，其配体-金属电荷迁移带吸收光子，生成电荷迁移激发态，然后迅速发生电子迁移形成金属(Ⅱ)和氧化的有机自由基.金属氧化物表面吸收光子，使价带电子激发到导带，从而在金属氧化物表面产生电荷载流子(e-,h+)的半导体机理也可能是该过程的作用机制.
+　　变价金属氧化物能用于催化天然条件下有机物的氧化过程，光照可能促进氧化速率和氧化程度，因而可以考虑其在某种废水处理过程如氧化塘和氧化池中的应用.Stone & Morgan［2］和Waite等人［6］已经研究了淡水和海水中的天然有机物如腐殖酸和富里酸对氧化锰的光催化溶解，对天然含锰矿物和合成有机物的光催化反应研究还没有人报导.锰矿砂的主要成分是锰的氧化物，它分布广泛且相对价廉，如能应用于某种废水处理将会有很好的前景.本文重点探讨锰矿砂对4种取代酚光氧化的效果、影响因素及可能的机理.
+1　实验部分
+1.1　化学品与材料
+　　为了便于比较，实验选取4种典型的对位取代酚作为受试化合物，它们分别为：苯酚、对氯苯酚、对苯二酚和对氨基酚.如不做特殊说明，所有的化学品均为分析纯，其储备液用二次蒸馏水制备.
+　　实验用锰矿砂取自江西省，试验前用微型高效万能试样粉碎机粉碎，用50μm标准检验筛经水力筛分处理，除去其中大于50μm的颗粒，小于50μm的颗粒用二次蒸馏水浸泡24h，并反复冲洗，以去除附着在颗粒表面及孔隙中的杂质，然后在红外灯下(30—60℃)烘干备用.
+　　锰矿砂粒子的特性采用不同的方法来测定(表1).
+表1　测定锰矿砂粒子特性的方法
+Table 1 Methods used to measure characteristics of manganese ore particles
+
+特性测定方法
+总锰含量，%高碘酸钾氧化光度法(Beckman DU 650 UV-Vis分光光度仪)
+pHPZC电位滴定法(665-Dosimat电位滴定仪)
+BET比表面积，m2．g-1N2吸附法(Micromeritics Instrument Corporation)
+有机物含量，%重铬酸钾氧化法
+　付立叶红外光谱法(Model BIO-RAD FTS-20E红外光谱仪)
+
+
+图1　光化学反应器示意图
+1.500W中压汞灯　2.冷却水入口　3.冷却水出口　4.气体入口　5.取样口　6.冷却管　7.气体出口　8.磁力搅拌器
+Fig.1 Diagram of photochemical reactor
+1.2　动力学实验设计
+　　动力学实验在光化学反应器中进行，如图1.反应器中部为一500W中压汞灯，透过玻璃外套的光波长为300—450nm.温度由循环冷却水控制，保持在20±1℃.反应悬浊液的离子强度为0.01mol．L-1 NaNO3.pH值由0.1mol．L-1 HNO3或0.1mol．L-1 NaOH调节.空气流速为240mL．min-1.实验在光照和非光照两种条件下进行.在选定的时间间隔定期取样，离心分离，并通过0.45μm微孔膜过滤，部分滤液用高碘酸钾氧化光度法测定溶解Mn2+\}的浓度，另一部分用DU 650紫外分光度计和LC-10A高效液相色谱(配有二极管矩阵检测器)在每种取代酚的最大吸收波长处测定取代酚浓度.
+2　实验结果与讨论
+2.1　锰矿砂粒子的特性
+　　锰矿砂粒子的付立叶红外光谱谱图如图2所示.529cm-1处的峰是由Mn—O键振动引起的，是氧化锰的特征吸收峰［7,8］，大于1400cm-1的峰是由锰矿砂的水合组分即羟基和水分子引起的.丰富的羟基表明锰矿砂表面具有强烈的化学吸附活性.实验测定<50μm颗粒的比表面为73.41m2．g-1，pHPZC为3.6.锰矿砂表面的有机物含量为0.147%，总锰含量为70.69%.
+
+
+图2　锰矿砂粒子的付立叶红外光谱谱图
+Fig.2 FTIR spectrum of the manganese ore particles
+2.2　锰矿砂对取代酚的光氧化作用
+　　溶解锰浓度的测定提供了一种监测反应过程的方法.存在取代酚时锰矿砂粒子的还原溶解见图3.很明显，光照对所有取代酚的初始溶解速率和溶解程度都产生明显影响.从图3可以看出，每种取代酚初始2min的溶解速率都是很快的，以后逐渐减慢并变得平缓.为了表明光照对溶解速率的影响，选择初始60min的平均速率作为溶解速率，330min时溶液中溶解二价锰的浓度作为溶解程度，其结果如表2.
+
+
+图3　锰矿砂粒子的还原溶解
+(C固=2g．L-1,pH=3、10±0.04，T=20±1℃)
+Fig.3 Reductive dissolution of manganese ore particles
+表2　存在取代酚时锰矿砂粒子的溶解速率和溶解程度
+Table 2 Dissolution rates and dissolution extent of manganese ore particles in the presence of substituted phenols
+
+化合物溶解速率*，mg.L-1.min-1溶解程度**,mg.L-1
+光照暗处光照暗处
+苯酚0.0490.0374.502.83
+对氯苯酚0.0430.0394.152.93
+对氨基酚0.2670.21721.9317.05
+对苯二酚0.3900.16732.7410.78
+
+　*溶解速率是指pH=3.10±0.04、离子强度为0.01mol.L-1 NaNO3、2g.L-1锰矿砂、20mg.L-1取代酚悬浊液中初始60min生成二价锰的平均速率
+　**溶解程度是指相同条件下反应时间达330min时悬浊液中生成溶解二价锰的浓度
+　　光照条件下取代酚氧化的紫外光谱谱图如图4.可见在反应时间段内两种取代酚都明显降解，且不只一种产物生成并消失，整个过程被光照催化.
+
+
+图4　锰矿砂存在时取代酚光氧化紫外光谱谱图
+Fig.4 UV spectrum of photooxidation of the substituted phenols
+2.3　取代基效应
+　　4种取代酚的特性如表3.从表2和表3可以看出，正如我们所预料的，在非光照条件下，锰矿砂粒子的初始溶解速率和溶解程度随取代基给电子能力的提高即Hammett常数的降低而提高，也随着半波电位的降低而提高.环取代基能通过空间效应、共轭效应和场效应影响酚类化合物的反应性.溶液中的锰矿砂粒子通常与水键合形成表面羟基，与表面金属中心内层络合的羟基能通过酚或酚离子配体与其交换而形成新的内层络合物(式中ArOH为取代酚)：
+
+表3　取代酚的特性
+Table 3 Characteristics of the substituted phenols
+
+化合物pKalogKowHammett常数［10］E1/2［11］，V
+对氯苯酚9.42［9］2.41［4］+0.2270.653
+苯酚9.98［9］1.47［4］+0.000.633
+对苯二酚10.78*0.87**-0、370、533
+对氨基酚11.39*0.36**-0.660.493
+
+　* 使用Hammett相关估算的值，*　* 使用Leo碎片常数估算的值
+当内层配体取代通过缔合机理而进行时，该过程依赖于键合配体的碱性和亲核性.吸电子(如—Cl)和给电子(如—OH和—NH2)取代基能通过诱导和共轭电子效应改变酚类的碱性(改变pKa)，即Lewis碱官能团与质子键合的能力.给电子取代基能提高羟基的电子密度，增强络合物与金属中心的稳定性.半波电位是实验得到的还原电位，不仅依赖于反应的热动力学牵引力，而且依赖于氧化剂和还原剂的化学化合性能和分配系数.本研究工作得到的初始溶解速率和溶解程度与半波电位之间具有很好的相关性(R2>0.95)(图5)，这表明电子从取代酚向矿砂粒子表面的迁移是整个反应的速率限定步骤之一.有时，Hammett常数会低估取代基共轭相互作用的影响.比如对氯酚的反应性要比预料的值高，这主要是由于π共轭相互作用产生给电子共轭效应，从而部分抵消了Hammett常数的吸电子效应.
+
+图5　锰矿砂粒可溶解速率和溶解程度与取代基半波电位间的关系
+Fig.5 Relationship between rates and extent of reductive dissolution of manganese ore particles and half-wave potentials of the subsituted groups
+2.4　影响锰矿砂粒子还原溶解的因素
+　　以苯酚为例，我们研究了影响锰矿砂氧化取代酚的因素.结果表明，低pH值，适当的固相浓度及适当的苯酚初始浓度有利于锰矿砂粒子的溶解和苯酚的氧化.充入空气和氮气没有发现明显的差别，因此溶解氧浓度并不影响锰矿砂粒子光还原溶解和取代酚氧化的程度.同时发现离子强度也不影响锰矿砂氧化取代酚的速率和程度.
+2.5　可能的氧化机理
+　　从表2和表3还可以看到，在光照条件下，锰矿砂粒子被取代酚的还原溶解顺序不同于非光照条件下的顺序.该氧化和溶解过程可用下列方程来描述［9］：
+
+　　光能促进锰矿砂对取代酚的氧化，Stone[9]已经报导Mn(Ⅲ/Ⅳ)氧化物被取代酚的还原溶解并不被光照所催化，因此该反应的初始光催过程有可能是由锰矿砂粒子表面天然有机物组分所引起的．电子迁移过程的光催化作用可以通过各种机理来实现[6]：(1)有机官能团与氧化物表面Mn(Ⅲ/Ⅳ)中心形成内层络合物,其配体-金属电荷迁移带吸收光子,生成电荷迁移激发态[12,13],(2)有机分子n→π*或π→π*迁移激发会使分子的给电子能力提高[13];(3)光致价带电子激发到导带,在氧化锰颗粒表面生成电荷载流子(e-,h+),催化反应发生[14].另一方面,氧化物的组成和晶格结构会影响表面位的络合环境,对配体取代速率及光子的吸收产生一定的影响[3].锰矿砂属于天然矿物,其主要成分为Mn(Ⅲ/Ⅳ)氧化物,此外还含有少量其它矿物.从锰矿砂的红外谱图也可看出.锰矿砂的组成不同于任何一种单纯锰的氧化物,其结构必然不同于单纯锰的氧化物.锰矿砂复杂的组分和结构可能有利于光子的吸收、电子迁移及电荷载流子的生成.
+3　结论
+　　锰矿砂对4种取代酚的氧化能被光照所催化，在光照和非光照条件下其溶解速率不同.在非光照条件下，溶解速率和溶解程度主要受取代基效应影响，顺序为：对氨基酚>对苯二酚>对氯酚>苯酚.在光照条件下，光是影响溶解速率和氧化程度的主要因素之一，顺序为：对苯二酚>对氨基酚>苯酚>对氯酚.这主要是由锰矿砂粒子表面的有机物和天然锰矿砂复杂的组成和结构引起的.低pH值，适当的锰矿砂浓度及适当的苯酚初始浓度有利于锰矿砂对取代酚的氧化.溶解氧和离子强度不影响溶解速率和氧化程度.
+* 国家自然科学基金重点资助项目(29637010)
+作者单位：中国科学院生态环境研究中心环境水化学国家重点实验室，北京　100085
+参考文献
+1　Stone A T,Morgan J J.Reduction and dissolution of manganese(Ⅲ) and manganese(Ⅳ) oxides by organics:1.Reaction with hydroquinone.Environ Sci Technol,1984,18:450—456
+2　Stone A T,Morgan J J.Reduction and dissolution of manganese(Ⅲ) and manganese(Ⅳ) oxides by organics:2.Survey of the reactivity of organics.Ennviron Sci Technol,1984,18:617—624
+3　Stone A T.In:Davis J A Hayes K F(eds).Adsorption of organic reductants and subsequent electron transfer on metal oxide surfaces.In Geochemical Processes at Mineral Surfaces,1986.446—461
+4　Ulrich H J,Stone A T.Oxidation of chlorophenols adsorbed to manganese oxide surfaces.Environ Sci Technol,1989,23:421—428
+5　Sunda W G,Kieber D J.Oxidation of humic substances by manganese oxides yields low-molecular-weight organic substrates.Nature,1994,367:62—64
+6　Waite T D,Wrigley I C,Szymczak R.Photoassisted dissolution of a colloidal manganese oxide in the presence of fulvic acid.Environ Sci Technol,1988,22:778—785
+7　Potter R M,Rossman G R.The tetravalent manganese oxides:identification,hydration,and structural relationships by infrared spectroscopy.Am Mineral,1979,64(11—12):1199—1218
+8 Swinkels D A J,,Fredericks P M,Anthony K E.FTIR studies on manganese dioxide structure and electrochemical behavior.Proc-Electrochem Soc 85—4(Manganese Dioxide Electrode Theory Fract Electrochem Appl).1985.158—179
+9　Stone A T.Reductive dissolution of manganese(Ⅲ/Ⅳ) oxides by substituted phenols.Environ Sci Technol,1987,21:979—988
+10 郑　红，郎佩珍.电子参数σ及其在QSAR中的应用.环境科学进展，1997，5(4)：23—32
+11 Suatoni J C,Snyder R E,Clark R O.Voltammetric studies of phenol and aniline ring substitution.Analytical Chemistry,1961,33(11):1894—1897
+12 Waite T D,Morel F M M.Photoreductive dissolution of colloidal iron oxide:effect of citrate.J Colloid Interface Sci,1984,102:121—137
+13　Waite T D,Torikov A,Smith J D.Photoreductive dissolution of colloidal iron oxides by thiolcontaining compounds 1.Dissolution of hematite.J Colloid Interface Sci,1986,112:412—420
+14 Harriman A,Richoux M C,Christensen P A et al.Redox reactions with colloidal metal oxides:comparison of radiation-generated and chemically generated ruthenium dioxide dihydrated and colloids.J Chem Soc,Faraday Trans 1,1987,83(9):3001—3014
+1998-03-19收到原稿
+1999-01-18收到修改稿

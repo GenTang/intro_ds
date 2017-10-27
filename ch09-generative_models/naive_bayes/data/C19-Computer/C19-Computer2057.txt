@@ -1,0 +1,113 @@
+计算机工程
+COMPUTER ENGINEERING 
+1999年 第25卷 第5期 Vol.25 No.5 1999
+
+
+
+CSCW系统中共享应用问题剖析
+陈品德
+摘要 深入剖析了一个基于Internet 环境的CSCW系统,该系统利用Java语言实现了一个协作平台,这种平台能够截取,分发和重构用户事件,并提供网络通信,会晤管理,发言权控制等服务;同时,JCE系统实现了应用对象的复制管理模型,利用这种机制可以将一些单用户软件作为共享应用工具加入到JCE系统中.
+关键词 计算机支持的协同工作 共享应用 Java
+Analyses of Application Sharing-Problem in CSCW system 
+Chen Pinde
+(Computing &Information Centre ,south China Normal University Guangzhou 510630
+[Abstract] An Internet based CSCW system-JCE(Java Collaborative Environment)is analyzed deeply in this paper.JCE is a cooperative platform which can intercept,depatch and reconstruct user event,in addition,it can supply with such services as corresponding,session manager,floor control etc;besides,a replication manager model on application objects objects are implemented in JCE system,system ,with  which wingle user application can eacily be truned into multi-user application .
+[Key words]CSCW;Sharing application;Java
+　　共享应用是CSCW系统中支持同步合作方面的研究领域之一。共享应用的目的是使得参与协作的用户具有一个相同的视图，其中一个用户的操作过程及结果可为所有其它用户所见，即what you see is what I see，从而营造一种面对面讨论的氛围，白板就是这样的工具之一。共享应用更重要的研究目标是实现一种平台，使得当前存在的大量单用户应用能够轻易地变成共享应用。
+　　共享应用的实现有两种基本结构：1)集中式结构，在这种结构中，应用运行在一台机器上，该应用的输出被截获下来分发给参与协作的其它用户，用户的输入经发言权仲裁机制仲裁后才作为应用的输入；2)复制式结构，在这种结构中，参与协作的所有机器都运行一个相同的应用拷贝，来自获得发言权的用户的输入被捕获下来，并分发给其它所有用户，没有发言权的用户的输入将不起作用。
+　　本文分析的JCE系统与以往的CSCW系统不同之处在于：它可以在任何支持Java虚拟机规范的机器上运行，克服了异构平台的局限性，从而为CSCW的广泛运用奠定了基础。
+　　JCE系统是由NIST(NationalInstitute of Standards and Technology)和ODU(Old Dominion University)大学合作开展的一项研究工程，旨在探索利用Java实现异构平台下的多媒体协作环境的可行性，1997年8月在Internet上发布了最新版JCE1.1(http://snad.ncsl.nist.gov/madvtg/madvtg-current-projects.html)。本文作者详细地分析了JCE系统的全部源代码和相关的论文，着重讨论了在本系统中的两个关键问题的设计与实现思想：1)JCE系统结构；2)应用对象的复制与管理。
+1 JCE的系统结构
+　　JCE为共享多媒体应用提供了一个框架(如图1所示)，它由3个包组成：collawt、SCM(Session Control Manager )、Server。图1中的会晤控制管理模块、通信模块由SCM包实现；Collawt、Collobject由Collawt包实现；会晤服务器由Server包实现。图中的Java应用1、Java应用2不是JCE框架的组成部分，它们是一些普通的单用户应用，在本系统中，将它们略作修改(用Collawt替代Java.awt包)使之成为共享应用工具，在会晤过程中，可以启动一个或多个应用。图1还描述了各部件之间的关系。
+
+图 1 JCE总体结构
+1.1 会晤控制模块的实现
+　　会晤控制模块主要实现了会晤的控制和管理界面，它提供了以下的操作选项：启动、加入或离开会晤；启动一个共享应用工具；请求或释放发言权；音频选择开关；启动复制对象的编辑窗口等。另外，还可显示参与会晤的用户姓名、谁拥有发言权、已启动的应用等信息。每一个参与会晤者都必须首先运行会晤管理器，以便在会晤过程中与会晤服务器交换控制信息。同时，CollObject对象、通信对象也是由它生成，通信对象建立起与服务器的socket连接，以线程方式运行，实现报文的发送和接收。
+1.2 CollObject功能剖析
+　　CollObject对象是共享应用的核心，所有共享应用中产生的事件都由它发送和接收，它主要实现了以下功能：
+　　1) 部件的标识，在一次会晤过程中，可以启动一个或多个应用，因此需要标识出接收事件的部件对象，并将该标识号连同事件数据一起分发给参与会晤的用户，使得各个用户接收之后可以根据部件的标识号找到相应的部件并向它传递该事件。在JCE中，对于每一个共享应用都要求是一个容器(如Frame,Dialog)，在CollObject对象中，分别两个向量来保存根窗口及其所包含的部件对象，在发送事件数据时，用该部件在两个向量中的索引号作为其标识号。标识部件的逻辑结构如图2所示。
+
+图2 标识部件的逻辑结构
+　　2) 将事件对象转换成网络报文及其逆过程，当GUI部件接收到输入事件时，该事件被截获并交与CollObject.sendAWTEvent方法处理，该方法将首先判定该事件是否应该转发，若是，则将其转换成网络报文格式，格式如下：
+ToplevelWindowID CID EventID Event-specific-info
+　　ToplevelWindowID、CID分别是应用表和部件表中的索引号。在接收方，将网络报文重新构造成一个事件对象，并通过ToplevelWindow、CID信息找到相应的部件，利用dispatchEvent(event)方法向该部件传递事件。对于共享应用来说，它根本意识不到自己正在共享，就像一个单用户应用一样。
+1.3 协作图形界面工具包Collawt
+　　为了能截获用户的输入，JCE将Java.awt中的所有标准图形界面部件都进行了扩展，扩展了的包命名为Collawt，Collawt包的结构如图3所示。
+
+图3 collawt 包结构
+　　扩展的方法是用一个新的Process Event方法覆盖了原有的处理过程，在其中加入了截获语句。例如：在Collawt中的Button类的实现代码如下：
+　Public class Button extends java.awt.Button{
+　　Public void processEvent(AWTEvent evt){
+　　if(EventController.Sender (evt)){
+　　if(evt instanceof ActionEvent){
+　　super.processActionEvent (ActionEvent) evt);
+　　return;
+　　}
+　　super.processEvent (evt);
+　　}
+　}
+　}
+　　其中下划线语句就是用来实现用户事件的截获，并把它交给EventControl对象处理。对 于其它部件对象也都作了相应的扩展。其思想就是：在用户程序响应输入事件之前，需将它送往服务器，然后才能作相应的处理。
+　　特别是在对Frame容器类进行扩展时，对setVi sible方法也进行了替换：
+　　public class Framee xtends java.awt.Frame{
+　　　……
+　　　public void processEvent(java.awt.AWTEvent e){
+　　　if(CollObject.sendAWTEvent(e)){
+　　　　if(e instanceof WindowEvent){
+　　　　processWindowEvent((WindowEvent)e);
+　　　　return;
+　　　　}
+　　　　super.processEvent(e);
+　　　}
+　　　　……
+　　public synchronized void setVisible(boolean b){
+　　　super.setVisible(b);
+　　　if(b==true){
+　　　　CollObject.buildComponentTree(this);
+　　　　}
+　　　　}
+　　即在首次显示时，调用了CollObject.buildCommonent Tree(this)，该方法将Frame及其所包含的GUI部件分别加入应用列表和部件列表中。因此，在JCE系统中，可以被共享的单用户应用都必须继承Frame容器类或其子类。
+1.4 会晤服务器的实现
+　　会晤服务器的主要功能是：
+　　1)充当分发器，将接受到的事件广播给所有参与者。
+　　2)提供会晤管理，如加入/退出会晤。
+　　3)发言权控制，协调各个用户对共享应用的操作，在某一时刻只能有一个用户能够对应用进行操作。
+　　会晤服务器由3个类组成：ConnectionManager.class,userConnection.class, sessionInfo.class。它们之间的关系如图4所示：
+
+图4  会晤服务器系统结构
+　　ConnectionManager生成一个服务方的socket，等待着来自客户方的连接，为每一个连接请求生成一个User Connection线程，UserConnection主要实现了网络报文的发送和接收方法。
+　　SessionInfo对象负责对全局数据的管理，包括管理参与会晤的用户队列、启动的共享应用队列、发言权标志、事件记录表(类似于log文件，用于支持会议进程的记录与回放)等数据。
+　　ConnectionManager是会晤服务器的核心，由它生成UserConnection对象，提供处理网络报文的各种方法，利用SessionInfo实现对全局数据的管理。
+1.5 发言权控制
+　　任何时刻只能有一个用户拥有发言权。发言权类似于一个权标，只有拥有发言权标的用户，它的行动才能分发给其它参与者。
+　　在客户方和服务方中分别有一个发言权标志变量(floor_flag)，它是一个布尔变量，由它来控制谁拥有发言权。当用户事件送到网络上之前，需要检测该标志的状态，只有在它使能的状态下，事件才能分发给其它参与者。
+　　目前JCE环境提供的控制策略有：
+　　1)请求-获得策略：这是最简单的控制方案，请求发言的用户可以立刻获得发言权，并且取消正拥有发言权用户的权利。
+　　2)请求-等待策略：当发言权空闲时，申请发言的用户可以获得发言权。拥有发言权的用户必须主动释放其权力，其它用户才能得到发言权，同时申请发言权的用户按照先进先出的原则，由会晤服务器控制发言权的分配。
+　　3)无发言权策略：允许任何参与者对共享应用进行操作，每个用户的输入事件都会广播给其它参与者。
+　　发言权的控制由客户与服务器协同完成。Session Control Manager用户提供了选择控制策略及申请/释放控制的按钮，同时还显示出当前拥有用发言权的用户信息。
+2 应用对象的复制与管理
+　　JCE环境的关键是基于复制式体系结构，单用户应用可随时添加到该系统中，在共享某应用时，每个参与者应当拥有相同的应用代码、系统环境、初始数据对象等，在运行过程中还将产生一些新的对象，执行完毕后，还涉及到对这些新生成的对象如何处理(保留或删除)。因此，必须提供一些机制，使所有用户在进行协作操作之前，获得这些数据对象及对它的处理方法。为实现这一目的，JCE把应用分成由3类对象组成：环境对象、操作对象、最终对象，并提供一个框架实现对这些对象的说明和定义、复制和管理。
+2.1 应用框架
+　　JCE实现了一个编辑窗口，如图5所示。
+
+图5 框架编辑窗口
+　　限于篇幅，此处不作详细说明。其中的host，src，dst等信息说明了对象所处的位置和复制的目的位置；Remove at the end说明了应用运行结束后是否删除之。
+　　应用框架编辑器输入的数据将生成3个列表：
+　　1) 环境变量表(Env-list)：表的成员为〈N,V〉二元组，N为变量名，V为变量值；
+　　2) 初始对象表(Init-list)：成员为〈H,S,N,D,R〉五元组。其中，H：对象所在的主机名；S：对象所处的源路径；N：对象名；D：对象应拷贝至的目标路径；R：运行后对该对象的处理，R为d代表在运行后删除该对象。
+　　3) 最终对象表：成员为〈N，H，S，D，R>五员组，N，H，S，D，R的意义与初始对象列表的意义一致。
+　　这些数据以.prf文件的形式存放在复制服务器中。
+2.2 复制过程
+　　复制过程以客户/服务器模式实现，复制服务器可以与会晤服务器运行在同一机器上，也可以运行在不同的机器上；复制客户方程序由会晤管理器启动。
+　　会晤管理器启动时，将从配置文件tools中得到可以使用应用工具名，启动某一应用时，将首先从复制服务器中得到该应用的.prf文件；然后根据.prf文件中分别取得运行代码、初始对象、环境变量等有关数据；最后才运行该应用工具。
+3 结束语
+　　JCE系统实现了协作机制、会议界面、网络通信、会议管理、发言权控制、复制管理，并且还以本地方法提供了在Windows及Sun OS平台上对音频的支持，同时提供了白板、国际象棋、编辑器、图片播放等共享应用工具，不再一一赘述。JCE系统目前正在进行的工作是：利用JMF(Java Media Framework)/本地方法实现异构平台上的视频会议工具；音频/视频媒体流之间的同步等。
+　　作为一个原型系统，JCE提供的功能还不能达到实用程度，比如，未提供会议信息服务、发言权仲裁机制不够完善、共享应用工具仅仅是演示等。但是，它利用Java语言实现的协作框架和复制结构，对从事CSCW系统的设计人员仍然具有很好的启发价值。
+作者简介:陈品德,男,30岁,讲师,主要兴趣是网络工程,计算机支持的协同工作,人工智能等.
+作者单位:华南师范大学计算与信息中心 广州市510631
+参考文献
+1 Kim.Platform-independence Support for Multimedia Desktop Conferencing and Application Sharing.Proceeding of Seventh IFIP Conference on High Performance Networking (HPN'97)White Plains,New York,1997-05：115-139
+2 Abdel-Wahab H.Using Java for Multimedia Collaborative Applications.Proceedings of PROMS'96: Third International Workshop on Protocols for Multimedia Systems，Madrid，1996-10：49-62
+3 Abdel-Wahab H.An Internet Collaborative Environment for Sharing Java Applications,to Appear in the 5th IEEE Comp-uter Society Workshop on Future Trends of Distributed Com-puting Systems (FTDCS'97), Tunis, Tunisia,1997-10：29-31
+收稿日期:1998-12-15

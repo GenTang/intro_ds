@@ -1,0 +1,136 @@
+计算机应用
+Computer Applications
+1999年 第19卷 第7期  Vol.19 No.7 1999
+
+
+
+PowerBuilder／Oracle编程应用经验
+张　坤　伊希荣
+
+　　摘　要　本文针对PowerBuilder 5.0和Oracle 8.0由于推出时间上的差异造成的不完全支持的情况，对应用编程中日期型数据的输入、输出，数据窗口记录的增、删、改，以及Table表之间的外键连接等问题进行了探讨，并给出了具体解决方案。
+　　关键词　PowerBuilder编程应用，日期型数据，数据窗口，外键连接
+
+　　作为客户机/服务器开发环境的PowerBuilder具有许多优秀的功能特性，如面向对象编程、可视化开发环境、事件驱动编程方式、开放式系统、图形用户界面等，尤其是开放系统功能是PowerBuilder最优秀、最受用户欢迎的功能之一。PowerBuilder是一个开放的协作式环境，它可以访问任何一个常用的后台数据库系统，例如Oracle、Sybase、Informix或者DB2，同时它也可以把许多开发工具集成到PowerBuilder中。笔者在进行企业MIS信息管理系统的开发过程中，整个系统采用CLIENT/SERVER结构，采用PowerBuilder 5.0作为CLIENT端的开发工具。数据库服务器为ORACLE8.0 ENTERPRISE。但PowerBuilder与Oracle相连时，由于PowerBuilder 5.0与Oracle 8.0之间存在推出时间上的差异，后者的推出时间迟于前者，因此前者对后者的支持依赖于其提供的补丁程序，这样就出现了没有完全支持的情况。例如PowerBuilder与Oracle 8.0中文版日期格式不兼容等。这样，在编程应用中就存在着许多值得注意的地方。　　
+1　日期型数据的输入、输出
+　　PowerBuilder的数据窗口DataWindow提供了大量内置的功能，在应用中大多数与数据库的交互都可以通过DataWindow来完成。但为方便编程人员更加深入开发数据库应用，PowerBuilder还提供了一整套嵌入式SQL命令，编程人员可以在PowerBuilder脚本中自由地嵌入SQL 命令。一般来说，嵌入的SQL语句为标准SQL语句即可。但PowerBuilder 5.0与Oracle 8.0相连时，其嵌入的SQL语句有许多值得注意的地方。例如PowerBuilder脚本中引用字符串，一般不限制是单引号还是双引号，但与Oracle库相连时，调用的SQL语句中用到的字符串只能使用单引号。
+　　PowerBuilder 5.0与Oracle 8.0相连，尤其当嵌入的SQL语句中要使用到日期型数据时，更要使用特定的转换语句：
+　　（1） 从数据库调出数据时，如果是日期(date)型数据，必须使用TO—CHAR()函数。TO—CHAR()函数的语法为：TO—CHAR(date,′Format′)，其功能是根据日期描述符设定的日期格式′Format′得到Oracle数据库中日期型数据相对应的字符串。
+　　（2） 把数据写入数据库时，如果是日期(date)型数据，必须使用TO—DATE()函数。TO—DATE()函数的语法为：TO—DATE(string,′Format′)，其功能是将一个字符串转换为给定格式的日期，并写入Oracle数据库中。
+　　（3） 日期描述符′format′必须用单引号括起来。在单引号内，一个特定的日期符号可以与任何文本字符放在一起。但文本字符必须用双引号括起来。例如这′format′格式可以设为：′ "The" dd "of" Month 
+"in the year" YYYY ′，类似等等。
+　　同时，如果将数据库中的时间数据调出显示在屏幕上时，应注意数据库中时间为空值（NULL）时的情况。例如，窗口中定义了一个掩码编辑（EditMask）形式的单行编辑器em—1，用来存放数据库中worker表的birthday字段（日期型数据）。em—1的掩码格式为：“YYYY/MM/DD”。按照上面(2)中提到的，首先用“TO—CHAR()”函数，将birthday字段从数据库中取出转换到变量ls—birth中。
+　　Select TO—CHAR(birthday, ′yyyy/mm/dd′)
+　　　Into :ls—birth
+　　　From worker
+　　　Where worker—bh = :ls—bh
+　　　Using sqlca;
+　　此时，要将birthday数据放到em—1中，如果只是简单地写上：em—1.text = ls—birth是不准确的。当数据库中birthday数据为空值(NULL)时，取出数据则会出现错误信息：“Mismatch between retrieve columns and fetch columns.”（数据类型不匹配）。正确的编程是要加上对时间数据的判断：
+　　If Isnull(ls—birth) Then
+　　　em—1.text = "0000/00/00"
+　　Else
+　　　Em—1.text = ls—birth
+　　End If
+　　如果要将em—1中的数据写回到数据库中，同样也要先对是否为空值进行判断，然后使用“TO—DATE()”函数。
+　　If em—1.text <> "0000/00/00" Then
+　　　em—1.GetData(ld—birth) 　　　　　　//获取时间
+　　Else
+　　　SetNull(ld—birth)
+　　End If
+　　　ls—birth = string( ld—birth, ′YYYY/MM/DD′ )
+　　… …
+　　Update worker Set
+　　　　Birthday = TO—DATE(:ls—birth, ′YYYY/MM/DD′)
+　　　　Where worker—bh = :ls—bh
+　　　　Using sqlca;
+　　另外还有一些值得注意的地方：Oracle库中的日期描述符对时、分、秒的表示与PowerBuilder有所不同。PowerBuilder对时、分、秒（24小时制）是用hh:mm:ss来表示，而Oracle对时、分、秒（24小时制）是用hh24:mi:ss来表示，这一点在编程书写时，尤其要注意。
+2　关于数据窗口中记录的增、删、改
+　　在PowerBuilder开发环境中，系统给出了用来访问和操纵数据库的Database描绘器，可以非常方便、容易地创建、访问和维护所有后端数据库结构，不管是哪一种数据库或服务器，Database都能提供完全相同的简单易用的可视化界面来使用它们。但PowerBuilder 5.0与Oracle 8.0相连时，如果Oracle数据库表中有日期型的字段，则对数据库表的记录进行增、删、改存盘时，都会出现数据库系统错误信息，而操作失败。其原因是PowerBuilder自动将Database描绘器中的操作转换为标准SQL语句送到数据库中执行，而其中用3位字母表示的月份，Oracle库不接受。例如，笔者专门为此建了一个text表，其中有text—id和date（日期型）字段。当对其中已有的记录进行修改时，系统给出以下错误信息：
+ORA-01843: 非法的月份
+
+No changes made to database.
+
+Update "TEXT" Set "DATE" = TO—DATE
+(′4-Nov-1997 00:00:00′,′DD-MON-YYYY HH24:MI:SS′) 
+Where "TEXT—ID" = ′1 　　　′ And 
+"DATE" = TO—DATE(′4-Nov-1997 00:00:00′,
+′DD-MON-YYYY HH24:MI:SS′)
+　　当对库表进行增加、删除记录的操作时，也会给出类似错误信息。
+　　在编程应用时，对数据窗口进行操作，如果存在日期型字段也会存在以上问题，给出类似数据窗口提交出错信息。在具体应用中，笔者经过编程解决了这个问题。具体的做法是首先在数据窗口的dbError事件中提取到原来执行的SQL语句，经过转换得到新的Oracle库可接受的SQL语句，然后在类似“存盘”的菜单或按钮的脚本中，执行新的SQL语句即可。在dbError事件中能接受以下参数：
+　　* sqldbcode ：发生错误DBMS专有的错误号；
+　　* sqlerrtext ：DBMS专有的错误信息；
+　　* sqlsyntax ：错误产生时正在执行的SQL语句；
+　　* buffer ：导致错误的行所在的缓冲区。值为Delete!, Filter! 或Primary!；
+　　* row ：导致错误的行号。
+　　所以数据窗口的dbError事件脚本可写成：
+　　If sqldbcode <> 0 Then　　　　　　　　　// 数据库操作出现错误
+gs—old—sql = SQLsyntax　　　　　　　　　
+　　　　　　　　　　　　　　　　　　// 提取原来的SQL语句赋值给全局变量gs—old—sql
+f—change—sql—date()　　　　　　　// 进行SQL语句的转换
+End If
+Return 1　　　　　　　　　　　　　// 不显示出系统错误信息
+
+　　其中f—change—sql—date()是对SQL语句进行转换的函数，脚本如下：
+long ll—total, ll—pos
+string ls—sql
+ls—sql = gs—old—sql
+gs—new—sql = ""
+Do
+ll—total = len(ls—sql)
+ll—pos = pos(ls—sql,′TO—DATE(′,1)
+If ll—pos = 0 Then
+gs—new—sql = gs—new—sql+ls—sql
+Return
+End If
+ll—pos = pos(ls—sql,′-′,ll—pos)
+gs—new—sql = gs—new—sql+left(ls—sql,ll—pos)
+gs—new—sql = gs—new—sql+f—change—month
+( mid(ls—sql,ll—pos+1,3) )
+gs—new—sql =gs—new—sql+mid(ls—sql,ll—pos+4, 16 ) 
++ "′DD-MM-YYYY HH24:MI:SS′)"
+ll—pos = pos(ls—sql,′)′,ll—pos)
+ls—sql = right(ls—sql, ll—total-ll—pos )
+Loop Until ll—pos = 0
+　　其中f—change—month()是将3位字母表示的月份转换为数字月份的函数，具体脚本这里就不列举了。 gs—new—sql是全局变量，用来储存经过转换后数据库可接受的SQL语句。最后，在类似“存盘”的菜单或按钮的脚本中编程执行新的SQL语句即可。笔者是在窗口的“存盘”按钮中进行编程的，具体脚本如下：
+　　Integer rtn
+rtn = dw—1.Update()
+If rtn = 1 Then
+Commit Using sqlca;
+Else
+Rollback Using sqlca;
+Execute immediate :gs—new—sql;
+Commit Using sqlca;
+dw—1.Retrieve()
+End If
+　　
+3　Table表之间的外键连接
+　　数据库表间的一对多的关系可以是主键和外键的关系，例如作者和作者著作表的关系是一对多的关系，(即一个作者可以写多本书），部门/雇员关系是一对多的关系等等，它们之间就可以建立主键和外键的关系。在数据库管理的编程应用中，我们应当利用主键和外键来定义数据库的引用完整性，有效地使用它们意味着数据库（不是应用程序）将迫使用户提供各种有效值，以维护数据库的完整性、一致性。拿部门/雇员关系举个例子，假定我们虚构一个公司是由10个部门组成，而每个雇员都属于一个部门管辖。在这种情况下，数据库应包含雇员表和部门表。其中，雇员表的主键是emp—id，而部门表的主键是dept—id。雇员表应包含一个dept—id列，指出某个雇员是在该部门工作。为了把引用完整性引入数据库，雇员表中的dept—id列应当指定外键以指向部门表。这样，应用程序就并不需要为确保某个雇员所指定的部门代码是有效值而编写具体程序，其原因是数据库会自动处理此类问题，当为某个雇员所指定的部门代码是无效值时，数据库会给出系统错误信息，而不允许这样的操作。
+　　在PowerBuilder中为数据库表建立主外键关系时，有一个“On Delete of Primary Table Row”选项，说明当主表中的行被删除时，从表中对应行可能的几种操作：不允许删除主表中的记录；自动删除从表中的所有对应行的记录；将从表中相应行的对应列设为Null。拿上面的部门/雇员例子来说，雇员表依赖于部门表（主表），如果一个部门被删除了，那么这个部门中的所有雇员该怎么办呢？可以选择下列几种方法：
+　　（1） 只要部门中还有雇员，就不允许删除这个部门；
+　　（2） 自动删除雇员表中dept—id列值指向该部门的所有雇员记录；
+　　（3） 对于所有在被删除部门工作的雇员，在雇员表中将其相应的部门列设置为Null。
+　　在PowerBuilder本地库中(如Sybase SQL Anywhere 5.0)，当建立主外键关系时，在“On Delete of Primary Table Row”选项中选择第二项，则主表中的行被删除时，从表中与之相对应的所有行记录会自动删除。而PowerBuilder 5.0与Oracle 8.0相连时，即使选项选择第二项，却实现不了以上功能。必须编程人员自己具体编程，先删除掉所有从表中与主表行相对应的所有行记录，才能再删除主表中的行。
+　　Delete From employee　　　　　　　　　// 先删除从表相关记录
+Where dept—id = :ls—dept—id
+Using sqlca ；
+If sqlca.sqlcode < 0 Then
+MessageBox ("Database Error", sqlca.SQLErrText,
+Exclamation!)
+Return
+End If
+Delete From department　　　　　　　　　// 再删除主表记录
+Where dept—id = :ls—dept—id
+Using sqlca ；
+If sqlca.sqlcode < 0 Then
+MessageBox ("Database Error", sqlca.SQLErrText,
+Exclamation!)
+Return
+End If
+　　
+4　结束语
+　　PowerBuilder的开放性功能是它众多优秀功能之一，但它与不同的后台数据库相连时，仍存在一些细微的差别。在具体编程应用中，要注意加以区分和处置。本文针对PowerBuilder 5.0与Oracle 8.0相连时编程中出现的一些问题，如具有外键连接的Table表的记录删除问题，由于PowerBuilder与Oracle 8.0中文版格式不兼容造成的数据及数据窗口的操作问题等，都进行了探讨，并给出了编程形式的解决方案。此外，还有PowerBuilder不能读取Oracle 8.0中的表目录及Oracle 8.0中的表结构等问题，限于篇幅，本文不再详细介绍。
+　　张　坤　讲师。主要研究方向：企业MIS系统、数据库技术。
+　　作者单位：张　坤　伊希荣（总装备部指挥技术学院　北京101416）
+参考文献
+［1］　John Adolph Palinski．Oracle8 数据库构造工具实用指南．北京：机械工业出版社，1998
+［2］　Bill Hatfield．PowerBuilder 5 应用程序开发指南．北京：清华大学出版社，1997
+收稿日期:1999-01-08

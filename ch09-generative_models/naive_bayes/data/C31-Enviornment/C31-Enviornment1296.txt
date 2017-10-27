@@ -1,0 +1,95 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第2期VOL.19 NO.2 1999
+
+
+
+预酸析-厌氧流化床处理碱法草浆黑液的研究*
+刘　峰*　*　杨　平　方治华*　*　*　杨云霞
+摘要　对预酸析-多孔高分子载体固定化微生物厌氧流化床(AFB)处理碱法草浆黑液的效能进行了研究.结果表明，采用酸析预处理，去除了黑液中大部分难生化降解的高分子物质后，AFB的厌氧消化潜能得到充分发挥.预酸析-AFB处理比直接AFB处理更为有利.对黑液中木质素的化学性质研究表明，厌氧处理前后的黑液中木质素分子的基本结构单元保持不变，但分子量大的木质素有向小分子转化的趋势.通过扫描电镜观察，除了产甲烷菌外，还发现了硫酸盐还原菌和硫细菌.
+关键词　预酸析；厌氧流化床；多孔高分子载体；黑液；木质素.
+Treatment of alkaline straw-pulping mill black liquor with preacidification-anaerobic fluidized bed process
+LIU Feng, YANG Ping, FANG Zhihua, YANG Yunxia 
+(Environmental Biotechnology Section,Sichuan Union University,Chengdu 610065)
+Abstract　The process of preacidification-anaerobic fluidized bed (AFB) with new porous polymer carries for microbial immobilization was employed to examine the efficiency of treating black liquor from alkaline straw-pulping mill.The results showed that significant removal of bio-recalcitrant macropolymers in the black liquor could be achieved after preacidification.The potentiality of anaerobic digestion of the AFB can be developed and the treatment using precipitation-AFB process is more suitable than that AFB process.The observation of bioparticles with SEM revealed that Methanothrix sp.,Methanosarcina and Desulfovibrio desulduricans can be immobilized not only on the surface but also on the cross section of the carriers.
+Keywords　anaerobic fluidized,porous polymer carriers,black liquor.
+1　前言
+　　我国大多数中小型纸厂采用以草浆为主要原料的碱法工艺，未进行碱回收处理时产生的纸浆黑液是水环境的重要有机污染源之一.由于这类废水中难生物降解的木质素等含量高，因此需要寻求经济高效的处理途径.
+　　本研究的目的是利用多孔高分子载体包络法固定化微生物的厌氧流化床(AFB)所具有的高效性和抗毒性抑制物的良好性能，与黑液的预酸析相结合处理草浆黑液；通过直接AFB和预酸析-AFB的对比实验，以验证本文提出方法的有效性.
+2　材料及方法
+2.1　实验装置及流程
+　　本实验所采用的厌氧流化床(AFB)反应器与文献［1］相同，反应器置于34±2℃的恒温室内.制浆造纸废水(或酸析液)由高位水箱通过进料泵和维持生物颗粒流态化的回流水一起泵入AFB反应器(反应区有效容积为1.6 L).反应器内装有一定比例的多孔高分子载体和接种污泥，经驯化培养后形成的生物颗粒在流态化条件下降解废水中可生物降解的有机物，降解的最终产物——沼气以微小的气泡沿反应器上升，经过气—液—固分离器的集气罩排出反应器，经水封瓶进入湿式气体流量计计量后排空.
+2.2　实验废水及接种污泥来源
+　　实验用的制浆黑液取自成都市造纸二厂的麦草碱法蒸煮工段.主要组成为(mg/L):COD,16380—36880；BOD5，3813—9372；木质素，8543—14520；NH3-N，379—736；总碱度(以CaCO3计)，2496—6230.黑液按进料COD浓度要求稀释.厌氧接种污泥取自成都市污水处理厂剩余污泥厌氧消化池和成都市肉联厂UASB反应器.
+2.3　固定化载体
+　　实验采用WAR-8-8型聚丙烯酸酯类多孔高分子载体，其表面粗糙度大、大孔与微孔分布合理、密度小、机械强度高，微生物固定化效果好［3］.
+2.4　分析测定方法
+　　化学耗氧量(COD)采用标准重铬酸钾法测定；pH用精密pH试纸；生物相观察用KYKY-AMRAY1000B扫描电镜(SEM)；硫酸盐还原菌(SRB)采用最大可能计数法(MPN)测定：SO2-4浓度用Dioncx 4500i离子色谱仪测定.
+3　结果与讨论
+3.1　AFB处理制浆黑液的性能
+3.1.1　反应器启动　将裸载体和接种污泥混合体按一定比例［3］投入AFB中，以人工合成葡萄糖废水［2］为基质驯化，待开始产气后，用草浆蒸煮废液逐步取代合成废水，以递增负荷的方式启动AFB反应器.进料浓度控制在4500 mg(COD)/L左右，起始投配的COD负荷率为5.4—5.6 kg/(m3.d)，逐步减小水力停留时间(HRT)，稳步提高负荷率，大约57天后，载体挂膜明显.然后逐步将COD浓度提高到5400 mg/L左右，容积负荷率达到9 kg(COD)/(m3.d)时，COD去除率为60%，容积产气率为1.2 m3/(m3.d).至此认为，反应器启动成功.
+3.1.2　启动过程中床层分层现象分析　启动阶段发现，在AFB反应器中，生物膜先在下部形成，然后再向上发展，从而形成了底部的生物膜更厚，粒径略大；上部的生物膜薄，粒径小的分层现象.这与已报道的诸多厌氧流化床启动实验的分层现象恰好相反［4，5］．Andrews和Tien等指出［6］，在生物流化床中，生物颗粒的沉降速度受到生物膜增长的两方面影响：①生物膜增厚，造成生物颗粒的密度降低，使颗粒的沉降速度减小；②生物膜增厚，造成生物颗粒的粒径增大，使颗粒的沉降速度增大.两方面的结合就是生物膜增厚对生物颗粒沉降速度总的影响.
+　　本实验中的分层现象与高分子载体的多孔结构和材料密度小有关.多孔高分子载体固定微生物的过程首先是由内孔包络微生物开始，当载体表面形成生物膜时，内孔中已包络了大量的微生物.生物膜形成时，由于较薄，且生物膜湿密度(约1.14 g/cm3)［7］与载体骨架密度(1.37 g/cm3)相差不大.因此，生物膜增厚所引起的生物颗粒的密度下降并不明显，生物颗粒的沉降速度主要受颗粒粒径变化的影响.吸附微生物多的颗粒(变色的生物颗粒)粒径大，沉到下面；反之，未变色的小颗粒升到上面，从而形成分层现象.
+　　由于上下两层颗粒沉降速度不同，当整个床层的裸载体顺利挂膜后，上、下层的生物颗粒大小最终趋于一致，分层现象消失，使反应器流化均匀，生化反应加快，反应器启动较快，效率更高.
+3.1.3　直接AFB与预酸析-AFB处理负荷运行效果对比　直接AFB处理黑液阶段COD浓度稳定在5400 mg/L左右，逐渐缩短HRT以提高容积负荷，试验选定9、11、13、15，19 kg COD/(m3.d)5个负荷段，前4个阶段每个负荷段运行10天，第五阶段负荷运行30天.预酸析-AFB处理阶段将草浆黑液经稀硫酸酸析后的上清液稍作稀释，并用熟石灰将pH回调至7.0左右，输入反应器.预酸析可去除COD 35%—40%，去除色度65%—70%.稳定进料浓度在5400 mg (COD)/L,按19、15、13、11、9 kg (COD)/(m3.d)等递减梯度负荷运行，第一阶段运行30天，以后每个负荷连续运行10天左右，实验结果见表1.
+表1　实验室AFB负荷运行综合情况
+Table 1 Effects of COD volumetric loading
+试验
+进程进水COD，
+mg/LCOD
+去除率，
+%膨胀率，
+%HRT，
+h进水容积负荷，
+kg(COD)/(m3.d)去除COD产
+气转换率，
+m3/kg(COD)pH稳定运行
+时间，d
+范围均值范围均值进水出水
+未酸
+析进
+料负
+荷运
+行阶
+段4832—59175374612514.088.25—10.089.160.216.87.010
+4926—59345430582011.7710.91—11.2211.070.266.77.110
+5039—5879545960209.6712.13—14.4513.290.316.96.710
+5125—5936553155208.8714.25—15.6714.960.406.86.910
+5047—5940549458—52206.9218.75—19.3819.060.477.07.230
+酸析
+进料
+负荷
+运行
+阶段5198—5742547068—73206.9518.71—19.0818.900.316.87.030
+5203—5874553974208.9514.17—15.5314.850.276.97.110
+5120—58345477752010.1912.21—13.5812.900.216.87.110
+5017—59255471732012.2810.05—11.3210.690.196.66.910
+4997—58235410782014.218.17—10.119.140.166.77.010
+
+
+图1　COD容积负荷对COD去除率的影响
+Fig.1 Effects of COD volumetric loading on removal of COD
+　　WAR-8-8载体AFB直接处理黑液时，当进水COD浓度为5400 mg/L、HRT为6.9 h时，容积负荷为18.75 kg (COD)/(m3。d)、COD去除率为55%、色度去除率为20%，容积产气率为4.96 m3(m3。d)；而处理酸析液，达到相同的进料浓度和HRT时，COD去除率为70%、色度去除率为20%，容积产气率为5.86 m3/(m3。d).容积负荷与COD去除率的关系如图1.图1表明，在最大容积负荷18.75 kg COD/(m3。d)内，改变容积负荷，对COD去除率影响并不显著.这表明此时反应器具有足够量的微生物对进入的有机物进行及时的降解.
+　　在直接处理黑液时，采用多孔高分子载体包络法固定化微生物的AFB反应器，其活性生物量浓度大、传质能力强，对可生物降解有机物的去除能力优于其他反应器，使COD去除率较高；又因多孔高分子载体具有较强的吸附性，在固定厌氧微生物的同时，也能吸附黑液中一些胶体物质、碱及盐类，使色度有所下降.采用酸析预处理后，黑液中木质素等大部分难生物降解的高分子物质得到去除，色度明显下降，使得AFB的厌氧消化潜能得到了充分的发挥，其最终处理效率明显高于直接AFB处理.
+3.2　生物颗粒的镜相分析
+　　经SEM观察，当AFB直接处理黑液时，生物颗粒表面生物膜及内孔的生物镜相与文献［2］类似.此时载体表面微生物种群丰富，且主要是类似于索氏产甲烷丝菌(Methanothrix sp.)和产甲烷八叠球菌(Methanosaricina)的产甲烷菌，优势菌为产甲烷八叠球菌；载体的内部，几乎都是类似于索氏产甲烷丝菌的产甲烷菌，
+
+
+图2　硫酸盐还原菌生物相
+Fig.2 SEM photograph of sulphate reducing bacteria
+且为短竹节状.
+　　当酸析后进料时，由于酸析液中SO2-4浓度较原黑液中高，导致AFB中硫酸盐还原菌(SRB)的滋生，从而使SO2-4得到还原.通过纯种培养，由最大可能计数(MPN)方法测得此时以脱硫弧菌(Desulfovibrio desulfuricans)为主的SRB数量为3×106个/mL，经SEM检测到其主要形态为略弯曲的杆菌，一般呈单个(图2)*.
+　　SRB的存在，既有能降解长链脂肪酸的有利作用，又有与产甲烷菌争夺氢的不利影响.因此，实际处理中应适当控制厌氧消化中硫酸盐的浓度.本实验表明，反应器中SO2-4的累计浓度达3760 mg/L时，没有发现对厌氧消化产生明显抑制作用.
+　　* 由农业部厌氧微生物开放实验室测定
+　　*　国家自然科学基金资助项目(编号：29676027)　*　* 现在大庆石油管理局工作　
+　　*　*　* 通讯联系人
+作者单位：四川联合大学环境生物技术研究室，成都　610065
+参考文献
+1　方治华等.新型多孔高分子载体厌氧流化床启动实验研究.应用与环境生物学报，1996，2(2)：147—151
+2　方治华，柯益华，杨　平等.厌氧流化床反应器微生物固定化载体筛选的研究.环境科学学报，1995，15(4)：399—406
+3　刘　峰.预酸析-厌氧流化床处理碱法草浆黑液的试验研究，［学位论文］.四川联合大学，1997
+4　Diez Blanco V et al.Effects of biofilm growth,gas and liquid velocities on the expansion of an anaerobic fluidized bed reactor (AFBR).Wat Res,1995,29(7):1649—1654
+5 Stronach S M \%et al.Factors affecting biomass attachement during startup and operation of anaerobic fluidized beds.Biotechnol Bioeng,1987,30:611—620
+6 Andrews G F,Chi Tien.The expansion of fluidized bed containing biomass.AIChE Journal,1979,25(4):720—723
+7 Kyoung Sin Ro \%et al\%.Biofilm density for biological fluidized beds.J Water Pollut Control Fed,1991,63(5):815—818
+1997-06-28收到原稿　1998-01-20收到修改稿

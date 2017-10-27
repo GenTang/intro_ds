@@ -1,0 +1,109 @@
+计算机应用
+Computer Applications
+1999年 第19卷 第7期  Vol.19 No.7 1999
+
+
+
+Internet网络图片资源检索系统
+朱　爽
+
+　　摘　要　本文首先分析了网络信息检索现状，提出了一个适合Internet网络图片资源的检索方法, 并给出了相应图片资源检索系统的总体结构及其组成部分。
+　　关键词　Internet, 图片资源检索, HTML, 全文检索
+　　
+INTERNET IMAGE SEARCH ENGINE
+
+Zhu Shuang
+China Education and Research Network Center, Beijing 100084
+
+　　Abstract　This paper analyzes the demands of search engine for Internet image resources, introduces a new solution to Internet image information retrieval, and presents the search engine which can be integrated with full-text retrieval.
+　　Keywords　Internet, Image search engine, HTML, Full-text search
+1　小引
+　　Internet上的信息资源极其丰富，其中不乏大量的图片。如何提供一个有效的途径来快速查询这些特殊内涵的媒体信息是检索领域人们关注的一个热点。
+2　检索现状
+　　目前Internet上有大量的搜索引擎，国内也有面向中文信息的搜索服务提供商。比如中国教育和科研网网络中心的“网络指南针” ［1］　，帮助用户使用分类和全文检索手段在全球网页中查询自己的目标。
+　　这种检索手段为WEB页面的每一个字词都建立了倒排索引。这种全文索引机制对于面向文本信息的查询是相当有效的，而且速度快。图片在很多方面不同于文本。文本本身描述了信息内容，可以用字词来进行索引。图片是按照用户各自的理解来说明它们所蕴含的意义，而图片本身并没有任何可以索引的特征。所以，当我们要在网络上查找有关“北京”的图片时，就有些犯难。如果使用现有的搜索引擎，键入“北京”开始检索，命中的结果中十有八九的页面中出现“北京”这个字符串，但未必有北京的图片。可见上述检索方法并不适合图片的查询。
+　　另外，Internet图片量非常大，几乎每个页面都有大大小小的图片。这种规模也决定了目前基于图片内容的检索技术是不能胜任的。
+3　图片资源的特征
+　　Internet环球信息网资源基于HTML超文本置标语言。HTML［2］的多媒体特性允许用户在自己的页面中加入图片、视频等其他文档。随着HTML版本的不同，图片的表达方式也有差别。早期的版本采用<IMG>置标，在4.0版本［3］中则采用<Object>置标。
+<IMG>置标
+　　该置标的完整格式如下：
+<!ELEMENT IMG - O EMPTY
+　　　　　　-- Embedded image -->
+<!ATTLIST IMG
+　　%attrs; 　　　　-- %coreattrs, %i18n, %events --
+　　src %URI; #REQUIRED 　　-- URI of image to embed --
+　　alt %Text; #REQUIRED　　　　　　-- short description --
+　　longdesc %URI; #IMPLIED　　　　-- link to long description(complements alt) --
+　　height %Length; #IMPLIED 　　　-- override height --
+　　width %Length; #IMPLIED 　　　　　　-- override width --
+　　usemap %URI; #IMPLIED 　　　　　　　-- use client-side image map --
+　　ismap (ismap) #IMPLIED 　　　　　　-- use server-side image map -->
+
+　　为了使非可视化的用户更好地理解图片，加上了ALT描述项，毫无疑问这是该图片的一个重要信息。同时还有longdesc作为ALT的补充，指向一个更长的描述信息。SRC是常见图片如JPG、GIF、PNG的存储URI［4］。
+<OBJECT>置标
+　　该置标的定义如下：
+<!ELEMENT OBJECT - - (PARAM | %flow;)*
+　　　　　　　　　-- generic embedded object -->
+<!ATTLIST OBJECT
+　　%attrs; 　　　-- %coreattrs, %i18n, %events --
+　　declare (declare) #IMPLIED 
+　　　　　　　　　-- declare but don′t instantiate flag --
+　　classid %URI; #IMPLIED
+　　　　　　　　　-- identifies an implementation --
+　　codebase %URI; #IMPLIED 
+　　　　　　　　　-- base URI for classid, data, archive--
+　　data %URI; #IMPLIED 
+　　　　　　　　　-- reference to object′s data --
+　　type %ContentType; #IMPLIED 
+　　　　　　　　　-- content type for data --
+　　codetype %ContentType; #IMPLIED 
+　　　　　　　　　-- content type for code --
+　　archive %URI; #IMPLIED 
+　　　　　　　　　-- space separated archive list --
+　　standby %Text; #IMPLIED 
+　　　　　　　　　-- message to show while loading --
+　　height %Length; #IMPLIED 
+　　　　　　　　　-- override height --
+　　width %Length; #IMPLIED 
+　　　　　　　　　-- override width --
+　　usemap %URI; #IMPLIED 
+　　　　　　　　　-- use client-side image map --
+　　name CDATA #IMPLIED 
+　　　　　　　　　-- submit as part of form --
+　　tabindex NUMBER #IMPLIED 
+　　　　　　　　　-- position in tabbing order --
+>
+　　相对来说它能支持更多类型的对象。在这里我们只考虑图片方面。例如：
+<P>Here′s a closeup of the Grand Canyon:
+<OBJECT data="canyon.png" type="image/png">
+This is a <EM>closeup</EM> of the Grand Canyon.
+</OBJECT>
+　　无论是图片文件名还是描述都相对准确地描述了图片的主要内容，我们视这种信息为图片的元信息。这是我们建立图片索引的主要依据。
+　　
+4　图片资源检索系统的总体结构
+　　从功能上，我们可将Internet图片资源检索系统分为图片元信息收集、索引建立、全文检索和智能代理四部分。总体结构如图1所示。　　
+
+　　　　　　
+图1　Internet图片资源检索系统结构图
+
+4.1　图片元信息收集
+　　网络上的图片基本上都是JPG、GIF、PNG三种格式，如果出现了类似CGI程序来显示图片，说明这个图片存在另外一个系统中，可能是变化的。我们将不考虑这种情况。
+　　这是一个比较特殊的spider程序，它在WEB上不停地寻找新的页面并分析页面，将具有上述两种表达方式的图片元信息加入本系统的元信息库中。其中每个图片被视为一个独立的对象，具有名称、所属网站、关键词、描述等信息。
+4.2　建立索引
+　　为便于用户查找，本系统为元信息库建立全文索引，全文索引为倒排文件结构。对于英文字符按词建立索引，非ASCII字符按双字节建立索引。这样就建立了中西文的混合索引结构。
+4.3　全文检索
+　　当用户通过浏览器发出一个请求时，查询模块自动找到待查询的倒排全文索引信息，通过运算，送回命中目标。
+　　这是基于图片本身信息的全文检索，用户可以很方便地找到感兴趣的内容。与文本引擎相比，检索结果少了，查准效率大大提高。
+4.4　智能代理
+　　考虑到Internet上信息的多语种化，同一种图片对象可能用两种或多种语言给予表达。本系统还提供可设置的多语种词汇对应表。当一个请求未能满足需求时，可选择智能化的查询功能，系统自动匹配查询语句的相关条件，查全率改善许多。
+5　小结
+　　本系统以图片为例，介绍Internet特种资源的搜索方法。正如<Object>置标所示，网上还有各种各样的多媒体资源。结合现有的全文检索技术，同样可实现这些资源的深度挖掘和利用。
+
+　　朱　爽　硕士，讲师。主要研究方向：计算机网络系统。目前负责CERNET网络信息中心的运行管理。
+　　作者单位：朱　爽（中国教育与科研计算机网网络中心　北京100084)
+参考文献
+［1］　网络指南针, http://compass.net.edu.cn:8010/,CERNET
+［2］　HyperText Markup Language, http://www.w3.org/MarkUp/, W3C
+［3］　HTML 4.0 Specification, http://www.w3.org/TR/REC-html40/, W3C
+［4］　Universal Resource Identifiers, http://www.acl.lanl.gov/URI/uri2.html
+收稿日期:1999-01-05

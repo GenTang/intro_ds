@@ -1,0 +1,114 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+用流动电流技术研究聚硅氯化铝混凝剂的电动特性
+高宝玉　王占生　汤鸿霄
+摘要：采用流动电流(SC)技术,研究比较了聚硅氯化铝(PASC)与聚合氯化铝(PAC)的电动特性.研究结果表明,在PASC中,由于带负电荷的聚硅酸与铝水解聚合产物间的相互作用,使得PASC的电中和能力较PAC有所下降,其下降程度与PASC的碱化度(B)和Al/Si摩尔比密切相关,B值和Al/Si摩尔比越小,则PASC的电中和能力就越弱.制备工艺对PASC的电中和能力稍有影响.
+关键词：聚硅氯化铝(PASC)混凝剂；流动电流(SC)；电动特性; 碱化度(B)；Al/Si摩尔比
+中图分类号：X123 文献标识码：A
+Electrokinetic characteristic of flocculant polyaluminum silicate chloride(PASC) by streaming current measurement.
+GAO Bao-yu
+(Department of Environmental Engineering, Shandong University, Jinan 250100,China)
+WANG Zhan-sheng
+(Department of Environmental Science and Engineering, Tsinghua University, Beijing 100084, China)
+TANG Hong-xiao
+(State Key Laboratory of Environmental Aquatic Chemistry,Research Center for Eco-Environmental Science, Chinese Academy of Sciences, Beijing 100085, China). China Environmental Sciences. 1999,19(6)：
+Abstract：The electrokinetic characteristic of polyaluminum silicate chloride (PASC) and polyaluminum chloride (PAC) were studied and compared by streaming current (SC) measurement. The experimental results show that the interaction between polysilicic acid characterized negative charge and hydrolyzed aluminum species results in the decrease in the charge-neutralizing ability of PASC, in comparison with PAC. The decrease in the charge-neutralizing ability of PASC has close relation with the basicity (B) and Al/Si molar ratio in PASC. The less the B value and Al/Si molar ratio, the lower the charge-neutralizing ability of PASC. The preparation technique for PASC affects the charge-neutralization of PASC to a little extent.
+Key words：flocculant polyaluminum chloride (PASC)；streaming current (SC); electrokinetic characteristic；basicity (B)；Al/Si molar ratio
+　　对无机高分子混凝剂而言,水处理中混凝过程的研究,一般包括两个方面:一是作为混凝剂的无机金属盐的水解－聚合过程、水解聚合形态及转化规律的研究;二是混凝剂水解产物作用于胶体颗粒引起胶体脱稳过程研究.由于胶体颗粒的脱稳状况与投加的混凝剂的荷电情况密切相关,所以在第二个问题的研究中,往往把混凝剂本身的电动特性作为一个首要的且十分重要的研究内容.目前,流动电流(Streaming Current, SC)测定技术和显微电泳技术已作为研究混凝剂电动特性以及判断混凝效果的两个重要手段[1- 3].显微电泳技术是在一外加电场下观察带电颗粒的移动速度,进而可计算出胶体颗粒的zeta电位的一种技术.zeta电位是反映胶体电动特性的重要参数,可作为水处理混凝过程中投药后胶体物质脱稳程度的有效指标,同时也是研究和探讨混凝机理的重要方法.但zeta电位的测定在一般情况下存在着测定困难、精度较低、重复性较差、无法用于在线和连续监测等缺点,所以近年来,SC这一电动参数逐渐被广泛用于研究混凝剂的电动特性以及混凝剂对胶体颗粒表面的电荷作用效果[2,4]. 水体中所有电动现象都是由于双电层中的电荷随液体作相对于固体表面流动所引起的.zeta电位是胶体迁移时与溶液间滑动界面处的电位,代表胶体颗粒扩散层的电荷情况,一般近似认为等于扩散层的电位.而SC是由于液体相对于固体表面运动时,双电层中的扩散层与固定层相对分离的结果[2].所以,zeta电位与SC具有理论上的线性相关特性[5],SC和zeta电位都可以定量反映无机混凝剂在水中的荷电情况以及对胶体颗粒表面的电荷作用效果.
+　　本文采用流动电流测定技术,研究比较聚硅氯化铝(PASC) 与聚合氯化铝(PAC)水解聚合产物的电动特性,为进一步研究PASC的混凝效果及作用机理奠定理论基础.
+1　实验仪器和实验方法
+1.1 实验仪器
+　　Orion720型精密pH计,SC－30S型流动电流检测器(SCD).
+1.2 PASC的制备
+　　分别采用共聚和复合法制备PASC(共)和PASC(复),详见文献[6].
+1.3 SC测定方法[2]
+　　在一容积为2.5L的烧杯中注入2L1：1的去离子水后,将流动电流检测器探头全部浸入水中,并插入pH电极.实验过程用磁力搅拌器进行快速搅拌,开启SCD,待稳定后记录其初始SC值、pH值及相应流动电流的变化.实验中,用0.1mol/L盐酸或氢氧化钠溶液调节至稳定的pH值.
+2　结果与讨论
+2.1 PASC与 PAC样品的SC值比较
+　　图1～图3分别是向水中投加不同碱化度(B)的PAC和不同B值及Al/Si摩尔比的PASC后SC响应值随投加浓度的变化.由于SC实际上是水中胶体微粒在探头表面的吸附并产生双电层结构的结果,而固体探头的表面一般均带负电荷,因此SC初始负值即为活塞柱表面电荷值.由图1～图3可见,PAC及PASC的SC响应值均随其投加量的增加而逐渐升高,但在相同投加量条件下,同一B值的PAC的SC响应值均高于PASC的响应值.对PASC而言,Al/Si摩尔比越高,其SC响应值就越大；随着B值的增加,在相同Al/Si摩尔比情况下PASC(共)与PASC(复)之间SC的差值逐渐缩小.这说明向铝盐中引入带负电荷的聚硅酸后,使其SC响应值降低,且引入的聚硅酸越多,产品的电荷值就下降越多,制备工艺对PASC的荷电情况稍有影响,随着B值的升高,制备工艺的影响就变得越不明显.上述B值、Al/Si摩尔比及制备工艺对样品SC响应值的影响情况可由在等电点(SC=0)时各样品所需的投加量表现出来(见表1).从表1看出,达SC=0时所需投加的样品量随B值的升高而逐渐降低,在相同B值下,则需投加较PAC更多的PASC样品量才能达SC=0的等电点,且Al/Si摩尔比越低,需投加的PASC样品量就越多；达等电点时PAC与PASC投加量之间的差值随B值的增大而缩小,制备工艺对低Al/Si摩尔比的PASC样品的电中和能力影响较大,但对高Al/Si摩尔比的PASC样品的影响较小.
+
+图1　B=1.0时PAC与PASC(共)的SC随浓度的变化
+Fig.1 The variances of SC value of PAC and PASC with dosage at B=1.0
+—■—PAC　—●—PASC A1/Si=5.0(共)　—▲—PASC A1/Si=5.0(复)
+——PASC A1/Si=10(共)　—◆—PASC A1/Si=10(复)
+—+—PASC A1/Si=15(共)　—×—PASC A1/Si=15(复)
+
+图2 B=1.5时PAC与PASC(共)和PASC(复)的SC随浓度的变化
+Fig.2 The variances of SC value of PAC and PASC with dosage at B=1.5
+
+图3 B=2.0时PAC与PASC(共)和PASC(复)的SC随浓度的变化
+Fig.3 The variances of SC value of PAC and PASC with dosage at B=2.0
+表1 溶液的SC=0时各样品所需的投加量
+Table1 The required dosage of coagulants at SC=0
+碱化度(B)样品投加量(mg/L)
+B=1.0PAC
+PASC(共) Al/Si=5
+PASC(共) Al/Si=10
+PASC(共) Al/Si=150.04
+0.107
+0.07
+0.053
+B=1.5PAC
+PASC(共) Al/Si=5
+PASC(复) Al/Si=5
+PASC(共) Al/Si=10
+PASC(复) Al/Si=10
+PASC(共) Al/Si=15
+PASC(复) Al/Si=150.035
+0.067
+0.058
+0.046
+0.039
+0.037
+0.036
+B=2.0PAC
+PASC(共) Al/Si=5
+PASC(复) Al/Si=5
+PASC(共) Al/Si=10
+PASC(复) Al/Si=10
+PASC(共) Al/Si=15
+PASC(复) Al/Si=150.028
+0.048
+0.060
+0.034
+0.036
+0.031
+0.032
+B=2.5PAC
+PASC(共) Al/Si=5
+PASC(共) Al/Si=10
+PASC(共) Al/Si=150.024
+0.041
+0.033
+0.030
+
+　　虽然在上述实验中所检测出的SC值是活塞与混凝剂二者综合作用的结果,但它却直接反映了PAC与PASC混凝剂在投加到水中后的水解聚合形态所带电荷电量的差别,反映了B值、Al/Si摩尔比和制备工艺对混凝剂水解聚合产物的荷电量的影响情况.
+2.2 PAC与PASC水解产物的SC值与溶液pH值的关系
+　　当向水中投加0.15mmol/L的混凝剂后,充分混合并在流动电流值稳定不变时,逐渐滴加稀盐酸或稀氢氧化钠溶液,并检测其SC值随pH值的变化,结果见图4～图5.由图4可见,PAC与PASC样品的SC值随pH值的变化规律是一致的,但PASC样品的SC响应值低于PAC样品的SC响应值.在pH<5.0的酸性水溶液中,混凝剂样品水解产物的SC值随pH值的升高而增加,pH值在5.0～6.0之间时,SC达最大值,然后随pH值的升高而降低.从图5可见,对于B=2.0的混凝剂样品,PAC的SC响应值最大,在pH值为8.9左右时SC=0,PASC的响应值随Al/Si摩尔比的降低而逐渐下降,且复合法制备的样品其SC值下降的幅度大于共聚法制备样品的SC值下降幅度,PASC(共)与PASC(复)样品间SC的差值随Al/Si摩尔比的降低而增大.当Al/Si=15时,PASC(共)与PASC(复)都在pH值为8.7左右时SC=0；当Al/Si=10时,PASC(共)与PASC(复) 都在pH值为8.4左右时SC=0；而对Al/Si=5.0的PASC样品,PASC(共)与PASC(复)分别在pH值为7.6和7.4左右时SC响应值为零.从图5可知,对于Al/Si=10的PASC(共)样品,其SC响应值随B值的升高而增加,B值分别为1.0、1.5、2.0和2.5时,SC=0时的pH值则分别为6.9、7.9、8.4、和8.5左右.图4～图5的结果进一步表明了B值、Al/Si摩尔比及制备工艺都影响PASC混凝剂水解产物的荷电量.
+
+图4 B=2.0的PAC、PASC(共)和PASC(复)的SC值随pH值的变化
+Fig.4 Variance of SC of PAC and PASC with pH value at B=2.0
+
+图5 Al/Si=10时不同B值的PASC(共)的SC值随pH值的变化
+Fig.5 Varience of SC of PASC with pH at Al/Si=10 and different B value
+3　结论
+　　PASC是一阳离子型无机高分子混凝剂.与PAC比较,由于在PASC中引入了带负电荷的聚硅酸,并且由于聚硅酸与铝水解聚合产物间的相互作用[7],使得PASC达到等电点时的pH值向低pH值方向移动,其移动幅度密切与Al/Si摩尔比和B值有关,其B值和Al/Si摩尔比越低,则达到等电点时的pH值就越低.制备工艺对PASC的电中和能力稍有影响.
+　　所以,在PASC的制备中,应该控制适宜的Al/Si摩尔比,否则,由于其电中和能力下降较大,这将影响其混凝效果.
+基金项目：国家自然科学基金项目(59878036);“九五”国家科技攻关项目(96-909-03-02)
+作者简介： 高宝玉(1961-),男,山东鄄城人,博士,山东大学环境工程系副教授.主要从事水处理药剂及工业废水治理研究工作.先后主持或参加了国家自然科学基金课题“新型混凝剂聚硅氯化铝的制备及性能”、国家“九五”科技攻关专题“水厂絮凝技术集成化系统”、国家环保局科技三项费用课题“环境样品微波溶样器的研制”、中国石化总公司科技项目“聚硅氯化铝混凝剂处理炼油厂含油废水”、山东省科技项目“高效多功能有机高分子絮凝剂的研制及中试”、山东省自然科学基金”聚硅酸硫酸铝混凝剂的研究”等十余项课题的研究工作,获省部级奖励多项.已公开发表论文70余篇.
+作者单位：高宝玉　山东大学环境工程系,山东 济南 250100
+　　　　　王占生　清华大学环境科学与工程系,北京 100084
+　　　　　汤鸿霄　中国科学院生态环境中心国家重点水化学实验室,北京 100085
+参考文献
+　[1]　Black A P, Chen C. Electrophretic study of coagulation and flocculation of river sediment suspensions with aluminum sulfate [J]. J. Am. Water Works Ass., 1965, 57: 354－360.
+　[2]　曲九辉. 流动电流特性的研究[D]. 哈尔滨：哈尔滨建筑工程学院, 1992.
+　[3]　Tang H X, Luan Z K. Features and mechannism for coagulation－flocculation processes of polyaluminum chloride [J]. J. Environ. Sci., 1995, 7(2): 204－211
+　[4] Qu J H. Electrokinetic chemical characteristics of humic and dannic acids effecting on the natural water and its coagulation [J]. J. Environ. Sci, 1997, 9(1): 71－79.
+　[5]　Dentel S K. Coagulation control in water treatment [J]. CRC Critical Reviews in Environmental control, 1991, 21(1): 41－47.
+　[6] 高宝玉,王占生,汤鸿霄. 聚硅氯化铝(PASC)混凝剂的颗粒大小及分子量分布[J]. 中国环境科学, 1999, 19(4):297-300
+　[7]　Rowatt E, Williams R J P. The interaction of aluminum with silicic acid in the presence and absence of a phosphorylated protein [J]. Coordination Chemistry Reviews, 1996, 149:167－177
+收稿日前：1999-03-29

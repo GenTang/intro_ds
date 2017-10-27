@@ -1,0 +1,105 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+镉铅对小麦醇脱氢酶(ADH)基因表达影响的初步研究*
+吕朝晖**　王焕校
+(云南大学生物系，昆明　650091)
+
+摘要　经过镉、铅45h污染处理，运用Northein斑点杂交分析和酶活性测定的方法探测萌发期小麦ADH酶基因的表达情况.实验结果表明，ADH基因表达在RNA和酶活性两个层次均有变化，并且呈现相似的变化趋势，反映重金属的影响是来源于基因转录水平.同时，ADH基因表达量的变化是一种植物对以重金属为主导因子的环境条件的应激性反应，其中镉的效应大于铅，元素间相互作用的效应与镉铅的复合方式相关.从实验结果推测镉、铅干扰ADH基因表达的效应是间接的.
+关键词　醇脱氢酶(ADH)；基因表达；转录量；酶活性；镉；铅.
+EFFECTS OF CADMIUM AND LEAD ON ADH GENE EXPERSSION
+
+Lü Zhaohui, Wang Huanxiao
+(Department of Biology, Yunnan University, Kinming 650091)
+
+ABSTRACT　After 45-hour treatment of cadmium and lead, embryoes of wheat 1257 were used to detect ADH gene expression in virtue of Northern Dot-Blot and enzymatic assay. The result showed that both transcriptional quantity and enzymatic activity occurred similar alterations, which suggested that the first response was the level of transcription, and consequently passed down to the level of enzyme. Toxic effects of cadmium and/or lead were determined by the sort of heavy metal ions, their doses and the combined manner. The indirect interference of heavy metals to ADH expression of plants is proposed.
+Keywords　ADH(alcohol dehydrogenase), gene expression, transcriptional quantity, enzymatic activity, cadmium, lead.
+1　引言
+　　重金属污染已日益成为环境生物学关注的焦点.重金属特殊的电荷结构，对植物形态、生理代谢的影响以及遗传毒理效应等方面已有较多的报道［1—4］.这一系列的影响仅仅反映了重金属作为环境主导因子与生物体生态关系的最终结果，然而重金属所引起的这些变化的环节和过程，现尚了解甚少.
+　　醇脱氢酶(ADH)的表达是受组织中所积累的内源乙醇类物质的诱导，是淀粉型种子萌发期适应厌氧环境的一种自我调节机制.小麦种子在浸种4h即能测到该酶的活性，随着种子的萌发酶活性降低，96h后活性几乎完全消失［5］.此外曾有研究显示，种子自身的生理衰老和逆境能引起该酶活性的变化.Throneberry和Smith［6］曾报道玉米种子发芽力与醇脱氢酶等活性呈正相关，而在热损伤的大麦种子中该酶仍有很高的活性［7］.在重金属的胁迫下，小麦种子萌发期ADH酶活性变化趋势如何，以及重金属对它的影响如何，本文基于这一背景，以ADH酶基因表达为对象，探讨重金属的毒理机制.
+
+2　材料与方法
+2.1　材料
+　　样品是长期栽种于会泽矿区对污染物较为敏感的小麦品种——1257.
+　　ADH基因克隆的psTH-11质粒DNA由Normand Brisson博士(加拿大Montreal大学)提供.宿主菌XL-6lue，载体pBS SK-；具有两个Eco RI酶切片段：250 bp(5′端)，1.2 kb(是探针ADH基因克隆的DNA片段)，氨苄抗性.
+2.2　方法
+2.2.1　实验浓度设置　重金属污染浓度是以Cd2+、Pb2+诱导的明显形态特征为依据进行设置(见表1).
+表1　镉、铅污染处理的浓度设置
+Table 1 Design of concentrations of Cd2+,Pb2+ in laboratory
+
+实验编号123456789
+处理浓
+度，ppmCd2+010500010105050
+Pb2+000100100010010001001000
+
+
+2.2.2　材料处理　种子经0.05%次氯酸钠消毒处理，自来水冲洗1h，蒸馏水冲洗干净后，置37℃温箱中浸种2h，放置于培养皿中按实验浓度设置的重金属浓度进行污染培养，并及时用蒸馏水补充蒸发的水分.浸种培养第45h进行总RNA的提取和醇脱氢酶ADH的制备.总RNA提取的取材量为30个个体胚，ADH酶活性测定取材量为10个个体胚.幼胚自胚乳上剥离后，用5μmol/L EDTA冲洗，再用蒸馏水冲洗3—4次，置滤纸上晾干水分，分别进行总RNA及酶活性的提取.
+2.2.3　总RNA提取　基本采用Piotr chornczynski和Nicoletta Sacchi(1987)酸性盐酸胍-酚-氯仿一步法提取.最终定容体积100μL并进行电泳检测及紫外测定RNA的含量.RNA的含量以μg/μL表示.
+2.2.4　RNA的Northern Dot-Blot杂交分析　采用非放射性(地高辛)标记方法(Bochringer Mannheim 1989).杂交方法简述如下：先进行ADH基因psTH-11质粒DNA的扩增制备，酶切电泳检测；纯化的psTH-11质粒DNA经EcoRI酶切后，按标准程序进行标记；提取的总RNA取20μL变性点膜，Dot-Blot杂交，设置重复对照.阳性对照：psTH-11质粒DNA的酶切片段.阴性对照：大鼠培养细胞U250的总RNA.
+2.2.5　酶的制备与测定　5份提取介质(0.1mol/L Tris-HCl (pH8.0)，0.5mol/L蔗糖，0.006mol/L抗坏血酸，0.002mol/L疏基乙醇，0.001mol/L EDTA)加入一份材料于冰浴中研碎，7000r/min离心,取上清备用.ADH酶活性测定参照文献［5］，以在340nm下光密度改变0.01为一个活性单位，酶活性以Δ单位/(min*0.1mL)表示.实验设5组平行对照(结果有4组重现性较好，取一组结果进行分析).
+
+3　结果与分析
+3.1　镉、铅对ADH酶活性的影响
+表2　小麦ADH酶活性的变化
+Table 2 Change in the activity of ADH enzyme of wheat
+
+编　号123456789
+ADH
+酶活性，Δ单位/min12.411.412.910.611.111.011.49.312.0
+100%*10092104859089927597
+
+　　*以对照的酶活性为100
+
+　　Cd2+、,Pb2+对ADH酶活性有一定的影响，但总体变化幅度不大.单一重金属污染，低浓度时酶活性有降低趋势，高浓度则呈升高趋势，且这种效应镉强于铅.复合元素的影响主要决定于镉、铅之间的浓度比例.50ppm Cd2+与不同浓度的Pb2+复合，酶活性的上下振荡变化相比较更为明显.表现出镉较强的环境效应和元素间相互作用的复杂性.
+3.2　镉铅对ADH基因转录的影响
+表3　小麦幼胚RNA的含量
+Table 3 The content of the RNA of wheat embryoes
+
+编　号123456789
+RNA含量，μg/μL0.290.300.320.350.330.260.250.230.03
+
+
+
+
+图1　小麦幼胚总RNA的电泳图谱
+(从左至右按表1编号1—9的实验浓度设置排列)
+Fig.1 Electrophoresis patternof the total RNA of wheat embryoes
+
+
+图2　小麦幼胚ADH基因表达的Dot-Blot杂交分析
+(排列方式同图1)
+Fig.2 Scanning analysis of Dot-blots of ADH gene
+　　利用图2的表达峰面积进行ADH基因转录量的分析(见表4).
+表4　镉、铅对ADH基因转录量的影响
+Table 4 Effect of Cd2+,Pb2+ on ADH gene transcriptional quantity
+
+编　号123456789
+ADH基因
+转录比较*1006013390981169354263
+
+　　**以对照扫描的峰面积为100
+
+　　从以上结果分析可见，在重金属的影响下，检测到ADH基因转录量的变化.不论单一元素处理还是复合元素处理所引起ADH基因转录量的变化趋势与酶活性水平基本一致，而变化幅度却大于酶活性水平.
+
+4　讨　论
+　　重金属干扰ADH基因的表达.ADH酶是ADH基因表达的产物.重金属胁迫下，ADH基因表达在基因转录和酶活性两个层次具有相似的变化趋势，并以前者的变化幅度大于后者，意味着重金属的影响.植物通过一系列信息反馈，首先在基因的转录水平做出反应，在经过基因的翻译、蛋白质的加工等过程后，最终反应在酶活性水平上，致使酶活性水平仍保持来自基因转录水平的差异.然而这种差异在经过一系列的翻译加工后变得不明显了，似乎从RNA到蛋白质的过程中，生命活动的调整作用更为重要，以期避免受到外界环境的干扰.
+　　ADH基因的表达量变化与重金属离子的种类、浓度剂量以及元素间的复合方式相关.然而其总体变化幅度不大，与重金属离子浓度间的关系不明显.可能由于重金属的存在造成种子萌发时整体代谢的变化，从而使基因表达量出现上下振荡的变化，表现出应激性的反应特点.有研究者认为［2］植物的这种反应是重金属引起同一过程两种作用的复合效应，是一种适应性反应.本实验反映了植物的这种反应可能最终与基因水平的调控相关.
+　　实验工作曾经对幼苗期(萌发15天)的总RNA进行杂交分析及酶活性测定(本文未列出)，即便在重金属离子浓度很高的情况下(本文实验浓度)，也没有探测到ADH基因的表达.反映了重金属对ADH基因表达的效应并不同于乙醇、乙醛及CO2浓度增加等的直接诱导效应.在该基因表达的时序内可能由于重金属的胁迫，引起植物发生类似于某些自身生理逆境下的反应［5，6］.如种子生理劣变时O2的吸收量降低，CO2的释放量增加.加之萌发初期种皮透氧能力较差，致使CO2浓度变化，乙醇、乙醛等积累而影响植物ADH基因表达.
+
+5　小　结
+　　1. 重金属离子对ADH基因表达的影响是基于基因转录水平，以致引起酶水平的变化.
+　　2. ADH基因表达的变化反映了植物的适应性反应具有应激的特点.
+　　3. 重金属的干扰效应可能是间接的.
+
+　　本文承蒙中国科学院昆明植物研究所胡忠研究员、云南大学生物系谭德勇、高圣义、段昌群等老师的指导和提出积极的建议，特此致谢.
+
+*国家自然科学基金(39360020)资助课题
+　　**现通讯地址：云南大学总务处
+参考文献
+　1　王焕校.污染生态学基础.昆明：云南大学出版社，1990
+　2　段昌群，王焕校.重金属对蚕豆的细胞遗传学毒理作用和对蚕豆根尖微核技术的探讨.植物学报，1995，37(1)：14—24
+　3　Michaelis A, Rieger R. Inhibition of protein systhesis by cydoheximide does not prevent adaptive response triggered by heavy metal salts in vicia faba. Mutut Res, 1993,302(3):157—160
+　4　Reddy T R. Effects of mercuric chloride on protein metabolism of a freshwate, parreysia rugosa (Gmelin). J Ecotoxical Environ Monit, 1991,1(3):230—233
+　5　刘存德等.小麦种子萌发期乙醇脱氢酶的变化及其同工酶的诱导形成.植物生理学报，1980，6(4)：361—366
+　6　Throneberg G D, Smith F G, Relation of respirator and enzymatic activity to corn seed viability. Plant Physiol, 1955,30:337—343
+　7　Macleod A M. Eezyme activity in relation to barley viability, Trans and Proc. Bot Soc Edinburgh, 1952,36(1):18—33

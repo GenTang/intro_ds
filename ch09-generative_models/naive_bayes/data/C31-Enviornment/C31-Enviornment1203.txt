@@ -1,0 +1,129 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+气相色谱法观测本底大气中的甲烷和二氧化碳
+周凌NFDA1 　汤　洁
+(中国气象科学研究院大气化学研究所，北京100081)
+张晓春　季　军　王志邦
+(青海省气象局，西宁 810001)
+Douglas Worthy Michele Ernst Neil Trivett
+(Atmospheric Environment Service, Toronto, CANADA)
+摘要　根据世界气象组织全球大气监测网(WMO/GAW)开展全球温室气体监测的要求，建立了气相色谱(GC)法甲烷和二氧化碳(CH4/CO2)连续观测系统.概述了该系统在加拿大大气环境局(AES)5个月的组装调试，以及在中国大气本底基准观象台(CGAWBO)一年多时间里的业务运行和标定情况.组装调试和运行标定，与红外吸收(NDIR)法、气瓶采样-实验室分析(FLASK)法数据，以及与国内外其它台站观测资料的对比结果表明，该系统具有良好的线性、灵敏度、精度和准确度，其设计完全符合WMO全球大气本底测量的要求，具有高自动化的操作性能和严格的质量控制；所获我国大陆上空本底大气中CH4和CO2的浓度资料具有国际可比性，观测结果反映了我国西部高原地区大气CH4和CO2的本底变化特征.
+关键词　甲烷；二氧化碳；气相色谱；大气本底.
+IN-SITU GAS CHROMATOGRAPHIC MEASUREMENT OF ATMOSPHERIC METHANE AND CARBON DIOXIDE
+
+Zhou Lingxi, Tang Jie
+(Chinese Academy of Meteorological Sciences, Beijing 100081)
+Zhang Xiaochun, Ji Jun, Wang Zhibang
+(Qinghai Meteorological Bureau, Xining 810001)
+Douglas Worthy, Michele Emst, Neil Trivett
+(Atmospheric Environment Service, Toronto, Canada)
+
+ABSTRACT　A highly automatic gas chromatographic system for continuous measurement of atmospheric methane and carbon dioxide was established. The setup of the system, the tested results in AES, Canada, as well as its calibration in CGAWBO are presented. It is found out that the linearity, sensitivity,precision , and accuracy of the system can meet the standard of WMO′s baseline watch on global atmosphere. The system was applied for measurement of atmospheric methane and carbon dioxide over Qinghai-Xizang plateau in western China.
+Keywords　CH4, CO2,GC,atmospheric baseline.
+1　引言
+　　近百年来，大气中温室气体含量的增加及其可能导致的气候变化和生态环境问题，已引起人类社会日益广泛的关注，对主要温室气体——CH4和CO2本底浓度的监测就显得十分重要［1］.科学家们自60年代起开始了对主要温室气体本底浓度的连续监测和研究，并相继在全球的不同经纬度地区建立起主要温室气体的本底监测站网，但这些台站大多建立在岛屿及海岸，导致内陆大气本底观测资料的稀少.1989年起，中国气象局与WMO及全球环境基金组织合作，在我国青海省海南藏族自治州的瓦里关山顶(海拔3816m，纬度36°17′N，经度100°54′E)建立了世界上第一个内陆高原型的全球大气本底监测站CGAWBO(以下简称瓦里关本底台).在进行温室气体/大气臭氧/降水及气溶胶化学/太阳辐射和气象观测的所有全球大气本底观象台中,它的海拔最高，具有开展大气本底监测较为理想的自然地理环境.在严格的国际检验比对技术基础上，使用先进技术设备建立起较为系统完整的大气本底监测体系，填补了WMO/GAW监测网在欧亚大陆腹地的重要地域空白［2，3］.采用气相色谱法大气本底基准监测技术的GC-CH4/CO2连续观测是其中的一个重要监测项目，这种高度定型的装配有氢火焰离子化检测器(FID)的GC系统是在1981年发展起来的，它对CH4的测量精度是目前实际应用的连续观测方法中最好的，对CO2的测量精度已经接近通常用于CO2测量的红外吸收技术(NDIR)的精度水平，据报道，这种GC系统还成功地应用于对大气中微量气体如氧化亚氮和氟里昂的监测［4—7］.瓦里关本底台的GC系统由AES根据中加双边大气科学合作协议援助提供，中方业务 人员在AES接受培训，并对系统进行了组装调试；1994年7月系统运抵瓦里关山观测基地，由中加双方的专家共同完成安装，对瓦里关山大气中的CH4和CO2浓度进行连续测量，开始系统的业务运行.
+　　
+2　仪器系统及测量方法
+　　该系统主要包括：装配有FID和HP19205A镍催化剂管的HP5890(Ⅱ)型气相色谱仪；HP3396Ⅱ型积分仪及HP样品/外部事件控制器(S/ECM)；带有HP82169C HP-IL/HP-IB接口的HP9122C型磁盘驱动器；用HP19238E阀加热器保持恒温的4路选择阀和6口进样阀；保存于高压铝瓶和钢瓶内的两个标准气、高纯氮气、高纯氢气；合成空气发生器.图1是系统工作流程的示意图.
+
+
+图1　工作流程示意图
+Fig.1 Sketch diagram showing the measurement process
+采样管进气口安装在89m采样塔的80m高处，样气由UN022ANI空气泵送至冷阱池，经-70℃冷凝除去水分，以避免空气样品中水气对CH4/CO2测量的影响.在以45min为周期的运行中，4路选择阀控制标准气1、样气、标准气2、样气按一定的时间间隔顺序流经不锈钢蛇形管进行温度平衡，再通过由6口进样阀控制的定量管系统冲洗、定量后注入色谱柱.经色谱柱分离，CH4首先流出并且无反应地经催化管到达检测器，CO2流经温度为350℃的催化管时则被氢气还原为CH4再进入检测器.在检测器氢火焰作用下，流出的各组分离子化，检测器将测得的离子电流转化为电信号送积分仪记录和处理.系统运行是完全自动化的，将有关控制命令设置在HP-S/ECM的外部事件时间表中，该控制器就按照时间表的顺序和命令控制4路选择阀和6口进样阀的动作.每个运行周期结束时，积分仪会根据设置的积分参数时间表将计算结果和其它系统信息打印输出一份报告，供观测人员及时监控仪器运行状态和了解观测结果.积分仪还把原始数据写入磁盘存储器的软盘上，每天定时由操作人员转移到数据采集微机后做进一步数据处理.
+　　
+3　组装调试
+3.1　响应线性的测试
+　　测定系统对CH4的线性，使用了4个不同已知浓度的标准气(CH4 1.7249ppm，1.9686ppm，3.0472ppm，9.79ppm)，用第一个标准气进样的峰高和峰面积分别计算后3个标准气进样的CH4混合比率浓度，得到测定值与真实值的绝对差约为1ppb；对CO2，也使用4个不同已知浓度的标准气(CO2 344.477ppm,358.722ppm，372.045ppm，383.835ppm)，得其绝对差约为0.2ppm.线性测试的结果见图2.由图可知，用峰高计算的CH4和CO2浓度准确性较好，该GC-FID系统使用单点标准近似法计算样品气的混合比率浓度，对CH4和CO2都是有效的(对CH4仅适用于3ppm的浓度变化范围).
+
+
+图2　CH4/CO2线性测试结果
+Fig.2 Results of CH4/CO2 linearity test
+3.2　操作参数的选定
+　　用2mL样品管，以标准气1(CH41.8922ppm，CO2354.59ppm)进样的峰高和峰面积分别计算标准气2(CH41.9686ppm，CO2359.15ppm)进样的CH4和CO2混合比率浓度(对CO2仅用了峰高)，结果见表1.
+表1　系统对CH4/CO2测定结果
+Table 1 Results of CH4/CO2 measurement
+
+标准气
+(No.)进样次数，
+次用峰高计算用峰面积计算
+CH4平均值,
+ppm精度，
+%准确度，
+%CO2平均值，
+ppm精度，
+%准确度，
+%CH4平均值,
+ppm精度，
+%准确度，
+%
+171.96840.010.01354.680.030.031.96850.070.01
+271.89290.040.04359.340.010.051.89210.060.01
+171.96880.050.01354.390.030.061.96880.060.01
+271.89210.040.01359.340.010.051.89140.080.04
+
+
+　　由上表及线性测试的结果可知，该GC系统对CH4的检测精度小于0.2%，准确度在±0.05%以内，用峰高计算的CH4浓度，其精度和准确度略好于用峰面积计算的CH4浓度；对CO2的检测精度和准确度均在±0.05%以内，用峰高和峰面积计算CO2浓度，两种方法的精度和准确度非常接近.
+　　在上述试验的基础上，选定了系统的操作参数：色谱柱：螺旋状不锈钢柱，100—120目Porapak QS分子筛填充，柱温40℃.载气：高纯氮气(＞99.9998%)，流速50mL/min.检测器：氢火焰离子化检测器(FID)，温度150℃.支持气：高纯氢气(＞99.999%)，流速55mL/min;洁净空气，流速625mL/min.定量管：不锈钢管，体积3mL，温度30℃.催化剂：惠普19205A镍催化剂管，温度350℃.
+
+4　标准气及其标定
+　　现场采样观测中，每个运行周期使用两个不同浓度的标准气，用其平均浓度响应值计算样品气中CH4和CO2的浓度.根据1991年以来的预实验观测结果可知，瓦里关山大气中CH4浓度的变化范围在1.740—1.830ppm之间，而CO2浓度在340—370ppm之间波动.将此结果作为选择两个工作标准气CH4和CO2混合比浓度的目标范围，以确保该GC系统在标准气控制的线性范围之内工作.
+　　系统调试的初期，使用了加拿大Medigas公司配制的编号为AES067、AES034的两瓶标准气，并在加拿大用AES的标准气系列对瓶中CO2和CH4的混合比率浓度做了标定.运行使用一段时间后，为避免标准气中CO2浓度漂移对CO2观测值带来的可能影响，现场操作人员于1995年2月在NDIR分析仪上以C1—C5标准气(瓦里关本底台目前使用的台站标准气，由NOAA/CMDL根据SIO X93 Scale配制和标定)为标准对这两瓶标准气的CO2浓度重新进行了标定，标定浓度与原标定值相差约0.02ppm，结果的相对标准偏差为0.003.1995年12月19日，AES067、AES034两瓶标准气降至更换气压，启用了本底台配制的两瓶标准气WLG-GCW01、WLG-GCW02(用前分别在NDIR分析仪和GC仪上以C1-C5标准气和AES067、AES034标准气为标准进行了标定).表2是所有工作标准气的标准浓度值.
+表2　瓦里关本底台GC系统工作标准气的标准浓度值
+Table 2 CH4／CO2 concentrations of GC working standard gases in CGAWBO
+
+　瓶号
+AES067AES034WLG-GCW01WLG-GCW02
+CO2,ppm339.163369.033358.62361.25
+CH4,ppb1882.21882.81805.61819.9
+
+5　观测结果
+　　该系统运行的自动化程度较高，但在边远地区现场观测条件下，实现连续的观测运行仍有许多实际困难需要克服 .自其1994年8月运行以来，除去由于种种原因(停电，高纯气更换，仪器维护，错误操作等)造成的中断观测和资料丢失外，获得了近70%时间的观测数据.原始数据先经过时间序列检查，再根据每日的值班记录及故障和现场操作记录进行统计分析，剔除不合理数据(对一天中小时平均浓度波动方差大于标准偏差3倍的资料做了删除)，最后形成完成质量分析的小时平均、日平均和月平均数据文件.经统计，该系统1994年获得了110天的数据，1995年为250天.
+　　图3是GC法和FLASK法大气CH4浓度分析结果的对比(FLASK分析结果的原始数据由美国NOAA/CMDL提供，瓦里关本底台采用的AES系列CH4浓度标准与NOAA标准之间的系统偏差已做了修正)；图4是GC法和NDIR法大气CO2浓度观测值的对比.从图3和图4可以看出，GC法观测的大气CH4浓度水平及其变化趋势，与FLASK法分析结果相吻合；GC法观测的大气CO2浓度水平及其变化趋势，与NDIR法结果也吻合较好.对比结果表明，用这3种测量方法在瓦里关本底台获得的CH4和CO2数据都有较高的质量，该GC系统的设计完全符合WMO全球大气本底测量的要求，观测资料具有国际可比性.
+　　
+
+
+图3　GC法和FLASK法大气CH4浓度分析结果的对比
+Fig.3 Atmospheric CH4 measured values
+using GC compared with flask method
+
+
+图4　GC法和NDIR法大气CO2浓度观测值的对比
+Fig.4 Comparison of atmospheric CO2 measured values using GC and NDIR
+表3是由观测值得到的大气CH4和CO2月平均浓度值.由图3和表3可知，瓦里关山大气CH4月平均浓度基本上在1780到1840 ppb的范围内波动，全年的季节变化幅度不大，而由其它全球大气本底观测站的观测结果可知，中高纬度地区大气CH4浓度一般有较明显的季节性变化，秋冬季达到最大，春夏季则降至最小［8—12］.由图4可知，瓦里关山大气CO2浓度的季节变化比较明显，4—5月份下降较快，夏末秋初浓度达最低值，9—12月上升较快，然后缓慢上升，在冬春季达到最高值，浓度变化幅度约10ppm，这在很大程度上源于当地生物活动的周期性季节变化，这一季节变化的波动幅度大致介于美国的Barrow站(北纬71度)及Mauna Loa站(北纬20度)之间，基本符合中纬度地区大气CO2季节变化趋势；由表3的统计分析可以看出，1995年瓦里关山大气CO2浓度的月平均值在355—365ppm范围，从这些数据上看，我国大陆上空大气CO2的本底浓度水平及增加趋势，与北半球大气CO2本底浓度水平及变化状况基本一致［2—10］.
+
+表3　1994—1995年瓦里关本底台GC法测量大气CH4和CO2月平均浓度值
+Table 3 Monthly means of atmospheric CH4/CO2 determined using
+GC system at CGAWBO in 1994 and 1995
+
+时间1994.81994.91994.101994.111994.121995.11995.21995.31995.4
+CH4，ppb1809.331822.941811.641804.941812.70——1802.861808.10*
+CO2，ppm349.34353.93358.02359.32360.40—363.02*362.70364.69*
+时间1995.51995.61995.71995.81995.91995.101995.111995.12　
+CH4，ppb1805.611808.931812.231809.851806.071820.301801.401811.25　
+CO2，ppm363.79359.95355.90353.74355.67359.30360.23361.82　
+
+* 仅有半个月可用资料
+
+
+6　小　结
+　　1.在AES?5个月的组装调试结果表明，GC系统具有良好的线性、灵敏度、精度和准确度.
+　　2.在瓦里关本底台一年多时间的业务运行和标定情况表明，系统具有高自动化的操作性能和严格的质量控制，其设计符合WMO全球大气本底测量的要求.
+　　3.GC法观测数据与FLASK法和NDIR法结果的对比表明，用这3种方法在瓦里关本底台获得的CH4和CO2数据都有较高的质量，且具有国际可比性.
+　　4.瓦里关山大气CH4月平均浓度基本上在1780—1840ppb的范围内波动，随季节变化幅度不大.
+　　5.瓦里关山大气CO2浓度的月平均值在355—365ppm范围内，其季节变化比较明显，夏末秋初降至最低，冬春季达最高值，浓度变化范围约10ppm.
+　　
+　　感谢：中国气象科学研究院的齐艳军和王淑凤两同志协助制作了本文中的部分图表.
+参考文献
+　1　Ramanathan V, Cicerone R J et al. Trace gas trends and their potential role in climate change. J Geophys Res, 1985, 90:5547—5566
+　2　Keeling C D, Bacastow R B et al. Atmospheric carbon dioxide variations at Mauna Loa observatory, Hawaii. Tellus, 1976,28:538—551
+　3 Wen Yupu et al. Observation and investigation of variabilities of baseline CO2 concentration over Waliguan Mountain in Qinghai Province of China. Acta Meteorologica Sinica, 1995, 8(3):255—262
+　4 WMO/Geneva. International Operations Handbook for Measurement of Background Atmospheric Pollution. WMO—No. 49,1978,:2
+　5 WMO/Geneva.Greenhouse gases. Global Atmosphere Watch, 1990, (77):15—35
+　6 WMO/Geneva. Greenhouse gases. Global Atmosphere Watch, 1993,(86):1—19
+　7 Pearman G, Further I. Studies of the comparability of baseline atmospheric CO2 measurements. Tellus. 1977,29:171—181
+　8 NOAA/USA. Climate Monitoring and Diagnostic Laboratory, Summary Report, 1992,(21):16—29
+　9 NOAA/USA. Climate Monitoring and Diagnostic Laboratory, Summary Report,1993,(22):18—30
+10 Australia Bureau of Meteorology /Melbourne, Baseline Atmospheric Program, 1996, (1993):71—89
+11 Steele et al. The global distrabutin of methane in the troposphere. J Atmos Chem, 1987,5:125—171
+12 王明星,刘卫卫等.我国西北部沙漠地区大气甲烷浓度的季节变化和长期变化趋势.科学通报，1989(9):684—686

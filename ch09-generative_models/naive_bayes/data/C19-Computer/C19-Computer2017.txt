@@ -1,0 +1,39 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第4期 Vol.18 No.4 1999
+
+
+
+虚拟设备驱动程序VxD的开发
+何海波　成建波　张　浩
+　　摘　要：虚拟设备驱动程序的基本概念和几种常用的开发工具， 并对它们的使用进行了简略的评述。
+　　关键词：Windows 95/NT　虚拟设备驱动程序(VxD)　DDK开发包　 VToolsD工具箱　WinDriver工具包
+1　虚拟设备驱动程序
+　　设备驱动程序是管理系统软硬资源的二进制可执行代码。它是1个32位保护模式下的可执行 DLL，在16位的Windows 3.x中，VxDs一般具有后缀名.386，并且在SYSTEM.INT文件的［386E n h］节中静态地加载。在Windows 95中，由于即插即用的引入，VxD的功能也被增强了。现在 VxD可以动态地加载或卸载，以节省系统资源。在很大程度上VxD起到了原来BIOS的作用。 
+　　VxD中的“x”代表“某些”，VxD是虚拟设备驱动程序的统称， VxD对硬件设备进行虚拟化，软件可通过VxD的服务来使 用相应的设备。
+　　所有的VxD的运行都处于Windows 95虚拟机管理器(Virtual Machine Management,VMM)的监 控下。VMM包含了所有基本的系统功能，如任务调度、虚拟内存操作、程序装入及终止、任 务间通信，此外，还负责处理主要的中断处理及例外情况。正是VMM和VxD构成了Windows 95 的系统核心。
+2　开发工具介绍
+　　1.DDK(Device Driver Kit)
+　　DDK是Microsoft公司出品的设备驱动程序开发包，有Windows 95/NT 2个版本。用它开发VxD ，需要对Windows 95/NT的系统结构、VxD的构成、VMM的功能有较深入的认识，并且还要有 一定的汇编语言编程经验。
+　　2.VToolsD工具箱
+　　(1)组成。VToolsD是美国Vireo Software公司开发的用于编写设备驱动程序的工具包。它包 括1个可视化VxD代码生成器QuickVxD、可加载和卸载VxD的工具VxDLoad、可给出系统加载 VxD时的系统信息的VxDView，以及ANSIC运行库、VMM/VxD服务库、VxD的C++类库。此外，VT oolsD还为刚接触它的新手提供了大量的C或C++例程。
+　　在编写过程中，绝大多数的VMM和VxD的服务都可以通过类库中的成员函数来实现。由于VToo lsD在这些类中封装了一些任务，节省了大量的编程时间，同时也减少了错误的发生。即使 是运用它的C运行库，也可以使编程效率大大提高。
+　　(2)应用。首先运行QuickVxd程序。
+　　对于开发人员来说，QuickVxD是1种可以自动生成VxD基本框架的表格式工具。它使你能够快 速开始编写1个新的VxD，而无需了解太多VxD的低层细节。只要正确定义好设备名、控制消 息以及其他一些文件名和类名后，QuickVxD便可以生成1个MAKE文件、1个头文件和1个包 含VxD框架的C或C++的程序文件。一般设备ID和设备初始序号分别使用缺省值。
+　　完成了VxD框架构成后，则需要在其中加入自己的代码，以最终实现所需的功能。在这里 要特别注意以下几条Windows 95控制消息：SYSDYNAMICDEVICEINIT和SYSDYNAMICDEVIC EEXIT，它们分别是VxD程序动态加载和卸载时的控制消息；W32DEVICEI OCONTROL则是当应 用程序调用CreateFile或DeviceIoControl函数时，系统对特定的VxD发出的消息，它为32 位应用程序提供了1个利用VxD服务的途径。
+　　此外，VToolD类库中有3个基本的类非常主要：VDevice、VVirtualMachine、VThread。其 中VDevice的成员函数用于响应VMM或由其他VxD传来的消息，所有使用VToolD类库的VxD程序 都必须从VDevice类中派生。VVirtualMachine和VThread则提供基于虚拟机和线程的控制消 息函数。如果要想利用其他一些VMM/VxD的服务，例如中断、DMA、热键、I/O端口、内存分 配、定时、事件处理等等，VToolD类库中还实现了50多个类以实现这些服务。
+　　值得一提的是，VToolsD提供了1个.inf文件编写工具INF Editor，使用它可以轻松地编写. inf文件。
+　　(3)编译与调试。使用Visual C++的NMAKE或BorlandVc的MAKE都可以用来编译。在调试过程 中，Numega Technologies公司的Soft/ICE for Windows 95以其方便的中断功能正被广泛地 使用。当然，VToolsD工具箱中的Microsoft WDEB也是个不错的调试工具。
+　　3．WinDriver工具包
+　　(1)组成。WinDriver是美国KRFTech公司出品的用于编写驱动程序的另一种工具包。它包括1个类似于Q uickVxD的代码生成器WinDriver Wizard、1个WinDriver发行包、2个公用程序pci scan.exe 、pcidump.exe和一些例程，其中pciscan.exe可以给出安装的PCI卡 及系统为它们分配资源的列表，pcidump.exe则负责得到已安装PCI卡的系统配 置信息。
+　　与VToolsD一样，WinDriver工具包的优点在于可以使编程人员用C或C++语言来编写设备驱动 程序，而不是将大量精力放在编写那些复杂的、难于调试的内核模式代码。
+　　(2)应用。首先从运行WinDriver Wizard开始。
+　　WinDriver Wizard可以让你立即接触到硬件而不用做任何事情。这种便利来自它的自动检测 功能，它会自动地读写卡上的内存、IO地址乃至为你帧听中断。在此之后，通过选择产生 代码选项，WinDriver Wizard会为你的卡产生基本的程序代码。而我们实际上要做的仅仅是 选择了1个选项而已，其余都是由WinDriver Wizard自动产生的。
+　　WinDriver提供了许多例程，使用者可以利用它们来
+产生自己驱动程序的基本框架。与此同 时，在WinDriver提供的在线帮助里，可以查到许多WinDriver提供的功能函数，这些函数能 方便地实现中断处理、DMA传输、I/O操作、内存映射以及即插即用等功能。
+　　这里要特别注意以下几个函数：WDOpen()、WDClose()、WDCa rdRegister()、WDCardUnR egister()。其中前二者是程序在开始和结束时所必须调用的2个函数，后二者则负责对卡登 记 的建立和删除以及资源分配和释放。这里的资源主要指的是中断处理、I/O操作和内存分配 。
+　　编译和调试与VToolsD基本相同
+3　结　论
+　　以上介绍的3种工具各有优点。DDK功能强大，编程灵活，适用范围广，可应用于各类硬件驱 动程序的编写，但编程难度较大，对编程人员的要求也较高。VToolsD主要工作环境是在Win dows 95下，它具有较强的开发能力和较高的开发效率，是个非常优秀的工具。Win Driver的适用面要较前面2种工具窄，它主要针对ISA/PCI插卡，而对其他类硬件的技术支持 较少，但它编写的程序可同时工作在Windows95/NT 2种操作系统中。用户在选用工 具时，应根据自己的需要正确进行选择。
+作者单位：西安交通大学9691#(710049)
+收稿日期：1998-10-24

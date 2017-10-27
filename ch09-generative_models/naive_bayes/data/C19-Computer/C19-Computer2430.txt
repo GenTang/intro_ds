@@ -1,0 +1,123 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH
+AND DEVELOPMENT
+1999年 第36卷 第12期 Vol.36 No.12 1999
+
+
+
+采用面向Agent技术的并行布线系统
+庄昌文　范明钰　李春辉　虞厥邦
+摘　要　详细布线是VLSI电路物理设计的最后一个步骤，按布线类型主要分为开关盒布线和通道布线，都是NP完全问题.我们使用Java语言，采用面向Agent的技术开发了一个能够充分利用网络计算资源的并行开关盒布线系统PSR.实验结果表明，该系统能以比其它算法更低的时间复杂度取得较好的布线结果，并且具有很高的可伸缩性.
+关键词　Agent,开关盒布线，并行系统，蚁群系统，Java
+中图法分类号　TN41.4；TN-052
+AN PARALLEL ROUTING SYSTEM BASED
+ON AGENT ORIENTED TECHNIQUE
+ZHUANG Chang-Wen, FAN Ming-Yu, LI Chun-Hui, and YU Jue-Bang
+(Department of Opto-Electronic Technology, University of Electronic Science and Technology of China, Chengdu 610054)
+Abstract　Detailed routing is the last step of VLSI circuit's physical design. Routing can be classified into switchbox routing and channel routing, both of which are NP-complete. By using agent-oriented technique, a parallel switchbox router (PSR) is developed based on computer network using Java. This system can make full use of available computing resources in a local network. The experiment results show that this router has low complexity and high scalability.
+Key words　agent, switchbox routing, parallel system, ant colony system, Java
+1　引　　言
+　　近年来，面向Agent技术发展非常迅速，并且已经在许多领域中得到应用［1～3］.目前Agent尚无统一的定义，在不同的应用领域有着不同的含义.文中采用Y.Shoham对Agent的定义，即一个软件实体若具有诸如信念(belief)、能力(capability)、决定(decision)、和承诺(commitment or obligation)等精神状态时，该软件实体便是Agent［4］.
+　　详细布线是VLSI电路物理设计的最后一个步骤，按布线类型主要分为开关盒布线和通道布线［5,6］.随着VLSI电路向深亚微米工艺发展，对布线算法提出了新的性能（时延、功耗、串扰、面积…）驱动要求，布线的难度也就日益增大.因而新的布线系统需要更多的资源和更先进的实现技术，因此并行技术和计算智能方法的应用也就日显其重要性.
+　　众所周知，计算机网络尤其是Internet的发展，不仅为我们提供了浩瀚的信息资源，也为我们提供了强大的计算资源，利用计算机网络，我们可以实现更高速的并行计算系统［7,8］.
+　　文中提出的并行布线系统是通过计算机网络，采用面向Agent技术建立起来的.此系统首先将蚁群算法［9～11］增强，之后将其应用于求解开关盒布线问题.该系统中的Agent分为3类，分别为线网Agent、开关盒Agent和迭代分析Agent.所有Agent通过网络或共享内存互相通信，协同工作、学习，最终形成了强大的群体行为，能有效地解决复杂的开关盒布线问题，并且由于利用了网络计算资源和Client/Server模式，此并行布线系统PSR具有更强的计算能力和很高的可伸缩性.
+2　开关盒布线问题
+　　开关盒SB是一个M×Q的纵横网格.设SB含N个线网，给它们依次标记为1,2，…，k，…，N-1,N.每个线网包括多个引脚，各线网的引脚按设计要求分布在此网格的上、下、左、右方.开关盒双层布线的要求是:顺着SB的M×Q网格中走线，以形成对应于各线网且互不连通的N个树形，树形Tk须以k线网的各个引脚为其顶点集Vk.各树形的树支可分布在SB的上、下两层，其间可借过孔(vias)连通，在保证所有线网布通的前提下，线网总长度和过孔数应尽量小.图1是一个开关盒及其布线结果，开关盒中共有6个线网，四边上的黑方块表示一个引脚，线网1有2个引脚，线网2有3个引脚.由于开关盒布线是NP完全问题，随着问题规模的变大，求解时间将按指数增长，因此本文将利用计算智能方法和Agent技术来克服这个困难.
+
+图1　开关盒SB及其布线结果
+
+3　体系结构
+　　并行布线系统是由一组协同工作、学习的Agent构成，这些Agent分为3类，分别为线网Agent、开关盒Agent和迭代分析Agent.如图2所示，这3类Agent分别工作在不同的层次上，通常并行布线系统中只有一个迭代分析Agent，独立运行在一台计算机上；开关盒Agent可以有n个（n是网络中参与布线的计算机台数），分别并行地运行在n台计算机中；每台运行着开关盒Agent的计算机上都有N个线网Agent（N是特定开关盒中线网的个数），它们并发地运行.下面分别叙述3类Agent的功能.
+
+图2　Agent的分类及层次
+　　(1)线网Agent
+　　在布线系统中每台计算机上都有N个线网Agent并发地运行，每个线网Agent负责布通开关盒中的一个线网，当N个线网Agent都布通自己的线网时，开关盒布线就成功了.线网Agent采用了仿生的增强蚁群算法IACS(intensified ant colony system)，该算法是在M.Dorigo提出的蚁群系统［9,10］的基础上，经过增强而得到的［11］.一个线网Agent可以看作为一个智能蚁群，蚁群根据目前布线区域的状态和线网中各引脚的拓扑结构来决定自己的前进方向，并且在适当的时候派遣一个蚂蚁迅速前进到某个引脚，最后该线网中所有引脚上都有一个蚂蚁，各引脚就互连起来了.线网Agent的行为会直接影响开关盒布线质量，事实上，线网Agent的启发策略是整个布线系统的核心，对此我们将在第3节中作进一步阐明.每个线网Agent布通自己线网或有引脚无法连结时，停止布线，然后向自己所在机器上的开关盒Agent报告布线结果.由于开关盒的布线区域是临界资源，线网Agent必须同步.
+　　(2)开关盒Agent
+　　在计算机启动之初，开关盒Agent将向迭代分析Agent发出注册请求，申明自己有空闲计算能力，希望参与并行布线系统进行开关盒布线.迭代分析Agent收到请求作简单判断之后，同意开关盒Agent的请求，并将特定开关盒的数据信息通过网络发送给相应的开关盒Agent.这是典型的Client/Server模式，这种模式使系统具有高可伸缩性.
+　　开关盒中各线网的布线是由各线网Agent来具体完成的，开关盒Agent负责生成各线网Agent，并且将按照迭代分析Agent的指示在布线区域中作适当的初始化工作，甚至还将在各线网Agent间形成短暂的优先级差异.收到所有线网Agent的布线结果之后，将这些数据上传到迭代分析Agent，之后等待迭代分析Agent的分析结果及指示，以进行下一次迭代或停止布线工作.
+　　(3)迭代分析Agent
+　　迭代分析Agent位于所有Agent的最上层，接收来自各开关盒Agent的注册请求，并将有关数据通过网络传送给开关盒Agent.它的主要任务是接收来自各开关盒Agent的布线结果，然后进行统计、分析以便在下次迭代中取得更好的结果.如哪些线网很难布通或根本没有布通过，关键线网的线长等是否满足性能驱动的要求.迭代分析Agent经过分析之后，决定继续进行迭代或停止迭代，并将分析结论传送给各计算机上的开关盒Agent，指示它们继续或停止布线.迭代停止以后，迭代分析Agent将最后的布线结果发送到指定的计算机中.
+4　线网Agent的启发策略
+　　如上节所述，线网Agent是并行布线系统的核心，正是通过多个线网Agent的协同工作，形成强大的群体行为，才解决了开关盒布线问题.在3类Agent中，线网Agent的智能最高，它将在满足各种约束条件的前提下，将开关盒中属于同一线网的各引脚互连起来.为了实现线网Agent，我们引入了M.Dorigo提出的蚁群系统.
+　　M.Dorigo于1992年提出了一种仿生算法体系——蚂蚁系统(AS，即Ant System)［9］，最近他和L.M.Gambardella又将其发展成为蚁群系统（ant colony system，ACS），并将之应用于求解TSP问题，获得了较遗传算法(GA)、模拟退火算法(SA)和演化规划算法(EP)更优的结果［10］.
+　　蚁群系统与面向Agent技术有着相似的机制，那就是由简单的个体行为产生复杂的群体行为.我们在文献［11］中首先采用增强的蚁群系统IACS进行详细布线，在本文中我们将IACS的基本思想赋予线网Agent，各个线网Agent根据启发策略，象蚁群一样在开关盒网格上爬行，所经之处便布上一条金属线，历经一个线网的所有引脚之后，线网便布通了.线网Agent的行进过程如下：
+　　步骤1.目标和路况检测.在布线过程中，各线网Agent到达一个新的位置后，首先搜集目标和路径情况的信息，以作选择行进策略的依据.这些检测信息包括:
+　　①正前方和左、右两侧有无本线网的引脚;
+　　②左前方和右前方有无属于本线网的引脚，如有，有多少个;
+　　③在线网Agent当前位置与本线网的某个引脚相当靠近时，就要作该目标的可到达性检测，即路况检测.
+　　如图3所示，若线网Agent从北边南下，到达位置A，距其右前方的p已相当靠近，为到达此目标，线网Agent须派遣蚂蚁先爬行到O点；因此，此线网Agent就须依次检测ABO，ACO，AA1B1O，AA2B2O，…等路径是否通畅，是否有其它蚁群布线阻断了这些通路.
+
+图3　底边上引脚的可到达性检测
+　　步骤2.直达处理.通过检测①，发现正前方/左侧/右侧有属于本线网的引脚或者是通过可到达性检测③，发现本线网Agent为到达邻近的某个本线网引脚，只剩下了一条通路，遇到这些情况，线网Agent就不作等待地在当前网格点到引脚之间布上金属线，以连通该引脚.
+　　步骤3.决定停等或继续前进.线网Agent行进时（除了作直达处理），一次走一步，亦即在网格中挪动一格，到了新位置，就要重新搜集信息①、②、③.此外，考虑到只有各个线网Agent都布通了各自线网，开关盒的布线任务才算完成，因此，每个线网Agent在行进时，不能单只自顾自地去完成本群落的布线任务，也还要照顾到其它线网Agent去完成它们各自的任务，也就是用协同工作的方式来共同完成任务.出于这种考虑，我们设计了如下的基于协同工作原则的停等机制：某线网Agent到了一个新位置后，将检测其正前方是否有属于其它线网的且还未连结的引脚E，若没有则线网Agent将在下一步骤中算出引力后继续前进；若有则该线网Agent通常应按概率决定是否停下来等待一个时间τw，以给其它线网Agent布通E的机会，而不致阻塞引脚E的出路.为此，算法引进了一个表征概率大小的停等因子W0，W0可取0.9,那就是说，停等的概率为90％，继续前进的概率为10％.采用停等机制后，可有效地避免不同线网Agent争用布线区域而引起的冲突.
+　　步骤4.计算引力.每个线网Agent都须定量计算出各目标(引脚)对本身吸引力的大小.目前我们的算法须分别计算线网Agent左侧、右侧、左前方和右前方这4个方向上的引力，且定义引力函数以计算单个引脚p产生的引力，引力函数为
+
+(1)
+其中，G》1是一正的常数，|cp.x-p.x|=1or|cp.y-p.y|=1表明线网Agent与引脚p的横坐标或纵坐标相差为1，线网Agent有可能在同一层上拐弯而不会违犯布线规则.
+　　步骤5.选择行进方向.线网Agent只能向前、向左、向右或向下(穿越过孔)行进，不能后退.根据由公式（1）计算再求和得到的上述4个方向上引力的大小，线网Agent作综合考虑后，将在引力的牵引下朝可继续前进的方向行进.如图3所示，若线网Agent从北边南下，到达位置A，在其右侧和右前方各有一个引脚，分别为t和p(见图3).经计算引力之后，这两个方向上的引力为1，其余为0.显然，线网Agent网左拐弯（向东）将增加线网线长，向南或向西前进都不会增加线长，但由于线网Agent由北南下，向西走将增加过孔数目.所以，在这时，线网Agent查看能否经过A1，若能，则将选择南方为前进方向；若不能经过A1，线网Agent再查看能否朝西前进，等等.
+　　若该线网所有引脚已连结，线网Agent停止布线，向开关盒Agent报告布线结果，否则转到步骤1.
+　　从线网Agent的行进过程中可以看出，各线网Agent根据启发规则，已具有相当的智能，完全能够独立管理自己的数据和决定自己的行为，最终完成自己的预定任务.加之各个线网Agent之间协同工作，线网Agent若有两条以上的路径到达某引脚，它决不马上连通该引脚，这样含蓄地为其它线网Agent留下更多的可选路径，再加上停等机制，更是加强各线网Agent合作，产生了复杂的群体行为.
+5　实验结果及分析
+　　我们根据上述启发策略并采用面向Agent技术编程，实现了并行布线系统PSR，编程语言为Java，操作系统为Windows95，各Agent都是基于Java的多线程机制实现的.由于Java语言的平台无关性，使并行布线系统可以在异构环境中运行，不同机器上的Agent之间采用了面向连结的套接口进行通信，因此系统能平滑地移植到基于TCP/IP协议的Internet上，以充分利用网上的空闲计算资源.当然，由于各Agent基于线程实现，整个系统也能在一台计算机中运行，只是这时失去了物理上并行的特性.
+　　理论上，给定一个开关盒布线问题，问题的计算量是固定不变的，主要由算法的迭代次数决定，而迭代次数由3类Agents的智能和开关盒问题本身的性质确定.假设W是问题的总计算量，Ws是算法中串行计算分量，Wp是并行计算分量，显然，在我们的算法中假设系统中有n台计算机参与一个特定的开关盒布线，计算负载分布到了n台计算机上，加速比S为
+
+（2）
+将式（2）归一化，有
+
+（3）
+其中，f=Ws/(Ws+Wp).
+　　理论上，当n很大时，加速比可以达到S=1/f.
+　　另外，对于给定的开关盒，在网络中传输的信息主要为布线结果，其传输量可由总线长确定.假设总线长L为600，经过处理后，传输此路长数据径最多需要2L字节（1200字节，大约1K字节），在我们的仿真实验中，是由10台微机组成的以太网，网上总的传输量为2L×10字节，即10K字节，这样的数据量在局域网上是不会造成网络拥塞的；此外，由于我们的算法中串行分量小，故由式（3）可知PSR布线系统能够产生很高的加速比.
+　　在仿真实验中，我们利用PSR对文献中一些典型的开关盒进行了布线.实验结果表明，利用该系统可获得比WEAVER，MIGHTY，BEAVER，GAP基准例低的计算复杂度，并且系统具有高可伸缩性.图1和图4是并行布线系统生成的布线结果，表1和表2是我们的并行布线系统PSR同其它基准程序(benchmark)［6］的比较结果.
+　
+
+图4　Burstein难联盒布线结果
+表1　各种布线算法对高密度开关盒的比较
+
+布线算法过孔线长时间(秒)
+GSR36529?
+MIGHTY32530?
+BEAVER275291
+GAP295292281
+PSR315292
+
+
+表2　各种布线算法对Burstein难开关盒样本的比较
+
+布线算法过孔线长时间(秒)
+WEAVER415311508
+BEAVER445471
+GAP365381831
+PSR425384
+　
+
+　　为了显示系统的高可伸缩性，我们针对Burstein难联盒，在从1台到10台计算机上运行了并行布线系统，如图5所示.以单机运行时间为基准，系统相对速度（Y轴）随计算机台数（X轴）增长而提高.当然，由于通信开销、网络带宽的影响，对不同的开关盒实例，系统获得的加速比会有所变化，但系统的灵活性是显然的. 
+
+图5　布线系统相对速度的增长
+6　结论及将来的工作
+　　我们采用面向Agent技术、使用Java语言在一个局域网上实现了并行布线系统，并将蚁群系统的基本思想赋予了线网Agent.实验结果显示了系统的优越性，证明了面向Agent技术的可行性.下一步我们将在多层布线中尝试采用Agent技术，并将继续研究Agent的构造和实现方法.
+本课题得到中国博士后基金项目资助.
+作者简介：庄昌文，男，1969年8月生，博士研究生，主要研究方向为计算智能、VLSI物理设计
+　　　　　和计算机网络.
+　　　　　范明钰，女，1962年6月生，博士后，主要研究方向为计算智能应用、VLSI物理设　　　　　　计、通信系统理论等.
+　　　　　李春辉，女，1971年3月生，博士研究生，主要研究方向为计算智能、VLSI物理设　　　　　　计、计算机网络等.
+　　　　　虞厥邦，男，1932年12月生，教授，主要从事非线性动力系统、神经网络及计算智　　　　　　能、集成电路CAD方面的研究.
+作者单位：电子科技大学光电子技术系　成都　610054
+参考文献
+　1　姚郑,高文.多功能感知系统中的面向Agent技术.软件学报,1996,7(3):163～167
+　　(Yao Zheng, Gao Wen, Agent oriented technology in multiple functional perceptive system, Journal of Software(in Chinese), 1996, 7(3): 163～167)
+　2　Sandip Sen. Developing an automated distributed meeting scheduler. IEEE Expert Intelligent Systems & Their Applications, 1997, 12(4): 41～45
+　3　Kraus S, Sycara K, Evenchik A. Reaching agreement through argumentation: A logical model and implementation. Artificial Intelligence, 1998, 104(1,2): 1～69
+　4　Shoham Y. Agent-oriented programming. Artificial Intelligence(in Chinese), 1993, 60(1): 51～92
+　5　洪先龙，严晓浪, 乔长阁. 超大规模集成电路布图理论和算法. 北京: 科学出版社，1998
+　　(Hong Xianlong, Yan Xiaolang, Qiao Changge. The Theory and Algorithm in VLSI Layout. Beijing: Science Press, 1998)
+　6　Lienig J. A parallel genetic algorithm for performance driven VLSI routing, IEEE Trans Evol Comput, 1997, 1(1): 29～39
+　7　江海云，庄昌文. Internet四川节点的网络环境. 情报学报. 1996, 15(2): 132～140
+　　(Jiang Haiyun, Zhuang Changwen. Network environment of Internet node in Sichuan province. Journal of the China Society for Sciencific and Technical Information(in Chinese), 1996, 15(2): 132～140)
+　8　庄昌文，林晓东. 实现并行计算的群集系统. 计算机应用, 1998, 18(6): 11～13
+　　(Zhuang Changwen, Lin Xiaodong. Realizing parallel computing in cluster system. Computer Applications, 1998, 18(6): 11～13)
+　9　Dorigo M. Optimization, learning and natural algorithms［Ph D dissertation］. DEI, Politecnico di Milano, Italy, 1992
+　10　Dorigo M, Gambardella L M. Ant colony system: A cooperative learning approach to the traveling salesman problem. IEEE Trans Evol Comput, 1997, 1(1): 53～66
+　11　庄昌文，范明钰，李春辉，虞厥邦. 基于协同工作方式的一种蚁群布线系统. 半导体学报. 1999, 20(5): 400～406
+　　(Zhuang Changwen, Fan Mingyu, Li Chunhui, Yu Juebang. Ant colony switchbox router based on coordination mechanism. Journal of Semiconductor(in Chinese), 1999, 20(5): 400～406)
+原稿收到日期：1999-04-26；修改稿收到日期：1999-08-31.

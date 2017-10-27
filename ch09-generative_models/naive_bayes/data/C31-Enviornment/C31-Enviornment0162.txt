@@ -1,0 +1,223 @@
+土壤与环境
+SOIL AND ENVIRONMENTAL SCIENCES
+1999年 第8卷 第3期 Vol.8 No.3 1999
+
+
+
+分子生物学技术在菌根研究中的应用及其进展
+陈应龙　弓明钦　Bernie Dell
+　　摘要：近几年来，菌根分子生物学得到了较快发展；尤其是一些用于菌根真菌ITS区域的特异
+引物先后设计并合成成功，进一步推动了菌根学在分子水平上的研究。分子生物学技术在菌根真
+菌分类鉴定及亲缘关系研究上应用较多。在菌根菌竞争性和持续性研究上，DNA分析技术已成为最
+重要的研究手段之一。在这些研究中，专为菌根真菌ITS区域分析而设计的ITS1-F和ITS4-B两种特
+异引物应用最为普遍。本文对菌根DNA分析技术、PCR－RFLP技术做了简单介绍；综述了PCR、
+ITS－RFLP等分析技术在菌根菌分类、亲缘关系及菌种持续性等方面的研究和应用情况。
+　　关键词：菌根研究；分子生物学；ITS－RFLP；PCR；菌种持续性
+　　中图分类号：S154.3 文献标识码：A
+Use of Molecular Biological Techniques to Study Mycorrhiza:
+Advance and Perspectives
+CHEN Ying-long1，GONG Ming-qin1，Bernie Dell2
+（1: Research Institute of Tropical Forestry, CAF, Guangzhou 510520, China;
+2: School of Biological Sciences, Murdoch University, Australia）
+Abstract: Since the introduction of the polymerase chain reaction (PCR) in 1986, an ever increasing number of 
+scientific applications have been reported, including the direct cloning, mutagenesis, sequencing and exact 
+engineering of specific genes or gene sequences directly from genomic DNA or complementary DNA (cDNA). 
+The success of PCR in generating and detecting specific DNA fragments has accelerated the use of molecular 
+biology in many biological systems. Some taxon-selective primers, such as ITS1-F and ITS4-B, which were 
+intended to be specific to fungi and basidiomycetes respectively, have been designed and tested to characterize 
+fungal symbionts by amplification of specific sequences in the ITS (internal transcribed spacer) region in the nuclear 
+ribosomal repeat unit. This review, is to offer examples of how PCR, ITS-RFLP techniques have been adopted 
+and enhanced to study mycorrhizal associations, especially to study the survival and persistence of introduced 
+mycorrhizal fungi in plantations. An attempt has been made to introduce some aspects of PCR based methods and 
+to demonstrate the value of using its molecular potential in mycorrhizal research, where earlier methods of 
+molecular biology have been difficult or impossible to use. These methods can be used to provide evidences of the 
+persistence of introduced beneficial mycorrhizal fungi for forest plantations. 
+Key words: mycorrhizal research; molecular biology; ITS-RFLP; PCR; fungal persistence
+　　菌根是土壤真菌与植物根系形成的共生体，是自然界中普遍存在的一种现象。菌根对植物的
+生长、营养吸收及森林生态系统有着重要作用[1]；菌根功能不断得到人们的认识。随着菌根研究
+技术的发展，尤其是以DNA分析技术为基础的分子生物学技术的引入，菌根研究得到了空前的发
+展。目前，PCR、RFLP、RAPD等技术已应用于菌根真菌的分子遗传、分类鉴定、种间及种内亲缘关
+系、菌株持久性等方面；与传统菌根研究方法相比，这些新技术表现出巨大的优越性。
+1　PCR、RFLP技术概述
+　　PCR技术，即聚合酶链式反应（polymerase chain reaction），是80年代后期发展起来的一
+种快速体外基因扩增技术，在很短时间内迅速进入了生命科学、医学、遗传工程、疾病诊断、法
+医学、考古等各个领域。PCR技术的原理是用于扩增位于两段已知序列之间的DNA片段，在DNA聚合
+酶催化作用及引物存在的条件下，连续进行高温变性、低温退火、中温DNA合成这一循环。一般
+PCR扩增产物经过30～50个循环，可将长度2kb（2000个碱基对）的DNA片段从原来的1pg扩增到0.5
+～1μg，可以满足大多数分子克隆实验操作的要求。用于PCR扩增的引物，一般为15～30个核甘
+酸，主要是通过人工合成获得。RFLP技术（restriction fragment length polymorphism，限制
+性片段长度多态性）是了解基因细微结构及其变化的一种分析方法；其原理是利用放射性同位素
+或非放射性物质标记的探针与转移在故相膜上的基因组DNA进行杂交，通过显示限制性消化片段的
+大小来监测不同遗传位点等位变异（差异）的技术。继RFLP后，美国杜邦公司的科学家J.G.K. 
+Wiiams等发展了另一项分子分析技术，简称为RAPD（Randomly Amplified Polymorphic DNA），
+即随机扩增多态DNA。RAPD是利用PCR技术从扩增的DNA片段上来分析多态性。RAPD 以PCR为基础，
+核心是DNA片段扩增；与常规PCR不同之处在于引物，即RAPD只需要一个引物，长度为10个核甘酸
+左右，引物顺序是随机的，因而可在对被检对象无任何分子生物学资料的情况下进行基因组分
+析。
+表1　用于扩增真菌ITS区域的几种常用引物
+引物序 列（5’～3’）位置参考文献
+ITS1TCCGTAGGTGAACCTGCGC18S[3]
+ITS1-FCTTGGTCATTTTAGAGGAAGTAA18S[3]
+ITS1-R(TA)TGGT(CT)(AGT)(TC)(TC)TAGAGGAAGTAA18S[5]
+ITS5GGAAGGTAAAAGTCAAGG18S[2]
+ITS4TCCTCCGCTTATTGATATGC28S[2]
+ITS4-BCAGGAGACTTGTACACGGTCCAG28S[3]
+ITS4-RCAGACTT(GA)TA(CT)ATGGTCCAG28S[5]
+
+2　ITS及其引物
+　　ITS（internal transcribed spacer）区域位于rDNA/rRNA片段上，包含两个不同的非编码区
+域，即ITS1和ITS4。真菌ITS区域长度一般在650～750bp（碱基对）。rDNA多复制的特性，有利于
+低浓度或被高度降解的DNA样品中ITS区域的扩增。White等为真菌rRNA基因的ITS设计了3种特异引
+物，即ITS1、ITS4和ITS5，用于大多数担子菌和子囊菌[2]；不过这些引物也能扩增一些植物ITS区
+域[3]。在菌根研究中，由于所用的试验材料常常含有宿主植物的基因，因此，设计和选用特异性
+高的引物显得非常重要。ITS1-F和ITS4-B是Gardes等为真菌和担子菌分别设计的特异引物[3]（表
+1），能显著提高特异性，在菌根研究中得到了广泛的应用。Marmeisse等还为外生菌根菌粘花菇
+属（Hebeloma）的真菌及菌株鉴定设计并合成了特异引物[4]。
+3　菌根DNA分析技术及其研究进展
+3.1 菌根DNA分析技术
+　　菌根真菌DNA的提取是菌根DNA分析的第一步。真菌DNA简易提取方法[6～7]：采用纯培养菌丝
+体或子实体为起始材料，用液氮研磨，加入3ml提取缓冲液，溶解后转入微离心管中，在60℃条件
+下培养10min；加入乙酸钠溶液，在20℃下存放20min；在微离心机上离心10min后，转移上层浮游
+物到另一微离心中，用等体积的酚/氯仿/异戊醇进行提纯，转移上相；再用氯仿/异戊醇进行第二
+次纯化，加入异丙醇静置10min后再进行离心；小心倒去上清液，再用70％冰镇乙酸清洗沉降物；
+吹风干燥沉降物后，用TE缓冲液溶解核酸，在-20℃下保存备用，或直接进行PCR，以检测DNA浓
+度。
+　　在菌根DNA分析技术的发展上，英国分子生物学家Justin P. Clapp编辑出版了《物种分析手
+册——PCR及其它核酸技术》一书，阐述了以PCR技术为核心的DNA分析技术，介绍了用于外生菌根
+真菌ITS的RFLP分析技术，以及内生菌根菌特异PCR引物。外生菌根DNA提取分析技术、RFLP技术及
+探针杂交技术，国际上已进行了较多研究，尤其是对DNA分析方法作了改进。
+3.2 菌根真菌分类鉴定及亲缘关系研究
+　　在外生菌根菌DNA研究中，人们对蜡蘑菌（Laccaria spp）研究较多。Henrion等对14属41种
+外生菌根菌的rRNA进行了分析，并聚类分析了菌株间的亲缘关系[8]；Raffle等（1995）比较了双
+色腊蘑菌[Laccaria bicolor（Maire）P.D.Orton]在3个不同宿主树种上形成菌根后的DNA多态
+性；采用ITS1-F和ITS4-B引物扩增了8种双色腊蘑菌株的ITS区域，研究了菌种在连续18a的继代培
+养条件下遗传特性的稳定性[9]。Jacobson等（1993）采用DNA随机引物对点柄牛肝菌（Suillus 
+granulatus）进行了基因鉴定。Erland等（1994）报道了PCR－RFLP技术在外生菌根菌Tylospora 
+fibrillosa rDNA的ITS和IGS区域特异性的研究结果。Gryta等（1996）对与海滨松树共生的粘花
+菇（Hebeloma cylindrosporum）的分子特征作了分析。Mello等（1997）采用PCR扩增技术对块菌
+（Tuber spp）进行了快速鉴定。Paolocci等（1995）和Gandeboeuf等（1996）采用PCR－RFLP和
+RAPD技术也对块菌的分类进行了研究。
+　　采用ITS1-F、ITS4-B等特异引物，已成功地完成了对我国桉树林中的豆马勃属(Pisolithus)的
+5个菌株（其中H4111为引进并在我国成功合成的澳大利亚菌株）和2种澳大利亚桉树菌根菌株基因
+的序列测定，并进行了同缘性分析（表2）。
+表2　中国和澳大利亚豆马勃菌株ITS区域DNA序列同缘性分析
+菌株1)H708H709H710H6386H4111MH156MH158
+H705(C)98.763.563.563.864.158.062.3
+H708(C)　62.962.963.263.559.562.9
+H709(AC)62.9　99.798.899.191.298.5
+H710(AC)62.999.7　99.299.491.099.0
+H6386(AC)63.298.899.2　99.790.599.7
+H4111(A)63.599.199.499.7　90.599.4
+MH156(A)59.591.291.090.590.5　89.7
+
+1)(C)为中国土著菌株；(A)为澳大利亚菌株；(AC)为澳大利亚菌株在我国桉树试验林中全盛的菌
+株
+　　在瑞典，Karen等（1997）对Fennoscandia地区收集的17属44种外生菌根菌rDNA上的ITS的多
+样性进行了研究，证实了ITS区域种间多样性，而种内多样性较低[10]。研究者们在提取担子菌DNA
+的基础上，还开展了DNA或rDNA杂交研究。在德国联邦农业研究中心，Pritsch等（1997）系统研
+究了60a生的赤杨[Alnus glutinosa（L.）Gaertn]根系16种不同形态类型的外生菌根ITS的多态
+性，并与采集于3个赤杨林地的28种外生菌根菌的子实体ITS多态性进行了比较[11]；根据ITS长度
+等级，将采集的菌根菌样品分成4组，然后在组内用限制性酶进行消化，研究其RFLP的多态性（表
+3）。
+3.3 在菌根菌持久性问题上的研究
+　　菌根菌接种后在林地的竞争性和持久性，是近年来菌根研究所共同关心的问题之一；尤其是
+商业化的菌种（株），其高效性和持久性有着同等重要的意义。在菌根菌持久性研究中，
+ITS－RFLP分析技术是一有力的研究工具，它不仅可以在子实体水平上鉴定引进菌株的存在，还可
+以在菌根水平上给于证明。在这方面，法国INRA林业微生物研究所F.Le Tacon博士带领的菌根研
+究组开展了大量的研究工作（个人通讯），对引自美国的双色蜡蘑[Laccaria bicolor（Maire）
+P.D.Orton]菌株S238N在法国人工林中的持久性，进行了长达10a的研究；采用RAPD图谱分析表
+明，该菌株10a后仍在林地中存在并能形成子实体[12]。中国林科院热带林业研究所与澳大利亚联
+邦科学与工业组织（CSIRO）及Murdoch大学在10多年合作执行ACIAR项目期间，特别关注所引进的
+菌种的持久性问题，对现有菌根试验林的菌根的合成情况进行定期调查，对根系样品及采集的子
+实体进行DNA鉴定，证实了豆马勃（Pisolithus sp.）等多个优良菌根菌株已成功地在我国桉树人
+工林安家落户（另文报道）；这一工作目前已得到国际科学基金会（IFS）的资助，我们将对这些
+引进的菌种和菌株作进一步研究。
+3.4 在VA研究中的应用
+　　与外生菌根研究相比，虽然DNA分析技术在内生菌根（VA）上应用相对较少，但也展示出显著
+的优越性。1997年5月22～25日，欧洲AM菌根研究网络（COST）在Torino召开了关于“AM基因表
+达”专题研讨会，来自欧洲及美国、以色列的60位学者参加了会议；Paola Bonfante（1997）对
+会议内容作了综述，讨论了AM菌根及真菌的mRNA、RT－PCR及cDNA等的研究进展[13]。在PCR引物方
+面，Lanfranco等（1995）为摩西球囊霉（Glomus mosseae）设计了特异引物；Zeze等（1994，
+1996）采用DNA克隆技术研究了盾巨囊霉（Scutellospora castanea）DNA部分片段的基因文库，
+设计并合成了PCR特异引物。Edwards等（1997）采用竞争PCR技术对摩西球囊霉及菌根合成情况进
+行了研究，比较了PCR产物比与菌根感染百分率的关系。Chambers等（1996）对5种不同地理分布
+的球囊霉菌株进行了分析水平的分类研究；他在实验中采用VANS1－NS21引物，对ITS的18S区域进
+行PCR扩增，比较了种间的亲缘关系。Bianciotto等（1993）在没有宿主植物条件下，研究并证实
+了一种VA菌根菌的DNA复制活动。Sanders等（1995）分析了AM菌球囊霉（Glomales）真菌孢子
+rDNA的多态性，并将这一技术应用于AM菌遗传多样性的研究。Simon等从根系上分离出AM菌的
+DNA，采用特异引物对rDNA的18S区域进行了扩增[14]。
+表3　ITS长度及消化后的片段数
+ITS长度1)分级菌根菌
+(材料类型：F－子实体，M－菌根)ITS平均
+长度/bp片段总数/bp
+Alu IEcoR IHae IIIHinf IMsp I
+750bp1)Paxillus rubicundulus (F)752105976274911441005
+710bpLactarius obscuratus (F, M)732786764686756744
+L. omphaliformis (F, M)7327527476851011738
+L. lilacinus (F)716735732675729730
+Russula claroflava (F, M)7051288783740693707
+R. pumila (F, M)6901241744690679673
+Naucoria escharoides (F, M)724512358611357707
+N. subconspersa (F, M)706504357619357710
+N. escharoides or N. subconspersa (M)703511355616357707
+N. striatula (F)707642356696719706
+Alnirhiza suffusa (M)707575359701719702
+A. cana (M)723518365720751690
+A. texta (M)690627687652673660
+670bpA. atroverrucosa (M)675525675706663653
+A. cystidiobrunnea (M)6721222686753626655
+A. cremicolor (M). 661484693668655666
+610bpCortinarius cf. alneus (F, M)604547610606629596
+C. cf. helvelloides (F, M)611519616602601590
+C. bibullus (F)604552607599612594
+Alnirhiza lilacina (M)607552616605634600
+A. violacea (M)6191063664620618605
+
+1)在分子生物党，ITS的长度学以“bp”表示，bp表示碱基对。
+4　结语与展望
+　　分子生物学技术的引进，对了解和认识菌根的结构及其功能、促进菌根学的发展和推动菌根
+技术在农林业和园艺业上的应用研究，将起着重要的作用。我国菌根工作者已开始关注菌根分子
+生物学的研究，积极学习和交流菌根DNA分析技术；一些青年学者先后被派遣到国外进修有关技
+术。虽然与植物等学科的分子研究相比，分子生物学在菌根研究中的应用相对较少，一些技术还
+有待于研究和进一步发展，但是它已经展示了其特有的优越性。我们深信这一研究领域将为未来
+菌根研究的发展带来更大的动力。
+致谢：本文得到法国农业研究所（INRA）F. Le Tacon博士的指导和支持，特致谢意。
+基金项目：国家自然科学基金项目(39870614)和国妹科学基金项目(International Foundation 
+for Science，IFS)(D/1894-1)
+作者简介：陈应龙(1969～)，男，硕士，助理研究员。
+作者单位：陈应龙　弓明钦　中国林科院热带林业研究所，广州 510520；
+　　　　　Bernie Dell　School of Biological Sciences, Murdoch University, Australia）
+参考文献：
+　1　Smith S E, Read D J. Mycorrhizal Symbiosis[M]. 2nd edition. Cambridge: Academic Press, 1997. 126～
+160, 255～289
+　2　White T J, Bruns T, Lee S. Analysis of phylogenetic relationships by amplification and direct sequencing of 
+ribosomal RNA genes[A]. In: Innis M A, ed. PCR Protocols: A Guide to Methods and Applications[C]. New 
+York: Academic, 1990. 315～322
+　3　Gardes M, Bruns T D. ITS primer with enhanced specificity for basidiomycetes: Application to the 
+identification of mycorrhizae and rusts[J]. Mol Ecol, 1993, 2: 113～118
+　4　Marmeisse R, Debaud J C, Casselton L A. DNA probes for species and strain identification in the 
+ectomycorrhizal fungus Hebeloma[J]. Mycological Research, 1992, 96: 161 ～ 165
+　5　Gardes M, Bruns T D. ITS-RFLP matching for identification of fungi[A]. In: Clapp J P, ed. Species 
+Diagnostics Protocols[C]. Totowa, New Jersey: Humana Press, 1996. 177～186
+　6　Rygiewicz P T, Armstrong J L. Ectomycorrhizal DNA: isolation, RFLPs and probe hybridization[A]. In: 
+Techniques for Mycorrhizal Research[C]. Cambridbe: Academic Press, 1994. 253～283
+　7　弓明钦，陈应龙，仲崇禄. 菌根研究及应用[M]. 北京: 中国林业出版社，1996. 151～163
+　8　Henrion B, Tacon F L, Martin. Rapid identification of genetic variation of ectomycorrhizal fungi by 
+amplification of ribosomal RNA genes[J]. New Phytol, 1992, 122: 289～298
+　9　Raffle V L, Anderson N A, Furnier G R, et al. Variation in mating competence and random amplified 
+polymorphic DNA in Laccaria bicolor (Agaricales) associated with three tree host species[J]. Canadian 
+Journal of Botany, 1995, 73: 884～890
+　10　Karen O, Hogberg N, Dahlberg A, et al. Inter- and introspecific variation in the ITS region of rDNA of 
+ectomycorrhizal fungi in Fennoscandia as detected by endonuclease analysis[J]. New Phytol.,1997, 136: 313～
+325
+　11　Pritsch K, boyle H, Munch J C, et al. Characterization and identification of black alder ectomycorrhizas 
+by PCR/RFLP analyses of the rDNA internal transcribed spacer (ITS)[J]. New Phytol, 1997, 137, 357～369
+　12　Selosse M A. Survival of an ectomycorrhizal temporal persistence and spatial distribution of an American 
+inoculant strain of the ectomycorrhizal basidiomycete Laccaria bicolor in a French forest plantation[J]. Molecular 
+Ecology, 1998, 7: 561～573
+　13　Bonfante P. Molecular aspects of arbuscular mycorrhiza: research for roots finally blossoms[J]. 
+Mycorrhiza, 1997, 7: 221～222
+　14　Simon L, Lalonde M, Bruns T D. Specific amplification of 18S fungal ribosomal genes from 
+vesicular-arbuscular endomycorrhizal fungi colonizing roots[J]. Applied and Environmental Microbiology, 1992, 
+58: 187～194
+收稿日期：1999-03-20

@@ -1,0 +1,33 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.3 P.41-44
+
+
+
+
+导弹质量特性测量装置设计
+吴斌　 许苏海　 张波　 
+摘　要：设计了一种导弹质量、质心、转动惯量一体化测量设备，可在同一台设备上完成导弹质量、轴向和径向质心、俯仰、偏航方向的转动惯量测量。该装置主要由测试平台、活动支架、沿导弹纵轴滑动的精确定位机构、三个测力传感器和一个倒扭摆机构组成。描述了该装置质量特性测量方法，定量分析了测量误差，并总结了此类装置设计的几个关键问题。
+关键词：质量特性；质量；质心；转动惯量；导弹；测量方法
+分类号：TJ760.6+　文献标识码：A
+文章编号：1006-1630(2001)03-0041-04
+Mass Property Instrument Design for Missile System 
+WU Bin（College of Astronautics,Northwestern Polytechnical University,Xi'an Shaanxi 710072,China;）　
+XU Su-hai（College of Astronautics,Northwestern Polytechnical University,Xi'an Shaanxi 710072,China;）　
+ZHANG Bo（No.660 Institute of Nanchang Aircraft Manufacture Co., Nanchang Jiangxi 330024, China）　
+
+Abstract：This paper introduces an instrument for measuring the mass properties of missile system .Mass properties including the mass,axial and radial mass centers as well as yaw and pitch moments of inertia can easily be measured in the same one instrument .The instrument consists of a base platform, movable fixture, a movable precise location mechanism along missile's longitudinal axis, three force transducers and one inverted torsion pendulum. The method to measure mass properties is described and engineering errors are calculated and analyzed. finally, several keys which affected measuring accuracy are concluded for this instrument.
+Keywords：Mass property; Mass; Center of mass; Moment of inertia; Missile; Measuring method
+作者简介：吴斌(1965-),男，讲师，研究领域:飞行器总体设计、导弹地面测试设备。 
+作者单位：吴斌（西北工业大学航天工程学院，陕西西安 710072）　
+　　　　　许苏海（西北工业大学航天工程学院，陕西西安 710072）　
+　　　　　张波（南昌飞机制造公司660所，江西南昌 330024）　
+
+参考文献：
+［1］余宏发.固体发动机质心测量方法研究[J].固体火箭技术,1996,19(4):70-74.
+［2］沈光平.理论力学[M].昆明:云南大学出版社,1991.
+［3］梁晋文,等.误差理论与数据处理[M].北京:中国计量出版社,1988.文章编号：1006-1630（2001）03-0045-05
+
+收稿日期：2000年4月14日
+修稿日期：2000年7月13日
+出版日期：2001年3月1日

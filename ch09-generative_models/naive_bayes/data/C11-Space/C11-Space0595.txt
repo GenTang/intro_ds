@@ -1,0 +1,28 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.2 P.69-73
+
+
+
+
+卫星的防污染技术
+舒伟民　 
+摘　要：在分析了国内外光学遥感卫星红外通道被水汽污染而失效的教训基础上，提出了光学遥感卫星必需全过程（从卫星设计、研制、发射至在轨运行）实施严格的防污染控制的设计思想和理论。系统地介绍了FY-1C星的防污染技术特点和经验。在轨运行表明，FY-1C所采取的一系列防污染措施是正确的。
+关键词：气象卫星；防污染技术；环境条件
+分类号：V474.2+4　文献标识码：A
+文章编号：1006－1630(2001)02－0069－05
+Anti-Contamination Technology for Satellite
+SHU Wei-min（No.509 Institute of SAST, Shanghai 200240, China）　
+
+Abstract：Anti-pollution is a key technology for optical remote sensing satellite. In th e paper, the cause of failure for infrared channel of optical remote satellite a t home and abroad is analyzed in an all round way. The Anti-pollution technolog y for FY-1C is systematically summarized. It is the first time in China to considere this technology on remote sensing satellite during the total process. The successful operation of FY-1C shows that the key problem has been solved.
+Keywords：Meteorological Satellite；Anti-pollution technology; Environmental condition
+作者简介：舒伟民(1943-)，男，高级工程师，FY-1卫星遥感系统副主任设计师，研究领域：卫星遥感。 
+作者单位：舒伟民（上海航天技术研究院509所，上海 200240）　
+
+参考文献：
+［1］中国星船材料空间效应数据手册[M].航天工业总公司五院五一所.
+［2］马歇尔空间飞行中心标准MSFC-SPEC-1443.空间环境中与光学表面有关的非金属材料的出气试验[S].1987,10.
+［3］欧洲空间局ESA PSS-01-702.空间材料热真空筛选试验[S].1983,3.
+
+收稿日期：2001年1月16日
+出版日期：2001年4月25日

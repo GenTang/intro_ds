@@ -1,0 +1,57 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000　Vol.19　No.6　P.13-14
+
+
+
+
+ActiveX控件在Intranet开发中的应用
+方澍华　杨宗煦
+摘 要：ActiveX控件在Intranet环境中的一种巧妙应用——在客户端以局域网内网络路径的形式注册服务器端ActiveX控件。
+关键词：Web ActiveX控件 B／S模式 网络路径
+　　Microsoft ActiveX技术是OLE技术在Internet上的重定义，而ActiveX控件则是OLE控件在Internet上的扩展。ActiveX控件是基于组件对象模型(COM)的通用组件，可以通过开发工具、浏览器和应用程序方便地激活。
+1  ActiveX控件在Web中的基本应用
+　　ActiveX控件在Web中的应用，是通过在HTML文件中引入Object标记实现的，形式如下：
+　　＜OBJECT ID＝″ActiveXControl1″ WIDTH＝″100″ HEIGHT
+＝″100″ CLASSID＝″CLSID：9E603721－6E9A－11D3－A070－0000E881F551″＞＜／OBJECT＞
+　　其中：CLASSID的值是ActiveX控件注册后得到的类ID号。
+　　在Internet中，ActiveX控件是在客户机IE浏览器端自动下载而运行的。只要在OBJECT标记中设置好CODEBASE参数，客户端将根据CODEBASE中的URL地址找到ActiveX控件的源文件，并询问客户是否下载。参数设置形式如下：
+　　＜OBJECT ID＝″ActiveXControl1″ WIDTH＝″100″ HEIGHT＝″100″ CLASSID＝″CLSID：9E603721－6E9A－11D3－A070－0000E881F551″ CODEBASE＝″http：//www.shf.com／controls／ctl1.ocx″＞＜／OBJECT＞
+　　ActiveX控件下载到客户端后，即作为客户端的一个应用程序运行，其功能类似于Netscape浏览器的控件。由于完全在客户端运行，脱离了服务器端，所以ActiveX控件的这种应用形式并不是真正的浏览器／服务器(B／S)模式。
+2  用ActiveX控件开发Web应用的优点及问题
+　　在Intranet环境中，由于可以限制客户端的浏览器为IE，所以ActiveX控件可以得到广泛的应用。把传统MIS系统的全部或部分功能移植到Web应用的B／S模式下，是当前Intranet Web应用开发的一个关键。当前一些相关的技术如公共网关接口CGI、API、SERVER－SIDE－SCRIPT等，在开发完善的MIS应用方面不是功能不够强大就是开发过程过于复杂，另外网络编程语言Java在数据库应用开发方面也不够成熟，所以在这种情况下，ActiveX技术确实是好的解决途径。由于ActiveX控件可以利用Visual Basic、Delphi、Visual C＋＋、C＋＋ Builder等任何一种支持COM规范的开发工具来进行开发，其开发过程中的细节与传统MIS系统开发相类似，所以功能十分强大并且开发周期短。
+　　目前，以ActiveX控件为核心开发的Intranet Web应用程序还不多，其主要原因是ActiveX控件在开发完全B／S模式下的应用程序方面存在着二个根本问题：
+　　(1)ActiveX控件自动下载到客户端后，作为独立于服务器端的客户端应用程序运行。在这种形式下，利用ActiveX控件开发的一个基于Web的MIS系统与传统的MIS系统相比，在运行模式上其实没有根本区别，系统都在很大程度上增加了客户端的资源消耗，唯一的区别只是前者运行时嵌在浏览器这个容器中。ActiveX控件的这种应用模式并非Web应用开发中所要求的真正的B／S模式。
+　　(2)传统MIS系统中，客户端应用程序访问服务器端网络数据库一般采用ODBC接口，这要求每个客户端都必须安装ODBC驱动并配置ODBC连接。在ActiveX控件中访问服务器端的网络数据库时，如果采用特定厂商的数据库驱动程序，可以以网络资源共享的绝对路径访问数据库，但应用程序可移植性较差；如果采用ODBC接口，则同样需对每个客户端进行安装配置，并没有满足Web应用中客户端所需配置少的要求。
+　　这二个问题产生的根源是ActiveX控件完全运行在客户端，虽然这种运行模式符合ActiveX控件本身作为一种嵌入式组件的概念，但却不符合Web应用开发中B／S模式的要求。在B／S模式下，浏览器端配置简单、开销小，应用程序的主要工作由服务器端承担。
+　　要从根本上解决这二个问题，必须改变ActiveX控件的应用形式。在Internet中，ActiveX控件只能是下载到客户端运行，而在Intranet中，则可以利用局域网的特点避免这种情况。所以，问题解决的核心在于寻求一种方法，使得嵌入在HTML文件中的ActiveX控件运行在服务器端，而客户端浏览器又能够对嵌入的ActiveX控件进行解释执行。
+3  ActiveX控件在Intranet中的妙用
+　　在客户端以局域网内网络路径的形式手工注册服务器端ActiveX控件是能够彻底解决上述问题的一种好的途径，下面就来介绍这种方法。
+　　使用ActiveX控件，必须先对ActiveX控件进行注册，应用程序通过注册后得到的类ID号找到控件的数据源进行访问。ActiveX控件可以由VB、VC、Delphi、C＋＋ Builder等开发工具生成OCX文件时自动进行注册，也可以手工注册，其实质都是通过运行应用程序Regsvr32.exe来实现。Regsvr32.exe一般在操作系统的系统文件目录下，如Windows 95(98)的＼Windows＼System目录、Windows NT的＼Winnt＼System32目录。
+　　在Windows NT局域网络环境内，对资源的共享既可以使用网上邻居这样的应用程序，也可以通过完整的网络路径来访问。网络路径的形式为：
+　　＼＼ 机器名 ＼ 共享目录名 ＼ 文件名
+　　在Regsvr32.exe应用程序的命令行中输入网络资源共享的完整路径，可以在客户端注册服务器端的ActiveX控件，具体步骤如下：
+　　(1)存储ActiveX控件在服务器的某个目录下，以常规方法在服务器上注册本地ActiveX控件。
+　　假定，服务器名为Server1，目录名为AllControls，控件名为Control1.ocx，则注册命令为：
+　　Regsvr32   ＼AllControls＼Control1.ocx
+　　(2)在客户端以网络路径的形式注册服务器端的ActiveX控件。假定，目录AllControls的共享名为Controls，则注册命令为：
+　　Regsvr32   ＼＼Server1＼Controls＼Control1.ocx
+　　完成注册工作后，当客户浏览器端浏览到服务器端包含ActiveX控件Control1.ocx的主页时，浏览器端将不再提示下载ActiveX控件，而是通过注册表中的类ID号找到服务器端的控件来解释执行。这样，整个ActiveX控件的运行，包括所有对服务器端网络数据库的访问，都完全在服务器端进行，极大地降低了客户端的资源消耗，体现了B／S模式的优越性。
+　　一个功能全面的管理系统，一般会分割成很多小的功能模块，而实现这样一个基于Web的应用系统，需要开发很多对应于各个功能模块的ActiveX控件。为了提高客户端注册的简便性，减少客户端的配置工作，可以编辑一个批处理文件来完成所有的注册工作。假定，某Web应用系统中用到了2个ActiveX控件Control1.ocx、Control2.ocx，则批处理文件RegCtls.bat内容如下：
+　　Regsvr32 ／s ＼＼Server1＼Controls＼Control1.ocx
+　　Regsvr32 ／s ＼＼Server1＼Controls＼Control2.ocx
+　　注：／s参数用于指定注册过程中不弹出消息框。
+　　接下来，只要在每个客户端运行RegCtls.bat文件即可完成客户端所需的所有配置。
+4  ActiveX控件的应用启示
+　　在Intranet Web应用中，使ActiveX控件完全运行在服务器端，有着很多的优越性，主要包括：
+　　(1)当控件的运行需要取服务器端动态的资源文件时，程序在设计中可以以相对路径的形式对资源进行访问，这样在很大程度上提高了程序的可移植性。
+　　(2)控件中对数据库的连接、访问都在本地进行，避免了网络线路速度的影响，加快了Web应用程序的信息反馈。
+　　(3)由于应用程序的主要工作在服务器端，所以对客户端设备的性能要求不高，这在很大程度上节省了设备的投资。
+　　当开发一个全新的Web应用管理系统时，ActiveX技术与ASP脚本以及其它Web开发技术可以融合在一起实现。而当需要把一个用Visual Basic或Delphi语言制作的庞大的传统MIS系统转到基于Web的B／S环境下时，ActiveX控件技术则显示出了前所未有的优越性。通过改造该MIS系统的源程序，把各个相关模块制作成相应的ActiveX控件，再根据需要制作一些各个模块之间连接的主页，则可以在非常短的时间段内制作出该传统MIS系统的Intranet版本。
+　　本文所述ActiveX控件的这种妙用已经在实际的工程项目中得到了应用，并解决了Intranet Web应用程序开发中诸如报表绘制、打印支持等的很多难题。
+方澍华（北京航空航天大学机械工程及自动化学院100083）
+杨宗煦（北京航空航天大学机械工程及自动化学院100083）
+参考文献
+1，Desborough J．Intranet Web开发指南．北京：清华大学出 版社，1997
+2，Schmuller J．ActiveX轻松进阶．北京：电子工业出版社， 1998
+收稿日期：1999－12－10

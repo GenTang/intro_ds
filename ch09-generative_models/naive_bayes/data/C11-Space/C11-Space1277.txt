@@ -1,0 +1,105 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+SHS/PHIP技术制备TiC-Al2O3-Fe
+金属陶瓷及其微观组织分析
+张卫方　　韩杰才　　张化宇　　杜善义
+摘要： 采用SHS/PHIP技术制备出了致密的TiC-Al2O3-Fe金属陶瓷。分析了合成产物的微观组织结构。结果表明，随着金属Fe相的加入，TiC颗粒尺寸变小，颗粒趋于均匀，且消除了TiC与Al2O3颗粒之间的微孔。粘结相中Fe与Al2O3之间的界面光滑，与TiC之间有一薄的扩散层。Fe粘结相中有少量胞状有序结构，它可能是以Fe3Al为基的DO3型合金相。由于SHS/PHIP过程中的快速加压，合成产物的TiC颗粒中存在高密度位错。
+关键词： SHS/PHIP； TiC颗粒； Fe粘结相； 金属陶瓷
+中图分类号： TB39　　　文献标识码：A　　　文章编号：1005-5053(1999)03-0027-06
+
+Microstructure of the TiC-Al2O3-Fe
+cermets fabricated by SHS/PHIP
+ZHANG Wei-fang　　HAN Jie-cai　　ZHANG Hua-yu　　DU Shan-yi
+(Center for Composite Material of Harbin Institute of Technology, Harbin 150001, China)
+Abstract： Dense TiC-Al2O3-Fe cermets were produced by self-propagationg high temperature synthesis and pseudo-hot isostatic pressing(SHS/PHIP).The microstructure of the product was analyzed.The results show that the particle size of TiC becomes small and uniform as Fe content increasing.It is favorable to eliminating the small pores between TiC and Al2O3 particles.The interfacial bonding between Fe and Al2O3 was smooth.A thin diffusion layer was found between Fe and TiC.Cellular structure probably being DO3 type alloy as Fe3Al matrix was found in Fe-binder phase.A great amount of dislocations were found in TiC particle dur to the quickly pressing in the processing of SHS/PHIP.
+Key words: SHS/PHIP； TiC particle; Fe binder; cermet 
+
+　　自蔓延高温合成技术(SHS)具有耗能少、效率高、产物纯和工艺相对简单等优点，日益受到了各国科研人员的高度关注［1］。利用SHS技术不仅可以合成碳化物、硼化物、硅化物、氮化物及金属间化合物等500多种化合物，而且也是制备陶瓷/金属复合材料的重要方法之一［2］。但采用SHS直接合成的材料往往是多孔的、疏松状的，不能作为结构件用［3］。近年来，SHS同时致密化成为研究的热点［4］。
+　　利用传统方法制备的TiC-Al2O3基金属(通常指Ni,Co,Mo等)陶瓷已有了工作应用［5］，由于金属粘结相对金属陶瓷的性能有巨大的影响，因此选择具有较佳性能的粘结金属或合金来替代和节省昂贵而稀缺的战略资源是必要和可能的［6］。以Fe作为粘结相代替Ni和Co等战略资源采用自蔓延合成TiC-Al2O3基金属陶瓷，目前还未见报道。本文通过自蔓延高温合成结合准热等静压法(SHS/PHIP)，采用计算机控制，一次性完成材料的合成与致密化，成功地制备出了致密的Ti-Al2O3-XFe金属陶瓷(简称TAFX，X是重量百分比)，并着重研究了合成产物的微观组织特征。
+1　实验方法
+　　原材料采用Ti粉(纯度≥99.5%，粒度≤50μm)，碳黑(纯度≥98.5%，粒度≤1μm)，TiO2(纯度≥98%，粒度≤2μm)，铝粉(纯度≥99%，粒度≤29μm)，还原Fe粉(纯度≥98.5%，粒度≤45μm)，按下式配比：
+　　　　5Ti+3TiO2+4Al+8C+xFe→8TiC+2Al2O3+xFe
+将各组成配料在不锈钢罐中干混24h。混合后将粉末放入水循环干燥箱中干燥12h。均匀混合的粉末在16MPa压力下制成70mm×70mm×20mm的预制块，约达理论密度的50%。SHS/PHIP反应装置示意图如文献［7］中图1所示。将预制块埋入石英砂(粒度为0.2～0.8mm)中，通过电阻丝引燃点火剂，从而使整个预制块自蔓延燃烧。过10s左右后迅速通过压头对石英砂(石英砂作为传递压力介质，加压时在反应物上产生一个准等静压状态)施加压力，压力为240MPa，并保压20s。反应产物取出后迅速埋入石英砂中缓慢冷却。采用Archimedes法测密度(ρ)，在电子探针(EPMA)和带有能谱仪(EDS)的透射电子显微镜(TEM)上进行金相组织观察和成分测定。
+2　结果与讨论
+　　图1是合成产物的EPMA照片，图中灰色颗粒状为TiC，白亮处为Fe粘结相，其余部分为Al2O3。可以看出，TiC颗粒近乎球形；金属Fe相的加入，TiC颗粒尺寸减小，且颗粒尺寸趋于均匀。这是因为TiC颗粒的生成过程是一个形核和长大的过程，任何影响形核和长大的因素都将影响最终产物的颗粒尺寸。随着Fe含量的增加，燃烧温度降低，且Ti和C原子间距增大，扩散时间增加，TiC长大速度较慢，TiC颗粒细小。另外从图中可以看出，即便是TAF20，其中的Al2O3形状也极不规则，且有局部异常长大现象。原因如下：尽管TAF20的SHS过程中燃烧温度(Tc=1900℃)低于Al2O3的熔点，但由于原材料中有TiO2，它和Al2O3有相近的晶格常数，同时是变价氧化物，由于变价作用，使Al2O3内部产生晶格缺陷，活化晶格，使液相线温度降低，Al2O3部分熔化。在Al2O3中加入0.5%～1%的TiO2可使烧结温度降低150～200℃［8］。粗大的Al2O3晶粒强度较低，在材料承载过程中有可能首先发生脆断，对材料的性能造成不良的影响。
+
+图1　合成产物的微观组织(EPMA)
+Fig.1　Microstructure of products
+(a)TAF00; (b)TAF20
+
+　　图2分别为TAF00和TAF20形貌。可以看出，在TAF00复合陶瓷中，TiC和Al2O3之间有少量微孔存在。这是因为在材料的合成过程中，尽管Al2O3熔化，熔融的Al2O3可填充于高熔点的TiC颗粒之间，合成产物的密实度较高(可达97.2%)，但由于TiC和Al2O3之间的润湿性较差，在颗粒交界处仍易形成微孔。少量金属Fe相的加入，在燃烧过程中Fe熔化后填充于TiC和Al2O3之间，由于Fe和TiC的润湿性较好［9］，不同相之间的结合较好，不易产生微孔(图2b)。微孔的消除有利于提高合成产物的密实度，进而提高材料的强度。当Fe含量为10wt%时，高合成产物的密实度为99.4%，基本接近其理论密度。
+
+图2　合成产物的TEM形貌　　
+Fig.2　Microstructure of products(TEM)
+(a)TAF00; (b)TAF20
+
+　　从图2b还可以看出，Fe与Al2O3之间的界面光滑，而Fe与TiC之间则明显存在一扩散层，这主要是因为Fe与Al2O3和TiC之间的润湿性不同(Fe与Al2O3之间的润湿角θ=141°，Fe与TiC之间的润湿角θ=36°)［9］。润湿性较差的金属与陶瓷之间的界面光滑平整，几乎不会发生元素之间的扩散，而润湿性较好的Fe,Ni与TiC之间的界面则有明显的扩散现象［10］，本文的研究也证实了这一点。扩散层的厚度由Ti原子和C原子在熔融Fe中的扩散和合成产物在高温下的停留时间决定，原因如下：在TiC-Fe系中由化学势诱发的原子间相互扩散是以液态薄膜迁移进行的，当各原子之间的扩散在固液界面上维持动态平衡时，在液态薄膜中各成分均成梯度分布，这时Ti原子和C原子在液态薄膜中的扩散是液态薄膜迁移动力的主要原因［11］。
+　　TAF20金属陶瓷的Fe粘结相中发现有少量胞状结构存在(图3中A，B，C)。胞状结构和Fe粘结相成分如表1所示。计算可知，Fe粘结相为体心立方结构，晶格常数a=0.2877nm,比α-Fe的晶格常数a=0.2866nm大；胞状相是一种超点阵的有序结构。由于Fe粘结相中固溶了一定量的Al和少量的Ti，O，C等元素，导致了晶格畸变，使点阵常数增大。Al等元素的固溶可起到固溶强化的作用，有利于提高粘结相的强度。与Fe粘结相相比，胞状相中Fe含量降低，Al含量增加，Fe与Al的原子比为1∶0.26，和Fe3Al合金中Fe与Al的原子比接近。在室温下含有25～32at%Al的铁铝合金都具有Fe3Al合金的DO3型有序结构［12］，可以认为，胞状结构是在远离平衡态的SHS过程中形成的Fe3Al基合金相。
+
+图3　Fe粘结相中的胞状结构
+(a)TEM形貌；(b)Fe粘结相选区衍射；(c)胞状相选区衍射
+Fig.3　Cellular structure in Fe-binder phase
+(a)TEM;(b)Fe-binder phase selected area diffraction pattern;
+(c)cellular structure selected area diffraction pattern
+
+
+表1　Fe粘结相和胞状结构的化学成分
+Table 1　Chemical composition of the Fe-binder phase and cellular-shape phase
+
+ElementFeAlTiOC
+Fe-binder phase
+wt%86.936.371.862.102.74
+at%71.0410.081.776.010.41
+Cellular structure
+wt%80.5210.101.910.716.76
+at%58.5415.201.621.8122.84
+
+　
+
+　　合成产物的TiC颗粒中发现大量的位错(图4)，其中图4a为晶内位错，图4b为边界位错。一方面，由于Fe和TiC的晶体结构分别为体心立方和面心立方，且二者的热膨胀系数差异较大，在合成产物的冷却过程中易产生应力；另一方面，由于SHS/PHIP是一个快速加压的过程，这种类似动态锻压作业的结果使TiC颗粒变形。Chatterjee等人［13］的工作表明，在TiC单晶中{111}〈110〉滑移系仅在800℃以上(即高于塑脆转变温度)才开动，而低于800℃时，有效的滑移系是{110}〈110〉。从存在较高的位错密度来看，TiC颗粒中的位错主要是由于SHS/PHIP过程中快速加压的结果。
+
+图4　合成产物的位错形貌
+(a)晶内位错；(b)边界位错
+Fig.4　The delocations
+(a)in grain;(b)on the surface of grain
+
+图5　合成产物的残留C
+Fig.5　The residual C in product
+
+　　由于SHS是靠组成元素的反应放热产生高温而迅速合成的，其放热量的大小直接影响到反应能否持续进行和反应的是否完全。随着过量金属Fe相的加入，熔化需要大量的热量，相应地减少了合成生成热，燃烧温度降低，反应趋于不完全，当Fe含量为30wt%时，Fe粘结相中残留有片状石墨(图5中A，B，C)，当Fe含量超过50wt%时，反应不能自持续进行。
+3　结　论
+　　(1)通过SHS/PHIP技术制备出了致密的TiC-Al2O3-Fe金属陶瓷。
+　　(2)少量金属Fe相的加入，TiC颗粒尺寸变小，颗粒趋于均匀，且消除了TiC与Al2O3颗粒之间的微孔。但过量金属Fe相的加入，不易反应完全，合成产物中残留片状石墨。
+　　(3)粘结相Fe与Al2O3之间的界面光滑，Fe与TiC之间有一很薄的扩散层。Fe粘结相中有少量胞状有序结构，它可能是以Fe3Al为基的DO3型合金相。
+　　(4)由于SHS/PHIP过程中的快速加压，合成产物的TiC颗粒中存在高密度位错。
+作者简介： 张卫方(1971-)， 男， 博士， 现在北京航空材料研究院进行博士后研究
+作者单位：哈尔滨工业大学复合材料研究所， 哈尔滨　150001
+参考文献： 
+［1］　SUBRAHMANYAN J,VIJAKAMAR M.Review:self-propagation exothemic rection.J Mater 
+　　　　Sci,1992,27:6249
+［2］　MUNIR Z A,ANSELMI-TAMBURINI U.Self-propagation exothemic rection.Mater Sci 
+　　　　Rep,1989,3(7):277
+［3］　傅正义，袁润章，MUNIR Z.SHS合成陶瓷过程中液相.硅酸盐学报，1995，23(1)：27
+［4］　傅正义，王为民，王皓等.采用SHS/QP技术制备TiC-xNi金属陶瓷：Ⅱ 加压工艺与材料性
+　　　　能.复合材料学报，1997，14(3)：61
+［5］　ADDCHI S，WADA T，MIHARA T.High pressure self-combustion sintering of 
+　　　　alumina-titanium carbide ceramic composite.J Am Soc,1990,73(5):1451
+［6］　童国权，王尔德，何绍元.粘结剂成分对硬质合金力学性能和显微组织的影响.粉末冶金技
+　　　　术，1995，13(4)：243
+［7］　张卫方，韩杰才，董世运等.SHS/PHIP技术制备TiC-30Fe金属陶瓷的显微组织及形成过程
+　　　　研究.材料工程，1998，(10)：15
+［8］　王零森.特种陶瓷，长沙：中南工业大学出版社，1994.136
+［9］　DUFOUR L C.Ceramic-metal interface.Kluwer Academic Publisher,1989:393
+［10］　王家祥，陈宝清，郭可仞等.陶瓷薄膜与金属间的浸润性及界面间的研究.真空，1991，
+　　　　119(3)：26
+［11］　YOON D Y.Theories and observation of chemically induced interface 
+　　　　migrration.Inter Mater Rev,1995,40(4):149
+［12］　尹衍升，施忠良，刘俊友.铁铝金属间化合物合金化与成分设计.上海：上海交通大学出
+　　　　版社，1996.3
+［13］　KENNETH S V,JERRY C L,MARC A M,et al.Microstructure of TiC prepared by 
+　　　　SHS/DIP and HIP.Metal Trans,1992,23(1):87
+收稿日期： 1999-03-10

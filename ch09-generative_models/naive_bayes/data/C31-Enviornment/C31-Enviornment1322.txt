@@ -1,0 +1,87 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+复合调质提高CaO固硫率的试验研究
+陈鸿伟　王春波　周兰欣　王　强　杜彦芬
+摘要　对CaO经乙醇调质后的固硫特性进行了试验研究，详细研究了水合温度、乙醇/H2O配比等因素对CaO固硫率的影响并作了理论分析，探讨了调质过程的机理.提出了在乙醇调质CaO后再添加少量金属化合物的方法，发现在1100℃高温下仍可达70%的固硫率.
+关键词　钙基固硫剂；调质；乙醇；固硫.
+Experimental investigation on enhancing CaO desulphurization efficiency by multiply modifying
+CHEN Hongwei1)，WANG Chunbo2），ZHOU Lanxin1),WANG Qiang1)，DU Yanfen1) 
+( 1)Dept.of Power Engineering, North China Electric Power University,Baoding 071003; 2)Thermal Institute of Southeast University,Nanjing 210096)
+Abstract　The SO2 removal characteristic of CaO modified by ethanol were studied experimentally.The hydration temperature,Ethanol/H2O ratio,combustion temperature and others were investigated systematically and analyzed theoretically.The desulphurization efficiency of the CaO would be about 80% when hydration temperature is 15℃,Ethanol/H2O ratio is 50%,combustion temperature is 1100℃ and Ca/S ratio is 3.0.It is also proposed that by the way of adding some metal compounds to CaO modified by ethanol,the desulphurization efficiency could be 67%—70% at combustion temperature 1100℃ as Ca/S ratio 2.0.The mechanisms of CaO treatment were also discussed in the thesis.
+Keywords　calcium base desulfurizer,modified treatment,ethanol.
+　　
+　　钙基固硫剂以其原料丰富，价格便宜，在去除各种燃料燃烧所排放的SOx应用中日益得到人们的重视.但目前钙基固硫剂普遍存在着利用率较低的情况，通常仅约为20%左右.主要原因是由于反应产物CaSO4具有比CaO大得多的摩尔体积，因而易形成CaSO4堵塞CaO孔隙，在CaO表面形成一层CaSO4从而阻碍了SOx和CaO的反应继续进行.同时，CaO发生高温烧结也是造成钙基固硫剂利用率较低的原因.
+　　为解决此问题，很多学者进行了通过加入各种添加剂来提高钙基固硫剂固硫率的试验研究.如，通过添加少量的钠、铁、锶等元素的化合物以抑制CaSO4的分解；Paolo Davini提出用NaCl作为调质剂的研究［1］；Juan Adanez对于复合调质的试验分析［2］等.本文利用乙醇作为调质剂，对CaO进行调质处理，研究了有关因素对调质后的CaO固硫特性的影响，得出了一些有益的结论.同时提出了利用乙醇调质CaO后再添加少量金属化合物的方法，发现在高温下亦能获得良好的固硫效果.
+1　试验材料及设备
+1.1　试验材料
+　　试验使用煤种为开滦洗中煤，其成分分析为：
+
+Cr,%Hr,%Or,%Nr,%Sr,%Wy,%Ay,%
+1.395.410.21.31.718.033.38
+
+采用普通商业用石灰石.磨制后取100—120目粒径，在马弗炉中900℃下烧段4h，样品置于干燥器中，备用.由于本文是研究、比较各影响因素对同一种调质CaO固硫率的影响，所以仅对试验用石灰石作了纯度分析.石灰石中CaCO3含量为93%.
+1.2　试验设备
+
+　　硫分测定仪器采用智能定硫仪.其测量原理为：煤在设定的温度和空气流量下以固定床形式燃烧，其中所含各种形态的硫被氧化分解为SO2和少量的SO3而逸出.生成的SO2及少量的SO3被空气流带到电解池中，与水化合生成H2SO3和少量的H2SO4，破坏了碘-碘化钾电对的电位平衡，仪器便立即以自动电解碘化钾溶液生成的碘来氧化滴定H2SO3和H2SO4.电解产生碘所耗用的电量由积分器显示，根据显示的电量，再由法拉第电解定理计算出煤燃烧过程释放的硫量.
+　　固硫率定义为：
+ηs(%)=(S0-S1)/S0×100%
+　　式中：S0——煤中全硫量，S1——燃烧后放出硫量.
+
+2　实验结果及分析
+2.1　乙醇/H2O溶液调质CaO固硫特性及影响因素
+2.1.1　水合温度对CaO调质后固硫率的影响　CaO水合过程中初始水温，即水合温度是一个很重要的因素.Parodi和Cardillo对水合CaO的水合温度进行了试验研究，认为40—55℃为最佳水合温度［3］，在此温度期间所得固硫剂活性最好.针对这种理论，Juan Adanez等进行的复合调质研究也采用了45℃的水合温度［2］.本试验中对50%乙醇/H2O溶液进行了水合温度试验(乙醇／H2O表示乙醇占整个溶液体积的百分比).水合温度的控制采用恒温箱，由于恒温箱热容较大，因而CaO水合过程中的相对少量放热不足以对水合温度产生影响.固硫工况为燃烧炉温度1050℃，Ca／S=2.如图1所示，对此溶液，在试验研究范围内，水合温度为15℃时固硫率是最高的，随着温度的升高，固硫率呈下降趋势，且在50℃之后下降趋势较为剧烈.分析其原因，可能是由于H2O和乙醇在调质CaO过程中所起作用不同的结果.乙醇主要是促使CaO形成更好的空隙分布并可能进而由此引起更大的比表面积，而H2O则是和CaO反应生成Ca(OH)2，在此过程中水合温度对Ca(OH)2结构特性发生影响，从而影响到固硫率.分析图1可认为，乙醇对CaO的调质作用在低温态(试验范围内)更为有利，虽然水对CaO活性的影响在40—55℃时达最佳状态，但综合二者效果，由于乙醇的调质作用起主导地位，因而在低温态所得的Ca(OH)2固硫率更高些.随着温度的升高，乙醇对CaO的调质作用出现下降趋势，但由于温度接近于水作用于乙醇/H2O时的最佳水合温度(45℃左右)，从而使这种下降趋势并不是很明显.当到了50℃之后，此时已超出水的最佳水合温度，又由于乙醇调质作用的下降，造成了固硫率出现急剧下降的趋势.
+2.1.2　乙醇/H2O配比对CaO调质后固硫率的影响　由于乙醇和H2O对CaO调质所起作用的不同，则其不同的配比可能会对调质后CaO的固硫率产生不同的影响.如图2所示，在初始阶段，随着乙醇/H2O配比的增加，乙醇对CaO的调质作用就越为显著，即调质CaO的固硫率随着配比的增加而增大，乙醇/H2O比从10%增至50%时，ηs则从50%增至72.5%.但是，当乙醇/H2O配比增大到一定程度后再继续增大，乙醇对CaO的调质作用不再增大，而此时由于水含量的减少，使水合过程中水所起的提高CaO固硫率的作用减小，所以，当乙醇/H2O配比超过一定值后，调质CaO的固硫率随着配比的增加而降低，即当乙醇/H2O比从50%增至100%时，ηs则从72.5%减至66.5%.
+
+
+图1　水合温度对调质后CaO固硫率的影响
+Fig.1 Influence of hydration temprature on the desulfurization efficiency ηs of CaO modified
+
+
+图2　不同乙醇/H2O配比对调质后CaO固硫率的影响
+Fig.2 Influence of ethanol/H2O ratio on ηs of CaO modified
+　　另外，由图2还可看出，乙醇/H2O比超50%之后，固硫率虽出现了下降的趋势，但趋势较为平缓，而50%乙醇/H2O配比之前则固硫率变化较大.此现象某种程度上说明在乙醇/H2O溶液调质CaO过程中乙醇所起的调质作用是居于主导地位的.
+2.1.3　燃烧炉温度对CaO调质后固硫率的影响　乙醇/H2O溶液调质CaO和水单独作用于CaO二者固硫率和燃烧炉温度的关系见图3.由图可知，50%乙醇/H2O溶液调质后的CaO,和只用水处理的CaO相比较，在所研究温度范围内固硫率均得到很大提高.但随着温度的升高，由乙醇/H2O溶液调质的CaO固硫率下降趋势比单独用水处理的CaO固硫率下降趋势平缓些.从机理上讲，可能是由于经乙醇/H2O溶液调质后的CaO具有更良好的孔隙分布和更大的比表面积，能有效地减轻高温烧结对CaO脱硫的影响.
+2.1.4　Ca/S对CaO调质后固硫率的影响　图4揭示了经50%乙醇/H2O溶液调质的CaO和只用水处理的CaO,燃烧炉温度为1100℃时，钙硫比对固硫率的影响.就本试验条件而言，可认为钙硫比为3时是一较理想状况，此时能在1100℃高温下获得近80%的固硫率.当然，实际应用时，还需要视经济，技术条件来确定Ca／S.
+
+
+图3　燃烧炉温度对CaO调质后固硫率的影响(水合温度15℃，Ca/S=2)
+Fig.3 Influence of the combustion temperature T on ηs of CaO modified (hydration temperature 15℃,Ca/S=2)
+
+
+图4　不同钙硫比下的固硫特性(燃烧炉温度1100℃,水合温度15℃)
+Fig.4 Characters of desulfurization at different Ca/S (Combustion temperature 1100℃,hydration temperature 15℃)
+
+
+图5　不同添加剂含量对调质后CaO固硫率的影响
+(燃烧炉温度1050℃,Ca/S=2,乙醇/H2O=50%，水合温度15℃)
+Fig.5 Relationship of the quantity of chemical compound with ηs of CaO modified (Combustion temperature 1050℃,Ca/S=2,ethanol/H2O=50%,hydration temperature 15℃)
+2.2　复合调质CaO固硫特性
+　　由于一些金属化合物能抑制CaSO4的分解，或是促进CaSO4及其复盐的生成，因而通过添加少量这些金属化合物能使固硫剂固硫率得到进一步提高.
+2.2.1　CaO经乙醇/H2O溶液调质后，不同添加剂含量对其固硫率的影响　添加金属化合物对固硫率的影响结果见图5.由图5可看出，添加金属化合物之后，CaO的固硫率均得到进一步提高.添加剂含量为添加剂占所添加的CaO的质量百分数.其中，加KOH后固硫率提高效果最为明显，特别是在添加量超过2%之后，其上升趋势较为剧烈.KOH在添加量为4%时，固硫率几乎提高了10%，使得固硫剂在1050℃高温下也能保持82.3%的固硫率，效果是比较理想的.KMnO4和MnO添加量在1%—4%范围内，其固硫率变化不是很大，因而对这两种添加剂来说，低含量下对经济性有利.
+
+
+图6　燃烧炉温度温度对复合调质后CaO固硫率的影响
+(Ca/S=2,乙醇/H2O=50%,水合温度15℃)
+Fig.6 Influence of combustion temperature T on ηs of CaO modified multiple (Ca/S=2,ethnol/H2O=50%,hydration temperature 15℃)
+2.2.2　燃烧炉温度对CaO经复合调质后固硫率的影响　燃烧炉温度对添加金属化合物后固硫剂固硫效果的影响参见图6.其中各添加剂的含量均为4%.由图6可看出，在所研究试验温度范围内，添加金属化合物后均能提高固硫率.但随着温度的升高，添加金属化合物后的固硫率下降趋势较只用50%乙醇/H2O溶液调质后的CaO固硫率下降趋势更为剧烈些.这说明随着温度的升高，这些金属化合物在抑制CaSO4分解，或是促进其复盐生成方面的作用逐渐减弱，也可能是由于出现了复盐分解的缘故.
+　　需要说明的是，图6中900℃时添加KOH、KMnO4的数据是分别在同样条件下重复10余次得到的，试验结果的相对误差都在0.1%内.我们将对添加KOH、KMnO4调质CaO提高其固硫效率的过程做进一步的研究，以弄清上述结果的机理.
+
+3　结论
+　　1.CaO经乙醇/H2O溶液调质后，其固硫率能提高20%左右.在水合温度为15℃，乙醇/H2O=50%左右时，所获得的固硫效果最为理想.
+　　2.随着燃烧炉温度的升高，经乙醇/H2O溶液调质后的CaO固硫率是逐渐下降的，但在1050℃—1100℃之间，其固硫率仍能提高20%左右.
+　　3.乙醇/H2O溶液调质CaO的过程中乙醇是促使CaO颗粒获得更好的空隙分布和更大的比表面积，H2O则主要是和CaO反应生成Ca(OH)2.在整个调质过程中，乙醇的调质作用是居于主导地位的.
+　　4.CaO经乙醇/H2O溶液调质后，再添加一些少量金属化合物，能使固硫率得到进一步的提高.其中添加KOH的影响效果最为明显，在1100℃时固硫率仍可达70%左右.
+* 本文的研究受中华电力教育基金会电力新星资助金资助
+作者单位：(1.华北电力大学动力系，保定　071003　2.东南大学热能所，南京　210096)
+参考文献
+　1　Paolo Davini et al.An investigation of the influence of sodium Chloride on the desulphurization properties of limestone.Fuel,1992,71(7):831—834
+　2　Juan Adanez et al.Study of modified calcium hydroxides for enhancing SO2 removal during sorbent injection in pulverized coal boilers.Fuel,1997,76(3):257—265
+　3 Parode E,Cardillo P.Chemical Industry and Environment,Vol.3.ed.N.Pellicer and J.Rigola,UPC Gerona,1993.179
+1998-05-07收到原稿
+1999-03-01收到修改稿
+
+

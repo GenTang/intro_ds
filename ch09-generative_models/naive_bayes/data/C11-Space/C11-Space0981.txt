@@ -1,0 +1,105 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+DD3单晶高温合金拉伸蠕变各向异性
+魏朋义　杨治国　程晓鸣　钟振刚　李　骋　刘世中
+　
+摘要： 研究了镍基单晶高温合金DD3（001），（011），（111）取向光滑圆拉伸试样在760℃，850℃，950℃典型应力条件下的拉伸蠕变特征。试验发现，在较高蠕变应力水平时，DD3单晶合金具有明显且复杂的拉伸蠕变各向异性,且蠕变变形率及其对应力增加的敏感性的强弱顺序会随温度变化而发生变化。这归因于该合金的成分特征、蠕变应力、晶体取向决定的蠕变主滑移系类型（八面体、立方及二者混合）及位错移动动力学特点的不同。
+关键词： 蠕变各向异性； 单晶高温合金； 晶体取向
+中图分类号： TG132.3　　文献标识码： A　　文章编号： 1005-5053(1999)03-0007-06
+Tensile creep anisotropy of single crystal superalloy DD3
+WEI Peng-yi1　　YANG Zhi-guo2　　CHENG Xiao-ming2
+ZHONG Zhen-gang1　　LI Cheng1　　LIU Shi-Zhong1
+(1.Institute of Aeronautical Materials， Beijing 100095， China； 2.Institute No.608 of Chinese Aeronau-tical Industry Company, Hunan Zhuzhou 412002, China)
+Abstract： Tensile creep anisotropy feature of Ni-base single crystal superalloy DD3 with (001),(011),(111) in orientation were investigated under typical conditions(760～950℃,200～800MPa). It was found there is complex and strong creep anisotropy for DD3 under those conditions, such as: the value order of steady creep rate, sensitivity to creep stress and dependence on crystal orientation of this alloy alternate with temperature increasing. Those were due to different crystal slipping(cubic octahedral and combination of them)，dislocation movement model and dynamics during those different creep processing, which is determined by composition, ratio between creep stress and tensile strength and crystal orientation of this alloy.
+Key words: creep anisotropy； single crystal superalloy； crystal orientation
+
+　　先进飞机涡轮发动机叶片选用具有性能各向异性的单晶高温合金，充分发挥了该类材料(001)方向的性能优势，大大提高了发动机效率.但精确了解单晶高温合金的这种特性,是设计预测叶片使用寿命等的前提和基础。实际叶片使用中叶身具有明显的拉伸蠕变特征,对此国外航空材料研究界十分关注［1～6］。我国第一个镍基单晶高温合金DD3为我国某新型发动机一级叶片选材,为配合该型号的动强度计算、寿命预测、失效分析等，本文首次系统研究该合金的中高温蠕变各向异性特征。
+1　试验技术
+　　采用合格DD3单晶合金，在ZGD-1真空感应快速定向凝固炉中利用籽晶法制备35mm×15mm×230mm，分别沿（001），（011），（111）晶体学方向取向(取向偏离度小于5度)的单晶试板，试板经1250℃×4hA.C.+870℃×32hA.C.热处理并制备测距25mm、测试段直径5mm紧凑光滑圆拉伸蠕变试样。在蠕变试验设备（计算机辅助采集数据）条件下进行蠕变试验。具体试验条件示于表1。
+表1　DD3单晶合金蠕变各向异性试验条件*
+Table 1　Experimental conditions of creep anisotropy of single crystal superalloy DD3
+
+　 Temperature/℃\Orientation（001）（011）（111）
+MPa
+760700～800450～550700～800
+850425～525375～475425～525
+950200～300175～275200～300
+
+　　　　　　　　*Stress interval is 25MPa,3～5 time tests under every condition.
+2　试验结果
+2.1　试样的基本组织状态
+　　金相分析表明，所制试板铸态及热处理后的冶金状态符合实际对叶片的要求。具体组织参数如表2所示。
+
+表2　DD3单晶试板基本状态
+Table 2　Basic microstructure feature of single crystal samples of DD3 alloy
+
+Primary
+spacing
+/μmOrientation
+deviation
+/°Rest fraction of eutectic
+and primary γ′ phase
+after solid solution/％Size of γ′
+in aged alloy
+/μmMicrostructural
+situation
+290～3102～5＜0.50.4～0.45Up to standard
+
+　
+2.2　蠕变试验结果
+　　试验测试的典型蠕变曲线特征如图1～3所示。蠕变第二阶段的蠕变速率与试验温度、应力、试样取向的关系如图4。试验发现，就总体而言，对于DD3合金:（1）同其他单晶高温合金一样,当温度及晶体取向一定时，应力增加特别是应力大于某临界值时蠕变第二阶段明显加速变短。在应力与晶体取向一致时，蠕变温度增加蠕变速率增加；(2）在相同温度及相近应力范围内，不同取向试样的第二蠕变阶段蠕变速率绝对值及其对蠕变应力增加的敏感性序列会发生变化，具体各温度的这种顺序由强到弱依次为：950℃(001)→ (011) →(111)，850℃（011）→（001）→（111），760℃（111）→（001）(图4)。值得注意的是，温度及应力对蠕变速率影响极大,即（111）方向在760℃蠕变速率比（001）大20％到100％，但在850℃比（001）小5～18倍,在950℃比（001）小2～5倍。而（011）蠕变速率在850℃比（001）稍小，在950℃却比（001）小1.5～11倍；（3）初步统计，当同温度同取向蠕变应力数值小于拉伸强度的40～50%时,该合金100h拉伸蠕变量小于0.5%，即蠕变速率小于0.005%/h；（4）在760℃该合金蠕变第一阶段蠕变速率增加明显比其他温度快，且在（011）方向，760℃， 500～550MPa应力条件下，蠕变第一阶段前存在明显孕育期，且随应力增加蠕变孕育及第一阶段变化途径不同而稳态蠕变的绝对蠕变量数值接近。而在其他温度及取向，试样蠕变第一阶段不明显，即与第二阶段融合呈较平坦曲线。
+3　实验结果分析
+　　单晶高温合金拉伸蠕变各向异性受温度、应力状态、合金(包括微量元素)成分、组织尺度特别是沉淀相特征、晶体取向的综合作用交互影响。在本质上取决于立方或/和八面体滑移系在实际蠕变变形中的参与程度。就合金成分而言，对于高温蠕变，含高Mo低Co以强化γ为主的高温合金，其滑移系限于八面体滑移系为主,呈明显的蠕变各向异性。而以富Re，W，Ta强化γ′相的高温合金及金属间化合物则存在立方滑移系与八面体滑移系共同作用,因而蠕变各向异性较弱。对特定合金，蠕变条件（温度、应力）决定的应力积累程度直接影响实际两类滑移系在蠕变过程的参与程度，从而影响合金蠕变各向异性特征。且低温蠕变比高温蠕变对条件变化更敏感、复杂，因为不同温度下八面体滑移启动的临界剪切应力及各取向条件下的八面体与立方体的临界剪切应力的比率不恒定，因而蠕变对晶体取向及应力方式（拉伸或压缩）较敏感，DD3单晶合金同时含有中等含量的Mo，W，Co，这就决定了其蠕变各向异性的复杂性。就温度作用而言，对（001）方向，在峰值温度（760℃)以下开动的主要是{111}〈110〉八面体滑移系，在760℃以上随温度增加，六面体滑移系开始开动逐渐增加，并在1000℃以下两种滑移系均开动。因此该合金950℃（111)方向相对（001）蠕变各向异性不强。而850℃以下（111）相对于（001）蠕变各向异性较显著，但由于应力增加会加强对立方滑移系的启动和参加量，因而使（111）相对于（001）在同温度下随蠕变应力增加蠕变各向异性相对弱化。而760℃因以八面体滑移系为主，（001）方向蠕变比（111）稍强。实际取向偏离度差别可能影响滑移系启动，特别是滑移面的转动角度和能耗水平，因而取向或取向偏离度对蠕变各向异性有一定影响，其主要决定蠕变孕育、蠕变速率和蠕变速率变化方式的不同。
+　　
+
+图1　不同条件下（001）取向试样的圆拉伸典型蠕变曲线
+Fig.1　Typical tensile creep-curves of samples with orientation of 
+(001) under various conditions
+(a)760℃,700～800MPa；(b)850℃，425～525MPa；(c)950℃,200～300MPa
+　　
+
+图2　不同条件下(011)取向试样的圆拉伸典型蠕变曲线
+Fig.2　Typical tensile creep-curves of samples with orientation of 
+(011) under various conditions
+（a） 760℃,450～550MPa；（b） 850℃,375～475MPa；（c） 950℃,175～275MPa
+
+　　　　
+
+图3　不同条件下（111）取向试样的圆拉伸典型蠕变曲线
+Fig.3　Typical tensile creep-curves of samples with orientation of 
+(111) under various conditions
+(a) 760℃,700～800MPa；(b) 850℃,425～525MPa；(c) 950℃,200～300MPa
+　
+
+图4　不同温度及取向试样的拉伸蠕变第二阶段蠕变速率对照
+Fig.4　Comparison of tensile creep rate of secondary creep-phase of
+samples with various orientations at temperatures
+(a) 760℃；(b) 850℃；(c) 950℃
+
+4　结　论
+　　本实验条件下，特别是高应力水平时，DD3单晶合金具有明显的拉伸蠕变各向异性。不同温度下，（001），（011），（111）三方向蠕变各向异性特点及蠕变变形率与对应力增加的敏感性的强弱顺序会发生变化。蠕变各阶段的具体特征与该合金的成分特点、蠕变应力、晶体取向相关，这些因素决定了不同蠕变条件下蠕变开动主滑移系类型（八面体、立方及二者混合三类型）、位错移动动力学特点。该合金不同温度的蠕变各向异性对以非（001）方向提供了可能。
+作者简介： 魏朋义(1966-)， 男， 工学博士， 研究员， 现从事单晶高温合金研制
+作者单位：魏朋义、钟振刚、李骋、刘世中：北京航空材料研究院， 北京　100095；
+　　　　　杨治国、程晓鸣：中国航空工业总公司第608研究所， 湖南　株洲　　412002
+参考文献：
+［1］　SHAH D M,CETEL A.Creep anisotropy in nickel base γ,γ′ and γ/γ′ 
+　　　　superalloy.In:CETEL A D,et al,ed.Superalloy 1996.1996.273
+［2］　SASS V,SIEBOEGE D R,DNOCBLOCH C,et al.Anisotropy creep behavior of a 
+　　　　nickel-based superalloy compared with nickel solid solution and single 
+　　　　crystal.In:EARTHMAN J C,et al，ed.Creep and fracture of engineering materials 
+　　　　and structure.1997.687
+［3］　HENDERSON P J,LINDBLOM J,LINDE L.Creep of single crystal Ni-base superalloy
+　　　　in thick and thin-section forms.In:EARTHMAN J C,et al,ed.Creep and fracture
+　　　　of engineering materials and structure.1997.697
+［4］　MACKAY R A,MAYER R D.The influence of orientation on the stress rupture 
+　　　　properties of nickel-based single crystal superalloy.Metall Trans,1982,　
+　　　　13A:1747
+［5］　SASS V,GLATIEL U,FELLER-KNEIPMEIER M.Creep anisotropy in the monocrystal 
+　　　　nickel-base superalloy.In:KISSINGER R D,et al,ed.Superalloy 1996.1996.283
+［6］　HOPGOODAND A A,MARTIN J W.The creep behavior of nickel-base single crystal 
+　　　　superalloy.Mater Sci Eng,1986,82:27
+　收稿日期： 1998-12-22； 修订日期： 1999-05-12

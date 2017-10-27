@@ -1,0 +1,120 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+1999年 第 12卷 第6期 vol.12 No.6 1999
+
+
+
+生物吸附作用对漂白废水中AOX去除作用的研究*
+陈元彩　肖　锦　詹怀宇
+摘　要　研究了CEH三段漂白废水二级生物处理中好氧及厌氧生物污泥对AOX吸附作用。结果表明，污泥生物吸附符合Langmuir吸附等温式，好氧污泥对AOX的吸附量大于厌氧污泥，污泥对废水中低分子量AOX的吸附量大于高分子量AOX。污泥的解吸实验则表明污泥的生物吸附是一不可逆过程；活性和受抑制的2种污泥的吸附量没有明显差别，其好氧、厌氧污泥的AOX单位碳原子的吸附能仅为0.37和0.38 kJ/mol，表明生物吸附仅是与生物代谢无关的而与分子间爱德华力有关的物理吸附。
+关键词　漂白废水　生物吸附　AOX
+Study on the Removal of AOX by Biosorption in the Treatment of Pulp CEH Bleaching Effluents
+CHEN Yuancai XIAO Jin ZHAN Huaiyu
+(State Key Laboratory of Pulp & Paper Engineering,South China University of Technology,Guangzhou 510640)
+Abstract　The Role of biosorption in the removal of AOX in the secondary treatment of pulp CEH bleaching effluents was studied. The result shows that the biosorption behavior can be characterized by Langmuir isotherm, the sorbed AOX from aerobic sludge is greater than that from anaerobic sludge,and the sorbed AOX of low molecular weight is greater than that of high molecular weight. The desorption experiment proved that biosorption is an irreversible process; the sorbed AOX by dead biomass is not significantly different from that by live biomass and the sorption enthalpy was 0.37 and 0.38 kJ/mol respectively for aerobic and anaerobic sludge,which confirms that biosorption is only a physical sorption bound by van der waals forces.
+Keywords　Pulp CEH bleaching effluents; Biosorption; AOX
+　　污泥生物吸附作用是生物反应器中疏水性有毒污染物的一个重要的去除途径，废水处理中微生物对有机污染物的降解通常是①污染物在微生物细胞膜表面吸附；②吸附在细胞膜表面的污染物进入细胞膜内；③污染物在胞内酶的作用下发生酶促反应而降解。也可通过污泥的排放而去除。因而有毒污染物被生物污泥的吸附现象是有毒物质去除的重要传输过程之一。虽然在连续微生物处理过程中吸附作用对有毒物的去除通常都忽略不计［1］，但它对污染物的降解及反应器的运行无疑起着十分重要的作用［2］，尽管大量的研究表明氯取代度较高的氯代酚较易通过厌氧菌的还原脱氯而降解，而好氧生化处理系统则易降解氯取代度较低的氯代酚类化合物［3，4］。然而这些结论往往是在运行周期长、密闭的、低生物量和低浓度目标化合物为唯一碳源的反应器中得出的，他们的唯一目的就是为了证实生物系统对污染物氯代酚的去除能力，却没有考虑生物吸附及污染物的降解途径。
+　　国内外很多研究者就活性污泥絮体对有机污染物的吸附作用进行了研究，但由于试验条件的差异，尤其是污泥絮体中成分及含量的差异，很多研究者得出了不同的结果。
+　　高桥等以用C14标记的甘氨酸作底物，用通过Cu2+处理过后的和未处理的活性污泥进行对比试验，结果表明，其降解率在1 min和1 h后都为70%左右，几乎没有变化，说明降解是在极短时间内进行的。此外，对活性污泥无论是用二硝基酚抑制吸收，还是用Cu2+灭活，降解率只降低10%左右，因此他们认为初期降解主要为物理吸附过程。高野等研究发现活性污泥中分离出的产气杆菌对葡萄糖及醋酸钠的降解过程中，初期降解不受叠氮化钠和二硝基酚的抑制；在主动输送完全停止的0 ℃条件下，或在50 ℃下处理20 min后，仍能具有较高的初期降解率，将菌体用溶菌酶加以破坏，用细胞碎片进行试验，醋酸钠的降解率并不降低等，都证明初期降解的大部分为物理吸附作用。
+　　另外一些研究者则得出了相反的结论，Ruchhoft［5］等进行了活性污泥吸附葡萄糖的试验，当温度上升到45 ℃以上和降到低温时，降解速度均下降，且不注入空气时也会下降，据此，他们认为活性污泥对葡萄糖的初期降解速度是以酶促反应作为基础的，因此初期降解是生物吸附过程。
+　　造纸漂白废水中含有大量难于生物降解的有毒的氯代有机物，因而控制其污染越来越引起世人的广泛关注，很多国家制定越来越严格的排放标准。目前漂白废水的处理通常采用二级生物处理法，因而有必要弄清生物处理过程中污泥对氯代有机物AOX(可吸附性有机卤代物)的吸附作用。为此笔者进行了厌氧、好氧污泥在活性及非活性条件下对漂白废水中氯代有机物AOX的吸附、解吸实验。
+1　实验材料及方法
+1.1　实验材料
+　　实验用废水取自江门某造纸厂，该厂是以甘蔗渣、竹、芒杆的碱性浆为原料，漂白工艺为氯化—碱抽提—次氯酸盐三段漂白，废水中主要含有氯化木素及降解产物，包括有机酸类、酚类、酯类、烷烃类等，废水中的AOX为56 mg/L，COD为1 260 mg/L，pH为4.1。废水经0.45 μm滤膜过滤后，用Schoniger燃烧法［6］和银量法测AOX。超滤用日本密滤膜公司生产的“Pellicon Casstte” 高容量盒式超滤装置，废水经0.45 μm的滤膜过滤后，再经滤膜孔径为1 KD的膜包超滤。
+　　吸附所用厌氧及好氧污泥取自未经驯化的广州市大坦沙城市污水处理厂厌氧池及好氧池，用蒸馏水清洗，离心分离后于4 ℃下保存，使用前于室温下振荡活化2 h，其中污泥的灭活则通过投加抑制剂叠氮化钠实现。
+1.2　实验方法
+　　在一系列锥形瓶中分别加入一定量的漂白废水，同时加入一定量的经6 000 r/min离心10 min的厌氧和好氧湿污泥，其中厌氧污泥系列在充氮气后用生料带及橡胶塞封口，好氧污泥系列用棉纱封口，恒温振荡一定时间后取样10 mL，经4 000 r/min离心10 min后取2 mL上清液，经0.45 μm滤膜过滤后，用于AOX的测定，为避免实验中AOX的挥发、沉淀及在容器上吸附的影响，同时另取一组，不加污泥作空白对比。实验所得的AOX为测得的AOX减去空白值，每次实验做3个平行样，结果取平均值。AOX污泥生物吸附量通过吸附过程中上清液浓度的变化及所投加的污泥浓度而测得。
+2　实验与讨论
+2.1　AOX在污泥上的吸附动力学
+　　厌氧、好氧活性污泥的吸附动力学实验分别在4个装有250 mL漂白废水的500 mL锥形瓶中进行，其中污泥浓度VSS分别为3.1和3.2 g/L，两空白组中则不加污泥，振荡10 min，30 min，2 h，5 h，12 h，24 h后每次取10 mL样用于AOX的分析，其结果见图1。
+
+
+图1　AOX的吸附速率曲线
+　　从图1中可见，在最初30 min内厌氧、好氧污泥AOX吸附量显著增加，在5 h时基本趋于平衡，取振荡7 h后的水样进行气相色谱的测定，未见新的峰值出现，说明吸附过程中污泥没有发生生物降解作用，因此本实验取7 h为吸附平衡时间。同时也可看出好氧活性污泥对AOX的吸附量大大高于厌氧活性污泥，这与Kennedy［7］等对厌氧、好氧污泥对PCP的吸附结果相一致。利用Kuo［8］所得出的经验公式计算弃去平衡后的点，经ln q－ln t线性回归，所得结果见表1。
+表1　AOX吸附速率方程
+
+污泥种类吸附速率方程相关系数
+好氧活性C=0.25 C0.t1.050.934 2
+厌氧活性C=0.13 C0.t0.560.965 8
+
+
+　　通常认为生物污泥絮凝体、菌胶团的表面由以多β－羟丁酸为主的多糖类的具有粘着性的粘质层所覆盖，表面张力较低，有较好的吸附性。聚β－羟丁酸是一种聚酯物质，当它在细菌体内大量贮积时，细菌细胞的分裂不彻底，不完全分离而彼此相连，还可能导致细菌的死亡并将其释放于液体中，释放于水中的PHB能够和细菌产生凝聚作用，也能互相凝聚，形成絮凝体。因此污泥中微生物体表面物质中酯类物质含量和组成是影响污泥吸附性能的重要因素，厌氧、好氧微生物中膜脂总量相差不大，但由于各膜脂组成不同，因而其吸附性能也大不相同。
+2.2　解吸、吸附等温线的平衡实验
+　　在2组装有100 mL AOX浓度分别为56，42，28.5，17，9.5 mg/L漂白废水的250 mL锥形瓶中进行，同时在瓶中投加1 g湿污泥，两空白组中则不加污泥，在20 ℃振荡7 h后离心取上清液10 mL样用于AOX的分析，弃去上清液，污泥用蒸馏水清洗3次后，离心分离，用滤纸吸去水分，再加入到装有100 mL蒸馏水的锥形瓶中，在20 ℃振荡7 h，进行解吸实验，其结果见图2，3。
+
+
+图2　好氧污泥的吸附等温线
+
+
+图3　厌氧污泥的吸附等温线
+　　由图2，3可见，虽然好氧、厌氧污泥的生物吸附量不同，其吸附行为却很相似。首先随着废水中AOX浓度的提高，污泥的吸附量也提高了，在高浓度AOX情况下，污泥的吸附出现了饱和的情况，好氧、厌氧污泥对AOX饱和吸附量q(每克VSS吸附的AOX量)分别为7.2和4.0 mg/g，AOX在厌氧和好氧污泥上的吸附虽然都可用Freundlich或Langmuir吸附等温方程进行拟合(其结果见表2，3)，但Freundlich方程只是一经验公式，并不能表示污泥饱和吸附的现象，而Langmuir方程却能较好地表示饱和吸附现象，其相关系数也大于Freundlich方程的拟合曲线，而解吸实验的结果都在Langmuir拟合曲线之上，说明生物吸附过程是部分不可逆的。
+表2　AOX的Langmuir吸附等温方程(20℃)
+
+污泥饱和吸
+附量
+(mg/g)吸附
+常数
+bLangmuir等温方程相关系数
+r
+好氧8.640.270 01/q=0.11572+0.4280/Ce0.987 4
+厌氧5.430.093 21/q=0.1840+1.9753/Ce0.983 3 
+
+
+表3　AOX的Freundlich吸附等温方程(20 ℃)
+
+污泥Freundlich等温方程相关系数
+好氧q=2.52 Ce0.34150.941 8
+厌氧q=0.96 Ce0.4090.944 5
+
+
+2.3　污泥生物吸附机理实验与探讨
+　　在2组装有100 mL AOX浓度为34 mg/L漂白废水的250 mL锥形瓶中，分别准确加入好氧、厌氧污泥后，在6，20，28 ℃下恒温振荡7 h，取10 mL样测得上清液的AOX平衡浓度，同时对好氧污泥20 ℃吸附平衡后的上清液用膜孔径为1 KD的超滤膜过滤，测得吸附前后废水中分子组分的变化，结果见图4。由图4可见，污泥对低分子量的氯代有机物的吸附量大于高分子量的氯代有机物，通常认为高分子量氯代有机物疏水性较强，因而较易于吸附于污泥表面，然而低分子量物质由于体积小，较易穿过细胞膜及其表面的膜脂层，因而其吸附量大于高分子量的氯代有机物。
+
+
+图4　好氧污泥吸附后废水中分子量组分的变化
+　　通过ln K－ln l/T线性回归后，计算出每摩尔氯原子的吸附能(ΔH)：
+　　　　　　　　　　　　　　　
+其中，K ∝ l/Ce，T为温度(K)。结果见表4。
+表4　不同温度下的平衡吸附浓度及吸附能
+
+污泥温度
+(K)平衡浓度Ce
+(mg/L)吸附能ΔH
+(kJ/mol)
+　27915.8
+好氧29317.44.8
+　30118.4
+　27923.4
+厌氧29324.85.0
+　30126.2
+
+
+　　由表4可见，随着温度的升高，AOX在水中的溶解度也增加，因而在污泥上的吸附也就降低。并且厌氧污泥的吸附能大于好氧污泥，因而厌氧污泥吸附过程中需要较多的能量，其吸附量也小于好氧污泥。这与前面所得结果相一致，也与Glorial［9］等得到好氧污泥对漂白废水中高分子量的氯代有机物的吸附量4 kJ/mol相一致。
+　　根据Lindstorm［10］所得的废水中有机氯化物的分子式的经验式：C13H10O9Cl，则好氧、厌氧污泥单位碳原子平均吸附能则只有0.37和0.38 kJ/mol，可见污泥对氯代有机物的吸附是通过分子间微弱的爱德华力所产生的物理吸附。
+　　为了更好地认识生物处理过程中生物吸附在有毒污染物去除中的作用，有必要弄清这种吸附过程是否仅仅是简单的物理吸附，还是与生物代谢有关的生物吸附。为此进行了活性及受抑制生物污泥的吸附对比实验，其中活性污泥的灭活主要通过投加1%抑制剂叠氮化钠，通过抑制细胞的能源供应而抑制其主动输送过程，从而抑制其代谢过程及活性，结果见表5。
+表5　活性及受抑制污泥AOX生物吸附量(20 ℃)
+
+　好氧活性好氧抑制厌氧活性厌氧抑制
+吸附量(mg/g)7.207.354.004.12
+
+　　注：其中污泥浓度VSS为2.3 g/L
+　　由表5可见，活性和抑制2种污泥对AOX的吸附基本相同，没有明显的差异，说明了这种吸附过程是与生物代谢无关的简单物理吸附。
+3　结论
+　　a. 污泥的动力学吸附实验表明，吸附在5 h基本趋于平衡，污泥吸附等温曲线符合Langmuir吸附等温式。污泥的解吸实验则表明污泥的生物吸附是一不可逆过程。
+　　b. 好氧活性污泥对AOX的吸附量大大高于厌氧活性污泥，污泥对废水中低分子量AOX的吸附量大于高分子量AOX。
+　　c. 活性和受抑制的2种污泥的吸附量没有明显差别，其好氧、厌氧污泥的AOX单位碳原子的吸附能仅为0.37和0.38 kJ/mol，表明生物吸附仅是与生物代谢无关的而与分子间爱德华力有关的物理吸附。
+*广东省环保局科技研究开发项目(97025)
+作者简介：女，1967年生，在读博士研究生
+作者单位：华南理工大学制浆造纸工程国家重点实验室，广州　510640
+4　参考文献
+1　Fahmy M,Kut O M,Heinzle E. Anaerobic/aerobic fluidized bed biotreatment of sulphite pulp bleaching effluents——I. Global parameters systems. Wat Res,1994,28(5):1987～1996.
+2　Duff S J B,Kennedy K J,Brady A J. Treatment of dilute phenol/PCP wastewaters using the upflow anaerobic sludge blanket (USAB) reactor. Wat Res,1995,29(8):645～651.
+　3　Neilson A H. Biodegradation of halogenated organic compounds. J Appl Bact,1990,69(3):445～470.
+4　Reineke W,Knackmuss H J.Microbial degradation of haloaromatics. Ann Rev Microbiol,1988,42(3):263～287.
+5　张自杰，周帆.活性污泥生物学与反应动力学.北京：中国环境科学出版社，1989.350.
+6　CPPA. Technical section standard method H5P,Color of Pulp Mill Effluents,1974.
+7　Kennedy K J. Biosorption of chlorophenols to anaerobic granular sludge. Wat Res,1992,26(8):1085～1092.
+8　Sparks O L. Kinetic of potassium exchange in a paleudult from a paleudult from the coastal plain of virginia. Soil Sci Soc Am J,1980,44:1205.
+9　Glorial Y. Biosorption of high molecular weight organochlorines in pulp mill effluent.Wat Res, 1994,28(9):1933～1941.
+10　Lindstorm K.Characterization of the high molecular mass chlorinated matter in spent bleach liquors (SBL) Part 1. Alkaline SBL. Holzforschung,1980,38(4):202～212.
+收稿日期：1999－03－18

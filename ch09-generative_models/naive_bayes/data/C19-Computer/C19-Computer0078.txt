@@ -1,0 +1,124 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第8期 Vol.25 No.8 1999
+
+
+
+图搜索中A*算法的SQL解法
+贾纳豫，李慧，楼荣生
+摘要：讲座图搜索的A*算法和SQL算法，利用数据库存储图中原始数据，借助SQL语言来生成A*算法要求取的解，简化了编程。
+关键词：图搜索；A*算法；SQL语言
+Use SQL Soluting A* Algorithm in Graph Searching
+Jia Nayu,Li Hui,Lou Rongsheng
+(Dept. of Computer Science,Fudan University,Shanghai 200433)
+【Abstract】Thes paper researchs two graph searching algorithms:A* Algorithm and SQI.Algorithm.It uses database to store initiative data in a graph and uses SQL to get A* Algorithm's solution,it can simplify the programming in this area.
+【Key words】Graph search;A* Algorithm;SQL language
+1 问题提出 
+　　在图中寻找最佳路径过程的算法 GraphSearch 是:
+　　(1) 建立一个只含有初始结点 s 的搜索图 G=(N,E),N={s},E= φ ，把 s 放 到一个叫做 OPEN 表的未扩展结点表中。 
+　　(2) 建立一个叫做 CLOSED 表的扩展结点表，其初始为空表。 
+　　(3) LOOP: 若 OPEN 表为空，则失败退出。 
+　　(4) 选择 OPEN 表上的第一个结点，把它从 OPEN 表移出并放进 CLOSED 表中。称此结点为 n 。 
+　　(5) 若 n 为一目标结点，则有解并成功退出，此解是追踪图 G 中沿着边从 n 到 s 这条路径而得到。 
+　　(6) 扩展结点 n ，生成不是 n 的祖先的那些后继结点的集合 M 。 
+　　(7) 令 N=N ∪ M,E=E ∪ {(n,m)|m ∈ M}, 把 M 的这些成员加进 OPEN 表。对已经在 OPEN 表或 CLOSED 表上的每一个 M 成员 m ，删去通到 s 的代价较大的边，和 OPEN 中的相应结点。如果与被删的边相连的结点，在 CLOSED 中，还要把它的后裔结点连到 m. 
+　　(8) 按某一方式重排 OPEN 表。 
+　　(9) GO LOOP 
+
+图 1 计费示意图 
+　　算法 GraphSearch 的第 8 步 ,OPEN 表上的结点进行排序，以便能够从中选出一个 ' 最好 ' 的作为第四步扩展用。 
+　　例 1 ：交通图中最小费用路线，如图 1 中五个顶点，八条边的图，边上的数据是代价。 
+　　其中 A 为起点， E 为终点。算法过程为： 
+　　第 1 ， 2 步： 
+建立 G={N,E},N={A},E= Φ 。生成 OPEN={A},CLOSED={} 
+　　第 3 ～ 9 步 
+　　第 5 趟 N=E 为目标结，成功退出。追踪上表最后一列知始点 A 到终点 E 的路径是 A → B → D → E, 代价为 11。
+表1  Open表
+开始护展NM表路径最小代价
+第1趟OPEN={}
+CLOSED={A}N=A后继B,C,DM={B,C,D}
+OPEN={B,C,D}(A B)(A C)
+(A D)
+第2趟OPEN={C,D}
+CLOSED={A,B}N=B后继C,DM={C,D}
+OPEN={C,D}(A B)(A C)
+(B C)(B D)
+第3趟OPEN={D}
+CLOSED={A,B,C}N=C后继D,EM={D,E}
+OPEN={D,E}(A B)(A C)(B C)
+(B D)(C E)
+第4趟OPEN={E}
+CLOSED={A,B,C,D}N=D后继EM={E}
+OPEN={E}(A B)(A C)(B D)
+(D E)
+第5趟OPEN={}
+CLOSED={A,B,C,D,E}N=E
+
+2 A* 算法 
+　　A* 算法中，用一个特别的估计函数 f ，其值 f(n) 表示从起始点 S 到 n 的最小代价路径与从结点 n 到目标点的最小代价路径的代价之和， f(n)=g(n)+h(n) 。即 f(n) 是从起点过 n 到达终点的一条最小代价路径的代价。因此 OPEN 表上具有最小 f 值的那个结点可作为该趟中的 N ，下步从这个结点扩展。 
+　　在图中，对任意结点 n ，定义函数 h*(n) 表示从结点 n 到达目标结点的最小代价 ( 精确的 ) ；函数 g*(n) 表示从起始结点 S 到结点 n 的最小代价；根据上述算法，有 g*(n)=g(n) 。函数 f*(n)=g*(n)+h*(n) 表示从起始结点 S 通过结点 n 到达目标结点的最小代价。若结点 n 到目标结点无通路时， h*(n) 无定义。 
+　　对于 h*(n) ，它依赖于有关的问题领域的启发信息，所以称 h* 为启发函数。 
+　　在 A* 算法工作中除了使用 OPEN 和 CLOSED 表外，还需要一个计算两点 (x,y) 间最小代价的函数 h(x,y) 。 
+　　把算法 GraphSearch 的第 4 步改为 
+　　(4) 从 OPEN 表中取出 g(n)+h(n,b) 最小的顶点 n 移出，并放入 CLOSED 。 
+　　/*g(n) 为始点 s 到 n 的代价， h(n,b) 为 n → b 的代价*/ 
+　　同时取消步骤 (8) ，便是 A* 算法。 
+　　例 2 在例 1 中，起点 A 扩展后有 3 个后继 B ， C ， D ，如图可得： 
+g*(B)=2, g*(C)=3, g*(D)=7 
+　　若选取 g* 最小的点 B 进一步扩展，得两个后继 C,D, 且 g*(D)=2+4=6,g*(C)=2+3=5, 由上次的扩展已有 g*(C)=3( 是 A-C), 所以这里 g*(C)=5( 是 A-B-C) 去除；可用这里的 g*(D)=6( 是 A-B-D) 来代替扩展 A 时的 g*(D)=7( 是 A-D) 的值。若再扩展结点 D 又得两后继 E ， C 且 g*(E)=2+4+5=11( 是 A->B->D->E),g*(C)=2+4+4=10( 是 A->B->D->C) 该值也可去除。 
+　　如果有数据库支持，可把函数 h 的精确值事先存入数据库中，则可提高算法效率。 
+3 数据库支持的图搜索算法 
+　　本节用数据库的 SQL 语言实现起始点到目标点最佳路径的图搜索问题。由于 SQL 是基于集合各关系运算的非过程性语言，没有如 A* 算法中逐步扩展的概念，解答是根据 WHERE 条件 “ 一步到位 ” 的，完全是一种新的思路。一般做法如下： 
+　　例 3 由例 1 的交通图的顶点、边及权生成一个交通图的原始数据库，其结构： 
+　　Citytraf(n1 CHAR(1),n2 CHAR(1) ， d NUMBER(2)) 如图 2 所示。并以此为出发点生成任意两点间的代价表。 
+Cityttaf 
+n1 ：A,A,A,B,B,C,C,D
+n2 ：B,C,D,C,D,D,E,E
+d ：2,3,7,3,4,4,10,5
+
+图 2 代价表 
+　　从 Citytraf 出发，可以得到任何两点间的最小代价，先生成一处理库，初始值是 
+　　Citytray 
+　　Create Table Oper(n1,n2,d) as select n1,n2,d 
+　　　　From Citytraf 
+　　从表 Citytraf 与 Oper 中各选一点 n1, n2 ，求出它们可能的路径的代价，并放入 Oper 中： 
+　　Insert into Oper 
+　　Select Citytraf.n1,Oper.n2,Citytraf.d+Oper.d 
+　　From Citytraf,Oper 
+　　Where Citytraf.n2=Oper.n1 
+　　留下权最小者： 
+　　Create Table End(n1,n2,d) /* 存放任两点的最小代价 */ 
+　　　　Insert into End 
+　　　　Select n1,n2,min(d) /* 取出 d 项最小的行 */ 
+　　　　From Oper 
+　　　　Group by n1,n2 /* 消去 n1,n2 段重复的记录 */ 
+　　由于 SQL 无递归处理功能，该两段程序需由其它方法控制反复执行若干次，直到不再生成新的行。则 End 中的记录是所有有通路的点对的最小代价。 
+　　为找出任意两点，如 A 和 E 的最小代价的路径并存入 PATH ，可如下建表： 
+　　Create Table PATH(n1,n2,d) /* 建立一个最佳路径库 */ 
+　　Insert into PATH 
+　　/* 最佳路径中从起点开始的第一条边 */ 
+　　Select C1.n1,C1.n2,C1.d From Citytraf C1,End E1 
+　　Where C1.n1='A' and E1.n1=C1.n2 
+　　　　and C1.d+E1.d=(Select d from End where n1='A' and n2='E') 
+　　UNION /* 最佳路径中除第一和最后边外中间段各边 */ 
+　　Select E1.n1,E1.n2,E1.d from End E1,End E2,Citytraf C ， End E2 
+　　Where C.n1='A' and E1.n1=C.n2 and E1.n2=E2.n1 and E2.n2='E' 
+　　　　and E1.d+C.d+E2.d=(Select d From End Where n1='A' and n2='E') 
+　　UNION /* 找最佳路径到达终点的边 */ 
+　　Select C1.n1,C1.n2,C1.d From Citytraf C1,End E1 
+　　Where C1.n2='E' and E1.n1=C1.n2 
+　　　　and C1.d+E1.d=(Select d from End where n1='A' and n2='E') 
+　　UNION /* 若最佳路径是图中一边 */ 
+　　Select n1,n2,d from Citytraf 
+　　Where n1='A' and n2='E' 
+　　最后显示表 Path 中的记录就是最佳路径经过的各结点。 
+4 结论
+　　A* 算法除了计算始点 A → S( 任一点 ) 的代价外，同时还要计算 S → B( 目标点 ) 的代价。这样 A → S → B 必然是最佳路径。从而每次总能选到 ' 正确 ' 的结点来扩展。但 A* 算法的复杂性在于计算 S → B 的最小代价上。依据不同的问题领域，找到相应的启发函数，将是 A* 算法的核心。 
+　　使用数据库方法时，由于原始数据都存在一个库中，所以算法 Graph-search 中搜索的复杂性就转化成了对原始数据库的查询的复杂性。在路径 A → S → B 的搜索中， A → S 及 S → B(S 为 A → B 路径中任一点 ) 的代价很容易用 SQL 从数据库中查询到，从中可比较出最小的代价。这时只要能把 A → B( 代价最小 ) 分解出初始点、中间各点、及目标点便为解。 
+　　SQL 解法的特点是避免了繁杂的编程问题，由于 SQL 是非过程性语言，只要正确写出了最佳路径的条件，程序就能自动找到这一路径中的边，在数据库环境下很容易实现，所谓编程就是要合理的数据库设计和恰到好处地写出条件，但是标准 SQL 语言还不能处理 3GL 所能处理的全部问题，从文中已看出，递归功能在 SQL 中无法解决，还有一些问题虽然能解但效率低下，故在有些 SQL“ 方言 ” 中加入了一些设施以扩展它的功能，如 DB2 中的 WITH 语句， Oracle 中的 PL/SQL 等，但由于这些都是非标准设施，影响了程序的可移植性，本文不予讨论，但普遍做法是把 SQL 嵌入到一个 3GL 语言中，这就迫使现在的 DBMS 都要有连接 3GL 语言的能力，如果一个问题存在 SQL 算法，就不必求助于 3GL ，故 SQL 算法的研究是很有意义的。
+作者单位：复旦大学计算机系，上海 200433
+参考文献 
+1 蔡子经 , 施伯乐 . 数据结构 . 上海：复旦大学出出版社 ,1994 
+2 王朝瑞 . 图论 . 国际出版社 ,1985 
+3 胡运发 . 新型程序设计方法 . 复旦大学计算机系 ,1991 
+4 施伯乐 , 丁宝康 , 楼荣生 . 数据库系统导论 . 北京：高等教育出版 社 ,1994 

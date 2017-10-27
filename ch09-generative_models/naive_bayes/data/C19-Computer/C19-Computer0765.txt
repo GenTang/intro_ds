@@ -1,0 +1,79 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1999年　第25卷　第5期　Vol.25 No.5 1999
+
+
+
+
+一类非线性相似组合系统的鲁棒分散控制器的设计
+陈　兵　井元伟　张嗣瀛
+摘　要　对于一类非线性组合系统提出了系统的相似性结构的定义，讨论了这类具有相似性结构的非线性结构不确定组合系统的鲁棒分散镇定问题.利用系统的相似性结构,采用输入、输出线性化与滑模控制原理相结合的方法所设计出的鲁棒分散控制器可确保闭环系统是渐近稳定的.研究结果表明系统的相似性结构使设计的滑动面和分散控制器亦具有相似结构,从而简化了对系统的分析与设计. 
+关键词　相似性结构，鲁棒分散镇定，非线性组合大系统.
+DESIGN OF DECENTRALIZED ROBUST CONTROLLER FOR A CLASS OF NONLINEAR COMPOSITE SYSTEMS WITH SIMILARITY
+CHEN Bing　JING Yuanwei　ZHANG Siying
+(School of Information Science and Engineering, Northeastern University,Shenyang　110006)
+Abstract　In this paper,the similar structure is defined for a class of nonlinear composite systems,and the decentralized robust stabilization is discussed for a class of nonlinear uncertain composite systems with similar structure.By using the similar structure of system and the input-output linearizing method together with sliding mode control theory,robust decentralized controllers are designed to guarantee the closed-loop systems is asymptotically stable.Our researching result shows that the sliding model and decentralized controller designed in this paper also have similarity because of the similar structure of the composite systems.This can simplify the analysis and design of systems.
+Key words　Similar structure, robust stabilization,nonlinear composite systems.
+1　引　言
+　　文献［1］提出了复杂控制系统的相似性结构和全息控制的概念,主张对具有特定结构的复杂控制系统要充分利用其自身结构特点来研究其控制问题.目前,对于线性组合系统在相似性结构方面的研究已经取得了一些好的结果［2—4］.而对于非线性组合系统,特别是非线性不确定组合系统方面的研究结果尚不多见.另一方面,由于各种原因控制系统中总是具有一些不确定因素.因此,非线性不确定组合系统的鲁棒分散控制问题近年来一直受到广泛地关注.
+　　本文试图利用相对度概念为工具给出对于一类非线性组合系统的相似性结构的一种刻划,并考虑具有相似性结构的非线性结构不确定组合系统的鲁棒分散镇定问题.利用系统的相似结构研究控制问题以简化问题的复杂性,采用滑模控制方法设计出鲁棒分散控制器以确保闭环系统是渐近稳定的.
+2　系统的描述及预备知识
+　　考虑由N个子系统互联而成的非线性不确定组合大系统
+　(1)
+其中xi∈Rn,ui∈Rm,yi∈Rm分别表示第i个子系统的状态、控制输入、输出向量；fi(.),gi(.)=［gi1(.)…gim(.)］是光滑向量场;Δfi(.),Δgi=［Δgi1(.)…Δgim(.)］,hij(.)是未知的光滑向量场；它们分别表示了第i个子系统在结构上的不确定性.
+　　假定坐标原点是系统(1)的平衡点.本文的问题是构造分散状态反馈控制器使闭环系统在其平衡点处是渐近稳定的.
+　　定义.称系统xi=fi(xi)+gi(xi)ui,yi=hi(xi)是系统(1)的第i个标称子系统.如果系统(1)的每个标称子系统在其平衡点附近有相同的向量相对度r=｛r1,…,rm｝,则称系统(1)具有相似性结构.
+　　假设1.存在未知函数矩阵Φi(xi)和向量φij(xj)使得下式成立
+Δgi(xi)=gi(xi)Φi(xi),　hij(x)=gi(xi)φij(xj).　(2)
+本文中,总是假定系统(1)具有相似性结构.利用文献［5］中的定理,知存在微分同胚变换(zi,zir,ηi)=Ti(xi)(i=1,2,…,N)，当取控制律ui=A-1i(wi-bi)时结合假设1，在新坐标系下，系统(1)可表示成下述形式
+　(3)
+其中Ai是解耦矩阵,bi=［Lr1fihi1…Lrmfihim］,常数矩阵Ak,Bk的结构可见文献［5］.Δbi1,Δbi2,ΔAi,Aiφij则表示了在新坐标下第i个子系统的不确定性.注意到Δqi是原系统中非匹配的不确定性对零动态系统的影响,而文献［6］在研究控制问题时却忽略了对这种影响的讨论.
+　　对于系统(1)和系统(3)的进一步假定是
+　　假设2.零动态系统是指数稳定的,且存在正数Li使得下式成立
+‖qi(zi,zir,ηi)-qi(0,0,ηi)‖≤Li‖(zi,zir).‖　(4)
+　　根据假设2,存在Lyapunov函数vi0(ηi)及正数ci1,ci2,ci3,ci4满足下面的不等式
+(5)
+　　假设3.存在非负实数ai1,ai2使下式成立
+‖Δqi(zi,zir,ηi)‖≤ai1‖(zi,zir‖+ai2‖ηi‖.　(6)
+　　假设4.存在非负实值函数d(.),dij(.)满足下列不等式
+‖Δfi(.)‖≤di(.),　　‖φij(.)‖≤dij(.).　(7)
+3　滑动面及鲁棒分散控制器的设计
+　　选取矩阵C使得矩阵diag［A1…Am］-diag［B1…Bm］C=A0是Hurwitz稳定的.则滑动面可设计为
+Si=Czi+zir,　　i=1,2,…,N.　(8)
+记
+Mi1=［(dhi1)T…(dLi1-2fihil）T…(dhim)T…(dLrm-2fihim)T］T,
+Mi2=［(dLr1-1fihi1)T…(dLrm-1fihim)T］T,
+则鲁棒分散控制器可设计如下
+wi=-(ki1+k0STiSi)sgnSi,　(9)
+
+
+而其中正常数ri,ε是设计参数.λi将在下文给出.
+　　利用变换(zi,zir,ηi)=Ti(xi)及式ui=A-1i(wi-bi)可得到系统(1)的分散控制器.
+ui=-A-1i［(ki1+k0)sgnSi+bi］(zi,zir,ηi)=Ti(xi).　(10)
+对于系统(1)的鲁棒分散镇定问题有下述结论
+　　定理.在假设条件1—4下,考虑非线性不确定组合系统(1).如果下列条件成立
+1)ci3-ci4ai2＞0,　　2)‖ΔAiA-1i‖≤λi＜1,
+则相似组合系统(1)可由分散控制器(10)实施鲁棒分散镇定.
+　　证.根据文献［5］只证明系统(3)可由控制器(9)分散镇定即可.选择Lyapunov函数为
+
+其中正定矩阵P满足矩阵方程AT0P+PA0=-2I.
+　　利用熟知的不等式及等式结合式(5)易得
+　(11)
+　　选择ε使得ci3-ε-ci4ai2=ki0＞0,然后选择ri使得由式（11）得到
+　(12)
+至此,定理结论得证.
+4　结束语
+　　本文讨论了一类具有相似性结构的非线性不确定组合系统的鲁棒分散镇定问题.利用系统的相似性结构,采用滑模控制方法设计出系统的鲁棒分散控制器以确保闭环系统是渐近稳定的.系统的相似结构使得所设计的各个滑动面和各个分散控制器在结构上也具有相似性,从而简化了对系统的分析与设计工作.
+1) 国家自然科学基金(69774005)、国家教委博士点基金(97014508)、攀登计划及辽宁省教委高校科研基金(9709211121)资助项目.
+作者简介：陈　兵　1958年生人.锦州师范学院教师,现在东北大学信息科学与工程学院攻读博士学位.研究方向为：复杂系统的结构性质研究及鲁棒控制.
+　　　　　井元伟　1956年生人.于1993年在东北大学获得控制理论与控制工程工学博士学位.现为东北大学信息科学与工程学院教授.研究方向为复杂系统的结构性质研究,微分对策及鲁棒控制等.
+作者单位：东北大学信息科学与工程学院135信箱　沈阳　110006
+参考文献
+1　张嗣瀛. 复杂控制系统的对称性及相似结构, 控制理论与应用,1994,11(4):231—237.
+2　Yang G H, Zhang S Y. Structural properties of large-scale systems possessing similar structure. Automatica, 1995, 31(2):1080—1086
+3　Liu X P. Optimal control problem for large-scale composite systems with similarity. Control-Theory and Advance Technology. 1993, 9(2): 597—606
+4　杨光红, 张嗣瀛. 一类具有相似结构的组合系统的结构可控性与渐近合作性质.自动化学报. 1995,21(5): 521—528
+5　Isidori A. Nonlinear Control Systems, Berlin Spring-Verlog, 1989.
+6　Hakan.E，Olgac N, Robust output tracking of nonlinear MIMO systems via sliding mode technique. Atomatica, 1992,28(1): 145—156
+收稿日期：1997-03-31
+修稿日期：1999-01-25

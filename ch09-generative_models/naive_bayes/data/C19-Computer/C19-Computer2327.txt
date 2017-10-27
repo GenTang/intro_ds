@@ -1,0 +1,140 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999　Vol.36　No.6　P.751-757
+
+
+
+部分三维算法的最优线性阵列设计
+杨超峰　胡铭曾
+摘　要：自80年代末，处理器阵列研究的一个新方向是设计线性阵列.在这方面，Lee和Kedem作出了开创性的工作，他们提出了一个线性阵列设计框架.但是，目前还没有一个有效的设计方法.在文中，提出了一个线性阵列的设计方法，基于它，线性阵列的设计者通过分析算法对应的数据依赖图（DG）的最长路径，就可以获得可行的设计.该法适用于所有三维算法，对于满足特定条件的算法，能设计出运算时间最优的阵列.最后，以矩阵乘和传递闭包为例，文中演示了该法的应用.
+关键词：Systolic阵列，VLSI，处理器阵列，线性处理器阵列 
+分类号：TP302.1；TP338.7
+SYNTHESIZING COMPUTATION-TIME OPTIMAL 
+LINEAR PROCESSOR ARRAYS FOR SOME 
+THREE-DIMENSIONAL ALGORITHMS
+YANG Chao-Feng，HU Ming-Zeng
+(Department of Computer Science and Engineering, Harbin Institute of Technology, Harbin 150001)
+Abstract　Since the late 1980s, one trend of research on processor arrays is to design linear processor arrays. Lee and Kedem did the pioneer's work in this field as they proposed a framework for designing linear arrays. Their framework consists of three parts: the first part is a linear array model; the second part uses pairs (H, S), whereH and S are vectors, to denote designs; and the third part is a group of necessary and sufficient conditions for pairs (H, S). Thus far, there are no practical design methodologies proposed in the literature. In the paper here, a design methodology is presented for three-dimensional algorithms. This methodology is based on two observations: first, given a three-dimensional algorithm, designers can directly determine several feasible pairs (H, S) by analyzing the longest path of the dependence graph (DG) of the algorithms; second, if the longest path satisfies a certain condition, one of these pairs (H, S) is computation-time optimal. In summary, this methodology can produce computation-time optimal design for some three-dimensional algorithms. Finally, the matrix multiplication and the transitive closure problem are taken as examples to illustrate the application of the methodology. 
+Key words：systolic array, VLSI, processor array, linear processor array▲
+1　引　　言
+　　对于大运算量的问题，如信号处理、图像处理等，处理器阵列是很好的解决方案［1］.一直以来，人们设计的是二维阵列，到80年代末，出现了一个新趋势，那就是设计线性阵列［2］，所谓线性阵列，并不仅仅是一些处理单元连成一维结构，还要求仅在阵列两端有I/O端口.它有两个突出的优点：①仅在阵列两端有I/O端口，其复杂性低，易于与通用处理器或其它部件集成；② 没有时钟扭斜(clock skew)问题，时钟同步容易.实际上，二维阵列和线性阵列只是形象的叫法，严格地说，二维阵列是三维算法到二维阵列的映射，线性阵列是三维或三维以上算法到一维阵列的映射.线性阵列看起来是二维阵列的简单扩展，实际上，线性阵列的设计要困难地多，人工设计几乎不可能，因为需将算法作超低维的映射，人工难以保证映射的正确性，更不要说最优化设计了.
+　　Lee和Kedem在系统化设计方面作出了开创性的工作［3］，他们提出了一个线性阵列的设计框架，包括一个线性阵列的结构模型以及一组正确设计应满足的条件.但是，至今还没有一个有效的系统化设计方法.
+　　本文提出了一个设计方法，对于一类满足特定条件的三维算法，它能设计出运算时间最优的阵列.在后文，首先简要地论述Lee和Kedem的设计框架，然后论述本文的方法，最后是两个设计示例.
+2　线性阵列的设计框架
+　　专用运算阵列求解的对象是P重循环的算法，提取算法的所有迭代间数据依赖向量［4］，构成依赖矩阵D(如下).从而，算法可以用迭代空间J、依赖矩阵D、每个迭代的运算F来刻画.
+D=(d1 d2 … dk)
+　　V1 V2 … Vk
+　　di是依赖向量，Vi是对应di的变量.注意：k个Vi及di可以重复.因为一个变量可以有多个依赖向量，不同变量可以有相同的依赖向量.
+　　Lee和Kedem提出了一个线性阵列模型［3］(图1)，该模型没有通常线性计算系统所具有的局部存储器、高速数据链路等机制，避免了预装入数据、排出结果、存储器寻址、链路控制所需的复杂的控制逻辑，从而，易于VLSI实现.其主要特点是：对应D中的每个di，阵列上都有一个数据链路Ai，供Vi输入并在阵列中传输.图1中只画出了两个链路(应该有k个)，其它的与它们之一相同，或者从左到右，或者从右到左.
+
+
+bi对应的方框是移位寄存器组.bi是其长度
+图1　线性阵列模型
+　　Lee和Kedem将线性阵列的设计归结为寻找两个行向量H和S，由它们将算法映射到阵列上，具体地，迭代点I(∈J)将在HI时刻在处理单元SI上运算.举例来说，在图2中，H=(1 2 7)，S=(1 1 1 )，迭代点I=(1 1 1)T将在时刻HI=10在处理单元SI=3上运算.
+
+
+
+　以N=3为例，此时H=(1 2 7),S=(1 1 1)
+　　　　　　　　　　　　　　图2　传递闭包的时-空映射图 
+　　对于一个算法，确定了H和S后，其相应的线性阵列就确定了：
+　　①PE个数：M=max{SI|I∈J}-min{SI|I∈J}+1.
+　　②链路Ai：设其对应依赖向量di，则移位寄存器组长度bi=|Hdi/Sdi|,若Sdi>0,则方向从左到右，否则，从右到左.
+　　③运算时间T=max(HI|I∈J)-min(HI|I∈J)+1(后文忽略常数1).实际上，它是块流水时间(即连续两个任务的运算时间间隔)，因为专用运算阵列通常应用于连续任务流的场合，此时运算时间等于块流水时间.
+　　Lee和Kedem证明了H和S应满足：(i=1,2,...,k)
+　　　Hdi>0　　　　(1)
+　　不存在两个迭代点I1,I2, 满足
+　　(2)
+|HdI/Sdi|为大于0的整数　　(3)
+　　若(I2-I1）≠mdi ,m是整数,则
+H(I2-I1)Sdi≠S(I2-I1)Hdi　　(4)
+　　条件(1)式要求若I2依赖于I1，I2要比I1后计算，这是正确计算所必需的.条件(2)式要求没有两个迭代点在同一时刻映射到同一处理单元，因为一个处理单元一个时刻仅能处理一个运算.对应一个变量仅有一个链路，若该变量的两个数据要同时输入阵列，则出现了输入冲突，满足条件(4)式保证了不会出现这种情况.　　　
+　　文献［5］提出了GPM(general parameter method)，该方法使用一组不同的参数，不过，它们与H和S是等价的.
+　　设计线性阵列的基本过程是：按照一定的策略枚举二元组(H,S)，对每一(H,S)，用条件(1)～(4)式判定是否可行，从而获得最优解.但是，整个过程的计算复杂性很高，其原因是判断是否满足条件(2)、(4)式的计算量极大，因为要枚举任意两个迭代点.因而，至今文献中还没有有效的设计方法.在本文，将提出一个设计方法，它针对于三维算法，对于满足特定条件的算法，能设计出运算时间最优的阵列.
+3　H和S的确定
+　　定理1. 条件(2)式被条件(1)、(4)式蕴涵.
+　　证明.用反证法.假设条件(2)式不满足，那么，存在两个迭代点I2,I1，满足H(I2-I1)=0且S
+(I2-I1)=0.设Sdi≠0，若I2-I1=mdi，则0=H(I2-I1)=mHdiHdi=0，条件(1)式不满足；否则，I2
+-I1≠mdi，而H(I2-I1)=0且S(I2-I1)=0H(I2-I1)Sdi =0且S(I2-I1)Hdi=0H(I2-I1)Sdi=S(I2-I1
+)Hdi，则条件(4)式不满足.因此假设错误.　　　　　　　　　　　　　　　　　　　　　证毕.
+　　根据该定理，判定H和S的正确性仅需条件(1)、(3)、(4)式.
+　　本文的方法针对于三维算法.实际上，限于三维算法的约束并不严格，因为三维以上算法很少，况且可以将它们分割为一系列三维的子任务来求解.对于三维算法，可以得到一个基向量组(有3个向量，设为d1,d2,d3)，算法的所有依赖向量能用它们正整系数线性组合［6,7］，从而，可以将有3个以上不同依赖向量的算法规整化为仅有3个不同的依赖向量.这样一来，就简化了H和S应满足的条件，特别是条件(4)式，仅剩下3个不等式(分别对应d1,d2,d3).
+　　下文，首先在定理2中提出确定H和S的方法，然后证明对于满足一定条件的算法，由该法确定的H和S是运算时间最优的.
+　　算法可用数据依赖图(DG)等价表示［8］，它是一个有向图，其节点集是J，边是依赖向量，若I2以依赖向量di依赖于I1，则I2,I1 间有一条对应di的边.算法的运算时间决定于DG的最长路径，设最长路径为N1d1+N2d2+N3d3 ,那么运算时间T=max(HI|I∈J)-min(HI|I∈J) =N1Hd1+N2Hd2+N3Hd3.注意：最长路径应是加权最长路径，因为不同边的运算时间不同，即权不同(对应依赖向量di的边，其权为Hdi).确定加权最长路径的方法为：若N1=max(C1|所有DG的路径C1d1+C2d2+C3d3)，同理，N2对应C2，N3对应C3，则N1d1+N2d2+N3d3是加权最长路径(后文出现的N1,N2,N3含义与此相同).
+　　定理2. 设N=max(N1,N2,N3),那么映射(H,S)是正确的，其中HD = (1,2,N),SD =(1,1,-1).
+　　证明.条件(1)、(3)式显然满足.下面证明满足条件(4)式，对于DG中的任意两个迭代点I2，I1，(I2-I1)可以表示为C1d1+C2d2+C3d3,C1,C2,C3是整数.由N1,N2,N3的定义可知|C1|,|C2|,|C3|≤N.
+　　对于d1(其中，C2,C3不同时为0,不然I2-I1 =md1 ),要满足:
+　　
+　　因为|C2|≤N，不等号显然成立.同理，对于d2,有C1≠（N+2)C3；对于d3,有-C2≠(N+1)(C1+C2),该两式的不等号成立.　　　　　　　　　　　　　　　　　　　　　　　　　　　证毕.
+　　因为3个依赖向量可以任意排列来构成D，即D有P33种选择.设i=N1,N2,N3中最小值的下标,j=
+N1,N2,N3中最大值的下标，k=N1,N2,N3中间值的下标，取D=(dj,dk,di)，那么，按照此D和定理2
+确定的H和S，运算时间T=NiHdi+NjHdj+NkHdk=NiNj+Nj+2Nk≤NLNS+3NL,其中NL=max
+(N1,N2,N3),NS=min(N1,N2,N3).
+　　下面证明：若N1,N2,N3中某两个相等且它们比另一个大，即Nj=Nk=NL,NS=Ni ,那么，上面的运算时间是最优的(定理3).满足该条件的算法有矩阵乘、传递闭包、矩阵逆、最短路径等一系列涉及矩阵运算的算法.
+　　引理1. (H ,-S )与(H ,S )是时空复杂性等价的.
+　　证明.这只不过将所有数据链路的方向颠倒，详细证明过程略.
+　　推论1.Sd1，Sd2，Sd3的符号只有两种情况，全正或两正一负.
+　　设Hd1/Sd1=k1,Hd2/Sd2=k2,Hd3/Sd3=k3，关于k1,k2,k3有下面的结论.
+　　引理2. k1， k2， k3两两不相等.
+　　证明.用反证法，不妨设k1=k2，即Hd1/Sd1=Hd2/Sd2Hd1Sd2=Hd2Sd1 .取两个迭代点I2，I1 ,满足(I2-I1)=md2，那么(I2-I1)≠md1.但是H(I2-I1)Sd1=Hmd2 Sd1 = mHd1 Sd2 = Smd2 Hd1 = S(I2-I1)Hd1，因而条件(4)式不满足，假设错误.　　　　　　　　　　　　　　　　　　证毕.
+　　定理3. 运算时间T≥N1,N2,N3的两者之积再加上它们之和.
+　　证明.运算时间T = N1Hd1+N2Hd2+N3Hd3 = N1k1Sd1+N2k2Sd2+N3k3Sd3.
+　　由条件(4)式,可得下面3个不等式.
+　　对于d1，其中C2,C3不同时为0：
+　
+　　同理，对于d2(C1,C3不同时为0)：
+C1(k1 - k2)Sd1≠C3(k2 - k3)Sd3　　(6)
+　　对于d3(C1,C2不同时为0)：
+C1(k1 - k3)Sd1≠C2(k3 - k2)Sd2　　(7)
+　　由推论1，Sd1,Sd2,Sd3的符号只有两种情况，全正或两正一负：
+　　若全正，不妨设k1 = min(k1,k2,k3)，由引理2,k1<k2 ,k1<k3.考虑(5)式，|(k2-k1)Sd2|>N3或|(k1-k3)Sd3|>N2.否则，根据N1,N2,N3的定义，可取C2 =(k1-k3)Sd3,C3 =(k2-k1)Sd2,使得(5)式不成立.不妨设|(k2-k1)Sd2|>N3，由于(k2-k1)Sd2>0,则(k2- k1)Sd2>N3，则k2Sd2>N3+k1Sd2，那么T≥N1k1Sd1+ N2(N3+k1Sd2+1)+N3k3Sd3≥N1+N2N3+2N2+N3.
+　　若有一个为负，不妨设为Sd3<0,即k3<0,又不妨设k1<k2(由引理2知k1≠k2).考虑式(5), |(k2-k1)Sd2|>N3或|(k1-k3)Sd3|>N2，分情况讨论：
+　　当|(k2-k1)Sd2|>N3时，与全正时相同.
+　　当|(k1-k3)Sd3|>N2，由于(k1-k3)Sd3 <0,则(k1-k3)Sd3<-N2k3Sd3>N2+k1Sd3,那么T≥N1k1Sd1+N2k2Sd2+N3(N2+k1Sd3+1)= N1k1Sd1+N2k2Sd2+N3N2+N3k1Sd3+N3,(注意N3k1Sd3<0).
+　　若N1Sd1+N2Sd2≥ -N3Sd3,则N1k1Sd1+N2k2Sd2≥N1k1Sd1+N2(k1+1)Sd2≥k1(N1Sd1+N2Sd2)+N2Sd2≥-k1N3Sd3+N2,因而,T≥N3N2+N2+N3.
+　　若-N3Sd3>N1Sd1+N2Sd2,由式(7),|(k1-k3)Sd1|>N2或|(k3-k2)Sd2|>N1,不妨设|(k1-k3)Sd1|>N2,由于(k1-k3)Sd1>0（k1-k3)Sd1>N2k1Sd1>N2+k3Sd1,那么,T≥N1(N2+k3Sd1+1) +N2k2Sd2+N3k3Sd3 = N1N2+N1+N2k2Sd2+k3(N1Sd1+N3Sd3),由于k3(N3Sd3+N1Sd1)>k3(-N2Sd2)≥N2,因此,T > N1N2+N1+N2k2Sd2+N2≥N1N2+N1+3N2.
+　　综上所述，证得该定理.
+　　由定理3，若N1,N2,N3满足某两个相等且它们比另一个大，则运算时间T≥NLNS+NL+NS.而定理2的运算时间T≤NLNS+3NL,偏差小于2NL.通常NS与问题的大小有关，远大于2.事实上，定理3仅是一个下限，不一定能取到，例如，当N1=N2=N3时，定理2的设计是绝对最优的.因而，可认为定理2的设计是运算时间最优的.
+　　综上所述，H和S的确定归纳为：计算所有依赖向量，找到它们的基向量组d1,d2,d3；获得DG的加权最长路径，设i=N1,N2,N3中最小值的下标,j =N1,N2,N3中最大值的下标，k =N1,N2,N3中间值的下标，取D =(dj ,dk ,di)，再确定H =(1 2 Nj)D-1, S =(1 1 -1)D-1.
+4　设计示例
+　　(1)矩阵乘(N×N矩阵)
+　　矩阵乘是最规整的算法，其DG是一个立方体，其3个依赖向量为d1=(1 0 0)T,d2=(0 1 0)T,d3=(0 0 1)T.最长路径为(N-1)d1+(N-1)d2+(N-1)d3，取D =(d1,d2,d3)，则D-1 为单位矩阵，H =(1 2 N-1)D-1 =(1 2 N-1)，S =(1 1 -1)D-1 =(1 1 -1),运算时间T=(N-1)+2(N-1)+(N-1)×(N-1)= N2+N-3.该设计已由文献［3］提出，不过它没能证明它是最优的.
+　　(2)N×N矩阵的传递闭包
+　　传递闭包较复杂，几乎所有处理器阵列的系统化设计方法都以它为演示示例，其串行算法(Warshall-Floyd算法)如下：
+　　for k,i,j = 1 to N
+　　　　C［i,j］ = C［i,j］∨(C［i,k］∧(C［k,j］)
+　　end-for
+　　直接由上面的算法得到的DG很不规整，文献［9］将其规整化，如图3(a)和图3(b)，图3(a)是其每一个i-j平面的结构，图3(b)是两个相邻i-j平面间的结构.由此可见，共有5个依赖向量：d1=(1 0 0)T,d2=(0 1 0)T,d3=(-1 -1 1)T,d4=(0 -1 1)T,d5=(-1 0 1)T.
+
+
+
+图3　传递闭包的DG
+设计过程如下：
+　　①因为d4=d1+d3,d5=d2+d3,可以进一步改造DG，如图3(c)，在除最后一个(k=N)外的所有i-j平面上增加一些迭代点(阴影内)，它们的作用是将d4,d5分别用d1+d3和d2+d3替代，从而依赖向量仅剩d1,d2,d3.
+　　②最长路径为:(1,1,1)T→(1,N,1)T→(N,N,1)T→(1,1,N)T→(N,1,N)T→(N,N,N)T，其长度为2(N-1)d1+2(N-1)d2+(N-1)d3，则N1=2(N-1),N2=2(N-1),N3=N-1.那么,i=3,j=1,k=2.　　
+
+H =［1 2 2(N-1)］D-1 =(1 2 2N+1)，
+S =(1 1 -1)D-1 =(1 1 1) 
+　　运算时间T = 2(N-1)×(N-1) + 2(N-1)×2 + 2(N-1)= 2N2+ 2N - 4.
+　　③PE结构：如图4，有3个数据链路A1,A2,A3,分别对应d1,d2,d3.其中，链路A1:b1 =|Hd1/Sd1|=1，从左到右；链路A2:b2 =|Hd2 /Sd2|= 2，从左到右；链路A3:b3 =|Hd3 /Sd3|= 2(N-1)，从右到左.另外，PE内还应有一个控制器，图2是时空映射图，它集中体现了各PE在各个时刻要完成的操作，是控制器的设计基础.至于设计细节，本文不再赘述.
+
+
+图4　传递闭包的PE结构
+5　总　　结
+　　本文提出了一个针对于三维算法的线性阵列的设计方法.对于满足一定条件的算法，该方法设计出的阵列是运算时间最优的.最后，以矩阵乘和传递闭包为例演示了本文方法的使用.■
+基金项目：本课题得到国家“八六三”计划基金资助(项目编号863-306-03-07-2).
+作者简介：杨超峰，男，1971年生，博士研究生，主要研究方向为高性能计算、高性能体系结　　　　　　构等.
+　　　　　胡铭曾，男，1935年1月生，教授，博士生导师，主要研究方向为高性能计算、高　　　　　　性能体系结构、网络计算等.
+作者单位：杨超峰（哈尔滨工业大学计算机科学与工程系　哈尔滨　150001）
+　　　　　胡铭曾（哈尔滨工业大学计算机科学与工程系　哈尔滨　150001）
+参考文献：
+［1］Kung H T.Why systolic architecture.Computer, 1982, 15(1): 37～46
+［2］Darte A,Risset T,Robert Y.Synthesizing systolic arrays: Some recent developments. In: Int'l Conf on Application Specific Array Processors. IEEE CS Press, 1991. 372～386
+［3］Lee P, Kedem Z M. Synthesizing linear array algorithms from nested for loop algorithms. IEEE Trans on Computers, 1988, 37(12): 1578～1598
+［4］Banerjee U. An introduction to a formal theory of dependence analysis. Journal of Supercomputing, 1988, (2): 133～149
+［5］Ganapathy K,Wah B W.Optimal synthesis of algorithm-specific lower-dimensional processor arrays.IEEE Trans on Parallel and Distributed Systems, 1996, 7(4): 274～287
+［6］Tzen T H,Ni M.Dependence uniformization:A loop parallelization technique.IEEE Trans on Parallel and Distributed Systems,1993, 4(5): 547～558
+［7］Shang W, Chen Z. On uniformization of affine dependence algorithms. IEEE Trans on Computers, 1996, 45(7): 827～839
+［8］Kung S Y. VLSI Array Processors. Englewood Cliffs, NJ: Prentice-Hall , 1988. 110～140
+［9］Kung S Y, Lo S C, Lewis P S. Optimal systolic design for the transitive closure and the shortest path problems. IEEE Trans on Computers, 1987, C-36(5): 603～614
+收稿日期：1998-08-18
+修稿日期：1998-11-30

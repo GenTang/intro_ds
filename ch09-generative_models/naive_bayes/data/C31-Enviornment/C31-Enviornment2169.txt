@@ -1,0 +1,38 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.24-28
+
+
+
+
+广州市I/M计划升级及其在机动车NOx减排中的效果
+邵敏　 张远航　 孙永福
+摘　要：以广州市为例，系统地讨论了机动车污染控制中的检查维护计划(I/M)。评估了广州市现行的I/M计划的实施情况及存在的问题，针对广州市NOx污染控制目标，提出了广州市I/M计划升级的技术考虑，并对建议的两种加载I/M计划ASM和IM240进行了初步的费用效果分析。
+关键词：检查维护计划；机动车；污染控制；费效分析
+分类号：X32.012　文献标识码：A
+文章编号：1001-6929(2001)03-0024-05
+The Upgrade of I/M System in Guangzhou and Its Effects in Vehicular NOx Emission Abatement
+Abstract：Taking Guangzhou for the case study, this paper discussed systematically I/M system for vehicular emission control. The effect and problems of current I/M system in Guangzhou were assessed.Aiming at the air quality target of NOx in Guangzhou,two loaded test I/M systems,namely,ASM and IM240 were suggested.The cost-effectiveness of these two upgraded I/M systems was analyzed.
+Keywords：inspection and maintenance system (I/M); vehicular; pollution control; cost-effective analysis
+作者简介：孙永福(1956-)，男，北京市人，北京大学博士研究生. 
+作者单位：邵敏（北京大学环境科学中心环境模拟与污染控制国家重点联合实验室，北京 100871）　
+　　　　　张远航（北京大学环境科学中心环境模拟与污染控制国家重点联合实验室，北京 100871）　
+　　　　　孙永宝福（北京大学环境科学中心环境模拟与污染控制国家重点联合实验室，北京 100871）　
+
+参考文献：
+［1］Zhang Yuanhang,Shao Kesheng,Tang Xiaoyan,et al.The study of urban photochemical smog pollution in China [J].Acta Scientiarum Naturalium Universitatis Pekinensis,1998:34(2～3):392～400.
+［2］谢绍东.广州市机动车排气污染研究[R].北京大学博士后工作报告.北京：北京大学,1998.47～512.
+［3］F Asif,S W Christopher,P W Michael.Air pollution from motor vehicles,standards and technologies for controlling emissions [J].Washington:The World Bank,1996.
+［4］William M Pidgeon,Daniel J Sampson,Paul H Burbage IV.Evaluation of a four-mode steady-state test with acceleration simulation modes as an alternative inspection and maintenance test for enhanced I/M programs[J].Michigan:EPA-AA-AQAB-93-01,1993.
+［5］U S EPA.EPA I/M Briefing Book:Everything you ever wanted to know about inspection and maintenance [J].Washington:EPA-AA-EPSD-IM-94-1226,United States Environmental Protection Agency,Office of Air and Radiation Washington,D.C.1995.
+［6］Acceleration simulation mode test procedures,emission standards,quality control requirements,and equipment specifications——Technical Guidance[J].Michigan:EPA-AA-RSPD-IM-96-2,1996.
+［7］High-tech I/M test procedures,emission standards,quality control requirements,and equipment specifications:IM240 and functional evaporative system tests——Revised Technical Guidance[J].Michigan:EPA-AA-RSPD-IM-96-1,1996.
+［8］IM240 & evaporation technical guidance [J].Michigan:EPA420-R-00-007,2000.
+［9］Thomas C Austin,Larry Sherwood.Development of improved loaded-mode test procedures for inspection and maintenance programs [J].Government/Industry Meeting and Exposition,Washington,DC,1989.
+［10］[10[J]] Weaver C S,L M Chan.Analysis of CARB ASM and IM240 Data,memorandum,engine,fuel and emissions engineering [J].California:Inc.Sacramento,1994.
+［11］[11[J]] Rob Lee,Joanna Pedley,Christine Hobbs.Fuel quality on heavy duty diesel emissions:A literature review [J].International Fall Fuels and Lubricants Meeting and Exposition San Francisco,California:October,1998.
+［12］[12[J]] Michael P Walsh.Motor vehicle pollution control in China:An urban challenge [J].Washington:consultant report,1995.105～151.
+［13］[13[J]] Chan L,M Reale.Emissions factors generated from MOBILE5a.Engine,Fuel,and Emissions Engineering [J].Califonia:Sacramento Inc.,1994.
+
+收稿日期：2000年11月10日
+出版日期：2001年5月30日

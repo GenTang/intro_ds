@@ -1,0 +1,101 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+神经网络的规则提取研究
+黄源　萧嵘　张福炎
+摘　要　文中论述了作为解决神经网络“黑箱问题”有效手段的规则提取方法，分析了基于结构分解和输入输出映射的神经网络规则提取的各种算法，概括了它们的基本思想并分析了它们的优劣，在相似权值法的基础上提出CSW算法，有效解决了连续值输入网络的规则提取问题.将CSW算法应用于IRIS分类问题取得了良好的效果.
+关键词　神经网络，规则提取，结构分解法，输入输出映射法
+中图法分类号　TP18
+AN APPROACH TO RULE EXTRACTION OF NEURAL NETWORKS
+HUANG Yuan，XIAO Rong, and ZHANG Fu-Yan
+(State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing　210093)(Institute of Multimedia Computing Technology, Nanjing University, Nanjing　210093)
+Abstract　In this paper, the rule extraction of neural networks is discussed, which is an effective method to avoid the shortcoming of being “black boxes”. Techniques based on decompositional and input-output mapping approaches are studied and their fundamental concepts and evaluates their performances are generalized. Based on similar weight approach, the CSW approach is proposed to efficiently solve the rule extraction from continuous-input neural networks. CSW is applied in IRIS Flower Classification Problem,and experiment results show that rules extracted by our method are accurate and comprehensible.
+Key words　neural network, rule extraction, decompositional approach, input-output mapping approach
+　　神经网络技术近年来在各领域得到广泛应用，它通过对训练集的反复学习获取知识，具有直观性、并行性、鲁棒性和抗噪性，在噪声和数据不完整情况下能够高质量建模.和基于符号的传统AI技术相比，神经网络技术主要缺点是获得的知识隐含在网络的一系列连接和权值中，处理过程无法为用户所理解，模型对于用户来说是一个黑箱.由于缺乏透明性，在数据挖掘和决策支持领域，以及在安全性能要求很高的关键应用方面，神经网络技术往往被认为是不可靠和难于理解的，应用受到一定限制.因此，有必要建立一个解释机制，用规则取代权值矩阵，为决策支持类应用提供完整的决策说明，为关键应用提供结果的可信度和质量检测手段，并为基于符号和基于连接的两种AI技术提供一种有效的集成方法.解释机制的一种解决方案是建立神经网络的同时建立一个简单的基于规则的系统，神经网络做基本的决策操作，将其输入模式和最后结论给基于规则的系统，用反向关联来构造一个联系网络输入和输出的推理，这种方法要求开发者为同一问题建立两种解决方法，开销很大，且把决策过程和解释过程分裂开来，解释的内容受限于规则库的结构，缺乏灵活性，现在已较少采用.另一种方法就是本文所讨论的规则提取方法，即对训练好的神经网络及其训练示例施加一个反向工程来决定它做决策所依据的特征和规则，从而产生对此网络准确的符号描述.本文试图对规则提取的各种算法作一些分析和比较，并在此基础上针对连续值输入的神经网络给出一个新的规则提取算法即CSW算法，对IRIS问题的实验结果证明这种方法是简洁而有效的.
+1　已有的规则提取方法分析
+　　可以把神经网络规则提取方法分为两类.一类是基于结构分解的规则提取方法，它以神经网络隐藏结点和输出结点为单位将网络分解为若干单层网络的集合，对每一子网搜索和提取规则，最后对这些规则进行组合以描述整个网络的特性.最简单的一种算法是Fu提出的子集法［1］，其基本思想是寻找输入连接的子集使其权值和超过输出神经元的阈值.在前馈网络中将结点的输出值表示为output=f(net)=且net=ωi.xi-θ，其中θ是结点的阈值.如果加权输入值的某个组合大于神经元结点的阈值的话，则此神经元的状态是激活的，否则它的状态是未被激活的.子集法假设神经网络中每个隐结点和输出结点都实现一个符号规则，与结点对应的概念就是规则后件，而向该结点提供输入的其它结点的某个子集则代表规则前件.规则提取过程就是为每个后件寻找使其成立的足够条件.它的缺陷是当网络较复杂时连接子集搜索的空间就会变得很大，产生组合爆炸问题，其算法复杂度为O(2n).为了减少搜索开销，可以为规则条件的数量设置一个上限，即限制规则搜索的深度，在单调的情况下假设规则搜索的深度为k，则算法复杂度可降低为,这种方法缺点是可能降低规则的通用性，因为对于某些网络来说必须搜索到足够深度才能够找到合适的规则.子集法的另一个缺点是即使网络规模比较小也会抽取出大量的规则且表达不够清晰，为此Towell提出了MOFN方法［2］，该方法中规则的表达形式是：if (在N个前提中有M个是正确的) then ….其基本思想是Towell在试验中发现可以把规则的前提分类，使一个前提类中每个前提都具有同样的重要性，并可与类中的其它成员互换.规则还可以更简洁地表示成if N more　than(Pos　Set,Neg　Set)then…，其中Pos　Set和Neg　Set是正条件和负条件的集合，如果输入满足的正条件数减去负条件数大于整数N，则结论成立.和子集法相比，MOFN方法产生的规则集小1～3个数量级，算法开销小，产生的规则可读性好.其缺陷是所针对的神经网络最好是基于知识的且训练过程中各隐藏结点的意义基本不改变，否则将降低组合后规则的可理解性.由于用 MOFN方法要求权值是可聚类的，对于普通的神经网络，需要采用“柔性共享权”［3］方法训练网络，以提高网络的泛化能力，在分类误差和网络复杂度之间做一个有效的均衡，简化网络并促进权值在训练过程中有效聚类.
+　　基于结构分解的方法将网络分成若干个单层子网，由于需要进行搜索和规则合并，对于复杂网络其算法复杂度大大提高且规则可理解性很差.在这类方法中，网络剪枝（prune）十分重要.RX算法［4］首先用权衰减（weight-decay）方法构造BP网络（该网络中连接权的大小反映了连接的重要程度），然后对网络进行修剪，在预测精度不变的情况下删除次要连接，在对网络进行充分简化的条件下，对隐藏层结点的激活值进行聚类，根据不同的隐藏层结点激活值用穷举搜索的办法来寻找从输入层到隐藏层和从隐藏层到输出层的规则.我们在实验中发现这种算法对于部分网络的规则提取效率相当高，但由于采用了穷举搜索的办法，这种算法要求剪枝后的网络非常简化，随着网络复杂度的增长其算法复杂度呈几何级数增长.
+　　另一类方法是基于输入输出映射的规则提取算法，这类方法和基于结构分解的方法不同之处在于它忽略了神经网络的隐藏层内部结构，直接在输入输出结点之间寻找对应，提取相应的规则.较有代表性的算法是Sestito等人提出的相似权值法［5］，这种方法将输出节点添加到输入层去与输入节点进行比较，在下文介绍CSW算法时还会对它进行较详细分析.Craven和Shavlik提出了用学习的方法提取规则［6］，它将规则抽取视为一个学习任务，首先用Oracle调用EXAMPLES()产生一个示例，用训练好的神经网络对此示例进行分类，判断这一示例是否已被规则集覆盖，如果没有则用这个示例初始化一个规则，依次从规则前件中删除一个条件，再用Oracle调用SUBSET()来判断该规则是否与网络保持一致，如果规则仍旧能够覆盖所有的示例，则说明这个条件是可被删除的，否则说明此条件是不可删除的，将它重新添加到规则前件中去，重复上述过程直到规则前提达到最简并将此规则加入到规则集中.这种方法完全是从底向上的，在实行中不断修改规则，用规则集和神经网络分类结果的比较来确定最后的规则集是否达到要求.和自顶向下方法相比，如果规则集中有大量复杂规则可有效防止自顶向下的方法搜索过程中规则前提的组合爆炸问题，但对于规则集中较为普遍的规则它的计算时间有所增加.
+2 基于连续值输入的CSW算法
+　　对于一个典型的三层BP网络，假设网络输入层有m个神经元(x1,x2,…,xm),隐藏层有h个神经元(y1,y2,…,yh)，输出层有n个神经元(z1,z2,…,zn)，θj为神经元yj的阈值，ωij是神经元xi到神经元yj的连接权值，βjk是神经元yj到神经元zk的连接权值，则网络可以表示成为
+F:m→n;F(x1,…，xm)=(z1,…，zn)
+zk=gk(yjβjk) 且 yj=fj(xiωij+θj)
+(1)
+　　为了比较输入和输出的关系，相似权值法把输出节点添加到输入层去，这样输入层就有m+n个节点(x1,x2,…,xm+n)，由于此时输入节点和输出节点是在同一层上，所以就较易得出某一输出和哪些输入有关.对改变了结构的网络进行重新训练，如果原来的输入节点和新加入的输入节点权值相似，就可以认为这一对输入输出之间存在关联.使用误差平方和SSE来判断节点之间的权值相似关系，对于输入神经元a和输出神经元b(现已加入输入层），可以定义两神经元的平方误差为
+SSEab=(ωbj-ωaj)2
+　　SSE表示输入a与输出b之间接近程度（closeness），SSE值越小就说明输入a对输出b的贡献越大.如果训练集较小或输入输出之间的关系比较分散，则仅凭SSE还不能确定一对输入输出之间的关联，还必须用Hebb规则确定它们之间的抑制性连接权，即通过对训练集的负集（将原训练模式对各属性值取反）的训练，确定哪些输入和输出之间不可能存在关联.在负集训练时一般省去隐藏层，输入神经元和输出神经元之间的连接权值称为无关权值，它可作为输入与输出间无关性（irrelevance）的度量，值越小则说明某输入与输出的关系越密切.可以用两神经元的无关权值和误差平方和的乘积来判断它们之间的相似关系：
+Productab=Weightab×SSEab
+Productab的值接近于0，则说明a,b这一对输入输出之间存在关联.相似权值法应用于动物识别和LED数字信号领域都产生了清晰、易懂且一致性强的规则.和大多数规则提取算法一样相似权值法只能应用于二值输入的神经网络，在实际应用领域中，连续属性不可避免地经常出现，并且在很多任务中都具有重要作用，而神经网络相对于符号学习机制的一个重要优势就在于神经网络可以很好地处理连续属性输入，从处理连续属性的神经网络中抽取规则有很强的实践意义，对于连续值输入的神经网络，Sestito提出对相似权值法的改进方法［7］，采用的规则形式为
+Ri:If（（vmini1≤ai1≤vmaxi1)∧…∧（vminini≤aini≤vmaxini)　then　bi
+　　其中vminik和vmaxik分别是训练集中符合规则Ri前件结构和结论的所有示例中aik的最小值和最大值.可以看出这种通过训练集来确定规则前件范围的方法抗噪能力较弱，训练集中存在若干个异常示例就会大大降低所产生规则的精度.
+　　对此我们提出了CSW(continuous similar weight)方法.CSW方法首先对所有的连续值输入离散化，然后将连续值输入转换成二值输入的网络，应用相似权值法获得相应规则，再将规则的前件转换为输入区间.在连续值输入离散化过程中，我们采用χ2统计意义的判断方法对相邻区间进行冲突分析.对于一个示例集来说，设A是待离散化变量，l是A的离散化区间数，C是示例的分类，k是分类数，Aij是A取值在第i个离散化区间中时第j个分类的示例数，m∈［1,l-1］，对区间m和m+1进行冲突分析，设Ri=Aij和Cj=Aij分别为是第i个区间和第j个分类的示例总数，Aij的分布，则.和一般的离散化方法要获得尽可能少的离散化区间不同，在CSW方法中为了保证连续数据的区分能力和产生规则的精度，往往需要较多的离散化区间.以经典的IRIS植物识别问题为例，合并从一个预先设定的重要性度量sigLevel开始，初始化将变量A在示例集中的所有可能取值作为一个独立的离散区间，合并所有χ2小于sigLevel的相邻区间，并逐渐减小sigLevel直到离散数据的不一致率大于指定常数δ为止.为了减少精度损失，保证学习的效果，我们取δ=1%，sigLevel=0.5，χ2=1.386.四个输入的分类区间数分别为7，5，6，3，分类区间如表1所示.
+表1
+
+Sepal length4.34.955.55.86.37.1
+Sepal width22.52.933.4—　—
+Petal length134.54.855.2—
+Petal width0.111.8————
+
+　　离散化的区间共有21个，应用相似权值法将输出节点添加到输入层，可得24-3-3的神经网络.对改变了结构的网络进行重新训练，根据权值计算SSE如表2所示，利用两神经元的无关权值和误差平方和的乘积Productab来判断输入和输出之间的相似关系：Productab=Weightab×SSEab.在CSW方法中我们还对原有的相似权值法做了一点改进，原有规则的前件中缺少not A、not B这样的前提，我们对于Product值很大输入结点（如分类2的Input node13,17,18）取反作为否定前提加入规则前件，当然如果同一连续属性的其它离散区间中已有结点作为相似结点加入规则前件，由于同一属性取值的唯一性，就没有必要加入否定前提.另外，原有的相似权值法前提间只考虑“与”关系，产生的规则虽然分类精度很高但覆盖的示例很少，我们对于相似结点作为单前提规则进行分类精度分析，如果精度超过阈值则以“或”关系加入规则前件.经过简化产生的规则为
+表2
+
+SSEOutput node 1Output node 2Output node 3
+Input node 11.97626815.57815718.978373
+Input node 23.33840515.22951312.616628
+Input node 35.6811308.45829220.103409
+Input node 48.5378228.53367715.842235
+Input node 57.39430610.51699813.258282
+Input node 69.69203111.6273049.247134
+Input node 79.46612315.7942696.303343
+Input node 83.73595411.41208718.470940
+Input node 99.70263013.0463168.251924
+Input node 109.7606207.60184015.547240
+Input node 117.35725010.49759013.332457
+Input node 124.21775813.00580512.394973
+Input node 131.25670932.43304118.851028
+Input node 1413.0720807.55853114.857869
+Input node 155.15187215.1902648.442115
+Input node 168.24999510.45522513.144000
+Input node 174.95439820.8318829.698025
+Input node 186.33863925.1120537.191267
+Input node 193.28326217.28154412.182094
+Input node 207.5312403.24760918.344231
+Input node 219.60605821.3672316.042622
+
+　　规则1: If (1≤petal length<3 ) then iris=setosa；
+　　规则2: If (3≤petal length<5) AND (1≤petal width<1.8) then iris= versicolor;
+　　规则3: If (sepal length≥7.1) OR (petal length≥5.2) OR (petal width≥1.8) then iris= virginica.
+　　产生规则集的分类精度与其他分类算法的比较如表3所示，CSW从神经网络中提取的规则不仅容易理解，而且有和其他分类算法相当的预测精度.图1给出了存在噪声数据情况下CSW算法和Sestito对SW的改进算法及ID3算法的分类精度的比较，可以看出CSW算法有较强的抗噪能力，这是由CSW离散化过程的容错性和神经网络算法本身的抗噪性决定的.
+表3　IRIS分类问题测试结果比较
+
+算法SetosaViginicaVersicolor平均预测精度
+CSW10095.339496.44
+GVS100949496
+IVSM10093.3394.0095.78
+NTgrowth10093.5091.1394.87
+Dasarathy100988694.67
+C410091.0790.6193.89
+
+
+图1　有噪声情况下IRIS分类问题结果比较
+3　结束语
+　　神经网络的“黑箱问题”影响了神经网络在数据挖掘、决策支持等关键领域的广泛应用，规则提取方法则是解决“黑箱问题”的有效手段.对于一般的网络，结构分解法的算法开销小一些，它每次只考虑一个单层网络，由于输入输出之间的关系是单调的，在规则前提中不必考虑否定条件.但由于还存在一个多级规则合并的问题，算法受网络复杂度的限制，当网络的隐藏层较多时提取规则的可读性将会变得很差，对于这类算法，规则提取前的网络剪枝、删除冗余结点等预处理工作就十分重要；输入输出映射法不受网络规模的限制，但由于算法开销大，必须大大缩小规则搜索的解空间， Craven方法一般适合于训练集较小的情况.相似权值法把输入和输出放在同一层上进行比较，有效避免了两类方法的缺陷，本文提出的CSW方法将相似权值法扩展到连续值输入网络.实验结果表明，该方法具有较好的分类精度、抗噪性和可理解性.规则提取方面还有很多工作要做，如降低算法的复杂度，提高所提取规则的可理解性及算法的适用性，研究提取的规则集的评估标准和在训练中从神经网络动态提取规则以及时修正神经网络并提高神经网络性能等都是进一步的研究方向.
+作者简介：黄源，男，1973年8月生，博士研究生，研究方向为数据挖掘和神经网络.
+萧嵘，男，1972年12月生，博士研究生，研究方向为数据挖掘和神经网络.
+张福炎，男，1939年11月生，博士生导师，主要研究领域为多媒体技术、计算机图形学等.
+作者单位：南京大学计算机软件新技术国家重点实验室　南京　210093
+南京大学多媒体计算机研究所　南京　210093
+参考文献
+1　　Fu L M. Rule generation from neural networks. IEEE Trans on Sys, Man and Cybernetics, 1994, 28(8): 1114～1124
+2　　Towell G, Shavlik J. The extraction of refined rules from knowledge based neural networks. Machine Learning, 1993,13(1): 71～101
+3　　Nowlan S J, Hinton G E. Simplifying neural networks by soft weight-sharing. Neural Computation,1992,4(2):473～493
+4　　Rudy Setiono, Liu H. Understanding neural networks via rule extraction. In: Proc of the 14th International Joint Conference on Artificial Intelligence, Montreal, 1995. 480～485
+5　　Sestito S, Dillon T. Knowledge acquisition of conjunctive rules using multilayered neural networks. International Journal of Intell Sys, 1993, 8(7): 779～805
+6　　Craven M W, Shavlik J W. Using sampling and queries to extract rules from trained neural networks. In: Proc of the 7th Int'l Conf on Mathine Learning, New Brunswick, 1994. 37～45
+7　　Sestito S, Dillon T. Knowledge acquisition of conjunctive rules with continuously valued attributes. In: Proc of 12th Int'l Conf on Artificial Intelligence, Avignon, France, 1992. 645～655
+8　　黄源，张福炎.基于神经网络的数据挖掘工具的研究. 清华大学学报，1998, 38(S2): 64～66
+(Huang Yuan,Zhang Fuyan. Research of data mining tools based on neural network approach. Journal of Tsinghua University, 1998, 38(2): 64～66)
+原稿收到日期：1998-12-07；修改稿收到日期：1999-05-07.

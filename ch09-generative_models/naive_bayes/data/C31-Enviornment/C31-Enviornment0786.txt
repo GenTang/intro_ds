@@ -1,0 +1,95 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+v型极板抑制高比电阻粉尘反电晕的研究*
+许德玄　孙大伟
+(东北师范大学静电所，长春　130024)
+
+摘要　对异极距为150mm的V型收尘极板的电流密度分布和抑制高比电阻粉尘反电晕的机制进行了分析.采用模拟粉尘层验证了其抑制反电晕的效果.确定V型收尘极板的张角取80°—90°为宜.极板边缘向放电电极面曲率半径r和异极距a应满足关系式r≥a/25. 
+关键词　V型极板；高比电阻粉尘；粉尘反电晕；电除尘.
+STUDY ON RESTRAINING BACK CORONA OF HIGH RESTSTIVITY POWER BY V-TYPE COLLECTING ELECTRODE
+
+Xu Dexuan, Sun Dawei
+(Institute of Electrostatics,Northeast Normal University,Changchun 130024)
+
+ABSTRACT　Both the distribution of current density and the mechanism of restraining back corona of high resistivity power with a spacing of 150mm between discharge and V-type collecting electrodes have been analyzed in this paper.The effects of restraining back ionization has been checked by using model power layer.The angle of the V-type electrode is suitable for 80°—90°.The radius r on the surface directing to discharge electrode of the edge for the V-type electrode and the spacing a between discharge and collecting electrodes should satisfy the expression r≥a/25.
+Keywords　V-type electrode,high resistivity power,back ionization of power,electrostatic precipitation.
+　　
+1　前言
+　　静电除尘器对于捕集各种粉尘均有较高的效率，但对高比电阻粉尘的捕集却因极板上粉尘层的反电晕现象而效率降低.为了抑制高比电阻粉尘的反电晕，传统的方法是进行烟气调质降低粉尘的比电阻，或采用脉冲共电减小极板的平均电流.但这两种方法均有造价高或维护运行费用大等缺点.因反电晕是在极板附近发生的，故本文的研究内容是改变极板的形状或结构，采用V形极板从而简便而有效地抑制粉尘的反电晕现象.
+　　与V型极板类似的ZT型极板的应用，文献［1］中曾有简要介绍.但并未提及其抑制反电晕的机制和效果.本文研究的V型极板，虽然是适用于横向极板电除尘器的结构，但其抑制高比电阻粉尘的机制，也同样适用于一般的电除尘器.
+
+2　抑制反电晕的机制
+2.1　平面收尘极板的粉尘反电晕
+　　在收集粉尘时，电除尘器的收尘极板表面会积累越来越厚的粉尘层.由放电电极产生的负离子流不断流向极板，它们在穿透粉尘时，在粉尘的上、下界面之间形成一电场.对于高比电阻粉尘，粉尘层内的场强会随着离子流加大而增强.当此场强达到或超过粉尘层的击穿场强时，粉尘层会被击穿，从而形成反电晕，即形成粉尘反电晕的条件为：
+E=J*ρ≥Ed
+(1)
+其中，E为粉尘层场强，J为穿透粉尘的负离子流密度，ρ为粉尘的比电阻，Ed为粉尘的击穿场强.
+
+　　一旦产生反电晕现象，粉尘层的击穿点即经粉尘间隙产生空气电离，并向放电电极释放大量正离子，除尘器伏-安曲线中电流值迅速增长，严重破坏除尘器对粉尘的荷电和收集效果，致使除尘器的效率很低.反电晕产生的正离子流随粉尘层场强和层厚(近似为电离的电子雪崩深度)而增高.
+ip=i0etP*f(E/p)
+(2)
+式中，ip为单一反电晕点的正离子流，i0为初始电子流，t为粉尘层厚，p为气体压强，p*f(E/p)为汤森第一电离系数.
+
+　　反电晕的继续增强会导致流光反电晕的产生，并引发除尘器火花放电，从而使除尘器火花放电电压下降.这也是导致除尘器效率降低的重要原因.
+　　
+
+
+图1　平面收尘电极的电流密度和粉尘厚度分布
+Fig.1 Distribution of current density
+and power thickness on plane 
+collecting electrode
+工业生产中常用的平板式电极和C型、Z型电极在电气性能上同属平面收尘极板，其电流密度分布在正对放电电极处有极大值［2］，而粉尘的厚度和电流密度是一致的，即电流密度最大处粉尘厚度也最大.平面收尘电极电流密度和粉尘厚度分布如图1所示.
+　　平面收尘电极正对放电电极点(0处)附近，电流密度和粉尘厚度分别有极大值，即此处粉尘层的场强最强.因而，平面电极反电晕的起始、发展和导致火花放电均由0处状况决定.即使平面电极粉尘的平均厚度很薄，0处也可能首先产生反电晕现象并发展为火花放电.故平面收尘电极收集高比电阻粉尘时要求极板上粉尘必须较薄或只能加较低的电压.
+2.2　V形收尘极板的电流分析
+　　采用图2所示的实验装置，测量V型收尘极板表面的离子流分布.
+　　图2中异极距为150mm,BOC为V型极板横截面，其边缘B、C处向放电电极面的棱锉去，形成大于6mm的曲率半径，以避免产生尖端放电.板面OB上排列8个与四周绝缘的测量探头，相互间绝缘间距2mm.当放电电极加负高压形成稳定的电晕放电时，分别测量每个探头的电流，得出V型收尘极板板面展开后的电流分布如图3所示.图中同时表示出沿极板表面的粉尘厚度分布.
+　　图3表明，电流密度为边缘高于顶点，而粉尘厚度的分布恰好相反.在极板边缘部位电流密度较大，当放电电极电压逐渐升高时，边缘部位粉尘层会首先达到击穿场强而产生反电晕.
+
+
+图2　V型收尘极板电流分析装置
+Fig.2 Analyzing current apparatus of
+V-type collecting electrode
+
+
+图3　V型收尘极电极的电流密度和粉尘厚度分布
+Fig.3 Distribution of current density and power 
+thickness on V-type collecting electrode
+但此处因粉尘层厚度很薄，反电晕正离子流难于增长，从而抑制了反电晕的发展.在极板中间部位电流密度较小，只有当放电电极电压升得很高时，才可能达到粉尘击穿场强而产生反电晕，而且此处因粉尘层场强小，从而也限制了反电晕的增长.所以与平面收尘极板相比，V型极板允许有较大的平均粉尘厚度或允许加较高的电压，从而有效地提高了电除尘的收集效率.
+　　
+3　模拟粉尘的反电晕实验研究结果与讨论
+3.1　V型电极与平面电极伏-安特性比较
+　　采用多层卫生纸，形成模拟高比电阻粉尘层，进一步研究V型极板抑制反电晕的效果.在室温20℃、相对湿度40%的条件下，测得卫生纸的比电阻为6×1012(Ω*cm).平面收尘电极的实验装置如图4所示.模拟粉尘厚度为1.5mm，分别测得清洁和附有模拟粉尘的平面电极的伏-安曲线示于图5.用于横向极板电除尘器的V型极板实验装置如图6所示，测得清洁和附有模拟粉尘的V型极板的伏-安曲线示于图7.图中折线箭头表示火花放电.
+　　
+
+
+图4　平面电极实验装置
+Fig.4 Experimental apparatus with plane electrode
+
+
+图5　平面电极伏-安特性曲线
+Fig.5 V-I characteristic curves 
+of plane electrode
+
+
+图6　V型电极实验装置
+Fig.6 Experimental apparatus withV-type collecting electrode
+
+
+图7　V型电极伏-安特性曲线
+Fig.7 V-Ⅰ characteristic curves of 
+V-type collecting electrode
+　　图4—图7结果表明，当收集高比电阻粉尘时，V型极板的反电晕现象大为减轻.V型极板有、无高比电阻粉尘的伏-安特性更趋于一致，且火花放电电压比平面电极约高20kV.
+3.2　V型收尘极板的张角对粉尘反电晕的影响
+　　V型收尘极板在捕集高比电阻粉尘时，抑制反电晕的效果与V型极板的张角有关.当放电电极和V型极板相距150mm时，采用两块宽度为50mm的金属板，组成张角不同而边缘曲率半径为6mm的V型极板，以确定其张角对反电晕的影响，张角大小分别取180°、95°、90°、80°和60°.对每一张角均测出其有、无模拟粉尘层的伏-安特性曲线.实验结果表明，随着张角减小，抑制反电晕的效果增强.当张角小于80°时，有、无高比电阻粉尘的伏-安特性曲线已基本一致，粉尘反电晕的影响已基本得到抑制.
+　　V型极板张角为90°时的存灰量最大，而且张角过小也会引起振打清灰的困难.因而考虑到以上几方面的因素，V型极板的张角取80°—90°为宜.
+3.3　V型收尘极板边缘曲率的影响
+　　V型收尘极板边缘曲率半径较小时，边缘附近的场强会很高，从而产生正电晕，破坏对粉尘的正常荷电.文献［3］提出了导体产生负电晕的经验公式a/r≤25，其中a为异极距，r为导体曲率半径.对同样的导体，产生正电晕的场强比负电晕略低百分之几.考虑到取一定的安全系数，采用上述经验公式确定V型极板边缘的曲率半径是适宜的，即V型极板边缘向放电电极面的曲率半径r和异极距应符合关系式r≥a/25能有效地避免边缘产生正电晕.
+　　当异极距为150mm时，接地电极采用不同曲率半径的导体，逐渐升高放电电极的电压直至火花放电，在此过程中观察接地导体有无正电晕.观测表明，当接地导体曲率半径为1.25mm\,3mm和5mm时，均可观察到正电晕，采用曲率半径为6mm的导体没有观察到正电晕.实验表明上述判据对确定V型极板边缘的曲率半径是适用的.
+　　采用V型收尘极板的横向极板电除尘器，用于锅炉高比电阻飞灰的捕集，有效地克服了反电晕现象，除尘效率达到98.4%.此种情况若采用平面电极，根据火花放电电压的差异估计，除尘效率最高只能达到90%.
+
+*“九五”国家科技攻关项目(96-910-02-01)
+参考文献
+1　谭天佑，梁凤珍.工业通风除尘技术.北京：中国建筑工业出版社，1984：365
+2　Satar S A,Singer H.Electrical conditions in wire-duct electrostatic precipitators.J of Electrostatics,1991,26:1—21
+3　Giao T N,Jordan J B.Modes of corona discharges in air.IEEE Transactions on Power and System,1968,PAS-87:1207

@@ -1,0 +1,73 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1999年 第25卷 第6期 Vol.25 No.6 1999
+
+
+
+联想记忆神经网络局部指数稳定的
+充要条件及特征函数
+王利生　谈　正　张军凯
+摘　要　讨论非线性连续联想记忆神经网络平衡点局部指数稳定的判定条件及平衡点指数吸引域的估计，得到了平衡点局部指数稳定的充要条件，并引入一个特征函数，可以判定平衡点的邻域是否为指数吸引域.文中给出一族范数下(所有单调范数)网络局部或全局指数稳定的判定条件，推广了已知文献在特定范数下所得到的结论.
+关键词　联想记忆神经网络，局部指数稳定，吸引域，收敛指数.
+A SUFFICIENT AND NECESSARY CONDITION FOR LOCAL
+EXPONENTIAL STABILITY OF CONTINUOUS-TIME
+ASSOCIATE MEMORY NEURAL NETWORKS
+WANG Lisheng　TAN Zheng　ZHANG Junkai
+(School of Electric and Information Engineering, Xi'an Jiao Tong University, Xi'an　710049)
+Abstract　A sufficient and necessary condition for nonlinear continuous-time associate memory neural networks to be locally exponentially stable is obtained, and a function is defined for characterizing the domain of attraction of equilibrium point. Some conditions for networks to be locally or globally exponentially stable under a group of norms(monotone norms) are also obtained, which generalize the results of some literature.
+Key words　Local exponential stability, domain of attraction, convergent rate, global exponential stability, associate memory neural network.
+1　引言
+　　平衡点的吸引域估计是神经网络稳定性分析中的重要问题.神经网络可用于智能控制及模式识别等信息处理系统，主要是因为神经网络的动态行为具有稳定的吸引子.联想记忆神经网络有多个分别对应于不同记忆模式的平衡点，稳定性分析的目的是判断在何种条件下平衡点局部渐进稳定以及估计平衡点的吸引域.联想记忆神经网络的容错能力及恢复能力与各平衡态的吸引域密切相关.本文研究非线性连续联想记忆神经网络平衡点的局部指数稳定性.讨论两个基本问题：其一，如何判定网络平衡点为局部指数稳定的平衡点?其二，如何估计平衡点的指数吸引域?这里，平衡点为Rn中一个向量，不包括振荡环的情形.本文给出了网络平衡点为局部指数稳定点的充要条件，回答了第一个问题；对于第二个问题，本文定义了一个特征函数，只要在平衡点的球形领域内特征函数小于零，则该邻域为吸引域，给出吸引域的一种潜在的计算方法.本文结果推广了文献［1～3，7，8］中的主要结论.因为非线性连续神经网络可看作特殊的非线性初值问题，所以先讨论非线性初值问题的稳定性.
+　　
+2　非线性初值问题局部指数稳定的充要条件
+　　设T：是非线性算子，x*∈D是常向量.定义两个函数N(T,x*,D)与｜T｜(D,x*)分别如下：
+
+这里t>0,I是恒等算子.记f(t)=(｜I+tT｜(D,x*)-1)／t，因为f(t)是t的单调函数，而且｜T｜(D,x*)≥f(t)≥-｜T｜(D,x*),所以极限存在.应当指出，｜T｜(D,x*)，N(T,x*,D)是T在集合D上关于向量x*的函数，被T,D,x*唯一确定.N(T,x*,D)有如下性质：①N(T,x*,D)≤｜T｜(D,x*)，N(T,x*,D)≤f(t)；②N(T+G,x*,D)≤N(T,x*,D)+N(G,x*,D)；③T为矩阵，x*为内点，则N(T,x*,D)是T的对数范数，记作μ(T)［4］.
+　　已知，如果μ(A)<0，则矩阵A指数稳定.我们将证明对于非线性问题类似结论依然成立.考虑非线性初值问题
+　　(1)
+设x*是临界点，即T(x*)=0，x*称作局部指数稳定，如果存在x*的邻域U及常数K>0，使得当初值x(0)∈U时，式(1)的解按指数K收敛于x*.临界点x*的(球形)邻域｛z∈Rn：‖z-x*‖≤δ｝记作Bδ(x*).
+　　定理1.如果在临界点x*的邻域Bδ(x*)上N(T,x*,Bδ(x*))<0，则x*局部指数稳定，Bδ(x*)为指数吸引域，N(T,x*,Bδ(x*))为收敛指数.而且对任意x(0)∈Bδ(x*),解x(t)满足‖x(t)-x*‖≤‖x(0)-x*‖et*N(T,x*,Bδ(x*)).
+　　证明.设x(t)是x(0)∈Bδ(x*)时式(1)的解，记v(t)=x(t)-x*，则
+d‖
+因此，‖x(t)-x*‖≤‖x(0)-x*‖.et*N(T,x*,Bδ(x*)).如果x(0)∈Bδ(x*)，则对于所有t>0，x(t)∈Bδ(x*)，而且
+　　注1.N(T,x*,Bδ(x*))可用于判定球形邻域Bδ(x*)是否为吸引域.若N(T,x*,Rn)<0，则式(1)全局指数稳定，收敛指数为N(T,x*,Rn).
+　　定理2.设T在临界点x*处Frechet可导，则x*局部指数稳定的充要条件是T在x*处的导算子T′(x*)(矩阵)的特征值实部都小于零.
+　　证明.设T′(x*)的特征值实部都小于零，则存在等价范数使得μ(T′(x*))<0［4］.T可微，故，对任意0<ε<-μ(T′(x*))，存在Bδ(x*)，使得｜T-T′(x*)｜(Bδ(x*)，x*)<ε.记T=T′(x*)+(T-T′(x*))，则N(T,x*,Bδ(x*))≤μ(T′(x*))+｜T-T′(x*)｜(Bδ(x*),x*)≤μ(T′(x*))+ε<0，因此x*局部指数稳定.
+　　设x*局部指数稳定，记y(t)=x(t)-x*，G(y(t))=T(y(t)+x*)，则式(1)在x*的稳定特性与初值问题(t)=G(y(t)),y(0)∈Rn在y=0处的稳定性等价.G在y=0处可导，因此.记G=G′(0)+(G-G′(0))，由文献［5］知，G′(0)的特征值实部全部小于零.
+　　注2.收敛指数与T′(x*)的关系是。
+
+3　非线性连续联想记忆神经网络局部指数稳定的充要条件
+　　考虑非线性连续联想记忆神经网络模型
+　　(2)
+其中g′i(z)连续可微，而且0<g′i(z)≤supg′i(z)≤1.式(2)的矩阵表示为dx／dt=-x+WG(x)+s，s为常向量.模型(2)可看作初值问题(1)的一个特例.式(2)中，令T=-I+WG+s，且设x*是式(2)的平衡点，即T(x*)=0.由定理1和2易知如下定理.
+　　定理3.x*是式(2)的局部指数稳定的平衡态当且仅当矩阵T′(x*)=-I+WG′(x*)的特征值实部全部小于零.若存在x*的球形邻域Bδ(x*)使得N(T,x*,Bδ(x*))<0，则该球形邻域为指数吸引域，从Bδ(x*)内出发的轨道按指数收敛，收敛指数为N(T,x*,Bδ(x*)).
+　　注3.平衡点的局部指数稳定性通过计算平衡点处导算子(矩阵)的特征值判定.平衡点指数吸引域可通过计算N(T,x*,Bδ(x*))得到.
+　　为了得到对一族范数(所有单调范数)都成立的稳定条件及吸引域估计，先介绍单调向量范数的定义.记｜x｜=(｜x1｜,｜x2｜,…,｜xn｜)，其中x=(x1,x2,…，xn)∈Rn.若从｜x｜≤｜y｜可得‖x‖≤‖y‖，则向量范数‖.‖称为是单调范数.‖.‖单调当且仅当‖x‖=‖｜x｜‖［6］，而且新范数‖x‖D=‖Dx‖仍为单调范数，这里D=diag｛d1,d2,…,dn｝为正对角阵.范数，p∈｛1,2,3,…,∞｝均为单调范数.下面讨论取向量范数为单调范数，相应地矩阵范数定义为‖W‖=sup｛‖Wx‖:‖x‖=1｝.
+　　实际应用中，一个非常重要的问题是如何构造函数N(T,x*,D)?在谱范数‖.‖2下，，通过求极值得到；在单调范数下，若在邻域Bδ(x*)内｜x-x*-t0Tx｜≤α｜x-x*｜，则N(T,x*,Bδ(x*))≤(α-1)／t0<0，这里t0>0及α∈(0,1).另外，可以利用不等式
+N(T,x*,D)≤-1+N(WG，x*，D)≤-1+｜WG｜(D,x*)≤-1+‖W‖.｜G｜(D,x*)
+求N(T,x*,D)的估值，并判定网络的稳定性(见定理4～6).
+　　记T=T′(x*)+(T-T′(x*))=T′(x*)+W(G-G′(x*)).gi(xi)可微，ε>0，δ>0,‖x‖<δ时，｜gj(xj+x*j)-gj(x*j)-g′(x*j)*xj｜≤(｜μ(T′(x*))｜-ε)／‖W‖*｜xj｜.因此，‖G(x+x*)-Gx*-G′(x*)(x)‖≤(｜μ(T′(x*))｜-ε／‖W‖.‖x‖，在邻域Bδ(x*)内，｜G-G′(x*)｜(Bδ(x*)，x*)≤(｜μ(T′(x*))｜-ε)／‖W‖.因此有如下定理.
+　　定理4.设μ(T′(x*))<0，则x*的上述球形邻域Bδ(x*)为x*的指数吸引域.初值x(0)∈Bδ(x*)时，轨道按指数收敛，收敛指数为-ε.
+　　注4.文献［1～3］在范数‖.‖1，‖.‖∞下得到类似结论.
+　　显然，只要在x*的球形邻域Bδ(x*)内｜G｜(Bδ(x*)，x*)<1／‖W‖，则N(T,x*,Bδ(x*))<0.该条件的意义为“只要在平衡态x*的邻域内神经元输入输出特性函数gi(xi)变化足够缓慢，则x*局部指数稳定”.
+　　定理5.若任给x∈Bδ(x*)，｜gi(xi)-gi(x*i )｜<(1-ε)／‖W‖｜xi-x*i｜，ε为充分小正数，则x*局部指数稳定，Bδ(x*)为吸引域，收敛指数为-ε.
+　　证明.‖Gx-Gx*‖≤((1-ε)／‖W‖)‖x-x*‖，｜G｜(Bδ(x*)，x*)≤(1-ε)／‖W‖<1／‖W‖，N(T,x*,Bδ(x*))<-ε<0.因此x*局部指数稳定，Bδ(x*)为x*的吸引域.
+　　定理6.若‖W‖<1，则式(2)全局指数稳定，收敛指数为‖W‖-1.
+　　证明.由中值定理，｜gi(xi)-gi(x*i)｜≤｜xi-x*i｜，所以｜G｜(Rn,x*)≤1，N(T,x*,Nn)≤‖W‖-1<0.因此x*全局指数稳定，收敛指数为‖W‖-1.
+　　注5.在文献［7，8］中，当‖W‖p<1，p∈｛1,2,∞｝时，证明了上述结论.
+
+4　仿真实验
+　　显然，如果uk(k=1,2,…r)满足线性方程组uk=WG(uk)+s及定理4和5中的条件，则uk是网络(2)的局部指数稳定的平衡态.据此，利用启发性的方法可以综合有效的联想记忆神经网络，见文献［1～3］.为方便起见，取n=2，g1(x1)=sin(x1),g2(x2)=cos(x2)，s=｛0,0｝，并设x*=｛π／2，0｝对应事先给定的记忆模式，则可计算得到连接权矩阵，使得x*为局部指数稳定的平衡点.因‖W‖∞≤2，当δ<π／6时，由定理5，Bδ(x*)为吸引域，1-2.sinδ为收敛指数.
+作者简介：王利生　西安交通大学应用数学系硕士毕业，现在电信学院攻读博士，感兴趣的研究领域为神经网络、科学计算可视化及图像处理.
+　　　　　谈　正　西安交通大学电信学院教授，研究领域为图像分析、虚拟现实.
+作者单位：西安交通大学电信学院信息工程研究所　西安　710049
+参考文献
+1　梁学斌，吴立德.Hepfield连续联想记忆的吸引域和指数收敛速度的估计及应用.电子学报，1996，24(1)：40～43
+2　梁学斌，吴立德.模拟反馈联想记忆的吸引域和指数收敛速度的估计及应用.计算机学报，1998，18(9)：712～716
+3　梁学斌，吴立德.连续反馈联想记忆的吸引域和指数收敛速度的估计及应用.电子科学学刊，1996，18(1)：2～6
+4　Strom T. On logarithmic norms. SIAM J. Numer Anal., 1975，12(5)：741～753
+5　Seifert G. On a converse result for perron's theorem for asymptotic stability for nonlinear differential equation. In: Proc. of Amer. Math. Soc.,1987,99(4):733～736
+6　Bauer F, Stoer J. Absolute and monotonic norms. Numer. Math.,1961，3：257～264
+7　Killy D G. Stability in contractive nonlinear neural networks,IEEE Trans. Biomedical Engineering,1990，37：231～242
+8　Sugawara K, Harao M. On the stability of equilibrium states of analogue neural netuorks,Transactions of the Institute of Electronics and Communication Engineers(in Japanese), 1983，J-66-A：258～265
+收稿日期　1998-03-20　收修改稿日期　1998-08-06

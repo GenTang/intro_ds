@@ -1,0 +1,163 @@
+信息与控制
+Information and Control
+1999年　第28卷　第5期　Vol.28　No.5　1999
+
+
+
+数据采掘与知识发现：回顾和展望
+郑之开 张广凡 邵惠鹤
+
+　　摘　要： 如何从大规模数据库中发掘深层次的知识和信息，而不仅仅是那些从传统数据 库查询方法所获得的平凡内容，这方面的研究正受到越来越多的关注．作为一门独立于应用 的研究课题，它已成为众多研究领域的热点内容，已经有相当多的应用报道并取得了丰硕的 成果．本文试就数据采掘和知识发现的各方面内容：如采掘过程、方法、算法和应用等，作 一个完整的回顾，文章也讨论了这一领域未来的工作和挑战． 
+　　关键词：数据采掘，知识发现，机器学习，关联规则，分类，聚类
+　　中图分类号：TP274　　　　　　文献标识码：A
+
+DATA MINING AND KNOWLEDGE DISCOVERY:
+AN OVERVIEW AND PROSPECT
+ZHENG Zhi-kai ZHANG Guang-fan SHAO Hui-he
+(Dept. Automation, Shanghai Jiao Tong University, 200030)
+Abstract　Discovery knowledge and useful information form lar ge scale databases has been recognized by more and more researchers as a key res earch topic in many different fields. This paper is to provide a survey of data mining and knowledge discovery on several issues, such as the process, methods, algorithms and applications. Future research work and challenges are also discus sed.
+Key words　data mining, knowledge discovery in database, associa tion rules, classification, data clustering, machine learning
+
+　　 随着计算机、网络和通讯等信息技术的高速发展，信息处理在整个社会规模上迅速产业化． 而这种产业化在技术上就表现为整个社会规模的大规模数据操作的产业化，这其中又包含了数据产生、采集、传输、检索及其分析综合等等环节．
+　　近些年来，商务贸易电子化，企业和政府事务电子化的迅速普及都产生了大规模的数据源， 同时日益增长的科学计算和大规模的工业生产过程也提供了海量数据；而日益成熟的数据库系统和数据库管理系统都为这些海量数据的存储和管理提供了技术保证；另一方面，计算机网络技术的长足进步和规模的爆炸性增长，则为数据的传输和远程交互提供了技术手段，特别是国际互联网更是将全球的信息源纳入了一个共同的数据库系统之中．这些都表明人们生成、采集和传输数据的能力都有了巨大增长，为步入信息时代奠定了基础．
+　　在这些能力迅速提高的同时，我们看到数据操纵中的一个重要环节：信息提取及其相关处理 技术却相对地大大落后了．毫无疑问，这些庞大的数据库及其中的海量数据是极其丰富的信息源，但是仅仅依靠传统的数据检索机制和统计分析方法已经远远不能满足需要了[1]．因此，一门新兴的的自动信息提取技术：数据采掘和知识发现，应运而生并得到迅速发展．它的出现为自动和智能地把海量的数据转化成有用的信息和知识提供了手段[2, 3]．
+　　数据采掘和知识发现作为一门新兴的研究领域，涉及到诸如机器学习、模式识别、统计 学、数据库和人工智能等等众多学科．特别地，它可看作数据库理论和机器学习的交叉学科 ．作为一种独立于应用的技术，一经出现立即受到广泛的关注．目前这方面的研究发展很快 ．知识发现和数据采掘的学术期刊不断增加；大量的期刊也为此领域开辟专栏；众多的学术 会议也频频举行．与此同时，一大批实用化的知识发现工具也投入市场并得到广泛应用 [4～7]．
+　　本文试就数据采掘和知识发现的各个方面做个全面的回顾和介绍，并对关键的关联规则采掘技术进行了详细讨论．文章的最后探讨了这一领域的挑战和发展方向．
+1　概述
+1.1 定义
+　　在文献[8]中，知识发现是这样定义的：知识发现是识别出存在于数据库中有效的、 新颖的、具有潜在价值的乃至最终可理解的模式的非平凡过程．数据采掘则是指从数据库的 大量数据中揭示出隐含的、先前未知的并有潜在价值的信息的非平凡过程[9,10]． 可见这两个术语的内涵大致相同．对这两个术语更严格的区分是在“知识发现96国际会议” 上：Fayyad, Piatetsky-Shapiro和Smyth指出[8]：知识发现是从数据库中发 现知识的全部过程，而数据采掘则是此全部过程的一个特定的、关键步骤．在本文中，大多 数的讨论集中在数据采掘这个环节上，所以多使用数据采掘这个术语．事实上，在现今的文 献中的大多数场合，这两个术语仍然不加区分地使用着[9]．
+1.2 数据采掘的特点
+　　数据采掘与机器学习都是从数据中提取知识，其主要区别在于：机器学习主要针对特定模式的数据进行学习；数据采掘则是从实际的海量数据源中抽取知识，这些海量数据源通常是一些大型数据库．由于数据采掘使用的数据直接来自数据数据库，数据的组织形式、数据规模都具有依赖数据库的特点，特别的，数据采掘处理的数据量非常巨大，数据的完整性、一致性和正确性都难以保证．所以，数据采掘算法的效率、有效性和可扩充性都显得至关重要．然而充分利用现代数据库技术优势也是提高数据采掘的算法效率的有效途径．
+　　与传统的数据库查询系统相比较，数据采掘技术也存在着显著的不同．
+　　首先，传统的数据库查询一般都具有严格的查询表达式，可以用SQL语句描述．而数据采掘则不一定具有严格的要求，常常表现出即时、随机的特点．查询要求也不确定．整个采掘过程也无法仅用SQL语言就能完整表达，实际上，数据采掘常常用一种类SQL语言来描述．
+　　再者，传统的数据库查询一般生成严格的结果集，但数据采掘可能并不生成严格的结果集．采掘过程往往基于统计规律，产生的规则并不要求对所有的数据项总是成立，而是只要达到一定的事先给定的阈值就可以了．
+　　第三， 通常情况下，数据库查询只对数据库的原始字段进行；而数据采掘则可能在数据库的不同层次上发掘知识规则．
+1.3 数据采掘的分类
+　　数据采掘和知识发现技术发展到现在，出现了许多技术分支和研究方向．这些技术适用 于不同的数据库系统，应用不同的采掘技术从而采掘出不同种类的知识．下面就数据采掘的 常见分类方法，分别加以描述：
+　　1) 按操纵的数据库分类
+　　不同的数据库其数据的描述、组织和存储方式均有很大不同，一般可以分为关系数据库 、面向对象数据库、事务数据库、演绎数据库等等．因此，数据采掘可以按数据库的不同而 划分成不同的种类．如从关系数据库采掘知识的关系数据采掘，这是使用最为广泛，也是最 为成熟的一类数据采掘技术．
+　　2) 按采掘的知识分类
+　　采掘的知识具有多种形式，如关联规则[3,11,12,13,14] 、分类规则[15 ,16]、聚类规则[17～19]、特征规则[20～22]、时序规则[23,24] 等等．同时，这些知识也可以在不同的层面上表达，如：泛化知识、原始知识、多层知识 等等．所以，数据采掘系统也可由采掘的知识种类分类．显然，即使是在同一个数据库中， 隐含的知识也是多种多样的．所以，一个优秀的数据应该能全面完整地采掘出隐含在不同层 面内的不同种类的知识．
+　　3) 按应用的技术方法分类
+基于规则和决策树[10,25]的方法：现今的数据采掘大都是基于这类方法的． 采用规则发现和决策树分类技术来发现数据模式和规则的核心是某种归纳算法．其通常是先 对数据库中的数据进行采掘，产生规则和决策树，然后，对新数据进行分析和预测．
+基于神经元网络的方法[26]：神经元网络具有对非线性数据的快速拟合能力， 因而得到日益广泛的应用．在数据采掘的过程中，神经元网络是数据聚类的有力工具．在事 务数据库的分析和建模方面应用广泛．
+模糊[27]和粗集方法[28]：应用模糊和粗集理论进行数据查询排序和 分类也是数据采掘的重要的方法．
+统计方法：统计理论由于非常完善的数学理论，在数据分析应用方面具有深入而广泛的应用．实际上，这类方法主要用来分析数据，而不是从其中发现模式和规则．所以，它在数据采掘中主要作为其它方法的基础而存在．
+数据可视化方法[6]：这是一类辅助方法．数据可视化大大扩展了数据的表达和理解能力．这在数据采掘中是非常重要的，因而数据可视化正受到日益广泛的重视．
+2　关联规则的采掘
+　　数据库中关联规则发掘近几年研究较多[12,13,14,29]．现在，关联规则的采掘已经从单一概念层次关联规则的发现发展到多概念层次的关联规则的发现；并把研究的重点方在提高算法的效率和规模可收缩性上．
+2.1 规则描述
+　　关联规则可以用以下数学模型加以描述[29]：令I={i1, i2,…,im}是字母集，称为数据项．D是全体事务的集合．事务T是I的一个子集，即TI，每个事务由唯一的标志TID标识．对数据项集XI，称T包含X当且仅当XT，关联规则具有如下形式：XY，这里XI，YI，且X∩Y＝φ，X称为规则的条件，Y 称为规则的结果．规则AB对集合D的置信度定义为D中c%的事务包含X且包含Y．集合D中规 则XY的支持度定义为D中s%的事务包含X∪Y．置信度表示规则的强度，支持度表示规则的 频度．置信度和支持度均大于给定阈值的规则称为强规则，而数据采掘的主要兴趣就是对强 规则的采掘．
+这类算法中，关联规则的开采被分解为下面两步[11,13,29]：
+　　(1) 首先找出一个支持度大于给定值的大数据项集．
+　　(2) 用这个大数据项集产生规则．对给定的L，如果其非空子集AL，有
+
+　　则产生形式为AL-A的规则．
+　　在这两步中，第一步是算法的关键，一旦找到了数据项集，关联规则的导出是很自然的 ．
+2.2 关联规则的采掘算法
+　　典型的关联规则采掘算法有Apriori[11]和DHP[13,30]等， 它们都属于数据库遍历类算法．
+　　Apriori算法的基本思想是：首先通过扫描数据库，产生一个大的候选数据项集， 并计算每个候选数据项发生的次数，然后基于预先给定的最小支持度生成一维大数据项集L 1．然后基于L1和数据库中的数据，产生二维数据项集L2；用同样的方法，直到生成N 维数据项集LN，其中已不再可能生成满足最小支持度的N+1维数据项集．这样就依次产生 数据项集{L1，L2，…，LN}．最后，利用步骤二，从数据项集中产生规则．
+　　下面的例子是从[11]中简化而来的．对于数据库D，如图1所示，在第一遍扫描数据库 过程中，通过简单地扫描整个事务集中每个数据项发生的次数，得到候选数据项集C1，假 设给定的最小支持度为2，则可得到一维数据项集L1．为了生成L2，注意到大数据项集 的任何子集也具有最小支持度，Apriori算法用运算L1*L1产生数据项集L2，这里 ，运算 * 定义为
+L1*L2={X∪Y|X,Y∈Lk,|X∩Y|=k-1}
+所以，得到候选集C2，由最小支持度得到L2．从L2在生成C3时，首先两个具有相同 首项的数据项，{BC}和{BE}，可以先确定下来．再考察{BC}和{BE}的尾项生成的数据项集{C E}是否满足最小支持度，结果是成立的．这样，{BCE}的所有二维子集都是大数据项，所以{ BCE}为候选数据项．同时，从L2也得不到其它三维候选数据项．这样，C3就确定了，同 理求出L3．到此为止，我们也得不到更高维的数据项集了．所以，整个大数据项集就确定 了．最后，利用步骤二，从数据项集中产生规则．
+
+
+图1 候选集和数据项集的生成
+　
+　　DHP[13,30]算法与Apriori算法类似，但DHP算法引入了散列表来 优化从k-1维数据项集生成k维数据项集的过程，大大提高了算法的效率．
+2.3 关联规则的多层次采掘
+　　在很多应用中，规则可能隐含在数据库中不同的抽象层次上．例如：在分析超市销售事 务数据库过程中，若单单从数据库中的原始字段，如面包、牛奶等等进行规则采掘，可能难 以发现令人感兴趣的规则，如果把一些抽象层次的概念也考虑进去，如比面包和牛奶更抽象 的概念：食品，则有可能发现新的规则．所以研究在数据库中不同的抽象层次上发掘规则 [3,12]和元规则[31]是数据采掘的重要的研究内容．
+2.4 提高算法效率
+　　显然在采掘规则过程中，需要处理大量的数据库记录，并且可能对数据库进行多次扫描 ．所以，如何提高算法的效率是非常重要的．
+　　在文献[32]提出了一种技术减少数据库扫描次数，并且显示出这种技术对效率的巨大提高．在文献[3]中，利用采样技术，讨论了精度可调的采掘技术，这在一些效率更为重 要的应用中是非常有效的．大规模的数据库经常分布在若干网络节点上，采用并行数据采掘 技术显然能提高效率．因此并行数据采掘技术是一个重要的的研究方向，文献[33,34] 分 别提出了几种并行算法．文献[7]详细讨论了并行算法的实现各方面内容．
+3　泛化、简约和特征提取
+　　数据库中的原始字段往往包含了过多的具体信息，为了数据便于理解和掌握，我们常常需要 把这些具体的概念一般化到一个较高的抽象层次．可以通过数据采掘完成这个过程，这就是 数据泛化；简约则是采用图表、关联规则和可视化等技术得到数据子集的紧致描述；特征提 取则是从一组数据中提取出关于这些数据的特征式，这些特征式表达了数据集的一般特征． 这些过程都是寻找数据的一般化描述的过程[9]．
+用于这类目的的方法可分为两类：
+　　1) 数据立方(Data Cube)[20～22]
+　　数据立方也称之为多维数据库，是一种常用的技术[21]．它的重要思想是把那些代价昂贵的常用运算如：Count、Sum、Average、Max、Min等汇总函数预先计算出结果，并根据不同的属性分类存储在一个多维数据库中．如时间量可以按日、星期、月、年分别汇总并存入数据库中为决策支持、数据采掘及其它应用服务．
+　　2) 面向属性归纳法（Attribute-Oriented Induction Approach）[5,35,3 6]
+　　面向属性归纳产生某种属性从具体概念值到抽象的概念层次树．概念层次可由相关领域的先验知识提供[37]，按特定概念层次从一般到具体排序．树的根节点表示一般的概念，叶节点是最具体的概念，即属性的具体值[38]．概念层次树为归纳分析提供 了有用信息，将概念组织成不同层次，从而规则可在较高概念层次上用简单、确切的公式加 以表达．[sophos1]这类方法是一类在线的、基于数据泛化的方法．利用一种类SQL的 数据采掘查询语言描述查询要求．并利用一组数据泛化技术[5]，如：属性删除、 概念树搜索和其它数据汇总方法．其结果是一种泛化的关系数据，再把这些结果转化成知识 或其它表现形式[39]．
+4　数据分类
+　　数据分类是按照一组数据对象的特征给出数据对象数学划分的过程，是数据采掘的重要研究 内容之一，同时，也是其它诸如人工智能、模式识别、人工神经元网络等学科的重要研究内容，并且有丰富的结果和广泛的应用．
+　　分类过程首先考察分类数据属性，从而构造出正确的分类描述或者分类规则．然后把分类描述或规则应用到训练数据上完成分类过程，或者构造出更好的分类模型．
+主要的分类算法有基于决策树的分类方法[25]、 统计方法[40,41]、 神经网络方法[42,43]和粗集[28]方法等．
+　　在机器学习中，深入研究了基于决策树的分类方法[10]．这是一种从采样集中构造决策树的监督学习过程．决策树的品质函数依赖于分类的精度和树的大小．首先，算法选择一个训练集的子集来构造决策树，如果这个树不能对所有的对象分类，则例外对象被选 进决策树，直到完整而正确的决策树被找到．
+　　在分类应用于数据采掘过程中，这些算法的主要挑战来自训练集的规模．文献[15,16]讨论了 基于决策树的分类方法在大规模数据库条件下的应用．文献[44]提出了在较高 的抽象层次分类的算法．Mehta等人针对大型数据库提出了一种快速分类算法，称为Q UEST中的超级学习算法(SLIQ)[44]．在文献[45]中，针对多维属性分类 要求，提出了双相方法．
+5　数据聚类
+　　聚类则是识别一组数据对象的内在规则，从而将对象分组，构成相似对象类，以导出数据的 分布规律．分类与聚类的主要区别在于分类是把既有的分类规则应用到数据对象上去；而聚 类则是试图去发现隐含在一组混杂的数据对象的分类规则，这种隐含分类规则的分类规则可 能是非常难于理解的．
+　　聚类算法在统计方法、机器学习、神经元网络等领域同样得到广泛的研究．
+传统的聚类分析的主要方法是似然分析．但这类方法的假设前提是不同数据属性的概率 分布相互独立．然而，在实际应用的数据采掘系统中，也就是说在一般的大数据集情况下， 这个假设很可能是不成立的．在数据库中，数据属性之间可能包含严重的耦合；另外，基于 概率的树是非平衡树，对于这样的数据结构，其插入、检索的时间和空间代价都提高；当然 这也使得聚类结果的存取和更新都非常困难的．
+　　Ng和Han[19]发展了适用于大规模应用的基于随机搜索的算法：CLARANS ．其算法复杂性基本上是正比于对象的个数的[18]．基于此算法，文献[5,46] 给出了两种时间数据库的聚类算法：SD和NSD．Ester等人[18]针对CLARANS 算法的缺点，并提出了改进技术．通过引入更为有效的空间数据库存取算法，如R-树， 来 提升CLARANS算法的性能．T. Zhang等人[47]则提出了另一种聚类算法：BIR CH．这是一种很好的聚类算法，具有很好的聚类品质和对阶数的不敏感性；应用表明它基本上具有线性的规模伸缩性，以及其计算复杂度都是O(N)阶的．
+6　发展方向及面临的技术挑战
+　　1) 算法效率和可伸缩性
+　　数据采掘与传统的机器学习的区别在于：数据采掘是直接面向海量数据库系统的．这类 数据库通常有上百个属性和数百万个记录，并且数据表之间包含复杂的关系．这就必然导致 数据采掘过程中搜索维数和搜索空间的激增，同时这也增加了出现不确定性[48]、 错误和病态模式的可能性．因此，提高算法的效率以及具有规模伸缩性是它们在实际应用中 必须面对的巨大挑战．
+　　2) 处理不同类型的数据和数据源
+　　现今的数据库模型大都是关系数据库模型，所以，在这类数据库模型上执行数据采掘的 能力是非常重要的．并且，随着数据库的应用范围日益扩大，数据库的规模和功能业日益完 善，因此，新的数据库模型不断出现，在数据库中，包含着大量复杂的数据类型．所以，数 据采掘系统对这些数据库的操纵能力是至关重要的．
+　　更进一步，随着计算机网络技术的发展和企业需求的扩张，把企业网和国际互联网上的 众多数据源连接成一个大型的分布、异构的数据库[49]．从这些包含不同语义的格 式化和非格式化数据中开采知识无疑是对数据采掘的重大挑战[50]．数据采掘可揭 示大型异构数据库中存在的普通查询所不能发现的知识．数据库的巨大规模、异地分布及数 据采掘方法的计算复杂性要求建立并行分布数据采掘算法．
+　　3) 私有性和安全性
+　　数据采掘能从不同的角度、不同的抽象层上看待数据，这潜在将影响到数据的私有性和安全性[51]．研究数据采掘可能导致的非法数据入侵，同样是实际应用过程中亟待 解决的问题．
+　　4) 国际互联网上的数据采掘
+　　互联网规模的爆炸性增长，使其成为一个全球规模的信息源，从中可以发现大量的新知识，因此，国际互联网数据采掘具有诱人的前景，正吸引越来越多研究人员的兴趣[49 ,32,52]．
+　　5) 数据采掘系统交互性
+　　数据采掘是一个复杂的过程，数据采掘过程中操作者的适当参与是必不可少的．系统的交互能力对系统的性能是至关重要的，一方面，交互界面接收用户的检索、查询要求和数据采掘策略，为用户提供方便的手段来表达其要求和策略是这方面的关键；另一方面，交互界面又把生成的结果传递给用户，在这里，由于生成的结果是多种多样的，因此，准确而直观地描述采掘的结果和友好而高效的用户界面一直是这方面研究的重要课题[53,54] ．
+作者简介：郑之开，29岁，博士生．研究领域为智能控制、数据采掘．
+　　　　　张广凡，24岁，博士生．研究领域为预测控制、智能控制、实时专家系统．
+　　　　　邵惠鹤，63岁，教授，博士生导师．目前研究兴趣是过程模型化及优化控制、智能控制理论研究及应用．
+作者单位：上海交通大学自动化系 200030
+参考文献
+1 Shortland R, Scarfe R. Digging for Gold (Data Management), IEE Review , 1995, 41(5): 213～217
+2 A Silberschatz, M Stonebraker, J D Ullman. Database Research: Ach ievements and Opportunities into the 21st Century Report NSF Workshop Future of Database Systems Research, 1995
+3 R Srikant, R Agrawal. Mining Generalized Association Rules. Proc. 21 st Int'l Conf. Very Large DataBases, 1995: 407～419
+4 R Agrawal, M Mehta, J Shafer, eds. The QUEST Data Mining System. Pro c. Int'l Conf. Data Mining and Knowledge Discovery(KDD'96), 1996: 244～249
+5 J Han, Y Cai, N Cercone. Data-Driven Discovery of Quantitative R ules in Relational Databases, IEEE Trans. Knowledge and Data Eng., 1993, 5 :29～40
+6 H-Y Lee, H-L Ong. Visualization Support for Data Mining, IEEE Exper t, 1996:69～75
+7 R Agrawal, J Shafer. Parallet Mining of Association Rules: Design, Implementation, and Experience, IBM Research Report, 1996
+8 Fayyad U, eds. Knowledge Discovery and Data Mining Towards a Unifying Framework. KDD'96 Proc. 2nd Intl. Conf. on Knowledge Discovery & Data Mining, A AAI Press, 1996
+9 M-S Chen, J Han, P S Yu. Data Mining: An Overview from a Datab ase Perspective, IEEE Trans. on Knowledge and Data Eng. 1996, 8(6):8 66～883
+10 G Piatetsky-Shapiro, W J Frawley. Knowledge Discovery in Database s. AAAI/MIT Press, 1991
+11 R Agrawal, R Srikant. Fast Algorithms for Mining Association Rules in Large Databases, Proc. 20th Int'l Conf. Very Large DataBases, 1994: 478～499
+12 J Han, Y Fu. Discovery of Multiple-Level Association Rules form L arge Databases, Proc. 21st Int'l Conf. Very Large DataBases, 1995: 420～431
+13 J-S Park, eds. An Effective Hash based Algorithm for Mining Associa tion Rules Proc. ACM SIGMOD, 1995:175～186
+14 A Savasere, E Omiecinski, S Navathe. An Efficient Algorithm for Mi ning Association Rules in Large Databases, Proc. 21st Int'l Conf. Very Large Dat a Bases, 1995:432～444
+15 R Agrawal, S Ghosh, T Imielinski, B Iyer, A Swami An Interval Classifier for Database Mining Applications, Proc. 18th Int'l Conf. Very Large D atabases, 1992: 560～573
+16 T M Anwar, H W Beck, S B Navathe. Knowledge Mining by Imprecise Queryin g: A Classification-Based Approach, Proc. 8th Int'l Conf. Data Eng., 1992: 622～630
+17 D Fisher, Optimization and Simplification of Hierarchical Clusterings, Proc. 1st Int'l Conf. Knowledge Discovery and Data Mining(KDD'95), Montreal, Ca nada, 1995: 118～123
+18 M Ester, H-P Kriegel, X Xu. Knowledge Discovery in Large Spati al Databases: Focusing Techniques for Efficient Class Indentification, Proc, 4th Int'l Symp. Large Spatial Databases (SSD'95), Portland, Maine, 1995: 67～82
+19 R Ng, J Han. Efficient and Effective Clustering Method for Spatial Data Mining, Proc. Int'l Conf. Very Large Database, Santiago, Chile, 1994: 144～ 155
+20 A Gupta, V Harinarayan, D Quass. Aggregate-Query Processing in Data Ware-housing Envirment, Proc. 21st Int'l Conf. Very Large DataBases, 1995: 358～369
+21 J Widom. Research Problems in Data Warehousing, Proc. 4th Int'l Conf. Information and Knowledge Management, Baltimore, 1995: 25～30
+22 W P Yan, P Larson. Eager Aggregation and Lazy Aggregation, Proc. st Int'l Conf. Very Large Data Bases, Zurich, 1995: 345～357
+23 R Agrawal, eds. Fast Similarity Search in the Presence of Noise, Scal ing, and Translation in Time Series Databases, Proc. 21st Int'l Conf. Very Large Data Bases, 1995: 490～501
+24 C-S Li, P S Yu, V Castelli. Hierarchy Scan: A Hierarchical Sim ilarity Search Algorithm for Databases of Long Sequences, Proc. 21st Int'l Conf . Data Eng., 1996
+25 C Apte, S Weiss. Data Mining with Decision Trees and Decision Rules, Future Generation Computer Systems, 1997, 13(2): 197～210
+26 H Lu, R Setiono, H Liu, Effective Data Mining Using Neural Netwo rks, IEEE Trans. on Knowledge and Data Eng., 1996, 8(6)
+27 H Nakajima. Fuzzy Logic and Data Mining, Proc. '96 Asian Fuzzy Systems Symposium, Taiwan, 1996: 133～138
+28 Wojciech Ziarko, Introduction to the Special Issue on Rough Sets and Kn owledge Discovery, Computational Intelligence, 1995, 11(2): 223～226[ ZK)]
+29 R Agrawal, T Imielinski, A Swami. Mining Assocation Rules betwee n Sets of Items in Large Databases, Proc, ACM SIGMOD, 1993: 207～216
+30 J S Park, M-S Chen, P S Yu. Using a Hash-Based Method with Transaction Trimming for Mining Association Rules, IEEE Trans. on Knowledge and Data Eng. 1997, 9(5)
+31 Y Fu, J Han. Meta-Rule-Guided Mining of Association Rules in Rel ational Databases, KDOOD'95, Singapore, 1995: 39～46
+32 M-S Chen, J-S Park, P S Yu. Data Mining for Path Travers al Patterns in a Web Environment, Proc. 16th Int'l Conf. Distributed Computing S ystems, 1996: 385～392
+33 J-S Park, eds. Efficient Parallel Data Mining for Association Rules , Proc. 4th Int'l Conf. Information and Knowledge Management, 1995: 31～36
+34 R Agrawal, John C Shafer. Parallel Mining of Association Rules, IEEE Trans. on Knowledge and Data Eng. 1996, 8(6)
+35 F J Venter, G D Oosthuizen, J D Roos. Knowledge Discovery in Databases using Lattices, Expert Systems with Applications, 1997, 13(4): 259～264
+36 J Han, Y Fu. Exploration of the Power of Attribute-Oriented Induc tion in Data Mining, Advances in Knowledge Discovery and Data Mining, AAAI/MIT P ress. 1996: 399～421
+37 V Dhar, A Tuzhilin. Abstract-Driven Pattern Discovery in Databas es, IEEE Trans. Knowledge and Data Eng., 1993: 926～938
+38 J Han, Y Fu. Dynamic Generation and Refinement of Concept Hierarch ies for Knowledge Discovery in Databases, Proc. KDD'94, 1994: 157～168
+39 J Han. Mining Knowledge at Multiple Concept Levels, Proc. 4th Int'l Co nf. Information and Knowledge Management, 1995: 19～24
+40 J Elder IV, D Pregibon. A Statistical Perspective on Knowledge Dis covery in Databases, Advances in Knowledge Discovery and Data Mining, AAAI/MIT P ress. 1996: 83～115
+41 P Cheeseman, J Stutz. Bayesian Classification (AutoClass):Theory a nd Results, Advances in Knowledge Discovery and Data Mining, AAAI/MIT Press., 19 96: 153～180
+42 H Lu, R Setiono, H Liu. NeuroRule: A Connectionist Approach to Data Min ing, Proc. 21st Int'l Conf. Very Large Databases, 1995: 478～489
+43 A. Eide, eds., Data Mining and Neural Networks for Knowledge Discovery. Proc. AIHENP'96, 1996: 251～254
+44 M Mehta, R Agrawal, J Rissanen. SLIQ: A Fast Scalable Classifier for Data Mining, Proc. Int'l Conf. Extending Database Technology(EDBT'96), Avig non, France, 1996
+45 M S Chen, P S Yu. Using Multi-Attribute Predicates for Mining Cla ssification Rules, IBM Research Report, 1995
+46 W Lu, J Han, B C Ooi. Knowledge Discovery in Large Spatial DataB ases, Proc. Far East Workshop Geographic Information Systems, Singapore, 1993: 2 75～289
+47 T Zhang, R Ramakrishnan, M Livny. BIRCH: An Efficient Data Cluste ring Method for Very Large Databases, Proc, 1996 ACM SIGMOD Int'l Conf. Manageme nt Data, Montreal, Canada, 1996
+48 F McErlean, D A Bell. Experiment in Knowledge Discovery using Data D ependencies Kybernetes: An International Journal of Cybernetics and General Syst ems, 1997, 26(8)
+49 Oxman Rivka. Interactive Visual Exploration for Knowledge Discovery on the Web, Proc. '97 Int'l Conf. on Information Visualization, London, 1997
+50 F Ronen, H Haym. Exploiting Background Information in Knowledge Disco very From Text, Journal of Intelligent Information Systems, 1997, 9( 1): 83～97
+51 C Zhengxin. Knowledge Discovery and System-user Adversary, Kybernete s: An International Journal of Cybernetics and General Systems, 1997, 26(4): 425～441
+52 C Shahabi. Knowledge Discovery from users Web-page Navigation. Proc. '97 Int'l Workshop on Research Issues in Data Eng., 1997: 20～29
+53 A Basden. User Interface for Knowledge Discovery, Proc. '96 IEE Colloq uium on Knowledge Discovery and Data Mining, London, 1996
+54 Xu Wu, Nick Cercone, Graphical User-Interface for Knowledge Discovery in Databases. Engineering Applications of Artificial Intelligence, 1996, 9 (6): 691～700
+
+收稿日期：1998-10-29

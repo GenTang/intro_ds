@@ -1,0 +1,135 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第1期 No.1 Vol.18 1998
+科技期刊
+
+光照及自由基对三卤甲烷形成的影响
+李君文　于祚斌　晁福寰　蔡心培　高　明　(军事医学科学院卫生学环境医学研究所，天津 300050)
+文　摘　为了更好地了解氯消毒饮水后三卤甲烷（THMs）的形成以及更有效地控制THMs的产生，以腐植酸（HA）作为THMs的前体，观察了光照及自由基对氯化HA后THMs形成的影响。结果显示，消毒前光照含THMs前体的溶液，可促进THMs的形成，光照30min时达最高，后随光照时间延长而减少；消毒后光照，则THMs产量逐渐减少，这与水中的氯被分解破坏有关；THMs产量与光源发射的波长成反比。HA溶液中含有半醌类自由基，且其消长与THMs产量有直接关系。
+关键词　光照　自由基　THMs　氯消毒
+Effect of irradiation and free radical on formation of trihalomethanes in chlorinated water.Li Junwen, Yu zuobin, Chao Fuhuan, Cai Xinpei, Gao Ming(Institute of Hygiene and Environmental Medicine, Academy of Military Medical Scienses, Tianjin 300050).China Environmental Science.1998,18(1):87～90
+Abstract—In order to understand the formation of trihalomethanes ( THMs) in chlorinated water and to control the production of THMs more effectively,effect of irradiation and free radical on the formation of THMs was observed. It was found that humic acid (HA) solution contains a semi-quinone free radical,of which variation tendency was relative to the production quantity of THMs directly.Irradiating the solutions containing THMs precursor before chlorination could promote the formation of THMs which reached the highest point at 30 minutes,then decreased with the elongation of irradiation time;as irradiating the chlorinated solution, the yield of THMs decreased little by little because of the decomposition or destruction of chlorine. The production quantity of THMs was inversely proportional to the wave length of light resources.
+Key words:irradiation　free radical　THMs　chlorination
+　 饮水氯化消毒可产生具有致癌危险性的三卤甲烷(THMs)，主要包括CHCl3、CHBrCl2、CHBr2Cl及CHBr3等〔1～3〕。THMs的形成与加氯量、前体浓度、反应时间、反应温度、pH值及水中某些离子含量等有关，目前国内外已有过较多的研究报道〔4,5〕。大中型自来水厂加氯消毒前后都有暴露于阳光的环节，而且光照对氯及THMs前体－腐植酸(HA)的性质都有明显的影响〔6,7〕，而以往人们只孤立地研究光照对氯或HA性质的影响，对THMs形成影响如何尚未见报道。HA在一定条件下可产生自由基〔8,9〕，而自由基在THMs形成中的作用如何也未见报道。如果能搞清上述问题，对更好地了解THMs的形成机理，更有效地控制饮水氯消毒后THMs的形成将具有一定的现实意义。
+1　实验材料与方法
+1.1　HA的纯化
+　　由于原品HA的溶解度很差(上海试剂二厂，从无烟煤中提取)，给THMs的定量研究带来困难，因此事先对HA原品进行纯化处理，以提高其溶解度，并去除部分杂质。HA的纯化参照Narkis等〔10〕提出的方法。
+1.2　自由基的测定
+　　5％的HA溶液或1，4-萘醌溶液，用DMPO(氮酮类捕捉剂，对光不敏感)捕获短寿命自由基。用ESR-3200电子顺磁共振仪(西德)进行自由基的定性定量分析。
+1.3　氯化消毒
+　　在天然水或配制水(蒸馏水加HA)中，加入一定量的Ca(OCl)2饱和溶液，在光照或蔽光条件下反应一定时间后，加入维生素C终止反应。除特别说明，一般氯化条件为：加氯量10 mg/L，HA 2 mg/L，室温反应24h。
+1.4　光照实验
+　　将反应液装入石英瓶中，放在光源下进行照射。阳光照射实验在实验楼顶，时间集中在5月中下旬。模拟阳光照射实验用250W高压汞灯(锦州产) 对样品进行照射。
+1.5　THMs的测定采用改进的气-液平衡法〔5,11〕
+1.6　其它试剂与药品
+　　其它所用实验试剂均为分析纯或分析纯以上级别的试剂。
+2　结果与讨论
+2.1　光照对THMs形成的影响
+2.1.1　不同光源照射对THMs形成的影响　首先选择了4种光源来研究光照对THMs形成的影响。从光照实验结果可以看出，THMs产量与各光源的发射波长及最大光子能量关系最为密切，波长越短、光子释放的能量越高，HA氯化后THMs产量也越高，而与照度、辐射热等关系不大（表1）。
+表1　不同光源照射对THMs形成的影响*
+Table 1　Effect of irradiation by various light resources
+on the formation of THMs
+
+光　源　波长(nm)光子能量(kJ／mol)照度(Lux*100)辐射热(kW／m2)THMs(μg／L)
+可见光　　　　>720　　　<166　　　500 0.4　　　 77.5
+阳光　　 >300 <398 500 0.6 91.1
+高压汞灯 >290 <412 600 3.0 94.3
+紫外线　 　 253.7 　 471 50 0.1100.1
+
+　注：*光照HA溶液20min,再加氯反应24h
+　　阳光与高压汞灯发射的光及其对THMs形成的影响基本一致，因此为便于控制反应条件，选择高压汞灯代替阳光进行实验室定量研究。
+2.1.2　HA溶液经光照射后THMs的形成　先用高压汞灯照射HA溶液一定时间后，再加氯反应24h。结果表明，随着光照时间的延长，CHCl3及THMs的产量不断增加，光照30min时产量达最高；若光照时间再延长，则两者产量均减少（表2）。
+表2　光照HA溶液对消毒后THMs形成的影响
+Table 2　THMs formation in irradiated HA solution
+
+光照时间(min)　THMs(μg／L) CHCl3(μg／L)
+　　 0(蔽光) 64.9±3.8 63.2±2.9
+5 71.6±3.9 69.1±3.1
+10 79.0±4.1 76.1±3.3
+20 90.4±3.8 85.1±3.4
+30 98.1±4.5 87.1±3.4
+60 83.3±3.8 74.2±3.1
+120 72.2±2.9 65.3±2.9
+
+　　注：n=5
+
+　　 短时间光照促进THMs形成的原因可能与以下因素有关：光照，尤其是短波长、高能量的光源，使HA的结构发生了某种变化，如分子内重排，化学键断裂等，形成一些分子量较小的化合物，这些化合物与氯反应生成THMs的活性比HA还高；此外，光照也促进自由基的产生，使氯与THMs前体反应加快。然而，长时间光照可能使这些高反应活性的THMs前体的化学结构发生进一步的改变，甚至生成一些分子量更小的化合物，它们与氯不反应或反应后不形成THMs，结果使THMs产量下降〔11～13〕。
+2.1.3　加氯后光照对THMs形成的影响　虽然加氯消毒前水源水受光照的机会较多，但有些水厂为了控制二次污染，也有在加氯消毒后再进行紫外线照射的，因此，对加氯后光照对THMs形成情况进行了观察。结果表明，随着光照时间的延长，THMs的产量逐渐下降（表3）。从前面的实验结果可知，短时间光照HA溶液（<30min）可使THMs的产量增加，但如果加氯后再光照则使THMs产量减少。产生这一结果的可能原因是光照分解破坏了溶液中的另一反应物—氯。对此进行了实验观察，结果见表3。可见，光照确实使水中的自由氯减少了。
+表3　加氯后光照对THMs及余氯的影响
+Table 3　Effect of irradiation on THMs formation
+and free chlorine content
+
+光照时间(min)　THMs(μg／L) 余氯(mg/L)
+　0(蔽光) 142.5±11.2 2.8±0.1
+0.17 126.8± 9.8 2.6±0.1
+0.34 119.7± 8.7 2.5±0.1
+0.68 114.4± 7.8 2.1±0.1
+1.00 87.9± 7.7 1.9±0.1
+2.00 79.9± 7.7 1.1±0.1 
+
+　　注：n=5
+
+　　从上述光照结果可知，若是出于控制THMs的目的，加氯前水源水应避免光照射；加氯后进行光照，虽可减少THMs的形成，却使自由余氯含量减少，故从保持水中余氯浓度，控制微生物再污染角度出发，加氯后也应避免光照射。
+2.2　自由基在THMs形成中的作用
+　　据报道在含HA的水溶液中存在半醌类自由基，且光照射或升高溶液的pH值均有利于自由基的产生〔8,9〕。 为此，对自由基在THMs形成中的作用进行了探索。为了便于观察，以CHCl3为代表。
+2.2.1　不同pH值条件下自由基含量与CHCl3产量的关系　配制5%的HA溶液（pH值7.2），检测其中的自由基。从g因子及线宽来判断，HA溶液中的自由基为半醌类自由基（表4）。
+　　先将HA溶液调成不同的pH值，检测自由基含量；再加氯反应24h，检测CHCl3产量。结果显示，当pH<9.5时，随着pH值的升高，自由基含量不断增加，CHCl3产量也随之增加；当pH>9.5时，CHCl3的产量有所下降，与此相对应，自由基的g因子及线宽都发生了变化，由此推测自由基的性质可能发生了改变（图1、表4）。
+
+图1　不同pH值条件下自由基(Radi.)及CHCl3
+产量的变化
+Fig.1　Relationship between free radical and THMs 
+under different pH value
+　
+表4　不同pH值条件下自由基的各种参数(1)
+Table 4　Properties of free radical in HA solution 
+at different pH value 
+
+pH值 g因子（2）线宽（3）
+3.2 2.00335 10.537 
+5.3 2.0033510.321 
+7.2 2.00335 10.321 
+9.5 2.00335 10.321 
+11.2　 2.00358 8.916 
+
+　　注:(1)半醌自由基的g因子为 2.00341，线宽10.135;(2)g因子
+　　　　标准差0.00048，(3)线宽标准差0.811
+
+2.2.2　光照对自由基含量与CHCl3产量的影响
+　将一定浓度的HA溶液光照一定时间后，检测自由基含量；再加氯反应24h后，检测CHCl3的产量。结果表明，随着光照时间的延长，自由基含量与CHCl3产量均不断增加，但照射时间超过30min后两者产量都下降，两者的变化规律基本一致（图2）。
+
+图2　光照条件下自由基及CHCl3产量的变化
+Fig.2　Effect of irradiation on the concentration of 
+free radical and THMs
+　　 通过上述实验可以看出，羟基（OH-）及光照都能催化HA溶液中半醌类自由基的产生，且自由基含量的消长与CHCl3产量的变化趋势基本相同。说明HA溶液中的半醌类自由基可能参与了CHCl3的形成反应，但此类自由基是直接参与还是间接参与，尚有待进一步研究。
+2.2.3　1，4-萘醌的氯化与CHCl3的形成　如果半醌类自由基参与了CHCl3的形成，那么，凡是含有半醌类自由基的化合物氯化后都应产生CHCl3。我们选择了1，4-萘醌进行实验研究。通过检测发现在1，4-萘醌溶液中含有自由基，且与HA溶液中的自由基性质一致（表5），也是半醌类自由基。
+　　先将2mg/L的1，4-萘醌溶液调成不同pH值，再加10mg/L的氯反应24h，检测CHCl3的形成情况。可见，随着pH值的升高，CHCl3的产量不断增加，当pH≥9.0时，CHCl3产量几乎保持不变。这一变化趋势与氯化HA时CHCl3的形成情况不完全一致（图1），说明半醌类自由基虽然是THMs的主要前体，但不是唯一的前体，在1，4-萘醌或HA溶液中还有其它不同性质的THMs前体的存在。
+表5　1，4-萘醌溶液中的自由基与HA溶液中
+自由基的比较
+Table 5　Comparison of the radical properties in 
+1，4-naphthoquinoune and HA solution 
+
+项目g因子 线宽 
+1，4-萘醌2.00335±0.0004810.321±0.811
+HA溶液 2.00311±0.00048 10.131±0.811 
+
+3　结论
+3.1　光照对氯化HA后THMs的形成具有一定影响：消毒前光照，可促进THMs的形成，光照30 min时达最高，后随光照时间延长而减少；消毒后光照，则THMs产量逐渐减少，这与水中的氯被分解破坏有关；THMs产量与光源发射的波长成反比。
+3.2　HA溶液中含有半醌类自由基，半醌类自由基含量与光照具有一定关系，且其消长与THMs产量有直接关系；说明半醌类自由基可能参与了THMs的形成。
+
+参考文献
+1　Rook J J.Water Treat. Exam. 1974, 23(4):234～243
+2　Shy C M,Struba R J.Ann Arbor Sci. Publ. Inc.. Ann Arbor, MI. 1983,1029～1042
+3　Lynch C F,Woolson R F.Arch. Environ. Health，1989,44(4):252～259
+4　李君文,于祚斌,高　明等.中国公共卫生学报，1994,13(6):321～324
+5　Urano K,Wada H,Takemasa T.Water Res.，1983,17(12):1797～1802
+6　Zafiriou O C,Joussot-Dubien J,Zepp R G,et al.Environ. Sci.Technol.，1984,18(12):358A～371A
+7　Gjessing E T,Kallqvist T.Wat.Res.,1991,25(4):491～494
+8　Neto L M,Nascimento O R,Talamoni J，et al.Soil Sci., 1991,51(5):369～376
+9　Wilson S A,Weber J H.Analytical Letters，1977,10(1):75～84
+10　Narkis N,Rebuhum M J. Am.Wat.Wks. Assoc.，1975,67(2):101～104
+11　高　明,周英田.解放军预防医学杂志，1994,12(4):280～282
+12　Chen Y,Khan S U，Schnitzer M.Soil Sci. Soc. Am. J.，1978,42(3):292～297
+13　Kusakabe K,Aso S,Hayashi J-I,et al.Irradiation,Water Res.,1990,24:(6)781～785
+作者简介
+李君文　男，1963年8月生。现为军事医学科学院卫生学环境医学研究所硕士，副研究员，研究室副主任。现从事给水卫生研究。发表论文27篇，其中在国际上发表6篇。
+收稿日期：1997-01-10

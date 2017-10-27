@@ -1,0 +1,196 @@
+土壤与环境
+SOIL AND ENVIRONMENTAL SCIENCES
+1999年 第8卷 第3期 Vol.8 No.3 1999
+
+
+
+不同类型表面活性剂对1，2，4－三氯苯的增溶作用
+高士祥　曹加胜　孙成　王连生
+　　摘要：研究了阴离子表面活性剂十二烷基硫酸钠、阳离子表面活性剂十六烷基三甲基溴化铵
+和非离子表面活性剂脂肪醇聚氧乙烯醚LAE对1，2，4－三氯苯（TCB）的增溶作用。讨论了表面活
+性剂类型对增溶作用的影响。比较发现，非离子型表面活性剂的增溶能力高于离子型表面活性
+剂。其原因主要是疏水有机物在非离子表面活性剂胶束中的增溶方式不同造成的。3种表面活性剂
+对TCB的增溶数据还表明，增溶作用不仅在临界胶束浓度（CMC）以上发生，而且在表面活性剂浓
+度低于CMC时亦有明显的增溶作用。
+　　关键词：表面活性剂；1，2，4－三氯苯；增溶作用
+　　中图分类号：X132 文献标识码：A
+Solubilization of 1, 2, 4-Trichlorobenzene by Different Type Surfactants
+GAO Shi-xiang，CAO Jia-sheng，SUN Cheng，WANG Lian-sheng
+（State Key Laboratory of Pollution Control and Resource Reuse, Department of Environmental Science 
+and Engineering,Nanjing University, Nanjing 210093, China）
+Abstract: The solubilization of 1, 2, 4-trichlorobenzene by sodium dodecyl sulfate, cetyltrimethyl ammonium 
+bromide, and a alkyl polyethoxyl ether LAE was studied. Effect of surfactant type on the solubilization was 
+discussed. The solubilization power of non-ionic surfactant is higher than that of ionic surfactants. The difference is 
+caused by difference in solubilization position of organic compound in micelles. The solubilization data reveal that 
+the solubilization effects of surfactants are not only appeared above CMC, but also appeared below CMC.
+Key words: surfactants; 1, 2, 4-trichlorobenzene; solubilization
+　　在污染土壤和含水层的修复研究工作中，由疏水性有机污染物如多环芳烃和卤代芳烃等造成
+的污染一直是修复研究的难点。对这类化合物污染的修复主要依赖于污染物从土壤表面的解吸和
+向水体中的转移。一旦这些污染物进入水中，便可以用通常的工程处理方法进行修复。许多文献
+研究了在高于临界胶束浓度的表面活性剂存在下污染物在水中表观溶解度的增加[1～2]。有些研究
+还指出，在对土壤洗脱或冲洗的泵出处理过程中，加入表面活性剂有助于提高污染物的溶解度[3～
+5]。
+　　表面活性剂和污染物的相互作用分为物理相互作用和相迁移相互作用。这些相互作用包括：
+特定污染物－表面活性剂单体在水中的相互作用；表面活性剂胶束对污染物的增溶作用；由于表
+面活性剂的存在而形成的水－油乳化作用对污染物的增溶，以及表面活性剂单分子层在油水界面
+上的分布等[6]。人们早已知道表面活性剂可以提高疏水性有机污染物在水中的表观溶解度。已有
+很多研究报道了表面活性剂对疏水性有机污染物的增溶作用[2, 7～9]。实验室的土壤柱研究表明，
+表面活性剂能通过增溶作用促进土壤中有机污染物的去除[10～13]。表面活性剂还能通过减小有机
+相和水相的界面张力促进土壤和含水层中非水相液体的移动[14～16]。以前的研究大部分都是采用
+非离子表面活性剂进行，但不同类型表面活性剂对同一化合物增溶能力的影响还没有系统研究的
+报道。本文选择了三种最常用的表面活性剂十二烷基硫酸钠（SDS）、十六烷基三甲基溴化铵
+（CTAB）和脂肪醇聚氧乙烯醚（LAE）分别代表阴离子、阳离子和非离子表面活性剂。比较了三种
+类型表面活性剂对TCB增溶能力的大小。
+1　实验
+1.1 试剂与仪器
+　　1，2，4－三氯苯（TCB）由上海化学试剂厂生产，纯度为化学纯。十二烷基硫酸钠由上海化
+学试剂进出口公司分装，纯度为化学纯。十六烷基三甲基溴化铵由上海市计划生育科学研究所生
+产，纯度为化学纯。脂肪醇聚氧乙烯醚由南京英国Heriot-Watt大学提供，其烷基链平均长度为12
+个碳原子，聚氧乙烯链的聚合度为7。
+　　TCB浓度用上海分析仪器厂生产的7520紫外可见分光光度计测定。
+1.2 增溶实验方法
+　　由于TCB在水中的溶解度相对较大，在水中容易达到溶解平衡。因此本实验采用恒温振荡法。
+将3种表面活性剂分别配成不同浓度的溶液加入10ml离心管中，每个浓度做3个平行样，在每支离
+心管中加入足够量的TCB，离心管密封后放入恒温振荡器中，25℃振荡3d（72h）。取出离心管，
+放入离心机中以3500r/min离心沉降20min。分别取上清液1～5ml用等体积甲醇稀释后，用1∶1甲
+醇－水溶液定容至10ml。用7520紫外可见分光光度计测定溶液中TCB的吸光度，并根据标准曲线计
+算溶液中TCB的浓度。测定时用相同浓度的表面活性剂溶液作参比，以消除表面活性剂对吸光度的
+影响。
+2　结果与讨论
+2.1 胶束的增溶作用
+　　疏水有机物在表面活性剂胶束中的增溶可以看作是一个分配过程，类似于疏水有机物与溶解
+有机质的结合反应。Almgren等的研究表明，如果被增溶物质在胶束中的存在服从泊松分布，则化
+合物在胶束中的浓度与在水中的浓度之比可表示为：
+Km=Cmic/CwSmic　　（1）
+　　式中，Cw和Cmic分别表示化合物在水相和胶束相的浓度，Smic是以胶束形式存在的表面活性剂
+浓度，Km则为化合物在表面活性剂溶液中的分配系数，代表了表面活性剂对化合物增溶能力的大
+小。Javert等[17]的研究表明非极性化合物在十二烷基硫酸钠溶液中的增溶服从泊松分布，也就是
+说，一个分子的增溶对另一个分子的增溶不产生影响。因此弱极性有机污染物在表面活性剂溶液
+中的增溶用式（1）描述是合理的。
+　　假设化合物在表面活性剂溶液中的总浓度为St，在有过量有机物存在时，有机物在水相的浓度
+应始终等于其水溶解度So，则化合物在胶束相的浓度为：
+Cmic＝St－So　　（2）
+　　在临界胶束浓度以上时，表面活性剂单体的浓度始终等于临界胶束浓度CMC，若以Csurf代表表
+面活性剂在水相的总浓度，则以胶束形式存在的表面活性剂浓度Smic为：
+Smic＝Csurf－CMC　　（3）
+将式（2）和式（3）代入式（1）则得：Km=（St－So）/So（Csurf－CMC）　　（4）
+整理得：　　　　　　　　　　St/So=KmCsurf－KmCMC＋1　　（5）
+　　对于特定化合物和特定表面活性剂Km和CMC为常数，用A代表KmCMC－1则：
+St/So=KmCsurf＋A　　（6）
+　　实验数据以表面活性剂浓度大于CMC时的浓度对有机污染物增溶倍数作图，应得一直线，直线
+的斜率即为分配系数Km。
+　　SDS、LAE和CTAB对TCB的增溶结果以TCB的增溶倍数对表面活性剂浓度作图（见图1）。从图中
+可以看出，表面活性剂对TCB的增溶倍数随表面活性剂浓度的提高而线性增加。直线的斜率为TCB
+在3种表面活性剂溶液中的分配系数Km，代表了表面活性剂对TCB的增溶能力。表1中列出了3种表面
+活性剂的一些基本理化参数和TCB的分配系数Km。由表1中数据可以看出，在3种表面活性剂中SDS的
+CMC最高；而CTAB的烷基链最长。LAE的烷基链虽然与SDS一样，但由于LAE有较长的聚氧乙烯链，
+其CMC最低。
+ 
+图1　不同表面活性剂对三氯苯增溶曲线
+表1　3种表面活性剂的基本理化参数
+表面活性剂名称SDSCTABLAE
+分子式C12H25SO4NaC16H33(CH3)2NBrC12H25(OCH2CH)OH
+分子量288364.5494
+烷基链碳数121612
+CMC /(g/L)(25℃)2.330.3350.025
+Km6.1415.3321.16
+
+　　比较TCB在所研究的三种表面活性剂溶液中的分配系数Km可以看出，表面活性剂的结构和类型
+对有机物的增溶作用有明显的影响。非离子表面活性剂LAE的增溶效果最好；阴离子表面活性剂
+SDS的增溶效果最差；而阳离子表面活性剂CTAB的增溶能力介于两者之间。例如当表面活性剂浓度
+为5.0g/L时，在SDS溶液中TCB的表观溶解度为1075.92mg/L，比纯水仅增加约27倍；而在LAE溶液
+中TCB的溶解度可达3800mg/L，增溶100多倍。
+　　在表面活性剂对疏水有机物的增溶过程中，由于不同表面活性剂形成的胶束结构不同，疏水
+有机物在胶束中的增溶方式也不同。对于离子型表面活性剂形成的胶束，只有胶束的内核由于烷
+基链的聚集是疏水的，而胶束的表面全部由有序排列的强极性基团构成；这些基团不但不能与疏
+水有机物结合，还对疏水有机物向胶束中的扩散起排斥作用；因而烷基链相同的离子型表面活性
+剂增溶能力一般比相应的非离子型表面活性剂小。同时在离子型表面活性剂中烷基链的长度直接
+影响胶束核的体积，胶束核的体积一般随烷基链长度的增加而增大。而胶束核体积增加就能容纳
+更多疏水有机物，从而使表面活性剂增溶能力增加[7]。本文中CTAB的增溶能力明显高于SDS正是由
+于这一原因。
+　　疏水有机物在非离子表面活性剂胶束中的增溶方式与离子型表面活性剂不同。疏水有机物除
+了在胶束核中的分配外，由于聚氧乙烯链的极性与低分子醇类相当，因此疏水性有机物亦能够在
+胶束表面定向排列的聚氧乙烯链中分散，因而增溶能力远大于离子型表面活性剂。
+2.2 表面活性剂单体的增溶作用
+　　一般认为表面活性剂对疏水有机物的增溶作用在表面活性剂浓度达到临界胶束浓度以上时才
+会发生。本文研究的3种表面活性剂对TCB的增溶行为表明，在表面活性剂浓度低于CMC时，TCB在
+SDS和CTAB溶液中的表观溶解度均有增加（见表2），说明表面活性剂对TCB的增溶作用在CMC以下
+亦可发生。产生这一现象的原因主要有两点：第一，在CMC以下的表面活性剂溶液中存在一定量的
+表面活性剂分子二聚体和三聚体。溶液中这些二聚体和三聚体可在一定程度上增加疏水有机物在
+水中的溶解度。第二，表面活性剂单体本身也可能增加疏水有机物在水中的溶解度。例如，Kile
+等[4]在几种离子和非离子表面活性剂溶液中观察到三氯苯和DDT溶解度的增加。他们把这种增溶现
+象归结为表面活性剂稀溶液中存在类似于“分配”的非极性物含量的增加。这一增溶作用与天然
+水体中溶解有机质对疏水有机物的增溶相似。Edwards等[2]认为，在CMC以下，表面活性剂对疏水
+有机物的增溶作用是一种类似于可共溶溶剂的增溶机理。也就是说，在表面活性剂的稀溶液中，
+由于表面活性剂的疏水基团在水相的存在，在一定程度上降低了溶液的极性，使得疏水有机物在
+水中的溶解度增加。
+表2　不同表面活性剂在CMC以下对TCB的增容
+表面活性剂浓度TCB溶解度S /So
+(g/L)(mg/L)
+SDS039.861
+0.251.321.29
+0.573.081.83
+0.892.562.32
+1.2141.863.56
+1.5240.426.03
+1.8250.746.29
+2.3345.868.68
+CTAB035.261
+0.1073.082.07
+0.20109.763.11
+0.30157.904.48
+
+3　结论
+　　十二烷基硫酸钠、十六烷基三甲基溴化铵和脂肪醇聚氧乙烯醚LAE对TCB的增溶研究表明，表
+面活性剂的类型对有机污染物的增溶作用有明显的影响；增溶能力的大小顺序为：非离子表面活
+性剂＞阳离子表面活性剂＞阴离子表面活性剂。TCB在3种表面活性剂溶液中的表观溶解度随表面
+活性剂浓度的增加而线性增加。增溶作用不仅在临界胶束浓度CMC以上发生，在表面活性剂浓度低
+于CMC时，对TCB亦有增溶作用。产生这一现象的原因，可能是由于溶液中表面活性剂多聚体的存
+在及表面活性剂疏水基团本身对溶液极性的影响所造成的。
+　　从3种表面活性剂增溶能力的比较看，由于非离子表面活性剂增溶能力较高，在以去除有机污
+染物为目标的土壤修复中，采用非离子表面活性剂效果可能优于其它类型表面活性剂。但在某些
+特定情况下，阳离子表面活性剂有其独特的优点。例如，阳离子表面活性剂能与土壤中的Ca2+、
+Mg2+离子交换而在土壤上强烈吸附，可以用来对土壤进行改性；这种改性后的土壤对有机污染物有
+很高的吸附容量，可以在地下水的修复过程中吸附地下水中的有机污染物，防止污染物随地下水
+扩散迁移等。因此，在土壤和地下水的修复中选用何种表面活性剂，应主要根据修复的目标和具
+体的工程措施来确定。
+基金项目：这家自然科学基金项目(29673005)
+作者简介：高士祥(1962～)，男，博士，副教授。
+作者单位：南京大学环境科学与工程系，污染控制与资源化国家重点实验室，南京210093
+参考文献：
+　1　Edwards D A, Luthy R G, Liu Z. Solubilization of polycyclic aromatic hydrocarbons in micellar nonionic 
+surfactant solutions[J]. Environ Sci Technol, 1991, 25: 127 
+　2　Diallo M S, Abriola L M, Weber W J Jr. Solubilization of non-aqueous phase liquid hydrocarbons in 
+micellar solutions of dodecyl alcohol ethoxylates[J]. Environ Sci Technol, 1994, 28: 1829
+　3　Kile D E, Chiou C T. Water solubility enhancements of DDT and trichlorobenzene by some surfactants 
+below and above the critical micelle concentration[J]. Environ Sci Technol, 1989, 23: 832
+　4　Abdul A S, Gibson T L, Rai D N. Selection of surfactant for the removal of petroleum products from 
+shallow sandy aquifers[J]. Ground Water, 1990, 28: 920
+　5　Pennell K D, Abriola L M, Weber W J. Surfactant enhanced solubilization of residual dodecane in soil 
+columns:.Experiment investigation[J]. Environ Sci Technol, 1993, 27: 2332
+　6　Jafvert C T, Van Hoof P L, Heath J K. Solubilization of non-polar compounds by non-ionic surfactant 
+micelles[J]. Wat Res, 1994, 28(5): 1009
+　7　Pennell K D, Adnofli A M, Abriola L M, et al. Solubilization of dodecane, tetrachloroethylene, and 1, 2
+-dichlorobenzene in micellar solutions of ethoxylated nonionic surfactants[J]. Environ Sci Technol, 1997, 31(5): 
+1382
+　8　Grimberg S I, Nagel J, Aitken M D. Kinetics of Phenanthrene dssolution into water in the presence of 
+nonionic surfactants[J]. Environ Sci Technol, 1995, 29(6): 1480
+　9　Guha S, Jaffe P R, Peters C A. Solubilization of PAH mixtures by a nonionic surfactant[J]. Environ Sci 
+Technol, 1998, 32(7): 930
+　10　Deitsch J J, Smith J A. Effect of triton X-100 on the rate of trichloroethene desorption from soil to water
+[J]. Environ Sci Technol, 1995, 29(4): 1069
+　11　Sahoo D, Smith J A. Enhanced trichloroethene desorption from long-term contaminated soil using triton 
+X-100 and phenomenon Increases[J]. Environ Sci Technol, 1997, 31(7): 1910
+　12　Imhoff P T, Arthur M H, Miller C T. Complete dissolution of trichloroethylene in saturated porous media
+[J]. Environ Sci Technol, 1998, 32(16): 2417
+　13　Kommalapati R R, Valsaraj K T, Constant W D, et al. Aqueous solubility enhancement and desorption of 
+hexachlorobenzene from Soil using a plant-based surfactant[J]. Wat Res, 1997, 31 (9): 2161
+　14　Grimberg S J, Miller C T, Aitken M D. Surfactant-enhanced dissolution of phenanthrene into water for 
+laminar flow conditions[J]. Environ Sci Technol, 1996, 30(10): 2967
+　15　Sahoo D, Smith J A, Imbrigiotta, et al. Surfactant-enhanced remediation of a 
+trichloroethene-contaminated aquifer 2: Tranport of TCE[J]. Environ Sci Technol, 1998, 32(11): 1686
+　16　Okuda I, McBride J F, Gleyzer S N, et al. Physicochemical transport processes affecting the removal of 
+residual DNAPL by nonionic surfactant solutions[J]. Environ Sci Technol, 1996, 30(6): 1852
+　17　Jafvert C T. Sediment-and saturated-soil-associated reactions involving an anionic surfactant 
+(dodecylsulfate): Partion of PAH compounds among phases[J]. Environ Sci Technol, 1991, 25: 1039
+收稿日期：1999-06-13

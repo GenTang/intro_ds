@@ -1,0 +1,36 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.1 P.27-30
+
+
+
+
+考虑模糊因素的缺陷安全可靠性评定
+胡宽　 张永敬　 常新龙　 
+摘　要：在模糊理论和随机可靠性理论的基础上，通过对缺陷安全可靠性评定中各参数的模糊随机性分析，建立了缺陷安全可靠性评定模糊失效概率计算模型。并且结合算例进行验证，取得了较符合实际的结果。
+关键词：失效；模糊；可靠性；缺陷
+分类号：TB114.3；TJ76　文献标识码：A
+文章编号：1006－1630（2001）01－0027－04
+Defect Security Reliability Asses Taking Account of Fuzzy Factor
+HU Kuan（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025,China）　
+ZHANG Yong-jing（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025,China）　
+CHANG Xin-long（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025,China）　
+
+Abstract：Considering fuzzy factors in defect security reliability assessment, fuzzy and reliability analysis is carried out and a computation model of defect security reliability is established based on the fuzzy and reliability theory. And it is verified by an example, then the more practical result is gained.
+Keywords：Failure； Fuzziness； Reliability； Defect
+
+基金项目：国防科技预研课题(99JS60.1.2.JB4701)
+作者简介：胡宽(1976-)，男，硕士生，研究领域：航空宇航推进理论与工程。 
+作者单位：胡宽（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　张永敬（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　常新龙（西安第二炮兵工程学院，陕西西安 710025）　
+
+参考文献：
+［1］李洪兴,汪群等.工程模糊数学方法及应用[M].天津科学技术出版社,1993.545-558.
+［2］刘兵吉.失效与可靠性研究文集[C].第二炮兵装备技术部, 1994.338-343.
+［3］陈集丰.结构的模糊随机可靠性分析[J].强度与环境, 1996,（1）：40-46.
+［4］吕震宙,冯元生.元件强度可靠性的模糊概率计算模型[J].航空学报,1996,（11）：752-754.
+
+收稿日期：2000年1月4日
+修稿日期：2000年3月27日
+出版日期：2001年2月25日

@@ -1,0 +1,99 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+基于SSL的安全WWW系统的研究与实现
+韦卫　王德杰　张英　王行刚
+摘　要　文中提出并实现了一个基于安全套接字层(SSL)技术的安全WWW系统.该系统可为WWW客户机和服务器的应用层通信应用软件提供数据加密、信息完整性、实体鉴别和非抵赖等安全服务.利用流机制和层服务者技术将安全套接字层嵌入操作系统内核，从而使安全服务对上层的所有应用软件透明.为提高浏览器的通信效率，文中提出了适合于系统内核实现的面向进程的握手保密会话. 文中实现的安全WWW系统可跨Win32（95,98,NT）和UNIX平台运行，并可对http、电子邮件、FTP和telnet等提供安全保护.
+关键词　安全套接字层，Internet安全，安全WWW，操作系统内核，密钥管理，密码学
+中图法分类号　TP393
+STUDY AND IMPLEMENTATION OF A SECURE WORLD WIDE
+WEB SYSTEM BASED ON SECURE SOCKETS LAYER
+WEI Wei, WANG De-Jie, ZHANG Ying, and WANG Xing-Gang
+(Institute of Computing Technology, Chinese Academy of Sciences,Beijing　100080)
+Abstract　In the paper here, a secure World Wide Web system based on secure sockets layer is put forward and implemented, which can be used to provide secure services such as encryption, integrity, peer authentication, and non-repudiation. SSL can be embedded into the kernel of operating systems by means of stream mechanism and layered service provider technique. This make the SSL transparent to all applications. In order to reduce the delay of communication, a new session key method oriented to the host process is proposed. This SSL can run across WIN32 and UNIX platforms and secure http, e-mail, ftp and telnet.
+Key words　secure sockets layer,Internet security,secure World Wide Web,OS kernel,key management,cryptography
+1　引　　言
+　　随着Internet技术的发展，World Wide Web(WWW)系统已从最初的提供信息查询浏览一类的静态服务发展成可提供动态交互的网络计算和信息服务的综合系统，在此基础上可实现对网络电子商务、事务处理、工作流以及协同工作等业务的支持.WWW系统是以C/S方式工作的，目前WWW信息安全的解决方案通常以防火墙为主，防火墙的信息加密、鉴别和完整性等安全机制通常在安全IP层［1］和应用层的SOCKS［2］中实现，防火墙适合于组建Intranet，在安全方面缺乏对诸如网络电子商务等业务的支持.从WWW上的各类应用在安全方面的不同需要考虑，安全WWW可以由以下安全协议或方案支持：安全超文本传输协议(secure-HTTP)、安全超文本标记语言(S-HTML)、安全Java、安全Java类库、安全套接字层(SSL)和安全传输层［3］(S-TCP,TLS).
+　　安全套接字层协议［4］(SSL)是由Netscape提出并应用于Netscape浏览器中.随着Web浏览器技术的发展，SSL已被工业界认可，并成为IETF的RFC草案.在操作系统中SSL位于TCP和应用层协议（HTTP，SMTP，FTP）之间.安全套接字层SSL能够以两种形式实现，一是将SSL嵌入操作系统内核，安全机制对所有上层应用软件透明.二是在应用层以C语言库形式实现，应用软件的源码的通信部分需要按照安全套接字通信协议格式重新编写，然后链接SSL套接字库重新进行编译，生成执行代码.通常情况下商用应用软件的源码是难以得到的，所以，第1种实现方式对于网络安全研制而言较为实用.同时，可为基于Internet Web浏览器和电子邮件技术的电子商务、专用事务处理和多媒体等应用提供透明的安全服务.本文着重研究第1种实现方式.
+2　总体安全结构
+　　基于SSL安全WWW系统仍然采用客户-服务器模式，SSL实现必须在客户机、Web服务器或Web代理(proxy)服务器上的操作系统内核中.操作系统为UNIX类和基于WinSock2.0的Win-95、98和NT.基于SSL安全WWW系统可对应用层提供并具备如下的安全服务和密码学特性.
+　　(1) 浏览器和Web服务器双向身份鉴别.即利用双方的公钥证书保护或生成的主密钥(master-secret)对握手连接信息进行签名验证(MD5，SHA和DSS).
+　　(2) 信息加密.支持流密码、分组密码和公钥加密体制.
+　　(3) 面向连接的信息完整性.由报文认证码MAC(MD5，SHA等)支持.
+　　(4) 双方信息交换的不可否认服务.通过对握手信息和报文信息的数字签名来实现.
+　　(5) 数据源鉴别.由握手期间密钥交换建立的主密钥、加解密密钥、认证码密钥和相应的密码算法支持.
+　　从系统实现角度，安全WWW系统由以下部分构成.
+　　(1) 握手协议模块.建立本次连接的会话密钥premaster-key，为密码组件生成报文加密密钥和信息完整性鉴别密钥，实现浏览器和Web服务器双向身份鉴别.
+　　(2) 密码组件.对发送队列和接收队列的数据进行加密、解密和信息完整性检验.
+　　(3) 密钥管理进程.完成公钥证书申请与获取，从磁盘或IC卡读取基本密钥，并将这些信息传送至握手协议模块.
+3　系统设计及关键技术
+　　客户的浏览器和服务器操作系统的应用进程建立(connect和accept)套接字连接成功以后，安全套接字层SSL开始运行.SSL首先进行安全握手连接，即SSL_connect和SSL_accept，以确定密码算法、密钥和压缩方式等参数.握手成功以后，SSL_read (WSPRecv)对由套接字层(或TCP层)上流的数据进行解密，然后将明文向上层发送，SSL_write (WSPSend)对应用层(或套接字层)进行加密，将密文向下层发送.密钥交换在握手期间进行.系统共有4种报文类型：握手报文(handshake), 密码格式变换报文(change_cipher_spec), 系统报警报文(alert)和应用数据报文(application_data).
+3.1　层无关设计技术
+　　层无关技术［6］是简化网络通信协议的复杂性的技术，即第n层的实现与修改将不影响第n-1层和n+1层的实现.我们采用层无关技术将SSL层实现在操作系统内核中的socket层和TCP/UDP层之间，从而使SSL层的安全机制对系统应用层的所有网络应用软件提供透明性服务，同时，SSL具有较好的可移植性，可在任意的具有winsock和UNIX-SYSV4.0以上的操作系统中运行，与硬件平台无关.为保证可互操作性，SSL对通信报文进行了如下处理，使得①当一个无SSL的系统收到SSL报文时，能够妥当地处理.②具有安全套接字层的系统能够对收到的非SSL保护的socket（TCP/UDP）报文进行妥善处理.
+　　图1给出了SSL在Win32平台和UNIX平台实现的体系结构，SSL在Win32中作为系统的一个动态连接库被插入操作系统的内核，在SSL动态连接库中由WSPConnect函数发起握手，WSPRecv和WSPSend对来自下层TCP和上层winsock的数据进行解密、加密和完整性检验.
+
+
+图1　安全WWW系统结构图
+　　在UNIX中SSL作为一个流(stream)设备模被push到系统内核.SSL模块主要由sslmodopen(),sslmodclose(),sslmodrput(),sslmodwput(),sslmodwsrv()和sslmodrsrv()等函数组成.SSL模块以读队列中读取的报文类型作为事件驱动，响应客户机的握手请求，进行解密、加密和完整性检验.
+3.2　面向进程的握手和保密会话
+　　握手协议在密码学意义上实现了客户和服务器之间的双向鉴别、密钥交换和保密会话.其安全性建立在离散对数(DH协议)或整数分解(RSA协议)的难题上. 
+　　安全套接字层的握手协议是为客户和服务器双方进行保密通信前确定安全参数、密钥、算法和同步的协议.在通信方面，握手协议需进行4次交互.图2从密钥交换和安全意义方面描述了握手协议.一个完整的握手过程可在客户和服务器之间建立一个对等的保密会话(session)， 一个会话可支持一个或多个connections.在套接字层，一个客户套接字建立在一个连接(connection)上.
+
+
+图2　握手协议
+　　当一次握手产生的保密会话仅支持一个套接字时，我们称之为面向单一套接字的保密会话.通常情况下，建立在应用层的安全套接字层采用面向单一套接字的保密会话.由于在浏览器环境下，http协议是一个无连接、无状态的协议，每次连接仅处理一个请求，且服务器和客户机均不保存前次连接的状态，连接的建立和关闭频繁，多数连接仅传送少量的数据，所以，面向单一套接字的保密会话在WWW浏览器环境下，运行的速度较慢.减少握手次数可提高浏览器的速度.另一方面，在浏览器利用http或ftp登录到服务器成功后，系统可能利用一个套接字传送大量的数据，此时在内核中无法为这种套接字建立握手.为此，本文提出并实现了一种面向主机进程的安全会话，即当一个浏览器进程A与服务器B握手产生了会话密钥(premaster key)后，该密钥可被A进程的所有与服务器B的连接使用.使用面向进程的安全会话比面向连接的会话效率高.
+　　密钥交换在握手期间进行.基于Diffie-Hellman密钥交换协议是最简洁的方案，客户和服务器可以不必去CA机构获取对方的公钥证书，证书可在密钥交换时动态产生.如果基于RSA密钥交换协议，则客户和服务器必须获取对方的公钥证书，当服务器发出CertificateRequest时，客户机必须实时生成密钥交换公钥证书.KeyExchange报文包含了密钥交换的参数，如DH的P，g和gx.
+　　握手协议的ClientHello报文由客户在WSPconnect中生成并发送至服务器，服务器从下流读队列中获取ClientHello后，便开始握手过程，握手结束后在客户和服务器之间建立起一个保密会话(session)，此时开始http［5］客户request和服务器response协议.本文在Pentium90客户机和SUN-SPARC 10服务器环境下，使用基于512位安全素数P的Diffie-Hellman密钥交换协议，服务器和客户实时生成公钥参数P，g，gx，gy和gxy，握手时间为9.6秒钟.
+3.3　密钥管理协议的实现
+　　密钥管理包括密钥交换、密钥生成和密钥分配.常用密钥交换协议有基于有限群的离散对数难题的Diffie-Hellman和整数分解难题的RSA密钥交换协议［6］，基于椭圆曲线上点组成的加法群倍点难题的椭圆曲线密钥分配协议［1，7］.目前密钥分配的主要方案为自动分配和人工分配，由于Internet信息的实时性、信息量的突发性和信息浏览的自由性，传统的基于手工密钥分配的密钥交换难以满足Internet的要求.所以，必须使通信实体双方可利用非安全信道(Internet)获取对方的密钥，安全的核心要求无关第3方在非安全信道上获取密钥交换信息而计算出共享密钥是一个单向陷门问题.证书机构CA是目前最常用的密钥自动分配方案.本文主要研究SSL在无公钥证书的情况下的密钥交换和生成.
+3.3.1　密钥交换
+　　在无公钥证书的情况下，由Web服务器实时生成DH或RSA的短期公钥参数，利用密钥交换ServerKeyExchange报文传送给Web浏览器.在DH密钥方案中，当服务器在收到客户的ClientHello报文后，由服务器生成DH私钥x和公钥参数{P,g,gx mod P}，并将公钥参数发送给浏览器客户, 客户生成并发送公钥gy mod　P，双方生成 premasterkey=gxy　mod　P，见图3所示.当使用RSA方案时（参见图4），服务器首先生成短期RSA公钥参数，浏览器从ServerKeyExchange中获取服务器的公钥参数（N,a），其中：N=p1×p2, ab≡1　mod Φ(N).浏览器随机产生premasterkey (48bytes)，用服务器的公钥a保护premasterkey (y=premasterkeya mod N)并发送给服务器，服务器利用私钥b获得premasterkey ((ya)b mod N).
+
+
+图3　DH密钥交换协议
+
+
+图4　RSA密钥交换协议
+　　上述密钥交换安全的核心在于的公钥参数P，p1和p2的生成，构造并使用形如P=2q+1的安全素数是保证基于离散对数难题的DH方案和RSA方案安全关键，本文安全素数生成算法基于文献［6］的下述定理.
+　　定理1. 设整数F的素因子分解为，P=2RF+1，R为整数，如果存在整数a，使得aP-1≡1 mod　P，gcd(a(P-1)/qi-1,P)=1（i=1,2,…,s），则P的每个素因子是形如mF+1的素数，m>1.再者，如果F为大于R的奇数，或，则P为素数.
+　　定理2. 设P＝2q+1，q为素数（或奇数），如果存在整数a≥2，使得
+　　aP-1≡1 mod　P，gcd(a(P-1)/q-1,P)=1，a21 mod p，aq1 mod p成立，则P为DH安全素数，且a为Zp上的本原根.
+3.3.2　密钥生成
+　　密钥由主密钥masterkey、预主密钥premasterkey、套接字报文加密密钥writekey和报文完整性认证密钥MACkey组成，这些密钥都是在握手时动态生成. 
+　　masterkey=MD5(pmkey+SHA(′A′+premasterkey+ClientHello.random
+　　　　　　　+ServerHello.random))+MD5(pmkey+SHA(′BB′+premasterkey
+　　　　　　　+ClientHello.random+ServerHello.random))
+　　　　　　　+MD5(pmkey+SHA(′CCC′+pmkey+ClientHello.random+ServerHello.random)).
+　　WriteKey/MACKey＝MD5(masterkey+…).
+　　为防止基于代理proxy技术的中间插入攻击，安全WWW系统的客户和服务器还必须设立一个可被安全存储的基本密钥basekey，由基本密钥保护握手信息或公钥证书.
+4　结论和后续工作
+　　本文实现的安全WWW系统的客户端支持基于UNIX和WIN32(NT、95和98)的Netscape浏览器、FTP和telnet，同时支持Microsoft的IE浏览器.在服务器端支持NT以及与UNIX系统5版本4.0以上兼容的操作系统.用于密钥交换或证书公钥的长度最大至2048位，用于套接字报文加密的密钥长度在64～2040位.下面我们给出在10M以太网Pentium90客户机Netscape4.0和SUN-SPARC10服务器环境下安全WWW的运行结果.套接字数据报文的加密和认证时间取决于加密和认证算法，以及算法的实现方式，如RC5［8］-32/12/16的加密速度为360,000字节/秒，对浏览器用户影响不大.表1给出对WWW浏览器用户影响最大的握手时间.
+表1　安全WWW握手时间
+
+　DH方案*P≈2512DH方案**P≈2512RSA方案**(N≈21024)
+握手时间9.6秒3秒8.9秒
+
+*当无公钥证书时，实时生成公钥证书
+**已获取公钥证书
+　　在SSL握手前获取公钥证书，则能减少浏览器的连接时间.本文的后续工作是建立能在Internet上分配公钥证书的证书机构CA，其中包括证书目录X.509、pem、证书发现协议、证书登记和证书分发等.
+本课题得到国家“八六三”高技术计划306主题基金资助.
+作者简介：韦卫，男，1964年9月生，博士研究生，高级工程师，研究方向为计算机网络安全、密码学、人工智能.王德杰，男，1965年3月生，硕士，副研究员，研究方向为计算机网络.张英，女，1952年生，研究员，研究方向为计算机网络.王行刚，男，1936年生，研究员，博士生导师，研究方向为计算机网络与多媒体通信.
+作者单位：中国科学院计算技术研究所　北京　100080
+参考文献
+　1　韦卫，王德杰，王行刚.Internet网络层安全协议理论研究与实现.计算机学报，1999,22(7):171～176
+(Wei Wei,Wang Dejie,Wang Xinggang.Theoretic researches and implementation of IP securing protocol via Internet network layer.Chinese Journal of Computers(in Chinese),1999,22(7):171～176)
+　2　Leech M, Ganis M, Lee Y et al.SOCKS Protocol Version 5. RFC 1928,1996
+　3　韦卫，王行刚.TCP安全框架的研究.通信学报，1997,18(11):92～96
+(Wei Wei,Wang Xinggang.Researches on TCP security frame.Journal of China Communication(in Chinese),1997,18(11):92～96)
+　4　Freier A, Karlton P, Kocher P. The SSL Protocol: Version3.0,〈draft-ietf-tls-ssl-version3-00.txt〉, 1996. http://www.ietf.org/
+　5　Fielding R, Gettys J, Mogul J. Hypertext Transfer Protocol——HTTP/1.1,RFC 2068, 1997
+　6　韦卫，王行刚.安全素数生成算法及其在安全套接字层SSL密钥交换协议中的实现.见：第五届计算机科学与技术研究生学术论文集.北京：中国科学院计算技术研究所，1998
+(Wei Wei,Wang Xinggang.An algorithm of safe prime generation and its implementation in key exchange protocol of secure sockets layer.In:The 5th Symp on Computer Science and Technology for Graduated Student(in Chinese).Beijing:Institute of Computing Technology,Chinese Academy of Sciences,1998)
+　7　Schroeppel R, Orman H. Fast key exchange with elliptic curve systems. In:CRYPTO '95.Lecture Notes on Computer Science, 1025, New York:Springer,1995
+　8　Rivest R L. The RC5 Encryption Algorithm, CryptoBytes,Vol 1.USA:RSA laboratoris,1995
+　9　Gollmann D. Cryptographic APIs, Cryptography:Policy and algorithms. In:Lecture Notes in Computer Science,1029,New York:Springer,1995
+原稿收到日期：1998-07-17
+修改稿收到日期：1998-10-08

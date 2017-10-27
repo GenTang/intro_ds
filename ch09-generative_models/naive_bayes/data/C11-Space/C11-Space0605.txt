@@ -1,0 +1,33 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.3 P.22-25
+
+
+
+
+超高空系缆气球的空气动力特性试验研究
+蔡国华　 
+摘　要：介绍自然形状和流线形状两种高空系缆气球的空气动力特性。着重探讨攻角和雷诺数对升力、阻力和俯仰力矩的影响。指出：合理、良好的气动外形（具备可靠的稳定性和最小阻力），对提高抗风能力、增加留空时间都有重要意义。
+关键词：系缆气球；风洞试验；雷诺数效应；空气动力特性
+分类号：V211.24　文献标识码：A
+文章编号：1006-1630(2001)03-0022-04
+Aerodynamic Experiments of Extremely High Altitude Tethered Balloons 
+CAI Guo-hua（Beijing Institute of Aerodynamics, Beijing 100074，China）　
+
+Abstract：The report presents aerodynamic properties of the tethered balloons in the natural and streamlined shape at some fixed altitude and puts emphasis on exploration of the effects of angle of attack and Reynolds number on lift, drag and pitching moment of the balloons. A reasonable and excellent aerodynamic configuration with the reliable stability and minimum drag is significant for strengthening the capability against the gust and pro1onging the operation time at such a high altitude.
+Keywords：Tethered balloon; Wind tunnel test；Reynolds number effect; Aerodynamic property
+
+作者简介：蔡国华（1939-），男，研究员，研究领域：空气动力学试验 
+作者单位：蔡国华（北京空气动力研究所，北京 100074）　
+
+参考文献：
+［1］Euler A J, Badeersha S S, Schroeder L D. Very high a1titude tethered balloon feasibility study[R]. AIAA-95-16l2.
+［2］Krausan J A. Investigation of various parameters affecting altitude performance of tethered aerostats[R]. AIAA-95-1625.
+［3］Badesha S, Euler A, Schroeder L.Very high altitude tethered balloon parametric sensitivity study[R]. AIAA-95-1625.
+［4］上海航天局科技情报所.航天产品设计标准手册[C].航天工业部第七○八研究所,1984.
+［5］蔡国华.高空系缆气球空气动力特性风洞试验大纲[R].北京空气动力研究所,1998.
+［6］Tekrony K L. Wind tunnel tests of natural shape balloon mode1[R]. Ames Aeronanutical Laboratory of NASA,AD-667563.
+［7］张佛生.FK4飞艇（1∶20）模型测力试验[R].北京空气动力研究所,1990.
+
+收稿日期：1999年10月11日
+出版日期：2001年3月1日

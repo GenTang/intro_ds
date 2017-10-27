@@ -1,0 +1,139 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+包气带中85Sr迁移的浓度双峰分布数值模拟研究
+王金生　李书绅　杨志峰
+摘要：为了深入研究核素在地质介质中的迁移规律,为低中放废物近地表处置环境安全评价提供依据,开展了在黄土包气带人工喷淋条件下,85Sr、60Co和134Cs的加速迁移试验.经过两年多的示踪试验,发现85Sr在迁移过程中,出现了浓度双峰分布.用单一对流弥散数值模型无法解释这一现象.基于“85Sr以两种化学形态迁移”的假设,采用两种不同的吸附参数进行数值计算.结果表明,数值模拟与试验结果拟合得较好,得出85Sr的两种化学形态的分配系数分别介于400～800mL/g和30～60mL/g.
+关键词：黄土；包气带；对流弥散；数值模拟；核素迁移
+中图分类号：X142 文献标识码：A
+Numerical modeling of 85Sr migration in aerated zone with the characteristic of double peak concentration distribution.
+WANG Jin-sheng　YANG Zhi-feng
+(Institute of Environmental Sciences, Beijing Normal University, State Key Joint Laboratory of Environmental Simulation and Pollution Control, Beijing 100875,China)
+LI Shu-shen
+(China Institute for Radiation Protection,Taiyuan 030006,China). China Environmental Science. 1999,19(6)：556～560
+Abstract：The test of 85Sr migration in unsaturated loess under artificial sprinkling was conducted in order to study the radionuclides migration in geological media and to provide the basis for safety assessment of near surface disposal of low and intermediate level radioactive waste. It is found from 2-year tracing test that the 85Sr concentration distribution has characteristic of double peak in its migration process and can not be described typically by the numerical modeling of advection-dispersion. In this study,with the assumption of two forms of 85Sr in its migration, the numerical modeling was done and showed that the numerical simulation results agreed well with the in-situ test data, each form possessing different coefficients. The calculated distribution coefficients associated with the two forms of 85Sr are from 400 to 800 and 30 to 60 mL/g respectively.
+Key words：loess；aerated zone；advection-dispersion；numerical simulation；radionuclide migration.
+　　为了深入研究核素在地质介质中的迁移规律,在黄土包气带中,开展了85Sr、60Co和134Cs迁移的示踪试验[1].经过半年的示踪试验,85Sr的浓度峰位明显地离开了初始埋设位置,进一步试验发现,在D、E坑6次监测的土柱中,85Sr的浓度分布具有“双峰”特征*,另两个核素受吸附影响大,反映不出迁移峰位变化.
+　　用目前国内外基于对流弥散方程描述的平衡模型[2-4],难以模拟与解释双峰现象.利用非平衡吸附理论[5]模拟结果虽然优于平衡吸附理论,但仍无法解释双峰现象.本文假设85Sr在迁移过程中,存在两种化学形态,每个峰用一套分配系数、弥散系数和平衡吸附速率参数来表示,用非平衡吸附数值模型模拟双峰现象,结果表明,与现场试验拟合得较好.
+1 地下水流场计算
+　　试验场地下水埋深28m,在地面进行人工喷淋,地面和地下水位都是水流模型的理想狄里克雷边界,但核素迁移距地面最大距离小于2m,采样厚度为1～2cm,数值计算需按1～2cm的间隔剖分.为给核素迁移计算提供条件,采取两个步骤,首先用较大的剖分网格计算从地面到潜水面的压力水头分布;然后将上步计算2m处的压力水头随时间的变化作为本步计算的边界条件,计算地下2m处的水流场.
+1.1 包气带水分运动数学模型
+　　根据流体和介质的连续方程、流体的运动方程、状态方程、固体骨架的垂向可压缩性以及介质的可持水性,导出包气带水分运动的基本方程[6]：
+　　　(1)
+式中:a'为流体的修正可压缩系数(1/cm),b'为介质的修正可压缩系数(1/cm);θ为体积含水量(无量纲);ne为有效孔隙度(无量纲);h为压力水头(cm);H为总水头等于h+z(cm);其中z是位置水头(cm);k(h)为介质的固有渗透率张量(cm2);r 为流体的密度(g/cm3);g为重力加速度(cm/d2);m 为流体的动力粘滞系数(g/cm.d),t为时间(d);q为源汇项[cm3/(d.cm3)].k(h)可用与h有关的水力传导系数张量(cm/d)表示.
+　　　(2)
+K(h)可通过Van经验公式[7]求得:
+　　　　(3)
+式中:KS为饱和渗透系数(cm/d);γ、n和m为待确定参数,可用包气带水份特征曲线确定：
+　　　　(4)
+式中:m=1-1/n(0<m<1);q S和q r分别表示土壤的饱和与残余含水量(无量纲); ha为进气压力水头(cm).
+初始条件:h(x,z,t)| t=0=hi(x,z) x,z∈R　　　(5)
+边界条件:h(x,z,t)=hD(x,z,t) x,z∈BD　　　　(6)
+式中:R为研究区;hi和hD分别为初始和狄里克雷边界的压力水头值(cm).包气带的边界不同于含水层,存在着土壤与大气的界面,实际计算中采用可变边界.
+在喷淋期:h(x,z,t)=hP(x,z,t) x,z∈BV　　　(7)
+- n.K.(H)=qP(x,z,t) x,z∈BV　　　　　　(8)
+式中:BV为可变边界;hp为允许的蓄水深度(cm);qp为入渗通量.显然,确切的可变边界预先不能确定,方程(7)和(8)都可用在可变边界上,并且可以相互转化,采用哪个取决于求解方程(1)的循环过程.
+非喷淋期: h(x,z,t)=hP(x,z,t) x,z∈BV　　　　(9)
+h(x,z,t)=hm(x,z,t) x,z∈BV　　　　(10)
+- n.K.(H)=qE(x,z,t) x,z∈BV　　　　(11)
+式中:hP是允许的蓄水深度(cm),hm和qE是空气与土壤界面上允许的最小压力水头(cm)和最大蒸发速率(cm/d).采用式(9)～ (11)中哪个方程,在求解方程(1)的过程中确定.
+下部及两侧取纽曼边界BN：
+- n.K.( H)=qN(x,z,t) x,z∈BN　　(12)
+式中:qN为纽曼边界的通量(cm2/d).
+　　方程(1)～(12)构成了黄土包气带地下水运移的剖面二维数学模型.
+1.2 包气带水流计算结果
+　　根据包气带地下水运移的数学模型,编制了相应的计算机程序WATERM,整个程序由1个主程序和29个子程序组成[3].
+1.2.1 计算整个包气带的水头分布 通过拟合包气带负压,获得导水性参数以及2m处的水头随时间的变化情况.
+　　参数初值的选择做法是利用压力板法,在室内测量原状土样,试验的负压取值范围是0～1500kPa,用最小二乘法和共轭梯度法,按公式(3)和(4),对试验值进行优化拟合,得出参数θr、γ、n和m的初值.根据钻探采样、颗粒分析和原状土的渗透试验,将包气带划分为4个参数区,用WATERM模式计算的结果与中子水分仪监测的结果拟合,获得的包气带导水性参数见表1.
+表1 包气带导水性试验拟合参数
+Table 1 Fitted parameters for the conductivity test in saturated zone
+深度(m)Ks(cm/d)θsθrnγ(1/cm)
+0～1.431.960.4570.1092.2670.007
+1.4～912.900.4820.1142.6560.003
+9～1815.020.4030.1511.9640.004
+18～2810.030.3960.1161.6100.002
+
+1.2.2 计算核素示踪试验区的地下水流场 计算地面到埋深2m处的流场、含水量和水头分布.设地面的水平方向为x轴,向下方向为z轴.在z轴方向共离散802个结点,结点间距0.5cm,x方向离散两个结点,间距为0.5cm,共400个单元.采用WATERM计算机程序进行计算,计算结果见图1,图2.从图1,图2中可以看出,当人工喷淋120d后,地下水流场开始稳定,渗透流速为1.5cm/d,含水量为0.27,压力水头为-270cm.
+
+图1 人工喷淋条件下压力水头和含水量随时间的变化
+Fig.1 Head pressures and water content changes with time under artificial sprinkling
+
+图2 人工喷淋条件下达西流速随时间的变化
+Fig.2 Darcy velocity changes with time under artificial sprinkling
+2　85Sr迁移中浓度双峰分布的数值模拟
+2.1 数学模型
+2.1.1 85Sr迁移中浓度双峰分布的数学模型 假设85Sr在迁移过程中,形成85Sr浓度双峰分布的原因是由于存在两种化学形态,且具有两种不同的迁移参数,浓度曲线的第一个峰位(靠近投源位置的峰位)是由化学形态1所致,第二个峰位是由化学形态2所致.
+　　由于85Sr在黄土介质中迁移,水是主要载体,黄土介质对85Sr的吸附和水对核素的解吸,是一个可逆的动态平衡过程,该过程可用非平衡吸附模型来表示[5],描述85Sr浓度双峰分布的控制方程为: 
+　　　　(13)
+式中:i=1,2;x,z∈R;Ci为液相中核素的浓度(Bq/mL);Fi为固相中核素的浓度(Bq/g);r 为介质干容重(g/cm3);V为渗透流速在x,z方向的分量(cm/d);D为弥散系数张量(cm2/d);λ为核素的衰变常数(1/d);M是源汇项[Bq/(mL.d)];a 为吸附解吸速率参数(1/d);Kd为分配系数(mL/g);下标i表示化学形态,i=1时,表示化学形态1,i=2时,表示化学形态2,以下同.
+初始条件：
+　　　(14)
+边界条件：
+- θ(DiCi)n=q2i(x,z,t) 在BN上 (15)
+式中:C0,F0为初始固、液相的核素浓度;q2I为边界BN上核素浓度通量(Bq/mL2);n为边界BN的外法线方向余弦的向量分量.方程(13)～(15)构成了85Sr在包气带孔隙介质中浓度双峰分布的非平衡吸附迁移的数学模式.
+2.1.2 85Sr迁移的双峰浓度分布计算式 首先采用NESOR[5]计算机程序计算出85Sr化学形态1中液、固相浓度C1、F1;详细计算过程见文献[5].利用下式计算85Sr化学形态1的液、固相浓度:
+CF1=(C1.θ+F1ρ)/ρ　　　(16)
+式中:CF1为85Sr化学形态1的液、固相浓度之和(Bq/g).同理计算出C2、F2,85Sr化学形态2的液、固相浓度和为:
+CF2=(C2.θ+F2ρ)/ρ　　　　(17)
+式中:CF2为85Sr化学形态2的液、固相浓度之和(Bq/g).85Sr在包气带中迁移的浓度为对应结点的液、固相浓度叠加和.
+CF=CF1+CF2　　　　　(18)
+式中:CF为实际测量的核素浓度(Bq/g).
+2.2 D坑与E坑示踪试验模拟
+　　为了对比文献[5]提出的非平衡模型与平衡吸附模型对示踪试验的模拟效果,首先模拟85Sr在包气带中迁移的非双峰浓度分布的几次监测结果,研究区的离散情况与水流模型的离散相同.表2中,E2、E6和D7是模拟参数及其误差,图3,图4为模拟结果与示踪试验结果的对比,从图3,图4和表2中可以看出,用非平衡吸附模型计算的结果优于平衡吸附模型计算的结果.
+
+图3　85Sr在黄土中迁移520d时的浓度(Bq/g)分布(E6)
+Fig.3 Concentration distribution of 85Sr in loess (E6) after 520 days migration (Bq/g)
+
+图4　85Sr在黄土中迁移510d时的浓度(Bq/g)分布(D7)
+Fig.4 Concentration distribution of 85Sr in loess (D7) after 510 days migration (Bq/g)
+表2 D和E坑85Sr迁移的模拟参数
+Table2 The migration parameters of 85Sr in pit D and E
+编号模型Kd
+(mL/g)αL
+(cm)α
+(1/d)累计误
+差最大误差
+E2M133.070.254∞26.34660.261
+M233.070.2540.70626.76048.148
+E6M149.850.173∞7.70217.520
+M249.850.1730.2366.0679.821
+D7M153.880.219∞11.68729.587
+M253.880.2190.21110.23627.632
+D4M3407.400.001∞12.86837.047
+M4407.400.0010.16312.38034.792
+M558.730.093∞23.80860.880
+M658.730.0930.30015.25848.367
+E4M3708.070.001∞41.309140.170
+M4708.070.0010.04439.179120.600
+M556.560.224∞22.24964.661
+M656.560.2240.2258.78020.810
+
+注：M1为平衡吸附模式 M2为非平衡吸附模式 M3为平衡吸附形态1模式 M4为非平衡吸附形态1模式 M5为平衡吸附形态2模式 M6为非平衡吸附形态2模式.平均误差定义为,其中C为计算浓度值,C＇为示踪试验浓度值;最大误差为计算浓度值与示踪试验浓度值之间的最大误差Max|(C- C＇)|
+　　然后,模拟85Sr在包气带中迁移的双峰浓度分布,作为实例,本文给出了D坑4号和E坑4号示踪试验的模拟结果,其模拟的参数及误差见表2,图5,图6显示了模拟与示踪试验结果的对比.
+
+图5 85Sr在黄土中迁移230d时的浓度双峰分布(D4) 
+Fig.5 Double peak concentration distribution of 85Sr in loess (D4) after 230 days migration (Bq/g)
+
+图6 85Sr在黄土中迁移310d时的浓度双峰分布(E4)
+Fig.6 Double peak concentration distribution of 85Sr in loess (E4) after 310 days migration (Bq/g)
+　　模拟计算中浓度峰位与源项的处理,浓度峰位的监测浓度是双峰分布,在实际模拟中需要将双峰曲线分为两个“单峰”分别模拟,在计算中分离点取“谷底”.源项的取值为总体计算的总量应与监测量相符.每个化学形态迁移曲线的模拟必须进行均衡计算,最后的计算结果与监测结果进行对比.
+3 结语
+3.1 提出了两种化学形态共存条件下85Sr迁移的假设,采用两种化学形态和两种迁移参数建立的模型,解决了单一对流弥散数值模型难以描述的问题,解释了85Sr在包气带中迁移的浓度双峰分布现象.
+3.2 数值模拟的结果表明,本文所建数值模型模拟的85Sr迁移曲线与示踪试验数据拟合得较好.85Sr在包气带的迁移试验中,两种化学形态的分配系数变化区间约为400～ 800mL/g和30～ 60 mL/g.从而为进一步的试验验证提供了理论依据.
+* 中国辐射防护研究院.低水平放射性废物浅地层处置安全评价方法研究—中国辐射防护研究院与日本子力研究所合作研究.1993.(3):6.1.77-6.1.95
+作者简介：王金生(1957-),男,河南太康人,北京师范大学环境科学研究所副研究员,博士,主要从事水资源水环境与数值计算方面的研究.参加与主持水文、工程地质勘察与研究的项目9项,科研项目12项,获部级优秀勘察成果二、三等奖各一项,部科技进步三等奖一项,2篇论文获省级优秀论文一等奖.发表论文30余篇.
+作者单位：王金生　杨志峰　北京师范大学环境科学研究所,环境模拟与污染控制国家重点联合实验室,北京 100875
+　　　　　李书绅　中国辐射防护研究院,山西 太原 030006
+参考文献
+　[1]　王志明,杨月娥,赵英杰等. 核素在非饱和黄土介质中迁移的环境模拟试验结果的模拟与分析 [J]. 辐射与防护,1998,18(1):11 - 17.
+　[2]　孙讷正.地下水污染—数学模型和数值方法 [M]. 北京:地质出版社,1989.
+　[3]　Yeh G T,Ward D S. FEMWASTE:a finite-element model of WASTE transport through saturated-unsaturated porous media [R]. ORNL-5601.1981.
+　[4]　Huyakorn P S,Kool J B,Robertson J B. VAM2D- Variably Satu- rated analysis model in two dimensions [R]. NUREG/CR-5352. 1989.
+　[5]　王金生,李书绅,王志明等. 核素迁移的二维非平衡吸附数值模式研究 [J].应用生态学报,1996,7(1):89- 93.
+　[6]　Yeh G T. FEMWATER:a finite-element model of WATER flow through saturated-unsaturated porous eedia [R]. ORNL-5567/R1.1987.
+　[7]　Van Genuchten M T. A closed-form equation for predicting the hydraulic conductivity of unsaturated soils [J]. Soil Sci. Soc. J., 1980,44:892- 898.
+　[8]　王金生,李书绅,王志明. 低中放废物近地表处置安全评价模式研究 [J].环境科学学报,1996,16(3):356- 363.
+收稿日期：1999-04-02

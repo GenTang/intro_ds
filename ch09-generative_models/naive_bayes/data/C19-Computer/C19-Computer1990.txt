@@ -1,0 +1,20 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+1999年 第18卷 第2期 Vol.18 No.2 1999
+
+
+
+如何为Windows NT Server 4.0制做应急引导软磁盘
+孙印杰　牛改芳
+问　题：
+　　Windows NT Server 4.0中文版(以下简称NT)，具有优良的图形用户界面、高可靠性、安全性、良好的兼容性及开放性，功能强大、容易使用，是任何部门建立局域网、尤其是建立Internet/Intranet等理想的网络操作系统。NT不仅功能强大，而且具有自动修复功能。为了充分发挥出NT的巨大优越性，安装人员在安装NT时往往选择“NTFS”(注：选择NTFS时不支持多重引导!)而不再选择FAT。且NT的“系统管理员”都知道制作应急修复磁盘，一旦系统出现不测时，可用此紧急修复磁盘来修复系统。但遗憾的是该“应急修复磁盘”不带引导功能，一旦有人误删了硬盘引导分区中的NTLDR、BOOT.INI或NTDETECT.COM等文件时，系统便不能自动引导。由于在安装NT时选择了NTFS，此时无论是用MS-DOS引导盘或“WIN95应急引导盘”引导，均无法识别原安装NT的分区。如何解决这个问题呢?
+解决方法：
+　　下面我们以X86产品为例来分析NT的启动过程，以便从中找出预防措施。在硬盘的根目录下存有NTLDR、NTBOOTDD.SYS(若是SCSI控制卡的话)、BOOT.INI、BOOTSECT.DOS及NTDETECT.COM等隐含文件。系统刚启动时先将NTLDR程序载入并运行，若是SCSI磁盘驱动器的话(SCSI控制卡上的BIOS Disabled)，NTLDR会将NTBOOTDD.SYS载入并运行。然后NTLDR读取BOOT.INI文件，检查是否有多个操作系统存在，并建立一个重启动菜单供用户选择。如果你在多重启动菜单中选择由“MS-DOS”或“Microsoft Windows”(指WIN95)启动的话，则会载入BOOTSECT.DOS文件，并将控制权交给BOOTSECT.DOS。若当初安装NT时选择FAT，则到此进入单一的DOS环境或Windows95环境；若安装NT时选择“NTFS”，即使你选择了由此“MS-DOS”或“Microsoft Windows”启动也不会引导MS-DOS或Windows 95。如果你在多重菜单中选择“Windows NT Server 4.0”启动的话，则NTLDR载入NTDETECT.COM并运行。NTDETECT.COM会检查你的硬件配备，并将此数据返回给NTLDR，然后载入并启动系统核心，继而运行Winlogon.EXE，屏幕上出现“请按Ctrl+Alt+Del键登录”，请输入用户名称与密码，屏幕显示“正在登录”的画面。
+　　由以上分析不难发现，NTLDR、(NTBOOTDD.SYS)、BOOT.INI、BOOTSECT.DOS及DETECT.COM在NT的启动过程中起着举足轻重的作用，若上述文件之一受损，都将导致系统不能自动引导。我们可以在安装好NT后，除了作“应急修复盘”外，还应制作“应急引导盘”。
+　　制作“应急引导盘”具体方法如下：
+　　第一步，在NT平台上格式化1张空白软磁盘(3.5″ 1.44MB)；
+　　第二步，利用“Windows NT资源管理器”，将NTLDR拷入该空白磁盘中；
+　　第三步，再将NTBOOTDD.SYS(若是SCSI控制卡的话)、BOOT.INI以及BOOTSECT.DOS及NTDETECT.COM也拷入该空白磁盘中，并将该磁盘标记为“Windows NT Server 4.0应急引导磁盘”。一旦Windows NT服务器中的这些关键性文件遭受到破坏，则可利用此“应急引导磁盘”来引导Windows NT系统，且引导成功后，还可重新将该软盘上的内容再复制回硬盘上，以便下次再启动时可直接用硬盘启动。
+　　该方法简单易用，安全可靠，笔者已用此盘“救活”了数台Windows NT服务器。
+作者单位：新乡河南师范大学计算机系(453002)
+(收稿日期：1998-10-20)(上接第51页)

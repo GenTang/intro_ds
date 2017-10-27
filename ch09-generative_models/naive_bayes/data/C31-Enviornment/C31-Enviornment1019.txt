@@ -1,0 +1,39 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.7-10
+
+
+
+
+大气质量污染损失率评价模型参数的GA优化
+李祚泳　 王珏　 刘国东　 
+摘　要：设定各项污染物在大气环境质量污染损失率评价模型中有相同参数值，采用具有全局优化的遗传算法(GA)对模型中的参数进行优化，得出了对各种大气污染物均适用的大气环境质量污染损失率计算公式及大气环境质量综合评价模型。该模型与其他多种评价模型用于大气环境实例进行评价比较，结果表明：该评价方法不仅原理直观，评价结果准确，而且计算简便，实用性强。
+关键词：遗传算法；　大气质量； 评价； 污染损失率； 参数优化
+分类号：X823　文献标识码：A
+文章编号：1001-6929(2001)02-0007-04
+Optimum Estimation of Parameters on Assessment Model of Pollution Loss Rate of Atmospheric Environmental Quality Using Genetic Algorithm
+LI Zuo-yong（Chengdu Institute of Meteorology, Chengdu　610041, China）　
+WANG Jun（Meteorological Bureau of Nanyang,Nanyang 467000, China）　
+LIU Guo-dong（Hydraulic Engineering Faculty, Sichuan University, Chengdu　610065, China）　
+
+Abstract：Setting the same parameter value for all pollutants in the assessment model of pollution loss rate of atmospheric quality, and optimizing the parameters of model using genetic algorithms with global optimum, the formulae of pollution loss rate of atmospheric environmental quality and the comprehensive assessment model of atmospheric environmental quality suitable to all atmospheric pollutants were proposed. The comparison has been made to this model with other models of assessment in the cases of atmospheric environmental assessment. It is shown that this method is not only of visual principle and reliable results, but also of easy calculation and good practicality.
+Keywords：genetic algorithm; atmospheric quality; assessment; pollution loss rate; parameter optimum
+基金项目：四川大学青年科技基金资助
+作者简介：李祚泳(1944-)，男，四川省宜宾县人，教授，硕士. 
+作者单位：李祚泳（成都气象学院，四川 成都　610041）　
+　　　　　王珏（南阳市气象局，河南 南阳　 467000）　
+　　　　　刘国东（四川大学 水电学院， 四川 成都　610065）　
+
+参考文献：
+［1］　Bezuglaya E Yu，Shchutskaya A B,Smirnova I V.Air pollution index and interpretation of measurements of toxic pollutant concentrations[J].Atmos Environ,1993,27A(5):773～779.
+［2］　Goyal P,Singh M P,Gulati A.Air quality assessment over a cemetn industral complex[J].Atmos Environ,1996,30(7):1159～1166.
+［3］　郑成德.大气环境质量的人工神经网络决策模型[J].环境科学进展，1999，7(1)：83～87.
+［4］　李祚泳.环境质量综合指数的余分指数合成法[J].中国环境科学.1997，17(6)：554～556.
+［5］　李祚泳.大气环境质量评价的标度指数法[J].中国环境科学，1998，18(5)：433～436.
+［6］　何斌，谭界忠.大气环境质量综合评价的污染损失率法[J].环境保护，1998，(9)：21～22，24.
+［7］　David B F.An introduction to simulated evolutionary optimization[J].IEEE Trans on NN,1994,5(1):3～14.
+［8］　丁进宝.倍斜率聚类法在环境质量综合评价中的应用[J].环境科学，1995，16(1)：48～51.
+［9］　李书全，赵良英，史智兴，等.一种防止遗传算法成熟前收敛的有效方法[J].系统工程理论与实践，1999，19(5)：72～77.
+
+收稿日期：2000年3月9日
+出版日期：2001年3月30日

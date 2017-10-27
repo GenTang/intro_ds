@@ -1,0 +1,691 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年6月第18卷第6期科技期刊
+中美高等环境类专业课程结构和教学实施比较研究
+陆根法　尹大强　丁树荣　许鸥泳
+(南京大学环境科学与工程系，污染控制与资源化研究国家重点实验室，南京　210093)
+
+摘要　以美国5所大学为代表，调查和分析了其环境类专业的课程结构和教学实施的基本状况，并与我国进行了比较研究.研究表明课程结构和教学实施存在明显差别，其主要表现在以下9个方面：本科生专业培养目标；素质教育课程的设置；课程体系结构和学分制；培养解决环境问题能力的课程设置；及时反映新观点和新理论的课程；人文科学和社会科学类课程设置；环境政策课程；资源课程和专业教学方式.比较研究认为，上述9个方面可作为我国修订环境类本科生专业基本培养规格和基本教学要求的借鉴.同时还提供某些具有参考价值的课程设置实例.
+关键词　高等环境教育；课程结构；比较研究.
+
+COMPARATIVE STUDY ON ENVIRONMENTAL PROGRAMS (MAJORS) OF HIGHER ENVIRONMENTAL EDUCATION BETWEEN CHINA AND THE UNITED STATES
+
+Yin Daqiang, Lu Genfa, Ding Shurong, Xu Ouyong
+(State Key Laboratory of Pollution Control and Resource Reuse,Department of Environmental Science and Engineering, Nanjing University, Nanjing 210093)
+
+ABSTRACT　In this paper,the present status of environmental programs (majors) concerning undergraduates and graduate students in US higher education was investigated, and compared with China.The comparative studies showed that there were lots of differences in setting up of environmental programs or majors between China and USA,and indicated that the setting up of environmental programs of majors in US higher education had some characteristics of follows:(1) there were many more environmental programs or majors set up at universities and colleges; (2) the ratio of environmental programs or majors concerning humanities and social sciences was higher; (3) some programs or majors concerning tranining of environmental teachers for popularized environmental education were set up; (4) much more attention was paid to the field of environmental health in setting up programs or majors; (5) the training of comprehensive personnel was more striking in US higher environmental education.Those mentioned above can provide the reference for decision makers in setting up environmental programs or majors and developing higher environmental education by the authorities of the Chinese government.
+Keywords　higher environmental education,environmental programs or majors,comparative study.
+　　本文选择了美国高等学校环境类本科专业中具有代表意义的5所大学，对环境类专业课程结构和教学实施上从下述9个方面与我国加以对比，为研究制订我国高校环境类专业本科生基本培养规格和教学基本要求以及高等环境教育发展战略提供研究基础.
+
+1　本科专业培养目标的差别
+　　我国对本科生的培养目标多年以来强调培养“专家”和“专门人才”，要求毕业后专业能“对口”，因此培养学生唯恐其专业知识深度不够，而较为忽视广度，导致毕业后工作适应面小.近年来虽已逐步扩大专业培养口径，但还不够.另一方面，忽视对学生全面的文化素质的培养，在“知识”、“能力”和“做人”三者中，后二者较为薄弱.美国大学对本科生的培养目标，则比较注意三者兼顾，例如北卡罗莱纳大学的公共卫生学院的本科学位专业(环境科学与政策专业，为其4个本科学位专业之一)是将广泛的基础教育与公共卫生领域的专业教育相结合［1］.该类专业培养从事在卫生和有关领域专业职业的人员，为以后的研究生学习提供一个坚实的基础，并使学生将来获得全面发展.所谓全面发展实际上指今后如何作为一个有大学文化的社会人.该专业又让学生“在获得较强的专业基础同时，也钻研这些学科在环境政策中的应用”，强调应用能力的培养.
+
+2　素质教育课程
+　　对本科生的培养应注意素质教育.素质指的是知识加能力，再加上能使知识和能力更好地发挥作用的东西——做人.素质具体可以包括4个方面：一是思想道德素质；二是文化素质(包括物质与精神两种文化)；三是业务素质；四是身体心理素质.素质教育是这4方面的全面教育.21世纪需要的人才是高素质的、全面发展的人才.对大学生进行提高素质的教育，是一个十分复杂的系统工程，决非一个方面、一种方法所能胜任，必须各方面通力协作才能奏效.开设系列课程是其中一种重要的方法.例如美国华盛顿州立大学设有“综合教育计划”(General Education Program)比较具有系统性，它包括贯穿本科一至四年级各年级的系列课程，4年总共须修习40学分，分为艺术与人文、社会学科和科学(实为自然科学)3个系列［2］.例如设置了现代社会中的人文学科、伦理学导论、美学、环境伦理学、美国文化中的主要趋向、伦理学与职业作风(Ethics and Professionalism讲述土木工程的职业作风)、职业写作等等课程，以加强学生的素质教育.
+　　又如纽约州立大学环境科学与森林学院环境研究系环境研究专业，在“较低部分”课程(相当于我国公共基础课)的60个学分中，必修人文科学类6个学分，课程包括了文学、哲学、外语、艺术、音乐、喜剧等，由学生自己选择［3］.而我国的课程设置中如环境学专业，必修课有大学生思想品德、法学概论、体育、大学语文10个学分，并在一些学校开设了艺术鉴赏、音乐欣赏等任选课.虽然中美之间课程设置不同，但目的相同，即加强学生文化素质教育.然则，职业素质教育，在我国环境类专业中常常被忽视，其课程设置远远少于美国.例如美国杜克大学环境学院开设的职业素质教育课程有：职业写作(Professional Writing)、,职业技能(Professional Skill)、,环境影响分析的准备和报告(Environmental Impact Analysis Preparing and Documenting)［4］.又如纽约州立大学环境科学与森林学院环境研究系开设的课程有：写作、图书馆研究(Library Research)、,科学职业写作(Writing for Science Professionals)、,环境职业写作(Writing for Environmental Professionals)等［3］.而我国高校仅开设环境专业英语一门，这不符合对学生全面素质培养的要求，因此我国在加强思想道德素质和文化素质教育的同时，需大力加强职业素质教育.
+
+3　课程体系和结构与学分制实施上的差别
+　　我国现行本科学分制中的缺点是规定的必修学分多，而选修学分少，开设的专业课程种类少，因而学生的选择机会少.而美国环境类本科生专业课程设置中的一个明显特点就是专业课数量众多，涉及面广，学生选修自由度大，特别是在指定选修课和必修课中也同时设置若干门课供学生选择.表1列出了纽约州立大学环境科学与森林学院环境研究专业课程结构［3］，从表1可以看出，不仅是在专业必修课中具有较多的选修，而且在主修方向专业课和“较低部分”课程必修课(相当于我国的公共基础课中)也具有较大的选择自由度.在课程结构上既明确区分各个部份，又注意保证各个所需要的部分的不同选修量，以保持学习计划的完整性.这些明显的特点一方面反映了环境学科和环境问题解决的复杂性和综合学科性，另一方面也反映美国受市场经济调节及其人才需求的特点，并反映对学生自我价值创造的信任以及开创学生创造力的教育思想.
+
+4　综合分析和解决环境问题能力的培养
+　　环境教育课程应是综合学科性的，并应集中在真正的实际环境问题上.学校课程应在获得的理论基础上，上升到与此相关的特殊环境问题的实践.学生应是一个活跃的思考者和知识的产生者，而不应该是消极的旁观者和他人知识和思想的接受者，学生的知识和技能应集中于对环境决策、环境问题的实践［5］.环境问题的解决应是多学科的综合性方法，因此，要求学生具有这种综合分析问题和解决实际问题的能力.美国大学环境类课程中比较重视培养学生具有综合地分析环境问题的能力和掌握解决环境问题的方法(见表2).表2列出的这些课程都是通过实例讲授和课堂讨论以至现场调查进行，而在我国环境教学中十分缺乏这类课程.
+
+　
+表1　美国大学环境类本科生专业设置统计表
+Table 1 The statistical table of majors for environmental undergraduate students at universities in USA
+
+编号专业名称(Majors)设置专业大学数，所专业出现频率，%类型
+1环境科学/自然资源维护
+Environmental Science/Natural Resource Conservation256
+　54
+　理工
+2环境/经济/政治
+Environment/Economics/Politics1
+　0.2
+　文社
+3环境伦理和技术
+Environmental Ethics and Technology1
+　0.2
+　文社
+4环境生物学与管理
+Environmental Biology and Management1
+　0.2
+　理工
+5环境政策、分析与规划
+Environmental Policy,Analysis and Planning1
+　0.2
+　文社
+6环境地质学
+Environmental Geology7
+　1.5
+　理工
+7环境生物学
+Environmental Biology　10
+　2.1
+　文社
+8环境控制技术
+Environmental Control Technologies109
+　23
+　理工
+9环境制图设计
+Environmental Graphic Design　1
+　0.2
+　理工
+10环境设计
+Environmental Design　2
+　0.4
+　理工
+11环境研究
+Environmental Studies40
+　8.5
+　理工
+　文社
+12环境、种群与有机体生物学
+Environmental,Population and Organisms Biology1
+　0.2
+　理工
+13环境健康工程
+Environmental Health Engineering　60
+　12.7
+　理工
+　(医)
+14环境和土木工程
+Environmental and Civil Engineering　1
+　0.2
+　理工
+15环境师资教育
+Environmental Teacher Education　1
+　0.2
+　文社
+16环境与城市系统
+Environmental and Urban System　1
+　0.2
+　理工
+17环境化学与毒理学
+Environmental Chemistry/Toxicology　1
+　0.2
+　理工
+18环境工程科学
+Environmental Engineering Sciences　1
+　0.2
+　理工
+19环境健康科学
+Environmental Health Sciences　1
+　0.2
+　理工
+　(医)
+20环境政策
+Environmental Policy　1
+　0.2
+　文社
+21环境分析
+Environmental Analysis　1　0.2
+　文社
+22环境健康
+Environmental Health　29　6.1
+　理工
+　(医)
+
+续表1
+23环境科学
+Environmental Sciences
+　8
+　1.7
+　理工
+24
+　建筑环境设计
+Architectural Environmental Design
+　1
+　0.2
+　理工
+25
+　环境经济学
+Environmental Economics
+　1
+　0.2
+　文社
+26
+　环境管理
+Environmental Management
+　4
+　0.8
+　文社
+27
+　环境和废物管理
+Environmental and Waste Administration
+　1
+　0.2
+　文社
+28
+　
+　环境维护和可更新自然资源管理
+Environmental Conservation and Renewable Natural Resource Management
+　2
+　0.4
+　文社
+29
+　环境科学和政策
+Environmental Sciences and Policy
+　1
+　0.2
+　理工
+　文社
+30
+　环境分析和政策
+Environmental Analysis and Policy
+　1
+　0.2
+　文社
+31
+　环境化学
+Environmental Chemistry
+　5
+　1.0
+　理工
+32
+　环境指导
+Environmental Instruction
+　1
+　0.2
+　文社
+33
+　环境政策与行为
+Environmental Policy and Behavior
+　1
+　0.2
+　文社
+34
+　环境与商业经济
+Environmental and Business Economics
+　1
+　0.2
+　文社
+35
+　环境政策、机构与行为
+Environmental Policy,Institution and Behavior
+　1
+　0.2
+　文社
+36
+　环境科学与技术
+Environmental Sciences and Technology
+　1
+　0.2
+　理工
+37
+　环境地球科学
+Environmental Geosciences
+　1
+　0.2
+　理工
+38
+　环境教育
+Environmental Education
+　5
+　1.0
+　文社
+39
+　环境实验技术
+Environmental Laboratory Technology
+　1
+　0.2
+　理工
+40
+　环境宣传(交流)
+Environmental Communication
+　1
+　0.2
+　文社
+41
+　环境修复和有害物质
+Environmental Remediation and Hazardous Material
+　1
+　0.2
+　理工
+42
+　环境技术员
+Environmental Techician
+　1
+　0.2
+　
+　理工
+43
+　环境物理科学
+Environmental Physical Sciences
+　1
+　0.2
+　理工
+44
+　环境保护
+Environmental Protection
+　1
+　0.2
+　理工
+45
+　环境采样与分析
+Environmental Sampling and Analysis
+　1
+　0.2
+　理工
+
+　续表1
+
+编号专业名称(Majors)设置专业大学数，所专业出现频率，%类型
+46
+　环境系统分析
+Environmental Systems Analysis
+　1
+　0.2
+　理工
+47
+　环境技术和社会
+Environmental Technology and Society
+　1
+　0.2　文社
+48
+环境园艺学
+Environmental Horticulture
+　1
+　0.2
+　理工
+　(农)
+49环境/海洋科学
+Environmental/Marine Science
+　1
+　0.2
+　理工
+
+
+2.2　美国高等教育环境类研究生专业设置概况
+　　根据Peterson指南［3］,我们调查了美国34所著名大学环境研究生(博士、硕士)专业(Program)设置概况，调查和统计结果列入表2.从表2可以看到，34所著名大学共设置环境类研究生专业53种，34所大学中设置数量量多的前5种专业依次为环境工程、环境健康、环境科学、环境设计和环境科学与工程，学校数分别是14、6、5、4和4(所)，出现频率分别是41%、17.6%、14.7%、12%和12%，53种专业中理工科包括农、医类型共44种，占专业总数83%，人文社科学类型7种，占13%，介于二者之间的专业有环境规划和环境研究2种，约占4%.
+表2　美国34所著名大学环境类研究生专业设置统计表
+Table 2 The statistical table of programs for environmental graduate students at 34 famous universities in USA
+
+编号专业名称(Programs)设置专业大学数，所专业出现频率，%类型
+1
+　环境和职业健康
+Environmental and Occupation Health
+　3
+　8.8
+　理工
+　(医)
+2
+　环境管理和政策
+Environmental Management and Policy
+　1
+　3
+　文社
+3
+　环境工程
+Environmental Engineering
+　14
+　41
+　理工
+4
+　环境毒理学
+Environmental Toxicology
+　3
+　8.8
+　理工
+5
+　环境健康工程
+Environmental Health Engineering
+　2
+　6
+　理工
+　(医)
+6
+　土木工程与环境工程
+Civil and Environmental Engineering
+　3
+　8.8
+　理工
+7
+　环境监测
+Environmental Monitoring
+　1
+　3
+　理工
+8
+　环境水资源管理
+Environmental Water Resource Management
+　1
+　3
+　理工
+9
+　能源与环境研究
+Energy and Environmental Studies
+　1
+　3
+　理工
+10
+　环境健康
+Environmental Health
+　6
+　17.6
+　理工
+　(医)
+11
+　环境控制工程
+Environmental control Engineering
+　1
+　3
+　理工
+12
+　生物危害科学
+Biohazard Science
+　1
+　3
+　理工
+13
+　环境毒理学、化学与风险性评价
+Environmental Toxicology,Chemistry and Risk Assessment
+　1
+　3
+　理工
+
+　续表2
+
+编号专业名称(Majors)设置专业大学数，所专业出现频率，%类型
+14
+　环境研究
+Environmental Studies
+　2
+　6
+　理工
+　文社
+15
+　海岸环境管理
+Coastal Environmental Management
+　1
+　3
+　理工
+16
+　环境流行病学
+Environmental Epidemiology
+　1
+　3
+　理工
+　(医)
+17
+　环境暴露评价和工程
+Environmental Exposure Assessment and Engineering
+　1
+　3
+　理工
+18
+　环境健康科学
+Environmental Health Science
+　3
+　8.8
+　理工
+　(医)
+19
+　生态和环境植物病理学
+Ecological and Environmental Plant Pathology
+　1
+　3
+　理工
+20
+　生态毒理学和环境化学
+Ecotoxicology and Environmental Chemistry　1　3　理工
+21
+　受控环境园艺学
+Controlled Environmental Horticulture
+　1
+　3
+　理工
+　(农)
+22
+　环境系统工程学
+Enviroonmental System Engineering
+　1
+　3
+　理工
+23
+　环境地球物理学
+Environmental Geophysics
+　1
+　3
+　理工
+24
+　环境和比较生理学
+Environmental and Comparative Physiology
+　1
+　3
+　理工
+25
+　环境科学
+Environmental Science
+　5
+　14.7
+　理工
+26
+　环境质量工程
+Environmental Quality Engineering
+　1
+　3
+　理工
+27
+　环境质量科学
+Environmental Quality Sciences
+　1
+　3
+　理工
+28
+　环境设计
+Environmental Design
+　4
+　12
+　理工
+29
+　卫生与环境工程
+Sanitary and Environmental Engineering
+　1
+　3
+　理工
+　(医)
+30
+　环境设计理论和方法
+Environmental Design Theories and Methods
+　1
+　3
+　理工
+31
+　环境规划
+Environmental Planning
+　1
+　3
+　理工
+　文社
+32
+　水资源和环境工程
+Water Resource and Environmental Engineering
+　1
+　3
+　理工
+33
+　环境科学和工程
+Environmental Sciences and Engineering
+　4
+　12
+　理工
+34
+　环境和工业卫生学
+Environmental and Industrial Hygienics
+　1
+　3
+　理工
+　(医)
+35
+　环境和职业医学
+Environmental and Occupation Medicine
+　1
+　3
+　理工
+　(医)
+36
+　环境卫生科学和工程
+Environmental Hygiene Science and Engineering
+　1
+　3
+　理工
+　(医)
+37
+　环境判断
+Environmental Justice
+　1
+　3
+　文社
+
+续表2
+
+编号专业名称(Majors)设置专业大学数，所专业出现频率，%类型
+38
+　比较能源和环境政策
+Comparative Energy and Environmental Policy
+　1
+　3
+　文社
+39
+　
+　能源、环境和发展的政治经济学
+Political Economy of Energy,Environment and Development
+　1
+　3
+　文社
+40
+　环境园艺学
+Environmental Horticulture
+　1
+　3
+　理工
+　(农)
+41
+　农业和环境科学
+Argriculture and Environmental Science
+　1
+　3
+　理工
+　(农)
+42
+　生态学和环境科学
+Ecology and Environmental Science
+　1
+　3
+　理工
+43
+　环境教育
+Environmental Education
+　1
+　3
+　文社
+44
+　海洋—河口—环境科学
+Marine—Estuarine—Environmental Science
+　1
+　3
+　理工
+45
+　城市技术学和环境规划
+Urban Technology and Environmental Planning
+　1
+　3
+　文社
+46
+　自然资源和环境
+Natural Resource and Environmental
+　1
+　3
+　理工
+47
+　人类环境科学
+Human Environmental Science
+　1
+　3
+　理工
+48
+　人类环境科学信息
+Human Environmental Science Communication
+　1
+　3
+　理工
+49
+　环境政策
+Environmental Policy
+　1
+　3
+　文社
+50
+　环境维护
+Environmental Conservation
+　1
+　3
+　理工
+51
+　危害性固体废物
+Hazardous Solid Waste
+　1
+　3
+　理工
+52
+　环境/资源工程
+Environmental/Resource Engineering
+　1
+　3
+　理工
+53
+　环境生物学
+Environmental Biology
+　1
+　3
+　理工
+
+
+3　对比研究和分析
+3.1　美国高等教育环境类专业设置种类数量多、面广且多元化
+　　据统计资料(表1和表2)，被调查的美国3215所大学(学院)四年制学士学位环境类本科生专业有49种，34所著名大学环境类研究生专业有53种。专业数量众多，涉及的学科面广泛，显示了多元化的特点.而我国现行本科目录中(1993)涉及环境类专业仅11种［11］，具体如下：
+　　工科类：环境工程、环境监测、农业建筑与环境工程；
+　　理科类：环境学、生态学、大气物理学与大气环境、资源环境区划与管理、自然保护区资源管理；
+　　农业类：农业环境保护；
+　　医学类：环境医学；
+　　理工类兼有的专业为环境规划与管理；
+　　1996年增设环境经济学与资源管理专业(试办).
+　　无论是从专业设置的数量还是专业涉及学科的广度，我国都远远低于美国.美国高等环境教育专业设置这种多元化特点充分体现了美国的高等教育方针和教育体制.美国是一个联邦制国家，其现行的教育体制为地方分权制，美国实施和管理高等教育事业的责任主要不在联邦政府，而是各州，形成州、地方、联邦共同负责制.教育部主要任务是管理联邦教育投资，推动教育研究，收录和分发教育情报资料，以实施对全国教育的指导和服务.一般来说，联邦对高等学校没有直接的管辖权，只是依据国会制定的教育立法，通过教育拨款，对高等教育施加影响，进行间接控制.在这样的教育体制下，美国的高等教育形成了二类三层次的结构，二类即公立和私立高校，三层次即二年制高校、四年制高校和研究性大学.美国的教育方针是强调学校教育与生产劳动相结合，与职业训练相结合，帮助青年人从学校转向就业.美国高等学校人才培养和社会人才类型的需求受市场经济的制约和调控［5］.因此，在这样的体制、结构和方针下，并且由于环境学科在美国的高度发展以及美国公众和社会对环境保护的日益重视，社会对环境类人才需求的增长，从而在高等学校环境类人才培养专业设置出现了数量众多和多元化的特点.同样的例子出现在美国八十年代初期，由于当时计算机和信息科学的迅速发展，社会的发展进入了一个信息时代，社会对这类人才需求的急剧增加，无论是学生还是专业设置数量迅速增加.例如计算机和信息科学的学生人数，1982—1983年度比1972—1973年度，十年间本科生学生人数上升469%，硕士人数上升152%［5］.这一例子更充分地说明美国市场经济对高等学校人才的制约和调控，同时也反映了学科的自身发展和公众社会对学科的重视.
+　　我国在相当长的时间内(1961—1966，1976—1985)，高等教育体制强调权力集中，行动统一.1963年6月26日中共中央、国务院发布《关于加强高等学校统一领导、分级管理的决定(试行草案)》中明显地得到了体现，所以说“集中”、“统一”是我国高等教育体制的基本特征.《决定》明确规定了中央教育部的主要任务之一是批准高校的专业设置，规定高校的教学计划和教学大纲的制定原则并组织制定指导性教学计划和教育大纲.随着80年代我国经济体制的改革，我国的高度集中统一的高校体制弊端日益暴露，1985年5月27日，发布了《中共中央关于教育体制改革的决定》，《决定》指出：当前高等教育体制改革的关键，就是改变政府对高校管得过多的管理体制，在国家统一的教育方针和计划指导下，扩大高等学校的办学自主权……，专业设置上主要是改革高等教育学科类不合理状态，加快财经、政法、管理类薄弱学科的专业发展，扶植新兴、边缘学科成长.这就是我国高等环境教育和专业设置在80年代中期兴起的原因之一.在《决定》的指导下，我国高等学校在招生、分配制度、办学自主权等方面取得了卓有成效的改革.但为了宏观调控，专业设置的名称仍需原国家教委批准，并由教委颁布各专业的基本培养规格和教学基本要求，放开专业方向；此外，我国人才培养和供需仍未完全受人才市场的调控，处于过渡阶段.因而，我国高校环境类本科专业名称仍然统一，种数也较少.实际上，美国许多专业大同小异，只是名称不同，导致专业数增多，如果按我国标准，美国的许多专业是可以合并的.其专业名称多样化是为了增强在人才市场上的竞争优势.
+3.2　美国环境类人文社会科学型的专业较我国比例为大
+　　从统计资料可以看，美国环境类人文社会学科型的专业在美国环境类专业设置中占有较大的比例，本科生49种专业中占37%，研究生53种专业中占14%.出现了如环境伦理和技术、环境政策与行为、环境技术和社会、能源与环境研究、资源环境和发展的政治经济学，人类环境科学等等，其中许多专业即使对我国高等环境教育工作者来说，也相当新鲜和陌生.而我国现行本科生环境类11种专业中，把实际上是自然科学与人文社科学交叉型的环境规划与管理专业也归入理科类，仅占专业总数11%.中美之间的这种差异性，我们认为是：公众的环境意识、社会对环境保护事业的理解和要求，以及环境学科自身发展在不同国家和地区的水平高低的反映.尽管我国的环境保护事业发展于70年代初期，并取得了较大成绩，但与美国存在着相当大的距离，公众环境意识薄弱，一些新的交叉学科和领域刚刚起步，对环境保护工作理解和要求普遍印象是“三废”治理，而且是末端治理，片面地认为是一项“技术工程”，未能认识到管理学科和社会学科在环境保护中的重要作用，反映在我国环境人才培养的高校专业设置上人文科学类专业比例较小.然而，目前我国环境保护业发展显示出它是一项综合性乃至整个社会的系统工程，环境问题不仅仅包含自然环境问题，而且包含社会环境问题，“技术”仅仅是一个重要组成部分［6］.特别是1992年世界“环发”大会之后，可持续发展战略的确定，更明确了环境保护事业的发展目标和战略，环境问题的解决不能简单依靠具有技术专长人群，而要依靠全社会公民.与此同时，西方社会对环境人才类型需求发生变化，因而，诸如美国等西方国家在高等教育环境类专业设置上迅速调整以适应社会发展的要求，出现了人文社会类型专业在环境类专业中占有重大比例.然而，从调查统计结果看到，美国53所著名大学环境类研究专业中人文社会科学类专业比例远远低于本科生(14%∶37%)，这反映了美国本科生和研究生培养目标差异，即综合型和专门家差异.因此，我国急需大力发展人文社会科学型环境类专业和人才培养，以满足我国目前发展环境保护事业的需要，应优先在环境类本科生中发展人文社会科学型专业.
+3.3　美国越来越重视环保普及教育
+　　从美国环境类专业设置统计结果看到(表1和表2)，现行设置环境类专业中，出现了以培养环境教育师资为主的专业，即环境教育、环境指导、环境师资和环境宣传教育，还设置了环境实验技术专业和环境技术员专业.由此可见，美国社会越来越重视环保普及教育，而我国尚无此类专业.这种状况显然与我国提出的“加强环境教育，增强环境意识”是不相适应的.众所周知，环保普及教育对公众环境意识提高和公众参与具有重大的作用，环保普及教育的发展，首先应培养出素质高的师资队伍.因此，我们必须把培养环保普及教育师资队伍纳入我国环境高等教育任务之中.
+3.4　我国环境健康类专业设置十分薄弱
+　　环境健康领域在美国高等教育环境专业设置中得到相当大的重视，统计结果表明，无论是本科生还研究生，设置数量最多的前5种环境类专业中，均有环境健康专业，还出现了相应的环境健康工程、环境健康科学、环境和职业健康、卫生与环境工程、环境与职业医学等等专业，本科生49种专业中有3种，研究生53种专业中有9种.这不仅仅反映了环境学科与医学交叉发展的结果，更重要的是突出了最重要的环境保护对象——人类，显示了西方发达国家对环境保护最高层次的要求.现代科学发展及研究已证明了人类许多疾病发生与环境变化密切相关，例如，约70%—80%癌症的发病与环境因素有关，特别是环境中的化学物质.人们迫切需要弄清环境诱病的成因，从根本上消除或预防疾病的发生，保障人体的健康.当今的环境保护目标不仅仅关注环境质量，而且要关注健康质量，美国EPA设立的国家级“环境与健康研究所”是美国社会对环境健康重视的又一例证.我国现行本科生专业目录中(1993)，在预防医学类中设有环境医学专业，但开设此专业的院校极少，且均为医学院校.目前我国严重疾病如癌症的发病率正在不断上升，严重威胁着人民身体健康.仅靠临床医学的“末端治理”显然不能根本上消除这种威胁，只有加强环境医学发展，弄清这些疾病发生成因，才能真正做到“预防为主”，这就迫切需要加强高层次和更高层的环境医学类人才培养.然而长期以来，由于有关管理部门之间未能协调，影响了我国环境医学专业的发展.
+3.5　“综合型”人才培养在美国高等环境类本科生教育中更为突出
+　　美国高等教育环境类理科生专业按分支(三级)学科设置，如环境化学、环境生物、环境地质、环境物理等，在被统计资料中，479所设置环境类本科生专业的院校中共设置27个，占5.7%，而综合型专业设置如环境科学/自然资源维护、环境研究、环境科学等，共设置306个，占64.8%，见表3.
+
+表3　美国理科环境本科生专业按分支(三级)学科设置统计表
+Table 3 The statistical table of third-crade discipline majors for environmental scienceundergraduate students at universities in USA
+
+专业名称数量专业名称数量
+环境生物与管理1环境化学与毒理学1
+环境地质1环境化学5
+环境生物10环境地球科学1
+环境、种类与有机体生物学1环境物理学1
+环境科学/自然资源维护256环境科学与技术1
+环境研究40环境保护1
+环境科学8　　
+
+
+　　美国高等环境类本科生专业设置中，综合性专业比例远远大于三级学科专业.美国高等学校本科教育是以培养“综合型”人才为目标，这种“综合型”人才目标是同日益发展的市场经济相适应的，它有利于学生的就业，有利于接受更高一级的培训.随着现代科学的发展，任何一所高水平的高等学校都不可能使学生在校学习期间接受到当今所有的知识或最新的尖端的专业知识，但是，高等学校可以通过加强基础理论教育，使学生掌握一种持久的、终生可以使用的基础理论，以便使学生能够顺利实现知识的转变，较快地学习和掌握新的知识.美国这种“综合型”本科生培养在课程设置上得到充分保证.
+　　环境学科是一门综合性强的学科，因此，更应突出“综合型”培养的特点，这在美国环境类本科生专业设置中得到了充分体现.这种发展与我国现在在专业上开设选修的专业方向，但要求“淡化专业方向”、“不要把专业方向办成专业”等精神是一致的，符合高等教育的发展方向，即以综合性整体化为主，加强基础，拓宽口径.而且，目前我国高等环境教育专业设置改革，已把环境化学和环境生物学等本科生专业合并成一个环境学专业，是符合“综合型”环境人才培养目标的.由于长期在们思想中形成强调“窄”和“专”的本科生培养观念未能根本转变，在高等环境类本科生教育中仍然存在一些按原专业的模式培养的倾向，因此必须尽快转变观念，适合国内外高等环境教育本科生培养的形势，为我国环保事业输送高质量的“综合型”本科生人才.
+3.6　自然资源保护在美国高等环境教育专业设置中得到高度重视
+　　在美国，高等环境教育本科生专业中以环境科学/自然资源维护专业设置最多，面最广，被统计的472所设置本科生环境类专业中，有256所院校设置了该专业，占54%，还出现一些相近的专业.而纯理科性质的“环境科学”专业只占1.7%(见表1).这反映了对自然资源保护的重视，将环境科学与自然资源保护结合起来，易于培养学生接受全面的环境保护概念.环境问题分二大类即环境污染和生态破坏，二者与自然资源保护紧密联系，不可分割.社会发展，自然资源开发利用和环境保护三者之间有着相互依赖、相互制约的关系，早为人们所认识.美国对环境保护人才培养已走过了主要应付环境污染的阶段，而进入对环境污染与生态破坏并重的阶段，目前自然资源保护在专业设置中得到重视，反映了美国向全面性环境人才培养方向发展，并且有助于环境与发展问题的解决.我国目前尚以应付环境污染为主，对自然资源保护尚未得到应有的重视.
+　　通过以上比较分析可以看出，我国高等环境类专业设置不尽合理，专业几乎全部分属于传统的理、工两大类，环境科学与技术则始终未能成为独立的学科类型，已办的很多环境类专业，从名称上看大多具有很浓厚的传统学科的色彩.而且，我国环境工程专业和理科类环境科学专业发展较快，涉及社会和人文学科的知识较少，更缺乏这方面的环境类专业或方向，这样的专业设置状况远远落后于当代环境科学发展形势，难以满足我国21世纪对环境保护人才的要求.
+参考文献
+1　Carol M Brower.Why Environmental Education?EPA Journal,1995,21(2):6—8
+2　College Entrain Examination Board.College Handbook,Thirty-Third Edition,New York,1996
+3　Peterson's Guide to Graduate & Professional Program:An Overview,1995,1996
+4　中华人民共和国高等教育委员会高教司.高等教育本科生专业目录.北京，1993
+5　Roy Radner,Leonard S.Miller,Douglas L.Aclkins,Demand and Supply in US Higher Education.New York:McGraw-Hill Book Company,1995:158—247
+6　Ian Robottom.Environmental Education:Practice and Possible.Deakin University Press,Australia,1982:15—34
+
+

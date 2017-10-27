@@ -1,0 +1,86 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+废水生物处理系统对脉冲负荷的动态响应分析*
+杨春平　钟袁元　谢更新
+摘要　以废水生物处理的推流式活性污泥法为研究对象，在废水处理系统为线性时不变系统的简化条件下，分析了矩形脉冲负荷对废水生物处理系统的动态影响.分析结果表明，在矩形脉冲负荷的作用下，废水处理系统出水浓度的增加值与脉冲幅度成正比，与脉冲持续时间、曝气池污泥浓度、污泥回流比、有机物最大比降解速率和米氏常数等因素有关，出水浓度增加值达到最大值后将逐步降低.分析方法也表明，可以模拟在冲击负荷作用下的废水处理系统的动态响应特性，从而可为废水处理系统的运行调控提供依据.
+关键词　矩形脉冲负荷；废水处理；推流式活性污泥法；动态响应.
+Dynamic response of biological wastewater treatment systems to pulse loads
+YANG Chunping,ZHONG Yuanyuan,XIE Gengxin (Department of Environmental Engineering,Hunan University,Changsha 410082)
+Abstract　In this paper plug-flow actived sludge process was selected as the object to study.Dynamic effects of rectangular pulse load upon the wastewater treatment system were analyzed under the condition that the wastewater treatment system was simplified to be a linear time-invariant system.The results show that increased the concentration of effluent from biological wastewater treatment process proportional by to the amplitude of pulse load and the amount of increasing was related to duration of the pulse load,sludge concentration in the aeration tank,sludge recirculation ratio,maximum rate of specific substrate utilization and Michaelis-Menten constant;then the effluent concentration decrease step by step after reaching to a maximum value.The analytical method and results manifest that the process of the dynamic responses of the wastewater treatment system to the shock loads can be simulated for readjusting the run of system.
+Keywords　rectangular pulse load,wastewater treatment,plug-flow actived sludge process,dynamic response.
+　　在废水生物处理中，反应器抗冲击负荷能力不但是选择和设计处理工艺流程时考虑的重要因素之一，而且对于废水处理系统的运行控制也很重要.但目前对于废水生物处理工艺流程抗冲击负荷的能力大都是采用定性估计的方法，有关冲击负荷对废水生物处理系统动态影响的定量分析方面的研究，尚不多见［1—3］.
+　　本文采用系统分析的有关原理［4］，以废水生物处理的推流式活性污泥法为研究对象，在简化的实用条件下，研究了废水处理系统对矩形脉冲负荷的传递特性，分析了矩形脉冲负荷对水处理系统的影响.对预测冲击负荷对废水处理系统的影响程度及制定废水处理系统在冲击负荷作用下的运行控制方法，提供了依据.
+1　有机物降解动力学
+　　Eckenfelder和Goldman等人均指出，在大多数污水生物处理过程中，采用公式(1)来描述低浓度有机物的生物降解是适当的［2］：
+　　　　　　　　　　　　　(1)
+式中，-dC/dt表示有机物的降解速率(mg.L-1.s-1)；Xv为生物反应器中挥发性污泥(MLVSS)浓度(mg/L)；C为生物反应器中有机物浓度(mg/L)；K2为有机物最大比降解速率.
+　　对于稳定条件下的推流式活性污泥法，积分式(1)可得：
+　　　　　　　　　(2)
+式中，C0为原污水(或初沉池出水)中有机物浓度(mg/L)；Y0为生化反应器出水中有机物浓度(mg/L)；T表示污水实际曝气时间，R为污泥回流比.从式(2)可得：
+　　　　　　　　　　(3)
+因此，在稳定条件下，可通过式(3)计算推流式活性污泥法的出水水质与进水水质的关系.
+　　废水二级生物处理过程常采用图1来描述.
+
+图1　废水生物处理系统原理图
+Fig.1 Schematic drawing of biological wastewater treatment process
+2　冲击负荷的影响分析
+　　为了分析冲击负荷对推流式活性污泥法废水处理过程的影响，我们将废水生物处理过程抽象为一个信息传递过程，而将废水生物处理系统看作是相应的信息传递系统.因此，可将生化反应器的进水水质水量作为该系统的输入信号，经处理后的出水水质水量作为该系统的输出信号.从而可根据废水生物处理原理和系统分析方法［4］，采用动态响应分析方法来分析冲击负荷对废水生物处理系统的动态影响.
+　　为了便于分析，我们假定研究的推流式活性污泥废水处理系统具有以下特性：(1)系统的处理水量Q不变(将实际系统中水量的变化折算成水质的变化)；(2)T不变；(3)生化反应器中污泥浓度Xv、污泥回流比R及反应系数K2等参数均不变；(4)反应过程是严格的推流过程，可不考虑纵向扩散与弥散作用.在上述假定的基础上，可以采用图2所示的方框图来描述废水处理系统中水质信号的变化过程.
+
+
+图2　推流式活性污泥系统信息传递框图
+
+Fig.2 Scheme of information transfer for plug-flow actived sludge process
+　　冲击负荷对废水处理过程的影响不但与废水的水质水量的变化量有关，而且与冲击负荷的持续时间和排放规律有关.为了简化分析过程，本文仅考虑一类典型的冲击负荷——矩形脉冲负荷对推流式活性污泥法废水处理系统的影响.分析时设推流式活性污泥法废水处理系统的平稳负荷为QC0.
+2.1　矩形脉冲负荷的数学模型
+　　矩形脉冲负荷可用下式描述：
+　　　　　　　　　　　(4)
+式中，q(t)是t时刻(s)进入废水处理系统的负荷(g/s);QΔC是t时刻(s)的脉冲强度(g/s),ΔC为矩形脉冲负荷相对平稳负荷的浓度增值(mg/L)；τ是脉冲宽度(s)；r(t/τ)表示矩形脉冲函数.
+　　矩形脉冲负荷可以表示为两个阶跃脉冲之差，即
+　　　　　　　　　　(5)
+式中，u(t)是单位阶跃函数.
+2.2　矩形脉冲负荷的响应分析
+　　在废水处理系统负荷增加脉冲值的情况下，总负荷为.对于图2所示的线性时不变系统，系统的输出值为各个子负荷对输出浓度值的贡献之和.
+　　在平稳负荷的作用下，该系统的输出值(出水浓度)Y0为稳定值，由式(3)确定.在阶跃负荷QΔC.u(t)的作用下，该系统的输出值Y1(t)为：
+　　　(6)
+　　不妨令A=exp(-K2XvT)/(1+R)，则式(6)可写成：
+　　　　　　(7)
+　　对式(7)依次将(t-T)代替t，通过归纳法可求得：
+　　　　　　　　(8)
+　　类似地，在阶跃负荷QΔC.u(t-τ)的作用下，该系统的输出即出水浓度为：
+　　　　　　　(9)
+　　根据线性系统的叠加原理，在矩形脉冲负荷QΔC[u(t)-u(t-τ)]的作用下，该系统的输出为：
+　　　　　　(10)
+　　该系统对矩形脉冲负荷的响应g(t)为：
+　　　　　　(11)
+　　在平稳负荷QC0和矩形脉冲负荷QΔC[u(t)-u(t-τ)]的共同作用下，该系统的总输出Y(t)为：
+(12)
+　　因此，可以根据式(10)—式(12)分析矩形脉冲负荷对推流式活性污泥法系统的动态影响.
+3　仿真分析
+　　某一推流式活性污泥法污水处理厂，稳态时的主要工艺参数如下：Q=4000m3/d,R=0.4，实际曝气时间T=6h，曝气池中MLSS为3000mg/L，平稳负荷时进水BOD5均值即C0为200mg/L，出水BOD值即Y0为20mg/L.
+　　由式(2)可求得，K2Xv=8.021d-1.可设污水的MLVSS与MLSS的比值为0.75，则Xv=2250mg/L,K2=0.003565L/(mg.d),A=0.09615L/mg.
+　　设一矩形脉冲负荷QΔC.r(t/τ)，脉冲持续时间τ=30min,Q=4000m3/h,ΔC=100mg/L，则废水处理系统对该脉冲的响应为：
+
+在上述条件下，废水处理系统对不同持续时间的矩形脉冲负荷的响应曲线如图3所示.
+　　由图3可见，矩形脉冲负荷的影响随着时间的推移而逐步降低，最终恢复到平稳负荷的响应.这是由于随着水处理过程的进行，矩形脉冲负荷的影响逐步降低所形成的.图中的响应曲线不光滑，主要是因为忽略了废水中污染物的纵向扩散和弥散作用的影响.
+
+
+图3　矩形脉冲负荷对推流式活性污泥工艺的相应曲线
+Fig.3 Response of plug-flow actived sludge process to rectangular pulse load
+4　结论
+　　(1) 在矩形脉冲负荷的作用下，废水处理系统出水浓度的增加值与脉冲幅度成正比，与脉冲持续时间、曝气池污泥浓度、污泥回流比、有机物最大比降解速率和饱和常数等因素有关.
+　　(2) 推流式活性污泥废水处理系统对某一矩形脉冲负荷的动态响应即出水浓度值有最大值.有关废水处理系统对冲击负荷的动态响应特性的进一步研究，可以发展水处理系统抗冲击负荷性能的模拟和评价方法.
+　　(3) 本文的结果是在推流式曝气池和废水处理系统参数时不变的条件下得到的.因此，将一些更加复杂因素(如纵向扩散、弥散、活性污泥浓度的变化以及非线性因素等)的影响考虑进去以后，才能更准确地模拟真实系统对冲击负荷的动态响应特性.
+* 机械部教育司科技基金资助
+作者单位：湖南大学环境工程系，长沙　410082
+参考文献
+1　Fox P,Suidan M T.Shock and transcient loading on anaerobic reactor coupled with adsorber.J Environ Engrg,1996,122(1):18—24
+2　哈尔滨建筑工程学院主编.排水工程(下册).北京：中国建筑工业出版社.1987.76—79
+3　黄　勇，杨栓大，王宝贞.二沉池的数学模型及瞬变响应特性模拟研究——瞬变响应特性.中国给水排水，1997，13(1)：4—9
+4　Glisson T H著，丁钟琦等译.系统分析导论(上册).长沙：湖南大学出版社.1986.2—58
+1998-01-05收到原稿
+1998-07-06收到修改稿

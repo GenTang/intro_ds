@@ -1,0 +1,90 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年2月第18卷第2期科技期刊
+白洋淀底泥腐殖质的表征及光化学反应
+郁志勇　王文华　彭　安
+(中国科学院生态环境研究中心，环境水化学国家重点实验室，北京 100085)
+
+关键词　腐殖质；单线态氧(1O2)；自由基(ROO*、HO*)；光化学反应.
+CHARACTERIZATION AND PHOTOREACTION OF HUMIC SUB-
+STANCES FROM SEDIMENTS IN BAIYANGDIAN
+
+Yu Zhiyong, Wang Wenhua, Peng An
+( State Key Laboratory of Environmental Aquatic Chemistry, Research Center for Eco-Environmental Sciences,
+Chinese Academy of Sciences, Beijing 100085)
+
+ABSTRACT　Humic substance (including fulvic acid that is soluble in acid and base, and humic acid that is only soluble in base but insoluble in acid) from sediments in Baiyangdian was extracted and characterized by elementary analysis, IR, UV,FL, and EPR. The results showed that there are -COOH, -OH,and benzene rings in the structures of FA and HA. Exposure of the system to simulated sunlight, FA concentration in the 10ppm FA system reduceds rapidly. A great number of singlet oxygen and free radicals produced in the process. Fe2+,Fe3+,and Al3+, especial the former two ions, can accelerate the process.
+Keywords　humic substance, singlet oxygen (1O2）, free radical (ROO*，HO*)，photochemical reaction.
+
+　　腐殖质是动植物经过长期的物理、化学、生物作用而形成的复杂有机物，水体、底泥、土壤等都含有腐殖质.腐殖质是大分子聚合物，具有非常复杂的化学结构.根据溶解性质，可以把腐殖质分为3个级分：富里酸(既溶于酸又溶于碱)，胡敏酸(只溶于碱而不溶于酸)，腐黑物(在酸和碱中都不溶解).本文首先对从白洋淀底泥提取的富里酸和胡敏酸进行简单的表征，接着研究其水溶级分富里酸的光化学反应.有关进入白洋淀水域的氯酚与其中腐殖质的相互作用，另文介绍.
+
+1　实验部分
+1.1　试剂
+　　呋喃甲醇(简记FFA)为化学纯，使用前重蒸.异丙苯(简记CUM)、CH2Cl2、FeSO4*7H2O、Fe2(SO4)3*xH2O(含Fe22%)、Al2(SO4)3*18H2O均为分析纯.
+1.2　腐殖质的提取
+　　从白洋淀底泥提取富里酸(FA)和胡敏酸(HA)，方法见文献［1］.本文稍作修改，即把HCl改为H2SO4以避免向体系引入Cl元素.
+1.3　腐殖质的表征
+　　元素分析方法参见文献［1］.红外光谱、紫外光谱、荧光光谱仪器条件及测定见文献［1］.顺磁共振谱：在Varian E-109型顺磁共振谱上测定.
+1.4　FA浓度的测定
+　　根据FA的荧光特性，用荧光光度法测量FA的浓度，荧光光度计型号为Shimadzu RF-520.测量波长为：Ex=387nm，Em=476nm.
+1.5　光化学反应体系
+　　Ⅰ：10ppmFA, Ⅱ：10ppmFA+1ppmFe2+,Ⅲ：10ppmFA+1ppmFe3+，Ⅳ：10ppmFA+1ppmAl3+.体系pH值为5.5.
+　　当测定单线态氧时，加入呋喃甲醇(FFA)，使其浓度为20ppm；当测定自由基时，加入异丙苯(CUM)，使其浓度为40ppm.设无光照为对照组.
+1.6　模拟太阳光条件下，单线态氧及自由基的测定
+　　测定方法同文献［2］.
+
+2　结果与讨论
+2.1　腐殖质的表征
+　　表1为富里酸(FA)和胡敏酸(HA)的元素分析数据(已扣除灰分).从表1可以看到：FA
+表1　FA和HA的元素分析(质量百分比)
+Table 1 The elemental analysis of FA and HA
+
+　C,%H,%N,%O,%C/H(原子比)
+FA29.334.931.8063.940.50
+HA48.035.432.1744.370.74
+
+含O、C元素较多；HA含C、O元素较多.与一般土壤及泥炭腐殖质相比较，白洋淀底泥腐殖质中O、N、H的含量较多，而含C量少一些［1］.
+
+　　图1为腐殖质的红外光谱图.从图1可以看到：FA和HA在3300cm-1的宽吸收对应缔合—OH的伸缩振动，1700cm-1的吸收对应-COOH基团的CO的伸缩振动，1100cm-1的吸收比较复杂，对应着脂肪醇、醚、硫醇基振动［3］.
+　　
+
+
+图1　FA和HA的红外光谱
+Fig.1　IR spectra of FA and HA
+
+
+图2　腐殖质的紫外光谱
+Fig.2　UV spectra of humic substance
+图2为腐殖质的紫外光谱.从图2可以看到：随波长减小呈单调上升的趋势，表明其中含有芳香结构［1］；图3为腐殖质的荧光光谱.腐殖质具有荧光性，对于研究其结构和用于分析测定都是有意义的.在腐殖质的顺磁共振谱中(图略)，HA的谱图是超氧离子的信号，其g因子约为2.0032；FA的谱图为超氧离子和半醌自由基的信号，其g因子分别约为2.0032和2.0001.
+2.2　光照条件下，FA浓度的变化
+　　图4是在不同体系中游离FA浓度变化的情况(图中1—4分别为无光照Ⅰ—Ⅳ体系；5—8分别为模拟太阳光照Ⅰ—Ⅳ体系).在光照下，FA结构发生变化，产生单线态氧和自由基.从图4可以看到：(1)无光时，体系Ⅰ中10ppmFA浓度降低很小.与体系Ⅰ相比较，体系Ⅱ、Ⅲ、Ⅳ在T=0时所对应的荧光吸收都较低.这表明Fe2+、Fe3+、Al3+都与FA存在着相互作用，形成配合物，从而使游离FA的浓度降低.(2)在模拟太阳光照射下，FA浓度降低幅度较大，Fe2+、Fe3+\,Al3+能够加速FA的浓度降低.
+
+
+图3　腐殖质的荧光光谱
+Fig.3　FL spectra of humic substance(a) emission (b) excitation
+
+
+图4　在无光照和模拟太阳光照射下，反应体系中FA浓度与时间的关系
+Fig.4　Relation between the concentration of FA 
+and time in the reaction system without lightand exposure to simulated sunlight
+2.3　光照条件下，单线态氧（1O2)的测定
+
+
+图5　在无光照和模拟太阳光照射下 ，反应体系中FFA浓度与时间的关系
+(1—8的含义同图4)
+Fig.5　Relation between the residual rate of FFA
+and time in the reaction system without light
+and exposure to simulated sunlight
+图5为FA体系在无光和在模拟太阳光照射时呋喃甲醇(FFA)与时间的关系.FFA剩余率越大，表示产生的单线态氧越少.从图5可以看到：(1)无光时，FA体系产生的单线态氧很少，Fe2+\,Fe3+\,Al3+对之影响不大.(2)在模拟太阳光照射时，随着时间的延长，FA体系产生的单线态氧逐渐增加，Fe2+、Fe3+、Al3+能够加速该体系中单线态氧的产生.尤以Fe2+、Fe3+的作用明显，且表现出的性质相似.这与图4中FA浓度降低的趋势相对应.
+2.4　光照条件下，自由基(HO*、ROO*)的测定
+
+
+图6　在无光照和模拟太阳光照射下，反应体系中CUM浓度与 时间的关系
+(1—8的含义同图4)
+Fig.6　Relation between the residual rate of CUM and time in the reaction system 
+without lightand exposure to simulated sunlight
+图6为FA体系在无光和在模拟太阳光照射时异丙苯(CUM)与时间的关系.CUM剩余率越大，表示产生的自由基越少.FA光反应中自由基的产生及变化趋势与单线态氧的情况相似.
+参考文献
+　1　彭　安等.水体腐殖酸及其络合物.环境科学学报，1981，1(2)：126
+　2　郁志勇等.4-氯苯酚在水溶液中的光化学反应.环境科学学报，1997，17(3):312
+　3　成绍鑫等.腐殖酸化学性质和结构分析.腐殖酸,1995，4：32

@@ -1,0 +1,93 @@
+土壤与环境
+SOIL　AND　ENVIRONMENTAL　SCIENCES
+1999年　第8卷　第2期　Vol.8　No.2　1999
+
+
+
+红壤中交换性铝调控条件的研究*
+Ⅱ.有机质和CaCO3对交换性铝的影响
+赵美芝 罗质超 高建平
+摘要　研究了有机质和CaC03对发育于花岗岩和第四纪红色粘土母质上的红壤的交换性铝的影响。结果表明，在用H2O2去除土壤中的有机质后，交换性铝的含量随有机质的降低而降低，但降低的速度不均匀，由慢到快似有一个“突跃”。而在向土壤中添加有机质的研究结果则表明，交换性铝的含量随有机质的增加而增加，在增加的过程中由快到慢，达到极点后，有机质含量再增加，交换性铝反而下降。在相同的土壤环境中，由于作物品种不同，施用等量的CaCO3（或石灰粉）对土壤交换性铝的含量及作物产量的影响不同，而且差异显著。
+关键词　红壤；有机质；CaCO3；交换性铝
+Study on the Control Conditions for Exchangeable Aluminum in Red Soils:Ⅱ. Effect of Organic Matter and CaCO3 on the Exchangeable Aluminum in Red Soils. Zhao Meizhi, Luo Zhichao and Gao Jianping (Institute of Soil Science, Academia Sinica, Nanjing 210008). Soil & Environ Sci, 1999, 8(2): 127～129
+This paper deals with the effect of organic matter and CaCO3 on exchangeable aluminum in red soils developed from parent material of granite and Quaternary red clay. The results showed that for the samples from which organic matter were removed with H2O2, the amount of exchangeable aluminum decreased with the decreasing of content of organic matter, however, the decreasing speed was not identical, it changed from slowness to rapidity and seemed to have a leap; for the samples in which organic compounds were added, the amount of exchangeable aluminum increased with the increasing of content of organic compound, but the increasing rate changed from rapidity to slowness, and when it reached a critical point, the exchangeable aluminum decreased with the increasing of organic compound. Meanwhile, the effect of CaCO3 (lime powder) on exchangeable aluminum of soils in which different varieties of crops were planted was studied. The result indicated that in the same soil environment, the same amount of CaCO3 (lime powder) produced different effects on the content of exchangeable aluminum and crop yield, and the difference was remarkable, which could be attributed to the different varieties of crops.
+Key words　red soil; organic matter; CaCO3; exchangeable aluminum
+　　本文采用我国南方发育于花岗岩和第四纪红色粘土母质上的红壤的表土为试样，研究了土壤有机质和施用石灰与交换性铝的关系，为调控红壤中交换性铝的含量，降低土壤酸度和防治铝毒提供数据。
+1　试验方法
+1.1　土壤交换性铝、pH值、有机质的测定
+　　称取一定量过60目筛的风干土于离心管中，按土∶水为1∶10的比率，加入KCl溶液，加盖振荡1 h，离心分离，用等离子光谱测定上清液中铝的含量。
+　　用pH-3C型酸度计测定pH值；用K2Cr2O7-H2SO4法测定有机质。
+1.2　交换性铝与有机质的关系
+　　（1）用H2O2除去土壤有机质后，在红外灯下（60 ℃以下）烘干过100目筛，按上述“1.3”法测定有机质，按“1.1”法提取和测定溶液中的铝；（2）在第四纪红色粘土母质发育的红壤中，加入不同量的葡萄糖，拌匀后放入培养皿中，加蒸馏水使土样呈湿润状态，然后加盖培养1周，在红外灯下（60 ℃以下）烘干过100目筛，按上述“1.3”法测定有机质，按“1.1”法测定交换性铝。
+1.3　交换性铝与CaCO3的关系
+　　供试土壤为江西余江第四纪红色粘土上发育的红壤。（1）在土壤中加入0%～2%的CaCO3，拌匀后放入培养杯中，加全营养液，然后种上已发芽的油菜种子，1周后按上述“1.1”法测定土壤中交换性铝的含量；（2）在盆栽小麦的土壤中加入2% CaCO3，收获后按上述“1.1”法测定其交换性铝的含量；（3）油菜大田试验中，每小区施用石灰3 kg（小区面积为18 m2），收获后按上述“1.1”法测定其交换性铝的含量。
+2　结果与讨论
+2.1　有机质对交换性铝的影响
+　　由于有机质含有大量的羟基和酚羟基，这些基团中的H+解离，会产生大量的负电荷，因此它对交换性铝的影响是不可低估的。由表1可见，4个供试样品在用H2O2去除有机质后，交换性铝的含量都有明显下降。但并不是成比例地均匀下降，而似有一个“突跃”。表2的结果是小麦盆栽试验结束后所采的样品，分为二种处理，一种是正常采样，另一种是用水洗根后的采样，结果是经水冲洗后，由于水溶性铝的淋失，交换性铝的含量有所下降；由于小麦品种各异，其降幅为1.77%～15.9%。但交换性铝的下降主要的还是由于去除有机质后，土壤pH升高（升高0.6～1.0），促使铝由交换态向非交换态的转化[1]，从而导致土壤交换性铝的显著降低。此外，由表1还可见，砖红壤和赤红壤在去除有机质后，交换性铝所剩无几，而下降的绝对量远不及红壤和黄壤，似与各供试样品的矿物组成有关。
+表1　土壤有机质对交换性铝的影响
+
+土样处理有机质
+(g/kg)交换性铝
+(g/g)pH
+(水提)去OM后交换性铝降低值
+(g/g)(%)
+砖红壤原土12.712552.81　　
+　去OM2.272.05.9125399.2
+赤红壤原土17.502105.02　　
+　去OM2.073.15.9520798.5
+红壤原土16.8910334.70　　
+　去OM2.645165.4051750.1
+黄壤原土33.509204.90　　
+　去OM19.927875.5214414.5
+　去OM26.463516.1357044
+
+“OM”代表有机质
+表2　小麦盆栽土壤中水溶性铝的含量*
+
+小麦品种交换态Al(g/g)水溶性铝(g/g)水溶性Al(%)
+6.5 CK6.6 CK6.6 CK-6.5 CK交换性Al
+86124551609589.52
+郑州83295175866911.8
+豫麦18-64555565101.77
+温麦4号504558549.68
+扬麦5号4545408615.9
+
+6.5 CK: 水冲洗后采样；6.6 CK: 未冲洗采样。
+　　由图1可见，当有机质的含量在33.3 g/kg以下时，在嫌气状态下产生的有机酸以及交换性铝中羟基铝解离的H+的作用下，体系pH降低，有助于土壤中原本非交换态的铝向交换态转化。因而出现随有机质含量的增加，交换性铝随之增加的结果。而当有机质的含量超过33.3 g/kg后，随着有机质的增加，有机酸浓度亦随之增大，造成整个体系为有机酸和铝的络合作用所控制的局面。然而络合铝只有部分是可交换的[2]，故而在有机质达到一定的含量后，出现了随有机质的增加，加交换性铝反而呈下降的趋势。
+
+图1　有机质与交换性铝及pH的关系
+2.2　CaCO3对交换性铝的影响
+　　在培育油菜苗的土壤中分别添加1%和2%的CaCO3，其交换性铝分别下降了46%和81%。在低pH的红壤上种植油菜，可通过添加不同量的CaCO3，从中找出一个合适的添加量，以便将交换性铝的含量控制在一个适宜的范围内，从而达到有效地防治铝对油菜根系的毒害。小麦盆栽和油菜大田试验（表3和表4），进一步证实了这一结果。由表3可见，添加2% CaCO3之后，由于pH均达7.7以上，所以土壤中交换性铝的含量极少，有的已不能检出；加CaCO3后与对照比较，交换性铝的含量下降了95%～100%，这似与小麦的品种有关。油菜的大田试验表明施用石灰后，交换性铝的含量下降50.3%～60.3%，与此相应的是产量大幅度增加，增幅为26.8%～230.8%，这与油菜品种的抗铝毒害能力密切相关。
+表3　小麦盆栽试验中加CaCO3对交换性铝的影响
+
+品种Al(g/g)加Ca后Al
+降低(％)pH
+CK加CaCK加Ca
+861246093.599.434.207.70
+郑州83295860100.04.257.72
+豫麦18-6456512.297.844.287.71
+温麦4号55825.696.414.277.74
+扬麦5号54019.296.444.287.75
+
+CK：对照；Ca：加2%CaCO3。
+表4　油菜田间试验施用石灰对交换性铝及产量的影响*
+
+品种处理pHAl
+(g/g)加Ca后Al
+降低(％)产量
+(g/kg)加Ca后产量
+增幅(％)
+R1CK4.68516.4　292.7　
+　Ca5.01216.858.02712.7143.49
+R2CK4.47542.9　438.2　
+　Ca4.97204.962.26555.826.84
+R3CK4.57507.3　130　
+　Ca5.01251.950.34430230.77
+
+Rl：荣选；R2：821；R3：胜利1号；CK：对照；Ca：3 kg石灰粉。
+*国家“八五”科技攻关课题的部分内容。
+作者单位：中国科学院南京土壤研究所，南京 210008
+参考文献
+1　王维君. 酸性土壤交换性铝形态的研究. 科学通报，1991, 36(6): 460～463
+2　Goh T B. Formation of hydroxy-Al-montmorillonite complexes as influenced by citric acid. Can J Soil Sci, 1984, 64: 411～421
+收稿日期：1998－10－02

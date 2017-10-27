@@ -1,0 +1,74 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第9期 Vol.19 No.9 1999
+
+
+
+基于CORBA的异地协同工作流模式
+沈军营　黄进　严隽琪　蒋祖华
+　　摘　要　为了解决自动化孤岛之间的有效通讯问题。这里提出用Java在Internet上开发一种基于CORBA的工作流管理系统的方法。并在工作流管理系统中引入了Agent技术。
+　　关键词　工作流，CORBA, Agent, Java, Internet
+CORBA BASED TELE—COLLABORATION WORKFLOW MODEL
+Shen Junying　Huang Jin　Yan Junqi　Jiang Zuhua
+CIM Research Institute, Shanghai JiaoTong University， Shanghai 200030
+　　Abstract　In order to solving the communication problem between the islands of automation, a workflow model based on the Internet/CORBA is presented. The Agent in the workflow model is also discussed.
+　　Keywords　Workflow，CORBA, Agent, Java, Internet
+1　前言
+　　现代企业在其产品设计和制造过程的各个环节上，有效地利用了计算机辅助工具。可是由此却形成了一系列的自动化孤岛。在各个环节之间存在着数据交流和部门协同的问题。常规的分布计算技术难以胜任这类协同工作的应用。因为经典的客户/服务器计算技术不支持服务器对客户的直接控制，也不支持客户应用之间的信息交流。这样往往造成的一种结果是在发达国家中普遍存在的片面要求集成而进行的大量投资但缺乏柔性的生产及信息体系。
+　　工作流管理系统和CORBA技术是解决上面问题的有效方法。从而为企业能够快速响应市场变化，把握市场机遇、优化资源、优势互补而建立企业之间的动态联盟，即一种通过现代通讯手段动态联系起来而形成的企业集团（虚拟企业），提供了一种有效的技术手段。
+2　工作流管理系统
+　　工作流管理是近年来在计算机应用领域中发展最为迅速的几项新技术之一，其主要特征是实现人与计算机交互事件结合过程中的自动化。工作流主要涉及的内容是工作任务的整体处理过程、工作组成员间依据一组已定义的规则及已制定的共同目标所交换的文本文件、各种媒体信息或任务。工作流管理系统是一个用于分布式环境中工作任务进程间的协调及协作式处理的软件系统。面向群体协同工作并支持系统开放集成性的工作流管理系统是使企业的内部综合信息处理系统适应动态变化的市场需求的关键所在，人们主要采用工作流管理系统实现工作任务处理过程的重构设计及过程的优化。
+　　工作流管理联盟（WfMC）将工作流定义为业务流程的全自动和部分自动化；在此过程中，文档、信息或者任务按照一定的过程规则进行流转。一个流程包括一系列的活动（activities）和相关的数据。在流程中的每一步即是一个活动（activity）。它包括一个名称、类型号、开始和结束的控制信息。工作流的运行是由工作流管理系统来完成的。它和工作流执行者（人、应用程序）交互，推进工作流实例的执行，并监控工作流的运行状态。
+3　CORBA技术
+　　随着网络技术的迅速发展，在Internet、WWW、企业Intranet上都出现一个主要的特征，即异构性。这是由于网络上使用了不同厂家的硬件、操作系统、网络协议及各种软件产品而造成的。一方面，它使我们某个部分可以选择最佳的硬件和软件组件，但在异构的分布式计算环境中要实现各个层次上的互操作性是非常困难的，所谓的“互操作性”是指来源不同的构件之间能相互协调，相互通讯、相互提供服务，共同完成复杂的任务。为了实现这一目标，国际上的各个有关组织纷纷制定支持分布系统互操作的标准。
+　　当今国际上有三大分布式软件组件对象标准：一个是由OMG(Object Management Group)组织推出的CORBA(Common Object Request Broker Architecture),即公共对象请求代理结构；一是Microsoft推出的 DCOM(Distributed Component Object Model)，即分布式组件对象模型；还有一个是Sun公司推出的用Java语言开发的分布式对象模型RMI(Remote Method Invocation)。
+　　CORBA规范是由OMG集团提出的对象技术规范，OMG集团是一个包括IBM、APPLE、SUN等著名计算机公司的技术厂商联合体，其宗旨是产生一套标准的语言、接口和协议，以支持异构应用间的互操作性及独立于平台和编程语言的对象重用。
+　　CORBA2.0规范的主要成分包括ORB核心、OMG IDL接口定义语言、语言映象、接口池、码桩与码架、动态调用与分派、对象适配器、ORB间协议等部分。对各部分功能的详细解释请见参考文献［4］
+4　基于CORBA的工作流管理系统
+　　在Internet上实现的基于CORBA的工作流管理系统的模型框架如图1所示：
+
+图1　Internet上基于CORBA的工作流管理系统的框架
+　　在现有的系统中，我们实现了在服务器之间的通讯是建立在CORBA之上。在服务器和浏览器之间仍然使用HTTP协议进行通讯。
+　　基于Web的工作流管理的优点是不需要专门的客户端软件。客户端软件是浏览器，其使用方法已被多数用户所熟知。同时，Web为构造工作流管理系统提供通讯基础。Java为开发Web应用提供了很大的方便。
+4.1　工作流管理服务器与WWW服务器间的通讯
+　　这里需要指出的是在一个分布式系统中，特别是CORBA下的分布式系统中，客户与服务器之间的区分通常是不确定的。一个CORBA应用部件通过创建一个实现对象及使它应用在其他部件中，来提供一种特别的服务。其他的部件通过定位那个对象来访问这些服务，然后调入对象中适合的方法来达到所希望的效果。在这个特殊的方案中，创建这个对象的部件被成为那个对象的服务器。调入对象的方法的那个部件就是客户。进一步而言，假如服务对象的一个方法把另一个对象的参考作为一个参数。现在进一步假设客户为那个对象创建一个实现，并把它作为一个参数来传递。那个“客户”现在就扮演这个具体对象的服务器；那个“服务器”，当它调用这个对象的任何一种方法时，它就成为客户。尽管两个部件的整体作用没有变化，但是就CORBA而言，每一个部件既是一个客户，又是一个服务器。
+　　在这里使用一个所谓“纯”客户和“纯”服务器的例子简要说明一下CORBA在系统中的实现。在“纯”客户和“纯”服务器中，客户将不创建服务器所使用的对象。这样就不会出现客户扮演服务器的方案了。具体情况另有文章描述。
+　　首先，创建CoWork.idl文件包括三个接口定义interface CoWorkuser; interface CoWorkserver和 interface CoWorkinfo。然后，使用IDL编译程序来生成客户残余程序和服务器构架，他们是客户和服务器实现创建的来源。我们使用的是SUN公司的IDL编译程序（可从http://www.javasoft.com/products/jdk/idl/index.html获得）。SUN公司的IDL编译器的名称是idltojava。编译器使用方式为：idltojava—fclient–fserver CoWork.idl。—fclient—fserver标志告诉IDL编译器为每一个接口分别创建客户残余程序和服务器构架。在生成的文件中包括 CoWorkuser.java; CoWorkserver.java和 CoWorkinfo.java。这些文件包括那些为了创建一个功能服务器而必须实现的Java接口定义。还有—CoWorkuserImplBase.java;—CoWorkserverImplBase.java和—CoWorkinfoImplBase.java。这些文件包括那些为了创建实现以上的接口，我们将要扩充的Java类的定义。剩下的工作就是用Java扩充和实现我们已经定义过的服务器和客户的接口了。
+4.2　WWW服务器和浏览器之间通讯
+　　一种建立在CORBA基础上的服务器和浏览器之间的通讯协议IIOP(Internet Inter-Orb Protocol)可以用来支持网络间的数据对象通讯。IIOP会成为一种新的WWW通讯协议，且拥有它自己的URL格式：iiop://objectref.operation(parameter)。 在将来，IIOP可能会取代HTTP从而成为访问任何的分布式Web对象的新协议。
+　　目前，我们利用HTTP通讯协议，使用Java applet-serlet在 WWW环境中进行开发。Java Applets为 Web的静态HTML页面增添了动态特性和交互性,而且Java程序不需要移植费用。所有这些因素使得基于Java和Web的CSCW应用系统具有良好的性能价格比。Servlets是Java里自带的扩展服务器，一般用于网络服务。包括Apache, Java Web Server (JWS), O′Reilly′s WebSite, 以及Netscape 在内的很多网络服务器支持它。从更高层上看来，servlets只是一个Applet，所不同的是它运行在服务器环境下而不是浏 览器下。象Applet一样，它有一个受环境控制的生命周期。不同的是，对每个网络服务器它 只创建一个servlets的实例。每个对servlets的URL的请求被翻译为相同的servlets 实例。如果使用servlet的方式来扩展支持Java的Web server。您会发现Java servlet比其他的CGI更容易实现Web server的扩展、编程，更加简单、方便。
+　　Appelt和Servlet 在TeleDM工具中扮演了重要的角色。Servlet是通过javax.servlet和javax.servlet.http包中提供了Servlet API来实现与Applet进行通讯的。javax.servlet.http列举这些类和应用界面来处理HTTP请求。通常，他们是依靠HTTP协议的“request-to-respone”模式。
+　　客户对象流使用URL和URLConnection类使用HTTP协议的POST发送消息对象。即在执行这个applet和servlet之间的通讯时，我们用Java定义了一个MSG消息类。即在Applet和Servlet之间传输的是一种MSG消息类。MSG消息类包括增加和更新等方法、信息来查找和访问远端的类文件。也可以通过MSG消息类向服务器端发送类文件。Applet通过MSG消息类向服务器端的Servlet发出信息查询的请求。客户端通过向服务器的应用对象流传递“消息对象”，并定期轮询服务器以便知道它的变化的方式来达到互通信息，达到协同工作的目的。在文件传输结束以后，Servlet把类文件写到支持Java的WWW服务器上。信息的通讯过程如图2所示。
+
+图2　Appelt-Servlet 通讯示意图
+4.3　工作流系统中的Agent
+　　Agent是从分布式AI发展而来的。现在没有一个关于Agent的统一概念。总的来说，Agent是指可以代替用户完成简单、重复的操作,具有一定的代理性的软件。
+　　在工作流系统的开发中我们在两个方面引入了Agent技术：
+　　. 利用Agent技术开发工作流管理者。这里的管理工具并不只提供一种各个设计环节在网络之间进行的传输、交换及共享数据的功能，利用Agent技术开发工作流管理者。他能够向各工作站下达工作流程和进度计划，主动引导各工作站按照工作流程和进度计划推进工作，并受理和评价各工作站进展情况的报告，以及集中管理各类数据。
+　　. 利用Agent开发工作流activity的执行者。工作流中， “人”和“Agent”共同完成一个Activity的情况是比较多的，即“人”在“Agent”的辅助下来完成的。 “Agent”起到的是一个辅助的功能，给“人”做相关的重要信息。即开发一种能给各个环节设计人员提供指导和帮助功能的软件Agent。
+　　Java提供了一种先进的基于WWW的Agent的方法。利用Java实现的Agent可以多线程执行，它和分布在Internet上的其他Agent利用KQML进行非同步通讯，这个模板利用Java的平台独立性交换过程信息。
+　　Agent功能实体是Agent的关键组成部分，它可以分成两部分：行为引擎和对象结构。打个比喻，“行为引擎”就象一个人的“心脏”， “对象结构”就是“大脑”。这个Agent“大脑”的结构如图3所示，是由模糊神经网络组成。它能接受和处理由一系列模糊值组成的模糊向量。神经网络各个节点之间的权也是由模糊值构成。智能知识库根据事先建立的规则进行推理。这样就可以由Agent来决定用户需要什么样的信息。这种自适应性是通过使用一个神经网络来分析用户的选择和对选定信息的反应来实现的。通过对神经网络的训练，agent可以根据不同用户的需求特点为其提供相应的信息。
+
+图3　Agent对象结构的示意图
+　　当采用了这种Agent结构，开始时，用户可能会得到一些不相关的信息，但是Agent会根据用户对信息的取舍情况，进行自组织的学习过程，对信息进行判断，把与用户感兴趣的信息传送给用户。
+5　Tele—DM工具运行实例
+　　根据前面的介绍，我们开发了远程协同工作工具。Tele—DM工具提供了一个虚拟的协同工作环境。协同工作的成员通过白板和交谈工具进行信息的交流。通过它，成员能够方便迅速的把讨论的结果展示给组内的其他成员。在这里我们使用对组内成员平等的授权的策略。即组内成员可以不受限制的使用Tele—DM工具提供的功能。
+　　TeleDM co—work工具的applet是安装在支持Java的WWW服务器的特定目录下，同时包含了一个包含applet标识符的HTML文件也被安装在同一目录的下面。Servlets是安装在一个名为“..\servelts”的系统目录下。
+　　在使用时。用户在客户端的浏览器中输入TeleCoWork 工具的 URL。Applet会自动的从服务器端下载到客户端。用户可以打开一个存在于服务器上的图像文件。协同工具中的白板可以显示从Web服务器上下载下来的图像文件。如果用户想向工作组内的其他成员展示一幅图。他需要首先把图形的图像文件上载到服务器端，然后从白板中打开这个图像文件。这个图像文件便同时出现在工作组内其他成员的白板上。组内成员就可以用白板提供的画线、画圆工具展开讨论了。这里使用Java applet实现的白板支持除gif及jpeg两种已经被Java支持的图像文件格式外，还支持bmp格式的图像文件。
+　　同时提供了一个交谈工具。启动交谈工具的方法是用鼠标单击白板菜单中的“option/chat window”选项。就会弹出交谈工具的窗口。用户就可以在上面进行基于文本的信息交流了。结果如图4所示。
+
+图4　协同工作工具的运行结果
+6　小结
+　　基于CORBA的工作流管理系统的模型框架为解决不同企业异构平台之间的信息通讯提供了有效的技术手段。把Agent技术引入工作流管理系统，极大的提高了其灵活性和适用性。
+　　基于Web的工作流管理，其优点是不需要专门的客户端软件。客户端软件是浏览器，其使用方法已被多数用户所熟知。参加协同工作的用户只要简单的在自己的浏览器中访问Web server，把Applet自动下载自己的浏览器中即可进行协同工作。
+　　我们的工作目前还处在实验室阶段。开发更加实用的系统还有待进一步的工作。
+注：本文得到863/CIMS No.9846-003资助
+作者简介：沈军营　博士。主要研究方向：异地、协同产品开发。
+作者单位：上海交通大学CIMS所　上海(200030）
+参考文献
+［1］　Martin Hardwick, Richard Bolton. The Industrial Virtual Enterprise. Communications of ACM, 1997；40（9）：59-61
+［2］　Jin Huang. Internet/CORBA-based Multi-Agent System for Tele—Design and Manufacturing. ICAMT′99，1999.6
+［3］　The workflow reference model. The workflow management coalition specification. WfMC-TC00-1003, 1994
+［4］　OMG. The Common Object Request Broker: Architecture and Specification. Revision2.0, 1995.7
+［5］　Charles J.Petrie. Agent-Based Engineering the Web and Intelligence. IEEE Expert, 1996.12
+收稿日期:1999-05-18(修改稿)

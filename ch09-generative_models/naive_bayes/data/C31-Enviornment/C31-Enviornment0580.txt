@@ -1,0 +1,74 @@
+环境技术
+ENVIRONMENTAL TECHNOLOGY
+1999年　第17卷　第1期　VOL.17　NO.1　1999
+
+
+
+控制柴油机废气排放的燃料技术与措施
+郭和军　刘治中　姚如杰
+　　摘要：降低废气排放是对现代柴油机提出的基本要求。本文研究了燃料性质和成份对柴油机废气排放的影响及规律，提出了降低柴油机废气排放的燃料技术与措施。
+　　关键词：柴油机排放；控制；燃料性质；燃料成份
+　　中图分类号：X 506
+　　文献标识码：A
+The Fuel Technique and Measure of Controlling Diesel Engine Exhaust Emissions
+　　Abstract:Decreasing diesel engine exhaust emissions is one of the fundamental requirements for modern diesel engine.In this paper,a series of fuel techniques and measures to control diesel engine exhaust emissions had been put forward based on the study of exhaust emission effects of diesel fuel properties and components.
+　　　　　　　　　　　　　GUO He-jun　LIU Zhi-zhong　YAO Ru-jie
+1　前言
+　　为保护人类赖以生存的大气环境，实现社会可持续性发展战略，对柴油机废气排放提出了严格要求。柴油机排放的有害物主要是燃料在燃烧过程中生成的，有害物排放水平除取决于发动机技术、发动机使用条件外，与燃料也有密切关系。PM和碳烟受燃料十六烷值、馏程、密度、芳烃等多项性质显著影响，SOF也与十六烷值、燃料硫等因素有关，PM中PAH则主要来源于燃料中PAH，引入含氧组分和添加助燃消烟剂可使排放水平大幅度降低。近十几年来，西方发达国家在引用先进发动机技术及废气处理技术同时，也采用了燃料技术，并对燃料成份实施立法，以进一步降低柴油机排放。本文就是基于大量实验资料，研究了燃料性质和成份对柴油机排放的影响，提出了降低柴油机排放的一系列燃料技术与措施。
+2　优化燃料性质
+2.1　提高十六烷值(CN)
+　　早期研究发现，CN愈高则碳烟生成愈多，所以，认为提高CN无益于减少废气排放。但这一发现所附历史条件是早期柴油由原油直接分馏而得，含正构烷烃很多，正构烷烃热安定性较差，在400℃～450℃以上就发生热裂解，生成的小分子不饱和烃易发生环化缩聚，生成碳烟母体，所以随CN升高碳烟增多。近十几年来，石油炼制工艺发生了较大变化，使柴油中芳烃含量较大提高，正构烷烃含量大幅度下降，且为弥补芳烃CN低之缺陷，在一些柴油产品中还添加了CN改进剂。CN对排放影响规律因此发生了变化。
+　　Ullman在DDC系列60重负荷柴油机1991样机上对加入CN改进剂的燃料进行了冷起动、热起动和某种复合瞬态方式排放综合研究，结果表明1CN升高10个单位，冷起动、热起动及复合瞬态排放的的总颗粒(PM)分别减少约0.01和0.02 g/(hp.hr)；总HC分别减少约0.09、0.15和0.14 g/(hp.hr),相当于平均减少约40%；CO分别减少约0.37、0.44和0.43 g/(hp.hr)。相当于减少的百分数为20%～25%；热起动和复合瞬态排放的NOx分别减少约0.14 g(hp*hr)。Ullman的发现被后来研究所证实。在对DDC系列60重负荷柴油机1991、1994、1998样机的排放研究中，他发现CN对冷起动、热起动、复合瞬态排放影响存在规律性1，2，3：HC、CO、PM随ln(CN-40)升高线性下降，而NOx随CN升高线性下降。
+　　加入CN改进剂使各项排放降低，其原因是重要组分芳烃具有较高热安定性。研究表明芳香烃只有在550℃以上才发生芳环缩聚。在柴油机燃烧过程中，燃料发火性能提高，雾化油粒较早自燃，其表面及内部较早受到热作用，使芳烃并不象正构烷烃那样发生裂解、缩聚生成碳烟前体，而是加快气化形成可燃混合气以充分燃烧，所以其结果是碳烟颗粒、CO、HC排放减少。此外，CN改进剂实质是氧化性助燃物质，能够促进燃料燃烧，提高燃烧效率，所以能进一步减少碳烟颗粒、CO、HC的排放。
+　　Soldowske(4)对未加CN添加剂燃料进行了研究，结果证实随CN升高，CO、HC、NOx、PM、SOF(可溶有机物)等排放指标仍呈下降规律变化(3）。McMillan(5）在小型AVL单缸直喷式柴油机上对未加CN改进剂燃料研究也得出一致结论，而且烟度也下降（6）。Spreen(7）研究了安装催化转化器时CN对排放的影响，其结果也是各排放指标均随ln(CN-40)升高而线性下降，因此只要燃料中正构烷烃不占主要，则不论采用催化转化器及添加CN改进剂与否，各排放指标均随CN升高而下降，因而对于当今生产的柴油，提高CN可降低排放，且具有普适性。
+2.2　降低表面张力，选择适当粘度范围
+　　燃料以雾粒状态燃烧生成碳烟比以气态燃烧多数倍(8)，是柴油机碳烟生成的主要方式。Rink9进一步研究证实了雾化油料直径对碳烟生成量的显著影响。表面张力、粘度是影响柴油雾化性能的理化性质。表面张力对雾化质量影响较大，研究表明在柴油机中表面张力即使有较小的下降，也会引起喷射雾化油粒直径较大降低，所以对馏分较重、粘度较大的柴油，降低表面张力对改善排放十分有利。
+　　粘度对排放影响较为复杂，过小或过大都会招致排放恶化。Kagami(10）研究表明，对于非直喷式柴油机粘度在1.5～5.0cst范围内适宜，在此范围内随粘度升高，柴油机燃烧效率提高，耗油降低，对HC、CO、NOx、碳烟排放不产生明显影响；当粘度超过6.2cst时，雾化质量变差，耗油量增高，碳烟排放增大。对于直喷式柴油机，粘度在3～9 cst内比较适宜，在此范围内粘度提高，燃料耗量有所降低，对NOx、HC排放不会造成显著影响。
+2.3 降低馏程、密度和燃料硫
+　　馏程对排放也产生较大影响。McMillan实验发现降低90%馏出温度，PM、HC、CO排放将随之降低(5),Weidmann实验证实90%馏出温度、终馏点升高，NOx、PM、及PAH(多环芳烃)排放增加，此外他还发现初馏点降低也会引起PM、PAH排放较大降低(6）。Cunningham发现PM排放随90%馏出温度升高而线性增加（11）。Hare实验表明10%馏出温度变化对排放影响微弱（12）。所以降低初馏点，终馏点、90%馏出温度，有利于改善排放。
+　　密度影响喷入燃烧室内燃料的质量。Cowley实验研究表明，密度由0.84kg/L降至0.80kg/L时PM平均下降0.05g/(kW.hr)（13），Lange发现PM随密度提高线性增加。Betts（14）在重负荷柴油机行车实验中发现，当密度超过0.86kg/L时，PM时排放随密度升高急剧增高，远偏离了线性。Den Ouden（15）发现无催化装置的轻负荷柴油机存在经验关系：PM=Av+Bv/(0.9-d)，证实密度接近0.9kg/L时，PM随密度增大急剧增高。所以降低密度有利于排放，且应严格控制密度超限。密度超限引起PM剧增的原因是发动机出现了过供给。
+　　燃料硫对PM排放影响较大，其原因除了燃烧过程中能生成硫酸盐固体颗粒以外，还由于燃烧中间产物能够催化碳烟生成。Baranescu研究表明，硫含量每提高0.1%，PM排放就增加0.025 g/(bhp.hr)（16）。Lange在DDC系列60重负荷柴油机上研究了硫含量对总PM排放的影响，结果硫含量由0.20%(w)下降至0.05%时，总PM减少10%（17）。此外MoCarthy报道硫含量提高，SOF排放也增加。由于硫对废气催化转化器中催化剂还有中毒危害，所以应严格控制硫含量，美国一些科研机构达成协议限硫含量在0.05%以下。
+3　调配燃料成份
+3.1　减少正构烷烃、芳烃
+　　早期之所以发现CN升高碳烟生成增多，就是因为正构烷烃含量很高，所以对于目前柴油燃料，降低其含量仍有利于排放。芳烃对排放也产生较大的影响。Lange研究表明，芳烃含量由10%提高到25%～35%时，PM排放量提高8.1%～12.9%。McCarthy的实验结果是芳烃每下降10%，PM排放下降0.0037g(bhp.hr)（18），Ullman在三种重负荷柴油机上实验发现，芳烃含量增高，HC、CO、NOx排放均上升(19），Rink研究表明C/H相近的两种燃料由于芳烃含量不同，碳烟生成量有很大差异。所以降低芳烃含量有利于降低各有害物的排放。芳烃组分增加碳烟排放的原因是，芳烃在较高温度下不易发生环破裂，相反更易直接发生缩聚生成多环芳烃的碳烟前体。Shigeru Tosaka（20）的研究对此予以了证实，他设计了脂肪烃和芳香烃热分解实验，发现脂肪烃在450℃左右时开始发生分解，生成的小分子不饱和烃随温度升高部分发生缩聚，在650℃以上开始加速生成单环和多环芳香烃。不同于脂肪烃，芳香烃几乎从不发生芳环破裂生成小分子不饱和烃，而是从550℃起直接发生苯环缩聚，生成联苯或并苯物质，并随温度升高进一步脱氢、缩聚生成稠环芳烃碳烟前体，所以芳烃生成碳烟速度快，生成量大，因此对柴油机碳烟排放影响较大。
+　　柴油燃料的芳烃组分包括单环、双环及少量三环芳香烃，双环和三环芳烃统称为多环芳烃(PAH)。Mitchell研究（21）发现PM中PAH与燃料中芳烃总含量没有直接联系，而是与燃料中PAH含量存在一定线性关系，Abbass研究（22）也表明，PM中PAH总体上来源于燃料中PAH。因此必须严格控制燃料中双环和三环芳烃。
+3.2　掺加含氧组分
+　　醇、醚、酯等含氧物质能够大幅度减少排放，特别是减少碳烟。Spreen（7）分别将乙二醇二乙基醚和二乙二醇二乙基醚加入到柴油中，在DDC系列60和Navistar型柴油机上实验，发现PM、CO显著降低。Ullman实验表明氧含量每提高1%，CO排放减少0.10 g/(hp.hr)，PM减少0.007～0.008 g/(hp.hr)。Murayama（23）加入二甲基碳酸酯(DMC)进行了探讨，添加10%时，碳烟减少30%～50%，HC、CO也显著下降，同时发现若DMC和EGR结合作用，可使碳烟和NOx相当大降低。甲醇也具有突出的减少排放性能，甲醇起初是作为常规石油燃料代用品，但它的更大优势在于减少NOx、PM排放，不过引入甲醇组分会使醛类排放大幅度提高。二甲基醚(DME)排放性能十分优越，实验表明直喷式柴油机燃用DME，NOx下降约75%，碳烟排放几乎降为零（24）。Theo Fleisch（25）研究认为DME用作柴油机燃料，拥有超低排放性能，是一项清洁型柴油机新技术。
+4　助燃消烟添加剂技术
+　　助燃消烟剂分为有灰型和无灰型两类。无灰型主要有酯类、酮类、醚类、硝酸酯、过氧化烃等物质。Kittelson在中负荷直喷式柴油机实验表明，加入某种无灰助燃消烟剂可减少PM 40%（26），Filowitz研制了一种有机过氧化物也使PM上降30%以上（27）。与无灰剂相比，有灰剂效果比较显著，Golothan在单缸直喷式柴油机上实验表明，加入钡含量为0.05%的消烟剂后，烟度下降40～50%(28)，Jerald在单缸直喷式柴油机上对油溶性铂进行了考察，结果在1900转/分时，CO下降61%，HC下降38%（29）。有灰剂主要是电离能低、易失去电子、氧化物具有强催化作用的金属有机物。所以Ba、Ca、Mg、K、Fe、Mn、Cu、Ni、Co、Pt的有机物效果较高，新近发现稀土金属具有出色的消烟性能，并且发现有机金属添加剂复合使用可取得更高的消烟效果。
+5　结语
+　　燃料组成和性质对柴油发动机排放产生较大影响，所以优化燃料性质，调配燃料成份可降低发动机排放水平。其措施是，提高燃料CN，降低表面张力、初终馏点、90%馏出温度、密度，选择适当粘度范围，减少正构烷烃和芳烃含量，尤其应严格控制燃料中硫化物、PAH以及密度超限，引入DME等含氧组分和助燃消烟剂技术则可使排放大幅度减少。
+作者单位：郭和军　刘治中　姚如杰　(后勤工程学院，重庆 400016)
+参考文献：
+［1］　Terry L.Ullman, Robert L. Mason and Daniel A, Montalvo, Effects of Fuel Aromatics, Cetane Number, and Cetane Improver on Emissions from a 1991 Prototype Heavy-Duty Diesel Engine, SAE paper 902171.
+［2］　Terry L. Ullman, Effects of Cetane Number, Cetane Improver, Aromatics and Oxygenates on 1994 Heavy-Duty Diesel Engine Emissions, SAE paper 941020.
+［3］　Terry L.Ullman, Kent B. Spreen and Robert L. Mason, Effects of Cetane Number on Emissions from a Prototype 1998 Heavy-Duty Diesel Engine, SAE paper 950251.
+［4］　Warren J. Slodowske, et al,Diesel Fuel Property Effects on Exhaust Emissions from a Heavy Duty Diesel Engine that Meets 1994 Emissions Requirements, SAE paper 922267.
+［5］　Michael L.McMillan, and Robert Halsall, Fuel Effects on Combustion and Emissions in a Direct Injection Diesel Engine, SAE paper 881650.
+［6］　K. Weidmann, et al, Diesel Fuel Quality Effects on Exhaust Emissions, SAE paper 881649.
+［7］　Kent B.Spreen, Terry L. Ullman and Robert L. Mason, Effects of Cetane Number, Aromatics and Oxygenates on Emissions from a 1994 Heavy-duty Diesel Engine with Exhaust Catalyst, SAE paper 950250.
+［8］　S.R.Norris-Jones, T.Hollis and C.N.F.Waterhouse, a Study of the Formation of Particulates in the Cylinder of a Direct Injection Diesel Engine, SAE paper 840419.
+［9］　K.K.Rink, A.H.Lefebvre, R.L.Graves, The Influenee of Fuel composition and spray Characteristics on Particulate Formation. SAE paper 872035.
+［10］　M.Kagami, et al, The Influence of Fuel Properties on the Performance of Japanese Automotyve Diesels, SAE paper 841082.
+［11］　Lawrence J.Cunningham, Timothy J.Henly and Alexander M.Kulinowski, The Effects of Diesel Ignition Improvers in Low-sulfur Fuels on Heavy Duty Diesel Emissions ,SAE paper 902173.
+［12］　Charels T.Hare and Lawrence R.Smith,Light-Duty Diesel FTP Emissions as Functions of Fuel Volatility and Aromatic Content, SAE paper 861120.
+［13］　L.T.Cowley, R.T.Stradling,T.Doyon,The Influecne of Diesel Fuel on Particulate Emission from Heavy-Duty Engines, SAE paper 932732.
+［14］　W.E.Betts,S.A.Floysand and F.Kvinge, The Influence of Diesel Fuel Properties on Particulate Emissions in European Cars, SAE paper 922190.
+［15］　C.J.J.Den Ouden, et al, Fuel Quality Effects on Particulate Matter Emissions from Light and Heavy Duty Diesel Engine, SAE paper 942022.
+［16］　Rodica A. Baranescu, Influence of Fuel Sulfur on Diesel Particulate Emissions,SAE paper 881174.
+［17］　W.W.Lange, The Effect of Fuel Properties on Particulates Emissions in Heavy-Duty Truck Engines under Transient Operating Conditions, SAE paper 912425.
+［18］　Christopher I.McCarthy, et al,Diesel Fuel Property Effects on Exhaust Emissions from a Heave Duty Diesel Engine that Meets 1994 Emission Requirements, SAE paper 922267.
+［19］　Terry L.Ullman, Investigation of the Effects of Fuel Composition on Heave-Duty Diesel Engine Emissions, SAE paper 892072.
+［20］　Shigeru Tosaka, Yasuhiro Fujiwara, Tadashi Murayama, The Effect of Fuel Properties on Diesel Engine Exhaust Particulate Formation, SAE paper 890421.
+［21］　K.Mitchell,et al, Impact of Diesel Fuel Aromatics on Particulate, PAH and Nitro-PAH Emissions, SAE paper 942053.
+［22］　Montather K.Abbass,The Influence of Diesel Fuel Composition on Particulate PAH Emissions, SAE paper 892079.
+［23］　Tadashi Murayama, et al, Simultaneous Reductions of Smoke and NOx from a DI Diesel Engine with EGR and Dimethyl Carbonate, SAE paper 952518.
+［24］　S.C.Sorenson and Svend-Erik Mikkelsen, Performance and Emissions of a 0.273 Liter Direct Injection diesel Engine Fueled with Neat Dimethyl Ether, SAE paper 950064.
+［25］　Theo Fleisch, et al, A New Clean Diesel Technology: Demonstration of ULEV Emissions on a Navistar Diesel Engine Fueled with Dimethyl Ether,SAE paper 950061.
+［26］　David B.Kittelson, et al, Influence of a Fuel Additive on the Performance and Emissions of a Medium-Duty Diesel Engine, SAE paper 941015.
+［27］　Filowitz,M.,and Vataru, M., Diesel Particulate Emission Control without Engine Modification-A Cost-Effective Fuel Supplement, SAE paper 890828.
+［28］　Golothan, D.W.,Diesel Engine Exhaust Smoke: The Influence of Fuel Properties and Effects of Using a Barium Containing Fuel Additives, SAE paper 670092.
+［29］　Jerald A. Caton, et al, Performane and Fuel Consumption of a Single-Cylinder, Direct-Injection Diesel Engine Using a Platinum Fuel Additive, SAE paper 910229.
+
+
+(收稿日期： 1998-10-21)

@@ -1,0 +1,111 @@
+宇航学报
+JOURNAL OF ASTRONAUTICS
+1999年　第1期　No.1　1999
+
+
+
+多道扫描探针系统在电弧风洞中的应用*
+曹金祥　赵红波　林毅君　张嘉祥　王洁霞　董永晖　陈光荣
+
+　　摘　要　介绍了一种用于诊断电弧风洞等离子体参数的多道扫描探针系统。使用该系统研究了FD04风洞空流场的等离子体特性。利用CTW理论分析了探针数据,实时给出了流场电子温度和密度的空间分布。实验表明,空流场的电子温度分布基本是均匀的;电子密度分布与流场结构紧密相关,电子密度变化范围在3倍之内;随着流场焓值的不同分布,电子密度也随之变化。
+　　主题词　风洞　等离子体诊断　高超声速流动　探针
+APPLICATION OF MULTIPLE SCANNING 
+PROBE TO ARC-HEATED TUNNEL
+Cao Jinxiang Zhao Hongbo Lin Yijun
+(Depatment of Modern Physics,University of Science & Technology of China。Hefei。230027)
+Zhang Jiaxiang Wang Jiexia Dong Yonghui Chen Guangrong
+(Bejing Box 7201。Beijing。100074)
+　　Abstract　A multiple scanning probes for diagnosing arc-heated wind tunnel plasma parameter is described and to be applied for the study plasma characteristic of FD04 wind tunnel flow fleld.The experimental data are analysed to use CTW theory of electrostatic probe.We were able to obtain the electron temperature and density distribution in the flow,and reestablish the flow structure on the computer by using the exprimental data.This shows that the electron temperature in the tunnel is almost of uniform;the electron density distribution in the tunnel is concerned with the flow structure,and its change is within three times;the electron density and temperature becomes greater with increasing of enthalpy.
+　　Key words　Wind tunnel Plasma diagnosis Hypersonic flow Probe
+1　引言
+　　众所周知,国外自五十年代起就把静电探针应用于再入物理的实验研究之中,并于七十年代得到了可以应用于工程上的结果。国内从七十年代末,王柏懿［1］在H-4电弧风洞上首次用铱丝静电探针测量了空流场的电子温度和密度,得到了一些非常有意义的结果。
+　　在流场物理实验中,要获得沿着流场轴线方向不同截面上等离子体参数,通常是利用单探针采取多次开车才能得到一组较完整的数据。而多次开车对探针数据带来的误差是相当大的。为此我们研制了一套可沿流场轴线扫描的多道静电探针测量系统,并使用该系统在FD04电弧风洞进行了有关的实验,完成了流场多截面等离子体参数的测量,得到了一些很有意义的实验结果。
+2　探针理论的考虑
+　　在流场探针数据处理中,使用比较多的是Laframboise理论［2］。该理论可以在比较宽的等离子体参数范围内,得到静态无碰撞等离子体探针的V-I特性曲线。由此得到的探针表面电流密度为:
+
+(1)
+Ne为末扰的等离子体电荷密度;Rp/λD为探针半径与德拜长度之比;Ti/Te为无量纲的离子电流修正因子;Xp为归一化的探针电位。因此按照文献［2］的方法就可推出无碰撞等离子体密度N。
+　　实事上,对于电弧风洞这种弱电离等离子体,碰撞效应是不能忽略的。因此Laframboise理论对有碰撞影响的探针数据处理是不适宜的。文献［3］给出了一个考虑碰撞影响且较完整的理论,通常称之为CTW理论。CTW理论认为影响离子电流收集的碰撞主要是离子-中性粒子间的碰撞,它使得探针收集的离子电流减小。显而易见在无碰撞情况下,CTW理论与Laframboise理论有一致的结果。
+　　类似于Laframboise理论,CTW理论有
+
+(2)
+其中各符号与为Laframboise理论［1］式中的符号意义相同。若记τ=Te/Ti,则Ii有近似表达式:
+Ii=f(τ)(Xp/ln2)α
+其中f(τ)为一函数,其值见表1。α值由文献［4］给出。
+　　γ是考虑碰撞后,对Laframboise理论修正后的因子,其定义为:
+
+(3)
+其中　　　　
+　　综上所述,我们给出本实验数据处理的基本步骤:
+　　1.通过探针的伏安特性曲线求电子温度Te。
+　　2.取悬浮电位Vp=-5,求电位为(Vf-10Te)处的离子电流密度。
+　　3.利用文献［5］的图2.4得Ii值。由Iiγ得到CTW理论预测的离子电流I*i。
+　　4.由等离子体电中性的假设,可得Ne=N*i,即为所求的等离子体电子密度。
+表1
+τ12510∞
+f(τ)1.381.181.040.990.94
+Gi(τ)1.070.890.700.58/
+3　多道扫描探针测量系统
+　　图1是多道扫描探针几何结构及实验按排示意图。探针为0.5mm的铱丝,它被绝缘后固定在探针支架上,支架可一次安装10根探针,故在径向可同时获得10个测量点的数据。探针的间距可任意调节,本实验选取其间隔为15mm,探针裸露在流场中的长度为20mm。探针与支架采用高压水冷。支架安装在一个可以沿流场轴线方向水平运动的导轨上,根据需要由计算机控制探针系统运动并可随时进入或退出流场。
+
+
+图1　多道扫描探针系统几何
+结构和实验按排示意图
+　　多路探针电信号,由多道数据采集存储,然后送计算机系统进行处理。由显示器显示出全流场及不同断面的等离子体参数分布。
+4　实验结果与讨论
+　　实验是在FDO4电弧风洞上进行的。风洞运动参数:弧室压力为0.15-0.36MPa;总比焓为1254～-8318KJ/kg;马赫数为5-12。按实验要求探针支架上安装8根探针。
+　　图2是174次实验在6个采样位置得到的一组空流场电子温度Te分布。该组实验条件:电弧电流是450A,电压1600V,焓值2300KJ/kg。r坐标为径向距离,X坐标为采样位置距喷管端面的距离。由图可见,位置3的Te(0.4～1ev)较高,并在径向表现出一定的周期性结构。这反应了风洞流场在近喷管区未达到均匀。在远离喷管的位置上,Te(0.1～0.4ev)变化较小,且表现出空流场有较好的均匀性。
+
+图2　174次流场实验电子温度Te的三维空间分布
+　　图3是176次实验Te分析的结果。其实验条件电弧电流是1000A,电压1200V,焓值增加到3590KJ/kg。由图可知,同174次实验类似,位置3处的Te(1-1.6eV)较高。在4-8采采样位置Te变化是在0.2-0.8eV范围内,这反映出空流场沿径向和轴向Te变化是较均匀的。表2是将每个采样位置上得到的8个探针的Te进行平均后,得到沿流场轴向的Te分布。表3是将对应每一探针的4至8采样位置处的Te平均,得到的径向Te分布。可见,除1、8探针外流场其它各点Te基本是均匀的。从另一方面也反映出探针测量系统的灵敏度是较高的。
+
+图3　176次流场实验电子温度Te的三维空间分布
+表2
+采样位置345678
+轴向距离(mm)385480600720840960
+径向平均
+电子温度174次
+176次0.54
+1.230.24
+0.660.23
+0.540.25
+0.500.28
+0.540.23
+0.52
+表3
+探针序号12345678
+径向距离(mm)-96213651668196
+轴向平均
+电子温度174次
+176次0.15
+0.700.22
+0.420.22
+0.470.23
+0.500.20
+0.440.21
+0.440.23
+0.480.44
+0.44
+
+　　两次实验结果的比较还可以发现,随着流场焓值的提高(从2300～-3590KJ/kg),Te增加一倍。这说明表征一定体积内气体能量的物理量—焓值是影响弱电离等离子体性质的重要物理量。
+　　图4是174次实验得到的电子密度Ne在流场的径向和轴线方向的三维分布图。其中X坐标是采样位置距喷管出口端面的距离。Te随r的增加而单调衰减。实际上Ne的径向分布在近轴线处有一凹降区,它的径向宽度和轴向长度与流场的马赫数焓值以及等离子体参数有关。轴线上Ne的最大值约为4×1010cm-3,最低约为1×1010cm-3。这与在此实验条件下,理论上估算的电子密度值在量级上是一致的。实验中我们发现若Ne涨落大于5倍,则有理由认为这是一种有别于空流场的其它因素在起作用。这些因素通常是由电弧中的引燃电阻丝或放电通道碱金属的污染所致力［6］。
+
+图4　174次流场实验电子密度Ne的三维空间分布
+　　图5是176次实验Ne分布。在轴线处Ne最大值约为10×1010cm-3,最低约为1-2×1010cm-3。我们观测到各探针Ne变化在3-4倍范围之内,Ne的分布与图4的结构基本相同。尤其是近轴线处的凹降区、平台区、指数衰减区、远场区的Ne都有十分明显增加。这说明等离子体密度这种分布形式是电弧风洞流场的特有模式。
+　　比较两种情况可看出,176次Ne约为174次的两倍。Ne随焓值的增加而增大。
+
+图5　176次流场实验电子密度Ne的三维空间分布
+5　结束语
+　　我们研制了一套多道扫描探针测量系统,并应用于FD04风洞空流场物理特性的研究。实验证明,该系统性能可靠、自动化程度和测量灵敏度高,为再现高温流场结构图象提供了一种较好的实验方法。
+　　利用这套系统,我们还研究了空流场及钝锥体尾流场的混沌特性,发现空流场近轴线区湍流随轴向不断发展,渐趋混乱;在径向有湍流度不同的两个区。我们观测到数值计算预言的尾迹流场中,存在拟序结构的自由剪切层。
+*本工作得到航天工业总公司研究基金和中国科学院院长基金的支持
+作者单位：曹金祥　赵红波　林毅君　(中国科学技术大学近代物理系。合肥。230026)　张嘉祥　王洁霞　董永晖　陈光荣　(北京7201信箱。北京。100074)
+参考文献
+　[1]王柏懿.铱丝静电探针及其在高温风洞中的应用.力学学报,1982,14(1)9799
+　[2]Laframboise J G.Theory of spherical and cylindrical Langmuir probe in a collisionless.Maxwellian plasma at rest,AD-634596
+　[3]Chou Y S,Talbot L,Wills D R.Kinetic theory of a spherical electrostatic probe in a stationary plasma,Phys.Fluild,1996,9(11):2150
+　[4]Kirchhoff R H,Peterson E W,Talbot L.An experimental study of the cylindrical Langmuir probe response in the transition regime,AIAA Journal.1971,9(9):1686
+　[5]Sonin A A.The behaviour of free molecule cylindrical Langmuir probes in supersonic flows and application to the study of the blunt body slagnation layer,AD-626451
+　[6]曹金祥,张嘉祥等.一种研究电弧风洞等离子体密度的诊断方法.宇航学报,1996,17(4):75-78
+　收稿日期:1996年8月23日,修回日期:1997年11月21日
+　　

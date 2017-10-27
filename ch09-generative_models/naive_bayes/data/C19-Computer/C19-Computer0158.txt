@@ -1,0 +1,66 @@
+微型电脑应用
+MICROCOMPUTER APPLICATIONS
+2000　Vol.16　No.1　P.62-63
+
+
+
+处理消息环中消息的一种安全方法
+刘华蓥　韩建民　王桂华
+摘　要：本文阐述了Windows下消息映射函数中检测并处理消息的一种安全方法，并给出了程序实例。
+关键词：消息　消息环　消息映射机制　GetMessage PeekMessage DispatchMessage▲
+一、消息、消息环和消息映射机制
+　　Windows 中应用程序和应用程序之间、应用程序和用户之间的通信是靠消息来实现的。消息可以由用户发出，如移动鼠标；也可由系统发出，如建立一个窗口。Windows中的消息是以一定的规则排列起来，这就是消息环。消息环的结构是一个队列，即“先进先出”。在一般Windows程序中，都是由主函数来检测消息环中的消息，然后对它进行翻译，并将翻译过的消息发送到消息指定的窗口，处理完消息后控制从消息处理函数中返回，再取出消息环中的下一个消息，这就是windows编程中的消息映射机制。
+　　消息映射机制是windows编程的基本机制之一，它的优点是编程的结构化；但它也有缺点，就是在处理一个消息的过程中不能检测是否有其它的消息。例如在程序中有一段重复显示动画，或传输文件等时间比较长的操作，如果进程允许被用户中断或终止，进程就必须间或地检测并处理用户发来的消息。要解决此类问题，必须直接对消息环进行操作。本文论述了在Windows环境下，检测和处理消息环中消息的一种安全方法。
+二、消息的检测与发送
+　　1.消息的检测
+　　检测消息环的函数有两个：GetMessage和PeekMessage,这两个函数的区别有两点：(1)如果消息环中没有消息，GetMessage一直等到有消息才返回，而PeekMessage则直接返回，且返回值为0；(2)PeekMessage检测到WM_QUIT没有什么特殊反应，而GetMessage检测到WM_QUIT则返回值为0。
+　　由于在消息环中可能没有消息，使用GetMessage进程会进入循环等待消息的状态。所以用PeekMessage比较安全，PeekMessage用法如下：
+　　BOOL PeekMessage (1pMsg, hWnd, wMsgfilterMin, wMsgFilterMas, wRemoveMsg);
+　　该函数的功能是检测发送给hWnd窗口并且值在wRsgFilterMin和wMsgFilterMax之间的消息，如有，则将消息放入lpMsg指向的MSG结构中。wRemoveMsg是一个标志，它可以是以下值的组合：PM_NOREMOVE(表示经处理后，消息保留在队列中)、PM_REMOVE(表示经处理后，消息不保留在队列中)、PM_NOYIELD(防止向别的任务转让系统资源，但在WIN32中，此参数无效)。
+　　如指定消息没有找到，PeekMessage返回0，否则返回非0值。如果hWnd为NULL，则检测属于本应用程序的所有窗口的消息，如wMsgFilterMin和wMsgFilterMax都为0，则检测发送给指定窗口的所有消息。
+　　取出消息后，滤出有用的消息，由于消息环中的消息没有经过翻译，所以必须在处理之前先翻译一下，再将消息直接处理或发送出去。
+　　2.发送消息
+　　发送消息的函数有三个：PostMessage, SendMessage和DispatchMessage。前两个函数是把消息放入消息环中，而DispatchMessage则直接将消息发送到应该处理此消息的窗口，并且等待将这个消息处理完才返回，所以应该用DispatchMessage来发送消息。
+三、处理消息的安全方法
+　　为了安全检测和处理消息环中的消息，需注意以下几点：
+　　首先，在消息环中可能有很多消息，所以检测消息时应一直检测下去直到没有消息为止。
+　　其次，如果在处理本消息过程中又做了关闭本程序窗口的操作，若不滤掉关闭窗口的消息直接发送出去，而DispatchMessage语句本身又不在函数的末尾，则会导致内存渗漏，窗口关闭了，但程序还在内存中，且无法再对它进行操作。因此，当进程检测到关闭窗口的消息时应先用goto语句到本函数的末尾，再发送关闭窗口的消息。
+　　第三，如果再次在消息环中检测到本消息，并且发送了出去，则会导致二次进入本程序体，从而导致混乱。解决办法是设置一个布尔变量，若该布尔变量为真则表示正在处理本消息。在函数首对此布尔变量进行检测，如为真则直接返回；否则设置为真，处理此消息后在函数尾将它设置为假。
+四、程序实例
+　　下面举例说明一下，如何在应用程序中安全地检测、处理和发送消息。
+　　假设正在处理的消息是ID—EDIT—UNDO, 其中TranslateAccelerator函数的功能是将 加速键翻译成菜单命令并直接将此消息发送到窗口，TranslateMessage函数的功能是将虚拟键消息翻译成字符消息，因与本文无关，不做过多介绍。
+　　void D1View::OnEditUndo0
+{//IsEditUndo 在头文件中的C1View类中定义为BOOL型
+//如IsEditUndo为真，表示正在处理ID_EDIT_UNDO,则不执行任何操作，直接返回
+if(IsEditUndo)return;
+//将IsEditUndo设置为真，表示正在处理ID_EDIT_UNDO
+IsEditUndo=TRUE；
+MSG msg1
+MSG* msg=&msg1;
+BOOL bb,bbb;
+　　　……
+do{ bb=::PeekMessage(msg,NULL,O,O,PM_REMOVE);
+　　bbb=FALSE;
+　　//接收到此消息证明用户选择了系统菜单的关闭窗口的命令
+if(msgmessage==WM_SYSCOMMAND)&&(msgwParm==SC_CLOSE)
+{bbb=TRUE;goto eee;}
+//接收到此消息证明用户选择了File/Exit命令
+else if ((msgmessage==WM_COMMAND)&&(msgwParam==ID_APP_EXIT))
+{bbb=TRUE;goto eee;}
+//接收到此消息证明用户在窗口的右上角的叉号上单击了一下
+else if ((msgmessage==WM_NCLBUTTONDOWN)&&(msgwParam==HTCLOSE))
+{bbb=TRUE;goto eee;}
+else
+{if(::TranslateAccelerator(m_hWnd,AccelTable,msg)==0)
+　　{　::TranslateMessage(msg);
+　　　 ::DispatchMessage(msg);}}}while(bb);
+　　　……
+//将IsEditUndo设置为假，表示已处理完ID_EDIT_UND
+IsEditUndo=FALSE;
+eee:if(bbb==TRUE)
+　　{::TranslateMessage(msg);
+　　 ::DispatchMessage(msg);}}
+五、结束语
+　　消息映射机制是Windows下应用程序的重要组成部分，本文论述了Windows下应用程序开发中对消息进行检测和处理的一种安全方法。在实际应用中，具有一定的普遍意义。■
+作者单位：刘华蓥(大庆石油学院计算机系 安达 151400)
+收稿日期：1999-07-12

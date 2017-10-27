@@ -1,0 +1,102 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+反硝化条件下微生物降解地下水中的苯和甲苯
+吴玉成　钟佐燊　张建立
+摘要：利用实验室含水层物质微环境实验,对地下水中常见有机污染物苯和甲苯在厌氧反硝化条件下的微生物降解进行了研究.通过10种方案实验结果的分析对比表明,在强化反硝化条件下,微生物利用NO3- 作为电子受体降解苯和甲苯;降解苯和甲苯的反硝化细菌来自于含水层物质;微生物所需要的宏量营养由苯、甲苯和硝酸盐提供,而微生物所需要的其他痕量元素来自于含水层物质;环境的酸碱条件对微生物降解具有重要影响,pH值过高(pH>10)或过低(pH<4)均抑制微生物降解过程的进行.这些结论对研究地下水有机污染及其生物治理具有一定的理论和实际指导意义.
+关键词：地下水有机污染；苯；甲苯；反硝化条件；微生物降解
+中图分类号：X131.1 文献标识码：A
+Microbial degradation of benzene and toluene in groundwater under enhanced denitrifying condition.
+WU Yu-cheng
+(Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing 100080,China)
+ZHONG Zuo-xin　ZHANG Jian-li
+(Department of Environmental Science,China University of Geosciences,Beijing 100083, China). China Environmental Science. 1999,19(6)：505～509
+Abstract：The biodegradation of benzene and toluene was studied by aquifer material microcosm experiment in laboratory under enhanced denitrifying conditions. Based on the analyses and contrast of the experiment results, the following important conclusions were obtained. Microorganisms can utilize nitrate as electron acceptor to degrade benzene and toluene under enhanced denitrifying conditions; the denitrifers come from the aquifer material; the macro-nutrient microorganisms needed is provided by the benzene, toluene and nitrate and the trace elements come from the aquifer material; environmental conditions have great effect on biodegradation of benzene and toluene and the pH inhibits biodegradation strongly when it is too high (pH>10) or too low (pH<4).
+Key words：groundwater organic pollution；benzene；toluene；denitrifying condition；microbial degradation
+　　石油及各种燃料油的溢洒与泄漏以及地下储油设施(罐)的渗漏导致地下水遭受芳香烃污染在全球范围内日渐严重,其中苯和甲苯等单环芳香烃污染物最受人们关注,因为它们均是石油及各种燃料油中水溶性最好的化合物,构成了地下水中最为常见的有机污染物.受芳香烃污染,地下水对人们的健康构成了严重地威胁,苯对人体具有致癌作用[1-4],苯和甲苯百万分之一致癌概率含量分别为0.67、1mg/L[5].因此,关于地下水遭受芳香烃污染及其治理已成为水文地质学者和环境学者研究的热点问题之一,其中如何去除污染物、恢复含水层是最受关注的重点.
+　　地下水有机污染自70年代中后期才开始引起人们的普遍重视,目前尚无成熟且经济有效的治理方法.在以往治理地下水有机污染的工作中,抽出处理方法(pump and treat method)被普遍采用,但这种方法不仅耗时而且费用极其昂贵,因此,自80年代以来,人们一直在寻求和探索治理地下水有机污染更为经济有效的技术.生物治理(bioremediation)技术就是其中的一种,尽管这种技术目前尚不十分成熟,但它是利用地下水环境中的微生物降解有机污染物的一种技术,可以施行原位治理,并以其技术可行和成本相对低廉而被人们普遍接受[5,6],具有广泛的发展前景.
+　　反硝化条件下有机污染物的微生物降解是反硝化细菌在厌氧条件下利用有机污染物作为自身生长繁殖的碳源与能源,以硝酸根(NO3-)作为电子受体,将有机污染物降解为无害产物如CO2和H2O等的过程.在近20年的时间里,国外特别是欧美等国家的许多学者在这方面开展了大量的研究和探讨[7-12],而国内在这方面的研究尚未见报道.本研究利用含水层物质、通过室内模拟实验,在加强反硝化条件下对地下水中常见有机污染物苯和甲苯的微生物降解性及其影响因素进行了研究,旨在为开发地下水有机污染生物治理技术提供科学依据.
+1　含水层物质微环境实验
+1.1 实验物质及微环境的形成
+　　含水层物质取自北京西郊永定河冲积扇地面以下2m处.实验所用苯、甲苯和硝酸钾等均为北京化工厂生产的分析纯.实验用水为地质大学(北京)自备井地下水.
+　　微环境采用70mL具塞磨口三角瓶,瓶中加入湿含水层岩样20g.为模拟含水层污染羽状体中的厌氧环境,首先采用高纯氮气通过曝气技术制备厌氧基液,并将装有含水层岩样的微环境置于厌氧箱中进行充分曝气,最后在厌氧箱中形成微环境.
+1.2 实验方案
+　　反硝化菌生长繁殖过程中,以有机碳作为碳源和能源,以NO3-作为电子受体.依据反硝化条件下有机污染物微生物降解定量关系式[4],根据加入苯和甲苯的量确定出所加苯和甲苯全部降解对NO3-的理论需求量,同时考虑若干要素设计了10种实验方案(表1).在不同方案中分别加入足量(理论需求量)NO3-、半量NO3-和不加NO3-进行实验.在方案7的微环境中加入HgCl2,用于无菌控制.
+表1 含水层物质微环境实验方案
+Table 1 Schemes of aquifer material microcosm experiment
+实验
+方案微环境要素
+无岩样有岩样蒸馏水地下水加入苯加入
+甲苯足量
+NO3-半量
+NO3-不加
+NO3-加
+HgCl2pH>10pH<4
+1v　v　vvv　　　　　
+2v　　vvvv　　　　　
+3　vv　vvv　　　　　
+4　v　vvv　　v　　　
+5　v　vvv　v　　　　
+6　v　vvvv　　　　　
+7　v　vvvv　　v　　
+8　v　vvvv　　　v　
+9　v　vvvv　　　　v
+10　v　v　　v　　　　　
+
+1.3 苯和甲苯微生物降解的监测
+　　按所制定的10种方案共制备10组100个微环境,将这些微环境置于15± 2℃的环境中避光保存.通过定时检测微环境中苯、甲苯和NO3-的浓度变化判断微生物降解是否发生,每进行一次检测,用掉一批微环境,照此实验共持续64.4d.对苯和甲苯采用气相色谱检测,利用硝酸根电极法测定NO3-.
+2　结果与讨论
+2.1 在强化反硝化条件下苯和甲苯的降解
+　　实验结果(表2)显示,在方案3、5、6中,苯的去除率分别为85%,60%,82%,甲苯的去除率分别为94%,52%,86%,同时NO3- 在3个方案中的去除率均为99%.实验过程中,苯和甲苯的去除与NO3- 的去除具有一致的对应关系,见图1中(3),(5),(6).这说明实验中发生了反硝化作用,反硝化细菌利用苯和甲苯中的有机碳作为自己生长繁殖的碳源与能源,使其得以降解去除.方案7的实验结果从相反的角度说明了这一问题,在方案7中,苯、甲苯和NO3- 的去除率要低得多,这是因为微环境中加入的HgCl2几乎杀死了反硝化细菌,反硝化作用无从发生,所以苯、甲苯和NO3- 几乎不被去除,见图1中(7).而在方案10中,未加入苯和甲苯,结果NO3- 始终不被去除见图1中(10),其原因是缺少有机碳源,反硝化菌无法生长繁殖,反硝化作用不发生.在方案4中,尽管有苯和甲苯作为微生物生长繁殖的碳源与能源,但由于NO3- 含量很低(仅11.2mg/L,为地下水背景值),无足够的电子受体,反硝化作用也无法进行,故苯和甲苯不被去除,见图1中(4).
+表2 各方案中苯、甲苯、NO3-的去除百分率 (%)
+Table 2 Percent depletion of benzene and toluene in individual scheme (%) 
+实验方案苯甲苯NO3-
+初值(mg/L)终值(mg/L)去除率初值(mg/L)终值(mg/L)去除率初值(mg/L)终值(mg/L)去除率
+138.4935.50842.6737.6112443.9369.217
+239.5638.80243.5345.000443.9352.620
+338.495.598542.672.594443.94.499
+442.1539.75649.9543.791211.20.992
+530.9212.386032.7815.8452189.90.899
+639.566.908243.535.9886443.92.899
+736.2524.573237.6730.2420443.9414.37
+832.1125.042237.4331.3916443.9414.37
+925.1420.421928.0323.6216464.8386.617
+10　　　　　　404.9386.64
+
+
+
+图1 各实验方案苯、甲苯和NO3- 随时间变化
+Fig.1 Benzene,toluene and nitrate versus time in individual experiment scheme
+图1中各图(10除外)左纵坐标表示苯和甲苯浓度;右纵坐标为NO3- 浓度(mg/L);横坐标表示时间(d)
+　　苯和甲苯在方案5中的去除率明显低于方案3和6中的去除率,其原因是在方案5中加入的NO3- 仅相当于理论需求量的一半,当NO3- 被耗尽以后,反硝化作用无法继续进行,故有苯和甲苯只去除60%和52%的实验结果.然而,通过对比可以发现,在方案5中,降解发生的滞后期要比在方案6中的短,见图1中(5),(6),究其原因可能是反硝化菌长期生长在低NO3- 浓度的环境中,对于相对低的NO3- 浓度更易于适应的缘故.
+2.2 反硝化菌源对苯、甲苯生物降解的影响
+　　实验结果显示,苯、甲苯和NO3- 在方案1,2中几乎不被去除,见图1中(1),(2),而在方案3和6中均得以去除.方案1与方案3相比及方案2与方案6相比,只是存在微环境中加与未加含水层岩样的区别,其它条件完全相同,但方案1,2中不发生反硝化作用,方案3和方案6中却发生反硝化作用,由此可以推断,降解苯和甲苯的反硝化细菌来自于含水层物质. 
+2.3 营养物及环境条件对微生物降解的影响
+　　方案3采用蒸馏水配制基液、方案6采用地下水配制基液,在这2个方案中,除在基液中加入苯、甲苯和NO3- 外,并未加入其它营养物质,实验均产生了反硝化作用.从而说明,反硝化细菌所需要的宏量营养物质如碳、氢、氧、氮等来自所加入的苯、甲苯和硝酸盐,至于微生物所需要的其他痕量元素如锰、铁、铜等由含水层物质提供.
+　　发生在地下水环境中的微生物降解作用严格受各种环境条件控制和影响,作者特别对环境酸碱条件的影响进行了实验研究.结果表明,方案8,方案9中苯、甲苯和NO3-几乎不被去除,见图1中(8),(9),说明环境中的pH值过高(pH>10)或过低(pH<4)均抑制微生物降解作用的进行.所以,进行野外研究时,深入研究各种环境条件尤为重要,对于因各种污染造成pH值过高或过低的场地施行生物治理时,需考虑加入适量缓冲物质调节pH值,以利于微生物降解进行.
+3　结论
+3.1 在强化的反硝化条件下,微生物可利用NO3- 作为电子受体降解苯和甲苯.在遭受芳香烃污染的含水层中,缺少足够的电子受体是地下水污染羽状体中苯和甲苯长期存在的重要原因之一.
+3.2 通过对各种方案实验结果分析对比证明,降解苯和甲苯的反硝化细菌存在于含水层物质中.
+3.3 环境的酸碱条件对微生物降解有重大影响,pH值过高(pH>10)或过低(pH<4)均抑制微生物降解作用的产生.
+3.4 微生物所需要的宏量营养由苯、甲苯和NO3- 提供,痕量元素来自于含水层物质.
+基金项目：国家自然科学基金资助项目(49772159)
+作者简介：吴玉成(1960-),男,辽宁锦州人,中国科学院大气物理研究所博士后.主要从事水资源、水环境和气候变化对水文水资源影响的研究工作,发表论文6篇.
+作者单位：吴玉成　中国科学院大气物理研究所,北京 100080
+　　　　　钟佐燊　张建立　中国地质大学环境科学系,北京100083
+参考文献
+　[1]　Edwards E A,Dunja Grbic-Galic. Complete mineralization of benzene by aquifer microorganisms under strictly anaerobic conditions [J]. Applied and Environmental Microbiology,1992, 58(8):2663- 2666.
+　[2]　Rael J, Shelton S, Member,et al. Permeable barriers to remove benzene: candidate media evaluation [J]. Journal of Environmental Engineering,1995/May:411- 415.
+　[3]　Kazumi J, Caldwell M E, Suflita J M, et al. Anaerobic degradation of benzene in diverse anoxic environments[J]. Environmental Science &Technology,1997,31(3):813- 818.
+　[4]　Ball H A, Reinhard M. Monoaromatic hydrocarbon transformation under anaerobic conditions at seal beach,California: Laboratory Studies [J]. Environmental Toxicology and Chemistry, 1996, 15(4):114- 122.
+　[5]　Niaz Mohammed, Allayla R I, Nakhla G F, et al. State-of-art review of bioremediation studies [J].J.Environ.Sci.Health, 1997,A31(7):1547- 1574.
+　[6]　Noonan D C, Curtis J T. Groundwater remediation, petroleum [M]. Michigan:Lewis Publishers,1990.
+　[7]　Kuhn E P, Colberg P J, Schnoor J L, et al. Microbial transformations of substituted benzenes during infiltration of river water to groundwater:Laboratory Column Studies [J]. Environ.Sci. Technol.,1985,19(10):961- 968.
+　[8]　Zeyer J, Kuhn E P, Schwarzenbach R P. Rapid microbial mineralization of benzene and 1,3-dimethylbenzene in the absence of molecular oxygen [J]. Applied and Environmental Microbiology,1986, 52(4):944- 947.
+　[9]　Kuhn E P, Zeye J R, Eicher P, et al. Anaerobic degradation of alkylated benzene in denitrifying laboratory aquifer columns [J]. Applied and Environmental Microbiology, 1988, 54(2): 490- 496.
+　[10]　Chih-Ming Kao,Borden R C. Site-specific variability in BTEX biodegradation under denitrifying conditions [J]. Ground Water,1997, 35(2):305- 311.
+　[11]　Major D W, Mayfield C I, Barker J F. Biotransformation of benzene by denitrification in aquifer sand [J]. Ground Water,1988, 26(1):8- 14.
+　[12]　Hutchins S R, Downs W C, Wilson J T, et al.. Effect of nitrate addation on biorestoration of fuel-contaminated aquifer:Field Demonstration [J]. Ground Water,1991, 29(4): 571- 580.
+收稿日期：1999-02-10

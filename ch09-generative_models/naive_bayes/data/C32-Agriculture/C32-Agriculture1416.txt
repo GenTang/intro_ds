@@ -1,0 +1,40 @@
+东北农业大学学报
+JOURNAL OF NORTHEAST AGRICULTURAL UNIVERSITY
+1999年　第30卷　第2期　Vol.30 No.2 1999
+
+
+
+用于膨化—浸油的大豆挤压膨化初步试验研究*
+申德超　张　敏　王德福　李淑琴
+摘要　通过试验研究，探讨了用于膨化——浸油的大豆挤压膨化系统参数——挤压套筒温度、模孔孔径、物料水份、螺杆转速，对考察指标——膨化后、浸前的膨化物的粗脂肪和浸后的残油率、氮可溶解指数、脲酶活性的影响。指出：1)膨化后的大豆应将其温度降至50℃～60℃时，即可进入浸出器。否则，存放时间长，使柏的残油率增加。2)只要大豆挤压膨化系统参数选择合适，有可能使原设备的浸出能力提高100%。
+关　键　词　大豆，膨化—浸油，挤压
+中图分类号　S226　　文献标识码A
+THE INITIAL TEST STUDY ON SOYBEAN EXTRNDATE USED AS EXTRNSION-SOLVENT EXTORACTION
+Shen Dechao, Zhang Min, Wang Defu, Li Suqin｝
+(Northeast Agriculftural Uncersity　Harbin　150030,PRC)
+ABSTRACT
+　　The influence of parameters of extrusion system upon research indexes was studed in this paper. These parmeters include the temperature of barrel, diameter of die nozzle, the moisture of material and the speed of screw. Above indexes include the soybean fat after extruded and before solvent extracted, the ration of residual oil ,the soluble index of nitnegen and the activity of urease in flakes and extruded soybean. Studed results are as follows:
+　　1、Extruded soybeans may be delivered into extractor when the temperature of extruded soybeans was droped down to 50℃～60℃. The ratio of the residual oil of flakes and extruded soybeans will be increased along with time when they are stored is prolonged.
+　　2、If parameters of soybean extrusion system are quantified reasonably, the capacity of solvent extracton of original extraction equipment will be risen 100%.
+　　KEY WORDS：Soybean/ expansion solvent extraction oil extrude
+0　问题提出
+　　1962年美国学者用挤压膨化方法处理米糠，1966年申报了专利。60年代中期这种机型销往巴西、委内瑞拉、墨西哥等国，巴西在此基础上研究了大豆挤压膨化—浸油技术。70年代中期这项技术又传到美国〔1〕。
+　　80年代中后期，我国开始研制油料膨化化设备，1991年湖北、湖南研制成功处理量为250 kg.h-1的米糠挤压膨化机。随后，湖北安陆粮食机械厂、武汉粮食机械厂分别研制了处理量为30～50 t/d的油料挤压膨化机。1993年中国农机院研制出YJP—180油料膨化机，处理量为100 t/d，这些设备均可使原设备浸出能力提高20%～30%。而国外机型可使原设备的浸出能力提高近100%〔2〕。我省有的工厂盲目测绘、仿制国外的大豆挤压膨化机，但使用效果不佳。
+　　我省大豆年产量约占有全国年总产量一半，且每年约有一半产量的大豆用于制油。可见制油是大豆深加工的主要方式。目前国内应用大豆膨化——浸油技术的油厂甚少。为使该项技术在我省、我国得到普遍应用，使我国的大豆膨化——浸油技术赶上世界先进水平。有必要研究大豆挤压膨化系统参数对各考察指标的影响。
+1　试验设备、材料和方法
+　　试验设备为自制的单螺杆挤压膨化机和浸油试验台。挤压膨化机由组合式套筒和螺杆组成。试验所用螺杆由套在主轴上的3节螺杆组成。套筒由4节筒组成。螺杆转速为0～1200 r.min-1无级可调。第2，3，4节套筒温度为0～300℃连续可调，配有数显仪表、闭环自控系统。挤压机模孔的孔径有级可调。其生产率为200～250 kg.h-1。自制的浸油试验台由上下分置的两个油桶和置于其间的浸出器组成。上面的油桶盛待进入浸出器的6号溶剂油。下面的油桶盛从浸出器中流出的含有豆油的6号溶剂油。浸出器由恒温水浴装置和盛料筒组成。料筒置于水浴装置中间，其下面装有编织片(40目)。其温度与水浴装置中水温一致。浸出器装有闭环自动温控系统，控制水温和料筒(包活筒中的试验浸出物料)的温度为57±1℃
+　　试验材料：1)三棵树油厂的豆胚(已轧好，待浸油)。厚度为0.10～0.30 mm，含油率为19.33%。2)大豆(本校饲料厂购进)，粉碎。平均粒径为0.725 mm。大豆膨化前含油率为19.63%。含水率9.30%～11.20%。膨化后大豆为柱状，其散碎粉粒的平均粒度为1.263 mm。
+　　分析方法：大豆脂肪的测定，按GB2906—82规定的有关步骤进行检测。大豆粗蛋白、水溶性蛋白和氮可溶解指数测定，按GB5511—85规定的有关步骤进行检测。脲酶的测定，按GB/T14932.2—94中规定的pH增值法，进行检测。
+2　试验结果和分析
+2.1　第1轮试验
+　　1997年1～3月，进行了初步试验，试验物料：1)三棵树油厂的豆胚。2)粉碎后的大豆粉粒，水份调至18%～20%。挤压机参数为：螺杆转速N=250 r.min-1，套筒温度T=125℃，模板孔径Φ=8 mm。试验结果见表1。
+2.2　试验结果
+2.1.1　浸出时间增加，残油率下降。膨化大豆的残油率高于大豆轧胚的残油率。
+表1　试验结果
+Table1　Test resnults
+浸出时间(min)
+Time used as solvent 
+extracting oil残油率(%)
+Ratio of residual oil
+轧　　胚
+Soybean flakes膨　化　物<

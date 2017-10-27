@@ -1,0 +1,104 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+
+水蒸汽流化下煤气化气态污染物释放研究*
+2.污染物生成与脱硫过程综合模型
+赵　浮　李定凯　吕子安
+(清华大学煤的高效低污染燃烧国家重点实验室，北京　100084)
+　　摘要 将蒸汽流化下煤气化污染物生成及脱硫这一复杂物理化学过程分解为3个基本过程：流态化过程、煤热解及污染物生成过程、焦气化及脱硫过程，并在已有的对单一过程研究的基础上建立起基于煤种和实验条件的综合过程模型.模型参数通过预测值与实验值的比较加以确定，将参数估计的结果应用于综合模型，预测值与实验数据基本符合.
+　　关键词 煤气化；污染物生成；脱硫；综合模型.
+1 前言
+　　蒸汽流化下煤气化污染物生成及脱硫是一个复杂的物理化学过程，已有的研究者提出的热解、气化模型少数虽考虑了污染物，但只是作为附带部分，与实验有较大差异.本文在一个小型煤气化实验台得到的数据基础上，尝试用以下方法建立模型：将复杂过程分解为几个研究相对较多的单一过程，即热解——污染物生成过程、气化及脱硫过程、流态化过程.综合过程应基本上遵循以上单一过程的规律，因而可以采用单一过程模型的联合来实现模型化.由于所研究过程的运行条件与建立单一过程模型时有所差异，模型参数必然发生变化，需要用实验数据优化确定各单一模型中的主要参数来反映综合过程的特点及单一过程间的相互影响.本文建立的模型可以作为对联产工艺气化室污染物排放量及脱硫效果预测的基础，并且对设计煤气后处理工艺及进行环境影响评价也有一定指导意义.
+2 综合模型的建立
+2.1 流态化模型
+　　采用简化两相流态化模型［1］.
+2.2 污染物生成模型
+　　对煤热解气化过程的已有研究表明，气态污染物主要来源于煤中含硫、含氮化合物的热解，而目前对该过程尚无统一认识.一般认为，含氮化合物主要是杂环化合物吡咯类和吡咯烷类，释放的主要污染物是氨和氰化氢［2］.煤中的硫元素可以大致分为3类：有机硫、黄铁矿硫 和硫酸盐硫.煤中的有机硫以各种复杂化合物形式存在［3］，并有不同的反应活性：占40%—70%的噻吩、硫茚、苯并噻吩及其甲基衍生物，反应性差，800℃后开始发生大量的分解；直链硫醚、硫醇及其盐类，小于400℃即开始分解并很快分解完全；芳香硫醇、环硫醇、环硫醚及其它芳基硫化物，500—600℃时开始分解，但直到700℃时才会得到较高的转化率.随着成煤年代的增加，噻吩类硫化合物含量逐渐增多.含硫化合物的热解产物主要为H2S、COS和CS2，后两者是H2S二次反应产物，在750℃以后开始出现，并且随温度的升高含量逐渐增大，在温度不是很高的情况下，它们的含量一般不会超过气态硫化物总量的20%.黄铁矿硫(FeS2)是一种化学不稳定物质，在惰性气氛下受热发生分解产生FeS和聚合大分子硫Sn，在550—600℃的温度下，该反应速度变得很大；在还原性气体存在的情况下，FeS2可被分解还原为FeS，其中与H2的反应在高于500℃时变得十分重要，而与CO的还原反应在温度低于800℃的时反应速度非常低.以上反应生成的FeS非常稳定，只有在温度达到900℃以上时，才会比较明显的发生二次反应［4］.因此在联产工艺气化室条件下，二硫化铁主要发生惰性热分解及与氢气的气化反应，主要产物是硫化亚铁，一般不会发生二次分解.煤中的硫酸盐硫含量小0.1%，少数在0.2%—0.3%，可以忽略它们的反应.
+　　为描述污染物的生成，本文以被广泛采用的Solomon官能团(FG)模型［5］为基础.假定组成煤的官能团独立分解产生轻质气体，其动力学参数仅和官能团种类有关而与煤种无关.同时，煤中的桥结构热断裂，释出大分子碎片形成焦油.将干燥无灰基煤用单位矩形代表，X轴分为可生成焦油部分X和不生成焦油部分(1-X)，X0为可生成焦油部分初始值；Y轴根据官能团组成分成各部分，每部分初始值为Y0i，显然Y0i=1.
+　　热解过程中某一时刻未反应的第i种官能团份额：
+　　　　Wi=(1-X0+X)*Yi　　　　　　　　　　　　　　　　　　　　　(1)
+　　第i种官能团释放出气体的速率用Yi的一阶减小表示：
+　　　　dYi/dt=-ki*Yi　　Yi=Y0i*exp(-ki*t)　　　　　　　　　　　(2)
+　　可生成焦油部分的反应速率用X的一阶减小表示：
+　　　　dX/dt=-kt*X　　　X=X0*exp(-kt*t)　　　　　　　　　　　　(3)
+　　ki,kt为反应常数，符合Arrhenius关系，科学研究化能分布f(Et)、f(Ei)满足高斯分布.
+　　可以推导出某一时刻第i种官能团生成气体的速率为：　
+　　　　　(4)　
+　　Solomon模型比较准确的描述了煤热解的动力学过程，但提供的已知反应动力学参数的官能团中不包含有机硫化合物，只包括生成氨和氰化氢的官能团，对污染物热解过程的描述是不完整的.根据有机硫的存在形态和实验条件及Kelemen等［6］对Argonne烟煤有机硫热解的反应动力学的研究，本文将有机硫官能团分为易反应和难反应两种，反应动力学参数由实验确定.
+2.3 焦的气化与脱硫反应模型
+　　如前所述，反应器中二硫化铁主要发生气化反应，徐永生等探讨了这一反应过程，并建立了经验速度方程，详见文献［4］.
+　　当向反应器投加脱硫剂时，有反应：CaO+H2S=CaS+H2O
+　　Davies等［7］的研究表明，脱硫反应经历了一个气体反应物在固体表面的吸附解吸过程，假定反应表面是理想的，且形成吸附中间物的过程达到平衡，反应的归一化反应速度表达式通常可以写作Langmuir－Hinsherwood式：
+　　　　　　　　　　　　　　　　　　　　　　　　(5)
+式中，r——归一化反应速率，1/s；kW——表面反应速度常数，mol/(m2*s)；k——气体反应物H2S在CaO颗粒表面的吸附、解吸速率比的平衡常数，m3/mol.
+　　考虑到扩散和水蒸汽对反应平衡的影响，H2S的反应速度为：
+　　　　　　　(6)
+式中，m0——初始CaO总质量，kg；S——颗粒的总BET表面积，m2/kg，为简单计取S=(1-α)*S0；CH2S——H2S浓度，kmol/m3；CEH2S——H2S平衡浓度，kmol/m3；η——反应有效性系数，反映了扩散阻力的影响.
+对于球形颗粒，有
+　　　　　　　　　(7)
+式中，d——CaO颗粒直径，m；ρp——CaO颗粒密度，kg/m3；De——H2S在CaO颗粒中的有效扩散系数，m2/s.
+　　实际上，脱硫剂煅烧后生成的CaO具有复杂的孔隙结构，反应在孔隙表面进行，使孔隙结构发生变化.这里引入一个当量孔半径re，由单孔模型得［8］：
+　　　　De=D0*ε/τ　　　　　　　　　　　　　　　　　　　　(8)
+式中，ε——颗粒孔隙率；τ——曲折因子；D0——单孔中H2S有效扩散系数，m2/s.
+　　　　1/D0=1/Dm+1/Dk　　　　　　　　　　　　　　　　　　　(9)
+　　Dm——分子扩散系数，m2/s；Dk——纽森扩散系数，m2/s；，T为温度(K)，M为H2S分子量.
+　　　　　　(10)
+　　显然，若假定孔隙为圆筒形微孔，有式中，ε0——CaO颗粒初始孔隙率；VCaS，VCaO——CaS和CaO的摩尔体积，m3/mol.
+2.4 综合模型
+　　在上述单一过程模型基础上，建立时间一维，空间两相零维的综合过程模型.对污染物的质量平衡式积分，可以得到污染物释放速率，详见文献［9］.
+3 模型参数的确定
+　　理论上所有的模型参数均可通过实验数据加以确定，但实际上只需对影响过程较显著的参数进行估计.这里选取的是生成各污染物的官能团份额及个别反应动力学参数以及硫化氢所氧化钙表面反应的频率因子.考虑到污染物浓度的测量值含有较大相关随机误差，本文以Box－Draper行列式取代最小二乘准则［9］：
+　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(11)
+　　式中，yj(i)u为第u次测量得到的第j(i)种组分的测量值，ηj(i)u为对应的模型预测值.u=1,2,…,n;j(i)=1,2,…,k.n为总测量次数，k为一次测量得到的测量值个数，这里k=3.
+　　用DSFD方法［10］对行列式BD进行最小化求解，可以得到模型参数，结果见表1.
+表1 参数估计结果
+Table 1 Results of parameter estimation
+
+名　　称符号单位红庙1号西露天
+直链硫化合物官能团可燃基份额Y012—0.00060.00063
+噻吩类硫化物官能团可燃基份额Y013—0.00540.0058
+可生成硫化氢的二硫化铁应用基含量Y014—0.00130.0021
+易释放HCN官能团可燃基份额Y015—0.000140.0003
+难释放HCN官能团可燃基份额Y016—0.000690.0014
+生成氨的官能团可燃基份额Y017—0.00290.00345
+噻吩类硫化物官能团反应频率因子k13s-12.375×109
+难释放HCN官能团反应频率因子k16s-18.09×1010
+生成氨的官能团反应频率因子k17s-16.05×1011
+脱硫表面反应频率因子kwmol/(m\+2*s)7.2×10-3
+
+4 数值模拟与实验结果的比较
+　　将以上参数及其它单一过程模型参数和辅助实验测得的物性参数代入综合模型，可以对各实验工况下的污染物产率和脱硫效果进行模拟.这里选取了几个工况进行检验.图1是红庙1号和西露天矿二种实验用褐煤在不同温度下污染物硫化氢、氨、氰化氢产率的模型预测值与实验结果的对比.Fc为给煤率，Fw为流化蒸汽流量.图2是红庙1号在850℃下脱硫效果的比较.
+　　以上将识别结果代入综合模型后，对几种实验工况进行了数值模拟，并与实验数据进行了比较，模型预测值与实验结果的趋势是一致的，误差在20%以内.误差的主要来源于以下几个方面：(1)污染物在煤气中所占份额很小使浓度的测量误差较大.(2)模拟中未考虑硫化氢在较高温度时有一部分转化为氧硫化碳和二硫化碳.(3)污染物释放采用Solomon模型为基础，但未考虑煤颗粒的升温速率和传质阻力，以及采样系统存在一定的滞后，使流量模拟值的上升要快于实验值.(4)脱硫过程对氧化钙颗粒的孔隙特性作了相当的简化，并且它包含了硫化氢释放过程的误差累计，因而差距大一些.
+
+图1 污染物流量比较
+(Fc=3.0kg/h 　Fw=3.0kg/h)　　(图中S为模型预测值，E为实验测量值)
+Fig.1 Comparison of pollutant yields between model prediction and experimental data
+
+图2 脱硫效果预测值与实验值的比较
+(Fc=3.0kg/h Fw=3.0kg/h)
+Fig.2 Comparison of extent of sulphur capture between model prediction and experimental data
+5 结论
+　　(1) 用Langmuir－Hinsherwood反应描述脱硫反应，对于不同的硫化氢浓度，均可使模型预测值与实验结果较好符合.
+　　(2) 在单一过程模型的基础上建立综合模型，并通过实验数据确定模型参数，是对一个复杂过程进行分析的有效方法.
+　*国家重点实验室开放课题基金(950011)资助项目
+参考文献
+　1 Kunni D,Levenspiel O.Fluidized reactor models:1.For bubbling beds of fine.Ind Eng Chem Res,1990,29(7):1226
+　2 Nelson P F,Kelly M D,Wornat M J.Conversion of fuel nitrogen in coal volatiles to NOx precursors under rapid heating conditions.Fuel,1991,70(3):403
+　3 Davidson R M.Orgnic sulphur in coal,IEACR/60,Aug.1993,IEA Coal Research,London:39～44
+　4 徐永生.煤气化过程硫转化机理的探讨.煤气与热力，1992，12(5)：15
+　5 Solomon P R,Serio M A,Sunberg E R.Coal pyrolysis:experiments,kinetic rates and mechanisms.Energy Combustion Science,1992,18(1):220
+　6 Kelemen S R,Vaughn S N,Gorbaty M L et al.Thermal reactivity of sulphur forms in coal.Fuel,1992,72(5):645
+　7 Davies N H.Limestone as a desulphurisung sorbent in power generating systems,Ph.D Thesis,University of Cambrige,1994
+　8 葛庆仁.气固反应动力学.北京：原子能出版社，1991：11—46
+　9 赵　浮，李定凯.水蒸汽流化下煤热解气化中污染物释放与脱硫综合模型及参数识别方法研究.燃烧科学与技术，1996，2(2)：161
+　10 沈幼庭，何锦英.热力系统及设备最优化.北京：机械工业出版社，1985：154—174
+GASEOUS POLLUTANTS EMISSION DURING COAL GASIFICATION IN A STEAM FLUIDISED BED
+2.COMPREHENSIVE MODEL ON POLLUTANTS FORMATION AND SULPHUR CAPTURE
+Zhao Fu, Li Dingkai, Lü Zi'an
+(State Key Laboratory of Efficient and Clean Combustion of Coal,TsinghuaUniversity,Beijing 100084)
+ABSTRACT The pollutants formation and retention of hydrogen sulphide by limestone during coal pyro-lysis and gasification in a steam fluidised bed is a complicated process.In order to develop a comprehensive model to simulate the process,it is considered that the entire process consists of three basic processes:fluidisation,pollutant formation during coal pyrolysis and gas－solid reaction between H2S and CaO during gasification.Because these basic processes have been studied in detail,the comprehensive model can be established.Based on comparison between the experimental results and the model predictions,the major parameters of the model were estimated.When the parameters were applied to predict the yields,a good fit of the model to the experimental data has been obtained.
+Keywords coal gasification， pollutant formation， sulphur capture， comprehensive model.
+1996-07-08收到原稿
+1996-12-04收到修改稿

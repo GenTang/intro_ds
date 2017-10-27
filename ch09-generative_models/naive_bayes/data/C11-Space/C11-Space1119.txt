@@ -1,0 +1,54 @@
+航空工艺技术
+AERONAUTICAL MANUFACTURING TECHNOLOGY
+1999年 第1期 No.1 1999
+
+
+
+DZ22小孔旁疲劳裂纹扩展的试验研究
+
+李其连　陆业航
+　　[摘要]　研究了DZ22合金带小孔试样的疲劳裂纹扩展过程，给出了孔旁裂纹扩展速率da/dN与应力强度因子ΔK之间关系的试验曲线，并对断口形貌进行了分析。
+　　关键词： 高温合金　小孔　疲劳　微裂纹　裂纹扩展
+Growth of Fatigue Cracks in Ni-Base Superalloy DZ22
+　　[ABSTRACT]　The fatigue crack growth behavior of microcracks of nickel_base superalloy DZ22 with hole is discussed in this paper. The crack growth rate da/dN versus stress intensity factor ΔK curve is presented. The appearance of fracture is also analyzed.
+　　Keywords: Superalloy　Hole　Fatigue　Microcrack　Crack growth
+　　高推比航空发动机某些重要部件(如叶片、燃烧室)需要采用特种加工方法制造许多直径小于1?mm的气膜孔，而这些部件常处于热应力和机械应力等交变载荷的共同作用下，容易发生疲劳失效。小孔造成应力集中，孔周由于制造工艺不当易产生微裂纹，这种微裂纹的存在必然对叶片的疲劳过程起着关键性的作用。因此，研究小孔旁裂纹疲劳扩展行为能加深对孔加工工艺的重要性的认识。
+1　试验方法
+　　本试验采用DZ22定向结晶镍基高温合金制备试样。热处理工艺为：1 210℃×2 h/氩气快冷+870 ℃×32 h/氩气快冷。其光学金相组织如图1所示，可以看出合金的主要组成相有γ固溶体、γ′相、碳化物。
+
+图1　试样的光学金相组织
+Fig.1　Microstructure of DZ22
+　　试样工作部分截面宽11 mm、厚2 mm，采用特种加工方法在试样中心线上制备直径0.5 mm的小孔，理论应力集中系数为2.87，孔周存在微裂纹。孔周微裂纹深度在10～70 μm之间，典型分布见图2。
+
+图2　微裂纹沿孔周分布
+Fig.2　Microcracks around the hole
+　　对试样进行了轴向加载高周疲劳试验，载荷比R=0.1，频率f=90 Hz。试验过程中记录了循环周次和裂纹长度，计算了da/dN及ΔK。疲劳破坏后对断口进行了扫描电子显微镜形貌观察，分析了疲劳裂纹的扩展特性。
+2　试验结果及分析
+2.1　疲劳裂纹起源
+　　宏观上看，所有试样的断口均经过小孔，见图3。扫描电子显微镜断口观察表明，孔周微裂纹作为疲劳源在交变载荷作用下直接扩展导致试样断裂，见图4。
+
+图3　疲劳裂纹形状
+Fig.3　Fatigue crack path morphology
+
+图4　断口典型形貌
+Fig.4　Typical appearance of fracture
+2.2　疲劳裂纹扩展特性
+　　断口分析表明，临近孔边裂纹扩展速率较快，这与孔的应力集中及可能存在的残余应力有关，也与适当的晶体学取向的晶粒内裂纹尖端高的循环应变有关。微裂纹作为线源向基体纵深方向发展，经过孔边较快扩展后，裂纹沿解理面稳定扩展。随着裂纹的扩展，断面的粗糙度提高，这与净面积减小、载荷上升、塑性变形增加是一致的。分析表明，解理面为(111)面。由于DZ22为定向结晶材料，枝晶粗大，因而裂纹在单个晶粒内的扩展距离较长。J.N.Eastabrook, P.D.Hobson, K.J.Miller和J.Lankford指出，小裂纹的扩展阻力主要来自裂纹前缘不同取向晶粒的晶界，这样必然导致粗晶材料内高的小裂纹扩展速率，本试验的孔旁裂纹扩展速率为da/dN数据也说明了这一点。
+　　从图4可以看出，扩展区大部分呈解理状，说明滑移只限于{111}〈110〉滑移带中特定取向的(111)面，这与室温下低ΔK值时位错交滑移及靠热激活的位错攀移困难有关。变形不均匀导致疲劳裂纹扩展较快。这也说明并不是所有微裂纹都会在交变载荷的作用下扩展并导致疲劳破坏，只有那些特定取向、符合微观组织(如晶界、第二相粒子)和微观力学(如微观塑性、滑移带)环境的微裂纹才会造成疲劳破坏。因此，控制微裂纹的深度并不一定能有效延长疲劳寿命，试验结果也证明了这一点。导致疲劳破坏的疲劳源即深度在10～70 μm之间的微裂纹，并不一定是所在孔中的最大者，甚至在试样疲劳破坏后有微裂纹还未见有任何扩展现象。
+　　图5为da/dN与ΔK关系的试验曲线。可以看出，裂纹扩展过程中，初始时裂纹扩展速率较高，延后放慢，接着稳定上升，这与上述分析是一致的。
+
+图5　da/dN与ΔK关系曲线
+Fig.5　Variation of fatigue crack growth rate da/dN 
+with ΔK at R=0.1 and cyclic frequency of 90 Hz
+3　结束语
+　　(1)取向合适的微裂纹在低ΔK下也会扩展，微裂纹的存在必将大大降低构件的疲劳性能。改善微裂纹的分布状况有助于满足有限寿命设计的航空部件的要求。
+　　(2)微裂纹的扩展涉及微观组织及微观力学中的许多因素，并且各因素可能交互作用，值得进一步研究。
+
+作者单位：李其连　陆业航（北京航空工艺研究所）
+
+参考文献
+[1] King J E. Fatigue crack propagation in Ni_base superalloys_effects of microstructure, load ratio, and temperature, Materials Science and Technology, 1987,3:750～764
+[2] Webster G A. High temperature fatigue crack growth in superalloy blade materials. Materials Science and Technology, 1987,3:716～725
+[3] Gallagher J P. The role of crack growth life prediction in aircraft. Materials Science and Technology, 1988,A103: 29～36
+[4] Hicks M A. Pickard A C. Life prediction in turbine engines and the role of small cracks. Materials Science and Technology, 1988,A103:43～48
+(责编　小　目)

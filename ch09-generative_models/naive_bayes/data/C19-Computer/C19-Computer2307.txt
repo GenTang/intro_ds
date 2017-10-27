@@ -1,0 +1,95 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+联机手写体汉字识别后处理技术的研究
+徐志明　王晓龙　张凯　关毅
+摘　要　文中提出了一种规则和统计相结合的计算语言模型应用于联机手写体汉字识别后处理的技术，把基于统计的大词表Markov语言模型与语言规则量化模型，通过词网格技术集成在一个语言解码器.这种后处理方法由3个阶段组成：词网格生成、语言解码、基于Cache的自学习机制.语言解码器采用Viterbi搜索算法求解最优语句候选.该项技术已应用于HPC(手持机)手写电脑的联机汉字手写体识别系统中，汉字识别率为91.3%.
+关键词　Markov语言模型，词网格，联机手写体汉字识别 
+中图法分类号　TP391.4
+A POST PROCESSING METHOD FOR ONLINE HANDWRITTEN
+CHINESE CHARACTER RECOGNITION
+XU Zhi-Ming, WANG Xiao-Long, ZHANG Kai, and GUAN Yi
+(Department of Computer Science and Technology,Harbin Institute of Technology, Harbin　150001)
+(Department of Computer,The Hong Kong Polytechnic University,Hong Kong)
+Abstract　Proposed in the paper here is a new post processing method integrating the rule-based grammar and the Markov language model for online handwritten Chinese character recognition. The Markov language model and the quantification rules model are bound to a linguistic decoder by word lattice. The post processing kernel engine consists of three stages: word lattice formation, linguistic decoder,and cache-based self-learning mechanism. The linguistic decoder adopts Viterbi search algorithm to search the best sentence hypothesis. The introduced technique has been applied to HPCs online handwritten Chinese character recognition,with a recognition accuracy rate of 91.3% achieved.
+Key words　Markov language model, word lattice, online handwritten Chinese character recognition
+1　引　　言
+　　联机手写输入是一种良好的人机通信方式，它具有简捷、自然的特点.联机手写体汉字识别一直是智能计算机接口的研究重点.典型的联机手写体汉字识别系统一般由两个部件组成：前端识别器和语言解码器.前端识别器根据联机输入的手写体汉字的特征生成带有概率（可信度）的候选汉字矢量序列；语言解码器应用语言模型对前端识别器生成的候选汉字矢量序列进一步择优解码.语言解码器的语言模型一般可分为基于统计和基于规则两种主流方法［1］.基于统计的Markov语言模型适合处理非受限域大规模真实文本，在语音识别、文字识别和文本校对等领域有着广泛的应用［2，3］，但由于计算机的时间和空间的局限性，只能建立低阶Markov模型，这样仅能处理语言的近邻约束关系，不能处理远距离的语言约束关系和语言递归现象；基于规则的语言模型适合处理受限域文本，能处理远距离语言约束关系和语言递归现象，但不适合处理大规模开放语料，难以反映复杂多变的语言现象.因此统计语言模型和规则文法两者有各自的优点和缺点，同时又存在着较强的互补性.因此许多研究者把两者捆绑起来形成一个混合语言模型［4，5］.统计语言模型和规则文法结合的方法一般有两种，一种方式为把统计信息加入到规则文法中，形成概率文法；另一种方式为通过规则量化把规则加入到统计模型.本文采用规则量化方法来捆绑这两种语言模型，并采用词网格技术把Markov统计语言模型和量化的语言规则集成在一个联机手写体汉字识别的后处理系统中.
+2　联机手写体汉字识别的统计语言模型
+　　设联机手写体汉字识别的前端识别器生成带有可信度的候选汉字矢量序列A=A1A2…Am,其中Ai为第i个候选汉字矢量.每个候选汉字矢量Ai对应一组候选汉字.语言模型的任务为根据候选汉字矢量序列A，输出可能性最大的的汉字序列C=C1C2…Cm，即具有最大后验概率p(C/A)的语句候选C：
+　　　　　　　　　　　　(1)
+根据Bayes公式：
+　　　　　　　　　(2)
+由于p(A)与C无关，则：
+　　　　　　　　(3)
+　　其中p(A/C)为联机手写体汉字识别系统的前端识别器生成的可信度（识别距离）；p(C)则由联机手写体汉字识别系统的后处理语言模型提供.语句候选C=C1C2…Cm代表的语句按某种汉字切分算法可以切分成相应的词序列C=W1W2…Wk，假设当前词只与前n-1个词有关，可建立n元文法，即n-1阶Markov语言模型.P(C)可由下面的公式计算：
+　　　　(4)
+　　设词典为D，n元文法的参数空间为|D|n,由于计算机的时间和空间的局限性，只能建立低阶Markov模型，这样统计语言模型只能处理语言的近邻约束关系，对语言的远距离约束关系就无能为力了.当n=1,2,3时，n元文法分别称作Unigram,Bigram和Trigram.
+　　由于语言模型的训练语料不可能无限大，许多合理的语言现象在训练语料中没有出现，导致数据稀疏问题.本文采用线性插值算法进行了数据平滑处理.
+3　词网格和规则量化
+　　定义1. 形如A1+A2+…+At→B的短语规则，称为t元规则. 其中Ai(1≤i≤t)称为属性.由短语规则构成的集合，称为规则集.由属性构成的集合，称为属性集.
+　　定义2. 元素可递归地定义如下：
+　　设系统词库为D，属性集为A，规则集为R.
+　　(1) 如果单词w∈D,则w是元素，且有属性Attr(w)A
+　　(2) 如果有单词w1,w2,…,wt∈D，且属性A1∈Attr(w1),A2∈Attr(w2),…,At∈Attr(wt)，且有规则A1+A2+…+At→B∈R，则词串〈w1,w2,…，wt〉构成一个元素，且有属性B.并称A1+A2+…+At→B∈R为激活规则.
+　　当且仅当（1），（2）构成语言元素，记为e.
+　　一个元素对应一棵树.它的根节点为其元素本身，它的子节点为生成它的子元素，所有叶节点均为词典中的词，该元素的词列表为Wordlist(e)={W1W2…Wn}.由此可见元素相当于所在句子的语法分析树的一颗子树.
+　　设联机手写体汉字识别系统的前端识别器生成的候选汉字矢量序列为A=A1A2…Am, 其中Ai为第i个候选汉字矢量.每个候选汉字矢量Ai对应的一组候选字生成一列字节点，所有的候选汉字矢量的候选汉字形成m列字节点.利用系统词典对相邻列的可组词的字节点捆绑成词节点，挂在该词的尾字所在的列.再利用规则把相邻的符合规则的节点捆绑成语言元素挂在该元素的尾字所在的列，形成语言元素节点，最后把所有相邻列的节点用有向边连接起来，生成一个有向图，称作词网格.其中包含语言元素节点的词网格，称作元素网格.图1是词网格的示意图.
+
+
+图1　词网格示意图
+　　定义3.词网格中的一条路径，称作语句候选.在元素网格中，一个语句候选为从开始时刻到结束时刻的首尾相连的元素节点序列，S=(e1e2…en)，其中ei由一条规则捆绑一组相邻词生成,其词列表为:Wordlist(ei)={Wi1Wi2…Witi}.
+　　语言解码器的任务是从词网格中找一条最优的路径（语句候选）.词网格中的最优路径可以用A启发式图搜索算法或Viterbi搜索算法选出.本文采用Viterbi搜索算法求解最优的语句候选，语句候选的评价函数为：
+f(S)=λp(e1e2…en)=λ1p(e1)．λ2p(e2/e1)…λnp(en/e1e2…en-1)　　　　(5)
+　　其中λi为规则的权值调整系数，与Wordlist(ei)的长度成正比，λ为规则和统计的拟和参数，可通过训练语言模型做最优化调整.p(ei/e1e2…ei-1)可以用下面的公式计算：
+　　(6)
+　　当统计语言模型为Bigram:
+　　　　(7)
+　　下面举例说明，如测试语句：“一个漂亮可爱的猫”.假设规则库有如下规则：
+　　rule1.AP+%的+NP→NP
+　　rule2.AP+AP→AP
+　　首先使用规则rule2把“漂亮”和“可爱”捆绑为形容词短语AP=“漂亮可爱”，然后使用规则rule1把“漂亮可爱”、“的”和“猫”捆绑为名词短语NP=“漂亮可爱的猫”，最后把“一”、“个”和“漂亮可爱的猫”用统计语言模型Bigram连接起来，构成一个语句候选.该语句候选的概率为p(s)=p(一)p(个/一)p(漂亮可爱的猫/个)，其中p(漂亮可爱的猫/个)可用公式(7)计算.通过计算所有的语句候选，选择其中p(s)概率最大的语句候选“一个漂亮可爱的猫”作为最终识别结果.由此可见使用规则可以处理语言中远距离约束关系和语言的递归现象.
+　　从以上叙述可以看出，词网格构成了语言解码器的搜索空间，规则用来生成词网格的语言元素，它相当于把语法分析的中间结果表示成元素节点，对符合规则的路段进行加权处理，对不符合规则的路段则单纯用统计模型计算，这样规则文法和Markov统计语言模型通过词网格结合在一个联机手写体识别的后处理语言模型中，共同指导求解最优的语句候选，这样形成的后处理语言模型具有统计模型和规则文法双重的优点，它可以处理语言的远距离约束关系和语言递归现象.
+4　联机手写体汉字识别后处理算法
+　　图2为联机手写体识别后处理的结构图，联机手写体汉字识别后处理的核心算法由3个阶段组成.首先词网格生成模块生成词网格，构成语言解码器的搜索空间.然后语言解码器用Viterbi搜索算法选出具有最大概率的路径（语句候选），为语言解码器的识别结果,再经过人的联机校正成为正确的句子，输出到Cache自学习模块.最后Cache自学习模块根据用户校正的句子修改相应的Unigram Cache库和Bigram Cache库,调整系统适应用户的习惯.
+
+
+图2　联机手写体识别后处理结构图
+4.1　词网格生成模块
+　　词网格生成模块根据联机手写体汉字识别的前端识别器生成的候选汉字矢量序列生成词网格.词网格生成模块由3步组成.首先遍历所有的候选汉字生成全部的字节点，然后遍历所有的字节点，把相邻列的可组词的字节点全部捆绑成词节点，最后遍历所有的节点，把相邻的可匹配一条规则的节点全部捆绑成语言元素节点.所有的节点按其结束时刻进行排序，最后生成的词网格构成了语言解码器的搜索空间.
+4.2　语言解码模块
+　　语言解码模块的任务是从词网格中选出最优的路径（候选句子）.本文采用Viterbi算法求解词网格中的最优路径.这一阶段，前端识别器生成的候选汉字的可信度通过加权系数可以和语言模型的概率结合起来，规则和统计通过规则加权系数可以结合起来，Cache和统计库中的概率通过Cache加权系数结合起来，共同指导求解最优语句.这些系统参数需要仔细调整以保证系统的可靠性.
+4.3　基于Cache的自学习模块
+　　Cache是一种短期记忆机制.它由一组用于学习的概率组成，数据来源于用户联机校正的句子，数据存储格式与相应的Unigram和Bigram相同.语言解码器工作时，Cache中的概率通过加权可以和系统语言模型的概率结合起来，Cache的加权系数同系统的学习率成正比.
+5　实　　验
+　　这是联机手写体汉字识别后处理的实验.采用1993、1994年人民日报通讯稿作为语言模型的训练语料（2000万字）.基于65000词的Bigram和Unigram作为Markov语言模型.语料采用最少分词切分算法进行切分.前端识别器采用哈尔滨工业大学计算机系的“豪文”联机手写体汉字识别系统［6］，系统规则库包括2508条人工编辑的词法规则、短语规则.实验选取5个人的联机手写的数据，每个人写10句话,每句话平均长度为11.5个汉字，平均识别率为91.3%.实验结果如表1表示.
+表1　实验结果
+
+前端识别器第1个候选为正确字的平均识别率70.6%
+前端识别器前10个候选包括正确字的平均识别率86.5%
+前端识别器前20个候选包括正确字的平均识别率96.2%
+前端识别器前30个候选包括正确字的平均识别率99.7%
+手写体汉字识别后处理平均识别率（仅用统计）90.1%
+手写体汉字识别后处理平均识别率（统计+规则）91.3%
+
+
+　　通过实验可以看出前端识别器的首选正确率较低，前30个候选包括正确字的正确率接近100%，加上手写体汉字识别后处理的识别率比前端识别器的首选识别率明显提高，这说明手写体汉字识别后处理算法具有较强的识别能力.仅用统计模型与统计和规则结合的混合模型相比，系统汉字识别率相差大约一个百分点，这说明规则的命中率和规则的覆盖度均有待于进一步提高，以便能更好地改善统计语言模型的性能. 
+6　结束语
+　　本文提出了一种规则与统计相结合的计算语言模型应用于联机手写体汉字后处理的技术，把基于统计的大词表Markov语言模型与语言规则量化模型通过词网格技术集成在一个联机手写体汉字识别后处理系统.该系统具有处理语言的远距离搭配关系和语言的递归现象的能力，实验结果表明这种后处理方法是有效的.该技术不仅可以直接应用在联机手写体识别领域，还可应用于印刷体汉字识别、脱机手写体汉字识别、中文校对、语音识别和智能拼音输入法等领域中.
+本课题得到国家“八六三”高技术计划基金资助（项目编号863-306-03-02-1）.
+作者简介：徐志明，男，1967年10月生，博士研究生，主要从事手写体汉字识别、自然语言理解方面的研究.王晓龙，男，1955年3月生，教授，博士生导师，主要从事人工智能和自然语言理解的研究.张凯，男，1964年6月生，博士后，主要从事语音识别方面的研究.关毅，男，1970年4月生，博士研究生，主要从事汉语计算语言模型的研究.
+作者单位：徐志明　王晓龙　张凯　关毅　哈尔滨工业大学计算机科学与技术系　哈尔滨　150001
+　　　　　王晓龙　香港理工大学计算机系　香港
+参考文献
+　1　王轩.语音文字输入中的计算语言模型的研究〔博士论文〕.哈尔滨工业大学计算机科学与技术系，哈尔滨，1997.60～70
+(Wang Xuan.The research of computational language model of speech and character input(in Chinese).Department of Computer Science and Technology of Harbin Institute of Technology,Harbin,1997.60～70)
+　2　Sproat R.An application of statistical optimization with dynamic programming to phonetic-input-to-character conversion for Chinese,In:Proc of R O C Computational Linguistics Conf Ⅲ.Taiwan, 1990.379～390
+　3　Ueberla J. Analyzing and improving statistical language models for speech recognition. School of Computer Science of Simon Fraser University, Vancouver,British Columbia,Canada,1994.15～25
+　4　Chen S F.Building probabilistic models for natural language, Department of Computer Science of Harvard University,Cambridge,1996.4～9
+　5　Golding A R. A Bayesian hybrid method for context-sensitive spelling correction. In: Proc of the Third Workshop on Very Large Corpora. Cambridge,1995.39～53
+　6　唐降龙，舒文豪，刘家丰等.联机手写体汉字联想识别系统.信息与控制，1991,20(5):18～21(Tang Xianglong,Shu Wenhao,Liu Jiafeng et al.The system of online handwritten Chinese character recognition based on association.Information and Control(in Chinese),1991,20(5):18～21
+原稿收到日期：1998-06-22
+修改稿收到日期：1999-01-21

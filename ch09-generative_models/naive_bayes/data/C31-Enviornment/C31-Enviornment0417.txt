@@ -1,0 +1,121 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+苯甲酸类光催化降解和羟基自由基反应的关系
+张彭义　余　刚　蒋展鹏
+摘要：研究了13种苯甲酸类化合物在固定膜平板反应器中的光催化降解,探讨了光降解速率与化合物结构之间的定量关系（QSAR）,同时分析了苯甲酸类化合物和羟基自由基反应的速率常数与结构的关系.结果表明,Hammett常数(σ)和摩尔对数溶解度(lgS)是影响苯甲酸类光降解速率lgK的重要因素,其定量关系式为:lgK=- 0.309s +0.125lgS- 2.612,苯甲酸类与羟基自由基反应的定量关系式为lgKOH=- 0.414s +9.816,证实了羟基自由基在苯甲酸类光催化过程中的重要作用.
+关键词：光催化降解；羟基自由基反应；苯甲酸类；定量结构活性关系(QSAR)
+中图分类号：X13 文献标识码：A 文章编号：1000- 6923(1999)03- 0193- 04
+Relationship between photocatalytic degradation of benzoic acids and reaction with hydroxyl radical.
+ZHANG Peng-yi,YU Gang,JIANG Zhan-peng
+(State Key Joint Laboratory of Environmental Simulation and Pollution Control, Department of Environmental Science and Engineering, Tsinghua University, Beijing 100084,China) . China Environmental Science. 1999, 19(3)：193～196
+Abstract：The photocatalytic degradation of 13 benzoic acids in the fixed-film-flat-plate reactor was investigated, and quantitative relationship between photocatalytic degradation rate and structure of compounds was analyzed, as well as the quantitative relationship between the reaction rates of benzoic acids with hydroxyl radical and their structures. The results showed that Hammett constant σ and logarithm of water solubility (lgS) are two important factors affecting the photocatalytic degradation rates of benzoic acids, with formula:lgK=-0.309s+0.125lgS- 2.612 and the quantitative relationship for reactions with hydroxyl radical is lgKOH= -0.414s+9.816.The key role of hydroxyl radical in the photocatalytic degradation of benzoic acids has been confirmed.
+Key words：photocatalytic degradation；hydroxyl radical reaction；benzoic acids；quantitative structure-activity relationship(QSAR)
+　　自70年代以来,水中污染物的光催化氧化过程成为国内外环境科学的研究热点.众多的研究证明了水中大多数污染物光催化降解的可能性和可行性[1],一般认为羟基自由基等活性基团攻击水中污染物是光催化降解的初始反应[2].然而,对于污染物光催化降解速率与其结构间定量关系(QSAR)的研究并不多见,羟基自由基在光催化过程中的作用也未进行具体分析.本文选择苯甲酸类为研究对象,在研究光催化降解基础上建立光降解速率与理化参数间的定量模型,并和这类有机物与羟基自由基反应的特性相比较,分析光催化降解反应的机理和影响因素.
+1 实验部分
+1.1 试验装置
+　　光催化降解试验的装置如图1所示的固定膜平板型反应器.通过酸性条件下沉积Degussa P25 TiO2在反应平板上形成固定的二氧化钛膜,平板的水平倾角为10° .采用4个20W的黑光灯为辐射光源.黑光灯平行固定在铝制抛物线槽的顶部,后者平行放置在平板的正上方.
+
+图1　平板反应器示意
+Fig.1 Schematic of flat-plate reactor
+1.2 试验方法
+　　研究的13种苯甲酸类污染物见表1.分别配制浓度约为0.1 mmol/L(由于对苯二甲酸的溶解度较小,初始浓度为0.03mmol/L)的水溶液,将此溶液倒入储槽并打开循环水泵使溶液在反应器中循环混合均匀,然后将循环流量调节到500L/h;打开黑光灯,同时开始计时;取反应时间为0、10、30、60、115和120 min时的水样,用Shimadzu LC10A型高效液相色谱(HPLC)分析, 并计算样品中污染物的浓度.HPLC的分析条件为:分析柱CLC-C8,ID6mm×15cm,柱温30℃;流动相为0.02 mol/L的KH2PO4和甲醇(体积比40:60),流速为1.00ml/min;样品进样量5m L.
+表1　苯甲酸类光催化降解速率常数和半衰期
+Table 1 Photocatalytic degradation rate constants and half life of benzoic acids
+化合物反应速率常数 (min-1)半衰期t1/2 (min)化合物反应速率常数 (min-1)半衰期t1/2 (min)
+邻氯苯甲酸0.00187370邻羟基苯甲酸0.00152457
+间氯苯甲酸0.00172403间羟基苯甲酸0.00214324
+对氯苯甲酸0.000611130对羟基苯甲酸0.00160432
+邻硝基苯甲酸0.000581186邻苯二甲酸0.00129538
+间硝基苯甲酸0.00131527间苯二甲酸0.000681013
+对硝基苯甲酸0.000471465对苯二甲酸0.00076906
+苯甲酸0.00157442
+
+2　结果与讨论
+2.1 苯甲酸类光催化降解动力学
+　　采用作图法确定污染物的光催化降解动力学及速率常数,即将不同反应时间的浓度与反应时间作图,并进行曲线拟合.分析表明,可用指数方程较好地拟合实验数据,苯甲酸类化合物在固定膜平板反应器中的光催化降解可以用一级反应动力学描述.图2显示了拟合得到的邻氯苯甲酸光催化降解动力学和速率常数.由表1可见,苯甲酸类化合物的光催化降解速率有较大区别,最大相差4倍以上.
+
+图2　邻氯苯甲酸的光催化降解动力学
+Fig.2 Photocatalytic degradation kinetic of o-chlorobenzoic acid
+2.2 苯甲酸类光催化降解的QSAR [3, 4]
+　　表2列出了苯甲酸类化合物的光降解速率常数对数lgK、Hammett常数σ、常温下的摩尔溶解度对数lgS.
+　　回归分析表明,苯甲酸光催化降解速率常数lgK与σ、lgS之间具有较好的相关关系,相关方程分别为:
+lgK= - 0.374σ- 2.847 （1）
+R=0.631 Sig.=0.028 n=12 
+lgK= - 0.1571gS- 2.633 （2）
+R=0.653 Sig.=0.021 n=12 
+式中:R为相关系数;Sig.为显著性系数;n为样本数.
+　　对lgK与σ、lgS的二元回归分析表明,苯甲酸类光降解速率常数lgK与σ、lgS有较好的线性关系,得到的回归公式为:
+lgK=- 0.309s +0.1251gS- 2.612 （3）
+R=0.832 Sig.=0.009 n=12
+　　式(1)～ (3)表明,当苯环上取代基的给电子能力越强(σ越小),则有利于光降解,呈现亲电反应特征;化合物的水溶性越大也有利于光催化降解.亲电反应是羟基自由基攻击有机物的途径之一,由于羟基自由基与有机物间很快的亲电反应速率使得反应趋于受传质控制,而溶解度较大的反应物易于扩散到催化剂表面与羟基自由基反应,因此反应速度较快.
+表2　苯甲酸类化合物的理化参数
+Table 2 Physicochemical property of benzoic acids
+化合物名称lgKσlgS化合物名称lgKσlgS
+对硝基苯甲酸-3.3250.778-2.83邻羟基苯甲酸-2.819-0.20-1.88
+邻硝基苯甲酸-3.2330.950-1.38苯甲酸-2.8050.0-1.66
+对氯苯甲酸-3.2120.238-3.31对羟基苯甲酸-2.795-0.37-1.24
+间苯二甲酸-3.1650.370-3.11间氯苯甲酸-2.7640.373　
+对苯二甲酸-3.1160.450-4.02邻氯苯甲酸-2.7280.20-1.87
+邻苯二甲酸-2.890　-1.49间羟基苯甲酸-2.6700.12-1.18
+间硝基苯甲酸-2.8810.710-1.72　　　　
+
+2.3 苯甲酸类与羟基自由基反应的QSAR
+　　水中有机物与羟基自由基的反应已有较多研究,文献[5]中有大量的苯甲酸类物质与羟基自由基反应速率数据,将其归纳整理列于表3.
+表3　苯甲酸类物质与羟基自由基的反应速率及其理化参数
+Table 3 Reaction rate constants of benzoic acids with hydroxyl radical and physicochemical properties
+化合物KOH*σlgS化合物KOH*σlgS
+苯甲酸5.90-1.624邻羟基苯甲酸8.6-0.20-1.885
+邻氨基苯甲酸11-0.17-1.593对硝基苯甲酸2.60.778-2.843
+间氨基苯甲酸8.8-0.16-1.366对甲基苯甲酸8-0.17-2.609
+对氨基苯甲酸16-0.66　对苯二甲酸3.30.45-4.016
+邻甲氧基苯甲酸5.4-0.37-1.4832,6-二甲氧基苯甲酸6.6-0.74　
+间甲氧基苯甲酸6.60.12　2,3-二甲氧基苯甲酸10-0.25　
+对甲氧基苯甲酸7.2-0.27-2.583,5-二甲氧基苯甲酸70.24　
+对羟基苯甲酸9-0.37-1.2432,4-二甲氧基苯甲酸10-0.15　
+邻碘苯甲酸4.50.21　3,4-二甲氧基苯甲酸12-0.15　
+间碘苯甲酸2.90.35　2,4,5-三甲氧基苯甲酸7-0.52　
+对碘苯甲酸2.50.18　2,3,4-三甲氧基苯甲酸10-0.52　
+邻氯苯甲酸5.90.20-1.8723,4,5-三甲氧基苯甲酸13-0.03　
+间氯苯甲酸5.30.373-2.5922,4,6-三甲氧基苯甲酸12-1.01　
+对氯苯甲酸50.238-3.3082-羟基-5-甲氧基苯甲酸18-0.08　
+对溴苯甲酸3.20.23　4-羟基-3,5-二甲氧基苯甲酸16-0.13　
+对氟苯甲酸3.60.056　4-羟基-3-甲氧基苯甲酸14-0.25　
+
+注:* KOH单位为109M-1s-1
+　　苯甲酸类物质的羟基自由基反应速率lgKOH和化合物理化参数间相关性分析表明,lgKOH与σ、lgS均有显著的相关性(在0.01水平显著相关).图3为羟基自由基反应速率随Hammett常数σ的变化趋势,呈明显的负相关,这说明当亲电基团取代苯甲酸时能加快与羟基自由基的反应速率,表明苯甲酸及其取代物与羟基自由基的反应为亲电反应.
+　　对lgKOH的二元回归分析没有得到符合显著性检验的结果.因此苯甲酸类物质与羟基自由基反应的速率与理化参数的定量关系只能分别用σ和lgS来表示:
+lgKOH = 0.166lgS+10.182 （4）
+R=0.666 Sig.=0.009n=14
+lgKOH = - 0.411s +9.816 （5）
+R=0.643 Sig.<0.001 n=32 
+
+图3　羟基自由基反应速率与σ的关系
+Fig.3 Change of rate constant with hydroxyl radical over σ
+2.4 讨论
+　　分析表2中lgK和表3中对应化合物的KOH的关系时发现,光催化降解速率lgK与lgKOH(与羟基自由基反应的速率)显著相关(相关系数R=0.782),这说明苯甲酸类物质的光催化降解过程与羟基自由基反应有密切关系.
+　　在分析苯甲酸类物质的光催化降解以及其与羟基自由基反应的QSAR时,考虑的理化参数除σ和lgS外,还包括正辛醇/水分配系数、酸离解常数pKa、一阶分子连接性指数等参数.研究结果表明,无论是光催化降解反应还是与羟基自由基反应,与反应速率(lgK或lgKOH)相关的理化参数主要为σ和lgS.进一步说明光催化降解过程与羟基自由基反应之间存在密切的关系.
+　　从得到的定量关系式来分析,由式(1)可知,苯甲酸类物质的光催化降解速率与σ负相关,即苯环上给电子基团能加快降解速率,表明催化降解为亲电反应;同时已表明苯甲酸类与羟基自由基反应也为亲电反应.比较回归公式(1)和式(5),可以看出两式中σ的系数(相当于Hammett方程中的系数ρ)都较小(分别为-0.374和-0.411),表明反应过程中包括自由基中间体.
+　　从上述可以推断,苯甲酸类的光催化降解过程主要是羟基自由基反应机理,羟基自由基在苯甲酸的降解过程中起了重要作用.
+3　结　论
+3.1 在固定膜平板反应器中,苯甲酸类化合物光催化降解可用一级动力学描述.
+3.2 苯环上取代基团的给电子性能和化合物的水溶性是影响苯甲酸类光催化降解速率的重要因素,其定量关系式为:
+lgK=- 0.309s +0.125lgS- 2.612
+R=0.832 Sig.=0.009 n=12
+3.3 苯甲酸类与羟基自由基的反应表现出较强的亲电反应特性,具有以下关系: 
+lgKOH = - 0.411s +9.816
+R =0.643 Sig.<0.001 n=32
+3.4 苯甲酸类物质的光催化降解过程中羟基自由基起了重要作用.
+基金项目：高等学校博士学科点基金资助项目(9500346);国家自然科学基金资助项目(59778018)
+作者简介：张彭义(1970-),男,浙江余姚人,清华大学环境科学与工程系讲师,博士,主要从事水的高级氧化技术研究、挥发性有机物的生物处理、环境现场评估等.曾参加“染料工业废水综合治理技术与工艺研究”、“草浆造纸废水处理中日合作研究”、“太阳光激发半导体催化处理工业废水和光反应器的研究”、“中国环保产业投资背景分析”、“典型染料的催化臭氧化研究”、“因特网上环境信息资源研究”等研究工作.发表论文14篇.
+作者单位：（清华大学环境科学与工程系,环境模拟与污染控制国家联合重点实验室,北京100084）
+参考文献：
+[1]Ollis D F, Al-Ekabi H. Photocatalytic purification and treatment of water and air [M]. Amsterdam: Elsevier, 1993.
+[2]Turchi C S, Ollis D F. Photocatalytic degradation of organic water contaminants: mechanisms involving hydroxyl radical attack [J]. Journal of Catalysis, 1990, 122:178-192.
+[3]Corwin Hansch, Albert Leo. Substituent constants for correlation analysis in chemistry and biology [M]. New York: John Wiley and Sons, 1979.
+[4]Karel Verschueren. Handbook of environmental data on organic chemicals [M]. 2rd New York: Van Nostrand Reinhold Company, 1983.
+[5]Buxton G V, Greenstock C L, Helman W P, et al. Critical review of rate constants for reaction of hydrated electrons, hydrogen atoms and hydroxyl radicals (.OH/.O-) in aqueous solution [J]. J. Phys. Chem. Ref. Data, 1988, 17(2):513-844.
+收稿日期：1998-09-02

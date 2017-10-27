@@ -1,0 +1,75 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第5期 Vol.19 No.5 1999
+
+
+
+滆湖磷迁移模型方程的重新推导
+——兼与《滆湖磷迁移模型的研究》一文作者商榷
+左其亭　赵会强　王中根　谈　戈
+　　［编者按］　“学报”是广大作者、读者进行学术交流的桥梁.为活跃学术气氛，我们本着“百花齐放，百家争鸣”的方针，尝试着开辟一小块讨论园地，不定期地对一些不尽相同的学术观点展开讨论.希望读者见仁见智、各抒己见，以达到互相切磋、深入探讨、共同提高的目的.
+　　本期发表的左其亭同志一篇来稿，是针对我刊1998年第一期刊登的黄文钰等同志撰写的“滆湖磷迁移模型的研究”一文所写的讨论稿.
+摘要　根据物质平衡原理对滆湖磷迁移模型方程进行推导、旨在与《环境科学学报》1998年1期发表的“滆湖磷迁移模型的研究”一文的作者进行商榷.
+关键词　滆湖；磷迁移模型；重新推导.
+Rederivation of equation of phosphorus migration model in gehu lake
+——Also discuss with authors of the paper 《Modeling of phosphorus migration in gehu Lake》
+ZUO Qiting (Hebei Institute of Architectural Science and Technology, Handan,056038)
+ZHAO Huiqiang (The Water Conservancy Department of Hebei Province, Shijiazhuang 050011)
+WANG Zhonggen TAN Ge (Wuhan University of Hydraulic and Elecric Engineering,Wuhan,430072)
+Abstract　According to the theory of matter equilibrium, the model of phosphorus migration in Gehu lake was built in the paper 《Modeling of Phosphorus Migration in Gehu Lake》［1］,and was verified in paper ［1］.But we find problem of equation (1) and (2) in paper [1].And we rederive equation of phosphorus migration model in Gehu Lake. 
+Keywords　Gehu Lake,phosphorus migration model, rederivation.
+　　《滆湖磷迁移模型的研究》［1］一文，根据物质平衡原理，建立了滆湖磷迁移模型，并对模型进行求解、检验.我们在借鉴该文成果的过程中，发现该文式(1)、式(2)在推导结果上存在问题.本文根据物质平衡原理重新对滆湖磷迁移模型方程进行推导.
+1　文［1］中建立的磷迁移模型
+　　文［1］分别建立了可溶性磷(TDP)、颗粒磷(PP)、叶绿素a(A1)、水草(A2)和鱼类(A3)等5个生态模型来描述磷在湖体各要素中的动态变化.我们仅讨论其中的第一个式子，即文［1］中式(1).原表达式如下：
+　　(1)
+式中，CTDP——湖水中可溶性磷浓度(mg/L);
+　　　t——模拟计算的时段(d)；
+　　　Q1——起始时湖泊的容积(m3)(原文中使用符号Q0;为了与流量符号区别，换成V0为好)；
+　　　Q1——入湖河道入湖的水量(m3/d);
+　　　Q2——湖区径流入湖的水量(m3/d);
+　　　Q3——湖面降水量(m3/d);
+　　　Q5——湖泊出湖水量(m3/d);
+　　　CTDP0——起始时湖水中可溶性磷浓度(mg/L);
+　　　CTDP1——入湖河道水中可溶性磷浓度(mg/L);
+　　　CTDP2——入湖径流水中可溶性磷浓度(mg/L)；
+　　　CTDP3——湖面降水中可溶性磷浓度(mg/L)；
+　　　CTDP5——出湖水中可溶性磷浓度(mg/L)；
+　　　I1——底泥可溶性磷的释放速率(mg/(m2.d))；
+　　　S——湖底的面积(m2)；
+　　　CA1——湖水中Chla的浓度(mg/m3);
+　　　CA2——湖体中水草现存量(kg/m2)；
+　　　r1——Chla的增长率(1/d);
+　　　r2——水草的增长率(1/d);
+　　　a1p——Chla的含磷量(ppm);
+　　　a1p——水草的含磷量(ppm);
+　　　Cpp——湖水中颗粒磷浓度(mg/L)；
+　　　k1——颗粒磷向可溶性磷的转化系数(1/d);
+　　　k2——水草从水中吸收磷的系数(%)；
+　　　T——水温(℃).
+2　磷迁移模型方程的重新推导
+　　根据物质平衡原理，我们只给出可溶性磷(TDP)的模型推导过程.其它模型依此类推.
+　　设湖泊水体为一个系统.针对该系统，任何物质(如水份、盐份、可溶性磷等)迁移转化都符合物质平衡原理.针对TDP平衡，有
+　　　　　　　　(2)
+针对水量平衡，有
+　　　　　　　　　　　　　(3)
+式中，V——湖泊水体体积(m3);
+　　　QIni——系统第i个途径入湖的水量(m3/d);
+　　　QOuti——系统第i个途径出湖的水量(m3/d);
+　　　CIni——系统第i个途径入湖的可溶性磷浓度(mg/L);
+　　　ΔW——其它途径引起可溶性磷的改变量(g/d)；
+　　式(2)、(3)是平衡方程一般式，对任何湖泊都适用.只是对不同的湖泊，式(2)、(3)各项式取值不同而已.针对滆湖，运用文［1］中成果，式(2)、(3)中几项有如下关系：
+　　(4)
+　　　　(5)
+　　　　　　　　　　(6)
+　　根据函数求导，又有如下关系式：
+　　　　　　　　(7)
+　　把以上式(2)、(3)、(4)、(5)、(6)、(7)结合起来，并考虑在有限的时段Δt内(原文［1］取Δt=1(d)，湖泊水体积变化率.于是，可得如下方程式：
+　　　　(8)
+　　式(8)是一个微分方程式，再加上初始条件就可以求解.把式(8)式与(1)式相对，文［1］不仅作了不必要的简化，而且，在式(1)中，等式右边第一项分子上面多了一项Q0.CTDP0,此项相对其它项量很大，是绝对不可以忽略和任意添加的项，它对式(1)求解结果起重要作用.然而，对比式(8)，这一项是多余的(此外，两式还较小差异).同样分析认为，文［1］中式(2)也多余一项Q0.CPP0.
+　　对于以上分析，我们经过多次认真讨论，同时请教了多位同行专家，才得出如上结论.现与文［1］作者商榷.不妥之处，欢迎文［1］作者及其他同行专家指正.
+作者单位:左其亭:河北建筑科技学院，河北 邯郸　056038　赵会强:河北省水利厅水资源开发中心
+王中根　谈　戈:武汉水利电力大学
+参考文献
+　1　黄文钰，舒金华，吴延根等，滆湖磷迁移模型的研究.环境科学学报，1998，18(1)：34—38
+　2　叶守泽，夏军等.水库水环境模拟预测与评价.北京：中国水利水电出版社.1998
+1998-11-18收到原稿

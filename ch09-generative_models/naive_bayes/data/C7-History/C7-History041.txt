@@ -1,0 +1,255 @@
+【 文献号 】1-2842
+【原文出处】国外语言学
+【原刊地名】京
+【原刊期号】199504
+【原刊页号】1-8
+【分 类 号】H1
+【分 类 名】语言文字学
+【 作  者 】石定栩
+【复印期号】199604
+【 标  题 】洋泾浜语及克里奥语研究的历史和现状
+【 正  文 】
+    （石定栩  香港理工大学）
+    洋泾浜语（pidgin）和克里奥语（creole）有时又合称混合语（mixed languages），边缘语（marginal languages）或者重组语（restr
+uctured language）。Pidgin这个名字来自Pidgin English，也就是我们通常所说的洋泾浜英语。洋泾浜英语形成于十八世纪的广州，是来中
+国的英国商人同中国人进行贸易时使用的工作语言，词汇以源自英语的为主，杂有来自广东语，葡萄牙语，马来语以及印地语的少量字眼，而
+语法结构则基本上是广东话的。广东人说洋泾浜英语时基本上按照广东话的语音和音系规则行事，把源自其他语言的词汇都加以改造（Shi  １
+９９１），象pidgin这个词就是英语的business经过广东人的变音而形成的（Shi  １９９２）。到了十九世纪，上海成为另一个对外贸易的中
+心，洋泾浜英语开始在那里流行。洋泾浜是旧上海的一个地方，靠近今天的外滩，上个世纪时是涉外贸易的一个中心，洋泾浜英语因使用地点
+而得名，也算是名正言顺的了。
+    Creole这个词可以追溯到拉丁语的creāre（创造），葡萄牙语把综借来成为criar，意为抚养孩子。在巴西人的葡萄牙语中这个词经过演
+变成为crioulo，用来指土生奴隶，就是非洲奴隶在巴西生的子女，后来又扩展到泛指在美洲出生的欧洲或者非洲后裔，然后进一步用来指这些
+人的生活习惯和语言。这个词借到英语里就成了creole，在法语里是créole，而且慢慢地变得专指语言，而且是专指边缘语言中的一类（Hol
+m  １９８８）。
+    洋泾浜语和克里奥语在语言学上都没有十分严格的定义，两者之间的区别也并非一清二楚，但是这并不妨碍语言学家替大部分的混合语分
+类。一般说来，如果两种语言互不相通，在经常相遇的情况下，说这两种话的人就必须设法建立用来交际的共同语言。要是受到某些社会因素
+的制约，如缺乏信任，地位悬殊，交际的时间和频度不足等等，使得任何一方都不能掌握另一方的语言，最终建立的共同语言就往往是洋泾浜
+语。在双方社会地位不平等的情况下，地位高的一方往往会提供洋泾浜语的大部分词汇，而地位低的一方则影响语音，语义和句法等方面。通
+常把前者的语言称为高层语（superstrate language），而把后者的语言叫做低层语（substratelanguage）。洋泾浜语既不是高层语的变种，
+也不是低层语的亲属语，而是具有独立地位的，为满足某种特殊交际需要而形成的，具有相对固定形式的共同语。至于学说第二语言的人讲的
+不正规外语，则因人而异，没有固定形式，一般都不认为是洋泾浜语，而是称为次语（jargon）（Todd  １９９０）。
+    克里奥语通常由洋泾浜语发展而来。洋泾浜语本来是为了应付有限的交际而形成的简单语言。等到以洋泾浜语为唯一交流工具的群体有了
+下一代，洋泾浜语就成了母语。既然是第一语言，就必然要应付各种复杂的交际情况，洋泾浜语原有的手段肯定不会够用，词汇，句法以及语
+用系统都会迅速扩展，这就形成了克里奥语。从某种意义上可以说，克里奥语是成了母语的洋泾浜语。
+            １．混合语研究的历史
+    在近代世界史上，大部分的混合语是随着殖民主义扩张而产生的，而且以殖民大国的语言为高层语。这就造成了一种错觉，似乎混合语都
+是欧洲语言的变种。再加上殖民主义者同殖民地人民之间的矛盾，单纯的语言问题又往往跟社会及政治问题搅在了一起。许多欧洲人把洋泾浜
+语和克里奥语看成糟蹋得不成样子的欧洲语。殖民主义分子则以此来证明殖民地人民低能，无法学好宗主国的语言。
+    即使是专门研究语言的人们也不能幸免，长期以来，不少欧美语言学家认为混合语是不规范的欧洲语，是学习语言过程中的不良产物，因
+而没有学术研究的价值。连结构主义的大师布龙菲尔德（Bloomfield  １９９３）都把混合语看成是不正常的，被曲扭了的高层语，所以不值
+得研究。这种错误看法在我国也有过影响，有人就认为洋泾浜语是对民族语言的污染。
+    不过，看到混合语在语言发展中的特殊地位，以严肃认真的科学态度进行研究的学者也并不乏人。一般认为，第一个对混合语进行科学研
+究的是美国的VanName（１８６９—７０），他研究了分别以法语，西班牙语，德语和英语为高层语的克里奥语，找出了它们的不少共同特点，
+并且指出克里奥语是从洋泾浜语发展而来的，这种发展应该同其他语言的进化发展属于同一性质。
+    到了十九世纪八十年代，出现了一批研究混合语的文章（如Coelho  １８８０—８６，Adam  １８８３，Harrison  １８８４），德国语
+言学家Hugo Shuchardt在此基础上进行归纳总结，并且深入研究了不少与葡萄牙语有关的克里奥语，第一次从理论上探讨了混合语形成和发展
+的机制。Schuchardt在１８８０到１９１４年之间一共发表了四十多篇关于混合语的文章（如Schuchardt１８８２，１９１４），讨论洋泾浜
+语和克里奥语的生成发展和消亡。现代混合语研究的许多理论，如低层语影响论和幼儿语论等等，都可以从这位克里奥语研究之父那里找到踪
+迹。
+    与Schuchardt差不多同时进行混合语研究的还有荷兰的D.C.Hesseling，他主要研究与葡萄牙语有关的克里奥语以及南非的阿非利冈语（A
+frikaan），在１８９７年到１９３４年之间写了不少关于混合语起源的文章（如Hesseling  １８９７）。他的观点与现代的普遍语法派颇为
+相近。不过，本世纪初对混合语的研究最具影响的则非丹麦语言学家Otto Jespersen莫属。他在《语言论》（１９２２）里花了整整一章来讨
+论洋泾浜语及其他混合语，其观点至今还常常被人引用。Jespersen倾向于把混合语看成学得不完善的高层语，但也认为在混合语的形成过程中
+人脑的固有语言功能和社会因素都起了重要作用。
+    本世纪三十年代，混合语研究中心从欧洲移到了美洲，从语言学家关在书斋里冥思苦想的纸上谈兵，变成了人类学家对美洲克里奥语及洋
+泾浜语的实地考查。在第一手资料基础上进行的分析研究极大地推动了混合语研究的发展。这一时期的著作有对混合语实际语料的记录（如Bo
+as  １９３３，Parsons  １９３３—３４），也有对混合语语法特点的分析与混合语形成理论的探讨（如Herskovits and Herskovits  １９
+３６，Sylvain  １９３６，Faine  １９３６）。而最有学术水平的则当推John Reinecke在耶鲁大学写的博士论文《边缘语：对于克里奥语及
+其他贸易次语的社会学研究》（１９３７）。Reinecke是公认的现代混合语研究的开拓者，他那近九百页的论文继往开来，一方面总结了当时
+已有的成果，另一方面又把社会学的研究方法引进语言学，探讨社会因素对混合语形成的影响。Reinecke还详细研究了非欧洲语系的混合语，
+大大开阔了研究视野。
+    尽管混合语的研究在三十年代有了很大的发展，但是并没有形成独立的学科，研究成果甚至在语言学领域里也鲜有人知。第二次世界大战
+中美国为了全球参战的需要，大大加强对世界各种语言的研究与教学，促进了语言学的发展，也使对混合语的研究上升到一个新的高度。美国
+语言学家R.Hall与在多米尼加定居的英国语言学家D.Taylor在这方面的功劳不可磨灭。Hall原来是研究罗曼语的专家，大战中受美国军方委托
+调查美拉尼西亚群岛的洋泾浜英语，为军方编印有关的小册子，结果开了头就一发不可收拾，对各种混合语都作研究。他是第一个正式研究中
+国的洋泾浜英语的语言学家（１９４４），又是为了替洋泾浜语正名而大声疾呼的第一人（１９５４）。Hall从理论上总结了洋泾浜语和克里
+奥语的生命周期，并且以混合语的研究结果来验证语言变化的理论，对历史语言学的方法论做出重大贡献（１９５９）。Hall虽然正视低层语
+对混合语的影响，但常常把混合语归入提供词汇的高层语，作为高层语的方言之一。这就使他同Taylor在观点上针锋相对。Taylor主要研究加
+勒比地区的克里奥语，极力鼓吹低层语对混合语的影响，主张把洋泾浜语和克里奥语看成语言上的孤儿，以提供词汇的高层语和提供句法结构
+的低层语作为养父母（１９５１）。两个人的争论至今还颇有影响。
+            ２．当代的混合语研究
+    语言学从五十年代后期开始蓬勃发展，混合语的研究也随之有了长足的进展。时至今日，混合语研究已经形成了独立的学科，理论上也百
+家争呜，各派都有了比较完整的体系。所以，对于混合语研究从五六十年代以来的发展，将分成学科领域和理论体系两个部分来介绍。
+    五十年代后期，随着民族独立运动的日益高涨，殖民地人民的民族语言问题也提到议事日程上来了。正是在这样的背景之下，对西印度群
+岛土著人民的语言状况感兴趣的学者于１９５９年齐聚牙买加的西印度群岛大学，讨论克里奥语和相关的语言学问题。来开会的人不多，会议
+室也很小，但这却是混合语研究开天辟地的第一次学术讨论。参加会议的语言学家，语文工作者和教育家从此把他们自己称为克里奥学家，创
+立了克里奥学这个新名词。会议的发言和提交的书面报告后来汇集成册，出版了历史上第一本混合语研究的学术论文集（Le Page  １９６１）
+。
+    与此同时，关于洋泾浜语和克里奥语的各种学术论文也如雨后春笋般涌现。到１９６６年，Hall出版了第一部供大学本科生使用的课本《
+洋泾浜和克里奥语言》（１９６６），使混合语的研究在高等教育里也有了立足点。
+    １９６８年四月在牙买加的摩纳又召开了一次混合语的学术会议。这一次不但规模扩大了许多，理论深度增加了不少，而且理论上也多样
+化了。与会者提交的学术报告经过编辑整理，成为另一部重要的论文集（Hymes  １９７１）。
+    六十年代后期是各国政治大变动的时代，也是不同意识形态激烈争斗的时代。种族纷争，南北分裂，以至民族语言之争都对混合语的学术
+研究发生了影响。一方面，民族语言意识的增强促进了对各种混合语的研究，另一方面，意识形态的分歧带来了混合语研究的派别之争。
+    六十年代初期，美国的Labov开创了社会语言学的新路，也激起了对美国黑人英语的研究兴趣。当时的一种流行观点是把黑人英语看成某种
+克里奥语的后代，这正好同当时黑人运动的基本思想相吻合，所以颇受欢迎。但是某些鼓吹者过于激烈的措辞却使一些白人语言学家感到不自
+在，于是把精力转向其他克里奥语的研究。在这种背景下，１９７２年在特立尼达的一次会议上成立了加勒比语言学学会（The Society for 
+Caribbean Linguistics），并决定以后每两年召开一次学术会议。加勒比语言学会的主旨本来是混合语的研究，但是后来受南北之争的影响，
+慢慢地由西印度群岛的学者取代欧美学者掌握了领导权，而且研究重点偏向了以英语为高层语的混合语。于是，研究法语系统混合语的学者们
+于１９７６年在法国召开了国际克里奥语讨论会，成立了国际克里奥研究委员会（Comite International des Etudes Créoles），决定出版
+名为《克里奥研究》（Etudes Créoles）的杂志。这些活动的重点当然是研究以法语为高层语的克里奥语。
+    围绕着加勒比语言学会的活动还形成了另一个圈子，即所谓的大西洋克里奥学派。他们的研究范围包括非洲和美洲大西洋沿岸的混合语，
+这些混合语大多与当年的黑奴贩运有关，以西非沿岸的尼日尔—刚果语系为低层语。另一方面，以环太平洋地区的混合语为研究对象的学者则
+形成了所谓的太平洋洋泾浜学派。这些混合语的高层语往往来自十六世纪以来的航运及贸易大国，低层语分布极广，有着独特的形成机制。１
+９７３年在巴布亚—新几内亚召开的一次学术会议就是以太平洋洋泾浜学派为主，类似的会议１９７５年在夏威夷大学还开过一次。
+    超越门户之见的学者当然也为数不少。从１９７３年起，一批混合语专家以夏威夷大学为据点，出版名为《洋泾浜信使》的研究通讯，全
+面报道对各种混合语的研究。通讯的英文名称是The Carrier Pidgin，显然是与carrier pigeon（信鸽）谐音，含有为各方面通风报信的意思
+。此后不久，Reinecke牵头撰写的大型工具书《洋泾浜及克里奥语参考书目》（Reinecke et al.１９７５）由夏威夷大学出版社出版，内容详
+尽，面面俱到。１９７７年出版了一本供一般研究人员参考用的综合文集（Valdman  １９７７），基本上照顾到了各个方面。同一年还发行了
+一本《克里奥语研究杂志》（Journal of Creole Studies），可惜当年就办不下去了。不过，到了１９８６年，这本杂志又改头换面以《洋泾
+浜及克里奥语杂志》（Journal of Pidgin and Creole Languages）的形式出现，而且保持了全面研究各种混合语的传统。
+    尽管有这样那样的问题，七十年代和八十年代毕竟是混合语研究大发展的时代，不但发表的论文以及出版的专著数量惊人，而且各种理论
+流派都站稳了脚跟，混合语研究已经成了语言学的一个不可忽视的组成部分。形势逼人，再不统一起来，混合语研究的发展就很难再上一层楼
+。有鉴于此，几位目光远大的学者于１９８８年底组成了一个工作小组，研究统一的可行性。以此为转机，１９８９成立了洋泾浜语与克里奥
+语学会（Society of Pidgin and Creole Languages），并且在年底召开了第一届年会。这是一个跨地域，跨语系，跨学派的国际组织，让各
+个国家，各种流派的学者每年都有机会在共同的讲坛上交流研究成果。１９８９年和１９９１年两次年会的论文后来结集出版，定名为《大西
+洋同太平洋的会面》（Byrne and Holm  １９９３），象征着团结一致所取得的丰硕成果。
+    从１９９２年起，洋泾浜语与克里奥语学会同《洋泾浜及克里奥语杂志》挂钩，让会员自动成为杂志的订户。这就更进一步加强了混合语
+研究队伍的内部统一，促进了交流。
+            ３．混合语研究的理论流派
+    初级阶段的混合语研究只是描述，不牵涉理论，也谈不上流派。到了本世纪六十年代，随着研究的深入，洋泾浜和克里奥语之间的关系问
+题，混合语的起源问题都提上了议事日程，各种各样的理论架构也就纷纷问世。理论派系的争论在语言学界并不罕见，应该视为学术研究健康
+发展的必由之路。这里对各个流派的介绍也是本着这一精神。
+            ３．１．单一起源论
+    单一起源（monogenesis）理论最早是Whinnom（１９５６）提出来的。他在研究菲律宾西班牙克里奥语和印度尼西亚葡萄牙克里奥语时，
+发现这两种混合语在词汇和句法结构方面的相同点非常之多，而两者的高层语及低层语却又不一样。这种意料之外的相似性没有现成的解释。
+Whinnom主张可以认为前者是由后者发展而来的，也就是说，当印尼葡萄牙克里奥语传到菲律宾以后，源自葡萄牙语的词汇被西班牙语的词汇所
+取代，但是原有的句法甚至词组结构则保留了下来。Whinnom还进一步推测印尼葡萄牙克里奥语可能是通过同样的途径发展而来的，其前身是中
+世纪流行于地中海沿岸的混合语“林呱佛兰卡”（linguafranca）。
+    单一起源理论在１９５９年的西印度群岛大学讨论会上崭露头角，得到很多人的支持。会上及会后的共同观点是大多数洋泾浜语和克里奥
+语都有着同一个来源：十六世纪存在于非洲东岸的以葡萄牙语为高层语的洋泾浜语。而这个洋泾浜语又由林呱佛兰卡发展而来，所以林呱佛兰
+卡是所有混合语的祖先。例如Thompson（１９５９）就明确提出，十八世纪时在广州出现的洋泾浜英语由澳门的葡萄牙克里奥语转化而成，而
+澳门的葡萄牙克里奥语由西非辗转传来，西非的克里奥语则是林呱佛兰卡的后代。
+    因应单一起源理论的需要，有人（Stewart  １９６２）还专门创造了一个特别的术语“词汇替代过程”（relexification），意思是说某
+一混合语的词汇原本来自一种高层语，后来完全由另一种高层语的词汇所替代，从而形成了新的混合语。这个术语准确地说明了单一起源理论
+的实质，采用的人越来越多，很快就成了单一起源理论的同义词。
+    跟单一起源论相近的还有所谓的航海次语论（nautical jargon theory），主张现代洋泾浜及克里奥语的前身是中世纪以来海员中间流行
+的共同语，由于当时的海员来源复杂，船上用语必然具有某些混合语的特点。当海员同各地土著交流时，把航海次语教给了土著，促成了洋泾
+浜的形成（Robertson  １９７１）。
+    单一起源理论的显著优点是直截了当，为众多混合语所拥有的共同特点提供一种可信的解释，简单地归结到从同一祖宗蕃衍而下这一条上
+。而该理论经常受人攻击的弱点是缺乏事实根据，要证明所有的混合语都由林呱佛兰卡通过词汇替代而形成，需要非常有力的历史证据。而要
+把与欧洲语毫无牵连的混合语同林呱佛兰卡拉上关系，更是难上加难。迄今为止似乎还没提出象样的证据。
+            ３．２．克里奥连续流
+    克里奥连续流（creole continuum）假说主要牵涉语言的发展进化，基本观点是克里奥语在一定阶段上会失去混合语的特征（decreoliza
+tion），向高层语的标准语靠拢。反过来也一样，如果高层语同克里奥在同一地区并存，也可能会受后者的影响而呈现某些混合语的特征。这
+样一来，从洋泾浜到克里奥再到标准语就形成了一个连续流，彼此之间并没有严格的界线，只有相关特征在程度上的差别。
+    语言连续流的概念在方言学里由来已久，第一个把这个概念引进混合语研究的是DeCamp（１９６１）。他指出牙买加的语言状况复杂，不
+能用单一的一种语言来描述，从社会最底层的农民和工人的克里奥英语，到城里受过高等教育的上层人物的标准英语，是一个连续流。同一个
+人跟不同对象交谈时可能从一种形式换到另一种形式，也就是说个人的语言能力也是一个连续流。DeCamp后来又采用Labov（１９６６）划分社
+会方言的办法，进一步选定一套语言特征作为标准，用来确定每个人说的话在连续流中的地位（DeCamp  １９７１）。
+    如果将连续流的概念推而广之，洋泾浜，克里奥以及标准语的区别会都变得模糊起来，这也是反对连续流理论的主要论点。不过，连续流
+的理论却在语言学之外找到了大量支持者。在六七十年代美国的民权运动中，黑人的重要诉求点之一是寻求自己在社会中的独立地位。把黑人
+英语看成独立的社会方言，作为从克里奥英语到标准英语这一连续流中的一个环节，正好提供了建立黑人独立社会地位的有理证据。所以连续
+流理论在六七十年代十分风行。
+            ３．３．简化理论
+    简化理论（simplification theory）有时候也叫做幼儿语理论（baby talktheory），其基本思想是洋泾浜语是简化了的高层语，从本质
+上说同父母跟子女说话时使用的幼儿语差不多。从直观角度看，简化理论很容易理解。洋泾浜语的一些主要特征，如不用连系动词，缺少形态
+变化，以及缺乏复杂句法结构等等，都可以从幼儿语里找到。
+    简化理论最早可以从Schuchardt的著作里找到踪迹，而第一个把简化或者幼儿化作为一种理论机制提出来的是Bloomfield（１９３３）。
+七十年代由于语言习得研究的发展，支持简化理论的学者日益增多（如Ferguson  １９７１，Fergusom and DeBose  １９７７），而且有人把
+简化理论应用到第二语言习得的研究中去（Schumann  １９７４），更是助长了简化理论的声势。
+    对简化理论持反对意见的人当然也不少。反对的理由主要是洋泾浜语从本质上说并不是简化了的高层语，而是独立于高层语和低层语之外
+的经过重组的语言。某种程度上的简化可能在洋泾浜形成过程中起过作用，但决不是主要的作用。
+            ３．４．普遍语法理论
+    普遍语法理论（language universals）主张混合语代表了人类语言的本质。类似的思想可以追溯到十九世纪中叶（如Coelho  １８８０—
+８６），到了本世纪七十年代，受Chomsky关于人类语言本质理论（１９６５）的影响，普遍语法理论又重新热门起来。简单地说，这套理论主
+张人类的语言在本质上都是一样的，都受普遍语法规律的支配。各种自然语言的差别来自非本质的边缘语法，或者是在普遍语法许可范围内的
+参数变化。混合语则扬弃了各种边缘语法，只留下普遍语法，所以各种混合语会有这么多的相似之处。
+    普遍语法理论跟单一起源理论一样，着眼于解释混合语的共同特点，但显然比后者更容易站得住脚，因为普遍语法论所需要的证据是看得
+见，听得到的。普遍语法理论的鼓吹者分两派。一派用普遍语法的规律来解释洋泾浜语的生成（如Ferguson  １９７１，Todd  １９７４），
+认为在洋泾浜的形成过程中，参与的人群只挑选普遍语法的规则，因为那是共有的，大家都能自动接受的东西。另一派则认为洋泾浜语太粗糙
+，太乱七八糟，不具有代表性，只有克里奥语才具有足够的稳定性，才能体现普遍语法的特点。这一派的代表人物是Bickerton（１９７３，１
+９８１）。他采用了Chomsky的观点，主张人类生来就具有语言能力，这种能力就是普遍语法。用Bickerton的话来说，人类先天就具有语言的
+编码（bioprogram），所以很快就能学会说话，而非普遍语法的东西都是后天学会的。克里奥语处于人类语言发展的初级阶段，没有什么边缘
+语法的东西，以普遍语法为主，所以除了词汇不同之外，所有的克里奥语都很相像。
+    普遍语法理论的解释能力颇强，所以至今还有市场。该理论的弱点在于什么是普遍语法的规则始终无法说清楚，常常是在混合语中找到什
+么共同点就说什么是普遍语法规则，很难令人信服．
+            ３．５．低层语影响论
+    作为一种理论架构，低层语影响论（substrate influence）指的是一种解释混合语起源的理论。一般学者都承认混合语带有低层语的某些
+特点，但是Taylor（１９７１，１９７７）却认为，低层语的影响可以用来解释某些混合语的相似之处。他特别指出，加勒比海沿岸的各种克
+里奥语有不少结构上的相似之处，而且这些相似之处中的许多又能从西非沿海的Yoruba语那里找到。那么，假定跟Yoruba语相似的某个或几个
+Kwa语族的成员是加勒比克里奥的共同低层语，就可以为上述相似之处提供合理的解释。
+    低层语影响论跟普遍语法理论似乎针锋相对，但实际上只有当两种理论走向极端时，才是互不相容的。完全有可能两种理论都部分正确，
+是一种互补的关系。
+            ３．６．综合理论
+    上面说的这些理论之争主要发生在六七十年代。从八十年代后期起，研究混合语的学者们似乎不再那么固执己见，多半倾向于不否认任何
+一种理论，但也不坚持某一理论，而是集各家之长，避众人之短，以综合理论的面貌出现。
+    如Thomason和Kaufman（１９８８）鼓吹改良了的简化理论，主张在洋泾浜的形成过程中，持高层语和低层语的双方都简化各自的语言以协
+助交流，在交际过程中双方都能接受的东西就保留下来，形成洋泾浜。至于什么是双方都能接受的东西，则很可能取决于普遍语法的规律。
+    Mühusler（１９８６）则认为普遍语法规律，高层语影响和低层语影响这三种因素都在混合语形成过程中起作用，而且三者之间的任何一
+种组合在任何一个阶段上都可能起作用。
+    即使是从社会环境影响的角度来观察混合语形成过程的学者（如Bruyn和Veenstra１９９３），也不否认普遍语法规律的作用以及高层语和
+低层语的影响。综合理论看来将会成为混合语研究的主流。
+            ４．结束语
+    混合语研究从五十年代起有了突飞猛进的发展。这一方面反映了语言学的成长壮大，另一方面也反映了混合语研究所能起的重要作用。越
+来越多的学者认识到，混合语的形成与发展提供了一个语言进化的实际模式，对混合语的研究很可能会触发对语言本质认识的飞跃。我国语言
+学界应该积极参与这一研究行列。
+    参考书目
+    Adam,Lucien.1883.Les Idiomes Negro-Aryen et Maleo-Sryen:Essai d'Hybridologie Linguistique.Paris:Maisonneuve.
+    Bickerton,Derek.1973.On the Nature of Creole Continuum.Language 49.640-649.
+    --.1981.Roots of Language.Ann Arbor:Karoma.
+    Bloomfield,Leonard.1933.Language.London:Allen and Unwin.
+    Boas,Franz.1933.Note on the Chinook Jargon.Language 9.208-213.
+    Bruyn,Adrienne and Tonjes Veenstra.1993.The Creolization of Dutch.Journal of Pidgin and Creole Languages 8.29-80.
+    Byrne,Francis and John Holm(ed.).1993.Atlantic Meets Pacific.Amsterdam:John Benjamins Publishing Company.
+    Chomsky,Noam.1965.Aspects of  the Theory of Syntax.Cambridge:The MIT Press.
+    Coelho,Adolpho.1880-86.Os dialectos romanicos ou neolatinos na Africa,Asia,e America.Bolletim da Sociedade de Geografia 
+de Lisboa.(Republished inJ.Morais-Barbosa ed.1967.Estudos linguisticos Crioulos.Lisbon:Academia Internacional de Cultura Por
+tuguesa).
+    DeCamp,David.1961.Social and Geographic Factors in Jamaican Dialects.In Le Page(ed.)1961:61-84.
+    --.Towards a Generative Analysis of a Post-Creole Speech Continuum.In Hymes(ed.)1971:349-370.
+    Faine,Jules.1936.Philologie creole:etudes historiques et etymologiques surla langue crhole d'Haiti.Portau-Prince:Imprime
+rie de L'Etat.
+    Ferguson,Charles.1971.Absence of Copula and the Notion of Simplicity:aStudy of Normal Speech,Baby Talk,Foreigner Talk,an
+d Pidgins.In Hymes(ed.)1971:141-150.
+    Ferguson,Charles and Charles DeBose.1977.Simplified Registers,BrokenLanguage,and Pidginization.In Valman(ed.)1977:99-125
+.
+    Hall,Robert.1994.Chinese Pidgin English,Grammar and Text.Journal of the American Oriental Society 64.91-114.
+    --.1955.Hands off Pidgin English!Sydney:Pacific Publications PTY.LTD.
+    --.1959.Neo-Melanesian and glottochronology.International Journalof American Linguistics.25.265-267.
+    --.1966.Pidgin and Creole Languages.Ithaca:Cornell University Press.
+    Harrison,J.1884.Negro English.Anglia 7.232-279.
+    Herskovits,Melville and Frances Herskovits.1936.Suriname Folklore....Columbia University Contributions to Anthropology 3
+7.New York:Columbia University Press.
+    Hesseling,Dirk Chreistiaan.1897.Het Hollandsch in Zuid-Afrika.DeGids 60.138-162.
+    Holm,John.1988.Pidgins and Creoles.Cambridge:Cambridge UniversityPress.
+    Hymes,Dell.1971.Pidginization and Creolization of Languages.Cambridge:Cambridge University Press.
+    Jespersen,Otto.1992.Language,Its Nature,Development and  Origin.London:Allen & Unwin.
+    Labov,William.1966.The Social Stratification of English in New York City.Washington,D.C.:Center for Applied Linguistics.
+    Le Page,Robert(ed.).1961.Creole Language Studies II.Proceedings of the Conference on Creole Language Studies(University 
+of the West Indies,Mona,1959).London:Macmillan.
+    Mehlhdusler,Peter.1986.Pidgin and Creole Linguistics.Oxford:Basil Blackwell.  Parsons,Elise Clews.1933-4.Folklore of the
+  Antilles,French and English.New York:American Fold-lore Society,3 volumes.
+    Reinecke,John.1937.Marginal Languages:A Sociological survey of the creole languages and trade jargons. PhD.dissertation,
+Yale University.
+    Reinecke,John,Stanley M.Tsuzaki,David DeCamp,Ian Hancock and Richard Wood(ed.).1975.A Bibliography of Pidgin and Creole 
+Languages.Honolulu:University Press of Hawaii.
+    Robertson,Frank.1971.Comic Opera Talk Talk,English as She Is Broken is the New Guinea Tongue that Strangers Love.Asia Ma
+gazine.August 13-16.
+    Schuchardt,Hugo.1882.Kreolische Studien.I.Ueber das Negeportugiesische von S.Thoms(Westafrika)Cochim.Sitzungsberichte de
+r kaiserlichenAkademie der Wissenschaften zu Wien 102.799-816.
+    --.1914.Die Spracheder Saramakkaneger in Surinam.Amsterdam:Johannes Moller.
+    Schumann,J.1974.Implications of Pidginization and Creolization for the Study of Adult Second Language Acquization.In J.S
+chumann and N.Stenson(eds.),New Frontiers in Second Language Learning.Rowley:Newbury House,137-152.
+    Shi,Dingxu.1991.Chinese Pidgin English,Its Origin and Linguistic Features.Journal of Chinese Linguistics 19.1-41.
+    --.1992.On the Etymology of Pidgin.Journal of Pidgin and Creole Languages.7.343-347.
+    Stewart,W.A.1962.Creole Languages in the Caribbean.In F.A.Rice(ed.)Study of the  Role of Second Languages in Asia,Africa
+ and Latin America.Washington:Center for Applied Linguistics.
+    Sylvain,Suzanne.1936.Le Creole Haitien:Morphologie et Syntaxe.Port-au-Prince,Wettern:Imprimerie de Meester.
+    Taylor,Douglas.1951.Structural Outline of Caribbean Creole.Word 7.43-59.
+    --.1971:Grammatical and Lexical Affinities of Creoles.In Hymes(ed.)1971.293-296.
+    --.1977.Languages of the West Indies.Baltimore:Johns Hopkins Univeristy Press.
+    Thomason,G.Sarah and Terrence Kaufman.1988.Language Contact,Creolization and Genetic Linguistics.Berkeley:University of 
+California Press.
+    Thompson,R.W.1959.A Note on Some Possible Affinities betwween theCreole Dialects of the Old World and Those of the New.I
+n Le Page(ed.)1961:107-113.
+    Todd,Loreto.(1974)1990.Pidgins and Creoles.London:Routledge.
+    Valdman,Albert.1977.Pidgin and Creole Linguistics.Bloomington:Indiana University Press.
+    Van Name,Addison.1869-70.Contributions to Creole Grammar.Transactions of the American Philological Association 1.123-167
+.
+    Whinnom,Keith.1956.Spanish Contact Vernaculars in the Philippine Islands.Hong Kong:Hong Kong University Press.
+    通讯地址：香港  香港理工大学  中文及双语学系＊
+    
+    
+    
+ 

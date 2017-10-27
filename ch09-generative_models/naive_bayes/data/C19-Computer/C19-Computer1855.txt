@@ -1,0 +1,134 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000 Vol.19 No.3 P.8-11
+
+
+
+Web邮件系统的设计和实现
+贺红心　谢洪涛　卜淮原
+　　摘　要：WEB邮件服务系统的原理、特点和它与非WEB邮件服务的区别,并探讨了基于IIS的WEB邮件服务系统的设计和实现
+　　关键词：WEB邮件服务 SMTP服务器 POP3服务器 CD0 for NTS组件
+　　电子邮件服务是网络服务最早和最基本的功能之一,许多邮件服务器软件都可以建立电子邮件系统。常用的邮件服务器软件有Loutus Notes、Microsoft Exchange Server等。而传统的邮件系统一般是客户机/服务器结构,它们本身比较复杂,与操作系统的集成度低,额外占用了服务器的资源,影响了系统的性能,增加了系统的管理负担。同时,每种邮件软件都有服务器端软件和特定的客户端软件,增加了系统的构造成本。而微软新推出的IIS4.0加了许多新的功能,其中的IIS SMTP服务器组件提供了便捷高效的Web邮件服务,可望有效解决传统邮件系统的不足。
+1 传统邮件系统的运行机理
+　　传统邮件系统一般由发送系统和接收系统二部分组成。发送系统负责邮件从客户端邮件程序（如:outlook express等）到邮件服务器,从1个邮件服务器到另1个远程邮件服务器的传送。接收系统负责用户从邮件服务器把邮件接收到客户端邮件程序的用户收件箱。用户使用特定的客户端邮件程序收发邮件。
+1.1 邮件的发送和SMTP服务器
+　　邮件的传递过程是从像Outlook Express这样的客户端邮件程序将1封电子邮件发送给1个SMTP服务器开始的。1个客户端只知道1个与之相连的SMTP服务器,所以本地客户发出的全部邮件,不管其目的地址是哪里,都将发送到同一个服务器。然后,本地的SMTP服务器负责决定如何处置该邮件。
+　　相连接的所有SMTP服务器都可以通过SMTP协议相互通信。当1封电子邮件从客户端发送到SMTP服务器后,服务器检查邮件的目的地址,如果目的地址就是本地域的SMTP服务器,邮件就会一直被存放在本地SMTP服务器的邮件库中,直到收件人访问服务器取回自己的邮件。如果邮件的目的地址是另一个远程域的SMTP服务器,SMTP服务器就查询DNS Mail Exchanger记录,该记录为进入相应域的所有邮件提供SMTP服务器的IP地址,在找到该地址后,本地的SMTP服务器就会把邮件从本地邮件库发送到该地址的SMTP服务器。所以在这种情况下,邮件先从用户的发件箱发送到本地SMTP服务器,再从本地SMTP服务器发送到目的域的SMTP服务器。
+1.2 邮件的接收和POP3服务器
+　　SMTP协议只负责邮件从客户端发送到目的域的SMTP服务器,用户要从服务器接收邮件,服务器端还必须提供邮件接收服务,而POP3就是用户取回他们的邮件的协议,POP3服务器负责邮件的接收。
+　　POP3服务器在服务器上一直运行,等待来自客户端的连接。当客户端试图连接到POP3服务器时,该客户使用邮件账号的用户名和密码来标示自己,邮件服务器验证用户身份后,POP3服务器将该用户的邮件从SMTP邮件库发送到用户的收件箱。SMTP服务器一般为每个用户设立1个目录,它类似于用户的邮件箱。这种目录结构使得POP3服务器可以高效地取出指定用户的全部邮件。
+　
+图1 传统邮件系统的运行机理
+　　图1说明了传统邮件系统的运行机理。
+2 IIS的Web邮件系统解决方案
+2.1 基于IIS的Web邮件系统的工作原理
+　　对已经发送到SMTP服务器邮件库中的邮件,客户用2种方式取回自己的邮件:直接访问邮件方式和POP3服务器方式。因为电子邮件只是SMTP服务器上的ASCII文件,所以,编写不使用POP3服务器直接从邮件库访问邮件的程序是可行的。基于IIS的Web邮件系统使用的就是这种方式。
+
+图2 IIS Web邮件系统的原理示意图
+　　图2表示了IIS Web邮件系统的原理图。
+　　IIS SMTP服务器负责邮件的传送,它为所有进入的邮件仅设立1个目录,因此,不能将用户的邮件分类进入个人邮箱。它或者将邮件发送到其它SMTP服务器,或者把邮件存储在全局邮件目录（邮件库）中,IIS SMTP服务器默认的全局邮件目录是“\MAILROOT\DROP”目录。
+　　由于没有POP3服务器,邮件的接收通过用ASP脚本程序直接从SMTP邮件库检索邮件到Web浏览器来实现。ASP脚本程序通过IIS的1个组件Collaboration Data Objects for Microsoft Windows NT Server（CDO for NTS）提供的邮件对象访问邮件库,邮件用户通过浏览器收发邮件。
+2.2 IIS Web邮件系统的特点
+　　IIS4.0新增加的一系列功能组件不但增强了Web服务和事务处理功能,更增加了新闻服务、搜索服务和邮件服务等功能。IIS SMTP服务器是IIS的一体化信息服务解决方案的重要组成部分,用其构建的Web邮件系统有以下特点:
+　　1.IIS的SMTP服务器是IIS的1个组件,它与IIS紧密集成在一起。实质上,IIS本身就是邮件服务器,这种方式使邮件服务无缝集成于IIS和操作系统,提高了邮件服务的效率和系统的稳定性。
+　　2.减小了系统复杂性和管理负担。只须在安装IIS4.0时选中SMTP邮件服务组件,就可以在系统上建立邮件服务。如果使用特定的邮件服务系统,服务器就不得不运行另一套系统,占用了额外的服务器资源;系统管理员也必须管理邮件用户系统。而IIS Web邮件系统则减小了系统的复杂性和系统管理员的负担。
+　　3.容易实现,构造成本低。使用SMTP服务器组件可以轻松建立起Web邮件服务,用户不需要安装任何邮件客户软件,只要1个Web浏览器即可。而其它邮件系统,每个用户必需安装特定的客户端邮件软件,增加了实现的难度,也提高了系统构造成本和费用。
+　　4.IIS Web邮件系统提供简单方便的邮件服务。客户通过Web浏览器就可以实现用户主动注册邮件帐号和邮件的收发,也可以在邮件中插入附件。同时,用户也可以使用客户端邮件软件（比如:Outlook Express）来发送邮件。
+　　5.可与其它邮件系统很好地协同服务。
+　　IIS Web邮件系统也有不足,主要表现在下列3方面:
+　　1.由于进入SMTP服务器的所有邮件都放在了同一个目录中,而不是为每一个帐号创建1个单独的目录,其检索速度相对较慢。
+　　2.由于不能使用像Outlook Express这样的邮件客户端软件接收邮件,所以,就不能使用能为用户提供许多方便的各种Inbox Assistant规则。
+　　3.有待进一步完善。虽然网络开发人员可以通过编写ASP脚本程序实现所有的邮件功能,但这要求开发人员精通ASP,而且不得不陷入令人头疼的编程。这与其它邮件系统的“零编程”比起来,有着明显的不足,也影响了其推广的速度。
+3 IIS Web邮件系统各功能的实现
+　　1个邮件Web系统通过创建邮件站点来实现。邮件站点应该具有邮件的发送、帐号的注册和注销、帐号密码修改、在发出的邮件中插入附件和加密邮件等功能。下面重点介绍收件、发件和插入附件3个关键功能的实现。
+　　1.使用CDO FOR NTS从IIS邮件库读取邮件
+　　在访问邮件时,用户通过邮件帐号的用户名和密码验证自己的身份,用户帐号存放在1个数据库中。原脚本中也有用户验证部分的脚本代码,这里仅保留了读取邮件的脚本代码,ASP代码如下:
+　　<%@ language=″vbscript″%>
+　　<%′ ……
+　　′ 验证邮件用户身份
+　　′ ……
+　　set objsession=server.createobject（″cdonts.session″）
+　　　　　　　　　　　　　　　　　　　　′建立邮件事务对象
+　　objsession.logonsmtp name,email ′登录到SMTP服务器
+　　set objinbox=objsession.inbox ′建立对象邮箱
+　　set collmessages=objinbox.messages ′建立消息组对象
+　　If collmessages.count=0 then ′如果消息组中没有邮
+　　　　　　　　　　　　　　　　　　件就终止ASP的运行
+　　response.write ″user″ &name&″<br>Sorry,you have 
+　　　　　　　　　　　　　　　　　　　　　no email.″
+　　objsession.logoff
+　　response.end
+　end if%>
+　<html>
+　<head><title>reademail.asp</title></head>
+　<body><table>
+　<%for num=1 to collmessages.count ′显示邮件
+　　set objmessages=collmessages（num）
+　　Set collAttachments=objMessages.Attachments %>
+　<tr><td>发件人:</td><%=objmessages.sender.name%
+　　　　　　　　　　　　　　　　　　　></td></tr>
+　<tr><td>邮件主题:</td><td><%=objmessages.subject%
+　　　　　　　　　　　　　　　　　　　></td></tr>
+　<tr><td>邮件内容:</td>
+　<td><textarea rows=″6″ name=″S1″ cols=″34″><%=ob-
+　　　　　　　　　　　　　　　　　　　　jmessages.text%>
+　</textarea></td></tr>
+　<%next%>
+　</table></body></html>
+　　2.使用CDO FOR NTS从Web页面发送邮件
+　　IIS邮件系统不仅仅支持从邮件客户程序（比如:Outlook Express）发送邮件,更重要的是,它支持用户直接从Web页面发送邮件。下面是发送电子邮件的ASP脚本程序代码:
+　　<%@ language=″vbscript″%>
+　　<%from=request.form（″from″）
+　　too=request.form（″to″）
+　　subject=request.form（″subject″）
+　　body=request.form（″body″）
+　　set objnewmail=server.createobject（″cdonts.newmail″）
+　　　　　　　　　　　　　　　　　　　　　′建立邮件对象
+　　　　objnewmail.send from,too,subject,body ′发送邮件
+　　set objnewmail=nothing ′释放邮件对象
+　　response.write″Your email have been sent!″
+　　%>
+　　<html>
+　　<head><title>sendemail.asp</title></head>
+　　<body></body>
+　　</html>
+　　3.在邮件中添加附件
+　　电子邮件应该不仅能发送文本,还应该能在邮件中添加附件。向邮件添加附件的过程是:首先从客户端向服务器上载附件;接着利用CDO FOR NTS的邮件对象把上载的附件添加到邮件中;最后删除附件文件。
+　　由于ASP不能操作客户端的文件系统,文件的上载功能可以通过Activex控件实现,各种高级程序设计语言如:Visual Basic、Visual C++、Borland Delphi等都可以编写该控件,该控件能够以FTP方式上载文件。在能够上载文件之前,Web邮件服务器必须开通FTP服务,建立“c：\inetpub\mailroot\ftpfujian”目录,并把该目录加入FTP虚拟目录,附件就上载到该目录;建″c\inetpub\wwwroot\webfujian″目录,并把该目录加入Web虚拟目录,邮件附件就暂时复制到该目录,供收件人访问。
+　　把上载到服务器上的附件文件添加到邮件。其主要的ASP代码如下:
+　　<%
+　　set objnewmail=server.createobject（″cdonts.newmail″）
+　　　　　　　　　　　　　　　　　　　　　　′建立邮件对象
+　　objnewmail.Attachfile ″c\inetpub\mailroot\ftpfujian\lawer.
+htm″,″lawer.htm″　′将附件文件″lawer.htm″添加到邮件
+　　%>
+　　把邮件中的附件复制到1个临时文件,其主要代码如下:
+　　<%
+　　Set objAttach=collAttachments.Item（i）
+　　′建立邮件附件对象,其中collAttachmetns是邮件附件
+　　′集对象
+　　filepath=″c\inetpub\mailroot\ftpfujian\″ & objAttach.
+　　　　　　　name
+　　objAttach.writetofile（filepath）
+　　%>
+　　显示附件。
+　　<Ahref=″http\\kyswwwserver\webfujian\<%=objAttach.
+　　　　　　name%>″>
+　　<%=objAttach.name%></a>
+4 建立IIS Web邮件系统
+　　要建立IIS Web邮件系统,必须在网络服务器上安装IIS4.0的SMTP服务组件,并建立Web邮件服务站点。邮件服务站点应该提供邮件的发送和接收等服务,这样所有能访问该站点的用户都可以申请邮件帐号,并使用站点提供的邮件服务。
+　　1.单域网络下的单Web邮件服务器系统
+　　这种情况适用于小型网络。只要在该域的任何一台服务器上建立了Web邮件站点,该域的所有用户都可以通过浏览器使用其Web邮件服务。
+　　2.多域网络下的单Web邮件服务器系统
+　　这种情况适用于中型规模的网络。如果多域网络的各个域之间已经通过路由设备连通,那么,只要在该网络的任何1个域的任何1台服务器上建立了Web邮件服务站点,全网络的所有用户都可以使用Web邮件服务。这时,所有域的用户的邮件地址的域名部分都相同,都是Web邮件服务站点所在的域的域名。如果要让每个域的用户的邮件地址用自己所在域的域名,就必须在IIS管理控制台的SMTP服务器上添加其它各域的域名,同时把这些新添加的域设置为本地域,所有的域名都自动成为本地域的别名。但这对用户是透明的,在用户看来他们使用的就是他们所在域的邮件服务器。
+　　3.多域网络下的多Web邮件服务器系统
+　　这种系统适用于大型、物理分散的网络系统。在这类网络中,或者用户规模庞大,或者域之间的连接速度太慢。如果所有的用户都使用同一个Web邮件服务器势必对服务器有更高的要求;对于物理分散的网络,在多Web邮件系统下,用户可以就近服务,节约了宝贵的带宽资源,对通过低速信道连接的2个较大的域尤其如此。
+在多Web邮件服务器系统中,在每个SMTP服务器上必须添加所有其它SMTP服务器所在的域,并把它们设置为远程域,而且各SMTP服务器设置为允许相互转发邮件。这样各个域的用户就可以相互发送电子邮件了。
+　　4.将内部网络的电子邮件发送到Internet
+　　在能够把电子邮件发送到Internet之前,内部网络必须直接或通过代理服务器接入Internet;之后,在IIS SMTP服务器上设置邮件网关为智能主机。所有外出的邮件不需要查找邮件目的域的MX记录,都直接发送到邮件网关而不是本地SMTP服务器;邮件再从邮件网关被发送到目的Internet域。
+5 总 结
+　　将IIS SMTP和ASP相结合,可以很快地建立Intranet和Internet Web邮件系统。WEB邮件系统因其简洁、构造成本低、管理简单、使用方便而受到网络开发人员和邮件用户的欢迎。事实上,许多Internet站点都已经开发出Web邮件服务站点,并提供免费的Web邮件服务。由于Web邮件系统部分地克服了传统的客户机/服务器结构的邮件系统的诸多不足,它必将对传统的邮件系统构成挑战和冲击。同时Web邮件系统也会在不断改良中得到进一步的完善。
+贺红心（重庆市解放军后勤工程学院研究生队400016）
+谢洪涛（重庆市解放军后勤工程学院研究生队400016）
+卜淮原（重庆市解放军后勤工程学院研究生队400016）
+收稿日期：1999-09-01

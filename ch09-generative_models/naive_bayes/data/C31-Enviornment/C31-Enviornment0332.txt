@@ -1,0 +1,101 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第5期 No.5 Vol.18 1998
+科技期刊
+
+产酸相最佳发酵类型工程控制对策*
+李建政　任南琪　（哈尔滨建筑大学市政与环境工程学院，哈尔滨 150008）
+文　摘　对二相厌氧消化工艺的研究证明，产酸发酵阶段对整个厌氧生物处理系统运行的成败起着关键的作用，作为产酸发酵三种类型之一的乙醇型发酵被证明是产酸相的最佳发酵类型。采用连续流二相厌氧生物处理系统，对产酸相乙醇型发酵在实际工程中能够直接控制的运行参数进行了研究与探讨。试验结果表明，产酸相乙醇型发酵的最佳参数：温度为34～38℃，pH为4.0～4.4，Eh为-300～-400mV， HRT为5～6h；污泥负荷应不大于4gCOD/gVSS*d，以2.5gCOD/gVSS*d最佳。
+关键词　废水处理　产酸发酵　二相厌氧生物处理　运行控制参数
+The operational controlling strategy about the optimal fermentation type of acidogenic phase.Li Jianzheng,Ren Nanqi (School of Municipal and Environmental Engineering, Harbin University of Civil Engineering and Architecture，Harbin 150008).China Environmental Science.1998,18(5):398～402
+Abstract—From the traditional viewpoint, the methanogenic step is the limiting stage in the process of anaerobic digestion. The results obtained by studying the of two-phase anaerobic digestion showed that acidogenic fermentation stage played an important role in the successful run of the anaerobic biotreatment system. As one of three acidogenic fermentation types, the ethanol-type was proved to be the optimal. The operational controlling strategy about the ethanol-type fermentation was studied using a continuous-flow system of two-phase anaerobic biotreatment system. The results show that the optimal operational controlling parameters are temperature　34～38℃, pH　4.0～4.4，Eh　-300～-400mV，HRT　5～6h.The sludge loading rate should be less than 4gCOD/gVSS*d , with 2.5gCOD/gVSS*d as the optimal figure.
+Key words:wastewater treatment　acidogenic fermentation　two-phase anaerobic biotreatment　operational controlling parameter 
+
+　　 目前，对有机废水产酸发酵的研究结果表明，有机废水产酸发酵主要有两种类型，即丙酸型发酵和丁酸型发酵〔1〕。在研究中又新发现一种可以称为乙醇型发酵的有机废水产酸发酵类型〔2〕。通过生理生态学分析〔3〕，证实这一发酵类型的稳定性优于丙酸型发酵和丁酸型发酵。其发酵末端产物以乙醇、乙酸、CO2/H2为主，易于被产甲烷菌利用，并且降低了丙酸的产率，被认为是产酸相的最佳发酵类型。 控制生物产酸发酵类型的主要因素有NADH/NAD＋平衡和发酵产物酸性末端数量〔3〕,但在实际工程中，它们均无法操纵。为寻求乙醇型发酵的最佳运行控制参数，采用连续流二相厌氧生物处理系统，在中温范围（20～40℃），对产酸相乙醇型发酵的生态因子及有关运行控制参数作了研究分析。
+1　实验装置与方法
+1.1　实验装置
+　　实验中采用的高效产酸发酵反应器（发明专利号921144741.1）属连续流搅拌槽式反应器（CSTR），内设气-液-固三相分离装置。反应器有效容积为13.7L，沉淀区为4.3L。反应器设有搅拌装置，通过轴封保证反应区的密封条件。
+　　产甲烷相采用UASB反应器，直径200mm，总容积84 L，反应区容积为62.8L，其温度控制在35±1℃。
+　　二相反应器模型均由有机玻璃制成，采用将电热线缠绕在反应器外壁上的方式加热保温。
+试验流程见图1。
+
+图1　二相厌氧生物处理流程
+Fig.1　Flow chart of two-phase anaerobic biotreatment system
+1.2　污泥接种与培养
+　　产酸相污泥原取自生活污水排放沟底泥，经7d曝气培养后接种于产酸相反应器中。在温度35℃、有机负荷7.5～14.5kgCOD/m3*d的条件下，经过近20d的驯化培养，形成活性较高的厌氧活性污泥，并呈现乙醇型发酵。
+　　产甲烷相污泥取自本研究中心中药废水生物处理中试系统中已颗粒化的产甲烷相污泥。
+1.3　实验用底物
+　　底物采用甜菜制糖厂的废糖蜜，水样配制中仅补充少量N、P，正常运行中满足COD∶N∶P=1000∶5∶1。
+2　结果与讨论
+2.1　环境因素对产酸相的影响
+2.1.1　温度对产酸相的影响　图2反映了温度对产酸相乙醇型发酵产气速率及酸化率(产酸相反应器内所产生的末端产物总量与进水COD浓度的比值)的影响。实验结果表明，当产酸相温度控制在35℃左右时，其发酵菌群有最大的生物活性。
+2.1.2　pH值对产酸相的影响　 从图3可以看出，pH在4.0～5.0时，产酸相末端产物中始终以乙醇含量最高，但在4.4<pH<5.0时，末端产物中亦含有相当量的丙酸和乳酸，它们潜藏着使产甲烷相反应器内丙酸积累的可能性〔2〕；而当4.0<pH<4.4时，发酵末端产物以乙醇、乙酸、丁酸为主，更容易被产甲烷相转化利用，而无因丙酸和乳酸转化造成产甲烷相丙酸积累的潜在危险。因此，产酸相乙醇型发酵的最佳pH值为4.0～4.4。
+
+图2　温度对酸化率和产气速率的影响
+Fig.2　Effect of temperature on biogas production 
+and acid-produced rate
+
+图3　pH值对糖蜜发酵产物组成的影响
+Fig.3　Effect of pH on acid-grup of products
+2.1.3　氧化还原电位对产酸相的影响　正常运行时产酸相乙醇型发酵的Eh在-200～-500mV之间变动。在此范围内，氧化还原电位的变化不会成为产酸相转化率的限制因素。此时，产酸相的转化率主要受其它因素的影响。根据实验结果，乙醇型发酵的Eh最佳范围为-300～-400mV。
+2.2　负荷率对产酸相的影响
+2.2.1　容积负荷率对产酸相的影响　 容积负荷率对产酸相的产气率有显著影响。实验结果表明，产酸相单位COD的产气率随容积负荷的增加而降低（图4），但由于反应器相对处理量的增加，其日产气总量仍呈上升趋势（图5）。
+　　图6反映的是容积负荷对产酸相COD去除率影响。结果表明，进水COD浓度较低（平均为3630mg/L）时反应器中生物量相对于底物投加量是过剩的，这时产酸相COD去除率随容积负荷的增加而增加，二者几乎成正比关系（曲线1）。当进水COD浓度达到较高值（大于4000mg/L）时，产酸相COD去除率随有机负荷的增加而减小，最终趋于一稳定值（曲线2,曲线3，进水COD浓度平均值分别为4480mg/L、6255mg/L）。产酸相对BOD的去除率受容积负荷变化的影响较小（曲线4），始终保持在5%左右。
+
+图4　产酸相容积负荷与产气率的关系
+Fig.4　Relation of volume loadingrate on aerogenic rate 
+
+图5　产酸相容积负荷与产气速率的关系
+Fig.5　Relation of volume loadingrate on biogas production
+
+图6　容积负荷对产酸相COD去除率的影响
+Fig.6　Effect of volume loading-rate on COD removal rate 
+in acid-phase reactor
+　　从运行结果来看，产酸相对糖蜜的去除率较低，一般在15%～25%之间。但是，产酸相对有机物的去除率不是衡量其处理效能的唯一标准，更重要的是它起到以下3个作用：给产甲烷相提供最佳底物种类组成；具有较高的有机物转化率和产酸（醇）比率；提高了出水可生物降解性。
+2.2.2　污泥负荷率对产酸相的影响　污泥负荷率对产酸相的影响实验结果（图7～图9）表明，产酸相发酵末端产物产量在污泥负荷率为1.5～2.5gCOD/gVSS*d时最高，污泥负荷过高或过低都会使底物转化率降低（图7）；产酸相产气率随污泥负荷率的增加而增加，当污泥负荷率提高到大于2.5gCOD/gVSS*d时，这种增加趋势逐渐减小，最终趋于一恒定值（图8）；如果污泥负荷率提高到大于4gCOD/gVSS*d时，则可能使产酸相的pH值降至3.8以下，此时产酸相的底物转化率和产气率锐减，污泥活性受到极大抑制，可把产酸相的这种状态称为“过酸状态”。 
+
+图7　污泥负荷对发酵产物产量的影响
+Fig.7　Effect of sludge loadingrate on the total 
+production of acid-group
+
+图8　产酸相污泥负荷与产气率的关系
+Fig.8　Relation of sludge loadingrate on biogas production
+
+图9　产酸相出水pH值与污泥负荷的关系
+Fig.9　Relation between the pH of exhaust outlet
+and the sludge loadingrate
+　　综上所述，产酸相乙醇型发酵在正常运行时的污泥负荷率不应大于4gCOD/gVSS*d，以2.5gCOD/gVSS*d为最佳。
+2.3　搅拌器的搅拌速率对产酸相的影响
+　　高效产酸发酵反应器的搅拌，采用提升式。试验在温度35℃、HRT（停留时间）4.1h的条件下进行。试验结果(图10)表明，最适的搅拌速率为120～130r／min（RMP）。搅拌速率太低时，微生物与底物接触不够充分，传质过程受到影响，产酸相的有机物转化率较低。搅拌速率过高时，不仅会导致出水中悬浮物的增加、活性污泥流失，还会产生以下不利影响,搅拌程度过强，增加了混合液的挟气作用，使产生的气体难以向气相迅速释放，这样就导致了在高搅拌速率下产酸相产气率呈下降趋势；混合液挟气量的增加，即意味着混合液中生化反应产物含量的增加，这将阻碍絮体内的传质过程，最终导致底物的酸化率降低。
+
+图10　搅拌速率对产酸相的影响
+Fig.10　Effect of mixing-rate on acidogenic phase 
+2.4　水力停留时间对产酸相的影响
+　　从图11可看出，水力停留时间（HRT）为4～6h时，产酸相为乙醇型发酵，其酸化率在5～6h时最高；当HRT为9～10.5h时,产酸相则呈混合酸发酵；而HRT处在7～8h之间时，由于乙醇型发酵菌群与混合发酵菌群都得不到优势选择，而使产酸相表现出较低的生物活性。实验结果表明，HRT的改变不仅能影响产酸相底物转化率，且对产酸发酵的微生物种群结构亦有显著影响，甚至可以完全改变其发酵途径。产酸相乙醇型发酵的最佳HRT选择5～6h较为适宜。
+
+图11　停留时间对发酵末端产物总量的影响
+Fig.11　Effect of retention time on the total production 
+of acid-group
+2.5　产甲烷相运行状况的分析
+　　 从图12可以看出，在试验的整个正常运行期间，产甲烷相对COD的去除率始终保持在80%以上。进水COD浓度为2500～4000mg/L时，产甲烷相对COD的去除率平均为92%（曲线1），当进水COD浓度提高到4000～6500mg/L时，其COD去除率则降为85%左右（曲线2）。其主要原因是，在增加进水有机物浓度的同时亦会增加进水中难生物降解物质的含量。
+
+图12　容积负荷对产甲烷相COD去除率的影响
+Fig.12　Effect of volume loadingrate on the removal rate
+of organic matter in methanoginic phase
+　　产甲烷相对BOD的去除率较高，始终保持在95%左右。
+　　在实验的整个正常运行期间，尽管产酸相的出水水质（COD浓度、发酵末端产物组成、MLSS、pH值等）有变化，而产甲烷相始终保持着良好的运行状态，对水力负荷冲击表现出较强的承受能力。在此，产甲烷相高效、稳定的运行状态证明了选择乙醇型发酵作为产酸相最佳发酵类型的优越性，为提高整个二相厌氧生物处理系统的处理能力及运行稳定性作出了贡献。在运行后期，对系统进行了最大容积负荷率的试验，其试验结果亦为这一结论提供了有力的证据。
+3　结论
+3.1　在实际工程中，对产酸相乙醇型发酵可直接操纵的最佳工艺参数： pH值为4.0～4.4，温度为34～38℃，Eh为-300～-400mV，污泥负荷率为2.5gCOD/gVSS*d，HRT为5～6h。
+3.2　pH值、负荷率、HRT、Eh等因子的变化，不仅会影响发酵末端产物的产量，甚至可以改变产酸发酵。
+3.3　系统正常运行时，产酸相污泥负荷应控制在不大于4gCOD/gVSS*d的范围，大于此范围时，将导致产酸相的“过酸状态”。
+3.4　虽然产酸相对COD去除率只有15%～25%，但这不是衡量其处理效能的唯一标准，更主要的是它起到了以下作用，给产甲烷相提供最佳底物种类组成；具有较高的有机物转化率和产酸（醇）比率；提高了处理后水的可生物降解性。
+3.5　产酸相乙醇型发酵保证了产甲烷相运行的高效性及稳定性。
+参考文献
+1　Cohen A, Gemert JM van, Zoetemeyer RJ,et al.Main characteristics and stoichiometric aspects of acidogenesis of soluble carbohydrate containing wastewater.Process Biochem.,1984,19:228
+2　任南琪.有机废水处理生物产氢原理与工程控制对策研究：〔博士论文〕.哈尔滨：哈尔滨建筑大学,1993
+3　任南琪，王宝贞，马　放.有机废水产酸发酵的生理生态学分析.中国沼气，1995,13(1):1～6
+
+作者简介
+李建政　男，1965年12月生。助教。现在哈尔滨建筑大学市政与环境工程学院攻读博士学位。作为主要完成者曾先后参加过“中约废水高效生物处理中试研究”、产酸相最佳发酵类型控制及生理、生态学研究(国家自然科学基金项目)、有机废水发酵法生物制氢技术(黑龙江省重大攻关项目)等项目的研究工作。发表论文2篇。
+收稿日期：1998-01-16
+* 国家自然科学基金资助项目（59578021）

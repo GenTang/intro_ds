@@ -1,0 +1,67 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第8期 Vol.25 No.8 1999
+
+
+
+航空票务信息系统的设计与实现
+汪世明，杜新华
+摘要：讲座了在Client/Server环境下，通信系统硬件、软件以及数据库的一种设计方法，提出利用交换式多兆比特数据业务（SMDS）进行数据通信的系统硬件设计方法，讲座了工程中利用WinSock进行通信的程序流程，以及Client/Server环境下数据库应用开发的几点经验。
+关键词：客户服务器；交互式多兆比特数据业务；套接字；开放式数据库互连；数据库管理系统
+The Design and Realization for Information System of Airlines Tickets Service
+Wang Shiming,du xinhua
+(Research Institute of Optical Fibre Technology shanghai Jiaotong University,Shanghai 200030)
+【Abstract】A design methodology of the hardware,software in telecommunication system and database under Client/Server environment is discussed in this paper.A system hardware design methodology of data communication via SMDS is presented.The technological process of communication programming using WinSock and the experience of database application development under Client/Server environment are also discussed.
+【Key words】Client/Server;SMDS;WinSock;ODBC;Database management system
+1 硬件系统的实现
+　　在工程中，各售票点和票务信息中心的距离少则几公里，多则几十上百公里，所以直接铺设电缆的方法是行不通的，过高的铺设费用会令人望而生畏。一般的方案是利用数字数据网 DDN(Digital Data Network), 租用高速的数字专线将 Client 和 Server 连接起来。这种方案是可行的，但存在如下缺点：专线的带宽是固定的，而对票务信息系统而言，其数据流量是突发性的，这样带宽资源利用率极低，不足 1 ％，因此，采用该方案要承受很高的运行代价。另一种方案是采用 X.25 交换网，这方案有着良好的经济性能，但它满足不了对性能的要求： X.25 交换网采用存储－转发的交换方式，传输延迟大 ( 一般为几百 ms); 而且大多数 X.25 网络工作在 64Kb/s 的速率上，满足不了系统突发数据对速率的要求。 
+　　结合实际情况，在系统实现中使用了交换式多兆比特数据业务 SMDS(switched multimegabit data service) ，见图 1 。用户通过 SMDS 的用户网络接口 SNI(Subscriber Network Interface) ，采用分布式队列双总线 SQDB 协议接入 SMDS 。 SMDS 的作用象一个高速的 LAN 主干网允许分组从一个 LAN 流向另一个 LAN ，用户只需 n 条到最近 SMDS 路由器的短线路。这些短线路可选用各种连接办法：如使用 DQDB 的城域网 (MAN) ，从电话公司租用很短的高速数字专线，采用直接电缆连接，或者建立红外线路等。 
+
+图1 使用SMDS互连示意图
+　　SMDS 是为处理突发流量而设计的，它的标准速度是 45Mb/s ，虽然有时可以选择低一些的速度。 SMDS 以如下方式处理突发流量，连接到每根访问线的路由器包含一个计数器，它以固定的速率增加。当一个分组到达路由器时，先检查计数器的值是否比分组长度值大。如果是，该分组立即被发送出去并且该计数器减去分组长度值。否则，该分组被丢弃。实际上，如果用户可以以 20Kb/s 的平均速率发送数据，则其突发速率可能要高得多。如果线路空闲了 0.5s ，那么用户可以按 45Mb/s 的速率发送 1KB 的突发数据，大约传输 0.18ms 。即使在 100KB/s 的租用线路上，传输相同的数据量，也要用 10ms 。表 1 列出了不同网络对用户信息的延迟 ( 表中 SMDS 交换的平均数据传输速率为 26kb/s, 设线路空闲 0.5s) 。由此可见，这一方案充分利用了带宽资源，大幅度降低了通信成本，具有极好的经济性。同时在需要时提供了快速响应，延迟时间短。 
+表1 不同网络的信息延迟
+名称延迟/ms(100字节的帧)延迟/ms(1600字节的帧)
+SMDS交换0.0180.28
+帧中继交换1.22.0
+X.25交换12.020.0
+19.2 kb/s传输41.67666.7
+56 kb/s传输14.28228.57
+1.544 Mb/s传输0.528.29
+
+　　SMDS 的另外两个用户特性值得一提：①多点播送，用户可以指定一系列 SMDS 地址，并且被分配给一个特殊的号码以代替整个列表。任何发往该号码的分组将被发往列表上的所有成员；②当一个分组到达 SMDS 网络时，路由器先确定源地址是否与输入线一致，如果不一致，分组被抛弃；而且 SMDS 提供地址屏蔽，因此用户可以有效地建立私有网络，与外界没有 SMDS 联系，确保了网络的安全性。最后，该方案易于网络的扩展和维护。 
+2 软件系统的设计
+　　软件是系统的重点所在，其设计采用了面向对象的程序设计技术。在开发过程中，将 Client 和 Server 看成是两个相互作用的类，根据需要在 Client 和 Server 之间分配资源和任务，允许根据 Client/Server 模式重新设计业务流程，开发时易于把握复杂的软件结构，提高软件的质量和适应性，加快开发速度和降低开发代价。下面深入探讨软件系统开发的具体方法和实现策略。 
+2.1 网络操作系统和开发工具的选 择 
+　　考虑用户对各种网络操作系统的熟悉程度和用户界面的友好性，选用国内最通用的基于 TCP/IP 的 Microsoft WindowsNT 4.0 ， Client 端运行 WindowsNT WorkStation ， Server 端运行 WindowsNT Server 。在软件开发工具方面，考虑到开发工具功能的强弱以及是否具有简单易用的开发界面，采用了 Visual C++ 5.0 。因为① Visual C++ 5.0 支持 Windows Sockets 网络编程，而且提供了 ODBC 驱动器，这些驱动器支持诸如 Access 、 Foxpro 、 Oracle 等数据库系统；②微软基础类库 (MFC) 提供了丰富的设计良好的基类，大幅度地减轻了编程工作量；③ " 所见即所得 " 的界面设计风格使开发者无须在图形用户接口 (GUI) 设计方面花太多的时间和精力。 
+2.2 通信软件的设计 
+　　Sockets 是网络通信的基本操作单元，它提供了不同主机间进程双向通信的端口， Sockets 编程接口是应用层协议的实现基础，它通过调用传输服务原语访问传输服务来隐藏网络底层复杂的结构与协议，使编程人员能够抽象而简单地进行网络通信。随着 Internet 在全球范围内的广泛使用， Sockets 已逐渐成为网络编程的通用接口。 Windows 套接字 (WinSock) 和 WinSock API 结合了伯克利的套接字函数和微软的 Windows 函数，这种结构可使编程人员将 Windows 的消息驱动机制和伯克利套接字规范结合起来。 WinSock 支持两类套接字，分别是流式套接字 (SOCK_STREAM ，支持 TCP 协议 ) 和数据报套接字 (SOCK_DGRAM ，支持 UDP 协议 ) ，都适用于 Client/Server 模型。在这两种套接字中，数据报套接字支持广播消息的发送，但不保证数据的可靠性，也不保证数据的顺序。在工程中采用流式套接字，流式套接字是一种面向 " 数据流 " 的传输方法。在服务器处 Socket 创建成功后并处于等待状态时 ( 即 Listening 状态 ) ，客户机 Socket 创建成功后与服务器的 Socket 进行连接。连接成功后，双方就可以进行数据的发送和接收工作，全双工状态，接收和发送同时进行。采用流式套接字可以保证传输的可靠性并保证数据的顺序。 
+　　为描述 Windows Socket ， MFC 提供了两个类： CAsynSocket 和 CSocket 。其中 CAsynSocket 类封装了 Windows Sockets API, 并将与 Sockets 有关的 Windows 消息转化为回调函数。 CAsynSocket 是基类，其使用更具灵活性，但对编程人员的要求也较高。 CSocket 类是 CAsynSocket 类的派生类，通过 MFC 中的 CArchive 类的对象提供了更高层次的抽象，它封装了 Sockets 实现中的许多小节。在通信软件的开发时采用了 CSocket 类，按以下 7 个步骤进行 ( 如图 2 所示 ) ： 
+
+注：（1）ListenSocket的OnAccept(int nErrorCode)函数被回调，处理来自客户机的连接要求；（2）处OnReceive(int nErrorCode)函数被回调，处理来自另一方面的消息
+（1）为向服务器发送信息（2）为向客户机发送消息
+图2 Socket通信流程图
+　　(1) 在服务器端，构造 CListenSocket 对象 ( 类 CListenSocket 是类 CSocket 的派生类，重载其 OnAccept(int nErrorCode) 函数，使其处理来自客户机的连接请求 ) ，在客户机端，构造 CClientSocket 对象 ( 类 CClientSocket 是类 CSocket 的派生类，重载其 OnReceive(int nErrorCode) 函数，使其用于处理来自服务器的消息 ) 。 
+　　(2) 对以上两个对象分别调用其 Create 函数。 
+　　(3) 在服务器端，调用 CListenSocket 的 Listen 函数；在客户机端，调用 CClientSocket 的 Connect 函数。 
+　　(4) 一旦 CListenSocket 的 OnAccept 函数被调用，则执行 CSrvSocket SrvSocket ； CListenSocket.Accept (SrvSocket)( 类 CSrvSocket 是类 CSocket 的派生类，重载其 OnReceive(int nErrorCode) 函数，使其用于处理来自客户器的消息 ) 。 
+　　(5) 在服务器和客户机两端分别构造 CSocketFile 对象，使其分别与 CSrvSocket 或 CClientSocket 对象相关联；构造 CArchive 对象，接收或发送数据。 
+　　(6) 利用 CArchive 对象进行 Client/Server 间的通信。 
+　　(7) 必要时删除 CArchive 、 CSocketFile 和 Sockets 对象。 
+　　在实际的软件中，有着许多错误陷阱。为节省篇幅，源程序部分略。 
+2.3 数据库软件的设计 
+　　数据库软件是整个软件系统的关键所在，它的性能很大程度上确定了系统的性能。在系统的开发过程中，精心设计了这部分软件。 
+　　首先，在数据库的实现方面，考虑与已有数据库的兼容性问题，要求异构数据库的互连、共享和集成，这样就必须走开放式数据库的道路，而且最好有一个简单易用的开发界面，因此我们选用了 ODBC 。根据 VC Book Online 的定义： ODBC provides an API that different database vendors implement via ODBC drivers specific to a particular database management system (DBMS). Your program uses this API to call the ODBC Driver Manager, which passes the calls to the appropriate driver. The driver, in turn, interacts with the DBMS using Structured Query Language (SQL) 。这就说明，作为 Windows 开放标准体系 (WOSA) 的一个组成部分， ODBC 是通过驱动程序来提供数据库的独立性的。驱动程序是一个用于支持 ODBC 函数调用的模块，开发 MFC 数据库软件时通过调用驱动程序 (ODBC.DLL) 所支持的函数来操纵数据库。同时在工程开发时，采用了优化了的 ODBC 的 Client/Server 体系结构，如图 3 所示。这样 ODBC 驱动程序管理器及驱动程序位于 Server 端，减少了管理驱动程序的工作量。并且提供了开放的 ODBC API( 应用程序编程接口 ) ，便于定制和优化应用程序。另外，为减轻应用程序开发工作量，充分利用了 3 个常用的 MFC 数据库类： CDatabase 类封装了与数据源连接的操作； CRecordset 类封装了从数据源中选择得到的记录集，该记录集是按预定的查询条件获得的集合； CRecordView 类提供了表格视图，可以与 CRecordset 对象相连接。还有，根据实际需要，灵活地利用 CRecordset 类的筛选器和排序器对各种记录进行 " 筛选 " 、 " 排序 " 也是很重要的一环 , 它使软件的应用更方便、更得力。 
+
+图3 优化了的ODBC Client/Server体系结构
+　　其次，为提高 Client/Server 数据库系统的反应速度，我们选用了分布式逻辑配置，使得系统的 Client 和 Server 有对称的负载。 Client 和 Server 之间的每一条消息，都对应一个完整的数据库事物处理，从而减轻了网络负载。同时由于将表示逻辑层划归为 Client ，减轻了 Server 的负载，提高了系统的反应速度。另外还采用了其他多种方法用以提高反应速度：如运行专用的 SQL 服务器， SQL 服务器采用 FAT 文件格式，减少操作系统高速缓冲，不使用不必要的驱动程序等。 
+　　最后，在系统运行过程中，由于不可预测因素有可能致使网络通信或者数据库操作的失败，这样就会导致客户端和服务器操作的不一致，致使数据库的完整性和一致性遭到破坏。为此，在工程中采用了以下两种方法来控制：①证实机制，对每一个数据库的写操作，都验证其是否被成功执行；②乐观锁，在每一个表中增加一个总是随着记录的更新而改变的字段，通过比较先前读出的字段值和当前值，就可以判断这期间数据库的内容是否被更新。乐观锁机制提高了数据库系统的反应速度。 
+3 效果及结束语 
+　　网络条件下系统健壮性和响应时间是最关键的问题。测试结果表明：服务器和客户机均正常工作后，网络通信的最大传输延迟在 0.1 秒以下，未发现有误码或死机及系统崩溃现象；数据库是该项目的最大组成部分，在近 1 周的测试过程中，发现数据库操作的反应时间在 0.5 秒以下，未检测到有任何错误，满足了航空票务信息系统对健壮性和响应时间的要求，用户对系统性能表示满意。在建成和运行成本方面，由于硬件系统的优良设计，同其他类似的信息系统相比，该系统具有最高的性能价格比。另外，由于软件系统的精心设计，其开发费用是相当低的。 
+　　数据库和 Client/Server 模型的结合，是信息管理系统发展的必然趋势。在硬件系统方面根据实际情况设计通信网络，软件上采用 WinSock 机制来进行 Client 、 Server 之间的通信，可获得较高的通信性能价格比。 ODBC 是一个十分简洁的数据库应用接口，适当地利用它可以节省开发时间，简化开发过程，提高软件质量。最后合理地进行数据库系统的负载分配，精心地设计数据库应用开发，可以提高数据库系统的反应速度，缩短其反应时间。 
+作者单位：上海交通大学光纤技术研究所，上海 200030
+参考文献 
+1 Norton P. MFC 开发 Windows95/NT4.0 应用指南 . 北京：清华大学 出版社 ,Prentice Hall ， 1998,4 
+2 Tanenbaum A S.Computer Networks(Third Edition). 北京：清华 大学出版社、 Prentice Hall ， 1997,2 
+3 高传善，张世永，曲海 . 计算机网络教程 . 上海：复旦大学出版 社， 1994,11 
+4 Ullman J D ， Widom J.A First Course in Database Systems. 北 京：清华大学出版社， 1998,4 
+5 Online Help about Visual C++ 5.0.Microsoft Corporation ， 1997 

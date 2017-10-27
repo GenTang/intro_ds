@@ -1,0 +1,99 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第10期 Vol.25 No.10 1999
+
+
+
+基于ODBC的Visual C++5.0 MFC数据库应用程序设计
+杨喜中
+摘要：详细讲座了在Windows 95环境下应用Visual C++进行ODBC MFC数据库应用程序开发的具体方法和技巧，分析MFC和ODBC运行机制，给出了部分应用实例。
+关键词：数据库，ODBC，MFC
+The ODBC Based Visual C++5.0 MFC Database Application Development
+Yang Xizhong
+(Department of Civil Engneeing,Guangdong University,Guangzhou,510090)
+【Abstract】The paper discusses upon the technology and method for developing ODBC MFC database application by Visual C++5.0,and then analyzes the running mechanism of MFC and ODBC.At last some application code is given.
+【Key words】Database;ODBC;MFC
+　　关系型数据库系统的发展已相当成熟并得到广泛应用。但因不同数据库系统间数据结构的差异，造成各种数据库间难于勾通和数据共享。1993年夏，微软发布了一种称作ODBC的异种数据库互操作技术，使数据库应用程序的开发者不必关心数据库的类型、地址、结构以及与其它数据库间的关系等细节，把对不同数据库的访问简单地当作对一种数据库的访问。目前ODBC已得到数据库产业界的广泛支持，在Windows、OS/2和Macintosh等平台都有ODBC驱动程序和开发工具，各大数据库、工具厂商及应用软件开发商都提供对ODBC的支持。
+1　ODBC及其特点
+　　Visual C++中提供与ODBC有关的MFC类有Database、CRecordSet和CRecordView,其中CDatabase类提供了与数据源的连接接口，通过它可实现对数据源的操作；CRecordSet类提供了从数据源中取出的记录集，用于建立与应用程序用户界面的直接连接；CRecordView视图类则可通过控件显示数据库中的记录。在MFC数据库应用程序中有两种非常重要的数据交换机制：(1)应用程序界面即对话框中的控件与CRecordSet派生类的成员变量间通过DDX对话框数据处理交换机制DoDataExchange(CDataExchange*pDX)建立关联；(2)CRecordset派生类的成员变量通过RFX记录字段数据交换机制DoFieldExchange(CFieldExchange*pFX)与数据源相应表的字段建立关联。
+
+图1 两种重要的数据交换机制
+2　应用ODBC进行数据库编程的步骤
+　　(1) 在系统中注册数据源。首先生成数据库，如用Microsoft Access创建一个数据库文件student.mdb,该数据库中有许多表，如StudentInfo。然后打开Window95的控制面板并双击ODBC32图标,注册待访问的数据库。
+　　(2) 用AppWizard创建基本数据库应用程序。在创建过程中，要根据所需要的数据库的特性，可选择Database view with file support选项或Database view without file support选项，再选定所要操作的数据库并选择所需要的表，其他选项可缺省。
+　　(3) 向基本数据库应用程序添加支持数据库特性的代码。
+3　创建数据库记录的显示
+　　应用资源编辑器对对话框进行修改，根据数据库记录字段的数量和类型，在对话框中加入相应的用于数据显示的编辑框和静态标签；对每个编辑框用属性对话框给定其ID号和其他属性。每个编辑框代表数据库记录的一个字段，然后运行ClassWizard使对话框中的每个编辑控件和记录集中相应的成员变量相连接。如选择m_pSet->m_StudentName进行绑定；即通过选择应用程序CRecordSet派生类中的成员变量作为应用程序的视图类控件成员变量，从而建立控件与数据源之间的连接。此时运行程序就可显示数据库中的数据。
+4　加入支持数据库特性的代码
+4.1 基本数据库操作代码
+　　在生成的数据库应用程序的视图类中包含一个指向CRecordSet记录集派生类对象的指针m_pSet，该指针建立了视图类与记录集之间的联系，使得在视图中能较容易地显示记录集中相应的查询结果。
+新增记录：
+　　m_pSet->AddNew();　//建立一个空记录
+　　UpdateData(FALSE);　//用空记录刷新控件的显示
+删除记录：
+　　m_pSet->Delete();　//删除当前记录
+　　m_pSet->MoveNext();
+　　if(m_pSet->IsEOF())　//是否在记录集末尾
+　　m_pSet->MoveLast();
+　　if(m_pSet->IsBOF())　//是否在记录集开头
+　　m_pSet->SetFieldNull(NULL);
+　　UpdateData(FALSE);　//视图窗口显示
+编辑记录：
+　　m_pSet->Edit();
+存储记录：
+　　UpdateData(TRUE);　//将数据从控件传送到记录集
+　　if(m_pSet->CanUpdate())　//确定数据源是否可更新
+　　m_pSet->Update();　//将新记录数据添加到数据源
+　　m_pSet->Requery();　//重建记录集
+　　UpdateData(FALSE)；　////刷新视图窗口显示
+4.2 数据库的排序和过滤
+　　数据库排序：先关闭记录集，再设定排序字段名，即将SQL语句中Orderby后的字符串赋给m_strSort，然后再打开记录集。
+　　m_pSet->Close();　//关闭记录集
+　　m_pSet->m_strSort="Name";//设置排序字段
+　　m_pSet->Open();//重新打开记录集
+　　UpdateData(FALSE);//用新排好序的记录集更新视图
+　　数据库过滤:先关闭记录集，再设定过滤排序字符串，即将SQL语句中Where后的条件串赋给m_strFilter，然后再打开记录集。
+　　m_pSet->Close();　//关闭记录集
+　　m_pSet->m_strFilter="Name='Yang'";//设置过滤字符串
+　　m_pSet->Open();//重新打开记录集
+　　int Recount=m_pSet->GetRecordCount();
+　　if (Recount==0){
+　　m_pSet->Close();
+　　m_pSet->m_strFilter="";
+　　m_pSet->Open();}
+　　UpdateData(FALSE);
+5　数据库的多表操作
+　　Visual C++5.0 AppWizard生成数据库应用程序时通常选择数据源的单个表进行操作，但有时数据库应用程序需要实现同时对多个表进行操作，可用下列方法实现：
+5.1 多表同步联合操作
+　　生成数据库应用程序或用ClassWizard创建新的CRecordSet派生类时，数据源后可同时选择多个表。此时生成的CRecordSet派生类是将所选表的各个字段集合生成一个大表，即同步操作每一个表。下面是同步操作3个表:table1,table2,table3(其中table1和table2的结构相同)的部分代码：
+　　void　CMydbSet::DoFieldExchange(CFieldExchange*pFX)
+　　{//{{AFX_FIELD_MAP(CMydbSet)
+　　pFX->SetFieldType(CFieldExchange::outputColumn);
+　　RFX_Text(pFX,_T("[table1].[name]"),m_name);
+　　∶
+　　RFX_Text(pFX,_T("[IDCard]"),m_IDCard);
+　　//}}AFX_FIELD_MAP
+　　}
+　　CString CMydbSet::GetDefaultSQL()
+　　{
+　　return_T("[table1],[table2],[table3]");
+　　}
+5.2 多表单独同时异步操作
+　　许多时候数据库应用程序需要异步操作多个表，此时可用ClassWizard对数据源中的各个表分别创建各自的CRecordSet派生类进行管理，即可实现对各个表单独进行操作。
+5.3 同类型多表切换操作
+　　数据库应用程序需要异步操作的多个表具有相同结构，即为同类表。此时也可对数据源中的各个表分别创建各自的CRecordSet派生类进行管理，实现对各个表单独进行操作。这样做增加了编程工作量及复杂性，但通过分析单独创建各个同类表的CRecordSet的派生类，可以发现它们的构成大部分是相同的，差别在于各自的成员函数GetDefaultSQL()返回的表名不同，例如第一个表的该函数为：
+　　CString CSet1::GetDefaultSQL()
+　　{return_T("[table1]");
+　　}
+　　生成数据库应用程序或创建新的CRecordSet派生类时在选择数据库后选择一个表。此后再对该类的成员函数GetDefaultSQL()进行修改，将表名换为一个字符串变量。而在打开某个特定表之前，通过将其表名字符串如_T("[table2]")赋给该字符串变量TableName就可实现用同一个CRecordSet派生类对多个同类表进行独立操作。例如：
+　　CString CSet1::GetDefaultSQL()
+　　{return_T(TableName);
+　　}
+6　结论
+　　应用Visual C++5.0的ODBC类库进行MFC数据库应用程序的开发，可操作大多数的数据库，也便于异种数据库系统间的操作。用户可将不同数据库的访问简单地当作对一种数据库的访问，因而减少了开发的工作量，使程序具有良好的可移植性和数据库的独立性及可扩充性。
+作者简介：杨喜中（1964～），男，副教授，研究方向：GIS、数据库系统、Auto CAD的开发、多媒体技术等
+作者单位：广东工业大学土木工程系，广州510090
+参考文献
+1 Kruglinski D J.王国印译.Visual C++技术内幕.北京：清华大学出版社 ,1994
+2 Gregory K,康博创作室译.Visual C++5开发使用手册.北京：机械工业出版社 ,1998
+收稿日期：1999-02-09

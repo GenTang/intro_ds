@@ -1,0 +1,141 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第2期 No.2 Vol.18 1998
+科技期刊
+
+镉污染农田农业生态整治与安全高效利用模式*
+王凯荣　陈朝明　龚惠群　万继武　张格丽
+（中国科学院长沙农业现代化研究所，长沙 410125）
+　　文　摘　传统的镉污染治理策略多以改造和净化环境、恢复土壤质量为宗旨。作者从有效利用污染农田的角度，提出了农业生态整治策略，即将污染农田作为一种特殊资源，通过发掘利用生物（植物）自身的耐（抗）镉基因，使污染土地在农业领域重新获得安全而高效的利用。介绍了对某铀矿区近40hm2镉污染农田进行治理利用的成功实践。通过采用桑蚕生产模式替代粮作生产模式，杜绝了污灌污染，消除了食物链中镉的危害，使土壤生产力得到恢复，农田年均产值比水稻模式提高2880元/hm2，比种玉米提高8880元/hm2，利税增加1980元/hm2，耕层土壤镉含量年平均下降1.33mg/kg。还论述了镉在桑树中的分布特征及其对桑树生长和蚕茧质量的影响。
+　　关键词　镉污染农田　生态整治　桑　蚕
+The models of agro-ecological regulation and safe efficient utilization of farmland polluted by cadmium.Wang Kairong,Chen Chaoming,Gong Huiqun,Wan Jiwu,Zhang Geli(Changsha Institute of Agricultural Modernization, Chinese Academy of Sciences,Changsha 410125).China Environmental Science.1998,18(2):97～101
+Abstract—Traditional controlling strategy of Cd pollution usually aims at improving and cleaning up the environment and restoring the soil quality. In this paper, an agro-ecological regulation strategy is put forward in view of efficient utilization of polluted farmland, i.e., taking the polluted farmland soil as a special resource and put it into a safe high efficient utilization again in agriculture domain by finding and using Cd-tolerant species.The amelioration and cleaning up of the farmland are made in the process of soil utilization. A case study of successful amelioration and utilization of a 40 hm2 Cd-polluted farmland in a uranium mining area is introduced. It cut off further pollution of soil by irrigation and got rid of Cd pollution in food chain and finally restored the farmland productivity by selecting a mulberry-silkworm production model instead of the cereal cropping system. The mean annual output value of the farmland increased 2880 yuan/hm2 than the rice cropping system and 8880 yuan/hm2 higher than the maize cropping, while the profit and tax increased 1980 yuan/hm2 and Cd level in the ploughed horizon decreased 1.33mg/kg annually. Moreover, Cd distribution in mulberry and its effects on mulberry growth and cocoon and silk quality are also reported.
+Key words:Cd pollution farmland　ago-ecological regulation　mulberry　silkworm
+　　镉污染是已知的危害最严重的农田污染类型之一。长期以来，有关镉污染治理的策略，多以改造和净化污染环境、恢复土地原有质量为宗旨。研究的方法主要包括以铲除和掩埋镉土为主要内涵的物理措施、以降低土壤镉的生物有效性为主要内涵的化学措施和利用植物吸收净化土壤镉的生物措施〔1～7〕。由于这些措施存在投资大、周期长、效果不稳定等问题，实践中推广应用并取得成功的实例尚不多见。基于这一现状，作者提出对镉污染农田实施农业生态整治与安全高效利用的策略，即将镉污染土壤作为一种特殊资源，因地制宜加以利用。其技术路线是，发掘利用生物（植物）的抗性基因，让生物适应污染土壤环境，通过协调生物与环境之间的关系，获取符合需求的产品和尽可能高的生产效益。生态整治策略的主要宗旨是实现污染农田安全而高效的利用，环境改造和净化寓于土地利用过程之中。在实施生态整治策略时，不排斥采用适当的物理、化学措施来降低环境的胁迫作用。报道了在湖南某铀矿区应用农业生态整治策略对镉污染农田进行成功治理利用的成果，以期对其它类似污染区的治理工作提供借鉴。
+1　试验区概况
+　　试验区位于湖南省安化县境内的某铀矿区。农田土壤由炭质和砂质板、页岩风化物发育而成，呈酸性或强酸性反应。以种植水稻和玉米为主。灌溉用水由于受矿坑水、尾矿堆径流和淋溶水的污染，含Cd量在0.059～1.40mg/L之间。每年因污灌带入农田的Cd达2～3kg/hm2，使近40hm2农田因此受到不同程度镉污染。耕层土壤Cd含量为0.62～89.1mg/kg，平均10.67mg/kg（n=131），其中稻田11.09mg/kg（n=87），旱地9.83mg/kg（n=44）。早稻（糙米）Cd含量为0.12～5.33mg/kg，平均1.13mg/kg（n=29），晚稻为0.03～9.36mg/kg，平均2.05mg/kg（n=43）；春玉米（籽）Cd含量为0.34～1.11mg/kg，平均0.70mg/kg（n=6），夏玉米为0.15～0.62mg/kg，平均0.33mg/kg (n=4)，均不宜继续食用。
+2　研究方法
+2.1　耐镉作物筛选与改种方案的确定
+　　筛选耐镉作物品种是实施农业生态整治的技术关键。于1991年开始，采用微区试验进行耐镉作物的鉴定筛选。每个微区的面积为1m2，内装1m3供试土壤，其中上层（0～50cm）土壤添加Cd，设6个浓度水平，分别为0.92, 8.49, 22.3, 40.6, 75.8和145mg/kg。以产量、品质和生产效益为考核指标，筛选出湖桑、苎麻、红麻、棉花等一批适生耐镉作物品种。在综合分析矿区资源特点和经济发展需求的基础上，确定以种桑养蚕生产模式替代传统的粮作生产模式。
+2.2　种桑养蚕模式的试验示范与推广
+　　1993年2月开始在矿区进行污染农田种桑养蚕现场试验与示范。选择土壤Cd含量≥10mg/kg的污染田土共计3.2hm2改种桑树。栽桑前每亩撒施100kg石灰，使土壤pH值由平均5.0上升到了6.0～6.5，降低土壤Cd的生物毒性。随后，开挖宽60cm、深80cm的栽植沟，沟底填埋毛草、堆（厩）肥和钙镁磷肥，覆土时将表土与底土混合，以降低根圈土壤Cd浓度。栽桑时，用含过磷酸钙和尿素的泥浆蘸桑根，提高桑树抗逆能力。桑树栽植密度为55×133cm，低干整形。至1994年4月，累计改桑52.3hm2（含部分非污染“插花田”）。
+3　结果分析
+3.1　土壤Cd污染对桑树生长的影响
+　　在微区试验条件下，当土壤Cd含量低于10mg/kg时，对桑树地上部分的生长和桑叶产量无明显不良影响。当土壤Cd含量在20～40mg/kg时，桑叶产量下降10%～30%。Cd含量达到145mg/kg时，分枝少而纤细，叶小而黄，临近死亡状况。图1为各处理采摘4批次的桑叶总产量，每批次连续采叶25～30d，相当于家蚕从1龄到5龄所需的饲叶天数。
+
+图1　土壤Cd含量对桑树鲜叶产量的影响
+Fig.1　Effect of soil Cd content on the yield of 
+fresh leaves of mulberry
+　　土壤Cd对桑树地下部分的影响主要表现为抑制根的生长发育。纤维根数量和长度随土壤Cd浓度提高而下降。当土壤Cd浓度达到75mg/kg以上时，桑根上出现大小不等的瘤状结节和菌丝状绒毛，根表皮皱裂，根尖分叉，并有明显的木栓化。图2为各处理1年生桑树纤维根重量的变化情况。从微区试验结果来看，桑树表现出来的耐Cd毒能力明显地大于黄会一等〔4〕根据盆栽试验作出的估计。
+　　在试验区环境条件下，土壤Cd含量在30mg/kg以下时，桑树生长正常。土壤Cd含量≥35mg/kg时，部分桑树新枝生长缓慢，叶色黄绿，叶片提早老化；当土壤Cd含量达89.1mg/kg时，桑叶小而粗糙，叶缘出现褐色的坏死斑块。在全试验区，出现不同程度Cd毒害症状的桑园面积约占污染农田总面积的6.1%。
+
+图2　土壤Cd含量对桑树纤维根重量的影响
+Fig.2　Effect of soil Cd content on the fibrous root 
+weight of mulberry
+3.2　桑叶Cd污染对蚕生长发育和茧质的影响
+　　微区土壤加Cd试验结果表明，桑叶Cd含量随土壤Cd浓度提高而提高，二者之间呈现极显著正相关〔8〕。通过根系吸收进入到桑叶中的Cd不会对蚕的生长发育和吐丝结茧产生明显毒害影响。日本学者曾报道，在蚕的人工饲料中添加Cd的浓度达到5mg/kg时亦不会对蚕体造成严重毒害影响〔9〕，说明蚕的耐Cd毒能力是相当强的。因此，在一般情况下，桑叶Cd含量高低并不是制约蚕业生产的重要因素。
+　　在试验区环境条件下，桑叶含Cd量与土壤Cd浓度之间的正相关关系不显著，除少数Cd含量过高的田块外，桑叶质量良好，对蚕茧生产无不良影响（表1）。
+表1　某铀矿Cd污染农田春蚕茧质量鉴定结果
+Table 1　An appraisal report on the quality of spring silkworm cocoon 
+in the Cd polluted farmlands by a certain uranium mining
+
+项　　目　　　样本序号
+123平均
+上车茧率（％）98.095.097.696.9
+下茧率（％）0.43.30.81.5
+茧衣重（g）14151414
+干茧粒重（g）0.7950.7550.7780.776
+干茧茧层率（％）49.0647.6846.2747.67
+茧幅（m）18.0917.6618.0617.94
+茧幅整齐度（％）93819389
+茧丝长（m）970.98933.62881.38928.66
+茧丝量（g）0.2700.2470.2380.252
+茧丝纤度（D）2.5102.3872.4342.444
+净度（分）95949695
+清度（分）98989898
+干毛茧出丝率(％)33.3331.1529.9431.47
+长吐量（mg）15.214.518.115.9
+蛹衣量（mg）5.804.805.205.27
+
+3.3　种桑养蚕对土壤Cd迁移的影响
+3.3.1　桑树对土壤Cd的吸收作用　 从微区添加Cd试验可以看出，桑树根系对土壤Cd有较强的吸收富积能力。Cd进入桑树植体之后进行迁移再分配。纤维根作为土壤Cd进入植株体的门户器官，含Cd水平最高，随后按主根、主茎、叶片和分枝的顺序依次下降。在各次分枝中，Cd含量水平有从老枝向新枝依次降低的趋势（表2）。在各器官组织中，韧皮部的Cd含量均明显高于木质部（表3）。
+表2　土壤加镉对桑树各部分Cd含量的影响（mg/kg） 
+Table 2　Effect of Cd level added to the soil on the Cd
+content in different parts of mulberry(mg/kg)
+
+项　目土壤Cd
+0.928.4922.340.675.8145
+纤维根1.0725.039.446.564.1281
+主根0.572.685.8310.718.3165
+主茎0.400.981.612.483.3833.2
+一次分枝0.340.640.881.101.307.75
+二次分枝0.310.590.730.860.953.41
+三次分枝0.300.470.690.870.971.21
+叶片0.660.821.121.201.623.32
+
+　　桑树吸收的Cd除对照和加Cd浓度最高的处理外，约有一半滞留在根系中（47.8%～56.4%），进入叶片的Cd只占总量的10%左右（7.5%～14.3%），其余分布在主茎（15.5%～22.0%）和各次分枝中（14.6%～22.4%）（图3）。
+
+图3　土壤加镉对桑树不同部分Cd累积量的影响
+Fig.3　Effect of Cd level added to soil on Cd
+accumulation in different parts of mulberry
+表3　Cd在桑树韧皮部和木质部中的含量分布状况（mg/kg）
+Table 3　Status of the Cd distribution in the parts of phloem and xylem of mulberry (mg/kg)
+
+土壤Cd韧皮部土壤Cd木质部
+主根主茎一次分枝二次分枝三次分枝主根主茎一次分枝二次分枝三次分枝
+0.920.750.700.580.570.530.920.470.330.300.250.19
+8.494.332.101.361.040.858.491.631.080.510.510.31
+22.39.136.051.791.471.0322.33.731.340.710.560.48
+40.610.97.191.981.641.3740.610.62.530.940.690.51
+75.824.311.52.291.721.4275.812.52.041.080.770.71
+14520380.216.96.823.1214513721.26.102.461.21
+
+3.3.2　污染农田种桑后土壤Cd含量的变化　 污染农田种桑后耕层土壤Cd含量普遍下降。据1996年9月对24丘农田进行抽样调查，有20个样点的Cd含量比改种前下降，降低幅度为8.1%～83.9%（0.07～29.6mg/kg），平均37.1%（8.01mg/kg）。耕层土壤Cd含量迅速下降的主要原因可能是植桑时翻动土层产生的物理稀释效应。据理论计算，通过采叶养蚕和伐枝途径每降低1mg/kg土壤Cd需要 146～174年。此外，雨水淋溶可能也是导致耕层土壤Cd水平降低的一个重要原因。从表4可以看出，无论是稻田或旱地，在改为桑园之后，上层土壤Cd向下层迁移的趋势都很明显。
+　　在调查中也发现，有4个样点耕层Cd含量仍有增加，增加幅度为3.6%～21.9%（0.04～0.98mg/kg），平均12.0%（0.45mg/kg）。进一步分析表明，这部分农田Cd含量增加的原因可能是农户用污水浇灌间种在桑园中的作物所致。
+表4　污染农田植桑后Cd在土壤各层次中的含量变化
+Table 4　Changes of Cd level in different layers of soil 
+after planting mulberry in the polluted farmlands
+
+土层(cm)水田土壤Cd含量**土层(cm)旱地*土壤Cd含量**
+改种前改种后改种前改种后
+0～1816.611.20～189.211.48
+18～282.7913.618～2823.64.61
+28～380.423.3928～383.6538.5
+38～480.701.0338～482.2516.8
+48～580.6251.3148～581.450.965
+58以下1.051.2658以下1.581.28
+
+注：* 旱地是1984年由水田改成，种桑前以玉米＋红薯－油菜耕作制为主。改种前、后的Cd含量分别于1990年9月和1996年9月测得
+　　** mg/kg
+3.4　镉污染农田桑蚕生产模式效益分析
+3.4.1　经济效益　 矿区Cd污染农田在治理改种前有10％的面积处于荒芜和半荒芜状况，40％的农田作物产量比正常水平降低15％～35％。治理改种后，荒芜和低产农田的生产力得到恢复，90%以上污染农田的桑叶产量与非污染田无明显差异。与改种前的粮作模式相比，桑蚕模式带给农民更多的经济效益（表5），桑树是多年生植物，随着种桑年限延长，单位面积的产量
+表5　某铀矿区Cd污染农田改种前后生产效益比较
+Table 5　A comparison of land production benefits before and after the planting of mulberry in the Cd polluted farmlands in a certain uranium mining area
+
+生产模式生产成本（元/hm2）人工数(个/hm2)产量(kg/hm2)产值(元/hm2)毛利（元/hm2）
+种子化肥农药畜力合计工不计酬工计酬
+水稻81021601200300071704509000144007230480
+玉米5701965606003195315525084005205480
+桑蚕1260180051003570750144017280137102460
+
+　　注：以产量基本正常的污染农田为调查对象，改种前粮作模式取1990～1992年数据，改种后桑蚕模式取1993～1996年数
+据。农机具和蚕具折旧费未计入成本，副产品和茧站收入未计入毛利。工值不分男女按每人每天15元计和产值还会逐步提高，农民收益将进一步增加。
+3.4.2　生态效益　 桑树耐旱能力较强，不需象水稻和玉米那样要进行人工灌溉，从根本上消除了引污灌溉对农田土壤的持续污染问题，为污染土壤的逐步净化创造了条件。桑蚕模式同时消除了土壤Cd通过食物链进入人体造成累积毒害的危险性。
+3.4.3　社会效益　 种桑养蚕使污染农田生产性能得到恢复，农民经济收入和生活质量明显提高，矿区社会、经济秩序恢复正常。桑蚕模式不仅消除了Cd污染的危害，也为矿区创造了新的经济增长点，为区域经济持续发展打下了基础。
+4　结语
+　　在我国工矿区，以镉为代表的重金属污染对区域经济和社会发展造成的不良影响越来越突出。采用生态整治策略，因地制宜调整污染地区的农业生产模式，使污染土地资源在农业领域重新得到安全而高效的利用，能有效地缓解工矿污染与区域农业发展之间的矛盾。种桑养蚕是治理和利用我国镉污染农田的一种成功的经济生态模式，更多的模式有待于进一步去探索。
+参考文献
+1　细田敏昭.张向荣(译).国外农业环境保护，1992(1):19～22
+2　Gworek B.Environmental Pollution, 1992,75(3):269～271
+3　王　新，吴燕玉，梁仁禄等.应用生态学报, 1994,5(1):89～94
+4　黄会一，蒋德明，张春兴等.中国环境科学, 1989, 9(6):419～426
+5　项雅玲，林匡飞，胡球兰等.中国麻作, 1994, 16(2):39～42
+6　McGrath SP，et al. Using plants to clean up heavy metals in soils. 15th World Congress of Soil Science, Acapulco, Mexico,Transactions,Commission Ⅲ.Symposia, 1994,4a:362～363
+7　Kumar PBAN，et al.Environmental Science and Technology, 1995, 29(5):1232～1238
+8　陈朝明，龚惠群，王凯荣. 应用生态学报, 1996, 7(4):417～423
+9　李　瑞. 家蚕生态学. 南京: 江苏科技出版社, 1987
+作者简介
+王凯荣　男，1959年2月生。现为中国科学院桃源农业生态试验站副站长，研究员。主要从事污染生态学和农业生态系统物质循环研究工作。曾赴菲律宾国际水稻研究所和荷兰瓦赫宁恩农业大学进修学习。发表论文40余篇。
+致谢　参加研究、推广工作的还有唐菁、朱明安、刘世义、张新德、刘解放、夏岳来、李玲等同志，特此致谢。
+收稿日期：1997-05-28
+*中科院“八五”重点课题及湖南省环境工程研究项目

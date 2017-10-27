@@ -1,0 +1,116 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第10期 Vol.19 No.10 1999
+
+
+
+基于Web的综合查询系统的设计与实现
+王志鹏　张海盛　沈益民
+　　摘　要　本文首先介绍用于创建Web应用程序的ASP技术的特点和系统要求，然后介绍用ASP实现Intranet上基于Web的数据库综合查询系统的设计思想及具体实现。
+　　关键词　动态服务器页面(ASP)，IIS，动态HTML，ActiveX数据对象(ADO)
+DESIGN AND IMPLEMENTATION OF INTEGRATED
+QUERY SYSTEM BASED ON WEB
+Wang Zhipeng　Zhang Haisheng　Shen Yimin
+Chengdu Institute of Computer Application, Academia Sinica, Sichuan.Chengdu 610041
+　　Abstract　At the first, this paper introduces the characteristics and system requirements of ASP. Then explains the design idea and implementation of an integrated query system of database based on Web by using ASP in the intranet environment.
+　　Keywords　ASP, IIS, DHTML, ADO
+1　前言
+　　随着Internet应用的不断扩展,许多企业内部都建有Intranet。加强企业内部信息的集成与共享，通过Intranet及时获取企业内部的综合信息，对于改善和优化企业管理、增强企业整体效益将提供有力的支持。为此，我们设计和开发了一个基于浏览器/服务器方式的Web数据库综合查询系统。该系统是一个通用的决策支持综合查询系统，由于基于Web、ODBC、TCP/IP等技术，实现了异构数据库和异构网络平台的数据综合查询。该系统采用ASP开发环境，为此有必要先对ASP做一个简要的介绍。
+2　ASP简介
+　　ASP（Active Server Pages）是微软推出的服务器端脚本编写环境，使用它可以组合HTML、脚本命令和ActiveX组件，创建和运行动态、交互的 基于Web 的应用程序。ASP具有以下特点：
+　　. 开发、维护快速简单。 ASP文件可通过通用的文本编辑器 （如记事本） 或专门的集成开发环境Visual InterDev进行开发;
+　　. 编程语言通用。ASP可使用VBScript、Javascript、Perl等多种脚本语言进行编程;
+　　. 内置对象和组件。为了方便编程，ASP除了提供多种功能强大的内置对象和组件，还允许用户编写自己定制的ActiveX控件;
+　　. 安全性。ASP使用NT的安全机制，通过NT授权机制可以规定使用范围;
+　　. 与浏览器无关。ASP是服务器端的脚本执行环境，只需将脚本的执行结果送给客户端浏览器。由于执行结果一般只包含常规超文本标识，所以不依赖客户端的浏览器。
+　　Web数据库综合查询系统对运行环境有一定的要求，但是这些要求比较容易满足。运行环境主要包括服务器端和客户端两方面。Web服务器端要求操作系统采用Windows NT 4.0，必须经过Service Pack 3升级，安装了NT Option Pack，Web服务器软件采用IIS 4.0； 客户端操作系统可以是Windows 95/98或Windows NT Workstation，如果不使用DHTML，可以是IE4.01或其他浏览器（如：Navigator），否则必须使用IE 4.01。数据库系统无特殊要求，只须支持ODBC即可，并且数据库系统可安装于Web服务器上，也可安装于另外服务器上，成为数据库服务器。
+3　系统设计方案
+　　本系统的设计目标是在Intranet基础之上，以浏览器/服务器体系结构作为基本架构，通过ASP方式实现交互式、动态的Web综合查询系统。基本设计思路是，客户端只需浏览器并且可访问Web服务器，服务器端具体完成客户选择的查询功能，并且返回结果给客户。如此反复，客户端就能动态的获取数据库中的信息。
+　　要完成对数据库的查询，就必须有相应的完成所需特定功能的SQL语句，这些SQL语句需要事先设计好，存放于数据库的相应的表中，并且还要保存它们的分类信息，方便用户的检索和使用。系统结构框架如图1所示。
+
+图1　系统结构框架
+　　图中的箭头表示系统中数据的流向。其中，从数据库流向Web服务器的数据，包括在ASP脚本中执行的完成特定查询功能的SQL语句的信息，和作为SQL语句查询对象的企业的综合信息。
+　　系统的内部结构分为如图2所示的两层：固定信息层和动态查询层。固定信息层以超文本语言文件的形式存储系统的静态信息，一般不会改变。动态查询层由许多完成特定数据查询的功能模块组成，一个模块就是一个后缀为asp的文件，模块之间可以通过包含语句交叉引用。模块中可能包含许多用脚本语言书写的过程，共同实现其特定功能。
+
+图2　系统内部结构图
+4　系统实现
+　　系统实现主要分为两部分：SQL生成和Web查询。首先要实现SQL语句生成的功能模块，这一部分并不要求也采用Web方式实现，采用客户/服务器的方式开发即可。系统界面如图3所示。
+
+图3　SQL生成的界面
+　　为了用户使用方便，本系统通过读取数据库的系统表信息，以可视化方式显示数据库中的表和字段的属性，用户进行相应的选择就可以快速创建查询语句，并且提供查询的正确性验证和查询结果的预览。
+　　然后就是系统的主要部分Web查询的实现，这一部分主要完成与数据库建立连接、SQL的执行和结果的显示。程序执行结果如图4所示。
+
+图4　Web查询的结果
+　　为便于说明实现步骤，这里假设Web服务器和数据库服务器是独立的两个服务器，机器名分别为websrv和dbsrv，数据库采用Sybase,数据库名为pubs，pubs中表tsql存储已设计好的SQL信息，并且要求执行的查询的编号通过变量sql—id传入。
+　　第一步：采用ADO通过ODBC与数据库服务器dbsrv建立连接。
+　　通过ADO与数据库建立连接，首先需要创建Connection对象，并且设置连接的参数（如DSN、UID、PWD等），然后调用Connection对象的Open方法进行连接。其中连接参数可采用DSN、ODBC标志和OLE DB，下面使用的是DSN。
+<%
+′初始化连接字符串Connstr
+var Connstr="DSN=Pubs";
+′创建Connection对象
+var DBConn=Server.CreateObject("ADODB.Connection");
+DBConn.Open(Connstr,"sa","pwd");
+%>
+　　第二步：检索表tsql获取与相应查询对应的SQL。ADO中可以使用三个对象执行SQL语句或存储过程， 它们是Connection对象、Command对象和Recordset对象。
+<%
+//引入查询编号变量sql—id
+var id=Request.QueryString("sql—id");
+var sqlqry="select tsql.s—text from pubs.tsql
+where tsql.s—id=";
+//创建Command对象
+var cmd=Server.CreateObject("ADODB.Command");
+cmd.ActiveConnection=DBConn;
+cmd.CommandText=sqlqry+id;
+//调用cmd的Execute方法执行查询
+var rsTmp=cmd.Execute();
+%>
+　　第三步：执行SQL，并以超文本形式返回查询结果。
+<%
+//提取编号为sql—id的查询语句
+var sql—text=rsTmp.fields.getValue("s—text");
+//创建、初始化Recordset对象
+var rsResults=Server.CreateObject("ADODB.Recordset");
+rsResults.CursorType=adOpenDynamic;
+rsResults.LockType=adLockOptimistic;
+//执行编号为sql—id的查询
+rsResults.Open(sql—text,DBConn);
+//以超文本方式显示查询结果
+var rdCount=rsResults.getCount(); 
+//记录数
+var fdCount=rsResults.fields.getCount();
+//字段数
+%>
+<table border=1>
+<thead>
+<tr>
+<% for i = 0 to fdCount -1 %>
+<th>
+<% =rsResults.fields.getName(i) %>
+</th>
+<% next %>
+</tr>
+<tbody>
+<%
+for i = 0 to rdCount - 1
+Response.Write("<tr>");
+for j = 0 to fdCount - 1
+Response.Write("<td>");
+Response.Write(rsResults.fields.getValue(j));
+Response.Write("</td>");
+next
+rsResults.moveNext();
+next
+%>
+</tbody>
+</table>
+5　结语
+　　上述系统设计和实现只是整个Web应用中的一部分，尚有许多需要改进和增加的部分，如：参数查询处理、用户标识验证、安全性机制、事务处理、数据库管理的Web化以及用户的个性化设置等。ASP可以与服务器上的其它服务联合起来，提供事务、安全、管理等功能，因此ASP几乎涵盖了开发Web应用程序过程中涉及的每个方面。但ASP也存在一些局限性，主要是对平台的依赖性强，只能是Windows（NT和95）的Web服务器上运行，这是在ASP应用中需要注意的。
+作者简介：王志鹏　硕士研究生。主要研究方向：分布对象技术、数据库、Internet。
+张海盛　研究员，博士生导师。主要研究方向：软件工程、系统集成方法与技术、CIMS。
+沈益民　副研究员。主要研究方向：软件技术、系统集成、CIMS。
+作者单位：中国科学院成都计算机应用研究所　四川.成都（610041）
+参考文献
+［1］　MSDN（Microsoft Developer Network），http://msdn.microsoft.com/vinterdev
+［2］　ADO技术文档，http://www.mocrosoft.com/data/ado/
+［3］　ASP技术文档，http://www.microsoft.com/workshop/server/asp/
+收稿日期:1999-06-25

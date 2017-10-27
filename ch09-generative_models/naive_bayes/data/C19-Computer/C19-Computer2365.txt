@@ -1,0 +1,128 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第8期 Vol.36 No.8 1999
+
+
+
+分布交互仿真中组播过滤机制的一种自适应区域更新策略
+史　扬　凌云翔　金士尧　张晨曦
+摘　要　分布交互仿真具有有效性、经济性、可靠性、安全性等优点，在军事、工程、商业等领域有着广泛的应用前景.随着仿真应用在广度及深度上的发展，基于因特网的分布交互仿真成为未来的发展趋势，其面临的主要挑战是系统可扩缩性问题.采用数据过滤机制是解决系统可扩缩性的重要途径，在实现中过滤效率和过滤开销的平衡关系到过滤机制的整体性能.文中分析了制约系统可扩缩性的主要因素，从实现的观点出发提出了一个过滤机制的综合评判准则，并在此基础上提出了过滤机制的自适应区域更新策略，解决了过滤机制的过滤效率和开销平衡问题.
+关键词　分布交互仿真，可扩缩性，路径空间，数据过滤，组播通信
+中图法分类号　TP391.9
+AN ADAPTIVE REGION UPDATING POLICY FOR MULTICAST-BASED FILTERING SCHEME IN 
+DISTRIBUTED INTERACTIVE SIMULATION
+SHI Yang, LING Yun-Xiang, JIN Shi-Yao, and ZHANG Chen-Xi
+(Institute of Computer Science, National University of Defense Technology, Changsha 410073)
+Abstract　Distributed interactive simulation has broad applications in various fields, such as military, engineering, commerce etc. because of its advantages of efficiency, economy, safety and security. Large scale distributed interactive simulation based on Internet is the future direction. But it faces the problem of system scalability because of its requirements for high network bandwidth and computation capacity, which is caused by redundant data when the system's scale increases. This situation can be alleviated to great extent by data filtering based on multicast. In this paper the key factors are analyzed, which limit the system scalability from the point of view of system resources and determine a criterion which can be used to evaluate the performance of a filtering scheme. Based on the above work, a new scheme called adaptive region updating algorithm is proposed to balance the filtering spending and filtering efficiency. 
+Key words　distributed interactive simulation, scalability, route space, data filtering, multicast
+1　引　言
+　　分布交互仿真［1］以相似原理、系统技术、相关领域专业技术以及网络技术为基础，将地理位置分布的同构或异构的仿真器集成在一个统一的环境中，并实现它们之间的互操作，以完成特定的任务.分布交互仿真为解决复杂、综合系统的研究、设计、验证提供了可能.目前分布交互仿真广泛应用于军事及国民经济的各个领域，如军事演习、模拟训练、分布式协作工程、空中交通管制、网上交互游戏等.
+　　系统资源（包括网络带宽及仿真结点处理机资源）是制约系统可扩缩性的主要因素.在现有的软硬件资源条件下，采取有效技术抑制资源耗费随规模急剧增长的势态，使系统能适应较大规模环境是分布交互仿真必须解决的关键问题.基于组播通信的过滤机制是实现系统可扩缩性的重要途径，高效的过滤机制能有效控制冗余数据的产生和接收,从而大大降低对网络带宽资源和处理机资源的压力，但伴随的过滤开销会抵消一部分收益，甚至在一定的条件下超过收益.文中分析了问题的起因，提出了过滤机制的评价准则，在此基础上提出了基于自适应区域更新策略的过滤机制RBF-ARU，该机制能根据仿真运行中的反馈数据动态调整过滤信息产生速率，使过滤机制下的数据过滤效率和开销达到平衡.
+2　分布交互仿真系统可扩缩性问题及解决途径
+2.1　系统可扩缩性及基于组播通信的数据过滤机制
+　　由于未来的分布交互仿真是建立在网络上，且要求能支持成千上万个仿真实体的运行［2］，因此其面临的一个主要技术问题是系统规模的可扩缩性.系统规模主要受系统资源（主要包括处理机资源及网络带宽资源）的限制，其中处理机资源主要用于仿真实体模型计算、仿真数据收发的网络处理开销及必要的管理开销（如数据过滤开销等）.随着分布交互仿真规模的增加，必然加大了仿真结点机之间信息交换量，导致对网络资源和处理机资源需求的急剧增长.传统的DIS协议采用广播方式通信：来自任何一个实体的消息（状态更新信息及交互信息）都要以广播方式（broadcast）发送到所有结点，这种广播通信方式不利于系统规模的扩缩［3］.　　
+　　根据分布交互仿真任务的特点，使用过滤机制［4］可大大缓解对网络带宽以及处理资源的需求.支持数据过滤的依据是仿真实体的局部特性［5］，即任意时刻某一仿真实体只与系统中部分实体发生交互，我们称此子集为实体的“感兴趣集”，感兴趣集内部的实体之间才需要交换状态和交互信息.在现实世界中这种现象是很常见的，如模拟战场中的交战区域，武器的探测和作用区域等，都可以构成感兴趣集.
+　　分布交互仿真中实体感兴趣集合的存在，意味着一个实体的数据必须发送给集合中其它实体，同时保证集合外部不相关实体不会接收此数据，以减少仿真结点机冗余数据的接收.这种典型的一对多通信模式很适合于组播［6］（multicast）技术的使用，基于组播通信的过滤机制可达到两个目的：一是尽可能减少不相关数据的产生，以减少网络带宽的占用；二是降低仿真结点接收冗余数据时引起的处理开销.这两个目的都有助于系统的可扩缩性的提高.
+2.2　HLA框架下过滤机制的实现：寻址和路由
+　　过滤机制首先要确定数据发送方和接收方的映射关系，称为寻址.在此基础上进行组播地址分配以确定数据源到目的的路由,以控制数据的传播范围.寻址及路由可采用不同的方案，它们的组合构成不同的过滤机制实现.高层体系结构HLA(high level architecture)［14］是美国国防部于1995年提出的新一代分布交互仿真技术框架，它针对现有仿真技术(如DIS协议和ALSP协议)的不足，解决分布交互仿真互操作性和可重用性问题.HLA将取代DIS协议成为新一代分布交互仿真的标准框架.在HLA框架下支持数据过滤的基本概念是路径空间RS（routing space）［7］.RS是一个抽象的多维坐标系统，它有三要素：(1)坐标系统的维数；(2)对应坐标系统每一维的路径变量，用于表达感兴趣区域的特征（如地理坐标、运动速度等）；(3)路径变量在每维上的定义（如范围、单位刻度等）.仿真实体通过RS描述向外部发送的以及从外部接收的数据的特征，这通过定义RS中的子集——空间区域（region）实现：实体通过公布区域（publish region）和定购区域（subscribe region）描述待发送和接收数据的约束条件.每个实体待发送和接收的数据都建立起与区域的映射关系.
+　　寻址时根据实体间的数据供求声明（称之为过滤信息）确定了源和一组目的之间的映射关系（通过定购与公布区域的匹配计算判断他们是否相交）；而路由则根据此映射关系分配多播地址，并指导发送方向此地址发送数据，接收方加入相应的组播地址.
+3　过滤机制性能评价
+3.1　过滤机制下处理机负载组成分析
+　　分析仿真处理机负载组成，设每个仿真结点的计算能力为l，则每个结点的计算资源主要由3部分组成：仿真实体模型的计算开销Psim、数据发送接收处理开销Pcomm、过滤机制开销Pflt，且有
+
+　　其中：
+
+　　Nl、Nr分别为本地与远地实体的数目，Ol、Or分别为本地实体与远地实体的模型负载，Oint为本地与远地实体交互作用开销.由于受模型及本地实体感兴趣集规模限制，仿真结点机的仿真模型负载Psim一般有一个固定上界.
+
+分别为发送和接收的网络消息数量，Osnd，Orcv分别为一次发送和接收网络消息的处理机开销.
+　　Pflt包括过滤信息接收处理开销和过滤计算开销，可表示为
+
+　　其中,分别为仿真结点机发送和接收的过滤消息数量，Ocal为用于过滤消息的匹配计算开销，它是的函数.
+3.2　过滤机制综合评价准则
+　　过滤机制的使用降低了数据通信开销Pcomm，但却带来了过滤开销Pflt，因此过滤机制实现时必须综合考虑过滤收益和代价之间的平衡.高效的过滤机制在大大减少Pcomm的同时不应使Pflt增加过快而抵消过滤带来的好处.在考虑过滤机制效率和代价的情况下，我们定义过滤机制下处理机开销为
+
+其中，为过滤机制下数据发送、接收量；为过滤消息发送、接收量；Ocal为过滤机制的计算开销，它是Fsnd，Frcv的函数；Onet为一次数据发送或接送的网络处理开销.
+　　在现代计算平台中，受操作系统等因素影响，网络通信开销相对与计算能力成为制约系统性能的主要瓶颈，而且这种差距随着微处理机技术的飞速发展日益扩大.为简化分析这里我们忽略了Ocal项，进而主要考虑网络开销对系统的影响（事实上有许多减少匹配计算的方法，如区域合并、划分区域等，限于篇幅将另文讨论）.因此有近似的处理机综合网络开销：
+
+式（6）较真实地反映了与过滤机制相关的处理机开销，可用于评价过滤机制的优劣.
+4　自适应区域更新过滤机制RBF-ARU
+4.1　典型过滤机制分析
+　　文献［8］提出了基于网格(grid-based)的过滤机制GBF，其基本思想是：将路径空间划分成粒度相等的网格，并为每个网格分配一个组播地址，发送者向与公布区域相交的网格所对应的组播地址发数据，接收者加入与定购区域相交网格所对应的组播地址组.GBF实现简单，发送与接收方不需交换过滤信息和匹配计算，缺点是：① 由于缺少过滤信息，发送方盲目发送公布数据而不管是否与定购区域相交，对网络流量的减少无贡献；② 且同一区域对应多个组播地址，就需重复发送相同的数据，不能充分利用组播通信的优点；③ 网格固有粒度影响区域匹配精度，影响过滤效率；④ 多播地址数量需求较大（各维网格数目乘积），且利用率低.网格机制的缺点是不适应于规模较大的仿真系统.
+　　文献［9］提出了基于接收方(receiver-based)的过滤机制RBF，其基本思想是：发送方根据外部实体的数据需求决定数据的发送与否并指导数据的路由.与GBF不同的是RBF机制要求结点间交换过滤信息，并且双方根据过滤信息的匹配结果指导数据的发送和接收.RBF机制的优点是：可根据数据供求双方的意愿在数据发送端限制冗余数据产生，对同一数据单元只需一次组播发送，且其组播地址按需分配具有较高的使用效率.缺点是需要交换过滤信息并进行匹配计算.文献［9］详细比较了GBF和RBF两种机制的过滤效率.
+4.2　过滤效率与过滤开销权衡
+　　衡量过滤机制的一个重要指标是过滤效率，某一结点的过滤效率定义为
+
+为理想情况下数据接收量（即无冗余数据），为采用过滤机制实际数据接收量.
+　　定义系统的（平均）过滤效率为
+
+　　RBF机制具有较高的过滤效率，但其主要缺点是仿真结点需要足够的过滤信息，这意味着仿真结点有较高的过滤开销（外部过滤消息接收处理开销及相应的匹配计算）.由于过滤信息以广播方式发送给所有结点，因此如果某些实体的过滤信息更新频率过快时，将导致过滤信息处理开销的急剧增长，从而将RBF机制的优点大打折扣.降低过滤消息量的一般途径是通过增加区域保护带以降低区域更新率，当区域更新超出保护带时才引起一次区域更新消息的发送，文献［10］详细讨论了这个问题.RBF机制虽具有较高的数据过滤效率，但也带来了过滤开销问题.为此我们采用模拟的手段研究了过滤效率与过滤开销之间的关系（模拟环境见第5节，模拟的系统规模为N=100，实体速度固定不变）.
+　　图1表明RBF机制随着保护带尺寸（KM）的增加，过滤效率逐渐下降，这意味着更多的冗余数据接收；图2表明在保护带尺寸各异时，数据接收发送量及过滤信息量的变化情况.由图2可见过滤效率和过滤开销成反比关系.图3显示了处理机网络综合开销及其构成成分随保护带尺寸变化情况.由图3可见并非过滤效率越高越好，随着保护带的减小，过滤信息更新率增加导致过滤消息量急剧增长，使结点机网络总开销增加.说明只有选取合适的区域保护带尺寸，才能使过滤机制的整体性能最佳.
+
+
+　　图1　保护带尺寸对过滤效率的影响
+
+
+　　图2　保护带尺寸对数据及过滤信息量的影响
+
+
+图3　区域保护带各异时处理机网络开销组成
+4.3　自适应区域更新过滤机制原理
+　　由4.2节的分析可知，要使过滤效率与过滤开销达到平衡的途径是为实体选取合适的区域保护带，从而有效地控制区域更新率，使过滤机制下处理机网络总开销尽可能小.由于仿真应用中实体的多样性和动态性［11］，很难为每个实体选择一个固定且合适的保护带.为有效控制区域信息的更新速率，使过滤效率与过滤开销达到平衡，本文提出了一种基于自适应区域更新策略（adaptive region update）的过滤机制RBF-ARU. RBF-ARU的原理是根据运行时的反馈数据动态调整每个仿真实体的区域保护带尺寸，以控制区域的更新速率.其逻辑结构如图4所示.
+
+
+图4　RBF-ARU机制示意图
+　　在RBF-ARU下每个仿真结点运行一个称为RUCA（region update control agent）的进程，RUCA周期性地监控本地区域更新率，并根据收集到的数据指导本地及远地实体区域更新率的变化.RUCA负责记录的数据包括：监控周期内数据发送接收量变化、过滤信息量变化以及过滤效率变化等.并根据统计值调整每个实体的区域保护带大小，使过滤机制的综合效率最佳.RUCA根据周期性的统计数据，计算当前数据收发网络开销和过滤信息网络开销，判断当前区域保护带尺寸是否合适：若当前网络开销的增加超过一定阈值，且过滤信息成分增加高于数据收发成分则说明区域信息变化率太快，保护带尺寸过小，则增加保护带尺寸；反之若是数据过滤效率下降太大而导致的网络总开销增加，则减小区域保护带尺寸.自适应区域更新算法描述如下：
+　　/* 算法：Adaptive Region Updating Algorithm(ARU) */
+　　/* 算法运行在每个仿真结点机上，每个结点机上有N个实体 */
+　　/* 主要变量描述 
+　　　　T：RUCA监控周期；
+　　　　：实体i的网络总开销变化量；
+　　　　：实体i的数据收发变化量；
+　　　　：实体i的过滤消息变化量. */
+　　Loop 
+　　　　t=0;　　/* 仿真时间初始化 */
+　　　　collect various data of each entity;　　/* 收集每个实体的有关数据 */
+　　　　if( t mod T = 0 ) 　{　 /* 进入RUCA监控周期 */
+　　　　　for (i =1; i<=N; i++) {
+　　　　　　calculate ; calculate;　/* 计算实体在本周期中的网络开销变化量 */
+　　　　　　calculate ;　/* 计算实体在本周期中的数据收发变化量 */
+　　　　　　calculate  　/* 计算实体在本周期中的过滤消息变化量 */
+　　　　　}
+　　　　　for (i=1; i<=N; i++)
+　　　　　　if (＞ ) 　{　/* 网络开销超过一定阀值，进一步判断起
+因 */
+　　　　　　if (＞ )　/* 过滤开销增加过快，增加保护带尺寸 */
+　　　　　　　　Belt［i］=Belt［i］+;　/* 实体保护带尺寸增加 */
+　　　　　　　else if (＜ )　/* 过滤效率下降过快，减少保护带尺寸 */ 
+　　　　　　　　Belt［i］=Belt［i］-;　/* 实体保护带尺寸减少 */
+　　　　　　}
+　　　　}
+　　　　advance t;　　/* 推进仿真时间 */
+　　Endloop
+4.4　 模拟结果
+　　本节中所用仿真场景选自文献［12］，它模拟一个交战双方地面装甲车辆（仿真实体）的战斗场景，我们对其进行了扩充：假设系统由N（N=10,…, 100）个仿真结点机构成，每个结点运行一个实体；实体路径由计算机产生和控制（本文位移采用随机方向）；模拟时间为双方相互接近到双方脱离接触这一阶段.假设仿真实体位于一个二维的地理环境中，我们限定战场范围为50×50km，实体根据传感器的探测距离决定其相关实体集合，故可采用二维RS实现寻址与路由.为简化模拟我们假设实体的探测范围为5×5km的正方形区域.实体状态数据更新率符合每秒0.2～15的均匀分布（典型的实体状态数据更新率［11］）.系统规模由实体数目表示.模拟环境采用加州大学洛杉矶分校（UCLA）开发的Parsec模拟工具［13］.
+　　与4.2节模拟条件有所不同，为了模拟实体的多样性和动态性，在仿真过程中我们周期性地调整实体的运动速度.这意味着在相同的区域保护带尺寸下，实体速度越快区域更新率越高，相应的处理机网络开销也就越大.模拟的目的是为了考察RBF-ARU机制对不同仿真应用的适应性.图5为系统规模各异时仿真结点机的平均网络开销（单位时间网络消息处理次数），RBF-1.5、RBF-2.5、RBF-4.5分别表示区域保护带固定为1.5km、2.5km及4.5km时的RBF机制，对于RBF-ARU机制实体保护带初始值为5.0km，保护带尺寸调整粒度为0.2km.由图5结果显示相对其他几种固定保护带尺寸，RBF-ARU下的平均网络开销减少了15%～35%(N=100时).
+
+
+图5　系统规模各异时处理机平均网络开销
+5　总　结
+　　当代仿真技术正朝着基于因特网的大规模分布交互仿真方向发展，受系统资源限制可扩缩性是分布交互仿真系统面临的一个主要问题，而基于组播通信的过滤机制能有效地抑制系统资源的耗费随规模急剧增长的势态.RBF过滤机制能利用组播通信的优点充分开发仿真内部局部性：它尽可能地在源端减少冗余数据的发送，减少网络流量及接收结点的网络处理开销，同时它利用组播技术控制数据的复制与转发，改善了网络的拥塞情况.RBF机制的实现伴随着过滤开销，且其过滤效率越高意味着更大的过滤开销，从而影响过滤机制的综合效率.本文研究了区域保护带尺寸对过滤效率、过滤开销的影响，指出过滤效率并非是过滤机制的唯一评判标准，提出了过滤机制的一个综合评价标准.针对分布交互仿真应用存在的实体多样性及动态性的特点，本文提出了一种自适应区域更新策略RBF-ARU.RBF-ARU根据仿真运行过程中的反馈数据，动态调整区域保护带尺寸，实现过滤效率和过滤开销之间的平衡.模拟结果表明RBF-ARU能较好地适应仿真实体的多样性和动态性.
+作者简介：作者史扬，男，1971年7月生,博士研究生，主要研究方向为分布交互仿真、分布并行处理技术.凌云翔，男， 1972年10月生，博士研究生，主要研究方向为分布交互仿真、分布并行处理技术.金士尧,男，1937年9月生，教授,博士生导师，研究领域为高性能机体系结构、分布交互仿真、计算机性能评价等.张晨曦,男，1960年9月生，教授,博士生导师，研究领域为高性能机体系结构、分布并行处理、分布交互仿真等
+作者单位：史　扬　凌云翔　金士尧　张晨曦　国防科学技术大学计算机学院　长沙　410073
+参考文献
+1　Fullford D. Distributed interactive simulation: Its past, present, and future. In: Proc of Winter Simulation Conference. Coronado, CA: ACM Press, 1996. 179～186
+2　Swaine S, Stapf M. Large DIS exercises——100 entities out of 100000. In: Proc of 16th Interservice/Industry Training Systems and Education Conference. Orlando, FL: IEEE Computer Society Press, 1994. 4～13
+3　Stone S, Zyda M, Brutzman D, Falby J. Mobile agents and smart networks for distributed simulation. In: Proc of 14th DIS Workshop. Orlando, FL:IEEE Computer Society Press, 1996. 11～15
+4　Van Hook D J, Rak S J, Calvin J O. Approach to relevance filtering. In: Proc of 11th Distributed Interactive Simulation Workshop. Orlando, FL:IEEE Computer Society Press, 1994. 367～372
+5　Macedonia M. Exploiting reality with multicast groups: A network architecture for large scale virtual environments. IEEE Computer Graphics and Application, 1995, 15(5): 38～45
+6　High Level Protocol used with IP Multicast, An IP Multicast Initiative White Paper, Stardust Technologies, Inc. http://www.ipmulticast.com/techcent.htm
+7　Cohen D, Kemkes A. Using DDM——An application perspective. In: Proc of Spring Simulation Interoperability Workshop. Orlando, FL:IEEE Computer Society Press, 1997. 107～114
+8　Rak S J, Van Hook D J. Evaluation of grid-based relevance filtering for multicast group assignment. In: Proc of 15th Distributed Interactive Simulation Workshop. Orlando, FL:IEEE Computer Society Press, 1996. 739～747
+9　Van Hook D J, Rak S J, Calvin J O. Approaches to RTI implementation of HLA data distribution management service. In: Proc of the 15th Distributed Interactive Simulation Workshop. Orlando, FL:IEEE Computer Society Press, 1996. 535～544
+10　Morse K L, Steinman J S. Data distribution management in the HLA: Multidimensional regions and physically correct filtering. In: Proc of Spring Simulation Interoperability Workshop. Orlando, FL:IEEE Computer Society Press, 1997. 343～352
+11　Cheung S E, Loper M. Traffic characterization of manned-simulators and computer generated forces in DIS exercises. In: Proc of 5th Annual Conference on AI, Simulation, and Planning in High Autonomy Systems. Gainesville, FL:IEEE Computer Society Press, 1994. 70～76
+12　Olszewski J, Mellon L. HLA testbed data distributed management experiments. In: Proc of 15th DIS Workshop on Standards for the Interoperability. Orlando, FL: IEEE Computer Society Press, 1995. 631～639
+13　Meyar R A. Parsec User Manual: Release 1.1. UCLA Parallel Computing Laboratory. http://pcl.cs.ucla.edu/projects/parsec
+14　High level architecture baseline definition, Defense Modeling & Simulation Office(DMSO), 1996, http://hla.dmso.mil/hla/tech
+收到日期：1998-11-02
+修改日期：1999-02-12

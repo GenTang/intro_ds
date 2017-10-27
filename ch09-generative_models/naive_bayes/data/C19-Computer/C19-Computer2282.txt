@@ -1,0 +1,219 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.5　P.81-83
+
+
+
+利用ASP+ADO访问站点数据库
+毕潜　李飞
+摘  要  该文较为系统地介绍了利用ASP访问站点数据库的方法和技巧，并给出实例加以说明。
+关键词  ASP  ADO  站点数据库
+1  ASP的认识
+　　Active Server Pages (动态服务器主页，简称ASP)，内含于Internet Information Server (IIS)当中，提供一个服务器端(Server-side)的Scripting环境，产生和执行动态、交互式、高效率的站点服务器的应用程序，并使站点服务器自动将Active Server Pages的程序码解释为标准HTML格式的内容，送到用户端的浏览器上显示出来。用户端只要使用常规可执行HTML码的浏览器，即可浏览Active Server Pages所设计的主页内容。
+　　ASP的特点是：
+　　(1)集成于HTML中，无需编译即可执行；
+　　(2)使用常规文本编辑器，如Windows的记事本，即可设计；
+　　(3)与浏览器无关(Browser Independence)，用户端只要使用常规的可执行HTML码的浏览器，即可浏览ASP所设计的主页内容，Script语言(VBscript，Jscript)是在站点服务器(Server端)执行，用户不需要执行这些Script语言；
+　　(4)面向对象(Object_Orient)；
+　　(5)可通过ActiveX Server Components (ActiveX服务器组件)来扩充功能。ActiveX Server components可使用Visual Basic、Java、Visual C++、COBOL等语言来实现；
+　　(6)ASP与任何ActiveX Scripting语言兼容。除了可使用VBscript或Jscript语言来设计外，还可通过Plug-in的方式，使用由第三方所提供的其它譬如REXX，Perl，Tcl等Scripting语言。Script引擎是处理Script的COM (Component Object Model)对象；
+　　(7)ASP的源程序代码，不会传到用户的浏览器，因此可以保护辛辛苦苦写出来的源程序。传到用户浏览器的是ASP执行结果的常规HTML码；
+　　(8)使用服务端Script产生客户端Script。可以使用ASP程序码，在站点服务器执行Script语言(VBscript或Jscript)，来产生或更改在客户端执行的Script语言。
+　　ASP提供下面五个内置的“对象”(Object)可以直接调用：
+　　①Request：取得用户信息；
+　　②Response：传送信息给用户；
+　　③Server：提供访问服务器的方法(methods)和属性(properties)的功能；
+　　④Application：一个应用程序，可以在多个主页之间保留和使用一些共同的信息；
+　　⑤Session：一个用户，可以在多个主页之间保留和使用一些共同的信息。
+　　ASP文件的扩展名是.asp，它是一个文本文件。在ASP文件中包括：HTML标记(tags)、VBscript或Jscript语言的程序码、ASP语法。
+　　ASP并不是一个Script语言，而是提供一个可以集成Script语言(VBscript或Jscript)到HTML主页的环境。HTML标记(tags)使用“<...>”将HTML程序码包含起来，以与常规的文本区分开来；而ASP使用“<%...%>”将ASP的Script程序码包含起来。
+2  ASP+ADO访问站点数据库的步骤
+　　ADO是微软提供的最新站点数据库访问技术，它是ASP的一个组件，通过ODBC驱动程序连接相应的数据库。ASP访问数据库的过程是：当浏览器向Web服务器申请访问一个ASP文件时，Web服务器调用ASP文件，然后解释执行每一条脚本语句，用ADO组件通过ODBC访问数据库，再把执行的结果生成HTML文件传给客户端。
+　　ADO数据库设计步骤：
+　　(1)设定ODBC与数据库的连接。在NT服务器上执行“控制面板”上的“ODBC”，选择“系统DSN”，按“添加”按钮，选择数据源驱动程序，如选择“SQL Server”，然后填好数据源名称(DSN)及数据库名称。
+　　(2)使用“Server.createobject”建立连接的对象，并使用“Open”打开待访问查询的数据库。
+set conn=server.createobject(＂adodb.connection＂)
+conn.open＂数据库名称＂
+　　数据库名称即为在“ODBC”设定的“数据来源名称”。
+　　(3)设定SQL命令，使用“Execute”命令，开始执行访问查询数据库的动作。
+set rs=conn.execute(SQL命令)
+　　(4)使用如下recordsets对象的命令，显示查询的结果。
+.rs.fields.count: records的字段数;
+.rs(i).name: 第i(指针)个字段名，i由0算起到rs.fields.count-1;
+.rs(i): 读取第i(指针)个字段的记录，i由0算起到rs.fields.count-1;
+.rs(＂字段名&quot;): 读取指定的字段的记录;
+.rs.eof: 是(true)否(false)已指定最末笔;
+.rs.movenext: 将指针移到下一笔;
+.rs.moveprev: 将指针移到上一笔;
+.rs.movefirst: 将指针移到第一笔;
+.rs.movelast: 将指针移到最末笔;
+.rs.getrows: 将查询结果存于数组当中，如v=rs.getgows(100)，再读取数组v(col, row)的值即为查询的记录;
+.rs.properties.count:得到ADO的Connection或Resultset的属性总数;
+.rs.properties(item).name: 得到ADO的Connection或Resultset的属性名称;
+.rs.properties(item): 得到ADO的Connection或Resultset的属性值。
+　　(5)最后，使用如下的命令，关闭数据库。
+rs.close
+conn.close
+3  一个查询系统的设计
+　　在search.asp文件中利用Form表单形成一个查询入口(如图1所示)。当用户选择了查询条件后，按下“提交”按钮，将变量送到process.asp中，process.asp根据变量的值，利用SQL语句在服务器端完成数据库表文件的查询，最后将查询结果送回浏览器端(如图2所示)。
+
+图1
+
+图2
+　　search.asp程序源代码：
+<html>
+<head>
+<title></title>
+<meta content="text/html; charset=gb2312" http-equiv="Content-" Type>
+<style>
+body {font-size:9pt;background-attachment:fixed}
+table{font-size:9pt) </style>
+<script language="vbscript">
+　sub back
+　　　history.back
+　end sub
+　sub forward
+　　　history.forward
+　end sub
+</script>
+</head>
+<body aLink="#FF6666" background="Image/nabkgnd.jpg" bgColor="#ffffff" link="#FF3333" text="#000099" vLink="#FF0066">
+<div align="center"><font size="5" face="隶书" color="#FF33FF">99级新生情况查询</font></div>
+<form method="Post" action="Process.asp" name="newstudent">
+<table width="734" border="0">
+<tr><td width="264">姓名<input type="text" name="sname"></td>
+<td width="233">性别<input type="radio" name="ssex" value="所有" checked>所有<input type="radio" name="ssex" value="男">男<input type="radio" name="ssex" value="女">女</td>
+<td width="223" rowspan="2" valign="top">专业<select name="sdpm">
+<option value="所有" selected>所有</option><option value="电信工程">电信工程</option>
+<option value="国际商务">国际商务</option>  <option value="环境工程">环境工程</option>
+<option value="会计学">会计学</option>  <option value="计算机科学">计算机科学</option>
+<option value="金融与保险">金融与保险</option> <option value="通讯工程">通讯工程</option>
+</select></td></tr>
+<tr><td width="264" rowspan="2">毕业学校<input type="text" name="sschool"> </td>
+<td width="233" rowspan="2">地方<input type="text" name="sarea"></td> </tr>
+<tr><td width="223" valign="top">籍贯<input type="text" name="sbelong"> </td> </tr>
+</table>
+<div align="center"> <table width="524" border="0">
+<tr><td> <div align="center"><input type="submit" value="提交"></div></td>
+<td> <div align="center"><input type="reset" value="清除"></div></td> </tr> </table> </div>
+</form>
+<br><br><br><div align="center">
+<table width="500">
+<tr> <td width="*" align="left"><img src="/Image/back.gif" alt="back" border="0" onclick="back(" )></td>
+<td width="200" align="center"><a href="/index.html#startpage&quot;"><img src="/Image/home.gif" alt="home" border="0" width="30" height="30"></a></td>
+<td width="*" align="right"><img src="/Image/forward.gif" alt="forward" onclick="forward(" ) width="50" height="30"></td></tr></table></div>     </body> <[html>
+　　process.asp程序源代码:
+<html>
+<head>
+<title></title>
+<meta content="text/html; charset=gb2312" http-equiv="Content-" Type>
+<style>
+body{font-size:9pt;background-attachment:fixed)
+table{font-size:9pt)
+</style>
+<script language="vbscript">
+　sub back
+　　　history.back
+　end sub
+　sub forward
+　　　history.forward
+　end sub
+</script>
+<%
+　Sub combinesql (psql)
+　　　bsql=""
+　　　if (request.form("sname")<>"") then
+　　　　　if (bsql<>"") then
+　　　　　　bsql=bsql &"and"
+　　　　　end if
+　　　　　bsql=bsql&"姓名="'&request.form("sname")&""'
+　　End if
+　　if (request.form("ssex")<>"所有") Then
+　　　　if (bsql<>"") then
+　　　　　　bsql=bsql&"and"
+　　　　end if
+　　　　bsql=bsql&"性别="'&request.form("ssex")&"'"
+　end if
+　if (request.form("sdpm")<>"所有") then
+　　　　if (bsql<>"") then
+　　　　　　bsql=bsql&" and"
+　　　　end if
+　　　　bsql=bsql&" 专业 like '%"&request.form 
+　　　　　　("sdpm")&"%"'
+　　End if
+　　if (request.form("sscholl")<>"") then
+　　　　if (bsql<>"") then
+　　　　　　bsql=bsql&" and"
+　　　　end if
+　　　　bsql=bsql&"毕业学校like'%"&request.form 
+　　　　　　　("sscholl")&"%"'
+　end if
+　if (request.form("sarea")<>"") then
+　　　　if (bsql<>"") then
+　　　　　　　bsql=bsql&" and"
+　　　　end if
+　　　　bsql=bsql&"地方 like'%"&request.form
+　　　　　　　("sarea")&"%'"
+　end if
+　if (request.form("sbelong")<>"") then
+　　　　if (bsql<>"") then
+　　　　　　　bsql=bsql&" and"
+　　　　end if
+　　　　bsql=bsql&"籍贯 like'%"&request.form
+　　　　　　　("sbelong")&"%"'
+　end if
+　if (bsql<>"") then
+　　　　psql=psql&" where ("&bsql&")"
+　　　　end if
+End Sub
+%>
+</head>
+<body aLink="#FF6666" background="Image/nabkgnd.jpg" bgcolor="#ffffff" link="#FF3333" text="#000099" vLink="#FF0066"> <font face="仿宋_GB2312" size="4" color="#FF0000">查询结果: 
+　</font><br>
+<%
+　set dbf=server.createobject ("adodb.connection")
+　dbf.open ("stud")
+　sql="select * from 学院99级新生.dbf "
+　call combinesql (sql)
+　response.write ("查询条件:"&sql&"<br><hr>")
+　set rs=dbf.execute(sql)
+　if rs.eof then
+response.write ("Nobody was found ! <FONT COLOR=RED>TRY 
+　AGAIN! </FONT><br><hr>")
+　else
+　　response.write("共查到"&rs.recordcount&"条记录!")
+%>
+<table width="750" border="0">
+<% do while not rs.eof %>
+<tr><td width="120">考号:<%response.write(rs("考号")) %></td>
+　<td width="120">姓名:<% response.write(rs("姓名")) %></td>
+　<td width="120">性别:<% response.write(rs("性别")) %></td>
+　<td width="61">民族:<% response.write(rs("民族")) %></td>
+　<td width="179">出生日期:<% response.write(rs("出生日期")) %></td>
+　<td width="124">身高:<% response.write(rs("身高")) %></td> </tr>
+<tr> <td width="120">专业:<% response.write(rs("专业"))%></td>
+　<td width="120">层次:<% response.write(rs("层次")) %></td>
+　<td width="120">籍贯:<% response.write(rs("籍贯")) %></td>
+　<td width="364" colspan="3">地方:<% response.write(rs("地方")) %></td> </tr>
+<tr> <td width="360" colspan="3">毕业学校:<% response.write 
+　(rs("毕业学校")) %></td>
+　<td width="364" colspan="3">家庭住址:<% response.write 
+　(rs("家庭住址")) %></td></tr>
+　<tr> <td width="724" colspan="6"> <hr> </td> </tr>
+<%
+rs.movenext
+　loop
+　rs.close
+　dbf.close
+　end if
+%> </table>
+</body>
+</html>
+4  结束语
+　　通过上面的实例，说明ASP+ADO访问站点数据库的技术是非常易学易用的，并且具有高效、快速、安全性，是一种极具发展潜力的新技术。
+毕潜(成都科技大学出版社  成都 610065)
+李飞(成都气象学院计算机系  成都 610041)
+参考文献
+1，蔡丹媚, 纪春姣. 利用ASP轻松实现Web的动态交互访问. 计算机应用研究, 1999.第2期, 62～64
+2，http://www.swm.com.cn/yingyong/rj-98-yy2/98-y2-yy17.htm
+收稿日期：1999-11-16

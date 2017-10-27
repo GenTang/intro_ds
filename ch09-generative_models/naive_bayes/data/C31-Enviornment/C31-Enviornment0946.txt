@@ -1,0 +1,57 @@
+地质灾害与环境保护
+JOURNAL OF GEOLOGICAL HAZARDS AND ENVIRONMENT PRESERVATION
+1999年 第10卷 第1期 VOL.10 No.1 1999
+
+
+
+溃屈型滑坡滑动面切层段对稳定性的影响研究
+李树森　朱冬林　聂德新　符文熹　任光明
+　　摘　要　在溃屈型滑坡滑动面顺层和切层段强度参数关联性研究的基础上，进一步研究发现，切层段滑动面的长度、角度变化，对滑坡稳定性有明显的影响。这种变化，对滑坡稳定性评价及滑坡的工程治理意义较大。
+　　关键词　溃屈型滑坡　强度参数　切层长度　切层角度
+　　中图号　P642.22
+STUDY ON THE INFLUENCE OF CUTTING-BEDDING SECTION TO THE STABILITY OF BED-BURST TYPE LANDSLIDE
+Li Shusen　Zhu Donglin　Nie Dexin　Fu Wenxi　Ren Guangming
+(Institute of Engineering Geology of Chengdu University of Technology,Chengdu　610059)
+　　Abstract　On the basis of the discussion about the relation between strength parameters of the bedding section and that of the cutting-bed section of the sliding surface of bed-burst type landslide,the paper makes a further study of the influence on the stability of landslide due to changes in length,angly of the cutting-bed section of sliding zone.It is of great significance in evaluating the stability of landslides.
+　　Key Words　Bed-burst type landslide　Strength parameters　Length of the cutting-bed section　Angle of the cutting-bed section
+　　溃屈型滑坡，是斜坡岩体变形破坏的一个重要类型，在顺层斜坡中常有这种类型的滑坡发育，且规模一般都很大。对其稳定性评价，具有十分重要的工程意义。
+　　据作者近年来的研究发现，溃屈型滑坡顺层和切层段滑带的强度参数具有关联性，在此基础，进一步研究发现切层段滑带的角度、长度，对斜坡稳定性有明显的影响。
+1　溃屈型滑坡切层段滑带长度对稳定性的影响
+　　据溃屈型滑坡地质特征的调查分析，顺层段滑带往往沿软弱夹层追踪发育，滑动面平直光滑。而切层段滑带相对要复杂得多，没有光滑的滑动面，但具有明显的挤压破碎特征。顺层和切层段滑带强度参数，既不相同又有关联性，同时还得出一个重要结论(图1)：
+
+
+　　　　　图1　两滑面力学模式示意图
+　　　　　Fig.1　Sketch diagram ofmechanicalmode of double sliding surface
+　　　　　　　　　　　　(1)
+式中，M=A．H +B．G +E ．D +C ．F ；N =F ．D +B ．H；L =A．G +E ．C；A=．W．cosα-2〔W ．g-P (h1+H 2/3)〕-．P；B =c2．．．sin(α+β)；C =+．cos(α+β)；D =-f 2．．sin(α+β)；E =2〔W ．g-P (h1+h2/3)．sinα+．P ．sinα；F =-2f1〔W ．g -P (h 1+h 2/3)〕．cosα-c1．2．cosα-c2．．．cosβ；G =．sinα-．sinβ；H =-f1．cosα-f2．cosβ；S 1=(f 1．N1+c1)/K；S 2=(f2．N 2+c2)/K。式中，为切层段滑带长度(m)；N1为顺层段边上的法向支反力(×106N)；N2为切层段边上的法向支反力(×106N)；f1，f2为摩擦系数；c1，c2为顺层、切层段的内聚力(MPa)。
+　　为便于说明问题，取一简单斜坡，在保持其他参数不变、顺层和切层方位不变，以及边坡形态不变的前提下，顺边坡取若干平行线，形成若干个切层段长度不等的斜坡，通过计算分析其稳定性，以讨论切层段长度的改变对斜坡稳定性的影响，如图2所示。
+
+
+　　　　　　　　图2　切层段长度不同的斜坡示意图
+　　Fig.2　Sketch diagram of slope with different length of the cutting-bed section
+　　根据式(1)，计算获得稳定性系数K 与切层段长度Lcd 的关系如图3所示。
+
+
+图3　稳定性系数K 与切层段长度Lcd关系曲线
+Fig.3　Relationship curve of stability coefficient (K) and length of cutting -bed section (Lcd)
+　　由图3知，在其他条件相同的情况下，斜坡随切层段长度增大，稳定性提高；反之，则稳定性降低。据某工程实例：当切层段长度从60m增加到80m时，切层段长度增大33%，稳定性系数相应提高11.3%；且在90m前，基本成线性增长关系，90m后，稳定性提高较快，有陡增趋势。
+2　切层段滑带角度对稳定性的影响
+　　由于切层段滑带是控制斜坡稳定的主要受力段，在这一段出现明显的应力集中，位移明显表现为前缘有沿滑面剪出的趋势。前面已讨论了切层段长度对稳定性的影响，但由式(1)可知，切层段滑带角度对斜坡稳定性也有影响。而切层段角度对稳定性的影响程度如何，有必要作深入分析。为了分析这个问题，并排除切层段长度对稳定性的影响，在保持切层段长度不变的条件下，只考虑角度β变化(如图4)时，对斜坡稳定性的影响情况。
+
+
+　　　　图4　斜坡切层段角度(β)变化示意图
+Fig.4　Sketch diagram of slope with different angles of cutting-bed section
+　　根据式(1)计算获得稳定性系数K 与切层段角度β的关系，如图5所示。
+
+
+　　　图5　稳定性系数K与切层角度β关系曲线
+Fig.5　Relationship curve of safty factor (K) and angle of cutting-bed section
+　　由图5知，在其他条件相同的情况下，斜坡随切层段倾角反翘(β取正值)有利于提高稳定性；顺转(β取负值)将降低稳定性。据某工程实例，斜坡的顺层段f1=0.3,斜坡的切层段f2=0.86时，可求出β小于-7°时失稳，因此，将切层段滑带角度β=-7°定为该斜坡失稳控制角。与该工程类似的溃屈型滑坡，均存在自己独立的控制角，采用上述算法都可求出。因此，这种算法，对分析这类斜坡的稳定性，具有一定的指导意义。
+3　结　语
+　　溃屈型滑坡作为顺层斜坡变形破坏的一个重要类型，合理评价其稳定性，在工程实际应用中极为重要。由上述分析可得出如下认识：
+　　(1) 溃屈型滑坡滑动面具有分段特征：顺层段常沿层间弱面发育，且顺层段滑带土粘粒含量较高；切层段常具有挤压破碎特征，滑带土一般由粗碎屑土构成。
+　　(2) 溃屈型滑坡滑动面顺层和切层段的强度参数，具有关联特征。
+　　(3) 溃屈型滑坡的切层段长度、角度变化，对滑坡稳定性具有明显的影响。
+第一作者简介：李树森，男，51岁。成都理工学院，工程地质研究所，副教授。从事力学教学和岩土工程科研工作，曾参加国家科技攻关项目的研究。科研成果中曾获地矿部科技进步二等奖1项。已发表论文10余篇。
+作者单位：成都理工学院工程地质研究所，成都　610059
+(收稿日期：1998－11－17)

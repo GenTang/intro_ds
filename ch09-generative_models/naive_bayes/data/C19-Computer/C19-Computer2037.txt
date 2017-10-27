@@ -1,0 +1,63 @@
+计算机工程
+Computer Engineering
+1999年　第25卷　第4期　Vol.25　No.4　1999
+
+
+
+新一代高速网络访问技术--xDSL
+刘铁
+摘要 介绍了一种兴起的高速网络访问技术-xDSL,对其中发展较快的ADSL技术的系统组成原理进行了较为深入的介绍,最后对xDSL、ISDN、Cable Modem几种高速网络访问技术进行了比较。
+关键词 计算机网络 调制解调器 xDSL ADSL
+XDSL High Speed Access Technology
+Liu Yi
+（Computer Department，Xian Jiaotong Xian 710049）
+Abstract:After an introduction to thr xDSL access technology，this paper gives the architecture and organization of systems using ADSL technology，finally there is a comparison between xDSL，ISDN，and Cable Modem.
+Key words:Computer networks;Modem;xDSL;ADSL
+　　xDSL 使用原有的电话线进行传输，传输速率大幅度提高，因此市场前景极为广阔，世界各知名厂商均投入了很大力量进行研究开发。
+1　xDSL　技术简介
+　　DSL(Digital Subscriber Line)是一种点对点式的网络访问技术，它以位于本地回路 (local loop)的铜质双绞线为传输介质，在网络服务提供商 (NSP-Network Service Provider) 和用户之间传输数据、语音、视频等信号。该技术最早是为视频点播(VOD)服务而设计，由于是利用普通的铜质电话线进行高速数据传输，具有实现代价小、易于升级的特点，因而受到了各方面重视。
+　　传统的Modem将数据信号调制到音频电话所使用的频率上(0～3400Hz)，因此调制后的信号可以在现有公用电话网中传输。而xDSL技术为了达到更高的传输速率，抛弃了3400Hz的限制，使用更高频率进行传输，因此它与现有公用电话网是不兼容的，一般在用户和服务商两端都要增加相应设备，但传输线路仍然使用现有的电话线，省去了重新敷设线路的巨额费用。
+　　xDSL中的'x'代表了DSL技术的不同类型，目前有ADSL、R-ADSL、HDSL、SDSL和VDSL几种。下面对这几种技术作一简要介绍。
+　　(1)　ADSL(Asymmetric Digital Subscriber Line) 
+　　ADSL是一种非对称技术，下传(NSP→用户)速率1.5～8Mbps；上传(用户→NSP)速率为640kbps～1.54Mbps。使用一对双绞线，线路最大长度18000英尺(5486m)。该技术适用于 Internet访问、视频点播、局域网远程访问等场合，因为这些应用的下传数据通常多于上传数据。
+　　(2)　R-ADSL(Rate-Adaptive Digital Subscriber Line) 
+　　R-ADSL 能够达到的传输速率与ADSL相同，但它可以根据线路的长度和传输质量对传输速率进行动态调节。
+　　(3)　ADSL Lite
+　　它是ADSL的低速版本，它以牺牲部分速率的代价省去了ADSL中的POTS分线器 (POTS Splitter，POTS-Plain Old Telephone Service)，同时增大了线路的最大长度，从而降低了安装成本，可以满足更大范围用户的需要。 
+　　(4)　HDSL(High Bit-Rate Digital Subscriber Line) 
+　　HDSL 是一种对称技术，在两对双绞线上的上传/下传速率为1.544Mbps(与T1相等)，在3对双绞线上可以达到2.048Mbps(与E1相等)，线路最大长度为12000～15000英尺(3657～4572m)，下一代HDSL技术称为HDSL II，它可以在一对双绞线上实现与HDSL同样的传输速率。
+　　(5)　SDSL(Single-Line Digital Subscriber Line) 
+　　SDSL的传输速率与HDSL一样，主要区别有两个：一是只使用一对双绞线；二是传输距离在10000英尺(3048m)以内。
+　　(6)　VDSL(Very High Bit-Rate Digital Subscriber Line) 
+　　VDSL是目前xDSL技术中传输速率最快的，其下传速率为13～52Mbps；上传速率为1.5～2.3Mbps。使用一对双绞线，线路最大长度1000～4500英尺(304～1371m)。目前VDSL尚处于标准定义阶段。
+2　ADSL技术
+　　在各种xDSL技术中，ADSL出现较早，并且美国国家标准学会ANSI为其制订了相应标准(ANSI TIE1.413，1995年发布)，该标准也被国际电信联盟ITU采纳，因此得到了各厂商更多的关注，已经研制出了各种ADSL产品，如ADSL Modem、ADSL访问服务器等，目前，ADSL技术已开始进入商用阶段。
+　　图1示出了ADSL系统的结构，在家庭用户一侧，POTS分线器(POTS Splitter)用于电话和计算机信号的合成/分离，POTS是Plain Old Telephone Service的缩写；ADSL Modem用于计算机信号与模拟信号之间的调制/解调。NSP一侧的核心部分是DSLAM(DSL Access Multiplexer)，它实现网络交换机/电话交换机与多条ADSL线路之间的互连，逻辑上由多个POTS分线器和ADSL Modem组成。
+
+图1ADSL系统结构
+　　目前ADSL Modem的接口主要有3种：V.35、10Base-T和ATM。因此ADSL Modem不但能与计算机连接，还能通过路由器、集线器等网络设备与局域网相连。 
+　　从图1中可以看出，在ADSL线路上可以同时传输计算机信号和电话信号，这是通过频分多路复用(FDM)来实现的，图2为ADSL的频率划分示意图。
+
+图2ADSL频谱
+　　除了用FDM方法实现ADSL以外，还有一种实现方法--回声消除。该方法已经在传统Modem的标准V.32和V.34中得到了应用，它让上传和下传通道的频带重叠，而通过本地回声消除来区分两者。这种方法可以更有效地利用带宽，但复杂性和造价比FDM方法高。 
+　　ADSL技术的调制方案有两种：无载波幅度相位调制 (CAP-Carrierless Amplitude Phase Modulation)和离散多音调制(DMT-Discrete Multi-Tone Modulation)。这两种方案都基于广泛采用的正交幅度调制技术(QAM)，但实现方法不同。CAP方法相对较为简单，因而在现有ADSL产品中得到了较多应用；而DMT方法虽然较为复杂，但被ANSI和ITU采纳为国际标准，发展前景更为广阔。下面对DMT方法作一简单介绍。
+　　DMT方法使用的频率范围是26kHz～1.1MHz，将这部分带宽进一步分为多个带宽为4kHz的子通道，上传信号占用20个子通道，下传信号占用256个子通道，子通道在每个周期加载8位数据(用QAM方法调制)，由此可以计算出上传和下传速率的理论值：
+　　上传速率=20× 8× 4kHz=640kbps 
+　　下传速率=256× 8× 4kHz=8.1Mbps 
+　　DMT方法在初始化时测试各子通道的容量，然后根据测得的结果将数据分散到各子通道传输，对于铜质双绞线来说，高频信号对噪音更加敏感，因此频率较低子通道的传输速率通常比频率较高的子通道要高。ADSL实际能够达到的传输速率与传输线路的长度和质量是密切相关的。
+3　xDSL与其他相关技术的比较
+　　目前传输速率比传统Modem更高的技术主要有ISDN、xDSL和Cable Modem几种。下面进行简单的比较。
+3.1　ISDN与xDSL
+　　ISDN技术与xDSL技术有很多相似之处：都以普通电话线作为传输介质；都不影响原有电话业务等。ISDN技术提出较早，因此应用较为广泛，但传输速率偏低，如典型的2B+D接口传输速率为128kbps；另外ISDN是一种交换式技术，而xDSL是一种点-点通信技术。
+3.2　Cable Modem与xDSL 
+　　Cable Modem也是近几年兴起的一种高速网络访问技术，它以有线电视使用的宽带同轴电缆作为传输介质；传输速率为上传128kbps～10Mbps，下传10～30Mbps；线路长度可达30英里(48.2km)。它与xDSL的一个最大共同点就是使用现有的电缆系统，通过增加相应设备获得较高的传输速率。Cable Modem的主要问题是由共享带来的，由于传统有线电视的特点，宽带同轴电缆是由若干用户共享的，因此其30Mbps的带宽也由这些用户共享，一个用户能够达到的实际传输速率依赖于其他共享用户的使用情况。另外，共享传输介质还可能带来安全上的问题。 
+　　除了以上技术以外，传输速率更高的技术还有FTTH(Fiber To The Home)、FTTC(Fiber To The Curb)等，两者都以光纤作为传输介质，综合指标远比其他技术优越，但由于需要重新敷设电缆，使系统成本和所需时间大大增加，因此目前还不可能进入大规模实用阶段。
+　　总的来说，传统的调制解调器、ISDN、xDSL、Cable Modem等各种网络访问技术在性能、价格、实现难易程度等方面具有各自不同的特点，在市场上将长期共存，其中xDSL和Cable Modem作为新兴的技术，在未来若干年内将会得到更快的发展。
+作者简介：刘铁　男，30岁，讲师，主要研究方向；计算机网络，多处理机系统
+作者单位：西安交通大学计算机系西安　710049
+参考文献
+　1　Aber R. xDSL Local Loop Access Technology.3COM Techn-ical Papers, 1998
+　2　Paradyne Company.The DSL Source Book (second edition).1997
+　3　Digital Subscriber Line-The Future of Remote Access.Ascend Technical Overview, 1996
+　4　Tanenbaum A S. Computer Networks(3rd edition). 1996 
+收稿日期：1998-11-02

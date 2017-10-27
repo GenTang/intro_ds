@@ -1,0 +1,118 @@
+微型机与应用
+MICROCOMPUTER & ITS APPLICATIONS
+2000　Vol.19　No.4　P.14-16
+
+
+
+基于ＲＤＳ控件开发的Ｗｅｂ数据库应用
+浦江
+摘 要： 使用ＲＤＳ控件访问Ｗｅｂ数据库的基本方法，并以图书管理系统为例说明了其应用，最后将此种方法与ＡＳＰ方法进行了比较。
+关键词： ＲＤＳ控件 Ｗｅｂ数据库 ＡＳＰ方法 ＨＴＭＬ文档
+　　目前，实现Web数据库访问大致可分为2类：一类是以Web服务器为中介，把浏览器和数据源连接起来，在服务器端执行对数据库的访问，并将结果传递给客户端浏览器，如ASP和CGI等方法。另一类是把数据库下载到客户机端，在客户机端执行脚本应用程序实现对数据库的访问操作，然后再把数据写回到Web数据库中。如Microsoft推出的数据绑定（Data Binding）方法，利用与IE4．0一起发布的2个Active X控件：RDS（Remote Data Services，远程数据服务）和TDC（Tabular Data Control，表格式数据控件）。RDS可实现真正跨越Internet的数据存取服务，用于访问ODBC数据源中的数据；TDC用于访问文本文件中的数据。
+　　本文首先介绍了使用RDS控件访问Web数据库的基本方法，然后通过实例讨论了利用RDS控件实现对Web数据库的更改、删除和添加等操作，最后将此种访问Web数据库的方法与ASP方法进行了比较。
+1　使用RDS控件访问Web数据库
+　　利用RDS控件实现对Web数据库的访问如图1所示。
+
+图1　RDS控件对Web数据库的访问
+　　浏览器执行某一HTML文档时，如果需要访问Web数据库，它将通过RDS控件与Web服务器（IIS／PWS）的ODBC驱动程序及数据库建立连接，读取Web数据库的有关记录存入Recordset对象中，然后复制一份并提供数据操作区。在客户机端实现对Web数据库的操作查询、更改、删除、添加等，在这一阶段，即使Web数据库中的数据有所变动，客户机端的数据也没有变动。待客户端对数据库操作完毕后，调用RDS的Submitchanges函数，修改后数据才会写回到Web数据库中。
+　　1．RDS控件的使用及常用属性和方法
+　　在HTML文档中使用RDS控件需要用HTML的＜OBJECT＞标记。如：
+　　＜object classid＝″clsid：BD96C556－65A3－11D0－983A－00C04FC29E33″ id＝test＞
+　　　　＜param name＝″server″value＝″http：／／server／″＞
+　　　　＜param name＝″connect″value＝″dsn＝tsk；uid＝su－per；pwd＝pj″＞
+　　　　＜param name＝″sql″ value＝″select * from 图书库″＞＜／object＞
+　　test为RDS对象名，其常用属性有Server、Connect、Sql。Server属性用来指定Web服务器的IP地址或域名；Connect属性用于ODBC指定连接的数据库；Sql属性是要运行的结构查询语言指令。此外还有ExecuteOptions和ReadyState属性，它们主要用于连接数据库时等待的控制。
+　　RDS对象的常用方法有3个：Refresh、Submitchanges和CancelUpdata。
+　　Test．Refresh：将重新下载Web数据库中的数据；
+　　Test．Submitchanges：是在数据库操作修改后，将数据重新写回Web数据库中；
+　　Test．CancelUpdata：取消所有对记录集Recordset进行的操作；
+　　2．Recordset对象的常用属性和方法
+　　为了实现对Web数据库中的数据记录进行操作，必须掌握Recordset对象的常用属性和方法。
+　　Recordset．Fields．Count：Recordset的字段数
+　　Recordset（i）．Name：第i个字段名；
+　　Recordset（“字段名”）：指定字段的记录；
+　　Recordset．Movefirst：指向第1条记录；
+　　Recordset．Moveprevious：指向前1条记录；
+　　Recordset．Movelast：指向最后1条记录；
+　　Recordset．Next：指向下1条记录；
+　　Recordset．delete：删除当前数据记录；
+　　Recordset．Addnew：添加新的数据记录；
+　　Recordset．Update：更新当前数据记录；
+2　应用举例
+　　图书管理系统一般分为登录、借阅、还书、查询和预约等部分。下面以登录检查图书库为例，说明利用RDS控件访问Web数据库的方法。
+　　1．在服务器端，启动Microsoft Access，建立1个书库．mdb。在库中新建1个图书库表。在控制面板ODBC的用户DSN中，定义1个数据源名tsk与书库．Mdb的映射。
+　　2．插入RDS数据控件：
+　　＜object classid＝″clsid：BD96C556－65A3－11D0－983A－00C04FC29E33″ id＝test＞
+　　＜param name＝″server″ value＝″http：／／server／″＞
+　　＜param name＝″connect″ value＝″dsn＝tsk；uid＝super；pwd＝pj″＞
+　　＜param name＝″sql″ value＝″select　*　from 图书库″＞
+　＜／object＞
+　　3．RDS控件与HTML标记的联合使用。下例是RDS与文本输入框的联合使用。
+　　图书编号＜input type＝text datasrc＝′＃test′ datafld＝″图书编号″size＝10 id＝tsbh＞＜br＞
+　　图书类型＜input type＝text datasrc＝′＃test′ datafld＝″图书类型″size＝10 id＝tslx＞＜br＞
+　　书名＜input type＝text datasrc＝′＃test′datafld＝″书名″size＝30 id＝sm＞＜br＞
+　　编者＜input type＝text datasrc＝′＃test′datafld＝″编者″size＝8 id＝bz＞＜br＞
+　　价格＜input type＝text datasrc＝′＃test′datafld＝″价格″size＝10 id＝jg＞＜br＞
+　　出版社＜input type＝text datasrc＝′＃test′datafld＝″出版社″size＝20 id＝cbs＞＜br＞
+　　出版日期＜input type＝text datasrc＝′＃test′datafld＝″出版日期″size＝12 id＝cbrq＞＜br＞
+　　库存数量＜input type＝text datasrc＝′＃test′datafld＝″库存数量″size＝6 id＝kcsl＞＜br＞
+　　摘要＜input type＝text datasrc＝′＃test′datafld＝″摘要″size＝30 id＝zy＞＜br＞
+　　datasrc＝′＃test′表示文本输入框的数据来自于test的RDS对象，datafld＝″图书编号″表示数据字段为图书编号。
+　　接着设置几个显示数据库记录的控制按钮：″第1记录″，″上1个″，″下1个″，″最后1个″。
+　　＜input type＝button value＝″第1记录″ title＝″To First″id＝dyg＞
+　　＜input type＝button value＝″上1个″ title＝″To Previ－ous″ id＝shyg＞
+　　＜input type＝button value＝″下1个″ title＝″To Next″ id＝xyg＞
+　　＜input type＝button value＝″最后记录″ title＝″To Last ″id＝zhyg＞
+　　最后设置操作数据记录的按钮（共4个）：
+　　＜input type＝button value＝″保存″ title＝″Save Current Change″ id＝saverec ＞
+　　＜input type＝button value＝″更改″ title＝″Update cur－rent Record″ id＝updaterec＞
+　　＜input type＝button value＝″添加″ title＝″Add a New Record″ id＝addrec＞
+　　＜input type＝button value＝″删除″ title＝″Delete cur－rent record″ id＝delerec＞
+　　4．RDS控件与脚本语言的联合使用。以下是显示数据库记录控制按钮和操作数据记录的Vbscript脚本语言：
+　　＜script language＝″vbscript″＞
+　　　sub jianyan（）
+　　　　dim msgRe
+　　select case window．event．srcElement．id
+　　　case ″dyg″：
+　　　　　test．recordset．moveFirst
+　　　case ″shyg″：
+　　　　　if test．recordset．AbsolutePosition＞1 then test．recordset．movePrevious
+　　　　　else
+　　　　　　msgbox ″这是第1个记录了！″，，″提示″
+　　　　　end if
+　　　case ″xyg″：
+　　　　　if test．recordset．AbsolutePosition＝test．record－set．RecordCount then 
+　　　　　　msgbox ″这是最后1个记录了！″，，″提示″
+　　　　　else
+　　　　　　test．recordset．move Next
+　　　　　end if
+　　　case ″zhyg″：
+　　　　　　test．recordset．moveLast
+　　　case ″updaterec″
+　　　　　if tsbh．value＝″″ or tslx．value＝″″ or sm．val－ue＝″″ or bz．value＝″″ then
+　　　　　　msgbox ″请输入完整的数据！″，，″提示″
+　　　　　else
+　　　　　　test．recordset．update
+　　　　　end if
+　　　case ″addrec″：
+　　　　　　test．recordset．addnew
+　　　case ″delerec″：
+　　　　　　msgRe＝msgbox（″删除该记录吗？″，4，″警告″）
+　　　　　　if msgRe＝6 then
+　　　　　　　test．recordset．delete
+　　　　　　end if
+　　　case ″saverec″
+　　　　　　test．submitchanges
+　　　　　　end select
+　　　　　end sub
+　　＜／script＞
+3　RDS与ASP方法访问Web数据库的比较
+　　利用RDS控件和ASP技术均可实现对Web数据库的访问，下面介绍它们各自的特点及适用范围。
+　　1．ASP访问Web数据库是使用Active X数据对象（ADO）。除此之外，在ASP程序中可使用ASP的5个内置对象（Request、Response、Server、Application和Session）以及ASP 4个内置的Active X服务器组件、自己动手利用Visual Basic、Java、Visual C＋＋等语言制作的有特殊功能的服务器组件。ASP是制作大型动态网页的有效工具。而RDS仅是Active X组件中访问Web数据库的一个控件，多适用于VB开发程序，特别是在新推出的VB6．0中；在网页中RDS可与多种HTML组件结合使用，利用VBScript脚本执行处理程序。
+　　2．RDS访问Web数据库的方法是将数据库下载到客户机端，然后执行脚本程序，实现对数据库的操作；由于脚本程序在客户机端，对数据库的操作比较灵活。ASP访问Web数据库是在服务器端执行的，客户只能根据服务器所提供的访问方法操作数据库，返回给客户机的仅是操作结果，这种方法具有较高的效率，并能减少网络上信息阻塞；同时数据库的安全比较可靠，网面开发者的知识产权得到有效保护。
+　　3．ASP方法访问的Web数据库。由于ASP程序和Web数据库在同一台服务器上，ASP程序只是把读取的数据传给浏览器，或者接受浏览器提供的数据更新Web数据库的内容；而RDS访问的Web数据库是真正的“远程”数据库，当数据下载之后，可利用Recordset对象操作数据记录，其速度与单机数据库一样快。数据的修改方式也不同；在ASP方法中，当用户需修改数据时，直接请求由服务器完成；而RDS不会把修改过的数据立刻更新到Web数据库中，仅在副本中修改，直到用户下达更新命令（Submitchanges）之后，才会把数据真正写到Web数据库中。此种访问方法可用于在Internet／Intranet网上构建企业虚拟网的信息管理系统中。
+浦江(徐州经济管理学院计算机系221006)
+参考文献
+１，浦江．基于ＡＳＰ技术的Ｗｅｂ数据库访问方法．彭城职业大学学报，１９９９；３
+２，陈银山，张录娥译．Ｗｅｂ数据库的建立与管理．北京：机械工业出版社，１９９７；６
+收稿日期：１９９９－１０－３１

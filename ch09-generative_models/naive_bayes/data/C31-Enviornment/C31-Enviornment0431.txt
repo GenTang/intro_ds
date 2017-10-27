@@ -1,0 +1,117 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+水网藻(Hydrodictyon reticulatum)
+在不同环境条件下对氮磷的吸收能力
+王朝晖　林秋奇　杞 桑　齐雨藻　骆育敏
+摘要：研究了不同环境条件下,水网藻对N、P的吸收能力.结果表明,水网藻在富营养化水体至污水一级、二级处理出水中的N、P浓度条件下,对N、P均有较强的去除能力,6天内的最大去除率分别为67.3%和91%.在含4.2～50.4mg/L N、0.186～2.232mg/L P条件下,单位湿重的水网藻对N、P的去除能力随N、P浓度的增加而增加.温度对水网藻N、P去除能力的影响与生长一致,生长越旺盛,去除能力越强.水网藻对P缺乏的自然水体中的N、P去除能力也较强,去除率分别为70%和50%以上;而添加P,对TN、TP的去除率也增加.因此,使用水网藻作为富营养化治理植物具有一定的可行性. 
+关键词：水网藻；环境条件；氮；磷；富营养化
+中图分类号：X172 文献标识码：A 文章编号：1000- 6923(1999)03- 0257- 05
+Studies on the ability of Hydrodictyon reticulatum to remove nitrogen and phosphorus under different environmental condition.
+WANG Zhao-hui,LIN Qiu-qi,QI Sang,QI Yu-zao,LUO Yu-min 
+(Institute of Aquatic Ecoscience, Jinan University, Guangzhou 510632,China) .China Environmental Science. 1999,19(3)：257～ 261
+Abstract：The ability of Hydrodictyon reticulatum to remove nitrogen(N) and phosphorus (P) under different environmental condition was studied. The results show that H. reticulatum has higher ability to remove N and P in eutropic water bodies and treated sewage waste water;and the highest removal rates are 67.3% and 91% respectively during 6 days treatment. The removal amount of N or P per wet weight increases with increased N or P concentration under N and P contents between 4.2～ 50.4 mg/L and 0.186～ 2.232 mg/L. In optimal temperature, the removal efficiency is highest.H. reticulatum could also remove most of total N and P of P limited nature eutrophic water sample; At the end of experiment, the removal rates of TN and TP are 70% and 50% respectively.While adding P, the removal rate of TN、TP increased. These results suggest that H. reticulatum seems to be one of the feasible plants to reduce the amount of both nitrogen and phosphorus in eutrophic water and wastewater.
+Key words: Hydrodictyon reticulatum；environmental condition；nitrogen；phosphorus；eutrophic
+　　水体富营养化是水环境普遍面临的严重问题之一,有关藻类对污水及富营养化水体中N、P等营养物的去除作用已有大量研究[1- 3],但大多利用单细胞藻类为材料,单细胞藻类吸收N、P等营养物效果虽好,但体积微小,不利于收集,因此不适合在湖泊、水库等大型水体中被作为净化植物.
+　　水网藻(Hydrodictyon reticulatum)是一种大型的网片状或网袋状绿藻, 肉眼可见, 繁殖能力很强, 在生长过程中能吸收大量的氨氮、硝氮及无机磷等[4- 5].本研究的目的在于通过研究不同环境条件下水网藻对N、P吸收能力的影响,以探讨水网藻作为污水一级、二级处理出水及富营养化水体中N、P去除植物的可行性,从而为污水处理和富营养化防治提供一种新的防治手段.
+1　材料与方法
+1.1 藻种来源及培养
+　　水网藻采自广州市东效菜地沟渠中,分离纯化后进行单种培养.培养时将成熟的水网藻置入新鲜的培养基中,在7天之内即会长出小水网藻,再经4天之后小水网藻便可用于试验.
+1.2 培养条件
+　　培养温度为23℃±1℃,光照强度为5000lux,光暗比为12:12.培养基为经过改良的BBM培养基(mBBM)[6],培养基中的N、P浓度分别设定为41.25mg/L(NaNO3-N)、0.69mg/L(K2HPO4-P)、2.06mg/L(KH2PO4-P),其余营养元素与BBM培养基相同.
+1.3 试验设计及N、P测定方法
+水网藻小集结体（0.95～1.05g湿重）置于含有500mL培养基的1000mL三角瓶中,试验条件除特定条件外与培养条件相同,每个试验组设有3个平行组.
+　　TN和TP分别采用过硫酸钾硝解法及钼蓝比色法测定.
+1.4 试验方法
+1.4.1 不同的N、P浓度下水网藻对N、P吸收能力的影响 试验设置了6个N、P浓度组,各组N、P含量见表1.试验共进行6天,第6天测定水样中的N、P含量.除N、P浓度依试验要求设定外,其余条件同培养条件.
+表1 不同组别的N、P含量 (mg/L)
+Table 1 N and P contents in different tested groups (mg/L)
+组别NP组别NP
+I4.20.186　33.41.488
+II8.40.372　50.42.232
+III16.80.744　84.03.720
+
+1.4.2 水网藻在不同温度及不同的N、P浓度下对TN、TP的吸收能力 试验设定10、16、22、28、31℃ 5个温度;N、P浓度分别为2、3、4、5 mg/L N及0.1、0.15、0.2、0.25mg/L P,进行正交试验,试验的第6天测定水样中的TN和TP含量.
+1.4.3 水网藻在富营养化水库水样的生长潜力试验(AGP试验)及其对N、P的吸收 为了探讨水网藻在自然水体的生长潜力及其对N、P的去除能力,进行了水库水样的N、P添加试验.试验水样采自广东一水库,水样经滤膜抽滤后,即用于试验.添加了2个N浓度水平及3个P浓度水平,进行7天的AGP试验,试验设置及N、P含量见表2.
+表2　富营养化水体水样AGP试验设置及各组的N、P含量 (mg/L)
+Table 2 The N and P contents in the groups of eutrophic water sample AGP test (mg/L)
+试验组别代号NPN:P
+水样(不加水网藻)C15.150.1146.8
+水样(加水网藻)C25.150.1146.8
+添加N营养组
+水样+1.5mg/L NN16.650.1160.5
+水样+3.0mg/L NN28.150.1174.1
+添加P营养组　　　　
+水样+0.05mg/L PP15.150.1632.2
+水样+0.10mg/L PP25.150.2124.5
+水样+0.15mg/L PP35.150.2619.8
+添加混合营养组　　　　
+水样+1.5mg/LN+0.05mg/LPN1+P16.650.1641.5
+水样+1.5mg/LN+0.10mg/L PN1+P26.650.2131.7
+水样+1.5mg/L N+0.15mg/L PN1+P36.650.2625.5
+水样+3.0mg/L N+0.05mg/L PN2+P18.150.1650.9
+水样+3.0mg/L N+0.10mg/L PN2+P28.150.2138.8
+水样+3.0mg/L N+0.15mg/L PN2+P38.150.2631.3
+
+2　结果与讨论
+2.1 不同的N、P浓度下水网藻对N、P吸收能力的影响
+　　试验结果表明(图1),水网藻对TN、TP均有较强的去除能力,总的趋势为随N、P浓度的增加而增加,随后降低,这与N、P浓度对水网藻生长影响趋势相近[7].当水网藻生长旺盛时,对N、P去除能力也较强,在N、P含量分别为16.8mg/L N及0.744mg/L P时,水网藻生长良好.而对N、P去除率的峰值也出现在这两组,对TN去除率为67.3%,对TP的去除率为91%.
+　　藻类细胞内N、P与环境条件中的N、P浓度有较大的相关性[8],当环境中N 、P浓度较高时,细胞内N、P也较高.试验结果表明,在较高的N、P浓度条件下,虽然水网藻对N、P的去除率随N、P浓度的增加而降低,但单位湿重(ww)水网藻所吸收N、P除最高浓度组外却未降低(图2),而有逐渐增加的趋势,说明水网藻细胞内N、P含量也增加.
+
+图1 水网藻在不同N、P浓度下对TN、TP的去除能力
+Fig.1 The ability of H. reticulatum to remove TN and TP under different N、P concentration
+
+图2 单位湿重的水网藻在不同N、P浓度下对TN、TP的去除能力
+Fig.2 The removal ability of TP and TN by per ww H. reticulatum under
+different N、P concentration
+　　试验设定的N、P浓度水平为自然水体中富营养化水体的N、P浓度水平,其中有的还达到污水一级、二级处理出水中的N、P浓度水平,如香港污水处理厂一级处理出水中TN、TP浓度分别为50和6.69mg/L[1].当其它条件适合时,水网藻不但能在富营养化至重营养化水体及污水一级处理出水的N、P浓度条件下生长[7],而且对水样中的N、P具有较大的吸收能力,其对N、P一周内的去除率均大于小球藻和栅藻对香港污水一级处理出水的去除率[1,9].
+2.2 水网藻在不同温度及不同N、P浓度条件下对N、P吸收能力的影响试验的N、P浓度和温度范围为富营养化水体的4个不同水平的N、P浓度及我国南方自然水体全年温度变化范围.结果表明(图3,图4),起始温度为10℃,水网藻对N、P的去除率随温度的增加而增加,在22℃时达最大值,此后随温度的增加对N、P的去除率下降.
+　　随着温度的升高,水网藻生长逐渐旺盛,细胞个体不断增长,同时也不断繁殖,这些均需要吸收与同化外界营养物质作为物质基础.因此,从10℃开始,水网藻对TN、TP的去除率随温度的增加而增加,22℃时达到最大值.温度过高时(28～31℃),生长速度减慢,对TN、TP的去除率也降低.
+　　在试验的N、P浓度范围内,水网藻对N、P的吸收能力均随N、P浓度的增加而增加,这与王朝晖等[7]研究的温度和N、P浓度对水网藻生长的影响结果一致.在22℃和含5.0mg/L N、0.25 mg/L P时,水网藻生长较好,对N、P等营养物的需求也较高,因此对N、P的去除能力也较强.
+　　N、P浓度对水网藻吸收TP的能力影响较小(图4),而对TN的影响相对较大,Davis[10]等研究石莼的生长特性时也发现在低N、低P条件下,石莼细胞内P含量较高,细胞内N:P小于10,表明在这种条件下,藻类对P的吸收受到的影响较小.
+　　低温有利于水网藻耐受低N、低P[7],同时也有利于水网藻对N、P特别是对P的吸收(图3,图4).低温时藻类蛋白质合成效率降低,因此合成单位质量蛋白质就需要更多的RNA、酶及能量参与,所以低温时也需更多的营养物质特别是组成生物能量物质三磷酸腺苷(ATP)中的P维持生长[11].
+
+图3 水网藻在不同温度、不同N、P浓度条件下对TN的去除率
+Fig.3 The ability of H. reticulatum to remove TN under different temperature 
+and N、P concentration
+—◆— 2mg/L N,0.10mg/L P —●— 3mg/L N,0.15mg/L P
+—△— 4mg/L N,0.20mg/L P —× — 5mg/L N,0.25mg/L P
+
+图4 水网藻在不同温度和不同N、P浓度条件下对TP的去除率
+Fig.4 The ability of H. reticulatum to remove TP under different temperature 
+and N、P concentration
+注同图3
+2.3 水网藻在水库水样AGP试验中的生长及其对TN、TP的去除能力
+
+图5　水库水样AGP试验中水网藻的生长与N:P的关系
+Fig.5 The relationship between growth of H. reticulatum and N:P ratio 
+in reservoir water AGP test
+　　图5显示,水库水样中添加P时,水网藻生长率明显增加,生长的峰值均出现在添加P营养组,而且水网藻生长率的大小与N:P值有很大的相关性.当N:P在20～ 40时,水网藻生长较好.由于植物生长不可能同时受到N、P两种营养元素限制,因此在一定的N:P条件下,生长只能受到N或P的限制[8].试验结果表明,水库水样为P限制,同时水网藻的生长也明显受到P限制.
+　　水网藻对水样中的TN、TP的去除能力均较高（图6）,在不加水网藻的对照组C1组,TN、TP的自然降解率仅分别为23.4%和9.7%,而加入水网藻后,对TN的去除率均在70%以上,对TP的去除率均在50%以上,而且去除率的趋势与生长趋势一致.当N:P较适合时,水网藻生长良好,对N、P也有较强的去除能力.即使在N:P很不适合藻类生长条件下,水网藻也能保持一定的长势(图5,N2组),而对TN、TP的去除率也分别达到76%和52%
+　　(图6).淡水水体多属于P限制性水体,N:P经常大于50:1,因而结果表明,水网藻能在P限制性水体中生长,并对N、P有较强的去除能力,从而抑制其它浮游藻类的生长,防止水华的发生.
+
+图6　水库水样AGP试验中水网藻对TN、TP的去除能力
+Fig. 6 The ability of H. reticulatum to remove TN and TP in reservoir water AGP test
+　　许多研究已报道了藻类去除氮的过程和机理[1-3].Matusiak[2]发现藻类可优先利用NH+4-N和其它还原态氮,同时由于藻类不产生活性的硝酸还原酶,它们对NO3- -N的吸收仅发生在水中NH+4-N浓度很低或耗尽时,但不论以NH4+-N还是以NO3- -N为氮源,大部分藻类的最大生长速率相近,水网藻也同样如此[12].王朝晖等[9]在研究水网藻对富营养化水样中N、P去除能力研究时也发现,水网藻对水体中的NH4+-N去除率较大,而对NO3- -N的去除率,则相对较小,本研究结果也表明水网藻对NO3- -N有较强的去除能力.
+3　结　论
+　　水网藻在富营养化水体及污水一级、二级处理出水中的N、P浓度条件下,对N、P有较强的吸收能力,同时对TP的吸收能力较强,有利于P限制性水体的P更缺乏,从而限制藻类的生长.即使在P限制性水体中,水网藻生长良好,添加P能使其生长更旺盛,对TN、TP的去除能力也增强.
+　　由此可见,利用水网藻作为富营养化水体及污水N、P去除植物具有一定的可行性.
+作者简介：王朝晖(1968-),女,湖南长沙人,暨南大学水生态科学研究所讲师,主要从事水生态学和环境生物学的教学与科研工作.参加国家自然科学基金重大项目“中国沿海典型增养殖区有害赤潮发生动力学及防治机理研究”、广东省高教局重点科研项目“肇庆星湖水污染调查及治理对策研究”等科研项目.发表论文10篇.
+作者单位：（暨南大学水生态科学研究所,广东 广州 510632）
+参考文献：
+[1]Tam N F Y,Wong Y S,Liong E.Algal growth and nutrient removal in Hong Kong domestic wastewater [J].Environ.Pollut.,1989,58(1): 19-34.
+[2]Matusiak K,Przytocka-Jusiak M,Leszczynsk-Gerula K,et al. Studies on the purification of wastewater from the nitrogen fertilizer industry by intensive algal cultures.II.Removal of nitrogen from wastewater [J].Acta Microbiol. Pul.,1976,25(3):361-374.
+[3]Przytocka-Jusiak M,Duszota M,Matusiak K, et al.Intensive culture of Chlorella vulgaris/AA as the second stage of biological purification of nitrogen industry wastewaters [J].Wat. Res.,1984, 18(1):1-7.
+[4]Stary J,Zeman A,Kratzer K. The uptake of ammomium nitrite and nitrate ions by Hydrodictyon reticulatum [J].Acta. Hydrochim. Hydrobiol.,1987,15(2):193-198.
+[5]Stary J,Kratzer K,Zeman A. The uptake of phosphate ions by the algae Hydrodictyon reticulatum [J].Acta. Hydrochim. Hydrobiol., 1987,15(3):275-280.
+[6]Creed I F,Havas M,Trick C G.Effects on absenate on growth of nitrogen and phosphorus-limited Chlorella vulgaris (Chlorophyceae) isolatates [J].J.Phycol.,1990,26(4):641- 650.
+[7]王朝晖,骆育敏,林秋奇等.环境条件对水网藻生长的影响 [J]. 应用生态学报,1999,10(3):345- 349.
+[8]Rhee G Y,Gotham I J.Optimum N:P ratios and coexistence of planktonic algae [J].J.Phycol.,1980,16(4):486-489.
+[9]王朝晖,江天久,杞 桑等.水网藻(Hydrodictyon reticulatum)对富营养化水样中氮磷去除能力的研究 [J]. 环境科学学报,1999, 19(4):448-452.
+[10]Davis L S,Hoffmann J P,Cook P W.Seasonal succesion of algal periphyton from a wastewater treatment facility [J].J.Phycol., 1990,26(4):611-617. 
+[11]Rhee G Y,Gotham I J.The effect of environmental factors on phytoplankton growth:temperature and the interactions of temperature with nitrient limitation [J]. Limnol. Oceanogr.,1981,26(4): 635-648.
+[12]Stary J,Kratzer K.Radiochemical determination of intracelluar ionic concentrations in algal Hydrodictyon reticulatum [J]. Radional Nucl. Chem. Letters.,1986,103(2):187-198.
+收稿日期：1998-08-17

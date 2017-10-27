@@ -1,0 +1,121 @@
+计算机工程
+COMPUTERENGINEERING
+1999年　第25卷　第7期　Vol.25　No.5　1999
+
+
+
+企业级Javabeans的建立
+李陟　姚耀文
+摘要　对建立企业级Javabens的技术要点及难点进行了介绍与分析，并给出了一个建立企业级Javabeans的实例。
+关键词　Javajavabeans组件
+Building of Enterprise Javabeans
+Li Zhi Yao Yaowen
+South China Univ.of Tech,Computer Science and Engineering Dept.Guangzhou 510641
+Abstract：In this paper,the key point to build enterprise Javabeans was introduced and analyzed.At the end of the paper,the authors gave an example of building enterprise Javabeans.
+Key words：java;Javabeans;Component
+　　如今，Java在世界上已经越来越趋于流行了，由于它较好地解决了指针分配错误、内存分配资源不足及溢出、平台依赖性等问题，因此可以大大减少编程人员的工作量。Java用十分简单和强大的核心API技术使应用程序开发的复杂性大大缓解，令程序员可以将精力集中在应用程序上，不必考虑别的杂事，从而提高产品的质量。
+　　Javabeans是Java的软件组件标准，它继承了Java的平台独立性及简单性，使程序员能够更容易、高效地编写出能运行于任何支持Java平台上的标准的应用程序，并且使开发出的应用程序更便于维护和理解。因此，如何开发出高效、易于使用、易于利用其进行二次开发的Javabeans组件，以便于快速建立高质量的专业性应用程序，就成了当前需要解决的重点。
+1　Javabeans简介
+　　Javabeans标准是Java语言的低级组件模型。它不需指定复合文档和应用程序框架等内容，而OpenDoc、CORBA、ActiveX等组件标准则需要指定这些内容，也即Javabeans与Java一样，具有平台独立性。
+　　Javabeans可以看作一个黑盒子，只须知道其功能而不用管其内部结构。作为黑盒子，Javabeans有3个接口面，可以独立开发：
+　　·Javabeans可以调用的方法
+　　由于Javabeans严格遵循面向对象的设计概念，因此，方法是操纵Javabeans行为的唯一途径。
+　　例如一个数据库连接Javabeans可以有connect、close等方法，以便可以方便地操纵该Javabeans与数据库的连接和关闭连接。
+　　·Javabeans提供的各个可读写的属性
+　　Javabeans提供了高层次属性(Properties)的概念。从面向对象的角度，属性就是传统的对象属性(Attribute)，但多了属性读取与设置API的支持。
+　　一个数据库连接Javabeans可以有连接协议(通过JDBC、ODBC连接)、数据库服务器类型(Informix数据库、SQL数据库或Oracle数据库)、数据库名称、用户名、密码等属性，开发人员只需设定相关的属性值，就可以轻松地建立一个数据库连接。
+　　·Javabeans与外部交互的事件
+　　Javabeans与其它软件组件相交互的方式是发送与接收事件。
+　　例如一个数据库表格视图Javabeans应有接收键盘输入、鼠标按键等事件消息的功能。
+2　Javabeans设计基本概念及注意事项
+　　Javabeans总是运行在一个Java的虚拟机(JVM)、并存在于多线程的环境中，因此可以由多个线程同时访问。
+　　可以将Javabeans的属性分为专家属性与普通用户属性，在开发专业应用程序时，由于一个开发项目中的应用程序应当具有相同或类似的界面，因此，对于普通用户和一般性的需要，可以将应用程序标准界面要求作为Javabeans的缺省属性，以便于系统的快速、高质量开发；而对于专家用户及特殊的需要，可以修改缺省属性，以符合特殊的需要。
+　　由于Javabeans可以运行在各种Java虚拟机中，因此建立Javabeans的时候，必须考虑一些特殊的情况：例如运行在没有显示器的环境中或者运行在没有GUI的环境下。这时，无法使用AWT，因为：
+　　·无法看到Javabeans显示的结果；
+　　·这种系统的ROM不提供GUI功能。
+　　因此，编写的Javabeans既要考虑到这种极端的情况，也要考虑到开发投入的问题，如果开发的费用过高，开发周期过长，或者是所开发的Javabeans只使用在GUI环境中，则可以不用考虑这种情况。
+　　另一个需要考虑的问题是语言显示的国际化问题。由于一个好的Javabeans可能会被多个国家及地区所使用，因此Javabeans必须设计得足够灵活，以便中文、英文、法文、德文等文字的输入、存储、修改及输出。此外，日期、时间及货币等信息，也必须用当地的标准形式。这些问题都必须予以重视。由于Java 1.1增加了一些支持国际化的改动，过去，写一个国际化的代码需要付出额外的工作和比写"近似"代码大得多的困难，现在，可以利用Java 1.1的新特性编写支持国际化的Javabeans。
+2.1　编写支持国际化的Javabeans
+2.1.1　Locale类
+　　一个Locale对象封装了一个指定Locale的信息，包括足够独一无二地标识这个Locale地域的信息。当一个与Locale相关的方法被传递给一个Locale对象作为参数时，它会试图为指定的Locale修改其行为。一个Locale对象可以用语言代码、国家代码和一个可选的变量来初始化，这3种参数定义了一个地域。例如，有一个中国的Locale对象，若你使用时间类的时候，时间类会试图返回中国的时间定义格式。
+　　可以用以下语句创建一个中国的Locale对象：
+　　Locale chiLocale=new Locale("zh","cn");
+　　还可以将中文设置为缺省语言：
+　　Locale.setDefault(new Locale("zh","cn"));
+2.1.2　封装Locale相关数据
+　　虽然Locale类很容易操作Locale相关方法，然而，多数applet需要使用字符串、按钮、标签等其他类，这些类也需要本地化，以便显示本地信息。例如，在多数GUI程序中，需要有"OK"及"Cancel"按钮，但在中文程序中，可能需要将其定义为"确认"及"取消"按钮，因此，所编写的Javabeans必须要注意到这些差别。所以，在定义了Locale类之后，还要将编写的Javabeans与相应的Locale类封装起来。
+　　要封装Locale相关数据，需要使用ResourceBundle类。ResourceBundle类是一个抽象类，为实现任一功能它都必须被继承。ResourceBundle类由类装载器(classloader)通过名字装载。为了正确装载必须遵循严格的命名协议。例如要编写一个叫作ButtonBundle的类，它是ResourceBundle类的子类，它包含所有在应用程序中使用的Button的名字，这个ButtonBundle类提供缺省信息，而ButtonBundle_zh_cn提供中文简体标签，ButtonBundle_zh_tw提供中文繁体标签，BundleBundle_en_us提供英文标签。可以采用如下方法申请一个ResourceBundle。ResourceBundle getResourceBundle(String baseName,Locale localeName,ClassLoader loader);
+　　这个方法采用指定的类装载器去查找与baseName及实例化的Locale属性相匹配的类。有一种特殊的查找方式，可以用来找到与请求的ResourceBundle最近的匹配。
+　　bundleName+ "_"+localLanguage+"_"+localeCountry+
+　　"_"+localeVariant
+　　bundleName+"_"+localLanguage+"_"+localeCountry
+　　bundleName+"_"+localLanguage
+　　bundleName+"_"+defaultLanguage+"_"+defaultCountry+"_"+defaultVariant
+　　bundleName+"_"+defaultLanguage+"_"+defaultCountry
+　　bundleName+"_"+defaultLanguage
+　　bundleName
+　　创建本地化ResourceBundle最简单的形式是直接继承类ResourceBundle，然后重载其一个方法：
+　　Object handleGetObject(String key);
+　　这个方法返回一个对应于关键词key的对象。这些关键词是存储在ResourceBundle中内容的内部表示，对所有相同的局部数据来说应该是相同的。一个最简单的ButtonBundle可以如此定义：
+　　class ButtonBundle extends ResourceBundle {
+　　public Object handleGetObject(String key) {
+　　if (key.equals("OK"))
+　　return"OK";
+　　else if (key.equals("Cancel"))
+　　return"Cancel";
+　　return null;
+　　}
+　　}
+　　如果要编写ButtonBundle的中文简体版本，应定义ButtonBundle_zh_CN类，返回"确认"和"取消"等信息。
+3　建立企业级Javabeans
+3.1　企业级Javabeans的标准
+　　所建立的Javabeans如果要成为企业级的组件，必须符合以下标准：
+　　·Javabeans组件必须有明确、细致的功能，并能很好地完成这个功能；Javabeans组件必须要做到在速度、大小及准确性方面有良好的质量。
+　　·Javabeans组件必须健全。在不同的环境(包括不同的操作系统环境，不同的Java开发平台，不同的JVM)中运行时都不会出错，且不会导致应用程序或系统的崩溃。
+　　·Javabeans组件应当是用户友好的，如果有GUI界面，则应具有良好的人机工程学或图形学设计。具有GUI的组件应充分测试其人机接口的易用性。
+　　·Javabeans组件应当能够本地化，例如能输入、修改、输出本地文字，出错时能以本地文字信息显示错误信息。
+　　·Javabeans组件报告错误时，应能报告比较详细的错误信息，能让普通用户理解。
+　　·Javabeans组件应当具有二次开发比较简单的特性。利用组件来进行开发应当简单而直观。Javabeans的接口应尽量简单，这样才能使所开发的Javabeans组件取得更大的成功。
+　　·Javabeans组件应当是纯Java的，不包含本地代码。否则会使所开发的Javabeans组件在其他操作系统或JVM上无法执行。
+3.2　开发企业级Javabeans实例
+3.2.1　市场需求
+　　这一二年来，开发Internet管理系统项目的需求逐渐增多。越来越多的公司希望能把自身的一些业务管理放到Internet，以便远程管理以及业务扩展。例如酒店、机场等企业，就十分需要一个联入Internet的订房、订票系统，以便各种客户使用。
+　　要开发一个这样的瘦客户端的Internet管理系统，采用Java来开发就比较合适。因为采用Java开发，不管客户使用什么操作系统，只需要联入Internet，安装一个通用的浏览器，就可以访问该管理系统了，而不用在客户端安装任何其它软件。
+　　当前，如果使用JDK来开发，由于不是可视化开发，因此开发效率比较低下。而采用一般的Java可视化开发工具，如VJ++ 1.1等，不是没有辅助数据库开发的控件，就是不支持中文的输入、输出。因此很有必要开发一套辅助系统开发的Javabeans组件，以提高Java数据库开发的速度。
+3.2.2　开发分析
+　　作为一套数据库Javabeans，首先必须实现一个database JavaBeans，以用于记录数据库服务器IP地址、数据库类型(SQLserver、Oracle、Informix数据库或是其它)、数据库名称、用户名、密码等信息。高级用户还可以对这个database Javabeans进行继承，指定数据库服务器IP地址、数据库类型、数据库名称等信息，只让普通用户改动用户名与密码等信息。
+　　接着，需要实现一个TableView Javabeans类，可以让用户输入一个SQL语句，以决定从database中获取什么数据。作为一个完善的Javabeans，应可以让用户决定所获取的TableView数据在修改时是表级锁、页面锁还是行级锁，当然，这需要数据库本身的支持(例如Informix就可以支持行级锁，而Sybase则只支持页面锁)。
+　　除此之外，还需实现：
+　　·DataBrower Javabeans类，以便浏览TableView类所获取的数据；
+　　·DataList Javabeans类，以便浏览TableView类所获取的数据中的某一列；
+　　·RecordState Javabeans类，以便知道当前记录是否已被修改等信息；
+　　·RecordNumber Javabeans类，以便知道当前记录在TableView所获取数据中的行号；
+　　·DataText、DataGraph、DateTime、DataNumber、DataBoolean等Javabeans类，以便获取数据库中不同的数据类型；
+　　·DataOptionalButton、DataButton、DataImageButton、DataComboBox、DataCheckBox、DataLabel、DataTips等Javabeans类，以便更好地对程序流程进行控制；
+　　·DataChart Javabeans类，可以对输入数据进行分析，并可有3D图、饼状图、条形图等直观化图形输出。
+3.2.3　Javabeans设计
+　　决定实现哪些类之后，需要具体设计每个Javabeans类具有哪些属性方法。
+　　对于database类，就起码必须有connect()、close()等方法；而TableView类，则需要有moveFirst()、moveLast()、movePrev()、moveNext()、goToRecordNo()、addRecord()、updateRecord()、deleteRecord()、commit()、rollback()方法以及获取和修改数据库中各种类型数据的方法。
+　　DataChart类，则需要有setXAxis()、setYAxis()、setZAxis()、setXMax()、setXMin()、setYMax()、setYMin()、setZMax()、setZMin()、setChartStyle)()等方法。
+　　其它各Javabeans类的方法在此不一一详述。
+　　各个Javabeans间的通信主要依靠在生成该Javabeans类对象时，传递需要通信的Javabeans类的句柄来通信。
+　　例如Database类与TableView类的通信，就是依靠在生成TableView类对象时，传递Database类对象的句柄给TableView类，以便TableView类知道所要读取的数据库的有关信息。
+3.2.4　Javabeans对象的封装及二次开发
+　　高级用户可以继承我们的Javabeans组件，以创立自己的Javabeans组件。例如可以为了开发新项目的需要，继承Database组件、封装数据库服务器、数据库类型与数据库名称等属性，而只让普通用户见到用户名与密码属性。在二次开发中，高级用户甚至可以自己建立一个Login Form Javabeans，以实现用户的登录功能，完全将Database Javabeans封装起来，使其对普通用户不可见。普通用户可见的只是一个Database Javabeans的句柄，其再使用该句柄来对数据库中的表进行访问。
+　　在二次开发中，用户可以继承DataImageButton类，实现有自己特色的"确定"、"取消"、"退出"等功能按钮，以适应自己需要，加快开发速度。
+4　结束语
+　　在上述分析及设计的基础上，实现了一套数据库Javabeans，并应用于实际开发中，获得了令人满意的效果。虽然，在一开始建立Javabeans应用时，会有十分复杂及不知如何下手的情况发生，但是慢慢地会发现：Javabeans在设计与代码复用方面的特长必将会在设计和代码复用的宏观规模上带来一场革命。
+作者简介：李陟 男，24岁，研究生，主要研究方向为多计算机组织与系统结构
+作者单位：华南理工大学计算机科学与工程系广州510641
+参考文献
+1　廖卫东,陈梅.Java程序设计实用指南.北京：机械工业出版社,1996
+2　Ablan J.用Java开发Intranet应用.北京：机械工业出版社,1997
+3　Khurana G S.Web数据库的建立与管理.北京：机械工业出版社，1997
+4　Mohseni P.Web数据库开发人员指南.北京：机械工业出版社，1997
+5　Morgan M.Webmaster专家方案.上海：上海远东出版社,1997
+6　Morrison M.Presenting Javabeans.美国：SAMS出版社，1997
+7　Bankston,Seifert.Java 1.1 Unleashed(Third Edition).美国：SAMS出版社,1997
+8　Various.Developing Professional Java Applets.美国：SAMS出版社,1996
+9　Morrison M.Java Unleashed(Second Edition).美国：SAMS出版社,1996
+10　Weber J.Special Edition Using Java(Second Edition).美国：QUE出版社,1996
+收稿日期：1998-11-23

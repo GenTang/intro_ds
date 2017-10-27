@@ -1,0 +1,110 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+脉冲电晕烟气脱硫脱硝的化学动力学分析
+李　谦　李　劲
+(广东电力试验研究所，广州　510600)
+(华中理工大学环境科学与工程研究中心，武汉　430074)
+　　摘要 对脉冲电晕等离子体条件下烟气SO2、NO气相氧化进行化学动力学模拟研究，结果表明，在气相反应中，SO2主要由OH基氧化脱除，大部分氧化物转化为H2SO4；NO的氧化则涉及与多种自由基(O、OH、HO2)及中性物种的反应；给出了SO2、NO气相氧化对主要自由基(OH基)浓度的依赖关系，以及典型实验条件下SO2气相净化所需的最优OH基产额；讨论了H2O和O2的行为和作用，及其含量对气相净化过程的影响；化学动力学研究结果为等离子体过程的优化提供了依据.
+　　关键词 脉冲电晕；等离子体；脱硫脱硝；化学动力学；模拟研究.
+　　脉冲电晕脱硫脱硝包含复杂的化学机制，直接通过实验确定某些反应的重要性是非常困难的，化学动力学分析成为理解和把握这个等离子体催化脱除过程中各类机制的重要手段.脉冲电晕脱硫脱硝化学反应机理远没有电子束辐射［1］那样系统地被研究，脉冲电晕的能量是以非连续和非均匀方式注入到反应器，反应器中的化学反应是以非连续和非均匀方式进行的，这个因素在已报道的脉冲电晕化学动力学研究中未见考虑.为此，我们建立化学动力学模型，以确定一个简单而合理的化学反应体系，以及主要活性物种在SO2、NO气相净化过程中的行为和作用，为这个基于等离子体的脱除过程的优化提供理论依据.
+1 脉冲电晕场中SO2和NO的气相氧化脱除机理分析
+　　SO2和NO在脉冲电晕场中气相氧化脱除可认为分两步进行，即活性物种形成过程和随后处于两电晕脉冲之间阶段基于活性物种的气相氧化反应过程.
+1.1 活性物种的形成过程
+　　在脉冲电晕过程的初始阶段，高能电子直接作用于烟气主要成分N2、CO2、水蒸汽和O2，高能电子具有足够能量打断以上分子的共价键，形成自由基(O、H、OH、N、CO等).烟气每个成分吸收的电晕能量与其浓度和注入能量成正比，脉冲电晕诱发的初始激发、解离和电离过程中，各物种初始产额与注入能量关系为［2］：
+4.43 N2+100eV→0.29 N*2+0.885 N(2D)+0.295 N(2P)+1.87 N(4S)+2.27 N*2+0.69 N++2.96e
+5.337O2+100eV→0.077 O*2+2.25 O(1D)+2.8 O(3P)+1.8 O*+2.07 O+2+1.230+3.3e
+7.33 H2O+100eV→0.46O(3P)+4.25OH+4.15 H+1.99 H2O++0.01 H+2+0.57 OH++0.67 H++0.06 O++3.3e
+7.54 CO2+100eV→4.72 CO+5.16 O(3P)+2.24 CO+2+0.51 CO++0.07C++0.21O++3.03e
+其中上标“*”表示激发态，注入能量以100eV为单位，物种前系数为上式各物种Xi(自由基、分子、离子和电子)的初始产额G(Xi)，定义为上式左边产生该物种的母成份吸收100eV能量所产生的该物种数目.可以看出，脉冲电晕诱发的初始过程将直接由高能电子碰撞产生离子、电子、自由基(N、O、OH、CO)及其各种激发态.
+　　由于电晕脉冲持续时间极短(ns级)，可以假设初始射解过程未引发后继的化学反应，终产物为处于准稳态的初始物种，初始物种产额作为引发后继化学反应的初始条件处理，直接射解所得各种初始物种浓度［Xi］0(下标“0”表示初始值，下同)：
+　　　　［Xi］0=G(Xi)*E*Ci
+其中，G(Xi)单位：个/100eV；注入能量E单位：100eV/cm3；［Xi］0单位：个/cm3；Ci为该物种母成分(N2∶O2∶H2O或CO2)占本体气体的摩尔比.取典型实验条件：脉冲峰压30kV，重复频率764Hz，单脉冲有效脉宽100ns，单脉冲能量40.8mJ，能量密度5.52μJ/cm3，有效处理空间容积7.39×103cm3，取典型燃煤烟气组分(体积比N2∶O2∶H2O∶CO2∶SO2∶NO=0.72∶0.06∶0.08∶0.13∶0.002∶0.001)，计算得初始射解主要物种产额如表1所示.
+表1 典型实验条件下单脉冲主要活性物种初始射解产额
+Table 1 Primary radiolysis yield of main active species by monopulse under the typical experimental condition
+
+　　物　种OHOHCONN*O*2O*N+2N+
+浓度，1011cm-31.174.451.151.977.790.740.0160.6375.801.76
+　　物　种O+2O+H2O+H+2OH+H+CO+2CO+C+
+浓度，1011cm-30.4280.3510.550.0030.1570.1850.9270.2110.029
+
+1.2 活性物种氧化反应过程
+　　通过模拟连续脉冲和脉冲后阶段，获得放电期间和放电后的等离子体化学.为便于分析，所涉及的反应系统取自几个主要路径的53个重要反应，主要考虑自由基和其它活性物种引起的氧化还原反应及带电粒子反应，化学反应方程式及反应速率常数主要取自Willis Hecht Seinfeld Person和Ham等的研究结果［3—6］.其中化学反应速率常数k的单位为，单体反应：s-1；二体反应：(cm3/mol)*s-1；三体反应：(cm3/mol)2*s-1.由于缺乏完整的温度依赖关系的化学动力学数据，k均取373K温度下的值.
+2 气相氧化化学动力学模拟研究
+2.1 气相反应化学动力学模拟的数学描述
+　　对所考虑反应体系中基元反应涉及到的每一物种(中性粒子和离子)均列一个相应的速率方程式，归结为相关物种浓度关联耦合的一阶常微分方程组初值问题，来研究各物种浓度在时间上行为.所有出现在体系中的稳定和不稳定物种浓度均作自变量，物种的数目即为耦合速率方程组的阶数，含n个物种Xi和m个反应的一组速率方程的基本形式为：
+　　　　
+其中kj为第j个反应的速率常数，［Xi］为物种Xi的浓度(单位：mol*cm-3).输入参数为所有涉及物种的初始浓度、反应时间和时间步长，其中不稳定的中间产物初值取为0.
+2.2 次级过程的初始基浓度计算
+　　初始射解过程产生的各物种(表1)，在脉冲过后迅速经历了离子反应、基复合反应和激励态物种中性反应路径，最终决定了后继化学反应的自由基初值，该次级过程时间很短，与离子平衡时间(1μs)一致.表2为次级机制的初始活性基产额，可以看出，含带电粒子反应是OH基的主要来源，由于HO2基通过O和OH复合而成，因而含带电粒子反应也是HO2基的真正来源；激励态物种反应对OH、O、N基产额的贡献也很显著.
+表2 典型实验条件下单脉冲次级过程的主要自由基初始产额(1011cm-3)
+Table 2 Initial radiolysis yield of main free radicals during the secondary process by monopulseunder typical experimental condition(1011cm-3)
+
+   物　种OHOHNHO2
+初始射解过程1.174.451.157.790
+含带电粒子反应12.646.523.224.550
+基复合反应0.0460.0730.0120.839.26
+激励态物种反应7.6211.1301.320
+总初始基产额21.47622.1704.38214.4909.260
+
+2.3 自由基在SO2和NO气相氧化中行为和作用的动力学研究
+　　由于本实验条件下自由基产额较低，为便于研究自由基在气相氧化中的行为和贡献，将初始基产额人为地增大到与SO2和NO浓度可比拟的水平，等效于增加单脉冲能量注入.通过改变主要自由基浓度，研究它们对不同反应过程的贡献，并获得其最优浓度水平.主要物种初始浓度如表3所示，它们将引发后续的气相化学脱除反应.
+表3 主要物种初始浓度(不添加氨)
+Table 3 Initial concentration of the main species(no ammonia injection)
+
+   物　种SO2NONO2OHOHO2N
+浓度，1016cm-32.691.080.0726.726.942.874.54
+
+
+图1 各主要物种浓度随时间变化　1.SO2，2.NO，3.NO2，4.HNO3，5.H2SO4
+Fig.1 Temporal variations in the main species concentrations
+　　单脉冲气相反应过程动力学模拟获得的主要感兴趣物种浓度随时间变化如图1所示，可看出，一旦基与氧化物种一起，在100μs的极短时间内给出有效的SO2和NOx脱除，大部分氧化物转化成H2SO4和HNO3.为研究主要基初始浓度对SO2和NOx脱除的影响，依次将其浓度取为0，其余基浓度不变，观察动力学模拟的SO2和NOx浓度随时间变化.
+　　［OH］0=0的结果见图2(a)，可看出，100μs内，NO大部分转化为NOx，NO浓度的下降对应于NO2浓度的上升，而SO2浓度受影响不大，两种酸的形成很少.可见OH基缺乏将阻碍SO2和NO2向酸的转化，而NO主要通过HO2和O基氧化为NO2，NO2浓度增大一方面来自NO的氧化，另一方面则是由于无足够OH基进一步反应.
+　　［OH］0=［HO2］0=0的结果见图2(b)，可看出，O和HO2缺乏时，大部分SO2由OH基有效转化为H2SO4；OH基对NO氧化为NO2贡献不大，即NO浓度受OH基浓度影响不大；NO2与OH反应较快，且完全从系统中消失，但它对脱除过程的贡献并不显著，故O和HO2基缺乏对NOx浓度下降的影响很小.
+
+图2 不同基初始浓度条件下主要物种随时间变化
+1.SO2，2.NO，3.NO2，4.HNO3，5.H2SO4
+Fig.2 Temporal variations in the main species concentration at various radical initial concentrations
+由图2得出结论，OH基对SO2向SO3、继而向H2SO4的气相氧化过程起主导作用；O和HO2基则对NO向NO2的氧化作主要贡献；而NO2向HNO3的气相氧化则由OH基支配.
+
+图3 SO2、NOx浓度对［OH］0依赖　1.SO2，2.NO，3.NO2
+Fig.3 The dependance of SO2,NOx concentration on ［OH］0
+　　从典型实验条件模拟结果看，单脉冲过程OH基初始产额为21.476×1011cm-3(7.99×10-2ppm)，而化学脱除过程SO2减少量为6.30×10-2ppm，最大的SO2脱除产额G(-SO2)与G(OH)初值相当，即G(-SO2)≈G(OH).可得出结论，SO2的气相氧化与OH基的浓度紧密关联.
+　　图3为SO2、NOx脱除对OH浓度依赖.NO较少受影响，而SO2和NO2对OH浓度有显著的依赖性，［OH］0在1.3—2.0倍［SO2］0之间，SO2下降很快，而［OH］0达2倍［SO2］0后，再增大［OH］0,SO2脱除率趋于饱和，本模拟条件下的最优［OH］0为2.5倍［SO2］0，此后随G(OH)增大而导致脱硫率饱和，这归因于OH浓度增大时，其它物种的基复合反应与SO2竞争消耗OH基.
+3 H2O和O2在SO2气相氧化中行为和作用的动力学分析
+　　烟气主要成分H2O和O2是自由基重要的源，它们在气相氧化中的行为是自由基化学的宏观反映，了解H2O和O2对气相氧化过程的影响，可为优化脱除过程提供动力学依据.
+3.1 H2O动力学分析
+　　从图4可看出，H2O的体积分数增大将增进SO2与OH的反应，使SO2脱除率有较大的改善.无H2O时，SO2脱除由直接脱除机制支配，且SO3不及时与H2O反应生成H2SO4时，通过SO3向SO2转化的速率很高，因而脱硫量很低.H2O浓度增大时，由离子反应和O(1D)原子抽氢反应O(1D)+H2O→2OH导致OH基的产额增大，增大H2O的体积分数将通过改善OH基产额而提高脱硫效率.由图4可见，SO2和NO有效脱除所需的H2O体积分数为4%—8%，实际烟气的H2O体积分数(10%左右)已足够.
+
+图4 SO2和NO氧化与H2O含量关系　1.SO2，2.NO，3.NO2
+Fig.4 The dependance of SO2 and NO oxidation on the H2O content
+
+图5 O2浓度对SO2脱除的影响
+Fig.5 Influence of O2 content on SO2 removal
+3.2 O2动力学分析
+　　保持H2O体积分数为8%的条件下，从图5看出，当O2浓度从0增加到10%时，脱除率上升很快；而当O2浓度高于10%时，脱除率上升缓慢，在10%—20%间已近饱和.合理的解释是，无O2时，直接脱除占优势，且通过电子激发水解离和N2(A)激发转化而获得的OH产额很低，因而脱硫率低；O2浓度增加时，O(1D)产额增加，O(1D)抽氢反应增强，OH产额增加，脱硫效果得以改善，而SO2脱除率在高O2浓度下出现饱和的根本原因则在于H2O不足，即OH的产额不受先体O(1D)产额所限制，而受H2O不足所限制；此时，过剩的O(1D)将通过与O2、N2、CO2和H2O碰撞的猝熄反应而消耗掉.由于实际烟气中O2浓度仅4%左右，不能提供足够的O(1D)产额用于抽氢反应产生OH基，脱硫效率受到限制.因此提高脉冲电源的能量利用率是提高OH基产额的关键，即通过改善能量传送的几个环节，使电晕场中的电子能量更有效地转化为化学反应能量，这是脱硫脱硝过程优化的突破口.
+4 结论
+　　本文建立了一个简单而合理的反应体系，对脉冲电晕条件下脱硫脱硝进行化学动力学模拟分析，对气相氧化过程进行了预测，为优化脱除过程提供了依据.主要结论为：
+　　(1) SO2和NO的气相氧化脱除过程分两步进行，初始自由基形成过程和自由基化学脱除过程，前者由脉冲电晕期间高能电子初始射解过程和随后的次级过程组成，其中次级过程中离子反应是初始活性基的重要来源，离子反应对脱除过程的贡献不容忽视.
+　　(2) SO2气相脱除过程有两个机制，直接脱除机制贡献较小，自由基反应过程起主导作用，OH基是气相氧化SO2的主要物种，SO2最大脱除产额G(-SO2)与OH基产额G(OH)相当.
+　　(3) NO的气相氧化涉及与多种自由基(O、OH、HO2)及中性物种的反应，HO2、O和O3对NO气相氧化成NO2的过程起主要作用，OH基则对NO2向HNO3的转化起主导作用.
+　　(4) 给出了SO2、NO气相氧化对主要自由基浓度的依赖关系，脱除SO2和NO效果随OH、O、HO2基浓度增大而改善，典型实验条件下SO2气相净化所需的最优OH基产额为SO2浓度的2.5倍.
+　　(5) 烟气中H2O体积分数增加，OH基产额增加，对SO2脱除有利，同时促进了NOx向HNO3转化.SO2和NO有效脱除所需的H2O体积分数为4%—8%，实际烟气的H2O体积分数(10%左右)已足够.
+　　(6) O2浓度增大对SO2脱除有利，但OH产额可能受H2O不足的限制，导致SO2脱除量出现饱和，最优H2O浓度随O2浓度增大而相应增加.
+　　(7) 提高脉冲电源的能量利用率是提高OH基产额的关键，即通过改善能量传送的几个环节，使电晕场中的电子能量更有效地转化为化学反应能量，这是脱硫脱硝过程优化的突破口.同时充分利用等离子体活化异质界面的异相反应也将是改善脱除效果和优化供能的有效途径.
+参考文献
+　1 Matzing H.Utilizing plasma technology for chemical reactions in controlling atmosphere.Advances in Chemistry and Physics,1991,80:315—402
+　2 Busi F. A kinetic model for radiation treatment of waste gases.radiat phys Chem,1989,33(1):81—84
+　3 Wills C and Boyleys A W.Process in the electron beam treatment of stack gases.J Phys Chem, 1976,8:71—73
+　4 Hecht T A and Seinfeld J H.Aerosol formation in the electron beam dry scrubbing process.Environ Sci Technol, 1974,8:327—332
+　5 Seinfeld J H.Air pollution:physical and chemical fundamentals.New York:McGraw　-Hill Book Company,1975
+　6 Person J C,Ham D O.Removal of SO2 and NOx from stack gases by electron beam irradiation.Radiat Phys Chem,1988,3(1—3):1—8
+KINETICS OF FLUE GAS DESULPHURIZATION AND DENITROGENATION BY PULSED CORONA
+Li Qian
+(Guangdong Power Test and Research Institute,Guangzhou 510600)
+Li Jin
+(Huazhong University of Science and Technology,Wuhan 430074)
+ABSTRACT A kinetics of SO2 and NO gas phase oxidizing removal from flue gas under the condition of pulsed corona plasma was investigated using simulation.The result showed that in the gas phase reaction,OH radical primarily contributed to the SO2 removal and most oxides were turned into H2SO4.The NO oxidization involved reactions with many species of radicals (O,OH,HO2 and etc.) and neutral species.The dependence of SO2 and NO gas-phase oxidization upon the concentration of the dominant free radical (i.e.OH radical),as well as the optimal yield of OH radical essential for SO2 gas phase purification under the typical experiment condition have been demonstrated.The behaviors and roles of H2O and O2,as well as the influence of their content on the SO2and NO gas-phase purification are also discussed.
+Keywords pulsed corona, plasma, desulphurization and denitrogenation, chemical kinetics, simulating study.
+1997-02-03收到原稿
+1997-05-20收到修改稿

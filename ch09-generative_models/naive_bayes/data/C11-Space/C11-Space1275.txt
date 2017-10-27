@@ -1,0 +1,84 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第3期　Vol.19　No.3　1999
+
+
+
+面心立方合金调幅分解与有序化的
+X射线和透射电镜衍射研究
+王六定　　陈长乐　　卫英慧　　康沫狂
+
+摘要： 在点阵波理论基础上，通过假定合金中溶质原子浓度的适当分布并建立与之相应的衍射波波幅表达式，利用计算机模拟得面心立方(Cu-4wt%Ti)合金调幅(Spinodal)分解与有序化共存的X射线衍射边带形貌，其波形与实验结果颇为相近。进一步根据迭加原理在两相互垂直方向上对上述衍射边带合成，所得有序化模拟衍射花样与电镜衍射谱完全一致。
+关键词： Spinodal分解； 有序化； X射线衍射； 透射电镜衍射； 迭加原理； 计算机模拟
+中图分类号： TG115.23　　文献标识码： A　　文章编号： 1005-5053(1999)03-0013-06
+Investigation of X-ray and TEM diffraction of spinodal
+decomposition and ordering for Cu-4wt%Ti alloy
+WANG Liu-ding1　　CHEN Chang-le1　　WEI Ying-hui2　　KANG Mo-kuang1
+(1.Department of Applied Physics, Northwestern Polytechnical University, Xi′an 710072, China; Department of Material Science and Engineering, Taiyuan University of Technology, Taiyuan 030024, China)
+Abstract： On the basis of lattice wave theory, the several side-band profiles of X-ray diffraction of spinodal decomposition and ordering for Cu-4wt%Ti alloy are simulated by the computer through supposing the rectangle distribution of solute atoms in the alloy,and the profiles are extremely similar to experimental results.Moreover,in the light of the principle of superposition,the composition of above mentioned profiles vertical each other in two directions is carried out and the imitative diffraction patterns obtained are extremely very good consistent with TEM diffraction pattern.
+Key words: spinodal decomposition; ordering; X-ray diffraction; TEM diffraction; principle of superposition; computer simulation
+
+　　尽管X射线衍射技术早已用于钢的回火转变研究，但其真正揭示钢中精细组织与结构变化的实验却始于一种高精度X射线衍射仪的问世［1］。当合金发生Spinodal分解形成贫、富溶质原子区时，在基体X射线主衍射峰两侧(有时为一侧)伴有边带(或卫星峰)出现，且两边带强度及位置随回火温度与时间相应变化［2，3］。若继续延长时效时间，合金中则会产生短程有序乃至长程有序结构而使电镜衍射谱中出现未分裂或分裂的超点阵斑。然而迄今为止，还未见到有关条幅分解与有序化X射线衍射边带形貌及电镜衍射谱的理论研究报道。本文主要特点是在获得一维Spinodal分解与有序化共存时X射线衍射边带形貌基础上，依波的迭加原理，模拟得Cu-4wt%Ti合金有序化的二维透射电镜衍射花样。基于实空间与倒易空间存在Fourier变换［4］，通过分析卫星斑点的强度及位置分布可以反推合金时效或回火过程中微观组织与结构的变化规律，其研究结果不仅能提供精确和定量的组织与结构信息，而且还可得到细微组织与结构变化的一个全面而准确的认识。
+1　Cu-4wt%Ti合金回火过程Spinodal分解与有序化过程共存时X射线衍射的点阵波处理
+　　业已指出，合金中的点阵波可看作由一系列不同波矢代表的平面波迭加而成，正是这些平面波被晶格产生不同程度的衍射，结果便在X射线衍射主峰两侧出现漫散峰(边带或卫星峰)［5］。设合金中存在的平面波有x种不同的波长。图1示出了其中的一种沿［h00］方向
+存在的调幅波波形。引入波形不对称因子ay，当ay=0.5时，波形是对称的。
+
+　图1　合金中沿［h00］方向存在的一种调幅波波形
+Fig.1　A kind of modulate wave existing along
+［h00］ direction in the alloy
+
+　　由图1可见，ay.Lx表示贫溶质区宽度，相应地富溶质区宽度为(1-ay)Lx。假定调幅波的波幅与不对称因子ay及浓度差｜ρ-｜成正比，于是2(1-ay)｜ρ-｜即为图示给定的调幅波贫溶质区波幅，相应地2ay｜ρ-｜自然表示富溶质区波幅。但从整体上考虑，计及某一波长Lx与平均波长的偏离程度(用两者之比表示)是必要的，因而贫、富溶质区的波幅可分别表示为2(1-ay)｜ρ-｜Lx/和2ay｜ρ-｜Lx。
+　　既然浓度波的矩形分布反映了贫、富溶质区的存在，那么它们各自的原子散射因子自然不同，且与浓度波幅有关。对贫溶质区，显然它的原子散射因子小于平均散射因子f，因而可表示为：
+　　　　
+类似地，富溶质区的原子散射因子为：
+　
+其中Δf=fB-fA，fA=fCu=20.78，fB=fTi=13.89［6］。
+　　以(N是溶质原子的摩尔浓度，a是晶格常数)表示条幅分解发生时原子尺寸因子(或点阵常数)的变化。对Cu-4wt%Ti合金，η=0.1243mol-1，a=0.36155nm［7］。若调幅区点阵结构变化与原子散射因子变化服从相似的规律，则在［h00］方向上贫溶质区第n个阵点与富溶质区第n′个阵点的坐标分别是：
+　　　　
+其中“-”和“+”号分别表示因溶质钛原子直径大于溶剂铜原子直径(DTi=0.293nm＞DCu=0.255nm)而使贫、富溶质区晶格常数小于及大于平均浓度时的晶格常数。应该注意到，上述阵点位置的表示只对贫、富溶质区域内部成立，在其分界处并不连续。为此应加上这两项才对。既然2π(/h)是倒易点阵矢量，是偏离Bragg衍射矢量，因此可得调幅波沿［h00］方向出现时，相应的衍射波波幅为［5］：
+　　　　　　　　　　　　　　(1)
+这里A′与B′分别与调幅波波幅和晶格参数有关。
+　　通过改变不对称因子ay及浓度差｜ρ-｜等参数，所得几幅X射线模拟衍射谱如图2a所示。显然，这与实验结果(图2c)符合很好。
+
+图2　Cu-4wt%Ti合金X射线衍射模拟衍射谱(a)，(b)与实验曲线(c)
+Fig.2　Simulated diffraction profiles of X-ray (a),(b) and experimental curves (c) for Cu-4wt%Ti alloy
+
+　　由图2c可见，Cu-4wt%Ti合金于950℃×2h固溶处理后，400℃时效不同时间，X射线衍射谱中｛200｝主衍射峰附近边带具有如下突出特点：①延长时效时间，主衍射峰略向大角度方向移动，同时左、右两边带均向主衍射峰靠近；②时效时间短时，低角度边带先于高角度边带出现，随后高角度边带强度增加较快，到达某一时刻，高、低角度边带形状关于主衍射峰大致对称；③继续延长时效时间，高角度边带强度增加及左移速度进一步加快［8］，以致在适当时效时间后衍射曲线上辨认不出高角度边带强度的极大值；④大部分时效时间范围内，高、低角度边带强度的极大值及其相应的衍射角关于主衍射峰均不对称。
+　　通过模拟可知，边带强度及其位置显著受不对称因子ay制约。当ay=0.5时，高、低角度边带强度及位置关于主衍射峰均对称；ay＜0.5时，低角度边带强度较高，反之高角度边带强度偏大。随着ay的增大，两侧边带均向主衍射峰靠近。此外，控制其他参量不变而增大浓度差会使衍射主峰向右移动(图2a,b)，此规律与上述延长时间的结果一致。再则，对于设定的矩形波，贫、富溶质区内各原子沿［000］→［h00］及［000］→［0k0］方向的位移大小分别相等即意味着合金已完全有序化，由此造成模拟的X射线衍射边带形貌中主衍射峰两侧除一次卫星峰外还存在强度逐渐衰减的、更高级次的卫星峰。由此，不对称因子ay同浓度差与回火时间对X射线衍射的模拟及实验边带形貌变化有着相似的影响规律。这样首次从理论上解释了X射线衍射边带形貌的不对称性主要受波形的不对称性和浓度差所制约。
+　　事实上，Cu-4wt%Ti合金Spinodal分解初期绝大多数溶质钛原子在富溶质区常沿软弹性方向〈100〉［8］富集，由此引起的晶格变化率比贫溶质区要大，这表现为低角度边带较早出现；延长时效时间，贫溶质区浓度进一步偏离平均浓度，浓度波波形逐渐对称，使高、低角度边带的强度与主衍射峰的角度差相等，即衍射曲线关于主衍射峰近似对称；Spinodal分解后期，贫溶质区浓度反而接近基体，导致高角度边带在靠近主衍射峰的同时强度亦在增加，而低角度边带由于溶质浓度已接近形成亚稳相的成分不再向主衍射峰靠近。这样高、低角度边带强度及其衍射角与主衍射峰的Bragg角度之差更为悬殊。
+2　Cu-4wt%Ti合金有序化电镜衍射谱模拟
+　　X光子与电子的波长不同，但它们作为微观粒子都具有波粒二象性的特点，因而对X射线衍射谱垂直合成的模拟图即可代表透射电镜衍射花样的基本特征。
+　　对晶体内沿任意方向传播的衍射波，总可以在坐标轴方向进行分解。根据独立作用原理，这些衍射波分矢量分别有其各自的衍射谱，并且它们模的平方和必定等于其合成矢量模的平方(或总衍射强度)。于是在与入射方向垂直的倒易空间平面内，将若干相互垂直的衍射谱进行合成，即可获得Cu-4wt%Ti合金有序化透射电镜衍射斑的模拟花样。
+　　当X射线(或电子束)沿［00l］方向射向晶体时，受原子散射后的任一散射波在(00l)平面内总可以沿［h00］和［0k0］方向分解成相互垂直的两列衍射分波，其强度分布如上所述已由点阵波理论通过计算机模拟获得。
+　　正是上述不同级次卫星峰的出现导致在每一主斑点周围存在亮度不同的超点阵斑点。图3a,b及c分别是在Cu-4wt%Ti合金400℃×1800min时效处理后的实摄电镜衍射谱与模拟衍射花样，它们的共同特点是除在两主斑点连线的1/5处存在较亮的、已分裂的超点阵斑外，还于该连线的2/5处出现较暗的小斑点，然而目前还未见其他合金有类似衍射花样的报道。由图3可见，模拟与实摄衍射谱中亮度较强的、已分裂的超点阵斑点和强度较弱的斑点与主衍射斑间的相对位置完全一致，这充分体现了由点阵波理论出发模拟合金Spinodal分解和有序化X射线衍射边带形貌及透射电镜衍射超点阵斑的合理性。
+　　综上所述，本文给出的模拟过程具有方法简单、步骤清晰、意义明确、结果切合实际等诸多优点。
+
+图3　Cu-4wt%Ti合金400℃×1800min时效处理后有序化的电镜衍射谱(a)与模拟衍射谱(b)，(c)
+Fig.3　TEM diffraction patterns (a) and simulated diffraction patterns (b),(c)
+for Cu-4wt%Ti alloy aged at 400℃ for 1800min
+
+3　结　论
+　　(1)在矩形波近视下，运用点阵波理论可模拟得Cu-4wt%Ti合金Spinodal分解与有序化共存的X射线衍射边带形貌。
+　　(2)不对称因子与浓度差显著地影响着X射线衍射边带形貌。
+　　(3)Cu-4wt%Ti合金透射电镜衍射模拟花样可由两垂直方向上的X射线衍射谱迭加获得。
+　　(4)有序化电镜衍射谱与模拟衍射花样中亮度较强的、已分裂的超点阵斑点和强度较弱的斑点间相对位置完全一致。
+注释：　基金项目： 航空基础科学基金(96G53084)
+作者简介： 王六定(1955-)， 男， 博士， 副教授
+作者单位：王六定、陈长乐、康沫狂：西北工业大学应用物理系， 西安　710072； 卫英慧：太原工业大学， 太原　030024
+参考文献：
+［1］　CHEN P C,WINCHELL P G.Martensite lattice changes during tempering.Metall 
+　　　　Trans，1980,11A：1333
+［2］　DITCHEK B, SCHWARTZ L H.Diffraction study of spinodal decomposition in Cu-　
+　　　　10wt% Ni-6wt% Sn.Acta Metall,1980(28):807
+［3］　MIYAZAKI T,TAKAGISHI S,MORI H,et al.The phase decomposition of iron-
+　　　　molybdenum binary alloys by spinodal mechanism.Acta Metall,1980(28):1243
+［4］　KHACHATURYAN A G.Theory of structure transformation in solids.New York:John 
+　　　　Wiley and Sons Inc.1983
+［5］　王六定.Cu-4wt%Ti合金调幅分解X射线衍射与透射电镜衍射研究.中国科学E辑，待发表
+［6］　DOYLE P A,TUMUR P S.Relative Hartree-Fock X-ray and electron scattering 
+　　　　factors.Acta Cryst,1968(24A):390
+［7］　MIYAZAKI T,YAJIMA E,SUGA H.Influence of structural modulation on the yield 
+　　　　stress of copper 5at% titanium alloy.Trans JIM,1971(12):119
+［8］　MIYAZAKI T,TAKAGISHI S,MORI H,et al.The phase decomposition of iron-molybdenum 
+　　　　binary alloy by spinodal mechanism.Acta Metall,1980(28):1143
+　　收稿日期： 1999-06-22； 修订日期： 1999-08-02

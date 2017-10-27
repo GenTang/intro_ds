@@ -1,0 +1,25 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.1 P.16-21
+
+
+
+
+可贮存推进剂火箭增压气体与泵入口压力关系研究
+廖少英　 
+摘　要：根据氦气和氮气在可贮存推进剂中的溶解度与发动机泵入口压力关系，以及对美国上面级火箭"阿金纳"增压系统的分析、计算和研究，对我国可贮存推进剂上面级火箭的发动机泵入口压力要求和增压输送系统进行分析和研究。认为采用氦气增压，我国可贮存推进剂上面级火箭发动机氧化剂泵入口压力要求可以大幅度地降低，较大地提高火箭的运载能力。并提出相应的改进建议。
+关键词：可贮存火箭推进剂；氦气；氮气；泵入口压力；增压气体
+分类号：V434+.212　文献标识码：A
+文章编号：1006－1630（2001）01－0016－06
+The Analytical Research of Relationship Between the Helium or Nitrogen Pressurization and the Engine Pump Inlet Pressure for Storable Propellant Rocket
+Abstract：This paper attempt from relationship between the helium or nitrogen solubility in the storable propellant and engine pump inlet pressure, as well as analysis, computation and research for the Agena pressurization system of the upper stage rocket of the America to analyze and study engine pump inlet pressure requirements of our country's storable propellant upper stage rocket and the pressurization system. The author considers that adopting the helium pressurization can decrease greatly the engine pump inlet pressure of the upper stage rocket, and considerably increase transport capacity of the rocket. This paper also puts forward a proposal of the corresponding improvements.
+Keywords：Storable rocket propellant; Helium; Nitrogen; Pump inlet pressure; Pressurized gas
+作者简介：廖少英（1936－），男，研究员，研究领域：宇航动力系统。 
+作者单位：廖少英（上海航天技术研究院805所，上海 200245）　
+
+参考文献：
+［1］Gokcen N A. Solubility of N2(g) in liquid N2H4(CH3)2N2H2, 50Wt%N2H4＋50Wt%(CH3)2N2H2 and N2O4[R]. Aerospace Corp. Internal Report.
+［2］Carter W K, Piper je. Reusable Agena study[R]. Vol. 2: Techbical, NASA N74-32285. NASA-CR-120362, LMSC-D383059-Vol.2.
+［3］Atlas-Agena flight performance evaluation for the orbiting GEO physical observatory OGO-V mission[R]. NASA TMX-1967.
+收稿日期：2000年8月12日
+出版日期：2001年2月25日

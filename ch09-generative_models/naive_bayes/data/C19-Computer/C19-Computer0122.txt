@@ -1,0 +1,9 @@
+计算机应用
+COMPUTER APPLICATIONS
+1999年 第19卷 第9期 Vol.19 No.9 1999
+
+
+
+计算机学会成立IOI科学委员会
+　　信息学奥林匹克竞赛是在教育部和中国科协领导下计算机学会主办的一项面向青少年的信息学科的竞赛，宗旨是在青少年中普及计算机知识，训练青少年逻辑思维能力，培养和发现计算机人才。为广泛深入地开展此活动，并为IOI2000(International Olympiad in Informatics)做准备。在中国科协的领导下，计算机学会7月9日在北京成立信息学奥林匹克科学委员会(Scientific Committee of Olymapiad in Informatics，简称SCOI)。SCOI近期的主要任务是负责IOI2000的命题和评测系统的建立，长远的任务是全面负责NOI(China National Olympiad in Informatics)以及与此相关的技术工作，包括冬令营、分区联赛和出国选拔赛等。
+　　中国计算机学会最近已组建了IOI′99中国代表队。代表队将于1999年10月赴土耳其参赛。

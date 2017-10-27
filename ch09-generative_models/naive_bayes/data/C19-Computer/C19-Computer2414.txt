@@ -1,0 +1,156 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第11期　Vol.36　No.11　1999
+
+
+
+容错机制测评中的故障注入模型及应用算法
+孙峻朝　王建莹　杨孝宗
+摘　要：故障注入(FI)是一种有效的测试和评价容错机制 (FTM)的方法, 可被普遍应用于容错计算机系统开发过程的各个阶段中. FI技术正确的和更 广泛的应用依赖于对FI原理的一致理解. 文中首先详细讨论了FI的应用对象即FTM在测评中 所表现出来的若干特征, 在此基础上提出了六元组描述的FI模型, 并对各组成元的属性进行 了深入分析. 同时, 作为FI模型的具体应用过程, 文中给出了FI独立试验算法(FI-IEA), 并讨论了该算法具体实现中的关键问题.
+关键词：容错机制,故障注入,测试,评价
+中图法分类号：TP302.8
+A FAULT INJECTION MODEL AND ITS APPLICATION
+ALGORITHM FOR TESTING AND EVALUATION OF FTM
+SUN Jun-Zhao, WANG Jian-Ying, and YANG Xiao-Zong
+(Department of Computer Science and Engineering, Harbin Institute of Technology, Harbin 150001)
+Abstract　Fault injection(FI) is a powerful method for the test ing and evaluation of fault-tolerance mechanisms(FTMs), which may widely be used during all phases of the development of fault tolerant computer systems. The technique of FI cannot be applied correctly and widely unless it is based on a consistent understanding of FI philosophy. FTM is the application object of FI and its characteristics as seen in testing and evaluation processes are discussed in detail. And then an FI model is described as a 6-tuple. The attributes of each factor are deeply analyzed. As the actual application process of the FI model, an FI independent experiment algorithm(FI-IEA) is presented at the same time, and some key problems on how to implement the algorithm are discussed.
+Key words　fault-tolerance mechanism(FTM), fault injection, testing, evaluation
+1　引　言
+　　容错计算机系统开发中的一个重要问题是如何对所采用的容错机制(FTM)进行测试和评价.故障注入(FI)技术是测评FTM的有效方法［1］.通过人为产生故障并引入系统中,FI加速了系统发生故障和失效的过程.利用对系统在注入故障后反应信息的监测和分析,可实现测试和评价FTM的目标,获得期望结果.与其它如形式证明、解析模型和基于测量等方法相比,FI作为一种基于试验的测评技术,具有应用范围广、结果精确度高、时间花费少等优点,已引起众多工程设计者和研究人员的重视.
+　　目前对FI的研究已有很多成果,许礚实用的工具也投入使用.然而,对FI技术自身形式化的统一模型方面的研究还很缺乏,大多数研究集中于两方面：
+　　(1)对FI具体实现方法的改进和创新［2～4］,包括对在不同抽象层次上注入故障的方法、尽可能精确模拟真实故障影响、减少试验开销和提高结果精确性、构造实用的FI工具等方面的研究；
+　　(2)某些具体项目中专门设计的FI试验［5～7］,研究目的是提供特定目标系统某些感兴趣的特征或指标.
+　　研究的局限性导致这些具体研究中FI技术简单的而非系统的应用.由于不存在对FI技术一致的理解,造成一方面试验结果精确度不够高,另一方面难以将结论推广至更为广泛的其它目标系统中.
+　　目前获得较多承认的FI模型研究是文献［8］中为FI方法建立的模型,将FI定义为四元组［F,A,R,M］,并从以下两方面讨论了模型各构成元的癹征：
+　　(1)抽象级别,即应用FI的目标系统模型类型,包括公理模型、经验模型和物理模型3种；
+　　(2)应用目标,包括互补的两个目标:确认和设计辅助.前者包括分别针对验证过程和FTM的故障排除和故障预测;后者包括提供改进设计的信息反馈以及用于维护的故障字典.
+该模型在以下几方面存在不足：
+　　(1)缺少对模型的形式化描述,仅通过纯文字介绍；
+　　(2)过多着眼于FI的工程应用,对FI自身属性的理论研究不足；
+　　(3)只描述了构成FI的静态元素,而未包含试验进行的动态过程；
+　　(4)对故障和工作负载(即系统行为集A)的描述过于粗略和过多简化；
+　　(5)没有明确提出模型在试验中的具体应用方法.
+　　本文着重研究FI统一的形式化模型及其应用算法.在详细讨论了FI测评对象即FTM在测评中表现特征的基础上,提出基于六元组描述的FI模型,并对各组成元进行了细致的分析，构造了该模型在具体应用试验中的算法,着重讨论了算法实现中的几个关键问题.
+2　对测评对象FTM的几点讨论
+　　容错计算技术是利用“冗余”思想屏蔽故障影响,提高计算机系统可靠性的重要手段.系统中采用的FTM是利用容?计算技术进行故障处理的重要机构.计算机系统按抽象级别的不同,可描述为由若干层次构成的多级层次结构,如由低至高可抽象为硬件、系统软件、应用软件3层.其中每一级中均可能发生故障.系统中所采用的每一种FTM均可视为位于该层次结构的某一级上,功能是阻止该级中产生的某些故障向上一级传播,或至少检测到该故障的发生,并向较高层次传递有关信息,以备在较高级上处理.FTM所实现的故障处理功能包括检测、屏蔽、重试、重组、恢复、重构等.编码技术、监视定时器(watchdog)、比较、表决、备份、卷回、切换、多样性设计等是典型的FTM.
+2.1　功能级FTM模型
+　　从功能级上抽象,FTM模型可表示为状态函数(STATE)和输出函数(OUTPUT)的定义：
+STATE(F×W,S)=S',OUTPUT(F×W,S)=A,或简写为FTM(F×W,S)=(A,S').
+其中,FTM的输入域由待处理故障集F与工作负载集W的笛卡尔乘积构成;S为系统所处原状态,S'为故障处理后系统的更新状态；A为FTM在F×W的输入组合下所采取的故障处理动作之集.功能级FTM模型的定义有助于理解下节中对FI模型的定义.
+2.2　FTM的测试与评价
+　　对FTM的测试是指验证其设计和实现的正确性,发现所开发的FTM中隐含的与预期功能不一致的设计故障,并为进一步的诊断和纠正提供有关故障的信息.FTM专用于处理故障的特殊性,使FI成为FTM测试的最重要手段.
+　　对FTM的评价,主要是指对其进行故障处理的运转行为效率方面的定量评估,也包括试验者自定义的一些定性/定量评价目标.经测试后的FTM,其运行效率仍不完善的原因来自于以下几方面：
+　　(1)需求分析阶段不完善的故障假设,致使所设计的FTM有可能面临未预期处理的或与预期情况不一致的故障类型；
+　　(2)FTM设计/实现过程中引入的故障,而在测试过程中未被发现或正确排除；
+　　(3)经独立测试的多种FTM在组合为一个整体时出现的问题,如功能方面的冲突等；
+　　(4)为容错设计而增加的检测和恢复等部件自身通常不容错,有受到故障影响的可能．
+　　FTM评价结果常作为可靠性模型等解析模型中的输入参数,其精确度对模型运算结果影响很大.FI最重要的应用即是通过评价FTM来为模型提供这些参数.
+2.3　目标FTM的形式
+　　容错系统开发过程的不同阶段中可形成两种不同形式的测评目标模型提交给测评过程,包括：
+　　(1)模拟模型,在系统开发过程的早期形成,通常用某类标准语言(如VHDL)对系统的行为/结构特征进行描述.按抽象级别的不同,可形成描述细致程度不同的模拟模型.硬件描述级别包括晶体管开关级、逻辑门级、寄存器-传送级、功能模块级、芯片管脚级、总线级等.软件描述级别可包括微指令级、宏指令级、操作系统级、应用软件级等.为减少模拟时间开销,常采用混合模拟(hybrid simulation)、混合模式模拟(mix-mode simulation)和分层模拟(hierarchical simulation)等先进的模拟技术；
+　　(2)物理模型,即系统原型,形成于开发过程后期,代表了目标系统的真实实现.根据形式的不同,可分为硬件原型、软件原型和X-件(硬件+软件)原型3种.硬件原型如容错IC,软件原型如N-版本程序和容错协议.物理模型也可与模拟模型类似地在不同抽象级别上进行考察.
+　　目标FTM的形式直接决定采用何种FI方法及故障模拟层次.
+2.4　测评粒度
+　　根据需要可以从不同粒度对系统中所包含的FTM进行测评,粒度主要包括3种：
+　　(1)单元FTM(U-FTM):包含于某子系统中的功能独立的FTM,或用于完成某种故障处理功能的整个过程中的一部分；
+　　(2)集成FTM(I-FTM):包含于若干子系统中的用于完成某一复杂故障处理功能的若干FTM的总称；
+　　(3)系统FTM(S-FTM):用于实现系统级容错目标的整个系统中所有FTM运行效果的总和.
+　　利用FI方法进行的测试常应用于U-FTM和I-FTM的开发过程中,而评价则主要应用于S-FTM.
+3　FTM测评中的FI模型
+　　除测评FTM外,FI还可应用于对软硬件的测试过程中,包括测评硬件测试向量选择策略的故障仿真(fault simulation)、估算程序中错误数量的撒播模型(seeding model)和软件的错误驱犨测试方法—程序变异(program mutation).本文讨论的用于测评FTM的FI模型湟可方便地推广到这些应用领域中.
+
+
+图1　FI六元组模型
+　　用于测评FTM的FI方法是一个六元组：
+FI=［F,W,R,M,Cond,Proc］,
+其中,F，W，R，M分别为故障集、工作负载集、读回集、度量集,是构成FI的静态元;系统某输入域(f,w)∈F×W与某读回元r∈R的对应关系表示为(f,w)Condr,显然CondF×W×R;Proc为由Cond获得某一度量m∈M的处理函数,定义为Proc:Cond→m.Cond和Proc是构成FI的动态元.各元间关系如图1所示.以下对FI各组成元分别进行讨论.
+　　(1)故障集F
+　　F是在获取某度量m∈M的FI试验中应用的故障集.设FEX为FI试验中需考虑的故障集,FEI为试验中所采用的FI方法能够注入的所有故障之集,则F=FEX∩FEI.FEX的确定取决于试验目标为测试或评价的不同.对于FTM的测试,FEX是目标FTM规格说明中声明欲处理的故障之集.评价FTM时,FEX为由测试者指定的某特殊故障集或系统在其运行现场中所有可能发生的故障集.完整的故障模型的表示由两部分组成：
+　　①故障属性：F=(LM,VM,TM),其中LM,VM,TM分别为位置、值、时间3种故障属性的模型;
+　　②故障分布：f=(lm,vm,tm)∈F,f相对于故障全集F的发生概率P(f|F),依赖于f的各具体属性在相应属性模型中的分布规律：P(LM=lm∧VM=vm∧TM=tm).若假设各属性间相互独立,则P(f|F)=P(LM=lm)P(VM=vm)P(TM=tm)；若考虑到属性间的相关性,则P(f|F)以某种条件概率的形式给出,作为条件的属性顺序取决于可获得的故障分布数据及注入工具功能.
+　　(2)工作负载集W
+　　w∈W,w表示故障发生时刻系统运行状态及其后的行为.故障的注入需要与系统负载的运行在某种级别上相同步.负载运行中所出现的随机或确定的系统状态作为注入触发条件,以此决定注入时刻(T(Inject)).这也使FTM测试中,为验证设计改进效果而提出的FI具有可重现性的要求得以实现.系统行为的精确描述决定于系统和故障的抽象级别.通常X-件负载特性可简化描述为系统所运行的程序类型,硬件目标FTM的行为可描述为硬件输入信号,软件目标FTM的行为珯描述为待处理的输入数据.
+　　负载类型对试验结果影响很大.对于FTM的测试,可选择使所注入的故障表现为错误的可能性最大的w;评价FTM时,w为系统运行现场程序或信号的仿真，如通用机上的典型程序或实时控制系统中的环境输入模拟参数等.基于以上分析,对于某次FI试验中应用的工作负载模式其表示可分为两部分:①微观方面,注入触发条件wT（Inject）∈WT（Inject）,表示注入故障时刻的系统状态,其中WT（Inject）为所有可能注入触发条件之集;②宏观方面,系统中运行的负载类型wRUN∈WRUN,表示注入过程中及其后的系统行为,其中WRUN为所有可能负载类型之集.
+　　负载类型与F集同样需要考虑在全集中的分布,表示为
+P(w|W)=P(WT（Inject）=wT（Inject）|WRUN＝wRUN）P（WRUN＝wRUN）.
+当不考虑F与W之间的依赖时,最直观的方法是wT（Inject）取wRUN运行期间的随机时刻；若F与W相关,则注入触发条件wT(Inject)可视作F的故障发生时刻属性.
+　　(3)读回集R
+　　对于r∈R,r是将某一选定的输入用例(f,w)施加于目标系统和FTM时,监测到的反应行为信息.设用于表示故障注入效果的目标系统状态可形成系统的基本事件集E={e1,e2,…,eN},从而系统反应行为可定义为
+　　①基本事件e∈E是行为;
+　　②若ai，aj是行为,则ai∧aj，ai∨aj，ai均是行为,其中∧，∨，分别表示“二者均发生”、“二者任一发生”、“不发生”；
+　　③有限次利用上述二原则得到的均是行为.
+　　根据目标FTM的特征和测评目标, 试验者可自定义有意义的行为集A={a1,a2,…,aM}, 并利用对基本事件的监测获得R集中包含的3类读回信息：
+　　①行为发生判定函数Ya:(F×W)→{0,1},使对于(f,w)∈(F×W),Ya(f,w)=0,a发生/1,a未发生；
+　　②行为发生时刻函数Ta:(F×W)→［0,∞),使对于(f,w)∈(F×W),Ta(f,w)=a发生时刻；a未发生时,Ta(f,w)=∞.此处设注入时刻为时间起点,即T(Inject)=0；
+　　③其它读回信息.一方面用于辅助判定某些行为是否发生,这是由于基本事件并非均可监测,如“故障是否表现为错误”事件;另一方面,对于系统在故障发生情况下的反应行为可进行事后的深入剖析.
+　　(4)度量集M
+　　是测评FTM的FI试验目标集.当FI用于测试FTM时,M是对目标FTM相对于其规格说明正确性的判定(pass/fail).当发现设计/实现故障时,试验者通常希望能根据R集中的“其它读回信息”确定改进设计或纠正错误的方案.当FI用于FTM的评价时,最重要的度量是覆盖率(coverage),定义为输入域F×W下目标FTM故障处理行为a(如检测、隔离、恢复等)的发生时刻函数T(a)的累积分布函数：
+Ca(t|F×W)=P(Ta≤t|F×W).
+假设Ca(t|F×W)存在概率密度函数La(t|F×W),即则称La(t|F×W)为行为a的延迟期(latency).可见,覆盖率与延迟期是一对等价的定义.通常试验中更关心的是覆盖率的两个简化参数：
+　　渐近覆盖率：
+
+　　平均延迟期：
+
+　　根据研究目标的不同,其它度量还包括故障传播特性、故障字典、负载依赖特性、多FTM的比较与优化组合、失效模式分析等等.
+　　(5)对应关系Cond
+　　表示试验输入(f,w)与输出r之间在目标FTM作用下的映射关系.称获取一个具体度量m∈M的过程为一次“独立试验”(IE),IE中获取F×W×R空间中的一点(f,w,r)的过程为IE的一次“运行”(run).显然,每一次IE开始时,Cond=?；IE的每一次Run后,Cond=Cond∪(f,w,r).
+　　(6)处理函数Proc
+　　定义了每一次IE中由Cond获取度量m∈M的算法.对于FTM的测试,Proc为简单的行为正确性判定过程.用于定量评价FTM的运行效率时,则需引入参数估计技术对Cond中包含的试验结果数据进行分析,如点估计、极大似然法估计、区间估计等.当评价目标为获取某参数的分布时,可利用χ2检验等技术.
+4　FI独立试验算法(FI-IEA)
+　　下面给出FI的IE算法(FI-IEA).设某FTM上的一次IE用于获取度量m∈M,根据目标FTM的形式及粒度,由上节讨论可首先确定作为FI-IEA算法输入的故障全集F、负载全集W和需监测的行为之集A.具体算法描述如下：
+　　Cond=?；C=C0；m=Acc=Null；i=0；
+　　while(End_Expr_Cond(C,Acc)<>True)do
+　　　　i=i+1；
+　　　　(f,w)=Input_Case_Sele(F,W,Cond,m)；
+　　　　Run(wRUN)；
+　　　　Call Inject(f,wT（Inject）)；
+　　　　r=Readout()；
+　　　　Cond=Cond∪(f,w,r)；
+　　　　m=Proc(Cond)；
+　　　　C=C+Cal_Cost(i)；
+　　　　Acc=Cal_Acc(i,Cond,m)；
+　　end
+　　上述算法中各元素、函数和过程在具体试验进行中所处层次不同,其中仅Inject过程和Readout函数为在线过程，如图2所示.以下讨论该算法具体实现中的几项关键问题.
+
+
+图2　FI过程
+　　(1)输入用例选择函数
+　　Input_Case_Sele(F,W,Cond,m).其功能是形成第i次Run中的输入用例(f,w)进行注入.对于FTM的测试,通常采用功能测试法,即由待测目标FTM的规格说明中描述的预期处理输入域(F,W)中导出每一次试验运行的测试输入元组(f,w).许多复杂的FTM是在硬件支持下由软件实现的.为满足一定的测试充分性,往往引入描述待测FTM的结构模型,并以此模型引导测试过程,导出每一步试验运行中应用的(f,w).
+　　当FI用于评价FTM时,输入用例的选择策略根据目的不同,主要有两种方法：
+　　①确定性选择策略:用于比较不同FTM执行相同故障处理功能的效率高低.此时,wRUN选取标准测试程序(benchmark),对预先指定的输入空间F×WT（Inject）中的每一元素(f,wT（Inject）)进行穷尽注入试验；
+　　②随机性选择策略:用于评价某特定FTM的运行效率.这涉及利用某种抽样技术在完全输入空间F×W中进行抽样,常用的抽样技术包括简单随机抽样、概率抽样、分层抽样(stratified sampling)、多级抽样(multi-stagesampling)等.
+　　以表明试验历史情况的(Cond,m)作为函数的输入是出于“启发式”选择策略的考虑.如测试的历史情况常用于确定分枝覆盖中未执行路径的触发输入向?;评价中采用无放回抽样策略时,需将已注入的元组(f,w)从输入全集(F,W)中排除.
+　　(2)试验终止条件爤定函数
+　　End_Expr_Cond(C,Acc).其返回值为True时表示该IE可以终止,所获得的m即为待测度量的估计.终止条件表示为费用变量C和精确度变量Acc之间的折衷关系,常见的形式为［C≥MAX(C)］∨［Acc≥MIN(Acc)］.其中MAX(C)为允许的最大费用,MIN(Acc)为可接受的最低精确度.
+　　费用计算函数：Cost_Cal(i).它是试验次数i的函数.总费用其中C0为初始设置费用,N为IE的试验次数,Ci为第i次Run的费用.许多情况下,试验运行时间是唯一需考虑的费用,并常假设每次Run所需时间近似相等,从而费用可直接用Run次数i简化表示：C=i.
+　　精确度计算函数:Acc_Cal(i,Cond,m).其计算规则取决于衡量精确度的不同标准.对于FTM的测试,常以某种覆盖程度作为标准,如功能测试中特定输入域的覆盖率,结构测试中的语句/判定/条件/路径/模块覆盖率等.评价FTM时,精确度的计算与采用的抽样技术和参数估计技术有关,常见的标准有估计参数的标准差、置信区间范围、分布稳定性等.
+　　(3)注入过程
+　　Inject(f,wT（Inject）).试验中采用的注入方法与目标FTM形式和系统/故障的抽象级别有关,如图3所示.设计一种故障注入工具,除实现注入功能外,其它需考虑的问题包括实现费用与难易程度,对目标系统的入侵性(是否干扰负载运行及干扰程度),是否有破坏目标系统的可能,时间分辨力的高低,可扩展性和通用性等等.
+
+
+图3　故障注入方法
+　　读回函数：Readout().根据试验中采用的注入方法和待监测的事件类型不同,可设计不同的读回策略.常见的有与无故障运行过程及结果的比较、跟踪执行路径、监测特殊硬件信号、软件报告、人工观察等.
+　　注入及读回的动态过程如图4所示.
+
+
+图4　故障注入与信息读回过程
+5　应用实例及结束语
+　　FTT-1型故障注入器［9］是基于本文FI模型?实现的管脚级故障注入工具.它模拟硬件故障在芯片管脚上的表现,具有注入位置和故障模型可随意选择等特点.该工具已应用于船舶总公司709所、航天总公司五院501部、航天总公司771所等部门研制的多种型号容错机中,在辅助设辡、辅助调试和项目验收中发挥了重要作用.目前,其改进型HFI-3已经研制成功,在原有功能基础上增加了注入电流大小可控、目标地址触发注入方式等更为先进的功能,现正在被一些关键部门所使用.
+　　本文提出的FI模型弥补了已有模型中的不足,为FI的研究建立了一种形式化的理论框架.对该模型的具体应用算法的阐述,提供了将FI技术应用于测评FTM的具体试验中的一种方法.
+　　实践证明,本文建立的FI模型能够准确描述FI的基本原理,其应用算法具有普遍的适用性,为构造实用的FI系统提供了一种途径,是指导具体FI试验的行之有效的方法.
+*本课题得到国家自然科学基金(项目编号69873013)资助.
+作者简介：孙峻朝,男,1972年1月生,博士研究生,研究方向为基于模型和试验的系统可信性测评技术.
+　　　　　王建莹,男,1969年4月生,博士研究生,研究方向为计算机系统可靠性评测理论和技术.
+　　　　　杨孝宗,男,1939年1月生,教授,博士生导师,研究方向为多机系统和容错计算技术.
+作者单位：哈尔滨工业大学计算机科学与工程系　哈尔滨　150001
+参考文献
+1　Clark J A, Pradhan D K. Fault injection: A method for validat ing computer-system dependability. IEEE Computer, 1995, 28(6): 47～55
+2　Kanawati G A, Kanawati N A, Abraham J A. FERRARI: A flexible software -based fault and error injection system. IEEE Trans on Computers, 1995, 44(2): 248～260
+3　Goswami K K, Iyer R K, Young L. D?PEND: A simulation-based environmen t for system level dependability analysis. IEEE Trans on Computers, 1997, 46(1): 60～74
+4　Carreira J, Madeira H, Silva J G. Xception: A technique for the experi mental evaluation of dependability in modern computers. IEEE Trans on Software E ngineering, 1998, 24(2): 125～136
+5　Vardanega T, David P et al. On the devlopment of fault-toleranton-board control software and its evaluation by fault injection. In: Proc 25th IEEE Int'l Sympon Fault Tolerant Computing(FTCS-25). Pasadena, California, 1995. 510～515
+6　Amendola A M, Impagliazzo L, Marmo P et al. Experimental evaluatio n of computer-based railway control systems. In: Proc 27th IEEE Int'l Symp on Fault Tolerant Computing(FTCS-27), Seattle, 1997. 380～384
+7　Stott D T, Ries G, Hsueh M C et al. Dependability analysis of a high-speed network using software-implemented fault injection and simulated fault injection. IEEE Trans on Computers, 1998, 47(1): 108～119
+8　Arlat J et al. Fault injection for dependability validation: A methodology and some applications. IEEE Trans ?n Software Engineering, 1990, 16(2): 166～181
+9　Wang J Y, Sun J Z, Li Y C et al. The implementation of FTT-1: A hardware-based fault injector. In: Proc Computer-Aided Design, Test, and Evaluation for Dependability. Beijing, 1996. 170～174
+原稿收到日期：1998-10-27；修改稿收到日期：1999-07-27.

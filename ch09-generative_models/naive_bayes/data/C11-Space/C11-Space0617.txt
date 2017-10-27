@@ -1,0 +1,33 @@
+上海航天
+AEROSPACE SHANGHAI
+2001 Vol.18 No.1 P.7-11
+
+
+
+
+二维时频面的MTI滤波算法研究
+唐正军　 刘代志　 
+摘　要：分析了传统的动目标显示（MTI）滤波算法的缺陷，提出了一种二维时频面的MTI滤波算法。该方法利用时频分析多通道滤波和时频局域化的特点，在时频平面内进行二维滤波，从而获得良好的杂波抑制能力，且具备较强的自适应性和鲁棒性。最后，根据实验结果给出了此种滤波算法与其他滤波算法的对比效果。
+关键词：动目标显示；小波变换；Mallat算法
+分类号：TN957.51+3　文献标识码：A
+文章编号：1006－1630（2001）01－0007－05
+MTI Filtering Algorithm Using Two-Dimension Time-Frequency Plane
+TANG Zheng-jun（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025， China）　
+LIU Dai-zhi（Xi'an Second Artillery Engineering College, Xi'an Shaanxi 710025， China）　
+
+Abstract：In order to overcome some deficiencies of conventional MTI filtering algorithms, a novel approach using two-dimension time-frequency plane is proposed here, which utilizes characteristics of TFP as multi-channel filtering and time-frequency localization to implement two dimensional filtering process on the time-frequency plane on which target back-scattered echoes are expanded, in order to achieve better clutter depression, self-adaptability and robustness. Experimental results are presented at the end of this paper.
+Keywords：Moving target indication； Wavelet transform； Mallat algorithm
+基金项目：国家自然科学基金（批准号 69772008）
+作者简介：唐正军（1975－），男，博士生，研究领域：遥感图像处理算法。 
+作者单位：唐正军（西安第二炮兵工程学院，陕西西安 710025）　
+　　　　　刘代志（西安第二炮兵工程学院，陕西西安 710025）　
+
+参考文献：
+［1］丁鹭飞,耿富录. 雷达原理[M]. 西安: 西安电子科技大学出版社,1997.
+［2］徐佩霞,孙功宪. 小波分析应用实例精选[M]. 合肥：中国科技大学出版社,1996.
+［3］秦前清,杨宗凯. 实用小波分析[M]. 西安: 西安电子科技大学出版社,1996.
+［4］Victor C C. Signal detection and estimation by wavelet transform[R]. Proceedings of CIE,1991.
+［5］Massimo M, Daniela P. False alarm probability for a Doppler detector with a threshold adaptive to the spectral characteristics of the signal[R]. Proceedings of CIE,1991.
+
+收稿日期：2000年10月10日
+出版日期：2001年2月25日

@@ -1,0 +1,139 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+沙尘粒子的成分和形态分析
+张代洲
+北京大学环境科学中心大气环境与污染控制国家联合重点实验室，北京　100871)
+赵春生　秦　瑜
+(北京大学地球物理系，北京　100871)
+摘要　采用试剂薄膜法和X射线能谱，分析了1995年春季发生在北京5次沙尘过程中采集的单个沙尘粒子的特征，粒子按粒径分为粗粒子(d＞1μm)和细粒子(1μm≥d＞0.1μm)，除了沙尘粒子呈不规则形状，主要集中在粗粒子段外，得到的其它主要结果如下：几乎没有沙尘粒子含有可溶性硫酸盐，含硫粒子的能谱中硫的峰也不明显，并且含有硝酸盐的沙尘粒子仅占总沙尘粒子数的11%，远远低于无沙尘时硝酸盐粒子所占的比例.这些结果说明，发生于中国北部和西北地区的沙尘在中国大陆内传输过程中，其本身成分变化不大，仍以其源区的组成成分为主.另外在个别沙尘过程中的采样分析表明，北京市内的建筑粉尘有时也是局地的尘源，它们在粗细粒子中都有，外形呈规则的立方体结晶状，所含的地壳元素以Ca为主.
+关键词　沙尘粒子；硫酸盐；硝酸盐；薄膜法；X射线能谱.
+COMPOSITION AND MORPHOLOGY ANALYSES OF DUST PARTICLES 
+
+Zhang Daizhou
+(Center of Environmental Sciences of Peking University (LAES),Beijing 100871)
+Zhao Chunsheng, Qin Yu
+(Geophysics Department of Peking University, Beijing 100871)
+
+ABSTRACT　Thin film methods and X-ray energy dispersive analyses were applied to detect the individual dust particles collected in five dust episodes occurring in Beijing in the spring of 1995.The particles were classified into coarse(d＞1μm) and fine (1μm≥d＞0.1μm) modes according to their diameters. Dust particles had irregular shapes and concentrated in the coarse mode, which were detected by previous studies, besides, some new aspects were found.Few dust particles contained water-soluble sulfate although some particles had minor picks of sulfur in their X-ray spectra. The ratio of nitrate-containing particles to total dust particles was 11%, which was much smaller than that in mineral particles collected in non-dust periods. These results proved the composition of the dust particles originated from the north and northwest parts of China would not considerably change during their transport from the source to Beijing. In addition, some mineral particles, which were supposed to be emitted from construction sites, were found in some cases. Such particles had regular cube shapes and appeared in both coarse and fine modes. The main mineral element they contained was calcium.
+Keywords　individual dust particles, sulfate, nitrate, thin-film methods, X-ray energy spectrum.
+　　
+1　引　言
+　　亚洲大陆的沙尘源区主要分布在我国北部和西北部，这些地区发生的沙尘往往随西风带向东传输，不仅可以到达我国东部地区，还可到达太平洋的中北部地区［1，2］，可见沙尘对环境的影响不仅仅限于其源区附近，对远离其源区的地方通过长距离传输也会造成影响.沙尘进行长距离传输过程中一个非常令人感兴趣的问题就是其本身成分的变化，有一些个例研究表明：中国和日本的样品相比，成分有很大不同，在日本的样品中海盐和硫的含量明显多于中国的样品［3，4］.这并非偶然，因为粒子在到达日本之前要经过海洋大气，用Bulk方法长期对日本样品的分析表明，沙尘发生时大气中铵、海盐、硫酸盐和硝酸盐等的浓度分别增加5—10倍［5］，而在中国的观测结果并非如此，北京和临安的同一沙尘发生时的分析表明，铵、硫酸盐和硝酸盐等的浓度与无沙尘时相比没有明显不同［6］.因此沙尘粒子在大陆内传播时与在海上传播时本身成分的变化肯定不同.为了弄清楚沙尘粒子在大陆内传输过程中成分的变化，有必要对它们的成分特别是含硫酸盐和硝酸盐的状况进行详细的研究.
+　　沙尘气溶胶粒子是一个一个孤立地悬浮在大气中的，在其传输过程中成分的变化均发生在粒子表面，而Bulk方法是对长时间一定量的样品进行分析，因此所得的结果只是采样期间的平均特征，测得的成分如硫酸盐和硝酸盐也不能确定是否为沙尘粒子所含有的，可见在研究沙尘粒子成分变化时，需要弄清单个粒子的特征.对单个粒子的研究可以直接给出沙尘粒子的准确特征，如用X射线能谱可以测出粒子的元素组成;用Nitron和BaCl2薄膜可以测出粒子中是否含有硫酸盐和硝酸盐［7］;所以本文采用这两种方法，对1995年春季北京发生的5次沙尘进行了分析.分析的内容主要包括：粒子形态、元素组成(包括统计特征)、含硫酸盐和硝酸盐的状况等.需要指出,判断粒子是沙尘粒子的判据是粒子的X射线能谱中同时有地壳元素Si、Al、Mg、Ca、Fe或其中某几个元素的峰同时出现，这是因为已有大量的研究证明沙尘粒子的组成元素与地壳相同.
+　　
+2　观测和分析方法
+　　观测地点是北京大学物理大楼的楼顶，距地面约15m，在其附近是居民住宅和公路，没有特殊污染源.采样是用一个两级撞击式采样器将粒子采集到采样膜片上，两级的孔径分别是1.0mm(第一级)和0.5mm(第二级)，气流先通过第一级再通过第二级，气泵的抽气速率是4.5L/min.在实际分析时，粗粒子(d＞1μm)和细粒子(1μm≥d＞0.1μm)是按粒子在膜片上的真实粒径区分的.采样膜片是利用透射电子显微镜用铜网(直径3mm)制作的，在铜网表面先用方华膜做底膜，然后用真空喷碳进行加固和防静电，这样制成的膜可以用于形态和X射线能谱分析.为了分析粒子中是否含有硫酸盐和硝酸盐，部分膜上在10-6hPa的真空状态下喷涂9—16nm厚的Nitron,用上述两种膜进行采样，每个样品收集时间根据天气情况为30—90s，每次采样期间用不同的膜采集4—6次，采样后再在部分含有Nitron的样品上真空喷涂2—5nm厚的BaCl2，然后将所有含有Nitron和BaCl2试剂的样品放入室温下辛烷蒸汽中16h，以促进粒子中所含的硝酸盐和硫酸盐分别与试剂发生反应.
+　　NO-3与Nitron的反应生成物是放射针状结晶，SO2-4与BaCl2的反应生成物是同心圆状，因此通过电子显微镜观察促进反应后的膜片，周围有放射针状结晶出现的粒子为含硝酸盐粒子，周围有同心圆出现的粒子为含硫酸盐粒子，在双重膜上，如果一个粒子周围同时有这两种生成物出现，说明此粒子中既含硝酸盐又含硫酸盐.分析和拍照使用的是北京大学电子显微镜实验室的JEM-200CX透射电镜，在拍照完以后再用同一台电镜上的辅助设备X射线能谱仪分析3种不同膜上粒子的元素组成，从而进一步确定粒子的特征.需要说明的是，所使用的能谱仪不能测出元素顺序在Na以下的元素，如H、C、N和O.
+
+3　结果和讨论
+3.1　天气特征
+　　为了便于后面的讨论，这里简单描述各次采样前后的地面天气状况，表1给出了观测时间、各种天气要素和每次样品中能谱分析的粒子总数和沙尘粒子数.从表中可以看出，沙尘发生时相对湿度非常低，风速很大，而且风向以西北风和西风为主，能见度除了沙尘1发生期间较好外，其他的都很差.从沙尘发生前后天气变化的情况来看，每次也有些不同，3月11日天还未亮，风就已很强，到上午有轻沙尘发生(沙尘1)，而从中午开始强烈的沙尘出现，天空变为黄色(沙尘2).4月6日的沙尘(沙尘4)是一次典型的通过长距离传输到达的个例，沙尘首先出现在高层，高空呈黄色，约2h后近地面也出现沙尘，并且浓度逐渐增加.而发生在4月5日(沙尘3)和24日(沙尘5)的两次具有相似的特征，即随风速的加大，地表面尘土被吹起，空气中沙尘浓度逐渐增加，而且沙尘发生过程中一直可以看到模糊的蓝天，因此这两次沙尘不是通过高空传输过来的沙尘，是由局地源造成的.
+表1　沙尘采样时间、天气要素和X射线能谱分析的粒子数
+Table 1 Sampling time and weather conditions during particle collection, together with numbers of particles analyzed using X-ray energy dispersive analyzer
+
+沙　尘
+编　号采样时间温度，
+℃相对湿度，
+%风向
+　风速，
+m.s-1气压，
+hPa能见度，
+km能谱分析粒子数*
+(沙尘粒子数)
+11995-03-1108:00—08：30721NW16100910.044(40)
+21995-03-1114：40—15：00922NW1410112.047(41)
+31995-04-0519：00—19：302026NW1610071.552(43)
+41995-04-0614：00—14：301924NW15100061.044(34)
+51995-04-2418：00—18：302127W109985.052(30)
+
+*所统计的均为碳膜上的粒子
+3.2　沙尘粒子的形态和特征谱
+　　从表1中统计的粒子数和相应的沙尘粒子数来看，除了沙尘5以外，其他4次采样中具有土壤粒子特征的沙尘粒子出现，频率均接近或超过90%，这也直接从粒子角度证明沙尘发生时空气中的污染物以沙尘粒子为主.图1给出了典型的沙尘粒子的形态特征和它的X射线能谱.从外形来看，沙尘粒子没有特别的形态，均呈现不规则的外形，从元素组成来看，以Si、Al、Mg、Ca、Fe为主，这与地壳的主要元素组成相同，沙尘发生时采集的样品中主要是这种粒子，而且它们基本上存在于粗粒子段，细粒子中很少.这些结果与以往的研究结果相同，但沙尘3、4和5样品中较多地出现了另外一种粒子，它们的外表呈规则的立方体，元素组成以Ca为主，很少含有其它地壳元素(见图2)，特别是在沙尘5的采样中这种粒子的数量相当可观，这就是表1中沙尘3、4和5的采样分析粒子总数与沙尘粒子数的差相对较大的原因.而且这种粒子的尺度分布很广，从几个μm到0.1μm尺度的都有.
+
+
+图1　碳膜上一个典型沙尘粒子的电子显微镜照片和它的X射线能谱(沙尘2样品)
+Fig.1 Electron micrograph of a typical dust particles on carbon film and its X-ray spectrum(sample of case 2)
+
+
+图2　碳膜上元素组成以Ca为主粒子(箭头所指)的电子显微镜照片和它的X射线能谱(沙尘5样品)
+Fig.2 Electron micrograph of Ca-abundant particles on carbon film 
+and the X-ray spectrum of signal particle (sample of case 5)
+　　沙尘5的采样中出现大量的规则立方体粒子并不奇怪，因为这次沙尘是以地面吹沙为主，而不是从高层通过长距离传输到达北京的沙尘，因此局地特征应很明显，北京市近年来随经济的发展建筑业发展很快，市区内有许多建筑工地，这些工地基本上采用的是开放式的施工方式，所以它们都是潜在的颗粒物污染源，一旦遇到适当的天气条件，便会有大量的粉尘被吹起.推测这类粒子源于建筑工地的另一个理由是它们独特的元素组成特征，我们的分析表明，具有立方体结晶状外形的这种粒子，大部分含有元素顺序在Na以上的元素只有Ca，仅有很少一部分有少量的Si、Al、,Mg、,Fe等，对单个沙尘粒子X能谱分析的其它研究中发现，起源于中国大陆，并进行长距离传输的沙尘粒子中含Ca的粒子含有Si的量均超过含Ca的量［3，8］，也就是说沙尘粒子能谱图上伴随Ca的峰有明显的Si的峰，而图2的能谱图清楚地表明只有Ca的峰.另外，在中国大陆西北沙尘源区的采样分析表明沙尘粒子呈不规则外形［1］，而不是象图2中所显示的那样规则的立方体，如此规则的外形说明粒子不是来自天然源，而且粒子尺度分布广，很可能是由源排放出后在空气中结晶形成的.考虑到北京市的具体情况，这种粒子是源于建筑工地的生石灰，其主要成分是CaO［9］.
+　　3.3　沙尘粒子元素组成的统计特征
+　　为了得到沙尘粒子的元素组成整体特征，对采样中碳膜上的粒子用X射线能谱随机进行了统计，每次样品中统计的粒子个数及相应的沙尘粒子数已在表1中给出，表2给出的是沙尘粒子中元素顺序在Na以上的主要元素的分布情况.可以看出，沙尘的成分是以Mg、Al、,Si、,K、,Ca和Fe为主，其他的地壳元素如Ni、,Ti和Mn等相对较少，这与以往的研究所得结果相同.值得注意的是硫的分布，除沙尘5以外，其他4次均较低，含S粒子的出现频率平均是12.5%，我们的分析表明这4次的样品中S的峰出现的粒子均有Ca峰出现，也就是说S在沙尘粒子中的存在形式很可能是CaSO4，而沙尘5样品中有1/3以上的沙尘粒子是Na-Al-Si-S-Cl-K-Ca-Fe的混合粒子，因X射线能谱只能给出元素组成，所以不能确定这种粒子中元素的存在形式.
+表2　每次采样统计的沙尘粒子(见表1)中含某种元素粒子所占比例(%)*
+Table 2 Number frequencies of elements among the idividual dust particles(%)
+
+沙　尘NaNiMgAlSClKCaTiMnFe
+11286010010075600088
+21724993171071560076
+381962986072810091
+41416728821072914279
+54035780501960800087
+
+　　　　* Si的比例均是100%
+　　沙尘粒子中S有两种可能来源，一种是沙尘粒子本身含有硫，即源区土壤中就有S的存在，另一种是沙尘粒子在传输过程中在其表面发生了硫化物参与的多相反应或者粒子与其他含硫粒子发生了凝结或碰并.后一种机制是否发生将在下一节结合硫酸盐的分布情况进行讨论，这里我们仅对前一种可能性进行简单的探讨.Hesung等［10］对中国北部和西北部的地表土壤进行分析后指出有14.2%的地区地表土壤中含有CaSO4，对塔克拉玛干沙漠沙土的定量分析发现土壤中含有S和Ca的比接近0.11［11］，因此沙尘粒子中的硫可以是从源区带来的.
+3.4　沙尘粒子中硝酸盐与硫酸盐的分布
+　　在Nitron膜上，与膜发生反应有放射针状结晶出现的粒子为含硝酸盐粒子，分析表明，沙尘中有含硝酸盐的粒子，图3所示是沙尘粒子在Nitron膜上经过辛烷促进反应后的特征，可以发现只有少数沙尘粒子与Nitron膜发生了反应，统计表明沙尘粒子中含硝酸盐的粒子所占的比例约11%，这远远小于无沙尘时北京市大气中土壤粒子中含硝酸盐粒子所占的比例(45%)［12］，在Nitron和BaCl2双重膜上检测出的含硝酸盐粒子的特征类似于Nitron膜的结果.然而在所有双重膜上的样品中我们仅仅发现了3个反应后有明显的同心圆状生成物出现的粒子，大部分的粒子在双重膜上的特征见图4，尽管有些粒子的能谱表明粒子中含有不明显的硫峰，但它们并无与BaCl2膜反应的特征(图5).由此可见，尽管沙尘粒子本身也许含有微量的硫酸盐，但在传播过程中没有硫酸盐在其表面形成或出现，然而其本身在源区虽不含有硝酸盐［5］，在传播过程中也有硝酸盐在其表面形成.
+　　
+
+
+图3　Nitron膜上沙尘粒子的电子显微镜
+照片(沙尘2样品)
+Fig.3 Electron micrograph of dust particles on 
+nitron film (sample of case 2)
+
+
+图4　Nitron和BaCl2膜上沙尘粒子的电子显微镜照片(沙尘1样品)
+Fig.4 Electron micrograph of dust particles on 
+nitron-barium chloride film (sample of case 1)
+
+
+图5　Nitron和BaCl2膜上沙尘粒子的电子显微镜照片和它的X射线能谱(沙尘1样品)
+Fig.5 Electron micrograph of a dust particle on nitron-barium chloride film
+and its X-ray spectrum (sample of case 1)
+　　我们先来考察上述硫酸盐的特征.大气中硫酸盐的形成机制有非均相反应和均相反应两种，非均相过程是发生在已存在的粒子表面，SO2与O3、H2O2在有H2O的参与下或在液相条件金属离子(如Fe3+)的催化下氧化反应形成硫酸盐［13—15］，尽管在污染大气中通过上述非均相反应形成硫酸盐的速率要比通过均相反应形成的速率快2个量级［16］，但上述反应均需要在粒子表面有液态水存在，烟雾箱的实验证明这种非均相过程对相对湿度非常敏感［16］，湿度越大，SO2转化为硫酸盐量越多，在其他条件都相同的情况下，相对湿度为82%时SO2在颗粒物表面的氧化转化程度是相对湿度为30%时的2倍.从表1知道，沙尘发生时空气的相对湿度都很小，在27%和21%之间，说明沙尘气团非常干燥，因此不可能在粒子表面有液态表层存在，也就不存在SO2在沙尘粒子表面进行非均相氧化形成硫酸盐的必要条件.均相反应是SO2通过与OH自由基等的多步气相反应形成硫酸的过程，这个过程可以用下面的简化方程表示［18］：
+HO+SO2(+O2,H2O)→H2SO4+HO2
+(1)
+尽管这个反应对相对湿度并不一定十分敏感，但生成的气态H2SO4会很快凝结到其他粒子表面或形成小的液滴，由于沙尘往往起源于大范围的荒漠地区，本身气团中SO2的浓度就极低，在气团移动中即使有局地排放的SO2混入，对上千公里尺度的气团影响也不大，因此通过上面这个反应形成H2SO4效率也很低.因薄膜法检出限的限制，也许有些沙尘粒子中含有微量的硫酸盐未能测出.但本文的结果至少可以证明上述硫酸盐的形成机制在沙尘粒子传输到北京的过程中即使发生，也并不十分有效，对照没有沙尘发生时北京市大气中土壤粒子中含硫酸盐的比例(20%)［19］，可以断定沙尘粒子传输到北京过程中在其表面几乎没有硫酸盐形成.
+
+　　硝酸盐的情况与硫酸盐略有不同，粒子表面硝酸盐形成也有两种途径，一是NOx在粒子表面直接被氧化［20］，简略表示为
+NO3+H2O＋粒子表面→粒子硝酸盐
+(2)
+这个过程一般要比均相产生硝酸盐的效率高9个量级［21］，但它也需要在粒子表面有H2O的参与，虽然还没有证据说明反应(2)对相对湿度的敏感程度，但不难推测在干燥的粒子表面这个反应是无法进行的.另一途径是氮氧化物先通过气相反应形成硝酸［18］，硝酸再被粒子吸附形成硝酸盐.气相反应可简略表示为
+NO2+OH→HNO3
+(3)
+和
+N2O5+H2O→2HNO3
+(4)
+反应(3)主要发生在白天，是重要的硝酸形成途径，反应(4)由于N2O5白天分解快主要发生在夜间.尽管硝酸可发生光化学分解，但分解过程即使是在中午也不快，硝酸的清除主要是沉降过程.因此部分沙尘粒子表面出现硝酸盐很可能是这些粒子吸附的硝酸蒸汽形成的.由于非均相过程在沙尘粒子表面形成硝酸盐的可能性较小 ，所以沙尘粒子中含硝酸盐粒子的比例比非沙尘时空气中土壤粒子中的比例要小得多.
+
+　　另外，用Bulk方法的分析表明，沙尘发生时北京市区大气中的硝酸盐和硫酸盐的浓度与无沙尘时的浓度相比差别不大［6］，但TSP的显著增高也说明沙尘本身并不是硝酸盐和硫酸盐的携带物，尽管通过上面的讨论可知在沙尘粒子的传输过程中有硝酸盐在其表面形成，但从总体上讲，它对北京市大气中硝酸盐和硫酸盐的影响不大.
+
+4　结论
+　　通过对1995年春季北京地区5次沙尘采样的单个粒子研究分析，我们得到以下新结论：(1)在北京采集到的沙尘粒子，表面几乎没有硫酸盐形成，约有10%的沙尘粒子表面有硝酸盐生成，但硝酸盐的量很少，不足以影响大气中的硝酸盐分布.(2)有少量的沙尘粒子本身含有S元素，它在粒子中的存在状态可能是CaSO4.(3)在北京地区个别沙尘个例的采样中，由于受局地影响较大，有大量的建筑粉尘出现，这种粉尘呈规则的立方体结晶状，其组成主要是Ca,其它地壳元素很少.由此可见，沙尘在中国大陆内传输时，其组成成分与其在源区类似，以地壳元素为主，而对空气中硫酸盐和硝酸盐的形成并无明显影响.
+　　
+　　北京大学电子显微镜实验室的盖秀贞和汪裕萍老师在实验完成过程中给予了极大帮助，在此表示感谢.
+参考文献
+　1　Iwasaka Y, H Minoura H, Nagaya K. Transport of Asian dust (KOSA) particles; importance of weak KOSA events on the geochemical cycle of soil particles. Tellus, 1983,35B:189—196
+　2　Merrill J T, Bleck R, Avila L.Modeling atmospheric transport to the Marshall islands. J Geophys Res, 1985,90:12927—12936
+　3　Zhou Mingyu et al. Characteristics of dust-storm particles and their long-range transport from China to Japan-case studies in April 1993.Atmospheric Research,1996,40:19—31
+　4　Fan Xiaobiao et al. Mineral particles collected in China and Japan during the same Asian dust-storm event. Atmospheric Environment,1996,30:347—351
+　5　日本名古屋大学水圈科学研究所编.黄沙-大气水圈的科学.东京：日本古今书院出版，1991：328
+　6　杨东贞等.一次沙尘天气过程的分析.气象学报，1991，49：334—342
+　7　张代洲，钱公望，秦　瑜.检测单个气溶胶粒子的薄膜法.环境科学研究,1995，8(6)：20—23
+　8　Okada K et al. X-ray spectrometry of individual Asian dust-storm particles over the Japanese islands and the North Pacific Ocean. Atmospheric Environment, 1990,24A:1369—1378
+　9　Wang M.Source indentification and apportionment for atmospheric aerosol by factor analysis. Advances in Atmospheric Sciences, 1985,2:469—477
+10　Heseung Y, Jackson M L. Mineral composition of the clay fraction of some main soil groups of China. Soil Sci Soc Amer Proc, 1952,16:97—110
+11　Tanaka S,Tajima M,Hashimoto Y, X-ray fluorescence analysis for major and trace elements in soils of Takla Makan Desert and Japan(in Japanese). X-Ray Chem Anal Jpn, 1986,17:253—264
+12　张代洲.北京市大气中单个硝酸盐粒子的特征.大气科学，1996，20：408—413
+13　McArdle J V, Hoffmann M R. Kinetics and mechanism of the oxidation of aquated sulfur dioxide by hydrogen peroxide at low pH. J Phys Chem,1983,87:5425—5429
+14　Calvert J G , Martin L R. SO2, NO, NO2 oxidation mechanisms:atmospheric considerations. Butterworth. Boston:Wiley Press, 1984,63—100
+15　Hoffmann M R. On the kinetics and mechanism of oxidation of aquated sulfur dioxide by ozone. Atmospheric Environment, 1986,20:1145—1154
+16　Roberts P T, Friendlander S K . Conversion of SO2 to sulfur particulate in the Los Angeles atmosphere. Environ Health Persp, 1975,10:103—108
+17　杨建亮，王明星.大气气溶胶的酸化与相对湿度的关系.第五界全国气溶胶学术会议论文集.西安：中国气溶胶学会出版，1994：8—13
+18　唐孝炎.大气环境化学.北京：高等教育出版社，1990:343
+19　Zhang Daizhou et al. Tests for individual sulfate-containing particles in urban atmosphere in Beijing. Advances in Atmospheric Sciences, 1995, 12:343—350
+20　Zhang Y et al. Photochemical oxidant processes in the presence of dust:an evaluation of the impact of dust on particulate nitrate and ozone formation. J Appl Meteor, 1994,33:813—824
+21　Seinfeld J H. Atmospheric chemistry and physics of air pollution. New York:Wiley Press, 1986

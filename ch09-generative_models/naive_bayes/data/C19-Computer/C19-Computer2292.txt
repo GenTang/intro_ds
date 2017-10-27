@@ -1,0 +1,116 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.5　P.112-113
+
+
+
+用DELPHI进行非PASCAL语言应用程序的界面设计
+刘公致　郭裕顺
+摘  要  介绍了一种用DELPHI为非PASCAL语言编写的应用程序设计界面的方法，其中包括DELPHI与该种语言的接口、相互之间数据的传递、用DELPHI定时器实现应用程序执行过程中间状态的动态显示及应用程序线程创建的方法。
+关键词  混合语言设计  界面设计  DELPHI
+0  前言
+　　目前开发应用程序时为其做一界面是必不可少的。做界面的工具很多，如VB、VC、DELPHI等。相比较而言DELPHI集使用方便，界面美观、功能强大、编写程序少、易于维护等优点于一身，因此程序开发人员常优先选用它来为应用程序设计界面。
+　　DELPHI中的语言是以PASCAL为基础的，但大量已有的应用程序并不是用PASCAL写的，如用C、FORTRAN等，这就产生了一个问题：如何在DELPHI环境下为这些应用程序进行界面的开发？
+这里我们介绍用DELPHI为一个用C语言编写的应用程序开发界面的方法。这是一个用于电路优化的程序，执行时需反复迭代计算直到误差小到一定程度时停止，执行一次需数秒至数十分钟不等的时间，要求能在界面上实现对程序执行过程的控制(启动、暂停、终止)，应用程序某些参数的设置(优化方法、优化参数、收敛准则等)，还要动态显示每次迭代中间结果并将结果以波形画出。我们通过如下一些问题的解决，完成了这一任务。
+　　(1)利用Windows提供的动态链接库及DELPHI支持DLL这一特点，将C语言编写的应用程序做成一动态链接库，供DELPHI调用，实现了C语言与PASCAL语言的混合使用；
+　　(2)用DELPHI定时器实现应用程序执行过程中间状态的动态显示；
+　　(3)为了实现对应用程序的控制和计算机在执行应用程序的同时还能进行其它操作，为它创建了一线程。
+　　下面我们介绍具体解决过程。
+1  C语言与DELPHI的接口
+　　1)在DELPHI下调用非PASCAL语言编写的应用程序，首先要用该种语言开发工具将其做成动态链接库，因为应用程序用C语言编写，所以我们用VC++5.0为工具。先在源程序中将其定义为可被外部调用的函数，然后在VC++5.0中选择连成.DLL文件，即可生成DLL库。对本应用程序，相关的源程序代码如下：
+_declspec(dllexport) void doopt ( );
+_declspec(dllexport) void transdata (double*, double*, double*, int, 
+　　　double*);
+void doopt( )
+void transdata (double*ptim, double*pspec0, double*pspec, 
+　　　int*pnum, double*pval)
+　　_declspec(dllexport)说明所定义的函数可被外部调用。此动态链接库中除了doopt( )是优化程序外，另一函数transdata( )是用于传送应用程序执行状态的信息的，在定时器中调用。通过这一函数的不断访问，DELPHI能及时获得应用程序的当前状态信息，从而在界面上定时刷新，达到动态显示的目的。上述动态链接库的名字为delo.dll。
+　　2)其次需在DELPHI主程序中说明应用程序为库函数，本程序相关的源程序代码如下：
+procedure transdata(pt: pointer; ps0: pointer; ps: pointer; pn: pointer; 
+　　pv: pointer); cdecl;
+external 'delo.dll' name 'transdata';
+procedure doopt( ); cdecl;
+external 'delo.dll' name 'doopt';
+　　关键字cdecl是调用规则，说明调用的是C语言函数。external告诉编译器，应把源程序代码中对这个函数的调用处理成在这里给出名字的外部DLL模块的调用，这里是把对transdata( )和doopt( )调用处理成对外部delo.dll模块的调用。
+2  动态显示
+　　要在界面上实现应用程序执行状态的信息的动态显示，一般的方法是在应用程序每循环一次时调用界面更新程序一次或设法向Windows发送重画消息。但这里应用程序用C语言编写。在DELPHI环境下界面更新程序只能用PASCAL语言编写，C无法直接再调用DELPHI中用PASCAL语言编写的界面更新程序，向Windows发送重画消息再触发界面更新程序也较难实现，因此我们选用DELPHI中的定时器来实现动态显示。定时器允许在指定间隔内触发事件，在定时器定时触发事件处理程序中写一段代码，该代码段首先要取得应用程序执行状态的信息。在这里是调用上述数据传送子程序transdata( )，其次是刷新界面，这里是调用界面更新程序redraw( )。定时器每隔一段时间触发一次，传送一次数据，然后通过一变量(fval0)判断数据与上次相比有无变化，若有变化，说明迭代了一次，需更新界面，否则界面不变。相关的源程序代码如下：
+procedure TForm1.Timer1 Timer(Sender: TObject);
+　begin
+　　transdata (ptt, ps0, pss, pnu, pv);
+　　if fval0<>Λpv then
+　　　begin
+　　　　redraw (ptt, ps0, pss, pnu, pv);
+　　　　fval0:=Λpv;
+　　　end;
+end;
+　　TForm1.Timer1Timer( )是定时器触发事件处理程序，由定时器定时触发。需指出的是定时器定时间隔要设定得比应用程序迭代一次时间短。
+3  为应用程序创建一线程
+　　在DELPHI菜单中选择FILE―NEW，再在出现的Object Repository对话框中选择线程对象，接着在NEW THREAD对话框中键入新对象名称，就可生成一个包含线程对象的新单元，再在其中添加应用程序。我们创建的线程源程序代码如下：
+unit unit4;
+interface
+uses
+　Classes, extctrls, SysUtils;
+type
+　Tmythread=class (TThread)
+　private
+　protected
+　　　public
+　　end;
+　implementation
+procedure doopt( ); cdecl;
+external 'delo.dll' name 'doopt';
+procedure tmythread.Execute;
+begin
+　doopt( );
+end;
+end.
+　　线程对象名为Tmythread，应用程序doopt( )添加在线程对象的Execute方法中，当主程序调用线程对象的Create方法时，线程对象的Execute方法会自动执行，即执行该应用程序。主程序通过调用线程对象的Suspend、Resume、Terminate方法还可以控制应用程序的暂停、继续、终止。
+4  程序框图
+　　主程序如图1所示，定时器模块如图2所示。
+
+图1主程序
+
+图2定时器模块
+　　主程序中线程调用部分源程序如下：
+unit unit 1;
+interface
+uses
+　　Windows, Messages, SysUtils, Classes, Graphics, Controls，
+　　Forms, Dialogs, StdCtrls, Menus, ExtCtrls, TeeProcs, unit4, 
+　　TeEngine, Chart, Buttons;
+　type
+　　TForm1 = class(TForm)
+　　　MainMenu1: TMainMenu;
+　　　Chart1: TChart;
+　　　Timer1: TTimer;
+　　　procedure runClick(Sender: TObject);
+　　　procedure FormCreate(Sender: TObject);
+　　　procedure Timer1Timer(Sender: TObject);
+　　　　 private
+　　　procedure threadend(Sender: TObject);
+　　　　public
+　　fmythread: Tmythread;
+　　end;
+　var
+　　Form1: TForm1;
+　implementation
+　uses Unit2;
+　procedure TForm1.runClick(Sender: TObject);
+　begin
+　fmythread:=tmythread.create(false);
+　timer1.enabled:=true;
+　fmythread.onterminate:=threadend;
+　end;
+　procedure TForml.threadend(Sender: TObject);
+　begin
+　timer1.Enabled:=false;
+　end;
+end
+　　当界面上的运行按钮按下时，按钮的onclick事件触发，运行这一事件处理程序TForm1.runClick( )，首先调用线程对象的create方法启动线程，应用程序开始执行，同时用timer1.enabled:=true命令打开定时器。定时器不停传送应用程序执行状态信息，更新界面，直到应用程序停止执行，线程终止，触发线程对象的onterminate事件，转向处理这一事件的程序TForm1.threadend( )，即通过timer1.Enabled:=false命令关闭定时器，至此整个程序运行结束。
+　　本程序在DELPHI3.0环境下开发成功，且运行良好。
+刘公致(杭州电子工业学院CAE研究所  杭州 310037)
+郭裕顺(杭州电子工业学院CAE研究所  杭州 310037)
+参考文献
+1，[美] P.Thurrott, G.Brent, R.Bagdazian, S.Tendon著, 卢庆龄等译. DELPHI3.0编程参考手册. 北京: 清华大学出版社, 1998.8
+2，[美]Harold Davis著, 宋建云等译. DELPHI for Windows Power Toolkit. 北京: 电子工业出版社, 1996.12
+收稿日期：1999-5-31

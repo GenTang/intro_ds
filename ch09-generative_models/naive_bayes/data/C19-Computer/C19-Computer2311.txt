@@ -1,0 +1,139 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+基于数字签名方案DSS/DSA的几种应用方案
+谭凯军　诸鸿文　顾尚杰
+摘　要　随着计算机和网络通信技术的发展，数字签名技术得到了广泛的应用.文中以美国数字签名标准DSS/DSA为基础，设计了群体数字签名，数字签名的（t,n）共享认证以及远程口令认证3种应用方案.群体数字允许多人分别签署同一份文件，然后所有的个体签名组成同一份群体签名.数字签名的（t,n）共享认证是由n个认证者中的任何t个来共同验证一份签名.远程口令认证将口令验证与数字签名DSA方案紧密结合，给口令验证带来了新的思路.
+关键词　数字签名，群体数字签名，共享认证，口令认证
+中图法分类号　TP393;TN918
+SEVERAL APPLIED SCHEMES BASED ON DSS/DSA 
+SIGNATURE SCHEME
+TAN Kai-Jun, ZHU Hong-Wen, and GU Shang-Jie
+(Department of Electronic Engineering, Shanghai Jiaotong University,Shanghai　200030)
+Abstract　With the development of the technology of computer and network communication, digital signature schemes have got extensive application. In the paper here, three applied schemes based on USA's digital signature standard DSS/DSA are presented. They include multisignature scheme, digital signature scheme with (t,n) shared verification and remote password authentication scheme. The multisignature scheme allows multiple signers to sign the same message separately and all individual signatures can be combined into a multisignature. The digital signature scheme with (t,n) shared verification lets any t verifiers in n collaborate to verify a signature. The remote password authentication scheme combines the password authentication with digital signature DSA closely, which provides a new way of thinking for password authentication.
+Key words　digital signature, multisignature, shared verification,password authentication
+1　引　　言
+　　数字签名概念自从1976年提出以来，引起了密码应用界和计算机网络界的普遍关注，密码学研究者根据应用环境的要求，先后设计了多种数字签名方案.1985年，ELGAmal第一次在有限域上基于离散对数问题设计了ELGAmal数字签名方案，是数字签名史上一个较重要的里程碑.此后又有许多改进方案［1～3］.因为数字签名方案较多，缺乏统一的标准，国际标准组织于1984年专门为此立项.与此同时，各国的标准化组织为了数字签名的标准化也积极地进行工作，尤其以美国为盛.美国国家安全局与国家标准局通力合作，于1991年提出了美国数字签名体制DSS及其算法标准DSA.DSA也是基于最初的ELGAmal数字签名方案的.正好与当年推出数据加密标准DES一样，DSA的提出也引起了密码学界的强烈反应，反应既有积极的，也有消极的.NIST针对这种情况，作出了积极的反应，声称为了将DSA提升为FIPS标准，将会采取一系列的措施来改善DSA.DSA的出台，必将对密码学界产生巨大影响.
+　　随着计算机和网络通信技术的发展，应用需求的复杂化，数字签名技术也从最初意义上的单人签名，单人验证的模式扩展到更为广泛的领域.例如在一些情况下，一份文件需要多人同时签名，那么就要群体数字签名方案，已有的一些方案见文献［3］、文献［4］.还有一种情况，一份签名需要多个人共同验证，如文献［5］、文献［6］.此外，C.C.Chang等人［7］将ELGAmal数字签名方案应用到了远程口令鉴别中.总之，数字签名的应用是广泛而灵活的.不管DSA数字签名算法现在的反应如何，但NIST已着力于将其提升为FIPS标准，所以它的应用前景有可能将象DES一样成为国际标准.所以本文中我们基于DSA算法，设计了3种应用方案：①群体数字签名方案；②数字签名的（t,n）共享认证方案；③远距离口令认证方案.
+2　DSA算法
+　　DSA算法中所涉及的主要参数有：
+　　p为一素数模，且2511<p<2512；q等于p-1的一个素因子，且2159<q<2160；α=h(p-1)/q mod p，其中h是0<h<p的一个任意整数，且有h(p-1)/q mod p>1.H是一个单向hash函数，满足使得构造一个产生已知hash值的信息在计算上是不可能的.找出两个产生同样hash值的不同的信息在计算上也是不可能的.
+　　设xi是用户Ui的私钥，0<xi<q，yi=αxi mod p是Ui的公钥.用户Ui为了发送一签了名的消息，步骤如下：
+　　步骤1. 选一随机整数ki，使得0<ki<q；
+　　步骤2. 计算ri=(αki mod p) mod q,
+si=(k-1i(H(m)+xiri))mod q,
+这里k-1i是ki关于模q的乘逆，即(k-1iki)mod q=1，0<k-1i<q，m是要传送的信息；
+　　步骤3. 信息m与签名ri，si一起发送给接收者Uj.
+　　为了验证签名，设m′,r′,s′分别是Ui接收到的m，ri，si，Uj先看是否0<r′，s′<q，如果有一个不成立，则否决签名.如果均成立，则Uj计算：
+w=(s′)-1 mod q (w是s模q的乘逆)
+U1=(H(m′)w) mod q
+U2=((r′)w)　mod q
+V=(((α)U1．(yi)U2)mod p) mod q
+　　如果V=r′，签名就得到验证，并且Uj对收到的信息是由Ui发来的有把握.如果V≠r′，那么信息可能被修改，或被Ui不正确的签名，或被冒名顶替者签名，此信息被认为是无效的.
+3　群体数字签名方案
+　　在一些情况下，一些重要文件需要多个人的签名，例如一份项目合同，可能需要参与的多方来共同签署，于是就要采用群体数字签名.本文中设计了一种基于DSA的群体数字签名方案.
+　　假设有n个用户签署同一份信息m.
+3.1　产生和验证个体签名
+　　每个用户随机地选择ki，0<ki<q，计算：
+ri=(αki mod p) mod q
+　　{ri,ki}传播给所有用户，一旦所有用户的ri,ki都获得，各用户计算
+
+　　那么用户Ui用他的秘密秘钥xi来签名信息m.
+si=(k-1(H(m,T)+xir))　mod q　　1≤si≤q-1
+　　T是签名中心发给每个用户的系统签名时间标志，要求用户在给定时间签名.这可以用来防止签名重播.
+　　Ui(i=1,2,…，n)向签名中心(负责收集和验证个体签名，并产生群体签名.此签名中心没有秘密信息)发送个体签名{ri,si}(i=1,2,…,n)，他要验证此签名是否合法，先看是否1≤ri，si≤q-1，如果不是的话，拒绝此签名，否则继续计算：
+wi=(si)-1 mod q(wi是si模q的乘逆)
+U1i=(H(m,T)wi) mod q
+U2i=(rwi) mod q
+V=(((α)U1i．(yi)U2i) mod p) mod q
+　　如果V=r，那么从用户Ui得到的对信息m的个体数字签名{ri,si}被验证.
+3.2　群体数字签名的产生
+　　签名中心产生群体数字签名{r，s，T}，其中s=s1+s2+…+sn mod q.
+3.3　验证群体签名
+　　在接收到信息m的群体签名{r，s，T}后，接收者先计算ΔT=T′-T(T′是接到签名时间)，如果超过规定值，则拒绝签名，否则继续验证.它须获得所有签名者的公钥yi=αxi mod p，并计算：
+
+　　验证过程：先看是否1≤r，s≤q-1，如果不是的话，拒绝此签名，否则继续计算：
+w=s-1 mod q(w是s模q的乘逆)
+U1=(nH(m,T)w) mod q
+U2=(rw) mod q
+V=((αU1．yU2) mod p) mod q
+　　如果V=r，那么签名被验证.
+　　下面给出V=r的证明：
+
+3.4　安全性分析
+　　以上的提出的群体数字签名方案，是基于DSA的.所以它的安全性依赖于DSA的安全性.文献［8］中对有关DSA的安全性进行了阐叙.本文中提供了用DSA实现的群体数字签名方案的思路，它们的安全性随着DSA同样要经受考验.
+　　群体数字签名方案中允许每个用户签名同一份文件，然后将所有个体签名组合成群体签名而没有数据扩展.任何非法用户不能伪装成某个合法用户签名文件，因为它没有此用户的私钥.另外，文献［3］中未考虑签名重播的问题.本文方案中加入时间标志，可以抵抗此类攻击.即使攻击者获得原有的一份签名{r,s,T}，它可以将T变成现有时间，但因它无法改掉s中的H(m,T)，所以攻击不会成功.
+4　数字签名（t,n）的共享认证方案
+　　单证人的签名认证系统中，证人易造成整个系统的安全性能瓶颈.一旦它不可靠，危及整个安全系统的使用.为此，可采用多证人验证签名服务，以发散责任，进一步提高系统安全性.
+　　1989年，Soete等人提出了基于四边形的(t,n)数字签名共享认证方案［5］，而后，Harn提出了一种基于修改了的ELGamel数字签名机制(t,n)数字签名共享认证方案.下面我们设计了基于DSA算法的(t,n)共享认证方案.
+4.1　参数
+　　p是一素数模(2511<p<2512).w=(p-1)/2是一大素数(2510<w<2511），q是w-1的一素因子(2159<q<2160).x是系统秘钥(0<x<q).yi=βxi mod p是用户Ui为信息mi签名的公钥，βi是GF(p)的w阶生成元.有多项式f(z)=x+a1z+…+at-1zt-1mod q(ai(i=1,2,…,t-1)是在(0,q)中随机选取的).gi是GF(p)中的w阶生成元，α是GF(w)中的q阶生成元，mi为要签名的信息，H是单向哈希函数.ki是随机整数(0<ki<w).ai(i=1,2,…,t-1)保密，p，w，q和gi(i=1,2,…)公开.签名者的私钥是x，公钥是yi.s，α和ki须保密，ki在不同的签名过程中需要变化.
+4.2　影子的产生
+　　本方案是基于Shamir［1］秘密共享机制以及DSA算法，还需要运用Lagrenge插值法.
+　　假设A是签名者，x是其签名秘钥，A必须为所有验证者产生秘密的影子.A选择一个t-1阶的多项式f(z)=x+a1z+…+at-1zt-1 mod q，每个验证者Vi(i=1,2,…，n)的影子为xi=αf(zi) mod w(zi是Vi的公开信息).如果有任意t对(zi,xi)，那么αx可由下式确定：
+
+4.3　数字签名的产生
+　　假如A想签名信息mi(0≤mi≤p-1)，那么A找到βi满足gαxi=βxi mod p，前面已定义yi=βxi mod p，所以yi=gαxi mod p.A选择一随机数ki(0<ki<w)，计算：
+ri=βkii mod p
+si=(k-1i(H(mi,T)+xri))mod w
+　　所以｛si,ri,gi,βi,T}是mi的签名.T是时间标志，可以抵抗签名重播.
+4.4　签名验证
+　　获得信息mi的数字签名｛ si,ri,gi,βi,T｝后,接收者先计算ΔT=T′-T(T′是接到签名时间)如果超过规定值，则拒绝签名，否则继续验证.n个验证者Vi(i=1,2,…,n)中的任意t个可以进行验证(少于t个则不行).由文献［6］知，t个验证者可以生成签名者的公钥yi=βxi mod p.接着检验：
+βH(mi,T)i=rsii(yrii)-1 mod p　　　　　　　　　　　(1)
+　　如果上式成立，那么mi的签名被验证.
+　　下面证明式(1)：
+rsii(yrii)-1mod p=((βkii mod p)si．(βxi mod p)-ri) mod p
+=(β(kisi-xri)imod p) mod p
+=(β(kisi-xri)mod wi mod p) mod p
+=βH(mi,T)i mod p
+4.5　安全性分析
+　　以上提出的(t,n)数字签名共享认证方案的安全性也是依赖于DSA的安全性.数字签名的(t,n)共享认证方案发散安全责任，提高系统的安全性.文献［6］中也未对签名重播的问题给予考虑，本文方案中加入了时间标志，可以抵抗此类攻击.即使攻击者获得原有的一份签名｛si,ri,gi,βi,T｝，它可以将T变成现有时间，但因它无法改掉si中的H(mi,T)，所有攻击不会成功.
+5　远距离口令认证方案
+　　Chang和Liao在文献［7］中提出了一个基于ELGamel签名方案的口令验证方案.该方案将口令验证与数字签名方案紧密结合，给口令验证带来全新的思想.而文献［9］在指出了Chang-Liao方案的不足之上，作了一定的改进，提出了一个基于Harn数字签名方案的远距离口令认证方案.
+　　本文设计了一种基于DSA数字签名方案的远距离口令认证方案.
+5.1　用户注册
+　　用户Ui向系统提交IDi，由系统向用户提供包含随机数生成器，单向哈希函数H和具有多种计算功能的智能卡.x是系统私钥.y=αx mod p是系统公钥.
+　　由系统向用户Ui签发口令PWi=(ri,si)，其中ri=(αki mod p) mod q(ki是一随机数，0<ki<q,ki由系统保存，ki随用户的不同而不同.)
+si=(k-1i(H(IDi)+xri))mod q
+口令PWi满足：
+V=α(H(IDi)．s-1i)mod q．y(ris-1i) mod q mod pmod q=r
+5.2　用户访问系统
+　　用户访问系统时，先由智能卡计算
+A=αtimod p　　　　
+B=ti+siH(A,T) mod q
+其中ti∈(1,q)是随机数，T是时间印章，然后将认证数据Ci=(H(IDi),ri,A,B,T)送给系统认证.
+5.3　系统认证
+　　系统收到Ci后，如果ΔT=T′-T不超过规定值(T′是接到Ci的时间)，系统利用存储的对应随机数ki计算：
+L=(k-1i) mod q　　(L是ki模q的乘逆)
+计算
+A′=αβ(αH(IDi)．yri)-H(A,T)L mod p
+　　如果A′=A，那么验证成功.下面给出证明：
+A′=αβ(αH(IDi)．yri)-H(A,T)Lmod p
+=α(ti+siH(A,T))mod q(αH(IDi)．αxri)-H(A,T)L mod p
+=α(ti+siH(A,T)) mod qα(-sikiH(A,T)L)mod qmod p
+=αti mod q mod p=αti mod p
+　　如果让A=rtii mod q
+A′=rβi(αH(IDi)．yri)-H(A,T) mod q
+那么存储数据型方案就变成了非存储型方案.
+5.4　安全性分析
+　　文献［9］中指出Chang-Liao方案中因为不存储用户的任何数据，只能靠登记的方法来禁止终止口令和丢失口令的使用，从而系统变相地要存储数据.而这种登记的方法与通常的口令注销的方法相比，安全性不够.所以在本文中，采取了存储数据型方案，由系统存储系统为每个用户生成随机数ki，如果用户的口令被注销或终止，则将对应的ki删除即可.而存储ki与通常存储用户口令是不同的.即使ki被泄漏，也仅泄漏ri=(αki mod p)mod q，入侵者因无法得到si而无法构成Ci进入系统，所以存储ki较一般的存储口令方案更安全.由于本方案中既使用了hash函数，又存储了随机数ki，所以可以防止文献［7］中所指的伪造口令攻击.对于n个用户合谋想通过si=(k-1i(H(IDi)+xri))mod q获得系统密钥x，因为ki的不同，所以也不会奏效.从公钥y求密钥x以及从A求ti均等价于求离散对数的难度.
+6　结束语
+　　本文以DSS/DSA为基础，设计了群体数字签名方案，数字签名的(t,n)共享认证方案以及远距离口令认证方案，并为将数字签名方案与口令认证系统的相结合作了进一步的设想.当然，将数字签名方案用于口令认证系统，虽然有许多优点，但也有一定的局限性.为了两者的更完善结合，还需要进一步的研究.另外，文献［9］中利用文献［6］中的(t,n)数字签名共享认证方案思想，设计了(t,n)口令共享认证方案.同样地我们也可以利用本文中基于DSA的(t,n)数字签名共享认证方案，设计成基于DSA(t,n)口令共享认证方案.此外某些情况下，往往会需要一组人共同产生一个组口令，然后这组人都可以这个组口令进入系统.所以我们也可以利用文中的群体数字签名方案的思路，设计一个组口令的生成方案.有兴趣的读者可以继续探索此类问题.
+作者简介：谭凯军，女，1972年6月生，博士研究生，主要研究方向为密码学、网络安全与信息保密.诸鸿文，男，1939年11月生，上海交大电子工程系首席科学家，博士生导师，主要研究方向为计算机通信网络、计算机支持的协同工作、安全技术等.顾尚杰，男，1940年6月生，博士生导师，主要研究方向为宽带通信网络业务量分析、ATM技术、多媒体通信等.
+作者单位：上海交通大学电子工程系　上海　200030
+参考文献
+　1　Agnew G B, Mullin R C, Vanstone S A. Improved digital signature scheme based on discrete exponentiation. Electro Lett, 1990,26(14):1024～1025
+　2　Schnopr C P. Efficient identification and signature for smart cards. In: Advances in Cryptology-CRYPTO '89,Santa Barbara, 1985.239～252
+　3　Lein H.New digital signature scheme based on discrete logarithm.Electron Lett,1994,30(5):396～398
+　4　Wu T C,Chou S L, Wu T S. Two ID-based multisignature protocols for sequential and broadcasting architectures. Computer Communications, 1996,19:851～856
+　5　DE Soete M, Quisquater J J, Vedder K. A signature with shared verification scheme. In:Advances in Cryptology-CRYPTO'89,santa Barbara:Springer-Verlag,253～262
+　6　Harn L.Digital signature with (t,n) shared verification based on discrete logarithms. Electron Lett,1993,29(24):2094～2095
+　7　Chang C C, Liao W Y. A remote password authentication scheme based upon ELGamal's signature scheme. Computers & Security,1994,13(2):137～144
+　8　The digital signature standard. Comm ACM, 1992, 35(7):36～40
+　9　祈明，肖国镇.基于Harn签名方案的远距离通行字认证方案.通信学报,1996,17(1):114～119
+(Qi Ming,Xiao Guozhen.A remote authentication scheme based on Harn digital signature scheme.Communication Journal(in Chinese),1996,17(1):114～119)
+原稿收到日期：1997-10-21
+修改稿收到日期：1998-08-10

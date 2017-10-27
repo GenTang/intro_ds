@@ -1,0 +1,79 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第1期 Vol.23 No.1 1997
+
+
+
+一种控制机械手的自调节模糊逻辑控制器
+谭群华　李伟　王永强　孙增圻
+摘　要　介绍了一种机械手的模糊逻辑控制的新方法. 它能根据系统的前期响应自动修改误差变化率的隶属函数来获得理想的控制特性. 在研究隶属函数对控制特性影响的基础上，首先确定一族参数化的隶属函数. 然后，用Nelder-Mead单纯形算法优化模糊逻辑控制器. 最后，用该模糊控制器控制一个具有非线性动力学特征的两自由度机械手，验证了所提方案的有效性和鲁棒性. 
+关键词　模糊控制，机器人学，优化技术，非线性控制.
+A SELF-TUNING FUZZY CONTROLLER FOR MANIPULATORS
+TAN QUNHUA LI WEI WANG YONGQIANG SUN ZENGQI
+(Dept. of Computer Science & Technology, Tsinghua Univ. Beijing 100084)
+Abstract　 This paper presents a new approach to automatic tuning of fuzzy logic controller for manipulators, which modifies the shape of membership functions automatically according to previous responses to achieve a desired control performance. On the basis of defining a set of cubic splines as membership functions regarding change-in-error j(t), the optimal membership functions are found by the Nelder and Mead's simplex algorithm.
+The proposed control scheme consists of a traditional fuzzy logic controller and a conventional derivative controller. In order to demonstrate the effectiveness and the robustness of the control scheme, we report a number of simulation results of a two-link manipulator in the presence of load and friction changes.
+Key words　Fuzzy logic control, robotics, optimum technique, nonlinear control.
+1　引言
+　　在过去的二十年中，模糊逻辑控制器已经成功地应用于许多具有非线性动力学方程或具有未知结构的系统，因为这种控制器能利用模糊集合与模糊规则将人的经验和知识集成到控制器中. 然而，模糊逻辑控制器具有难以优化的缺陷. 
+　　优化模糊逻辑控制器的方法之一，是根据系统的前期响应用自组织算法自动修改规则，以达到理想的控制效果［1-3］. 事实上修改规则库是基于一个定义的性能指标来优化一个多参数的决策表. 因此，要在较短采样时间内完成规则库的优化是一项艰苦的工作. 
+　　在图1所示的控制结构基础上提出了一种能自动调节模糊控制器的新方法来控制机械手[4-6].其主要思想是自动修改隶属函数的形状而不是规则库. 为此，首先定义一族误差变化率(t)的隶属函数，然后根据系统的前期响应，利用Nelder-Mead单纯形算法进行优化. 该方法比传统的自组织方法较为有效，因为它把优化决策表转变为寻找决定某些特定隶属函数形状的参数矢量. 此外，利用两个或三个参数来调节模糊控制器也容易被控制工程师完成. 
+
+
+图1　模糊控制器的结构框图
+2　模糊逻辑控制方案
+　　在文［7］中提出的控制结构是由一个传统的模糊控制器和一个微分控制器组成(图1). 模糊控制器的输入信号是机械手角关节j的理想值和实际值的误差ej(t)=θrefj-θj(t)，以及它的变化率j(t)；输出信号uj(t)由Min-Max推理算法和模糊规则库来决定，如表1所示. 模糊控制器的模糊化是依靠隶属函数将真实物理量转变成模糊量；清晰化是由质心法来完成. 利用这个控制方案，提供给机械手角关节的控制力矩τj(t)是
+(1)
+表1　模糊控制规则库
+
+eNBNSZOPSPB
+
+NBPBPBPBPSZO
+NSPBPBPSNONS
+ZOPBPSZONSNB
+PSPSZONSNBNB
+PBZONSNBNBNB
+
+最终的控制量τj(t)由三部分组成： 　1) 模糊控制器的输出信号uj(t)的比例放大，它的主要作用是当误差ej(t)很大时用来加速系统的响应； 2) 模糊控制器的输出信号uj(t)的积分操作， 主要用于当θj(t)接近θrefj时，减少响应的静态误差；3) 速度反馈信号j(t)的微分操作，它有利于系统的稳定. 控制器参数Kpj,KIj和KDj可由Ziegler-Nichols方法来定.
+3　隶属函数的选取
+　　一般说来，在模糊控制中常常使用三角形或指数形的隶属函数. 改变这些隶属函数的形状将影响控制性能. 为了获得好的控制特性，在文［4］中我们对误差变化率j(t)的隶属函数进行了修改，因为这类隶属函数代表了速度反馈. 修改的方法是： 在原始定义的误差变化率j(t)的三角形隶属函数基础上增加插值点，从而减少被修改的隶属函数的个数. 文［8］中的研究表明相应于理想控制特性的隶属函数既不属于三角形函数也不属于指数函数，所以在本文中j(t)的隶属函数被定义为三次样条插值函数，如图2b所示. 这些隶属函数的形状可以通过移动它们的“动点”来改变. 而这些“动点”沿着图3中给定的虚线移动，是用改变它们的参数来实现的. 参数kb,ks和kz被记为矢量k=(kz,ks,kb)，并且分别用来调节隶属函数μ(NB),μ(PB),μ(NS),μ(PS),以及μ(ZO)，如图3a-c所示. 参数矢量k能够在域内［0.15,0.85］×［0.15,0.85］×［0.15,0.85］变化. 相反，相对于e(t)和uj(t)的隶属函数被选为三角形函数并且在系统的运行过程中不变，它们分别如图2a和图2c所示.
+
+
+
+
+图2　语言变量的隶属函数
+
+
+
+图3　三次样条插值隶属函数
+4　优化算法
+　　在所提出的方法中，理想控制特性的隶属函数是根据系统的前期响应，通过搜索参数矢量最佳点K*=(k*z,k*s,k*b)获得的. 误差平方积分准则
+　　　(2)
+被用来描述响应. 因为对应于误差变化率j(t)隶属函数的参数矢量k=(kz,ks,kb)，对系统的响应特性有着极大的影响，J=f(kz,ks,kb)或J=f(k)是参数矢量k=(kz,ks,kb)的函数. 为了获得理想的控制特性，我们必需通过搜索相应的矢量k*=(k*z,k*s,k*b)来计算最小值f(k*). 因为许多系统难以获得其精确的动力学方程，所以很难得到J=f(k)的解析式. 因为Nelder-Mead单纯形算法适用于求解那些缺乏解析模型的优化问题，所以它被用来优化隶属函数. 根据我们的经验，隶属函数μ(ZO)对系统的控制特性影响较弱，所以参数kz在系统运行过程假设为常数. 利用Nelder-Mead单纯形算法计算最小值f(k*)简述如下［6］：
+　　1) 从三个点开始k1(c,k(1)s,k(1)b),k2(c,k(2)s,k(2)b),k3(c,k(3)s,k(3)b)并且计算J1=f(k1),J2=f(k2)和J3=f(k3).
+　　2) 找出最大值Jh, 中间值Jg和最小值J1以及相应的点kh,kg和k1.
+　　3) 找出kg和k1的中点： kf=0.5(kg+k1),并且计算Jf=f(kf).
+　　4) 在kf的方向反射kh,计算kＪ和Jr=f(kr).
+　　5) 如果JrJg,用kc=βkh+(1-β)kf计算kc和Jc=f(kc)，进行压缩，这里β(0＜β＜1)是压缩系数. 如果Jr＜Jg，从kc=βkr+(1-β)kf计算kc和Jc=f(kc).
+　　6) 如果Jc＜Jh,用kc代替kh，检查收敛性，如果不收敛返回到第二步. 如果JcJh，走向下一步.
+　　7) kh=kh+0.5(kh-k1)和kg=kg+0.5(kg-k1)减小单纯形的尺寸，并且计算Jh和Jg，检查收敛性. 如果不收敛返回到第二步.
+5　机械手的控制
+　　为了验证所提方法的有效性和鲁棒性，我们用它来控制一个具有非线性动力学特征的两自由度机械手，该机械手的动力学方程和参数可在文［8］中得到. 控制器参数的调节过程如下：首先，用Ziegler-Nichols 技术来确定控制器的参数KPj，KIj和KDj，使机械手获得一个可接受的控制响应；然后在此基础上，利用Nelder-Mead优化算法调节模糊控制器，使机械手获得一个理想的控制响应. 
+　　图4a-b表明机械手在有负载和摩擦力下，模糊控制器和PID控制器的响应情况. 它们的参数是在无负载和摩擦力的情况下调节出来的最佳控制参数. 显然，在有负载和摩擦力时由PID控制所得到的响应特性变坏. 原因是在无负载和摩擦力时所确定的PID控制参数不适合控制有负载和摩擦力的不确定性变化的系统. 然而，利用所提出的模糊控制器，在有负载和摩擦力时机械手的控制特性仍然很好(图4(b)).
+
+　　　
+(a) 关节1(PID控制)　　　　　　　(b) 关节1(模糊控制)
+图4　PID控制结果与模糊控制结果
+　　本文方法适用于具有非线性动力学方程及其解析模型不精确的系统.
+资金项目：“国家自然科学基金”和“国家教委优秀教师基金”资助项目.
+作者单位：清华大学计算机科学与技术系　北京　100084
+参考文献
+　[1]　Procyk T J, Mamdani E H. A linguistic self-organizing process controller. Automatica, 1979, 15∶15-30.
+　[2]　Scharf E M, Mandic N J. The application of a fuzzy controller to the control of a multi-degree-freedom robot arm. Industrial Application of Fuzzy Control, 1985, 41-61.
+　[3]　Wakileh B A M, Gill K F. Robot control using self-organizing fuzzy logic. Computers in Industry, 1990, 15∶175-186. 
+　[4] Li W. A new self-organizing fuzzy controller. The 3rd International Workshop on Advanced Motiion Control, at the University of California at Berkeley, 1994.
+　[5]　Li W, Sun Z Q, Janoscha H. An approach to automatic tuning of a fuzzy logic controller for manipulators. Proc. of IEEE/RSJ International Conference On Intelligent Robots and Systems, 1994. 
+　[6]　Li W. Optimazition of a fuzzy logic controller using neural network. IEEE World Congress On Computational Intelligence, Proc. of FUZZIEEE '94, 1994， 1∶223-227.
+　[7]　Li W et al. Fuzzy control of robotic manipulators in the presence of joint friction and loads changes. The 1993 ASME International Computers in Engineering Conference, San Diego, USA, 1993.
+　[8]　Li W, Wu Z W. A self-organizing fuzzy controller using neural networks. The 1994 ASME International Computers in Engineering Conference, 1994, 2∶807-812.
+收稿日期　1994-10-13

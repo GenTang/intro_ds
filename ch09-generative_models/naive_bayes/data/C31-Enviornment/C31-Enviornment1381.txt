@@ -1,0 +1,98 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+4-氨基联苯在大鼠体内与血红蛋白形成加合物的研究*
+秦　涛　赵立新　徐晓白
+摘要　研究了大鼠体内血红蛋白与4-氨基联苯加合物(4-ABP-Hb)的生成量随染毒时间与染毒剂量的变化规律.当一次性染毒剂量为1μg/kg(体重)时，加合物生成量的高峰出现在10—15d之间.详细描述了大鼠血样的预处理和测定方法.
+关键词　体内；大鼠；血红蛋白；加合物.
+In vivo formation of 4-aminobiphenyl adduct with hemoglobin in rat
+QIN Tao,ZHAO Lixin,XU Xiaobai (Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085)
+Abstract　The relationships between the amount of hemoglobin adduct formed and the doses with the different methods of administration of 4-aminobiphenyl to rat were studied.Hemoglobin adduct in vivo in rat varied with time after exposure.With a dose of 1μg/kg(bw.) 4-aminobiphenyl,the maximum formation of hemoglobin adduct with 4-ABP in rat blood appeared within 10—15 day.The proceduse of pretreatment of blood samples collected from rats and the determination of hemoglobin adduct were described in detail.
+Keywords　in vivo,rat,hemoglobin,adduct.
+　　4-氨基联苯是芳香胺类化合物中典型的致癌物之一，广泛存在于各种香烟的烟雾中［1］.无论是主动吸烟者还是被动吸烟者，香烟对人健康的危害是确定无疑的［2］.吸烟人群的心脑血管疾病、肺癌、膀胱癌、乳腺癌的发病率明显高于非吸烟人群.尽管如此，全世界仍然有相当大量的人群暴露于这类环境化学污染物中，由之而引起的危害是不能低估的.采用流行病学调查或长期动物致癌实验是研究这类有毒有害化学品影响的有效办法，但采用上述方法，存在花费高，周期长等缺点.因此采取短期动物试验，快速检测某类生物标记物的研究具有特别重要的意义［3，4］.
+　　本文依据最有生物代表意义的血红蛋白(Hb)与4-氨基联苯(4-ABP)的加合物作用来研究环境致癌物的生物标记物，结果表明了大鼠体内加合物含量水平随染毒时间的变化规律.
+1　实验材料和方法
+1.1　仪器
+　　751G分光光度计(上海分析仪器厂)，钨灯稳压电源，Beckman J2-HS高速冷冻离心机.Varian 3740气相色谱仪，63Ni源ECD检测器.CR-3A色谱处理机(Shimadzu).SE-54毛细管色谱柱(长40m，内径0.25mm,膜厚0.55μm，北京石油科学研究院制).GC/MS气相色谱质谱仪(TRIO 2000，VG).超声振荡器(Cole-Parmer).WH-A90微型混合器(上海亚荣仪器厂).
+1.2　试剂
+　　(1) 普通试剂：七氟丁酸酐(Fluka AG.Chem.,>99%).正己烷(AR.，北京化工厂)使用前先经过精馏，再经气相色谱鉴定无杂质峰.三甲胺水溶液(AR.，上海试剂三厂).氢氧化铵和无水硫酸钠为分析纯和优级纯(北京新光化学试剂厂).甲苯(AR.，中国人民解放军9066工厂).肝素(抗血凝剂)、D21mm透析管(华美生物工程公司).重蒸去离子水作为透析用水.
+　　(2) 标准试剂：4-氨基联苯(Aldrich公司).血红蛋白标准样及定量测定试剂盒(Drabkin's kit No.525-A,Sigma公司).
+1.3　实验动物
+　　北京医科大学实验动物部繁殖的成年SD大鼠，雄性，体重180—250g.每一实验点均为3只同一处理条件测定的平均值.以随机分组方式，依一定剂量经腹腔注射和灌胃的两种形式染毒.根据化学品毒性法规，环境数据手册［5］确定本试验的最高染毒剂量≤100mg/kg.依据本实验设计的不同染毒剂量以及不同染毒时间，开胸心脏采血，即刻进行样品处理，当日完成血红蛋白的分离.
+1.4　测定方法
+1.4.1　4-氨基联苯与七氟丁酸酐衍生物GC-ECD分析的测定条件　高纯氮载气，初始温度50℃，程序升温速率4℃/min，至280℃，以不分流方式进样1μL.
+1.4.2　GC-MS-DS分析条件　SE-54(长40m，内径0.25mm)毛细管色谱柱，初始温度60℃，程序升温速率8℃/min至290℃，以不分流方式进样2μL.电子能量70eV，发射电流0.25mA.
+1.4.3　血红蛋白含量的测定(氰化高铁蛋白法)　取20μL经过透析分离的血红蛋白样品加到5.0mL Drabkin's试剂中充分混合，静置5min，以Drabkin's试剂为空白，在0.06mm狭缝、540nm波长、1.0cm光径的条件下测定吸光度，根据样品总量计算每个样品的血红蛋白含量.
+1.5　样品处理
+1.5.1　全血的血清分离　5—10mL大鼠全血经3000×g旋转离心5min，除去血清，用生理盐水清洗2—3次血红细胞，于-20℃下保存.
+1.5.2　血红蛋白加合物的分离　融化冷冻的红细胞，加入适量蒸馏水和甲苯，充分振荡1—2min，放置1h，经10000×g旋转离心10min，弃去甲苯层和细胞碎片，将血红蛋白溶液移至透析管中，放在5L纯水透析容器中进行65h以上的透析分离，以便去除分子量小于20000的小分子杂质.透析温度为4℃，每12—18h更换一次水，每个容器中不超过6个样品.
+1.5.3　血红蛋白加合物的水解与4-氨基联苯的衍生化　水解前取20μL的样品，测定血红蛋白含量［6，7］.用10mol/L浓度NaOH将透析后样品的pH调至11，放置3—4h待加合物完全水解后，分两次用15mL正己烷萃取从加合物上切断的4-氨基联苯，用超声振荡破坏正己烷和水的乳化层，移出有机相并除去残留水分，将两次的萃取液合并后，分别加入2μL(0.05mol/L)三甲胺正己烷溶液和七氟丁酸酐(HFBA)，超声振荡30min进行衍生化处理；然后加入5mL氢氧化铵(5%水溶液)用微型混合器充分混合的方法终止衍生化反应.两相分离后，取出正己烷相经过无水硫酸钠除去残留水份后，浓缩至适当浓度，即可进行GC或GC-MS分析测定，也可存放在密封的样品管中冷冻保存.
+2　结果与讨论
+2.1　大鼠体内血红蛋白与4-氨基联苯加合物检测
+　　用GC-ECD分析血红蛋白与4-氨基联苯加合物中水解切断的4-氨基联苯母体化学物质的七氟丁酸酐的衍生物，通过色谱图的保留时间和峰面积的标准曲线法进行测定［8］.若取样量为5mL，分析样被浓缩至20μL，并以约100mg(血红蛋白)/mL(血)计算，本方法的最低检测限和最低检测浓度分别为7pg和0.28pg/mg血红蛋白.
+　　表1列出了GC-ECD分析衍生物的保留时间的测定精度，其变异系数小于5‰.经不同染毒途径处理的大鼠体内血红蛋白加合物的检测结果，证实了大鼠体内4-氨基联苯加合物的存在.血红蛋白含量及加合物生成量的测定偏差均小于10%.
+　　图1为4-氨基联苯与七氟丁酸酐的衍生物色谱图.图2为血样中加合物水解后的4-氨基联苯衍生物的质谱图.图3为血样中加合物水解后的4-氨基联苯衍生物的SIM和TIC图.由大鼠血液中加合物而形成的4-ABP-HFBA衍生物的质谱碎片如图4所示.
+
+
+图1　水解后血红蛋白加合物的4-氨基联苯与七氟丁酸酐的衍生物GC-ECD色谱图
+Fig.1 GC-ECD chromatograms of HFBA derivative of 4-ABP hydrolysate from Hb adduct
+表1　4-氨基联苯与七氟丁酸酐衍生物色谱分析的保留时间精密度(n=12)
+Table 1 Precision of retention time of HFBA derivative of 4-ABP on GC analysis 
+
+实验
+编号保留时间
+均值，min变异系数，%
+137.759±0.0710.190
+237.772±0.0970.258
+338.112±0.1370.361
+438.088±0.1000.263
+537.969±0.0680.178
+
+
+图2　图2　大鼠血样水解后加合物中的4-氨基联苯衍生物的GC-MS图
+Fig.2 GC-MS spectrum of HFBA derivative of 4-ABP as hydrolysate from the adduct to hemoglobin in rat blood
+
+
+图3　血样水解后加合物中的4-氨基联苯衍生物的SIM和TIC图
+Fig.3 SIM and TIC chromatograms of HFBA derivative of 4-ABP as hydrolysate from the adduct to hemoglobin in rat blood
+
+
+图4　4-ABP-HFBA衍生物的质谱碎片规律
+Fig.4 MS fragmentation mechanism for the derivative of 4-ABP with HFBA
+2.2　大鼠血红蛋白加合物生成量与4-氨基联苯的剂量关系
+　　体外试验(in vitro)：为了确定适当的4-氨基联苯的染毒剂量，首先用大鼠全血进行体外实验.分别取25、250、2500、25000ng 4-氨基联苯与7—10mL大鼠全血(共5份，每份3个平行样，1份为空白)充分混匀，于37℃恒温水浴上保温2h后，按上述方法分离血红蛋白，并测定各不同4-氨基联苯加入量的加合物生成量.结果(见图5)证明加合物生成量的对数与4-氨基联苯加入量的对数有较好的线性关系(线性相关系数r2=0.9248).
+　　体内试验(in vivo)：根据大鼠体外试验的测定结果，采用腹腔注射的方式，将大鼠随机分为6组，每组3只.以5个剂量水平进行试验.其中1组只注射玉米油作为空白对照，其他5组大鼠的4-氨基联苯染毒剂量分别为10、100、1000、10000、100000μg/kg(体重)，65h后采样，测定血红蛋白加合物.将染毒剂量与加合物生成量进行双对数处理得到的线性回归系数r2=0.9796(见图6).
+
+
+图5　大鼠全血与4-氨基联苯加合物在体外反应的(in vitro)生成曲线
+Fig.5 The formation curve of 4-ABP-Hb adduct in vitro reaction in rat blood
+
+
+图6　经腹腔注射染毒的大鼠体内(in vivo)4-氨基联苯加合物的生成曲线
+Fig.6 The formation curve of 4-ABP-Hb adduct in vivo in rat blood after administration with peritoneal injection
+2.3　同等剂量染毒处理后，大鼠体内4-氨基联苯与血红蛋白加合物的生成
+　　采用同样的动物分组方式，在4-氨基联苯染毒剂量为1μg/kg(体重)的一次性灌胃染毒试验中，直至心脏采血处死为止，连续观察25d内4-氨基联苯与血红蛋白加合物在大鼠体内的浓度变化规律.图7显示了一次性灌胃染毒产生4-ABP-Hb加合物的测定结果，大鼠体内所产生的加合物高峰期约在10—15d.
+
+
+图7　灌胃染毒后25天内4-ABP-Hb加合物的生成
+Fig.7 The formation of 4-ABP-Hb adduct within 25 days after administration with stomach-instillation of 4-ABP
+3　结论
+　　大鼠体外和体内研究表明，4-氨基联苯与血红蛋白加合物生成量与前者的剂量有较好的相关性，且灌胃与腹腔注射两种染毒途径对大鼠所产生的生物毒效应具有一定差异.当一次性染毒剂量为1μg/kg(体重)时，加合物生成量的高峰出现在10—15d之间.本文仅对血红蛋白加合物的生成量与染毒剂量的测定结果进行初步探讨，4-氨基联苯与血红蛋白加合物生成的机理将有待于针对生物体内代谢产物的深入研究加以分析.
+　　本研究得到国家自然科学基金委金祖亮教授、中国科学院感光研究所康致泉教授、边雅明老师和生态环境研究中心储少岗博士的热情指导与帮助，在此表示感谢.
+* 中国科学院基础研究局、国家自然科学基金委重点基金(29837180)资助.生态环境研究中心创新工程基金资助
+徐晓白:联系人
+作者单位:中国科学院生态环境研究中心，北京　100085
+参考文献
+1　Bryant M S,Vineis P,Skipper P L et al.Hemoglobin adducts of aromatic amines:associations with smoking status and type of tobacco.Proc Natl Acad Sci(USA),1988,85(24):9788—9791
+2　Maclure M,Bryant M S,Skipper P L et al.Decline of the hemoglobin adducts of 4-aminobiphenyl during withdrawal from smoking.Cancer Res,1990,50(1):181—184
+3　Skipper P L,Obiedzinski M W,Tannenbaum S R.Identification on the major serum albumin adduct formed by 4-aminobiphenyl in vivo in rats.Cancer Res,1985,45:5122—5127
+4　Green L C,Skipper P L,Tursky R J.In vivo dosimetry of 4-aminobiphenyl in rats via a cysteine adduct in hemoglobin.Cancer Res,1984,44:4254—4259
+5　化学品毒性法规.环境数据手册.北京：中国环境科学出版社.1992
+6　Van kamppen E J,Zijistra W G.Standardization of hemoglobinometry.II.The hemoglobin cyanide method.Clin Chim Acta,1961,6:538
+7　Rice E W.Rapid determination of total hemoglobin as hemoglobin cyanide in blood containing carboxy-hemoglobin.Clin Chim Acta,1967,18:89
+8　马明生，徐晓白.还原-衍生化高分辨气相色谱法测定复杂样品中痕量硝基多环芳烃(NO2-PAH)的研究.环境科学学报，1993，14(3)：374—379
+1997-07-04收到原稿
+1999-05-11收到修改稿

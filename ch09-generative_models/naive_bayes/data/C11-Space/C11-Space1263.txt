@@ -1,0 +1,91 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+NiAl(Fe)体系热爆反应延滞时间的研究
+许兴利　黄　勇　马利国　谢志鹏
+摘要： 在提出热爆反应着火判据的基础上，对NiAl(Fe)体系的热爆过程进行了实验研究。对工艺参数如混合物的相对密度、Al粉的相对含量、Al粉粒度、加热速率、Fe的相对含量对热爆点温度和热爆延滞时间的影响做了分析。结果表明，对于反应物配比和混合物相对密度而言，均存在一最佳值，此时热爆反应速率最大，延滞时间最短。
+关键词： 热爆反应； 热爆点温度； 延滞时间
+中图分类号：TG146.15　　　文献标识码：A　　　文章编号：1005-5053(1999)01-0034-05
+Study on thermal explosion delay time of NiAl(Fe) system
+XU Xing-li　　HUANG Yong　　MA Li-guo　　XIE Zhi-peng
+(State Key Lab of New Ceramics and Fine Processing, Tsinghua University, Beijing 100084, China)
+Abstract： The ignition criterion of thermal explosion is presented in this paper.NiAl(Fe) system is studied experimentally.The effects of the relative density of mixture，the content of Al particle,the size of Al particle,the heating rate,the content of dilution Fe on the thermal explosion point temperature and the thermal explosion delay time are analyzed.The results show that:to reactant ratio and relative density of mixture,there exists a optimum value,which the thermal explosion reaction rate is maximum and the delay time is minimum.
+Key words: thermal explosion; thermal explosion point temperature; delay time
+
+　　热爆反应是自蔓延高温合成技术(SHS)中一类很重要的反应形式，它主要用来合成金属间化合物及其复合材料［1～3］。热爆反应的发生是由于系统热量积累和热平衡的破坏导致的。从热物理学的角度来看，是由于系统过程中存在一个化学内热源，它的强度和温度之间具有很强的非线性耦合关系。热爆反应的发生与放热系统的温度密切相关。放热系统的温度、放热系统发生热爆反应的经历都与热爆反应的延滞时间相联系，所以热爆反应的延滞时间是研究热爆反应的一个重要参数。
+　　傅正义等［4］已对自蔓延模式的SHS过程的延滞时间进行了研究。本文将以NiAl(Fe)体系为对象，对SHS热爆模式的延滞时间进行研究。
+1　热爆反应的着火判据
+1.1　热爆反应的爆发点和延滞时间
+1.1.1　热爆反应的爆发点
+　　如果将一定量的SHS热爆系统放入反应器中，然后逐步升温，经过一段时间后就会观察到整体燃烧现象，即发生了所谓的热爆反应，此时所对应的温度被称为该系统的爆发点或爆燃温度。所以，热爆反应的爆发点就是一定约束条件下加热系统发生整体燃烧时所需的最低温度。系统的爆发点不是系统的不变常数，而是与影响热量产生与交换的热力因素有关，如系统自动加速反应的条件、密度、导热率、形状等。
+1.1.2　热爆反应的延滞时间
+　　热爆反应的延滞时间是指热爆反应在热爆效应(即整体燃烧)出现之前所经历的时间，即从出现化学反应到反应达到某个特征温度时所经历的时间，这个特征温度就是热爆反应的爆发点温度。热爆点温度与延滞时间是热爆反应的重要参数。
+1.2　热爆反应的着火判据
+　　影响热爆着火的因素很多，其中包括：混合物组分的性质、相对含量、粒度大小，加热速率，加热时间，系统中吸收的总能量和能量分布的情况，被加热介质的热物性和输运特性，介质的几何形状等。
+　　着火是SHS系统从非整体燃烧状态到整体燃烧状态的过程。在着火过程中，外部热源导致系统发生热化学反应，加上系统的自热使之很快变成自维持的整体燃烧，即出现所谓热爆反应。作者认为产生热爆着火现象的基本原因是反应过程中热量积累，而非链载体(活性中心)的积累。热爆反应的着火过程是十分复杂的，一般说来，它由下面一系列分过程组成：
+　　(1)由热传导、对流和辐射引起的能量输运；
+　　(2)无化学反应的外部加热；
+　　(3)反应物或稀释剂可能的相变；
+　　(4)反应系统(少量)的化学反应，系统自热；
+　　(5)热爆反应发生。
+　　在热爆着火研究中，如何选择恰当的着火判据，至今仍没有一致的定义。本文采用的着火判据如下：
+　　(1)将系统热流速率随温度变化的曲线上出现主反应峰的拐点记为热爆点温度。
+　　(2)将热流速率或温度差对温度的曲线上开始出现较明显的变化(向上或向下)到曲线出现急剧变化的时间间隔认为是热爆延滞时间。
+2　工艺参数对NiAl(Fe)体系热爆点温度以及热爆延滞时间影响
+　　本文所采用的主要实验手段是差示扫描量热分析(Differential Scanning Calorimetry),使用的实验仪器是美国Perkin-Elmer公司的DTA 1700测试系统。
+2.1　混合物密度的影响
+　　粉末混合物Ni50Al20(Fe30)(wt%)中，Ni的粒度为-200目，Al的粒度为29μm，Fe的粒度为75μm。制成密度分别为54.91%，64.34%，68.2%，79%的预制块。从预制块上取23±0.3mg的试样进行DSC分析。实验条件为：加热速率20℃/min，氩气保护，氩气流量30cc/min。将测得的DSC曲线主峰前部分进行局部放大，将曲线开始变化的拐点记为起始温度，最后的拐点记为终止温度，也就是所谓的热爆点温度(Tinf)。延滞时间(tdelay)可用终止温度减去起始温度，然后除以线性加热速率来计算。
+　　图1是混合物密度对热爆点温度Tinf和对tdelay的影响曲线。试样密度的增加对热爆过程的影响是不固定的。一方面，单位体积内的反应面积因密度的增加而增加，并导致增加热释放密度，最终使得Tinf变小和tdelay增加。另一方面，单位体积内着火能的需求因密度增加也增加了，这将会引起Tinf增大或tdelay减小。其中试样密度为64.34%时，Tinf呈最大值，这说明此时热释放密度最大，这一过程的ΔH=-177.87cal/g，实际上也是最大的。而试样密度为54.9%时，生热率曲线与散热率直线的距离最大，反应速率最高，因而延滞时间最短，相对而言，相对密度79%时的反应率最小，延滞时间最长。要说明的是，Tinf和tdelay随试样密度变化的趋势与ΔH随试样密度的变化趋势基本相同，这表明释热原因处于主导地位。
+2.2　铝含量的影响(稀释剂Fe的含量一定)
+　　分别制备4种配比的NiAl(Fe)体系：Ni50Al20(Fe30),Ni40Al30(Fe30),Ni30Al40(Fe30)，Ni20Al50(Fe30)。取松散态试样16.60±0.4mg进行DSC分析。实验条件和测算方法同上。图2是稀释剂Fe保持含量不变时Al粉含量对热爆点温度Tinf和热爆延滞时间tdelay的影响曲线。从图中可以看出，Al粉含量对热爆点温度Tinf影响不是很大，其相差最大不过3℃。其中Al粉含量30%时着火过程中的反应速率最大，其延滞时间最短，Al粉含量10%时延滞时间最长，原因是相对过量的反应物此时起了稀释剂的作用，降低了反应速率，需要的热积累增加，因而延滞时间最长。
+　　　　　　　
+图1　混合物密度对Tinf和tdelay的影响　　　　　　图2　Al粉含量对Tinf和tdelay的影响
+Fig.1　Influence of mixture density　　　　　　Fig.2　Influence of Al podwer content
+on Tinf and tdelay　　　　　　　　　　　　　　　　on Tinf and tdelay　　　
+
+图3　Al粉粒度对Tinf和tdelay的影响
+　　Fig.3　The relationship between Al particle
+size and value of Tinf and tdelay
+
+2.3　Al粉粒度的影响
+　　选取了4种粒度的Al粉，粒度分别是29μm，100μm，140μm，250μm，按配比为Ni∶Al∶Fe=50∶20∶30(wt%)进行混合。称取混合好的粉末16.60±0.1mg进行DSC分析。实验条件同前，图3是Al粉粒度对热爆点温度Tinf和热爆延滞时间tdelay的影响曲线。从图中可以看出，29μm的Al粉热爆点温度最高，延滞时间最短，随着Al粉粒度的增大，Tinf逐渐降低，而tdelay逐渐增加。这是因为，当Al粉粒度小时，反应性接触面积增加，反应速率增加，因而延滞时间较短。而当Al粉粒度增加时，反应性接触面积急剧减小，造成反应速率降低，反应转化率降低，其中没有转化的反应物成了稀释剂，降低了反应温度，并且使得延滞时间增加。
+2.4　加热速率的影响
+　　选取Ni50Al20(Fe30)(wt%)试样作为研究对象，加热速率分别取5℃/min,10℃/min，20℃/min和30℃/min,试样称取16.5±0.1mg,其他实验条件相同。
+　　图4是加热速率对热爆点温度Tinf和热爆延滞时间tdelay的影响曲线。从图中可以看出，加热速率对热爆点温度Tinf的影响不太固定，但是基本相差不大。加热速率越大，系统的热爆延滞时间越短。这是因为，单位时间内外部供热量越大，反应活化分子数就越大，反应速率就越快。这表明热释放和来自外部环境对系统的加热占据着主导因素。
+2.5　稀释剂Fe含量的影响
+　　保持Ni∶Al=50∶20(wt%)，稀释剂Fe的含量(wt%)分别取30，36.4，46.15和58.62，实验样品用量为16.60±0.2mg，其他实验条件同前。
+　　图5是稀释剂Fe含量对热爆点温度Tinf和热爆延滞时间tdelay的影响曲线。当向反应系统中加入了虽然参加碰撞但不参与反应的惰性稀释剂时，会消耗掉大量活泼分子的动能，所以，反应分子之间的有效碰撞次数将大为减少，反应速率也随之降低，具体分析如下。
+　　未加稀释剂之前，有：
+　　　　XNi+XAl=1
+式中：XNi，XAl是Ni和Al的摩尔分数。加入稀释剂之后，有：
+　　　　XNi+XAl+XFe=1
+若令反应系统中含纯反应物的百分比为α%，杂质(稀释剂Fe)的百分比为β%，则有
+　　　　α+β=1
+将稀释剂换成对反应物的影响，有：
+　　　　XNi+XAl(α+β)=1
+所以，从质量作用定律可知：
+　　　　ω=kxaNi(xNiα)b=αbkxaNixbAl
+也就是说，反应速率比稀释前降低了αb倍(k是比例系数，a和b是相应的指数值)。随着稀释剂Fe的含量逐渐增加，反应速率持续下降，导致释热速率和释热量越来越低，最终将导致热爆点温度的下降以及延滞了热爆着火过程。
+　　　　　　
+　图4　加热速率对Tinf和tdelay的影响　　　　　　　　图5　Fe相对含量对Tinf和tdelay的影响
+Fig.4　The relationship between heating　　　　　Fig.5　Influence of Fe content on
+　　　rate and value of Tinf and tdelay　　　　　　　　Tinf and tdelay
+　
+3　结　论
+　　(1)提出了热爆反应的着火判据。
+　　(2)对NiAl(Fe)体系热爆反应延滞时间的研究表明，试样密度对2个热爆特性参数的影响是不固定的，存在一最佳密度，此时的热爆延滞时间最短；Al粉含量对热爆点温度的影响不大，但是Al粉含量存在一最佳值，此时反应速率最快，热爆延滞时间最短；Al粉粒度对热爆点温度影响较大，随Al粉粒度增大，热爆点温度逐渐降低，但热爆延滞时间逐渐增加；加热速率对热爆点温度影响不太大，但随加热速率的提高，热爆延滞时间逐渐缩短；稀释剂Fe相对含量增加，热爆点温度下降，热爆延滞时间延长，其原因是稀释剂的加入降低了反应速率。
+作者简介： 许兴利(1965-)， 男， 博士， 讲师
+作者单位：清华大学新型陶瓷与精细工艺国家重点实验室， 北京　100084
+参考文献：
+［1］Philpot K A,Munir Z A.Holt J B.An investigation of the synthesis of nickel 
+　　　aluminides through gasless combustion.J Mater Sci,1987,22:159～169
+［2］Bose A,Rabin B H,German R M.Reactive sintering nickel-aluminide to near full 
+　　　density.Power Metal Inter,1988,20(3):25～30
+［3］Bose A,Moore B,German R M.Elemental powder approaches to Ni3Al-matrix 
+　　　composites.J Met,1988,40(9):14～17
+［4］傅正义，王为民，袁润章.自蔓延高温合成技术研究进展，武汉：武汉工业大学出版社，
+　　　1995.6～11
+收稿日期： 1998-12-15； 修订日期： 1999-03-23

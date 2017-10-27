@@ -1,0 +1,95 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第1期 Vol．19 No．1 1999
+
+
+
+定量结构—生物降解性能关系(QSBR)研究原理及进展
+瞿福平　杨义燕　冯旭东　齐 江　戴猷元
+摘要：定量结构—生物降解性能关系(QSBR)作为定量预测有机物生物降解性能的一种方法，越来越受到人们的关注．从QSBR的发展、理论基础及方法、结构描述符的类型、QSBR研究进展及所面临的挑战等方面进行了论述．
+关键词：QSBR；生物降解性能；研究进展
+中图分类号：X70 文献标识码：A 文章编号：1000- 6923(1999)01- 0018- 04
+Research principle and progress of QSBR (Quantitative Structure Biodegradability Relationships)．
+QU Fu-ping， YANG Yi-yan，FENG Xu-dong，QI Jiang，DAI You-yuan (Department of Chemical Engineering， Tsinghua University， Beijing 100084，China)．China Environmental Science．1999，19(1)：18～21
+Abstract：As an effective method of predicting the biodegradability of organic compounds，to has been close attention in recent years． This paper reviewed its origin， theoretic basis and method，type of structure descriptor;and discussed its development prospect and challenge be faced to．
+Key words：QSBR；biodegradability；research progress
+　　有机物的生物降解是指在微生物作用下结构发生改变，从而引起化学和物理性质改变的过程[1]．对生物降解性能可从生化和生态两个角度理解[2]．从生化角度看，自然界不存在不被降解的有机物，即任何有机物都可被微生物所降解．从生态角度看，天然水体、土壤、地下水、人工处理系统是废水的接受者，生物降解速率的大小是影响滞留环境时间长短的一个重要因素．因此，了解有机物的生物降解性能对于了解有机物进入环境后，诸如在自然环境中的持久性、在人工生物系统中的可处理性等方面的行为至关重要[3]．目前对于有机物生物降解速率的获得有两种方法，一是通过实验测定，另一种是采用近年发展起来的定量结构—生物降解性能关系的方法进行预测．
+1 QSBR研究原理
+1．1 QSBR的发展
+　　最初，QSAR作为定量药物设计的一个研究分支，随着合理设计生物活性分子的需要而发展起来．目前，它已在有机化学、药理学、毒理学等领域中的药物分子设计、筛选及毒性预测等方面发挥了重要作用．近年来，随着许多新的合成化学品的出现以及它们的流失，随着人们对已进入环境的污染物且尚未进入市场的新化合物的生物活性、毒性乃至环境行为的关注，QSAR在环境研究领域也得到应用，并成功地对许多化合物的生物活性、毒性等参数进行了预测、评价和筛选．相应地，生物降解性能作为描述有机物环境行为的一个重要参数，QSAR在生物降解性能方面的应用也就逐渐形成一个分支—定量结构—生物降解性能关系QSBR．
+1．2 QSBR研究的理论基础及方法
+　　QSBR主要研究的是建立有机物生物降解性能与其结构描述符的定量关系．这种定量关系的基础为线性自由能关系(linear free-energy relationship，LFER)概念．LFER认为，分子结构的微小变化将导致限速步骤活化能的线性变化，进而影响到反应速率的改变．用数学式表达：
+logK=A1X1+ A2X2+．．．+AnXn+C (1)
+式中：K为生物降解速率常数；A1～An为系数；X1～Xn为有机物分子结构描述符；C为常数．
+　　建立式(1)所示的定量关系(亦即QSBR)，需要测定或收集研究对象尽可能多的生物降解性能数据及彼此较为独立的分子结构描述符．采用诸如回归分析等数学统计方法，去除对生物降解性能影响小的参数，保留重要参数．经过统计检验，校正数据的验证后，就可用于研究对象生物降解机理分析，定量预测研究条件下的未知有机物生物降解性能．
+　　从QSBR关系式的建立过程可以看出，最重要的步骤是测定或收集研究对象的生物降解性能数据及选用合适的分子结构描述符．在开发和应用QSBR时，所获得数据的质量及所选用分子结构描述符是否恰当，决定着预测模式的质量，也就是说，必须获得高质量的生物降解性能数据，考虑所有可能的结构参数．对于具体的研究对象，必须从所研究物质本身的结构特点、参数与性能的相关性等方面进行多种参数的试算、比较，最终选定相关性最大、最能反映物质特点的参数进行QSBR研究．在QSBR研究中最困难的步骤就是化合物结构参数的量化，建立可信、易测量或易计算的分子描述符是QSBR的主要环节．
+2 QSBR研究中的分子结构描述符
+　　对于溶于水的有机物，涉及到它在微生物表面的吸附、通过细胞膜的磷脂双分子层、与酶反应中心的结合及其分子结构的改变等过程．对于微溶于水的有机物，还涉及到有机物的溶解、水相中的扩散等过程．因此，从物质本身的结构出发，影响生物降解的因素就有溶解性、分子大小、疏水性能、电荷分布、空间排列等参数，这些参数也就构成了分子的结构描述符．按照量子生物学的观点[4]，影响生物降解性能的参数可分为电性参数、空间参数及疏水性参数．
+2．1 电性参数
+　　电性参数反映物质的电荷分布情况，对生物降解过程的影响主要体现在有机物反应中心电子云密度的高低上．目前，用于反映有机物电性参数的主要有取代基参数、全分子参数及量子化学参数．
+　　各电性参数从不同角度揭示了物质的电性特点．例如，对于具有相同骨架不同取代基的一系列物质，在选用电性参数时通常采用取代基参数进行描述;对于需要描述物质整体电性效应的情况，则常常采用电性全分子参数描述．量子化学参数虽然能从微观角度更深刻、更细致地揭示分子中的电性作用，但计算十分复杂．
+2．2 空间参数
+　　空间参数反映了物质分子大小、基团或原子之间的空间排列及变形情况，影响着物质的传递过程以及酶与反应中心的接触．目前，常用的空间参数有体积参数、形状参数及三维参数．
+　　值得提及的是，在众多空间参数中，分子拓扑结构参数是一类被广泛采用的参数．它们具有简单、方便、所需参数不依赖于实验、在计算过程中不需考虑复杂的电效应等优点．自从1947年Wiener提出“径数”W以来，QSAR中已引入越来越多的拓扑结构参数，并取得较大的成功．其中，尤以Kier[5]的分子连接性指数(MCI)影响最大，成为目前QSAR研究中最成功的空间拓扑结构参数[6]．近年来，分子连接性指数也逐渐应用于QSBR的研究中．
+2．3 疏水性参数
+　　“疏水”概念最早由Kauzmann[7]于1959年提出，疏水性越强，有机物越具油溶性．疏水性能的大小影响着物质在细胞膜上的吸附、积累、界面传输以及与酶蛋白结合等过程，目前描述疏水性参数有Hansch[7]推荐的正辛醇/水分配系数P、Hansch疏水取代基常数πX 、疏水碎片常数f、有机物溶解度Saq．正辛醇/水分配系数P的实验研究较多，大量化合物的分配系数均可以从有关文献中查到，近年来在QSBR研究中多采用正辛醇/水分配系数的常用对数值LogP作为表征疏水性的参数．
+　　有了上述3类参数，原则上再根据研究对象特点，从每一类别中选取合适参数纳入SBR研究统计分析中，通过相关性分析保留重要的参数．
+3 QSBR研究进展
+　　1960年Hall[8]等人报道了不同取代色氨酸环上的电子云密度与E． Coli．代谢速率之间的关系．1965年Okey[9]等人报道了氯苯甲酸(盐)及一些氯代石蜡的代谢速率与电子效应之间的关系，1978年Dorn[10，11]用Hammett σ值关联了一系列取代邻苯二酚环裂解的最大反应速率．然而，与QSAR相比，QSBR还只处于起步阶段，发展相当缓慢．表1按时间顺序列出近十几年关于QSBR研究的一些有代表性的报道．
+表1 近年来有关QSBR研究的部分文献
+Table 1 Part of papers on QSBR published in recent years
+序号化合物使用结构描述符情况参考文献年代
+1取代酚、邻苯二甲酸酯s [12]1980
+2酚衍生物rv[13]1982
+3脂肪醇、邻苯二甲酸酯logP[14]1983
+4氯酚及相关化合物logP[15]1984
+5取代酚MR和S-L系数[16]1984
+6取代酚、苯胺s [17]1985
+7取代酚MR和S-L系数[18]1985
+8取代苯胺rv[19]1985
+9部分微溶有机物溶解速率[20]1986
+10取代苯胺rv[21]1987
+11芳香化合物及衍生物Hammett 常数，分子连接性指数[22]1993
+12苯二酸酯及几种多环芳烃溶解速率[23]1996
+13部分芳香化合物溶解度[24]1996
+14124个化合物取代基参数和分子连接性指数[25]1996
+
+　　在表1所列文献报道中，最具代表性的是Okey等人1996年建立的生物降解性能预测模式．他们在QSBR研究过程中，从文献2提供的183种有机物中选择153种进行QSBR研究，其中，用于统计分析的有机物131个，用于预测模式验证的有机物22个．在131个有机物中，有7个有机物因被作为非本体(outlier)而被剔出，最后，建立了124个的以分子连接性指数和取代基参数为分子结构描述符的生物降解性能预测模式:
+logK=2．185(6xchv)-0．130(0xv)-0．881(5xc)+0．190(AROM) + 0．137(ALIF)-0．388(NH2)+0．029(OH)+0．221(COOH)-0．273(NO2)-0．369(SOX)-0．172(Hal)-0．311(Het)+1．946 (2)
+(n=124，r2=0．725，sy=0．227，f=24．382)
+式中:K为零级降解速率(mgCOD/gMLSS．HR); x为分子连接性指数;AROM、ALIF分别为芳香结构及链结构哑元(当有芳香结构时，AROM哑元为1，否则为0，当有链式结构时，ALIF为1，否则为0)，其余为取代基参数．
+　　该模式包含12个参数，对于分子连接性指数，按照所反映的拓扑信息，0xv与研究对象的大小及电荷情况有关，5xc与分子结构的复杂程度相关，6xvch与六元环的长度有关．对于取代基参数、硝基、氨基、卤代基以及杂原子前面系数均为负值，表明它们的存在将降低生物降解速率；羧基和羟基前面的系数为正，表明它们的存在可以改善生物降解速率，但羟基改善不如羧基大．上述结果，反映了研究对象生物降解的潜在规律．
+4 QSBR 研究面临的挑战
+　　QSBR的研究需要大量高质量的数据为基础．然而，有机物的生物降解是一个十分复杂的过程．影响有机物生物降解性能的因素除本身结构内因外，还有许多外部因素，诸如微生物的种类、溶液的pH值、溶解氧、温度、水中营养物等．尽管过去研究者对许多有机物的生物降解性能进行了测定，但由于研究者们的研究目的不同，采用的实验条件及方法也不同，得到的数据可比性较差．迄今为止，除了文献[2]提供了具有可比性的183种有机物的降解速率外，再无其它数据可以利用．用于QSBR研究的数据匮乏，使QSBR的发展比较缓慢．
+5 结语
+　　QSBR作为定量预测有机物生物降解性能的一种方法，处于亟待发展的初始阶段．然而可以相信，随着人们对有机物生物降解性能规律性认识的深入，随着大量具有可比性的有机物生物降解性能实验数据的获得，QSBR研究将得到发展和完善，并发挥重要作用．
+基金项目：国家攻关项目(96-909-05-01-03)
+作者简介：瞿福平(1996-)，男，四川重庆人，清华大学化学系博士后，主要从事水处理的理论与技术研究．目前正在承担国家“九五”环境保护攻关项目的研究工作．发表论文26篇．
+作者单位：(清华大学化学工程系，北京 100084)
+参考文献：
+　[1]Painter H． Handbook of environmental chemistry [C]， Vol．2． (PartC)， [Hutzinger， O．，Ed．，Springer Verlag，Berlin， 1985， 87．
+　[2]Pitter P． Biodegradability of organic substances in the aquatic environment [M]， CRC Press， 1992．
+　[3]钱 易．现代废水处理新技术 [M]．北京: 中国科学技术出版社， 1993．
+　[4]刘次全．量子生物学及其应用 [M]． 北京: 高等教育出版社， 1990．
+　[5]Kier L B． Molecular connectivity in chemistry and drug research [M]． Academic Press， 1986．
+　[6]王连生．分子连接性与分子结构-活性 [M]．北京: 中国环境科学出版社， 1992．
+　[7]王飞越．有机物结构—活性定量关系及其在环境化学和环境毒理学中的应用［J］．环境科学进展． 1992，2(1):26．
+　[8]Hall A N． The degradation of some Bz-substitute tryptophans by escherichia coli tryptophase [J]． Biochem． J．， 1960，74:209．
+　[9]Okey R W． Chemical structure and biodegradability of halogenated aromatic compounds， substituent effects on 1，2-dioxygen-ation of catechol [J]． J． Wat． Pollut． Control Fed．，1965，37: 692．
+　[10]Dorn E． Chemical structure and biodegradability of halogenated aromatic compounds， substituent effects on 1，2-dioxygenation of catechol． [J]．Biochem．Biochem． J．， 1978， 174:85．
+　[11]Dorn E． Chemical structure and biodegradability of halogenated aromatic compounds， two catechol 1，2-dioxygenases from a 3-chlorobenzoate -grown pseudomonad [J]．Biochem． J．， 1978， 174:73．
+　[12]Wolfe N． Correlation of microbial degradation rates with chemical structure [J]． Environ． Sci． Technol．， 1980，14:1143．
+　[13]Paris D F． Stucture-activity relationships in microbial transformation of phenols [J]． Appl． Envion． Microbiol．， 1982， 44:153．
+　[14]Matsui Y． Biodegradation model of organic compounds by activated sludge． I． Non-ionic aliphatic compounds [J]． Bull． Natl．Res．Inst．Pollut．Res．， 1983，13:135．
+　[15]Banerjee，S． Development of general kinetic model for biodegradation and its application to chlorophenols and related compounds [J]． Envion． Sci． Technol．，1984，18: 416．
+　[16]Yonezawa Y． Biodegradation model of organic compounds by activated sludge． II． effects of substituents on the biodegradability [J]． Bull． Natl．Res．Inst．Pollut．Res．， 1984，14:35．
+　[17]Pitter P． Correlation of microbial degradation rates with chemical structure [J]． Acta Hydrochim． Hydrobiol．， 1985，13:453．
+　[18]Yonezawa Y． Biodegradation model of organic compounds by activated sludge． III． Activated sludge adaptions and effects of substituents on the biodegradability of mono-substitued phenols [J]． Bull． Natl．Res．Inst．Pollut．Res．， 1985，15:75．
+　[19]Zeyer J． Microbial mineralization of ring-substituted anilines through an orth-cleavage pathway [J]． Appl．Environ． Microbiol， 1985， 50:447．
+　[20]Thomas J M，Thomas J M． Rate of dissolution and biodegradation of water insoluble organic compounds [J]． Appl． Environ． Microbiol．， 1986，52(3):290．
+　[21]Paris D F． Relationship between properties of a series of anilines and their transformation by bacteria [J]． Appl． Environ． Toxicol．Chem．， 1987，53:911．
+　[22]Okey R W． A QSBR development procedure for aromatic xenobiotic degradation by unacclimated bacteria [J]．Wat． Environ．Res． 1993， 65(6): 772．
+　[23]Aichinger G． Application of respirometric biodegradability testing protocol to slightly soluble organic compounds [J]． water environ． res．， 1992， 64(7):890．
+　[24]Alexander M． The biological degradability of aromatic compounds [J]． J． Agricultural and Food Chem．， 1996，14(4):1131．
+　[25]Okey R W． A QSAR-based biodegradability model-a Qsbr [J]． Water Research． 1996，．30(9): 2206．
+收稿日期：1998-04-27

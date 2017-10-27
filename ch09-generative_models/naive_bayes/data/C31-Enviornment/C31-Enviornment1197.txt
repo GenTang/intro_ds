@@ -1,0 +1,120 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+藻类及其分泌物对混凝过程的影响研究
+罗晓鸿　周　荣　王占生((清华大学环境工程系，北京　100084))
+周晓燕　江迎春　王营花　王　衡((绍兴市自来水公司，浙江绍兴　312001))
+　　摘要 采用纯藻进行烧杯混凝试验，考察了试验藻种及其分泌物对混凝过程的影响.试验发现：藻类对混凝过程的影响与藻的种类、生长阶段及藻浓度有关；一般说来，藻类在浓度较低时，对混凝过程有不同程度的促进作用，而在高浓度时，对混凝过程有不同程度的干扰.增加混凝剂投加量、调节pH、预加氯可以减弱藻类及其分泌物对混凝过程的影响.
+　　关键词 藻类；分泌物；混凝.
+1 引言
+　　藻类大量繁殖是水体富营养化的一个重要特征.富营养化水源给常规净水工艺造成的主要影响是藻类及其胞外分泌物干扰混凝过程，使沉淀效果不理想，进而堵塞或穿透滤池.然而，有关这种影响的研究还不多，人们对究竟多大数量的藻类会对混凝产生不利影响尚无明确认识.德国的Bernhardt H.及其同事曾研究过藻类胞外分泌物(EOM)对无机颗粒混凝过程产生的影响［1—4］，他们在试验中采用不含藻类细胞的藻类有机物提取液，用纯水及石英粉或高岭土配制试验水样.自然水体中不只含有无机颗粒，纷繁复杂的有机物已成为目前给水处理领域主要的研究对象.对于有机物含量较高的水源水的处理，混凝剂的最佳投加量不再由无机颗粒产生的浊度控制，而是由有机物控制［5］.藻类及其分泌物对于这种受有机污染的水的混凝有何影响尚未见报道.
+　　本文研究目的是考察藻类及其分泌物对实际水体的混凝产生的影响.考虑到水体中藻类细胞与其分泌物的关联性，试验采用藻类培养液进行，不滤除藻类细胞.主要研究内容有两个：(1)研究藻类及其分泌物对混凝过程的影响，确定对混凝过程产生干扰作用的藻类浓度范围；(2)考察几种技术措施能否减弱藻类及其分泌物对混凝过程的影响.
+2 试验材料与方法
+2.1 水样的制备
+　　为了接近实际水源状况，采用湖水(某中等程度富营养化湖水)过滤除藻的办法制备试验水样.制备过程如下：湖水→0.45μm滤膜过滤→投加高岭土使浊度为10NTU→投加纯培养藻.试验水样的溶解性有机物的种类及含量与湖水基本相同，而湖水中的藻类和颗粒态有机物被滤除.试验水样的主要水质参数见表1.
+2.2 藻类的培养
+表1 试验水样的主要水质指标
+Table 1 Major water quality index of the water sample
+
+水质项目　水质项目
+CODMn5.1mg/L色度11度
+UV2540.193(1cm)总硬度
+(以CaCO3计)97.8mg/L
+浊度10 NTU总Fe0.06mg/L
+
+　　为防止不同藻种之间的干扰，采用纯培养藻类进行试验.试验中使用3种藻类：硅藻门中的菱形藻(Nitzschia hantzschiana)、绿藻门中的小球藻(Chlorella vulgari)及月牙藻(Selenastrum capricornutum).这3种藻均是湖中不同季节有代表性的优势藻或经常出现的藻类.
+　　菱形藻在HB-D1培养基中培养，小球藻和月牙藻在绿藻培养基SE中培养(培养基成分见表2及表3).测定3种藻的生长曲线(图1)，当藻类浓度达到5×105个/mL—5×106个/mL时，分别取不同生长期(对数生长期、稳定生长期及衰亡期)的藻类培养液0、0.1、0.5、1、10、50mL，加入到装有1L自配水样的烧杯中进行混凝试验.
+表2 硅藻培养基HB-D1组成成分
+Table 2 Components of culture medium HB-D1 for diatom
+
+成分浓度,mg/L成分浓度,mg/L
+NaNO3120Na2SiO3100
+MgSO4*7H2O70柠檬酸铁5
+K2HPO440土壤浸出液20mL/L
+KH2PO480MnSO42
+CaCl220NaCl20
+
+表3　绿藻SE培养基组成成分
+Table 3 Components of culture medium SE for green algae
+
+成分浓度,mg/L成分浓度,mg/L
+NaNO3250KH2PO4175
+CaCl225NaCl25
+MgSO4*7H2O75土壤浸出液40mL
+K2HPO475EDTA-Na1mL
+1%FeCl3溶液(用1mL滴管加入1滴)
+
+
+图1 菱形藻、小球藻、月牙藻在培养基中的生长曲线
+Fig.1 Growth curve of Nitzschia hantzchiana, Chlorella vulgari and Selenastrum capricornutum
+2.3 试验方法
+　　采用混凝烧杯实验研究藻类及其分泌物对混凝过程的影响.试验在DBJ-621型六联定时变速搅拌机上进行.试验条件如下：快速搅拌转速150r/min,时间1min；慢速搅拌转速40r/min，时间20min；沉淀时间0.5h，混凝剂为精制硫酸铝.
+　　采用浊度和剩余铝的含量两个指标衡量混凝效果.沉淀后的上清液浊度越高，混凝效果越差；同样，上清液中铝浓度高，说明随絮体沉淀而去除的铝少，混凝效果不好，反之，铝浓度低，说明混凝效果好.浊度采用GDS-3型光电式浊度仪测定；铝浓度采用原子吸收法测定.
+3 试验结果与分析
+3.1 不同生长期的藻类混凝试验结果
+　　按上述试验方法进行不同藻种在不同生长期时对混凝的影响试验，并重复多次.3种藻混凝试验结果见图2—图4，混凝剂精制硫酸铝的投加量为30mg/L.
+
+图2 月牙藻不同生长阶段的混凝试验结果
+Fig.2 Coagulation results of Selenastrum capricornutum in various growth phases
+
+图3 小球藻不同生长阶段混凝试验结果
+Fig.3 Coagulation results of Chlorella vulgari in various growth phases
+3.2 试验结果分析
+　　从图2—图4可以看到，混凝试验上清液的浊度与残余铝含量的变化较为相似，从这两个指标的变化可以对不同藻种在不同生长阶段对混凝的影响有一个基本了解.
+　　图2为月牙藻不同生长阶段的混凝试验结果.可以看到：处于对数生长期的月牙藻对混凝起抑制作用，但在低浓度时，这种抑制作用并不很明显.而处于稳定生长期和衰亡期的月牙藻，在一定的浓度范围内(小于107个/L)，对混凝过程的促进作用较为明显(在藻浓度约为106个/L时，混凝效果最佳)；但当藻浓度超过约107个/L时，混凝过程受到严重干扰，出水水质迅速恶化.这就是说，当藻浓度较大时(大于约107个/L)，各个生长阶段的月牙藻对混凝过程均有干扰作用，致使出水水质恶化.
+　　图3为小球藻的混凝试验结果.可以看到，小球藻对混凝的影响与月牙藻的试验结果相似：在对数生长期的全部浓度范围内，均表现出干扰作用.在稳定生长期和衰亡期，当浓度较低(低于约8×106个/L)时，对混凝过程起促进作用，有利于改善出水水质；而当浓度较高(高于约8×106个/L)时，干扰混凝过程，出水水质变差.
+　　图4为菱形藻不同生长阶段的混凝试验结果.从图中可以看出，菱形藻在对数生长期对混凝的影响与月牙藻和小球藻有所不同：在对数生长期的低浓度范围(小于约3×106个/L)，对混凝表现出明显的促进作用(月牙藻和小球藻无此现象)；在高浓度时，表现出干扰作用.稳定生长期与衰亡期的菱形藻对混凝的影响与月牙藻和小球藻相似；当藻浓度较低(低于约107个/L)时，对混凝起促进作用；藻浓度较高时，起干扰作用.此外，从各图的对比可以看到，菱形藻的促凝作用比月牙藻和小球藻明显.当菱形藻浓度约为3×106个/L时，促凝作用最为显著，此时无论是出水浑浊度还是水中残余铝的含量都为最小值，混凝效果最好.
+
+图4 菱形藻不同生长阶段混凝试验结果
+Fig.4 Coagulation results of Nitzschia hantzschiana in various growth phases
+另外，从实验过程中观察到：当藻浓度在约5×105—5×106个/L之间时，絮体形成最早，且絮片较多、较大，沉降速度最快；而当藻浓度低于此区间时，絮体数量较少(未加藻的空白水样的絮片数量最少)；当藻浓度高于此区间时，絮体形成较慢，虽然数量很多，但絮片很小，不易沉降.这同样说明，在适宜的浓度下，藻类能促进混凝过程，而当藻浓度过高时，则会干扰正常的混凝过程.
+　　从以上试验结果可以得出如下结论：藻类对混凝过程的影响与藻的种类、生长阶段及藻浓度有关.本试验条件下，两种绿藻(小球藻和月牙藻)在对数生长期对混凝无显著影响；处于稳定生长期和衰亡期时，低浓度促进混凝，高浓度对混凝过程产生明显干扰.硅藻(菱形藻)处在各个生长期时，低浓度时均促进混凝，高浓度时干扰混凝.总的说来，各种藻在浓度大于8×106—107个/L时，对混凝过程产生干扰；浓度约106个/L时促凝效果最好.
+　　考虑到烧杯试验与生产工艺的差别纯藻与实际水体中藻种繁多的差别以及检测误差，对试验结果给予一定的安全系数，作者认为：在净水厂运行管理过程中，如果水源水中藻类浓度低于5×106—8×106个/L，可以不予理会；而当其浓度超过此范围时，则要考虑采取必要的预处理措施，以减缓藻类可能给水厂运行带来的不利影响.
+4 防治藻类及其分泌物干扰混凝过程的技术措施
+　　针对水处理过程中常用的几种改善混凝效果的技术措施，我们进行了一些烧杯试验，以考察这些措施能否削减藻类及其分泌物对混凝过程的干扰.主要进行了以下试验：
+　　(1)增加混凝剂投加量，以克服藻类细胞及其分泌物对混凝剂水解产物的竞争吸附，保证有足够的铝盐水解产物对胶粒进行吸附絮凝及沉淀絮凝.
+　　(2)调节混凝时的pH，使混凝在弱酸性环境进行.以增强混凝剂的中和能力，减少藻类细胞及其分泌物的负电荷所带来的影响.
+　　(3)预加氯，以改变藻类分泌物的形态结构，减少其对混凝过程的干扰.
+4.1 增加混凝剂投加量
+　　为考察增加混凝剂投加量对藻类及其分泌物干扰混凝过程的改善作用，我们对月牙藻、小球藻和菱形藻分别进行了不同混凝剂投加量的混凝试验.混凝剂仍为精制硫酸铝，藻类处于稳定生长前期.试验结果见图5(为节省篇幅，只给出小球藻的试验结果，其他两种藻的试验结果类似).从图5可以看到，不同的混凝剂投加量得到不同的处理效果.对于较低的混凝剂投加量，小球藻没有表现出促凝作用.低浓度的藻类即对混凝过程造成干扰，出水浊度及铝的含量随藻类浓度的提高而迅速增加，因此低的混凝剂投加量不适合藻类浓度高的水源水的处理.而增加混凝剂投加量则有助于减缓藻类对混凝过程的干扰，使高藻类浓度下的出水水质改善.
+　　可见，增加混凝剂投加量是防治藻类及其分泌物干扰混凝过程的一个可行措施.事实上，在以铝盐或铁盐作为混凝剂处理含藻水的工程实践中，有许多经验证实增加混凝剂的用量可以在一定程度上改善出水水质.
+0
+图5 不同混凝剂投加量下小球藻的混凝试验结果
+Fig.5 Coagulation results of Chlorella vulgari at various coagulant dosages
+4.2 调节pH值
+　　改变水的pH，一方面可以影响水中各种微粒(胶粒、藻类细胞、混凝剂的各种水解产物等)的带电情况，另一方面可以改变水中有机物的形态.这两方面的结果都将对混凝效果产生影响.因而通过调节水的pH值来减缓藻类对混凝过程的干扰是一条值得探讨的途径.图6和图7为菱形藻和小球藻在不同pH下的混凝试验结果.
+　　从图6和图7可以看到，两种藻的混凝效果均在pH为6.0左右时达到最佳.这意味着将pH调至6.0可以在一定程度上防治藻类及其分泌物对混凝过程带来的干扰.出现这一试验结果有两方面的原因：第一，铝盐混凝剂的等电点一般在pH?!6.5左右，pH为6.0时，铝盐的水解产物所带正电荷增多，电中和能力加强，有利于吸附絮凝的进行；第二，在微酸性范围内，藻类分泌物所带的—COOH不易失去质子而显示出电荷中性，分子发生收缩.与羧基离解了的藻类分泌物相比，这种收缩了的分子不易增加水中胶粒的稳定性，在一定程度上削弱了藻类分泌物对混凝的干扰.
+
+图6 3种pH下菱形藻的混凝试验结果
+Fig.6 Coagulation results of Nitzschiahantzschiana at various pH
+
+图7 3种pH下小球藻的混凝试验结果
+Fig.7 Coagulation results of Chlorella vulgari at various pH
+4.3 预氯化
+　　以氯作助凝剂在水处理实践中已有很多应用.氯作为一种氧化剂可以改变有机物的大小、结构，继而影响有机物在混凝中的行为.我们对各种藻进行了有无氯化的对比试验，所用藻类处于稳定生长期.试验结果见图8及图9.从图可以看到，预氯化后混凝出水浊度低于无预氯化的出水浊度，并且藻类浓度越高，预氯化的影响越大.预氯量不同，混凝效果也不同.预氯量加大，出水浊度降低，但当加氯量提高到一定程度后，加氯量的提高对出水浊度的影响减小.对月牙藻和小球藻来说，当加氯量高于2mg/L时，混凝效果趋于稳定.而对菱形藻，加氯量提高至5mg/L，对混凝效果仍有改善.这是因为菱形藻的胞外分泌物比小球藻和月牙藻多，且其胞外分泌物中大分子有机物的比例较高.
+
+图8 有无预加氯的混凝试验结果
+Fig.8 Coagulation results with and without prechlorination
+
+图9 不同加氯量的混凝试验结果
+Fig.9 Coagulation results atvarious chlorine dosage
+　　可见，对藻类含量较高的水源水，采用预氯化可以减轻藻类及其胞外分泌物对混凝的干扰.然而，预加氯也带来一些问题，主要是生成有机氯化物，这些物质中有很多三致物质.另外，有报道［6］说预氯化使水中亲水中性有机物增加，这部分有机物不易在后续工艺中去除.可以说，尽管预氯化在处理受污染水源水时有助于水厂运行，但它可能对溶解性有机物的去除产生副作用.因而对预氯化的使用应采取慎重态度，在不得不使用时，尽量降低其用量，以保证饮水的安全性.
+5 结论
+　　1.藻类对混凝过程的影响与藻的种类、生长阶段及藻浓度有关.本试验条件下，两种绿藻(小球藻和月牙藻)在对数生长期对混凝无显著影响；处于稳定生长期和衰亡期时，低浓度促进混凝，高浓度对混凝过程产生明显干扰.硅藻(菱形藻)处在各个生长期时，低浓度时均促进混凝，高浓度时干扰混凝.总的说来，各种藻在浓度大于8×106—107个/L时，对混凝过程产生干扰；浓度约106个/L时促凝效果最好.
+　　2.藻类及其分泌物对混凝过程的干扰可以采用一些技术措施得到削减，如：增加混凝剂用量；调节pH使混凝在微酸性环境中进行；预氯化使藻类有机物改性.生产实践中可根据实际情况选用合适的措施.
+参考文献
+　1 Oluf Hoyer, Bernhard Lusse et al.Isolation and characterization of extracellular organic matter (EOM) from algae. Z Wasser-Abwasser-Forsch, 1985,18:76—90
+　2 Heinz Bermhardt, Oluf Hoyer et al. Reaction mechanisms involved in the influence of algogenic organic matter on flocculation Z Wasser-Abwasser-Forsch, 1985,18:18—30
+　3 Bernhardt H,Clasen J. Flocculation of micro-organisms. J Water SRT-Aqua, 1991, 40(2):76—87
+　4 Shoichi Kunikane et al. Flocculation and filtration of the green algae Chorella sp. and Dictyosphaerium sp. under selected conditions. Z Wasser-Abwasser-Forsch, 1986, 19:145—151
+　5 Edzwald J K. Coagulation in Drinking water treatment:particles. organics and coagulants, Wat Sci Tech, 1993, 27(11):21—35
+　6 Husan-Hsien Yeh， Winn-Jung Huang. The fate of dissolved organics in water purification processes treating polluted raw water. Wat Sci Tech, 1993, 27(11):71—80
+INFLUENCE OF ALGAE AND THEIR EOM ON COAGULATION PROCESS
+Luo Xiaohong, Zhou Rong, Wang Zhansheng
+(Department of Environmental Engineering, Tsinghua University, Beijing 100084)
+Zhou Xiaoyan, Jiang Yingchun, Wang Yinghua, Wangheng 
+(Water Supply Company of Shaoxing City, Zhejiang Province, Shaoxing 312001)
+ABSTRACT Influences of algae and their EOM on coagulation were studied by jar tests. The primary conclusions are:the influences of algae and their EOM on coagulation process vary with the algae's genus, growing phases and concentrations. Generally, algae enhances the process at low concentration and disturbs the process at high concentration. Adding more coagulant, adjusting pH and prechlorination can weaken the disturbance of algae and their EOM on coagulation process.
+Keywords algae, EOM, coagulation.
+1996-08-07收到原稿
+1997-02-19收到修改稿

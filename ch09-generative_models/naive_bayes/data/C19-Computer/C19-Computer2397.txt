@@ -1,0 +1,72 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年　第36卷　第10期　Vol.36　No.10　1999
+
+
+
+单向链路邻接发现和路径生成的研究
+潘建平　顾冠群
+　　摘　要　单向链路和不对称应用需求的出现使得传统的网络路由算法和协议不再适用.隧道封装和路由修改是解决近期双向连通网络添加单向链路所面临问题的常用方法，但仍无法适合完全单向链路网络的远期目标.文中首先给出网络和路由的定义和表示；再提出基于有界扩散的邻接发现算法，并证明某一回路穿越特定链路次数的上界；然后提出基于邻接矩阵的路径生成算法，并给出实例分析以验证上述算法的正确性.
+　　关键词　计算机网络，网络协议，路由算法
+　　中图法分类号　TP393
+RESEARCH ON NEIGHBOR DISCOVERY AND 
+PATH GENERATION FOR UNIDIRECTIONAL LINKS 
+PAN Jian-Ping and GU Guan-Qun
+(Department of Computer Science, Southeast University, Nanjing 210096)
+　　Abstract　With the emergence of unidirectional links and asymmetric applications requirements, traditional routing algorithms and protocols for bi-directional and symmetric links are facing some severe challenges. Tunnel encapsulation and route modification are two common solutions to the short-term scenario where some unidirectional links are added into the connected bi-directional networks, but they also fail to meet the long-term scenario where only unidirectional links are available. Following the definition of graph topology and network routing, a bounded neighbor discovery algorithm is proposed, and the upper bound on trips of any loop crossing one specified links is proved. A path generation algorithm based on the neighbor/path matrix is also presented and validated by some examples.
+　　Key words　computer network, network protocol, routing algorithm
+1　研究背景
+　　传统的路由算法和协议总是显式或隐式地要求下层物理链路具有双向传输能力，通常称为双向链路(bi-directional link, BDL)路由.基于距离向量的RIP[1]路由协议，若结点a与b相邻，且b到c的距离为x，a就认为a到c的距离为x+1.基于链路状态的OSPF[2]协议，则需要邻接结点对称地进行应答以保证路由信息可靠传输.
+　　新的应用需求和传输服务使得上述假设的合理性在某些场合不再适用.对Web浏览或文件传输等应用，大量的数据从服务器下载到客户端，反向仅有少量数据应答，用户回路的应用需求并非总是对称的.卫星信道具有大带宽覆盖广的特点，但地面发射设备的代价要远大于接收设备，对移动或个体用户，仅携带接收设备更合适.xDSL和Cable Modem通常提供非对称传输信道以提高利用效率.传统路由算法和协议在单向链路(uni-directional link, UDL)就无法正常工作，如RIP的距离计算和OSPF的可靠应答.此外单向链路还会对多点投递[3]、资源管理甚至运输协议造成影响.这里着重研究网络路由的问题.
+　　近期出现的网络拓扑是在连通BDL网络添加一些UDL链路[4,5]，解决方法有隧道封装[6]和路由修改[7]两种.前者建立UDL虚拟的反向回路来构造BDL，以避免沿途路由的修改，但缺乏灵活性和可扩展性；后者主要针对RIP协议，但需要修改传统的路由算法和协议.远期需要解决的网络拓扑[8]是全UDL连通网络(一条BDL等同两条相向UDL)，显然，现有或改进的路由算法和协议都不能适合这种场合[8,9].我们先对网络路由进行严格定义和描述，再研究其中关键的连接发现和路径生成两个问题，并得到了一些有意义的结论.
+2　问题表示
+　　图1是UDL构成的连通网络，可表示成图G=(V,E)，其中结点集合V={a,b,c,d,e,f}，有向边的集合E={〈a,b〉,〈c,b〉,〈d,a〉,〈b,e〉,〈f,c〉,〈e,d〉, 〈e,f〉}，〈u,v〉表示从结点u到v的有向边.此外C:E→Rm是从E到m维实数域R的映射，表示每个链路所对应的度量(有m个因素).u1和un路径(〈u1,u2〉,〈u2,u3〉,…,〈un-1,un〉)(简记为(u1,u2,…,un))的集合记作R1n.‖R1n‖是路径个数.
+
+
+图1　一个UDL网络
+　　路由问题可表示为给定图G=(V,E)及其映射C，任取v1,v2∈V，获得Rv1v2和Rv2v1，依据C的度量约束，挑选某个(或某些)特定的rv1v2和rv2v1构成回路.上述描述蕴含每个结点都有图的完整拓扑，若无此约束，仅能得到Rv1v2和Rv2v1的子集.此外回路v1v2v1和v2v1v2并没有必要对称，回路v1v2v1的集合记作Lv1v2v1=Rv1v2×Rv2v1.
+　　对多点投递源f和宿集合S=(s1,s2,…)，RfS 定义为超集{Rfs1, Rfs2,…}，RSf 则为{Rs1f, Rs2f,…}.依据C的度量约束，多点路由挑选一组特定的{{rfs1, rs1f},{rfs2,rs2f},…}构成f与任一si的回路.多点投递仅定义fsif的回路，因为仅有从源到宿的数据流.在大多数情况RfS 构成一棵以f为根、si为叶或中间结点的有向扩散树.
+3　邻接发现
+　　邻接发现对BDL是显而易见的(〈a,b〉〈b,a〉)，但对UDL却是很大的困难(蕴含条件不再成立).特别是邻接信息和路径生成会重复穿越某一特定单向链路(如图1，若从a到达f再返回到a，即afa=(a,b,e,f,c,b,e,d,a)，就需穿越链路〈b,e〉两次)；而BDL决不重复以同一方向穿越某一链路.所幸的是我们能证明重复穿越具有上界.
+3.1　穿越上界
+　　给定UDL图G=(V,E)，及回路uvu=(〈u,u2〉,…,〈,v〉,〈v,〉…,〈un-1,un〉)，需要证明的是若任取〈x,y〉{〈u,u2〉,…,〈,v〉,〈v,〉…,〈un-1,un〉}，〈x,y〉在(〈u,u2〉,…,〈,v〉,〈v,〉…,〈un-1,un〉)出现次数为m，存在与图G和回路L无关的整数M，使m≤M(如等号成立，则M为上确界).
+　　定义1. (冗余路径)　对于uv=(〈u,u2〉,〈u2,u3〉,…,〈un-1,v〉)∈Ruv，如果有{〈u,u2〉,〈u2,u3〉,…,〈un-1,v〉}-{〈x,y〉}∈Ruv，则uv是冗余路径；反之则为无冗余路径.类似定义冗余回路.
+　　引理1. 若〈u,y〉∈{〈u,y〉,〈u2,u3〉,…,〈un-1,v〉}，则〈u,y〉可仅在uv出现1次.
+　　证明. 不失一般性，〈u,y〉在uv=(〈u,y〉,…,〈u,y〉i,…,〈un-1,v〉)的最后一次出现为〈u,y〉i .则(〈u,y〉i,…,〈un-1,v〉)∈Ruv，且由冗余路径的定义等价于原有的uv.
+　　引理2. 若〈x,v〉∈{〈u,u2〉,〈u2,u3〉,…,〈x,v〉}，则〈x,v〉可仅在uv出现1次.
+　　证明. 不失一般性，〈x,v〉在uv=(〈u,u2〉,…,〈x,v〉j,…,〈x,v〉)的最前一次出现为〈x,v〉j .则(〈u,u2〉,…,〈x,v〉j)∈Ruv，且由冗余路径的定义等价于原有的uv.
+　　引理3. 若〈x,y〉∈{〈u,u2〉,…,〈x,y〉,…,〈un-1,v〉}，则〈x,y〉可仅在uv出现1次.
+　　证明. 不失一般性，〈x,y〉在uv=(〈u,u2〉,…,〈x,y〉i,…, 〈x,y〉j,〈x′,y′〉j+1,…,〈un-1,v〉)的最前和最后一次出现分别为〈x,y〉i和〈x,y〉j.则(〈u,u2〉,…,〈x,y〉i, 〈x′,y′〉j+1,…,〈 un-1,v〉)∈Ruv，并且根据冗余路径的定义等价于原有的uv.
+　　任一uvu由uv和vu构成，即〈u,y〉〈x,v〉〈v,y〉〈x,u〉仅在uvu出现1次.
+　　定理1. (任一链路在某一回路出现次数) 若〈x,y〉且{x,y}-{u,v}={x,y}(即{x,y}不包含u或v)，若〈x,y〉∈{〈u,u2〉,…,〈,v〉,〈v,〉,…,〈un-1,u〉}，则〈x,y〉最多在uvu出现2次.
+　　证明. (用反证法)不妨假设〈x,y〉在uvu出现3次.
+　　根据引理1～3，〈s,v〉或〈v,t〉仅在uvu出现1次，则v将uvu分割成2个部分，分别为{〈u,u2〉,…,〈s,v〉}和{〈v,t〉,…,〈un-1,u〉}.如果假设〈x,y〉在uvu出现3次，则根据“抽屉原则”，则{〈u,u2〉,…,〈s,v〉}或{〈v,t〉,…,〈un-1,u〉}至少有一个含有2个以上的〈x,y〉.不失一般性，不妨假设{〈u,u2〉,…,〈x,y〉i,…,〈x,y〉j,〈w,z〉j+1,…〈s,v〉}含有2个〈x,y〉.根据冗余路径的定义，((〈u,u2〉,…,〈x,y〉j,〈w,z〉j+1,…〈s,v〉),(〈v,t〉,…,〈un-1,u〉))∈Luvu等价uvu.
+　　有限次使用上述法则，可以保证任一〈x,y〉最多在uvu出现2次.图1又说明某一链路出现2次是完全必要的(对于〈b,e〉在回路afa必须出现2次).
+　　综上所述，任一UDL链路在某一回路从出现的次数的上确界为2. 
+证毕.
+　　推论1. 若〈x,y〉且{x,y}-{u,v}={x,y}(即{x,y}不包含u或v)，若〈x,y〉在uvu出现2次，则可能出现的情况应该是{〈u,u2〉,…,〈x,y〉i,…,〈,v〉,〈v,〉,…,〈x,y〉j,…,〈un-1,u〉}.
+3.2　有限扩散
+　　如图1的a发现存在2个网络接口，其中一个输出另一个输入.初始时a仅具有自己的接口信息，并将上述信息通过输出接口告知下一结点(注意a并不知b是下一个结点).b获得a的接口信息后即导出〈a,b〉，但〈a,b〉本身对b的路由没有作用.b将〈a,b〉及其接口信息一起再传递给下一结点.类似地，e在其所有输出接口发出〈a,b〉〈b,e〉及其接口信息.d/f/c有着相似的过程.a从d获得〈a,b〉〈b,e〉〈e,d〉及〈d,a〉后可导出ab,ae,ad路径.因上述信息和a初始发出的信息(蕴含〈a,a〉)不同，a继续将链路和路径信息给下一结点.b从c获得〈a,b〉〈b,e〉〈e,f〉〈f,c〉及〈c,b〉后可导出be,bf,bc，与a同样原因b将继续发出链路和路径信息.b再次从a获得路由信息将获得路径ba，结合a给出的ab，b将获悉a和b之间已形成回路(此后也被a获悉).连接发现过程稳定后，每个结点将具有整个路由范围的拓扑信息，每个结点将独立地进行路由计算与选择.
+　　产生路由信息后，结点间需要维持上述路由，并适应链路的动态特性(如新的链路加入和原有链路失败等).每个结点周期性给其下游结点Direct-Hello分组以通知下游结点该结点及邻接链路的活性.若下游结点在一段时间没有获得来自上游结点的Direct-Hello，就认为该结点或邻接链路失败.下游结点将扩散链路失败的消息给其下游结点，直到所有结点均获得此信息.下游结点也通过周期性的Routed-Hello分组经过路由通知对应上游结点两者链路的活性，若上游结点在很长一段时间没有获得来自下游结点的Routed-Hello，将认为两者之间的链路失败，需要重新计算和选择路由，并在其它输出接口通知其它结点.如图1的〈a,b〉链路失败，b没有收到Direct-Hello，认为a或〈a,b〉失败，将通知后继结点e，类似f/d/c/a也将获得上述信息.经过Routed-Hello，a最终将获悉〈a,b〉链路的失败.除了b/c/e/f结点可能形成回路，其它结点至少因为某个路径而无法形成回路.新加入结点将触发局部的邻接发现，若某个结点得到新的路由，将传递给后继直到拓扑信息稳定.
+4　路径生成
+4.1　路径矩阵
+　　经过邻接发现以后，每个结点能够获得整个网络的邻接信息，以及相关的路由度量，这里主要考虑邻接信息以生成路径.A=(ai,j)n,n是图G=(V,E)的邻接矩阵，当且仅当ai,j=1，如果〈i,j〉∈E；否则ai,j=0，其中n等于‖V‖.(A)n,n和[A]i,j分别表示n×n的矩阵及其第(i,j)个元素.经过邻接发现后，每个结点都能对〈i,j〉∈E独立地进行判断.
+　　如果ai,k=1且ak,j=1，则显然存在从i到j的路径(根据i与k邻接且k与j邻接)，i到j的距离为2.k可取1，…，n之间的任意一个结点标识，则=bi,j当且仅当存在bi,j个这样的k，使得ai,k=1且ak,j=1.定义B=A.A=(bi,j)n,n=()n,n，则矩阵B的元素bi,j表示从结点i到结点j存在bi,j条距离为2的路径.定义∧(B)=(di,j)n,n，且di,j=bi,j若i=j；否则di,j=0，即∧(B)为B的对角矩阵.因ai,i=0，若di,i>0，则表示存在di,i个k，使ai,k=1且ak,i=1.定义 2A=B-∧(B)=A.A-D(A.A)，若［2A］i,j=1则i和j的距离为2.
+　　更高阶的kA除需要从A和k-1A的乘积中删去对角线元素表示的自环外，还应考虑由[A]i,m和[k-1A]m,j构成的部分自环，如[k-1A]m,j 对应的路径已穿越过i.因此k-1A将保存长度为k-1的路径穿越的结点集k-1Vi,j.综上所述kA可定义为
+
+其中
+
+　　可以证明，[kA]i,j表示从结点i到结点j存在[kA]i,j条距离为k的无冗余路径，且不含有自环(如abeda)和部分自环(如efcbed).
+　　定理2. (简单路径)kA是图G=(V,E)邻接矩阵A生成的距离为k的无冗余路径矩阵.
+　　证明. (使用对于k的数学归纳法)
+　　(1) k=1，结论显然成立.
+　　(k0) 假设k=k0时，k0A是图G=(V,E)邻接矩阵A生成的距离为k0的无冗余路径矩阵.
+　　(k0+1) 当k=k0+1时，根据k0+1A定义，考虑(i,m,j)=1的情况，k0+1A=A.k0A-∧(A.k0A),其中[A.k0A]i,j=根据[k0A]k,j是从结点k到结点j存在[k0A]k,j条距离为k0的简单路径.如果[A]i,k=1，则从结点i经过结点k到结点j就有[k0A]k,j条距离为k0+1的无冗余路径.k可取1，…，n间的任一结点标识，就是从结点i经过所有可能结点k到结点j的距离为k0+1的无冗余路径.k0+1A=A.k0A-∧(A.k0A)仅去除可能的自环；若(i,m,j)=0则删去可能存在的部分自环.综上所述，原命题结论成立.
+证毕.
+　　推论2. 若kA是图G=(V,E) 的无冗余路径矩阵且存在i,j使得[kA]i,j〉0，则有k〈n.
+　　证明. 使用反证法，不妨假设k=n且存在i,j使得[kA]i,j〉0，则有某条路径穿越n+1个结点.
+　　但是图G的结点数‖V‖=n，必然该条无冗余路径穿越至少有1个结点超过1次，矛盾.
+4.2　回路生成
+　　通过路径矩阵，就能获得集合Rv1v2和Rv2v1，再根据Lv1v2v1=Rv1v2×Rv2v1，就可获得从v1到v2回到v1的回路集合，其中‖Rv1v‖=[A]v1,v2+[2A]v1,v2+…+[nA]v1,v2，‖Rv2v1‖=[A]v2,v1+[2A]v2,v1+…+[nA]v2,v1，‖Lv1v2v1‖=[A]v1,v2+[2A]v1,v2+…+[nA]v1,v2)([A]v2,v1+…+[nA]v2,v1).也就是任意选择Rv1v2和Rv2v1各一条无冗余路径，就可构成一条从v1到v2回到v1的回路，需要指出的是，每条无冗余路径都不会两次穿越同一结点，但两两构成的回路就可能穿越某条特定链路2次，也就是可能穿越该条链路两端结点各两次.
+5　实例分析
+　　如图1的UDL网络，邻接矩阵和无冗余路径矩阵分别为

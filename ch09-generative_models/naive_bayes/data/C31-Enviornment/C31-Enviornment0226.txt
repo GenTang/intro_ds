@@ -1,0 +1,85 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1998年 第18卷 第2期 No.2 Vol.18 1998
+科技期刊
+
+无水条件下气相三氯乙烯的光催化降解研究*
+刘　鸿　成少安　张鉴清　曹楚南　蒋伟川　(浙江大学化学系，杭州 310027)
+文　摘　以二氧化钛为光催化剂，主波长254 nm紫外线杀菌灯为光源，研究了气相三氯乙烯(TCE)在无水条件下的光催化降解反应。结果发现，TCE的光催化降解产物为HCl、CO2及Cl2，并得出TCE在无水条件下光催化反应的计量式为C2HCl3 + 2O2hvTiO2HCl + 2CO2 + Cl2，该计量式与有水条件下光催化反应降解TCE的计量式不同。结果还发现，TCE初始反应速率与光强的0.16次方呈正比，光催化降解速率方程符合Langmuir-Hinshelwood公式〔1〕。
+关键词　 光催化　降解　二氧化钛　三氯乙烯
+Study on the semiconductor photocatalytic degradation of gaseous trichloroethylene without water. Liu Hong,Cheng Shaoan, Zhang Jianqing, Cao Chunan，Jiang Weichuan (Department of Chemistry, Zhejiang University, Hangzhou 310027).China Environmental Science.1998,18(2):144～147
+Abstract— The photocatalytic degradation has attracted more and more attention. It should be noted that water vapor was incorporated in the feed gases in most of such studies. The photocatalytic degradation of trichloroethylene (TCE) in the gas phase without water was studied using anatase titanium dioxide powder and 254 nm UV lamp. It was proved that the products were HCl、CO2 and Cl2，and that the reaction stoichiometry was described as C2HCl3 + 2O2 HCl + 2CO2 + Cl2，which is different from that of under humid conditions. The equation of photocatalytic degradation agreed with Langmuir-Hinshelwood rate form and the degradation rate was direct proportional to the power of 0.16 of light intensity.
+Key words: photocatalysis　degradation　titanium dioxide　trichloroethylene
+　　以TiO2粉末作为催化剂光催化氧化有机污染物在近十几年中得到了广泛的关注。早在1983年，Pruden 等〔2〕就开展了光催化降解水溶液中三氯乙烯(TCE)的研究。后来，日本学者久永辉明又发现将多种半导体粉末固定在聚四氟乙烯合成树脂膜上的光催化法能够使水中TCE彻底降解为CO2和HCl〔3〕。Rajeshwar〔4〕指出，许多气态污染物都可以借助光催化法在气相中直接处理或与液相分离后再进行氧化降解。Dibble等〔5,6〕最早报道了采用气相光催化法降解TCE。他们发现，TCE的气相光催化氧化过程反应速度比液相光催化氧化过程速度更快，且光利用效率高。以后，气相光催化逐渐受到重视〔7,8〕。
+　　大多数研究者〔5～7〕认为，气相光催化反应过程中，催化剂表面氢氧自由基在反应过程中起着重要作用，因而在反应原料气中引入一定量的水蒸汽，以在催化剂表面获得自由基。本文在反应原料中不引入水蒸汽的条件下，对气态TCE光催化降解进行了研究。
+1　实验部分
+1.1　实验方法
+　　空气钢瓶中放出的空气在缓冲瓶中与TCE蒸汽充分混合后进入反应管。反应管由3只石英玻璃管(每只长20cm，内径2.8cm)串联而成，每只管内铺放8g锐钛型TiO2粉末。光源为15W主波长为254nm的紫外线杀菌灯。从反应器尾部出来的气体进入气相色谱仪气体进样阀(气体进样阀定量管的体积为2mL)，或在通入一定体积的纯水中吸收。
+　　由于TiO2对TCE有吸附能力，为消除其对实验结果的影响，先将反应气在黑暗条件下流经反应管30min，待气相色谱分析结果显示TCE浓度不变后，打开紫外灯光照。
+　　TiO2使用前，150℃下烘1h。TiO2催化剂可重复使用。
+1.2　分析方法
+　　TCE的浓度采用气相色谱（上海分析仪器厂100型，配热导检测器）进行分析，色谱柱为3mm×1m不锈钢柱；固定相采用Porapak-Q(日本岛津公司提供)；柱温165℃；检测器温度180℃； 载气为H2，25mL/min。Cl-浓度分析采用Orion公司Cl-离子选择性电极进行测定，参比电极为217型甘汞电极。采用pH S-2型酸度计测定反应尾气吸收液的pH值。
+　　TCE光催化降解产物中，检测到CO2、Cl2及HCl。产物的鉴定方法如下：HCl，在TCE光催化反应后的尾气中通入AgNO3，有不溶于稀HNO3的白色沉淀出现，说明光催化反应产物中有可溶性氯化物存在；反应尾气通入蒸馏水中吸收，测得吸收液的pH值在1.15～4.50之间。由此可知，TCE光催化降解产物中存在HCl。Cl2，光催化反应30min后尾气能使淀粉碘化钾溶液变蓝；仅使空气通过装有TiO2的反应器，黑暗中维持30min，再光照60min，光照过程中，从反应器中出来的气体不能使淀粉碘化钾溶液变蓝。上述实验证明TCE光催化反应产物中含有Cl2而不含有O3。CO2，采用气相色谱保留时间法鉴定CO2的存在。
+2　结果与讨论
+2.1　TCE的光降解与光催化降解
+　　在无光照条件下，将TCE与空气的混合物通过装有催化剂的反应管，发现TCE不能发生降解反应。在无催化剂存在时，采用15W主波长254nm的紫外线杀菌灯照射TCE气体，检测到CO2和HCl，这与田中启一等〔9〕的研究结果不同，他们发现TCE气体在185nm紫外光照射下能有效地分解为CO2、光气和Cl2。
+　　当在TiO2+UV条件下，TCE的光催化降解产物为HCl、CO2及Cl2。图1是TCE的光降解与光催化降解两种情况下反应速度的比较情况。从图1可知，TCE的光催化降解速度比光降解速度要快得多。光照70min，TCE光催化降解反应尾气吸收液中的Cl-浓度达到0.025mol/L，而其光降解反应尾气中Cl-浓度仅为2.8×10-4 mol/L。
+
+图1　TCE的光降解与光催化降解
+Fig.1　TCE photodegradation and photocatalytic degradation 
+TCE初始浓度为1.38×10-3mol/L
+　　 文献〔9〕报道的TCE及另外几种有机氯化物的光降解产物中只含有Cl2而没有HCl。文献〔9〕在光反应完毕后的光解池中加入定量的去离子水，然后定量检测到比理论值略低的Cl-。实验结果表明，如果光降解产物中只含有Cl2而没有HCl，采用以上方法很难得到比理论值略低的Cl-，而测出的氯离子很可能主要是HCl的贡献。
+2.2　光催化反应计量关系式
+　　无H2O条件下，TCE光催化降解完毕后，立即测定尾气吸收液中的pH值，并比较Cl-与H+的量。结果发现，Cl-浓度与H+浓度基本相等。结果见表1。
+　　为进一步考察光催化降解反应物与产物之间的计量关系，在缓冲瓶中放入浓度为2.22×10-3mol的TCE，延长反应混合气在反应管中的滞留时间，以使TCE充分降解，反应完毕后测得的Cl-和H+产量分别为2.20×10-3mol和2.19×10-3mol。结合对光催化降解产物的分析，可写出无水条件下TCE光催化反应计量关系式：
+　　
+式(1)与有水蒸汽存在时的TCE光催化反应的计量关系式〔6〕不同。可见，水蒸汽的存在影响到TCE光催化降解反应的机理。
+表1　TCE降解产物中Cl-浓度与H+浓度
+Table 1　Concentrations of Cl- and H+ of the Degradation Products
+
+pH值H+浓度(mol/L)Cl-浓度(mol/L) pH值 H+浓度(mol/L) Cl-浓度(mol/L)
+4.364.36×10-54.79×10-5 1.82 1.51×10-2 1.62×10-2
+3.493.23×10-4 3.55×10-4 1.76 1.74×10-2 1.74×10-2
+2.47 3.39×10-3 3.47×10-3 1.20 6.31×10-26.46×10-2
+
+2.3　光催化降解反应速率
+2.3.1　降解速率与光强的关系　图2是TCE在不同光距下，TCE光催化降解尾气吸收液中Cl-浓度随时间的增加曲线。由图2可知，随着光距的减小，Cl-浓度的增加速度加快，表明TCE的光催化降解速度加快。在半导体光催化反应中，催化剂受光激发产生的电子与空穴的浓度对反应速率有较大影响，而电子和空穴的浓度又取决于光源的波长与强度。光强与光距、光源功率及波长的关系见文献〔10〕。
+
+图2　不同光距下TCE的光催化降解
+Fig.2　Photocatalytic degradation at different illumination distances
+TCE初始浓度为1.38×10-3mol/L
+　　通过改变反应器和光源之间的距离，来改变反应器中的光强。光催化降解反应初始速率与光强的关系可用下式表示:
+　　　　　　　　　　r=kIn　(2)
+式中: r为反应初始速率，molCl-/(gTiO2*s)；k、n为常数；I为光强，mol/(cm2*s)。
+　　以光催化降解反应初始速率(用Cl-表示)对光强作图，见图3，拟合得一曲线，曲线方程为:
+　　　　　　　r=2×10-7I0.16 　(3)
+相关系数为r=0.9946，可见，本试验条件下，TCE初始反应速率与光强的0.16次方呈正比。
+
+图3　光强与反应初始率
+TCE初始浓度为1.38×10-3mol/L 
+Fig. 3　Light intensity and reaction rate
+2.3.2　TCE光催化降解的速率方程式　半导体光催化是基于光致电子-空穴对迁移到半导体颗粒表面的不同位置，从而参与和加速氧化还原反应，还原和氧化吸附在表面上的物质。因此，TCE须吸附在催化剂表面上后才能参与反应，而TCE的浓度直接影响它在催化剂表面的吸附程度，进而影响TCE降解反应的初始速率。TCE的浓度与其光催化降解反应的初始速率的关系见图4。由图4可知，TCE的光催化降解初始速率随其浓度的增加而增加到一定值，原因可能是TCE的吸附量随其浓度的增加而趋于饱和。 以TiO2粉末为催化剂的气-固相光催化反应的动力学方程普遍采用Langmuir-Hinshelwood公式来表征〔7〕。对TCE的气相光催化降解，文献〔5〕还采用了一种基于Langmuir-Hinshelwood公式的改进形式来描述。当TCE的浓度很低(10-4 mol/L)的情况下，O2的浓度可视为定值，因此，在无水条件下，文献〔5〕中的方程可改写为:
+　　　　　　　(4)
+式中: r为反应初始速率(molTCE/(g*s))；c为TCE初始浓度(mol/L)；a，b为常数，分别记为 L/ g*s 及L/mol。式(3)可记为:
+　　　　　　(5)
+以对作图，拟合得到一条直线，相关系数为0.9944，并求得a为7.53×10-5 L/g*s，b为974.0 L/mol。
+
+图4　TCE的浓度与初始速率
+Fig.4　TCE concentration and reaction rate 
+3　结论
+　　在无水条件下，TCE气相光催化降解反应的产物含有HCl、CO2及Cl2，光催化反应的计量关系式为C2HCl3 + 2O2 HCl + 2CO2 + Cl2。本试验条件下，TCE初始反应速率与光强的0.16次方呈正比。TCE浓度较低时(10-4mol/L), 其光催化降解初始速率随其浓度的增加而增加到一定值。光催化降解速率方程符合Langmuir-Hinshelwood公式。
+参考文献
+1　Peral J, et al. J.Catal.,1992,136:554～565
+2　Pruden A L, et al. J.Catal., 1983,82:404～417
+3　久永辉明等. 水处理技术(日) , 1988,29(8):23～27
+4　Rajeshwar K J.Appl. Electrochem.,1995,25:1067～1082
+5　Dibble L A, et al. J.Catal. Lett., 1990,4:345～354
+6　Dibble L A, et al. Environ. Sci., Technol.,1992,26:492～495
+7　Nimbles M R, et al. Environ. Sci., Technol.,1993,27:732～740
+8　Yamazki-N ishida S, et al. J. Photochem. photobiol. A: Chem., 1993,70:95～99
+9　田中启一, 久永辉明. 环境技术(日), 1993,22(4):59～62
+10　樊邦棠. 环境化学. 杭州: 浙江大学出版社, 1991. 231
+作者简介
+刘　鸿　男，1970年4月生。现为浙江大学化学系博士生。研究方向为环境化学与电化学。发表论文4篇。
+收稿日期：1997-04-15
+*浙江省自然科学基金资助项目

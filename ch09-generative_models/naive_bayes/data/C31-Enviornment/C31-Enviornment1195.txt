@@ -1,0 +1,87 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+　　白洋淀水体、底泥及鲫鱼体内DDT、BHC污染状况研究*
+窦　薇**　赵忠宪
+(中国科学院动物研究所，北京　100080)
+　　摘要 对白洋淀水体、底泥及鲫鱼肌肉中的DDT及其衍生物和BHC的残留量进行了测定研究，分别给出含量范围.研究表明，鱼体肌肉中BHC的4种异构体的含量顺序(δ＞α＞γ＞β)与其在水和底泥中的含量顺序(α＞γ＞δ＞β)略有不同.鱼体肌肉中DDT主要以代谢物P,P′-DDE形式存在.两种农药的污染具有明显的地域差异，位于府河入淀口及村庄附近的水体、底泥及鱼体肌肉中DDT及其衍生物，BHC含量较高，与1975—1977年检测结果相比，鲫鱼肌肉中DDT及其衍生物残留量下降了54.2%，BHC下降了86.9%.
+　　关键词 DDT； BHC； 白洋淀；鲫鱼;污染.
+　　到1973年止，全世界至少有20个国家限制或禁止使用DDT，我国于1983年禁止生产和使用DDT和BHC.但据世界粮农组织统计表明，在1992年，发展中国家确认的BHC总存量达3000—10000t［1］.这意味着在今后若干年内，有机氯农药通过大气扩散迁移而引起的全球性污染问题仍将存在［2，3］.
+　　封闭的水体，最易受到持续性有机化合物的污染［4］，有研究表明，在限制或禁止使用有机氯农药的最初几年里，鱼体内农药残留量明显降低，之后残留量趋于稳定［5，6］，但也有研究发现在禁止使用有机氯农药后，鱼体内农药残留量反而略有增加的现象［7］.在我国，对于湖泊生态系统有机氯农药污染状况的研究工作大多集中于70年代末到80年代初，由于缺乏连续的监测及对比分析，对于环境中有机氯农药污染的目前状况和未来趋势有待进一步搞清.素有“华北明珠”之称的白洋淀是华北地区最大的淡水湖和重要的水产养殖基地.70年代中期，曾对白洋淀水域的污染进行过全面调查和治理［8］.时隔20年，白洋淀受有机氯农药的污染情况是否得到有效控制，目前未见报道.本次调查研究的目的在于了解DDT及其衍生物、BHC在白洋淀水体、底泥及鲫鱼肌肉中的残留水平，评价它们的地区差异及残留量的时间变化趋势，为治理和控制白洋淀污染提供科学依据.
+1 材料与方法
+　　1994年10月和1995年6月在白洋淀淀区选择6个具有代表性区域(图1)：采集东向阳、王家寨、郭里口、端村、圈头及采蒲台的水、底泥及鲫鱼(Carassius auratus)肌肉样品111个，其中水样8个，表层底泥样品12个，鲫鱼肌肉样品91个.样品的处理参照文献介绍方法进行［9，10］.用带电子捕获检测器的岛津GC-6A气相色谱仪(连接C-R3A记录式数据处理机)测定DDT及其衍生物、BHC含量.回收率检测结果见表1，仪器析出最低极限为1μg/L.底泥样品是烘干后去除5%含水量后测定；鱼肉样品为剔除鱼皮、鱼刺、用蒸馏水冲净血污后以鲜重计算.
+表1 回收率结果
+Table 1 Recovery rate of the measurement procedure
+
+项　目α-BHCβ-BHCγ-BHCδ-BHCP，P′-DDEO,P′-DDDP，P′-DDDP,P′-DDT
+平均回收率,%10210499.698.510498.210198.5
+变异系数,%5.78.02.213.33.84.56.41.9
+
+注：空白测定结果在检出限以下
+2 结果与讨论
+
+图1 白洋淀水系采样点布设示意图
+Fig.1 Sampling locations
+2.1 白洋淀不同地域水、底泥中DDT及其衍生物、BHC的分布
+　　据报道,不同来源的农药进入水系后通常以土壤-农药悬浮液的形式存在，或被吸附在底泥沉积物中，溶于水的农药量一般较低［11］.本研究检测结果见图2及图3(其中部分数据由中科院生态环境研究中心提供).
+　　水体DDT及其衍生物含量在0—0.90μg/L之间，平均值为0.25μg/L；BHC含量在0.30—2.00μg/L之间，平均值为1.40μg/L，均低于我国渔业水质标准［12］.与1975—1977年检测结果［8］相比，水体有机氯农药含量略有增加.白洋淀于1983—1987年连续干淀长达五年之久，水中难以分解的毒物浓缩，或从底泥释放入水体，加之上游保定市排放大量含氯有机物的造纸、印染工业废水由府河入淀，及近年来农田灌溉和生活污水入淀量增多，都可能导致近年来白洋淀水体有机氯农药含量的增加.
+
+图2 白洋淀不同地域水、底泥(干重)中DDT及其衍生物残留量比较
+Fig.2 Contents of DDT derivatives in water and sediments (dry wt)
+
+图3 白洋淀不同地域水、底泥(干重)中BHC残留量比较
+Fig.3 Contents of BHC in water and sediments (dry wt.)
+　　白洋淀表层底泥沉积物中DDT及其衍生物、BHC含量范围分别是0.56—2.61μg/kg和0.69—2.26μg/kg之间，均高于水体残留量(图2，图3).目前虽然未形成一个划分底泥污染与否的统一标准［13］，但白洋淀底泥中DDT及其衍生物、BHC残留量均低于近年来印度Lagoon河、Jamuna河、澳大利亚Ovens and King河及南斯拉夫Vojvodina湖检测结果［14—17］.
+　　从DDT及其衍生物、BHC在水及底泥中的含量水平可以看出，东向阳水体及底泥中DDT及其衍生物含量较高，王家寨次之(底泥DDT及其衍生物含量)、圈头、采蒲台、端村居第三、郭里口居第四；东向阳、王家寨水体及底泥中BHC含量也高，圈头、端村次之，郭里口、采蒲台只是底泥BHC较高.水体中BHC很低.由此可见，东向阳、王家寨和郭里口受有机氯农药污染较为严重.原因在于上述3地区位于污染较严重的府河入淀口，保定市下来的工业废水中含有大量含氯有机物，经府河排污渠道入淀，污水入淀后受白洋淀生态环境特征(沟、濠纵横，芦苇丛生)的影响扩散缓慢.另外，王家寨及郭里口水域毗连村庄，因管理不善，生活垃圾、污水及农田废水均直接排放入淀；据调查，当地尚有库存的有机氯农药，近年来村民们曾用之灭杀蚊蝇.上述原因造成了白洋淀有机氯农药污染明显的地区差异性.在所有采样点水体及底泥中BHC残留量一般都高于DDT，说明白洋淀区域BHC用量及其污染均大于DDT.
+　　水体及底泥中BHC?!4种异构体的含量顺序为 α＞γ＞δ＞β.DDT所引起的污染在水体及底泥中主要以代谢物P,P′-DDE形式存在，而东向阳水体及底泥中尚含少量的O，P′-DDT及P,P′-DDT，表明东向阳水域近期受到DDT污染［18，19］.
+2.2 白洋淀不同地域鲫鱼肌肉中BHC、DDT及其衍生物残留水平
+　　近年来白洋淀由于污染及滥捕现象严重，使鱼类资源遭到破坏，出现种类单一化、个体小型化及年龄低龄化现象.淀区绝大部分水域渔获物中90%以上是鲫鱼，且年龄均为一龄左右.为比较鱼体农药残留量的地区差异，对各个采样点0+龄鲫鱼肌肉样品DDT及其衍生物、BHC残留量进行测定，共测91尾，结果见图4.
+
+图4 白淀淀不同地域0+龄鲫鱼肌肉BHC、DDT及其衍生物残留量(湿重)比较
+Fig.4 Comparison of BHC and DDT derivative concentrations in Carassius auratus
+　　从图4可以看出，测定结果均在全国农药科研协作组规定的残留量允许公差范围内［9］.鲫鱼肌肉DDT及其衍生物残留量在9.2—19.4μg/kg之间，平均值14.1μg/kg；BHC残留量在14.1—20.9μg/kg之间，平均值21.0μg/kg;东向阳、端村及郭里口的鲫鱼肌肉中的DDT及其衍生物残留量较高，分别为18.4μg/kg、19.4μg/kg及15.0μg/kg；东向阳鲫鱼肌肉中BHC残留量最高，为30.9μg/kg，其次是王家寨及郭里口，分别为22.5μg/kg和22.0μg/kg.将各个采样点鲫鱼肌肉中DDT及其衍生物、BHC残留量进行比较：就DDT及其衍生物而言，东向阳、端村区域鲫鱼肌肉中的DDT及其衍生物残留量较淀区其他水域明显偏高.经t检验,p＜0.05；就BHC而言，东向阳、王家寨及郭里口区域鲫鱼肌肉中BHC残留量较端村、圈头明显偏高，经t检验,p＜0.05.由此表明，东向阳、王家寨、郭里口及端村的鱼体受DDT及其衍生物、BHC污染较为严重，这与两种污染物在淀区水体及底泥中的分布趋势大致相符，说明鱼体内农药残留量受栖息环境的影响很明显，也验证了小鱼主要从水及沉积物中吸收毒物的观点.
+　　DDT对鱼体的污染主要以代谢物P，P′-DDE的形式存在，P，P′-DDE占鱼体DDT及其衍生物总量的99.6%.此外，在郭里口个别鱼体内尚检出少量P，P′-DDT.据报道，DDT进入鱼体后各异构体很快发生变化，由P，P′-DDT和O，P′-DDT转化为P，P′-DDE及P，P′-DDD,并以P，P′-DDE为主.P，P′-DDT的存在，表明新近DDT的输入［19］.
+　　鱼体肌肉中BHC?!4种异构体的残留量顺序是δ＞α＞γ＞β，这与其在水体及底泥中的含量顺序α＞γ＞δ＞β略有不同，说明BHC各异构体在水生生态系统中的迁移转化过程会发生构象的变化［20，21］.
+　　鲫鱼肌肉对水中DDT及其衍生物、BHC的浓缩因子，前者为20.4—194.0，后者为11.2—57.0，二者均低于文献报道的浓缩因子变动范围［7，14］.这与有关报道幼鱼对水中有机氯农药的积累不明显是一致的［22］.尽管如此，鲫鱼肌肉对DDT及其衍生物的富集能力远高于BHC.这与鱼类对有机物的浓缩通常与化合物的疏水性Kow有关.据报道，DDT及其衍生物的Kow为1×106，而α、β、γ-666为7.8×103，δ-666为1.4×104［23，24］，因此，鱼类对DDT及其衍生物的富集能力通常高于BHC，对于BHC来说，鱼类对δ-666的富集又高于其它异构体.
+　　研究结果表明，白洋淀鲫鱼肌肉中DDT及其衍生物、BHC残留量均未超过我国规定的食用卫生标准［25］.与1975—1977年检测结果［8］进行比较，鲫鱼肌肉BHC含量下降了86.9%，DDT及其衍生物含量下降了54.2%.从而显示了我国自80年代初禁止生产和使用有机氯农药后的明显效果.
+3 小结
+　　1. 对白洋淀水体、表层底泥和鲫鱼肌肉中的DDT及其衍生物和BHC含量进行了监测，结果表明，水体和鲫鱼肌肉中两者含量均在国家标准允许范围内.与70年代中期相比，鲫鱼肌肉中DDT及其衍生物和BHC残留量分别下降了54.2%和86.9%，其对DDT及其衍生物的富集能力高于BHC.
+　　2. 鲫鱼肌肉中BHC 4种异构体的含量顺序与水体和底泥中含量顺序略有不同，说明构象发生变化.
+　　3. 白洋淀受DDT及其衍生物和BHC的污染具有明显的地区差异，表明人为排放污染是其成因.
+　　
+　　本文野外样品采集得到朱 江同志的热情帮助，成文中得到黄玉瑶教授的指导，特此致谢.
+　* 中国科学院“八*五”重点项目的部分内容
+　** 现在山东医科大学细胞生物学教研室工作(济南　250012)
+参考文献
+　1 孙 晶译.农业积压的防范——全球操作是防止危险的关键.农药译丛，1996，18(1)：57—58
+　2 Iwata H et al Geographical distribution of persistent organochlorines in air, water and sediments from Asia and Oceanea and their implications for global redistribution from lower latitudes. Environmental Pollution， 1994, 85:15—33
+　3 Preston M R. The interchange of pollutants between the atmosphere and ocean. Mar Pollut Bull, 1992, 24:477—483
+　4 Loganathan B G, Kanna. Global organochlorine contamination trends: an overview. Ambio, 1994, 23:187—191
+　5 Olsson M, Reutergardh L. DDT and PCB pollution trends in the Swedish aqutic environment. Ambio, 1986,15:103—109
+　6 Schmitt C J et al. National contaminant biomonitoring program: Residues of organochlorine chemicals in U.S. freshwater fish, 1976—1984. Arch Environ Contam Toxicol, 1990, 19:748—781
+　7 Mhlanga A T, Madziva T J. Pesticide residues in lake Mcllwaine Zimbabwe. Ambio, 1990, 19:368—372
+　8 白洋淀水源保护科研协作组编.白洋淀水污染与控制研究报告.北京：科学出版社，1982
+　9 樊德方.农药残留量分析与检测.上海：上海科学技术出版社，1982
+　10 环境污染分析方法编辑委员会.环境污染分析方法.北京：科学出版社，1980
+　11 姚建仁等.六六六在农业生态环境中的行为.生态学杂志，1987，6(1)：33—36
+　12 吴鹏鸣等.环境监测原理与应用(渔业水域水质标准TJ35—79).北京：化学工业出版社，1991
+　13 Lockerbie D M， Clair T A. Organic contaminants in isolated lakes of Southern Labrador. (Canada) Bull Environ Contam Toxicol, 1988, 41:625—632
+　14 Agarwal H C et al. DDT residues in the river Jamuna in delhi, India. Water, Air and Soil Pollution, 1986, 28:89—104
+　15 Mckenzie-Smith F et al. Organochlorine pesticde residues in water and sediments from the Ovens and King Rivers, North-East Victoria. Australia Arch Environ Contam, 1994, 26:483—490
+　16 Vojinovic-Miloradov M et al Bioaccumulation of polychlorinted biphenyls and organochlorine pesticides in selected fish species as an indicator of the pollution of aquatic resources in Vojvodina, Yugoslavia. Wat Sci Tech, 1992, 26(9—11)：2361—2364
+　17 Wang T C et al. Chlorinated pesticide residue occurrence and distrbution in mosquito control mpoundments along the Florida indian river Lagoon. Bull Environ Contam Toxicol, 1992, 49:217—223
+　18 Frank R et al. Organochlorine insecticide residues in sediment and fish tissue. Ontario, (Canada). Pesticides Monit J, 1974, 7:165—180
+　19 Suns K et al. Present status and temporal trends of organochlorine contaminants in Young-of-the-Year Spottail shiner (notropis hudsonius) from Lake Ontario, Canada. J Fish Aquat Sci, 1991, 48:1568—1574
+　20 Hebert C E et al. Organochlorine contaminants in a terrestrial foodweb on the Niagara peninsula, Ontario (Canada), 1987—1989. Arch Environ Contam Toxicol, 1994, 26:356—366
+　21 陈朝晖等.六六六在水溶液中的光异构化与光化学降解.环境科学学报，1984，4(3)：266—274
+　22 Berg H et al. DDT and other insecticides in the Lake Kariba ecosystem, Zimbabwe. Ambio, 1992, 21(7):444—450
+　23 朱志宁.12种有机物在鲤鱼体内富集与释放行为的研究.环境科学学报，1987，7(3)：339—345
+　24 Gobas F A et al. Bioconcentration of hydrophobic chemicals in fish:Relationship with membrane permeation. Environ Toxi Chemist, 1986, 5:637—646
+　25 中华人民共和国国家标准 GBn 1-54-57.北京：技术标准出版社，1978
+CONTAMINATION OF DDT AND BHC IN WATER， SEDIMENTS AND FISH (CARASSIUS AURATUS) MUSCLE FROM BAIYANGDIAN LAKE
+Dou Wei, Zhao Zhongxian
+(Institute of Zoology, Chinese Academy of Sciences, Beijing 100080)
+ABSTRACT DDT derivative, BHC, and their metabolites were analyzed in water, sediments and fish(Carassius auratus) muscles from six sampling stations in Baiyangdian Lake. None of the specimens monitored exceeds relevant national standards. The mean concentrations of total DDT derivatives and BHC are 0.25μg/L and 1.4μg/L in water. Total DDT derivatives and BHC range 0.56—2.26μg/kg and 0.59—2.26μg/kg (dry wt.) in sediment and range 9.2—19.4 μg/kg with mean value of 14.1μg/kg and 14.1—30.9 μg/kg with mean value of 20.9μg/kg(wet wt.) in Carassius auratus muscle, respectively. Relatively high residue levels of total DDT derivatives and BHC were detected in Dongxiangyang, Wangjiazhai and Guolikou areas of the lake. Compared with historical data, decreases of 54.2% in total DDT and 86.9% in BHC in fish muscle were demonstrated.
+Keywords DDT, BHC, Baiyangdian Lake, Carassius auratus, sediment, fish.
+1996-07-09收到原稿
+1997-01-18收到修改稿

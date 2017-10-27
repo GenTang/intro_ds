@@ -1,0 +1,41 @@
+环境科学研究
+RESEARCH OF ENUIRONMENTAL SCIENCES
+2001 Vol.14 No.2 P.45-47
+
+
+
+
+酸浸粉煤灰混凝法处理制革废水的研究
+夏畅斌　 何湘柱　 李德良　 黄念东　 
+摘　要：笔者研究了在热电厂粉煤灰中加入少量的鼓风炉铁泥和适量的助溶剂HS，在加热条件下用稀硫酸搅拌浸取2h后，制得集物理吸附和化学混凝为一体的混凝剂。这种混凝剂与聚硅酸铝铁(PSAF)絮凝剂配合处理COD为1500～2000mg/L制革废水，SS，COD，硫化物和铬的去除率分别为95%，93%，92%和88%。该法的显著特点是混凝沉降速度快，污泥体积小，处理废水费用低，此外还探讨了酸浸粉煤灰混凝剂对制革废水的混凝沉降机理。
+关键词：制革废水；　粉煤灰；　鼓风炉铁泥；　混凝；　吸附性能
+分类号：X794　文献标识码：A
+文章编号：1001-6929(2001)02-0045-03
+Study on Treatment of Tanning Wastewater by Coagulation Method with Fly Ash Treated by Acid
+XIA Chang-bin（Institute of Environ. Eng. & Chemical Hi-Tech, Xiangtan Polytechnic University, Xiangtan 411201, China）　
+HE Xiang-zhu（Institute of Environ. Eng. & Chemical Hi-Tech, Xiangtan Polytechnic University, Xiangtan 411201, China）　
+LI De-liang（Institute of Environ. Eng. & Chemical Hi-Tech, Xiangtan Polytechnic University, Xiangtan 411201, China）　
+HUANG Nian-dong（Institute of Environ. Eng. & Chemical Hi-Tech, Xiangtan Polytechnic University, Xiangtan 411201, China）　
+
+Abstract：A kind of fly ash-based coagulant combining the capabilities of both physical adsorption and chemical coagulation has been prepared by adding a small amount of blast furnace iron sludge and an appropriate amount of helping solvent (HS) to fly ash in coal-fired thermal power plants and then the resulting mixture being stirred and extracted with a dilute H2SO4 for 2 h at 90℃. Combined with polysilicate aluminum and ferric (PSAF), this coagulant was thus used to treat tanning wastewater which COD value is 1 500～2 000 mg/L. The removal rates of SS, COD, sulfide and total chromium were 95%, 93%, 92% and 88% respectively. The remarkable characteristics of this method are a higher rate of settlement, a smaller volume of sludge, and a lower cost of treatment. The coagulation mechanism of fly ash coagulant in the treatment of tanning wastewater has been studied.
+Keywords：tanning wastewater;　fly ash;　blast furnace iron sludge;　coagulant;　adsorption property
+基金项目：原煤炭工业部科技发展项目(97-369)
+作者简介：夏畅斌(1960-)，男，湖南益阳人，副教授，硕士. 
+作者单位：夏畅斌（湘潭工学院 环境工程与化工新技术研究所，湖南 湘潭　411201）　
+　　　　　何湘柱（湘潭工学院 环境工程与化工新技术研究所，湖南 湘潭　411201）　
+　　　　　李德良（湘潭工学院 环境工程与化工新技术研究所，湖南 湘潭　411201）　
+　　　　　黄念东（湘潭工学院 环境工程与化工新技术研究所，湖南 湘潭　411201）　
+
+参考文献：
+［1］　周凤鸣，吴炳耀，马志毅，等.粉煤灰处理含氟工业废水研究[J].环境科学学报，1993，13(2)：199～205.
+［2］　Shigendo Akita.Recovery of vanadium and nickel in fly ash from heavy Oil[J].J Chem Tech Biotechnol,1995,62:345～350.
+［3］　王福元，吴正严.粉煤灰利用手册[M].北京：中国电力出版社，1997.
+［4］　Binay Kr,Singh & Narendra S,Rawat.Comparatives sorption equilibrium studies of toxic phenols on fly ash and impregnated fly ash[J].J Chem Tech Biotechnol,1994,61:307～317.
+［5］　黄彩海，苏广路，杨丽娟，等.粉煤灰基混凝剂的制备及应用研究[J].环境科学，1995，16(2)：47～49.
+［6］　于衍真，李国忠，傅兴华，等.粉煤灰混凝剂的性能研究[J].环境科学学报，1998，18(4)：431～434.
+［7］　夏畅斌，何湘柱，易清风，等.煤矸石灰渣研制硅酸铝混凝剂及应用研究[J].中国环境科学，1996，16(5)：396～400.
+［8］　朱志平.铝盐混凝中水解物种分布状况研究[J].中国给水排水，1995，11(4)：46～49.
+［9］　赵春禄，刘振儒，马刚平，等.铝、铁共聚作用的化学特征及晶貌研究[J].环境科学学报.1997，17(2)：154～159.
+
+收稿日期：2000年4月4日
+出版日期：2001年3月30日

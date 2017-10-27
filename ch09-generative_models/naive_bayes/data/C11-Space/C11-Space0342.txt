@@ -1,0 +1,86 @@
+航空动力学报
+JOURNAL OF AEROSPACE POWER
+1999年 第14卷 第3期 Vol.14 No.3 1999
+
+
+
+跨音速压气机非设计工况下动静叶相互作用的数值模拟*
+任玉新　沈孟育　刘秋生
+　　【摘要】　本文计算了某跨音速压气机的一级在非设计工况下动静叶干扰产生的非定常流动。计算以准三维的Navier-Stokes方程为模型，湍流模式采用Baldwin-Lomax代数模式。主控方程用高分辨率的MUSCL型Roe格式离散，离散方程用高效的LU-SSOR方法求解。本文提出了一种完全守恒的动、静叶交界面处理方法。周期性边界处理采用Rai的方案。根据计算结果，讨论了非设计工况下动静叶干扰的机理。
+　　主题词：压气机　叶片　非定常流动　数值模拟
+　　分类号：V211.15
+NUMERICAL SIMULATION OF ROTOR-STATOR INTERACTION IN A TRANSONIC COMPRESSOR STAGE AT OFF-DESIGN CONDITIONS
+Ren Yuxin，Shen Mengyu，Liu Qiusheng
+（Tsinghua University,Beijing　100084）
+　　ABSTRACT　　A numerical method is developed for simulation of rotor-stator interactions in a compressor or turbine stage.This method solves quasi-three-dimensional Navier-Stokes equations by an implicit high resolution finite volume method.A fully conservative method is designed to compute the inviscid and viscous flux at the interface of rotor and stator grids.Numerical results of rotor-stator interactions in a transonic compressor stage at off-design conditions are presented.The mechanism of rotor-stator interactions in this compressor stage is discussed in terms of the computational results.
+　　Key　Words　Compressors　Blades　Non-steady flow　Numerical simulation
+1　引　言
+　　近年来，叶轮机械动静叶作用的数值模拟得到了较快的发展。Erdos等［4］，Rai［10］，Lewis等［9］，Jorgenson和Chima［8］，Giles［5］以及Rao和Delaney［11］的工作是这一领域的一些有代表性的成果。上述工作主要是讨论透平静叶与动叶之间的相互作用，关于压气机的工作还较少。特别是这些工作考虑的都是设计工况下的动静叶相互作用，关于非设计工况下动静叶相互作用的研究工作目前开展的还不充分。本文的目的即对跨音速压气机在非设计工况下动静叶之间相互作用进行数值模拟，并研究非设计工况下损失产生的机理，为有关工程设计提供参考。
+　　由于三维流动的数值模拟计算量很大，本文以准三维的N-S方程作为数值模拟的主控方程。这个模型本质上是二维的，第三个方向的流动效应通过适当给定流片厚度来进行模拟。本文采用有限体积方法对控制方程进行离散。无粘通量由Roe的通量差分分裂格式计算。为了提高计算精度，我们发展了一种新型的高分辨率MUSCL插值方法。这个方法，考虑了网格非均匀性的影响，在非均匀网格上，仍可达空间三阶精度（对线性方程而言）。时间方向，采用二阶精度的隐式格式进行离散，离散方程用高效率的LU-SSOR方法求解。本文还发展了一种新型的动静叶交界面的处理方法。这种方法可以保证通量完全守恒的，这对提高数值方法的收敛速度及改善稳定性是非常有利的。在动静叶干扰的数值模拟中，如何处理周期性边界是一个重要而困难的问题。由于动静叶的叶片数一般不等甚至不可约，只有计算域包含转子和静子的所有叶片时，周期条件才是严格成立的。这种处理方法计算量很大，为了减少计算量，通常采用一些近似处理方法。Erdos［4］，He［7］采用的是相位滞后的周期条件，Giles［5］通过在时间倾斜的计算平面求解控制方程来处理这一问题。上述近似处理方法，应用于粘性流动时误差较大。在本文中，我们采用Rai［10］建议的方法，即对静叶的叶片数做小的调整，使动叶和静叶的叶片数之间有一较大公约数。这样，计算域中包含的叶片数为约分后的叶片数时，即可应用周期性条件。为了保持流动特性不变，还需对静叶的栅距及弦长作相应调整。这种方法具有简单、收敛性好等优点，得到了比较广泛的应用。
+　　利用上述数值方法，我们研究了某跨音速压气机的一级在70%设计转速时动静叶相互作用问题，并根据数值模拟的结果分析了非定常流动的特征及损失产生的机理。
+2　数值方法
+　　本文采用如下的准三维N-S方程作为数值模拟的主控方程：
+　(1)
+式中：
+U＝［ρ，ρu，ρE］T，FE＝［ρu，ρuu+pI，ρu（E+p／ρ）］T
+FV＝［0，σ，-（q-u.σ）］T，σ＝μeff（u+uT）-(2/3)μeff.uI
+μeff＝μlam+μtur，q＝-γ（μlam／Prlam+μtur／Prtur）（ρe），R＝［0，ph，0］T
+上式中的层流粘性系数μlam用Sutherland定律计算，湍流粘性系数μtur用Baldwin-Lomax［2］代数模式确定。h是流片的厚度。
+　　上述方程用有限体积方法进行空间离散，空间离散后的半离散方程为：
+　(2)
+其中Si,j是控制体的面积，β代表控制体的4个界面，△s是控制体的边长，Fnum.n△s＝FE,num.n△s-FV,num.n△s是数值通量。无粘通量FE,num.n△s用Roe［13］的通量差分方法计算：
+　(3)
+　　本文采用MUSCL插值计算控制体界面左右的物理量，其计算公式为：
+　(4)
+其中：
+ai＝li／（li+1+2li+li-1），bi＝li／（li+li+1），ci＝（li+li-1）／（li+li+1）
+li是i方向单元的宽度，ε是小的正数。上述插值公式，考虑了网格的非均匀性，对于非均匀网格，插值仍具有三阶精度。限制器si是为了抑制流场间断附近的数值振荡而引入的。粘性通量FV,num.n△s通过中心差分计算。
+　　在时间方向采用二阶精度的Crank-Nicolson格式离散。隐式部分在线化后，采用LU-SSOR方法［6］求解。
+　　为了提高计算精度，本文生成的贴体网格在叶片附近是正交的。在周期性边界处，保证坐标线斜率连续变化。
+　　在本文的数值模拟中，动叶及静叶叶道中分别生成两套H型网格。两套网格有一个交界线。这条交界线不是物理边界而是所谓“人工边界”。为了提高精度，人工边界的处理方法应尽量与内点差分格式相容。为此本文提出了一种计算动静叶网格交界线通量的一种完全守恒的方法。参考图1，交界线被动静叶网格划分为许多小段，如图中的和等。在每一个时间步，首先计算出每一小段的位置和长度，然后计算通过每一小段的数值通量。
+
+
+图1　动静叶网格界面
+　　无粘通量用Roe的近似Riemann解确定。例如通过线段的无粘通量的计算公式为：
+
+其中UR5/2和UL5/2分别由交界线左侧及右侧的物理量通过适当插值确定。通过的粘性通量可通过在控制体A2C3上应用Gauss定理计算。即：(FV,num.n△s)＝fGauss（UA，U2，UC，U3）。其中，U2和U3由交界线两侧的物理量通过线性插值确定。在计算出通过每一小段的数值通量后，交界线处动叶网格和静叶网格的数值通量可由通过相应小段的数值通量的和来确定，如： 
+
+　　由于上述方法的守恒性，使得该方法可以处理有激波、旋涡通过交界面时的流场并使计算格式有较好的收敛性。
+3　计算结果及讨论
+　　将数值方法应用于某跨音速压气机的一级(NASA35)动静叶相互作用的数值模拟。文献［12］中的实验条件为：设计转速为17188.7 r/min，翼尖速度为454.5 m/s，动静叶片数分别为36和46。本文模拟70%设计转速的非设计工况下动静叶干扰作成的非定常流场。在数值模拟的边界条件中需给定出口背压，但在文献中没有给出背压的实验值。本文利用实验测得的出口总压及出口马赫数推出背压值。实验中的流动全三维的。为了进行准三维的数值模拟，取展向中部的叶型作为数值模拟的叶片形状。流片的厚度取由轮毂到机匣端盖的距离。计算中的另一个近似是计算域中只取3个动叶通道，4个静叶通道，这相当于转子有36个叶片，静子有48个叶片（实验中是46个静叶片）。静叶的弦长和栅距根据文献［1，3，10］的方法作了调整。
+　　由于文献中没有给出非定常流场的测量结果，因此无法直接检验数值模拟结果的准确程度。但是，我们可对非定常计算的结果进行时间平均，与有关实测结果进行比较。结果如下：总压比：实验值1.345，计算值1.420；出口马赫数：实验值0.503，计算值0.486。可见，计算结果与实测值有所差别。我们认为其中的差别是由于本文的计算没有完全反映实验中的三维效应造成的。
+　　下面讨论非定常流动的数值模拟结果。从估计的初始流场开始，推进约5个周期后，得到周期性的非定常数值解。这里的周期T定义为动叶转过一个静叶栅距的时间乘以静叶数。图2是静叶出口的总压比随时间的变化。这个总压比由静叶出口各点的总压比沿栅距方向作空间平均而得。
+
+
+图2　总压比随时间的变化
+　　图3是在几个特定时刻的等马赫线。由图中可以看出静叶头部有脱体的头激波，通道中有接近正激波通道激波。由于动叶中流动处于堵塞状态，因此在通道激波前，流动基本上是定常的。非定常流动主要发生在通道激波以后，尤其是在静叶通道中。由图3可以看到，动叶的尾迹运动到静叶通道中，并与静叶前缘相互作用。由于此时转速低于设计转速，静叶前缘处流动的冲角小于零，因此在静叶前缘压力面产生了分离。由于受动叶尾迹周期性运动的调制，分离泡的形态叶呈周期性变化，并且沿压力面向下游移动。这一点在图4中可以清楚的看到。图5是静叶压力面和吸力面压力的分布。由图中可见在压力面上压力有明显的波动，这显然是由分离泡的运动变化而导致。如前所述，分离泡的形成与运动是由于动叶尾迹与静叶的相互作用。可见在非设计工况下，动叶的尾迹对静叶中的非定常流动有非常重要的影响。我们曾通过考察熵的变化对流动损失与非定常损失进行了粗略的估算。结果表明，非定常损失占总损失的10%以上。其中一半左右的非定常损失发生在静叶的分离区。因此，在非设计工况下，通常的准定常假设是不适用的。由于尾迹的重要作用，周向平均作成的误差也是十分显著的。
+
+
+图3　等马赫线
+
+
+图4　静叶速度矢量
+
+
+图5　静叶压力分布
+4　结　论
+　　本文发展了动静叶干扰的高分辨率数值模拟方法并对某跨音速压气机在非设计工况下的动静叶干扰问题进行了数值模拟。数值结果表明，本文发展的方法是可行的。通过对计算结果的分析，可以得到在非设计工况下动叶的尾迹及其与静叶作用导致的非定常分离对静叶中的非定常流动及非定常损失有重要的影响。在这种情况下，准定常假定是不适用的，而直接进行动静叶干扰的非定常数值模拟是一个合理的选择。
+*本文系曹光彪高科技发展基金资助项目
+作者简介：任玉新男　33岁　博士　副教授　北京清华大学工程力学系　100084
+作者单位：清华大学
+参考文献
+　1　Arnone A and Pacciani R.Rotor -Stator Interaction Analysis Using the Navier-Stokes Equations and a Multigrid Method.ASME Journal of Turbomachinery,1996,118:679-689.
+　2　Baldwin B S and Lomax H.Thin Layer Approximation and Algebraic Model for Separate Turbulent Flows.AIAA Paper 78-257
+　3　Dawes W N.Unsteady Flow and Loss Production in Centrifugal and Axial Compressor Stages.Von Karman Institute for Fluid Mechanics Lecture Series 1994-06
+　4　Erdos J L,Alzner E,McNally W.Numerical Solution of Periodic Transonic Flow Through a Fan Stage.AIAA Journal,1977,15(11):
+　5　Giles M B.UNSFLO: A Numerical Method for Unsteady Inviscid Flow in Turbomachinery.GTL Report #195,1988
+　6　Grasso F and Marini M.Multiblock Implicit Total Variation Diminishing Solution of High-Speed Internal Flows.Journal of Propulsion and Power,1993,9(2):255-262
+　7　He L and Denton J D.Three-Dimensional Time-Marching Inviscid and Viscous Flow Solutions for Unsteady Flows Around Vibrating Cascades.ASME Journal of Turbomachinery,1994,116:469-476
+　8　Jorgenson P C and Chima R.An Explicit Runge-Kutta Method for Unsteady Rotor/Stator Interaction.AIAA Paper 88-0049
+　9　Lewis J P,Delaney R A,Hall E J.Numerical Prediction of Turbine Vane-Blade Interaction.AIAA Paper 87-21419
+　10　Rai M M.Unsteady Three-Dimensional Navier-Stokes Simulations of Turbine Rotor Stator Interactions.AIAA Paper 87-2058
+　11　Rao K V and Delaney R A.Investigation of Unsteady Flow Through a Transonic Turbine Stage,Part, Analysis.AIAA Paper 90-2408
+　12　Reid L and Moore R D.Performance of Single-Stage Axial-Flow Transonic Compressor with Rotor and Stator Aspect Ratios of 1.19 and 1.26 Respectively and with Design Pressure Ratio of 1.82.1987,NASA TP-1338
+　13　Roe P L.Approximate Riemann Solvers Parameter Vectors and Difference Schemes.Journal of Computational Physics,1981,43:357-372
+　14　Swanson R C and Turkel E.A Multistage Time-Stepping Scheme for the Navier-Stokes Equations.AIAA Paper 85-0035
+1998年7月收稿；1998年12月收到修改稿。

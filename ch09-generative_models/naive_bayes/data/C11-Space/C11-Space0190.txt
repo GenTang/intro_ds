@@ -1,0 +1,100 @@
+宇航学报 
+JOURNAL OF ASTRONAUTICS
+1998年 第19卷 第1期 No1 Vol.9 1998科技期刊
+
+维缠绕固体火箭发动机壳体
+爆破问题研究
+孙雪坤
+(东北大学轧制技术及连轧自动化国家重点实验室*沈阳*110006)
+郭燕阳　杜善义
+(哈尔滨工业大学复合材料研究所*哈尔滨*150001)
+　　摘　要　本文采用大变形有限元方法进行纤维缠绕固体火箭发动机壳体的应力及爆破分析。采用最大应力强度准则进行单元失效判断,并引入合理的刚度衰退模型,从而较真实地模拟壳体的承载过程。在此基础上,重点讨论了材料性能、几休非线性对固体火箭发动机壳体封头部位相对承载能力的影响,特别是针对两个实际结构得出相反的影响结果,对结构的优化设计和实际应用的补强研究有指导意义。另外,从爆破的角度探讨了由模拟壳体外推真实固体火箭发动机壳体结构的合理性。
+　　主题词　固体火箭发动机　几何非线性　有限元分析　爆破研究
+THE BURSTING STUDY OF FILAMENT 
+WOUND ROCKET MOTOR CASE
+Sun Xuekun
+(State Key Lab of Rolling and Automation,Northeastern University*Shenyang*110006)
+Guo Yanyang　Du Shanyi
+(Composite Research Center,Harbin Institute of Technology*Harbin*150001)
+　　Abstract　In this paper we employed the nonlinear finite element method to calculate the stress and bursting pressure of filament wound rocket motor case.The Maximum stress criteria and the stiffness degradation were introduced to the failure analysis.Therefore we can simulate the working precess of the case.Especially the effects of the material performance and nonlinearity on the loading capacity of the dome were also discussed.Diverse results were gotted for two different cases and they can be used to guide the optimum design and mending strength of the case.Otherwise,from the view point of burst,the way from simulated case to real structure was also discussed.
+　　Key words　Rocket motor　Nonlinearity　Finite element analysis　Bursting study
+1　引　言
+　　纤维增强复合材料在航空航天、汽车、化工等许多领域得到广泛应用,特别在固体火箭发动机壳体上,玻璃/环氧、Kevlar/环氧及碳/环氧均得到应用。进行纤维缠绕固体火箭发动机壳体的应力及强度分析,特别是对不同的壳体结构,研究材料性能、几何非线性对爆破的影响,具有实际意义。
+　　纤维缠绕复合材料压力容器的应力分析曾有许多报导,文献［1］采用经典板壳理论,文献［2-4］采用剪切修正理论,特别是文献［5］采用轴对称体单元得到较为令人满意的应力计算结果。对复合材料压力容器的爆破分析,网格理论［6］曾得到了广泛应用。而文献［7-9］采用模理论,对某些结构上述理论虽然也能较为准确地预报爆破压力,但却不能模拟壳体损伤过程,也不能分析爆破的影响因素,因此已被合理的方法所取代。
+　　复合材料压力容器的爆破过程是个损伤累积过程。若进行有限元分析,随内压的增大失效单元数将增多,直到爆破。因此,如何在数值计算过程中较为准确地模拟损伤累积过程,是进行爆破分析的关键。本文采用大变形有限元理论,增量法求解;最大应力强度准则进行单元失效判断,采用文献［4］建议的刚度衰退模型,从而计及损伤过程的影响。
+　　工程实际中人们很关心壳体爆破的诸多影响因素,采用更高强度的材料能否有效地提高爆破压力?材料与结构如何有机地结合?几何非线性如何影响封头部分的相对承载能力?这些问题都将在本文中得到合理的解释。另外,由模拟壳体外推实际固体火箭发动机壳体这一设计方法也将得到讨论。
+2　分析理论及方法
+　　本文采用增量法求解非线性有限元问题,每一载荷步下采用合适的强度准则进行单元失效判断,对不同类型损伤进行合理的刚度衰退,从而较真实地模拟固体火箭发动机壳体的承载过程。
+2.1　分析理论
+　　纤维缠绕固体火箭发动机壳体在承载过程中会发生很大变形,需要计及几何非线性的影响。设弹性体的初始构形为V0,则用全量拉格朗日法(T.L法)描述现时构形的虚功方程为:
+
+(1)
+其中分别为定义在初始构形V0下现时构形(t+Δt时刻)的克希荷夫应力和格林应变,分别在该时刻定义在V0下的体力和面力分量。
+　　可表示为:
+
+
+(2)
+其中Sij、Eij、ui分别为t时刻定义在初始构形V0下的克希荷夫应力、格林应变和位移,ΔSij、ΔEij、Δui分别为t到t+Δt的相应增量。
+　　而且有:
+
+(3)
+将式(2)、(3)代入(1)中得到增量法求解大变形有限元问题的控制方程:
+
+(4)
+其中单元的材料本构方程可写做:
+ΔSij=Cijkl*ΔEkl
+(5)
+材料刚度矩阵Cijkl由层合复合材料的等效刚度代入,它与层数、缠绕角及单层复合材料的正交各向异性刚度有关,且损伤单元的刚度衰退也体现在该参数中。
+　　用增量法求解控制方程(4)式,并计及单元损伤,从而得到大变形有限元计算结果。
+2.2　失效分析
+　　本文不具体探讨壳体的树脂开裂、分层、纤维断裂等损伤过程,只是唯象地用最大应力强度准则区分不同加载方向上的单元失效。文献［10］曾对三种常用的玻璃/环氧、Kevlar/环氧及碳/环氧纤维增强复合材料进行讨论。特别拉-拉应力状态下,建立采用最大应力强度准则。
+　　对失效单元采用文献［4］建议的刚度衰退模型,具体是:
+　　(a)垂直纤维方向拉、压失效,则:
+E2→0,v12、v13、v23→0
+　　(b)沿纤维方向拉、压失效或面内剪切试效,则:
+E2→0,v12、v13、v23→0
+　　　　　　　　且
+
+　　其中Ed1、Ed12为单元失效后的模量。
+3　数值计算结果及讨论
+3.1　Φ1400的M1固体火箭发动机壳体(模型一)
+　　图1为M1固体火箭发动机壳体结构示意图,封头及筒身为纤维缠绕复合材料(Kevlar49/epoxy),裙部为合金铝。图2、图3分别为M1壳体封头上某一点及筒身中点的环向应变随内压变化曲线,相应的纵向应变的变化趋势与此相类似。图中可以看出,考虑损伤过程的大变形有限元分析的数值计算结果与实测值最吻合。另外,M1壳体爆破压力的计算值是8.0MPa,封头爆破:实验结果为7.7MPa,也在封头爆破,可见该方法能较好地给出壳体的应力分析和爆破预报。
+　　从图3可以看出,筒段应变随载荷近似线性变化,因此其承载能力随材料性能的提高呈线性增长。我们将封头上一点应力随骨压的变化示于图4,可以看出,由于采用大变形分析理论,封头的承载能力相对线性增长而言提高了Δ1,也就是相对于筒段而提高了封头的承载能力,从而使爆破位置有向筒段转移的趋势。由图4还可以看出,若用更高强度的ApmocⅡ/RE40替代Kevlar49/epoxy,则封头部位的相对承载能力提高,即Δ2∶σb2＞Δ1∶σb1,从而也使爆破有向筒段转移的趋势。
+
+
+图1　M1固体火箭发动机壳体结构示意图
+
+
+图2　M1壳体封头上一点环向应变变化曲线
+
+
+图3　M1壳体筒段中点环向应变变化曲线
+
+
+图4　M1壳体封头上一点应力变化示意图
+M1壳体的封头较筒段易爆破,因此,采用更高强度的材料可实现封头的相对补强,达到优化的目的。
+3.2　Φ480的M2模拟壳体(模型二)　　
+
+
+图5　M2模拟壳体封头上一点应力变化示意图
+M2模拟壳体的结构与M1类似,但没有金属裙,且尺寸较小。M2壳体筒段的应力随载荷也呈线性增长,而封头部位的应力变化曲线示于图5,其变化趋势与M1壳体不同。由于采用大变形分析理论,封头的承载能力相对线性增长而言降低了Δ1,也就是相对于筒段而言降低了封头的承载能力,从而使爆破位置有向封头转移的趋势。若用更高强度的Apmoc ⅡRE04替代Kevlar49/epoxy,则封头部位的相对承载能力降低,即Δ2∶σb2＞Δ1∶σb1,从而也使爆破有向封头转移的趋势。
+　　图5中还可看到,若M2壳体在封头爆破,用Apmoc ⅡRE04替代Kevlar49/epoxy时,封头部位的承载能力提高不大,也就是壳体的爆破压力提高不大。因此,针对该模型结构,单纯提高材料性能收效甚微,只有将材料与结构有机结合起来,才能达到优化的目的。
+3.3　固体火箭发动机壳体设计方法的讨论
+　　几何非线性的引入和材料性能的提高会使模拟壳体封头部位的相对承载能力降低,却使真实壳体封头的相对承载能力提高,也就是说,模拟壳体的最佳设计方案对真实结构却不是最佳的,应从材料、结构等诸多方面综合考虑,若用模拟壳体结构外推真实结构,这种设计方法是不正确的,应引起重视。
+4　结　论
+　　本文采用计及损伤的大变形有限元方法对模拟壳体和真实固体火箭发动机壳体进行爆破分析,重点探讨几何非线性和材料性能对壳体爆破的影响,结论如下:
+　　1)　对模型一结构,如Φ1400的M1固体火箭发动机壳体,几何非线性的引入提高了封头部位的相对承载能力,使爆破有向筒段转移的趋势,材料的强度越高,这种趋势越明显。
+　　2)　对模型二结构,如Φ48的M1壳体几何非线性的引入降低了封头部位的相对承载能力,使爆破有向封头转移的趋势,材料的强度越高,这种趋势越明显。
+　　3)从爆破的角度看,若用模拟壳体外推真实固体火箭发动机壳体结构,这一设计方法是不合理的,应进行材料和结构的综合分析,达到优化设计的目的。
+参考文献
+1　Rahman D M,Banks W M,Tooth A S.Behaviour of GRP pipes under a variety of load condition.Sixth International Conference on Plastics Pipes,York,England,1985,pp131-136
+2　Takezone S,Migita K.The creep of anisotropic multilayered moderately thick shells of revolution.Proceeding of the International Conference on Computational Engineering Science,Atlanta,1988,pp211-214
+3　Idelson S,Laschet G,Nyssen C.Pre-and Post-degradation analysis of composite material with different moduli in tension and compression,Computer Methods in Applied Mechanics and Engineering,1982,30:133
+4　Dennis S,Palazotto A.Transverse shear deformation in orthotropic cylindrical pressure vessels using a higher order shear theory,Proceeding of 29th AIAA/ASME/ASCE/AHS Structures,structural Dynamics and Materials Conference,Part 2,1988,pp613-622
+5　Du S Y,Sun X K.Strength and response of filament wound motor case subjected to internal pressure.Proceeding of ICCM-10 Conference,Canada,1995,pp111-116
+6　陈汝训.固体火箭发动机设计与研究.宇航工业出版社,1992
+7　李章勋,凌志云.内部资料,1986
+8　Adali S,Summers E B,Verijenke V E.Optimisation of laminated cylindrical pressure vessels under strength criterion.Composite Structures,1993,25:305
+9　Sciuva M D.Development of an anisotropic,multilayered,shear deformable rectangular plate element,Computers & Structures,1985,24(4):789
+10　孙雪坤.纤维缠绕固体火箭发动机壳体结构分析及安全评定.博士论文,1995,pp50-56
+本文于1996年3月15日收到

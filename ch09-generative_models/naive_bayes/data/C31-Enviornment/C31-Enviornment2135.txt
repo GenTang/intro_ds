@@ -1,0 +1,34 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.1 P.53-56
+
+
+
+
+生态毒理学研究中分子构效相关的应用
+刘征涛　 
+摘　要：分子定量构效相关(QSAR)理论方法是当前生态毒理学研究领域发展的重要方向和前沿，QSAR法运用多种数学模式和化合物特征表示参数，系统地探究化合物的生态毒理学机制，进行分子水平的综合研究。笔者系统阐述并应用目前生态毒理学研究中采用的分子构效新方法，对取代芳烃类等典型有机物的生态毒理学效应进行了举证性预测研究。
+关键词：定量构效相关；　生态毒理学；　芳烃类化合物；　毒性预测
+分类号：X171.5　文献标识码：A
+文章编号：1001-6929(2001)01-0053-04
+Application of Molecular Structure-Effect Relationships on Ecological Toxicology Research
+LIU Zheng-tao（Institute of Ecology,Chinese Research Academy of Environmental Sciences,Beijing　100012，China）　
+Abstract：Applying the methods of molecular quantitative structure-activity relationships(QSARs)on the research of ecological toxicology is an important area and precedent tide,and the QSAR applies many kinds of mathematic models and molecular characteristic descriptors to explore the ecological biotoxication mechanisms at the level of biochemistry moleculars.This paper discusses some available metods of establishing molecular structure-effect relationship,and effectively applies some molecular descriptors to investigate the biotoxication on some substituent aromatic hydrocarbons.
+Keywords：QSARs;　ecological toxicolgy;　aromatic hydrocarbon;　toxicity estimation
+作者简介：刘征涛(1965- )，男，江苏江阴市人，副研究员，博士. 
+作者单位：刘征涛（中国环境科学研究院 生态所，北京　100012）　
+参考文献：
+［1］Hansch C,Fujita T J.A method for the correlation of biological activity and chemical structure［J］.J Am Chem Soc,1964,86:1616～1626.
+［2］Taft R W.Progress in physical organic chemistry［S］.New York:John Wiley & Sons Inc,1981.
+［3］Blum D J W,Speece R E.Determining chemical toxicity to aquatic species［J］.Environ Sci technol,1990,24:284.
+［4］Blum D W J,Speece R E.Quantitative structure-activity relationships for chemical toxicity tio environmental bacteria［J］.Ecotoxicol Environ Saf,1991,22:198～224.
+［5］Wiegang C,Pflugmacher S,Giese M,et al.Uptake,Toxicity,and effects on detioxification enzymes of atrazine and trifluoroacetate in embryos of zebrafish［J］.Ecotoxic Environ Saf,2000,45:122～131.
+［6］Briens F,Bureau R,Rault S.Applicability of CATALYST in Ecotoxicology,a new promising tool for 3D-QSAR:study of chlorophenols ［J］.Ecotoxic Environ Saf,1999,43:241～251.
+［7］Kutter E,Hansch C.Steric parameters in drug design［J］.Med Chem,1969,12:647～652.
+［8］Kamlet M J,Doherty R M,Taft R W,et al.,Solubility properties in polymers and biological media［J］.Environ Sci Technol,1987,21:149～155.
+［9］Lyman W J,Reehl W F.Rosenblatt DH.Handbook of chemical property estimation methods［S］.New York:Mc Graw-Hill Press,1982,117.
+［10］Martin Y C,Kutter E.Modern drug research［M］.New York:Marcel Dekker Inc,1989.52～347.
+［11］Heilbronner E,Bock H.The HMO model and its application［S］.London:John Wiley & Sons Inc,1976.
+［12］Kier I B,Hall L H.Molecular connectivity in chemistry and drug research［M］.New York:Academic Press,1976.52～278.
+收稿日期：2000年1月18日
+出版日期：2001年1月30日

@@ -1,0 +1,78 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第1期 Vol.23 No.1 1997
+
+
+
+奇异系统的输出稳定化通过一般状态反馈的可解性
+谭连生　范文涛
+摘　要　讨论了奇异系统的输出稳定化问题，得到了在初始值为容许且不保证闭环正则的情形下，通过一般状态反馈求解此问题的充要条件及计算步骤. 
+关键词　奇异系统，输出稳定化，一般状态反馈，Drazin逆，广义不变子空间. 
+ON THE SOVABILITY OF THE OUTPUT STABILIZATION PROBLEM OF 
+SINGULAR SYSTEMS VIA GENERAL STATE FEEDBACK
+TAN LIANSHENG FAN WENTAO
+(Wuhan Institute of Mathematical Sciences, Academia Sinica, Wuhan 430071, PR CHINA)
+Abstract This paper is devoted to the study of the sovability of the output stabilization problem of singular systems via general state feedback. When the initial values of the singular system are admissible, a sufficient and necessary condition for the sovability of this problem, with no guarantee of the regularity of the closed-loop system, has been proposed. The algorithm for this problem has also been developed.
+Key words singular system, the output stabilization, state feedback, the Drazin inverse, the general invariant subspace.
+1　引言
+　　若X=Rn,U=Rm,Y=Rp，奇异系统
+
+　　式中　E,A: X→X,B: U→X,D: X→Y为线性映射，E为奇异的. E，A满足正则束条件. 
+　　所谓输出稳定化问题，即寻求一般状态反馈u(t)=-Fx(t)使闭环系统
+
+满足　
+　　文［1］率先讨论了脉冲能控奇异系统的输出稳定化问题，文［2］给出了在能量受限情况下达到输出稳定的条件. 文［3］得到了利用MPD反馈［4］来求解的充要条件，但遗憾的是MPD反馈对系统的噪声有放大的作用. 
+2　几点准备
+　　设P1为一可逆矩阵，使
+
+det M≠0,Q为幂零的，记
+
+那么矩阵=P1VP-11称为E的Drazin逆. 
+　　记,注意到若那么Q是k×k矩阵，E为从X到μ的投影，(I-E)为从X到的投影. 
+　　若E，A满足正则束条件，容许控制u(t)∈U为k次连续可微的，那么方程E(t)=Ax(t)+Bu(t)的可能初始点为
+　　(1)
+式中　u(r)(0)为u(t)在t=0处的第r阶导数，方程的解为
+
+　　　(2)
+　　定义1. 　设E，A：X→X,为E的Drazin逆，B: U→X，对于子空间VX，如果存在一个映射F:X→U，使得
+　　　(3)
+则称V为奇异系统Q的广义(A,B) 不变子空间. 把X的(A,B)不变子空间所组成的类表示为(A,B;X),把满足(3)的映射F:X→U所组成的类记为(A,B:X). 
+　　引理1. 设VX,则V∈(A,B;X)的充分必要条件为 (A)VV+Im(B).
+　　定理1. Ker D中包含唯一的一个最大(A, B)不变子空间，记为
+
+3 输出稳定化的可解条件
+　　设表示对应A的最小多项式，记的零点分别在C+,C-(C+,C-分别为闭的右半复平面，开的左半复平面). 记
+
+　　引理2.　若闭环系统QF为正则奇异的，且其初始值为x0=Eq，则其唯一状态解为
+　　　(4)
+　　引理3.　
+　　引理4.　设V是任意满足AVV的子空间，记=X/V，令P：X→X/V是标准投影，记为中诱导映射，那么+()=PX+(A).
+　　定理2.　系统Q输出稳定通过一般状态反馈，可解的充分必要条件为　X+(A)＜A｜Im(B)＞+V*,其中为E的Drazin逆，V*=sup(A,B,Ker D).
+4 算法步骤
+　　1) 计算.
+　　设O是E的重数为l的特征值，非零特征值为λi，重数为ni，i=1,2,…,r,那么m=. 多项式的m个系数αi(i=0～m-1)由
+
+
+
+所决定，从而=P(E).
+　　2) 计算X+(A),＜A｜Im(B)＞,V*=sup(A,B;Ker D).
+　　令=Im Vμ,而V0是DV0=0的一个最大解，又设　Wμ[B,Vμ-1]=0,μ=1,2,…,的最大解为Wμ，而由方程
+
+的最大解得到即经检验有
+
+当=-1时，即rankVμ=rank Vμ-1时，递推结束.
+　　3) 判断
+　　4) 计算F.
+　　先定出,由F1=1P得F1.F0应使W*0(A-BF0)V*=0,由F=F0+F1得到F.
+　　5) 验证闭环正则性.
+作者单位：中国科学院武汉数学物理研究所　武汉　430071
+参考文献：
+　[1]　杨成梧，邹云.脉冲能控广义系统的输出稳定化.控制与决策，1989，1∶44—45.
+　[2]　谭连生.奇异系统能量受限的输出调节通过一般状态反馈的可解性.控制理论与应用，1993，10(6)∶724—727.
+　[3]　杨成梧，邹云.广义系统的输出稳定化通过MPD反馈的可解性.控制理论与应用，1989，6(1)∶43—50.
+　[4]　Zheng Zhou, Mark A. Shayman and Tyzh-Jong Tarn, Sigular Systems:a new approach in the time domain. IEEE Trans. On Automatic Control, 1987, 32(1)∶42—50.
+　[5]　Wonham W M. Linear multivariable control: A geometric approach, 2nd. ed. New York; Springer-Verlag, 1979. 
+　[6]　Tan Liansheng(谭连生).On disturbance localization in singular systems with direct feedthrough. International Journal of SYSTEMS SCIENCE. 1995, 26(11)∶2235—2244.
+收稿日期　1993-04-08
+
+

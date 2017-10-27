@@ -1,0 +1,77 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+界面在钛合金燃烧过程中的作用
+赵永庆　　周　廉　　邓　炬
+
+摘要： 高推重比航空发动机中的钛火在燃烧过程中燃烧界面对钛合金燃烧行为有重要影响。研究结果表明，钛合金燃烧产物与空气的界面及产物内部因膨胀系数、P-B比不同等原因，均严重开裂、多孔，不能阻止燃烧的持续进行。纯钛和TC4合金燃烧产物与基体的界面也如此，而Ti40阻燃钛合金的燃烧产物与基体的界面致密，界面产物是稳定的具有保护作用的Cr2O3，可阻止空气中可燃气体氧向基体内扩散，降低合金的燃烧速度。以此为基础提出了阻燃钛合金的中断氧输送阻燃机理。
+关键词： 阻燃钛合金； 界面； 阻燃机理； 钛合金燃烧
+中图分类号：TV252.4　　　文献标识码：A　　　文章编号：1005-5053(1999)01-0029-05
+
+Role of interface in burn of titanium alloys
+ZHAO Yong-qing　　ZHOU Lian　　DENG Ju
+(Northwest Institute for Nonferrous Metal Research,　P.O.Box 51 Xi′an, Shanxi 710016, Chian)
+Abstract： Titanium fire found in advanced aircraft engines has attracted interesting attentions.Influences of interface on the burning behavior are important.The results reveal that the interface between burning products and air is cracks and porous,which can not retard oxygen diffusion into the matrix and the burn.The interface between burning products and matrix for C.P.Ti and Ti-6-4 is also cracks and porous,however the interface of Ti40 alloy is tenacious,which is in the form of Cr2O3,and this product can retard oxygen diffusion into the matrix and reduces the buning velocity.Thereby burn resistant mechanism of suspending oxygen diffusion is put forward.
+Key words: burn resistant titanium alloys; interface； burn resistant mechanism; titanium burn
+
+　　钛合金因其优异的综合性能在航空领域得到广泛应用，高性能航空发动机中钛火促进了阻燃钛合金的发展。90年代初，美、俄、中相继报道了研制的Alloy C［1，2］，BTT-1/BTT-3［3］及Ti40(Ti-25V-15Cr-0.2Si)［4］和Ti14［5］阻燃钛合金，钛合金的燃烧行为也引起了钛科学工作者的重视，这方面也已有资料报道［6］。在这些报道中均没有涉及钛合金燃烧界面问题，而界面行为是钛合金燃烧机理研究和阻燃机理研究的基础。本文针对常规钛合金及Ti40阻燃钛合金在燃烧过程中的界面行为进行研究。
+1　研究方法
+　　试验用纯钛和TC4合金为工业生产的2mm厚板材，Ti40合金为自制2mm厚板，将3种钛材加工成50mm×5mm×2mm的试样，采用DCSB燃烧法［7］点燃钛合金，即在一定电压、电流条件下，空气中点燃钛合金一定时间(本文中点燃时间均为50s)。燃烧后，用SEM和EDAX研究分析燃烧产物与气体的界面、燃烧产物内部及燃烧产物与基体的界面。
+2　结果与分析
+2.1　燃烧产物与气体的界面及燃烧产物内部
+　　图1为纯钛、TC4和Ti40合金燃烧产物与气体的界面形貌,图2为TC4合金燃烧产物内部形貌。3种钛材的界面均严重开裂，呈多孔疏松状，TC4合金产物内部亦如此。这是因为燃烧产物间的热膨胀系数、P-B值［8］等不同产生了较大内应力所致［6］。经X射线衍射分析表明，纯钛的燃烧产物主要是TiO2；TC4主要是TiO2，Al和V氧化物；Ti40合金主要是TiO2和V的燃烧产物，含有合金元素Cr的Ti40合金产物中并不存在Cr的氧化物［6］。开裂多孔的界面和内部形貌不可能阻碍可燃气体氧向基体内扩散，也就不可能阻止钛合金的燃烧。
+
+图1　纯钛(a)、TC4(b)和Ti40(c)合金燃烧产物与气体的界面形貌
+Fig.1　Interfacial images between burning products and air
+(a)C.P.Ti; (b)TC4; (c)Ti40
+
+图2　TC4合金燃烧产物内部形貌
+Fig.2　Internal images after TC4 burn
+
+　　图3为TC4和Ti40合金燃烧产物与空气界面的半定量EDAX分析结果。TC4的界面主要是Ti,V,Al元素的氧化物，Ti40合金主要是Ti和V元素的氧化物，在Ti40产物界面并不存在合金元素Cr的氧化物，这与X射线衍射分析结果一致。合金元素V和基体Ti在界面及内部的大量反应，有可能引起合金元素Cr的产物在某些区域聚集。
+　　　　　
+图3　TC4(a)和Ti40(b)合金燃烧产物与空气界面的EDAX分析
+Fig.3　EDAX of interface between burning products and air
+(a)TC4； (b)Ti40
+
+2.2　燃烧产物与基体的界面
+　　图4为纯钛、TC4和Ti40合金燃烧产物与基体的界面形貌。纯钛和TC4的界面仍有大量裂纹、多孔疏松，如同燃烧产物与空气的界面，不可能阻碍空气中的氧向基体内扩散，二者的燃烧持续进行，它们的燃烧速度较高(图5)。而Ti40合金的产物与基体的界面是密密麻麻交织在一起的产物，有可能阻止氧向基体内扩散，关键是该物质是否稳定。图6为TC4和Ti40合金燃烧产物与基体界面的EDAX分析结果。TC4的这一界面分析结果如同图3a中界面的分析结果，均为Ti，V，Al的氧化物。而Ti40合金产物与基体界面大量富积Cr，与图3b中界面分析结果明显不同，这富积的Cr以其最稳定的氧化物Cr2O3形式存在。图4中密集的产物就是Cr2O3。Cr2O3在燃烧过程中有保护作用［6］，可阻止氧向基体内扩散，降低合金的燃烧速度(图5)，使合金表现出良好的阻燃性能。由此提出阻燃钛合金的“中断氧输送”阻燃机理［8，9］：钛合金持续燃烧的一个重要条件是空气中的氧持续不断地通过燃烧产物与气体的界面、产物内部和燃烧产物与基体的界面扩散到基体内部，若在燃烧过程中因某些原因产生了某种致密、稳定的物质，阻碍了氧向基体内扩散，阻止燃烧反应的持续进行，降低合金的燃烧速度，可使合金表现出良好的阻燃性能。Ti40合金燃烧过程中产生的Cr2O3就是这样一种产物，使该合金有良好的阻燃性能。
+
+
+图4　纯钛(a)、TC4(b)和Ti40(c)合金燃烧产物与基体的界面形貌
+Fig.4　Interfacial images between burning products and matrix
+(a)C.P.Ti; (b)TC4； (c)Ti40
+
+图5　DCSB法测得的几种钛合金的燃烧速度
+Fig.5　Burning rate of different titanium
+alloys by DCSB method
+
+3　结　论
+　　(1)钛合金燃烧产物与空气的界面及产物内部开裂多孔，不可能阻止空气中的氧向产物内及基体内扩散。
+　　(2)纯钛和TC4合金燃烧产物与基体的界面亦开裂多孔，而Ti40合金燃烧产物与基体的界面是致密、稳定的Cr2O3氧化物，可阻碍氧向基体内扩散，降低合金的燃烧速度，并由此提出阻燃钛合金的中断氧输送阻燃机理。
+　　　　　
+图6　TC4(a)和Ti40(b)合金燃烧产物与基体界面的EDAX分析结果
+Fig.6　EDAX of interface between burning products and matrix
+(a)TC4; (b)Ti40
+注释：基金项目： 国家计委“九五”攻关项目(计国防95-YS-017)
+作者简介： 赵永庆(1966-)， 博士， 研究员
+作者单位：西北有色金属研究院， 西安　710016
+参考文献：
+［1］Eylon D.Issues in the development of beta titanium alloy.JOM,1994(6):14～15
+［2］Boyer R R.An overview on the use of titanium in the aerospace industry.Mater 
+　　　Sci Eng,1996,A213:103～114
+［3］赵永庆，赵香苗，朱康英等.阻燃钛合金.稀有金属材料与工程，1996(5)：1～6
+［4］赵永庆，朱康英，赵香苗.一种含V，Cr和Si的阻燃钛合金.中国专利，97 1 12303.9
+［5］赵永庆，赵香苗，朱康英.一种含Al，Cu和Si的阻燃钛合金.中国专利，97 1 12302.0
+［6］Zhao Y Q,Zhou L,Deng J.Burning behavior and burning morphologies of titanium 
+　　　alloys.In:Zhou L,Eylon D，ed.Proceedings of Xi′an International Titanium 
+　　　Conference.Xi′an,1998.696～701
+［7］赵永庆，周廉，王笑.一种钛合金燃烧速度的检测方法.中国专利.98 1 01281.7
+［8］Zhao Y Q,Zhou L,Deng J.Burn resistant behavior and burn resistant mechanism of 
+　　　Ti40 alloy.In:Zhou L,Eylon D,ed.Proceedings of Xi′an International Titanium 
+　　　Conference,Xi′an ,1998.541～546
+［9］赵永庆，周廉，邓炬.Ti40合金的阻燃机理研究.稀有金属材料与工程，1999(2)
+收稿日期： 1999-01-30

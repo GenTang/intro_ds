@@ -1,0 +1,220 @@
+计算机工程
+COMPUTERENGINEERING
+1999年 第25卷第7期Vol.25No.51999
+
+
+
+TS-232串行通信的实践探讨
+沈红卫
+摘要 串行通信是一种应用非常广泛的通信方式，在计算机系统中有极其重要的作用。但要实现可靠的串行通信，又有相当的困难。针对目前串行通信中存在的一些模棱两可的理论，从实践的角度作了一些有益的探讨。
+关键词 串行通信 实践 RS-232
+The Practical Research on RS-232 Communication
+shen Hongwei
+Electro-mechanic Dept.of Shaoxin Liberal Arts and Science Institute Shaoxin 312000
+Abstract：As one kind of communication mode used in computer systems，RS-232 communication is very important.But it is quite difficult to bring about reliable RS-232 communication .This paper disucusses the problem of how to achieve RS-232 communication based on practical research which is directed against some theory on RS-232 communication.
+Key words：Serial communication；Practce；Rs-232
+　　串行通信作为计算机的一种标准通信接口，用于计算机与计算机(或智能设备)之间的信息交换，具有非常广泛的实际应用价值。
+　　但是在实际的应用开发中，我们发现有关串行通信的有些问题，值得引起进一步的探讨，并从实践的角度加以明确。
+　　下面结合实践认识，从几个方面对串行通信谈谈自己的一些看法。
+1　目前有关串行通信的几个理论误区
+　　有关串行通信的资料，可以说非常多。但在以下几个问题上，普遍存在模糊不清的现象。
+1.1　串行通信的距离问题
+　　绝大多数资料对RS-232-C串行通信标准的通信距离，都认为在无调制解调器的情况下，最大有效距离为30米。然后，在实际应用中，我们发现最大距离可以远远超过此值。例如，我们以2400波特率进行PC机间的点对点串行通信，采用4芯普通非屏蔽网络电缆，在通信距离增加到100米时，仍能可靠通信，而无误码现象。实际上，按照DEC公司的实验，采用屏蔽电缆或非屏蔽电缆时，2400波特率的通信距离分别可达300米及150米。其它波特率时也有类似现象。
+1.2　串行通信的波特率问题
+　　对于标准的波特率，在PC机上的波特率参数已经为标准参数，只要直接使用而不会出现问题。而对于其它智能设备的波特率参数，例如采用以Intel 8031微处理器为内核的系统，波特率参数的确定就必须认真对待，特别是电源管理寄存器PCON中的SMOD位的设置。以6MHz晶振系统为例，要求2400的波特率，由定时器T1工作于方式2(自动重装载方式)产生，则当SMOD取0时，波特率参数整定为：
+X≈249＝0F9H
+　　而当SMOD取1时，波特率参数整定为：
+X≈243＝0F3H
+　　而实际的波特率及相对误差分别为：
+SMOD＝0时，2232.1及7％；
+SMOD＝1时，2403.8及0.16％。
+　　由此可见，当SMOD选0时，波特率相对误差超出了一般认为的正常串行通信允许误差5％的要求，因而不能进行正常通信了。
+1.3　串行通信的握手方式问题
+　　在串行通信中，可以采用硬握手与软握手两种方式，目前较常采用的是软握手的3线制方式，即采用"交叉技术"的TXD、RXD、信号地3条线进行通信。
+　　但是，在软握手方式中，对于采用BIOS调用的串行通信程序设计， 必须对BIOS对串行通信的奇特的握手要求引起高度重视。BIOS对握手信号的要求是：
+　　·调用初始化函数时不需要任何握手信号；
+　　·调用接收函数时要求DTR打开且RTS关闭；
+　　·调用发送函数时则要求DTR和RTS打开，并等待其它设备来设置DSR和CTS；如未收到，则在超时后返回，不执行发送动作。
+　　因此，在采用BIOS调用时，务必使串行口工作于自握手方式，即将DSR与DTR短接，RTS与CTS短接；否则，不能进行正常串行通信。
+2　串行通信的实现
+2.1　在DOS环境下的串行通信实现
+　　DOS环境可以自由驾驭硬件，因此最适合于测控系统。在DOS环境下，采用汇编语言直接对串行端口操作的程序，一般比较容易实现。然后，在采用TC的BIOS函数调用时，往往由于上面所述原因，而难以实现。
+　　下面的串行查询发送程序采用TC2.0编写并调试通过。
+　　#include"stdio.h"
+　　#include"bios.h"
+　　#include"dos.h"
+　　main(int argc,char*argv[])
+　　{FILE *fp;
+　　char ch1,ljh=0,len=0,count=2;/*通信失败时允许重试一次*/
+　　unsigned char ch;
+　　unsigned int i,j,k;
+　　int status;
+　　if(argc<2)
+　　{　　printf("\nUsage:send file.ext\n");
+　　exit(0);
+　　}
+　　/*下面的4条语句将串口初始化为2400波特率,8位数据,无校验,1停止位*/
+　　outportb(0x2fb,0x80);
+　　outportb(0x2f8,0x30);
+　　outportb(0x2f9,0x00);
+　　outportb(0x2fb,0x03);
+　　/*上述4条语句可用BIOSCOM(0,0XA3,1);BIOS初始化函数代替*/
+　　ch=0xaa;/*开始串行通信命令软握手字节*/
+　　do ch1=inportb(0x2fd);
+　　while((ch1&0x20)!=0x20);/*查询发送寄存器为空否*/
+　　outportb(0x2f8,ch); /*为空,则发送 */
+　　/*注意:上述发送语句如果要改用BIOSCOM(1,ch,1)函数进行发送,则务必要使串口工作于自握手方式;否则,无法通信.接收亦然*/
+　　do ch1=inportb(0x2fd);
+　　while((ch1&0x01)!=0x01);/*等待从机应答*/
+　　ch=inportb(0x2f8);
+　　if(ch==0xaa)/*应答正确否*/
+ll:　　{/*应答正确,则将指定文件中的18字节发送出去 */
+　　if((fp=fopen(argv[1],"rb"))==NULL)
+　　{　　printf("cannot open this file.\n");
+　　exit();
+　}
+　　fread(&ch,1,1,fp);
+　　while(len<18)
+　　{　　do ch1=inportb(0x2fd);
+　　while((ch1&0x20)!=0x20);
+　　outportb(0x2f8,ch);
+　　ljh+=ch;/*求累加和(校验用)*/
+　　len++;
+　　fread(&ch,1,1,fp);
+　}
+　　fclose(fp);
+　　do ch1=inportb(0x2fd);
+　　while((ch1&0x01)!=0x01);
+　　ch=inportb(0x2f8);/*接收从机发来的累加和*/S　　if(ch==ljh)
+　　{/*正确,则回送正确标志字节0X00*/
+　　for(j=0;j<1000;j++)
+　　for(i=0;i<30000;i++) ;/*延时以等待从机
+　　接发切换*/
+　　ch=0x00;
+　　do ch1=inportb(0x2fd);
+　　while((ch1&0x20)!=0x20);
+　　outportb(0x2f8,ch);
+　　for(j=0;j<30;j++)
+　　for(i=0;i<30000;i++) ;
+　　printf("\n");
+　　printf("OK");
+　　exit();
+　　}
+else/*不正确,则回送错误标志字节0XFF*/
+　　{　　for(j=0;j<1000;j++)
+　　for(i=0;i<30000;i++) ;
+　　ch=0xff;
+　　do ch1=inportb(0x2fd);
+　　while((ch1&0x20)!=0x20);
+　　outportb(0x2f8,ch);
+　　for(j=0;j<30;j++)
+　　for(i=0;i<30000;i++) ;
+　　ljh=0;
+　　--count;
+　　if(count)goto　ll;/*再试一次*/
+　　else printf("\nFailure in communication.\n");
+　　}
+　}
+}
+2.2　在Windows环境下的串行通信实现
+　　Windows 95下的串行通信实现一般有3种方式：
+　　(1)利用Windows的API接口函数；
+　　(2)对于RAD开发系统(如VB等)，可利用ActiveX控件；
+　　(3)利用DLL动态链接库直接操作串行端口。
+　　3种方式各有特点，我们采用第三种方式实现了Windows 95环境下可靠的串行通信，这种方式的特点是应用灵活，简便。
+　　下面是基于Delphi 4.0的用于串行通信的DLL程序：
+　　library Mycomdll;
+　　uses
+　　SysUtils,
+　　Classes;
+　　Const
+　　COM1=$3f8;{定义串口字符常量}
+　　COM2=$2F8;
+　　Var
+　　COM:Word;{DLL中全局变量}
+　　Procedure Outb(Const Port:Word;Const Dbyte:Byte);pascal;
+　　Begin
+　　Asm
+　　MOV　DX,Port
+　　MOV　AL,Dbyte
+　　OUT　DX,AL
+　　End;
+　End;
+Function Inb(Const Port:Word):Byte;pascal;
+　Begin
+　　Asm
+　　MOV　DX,Port
+　　IN　AL,DX
+　　MOV　@Result,AL
+　　End;
+　End;
+　　{串行口初始化,COM1,COM2可选,波特率2400,4800可选}
+　　Procedure CommInit(CONST Port:Byte；CONST Baud：String)；Stdcall；
+　　Var
+　　BAUDL，BAUDH:Byte；
+　　Begin
+　　if Port=1 then
+　　COM:=COM1
+　　else
+　　COM:=COM2;
+　　if BAUD='2400'then
+　　Begin
+　　BAUDL:=$30;
+　　BAUDH:=$00;
+　　End
+　　else
+　　Begin
+　　BAUDL:=$18;
+　　BAUDH:=$00;
+　　End;
+　　Outb(COM+3,$80);{设置波特率因子}
+　　Outb(COM,BAUDL);
+　　Outb(COM+1,BAUDH);
+　　Outb(COM+3,$03)；{8位数据，1停止位，无校验}
+　　End;
+　　{发送一字节}
+　　Procedure SendByte(Const Dbyte:Byte);Stdcall;
+　　Var
+　　Status:Byte;
+　　Begin
+　　Repeat
+　　Status:=Inb(COM+5);
+　　until((Status and $20)=$20);
+　　Outb(COM,Dbyte);
+　　End;
+　　{接收一字节}
+　　Function ReceiveByte:Byte;Stdcall;
+　　Var
+　　Status,Res:Byte;
+　　Begin
+　　Repeat
+　　Status:=Inb(COM+5);
+　　Until((Status and $01)=$01);
+　　res:=Inb(COM);
+　　ReceiveByte:=Res;
+　　End;
+　　{以下用EXPORTS引出输出过程或函数}
+　　Exports CommInit;
+　　Exports SendByte;
+　　Exports ReceiveByte;
+　　begin
+　　end.
+2.3　多机通信的实现
+　　多机通信一般采用主从方式，一方为主，其它为从，然后再按照统一的通信协议进行有序通信。基于这种情况，图1给出了一种针对目前有关资料类似线路经简化改进的实用接口方法：
+
+图1　改进的实用接口
+　　注意，每个从机的发送脚TXD必须通过开关二极管4148再挂接到主机的接收线上，否则，会引起信号冲突，影响正常通信，并可能导致串口损坏。
+2.4　串行通信程序的简单调试
+　　串行通信程序的调试相对来说，是比较麻烦的。一般可以采用以下步骤：
+　　(1)检查连线正确否。在三线制方式中，要注意"交叉"问题；如采用BIOS调用接发数据， 则要进一步注意握手信号的正确连接。
+　　(2)简单地用逻辑笔检查发接信号的有无(注意逻辑笔只能检查TTL信号， 因此，检查点一般为经MAX232等接口芯片转换后的TXD、RXD)；
+　　(3)在确认有接发信号的前提下，如果接发数据不正常，则重点应检查通信协议一致否。例如，波特率的设置，奇偶校验否，停止位数，通信的应答等。
+　　(4)在只有单机的情况下的串口程序调试，可采用将串口的TXD与RXD直接相连的办法，简单方便。
+3　结束语
+　　以上管见，仅是本人在多年的串行通信实践中的一些体会。希望能起点抛砖引玉的作用，使同行们在有关串行通信的应用研究中，不至于"人云亦云"，从而少走一点弯路。 
+作者简介：沈红卫 男，33岁，讲师，主要从事计算机控制及应用方面的教学与科研工作
+作者单位：绍兴文理学院机电系 绍兴 312000
+参考文献
+1　徐新华.DELPHI 3编程指南(上编).北京：宇航出版社，1998-06
+2　陈汝全、刘运国、雷国君.单片机实用技术.北京：电子出版社，1992-03
+收稿日期：1998-02-02

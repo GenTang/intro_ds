@@ -1,0 +1,80 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年4月第18卷第4期科技期刊
+农药降解方程y=ae-kt参数估计的一种方法
+王增辉　王蕴波　窦　森　贾红震
+(吉林农业大学基础科学系，长春　130118)
+
+关键词　降解方程，参数估计.
+A METHOD FOR PARAMETER ESTIMATION OF A PESTICIDES DEGRADATION EQUATION
+
+Wang Zenghui, Wang Yunbo, Dou Sen，Jia Hangzhen
+(Department of Theoretical Sciences, Jilin Agricultureal University, Changchun 130118)
+
+ABSTRACT　A method for parameter estimation of pesticides degradation equation Y=ae-kt is presented. The results was applied to a case study.
+Keywords　degradation eqation, parameter estimation, pesticides.
+1　前言
+　　在农药的降解规律研究中，一般都认为，农药在土壤中、植物上的消失，可用一级反应动力学公式来表示［1］，即在不考虑其它因素的条件下，农药的消失速度与该农药现存的浓度成正比，即满足微分方程
+
+(1)
+式中，y为农药在t时刻的浓度，t为施药时间，k为农药降解速度常数，a为浓药在t=0时的浓度(初始浓度).
+
+　　解微分方程(1)可得
+y=ae-kt
+(2)
+对式(2)中的参数a与k的估计方法，一般是先对式(2)两端取自然对数得
+lny=lna-kt
+再在上式中令Y=lny,A=lna,B=-k,X=t,将式(2)化为线性模型
+Y=A+BX
+(3)
+然后应用最小二乘法估计(3)中的A与B，其估计公式为
+
+(4)
+最后由A=lna、B=-k可求出a=e\+A,k=-B，我们称这种方法为最小二乘法.
+
+　　在用最小二乘法估计参数a与k时，由于采用了变换Y=lny，这时等方差假设已不成立，因而由式(4)估计出的参数A与B只是模型(3)的最小二乘逼近，也就是说只是变换后的新变量Y与X的最小二乘逼近.由此而求出的a(a=eA)与k(k=-B)并不是农药降解方程y=ae-kt的最小二乘逼近，也失去了“误差平方和达到最小”的意义.因此由最小二乘法求出的农药降解方程，有时误差很大.本文给出了参数估计的一种加权最小二乘法，实例分析表明，这种方法的精度明显高于最小二乘法.
+
+2　原理与方法
+　　下面讨论一般情形(不重复试验)和重复试验情形的参数估计问题.
+2.1　一般情形
+　　设农药降解方程为
+y=ae-kt
+(5)
+并设时刻ti对应的农药浓度为yi，则这n对数据的结构式为
+yi=ae-kti+εi(i=1,2,…,n)，εi～N(0，σ2)
+　　对式(5)两端取自然对数并令Y=lny,A=lna,B=-k,X=t,则式(5)化为
+Y=A+BX
+(6)
+式(6)对应的数学模型为
+Yi=A+BXi+εi(i=1,2,…,n)
+(7)
+　　经过变量代换后的新变量Y的误差项(Yi-i)(Yi=A+BXi)在不同的Yi处，相同的偏离转换到原变量yi处，将产生不同的偏差.应用最小二乘法估计式(6)中的A、B时并没有考虑这种偏差的影响，为克服上述弊端，我们采用加权最小二乘法来估计式(6)中的A与B.文献［2］、［3］证明了这种偏差的大小与变换函数在Yi处的变化率(导数)(dy/dY)i=yi成正比，因此我们将这一值(dy/dY)i=yi对每一误差项加权，则误差平方和为
+
+(8)
+现求A、B使式(8)达到最小值，由多元函数极值原理可求出A、B为
+
+(9)
+由式(9)求出A、B后，再由变换的逆变换可求出a=e\+A,k=-B，从而可求出农药降解方程.
+
+　　由式(9)可以看出，当权(dy/dY)i=yi=1时，式(9)就是公式(4)，所以，最小二乘法是加权最小二乘法权为1时的特殊情况.
+2.2　重复试验情形
+　　设在ti(i=1,2,…,n)时刻做了mi次重复试验，在ti时刻的第j次测得的农药浓度为yij(j=1,2,…,mi)，则这m1+m2+…+mn个数据yij的结构式为
+yij=ae-kti+εij (i=1,2,…,n;j=1,2,…,mi)，εij～N(0,σ2).
+　　重复2.1节的过程，可将式(5)化为
+Y=A+BX
+对应的数学模型为
+Yij=A+BXi+εij(i=1,2,…,n;j=1,2,…,mi)
+式中，Yij=lnyij,A=lna,B=-k,Xi=ti.
+　　同样的理由，我们将值(dy/dY)i=对新变量Y的每一个误差项(Yij-i)(Y　^i=A+BXi)加权，则误差平方和为
+
+(10)
+现求A、B使式(10)达到最小值，由多元函数的极值原理可求出
+
+(11)
+式中式(11)就是重复试验情形参数A与B的加权估计公式.
+　　作者经多例验证这种参数估计方法的精度比最小二乘法的精度高得多.限于篇幅本文略去实例.
+参考文献
+　1　Robert Gould. Organic pesticides in the enironment. Washington D.C: American Chem Soc Pub, 1966:122—131
+　2　李鸿仪.线性回归中变量代换对回归精度的影响及其消除.数学的实践与认识，1994，24(3)：44—49
+　3 汤振民.非线性回归线性化处理中的加权.数理统计与管理，1988，(2)：41—47
+　4 王增辉.等重复数据的非线性加权回归.生物数学学报，1997，12，(4)：312—315

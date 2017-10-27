@@ -1,0 +1,81 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+天津汉沽生物稳定塘藻类群落变化与污水净化*
+高玉荣　许木启
+摘要　汉沽生物稳定塘建成后的藻类调查结果表明，随污水的净化，藻类的群落结构发生了明显变化.从入水口至生态塘出口，藻类的种类数、种类多样性指数d值不断上升，出水口平均达26.8种，累积达56种；d值平均为1.42；优势种由耐污种逐渐变为中污种；藻类的数量随污染物浓度的下降而上升，平均为41155.6×104个/L.水中的SS、BOD5、COD、NH3-N、PO4-P等的浓度与藻类的种类数呈直线相关，与藻类的数量呈曲线关系，其关系可用一元二次方程表达，其中藻类数量与PO4-P浓度关系曲线拟合度最好.
+关键词　藻类；稳定塘；污水净化；水质.
+Relationship between the variation of phytoplanktonic community and the self-purification efficiency in Hangu stablization ponds
+GAO Yurong XU Muqi (Institute of Zoology,Chinese Academy of Sciences, Beijing 100080)
+Abstract　The investigations into the spatial and temporal distribution of phytoplanktonic species and the change of community structures in the Hangu multiple-cell stabilization ponds were carried out during 1995-1997.Water quality of ponds was assesed by studying the algal communities qualitatively and quantitatively. The results showed that the variation in algal community structures was strongly related to water quality in the different grades of pond. Six sampling stations from first pond (input) to last one (output) were distinguishable in terms of showing difference in the species richness, individual abundance and diversity index and the like. First pond with the highest concentration of COD, BOD\-5,N and P as well as other pollutants was found that there was a few species richness and low diversity index in comparison with other ponds. Water quality in the last pond (also as an ecological pond) was obviously improved due to the self-purification and this was shown by dramatic increase in the number of species and diversity index as well as great decrease in the tolerant population's quantity. Averagely,alagal community parameters in the ecological pond (last pond) changed with the following ranges:56 species of algal, 1.42 value of diversity index and 41155.6×104/L of individual quantity. The number of algal species was well correlated with the concentrations of SS, BOD5,COD,NH3-N and PO4-P in the water. The algal quantity could be expressed by such equation as logY=a+bX-cX2.
+Keywords　algal,stabilization,purification,water quality.
+　　天津汉沽区海盐化工工业比较发达，其次为石油、印染、酿造、造纸、农药等，因此化工废水量较多，其成分复杂，毒性大，废水中CODCr、BOD5、Cl-、Hg2+、TP、TN等指标均较高.原汉沽污水库氧化塘(总水面积297×104m2，水深1m左右，日接纳汉沽工业废水和生活污水约1.5×104t)，虽有一定净化能力，但效率不高，而且不稳定，加之管理不善，污泥淤积，库容量日趋减少，远不能适应随工业发展污水量逐年剧增的需要.天津汉沽生物稳定塘是按照本课题组近十年来对汉沽污水库的野外调查和室内模拟试验所提供的基础数据和设计参数［1］于1993年在汉沽污水库的基础上改造建成、1995年正式投入运行的多级生物稳定塘系统污水净化示范工程.设计日处理汉沽含盐化工废水和生活污水5×104t.该稳定塘系统的建成，对于更有效地处理汉沽工业废水及生活污水，提高蓟运河口及渤海湾水体质量，保护天津市及渤海湾生态环境，实现汉沽污水无害化、资源化将发挥十分重要作用.作者于1995—1997年较系统地研究了汉沽生物稳定塘的藻类生态学特征及其与水质的相互关系，以评价该系统的污水净化效果并分析其影响因素，为实现沿海典型化工废水无害化和综合利用提供科学依据.
+1　材料与方法
+　　污水由入水口经2个沉淀地、2个厌氧塘、6个兼性塘后进入生态塘，最后由蓟运河口入渤海湾.调查期间在生物稳定塘内设6个采样点(图1)，于1995—1997年间进行了9次理化指标测定和4次生物调查.
+
+
+图1　汉沽生物稳定塘采样示意图
+Fig.1 Sampling sites of Hangu stabilization pond
+　　藻类定量样品以采水器取1000mL水样，碘液固定，浓缩为30mL，以属为单位计数.定性样品用25号浮游生物网捞取，碘液固定后进行属种鉴定［2］.Margalef多样性指数公式［3］为：d=(S-1)/lnN，其中S为属数，N为个体总数.
+2　结果与讨论
+2.1　稳定塘主要水质指标变化
+　　从表1可看出，汉沽生物稳定塘具有比较高的净化能力.各种主要污染物均随流程的延长在各级塘中均得到有效的削减.其中，从入水口至生态塘，SS去除率达75.54%，BOD5、和CODCr的去除率分别为97.69%和87.91%，氨氮和磷酸盐分别去除了85.64%和97.36%.DO上升较快，表明水质得到明显的改善.
+表1　生物稳定塘主要水质指标变化(1995—1997)(mg/L)
+Talbe 1 Variations of main pollutants in the Hangu stabilization pond
+
+项目入水口沉淀池厌氧塘兼性塘4号兼性塘6号生态塘
+SS204.4181.4173.3101.968.850.0
+BOD5546.4450.9339.2207.075.612.6
+CODCr966.1786.3707.3409.6288.5116.8
+NH3-N28.1324.9622.6715.5611.184.04
+PO4-P13.319.028.527.144.320.36
+DO0.51.31.02.96.57.4
+
+　　注：表中数据为9次测定的平均值，为各塘出水口含量
+2.2　藻类的种类变化
+　　污水入口处藻类种类极少，其中在1995年10月和1996年6月两次采集未发现藻类生存，4次采集平均仅有3.7属4.3种.随着污水流程的延长，污水得到自然净化，藻类种类数逐渐增多，流至生态塘出口种类平均增加至22.5属36.8种，藻类累积达45属56种(图2).
+
+
+图2　汉沽生物稳定塘藻类种类数和多样性指数(d值)
+Fig.2 Variation of algal species number and divevsity index (d) in Hangu stabilization pond
+　　生物稳定塘运行的第一年，水体藻类种类变化最明显，1995年10月调查时，入水口无藻类生存.表明入塘污水毒性很大，向下游，随流程和净化时间的延长，藻类出现并逐渐增多，污水流至生态塘出口藻类增加至32属37种之多，明显体现汉沽生物稳定塘具有明显的净化效果.一般情况下，随温度的下降，有机物的分解速率降低，污水净化效果有所降低，而当1996年1月调查时，水面结有20cm以上的冰，但生态塘出水口藻类仍达23属29种，略低于水温最适合藻类生长的秋季(水温27℃左右)，表明即使在严寒的冬季，汉沽生物稳定塘仍具有良好的净化效果.通常情况下，在一定的温度范围内，随温度的升高，污水自净能力增强，夏季比冬季净化效果要好.但在汉沽稳定塘，自1996年春季开始，污水量明显加大.高出设计能力几倍，甚至有时高达10倍的排放量，随污水负荷量增加，净化效果下降 ，特别是新建造纸厂废水的排入，净化能力明显降低，1996年6月调查时，水温虽在藻类生长范围(25℃)，藻类受到明显抑制，不但污水入口无藻类生存，直到生态塘出口，藻类也仅有14属17种，表明生物稳定塘由于大量造纸废水的加入及超负荷的运转，使其生态系统结构和功能受到严重破坏.当污水(原排入的污水及造纸废水)停止排入，稳定塘停止运转半年后，1997年春季调查时，塘中贮存的污水由于自然净化，毒性有所下降，生态塘出水口藻类增至20属23种，表明生物稳定塘净化功能有所恢复，但仍未恢复到1996年同期的净化水平，更不及运行初期的净化能力，与模拟实验所提供的设计指标要求有较大的差距*.
+　　从藻类组成看，从入水口至生态塘出水口也有所变化，污水入口处耐污种如：湖泊鞘丝藻(Lyngbya limnetica)、蛋白核小球藻(Chlorella pyrenoidosa)、线行粘杆藻(Gloeothece linearis)、莱因衣藻(Chlamydomonas reinhardi)等为优势种；到生态塘出水中，韦斯藻(Wkelatonema costatum)、微小色球藻(Chroococcus minutus)、银灰平裂藻(Merismopedia glauca)、刚毛根管藻(Rhizosolenia setigera)等广布种占了优势，藻类的优势种变化反映了水体净化的趋势［3—9］.另外，由于蒸发及其理化作用，污水中氧化物随流程的延长逐渐升高，到生态塘出水口除淡水藻类及广盐性藻类外，还出现了一些咸淡水及海水种类，如：中肋骨条藻(Skelatonema costatum)、牟勒氏角刺藻(Chaetoceros muelleri)及翼根管藻(Rhizosolenia alata)等种类.
+2.3　藻类的数量变化
+　　入水口污水的毒性大，对藻类产生了严重的抑制作用，4次调查中仅有两次采到藻类，也只在表层分布，平均有35.2×104个/L.随着净化功能的加强，污染物的毒性下降，水体中营养盐的升高，藻类数量急剧上升.到4号兼性塘藻类数量最高，平均为41155.6×104个/L，1995年10月最高达81680.1×104个/L.向下游，随净化时间的延长及营养盐的消耗，藻类数量逐渐下降，生态塘出水口平均降至7416.8×104个/L，藻类数量的变化也同样反映出各级塘水质的净化趋势(图3)，但从藻类数量比较分析，经多级净化后的出水水质富营养化程度仍较高［10，11］.
+
+
+图3　汉沽生物稳定塘藻类数量变化
+Fig.3 Variations of main pollutants in the Hangu stabilization pond
+2.4　种类多样性指数变化
+　　Margalef多样性指数计算结果与种类变化一致.污水入口处d值极低，平均仅为0.24.稳定塘停止运转6个月，1997年1月调查时入水口d值也只有0.68，污水流经沉淀池、厌氧塘、兼性塘后，d值逐渐上升，到达生态塘出水口d值平均增至1.34(图2).d值的变化同样表明污水从多污程度降至中污程度，如按原设计标准运行，不增大污水负荷量，又无新建造纸废水进入，种类多样性指数d值会更高.
+2.5　藻类与几个环境因素的关系
+　　藻类的种类数随水体中SS、BOD5、CODCr、NH3-N、PO4-P(mg/L)含量的下降而上升，相关分析的结果呈显著正相关关系；随DO含量的上升而上升，呈显著正相关关系，其关系式如下：
+　　　　　　　　Y种类数=87.4655-15.4924lnXSS r=-0.9867,n=6
+　　　　　　　　Y种类数=43.7380-5.7397lnXBOD5 r=-0.9451,n=6
+　　　　　　　　Y种类数=79.0699-10.5814lnXCODCr r=-0.9135,n=6
+　　　　　　　　Y种类数=44.8543-11.1753lnXNH3-N r=-0.9335,n=6
+　　　　　　　　Y种类数=28.2048-1.9095lnXPO4-P r=-0.9701,n=6
+　　　　　　　　Y种类数=5.2330+2.8751lnXDO r=-0.9853,n=6
+　　藻类的数量随水体BOD5、COD、SS、NH3-N、PO4-P(mg/L)浓度的下降而上升，当达到一定程度时，由于营养盐的大量消耗，藻类生长受到影响，数量有所下降.经相关性分析，藻类数量与上述指标呈曲线关系(抛物线)，经检验，藻类数量与PO4-P(mg/L)含量关系曲线拟合度最好，而与其它几个环境指标关系曲线拟合度稍差些.藻类数量(×104个/L)与PO4-P(mg/L)含量关系式为：logY数量=3.4731+0.4214XPO4-P-0.0430X2PO4-P,n=6,R2=0.890＞R2(2,3)0.05
+3　小结
+　　调查结果表明，汉沽生物稳定塘污水净化过程中，随流程的延长，几个塘的污水得到有效的净化，几种主要污染物含理均明显下降.藻类从无到有，从少到多，藻类的数量、种类数、种类多样性指数逐塘上升.藻类的种类数与水体中BOD5、CODCr、SS、NH3-N、PO4-P、DO(mg/L)含量呈直线相关，耐污种逐渐被中污种所取代.当藻类的数量上升到一定程度时，由于营养盐的迅速下降，藻类数量随之降低.藻类数量与几个主要污染物含量呈曲线关系，藻类数量与PO4-P浓度关系曲线拟合度最好，表明污水净化的后期阶段，PO4-P浓度是藻类生长的限制因子.
+　　虽然汉沽生物稳定塘具有较强的净化效果，但是从入水口水质与我们氧化塘改造的模拟实验的第5级出水水质比较，主要污染物浓度仍然偏高，藻类种类数和d值明显偏低.这主要是超负荷运转及新建造纸厂高浓度废水排入所至.因此，严格控制污水入库量，新建造纸厂废水必先厂内治理，到达外排标准时方可排入氧化塘系统，保持和提高汉沽生物稳定塘的净化效能成为目前急待解决的问题.
+*本研究为中国科学院重点项目‘汉沽城市污水生物整治与利用途径研究’(6-152111-06)中的子课题
+作者单位:中国科学院动物研究所，北京　100080
+参考文献
+1　赵忠宪，高玉荣，曹宏.藻类-卤虫-对虾系统深度处理含盐化工废水的模拟实验研究.环境科学学报，1995，15(3)：347—353
+2　章宗涉，黄翔飞.淡水浮游生物研究法.北京：科学出版社.1991.333—337
+3　Margalef R.Diversity and stability in ecological systems.Brookhaven Symp Biol,1969,22:25—27
+4　Alabaster john S(ed).Biological monitoring of miand fisheries Applied Science(1th).London.1976.151—194
+5　Villegas I,Giner J D.Phytoplankton as a biological indicator of water quality. Wat Res,1973,7(3):479—487
+6　Gunale V R.Algal communities as indicators of pollution.J Environ Biol,1991,12:223—232
+7　高玉荣.京津地区主要河流浮游植物群落结构特征与河流质量的研究.中国环境科学，1992，(3)：203—209
+8 Xu Muqi,Gao Yurong,Ma Mei et al.The relationship between the changes of plankton structure and the metal pollution in lean River. China Environmental Science,1994,5(2):172—176
+9　沈蕴芬，章宗涉，龚循矩等.微型生物监测新技术.北京：中国建筑工业出版社.1990，100—148
+10 金相灿，刘鸿亮，屠清瑛等.中国湖泊富营养化.北京：环境科学出版社.1990.103—613
+11 大连水产学院.淡水生物学(下册).北京：农业出版社.1982.156—216
+1998-04-10收到原稿
+1998-07-31收到修改稿

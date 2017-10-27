@@ -1,0 +1,40 @@
+环境科学研究
+RESEARCH OF ENVIRONMENTAL SCIENCES
+2001 Vol.14 No.3 P.1-3
+
+
+
+
+有机烷酚类化合物致突变性研究
+刘征涛　 徐静波　 杨丽　 张颖　 
+摘　要：采用鼠伤寒沙门氏菌致突变试验(AmesTest)菌株TA97，TA98，TA100，TA102，对环境中潜在内分泌激素干扰污染物甲基苯酚等12种烷酚类有机物的致突变性进行研究。结果表明，除2，4-二氯苯酚外，烷酚类化合物对Ames试验中TA98菌株的平皿掺入试验，均诱发显示阳性反应；其中对壬基酚、2，6-二甲基苯酚、4-辛基酚等烷基酚类化合物呈强阳性反应，怀疑这几种化合物具有强致突变性，且以碱基移码型突变为主。
+关键词：烷酚类化合物；　Ames试验；致突变性
+分类号：X503.2　文献标识码：A
+文章编号：1001-6929(2001)03-0001-03
+Mutation Effect of Alkyl-hydroxybenzene
+LIU Zheng-tao（Institute of Ecology,Chinese Research Academy of Environmental Sciences, Beijing 100012, China）　
+XU Jing-bo（Department of Environmental Sciences, Northeast Normal University, Changchun 130024, China）　
+ZHANG Ying（Department of Environmental Sciences, Northeast Normal University, Changchun 130024, China）　
+YANG Li（Department of Environmental Sciences, Northeast Normal University, Changchun 130024, China）　
+
+Abstract：The mutation toxicity of the environmental potential endocrine disturbances Alkyl-hydroxybenzenes has been investigated with Ames test by using the TA97,TA98,TA100 and TA102.The result shows that,except the 2,4-dichlorphenol,the test chemicals such as dimethylphenol,p-ethylphenol,4-octanylphenol,nonylphenol,and some chlorophenols have positive responses on the TA98,and the main type of gene mutation is base-pair frame-shift.
+Keywords：Alkyl-hydroxybenzenes; Ames test; mutation effect
+
+基金项目：国家自然科学基金资助项目(29977020)
+作者简介：刘征涛(1965-)，男，江苏江阴市人，副研究员，博士. 
+作者单位：刘征涛（中国环境科学研究院生态所，北京 100012）　
+　　　　　徐静波（东北师范大学环境科学系，吉林长春 130024）　
+　　　　　杨丽（东北师范大学环境科学系，吉林长春 130024）　
+　　　　　张颖（东北师范大学环境科学系，吉林长春 130024）　
+
+参考文献：
+［1］Gronen S,Denslow N,Manning S,et al.Serum vitellogenin levels and reproductive impairment of male Japanese medaka exposed to 4-tert-octylphenol[J].Environmental Health Perspectives,1999,107(5):385～390.
+［2］Ames B N,Mc Cann J,Yama Saki E. Methods for detecting carcinogens with the salmonella/manmalian\|microsome mutagenicity test [J].Mutation Research,1975,31:347～364.
+［3］Maron D M,Ames B N.Revised methods for the salmonella mutagenicity test[J].Mutation Research,1983,113:173～215.
+［4］Tyler C R,Jobling S,Sumpter J P.Endocrine disruption in wildlife:a critical review of the evidence [J].Critical Reviews in Toxicology,1998,28(4):319～361.
+［5］黄幸纾,陈星若.环境化学物致突变致畸致癌试验方法[M].杭州：浙江科学技术出版社,1985.13～52.
+［6］Scott G K,Kushner P,Vignne J L,et al.Truncated forms of DNA\|binding estrogen receptors in human breast cancer[J].J Clin Invest,1991,88:700～706.
+［7］Sumpter J P,Jobling S.Vitellogenesis as a biomarker for estrogrnic contamination of the aquatic environment [J].Environmental Health Perspectives,1995,103(7):173～178.
+
+收稿日期：2000年11月20日
+出版日期：2001年5月30日

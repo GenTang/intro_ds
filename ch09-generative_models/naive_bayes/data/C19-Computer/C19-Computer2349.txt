@@ -1,0 +1,153 @@
+动物分类学报
+ACTA ZOOTAXONOMICA SINICA
+1999年 第24卷 第3期 Vol.24 No.3 1999
+
+
+
+软件理解研究与进展
+李必信　郑国梁　李宣东　张勇翔　梁　佳
+摘　要　软件理解是进行软件维护的一个重要步骤，是一个逐层推进的递增模式匹配过程.软件理解由任务、策略、概念、模型、方法和工具(环境)等环节组成.文中分析了软件理解的任务和策略，对软件理解的各种模型进行了比较，详细论述了目前活跃在学术界的各种软件理解方法，并对目前存在的各种软件理解工具或环境进行了归类和比较.文中还简单介绍了我们在面向对象软件理解方面所取得的一些进展.
+关键词　软件理解，基本因素， 程序切片，概念分析，模式匹配，OOAF
+中图法分类号　TP311.5
+THE RESEARCH AND DEVELOPMENT OF SOFTWARE COMPREHENSION
+LI Bi-Xin, ZHENG Guo-Ling, LI Xuan-Dong, ZHANG Yong-Xiang, and LIANG Jia
+(Department of Computer Science & Technology, Nanjing University, Nanjing 210093)
+(State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210093)
+Abstract　Software comprehension is an important step of software maintenance, and it is regarded as an increasing pattern matching process from one level to another. First, in this paper, the-state-of-the-art and development directions of basic factors of software comprehension are systematically studied, i.e., concepts and models are compared, tasks and strategies are analyzed, objects are discussed, environments and tools are classified，and all kinds of software comprehension methods are analyzed. Then, the progress made in object-oriented software comprehension is also discussed. Finally, some good conclusions are given, and future work is also presented. 
+Key words　software comprehension, basic factor, program slicing, concept analysis, pattern matching, OOAF
+1　前　言
+　　随着社会对软件需求的不断增长，正在使用和开发的软件与日剧增，许多大型复杂的软件已投放市场.软件维护问题已成为当前软件产业面临的重要课题.首先，由于还未研制出实际可用的软件确认技术，软件投入使用后修改错误不可避免；其次，软件所处的环境和用户的要求经常变更，需要不断修改使其扩充功能和适应环境；第三，目前的软件生产技术还没有达到人们期望的程度，必须充分利用和改造现有软件以满足用户新的要求；第四，为了改进软件未来的易维护性和可靠性，或为了给未来的改进奠定更好的基础.因此，软件维护问题已引起人们的普遍关注.软件投入使用后，对其进行纠错、扩充和完善的活动就称软件维护.软件维护是分析、理解、修改、重新确认的过程.分析和理解程序是维护工作的第一步，能否准确、迅速、全面地理解程序是决定维护工作成败的关键.软件理解就是通过一定的设施和方法来弄清一个程序是“做什么” 以及“如何做”，软件理解一般有以下4项任务：识别程序单位、跟踪控制流、跟踪数据流、综合程序逻辑.软件理解的研究一般可分为以下4类：第1类研究从70年代开始,目前仍在继续.它的特点是尽量做到程序隐含信息的显示表示及程序内部关系的可视化.如控制流和数据流分析，各种程序视图的构造等；第2类的研究开始于70年代后期，大量的研究主要集中在80年代和90年代.它的特点是从源代码中提取信息，并存放在通用的数据库中，然后通过查询语言对数据库进行查询；第3类研究开始于80年代后期.其特点是采用知识推理等技术识别程序概念；第4类研究开始于90年代初，这类研究的特点是采用模式匹配、程序变换等技术识别程序的高层概念，如标准算法、数据结构、语法及语义匹配等.本文第2～6节分别讨论了软件理解的任务、策略、模型、方法和工具(环境)等的现状和进展情况；第7节简单地介绍了我们在面向对象软件理解方面所取得的一些进展；第8节通过对软件理解各种方法的分析研究，总结出逐层推进的递增软件理解模式并给出本文的结论.
+2　软件理解的任务和策略
+　　软件理解的任务是在不同的抽象级别上建立基本软件的智力模型(mental model)，实际上是建立从问题(应用)领域到程序设计(实现)领域的映射集，如图1.它的范围包括从代码本身的模型到基本应用领域的模型，它的目的是为了便于软件维护、进展和再工程.具体任务分为4级，即①实现级:检查单个的程序设计结构，程序被典型地表示成抽象语法树(AST)、符号表或普通源文本.包括手工代码阅读，人工制品提取，程序分析，静态分析，动态分析几个过程;②结构级:检查程序构造过程中结构关系，明确表示程序组成部分之间的依赖关系.包括逆向工程、信息提取、信息抽象、结构模型匹配、识别构筑风范和结构、聚集分级结构等过程;③功能级:检查两个程序结构和行为(功能)之间的关系,同时研究完成程序构造的合理性.包括设计恢复、语义和行为模式匹配等过程;④应用级:检查特定于应用领域的概念.包括智能软件理解、格局识别、概念赋值和推理等过程.
+
+
+图　1
+　　软件理解策略是软件理解在总体上所使用的方法和采用的理解过程.软件理解主要策略有①自底向上策略.构造从实现领域到问题领域的映射集(mappings),由相似(或相关)属性(或特性)的软件成分聚集而形成更高层的概念子系统.②自顶向下策略.构造从应用领域到实现领域的映射集，它有几个中间层表示.分析过程是由期望驱动的建立、确认和精化假设的过程，能更好地适应目标制导的软件理解，依赖于工程师的专门领域知识.③机会策略.是自底向上和自顶向下策略的结合，具有自底向上和自顶向下策略的优点，对不同的应用脚本具有可适应性.
+3　软件理解模型
+　　软件理解就是开发软件系统构筑体系含义和行为的智力模型的过程.在软件工程维护和发展过程中一般要花费60%～90%的时间用于软件理解.与软件理解类似的概念有浏览分析软件、程序可视化等.理解一个软件系统实际上是抽象该系统的更高层描述的过程，抽象过程的目标产品就是软件理解模型，软件理解模型包含来自现实世界的对象及其相互关系，而忽略了程序设计领域中一些不太重要的细节.
+　　Brooks 建议使用一种基于自顶向下方法的模型［1］.该模型假设在设计阶段设计者做出的许多决策都会反应在代码中.理解包含了恢复这些决策并通过中间领域的重新构造再把它们映射到程序设计领域.智力模型的构造是通过自顶向下过程实现的，这一过程成功地使假设得到公式化和证明.在模型的顶层是一个表达程序功能的高层描述的主要假设，随后公式化辅助假设以支持主要假设.
+　　Soloway 和 Ehrlich 在他们的模型［2］中采用了自顶向下的方法，在代码或代码类型知道的情况下可采用这种模型.采用所拥有的知识公式化假设，以便把系统分解成能够在代码中实现的已经知道的子系统，然后轮流分解每个子系统直到取得实现既定功能的一个个代码块.用这种方法构造的智力模型由目标和格局的层次构成.利用交流规则把目标分解成格局，再把格局分解成子格局.一般使用3种不同的格局，即战略性格局，它描述程序中的整体策略；策略性格局，它与局部的问题解决策略有关；实现性格局，它考虑实现策略格局的语言的特征.
+　　Letovsky提出的识别模型［3，4］由3个主要部分组成，即知识库、智力模型和同化吸收过程.知识库中包含程序员拥有的有关程序设计规范和问题领域的通用知识，也包括一些交流规则，也就是关于算法、数据结构实现和编码标准等程序设计方面的惯例；智力模型可以按照3个不同的抽象层次来组织，即①规格说明层：该层描述了程序的目标;②实现层：该层表示了抽象的最低层，它包含作为实体的数据结构和功能;③注解层：该层把规格说明层的每个目标和实现层中的实现联系起来；同化吸收过程由基于假设的公式化的查询新知识组成.这有3个不同的类型：“why假设”想象一个函数或设计选择的目的；“how假设”推测实现一个程序目标的方法；“what假设”分类实体.
+　　Pennington 以一种不同的观点采用自底向上的方法［5］.这种自底向上的方法是从逐行理解程序代码开始的，发现相似的模式(称为块)，模式的集合和下一步抽象能用来识别更高抽象层上的新模式.Pennington的模型用开发两个不同的智力表达式来处理理解问题，即程序模型和情景模型.程序模型是程序及其结构的低层智力模型.事实上，维护程序员在处理不熟悉代码时建立的程序模型是对控制流的一种典型抽象.新的更加抽象的程序模型是通过把代码结构分块成更抽象的结构建立的；情景模型是在程序模型之后开发的，它创建一个数据流/功能的抽象，按照以功能层次组织真实世界的对象术语来说，需要应用领域的知识来智力地表示代码.
+　　Von Mayrhauser和Vans建议使用一种包含前面几种模型的集成模型［6，7］，他们通过观察得知，理解过程或是自底向上或是自顶向下或是两种方法结合的过程.集成模型包括4个主要成份，即程序模型、情景模型、自顶向下模型和知识库.前3者是借助已经介绍的模型.当代码熟悉时，集成模型开发自顶向下模型；而当对代码完全不熟悉时，开发自底向上模型.通过这种自顶向下的方式推进过程，会遇到不熟悉的代码部分，于是需要转回去进行自底向上的研究.知识库对其它3个成分的构造都是必须的.每个模型的成分均由代码的中间表示以及建立这种中间表示的策略构成.知识库融合了以前需求过的相关信息和知识.在理解过程中，新的信息被开发出来并被放到知识库中以便于将来的使用.
+　　北京大学于1997年提出的分层构造模型，可用于对面向对象系统软件的功能分配及其相互关系进行认识理解.该模型把面向对象的系统软件分成7个层次，各层之间的功能是单向依赖的，后层功能的实现对前层透明，该模型的7个层次分别是①系统应用层；②抽象类型层；③组合类型层；④基本类型层；⑤对象存取层；⑥虚拟类型层；⑦物理存取层.
+
+
+图　2
+4　软件理解方法
+4.1　工程法
+　　工程法就是利用工程的办法来进行程序理解的方法，它包括正向工程、逆向工程、再结构、再用工程以及软件再工程等，下面分别作简要介绍.
+　　(1) 正向工程和逆向工程
+　　传统的软件处理过程就是把一个系统高层抽象和独立于设计的逻辑实现转变成物理实现的过程，这就是正向工程过程. 逆向工程被认为是不改变主题系统的活动，它只是一种检查过程，而不是变换过程，如图2.它通过对人工制品的确认、人工制品之间关系的发现及抽象分层来方便软件理解过程.有人认为逆向工程是一个两步过程，即①信息摘取：分析主题系统以确定它的组成成分和各成分之间的关系；②信息抽象：以另一种形式或更高抽象级创建系统的表示.也有人认为逆向工程是一个3步过程，即①数据收集；②知识组织；③信息浏览、分析和表示.数据是用作研究、推理和讨论基础的与事实有关的信息.知识包括数据和信息，例如关系及由数据逐步演化来的规则等.信息是指上下文的可选择的交流信息.一般人认为，逆向工程就是分析主题系统，确定它的当前成分和成分之间的依赖，以及提取并创建系统抽象和设计信息的过程.我们认为，逆向工程是一个3步过程，即①模型建立(model creating)：使用概念模型化技术构造应用于特定领域的模型；②提取(extraction)：使用合适的提取机制从主题系统聚集原始数据；③抽象(abstraction):创建便于软件理解的抽象,并允许结果信息的开发.具体来说有以下一些方法:抽象和组合,设计恢复和概念赋值,再文件,反工程,静态和动态分析,概括资源流和软件结构,变更和影响分析,可维护性分析,迁移分析, 事务分析,经济分析等.
+
+
+图　3
+　　(2) 再构造: 再构造(restructuring)是在同一个相关的抽象级别上把一种表示转换成另一种表示，而保持主题系统的外部行为不变的过程.
+　　(3) 再用工程: 再用工程(reuse engineering)是确认软件系统中可再用的部分以及改变一软件系统使之更加可再用的过程.相关工作有: 对象恢复,抽象数据类型(ADT)确认,数据精化,成分确认,建立可再用成分库.
+　　(4) 软件再工程: 软件再工程(software reengineering)是检查和更新改造一个主题系统，并以一种新的形式重建的过程.相关工作有：逆向和正向工程，抽象和实现，再用工程，数据再工程，改进,更新和开拓，形式转换，再结构，再文件，再模块化，再开发等.
+4.2　程序切片法
+　　程序切片(program slicing)是根据控制流和数据流分析而引进的一种程序分析技术.在过去20年中，程序切片技术取得巨大发展，这方面的文献已经有专门的文献库.这里，我们概述具有代表性的几种切片方法供读者参考.
+　　(1) 语句切片：这种传统的程序切片技术是一种条件切片，它是根据程序的顺序、循环和选择结构进行程序切片的.大多数程序员都试着用构成语句的程序切片来识别程序的错误，也用来理解程序的行为.该类程序切片包括静态切片和动态切片两种，他们的不同之处是：定义静态切片时需考虑程序的所有执行路径(可靠的或不可靠的)；而动态切片只考虑从一个输入到程序的特定的执行路径；
+　　(2) 无定型程序切片：无定型程序切片是由Mark Harman 和Sebastian Danicic于1997年提出的一种程序切片方法.与传统程序切片相比，无定型切片不仅在保存一个程序语义投影的同时简化了程序，还可以使用任何简化的转换，而这些转换保留了这个语义映射，因此，在传统切片方法的基础上增强了简化能力并可用来帮助软件理解；
+　　(3) 过程间和过程内切片：根据过程间或过程内分析、数据流分析、需求分析来切片程序，这类切片方法可计算其它方法不能识别的过程间或过程内的控制相关，并且可重用程序切片的信息，以便更好地改进程序的效率；例如，Marry Jean Harrold和Ning Ci于1998年提出重用驱动的过程间切片技术就是其中最典型的代表［25］；
+　　(4) 面向对象切片：近来程序切片技术已被应用到面向对象领域，1996年Loren Larsen和Marry Jean Harrold［19］把切片技术应用与面向对象的系统相关图和过程相关图中，使得对面向对象程序(特别是C++程序)的调试，代码理解，程序测试，逆向工程和度量分析变得相对容易的多.同年，Frank Tip等人［20］首次提出切片C++类层次的算法，使得对C++中复杂的多继承和虚继承机制的理解变得简单.
+4.3　格局识别法
+　　既然搜寻代码是相当普遍的逆向工程活动，就需要成熟的搜寻工具.维护人员必须在改正、加强和再工程程序之前找到相关代码，通常是找适合某种模式的代码.模式是一种结构或行为，它依赖于是寻找那些有特定语法结构的代码，还是寻找那些与程序执行有关的特定数据流、控制流或动态相关的代码.为定位这种模式需要一种更接近软件工程师智力模型的搜寻机制(而不是一般的程序分析工具)，这种机制称为格局识别(plan recognition).程序格局是源代码片段的抽象表示.利用比较方法来识别一个主题系统中程序格局的实例.这个过程还包括程序设计语言的语义层的模式匹配.格局识别的焦点之一是识别简单代码片段，存在的源代码经过“剪贴”文本操作在一个系统中再次被使用.这种实践节省开发时间，但由于增加的代码大小和需要传播的每个修正制品的改变，从而导致在维护过程中的问题.格局识别过程如下：①自顶向下.从要实现的一组目标出发，确定怎样的格局能实现这些目标，然后把这些格局和源代码模式联系起来.②自底向上.从源代码开始，识别与源代码匹配的格局，从这些格局中推断出更高层的目标.③混合.自顶向下和自底向上结合使用.
+4.4　概念赋值和概念分析法
+　　概念赋值(concept assignment)是发现面向人类的概念中的问题，并把它们赋值给它们在软件系统内部的实现实例.在大多数程序分析工具中使用对应于语法模式识别的格局识别是一种进步，然而，当它被用来定位对软件工程师来说感兴趣的代码片段时(因为格局比语法实体更接近于程序设计的智力模型)，程序格局必须用程序设计实现语言的术语来表达.如果把程序格局表示成应用层概念而不是简单地抽象代码片段，它的优点将更明显.解决这个问题的一种方法是概念赋值.这是一个把面向人类的的概念和面向实现的概念部分匹配的过程，这种概念模式匹配类型能使得维护人员搜寻程序片段的基本代码库.概念赋值是在用户终端应用语义层的模式匹配.它是一个在源代码内重新识别概念，并通过联系可识别概念及对应程序来建立程序的一种理解的过程.概念识别在早期研究阶段使用得比较多，部分原因是由于知识占用(包括对格局的识别和规约)的困难以及匹配过程的复杂性导致自动理解能力受到限制.概念分析(concept analysis)把任何对象和属性之间的关系转换成一个完全的概念格.可通过代数含义来研究这些概念格，并且利用概念格能够很成功地研究初始关系的特性和结构的本质.因为对象和属性之间的关系在软件技术中随时可见，概念分析是一种最引人注意的新型程序分析工具的基础.
+4.5　模式匹配法
+　　模式匹配(pattern matching)是在不同的抽象层次上对程序的各种模式进行匹配的过程.软件理解的特征是最基本地识别人工制品并理解它们之间的关系；这个过程是一种在不同抽象层次的本质的模式匹配过程.它包括识别、操作和人工制品开发几个步骤.通过逆向工程师的智力模式识别主题系统的一种特定的表示.软件理解技术按如下递增抽象形式考虑源代码：粗糙文本，预处理文本，词汇标志，语法树，带符号表的注解抽象语法树，控制流/数据流图，程序格局，构筑风范描述和概念模型等.更加抽象形式的附加语法和语义分析，更接近代码的含义和行为，而与形式和结构相距较远.对不同的用户和不同的软件理解目的来说必须进行不同层次的分析.用基于语法、语义和概念模式匹配的逆向工程理解方法会加强对程序的理解. 
+4.6　程序分析法
+　　程序分析包括静态程序分析和动态程序分析两种: 静态程序分析(static program analysis）无须执行主题程序而只是根据一些模型推断程序本质结果的过程.它包括语法分析、类型检查和推理、控制和数据流分析、结构化分析、交叉引用、复杂度度量等过程；动态程序分析(dynamic program analysis)是在一个主题系统中发现运行时依赖的过程.它包括对象实例依赖、动态联编和多态性、方法调用图、登记和回叫函数、路径覆盖测试、内存管理、功能瓶颈、分支、并发等.
+4.7　智能理解法
+　　智能理解(intelligent understanding)是利用人工智能和专家系统技术帮助进行软件理解.目前已经开发出来的智能软件理解工具有以下几类:①特别领域模型驱动的基于规则的问答系统,如LASSIE;②格局驱动的程序识别器,如程序员徒弟, GRASPR, PAT, PROUST, TALUS等; ③模型驱动的推理软件理解系统，如DESIRE.
+5　软件理解对象的进展
+　　理解对象已经从传统的结构化软件进展到面向对象软件，我们在计算机科学1999年第5期的一篇文章中谈到过这类问题，故这里只给出简单的描述.
+　　面向传统软件的软件理解主要从以下几个方面展开的：
+　　(1) 基于数据结构的软件理解；
+　　(2) 基于控制的软件理解；
+　　(3) 基于功能的软件理解；
+　　(4) 基于文件和基于知识的软件理解；
+　　(5) 基于类型推理的软件理解. 
+　　面向对象软件的软件理解方法归结起来一般有以下几个方面：①基于类层次的理解；②基于对象依赖关系的理解；③基于对象式程序结构的理解；④基于高层对象系统理解；⑤基于对象系统功能设置的理解；⑥基于方法多态性的理解；⑦详细编码的理解；⑧利用度量技术理解面向对象程序.
+6　软件理解工具(PCTs)
+　　软件理解工具(PCTs)是一类使得理解计算机程序的结构或功能的过程变得容易的软件工程工具.利用PCT可以完成下列软件理解任务：①再工程遗留的复杂软件系统；②深刻理解别人书写的复杂代码；③采用逆向工程方法恢复某个复杂程序的设计；④再文件目前存在的复杂计算机程序；⑤收集一个复杂程序的总体构筑信息和结构信息；⑥获取一个复杂系统的行为或算法信息.
+　　目前已经存在的软件理解工具很多，根据工具的用途可分成下列几类：
+　　(1) 用于代码分析的PCTs
+　　这类软件理解工具提供一个程序的大量细节信息.它们的目的就是帮助理解源代码.这类工具主要集中在一个应用程序的结构和它的静态属性上.这些工具根据设计者目的的不同，又可分为以下几类：①基于知识的程序分析工具；②类似程序员徒弟的工具；③从源代码中抽象高阶函数概念的工具；④基于启发式的概念识别器；⑤用面向对象框架来表示程序设计概念的工具；⑥使用格局库的模式制导推理机；⑦能够提出合理预言、建议和解释的工具.例如，南京大学设计开发的软件理解工具TAUS 能对Pascal源程序进行结构分析, TAUS的设计思想是根据程序的物理结构和逻辑结构，把程序划分成较小的程序段分别进行理解，而后通过对程序控制流，数据流跟踪或人工地模拟执行程序，达到对程序抽象的了解，最后把程序细节的理解归纳成更高级的抽象.PROMPTER是IBM日本科学院研制的基于知识的代码理解工具，它能产生汇编语言书写的程序的注解.PROUST是美国Yale大学计算机系研制的工具，它对由初级程序员书写的Pascal程序进行联机分析和理解，把一个程序以及一个程序需求的非算法描述作为输入，然后找到需求和代码之间的最可能的匹配.它通过把有缺陷的代码同根本意图联系起来，给出程序缺陷的深一步理解.意大利的G. Antoniol等人1996年推出他们多年来开发的成果——CANTO(代码和结构分析工具)，一个全面的系统理解环境，CANTO在不同的抽象层次上集成了多种方法、观点和观察点，这些层次包括从精细粒度信息层到构筑规范层之间的所有层次.用户可以根据自己的需要利用它从源代码抽象信息，通过分析控制该计算什么，不该计算什么.
+　　(2) 用于分析面向对象语言的PCTs
+　　北京大学在面向对象的逆向工程方面做出很大成就，以杨芙清院士为首开发的“青鸟工程”工具，针对C++语言，采用增量分析技术静态分析源程序代码，用EER（enhanced entity-relationship）为C++程序建立概念模型并抽取程序信息，将信息保存在数据库中，最后，按照不同的用户需求组织程序信息，辅助用户理解C++程序.逆向生成源程序的OOD文档和ROSE文档，为用户进一步提取构件构架提供帮助.该工具由3部分组成，即信息抽取器、信息管理器和用户界面.澳大利亚的Johannes Sametinger提出一种用于C++的维护工具，该工具把C++程序文件分成一个个小的程序片,例如，类定义片、方法实现片及变量声明片等，通过这种方法帮助程序员理解用C++编写的程序.美国Washington大学的David Grave等人提出的用于构造调用图的参数化算法框架,利用该框架实现了诸多熟悉的和新型的算法，利用这些算法对以Cecil和Java语言书写的中等规模的程序进行分析和理解时起到很好的效果；同时，它克服了过程间分析方法在描述面向对象的语言和函数型语言时过于复杂的情况.Gen++是一种用于C++程序的分析器产生器，是一个C++分析工具开发环境，它是由贝尔实验室的Prem Devanbu和Laura Eaves共同开发的，它的实现是通过把手工语法分析树查询机制GENOA/GENII和Cfront 3.0编译器结合而成.目前在C++中已经实现了许多不同的工具，以便完成不同的任务.例如，产生C++类的一个继承层次；产生类成员之间函数调用图；为一个给定的类创建一个缺省的输出操作“?”；产生控制流和数据使用报告；产生C++度量：衍类与基类的比例，public成员的数目和类的总数目的比例等；检查基类的构造函数是否总是被说明成虚的；检查构造函数和析构函数是否从来没有被声明成虚的；没有任何成员函数应该既是虚的又是内联的.Taegyun Kim和Gyusang Shin自从1994年开始开发一种称为OODesigner的CASE工具，该工具具有支持OMT技术的3种模型，生成类资源的文本，在一个图中检查对象之间的一致性，维护对象模型的信息仓库，产生C++代码以及对C++进行逆向工程处理等功能［24］.
+　　(3) 用于再构造、再工程、逆向工程、再用工程的PCTs
+　　这类工具能很好地管理软件理解过程的复杂性.维护人员能够利用他们从一个交互活动的低级代码提取更高级信息.尽量使人们从各种冗长的手工任务(如大量代码阅读、探索和通过检查进行模式匹配)中摆脱出来.同时逆向工程工具和技术比纯基于人工智能的自动软件理解更健壮、更加可度量，(这同基于定理证明的形式方法一样).简言之，逆向工程工具是半自动化的、交互的和可度量的，这使得它们与手工的、交互的和不可度量的代码阅读相比更具有吸引人之处；它也不同于自动的、非交互的和通常是不可度量的自动软件理解.例如，左治亚技术学院的 D.F.Jerding等人指出［10］：实现、修改和再工程一个面向对象的系统，需要对程序执行时发生的交互进行理解，为此要寻找识别、可视化和分析面向对象的程序执行时交互的方法以考察和理解动态行为，作者发现程序执行时的交互脚本可用以对理解过程进行抽象.文中提出了一种识别这些交互模式的方法.该方法可用于支持设计恢复、验证、再工程，该方法既可用于面向对象程序也可用于过程式程序.
+　　(4) 用于程序相关分析的PCTs
+　　Aaron B. Binkley 和Stephen R.Schach提出的耦合相关度量(CDM)［35］技术通过计算引用相关、结构相关和数据集成相关来达到对软件理解的目的.它是一种成功的设计质量度量，CDM在预知运行时失败和大量不同的维护度量时能够超乎寻常地完成诸多计算度量工作.主要在以下4例中得到充分体现：①一个COBOL注册系统的运行时数据度量；②一个C语言文本处理工具的维护数据度量；③一个C++病人协作治疗系统的维护数据度量；④一个Java的电子文件传送设备的维护数据的度量.
+　　(5) 利用图形技术和可视化技术的PCTs
+　　就是利用各种各样的图形、表格和动画来帮助进行软件理解的一项技术.例如，利用类层次(CHG)理解面向对象程序中的类继承关系；利用子对象图(SOG)来动态识别类实例中各个子对象、查询方法等，以此理解面向对象程序；利用控制流图(CFG)来理解程序之间和程序内部各成份之间的控制关系；利用数据流图(DFG)来理解程序之间和程序内部各成份之间的数据流动情况；利用系统相关图(SDG)和控制相关图(CDG)来理解软件系统中各种依赖关系等等.例如，Danny B. Lange和Yuichi Nakamura 1995年［14］介绍了他们的环境Program Explorer，一种用于C++的程序可视化处理器，该工具把面向对象程序中的动态信息(对象)和静态信息(类)结合起来进行程序分析和理解，它是在吸取了工具CIA++和GraphLog优点的基础上开发成功的.其中采用了水平选择和垂直选择两项耦合静态信息和动态信息的技术，使得对C++程序的理解方便、快捷、高效.
+　　(6) 利用程序切片技术的PCTs
+　　例如，Wisconsin 程序切片工具version 1.1是一个支持对C程序操作的软件系统.它包括向后切片、向前切片和消片3种功能，他们能够帮助用户获得对一个程序正在做什么和如何做的理解.该切片工具由用来建立和操作控制流图和程序相关图的一个包构成，和分析C程序语法的一个前端类似，也把它们转换成适用于切片的中间表示.
+　　另外，还有利用概念分析的PCTs［26］、利用度量技术的PCTs［35］等等，基于类型推理的PCTs［9］、整程序分析PCTs［26］等等，限于篇幅，这里不再讨论.
+7　OOAF简介
+　　我们正在开发一种基于CHG的分析面向对象程序的框架——OOAF.OOAF目前具有以下功能：
+　　(1) 利用路径等价(类)技术识别子对象；
+　　(2) 利用路径(子对象)进行可见方法和主导方法确定；
+　　(3) 结合确定的可见方法和CHG建立可见方法类层次图(VM0-CHG)；
+　　(4) 在WM-CHG的基础上计算继承集和改写集，确定改写边界；
+　　(5) 构造虚函数调用图(VFCG).
+　　OOAF框架结构由以下几部分组成：
+　　(1) 词法和语法分析器.用来分析输入的C++/Java源程序的词法和语法正确性；
+　　(2) CHG产生器.对词法和语法正确的C++/Java源程序产生CHG图.并负责把CHG输入C++/Java程序分析器中；
+　　(3) C++/Java程序分析器.该分析器又由4部分组成：
+　　　　① 子对象识别器：用来识别各个类结点的对象包含的子对象的情况；
+② 方法确定处理器：用于确定各个对象(类)结点可见方法和主导方法；
+③ 继承(或改写)集计算器：用来计算每个方法的继承集和改写集，并确定该方法的改写边界；
+④ VM-CHG产生器：用来产生VM-CHG，并把VM-CHG输入到VFCG产生器.
+　　(4) VFCG产生器：它利用继承(改写)集计算器和VM-CHG产生器输入的继承集、改写集、VM-CHG等构造VFCG，并报告虚函数调用的有关信息.当然，OOAF目前还只是一个功能较弱的分析静态类型面向对象程序的框架，我们正在逐步集成对象的类型分析、程序切片、概念分析及可视化等技术，以进一步完善OOAF的功能.
+8　结束语
+　　以上分别对软件理解基本因素、方法的研究现状和最新进展进行了比较全面的分析和研究，我们认为：
+　　(1) 软件理解方法一般是特定于某个或某几个层次的，即①基于机器码和中间代码层的理解，离不开反汇编和反编译技术；②基于源程序层的理解，借助逆向工程、再工程、再结构、软件再用工程等技术；③基于语法层的理解、程序分段、程序切片、程序分析等技术就是其中最典型的代表；④基于程序语义层的理解，模式匹配、格局识别、概念赋值和概念分析等都是进行语义级的软件理解和分析技术.
+　　(2) 软件理解过程是一个逐层推进的模式匹配过程，即①程序分析.进行程序设计语言中语法模式匹配;②格局识别.进行程序设计语言领域中语义模式匹配;③概念赋值.进行应用领域(或终端用户领域)中语义模式匹配.
+　　本文同时介绍了我们在面向对象软件理解和程序分析方面所取得的一些进展，我们构造的虚函数调用图(VFCG)［36］ 和面向对象程序的分析框架(OOAF)，为解决静态类型面向对象语言中虚函数调用模型化提供一种可行的解决方案.
+　　虽然Woods S和Yang Qiang形式地证明了软件理解问题是一个NP-hard问题［30］，但是从不同的角度，不同的层次进行软件理解仍然是可以取得进展的.事实已证明在软件维护过程中软件理解不仅必不可少，而且正日益发挥它的巨大作用.今后，软件理解的方法更注重基本理论及语法语义层的理解.所以，我们认为概念分析、模式匹配、格局识别等方法将是以后软件理解的主要方法.同时，由于精化演算技术的发展和完善，利用精化演算技术进行程序理解也是一种今后可取的方法.
+基金项目：本课题得到江苏省应用基础基金项目(项目编号BJ97036)资助
+作者简介：李必信，男，1969年生，博士研究生，主要研究方向为面向对象技术、程序分析、软件理解等.郑国梁，男，1937年生，教授，博士生导师，主要研究方向为面向对象技术、软件工程、软件开发环境等.李宣东，男，1965年生，博士，副教授，主要研究方向为面向对象技术、实时系统.张勇翔，男，1975年生，硕士研究生，主要研究方向为面向对象技术、软件理解和程序分析.梁佳，女，1974年生，硕士研究生，研究方向同上.
+作者单位：李必信　郑国梁　李宣东　张勇翔　梁　佳　南京大学计算机软件新技术国家重点实验室　南京　210093　南京大学计算机科学与技术系　南京　210093
+参考文献
+1　　Brooks R. Towards a theory of the comprehension of computer programs. Int'l Journal of Man-Machines Studies, 1983, 83(18): 543～554
+2　　Soloway E, Ehrlich K. Empirical studies of programming knowledge. IEEE Trans on Software Engineering, 1984, SE-10(5): 595～609
+3　　Letovsky S, Soloway E. Cognitive processes in software comprehension. In: Soloway E, Iyengareds S eds. Empirical Studies of Programmer: First Workshop. Norwood. NJ: Alex Publisher, 1986. 58～79
+4　　Letovsky S, Soloway E. Delocalized plans and software comprehension, IEEE Software, 1986, 56(5): 41～49
+5　　Pennington N. Comprehension strategies in programming. In: Olsen G M, Sheppard S, Soloway E eds. Empirical Studies of Programmers: Second Workshop. Norwood, NJ: Ablex Publisher, 1987. 100～113
+6　　von Mayrhauser, Vans A M. From software comprehension to tools requirements for an industrial environment. In: Proc of 2nd Workshop on Software Comprehension. Capri, Italy: IEEE Computer Society Press, 1993. 78～86
+7　　von Mayrhauser, Vans A M. Comprehension processes during large scale maintenance. In: Proc of 16th Int' l Conf on Software Engineering. Sorrento, Italy: IEEE Computer Society Press, 1994. 39～48
+8　　von Mayrhauser, Vans A M. Software comprehension during software maintenance and evolution. Computer, 1995, 55(8): 44～55
+9　　Robert O'Callahan et al. Lackwit: A program understanding tool based on type inference. In: Proceedings of 19th Int'l Conf on Software Engineering, Boston, 1997. 17～23
+10　　Jerding D F et al. Visualizing interactions in program execution. In: Proceedings of 19th International Conf on Software Engineering, Boston, 1997. 17～23
+11　　David Grove et al. Call graph construction in object-oriented language. ACM SIGPLAN Notices, 1997, 32(10): 108～124
+12　　Margaretha W P. Analyzing the measurability in object-oriented designs. In: OOPSLA'97 Conf Proceedings, Las Vegas, Nevada, 1997. 22～33
+13　　Greg Defouw et al. Fast interprocedural class analysis. In: Proceedings of POPL'98, San Diego, CA, 1998
+14　　Danny B Lange, Yuichi Nakamura. Program explorer: A program visualizer for C++. USENIX Association, Conf on Object-Oriented Technologies (CONTS), Berkeley, Calif, 1995, 26～29
+15　　Danny B Lange, Yuichi Nakamura. Object-oriented program tracing and visualization. IBM Research, Tokyo Research Laboratory, Research Report: RT0111, 1996
+16　　Danny B Lange, Yuichi Nakamura. Interactive visualization of design patterns can help in framework understanding. In: Proceedings of the ACM Conf on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA '95). New York: ACM Press, 1995
+17　　Yucihi Nakamura, Danny Lange. Object-oriented visualization to help program understanding. Transactions of Institute of Electronics, Information and Communication Engineers (IEICE), 1996, (10)
+18　　Darren C Atkinson, William G Griswold. The design of whole-program analysis tools. In: The Proceedings of the 18th Int' l Conf on Software Engineering (ICSE-18), Berlin, 1996. 25～29
+19　　Loren Larsen, Marry Jean Harrold. Slicing object-oriented software. In: The Proceedings of the 18th Int' l Conf on Software Engineering (ICSE-18), Berlin, 1996. 25～29
+20　　Frank Tip et al. Slicing class hierarchies in C++. In: The Proceedings of the 11th Annual ACM Conf on Object-Oriented Programming, System, Language, and Applications (OOPSLA'96), ACM SIGPLAN Noteces. New York: ACM Press, 1996
+21　　Mark Harman, Sebastian Danicic. Amorphous program slicing. In: The Proceedings of IWPC'97, Dearborn, 1997. 28～30
+22　　Danny B Lange, Yuichi Nakamura. Object-oriented program tracing and visualization. IEEE Computer Society, 1997, 63～70
+23　　Ramalingam G, Srinivasan H. A member lookup algorithm for C++. In: Proceedings of The 1997 ACM SIGPLAN Conf on Object-Oriented Programming Systems, Language & Application (OOPSLA'97), Las Vegas, 1997. 18～30
+24　　Taegyun Kim, Gyusang Shin. Restructuring OOdesigner: A CASE tool for OMT. In: The Proceedings of the 20th Int' l Conf on Software Engineering (ICSE-20), Kyoto, 1998. 19～25
+25　　Marry Jean Harrold, Ning Ci. Reuse-driven interprocedural slicing. In: The Proceedings of the 20th Int' l Conf on Software Engineering (ICSE-20), Kyoto, 1998. 19～25
+26　　Snelting G. Concept Analysis——A new framework for program understanding. In: Proc ACM SIGPLAN/SIGSOFT Workshop on Program Analysis for Software Tools and Engineering (PASTE), Montreal, 1998. 1～10
+27　　Canfora G, Mancini L, Tortorella M. A workbench for program comprehension during software maintenance. In: Aniello Cimitile ed. In: Proceedings of 4th Workshop on Program Comprehension (IWPC'96), Los Alamitos, Califonia: IEEE Computer Society Press, 1996. 30～39
+28　　Crimitile A, Lucia A De. Identifying objects in Legacy system. In: Aniello Crimitile ed. Proceedings of 5th Workshop on Program Comprehension (IWPC'97), Los Alamitos, California: IEEE Computer Society Press, 1997. 50～61
+29　　Keller R. Pattern visualization of software comprehension. In: Aniello Crimitile ed. Proceedings of 6th Workshop on Program Comprehension. Los Alamitos, California: IEEE Computer Society Press, 1998. 80～96
+30　　Woods S, Yang Qiang. The program understanding problem: Analysis of a heuristic approach. In: The Proceedings of the 18th Int' l Conf on Software Engineering (ICSE-18), Berlin, 1996. 25～29
+31　　Christian Lindig, Gregor Snelting. Assessing modular structure of legacy code based on mathematical concept analysis. In: The Proceedings of the 19th Int' l Conf on Software Engineering (ICSE-19), Boston, 1997. 17～23
+32　　Gregor Snelting, Frank Tip. Reengineering class hierarchies using concept analysis. E-mail: Snelting@ips.cs.tu-bs.de
+33　　Prem Devanbu, Laura Eaves. GEN++—— An analyzer generator for C++ programs. E-mail: Prem@research.att.com
+34　　Antoniol G et al. Program understanding and maintenance with the CANTO environment. E-mail: antoniol@irst.itc.it
+35　　Binkley Aaron B, Stephen R Schach. Validation of the coupling dependency metric as a predictor of run-time failures and maintenance measures. In: Proceedings of the 1998 International Conference on Software Engineering, Kyoto, 1998. 452～455
+36　　李必信，王云峰，郑国梁. 一种在静态类型面向对象语言中构造VFCG的方法.南京大学学报，待发表.
+　　　(Li Bixin, Wang Yunfeng, Zhang Guoliang. An approach for constructing VFCG in statically-typed object-oriented language. Journal of Nanjing University, to appear)
+收到日期：1999-01-21
+改稿日期：1999-04-07

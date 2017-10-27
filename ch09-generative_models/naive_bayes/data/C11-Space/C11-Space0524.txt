@@ -1,0 +1,114 @@
+航空计测技术
+AVIATION METROLOGY &MEASUREMENT TEHNOLOGY
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+空间坐标转换技术的分析与研究(一)
+周维虎+　兰一兵　丁叔丹　费业泰
+摘　要　系统分析了空间坐标转换的不同形式及其相互关系，运用旋转矩阵理论作了较为深入的探讨，指出了使用中应注意的问题。提出了齐次矩阵、微分运动、微分算子及雅可比矩阵等有用概念，作为例子,讨论了这些概念在机器人学中的应用。
+关键词　坐标转换　矩阵　雅可比矩阵　齐次矩阵　微分算子　微分运动
+Analysis and Study of Spatial Coordinate Transformation Technique (1)
+Zhou Weihu,Lan Yibing,Ding Shudan,Fei Yetai
+Abstract　The different types of spatial coordinate transformation and the relation between them are analyzed systematically in this paper.Using the rotation matrix theory,the deep search is done and the attentive problems during use are pointed out.The useful concepts of homogeneous matrix,differential movement,differential operator and Jacobi matrix etc. are proposed.The application of these concepts to robotics is discussed.
+Key words　Coordinate transformation,Matrix,Jacobi matrix,Homogeneous matrix,Differential operator,Differential movement
+　　空间测量和机构运动都离不开空间坐标转换，在不同的应用领域坐标转换具有不同形式。它们既有相似之处，又有不同之处，有时会产生混淆。本文利用旋转矩阵理论对空间标转换进行了较为系统的分析与研究，旨在熟练地掌握这一有用工具，在实践中灵活运用。
+1　基本原理
+　　设有两个原点相同的直角坐标系，O-XYZ，O′-X′Y′Z′，如图1所示，任一点P在这两个坐标系中的坐标分别为(x，y，z)，(x′，y′，z′)。设X′，Y′，Z′轴在O-XYZ坐标系中的方向余弦为
+X′　　　Y′　　　Z
+cosα　　　　　r11　　　r12　　　　r13　　　　　　
+cosβ　　　　　r21　　　r22　　　　r23　　　　　 　
+　　　　　cos　　　　　　γr31　　　　r32　　　　r33　　　　　　　　　（1）
+则有
+x＝r11x′＋r12y′＋r13z′
+y＝r21x′＋r22y′＋r23z′
+z＝r31x′＋r32y′＋r33z′(2)
+矩阵形式为
+(x，y，z)T＝R*(x′，y′，z′)T　　　　　　　　　　　　　　　(3)
+式中，R＝(rij，称为旋转矩阵。
+　　如果原点O′在O-XYZ坐标系中的坐标为(xo，yo，zo)，则
+(x，y，z)T=(xo，yo，zo)T＋R*(x′，y′，z′)T　　　　　　　　 (4)
+2　　逆变换与正交矩阵
+由(2)式知
+(x′，y′，z′)T＝R－1(x，y，z)T 　　　　　　　　　　　　　(5)
+　由(x，y，z)计算(x′，y′，z′)，只需对旋转矩阵求逆。从(1)式易知，X，Y，Z轴在O′-X′Y′Z坐标系中的方向余弦为
+　　　　　　　　　(6)　　　　　
+于是有
+x′＝r11x＋r21y＋r31z　　　　　
+y′＝r12x＋r22y＋r32z　　　　　　
+z′＝r13x＋r23y＋r33z′　　　　　　　(7)
+(7)式的系数矩阵是(1)式系数矩阵的转置RT，矩阵形式为
+(x′，y′，z′)T＝RT．(x，y，z)
+顾及(3)式有
+(x′，y′，z′)T＝RT．(x，y，z)T＝R-1(x，y，z)T
+于是
+　　　　　　　　　　　　　R-1=RT，R.RT=I　　　　　　　　　　　　　　　　　（8）
+可见，旋转矩阵R是正交矩阵。对(4)式逆变换，有
+(x′，y′，z′)＝RT[(x－x0)，(y－y0)，(z－z0)\]T
+由正交矩阵的性质知
+
+了解上述性质可以检查旋转矩阵计算的正确性。
+
+图1
+3　单次旋转矩阵与复合旋转矩阵
+　　一般来说，两坐标系之间的变换需三次旋转才能完成。因此，单次旋转矩阵有三个。绕X，Y，Z轴的单次旋转矩阵分别为
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(9)
+旋转角α均为正旋转。他们对于右手坐标系是右旋，对于左手坐标系为左旋。当左、右手坐标系之间转换时，需改变一个坐标轴的方向。
+
+P1，P2，P3为反向矩阵，分别使X，Y，Z轴反向。
+　　单次旋转矩阵的叠加产生复合旋转矩阵，复合旋转矩阵为
+　　　　　　　　　　　　R＝R1R2R3　　　　　　　　　　　　　　　　　　　　(10)
+顾及(8)式有
+
+所以，复合旋转矩阵也是正交矩阵
+　　在(10)式中，单次矩阵的左乘与右乘其含义是不同的。
+4　旋转矩阵的左乘与右乘
+　　设O-XYZ为基础坐标系，O′-X′Y′Z′为转换后的新坐标系。转换由多个单次旋转组成。如果第二次旋转是相对于基础坐标系来做的，则第二个旋转矩阵左乘第一个旋转矩阵，R＝R2R1，依此类推。
+　　如果第二旋转是相对于第一次旋转之后做的，则第二个旋转矩阵右乘第一个旋转矩阵，R＝R1R2，依此类推。后一种变换方式也称为相对变换。
+5　Kardan旋转与Euler旋转
+　　实现坐标系转换的旋转模式有多种，常见的有Kardan旋转与Euler旋转。Kardan旋转是三个连动的旋转轴中不出现同名轴，如图2所示。
+1)保持Z不动，OXY按右手规则旋转αz角；
+2)保持Y0不动，OZX0按右手规则旋转αy角；
+3)保持X′不动，OY0Z0按右手规则旋转αx角；
+Kardan旋转属于相对变换，坐标转换公式为
+(x，y，z)T＝R3(αz).R2(αy).R1(αx).(x′，y′，z′)T　　　　　　　 (11)
+令
+
+则有
+a1＝cosαy.cosαz
+b1＝cosαy.sinαz
+c1＝－sinαy
+a2＝－cosαx.sinαz＋sinαx.sinαy.cosαz
+b2＝cosαx.cosαz＋sinαx.sinαy.sinαz
+c2＝sinαx.cosαy
+a3＝sinαx.sinαz＋cosαx.sinαy.cosαz
+b3＝－sinαx.cosαz＋cosαx.sinαy.sinαz
+c3＝cosαx.cosαy
+
+图　2
+Euler旋转与Kardan旋转不同，Euler旋转的三个旋转轴中，第一根轴与最后一根轴同名。如图3所示。
+1)绕Z轴旋转角，使X轴到达OXY平面与OX′Y′平面的交线位置；
+2)绕X轴(I线)转动θ角，使Z轴与Z′重合；
+3)再绕Z′反转φ角，使X，Y与X′，Y′重合。
+坐标转换公式为
+(x，y，z)T＝R3()R1(θ)R3(φ).(x′，y′，z′)T
+＝R.(x′，y′，z′)T 　　　　　　　　　　(12)
+仿(11)式，R中各项元素为
+
+
+
+图　3
+6　旋转矩阵的奇异性
+　　实际应用中，旋转矩阵有时会出现奇异性。用Euler旋转时，如图3所示，当Z与Z′轴之间的夹角θ很小时，θ≈0°，Euler旋转矩阵
+
+可见，与φ相关，旋转矩阵奇异,解不出三个独立的参数,θ,φ，下面举例说明。
+　　在经纬仪工业测量系统中，如图4所示，要求拟合一圆柱面。测量坐标系与工件坐标系之间有三个平移参数(x0，y0，z0)，两个旋转参数(，θ)。若圆柱垂直放置，θ角很小，旋转矩阵奇异，将解不出角。此时，改为Kardan旋转可解决这一问题。
+　　Kardan旋转也存在同样问题，当αy≈±90°时，有
+
+旋转参数相关，矩阵R奇异，解不出独立转角。
+　　因此，使用中应根据具体情况灵活运用旋转模式。
+
+图　4
+作者简介:+36岁　男　高级工程师
+作者单位:长城计量测试技术研究所，北京市，100095
+　　收稿日期:1998-10-14收稿

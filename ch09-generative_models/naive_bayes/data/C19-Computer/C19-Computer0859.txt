@@ -1,0 +1,49 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1997年 第23卷 第1期 Vol.23 No.1 1997
+
+
+
+奇异系统的输出稳定化通过一般状态反馈的可解性
+谭连生　范文涛
+摘　要　讨论了奇异系统的输出稳定化问题，得到了在初始值为容许且不保证闭环正则的情形下，通过一般状态反馈求解此问题的充要条件及计算步骤. 
+关键词　奇异系统，输出稳定化，一般状态反馈，Drazin逆，广义不变子空间. 
+ON THE SOVABILITY OF THE OUTPUT STABILIZATION PROBLEM OF 
+SINGULAR SYSTEMS VIA GENERAL STATE FEEDBACK
+TAN LIANSHENG FAN WENTAO
+(Wuhan Institute of Mathematical Sciences, Academia Sinica, Wuhan 430071, PR CHINA)
+Abstract This paper is devoted to the study of the sovability of the output stabilization problem of singular systems via general state feedback. When the initial values of the singular system are admissible, a sufficient and necessary condition for the sovability of this problem, with no guarantee of the regularity of the closed-loop system, has been proposed. The algorithm for this problem has also been developed.
+Key words singular system, the output stabilization, state feedback, the Drazin inverse, the general invariant subspace.
+1　引言
+　　若X=Rn,U=Rm,Y=Rp，奇异系统
+
+　　式中　E,A: X→X,B: U→X,D: X→Y为线性映射，E为奇异的. E，A满足正则束条件. 
+　　所谓输出稳定化问题，即寻求一般状态反馈u(t)=-Fx(t)使闭环系统
+
+满足　
+　　文［1］率先讨论了脉冲能控奇异系统的输出稳定化问题，文［2］给出了在能量受限情况下达到输出稳定的条件. 文［3］得到了利用MPD反馈［4］来求解的充要条件，但遗憾的是MPD反馈对系统的噪声有放大的作用. 
+2　几点准备
+　　设P1为一可逆矩阵，使
+
+det M≠0,Q为幂零的，记
+
+那么矩阵=P1VP-11称为E的Drazin逆. 
+　　记,注意到若那么Q是k×k矩阵，E为从X到μ的投影，(I-E)为从X到的投影. 
+　　若E，A满足正则束条件，容许控制u(t)∈U为k次连续可微的，那么方程E(t)=Ax(t)+Bu(t)的可能初始点为
+　　(1)
+式中　u(r)(0)为u(t)在t=0处的第r阶导数，方程的解为
+
+　　　(2)
+　　定义1. 　设E，A：X→X,为E的Drazin逆，B: U→X，对于子空间VX，如果存在一个映射F:X→U，使得
+　　　(3)
+则称V为奇异系统Q的广义(A,B) 不变子空间. 把X的(A,B)不变子空间所组成的类表示为(A,B;X),把满足(3)的映射F:X→U所组成的类记为(A,B:X). 
+　　引理1. 设VX,则V∈(A,B;X)的充分必要条件为 (A)VV+Im(B).
+　　定理1. Ker D中包含唯一的一个最大(A, B)不变子空间，记为
+
+3 输出稳定化的可解条件
+　　设表示对应A的最小多项式，记的零点分别在C+,C-(C+,C-分别为闭的右半复平面，开的左半复平面). 记
+
+　　引理2.　若闭环系统QF为正则奇异的，且其初始值为x0=Eq，则其唯一状态解为
+　　　(4)
+　　引理3.　
+　　引理4.　设V是任意满足AVV的子空间，记=X/V，令P：X→X/V是标准投影，记为中诱导映射，那么

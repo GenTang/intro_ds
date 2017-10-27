@@ -1,0 +1,103 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+2000　Vol.19　No.5　P.57-58
+
+
+
+
+在中文VFP6．0中使用OLE自动服务
+李元
+摘 要：使用OLE自动化服务在VFP中调用Excel或Word，完成报表的制作。
+关键词：OLE VFP数据库应用软件 报表制作
+　　制作各种各样的报表是Visual FoxPro6．0数据库应用程序设计必不可少的任务。VFP本身的报表功能虽然已经很不错，但有时难以满足用户的各种特殊要求。这时可以使用OLE自动化服务在VFP中调用Excel或Word来完成这种特殊任务（VFP数据库应用软件作为客户，Excel或Word作为服务器）。Excel有强大的数据处理功能，而Word有强大的图文处理功能，不管什么样的报表任务都可很好完成。下面简单的例子说明如何在VFP应用软件运行中将数据库中的数据交给Word来完成1个报表的制作。
+　　为简单起见，假定在1个VFP项目中有关于科研经费开支情况的数据表：kyjf．dbf（其中不录入合计数），如表1所示。
+表1 科研经费开支情况表
+费用项目一季度二季度三季度四季度合计
+科研材料1500200020004000　
+科研出差3000300040004000　
+其它费用15001200140001100　
+合计　　　　　
+
+　　我们希望在VFP的这个项目运行时，调用Word来制作这个数据表的“科研经费开支情况报表”，并在处理时自动计算合计数，最后将报表以Word文件存盘。下面的程序Word01．prg实现了这些要求。程序中用CreateObject（）函数启动Word，并新建1个Word工作稿（用通常方式或模板方式均可），先设置报表的标题，然后根据数据库的字段与记录在这个文稿中编程设置1个表格，打开数据库table1．dbf，取得该表的记录数，将数据表table1．dbf的记录数据逐条送到Word文稿的表格中（同时计算合计：各费用项目的合计--各季度开支的合计以及全年开支的合计），在Word中稍加修改这个报表，并用templ．doc文件名存盘。
+　　＊＊源程序：word01．prg：
+　　SET DEFAULT TO d＼myvfp＼kwsjk
+　　Clear
+　　SET DEFAULT TO d＼myvfp＼kwsjk
+　　oleApp＝CREATEOBJECT（″Word．Application″）
+　　　　　　　　　　　　　　　　　　　　＆＆启动Word
+　　oleApp．Visible＝．T．　 ＆＆显示Word
+　　oleApp．Documents．Add　 ＆＆创建一个缺省设置工
+　　　　　　　　　　　　　　＆＆作文稿（A4）
+　　＊＊oleApp．Documents．Add（″Nomal″，．T．） 
+　　　　　　　　　　　　　　＆＆使用模板创建1个工作文稿
+　　＊＊设置字体、字号
+　　oleApp．Selection．Font．Bold＝．T．
+　　oleApp．Selection．Font．Size＝18oleApp．Selection．Font．Name＝″幼圆″
+　　＊＊　　
+　　oleApp．Selection．TypeText（″贵州大学计算机软件与理
+　　　　　　　　　　　　　　　　　　　　　　　论研究所″）
+　　oleApp．Selection．TypeParagraph　　　＆＆换行
+　　oleApp．Selection．TypeText（″科研经费使用报表，1999
+　　　　　　　　　　　　　　　　　　　　　　　　　年8月″）
+　　oleApp．Selection．TypeParagraph 　　　＆＆换行
+　　oleApp．DisplayAlerts＝．F．
+　　oleApp．Selection．Font．Size＝12
+　　oleApp．Selection．Font．Name＝″宋体″
+　　＊＊打开数据表，取得该表的记录数
+　　use kyjf．dbf
+　　j1＝RECCOUNT（）－1
+　　＊＊在Word工作文稿中增加1个表格（表格的列数与数
+　　＊＊据表table1．dbf的字段数相同为7；行数比记录数多
+　　＊＊1，因第1行用来做表头）
+　　oleApp．ActiveDocument．Tables．Add（oleApp．Selection．
+　　　　　　　　　　　　　　　　　　　　　Range，j1＋2，6）
+　　loTable＝oleApp．ActiveDocument．Tables（1）
+　　＊＊填写报表头：
+　　loTable．Cell（1，1）．Range．InsertAfter（″费用项目″）
+　　loTable．Cell（1，2）．Range．InsertAfter（″一季度″）
+　　loTable．Cell（1，3）．Range．InsertAfter（″二季度″）
+　　loTable．Cell（1，4）．Range．InsertAfter（″三季度″）
+　　loTable．Cell（1，5）．Range．InsertAfter（″四季度″）
+　　loTable．Cell（1，6）．Range．InsertAfter（″合 计″）
+　　＊＊将数据表table．dbf的记录放入Word文稿的表格
+　　＊＊中，自动计算总分：
+　　FOR i＝0 TO j1－1
+　　　　go i＋1 ＆＆ 第i＋1条记录
+　　　　loTable．Cell（i＋2，1）．Range．InsertAfter（kyjf．费用项目）
+　　　　loTable．Cell（i＋2，2）．Range．InsertAfter（kyjf．一季度）
+　　　　loTable．Cell（i＋2，3）．Range．InsertAfter（kyjf．二季度）
+　　　　loTable．Cell（i＋2，4）．Range．InsertAfter（kyjf．三季度）
+　　　　loTable．Cell（i＋2，5）．Range．InsertAfter（kyjf．四季度）
+　　　　　＊＊计算各项费用的合计数 loTable．Cell（i＋2，6）．Range．InsertAfter（kyjf．第一季度＋kyjf．第二季度＋kyjf．第三季度＋kyjf．第四季度）
+　　ENDFOR
+　　＊＊计算各季度费用的合计数
+　　hj1＝0 ＆＆第一季度的合计
+　　hj2＝0 ＆＆第二季度的合计
+　　hj3＝0 ＆＆第三季度的合计
+　　hj4＝0 ＆＆第四季度的合计
+　　FOR i＝0 TO j1
+　　　　go i＋1 ＆＆第i＋1条记录
+　　　　　＊＊计算各季度的合计数
+　　　　hj1＝hj1＋kyjf．一季度 ＆＆ 计算第一季度的合计
+　　　　hj2＝hj2＋kyjf．二季度 ＆＆ 计算第一季度的合计
+　　　　hj3＝hj3＋kyjf．三季度 ＆＆ 计算第一季度的合计
+　　　　hj4＝hj4＋kyjf．四季度 ＆＆ 计算第一季度的合计
+　　ENDFOR
+　　loTable．Cell（j1＋2，1）．Range．InsertAfter（″合 计″）
+　　loTable．Cell（j1＋2，2）．Range．InsertAfter（hj1）
+　　loTable．Cell（j1＋2，3）．Range．InsertAfter（hj2）
+　　loTable．Cell（j1＋2，4）．Range．InsertAfter（hj3）
+　　loTable．Cell（j1＋2，5）．Range．InsertAfter（hj4）
+　　＊＊计算全年费用的合计数
+　　loTable．Cell（j1＋2，6）．Range．InsertAfter（hj1＋hj2＋hj3＋hj4）
+　　OleApp．ActiveDocument．SaveAs（″D＼myvfp＼kwsjk＼temp．doc″） ＆＆ 保存Word报表文件
+　　OleApp．Quit　　　　＆＆ 退出Word
+　　程序在安装有Office97的WIN95／98／NT，中文VFP6．0下通过。图1即为程序运行的结果。
+
+图1 程序运行结果
+李元（贵阳贵州大学计算机软件与理论研究所550025）
+参考文献
+［1］李元．Visual FoxPro 6．0中调用AutoCAD的应用实例． 中国计算机报，1999年10月18日
+［2］Microsoft Corporation．Microsoft Visual FoxPro6．0程序 设计员指南．北京：希望电脑公司，1998
+［3］Bazian M．Visual FoxPro6．0开发使用手册．北京：机械工 业出版社，1999
+收稿日期：1999－11－10

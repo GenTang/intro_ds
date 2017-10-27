@@ -1,0 +1,141 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年 第2期 No.2 1999
+
+
+
+饮水中非挥发性有机污染物致突变性的防治对策
+王家玲　唐非　谷康定　汪亚州　张水兵
+　　摘要：针对饮水致突变物的主要成因研究了减少饮水致突变活性的措施.结果表明:进厂源水生物膜预处理,可使致突变前体物, 如藻、腐殖酸、总有机碳等含量分别减少68.2％、23.9％、37.2％, 使水厂加氯量减少50％, 最终使所制饮水的致突变性减少30％.改革加氯消毒方法可使饮水致突变活性降低,不同消毒剂所致致突变活性顺序为Cl2＞ClO2＞Cl2+ClO2＞源水.Cl2+ClO2等量联合消毒优于单一加氯消毒法,既可提高所试甲型肝炎病毒、脊髓灰质炎病毒及大肠杆菌f2噬菌体的灭活效果一至数倍；又可使饮水中CHCl3减少91.5％～96.5％,致突变活性减少27.6％.
+　　关键词：生物预处理；联合消毒；饮水；非挥发性有机物；致突变性
+　　中图分类号：TU991.2　　文献标识码：A　　文章编号：1000-6923(1999)02-0114-05
+On the control of mutagenicity of nonvolatile organic pollutants in drinking water.
+WANG Jia-lingTANGFeiGU Kang-dingWANG Ya-zhouZHANG Shui-bing
+(Institute of Environmental Medicine,Tongji Medical University,Wuhan 430030, China). China Environmental Science.1999,19(2)：114～118
+Abstract：Aiming at the main reasons of producing mutagenicity in drinking water,the measures for decreasing mutagenicity of drinking water were explored and compared.The results showed that using biofilm pretreatment of raw water in water works,the average reduction of algae, aquatic humic acid and TOC in the raw water could reach 68.2％, 23.9％ and 37.2％ respectively.The chlorine consumption of water was decreased by 50％ and the mutagenicity of drinking water was decreased by 30％. Altering disinfectants leads to the reduction of the mutagenicity of drinking water. The water treated by different disinfectants showed a consistent pattern of mutagenic potency, with decreasing activity in the order Cl2＞ClO2＞Cl2+ClO2＞raw water. The effects of inactivation of HAV,polio V and E.coli bacteriophage f2 treated by disinfectants indicated that the combination of Cl2 and ClO2 was one to several times higher than Cl2 alone. At the same time, the amount of CHCl3 in the waster treated with Cl2+ClO2 was decreased by 91.5％~ 96.5％ than that with Cl2 and its mutagenicity reduced by 27.6％.
+Key words：biological pretreatment；disinfectants combination；drinking water；nonvolatile organic compounds；mutagenicity
+　　饮水中致突变致癌物的生成及其防治是当今国内外研究的热点[1].同济医科大学80年代的研究工作[2]表明,武汉市重要饮水水源之一的东湖,其自来水的致突变活性高于同期长江自来水,更高于汉江自来水；继后的流行病学调查[3]亦证实,饮用东湖水人群某些癌症死亡率高于饮用长江自来水者.因此,饮水的致突变物污染亟待治理.同济医科大学曾研究国产聚合铝絮凝沉淀、高锰酸钾预处理及活性炭吸附等措施,获得一定效果[2,4].
+　　本研究以武汉富营养化湖泊东湖为主要对象,针对水源水有机污染及自来水厂加氯消毒等饮水有机致突变物的主要成因[2],选取适于国情可供自来水厂实用的技术措施,研究饮水中非挥发性致突变物生成的防治对策.
+1 材料与方法
+1.1 材料
+1.1.1 Ames致突变试验测试菌株 鼠伤寒沙门氏菌(Salmonella typhimurium)组氨酸营养缺陷型菌株TA98、TA100由美国Ames实验室赠予.
+1.1.2 病毒与宿主细胞 脊髓灰质炎病毒(Po-lioV)Ⅰ型为本实验室保存Sabin株；Vero细胞由同济医科大学附属协和医院提供；甲型肝炎病毒(HAV)Nj-3株、肝癌细胞PLC/PRF/5、大肠杆菌噬菌体f2、宿主菌285均由军事医学科学院惠赠.
+1.1.3 甲型肝炎抗体(抗HAV-IgG) 甲型肝炎患者恢复期血清由湖北医科大学及武汉市传染病院赠予；纯化的抗HAV-IgG部分由军事医学科学院赠予,部分由本实验室制备.
+1.1.4 吸附树脂 H103大孔树脂(苯乙烯-二乙烯苯共聚体)由南开大学提供.
+1.1.5 消毒剂 氯(Cl2)由漂白粉精片(保定市美佳利化工有限公司)溶解制备；二氧化氯(ClO2)由亚氯酸钠与盐酸反应[5]制备；臭氧(O3)由XFZ-5(A)型O3发生器(邢台环保仪器厂)产生.
+1.1.6 无机盐、有机试剂 试剂均为分析纯或优级纯；生化试剂Dextran sulfate 50等为进口分装；细胞培养基1640(美国生命公司产品).
+1.2 实验方法
+1.2.1 微生物学测定法 大肠菌群采用多管发酵法[6]；Polio V采用空斑定量法[7]；HAV采用ELISA法[7]；大肠杆菌f2噬菌体用空斑定量法[7].
+1.2.2 CHCl3测定 用顶空气相ECD色谱法[8].
+1.2.3 水中非挥发性有机物的浓集 参照王家玲等报道的方法[2]进行.
+1.2.4 Ames致突变试验[6]由于东湖饮水中主要存在移码型直接致突变物[2],Ames试验主要选用TA98菌株, 在不加S9的条件下进行,即TA98,-S9.结果以突变率MR(每皿诱发回变菌落数与自发回变菌落数之比)表示.MR≥2且呈剂量反应关系者为Ames试验阳性.研究中以比活性(获MR=2时所需水样量或剂量反应回归直线的斜率)进行比较来评价试验结果.
+1.2.5 统计学方法 数据资料用SAS软件包进行统计处理, 显著性检验水平均取a=0.05.
+2 结果与讨论
+2.1 源水生物膜预处理对饮水致突变性生成的影响源水有机污染是饮水致突变物生成的最主要原因[2].研究探索生物氧化法去除进入水厂源水中的有机污染物.由中国市政工程中南设计研究院设计并建设的生物膜接触氧化池设在东湖水厂,为三级串联池,有效容积15.5m3,充填蜂窝填料；设计进水流量8m3/h,水力停留时间1.9h；曝气方式为中心曝气,供气量8m3/h.结合该池对比研究了3种工艺流程所制饮水的致突变活性,这3种工艺流程为:
+B工艺: 水源水→生物预处理→混凝沉淀→砂滤→氯化→饮水, 即生物膜预处理(Biofilm pre-treatment)工艺
+R工艺: 水源水→预氯化→混凝沉淀→砂滤→后氯化→饮水,即常规(Routine treatment)工艺
+N工艺: 水源水→混凝沉淀→砂滤→氯化→饮水,即取消预氯化(Non-prechlorination)工艺.
+2.1.1 生物膜预处理对源水中致突变前体物及水厂加氯量的影响于不同季节多次现场采样测定,生物膜预处理可减少进厂源水中藻细胞数、腐殖酸及总有机碳含量(表1),平均去除率分别为68.2％、23.9％和37.2％.说明生物氧化法能有效地去除源水中有机物包括饮水中致突变物的前体物.
+表 1 生物膜预处理前后水中致突变前体物的含量
+Table 1 Contents of mutagen precursors in inflow and outflow water of biofilm pretreatment basin
+
+项 目有机物有机物平均
+去除率(%)
+进水出水 
+藻细胞数(万个/L)309±19198±7968.2
+腐殖酸 (mg/L)3.39±0.812.58±0.7623.9
+总有机碳 (mg/L)10.13±5.526.36±2.0837.2
+
+
+　　水厂源水中有机物减少,导致后加氯量的降低.研究表明,生物膜预处理工艺的加氯量较二次加氯工艺(R工艺)可平均减少59.6%,较取消预氯化的一次加氯工艺(N工艺)平均减少51.1%.
+2.1.2 生物膜预处理对饮水致突变性生成的影响 在不同季节,数次对比研究了3 种工艺流程所制饮水的致突变活性,实验结果见图1,图2.
+
+
+图 1 R、B工艺处理后饮水致突变性的比较(TA98,-S9)
+Fig.1 Comparison of mutagenicity in water treatedby B and R process
+
+
+图 2 N、B工艺处理后饮水致突变性的比较(TA98,-S9)
+Fig.2 Comparison of mutagenicity in water treatedby B and N process
+　　从图1看出, 在试验条件下,B工艺所制饮水的致突变活性较R工艺平均降低率为29.4％；图2结果表明,B工艺所制饮水的致突变活性较N工艺平均降低率为31.2％.二者经统计分析均为显著性差异.由此可见,广泛用于有机废水处理的生物氧化法,也适用于自来水厂源水预处理,有利于去除饮水中的致癌致突变物,它是一种经济、有效、适于国情的好方法.
+2.2 改变消毒方法对饮水致突变性生成的影响
+　　水厂加氯消毒使自来水中生成对人体有害的消毒副产物.文献[4,9]报道了以东湖水源水及湖中优势藻类代谢液为消毒对象的研究结果,各消毒剂所致饮水致突变性强度顺序为Cl2＞ClO2＞O3,是与国内外其它水源水的研究结果相同.鉴于自来水单一加Cl2消毒不能完全杀灭病毒[1],单一ClO2消毒可产生引起实验动物溶血的歧化产物ClO2-和ClO3-[1,10]；研究将Cl2和ClO2等量同时投加联合消毒,与单一加Cl2消毒对比,考查对水中脊髓灰质炎病毒(Polio V)、甲型肝炎病毒(HAV)、大肠杆菌噬菌体f2的灭活,以及减少饮水致癌致突变物生成的影响.
+2.2.1 病毒灭活实验 在100mL模拟水样(双蒸水+黄腐酸,COD为20mg/L)中投加1mL病毒悬液,约为104～105PFU/mL,混匀,然后投加一定浓度消毒剂,在不同时间取样,并中和剩余消毒剂,同时取未加消毒剂的平行样品作对照,所获样品立即投入感染性试验.
+　　以浓度时间乘积(C×T)衡量其消毒效果,消毒剂使Polio V和f2噬菌体达到99.99%灭活的C×T结果列于表2.消毒剂对HAV抗原性破坏的实验结果(ELISA法)以P/N值比较,结果列于表3.
+表 2 不同消毒剂使Polio V和f2噬菌体达到99.99%灭活的浓度时间乘积（C×T）结果
+Table 2 Values of C×T for 99.99％ inactivation of poliovirus and E.coli bacteriophage f2 by disinfectants
+病毒消毒剂剂量
+(mg/L)99.99%
+灭活时间
+(min)余氯(mg/L)
+游离性 结合性剩余ClO2
+(mg/L)剩余O3
+(mg/L)C×T值
+(mg/L× min)
+PolioCl28.082.80.034.88--662.5
+病毒ClO28.016.10.280.251.72-129.5
+　Cl2+ ClO24.0+4.025.00.133.410.50-200.0
+　O31.22.7---未检出3.2
+f2噬菌体Cl25.083.00.003.36--414.8
+　ClO25.03.50.130.171.23-17.3
+　Cl2+ ClO22.5+2.510.20.052.190.35-50.9
+　O30.672.4---未检出1.6
+注:水温10℃±1℃ pH值为6.2±0.3
+　　由表2,表3可见,各消毒剂对病毒的灭活效果为O3＞ClO2＞Cl2+ClO2＞Cl2；将Cl2+ClO2联合消毒与传统单一Cl2消毒两者相比,在实验条件下对Polio V灭活效果前者为后者的3.3倍,f2噬菌体为8.1倍,HAN为1.4倍,这一结果充分表明Cl2+ClO2联合消毒对病毒的灭活优于单一加氯消毒.
+表 3 不同消毒剂对HAV抗原性破坏的效果(ELISA法)
+Table 3 Effect on the destroy of HAAg by different disinfectants
+
+消毒剂剂量(mg/L)P/N值(接触30min)
+Cl2204.8
+　303.7
+　502.1
+ClO2202.4
+　302.1
+　501.5
+Cl2+ ClO210+103.5
+　15+152.5
+　25+251.8
+
+注:P/N值为阳性(P)与阴性(N)对照比值
+2.2.2 致突变实验 以各消毒剂灭活水中
+　　99.99％ f2 噬菌体的剂量[11],对东湖源水进行消毒,比较消毒水样的致突变性,结果见图3.由图3可知,各水样的致突变性强度顺序为Cl2＞ClO2＞Cl2+ClO2＞源水.经统计学检验,总体样本存在显著差异(P＜0.01).说明Cl2+ClO2联合消毒可降低饮水致突变性,与单一加Cl2消毒相比可使致突变性下降27.6％.同时,用气相色谱检测水样挥发性的CHCl3和CCl4的结果见表4.由表4可见,Cl2+ClO2联合消毒水样CHCl3生成量,与单一ClO2消毒相比,可减少91.5%～96.5%.水样中基本未检出CCl4.
+
+
+图 3 东湖水经不同消毒剂处理后致突变性比较(TA98,-S9)
+Fig.3 Comparison of mutagenicity in water treatedwith different disinfectants
+1.Cl2 2.ClO2 3.原水 4.Cl2+ClO2
+表 4 东湖水经不同消毒剂处理后CHCl3与CCl4生成量比较
+Table 4 Comparison of the formation of CHCl3 and CCl4 in Donghu Lake water treated with disinfectants 
+
+消毒剂剂量
+(mg/L)CHCl3
+(m g/L)CCl4
+(m g/L)
+Cl20(源水)0.00.0
+　8.577.85±13.570.0
+　17.0132.82±33.860.0
+ClO25.011.53±1.860.0
+　10.03.08±5.820.0
+Cl2+ ClO22.5+2.52.73±0.150.0
+　5.0+5.011.33±3.340.0
+
+　　综上实验说明,Cl2+ClO2联合消毒比单一加Cl2消毒,既有利于杀灭水中病毒,又可降低饮水致突变性.同时,两者联用可消除单用ClO2时所产生的ClO2-、ClO3-等有毒副产物[10]. 因此,Cl2+ClO2联合消毒是一种具有开发前景的饮水消毒法；建议自来水厂创造条件应用此种联合消毒代替传统的加氯消毒.
+3 小结
+3.1 应用生物氧化法对水厂源水进行预处理,可以减少源水中致突变前体物,其平均去除率为藻细胞数68.2％、水生腐殖酸23.9％、总有机碳量37.2％；可减少水厂制水的加氯量,生物膜预处理工艺加氯量较二次加氯工艺和一次加氯工艺(即取消预加氯)分别减少59.6％和51.1％；生物膜预处理最终导致减少饮水致突变物生成,与二次加氯工艺和一次加氯工艺相比,其致突变性分别减少29.4％和31.2％.
+3.2 改变水厂消毒剂与消毒方式,应用源水生物膜预处理,可将传统二次加氯消毒改为一次.不同消毒剂对甲型肝炎病毒、脊髓灰质炎病毒和大肠杆菌f2噬菌体的灭活强度取得了一致的顺序,即O3＞ClO2＞Cl2+ClO2＞Cl2；联合消毒与单一Cl2消毒相比,对Polio V灭活效果前者为后者的3.3倍,f2噬菌体为8.1倍,HAV为1.4倍.不同消毒剂所致饮水致突变性的顺序为Cl2＞ClO2＞Cl2+ClO2＞源水；将联合消毒与单一Cl2消毒两者比较,可使饮水中非挥发性有机物致突变性下降27.6%,挥发性致癌物CHCl3减少91.5%～96.5%.
+致谢：参加本研究的还有肖庚富、黄 正、运珞珈、刘红艳等同志,蔡宏道教授给予关心和指导,在此表示衷心感谢.
+基金项目："八五"国家科技攻关项目(85-903-01-04-03)；国家自然科学基金资助项目(39000089)
+作者单位：王家玲　唐非　谷康定　汪亚州　张水兵（同济医科大学环境医学研究所,湖北 武汉 430030）
+作者简介：王家玲(1930-),女,浙江嘉兴人,同济医科大学环境医学研究所教授、博士生导师,主要从事环境微生物学、环境卫生学的教学与研究工作.主持“水中非挥发性有机污染物致突变性研究”(获国家环境保护局及卫生部科技进步三等奖)；“富营养化湖泊饮水致突变物生成量控制技术”(获建设部科技进步二等奖)等研究工作.发表论文50余篇.
+收稿日期：1998-08-07
+参考文献：
+　[1]蔡宏道.现代环境卫生学[M].第1版.北京:人民卫生出版社,1995.
+　[2]王家玲,朱良金,杨晓萍等.水中非挥发性有机物致突变性的研究[J].中国环境科学,1987,7(1):24-27.
+　[3]李国光,何尚浦,施侣元等.饮用D湖自来水的人群癌症危险度的回顾性研究[J].同济医科大学学报,1992,21(3):181-184.[4]唐非,谷康定,张晓敏等.几种消毒剂对饮水致突变活性的影响[J].环境科学,1995,16(6):17-19.
+　[5]American Public Health Association.Standard methods for the examination of water and wastewater [M].19th ed.,Was-hington D.C.：American Public Health Association,1992.
+　[6]王家玲.环境微生物学实验[M].第1版.北京:高等教育出版社,1988.
+　[7]黄桢祥.医学病毒学基础及实验技术[M].第1版.北京:科学出版社,1990.
+　[8]国家环境保护局《水和废水监测分析方法》编委会.水和废水监测分析方法 [M].第3版.北京:中国环境科学出版社,1989.
+　[9]黄正,曾丹,唐非等.3种消毒剂对藻代谢物致突变性的影响[J].中国公共卫生,1995,11(3):107.
+　[10]Anat Katz, Nava Narkis, Frieda Orshansky,et al.Disinfectionof effluent by combinations of equal doses of chlorine dio-xide and chlorine added simultaneously over varying conta-ct times[J].Water Research, 1994,28(10):2133-2138.
+　[11]谷康定,唐非,张水兵等.3种消毒剂及不同组合方式对f2噬菌体的灭活作用.中国公共卫生,1997,13(11):703.

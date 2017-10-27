@@ -1,0 +1,76 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第3期　Vol.19 No.3 1999
+
+
+
+HDTMA改性粘土对模拟地下水中苯系物的吸附
+李万山　高　斌　冯建坊　王晓蓉
+摘要：以季铵盐(QAC〕阳离子表面活性剂十六烷基三甲基铵离子(HDTMA)改性膨润土和凹凸棒土,研究它们对模拟地下水中的苯、甲苯、二甲苯的吸附作用.结果表明,两种HDTMA改性粘土矿物的有机质含量分别提高了54.8和404.5倍,它们可以有效地吸附模拟地下水中的苯系物,吸附量比原粘土矿物高出几十至几百倍.对苯、甲苯、二甲苯来说,改性凹凸棒土和膨润土的吸附系数分别是原土的79.5和289倍、106和334倍、418和578倍.吸附机理较复杂,主要以分配为主.
+关键词：HDTMA改性粘土；阳离子表面活性剂；吸附；分配
+中图分类号：X523 文献标识码：A 文章编号：1000- 6923(1999)03- 0211- 04
+Sorption of benzene homologues in simulated groundwater 
+by HDTMA modified clays.
+LI Wan-shan,GAO Bin, FENG Jian-fang,WANG Xiao-rong 
+(State Key Laboratory of Pollution Control and Resource Reuse, Department of Environmental Science and Engineering, Nanjing University, Nanjing 210093, China). China Environmental Science. 1999,19(3)：211～214
+Abstract：Modifying bentomite and attapulgite with a quaternary ammonium compound(QAC) hexadecyltrimethylammonium (HDTMA) have been done. The sorption of benzene,tuluene and xylene in simulated groundwater by HDTMA modified clays has been studied. The organic matter (OM) contents of two kinds of modified clays have been enhanced 54.8 and 404.5 times respectively. Modified clays have good sorption effects,sorption amount of modified ones is about tens to hundreds times higher than the original ones.To benzene,tuluene and xylene,sorption coefficients of modified attapulgite and bentonite are 79.5 and 289,106 and 334,418 and 578 times than the original ones respectively.Sorption mechanism are complex, but partition is the predominant.
+Key words：HDTMA modified clays；cationic surfactant；sorption；partition
+　　国外发达国家大量工业废物处理场、填埋场或油库等,由于有毒、难降解有机污染物泄漏,严重污染了土壤和地下水,从而引起了普遍关注,并对此开展了大量修复研究[1].在众多的修复计划中,利用表面活性剂改性天然粘土,使其成为有机粘土矿物(Organoclay mineral),用于土壤和地下水有机污染修复的研究,获得较大的进展,并成为国外该领域的研究热点.
+　　我国工业废水、固体废物的大量排放及地下水的超量开采,已使地下水受到了普遍污染,因此,开展受污染土壤、地下水的修复研究刻不容缓.另外,我国粘土矿物资源丰富,用表面活性剂制备有机粘土价廉易得,是一种符合我国国情的有效方法.
+　　本文针对地下水有机污染物以芳香族化合物为主这一特点,以阳离子表面活性剂HDTMA改性两种粘土,研究它们对模拟地下水中苯、甲苯、二甲苯的吸附效果,并对吸附机理进行了讨论.
+1 实验部分
+1.1 材料及仪器
+1.1.1 土样的采集和制备 将钙型膨润土(南京大学地球科学系提供)、凹凸棒土(采自江苏盱眙)碾碎,过130目筛,储于广口瓶中备用. 
+1.1.2 模拟地下水 根据有关单位提供的地下水,用蒸馏水配成模拟地下水备用.地下水中主要离子:NO3- 35.9mg/L,Cl-392mg/L,HCO3- 415mg/L,Ca2+ 171mg/L,K+ 22.7mg/L,Mg2+ 30.9 mg/L,Na+ 156mg/L.
+1.1.3 仪器 Z-8100 原子吸收分光光度计; Varian 6000型气相色谱仪;LG10-2.4型高速离心机;THZ-82型恒温振荡器.
+1.2 实验方法
+1.2.1 土样阳离子交换容量(CEC)的测定[2,3]称取1g左右粘土于30mL离心管中,以0.1 mol/L CaCl2溶液将粘土中可交换阳离子全部置 换成Ca2+,再以0.1mol/L的BaCl2将溶液中Ca2+置换下来,用原子吸收分光光度计测定置换下来的Ca2+浓度,计算出粘土样品的CEC.
+1.2.2 土样有机碳含量的测定[3] 准确称取0.05～0.5g 左右的土样,移入100mL的锥形瓶中,加入约0.1g粉末状Ag2SO4,然后加入10.00 mL0.4N K2Cr2O7-H2SO4溶液.在每个锥形瓶上插一根冷凝管,在电热板上加热至沸腾并持续5min,将锥形瓶从电热板上取下,冷却后加入2～3滴邻菲咯啉指示剂,然后以经0.1N K2Cr2O7标准溶液标定的0.1N FeSO4溶液滴定.变色过程为橙黄—蓝绿—棕红.以同样的操作过程作样品空白.
+1.2.3 有机粘土的制备[4] 称取一定量的粘土,置于烧杯中,以相当于其CEC量浓度为0.03M的十六烷基三甲基溴化铵(HDTMA)溶液交换,制得的土样在小于40℃的鼓风干燥箱中干燥后,重新碾磨成130目,储于广口瓶中备用.
+1.2.4 吸附实验 称取0.5g左右的有机粘土于离心管中,加入25mL模拟地下水,用微量进样器准确吸取一定体积的苯系物注入离心管,迅速拧紧盖子,在20℃恒温振荡器上振荡24h左右,以保证达到吸附平衡.离心,取上层清液5mL以CS2萃取,用气相色谱仪测定苯系物的浓度.
+2　结果与讨论
+2.1 HDTMA改性粘土和未改性粘土对模拟地下水中苯系物吸附效果的比较用相当于1CEC量的HDTMA改性膨润土和凹凸棒土,制得两种有机粘土,用于研究对模拟地下水中苯、甲苯、二甲苯的吸附.天然粘土矿物存在着大量可交换的亲水性无机阳离子,使天然粘土表面通常有一层薄薄的水膜,因而不能有效地吸附疏水性有机污染物[5].而当以HDTMA改性天然粘土,制成有机粘土后,有机阳离子的N端被交换吸附在带负电荷的粘土表面上,烷基链相互挤在一起形成有机相,可以提高粘土表面的疏水性,从而有效地吸附疏水性有机污染物.根据分配理论,改性粘土对地下水中苯、甲苯、二甲苯的吸附效果应该比未改性粘土好的多.从图1,图2均可看出,两种有机粘土对所有的苯系物的吸附量都比未改性粘土高几十至几百倍. 
+2.2 吸附等温线
+　　从图1,图2中可看出,改性有机粘土的吸附等温线大多为中凹型或者是双“S”型曲线(图1中的苯),这说明吸附是多种机理共同作用的结果.HDTMA改性后的有机粘土层面间由于大量的有机阳离子的存在形成了憎水相(即有机相),该憎水相可作为有机污染物的很好的有机分配相,而被吸附的有机物的量可能会超过HDTMA相.由于大量被吸附有机污染物的存在,加大了憎水相的溶解力,形成溶剂化效应,提高了吸附量,使得等温线上翘呈中凹型.
+　　根据国外研究表明[6],各种有机粘土中有机相层排列不同,可分为平卧层、双分子层、准三分子层和斜立层.其中斜立层有机相中HDTMA分子尾端灵活、溶解力强,有机污染物在水相和有机相分配.对平卧层、双分子层、准三分子层而言,其有机相中HDTMA分子固定,在低浓度时,有机污染物主要在HDTMA和粘土表面溶解,当有机物溶解度慢慢增大后,HDTMA链脱离表面,形成有机相,此时分配成为主要机理.当吸附的有机污染物越来越多时,有机相的溶解力会增大,从而产生溶剂化效应,溶剂化效应和分配效应共同作用,使吸附等温线呈中凹型或双“S”型.
+　　综上所述,HDTMA改性粘土对模拟地下水中的苯系物的吸附机理主要以分配为主,其吸附等温线呈中凹型或双“S”型.
+
+图1　HDTMA改性膨润土和原土对苯系物的吸附等温线
+Fig.1 Sorption isotherms of HDTMA modified bentonite and original ones
+to benzene homologues
+
+图2　HDTMA改性凹凸棒土和原土对苯系物的吸附等温线
+Fig.2 Sorption isotherms of HDTMA modified attapulgite and original ones
+to benzene homologues
+2.3 HDTMA改性粘土与原粘土吸附系数的比较
+　　由于分配机理为吸附的主要机理,有机污染物在水相和粘土矿物有机相间分配,粘土的有机相的大小可以通过其有机质(Organic Matter)含量反映.有机质含量高,土样有机相大,它的吸附能力就高.表1列出了以HDTMA改性膨润土、凹凸棒土制得的有机粘土和未改性粘土的有机质含量.
+　　从表1可以看出,经HDTMA季铵盐阳离子表面活性剂改性后,粘土矿物的有机质含量提高了54.8和404.5倍,由此可见改性后的有机粘土有机物质含量大大提高,因此其对有机污染物的吸附量明显高于未改性粘土.原土和改性土中均含有机质,改性土中的有机质等于原土有机质加上HDTMA所带入的有机质.可见粘土通过吸着HDTMA阳离子而增加的有机物质比原土中的有机物质要多得多.因此HDTMA是一种很好的改性物质.
+表1　HDTMA改性粘土和原粘土的有机质含量
+Table 1 The organic matter of HDTMA modified clays and original ones
+项 目原凹凸棒土改性凹凸棒土原膨润土改性膨润土
+CEC(cmol/kg)20.89- 54.97- 
+有机质含量(%)0.063.290.028.09
+
+　　以拟合直线的方法分别求得未改性粘土和HDTMA改性粘土对苯系物的吸附系数(K0、K)如表2所示.
+　　与未改性粘土相比,有机改性粘土对苯系物吸附能力增加明显.有机粘土吸附模拟地下水中苯系物的吸附系数比未改性粘土的吸附系数高2个数量级.通过表2的K/K0值可以看出,经HDTMA改性的粘土吸附模拟地下水中苯系物的能力是天然粘土吸附能力的几十倍至几百倍.因此,经HDTMA有机阳离子改性的粘土是一种很好的吸附剂,能够大大提高未改性粘土对有机污染物的吸附能力.
+表2　膨润土、凹凸棒土吸附苯系物的吸附系数
+Table 2　The sorption coefficients of benzene homologues by bentonite and attapulgite
+苯系物膨润土凹凸棒土
+原土的K0 改性土的K K/K0原土的K0 改性土的K K/K0
+苯1.74 488 280 2.00 159 79.5 
+甲苯1.30 434 334 1.00 106 106
+二甲苯0.80 462 5780.40 167 418
+
+3　结　论
+　　阳离子表面活性剂HDTMA可作为粘土矿物改良剂,提高粘土矿物的有机质含量;改性后的有机粘土吸附苯系物时的吸附等温线主要为中凹型或双“S”型;吸附机理以分配为主.以HDTMA 制备的有机粘土对地下水中的苯系物的吸附效果很好,是一种很好的吸附剂,可用于对有机污染的地下水的修复工作. 
+基金项目：国家自然科学基金资助项目(29777014);江苏省环保局资助项目(9710)
+作者简介：李万山(1968-),男,湖南长沙人,南京大学环境化学硕士.主要从事地下水修复的研究工作.承担过国家自然科学基金项目,发表论文2篇.
+作者单位：（南京大学环境科学与工程系,污染控制与资源化研究国家重点实验室,江苏 南京 210093）
+参考文献：
+[1]王晓蓉,吴顺年,李万山等. 有机粘土矿物对污染环境修复的研究进展 [J]. 环境化学, 1997,16(1): 1- 14.
+[2]佩 奇,米 勒等.闵九康等译.土壤分析法 [M].北京:中国农业科技出版社 ,1991. 103- 105,386- 398. 
+[3]中国土壤学会农业化学专业委员会.土壤农业化学常规分析方法 [M].北京:科学出版社,1986.67- 74.
+[4]Lee J F,Crum J, Boyd S A.Enhanced retention of organic contaminants by soils exchanged with organic cations [J].Environ. Sci. Tech.,1989, 23:1365- 1372.
+[5]Boyd S A,Jaynes W F,Ross B S.Immobilization of organic contaminants by organoclays:application to soil restoration and migration of hydrophobic organic contaminants [A].Baker R A (ed.).Organic substances and sediments in water [C].Chelsea. MI: Lewis Publishers,1991.1:181- 200.
+[6]Allred B,Brown G O.Surfactant-induced reductions in soil hydraulic conductivity [J].Ground-Water Management Res., 1994, (Spring):174- 184.
+收稿日期：1998-09-28

@@ -1,0 +1,98 @@
+自动化学报
+ACTA AUTOMATICA SINICA
+1999年　第25卷　第5期　Vol.25 No.5 1999
+
+
+
+
+区间系统的H∞鲁棒控制1)
+吴方向　史忠科　戴冠中
+关键词　区间系统，H∞控制，鲁棒镇定，干扰抑制.
+H∞ ROBUST CONTROL FOR INTERVAL SYSTEMS
+WU Fangxiang　SHI Zhongke　DAI Guanzhong
+(Department of Automatic Control, Northwestern Polytechnical University, Xi'an　710072)
+Key words　Interval system, H∞ control, robust stabilization, disturbance attenuation.
+1　引　言
+　　实际工程控制系统中存在着各种不确定性和干扰，其中有一类不确定性可描述为系统的状态矩阵的各个元素在一些确定的区间内变化，这就是所谓区间控制系统.例如，飞机运动系统、电机控制系统、以及各种T-S型模糊控制系统［9］均可视为区间控制系统.近年来，关于区间系统鲁棒稳定性和H∞鲁棒控制理论的研究已取得了许多成果［1—8］.但关于区间控制系统的鲁棒镇定和干扰抑制问题研究的还不多.本文将利用H∞鲁棒控制理论中的Riccati方程方法，研究区间控制系统鲁棒镇定的同时并将干扰抑制到一定水平的问题.
+2　预备知识
+　　考虑区间控制系统
+　(1a)
+z(t)=Cx(t)+Du(t),　(1b)
+其中x∈Rn为状态向量，u∈Rm为控制向量，z∈Rq为评价信号，w∈Rp为平方可积的干扰信号，B，C，D为适当维数的常数矩阵，A为状态矩阵.A中的元素不能完全确定，但是，它们属于某些确定的区间，即
+A∈［P,Q］=｛A∈Rn×n｜pij≤aij≤qij,i,j=1,…,n｝,　(1c)
+其中P，Q为确定的矩阵.令
+　(2)
+显然，H的每一个元素都是非负数.可以验证(见附录A)，区间矩阵(1c)可等价地表示为下列形式：
+［P,Q］=｛A=A0+E∑F｜∑=diag［ε11，…，ε1n，……，εn1，…，εnn］｝，　(3)
+其中
+│εij│≤1，i，j=1，…，n，
+
+
+这里ei(i=1,…,n)为第i个元素是1其余元素为零的单位列向量，E为n×n2阶矩阵，F为n2×n阶矩阵，∑为n2×n2阶对角矩阵，并且∑T∑≤In2，In2表示n2阶单位矩阵.
+　　本文研究的问题是：如何设计线性状态反馈控制器
+u(t)=Kx(t)，　(4)
+使区间控制系统(1)满足如下性能指标：
+　　1) 当ω=0时，对A∈［P,Q］，闭环系统内部稳定，即A+BK渐近稳定；
+　　2) 对于A∈［P,Q］，闭环系统满足
+‖Tzω(jω)‖∞≤γ，　(5)
+其中Tzω(s)=(C+DK)(sI-A-BK)-1B1为闭环系统的干扰到评价信号的传递函数.γ＞0为给定常数，表示系统抑制干扰的水平.
+3　区间系统的H∞鲁棒控制
+　　为简化数学推导，本文仅考虑在式(1b)中D=0　的情形.对此，有如下结论：
+　　定理1.　对于给定的γ＞0，如果存在常数ε>0，λ>0，使代数Riccati不等式方程
+AT0X+XA0+X(λ-2EET+γ-2B1BT1-ε-2BBT)X+λ2FTF+CTC<0　(6)
+有对称正定解X，那么存在状态反馈阵K，使闭环系统(1)，(4)同时满足性能指标1)，2).在这种情况下
+　(7)
+　　证明.设X是式(6)的对称正定解，由于∑T∑≤In2，以及
+(λ-1ETX-λ∑F)T(λ-1ETX-λ∑F)≥0，
+很容易得到
+(E∑F)TX+X(E∑F)≤λ-2XEETX+λ2FTF.　(8)
+令　　
+由式(8)
+ATKX+XAK+γ-2XB1BT1X+CTC
+　=AT0X+XA0+(E∑F)TX+X(E∑F)-ε-2XBBTX+γ-2XB1BT1X+CTC
+　≤AT0X+XA0+λ-2XEETX+λ2FTF-ε-2XBBTX+γ-2XB1BT1X+CTC.
+那么由式(6)，下列不等式
+ATKX+XAK+γ-2XB1BT1X+CTC<0，　A　∈［P，Q］　(9)
+成立.由Lyapunov稳定性理论，从式(9)可得线性状态反馈器使闭环系统(1)，(4)满足性能指标1).下面证明闭环系统满足性能指标2).
+　　式(9)等价于
+-(jIω-AK)X-X(jIω-AK)+γ-2XB1BT1X+CTC<0，ω≥0，A∈［P，Q］　(10)
+这里上标*表示复数矩阵的共轭转置.对式(10)两边左乘BT1［(jIω-AK)］-1，右乘(jIω-AK)-1B1，并令Y(jω)=BTX(jIω-AK)-1B1，那么整理可得
+-Y(jω)-Y*(jω)+γ-2Y*(jω)Y(jω)+T*zω(jω)Tzω(jω)≤0.　(11)
+进一步，有
+T*zω(jω)Tzω(jω)≤γ2I-γ2I+Y(jω)+Y*(jω)-γ-2Y*(jω)Y(jω)
+=γ2I-［γI-γ-1Y(jω)］*［γI-γ-1Y(jω)］≤γ2I.　(12)
+由H∞范数的定义［7］，式(12)等价于式(5)，即闭环系统满足性能指标2).证毕.
+　　注记.尽管E，F都是高阶矩阵，但是在定理1中只须计算EET，FTF，而它们均为n阶对角矩阵，具体地
+　(13)
+
+4　结　论
+　　作者给出了区间系统H∞鲁棒镇定的充分条件，这个条件不仅保证闭环区间系统内部稳定，而且保证区间系统的H∞范数在一定的界内，即对干扰的抑制达到一定的水平.根据所给的充分条件，通过解一个代数Riccati不等式方程，很容易得到H∞鲁棒镇定的控制律.值得一提的是求解代数Riccati不等式方程在H∞控制中已有标准的工具.
+1) 国家自然科学基金和航空院校自选课题基金资助项目.
+作者简介：吴方向　男，1966年生.分别于1990年和1993年在大连理工大学应用数学系获得学士学位和硕士学位，1998年获西北工业大学自动控制理论及应用专业博士学位.现为西北工业大学自动控制系副教授.感兴趣的研究方向：模糊控制、鲁棒控制、非线性控制以及复杂控制系统的稳定性分析及应用等.
+　　　　　史忠科　男，1956年生.毕业于西北工业大学，获博士学位.现为西北工业大学自动控制系教授、博士生导师.目前的研究领域：估计、辩识方法、鲁棒控制、智能控制、交通控制等.
+　　　　　戴冠中　男，1937年生.西北工业大学教授、现任校长，“控制理论及控制工程”学科博士生导师.目前的研究方向：具有通讯网络的大系统理论、智能控制与应用、并行处理与并行仿真计算机、控制理论在信号处理中的应用等.
+作者单位：西北工业大学自动控制系　西安　710072
+参考文献
+1　Bialas S. A necessary and sufficient condition for the stability of interval matrices.Int. J. Contr., 1983，37(4)：717—722
+2　Barmish B R et al. Counter-example to a recent result on the stability of interval matrices by Bialas.Int. J. Contr.,1984，39(5)：1103—1104
+3　Juang Y T et al. Root-locus approach to the stability analysis of interval matrices. Int. J. Contr., 1987，46(3)：817—822
+4　Han Q L et al. Counter-example to ‘Root-locus approach to the stability analysis of interval matrices'. Int. J. Contr., 1990，51(2)：499—500
+5　Soh C B. Robust stability of dynamic interval matrices.Control Theory and Advanced Technology,1994，10(1):73—80
+6　Khargoneker P P et al. Robust stabilization of uncertain linear systems: Quadratic stabilizabilty and H∞ control theory. IEEE Trans. Automat. Contr.,1990，35(3):356—361
+7　Doyle J C et al. State-space solution to standard H2 and H∞ control problem.IEEE Trans. Automat. Control, 1989，34(8)：831—847
+8　Francis B A. A course in H∞ control theory, New York:Springer-Verlag,1987
+9　Gao S G et al. Analysis and design of fuzzy control systems using dynamic fuzzy global models.Fuzzy Set and System, 1995，75(1)：47—62
+附录A
+　　区间矩阵的表达式(1c)和表达式(3)等价性的证明.为了叙述起见，［P,Q］(1c)记作表达式(1c)定义的矩阵集合，［P,Q］(3)记作表达式　(3)定义的矩阵集合.
+　　由式(1c)，(2)可知，对A∈［P,Q］(1c)，均可等价的表示为
+　(a1)
+这里Hij表示第i行第j列元素为hij，其余元素为零的n×n维矩阵，-1≤εij≤1(1≤i,j≤n).容易验证，可将Hij分解为
+　(a2)
+将式(a2)代入式(a1)，由矩阵E，F，∑的定义，可得
+　(a3)
+式(a1)—(a3)说明，
+　　另一方面，由于上述式(a1)—(a3)的推导过程步步可逆，所以可以得到
+
+　　综上所述，［P,Q］(1c)=［P,Q］(3)，即区间矩阵的表达式(1c)和表达式(3)是等价的.
+收稿日期：1997-08-11
+修稿日期：1998-06-08

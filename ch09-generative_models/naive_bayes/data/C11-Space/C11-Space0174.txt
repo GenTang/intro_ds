@@ -1,0 +1,76 @@
+宇 航 学 报
+JOURNAL OF ASTRONAUTICS
+1998年  第3期   No.3 May   1998
+科技期刊
+在轨航天器连接结构动力学及
+其参数辨识*
+
+吴志刚　王本利
+(哈尔滨工业大学航天工程与力学系 * 哈尔滨 * 150001)
+马兴瑞
+(中国空间技术研究院 * 北京 * 100081)
+　　摘　要　连接结构广泛用于各种航天器中,这些大量使用的连接结构由于其较低的刚度或非线性特性,会对航天器的动力学特性产生显著的影响。本文简要介绍了与在轨航天器连接结构动力学问题有关的以下问题:航天器中所使用连接结构的动力学模型及其参数辨识问题,连接结构对航天器结构动特性的影响,含连接结构动力学系统的周期解、分叉和混沌。
+　　主题词　航天器　连接结构　动响应　参数辨识
+DYNAMICS AND PARAMETERS IDENTIFICATION 
+OF JOINTS IN SPACECRAFT
+
+Wu Zhigang　Wang Benli
+(Harbin Institute of Technology * Harbin * 150001)
+Ma Xingrui
+(Chinese Academy of Space Technology * Beijing * 100081)
+　　Abstract　The presence of joints can strongly affect the dynamics of spaceraft,especially if the joints are numerous,of low stiffness,or nonlinear.This paper presents an overview of the recent advances in dynamics and parameter identification of joints in spacecraft.Several problems are discussed including different kinds of joint structure,dynamic models of these joints,dynamic characteristics of spacecraft affected by joints,and parameter identification of joints.Further more,the periodic response analysis,bifurcation and chaos of dynamic system including joints are presented too.
+　　Key words　Spacecraft　Nonlinear joints　Dynamic response　Parameter identification
+1　引　言
+　　现代航天技术的发展,对航天器结构动力学的研究提出了新的问题和研究领域。许多航天结构趋向于大型化,复杂化,连接结构广泛用于各种航天器中。这些大量使用的连接结构由于结构构形和工况的复杂性和多样性,其力学特性受多种因素的影响而相当复杂,很难建立统一有效的模型。
+　　对在轨航天器结构的动力学实验表明,连接结构是结构非线性和无源被动阻尼的主要构成部分［1］,在轨航天器中连接结构所产生的阻尼和结构非线性比其他因素(诸如材料结构阻尼与刚度,几何大变形等)所产生的阻尼与非线性高出一至二个数量级。其阻尼和非线性刚度分布于各离散位置上,并对整体结构的模态造成影响,导致模态密集和非线性耦合等现象,给准确预测大型复杂空间结构的动力学特性带来许多困难。
+　　大型复杂航天器主要由桁架、梁、板、壳等简单子结构通过连接结构组装在一起,相对来讲,对这些子结构的力学特性研究已经相当深入与成熟,实验表明,这些组成部件可用线性模型来很好地描述。而连接结构动力学特性的研究迄今为止依然是航天器结构动力学分析中一个比较薄弱的环节。以美国“自由号”空间站为例(Space Station Freedom),其主框架结构为桁架结构,结构中有大量的连接件存在,其结构动力学问题有着很广泛的内容,目前有许多研究以其为背景。包括:连接结构本身的力学特性(建模与参数辨识);连接结构参数的变化对整体结构动响应的影响;连接结构的存在导致系统运动的分叉和混沌现象等。由此可见,航天器连接结构的动力学问题具有丰富的工程背景,并要求有与之相适应的理论分析和实验方法的研究。本文主要介绍以下方面的研究工作:连接结构的力学模型及其参数辨识;连接结构对航天器结构动特性的影响;含连接结构动力学系统的周期解、分叉和混沌。
+2　连接结构力学模型的建立
+　　连接结构一般可分为两大类,即固定式连接结构和活动式连接结构。固定式连接结构有焊接、铆接、胶接、螺接、卡环、挡环、嵌键等形式;活动式连接结构多为各种形式的柱铰和球铰,有些带有展开式弹簧和锁定装置。根据所研究问题的需要,可以建立连接结构的线性或非线性动力学模型。建立哪一种模型要以是否满足动力学分析与实验的要求为标准,复杂的非线性动力学模型并不是必需的。
+2.1　线性模型
+　　连接结构线性模型大体上可分为两类,一类是将连接结构简化为一个或几个自由度的集总参数子结构。这类模型在整体结构动力学特性分析时首先按其在结构中的位置构成连接子结构的质量、刚度、阻尼矩阵,然后将其迭加入总体质量、刚度、阻尼矩阵中进行分析,文献［2］［20］采用了这类模型。连接结构的另一类线性模型将连接结构划分为多个有限单元,用有限元法生成连接结构的刚度阵与质量阵,这种模型能方便地用于有限元法分析整体结构固有特性［4］。
+2.2　非线性模型
+　　连接结构的非线性模型形式是多种多样的,实验表明连接结构的刚度和阻尼具有不连续性、迟滞性、时变刚度、时变阻尼、库仑阻尼、分段刚度、硬化刚度等多种非线性特性［1］［11］。实际连接结构的主要特性往往表现为上述特性中的一种或几种,只有根据所研究连接结构的动力学实验结果才能建立恰当的模型。例如,用立方非线性刚度模型描述连接结构的硬化刚度特性［8］,用双线性迟滞模型［7］或Ramberg-Osgood函数模型［10］描述迟滞性、库仑阻尼、分段刚度等特性。
+3　连接结构的动力学特性及其对航天器结构动响应的影响
+　　在轨航天器结构的非线性和无源被动阻尼有50%是由于大量使用的连接结构而产生的［1］。连接结构的阻尼不是连续分布,而是局限于各离散位置。连接结构的强非线性导致模态密集和非线性耦合。而且某些特性需要用微观力学的理论研究,例如接触面之间的微滑动摩擦和冲击。实验表明,影响连接结构特性的主要因素有:1.微重力和真空环境;2.接触面的情况,如润滑、氧化、材料漏气等;3.长时间使用导致的磨损;4.装配精度;5.预应力和初始变形;6.局部热弹变形效应;7.同种材料和规格的结构件,其各项参数存在着统计偏差。由于以上原因,连接结构的动力学特性不能完全用理论分析方法确定。从目前的状况看,连接结构动力学特性研究既有对实际构件实验现象的归纳总结,也有由已抽象出的模型,从动力学方程角度分析连接结构的力学特性,本节将分别讨论,并阐述理论分析与实验之间的关系。
+　　Moon的实验证明栓接式桁架结构会出现混沌运动,而连接件之间的间隙是混沌产生的主要原因［5］。Bullock等进行的高精度自适应展开式空间结构中的U形铰式连接件微米量级的动力学实验表明［6］:连接结构的各组成部分诸如螺栓、轴衬、连接结点等都会影响结构的动力学特性。
+　　根据已建立的连接结构力学模型,分析计算连接结构的非线性刚度和阻尼特性对航天器结构时域和频域响应的影响对于空间结构的动特性预测和控制方案设计等问题有重要的意义。Bowden的［8］数值计算结果表明:连接结构的局部非线性刚度使得结构所有自由度的响应都呈现非线性特性。文中还用JPG(Joint Participation Factor)描述结构振动时对振动产生影响的连接件的数目和非线性程度。连接结构的阻尼迟滞特性可以增加空间结构的稳定性并抑制结构振动,这一点对于大型空间天线,光学干涉仪等对振动非常敏感的设备尤为重要。Onoda等发现有预载荷的连接结构能有效地抑制结构振动［7］,这是由于连接结构的滑移、碰撞和干摩擦等非线性因素使振动能量由低阶模态转移到高阶模态,并很快衰减而至。根据这一现象可以通过设计连接件的间隙尺寸达到抑制一定幅值范围内结构振动的目的。连接结构中存在的小间隙会引起结构运动中的“死区”、干摩擦、磁撞等现象。如果空间结构承受突然的外载荷或操纵力,间隙的存在引起的碰撞将影响操纵精度,导致结构的振动,加速磨损和疲劳,最终导致系统的不稳定和过早疲劳破坏。Tzou针对这一问题［21］,研究了球铰的接触问题,文中对接触力,接触模式,特征频率的分析为连接结构的间隙设计及大型柔性结构的动力学分析提供了详细的过程描述。
+　　同样,详细深入的理论分析结果对于实验方案的确定和评价也有指导作用。Hsu和Griffin的分析表明,地面实验中所用航天器缩比模型中的连接结构配合公差及重力导致的预紧效应使得地面实验结果不能代表航天器在空间环境中的运动特性,而且在一定的间隙范围内,结构响应具有多值性。这一结果为重新认识地面实验的有效性,进行模拟空间环境实验的必要性提供了理论依据。
+4　连接结构参数辨识
+4.1　连接结构线性模型参数辨识
+　　连接结构参数辨识基本上是选取实测的结构动力学特征量(如结构的固有频率,模态参数及频响函数等)作为已知量,以理论模型动力学特征量与实验所测特征量之差最小为等价准则。利用各种优化算法辨识模型参数。文献［2］利用导弹固有频率和模态的计算值及弹体试验得到的固有频率和模态值,通过最小化这两种数值的误差构成的目标函数得到导弹连接结构的刚度。Wang直接利用整体结构的频率响应函数来辨识连接结构的参数,并将该方法应用于悬壁梁连接结构的参数辨识［20］。Ren也以频响函数为已知量,通过Newton-Raphson法迭代得到连接结构的物理参数［4］。
+4.2　连接结构非线性模型参数辨识
+　　用线性模型描述连接结构动特性常常不能满足实际需要,因此非线性模型参数的辨识问题近年来引起许多研究者的注意。但对非线性结构动力学系统的认识还远不如对线性系统的认识深刻,因而目前解决非线性连接结构参数辨识问题的等价准则只有时域响应数据,非线性系统参数辨识的方法也大多为时域方法。当然,对弱非线性系统,在一定的条件限制下也可以用频域方法研究。这里主要讨论力状态映射法的发展与应用。
+　　力状态映射法(Force State Mapping)［11］亦称回复力法(Restoring Force Methods)［18］［19］,Crawley、Masri、Masters、Kim、AL-Hadid等在不同方面发展了这一方法,扩展了其应用范围。大型展开式空间桁架结构中大量使用连接结构,为满足对其动力学特性分析的需要,必须建立准确的连接结构动力学模型,而仅用解析方法难以得到这一模型。力状态映射法是为解决连接结构参数辨识问题而提出的。力状态映射法将通过连接结构所传递的非线性回复力表示成为三维空间的单值曲面,这一曲面是位移和速度的函数,即定义于相平面上的曲面,该曲面的特征反映了非线性力的形式。参数辨识实际上就是建立非线性回复力与运动状态(位移、速度)之间的函数映射关系,获得函数关系式。对于线性单自由度系统,该曲面为一平面,且沿位移和速度方向的斜率分别为刚度系数和阻尼系数。库仓摩擦、硬化弹簧、分段线性力等非线性因素各有其独特的曲面形状。对于复杂的曲面形状,还可以分解成为各基本曲面的迭加,分别研究,辨识其参数。对于存在记忆效应的连接结构,可以通过改变激励频率来研究。Masters和Crawley推广了这一方法［12］,将其应用于辨识一个多自由度框架结构的六个自由度的刚度和阻尼,这种框架结构是展开式空间结构的一个基本组成单元。AL-Hadid等指出力状态映射法中参数拟合时选用一般多项式较之正交多项式具有物理意义明确清晰的优点［13］,并将这一方法用于多自由度集总参数系统的参数辨识,及用来判定结构中非线性连接结构的位置。因为上述方法使用时域集总参数模型,不能用于复杂真实结构中连接结构的参数辨识,Kim等将这一方法推广到频域［22］,利用各子结构和连接结构处的频响函数来确定非线性连接结构的参数,但有一个前提条件是连接结构处的响应必须是可测的。力状态映射法需要同时得到系统的加速度,速度和位移数据,实际只能测量其中之一,然后通过数值积分或微分得到另外两个,Worden详细讨论了关于这些数据处理的各种方法和它们各自的优缺点［14］［15］,以及通过选择不同的激励信号来减少所需处理数据量的方法。最后推荐测量加速度,通过积分得到速度和位移,而激励信号的最佳选择是脉冲激励。
+　　本文作者从系统辨识问题最优控制解的概念出发,基于最优控制的数学理论,结合力状态映射法的思路,提出了利用最优控制的算法识别动力学系统中局部结构非线性回复力和模型参数的方法。与前面所述参数辨识方法不同之处在于这一方法不必测量连接结构处的响应(因为实际中这一点难以做到),而且适用于多自由度结构。因为采用的是解决最优控制问题的方法,有坚实的理论基础,对确定性系统和含模型噪声随机非线性系统均适用。限于本文的性质和篇幅,仅做以上简介。
+5　含连接结构动力学系统的周期解、分叉和混沌
+　　连接结构的理论模型基本上可以概括为分段光滑模型,即分段线性或分段非线性模型。本节着重介绍对含连接结构动力学系统(分段光滑结构动力学系统)周期解、分叉和混沌的理论研究。由于实际结构的复杂性,虽然在实验中已发现了许多新的现象,但理论研究大多仍局限于单自由度模型。
+　　求动力学系统的周期响应一般利用谐波平衡法以及这一方法的变形形式。Floquet理论和Poincare映射则用于分析系统周期解的稳定性和分叉、混沌现象。这一方面的工作中,Lau和Zhang提出的增量谐波平衡法对一般的多自由度分段线性刚度和阻尼系统稳态周期解的求解比较有效［16］,而且可以得到非稳态周期解及幅频曲线。大型结构的动力学分析中一般都涉及到自由度缩减问题,Friswell通过研究含局部非线性结构动力学系统的自由度缩减问题［17］,指出保留的自由度必须能反映系统的局部非线性特性,并用Poincare映射证明任意缩减自由度会导致缩减后的系统不能反映原系统的动力学特征。
+　　目前大多数研究工作仍沿袭了以往处理光滑动力学系统的理论与方法,但是这种思路并不能正确地处理所有分段光滑动力学系统的问题。胡海岩通过分析分段线性系统的非光滑向量场对Poincare映射可微性的影响,指出当周期运动接近鞍结及其退化分叉或以很低速度穿过两线性区的切换面时,这类系统的动力学行为显著有别于具有光滑向量场的系统［3］。
+6　结束语
+　　对航天器连接结构中的间隙、约束、库仑摩擦、迟滞等因素,目前大都采用分段线性模型、双线性迟滞模型描述这一特性。并在这些模型的基础上进行连接结构的动力学分析与实验,以及含连接结构的整体结构动力学特性和连接结构物理参数辨识方法与实验等方面的研究。在航天工程领域,随着空间结构向大型化、复杂化、轻质量、大柔度、展开式和装配式结构方向发展的趋势,以及非线性动力系统理论和计算技术的发展,连接结构的动力学问题正日益引起更多的注意。这些空间结构中使用了大量的连接结构,从模型上看,属于由线性子结构和局部非线性的连接结构组成的多自由度分段光滑结构动力学系统。这种结构的动力学建模、分析与实验,成为当前航天器结构动力学研究的热点之一。
+　　具体研究内容包括:1.建立复杂航天器的结构动力学模型,各子结构系统可以用线性模型,而连接结构的模型应当选择能够反映该结构的主要动力学特性的线性或非线性模型。2.含连接结构的航天器结构动特性研究,例如,连接结构对航天器整体结构固有特性和响应特性的影响,对航天器结构稳定性的影响,以及连接结构的存在是否会导致系统运动的分叉和混沌现象。这些问题不仅是航天器结构设计关心的问题,也是航天器控制方案设计关注的问题,在航天器总体设计中占有重要的地位。3.连接结构的参数辨识问题始终是连接结构动力学问题中的一个焦点。因为很难单纯用理论方法确定连接结构模型中的各个参数,而用实验的方法来确定这些参数的研究方面,比较成功的多是针对简单的、单个连接构件进行的。工程上关心的实际结构、多自由度模型中的连接结构参数辨识,连接结构在装配位置时的参数辨识问题是当前研究的方向。
+　　上述内容都是从工程角度出发对连接结构动力学问题的讨论。事实上,在研究连接结构动力学问题过程中产生的数学、力学理论上的难题也将成为一个研究热点［3］。反映连接结构特性的分段光滑回复力函数,对系统动特性的理论分析和数值计算都提出了新的问题。首先,非光滑函数,非光滑向量场形式的动力学理论,微分方程理论还不完善。其次,数值计算中已经发现含有间隙、预紧等分段光滑力学因素的系统会由于周期轨道与向量场切换面擦边而产生动力学突变。
+　　总之,含连接结构的结构动力学问题不仅是航天工程界关注的问题,以这一问题为代表的分段光滑复杂结构动力学问题也是整个振动工程领域研究的重点之一。并且,这类问题研究中已观察到的现象和得到的结果为将传统的光滑动力系统理论、微分方程理论拓广到非光滑系统提供了大量的、丰富的工程实际背景。
+参考文献
+1　Edward F.Crawldy.Nonlinear Characteristics of Joints as Elements of Multi-body Dynamic Systems,N89-24668
+2　李效韩等.结构振动中的连接子结构.《宇航学报》,1987,8(1):7-15
+3　胡海岩.分段线性系统动力学的非光滑分析.力学学报,1996,28(4):483-488
+4　Ren Y et al..An Iterative FRF Joint Identification Technique.Proceedings.of 11-th IMAC,1502-1507
+5　Moon F C.et al..Experimental Study of Chaotic Vibrations in A Pin-jointed Space Truss Structure.AIAA Journal,1990,28(5):915-921
+6　Bullock S J et al..Identification of Nonlinear Micron-Level Mechanisc for A Precision Deployable Joint.Proceedings of 35th AIAA/ASME/ASCE/AHS/ASC Structures,Structural Dynamics and Materials Conference,AIAA-94-1347-CP,331-338
+7　Junjiro Onoda et al..Passive Damping of Truss Vibration Using Preloaded Joint Backlash.AIAA Journal,1995,33(7):1335-1341
+8　Mary Bowden et al..Joint Damping and Nonlinearity in Dynamics of Space Structures.AIAA Journal,1990,28(4):740-749
+9　Hsu S T et al..How Gravity and Joint Scaling Affect Dynamic Response.AIAA Journal,1989,27(9):1280-1287
+10　Shi G et al..Nonlinear Dynamic Response of Frame-Type Structures with Hysteretic Damping at the Joints.AIAA Journal,1992,30(1):234-240
+11　Crawley.E F.et al..Force-State Mapping Identification of Nonlinear Joints.AIAA Journal,1987,25(7):1003-1010
+12　Masters Brett P.et al..Multiple Degree-of-Freedom Force-State Component Identification.AIAA Journal,1994,32(11):2276-2285
+13　Ajjan AL-Hadid M.et all..Developments in the Force-State Mapping Technique For Nonlinear Systems and the Extension to the Location of Nonlinear Elements in A Lumpe-Parameter System.Mechanical Systems and Signal Processing,1989,3(3):269-290
+14　Worden K..Data Processing and Experiment Design for the Restoring Force Surface Method,Part I.Mechanical System and Signal Processing,1990,4(4):295-319
+15　Worden K..Data Processing and Experiment Design for the Restoring Force Surface Method,Part I.Mechanical System and Signal Processing,1990,4(4):321-344
+16　Lar S.L.et al..Nonlinear Vibrations of Piecewise-Linear Systems by Incremental Harmonic Balance Method.Journal of Applied Mechanics,1992,59(1):153-160
+17　Friswell,M.I..Using Linear Model Reduction to Investigate the Dynamics of Structures with Local Nonlinearities.Mechanical Systems and Signal Processing,1995,9(3):317-328
+18　Masri S.F.et al..Identification of Nonlinear Vibrating Structures:Part I-Formulation.Journal of Applied Mechanics,1987,54(4):918-922
+19　Masri F.et al..Identification of Nonlinear Vibrating Structures:Part I-Applications.Journal of Applied Mechanics,1987,54(4):923-929
+20　Wang H.et al..Experimental Identification of Mechanical Joint Parameters.Journal of Vibration and Acoustics,1991,113(1):28-36
+21　Tzou S.et al..Contace Dynamics of a Spherical Joint and a Jointed Truss-Cell System.AIAA Journal,1991,29(1):81-88
+22　Won-Jin Kim et al..Nonlinear Joint Parameter Identification by Applying the Force-State Mapping Technique in the Frequency Domain.Mechanical Systems and Signal Processing,1994,8(5):519-529

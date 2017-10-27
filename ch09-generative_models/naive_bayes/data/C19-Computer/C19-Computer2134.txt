@@ -1,0 +1,105 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第12期 vol.25 No.12 1999
+
+
+
+在Windows NT环境下实现实时可靠的数据通信
+李志荣
+　　随着计算机网络的不断发展，以TCP/IP为底层协议的基于局域网的应用系统得到了用户认可。 这些系统不仅实现了资源共享，分布处理，而最关键的是实现了实时、可靠的数据通信，这一点对数据交换实时性要求高的系统尤为重要。
+1 TCP/IP和Windows Sockets
+　　TCP/IP实际上是一个协议组，是一个面向连接的可靠协议，并具有重排序、流量控制和多路复用等功能。由于TCP/IP是可靠的协议，对传输中报文丢失和错误报文都自动处理，这样在数据通信中数据可靠性得到了保证。
+　　Sockets最初是由U.C.Berkeley为UNIX操作系统开发的网络通信接口，随着Sockets在UNIX中成功的应用以及Windows操作系统的广泛普及，人们把Sockets移植到Windows中。
+　　Windows Sockets API是一套开放的支持多种协议的Windows的网络编程接口，它包括一个标准的Berkeley Sockets功能调用的集合，以及为Windows所作的重要补充。在TCP/IP网络环境下的应用程序是通过网络系统编程界面(Sockets)实现的，而Sockets又利用下层的网络通信协议实现实际的通信工作，它们之间的关系如图1所示。
+
+图1 Windows Sockets关系图
+2 基于Winsock的MFC编程
+　　目前，Winsock有Winsock1.1和Winsock2.0两个版本。它们分别适用于16位和32位的Windows操作系统。Winsock1.1只支持TCP/IP协议，而Winsock2.0可以支持多种网络协议，提供能处理网络上大量数据的独立于协议的接口，如实时的多媒体通信，并且容易地访问多个传输协议。
+　　Windows 95和Windows NT中都已包含Winsock2.0，以下内容均以Winsock2.0为例。
+　　MFC提供两种类来处理Windows Sockets网络通信，MFC也提供两种Windows Sockets编程模式：字节流和数据报。两种MFC Winsock类如下：
+　　. CAsyncSocket
+　　该类封装了Windows Sockets，并且作为网络通信连接的一端。这个类提供了有关Winsock API的面向对象的软件包。既可以直接利用Winsock，又可以利用回调函数通知网络事件的发生。
+　　.CSocket
+　　这个类是从CAsyncSocket类中派生出来的，从CAsyncSocke中继承了许多成员函数，提供了更高层的Winsock API接口。Csocket类的一个特性是提供了自动的阻塞(blocking)处理功能。两个类在MFC类层次结构中的位置如图2所示。
+
+图2 MFC类层次结构
+　　利用Socket类编写基于面向连接的应用程序一般采用Client/Server模型。服务方建立一个监听的Socket，侦听客户方的连接请求，然后客户方建立一个请求连接的Socket，这时服务方接受到请求，就立刻建立一个新的对应此客户的Socket，这样数据链路就建立起来了，然后服务方和客户方就可以进行数据交换。服务方和客户方之间建立字节流的通信操作时序如下：
+服务方客户方
+//构造一个Socket类//构造一个Socket类
+ClistenSocket SockSrvr；CClientSocket SockClient；
+//建立SOCKET套接字//建立SOCKET套接字
+SockSrvr.Create(nProt)；SockClient.Create( )；
+//开始监听连接请求
+SockSrvr.Listen( )；
+//请求连接
+SockClient.Connect(SrvrIp，nPort)；
+//构造一个新的Socket类
+CClientSocket SocketClient；
+//接受连接
+SockSrvr.Accept(SocketClient)；
+//开始通信//开始通信
+SockSrvr.Send(Buffer，length)；SockClient.Receive(Buffer， length)；
+或或
+SockSrvr.Receive(Buffer，length)；SockClient.Send(Buffer， length)；
+
+　　上述CListenSocket和CClientSocket是从Csocket类中派生出来的，下面将具体介绍。这些派生类屏蔽了网络底层的细节，程序员在编程时只需在子类中重写OnAccept()、OnReceive()和OnClose()等虚函数。
+2.1 服务方通信模块
+　　服务方有两个CSocket的子类：CListenSocket和CClientSocket。前者用于监听网络连接的请求CSocket类，后者是建立对应不同客户的套接字，与客户方进行数据通信的CSocket类。当客户方的连接请求来时，服务方就可以建立对应此客户的CClientSocket类，然后用此类的成员函数Send(Buffer，length)进行数据通信。其中Buffer是指向发送数据缓冲区的指针，length是发送数据的长度，函数返回值是实际发送数据的字节数。
+　　CListenSocket定义如下：
+　　class CListenSocket : public CSocket
+　　{
+　　// 属性
+　　public:CShengView* m_pView;　　　　//视类的指针
+　　// 操作
+　　public:
+　　CListenSocket(CShengView* pView);//构造函数
+　　virtual ～CListeningSocket(); //析构函数
+　　virtual void OnAccept(int nErrorCode); //虚函数
+　　}
+　　在虚函数OnAccept(int nErrorCode)中加入用户自己的处理代码如下：
+　　void CListenSocket::OnAccept(int nErrorCode)
+　　{
+　　// 接受请求消息的处理代码
+　　CSocket::OnAccept(nErrorCode);
+　　m_pView->ProcessPendingAccept(); //调用视类的成员函数进一步处理FD_ACCEPT消息
+　　}
+　　CClientSocket的定义如下：
+　　class CClientSocket : public CSocket
+　　{
+　　//属性
+　　public:
+　　CShengView* m_pView;　　　　　　　//视类指针
+　　// 操作
+　　public:
+　　CClntsock(CShengView* m_pView)；//构造函数
+　　virtual ～CClntsock();　　　　　//析构函数
+　　virtual void OnReceive(int nErrorCode)；//虚函数
+　　virtual void OnClose(int nErrorCode); //虚函数
+　　}
+　　在虚函数OnReceive(int nErrorCode)中加入用户自己的处理代码如下：
+　　void CCSocket::OnReceive(int nErrorCode)
+　　{
+　　//数据接受消息的处理代码
+　　CSocket::OnReceive(nErrorCode);
+　　m_pView->ProcessPendingRead(this); //调用视类的成员函数进一步处理FD_READ消息
+　　}在虚函数OnClose(int nErrorCode)中加入用户自己的处理代码如下：
+　　void CClntsock::OnClose(int nErrorCode) 
+　　{
+　　//关闭连接消息的处理代码
+　　CSocket::OnClose(nErrorCode);
+　　m_pView->CloseSocket(this); //调用视类的成员函数进一步处理FD_CLOSE消息
+　　}
+2.2 客户方通信模块
+　　客户方包含一个CClientSocket类。这个类和服务方的CClientSocket类是一样的。客户方比服务方缺少了监听的CSocket类。当数据链路建立好时，客户方就可以和服务方进行数据交换，接受数据时可以用此类的成员函数Receive(Buffer，length)来接受。其中Buffer是指向接收数据缓冲区的指针，length是接收数据缓冲区的长度，函数返回值是实际接收数据的字节数。
+3 应用实例
+　　按照上述方法，开发了基于局域网在Windows NT环境下的微机联锁软件测试系统。该系统包括主控机、仿真机和数据库机，并提供了与被测对象连接的网络接口，建立了5条数据链路进行不同主机的数据交换，在数据通信中保证了测试所要求的实时性、可靠性。系统的网络结构如图3所示。
+
+图3测试系统的网络结构
+4 结束语
+　　在Windows NT环境下，通过VC利用MFC实现基于TCP/IP的网络编程技术，其数据通信实时、可靠，网络接口的扩展性强。相信随着Internet/Intranet迅速发展，Winsock技术将在要求数据通信实时性和可靠性高的大型系统中得到了广泛的应用。
+作者单位:上海铁道大学计算机系,上海200331
+参考文献
+1 Norton P，McGregor R著，孙凤英，魏军，徐京译. MFC开发 Windows 95/NT4应用程序. 北京：清华大学出版社，1998
+2 Gregory K著，康博创作室译. Visual C++5开发使用手册. 北 京：机械工业出版社，1998
+3 Thompson R D著，前导工作室译. MFC开发人员参考手册. 北 京：机械工业出版社，1998
+4 Visual C++5.0 help document. Microsoft Corp.，1998

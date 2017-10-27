@@ -1,0 +1,124 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000　Vol.17　No.2　P.77-78,76
+
+
+
+基于VBA和EXCEL的ARENA仿真输出可视化表达
+武振业　朱连喜
+摘 要 首先介绍了Arena软件的应用环境和Microsoft Visual Basic for Application(VBA)在Arena中的应用。以一个营销咨询与服务系统为例，通过建立Arena仿真模型，在Arena中添加VBA模块，实现了VBA调用Excel，从而丰富了Arena的仿真输出。
+关键词 VBA Excel Arena 仿真输出 可视化技术
+1 引言
+　　Arena是由System Modeling Corporation于1993年研制开发的新一代动画仿真集成环境，1998年向市场推出了更为成熟的Arena 3.0版。Arena作为一个具有柔性的强有力的动画仿真工具，它不仅能够生成准确的动画模型，并且它是面向对象设计、有实际输出定制的独特功能的动画仿真工具。Arena可以与Office97进行信息交换，通过VBA(Visual Basic for Application)对其操作，丰富了Arena的输入输出表现形式，使得通过仿真进行决策更易实现。本文将根据一个仿真模型运行的结果，利用VBA调用Excel，进一步形象、直观地表示Arena仿真输出结果。
+2 VBA在Arena中的应用
+　　Arena3.0是世界上第一个包含VBA的仿真模拟软件。在安装Arena时，VBA将会自动安装，因此无需专门购买VBA。通过在Arena中执行VBA代码，可以实现Microsoft ActiveX Automation；在一个仿真模拟运行前显示一个表格，要求使用者设置模拟运行中所需的参数；在仿真模拟运行中，当缓冲器超过某一条件限制时发出“报警”等。为了在Arena中使用VBA，需在仿真模型中设置VBA模块。VBA模块在Arena Block的面板中，它可以使得在仿真中利用一个实体引发并执行VBA代码。
+　　在Arena中应用VBA时，打开Visual Basic Editor(VBE)，可以使用VBE创建、浏览、调试或运行一个Arena模型中的VBA程序。利用VBE，可在VBA工程文件中嵌入模块、类模块等；在Project Explore中选择一个Arena文件中的工程来浏览VBA工程项目；在Project Explore中打开所需的文件夹，并双击工程项目浏览VBA代码；通过设置断点，调试VBA程序；在VBE的Macros菜单中选择Run项可运行VBA程序。
+　　该模型描述了一个实际的电话服务系统。系统主要提供产品技术咨询、产品销售信息和产品订购服务。系统中共有26条电话线路，服务时间从上午8:00至下午6:00。在服务时间内的不同时间段内，系统接到的电话频率(每小时接到的电话数)变化较大。表1给出了不同时段系统接到的电话数。
+表1 电话接收频率(次数/小时)
+时间频率时间频率时间频率时间频率
+8:00～8:302010:30～11:00751:00～1:301103:30～4:0090
+:00～9:304511:30～12:00902:00～2:301054:30～5:0065
+9:30～10:005012:00～12:30952:30～3:00905:00～5:3045
+10:00～10:307012:30～1:001053:00～3:30855:30～6:0030
+　　应用Arena建立系统模型，使该模型重复模拟10次，每次模拟660分钟(从上午8:00～下午6:00)。
+　　下面将在电话服务中心的模型中利用VBA调用Excel，首先在Excel中记录系统接到电话的时刻、顾客接受服务后离开系统的时刻和系统为顾客服务的持续时间，然后将顾客接受服务的持续时间的变化情况在Excel中用线形图表示出来。
+3.1 仿真模拟开始时的VBA事件代码
+　　为了保存模拟运行中产生的数据，首先创建Excel文件。在模型开始重复模拟运行前，在数据栏上写上标题，可使用两个Arena内建的VBA事件：RunBeginSimulation和RunBeginReplication。即在仿真运行开始时调用RunBeginSimulation，在该事件中放入运行Excel和创建新的工作表的代码，在每次重复模拟开始时调用RunBeginReplication事件，该事件将把标题写入数据栏中，图1就是这两个过程的部分代码和一些全局变量的声明。
+Dim g_SIMAN As Arena.SIMAN, g-CallInIndex As Long
+Dim g_XLApp As Excel.Application, g_XLWorkbook 
+　　As Excel.Workbook, _g_XLDataSheet As Excel.Worksheet
+Dim g_nextRow As Long, g_colA As Long, g_colB As Long, g_colC 
+　　As Long
+Private Sub ModelLogic_RunBeginSimulation ( )
+　Set g_SIMAN = ThisDocument.Model.SIMAN
+　g_CallInIndex = g_SIMAN.SymbolNumber ("Call In")
+　Set g_XLApp = CreateObject ("Excel.Application")
+　g_XLApp Visible = True
+　g_XLApp.SheetsInNewWorkbook = 1
+　Set g-XLWorkbook = g_XLApp.Workbooks.Add
+　Set g-XLDataSheet = g_XLWorkbook.ActiveSheet
+　With g_XLDataSheet
+　　.Name = "电话呼叫数据"
+　　.Rows (1).Select
+　　g_XLApp.Selection.Font.Bold = True
+　　g_XLApp.Selection.Font.Color = RGB(255, 0, 0)
+　　.Rows (2).Select
+　　g_XLApp.Selection.Font.Bold = True
+　　g_XLApp.Selection.Font.Color = RGB (0, 0, 255)
+　End With
+End Sub
+Private Sub ModelLogic_RunBeginReplication ( )
+　Dim replNum As Long, i As Integer
+　replNum = g_SIMAN.RunCurrentReplication
+　g_colA = (4*(replNum - 1)) + 1
+　g_colB = g_colA + 1
+　g_colC = g_colA + 2
+　With g_XLDataSheet
+　　.Activate
+　　.Cells(l, g_colB).Value = "第" & replNum & "天"
+　　.Cells(2, g_colA).Value = "开始时刻"
+　　.Cells(2, g_colB).Value = "结束时刻"
+　　.Cells(2, g_colC).Value = "持续时间"
+　　For i = 0 To 2
+　　　.Columns(g_colA + i).Select
+　　　g_XLApp.Selection.Columns.AutoFit
+　　　g_XLApp.Selection.NumberFormat = "0.00"
+　　Next i
+　　End With
+　g_nextRow = 3
+End Sub
+　　程序中，全局变量声明部分是由不包含在任何过程内(即在定义ModelLogic_RunBeginReplication过程之前)的代码组成，它通过一系列的Dim声明(Visual Basic变量声明语法)定义了所有过程都可用的全局变量。g_SIMAN全局变量放入RunBeginSimulation中指向模型的SIMAN数据对象，并将在其余的过程中用来从正在运行的仿真模型中取得数值。其它以揈xcel斂返娜直淞可魑狤xcel对象库的对象变量。
+3.2 使用VBA模块保存系统模型进行电话服务的时间数据
+　　如图1所示，当在系统中设置一个VBA模块时，Arena将为其分配一个独一无二的值，该值将模块与其在Visual Basic工程中的代码联系起来。这些数字都是从1开始的整型数，每新设置一个VBA模块其值就加1。 
+
+图1　VBA模块
+　　下面程序中，与VBA相联系的事件是VBA_ Block_1_Fire ( )，其中1与Arena分配给VBA模块的值相对应。
+Private Sub VBA_Block_1_Fire ( )
+　Dim startTime As Double, runTNOW As Double
+　StartTime = g_SIMAN.EntityAttribute (g_SIMAN.ActiveEntity, 
+　　　　　g_CallInIndex)
+　runTNOW = g_SIMAN.RunCurrentTime
+　With g_XLDataSheet
+　　.Cells(g_nextRow, g_colA).Value = startTime
+　　.Cells(g_nextRow, g_colB).Value = runTNOW
+　　.Cells(g_nextRow, g_colC).Value = runTNOW - startTime
+　End With
+　g_nextRow = g_nextRow + 1
+End Sub
+　　在上述程序中，当一个实体完成了进程并进入VBA模块时，将触发VBA_Block_1_Fire事件的代码。从而把系统接到电话的时刻、顾客离开系统的时刻和系统为顾客服务的持续时间分别写入Excel的工作表中。如图2所示，表中记录了第一天的电话呼叫数据。
+
+图2　在Excel中的记录结果
+3.3 仿真模拟结束时VBA事件代码
+　　下面程序中，在每次重复模拟运行结束后，Arena将调用VBA的RunEndReplication过程。在该模型中，我们将包含在工作表中摮中奔鋽栏的数据制表，用线形图来表示重复模拟期间顾客接受服务时间的变化情况，如图3所示。在仿真模拟结来时，RunEnd Simulation过程被调用，此处简单地把Excel工作表保存到Model.xel文件中，再将Excel应用程序变量设为揘othing敚峡隕xcel的连接(让Excel继续运行)。
+　　Excel绘制的图形如图3。
+
+图3　系统为顾客服务持续时间变化的线形图
+Private Sub ModelLogic_RunEndReplication ( )
+　g_XLDataSheet.Range(g_XLDataSheet.Cells(3, g_colC),_
+　　g_XLDataSheet.Cells(g_nextRow, g_colC)).Select
+　g_XLApp.Charts.Add
+　With g_XLApp.ActiveChart
+　　.Name = "第" & g_SIMAN.RunCurrentReplication & "天"
+　　.ChartType = x1LineMarkers
+　　.SetSourceData Source: = g_XLDataSheet.Range 
+　　　(g_XLDataSheet.Cells(3, g_colC), _g_XLDataSheet.Cells
+　　　(g_nextRow, g_colC)), PlotBy: = xlColumns
+　　.SeriesCollection(1). XValues = " = ' " & g_XLDataSheet.Name 
+　　　　　& "?" &_"R3C" & g_colB & " :R" & g_nextRow & "C" 
+　　　　　& g_colB
+　End With
+End Sub
+Private Sub ModelLogic_RunEnd ( )
+　g_XLApp.DisplayAlerts = False ' Don't prompt to overwrite
+　g_XLWorkbook.SaveAs "Mod_10_2.xls"
+　Set g_XLApp = Nothing
+End Sub
+4 结束语
+　　在这里，我们根据一个实际的电话服务系统，运用Arena建立仿真模型，通过在Arena中加入VBA模块，充分利用了Excel的优势，使得Arena仿真输出结果具有简洁、直观，这对于运用仿真输出来进行决策是更容易实现的。
+本文获国家自然科学基金资助(No. 79870035)
+武振业（西南交通大学经济管理学院 成都 610031）
+朱连喜（西南交通大学经济管理学院 成都 610031）
+参考文献
+1，W.David Kelton, Randall P.Sadowski, Deborah et al. Simulation with Arena. The McGraw－Hill Companies. 1998
+2，Brian Siler, Jeff Sportts著. 康博创作室译. Visual Basic 6 开发使用手册. 北京: 机械工业出版社, 1999.4
+收稿日期：1999年9月26日

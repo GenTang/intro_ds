@@ -1,0 +1,106 @@
+环境科学学报
+ACTA　SCIENTIAE　CIRCUMSTANTIAE
+1998年5月第18卷第5期科技期刊
+大气CO2倍增和盐度对滨藜离子水平和叶绿素荧光诱导动力学的效应*
+刘家尧1　张其德2　赵可夫3　白克智2　梁　峥2
+(1.曲阜师范大学生物系，山东曲阜　273165)
+(2.中国科学院植物研究所，北京　100093)
+(3.山东师范大学逆境植物研究所，济南　250014)
+
+摘要　研究了CO2倍增和KCl、NaCl对盐生植物中亚滨藜(Atriplex centralasiatica)幼苗生长、叶绿素含量，K+、Na+水平和叶绿素a荧光诱导动力学的影响.结果表明，300mmol/L NaOH可刺激中亚滨藜的生长，而同浓度的KCl则抑制，CO2倍增使植株生长增强；在300mmol/L KCl处理的植株，叶片K+含量比对照明显增加，而Na+降低，NaCl处理的植株离子水平的变化则相反，CO2倍增对植株K+、Na+水平影响不大.无论正常大气CO2浓度，还是CO2倍增条件下，300mmol/LNaCl降低叶片Fv/Fo、Fv/Fm和Fd/Fs的比值，而KCl则使3种比值比无盐时提高；在KCl、NaCl和无盐处理时，CO2倍增均使光系统Ⅱ原初光能转化率和潜在活性提高.盐度对荧光动力学的影响与叶片K+水平有关. 
+关键词　CO2倍增；KCl； NaCl;滨藜；离子水平；叶绿素荧光诱导动力学.
+EFFECT OF DOUBLED CO2 AND SALINITY ON ION LEVELS AND CHLOROPHYLL A FLUORESCENCE INDUCTION KINETICS IN HALOPHYTE (ATRIPLEX CENTRALASIATICA)
+
+Liu Jiayao
+(Department of Biology,Qufu Normal University,Qufu 273165)
+Zhang Qide, Bai Kezhi, Liang Zheng
+(Institute of Botany,Chinese Academy of Sciences,Beijijng 100093)
+Zhao Kefu
+(Institute of Plant Stress,Shandong Normal University,Jinan 250014)
+
+ABSTRACT　The effects of doubled CO2 and KCl,NaCl on growth status,chlorophyll contents,K+,Na+ levels and chlorophylla fluorescence induction kinetics in halophyte (Atriplex centralasiatica) leaves were investigated.It was found that the growth of Atriplex centralasiatica grown with and without salinity was enhanced by elevated CO2 concentration.There was little change in K+,Na+ levels under doubled CO2.The ratios of Fv/Fo and Fv/Fm in leaves were decreased by NaCl and elevated by KCl under ambient and doubled CO2,the potential activity and efficiency of primary conversion of light energy of PSⅡ in leaves of plants growth with and without salinity were stimulated by elevated atmospheric CO2.Moreover,results proved that the change of the fluorescence kinetics parameters was relative to the K+ levels in leaves.
+Keywords　Atriplex centralasiatica,doubled CO2,KCl,NaCl,chlorophylla fluorescence induction kinetics.
+
+　　大气CO2浓度到下一世纪中叶将由现在的350μL/L倍增［1］.CO2倍增对植被和整个生态系统影响已引起广泛的关注.盐生植物是盐渍生境中的一类天然植物区系，一定浓度的Na+对盐生植物生长具有促进作用，而同浓度的K+则明显抑制其光合速率和生长［2—4］，CO2倍增可缓解盐胁迫对植物的抑制作用［5，6］，但CO2倍增和盐度对盐生植物离子水平和荧光诱导动力学研究较少.为探索CO2倍增和盐度对盐生植物的共同作用和K的抑制机理，本文以盐生植物中亚滨藜为材料，研究了CO2倍增和KCl,NaCl胁迫条件下植株生长、叶绿素含量、离子水平和叶片荧光诱导动力学的变化，为揭示CO2倍增和盐度对中亚滨藜的短期生理效应和未来CO2变化对盐渍生态环境的作用提供资料.
+
+1　材料和方法
+1.1　材料和培养
+　　将盐生植物中亚滨藜(Atriplex centralasiatica)种子(采于山东东营黄河三角洲)经0.1%HgCl2消毒和自来水充分冲洗后，播于装有细砂的培养缸中，使其萌发并长出幼苗，选择生长一致的幼苗移栽到小塑料培养缸中，在自然条件下(昼夜温度28℃/18℃)进行砂基培养，每天浇1/2Hoagland培养液.
+　　当长出4片真叶时，将植株移至中科院植物所植物园内开顶式培养室［7］，并进行盐处理：(1) 对照室(通入含350μL/L CO2的自然空气，用1×CO2表示)，盐处理为KCl和NaCl，浓度为0、300mmol/L;(2) CO2倍增室(通入含700μL/L CO2空气，用2×CO2表示)，盐处理同对照室.在自然条件(昼夜温度32±1℃/22±1℃，相对湿度70%—80%)下培养，处理12天后取样分析.
+1.2　每株鲜重的测定
+　　取滨藜叶片用无离子水冲洗干净后，吸干表面水分，称重，每个处理3个重复.
+1.3　K+,Na+含量的测定
+　　将烘干样品0.1g置550℃下灰化，然后用浓硝酸溶解，并定容，用塞曼原子吸收光谱仪(日立Z-8000)测定样品中K+,Na+含量.
+1.4　叶绿素含量测定
+　　取滨藜叶片，用80%丙酮研磨后，离心，取上清液在岛津190型双光束分光光度计上测定波长为663.2nm和646.8nm处的光密度，按Lichtenthaler公式Ca+b=7.15A663.2+18.17A646.8，计算叶绿素浓度.
+1.5　叶片叶绿素a荧光诱导动力学测定
+　　从不同处理的植株中选取具代表性主茎的同位叶，按文献［7］方法，用脉冲调制荧光仪测定，并计算各种参数.
+　　
+2　实验结果
+2.1　CO2倍增和盐度对盐生植物生长的效应
+　　无论是正常大气CO2浓度，还是CO2倍增条件下，NaCl处理的植株，每株鲜重比对照提高，而KCl处理的植株鲜重比对照明显降低(T检验时P＜0.01)(图1).CO2倍增可增强植物生长，经盐处理的植株，其生长对高浓度CO2的响应比无盐时明显(NaCl处理组P＜0.05，KCl处理组P＜0.01).
+
+
+图1　CO2倍增和盐度对滨藜幼苗生长的影响
+(1) 对照　(2) 300mmol/L NaCl(3) 300mmol/L KCl
+Fig.1 Effect of doubled CO2 and salinity
+on the growth of Atriplex Centralasiatica
+
+
+图2　CO2倍增和盐度对滨藜叶片中离子浓度的影响
+(1)对照 (2)300mmol/L NaCl(3) 300mmol/L KCl
+Fig.2 Effect of doubled CO2 and salinity on
+ion contents of Atriplex Centralasiatica
+2.2　CO2倍增和盐度对盐生植物叶片K+,Na+含量的影响
+　　由图2可知，300mmol/L NaCl处理可使滨藜叶片Na+含量比对照提高42.3%，而K+含量则比对照降低了12.7%，300mmol/L KCl处理，植株离子变化与NaCl处理相反，K+比对照增加64%，Na+降低了64.7%.CO2倍增对不同盐处理下植物的离子含量与在正常大气CO2条件下的相比较影响不大，基本上处于同一数量级上(图2).
+2.3　CO2倍增和盐度对盐生植物叶片叶绿素含量的影响
+　　在正常大气CO2或CO2倍增条件下，300mmol/L KCl和NaCl均能降低滨藜叶片叶绿素含量(图3).但在NaCl处理时，2×CO2组滨藜叶绿素含量高于1×CO2组，而KCl处理时，2×CO2组滨藜叶绿素含量低于1×CO2组.这表明CO2倍增后，K+和Na+的变化明显不同，造成这种不同的原因尚不清楚.
+2.4　CO2倍增和盐度对盐生植物叶绿素a荧光诱导动力学的影响
+2.4.1　叶绿素a荧光诱导动力学曲线的变化　盐生植物滨藜生长在CO2倍增和正常大气CO2条件下，其叶片均呈现典型的荧光诱导动力学曲线，包括O→P→S→M→T各个相，但在300mmol/L KCl和NaCl处理时，叶绿素荧光诱导动力学曲线发生了变化，300mmol/L KCl使滨藜叶片荧光曲线的M峰完全消失，NaCl处理滨藜的M峰也不明显(图4)，这在正常大气CO2和CO2倍增环境中具有类似的现象.
+
+
+图3　CO2倍增和盐度对滨藜叶绿素含量的影响
+1.对照组2.300mmol/L NaCl3.300mmol/L KCl
+Fig.3 Effect of doubled CO2 and salinity
+on cholorophyll contents of AtriplexCentralasiatica leaves
+
+
+图4　盐度对溶藜叶片荧光诱导动力学曲线的影响
+1.对照组2.300mmol/L KCl3.300mmol/L NaCl
+Fig.4 Effect of salinity on the curves
+of fluorescence induction kinetics of Atriplex Centralasiatica
+2.4.2　荧光诱导动力学参数的变化　在CO2倍增条件下滨藜叶片具有较高的可变荧光(Fv)，从而使Fv/Fo(光系统Ⅱ的潜在活性)、Fv/Fm(原初光能转化效率)和Fd/Fs(Fd为荧光曲线P→T相的下降强度，Fs为稳态最终荧光强度)比值比正常CO2下有所提高，在0、300mmol/L NaCl和KCl下Fv/Fo分别提高了16%，22%和24%，Fv/Fm比值分别提高了5.7%、8.1%和0.9%，Fd/Fs分别提高了11.8%、17.4%和1.5%，在无盐和NaCl处理时，3种参数比正常CO2下提高较明显(P＜0.01)，而KCl处理时CO2的作用不明显(P＞0.05)(表1)，从表1还可看出，无论在正常CO2还是CO2倍增条件下，NaCl处理的滨藜植株叶片Fv/Fo,Fv/Fm和Fd/Fs比值均比无盐时稍微降低，而KCl使植株叶片的3种比值比无盐时升高(P＜0.01，CO2倍增下KCl对Fd/Fs的作用除外).
+
+表1　盐度和CO2倍增对滨藜叶片Fv/Fo,Fv/Fm和Fd/Fs比值的影响
+Table 1 Effects of salinity and doubled CO2 on the ratios of Fv/Fo,Fv/Fm and Fd/Fs of
+Atriplex Centralasiatical leaves
+
+CO2浓度，μL/L盐处理浓度，mmol/L　　Fv/FoFv/FmFd/Fs　　
+350(1×CO2)01.57±0.090.61±0.011.38±0.11
+　300(NaCl)1.46±0.150.59±0.021.54±0.12
+　300(KCl)1.94±0.14**0.66±0.02**1.27±0.04**
+700(2×CO2)01.82±0.05++0.65±0.01++1.49±0.15
+　300(NaCl)1.78±0.03++0.64±0.01*++1.59±0.02*++
+　300(KCl)1.99±0.06**0.67±0.01**1.63±0.07
+
+　　注：n=4,*P＜0.05 ，**(++)P＜0.01(*为盐处理与对照比较，+为2×CO2与1×CO2的比较)
+3　讨论
+　　以上结果表明，300mmol/L NaCl使滨藜的生长比对照提高，而同浓度的KCl却明显抑制生长(P＜0.01)(图1)，由于高浓度的Na+和K+能相互抑制吸收，致使KCl处理时，叶片K+水平大大高于对照和Na+水平，而NaCl处理时，叶片Na+水平却明显高于对照和K+含量(图2)，产生这种效应的原因已有论述［2，8，10］；而CO2倍增时滨藜的生长状况有所改善，且盐处理时比无盐时明显.因盐胁迫下植物要消耗同化物去适应盐环境的耗能［9］，因此，提高CO2浓度可明显增强植物的生长.另外CO2倍增使滨藜体内K+、Na+水平变化较小，这与前人［8］在小麦、须芒草的实验中Na+的变化是一致的，也就是说未来CO2浓度的增加，对K+、Na+离子大循环可能影响不大.
+　　从表1可以看出，无论在无盐处理，还是在KCl和NaCl处理时，CO2倍增都可明显提高可变荧光，使Fv/Fo和Fv/Fm比值提高，这说明CO2倍增有利于滨藜叶片PSⅡ光化学活性和原初光能转化率的提高，有利于叶绿体把所捕获的光能以较高的速度和效率转化为化学能，这可能是CO2倍增提高光合速率的原因之一［7］.另外，CO2倍增也使滨藜叶片的Fd/Fs比值提高，说明叶片潜在光合量子转化效率的提高，这与叶片的PSⅡ潜在活性和原初光能转化效率的结果是一致的［1］
+　　当植株生长在正常CO2或CO2倍增条件下，300mmol/L NaCl可降低Fv/Fo和Fv/Fm比值，但不明显(P＞0.05)，而300mmol/L KCl却使两比值明显升高(P＜0.01)，光系统Ⅱ对K+不足较敏感，低K+浓度使叶片产生光化学障碍，量子产额和可变荧光下降，同时实验证明阿特拉津(Atrazine)结合多肽是光系统Ⅱ中K+亏缺的敏感位点，它的伤害使电子不能有效地传递到PQ［12］，从本实验的结果(图2)可知，在NaCl处理时，叶片K+较对照下降，而Na+升高，这表明使Fv下降可能不是由于Na+的毒性而是由于K+的不足［11］，另外，盐处理还可使叶绿素含量下降，这可能是由于Cl-或NaCl能促进叶绿素酶的活性，促使叶绿素分解［13］，即盐度也影响了叶绿体膜的发育.
+　　从图4中的荧光曲线的M峰消失可证明KCl抑制了光合作用的暗反应过程［2］，即影响了CO2的同化［10］，虽然K+提高了光反应效率但抑制了暗反应，致使净光合速率降低［2］，使细胞内有机物质含量下降，抑制了植物的生长，因此，可以推测K+抑制光合作用的暗反应是抑制盐生植物生长的原因之一.而Na+可轻微降低光量子转化效率，影响暗反应，这与高浓度NaCl(大于300mmol/L)使滨藜净光合速率和有机干重下降的现象［2］是一致的.此时滨藜细胞Na+较高，并可作为渗透剂来促进细胞吸水，提高含水量，这种效应可能大于有机物的下降，导致植株鲜重增加，这也许是滨藜对高浓度NaCl和CO2倍增的一个短期反应.
+　　总之，未来CO2浓度的增加对K+、Na+大循环可能影响不大，但CO2倍增可促进盐渍环境中植物的生长，缓解K+等对盐生植物的毒害作用，提高光系统Ⅱ的光化学活性和原初光能转化率，增加生物量和盐荒地植被盖度，有利于改善盐渍生态环境.
+参考文献
+　1　Amther J S.Respiration in a future,higher-CO2 world.Plant Cell Environ,1991,14:13—20
+　2　赵可夫，范　海，Harris P J C.钾抑制盐生植物生长的生理基础研究.植物学报，1995，37(6)：437—442
+　3　Eshel A.Responses of Suaeda aegyptiaca to KCl,NaCl,and Na2SO4.Physiol Plant,1985,64:308—315
+　4　Eshel A.The effect of NaCl and KCl on growth and ionic composition of the halophytic C4 succulent chenopods Salsa kali,Suaeda maritima and Suaeda aegyptiaca.Aust J Plant Physiol,1985,12:319—382
+　5　刘家尧，衣艳君，白克智等.CO2/盐冲击对小麦幼苗呼吸酶活性的效应.植物学报，1996，38(8)：641—646
+　6　Lenssen G M,Lamers J,Stroetenga M et al.Interactive effects of atmospheric CO2 enrichment,salinity and flooding on growth of C3 (Elymus athericus) and C4 (Spartina anglica) salt marsh species.Vegetatio,1993,104/105:379—388
+　7　张其德，卢从明，冯丽洁等.CO2加富对紫花苜蓿光合作用原初光能转化率的影响.植物学报，1996，38(1)：77—82
+　8　Ball M C,Munns R.Plant responses to salinity under elevated atmospheric concentrations of CO2.Aust J Bot,1992,40:515—525
+　9　Schwarz M,Gale J.Maintenance respiration and carbon balance of plants at low levels of sodium chloride salinity.Journal of Experimental Botany,1981,32:33—41
+10　卢从明，张其德，匡廷云.水分胁迫对小麦叶绿素a荧光诱导动力学的影响.生物物理学报，1993，9(3)：453—457
+11 张其德，娄世庆，卢从明等.杂交水稻威优64及其亲本光谱特性的比较.植物学集刊，1994，7：209—216
+12　Ball M C,Chow W S,Anderson J M.Salinity-induced potassium deficiency causes less of functional photosystem Ⅱ in leaves of the gry mangrove,through depletion of the atrazinebinding polypeptide.Aust J Plant Physiol,1987,14:351—361
+13 Rao G G,Rao G R.Pigment compsition and chlorophyllase activity in pigeon pea and Gingelley under NaCl salinity.Indian J Exp Boil,1981,19:768—770

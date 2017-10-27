@@ -1,0 +1,131 @@
+计算机工程
+COMPUTER ENGINEERING
+1999年 第25卷 第8期 Vol.25 No.8 1999
+
+
+
+系统安全检测的研究及应用
+刘淳，汪为农
+摘要：描述了一种系统安全的模型，并对应用程序作了形式上的描述。基于以上两点，设计实现了Unix下的一个基于规则的安全检测工具通过模型（系统和应用程序）的建立，对主机系统的分析和一组规则的使用，模拟系统中特权流和信息流的相互作用。
+关键词：系统安全；风险；模型；检测；基于规则
+Research of System Security Check and Application
+Liu Chun,Wang Weinong
+(Department of Computer,Shanghai Jiaotong University,Shanghai 200030)
+【Abstract】Here we present a formal model of system security.The key improvement is the description of interaction beween subjects and object.In addition,we present formal description of system applications (especially privileged programs).Based on the model and program description,we design and implement a rule-based security checd tool on Unix.By modeling of the system,analyzing the target host and using of rules,the security of the target host can be considered in a whole.
+【Key words】System security;Risk;Model;Check;Rule-based
+1 操作系统安全模型
+　　Unix 是个较安全的系统，有一定的安全机制，如身份验证 ( 用户口令 ) 和权限控制等；同时 Unix 又是个相当复杂的系统，许多程序协同工作，其中就有不少特权程序。图 1 给出了 Unix 系统特权的一个简化模型，对其他的操作系统也是适用的。
+
+图 1 Unix 系统特权的简化模型 
+　　最底层是操作系统核心，管理所有的资源 ( 如内存，磁盘，文件， CPU) 。资源只能通过系统调用来访问。核心通常提供对资源的保护机制，所以顶层的用户进程行为被核心所约束，防止了违反安全的操作。然而，一个系统通常还包括特权进程 ( 中层 ) ，为了完成其功能可以绕过核心的安全机制。这些特权进程，都有自己的安全机制，防止被滥用。核心加上特权进程，构成了整个系统的安全保护系统。该安全保护系统各模块之间的相互联系和依赖关系是如此复杂，对于用户来说，了解安全保护系统各部分之间的联系，并使安全系统正常工作，并非是一种容易的事情。 “ 管理 Unix 是一种艺术 ” 。因此，需要一种自动工具来分析 Unix 系统的安全状况。 
+　　在 BLP 模型 [6] 中，主体 (Subject ) 是绝对主动的，而对象 (Object) 是绝对被动的。用 BLP 模型来描述 Unix 的错综复杂的安全保护系统时，就会遇到困难。这主要是因为 Unix 的应用程序有自己的行为方式，对各应用程序来说，有许多 默认的文件是控制 / 驱动应用程序的。也就是说：主体和对象之间的关系不仅仅是单向的主体对对象的 Read 、 Write 、 Execute 、 Chmod 等，还有对象对主体的 Control 。 
+1.1 安全模型的数学描述 
+　　考虑到实际操作系统中主体与对象之间相互制约的关系，提出以〈主体，对象，关系〉为主要元素的安全模型，系统定义为 {B × M × H} 。其中： 
+　　B 是 {S × T × R × O} 的子集； 
+　　M 是系统的存取控制矩阵，在这里，不考虑主体与对象之间的时间相关性； 
+　　H 是对象的树形结构；
+　　S ：主体，由序偶〈 User ， Program 〉构成，其空间、时间的相关性由 T,R 给出； 
+　　T ：一组顺序关系，表示主体与客体之间关系的时间特性，可看成是一组时间点； 
+　　R ：关系。这里，关系不仅仅是单向的 Subject 对 Object 的操作，如 Read(Bind) ， Write ， Create ， Remove 等，还有 Object 对 Subject 的关系，如 Control ，以及以上各关系的闭包： Read* ， Write* ， Control* ； 
+　　O ：对象，可以是文件，设备 ( 包括磁盘，内存映像，网络端口号， TTY 终端， X- 窗口等 ) 。 
+1.2 直接存取关系 
+　　Read ， Write ， Scan ， Create ， Chmod 关系的定义考虑的是信息流的操作， Control 关系的定义考虑的是特权流 ( 控制流 ) 的操作。 Read, Write, Create, Control 的定义及图例如下： 
+　　定义 1 主体 S i Can Read 对象 Om ，记为 CanRead(S i , O m ) ， 
+　　定义 2 主体 S i Can Write 对象 Om ，记为 CanWrite(S i , O m ) ， 
+　　定义 3 对象 O m Control 主体 Si ，记为 ControlBy(S i , O m ) ， 
+　　定义 3 表明：在系统中，主体和对象的相关性，不仅仅表现在主体可 Read, Write 对象，还表现为对象控制主体。 
+　　定义 4 主体 S i Can Scan 对象 Om ，记为 CanScan(S i , O m ) ，这是 Unix 的特性，在其他基于树形目录结构的操作系统中，如 Novell 、 Windows NT ，也是适用的。 
+　　以上几点，说明了主体 Si 对对象 O m 所拥有的权限，但主体 Si 对对象 O m 实际访问情况还依赖于对象的树形结构。 
+1.3 目录结构兼容性 
+　　在实际的操作系统中，设备与文件系统是以树形结构存储的。 Unix 的文件系统是典型的例子： 
+　　定义：对象 O p 是 O t 的父亲，记为 Parent(O p ,O t ) 。 
+　　其中，与目录结构相关的安全规则 ( 限制 ) 是： 
+　　Rule D1 ： Scan(Si,Op) ∧ CanScan(Si ,Ot)∧Parent(Op ,Ot)=>Scan(Si,Ot)；
+　　Rule D2 ： Scan(Si,Op) ∧ CanRead(Si ,Ot)∧Parent(Op ,Ot)=>Read(Si,Ot)； 
+　　Rule D3 ： Scan(Si,Op)∧ CanWrite(Si ,Ot)∧Parent(Op ,Ot)=>Write(Si,Ot)。 
+　　即 Si 只有在访问 Ot 的父目录时，才能够访问 Ot。
+　　Rule D4 ： Scan(Si ,Op ) ∧ CanWrite(Si ,Op ) ∧ Parent(Op ,Ot )=>Write(Si ,Ot ) 。如果 Si 能够写 Ot 的父目录，则 S i 能够替换 Ot ，可以认为 Si 能够写 Ot 。用户 bin 可以写 /etc ，就可以替换 /etc/passwd 。 
+1.4 间接存取关系 
+　　所有的间接存取关系都是从直接存取关系和主体与对象之间相互制约关系演化而来。 
+　　(1) 间接 Read(Indirect Read) ，记为 read*(S i , V m ) ， 
+　　规则 1-1 Write*(S m ,O i ) ∧ Read(S n ,O i )=>Read*(S n ,S m ) 
+　　规则 1-2 Write*(S m ,O i ) ∧ Read(S n ,O i )=>Read*(S n ,S m ) 
+　　(2) 间接 Write(Indirect Write) ，记为 write*(S i , V m ) ， 
+　　规则 2-1 Read/Read*/ControlBy/ControlBy*(S i ,O m ) ∧ Write(S i ,O n )=>Write*(O m ,O n ) 
+　　规则 2-2 Read*/ControlBy*(S i ,S m ) ∧ Write(S i ,O n )=>Write*(S m ,O n ) 
+　　(3) 间接 Control By(Indirect Control By) ，记为 ControlBy*(S i , V m ) ， 
+　　规则 3-1 Write/Write*(S m ,O i ) ∧ ControlBy(S n ,O i )=>ControlBy*(S n ,S m ) 
+　　规则 3-2 Write*(O i ,O m ) ∧ ControlBy(S i ,O m )=>ControlBy*(S i ,O i ) 
+1.5 特权程序模型化 
+　　基于以上的模型，可以对特权程序建模，并描述其行为。这对于检测和监测都很有帮助。使用特权程序的模板，对于检测来说，可以较精确地估计该程序的行为后果，配合主体与客体间相互依赖的关系，估计出系统中信息的流向，对系统的安全情况作出判断；对于监测来说，可以及时发现特权程序的 “ 越权 ” 行为，以便作出相应的制止措施。 
+　　一个特权程序可以被描述为一系列与对象的关系： 
+　　即：〈 [ 时间点 ] 关系，对象〉。在当前的模型中，考虑到父子进程功能的相似性，就不考虑是否生成子进程。 
+　　Sendmail 可以被描述为： 
+　　Program Sendmail 
+　　bind(port 25); /* read( port 25); */ 
+　　controledby(sendmail aliases file) 
+　　controledby($HOME/.mailrc) 
+　　read(Everything can be read) 
+　　write( mail queue ) 
+　　write( each user's mail spool ie: /var/spool/$LOGINNAME) 
+　　END 
+1.6 攻击的描述
+　　基于以上的模型和规则，可以归纳出一种攻击的模型，如图 2 所示。 
+
+图 2 攻击模型 
+2 安全检测工具的实现 
+　　基于上面的模型，构造 Unix 系统的安全检测工具，主要由以下几部分构成： 
+　　(1) 基本文件系统 (Baseline Filesystem) 权限的检查。 
+　　(2) 网络服务系统配置信息的搜集。 
+　　(3) 关键应用程序已知 Bug 的检测。 
+　　(4) 规则库、应用程序模板。 
+　　(5) 规则匹配，计算 ( 模拟攻击 ) 。 
+　　(6) 对得到的结果进行过滤，输出结果 
+
+图 3 安全检测工具的实现 
+　　程序一旦发现危险的配置或 Bug ，就生成一组修正后的关系。用来逼近真实系统的表现。如： 
+　　发现 NFS 是无限制输出 /home ，则加入修正关系： 
+　　anyhost anybody write /home 
+　　anyhost anybody read /home 
+　　发现 hosts.euqiv 中有 '＋'，加入关系： 
+　　anyhost anybody control localhost ftp /bin/sh 
+2.1 基本文件系统权限的检查 
+　　基本文件信息包括关键文件类型、属主、所属组、权限模式、长度、校验和等，由 “ 规则匹配 / 模拟攻击 ” 模块完成后继的工作。
+2.2 网络服务系统配置信息的检查 
+　　主要检查以下方面：
+　　.不安全的服务程序：检查 inetd 是否允许网络用户访问那些公认的不安全网络服务。如 rexd ， rshd ， TFTP 等。 
+　　. NFS 文件系统的配置：检查没有限制的输出，关键文件系统的输出。 
+　　. Sendmail 已知的 Bugs 、特洛伊木马等安全漏洞，检查是否有 uudecode, decode 宏； VRFY 和 EXPN 是否被启动； 'WIZ' 和 'DEBUG' 是否激活。 
+　　对于以上的检查结果，程序生成一组修正过的关系。 
+2.3 应用程序中已知 BUG 的检查 
+　　主要检查应用程序的 Bug ，其依据是程序的时间戳。使用 Bug 库来检查各特权 ( 应用 ) 程序的 Bug 。如 1988 年 12 月以前的 Sendmail 程序有 'WIZ' 命令，可以使入侵者得到 root shell 。 
+2.4 规则库与应用程序模板 
+　　规则库是内定的一组攻击规则，在 “ 规则匹配 / 模拟攻击 ” 模块中映射到每个可能的关系上，作为对关系的修正。其中有一些内定的安全规则 , 如：
+　　if ( localhost $USER write /dev/kmem ) localhost $USER $SHELL control localhost root /bin/csh 
+　　if ( anyhost anybody read /etc/passwd ) anyhost anybody control localhost root /bin/csh 
+后者表示的是当匿名者得到 /etc/passwd 后，最坏情况下，可以破解 root 的口令，从而得到 root 的 shell 。 
+　　应用程序模板，描述应用程序与对象的交互关系。在本工具的实现中，使用的是上述模型的简化版本，其格式是： 
+　　程序名称 ( 全路径的文件名 ) 
+　　[Controled By] 控制该程序的文件 
+　　[Readable Area] 可以读取的文件 
+　　[Writable Area] 应该写入的文件 
+　　[Executable Subject] 可以激活 (Active) 其他的程序 
+2.5 规则匹配和模拟攻击 
+　　读取关系的修正，作用于关系库，然后对整个系统中主体与对象的关系作出模拟攻击的运算。 
+　　模拟攻击所使用的规则是： 
+　　Write*(S m ,O i ) ∧ Read(S n ,O i )=>Read*(S n ,S m ) 
+　　Write*(O m ,O i ) ∧ Read(S n ,O i )=>Read*(S n ,O m ) 
+　　Read/Read*/ControlBy/ControlBy*(S i ,O m ) ∧ Write(S i ,O n )=>Write*(O m ,O n ) 
+　　Read*/ControlBy*(S i ,O m ) ∧ Write(S i ,O n )=>Write*(S m ,O n ) 
+　　Write/Write*(S m ,O i ) ∧ ControlBy(S n ,O i )=>ControlBy*(S n ,S m ) 
+　　Write*(O i ,O m ) ∧ ControlBy(S i ,O m )=>ControlBy*(S i ,O i ) 
+2.6 结果的过滤和输出 
+　　计算的结果是一个庞大的矩阵，表示系统中可能的漏洞全部被激发后的情况。必须将其中有害于系统安全的信息过滤出来，以便于系统管理者分析。这里也需要一些规则，目前的规则是：若一用户能够写不属于自己的文件，若一用户的程序 ( 主体 ) 能够控制不属于自己的程序。以上两种情况都应输出。 
+作者单位：上海交通大学计算机系，上海 200030
+参考文献 
+1 Shieh S W,Gligor V D.A Pattern-oriented Intrusion-detction Model and Its Applications.In IEEE Symposium on Research Security and Privacy,Oakland,1991 
+2 Ko C,Fink G,Levitt K.Automated Detection of Vulnerabilities in Privileged Programs by Execution Monitoring.In Computer Security Applications Conference , Orlando, Florida,1994,12:5-9
+3 Cuppens F.A Logical Analysis of Authorized and Prohibited Information Flows.In IEEE Symposium on Research in Security and Privacy, Oakland, 1993 
+4 Snyder L.Formal Models of Capability-based Protection Systems, In IEEE Transactions on Computers,1981,30(3) 
+5 Curry D A.Improving the Security of Your Unix System.SR International ITSTD-721-FR-90-21, 1990 [6] Padula B L et al, Secure Computer System: A Mathematical Model, MTR-2547, 1973,2(5) 
+6 Padula B L.Secure Computer System:A Marhematical Model,1973 

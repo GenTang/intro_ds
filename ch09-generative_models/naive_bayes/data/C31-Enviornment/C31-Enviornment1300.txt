@@ -1,0 +1,131 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMASTANTIAE
+1999年 第19卷 第3期 Vol.19  No.3 1999
+
+
+
+河流沉积物重金属污染质量控制基准的研究
+Ⅱ.相平衡分配方法(EqP)*
+刘文新　栾兆坤　汤鸿霄　
+摘要　以重金属污染严重的江西乐安江表层沉积物为对象，利用热力学相平衡分配法(EqP)和相 关基础数据库，研究探讨了该流域沉积物中重金属污染的数值型质量控制基准(SQC).结果表明，铜矿采矿活动导致某些江段沉积物中铜实际污染程度远高于相应的SQC水平.另外， 由于沿江中、小工矿企业废水的随意排放，同样造成附近沉积物中铅、锌、铬等重金属含量不同程度地超出各自的基准数值.此SQC的建立为制订该流域沉积物质量管理标准(SQS)及污染治理措施提供科学依据.
+关键词　沉积物质量基准；相平衡分配法；重金属；乐安江.
+Sediment quality criteria for heavy metal pollution in the Lean River Ⅱ. Equil ibrium partitioning approach
+LIU Wenxin,LUAN Zhaokun,TANG Hongxiao 
+SKLEAC,Research Center for Eco-Environmental Sciences,Chinese Academy of Sciences,Beijing 100085
+Abstract　Based on equilibrium partitioning approach (EqP) and CERP-DBMS database, the preliminary surface sediment quality criteria (SQC) for heavy metals in the Lean River were developed. The numerical SQC indicated that mining activities of Dexing Copper Mine caused the level of copper contamination much higher than the corresponding SQC value within the specific sections along the Lean River. In addition, release of wastewater from some factories anong the bank also led to increases in concentrations of lead, zinc and chrome, superior to their SQC to different extent. Therefore, it is urgent to link the SQC with the feedback from local economic conditions and social benefits, so that the sediment quality standards (SQS) can be established, and remediation program can be performed. 
+Keywords　sediments quality criteria,equilibrium partitioning,Le an River,heavy metal pollution.
+1　前言
+　　沉积物质量基准(SQC)是评价水生态环境质量的重要基准之一，它既可以弥补水质基准(WQC) 的不足，又是评价沉积物污染及其生态效应的基础.基于异相间热力学稳态交换的平衡分配法(EqP)是建立数值型SQC的代表性方法之一，适用于逐类化学污染物(chemi cal-by-chemical)［1，2］.尽管已提出建立国家级沉积物质量基准的概念，但从可操作和实用角度看，重点仍然是建立特定区域(或特定情形)沉积物质量控制基准［3］.比较而言，数值型SQC直观、明确，针对性强，便于行政管理和资源规划部门人员的理解和掌握.
+　　在我国，区域性SQC尚处于初步探索阶段，亟待深入开展实地研究.乐安江毗邻江西境内的大型德兴铜矿，矿区超负荷废矿水大量排入乐安江，造成沉积物中重金属严重污染并导致流域生态系统的破坏.本文在乐安江相关基础数据库支持下，利用当前流行的相平衡分配法(EqP)和实测数据的计算公式，初步研究探讨了建立乐安江沉积物质量控制基准，藉以指示该河流各断面沉积物重金属污染程度及分布格局，为制订符合当地实际沉积物质量标准奠定技术基础，同时亦为提高国内区域性污染沉积物的质量评价和管理水平提供科学依据.
+2　材料与方法
+2.1　样点位置
+　　本文采用CERP计划所设置的站位，沿乐安江上游至下游站位分布见文献［4］.
+2.2　相平衡分配系数KP的求算
+　　EqP法的关键在于求算化学污染物的相平衡分配系数KP.KP是一系列因素的复杂函数值，涉及沉积物“指纹特征”(Fingerprints)和沉积物/水界面的各种环境因素［4］，其计算方式包括：(1) 利用现场测试数据直接计算［5］；(2) 通过数理模式与模拟实验相结合的间接推算，例如氧化型沉积物的三相吸附模型［2］和近年流行的表面络合模式(SCM).SCM主要有恒定容量模式(CCM)、扩散层模式(DLM)和三层模式(TLM)；求解过程包括图解外推法和应用FITEQL、MINTEQ等软件［6］.模式计算通常较为复杂，参数的主观选择会造成结果不稳定或不确定性［7］，而且模拟实验对实际情形的反映存在一定局限性.因此，本文选择基础数据库CERP-DBMS中原始数据直接计算，基本公式如下：
+(1)
+SQC=KP.WQC+[Me]AVS+[Me] R　或　SQC* =K*P . WQC+[Me] AVS +[Me]R　　(2)
+　　式中CS、CIW、CW分别代表表层沉积固相(深度5-10.cm)、孔隙水相和上覆水相中重金属的溶解浓度(<0.45μm，浓度测定采用AAS、ICP技术)，K*P作为孔隙水样品缺乏时的补充参考，WQC为水质基准，[Me]AVS代表与酸可挥发性硫化物(AVS)相结合的金属，而[Me]R则代表沉积物中残渣态金属含量.
+表1　USEPA依据水质硬度制定的部分重金属慢性 生物毒性淡水水质基准［8］
+Table 1 Protective WQC of some heavy metals regulated 
+by USEPA for aguatic life in freshwater
+
+重金属基准浓度，mg/L
+Cuexp(0.8545×(ln(水质CaCO3硬度)-1.465)/1000
+Pbexp(1.2730×(ln(水质CaCO3硬度)-4.705)/1000
+Zn0.047(24.h)
+Cdexp(0.7852×(ln(水质CaCO3硬度)-3.490)/1000
+As0.19
+Cr0.011
+
+　　注：适于淡水水质条件下低硫氧化型沉积物，慢性毒性，pH=6.5-9.02.3　水质基准WQC的确定
+　　由于我国目前尚没有有关河流重金属慢性生物毒性水质基准，因此本文主要采用美国国家环 保局(USEPA)依据水生生物对重金属的最终慢性毒性水平(FCV)和水质硬度制订的淡水水质基准［8］(参见表1)作为确定乐安江水质基准(WQC)的基础，同时还采用中国地表水环境质量标准所规定的五类水质标准(GB3838-88)中的重金属部分作为参考基础［9］ .
+3　结果与讨论
+3.1　酸可挥发性硫化物和重金属形态分布对SQC的影响
+　　研究表明，沉积相中硫化物含量和金属形态分布对金属的生物可给性具有重要影响［10，11］，因此，建立旨在保护水生环境的SQC需要考虑修正.近年来，通常利用酸可挥发性硫化物(AVS)与同步提取各金属含量(∑SEM)的比值关系判断金属的生物效应和校正SQC计算［12］.沉积物中金属的形态分布与其生物可给性存在密切联系，原生相中的金属(残渣结合态)一般不参与相间的平衡分配.依据化学稳定性和改进的逐级提取技术，遵循简化分类原则，乐安江表层沉积物中重金属的形态分布可划分为生物易利用态(包括水可溶态、阳离子交换态)、中等利用态(包括碳酸盐结合态、Fe/Mn氧化物结合态、有机/硫化物结合态)和惰性态(残渣结合态)［13］.
+　　因乐安江表层沉积物属于氧化型低硫沉积物，AVS含量普遍很低，∑(SEM/AVS)通常大于1，因而金属生物活性相对较高［12］，AVS校正作用可忽略.这与乐安江沉积物中重金属形态分布以生物易利用态和中等利用态为主的结果相一致［13］.鉴于乐安江沉积物中重金属残渣态(即生物惰性态)占总量的比例很低，故本文在建立乐安江沉积物质量基准时也忽略残渣态的影响，采用如下简化计算公式：
+SQC=KP*WQC　或　SQC*=K*P*WQC　　　(3)
+表2　乐安江部分样点表层沉积物中AVS，∑SEM，∑(SEM/AVS)及其pH［13］
+Table 2 AVS,∑SEM,∑(SEM/AVS) and pH of surface sediments along the Lean R iver［13］
+样点名称AVS,μmol/g∑SEM，μmol/g∑SEM/AVSpH
+沽口A040.013.82382.3ud
+中洲A050.047.66191.45.66
+戴村A070.987.878.036.78
+接渡A080.133.8629.6ud
+蔡家湾A130.255.1320.56.64
+黄龙庙A141.461.641.1ud
+
+　　ud--因条件限制未能测定
+3.2　乐安江表层沉积物中重金属污染的初步质量控制基准(SQC)
+　　依据USEPA水质基准(表1)和实测水质参数，计算求得乐安江上覆水水质基准(WQC)如表3所示，再由公式(2)初步建立乐安江流域表层沉积物中重金属污染质量控制基准，结果见表4.
+表3　乐安江上覆水水质基准WQC(USEPA依硬度参数的最终慢性标准FCV)
+Table 3 Water quality criteria for heavy metals in surface water of the Le an River(USEPA's FCV)
+样点名称水质总硬度(CaCO3),mg/LCu,mg/LPb,mg/LZn,mg/LCd,mg/LAs,mg/LCr,mg/L
+海口A01102.30.0120.0030.0470.0010.1900.011
+沽口A04317.30.0320.0140.0470.0030.1900.011
+中洲A05189.30.0200.0070.0470.0020.1900.011
+戴村A07143.30.0160.0050.0470.0020.1900.011
+虎山A08179.10.0190.0070.0470.0020.1900.011
+接渡A09163.70.0180.0060.0470.0020.1900.011
+蔡家湾A13133.00.0150.0050.0470.0010.1900.011
+黄龙庙A1497.20.0120.0030.0470.0010.1900.011
+龙口A1680.20.0100.0020.0470.0010.1900.011
+
+表4　EqP法建立的乐安江表层沉积物中重金属污染初步质量控制基准SQC(USEPA's FCV)
+Table 4 Initial EqP-based SQC for heavy metals in surface sediments deriv ed from USEPA-WQC
+
+SQCA(CS/C\{IW\})Cu,mg/kgPb,mg/kgZn,mg/kgCd,mg/kgAs,mg/kg Cr,mg/kg
+海口A011925873910ud26
+沽口A04usususususus
+中洲A05887452513ud61
+戴村A07806258262730ud75
+虎山A08983282322240ud72
+接渡A0953017052815ud46
+蔡家湾A1371815599220ud47
+黄龙庙A143826552610ud41
+龙口A163331667565ud49
+SQC*A(CS/C\{W\})Cu,mg/kgPb,mg/kgZn,mg/kgCd,mg/kgAs,mg /kgCr,mg/kg
+海口A012619542640732
+沽口A04255741592128101
+中洲A0555551318343750
+戴村A0719391263288751
+虎山A089346172541235122
+接渡A095301702646133073
+蔡家湾A131050233893492357
+黄龙庙A144202585263551131
+龙口A163331664201110257
+
+　　us/ud--因当地条件限制未能采集样品/或未能加以测定
+3.3　讨论
+　　图1是乐安江表层沉积物中部分重金属实测数据与部分相应数值型SQC基准的对比.图中SQCA和SQC*A分别表示基于USEPA's FCV基础建立的初步质量控制基准(表4)，SQCB和SQCB则是基于国家地表水五类水质标准体系建立的初步质量控制基准(计算结果略).由图可见，在乐安江特定区域及特定条件下，应用平衡分配法初步建立的重金属数值型SQC与实测结果在总体变化趋势也较为一致.　　
+
+
+图1　乐安江表层沉积物中部分重金属实测含量与部分相应SQC水平的比较示意图
+Fig.1 Comparison between determinations and SQC for metals in surface sed iments from the Lean River
+　　然而，需要指出，由于该方法除对表层沉积物的机械组成(如孔隙率或疏松度)、吸附特性等“指纹特征”以及水质条件参数(如pH、硬度等)相当敏感，还受水动力学条件、水生生物物种及其气候条件(如光，热量等)时空变化的影响，因此难以寻觅到具有可比意义而相对衡定的KP值.此外，除去各种误差因素的影响，上述计算结果的较大变异性说明EqP方法本身同样亟待进一步改进和规范化［2］.尽管如此，通过相平衡分配法将相应水环境质量控制标准转化成特定区域沉积物质量控制标准，仍是当前最具发展前途的沉积物质量评价工具之一［14］.
+　　由图可见，基于USEPA-WQC的SQC与基于GB3838-88第(Ⅰ)级WQC的SQC在总体水平上彼此接近，说明两者存在某种程度的一致性.相对而言，计算偏差主要来源于孔隙水的采集和分析过程，由于沉积物孔隙水的采样、前处理等技术环节尚无统一的质评(QA)和质控(QC)标准［15］，加之乐安江属山地型河流，坡降大，河床主要由砾石、粗、细砂组成，现场某些地段的水文地质条件较为复杂，致使实际操作难度很大，不仅易出现系统和人为误差，甚至无法采集样品(例如沽口).
+　　乐安江沿江沉积物的重金属污染具有突出的分段分布特征：其中游区段(自沽口A04至蔡家湾A13)的表层沉积物中重金属污染相当严重，铜、铅、锌、铬的实测浓度均不同程度地超过各自初步的SQC水平，其直接根源显然是来自德兴大型铜矿和沿江中、小工矿企业采矿活动的影响.在上游地段如海口，金属含量一般在基准控制限以内，现阶段应控制潜在污染来源，例如附近活性炭厂含锌废水的排放.此外，镉在当地的本底含量较高(背景样点海口就达3 mg/kg左右)，这一趋势须予以重视.尽管个别样点缺少孔隙水数据，但沽口至中洲江段的沉积物显然属于典型的铜污染严重地区，其实际浓度远远超出基准含量，底栖生境衰退严重［16］，必须采取深度治理措施，严格限制经大坞河排放的德兴铜矿废矿水，提高污水处理效率和负荷，同时对尾矿渣进行综合治理(实施清运、定点填埋以及回收利用等).中游戴村附近区域呈现显著的多金属综合污染特征，沉积相中铜、铅、锌、铬的含量都高于基准控制水平，污染底泥需要挖掘和疏浚，同时减少洎水河沿岸工矿冶炼废水的随意排放，必要时可实行关停并转等措施.在虎山至接渡一带，由于上游重金属污染影响力衰减和水体自净能力有所恢复，金属污染强度开始降低，但沿程的淘金和火力发电等人为活动对沉积物中铬、铅、锌的影响仍不容忽视.下游蔡家湾地段属于河床陡度较低的回水区，流速减缓，致使河流悬浮物大量沉降，铜、铬、铅、锌等金属含量较相邻的上游样点明显回升，重点区段的污染底质需要清理.邻近鄱阳湖的黄龙庙、龙口等地沉积物质量进一步恢复，但室内生物检测毒性仍比较高［17］，应加强潜在(或未测定)污染源的监测，防止向湖区内部蔓延.本文建立的乐安江流域沉积物质量基准属于初步基准，需要后续的补充和修正，除进行附加的孔隙水采样及测定程序外，还须考虑季节性因素(即丰水期、枯水期)和沉积剖面上污染物浓度的垂直分布对SQC的影响，并利用表面络合模式计算(SCM)进行必要的辅助校正.
+　　一些管理决策者和执法部门在实际运用过程中不同程度地倾向于将数值型质量基准视为某种固定规范和达标水准，数值型SQC实际只是发挥“信号”(Flag)的指示作用，用于鉴别区域沉积物不同的污染状况及程度［18］.此外，数值型SQC基准目标专一性很强(Chemical-by-chemical)，没有充分考虑多种污染物之间复杂的相互作用，因此直接利用EqP法建立的数值基准武断地划定控制和治理范围及程度是不合适的.同时，SQC应根据环境信息的综合反馈定期加以调整，尤其污染物的浓度低于当前基准水平并非没有风险，原因在于特定条件或特定污染物的基准总是有限的，而潜在的尚无基准的化学物质则也很可能威胁底栖生物.因此，较为可靠的技术途径应首先利用数值型基准建立方法或工具，如相平衡分配法(EqP)计算不同污染物各自基准水平，然后结合水生生物对现场(in situ)污染的反馈信息(包括生物可给性、生态群落结构等)，借助质量三合一法(Triad)对数值型基准进行多指标检验，并作出必要的改进和修正，为最终制订具有行政管理和强制执行能力的沉积物质量控制标准(SQS)奠定技术基础.目前，沉积物数值型质量基准正趋向于利用大型综合数据库建立分级响应区间或带宽值(Range或Band)代替传统的门限值形式(Threshold)以适应复杂的生物剂量-响应关系.
+　　致谢--作者衷心感谢所有参与CERP计划的中外工作人员的大力支持和帮助.
+* 国家自然科学重点基金资助项目(编号：29137010)
+作者单位：中国科学院生态环境研究中心环境水化学国家重点实验室，北京 100085
+　
+参考文献
+　［1］　Adams W J,Kimerle R A，Barnett J W.Sediment quality and aq uatic life assessment.Environ Sci and Technol,1992,26(10):1865-1875
+　［2］　陈静生，王飞越.关于水体沉积物质量基准问题.环境化学，1992，11(3)：60 -70
+　［3］　USEPA.An SAB report:review of the Agency's approach for developing se diment criteria for five metals.EPA-SAB-EPEC-95-020.Washington DC,1995
+　［4］　刘文新，汤鸿霄.河流沉积物重金属污染质量控制准的研究　Ⅰ.C-B-T质量三 合一方法(Triad).环境科学学报，1999，19(2)：120-126
+　［5］　Webster J， Ridgway I.The application for the equilibrium partitio ning approach for establishing sediment quality criteria at the two UK sea dispo sal and outfall sites.Marine Pollution Bulletin,1994,28(11):653-661
+　［6］　文湘华，杜　青，汤鸿霄.乐安江沉积物对重金属的吸附模式研究.环境科学 学报，1996，16(1)：13-22
+　［7］　Coates J A,Delfino J J.Sources of uncertainty in the application of t he equilibrium partitioning approach to sediment quality assessment.Water Sci Te chnol,1993,28(8-9):317-328
+　［8］ USEPA.Research and Development,A Geochemical Assessment of Potential Po rewat er to EPA-Regulated Metal and Ionizable Organic Contaminants for Use in Develop ing Equilibrium-Partitioning Sediment Quality Criteria.1990.18-20
+　［9］　国家环保局编委会.水和废水监测分析方法(第三版).北京：中国环境科学出版社 .1989.576-577
+［10］ Allen H E.The significance of trace metal speciation for water sediment and soil quality criteria and standard.The Sci of Total Environ,1993,Supplement:23 -44
+［11］ 文湘华，Allen H E.乐安江沉积物酸可挥发硫化物含量及溶解氧对重金属释放特性的 影响的初步研究.环境科学，1997，18(4)：32-34
+［12］ Allen H E,Fu G M,Deng B L.Analysis of acid-volatile sulfide(AVS) and simult aneously extracted metals(SEM) for the estimation of potential toxicity in aquat ic sediments.Environ Tox Chem,1993,12:1441-1453
+［13］　Mao M Z.Speciation of metals in sediments along the Lean River.Final Report of the CERP,UNESCO,Paris,1996.55-57
+［14］ Ankley G T,Berry W J,Di Toro,Use of equilibrium partitioning to establish se diment quality criteria for nonionic chemicals:a reply to Iannuzzi et al.Env iron Tox Chem,1996,15(7):1019-1024
+［15］ Bufflap S E,Allen H E.Sediment pore water collection methods for trace m etal analysis:a review.Water Res,1996,29(1):165-177
+［16］ Zhu J,Ren S Z.Preliminary study on the benthic macroinvertebrate community r elating to the metal pollution in the Lean River.China Environ Sci,1994,5(2):1 77-181
+［17］ Wang Z J,Ma M.Toxic assessment of water and sediment in the Lean River.Fina l Report of the CERP,UNESCO,Paris,1996.59-62
+［18］ Landrum P F.How should numerical sediment quality criteria be used.Human and Ecological Risk Assessment,1995,1(1):13-17
+1997-04-07收到原稿　1998-01-21收到修改稿

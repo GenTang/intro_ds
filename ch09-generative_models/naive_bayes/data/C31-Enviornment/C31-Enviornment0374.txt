@@ -1,0 +1,96 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第1期 Vol.19 No.1 1999
+
+
+
+流域环境系统不确定性多目标规划方法及应用研究
+──洱海流域环境系统规划
+郭怀成　G.H.Huang　邹　锐　徐云麟　刘　磊
+摘要：应用不确定性模糊多目标规划（IFMOP〕模型对云南洱海流域进行了可持续发展环境规划研究.通过对流域内各种有关的人类行为时空分布的建模与求解.得到了在不同子区和不同时段的优化方案.由于IFMOP充分考虑了各种不确定性因素.并将其直接引入建模与求解过程.因此得到的解不仅能够为决策者提供经济与环境协调发展的优化框架.而且给决策者留下了发挥经验与才智的空间.
+关键词：洱海；不确定性模糊多目标规划；可持续发展；环境规划
+中图分类号：X321 文献标识码：A 文章编号：1000- 6923(1999)01- 0033- 05
+An inexact multiobjective programming method and its application in the watershed environmental system planning—environmental system planning of the Lake Erhai Basin.
+GUO Huai-cheng1, G.H.Huang2,ZOU Rui1,XU Yun-lin1, LIU Lei2 (1.Center for Environmental Sciences,Peking University,Beijing 100871,China；2.Faculty of Engineering, University of Regina, Canada S4S 0A2). China Environmental Science.1999,19(1)：33～37
+Abstract：In this paper, the IFMOP model has been applied to study the environmental planning for sustainable development in the Lake Erhai Basin,Yunnan Province. Based on the model outputs,the planning shemes corresponding to different subareas and stages have been proposed. The IFMOP can inte grate uncertainties of the real-world system into the process of modeling and solution, so the IFMOP outputs can not only provide the decision-makers with optimized framework of human activities, but also enable them excerting their experiences and knowledge within the interval of the solutions.
+Key words：Lake Erhai；inexact fuzzy multiobjective programming；sustainable development；environmental planning
+　　我国是一个湖泊和水库众多的国家.在绝大多数的湖泊和水库流域都聚居着很高密度的人口.因此.研究这些区域的环境经济可持续发展有着非常重大的意义.
+　　国内外研究表明,流域可持续发展规划涉及到不同时空的环境、经济和资源因素.同时.这些因素之间又往往存在复杂的相互作用.面对如此复杂的对象.仅靠决策者的经验和知识很难确保环境与经济调协发展.显然.系统分析与系统优化是解决这些问题的有力工具[1- 4]
+　　本研究提出不确定性模糊多目标规划模型(IFMOP),并以此作为核心模型进行了云南洱海流域可持续发展环境规划研究[5].
+1 研究区域概况
+　　洱海位于云南省大理白族自治州的中部.澜沧江(湄公河)流域的上端,湖泊面积250km2,容积29亿m3.研究区域(图1)包括云南省大理白族自治州的大理市和洱源县部分区域.
+
+图1 洱海流域示意
+Fig.1 Diagram of the Lake Erhai Basin
+Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ分别为各子区
+　　来自山地和农田的大量非点源污染物.已对洱海的水质产生了不良影响.洱海已由原来的贫－中营养型湖泊变为中营养型湖泊.并向富营养化过渡.
+2 研究范围
+2.1 系统组成
+　　研究的系统组分包括农业、旅游、林业、网箱养鱼、工业、采石、湖内航运和捕鱼、砖瓦窑、水的供给和需求.
+2.2 研究区划
+　　根据流域的自然、行政区域以及流域管理人员和专家的意见.将整个流域划分为7个子区(图1).各个子区具有不同的经济、环境和资源特征.
+2.3 规划期限
+　　规划研究的时限为15年(1995～2010年).分为2个规划时段(1995～2000年和2001～2010年).
+3 模型构建
+　　在系统分析基础上.通过与决策者及有关方面的反复交流.构造了洱海流域环境规划不确定性多目标规划模型:
+maxf1 = (NYk)(ABijk± )AGijk± +(NYk)INijk± +(NYk)
+(NBk± )NT± jk+(NYk)(TBk± )TRj'k± -(NYk)(FCk± )FRjk± - (FE± )FRj2± +(NYk)(BBk± )BRjk± +(NYk)(LBk± )LMjk± 
+maxf2=FRjk±
+minf3= (NYk)(2)(ASijk± )AGijk± +(NYk)(FSk± )FRjk± +(NYk)(BSk± )BRjk± +(NYk)(LSk± )LMjk±
+minf4=(NYk)(2)(RN)(RFj± )AGijk± +(NYk)(NN± )
+NTjk± +(NYk)(TN± )TRj'k± 
+minf5=(NYk)(2)(RP)(RFj± )AGijk± +(NYk)(NP± )NTjk± +(NYk)(TP± )TRj'k± 
+minf6=(NYk)(ICik± )INijk± +(NYk)(TC± )TRj'k± 
+S.T.(ASijk± )AGijk± ≤ CASjk± ,(AN)(ASijk± )AGijk± ≤ CANjk± 
+(AP)(ASijk± )AGijk± ≤ CAPjk± 
+(RN)(RFj± )AGijk±≤ CNRjk± 
+(RP)(RFj± )AGijk±≤ CPRjk±
+(ICik± )INijk± ≤ CICjk± 
+(NW± )NTjk± ≤ CNWk±
+(NN± )NTjk± ≤ CNNk± 
+(NP)NTjk± ≤ CNPk± j=1,2,... , 7 k=1,2
+(TLj)TRj'k± ≤ CTLj'k± j'=1,2-1,2-2,3,4 k=1,2
+(BSj± )BRjk± ≤ CBSjk± (BSj± )BRjk± ≤ CBTk± 
+(LSj± )LMjk± ≤ CLSjk± (LSj± )LMjk± ≤ CLTk± 
+(2ASijk± )AGijk± +(FS± )FRjk± +(BSj± )BRjk± +(LSj± )LMjk± ≤ CSLjk± 
+(2AS±j2)AG±ij2+(FS±)FR±j2+(BSj)BR±j2+(LSj)LMj2± ≤ (2ASij1± )AGij1± +(FS±)FRj1± +(BSj±)BRj1± +(LSj±)
+LMj1±
+(2)(RN)(RFj± )AGijk± +(NN±)NTjk± +(TN±)TRj'k± ≤ CNTjk± 
+(2)(RP)(RFj± )AGijk± +(NP±)NTjk± +(TP±)TRj'k± ≤ CPLjk± 
+(ICik± )INijk± +(TC±)TRj'k± ≤ CCTjk± 
+(WAi± )AGijk± +(WIik± )INijk± +(WTk± )TRj'k± +(WB±) BRjk± ≤ CWSk± 
+AGijk± ≤ CAGjk± j=1,2,... ,7 k=1,2
+AGij1± 3 AGCi± ,Gij2± 3 AGij1± 
+AGijk± +FRjk± ≤ CAFjk± i=1,2,3 j=1,2,...,7　　k=1,2
+FRj2± 3 FRj1± ,INijk± ≤ CINi
+NTj1± ≤ CNT
+NTj2± ≤ NTj1± NTjk± 3 NTCk
+BRj1± ≤ CBR
+BRj2± ≤ BRj1± BRjk± 3 BRCk
+LMj1± ≤ CLM
+LMj2± ≤ LMj1± ,LMjk± 3 LMCk
+AGijk± 3 0 INijk± 3 0 NT± jk3 0
+TRj'k± 3 0 FRjk± 3 0 BRjk± 3 0 LMjk± 3 0,i=1,2,3 j=1,2,...,7 k=1,2
+　　式中：ABijk± 为k阶段j子区第i种农业行为的净收益; AGijk± 为 k阶段j子区第i种农业类型占地面积; AGCi 为第i种农业类型用地面积下限; AN 为土壤含氮量(%);AP为土壤含磷量(%); ASijk± 为k阶段j子区第i种农业活动引起的土壤流失量; BBk± 为 k阶段砖瓦制造的年净收益; Bjk± 为k阶段j子区砖瓦年产量; BRCk为k阶段砖瓦产量下限; BSj± 为j子区单位砖瓦产量土壤流失; CAFjk± 为 k阶段j子区农业、森林最大允许用地面积; CAGjk± 为 k阶段j子区农业最大允许用地面积; CANjk± 为 k阶段j子区农业活动最大允许N流失量; CAPjk± 为 k阶段j子区农业活动最大允许N流失量; CASjk± 为 k阶段j子区农业活动最大允许土壤流失量; CBR为第一阶段砖瓦最高允许产量;CBSjk± 为k阶段j子区砖瓦制造最大允许土壤流失量; CBTk± 为 k阶段砖瓦制造最大允许土壤流失量; CCTjk± 为 k阶段j子区最大允许COD排放量; CICjk± 为 k阶段j子区工业最大允许COD排放量;CINi为工业 i最高允许产值水平; CLM 为第一阶段石灰生产最高允许产量; CLSjk± 为k阶段j子区石灰生产最大允许土壤流失量;CLTk± 为k阶段石灰生产最大允许土壤流失量;CNLjk± 为k阶段j子区最大允许N流失; CNNk± 为k阶段网箱养鱼最大允许N流失; CNPk± 为 k阶段网箱养鱼最大允许P流失; CNRjk± 为k阶段j子区农田径流最大允许溶解态N流失量;CNT为第一阶段网箱养鱼最大允许面积;CNWk± 为k阶段网箱养鱼最大允许废物排放量; CPLjk± 为k阶段j子区最大允许P流失量; CPRjk± 为k阶段j子区农田径流最大允许溶解态N流失量; CSLjk± 为k阶段j子区最大允许土壤流失量; CTLj'k± 为 k阶段j子区旅游最大允许用地面积; CWSk± 为 k阶段供水量; FCk± 为 k阶段森林维护费用; FE± 为造林费用; FRjk± 为 k阶段j子区森林面积; FS± 为森林水土流失强度; i 为第一与第二产业的行业序号(对于第一产业：i中1为水田,2为旱地,3为蔬菜地; 对于第二产业：i中1为纺织业,2为化纤业,3为造纸业,4为食品制造业,5为水泥制造业,6为皮革制造加工业,7为烟草制造业); ICik± 为k阶段第i种工业行业的COD排放量; INijk± 为k阶段j子区第i种工业行业产值; j为子区号1, 2, 3, 4, 5, 6, 7; j'为相应于旅游活动的子区号, j'为 1, 2-1, 2-2, 3, 4;k为阶段号1, 2; LBk± 为 k阶段石灰制造净效益; LMjk± 为k阶段j子区石灰生产量; LMCk 为 k阶段石灰生产量下限; LSj± 为j子区石灰生产引起的土壤流失量; NBk± 为k阶段网箱养鱼净效益; NN±为网箱养鱼N排放强度; NP±为网箱养鱼P排放强度; NTjk± 为k阶段j子区网箱养鱼面积; NTCk为k阶段网箱养鱼面积下限; NW± 为网箱养鱼废物排放强度; NYk为k阶段的长度.其中NY1为4,NY2 为 10; RFj± 为j子区农田径流量;RN为农田径流中溶解态N含量; RP为农田径流中溶解态P含量；TBk± 为k阶段旅游业净效益;TC± 为旅游活动COD排放量;TLj'± 为j子区旅游用地; TN± 为旅游活动N排放量;TP± 为旅游活动P排放量;TRj'k± 为k阶段j子区游客流量;WAi± 为第i种农业活动需水量; WB±为砖瓦制造需水量;WIik± 为k阶段第i种工业行业需水量;WTk± 为k阶段旅游活动需水量.
+4 结果分析
+4.1 环境经济情景分析
+　　将有关参数输入上述模式并根据本研究给出的算法对模型进行求解.可得到关于决策变量的一系列解.通过与当地有关部门和管理人员反复交互.对模型进行了多次调整.最终得到模型的满意解.IFMOP模型求解考虑了4种不同的环境经济情景.第1、4种情景侧重于环境目标和经济目标之间的平衡.其中.后者对网箱养鱼作了严格的限制.第2种情景侧重于工业发展.第3种情景侧重于工业污染控制.
+　　不同情景与相应的目标函数值存在一定差异.但它们都将满足洱海的水质目标.一般低经济收入的规划方案能够更好地满足水质目标,而随着规划方案向高经济目标倾斜,水环境污染的风险将会增大.换言之.追求低经济目标的规划方案反映的是一种保守的战略,而追求高经济目标的规划方案则是相对乐观的战略.因此.IFMOP的不确定解就可以在不同的环境污染风险水平与经济目标水平之间进行协调解译.从而产生现实可行的决策方案.
+4.2 决策变量的解
+　　因篇幅所限在此不详细列出关于各个决策变量的解.而仅对IFMOP在情景1下的解的解译结果进行简要描述.
+4.2.1 农业活动 根据IFMOP在情景1下解,子区1和5中的水田将在可变范围内被扩展.而在其它子区中则排除任何扩展的潜在可能性.子区7具有高强度的农业活动和网箱养鱼,对洱海非点源污染贡献很大.因此.在现有污染源得到有效控制之前,应该避免再产生额外的污染负荷.子区6具有很高的水土流失潜力,在该区不能进行水田扩展.子区2到4均不适于进一步扩展水田面积;旱田面积的扩展则在每个子区都应限制;在两个规划阶段内.蔬菜地将在一个可变的范围内扩展,具体的生产水平将依实际的市场情况而定.
+4.2.2 工业生产 模型结果表明.在第一阶段对纺织业的发展应采取限制的方式.到第二阶段,如果能够得到相应的高效污染控制技术和设备,则可以考虑对其进行扩展;流域内的化纤工业发展应予限制或取缔;所有的纸浆、造纸工业如果有关技术水平没有得到提高,则它们的生产也应受到限制.另一可行的控制纸浆、造纸污染的方案是将造纸厂的制浆车间搬到系统之外.这样,在流域内保留的就是污染强度较低且经济效益较高的纸张生产部分.这种方案将为该行业今后的远期拓展奠定基础;在两个规划阶段中,流域内(尤其是市区)的食品加工业将被适度扩展.其扩展规模也存在一个可变范围,具体方案应根据具体情况而定;在目前的系统条件下,应该限制水泥工业的进一步发展.将来如果能够获得先进的采石技术和生产技术.并且对矿山实行严格的覆土恢复措施.则可以考虑对该行业进一步的发展;流域内的皮革工业尚处于规模很小阶段,对它将不再扩展甚至取缔;对于烟草工业,若市场条件允许,能够获得有效的污水处理设施,该行业可以大力发展.
+4.2.3 其它 根据IFMOP模型结果,建议在现阶段就对网箱养鱼进行削减,作为替代可以在湖外修建鱼塘以确保一定的鲜鱼产量水平;应大力发展旅游业,同时也不能忽视发展限度问题.从空间分布上看,子区5和7内分布的旅游资源有限,因此其发展潜力较低,模型结果给出了区域适宜的旅游发展规模;在第一阶段,应在子区7进行适度的森林扩展.在第二阶段,则只需维持上一阶段的森林覆盖水平;根据IFMOP的解,石灰窑和砖瓦窑在第一阶段的发展至多只能维持在现有生产水平上.
+5 结论
+　　本研究应用IFMOP模型对洱海流域的各种环境、资源状况进行了可持续发展规划研究.采用的方法能够充分地反映系统的不确定性、复杂性和动态特征,因此,可以产生符合流域具体情况的可操作规划方案.考虑各个目标不同的协调方式,在4种情景下对模型进行了求解并得到相应的满意解.根据模型解可以看出,洱海流域由于存在着较明显的空间区位差异,因此在不同子区应实施相应的方案.总之,第一产业将不再明显扩大规模,今后的发展方向应集中在加强管理和推广高产少废农业上.第二产业中,烟草业和食品业可进一步扩展,而其它行业扩展与否则依生产工艺水平和污染控制技术水平.第三产业中,旅游业将是重点发展的产业.并最终成为区域的支柱产业,网箱养鱼和砖瓦制造等应进行限制或取消.模型的区间解给出了各种活动在未来两个阶段的定量规模,决策者根据实际情况对解进行解译,即可得到合理可行的方案.
+致谢：本研究得到大理州环保局尚榆民,沈 兵,罗增寿和云南省环保局的王文义,钱 亮,施甘霖及中国国际经济技术交流中心的张 宁,李胜根等同志的大力支持与帮助.
+基金项目：UNEP资助项目
+作者简介：郭怀成(1953-),男,北京人,现为北京大学环境科学中心副教授.主要从事环境规划、水环境学的科研教学工作.承担完成“京津唐地区水资源开发的环境影响”、“伊洛河水质评价与管理规划研究”和“Integrated Environmental Planning for Sustainable Development in the Lake Erhai Basin”等20余项科研课题.获国家或省部级科技进步奖6项.发表论文40余篇.编著4部.
+作者单位：郭怀成　邹 锐　徐云麟（北京大学环境科学中心,北京 100871；）G.H.Huang　刘 磊　（Faculty of Engineering, University of Regina, Canada S4S 0A2
+参考文献：
+　[1]　Buckley J J.Fuzzy programming and the Pareto optimal set [J], Fuzzy Sets and Systems,1983,10:57- 63.
+　[2]　Huang G H,S Cohen, Y Y Yin.et al.,Incorporation of inexat integer programming and fuzzy relation analysis for integrated environmental impact assessment and adaptation study under uncertainty [J].J.of Environmental Management,1996,48:45- 68.
+　[3]　Luhandjula M K.Compensatory operators in fuzzy linear programming with multiple objectives [J]. Fuzzy Sets and Systems, 1982,8:245- 252.
+　[4]　Urli B R Nadeau.Multiobjective stochastic linear programming with incomplete information:a general methodology, in R. Slowinski, and J. Teghem (eds), Stochastic versus fuzzy approaches to multiobjective mathematical programming under uncertainty [C].Kluwer Academic Publishers, Dordrecht, Germany,1990, 131- 162.
+　[5]　Huang G H,Y Xu,H C Guo.Intergrated environmental planning for sustainable developement in Lake Erhai Basin? with a diagnostic study for local environmental concerns,United Nations Environment Programme [C].Nairobi,1996.
+收稿日期：1998-02-04

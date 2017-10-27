@@ -1,0 +1,133 @@
+计算机工程
+Computer Engineering
+1999年　第25卷　第4期　Vol.25　No.4　1999
+
+
+
+NetWare工作站的正确安装与配置
+姜灵敏
+摘　要　介绍解决NetWare工作站安装时出现的无网络驱动器字符、通信协议不一致及DOS版本不符导致工作站不能登录的故障方法。
+关键词　NetWare网络操作系统工作站登录SRTVER DOS版本
+The Correct Mounting and Configuration of NetWare are Workstation
+JiangLingmin
+（Department of Information，Hunan College of Finance and Economie Changsha 410079）
+Abstract：This paper introduces the solution for the fault in which NetWare workstation can not be refistered when mounted，when mounted，which is caused by lack of met-driving character，in consistency of communication protocol and inconsistency of DOS version.
+Key words:NetWare;Network operating system;Workstation registered;SETVER;DOS version
+　　NetWare是Novell公司开发的网络操作系统产品，是当今世界上应用最广泛的网络操作系统。NetWare 3.XX被公认为是90年代最优秀的微机局域网操作系统，它安装方便，操作灵活，支持DOS、Windows、OS/2、Unix、Macintosh和IBM SNA等操作系统，可以配置成不同网络结构的多种网络应用环境，从而使Novell成为广泛应用的高性能计算机网络。
+1　Novell的NetWare安装
+　　目前，大多是在DOS 环境使用Novell的NetWare。NetWare的安装分为服务器安装和工作站安装。服务器的安装是把NetWare网络操作系统和网络实用程序装入文件服务器，在文件服务器上建立Novell网络文件系统的基本目录结构，指定服务器的工作参数，选择网络驱动程序等。工作站的安装比较简单，主要是在工作站上安装通信协议和外壳程序，以便运行它们实现工作站与服务器的通信连接。
+　　在NetWare系统的工作站上安装通信协议和外壳程序有3种方法：(1)安装IPX.COM文件和NETX.EXE文件。(2)安装LSL.COM、NE2000.COM、IPXODI.COM和NETX.EXE文件。(3)安装LSL.COM、NE2000.COM、IPXODI.COM和VLM.EXE文件。
+　　第一种方法是NetWare 3.11的缺省方法，NetWare 3.12下的工作站也可采用这种方法，其中IPX.COM文件作为通信协议，负责文件服务器与工作站之间的沟通。一般以ETHERNET_802.3为帧，即采用CSMA/CD访问方法及物理层规范。而NETX.EXE文件是一个shell，负责解释用户所给出的命令到底是属于DOS命令还是Novell的命令。如果是DOS命令，就在本地工作站处理完毕；若是Novell的命令就送到服务器作解释。NETX中的X也可以是一个数字，用以表明DOS版本号，如在DOS 6.22系统下需运行的外壳程序可以是NET7.EXE等。
+　　第二、三种方法仅在NetWare 3.12下采用。这里，LSL.COM是连接支持层的软件，NE2000.com是网卡驱动程序(根据网卡的种类选择)，IPXODI.COM是通信协议，NETX.EXE及VLM.EXE都是外壳程序，VLM.EXE与NETX.EXE的区别在于Vlm采用了模块化结构(其要安装的模块在NET.CFG文件中指定)，所以比NETX.EXE灵活。
+　　服务器和工作站安装好后，启动服务器，在工作站运行以上这些文件，就应能接入网络正常登录。但有时在工作站运行这些命令序列后却有可能出现如下三种错误：
+　　(1)运行正常，且屏幕已显示：
+　　Attached to server JLM　　(JLM是服务器的名字)
+　　但是，键入F且回车后，却出现如下错误信息：
+　　　　　Invalid drive specification
+　　(2)运行NETX.EXE需等待较长时间后，然后出现如下错误信息：
+　　SHELL-332-21:A netware server could not be found.
+　　(3)运行NETX.EXE时显示DOS版本不对，如：
+　　SHELL-331-29:SHELL requires DOS v3.0 through v5.0.
+2　关于驱动器的说明
+　　DOS在默认情况下只允许使用字母A～E表示驱动器，若要建立一个大于E的驱动器，就必须先在CONFIG.SYS文件中用LASTDRIVE指定允许的最大驱动器号，   可以指定的范围为A～Z。DOS自动为每一个驱动器从A开始编号，包括物理驱动器、扩展分区的逻辑盘、虚拟磁盘、光驱、以及用SUBST命令建立的逻辑盘等。
+　　在NetWare工作站上，也是用盘符来映射服务器的卷和子目录。但NETX.EXE和VLM.EXE对驱动器符的要求不同。
+　　(1) 如果进入网络时运行的是NEXT.EXE外壳程序，工作站用来映射服务器的第一个盘符是紧接CONFIG.SYS中LASTDRIVE命令所说明的下一个盘符。如果在CONFIG.SYS文件中没有LASTDRIVE命令行或是LASTDRIVE=E，则用于映射服务器的第一个盘符就是F；如果在CONFIG.SYS文件中有命令行LASTDRIVE=D，则用于映射服务器的第一个盘符就是E；如果在CONFIG.SYS文件中有命令行LASTDRIVE=F，则用于映射服务器的第一个盘符就是G；......。这表明工作站用来映射服务器的盘符不一定就是F，之所以大部分情况下为F，是因为在CONFIG.SYS文件中没有用命令LASTDRIVE说明可用的最大驱动器字母而使用了缺省的最大驱动器字母E 。千万不要认为，为了说明工作站映射服务器的盘符，就在CONFIG.SYS的LASTDRIVE命令行中把字母指定得很大，比如说Z，这样作为NetWare工作站就无字母来映射服务器了。设在CONFIG.SYS文件中有命令行LASTDRIVE=W，我们在运行NETX后，再在系统提示符下键入X:回车，然后输入LOGIN SUPERVISOR命令，屏幕上就显示：
+　　　Drive A:maps to a local disk.
+　　　Drive B:maps to a local disk.
+　　　Drive C:maps to a local disk.
+　　　　......
+　　　Drive V:maps to a local disk.
+　　　Drive W:maps to a local disk.
+　　　Drive X: =JLM\SYS:\SYSTEM
+　　　　-----------
+　　　Search1:=Z:.[JLM\SYS\PUBLIC]
+　　　Search2:=Y:.[JLM\SYS\]
+　　　Search3:=C:\WINDOWS
+　　　Search4:=C:\DOS
+　　　Search5:=D:\UCDOS
+　　由此可见，如果用NETX.EXE作外壳程序，为了能有足够的驱动器字母来映射服务器的卷和目录，在CONFIG.SYS的LASTDRIVE中不能指定驱动器字符过大，只要够DOS系统用就行了。实际上，系统要为每一个驱动器字符分配一个数据结构，指定驱动器字符过大会造成存储空间的浪费。
+　　(2)如果是用VLM.EXE 作外壳驱动程序，其用于映射网络驱动器的第一个盘符由NET.CFG中的FIRST NETWORK DRIVE=X确定。如果X为F，则映射的第一个网络驱动器盘符就是F；如果X为E，则映射的第一个网络驱动器盘符就是E(只要不与物理驱动器冲突)；如果X为G，则映射的第一个网络驱动器盘符就是G；...。可见在用VLM.EXE为外壳程序时映射的驱动器符不是由CONFIG.SYS文件中的LASTDRIVE命令指定的字符来确定，且必须指定为LASTDRIVE=Z。
+3　工作站不能登录故障的排除
+　　出现"SHELL-332-21:A netware server could not be found."故障，可能是：①由于文件服务器没打开；②文件服务器和工作站之间的连接有开路或短路现象；③网卡出故障或通信协议有问题。在排除前两种情况的前提下，网卡出故障的可能性比较小，则极有可能是通信协议方面的问题。在服务器上运行PROTOCOL命令，显示信息：
+　　PROTOCOL:IPX Frame type:VIRTUAL_LAN PROTOCOL ID: 0
+　　PROTOCOL:IPX Frame type:ETHERNET_802.2 PROTOCOL ID: 0
+　　即服务器帧类型是802.2(NetWare的隐含帧类型是802.2)，与工作站IPX要求的帧类型802.3不符。排除故障的步骤如下：
+　　(1)在服务器上运行命令：LOAD INSTALL
+　　(2)选择"Installation Options"中的"System Options"项；
+　　(3)选择"Available System Options"中的"Edit AUTOEXEC.NCF File"项；
+　　(4)将AUTOEXEC.NCF文件中的
+LOAD NE2000 port=300 int=3 frame=ETHERNET_802.2改为LOAD NE2000 port=300 int=3 frame=ETHERNET_802.3或在同一个服务器上安装两种帧类型，即将AUTOEXEC.NCF改为如下形式：
+　　LOAD NE2000 port=300 int=3 frame=ETHERNET_802.2 NAME=F1
+　　BIND IPX TO F1 TO NET=A
+　　LOAD NE2000 port=300int=3 frame=ETHERNET_802.3 NAME=F2
+　　BIND IPX TO F2 TO NET=B
+　　(5)按Esc键存盘退出INSTALL命令；
+　　(6)卸掉原网卡驱动程序
+　　　　:UNLOAD NE2000
+　　(7)运行AUTOEXEC.NCF
+　　　　　:AUTOEXEC
+　　至此，问题得到解决。在工作站运行NETX.EXE程序，立即可以登录，屏幕上即会出现如下信息：
+　　Running on DOS V6.22
+　　Attached to server JLM
+　　98-10-10　10:20:47
+4　DOS版本不符故障的排除
+　　运行NETX.EXE时出现"SHELL-331-29:SHELL requires DOS v3.0 through v5.0."提示信息，表示NETX.EXE只能在DOS 3.0到5.0之间的版本下运行，现在的DOS版本是6.22，所以出现错误。
+　　一般情况下，在DOS低版本系统下能运行的命令和应用程序可以在DOS高版本系统下正常运行，也就是说DOS系统向下兼容。但有些特殊的命令或应用程序，是在DOS低版本环境下开发的，只能在DOS低版本环境下运行，在DOS高版本下不能运行，这里出现NETX.EXE不能在高版本DOS下运行就是这种情况。为了解决这一问题，DOS系统从5.0开始，提供了一个版本兼容命令Setver.EXE。
+4.1　Setver.exe命令的格式
+　　SETVER.EXE的格式是：
+　　SETVER[drive:path]　　　　显示现在的命令版本兼容表
+　　SETVER[drive:path]filename n.nn　　　向版本表增加一个命令或应用程序
+　　SETVER[drive:path]filename/DELETE[/QUIET]从版本表删除一个命令或应用程序
+　　其中：
+　　[drive:path]　指定SETVER.EXE文件所在位置
+　　filename　　指定应用程序或命令的文件名
+　　n.nn　　　　指定应用程序或命令在哪一个MS-DOS版本上运行，n.nn为版本号
+　　/DELETE or /D　　指定要删除的应用程序或命令的文件名
+　　/QUIET　　抑制在版本表中删除应用程序或命令时的显示信息
+4.2　使用SETVER.EXE命令的注意事项
+　　SETVER.EXE命令的使用比较简单，但在应用中需注意如下问题：
+　　(1)用SETVER/?格式可在屏幕上显示出Setver命令格式的说明信息。
+　　(2)用SETVER格式可显示SETVER中的版本表，如下面是DOS 6.22下的初始版本表：
+　　KERNEL.EXE　　5.00
+　　DOSOAD.SYS　　5.00
+　　......
+　　WIN200.BIN　　3.40
+　　METRO.EXE　　3.31
+　　(3)在用Setver filename n.nn或SETVER filename/DELETE命令向版本表增加或从版本表中删除一项时，屏幕上给出提示信息：
+　　　Version table successfully updated
+　　The version change will take effect the next time you restart your system
+　　即要重新启动系统，对版本表所作的修改才生效。
+　　(4)在DOS提示符下运行SETVER命令只能显示或修改SETVER中的版本表，但不能使相应的命令或应用程序运行，要在相应DOS版本下运行版本表中列示的命令或应用程序，必须在CONFIG.SYS文件中增加如下命令行：
+　　DEVICE=C:\DOS\SETVER.EXE
+4.3　SETVER.EXE命令的错误信息
+　　(1)若在命令中指定DOS版本号不在合法值2.11-9.99范围内，则显示如下错误信息：
+　　ERROR:Invalid version number,format must be 2.11-9.99.
+　　(2)若在SETVER命令中未指定文件名及为文件指定版本号，显示如下错误信息：
+　　ERROR:Missing parameter.
+　　(3)SETVER表中每一个文件名按实际文件名长度存放，即长度为：
+　　文件主名字符个数＋1(圆点)＋扩展名字符个数＋2(版本号)＋1(分隔符)
+　　SETVER版本表的长度是固定的，文件名长则表项就少，反之就多。当版本表满了，再向其增加表项，则会显示错误信息：
+　　ERROR:There is no more space in version table new entries.
+4.4 用SETVER.EXE命令解决NETX.EXE的DOS版本不兼容问题
+　　对于那些能在DOS低版本下运行但不能在DOS高版本下运行的命令或应用程序，在高版本环境下必须借助SETVER命令来运行这些命令或应用程序。NETX.EXE是一个外壳驱动程序，与DOS版本密切相关，如上文提到NETX.EXE在DOS 6.22系统下运行时出现如下错误信息：
+　　SHELL-331-29:SHELL requires DOS v3.0 through v5.0.
+　　表示随该网卡提供的驱动程序只能在DOS v3.0到v5.0版本下运行，要想在DOS 6.22下运行就只能借助Setver程序了。其步骤如下：
+　　(1)将NETX.EXE在DOS 5.0 运行这一信息加入到SETVER的版本表中
+  　　SETVER NETX.EXE 5.0
+　　此后，运行SETVER命令会发现SETVER版本表中多了一个表项"NETX.EXE  5.00"。
+　　(2)修改CONFIG.SYS文件，增加一行：
+　　DEVICE=C:\DOS\Setver.exe
+　　这样，就可在DOS 6.22环境下运行由版本表指定的只能在DOS低版本中运行的命令或应用程序了。
+　　(3)重新启动系统，再运行IPX.COM，然后运行NETX.EXE，运行成功，屏幕显示：
+　　NetWare Workstation SHELL v3.31 (921112)
+　　(C) Copyright 1991,1992 Novell,Inc.All Rights Reserved.
+　　Patent Pending.
+　　Running on DOS V5.00
+　　Attached to server JLM
+　　98-10-10　　22:35:14
+作者简介：姜灵敏男42岁，副教授，主要研究方向：计算机网络，数据库原理与应用
+作者单位：湖南财经学院信息系长沙　410079
+参考文献
+　1　陈明德.Novell网络实际操作.北京：人民邮电出版社，1995
+　2　Angelo RS.NetWare百科全书(第二版).北京：电子工业出版社，1998
+收稿日期：1998-10-15

@@ -1,0 +1,144 @@
+信息与控制
+INFORMATION AND CONTROL
+1999年 第28卷 第3期 Vol.28 No.3 1999
+
+
+
+CMAC(小脑模型)神经计算与神经控制
+段培永　邵惠鹤
+　　摘要：CMAC神经网络是局部学习网络，结构简单，收敛速度快，易于软件和和硬件实现，具有广泛的应用前景．本文综述了CMAC神经网络结构和算法，以及在控制中的应用，指出了CMAC神经计算和神经控制发展方向及在实际应用中需解决的问题．
+　　关键词：CMAC，学习算法，神经计算，神经控制
+　　中图分类号：TP11　　　　　　文献标识码：A
+CMAC NEURAL NETWORKS BASED NEURAL COMPUTATION
+AND NEUROCONTROL
+DUAN Peiyong　SHAO Huihe
+(Department of Automation, Shanghai Jiaotong University　200030)
+　　Abstract　A CMAC is one kind of local-learning neural networks, it has promising applications in the future for its simple structure, fast convergence speed and easy implementation by software and hardware. Structures and algorithms of different CMAC are summarized, applications to control systems are also discussed. At the end of the paper, it is pointed out that neural computation and neurocontrol based on CMAC have several further research aspects and some problems to be overcome.
+　　Key words　 CMAC, learning algorithm, neural computation, neurocontrol
+　　1　引言
+　　CMAC是Albus［1］在Eccles［2］小脑时空模型的基础上，于1975年提出的一种模拟人类的小脑的学习结构的小脑模型关节控制器(Cerebellar Model Articulation Controller)，简记为CMAC．因此它具有很强的记忆与输输出泛化能力．最早的Albus CMAC是基于表格查询(Table lookup)式输入输出技术的局部逼近网络，是一种类查表技术传感器，信息的存储与恢复模拟小脑的联想记忆与回想(Recall)．其简单结构模型如图1所示．
+
+
+图1　Albus CMAC神经网络的模型
+　　输入空间由所有可能的输入向量xi组成，CMAC网络将其接受到的任何输入通过感知器M映射到一个很大的虚拟联想存储器A中的c个点．在输入空间相近的两个输入向量，它们的c个点在存储器A中有部分重叠的单元；距离越近，重叠越多．反之，若在输入空间远离的两个输入向量，它们的c个点在A中没有重叠．为了减少实际存储空间，常采用杂凑编码(Hashing-coding)技术，将存储器映射到一个小得多的物理可实现的存储器A′．那么，任何CMAC网络的输入将激活A′中c个真实的位置，而这些位置所存储的权被相加得到输出向量y．M称为量化感知器，c称为感知野．CMAC实现的输出满足范化(Generalization)及二分(Dichotomy)原理：相近输入产生相近输出，不相近输入产生无关输出．
+　　CMAC算法利用联想记忆和先进的查表技术且有神经网络感知器的特点，收敛速度很快，被证明可有效地用于非线性函数逼近、通过静态映射实现动态建模、控制系统的设计等，如被用在机器人控制［3～4］、精馏塔控制［5］、压电刀架控制［6］、机械系统控制［7］、车辆智能警报系统［8］、信号处理［9］、燃料供给系统控制［10］、打印机色彩校准［11］等中．
+　　基于神经网络的控制（NN-based Control）称为神经网络控制,简称神经控制（Neurocontrol）．Neurocontrol首先由H. Tolle与Ersu于1992年正式提出，是智能控制的一个崭新的研究方向，可能成为智能控制的“后起之秀”［12～13］．CMAC神经控制的研究，首先是提高CMAC神经网络本身性能研究，其途径有改善CMAC结构、学习算法，及其性能与参数的关系；其次是基于CMAC的特点，进行控制策略的研究．
+　　2　CMAC神经网络的优越性
+　　神经计算和神经控制主要应用神经网络的函数逼近能力，若从这个角度看，神经网络可分为全局逼近神经网络和局部逼近神经网络．如果网络的一个和多个连接权系数或自适应可调参数在输入空间的每一点对任何一个输出都有影响，则称该神经网络为全局逼近网络，如BP网．对每个输入输出对，网络的每一个连接权均需进行调整，从而导致全局逼近网络速度很慢的缺点．这个缺点对于控制来说是不能容忍的．若对输入空间的某个局部区域，只有少数几个连接权影响网络的输出，则称该网络为局部逼近网络，对于每个输入输出数据对，只有少量的连接权需要进行调整，从而使局部逼近网络具有学习速度快的优点，这一点对于控制来说是至关重要的．CMAC、B样条、RBF以及某些模糊神经网络是局部逼近网络．
+　　理论上，3层以上的BP网络能够逼近任何一个非线性函数．但由于BP网络是全局逼近网络，每一次样本学习都需要重新调整网络的所有权值，收敛速度慢，易陷入局部极小，很难满足控制系统的实时性要求．CMAC比其它神经网络的优越性体现在：1) CMAC神经网络把信息存储在局部的结构上，在保证函数逼近性能的前提下，学习速度快．2) CMAC函数逼近器对学习数据出现的次序不敏感．因此CMAC在时变、非线性系统控制中得到广泛应用［14］．3) CMAC结构简单，易于硬件实现［15～16］和软件实现［17～18］．
+　　3　CMAC神经网络的结构
+　　3.1　单个CMAC结构
+　　Albus CMAC结构简单，易于硬件实现且提出最早，应用较普遍．但这种网络的权系数存储空间随CMAC的输入维数的增大而急剧增加，是应用上的一大困难．一般的解决方法是采用杂凑编码（Hash-coding）方法．文献\[19\]研究结果表明，该方法在学习时存在碰撞问题，即要么学习速度下降，要么学习发散．Wang等指出杂凑编码法并不能提高CMAC的逼近能力［20］，这与人们传统观点不同．许多研究人员试图采用其它方法来解决高维数问题（其它类型的神经网络也面临同样问题）．为了避免学习冲突，David 和Kwon给出了一种领域顺序(Neighbor Sequential)法［21］，在整个学习期间，每个记忆单元对应的权系数只调整一次．Eldracher等人采用自适应编码技术［22］，以提高CMAC的函数逼近能力．
+　　Chiang 和Lin在原有的CMAC原理和结构的基础上，提出了基于广义基函数的CMAC［23］（本文暂称为C-L CMAC），可以说是CMAC研究的一大突破．这种网络把输入空间量化成离散状态，并选取一定数量的超立方体, 每个超立方体包含许多离散状态，每个离散状态具有记忆细胞的功能，用来存储信息．CMAC可看作基函数网络(Basis Function Network)，CMAC与径向基函数网络和小波网络［24］不同之处除了基函数类型不同外，CMAC每个基函数被定义在局部区域上(如超立方体上)，对给定的输入数据点计算网络输出时，首先确定包含该点的超立方体，然后计算定义在这些超立方体上的基函数的线性组合，把它作为CMAC的输出．CMAC通过基函数簇及其线性组合的权系数向量来实现关联记忆，样本学习时只修正权系数．它的优越之处在于当基函数采用可微函数时，可记忆系统的微分信息，而传统的Albus CMAC可看作是基函数为1的网络，不能学习所逼近函数的导数，但我们研究发现它的收敛速度比Albus CMAC大大降低．
+　　3.2　多CMAC结构
+　　由于：1) 单个CMAC用于逼近复杂非线性函数时，泛化能力和记忆精度有时不能满足要求；2) 同其它网络一样，都存在高维输入问题，即当CMAC输入向量的维数较高时，权系数变得十分庞大，给网络学习和实际应用带来困难，因此，许多研究人员致力于多CMAC结构的探讨．
+　　Huang提出了层叠(Cascade)CMAC结构［25］，以改善单个CMAC非线性映射的精度，应用于打印机彩色校准．用多个低维输入CMAC按某种规律组合在一起，相当于一个高维输入CMAC．Tham 提出了一种H-CMAC(Hierarchical CMAC)结构［26］，可有效地减少存储空间，用于快速学习复杂非线性函数．Lin和Li提出多CMAC结构［27］，每个小的CMAC的输入是系统输入空间的子集，把一个高维CMAC化为若干个低维CMAC．
+　　4　CMAC学习算法
+　　4.1　权系数修正算法
+　　Park和Mlizter［28］,Wong和Side［29］用不同的方法证明了Albus算法的收敛性．欧阳楷等人的研究结果表明，较大的泛化误差是由于传统的CMAC输出的计算方法不完全恰当、学习算法粗糙引起的，指出必须改进学习算法与信息存储方法［30］．刘惠等指出Albus算法的在批量学习是的缺陷并提出了改进算法［31］；Lin和Kim提出了自适应评价学习(Adaptive Critic Learning)［32～33］, 这种学习结构包含两个CMAC模块：作用(Active)模块和评价(Critic)模块．基于由评价模块获得的知识，作用模块学习控制技术．Chiang与Lin给出了C-L CMAC学习算法，并给出了算法收敛的条件［23］．
+　　4.2　自组织与竞争学习
+　　早期的CMAC的空间的量化是不变的．为了有效的利用神经元的记忆功能，利用自组织［34～35］的概念，出现了许多通过自组织实现神经元聚类策略及算法．Nie和Linkens提出了模糊CMAC(FCMAC)［36］，按学习样本输入向量与关联单元(Association Cells)的匹配度决定关联单元的获胜及增减，Gao等［37］、Chow和Menozzi［38］, 提出按输入向量与神经元的距离最短标准，来确定获胜者，使神经元的位置向输入样本移动．从而提高样本的学习精度，但同时往往会降低网络的泛化能力．
+　　5　CMAC神经控制
+　　神经控制是指在控制系统中采用神经网络这一工具对难以精确描述的复杂的非线性对象进行建模，或充当控制器，或优化计算，或进行推理，或故障诊断等，以及同时兼有上述某些功能的适当组合，将这样的系统统称为基于神经网络的控制系统，称这种控制方式为神经网络控制，是实现智能控制的重要形式．
+　　自1960年Widrow和Hoff率先把神经网络用于自动控制研究以来，对这一课题的研究很艰难地取得一些进展．Kilmer与 McCulloch等根据脊椎动物神经网状结构的原理，提出了KMB模型并应用于美国的阿波罗登月计划．1964年Widrow 和Smith完成了基于神经网络控制应用的最早例子．60年代末到80年代中期，神经网络控制与整个神经网络一样，处于低潮，研究成果很少．80年代后期以来随着人工神经网络研究的复苏和发展，对神经控制的研究也十分活跃．
+　　经过20多年的研究，已揭示出入脑的结构和功能特征，实际上为一个控制器．事实上，神经中枢系统对上臂手臂和体姿的控制，其表现是如此的完美．不管需完成的任务多么复杂，入脑并不需要操作对象与环境的定量数学模型，也无需求解任何微分方程，生物神经网络控制系统这种对不确定复杂精确和近似问题的控制能力，是大多数传统控制方法所难以达到的．近几年来，神经网络在控制领域的应用正向广度和深度发展，出现了许多神经控制方法，应用在过程控制［39～41］中．其动力主要来至两个方面：1)处理的系统越来越复杂；2)实现的设计目标越来越高．对于控制界，神经网络具有很大的吸引力不但是由于神经网络技术和计算机技术的发展为神经控制提供了技术基础，而且还由于神经网络具有一些适合于控制的特性和能力，这些特性和能力包括：1) NN对信息的并行处理能力和快速性适于实时控制和动力学控制；2)神经网络本质的非线性特性为非线性控制带来新的希望，使控制策略可不依赖于对象的解析模型；3)神经网络可通过训练获得学习能力，能够解决那些用数学模型或规则描述难以处理或不能处理的控制过程；4)神经网络具有很强的适应能力和信息综合能力，因而能够同时处理大量的不同类型的控制输入，解决输入信息之间的互补性和容余性问题，实现信息熔合处理．这特别使用于复杂系统、大系统和多变量系统的控制．
+　　传统的基于模型的控制方式，是根据被控对象的数学模型及对控制系统的性能指标来设计控制器，并对控制规律加以数学解析描述；模糊控制是基于专家经验和知识总结出若干条模糊控制规则，构成描述具有不确定性复杂对象的模糊关系，通过被控系统输出误差及误差变化和模糊关系的推理合成获得控制量，从而对系统控制．这两种控制方式都具有显式表达知识的特点，而神经网络不善于显式表达知识，但是它具有很强的逼近非线性函数的能力，即非线性映射能力．把神经网络用于控制正是利用它的这个独特优点．
+　　根据神经控制的定义，可以看出神经网络在自控中的作用［42］，如图2所示．具体可分为:
+
+
+图2　神经网络在控制中的作用示意图
+　　1) 在无（解析）模型的各种控制结构中充当对象输出的预测器（predictor）［43］．许多情况下，对象的动态模型可看作从输入及状态空间到输出空间的静态映射，由对象测量的外部输入输出数据对来构造预测器．2) 在反馈控制系统中直接充当控制器的作用；3) 在传统控制系统中起优化计算作用；4) 在与其它智能控制方法和优化算法，如模糊控制．5)专家控制及遗传算法等相融合中为其提供非参数化、模型优化、参数推理模型及故障诊断等．
+　　神经网络在控制中的应用可分为两类：1)所有的学习离线进行．众所周知，神经网络能逼近任意光滑的非线性函数，控制器可学习不变的对象动态特性，然后应用到被控对象．这种方法适用于对象特性不变的情况．2)神经控制器基于历史控制量的作用，通过在线学习来提高控制性能［44］．
+　　CMAC特别适用于神经控制，主要因为：1) 局部逼近，学习速度快，满足在线学习的要求．2) 我们研究发现［45］，CMAC包含了模糊逻辑推理．特别是基于广义基函数的CMAC，它本身就是一种模糊逻辑系统．输入空间的量化，可看作是选择模糊子集的过程，而定义在量化空间上的基函数可看作是模糊子集的隶属函数．CMAC的学习过程就是寻找模糊逻辑规则的过程．
+　　5.1　神经网络建模［46～47］
+　　CMAC作为万能逼近器，可用来建立系统的输入输出模型，它们或者作为被控对象的正向或逆动力学模型，或者建立控制器的逼近模型，或者用以描述性能评价估计器．
+　　状态空间表达式可以完全描述线性系统的全部动态行为，也可给出非线性系统的一般但却难以分析和设计的表达式．除此以外，对于线性系统，传递函数矩阵提供了定常系数的黑箱式输入输出．在时域中，利用自回归滑动平均模型(ARMA),通过各种参数估计方法，也可给出系统的输入输出描述．但对于非线性系统，基于非线性自回归滑动平均模型(NARMA)，却难以找到一个恰当的参数估计方法，传统的非线性控制系统辨识方法方法，在理论和研究和实际应用中都存在极大的困难．
+　　相比之下，神经网络在这方面显示出明显的优越性．由于神经网络具有通过学习逼近任意非线性映射的能力，将神经网络应用于非线性系统的建模与辨识，可以不受非线性模型的限制，而且便于给出工程上易于实现的学习算法．近年来，信息提取(Data mining)技术的研究日益活跃，从大量的输入输出数据中提取过程的动态信息，从而建立起系统的动态模型，是一类十分重要的信息提取与集成．通过多变量一次建模，可获得每个变量的阶跃响应，为设计预测控制器、系统分析等提供必需的数据资料．
+　　应用研究表明，CMAC的学习快速性还特别适合于在线建模与校正．
+　　5.2　神经软测量技术［48～49］
+　　在过程控制中，存在一个重要的问题就是，许多工业过程的输出变量由于受工艺和技术的限制，难以检测出来．例如精馏塔的产品浓度，发酵罐的菌体浓度等，只能通过物理或化学分析的方法得到，而这些分析方法往往需要很大的时间间隔才完成一次，以致于这些测量值不满足采样定理，所以所能得到的过程的输入输出数据是离散的．这给过程的控制和监测带来很大困难．为了解决这个问题，有两种方法：一是间接测量，利用辅助可测变量估计推测难以测量的变量，如推断控制；二是用在线分析仪．前者有效实用，后者投资大，且测量有较大滞后，在控制性能要求较高的场合往往难以满足要求． 另一类是工业过程本身的输出变量与历史的输入输出变量之间没有必然的因果关系．例如某钢铁厂冷轧分厂的发货预报系统要求根据生产计划对产品的成材率进行预报，提前完成成品的运输调度，以减少产品的库存时间．在这个系统中，输入是原材料，而输出是成材，很显然在不同生产时间内，输入变量是相互独立的，而输出变量也是相互独立的．因此在建立成材率预报模型时，所能得到的生产历史数据只是一批离散的输入输出数据．
+　　软测量的基本思想是根据比较容易测量的过程辅助变量，即二次变量，来估计不可测的过程主要输出变量．软测量模型经历了线性到非线性这样一个过程，线性软测量模型的建立一般在Kalman滤波理论基础上、这类方法对模型误差和测量误差很敏感，很难处理非线性严重的过程、如精馏塔系统就很难采用线性软测量模型．非线性软测量可以采用统计回归法建模，也可采用基于严格机理的方法建模，而模糊模式识别法也是一类方法．还有一类非常重要的非线性软测量模型建立的方法就是神经网络法，因为神经网络具有并行计算可学习和容错特点，可根据对象的输入输出数据直接建模，不需要对象太多的先验知识，而且可以建立在线校正的学习算法．软测量模型的在线校正涉及到校正算法的有效性和快速性问题．一般有效性取决于校正数据的选取，而快速性取决于算法本身，因此CMAC的快速学习的特点特别适合于软测量．
+　　神经软测量模型实际上是一种基于神经网络的静态模型． CMAC神经网络动态建模和稳态建模的区别在于:CMAC作为动态模型时，CMAC的输入是具有动态特性的输入输出序列，CMAC的期望输出为对应于这一序列的过程输出．CMAC作为静态模型时，它的输入是过程某一输入，CMAC的期望输出为过程在这一输入下的稳态输出．软测量技术主要包括4个方面：1)二次测量变量的选择；2)数据处理；3)软测量模型的建立；4)软测量模型的在线校正．二次变量的选择对软测量非常重要因为不可测的主要变量需要由这些二次变量推断出来．二次变量的选择包括以下3个主要方面：1)类型的选择．选择的方法往往从间接质量指标出发．例如，精馏塔产品的软测量一般采用踏板温度，化工中反应器中的产品软测量采用反应器管壁温度．2)数量选择．在软测量中，最优二次变量数目是很难确定的问题，因此在实际应用时要根据系统的机理和需要确定最小数目，然后结合具体过程增加二次变量的数目．3)检测点的选取．可采取奇异值分解的方法，也可采用工业控制仿真软件确定．
+　　5.3　神经控制系统的设计
+　　设计合适的控制器涉及有3个方面：1 )选择恰当的控制器结构及参数．有的参数要离线确定，有的则要通过学习得到．2)获得被控对象的有关信息．在许多传统的控制器设计时，可知道对象的输入输出数据满足已知的微分方程．许多极端的情况是对被控对象的了解很少，但可得到外部输入输出数据．3)给定某种控制系统的性能指标．
+　　CMAC神经控制器的参数离线确定．一般包括网络的结构（包括输入维数，输入空间的量化方法和量化级数，基函数等），在线学习算法的参数．那么，实际权值甚至网络结构就可在线学习，而且，并不具体指明被控对象．
+　　目前神经控制的分类尚无统一的标准．暂分为：1) 神经网络专家系统控制．专家系统善于表达知识和逻辑推理，将二者相结合发挥各自的优势，就会获得更好的控制效果． 2) 神经逆动态控制．设系统的逆动态模型存在，通过训练神经网络，获得系统的逆动态模型．3) CMAC神经网络模糊逻辑控制［50～51］．CMAC神经网络与模糊逻辑结合起来构成模糊CMAC(FCMAC), 利用神经网络的自组织和竞争学习功能，获得模糊逻辑规则，使CMAC与模糊逻辑的优势结合起来，具有较好的控制效果．4)神经网络模型参考自适应控制［52～53］．将神经网络同模型参考自适应控制相结合，就构成了神经网络模型参考自适应控制．其系统结构形式和线性系统的模型参考自适应控制是相同的，只是通过CMAC给出对象的辨识模型．5)神经网络自校正控制［54］．由于神经网络的非线性函数的映射能力，使得它可以在自校正控制系统中充当未知系统函数逼近器．6)神经网络内模控制［55］．用两个神经网络，一个是神经控制器，一个是神经网络状态估计器，神经控制器前串有一个线性滤波器．神经网络状态估计器用于充分逼近对象的动态模型，神经控制器不是直接学习被控对象的逆动态模型，而是以充状态估计器的神经网络模型（内部模型）作为学习对象，间接地学习被控对象的逆动态特性．7)神经网络预测控制［56～57］．通过离线学习实际系统的输入输出数据，CMAC可逼近被控对象的动态特性，在控制时，CMAC可作为输出预测器，用以预测未来输出，从而实现预测控制．有两种方式：一是由评价函数和CMAC预测器直接设计控制器，只用一个CMAC；二是CMAC控制器和CMAC预测器结构，即双CMAC结构，这种方法计算量较大．此外，还有一些特殊的控制方案解决某类非线性系统的控制问题，如仿射非线性系统，带死区的非线性系统［58］，Brunowskii非线性系统［59］等．
+　　6　CMAC神经控制软件包［60～61］
+　　许多研究人员根据传统的CMAC的结构与算法，开发出面向工程的应用软件包，实现CMAC的结构、学习算法、建模、控制器等．这些软件包的开发与应用无疑会推动CMAC神经网络理论的研究和应用的推广．
+　　7　需要解决的问题
+　　一种好的神经网络理论必须遵循如下准则：1) 完成网络的设计任务（Perform network design task）;2)学习鲁棒性（Robustness in learning）；3)学习快速性（Quickness in learning ）4)学习有效性（Efficiency in learning）；5)学习范化性（Generalization in learning）．
+　　在短短的几年里，神经控制的研究，无论从理论到应用都取得了许多可喜的进展．但也必须看到，人们对生物神经系统的研究与了解还很欠缺，所使用的形式神经网络模型无论从结构还是网络规模都是真实神经网络的极简单模拟，因此神经控制的研究还很原始，完整系统的理论体系，大量富有挑战性的理论问题尚未解决，真正在线应用成功的实例也待进一步推广．
+　　CMAC神经控制研究的目标是在降低计算量的情况下，寻找快速全局收敛的学习算法，以及基于CMAC寻找具有很强鲁棒性的全局稳定的控制策略，并且在实际应用中易于实现．鉴于目前CMAC神经控制的研究现状，有以下几个方面的问题亟待解决．
+　　1) 高维输入记忆单元(权系数)的剧增问题．前述的几种试图解决这个问题的方法缺乏理论依据方法现有的方法缺乏理论依据．2) 控制系统鲁棒性．目前神经控制的研究侧重于研究没有干扰或神经网络预测器误差时的学习算法的收敛性与控制系统稳定性，而忽略了鲁棒性．事实上，神经控制的鲁棒性是极其重要的，特别是用在过程控制中．同时，鲁棒性也是神经控制的弱点．3) 快速有效学习算法的研究．4) CMAC输入维数的的确定．用CMAC逼近复杂系统时，CMAC的输入向量中由实际系统的历史输出链、历史输入链及当前输入组成，如图3所示．显然，对不同的实际系统，历史数据的数目不同，CMAC的输入维数就不同．如何恰当地确定CMAC的输入维数，即TDL数据链的长度，是值得研究的课题． 5) 神经控制系统的能控性、能观性及稳定性．6) 神经控制算法的研究，特别是研究适合神经网络分布式并行计算特点的快速学习算法；对成熟的网络模型与学习算法研制相应的神经控制专用芯片．
+
+
+图3　基于CMAC的简单学习系统
+　　尽管尚无法肯定神经控制理论及其应用研究将会有什么大的突破性成果，但可以肯定的是，神经控制是很有希望的研究方向．
+作者简介：段培永，31岁，博士．研究领域为神经控制、模糊控制、自适应控制等理论研究及应用．
+　　　　　邵惠鹤，63岁，教授．研究领域为过程模型化及优化控制、智能控制理论研究及应用．
+作者单位：上海交通大学自动化系　200030
+参考文献
+　1　 Albus,J S. Data Storage in the Cerebellar Model Articulation Controller (CMAC).Transaction of ASME, J. Dynam. Syst. Meas. Control, 1975, 97: 228～233
+　2　 Eccles J C. The Cerebellum as Computer: Patterns in Space and Time, J. Physical, 1973, 229:1～32
+　3　 Commuri S, Jagannathan S, Lewis F L. CMAC Neural Network Control of Robot Manipulators. Journal of Robotic Systems. 1997, 14: 465～82
+　4　 Mller W T. Real-time Application of Neural Networks for Senser-based Control of Robots with Vision,IEEE Tans. Sys. ,Man, Sybern., 1989,19: 825～831
+　5　陈　捷，王树青，王　宁，王骥程．多侧线精馏塔的神经网络控制.化工学报,1996,47(3):376-80
+　6　 Pinsopon Unnat, et al. Real-time CMAC Neural Network Control of a Piezo-electric Actuated Toolpost with Disturbance Decoulped Observer. Proceedings of the 1996 ASME International Mechanical Engineering Congress and Exposition. ASME, New York, USA. 1996:325～331
+　7　 Koo Keun-mo, kim Jong-Hwan. CMAC Based Control of Nonlinear Mechical System. Proceedings of the 1996 IEEE 22nd International Conference on Industrial Electronics, Control, and Instrumentation, IECON. Taipei,Taiwan. 1954～1959
+　8　 An P Edgar, Harris Chris J. Intelligent Driver Warning System for Vehicle Collision Avoidance. IEEE Tran. Syst. Man and Cybern.Part A Systems and Humsans ,1996,26(2):254～261
+　9　 Kawamoto Isao, Iiguni Youji, Adachi Norihiko. Design of Cerebellar Aodel Arithmetic Computer with Adaptive Resolution and its Application to Nonlinear Signal Processing. Electronics & Communication in Japan, Part3:Fundamental Electronic Science. 1995,78(9): 31～39
+　10　Shiraishi Hitosh, Ipri Susan L, Cho Dong-il D. CMAC Neural Network Controller for Fuel-injection Systems. IEEE Trans on Control Systems Technology, 1995, 3(1): 32～38
+　11　Jar-Shone, et al. A Fuzzy CMAC Model for Color Reproduction. Fuzzy Sets and Systems, 1997, 91:53～68
+　12　Chen X H, Gao F, Qian J X. Adaptive Control Based on RBF Networks. Proceedings of the 35th Conference on Decision and Control, Kobel, Japan, 1996: 3810～3815
+　13　蔡自兴．人工智能.北京：清华大学出版社，1996
+　14　Chien C J. A Discrete Iterative Learning Control of Nonlinear Time-varying Systems. Proceedings of the 35th Conference on Decision and Control, Kobel, Japan, 1996: 3056～61
+　15　Ker Jar-Shone et al. Hardware Realization of Higher-order CMAC Model for Color Calibration. Proceedings of the 1995 IEEE International Conference on Neural Networks. 1995:1656～61
+　16　Ker Jar-Shone et al. Hardware Realization of Higher-order CMAC Model for Color Calibration. Proceedings of the 1995 IEEE International Conference on Neural Networks. 1995:1656～61
+　17　Penterson J K. Software Design for Neurocontrol Code. Journal of Intelligent Material Systems and Structures, 1994,5:172～85
+　18　An P E et al. Associative Memory Neural Networks: Adaptive Modelling Theory, Software Implementations and Graphical user Interface. Engineering Applic. Artif. Intell. 1994, 7(1):1～21
+　19　罗　忠，谢文斌，朱重光．CMAC学习过程收敛性的研究．自动化学报，1997,23(4): 455～461
+　20　Wang Zi-Qin, Schiano Jeffrey L, Ginsberg Mark. Hash-coding in CMAC Neural Networks. Proceedings of the 1996 IEEE International Conference on Neural Networks, ICNN. Washington, DC, USA, 1996:1698～1703
+　21　David E, Kwon S. Neighbor Sequential and Random Training Techniques for CMAC. IEEE Tran. Neual Networks,1995,6(1):196～202
+　22　Eldracher M, Staller A, Pompl R. Adaptive Encoding Strongly Improves Function Approximation with CMAC. Neural Computation, 1997, 9(2): 403～17
+　23　Chiang&Lin. CMAC with General Basis Functions, Neural Networks. 1996, 9(7):1199～1211
+　24　Qinghua Zhang. Using Wavelet Network in Nonparametric Estimation. IEEE Trans. 　Neural Networks. 1997, 8(2): 227～236
+　25　King-Lung Huang, Shu-cheng Hstesh, Hsin-Chia Fu. Cascade-CMAC Neural Network Application on the Color Scanner to Printer Calibration. Proceedings of the 1997 IEEE International Conference on Neural Networks. 1997:10～15
+　26　Tham C K. Hierarchical CMAC Architecture for Context Dependent Function Approximation. Proceedings of IEEE Conference on Neural Networks, Washington, DC, USA, 1996:629～634
+　27　Lin C S, Li C K. A New Neuronetwork Structure Composed of Small CMACs. 　Proceedings of IEEE Conference on Neural Networks, Washington, DC, USA, 1996:1777～1783
+　28　Parks P C, Militzer J. Convergence Properties of Associative Memory Storage for Learning Control System. Automation and Remote Control. 1989:254～86
+　29　Wong Y, Sideris A. Learning Convergence in the Cerebellar Model Articulation Controller. IEEE Trans. Neural Networks,1992,3(6):115～121
+　30　Wong Y, Sideris A. Learning Convergence in the Cerebellar Model Articulation Controller. IEEE Trans. Neural Networks,1992,3(6):115～121
+　31　刘　惠，许哓鸣，张钟俊．小脑模型神经网络改进算法的研究,自动化学报,1997,23(4):482～487
+　32　C S Lin, H Kim. CMAC-based Adaptive Critic Self-learning Control. IEEE Trans. Neural Networks,1991,2(5):530～33
+　33　C S Lin, H Kim. Selection of Learning Parameters for CMAC-based Adaptive Critic Self-Learning Control. IEEE Trans. Neural Networks,1995,6(3):642～47
+　34　Kohonen T. The Self-organizing Map. Proceedings of the IEEE Special Issue on Neural Networks I Theory and Modelling,1990:1464～80
+　35　Wann C D et al. A Comparative Study of Self-organizing Clustering Algorithms Dignet and ART2. Neural Networks, 1997,10(4): 737～54
+　36　Nie J, Linkens D A. FCMAC: a Fuzzied Cerebellar Model Articulation Controller with Self-organizing Capacity. Automatica, 1994,30(4):655～644
+　37　Gao Xiaozhi, Wang Changhong, Gao X M, Ovaska Seppo J. New CMAC Neural Network Model with Adaptive Quantization Input Layer. Proceedings of ICSP'96, Beijing, China, 1996:1417～1420
+　38　Chow M, Ymenozzi A. A self-organized CMAC Controller. Proceedings of IEEE Conference on Industrial Technology, Guangzhou, China, 1994:68～72
+　39　陈　捷,王树青,王　宁，王骥程．多侧线精馏塔的神经网络控制.化工学报,1996,47(3):376～80
+　40　He H et al. The Self-learning CMAC Control of the Oil Temperature on Hydraulic System. Proceedings of IAS'95, Shenyang, China, 1599～1604
+　41　Quek C, Ng P W. Realisation of Neural Network Controllers in Integrated Process Supervision. Artificial Intelligence in Engineering. 1996, 10(2):135～142
+　42　Mulkul Agarwal. A Systematic Classification of Neural-net-work-based Control. IEEE control systems, 1997:75～93
+　43　Yonghong Tan, Achiel van Cauwenberghe. Nonlinear One-step-ahead Control using Neural Networks:Control Straegy and Stability Design. Automatica, 1996, 32(12):1701～1706
+　44　Xu J X. Direct Learning of Control Efforts for Trajectories with Different Times Scales. Proceedings of the 35th Conference on Decision and Control, Kobel, Japan, 1996:2501～02
+　45　段培永，邵惠鹤．一种基于模糊CMAC神经网络的自学习控制器，控制与决策．已录用
+　46　Chien Chere Cheah, DanWei Wang. A Model Reference Learning Control Scheme for a Class of Nonlinear Systems. Int. J. Control.1997,66(2):271～287
+　47　G P Liu et al. Stable Seqential Identification of Continuous Nonlinear Dynamical Systems by Growing Radial Basis Function Networks. Int. J. Control.1996,65(1):53～69
+　48　Wang Xudong, Shao huihe, Lou Rongfu. Designing a Soft Sensor for a Distillation Collumn with the Fuzzy Radial Basis Function Neural Network, 35th IEEE Conference on Decision and Control, Kobe, 1996:1714～1719
+　49　王旭东．RBF神经网络及其在控制中的应用．博士学位论文，1997
+　50　Shi Weixiang, Zhou Fuzhang. CMAC Neural Network Fuzzy Control. Proceedings of the 1996 IEEE IECON. 22nd International Conference on Industrial Electronics, Control, and Instrumentation. 1996:584～9
+　51　孙曾圻，邓志东．类似CMAC的模糊神经网络及其在控制中的应用．清华大学学报，1996，36(5):17～23
+　52　Chen Fu-Chuang, Hassan K Khilil. Adaptive Control of a Class of Nonlinear Discrete Time Systemss using Neural Networks. IEEE Trans. Automatic Control, 1995, 40(5):791～801
+　53　Hu Y, Fellman, Ronald D. Implementation Effient Learning Algorithm for Adaptive Control using Associative Content Addressable Memory. IEEE Tran. Syst. Man and Cybern, 1995,25(4):704～09
+　54　Ahmed M S, M Farooq. Neural-net-based Direct Self-tuning Control of Nonlinear Plants. INT. J. CONTROL, 1997,66(1): 85-104.Computers chem. Engng., 1992, 16(12):1039～1057
+　55　Nahas E P et al. Nonlinear Internal Model Control Strategy for Neural Network Models. Computers Chem. Engng., 1992, 16(12):1039～1057
+　56　Lin, Chun Shin Kim, Hyongsuk Selection of Learning Parameters for CMAC-based Adaptive Critic Learning. IEEE Transactions on Neural Networks. 1995, 6:642～7
+　57　Tan Y, Cauwenberghe A V. Nonlinear One-step-ahead Control using Neural Networks: Control Strategy and Stability Design. Automatica, 1996, 32(12):1701～1706
+　58　Lee S W, Kim J H. Control of Systems with Deadzones using Neural Network Based Learning Controller. Proceedings of IEEE Conference on Neural Networks, 1994,2535～38
+　59　Commuri S, Lewis F L. CMAC Networks for Control of Nonlinear Dynamical System: Structure, Stability and Passivity. Automatica,1997,33(4):635～41
+　60　P E An et al. Associative Memory Neural Networks: Adaptive Modelling Theory, Software Implementations and Graphical user Interface. Engng Applic. Artif. Intell. 1994,7(1):1～21
+　61　James K. & Peterson. Software Design for Neuralcontrol Code. Journal of Intelligent Material Systems and Structures. 1994, 5: 172～185
+　62　Farrell J A. Persistence of Excitation Conditions in Passive Learning Control. Automatica, 1997,33(4):699～703
+　63　Chen Fu-chuang, Chang Chih Horng. Practical Stability Issues in CMAC Neural Network Control Systems. IEEE Trans. On Control Systems Technology. 1996,4(1): 86～91
+1998-04-22收稿

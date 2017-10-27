@@ -1,0 +1,98 @@
+信息与控制
+INFORMATION AND CONTROL
+1999年 第28卷 第2期 Vol.28 No.2 1999
+
+
+
+具有固定交易费用的证券投资决策问题
+　刘海龙　孙良　潘德惠
+　　摘要　在Pliska和Selby所建立模型的基础上，研究了具有固定交易费用的证券投资决策问题．通过进行函数变换，将证券投资决策的一类多维二阶偏微方程自由边界问题转化成特别简单的一类偏微分方程自由边界问题．
+　　关键词　证券投资，维纳过程，报酬止损函数，值函数
+THE PROBLEM FOR PORTFOLIO INVESTMENT DECISION 
+WITH FIXED TRANSACTION COSTS
+LIU Hailong
+(Shenyang University)
+SUN Liang　PAN Dehui
+(Notheastern University)
+　　Abstract　This paper studies the problem for portfolio investment decision with fixed transaction costs on the basis of the model established by Pliska and Selby.Using the transformation of the function, we will transform a class of tree boundary of the multidimensional second-order partial differential equation in portfolio investment decision into a much simpler one.
+　　Key words　security investment, Wiener process, reward-for-stopping function,value function
+　　1　引言
+　　证券投资决策实质上是多因素、多阶段的随机控制问题，目的是增加收益，减少风险和成本．近年来，证券投资决策理论和实证分析一直是金融工程的研究热点之一．在金融工程中，变系数二维和多维偏微分方程是经常出现的〔1，2〕，特别是在众多资产的期权和随机波动性领域出现的更多．虽然仍可研究用许多传统的方法去解决，但是，一般说来，直接解决是极端困难的，有时甚至是不可能的．那么，能否通过适当地变换使问题变得更简单，计算起来更容易呢?文献〔3〕给出了解决这类问题一个新的研究方向．Morton和Pliska解决了证券投资决策的一维二阶偏微分方程自由边界问题．Pliska和Selby解决了证券投资决策的二维二阶偏微分方程自由边界问题．本文研究具有固定交易费用证券投资决策的多维二阶微分方程自由边界问题．给出二个重要研究结果．
+　　在证券投资决策问题中，以往的研究大多没有考虑交易费用〔4～7〕，进入90年代，有些学者开始研究带有交易费用的证券投资决策问题〔8～11〕，特别是Morton和Pliska提出具有固定交易费用的证券组合最优管理模型〔8〕，模型描述了以银行存款利率r为无风险资产的投资和以m个风险证券为风险资产的投资的证券投资决策问题．模型假设这m个风险证券的价格Si(t)服从如下维纳过程(i=1，2，…，m)
+　　　　　　　　　　　　　　　　　(1)
+其中μ′=(μ1，…，μm)是m维预期收益率向量；λij是m×m矩阵Λ中的元素，即Λ=(λij)m×m；方差——协方差矩阵M=ΛΛ′是正定矩阵；且wi(t)(i=1，…，m)是相互独立的维纳过程．目标是长期渐近增长率
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2)
+最大，其中VT是在时间T时证券组合价值．
+　　Morton和Pliska证明带有固定交易费用的证券投资决策问题(1)和(2)完全可以转化成求解下面的m维二阶偏微分方程自由边界问题
+　　　　　　　　　　　　　　　　　　　　(3)
+　　　　　　　　　　(4)
+　　　　　　　　　　　　　　　　　　　(5)
+　　　　　　　　　　　　　　　　(6)
+的解H(b1，…，bm)．
+其中，
+表示第i行是1，其余都是零的m维列向量；r是无风险利率；R(R＞r)是证券组合价值增长率；b=(b1，…，bm)′是在m个风险证券上的投资分配比例向量．
+　　本文与文献〔3〕不同的是，假设这m个风险证券的价格Si(t)(i=1，2，…，m)满足下面的随机微分方程
+　　　　　　　　　　　　　　　　　　(7)
+即方程(1)在Λ是对角矩阵的情况，其对角线上的元素分别为λ1，λ2，…，λm．在此基础上，所研究的问题与文献〔3〕一样，就是求解一个函数
+满足
+　　　(8)
+且相应的报酬止损函数为
+　　　　　　　　　　　　　　　　　　　　　　　　　　　(9)
+　　2　主要结果
+　　定理1　函数H(b1，…，bm)满足方程(8)的充要条件是
+
+其中，
+且是满足
+　　　　　　　　　　　　　　　　　　　　　　(10)
+的值函数．相应的报酬止损函数为
+　　　　　　　　　　　　　　　　　　　　　　　　　　　(11)
+其中：
+　　证明　先证必要性，即假设函数H(b1，…，bm)满足方程(8)，相应的报酬止损函数为(9)；然后推出函数G(u1，…，um)满足方程(10)，相应的报酬止损函数为(11)．先把偏微分方程(8)写成如下形式
+　　　　　　　　　　(12)
+再根据复合函数求导法则求出
+
+当
+
+　　　　　　
+
+分别将Hi和Hij(i,j=1，2，…，m)代入方程(12)中，然后经过极其繁杂的代数运算即可推出偏微分方程(10)．
+　　又由于，显然可以推出，并将bi代入函数(9)，即可推出函数(11)，必要性得证．
+　　再证充分条件，即假设函数G(u1，…，um)满足方程(10)，相应的报酬上止损函数为(11)的前提下，推导出函数H(b1，…，bm)满足方程(8)，相应的报酬止损函数为(9)．
+　　与证明必要条件的方法同理，先根据复合函数求导法则分别求出Gi和Gii(i=1，…，m)再代入方程(10)经过复杂的代数运算，并注意到即可推出方程(12)，再将方程(12)还原写成方程(8)的形式，而由函数(11)推出函数(9)是显然的，充分性得证．
+〔证毕〕
+　　定理2　函数G(u1，…，um)满足方程(10)的充要条件是
+
+其中，yi=ln(ui)/λi，i=1，…，m
+且F(y1，…，ym)：Rm→R1是满足
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(13)
+的值函数，相应的报酬止损函数为
+　　　　　　　　　　　　　　　　　　　　　　　　　(14)
+其中，
+　　证明　先证必要条件，即由函数G1(u1，…，um)满足方程(10)推出函数F(y1，…，ym)满足方程(13)，由函数(11)推出函数(14)．先根据复合函数求导法则求出
+
+再将Gi和Gii(i=1，…，m)代入方程(10)，经整理可得方程(13)，显然可由函数(11)推出函数(14)，必要性得证．
+　　现在来证充分条件，即由函数F(y1，…，ym)满足方程(13)推出函数G(u1，…，um)满足方程(10)，由函数(14)推出函数(11)．同理先求出
+
+再将Fi和Fii代入方程(13)，经整理可得方程(11)，显然由函数(14)可以推出函数(10)．充分性得证．
+〔证毕〕
+　　3　结论
+　　本文研究了带有交易费用的证券投资决策问题中出现的一类多维二阶偏微分方程自由边界问题．通过分析论证，得到了两个重要结论，这两个结论是文献〔3〕中3个结论的延伸和推广，定理1的作用是化简系数和消去交叉项Hij，定理2的作用是将变系数偏微分方程化成了常系数偏微分方程．有关偏微分方程(13)的解法将继续研究．
+作者简介：刘海龙，男，39岁，副教授，博士生．研究领域为金融工程．
+　　　　　孙良，男，30岁，博士生．研究领域为金融工程理论与应用．
+　　　　　潘德惠，男，70岁，教授，博士生导师．研究领域为分布参数控制系统理论和经济控制理论
+作者单位：刘海龙：沈阳大学工商管理学院　沈阳　110044
+　　　　　孙良　潘德惠：东北大学工商管理学院　沈阳　110006
+　　参考文献
+　1　Davis M H A,Zariphopoulou T.American Option and Transaction Fees.Math. 　Finance,1994:47～62
+　2　Boyle P P,Vorst T.Option Replication in Discrete Time with Transaction Costs.J.Finance, 1992,47(2):272～293
+　3　Pliska S R,Selby M J P. On a Free Boundary Problem that Arises in Portfolio Management.Mathematical Models in
+Finance, 1995,105～111
+　4　Markowitz H. Portfolio Selection.J.of Finance, 1952,7(1):77～91
+　5　唐小我.组合证券投资决策的计算方法.管理工程学报，1990，4(3)：45～48
+　6　徐大江.证券投资决策的多目标线性规划方法.系统工程理论与实践，1995，15(12)：46～52
+　7　史代敏.一类组合证券投资决策.系统工程，1997，15(2)：46～49
+　8　Morton A,Pliska S. Optimal Portfolio Management with Fixed Transaction Costs. Math. Finance, 1995,5(4):337～356
+　9　黄小原.证券组合的快车道问题研究.信息与控制，1994，23(2)：71～75
+　10　Davis M H A,Norman A. Portfolio Selection with Transaction Costs. Math. Operation Research, 1990,15:676～713
+　11　Dumas B,Luciano E.An Exact Solution to a Dynamic Portfolio Choice Problem Under Transaction Costs.J.Finance, 1991，46(3):577～595
+1997-12-10收稿

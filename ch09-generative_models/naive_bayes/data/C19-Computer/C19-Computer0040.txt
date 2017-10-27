@@ -1,0 +1,85 @@
+计算机应用
+Computer Applications
+1999年 第19卷 第7期  Vol.19 No.7 1999
+
+
+
+IP与ATM的集成技术
+黎　静
+　　摘　要　本文讨论了三种IP与ATM集成的思路，以及与之有关的各种实现方法，从而揭示了ATM网络技术发展的趋势。
+　　关键词　IP，ATM，MPOA，路由
+　　
+THE INTEGRATION OF IP AND ATM
+
+Li Jing
+Computer College, Southwest Jiaotong University, Sichuan*Chengdu 610031
+
+　　Abstract　Because Internet protocol(IP)has used widely with the growth of Internet, various proposals are suggested to support IP over ATM. This article discusses three kinds of idea to integrate IP and ATM and some proposals.
+　　Keywords　ATM, IP, MPOA, Routing
+
+　　由于 ATM是面向连接的技术，它与现有的网络技术，尤其是非面向连接的网络技术相结合是ATM应用的一个关键问题。随着Internet的发展，TCP/IP协议已成为业界事实上的网络标准。为了集成IP和ATM，ATM 论坛、IETF等组织已进行了大量的研究，并制定了一系列的标准，如Classical IP Over ATM、MPOA、MPLS等。许多著名的网络公司，如3Com、Cisco、Ipsilon等也提出了自己的解决方案。
+　　目前，已有多种IP和ATM 结合的解决方法，最初的思想沿袭了以往在Ethernet、X.25上传输IP报文的方法，将ATM作为IP的数据链路层，将IP数据报封装在ATM信元中传输。根据这种思想，IETF制定了Classical IP Over ATM。以后陆续又有人提出了一些新的思想。如借助ATM的信元交换技术，将IP路由技术与ATM交换技术结合在一起，解决IP路由“瓶颈”问题，或提出一种新的网络体系结构以适应未来通信的需要。　　
+1　Classical IP Over ATM
+　　IETF制定了两种RFC标准，说明了如何将IP报文和ARP请求直接装入协议数据单元，并转换为ATM信元。其中，RFC 1483（Encapsulation Rules for ATM）定义了IP数据报的封装格式，RFC 1577（Classical IP and ARP over ATM）则说明了IP在ATM网络上的操作，以及IP地址和ATM地址的解析。
+1. 1　Classical IP Over ATM地址解析
+　　RFC 1577采用了IP在以太网上传输的思想，只简单地将ATM看作数据链路层，为IP提供第二层的传送服务。需要传送的IP报文都采用RFC 1483中定义的IEEE 802.2 LLC/SNAP格式，即在IP报文前加一个LLC/SNAP头域，被封装在AAL5的协议数据单元（PDU）中，通过ATM网络传输。
+　　在ATM网络中使用逻辑IP子网（LIS）（如图1）的概念，在逻辑上对网络进行划分。同一LIS内的成员必须采用相同的IP网络号、子网号以及子网掩码，可通过ATM网络直接通信，而不同LIS上的成员，即使在同一ATM网上，也要通过路由器进行通信。　　
+
+
+图1　Logical IP subnets（LISs）
+
+　　每一个连接到ATM网络的主机都至少具有一个ATM地址和一个IP地址，类似于IP 在以太网上运行时需进行IP地址与MAC地址的解析，Classical IP Over ATM也提供IP地址与ATM地址的解析。由于ATM不支持广播机制，在每一个LIS中都必须设置一台地址解析服务器（ARP SEVER），应用ATM地址解析协议（ATMARP）对子网中的成员进行地址解析，该地址解析服务器的ATM地址为LIS中所有成员所共知，并且可以被多个LIS子网共用。在同一LIS子网中，所有LIS成员通过ATMARP进行IP地址到ATM地址的解析。而对于分属于不同LIS子网的站点，则由路由器和两个子网的地址解析服务器共同完成解析过程。
+1．2　Classical IP Over ATM的不足
+　　Classical IP Over ATM采用了传统的IP覆盖模型，保留了IP可应用于所有数据链路层的重要特性，简单地将IP层映射到ATM层上。这种解决方法的不足之处在于IP层和ATM层的功能重复，不能充分发挥出ATM的特性。例如，在ATM层已经定义了QoS，IP层又重新定义；IP路由不考虑ATM虚通路等。而Classical IP Over ATM最大的缺陷是不能在不同LIS的成员间建立直接的ATM连接，不同LIS的成员间只能通过路由器进行通信。
+2　两种新的解决方案
+　　在多种硬件技术共存的IP网络中进行端—端的通信，IP路由器起着重要的作用。IP与ATM的结合，着重要解决IP路由的性能，在整个ATM环境中，尽量避免不必要的第三层操作，提供端—端QoS支持。为达到这一目的，有两种解决方法：
+　　第一种解决方法　借助ATM端—端通信的优势，突破传统的IP Hop-by-hop 路由，在不同IP子网的主机之间建立直接的端—端的VC或捷径路由（shortcut routing），而避免通过IP路由器。这种思想体现在ATM论坛所制定的Multiprotocol over ATM（MPOA）中。捷径路由不同于传统的Hop-by-hop路由，它可以不考虑网络路由边界，通过数据链路层直接转发网络层的报文，如图2所示。　　
+
+
+
+图2　Hop-by-hop 路由与捷径路由
+　　第二种解决方法　努力将IP路由计算的灵活性和强大功能以及ATM在数据转发方面的高效性结合起来，设计新型的交换—路由设备。Ipsilon公司的IP Switching、Cisco公司的Tag switching 以及IEFT起草的MPLS，都采取了这种思想。　　
+3　Multiprotocol over ATM（MPOA）
+　　MPOA模型是ATM 论坛以LANE和IETF制定的Next Hop Resolution Protocol（NHRP）为主要元素提出的。MPOA的目标是在ATM主干网上结合路由和桥接技术，支持现有的第三层协议，如IP、IPX等。
+3.1　Next Hop Resolution Protocol（NHRP）
+　　NHRP是为使IP节点使用捷径路由技术而设计的地址解析协议。NHRP对ATM地址解析协议
+（ATMARP）进行了扩充，可以提供不同LIS的IP主机的地址解析。NHRP仍采用了传统的IP模型，但以NBMA（non broadcast multiple access，非广播多接入）网络代替了LIS，以NHS（Next Hop Server）代替了ARP服务器。NBMA是指不支持广播操作的非广播子网。这种网络，有的本身是非广播网络，如X.25网络、ATM网络等，有的是广播网络，但网络覆盖范围太大，不便进行广播操作。
+　　如果目的主机直接连接在源主机所在的NBMA上，NHRP就向源主机提供目的主机的NBMA地址，如MAC地址、ATM地址等；如果目的主机并非直接连接在该NBMA上，NHRP提供连接目的主机的出口路由器的NBMA地址。NHRP建立在客户/服务器技术的基础上，IP主机是NHRP客户，而路由器是下一级服务器（NHS）。通过捷径路由可以在任意两个NBMA节点之间建立直接连接，如图3所示。　
+
+
+图3　Next Hop Resolution Protocol(NHRP)
+3.2　MPOA结构
+　　与其它与ATM有关的协议一样，MPOA也采用客户/服务器结构。MPOA客户（MPOA Client，MPC）和MPOA服务器（MPOA Server，MPS）通过ELAN相互连接。MPC的主要功能是进行网络层的数据传送，但并不进行网络层的路由计算。MPS负责响应MPC的MPOA请求，在MPC之间建立直接虚电路。通常，MPC包含在边缘设备和MPOA主机中，MPS包含在路由服务器中。MPOA系统的设备包括：
+　　边缘设备(edge device) 它使用目标地址或MAC地址在传统的LAN网段与ATM接口之间传送信息包；
+　　MPOA主机 指能够实现MPOA功能的ATM主机。MPOA主机相互间可以进行通信，并可通过边界设备与传统LAN进行通信；
+　　路由服务器 使用某些协议路由算法和构造表响应MPOA系统的请求，完成网络层地址对ATM地址的映射，并支持多路广播功能。路由服务器对网络层、MAC、ATM地址进行维护，这些信息用于相互通信的两个端点（边缘设备或MPOA主机）间的直接虚电路的建立。路由服务器需运行RIP、OSPF与IPNNI协议。
+　　MPOA支持虚拟路由（virtual routing）的概念，即把路由计算与报文转发分开。在MPOA系统中，边缘设备和MPOA主机负责数据转发，却不进行路由计算；路由计算和路由信息维护的功能集中在路由服务器中。可将MPOA系统视为一个虚拟路由器，即运行于ATM上并能提供类似于多协议路由器的一组MPOA设备。MPOA边缘设备类似于路由器的接口卡；ATM交换机构类似于路由器背板，连接各种MPOA设备；路由服务器类似于路由器的控制处理器，维护路由信息。
+　　
+4　IP Switching
+　　IP Switching是Ipsilon公司提出的IP与ATM的集成方案。它提供一种新的路由—交换结构，将路由技术的智能与ATM的高速转发性能结合在一起，利用快速处理器，在ATM硬件的基础上运行IP路由软件，用软、硬件结合的方法处理IP报文转发，以减少IP报文通过路由器的延迟。
+4．1　IP switch的工作方式
+　　一个IP switch由ATM switch、IP switch 控制器以及专用管理协议三个部分组成，如图4所示。IP switch 控制器的功能与普通IP路由器相似。它通过General Switch Management Protocol（GSMP）协议控制ATM硬件，负责从相邻的IP switch获取路由信息，构造IP路由表，运行标准路由协议。　　
+
+
+图4　IP switch结构
+　　当IP switch初始化时，为每一个物理链路建立一个缺省的ATM转发通路。这个缺省通路允许相邻的IP switch交换路由信息，进行无连接的Hop-by-hop路由。封装在ATM信元中的IP数据包到达IP switch后，被重新组装成IP数据包送往IP switch 控制器，IP switch 控制器检查IP报头，如果IP switch 控制器认为有必要对IP数据包进行硬件交换，就建立从源端到目的端的连接，并用Ipsilon Flow Management Protocol（IFMP）协议通知相邻的IP switch。以后的信元就不必再组装成数据包，而直接以信元的方式，通过ATM switch进行转发。对于数据量小的数据流，由于建立交换链路只会增加延迟，不能有效提高转发效率，仍采用传统的存储—转发的路由。
+4．2　IP switching与MPOA比较
+　　MPOA 旨在ATM主干网上运行多种协议，不仅支持各种采用路由技术的协议，如IP、IPX等，而且桥接 Netbios、SNA等不可路由的协议。MPOA本身需要多种技术的支持，实现方法复杂。MPOA支持VLAN操作，设备可在整个网络范围内增加、移动和修改。
+　　IP switching是用ATM交换机充当IP路由器，IP地址直接映射到下层ATM硬件，实现方法简单，现有的路由协议，如OSPF、BGP等都不需要修改。IP switching只支持IP协议，但其它协议的数据包可封装在IP数据包中传送。
+　　在建立连接方面，IP switching根据第一个数据包的报头建立连接，而MPOA采用一种特殊的数据包“信令连接请求”，当连接建立后，开始传送IP数据包。
+　　
+5　Tag Switching与MPLS
+　　Tag Switching 是Cisco公司提出的将第二层交换与第三层交换技术结合的广域骨干网ATM解决方案。它类似于IP Switching,也采用了路由—交换技术，不同在于Tag Switching通过标记支持多种协议，在IP环境下Tag Switching也即IP switching。
+　　在以上所讨论的路由—交换结构基础之上，
+IETF提出了MPLS(Multi-Protocol Label Switching)。MPLS的设计目标是解决所有性能和扩展问题，为未来的Internet提供各种有效的网络服务，如单播、多播、QoS等。
+　　
+6　趋势分析
+　　IP与ATM技术是为Internet网络提供多媒体服务的技术热点，虽然网络界已提出了多种解决方案，但还有许多问题需要解决，如QoS、多路广播等。未来的解决方案必将在与现有网络技术兼容的基础上，充分发挥ATM的高速传输、QoS支持等特性。
+　　
+　　黎　静　硕士研究生。研究方向：计算机网络。
+　　作者单位：黎　静（西南交通大学计算机与通信工程学院　四川．成都610031）
+参考文献
+［1］　Eugenio Guaarene. IP and ATM Integration Perspective.IEEE Communication Magazine ，1998;(1)
+［2］　Philip Dumortier. Toward a New IP over ATM Routing Paradigm. IEEE Communication Magazine ，1998;(1)
+［3］　Nyless Black. Internet working with ATM. 北京:清华大学出版社，1998,5
+收稿日期:1999-04-01(修改稿)

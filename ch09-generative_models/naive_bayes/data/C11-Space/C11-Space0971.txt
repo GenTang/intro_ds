@@ -1,0 +1,103 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第1期　Vol.19　No.1　1999
+
+
+
+定向凝固合金DZ17G室温疲劳裂纹
+扩展行为的研究
+廖鄂斌　　郭建亭　　王淑荷
+摘要： 研究了定向凝固高温合金DZ17G在不同加载取向及加载频率条件下的室温疲劳裂纹扩展行为。结果表明，90°加载取向试样的裂纹扩展速率最快，0°试样次之，45°试样由于裂纹宏观扩展路径发生偏折而导致其扩展速率最低。加载频率对裂纹扩展速率的影响与应力强度因子范围ΔK的大小有关。沉淀相γ′的尺寸对微观疲劳位错形貌有明显影响。微裂纹沿γ通道扩展。
+关键词： 定向凝固高温合金； 加载取向； 加载频率； 疲劳裂纹扩展速率
+中图分类号：TG146.15　　　文献标识码：A　　　文章编号：1005-5053(1999)01-0039-06
+Research on fatigue crack growth behavior
+of DZ17G at room temperature
+LIAO E-bin　　GUO Jian-ting　　WANG Shu-he
+(Institute of Metal Research, Chinese Academy of Sciences, Shenyang 110015, China)
+Abstract： Fatigue crack growth behavior of DZ17G at room temperature is studied at different testing conditions of loading direction and loading frequency.The results indicate that the fatigue crack growth rate(FCGR) is the largest on the specimen with loading angle 90°,smaller on that with loading angle 0°,and the smallest on that with loading angle 45° due to crack deflection effect.The influence of loading frequency upon FCGR is related to the range of stress intensity factor ΔK.The dimension of precipitate γ′ has influence upon the dislocation arrangement.Microcracks propagate along the γ channel.
+Key words: DS superalloy; loading direction; loading frequency; fatigue crack growth rate
+
+　　定向凝固高温合金作为一种重要的涡轮叶片材料，一直受到人们的关注。由于疲劳是所有涡轮叶片材料不可避免的一种受载形式，因此对疲劳性能的研究成为定向凝固高温合金的研究重点之一。但是，以往的研究大都集中在材料的应变-寿命关系或裂纹的萌生等方面［1～5］，对定向凝固高温合金各向异性的研究非常有限，而且大都局限在弹性模量、剪切模量等基本力学参数以及材料的疲劳寿命方面［6，7］，对疲劳裂纹扩展的各向异性研究还不多见。本文将以一种新型镍基定向凝固高温合金DZ17G为对象，研究不同加载取向、加载频率对室温疲劳裂纹扩展速率的影响，这将为DZ17G的应用提供重要的参考数据，同时也将丰富并加深我们对定向凝固合金疲劳行为的认识和理解。
+1　材料及试验程序
+　　选用的试验材料来自于定向凝固制成的合金板材，尺寸为120mm×65mm×16mm。合金的化学成分(wt%)为：C0.18,Cr8.96,Co10.12,Mo3.13,V0.74,B0.016,Al5.45,Ti4.53,Fe0.27,P0.002,　Si0.069,S0.002,Mn＜0.05，Ni余量。合金的热处理步骤为1220℃×4hAC+980℃×16hAC。热处理后合金中主要的强化相γ′的重量百分数达到64.7%。γ′有2种尺寸，较小的径长约为0.3μm，较大的径长约为0.8μm。试验所采用的疲劳试样为标准紧凑拉伸试样(CT)。试样的几何形状及尺寸如图1。图中α角为合金凝固方向(即晶粒纵向)与试样缺口平面法向(即加载方向)的夹角。疲劳试样表面经过仔细的机械抛光，以利于监测疲劳裂纹的扩展及观察表面滑移形貌。
+　　疲劳裂纹扩展试验在10kN Schenck疲劳试验机上完成。应力比(Pmin/Pmax)为0.1。加载频率为30Hz或3Hz。试验在室温大气环境下进行。在试验过程中采用可移动的放大倍数为100倍的光学读数显微镜监测疲劳裂纹的萌生及其扩展行为。裂纹尖端应力强度因子范围的计算公式［8］如下：
+　　　　　　
+其中：
+　
+上式中ΔK为应力强度因子范围，ΔP为加载范围，B为试样厚度，a为裂纹长度，W为标准紧凑拉伸试样的宽度。根据七点拟合多项式法确定裂纹长度及疲劳裂纹扩展速率，进而确定稳态裂纹扩展阶段的Paris幂律关系式。利用扫描电镜(SEM)和透射电镜(TEM)对裂纹扩展行为及位错组态进行了分析和探讨。
+2　试验结果
+2.1　疲劳裂纹扩速率及Paris常数
+　　DZ17G的疲劳裂纹扩展速率如图2所示，从中可以看到加载取向对裂纹扩展速率有明显影响。不管是在高频还是在低频情况下，45°试样的裂纹扩展速率都是最低的，90°试样裂纹扩展速率则较高，0°试样裂纹扩展速率介于两者之间。
+　　根据Paris幂律关系式对DZ17G疲劳裂纹稳态扩展阶段数据进行回归拟合，得到不同加载取向以及加载频率下的2个经验常数C和m的值(表1)。对3种加载取向的试样，降低加载频率都使C值有不同程度的增加，而m值有不同程度的降低，其中45°和90°取向试样的变化最为显著。总的来说，在低应力强度因子范围区，降低加载频率使裂纹扩展速率略有增加，而在高应力强度因子范围区则相反。
+
+
+图1　室温疲劳裂纹扩展CT试样
+Fig.1　CT specimen for fatigue crack growth  testing at room temperature
+
+2.2　疲劳开裂行为
+　　不同加载取向试样的疲劳开裂行为是不一样的。不管是在高频还是在低频条件下，0°试样和90°试样的裂纹扩展平面在宏观上均垂直于加载轴，而45°试样的宏观裂纹扩展平面随着裂纹长度的增加而渐趋平行于柱状晶生长方向(图3)。前面已经提到45°试样的裂纹扩展速率比0°试样裂纹扩展速率低，这和试验前的预计相反。从合金组织结构的角度来看，由于晶界两侧晶粒位向的差异以及晶界本身易偏聚硬而脆的M23C6等碳化物，受载时晶界必然是一个弱化区。45°试样的晶界显然要比0°试样的晶界承受更大的载荷作用，因而它的裂纹扩展速率应该较高。然而实际上，由于45°试样宏观裂纹扩展路径发生偏折，最终导致了反常结果的出现。
+表1　DZ17G合金室温疲劳裂纹扩展Paris常数
+Table 1　Paris law coefficients of fatigue crack growth for DZ17G alloy at room temperature
+
+Loading　　StressParis law　
+orientationFrequencyTemperatureratiocoefficients　
+α(Hz)(℃)RFCmR
+0°30200.12.30×10-133.7010.991
+0°3200.19.40×10-133.2370.983
+45°30200.11.49×10-154.9590.951
+45°3200.15.26×10-111.8930.955
+90°30200.19.98×10-154.6530.989
+90°3200.13.18×10-123.1590.990
+
+
+　　　　
+图2　DZ17G合金室温疲劳裂纹扩展速率
+Fig.2　Fatigue crack growth rate of DZ17G alloy at room temperature
+
+图3　DZ17G合金室温疲劳裂纹宏观扩展路径
+Fig.3　Macroscopic fatigue crack paths of DZ17G alloy at room temperature
+
+2.3　疲劳位错组态
+　　图4所示为经受室温拉-拉疲劳后DZ17G合金的位错组态。在γ′粒子尺寸较 小且形状较规则的区域，位错主要在γ通道内沿一定方向形成缠结(图4a，b)。相对应地，通过对试样表面微小裂纹尖端的SEM观察发现，裂纹主要沿着γ通道扩展，偶而切过γ′(图5)。在γ′粒子尺寸较大且形状不规则的区域，则形成大量位错偶极子(图4c)。这些偶极子一般分布在γ′上靠近γ/γ′界面的区域。
+3　分析和讨论
+　　在Ⅰ型加载条件下用应力强度因子来描述疲劳裂纹的扩展是基于这样一个前提，即裂纹是一条直线，而且裂纹扩展平面垂直于加载轴。但实际上裂纹常常至少在微观上不是一条直线。除了材料本身特有的裂纹扩展机理外，应力状态、环境、超载以及局部微观组织结构不连续处，如第二相粒子和晶界等都能引起裂纹路径的偏折。
+　　S.Suresh［9，10］认为，疲劳裂纹的偏折可在以下3个方面影响裂纹的扩展速率：1)当裂纹顶端的走向偏离它的名义Ⅰ型扩展方向时，裂纹扩展的有效驱动力一般小于总长度和远场K分别与其对应相等的直裂纹的扩展驱动力，因此一条偏折裂纹要以与之相对应的直裂纹同样的速率扩展，就需要有较大的表观驱动力；2)由于沿名义Ⅰ型扩展方向测量裂纹长度，偏折裂纹的扩展速率会明显低于受到同样大小表观驱动力作用的直裂纹的扩展速率；3)在疲劳载荷卸载过程中，相对两裂纹面之间即使只发生很少量的错配，也能使裂纹面提前接触，这种裂纹闭合效应将使偏折裂纹扩展所需的表观驱动力进一步增大。
+
+图4　DZ17G合金疲劳位错组态
+(a)小γ′粒子区域形成位错缠结；(b)位错缠结的放大；(c)大γ′粒子区域形成位错偶极子
+Fig.4　Dislocation contour in DZ17G alloy after cyclic loading
+(a)dislocation tangles in the region of small γ′;(b)amplification of dislocation tangles; (c)dislocation dipoles in the region of big γ′
+
+图5　微裂纹沿γ通道扩展
+Fig.5　Micro-crack propagating along the γ channel
+
+　　就DZ17G合金而言，有2种裂纹偏折情况是值得注意的：1)45°取向试样的宏观裂纹扩展路径连续发生变化，裂纹扩展平面法向与加载轴的夹角由0°逐渐增加，最终接近45°，即趋向于与材料晶界平行(图3)。但此时材料的断裂仍旧是穿晶而非沿晶；2)当应力强度因子范围较低时，3种取向试样的裂纹扩展路径在微观上呈“Z”字形。45°取向试样之所以比0°取向试样裂纹扩展速率低，就是因为其裂纹扩展路径偏折的缘故。由于其扩展路径连续变化而且在宏观上类似于一条光滑弧线，因此裂纹面的错配引起的裂纹闭合效应可以忽略，45°试样裂纹扩展速率的降低可归结为裂纹扩展有效驱动力减小以及沿名义Ⅰ型裂纹扩展方向测量裂纹长度的缘故。
+　　尽管试验数据表明45°试样裂纹扩展速率比0°试样低，本文仍然不能肯定45°试样抗裂纹扩展能力比0°试样强。由于本试验采用的CT试样尺寸较小，45°试样往往在其裂纹扩展平面平行于晶界前就已进入失稳扩展阶段，因此不能断定其裂纹最终是否会沿晶扩展，以及一旦发生沿晶扩展，其扩展速率是否还会低于0°试样裂纹扩展速率。如果把裂纹由初始裂纹长度a0到最终发展到平行于晶界的裂纹所走过的名义Ⅰ型裂纹长度定义为at，采用较大尺寸的CT试样重复试验，则可以确定at是否与试样尺寸或其他参数有关，以及45°试样的裂纹扩展速率是否一定小于0°试样裂纹扩展速率。
+4　结　论
+　　定向凝固镍基高温合金DZ17G的室温疲劳裂纹扩展试验表明，加载取向和加载频率对裂纹扩展速率有明显影响。90°试样裂纹扩展速率最高，0°试样次之，45°试样最低。45°试样的宏观裂纹扩展路径发生偏折，导致裂纹尖端有效应力强度因子降低，以及沿名义Ⅰ型裂纹扩展方向测量裂纹长度，这是其表观裂纹扩展速率低的主要原因。TEM观察表明，在γ′尺寸较小的区域，在γ通道中沿一定方向形成位错缠结，微裂纹相应地沿γ通道扩展；在γ′尺寸较大的区域，有位错偶极子存在。
+作者简介： 廖鄂斌(1973-）， 男， 博士研究生
+作者单位：中国科学院金属研究所，　沈阳　110015
+参考文献：
+［1］吴昌新，谢济洲等.一种定向凝固高温合金低周疲劳性能的研究。航空材料学报，1994，14
+　　　(3):27
+［2］Marchionni M,Osinkolu G A,Maldini M.High temperature cyclic deformation of a 
+　　　directionally solidified Ni-base superalloy.Fatigue Fract Engng Mater 
+　　　Struct,1996,19(8):955
+［3］Muller T,Gerold V.Isothermal and bithermal fatigue of a directionally solidified 
+　　　Ni-based superalloy.Scripta Metallurgica et Materialia,1992,26:1343
+［4］廖鄂斌，郭建亭，王淑荷.定向凝固合金DZ17G的高温低周疲劳性能研究.金属学报，1998，
+　　　34(3)：278
+［5］Guo J T,Liao E B.LCF behavior of a new type of DS superalloy at intermediate 
+　　　temperature.The Third Pacific Rim International Conference on Advanced 
+　　　Materials and Procession,Hawaii,U.S.A.,1998
+［6］　李秀臣.定向凝固镍基高温合金的弹性各向异性.金属科学与工艺，1986，5(1)：99
+［7］Tadashi Hasebe, et al.Elastic anisotropy of directionally solidified 
+　　　superalloy.Journal of Engineering Materials and Technology,Transactions of the
+　　　ASME,1992,114:141
+［8］Lerch B,Gerold V.Room temperature deformation mechanisms in Nimonic 80A.Acta 
+　　　　Metall,1985,33:1709
+［9］Suresh S.Crack deflection:Implications for the growth of long and short 
+　　　fatigue cracks models.Metall Trans A,1983,14A(11):2375
+［10］Suresh S.Fatigue crack deflection and fracture surface contact:Micromechanical 
+　　　models.Metall Trans A,1985,16A(2):249
+收稿日期： 1998-12-22

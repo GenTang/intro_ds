@@ -1,0 +1,83 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年 第19卷 第6期 Vol.19 No.6 1999
+
+
+
+磷对小麦细胞镉、锌的积累及在亚细胞内分布的影响*
+杨志敏　郑绍建　赵秀兰　胡霭堂
+摘要　研究了小麦细胞在含有0，50μmol.L-1镉的MS培养液中，提高磷浓度(0.5，1.5，3.5 mmol.L-1)对细胞内磷、镉、锌浓度及磷、镉、锌在细胞壁、液泡、细胞质内含量分布的影响.提高介质供磷水平促进了细胞的生长，但降低镉、锌两种元素在细胞中的含量.增磷还能降低镉和锌在细胞壁、液泡和细胞质中含量.结果表明，较高浓度的磷和镉分布于细胞壁.小麦细胞的液泡也积累了一定量的镉.锌在液泡中的浓度大于其在细胞质和细胞壁中的浓度.上述结果表明，磷对增强小麦细胞的耐镉性具有重要的作用.
+关键词　磷；镉；锌；细胞；含量.
+Effect of phosphorus on the accumulation of cadmium and zinc in suspension-cultured wheat cells
+YANG Zhimin,ZHENG Shaojian,ZHAO Xiulan,HU Aitang
+(Department of Applied Chemistry,College of Sciences,Nanjing Agricultural University,Nanjing 210095)
+Abstract　Suspension-cultured wheat cells were exposed to three levels of phosphorus (0.5，1.5，3.5mmol.L-1) and two levels of cadmium (0,50μmol.L-1) with a 7-day period, and the concentration of phosphorus,cadmium and zinc in the cells, cell wall,vacuoles and cytoplasm were examined.As the phosphorus content increased the uptake of cadmium and zinc decreased.However,an increase of cells growth was observed.The content of cadmium and zinc in cell wall,cytoplasm and vacuoles also decreased with the increase of phosphorus.The results suggested that most of P and Cd was associated with cell wall, and zinc was accumulated mainly in the vacuoles.
+Keywords　phosphorus,cadmium,zinc,cell,concentration.
+　　镉是非必需元素，也是有毒物质.植物积累了过量的镉后，体内会产生一定的耐性［1］.这种耐性通过细胞化学的特性，能反映出植物抗重金属毒害的能力.迄今，国内外有关植物对重金属元素的抗性研究已有不少报道［1，2］.在细胞和亚细胞水平上曾提出过细胞壁的重金属吸附机理［3］，液泡对重金属元素的分隔化作用［4］.但是，长期以来，在涉及植物体抗重金属毒害机理的文献中，对有关无机阴离子的作用报道很少［1］.本试验以小麦无性系细胞为材料，应用细胞生物分离方法，研究在不同磷水平下，小麦细胞对镉、锌的积累以及镉、锌在亚细胞内水平的分布状态，为进一步阐明磷在细胞和亚细胞水平上对重金属作用的细胞学基础提供实验依据.
+1　材料与方法
+　　小麦(扬麦87-158)幼穗诱导培养而成的无性系细胞，在28±1℃，黑暗下用MS培养基进行振荡悬浮培养，培养基添加2μg.L-1 2,4-D,pH为5.6.设0.5(低)、1.5(中)、3.5(高)mmol.L-13个磷水平和0，50μmol.L-12个镉水平.除加镉和磷浓度变化外，其余养分种类和浓度采用MS配方.细胞在50mL处理液中培养7d，之后进行分离、分析等.细胞壁、原生质体、液泡分离以及磷、镉、锌元素的测定依以前试验方法和步骤进行［5］.各种元素在细胞壁、细胞质和液泡中的含量以单位原生质体和液泡个数表示.
+
+
+图1　磷、镉处理对小麦细胞生长的影响
+Fig.1 Effect of phophorus and cadmium on the growth of wheat cells
+2　结果与分析
+2.1　细胞生长及磷、镉、锌在细胞中的积累
+　　小麦细胞生长量随供磷水平的提高而提高，加镉抑制了细胞的生长，抑制幅度为28%—33%(图1).但外观上没有出现异常症状.与不加镉处理比较，镉处理后细胞的含镉量高出对照36—55倍(表1)，表明镉很易被小麦细胞所吸收.增加介质中的磷浓度使细胞内镉的含量显著下降.另一方面，加镉使磷的含量也明显降低.表明磷与镉之间存在拮抗作用.在有镉条件下，细胞内锌的含量有所降低，同时，磷对锌的积累也有一定的抑制作用.
+表1　不同磷、镉水平下小麦细胞内磷、镉、锌含量的变化
+Table 1 Concentrations of P,Cd and Zn in wheat cells under varied P and Cd levels
+
+处理细胞含量(μg.g-1 cell DW)
+P(mmol.L-1)Cd(μmol.L-1)PCdZn
+0.504368±1235.1±0.3283±9
+1.505572±3405.0±0.5259±11
+3.506496±1144.8±0.3236±6
+0.5503682±230273±16243±10
+1.5504699±320224±10240±23
+3.5506244±89182±11218±11
+
+2.2　磷、镉、锌在细胞各组分中的含量及相互关系
+　　介质中磷增加，细胞各组分中磷的含量也相应地增加(表2).细胞壁中积累了较多的磷，浓度为细胞质的6—8倍.液泡中磷的含量较低.小麦细胞壁、细胞质、液泡中的含镉量随外施磷浓度的提高而降低.与0.5mmol.L-1处理比较，35mmol-1磷处理使细胞壁、细胞质和液泡的含镉量分别下降了43%，28%和32%.与磷一致，镉在细胞壁中的含量最高，液泡也积累了一定量的镉.锌在3个组分中的含量较为均衡，但以液泡中浓度最大.
+3　讨论
+　　初步试验结果表明，提高磷水平不但有利于小麦细胞的生长，对镉在细胞体内的含量也有抑制作用.He［6］曾研究多种作物后得出，增加介质中磷能有效降低镉在马铃薯，黑麦草植株中的含量.本试验的结果与以往报道的结果是一致的.从试验结果看出，小麦细胞在磷充足的条件下体内含镉量的下降很可能与其生长量的提高有关.
+　　增磷虽然能降低细胞内镉的含量，但总体上看，降低的幅度是有限的(表1，2).然而，试验中并没有观察到有镉中毒的现象.磷对镉的作用可能在于磷通过对镉的“牵制”而起到缓解镉对细胞的毒性.经测定得知，细胞壁中聚集了较高浓度的镉，这对降低镉进入细胞内的机率，提高小麦细胞的耐镉性具有重要的作用.一些试验结果表明，细胞壁通过对重金属元素的吸附而减小其活度，进而限制其进入细胞去干扰生理代谢作用是植物抗重金属毒害的一种方式［1］.同时，在细胞壁中，当磷、镉浓度大到一定程度时，也有可能形成不溶性的磷酸盐［1］.
+　　除细胞壁外，液泡常被认为是分隔重金属元素的机构［1］.本试验结果显示，小麦液泡对进入胞内的镉有一定的分隔作用.Wang等［4］曾对烟草液泡中镉的化学状态模拟中发现，在pH 7时，液泡内隔与无机磷酸根会形成磷酸盐沉淀，这一结果表明磷在液泡内也会起一定的抗重金属的毒害作用.与镉比较，锌在细胞壁、细胞质和液泡中的分布较为均衡.但锌在液泡和细胞质内浓度较大.这可能与锌参与细胞内的代谢或通过细胞质和液泡之间的来回转运以维持细胞质内锌浓度有关［8］，锌与镉拥有相似的离子半径和化学性质，但两者生物学性质截然不同.从生理意义上，锌在液泡和细胞质内浓度的提高对抑制镉在细胞质中的毒性有一定作用.试验结果表明，磷对锌也存在一定的拮抗作用，同时，在有镉条件下，细胞内锌的含量出现下降的趋势.
+表2　不同磷、镉水平下小麦悬浮亚细胞内磷、镉、锌的含量变化
+Table 2 The content of P,Cd and Zn in wheat suspension-cultured subcellules under varied P and Cd levels
+
+处理细胞壁细胞质液泡
+P,mmol.L-1Cd,μmmol.L-1
+(μg(P)/104protoplasts)(μg,P/104 vacuoles)
+0.505.8±0.40.84±0.030.38±0.05
+1.507.1±0.41.00±0.050.42±0.02
+3.508.9±0.31.17±0.070.52±0.05
+0.5505.0±0.30.83±0.040.28±0.01
+1.5505.9±0.20.85±0.060.33±0.02
+3.5508.0±0.31.06±0.030.45±0.02
+(μg(Cd)/105protoplasts)(μg(Cd)/105 vacuoles)
+0.500.020.030.05
+1.500.020.030.04
+3.500.020.020.03
+0.5502.96±0.310.47±0.020.98±0.06
+1.5501.99±0.070.39±0.010.78±0.02
+1.5501.69±0.110.34±0.030.67±0.05
+(μg(Zn)/105protoplasts)(μg(Zn)/105 vacuoles)
+0.501.25±0.051.46±0.104.17±0.17
+1.501.13±0.061.31±0.043.44±0.13
+3.500.94±0.071.19±0.033.19±0.12
+0.5501.09±0.061.43±0.073.73±0.21
+1.5500.90±0.071.20±0.113.21±0.12
+3.5500.84±0.031.03±0.033.01±0.11
+
+* 国家自然科学基金资助项目(39500089)
+作者单位:南京农业大学理学院应用化学系，南京　210095
+参考文献
+1　张福锁，樊小林，李晓林.土壤与植物营养研究新动态.北京：中国农业出版社.1995，296—319
+2　Alina K P.The elements in soil and plants.London:CRC Press,1996.120—142
+3　Verkleij J A C,Schat H.Mechanisms of metal tolerance in higher plants.In:Show J (ed). Evolutionary Aspects of Heavy Metal Tolerance in Plants.Boba Raton:CRC Press,F1.1990.179—193
+4　Wang J et al.Computer-simulated evaluation of possible mechanisms for quenching heavy metal ion activity in plant vacuoles,Ⅰ:Cadmium.Plant Physiol,1991,97:1154—1160
+5　杨志敏，郑绍建，胡霭堂.镉磷在小麦细胞内的积累和分布特性及其交互作用.南京农业大学学报,1998，21(2)：54—58
+6　He Q S,Singh B R.Crop uptake of cadmium from phosphorus.Water Air and Soil Pollution,1994,74(3)：251—256
+7　Vogeli-Lang L R,Wagner G J.Subcellular location of Cd and Cd-binding peptides in tobacco leaves.Plant Physiol,1990,92:1086—1093
+8　Adriano D C.Trace Elements in the Terrestrial Environment.New York:Speing-Verlag.1986.130—149
+1998-05-06收到原稿
+1999-01-07收到修改稿

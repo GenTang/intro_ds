@@ -1,0 +1,94 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第9期 Vol.36 No.9 1999
+
+
+
+一个基于知识的道路图像理解系统
+范成法　叶秀清　顾伟康
+摘　要　无人地面车辆(ALV)无论在军事上还是在民用上都有着很好的应用前景.作为ALV核心技术之一的视觉系统，在相关领域一直受到关注.为了提高视觉系统的性能，文中提出了一个基于知识的道路景物理解系统.系统中采用了多种信息融合和多种模型匹配的道路识别方法.这种方法利用边沿信息内在的空间信息包容性和定位的精确性，采用多个选择性好的模板来避免不同方向边沿对边线提取和跟踪的干扰，同时利用区域信息的稳定性，结合景物知识，进行多层次的融合.实验结果表明，对大多数条件不好或几何结构复杂的道路图像都能给出满意的识别结果.
+关键词　图像理解，道路识别，信息融合，知识系统
+中图法分类号　TP391
+A KNOWLEDGE-BASED ROAD SCENE UNDERSTANDING SYSTEM
+FAN Cheng-Fa, YE Xiu-Qing, and Gu Wei-Kang
+(Department of Information and Electronics Engineering, Zhejiang University, Hangzhou 310027)
+Abstract　ALV (autonomous land vehicle) has a alluring prospect both in military and civilian applications. As the one of the kernel techniques in ALV, vision system has received close attention in the past two decades. In the paper here, a road recognition algorithm combining fusing of multiple information and matching with multiple models, in a knowledge-based system KRUS is presented, with high performance achieved. In the algorithm, a unique edge detection method is developed, from which the benefit of good localization is received, while the disturbance of noise is reduced. Then the robust region information is fused with edge information, with the help of some knowledge of the scenes. The experiment results show that most of the ill-formed or complicate-structured images are very satisfying.
+Key words　image understanding, road recognition, information fusing, knowledge-based system
+1　引言
+　　80年代初国外的一批ALV (autonomous land vehicle) 相继演示成功，此后随着研究进程的深入，以及计算机和硬件的进步，速度更快、性能更强的ALV也陆续出现［1～6］. 在整个ALV系统中，视觉系统是其中一个重要的组成部分，也是影响ALV速度和智能性的关键部分.在目前情况下，除了使系统更加全面以外，对一些基本的算法做一些深入研究也非常必要.因为自然环境非常复杂，简单算法模型无法适应各种变化，所以我们构建了一个基于知识的道路图像理解系统KRUS (a knowledge-based road scene understanding system)， 希望能通过加入各种环境知识，来获得一个适应性和精确性都很好的系统.
+　　适应性和精确性是衡量一个视觉系统优劣的两个指标.道路的形式多种多样，道路上的景物错综复杂，外界环境千变万化.一个实用的ALV的视觉系统，要求对不同道路类型和外界环境都有良好的适应性.精确性则有两层含义，一是要得到精确的道路边线位置，二是要正确感知路面拓扑结构，如转弯、叉道等信息.
+2　系统设计思想
+　　图像目标识别的算法根据解决问题角度的不同，大体上可分为区域方法和边沿方法两类.典型的区域方法以像素点的色彩、亮度或一些推导量作为特征，构成一个特征空间，然后采用特征聚类算法确定图像中每一像素属于目标还是非目标.这种方法的优点是对噪声不太敏感，即使在强阴影下也能得到大体正确的路面描述.其最主要的缺点在于难以获得路边的精确位置信息.
+　　基于边沿的算法应用到道路识别上，注重路面特征变化平缓，路与非路之间存在特征突变这个事实，在反映特征突变的边沿点图中，寻找属于路面的线条.大部分道路边线是包含在图像的边沿线中的，用边沿线来表示路边最为精确.但另一方面，边沿信息是一种局部信息，需要设法在包含各种干扰边沿的边沿图中提取出真正的道路边线.
+　　边沿与区域信息内在的全局与局部、粗糙与精确的互补性，便利两种信息融合的方法非常具有吸引力.我们认为，利用边沿信息的定位精确性和区域信息的适应性，以边沿信息为主，通过区域信息来补偿边沿的部分不确定性，结合景物知识的融合方法，可以同时在适应性和精确性这两个指标上获得良好的性能，这正是系统算法设计的主要指导思想.
+　　本系统设计还遵循以下原则.原则之一是采用各种知识，避免简单模型.针对道路景物的复杂性，必须总结和运用各种关于道路景物的知识，减少不确定性，在构造模型时必须尽量考虑可能遇到的各种情形.原则之二就是加入一些反馈和松弛的机制.算法模块之间引入一些反馈和松弛，可在独立模块之间进行协调，以便及时发现一些疏漏并加以改正，对系统的稳定性非常重要.
+3　系统道路识别算法
+3.1　基本假设和算法流程
+　　从二维彩色图像中识别道路，可以提出几个比较接近于实际情况的假设.在这几个假设的基础上，就可以找到系统实现的入手点.
+　　假设1. 道路的亮度高于路边背景的亮度.
+　　添加这个假设主要是为了减少运算量.
+　　假设2. 道路的边线比较光滑.
+　　道路网是一种人工结构，这一假设普遍适用，一些突变往往意味着特殊的几何结构.
+　　假设3. 摄像机前方不远处的景物一般是道路.
+　　车辆正常行驶的时候，这个假设是满足的.
+　　建立在这3个假设的基础上，我们构造了符合系统设计思想的算法结构，如图1所示.一些处理过程图片由图2给出.
+
+图1　系统道路识别算法框图
+　　　
+(a)　　　　　　　(b)　　　　　　　(c)　　　　　　　(d)
+　　　
+(e)　　　　　　　(f)　　　　　　　(g)　　　　　　　(h)
+　　　
+(i)　　　　　　　(j)　　　　　　　(k)　　　　　　　(l)
+(a) 道路原始图像G分量； (b) 分形纹理特征图像； (c) 区域方法求得路面区域； (d), (e), (f), (g) L, R, H, V边沿强度图； (h) LL or RL (为了简化显示图片， 将LL与RL二值图相或)； (i) HLL or HLH or VLL or VLH; (j) LB or RB, LG or RG (在例图条件下，感知编组后的线条不变，所以放在一起显示)； (k) HBL or HBH or VBL or VBH; (l) 识别道路结果边线.
+图2　系统道路识别算法一些处理过程图片
+3.2　边线检测
+　　使用匹配性能好、抗干扰性能强的方向模板，可以提高边线检测的性能.我们在系统中采用了4个方向模板：左边、右边、水平边和竖直边模板(图1).各个模板的核采用高斯函数，这类模板被证明是接近最优算子性能［7］. 设，并取图像坐标系的行方向为x，列方向为y，输入图像记为I(x,y)，边沿记为E(x,y)，那么左右边的理论计算公式为
+
+(1)
+竖直边的理论计算公式为
+
+(2)
+水平边与竖直边相似，交换x,y即可.实际的数值计算中，采用了11×11大小的模板，行与列单独计算.这样利用这几个模板可得到LE(left edge), RE, HE和VE 4幅独立的边沿强度图(图2(d)～(g)).
+　　由于模板良好的选择性，抑制了非匹配边沿的响应，特别是可以抑制方向易变的阴影边沿的影响.进一步提取边线也因此而变得容易.例如对于左边沿点强度图，在y方向差分，找到过零点.然后类似于Canny的边线提取方法引入双阈值［7］. 上述过零点的边沿强度如果高于高阈值，则输出为参考边沿点.高于低阈值的点记为候选边沿点，同时在候选边沿点中进行有方向选择性的搜索，找到一组左边线条.丢弃其中长度太短的，以及线条中缺乏足够高阈值参考边沿点支持的线条，得到左边线条组LL (left lines). 类似地得到RL， 还有上方亮度低于下方的线条组HLL (horizontal lines with lower upward luminance), 和相反的HLH，以及竖直方向的线条组VLL和VLH(图2(h),(i)).在这些边线提取过程中，两个阈值都取得较低，保证主要的路边线能连为一体，并且在适当的情况下，允许后续模块提请反馈修正.
+3.3　区域信息获取
+　　在系统中，我们选用图像的亮度分布、自适应的彩色特征和分形纹理特征来组成局部的区域信息，而整体的区域信息则来自彩色自适应算法对图像进行粗略分割得到的结果(图1).亮度分布信息来自对图像G分量(与图像亮度具有较好的对应关系)直方图的分析.自适应的彩色特征源于作者的另一篇文章［8］的想法，这里稍作了一些改进.简单地说，就是在假设3的基础上，选一块道路特征区域，统计特征区域上的R-G，B-G二维直方图，然后用两个多项式为核心来拟合R-G和B-G的色彩分布，作为道路的彩色特征.分形纹理特征来自对自然景物自相似性的假设［9］，设图像的像素点亮度为f(x,y),则平均Holder常数可表达为
+
+(3)
+其中，S为x,y的ΔΤ八邻域.(x,y)与景物的分形维数有关，直接反映了景物的纹理特征.在实际应用中选择ΔΤ=2较为合适.
+3.4　边线过滤
+　　这些区域信息，被馈送到边沿模块，进行多层次的融合.首先，利用区域信息，结合一些知识，对各组边线进行过滤，去掉干扰的线条(图1).例如对于左边线，这样的一些知识源可用来对线条进行分类.
+　　① 对于一个线条，如果左方和右方区域同时基本满足路区特征，或者左方区域满足路区特征且右方区域平均亮度较高，并且不满足裂缝或路肩的特征，那么认为这条边线是一个道路中间的线条，予以滤除.
+　　② 如果线条左方区域具有从路面特征到亮度很低的转变，而且右方区域基本满足道路特征，那么线条可能是路中裂缝或者是路肩，在后面进一步判断.
+　　类似这样的知识源还有许多，细致地对边线进行过滤.在融合过滤之后，得到一些候选的道路边线，记为LB(left boundaries), RB, HBL, HBH, VBL和VBH(图2(j),图2(k)).
+3.5　左右边线感知编组
+　　由于左边和右边对道路的描述非常重要，还要对左右边线进行感知编组，来完成两个任务.任务之一是寻找起点线.由于起点线对于路边的寻找正确性至关重要，因此运用了大量知识，从各个方面进行了综合考虑，不仅使用了过滤后的线条LB，RB，还提供了容错能力，也参考过滤前的线条LL和RL(图1).任务之二是从起点线开始，利用线条的感知预测以及利用区域信息的竞争，保留并合并相容的线条，去掉不相容的及竞争失败的线条.感知编组之后得到的是一些线组，且上线组的下点在下线组的上点之上，且有一定的距离.也就是说，不同线组之间有缺口，这些缺口可能只是由于路边线条缺失引起的，也可能意味着一个分叉，对道路结构的判断是很重要的.
+3.6　道路模型匹配
+　　感知编组的结果以LG(left line groups)和RG表示(图2(j)). LG，RG以及HBL，HBH，VBL，VBH等边线信息，加上整体和局部的区域信息，一起送到模型匹配模块中，进行道路模型的匹配和边线的连接.
+　　道路的拓扑结构形式多种多样，可以采用由粗到细逐步求精的方式来获得准确的匹配.首先，根据LG，RG中线组的数目转向双边、左单边、右单边或无有效边4个不同的模块，这4个实际上对应四大类模型.在每一个模块内，进行进一步的匹配和判断.如果模型匹配正确，在当前的模块中进一步求精，如果发现不合理，找出原因，转向更为合理的模块进行匹配、判断和求精.例如，以下一些知识源指导模块间的一些转向.
+　　① (左边模块)如果左边线组的延长线与图像上边线的交点在图像上边线上且与右边线有一定距离，而且没有发现且HBL上的长线条，同时区域边线上有明显的右线存在，则把区域右边线赋给RG，转向双边模块.
+　　② (双边模块)如果交叉更正后只剩下右单线，则转向右单线模块.
+　　类似这样的知识源结合起来，使得模型匹配尽量准确.在确定了大的模式类别之后，进一步求精.在求精过程中，弯道、顶分叉和中间分叉这些拓扑结构的细节被检测并描述出来，一些不连续的线条被补充连接起来.在求精过程中也应用了许多有关景物的知识，例如如果两个线组之间的区域特征与道路特征相似，而且能在HBL，HBH，VBL和VBH中找到交叉线的证据，那么认为有一个中间交叉，并且找出其准确描述.最后道路识别结果以一个路边闭合曲线形式给出(图2(l)).
+4　实验结果和展望
+　　我们从100多幅图像条件不好或者拓扑结构复杂的图像中选择了几十幅典型的图像，在分析了这些图像的基础上，构建了系统的道路识别算法.之后对另外随机挑选的300幅图像进行了测试，取得了预期的满意结果，对所有条件良好的测试图像都能做到精确识别，对大多数条件不好的图像(共200幅左右)能给出正确的识别结果.对复杂的道路拓扑结构基本能正确感知.图3(a)，(b)给出了图像条件不好下的识别结果，在强阴影及路面有水迹的情况下，都能正确找出路边.图3(c)，(d)则给出了对分叉和转弯正确感知的例子.系统实现的软件环境可在文献［10］中见到.未来的系统将在算法求精上作进一步努力，同时增加目标识别与跟踪模块，并通过MMX加速和多处理器并行的办法来实现实时处理.
+　　　
+　　　
+图3　一些典型的道路图像识别结果
+注:本课题得到国防科工委“九五”重大科技攻关项目“自主式机器人智能视觉处理系统”基金资助.
+作者简介:范成法，男，博士，高级工程师，主要研究方向为宽带通信技术.
+叶秀清，女，教授，主要研究方向为图像处理、计算机视觉.
+顾伟康.男，教授，博士生导师，主要研究方向为智能控制、计算机视觉.
+作者单位:浙江大学信电系　杭州　310027
+参考文献
+1　　Thorpe C et al. Toward autonomous driving: the CMU navlab, part I-perception, IEEE Expert, 1991,(8)
+2　　Crisman J D, Thorpe C E. SCARF: A color vision system that tracks road and intersections. IEEE Trans on Robotics and Automation, 1993, 9(1)
+3　　Denasi S, Quaglia G. Line grouping using perceptual saliency and structure prediction for car detection in traffic scenes. SPIE-Intelligent Robots and Computer Vision XII, 1993, 2055
+4　　Maurer M et al. VaMoRs-P, and advanced platform for visual autonomous road vehicle guidance, SPIE-Mobile Robots, 1994, 2352
+5　　Broggi A. Parallel and local feature extraction: A real-time approach to road boundary detection. IEEE Trans on Image Processing, 1995, 4(2)
+6　　Gracfe V. Research on robot vision and intelligent robots: Approach, result, publication. Measurement Science, Federal Armed Forces University, Munich, 1997
+7　　Canny J, A computational approach to edge detection. IEEE Trans on PAMI, 1988, 8(6)
+8　　Fan C et al. An adaptive method of color road segmentation. In: Proceedings of CAIP'97. Kiel, Germany, 1997
+9　　Chen S S et al. Shape from fractal geometry. Artificial Intelligence, 1990, 43
+10　　范成法等. 一个可视化集成图像处理环境. 中国图像图形学报, 1998,3(9)
+　　　(Fan Chengfa et al. A visual and integrated image processing environment. Journal of Chinese Image and Graphics, 1998, 3(9))
+原稿收到日期：1997-12-09；修改稿收到日期：1998-05-05.

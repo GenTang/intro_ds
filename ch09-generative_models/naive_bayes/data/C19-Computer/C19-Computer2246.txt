@@ -1,0 +1,176 @@
+计算机应用研究
+APPLICATION RESEARCH OF COMPUTERS
+2000 Vol.17 No.3 P.93-95
+
+
+
+
+AutoCAD 2000 Visual LISP ActiveX编程技术
+张旭　唐晓初
+摘　要：Visual LISP不但提供了完全可视化的代码编写、调试环境，而且还可以利用先进的ActiveX和事件反应器技术，使其比传统的AutoLISP开发的软件更具智能化、运行更为迅速。对ActiveX技术在Visual LISP编程中的应用方法作了详细地介绍并附以相应的应用实例。
+关键词：ActiveX 反应器 AutoCAD 2000 Visual LISP 编程技术
+　　AutoCAD是由美国Autodesk公司开发的通用计算机辅助绘图、设计系统。由于其使用方便、灵活，尤其是其良好的开放性，使AutoCAD已成为全世界微机CAD系统的主流产品。AutoCAD 2000是Autodesk公司于1999年3月推出的最新版本，Visual LISP作为AutoLISP的更新换代产品被正式集成其中。Visual LISP给用户提供了一个集成的开发环境，使用户可在易于使用的完全可视化的开发环境下编写、调试代码；经过编译的LISP程序不但提高了运行性能，并可防止他人试图获得用户程序代码；通过Windows的ActiveX与AutoCAD的对象模型接口可与其它软件集成。本文将对Visual LISP编程中ActiveX技术的应用加以讨论并附以应用实例。
+1　理解AutoCAD对象模型
+　　ActiveX是一组软件技术和方法的总称，是Microsoft公司提出的一种技术标准。ActiveX允许一个Windows应用程序通过暴露的对象控制另一个Windows应用程序。几乎每个ActiveX Automation服务器都给客户机提供一个以上的对象，AutoCAD也不例外。AutoCAD显露大约100个对象给Automation 客户机，这些对象带有总共约700个方法和属性。图 1可把AutoCAD对象想象成按层次排列的，图1显示了这个层次的部分对象，第一层对象就是AutoCAD应用软件本身。这个层次图中的每个对象都含有在它下层的对象。例如，应用软件对象(Application)包括优先设置对象(Preferences)、文档对象(Document)和菜单组对象(MenuGroups)等共四个对象，而文档对象又包括Blocks(块)、Layers(层)、Plat(绘图)等对象或对象集。
+
+图 1
+2　创建及编辑AutoCAD对象
+　　Visual LISP提供了一组以vla-为前缀的处理AutoCAD对象的函数。其中vla-函数对应每一个ActiveX方法(例如，vla-addCircle调用addCircle方法)；vla-get-对应每一个属性，你可以通过该函数获得属性的当前值(例如，vla-get-Color可获得某一对象的颜色属性值)；vla-put-函数用以更新某属性的当前值(例如，vla-put-Color可更新某一对象的当前颜色属性值)。由于在缺省状态VLISP并不直接支持ActiveX函数，所以在调用VLISP ActiveX函数之前还必须装载这些函数的支持函数vl-load-com，否则函数调用将失败。按ActiveX Automation的原则，对象的检索是以自顶向下的方式进行的。ActiveX支持函数装载以后，就可以调用vlax-get-acad-object函数来建立与AutocCAD Application对象的链接。建立链接之后，就可以遵循AutoCAD对象模型中的继承关系，逐级访问、处理所有AutoCAD对象了。
+　　下面的代码完整展示了如何在AutoCAD模型空间创建一条直线和一个圆实体。
+(vl-load-com);调入ActiveX支持函数
+；建立与AutoCAD Application对象的链接
+(setq acadObject (vlax-get-acad-object))；链接到当前图
+(setq acadDocument (vla-get-ActiveDocument acadObject))
+；链接到模型空间
+(setq mSpace (vla-get-ModelSpace acadDocument))
+；在模型空间以(3.0 3.0 0.0)为圆心,2为半径作圆
+(setq mycircle (vla-addCircle
+　　mSpace
+　　(vlax-3d-point '(3.0 3.0 0.0))
+　　2.0
+　　　)
+)
+；在模型空间以(0.0 0.0 0.0)为起点,(10.0 10.0 0.0)
+；为终点作直线
+(setq myline (vla-addLine
+　　　　　　mSpace
+　　　　　　(vlax-3d-point '(0.0 0.0 0.0))
+　　　　　　(vlax-3d-point '(10.0 10.0 0.0))
+　　　　　)
+)
+　　当对象建立以后，就可以通过修改对象的属性来编辑对象了。下面的代码将上面所创建的圆的圆心X坐标加10，颜色改为红色；直线的线型改为dashed。
+(setq myCenter (vla-get-center myCircle))
+；取圆心坐标
+(setq centerpt (vlax-safearray->list
+　　(vlax-variant-value myCenter)
+　　　　　　)
+)；将变体型坐标转变为表
+(setq newXaxis (+ (car centerpt) 10))；X坐标加10
+(setq newcenter (list newXaxis
+　　　　　　　　(cadr centerpt)
+　　　　　　　　(caddr centerpt)
+　　　　)
+)；表型新坐标值；更新圆心坐标
+(vla-put-center myCircle (vlax-3d-point newcenter))
+(vla-put-color myCircle acRed);更新圆颜色
+(vla-put-linetype myline "dashed")；更新直线线型
+　　需要注意的是，ActiveX函数与传统的AutoLISP函数在实现机理上有着本质的不同，因此诸如用entget函数所得实体名或用getpoint所得三维坐标点等是不能被ActiveX函数直接接受的，必须做相应转换才可。如用vlax-ename->vla-object函数可将AutoCAD实体名转变为ActiveX函数可接受的对象；上例所用函数vlax-3d-point是将AutoCAD三维坐标转换为ActiveX函数所用的坐标；而上例所用函数vlax-safearray->list则是将变体型坐标转换为AutoLISP可接受的表。
+3　集成其它应用程序
+　　ActiveX技术的一个主要应用就是协调不同的应用程序，在它们之间相互通讯，把这些程序的能力组合起来共同完成某一任务。这也是Visual LISP将ActiveX自动化能力集成于其中的主要目的。下面的代码用以链接到已经启动的Microsoft Excel97对象上，并将当前图中模型空间内的所有实体的对象名、ID号、层、颜色及线型等属性值写入到Excel的单元格中。如果Excel未启动，可改用vlax-create-object函数启动并链接之，这里就不再赘述了。
+(vl-load-com)；调入ActiveX支持函数
+；建立与AutoCAD Application对象的链接
+(setq *AcadApp* (vlax-get-acad-object))
+(setq *ModelSpace*
+　　(vla-get-ModelSpace
+　　(vla-get-ActiveDocument *AcadApp*)
+　　　)
+)；链接到模型空间
+(if (equal nil exc-xlScaleLinear)
+；检查一Excel常数以判断Excel对象库是否输入
+(vlax-import-type-library;输入Excel97对象库
+:tlb-filename "c:/program files/Microsoft Office/Office/excel8.olb"
+　　:methods-prefix "exm-" 
+　　:properties-prefix "exp-"
+　　:constants-prefix "exc-"
+　　)
+)
+(setq msexcel
+　　(vlax-get-object "excel.application.8")) ;链接Excel97
+(if (/= nil msexcel)
+　(progn
+(setq acsheet
+　　　　　(exp-get-activesheet msexcel))；链接当前工作表
+　　(setq n 0)
+(vlax-for ent *ModelSpace*；循环扫描模型空间实体
+　　(progn
+　　(setq n (1+ n))
+　　(exp-put-value
+　　　　　(exp-get-range acsheet
+　　　　　　　(strcat "a" (itoa n)))
+　　　　　　　(vla-get-ObjectName ent) ；取得对象名属性
+　　)；向Excel单元格"An"写入数据
+　　(exp-put-value
+　　　　(exp-get-range acsheet
+　　　　　(strcat "b" (itoa n)))
+　　　　　(vla-get-ObjectID ent)；取得对象ID属性
+　　)；向Excel单元格"Bn"写入数据
+　　(exp-put-value
+　　　　(exp-get-range acsheet
+　　　　　(strcat "c" (itoa n)))
+　　　　　(vla-get-Layer ent)；取得层名属性
+　　 )；向Excel单元格"Cn"写入数据
+　　(exp-put-value
+　　　　(exp-get-range acsheet
+　　　　　(strcat "d" (itoa n)))
+　　(vla-get-Color ent)；取得颜色属性
+　　)；向Excel单元格"Dn"写入数据
+　　　　(exp-put-value
+　　　　(exp-get-range acsheet
+　　　　　(strcat "e" (itoa n)))
+　　　　　(vla-get-Linetype ent)
+　　　　　　　　　　　；取得线型属性
+　　)；向Excel单元格"En"写入数据
+　　)
+)；_ end of vlax-for
+(if (equal 0 n)
+　　(alert "模型空间内未发现实体！")
+　　)
+)；_ end of progn
+(alert "Microsoft Excel97 链接失败！")
+)
+4　使用反应器
+　　反应器(Reactor)是一个被绑定于AutoCAD对象上的对象。通过反应器可以使AutoCAD随时监测你所感兴趣的事件的发生并自动调用相应的程序。例如，如果用户移动了一个被绑定了反应器的实体，则AutoCAD将注意到这次移动并选择恰当的动作去回应这次移动，如移动与之相关联的其它实体等等。Visual LISP支持的反应器的类型包括编辑器反应器(:VLR-Editor-Rector)、数据库反应器(:VLR-Acdb-Reactor)、文档反应器(:VLR-DocManager-Reactor)、连接器反应器(:VLR-Linker-Reactor)和对象反应器(:VLR-Object-Reactor)。每种反应器响应一个或多个AutoCAD事件。例如，文档反应器通知你的应用程序当前图形文档的每次变化，如打开一个新图、激活了一个不同的文档窗口；对象反应器在每次指定的对象发生诸如拷贝、移动等变化时通知你的应用程序。再如，当你发出一个Save(保存)命令以保存当前图形时，将发生一个:vlr-BeginSave事件；当该保存过程结束后又会发生:vlr-saveComplete事件。
+　　与AutoCAD R14 VLISP不同，从AutoCAD 2000开始，编辑器反应器被细分为更多的反应器类型，但为保持向前的兼容性，:VLR-Editor-Reactor类型仍被保留了下来。但AutoCAD 2000 VLISP中新的编辑器反应器将不能通过:VLR-Editor-Reactor引用。AutoCAD 2000 VLISP中编辑器反应器类型分为：:VLR-DWG-Reactor、:VLR-LISP-Reactor、:VLR-Window-Reactor等14种。
+　　要设计一个基于反应器的应用程序，就必须首先确定你所感兴趣的事件，然后再编写当该事件发生时所要执行的程序即回调函数(callback function)。反应器是通过回调函数同应用程序相互通讯的，回调函数本身并无任何特别之处，只是一个用defun函数定义的标准AutoLISP程序，只不过当其同事件反应器绑定在一起时就成为了回调函数，这种绑定也称为建立反应器。对于建立每种类型的反应器都有一个与之相对应的AutoLISP函数，而这些函数的函数名与它的反应器类型名相同。例如，vlr-acdb-reactor用以建立数据库反应器，vlr-toolbar-reactor用以建立工具条反应器，等等。
+　　下面的实例用以建立一个对象反应器应用程序，print-radius是一个用以显示圆半径的对象反应器回调函数。
+(defun print-radius
+(notifier-object reactor-object parameter-list)
+(cond
+　(
+　(vlax-property-available-p
+　　notifier-object
+　　"Radius"
+　)
+(alert (strcat "The radius is "
+(rtos (vla-get-radius notifier-object))
+　　)
+　　　)
+　　)
+　)
+)
+　　下面将该回调函数同一个圆绑定在一起。为此，先用下列语句建立一个圆实体myCircle。
+(setq myCircle
+　(progn (setq ctrPt
+　　　(getpoint "\nCircle center point: ") 
+　　　　　radius (distance ctrPt
+　　　　　　　(getpoint ctrpt "\nRadius: ")
+　　　　　　　)
+　　　)
+　　　(vla-addCircle
+　　　　(vla-get-ModelSpace
+　　　　　(vla-get-ActiveDocument
+　　　　　　(vlax-get-acad-object))
+　　　)
+　　　(vlax-3d-point ctrPt)
+　　　radius
+　　　　)
+　　　)
+)
+　　再用下面语句定义反应器。
+(setq circleReactor
+　　　　(vlr-object-reactor
+　　　　　　(list myCircle)
+　　　　　　"Circle Reactor"
+　　　　　　 '((:vlr-modified . print-radius))
+　　　　)
+)
+　　该反应器将回调函数print-radius同:vlr-modified相连并绑定于myCircle实体上。这样当该实体被修改时，如用STRETCH命令增大圆的半径，在AutoCAD窗口将自动显示修改后的圆半径。
+　　需要注意的是，虽然回调函数是标准AutoLISP函数，但还是有一定限制的。在处理图形对象时不能使用command函数，而必须使用ActiveX函数，如上例中创建圆实体myCircle；entget和entmod函数在回调函数中也是不允许使用的。
+5　结束语
+　　ActiveX技术的应用不但方便了实体对象的访问，而且与传统的AutoLISP程序相比速度更快、可读性更强。最为重要的是，通过Windows的ActiveX与AutoCAD的对象模型接口集成其它应用程序，更是传统AutoLISP无法实现的。而反应器技术的应用也使VLISP应用程序朝智能化方向更加迈进了一步。对ActiveX技术的支持使Visual LISP上升到了一个崭新的阶段，应用前景更为广阔。
+张旭(抚顺石油学院 抚顺 113001)
+唐晓初(抚顺石油学院 抚顺 113001)
+参考文献
+1 AutoCAD 2000 Visual LISP Developer's Guide,Autodesk CO., 1999, 3
+2 Microsoft Excel Visual Basic参考, Microsoft CO., 1997,3
+收稿日期：1999年9月22日

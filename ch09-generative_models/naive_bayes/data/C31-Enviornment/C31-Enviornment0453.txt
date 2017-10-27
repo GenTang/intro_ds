@@ -1,0 +1,88 @@
+中国环境科学
+CHINA ENVIRONMENTAL SCIENCE
+1999年　第19卷　第4期　Vol.19　No.4　1999
+
+
+
+湿式提砷法在处理工业废水及废渣中的应用
+陈维平　李仲英　边可君　杨　霞　陈范才
+摘要：采用硫化法去除冶金工业酸性废水中的砷.除砷形成的含砷(主要成分As2S3)废渣用浓硫酸处理,废渣中的砷元素以As2O3形式回收,纯度达99.4%,同时回收副产物硫磺等.试验结果表明,该方法的化学反应速度快,工艺过程稳定,砷的总回收率达95%以上,除砷效率可达99.99%.
+关键词：废渣；砷；湿法处理；回收
+中图分类号：X703 文献标识码：A　　　文章编号：1000- 6923(1999)04- 0310- 03
+Application of wet-method for extracting arsenic in treating industrial wastewater and residues.
+CHEN Wei-ping,LI Zhong-ying,BIAN Ke-jun,YANG Xia,CHEN Fan-cai (Institute of Environmental Protection, Hunan University, Changsha 410082,China). China Environmental Science. 1999, 19(4)：310～ 312
+Abstract：Arsenic was decontaminated from an acidic metallurgical wastewater by sulphurization. The obtained residues containing mainly arsenic sulphuret, was then treated with concentrate sulphuric acid, resulting in recovering arsenic in the form of arsenic trioxide with a purity of 99.4 percent and sulphur as by-product. The results showed that this treatment was technically stable and fast with more than 95 percent total arsenic-recovery ratio and 99.99 percent arsenic-removal efficiency from the wastewater.
+Key words：residues；arsenic；wet-treatment；recovery
+　　砷在地壳中的丰度约为5g/t,除少数单独成矿外,大部分以伴生形式存在于金属矿中[1],随着冶金工业和化学工业的发展,砷伴随着主要元素同时被开发出来.在冶金工业生产过程中,约有30%左右的砷进入废气、废水中.砷是水体中严格控制的污染因子,同时也是一种在电子、医药、冶金、化工、饲料等领域具有特殊用途的物质.从废水中除砷形成含砷废渣并非理想的最终处理结果,由于采用如填埋、堆放等处置方法,仍将造成砷对环境的二次污染,因此,长期以来含砷废渣的有效利用成为冶金和环保专家的重要研究课题[2- 9].本文应用一种无污染湿法处理新方法制备As2O3,对含砷冶金废水的除砷及含砷废渣的利用,进行了试验研究,对于消除砷污染,有效地利用砷资源作了有益的探索.
+1　废水除砷及含砷废渣
+1.1　废水除砷
+　　含砷废水的净化方法主要有化学沉淀法、吸附法、离子交换法和液相萃取法等[6].对于砷含量较高的酸性废水,采用化学沉淀法中的硫化法沉淀砷,可去除废水中约99.9%以上的砷,形成以As2S3为主要成分且含量较高的含砷废渣,有利于综合利用.对于酸度较低的废水,若用硫化法沉淀砷后废水中的砷含量不能达到排放标准,可进一步采用铁盐沉淀法,并经老化处理,生成的砷酸铁盐废渣可以长期堆存,而对环境污染影响较小[6]. 
+　　研究取自某冶炼厂的含砷工业酸性废水,除砷工艺为:在密闭反应器中,通入由FeS与H2SO4反应制备的H2S气体,反应温度为40℃,搅拌速度为500r/min,反应时间1h.表1为含砷废水除砷处理结果. 
+表1　冶金含砷废水的除砷处理结果
+Table 1 Results of removing arsenic from the 
+metallurgical wastewater
+元素原液(g/L)处理后(mg/L)去除率(%)
+As8.160.060>99.99
+Cu0.310.008>99.99
+Sb0.210.1499.89
+Fe0.430.41×103－
+Zn0.620.61×103－
+游离H2SO444.32　　
+
+1.2　试验用含砷废渣
+　　经硫化除砷后,获得含砷废渣,化学成分(%): As 49.23,Cu 1.89,Sb 1.28,Fe 0.08,S 46.39,其它1.13.含砷废渣的As2S3品位达81.07% .
+2　含砷废渣湿法制备As2O3试验
+2.1　技术原理
+　　砷冶炼过程中要解决的主要问题是避免产生剧毒烟尘污染环境,实现最短的提砷技术途径,以降低消耗、提高经济效益.数十年来,国内外的科学家进行了大量研究[3- 9].实验证明,湿法提砷方法是消除生产过程中砷对环境污染的根本途径.但是,前人的“湿法提砷”技术途径较长,以提砷过程中砷的化合价态变化为参照,一般砷矿或含砷废渣中砷为三价(如As2S3),其提砷技术途径可概括为:As(Ⅲ)→As(Ⅴ)→As(Ⅲ)→As.作者提出的湿法提砷新方法[9],具有最短的提砷技术途径:As(Ⅲ)→As(Ⅲ)→As.
+2.2　工艺过程及流程
+　　将硫化沉淀获得的含砷废渣,在密闭反应器中用浓硫酸(≥80％)处理,在140～ 210℃下反应2～ 3h,废渣中As2S3分解、氧化、转化,形成单质硫磺和As2O3.在一定温度下,As2O3溶解在硫酸溶液中形成母液,固液分离出硫磺渣后,将母液冷却结晶出As2O3固体.结晶出的As2O3用少量水洗涤,获得高纯度As2O3产品.提砷过程的主要化学反应[10]如式(1)、式(2),原则工艺流程如图1所示.
+
+
+图1 工艺流程示意
+Fig.1 Principal technical procedure
+2.3 结果与讨论
+2.3.1 脱硫－转化试验　脱硫－转化试验结果如表2所示.
+表2 脱硫一转化试验结果
+Table 2 Results of the desulphurizing-converting tests
+试验号H2SO4浓度
+(初始 %)温度
+(℃)液固比
+(mL/g)时间
+(h)脱硫率
+(%)硫磺渣
+状 态
+0180.01806:12.561.4粗颗粒
+0298.01806:12.596.6粗颗粒
+0398.01406:13.056.8细颗粒
+0498.02106:12.097.4成团
+0598.01808:12.095.3粗颗粒
+
+　　较佳工艺条件为:液固比6:1,温度180℃,反应时间2～ 3h.
+2.3.2　产品及副产物　脱硫处理后,经冷却、结晶、水洗,获得产品As2O3.经化学分析测定, As2O3固体纯度达99.4%,未检出,其中元素含量(%): As 75.5, Fe 0.004, Cu 0.001,Sb 0.01.光谱分析测定,杂质元素总含量＜0.05％,其中元素含量(％): Si 0.005, Sb 0.015, Bi 0.0005, Al 0.001, Mg 0.001, Fe 0.005, Ca 0.001, Cu 0.001.
+　　硫磺渣经洗涤后,作为副产物回收,可用作鞭炮原料.在较佳脱硫条件下获得的硫磺渣经化学分析测定,S含量96.93％,As含量2.20%.光谱分析测定(%): As 2.20, Si 0.01, Sb 0.001, Bi 0.001, Al 0.0005, Mg 0.005, Fe 0.0005, Cu 0.25.也可将硫磺渣用二甲苯加热溶解－冷却重结晶提纯,经测定硫磺纯度达99.3%,可作化工原料.
+　　经计算,含砷废渣经处理后,砷的总回收率达95.3%.
+2.4 工艺过程中污染物的控制
+2.4.1　废气　采用冷凝回流装置,大部分酸雾经冷凝后回用,极少酸雾可通过碱液(如NaOH溶液)吸收.吸收液用Ag-DDTC比色法测定,未检出砷,说明本工艺不产生含砷气体.
+2.4.2 废酸及废水　当H2SO4浓度低于70%时,失去氧化性,作为废酸处理.对废硫酸采用硫化法除砷处理,工艺条件为:在30℃下,密闭容器中通入H2S气体0.5h,经处理后,废硫酸中残留砷降至0.018 mg/L,在磷肥工业中可作为配酸(部分)使用制造磷肥,参照国家标准《农用污泥中污染物控制标准(GB4284-84)》,生产的磷肥可安全使用.
+　　水洗(逆流)工艺废液产生量较小,经硫化沉淀砷处理后,废水中砷含量降至0.048mg/L,可达标(<0.5mg/L)排放.废酸或废水除砷产物主要为As2S3,可返回作为原料制备As2O3.
+3　结论
+3.1　采用硫化法处理高含砷酸性废水,具有很好的除砷效果,除砷效率可达99.99％.
+3.2　对获得的含砷废渣,采用浓湿法提砷制备新方法是可行的,获得产品的纯度达99.4％,砷的总回收率达95％以上,同时获得副产物硫磺可作其它工业用途.
+3.3　工艺过程中无含砷等有毒气体产生,废水产生量较小,且经除砷处理后,可达标排放.
+致谢：彭雁宾,李彩亭参加本项目研究,特此致谢.
+基金项目：国家自然科学基金资助项目([95]29577274);湖南省自然科学基金重点资助项目([94]209)
+作者简介：陈维平(1959-),男,湖南株洲人,湖南大学环境保护研究所教授、博士生,主要从事废渣资源化及清洁生产的新理论、新方法研究.曾主持国家自然科学基金、国家科委、国家计委及湖南省自然科学基金重点项目等10项科研课题.其中“砷硫矿湿法提砷新技术”获机械部科技进步三等奖,“利用铜合金尾料制备纯铜粉末的工艺”获机电部科技进步三等奖,“熔铝坩锅新型材质”获湖南省科技进步三等奖.发表论文30余篇, 
+作者单位：（湖南大学环境保护研究所,湖南 长沙 410082）
+参考文献：
+[1]张传福,谭鹏夫.第VA族元素物理化学数据手册 [M].长沙:中南工业大学出版社,1995.1- 8.
+[2]Norbert L Pirt, Albert E Melin. Discussion about arsenic subjects in the nonferrous metallurgy [A]. Koch M,Tayor J C. Productivity and technology in the metallurgical industries [C]. New York: The Minerals & Matels Materials Society. 1989. 158- 238.
+[3]殷德洪,黄其兴,刘特明. 砷害治理与白砷提取流程选择 [J]. 有色金属(冶炼部分), 1984, (6):12- 16.
+[4]Yusufoglu I. Reduction of arsenic oxide and arsenic sulfrde with technical-grade calcium carbide [J]. Chem. Acta. Turc., 1982, 10(2):147- 163.
+[5]Hiemeleens Jozef. Treatment of ores or metallurgical by-products containing arsenic and antimony [P]. Ger. Offen: 2,614,341 (Cl. C22B3/00),1976-10-14.
+[6]马 伟, 磁场效应对含砷废水处理的作用机理及其新工艺的研究 [D]. 沈阳:东北大学有色冶金系. 1996.
+[7]Kitasaw Tabao. Manufacture of arsenic by wet process [P]. Japan Kokai: 7, 7 54, 698 (Cl. C22B30/04), 1977-05-04.
+[8]Yang Tianzu. The preparation of arsenic trioxide from the liquid and resideu containing arsenic [J]. 中南矿冶学院学报, 1993, 24(4): 483- 489.
+[9]陈维平, 边可君. 一种湿法提取三氧化二砷的方法 [P]. 中国专利: CN1120020A(Cl. C01G28/00), 1996- 04- 10.
+[10]陈寿椿.重要无机化学反应 [M]. 第2版,上海:上海科学技术出版社, 1982.107- 141.
+
+收稿日期：1998-11-09

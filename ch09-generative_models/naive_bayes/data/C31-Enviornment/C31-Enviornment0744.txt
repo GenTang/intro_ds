@@ -1,0 +1,124 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1998年 第18卷 第3期科技期刊
+新农药环境化学行为研究*
+(Ⅶ)除草剂哌草丹(Dimepiperate)在土壤、水环境中的滞留、转化
+刘维屏　邵　颖**　王琪全
+(浙江大学化学系，杭州　310027)
+　　摘要 研究了除草剂哌草丹在土壤、水环境中的吸附、脱附、水解及光解过程.结果指出：哌草丹在土壤上的吸附主要受土壤有机质的影响，粘土矿也有一定作用.吸附和脱附均可用Freundlich方程描述；根据降解产物推测了哌草丹的水解和光降解的机理，哌草丹的水解产物为2-苯基丙烯和六氢吡啶等，六氢吡啶可与土壤粘土矿(蒙脱石)作用，并与蒙脱石层间阳离子形成配合物；哌草丹光降解的产物为六氢吡啶、苯乙酮和甲醛.
+　　关键词 哌草丹；土壤吸附；脱附；水解；光解.
+　　哌草丹，通用名为Dimepiperate, 化学名称为S-(α，α-二甲基苄基)哌啶-1-硫代甲酸酯，是一种内吸传导型稻田选择性除草剂，对防治二叶期以前的稗草效果好、水稻安全性高［1］.由于哌草丹相对较新，对其使用的研究，主要集中在除草活性上［2，3］.对哌草丹的环境行为，仅由Antonelli等对其在水稻田中的半衰期报道［4］.我们研究发现哌草丹在水环境中，如果存在酸性金属离子(如Fe3+、Cu2+等)，易发生水解，产物为硫化氢、六氢吡啶及2-苯基丙烯等［5］.
+　　本文将系统介绍哌草丹在土壤、水环境中的滞留(吸附、脱附及有关相互作用机理)、转化(水解及光降解)过程,为该除草剂的推广使用、认识其环境安全性提供理论依据.亦为农药环境行为的研究提供了有关方法.
+1 实验部分
+1.1 试验材料
+　　哌草丹试验品(98%)，由日本Mitsubishi化学公司提供，外观蜡状固体，在水中溶解度20mg/L(25℃).
+　　乙腈为HPLC级，其余化学试剂均为分析纯试剂.
+1.2 仪器及设备
+　　高效液相色谱仪(HPLC)，Waters 510型，配Waters 490可程序化紫外可见光检测器.控制及数据处理由Baseline 810软件在NEC APC Ⅳ微机上进行.色谱柱为Waters Bondpak C18(10μm)内径4mm、长300mm分析柱；流动相：乙腈/水(70/30，V/V)，由H3PO4调至pH3.5—4.0，流量1cm3/min;检测波长230nm，该条件下哌草丹的保留时间为9.4min.在此分析条件下，所需浓度范围内，3次测定的标准差≤±4.5%，分析方法的灵敏度和准确度均能满足要求.
+　　气相色谱仪(GC)，HP 5890Series Ⅱ型，配FID检测器及HP3396Series Ⅱ型积分仪.柱为内径0.53mm、长50m中孔CP-Sil-8cB毛细管柱，载气He.柱温在160℃—250℃，每分升温5℃.在这一条件下，哌草丹和六氢吡啶的保留时间分别为16.5和4.4min.
+　　薄层色谱板(TLC)，Merck silicagel F254板，展开剂石油醚(b.p.40—60℃)∶乙醚为6∶1.
+　　离心机、粉末 X衍射仪、付氏变换红外光谱仪及核磁共振波谱仪见文献［6］.
+　　光解器为自制，配主波长254nm和350nm灯(3×8W)，详见文献［7］.
+1.3 供试土壤及粘土矿
+　　3种试验土壤按理化性质差别较大选择，其理化性质见表1.
+表1 供试土壤的部分理化性质
+Table 1 Selected physisco-chmical properties of the soils
+
+　有机质，%粘土矿物，%砂粒，%粉粒，%水分，%pH(S∶W=1∶1)CEC*
+土壤A1.7046.5816.4429.924.507.7223.73
+土壤B2.409.1070.1016.801.405.244.03
+土壤C16.0014.6032.9026.209.506.0517.62
+
+*CEC为阳离子交换容量(meq/100g)，测定方法见文献［8］
+　　试验用粘土矿，以美国怀俄明 Ward′s Natural Science Establishment 提供的蒙脱石(Montmorillonite)进行.处理方法见文献［9］.
+1.4 吸附-脱附实验方法
+　　10.0g经空气干燥的土壤样(＜1.0mm)，加25.0mL一定浓度(Ci0)的哌草丹水溶液于50mL的聚乙烯离心管中，在25±2℃环境中机械振摇24h后，以20000r/min离心15min，准确取出5.0mL上层清液，由HPLC测定得到浓度为Ci1；在离心管中准确添加5.0mL蒸馏水，机械振摇24h，再经离心，取上层清液5.0mL测定浓度Ci2；再在离心管中添加5.0mL蒸馏水，依次进行.吸附量(Csi)和脱附量(Csij)可分别按下式计算：
+　　　　Csi=(Ci0-Ci1)×25.0/10.0(i为起始浓度代号)
+　　　　Csij=20Csij-1-15Csij (j=1,2,3,…； Csi0=Csi;j为稀释法脱附的次数)
+1.5 粘土上吸附机理的物理测定
+　　先制备单离子饱和的粘土矿，然后制成自载膜，测定与哌草丹作用前后的FT-IR差谱，具体实验方法见文献［7］.
+1.6 水解试验
+　　由一定浓度的哌草丹水溶液50mL加Fe3+离子饱和的粘土矿50mg后进行水解试验，试验过程尽量避光操作.
+1.7 光解试验
+　　在光解器中加入100mL(1×10-4mol/L)哌草丹水溶液(其中10%丙酮，主要是增加溶解度).分别以紫外光(254nm)及模拟太阳光(350nm)主波长进行辐照，不同时间测定哌草丹及主要代谢产物的浓度，表征代谢产物的结构.
+2 结果与讨论
+2.1 土壤上的吸附过程
+　　实验结果表明，哌草丹在3类土壤上吸附均能很好符合Freundlich方程，所得有关参数见表2.
+表2 哌草丹在3类土壤上吸附的Freundlich方程参数
+Table 2 Parameters of the Freundlich equation for dimepiperate on various soils
+
+土　壤Kf(μmol(1-n)Lnkg-1)1/nr
+A16.31.020.981
+B17.51.030.996
+C113.90.830.990
+
+　　由表2可见哌草丹在3类土壤上的吸附容量(Kf值)差别很大，通常对有机物的吸附，土壤有机质和粘土矿是最主要的因素，而对非离子有机物，往往土壤有机质更显重要［8］.分析Koc(Koc=100Kf／Moc)3类土壤分别为1665，1260及1227.很明显，由于土壤A粘土含量高，引起土壤A的Koc值比土壤B和C的Koc值偏高，而Koc的差别远远小于Kf的差别，说明土壤有机质对哌草丹的吸附起主导作用.对土壤B和C以10%H2O2降低有机质含量后作进一步试验完全证实这一点(见表3).
+表3 哌草丹在不同有机碳含量的土壤上的Koc值
+Table 3 Koc values for dimepiperate at various organic carbon contents of the soils
+
+土　壤有机碳含量，%KfrKoc
+B1.3917.50.9961260
+B′1.2014.50.9921205
+C9.28113.90.9901227
+C′4.3755.60.9901272
+
+　　B′，C′为经H2O2降低有机质后的土壤
+　　表3显示，不同土壤对哌草丹吸附的Koc值，如果粘土含量差别不是很高，Koc值接近常数，即土壤对哌草丹的吸附容量主要决定于土壤有机质.
+2.2 脱附过程
+　　按1.4所述方法进行哌草丹在土壤上的脱附研究，所得结果能较好符合 Freundlich方程，所得Freundlich参数见表4.
+表4 哌草丹在3类土壤上的Freundlich脱附参数
+Table 4 Parameters of the Freundlich equation for dimepiperate desorption on three sdis
+
+Ci土壤A　土壤B　土壤C
+KdesnrKdesnrKdesnr
+37.064.03.380.95112.611.870.83140.914.090.87
+53.8117.35.800.98168.319.500.88191.610.440.96
+75.4181.07.580.95242.226.940.91253.910.380.93
+91.5195.47.030.86282.217.379.92322.116.980.88
+
+　　表4显示，哌草丹在3类土壤上脱附过程的Freundlich常数(Kdes)大于吸附过程的Freundlich常数(Kf)，表明哌草丹在土壤上的吸附以化学吸附为主，脱附较困难.如果将哌草丹使用在含有机质较高的土壤上，为达到药效，需提高用量，但对水体的影响不大.图1是哌草丹在3类土壤上的吸附与脱附等温线.
+
+图1 哌草丹在3类土壤上的吸附-脱附线
+Fig.1 Freundlich adsorption-desorption for the herbicide dimepiperate
+2.3 水解过程
+　　1.6节所述水解试验经15天后，悬浊液上层明显有H2S臭味，溶液经气相色谱分析，与标准的保留时间作对照，发现溶液中有哌草丹、2-苯基丙烯及六氢吡啶.初步推测水解机理如图2所示.图2推测机理显示，哌草丹在有Fe3+粘土存在下的水解首先是粘土的键合水与哌草丹的羟基(I)氧原子生成氢键，而另一份水的氧进攻羰基碳原子，从而使C—S键断裂，产生2-苯基丙硫醇-2(Ⅱ)及N-羧基六氢吡啶(Ⅲ)；进而(Ⅱ)和(Ⅲ)分别失H2S和CO2得到所检测的2-苯基丙烯(Ⅳ)和六氢吡啶(Ⅴ).
+　　1.5节所述的FT-IR测定结果见图3.图3中(a)\,(b)是何等相似，与(c)比较可知六氢吡啶的氢原子与粘土中的Fe3+形成了配位键.
+
+图2 哌草丹在Fe3+粘土存在下的水解机理推测
+Fig.2 Proposed mechanism for the hydrolysis of dimepiperate on Fe3+-clay
+
+图3 Fe3+粘土用哌草丹处理后(a);六氢吡啶处理后(b)及六氢吡啶(c)的红外光谱
+Fig.3 Differential infrared spectra (a)Fe3+-clay with dimepiperate,(b)treated with piperidine, the spectrum of piperidine, (c)as a thin film is also shown
+
+图4 推测的哌草丹光降解机理
+Fig.4 Proposed mechanism of the photolysis of herbicide dimepiperate
+2.4 内层配合物的生成
+　　由X射线对Fe3+-粘土及分别由哌草丹、六氢吡淀处理后的Fe3+-粘土在100℃处理后测得d(001)晶面距分别为1.367nm、1.372nm，而未经哌草丹、六氢吡啶处理的Fe3+-粘土仅是1.208nm.这与我们对三氟羧草酸的研究结果［6］相似，说明哌草丹在Fe3+粘土存在下易水解，进入Fe3+-粘土内层的是六氢吡啶而不再是哌草丹本身.
+2.5 光解机理
+　　哌草丹水溶液以254nm主波长灯照30min后，由HPLC检测到5个峰，对Ⅰ、Ⅱ、Ⅲ及Ⅴ号峰由标样鉴定分别为哌草丹、六氢吡啶、2-苯基丙烯和甲醛；Ⅳ号峰经1H-NMR鉴定为苯乙酮.由所确定的产物，推得如下光降解机理(图4).
+　　另外，以350nm主波长灯辐照48h，哌草丹在纯水中基本不反应，而在10%的丙酮溶液中能起反应.产物与254nm辐照的降解产物相似，说明丙酮对哌草丹的光解有敏化作用.
+3 小结
+　　1.哌草丹在土壤中的吸附与土壤理化性质有关，土壤有机质是影响吸附的主要因素，粘土矿也有一定影响.吸附等温线可以用Freundlich方程表示.在土壤粘土含量一般情况下，Koc接近常数.
+　　2.哌草丹在土壤上吸附后，母体脱附不易，脱附过程亦可满足Freundlich方程.
+　　3.哌草丹在有Fe-粘土存在下，较易发生水解反应，水解产物为2-苯基丙烯、六氢吡啶、H2S和CO2.哌草丹与Fe3+-粘土作用后，实际上是代谢产物六氢吡啶与Fe3+-粘土的配合物.
+　　4.水解产物六氢吡啶能与M-粘土形成内层配合物.
+　　5.哌草丹在紫外光下易降解，产物为六氢吡啶、苯乙酮和甲醛.以350nm主波长灯辐照哌草丹基本不反应，而在10%的丙酮溶液中能起反应，表明丙酮对哌草丹的光解有敏化作用.
+　* 国家自然科学基金(39670420)资助项目
+　* 宁波大学访问学者
+参考文献
+　1 Ikeda K. Herbicidal property of a thiolcarbamate herbicide MY-93, Shokubutsu no Kagaku Chosetsu. 1982, 17:163
+　2 Tanaka M.Dimepiperate(Yucamate, MY-93) a new herbicide for rice. Japan Pestic Inf, 1984,45:18
+　3 农业部农药检定所主编.新编农药手册.北京：农业出版社，1989：553
+　4 Antonelli C et al. Dimepiperate:nuovo erbicida per il diserbo del riso, efficace contro il givone (Eschinocloa crus-galli), Atti Giornate Fitopatologiche, 1986,3:327
+　5 Pusino A et al. Adsorption and hydrolysis of dimepiperate on montmorillonite. Clays and Clay Minerals, 1993, 41:335
+　6 刘维屏等.新农药环境化学行为研究(Ⅴ)：三氟锁草醚在土壤-水环境中的滞留、转化.环境科学学报，1995，15：295
+　7 刘维屏等.新农药环境化学行为研究：除草剂绿草定在土壤-水环境中的吸附和光解.中国环境科学，1995，15：311
+　8 Hendershot W H et al. A simple barium chloride method for determining cation exchange capacity and exchangeable cations. Soil Sci Soc J Amer， 1986, 50:605
+　9 Liu W P et al. Adsorption of herbicide triclopyr on homoionic clays. J Environ Sci, 1995, 7:385
+ENVIRONMENTAL BEHAVIOR OF PESTICIDE (Ⅶ) PERSISTENCE AND TRANSFORMATION OF HERBICIDE DIMEPIPERATE IN SOIL-WATER ENVIRONMENT
+Liu Weiping, Shao Ying, Wang Qiquan
+(Department of Chemistry, Zhejiang University, Hangzhou 310027)
+ABSTRACT Adsorption, desorption, hydrolysis and photolysis of demepiperate, S-(α,α- dimethybenxyl)—1-piperidinecarbothioate, in three soils and aqueous solution were studied. The adsorption isotherms were conformed to be Frundlich type. The Kf values increased with increasing organic carbon content of the soils. The desorption isotherms were also conformed to be Freundlich type. The Kdes values were higher than those for adsorption and increased with increases in concentration of initially adsorbed dimepiperate. On Fe3+-clay, this interaction leads to hydrolysis of the thioester bond and the formation of the thiol and carbamic acid derivatives of the thioester bond, and the formation of the thiol and carbamic acid derivatives. A photolysis mechanism which accounts for the formation of the photoproducts was proposed.
+Keywords dimepiperate, adsorption-desorption, hydrolysis, photolysis.
+19960-07-29收到原稿
+1997-01-04收到修改稿

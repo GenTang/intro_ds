@@ -1,0 +1,82 @@
+计算机应用
+Computer Applications
+1999年 第19卷 第7期  Vol.19 No.7 1999
+
+
+
+用OpenGL开发虚拟制造环境（二）＊
+周杰韩　杜润生　吴　波
+　　摘　要　本文介绍了OpenGL 3D图形处理的管道过程，从建立模型坐标、视平面坐标到设备视区变换。论述了OpenGL在虚拟制造环境开发实践中的应用。
+　　关键词　虚拟制造，对象建模，坐标变换
+　　
+DEVELOPING VIRTUAL MANUFACTURING 
+ENVIRONMENT BY USING OPENGL (Ⅱ)
+
+Zhou Jiehan　Du Runsheng　Wu Bo
+Machinery Science and Engineering College, Huazhong University of Technology, Hubei*Wuhan 430074
+　　Abstract　The OpenGL graphics transformation pipeline is introduced in the thesis. And these transformation from modeling coordinates, viewing coordinates to final device coordinates are discussed in virtual manufacturing development.
+　　Keywords　Virtual manufacturing, Object modeling, Coordinates transformation
+
+1　OpenGL简介
+　　OpenGL是SGI公司的IRIS GL图形工作站的分支。与 32位Windows图形设备接口GDI的简单图形编程相比，OpenGL能进行高级的三维图形编程并能满足图形光照、纹理等特殊效果的要求。目前由OpenGL体系结构考察组OpenGL ARB控制OpenGL的语言标准。该组织成员有SGI、Microsoft、IBM、Intel与DEC公司等。OpenGL本身与硬件及操作系统的底层软件无关，因此可将OpenGL程序从一个系统方便地移植到另一个系统。OpenGL在CAD/CAM等需要高级三维对象可视化和图形绘制的领域内被广泛应用。许多计算机系统如UNIX，Windows NT都支持OpenGL标准。OpenGL通过各个平面的一系列顶点表示几何体。定义几何体是按照用户画几何体的顺序。OpenGL通过光栅化（将向量图形转换成由像素组成的图像的过程）来处理几何体对象。光栅化的结果以像素的形式存于帧缓冲区中。并通过多种模式变换控制输出。　　
+2　OpenGL 3D图形变换
+2.1　三维投影中的坐标系
+　　OpenGL物体坐标系采用左手坐标系。投影三维物体的二维平面称为投影平面，视平面坐标系附在投影平面上。物体坐标系描述物体的模型。取景参考点为物体建模参考点，一般将物体坐标系原点取为建模参考点。视平面坐标系原点为取景参考点在投影平面上的投影点，即平行于投影平面法线且通过取景参考点的直线与投影平面的交点。确定视平面坐标系向上方向的向量称为取景上方向量。取景上方向量确定视平面坐标系绕取景参考点与视平面坐标系原点连线旋转的角度。观察点或视点是观察者眼睛所在的位置。以上概念如图1所示。
+
+
+图1　三维投影中的坐标系
+2.2　OpenGL图形处理的管道过程
+　　绘画时，OpenGL通过建模与取景变换设置物体坐标系中对象的每个顶点，然后由投影变换指定的取景体积对顶点进行剪切，最后把这些顶点映射到视区上。其图形处理的管道过程如图2所示。
+2.3　OpenGL图形处理过程与照相过程对比
+　　设想物体坐标系画在支持物体的地板上，那么视平面坐标系就在相机的胶卷上。OpenGL图形处理过程与相机成相过程对比如下：
+　　把相机指向画面（取景变换）；
+　　摆好物体使得画面被照进（建模变换）；
+　　选择相机透镜或调整焦距感光（投影变换）；
+　　冲洗底片决定相片最终大小（视区变换）。　　
+
+
+图2　OpenGL图形处理的管道过程
+
+3　OpenGL物体模型绘制与图形变换
+3.1　OpenGL绘制物体模型与画几何体的顺序
+　　利用OpenGL图元功能如线、多边形等功能绘制物体模型。所有图元最终都以一组顶点坐标来描述。OpenGL使用glVertex命令定义顶点坐标，使用glColor命令定义顶点颜色。定义点的定义顺序是按照用户画几何体的顺序。定义立方体的点顺序如图3所示。定义物体模型可以在glBegin和glEnd命令对之间给出顶点的坐标。glBegin命令的参数决定如何绘制几何图元。其参数值的含义如下所示：
+　GL—POINTS： 单独的点；
+　GL—LINES： 一队顶点组成一单独的线段；
+　GL—POLYGON： 一简单凸多边形的边界轮廓；
+　GL—TRIANGLES： 三个顶点组成三角形；
+　GL—QUADS： 四个顶点组成四边形；
+　GL—LINE—STRIP： 一组首尾相连的线段；
+　GL—LINE—LOOP： 一组首尾相连的线段，且起始点相连；
+　GL—TRIANGLE—STRIP： 相连的三角形；
+　GL—TRIANGLE—FAN： 扇形三角形；
+　GL—QUAD—STRIP： 相连的四边形。
+
+
+图3
+　　
+3.2　建模变换与取景变换
+　　建模变换用来放置模型与确定模型的取景上方向量。建模变换包括移动、旋转或缩放，也可以是三者的联合操作。OpenGL分别用glTranslate命令和glRotate命令来移动与旋转物体。glTranslate命令移动物体到某新位置，其参数指定新位置的坐标。glRotate命令旋转物体使其取景上方向量为新方向，其参数为一个旋转轴向量与旋转角度。glScale为比例变换命令，其参数指定物体沿着三个坐标轴进行缩放的比例。建模变换是变换物体的位置与方向。而取景变换是变换视平面的位置与方向。物体与视平面的运动是相对运动，因此也可以用改变视平面位置与取景上方向的取景变换来代替建模变换。OpenGL默认物体的取景参考点与视平面的原点为物体坐标系原点，取景上方向量与y轴一致。OpenGL使用glMatrixMode改变模式矩阵命令来启动建模与取景变换。由于建模与取景变换本质上的一致性，在变换应用之前，建模与取景变换被连接为建模取景矩阵。GlMatrixMode的参数必须设置为GL—MODELVIEW。
+3.3　透视投影变换
+　　现实生活中的景物，由于距离远近不同，方位不同，在视觉中引起不同反映的现象就是透视现象。OpenGL透视投影利用去角锥的截头体作为取景体积。取景体积决定物体投影的可视部分，而且满足透视投影的远大近小规则。OpenGL用gluPerspective命令指定的透视取景体积如图4所示，视点放置在角锥的顶点。其参数fovy为y—z平面上取景域的角度，aspect为截头体x（宽度）与y（高度）的比值，zNear与zFar分别为视点与前后剪切面的距离，二者总为正值。进行透视投影变换前，必须用glMatrixMode将参数设置为投影模式GL—PROJECT，用glLoadIdentity置恒等矩阵命令清除过去矩阵的影响，同时用gluPerspective命令指定取景体积进行透视投影。
+
+
+图4　gluPerspective建立的取景体积
+3.4　视区变换
+　　对比于照相过程，投影变换对应于胶卷底片感光阶段。视区变换则对应于选择照片大小阶段。视区变换决定物体图像在显示设备的最终尺寸与位置。OpenGL图形系统默认视区为窗口客户区域。使用glViewport命令可以选择一个视区。其参数（x，y）指定视区的左下角位置，width与height指定视区矩形的大小。在MFC窗口视结构中，视区尺寸通常不是绝对尺寸，而是响应窗口宽度与高度的变化而变化。　　
+4　虚拟制造环境下绘制加工中心
+　　加工中心是虚拟制造环境中重要的加工设备之一。在创建三维仿真虚拟车间的实践中，选取Windows 95操作系统与MFC作为 OpenGL图形应用程序的开发环境。加工中心的物体坐标设定如图5所示。 
+
+
+图5　OpenGL环境下加工中心物体模型
+
+　　投影平面与y-z平面平行。取景参考点设在物体坐标系的原点。视平面离物体坐标系原点的距离为m-fDistence。取景体积的前后剪切面距离视点（计算机前观者的眼睛）分别为fNearPlane与fFarPlane。视窗口大小设定客户区域，并随客户区大小变化而变化。
+　　周杰韩　博士研究生,高级程序员。研究方向:虚拟制造、系统仿真、面向对象技术。
+　　* 国家教委博士点基金资助。
+　　作者单位：周杰韩　杜润生　吴　波（华中理工大学机械科学与工程学院　湖北．武汉(430074)
+参考文献
+［1］　Donald Hearn,M.Pauline Baker.Computer Graphics (second edition).Prentice-Hall International Inc.1998
+［2］　Microsoft Developer Studio(Graphics and Multimedia Services). Microsoft Corporation, 1997
+［3］　S.Harrington,著. 计算机图形学. 高福文，译. 北京:北京师范大学出版社，1985
+［4］　Kevin J.Goodman，著.如何开发Windows95应用程序.郭　勇,译.清华大学出版社，1996
+［5］　周杰韩, 吴　波，左朝晖. 虚拟制造环境面向对象建模.武汉：华中理工大学学报,1998；26（3）：38-39
+收稿日期:1998-12-25(修改稿)

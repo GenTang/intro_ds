@@ -1,0 +1,87 @@
+环境科学学报
+ACTA SCIENTIAE CIRCUMSTANTIAE
+1999年　第19卷 第1期 Vol.19　No.1 1999
+
+
+
+　　绿麦隆在水溶液中光降解动力学研究*
+周祖飞**　刘维屏
+摘要　以低功率紫外灯和荧光灯为光源对水溶液中的绿麦隆进行光降解，探讨了光解的影响因素.研究表明，绿麦隆在紫外光照下较易降解，其光解符合准一级动力学方程，反应速率常数为2.3×10-2 min-1；在水环境中经长期光照会逐渐矿化为Cl-,CO2,NO-3等无机离子；运用GC/MS技术鉴定了绿麦隆的几种光解中间产物，异氰酸(3-氯—4-甲基)—苯酚酯是主要中间体，并推测了绿麦隆的光解反应历程.
+关键词　绿麦隆；光降解；矿化.
+Photolytic kinetics of chloritoluron in aqueous solution
+ZHOU Zufei, LIU Weiping 
+Department of Chemistry,Zhejiang University,Hangzhou 310027
+Abstract　The photolysis of chlorotoluron[N'-(3-chloro-4-methylpenyl)-N,N-dimethylureal] was investigated under irradiation of various wavelength in aqueous solution.The factors that influence the photolysis were also investigated.The degradation process follows a pseudo-first-order kinetic under ultraviolet light,and the rate constant was determined to be 2.3×10-2 min-1.The herbicide was mineralized to CO2,Cl- and NO-3 after long-term irradiation.Several photolysis intermediates were identified using GC/MS technique,and 3-chloro-4-methylphenyl isocyanide was recognized as a major reaction intermediate.A mechanism of the process was supposed.
+Keywords　chlorotoluron,photolysis,mineralization.
+1　前言
+　　绿麦隆［N,N—二甲基—N′—(3－氯—4－甲基苯基)脲］是一种含氯取代脲类除草剂，目前在我国广泛使用于小麦、玉米、高粱等作物防治杂草，它是通过植物根系吸收或叶面触杀起作用，其杀草机理是抑制了杂草光合作用的电子传递.绿麦隆的除草效果受气温、土壤湿度、光照、微生物活性等因素的影响，在环境中能持续70天以上［1］.研究绿麦隆在大气、水体、土壤、植物表面的滞留、迁移、转化等行为，有助于全面了解其环境安全性.绿麦隆在土壤微生物作用下的降解规律已有报道［2，3］，本文旨在探索绿麦隆在水溶液中的光化学降解动力学过程、主要环境因子对其光解的影响、光解后的主要中间产物及它受长期光辐射后的最终归趋等规律.
+2　实验部分
+2.1　试剂和药品
+　　绿麦隆纯品(96%)由上海东风农药厂提供；检测溶液中无机物的试剂如三氯甲烷、酒石酸钾钠、碘化钾、氯化汞、苯酚、硫酸、氨水、硝酸钾、盐酸、高锰酸钾、邻苯二甲酸氢钾、氯化钾、高氯酸、硝酸铁、硫氰酸汞等均为分析纯试剂；作为HPLC流动相的甲醇和水都先经过重蒸.
+
+
+图1　光解反应器
+Fig.1 Photolysis reactor
+2.2　主要仪器
+光解反应器(自制，见图1)；Spectra Physics高效液相色谱仪，带Spectra 100可调波长紫外检测器和SP4270积分仪；Finnigan MAT SSQ－7000型色－质联用仪；751G紫外分光光度计(上海分析仪器厂)；TGL－168高速抬升离心机(上海安亭科学仪器厂)；超级恒温槽及ZFQ－81A旋转蒸发器(上海医械专机厂).
+2.3　实验研究
+2.3.1　光照实验　光解反应器置于一直径为40 cm的铝制圆筒内，铝筒壁上等距离固定着3支相同波长和功率的紫外灯和荧光灯，调节灯管与光解器之间的距离在10 cm，由于生铝片有良好的反光效果，光解反应器内的试液会受到均匀的光辐照.实验时从进水口通20℃的恒温水，从进气口鼓空气，光照后定时取样，经离心机高速离心20 min后，由HPLC测定绿麦隆的残余浓度.
+2.3.2　样品分析方法　绿麦隆及光解后的残余浓度用HPLC分析，条件是：色谱柱为μ－Bondapak C18长250 mm、直径4.5 mm不锈钢柱；流动相为甲醇∶水=60∶40(V∶V)，流速0.75 mL/min；紫外检测器波长λ=240 nm；进样量10 μL.经试验，方法的5次平行测定变异系数≤±2.75%，灵敏度亦能满足动力学研究要求.
+2.3.3　光解后无机物的检测　绿麦隆在水溶液中受长期光照会逐渐矿化，主要无机离子的检测均采用它们在废水中的标准检测法，试液中Cl-,NH+4,NO-3的浓度都根据各自的标准曲线而确定.其中Cl-采用硫氰酸汞吸光光度法；CO2(溶液中游离的量)采用酚酞指示剂滴定法；NH+4采用纳氏试剂光度法；NO-3采用酚二磺酸比色法.
+2.3.4　光解中间产物的确定　20 mg/L的绿麦隆水溶液用紫外灯照射30 min后，取约100 mL的试液，用三氯甲烷萃取，经旋转蒸发器蒸发浓缩，再进入色－质联用仪分析.分析条件为：色谱柱是30 m SE-54弹性石英毛细管柱，柱温以10 ℃/min的速度从60℃升至300℃，氮气作载气，质谱电子轰击源70eV，扫描1次/s.
+
+
+图2　绿麦隆的紫外光吸收曲线
+Fig.2 Ultraviolet absorption spectra of chlorotoluron in aqueous solution
+
+
+　
+图3　绿麦隆在不同光源下的降解曲线
+Fig.3 The photolysis curves of chlorotoluron under various wavelength irradiations
+3　结果与讨论
+3.1　辐射光波长对绿麦隆光解的影响
+　　绿麦隆的紫外－可见光吸收谱图(图2)表明，其最大吸收在240 nm左右，在300 nm以上的区域吸收很少，可以推测绿麦隆在太阳光(辐射波长在290 nm以上)下水体中直接光解很难进行.实验结果表明，绿麦隆在主波长为365 nm的荧光灯(3×8 W)照射下几乎不降解，2 h后只降解7%，而用主波长为254 nm的紫外灯(3×8 W)照射30 min就已降解87%，光解十分迅速(图3)，可见短波长的辐射光对绿麦隆的光降解有利.进一步研究发现，用绿麦隆在紫外光照下降解后残余浓度的对数lnC与光照时间t拟合，结果为很好的直线关系：
+lnC=2.3×10-2t-3.07，T1/2=21 min.
+　　可见水溶液中的绿麦隆在紫外光照下的降解符合准一级动力学反应.
+　　20 mg/L的绿麦隆水溶液经紫外光辐射后，溶液颜色从无色变为浅黄色，进而加深，可见出现了许多光解中间产物，随着照射时间的延长溶液又缓慢变清，这是矿化的结果.图4反映了溶液中各种无机离子浓度的变化情况，其中CO2和Cl-浓度在光照开始70 min内增加迅速.70 min以后保持缓慢增加，说明绿麦隆在光照下苯环上的脱氯和开环氧化反应较易进行.溶液中NH+4的浓度随着光照的进行而逐渐增大，大约在350 min时达到最大值(约2 mg/L)，可见脱胺作用到此时已基本完成，
+
+
+　
+图4　光照过程中无机离子浓度的变化规律
+Fig.4 Formation kinetics of inorganic ions under irradiation
+但随后NH+4浓度却逐渐下降，说明肯定有部分NH+4被氧化为NO-2、NO-3等氮氧化物，因为NO-3的浓度从光照开始后一直是逐渐增大的，这一实验结果与有关文献报道相一致，2，4－二硝基苯酚、异戊胺、伏草隆等经长时期光照后NH+4\,NO-2等中间离子最终会氧化为NO-3［4，5］.
+　　综上所述，水溶液中的绿麦隆经长时间光照后，基本可用下面的反应计量式来反映其矿化过程：
+3.3　绿麦隆光解中间产物的鉴定及反应历程
+　　绿麦隆是一种在紫外光下较易降解的除草剂，其光解中间产物种类多、结构复杂，表1是根据获得的质谱图鉴定的4种中间体的结构.
+
+表1　绿麦隆光解中间体的鉴定
+Table 1 Identification of photolysis immediate of chlorotoluron
+　　　化合物分子量MS主要碎片(m/e)结构式
+异氰酸(3－氯—4-甲基)—苯酚酯167132　133　104　77
+异氰酸(3－羟基—4－甲基)—苯酚酯149120　134　77
+N—(3－羟基—4－甲基)—苯基氨基甲酸167149　113　57
+N，N—二甲基—N′—(3－羟基—4－甲酰基)—苯基脲208149　123　91
+
+
+
+　
+图5　光照时异氰酸(3－氯—4－甲基)—苯酚酯的变化规律
+Fig.5 Evolution of 3－chloro—4－methylphenyl isocyanide under irradiation
+　　在这些中间产物中，有一种化合物(液相色谱上出现的保留时间为4.47 min)在光照后不久即出现，而且在光中相对稳定，其浓度在光照后约70 min时达到最大值，随后非常缓慢地下降(图5)，而此时溶液中的绿麦隆原药已被完全光解，对照Cl-浓度的变化规律，Cl-浓度在70 min后非常缓慢地升高，由此可以推测这种物质极有可能是含氯的光解中间体，即异氰酸(3－氯—4－甲基)—苯酚酯.根据以上鉴定的中间产物及绿麦隆的分子结构特点，它在水溶液中的光解可能以如下的历程进行：
+
+图6　推测的绿麦隆光解历程
+Fig.6 Supposed photolysis pathway of chlorotoluron in aqueous solution
+4　结论
+　　1.水溶液中的绿麦隆在紫外灯照射下的降解速率快于用荧光灯照射的光解速率，在紫外光下较易降解，其光解基本符合准一级动力学反应，光解速率常数为2.3×10-2 min-1.
+　　2.绿麦隆在水溶液中的光解过程主要表现为脱氯、脱胺、开环氧化等反应，异氰酸(3－氯－4－甲基)－苯酚酯是其光解的主要中间体，且在环境中对光相对较稳定.
+　　3.水溶液中的绿麦隆及其光解中间产物受长时间光照后会逐渐降解、矿化，最终成为Cl-、CO2、NO-3等无机物残留于自然界中.
+* 国家自然科学基金资助项目(29477274)　
+作者单位:周祖飞   现在浙江省电力试验研究所工作
+　　　　刘维屏　 浙江大学化学系，杭州　310027 
+参考文献
+　［1］　王焕民等.新编农药手册.北京：农业出版社，1989.627—628
+　［2］　Madhum Y A et al.Degradation of herbicide bromoil pruron and chlotoluron in soil.Chemosphere,1987,16(5):1003—1011
+　［3］Smith A E et al.The fate of the herbicide chlorotoluron and its possible degradation products in soil.Weed Res,1978,18(1):1—7
+　［4］　Pramauro E et al.Photocatalytic degradation of monuron in aqueous TiO2 dispersion.Environ Sci Technol,1993,27:1790—1795
+　［5］　Low K C et al.Formation of nitrate and ammonium ions in titanium pioxide mediated phocatalytic degradation of drganic compounds containing nitrogen atoms.Environ Sci Technol,1991,25(3):460—467
+1997-03-24收到原稿　1997-10-15收到修改稿

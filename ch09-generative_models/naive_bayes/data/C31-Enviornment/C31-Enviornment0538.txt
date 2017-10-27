@@ -1,0 +1,57 @@
+城市环境与城市生态
+URBAN ENVIRONMENT & URBAN ECOLOGY
+1999年 第12卷 第5期 Vol.12 No.5 1999
+
+
+
+LFG控制利用工程基本参数的试验研究
+黎青松　郭祥信　梁顺文
+　　摘要：通过深圳市玉龙坑垃圾填埋场的现场抽气试验，本文进行了填埋气体安全控制与回收利用工程基本参数的研究。研究结果表明，抽气流量小于3　m3/min时能控制所抽填埋气体中氧含量小于2%，抽气流量Q与抽气井口压力P的关系为Q=1.15LnP-3.283。填埋场垃圾中有机质含量较多，目前正处于产气高峰期，填埋气体成分分别为CH4：62.2%，O2：1.0%，CO2：34.7%，其余：2.1%。其中CH4含量较高，填埋气体具有很高的利用价值。抽气和产气达到平衡时，抽气井的作用半径为28　m，相应的稳定抽气流量为2.35　m3/min。
+　　关键词：城市生活垃圾填埋场；抽气；填埋气体；成分浓度
+　　中图分类号：X705　　文献标识码：A　　文章编号：1002-1264(1999)05-0011-03
+Experimental Study on Basic Parameters for LFG Control and Utilization
+LI Qing-song1，GUO xiang-xin1，LIANG Shun-wen2
+(1.Academy of Urban Constrution,Ministry of Construction,China,Beij ing 100029;
+2.Shenzhen Environmental Sanitation Administration Bureau,Shenzhen 518001)
+Abstract：Through LFG extraction field trial in Shenzhen city, the study on engin eering parameter, for LFG safe control and utilization has been done in this paper. The results showed that oxygen content is below 2 percent when LFG extraction flux is less than 3m3/min. The relationship bet ween the extraction flux (Q) and pressure (P) on the extraction well is Q=1.1 5LnP-3.283.There is high orga nic content in landfill site. The gas production was in peak period at present with the major components of CH4, O2, CO2, and other gases,the concentration of these gases are 62.2%，1.0%，34.7%，2.1%, respectively. For the high CH4 content,LFG is worth using. When the LFG extraction is equal to the output, the affected radius of extraction well is 28m, the relevant stable LFG extraction flux is 2.35　m3/min.
+Key words：municipal solid waste landfill site；　LFG extraction；　landfill gas；　component concentration
+1　概述
+　　由于微生物的厌氧分解作用，填埋场的垃圾会产生大量的填埋气体（LFG），据有关研究每吨垃圾产气量可达189　m3［1］。LFG是一种可燃气体，具有很高的利用价值。同时，LFG也是一种温室气体。如果LFG中氧含量达到5%-15%，就会形成爆炸气体，产生很大的危险性。发达国家对LFG开展了广泛的回收应用［2-4］，而我国虽然起步较晚，也越来越认识到发展LFG控制回收利用技术可实现固废处理资源化、保护环境，逐渐开始了LFG方面的研究［1-5］。由于每一个填埋场的地理位置、地质情况、周围环境以及垃圾的填埋量和密实程度都不一样，因此对填埋气体实施安全控制与回收利用工程时，均需进行工程设施基本参数的试验研究，使得气体控制利用工程更加安全、科学可靠。
+　　本文通过深圳市玉龙坑垃圾填埋场现场打井抽气试验，研究了对填埋气体进行安全控制与回收利用时的基本技术参数。
+2　抽气试验
+2.1　试验场地
+　　深圳市玉龙坑垃圾填埋场自1993年开始使用，最初为垃圾堆放场，主要填埋罗湖、福田两区垃圾，后经六次扩容，至今已使用了14年。场区垃圾占地约10万m2，垃圾填埋总量约470万t。场区垃圾堆体形成高差较大的两个平台，约100　m以上高程的高垃圾平台和90　m以下高程的低垃圾平台。
+　　低平台垃圾填埋时间比较长，垃圾量较少，垃圾无机物含量较大，产气量较小。而高平台涵盖了各个填埋时期的垃圾，其上部为最近几年所填垃圾，垃圾厚度大，最深处大于70　m，有机物含量高，气体产生量大。因此本次试验的抽气井位置定在填埋场高垃圾平台上。
+2.2　试验方法
+　　本次试验建立抽气井1座，监测井8座。抽气井直径为0.6　m，中间预埋管径100　mm的PVC花管，花管周围回填易于气体渗透的介质（碎石），回填高度超过花管孔眼部分，距地平面以下用1　m厚混凝土密封，起固定作用及防止气体渗漏。
+　　监测井直径为0.4　m，在井不同高度预埋深度不一的长管和短管，其管径为Φ15的镀锌铁管，其中长管长度约为垃圾总埋深的2/3，短管长度约为垃圾总深度的1/3。管下端为花管，花管高度为0.5　m。长管花管部分以上大约10　m处用0.5　m厚的压实粘土同短管分开，距地平面以下用1m厚粘土密封。
+　　抽气井和监测井的平面布置如图1所示。最远处监测井离抽气井32　m，抽气泵通过管道和抽气井相连，用抽气泵对抽气井进行连续抽气，并利用气体成分分析仪监测所抽填埋气体O2的含量，不断调整抽气泵的抽气压力，控制所抽填埋气体O2含量不超过2％，当抽气流量达到稳定状态后，垃圾产气和抽气达到平衡，此时填埋气体中CH4含量稳定，相应的气体流量即为抽气井的抽气流量；同时可根据8座监测井的压力变化判断抽气井的压力影响范围，找出抽气井的作用半径。
+
+
+图1　抽气井和监测井的平面布置示意图
+注：图中尺寸单位为mm。
+3　试验结果
+3.1　抽气井抽气流量与气体氧含量的关系
+　　可以通过控制抽气流量来控制填埋气体中的氧含量，从而避免气体中的氧含量超过了5%而变成爆炸气体。抽气流量与气体中氧含量关系如图2所示。从图中可看出，当抽气流量小于3[KG·4m3/min，气体中的氧含量小于2%。
+
+
+图2　抽气流量Q与含氧量C关系
+3.2抽气流量与抽气井压力的关系
+　　如图3所示。抽气流量Q与抽气井口压力P具有如下关系：Q=1.15lnP-3.283
+
+
+图3　抽气井压力P与抽气流量Q的关系
+3.3　填埋气体成分
+　　利用GEM—500型填埋气体成分分析仪测试填埋气体成分，在抽气前，对抽气井和8座监测井进行了填埋气体成分测试。表1列出了抽气井抽气达到稳定后测得的填埋气体成分数据，取其平均值作为填埋气体成分，各成分如下：CH4：62.2%，O2：1.0%，CO2：34.7%，其他气体：2.1%，其他气体中大部分是N2，另外还有少量的CO、H2S等气体。填埋气体中CH4含量较高，这主要由于玉龙坑填埋场垃圾有机质含量较多，填埋气体浓度变化幅度较小。
+表1　填埋气体成分　　V%
+
+测试次数CH4O2CO2其余
+164.90.732.91.8
+263.31.133.22.4
+361.80.434.92.8
+460.61.535.32.7
+560.31.537.30.9
+平均值62.21.034.72.1
+
+3.4稳定的抽气流量
+　　图4-图6给出了1#-8＃监测井长管与短管

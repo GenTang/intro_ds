@@ -1,0 +1,108 @@
+微型机与应用
+WEIXINGJI YU YINGYONG
+2000　Vol.19　No.5　P.14-15,16
+
+
+
+
+在Visual Basic程序中调用Fortran动态链接库的方法
+鲜飞军杨合
+摘 要：用于VB应用程序的Fortran动态链接库及在Visual Basic应用程序中调用Fortran动态链接库的方法，给出了具体的应用程序示例。
+关键词：动态链接库DLL Visual Basic语言 Fortran语言 可视化
+　　Fortran语言以其清楚的结构层次、强大的数值计算与数学分析能力，而广泛应用于数学与工程计算。特别适用于编制具有模块化结构的大型计算程序，如有限元数值模拟软件。软件的可视化，一般包括界面操作、数据输入与数据输出的可视化。可视化编程是现代计算与分析软件设计的重要发展方向之一，直接关系到应用程序的使用效果。然而，Fortran语言的一个不足之处是进行可视化编程难度大。
+　　Visual Basic语言（以下简称为VB）以其能迅速有效地编制优良的交互界面设计性能，被越来越广泛地应用于Windows环境下系统的可视化界面设计。VB具有简单、易学易用的特点，它所提供的对象链接与嵌入（OLE，Object Linking and Embeding）工具，为利用其它软件进行数据的可视化处理提供了方便。VB的缺点在于运算速度慢，不适合进行大型数值计算。
+　　如果能将Fortran语言强大的数值计算能力与VB在界面操作、数据输入与数据输出方面的可视化设计能力结合起来，则可充分利用这二种语言的优势。二种语言结合的关键是建立用于VB应用程序的Fortran动态链接库（DLL，Dynamic Link Library）。VB与C动态链接库的结合，使VB进行界面开发更为方便，可以使用经过高度优化的C程序代码，利用C语言与计算机底层接口通信的灵活性还可实现控制方面的应用。虽然如此，但考虑到C语言的数值计算能力不如Fortran语言，而且目前Fortran语言在工程数值计算与分析中的广泛应用性，有必要对实现基于VB与Fortran语言可视化混合编程的VB调用Fortran动态链接库这一关键技术进行研究。为此，本文探讨了Fortran动态链接库的创建与调用方法，最后给出了应用示例。
+1 Fortran动态链接库的创建
+　　创建用于VB应用程序的Fortran动态链接库的方法与步骤如下：
+　　（1）在Microsoft Fortran PowerStation 4．0／6．0的环境下，创建工程类型为Fortran动态链接库的工程文件（．DSP）；
+　　（2）编写Fortran源程序（．FOR）并加入到该工程；
+　　（3）编译（Compile）、建造（Build）此源程序，即可生成动态链接库文件（．DLL）。
+　　在编写Fortran源程序时要声明输出的子程序或函数过程名、子程序或函数过程别名、接口参数名称与类型，以供VB应用程序调用。子程序或函数过程名与别名中不要用下划线字符“＿”。声明语句的形式如下：
+　　　!DEC＄ATTRIBUTES DLLEXPORT：：子程序或函数过程名
+　　　!DEC＄ATTRIBUTES ALIAS：′过程别名′：：子程序或函数
+　　　　　　　　　　　　　　　　过程名
+　　　输入参数类型，INTENT（IN）：：输入参数表
+　　　输出参数类型，INTENT（OUT）：：输出参数表
+2 VB应用程序调用Fortran动态链接库的方法
+2．1 Fortran动态链接库子程序或函数过程的声明
+　　由于Fortran动态链接库中的子程序或函数过程相对于VB系统而言是外部过程，因而在调用之前必须向VB声明该过程的一些信息，以便编译器能找到该过程，并生成正确的调用接口。
+　　存储在Fortran动态链接库中的子程序或函数过程需要在全局模块或表格级模块中声明，下面是声明的格式。
+　　若过程是子程序，则：
+　　Declare Sub＜动态链接库子程序过程名＞Lib″动态链接库名″［Alias″过程别名″］［（＜参数表＞）］
+　　若过程是函数，则：
+　　Declare Function＜动态链接库函数过程名＞Lib″动态链接库名″［Alias″过程别名″］［（＜参数表＞）］［As数据类型］
+　　其中：动态链接库子程序或函数过程名是被调用动态链接库中的子程序或函数的名字；动态链接库名为动态链接库子程序或函数过程所在的动态链接库名，需要指明Fortran动态链接库文件所在的全路径名；过程别名为可选项，用来给动态链接库中的子程序或函数过程换1个新名字；参数表为可选项，指出了当VB调用Fortran动态链接库中的子程序或函数过程时，由VB传递给Fortran动态链接库子程序或函数过程的参数及类型，或由Fortran动态链接库子程序或函数过程传递给VB的参数及类型；数据类型为Fortran动态链接库函数过程的参数值类型。
+　　在VB中，参数的传递方式有值方式（By Value）和引用方式（By Reference）。若按值方式传递，则在参数前加上“ByVal”关键字；若按引用方式传递，则无需加此关键字。在调用Fortran动态链接库时，要注意VB应用程序中的参数类型与Fortran动态链接库被调用子程序或函数过程的参数类型保持一致。表1给出了基本的Fortran语言数据类型及其对应的VB应用程序的数据类型。
+表1 基本数据类型对照表
+Fortran语言Visual Basic
+IntegerI As Integer
+RealR As Single
+Bouble PrecisionD As Double
+Complex-
+LogicalL As Boolean
+CharacterBy Val S As String
+
+2．2 Fortran动态链接库子程序或函数过程的调用
+　　在全局模块或表格级模块中声明Fortran动态链接库中子程序或函数过程以后，VB应用程序就可以随意调用库中任意子程序或函数过程了。调用的主要步骤如下：
+　　（1）先定义被调用子程序或函数过程参数的类型；
+　　（2）给子程序或函数过程中的输入参数赋值；
+　　（3）用Call语句调用，调用格式如下：
+　　Call子程序或函数过程名（实参，…）
+　　其中：当无参数时，省略括号。
+3 程序示例
+　　为了全面说明创建Fortran动态链接库及VB应用程序调用Fortran动态链接库的方法与步骤，下面给出了1个简单应用程序示例。程序的功能是：VB提供数据输入、输出及操作界面；Fortran动态链接库子程序完成2个实数的求和。下面是示例程序及其创建过程。
+　　（1）在Microsoft Fortran PowerStation 4．0／6．0环境下，创建类型为Fortran动态链接库的工程文件，命名为Example．DSP。
+　　（2）建立1个命名为Example．FOR的Fortran源程序，并加到此工程。
+　　Example．FOR源程序：
+　　Subroutine FortranDll（r1，r2，Add）
+　　　！DEC＄ ATTRIBUTES DLLEXPORT：：FortranDll
+　　　！DEC＄ ATTRIBUTES ALIAS：′FortranDll′：：FortranDll
+　　　REAL，INTENT（IN）：：r1，r2
+　　　REAL，INTENT（OUT）：：Add
+　　　Add＝r1＋r2
+　　End Subroutine
+　　（3）建造Fortran动态链接库文件Example．DLL。
+　　（4）在VB5．0中文企业版环境下启动1个新的工程，建立1个新的窗体，窗体及控件的属性如表2所示，编写的程序代码如下：
+表2 窗体与控件属性描述
+控件类型属性属性值
+窗体Name  CaptionfrmExample VB调用Fortran语言DLL示例程序
+标签Name  Caption1b1Inputr1输入r1:
+文本框Name  TexttxInputr1
+标签Name  Caption1binputr2输入r2:
+文本框Name  Captiontxinputr2
+标签Name  Text1b1Output输入r1+r2
+文本框Name  TexttxtOutput
+命令按钮Name  CaptioncmdAdd求和
+命令按钮Name  CaptioncmdExit退出
+
+　　Example．FRM源程序：
+　　Dim r1，r2 as single
+　　Dim Add as single
+　　Private Sub cmdAdd＿click（）
+　　　r1＝Val（txtInputr1．Text）
+　　　r2＝Val（txtInputr2．Text）
+　　　Call FortranDll（r1，r2，Add）
+　　　txtOutput．Text＝Str（Add）
+　　End Sub
+　　Private Sub cmdExit＿Click（）
+　　　End
+　　End Sub
+　　（5）在该工程下添加1个模块，编写程序代码。
+　　Example．BAS源程序：
+　　Declare Sub FortranDll Lib ″D＼Fortran＼Example＼Example．DLL″（r1 as Single，r2 as Single，Add as Single）
+　　（6）生成Example．EXE文件。
+　　在Windows环境下运行Example．EXE，生成如图1所示的界面。输入实数r1、r2的值，单击“求和”按钮，可获得二数之和；单击“退出”按钮，结束程序运行。
+
+图1 VB调用Fortran动态链接库示例程序运行情况
+4 结束语
+　　通过Visual Basic与Fortran动态链接库的结合来实现基于VB与Fortran语言的可视化混合编程，可充分利用VB方便快速的界面开发与Fortran语言强大的数值计算能力。本文介绍的创建Fortran动态链接库并在VB应用程序中调用Fortran动态链接库的方法，为基于VB与Fortran语言可视化混合编程提供了一种简单可行的方法。
+鲜飞军（西北工业大学材料科学与工程学院542信箱710072）
+杨合（西北工业大学材料科学与工程学院542信箱710072）
+参考文献
+［1］潭浩强，田淑清．FORTRAN语言－FORTRAN77结构化程 序设计．北京：清华大学出版社，1990
+［2］蔡青，高光焘．CAD／CAM系统的可视化集成化智能化网 络化．西安：西北工业大学出版社，1996
+［3］崔俊芝．现代有限元软件方法．北京：国防工业出版社，1995
+［4］胡衡江，蔡寒阳．Windows下VB调用C动态链接库．微型 机与应用，1997；16(3)
+［5］贾宏宇，赵俊峰．VB应用程序中用户自定义动态链接库 的关键技术．计算机系统应用，1998；(5)
+［6］王向阳．如何在Visual Basic应用程序中调用动态链接 库．微型机与应用，1999；18(1)
+收稿日期：1999－12－06

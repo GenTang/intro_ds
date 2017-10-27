@@ -1,0 +1,126 @@
+航空材料学报
+JOURNAL OF AERONAUTICAL MATERIALS
+1999年　第19卷　第2期　Vol.19　No.2　1999
+
+
+
+NiAl合金基原位复合材料的反应
+热压法制备和拉伸性能
+鲁玉祥　陶春虎　杨德庄　张俊善
+
+摘要： 研究了反应热压技术(包括反应轴向热压(RHP)和反应热等静压(RHIP)法)制备的Ni50Al20Fe30(NiAl(Fe))基原位复合材料的微观组织和拉伸性能。结果表明，反应热压技术制备的NiAl(Fe)基复合材料中原位合成的TiC颗粒细小，分布均匀、弥散，但复合材料不完全致密，孔隙的存在损害了其拉伸性能。二次加工工艺可提高NiAl(Fe)基原位复合材料的致密性和组织均匀性，从而显著改善其力学性能。
+关键词： 金属间化合物基复合材料； NiAl(Fe)； 制备工艺； 拉伸性能
+中图分类号：TG113.25　　　文献标识码：A　　　文章编号：1005-5053(1999)02-0035-08
+Tensile properties of NiAl alloy matrix in-situ composites fabricated
+by reactive hot pressing techniques
+LU Yu-xiang1　TAO Chun-hu2　YANG De-zhuang3　ZHANG Jun-shan1
+(1. Dalian University of Technology Dalian 116024, China; 2. Institute Aeronautical Materials,Beijing 100095, China; 3. Harbin Institute of Technology, Harbin 150001, China)
+Abstract： The room tensile properties and microstructure are investigated in 20vol.%TiCp/Ni50A120Fe30 in-situ composites fabricated by reactive hot pressing processes(including reactive hot axial direction pressing (RHP) and reactive hot isostatic pressing(RHIP) techniques).Results show that Tic in-situ particles are fine and even,however,it is difficult for the composites to be densely fabricated by reactive hot pressing processes,Existence of porosity seriously decreases the tensile properties of the composites.The evenness of microstructure and density of composites are improved by an additional hotrolling process,which obviously increases their room tempreature mechanical properties.
+Key words：intermatallic compound matrix composite;NiAl(Fe);fabrcating process;tensile property
+
+　　NiAl基金属间化合物由于具有熔点高、比重轻(约为镍基高温合金的三分之二)、热导率高(约为镍基高温合金的4～8倍)、抗氧化性能好等一系列的优异性能，很有希望成为航空航天领域下一代优良的高温结构材料［1～2］，但差的室温塑性和低的高温强度严重地限制了其在高温结构材料领域发挥潜力［3］。世界各国针对NiAl的这两个缺点进行了大量的研究［1～6］，发现采用合金化的方法(如加入合金元素Fe等)可显著改善其室温塑性，但其高温强度仍然较低［4］；采用合金化的方法或第二相强化的方法虽然可改善其高温强度，但其室温塑性仍然较低，例如，加入适量的钛可在NiAl基体中析出有序度更高的β1(Ni2AlTi)相，使其高温强度达到甚至超过了现用的高温合金；或者，采用第二相原位陶瓷颗粒的增强作用，使其高温强度成倍增加，但这些合金在室温下几乎表现不出拉伸塑性［1～3，5］。NiAl及其合金存在的这些问题一直阻碍着其实际应用，研究既具有较高高温强度又具有一定室温塑性的NiAl金属间化合物成了目前的当务之急。采用合金化的方法改善其室温塑性，同时采用陶瓷第二相强化的方法提高其高温强度是提高NiAl合金综合力学性能的有效途径之一［6］。本文就是基于这一思想，采用RHP和RHIP工艺制备了TiCp/Ni50Al20 Fe30复合材料，并研究了其微观组织和拉伸性能。
+1　实验方法
+　　将Ni、Al、Fe、Ti和C元素粉末按20vol.%TiCp/Ni50Al20Fe30复合材料的名义成分配料，混合均匀。采用反应热压技术制备复合材料。其中，反应轴向热压(RHP)工艺过程是：把装有混合粉末的高强石墨模具放入真空热压炉(真空度为10-5Torr)内，充入氩气，以10℃/min的升温速率加热，并保持液压压力为10吨，加热到1250℃，保持2小时后，随炉冷至室温，最终得到φ60×20mm的坯块。反应热等静压(RHIP)工艺过程是：把混合粉末装入φ70×50mm的不锈钢包套里，加热到200℃后抽真空。真空度达到10-5 Torr后保持4小时，然后焊接密封，再采用RHIP工艺［7］制备成坯块，升温速率为10℃/min。材料的实际密度采用水浸法测量［8］，天平精度为1.0×10-4g。拉伸试验在Garten1500热模拟机上进行，拉伸试验的初始应变速率为10-3s-1。金相试样用95mlCH3CH2OH+1.5mlHF+3.5mlHNO3溶液进行化学腐蚀，拉伸断口形貌的观察在S-570扫描电镜上进行。微观组织的TEM分析在带冷阱的H-800型透射电镜上进行。
+2　试验结果及分析
+2.1　微观组织
+　　图1为采用反应热压技术(RHIP)制备的TiCp/NiAl(Fe)复合材料的金相组织。由图可见，在NiAl(Fe)基复合材料中原位合成的TiC颗粒粒径差别不大，大多数颗粒都集中分布在晶界附近。由于基体合金的晶粒尺寸十分细小(平均晶粒尺寸约为20μm)，从整体上看，颗粒的分布较均匀、弥散。另外，采用RHIP工艺制备的复合材料比较致密，如图1(a)所示。在采用RHP工艺制备的复合材料中孔隙较多，原位合成的颗粒大多呈块状的多面体，且尺寸差别较大；从整体上看，颗粒分布比较均匀，但从局部来看，很多颗粒聚集成团，如图1(b)所示。为了改善复合材料的致密性，将采用RHP工艺制备的复合材料进行热轧加工，所得到的复合材料的组织示于图1(c)中。可见，复合材料中的孔隙经二次加工处理后基本消除，同时颗粒分布和基体组织变得更均匀，而且颗粒粒径没有发生明显的变化。
+
+图 1　不同的反应热压技术制备的20vol.%TiCp/NiAl(Fe)复合材料的金相组织
+Fig.1　Optical micrographs of 20vol.%TiCp/NiAl(Fe) composites fabricated by different
+reactive hot pressing processes　(a) RHIP; (b) RHP and (c) RHP + HR
+　　采用反应热压技术制备的NiAl(Fe)基原位复合材料的致密性用孔隙率来定量表征，其孔隙率用下式求出［9］：
+　　　　　　　　　　　　　　(1)　　
+式中，ρth、ρtr分别为复合材料的理论密度和实际密度，ρm为铸态Ni50Al20Fe30合金的密度。由式(1)求出的结果如表1所示。由于RHP工艺的温度及压强不够高，采用该工艺制成的NiAl(Fe)基复合材料中孔隙较多，孔隙率高达4.4%左右。既使在RHIP工艺过程中施加了高温、高压，所制备的NiAl(Fe)基复合材料也不完全致密，其中的孔隙仍有2.1%。附加的二次加工工艺(热轧)较有效地消除了复合材料的不致密性，采用RHP工艺制成的NiAl(Fe)基复合材料，经热轧工艺处理后，孔隙率从4.4%降到了不足1%。
+　　采用反应热压技术原位合成TiC颗粒的TEM形貌如图2所示。由图可见，采用RHP工艺原位合成的颗粒形状有多角的块状和圆球状，颗粒粒径一般较小，但有时也会出现极个别的，粒径约为3μm的粗大颗粒，如图2(a)所示。在采用RHIP工艺制备的复合材料中，颗粒粒径相差不大，且颗粒多呈圆球化，如图2(b)所示。图2(c)、(d)分别是TiC颗粒的选区电子衍射及其标定结果。
+
+表 1　不同的反应热压技术制备的20vol.%TiCp/NiAl(Fe)复合材料的密度及孔隙率
+Table 1　Density and porosity of NiAl(Fe) matrix composites
+fabricated by reactive hot pressing processes
+
+ProcessRHIPRHPRHP+HR
+ρtr/g cm-36.115.956.18
+V0/%2.14.40.90
+
+　
+　　采用反应热压技术制备的TiCp/NiAl(Fe)复合材料中TiC颗粒粒径分布范围示于图3中。利用RHP工艺原位合成的TiC颗粒的平均粒径为0.7μm，80%以上的颗粒尺寸不超过1.0μm。采用RHIP工艺原位合成的TiC颗粒粒径分布均匀，大多数颗粒分布在0.5～2μm范围内，平均颗粒粒径为0.9μm。
+2.2　拉伸性能及分析
+2.2.1　拉伸性能　采用反应热压技术制备的20vol.%TiC/NiAl(Fe)复合材料的室温拉伸性能如表2所示。可见，采用RHP工艺制得的NiAl(Fe)基复合材料没有表现出任何室温塑性，但经过热轧工艺处理后，塑性有明显的提高，拉伸延伸率达到了1%。采用RHIP工艺制得的TiCp/NiAl(Fe)复合材料的室温拉伸延伸率也不高，仅为0.6%两种工艺拉伸塑性均不高。正因为采用RHP工艺制得的NiAl(Fe)基复合材料的塑性更差一些，致使试样在出现屈服之前就过早地发生了断裂，因此，其抗拉强度较低。随后的热轧工艺降低了复合材料的孔隙率，从而改善了材料的拉伸延伸率，也使其抗拉强度得到提高。采用RHIP工艺制得的复合材料也是在刚出现屈服就发生了断裂，因此，其抗拉强度也不高。采用不同反应热压工艺制得的复合材料的弹性模量相差也较大，其中，采用RHIP工艺制备的复合材料的弹性模量较高，采用RHP工艺制备的复合材料的弹性模量较低。其原因可能是：由于采用了不同的反应热压工艺，所制备成复合材料的致密度、增强颗粒尺寸、组织均匀性等存在差异，最终决定了力学性能的差异。表1和2的结果表明，NiAl(Fe)基复合材料的孔隙率以RHP、RHIP、RHP+HR工艺的顺序依次递减，正好与其拉伸性能的变化趋势相反，这说明采用反应热压工艺制备的TiCp/NiAl(Fe)原位复合材料的力学性能与孔隙率之间可能存在着内在的联系。
+
+
+图 2　不同反应热压工艺原位合成TiC颗粒的典型TEM形貌
+Fig 2　Typical TEM micrographs of TiC particles fabricated by different reactive hot pressing processes
+(a)RHIP; (b)RHP; (c) SADP of the TiC phase; (d) index of the TiC phase
+
+图 3　反应热压技术原位合成的TiC颗粒尺寸分布图
+
+Fig. 3　Size distribution of in-situ TiC particles synthesized by reactive
+hot pressing processes
+
+　　由于多晶NiAl的室温塑性一般在0%～2%范围内［1］，复合陶瓷颗粒后，其室温塑性更低，室温拉伸几乎没有塑性变形［10］，因此，很少有人测试二元NiAl基原位复合材料的室温塑性，大多数研究工作集中在室温压缩性能或高温拉伸性能方面［12］。20vol%TiCp/NiAl(Fe)原位复合材料在致密度得到进一步改善后，室温拉伸延伸率可超过1%，这不比多晶NiAl的室温塑性差，比二元NiAl基原位复合材料的室温塑性有很大改善，所以，反应热压法制备的致密的NiAl(Fe)原位复合材料较二元NiAl基原位复合材料具有更诱人的应用前景。
+
+表 2　不同反应热压技术制备的20vol.%TiCp/NiAl(Fe)复合材料的室温拉伸性能
+Table 2　The tensile properties of NiAl(Fe) matrix composites
+fabricated by different reactive hot pressing processes
+
+ProcessRHIPRHPRHP+HR
+UTS/MPa10008401200
+0.2%YS/MPa930-1050
+El/%0.601.0
+E/GPa181168176
+
+　
+
+2.2.2　断口观察　图4是反应热压技术制备的20vol.%TiCp/NiAl(Fe)复合材料室温拉伸断口的SEM形貌。对RHIP工艺制备的NiAl(Fe)基复合材料，其拉伸断口主要呈穿晶断裂形貌，断口表面有许多浅韧窝存在，表明在拉伸断裂过程中发生过塑性变形。另外，表面还有一些以解理台阶为特征的解理断裂形貌。整个断口表面的孔隙较多，分布较均匀，如图4 (a)所示。采用RHP工艺制备的NiAl(Fe)基复合材料的断裂方式属于穿晶脆断，没有显现出明显的塑性变形特征。断裂面上晶粒尺寸较大，约为50μm。另外，断裂面上存在着较多孔隙，且分布不均匀，大部分集中在晶界上，如图4(b)所示。这种复合材料经过热轧工艺处理之后，不仅致密度得到了显著改善，在低倍下几乎观察不到孔隙存在，而且组织大大细化。在高倍下观察发现，这种复合材料中仍有细小的孔隙存在，其拉伸断口形貌为准解理特征，断裂面上分布有较多的细小浅韧窝，而且在拉伸过程中复合材料发生过塑性变形，如图4(c)所示。
+
+图 4　反应热压技术制备的TiCp/NiAl(Fe)复合材料拉伸断口的SEM形貌
+Fig. 4　SEM fractographs of 20vol.%TiCp/NiAl(Fe) composites by different
+reactive hot pressing processes　(a) RHIP; (b) RHP; (c) RHP + HR
+2.2.3　分析与讨论　过去的研究结果表明，铸造Ni50Al20Fe30合金具有良好的室温塑性［4，12］。若用室温塑性较好的Ni50Al20Fe30合金作为NiAl基复合材料的基体，可望使NiAl基复合材料低的室温塑性得到改善，因为改善基体的塑韧性是提高金属基复合材料塑韧性的主要手段之一［9，13］。尽管与采用常规工艺制备的复合材料相比，原位合成的复合材料具有更多的优点，尤其是解决了界面问题，但与采用其它粉末冶金工艺制备的复合材料一样，采用反应热压工艺制备的TiCp/NiAl(Fe)原位复合材料也存在不完全致密的问题，其力学性能受孔隙率的影响很大。当然，原位合成的TiC颗粒粒径以及基体合金的晶粒尺寸也会对复合材料的力学性能产生影响。与采用RHP工艺合成的TiC颗粒相比，RHIP工艺合成的TiC颗粒的平均尺寸较小，在TiCp/NiAl(Fe)复合材料中TiC颗粒的增强效果应该更显著一些。由于再结晶细化晶粒以及残存位错的作用，采用热轧工艺处理后，RHP工艺制备的TiCp/NiAl(Fe)复合材料的力学性能也能有一定的提高。由于采用各种反应热压工艺原位合成的颗粒尺寸相差不大，与其它影响因素相比，颗粒尺寸对TiCp/NiAl(Fe)复合材料室温力学性能的影响不显著。这可以通过计算来说明。由于TiC陶瓷颗粒的室温强度较基体合金高得多，可以认为在TiCp/NiAl(Fe)复合材料的室温变形过程中，TiC陶瓷颗粒是不可变形的硬颗粒，可通过阻碍位错滑移而导致材料的强化，故可用Orowan［10］模型来描述TiC颗粒的作用机制，即
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(2)
+式中，τ*为临界切应力，G为基体的切变模量，b为基体中位错的柏氏矢量，L为硬颗粒间的间距。当颗粒尺寸较小、数目较多时，要考虑颗粒尺寸对L的影响，此时，可取有效间距Le = L-D，D为颗粒的直径。对采用RHIP及RHP工艺制备的20%vol.TiCp/NiAl(Fe)复合材料，根据式(1)可得：
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(3)
+由于采用RHIP及RHP工艺原位合成的TiC颗粒平均尺寸分别是0.9μm和0.7μm，其平均间距分别约为4μm和5μm，因此，它们的有效间距分别约为3.6μm和4.1μm，则τ*RHP/Τ*RHIP≈1.14。可见，当采用不同工艺原位合成的增强颗粒尺寸都很细小时，如果粒径相差不大，则由工艺造成的颗粒粒径的差异对复合材料室温力学性能影响程度的差别是不明显的。
+　　但是，采用不同工艺制备的TiCp/NiAl(Fe)复合材料的致密度对其力学性能影响程度的差异是十分显著的。致密度对复合材料性能的影响机理表现为：孔隙在材料的拉伸过程中容易引起应力集中，充当了材料断裂过程的裂纹源，使材料几乎不发生塑性变形就过早地出现断裂。因此，孔隙会严重地损害其力学性能。这就说明，对原位合成的NiAl(Fe)基复合材料来说，在保证增强颗粒尺寸变化不大的前提下，提高致密度是改善其室温力学性能最重要的途径之一。
+　　一般地，弹性模量是材料的本质物性，几乎不受加工工艺的影响［11］。但若采用测量应力-应变曲线弹性变形部分的斜率的方法来测定材料的弹性模量，不同致密度的同种材料则具有不同的弹性模量测量值。制备工艺通过影响材料的致密度而影响材料的弹性模量测量值。对致密的材料，所测得的弹性模量真实值为：
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(4)
+对不完全致密的材料，实际所测得的弹性模量为：
+　　　　　　　　　　　　　　　　　　　　　　　　　　　(5)
+　　在以上两式中，Et、Ef分别为材料弹性模量的真实值和实际测量值，P1、P2及δ1、δ2分别为应力-应变曲线弹性变形部分任意两点所对应的载荷和应变，S及V0分别为试样的有效面积和孔隙率，致密度ζ=1-V0。由式(4)、(5)可得：
+　　　　Ef=ζEt　　　　　　　　　　　　　　　　　　　　　　　　　　　　　(6)
+　　可见，采用测量应力-应变曲线的方法测量弹性模量时，孔隙的存在降低了所测得的弹性模量值。由式(6)可求出采用不同反应热压工艺制得的复合材料的真实弹性模量值，即ERHIP=185GPa，ERHP=176GPa，ERHP=178GPa。比较可以发现，采用反应热压技术制备的NiAl(Fe)基复合材料的弹性模量相差不大，而且，附加的热轧工艺对复合材料的弹性模量几乎没有影响。
+3　结　论
+　　(1) 在采用RHP和RHIP工艺制备的NiAl(Fe)基复合材料中原位合成的TiC颗粒细小，分布均匀弥散。
+　　(2) 反应热压技术制备的TiCp/NiAl(Fe)原位复合材料不完全致密，孔隙的存在损害了其力学性能，提高致密性是改善其室温力学性能的重要手段。
+　　(3) 二次加工工艺能提高RHP工艺制备的NiAl(Fe)基原位复合材料的组织均匀性和致密性，从而使其室温拉伸性能得到明显改善。
+作者简介： 鲁玉祥(1968-)， 男， 博士
+作者单位：鲁玉祥、张俊善：大连理工大学， 大连　116024； 
+　　　　　陶春虎：北京航空材料研究院， 北京　100095；
+　　　　　杨德庄：哈尔滨工业大学， 哈尔滨　150001
+参考文献：
+［1］　MICACLE D B. Overview No 104: The physical and mechanical properties of NiAl.
+　　　　Acta Metall, Mater, 1993, 41 (3): 649～684
+［2］　NOEBE R D, et al. Physical and mechanical properties of the B2 compound NiAl.
+　　　　Inter Mater Rev, 1993, 38 (4): 193～232
+［3］　DAROLIA RAM. NiAl alloys for high temperature structural applications. JOM, 
+　　　　1991(3): 44～49
+［4］　INOUE A, MASUMOTO. Microstructure and mechanical properties of rapidly 
+　　　　quenched L20 and L20+L12 alloys in Ni-Al-Fe and Ni-Al-Co System. J Mater Sci, 
+　　　　1984, 19: 3097～3106
+［5］　KUMAR K S. Fracture toughness of NiAl and NiAl-based composites. Acta Metall
+　　　　Mater, 1992, 40(6): 1201～1222
+［6］　LU Yu-xiang, TAO Chun-hu, YANG De-zhuang. Improvement in mechanical 
+　　　　properties of NiAl matrix composites fabricated reactive compocasting. 
+　　　　Scripta Metall, 1996, 35(10): 1243～1246
+［7］　MISIOLEK W, GERMAN R M. Reactive sintering and reactive hot isostatic 
+　　　　composites of aluminide matrix composites. Mater Sci Eng. 1991, A144:1～10
+［8］　陈洪荪. 金属材料物理性能检测. 北京：冶金工业出版社，1991，11
+［9］　鲁玉祥. NiAl(Fe)基复合材料的反应铸造原位合成及力学行为: ［博士论文］.哈尔滨：
+　　　　哈尔滨工业大学，1997
+［10］　杨德庄. 位错与金属强化机制. 哈尔滨：哈工大出版社，1991：107～198
+［11］　KUMUR K S， WHITENBERGER J D. Discontinuously reinforced intermetallic 
+　　　　matrix composites via Synthesis XD. Mater Sci Tech. 1992, 4(8): 317～330
+［12］　鲁玉祥，陶春虎，杨德庄. 金属间化合物NiAl(Fe)的组织和拉伸性能研究. 材料科学与
+　　　　工艺. 1997 (4): 44～48
+［13］　WEBSTER D. Advances in composite materials: 2ed edition. Oxford, Pergemon 
+　　　　Press, 1980: 1165～1178
+收稿日期： 1998-12-02； 修订日期： 1999-03-12

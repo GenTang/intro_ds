@@ -1,0 +1,164 @@
+计算机研究与发展
+JOURNAL OF COMPUTER RESEARCH AND DEVELOPMENT
+1999年 第36卷 第5期 Vol.36 No.5 1999
+
+
+
+延迟离散Hopfield型神经网络异步收敛性
+邱深山　徐晓飞　刘明珠　王亚东
+摘　要　离散Hopfield型神经网络的一个重要性质是异步运行方式下总能收敛到稳定态；同步运行方式下总能收敛到周期不超过2的极限环．它是该模型可以用于联想记忆设计、组合优化计算的理论基础．文中给出了延迟离散Hopfield型网络的收敛性定理．在异步运行方式下，证明了对称连接权阵的收敛性定理，推广了已有的离散Hopfield型网络的收敛性结果, 给出了能量函数极大值点与延迟离散Hopfield型网络的稳定态的关系及稳定态邻域的演化特征, 得到了能量函数收敛与异步运行时网络达到稳定的协调关系.
+关键词　离散Hopfield型神经网络，延迟，收敛性，稳定态
+中图法分类号　TP18；TP311
+CONVERGENCE OF DISCRETE HOPFIELD-TYPE NEURAL 
+NETWORKS WITH TIME-DELAY IN A SERIAL MODE
+QIU Shen-Shan, XU Xiao-Fei, and WANG Ya-Dong
+(Department of Computer Science and Engineering, Harbin Institute of Technology, Harbin　150001) 
+LIU Ming-Zhu
+(Department of Mathematics, Harbin Institute of Technology, Harbin　150001)
+Abstract　It is known that an important property of the discrete Hopfield-type neural network is that it always converges to a stable state when operating in a serial mode and to a cycle of length at most 2 when operating in a full parallel model.These properties are the basis for the potential applications of this model,such as associative memory devices and combinatorial optimization.Convergence theorems of discrete Hopfield-type neural networks with delay are obtained in the paper.Under a proper assumption,it is proved that any discrete Hopfield-type neural network with delay will converge to a stable state when operating in the serial mode,and one of the weight matrices is a symmetric one and can generalize convergence theorem in earlier works.The authors also relate maximum of modified energy function to stable state of neural network with delay and obtain evolution features in neighborhood of stable state.In other words,this network can converge to a stable state after one time interval.Accordant relations between convergence of the energy function and stabilization correspondent network are presented in the serial mode as well.
+Key words　discrete Hopfield-type neural network, delay, convergence, stable state
+1　引　　言
+　　离散Hopfield型网络是一种能够简单模拟人脑局部功能的大规模并行处理网络，在图像处理、模式识别、非线性规划、TSP问题和联想记忆等领域已得到了成功的应用. 正是因为它的广泛应用性，吸引了许多学者进行理论和应用的研究，获得了许多研究成果［1～6］．然而，延迟离散Hopfield型网络的收敛性尚属空白．
+　　在人工神经网络中引入延迟，早在McCulloh-Pitts模型提出之后就有人涉及到，即带有延迟的人工神经网络的雏形．Herz等人在Heb学习规则中引入延迟对神经网络的性能颇有影响［7］．事实上，引入延迟使网络的现在状态与历史状态有机联系起来，使网络的演化结果不仅与当前状态有关还受历史状态的制约，既可以学习空间-时间模式，又可以引导神经元该如何进行下一步演化．所以，研究延迟人工神经网络的系统理论不仅具有理论意义，更重要的是它的应用价值.
+　　熟知离散Hopfield型网络之所以能用于联想记忆、组合优化计算正是因为它具有收敛性，即在异步运行方式下总能收敛到稳定态［4～6］；同步运行方式下总收敛到周期不超过2的极限环［8］．在异步运行方式下，本文证明了延迟离散Hopfield型网络总能收敛到稳定态.给出了能量函数的极大值点与网络稳定态的关系，得到了能量函数收敛与异步运行时网络N达到稳定的协调关系.
+2　延迟离散Hopfield型网络
+　　n阶延迟离散Hopfield型网络是由n个完全互联的神经元构成，每个神经元i在任意时刻t拥有两种存储状态：xi(t),xi(t-1)，其中xi(t-1)表示对历史状态的记忆，也就是说网络具有时间结构．它可由两个n×n阶矩阵w0,w1及一个n维阈值向量θ=(θ1,θ2,…，θn)T唯一确定，简记N=(w0w1,θ).用w0ij表示在当前状态神经元j与神经元i的连接权值，用w1ij表示在延迟状态神经元j与i的连接权值，θi为第i个神经元的阈值.神经元按照如下规则决定下一时刻的状态值：
+　　　　　　　(1)
+其中：
+　　所谓的异步运行方式（定义2），即在任意时刻t≥2，网络N仅有一个神经元i依(1)式规则进行演化，其余n-1个神经元的状态保持不变.当延迟离散Hopfield型网络N=(w0w1,θ)的延迟权阵w1=On×n即为离散Hopfield型网络［4～6］．
+3　相关概念
+　　为描述方便，首先引入如下符号：用Bn表示每个分量仅取±1的n维向量全体，Bn={v.v=(v1,v2,…，vn)T,vi∈{-1,1}},〈u,v〉表示向量u,v∈Bn的内积，即表示u与v的Hamming距离.显然有〈u,v〉=n-2dH(u,v)．用BH(v,r)表示Bn中与v的Hamming距离不超过r的向量全体，即BH(v,r)={u:dH(u,v)≤r,u,v∈Bn}．
+　　定义1. n阶延迟离散Hopfield型网络N=(w0w1,θ)的一个状态v∈Bn称为稳定状态（或称不动点）.任意i,1≤i≤n有：
+　　　　　　　　　　(2)
+成立.其中:v=(v1,v2,…，vn)T.
+　　定义2. 网络N=(w0w1,θ)，任选v(0)=v(1)∈Bn为初值，任意时刻t≥2,首先选择两种状态vi(t)与vi(t-1)不同的神经元i依(1)式运行方式进行演化;若全相同，即v(t)=v(t-1)，则随机选一个神经元依(1)式运行方式进行演化，称此演化方式为异步运行方式．
+　　定义3. 称Bn上二元向量函数E(u,v)=uTw0u+2uTw1v-2uTθ为网络N=(w0w1,θ)的能量函数，其中u=v(t)，u=v(t-1),简记E(t)≡E(v(t),v(t-1))．
+　　定义4. 如果对于任意u,v∈BH(v*,r)，均有E(u*,v)≥E(u,v)，称向量v*为E(u,v)的Hamming距离为r的极大值点;若r=n，则称向量v*为E(u,v)的最大值点.类似可以定义Hamming距离为r的极小值点和最小值点.
+　　定义5. 让Ω(E,r)表示E(t)=E(v(t),v(t-1))的Hamming距离为r的极大值点的集合,Ω(N)表示网络N=(w0w1,θ)的所有稳定态的集合．如果Ω(E,r)Ω(N)称E(t)为r距正则能量函数；若Ω(E,r)Ω(N)称E(t)为r距正规能量函数；若Ω(E,r)=Ω(N)称E(t)为r距完备的能量函数．特别当r=1时，分别简称为正则、正规、完备的能量函数［6］.
+4　延迟离散Hopfield型网络收敛性
+　　延迟离散Hopfield型网络作为联想记忆、组合优化计算，收敛性是决定网络联想记忆能力和优化计算可靠性的关键因素，也是组合优化计算的理论根据．当然，人们颇为关注的问题是延迟网络在什么条件下收敛，延迟项有何作用．如下定理将回答这些问题．
+　　定理1. n阶延迟离散Hopfield型网络N=(w0w1,θ),w0是n×n阶对称矩阵，w1是n×n阶矩阵且对角元素满足：
+　　　　　　　　　　　　　　(3)
+则网络从任意的初始状态x(0)=x(1)∈Bn异步方式运行，总能收敛到一个稳定态．
+　　证明. 由定义3引入能量函数E(u,v)：
+
+其中u=x(t),v=x(t-1),θ为阈值向量θ=(θ1,θ2,…，θn)T显然E(t)≡E(x(t),x(t-1))有上界，即
+|E(t)|≤ni=1nj=1(|w0ij|+2|w1ij|)+2ni=1|θi|.
+令
+ΔE(t)≡E(t+1)-E(t),Δxi(t)≡xi(t+1)-xi(t),
+故
+ΔE(t)=xT(t+1)w0x(t+1)+2xT(t+1)w1x(t)-2xT(t+1)θ
+-xT(t)w0x(t)-2xTw1x(t-1)+2x(t)Tθ.
+　　对任意时刻t≥2，异步运行方式下进行演化有：
+ΔE(t)=2Δxi(t)Hi(x(t))+w0ii(Δxi(t))2+2Δxi(t-1)xi(t+1)w1ii　　　　　　　
+　　　　　　　　　　　　　　(4)
+　　依定义2的异步运行方式,首先证明不存在Δxi(t)Δxi(t-1)≠0的情况.不失一般性，令：
+　　(1) Δxi(1)=-2,Δxi(2)=2,即：
+x(0)=x(1),xi(0)=xi(1)=1,xi(2)=-1,xi(3)=1易知：Δxi(2)=2,Δxi(1)=-2
+　　(2) Δxi(1)=2,Δxi(2)=-2.即：
+x(0)=x(1),xi(0)=xi(1)=-1,xi(2)=1,xi(3)=-1易知：Δxi(1)=2,Δxi(2)=-2
+由情况(1)的xi(2)=-1,有：
+　　　　　　　　　　(5)
+依定义2知，下一步仍然演化第i个神经元，由xi(3)=-1,有
+　　　　　　　　　(6)
+注意当j≠i时，xj(0)=xj(1)=xj(2).将(6)式乘-1与(5)式相加得：
+2w0ii<0.　　　　　　　　　　　　　　　　　(7)
+易知(7)式与(3)式矛盾.同理可以证明情况(2)，当Δxi(1)=2,Δxi(2)=-2时也可推出与(3)式矛盾.
+　　当Δxi(t)=0,Δxi(t-1)=2时，
+　　　　　　　　　(8)
+由条件(3)式，知ΔE(t)≥0.
+　　当Δxi(t)=0,Δxj(t-1)=-2时，
+　　　　　　　　　(9)
+易知ΔE(t)≥0.
+　　当Δxi(t)=±2,Δxi(t-1)=0时，
+ΔE(t)≡4(w0ii±Hi(x(t))).　　　　　　　　　　(10)
+由(3)式知ΔE(t)≥0.综上所述易知：当Δxi(t)≠0或Δxi(t-1)≠0时，有ΔE(t)=E(t+1)-E(t)≥0,由单调有界原理知E(t)是收敛的.
+　　如下将进一步证明E(t)收敛时，网络N=(w0w1,θ)最终将收敛到某一稳定态.
+　　由E(t)收敛，即存在t0,当t≥t0时，有
+E(t)=E(t0).　　　　　　　　　　　　　(11)
+若x(t0)=x(t0+1)且对每一个神经元演化均不变，则x*=x(t0)为网络N的稳定态．若x(t0)≠x(t0+1)即仅有一个神经元i满足xi(t0)≠xi(t0+1)，对神经元i进行演化，仅有（8）及（9）两种可能情况使ΔE(t0+1)=0.下一步恰好为x(t0+1)=x(t0+2)，将任选一个神经元进行演化，可能改变的神经元仅有i,且有xi(t0+1)=xi(t0+2)=-1和ΔE(t0+1)=0，易知w0ii=0．否则，若w0ii>0，该神经元i不可能改变状态，因为当t≥t0时，ΔE(t+1)=4(w0ii+Hi(x(t)))≠0与（11）式矛盾.为了证明方便，不妨假设w0的大于零的主对角元素个数为l．如下将说明能量函数E(t)与N的收敛不同步取决于l.
+　　由（11）式知，在t≥t0进行演化可能改变的神经元或者①xi(t0)≠xi(t0+1),或者②xi(t0+1)=xi(t0+2)=-1且w0ii=0,Hi(x(t0))=0．对于①最多需演化1次，对于②最多演化(l-2)+1，其后重复②的演化(l-3)+1,(l-4)+1,…,1．最多需次演化达到网络N的某一稳定态．显然，当w0的主对角元素均大于零时，E(t)收敛时与N收敛到某一稳定态最多差一步，或者xi(t0)=-1,xi(t0+1)=1,xi(t0+2)=1达到稳定态，或者xi(t0)=1,xi(t0+1)=-1,xi(t0+2)=-1,达到稳定态．
+　　推论1. n阶延迟离散Hopfield型网络N=(w0w1,θ),w0是n×n阶对称矩阵，w1是n×n阶矩阵且对角元素满足：
+
+则网络从任意的初始状态x(0)=x(1)∈Bn出发异步方式运行，其能量函数E(t) 收敛与网络N的收敛的演化步数最多仅差一步.
+　　从定理1证明的最后部分可得到推论1．
+　　推论2. 当定理1中w1退化为零矩阵On×n时，收敛条件w0ij≥0，(i=1,2,…,n). 此时的推论2为文献[5]中的主要定理，即定理1推广了文献[5]中的主要定理．
+　　定理2. n阶延迟离散Hopfield型网络N=(w0w1,θ)，w0是n×n阶对称矩阵，w1是n×n阶矩阵且对角元素满足：
+　　　　　　　　　(12)
+则网络从任意的初始状态x(0)=x(1)∈Bn异步方式运行，网络收敛到一个稳定态的充分必要条件是相应的能量函数收敛且同时达到.
+　　证明. 如下使用的符号与定理1的证明中所使用的符号相同，在此略去说明．对任意时刻t≥2，异步运行方式下进行演化有：
+ΔE(t)=2Δxi(t)Hi(x(t))+σi(t).
+其中：
+
+现将ΔE(t)随第i个神经元在t-1，t，t+1时刻的可能状态列表如下：
+表　1
+
+序号Δxi(t)Δxi(t-1)xi(t+1)xi(t)xi(t-1)ΔE(t)=2Δxi(t)Hi(x(t))+σi(t)
+10211-1
+20-2-1-11
+3201-1-14(w0ii+Hi(x(t)))
+4-20-1114(w0ii-Hi(x(t)))
+5001110
+600-1-1-10
+
+令: 
+　　且x(t0)=x(t0-1)≠x(t0-2),x(t)依(1)式异步方式演化}
+　　且E(t0)>E(t0-1),E(t)依x(t)演化路径进行}
+　　如下证明：T0=T1．一方面，由T0的定义及表1中当t=t0-1时，x(t0-1)≠x(t0+2)等价于网络N中的某神经元i在表1中仅有序号是1或2的情况出现xi(t0-1)≠xi(t0-2),相应有
+
+即E(t0)>E(t0-1)．由于t≥T0时，有x(t)=x(t0).所以ΔE(t)=ΔE(t0)=0,故有T0≥T1; 另一方面，由T1的定义知：当E(T0)>E(T1-1)时，在表1中仅能出现序号1或2两种情况. 否则，若出现序号3或4两种情况，由异步运行规则知，下一步将出现序号1或2两种情况，由(12)式知E(T1+1)>E(T1)，此式与T1的定义ΔE(T1)=E(T1+1)-E(T1)=0矛盾．故从表1序号1或2中知x(T1-1)≠x(T1-2)，再由当t≥T1,ΔE(t)=0及(12)式知：当t≥T1时，ΔE(t)=0当且仅当表1中序号5或6的结果出现，所以xi(t)=xi(T1),t≥T1,故知T1≥T0, 所以T0=T1．从T0和T1的定义知T0是网络N经演化规则(1)达到稳定态的最早时刻，而T1恰是能量函数依网络N的演化路径达到收敛状态的最早时刻，所以由T0=T1,故它们同时达到．
+　　定理3． n阶延迟离散Hopfield型网络N=(w0w1,θ),w0是n×n阶对称矩阵，w1是n×n阶矩阵且对角元素满足：
+　　　　　　　　　(13)
+则v是网络N的稳定态的充分必要条件是v为其能量函数E(u,v)的Hamming距离为1的极大值点．
+　　定理3的证明思想与文献[6]中定理2(iii)的证明类似，从略.
+　　推论3． 已知定理3的假设条件下,则网络N的能量函数是完备的能量函数．
+　　从推论3引申知，延迟神经网络N作为优化计算的模型，自然希望是r完备的能量函数.
+　　定理4. n阶延迟离散Hopfield型网络N=(w0w1,θ),w0,w1是n×n阶矩阵且对角元素非负，如果异步方式运行，对任意可能的u,v∈BH(v*,1)依(1)式的演化规则一步演化到v*，则v一定是网络N的稳定态．
+　　注：定理4中任意可能的u,v∈BH(v*,1)意味着u≠v*,v≠v*,u≠v不能出现，因为异步方式运行时v(t),v(t-1)不同的分量最多为1个．
+　　证明. 依(1)式的演化规则和定义2，对任意可能的u,v∈BH(v*,1)可写成:u=v*+Δu,v=v*+Δv,其中：Δu=(0,0,…，-2v*kα,…，0)T,Δv=(0,0,…，-2v*lβ,…，0)T,α,β∈{0,1}.
+　　仅有如下4种情况：
+　　① α=β=1,1≤k=l≤n;
+　　② α=0,β=1,1≤l≤n;
+　　③ α=1,β=0,1≤k≤n;
+　　④ α=0,β=0.
+由情况①知：
+
+由于一步演化到v，所以有:
+skv*k=sgn(v*kHk(v*k)-2(w0kk+w1kk))>0
+等价
+v*kHk(v*k)-2(w1kk+w0kk)≥0.　　　　　　　　　　　(14)
+情况(2)、(3)、(4)同理可知：
+v*lHl(v*l)≥2w1ll,　　　　　　　　　　　　　(15)
+v*kHk(v*k)≥2w1kk,　　　　　　　　　　　　(16)
+对于任选的某i：有
+v*kHk(v*k)≥0.　　　　　　　　　　　　(17)
+由u,v的任意性及k或l可取遍1到n，所以从(14),(15),(16)或(17)式的任何一个式子均可得到v是N的稳定态．
+　　推论4. n阶延迟离散Hopfield型网络N=(w0w1,θ),w0是n×n阶对称矩阵，w1是n×n阶矩阵且对角元素非负，如果异步运行方式，满足如下条件之一：
+　　（1） 对任意u=v≠v*，u,v∈BH(v*,1)一步收敛到v,
+　　（2） 对任意u≠v*,v=v*,u,v∈BH(v*,1)一步收敛到v,
+　　（3） 对任意u=v*,v≠v*,u,v∈BH(v*,1)一步收敛到v.
+则v一定是网络N的稳定态．
+　　其证明可由定理4证明中的(14),(15)或(16)式直接得到．
+　　从定理4及推论4易知，在异步运行方式下,v*是否为N的稳定态由BH(v*,1)中的点一步演化情况来确定．也可结合定理1、2的结论来认识定理4和推论4，即演化的路径方向是依照能量递增的趋势，BH(v*,1)中可能构成的能量函数E(u,v)值，若在异步运行方式下均一步演化到E(v*,v*)，则v*是N的稳定态，当然亦是能量函数的局部极大值点.
+5　结　　论
+　　(1) 本文给出了在W0为对称的条件下异步运行的收敛性定理,推广了Hopfield［5］的结果．
+　　(2) 本文引入与延迟离散Hopfield型网络对应的二元能量函数，为延迟离散Hopfield型网络可作为联想记忆设计、优化计算奠定了理论基础．
+　　(3) 分析了能量函数的极大值点与网络N的稳定态的对应关系，给出了网络N在稳定态邻域的演化特征，即均可一步演化到稳定态．
+　　(4) 得到了网络N异步运行时收敛到稳定态与能量函数收敛的协调关系, 并给出了它们同步到达的充分必要条件．
+本课题得到国家自然科学基金资助(项目编号 A01030202).
+作者简介：邱深山，男，1962年1月生，博士，讲师，主要研究神经网络及其应用、机器学习和小波分析.徐晓飞，男，1962年11月生，教授，博士生导师，研究领域包括计算机集成制造、分布式数据库.刘明珠，男，1941年6月生，教授，博士生导师，主要从事延迟微分方程数值解，神经计算和小波分析.王亚东，男，1964年8月生，副教授，主要研究领域为专家系统、机器学习、知识工程.
+作者单位；邱深山　徐晓飞　王亚东　哈尔滨工业大学计算机科学与工程系　哈尔滨　150001
+　　　　　刘明珠　哈尔滨工业大学数学系　哈尔滨　150001
+参考文献
+　1　张铃，张钹，吴福朝. 自反馈神经网络的椭球学习算法.计算机学报,1994,17(9):676～681
+(Zhang Ling, Zhang Bo, Wu Fuchao. Ellipsoid learning algorithm of neural networks with self-feedback connections.Chinese Journal of Computers(in Chinese),1994,17(9): 676～681)
+　2　张军英，许进，保铮. Hopfield网的关分析.自动化学报，1997,23(4):447～453
+(Zhang Junying，Xu Jin，Bao Zheng. Connected analysis for Hopfield networks. Acta Automatic Sinica(in Chinese),1997, 23(4): 447～453)
+　3　Zhang Xiangsun, Li Hongfeng, Wang Xiaodong．A straightforward mathematical analysis for the Hopfield neural network．Acta Electronica Sinica,1992,20(10):10～17
+　4　Bruck J, Goodman J W．A generalized convergence theorem for neural networks．IEEE Trans on information theory，1988,34(5):1089～1092
+　5　Hopfield J J. Neural networks and physical systems with emergent collective computational abilities. Proc Nat Acad Sci USA ,1982,79:2554～2558
+　6　Zongbin Xu, Guoqing Hu, Chungping Kwong. Asymmetric Hopfield-type networks: Theory and applications. Neural Networks,1996,9(3):483～501
+　7　Herz A V M, Li Z, van Hemmen J L．Statistical mechanics of temporal association in neural networks with transmission delays．Phys Rev Lett,1991,66:1370～1373
+　8　Goles E，Fogelman F,Pellegrin D．Decreasing energy function as a tool for studying threshold networks．Discrete Appl Math,1985,12:261～277
+原稿收到日期：1998-07-03
+修改稿收到日期：1998-11-06

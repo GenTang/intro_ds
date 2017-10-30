@@ -3,7 +3,8 @@
 此脚本用于展示使用逻辑回归解决多元分类问题
 """
 
-from os import path
+
+import os
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,7 +53,11 @@ def multiLogit(data):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/multi_logit.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\multi_logit.csv" % homePath
+    else:
+        dataPath = "%s/data/multi_logit.csv" % homePath
     data = readData(dataPath)
     multiLogit(data)

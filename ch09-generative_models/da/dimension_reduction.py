@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from sklearn import datasets
@@ -47,7 +49,11 @@ def visualize(newX, y):
         ax.scatter(newX[y == i, 0], newX[y == i, 1], newX[y == i, 2],
             color=color, alpha=.8, lw=1, marker=marker, label=i)
     plt.legend(loc='best', shadow=True)
-    plt.title("利用LDA进行数据降维".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        plt.title("利用LDA进行数据降维")
+    else:
+        plt.title("利用LDA进行数据降维".decode("utf-8"))
     plt.show()
 
 

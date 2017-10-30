@@ -1,5 +1,11 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于测试getFrequentItem
+"""
 
+
+# 保证脚本与Python3兼容
+from __future__ import print_function
 
 from os import sys, path
 
@@ -11,4 +17,4 @@ if __name__ == "__main__":
     sys.path.append(packagePath)
     from mini_project.components.selecter import getFrequentItem
     data = ["a", "a", "b", 1, 2, 2]
-    print getFrequentItem(data)
+    print(getFrequentItem(data))

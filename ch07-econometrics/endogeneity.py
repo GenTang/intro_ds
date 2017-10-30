@@ -4,6 +4,11 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -42,8 +47,13 @@ def generateLinearData(n):
         range_padding=0.9, figsize=(8, 8))
     corr = data[["X1", "error", "IV1"]].corr(method="pearson").as_matrix()
     for i, j in zip(*plt.np.triu_indices_from(axes, k=1)):
-        axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i,j]),
-            (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+        # 在Python3中，str不需要decode
+        if sys.version_info[0] == 3:
+            axes[i, j].annotate("%s: %.3f" % ("相关系数", corr[i,j]),
+                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+        else:
+            axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i,j]),
+                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
     plt.show()
     return data
 
@@ -82,8 +92,8 @@ def IVRegression(data):
     data["X1_resid"] = re.resid
     # 第二步回归
     re1 = sm.OLS.from_formula("Y ~ X1 + X2 + X1_resid", data=data).fit()
-    print "使用工具变量"
-    print re1.summary()
+    print("使用工具变量")
+    print(re1.summary())
 
 
 def IVRegression2(data):
@@ -93,10 +103,10 @@ def IVRegression2(data):
     data = sm.add_constant(data[["Y", "X1", "X2", "IV1"]])
     model = IV2SLS(data[["Y"]], data[["X1", "X2", "const"]], data[["IV1", "X2", "const"]])
     re = model.fit()
-    print "使用工具变量"
-    print re.summary()
-    print "Durbin–Wu–Hausman检验"
-    print re.spec_hausman()
+    print("使用工具变量")
+    print(re.summary())
+    print("Durbin–Wu–Hausman检验")
+    print(re.spec_hausman())
 
 
 def IVLogit(data):
@@ -109,8 +119,8 @@ def IVLogit(data):
     data["X1_resid"] = reTmp.resid
     # 第二步回归
     re = sm.Logit.from_formula("Y ~ X2 + X1 + X1_resid", data=data).fit()
-    print "使用工具变量"
-    print re.summary()
+    print("使用工具变量")
+    print(re.summary())
     
 
 def linearModel():
@@ -119,14 +129,14 @@ def linearModel():
     """
     data = generateLinearData(1000)
     re = sm.OLS.from_formula("Y ~ realX1 + X2", data=data).fit()
-    print "正常模型"
-    print re.summary()
+    print("正常模型")
+    print(re.summary())
     re1 = sm.OLS.from_formula("Y ~ X2 + X1", data=data).fit()
-    print "内生性"
-    print re1.summary()
+    print("内生性")
+    print(re1.summary())
     re2 = sm.OLS.from_formula("Y ~ X2 + X1 + IV1", data=data).fit()
-    print "直接使用工具变量会引起共线性问题"
-    print re2.summary()
+    print("直接使用工具变量会引起共线性问题")
+    print(re2.summary())
     IVRegression(data)
 
 
@@ -136,11 +146,11 @@ def logitModel():
     """
     data = generateLogitData(1000)
     re = sm.Logit.from_formula("Y ~ X1 + X2", data=data).fit()
-    print "内生性"
-    print re.summary()
+    print("内生性")
+    print(re.summary())
     re1 = sm.Logit.from_formula("Y ~ X1 + X2 + IV1", data=data).fit()
-    print "直接使用工具变量会引起共线性问题"
-    print re1.summary()
+    print("直接使用工具变量会引起共线性问题")
+    print(re1.summary())
     IVLogit(data)
 
 

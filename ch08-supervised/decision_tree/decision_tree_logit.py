@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -80,8 +82,13 @@ def visualize(re):
     for i, s in zip(model, styles):
         fpr, tpr, _ = re[i]
         _auc = auc(fpr, tpr)
-        ax.plot(fpr, tpr, s, label="%s:%s; %s=%0.2f" % ("模型".decode("utf-8"), i,
-            "曲线下面积（AUC）".decode("utf-8"), _auc))
+        # 在Python3中，str不需要decode
+        if sys.version_info[0] == 3:
+            ax.plot(fpr, tpr, s, label="%s:%s; %s=%0.2f" % ("模型", i,
+                "曲线下面积（AUC）", _auc))
+        else:
+            ax.plot(fpr, tpr, s, label="%s:%s; %s=%0.2f" % ("模型".decode("utf-8"),
+                i, "曲线下面积（AUC）".decode("utf-8"), _auc))
     legend = plt.legend(loc=4, shadow=True)
     plt.show()
 

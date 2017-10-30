@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 import matplotlib.pyplot as plt
 from scipy.stats import norm, logistic
 import numpy as np
@@ -24,13 +26,23 @@ def visualization():
     alpha = 1.702
     normal = norm.cdf(x)
     logit = logistic.cdf(alpha * x)
-    ax.plot(x, normal,  
-        label=u'%s' % "标准正态分布：".decode("utf-8") +\
-        r"$F(x) = \int_{-\infty}^{x}\frac{1}{\sqrt{2\pi}}{e}^{-\frac{t^{2}}{2}}dt$")
-    ax.plot(x, logit, "k-.",
-        label=u'%s' % r"最佳近似的逻辑分布：$F(x) = \frac{1}{1 + e^{-1.702x}}$".decode("utf-8"))
-    ax.set_xlabel('$x$')
-    ax.set_ylabel(u'%s：$F(x)$' % "累积分布函数".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(x, normal,  
+            label=u'%s' % "标准正态分布：" +\
+            r"$F(x) = \int_{-\infty}^{x}\frac{1}{\sqrt{2\pi}}{e}^{-\frac{t^{2}}{2}}dt$")
+        ax.plot(x, logit, "k-.", label=u'%s' %
+            r"最佳近似的逻辑分布：$F(x) = \frac{1}{1 + e^{-1.702x}}$")
+        ax.set_xlabel('$x$')
+        ax.set_ylabel(u'%s：$F(x)$' % "累积分布函数")
+    else:
+        ax.plot(x, normal,  
+            label=u'%s' % "标准正态分布：".decode("utf-8") +\
+            r"$F(x) = \int_{-\infty}^{x}\frac{1}{\sqrt{2\pi}}{e}^{-\frac{t^{2}}{2}}dt$")
+        ax.plot(x, logit, "k-.", label=u'%s' % 
+            r"最佳近似的逻辑分布：$F(x) = \frac{1}{1 + e^{-1.702x}}$".decode("utf-8"))
+        ax.set_xlabel('$x$')
+        ax.set_ylabel(u'%s：$F(x)$' % "累积分布函数".decode("utf-8"))
     legend = plt.legend(shadow=True, fontsize=13)
     plt.show()
 

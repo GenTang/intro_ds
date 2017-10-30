@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -60,11 +62,17 @@ def visualize(times, initWin, changeWin):
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(1, 1, 1)
-    ax.plot(times, initWin, label="%s" % "坚持最初的选择".decode("utf-8"))
-    ax.plot(times, changeWin, "r-.", label="%s" % "更换选择".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(times, initWin, label="%s" % "坚持最初的选择")
+        ax.plot(times, changeWin, "r-.", label="%s" % "更换选择")
+        ax.set_xlabel("%s" % "模拟次数")
+    else:
+        ax.plot(times, initWin, label="%s" % "坚持最初的选择".decode("utf-8"))
+        ax.plot(times, changeWin, "r-.", label="%s" % "更换选择".decode("utf-8"))
+        ax.set_xlabel("%s" % "模拟次数".decode("utf-8"))
     ax.set_yticks(np.array(range(11)) / 10.0)
     ax.set_xlim([0, max(times)])
-    ax.set_xlabel("%s" % "模拟次数".decode("utf-8"))
     ax.grid(linestyle='--', linewidth=1, axis="y")
     plt.legend(loc="best", shadow=True)
     plt.show()

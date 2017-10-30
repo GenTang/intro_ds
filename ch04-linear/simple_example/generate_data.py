@@ -4,7 +4,8 @@
 """
 
 
-from os import path
+import os
+import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -16,7 +17,8 @@ def generateData():
     随机生成数据
     """
     np.random.seed(4889)
-    x = np.array([10] + range(10, 29))
+    # Python2和Python3的range并不兼容，所以使用list(range(10, 29))
+    x = np.array([10] + list(range(10, 29)))
     error = np.round(np.random.randn(20), 2)
     y = x + error
     return pd.DataFrame({"x": x, "y": y})
@@ -32,7 +34,11 @@ def visualizeData(data):
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(111)
     # 在Matplotlib中显示中文，需要使用unicode
-    ax.set_title("%s" % "线性回归示例".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.set_title("%s" % "线性回归示例")
+    else:
+        ax.set_title("%s" % "线性回归示例".decode("utf-8"))
     ax.set_xlabel("$x$")
     ax.set_xticks(range(10, 31, 5))
     ax.set_ylabel("$y$")
@@ -48,7 +54,10 @@ def visualizeData(data):
 
 if __name__ == "__main__":
     data = generateData()
-    homePath = path.dirname(path.abspath(__file__))
-    # 存储数据
-    data.to_csv("%s/data/simple_example.csv" % homePath, index=False)
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # 存储数据，Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        data.to_csv("%s\\data\\simple_example.csv" % homePath, index=False)
+    else:
+        data.to_csv("%s/data/simple_example.csv" % homePath, index=False)
     visualizeData(data)

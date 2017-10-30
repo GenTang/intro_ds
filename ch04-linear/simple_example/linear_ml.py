@@ -4,7 +4,8 @@
 """
 
 
-from os import path
+import os
+import sys
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -51,30 +52,59 @@ def visualizeModel(model, data, features, labels, error, score):
     # 在图形框里只画一幅图
     ax = fig.add_subplot(111)
     # 在Matplotlib中显示中文，需要使用unicode
-    ax.set_title(u'%s' % "线性回归示例".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.set_title(u'%s' % "线性回归示例")
+    else:
+        ax.set_title(u'%s' % "线性回归示例".decode("utf-8"))
     ax.set_xlabel('$x$')
     ax.set_ylabel('$y$')
     # 画点图，用蓝色圆点表示原始数据
-    ax.scatter(data[features], data[labels], color='b',
-        label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.scatter(data[features], data[labels], color='b',
+            label=u'%s: $y = x + \epsilon$' % "真实值")
+    else:
+        ax.scatter(data[features], data[labels], color='b',
+            label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
     # 根据截距的正负，打印不同的标签
     if model.intercept_ > 0:
         # 画线图，用红色线条表示模型结果
-        ax.plot(data[features], model.predict(data[features]), color='r',
-            label=u'%s: $y = %.3f * x$ + %.3f'\
-            % ("预测值".decode("utf-8"), model.coef_, model.intercept_))
+        # 在Python3中，str不需要decode
+        if sys.version_info[0] == 3:
+            ax.plot(data[features], model.predict(data[features]), color='r',
+                label=u'%s: $y = %.3f * x$ + %.3f'\
+                % ("预测值", model.coef_, model.intercept_))
+        else:
+            ax.plot(data[features], model.predict(data[features]), color='r',
+                label=u'%s: $y = %.3f * x$ + %.3f'\
+                % ("预测值".decode("utf-8"), model.coef_, model.intercept_))
     else:
-         ax.plot(data[features], model.predict(data[features]), color='r',
-            label=u'%s: $y = %.3f * x$ - %.3f'\
-            % ("预测值".decode("utf-8"), model.coef_, abs(model.intercept_)))
+        # 在Python3中，str不需要decode
+        if sys.version_info[0] == 3:
+            ax.plot(data[features], model.predict(data[features]), color='r',
+                label=u'%s: $y = %.3f * x$ - %.3f'\
+                % ("预测值", model.coef_, abs(model.intercept_)))
+        else:
+            ax.plot(data[features], model.predict(data[features]), color='r',
+                label=u'%s: $y = %.3f * x$ - %.3f'\
+                % ("预测值".decode("utf-8"), model.coef_, abs(model.intercept_)))
     legend = plt.legend(shadow=True)
     legend.get_frame().set_facecolor('#6F93AE')
     # 显示均方差和决定系数
-    ax.text(0.99, 0.01, 
-        u'%s%.3f\n%s%.3f'\
-        % ("均方差：".decode("utf-8"), error, "决定系数：".decode("utf-8"), score),
-        style='italic', verticalalignment='bottom', horizontalalignment='right',
-        transform=ax.transAxes, color='m', fontsize=13)
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.text(0.99, 0.01, 
+            u'%s%.3f\n%s%.3f'\
+            % ("均方差：", error, "决定系数：", score),
+            style='italic', verticalalignment='bottom', horizontalalignment='right',
+            transform=ax.transAxes, color='m', fontsize=13)
+    else:
+         ax.text(0.99, 0.01, 
+            u'%s%.3f\n%s%.3f'\
+            % ("均方差：".decode("utf-8"), error, "决定系数：".decode("utf-8"), score),
+            style='italic', verticalalignment='bottom', horizontalalignment='right',
+            transform=ax.transAxes, color='m', fontsize=13)
     # 展示上面所画的图片。图片将阻断程序的运行，直至所有的图片被关闭
     # 在Python shell里面，可以设置参数"block=False"，使阻断失效。
     plt.show()
@@ -133,7 +163,11 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/simple_example.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\simple_example.csv" % homePath
+    else:
+        dataPath = "%s/data/simple_example.csv" % homePath
     data = readData(dataPath)
     linearModel(data)

@@ -1,8 +1,10 @@
-n# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*-
 """
 此脚本用于展示不平衡的数据对模型的影响
 """
 
+
+import sys
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -58,16 +60,28 @@ def visualize(ratios, predPositive, truePositive, aucs, accuracies):
     fig = plt.figure(figsize=(12, 6), dpi=80)
     # 在图形框里画两幅图
     ax = fig.add_subplot(1, 2, 1)
-    ax.plot(ratios, predPositive,
-        label="%s" % "预测结果里类别1的个数".decode("utf-8"))
-    ax.plot(ratios, truePositive, "k--",
-        label="%s" % "原始数据里类别1的个数".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(ratios, predPositive,
+            label="%s" % "预测结果里类别1的个数")
+        ax.plot(ratios, truePositive, "k--",
+            label="%s" % "原始数据里类别1的个数")
+    else:
+        ax.plot(ratios, predPositive,
+            label="%s" % "预测结果里类别1的个数".decode("utf-8"))
+        ax.plot(ratios, truePositive, "k--",
+            label="%s" % "原始数据里类别1的个数".decode("utf-8"))
     ax.set_xlim([0, 0.5])
     ax.invert_xaxis()
     legend = plt.legend(shadow=True, loc="best")
     ax1 = fig.add_subplot(1, 2, 2)
-    ax1.plot(ratios, aucs, "r", label="%s" % "曲线下面积（AUC）".decode("utf-8"))
-    ax1.plot(ratios, accuracies, "k-.", label="%s" % "准确度（ACC）".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax1.plot(ratios, aucs, "r", label="%s" % "曲线下面积（AUC）")
+        ax1.plot(ratios, accuracies, "k-.", label="%s" % "准确度（ACC）")
+    else:
+        ax1.plot(ratios, aucs, "r", label="%s" % "曲线下面积（AUC）".decode("utf-8"))
+        ax1.plot(ratios, accuracies, "k-.", label="%s" % "准确度（ACC）".decode("utf-8"))
     ax1.set_xlim([0, 0.5])
     ax1.set_ylim([0.5, 1])
     ax1.invert_xaxis()

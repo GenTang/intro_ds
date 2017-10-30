@@ -4,7 +4,8 @@
 """
 
 
-from os import path
+import os
+import sys
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -50,14 +51,23 @@ def visualizeRoc(fpr, tpr, auc):
     # 在图形框里只画一幅图
     ax = fig.add_subplot(1, 1, 1)
     # 在Matplotlib中显示中文，需要使用unicode
-    ax.set_title("%s" % "ROC曲线".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.set_title("%s" % "ROC曲线")
+    else:
+        ax.set_title("%s" % "ROC曲线".decode("utf-8"))
     ax.set_xlabel("False positive rate")
     ax.set_ylabel("True positive rate")
     ax.plot([0, 1], [0, 1], "r--")
     ax.set_xlim([0, 1])
     ax.set_ylim([0, 1])
-    ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线".decode("utf-8"),
-        "曲线下面积（AUC）".decode("utf-8"), auc))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线",
+            "曲线下面积（AUC）", auc))
+    else:
+        ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线".decode("utf-8"),
+            "曲线下面积（AUC）".decode("utf-8"), auc))
     ax.fill_between(fpr, tpr, color="grey", alpha=0.6)
     legend = plt.legend(shadow=True)
     plt.show()
@@ -82,7 +92,11 @@ def logitRegression(data):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/adult.data" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\adult.data" % homePath
+    else:
+        dataPath = "%s/data/adult.data" % homePath
     data = readData(dataPath)
     logitRegression(data)

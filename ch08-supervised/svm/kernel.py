@@ -4,6 +4,9 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -120,7 +123,7 @@ def visualizeModel(data, res):
 if __name__ == "__main__":
     data = generateData(30)
     re = trainLinearSVM(data)
-    print "模型的预测结果为：%s" % re.predict(data[["x1", "x2"]])
+    print("模型的预测结果为：%s" % re.predict(data[["x1", "x2"]]))
     visualizeData(data)
     res = trainModel(data)
     visualizeModel(data, res)

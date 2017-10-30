@@ -4,6 +4,9 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 import scipy as sp
 from scipy.misc import logsumexp
@@ -12,10 +15,12 @@ try:
     from hmm.utils.viterbi import viterbi
 except:
     import sys
-    print >> sys.stdout, """
+    print(
+    """
     Python的运行速度不快。为了提高运算速度，请使用
     'python setup.py build_ext --inplace'生成相应的C扩展
-    """
+    """,
+    file=sys.stdout)
     from hmm.utils.viterbipy import viterbi
 
 

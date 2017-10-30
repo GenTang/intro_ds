@@ -2,6 +2,11 @@
 """
 此脚本用于展示矩阵运算
 """
+
+
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 from numpy.linalg import inv
 
@@ -9,7 +14,10 @@ from numpy.linalg import inv
 # 创建矩阵
 A = np.matrix([[1, 2], [3, 4], [5, 6]])
 B = np.array(range(1, 7)).reshape(3, 2)
-A * A
+try:
+    A * A
+except ValueError as e:
+    print(repr(e))
 B * B
 # 创建特殊矩阵
 np.zeros((3, 2))
@@ -36,4 +44,3 @@ n.dot(n)
 ## 矩阵的逆矩阵
 inv(n)
 np.dot(inv(n), n)
-

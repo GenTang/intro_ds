@@ -2,6 +2,8 @@
 """
 此脚本用于展示随机变量引起的模型幻觉
 """
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 

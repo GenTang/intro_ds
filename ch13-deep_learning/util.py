@@ -57,7 +57,7 @@ def readLabels(f):
 def OneHotEncoder(labels, classNum=10):
     """
     """
-    _cond = np.array([range(classNum), ] * labels.shape[0])
+    _cond = np.array([list(range(classNum)), ] * labels.shape[0])
     cond = _cond == labels.reshape(-1, 1)
     oneHot = np.zeros((labels.shape[0], classNum))
     oneHot[cond] = 1
@@ -68,19 +68,31 @@ def loadData():
     """
     读取MNIST图片数据
     """
-    homePath = "%s/data" % os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
     trainImgFile = "train-images-idx3-ubyte.gz"
     trainLabelFile = "train-labels-idx1-ubyte.gz"
     testImgFile = "t10k-images-idx3-ubyte.gz"
     testLabelFile = "t10k-labels-idx1-ubyte.gz"
-    with open("%s/%s" % (homePath, trainImgFile), "rb") as f:
-        trainImg = readImages(f)
-    with open("%s/%s" % (homePath, trainLabelFile), "rb") as f:
-        trainLabel = OneHotEncoder(readLabels(f))
-    with open("%s/%s" % (homePath, testImgFile), "rb") as f:
-        testImg = readImages(f)
-    with open("%s/%s" % (homePath, testLabelFile), "rb") as f:
-        testLabel = OneHotEncoder(readLabels(f))
+    if os.name == "nt":
+        homePath = "%s\\data" % os.path.dirname(os.path.abspath(__file__))
+        with open("%s\\%s" % (homePath, trainImgFile), "rb") as f:
+            trainImg = readImages(f)
+        with open("%s\\%s" % (homePath, trainLabelFile), "rb") as f:
+            trainLabel = OneHotEncoder(readLabels(f))
+        with open("%s\\%s" % (homePath, testImgFile), "rb") as f:
+            testImg = readImages(f)
+        with open("%s\\%s" % (homePath, testLabelFile), "rb") as f:
+            testLabel = OneHotEncoder(readLabels(f))
+    else:
+        homePath = "%s/data" % os.path.dirname(os.path.abspath(__file__))
+        with open("%s/%s" % (homePath, trainImgFile), "rb") as f:
+            trainImg = readImages(f)
+        with open("%s/%s" % (homePath, trainLabelFile), "rb") as f:
+            trainLabel = OneHotEncoder(readLabels(f))
+        with open("%s/%s" % (homePath, testImgFile), "rb") as f:
+            testImg = readImages(f)
+        with open("%s/%s" % (homePath, testLabelFile), "rb") as f:
+            testLabel = OneHotEncoder(readLabels(f))
     return trainImg, trainLabel, testImg, testLabel    
 
 

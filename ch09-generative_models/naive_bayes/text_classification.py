@@ -6,7 +6,11 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 from os import listdir, path
+import os
 import sys
 
 import numpy as np
@@ -26,13 +30,23 @@ def readData(dataPath, category, testRatio):
     trainData = []
     testData = []
     labels = [i for i in listdir(dataPath) if i in category]
-    for i in labels:
-        for j in listdir("%s/%s" % (dataPath, i)):
-            content = readContent("%s/%s/%s" % (dataPath, i, j))
-            if np.random.random() <= testRatio:
-                testData.append({"label": i, "content": content})
-            else:
-                trainData.append({"label": i, "content": content})
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        for i in labels:
+            for j in listdir("%s\\%s" % (dataPath, i)):
+                content = readContent("%s\\%s\\%s" % (dataPath, i, j))
+                if np.random.random() <= testRatio:
+                    testData.append({"label": i, "content": content})
+                else:
+                    trainData.append({"label": i, "content": content})
+    else:
+        for i in labels:
+            for j in listdir("%s/%s" % (dataPath, i)):
+                content = readContent("%s/%s/%s" % (dataPath, i, j))
+                if np.random.random() <= testRatio:
+                    testData.append({"label": i, "content": content})
+                else:
+                    trainData.append({"label": i, "content": content})
     trainData = pd.DataFrame(trainData)
     testData = pd.DataFrame(testData)
     return trainData, testData
@@ -97,7 +111,7 @@ def printResult(doc, pred):
     输出样例的预测结果
     """
     for d, p in zip(doc, pred):
-        print "%s ==> %s" % (d.replace(" ", ""), p)
+        print("%s ==> %s" % (d.replace(" ", ""), p))
 
 
 def trainModel(trainData, testData, testDocs, docs):
@@ -107,30 +121,30 @@ def trainModel(trainData, testData, testDocs, docs):
     # 伯努利模型
     vect, le, model = trainBernoulliNB(trainData)
     pred = le.classes_[model.predict(vect.transform(testDocs))]
-    print "Use Bernoulli naive Bayes: "
+    print("Use Bernoulli naive Bayes: ")
     printResult(docs, pred)
-    print classification_report(
+    print(classification_report(
         le.transform(testData["label"]),
         model.predict(vect.transform(testData["content"])),
-        target_names=le.classes_)
+        target_names=le.classes_))
     # 多项式模型
     le, pipe = trainMultinomialNB(trainData)
     pred = le.classes_[pipe.predict(testDocs)]
-    print "Use multinomial naive Bayes: "
+    print("Use multinomial naive Bayes: ")
     printResult(docs, pred)
-    print classification_report(
+    print(classification_report(
         le.transform(testData["label"]),
         pipe.predict(testData["content"]),
-        target_names=le.classes_)
+        target_names=le.classes_))
     # TFIDF+多项式模型
     le, pipe = trainMultinomialNBWithTFIDF(trainData)
     pred = le.classes_[pipe.predict(testDocs)]
-    print "Use TFIDF + multinomial naive Bayes: "
+    print("Use TFIDF + multinomial naive Bayes: ")
     printResult(docs, pred)
-    print classification_report(
+    print(classification_report(
         le.transform(testData["label"]),
         pipe.predict(testData["content"]),
-        target_names=le.classes_)
+        target_names=le.classes_))
 
 
 def textClassifier(dataPath, category):
@@ -160,7 +174,11 @@ def textClassifierWithJieba(dataPath, category):
 
 
 if __name__ == "__main__":
-    dataPath = "%s/data" % path.dirname(path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data" % path.dirname(path.abspath(__file__))
+    else:
+        dataPath = "%s/data" % path.dirname(path.abspath(__file__))
     category = ["C3-Art", "C11-Space", "C19-Computer", "C39-Sports"]
     if len(sys.argv) == 1:
         textClassifier(dataPath, category)
@@ -168,6 +186,8 @@ if __name__ == "__main__":
         import jieba
         textClassifierWithJieba(dataPath, category)
     else:
-        print >> sys.stderr, """
-        Usage: python naive_bayes.py | python naive_bayes.py use_jieba
+        print(
         """
+        Usage: python naive_bayes.py | python naive_bayes.py use_jieba
+        """,
+        file=sys.stderr)

@@ -4,7 +4,11 @@
 """
 
 
-from os import path
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
+import sys
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -145,19 +149,35 @@ def evaluation(newRe, baseRe):
     # 在图形框里只画一幅图
     ax = fig.add_subplot(111)
     # 在Matplotlib中显示中文，需要使用unicode
-    ax.set_title("%s" % "ROC曲线".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.set_title("%s" % "ROC曲线")
+    else:
+        ax.set_title("%s" % "ROC曲线".decode("utf-8"))
     ax.set_xlabel("False positive rate")
     ax.set_ylabel("True positive rate")
     ax.plot([0, 1], [0, 1], "r--")
     ax.set_xlim([0, 1])
     ax.set_ylim([0, 1])
-    ax.plot(fpr, tpr, "k", label="%s; %s = %0.3f" % ("转换后的ROC曲线".decode("utf-8"),
-        "曲线下面积（AUC）".decode("utf-8"), auc))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(fpr, tpr, "k", label="%s; %s = %0.3f" % ("转换后的ROC曲线",
+            "曲线下面积（AUC）", auc))
+    else:
+        ax.plot(fpr, tpr, "k",
+            label="%s; %s = %0.3f" % ("转换后的ROC曲线".decode("utf-8"),
+            "曲线下面积（AUC）".decode("utf-8"), auc))
     # 绘制原模型的ROC曲线
     fpr, tpr, _ = metrics.roc_curve(baseRe["label_code"], baseRe["prob"])
     auc = metrics.auc(fpr, tpr)
-    ax.plot(fpr, tpr, "b-.", label="%s; %s = %0.3f" % ("转换前的ROC曲线".decode("utf-8"),
-        "曲线下面积（AUC）".decode("utf-8"), auc))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(fpr, tpr, "b-.", label="%s; %s = %0.3f" % ("转换前的ROC曲线",
+            "曲线下面积（AUC）", auc))
+    else:
+        ax.plot(fpr, tpr, "b-.",
+            label="%s; %s = %0.3f" % ("转换前的ROC曲线".decode("utf-8"),
+            "曲线下面积（AUC）".decode("utf-8"), auc))
     legend = plt.legend(shadow=True)
     plt.show()
 
@@ -179,7 +199,7 @@ def logitRegression(data):
     testSet = transFeature(testSet, category)
     # 训练模型并分析模型效果
     newRe = trainModel(trainSet)
-    print newRe.summary()
+    print(newRe.summary())
     newRe = makePrediction(newRe, testSet)
     # 计算原模型预测结果
     baseRe = baseModel(trainSet)
@@ -190,7 +210,11 @@ def logitRegression(data):
 if __name__ == "__main__":
     # 设置显示格式
     pd.set_option('display.width', 1000)
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/adult.data" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\adult.data" % homePath
+    else:
+        dataPath = "%s/data/adult.data" % homePath
     data = readData(dataPath)
     logitRegression(data)

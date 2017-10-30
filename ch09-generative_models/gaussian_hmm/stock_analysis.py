@@ -3,7 +3,8 @@
 此脚本用于展示如何使用HMM模型对股票数据进行分析
 """
 
-from os import path
+
+import os
 
 from datetime import datetime
 import numpy as np
@@ -88,5 +89,9 @@ def stockHMM(dataPath):
 
 
 if __name__ == "__main__":
-    dataPath = "%s/data/stock_sh.txt" % path.dirname(path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\stock_sh.txt" % os.path.dirname(os.path.abspath(__file__))
+    else:
+        dataPath = "%s/data/stock_sh.txt" % os.path.dirname(os.path.abspath(__file__))
     stockHMM(dataPath)

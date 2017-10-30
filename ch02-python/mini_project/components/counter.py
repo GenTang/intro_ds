@@ -1,4 +1,7 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于实现计数器
+"""
 
 
 def wordCount(data):

@@ -4,6 +4,8 @@
 """
 
 
+import os
+
 from mlp import ANN 
 
 import numpy as np
@@ -88,7 +90,11 @@ def visualize(data):
         ax = fig.add_subplot(2, 2, i+1)
         ax1 = fig1.add_subplot(2, 2, i+1)
         drawData(ax, data[i])
-        drawModel(ax, trainANN(data[i], "logs/data_%s" % (i+1)))
+        # Windows下的存储路径与Linux并不相同
+        if os.name == "nt":
+            drawModel(ax, trainANN(data[i], "logs\\data_%s" % (i+1)))
+        else:
+            drawModel(ax, trainANN(data[i], "logs/data_%s" % (i+1)))
         drawData(ax1, data[i])
         drawModel(ax1, trainLogit(data[i]))
         ax.get_xaxis().set_visible(False)

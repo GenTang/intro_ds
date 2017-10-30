@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -44,7 +46,12 @@ def visualize(data, model):
     ax = fig.add_subplot(1, 1, 1)
     ax.scatter(data["x"], data["y"], label="_nolegend_")
     styles = ["b--", "r-.", "gray"]
-    labels = ["深度=1".decode("utf-8"), "深度=2".decode("utf-8"), "深度=3".decode("utf-8")]
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        labels = ["深度=1", "深度=2", "深度=3"]
+    else:
+        labels = ["深度=1".decode("utf-8"), "深度=2".decode("utf-8"),
+            "深度=3".decode("utf-8")]
     for l, s, pred in zip(labels, styles, model.staged_predict(data[["x"]])):
         plt.plot(data[["x"]], pred, s, label=l)
     legend = ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05),

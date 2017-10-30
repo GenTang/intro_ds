@@ -4,6 +4,9 @@
 """
 
 
+import sys
+
+import matplotlib.pyplot as plt
 import timeit
 from utils import createSummaryWriter, generateLinearData, createLinearModel
 from gradient_descent import gradientDescent
@@ -24,10 +27,17 @@ def visualize(data):
     dataSize = [i[0] for i in data]
     gdTime = [i[1] for i in data]
     sgdTime = [i[2] for i in data]
-    ax.set_xlabel("数据量".decode("utf-8"))
-    ax.set_ylabel("算法运行时间".decode("utf-8"))
-    ax.plot(dataSize, gdTime, "k", label="%s" % "梯度下降法".decode("utf-8"))
-    ax.plot(dataSize, sgdTime, "r-.", label="%s" % "随机梯度下降法".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.set_xlabel("数据量")
+        ax.set_ylabel("算法运行时间")
+        ax.plot(dataSize, gdTime, "k", label="%s" % "梯度下降法")
+        ax.plot(dataSize, sgdTime, "r-.", label="%s" % "随机梯度下降法")
+    else:
+        ax.set_xlabel("数据量".decode("utf-8"))
+        ax.set_ylabel("算法运行时间".decode("utf-8"))
+        ax.plot(dataSize, gdTime, "k", label="%s" % "梯度下降法".decode("utf-8"))
+        ax.plot(dataSize, sgdTime, "r-.", label="%s" % "随机梯度下降法".decode("utf-8"))
     legend = plt.legend(shadow=True)
     plt.show()
 

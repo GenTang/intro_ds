@@ -5,8 +5,14 @@
 """
 
 
-from os import sys, path
-sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+from os import path
+import os
+os.sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+import sys
+
 import re
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
@@ -78,7 +84,7 @@ def printSegmentation(X, y):
     for i in range(len(y)):
         if y[i].startswith("S") | y[i].startswith("B"):
             xx[i] = " / " + xx[i]
-    print "".join(xx)
+    print("".join(xx))
 
 
 def chineseSegmentation(dataPath):
@@ -90,12 +96,22 @@ def chineseSegmentation(dataPath):
     testX, testY, testLengths = extractFeature(testSet)
     vect, model = trainModel(trainX, trainY, trainLengths)
     pred = model.predict(vect.transform(testX), testLengths)
-    print classification_report([i[0] for i in testY], [i[0] for i in pred])
-    examplStr = list("我爱北京天安门".decode("utf-8"))
+    print(classification_report([i[0] for i in testY], [i[0] for i in pred]))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        examplStr = list("我爱北京天安门")
+    else:
+        examplStr = list("我爱北京天安门".decode("utf-8"))
     printSegmentation(examplStr, model.predict(vect.transform(examplStr)))
 
 
 if __name__ == "__main__":
     # 为了计算速度，只使用部分数据
-    dataPath = "%s/data/corpus_不_20140804161122.txt" % path.dirname(path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\corpus_不_20140804161122.txt" % \
+            path.dirname(path.abspath(__file__))
+    else:
+        dataPath = "%s/data/corpus_不_20140804161122.txt" % \
+            path.dirname(path.abspath(__file__))
     chineseSegmentation(dataPath)

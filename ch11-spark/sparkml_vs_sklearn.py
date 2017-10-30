@@ -4,7 +4,7 @@
 """
 
 
-from os import path
+import os
 
 import numpy as np
 import pandas as pd
@@ -97,6 +97,10 @@ def _visualize(sklearnModel, mllibModel, data, ax):
 
 if __name__ == "__main__":
     spark = startSpark()
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/reg_data.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\reg_data.csv" % homePath
+    else:
+        dataPath = "%s/data/reg_data.csv" % homePath
     run(spark, dataPath)

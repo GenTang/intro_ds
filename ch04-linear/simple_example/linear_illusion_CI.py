@@ -1,7 +1,13 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于如何使用统计方法解决模型幻觉
+"""
 
 
-from os import path
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
 
 import numpy as np
 import statsmodels.api as sm
@@ -21,16 +27,16 @@ def evaluateModel(res):
     分析线性回归模型的统计性质
     """
     # 整体统计分析结果
-    print res.summary()
+    print(res.summary())
     # 用f test检测x对应的系数a是否显著
-    print "检验假设z的系数等于0："
-    print res.f_test("z=0")
+    print("检验假设z的系数等于0：")
+    print(res.f_test("z=0"))
     # 用f test检测常量b是否显著
-    print "检测假设const的系数等于0："
-    print res.f_test("const=0")
+    print("检测假设const的系数等于0：")
+    print(res.f_test("const=0"))
     # 用f test检测a=1, b=0同时成立的显著性
-    print "检测假设z和const的系数同时等于0："
-    print res.f_test(["z=0", "const=0"])
+    print("检测假设z和const的系数同时等于0：")
+    print(res.f_test(["z=0", "const=0"]))
 
 
 def trainModel(X, Y):
@@ -82,13 +88,13 @@ def wrongCoef():
     # 没有多余变量时，x系数符号估计正确，为正
     model = sm.OLS(Y, X["x"])
     res = model.fit()
-    print "没有加入新变量时："
-    print res.summary()
+    print("没有加入新变量时：")
+    print(res.summary())
     # 加入多余变量时，x系数符号估计错误，为负
     model1 = sm.OLS(Y, X)
     res1 = model1.fit()
-    print "加入新变量后："
-    print res1.summary()
+    print("加入新变量后：")
+    print(res1.summary())
 
 
 def readData(path):
@@ -100,14 +106,18 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/simple_example.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\simple_example.csv" % homePath
+    else:
+        dataPath = "%s/data/simple_example.csv" % homePath
     data = readData(dataPath)
-    print "***************************************************"
-    print "加入不相关的新变量，新变量的系数被错误估计为不等于0"
-    print "***************************************************"
+    print("***************************************************")
+    print("加入不相关的新变量，新变量的系数被错误估计为不等于0")
+    print("***************************************************")
     confidenceInterval(data)
-    print "**********************************************"
-    print "加入不相关的新变量，旧变量系数的符号被错误估计"
-    print "**********************************************"
+    print("**********************************************")
+    print("加入不相关的新变量，旧变量系数的符号被错误估计")
+    print("**********************************************")
     wrongCoef()

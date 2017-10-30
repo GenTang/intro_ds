@@ -1,4 +1,7 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于得到出现次数最多的元素
+"""
 
 
 from mini_project.components.counter import wordCount

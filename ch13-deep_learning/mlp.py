@@ -5,6 +5,11 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
+
 from util import loadData
 
 import numpy as np
@@ -97,11 +102,11 @@ class ANN(object):
         """
         输出模型的评估结果
         """
-        print "epoch %s" % epoch
-        print "训练集的准确率 %.3f" % self._doEval(self.trainSet["X"], self.trainSet["Y"])
-        print "验证集的准确率 %.3f" % self._doEval(self.validationSet["X"],
-            self.validationSet["Y"])
-        print "测试集的准确率 %.3f" % self._doEval(self.testSet["X"], self.testSet["Y"])
+        print("epoch %s" % epoch)
+        print("训练集的准确率 %.3f" % self._doEval(self.trainSet["X"], self.trainSet["Y"]))
+        print("验证集的准确率 %.3f" % self._doEval(self.validationSet["X"],
+            self.validationSet["Y"]))
+        print("测试集的准确率 %.3f" % self._doEval(self.testSet["X"], self.testSet["Y"]))
 
     def SGD(self, X, Y, startLearningRate, miniBatchFraction, epoch, keepProb):
         """
@@ -172,5 +177,9 @@ if __name__ == "__main__":
     trainSet = {"X": trainData, "Y": trainLabel}
     validationSet = {"X": validationData, "Y": validationLabel}
     testSet = {"X": data[2], "Y": data[3]}
-    ann = ANN([30, 20, 10], "logs/mnist", trainSet, validationSet, testSet)
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        ann = ANN([30, 20, 10], "logs\\mnist", trainSet, validationSet, testSet)
+    else:
+        ann = ANN([30, 20, 10], "logs/mnist", trainSet, validationSet, testSet)
     ann.fit()

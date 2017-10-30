@@ -4,6 +4,11 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -45,8 +50,13 @@ def visualize(data):
         range_padding=0.9, figsize=(8, 8))
     corr = data.corr(method="pearson").as_matrix()
     for i, j in zip(*plt.np.triu_indices_from(axes, k=1)):
-        axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i,j]),
-            (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+        # 在Python3中，str不需要decode
+        if sys.version_info[0] == 3:
+            axes[i, j].annotate("%s: %.3f" % ("相关系数", corr[i,j]),
+                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+        else:
+            axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i,j]),
+                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
     plt.show()
 
 
@@ -63,41 +73,41 @@ def uncorrelatedVariable(data):
     """
     用不相关的x1，x2搭建回归模型
     """
-    print "x1和x2的相关系数为：%s" % scss.pearsonr(data["x1"], data["x2"])[0]
+    print("x1和x2的相关系数为：%s" % scss.pearsonr(data["x1"], data["x2"])[0])
     Y = data["y"]
     X = sm.add_constant(data["x1"])
     re = trainModel(X, Y)
-    print re.summary()
+    print(re.summary())
     X1 = sm.add_constant(data["x2"])
     re1 = trainModel(X1, Y)
-    print re1.summary()
+    print(re1.summary())
     X2 = sm.add_constant(data[["x1", "x2"]])
     re2 = trainModel(X2, Y)
-    print re2.summary()
+    print(re2.summary())
 
 
 def correlatedVariable(data):
     """
     用强相关的x1，x3搭建模型
     """
-    print "x1和x3的相关系数为：%s" % scss.pearsonr(data["x1"], data["x3"])[0]
+    print("x1和x3的相关系数为：%s" % scss.pearsonr(data["x1"], data["x3"])[0])
     Y = data["y"]
     X = sm.add_constant(data["x1"])
     re = trainModel(X, Y)
-    print re.summary()
+    print(re.summary())
     X1 = sm.add_constant(data["x3"])
     re1 = trainModel(X1, Y)
-    print re1.summary()
+    print(re1.summary())
     X2 = sm.add_constant(data[["x1", "x3"]])
     re2 = trainModel(X2, Y)
-    print re2.summary()
+    print(re2.summary())
     # 检测多重共线性
-    print "检测假设x1和x3同时不显著："
-    print re2.f_test(["x1=0", "x3=0"])
+    print("检测假设x1和x3同时不显著：")
+    print(re2.f_test(["x1=0", "x3=0"]))
     vif = pd.DataFrame()
     vif["VIF Factor"] = [variance_inflation_factor(X2.values, i) for i in range(X2.shape[1])]
     vif["features"] = X2.columns
-    print vif
+    print(vif)
 
 
 def increaseDataSet():
@@ -124,8 +134,13 @@ def increaseDataSet():
     plt.rcParams['axes.unicode_minus']=False
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(1, 1, 1)
-    ax.plot(index, x1, "r-.", label=u'%s' % "a1的估计值".decode("utf-8"))
-    ax.plot(index, x1Std, "b", label=u'%s' % "a1标准差估计值".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(index, x1, "r-.", label=u'%s' % "a1的估计值")
+        ax.plot(index, x1Std, "b", label=u'%s' % "a1标准差估计值")
+    else:
+        ax.plot(index, x1, "r-.", label=u'%s' % "a1的估计值".decode("utf-8"))
+        ax.plot(index, x1Std, "b", label=u'%s' % "a1标准差估计值".decode("utf-8"))
     legend = plt.legend(loc=4, shadow=True)
     plt.show()
 
@@ -158,12 +173,12 @@ def centeringData(data):
     X.columns = ["x3", "x3_squared"]
     X = sm.add_constant(X)
     re = trainModel(X, Y)
-    print re.summary()
+    print(re.summary())
     X = pd.concat([centerX, centerX2], axis=1, ignore_index=True)
     X.columns = ["x3_center", "x3_center_sqaured"]
     X = sm.add_constant(X)
     re1 = trainModel(X, Y)
-    print re1.summary()
+    print(re1.summary())
 
 
 if __name__ == "__main__":

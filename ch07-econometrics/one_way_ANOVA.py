@@ -4,6 +4,9 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -26,7 +29,7 @@ def visualize(data):
     """
     绘制数据的箱型图
     """
-    print data.groupby("B").mean()
+    print(data.groupby("B").mean())
     data.boxplot("A", by="B", grid=False)
     plt.show()
 
@@ -42,10 +45,10 @@ def oneWayANOVA(data):
     re = sm.OLS.from_formula("A ~ B", data=data).fit()
     aovTable = sm.stats.anova_lm(re, typ=2)
     # 打印ANOVA分析结果
-    print aovTable
+    print(aovTable)
     # 计算eta sqaured
     etaSquared = aovTable["sum_sq"][0] / (aovTable["sum_sq"][0] + aovTable["sum_sq"][1])
-    print "Eta squared等于：%.3f" % etaSquared
+    print("Eta squared等于：%.3f" % etaSquared)
 
 
 if __name__ == "__main__":

@@ -1,7 +1,11 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于展示过拟合问题
+"""
 
 
-from os import path
+import os
+import sys
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -88,12 +92,20 @@ def _visualization(ax, data, model, featurizer, evaluation, features, labels):
     ax.plot(data[features], model.predict(featurizer.fit_transform(data[features])),
             color="r")
     # 显示均方差和决定系数
-    ax.text(0.01, 0.99,
-        u'%s%.3f\n%s%.3f'\
-        % ("均方差：".decode("utf-8"), evaluation[0],
-            "决定系数：".decode("utf-8"), evaluation[1]),
-        style="italic", verticalalignment="top", horizontalalignment="left",
-        transform=ax.transAxes, color="m", fontsize=13)
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.text(0.01, 0.99,
+            u'%s%.3f\n%s%.3f'\
+            % ("均方差：", evaluation[0], "决定系数：", evaluation[1]),
+            style="italic", verticalalignment="top", horizontalalignment="left",
+            transform=ax.transAxes, color="m", fontsize=13)
+    else:
+        ax.text(0.01, 0.99,
+            u'%s%.3f\n%s%.3f'\
+            % ("均方差：".decode("utf-8"), evaluation[0],
+                "决定系数：".decode("utf-8"), evaluation[1]),
+            style="italic", verticalalignment="top", horizontalalignment="left",
+            transform=ax.transAxes, color="m", fontsize=13)
 
 
 def overfitting(data):
@@ -132,8 +144,12 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/simple_example.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\simple_example.csv" % homePath
+    else:
+        dataPath = "%s/data/simple_example.csv" % homePath
     data = readData(dataPath)
     featurizer = PolynomialFeatures(degree=5)
     overfitting(data)

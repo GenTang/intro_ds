@@ -4,6 +4,8 @@
 """
 
 
+import sys
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -68,8 +70,13 @@ def drawHyperplane(ax, coef, intercept, style):
     a = -coef[0][0] / coef[0][1]
     xx = np.linspace(-8, 12)
     yy = a * xx - (intercept) / coef[0][1]
-    ax.plot(xx, yy, style,
-        label="%s: %.2f" % ("直线斜率为".decode("utf-8"), a))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(xx, yy, style,
+            label="%s: %.2f" % ("直线斜率为", a))
+    else:
+        ax.plot(xx, yy, style,
+            label="%s: %.2f" % ("直线斜率为".decode("utf-8"), a))
     return ax
 
 

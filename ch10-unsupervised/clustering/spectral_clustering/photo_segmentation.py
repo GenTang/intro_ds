@@ -4,7 +4,7 @@
 """
 
 
-from os import path
+import os
 
 import numpy as np
 import scipy as sp
@@ -57,6 +57,10 @@ def run(path):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/photo_2.jpg" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\photo.jpg" % homePath
+    else:
+        dataPath = "%s/data/photo.jpg" % homePath
     run(dataPath)

@@ -4,7 +4,11 @@
 """
 
 
-from os import path
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
+import sys
 
 import numpy as np
 import statsmodels.api as sm
@@ -55,12 +59,21 @@ def visualizeModel(X, Y):
         res = trainRegulizedModel(X, Y, alpha)
         coefs.append(res.params)
     coefs = np.array(coefs)
-    ax.plot(alphas, coefs[:, 1], "r:",
-        label=u'%s' % "x的参数a".decode("utf-8"))
-    ax.plot(alphas, coefs[:, 2], "g",
-        label=u'%s' % "z的参数b".decode("utf-8"))
-    ax.plot(alphas, coefs[:, 0], "b-.",
-        label=u'%s' % "const的参数c".decode("utf-8"))
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        ax.plot(alphas, coefs[:, 1], "r:",
+            label=u'%s' % "x的参数a")
+        ax.plot(alphas, coefs[:, 2], "g",
+            label=u'%s' % "z的参数b")
+        ax.plot(alphas, coefs[:, 0], "b-.",
+            label=u'%s' % "const的参数c")
+    else:
+        ax.plot(alphas, coefs[:, 1], "r:",
+            label=u'%s' % "x的参数a".decode("utf-8"))
+        ax.plot(alphas, coefs[:, 2], "g",
+            label=u'%s' % "z的参数b".decode("utf-8"))
+        ax.plot(alphas, coefs[:, 0], "b-.",
+            label=u'%s' % "const的参数c".decode("utf-8"))
     legend = plt.legend(loc=4, shadow=True)
     legend.get_frame().set_facecolor("#6F93AE")
     ax.set_yticks(np.arange(-1, 1.3, 0.3))
@@ -80,7 +93,7 @@ def addReg(data):
     _X["z"] = generateRandomVar()
     # 加入常量变量
     X = sm.add_constant(_X)
-    print "加入惩罚项（权重为0.1）的估计结果：\n%s" % trainRegulizedModel(X, Y, 0.1).params
+    print("加入惩罚项（权重为0.1）的估计结果：\n%s" % trainRegulizedModel(X, Y, 0.1).params)
     # 可视化惩罚项效果
     visualizeModel(X, Y)
 
@@ -94,7 +107,11 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/simple_example.csv" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\simple_example.csv" % homePath
+    else:
+        dataPath = "%s/data/simple_example.csv" % homePath
     data = readData(dataPath)
     addReg(data)

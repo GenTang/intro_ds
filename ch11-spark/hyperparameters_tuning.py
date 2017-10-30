@@ -4,6 +4,9 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import Lasso
@@ -51,7 +54,7 @@ if __name__ == "__main__":
     sc = startSpark()
     data = generateData(300)
     gs = gridSearch(sc, data, "y", ["x", "z"])
-    print "最优的超参数alpha为：%s" % gs.best_params_
-    print "相应的模型参数为：%s" %\
-        np.append(gs.best_estimator_.coef_, gs.best_estimator_.intercept_)
-    print "正确的模型参数为：[1., 0, 0]"
+    print("最优的超参数alpha为：%s" % gs.best_params_)
+    print("相应的模型参数为：%s" %
+        np.append(gs.best_estimator_.coef_, gs.best_estimator_.intercept_))
+    print("正确的模型参数为：[1., 0, 0]")

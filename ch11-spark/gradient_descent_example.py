@@ -4,6 +4,9 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -70,5 +73,5 @@ if __name__ == "__main__":
     spark = startSpark()
     data = spark.createDataFrame(generateData(1000))
     w = gradientDescent(data, "y", ["x", "const"])
-    print "模型的参数为：%s" % [2, 3]
-    print "参数的估计值为：%s" % w
+    print("模型的参数为：%s" % [2, 3])
+    print("参数的估计值为：%s" % w)

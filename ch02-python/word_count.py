@@ -1,4 +1,11 @@
 # -*- coding: UTF-8 -*-
+"""
+此脚本用于展示如何用Python实现word count
+"""
+
+
+# 保证脚本与Python3兼容
+from __future__ import print_function
 
 
 def wordCount(data):
@@ -21,5 +28,5 @@ def wordCount(data):
 
 if __name__ == "__main__":
     data = ["ab", "cd", "ab", "d", "d"]
-    print "The result is %s" % wordCount(data)
+    print("The result is %s" % wordCount(data))
     # The result is {'ab': 2, 'd': 2, 'cd': 1}

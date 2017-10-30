@@ -4,6 +4,11 @@
 """
 
 
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
+
 import tensorflow as tf
 import numpy as np
 from utils import createSummaryWriter, generateLinearData, createLinearModel
@@ -32,7 +37,11 @@ def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
     summary = tf.summary.merge_all()
     # 在程序运行结束之后，运行如下命令，查看日志
     # tensorboard --logdir logs/
-    summaryWriter = createSummaryWriter("logs/gradient_descent")
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        summaryWriter = createSummaryWriter("logs\\gradient_descent")
+    else:
+        summaryWriter = createSummaryWriter("logs/gradient_descent")
     # tensorflow开始运行
     sess = tf.Session()
     # 产生初始参数
@@ -57,10 +66,9 @@ def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
         step += 1
     summaryWriter.close()
     # 输出最终结果
-    print "模型参数：\n%s" % sess.run(model["model_params"])
-    print "迭代次数：%s" % step
-    print "损失函数值：%s" % loss
-
+    print("模型参数：\n%s" % sess.run(model["model_params"]))
+    print("迭代次数：%s" % step)
+    print("损失函数值：%s" % loss)
 
 
 def run():

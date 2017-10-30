@@ -4,7 +4,10 @@
 """
 
 
-from os import path
+# 保证脚本与Python3兼容
+from __future__ import print_function
+
+import os
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,13 +22,13 @@ def modelSummary(re):
     分析逻辑回归模型的统计性质
     """
     # 整体统计分析结果
-    print re.summary()
+    print(re.summary())
     # 用f test检验education_num的系数是否显著
-    print "检验假设education_num的系数等于0："
-    print re.f_test("education_num=0")
+    print("检验假设education_num的系数等于0：")
+    print(re.f_test("education_num=0"))
     # 用f test检验两个假设是否同时成立
-    print "检验假设education_num的系数等于0.32和hours_per_week的系数等于0.04同时成立："
-    print re.f_test("education_num=0.32, hours_per_week=0.04")
+    print("检验假设education_num的系数等于0.32和hours_per_week的系数等于0.04同时成立：")
+    print(re.f_test("education_num=0.32, hours_per_week=0.04"))
 
 
 def transLabel(data):
@@ -49,12 +52,12 @@ def analyseData(data):
     """
     通过统计方法，了解数据性质
     """
-    print "显示基本统计信息："
-    print data.describe(include="all")
+    print("显示基本统计信息：")
+    print(data.describe(include="all"))
     # 计算education_num, label交叉报表
     cross1 = pd.crosstab(pd.qcut(data["education_num"],  [0, .25, .5, .75, 1]), data["label"])
-    print "显示education_num, label交叉报表："
-    print cross1
+    print("显示education_num, label交叉报表：")
+    print(cross1)
     # 将交叉报表图形化
     props = lambda key: {"color": "0.45"} if ' >50K' in key else {"color": "#C6E2FF"}
     mosaic(cross1[[" >50K", " <=50K"]].stack(), properties=props)
@@ -62,8 +65,8 @@ def analyseData(data):
     cross2 = pd.crosstab(pd.cut(data["hours_per_week"], 5), data["label"])
     # 将交叉报表归一化，利于分析数据
     cross2_norm = cross2.div(cross2.sum(1).astype(float), axis=0)
-    print "显示hours_per_week, label交叉报表："
-    print cross2_norm
+    print("显示hours_per_week, label交叉报表：")
+    print(cross2_norm)
     # 图形化归一化后的交叉报表
     cross2_norm.plot(kind="bar", color=["#C6E2FF", "0.45"], rot=0)
     plt.show()
@@ -102,11 +105,11 @@ def interpretModel(re):
     # 计算各个变量对事件发生比的影响
     # conf里面的三列，分别对应着估计值的下界、上界和估计值本身
     conf.columns = ['2.5%', '97.5%', 'OR']
-    print "各个变量对事件发生比的影响："
-    print np.exp(conf)
+    print("各个变量对事件发生比的影响：")
+    print(np.exp(conf))
     # 计算各个变量的边际效应
-    print "各个变量的边际效应："
-    print re.get_margeff(at="overall").summary()
+    print("各个变量的边际效应：")
+    print(re.get_margeff(at="overall").summary())
 
 
 def makePrediction(re, testSet, alpha=0.5):
@@ -117,10 +120,10 @@ def makePrediction(re, testSet, alpha=0.5):
     pd.options.mode.chained_assignment = None
     # 计算事件发生的概率
     testSet["prob"] = re.predict(testSet)
-    print "事件发生概率（预测概率）大于0.6的数据个数："
-    print testSet[testSet["prob"] > 0.6].shape[0]  # 输出值为576
-    print "事件发生概率（预测概率）大于0.5的数据个数："
-    print testSet[testSet["prob"] > 0.5].shape[0]  # 输出值为834
+    print("事件发生概率（预测概率）大于0.6的数据个数：")
+    print(testSet[testSet["prob"] > 0.6].shape[0])  # 输出值为576
+    print("事件发生概率（预测概率）大于0.5的数据个数：")
+    print(testSet[testSet["prob"] > 0.5].shape[0])  # 输出值为834
     # 根据预测的概率，得出最终的预测
     testSet["pred"] = testSet.apply(lambda x: 1 if x["prob"] > alpha else 0, axis=1)
     return testSet
@@ -141,7 +144,7 @@ def evaluation(re):
     precision = tp / (tp + fp)  # 0.951
     recall = tp / (tp + fn)  # 0.826
     f1 = 2 * precision * recall / (precision + recall)  # 0.884
-    print "查准率: %.3f, 查全率: %.3f, f1: %.3f" % (precision, recall, f1)
+    print("查准率: %.3f, 查全率: %.3f, f1: %.3f" % (precision, recall, f1))
 
 
 def logitRegression(data):
@@ -168,7 +171,11 @@ def logitRegression(data):
 if __name__ == "__main__":
     # 设置显示格式
     pd.set_option('display.width', 1000)
-    homePath = path.dirname(path.abspath(__file__))
-    dataPath = "%s/data/adult.data" % homePath
+    homePath = os.path.dirname(os.path.abspath(__file__))
+    # Windows下的存储路径与Linux并不相同
+    if os.name == "nt":
+        dataPath = "%s\\data\\adult.data" % homePath
+    else:
+        dataPath = "%s/data/adult.data" % homePath
     data = readData(dataPath)
     logitRegression(data)

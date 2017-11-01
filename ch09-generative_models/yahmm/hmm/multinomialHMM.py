@@ -15,6 +15,7 @@ try:
     from hmm.utils.viterbi import viterbi
 except:
     import sys
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print(
     """
     Python的运行速度不快。为了提高运算速度，请使用

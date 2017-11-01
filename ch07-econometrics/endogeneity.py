@@ -129,6 +129,7 @@ def linearModel():
     """
     data = generateLinearData(1000)
     re = sm.OLS.from_formula("Y ~ realX1 + X2", data=data).fit()
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("正常模型")
     print(re.summary())
     re1 = sm.OLS.from_formula("Y ~ X2 + X1", data=data).fit()

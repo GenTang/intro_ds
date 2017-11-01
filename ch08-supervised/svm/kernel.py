@@ -123,6 +123,7 @@ def visualizeModel(data, res):
 if __name__ == "__main__":
     data = generateData(30)
     re = trainLinearSVM(data)
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("模型的预测结果为：%s" % re.predict(data[["x1", "x2"]]))
     visualizeData(data)
     res = trainModel(data)

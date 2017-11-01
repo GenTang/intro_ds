@@ -17,7 +17,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import statsmodels.api as sm
 import scipy.stats as scs
-from sets import Set
 
 
 def transLabel(data):
@@ -60,9 +59,9 @@ def getCategory(data):
     """
     interval = [data["hours_per_week"].min(), data["hours_per_week"].max()]
     _category = doDivide(data, interval)
-    s = Set()
+    s = set()
     for i in _category:
-        s = s.union(Set(i))
+        s = s.union(set(i))
     category = list(s)
     category.sort()
     return category

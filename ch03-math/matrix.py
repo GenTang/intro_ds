@@ -13,34 +13,38 @@ from numpy.linalg import inv
 
 # 创建矩阵
 A = np.matrix([[1, 2], [3, 4], [5, 6]])
+print(A)
 B = np.array(range(1, 7)).reshape(3, 2)
+print(B)
 try:
     A * A
 except ValueError as e:
     print(repr(e))
-B * B
+print(B * B)
 # 创建特殊矩阵
-np.zeros((3, 2))
-np.identity(3)
-np.diag([1, 2, 3])
+print(np.zeros((3, 2)))
+print(np.identity(3))
+print(np.diag([1, 2, 3]))
 # 矩阵中向量的提取
 m = np.array(range(1, 10)).reshape(3, 3)
+print(m)
 # 提取行向量
-m[[0, 2]]
-m[[True, False, True]]
+print(m[[0, 2]])
+print(m[[True, False, True]])
 # 提取列向量
-m[:, [1, 2]]
-m[:, [False, True, True]]
+print(m[:, [1, 2]])
+print(m[:, [False, True, True]])
 # 矩阵的计算
 n = np.array(range(1, 5)).reshape(2, 2)
-np.transpose(n)
-n + n
-n - n
-3 * n
+print(n)
+print(np.transpose(n))
+print(n + n)
+print(n - n)
+print(3 * n)
 ## Hadamard乘积
-n * n
+print(n * n)
 ## 矩阵乘法
-n.dot(n)
+print(n.dot(n))
 ## 矩阵的逆矩阵
-inv(n)
-np.dot(inv(n), n)
+print(inv(n))
+print(np.dot(inv(n), n))

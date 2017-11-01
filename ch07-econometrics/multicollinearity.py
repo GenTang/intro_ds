@@ -73,6 +73,7 @@ def uncorrelatedVariable(data):
     """
     用不相关的x1，x2搭建回归模型
     """
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("x1和x2的相关系数为：%s" % scss.pearsonr(data["x1"], data["x2"])[0])
     Y = data["y"]
     X = sm.add_constant(data["x1"])

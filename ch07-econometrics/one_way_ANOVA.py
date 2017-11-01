@@ -48,6 +48,7 @@ def oneWayANOVA(data):
     print(aovTable)
     # 计算eta sqaured
     etaSquared = aovTable["sum_sq"][0] / (aovTable["sum_sq"][0] + aovTable["sum_sq"][1])
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("Eta squared等于：%.3f" % etaSquared)
 
 

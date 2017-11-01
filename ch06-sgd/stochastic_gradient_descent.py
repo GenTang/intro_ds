@@ -80,6 +80,7 @@ def stochasticGradientDescent(X, Y, model, learningRate=0.01,
                 break
         step += 1
     summaryWriter.close()
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     # 输出最终结果
     print("模型参数：\n%s" % sess.run(model["model_params"]))
     print("训练轮次：%s" % step)

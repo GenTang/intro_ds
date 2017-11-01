@@ -25,11 +25,21 @@ def readData(dataPath, testRatio):
     """
     读取数据，根据比例将数据分为训练集和测试集
     """
-    with open(dataPath, "rb") as f:
-        rawContent = f.read()
-    rawContent = rawContent.rstrip("\n").split("\n")
-    # 数据中有一些特殊格式需要处理
-    content = [re.sub(r"\s\[|\]\s|^\d+", "", i).decode("utf-8").split() for i in rawContent]
+    # 在Python3中，读取文件时就会decode
+    if sys.version_info[0] == 3:
+        with open(dataPath, "r", encoding="utf-8", errors="ignore") as f:
+            rawContent = f.read()
+            rawContent = rawContent.rstrip("\n").split("\n")
+            # 数据中有一些特殊格式需要处理
+            content = [re.sub(r"\s\[|\]\s|^\d+", "", i).split()
+                for i in rawContent]
+    else:
+        with open(dataPath, "r") as f:
+            rawContent = f.read()
+            rawContent = rawContent.rstrip("\n").split("\n")
+            # 数据中有一些特殊格式需要处理
+            content = [re.sub(r"\s\[|\]\s|^\d+", "", i).decode("utf-8").split()
+                for i in rawContent]
     return train_test_split(content, test_size=testRatio, random_state=2017)
 
 
@@ -84,6 +94,7 @@ def printSegmentation(X, y):
     for i in range(len(y)):
         if y[i].startswith("S") | y[i].startswith("B"):
             xx[i] = " / " + xx[i]
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("".join(xx))
 
 

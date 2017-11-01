@@ -158,6 +158,7 @@ def analyseData(data):
     """
     # 计算sex, label交叉报表
     cross1 = pd.crosstab(data["sex"], data["label"])
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("显示sex, label交叉报表：")
     print(cross1)
     # 将交叉报表图形化

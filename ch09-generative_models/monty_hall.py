@@ -26,7 +26,8 @@ def hostOpenDoor(prize, initChoice):
     """
     hostDoor = []
     for i in range(len(prize)):
-        doors = range(3)
+        # Python2和Python3的range并不兼容，所以使用list(range)
+        doors = list(range(3))
         doors.remove(prize[i])
         if initChoice[i] in doors:
             doors.remove(initChoice[i])

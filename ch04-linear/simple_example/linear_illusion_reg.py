@@ -93,6 +93,7 @@ def addReg(data):
     _X["z"] = generateRandomVar()
     # 加入常量变量
     X = sm.add_constant(_X)
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("加入惩罚项（权重为0.1）的估计结果：\n%s" % trainRegulizedModel(X, Y, 0.1).params)
     # 可视化惩罚项效果
     visualizeModel(X, Y)

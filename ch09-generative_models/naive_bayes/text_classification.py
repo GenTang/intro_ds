@@ -56,13 +56,22 @@ def readContent(dataPath):
     """
     读取文件里的内容，并略去不能正确解码的行
     """
-    with open(dataPath, "rb") as f:
-        rawContent = f.read()
+    # 在Python3中，读取文件时就会decode
+    if sys.version_info[0] == 3:
+        with open(dataPath, "r", errors="ignore") as f:
+            rawContent = f.read()
+    else:
+        with open(dataPath, "r") as f:
+            rawContent = f.read()
     # 语料库使用GBK编码，对于不能编码的问题，选择略过
     content = ""
     for i in rawContent.split("\n"):
         try:
-            content += i.decode("GBK")
+            # 在Python3中，str不需要decode
+            if sys.version_info[0] == 3:
+                content += i
+            else:
+                content += i.decode("GBK")
         except UnicodeDecodeError:
             pass
     return content
@@ -111,6 +120,7 @@ def printResult(doc, pred):
     输出样例的预测结果
     """
     for d, p in zip(doc, pred):
+        # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
         print("%s ==> %s" % (d.replace(" ", ""), p))
 
 
@@ -155,7 +165,11 @@ def textClassifier(dataPath, category):
     trainData["content"] = trainData.apply(lambda x: " ".join(x["content"]), axis=1)
     testData["content"] = testData.apply(lambda x: " ".join(x["content"]), axis=1)
     _docs = ["前国际米兰巨星雷科巴正式告别足坛","达芬奇：伟大的艺术家"]
-    testDocs = [" ".join(i.decode("utf-8")) for i in _docs]
+    # 在Python3中，str不需要decode
+    if sys.version_info[0] == 3:
+        testDocs = [" ".join(i) for i in _docs]
+    else:
+        testDocs = [" ".join(i.decode("utf-8")) for i in _docs]
     trainModel(trainData, testData, testDocs, _docs)
 
 

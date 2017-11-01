@@ -9,6 +9,12 @@
 from __future__ import print_function
 
 import os
+import sys
+
+if sys.version_info[0] == 3:
+    from functools import reduce
+else:
+    pass
 
 from util import loadData
 
@@ -133,6 +139,7 @@ class CNN(object):
         输出模型的评估结果
         """
         print("epoch %s" % epoch)
+        # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
         print("训练集的准确率 %.3f" % self._doEval(self.trainSet["X"], self.trainSet["Y"]))
         print("验证集的准确率 %.3f" % self._doEval(self.validationSet["X"],
             self.validationSet["Y"]))

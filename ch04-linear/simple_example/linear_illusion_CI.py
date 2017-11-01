@@ -114,6 +114,7 @@ if __name__ == "__main__":
         dataPath = "%s/data/simple_example.csv" % homePath
     data = readData(dataPath)
     print("***************************************************")
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("加入不相关的新变量，新变量的系数被错误估计为不等于0")
     print("***************************************************")
     confidenceInterval(data)

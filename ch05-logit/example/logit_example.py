@@ -52,6 +52,7 @@ def analyseData(data):
     """
     通过统计方法，了解数据性质
     """
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("显示基本统计信息：")
     print(data.describe(include="all"))
     # 计算education_num, label交叉报表

@@ -21,4 +21,5 @@ def getFrequentItem(data):
     """
     _hash = wordCount(data)
     maxNum = max(_hash.values())
-    return filter(lambda key: _hash[key] == maxNum, _hash)
+    # Python2和Python3的filter并不兼容，所以使用list(filter())
+    return list(filter(lambda key: _hash[key] == maxNum, _hash))

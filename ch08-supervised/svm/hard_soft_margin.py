@@ -66,8 +66,9 @@ def visualize(data, C, res):
     ax.contour(X1, X2, hard, levels=[-1, 0, 1], colors=["g", "g", "g"],
         linestyles=["--", "-.", "--"])
     ax1 = fig.add_subplot(1, 2, 2)
-    coef = map(lambda x: x.coef_, res)
-    margin = map(lambda x: 2.0 / np.sqrt(x.dot(x.T)).item(), coef)
+    # Python2和Python3的map并不兼容，所以使用list(map)
+    coef = list(map(lambda x: x.coef_, res))
+    margin = list(map(lambda x: 2.0 / np.sqrt(x.dot(x.T)).item(), coef))
     ax1.plot(C, margin, label="margin width")
     ax1.set_xscale('log')
     legend = plt.legend(shadow=True, loc="best")

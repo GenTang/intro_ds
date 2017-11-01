@@ -12,6 +12,7 @@ import numpy
 
 
 # Windows下的存储路径与Linux并不相同
+# 在Windows下使用Cython请参考https://github.com/cython/cython/wiki/InstallingOnWindows
 if os.name == "nt":
     setup(
         name = "yahmm",

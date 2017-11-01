@@ -73,5 +73,6 @@ if __name__ == "__main__":
     spark = startSpark()
     data = spark.createDataFrame(generateData(1000))
     w = gradientDescent(data, "y", ["x", "const"])
+    # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("模型的参数为：%s" % [2, 3])
     print("参数的估计值为：%s" % w)

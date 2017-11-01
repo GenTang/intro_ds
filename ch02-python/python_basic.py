@@ -7,6 +7,13 @@
 # 保证脚本与Python3兼容
 from __future__ import print_function
 
+import sys
+
+if sys.version_info[0] == 3:
+    from functools import reduce
+else:
+    pass
+
 
 # dict基本操作
 ## 初始化一个dict类型变量x
@@ -100,7 +107,8 @@ def addOne(data):
 
 print(addOne(l))
 ## 通过内置的map函数和lambda表达式可以达到同样的效果
-print(map(lambda x: x + 1, l))
+# Python2和Python3的map并不兼容，所以使用list(map)
+print(list(map(lambda x: x + 1, l)))
 ## 达到同样功能的列表生成式
 print([i + 1 for i in l])
 
@@ -108,10 +116,12 @@ print([i + 1 for i in l])
 ## lambda表达式和python函数一样，也可以接受函数作为参数
 twoTimes = lambda x: x * 2
 square = lambda x: x ** 2
-print([map(lambda x: x(i), [twoTimes, square]) for i in l])
+# Python2和Python3的map并不兼容，所以使用list(map)
+print([list(map(lambda x: x(i), [twoTimes, square])) for i in l])
 
 ## 内置filter函数，选择l中的偶数
-filter(lambda x: x % 2 == 0, l)
+# Python2和Python3的filter并不兼容，所以使用list(filter)
+print(list(filter(lambda x: x % 2 == 0, l)))
 
 ## 内置reduce函数，计算l的和
-reduce(lambda accumValue, newValue: accumValue + newValue, l, 0)
+print(reduce(lambda accumValue, newValue: accumValue + newValue, l, 0))

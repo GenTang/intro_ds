@@ -73,21 +73,21 @@ def visualizeModel(model, data, features, labels, error, score):
         # 在Python3中，str不需要decode
         if sys.version_info[0] == 3:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3f * x$ + %.3f'\
+                label=u'%s: $y = %.3fx$ + %.3f'\
                 % ("预测值", model.coef_, model.intercept_))
         else:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3f * x$ + %.3f'\
+                label=u'%s: $y = %.3fx$ + %.3f'\
                 % ("预测值".decode("utf-8"), model.coef_, model.intercept_))
     else:
         # 在Python3中，str不需要decode
         if sys.version_info[0] == 3:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3f * x$ - %.3f'\
+                label=u'%s: $y = %.3fx$ - %.3f'\
                 % ("预测值", model.coef_, abs(model.intercept_)))
         else:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3f * x$ - %.3f'\
+                label=u'%s: $y = %.3fx$ - %.3f'\
                 % ("预测值".decode("utf-8"), model.coef_, abs(model.intercept_)))
     legend = plt.legend(shadow=True)
     legend.get_frame().set_facecolor('#6F93AE')

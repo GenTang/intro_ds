@@ -93,8 +93,8 @@ def visualization(model, x, y):
     ax1.set_ylabel(r"$\tilde{y}$")
     ax1.text(0.05, 0.95,
         r"$\tilde{x} = x$" + "\n"\
-        + r"$\tilde{y} = \ln(\frac{p}{1-p}) + (p - y) * \ln(1 - p) * p$" + "\n"\
-        + r"$p = \frac{1}{e^{-1.4x + 0.2}}$",
+        + r"$\tilde{y} = \ln(\frac{p}{1-p}) + (p - y)\ln(1 - p)p$" + "\n"\
+        + r"$p = \frac{1}{{\rm e}^{-1.4x + 0.2}}$",
         style="italic", verticalalignment="top", horizontalalignment="left",
         transform=ax1.transAxes, color="m", fontsize=13)
     # 将原始数据表现在新的空间里

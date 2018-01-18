@@ -68,12 +68,12 @@ def visualizeModel(re, data, features, labels):
     if sys.version_info[0] == 3:
         ax.plot(data[features], preUp, "r--", label=u'%s' % "95%置信区间")
         ax.plot(data[features], re.predict(data[features]), color='r',
-            label=u'%s: $y = %.3f * x$'\
+            label=u'%s: $y = %.3fx$'\
             % ("预测值", re.params[features]))
     else:
         ax.plot(data[features], preUp, "r--", label=u'%s' % "95%置信区间".decode("utf-8"))
         ax.plot(data[features], re.predict(data[features]), color='r',
-            label=u'%s: $y = %.3f * x$'\
+            label=u'%s: $y = %.3fx$'\
             % ("预测值".decode("utf-8"), re.params[features]))
     ax.plot(data[features], preLow, "r--")
     legend = plt.legend(shadow=True)

@@ -5,7 +5,8 @@
 
 本书由人民邮电出版社出版，网购地址为：
 
-* [当当网](http://product.dangdang.com/25269988.html)
+* [京东](https://item.jd.com/12346637.html)
+* [当当](http://product.dangdang.com/25269988.html)
 
 
 ## 作者想说的话

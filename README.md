@@ -7,6 +7,8 @@
 
 * [京东](https://item.jd.com/12346637.html)
 * [当当](http://product.dangdang.com/25269988.html)
+* [天猫](https://detail.tmall.com/item.htm?spm=a230r.1.14.149.22931839lGVS6N&id=569016593633&ns=1&abbucket=7)
+* [亚马逊](https://www.amazon.cn/dp/B07CPDVRHV/ref=sr_1_1?ie=UTF8&qid=1525745509&sr=8-1&keywords=%E7%B2%BE%E9%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6)
 
 
 ## 作者想说的话

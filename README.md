@@ -10,6 +10,9 @@
 * [天猫](https://detail.tmall.com/item.htm?spm=a230r.1.14.149.22931839lGVS6N&id=569016593633&ns=1&abbucket=7)
 * [亚马逊](https://www.amazon.cn/dp/B07CPDVRHV/ref=sr_1_1?ie=UTF8&qid=1525745509&sr=8-1&keywords=%E7%B2%BE%E9%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6)
 
+如果发现书中有纰漏之处，请在[这里勘误](https://www.epubit.com/book/detail/22985)，谢谢大家。
+
+如果大家对本书有赞赏、建议、批评之声，请在[豆瓣](https://book.douban.com/subject/30217266/)上留下你们的看法，再次谢谢大家。
 
 ## 作者想说的话
 

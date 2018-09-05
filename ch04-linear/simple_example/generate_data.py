@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 
-def generateData():
+def generate_data():
     """
     随机生成数据
     """
@@ -22,14 +22,14 @@ def generateData():
     error = np.round(np.random.randn(20), 2)
     y = x + error
     return pd.DataFrame({"x": x, "y": y})
-    
 
-def visualizeData(data):
+
+def visualize_data(data):
     """
     数据可视化
     """
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框，在里面只画一幅图
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(111)
@@ -53,11 +53,11 @@ def visualizeData(data):
 
 
 if __name__ == "__main__":
-    data = generateData()
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    data = generate_data()
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # 存储数据，Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        data.to_csv("%s\\data\\simple_example.csv" % homePath, index=False)
+        data.to_csv("%s\\data\\simple_example.csv" % home_path, index=False)
     else:
-        data.to_csv("%s/data/simple_example.csv" % homePath, index=False)
-    visualizeData(data)
+        data.to_csv("%s/data/simple_example.csv" % home_path, index=False)
+    visualize_data(data)

@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn import linear_model
 
 
-def evaluateModel(model, testData, features, labels):
+def evaluate_model(model, test_data, features, labels):
     """
     计算线性模型的均方差和决定系数
 
@@ -35,18 +35,18 @@ def evaluateModel(model, testData, features, labels):
     """
     # 均方差(The mean squared error)，均方差越小越好
     error = np.mean(
-        (model.predict(testData[features]) - testData[labels]) ** 2)
+        (model.predict(test_data[features]) - test_data[labels]) ** 2)
     # 决定系数(Coefficient of determination)，决定系数越接近1越好
-    score = model.score(testData[features], testData[labels])
+    score = model.score(test_data[features], test_data[labels])
     return error, score
 
 
-def visualizeModel(model, data, features, labels, error, score):
+def visualize_model(model, data, features, labels, error, score):
     """
     模型可视化
     """
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams['font.sans-serif']=['SimHei']
+    plt.rcParams['font.sans-serif'] = ['SimHei']
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -63,54 +63,53 @@ def visualizeModel(model, data, features, labels, error, score):
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.scatter(data[features], data[labels], color='b',
-            label=u'%s: $y = x + \epsilon$' % "真实值")
+                   label=u'%s: $y = x + \epsilon$' % "真实值")
     else:
         ax.scatter(data[features], data[labels], color='b',
-            label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
+                   label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
     # 根据截距的正负，打印不同的标签
     if model.intercept_ > 0:
         # 画线图，用红色线条表示模型结果
         # 在Python3中，str不需要decode
         if sys.version_info[0] == 3:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3fx$ + %.3f'\
-                % ("预测值", model.coef_, model.intercept_))
+                    label=u'%s: $y = %.3fx$ + %.3f'
+                    % ("预测值", model.coef_, model.intercept_))
         else:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3fx$ + %.3f'\
-                % ("预测值".decode("utf-8"), model.coef_, model.intercept_))
+                    label=u'%s: $y = %.3fx$ + %.3f'
+                    % ("预测值".decode("utf-8"), model.coef_, model.intercept_))
     else:
         # 在Python3中，str不需要decode
         if sys.version_info[0] == 3:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3fx$ - %.3f'\
-                % ("预测值", model.coef_, abs(model.intercept_)))
+                    label=u'%s: $y = %.3fx$ - %.3f'
+                    % ("预测值", model.coef_, abs(model.intercept_)))
         else:
             ax.plot(data[features], model.predict(data[features]), color='r',
-                label=u'%s: $y = %.3fx$ - %.3f'\
-                % ("预测值".decode("utf-8"), model.coef_, abs(model.intercept_)))
+                    label=u'%s: $y = %.3fx$ - %.3f'
+                    % ("预测值".decode("utf-8"), model.coef_, abs(model.intercept_)))
     legend = plt.legend(shadow=True)
     legend.get_frame().set_facecolor('#6F93AE')
     # 显示均方差和决定系数
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
-        ax.text(0.99, 0.01, 
-            u'%s%.3f\n%s%.3f'\
-            % ("均方差：", error, "决定系数：", score),
-            style='italic', verticalalignment='bottom', horizontalalignment='right',
-            transform=ax.transAxes, color='m', fontsize=13)
+        ax.text(0.99, 0.01,
+                u'%s%.3f\n%s%.3f' % ("均方差：", error, "决定系数：", score),
+                style='italic', verticalalignment='bottom', horizontalalignment='right',
+                transform=ax.transAxes, color='m', fontsize=13)
     else:
-         ax.text(0.99, 0.01, 
-            u'%s%.3f\n%s%.3f'\
-            % ("均方差：".decode("utf-8"), error, "决定系数：".decode("utf-8"), score),
-            style='italic', verticalalignment='bottom', horizontalalignment='right',
-            transform=ax.transAxes, color='m', fontsize=13)
+        ax.text(0.99, 0.01,
+                u'%s%.3f\n%s%.3f'
+                % ("均方差：".decode("utf-8"), error, "决定系数：".decode("utf-8"), score),
+                style='italic', verticalalignment='bottom', horizontalalignment='right',
+                transform=ax.transAxes, color='m', fontsize=13)
     # 展示上面所画的图片。图片将阻断程序的运行，直至所有的图片被关闭
     # 在Python shell里面，可以设置参数"block=False"，使阻断失效。
     plt.show()
 
 
-def trainModel(trainData, features, labels):
+def train_model(train_data, features, labels):
     """
     利用训练数据，估计模型参数
 
@@ -129,11 +128,11 @@ def trainModel(trainData, features, labels):
     # 创建一个线性回归模型
     model = linear_model.LinearRegression()
     # 训练模型，估计模型参数
-    model.fit(trainData[features], trainData[labels])
+    model.fit(train_data[features], train_data[labels])
     return model
 
 
-def linearModel(data):
+def build_linear_model(data):
     """
     线性回归模型建模步骤展示
 
@@ -144,17 +143,17 @@ def linearModel(data):
     features = ["x"]
     labels = ["y"]
     # 划分训练集和测试集
-    trainData = data[:15]
-    testData = data[15:]
+    train_data = data[:15]
+    test_data = data[15:]
     # 产生并训练模型
-    model = trainModel(trainData, features, labels)
+    model = train_model(train_data, features, labels)
     # 评价模型效果
-    error, score = evaluateModel(model, testData, features, labels)
+    error, score = evaluate_model(model, test_data, features, labels)
     # 图形化模型结果
-    visualizeModel(model, data, features, labels, error, score)
+    visualize_model(model, data, features, labels, error, score)
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -163,11 +162,11 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\simple_example.csv" % homePath
+        data_path = "%s\\data\\simple_example.csv" % home_path
     else:
-        dataPath = "%s/data/simple_example.csv" % homePath
-    data = readData(dataPath)
-    linearModel(data)
+        data_path = "%s/data/simple_example.csv" % home_path
+    data = read_data(data_path)
+    build_linear_model(data)

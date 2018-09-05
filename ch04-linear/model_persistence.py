@@ -17,7 +17,7 @@ from sklearn2pmml import PMMLPipeline
 from sklearn2pmml import sklearn2pmml
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -25,17 +25,16 @@ def readData(path):
     return data
 
 
-def saveAsPMML(data, modelPath):
+def save_as_PMML(data, modelPath):
     """
     利用sklearn2pmml将模型存储为PMML
     """
-    model = PMMLPipeline([
-	("regressor", linear_model.LinearRegression())])
+    model = PMMLPipeline([("regressor", linear_model.LinearRegression())])
     model.fit(data[["x"]], data["y"])
     sklearn2pmml(model, "linear.pmml", with_repr=True)
 
 
-def trainAndSaveModel(data, modelPath):
+def train_and_save_model(data, modelPath):
     """
     使用pickle保存训练好的模型
     """
@@ -45,7 +44,7 @@ def trainAndSaveModel(data, modelPath):
     return model
 
 
-def loadModel(modelPath):
+def load_model(modelPath):
     """
     使用pickle读取已有模型
     """
@@ -54,16 +53,16 @@ def loadModel(modelPath):
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\simple_example\\data\\simple_example.csv" % homePath
+        data_path = "%s\\simple_example\\data\\simple_example.csv" % home_path
     else:
-        dataPath = "%s/simple_example/data/simple_example.csv" % homePath
-    data = readData(dataPath)
-    modelPath = "linear_model"
-    originalModel = trainAndSaveModel(data, modelPath)
-    model = loadModel(modelPath)
-    print("保存的模型对1的预测值：%s" % originalModel.predict([[1]]))
+        data_path = "%s/simple_example/data/simple_example.csv" % home_path
+    data = read_data(data_path)
+    model_path = "linear_model"
+    original_model = train_and_save_model(data, model_path)
+    model = load_model(model_path)
+    print("保存的模型对1的预测值：%s" % original_model.predict([[1]]))
     print("读取的模型对1的预测值：%s" % model.predict([[1]]))
-    saveAsPMML(data, "linear.pmml")
+    save_as_PMML(data, "linear.pmml")

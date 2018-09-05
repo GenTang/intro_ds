@@ -15,14 +15,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def generateRandomVar():
+def generate_random_var():
     """
     """
     np.random.seed(4873)
-    return np.random.randint(2, size=20) 
+    return np.random.randint(2, size=20)
 
 
-def evaluateModel(res):
+def evaluate_model(res):
     """
     分析线性回归模型的统计性质
     """
@@ -39,7 +39,7 @@ def evaluateModel(res):
     print(res.f_test(["z=0", "const=0"]))
 
 
-def trainModel(X, Y):
+def train_model(X, Y):
     """
     训练模型
     """
@@ -48,7 +48,7 @@ def trainModel(X, Y):
     return res
 
 
-def confidenceInterval(data):
+def confidence_interval(data):
     """
     """
     features = ["x"]
@@ -56,14 +56,14 @@ def confidenceInterval(data):
     Y = data[labels]
     _X = data[features]
     # 加入新的随机变量，次变量的系数应为0
-    _X["z"] = generateRandomVar()
+    _X["z"] = generate_random_var()
     # 加入常量变量
     X = sm.add_constant(_X)
-    res = trainModel(X, Y)
-    evaluateModel(res)
-    
+    res = train_model(X, Y)
+    evaluate_model(res)
 
-def generateData():
+
+def generate_data():
     """
     生成模型数据
     """
@@ -76,13 +76,13 @@ def generateData():
     return pd.DataFrame({"x": x, "z": z, "y": y})
 
 
-def wrongCoef():
+def wrong_coef():
     """
     由于新变量的加入，正效应变为负效应
     """
     features = ["x", "z"]
     labels = ["y"]
-    data = generateData()
+    data = generate_data()
     X = data[features]
     Y = data[labels]
     # 没有多余变量时，x系数符号估计正确，为正
@@ -97,7 +97,7 @@ def wrongCoef():
     print(res1.summary())
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -106,19 +106,19 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\simple_example.csv" % homePath
+        data_path = "%s\\data\\simple_example.csv" % home_path
     else:
-        dataPath = "%s/data/simple_example.csv" % homePath
-    data = readData(dataPath)
+        data_path = "%s/data/simple_example.csv" % home_path
+    data = read_data(data_path)
     print("***************************************************")
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("加入不相关的新变量，新变量的系数被错误估计为不等于0")
     print("***************************************************")
-    confidenceInterval(data)
+    confidence_interval(data)
     print("**********************************************")
     print("加入不相关的新变量，旧变量系数的符号被错误估计")
     print("**********************************************")
-    wrongCoef()
+    wrong_coef()

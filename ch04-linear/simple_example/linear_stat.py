@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def modelSummary(re):
+def model_summary(re):
     """
     分析线性回归模型的统计性质
     """
@@ -35,14 +35,14 @@ def modelSummary(re):
     print(re.f_test(["x=1", "const=0"]))
 
 
-def visualizeModel(re, data, features, labels):
+def visualize_model(re, data, features, labels):
     """
     模型可视化
     """
     # 计算预测结果的标准差，预测下界，预测上界
-    prstd, preLow, preUp = wls_prediction_std(re, alpha=0.05)
+    pre_std, pre_low, pre_up = wls_prediction_std(re, alpha=0.05)
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams['font.sans-serif']=['SimHei']
+    plt.rcParams['font.sans-serif'] = ['SimHei']
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -59,29 +59,27 @@ def visualizeModel(re, data, features, labels):
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.scatter(data[features], data[labels], color='b',
-            label=u'%s: $y = x + \epsilon$' % "真实值")
+                   label=u'%s: $y = x + \epsilon$' % "真实值")
     else:
         ax.scatter(data[features], data[labels], color='b',
-            label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
+                   label=u'%s: $y = x + \epsilon$' % "真实值".decode("utf-8"))
     # 画线图，用红色虚线表示95%置信区间
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
-        ax.plot(data[features], preUp, "r--", label=u'%s' % "95%置信区间")
+        ax.plot(data[features], pre_up, "r--", label=u'%s' % "95%置信区间")
         ax.plot(data[features], re.predict(data[features]), color='r',
-            label=u'%s: $y = %.3fx$'\
-            % ("预测值", re.params[features]))
+                label=u'%s: $y = %.3fx$' % ("预测值", re.params[features]))
     else:
-        ax.plot(data[features], preUp, "r--", label=u'%s' % "95%置信区间".decode("utf-8"))
+        ax.plot(data[features], pre_up, "r--", label=u'%s' % "95%置信区间".decode("utf-8"))
         ax.plot(data[features], re.predict(data[features]), color='r',
-            label=u'%s: $y = %.3fx$'\
-            % ("预测值".decode("utf-8"), re.params[features]))
-    ax.plot(data[features], preLow, "r--")
+                label=u'%s: $y = %.3fx$' % ("预测值".decode("utf-8"), re.params[features]))
+    ax.plot(data[features], pre_low, "r--")
     legend = plt.legend(shadow=True)
     legend.get_frame().set_facecolor('#6F93AE')
     plt.show()
 
 
-def trainModel(X, Y):
+def train_model(X, Y):
     """
     训练模型
     """
@@ -90,7 +88,7 @@ def trainModel(X, Y):
     return re
 
 
-def linearModel(data):
+def linear_model(data):
     """
     线性回归统计性质分析步骤展示
 
@@ -104,18 +102,18 @@ def linearModel(data):
     # 加入常量变量
     X = sm.add_constant(data[features])
     # 构建模型
-    re = trainModel(X, Y)
+    re = train_model(X, Y)
     # 分析模型效果
-    modelSummary(re)
+    model_summary(re)
     # const并不显著，去掉这个常量变量
-    resNew = trainModel(data[features], Y)
+    res_new = train_model(data[features], Y)
     # 输出新模型的分析结果
-    print(resNew.summary())
+    print(res_new.summary())
     # 将模型结果可视化
-    visualizeModel(resNew, data, features, labels)
+    visualize_model(res_new, data, features, labels)
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -124,11 +122,11 @@ def readData(path):
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\simple_example.csv" % homePath
+        data_path = "%s\\data\\simple_example.csv" % home_path
     else:
-        dataPath = "%s/data/simple_example.csv" % homePath
-    data = readData(dataPath)
-    linearModel(data)
+        data_path = "%s/data/simple_example.csv" % home_path
+    data = read_data(data_path)
+    linear_model(data)

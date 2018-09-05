@@ -13,7 +13,7 @@ from sklearn.feature_extraction import image
 from spectral import spectral_clustering
 
 
-def readImg(path):
+def read_img(path):
     """
     读取图片，并将其转换为邻接矩阵
     """
@@ -37,30 +37,29 @@ def visualize(im, labels):
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(1, 1, 1)
     ax.imshow(im, cmap=plt.cm.gray, alpha=0.8)
-    ax.contour(labels, contours=range(3), colors="k", linewidths=3,
-        linestyles="dashdot")
+    ax.contour(labels, contours=range(3), colors="k", linewidths=3, linestyles="dashdot")
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
-    plt.show()    
+    plt.show()
 
 
 def run(path):
     """
     程序的入口
     """
-    im, graph = readImg(path)
+    im, graph = read_img(path)
     # 使用AMG算法来加速计算，但需要先安装第三方库pyamg
     labels = spectral_clustering(graph, n_clusters=3,
-        assign_labels="discretize", eigen_solver="amg")
+                                 assign_labels="discretize", eigen_solver="amg")
     labels = labels.reshape(im.shape)
     visualize(im, labels)
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\photo.jpg" % homePath
+        data_path = "%s\\data\\photo.jpg" % home_path
     else:
-        dataPath = "%s/data/photo.jpg" % homePath
-    run(dataPath)
+        data_path = "%s/data/photo.jpg" % home_path
+    run(data_path)

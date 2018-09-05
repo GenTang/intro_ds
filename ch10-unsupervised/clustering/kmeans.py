@@ -10,7 +10,7 @@ from sklearn.cluster import KMeans
 from sklearn.datasets.samples_generator import make_blobs
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成随机的聚类数据
     """
@@ -19,7 +19,7 @@ def generateData(n):
     return X
 
 
-def visualizeData(data):
+def visualize_data(data):
     """
     将训练数据可视化
     """
@@ -39,20 +39,19 @@ def _visualize(ax, data, labels, centers):
     if labels is None:
         ax.scatter(data[:, 0], data[:, 1])
     else:
-        ax.scatter(data[:, 0], data[:, 1], c=[colors[i] for i in labels],
-            marker="o", alpha=0.6)
+        ax.scatter(data[:, 0], data[:, 1], c=[colors[i] for i in labels], marker="o", alpha=0.6)
     ax.scatter(centers[:, 0], centers[:, 1], marker="*", c=colors, edgecolors="white",
-        s=700., linewidths=2)
+               s=700., linewidths=2)
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
-    
 
-def trainModel(data, step):
+
+def train_model(data, step):
     """
     使用KMeans模型对数据聚类
     """
     model = KMeans(n_clusters=2, init=np.array([[1, -1], [-1, 1]]),
-        max_iter=step, algorithm="full", n_init=1)
+                   max_iter=step, algorithm="full", n_init=1)
     model.fit(data)
     return model
 
@@ -68,13 +67,13 @@ def run(data):
         if i == 0:
             _visualize(ax, data, None, np.array([[1, -1], [-1, 1]]))
         else:
-            model = trainModel(data, i)
+            model = train_model(data, i)
             _visualize(ax, data, model.labels_, model.cluster_centers_)
     plt.show()
 
 
 if __name__ == "__main__":
     np.random.seed(1001)
-    data = generateData(400)
-    visualizeData(data)
+    data = generate_data(400)
+    visualize_data(data)
     run(data)

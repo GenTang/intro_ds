@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from spectral_embedding_ import spectral_embedding
 
 
-def generateData():
+def generate_data():
     """
     生成邻接矩阵
     """
@@ -38,7 +38,7 @@ def run():
     """
     程序的入口
     """
-    data = generateData()
+    data = generate_data()
     # 使用spectral embedding将数据转换为2维向量
     re = spectral_embedding(data, n_components=2, drop_first=False)
     visualize(re)

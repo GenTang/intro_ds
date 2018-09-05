@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 
-def generateData(n):
+def generate_data(n):
     """
     随机生成训练数据
     """
@@ -39,8 +39,7 @@ def visualize(data, model):
     m = model.mean_
     for v, l in zip(model.components_, model.explained_variance_):
         start, end = m, m + 1.5 * np.sqrt(l) * v
-        ax.annotate("", xy=end, xytext=start,
-            arrowprops=dict(facecolor="k", width=2.0))
+        ax.annotate("", xy=end, xytext=start, arrowprops=dict(facecolor="k", width=2.0))
     ax.set_xlim([-6, 6])
     ax.set_ylim([-6, 6])
     ax.get_xaxis().set_visible(False)
@@ -48,7 +47,7 @@ def visualize(data, model):
     plt.show()
 
 
-def trainModel(data):
+def train_model(data):
     """
     使用PCA对数据进行降维
     """
@@ -58,6 +57,6 @@ def trainModel(data):
 
 
 if __name__ == "__main__":
-    data = generateData(200)
-    model = trainModel(data)
+    data = generate_data(200)
+    model = train_model(data)
     visualize(data, model)

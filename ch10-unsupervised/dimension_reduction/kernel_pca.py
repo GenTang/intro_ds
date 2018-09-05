@@ -10,7 +10,7 @@ from sklearn.datasets import make_moons
 from sklearn.decomposition import PCA, KernelPCA
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成线性和非线性数据
     """
@@ -18,11 +18,11 @@ def generateData(n):
     error = np.random.randn(n)
     y = 1 * x + error
     linear = np.c_[x, y]
-    nonLinear, _ = make_moons(n_samples=n, noise=0.05)
-    return linear, nonLinear
+    non_linear, _ = make_moons(n_samples=n, noise=0.05)
+    return linear, non_linear
 
 
-def trainPCA(data):
+def train_PCA(data):
     """
     使用线性主成分分析对数据进行降维
     """
@@ -31,7 +31,7 @@ def trainPCA(data):
     return model
 
 
-def trainKernelPCA(data):
+def train_kernelPCA(data):
     """
     使用带有核函数的主成分分析对数据进行降维
     """
@@ -49,13 +49,12 @@ def visualize(ax, data, model):
     v = model.components_[0]
     l = data[:, 0].max() - data[:, 0].min()
     start, end = m, m + .5 * l * v / np.linalg.norm(v)
-    ax.annotate("", xy=end, xytext=start,
-        arrowprops=dict(facecolor="k", width=2.0))
+    ax.annotate("", xy=end, xytext=start, arrowprops=dict(facecolor="k", width=2.0))
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
 
-def visualizeKernelPCA(ax, data, labels):
+def visualize_kernelPCA(ax, data, labels):
     """
     将kernel PCA的降维结果可视化
     """
@@ -63,26 +62,26 @@ def visualizeKernelPCA(ax, data, labels):
     markers = ["^", "o"]
     for i in range(len(colors)):
         ax.scatter(data[labels == i, 0], data[labels == i, 1],
-            color=colors[i], s=50, marker=markers[i])
+                   color=colors[i], s=50, marker=markers[i])
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
 
-def runPCA(linear, nonLinear):
+def run_PCA(linear, non_linear):
     """
     使用PCA分别对线性和非线性数据进行降维
     """
     fig = plt.figure(figsize=(12, 6), dpi=80)
     ax = fig.add_subplot(1, 2, 1)
-    model = trainPCA(linear)
+    model = train_PCA(linear)
     visualize(ax, linear, model)
     ax = fig.add_subplot(1, 2, 2)
-    model = trainPCA(nonLinear)
-    visualize(ax, nonLinear, model)
+    model = train_PCA(non_linear)
+    visualize(ax, non_linear, model)
     plt.show()
 
 
-def runKernelPCA():
+def run_kernelPCA():
     """
     使用kernel PCA对数据降维
     """
@@ -90,25 +89,25 @@ def runKernelPCA():
     fig = plt.figure(figsize=(10, 10), dpi=80)
     # 将原始数据可视化
     ax = fig.add_subplot(2, 2, 1)
-    visualizeKernelPCA(ax, data, labels)
+    visualize_kernelPCA(ax, data, labels)
     # 使用PCA对数据降维，并将结果可视化
     ax = fig.add_subplot(2, 2, 2)
-    model = trainPCA(data)
+    model = train_PCA(data)
     x = model.transform(data)[:, 0]
-    visualizeKernelPCA(ax, np.c_[x, [0] * len(x)], labels)
+    visualize_kernelPCA(ax, np.c_[x, [0] * len(x)], labels)
     # 使用kernel PCA对数据降维，并将结果可视化
     ax = fig.add_subplot(2, 2, 3)
-    model = trainKernelPCA(data)
+    model = train_kernelPCA(data)
     x = model.transform(data)[:, 0]
-    visualizeKernelPCA(ax, np.c_[x, [0] * len(x)], labels)
+    visualize_kernelPCA(ax, np.c_[x, [0] * len(x)], labels)
     # 展示数据在kernel PCA第一和第二主成分的降维结果
     ax = fig.add_subplot(2, 2, 4)
-    visualizeKernelPCA(ax, model.transform(data), labels)
+    visualize_kernelPCA(ax, model.transform(data), labels)
     plt.show()
 
 
 if __name__ == "__main__":
     np.random.seed(20001)
-    linear, nonLinear = generateData(200)
-    runPCA(linear, nonLinear)
-    runKernelPCA()
+    linear, non_linear = generate_data(200)
+    run_PCA(linear, non_linear)
+    run_kernelPCA()

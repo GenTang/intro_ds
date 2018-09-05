@@ -11,10 +11,10 @@ import os
 
 import tensorflow as tf
 import numpy as np
-from utils import createSummaryWriter, generateLinearData, createLinearModel
+from utils import create_summary_writer, generate_linear_data, create_linear_model
 
 
-def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
+def gradient_descent(X, Y, model, learning_rate=0.01, max_iter=10000, tol=1.e-6):
     """
     利用梯度下降法训练模型。
 
@@ -27,7 +27,7 @@ def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
     model : dict, 里面包含模型的参数，损失函数，自变量，应变量。
     """
     # 确定最优化算法
-    method = tf.train.GradientDescentOptimizer(learning_rate=learningRate)
+    method = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
     optimizer = method.minimize(model["loss_function"])
     # 增加日志
     tf.summary.scalar("loss_function", model["loss_function"])
@@ -39,9 +39,9 @@ def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
     # tensorboard --logdir logs/
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        summaryWriter = createSummaryWriter("logs\\gradient_descent")
+        summary_writer = create_summary_writer("logs\\gradient_descent")
     else:
-        summaryWriter = createSummaryWriter("logs/gradient_descent")
+        summary_writer = create_summary_writer("logs/gradient_descent")
     # tensorflow开始运行
     sess = tf.Session()
     # 产生初始参数
@@ -50,21 +50,21 @@ def gradientDescent(X, Y, model, learningRate=0.01, maxIter=10000, tol=1.e-6):
     sess.run(init)
     # 迭代梯度下降法
     step = 0
-    prevLoss = np.inf
+    prev_loss = np.inf
     diff = np.inf
     # 当损失函数的变动小于阈值或达到最大循环次数，则停止迭代
-    while (step < maxIter) & (diff > tol):
-        _, summaryStr, loss = sess.run(
-            [optimizer, summary, model["loss_function"]], 
+    while (step < max_iter) & (diff > tol):
+        _, summary_str, loss = sess.run(
+            [optimizer, summary, model["loss_function"]],
             feed_dict={model["independent_variable"]: X,
-                model["dependent_variable"]: Y})
+                       model["dependent_variable"]: Y})
         # 将运行细节写入目录
-        summaryWriter.add_summary(summaryStr, step)
+        summary_writer.add_summary(summary_str, step)
         # 计算损失函数的变动
-        diff = abs(prevLoss - loss)
-        prevLoss = loss
+        diff = abs(prev_loss - loss)
+        prev_loss = loss
         step += 1
-    summaryWriter.close()
+    summary_writer.close()
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     # 输出最终结果
     print("模型参数：\n%s" % sess.run(model["model_params"]))
@@ -80,12 +80,12 @@ def run():
     dimension = 30
     num = 10000
     # 随机产生模型数据
-    X, Y = generateLinearData(dimension, num)
+    X, Y = generate_linear_data(dimension, num)
     # 定义模型
-    model = createLinearModel(dimension)
+    model = create_linear_model(dimension)
     # 使用梯度下降法，估计模型参数
-    gradientDescent(X, Y, model)
+    gradient_descent(X, Y, model)
 
-    
+
 if __name__ == "__main__":
     run()

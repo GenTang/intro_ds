@@ -8,7 +8,7 @@ import numpy as np
 import tensorflow as tf
 
 
-def generateLinearData(dimension, num):
+def generate_linear_data(dimension, num):
     """
     随机产生线性模型数据
 
@@ -33,7 +33,7 @@ def generateLinearData(dimension, num):
     return x, y
 
 
-def createLinearModel(dimension):
+def create_linear_model(dimension):
     """
     搭建模型，包括数据中的自变量，应变量和损失函数
 
@@ -48,19 +48,19 @@ def createLinearModel(dimension):
     np.random.seed(1024)
     # 定义自变量和应变量
     x = tf.placeholder(tf.float64, shape=[None, dimension], name='x')
-    ## 将被预测值写成矩阵形式，会极大加快速度
+    # 将被预测值写成矩阵形式，会极大加快速度
     y = tf.placeholder(tf.float64, shape=[None, 1], name="y")
     # 定义参数估计值和预测值
-    betaPred = tf.Variable(np.random.random([dimension, 1]))
-    yPred = tf.matmul(x, betaPred, name="y_pred")
+    beta_pred = tf.Variable(np.random.random([dimension, 1]))
+    y_pred = tf.matmul(x, beta_pred, name="y_pred")
     # 定义损失函数
-    loss = tf.reduce_mean(tf.square(yPred - y))
+    loss = tf.reduce_mean(tf.square(y_pred - y))
     model = {"loss_function": loss, "independent_variable": x,
-        "dependent_variable": y, "prediction": yPred, "model_params": betaPred}
+             "dependent_variable": y, "prediction": y_pred, "model_params": beta_pred}
     return model
 
 
-def createSummaryWriter(logPath):
+def create_summary_writer(log_path):
     """
     检查所给路径是否已存在，如果存在删除原有日志。并创建日志写入对象
 
@@ -72,7 +72,7 @@ def createSummaryWriter(logPath):
     ----
     summaryWriter ：FileWriter，日志写入器
     """
-    if tf.gfile.Exists(logPath):
-        tf.gfile.DeleteRecursively(logPath)
-    summaryWriter = tf.summary.FileWriter(logPath, graph=tf.get_default_graph())
-    return summaryWriter
+    if tf.gfile.Exists(log_path):
+        tf.gfile.DeleteRecursively(log_path)
+    summary_writer = tf.summary.FileWriter(log_path, graph=tf.get_default_graph())
+    return summary_writer

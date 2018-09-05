@@ -8,9 +8,9 @@ import sys
 
 import matplotlib.pyplot as plt
 import timeit
-from utils import createSummaryWriter, generateLinearData, createLinearModel
-from gradient_descent import gradientDescent
-from stochastic_gradient_descent import stochasticGradientDescent
+from utils import create_summary_writer, generate_linear_data, create_linear_model
+from gradient_descent import gradient_descent
+from stochastic_gradient_descent import stochastic_gradient_descent
 
 
 def visualize(data):
@@ -18,7 +18,7 @@ def visualize(data):
     绘制两种算法的运行时间比较图
     """
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -42,29 +42,29 @@ def visualize(data):
     plt.show()
 
 
-def compareWithDiffSize():
+def compare_with_diff_size():
     """
     在不同数据量下，使用两种算法对同一模型做估计
     """
     re = []
     dimension = 20
-    model = createLinearModel(dimension)
+    model = create_linear_model(dimension)
     for i in range(1, 11):
         num = 10000 * i
-        X, Y = generateLinearData(dimension, num)
+        X, Y = generate_linear_data(dimension, num)
         # 使用梯度下降法估计模型
-        startTime = timeit.default_timer()
-        gradientDescent(X, Y, model)
-        endTime = timeit.default_timer()
-        gdTime = endTime - startTime
+        start_time = timeit.default_timer()
+        gradient_descent(X, Y, model)
+        end_time = timeit.default_timer()
+        gd_time = end_time - start_time
         # 使用随机梯度下降法估计模型
-        startTime = timeit.default_timer()
-        stochasticGradientDescent(X, Y, model)
-        endTime = timeit.default_timer()
-        sgdTime = endTime - startTime
-        re.append((num, gdTime, sgdTime))
+        start_time = timeit.default_timer()
+        stochastic_gradient_descent(X, Y, model)
+        end_time = timeit.default_timer()
+        sgd_time = end_time - start_time
+        re.append((num, gd_time, sgd_time))
     return re
 
 
 if __name__ == "__main__":
-    visualize(compareWithDiffSize())
+    visualize(compare_with_diff_size())

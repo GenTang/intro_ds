@@ -12,11 +12,11 @@ import os
 import tensorflow as tf
 import numpy as np
 import math
-from utils import createSummaryWriter, generateLinearData, createLinearModel
+from utils import create_summary_writer, generate_linear_data, create_linear_model
 
 
-def stochasticGradientDescent(X, Y, model, learningRate=0.01,
-        miniBatchFraction=0.01, epoch=10000, tol=1.e-6):
+def stochastic_gradient_descent(X, Y, model, learning_rate=0.01,
+                                mini_batch_fraction=0.01, epoch=10000, tol=1.e-6):
     """
     利用随机梯度下降法训练模型。
 
@@ -29,7 +29,7 @@ def stochasticGradientDescent(X, Y, model, learningRate=0.01,
     model : dict, 里面包含模型的参数，损失函数，自变量，应变量
     """
     # 确定最优化算法
-    method = tf.train.GradientDescentOptimizer(learning_rate=learningRate)
+    method = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
     optimizer = method.minimize(model["loss_function"])
     # 增加日志
     tf.summary.scalar("loss_function", model["loss_function"])
@@ -41,9 +41,9 @@ def stochasticGradientDescent(X, Y, model, learningRate=0.01,
     # tensorboard --logdir logs/
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        summaryWriter = createSummaryWriter("logs\\stochastic_gradient_descent")
+        summary_writer = create_summary_writer("logs\\stochastic_gradient_descent")
     else:
-        summaryWriter = createSummaryWriter("logs/stochastic_gradient_descent")
+        summary_writer = create_summary_writer("logs/stochastic_gradient_descent")
     # tensorflow开始运行
     sess = tf.Session()
     # 产生初始参数
@@ -52,34 +52,34 @@ def stochasticGradientDescent(X, Y, model, learningRate=0.01,
     sess.run(init)
     # 迭代梯度下降法
     step = 0
-    batchSize = int(X.shape[0] * miniBatchFraction)
-    batchNum = int(math.ceil(1 / miniBatchFraction))
-    prevLoss = np.inf
+    batch_size = int(X.shape[0] * mini_batch_fraction)
+    batch_num = int(math.ceil(1 / mini_batch_fraction))
+    prev_loss = np.inf
     diff = np.inf
     # 当损失函数的变动小于阈值或达到最大训练轮次，则停止迭代
     while (step < epoch) & (diff > tol):
-        for i in range(batchNum):
+        for i in range(batch_num):
             # 选取小批次训练数据
-            batchX = X[i * batchSize: (i + 1) * batchSize]
-            batchY = Y[i * batchSize: (i + 1) * batchSize]
+            batch_x = X[i * batch_size: (i + 1) * batch_size]
+            batch_y = Y[i * batch_size: (i + 1) * batch_size]
             # 迭代模型参数
             sess.run([optimizer],
-                feed_dict={model["independent_variable"]: batchX,
-                    model["dependent_variable"]: batchY})
+                     feed_dict={model["independent_variable"]: batch_x,
+                                model["dependent_variable"]: batch_y})
             # 计算损失函数并写入日志
-            summaryStr, loss = sess.run(
+            summary_str, loss = sess.run(
                 [summary, model["loss_function"]],
                 feed_dict={model["independent_variable"]: X,
-                    model["dependent_variable"]: Y})
+                           model["dependent_variable"]: Y})
             # 将运行细节写入目录
-            summaryWriter.add_summary(summaryStr, step * batchNum + i)
+            summary_writer.add_summary(summary_str, step * batch_num + i)
             # 计算损失函数的变动
-            diff = abs(prevLoss - loss)
-            prevLoss = loss
+            diff = abs(prev_loss - loss)
+            prev_loss = loss
             if diff <= tol:
                 break
         step += 1
-    summaryWriter.close()
+    summary_writer.close()
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     # 输出最终结果
     print("模型参数：\n%s" % sess.run(model["model_params"]))
@@ -95,12 +95,12 @@ def run():
     dimension = 30
     num = 10000
     # 随机产生模型数据
-    X, Y = generateLinearData(dimension, num)
+    X, Y = generate_linear_data(dimension, num)
     # 定义模型
-    model = createLinearModel(dimension)
+    model = create_linear_model(dimension)
     # 使用梯度下降法，估计模型参数
-    stochasticGradientDescent(X, Y, model)
+    stochastic_gradient_descent(X, Y, model)
 
-    
+
 if __name__ == "__main__":
     run()

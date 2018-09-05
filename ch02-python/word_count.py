@@ -8,7 +8,7 @@
 from __future__ import print_function
 
 
-def wordCount(data):
+def word_count(data):
     """
     输入一个字符串列表，统计列表中字符出现的次数
 
@@ -28,5 +28,5 @@ def wordCount(data):
 
 if __name__ == "__main__":
     data = ["ab", "cd", "ab", "d", "d"]
-    print("The result is %s" % wordCount(data))
+    print("The result is %s" % word_count(data))
     # The result is {'ab': 2, 'd': 2, 'cd': 1}

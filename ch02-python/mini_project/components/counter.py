@@ -4,7 +4,7 @@
 """
 
 
-def wordCount(data):
+def word_count(data):
     """
     输入一个列表，统计列表中各个元素出现的次数
 

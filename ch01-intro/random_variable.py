@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def generateData(seed, num):
+def generate_data(seed, num):
     x = 0
     np.random.seed(seed)
     data = []
@@ -18,14 +18,14 @@ def generateData(seed, num):
     return data
 
 
-def visualizeData(series1, series2):
+def visualize_data(series1, series2):
     """
     根据给定的fpr和tpr，绘制ROC曲线
     """
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 在Matplotlib中显示负号
-    plt.rcParams['axes.unicode_minus']=False
+    plt.rcParams['axes.unicode_minus'] = False
     # 创建一个图形框
     fig = plt.figure(figsize=(12, 6), dpi=80)
     # 在图形框里只画两幅图
@@ -37,6 +37,6 @@ def visualizeData(series1, series2):
 
 
 if __name__ == "__main__":
-    series1 = generateData(4096, 200)
-    series2 = generateData(2046, 200)
-    visualizeData(series1, series2)
+    series1 = generate_data(4096, 200)
+    series2 = generate_data(2046, 200)
+    visualize_data(series1, series2)

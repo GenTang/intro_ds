@@ -1,0 +1,106 @@
+#!/usr/bin/env bash
+
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
+SPARK_ROOT_DIR="$(dirname "$SCRIPT_DIR")"
+# Exclude auto-generated configuration file.
+PATHS_TO_CHECK="$( cd "$SPARK_ROOT_DIR" && find . -name "*.py" )"
+PYCODESTYLE_REPORT_PATH="$SPARK_ROOT_DIR/dev/pycodestyle-report.txt"
+PYLINT_REPORT_PATH="$SPARK_ROOT_DIR/dev/pylint-report.txt"
+PYLINT_INSTALL_INFO="$SPARK_ROOT_DIR/dev/pylint-info.txt"
+SPHINXBUILD=${SPHINXBUILD:=sphinx-build}
+SPHINX_REPORT_PATH="$SPARK_ROOT_DIR/dev/sphinx-report.txt"
+
+cd "$SPARK_ROOT_DIR"
+
+# compileall: https://docs.python.org/2/library/compileall.html
+python -B -m compileall -q -l $PATHS_TO_CHECK > "$PYCODESTYLE_REPORT_PATH"
+compile_status="${PIPESTATUS[0]}"
+
+# Get pycodestyle at runtime so that we don't rely on it being installed on the build server.
+# See: https://github.com/apache/spark/pull/1744#issuecomment-50982162
+# Updated to the latest official version of pep8. pep8 is formally renamed to pycodestyle.
+PYCODESTYLE_VERSION="2.3.1"
+PYCODESTYLE_SCRIPT_PATH="$SPARK_ROOT_DIR/dev/pycodestyle-$PYCODESTYLE_VERSION.py"
+PYCODESTYLE_SCRIPT_REMOTE_PATH="https://raw.githubusercontent.com/PyCQA/pycodestyle/$PYCODESTYLE_VERSION/pycodestyle.py"
+
+if [ ! -e "$PYCODESTYLE_SCRIPT_PATH" ]; then
+    curl --silent -o "$PYCODESTYLE_SCRIPT_PATH" "$PYCODESTYLE_SCRIPT_REMOTE_PATH"
+    curl_status="$?"
+
+    if [ "$curl_status" -ne 0 ]; then
+        echo "Failed to download pycodestyle.py from \"$PYCODESTYLE_SCRIPT_REMOTE_PATH\"."
+        exit "$curl_status"
+    fi
+fi
+
+# Easy install pylint in /dev/pylint. To easy_install into a directory, the PYTHONPATH should
+# be set to the directory.
+# dev/pylint should be appended to the PATH variable as well.
+# Jenkins by default installs the pylint3 version, so for now this just checks the code quality
+# of python3.
+export "PYTHONPATH=$SPARK_ROOT_DIR/dev/pylint"
+export "PYLINT_HOME=$PYTHONPATH"
+export "PATH=$PYTHONPATH:$PATH"
+
+# There is no need to write this output to a file
+# first, but we do so so that the check status can
+# be output before the report, like with the
+# scalastyle and RAT checks.
+python "$PYCODESTYLE_SCRIPT_PATH" --config=dev/tox.ini $PATHS_TO_CHECK >> "$PYCODESTYLE_REPORT_PATH"
+pycodestyle_status="${PIPESTATUS[0]}"
+
+if [ "$compile_status" -eq 0 -a "$pycodestyle_status" -eq 0 ]; then
+    lint_status=0
+else
+    lint_status=1
+fi
+
+if [ "$lint_status" -ne 0 ]; then
+    echo "pycodestyle checks failed."
+    cat "$PYCODESTYLE_REPORT_PATH"
+    rm "$PYCODESTYLE_REPORT_PATH"
+    exit "$lint_status"
+else
+    echo "pycodestyle checks passed."
+    rm "$PYCODESTYLE_REPORT_PATH"
+fi
+
+# Check that the documentation builds acceptably, skip check if sphinx is not installed.
+if hash "$SPHINXBUILD" 2> /dev/null; then
+  cd python/docs
+  make clean
+  # Treat warnings as errors so we stop correctly
+  SPHINXOPTS="-a -W" make html &> "$SPHINX_REPORT_PATH" || lint_status=1
+  if [ "$lint_status" -ne 0 ]; then
+    echo "pydoc checks failed."
+    cat "$SPHINX_REPORT_PATH"
+    echo "re-running make html to print full warning list"
+    make clean
+    SPHINXOPTS="-a" make html
+    rm "$SPHINX_REPORT_PATH"
+    exit "$lint_status"
+  else
+    echo "pydoc checks passed."
+    rm "$SPHINX_REPORT_PATH"
+  fi
+  cd ../..
+else
+  echo >&2 "The $SPHINXBUILD command was not found. Skipping pydoc checks for now"
+fi

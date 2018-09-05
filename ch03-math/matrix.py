@@ -41,10 +41,10 @@ print(np.transpose(n))
 print(n + n)
 print(n - n)
 print(3 * n)
-## Hadamard乘积
+# Hadamard乘积
 print(n * n)
-## 矩阵乘法
+# 矩阵乘法
 print(n.dot(n))
-## 矩阵的逆矩阵
+# 矩阵的逆矩阵
 print(inv(n))
 print(np.dot(inv(n), n))

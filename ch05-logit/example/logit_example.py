@@ -17,7 +17,7 @@ import statsmodels.api as sm
 from statsmodels.graphics.mosaicplot import mosaic
 
 
-def modelSummary(re):
+def model_summary(re):
     """
     分析逻辑回归模型的统计性质
     """
@@ -31,7 +31,7 @@ def modelSummary(re):
     print(re.f_test("education_num=0.32, hours_per_week=0.04"))
 
 
-def transLabel(data):
+def trans_label(data):
     """
     将文字变量转化为数字变量
     """
@@ -39,7 +39,7 @@ def transLabel(data):
     return data
 
 
-def visualData(data):
+def visual_data(data):
     """
     画直方图，直观了解数据
     """
@@ -48,7 +48,7 @@ def visualData(data):
     plt.show()
 
 
-def analyseData(data):
+def analyse_data(data):
     """
     通过统计方法，了解数据性质
     """
@@ -71,10 +71,9 @@ def analyseData(data):
     # 图形化归一化后的交叉报表
     cross2_norm.plot(kind="bar", color=["#C6E2FF", "0.45"], rot=0)
     plt.show()
-    
 
 
-def trainModel(data):
+def train_model(data):
     """
     搭建逻辑回归模型，并训练模型
     """
@@ -84,7 +83,7 @@ def trainModel(data):
     return re
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -93,7 +92,7 @@ def readData(path):
     return data[cols]
 
 
-def interpretModel(re):
+def interpret_model(re):
     """
     理解模型结果
 
@@ -113,21 +112,21 @@ def interpretModel(re):
     print(re.get_margeff(at="overall").summary())
 
 
-def makePrediction(re, testSet, alpha=0.5):
+def make_prediction(re, test_set, alpha=0.5):
     """
     使用训练好的模型对测试数据做预测
     """
     # 关闭pandas有关chain_assignment的警告
     pd.options.mode.chained_assignment = None
     # 计算事件发生的概率
-    testSet["prob"] = re.predict(testSet)
+    test_set["prob"] = re.predict(test_set)
     print("事件发生概率（预测概率）大于0.6的数据个数：")
-    print(testSet[testSet["prob"] > 0.6].shape[0])  # 输出值为576
+    print(test_set[test_set["prob"] > 0.6].shape[0])  # 输出值为576
     print("事件发生概率（预测概率）大于0.5的数据个数：")
-    print(testSet[testSet["prob"] > 0.5].shape[0])  # 输出值为834
+    print(test_set[test_set["prob"] > 0.5].shape[0])  # 输出值为834
     # 根据预测的概率，得出最终的预测
-    testSet["pred"] = testSet.apply(lambda x: 1 if x["prob"] > alpha else 0, axis=1)
-    return testSet
+    test_set["pred"] = test_set.apply(lambda x: 1 if x["prob"] > alpha else 0, axis=1)
+    return test_set
 
 
 def evaluation(re):
@@ -148,7 +147,7 @@ def evaluation(re):
     print("查准率: %.3f, 查全率: %.3f, f1: %.3f" % (precision, recall, f1))
 
 
-def logitRegression(data):
+def logit_regression(data):
     """
     逻辑回归模型分析步骤展示
 
@@ -156,27 +155,27 @@ def logitRegression(data):
     ----
     data ：DataFrame，建模数据
     """
-    data = transLabel(data)
-    visualData(data)
-    analyseData(data)
+    data = trans_label(data)
+    visual_data(data)
+    analyse_data(data)
     # 将数据分为训练集和测试集
-    trainSet, testSet = train_test_split(data, test_size=0.2, random_state=2310)
+    train_set, test_set = train_test_split(data, test_size=0.2, random_state=2310)
     # 训练模型并分析模型效果
-    re = trainModel(trainSet)
-    modelSummary(re)
-    interpretModel(re)
-    re = makePrediction(re, testSet)
+    re = train_model(train_set)
+    model_summary(re)
+    interpret_model(re)
+    re = make_prediction(re, test_set)
     evaluation(re)
 
 
 if __name__ == "__main__":
     # 设置显示格式
     pd.set_option('display.width', 1000)
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\adult.data" % homePath
+        data_path = "%s\\data\\adult.data" % home_path
     else:
-        dataPath = "%s/data/adult.data" % homePath
-    data = readData(dataPath)
-    logitRegression(data)
+        data_path = "%s/data/adult.data" % home_path
+    data = read_data(data_path)
+    logit_regression(data)

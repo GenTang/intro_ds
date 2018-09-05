@@ -17,11 +17,11 @@ except:
     import sys
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print(
-    """
-    Python的运行速度不快。为了提高运算速度，请使用
-    'python setup.py build_ext --inplace'生成相应的C扩展
-    """,
-    file=sys.stdout)
+        """
+        Python的运行速度不快。为了提高运算速度，请使用
+        'python setup.py build_ext --inplace'生成相应的C扩展
+        """,
+        file=sys.stdout)
     from hmm.utils.viterbipy import viterbi
 
 
@@ -64,34 +64,34 @@ class MultinomialHMM(object):
         classes, Y = np.unique(Y, return_inverse=True)
         Y = Y.reshape(-1, 1) == np.arange(len(classes))
         lengths = np.array(lengths)
-        start, end = self._getStartEnd(lengths)
+        start, end = self._get_start_end(lengths)
         # 计算状态的初始分布
-        initProb = np.log(Y[start].sum(axis=0) + alpha)
-        initProb -= logsumexp(initProb)
+        init_prob = np.log(Y[start].sum(axis=0) + alpha)
+        init_prob -= logsumexp(init_prob)
         # 计算状态间的转移矩阵
-        transProb = np.log(self._computeTransProb(Y, end, len(classes)) + alpha)
-        transProb -= logsumexp(transProb, axis=1)[:, np.newaxis]
+        trans_prob = np.log(self._compute_trans_prob(Y, end, len(classes)) + alpha)
+        trans_prob -= logsumexp(trans_prob, axis=1)[:, np.newaxis]
         # 计算在状态已知的情况下，各特征的条件概率
-        emitProb = np.log(safe_sparse_dot(Y.T, X) + alpha)
-        emitProb -= logsumexp(emitProb, axis=1)[:, np.newaxis]
-        self.initProb_ = initProb
-        self.transProb_ = transProb
-        self.emitProb_ = emitProb
+        emit_prob = np.log(safe_sparse_dot(Y.T, X) + alpha)
+        emit_prob -= logsumexp(emit_prob, axis=1)[:, np.newaxis]
+        self.init_prob_ = init_prob
+        self.trans_prob_ = trans_prob
+        self.emit_prob_ = emit_prob
         self.classes_ = classes
         return self
 
-    def _computeTransProb(self, Y, end, classNum):
+    def _compute_trans_prob(self, Y, end, class_num):
         """
         计算各状态间的转移次数
         """
-        trans = np.zeros((classNum, classNum), dtype=np.intp)
+        trans = np.zeros((class_num, class_num), dtype=np.intp)
         YY = np.split(Y, end)
         for i in YY:
             for j in range(i.shape[0] - 1):
                 trans[i[j], i[j+1]] += 1
         return trans
 
-    def _getStartEnd(self, lengths):
+    def _get_start_end(self, lengths):
         """
         计算每个句子的起始点和终点
         """
@@ -120,11 +120,11 @@ class MultinomialHMM(object):
         else:
             X = np.atleast_2d(X)
         if lengths is None:
-            _, y = viterbi(X, self.initProb_, self.transProb_, self.emitProb_)
+            _, y = viterbi(X, self.init_prob_, self.trans_prob_, self.emit_prob_)
         else:
             assert(np.sum(lengths) == X.shape[0])
-            start, end = self._getStartEnd(lengths)
-            y = [viterbi(X[start[i]: end[i]], self.initProb_,
-                self.transProb_, self.emitProb_)[1] for i in range(start.shape[0])]
+            start, end = self._get_start_end(lengths)
+            y = [viterbi(X[start[i]: end[i]], self.init_prob_,
+                         self.trans_prob_, self.emit_prob_)[1] for i in range(start.shape[0])]
             y = np.hstack(y)
         return self.classes_[y]

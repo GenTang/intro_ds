@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.mlab import bivariate_normal
 
 
-def generateData(n, mean, cov):
+def generate_data(n, mean, cov):
     """
     随机生成正态分布数据
     """
@@ -18,11 +18,11 @@ def generateData(n, mean, cov):
     return data
 
 
-def drawData(ax, mu, cov):
+def draw_data(ax, mu, cov):
     """
     将正太分布的数据可视化
     """
-    data = generateData(150, mu, cov)
+    data = generate_data(150, mu, cov)
     ax.scatter(data[:, 0], data[:, 1])
     x = np.arange(-10, 10, 0.1)
     X, Y = np.meshgrid(x, x)
@@ -44,19 +44,19 @@ def visualize():
     ax = fig.add_subplot(2, 2, 1)
     cov = np.array([[1., 0.], [0., 1.]])
     mu = np.array([0., 0.])
-    drawData(ax, mu, cov)
+    draw_data(ax, mu, cov)
     ax = fig.add_subplot(2, 2, 2)
     cov = np.array([[4., 0.], [0., 4.]])
     mu = np.array([0., 0.])
-    drawData(ax, mu, cov)
+    draw_data(ax, mu, cov)
     ax = fig.add_subplot(2, 2, 3)
     cov = np.array([[4., 3.], [3., 4.]])
     mu = np.array([0., 0.])
-    drawData(ax, mu, cov)
+    draw_data(ax, mu, cov)
     ax = fig.add_subplot(2, 2, 4)
     cov = np.array([[4., -3.], [-3., 4.]])
     mu = np.array([0., 0.])
-    drawData(ax, mu, cov)
+    draw_data(ax, mu, cov)
     plt.show()
 
 

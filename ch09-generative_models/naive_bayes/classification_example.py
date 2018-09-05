@@ -13,7 +13,7 @@ from sklearn.naive_bayes import BernoulliNB
 from sklearn.pipeline import Pipeline
 
 
-def generateData(n):
+def generate_data(n):
     """
     随机生成训练数据
     """
@@ -23,12 +23,12 @@ def generateData(n):
     return data
 
 
-def trainModel(data):
+def train_model(data):
     """
     使用random forest embedding+伯努利模型对数据建模
     """
     pipe = Pipeline([("embedding", RandomTreesEmbedding(random_state=1024)),
-        ("model", BernoulliNB())])
+                     ("model", BernoulliNB())])
     pipe.fit(data[["x1", "x2"]], data["y"])
     return pipe
 
@@ -41,9 +41,9 @@ def visualize(data, pipe):
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里画一幅图
     ax = fig.add_subplot(1, 1, 1)
-    label1 = data[data["y"]>0]
+    label1 = data[data["y"] > 0]
     ax.scatter(label1[["x1"]], label1[["x2"]], marker="o")
-    label0 = data[data["y"]==0]
+    label0 = data[data["y"] == 0]
     ax.scatter(label0[["x1"]], label0[["x2"]], marker="^", color="k")
     # 将模型的预测结果可视化
     x1 = np.linspace(min(data["x1"]) - 0.2, max(data["x1"]) + 0.2, 100)
@@ -56,6 +56,6 @@ def visualize(data, pipe):
 
 
 if __name__ == "__main__":
-    data = generateData(200)
-    pipe = trainModel(data)
+    data = generate_data(200)
+    pipe = train_model(data)
     visualize(data, pipe)

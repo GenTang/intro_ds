@@ -22,50 +22,50 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.pipeline import Pipeline
 
 
-def readData(dataPath, category, testRatio):
+def read_data(data_path, category, test_ratio):
     """
     根据跟定的类别，读取数据，并将数据分为训练集和测试集
     """
     np.random.seed(2046)
-    trainData = []
-    testData = []
-    labels = [i for i in listdir(dataPath) if i in category]
+    train_data = []
+    test_data = []
+    labels = [i for i in listdir(data_path) if i in category]
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
         for i in labels:
-            for j in listdir("%s\\%s" % (dataPath, i)):
-                content = readContent("%s\\%s\\%s" % (dataPath, i, j))
-                if np.random.random() <= testRatio:
-                    testData.append({"label": i, "content": content})
+            for j in listdir("%s\\%s" % (data_path, i)):
+                content = read_content("%s\\%s\\%s" % (data_path, i, j))
+                if np.random.random() <= test_ratio:
+                    test_data.append({"label": i, "content": content})
                 else:
-                    trainData.append({"label": i, "content": content})
+                    train_data.append({"label": i, "content": content})
     else:
         for i in labels:
-            for j in listdir("%s/%s" % (dataPath, i)):
-                content = readContent("%s/%s/%s" % (dataPath, i, j))
-                if np.random.random() <= testRatio:
-                    testData.append({"label": i, "content": content})
+            for j in listdir("%s/%s" % (data_path, i)):
+                content = read_content("%s/%s/%s" % (data_path, i, j))
+                if np.random.random() <= test_ratio:
+                    test_data.append({"label": i, "content": content})
                 else:
-                    trainData.append({"label": i, "content": content})
-    trainData = pd.DataFrame(trainData)
-    testData = pd.DataFrame(testData)
-    return trainData, testData
+                    train_data.append({"label": i, "content": content})
+    train_data = pd.DataFrame(train_data)
+    test_data = pd.DataFrame(test_data)
+    return train_data, test_data
 
 
-def readContent(dataPath):
+def read_content(data_path):
     """
     读取文件里的内容，并略去不能正确解码的行
     """
     # 在Python3中，读取文件时就会decode
     if sys.version_info[0] == 3:
-        with open(dataPath, "r", errors="ignore") as f:
-            rawContent = f.read()
+        with open(data_path, "r", errors="ignore") as f:
+            raw_content = f.read()
     else:
-        with open(dataPath, "r") as f:
-            rawContent = f.read()
+        with open(data_path, "r") as f:
+            raw_content = f.read()
     # 语料库使用GBK编码，对于不能编码的问题，选择略过
     content = ""
-    for i in rawContent.split("\n"):
+    for i in raw_content.split("\n"):
         try:
             # 在Python3中，str不需要decode
             if sys.version_info[0] == 3:
@@ -77,32 +77,32 @@ def readContent(dataPath):
     return content
 
 
-def trainMultinomialNB(data):
+def train_multinomialNB(data):
     """
     使用多项式模型对数据进行建模
     """
     pipe = Pipeline([("vect", CountVectorizer(token_pattern=r"(?u)\b\w+\b")),
-        ("model", MultinomialNB())])
+                     ("model", MultinomialNB())])
     le = LabelEncoder()
     Y = le.fit_transform(data["label"])
     pipe.fit(data["content"], Y)
     return le, pipe
 
 
-def trainMultinomialNBWithTFIDF(data):
+def train_multinomialNB_with_TFIDF(data):
     """
     使用TFIDF+多项式模型对数据建模
     """
     pipe = Pipeline([("vect", CountVectorizer(token_pattern=r"(?u)\b\w+\b")),
-        ("tfidf", TfidfTransformer(norm=None, sublinear_tf=True)),
-        ("model", MultinomialNB())])
+                     ("tfidf", TfidfTransformer(norm=None, sublinear_tf=True)),
+                     ("model", MultinomialNB())])
     le = LabelEncoder()
     Y = le.fit_transform(data["label"])
     pipe.fit(data["content"], Y)
     return le, pipe
 
 
-def trainBernoulliNB(data):
+def train_bernoulliNB(data):
     """
     使用伯努利模型对数据建模
     """
@@ -115,7 +115,7 @@ def trainBernoulliNB(data):
     return vect, le, model
 
 
-def printResult(doc, pred):
+def print_result(doc, pred):
     """
     输出样例的预测结果
     """
@@ -124,84 +124,84 @@ def printResult(doc, pred):
         print("%s ==> %s" % (d.replace(" ", ""), p))
 
 
-def trainModel(trainData, testData, testDocs, docs):
+def train_model(train_data, test_data, test_docs, docs):
     """
     对分词后的文本数据分别使用多项式和伯努利模型进行分类
     """
     # 伯努利模型
-    vect, le, model = trainBernoulliNB(trainData)
-    pred = le.classes_[model.predict(vect.transform(testDocs))]
+    vect, le, model = train_bernoulliNB(train_data)
+    pred = le.classes_[model.predict(vect.transform(test_docs))]
     print("Use Bernoulli naive Bayes: ")
-    printResult(docs, pred)
+    print_result(docs, pred)
     print(classification_report(
-        le.transform(testData["label"]),
-        model.predict(vect.transform(testData["content"])),
+        le.transform(test_data["label"]),
+        model.predict(vect.transform(test_data["content"])),
         target_names=le.classes_))
     # 多项式模型
-    le, pipe = trainMultinomialNB(trainData)
-    pred = le.classes_[pipe.predict(testDocs)]
+    le, pipe = train_multinomialNB(train_data)
+    pred = le.classes_[pipe.predict(test_docs)]
     print("Use multinomial naive Bayes: ")
-    printResult(docs, pred)
+    print_result(docs, pred)
     print(classification_report(
-        le.transform(testData["label"]),
-        pipe.predict(testData["content"]),
+        le.transform(test_data["label"]),
+        pipe.predict(test_data["content"]),
         target_names=le.classes_))
     # TFIDF+多项式模型
-    le, pipe = trainMultinomialNBWithTFIDF(trainData)
-    pred = le.classes_[pipe.predict(testDocs)]
+    le, pipe = train_multinomialNB_with_TFIDF(train_data)
+    pred = le.classes_[pipe.predict(test_docs)]
     print("Use TFIDF + multinomial naive Bayes: ")
-    printResult(docs, pred)
+    print_result(docs, pred)
     print(classification_report(
-        le.transform(testData["label"]),
-        pipe.predict(testData["content"]),
+        le.transform(test_data["label"]),
+        pipe.predict(test_data["content"]),
         target_names=le.classes_))
 
 
-def textClassifier(dataPath, category):
+def text_classifier(data_path, category):
     """
     不进行中文分词，对文本进行分类
     """
-    trainData, testData = readData(dataPath, category, 0.3)
-    trainData["content"] = trainData.apply(lambda x: " ".join(x["content"]), axis=1)
-    testData["content"] = testData.apply(lambda x: " ".join(x["content"]), axis=1)
-    _docs = ["前国际米兰巨星雷科巴正式告别足坛","达芬奇：伟大的艺术家"]
+    train_data, test_data = read_data(data_path, category, 0.3)
+    train_data["content"] = train_data.apply(lambda x: " ".join(x["content"]), axis=1)
+    test_data["content"] = test_data.apply(lambda x: " ".join(x["content"]), axis=1)
+    _docs = ["前国际米兰巨星雷科巴正式告别足坛", "达芬奇：伟大的艺术家"]
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
-        testDocs = [" ".join(i) for i in _docs]
+        test_docs = [" ".join(i) for i in _docs]
     else:
-        testDocs = [" ".join(i.decode("utf-8")) for i in _docs]
-    trainModel(trainData, testData, testDocs, _docs)
+        test_docs = [" ".join(i.decode("utf-8")) for i in _docs]
+    train_model(train_data, test_data, test_docs, _docs)
 
 
-def textClassifierWithJieba(dataPath, category):
+def text_classifier_with_jieba(data_path, category):
     """
     使用第三方库jieba对文本进行分词，然后再进行分类
     """
-    trainData, testData = readData(dataPath, category, 0.3)
-    trainData["content"] = trainData.apply(
+    train_data, test_data = read_data(data_path, category, 0.3)
+    train_data["content"] = train_data.apply(
         lambda x: " ".join(jieba.cut(x["content"], cut_all=True)), axis=1)
-    testData["content"] = testData.apply(
+    test_data["content"] = test_data.apply(
         lambda x: " ".join(jieba.cut(x["content"], cut_all=True)), axis=1)
     _docs = ["前国际米兰巨星雷科巴正式告别足坛", "达芬奇：伟大的艺术家"]
-    testDocs = [" ".join(jieba.cut(i, cut_all=True)) for i in _docs]
-    trainModel(trainData, testData, testDocs, _docs)
+    test_docs = [" ".join(jieba.cut(i, cut_all=True)) for i in _docs]
+    train_model(train_data, test_data, test_docs, _docs)
 
 
 if __name__ == "__main__":
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data" % path.dirname(path.abspath(__file__))
+        data_path = "%s\\data" % path.dirname(path.abspath(__file__))
     else:
-        dataPath = "%s/data" % path.dirname(path.abspath(__file__))
+        data_path = "%s/data" % path.dirname(path.abspath(__file__))
     category = ["C3-Art", "C11-Space", "C19-Computer", "C39-Sports"]
     if len(sys.argv) == 1:
-        textClassifier(dataPath, category)
+        text_classifier(data_path, category)
     elif (len(sys.argv) == 2) & (sys.argv[1] == "use_jieba"):
         import jieba
-        textClassifierWithJieba(dataPath, category)
+        text_classifier_with_jieba(data_path, category)
     else:
         print(
-        """
-        Usage: python naive_bayes.py | python naive_bayes.py use_jieba
-        """,
-        file=sys.stderr)
+            """
+            Usage: python naive_bayes.py | python naive_bayes.py use_jieba
+            """,
+            file=sys.stderr)

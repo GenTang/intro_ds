@@ -15,17 +15,17 @@ import numpy
 # 在Windows下使用Cython请参考https://github.com/cython/cython/wiki/InstallingOnWindows
 if os.name == "nt":
     setup(
-        name = "yahmm",
+        name="yahmm",
         description="Yet another hmm implimentation for supervised",
         packages=["yahmm"],
-        ext_modules = cythonize(["hmm\\utils\\viterbi.pyx"]),
+        ext_modules=cythonize(["hmm\\utils\\viterbi.pyx"]),
         requires=["sklearn"],
         include_dirs=[numpy.get_include()])
 else:
     setup(
-        name = "yahmm",
+        name="yahmm",
         description="Yet another hmm implimentation for supervised",
         packages=["yahmm"],
-        ext_modules = cythonize(["hmm/utils/viterbi.pyx"]),
+        ext_modules=cythonize(["hmm/utils/viterbi.pyx"]),
         requires=["sklearn"],
         include_dirs=[numpy.get_include()])

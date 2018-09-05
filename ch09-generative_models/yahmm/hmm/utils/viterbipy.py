@@ -8,10 +8,10 @@ import numpy as np
 from sklearn.utils.extmath import safe_sparse_dot
 
 
-def viterbi(obs, initProb, transProb, emitProb):
+def viterbi(obs, init_prob, trans_prob, emit_prob):
     """
     viterbi算法
-    
+
     参数
     ----
     obs : {np.array 或者scipy.sparse.csr_matrix}，维度为(样本数，特征数)，
@@ -25,35 +25,35 @@ def viterbi(obs, initProb, transProb, emitProb):
 
     emitProb : {np.array或者scipy.sparse.csr_matrix}，维度为(状态数，特征数)，
         各状态下，特征的条件概率
-    
+
     返回
     ----
     score : {np.array}，维度为(样本数，状态数)，viterbi算法中间概率
 
     path : {np.array}，维度为(样本数)，最终结果表示每个样本的隐藏状态
     """
-    sampleNum, stateNum = obs.shape[0], initProb.shape[0]
-    backp = np.empty((sampleNum, stateNum), dtype=np.intp)
-    score = safe_sparse_dot(obs, emitProb.T)
+    sample_num, state_num = obs.shape[0], init_prob.shape[0]
+    backp = np.empty((sample_num, state_num), dtype=np.intp)
+    score = safe_sparse_dot(obs, emit_prob.T)
 
-    for i in range(stateNum):
-        score[0, i] += initProb[i]
+    for i in range(state_num):
+        score[0, i] += init_prob[i]
 
-    for i in range(1, sampleNum):
-        for j in range(stateNum):
-            maxInd = 0
-            maxVal = -np.inf
-            for k in range(stateNum):
-                candidate = score[i - 1, k] + transProb[k, j] + score[i, j]
-                if candidate > maxVal:
-                    maxInd = k
-                    maxVal = candidate
-            score[i, j] = maxVal
-            backp[i, j] = maxInd
+    for i in range(1, sample_num):
+        for j in range(state_num):
+            max_ind = 0
+            max_val = -np.inf
+            for k in range(state_num):
+                candidate = score[i - 1, k] + trans_prob[k, j] + score[i, j]
+                if candidate > max_val:
+                    max_ind = k
+                    max_val = candidate
+            score[i, j] = max_val
+            backp[i, j] = max_ind
 
-    path = np.empty(sampleNum, dtype=np.intp)
-    path[sampleNum - 1] = score[sampleNum - 1, :].argmax()
-    for i in range(sampleNum - 2, -1, -1):
+    path = np.empty(sample_num, dtype=np.intp)
+    path[sample_num - 1] = score[sample_num - 1, :].argmax()
+    for i in range(sample_num - 2, -1, -1):
         path[i] = backp[i + 1, path[i + 1]]
     # Return score just for testing
     return score, path

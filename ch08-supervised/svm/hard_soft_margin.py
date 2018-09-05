@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.svm import SVC
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成模型所需数据
     """
@@ -19,13 +19,13 @@ def generateData(n):
     Y = [[0]] * n + [[1]] * n
     data = np.concatenate((Y, X), axis=1)
     data = pd.DataFrame(data, columns=["y", "x1", "x2"])
-    hardMargin = [[0, 0, 2], [1, 1, -1]]
-    hardMargin = pd.DataFrame(hardMargin, columns=["y", "x1", "x2"])
-    data = data.append(hardMargin)
+    hard_margin = [[0, 0, 2], [1, 1, -1]]
+    hard_margin = pd.DataFrame(hard_margin, columns=["y", "x1", "x2"])
+    data = data.append(hard_margin)
     return data
 
 
-def hardSoftMargin(data):
+def hard_soft_margin(data):
     """
     从小到大，用不同的损失系数训练模型
     """
@@ -48,9 +48,9 @@ def visualize(data, C, res):
     fig = plt.figure(figsize=(12, 6), dpi=80)
     # 在图形框里画两幅图
     ax = fig.add_subplot(1, 2, 1)
-    label1 = data[data["y"]>0]
+    label1 = data[data["y"] > 0]
     ax.scatter(label1[["x1"]], label1[["x2"]], marker="o")
-    label0 = data[data["y"]==0]
+    label0 = data[data["y"] == 0]
     ax.scatter(label0[["x1"]], label0[["x2"]], marker="^", color="k")
     x1 = np.linspace(-4, 6, 100)
     x2 = np.linspace(-8, 8, 100)
@@ -59,12 +59,12 @@ def visualize(data, C, res):
     soft = res[0].decision_function(np.c_[X1.ravel(), X2.ravel()])
     soft = soft.reshape(X1.shape)
     CS = ax.contour(X1, X2, soft, levels=[-1, 0, 1], colors=["r", "r", "r"],
-        linestyles=["--", "-", "--"])
+                    linestyles=["--", "-", "--"])
     # Hard margin
     hard = res[-1].decision_function(np.c_[X1.ravel(), X2.ravel()])
     hard = hard.reshape(X1.shape)
     ax.contour(X1, X2, hard, levels=[-1, 0, 1], colors=["g", "g", "g"],
-        linestyles=["--", "-.", "--"])
+               linestyles=["--", "-.", "--"])
     ax1 = fig.add_subplot(1, 2, 2)
     # Python2和Python3的map并不兼容，所以使用list(map)
     coef = list(map(lambda x: x.coef_, res))
@@ -76,5 +76,5 @@ def visualize(data, C, res):
 
 
 if __name__ == "__main__":
-    data = generateData(20)
-    hardSoftMargin(data)
+    data = generate_data(20)
+    hard_soft_margin(data)

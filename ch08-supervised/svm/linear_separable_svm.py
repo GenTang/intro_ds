@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.svm import SVC
 
 
-def generateSeparatableData(n):
+def generate_separatable_data(n):
     """
     产生线性可分的数据集
     """
@@ -22,18 +22,18 @@ def generateSeparatableData(n):
     return data
 
 
-def generateInseparatableData(n):
+def generate_inseparatable_data(n):
     """
     产生线性不可分的数据集
     """
-    data = generateSeparatableData(n)
+    data = generate_separatable_data(n)
     inseparatable = [[1, -1, 1.5], [0, 3, 1]]
     inseparatable = pd.DataFrame(inseparatable, columns=["y", "x1", "x2"])
     data = data.append(inseparatable)
     return data
 
 
-def trainModel(data):
+def train_model(data):
     """
     训练SVM模型
     """
@@ -51,9 +51,9 @@ def visualize(data, model=None):
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里画一幅图
     ax = fig.add_subplot(1, 1, 1)
-    label1 = data[data["y"]>0]
+    label1 = data[data["y"] > 0]
     ax.scatter(label1[["x1"]], label1[["x2"]], marker="o")
-    label0 = data[data["y"]==0]
+    label0 = data[data["y"] == 0]
     ax.scatter(label0[["x1"]], label0[["x2"]], marker="^", color="k")
     if model is not None:
         w = model.coef_
@@ -69,7 +69,7 @@ def visualize(data, model=None):
 
 
 if __name__ == "__main__":
-    data = generateSeparatableData(20)
-    data1 = generateInseparatableData(20)
-    re = trainModel(data)
+    data = generate_separatable_data(20)
+    data1 = generate_inseparatable_data(20)
+    re = train_model(data)
     visualize(data1, re)

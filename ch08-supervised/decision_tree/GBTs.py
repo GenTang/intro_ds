@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import GradientBoostingRegressor
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成训练数据
     """
@@ -26,7 +26,7 @@ def generateData(n):
     return data
 
 
-def trainModel(data):
+def train_model(data):
     """
     训练GBTs模型
     """
@@ -40,7 +40,7 @@ def visualize(data, model):
     将模型结果可视化
     """
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     ax = fig.add_subplot(1, 1, 1)
@@ -51,15 +51,15 @@ def visualize(data, model):
         labels = ["深度=1", "深度=2", "深度=3"]
     else:
         labels = ["深度=1".decode("utf-8"), "深度=2".decode("utf-8"),
-            "深度=3".decode("utf-8")]
+                  "深度=3".decode("utf-8")]
     for l, s, pred in zip(labels, styles, model.staged_predict(data[["x"]])):
         plt.plot(data[["x"]], pred, s, label=l)
     legend = ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05),
-        ncol=3, fancybox=True, shadow=True)
+                       ncol=3, fancybox=True, shadow=True)
     plt.show()
 
 
 if __name__ == "__main__":
-    data = generateData(40)
-    model = trainModel(data)
+    data = generate_data(40)
+    model = train_model(data)
     visualize(data, model)

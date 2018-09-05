@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
 
-def generateData():
+def generate_data():
     """
     """
     np.random.seed(2046)
@@ -34,7 +34,7 @@ def visualize(data):
     plt.show()
 
 
-def oneWayANOVA(data):
+def one_way_ANOVA(data):
     """
     计算定量变量A与定性变量B之间的eta squared
 
@@ -43,16 +43,16 @@ def oneWayANOVA(data):
     data : DataFrame, 包含变量A和变量B
     """
     re = sm.OLS.from_formula("A ~ B", data=data).fit()
-    aovTable = sm.stats.anova_lm(re, typ=2)
+    aov_table = sm.stats.anova_lm(re, typ=2)
     # 打印ANOVA分析结果
-    print(aovTable)
+    print(aov_table)
     # 计算eta sqaured
-    etaSquared = aovTable["sum_sq"][0] / (aovTable["sum_sq"][0] + aovTable["sum_sq"][1])
+    eta_squared = aov_table["sum_sq"][0] / (aov_table["sum_sq"][0] + aov_table["sum_sq"][1])
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
-    print("Eta squared等于：%.3f" % etaSquared)
+    print("Eta squared等于：%.3f" % eta_squared)
 
 
 if __name__ == "__main__":
-    data = generateData()
+    data = generate_data()
     visualize(data)
-    oneWayANOVA(data)
+    one_way_ANOVA(data)

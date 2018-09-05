@@ -18,7 +18,7 @@ from statsmodels.sandbox.regression.gmm import IV2SLS
 import scipy.stats.stats as scss
 
 
-def generateLinearData(n):
+def generate_linear_data(n):
     """
     产生有内生变量的线性回归模型数据
     """
@@ -33,32 +33,32 @@ def generateLinearData(n):
     error = np.random.normal(size=n) * 2
     Y = 10 * X1 + 20 * X2 + 30 + error
     # 加入度量误差，这将使observationX成为内生变量
-    obError = np.random.normal(size=n) * 2
-    observationX = X1 + obError
-    data["X1"] = observationX
+    ob_error = np.random.normal(size=n) * 2
+    observation_x = X1 + ob_error
+    data["X1"] = observation_x
     data["X2"] = X2
     data["Y"] = Y
     data["realX1"] = X1
     data["IV1"] = IV1
-    data["error"] = Y - 10 * observationX - 20 * X2 - 30
-    plt.rcParams['font.sans-serif']=['SimHei']
-    plt.rcParams['axes.unicode_minus']=False
+    data["error"] = Y - 10 * observation_x - 20 * X2 - 30
+    plt.rcParams['font.sans-serif'] = ['SimHei']
+    plt.rcParams['axes.unicode_minus'] = False
     axes = scatter_matrix(data[["X1", "error", "IV1"]], alpha=1, diagonal='kde',
-        range_padding=0.9, figsize=(8, 8))
+                          range_padding=0.9, figsize=(8, 8))
     corr = data[["X1", "error", "IV1"]].corr(method="pearson").as_matrix()
     for i, j in zip(*plt.np.triu_indices_from(axes, k=1)):
         # 在Python3中，str不需要decode
         if sys.version_info[0] == 3:
-            axes[i, j].annotate("%s: %.3f" % ("相关系数", corr[i,j]),
-                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+            axes[i, j].annotate("%s: %.3f" % ("相关系数", corr[i, j]),
+                                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
         else:
-            axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i,j]),
-                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
+            axes[i, j].annotate("%s: %.3f" % ("相关系数".decode("utf-8"), corr[i, j]),
+                                (0.5, 0.9), xycoords='axes fraction', ha='center', va='center')
     plt.show()
     return data
 
 
-def generateLogitData(n):
+def generate_logit_data(n):
     """
     产生有内生变量的logit回归模型数据
     """
@@ -73,9 +73,9 @@ def generateLogitData(n):
     error = np.random.logistic(size=n)
     Y = (1 * X1 - 1 * X2 + error > 0) + 0
     # 加入度量误差，这将使observationX成为内生变量
-    obError = np.random.normal(size=n)
-    observationX = X1 + obError
-    data["X1"] = observationX
+    ob_error = np.random.normal(size=n)
+    observation_x = X1 + ob_error
+    data["X1"] = observation_x
     data["X2"] = X2
     data["Y"] = Y
     data["realX1"] = X1
@@ -83,7 +83,7 @@ def generateLogitData(n):
     return data
 
 
-def IVRegression(data):
+def IV_regression(data):
     """
     使用工具变量估计模型参数
     """
@@ -96,7 +96,7 @@ def IVRegression(data):
     print(re1.summary())
 
 
-def IVRegression2(data):
+def IV_regression2(data):
     """
     使用工具变量估计模型参数
     """
@@ -109,25 +109,25 @@ def IVRegression2(data):
     print(re.spec_hausman())
 
 
-def IVLogit(data):
+def IV_logit(data):
     """
     使用工具变量估计logit回归参数
     """
     # 使用工具变量
     # 第一步回归
-    reTmp = sm.OLS.from_formula("X1 ~ X2 + IV1", data=data).fit()
-    data["X1_resid"] = reTmp.resid
+    re_tmp = sm.OLS.from_formula("X1 ~ X2 + IV1", data=data).fit()
+    data["X1_resid"] = re_tmp.resid
     # 第二步回归
     re = sm.Logit.from_formula("Y ~ X2 + X1 + X1_resid", data=data).fit()
     print("使用工具变量")
     print(re.summary())
-    
 
-def linearModel():
+
+def linear_model():
     """
     内生性对线性模型的影响
     """
-    data = generateLinearData(1000)
+    data = generate_linear_data(1000)
     re = sm.OLS.from_formula("Y ~ realX1 + X2", data=data).fit()
     # 在Windows下运行此脚本需确保Windows下的命令提示符(cmd)能显示中文
     print("正常模型")
@@ -138,23 +138,23 @@ def linearModel():
     re2 = sm.OLS.from_formula("Y ~ X2 + X1 + IV1", data=data).fit()
     print("直接使用工具变量会引起共线性问题")
     print(re2.summary())
-    IVRegression(data)
+    IV_regression(data)
 
 
-def logitModel():
+def logit_model():
     """
     内生性对logit回归的影响
     """
-    data = generateLogitData(1000)
+    data = generate_logit_data(1000)
     re = sm.Logit.from_formula("Y ~ X1 + X2", data=data).fit()
     print("内生性")
     print(re.summary())
     re1 = sm.Logit.from_formula("Y ~ X1 + X2 + IV1", data=data).fit()
     print("直接使用工具变量会引起共线性问题")
     print(re1.summary())
-    IVLogit(data)
+    IV_logit(data)
 
 
 if __name__ == "__main__":
-    linearModel()
-    logitModel()
+    linear_model()
+    logit_model()

@@ -20,7 +20,7 @@ import statsmodels.api as sm
 from statsmodels.graphics.mosaicplot import mosaic
 
 
-def transLabel(data):
+def trans_label(data):
     """
     将文字变量转化为数字变量
     """
@@ -28,37 +28,17 @@ def transLabel(data):
     return data
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
     data = pd.read_csv(path)
     cols = ["workclass", "sex", "age", "education_num",
-        "capital_gain", "capital_loss", "hours_per_week", "label"]
+            "capital_gain", "capital_loss", "hours_per_week", "label"]
     return data[cols]
 
 
-def trainModel2(data):
-    """
-    加入workclass变量，搭建逻辑回归模型，并训练模型
-    """
-    # 定义workclass的类别顺序，数组里的第一个值为基准类别
-    l = [" ?", " Never-worked", " Without-pay", " State-gov",
-        " Self-emp-not-inc", " Private", " Federal-gov",
-        " Local-gov",  " Self-emp-inc"]
-    # 定义各个类别对应的虚拟变量
-    contrast = np.eye(9, 6, k=-3)
-    # 为每个虚拟变量命名
-    contrast_mat = ContrastMatrix(contrast, l[3:])
-    formula = """label_code ~ C(workclass, contrast_mat, levels=l)
-        + C(sex) + education_num + capital_gain
-        + capital_loss + hours_per_week"""
-    model = sm.Logit.from_formula(formula, data=data)
-    re = model.fit()
-    return re
-
-
-def trainModel3(data):
+def train_model3(data):
     """
     使用sex变量的Ridit scoring搭建逻辑回归模型，并训练模型
     """
@@ -66,13 +46,33 @@ def trainModel3(data):
     contrast = [[-0.33], [0.67]]
     contrast_mat = ContrastMatrix(contrast, ["Ridit(sex)"])
     formula = """label_code ~ C(sex, contrast_mat, levels=l) + education_num
-        + capital_gain + capital_loss + hours_per_week"""
+    + capital_gain + capital_loss + hours_per_week"""
     model = sm.Logit.from_formula(formula, data=data)
     re = model.fit()
     return re
 
 
-def trainModel(data):
+def train_model2(data):
+    """
+    加入workclass变量，搭建逻辑回归模型，并训练模型
+    """
+    # 定义workclass的类别顺序，数组里的第一个值为基准类别
+    l = [" ?", " Never-worked", " Without-pay", " State-gov",
+         " Self-emp-not-inc", " Private", " Federal-gov",
+         " Local-gov",  " Self-emp-inc"]
+    # 定义各个类别对应的虚拟变量
+    contrast = np.eye(9, 6, k=-3)
+    # 为每个虚拟变量命名
+    contrast_mat = ContrastMatrix(contrast, l[3:])
+    formula = """label_code ~ C(workclass, contrast_mat, levels=l)
+    + C(sex) + education_num + capital_gain
+    + capital_loss + hours_per_week"""
+    model = sm.Logit.from_formula(formula, data=data)
+    re = model.fit()
+    return re
+
+
+def train_model(data):
     """
     搭建逻辑回归模型，并训练模型
     """
@@ -82,7 +82,7 @@ def trainModel(data):
     return re
 
 
-def baseModel(data):
+def base_model(data):
     """
     原有模型
     """
@@ -92,14 +92,14 @@ def baseModel(data):
     return re
 
 
-def makePrediction(re, testSet, alpha=0.5):
+def make_prediction(re, test_set, alpha=0.5):
     """
     使用训练好的模型对测试数据做预测
     """
     # 关闭pandas有关chain_assignment的警告
     pd.options.mode.chained_assignment = None
     # 计算事件发生的概率
-    data = testSet.copy()
+    data = test_set.copy()
     data["prob"] = re.predict(data)
     # 根据预测的概率，得出最终的预测
     data["pred"] = data.apply(lambda x: 1 if x["prob"] > alpha else 0, axis=1)
@@ -113,7 +113,7 @@ def evaluation(newRe, baseRe):
     fpr, tpr, _ = metrics.roc_curve(newRe["label_code"], newRe["prob"])
     auc = metrics.auc(fpr, tpr)
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -132,27 +132,27 @@ def evaluation(newRe, baseRe):
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("加入性别后的ROC曲线",
-            "曲线下面积（AUC）", auc))
+                                                         "曲线下面积（AUC）", auc))
     else:
         ax.plot(fpr, tpr, "k",
-            label="%s; %s = %0.2f" % ("加入性别后的ROC曲线".decode("utf-8"),
-            "曲线下面积（AUC）".decode("utf-8"), auc))
+                label="%s; %s = %0.2f" % ("加入性别后的ROC曲线".decode("utf-8"),
+                                          "曲线下面积（AUC）".decode("utf-8"), auc))
     # 绘制原模型的ROC曲线
     fpr, tpr, _ = metrics.roc_curve(baseRe["label_code"], baseRe["prob"])
     auc = metrics.auc(fpr, tpr)
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.plot(fpr, tpr, "b-.", label="%s; %s = %0.2f" % ("加入性别前的ROC曲线",
-        "曲线下面积（AUC）", auc))
+                                                           "曲线下面积（AUC）", auc))
     else:
         ax.plot(fpr, tpr, "b-.",
-            label="%s; %s = %0.2f" % ("加入性别前的ROC曲线".decode("utf-8"),
-            "曲线下面积（AUC）".decode("utf-8"), auc))
+                label="%s; %s = %0.2f" % ("加入性别前的ROC曲线".decode("utf-8"),
+                                          "曲线下面积（AUC）".decode("utf-8"), auc))
     legend = plt.legend(shadow=True)
     plt.show()
 
 
-def analyseData(data):
+def analyse_data(data):
     """
     通过统计方法，了解数据性质
     """
@@ -167,7 +167,7 @@ def analyseData(data):
     plt.show()
 
 
-def logitRegression(data):
+def logit_regression(data):
     """
     逻辑回归模型分析步骤展示
 
@@ -175,26 +175,26 @@ def logitRegression(data):
     ----
     data ：DataFrame，建模数据
     """
-    data = transLabel(data)
-    analyseData(data)
+    data = trans_label(data)
+    analyse_data(data)
     # 将数据分为训练集和测试集
-    trainSet, testSet = train_test_split(data, test_size=0.2, random_state=2310)
+    train_set, test_set = train_test_split(data, test_size=0.2, random_state=2310)
     # 训练模型并分析模型效果
-    newRe = trainModel(trainSet)
-    print(newRe.summary())
-    newRe = makePrediction(newRe, testSet)
+    new_re = train_model(train_set)
+    print(new_re.summary())
+    new_re = make_prediction(new_re, test_set)
     # 计算原模型预测结果
-    baseRe = baseModel(trainSet)
-    baseRe = makePrediction(baseRe, testSet)
-    evaluation(newRe, baseRe)
+    base_re = base_model(train_set)
+    base_re = make_prediction(base_re, test_set)
+    evaluation(new_re, base_re)
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\adult.data" % homePath
+        data_path = "%s\\data\\adult.data" % home_path
     else:
-        dataPath = "%s/data/adult.data" % homePath
-    data = readData(dataPath)
-    logitRegression(data)
+        data_path = "%s/data/adult.data" % home_path
+    data = read_data(data_path)
+    logit_regression(data)

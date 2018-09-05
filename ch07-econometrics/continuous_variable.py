@@ -19,7 +19,7 @@ import statsmodels.api as sm
 import scipy.stats as scs
 
 
-def transLabel(data):
+def trans_label(data):
     """
     将文字变量转化为数字变量
     """
@@ -27,17 +27,17 @@ def transLabel(data):
     return data
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
     data = pd.read_csv(path)
-    cols = ["age", "education_num",
-        "capital_gain", "capital_loss", "hours_per_week", "label"]
+    cols = ["age", "education_num", "capital_gain",
+            "capital_loss", "hours_per_week", "label"]
     return data[cols]
 
 
-def transFeature(data, category):
+def trans_feature(data, category):
     """
     根据传入的分段区间，将每星期工作时间转换为定量变量
 
@@ -48,17 +48,17 @@ def transFeature(data, category):
     category : list，分段区间
     """
     labels = ["{0}-{1}".format(category[i], category[i+1]) for i in range(len(category) - 1)]
-    data["hours_per_week_group"] = pd.cut(data["hours_per_week"],
-        category, include_lowest=True, labels=labels)
+    data.loc[:, "hours_per_week_group"] = pd.cut(
+        data["hours_per_week"], category, include_lowest=True, labels=labels)
     return data
 
 
-def getCategory(data):
+def get_category(data):
     """
     基于卡方检验，得到每星期工作时间的“最优”分段
     """
     interval = [data["hours_per_week"].min(), data["hours_per_week"].max()]
-    _category = doDivide(data, interval)
+    _category = do_divide(data, interval)
     s = set()
     for i in _category:
         s = s.union(set(i))
@@ -67,51 +67,51 @@ def getCategory(data):
     return category
 
 
-def doDivide(data, interval):
+def do_divide(data, interval):
     """
     使用贪心算法，得到“最优”的分段
     """
     category = []
-    pValue, chi2, index = divideData(data, interval[0], interval[1])
+    p_value, chi2, index = divide_data(data, interval[0], interval[1])
     if chi2 < 15:
         category.append(interval)
     else:
-        category += doDivide(data, [interval[0], index])
-        category += doDivide(data, [index, interval[1]])
+        category += do_divide(data, [interval[0], index])
+        category += do_divide(data, [index, interval[1]])
     return category
 
 
-def divideData(data, minValue, maxValue):
+def divide_data(data, min_value, max_value):
     """
     遍历所有可能的分段，返回卡方统计量最高的分段
     """
-    maxChi2 = 0
+    max_chi2 = 0
     index = -1
-    maxPValue = 0
-    for i in range(minValue+1, maxValue):
-        category = pd.cut(data["hours_per_week"], [minValue, i, maxValue],
-            include_lowest=True)
+    max_p_value = 0
+    for i in range(min_value + 1, max_value):
+        category = pd.cut(data["hours_per_week"], [min_value, i, max_value],
+                          include_lowest=True)
         cross = pd.crosstab(data["label"], category)
-        chi2, pValue, _, _ = scs.chi2_contingency(cross)
-        if chi2 > maxChi2:
-            maxPValue = pValue
-            maxChi2 = chi2
+        chi2, p_value, _, _ = scs.chi2_contingency(cross)
+        if chi2 > max_chi2:
+            max_p_value = p_value
+            max_chi2 = chi2
             index = i
-    return maxPValue, maxChi2, index
+    return max_p_value, max_chi2, index
 
 
-def trainModel(data):
+def train_model(data):
     """
     利用新生成的定性变量搭建逻辑回归模型，并训练模型
     """
     formula = """label_code ~ education_num + capital_gain
-        + capital_loss + C(hours_per_week_group)"""
+    + capital_loss + C(hours_per_week_group)"""
     model = sm.Logit.from_formula(formula, data=data)
     re = model.fit()
     return re
 
 
-def baseModel(data):
+def base_model(data):
     """
     原有模型
     """
@@ -121,28 +121,28 @@ def baseModel(data):
     return re
 
 
-def makePrediction(re, testSet, alpha=0.5):
+def make_prediction(re, test_set, alpha=0.5):
     """
     使用训练好的模型对测试数据做预测
     """
     # 关闭pandas有关chain_assignment的警告
     pd.options.mode.chained_assignment = None
     # 计算事件发生的概率
-    data = testSet.copy()
+    data = test_set.copy()
     data["prob"] = re.predict(data)
     # 根据预测的概率，得出最终的预测
     data["pred"] = data.apply(lambda x: 1 if x["prob"] > alpha else 0, axis=1)
     return data
 
 
-def evaluation(newRe, baseRe):
+def evaluation(new_re, base_re):
     """
     展示将每星期工作时间离散化之后，模型效果的变化
     """
-    fpr, tpr, _ = metrics.roc_curve(newRe["label_code"], newRe["prob"])
+    fpr, tpr, _ = metrics.roc_curve(new_re["label_code"], new_re["prob"])
     auc = metrics.auc(fpr, tpr)
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -161,27 +161,27 @@ def evaluation(newRe, baseRe):
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.plot(fpr, tpr, "k", label="%s; %s = %0.3f" % ("转换后的ROC曲线",
-            "曲线下面积（AUC）", auc))
+                                                         "曲线下面积（AUC）", auc))
     else:
         ax.plot(fpr, tpr, "k",
-            label="%s; %s = %0.3f" % ("转换后的ROC曲线".decode("utf-8"),
-            "曲线下面积（AUC）".decode("utf-8"), auc))
+                label="%s; %s = %0.3f" % ("转换后的ROC曲线".decode("utf-8"),
+                                          "曲线下面积（AUC）".decode("utf-8"), auc))
     # 绘制原模型的ROC曲线
-    fpr, tpr, _ = metrics.roc_curve(baseRe["label_code"], baseRe["prob"])
+    fpr, tpr, _ = metrics.roc_curve(base_re["label_code"], base_re["prob"])
     auc = metrics.auc(fpr, tpr)
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
         ax.plot(fpr, tpr, "b-.", label="%s; %s = %0.3f" % ("转换前的ROC曲线",
-            "曲线下面积（AUC）", auc))
+                                                           "曲线下面积（AUC）", auc))
     else:
         ax.plot(fpr, tpr, "b-.",
-            label="%s; %s = %0.3f" % ("转换前的ROC曲线".decode("utf-8"),
-            "曲线下面积（AUC）".decode("utf-8"), auc))
+                label="%s; %s = %0.3f" % ("转换前的ROC曲线".decode("utf-8"),
+                                          "曲线下面积（AUC）".decode("utf-8"), auc))
     legend = plt.legend(shadow=True)
     plt.show()
 
 
-def logitRegression(data):
+def logit_regression(data):
     """
     逻辑回归模型分析步骤展示
 
@@ -189,31 +189,30 @@ def logitRegression(data):
     ----
     data ：DataFrame，建模数据
     """
-    data = transLabel(data)
+    data = trans_label(data)
     # 将数据分为训练集和测试集
-    trainSet, testSet = train_test_split(data, test_size=0.2, random_state=2310)
-    category = getCategory(trainSet)
-    #category = range(0, 105, 10)
-    trainSet = transFeature(trainSet, category)
-    testSet = transFeature(testSet, category)
+    train_set, test_set = train_test_split(data, test_size=0.2, random_state=2310)
+    category = get_category(train_set)
+    train_set = trans_feature(train_set, category)
+    test_set = trans_feature(test_set, category)
     # 训练模型并分析模型效果
-    newRe = trainModel(trainSet)
-    print(newRe.summary())
-    newRe = makePrediction(newRe, testSet)
+    new_re = train_model(train_set)
+    print(new_re.summary())
+    new_re = make_prediction(new_re, test_set)
     # 计算原模型预测结果
-    baseRe = baseModel(trainSet)
-    baseRe = makePrediction(baseRe, testSet)
-    evaluation(newRe, baseRe)
+    base_re = base_model(train_set)
+    base_re = make_prediction(base_re, test_set)
+    evaluation(new_re, base_re)
 
 
 if __name__ == "__main__":
     # 设置显示格式
     pd.set_option('display.width', 1000)
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\adult.data" % homePath
+        data_path = "%s\\data\\adult.data" % home_path
     else:
-        dataPath = "%s/data/adult.data" % homePath
-    data = readData(dataPath)
-    logitRegression(data)
+        data_path = "%s/data/adult.data" % home_path
+    data = read_data(data_path)
+    logit_regression(data)

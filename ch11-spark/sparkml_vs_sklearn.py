@@ -15,7 +15,7 @@ from pyspark.sql import SparkSession
 from pyspark.mllib.regression import LabeledPoint, LinearRegressionWithSGD
 
 
-def readData(path):
+def read_data(path):
     """
     利用pandas读取数据
     """
@@ -23,7 +23,7 @@ def readData(path):
     return np.c_[data.values[:, 0], data.values[:, 3]]
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成训练模型的数据
     """
@@ -34,7 +34,7 @@ def generateData(n):
     return np.c_[y, x]
 
 
-def startSpark():
+def start_spark():
     """
     创建SparkSession，这是Spark程序的入口
     """
@@ -42,7 +42,7 @@ def startSpark():
     return spark
 
 
-def trans2RDD(data, sc):
+def trans_2_RDD(data, sc):
     """
     将Python里的数据转换为RDD
     """
@@ -51,56 +51,54 @@ def trans2RDD(data, sc):
     return data
 
 
-def trainModel(data, rdd):
+def train_model(data, rdd):
     """
     分别使用scikit-learn和Spark MLlib训练模型
     """
-    sklearnModel = sklearnLR()
-    sklearnModel.fit(data[:, 1:], data[:, 0])
-    mllibModel = LinearRegressionWithSGD.train(rdd, intercept=True)
-    return sklearnModel, mllibModel
+    sklearn_model = sklearnLR()
+    sklearn_model.fit(data[:, 1:], data[:, 0])
+    mllib_model = LinearRegressionWithSGD.train(rdd, intercept=True)
+    return sklearn_model, mllib_model
 
 
-
-def run(spark, dataPath):
+def run(spark, data_path):
     """
     程序的入口
     """
-    data = readData(dataPath)
-    rdd = trans2RDD(data, spark._sc)
-    sklearnModel, mllibModel = trainModel(data, rdd)
+    data = read_data(data_path)
+    rdd = trans_2_RDD(data, spark._sc)
+    sklearn_model, mllib_model = train_model(data, rdd)
     # 创建一个图形框
     fig = plt.figure(figsize=(12, 6), dpi=80)
     ax = fig.add_subplot(1, 2, 1)
-    _visualize(sklearnModel, mllibModel, data, ax)
-    data = generateData(200)
-    rdd = trans2RDD(data, spark._sc)
-    sklearnModel, mllibModel = trainModel(data, rdd)
+    _visualize(sklearn_model, mllib_model, data, ax)
+    data = generate_data(200)
+    rdd = trans_2_RDD(data, spark._sc)
+    sklearn_model, mllib_model = train_model(data, rdd)
     ax = fig.add_subplot(1, 2, 2)
-    _visualize(sklearnModel, mllibModel, data, ax)  
+    _visualize(sklearn_model, mllib_model, data, ax)
     plt.show()
 
 
-def _visualize(sklearnModel, mllibModel, data, ax):
+def _visualize(sklearn_model, mllib_model, data, ax):
     """
     将模型结果可视化
     """
     ax.set_ylim([data[:, 0].min()-1, data[:, 0].max()+1])
     ax.scatter(data[:, 1], data[:, 0], alpha=0.5)
     x = np.linspace(data[:, 1].min(), data[:, 1].max(), 100)
-    ax.plot(x, sklearnModel.predict(x.reshape(-1, 1)), "k", linewidth=2,
-        label="scikit-learn")
-    ax.plot(x, [mllibModel.predict(i) for i in x.reshape(-1, 1)], "r-.", linewidth=2,
-        label="Spark MLlib")
+    ax.plot(x, sklearn_model.predict(x.reshape(-1, 1)), "k", linewidth=2, label="scikit-learn")
+    ax.plot(x, [mllib_model.predict(i) for i in x.reshape(-1, 1)],
+            "r-.", linewidth=2, label="Spark MLlib")
     legend = plt.legend(shadow=True)
 
 
 if __name__ == "__main__":
-    spark = startSpark()
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    spark = start_spark()
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\reg_data.csv" % homePath
+        data_path = "%s\\data\\reg_data.csv" % home_path
     else:
-        dataPath = "%s/data/reg_data.csv" % homePath
-    run(spark, dataPath)
+        data_path = "%s/data/reg_data.csv" % home_path
+    run(spark, data_path)

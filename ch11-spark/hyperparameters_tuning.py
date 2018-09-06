@@ -15,7 +15,7 @@ from pyspark import SparkContext, SparkConf
 from spark_sklearn import GridSearchCV
 
 
-def generateData(n):
+def generate_data(n):
     """
     生成训练模型的数据
     """
@@ -27,7 +27,7 @@ def generateData(n):
     return pd.DataFrame({"x": x, "y": y, "z": z})
 
 
-def gridSearch(sc, data, label, features):
+def grid_search(sc, data, label, features):
     """
     使用grid search寻找最优的超参数
     """
@@ -40,7 +40,7 @@ def gridSearch(sc, data, label, features):
     return gs
 
 
-def startSpark():
+def start_spark():
     """
     创建SparkContext，这是Spark程序的入口
     """
@@ -51,10 +51,10 @@ def startSpark():
 
 if __name__ == "__main__":
     np.random.seed(2048)
-    sc = startSpark()
-    data = generateData(300)
-    gs = gridSearch(sc, data, "y", ["x", "z"])
+    sc = start_spark()
+    data = generate_data(300)
+    gs = grid_search(sc, data, "y", ["x", "z"])
     print("最优的超参数alpha为：%s" % gs.best_params_)
     print("相应的模型参数为：%s" %
-        np.append(gs.best_estimator_.coef_, gs.best_estimator_.intercept_))
+          np.append(gs.best_estimator_.coef_, gs.best_estimator_.intercept_))
     print("正确的模型参数为：[1., 0, 0]")

@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 
-def transLabel(data):
+def trans_label(data):
     """
     将文字变量转化为数字变量
     """
@@ -23,7 +23,7 @@ def transLabel(data):
     return data
 
 
-def trainModel(data, features, labels):
+def train_model(data, features, labels):
     """
     搭建逻辑回归模型，并训练模型
     """
@@ -32,7 +32,7 @@ def trainModel(data, features, labels):
     return model
 
 
-def readData(path):
+def read_data(path):
     """
     使用pandas读取数据
     """
@@ -41,24 +41,24 @@ def readData(path):
     return data[cols]
 
 
-def logitRegression(data):
+def logit_regression(data):
     """
     训练模型，并画出模型的ROC曲线
     """
-    data = transLabel(data)
+    data = trans_label(data)
     features = ["age", "education_num", "capital_gain", "capital_loss", "hours_per_week"]
     labels = "label_code"
-    trainSet, testSet = train_test_split(data, test_size=0.3, random_state=2310)
-    model = trainModel(trainSet, features, labels)
+    train_set, test_set = train_test_split(data, test_size=0.3, random_state=2310)
+    model = train_model(train_set, features, labels)
     # 得到预测的概率
-    preds = model.predict_proba(testSet[features])[:,1]
+    preds = model.predict_proba(test_set[features])[:, 1]
     re = pd.DataFrame()
     re["pred_proba"] = preds
-    re["label"] = testSet[labels].tolist()
+    re["label"] = test_set[labels].tolist()
     return re
-    
 
-def PrecisionRecallFscore(pred, label, beta=1):
+
+def precision_recall_fscore(pred, label, beta=1):
     """
     计算预测结果的Precision, Recall以及Fscore
     """
@@ -70,18 +70,18 @@ def PrecisionRecallFscore(pred, label, beta=1):
     return precision, recall, fscore
 
 
-def AUC(predProb, label):
+def AUC(pred_prob, label):
     """
     计算False positive rate, True positive rate和AUC
     """
     # 得到False positive rate和True positive rate
-    fpr, tpr, _ = metrics.roc_curve(label, predProb)
+    fpr, tpr, _ = metrics.roc_curve(label, pred_prob)
     # 得到AUC
     auc = metrics.auc(fpr, tpr)
     return fpr, tpr, auc
 
 
-def visualizePrecRecFscoreByAlphas(re):
+def visualize_prec_rec_fscore_by_alphas(re):
     """
     展示不同的阈值下，模型的Precision, Recall和F1-score
     """
@@ -92,12 +92,12 @@ def visualizePrecRecFscoreByAlphas(re):
     for alpha in alphas:
         pred = re.apply(lambda x: 1 if x["pred_proba"] > alpha else 0, axis=1)
         label = re["label"]
-        prec, rec, fscore = PrecisionRecallFscore(pred, label)
+        prec, rec, fscore = precision_recall_fscore(pred, label)
         precs.append(prec)
         recs.append(rec)
         fscores.append(fscore)
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -111,7 +111,7 @@ def visualizePrecRecFscoreByAlphas(re):
     plt.show()
 
 
-def visualizePrecRecFscoreByBetas(re):
+def visualize_prec_rec_fscore_by_betas(re):
     """
     展示不同的beta下，模型的Precision, Recall和F1-score
     """
@@ -122,12 +122,12 @@ def visualizePrecRecFscoreByBetas(re):
     pred = re.apply(lambda x: 1 if x["pred_proba"] > 0.5 else 0, axis=1)
     label = re["label"]
     for beta in betas:
-        prec, rec, fscore = PrecisionRecallFscore(pred, label, beta)
+        prec, rec, fscore = precision_recall_fscore(pred, label, beta)
         precs.append(prec)
         recs.append(rec)
         fscores.append(fscore)
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -140,13 +140,13 @@ def visualizePrecRecFscoreByBetas(re):
     plt.show()
 
 
-def visualizeRoc(re):
+def visualize_roc(re):
     """
     绘制ROC曲线
     """
     fpr, tpr, auc = AUC(re["pred_proba"], re["label"])
     # 为在Matplotlib中显示中文，设置特殊字体
-    plt.rcParams["font.sans-serif"]=["SimHei"]
+    plt.rcParams["font.sans-serif"] = ["SimHei"]
     # 创建一个图形框
     fig = plt.figure(figsize=(6, 6), dpi=80)
     # 在图形框里只画一幅图
@@ -164,11 +164,11 @@ def visualizeRoc(re):
     ax.set_ylim([0, 1])
     # 在Python3中，str不需要decode
     if sys.version_info[0] == 3:
-        ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线",
-            "曲线下面积（AUC）", auc))
+        ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线", "曲线下面积（AUC）", auc))
     else:
-        ax.plot(fpr, tpr, "k", label="%s; %s = %0.2f" % ("ROC曲线".decode("utf-8"),
-            "曲线下面积（AUC）".decode("utf-8"), auc))
+        ax.plot(fpr, tpr, "k",
+                label="%s; %s = %0.2f" % ("ROC曲线".decode("utf-8"),
+                                          "曲线下面积（AUC）".decode("utf-8"), auc))
     ax.fill_between(fpr, tpr, color="grey", alpha=0.6)
     legend = plt.legend(shadow=True)
     plt.show()
@@ -178,25 +178,25 @@ def evaluation(re):
     """
     用图像化的形式展示评估指标
     """
-    visualizePrecRecFscoreByAlphas(re)
-    visualizePrecRecFscoreByBetas(re)
-    visualizeRoc(re)
+    visualize_prec_rec_fscore_by_alphas(re)
+    visualize_prec_rec_fscore_by_betas(re)
+    visualize_roc(re)
 
 
-def run(dataPath):
+def run(data_path):
     """
     训练模型，并使用Precisiion, Recall, F-score以及AUC评估模型
     """
-    data = readData(dataPath)
-    re = logitRegression(data)
+    data = read_data(data_path)
+    re = logit_regression(data)
     evaluation(re)
 
 
 if __name__ == "__main__":
-    homePath = os.path.dirname(os.path.abspath(__file__))
+    home_path = os.path.dirname(os.path.abspath(__file__))
     # Windows下的存储路径与Linux并不相同
     if os.name == "nt":
-        dataPath = "%s\\data\\adult.data" % homePath
+        data_path = "%s\\data\\adult.data" % home_path
     else:
-        dataPath = "%s/data/adult.data" % homePath
-    run(dataPath)
+        data_path = "%s/data/adult.data" % home_path
+    run(data_path)

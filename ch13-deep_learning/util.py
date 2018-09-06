@@ -21,89 +21,89 @@ def _read32(bytestream):
     return np.frombuffer(bytestream.read(4), dtype=dt)[0]
 
 
-def readImages(f):
+def read_images(f):
     """
     读取图片文件，并将每个图片转换为行向量
     """
     with gzip.GzipFile(fileobj=f) as bytestream:
         magic = _read32(bytestream)
         if magic != 2051:
-            raise ValueError("Invalid magic number %d in MNIST image file: %s" %
-                (magic, f.name))
-        numImages = _read32(bytestream)
+            raise ValueError("Invalid magic number %d in MNIST image file: %s"
+                             % (magic, f.name))
+        num_images = _read32(bytestream)
         rows = _read32(bytestream)
         cols = _read32(bytestream)
-        buf = bytestream.read(rows * cols * numImages)
+        buf = bytestream.read(rows * cols * num_images)
         data = np.frombuffer(buf, dtype=np.uint8)
-        data = data.reshape(numImages, rows * cols).astype(np.float32) / 255.0
+        data = data.reshape(num_images, rows * cols).astype(np.float32) / 255.0
         return data
 
 
-def readLabels(f):
+def read_labels(f):
     """
     读取图片的标签
     """
     with gzip.GzipFile(fileobj=f) as bytestream:
         magic = _read32(bytestream)
         if magic != 2049:
-            raise ValueError("Invalid magic number %d in MNIST label file: %s" %
-                (magic, f.name))
-        numItems = _read32(bytestream)
-        buf = bytestream.read(numItems)
+            raise ValueError("Invalid magic number %d in MNIST label file: %s"
+                             % (magic, f.name))
+        num_items = _read32(bytestream)
+        buf = bytestream.read(num_items)
         labels = np.frombuffer(buf, dtype=np.uint8)
         return labels
 
 
-def OneHotEncoder(labels, classNum=10):
+def one_hot_encoder(labels, class_num=10):
     """
     """
-    _cond = np.array([list(range(classNum)), ] * labels.shape[0])
+    _cond = np.array([list(range(class_num)), ] * labels.shape[0])
     cond = _cond == labels.reshape(-1, 1)
-    oneHot = np.zeros((labels.shape[0], classNum))
-    oneHot[cond] = 1
-    return oneHot
+    one_hot = np.zeros((labels.shape[0], class_num))
+    one_hot[cond] = 1
+    return one_hot
 
 
-def loadData():
+def load_data():
     """
     读取MNIST图片数据
     """
     # Windows下的存储路径与Linux并不相同
-    trainImgFile = "train-images-idx3-ubyte.gz"
-    trainLabelFile = "train-labels-idx1-ubyte.gz"
-    testImgFile = "t10k-images-idx3-ubyte.gz"
-    testLabelFile = "t10k-labels-idx1-ubyte.gz"
+    train_img_file = "train-images-idx3-ubyte.gz"
+    train_label_file = "train-labels-idx1-ubyte.gz"
+    test_img_file = "t10k-images-idx3-ubyte.gz"
+    test_label_file = "t10k-labels-idx1-ubyte.gz"
     if os.name == "nt":
-        homePath = "%s\\data" % os.path.dirname(os.path.abspath(__file__))
-        with open("%s\\%s" % (homePath, trainImgFile), "rb") as f:
-            trainImg = readImages(f)
-        with open("%s\\%s" % (homePath, trainLabelFile), "rb") as f:
-            trainLabel = OneHotEncoder(readLabels(f))
-        with open("%s\\%s" % (homePath, testImgFile), "rb") as f:
-            testImg = readImages(f)
-        with open("%s\\%s" % (homePath, testLabelFile), "rb") as f:
-            testLabel = OneHotEncoder(readLabels(f))
+        home_path = "%s\\data" % os.path.dirname(os.path.abspath(__file__))
+        with open("%s\\%s" % (home_path, train_img_file), "rb") as f:
+            train_img = read_images(f)
+        with open("%s\\%s" % (home_path, train_label_file), "rb") as f:
+            train_label = one_hot_encoder(read_labels(f))
+        with open("%s\\%s" % (home_path, test_img_file), "rb") as f:
+            test_img = read_images(f)
+        with open("%s\\%s" % (home_path, test_label_file), "rb") as f:
+            test_label = one_hot_encoder(read_labels(f))
     else:
-        homePath = "%s/data" % os.path.dirname(os.path.abspath(__file__))
-        with open("%s/%s" % (homePath, trainImgFile), "rb") as f:
-            trainImg = readImages(f)
-        with open("%s/%s" % (homePath, trainLabelFile), "rb") as f:
-            trainLabel = OneHotEncoder(readLabels(f))
-        with open("%s/%s" % (homePath, testImgFile), "rb") as f:
-            testImg = readImages(f)
-        with open("%s/%s" % (homePath, testLabelFile), "rb") as f:
-            testLabel = OneHotEncoder(readLabels(f))
-    return trainImg, trainLabel, testImg, testLabel    
+        home_path = "%s/data" % os.path.dirname(os.path.abspath(__file__))
+        with open("%s/%s" % (home_path, train_img_file), "rb") as f:
+            train_img = read_images(f)
+        with open("%s/%s" % (home_path, train_label_file), "rb") as f:
+            train_label = one_hot_encoder(read_labels(f))
+        with open("%s/%s" % (home_path, test_img_file), "rb") as f:
+            test_img = read_images(f)
+        with open("%s/%s" % (home_path, test_label_file), "rb") as f:
+            test_label = one_hot_encoder(read_labels(f))
+    return train_img, train_label, test_img, test_label
 
 
 def visualize(img):
     """
     将数字格式的图片可视化
     """
-    imgPerRow = 8
+    img_per_row = 8
     fig = plt.figure(figsize=(10, 10), dpi=80)
-    for i in range(imgPerRow * imgPerRow):
-        ax = fig.add_subplot(imgPerRow, imgPerRow, i+1)
+    for i in range(img_per_row * img_per_row):
+        ax = fig.add_subplot(img_per_row, img_per_row, i+1)
         ax.imshow(img[i].reshape(28, 28), cmap=plt.cm.binary)
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
@@ -111,5 +111,5 @@ def visualize(img):
 
 
 if __name__ == "__main__":
-    data = loadData()
+    data = load_data()
     visualize(data[0])

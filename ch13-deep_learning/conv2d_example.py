@@ -21,7 +21,7 @@ def run():
         [1, 3],
         [2, 4]], dtype=tf.float32)
     # 输入的数据有两个input channel，每个channel为2x2的矩阵
-    image  = tf.reshape(image, [1, 2, 2, 2], name="image")
+    image = tf.reshape(image, [1, 2, 2, 2], name="image")
     # 相应地定义shared weights
     kernel = tf.constant([
         [1, -2],

@@ -6,20 +6,20 @@
 
 import os
 
-from mlp import ANN 
+from mlp import ANN
 
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs, make_circles, make_moons
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import  StandardScaler, OneHotEncoder
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 
-def generateData(n):
+def generate_data(n):
     """
     """
     np.random.seed(12046)
-    blobs = make_blobs(n_samples=n, centers = [[-2, -2], [2, 2]])
+    blobs = make_blobs(n_samples=n, centers=[[-2, -2], [2, 2]])
     circles = make_circles(n_samples=n, factor=.4, noise=.05)
     moons = make_moons(n_samples=n, noise=.05)
     blocks = np.random.rand(n, 2) - 0.5
@@ -34,19 +34,19 @@ def generateData(n):
     return blobs, circles, moons, blocks
 
 
-def drawData(ax, data):
+def draw_data(ax, data):
     """
     将数据可视化
     """
     X, y = data
-    label1 = X[y>0]
+    label1 = X[y > 0]
     ax.scatter(label1[:, 0], label1[:, 1], marker="o")
-    label0 = X[y==0]
+    label0 = X[y == 0]
     ax.scatter(label0[:, 0], label0[:, 1], marker="^", color="k")
     return ax
 
 
-def drawModel(ax, model):
+def draw_model(ax, model):
     """
     将模型的分离超平面可视化
     """
@@ -59,7 +59,7 @@ def drawModel(ax, model):
     return ax
 
 
-def trainLogit(data):
+def train_logit(data):
     """
     """
     X, y = data
@@ -68,13 +68,13 @@ def trainLogit(data):
     return model
 
 
-def trainANN(data, logPath):
+def train_ANN(data, log_path):
     """
     """
     X, y = data
     enc = OneHotEncoder()
     y = enc.fit_transform(y.reshape(-1, 1)).toarray()
-    model = ANN([4, 4, 2], logPath)
+    model = ANN([4, 4, 2], log_path)
     model.fit(X, y)
     return model
 
@@ -89,14 +89,14 @@ def visualize(data):
     for i in range(len(data)):
         ax = fig.add_subplot(2, 2, i+1)
         ax1 = fig1.add_subplot(2, 2, i+1)
-        drawData(ax, data[i])
+        draw_data(ax, data[i])
         # Windows下的存储路径与Linux并不相同
         if os.name == "nt":
-            drawModel(ax, trainANN(data[i], "logs\\data_%s" % (i+1)))
+            draw_model(ax, train_ANN(data[i], "logs\\data_%s" % (i + 1)))
         else:
-            drawModel(ax, trainANN(data[i], "logs/data_%s" % (i+1)))
-        drawData(ax1, data[i])
-        drawModel(ax1, trainLogit(data[i]))
+            draw_model(ax, train_ANN(data[i], "logs/data_%s" % (i + 1)))
+        draw_data(ax1, data[i])
+        draw_model(ax1, train_logit(data[i]))
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
         ax1.get_xaxis().set_visible(False)
@@ -105,5 +105,5 @@ def visualize(data):
 
 
 if __name__ == "__main__":
-    data = generateData(200)
+    data = generate_data(200)
     visualize(data)

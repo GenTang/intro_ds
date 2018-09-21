@@ -17,17 +17,19 @@
 # limitations under the License.
 #
 
-SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
-SPARK_ROOT_DIR="$(dirname "$SCRIPT_DIR")"
-# Exclude auto-generated configuration file.
-PATHS_TO_CHECK="$( cd "$SPARK_ROOT_DIR" && find . -name "*.py" )"
-PYCODESTYLE_REPORT_PATH="$SPARK_ROOT_DIR/dev/pycodestyle-report.txt"
-PYLINT_REPORT_PATH="$SPARK_ROOT_DIR/dev/pylint-report.txt"
-PYLINT_INSTALL_INFO="$SPARK_ROOT_DIR/dev/pylint-info.txt"
-SPHINXBUILD=${SPHINXBUILD:=sphinx-build}
-SPHINX_REPORT_PATH="$SPARK_ROOT_DIR/dev/sphinx-report.txt"
+# This script is copied and modified from the project of Apache Spark
 
-cd "$SPARK_ROOT_DIR"
+SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
+ROOT_DIR="$(dirname "$SCRIPT_DIR")"
+# Exclude auto-generated configuration file.
+PATHS_TO_CHECK="$( cd "$ROOT_DIR" && find . -name "*.py" )"
+PYCODESTYLE_REPORT_PATH="$ROOT_DIR/dev/pycodestyle-report.txt"
+PYLINT_REPORT_PATH="$ROOT_DIR/dev/pylint-report.txt"
+PYLINT_INSTALL_INFO="$ROOT_DIR/dev/pylint-info.txt"
+SPHINXBUILD=${SPHINXBUILD:=sphinx-build}
+SPHINX_REPORT_PATH="$ROOT_DIR/dev/sphinx-report.txt"
+
+cd "$ROOT_DIR"
 
 # compileall: https://docs.python.org/2/library/compileall.html
 python -B -m compileall -q -l $PATHS_TO_CHECK > "$PYCODESTYLE_REPORT_PATH"
@@ -37,7 +39,7 @@ compile_status="${PIPESTATUS[0]}"
 # See: https://github.com/apache/spark/pull/1744#issuecomment-50982162
 # Updated to the latest official version of pep8. pep8 is formally renamed to pycodestyle.
 PYCODESTYLE_VERSION="2.3.1"
-PYCODESTYLE_SCRIPT_PATH="$SPARK_ROOT_DIR/dev/pycodestyle-$PYCODESTYLE_VERSION.py"
+PYCODESTYLE_SCRIPT_PATH="$ROOT_DIR/dev/pycodestyle-$PYCODESTYLE_VERSION.py"
 PYCODESTYLE_SCRIPT_REMOTE_PATH="https://raw.githubusercontent.com/PyCQA/pycodestyle/$PYCODESTYLE_VERSION/pycodestyle.py"
 
 if [ ! -e "$PYCODESTYLE_SCRIPT_PATH" ]; then
@@ -55,7 +57,7 @@ fi
 # dev/pylint should be appended to the PATH variable as well.
 # Jenkins by default installs the pylint3 version, so for now this just checks the code quality
 # of python3.
-export "PYTHONPATH=$SPARK_ROOT_DIR/dev/pylint"
+export "PYTHONPATH=$ROOT_DIR/dev/pylint"
 export "PYLINT_HOME=$PYTHONPATH"
 export "PATH=$PYTHONPATH:$PATH"
 

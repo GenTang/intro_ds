@@ -63,7 +63,7 @@ def PrecisionRecallFscore(pred, label, beta=1):
     计算预测结果的Precision, Recall以及Fscore
     """
     bins = np.array([0, 0.5, 1])
-    tp, fp, fn, tn = np.histogram2d(label, pred, bins=bins)[0].flatten()
+    tn, fp, fn, tp = np.histogram2d(label, pred, bins=bins)[0].flatten()
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
     fscore = (1 + beta ** 2) * precision * recall / (beta ** 2 * precision + recall)

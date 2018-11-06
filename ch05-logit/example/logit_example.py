@@ -141,10 +141,10 @@ def evaluation(re):
     bins = np.array([0, 0.5, 1])
     label = re["label_code"]
     pred = re["pred"]
-    tp, fp, fn, tn = np.histogram2d(label, pred, bins=bins)[0].flatten()
-    precision = tp / (tp + fp)  # 0.951
-    recall = tp / (tp + fn)  # 0.826
-    f1 = 2 * precision * recall / (precision + recall)  # 0.884
+    tn, fp, fn, tp = np.histogram2d(label, pred, bins=bins)[0].flatten()
+    precision = tp / (tp + fp)  # 0.707
+    recall = tp / (tp + fn)  # 0.374
+    f1 = 2 * precision * recall / (precision + recall)  # 0.490
     print("查准率: %.3f, 查全率: %.3f, f1: %.3f" % (precision, recall, f1))
 
 

@@ -8,8 +8,10 @@
 
 * [京东](https://item.jd.com/12346637.html)
 * [当当](http://product.dangdang.com/25269988.html)
-* [天猫](https://detail.tmall.com/item.htm?spm=a230r.1.14.149.22931839lGVS6N&id=569016593633&ns=1&abbucket=7)
-* [亚马逊](https://www.amazon.cn/dp/B07CPDVRHV/ref=sr_1_1?ie=UTF8&qid=1525745509&sr=8-1&keywords=%E7%B2%BE%E9%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6)
+
+本书还配套免费的视频课程，观看地址为：
+
+* [网易云课堂](https://study.163.com/course/introduction/1006187021.htm)
 
 如果发现书中有纰漏之处，请在[这里勘误](https://www.epubit.com/book/detail/22985)，谢谢大家。
 

@@ -163,7 +163,7 @@ def analyse_data(data):
     print(cross1)
     # 将交叉报表图形化
     props = lambda key: {"color": "0.45"} if ' >50K' in key else {"color": "#C6E2FF"}
-    mosaic(cross1[[" >50K", " <=50K"]].stack(), properties=props)
+    mosaic(cross1[[" >50K", " <=50K"]].stack(), properties=props, axes_label=False)
     plt.show()
 
 
